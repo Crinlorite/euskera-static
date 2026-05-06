@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import RootLayout from '../../layouts/RootLayout.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const levels = (await getCollection('levels'))
+  .filter((l) => l.id.startsWith(`${locale}/`))
+  .sort((a, b) => a.data.order - b.data.order);
+---
+<RootLayout locale={locale} title={t(locale, 'site.tagline')}>
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>{t(locale, 'home.hero.title')}</h1>
+      <p class="sub">{t(locale, 'home.hero.sub')}</p>
+      <a class="btn btn-primary" href={`/${locale}/a1/`}>{t(locale, 'home.cta.start')}</a>
+    </div>
+  </section>
+
+  <section class="container levels">
+    <h2>{t(locale, 'nav.levels')}</h2>
+    <ul class="level-list">
+      {levels.map((level) => (
+        <li>
+          <a class="card level-card" href={`/${locale}/${level.data.code}/`}>
+            <span class="level-code">{level.data.name}</span>
+            <span class="level-desc">{level.data.description}</span>
+          </a>
+        </li>
+      ))}
+      {['a2', 'b1', 'b2', 'c1', 'c2'].filter((c) => !levels.some((l) => l.data.code === c)).map((code) => (
+        <li>
+          <div class="card level-card disabled" aria-disabled="true">
+            <span class="level-code">{code.toUpperCase()}</span>
+            <span class="level-desc">{t(locale, 'levels.upcoming')}</span>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+</RootLayout>
+
+<style>
+  .hero {
+    padding-block: var(--s-8);
+    text-align: center;
+  }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin: 0 0 var(--s-3); letter-spacing: -0.02em; }
+  .sub { color: var(--c-text-muted); margin: 0 0 var(--s-5); }
+  .levels { padding-block-end: var(--s-8); }
+  .levels h2 { margin-block-end: var(--s-5); }
+  .level-list {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: var(--s-4);
+  }
+  .level-card {
+    display: grid;
+    gap: var(--s-2);
+    text-decoration: none;
+    color: inherit;
+  }
+  .level-code { font-weight: 700; font-size: 1.25rem; }
+  .level-desc { color: var(--c-text-muted); font-size: 0.9rem; }
+  .level-card.disabled { opacity: 0.6; cursor: not-allowed; }
+</style>

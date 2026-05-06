@@ -1,0 +1,88 @@
+---
+import { getCollection } from 'astro:content';
+import RootLayout from '../../../layouts/RootLayout.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
+import { t } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const allLevels = await getCollection('levels');
+  return allLevels
+    .filter((l) => ACTIVE_LOCALES.some((loc) => l.id.startsWith(`${loc}/`)))
+    .map((l) => {
+      const [locale, code] = l.id.split('/');
+      return { params: { locale, level: code }, props: { level: l } };
+    });
+}
+
+const { locale, level: levelSlug } = Astro.params as { locale: LocaleCode; level: string };
+const { level } = Astro.props;
+
+const allUnits = await getCollection('units');
+const units = allUnits
+  .filter((u) => u.id.startsWith(`${locale}/${levelSlug}/`))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const allLessons = await getCollection('lessons');
+const lessonsByUnit = new Map<string, number>();
+for (const u of units) {
+  const count = allLessons.filter((l) => l.id.startsWith(`${locale}/${levelSlug}/${u.data.code}/`)).length;
+  lessonsByUnit.set(u.data.code, count);
+}
+---
+<RootLayout locale={locale} title={level.data.name}>
+  <article class="container">
+    <header class="level-header">
+      <h1>{level.data.name}</h1>
+      <p>{level.data.description}</p>
+    </header>
+
+    <section class="units">
+      <h2>Unidades</h2>
+      {units.length === 0 ? (
+        <p>{t(locale, 'levels.upcoming')}</p>
+      ) : (
+        <ul class="unit-list">
+          {units.map((u) => (
+            <li>
+              <a class="card unit-card" href={`/${locale}/${levelSlug}/${u.data.code}/`}>
+                <span class="unit-num">{u.data.order.toString().padStart(2, '0')}</span>
+                <span class="unit-body">
+                  <strong>{u.data.title}</strong>
+                  <span class="unit-meta">
+                    {lessonsByUnit.get(u.data.code) ?? 0} {t(locale, 'unit.lessons').toLowerCase()} ·
+                    ~{u.data.estimatedMinutes} min
+                  </span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+
+    <section class="curriculum">
+      <h2>Currículum</h2>
+      <ol>
+        {level.data.curriculum.map((c) => <li>{c.title}</li>)}
+      </ol>
+    </section>
+  </article>
+</RootLayout>
+
+<style>
+  .level-header { padding-block: var(--s-6); border-block-end: 1px solid var(--c-border); }
+  .level-header h1 { margin: 0 0 var(--s-2); font-size: 2.5rem; }
+  .units, .curriculum { padding-block: var(--s-6); }
+  .unit-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+  .unit-card { display: grid; grid-template-columns: auto 1fr; gap: var(--s-4); align-items: center; text-decoration: none; color: inherit; }
+  .unit-num {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--c-red);
+    inline-size: 48px;
+    text-align: center;
+  }
+  .unit-body { display: grid; gap: var(--s-1); }
+  .unit-meta { color: var(--c-text-muted); font-size: 0.9rem; }
+  .curriculum ol { padding-inline-start: var(--s-5); color: var(--c-text-muted); display: grid; gap: var(--s-1); }
+</style>
