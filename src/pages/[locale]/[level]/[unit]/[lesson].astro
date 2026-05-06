@@ -32,7 +32,7 @@ const sibs = allLessons
 const idx = sibs.findIndex((l) => l.data.code === lessonCode);
 const prev = idx > 0 ? sibs[idx - 1] : undefined;
 const next = idx >= 0 && idx < sibs.length - 1 ? sibs[idx + 1] : undefined;
-const lessonKey = `${levelCode}/${unitCode}/${lessonCode}`;
+const lessonKey = lesson.data.id;
 ---
 <RootLayout locale={locale} title={lesson.data.title}>
   <div class="container-wide lesson-grid">
