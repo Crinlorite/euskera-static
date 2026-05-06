@@ -8,7 +8,6 @@
   const items: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' }> = [
     { href: `/${locale}/`, key: 'nav.home' },
     { href: `/${locale}/a1/`, label: 'A1' },
-    { href: `/${locale}/sobre/`, key: 'nav.about' },
     { href: `/${locale}/idioma/`, key: 'nav.language' },
     { href: `/${locale}/progreso/`, key: 'nav.progress' },
   ];
