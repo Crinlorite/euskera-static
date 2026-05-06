@@ -1,0 +1,13 @@
+code: 13-asteko-agenda
+level: a1
+title: Asteko agenda (la agenda de la semana)
+order: 13
+description: Planificar la semana, hablar de citas y compromisos, y usar el futuro próximo.
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs
