@@ -1,15 +1,28 @@
 # Euskera Static
 
-Portal gratuito y abierto para aprender euskera. **Work in progress.**
+Portal gratuito y abierto para aprender euskera. Sin login, sin ads, sin paywalls. Datos abiertos. Formato eterno.
 
-Sin login, sin ads, sin paywalls. Datos abiertos. Formato eterno.
+**Web:** [euskera.crintech.pro](https://euskera.crintech.pro) (próximamente)
 
 ## Estado
 
-Fase de diseño completa. Implementación pendiente.
+v0.0 en construcción. Ver el [diseño completo](docs/superpowers/specs/2026-05-06-euskera-static-design.md).
 
-Ver el [diseño completo](docs/superpowers/specs/2026-05-06-euskera-static-design.md).
+## Licencias
 
-## Web
+- **Código** (`src/`, `scripts/`, configs): [MIT](LICENSE)
+- **Contenido** (`src/content/`, lecciones y currículum): [CC BY-SA 4.0](LICENSE-CONTENT)
+- **Assets propios** (lauburu SVG, OG image, favicons): CC0
 
-[euskera.crintech.pro](https://euskera.crintech.pro) (próximamente)
+## Desarrollo
+
+```sh
+npm install
+npm run dev
+```
+
+Build: `npm run build` → `dist/`. Type-check: `npm run check`.
+
+## Contribuir
+
+PRs bienvenidas, especialmente para traducciones nuevas y correcciones de contenido. Abre un issue para hablar de cambios grandes antes de implementarlos.
