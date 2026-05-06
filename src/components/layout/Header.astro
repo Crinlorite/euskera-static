@@ -1,0 +1,85 @@
+---
+import { t } from '../../i18n/ui';
+import type { LocaleCode } from '../../i18n/config';
+import MobileDrawer from './MobileDrawer.svelte';
+
+interface Props { locale: LocaleCode; }
+const { locale } = Astro.props;
+
+const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' }> = [
+  { href: `/${locale}/`, key: 'nav.home' },
+  { href: `/${locale}/a1/`, label: 'A1' },
+  { href: `/${locale}/sobre/`, key: 'nav.about' },
+  { href: `/${locale}/idioma/`, key: 'nav.language' },
+  { href: `/${locale}/progreso/`, key: 'nav.progress' },
+];
+---
+<header class="site-header">
+  <div class="container-wide row">
+    <a class="brand" href={`/${locale}/`}>
+      <svg viewBox="-100 -100 200 200" width="28" height="28" aria-hidden="true">
+        <g>
+          <path d="M0 0 C 30 -10, 60 -30, 80 -60 C 60 -30, 30 -5, 0 0 Z" transform="rotate(0)" fill="currentColor"/>
+          <path d="M0 0 C 30 -10, 60 -30, 80 -60 C 60 -30, 30 -5, 0 0 Z" transform="rotate(90)" fill="currentColor"/>
+          <path d="M0 0 C 30 -10, 60 -30, 80 -60 C 60 -30, 30 -5, 0 0 Z" transform="rotate(180)" fill="currentColor"/>
+          <path d="M0 0 C 30 -10, 60 -30, 80 -60 C 60 -30, 30 -5, 0 0 Z" transform="rotate(270)" fill="currentColor"/>
+        </g>
+      </svg>
+      <span>{t(locale, 'site.name')}</span>
+    </a>
+    <nav class="primary-nav" aria-label="primary">
+      <ul>
+        {navItems.map((item) => (
+          <li>
+            <a href={item.href}>{item.label ?? (item.key ? t(locale, item.key) : item.href)}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <MobileDrawer client:load locale={locale} />
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    inset-block-start: 0;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(8px);
+    border-block-end: 1px solid var(--c-border);
+    z-index: 50;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: var(--s-5);
+    block-size: 64px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--s-2);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--c-text);
+  }
+  .brand svg { color: var(--c-red); }
+  .primary-nav { margin-inline-start: auto; }
+  .primary-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: var(--s-5);
+  }
+  .primary-nav a {
+    text-decoration: none;
+    color: var(--c-text);
+    font-weight: 500;
+    padding-block: var(--s-2);
+  }
+  .primary-nav a:hover { color: var(--c-red); }
+  @media (max-width: 768px) {
+    .primary-nav { display: none; }
+  }
+</style>

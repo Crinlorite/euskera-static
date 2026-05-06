@@ -1,0 +1,15 @@
+code: 01-saludos
+level: a1
+title: Saludos y primeras palabras
+order: 1
+description: Aprende a saludar, despedirte y presentarte en euskera.
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities

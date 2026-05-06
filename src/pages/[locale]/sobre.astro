@@ -1,0 +1,54 @@
+---
+import RootLayout from '../../layouts/RootLayout.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+---
+<RootLayout locale={locale} title={t(locale, 'about.title')}>
+  <article class="container prose">
+    <h1>{t(locale, 'about.title')}</h1>
+
+    <p>
+      Este es un proyecto personal de aprendizaje colaborativo: aprender euskera
+      enseñándolo. Lo que voy aprendiendo, lo voy publicando aquí, ordenado por
+      niveles del MCER (A1 → C2). Es gratis, sin login, sin ads, y siempre lo será.
+    </p>
+
+    <h2>Filosofía</h2>
+    <ul>
+      <li><strong>Gratis</strong> y sin paywalls.</li>
+      <li><strong>Sin login</strong>. Tu progreso vive en tu navegador y lo puedes exportar.</li>
+      <li><strong>Sin ads</strong>. Sin tracking. Sin patrones oscuros.</li>
+      <li><strong>Datos abiertos</strong>: las lecciones son archivos Markdown; cualquiera puede clonarlas, forkearlas o auto-hostearlas.</li>
+      <li><strong>Eterno</strong>: el código es estático. Aunque desaparezca el mantenedor, el repo sigue vivo y cualquier persona puede continuarlo.</li>
+    </ul>
+
+    <h2>Fuentes</h2>
+    <p>{t(locale, 'sources.statement')}</p>
+
+    <h2>Licencias</h2>
+    <ul>
+      <li>Código: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE" rel="noopener">MIT</a>.</li>
+      <li>Contenido: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE-CONTENT" rel="noopener">CC BY-SA 4.0</a> — libre para usar, compartir y adaptar con atribución y bajo la misma licencia.</li>
+    </ul>
+
+    <h2>Contribuir</h2>
+    <p>
+      ¿Detectaste un error? ¿Tienes ideas? Abre un issue o un PR en
+      <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a>.
+      Las traducciones a otros idiomas son especialmente bienvenidas.
+    </p>
+  </article>
+</RootLayout>
+
+<style>
+  .prose { padding-block: var(--s-6); }
+  .prose h1 { margin: 0 0 var(--s-4); }
+  .prose h2 { margin-block: var(--s-6) var(--s-2); }
+  .prose ul { padding-inline-start: var(--s-5); display: grid; gap: var(--s-2); }
+</style>

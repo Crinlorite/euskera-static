@@ -1,0 +1,26 @@
+---
+interface Props {
+  value: number;
+  label?: string;
+}
+const { value, label } = Astro.props;
+const clamped = Math.max(0, Math.min(100, value));
+---
+<div class="bar" role="progressbar" aria-valuenow={clamped} aria-valuemin="0" aria-valuemax="100" aria-label={label}>
+  <div class="fill" style={`inline-size: ${clamped}%`}></div>
+</div>
+
+<style>
+  .bar {
+    inline-size: 100%;
+    block-size: 6px;
+    background: var(--c-bg-muted);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .fill {
+    block-size: 100%;
+    background: var(--c-green);
+    transition: inline-size 200ms;
+  }
+</style>

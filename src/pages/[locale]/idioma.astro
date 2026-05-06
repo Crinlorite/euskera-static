@@ -1,0 +1,25 @@
+---
+import RootLayout from '../../layouts/RootLayout.astro';
+import LangPicker from '../../components/ui/LangPicker.svelte';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+---
+<RootLayout locale={locale} title={t(locale, 'nav.language')}>
+  <article class="container">
+    <h1>{t(locale, 'lang.choose')}</h1>
+    <p class="hint">{t(locale, 'lang.help-translate')}: <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a></p>
+    <LangPicker client:load currentLocale={locale} />
+  </article>
+</RootLayout>
+
+<style>
+  article { padding-block: var(--s-6); }
+  h1 { margin: 0 0 var(--s-3); }
+  .hint { color: var(--c-text-muted); margin: 0 0 var(--s-5); }
+</style>

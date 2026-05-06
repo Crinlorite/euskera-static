@@ -1,0 +1,25 @@
+---
+import RootLayout from '../../layouts/RootLayout.astro';
+import ProgressDashboard from '../../components/progress/ProgressDashboard.svelte';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+import { listLessonKeys } from '../../lib/lessonKeys';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const knownLessonKeys = await listLessonKeys(locale);
+---
+<RootLayout locale={locale} title={t(locale, 'nav.progress')}>
+  <article class="container">
+    <h1>{t(locale, 'nav.progress')}</h1>
+    <ProgressDashboard client:load locale={locale} knownLessonKeys={knownLessonKeys} />
+  </article>
+</RootLayout>
+
+<style>
+  article { padding-block: var(--s-6); }
+  h1 { margin: 0 0 var(--s-4); }
+</style>

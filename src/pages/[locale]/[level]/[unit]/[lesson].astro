@@ -1,0 +1,91 @@
+---
+import { getCollection } from 'astro:content';
+import RootLayout from '../../../../layouts/RootLayout.astro';
+import UnitSidebar from '../../../../components/layout/UnitSidebar.astro';
+import LessonNav from '../../../../components/layout/LessonNav.astro';
+import ExercisesSection from '../../../../components/exercises/ExercisesSection.svelte';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
+
+export async function getStaticPaths() {
+  const allLessons = await getCollection('lessons');
+  return allLessons
+    .filter((l) => ACTIVE_LOCALES.some((loc) => l.id.startsWith(`${loc}/`)))
+    .map((l) => {
+      const [locale, levelCode, unitCode] = l.id.split('/');
+      return {
+        params: { locale, level: levelCode, unit: unitCode, lesson: l.data.code },
+        props: { lesson: l },
+      };
+    });
+}
+
+const { locale, level: levelCode, unit: unitCode, lesson: lessonCode } = Astro.params as {
+  locale: LocaleCode; level: string; unit: string; lesson: string;
+};
+const { lesson } = Astro.props;
+const { Content } = await lesson.render();
+
+const allLessons = await getCollection('lessons');
+const sibs = allLessons
+  .filter((l) => l.id.startsWith(`${locale}/${levelCode}/${unitCode}/`))
+  .sort((a, b) => a.data.order - b.data.order);
+const idx = sibs.findIndex((l) => l.data.code === lessonCode);
+const prev = idx > 0 ? sibs[idx - 1] : undefined;
+const next = idx >= 0 && idx < sibs.length - 1 ? sibs[idx + 1] : undefined;
+const lessonKey = `${levelCode}/${unitCode}/${lessonCode}`;
+---
+<RootLayout locale={locale} title={lesson.data.title}>
+  <div class="container-wide lesson-grid">
+    <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={sibs} currentLessonCode={lessonCode} />
+    <article class="lesson">
+      <header>
+        <p class="crumb">
+          <a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> ·
+          <a href={`/${locale}/${levelCode}/${unitCode}/`}>Unidad {sibs[0]?.data.order ?? ''}</a>
+        </p>
+        <h1>{lesson.data.title}</h1>
+        <p class="meta">~{lesson.data.estimatedMinutes} min</p>
+      </header>
+      <div class="prose"><Content /></div>
+      {lesson.data.exercises.length > 0 && (
+        <ExercisesSection
+          client:load
+          exercises={lesson.data.exercises}
+          lessonKey={lessonKey}
+          locale={locale}
+        />
+      )}
+      <LessonNav
+        locale={locale}
+        prevHref={prev ? `/${locale}/${levelCode}/${unitCode}/${prev.data.code}/` : undefined}
+        prevTitle={prev?.data.title}
+        nextHref={next ? `/${locale}/${levelCode}/${unitCode}/${next.data.code}/` : undefined}
+        nextTitle={next?.data.title}
+      />
+    </article>
+  </div>
+</RootLayout>
+
+<style>
+  .lesson-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: var(--s-6);
+    padding-block: var(--s-6);
+  }
+  @media (max-width: 900px) {
+    .lesson-grid { grid-template-columns: 1fr; }
+  }
+  .lesson { max-width: 720px; }
+  .crumb { color: var(--c-text-muted); margin: 0 0 var(--s-2); }
+  .crumb a { color: inherit; }
+  .meta { color: var(--c-text-muted); }
+  .prose :global(h2) { margin-block: var(--s-6) var(--s-3); }
+  .prose :global(p) { margin-block: var(--s-3); }
+  .prose :global(ul), .prose :global(ol) { padding-inline-start: var(--s-5); }
+  .prose :global(em) { font-style: italic; }
+  .prose :global(code) { background: var(--c-bg-muted); padding: 0 0.3em; border-radius: 4px; font-style: italic; font-family: inherit; }
+  .prose :global(table) { border-collapse: collapse; margin-block: var(--s-4); }
+  .prose :global(th), .prose :global(td) { border: 1px solid var(--c-border); padding: var(--s-2) var(--s-3); }
+  .prose :global(th) { background: var(--c-bg-alt); }
+</style>

@@ -1,0 +1,62 @@
+---
+import type { LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+
+interface Props {
+  locale: LocaleCode;
+  prevHref?: string;
+  prevTitle?: string;
+  nextHref?: string;
+  nextTitle?: string;
+}
+const { locale, prevHref, prevTitle, nextHref, nextTitle } = Astro.props;
+---
+<nav class="lesson-nav" aria-label="Navegación entre lecciones">
+  {prevHref ? (
+    <a class="prev" href={prevHref}>
+      <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" fill="none" />
+      </svg>
+      <span>
+        <small>{t(locale, 'lesson.prev')}</small>
+        <strong>{prevTitle}</strong>
+      </span>
+    </a>
+  ) : <div></div>}
+  {nextHref ? (
+    <a class="next" href={nextHref}>
+      <span>
+        <small>{t(locale, 'lesson.next')}</small>
+        <strong>{nextTitle}</strong>
+      </span>
+      <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" />
+      </svg>
+    </a>
+  ) : <div></div>}
+</nav>
+
+<style>
+  .lesson-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-3);
+    margin-block: var(--s-7);
+  }
+  .lesson-nav a {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    padding: var(--s-4);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    text-decoration: none;
+    color: inherit;
+    background: var(--c-bg);
+    transition: border-color 150ms, transform 150ms;
+  }
+  .lesson-nav a:hover { border-color: var(--c-red); transform: translateY(-2px); }
+  .next { text-align: end; justify-content: end; }
+  small { display: block; color: var(--c-text-muted); font-size: 0.8rem; }
+  strong { display: block; }
+</style>
