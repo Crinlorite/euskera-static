@@ -1,6 +1,6 @@
 <script lang="ts">
-  export let size: number = 200;
-  export let opacity: number = 0.08;
+  export let size: number = 720;
+  export let opacity: number = 0.10;
   export let monochrome: boolean = false;
 
   const colors = monochrome
@@ -20,10 +20,10 @@
 </svg>
 
 <style>
-  svg { display: block; }
+  svg { display: block; will-change: transform; }
   .spin {
     transform-origin: center;
-    animation: spin 30s linear infinite;
+    animation: spin 50s linear infinite;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
   @media (prefers-reduced-motion: reduce) { .spin { animation: none; } }

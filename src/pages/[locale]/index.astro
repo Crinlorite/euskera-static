@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import RootLayout from '../../layouts/RootLayout.astro';
 import Lauburu from '../../components/ui/Lauburu.svelte';
 import Particles from '../../components/ui/Particles.svelte';
+import HeroBackground from '../../components/ui/HeroBackground.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 
@@ -14,36 +15,59 @@ const { locale } = Astro.params as { locale: LocaleCode };
 const levels = (await getCollection('levels'))
   .filter((l) => l.id.startsWith(`${locale}/`))
   .sort((a, b) => a.data.order - b.data.order);
+
+const upcoming = ['a2', 'b1', 'b2', 'c1', 'c2'].filter((c) => !levels.some((l) => l.data.code === c));
 ---
-<RootLayout locale={locale} title={t(locale, 'site.tagline')}>
+<RootLayout locale={locale} title={t(locale, 'site.tagline')} bodyClass="home">
   <section class="hero">
-    <div class="hero-bg">
-      <Lauburu client:load size={520} opacity={0.07} />
-      <Particles client:load />
+    <HeroBackground client:load />
+    <div class="hero-art" aria-hidden="true">
+      <Lauburu client:load size={760} opacity={0.085} />
     </div>
-    <div class="container hero-inner">
-      <h1>{t(locale, 'home.hero.title')}</h1>
-      <p class="sub">{t(locale, 'home.hero.sub')}</p>
-      <a class="btn btn-primary" href={`/${locale}/a1/`}>{t(locale, 'home.cta.start')}</a>
+    <Particles client:load />
+
+    <div class="container hero-inner stagger">
+      <p class="eyebrow">A1 · A2 · B1 · B2 · C1 · C2</p>
+      <h1 class="display hero-title">
+        <span>Aprende</span>
+        <span class="text-grad">euskera.</span>
+      </h1>
+      <p class="hero-sub">{t(locale, 'home.hero.sub')}</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href={`/${locale}/a1/`}>{t(locale, 'home.cta.start')}</a>
+        <a class="btn btn-secondary" href={`/${locale}/sobre/`}>{t(locale, 'about.title')}</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <span></span>
     </div>
   </section>
 
-  <section class="container levels">
-    <h2>{t(locale, 'nav.levels')}</h2>
+  <section class="container-wide levels fade-in">
+    <header class="levels-header">
+      <p class="eyebrow">Marco común europeo</p>
+      <h2 class="display levels-title">Seis niveles. <span class="text-grad">Una ruta.</span></h2>
+    </header>
     <ul class="level-list">
       {levels.map((level) => (
-        <li>
-          <a class="card level-card" href={`/${locale}/${level.data.code}/`}>
-            <span class="level-code">{level.data.name}</span>
+        <li class="level-item">
+          <a class="card level-card pulse-active" href={`/${locale}/${level.data.code}/`}>
+            <span class="level-code display">{level.data.name.split(' ')[0]}</span>
+            <span class="level-status">Disponible</span>
             <span class="level-desc">{level.data.description}</span>
+            <span class="level-arrow icon-direction-aware" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
           </a>
         </li>
       ))}
-      {['a2', 'b1', 'b2', 'c1', 'c2'].filter((c) => !levels.some((l) => l.data.code === c)).map((code) => (
-        <li>
+      {upcoming.map((code) => (
+        <li class="level-item">
           <div class="card level-card disabled" aria-disabled="true">
-            <span class="level-code">{code.toUpperCase()}</span>
-            <span class="level-desc">{t(locale, 'levels.upcoming')}</span>
+            <span class="level-code display">{code.toUpperCase()}</span>
+            <span class="level-status">{t(locale, 'levels.upcoming')}</span>
+            <span class="level-desc">En el horizonte.</span>
           </div>
         </li>
       ))}
@@ -52,37 +76,179 @@ const levels = (await getCollection('levels'))
 </RootLayout>
 
 <style>
+  /* ---------- HERO ---------- */
   .hero {
     position: relative;
+    min-block-size: clamp(560px, 88vh, 820px);
+    padding-block: var(--s-9) var(--s-8);
+    isolation: isolate;
     overflow: hidden;
-    padding-block: var(--s-8) var(--s-7);
-    text-align: center;
   }
-  .hero-bg {
+  .hero-art {
     position: absolute;
     inset: 0;
     display: grid;
     place-items: center;
-    pointer-events: none;
     z-index: 0;
+    pointer-events: none;
   }
-  .hero-inner { position: relative; z-index: 1; }
-  .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin: 0 0 var(--s-3); letter-spacing: -0.02em; }
-  .sub { color: var(--c-text-muted); margin: 0 0 var(--s-5); }
-  .levels { padding-block-end: var(--s-8); }
-  .levels h2 { margin-block-end: var(--s-5); }
-  .level-list {
-    list-style: none; margin: 0; padding: 0;
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    gap: var(--s-4);
+  .hero-inner {
+    position: relative;
+    z-index: 2;
+    padding-block-start: var(--s-7);
+    text-align: start;
+    max-inline-size: 980px;
   }
-  .level-card {
+  .hero-title {
+    font-size: var(--t-display);
+    margin: var(--s-2) 0 var(--s-3);
+    letter-spacing: var(--tr-display);
+    line-height: 0.92;
+  }
+  .hero-title span { display: block; }
+  .hero-title .text-grad { font-style: italic; }
+  .hero-sub {
+    font-family: var(--ff-sans);
+    font-size: clamp(1.05rem, 1.6vw, 1.35rem);
+    color: var(--c-text-muted);
+    max-inline-size: 36ch;
+    margin: 0 0 var(--s-6);
+    line-height: 1.45;
+  }
+  .hero-cta {
+    display: flex;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+  }
+  .hero-scroll {
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-end: var(--s-5);
+    transform: translateX(-50%);
+    inline-size: 1px;
+    block-size: 56px;
+    background: linear-gradient(to bottom, transparent, var(--c-text-dim));
+    z-index: 2;
+  }
+  .hero-scroll span {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: -2px;
+    inline-size: 5px;
+    block-size: 12px;
+    border-radius: 999px;
+    background: var(--c-red);
+    animation: scroll-hint 2.6s var(--ease-out) infinite;
+  }
+  @keyframes scroll-hint {
+    0%, 100% { transform: translateY(0); opacity: 0.6; }
+    50%      { transform: translateY(40px); opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-scroll span { animation: none; }
+  }
+
+  /* ---------- LEVELS ---------- */
+  .levels {
+    padding-block: var(--s-9);
+    position: relative;
+  }
+  .levels-header {
     display: grid;
     gap: var(--s-2);
+    margin-block-end: var(--s-7);
+    max-inline-size: 32ch;
+  }
+  .levels-title {
+    font-size: var(--t-h1);
+    line-height: 1.05;
+    letter-spacing: var(--tr-tight);
+  }
+  .levels-title .text-grad { font-style: italic; }
+
+  .level-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: var(--s-5);
+  }
+  .level-item { display: contents; }
+  .level-card {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "code   arrow"
+      "status arrow"
+      "desc   desc";
+    gap: var(--s-2) var(--s-3);
     text-decoration: none;
     color: inherit;
+    min-block-size: 200px;
+    padding: var(--s-5);
   }
-  .level-code { font-weight: 700; font-size: 1.25rem; }
-  .level-desc { color: var(--c-text-muted); font-size: 0.9rem; }
-  .level-card.disabled { opacity: 0.6; cursor: not-allowed; }
+  .level-code {
+    grid-area: code;
+    font-size: clamp(2.2rem, 4.8vw, 3.4rem);
+    font-weight: 700;
+    line-height: 0.9;
+    letter-spacing: var(--tr-display);
+    background: var(--grad-ikurri-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .level-status {
+    grid-area: status;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+    color: var(--c-green-strong);
+  }
+  .level-desc {
+    grid-area: desc;
+    color: var(--c-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.45;
+    align-self: end;
+  }
+  .level-arrow {
+    grid-area: arrow;
+    align-self: start;
+    color: var(--c-red);
+    transition: transform var(--m-base) var(--ease-out);
+  }
+  .level-card:hover .level-arrow { transform: translateX(6px); }
+
+  .level-card.disabled {
+    pointer-events: none;
+    filter: blur(0.4px) grayscale(0.65);
+    opacity: 0.7;
+  }
+  .level-card.disabled .level-code {
+    background: linear-gradient(120deg, var(--c-text-dim), var(--c-border-strong));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .level-card.disabled .level-status {
+    color: var(--c-text-muted);
+  }
+
+  /* ---------- Mobile ---------- */
+  @media (max-width: 720px) {
+    .hero { min-block-size: 78vh; padding-block: var(--s-7) var(--s-6); }
+    .hero-inner { padding-block-start: var(--s-5); }
+    .levels { padding-block: var(--s-7); }
+    .level-list { grid-template-columns: 1fr 1fr; gap: var(--s-3); }
+    .level-card { min-block-size: 160px; padding: var(--s-4); }
+  }
+  @media (max-width: 420px) {
+    .level-list { grid-template-columns: 1fr; }
+  }
 </style>

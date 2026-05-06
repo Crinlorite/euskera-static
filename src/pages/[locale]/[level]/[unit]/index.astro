@@ -29,26 +29,81 @@ const lessons = allLessons
   .sort((a, b) => a.data.order - b.data.order);
 ---
 <RootLayout locale={locale} title={unit.data.title}>
-  <article class="container-wide unit-grid">
-    <header class="unit-header">
-      <p class="crumb"><a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> · Unidad {unit.data.order}</p>
-      <h1>{unit.data.title}</h1>
-      <p>{unit.data.description}</p>
-      <p class="meta">{lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min</p>
+  <article class="container-wide unit">
+    <header class="unit-header stagger">
+      <p class="eyebrow"><a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> · Unidad</p>
+      <div class="unit-headline">
+        <span class="unit-num display">{unit.data.order.toString().padStart(2, '0')}</span>
+        <h1 class="display unit-title">{unit.data.title}</h1>
+      </div>
+      <p class="unit-desc">{unit.data.description}</p>
+      <p class="unit-meta">
+        {lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min
+      </p>
     </header>
-    <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
+
+    <section class="lessons-section">
+      <header class="section-head">
+        <p class="eyebrow">Lecciones</p>
+        <h2 class="display section-title">Empieza por la primera</h2>
+      </header>
+      <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
+    </section>
   </article>
 </RootLayout>
 
 <style>
-  .unit-grid {
+  .unit { padding-block: var(--s-8) var(--s-9); }
+
+  .unit-header { margin-block-end: var(--s-9); padding-block-end: var(--s-7); border-block-end: 1px solid var(--c-border); }
+  .unit-header .eyebrow a { color: inherit; text-decoration: none; }
+  .unit-header .eyebrow a:hover { color: var(--c-red); }
+
+  .unit-headline {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--s-6);
-    padding-block: var(--s-6);
+    grid-template-columns: auto 1fr;
+    gap: var(--s-5);
+    align-items: end;
+    margin-block: var(--s-3) var(--s-4);
   }
-  .crumb { color: var(--c-text-muted); margin: 0 0 var(--s-2); }
-  .crumb a { color: inherit; }
-  h1 { margin: 0 0 var(--s-3); }
-  .meta { color: var(--c-text-muted); font-size: 0.9rem; }
+  .unit-num {
+    font-size: clamp(5rem, 14vw, 11rem);
+    line-height: 0.82;
+    background: var(--grad-ikurri-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .unit-title {
+    font-size: var(--t-h1);
+    line-height: 1.0;
+    letter-spacing: var(--tr-tight);
+    margin: 0 0 var(--s-2);
+  }
+
+  .unit-desc {
+    font-family: var(--ff-sans);
+    font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+    color: var(--c-text-muted);
+    max-inline-size: 60ch;
+    line-height: 1.55;
+    margin: 0 0 var(--s-3);
+  }
+  .unit-meta {
+    font-size: 0.9rem;
+    color: var(--c-text-dim);
+    margin: 0;
+  }
+
+  .section-head { margin-block-end: var(--s-5); display: grid; gap: var(--s-2); }
+  .section-title { font-size: var(--t-h2); line-height: 1.05; letter-spacing: var(--tr-tight); }
+
+  @media (max-width: 720px) {
+    .unit { padding-block: var(--s-6); }
+    .unit-headline { grid-template-columns: 1fr; gap: var(--s-2); }
+    .unit-header { margin-block-end: var(--s-7); padding-block-end: var(--s-5); }
+  }
 </style>
