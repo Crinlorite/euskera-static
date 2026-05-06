@@ -1,0 +1,177 @@
+---
+import { LANGUAGES, type LocaleCode } from '../../i18n/config';
+
+interface Props { currentLocale: LocaleCode; }
+const { currentLocale } = Astro.props;
+
+const all = Object.values(LANGUAGES);
+const active = all.filter((l) => l.status === 'active' || l.status === 'beta');
+const peninsulares = all.filter((l) => l.status === 'planned' && ['ca','gl','eu','oc','ast','an'].includes(l.code));
+const otros = all.filter((l) =>
+  l.status === 'planned' && !['ca','gl','eu','oc','ast','an'].includes(l.code)
+);
+const current = LANGUAGES[currentLocale];
+---
+<details class="lang-select">
+  <summary>
+    <svg class="globe" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18" />
+      <path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0 -18" />
+    </svg>
+    <strong>{current?.name ?? 'Idioma'}</strong>
+    <span class="caret" aria-hidden="true">▾</span>
+  </summary>
+  <div class="lang-panel">
+    {active.length > 0 && (
+      <section>
+        <h4>Disponible</h4>
+        <ul>
+          {active.map((l) => (
+            <li>
+              <a href={`/${l.code}/`} aria-current={l.code === currentLocale ? 'true' : undefined} dir={l.dir}>
+                {l.name}
+                {l.status === 'beta' && <span class="badge beta">Beta</span>}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {peninsulares.length > 0 && (
+      <section>
+        <h4>Peninsulares</h4>
+        <ul>
+          {peninsulares.map((l) => (
+            <li>
+              <span class="planned" dir={l.dir}>
+                {l.name}
+                <span class="badge">Próximamente</span>
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    {otros.length > 0 && (
+      <section>
+        <h4>En el horizonte</h4>
+        <ul>
+          {otros.map((l) => (
+            <li>
+              <span class="planned" dir={l.dir}>
+                {l.name}
+                <span class="badge">Próximamente</span>
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+    <p class="help">
+      ¿Hablas alguno? <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">Ayúdanos a traducir</a>.
+    </p>
+  </div>
+</details>
+
+<style>
+  .lang-select { position: relative; }
+  summary {
+    cursor: pointer;
+    color: var(--c-text-muted);
+    font-size: 0.9rem;
+    list-style: none;
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: var(--s-2) 0;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary:hover { color: var(--c-text); }
+  summary strong { color: var(--c-text); font-weight: 500; }
+  .globe { color: var(--c-text-muted); flex-shrink: 0; transition: color var(--m-base) var(--ease-out); }
+  summary:hover .globe { color: var(--c-red); }
+  details[open] .globe { color: var(--c-red); }
+  .caret {
+    color: var(--c-text-dim);
+    font-size: 0.75rem;
+    transition: transform var(--m-base) var(--ease-out);
+  }
+  details[open] .caret { color: var(--c-red); transform: rotate(180deg); }
+
+  .lang-panel {
+    position: absolute;
+    inset-block-end: 100%;
+    inset-inline-start: 0;
+    margin-block-end: var(--s-2);
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    padding: var(--s-5);
+    min-inline-size: 320px;
+    max-inline-size: 480px;
+    display: grid;
+    gap: var(--s-4);
+    box-shadow: var(--sh-card-deep);
+    z-index: 30;
+  }
+  .lang-panel h4 {
+    margin: 0 0 var(--s-2);
+    font-family: var(--ff-sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--c-text-dim);
+    text-transform: uppercase;
+    letter-spacing: var(--tr-wide);
+  }
+  .lang-panel ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-1) var(--s-3);
+    margin: 0;
+    padding: 0;
+  }
+  .lang-panel a,
+  .lang-panel .planned {
+    color: var(--c-text-muted);
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: baseline;
+    gap: var(--s-2);
+    text-decoration: none;
+    transition: color var(--m-base) var(--ease-out);
+  }
+  .lang-panel a:hover { color: var(--c-red); }
+  .lang-panel a[aria-current='true'] { color: var(--c-red); font-weight: 600; }
+  .lang-panel .planned { color: var(--c-text-dim); cursor: not-allowed; }
+  .badge {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: var(--c-text-dim);
+    padding: 1px 8px;
+    border-radius: var(--r-pill);
+    background: var(--c-bg-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .badge.beta { background: var(--c-green-soft); color: var(--c-green-strong); }
+
+  .help {
+    margin: 0;
+    font-size: 0.75rem;
+    color: var(--c-text-muted);
+    border-block-start: 1px solid var(--c-border);
+    padding-block-start: var(--s-3);
+  }
+  .help a { color: var(--c-red); }
+
+  @media (max-width: 540px) {
+    .lang-panel {
+      inset-inline-start: 0;
+      inset-inline-end: auto;
+      min-inline-size: min(90vw, 320px);
+    }
+  }
+</style>

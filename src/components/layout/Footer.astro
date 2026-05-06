@@ -1,6 +1,7 @@
 ---
 import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
+import LanguageFooter from './LanguageFooter.astro';
 
 interface Props { locale: LocaleCode; }
 const { locale } = Astro.props;
@@ -8,9 +9,10 @@ const year = new Date().getFullYear();
 ---
 <footer class="site-footer">
   <div class="container-wide grid">
-    <div>
+    <div class="brand-col">
       <strong>{t(locale, 'site.name')}</strong>
       <p>{t(locale, 'site.tagline')}</p>
+      <LanguageFooter currentLocale={locale} />
     </div>
     <div>
       <h4>Proyecto</h4>
@@ -43,6 +45,8 @@ const year = new Date().getFullYear();
     grid-template-columns: 1.5fr 1fr 1fr;
     gap: var(--s-6);
   }
+  .brand-col { display: grid; gap: var(--s-3); align-content: start; }
+  .brand-col p { margin: 0; }
   .grid h4 { margin: 0 0 var(--s-2); color: var(--c-text); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
   .grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
   .grid a { color: inherit; }
