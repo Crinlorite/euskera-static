@@ -1,5 +1,6 @@
 export type LocaleCode =
-  | 'es' | 'en' | 'ar' | 'fr' | 'ro' | 'pt-BR'
+  | 'es' | 'ca' | 'gl' | 'eu' | 'ast' | 'an' | 'oc'
+  | 'en' | 'ar' | 'fr' | 'ro' | 'pt-BR'
   | 'de' | 'it' | 'ru' | 'pl' | 'zh-Hans' | 'ja' | 'ko';
 
 export interface LocaleInfo {
@@ -14,6 +15,14 @@ export const DEFAULT_LOCALE: LocaleCode = 'es';
 
 export const LANGUAGES: Record<LocaleCode, LocaleInfo> = {
   'es': { code: 'es', name: 'Castellano', dir: 'ltr', status: 'active' },
+  // Cooficiales y reconocidas con protección legal en la Península
+  'ca': { code: 'ca', name: 'Català', dir: 'ltr', status: 'planned' },
+  'gl': { code: 'gl', name: 'Galego', dir: 'ltr', status: 'planned' },
+  'eu': { code: 'eu', name: 'Euskara', dir: 'ltr', status: 'planned' },
+  'oc': { code: 'oc', name: 'Occitan (aranés)', dir: 'ltr', status: 'planned' },
+  'ast': { code: 'ast', name: 'Asturianu', dir: 'ltr', status: 'planned' },
+  'an': { code: 'an', name: 'Aragonés', dir: 'ltr', status: 'planned' },
+  // Resto del roadmap
   'en': { code: 'en', name: 'English', dir: 'ltr', status: 'planned' },
   'ar': { code: 'ar', name: 'العربية', dir: 'rtl', status: 'planned', font: 'Noto Sans Arabic' },
   'fr': { code: 'fr', name: 'Français', dir: 'ltr', status: 'planned' },
