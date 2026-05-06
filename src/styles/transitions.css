@@ -1,12 +1,61 @@
+/* ---------- Stagger entrance ---------- */
+.stagger > * {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: stagger-up var(--m-graceful) var(--ease-out) forwards;
+}
+.stagger > *:nth-child(1) { animation-delay: 60ms; }
+.stagger > *:nth-child(2) { animation-delay: 220ms; }
+.stagger > *:nth-child(3) { animation-delay: 380ms; }
+.stagger > *:nth-child(4) { animation-delay: 540ms; }
+.stagger > *:nth-child(5) { animation-delay: 700ms; }
+
+@keyframes stagger-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Scroll fade-in (for sections lower on page) ---------- */
 .fade-in {
   opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 400ms ease-out, transform 400ms ease-out;
+  transform: translateY(12px);
+  transition: opacity var(--m-graceful) var(--ease-out),
+              transform var(--m-graceful) var(--ease-out);
 }
 .fade-in.in {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ---------- Mesh drift ---------- */
+@keyframes drift-a {
+  0%   { transform: translate3d(-3vw,  4vh, 0) scale(1); }
+  50%  { transform: translate3d( 4vw, -2vh, 0) scale(1.08); }
+  100% { transform: translate3d(-3vw,  4vh, 0) scale(1); }
+}
+@keyframes drift-b {
+  0%   { transform: translate3d( 4vw, -3vh, 0) scale(1.05); }
+  50%  { transform: translate3d(-3vw,  3vh, 0) scale(0.95); }
+  100% { transform: translate3d( 4vw, -3vh, 0) scale(1.05); }
+}
+@keyframes drift-c {
+  0%   { transform: translate3d( 0,    0,   0) scale(1); }
+  50%  { transform: translate3d(-2vw,  2vh, 0) scale(1.06); }
+  100% { transform: translate3d( 0,    0,   0) scale(1); }
+}
+
+/* ---------- Slow pulse (active level border) ---------- */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 1px var(--c-red), 0 18px 48px -16px rgba(213, 43, 30, 0.35); }
+  50%      { box-shadow: 0 0 0 1px var(--c-red), 0 26px 64px -16px rgba(213, 43, 30, 0.55); }
+}
+.pulse-active {
+  animation: pulse-glow 4s var(--ease-out) infinite;
+}
+
+/* ---------- Reduced motion respects ---------- */
 @media (prefers-reduced-motion: reduce) {
+  .stagger > * { opacity: 1; transform: none; animation: none; }
   .fade-in, .fade-in.in { opacity: 1; transform: none; transition: none; }
+  .pulse-active { animation: none; }
 }
