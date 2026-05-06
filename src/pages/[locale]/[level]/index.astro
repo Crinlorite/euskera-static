@@ -30,28 +30,37 @@ for (const u of units) {
 }
 ---
 <RootLayout locale={locale} title={level.data.name}>
-  <article class="container">
-    <header class="level-header">
-      <h1>{level.data.name}</h1>
-      <p>{level.data.description}</p>
+  <article class="container-wide level">
+    <header class="level-header stagger">
+      <p class="eyebrow">Nivel · {level.data.name.split(' ')[0]}</p>
+      <h1 class="display level-h1">
+        <span>{level.data.name.split(' ')[0]}</span>
+        <span class="text-grad level-subtitle">{level.data.name.split(' ').slice(1).join(' ') || 'Maila'}</span>
+      </h1>
+      <p class="level-desc">{level.data.description}</p>
     </header>
 
-    <section class="units">
-      <h2>Unidades</h2>
+    <section class="units-section">
+      <header class="section-head">
+        <p class="eyebrow">Unidades</p>
+        <h2 class="display section-title">{units.length} unidad{units.length === 1 ? '' : 'es'} listas</h2>
+      </header>
       {units.length === 0 ? (
-        <p>{t(locale, 'levels.upcoming')}</p>
+        <p class="empty">{t(locale, 'levels.upcoming')}</p>
       ) : (
         <ul class="unit-list">
           {units.map((u) => (
-            <li>
-              <a class="card unit-card" href={`/${locale}/${levelSlug}/${u.data.code}/`}>
-                <span class="unit-num">{u.data.order.toString().padStart(2, '0')}</span>
-                <span class="unit-body">
-                  <strong>{u.data.title}</strong>
-                  <span class="unit-meta">
-                    {lessonsByUnit.get(u.data.code) ?? 0} {t(locale, 'unit.lessons').toLowerCase()} ·
-                    ~{u.data.estimatedMinutes} min
-                  </span>
+            <li class="unit-item">
+              <a class="unit-card" href={`/${locale}/${levelSlug}/${u.data.code}/`}>
+                <span class="unit-num display">{u.data.order.toString().padStart(2, '0')}</span>
+                <div class="unit-body">
+                  <h3 class="unit-title">{u.data.title}</h3>
+                  <p class="unit-meta">
+                    {lessonsByUnit.get(u.data.code) ?? 0} {t(locale, 'unit.lessons').toLowerCase()} · ~{u.data.estimatedMinutes} min
+                  </p>
+                </div>
+                <span class="unit-arrow icon-direction-aware" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </span>
               </a>
             </li>
@@ -61,28 +70,155 @@ for (const u of units) {
     </section>
 
     <section class="curriculum">
-      <h2>Currículum</h2>
-      <ol>
-        {level.data.curriculum.map((c) => <li>{c.title}</li>)}
+      <header class="section-head">
+        <p class="eyebrow">Currículum</p>
+        <h2 class="display section-title">Lo que vas a saber</h2>
+      </header>
+      <ol class="curriculum-list">
+        {level.data.curriculum.map((c, i) => (
+          <li>
+            <span class="curriculum-num">{(i + 1).toString().padStart(2, '0')}</span>
+            <span class="curriculum-title">{c.title}</span>
+          </li>
+        ))}
       </ol>
     </section>
   </article>
 </RootLayout>
 
 <style>
-  .level-header { padding-block: var(--s-6); border-block-end: 1px solid var(--c-border); }
-  .level-header h1 { margin: 0 0 var(--s-2); font-size: 2.5rem; }
-  .units, .curriculum { padding-block: var(--s-6); }
-  .unit-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
-  .unit-card { display: grid; grid-template-columns: auto 1fr; gap: var(--s-4); align-items: center; text-decoration: none; color: inherit; }
+  .level { padding-block: var(--s-8) var(--s-9); }
+
+  .level-header { margin-block-end: var(--s-9); border-block-end: 1px solid var(--c-border); padding-block-end: var(--s-7); }
+  .level-h1 {
+    font-size: var(--t-display);
+    line-height: 0.9;
+    letter-spacing: var(--tr-display);
+    margin: var(--s-2) 0 var(--s-4);
+  }
+  .level-h1 span { display: block; }
+  .level-subtitle { font-style: italic; }
+  .level-desc {
+    font-family: var(--ff-sans);
+    font-size: clamp(1.05rem, 1.4vw, 1.2rem);
+    color: var(--c-text-muted);
+    max-inline-size: 56ch;
+    line-height: 1.55;
+  }
+
+  .section-head { margin-block-end: var(--s-6); display: grid; gap: var(--s-2); }
+  .section-title {
+    font-size: var(--t-h2);
+    line-height: 1.05;
+    letter-spacing: var(--tr-tight);
+  }
+
+  .units-section { margin-block-end: var(--s-9); }
+  .empty { color: var(--c-text-muted); }
+
+  .unit-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-4); }
+  .unit-item { display: contents; }
+  .unit-card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: var(--s-5);
+    align-items: center;
+    padding: var(--s-5) var(--s-6);
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--sh-card);
+    transition: transform var(--m-base) var(--ease-out),
+                box-shadow var(--m-base) var(--ease-out),
+                border-color var(--m-base) var(--ease-out);
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
+  .unit-card::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block: 0;
+    inline-size: 4px;
+    background: var(--grad-ikurri-edge);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform var(--m-base) var(--ease-out);
+  }
+  .unit-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--sh-card-hover);
+    border-color: transparent;
+  }
+  .unit-card:hover::before { transform: scaleY(1); }
+  .unit-card:hover .unit-arrow { transform: translateX(6px); }
+
   .unit-num {
+    font-size: clamp(2.6rem, 5vw, 3.6rem);
+    line-height: 0.85;
+    background: var(--grad-ikurri-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--c-red);
-    inline-size: 48px;
-    text-align: center;
   }
   .unit-body { display: grid; gap: var(--s-1); }
-  .unit-meta { color: var(--c-text-muted); font-size: 0.9rem; }
-  .curriculum ol { padding-inline-start: var(--s-5); color: var(--c-text-muted); display: grid; gap: var(--s-1); }
+  .unit-title {
+    margin: 0;
+    font-family: var(--ff-sans);
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .unit-meta { color: var(--c-text-muted); font-size: 0.92rem; margin: 0; }
+  .unit-arrow {
+    color: var(--c-red);
+    transition: transform var(--m-base) var(--ease-out);
+  }
+
+  /* Curriculum */
+  .curriculum-list {
+    list-style: none;
+    counter-reset: c;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--s-3);
+  }
+  .curriculum-list li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--s-3);
+    padding: var(--s-3) var(--s-4);
+    background: var(--c-bg-cream);
+    border-radius: var(--r-md);
+    border: 1px solid var(--c-border);
+    transition: background var(--m-fast) var(--ease-out), border-color var(--m-fast) var(--ease-out);
+  }
+  .curriculum-list li:hover {
+    background: var(--c-bg);
+    border-color: var(--c-red);
+  }
+  .curriculum-num {
+    font-family: var(--ff-display);
+    font-weight: 700;
+    color: var(--c-red);
+    font-size: 0.95rem;
+    align-self: start;
+    line-height: 1.5;
+    min-inline-size: 1.8em;
+  }
+  .curriculum-title { color: var(--c-text); font-size: 0.95rem; line-height: 1.45; }
+
+  @media (max-width: 720px) {
+    .level { padding-block: var(--s-6); }
+    .level-header { margin-block-end: var(--s-7); padding-block-end: var(--s-5); }
+    .unit-card { padding: var(--s-4); gap: var(--s-3); }
+    .curriculum-list { grid-template-columns: 1fr; }
+  }
 </style>

@@ -3,17 +3,21 @@
   --c-red: #D52B1E;
   --c-red-soft: #fef2f1;
   --c-red-strong: #b32218;
+  --c-red-deep: #7a1610;
   --c-green: #00964B;
   --c-green-soft: #ebfaf2;
   --c-green-strong: #007038;
+  --c-green-deep: #00472a;
 
   /* Surface */
   --c-bg: #FFFFFF;
   --c-bg-alt: #FAFAF7;
   --c-bg-muted: #F5F5F2;
+  --c-bg-cream: #fdfcf8;
 
   /* Text */
   --c-text: #1A1A1A;
+  --c-ink: #0c0c0e;
   --c-text-muted: #6B6B6B;
   --c-text-dim: #A0A0A0;
 
@@ -30,24 +34,59 @@
   --s-6: 2rem;
   --s-7: 3rem;
   --s-8: 4rem;
+  --s-9: 6rem;
+  --s-10: 8rem;
 
   /* Radius */
   --r-sm: 6px;
-  --r-md: 8px;
-  --r-lg: 12px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-xl: 22px;
+  --r-pill: 999px;
 
-  /* Shadow */
-  --sh-card: 0 1px 3px rgba(0, 0, 0, 0.05);
-  --sh-card-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* Layered shadows for depth */
+  --sh-card: 0 1px 2px rgba(15, 12, 10, 0.04), 0 6px 18px -8px rgba(15, 12, 10, 0.08);
+  --sh-card-hover: 0 2px 4px rgba(15, 12, 10, 0.05), 0 18px 40px -14px rgba(15, 12, 10, 0.18);
+  --sh-card-deep: 0 4px 8px rgba(15, 12, 10, 0.06), 0 32px 64px -20px rgba(15, 12, 10, 0.22);
+  --sh-glow-red: 0 0 0 1px var(--c-red), 0 18px 48px -12px rgba(213, 43, 30, 0.45);
+  --sh-glow-green: 0 0 0 1px var(--c-green), 0 18px 48px -12px rgba(0, 150, 75, 0.4);
+  --sh-button: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 12px 24px -10px rgba(213, 43, 30, 0.55);
 
-  /* Type */
+  /* Typography */
+  --ff-display: 'Fraunces', 'Iowan Old Style', 'Cambria', 'Georgia', serif;
   --ff-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Fluid type scale (display) */
+  --t-display: clamp(3.5rem, 11vw, 8.5rem);
+  --t-h1: clamp(2.25rem, 5.5vw, 3.75rem);
+  --t-h2: clamp(1.65rem, 3.5vw, 2.5rem);
+  --t-h3: clamp(1.25rem, 2.5vw, 1.6rem);
+  --t-eyebrow: 0.78rem;
+
+  /* Tracking */
+  --tr-display: -0.035em;
+  --tr-tight: -0.02em;
+  --tr-wide: 0.18em;
 
   /* Layout */
   --content-max: 720px;
-  --shell-max: 1200px;
+  --shell-max: 1240px;
 
-  /* RTL mirror flag (used by directional icons) */
+  /* Motion */
+  --m-fast: 150ms;
+  --m-base: 240ms;
+  --m-slow: 480ms;
+  --m-graceful: 800ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Gradients */
+  --grad-ikurri-text: linear-gradient(100deg, var(--c-red) 12%, var(--c-red-strong) 48%, var(--c-green) 88%);
+  --grad-ikurri-edge: linear-gradient(120deg, var(--c-red), var(--c-green));
+  --grad-button: linear-gradient(135deg, var(--c-red) 0%, var(--c-red-strong) 100%);
+  --grad-button-hover: linear-gradient(135deg, #e84235 0%, var(--c-red-strong) 100%);
+
+  /* RTL mirror flag */
   --rtl-mirror: 1;
 }
 
