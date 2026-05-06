@@ -1,0 +1,71 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { LocaleCode } from '../../i18n/config';
+
+interface Props {
+  locale: LocaleCode;
+  levelCode: string;
+  unitCode: string;
+  lessons: CollectionEntry<'lessons'>[];
+  currentLessonCode?: string;
+}
+const { locale, levelCode, unitCode, lessons, currentLessonCode } = Astro.props;
+---
+<aside class="unit-sidebar" aria-label="Lecciones de la unidad">
+  <ol>
+    {lessons.map((l) => (
+      <li class={l.data.code === currentLessonCode ? 'active' : ''}>
+        <a href={`/${locale}/${levelCode}/${unitCode}/${l.data.code}/`}>
+          <span class="check" data-lesson-key={`${levelCode}/${unitCode}/${l.data.code}`} aria-hidden="true">○</span>
+          <span class="title">{l.data.title}</span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</aside>
+
+<script>
+  // After hydration, mark completed lessons with a green check.
+  // Reads from the progress store written by exercises in the lesson pages.
+  import('../../stores/progress').then(({ getProgress }) => {
+    const p = getProgress();
+    document.querySelectorAll<HTMLElement>('[data-lesson-key]').forEach((el) => {
+      const key = el.getAttribute('data-lesson-key');
+      if (key && p.lessons[key]?.status === 'completed') {
+        el.textContent = '✓';
+        el.classList.add('done');
+      }
+    });
+  }).catch(() => { /* progress store not yet available */ });
+</script>
+
+<style>
+  .unit-sidebar ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--s-1);
+  }
+  .unit-sidebar a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--s-3);
+    padding: var(--s-3);
+    border-radius: var(--r-md);
+    text-decoration: none;
+    color: var(--c-text);
+    border-inline-start: 3px solid transparent;
+  }
+  .unit-sidebar a:hover { background: var(--c-bg-alt); }
+  li.active a {
+    background: var(--c-red-soft);
+    border-inline-start-color: var(--c-red);
+  }
+  .check {
+    inline-size: 1.5em;
+    text-align: center;
+    color: var(--c-text-dim);
+  }
+  .check.done { color: var(--c-green); }
+</style>

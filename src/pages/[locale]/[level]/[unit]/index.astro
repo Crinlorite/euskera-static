@@ -1,0 +1,54 @@
+---
+import { getCollection } from 'astro:content';
+import RootLayout from '../../../../layouts/RootLayout.astro';
+import UnitSidebar from '../../../../components/layout/UnitSidebar.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
+import { t } from '../../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const allUnits = await getCollection('units');
+  return allUnits
+    .filter((u) => ACTIVE_LOCALES.some((loc) => u.id.startsWith(`${loc}/`)))
+    .map((u) => {
+      const [locale, levelCode] = u.id.split('/');
+      return {
+        params: { locale, level: levelCode, unit: u.data.code },
+        props: { unit: u },
+      };
+    });
+}
+
+const { locale, level: levelCode, unit: unitCode } = Astro.params as {
+  locale: LocaleCode; level: string; unit: string;
+};
+const { unit } = Astro.props;
+
+const allLessons = await getCollection('lessons');
+const lessons = allLessons
+  .filter((l) => l.id.startsWith(`${locale}/${levelCode}/${unitCode}/`))
+  .sort((a, b) => a.data.order - b.data.order);
+---
+<RootLayout locale={locale} title={unit.data.title}>
+  <article class="container-wide unit-grid">
+    <header class="unit-header">
+      <p class="crumb"><a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> · Unidad {unit.data.order}</p>
+      <h1>{unit.data.title}</h1>
+      <p>{unit.data.description}</p>
+      <p class="meta">{lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min</p>
+    </header>
+    <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
+  </article>
+</RootLayout>
+
+<style>
+  .unit-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-6);
+    padding-block: var(--s-6);
+  }
+  .crumb { color: var(--c-text-muted); margin: 0 0 var(--s-2); }
+  .crumb a { color: inherit; }
+  h1 { margin: 0 0 var(--s-3); }
+  .meta { color: var(--c-text-muted); font-size: 0.9rem; }
+</style>
