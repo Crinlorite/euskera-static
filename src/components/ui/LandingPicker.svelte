@@ -101,18 +101,24 @@
 </div>
 
 <style>
-  .wrap { display: grid; gap: var(--s-5); margin-block-start: var(--s-5); }
+  .wrap {
+    display: grid;
+    gap: var(--s-5);
+    margin-block-start: var(--s-5);
+    justify-items: center; /* centra hijos en grid (countdown queda centrado) */
+  }
 
   .picker {
+    inline-size: 100%; /* recupera ancho completo (justify-items: center lo encogería) */
     list-style: none; margin: 0; padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: var(--s-3);
     text-align: start; /* dentro del picker el texto va a la izquierda en cada card */
   }
-  /* 4 columnas en escritorio normal — encajan perfecto en el ancho centrado del landing */
+  /* 3 columnas en escritorio — el usuario lo prefiere así por ahora */
   @media (min-width: 760px) {
-    .picker { grid-template-columns: repeat(4, 1fr); }
+    .picker { grid-template-columns: repeat(3, 1fr); }
   }
   @media (max-width: 540px) {
     .picker { grid-template-columns: repeat(2, 1fr); }
@@ -181,7 +187,6 @@
     border-radius: var(--r-pill);
     color: var(--c-text-muted);
     font-size: 0.95rem;
-    justify-self: center;
     transition: opacity var(--m-base) var(--ease-out);
   }
   .countdown.hide {
