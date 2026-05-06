@@ -1195,36 +1195,66 @@ order: 1
 status: active
 beta: false
 curriculum:
-  - { id: greetings, title: Saludos y despedidas }
-  - { id: introductions, title: Presentaciones (nombre, origen) }
-  - { id: personal-pronouns, title: Pronombres personales (ni, hi/zu, hura, gu, zuek, haiek) }
-  - { id: izan-nor, title: 'Verbo "izan" (NOR): naiz, zara, da, gara, zarete, dira' }
-  - { id: family-basics, title: Vocabulario de familia (aita, ama, anaia, arreba/ahizpa, seme, alaba) }
-  - { id: family-extended, title: Familia extendida (aitona, amona, osaba, izeba, lehengusu) }
-  - { id: possessives, title: Posesivos (nire, zure, bere, gure, zuen, beren) }
+  # Saludos y comunicación social
+  - { id: greetings, title: Saludos y despedidas (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: Cortesía y aula (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # Presentaciones e identidad
+  - { id: introductions, title: Presentaciones (Ni X naiz, Nire izena X da, Zein da zure izena?) }
+  - { id: personal-data, title: Datos personales (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: 'Edad: ... urte ditut/ditu/dituzte' }
+  # Verbos básicos
+  - { id: izan-nor, title: 'Verbo "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: 'Negación: ez antepuesto al verbo (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: 'Verbo "egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'Distinción izan/egon: cualidad vs estado pasajero' }
+  - { id: ukan-basic, title: 'Verbo "ukan" (NOR-NORK) — tener: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'Objeto plural en ukan: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: 'Partitivo -rik en negación con objeto indefinido' }
+  - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — verbo de gusto (introducción NOR-NORI)' }
+  # Pronombres y demostrativos
+  - { id: personal-pronouns, title: Pronombres personales (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: Demostrativos hau/hori/hura y plurales hauek/horiek/haiek }
+  - { id: possessives, title: Posesivos (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # Familia
+  - { id: family-types, title: 'Tipos de familia (guraso bakarrekoa, bikote mistoa, ezkonduta)' }
+  - { id: family-basics, title: Familia (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: Familia extendida (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # Origen, residencia, ubicación
+  - { id: origin-koa, title: 'Procedencia: Nongoa zara? → X-koa naiz (-(e)ko sufijo)' }
+  - { id: residence-an, title: 'Residencia: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: Países comunes y nacionalidades }
+  - { id: companions-rekin, title: 'Sociativo: Norekin bizi zara? → X-(r)ekin (familiarekin, bakarrik)' }
+  # Casos del euskera
+  - { id: nor-case, title: 'Caso NOR (absolutivo): -A singular, -AK plural' }
+  - { id: nork-case, title: 'Caso NORK (ergativo): -AK singular, -EK plural' }
+  - { id: nori-case, title: 'Caso NORI (dativo): -ARI singular, -EI plural' }
+  - { id: noren-case, title: 'Genitivo NOREN: posesión -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: 'Locativo NON: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # Descripciones y profesiones
+  - { id: physical-description, title: 'NOLAKOA da? — descripción física con izan + adjetivo+A' }
+  - { id: mental-states, title: 'NOLA dago? — estado pasajero con egon + adjetivo sin -A (pozik, triste)' }
+  - { id: hair-eyes, title: 'Pelo y ojos (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: 'Carácter (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: 'Profesiones (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # Vocabulario temático
   - { id: numbers-1-20, title: Números del 1 al 20 }
-  - { id: numbers-1-100, title: Números del 1 al 100 }
-  - { id: days-of-week, title: Días de la semana }
-  - { id: months, title: Meses del año }
-  - { id: time-basics, title: Decir la hora }
-  - { id: weather, title: Clima básico }
-  - { id: house-rooms, title: La casa y los muebles }
-  - { id: food-basics, title: Comida y bebida básica }
-  - { id: clothes, title: Ropa básica }
-  - { id: body-parts, title: Partes del cuerpo }
-  - { id: colors, title: Colores }
-  - { id: professions, title: Profesiones básicas }
-  - { id: ukan-basic, title: 'Verbo "ukan" (NOR-NORK) introducción' }
-  - { id: present-nor, title: Presente de verbos intransitivos (NOR) }
-  - { id: ergative-basics, title: Caso ergativo (-k) en sujeto transitivo }
-  - { id: absolutive-basics, title: Caso absolutivo (sin marca) }
-  - { id: locative, title: 'Locativos básicos (-n: en, -ra: a, -tik: desde)' }
-  - { id: demonstratives, title: Demostrativos (hau, hori, hura) }
-  - { id: questions-basic, title: 'Preguntas básicas (zer, nor, non, noiz)' }
-  - { id: yes-no-answer, title: 'Respuestas afirmativas y negativas (bai, ez)' }
-  - { id: countries-nationalities, title: Países y nacionalidades comunes }
-  - { id: routines-basic, title: Rutinas diarias básicas }
-  - { id: food-likes, title: '"Gustatzen zait" — gustos con comida' }
+  - { id: numbers-1-100, title: Números del 1 al 100 (sistema vigesimal) }
+  - { id: colors, title: Colores (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: Días de la semana (astelehena → igandea) }
+  - { id: months, title: Meses del año (urtarrila → abendua) }
+  - { id: seasons, title: Estaciones (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: 'Decir la hora (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: 'Tiempo: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: Partes del cuerpo (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: 'Salud básica (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: Ropa básica (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: 'Lugares del pueblo (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: 'Direcciones (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: 'Bar y comida (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: 'Comidas del día (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: 'Verbos básicos (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: 'Preguntas básicas (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: 'Felicitaciones (Zorionak, Urte askotarako, Topa egin)' }
 ```
 
 - [ ] **Step 2: Build to validate schema**
@@ -3443,59 +3473,87 @@ unit: 01-saludos
 level: a1
 order: 1
 title: Kaixo, agur y otros saludos
-estimatedMinutes: 8
-covers: [greetings]
+estimatedMinutes: 10
+covers: [greetings, courtesy]
 exercises:
   - id: ex-01-kaixo-mc1
     type: multiple-choice
     prompt: ¿Qué significa "Kaixo"?
     options: [Hola, Adiós, Por favor, Gracias]
     answer: 0
-    explanation: '"Kaixo" es el saludo informal más común en euskera, equivalente a "hola".'
+    explanation: '"Kaixo" es el saludo más común en euskera, equivalente a "hola".'
   - id: ex-01-kaixo-mc2
     type: multiple-choice
     prompt: Es de noche y te encuentras a un amigo. ¿Cómo le saludas?
     options: [Egun on, Arratsalde on, Gabon, Agur]
     answer: 2
     explanation: '"Gabon" se usa por la noche, también para "buenas noches" al despedirse.'
+  - id: ex-01-kaixo-mc3
+    type: multiple-choice
+    prompt: '"Aspaldiko" significa…'
+    options: ["¡Hasta mañana!", "¡Cuánto tiempo sin verte!", "Buenas tardes", "De nada"]
+    answer: 1
+    explanation: '"Aspaldiko" se usa al reencontrarte con alguien tras tiempo sin verle.'
   - id: ex-01-kaixo-fc
     type: flashcards
     cards:
       - { eu: Kaixo, es: Hola }
+      - { eu: Hepa / Aupa, es: '¡Hola! (informal)' }
       - { eu: Egun on, es: Buenos días }
+      - { eu: Eguerdi on, es: Buen mediodía }
       - { eu: Arratsalde on, es: Buenas tardes }
       - { eu: Gabon, es: Buenas noches }
+      - { eu: Aspaldiko, es: '¡Cuánto tiempo!' }
       - { eu: Agur, es: Adiós }
+      - { eu: Gero arte, es: Hasta luego }
+      - { eu: Bihar arte, es: Hasta mañana }
+      - { eu: Ondo ibili, es: Que vaya bien }
       - { eu: Eskerrik asko, es: Muchas gracias }
+      - { eu: Ez horregatik, es: De nada }
   - id: ex-01-kaixo-mp
     type: match-pairs
     pairs:
       - { eu: Kaixo, es: Hola }
       - { eu: Agur, es: Adiós }
       - { eu: Egun on, es: Buenos días }
-      - { eu: Arratsalde on, es: Buenas tardes }
+      - { eu: Gabon, es: Buenas noches }
+      - { eu: Gero arte, es: Hasta luego }
+      - { eu: Eskerrik asko, es: Muchas gracias }
 ---
 
-En euskera, los saludos cambian según el momento del día. La fórmula universal y la más común es **Kaixo**, que se usa a cualquier hora con casi cualquier persona — igual que el "hola" en castellano.
+En euskera, los saludos cambian según el momento del día. La fórmula universal y la más común es **Kaixo**, que se usa a cualquier hora con casi cualquier persona — igual que el "hola" en castellano. **Hepa** o **Aupa** son alternativas aún más informales, sobre todo entre gente joven y amigos.
 
 ## Saludos por momento del día
 
 | Cuándo | Euskera | Castellano |
 |---|---|---|
 | Mañana, hasta el mediodía | *Egun on* | Buenos días |
+| Mediodía / hora de comer | *Eguerdi on* | Buen mediodía |
 | Tarde, después de comer | *Arratsalde on* | Buenas tardes |
 | Noche y despedida nocturna | *Gabon* | Buenas noches |
-| Cualquier momento, informal | *Kaixo* | Hola |
+| Cualquier momento | *Kaixo* / *Hepa* / *Aupa* | Hola |
 
 `On` significa "bueno", y aparece en muchos saludos: *egun on* literalmente es "día bueno".
 
+## Reencontrarse
+
+Cuando ves a alguien que llevabas tiempo sin ver, el saludo natural es **Aspaldiko!** ("¡cuánto tiempo!").
+
 ## Despedidas
 
-La despedida más universal es **Agur**, equivalente a "adiós". También se oye **Gero arte** ("hasta luego"), pero *agur* funciona en cualquier registro.
+La despedida más universal es **Agur**, equivalente a "adiós". También son frecuentes:
 
-## Gracias
+- **Gero arte** — hasta luego
+- **Bihar arte** — hasta mañana
+- **Hurrengora arte** — hasta la próxima
+- **Ondo ibili** / **Ondo segi** — que vaya bien (literal: "anda bien")
 
-Cuando alguien te ayuda o te saluda, responde con **Eskerrik asko** ("muchas gracias"). Es una frase muy frecuente; vale la pena memorizarla desde el primer día.
+## "Gracias" y "de nada"
+
+Dos frases que vas a usar constantemente:
+
+- **Eskerrik asko** (o **Mila esker**) — muchas gracias
+- **Ez horregatik** — de nada
 
 > **Nota cultural:** en Euskal Herria mucha gente alterna castellano y euskera con naturalidad. Empezar la conversación con *Kaixo* o *Egun on* es una manera amable de mostrar que conoces el idioma.
 ```
@@ -3695,24 +3753,44 @@ exercises:
     options: [naiz, zara, gara, zarete, dira]
     answer: 3
     explanation: 'Vosotros = zuek; la forma del verbo es "zarete".'
+  - id: ex-04-pp-mc2
+    type: multiple-choice
+    prompt: '¿Cómo dices "Yo no soy estudiante"?'
+    options: [Ni ikaslea naiz, Ni ez naiz ikaslea, Ez ni ikaslea naiz, Ni ikaslea ez naiz]
+    answer: 1
+    explanation: 'En euskera la negación va: SUJETO + ez + VERBO + atributo.'
 ---
 
-En euskera estándar (*euskara batua*) hay seis pronombres personales:
+En euskera estándar (*euskara batua*) hay siete pronombres personales:
 
 | Pronombre | Quién | Verbo "izan" (NOR) |
 |---|---|---|
 | **ni** | yo | naiz |
-| **zu** | tú / usted | zara |
-| **hura** | él, ella | da |
+| **hi** | tú (informal/cercano) | haiz |
+| **zu** | tú (estándar) | zara |
+| **hura** / **bera** | él, ella | da |
 | **gu** | nosotros, nosotras | gara |
 | **zuek** | vosotros, vosotras | zarete |
 | **haiek** | ellos, ellas | dira |
 
-> No existe distinción de género: *hura* sirve para él y ella; *haiek* para ellos y ellas.
+> No existe distinción de género: *hura* sirve para él y ella; *haiek* para ellos y ellas. **Bera** es una variante muy frecuente de *hura* en habla cotidiana.
 
-## Hi vs zu
+## Hi vs zu (importante)
 
-En registros muy informales o entre personas muy cercanas, existe **hi** como tú-singular informal (con su propia conjugación). El estándar moderno usa **zu** para todos los casos cotidianos. Aprende *zu* primero — el resto vendrá si lo necesitas.
+En euskera hay dos formas de "tú":
+
+- **zu** → tú estándar. Es lo que se usa en clase, con desconocidos, con compañeros de trabajo, con todo el mundo en cualquier registro neutro. **En A1 usa siempre `zu`.**
+- **hi** → tú íntimo (*hitano*). Solo entre amigos cercanos, familia, o en algunos pueblos como registro habitual. Tiene su propia conjugación (`haiz`, `duk`/`dun` con marca de género del oyente). No la trabajamos en A1.
+
+Si dudas, **usa `zu`** — funciona siempre.
+
+## Negación
+
+Para negar, antepones **ez** al verbo:
+
+- *Ni ez naiz Mikel.* — Yo no soy Mikel.
+- *Hau ez da nire kalea.* — Esta no es mi calle.
+- *Gu ez gara ikasleak.* — Nosotros no somos estudiantes.
 
 ## Patrón completo
 
@@ -3747,14 +3825,14 @@ code: 05-nongoa-zara
 unit: 01-saludos
 level: a1
 order: 5
-title: De dónde eres (Nongoa zara?)
-estimatedMinutes: 10
-covers: [introductions, countries-nationalities]
+title: De dónde eres y dónde vives
+estimatedMinutes: 12
+covers: [origin-koa, residence-an, countries-nationalities, locative-non]
 exercises:
   - id: ex-05-nz-mc1
     type: multiple-choice
     prompt: '¿Qué quiere decir "Nongoa zara?"'
-    options: [¿Cómo te llamas?, ¿De dónde eres?, ¿Qué edad tienes?, ¿Qué tal?]
+    options: [¿Cómo te llamas?, ¿De dónde eres?, ¿Qué edad tienes?, ¿Dónde vives?]
     answer: 1
     explanation: '"Nongoa" combina "non" (dónde) + sufijo de procedencia.'
   - id: ex-05-nz-fb1
@@ -3762,50 +3840,74 @@ exercises:
     prompt: 'Bilbo + -koa = ___ (de Bilbao).'
     answers: [Bilbokoa, bilbokoa]
     explanation: 'El sufijo "-ko" indica procedencia/pertenencia; con la "-a" del artículo queda "-koa".'
+  - id: ex-05-nz-fb2
+    type: fill-in-blank
+    prompt: 'Vivo en Donostia = Donostia___ bizi naiz.'
+    answers: [n]
+    explanation: 'Para residencia se usa el locativo `-(e)n` ("en"). Donostia + -n = Donostian (la "a" final se mantiene).'
+  - id: ex-05-nz-mc2
+    type: multiple-choice
+    prompt: '¿Cómo dices "¿Dónde vives?"'
+    options: [Nongoa zara?, Non bizi zara?, Nor zara?, Zer egiten duzu?]
+    answer: 1
+    explanation: '"Non" es "dónde", "bizi zara" es "vives" — literal: "¿Dónde vives?"'
   - id: ex-05-nz-fc
     type: flashcards
     cards:
       - { eu: 'Nongoa zara?', es: ¿De dónde eres? }
       - { eu: Bilbokoa naiz, es: Soy de Bilbao }
-      - { eu: Madrildarra naiz, es: Soy madrileño/a }
+      - { eu: Iruñekoa naiz, es: Soy de Pamplona }
       - { eu: Espainiakoa naiz, es: Soy de España }
-      - { eu: euskal herritarra, es: del País Vasco }
+      - { eu: 'Non bizi zara?', es: ¿Dónde vives? }
+      - { eu: Bilbon bizi naiz, es: Vivo en Bilbao }
+      - { eu: Donostian bizi naiz, es: Vivo en Donostia }
+      - { eu: Madrilen bizi naiz, es: Vivo en Madrid }
 ---
 
-Para preguntar de dónde es alguien, usa **Nongoa zara?** ("¿De dónde eres?").
+Esta lección cubre dos preguntas que se confunden a menudo: **de dónde eres** (origen) y **dónde vives** (residencia actual). En euskera se construyen con sufijos distintos.
 
-## Cómo responder
+## Origen: Nongoa zara? → ...koa naiz
 
-Hay dos patrones igualmente correctos:
+Para el origen usa **Nongoa zara?** y responde con el lugar + sufijo **`-(e)ko`** (con artículo: `-koa`):
 
-### 1. Lugar + `-koa`
+| Lugar | Procedencia |
+|---|---|
+| Bilbo | Bilbo**koa** naiz (Soy de Bilbao) |
+| Donostia | Donostia**koa** naiz (Soy de Donostia) |
+| Iruñea | Iruñe**koa** naiz (Soy de Pamplona) |
+| Madril | Madril**goa** naiz |
+| Espainia | Espainia**koa** naiz |
+| Argentina | Argentina**koa** naiz |
 
-Añades **`-koa`** al lugar (es la marca de procedencia):
+> Tras consonante el sufijo se adapta ortográficamente (*Madril* → *Madrilgoa*). Con la práctica sale solo.
 
-- *Bilbo* + `-koa` → **Bilbokoa naiz.** (Soy de Bilbao.)
-- *Donostia* + `-koa` → **Donostiakoa naiz.** (Soy de Donostia / San Sebastián.)
-- *Madril* + `-goa` → **Madrilgoa naiz.**
-- *Espainia* + `-koa` → **Espainiakoa naiz.** (Soy de España.)
+## Residencia: Non bizi zara? → ...n bizi naiz
 
-> Si la palabra acaba en consonante (`Bilbo`, `Madril`), el sufijo se adapta a `-ko` o `-go` según ortografía. No te bloquees: con la práctica sale solo.
+Para dónde vives ahora usa **Non bizi zara?** ("¿dónde vives?") + lugar con locativo **`-(e)n`**:
 
-### 2. Gentilicio (`-tarra`)
+| Lugar | Residencia |
+|---|---|
+| Bilbo | Bilbo**n** bizi naiz |
+| Donostia | Donostia**n** bizi naiz |
+| Iruñea | Iruñea**n** bizi naiz |
+| Madril | Madril**en** bizi naiz |
 
-Algunos lugares tienen un gentilicio fijo terminado en **`-tarra`**:
+> Acabados en `-a` orgánica (Donostia) mantienen la `a`. Acabados en consonante (Madril) intercalan `-e-`.
 
-- **bilbotarra** — bilbaíno/a (alternativa a *bilbokoa*)
-- **donostiarra** — donostiarra (San Sebastián)
-- **madrildarra** — madrileño/a
-- **euskal herritarra** — del País Vasco
+## Las dos cosas en una conversación
 
-Las dos formas conviven: *Bilbokoa naiz* y *Bilbotarra naiz* significan lo mismo.
+> — *Kaixo! Zein da zure izena?* — Hola, ¿cómo te llamas?
+> — *Ni Maialen naiz. Eta zu?* — Soy Maialen. ¿Y tú?
+> — *Mikel naiz. **Nongoa zara?*** — Soy Mikel. ¿De dónde eres?
+> — ***Iruñekoa naiz**, baina **Bilbon bizi naiz** orain.* — Soy de Pamplona, pero vivo en Bilbao ahora.
 
-## Más vocabulario útil
+## Vocabulario útil
 
 - **herri** — pueblo
 - **hiri** — ciudad
 - **herrialde** — comarca / región
-- **estatu** — estado
+- **estatu** — estado / país
+- **norekin bizi zara?** — ¿con quién vives? → *Bakarrik bizi naiz* (vivo solo) / *Gurasoekin bizi naiz* (vivo con mis padres)
 ```
 
 - [ ] **Step 2: Build + commit**
@@ -4182,10 +4284,13 @@ exercises:
       - { eu: hiru, es: tres }
       - { eu: lau, es: cuatro }
       - { eu: bost, es: cinco }
+      - { eu: hamar, es: diez }
       - { eu: 'Zenbat senide zara?', es: ¿Cuántos hermanos sois? }
       - { eu: senide, es: hermano/a (genérico) }
       - { eu: dut, es: tengo (1 cosa) }
       - { eu: ditut, es: tengo (varias cosas) }
+      - { eu: ez dut anaiarik, es: no tengo hermanos (negación con -rik) }
+      - { eu: 'Zenbat urte dituzu?', es: '¿Cuántos años tienes?' }
 ---
 
 Para hablar de cuántos miembros tiene una familia, usamos:
