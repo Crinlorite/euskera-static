@@ -154,8 +154,8 @@ function base64UrlToBytes(s: string): Uint8Array {
   return bytes;
 }
 
-async function streamThrough(input: Uint8Array, transform: TransformStream<Uint8Array, Uint8Array>): Promise<Uint8Array> {
-  const stream = new Response(new Blob([input as BlobPart])).body!.pipeThrough(transform);
+async function streamThrough(input: Uint8Array, transform: GenericTransformStream): Promise<Uint8Array> {
+  const stream = new Response(new Blob([input as BlobPart])).body!.pipeThrough(transform as TransformStream<Uint8Array, Uint8Array>);
   const buf = await new Response(stream).arrayBuffer();
   return new Uint8Array(buf);
 }
