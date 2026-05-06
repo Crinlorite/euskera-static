@@ -1,3 +1,78 @@
 ---
-return Astro.redirect('/es/');
+import RootLayout from '../layouts/RootLayout.astro';
+import LandingPicker from '../components/ui/LandingPicker.svelte';
+import HeroBackground from '../components/ui/HeroBackground.svelte';
+import Lauburu from '../components/ui/Lauburu.svelte';
+import { DEFAULT_LOCALE } from '../i18n/config';
 ---
+<RootLayout
+  locale={DEFAULT_LOCALE}
+  title="Aprende euskera"
+  description="Portal gratuito y abierto para aprender euskera. Elige tu idioma."
+  bodyClass="landing-body"
+>
+  <section class="landing">
+    <HeroBackground client:load />
+    <div class="landing-art" aria-hidden="true">
+      <Lauburu client:load size={620} opacity={0.07} />
+    </div>
+
+    <div class="container landing-inner stagger">
+      <p class="eyebrow">Hizkuntza · Lengua · Language</p>
+      <h1 class="display landing-title">
+        <span>Aprende</span>
+        <span class="text-grad">euskera.</span>
+      </h1>
+      <p class="landing-sub">
+        Selecciona tu lengua materna para entrar — o espera y te llevamos al castellano.
+      </p>
+      <LandingPicker client:load redirectTo="/es/" countdownSeconds={3} />
+    </div>
+  </section>
+</RootLayout>
+
+<style>
+  .landing {
+    position: relative;
+    min-block-size: 100vh;
+    padding-block: var(--s-7) var(--s-7);
+    isolation: isolate;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+  }
+  .landing-art {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    z-index: 0;
+    pointer-events: none;
+  }
+  .landing-inner {
+    position: relative;
+    z-index: 2;
+    max-inline-size: 980px;
+  }
+  .landing-title {
+    font-size: clamp(2.8rem, 9vw, 6.4rem);
+    margin: var(--s-2) 0 var(--s-3);
+    letter-spacing: var(--tr-display);
+    line-height: 0.92;
+  }
+  .landing-title span { display: block; }
+  .landing-title .text-grad { font-style: italic; }
+  .landing-sub {
+    font-family: var(--ff-sans);
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    color: var(--c-text-muted);
+    max-inline-size: 48ch;
+    line-height: 1.5;
+    margin: 0 0 var(--s-5);
+  }
+
+  @media (max-width: 720px) {
+    .landing { padding-block: var(--s-6); min-block-size: 92vh; }
+    .landing-title { font-size: clamp(2.4rem, 11vw, 4.5rem); }
+  }
+</style>
