@@ -26,9 +26,9 @@ exercises:
       - "Porque es un nombre vasco"
       - "Porque es el sujeto de un verbo transitivo (NORK)"
       - "Porque significa plural"
-      - "Es un error, debería ser solo Mikel"
+      - "Es un error, debería ser solo Egoitz"
     answer: 1
-    explanation: 'En euskera el sujeto de los verbos transitivos lleva la marca NORK (-k): Mikel**ek** ha leído el periódico.'
+    explanation: 'En euskera el sujeto de los verbos transitivos lleva la marca NORK (-k): Egoitz**ek** ha leído el periódico.'
   - id: ex-05-gze-fb1
     type: fill-in-blank
     prompt: 'He desayunado tostadas y café = Tostadak eta kafea ___ ___ (rellena: partizipio + auxiliar para "yo").'
@@ -100,7 +100,7 @@ Sigue la misma plantilla pero con tu información real. Revisa estas dos cosas m
 | Incorrecto | Correcto | Por qué |
 |---|---|---|
 | *Goizean joan dut* | *Goizean joan naiz* | *Joan* es intransitivo, va con *izan* (naiz). |
-| *Mikel egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* es transitivo: sujeto con -k, auxiliar *du*. |
+| *Egoitz egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* es transitivo: sujeto con -k, auxiliar *du*. |
 | *Gaur gosaltzen dut etxean* | *Gaur gosaldu dut etxean* | Si quieres pasado reciente, sin *-tzen*. |
 | *Atzo lanera joan naiz* | (correcto, pero forma común también: *Atzo lanera joan nintzen* — pasado completo) | Para acciones de ayer, en conversación se admite el pasado reciente; el pasado completo se ve más adelante. |
 

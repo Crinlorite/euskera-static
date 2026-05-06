@@ -28,7 +28,7 @@ exercises:
       - { eu: zure, es: tu (de ti) }
       - { eu: bere, es: su (de él/ella) }
       - { eu: 'Zein da zure izena?', es: ¿Cómo te llamas? }
-      - { eu: Nire izena Mikel da, es: Mi nombre es Mikel }
+      - { eu: Nire izena Egoitz da, es: Mi nombre es Egoitz }
 ---
 
 Hay dos maneras igualmente correctas de preguntar el nombre:
@@ -47,7 +47,7 @@ Hay dos maneras igualmente correctas de preguntar el nombre:
 
 Tienes dos opciones, igualmente válidas:
 
-1. **Nire izena Mikel da.** — "Mi nombre es Mikel."
-2. **Mikel naiz.** — "Soy Mikel." (el patrón de la lección anterior)
+1. **Nire izena Egoitz da.** — "Mi nombre es Egoitz."
+2. **Egoitz naiz.** — "Soy Egoitz." (el patrón de la lección anterior)
 
 > Los posesivos básicos son *nire* (mi), *zure* (tu), *bere* (su). Los verás muchas veces más adelante — empieza a familiarizarte con ellos ya.

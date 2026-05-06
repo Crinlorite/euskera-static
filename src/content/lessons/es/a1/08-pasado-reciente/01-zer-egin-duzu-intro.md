@@ -39,7 +39,7 @@ exercises:
     type: flashcards
     cards:
       - { eu: 'Zer egin duzu gaur?', es: '¿Qué has hecho hoy?' }
-      - { eu: 'Zer egin du Mikelek?', es: '¿Qué ha hecho Mikel?' }
+      - { eu: 'Zer egin du Mikelek?', es: '¿Qué ha hecho Egoitz?' }
       - { eu: 'Zer egin duzue gaur?', es: '¿Qué habéis hecho hoy?' }
       - { eu: gaur, es: hoy }
       - { eu: gaur goizean, es: hoy por la mañana }

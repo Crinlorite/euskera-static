@@ -92,7 +92,7 @@ Mira cómo cambia la palabra elegida según hables de cualidad o de estado:
 ## Casos típicos de A1
 
 - *Ni langilea naiz, baina gaur nekatuta nago.* — Soy trabajadora, pero hoy estoy cansada.
-- *Mikel oso jatorra da, baina haserre dago.* — Mikel es muy majo, pero está enfadado.
+- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz es muy majo, pero está enfadado.
 - *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — La madre de Maialen es joven. Está contenta porque hoy es su cumpleaños.
 
 ## Pregunta correctamente

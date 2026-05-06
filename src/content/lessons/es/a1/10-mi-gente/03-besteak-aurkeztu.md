@@ -40,7 +40,7 @@ exercises:
     cards:
       - { eu: 'Nor da hau?', es: '¿Quién es este/a?' }
       - { eu: 'Hau nire laguna da.', es: 'Esta es mi amiga.' }
-      - { eu: 'Hau Mikel da.', es: 'Este es Mikel.' }
+      - { eu: 'Hau Egoitz da.', es: 'Este es Egoitz.' }
       - { eu: 'Bera nire bizilaguna da.', es: 'Él/ella es mi vecino/a.' }
       - { eu: 'Bera erizaina da.', es: 'Él/ella es enfermero/a.' }
       - { eu: 'Hauek nire lankideak dira.', es: 'Estos son mis compañeros de trabajo.' }
@@ -110,7 +110,7 @@ Mira esta presentación tipo, frecuente en clase o en una primera presentación 
 
 Igual que ya sabes con *izan*, la negación va antes del verbo:
 
-- *Hau **ez da** Mikel.* — Este no es Mikel.
+- *Hau **ez da** Egoitz.* — Este no es Egoitz.
 - *Bera **ez da** mediku, irakaslea da.* — Él/ella no es médico, es profesor.
 
 > **Truco:** para no liarte con el orden, recuerda que en euskera **el verbo va al final** de la frase. La negación se cuela justo delante del verbo.

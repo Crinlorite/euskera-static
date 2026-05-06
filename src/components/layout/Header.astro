@@ -25,7 +25,10 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
           <path d="M0 0 C 30 -10, 60 -30, 80 -60 C 60 -30, 30 -5, 0 0 Z" transform="rotate(270)" fill="currentColor"/>
         </g>
       </svg>
-      <span>{t(locale, 'site.name')}</span>
+      <span class="brand-text">
+        <span class="brand-name">{t(locale, 'site.name')}</span>
+        <span class="brand-by">By Crintech Studios</span>
+      </span>
     </a>
     <nav class="primary-nav" aria-label="primary">
       <ul>
@@ -59,12 +62,20 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
   .brand {
     display: inline-flex;
     align-items: center;
-    gap: var(--s-2);
-    font-weight: 700;
+    gap: var(--s-3);
     text-decoration: none;
     color: var(--c-text);
   }
-  .brand svg { color: var(--c-red); }
+  .brand svg { color: var(--c-red); flex-shrink: 0; }
+  .brand-text { display: inline-flex; flex-direction: column; line-height: 1.1; }
+  .brand-name { font-weight: 700; font-size: 1rem; }
+  .brand-by {
+    font-size: 0.65rem;
+    font-weight: 500;
+    color: var(--c-text-muted);
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+  }
   .primary-nav { margin-inline-start: auto; }
   .primary-nav ul {
     display: flex;

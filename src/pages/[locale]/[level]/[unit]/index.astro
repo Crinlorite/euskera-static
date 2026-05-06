@@ -27,11 +27,24 @@ const allLessons = await getCollection('lessons');
 const lessons = allLessons
   .filter((l) => l.id.startsWith(`${locale}/${levelCode}/${unitCode}/`))
   .sort((a, b) => a.data.order - b.data.order);
+
+// Para el navegador entre unidades del mismo nivel
+const allUnits = await getCollection('units');
+const sameLevelUnits = allUnits
+  .filter((u) => u.id.startsWith(`${locale}/${levelCode}/`))
+  .sort((a, b) => a.data.order - b.data.order);
+const currentIdx = sameLevelUnits.findIndex((u) => u.data.code === unitCode);
+const prevUnit = currentIdx > 0 ? sameLevelUnits[currentIdx - 1] : undefined;
+const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
+  ? sameLevelUnits[currentIdx + 1]
+  : undefined;
 ---
 <RootLayout locale={locale} title={unit.data.title}>
   <article class="container-wide unit">
     <header class="unit-header stagger">
-      <p class="eyebrow"><a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> · Unidad</p>
+      <p class="eyebrow">
+        <a href={`/${locale}/${levelCode}/`}>← {levelCode.toUpperCase()} · Todas las unidades</a>
+      </p>
       <div class="unit-headline">
         <span class="unit-num display">{unit.data.order.toString().padStart(2, '0')}</span>
         <h1 class="display unit-title">{unit.data.title}</h1>
@@ -49,6 +62,37 @@ const lessons = allLessons
       </header>
       <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
     </section>
+
+    <nav class="unit-nav" aria-label="Navegación entre unidades">
+      {prevUnit ? (
+        <a class="unit-nav-card prev" href={`/${locale}/${levelCode}/${prevUnit.data.code}/`}>
+          <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="meta">
+            <small>Unidad anterior</small>
+            <strong>{prevUnit.data.order.toString().padStart(2, '0')} · {prevUnit.data.title}</strong>
+          </span>
+        </a>
+      ) : <div></div>}
+
+      <a class="unit-nav-back" href={`/${locale}/${levelCode}/`}>
+        <small>Volver a</small>
+        <strong>{levelCode.toUpperCase()}</strong>
+      </a>
+
+      {nextUnit ? (
+        <a class="unit-nav-card next" href={`/${locale}/${levelCode}/${nextUnit.data.code}/`}>
+          <span class="meta">
+            <small>Siguiente unidad</small>
+            <strong>{nextUnit.data.order.toString().padStart(2, '0')} · {nextUnit.data.title}</strong>
+          </span>
+          <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      ) : <div></div>}
+    </nav>
   </article>
 </RootLayout>
 
@@ -68,7 +112,11 @@ const lessons = allLessons
   }
   .unit-num {
     font-size: clamp(5rem, 14vw, 11rem);
-    line-height: 0.82;
+    /* line-height >=1 + padding-block para evitar que la cursiva de Fraunces
+       se corte (las descendentes/ascendentes en italic se salen del line-box
+       cuando es <1). */
+    line-height: 1;
+    padding-block: 0.08em;
     background: var(--grad-ikurri-text);
     -webkit-background-clip: text;
     background-clip: text;
@@ -101,9 +149,72 @@ const lessons = allLessons
   .section-head { margin-block-end: var(--s-5); display: grid; gap: var(--s-2); }
   .section-title { font-size: var(--t-h2); line-height: 1.05; letter-spacing: var(--tr-tight); }
 
+  /* Navegación entre unidades */
+  .unit-nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: var(--s-3);
+    margin-block-start: var(--s-9);
+    padding-block-start: var(--s-6);
+    border-block-start: 1px solid var(--c-border);
+    align-items: stretch;
+  }
+  .unit-nav-card,
+  .unit-nav-back {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    padding: var(--s-4);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    text-decoration: none;
+    color: inherit;
+    background: var(--c-bg);
+    box-shadow: var(--sh-card);
+    transition: transform var(--m-base) var(--ease-out),
+                border-color var(--m-base) var(--ease-out),
+                box-shadow var(--m-base) var(--ease-out);
+  }
+  .unit-nav-card:hover,
+  .unit-nav-back:hover {
+    transform: translateY(-2px);
+    border-color: var(--c-red);
+    box-shadow: var(--sh-card-hover);
+  }
+  .unit-nav-card.next { text-align: end; justify-content: end; }
+  .unit-nav-card .meta { display: grid; gap: 2px; }
+  .unit-nav-card small,
+  .unit-nav-back small {
+    color: var(--c-text-muted);
+    font-size: 0.78rem;
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+  }
+  .unit-nav-card strong,
+  .unit-nav-back strong { font-size: 1rem; }
+  .unit-nav-back {
+    flex-direction: column;
+    text-align: center;
+    padding-inline: var(--s-5);
+    background: var(--c-bg-alt);
+  }
+  .unit-nav-back strong {
+    font-family: var(--ff-display);
+    font-style: italic;
+    font-size: 1.4rem;
+    background: var(--grad-ikurri-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
   @media (max-width: 720px) {
     .unit { padding-block: var(--s-6); }
     .unit-headline { grid-template-columns: 1fr; gap: var(--s-2); }
     .unit-header { margin-block-end: var(--s-7); padding-block-end: var(--s-5); }
+    .unit-nav { grid-template-columns: 1fr; gap: var(--s-2); }
+    .unit-nav-card.next { text-align: start; justify-content: flex-start; }
+    .unit-nav-back { order: 2; }
   }
 </style>

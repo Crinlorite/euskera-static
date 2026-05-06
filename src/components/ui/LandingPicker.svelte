@@ -59,6 +59,22 @@
 </script>
 
 <div class="wrap">
+  {#if mounted}
+    <div class="countdown" class:hide={cancelled} aria-live="polite">
+      {#if !cancelled && !prefersReduce}
+        <span class="countdown-text">
+          Vamos a Castellano en
+          <strong class="countdown-num" data-n={countdown}>{Math.max(0, countdown)}</strong>
+        </span>
+        <button class="btn-cancel" on:click={cancelTimer} aria-label="Cancelar redirección">
+          esperar
+        </button>
+      {:else if cancelled}
+        <span class="countdown-text muted">Sin prisa. Selecciona abajo cuando quieras.</span>
+      {/if}
+    </div>
+  {/if}
+
   <ul class="picker">
     {#each all as lang}
       {@const isActive = lang.status === 'active'}
@@ -82,26 +98,10 @@
       </li>
     {/each}
   </ul>
-
-  {#if mounted}
-    <div class="countdown" class:hide={cancelled} aria-live="polite">
-      {#if !cancelled && !prefersReduce}
-        <span class="countdown-text">
-          Vamos a Castellano en
-          <strong class="countdown-num" data-n={countdown}>{Math.max(0, countdown)}</strong>
-        </span>
-        <button class="btn-cancel" on:click={cancelTimer} aria-label="Cancelar redirección">
-          esperar
-        </button>
-      {:else if cancelled}
-        <span class="countdown-text muted">Sin prisa. Selecciona arriba cuando quieras.</span>
-      {/if}
-    </div>
-  {/if}
 </div>
 
 <style>
-  .wrap { display: grid; gap: var(--s-6); margin-block-start: var(--s-5); }
+  .wrap { display: grid; gap: var(--s-5); margin-block-start: var(--s-5); }
 
   .picker {
     list-style: none; margin: 0; padding: 0;

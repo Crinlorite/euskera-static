@@ -60,11 +60,11 @@ El euskera tiene una particularidad muy interesante en el vocabulario familiar: 
 
 Por tanto:
 
-> **Mikel** dice: *"Nire arreba Maialen da."* (Mi hermana es Maialen.)
+> **Egoitz** dice: *"Nire arreba Maialen da."* (Mi hermana es Maialen.)
 >
 > **Maialen** dice: *"Nire ahizpa Naia da."* (Mi hermana es Naia.)
 >
-> Tanto Mikel como Maialen dicen: *"Nire anaia Aitor da."* (Mi hermano es Aitor.)
+> Tanto Egoitz como Maialen dicen: *"Nire anaia Hodei da."* (Mi hermano es Hodei.)
 
 Esto refleja una distinción muy antigua del euskera. No tiene equivalente directo en castellano y se aprende por uso. Si te equivocas al principio, no pasa nada — todo el mundo te entenderá.
 

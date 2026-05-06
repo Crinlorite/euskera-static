@@ -99,11 +99,11 @@ Ejemplo completo:
 >
 > **Maialen:** *Nik, hasteko, arrain-zopa nahi dut.*
 >
-> **Mikel:** *Eta nik entsalada epela.*
+> **Egoitz:** *Eta nik entsalada epela.*
 >
 > **Z:** *Eta bigarrenerako?*
 >
-> **Mikel:** *Bakailaoa saltsan.*
+> **Egoitz:** *Bakailaoa saltsan.*
 >
 > **Maialen:** *Niretzat legatza, mesedez.*
 >
@@ -111,6 +111,6 @@ Ejemplo completo:
 >
 > **Maialen:** *Ardo zuria nahiago dut arrainarekin.*
 >
-> **Mikel:** *Niretzat ardo zuria ere bai, mesedez.*
+> **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
 > **Nota cultural:** en restaurantes pequeños es muy frecuente que un comensal pida por todo el grupo (*Niretzat legatza eta beretzat haragia* — para mí merluza y para él/ella carne). Por eso *niretzat / zuretzat / beretzat* son palabras de mucho rendimiento desde el primer día.

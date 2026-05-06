@@ -121,7 +121,7 @@ Con *joan* (ir):
 | Zuek | **joan zarete** | Habéis ido |
 | Haiek | **joan dira** | Han ido |
 
-> Los pronombres aquí van **sin -k** (van con NOR, no con NORK): *ni*, no *nik*; *Maialen*, no *Maialenek*. En este patrón los nombres propios van tal cual: *Mikel etorri da* (Mikel ha venido), *Maialen joan da* (Maialen ha ido).
+> Los pronombres aquí van **sin -k** (van con NOR, no con NORK): *ni*, no *nik*; *Maialen*, no *Maialenek*. En este patrón los nombres propios van tal cual: *Egoitz etorri da* (Egoitz ha venido), *Maialen joan da* (Maialen ha ido).
 
 ## Comparación lado a lado
 
@@ -139,7 +139,7 @@ Con *joan* (ir):
 - *Goizeko zazpietan esnatu naiz.* — Me he despertado a las siete de la mañana.
 - *Lanera autobusez joan naiz.* — He ido al trabajo en autobús.
 - *Etxera oinez etorri naiz.* — He venido a casa a pie.
-- *Mikel berandu jaiki da gaur.* — Mikel se ha levantado tarde hoy.
+- *Egoitz berandu jaiki da gaur.* — Egoitz se ha levantado tarde hoy.
 - *Gu zinera joan gara.* — Nosotros hemos ido al cine.
 - *Haiek tabernan egon dira.* — Ellos han estado en el bar.
 

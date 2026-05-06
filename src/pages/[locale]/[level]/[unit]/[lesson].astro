@@ -33,6 +33,43 @@ const idx = sibs.findIndex((l) => l.data.code === lessonCode);
 const prev = idx > 0 ? sibs[idx - 1] : undefined;
 const next = idx >= 0 && idx < sibs.length - 1 ? sibs[idx + 1] : undefined;
 const lessonKey = lesson.data.id;
+
+// Cross-unit navigation cuando no hay prev/next dentro de la unidad
+const allUnits = await getCollection('units');
+const sameLevelUnits = allUnits
+  .filter((u) => u.id.startsWith(`${locale}/${levelCode}/`))
+  .sort((a, b) => a.data.order - b.data.order);
+const currentUnitIdx = sameLevelUnits.findIndex((u) => u.data.code === unitCode);
+const prevUnit = currentUnitIdx > 0 ? sameLevelUnits[currentUnitIdx - 1] : undefined;
+const nextUnit = currentUnitIdx >= 0 && currentUnitIdx < sameLevelUnits.length - 1
+  ? sameLevelUnits[currentUnitIdx + 1]
+  : undefined;
+
+// Si es la primera lección de la unidad, prev = unidad anterior (página de unidad)
+let prevHref: string | undefined;
+let prevTitle: string | undefined;
+let prevEyebrow: string | undefined;
+if (prev) {
+  prevHref = `/${locale}/${levelCode}/${unitCode}/${prev.data.code}/`;
+  prevTitle = prev.data.title;
+} else if (prevUnit) {
+  prevHref = `/${locale}/${levelCode}/${prevUnit.data.code}/`;
+  prevTitle = prevUnit.data.title;
+  prevEyebrow = `Unidad ${prevUnit.data.order.toString().padStart(2, '0')}`;
+}
+
+// Si es la última lección, next = siguiente unidad (página de unidad)
+let nextHref: string | undefined;
+let nextTitle: string | undefined;
+let nextEyebrow: string | undefined;
+if (next) {
+  nextHref = `/${locale}/${levelCode}/${unitCode}/${next.data.code}/`;
+  nextTitle = next.data.title;
+} else if (nextUnit) {
+  nextHref = `/${locale}/${levelCode}/${nextUnit.data.code}/`;
+  nextTitle = nextUnit.data.title;
+  nextEyebrow = `Siguiente unidad · ${nextUnit.data.order.toString().padStart(2, '0')}`;
+}
 ---
 <RootLayout locale={locale} title={lesson.data.title}>
   <div class="container-wide lesson-grid">
@@ -57,10 +94,12 @@ const lessonKey = lesson.data.id;
       )}
       <LessonNav
         locale={locale}
-        prevHref={prev ? `/${locale}/${levelCode}/${unitCode}/${prev.data.code}/` : undefined}
-        prevTitle={prev?.data.title}
-        nextHref={next ? `/${locale}/${levelCode}/${unitCode}/${next.data.code}/` : undefined}
-        nextTitle={next?.data.title}
+        prevHref={prevHref}
+        prevTitle={prevTitle}
+        prevEyebrow={prevEyebrow}
+        nextHref={nextHref}
+        nextTitle={nextTitle}
+        nextEyebrow={nextEyebrow}
       />
     </article>
   </div>

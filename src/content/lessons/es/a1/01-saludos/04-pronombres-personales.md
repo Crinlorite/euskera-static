@@ -64,7 +64,7 @@ Si dudas, **usa `zu`** — funciona siempre.
 
 Para negar, antepones **ez** al verbo:
 
-- *Ni ez naiz Mikel.* — Yo no soy Mikel.
+- *Ni ez naiz Egoitz.* — Yo no soy Egoitz.
 - *Hau ez da nire kalea.* — Esta no es mi calle.
 - *Gu ez gara ikasleak.* — Nosotros no somos estudiantes.
 

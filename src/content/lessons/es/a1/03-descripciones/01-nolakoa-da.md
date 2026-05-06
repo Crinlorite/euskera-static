@@ -101,7 +101,7 @@ El esquema es muy regular. El adjetivo lleva siempre la `-a` del artículo:
 ## Ejemplos en uso
 
 - *Nire ama altua eta argala da.* — Mi madre es alta y delgada.
-- *Mikelen anaia gaztea da, baina ni heldua naiz.* — El hermano de Mikel es joven, pero yo soy mayor.
+- *Mikelen anaia gaztea da, baina ni heldua naiz.* — El hermano de Egoitz es joven, pero yo soy mayor.
 - *Etxe hau handia da; nire etxea txikia da.* — Esta casa es grande; mi casa es pequeña.
 
 ## Negación e intensidad
