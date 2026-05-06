@@ -44,8 +44,9 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
   .site-header {
     position: sticky;
     inset-block-start: 0;
-    background: rgba(255, 255, 255, 0.92);
-    backdrop-filter: blur(8px);
+    /* No backdrop-filter: crea containing block que atrapa al drawer móvil.
+       Para mantener el efecto, sería necesario portalar el drawer a body. */
+    background: rgba(255, 255, 255, 0.96);
     border-block-end: 1px solid var(--c-border);
     z-index: 50;
   }
