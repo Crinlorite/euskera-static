@@ -1,9 +1,13 @@
 ---
+import { getCollection } from 'astro:content';
 import RootLayout from '../../layouts/RootLayout.astro';
 import ProgressDashboard from '../../components/progress/ProgressDashboard.svelte';
+import ProgressByUnit from '../../components/progress/ProgressByUnit.svelte';
+import Achievements from '../../components/progress/Achievements.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 import { listLessonKeys } from '../../lib/lessonKeys';
+import { ACHIEVEMENTS } from '../../lib/achievements';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -11,15 +15,69 @@ export async function getStaticPaths() {
 
 const { locale } = Astro.params as { locale: LocaleCode };
 const knownLessonKeys = await listLessonKeys(locale);
+
+// Datos por unidad (para ProgressByUnit + para evaluator de logros)
+const allUnits = await getCollection('units');
+const allLessons = await getCollection('lessons');
+const a1Units = allUnits
+  .filter((u) => u.id.startsWith(`${locale}/a1/`))
+  .sort((a, b) => a.data.order - b.data.order);
+
+const lessonsByUnit: Record<string, string[]> = {};
+for (const u of a1Units) {
+  const lessons = allLessons
+    .filter((l) => l.id.startsWith(`${locale}/a1/${u.data.code}/`))
+    .sort((a, b) => a.data.order - b.data.order);
+  lessonsByUnit[u.data.id] = lessons.map((l) => l.data.id);
+}
+
+const unitsForComponent = a1Units.map((u) => ({
+  id: u.data.id,
+  code: u.data.code,
+  title: u.data.title,
+  order: u.data.order,
+  lessonIds: lessonsByUnit[u.data.id] ?? [],
+}));
+
+// Para el evaluator de logros — units por nivel
+const unitsByLevel = { a1: { unitIds: a1Units.map((u) => u.data.id) } };
+
+// Catalogo serializable a cliente
+const achievementsCatalog = ACHIEVEMENTS;
 ---
 <RootLayout locale={locale} title={t(locale, 'nav.progress')}>
-  <article class="container">
-    <h1>{t(locale, 'nav.progress')}</h1>
+  <article class="container progreso">
+    <header class="page-head">
+      <p class="eyebrow">Tu camino</p>
+      <h1 class="display page-title">{t(locale, 'nav.progress')}</h1>
+    </header>
+
     <ProgressDashboard client:load locale={locale} knownLessonKeys={knownLessonKeys} />
+
+    <ProgressByUnit
+      client:load
+      units={unitsForComponent}
+      levelCode="a1"
+      locale={locale}
+    />
+
+    <Achievements
+      client:load
+      catalog={achievementsCatalog}
+      lessonsByUnit={lessonsByUnit}
+      unitsByLevel={unitsByLevel}
+      locale={locale}
+    />
   </article>
 </RootLayout>
 
 <style>
-  article { padding-block: var(--s-6); }
-  h1 { margin: 0 0 var(--s-4); }
+  .progreso { padding-block: var(--s-6) var(--s-8); display: grid; gap: var(--s-7); }
+  .page-head { display: grid; gap: var(--s-2); }
+  .page-title {
+    font-size: var(--t-h1);
+    line-height: 1.05;
+    letter-spacing: var(--tr-tight);
+    margin: 0;
+  }
 </style>
