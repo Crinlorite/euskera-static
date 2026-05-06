@@ -108,13 +108,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: var(--s-3);
+    text-align: start; /* dentro del picker el texto va a la izquierda en cada card */
   }
-  /* Más columnas a más ancho para aprovechar el escritorio */
-  @media (min-width: 1100px) {
-    .picker { grid-template-columns: repeat(5, 1fr); }
-  }
-  @media (min-width: 1400px) {
-    .picker { grid-template-columns: repeat(6, 1fr); }
+  /* 4 columnas en escritorio normal — encajan perfecto en el ancho centrado del landing */
+  @media (min-width: 760px) {
+    .picker { grid-template-columns: repeat(4, 1fr); }
   }
   @media (max-width: 540px) {
     .picker { grid-template-columns: repeat(2, 1fr); }
