@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import RootLayout from '../../layouts/RootLayout.astro';
+import Lauburu from '../../components/ui/Lauburu.svelte';
+import Particles from '../../components/ui/Particles.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 
@@ -15,6 +17,10 @@ const levels = (await getCollection('levels'))
 ---
 <RootLayout locale={locale} title={t(locale, 'site.tagline')}>
   <section class="hero">
+    <div class="hero-bg">
+      <Lauburu client:load size={520} opacity={0.07} />
+      <Particles client:load />
+    </div>
     <div class="container hero-inner">
       <h1>{t(locale, 'home.hero.title')}</h1>
       <p class="sub">{t(locale, 'home.hero.sub')}</p>
@@ -47,9 +53,20 @@ const levels = (await getCollection('levels'))
 
 <style>
   .hero {
-    padding-block: var(--s-8);
+    position: relative;
+    overflow: hidden;
+    padding-block: var(--s-8) var(--s-7);
     text-align: center;
   }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero-inner { position: relative; z-index: 1; }
   .hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); margin: 0 0 var(--s-3); letter-spacing: -0.02em; }
   .sub { color: var(--c-text-muted); margin: 0 0 var(--s-5); }
   .levels { padding-block-end: var(--s-8); }

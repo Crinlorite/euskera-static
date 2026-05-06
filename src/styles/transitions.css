@@ -1,0 +1,12 @@
+.fade-in {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 400ms ease-out, transform 400ms ease-out;
+}
+.fade-in.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .fade-in, .fade-in.in { opacity: 1; transform: none; transition: none; }
+}

@@ -1,5 +1,7 @@
 ---
 import '../styles/base.css';
+import '../styles/transitions.css';
+import { ViewTransitions } from 'astro:transitions';
 import { LANGUAGES, DEFAULT_LOCALE, type LocaleCode } from '../i18n/config';
 import { t } from '../i18n/ui';
 import Header from '../components/layout/Header.astro';
@@ -46,6 +48,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={locale.replace('-', '_')} />
     <meta name="twitter:card" content="summary_large_image" />
+    <ViewTransitions />
   </head>
   <body class={bodyClass}>
     <a class="sr-only" href="#main">{t(locale, 'common.skip-content')}</a>
@@ -54,5 +57,20 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       <slot />
     </main>
     <Footer locale={locale} />
+    <script>
+      const setupFadeIns = () => {
+        const obs = new IntersectionObserver((entries) => {
+          for (const e of entries) {
+            if (e.isIntersecting) {
+              e.target.classList.add('in');
+              obs.unobserve(e.target);
+            }
+          }
+        }, { rootMargin: '0px 0px -10% 0px' });
+        document.querySelectorAll('.fade-in').forEach((el) => obs.observe(el));
+      };
+      setupFadeIns();
+      document.addEventListener('astro:page-load', setupFadeIns);
+    </script>
   </body>
 </html>
