@@ -52,7 +52,10 @@ const levels = defineCollection({
 const units = defineCollection({
   type: 'data',
   schema: z.object({
-    code: z.string(),
+    // Stable opaque identifier — never changes aunque renombres el slug.
+    // Lo usan progress store, referencias internas, futuras migraciones.
+    id: z.string().min(1),
+    code: z.string(),               // slug actual (parte de la URL)
     level: z.string(),
     title: z.string(),
     order: z.number().int().positive(),
@@ -65,8 +68,11 @@ const units = defineCollection({
 const lessons = defineCollection({
   type: 'content',
   schema: z.object({
-    code: z.string(),
-    unit: z.string(),
+    // Stable opaque identifier — clave del progreso, no cambia aunque renombres el slug.
+    id: z.string().min(1),
+    unitId: z.string().min(1),      // referencia estable al unit por su id (no slug)
+    code: z.string(),               // slug actual de la lección
+    unit: z.string(),               // slug del unit (parte de la URL)
     level: z.string(),
     order: z.number().int().positive(),
     title: z.string(),
