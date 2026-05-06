@@ -65,3 +65,50 @@ curriculum:
   - { id: common-verbs, title: 'Verbos básicos (sartu/irten, jan, edan, ikusi, joan, etorri)' }
   - { id: questions-basic, title: 'Preguntas básicas (zer, nor, non, noiz, zenbat, nola)' }
   - { id: celebrations, title: 'Felicitaciones (Zorionak, Urte askotarako, Topa egin)' }
+  # Barrio, ubicación, existencia, movimiento
+  - { id: spatial-positions, title: 'Posiciones espaciales (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: 'Existencia con bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: 'Adverbios de lugar hemen / hor / han y demostrativos honetan / horretan / hartan' }
+  - { id: movement-verbs, title: 'Verbos de movimiento joan, etorri, ibili (sintéticos: noa/zoaz, nator/zatoz, nabil/zabiltza)' }
+  - { id: nora-allative, title: 'Caso NORA: -ra (dirección, destino) — Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'Caso NONDIK: -tik (origen, procedencia del movimiento) — Etxetik nator' }
+  - { id: instrumental-z, title: 'Instrumental -z para transporte y modo (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: 'Instrucciones de ruta (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # Casa y vida doméstica
+  - { id: home-rooms, title: 'Habitaciones de la casa (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: 'Muebles y objetos del hogar (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: 'Tareas domésticas (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: 'Tipos de convivencia (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: 'Describir la casa propia (gela kopurua, kokapena, altzariak)' }
+  # Vecinos y vida social ampliada
+  - { id: social-relations, title: 'Relaciones sociales (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: 'Profesiones (ampliación: erizaina, polizia, kazetaria, dendaria, mekanikaria)' }
+  - { id: third-person-introductions, title: 'Presentar a otra persona (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: 'Rutina y profesión de otros (Bera medikua da, ospitalean lan egiten du)' }
+  # Bar, comida y peticiones
+  - { id: bar-ordering, title: 'Pedir en el bar (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: 'Precios y cantidades (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: 'Comida típica de bar (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # Compras (Gaia 11)
+  - { id: shops, title: 'Tipos de tienda (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: 'Cantidades y unidades (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: 'Hacer la compra: lista, pedir, pagar (Hartuko dut..., Eman X mesedez)' }
+  # Restaurante (Gaia 12)
+  - { id: restaurant-vocab, title: 'Restaurante: tipos (jatetxea, sagardotegia, erretegia) y partes del menú (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: 'Pedir en mesa (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: 'La cuenta y formas de pago (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # Agenda y futuro próximo (Gaia 13)
+  - { id: weekly-planning, title: 'Planificación semanal: agenda, citas y compromisos (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: 'Futuro próximo: partícula -ko/-go + verbo auxiliar (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: 'Marcadores de cuándo (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # Rutina diaria, hora y momentos del día (Gaia 7)
+  - { id: time-detail, title: 'Hora con detalle (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: 'Momentos del día (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: 'Rutina diaria (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: 'Aspecto habitual: partizipioa + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: 'Frecuencia (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # Pasado reciente / orainaldi burutua (Gaia 8)
+  - { id: participle-form, title: 'Partizipioa: forma del verbo para el pasado reciente (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: 'Pasado reciente NOR-NORK: partizipioa + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: 'Pasado reciente NOR: partizipioa + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: 'Marcadores de pasado reciente (gaur, gaur goizean, atzo, atzo arratsaldean)' }
