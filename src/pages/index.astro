@@ -52,13 +52,15 @@ import { DEFAULT_LOCALE } from '../i18n/config';
   .landing-inner {
     position: relative;
     z-index: 2;
-    max-inline-size: 980px;
+    inline-size: 100%;
+    max-inline-size: var(--shell-max);
   }
   .landing-title {
-    font-size: clamp(2.8rem, 9vw, 6.4rem);
+    font-size: clamp(2.8rem, 9vw, 7rem);
     margin: var(--s-2) 0 var(--s-3);
     letter-spacing: var(--tr-display);
     line-height: 0.92;
+    max-inline-size: 14ch;
   }
   .landing-title span { display: block; }
   .landing-title .text-grad { font-style: italic; }
@@ -68,7 +70,7 @@ import { DEFAULT_LOCALE } from '../i18n/config';
     color: var(--c-text-muted);
     max-inline-size: 48ch;
     line-height: 1.5;
-    margin: 0 0 var(--s-5);
+    margin: 0 0 var(--s-6);
   }
 
   @media (max-width: 720px) {
