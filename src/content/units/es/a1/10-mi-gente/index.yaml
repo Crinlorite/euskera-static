@@ -1,0 +1,14 @@
+id: a1-people
+code: 10-mi-gente
+level: a1
+title: "Vecinos y relaciones"
+order: 10
+description: "Describe a tus vecinos: relaciones, profesiones y rutinas de otras personas."
+estimatedMinutes: 55
+covers:
+  - social-relations
+  - professions
+  - professions-extended
+  - third-person-introductions
+  - daily-routine-third-person
+  - possessives
