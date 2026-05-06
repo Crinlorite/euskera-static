@@ -1,4 +1,6 @@
 ---
+id: a1-greetings-1
+unitId: a1-greetings
 code: 01-kaixo
 unit: 01-saludos
 level: a1

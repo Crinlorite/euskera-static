@@ -1,0 +1,14 @@
+id: a1-restaurant
+code: 12-restaurante
+level: a1
+title: "En el restaurante"
+order: 12
+description: Llegar al restaurante, leer el menú, pedir, pagar y compartir mesa con amigos.
+estimatedMinutes: 55
+covers:
+  - restaurant-vocab
+  - ordering-food
+  - bill-payment
+  - food-bar
+  - meals
+  - partitive-rik
