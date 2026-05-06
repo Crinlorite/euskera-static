@@ -24,6 +24,10 @@ export interface Preferences {
   theme?: 'light' | 'dark' | 'auto';
 }
 
+export interface AchievementUnlock {
+  unlockedAt: string;
+}
+
 export interface ProgressV1 {
   schemaVersion: 1;
   createdAt: string;
@@ -31,6 +35,7 @@ export interface ProgressV1 {
   lessons: Record<string, LessonProgress>;
   streak: Streak;
   preferences: Preferences;
+  achievements?: Record<string, AchievementUnlock>;
 }
 
 export type ProgressAny = ProgressV1;
@@ -44,6 +49,7 @@ function emptyProgress(): ProgressV1 {
     lessons: {},
     streak: { current: 0, longest: 0, lastStudiedDate: '' },
     preferences: {},
+    achievements: {},
   };
 }
 
@@ -132,7 +138,10 @@ export function migrate(p: ProgressAny): ProgressV1 {
       lessons[key] = value;
     }
   }
-  return { ...p, lessons };
+  // Backwards-compat: hashes antiguos no traen `achievements`. Garantizamos
+  // que el campo siempre exista para que el resto del código no vea undefined.
+  const achievements = p.achievements ?? {};
+  return { ...p, lessons, achievements };
 }
 
 export function recordLessonRead(lessonKey: string): ProgressV1 {
@@ -169,6 +178,25 @@ export function recordExerciseResult(
   p.lessons[lessonKey].exercises[exerciseId] = ex;
   bumpStreak(p);
   setProgress(p);
+  return p;
+}
+
+// Persiste los logros desbloqueados pasados como argumento. Idempotente:
+// si un id ya estaba desbloqueado, no se reescribe la fecha. Devuelve el
+// estado actualizado del progreso. La evaluación (qué logros desbloquear)
+// vive en src/lib/achievements.ts para mantener el store "tonto".
+export function unlockAchievements(achievementIds: string[]): ProgressV1 {
+  const p = getProgress();
+  if (!p.achievements) p.achievements = {};
+  const now = new Date().toISOString();
+  let changed = false;
+  for (const id of achievementIds) {
+    if (!p.achievements[id]) {
+      p.achievements[id] = { unlockedAt: now };
+      changed = true;
+    }
+  }
+  if (changed) setProgress(p);
   return p;
 }
 
