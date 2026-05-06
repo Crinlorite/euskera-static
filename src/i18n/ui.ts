@@ -72,6 +72,9 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'common.skip-content': 'Saltar al contenido',
     'sources.statement': 'El currículum sigue los estándares CEFR oficiales para los niveles A1-C2 del euskera. Las explicaciones, ejemplos y ejercicios son material original. Vocabulario y reglas gramaticales son hechos lingüísticos de dominio público.',
   },
+  // Peninsulares (planned, sin traducciones aún)
+  'ca': {}, 'gl': {}, 'eu': {}, 'oc': {}, 'ast': {}, 'an': {},
+  // Resto del roadmap
   'en': {}, 'ar': {}, 'fr': {}, 'ro': {}, 'pt-BR': {},
   'de': {}, 'it': {}, 'ru': {}, 'pl': {}, 'zh-Hans': {}, 'ja': {}, 'ko': {},
 };
