@@ -1,0 +1,67 @@
+code: a1
+name: A1 Maila
+description: Nivel inicial. Comprensión y producción básica en situaciones cotidianas.
+order: 1
+status: active
+beta: false
+curriculum:
+  # Saludos y comunicación social
+  - { id: greetings, title: Saludos y despedidas (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: Cortesía y aula (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # Presentaciones e identidad
+  - { id: introductions, title: 'Presentaciones (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: Datos personales (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: 'Edad: ... urte ditut/ditu/dituzte' }
+  # Verbos básicos
+  - { id: izan-nor, title: 'Verbo "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: 'Negación: ez antepuesto al verbo (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: 'Verbo "egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'Distinción izan/egon: cualidad vs estado pasajero' }
+  - { id: ukan-basic, title: 'Verbo "ukan" (NOR-NORK) — tener: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'Objeto plural en ukan: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: 'Partitivo -rik en negación con objeto indefinido' }
+  - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — verbo de gusto (introducción NOR-NORI)' }
+  # Pronombres y demostrativos
+  - { id: personal-pronouns, title: Pronombres personales (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: Demostrativos hau/hori/hura y plurales hauek/horiek/haiek }
+  - { id: possessives, title: Posesivos (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # Familia
+  - { id: family-types, title: Tipos de familia (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: Familia (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: Familia extendida (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # Origen, residencia, ubicación
+  - { id: origin-koa, title: 'Procedencia: Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: 'Residencia: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: Países comunes y nacionalidades }
+  - { id: companions-rekin, title: 'Sociativo: Norekin bizi zara? → X-(r)ekin' }
+  # Casos del euskera
+  - { id: nor-case, title: 'Caso NOR (absolutivo): -A singular, -AK plural' }
+  - { id: nork-case, title: 'Caso NORK (ergativo): -AK singular, -EK plural' }
+  - { id: nori-case, title: 'Caso NORI (dativo): -ARI singular, -EI plural' }
+  - { id: noren-case, title: 'Genitivo NOREN: posesión -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: 'Locativo NON: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # Descripciones y profesiones
+  - { id: physical-description, title: 'NOLAKOA da? — descripción física con izan + adjetivo+A' }
+  - { id: mental-states, title: 'NOLA dago? — estado pasajero con egon + adjetivo (pozik, triste)' }
+  - { id: hair-eyes, title: 'Pelo y ojos (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: 'Carácter (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: 'Profesiones (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # Vocabulario temático
+  - { id: numbers-1-20, title: Números del 1 al 20 }
+  - { id: numbers-1-100, title: Números del 1 al 100 (sistema vigesimal) }
+  - { id: colors, title: Colores (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: 'Días de la semana (astelehena → igandea)' }
+  - { id: months, title: 'Meses del año (urtarrila → abendua)' }
+  - { id: seasons, title: Estaciones (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: 'Decir la hora (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: 'Tiempo: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: Partes del cuerpo (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: 'Salud básica (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: Ropa básica (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: 'Lugares del pueblo (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: 'Direcciones (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: 'Bar y comida (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: 'Comidas del día (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: 'Verbos básicos (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: 'Preguntas básicas (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: 'Felicitaciones (Zorionak, Urte askotarako, Topa egin)' }

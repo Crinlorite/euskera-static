@@ -1,0 +1,15 @@
+code: 02-familia
+level: a1
+title: La familia
+order: 2
+description: Vocabulario y patrones para hablar de tu familia y la de otros.
+estimatedMinutes: 55
+covers:
+  - family-basics
+  - family-extended
+  - possessives
+  - ukan-basic
+  - ukan-plural-objects
+  - partitive-rik
+  - numbers-1-20
+  - ages
