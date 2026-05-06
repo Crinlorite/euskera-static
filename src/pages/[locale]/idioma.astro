@@ -18,6 +18,12 @@ const { locale } = Astro.params as { locale: LocaleCode };
   </article>
 </RootLayout>
 
+<script>
+  import('../../stores/progress').then(({ unlockAchievements }) => {
+    unlockAchievements(['curiosity-language']);
+  }).catch(() => {});
+</script>
+
 <style>
   article { padding-block: var(--s-6); }
   h1 { margin: 0 0 var(--s-3); }
