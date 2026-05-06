@@ -47,16 +47,21 @@ async function makeOgImage(outName) {
     .png()
     .toBuffer();
 
-  // Text overlay as SVG (Pillow-free)
+  // Text overlay as SVG. Uso "Iowan Old Style" / "Cambria" / "Georgia" como
+  // fallback porque sharp no tiene Manrope/Fraunces registradas y los anchos
+  // de glifo del fallback hacían overflow del título antes.
   const textSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
     <style>
-      .title { font-family: 'Manrope', sans-serif; font-weight: 700; font-size: 88px; fill: #1A1A1A; }
-      .sub { font-family: 'Manrope', sans-serif; font-weight: 500; font-size: 34px; fill: #6B6B6B; }
-      .url { font-family: 'Manrope', sans-serif; font-weight: 600; font-size: 30px; fill: #D52B1E; }
+      .title { font-family: 'Georgia', 'Iowan Old Style', serif; font-style: italic; font-weight: 700; font-size: 78px; fill: #1A1A1A; }
+      .sub { font-family: sans-serif; font-weight: 500; font-size: 30px; fill: #6B6B6B; }
+      .url { font-family: sans-serif; font-weight: 600; font-size: 28px; fill: #D52B1E; }
+      .brand { font-family: sans-serif; font-weight: 600; font-size: 22px; fill: #6B6B6B; letter-spacing: 4px; }
     </style>
-    <text class="title" x="540" y="280">Aprende euskera</text>
-    <text class="sub" x="540" y="340">Gratis · Sin login · Para todos</text>
-    <text class="url" x="540" y="470">euskera.crintech.pro</text>
+    <text class="brand" x="520" y="195">EUSKERA</text>
+    <text class="title" x="520" y="285">Aprende</text>
+    <text class="title" x="520" y="370">euskera.</text>
+    <text class="sub" x="520" y="430">Gratis · Sin login · Para todos</text>
+    <text class="url" x="520" y="490">euskera.crintech.pro</text>
   </svg>`;
   const textPng = await sharp(Buffer.from(textSvg)).png().toBuffer();
 

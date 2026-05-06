@@ -130,7 +130,7 @@ En euskera, la mayoría de los verbos se conjugan con un **auxiliar**: *jan dut*
 >
 > — *Lanetik **nator**.* — Vengo del trabajo.
 >
-> — *Eta Itziar? Zer **dabil**?* — ¿Y Itziar? ¿Qué hace?
+> — *Eta Lide? Zer **dabil**?* — ¿Y Lide? ¿Qué hace?
 >
 > — *Enkargutan **dabil**, batetik bestera.* — Anda haciendo recados, de un lado para otro.
 

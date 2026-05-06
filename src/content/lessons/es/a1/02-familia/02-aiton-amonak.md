@@ -54,6 +54,6 @@ El euskera tiene una forma elegante de hablar de parejas/grupos del mismo tipo c
 
 ## Frases útiles
 
-- *Nire aitona Joxe da.* — Mi abuelo es Joxe.
+- *Nire aitona Ekaitz da.* — Mi abuelo es Ekaitz.
 - *Amona oso atsegina da.* — La abuela es muy amable.
 - *Bi biloba ditu.* — Tiene dos nietos.

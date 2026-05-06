@@ -103,7 +103,7 @@ A diferencia del pelo, "los ojos" es **plural** (*begiak*). Por tanto los adjeti
 | *begi ilunak* | ojos oscuros |
 
 - *Begi urdinak **ditut**.* — Tengo los ojos azules.
-- *Mikelek begi marroiak **ditu**.* — Mikel tiene los ojos marrones.
+- *Mikelek begi marroiak **ditu**.* — Egoitz tiene los ojos marrones.
 
 ## Otros rasgos: el sufijo -dun
 

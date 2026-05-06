@@ -11,10 +11,10 @@ covers: [weekly-planning, time-when, companions-rekin]
 exercises:
   - id: ex-hit-mc1
     type: multiple-choice
-    prompt: '"Quedo con Mikel mañana" se dice…'
-    options: ['Bihar Mikelarekin geratuko naiz', 'Bihar Mikelekin geratuko naiz', 'Bihar Mikel naiz', 'Bihar Mikelan geratuko naiz']
+    prompt: '"Quedo con Egoitz mañana" se dice…'
+    options: ['Bihar Mikelarekin geratuko naiz', 'Bihar Mikelekin geratuko naiz', 'Bihar Egoitz naiz', 'Bihar Mikelan geratuko naiz']
     answer: 1
-    explanation: '*Mikel + -ekin* (con) = *Mikelekin*. *Geratuko naiz* — quedaré.'
+    explanation: '*Egoitz + -ekin* (con) = *Mikelekin*. *Geratuko naiz* — quedaré.'
   - id: ex-hit-mc2
     type: multiple-choice
     prompt: '"Tengo reunión a las cinco" =…'
@@ -37,8 +37,8 @@ exercises:
       - { eu: hitzordua, es: cita }
       - { eu: bilera, es: reunión }
       - { eu: 'Bilera dut', es: Tengo reunión }
-      - { eu: 'Mikelekin geratu naiz', es: He quedado con Mikel }
-      - { eu: 'Mikelekin geratuko naiz', es: Quedaré con Mikel }
+      - { eu: 'Mikelekin geratu naiz', es: He quedado con Egoitz }
+      - { eu: 'Mikelekin geratuko naiz', es: Quedaré con Egoitz }
       - { eu: 'Zer ordutan geratuko gara?', es: ¿A qué hora quedamos? }
       - { eu: 'Bederatziak aldera', es: Sobre las nueve }
       - { eu: 'Libre nago', es: Estoy libre }
@@ -87,10 +87,10 @@ Para "tengo X" se usa el verbo *ukan* (`dut, du, dugu, ...`):
 
 | Patrón | Ejemplo | Castellano |
 |---|---|---|
-| *X-ekin geratu naiz* | *Mikel**ekin** geratu naiz* | He quedado con Mikel |
-| *X-ekin geratuko naiz* | *Mikel**ekin** geratuko naiz* | Quedaré con Mikel |
+| *X-ekin geratu naiz* | *Egoitz**ekin** geratu naiz* | He quedado con Egoitz |
+| *X-ekin geratuko naiz* | *Egoitz**ekin** geratuko naiz* | Quedaré con Egoitz |
 
-> El sufijo `-ekin` se pega al nombre. Si acaba en consonante: *Mikel + ekin = Mikelekin*. Si acaba en *-a* orgánica (Maialen, Garazi...) la mantiene: *Maialenekin, Garazirekin*.
+> El sufijo `-ekin` se pega al nombre. Si acaba en consonante: *Egoitz + ekin = Mikelekin*. Si acaba en *-a* orgánica (Maialen, Garazi...) la mantiene: *Maialenekin, Garazirekin*.
 
 ## Acordar la hora
 

@@ -99,9 +99,9 @@ Para cada vecino, sigue siempre estas piezas. Si las tienes, la descripción se 
 >
 > ***Lehenengoa Marina da.*** *Bera 70 urteko jubilatua da, lehenengo solairuan bizi da. Bakarrik bizi da, baina txakur batekin. Oso atsegina eta berritsua da: igogailuan beti hitz egiten du.*
 >
-> ***Bigarrena Mikel da.*** *Bera kazetaria da eta egunkari batean lan egiten du. Bere bikotekidearekin bizi da bigarren solairuan. Lasaia da, ez dugu ia entzuten.*
+> ***Bigarrena Egoitz da.*** *Bera kazetaria da eta egunkari batean lan egiten du. Bere bikotekidearekin bizi da bigarren solairuan. Lasaia da, ez dugu ia entzuten.*
 >
-> ***Hirugarrena Aitor eta Maialen dira.*** *Hauek nire ikaskideak ere badira: euskaltegira biok joaten gara. Hirugarren solairuan bizi dira eta ikasleak dira. Alaiak eta zaratatsuak dira: asteburuetan musika ozen entzuten dute.*
+> ***Hirugarrena Hodei eta Maialen dira.*** *Hauek nire ikaskideak ere badira: euskaltegira biok joaten gara. Hirugarren solairuan bizi dira eta ikasleak dira. Alaiak eta zaratatsuak dira: asteburuetan musika ozen entzuten dute.*
 
 ## Ahora tú: describe tres vecinos tuyos
 

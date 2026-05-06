@@ -49,7 +49,7 @@ Los posesivos en euskera se colocan **antes del sustantivo**, igual que en caste
 
 Combina lo aprendido para describir a tu familia:
 
-- *Nire aita Patxi da.* — Mi padre es Patxi.
+- *Nire aita Mattin da.* — Mi padre es Mattin.
 - *Zure ama nongoa da?* — ¿De dónde es tu madre?
 - *Bere arreba Donostiakoa da.* — Su hermana es de Donostia.
 - *Gure aiton-amonak Bilbon bizi dira.* — Nuestros abuelos viven en Bilbao.

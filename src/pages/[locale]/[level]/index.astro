@@ -41,10 +41,6 @@ for (const u of units) {
     </header>
 
     <section class="units-section">
-      <header class="section-head">
-        <p class="eyebrow">Unidades</p>
-        <h2 class="display section-title">{units.length} unidad{units.length === 1 ? '' : 'es'} listas</h2>
-      </header>
       {units.length === 0 ? (
         <p class="empty">{t(locale, 'levels.upcoming')}</p>
       ) : (
@@ -70,18 +66,21 @@ for (const u of units) {
     </section>
 
     <section class="curriculum">
-      <header class="section-head">
-        <p class="eyebrow">Currículum</p>
-        <h2 class="display section-title">Lo que vas a saber</h2>
-      </header>
-      <ol class="curriculum-list">
-        {level.data.curriculum.map((c, i) => (
-          <li>
-            <span class="curriculum-num">{(i + 1).toString().padStart(2, '0')}</span>
-            <span class="curriculum-title">{c.title}</span>
-          </li>
-        ))}
-      </ol>
+      <details class="curriculum-details">
+        <summary>
+          <span class="eyebrow">Currículum</span>
+          <span class="curriculum-title-display display">Lo que vas a saber</span>
+          <span class="curriculum-toggle-hint">{level.data.curriculum.length} puntos · pulsa para ver</span>
+        </summary>
+        <ul class="curriculum-list">
+          {level.data.curriculum.map((c, i) => (
+            <li>
+              <span class="curriculum-num">{(i + 1).toString().padStart(2, '0')}</span>
+              <span class="curriculum-title">{c.title}</span>
+            </li>
+          ))}
+        </ul>
+      </details>
     </section>
   </article>
 </RootLayout>
@@ -158,7 +157,8 @@ for (const u of units) {
 
   .unit-num {
     font-size: clamp(2.6rem, 5vw, 3.6rem);
-    line-height: 0.85;
+    line-height: 1;
+    padding-block: 0.06em;
     background: var(--grad-ikurri-text);
     -webkit-background-clip: text;
     background-clip: text;
@@ -180,40 +180,71 @@ for (const u of units) {
     transition: transform var(--m-base) var(--ease-out);
   }
 
-  /* Curriculum */
+  /* Curriculum colapsable */
+  .curriculum-details {
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    background: var(--c-bg);
+    box-shadow: var(--sh-card);
+    overflow: hidden;
+  }
+  .curriculum-details summary {
+    list-style: none;
+    cursor: pointer;
+    padding: var(--s-5);
+    display: grid;
+    gap: var(--s-2);
+    align-items: baseline;
+    transition: background var(--m-base) var(--ease-out);
+  }
+  .curriculum-details summary::-webkit-details-marker { display: none; }
+  .curriculum-details summary:hover { background: var(--c-bg-alt); }
+  .curriculum-details[open] summary { border-block-end: 1px solid var(--c-border); }
+  .curriculum-title-display {
+    font-size: var(--t-h2);
+    line-height: 1.05;
+    letter-spacing: var(--tr-tight);
+  }
+  .curriculum-toggle-hint {
+    color: var(--c-text-muted);
+    font-size: 0.9rem;
+  }
+  .curriculum-details[open] .curriculum-toggle-hint::after {
+    content: ' (pulsa para ocultar)';
+  }
   .curriculum-list {
     list-style: none;
     counter-reset: c;
     margin: 0;
-    padding: 0;
+    padding: var(--s-5);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: var(--s-3);
   }
   .curriculum-list li {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: var(--s-3);
-    padding: var(--s-3) var(--s-4);
-    background: var(--c-bg-cream);
-    border-radius: var(--r-md);
-    border: 1px solid var(--c-border);
-    transition: background var(--m-fast) var(--ease-out), border-color var(--m-fast) var(--ease-out);
+    gap: var(--s-2);
+    padding: var(--s-2) var(--s-3);
+    background: transparent;
+    border-radius: var(--r-sm);
+    border: 0;
+    transition: background var(--m-fast) var(--ease-out);
+    font-size: 0.9rem;
   }
   .curriculum-list li:hover {
-    background: var(--c-bg);
-    border-color: var(--c-red);
+    background: var(--c-bg-alt);
   }
   .curriculum-num {
     font-family: var(--ff-display);
     font-weight: 700;
     color: var(--c-red);
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     align-self: start;
     line-height: 1.5;
     min-inline-size: 1.8em;
   }
-  .curriculum-title { color: var(--c-text); font-size: 0.95rem; line-height: 1.45; }
+  .curriculum-title { color: var(--c-text); font-size: 0.9rem; line-height: 1.4; }
 
   @media (max-width: 720px) {
     .level { padding-block: var(--s-6); }

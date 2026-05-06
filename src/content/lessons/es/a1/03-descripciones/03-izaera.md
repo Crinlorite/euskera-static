@@ -91,7 +91,7 @@ Los adjetivos vienen casi siempre por parejas de opuestos:
 ## Estructura: igual que los físicos
 
 - *Maialen oso **alaia** da.* — Maialen es muy alegre.
-- *Mikel **isila eta serioa** da.* — Mikel es callado y serio.
+- *Egoitz **isila eta serioa** da.* — Egoitz es callado y serio.
 - *Gu **langileak** gara.* — Nosotros somos trabajadores.
 - *Haiek **bihurriak** dira.* — Ellos son traviesos.
 - *Ni ez naiz oso **lotsatia**.* — Yo no soy muy tímida.

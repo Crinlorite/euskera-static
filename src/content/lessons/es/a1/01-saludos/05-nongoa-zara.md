@@ -80,7 +80,7 @@ Para dónde vives ahora usa **Non bizi zara?** ("¿dónde vives?") + lugar con l
 >
 > — *Ni Maialen naiz. Eta zu?* — Soy Maialen. ¿Y tú?
 >
-> — *Mikel naiz. **Nongoa zara?*** — Soy Mikel. ¿De dónde eres?
+> — *Egoitz naiz. **Nongoa zara?*** — Soy Egoitz. ¿De dónde eres?
 >
 > — ***Iruñekoa naiz**, baina **Bilbon bizi naiz** orain.* — Soy de Pamplona, pero vivo en Bilbao ahora.
 
