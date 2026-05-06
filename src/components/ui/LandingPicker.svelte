@@ -106,8 +106,18 @@
   .picker {
     list-style: none; margin: 0; padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: var(--s-3);
+  }
+  /* Más columnas a más ancho para aprovechar el escritorio */
+  @media (min-width: 1100px) {
+    .picker { grid-template-columns: repeat(5, 1fr); }
+  }
+  @media (min-width: 1400px) {
+    .picker { grid-template-columns: repeat(6, 1fr); }
+  }
+  @media (max-width: 540px) {
+    .picker { grid-template-columns: repeat(2, 1fr); }
   }
   .picker button {
     inline-size: 100%;
