@@ -73,5 +73,16 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       setupFadeIns();
       document.addEventListener('astro:page-load', setupFadeIns);
     </script>
+    <script>
+      // Registra el Service Worker para PWA offline-first.
+      // Solo en producción y con navegador compatible.
+      if ('serviceWorker' in navigator && location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .catch(() => { /* fallback silencioso si no se puede registrar */ });
+        });
+      }
+    </script>
   </body>
 </html>
