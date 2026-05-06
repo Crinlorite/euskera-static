@@ -6,27 +6,29 @@ interface Props {
   locale: LocaleCode;
   prevHref?: string;
   prevTitle?: string;
+  prevEyebrow?: string;
   nextHref?: string;
   nextTitle?: string;
+  nextEyebrow?: string;
 }
-const { locale, prevHref, prevTitle, nextHref, nextTitle } = Astro.props;
+const { locale, prevHref, prevTitle, prevEyebrow, nextHref, nextTitle, nextEyebrow } = Astro.props;
 ---
 <nav class="lesson-nav" aria-label="Navegación entre lecciones">
   {prevHref ? (
-    <a class="prev" href={prevHref}>
+    <a class="prev" href={prevHref} class:list={[{ 'unit-jump': prevEyebrow }]}>
       <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
         <path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" fill="none" />
       </svg>
       <span>
-        <small>{t(locale, 'lesson.prev')}</small>
+        <small>{prevEyebrow ?? t(locale, 'lesson.prev')}</small>
         <strong>{prevTitle}</strong>
       </span>
     </a>
   ) : <div></div>}
   {nextHref ? (
-    <a class="next" href={nextHref}>
+    <a class="next" href={nextHref} class:list={[{ 'unit-jump': nextEyebrow }]}>
       <span>
-        <small>{t(locale, 'lesson.next')}</small>
+        <small>{nextEyebrow ?? t(locale, 'lesson.next')}</small>
         <strong>{nextTitle}</strong>
       </span>
       <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
@@ -56,6 +58,17 @@ const { locale, prevHref, prevTitle, nextHref, nextTitle } = Astro.props;
     transition: border-color 150ms, transform 150ms;
   }
   .lesson-nav a:hover { border-color: var(--c-red); transform: translateY(-2px); }
+  .lesson-nav a.unit-jump {
+    background: linear-gradient(135deg, var(--c-red-soft), var(--c-green-soft));
+    border-color: var(--c-red);
+  }
+  .lesson-nav a.unit-jump small {
+    color: var(--c-red-strong);
+    font-weight: 600;
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
   .next { text-align: end; justify-content: end; }
   small { display: block; color: var(--c-text-muted); font-size: 0.8rem; }
   strong { display: block; }

@@ -17,12 +17,12 @@ exercises:
     explanation: '"Irakurri" (leer) + "dut" (yo + objeto) = "he leído". Sin el -tzen marca pasado reciente.'
   - id: ex-02-jed-mc2
     type: multiple-choice
-    prompt: '¿Cómo dirías "Mikel ha desayunado en casa"?'
+    prompt: '¿Cómo dirías "Egoitz ha desayunado en casa"?'
     options:
-      - "Mikel etxean gosaldu da"
+      - "Egoitz etxean gosaldu da"
       - "Mikelek etxean gosaldu du"
       - "Mikelek etxean gosaltzen du"
-      - "Mikel etxean gosaltzen da"
+      - "Egoitz etxean gosaltzen da"
     answer: 1
     explanation: '*Gosaldu* es transitivo (lleva objeto implícito: el desayuno). El sujeto va con NORK (-k): *Mikelek*; el auxiliar es *du*.'
   - id: ex-02-jed-fb1
@@ -109,14 +109,14 @@ Tomamos *ikusi* (ver) como ejemplo:
 | Zuek | **ikusi duzue** | Habéis visto |
 | Haiek | **ikusi dute** | Han visto |
 
-> El sujeto de los verbos transitivos lleva la marca **NORK** (-k): *nik, zuk, hark, guk, zuek, haiek*. La verás con frecuencia, sobre todo cuando el sujeto es un nombre: *Mikelek* (Mikel ha…), *Maialenek* (Maialen ha…). Si te confunde, en A1 puedes omitir el pronombre y dejar solo el verbo: el contexto basta.
+> El sujeto de los verbos transitivos lleva la marca **NORK** (-k): *nik, zuk, hark, guk, zuek, haiek*. La verás con frecuencia, sobre todo cuando el sujeto es un nombre: *Mikelek* (Egoitz ha…), *Maialenek* (Maialen ha…). Si te confunde, en A1 puedes omitir el pronombre y dejar solo el verbo: el contexto basta.
 
 ## Frases típicas
 
 - *Gaur goizean egunkaria irakurri dut.* — Esta mañana he leído el periódico.
 - *Bazkaltzeko arraina jan dut.* — Para comer he comido pescado.
 - *Lagunekin kafea hartu dut.* — He tomado café con amigos.
-- *Mikelek ardoa erosi du.* — Mikel ha comprado vino.
+- *Mikelek ardoa erosi du.* — Egoitz ha comprado vino.
 - *Guk pelikula bat ikusi dugu.* — Hemos visto una película.
 - *Haiek euskara ikasi dute gaur.* — Han estudiado euskera hoy.
 

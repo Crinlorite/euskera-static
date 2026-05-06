@@ -11,7 +11,7 @@ covers: [introductions, izan-nor]
 exercises:
   - id: ex-02-pres-fb1
     type: fill-in-blank
-    prompt: 'Ni Mikel ___.'
+    prompt: 'Ni Egoitz ___.'
     answers: [naiz]
     explanation: '"Naiz" es la forma de "izan" (ser/estar) para "yo".'
   - id: ex-02-pres-mc1
@@ -37,9 +37,9 @@ Para presentarte en euskera basta una fórmula muy simple: **Ni** (yo) + tu nomb
 
 | Euskera | Castellano |
 |---|---|
-| *Ni Mikel naiz.* | Soy Mikel. |
+| *Ni Egoitz naiz.* | Soy Egoitz. |
 | *Ni Maialen naiz.* | Soy Maialen. |
-| *Ni Aitor naiz.* | Soy Aitor. |
+| *Ni Hodei naiz.* | Soy Hodei. |
 
 El verbo **izan** ("ser/estar") cambia según la persona. Por ahora memoriza solo tres formas:
 

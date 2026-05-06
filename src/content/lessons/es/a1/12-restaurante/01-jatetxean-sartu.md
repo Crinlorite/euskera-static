@@ -102,7 +102,7 @@ Por teléfono o presencial, hay un guion casi fijo:
 >
 > — *Noren izenean?* — ¿A nombre de quién?
 >
-> — *Mikelen izenean.* — A nombre de Mikel.
+> — *Mikelen izenean.* — A nombre de Egoitz.
 
 ## Frases que oirás
 

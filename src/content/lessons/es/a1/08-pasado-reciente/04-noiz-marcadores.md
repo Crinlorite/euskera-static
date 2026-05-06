@@ -127,7 +127,7 @@ Los marcadores se combinan con *goizean*, *arratsaldean*, *gauean* y compañía 
 
 > *Gaur goizean lanera joan naiz autoz.* — Esta mañana he ido al trabajo en coche.
 >
-> *Atzo arratsaldean Mikelekin egon naiz.* — Ayer por la tarde estuve con Mikel.
+> *Atzo arratsaldean Mikelekin egon naiz.* — Ayer por la tarde estuve con Egoitz.
 >
 > *Atzo gauean berandu oheratu naiz.* — Anoche me acosté tarde.
 >
