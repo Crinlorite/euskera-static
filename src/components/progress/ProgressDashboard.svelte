@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import {
-    getProgress, exportHash, importHash, isStorageAvailable,
+    getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements,
     type ProgressV1,
   } from '../../stores/progress';
   import { t } from '../../i18n/ui';
@@ -33,9 +33,11 @@
     if (typeof navigator === 'undefined') return;
     await navigator.clipboard.writeText(exportedHash);
     banner = t(locale, 'common.copy') + ' ✓';
+    unlockAchievements(['first-export']);
   }
 
   function downloadHash() {
+    unlockAchievements(['first-export']);
     const blob = new Blob([exportedHash], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -48,6 +50,7 @@
   }
 
   async function shareHash() {
+    unlockAchievements(['first-export']);
     if (typeof navigator !== 'undefined' && (navigator as Navigator & { share?: (data: { title?: string; text?: string }) => Promise<void> }).share) {
       try {
         await (navigator as Navigator & { share: (data: { title?: string; text?: string }) => Promise<void> }).share({
@@ -79,6 +82,7 @@
     } else {
       banner = '✓';
     }
+    unlockAchievements(['first-import']);
     importValue = '';
     modalMode = 'none';
     await refresh();
