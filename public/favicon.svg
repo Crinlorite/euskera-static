@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+  <defs>
+    <path id="lauburu-lobe" d="M0 0 C 30 -10, 60 -30, 80 -60 C 60 -30, 30 -5, 0 0 Z" fill="#1A1A1A"/>
+  </defs>
+  <g>
+    <use href="#lauburu-lobe" transform="rotate(0)"/>
+    <use href="#lauburu-lobe" transform="rotate(90)"/>
+    <use href="#lauburu-lobe" transform="rotate(180)"/>
+    <use href="#lauburu-lobe" transform="rotate(270)"/>
+  </g>
+</svg>
