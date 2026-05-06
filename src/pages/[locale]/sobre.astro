@@ -38,6 +38,12 @@ const { locale } = Astro.params as { locale: LocaleCode };
     </ul>
 
     <h2>Contribuir</h2>
+
+    <script>
+      import('../../stores/progress').then(({ unlockAchievements }) => {
+        unlockAchievements(['curiosity-about']);
+      }).catch(() => {});
+    </script>
     <p>
       ¿Detectaste un error? ¿Tienes ideas? Abre un issue o un PR en
       <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a>.
