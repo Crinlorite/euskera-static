@@ -1,0 +1,15 @@
+id: a1-shopping
+code: 11-comprar
+level: a1
+title: "Las compras"
+order: 11
+description: Tiendas, precios, cantidades y diálogos básicos para hacer la compra.
+estimatedMinutes: 55
+covers:
+  - shops
+  - prices
+  - quantities-units
+  - shopping-dialogue
+  - numbers-1-100
+  - partitive-rik
+  - ukan-plural-objects

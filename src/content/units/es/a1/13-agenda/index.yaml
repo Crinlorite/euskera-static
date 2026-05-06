@@ -1,0 +1,14 @@
+id: a1-week-plan
+code: 13-agenda
+level: a1
+title: "La agenda semanal"
+order: 13
+description: Planificar la semana, hablar de citas y compromisos, y usar el futuro próximo.
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs

@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "El pueblo y los lugares"
+order: 5
+description: Lugares del pueblo, ubicación con el caso NON, posiciones espaciales y existencia (ba al dago…?).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor
