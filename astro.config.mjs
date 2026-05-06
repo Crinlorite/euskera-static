@@ -10,7 +10,9 @@ export default defineConfig({
     locales: ['es'],
     routing: {
       prefixDefaultLocale: true,
-      redirectToDefaultLocale: true,
+      // redirectToDefaultLocale:false — dejamos que src/pages/index.astro sirva
+      // la landing con selector de idiomas + countdown en lugar del redirect auto.
+      redirectToDefaultLocale: false,
     },
   },
   integrations: [svelte(), sitemap()],
