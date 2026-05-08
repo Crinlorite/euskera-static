@@ -1,0 +1,16 @@
+id: a2-egoerak
+code: 01-egoerak
+level: a2
+title: Egoerak — situaciones cotidianas y consejos
+order: 1
+description: Salud, hábitos y medio ambiente. Aprende a pedir y dar instrucciones con el imperativo (agintera).
+estimatedMinutes: 70
+covers:
+  - a2-health-vocab
+  - a2-doctor-visit
+  - a2-healthy-habits
+  - a2-environment
+  - a2-civic-life
+  - a2-agintera-intro
+  - a2-agintera-uses
+  - a2-agintera-negation

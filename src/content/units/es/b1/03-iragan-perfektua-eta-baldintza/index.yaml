@@ -1,0 +1,18 @@
+id: b1-iragana
+code: 03-iragan-perfektua-eta-baldintza
+level: b1
+title: Pasados completos y condicional
+order: 3
+description: Domina el pasado del euskera (NOR, NOR-NORK, NOR-NORI), el contraste burutua/ez-burutua y las condicionales reales e irreales.
+estimatedMinutes: 80
+covers:
+  - past-nor
+  - past-nor-nork
+  - past-nor-nori
+  - past-perfective
+  - past-imperfective
+  - pluperfect
+  - conditional-real
+  - conditional-irreal-present
+  - conditional-irreal-past
+  - hypothetical-banintz

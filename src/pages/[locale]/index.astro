@@ -16,7 +16,7 @@ const levels = (await getCollection('levels'))
   .filter((l) => l.id.startsWith(`${locale}/`))
   .sort((a, b) => a.data.order - b.data.order);
 
-const upcoming = ['a2', 'b1', 'b2', 'c1', 'c2'].filter((c) => !levels.some((l) => l.data.code === c));
+const upcoming = ['a2', 'b1', 'b2', 'c1', 'ega'].filter((c) => !levels.some((l) => l.data.code === c));
 ---
 <RootLayout locale={locale} title={t(locale, 'site.tagline')} bodyClass="home">
   <section class="hero">
@@ -27,7 +27,7 @@ const upcoming = ['a2', 'b1', 'b2', 'c1', 'c2'].filter((c) => !levels.some((l) =
     <Particles client:load />
 
     <div class="container hero-inner stagger">
-      <p class="eyebrow">A1 · A2 · B1 · B2 · C1 · C2</p>
+      <p class="eyebrow">A1 · A2 · B1 · B2 · C1 · EGA</p>
       <h1 class="display hero-title">
         <span>Aprende</span>
         <span class="text-grad">euskera.</span>

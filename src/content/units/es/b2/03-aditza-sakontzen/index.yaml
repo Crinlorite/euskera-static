@@ -1,0 +1,19 @@
+id: b2-aditza
+code: 03-aditza-sakontzen
+level: b2
+title: Aditza sakontzen
+order: 3
+description: "Profundizar en el verbo: estilo indirecto, oraciones completivas y subordinadas temporales."
+estimatedMinutes: 80
+covers:
+  - b2-indicative-review
+  - b2-aditz-erregimena
+  - b2-zehar-estiloa-intro
+  - b2-zehar-estiloa-tense
+  - b2-perpaus-osagarriak
+  - b2-perpaus-osagarriak-galdera
+  - b2-denbora-nean
+  - b2-denbora-tzean
+  - b2-denbora-takoan
+  - b2-denbora-bitartean
+  - b2-denbora-aurretik

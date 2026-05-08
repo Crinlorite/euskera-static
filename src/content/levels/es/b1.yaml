@@ -1,0 +1,58 @@
+code: b1
+name: B1 Maila
+description: Nivel intermedio. Comprensión y producción autónoma sobre temas conocidos, opinión argumentada y mediación introductoria.
+order: 3
+status: active
+beta: true
+curriculum:
+  # Oraciones complejas y subordinación
+  - { id: subord-temporal, title: 'Subordinadas temporales (-(e)nean, baino lehen, ondoren, bitartean)' }
+  - { id: subord-causal, title: 'Subordinadas causales (-(e)lako, izan ere, zeren)' }
+  - { id: subord-final, title: 'Subordinadas finales (-tzeko, -tzearren)' }
+  - { id: subord-concessive, title: 'Subordinadas concesivas (nahiz eta, arren, baina)' }
+  - { id: subord-conditional, title: 'Subordinadas condicionales reales (ba- + verbo)' }
+  - { id: relative-clauses, title: 'Oraciones de relativo con -(e)n (etorri den lagunak)' }
+  - { id: completive-ela, title: 'Completivas con -(e)la y -(e)nik (uste dut datorrela / ez dut uste datorrenik)' }
+  # Pasados completos
+  - { id: past-nor, title: 'Iragana NOR (nintzen, hintzen, zen, ginen, zinen, zineten, ziren)' }
+  - { id: past-nor-nork, title: 'Iragana NOR-NORK (nuen, zenuen, zuen, genuen, zenuten, zuten)' }
+  - { id: past-nor-nori, title: 'Iragana NOR-NORI (zitzaidan, zitzaizun, zitzaion, zitzaigun, zitzaizuen, zitzaien)' }
+  - { id: past-perfective, title: 'Iragan burutua (galdu nuen, etorri zen)' }
+  - { id: past-imperfective, title: 'Iragan ez-burutua (galtzen nuen, etortzen zen)' }
+  - { id: pluperfect, title: 'Aspaldiko iragana / pluskuanperfektua (galdu izan nuen)' }
+  # Condicional y modos
+  - { id: conditional-real, title: 'Baldintza erreala (etortzen bada, etorriko da)' }
+  - { id: conditional-irreal-present, title: 'Baldintza irreala oraina (etorriko balitz, joango ginateke)' }
+  - { id: conditional-irreal-past, title: 'Baldintza irreala iragana (etorri izan balitz, joango ginatekeen)' }
+  - { id: hypothetical-banintz, title: 'Aditz nagusiaren baldintza-formak (banintz, balitz, balute)' }
+  - { id: subjunctive-dadin, title: 'Subjuntiboa: -tzeko, -dadin, -dezan (etor dadin, ekar dezan)' }
+  - { id: imperative-advanced, title: 'Agintera landua (zatoz, ekarri, har ezazu, eros itzazu)' }
+  # Voz pasiva y construcciones impersonales
+  - { id: passive-construction, title: 'Pasiboa: izan + partizipioa (eraikina eraikia izan zen)' }
+  - { id: impersonal-da, title: 'Inpertsonala: -tzen da (hemen euskara hitz egiten da)' }
+  - { id: passive-resultative, title: 'Erresultatiboa: -ta / -(r)ik (ateak itxita daude, gauzak eginda)' }
+  # Comparación y modo
+  - { id: comparative-superior, title: 'Konparatibo gorenak (baino ...-ago, askoz -ago)' }
+  - { id: comparative-inferior, title: 'Konparatibo apalagoa (gutxiago, ez hain ...-a)' }
+  - { id: comparative-equality, title: 'Berdintasunezko konparatiboa (bezain, bezala, ...-en moduan)' }
+  - { id: superlative-en, title: 'Superlatiboa (-en, guztietan -ena)' }
+  - { id: excessive-egi, title: 'Gehiegizkoa: -egi (handiegia, beroegi)' }
+  # Conectores complejos
+  - { id: connectors-addition, title: 'Gehigarrizko juntagailuak (gainera, are gehiago, halaber)' }
+  - { id: connectors-contrast, title: 'Aurkaritzakoak (ordea, aitzitik, alabaina, hala ere)' }
+  - { id: connectors-cause, title: 'Kausazkoak (zeren, izan ere, hortaz, beraz, ondorioz)' }
+  - { id: connectors-sequence, title: 'Sekuentzia: lehenik, ondoren, azkenik, amaitzeko' }
+  - { id: discourse-markers, title: 'Diskurtso-markatzaileak (nire ustez, hau da, alegia, esate baterako)' }
+  # Mediación e interacción
+  - { id: mediation-intro, title: 'Bitartekotza: zer den eta zertarako (testu bat laburtu, bi pertsona elkartu)' }
+  - { id: mediation-reformulate, title: 'Birformulatu eta laburtu (esan nahi du, beste hitz batzuekin, laburbilduz)' }
+  - { id: mediation-quote, title: 'Zeharkako estiloa (esan zuen ...zela, galdetu zuen ea ...zen)' }
+  - { id: opinion-arguing, title: 'Iritzia ematen eta arrazoitzen (nire ustez, alde nago, kontra nago)' }
+  - { id: agreement-disagreement, title: 'Ados / ez ados egon, matizazioak (zati batean ados nago, ez nago oso ziur)' }
+  - { id: hypothesis-marking, title: 'Hipotesia eta probabilitatea (agian, beharbada, ziur aski, dirudienez)' }
+  # Comprensión y léxico abstracto
+  - { id: abstract-vocabulary, title: 'Hiztegi abstraktua (gaitasuna, erantzukizuna, ondorioa, helburua, eragina)' }
+  - { id: word-formation, title: 'Hitz-eraketa (-tasun, -keta, -kuntza, -garri, -tegi)' }
+  - { id: text-types, title: 'Testu motak (albistea, iritzi-artikulua, gutuna, eskutitza, txostena)' }
+  - { id: reading-strategies, title: 'Irakurmena: ideia nagusia, xehetasunak, ondorioak ateratzen' }
+  - { id: listening-strategies, title: 'Entzumena: hizlariaren jarrera, ironia, intentzioa antzematen' }

@@ -1,0 +1,16 @@
+id: b1-perpausak
+code: 01-perpausak-konplexuak
+level: b1
+title: Oraciones complejas
+order: 1
+description: Construye frases más ricas con subordinadas temporales, causales, finales y de relativo. La piedra angular del salto al B1.
+estimatedMinutes: 75
+covers:
+  - subord-temporal
+  - subord-causal
+  - subord-final
+  - subord-concessive
+  - relative-clauses
+  - completive-ela
+  - connectors-cause
+  - connectors-contrast

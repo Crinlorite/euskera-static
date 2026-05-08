@@ -1,0 +1,15 @@
+id: ega-atariko
+code: 02-atariko-proba
+level: ega
+title: Atariko proba — prueba preliminar
+order: 2
+description: "Preparación de la prueba de filtro EGA (80 ítems, 2,5 horas, mínimo 65%): hizkuntza baliabideak, entzunaren ulermena e irakurriaren ulermena. Léxico, gramática y técnica de tests."
+estimatedMinutes: 120
+covers:
+  - ega-atariko-structure
+  - ega-cloze
+  - ega-multiple-choice
+  - ega-listening
+  - ega-reading
+  - ega-vocab-screening
+  - ega-grammar-screening

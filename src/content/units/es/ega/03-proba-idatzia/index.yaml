@@ -1,0 +1,17 @@
+id: ega-idatzia
+code: 03-proba-idatzia
+level: ega
+title: Proba idatzia — prueba escrita
+order: 3
+description: "Preparación de los dos idazlanak EGA: gutuna (180 hitz) e iritzi-artikulua (250 hitz). Argudio testua, organizadores textuales, cohesión y registro formal."
+estimatedMinutes: 140
+covers:
+  - ega-idatzia-structure
+  - ega-argudio-text
+  - ega-thesis-arguments
+  - ega-cohesion
+  - ega-formal-letter
+  - ega-personal-letter
+  - ega-opinion-piece
+  - ega-organizers-i
+  - ega-organizers-ii

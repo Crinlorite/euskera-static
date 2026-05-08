@@ -1,0 +1,14 @@
+id: b2-kultura
+code: 05-kultura-eta-gizartea
+level: b2
+title: Kultura eta gizartea
+order: 5
+description: "Cultura y sociedad: diáspora vasca, tribus urbanas, emociones con matiz y descripción profunda de personajes."
+estimatedMinutes: 75
+covers:
+  - b2-diaspora
+  - b2-tribus-urbanas
+  - b2-emotions-classify
+  - b2-emotions-express
+  - b2-character-deep
+  - b2-noren-zeren
