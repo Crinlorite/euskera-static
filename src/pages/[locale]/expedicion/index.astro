@@ -1,0 +1,124 @@
+---
+import RootLayout from '../../../layouts/RootLayout.astro';
+import ExpeditionMap from '../../../components/expedition/ExpeditionMap.svelte';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+---
+<RootLayout locale={locale} title="Modo Expedición · vista previa">
+  <section class="container expedicion-hero fade-in">
+    <p class="eyebrow">Vista previa · Steam · Microsoft Store</p>
+    <h1 class="display">
+      Una <span class="text-grad">expedición</span> por Euskal Herria.
+    </h1>
+    <p class="lead">
+      El Modo Expedición convierte tu progreso en un viaje. Cada lección que completas
+      desbloquea una nueva ciudad. En cada parada te espera un personaje con un mini-reto
+      que pone a prueba lo que ya sabes. Esto es un prototipo funcional: la versión final
+      llegará con la edición Steam.
+    </p>
+    <div class="rules">
+      <div>
+        <span class="num display">01</span>
+        <span class="rule-text">Avanza por A1 para abrir nuevas zonas del mapa.</span>
+      </div>
+      <div>
+        <span class="num display">02</span>
+        <span class="rule-text">Cada NPC propone un mini-diálogo en euskera.</span>
+      </div>
+      <div>
+        <span class="num display">03</span>
+        <span class="rule-text">Acierta y suma palabras a tu cuaderno de viaje.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="container expedicion-map fade-in">
+    <ExpeditionMap client:load />
+  </section>
+
+  <section class="container expedicion-foot fade-in">
+    <p class="note">
+      ¿Algo no funciona o se te ocurre una zona nueva? Dínoslo: este prototipo se irá
+      enriqueciendo a medida que el contenido A2-EGA se valide.
+    </p>
+  </section>
+</RootLayout>
+
+<style>
+  .expedicion-hero {
+    padding-block: var(--s-7) var(--s-5);
+    display: grid;
+    gap: var(--s-3);
+    max-inline-size: 880px;
+  }
+  .expedicion-hero .eyebrow {
+    margin: 0;
+    font-family: var(--ff-sans);
+    font-size: var(--t-eyebrow);
+    font-weight: 600;
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+    color: var(--c-text-muted);
+  }
+  .expedicion-hero h1 {
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 0.98;
+    letter-spacing: var(--tr-tight);
+    margin: 0;
+  }
+  .expedicion-hero h1 .text-grad {
+    font-style: italic;
+    background: var(--grad-ikurri-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .lead {
+    margin: var(--s-2) 0 0;
+    color: var(--c-text-muted);
+    font-size: 1.05rem;
+    line-height: 1.55;
+    max-inline-size: 60ch;
+  }
+  .rules {
+    margin-block-start: var(--s-4);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--s-4);
+  }
+  .rules > div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--s-3);
+    align-items: start;
+    padding: var(--s-3) var(--s-4);
+    background: var(--c-bg-alt);
+    border-radius: var(--r-md);
+    border-inline-start: 3px solid var(--c-red);
+  }
+  .num {
+    font-family: var(--ff-display);
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 1;
+    color: var(--c-red);
+  }
+  .rule-text { font-size: 0.95rem; line-height: 1.4; align-self: center; }
+
+  .expedicion-map { padding-block: var(--s-3) var(--s-7); }
+  .expedicion-foot { padding-block: 0 var(--s-8); max-inline-size: 720px; }
+  .expedicion-foot .note {
+    color: var(--c-text-muted);
+    font-size: 0.92rem;
+    line-height: 1.5;
+    border-block-start: 1px solid var(--c-border);
+    padding-block-start: var(--s-4);
+    margin: 0;
+  }
+</style>
