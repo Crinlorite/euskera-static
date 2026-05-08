@@ -1,0 +1,13 @@
+id: b2-norbera
+code: 01-norbera-eta-aurkezpena
+level: b2
+title: Norbera eta aurkezpena
+order: 1
+description: "Hablar de uno mismo con detalle: autobiografía, trayectoria, currículum y rasgos de carácter."
+estimatedMinutes: 70
+covers:
+  - b2-self-presentation
+  - b2-cv-writing
+  - b2-biography-vocab
+  - b2-character-deep
+  - b2-bihurkariak

@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — narrar el pasado
+order: 2
+description: Pasado completo (iragan burutua) y pasado imperfecto (iragan ez burutua). Cómo contar lo que pasó ayer, hace años o lo que solías hacer.
+estimatedMinutes: 75
+covers:
+  - a2-past-nor
+  - a2-past-nor-nork
+  - a2-past-trinkoak
+  - a2-past-time-markers
+  - a2-past-imperfect
+  - a2-perfect-vs-imperfect
+  - a2-past-progressive
+  - a2-past-narrative

@@ -1,0 +1,16 @@
+id: b1-ulermena
+code: 05-irakurketa-eta-entzumena
+level: b1
+title: Comprensión lectora y oral
+order: 5
+description: Estrategias para entender textos auténticos y audios reales. Léxico abstracto B1, formación de palabras y tipologías textuales.
+estimatedMinutes: 70
+covers:
+  - reading-strategies
+  - listening-strategies
+  - abstract-vocabulary
+  - word-formation
+  - text-types
+  - passive-resultative
+  - subjunctive-dadin
+  - imperative-advanced

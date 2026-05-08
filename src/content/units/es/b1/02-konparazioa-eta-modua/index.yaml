@@ -1,0 +1,16 @@
+id: b1-konparazioa
+code: 02-konparazioa-eta-modua
+level: b1
+title: Comparación, modo y conectores
+order: 2
+description: Compara, contrasta y enlaza ideas con precisión. Comparativos, superlativos, exceso, conectores de adición, contraste y secuencia.
+estimatedMinutes: 65
+covers:
+  - comparative-superior
+  - comparative-inferior
+  - comparative-equality
+  - superlative-en
+  - excessive-egi
+  - connectors-addition
+  - connectors-sequence
+  - discourse-markers

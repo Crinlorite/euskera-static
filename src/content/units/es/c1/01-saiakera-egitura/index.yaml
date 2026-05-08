@@ -1,0 +1,12 @@
+id: c1-saiakera
+code: 01-saiakera-egitura
+level: c1
+title: Estructura del ensayo
+order: 1
+description: Cómo organizar un texto argumentativo en euskera — introducción, desarrollo y conclusión con coherencia.
+estimatedMinutes: 90
+covers:
+  - c1-essay-structure
+  - c1-thesis-statement
+  - c1-introductions
+  - c1-conclusions

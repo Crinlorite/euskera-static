@@ -1,0 +1,47 @@
+code: b2
+name: B2.1 Maila
+description: Primera mitad del nivel B2 — la segunda mitad llegará cuando haya material disponible. Subordinación avanzada, estilo indirecto, argumentación intermedia, cartas formales y léxico abstracto.
+order: 4
+status: active
+beta: true
+curriculum:
+  # Bloque 1: identidad, autobiografía y CV
+  - { id: b2-self-presentation, title: 'Autopresentación extensa (norbera aurkeztu): origen, trayectoria, motivaciones' }
+  - { id: b2-cv-writing, title: 'Curriculum Vitae: secciones (datu pertsonalak, ikasketak, lan-esperientzia, hizkuntzak, gaitasunak)' }
+  - { id: b2-biography-vocab, title: 'Léxico de biografía y trayectoria (jaio, hazi, ikasi, lan egin, ezkondu, zendu, omendu)' }
+  - { id: b2-character-deep, title: 'Adjetivos de carácter avanzados (jenio biziko, lotsatia, sentibera, irekia, zorrotza, errukitsua)' }
+  # Bloque 2: cartas formales y registros
+  - { id: b2-letter-structure, title: 'Estructura de carta formal (agurra, sarrera, gorputza, azken-hitzak, agur-formula, sinadura)' }
+  - { id: b2-formal-greetings, title: 'Fórmulas de tratamiento (agurgarria, jaun/andre, zinez agurtzen zaituen, adeitasunez)' }
+  - { id: b2-letter-request, title: 'Carta de petición (eskaera-gutuna): pedir permisos, plazas, trámites' }
+  - { id: b2-letter-complaint, title: 'Carta de queja (kexa-gutuna): exponer hechos, reclamar, solicitar reparación' }
+  - { id: b2-letter-application, title: 'Carta de presentación a un puesto (lan-eskaintza): destacar perfil, motivación' }
+  # Bloque 3: aditza sakontzen
+  - { id: b2-indicative-review, title: 'Revisión del indicativo: NOR, NOR-NORK, NOR-NORI, NOR-NORI-NORK presente y pasado en uso natural' }
+  - { id: b2-aditz-erregimena, title: 'Régimen verbal DA / DU: aditzak zein laguntzaile hartzen duen (gertatu zait vs ekarri dut)' }
+  - { id: b2-zehar-estiloa-intro, title: 'Estilo indirecto (zehar estiloa): introducción y verbos introductores (esan, galdetu, gomendatu)' }
+  - { id: b2-zehar-estiloa-tense, title: 'Estilo indirecto: cambios temporales (orain → orduan, bihar → hurrengo egunean)' }
+  - { id: b2-perpaus-osagarriak, title: 'Oraciones completivas: -(e)la (uste dut datorrela), -(e)nik (ez dut uste datorrenik), -(e)n (galdetu dit non bizi naizen)' }
+  - { id: b2-perpaus-osagarriak-galdera, title: 'Completivas de pregunta indirecta: -(e)n (ez dakit nor den, galdetu zion noiz etorriko zen)' }
+  # Bloque 4: subordinadas de tiempo
+  - { id: b2-denbora-nean, title: 'Temporales con -(e)nean (cuando): etortzen denean, ikusi nuenean' }
+  - { id: b2-denbora-tzean, title: 'Temporales con -t(z)ean (al + infinitivo): sartzean, irakurtzerakoan' }
+  - { id: b2-denbora-takoan, title: 'Temporales con -t(z)erakoan / -takoan (al, una vez que): irekitakoan, amaitzerakoan' }
+  - { id: b2-denbora-bitartean, title: 'Simultaneidad: bitartean, -(e)n bitartean, -tzen ari naizen bitartean' }
+  - { id: b2-denbora-aurretik, title: 'Anterioridad y posterioridad: baino lehen, -(e)n ondoren, -t(z)e baino lehen' }
+  # Bloque 5: argumentación e iritzi-testua
+  - { id: b2-opinion-formulas, title: 'Fórmulas de opinión avanzadas (nire ustez, niri iruditzen zait, dudarik gabe, esan beharra dago)' }
+  - { id: b2-arguing-text, title: 'Estructura del texto argumentativo (sarrera, garapena, ondorioa, tesia eta argudioak)' }
+  - { id: b2-connectors-advanced, title: 'Conectores avanzados (hala ere, hala eta guztiz ere, alde batetik... bestetik, beraz, ondorioz, izan ere)' }
+  - { id: b2-counterargue, title: 'Contraargumentación (egia da... baina, hori horrela izanagatik, ezin daiteke ukatu)' }
+  - { id: b2-ere-lokailua, title: 'Lokailu *ere* y orden de elementos (Hori ere esan zuen / Berak ere etorri da)' }
+  # Bloque 6: deklinabidea sakon y mugagabea
+  - { id: b2-mugagabea, title: 'Mugagabea (indeterminado): cuándo aparece y formas (zenbat lagunek, edozein tokitan, hainbat mutili)' }
+  - { id: b2-noren-zeren, title: 'Caso NOREN/ZEREN distinción y postposiciones (etxeko giltza vs etxearen tamaina)' }
+  - { id: b2-postposiciones, title: 'Postposiciones complejas (-(r)engana, -(r)engandik, -en aurka, -en alde, -en arabera, -i buruz)' }
+  # Bloque 7: cultura, sociedad, emociones
+  - { id: b2-diaspora, title: 'Diáspora vasca y Euskal Etxeak en el mundo' }
+  - { id: b2-tribus-urbanas, title: 'Tribus urbanas y subculturas (estiloak, identitateak, belaunaldi-arrakalak)' }
+  - { id: b2-emotions-classify, title: 'Clasificación de emociones (oinarrizkoak, bigarren mailakoak: poza, beldurra, haserrea, harridura, nazka, tristura)' }
+  - { id: b2-emotions-express, title: 'Expresar emociones con matiz (lotsa ematen dit, errukia diot, miresten dut, nazka ematen dit)' }
+  - { id: b2-bihurkariak, title: 'Oraciones reflexivas (bihurkariak): neure burua, zeure burua, bere burua (ezagutu, jantzi, garbitu)' }

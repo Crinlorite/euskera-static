@@ -1,0 +1,63 @@
+code: a2
+name: A2 Maila
+description: Nivel elemental. Comprensión y producción autónoma en situaciones cotidianas habituales, con narración en pasado y opiniones simples.
+order: 2
+status: active
+beta: true
+curriculum:
+  # Bloque 1: salud, cuerpo, dolencias y vida sana
+  - { id: a2-health-vocab, title: 'Vocabulario de salud (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)' }
+  - { id: a2-doctor-visit, title: 'En la consulta médica (mediku-kontsultan: zer duzu?, mina daukat, hartu pilula bat)' }
+  - { id: a2-healthy-habits, title: 'Hábitos saludables (kirola egin, ondo lo egin, fruta jan, erre, alkohola)' }
+  # Bloque 2: medio ambiente y sociedad
+  - { id: a2-environment, title: 'Medio ambiente (ingurumena, kutsadura, birziklatu, energia, klima-aldaketa)' }
+  - { id: a2-civic-life, title: 'Vida social y cívica (auzoa, herria, partehartzea, boluntariotza, jaiak)' }
+  # Bloque 3: imperativo (agintera) y consejos
+  - { id: a2-agintera-intro, title: 'Imperativo (agintera): formas básicas afirmativas (zatoz, hartu, joan zaitez)' }
+  - { id: a2-agintera-uses, title: 'Usos del imperativo: instrucciones, consejos, peticiones (mesedez, hartu eseri)' }
+  - { id: a2-agintera-negation, title: 'Imperativo negativo (ez egin, ez joan, ez ezazu hartu)' }
+  # Bloque 4: pasado completo (iragan burutua) — base de A2
+  - { id: a2-past-nor, title: 'Pasado de izan/egon — NOR: nintzen, zinen, zen, ginen, zineten, ziren / nengoen, zegoen' }
+  - { id: a2-past-nor-nork, title: 'Pasado de ukan — NOR-NORK: nuen, zenuen, zuen, genuen, zenuten, zuten / nituen, zituen' }
+  - { id: a2-past-trinkoak, title: 'Pasado de verbos sintéticos (joan/etorri/ibili/eduki/jakin: nindoan, nentorren, nenbilen, neukan, nekien)' }
+  - { id: a2-past-time-markers, title: 'Marcadores de pasado completo (atzo, joan den astean, duela X urte, orduan, gero)' }
+  - { id: a2-past-narrative, title: 'Narrar una experiencia: encadenar acciones en pasado (lehenengo... gero... azkenean)' }
+  # Bloque 5: aspecto imperfecto (iragan ez burutua) y contraste
+  - { id: a2-past-imperfect, title: 'Pasado imperfecto: aditza-tzen + nintzen/zen (lan egiten nuen, joaten nintzen)' }
+  - { id: a2-perfect-vs-imperfect, title: 'Contraste burutua/ez burutua: hechos puntuales vs hábitos y descripciones del pasado' }
+  - { id: a2-past-progressive, title: 'Pasado progresivo (puntukaria): -tzen ari nintzen / nenbilen' }
+  # Bloque 6: NOR-NORI-NORK y NOR-NORI
+  - { id: a2-nor-nori-nork, title: 'NOR-NORI-NORK presente (eman dizut, esan diot, erakutsi digute)' }
+  - { id: a2-nor-nori-nork-past, title: 'NOR-NORI-NORK pasado (eman nion, esan zion, ekarri zigun)' }
+  - { id: a2-nor-nori, title: 'NOR-NORI presente y pasado (gustatzen zait/zaio, ahaztu zitzaidan)' }
+  # Bloque 7: ahalera y baldintza intro
+  - { id: a2-ahalera, title: 'Verbo poder (ahalera): -t(z)en + dezaket/daiteke (etor daiteke, egin dezakezu)' }
+  - { id: a2-ezin, title: 'No poder (ezin izan): ezin dut, ezin nintzen joan, ezin daiteke' }
+  - { id: a2-baldintza-intro, title: 'Condicional (baldintza) básico: si... entonces... (banaiz, banu, joango nintzateke) — introducción' }
+  # Bloque 8: deklinabidea ampliada
+  - { id: a2-norentzat, title: 'Caso destinativo NORENTZAT: para quién (lagunarentzat, niretzat, guretzat)' }
+  - { id: a2-noraino-norantz, title: 'Casos NORAINO (-raino, hasta) y NORANTZ (-rantz, hacia)' }
+  - { id: a2-norengatik, title: 'Caso motivativo ZERGATIK / NORENGATIK (lagunarengatik, ekonomiaz)' }
+  - { id: a2-nongo-noizko, title: 'Caso NONGO/NOIZKO (-ko, -tako): atributo de lugar y tiempo (Bilboko, atzoko)' }
+  # Bloque 9: comparaciones
+  - { id: a2-comp-superiority, title: 'Comparativo de superioridad: -ago, baino...-ago (handiagoa da, baino altuagoa)' }
+  - { id: a2-comp-equality, title: 'Comparativo de igualdad: bezain, adina/beste (zu bezain ona, zuk adina)' }
+  - { id: a2-comp-superlative, title: 'Superlativo: -en (politena, onena, txikiena)' }
+  - { id: a2-comp-excess, title: 'Exceso y defecto: -egi, gehiegi, gutxiegi (handiegia, gehiegi jan dut)' }
+  - { id: a2-comp-progressive, title: 'Comparación progresiva: gero eta ...ago (cada vez más / cada vez menos)' }
+  # Bloque 10: opinión, sentimientos, conectores
+  - { id: a2-opinion, title: 'Expresar opinión: nire ustez, uste dut, iruditzen zait, ados nago' }
+  - { id: a2-feelings, title: 'Sentimientos: pozik, triste, haserre, urduri, lasai, beldur naiz, lotsa ematen dit' }
+  - { id: a2-connectors, title: 'Conectores: zeren/ze (porque), beraz (por tanto), hala ere (sin embargo), gainera (además)' }
+  - { id: a2-distributive, title: 'Coordinadas distributivas: bai...bai, ez...ez, baita...ere, baizik' }
+  # Bloque 11: subordinación introductoria
+  - { id: a2-relative-en, title: 'Oraciones de relativo con -(e)n: ezagutzen dudan gizona, joaten naizen tabernan' }
+  - { id: a2-causal-clauses, title: 'Causales subordinadas: -lako (porque, sufijado), zeren...bait- (libro)' }
+  - { id: a2-completive-ela, title: 'Completivas con -(e)la: uste dut etorriko dela, badakit egia dela' }
+  # Bloque 12: ropa, casa, oficios y vida cotidiana ampliados
+  - { id: a2-clothes-extended, title: 'Ropa ampliada (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)' }
+  - { id: a2-home-extended, title: 'Casa ampliada (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)' }
+  - { id: a2-jobs-extended, title: 'Oficios ampliados (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)' }
+  # Bloque 13: cultura y comparación cultural
+  - { id: a2-festivals, title: 'Fiestas y tradiciones (San Juan sua, Olentzero, Korrika, jai herrikoiak)' }
+  - { id: a2-routines-compare, title: 'Comparar rutinas y costumbres (lehen... orain..., bertan... bestea... )' }

@@ -1,0 +1,17 @@
+id: b1-bitartekotza
+code: 04-bitartekotza-eta-iritzia
+level: b1
+title: Mediación y opinión argumentada
+order: 4
+description: Reformula, resume, cita y argumenta. Introducción a la bitartekotza (mediación), nueva competencia clave en el B1 actual de HABE/EOI.
+estimatedMinutes: 70
+covers:
+  - mediation-intro
+  - mediation-reformulate
+  - mediation-quote
+  - opinion-arguing
+  - agreement-disagreement
+  - hypothesis-marking
+  - subord-conditional
+  - passive-construction
+  - impersonal-da

@@ -1,0 +1,13 @@
+id: ega-ahozkoa
+code: 04-ahozko-proba
+level: ega
+title: Ahozko proba — prueba oral
+order: 4
+description: "Preparación de la prueba oral EGA: bakarrizketa de 5 minutos sobre texto asignado y solasaldia de 10 minutos en pareja. Fluidez, registro, pronunciación y técnica de turn-taking."
+estimatedMinutes: 110
+covers:
+  - ega-ahozko-structure
+  - ega-bakarrizketa
+  - ega-solasaldia
+  - ega-fluency
+  - ega-pronunciation

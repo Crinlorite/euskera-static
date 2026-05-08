@@ -1,0 +1,15 @@
+id: ega-ereduak
+code: 05-azterketa-ereduak
+level: ega
+title: Modelos de examen y simulacros
+order: 5
+description: Aditz formak completas, sinónimos C1+, modelos históricos de examen y mini-simulacros para repasar antes de la convocatoria. Recursos de auto-corrección.
+estimatedMinutes: 130
+covers:
+  - ega-aditz-trinkoak
+  - ega-aditz-nor-nori-nork
+  - ega-subjuntive
+  - ega-relative-clauses
+  - ega-synonyms
+  - ega-exam-models
+  - ega-self-correction

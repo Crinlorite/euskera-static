@@ -1,0 +1,15 @@
+id: c1-erregistroa
+code: 04-erregistroa-eta-lexikoa
+level: c1
+title: Registro y léxico formal
+order: 4
+description: Registro formal, léxico abstracto, precisión en sinónimos y formatos IVAP/HABE.
+estimatedMinutes: 90
+covers:
+  - c1-formal-register
+  - c1-abstract-lexicon
+  - c1-precision-synonyms
+  - c1-nominalization
+  - c1-ivap-format
+  - c1-habe-format
+  - c1-letter-formal
