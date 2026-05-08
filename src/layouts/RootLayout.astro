@@ -7,6 +7,7 @@ import { LANGUAGES, DEFAULT_LOCALE, type LocaleCode } from '../i18n/config';
 import { t } from '../i18n/ui';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import LevelGate from '../components/layout/LevelGate.svelte';
 
 interface Props {
   locale?: LocaleCode;
@@ -58,6 +59,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       <slot />
     </main>
     <Footer locale={locale} />
+    <LevelGate client:load />
     <script>
       const setupFadeIns = () => {
         const obs = new IntersectionObserver((entries) => {
