@@ -1,13 +1,11 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { GATE_HASH, sha256Hex } from '../../lib/gate';
+  import { GATE_HASH, LOCKED_PATHS, sha256Hex } from '../../lib/gate';
 
-  // Rutas que requieren desbloqueo. A1 nunca está bloqueado.
   // Comparamos contra el SHA-256 del token (no contra plaintext): el
   // password real no aparece en el repo ni en el bundle. Esto es protección
   // "casual visitor", no seguridad real — su propósito es evitar que alguien
   // sin supervisión humana llegue a contenido aún no validado.
-  const LOCKED_PATHS = ['a2', 'b1', 'b2', 'c1', 'ega', 'expedicion'];
   const STORAGE_PREFIX = 'euskera-static.gate.';
 
   const LABEL_OVERRIDES: Record<string, { eyebrow: string; titlePre: string; titleHi: string; titlePost: string }> = {
