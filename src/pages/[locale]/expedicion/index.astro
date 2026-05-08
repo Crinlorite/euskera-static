@@ -1,6 +1,6 @@
 ---
 import RootLayout from '../../../layouts/RootLayout.astro';
-import ExpeditionMap from '../../../components/expedition/ExpeditionMap.svelte';
+import Game from '../../../components/expedition/game/components/Game.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
 
 export async function getStaticPaths() {
@@ -9,49 +9,40 @@ export async function getStaticPaths() {
 
 const { locale } = Astro.params as { locale: LocaleCode };
 ---
-<RootLayout locale={locale} title="Modo Expedición · vista previa">
+<RootLayout locale={locale} title="Aitonaren Hitzak — Modo Expedición" bodyClass="game-page">
   <section class="container expedicion-hero fade-in">
-    <p class="eyebrow">Vista previa · Steam · Microsoft Store</p>
+    <p class="eyebrow">Modo Expedición · Vista previa Steam</p>
     <h1 class="display">
-      Una <span class="text-grad">expedición</span> por Euskal Herria.
+      Aitonaren <span class="text-grad">Hitzak</span>.
     </h1>
     <p class="lead">
-      El Modo Expedición convierte tu progreso en un viaje. Cada lección que completas
-      desbloquea una nueva ciudad. En cada parada te espera un personaje con un mini-reto
-      que pone a prueba lo que ya sabes. Esto es un prototipo funcional: la versión final
-      llegará con la edición Steam.
+      Una aventura gráfica por Euskal Herria. Tu progreso de aprendizaje
+      desbloquea capítulos. Cada lugar tiene su personaje, su misterio y
+      su prueba lingüística. El final pone tu euskera al límite.
     </p>
-    <div class="rules">
-      <div>
-        <span class="num display">01</span>
-        <span class="rule-text">Avanza por A1 para abrir nuevas zonas del mapa.</span>
-      </div>
-      <div>
-        <span class="num display">02</span>
-        <span class="rule-text">Cada NPC propone un mini-diálogo en euskera.</span>
-      </div>
-      <div>
-        <span class="num display">03</span>
-        <span class="rule-text">Acierta y suma palabras a tu cuaderno de viaje.</span>
-      </div>
-    </div>
+    <p class="hint">
+      Recomendado a pantalla completa. <kbd>F</kbd> activa fullscreen,
+      <kbd>Esc</kbd> abre el menú, <kbd>Enter</kbd> avanza el diálogo.
+    </p>
   </section>
 
-  <section class="container expedicion-map fade-in">
-    <ExpeditionMap client:load />
+  <section class="container game-mount fade-in">
+    <Game client:only="svelte" />
   </section>
 
-  <section class="container expedicion-foot fade-in">
+  <aside class="container game-foot fade-in">
     <p class="note">
-      ¿Algo no funciona o se te ocurre una zona nueva? Dínoslo: este prototipo se irá
-      enriqueciendo a medida que el contenido A2-EGA se valide.
+      Esto es una <strong>vista previa funcional</strong>. El arte definitivo —
+      sprites pixelart de los personajes, fondos pintados de Euskal Herria,
+      música — llegará más adelante. La trama de los 8 capítulos ya se
+      puede jugar de principio a fin, con dificultad creciente A1 → EGA.
     </p>
-  </section>
+  </aside>
 </RootLayout>
 
 <style>
   .expedicion-hero {
-    padding-block: var(--s-7) var(--s-5);
+    padding-block: var(--s-7) var(--s-4);
     display: grid;
     gap: var(--s-3);
     max-inline-size: 880px;
@@ -86,34 +77,29 @@ const { locale } = Astro.params as { locale: LocaleCode };
     line-height: 1.55;
     max-inline-size: 60ch;
   }
-  .rules {
-    margin-block-start: var(--s-4);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: var(--s-4);
+  .hint {
+    margin: 0;
+    color: var(--c-text-dim);
+    font-size: 0.9rem;
   }
-  .rules > div {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: var(--s-3);
-    align-items: start;
-    padding: var(--s-3) var(--s-4);
+  .hint kbd {
     background: var(--c-bg-alt);
-    border-radius: var(--r-md);
-    border-inline-start: 3px solid var(--c-red);
-  }
-  .num {
-    font-family: var(--ff-display);
-    font-style: italic;
-    font-size: 2rem;
-    line-height: 1;
+    border: 1px solid var(--c-border);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-family: ui-monospace, monospace;
     color: var(--c-red);
+    font-size: 0.78rem;
   }
-  .rule-text { font-size: 0.95rem; line-height: 1.4; align-self: center; }
 
-  .expedicion-map { padding-block: var(--s-3) var(--s-7); }
-  .expedicion-foot { padding-block: 0 var(--s-8); max-inline-size: 720px; }
-  .expedicion-foot .note {
+  .game-mount {
+    padding-block: var(--s-3) var(--s-7);
+  }
+  .game-foot {
+    padding-block: 0 var(--s-8);
+    max-inline-size: 720px;
+  }
+  .game-foot .note {
     color: var(--c-text-muted);
     font-size: 0.92rem;
     line-height: 1.5;
@@ -121,4 +107,5 @@ const { locale } = Astro.params as { locale: LocaleCode };
     padding-block-start: var(--s-4);
     margin: 0;
   }
+  .game-foot strong { color: var(--c-text); }
 </style>

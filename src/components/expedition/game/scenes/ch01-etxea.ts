@@ -1,0 +1,237 @@
+import type { Scene } from '../engine/types';
+
+// Capítulo 1 — Etxea (la casa del abuelo).
+// Tutorial narrativo. Introduce mecánica de diálogo, elecciones, puzzles
+// sencillos (multiple choice, fill-in básico, order-words). Vocabulario
+// nivel A1 puro: saludos, presentación, familia, objetos del hogar,
+// dirección de viaje. Trama: encuentras la carta del abuelo y partes.
+
+export const sceneEtxea: Scene = {
+  id: 'ch01-etxea',
+  chapter: 1,
+  title: 'Etxea',
+  subtitle: 'La casa silenciosa del abuelo',
+  level: 'a1',
+  bgId: 'etxe-barrua',
+  intro: {
+    title: 'Aitonaren Hitzak',
+    subtitle: 'Capítulo 1 · La casa silenciosa',
+    body:
+      'El abuelo Ander se ha ido. Te ha dejado su casa en un pueblo del valle, una llave de hierro y una carta sellada. No hablas euskera — él tampoco te lo enseñó cuando había tiempo.\n\nDentro de la casa, el aire huele a madera vieja y a tomillo. Algo te está esperando sobre la mesa.\n\nEsta historia te llevará por Euskal Herria. Cada parada es un nivel del idioma. Al final tendrás que enfrentarte a algo que está decidido a borrar las palabras.',
+  },
+  playable: true,
+  beats: [
+    { type: 'narration', text: 'El polvo flota en los rayos de sol. La casa de aitona Ander lleva un mes vacía.' },
+    { type: 'narration', text: 'Sobre la mesa de roble: una carta sellada con tu nombre, una llave grande, y un colgante de madera con un lauburu tallado.' },
+    { type: 'enter-actor', actor: { id: 'aitona', spriteId: 'aitona', x: 65, y: 70, scale: 2 } },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa (la voz del abuelo, en tu memoria)',
+      spriteId: 'aitona',
+      eu: 'Kaixo, biloba. Egun on.',
+      es: 'Hola, nieto. Buenos días.',
+      emotion: 'neutral',
+    },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Banoa hi gabe, baina ez nago hi gabe. Ulertzen?',
+      es: 'Me marcho sin ti, pero no estoy sin ti. ¿Lo entiendes?',
+      emotion: 'sad',
+    },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Erantzun, biloba. Erantzun zerbait.',
+      es: 'Responde, nieto. Responde algo.',
+      emotion: 'neutral',
+    },
+    {
+      type: 'choice',
+      prompt: 'Tienes que decir algo. ¿Cómo le respondes al abuelo?',
+      options: [
+        { label: '"Kaixo, aitona. Hemen nago." (Hola, abuelo. Aquí estoy.)', gotoLabel: 'after-greeting' },
+        { label: '"Egun on. Ez dakit zer esan." (Buenos días. No sé qué decir.)', gotoLabel: 'after-greeting' },
+        { label: '"Agur, aitona. Eskerrik asko." (Adiós, abuelo. Muchas gracias.)', gotoLabel: 'after-greeting' },
+      ],
+    },
+    { type: 'label', id: 'after-greeting' },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Eskerrik asko, biloba. Hori euskara da. Hori da hasiera.',
+      es: 'Gracias, nieto. Eso es euskera. Ese es el principio.',
+      emotion: 'happy',
+    },
+    {
+      type: 'gain-word',
+      word: { eu: 'kaixo', es: 'hola', level: 'a1', context: 'la primera palabra que dijo el abuelo' },
+      flavor: 'Apuntas la palabra en el cuaderno que aitona te dejó.',
+    },
+    {
+      type: 'gain-word',
+      word: { eu: 'egun on', es: 'buenos días', level: 'a1', context: 'saludo de mañana' },
+    },
+    {
+      type: 'gain-word',
+      word: { eu: 'aitona', es: 'abuelo', level: 'a1' },
+    },
+    {
+      type: 'gain-word',
+      word: { eu: 'biloba', es: 'nieto / nieta', level: 'a1' },
+    },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Mahaiaren gainean, gutuna ikusten duzu? Hartu eta irakurri.',
+      es: 'En la mesa, ¿ves la carta? Cógela y léela.',
+      emotion: 'neutral',
+    },
+    { type: 'narration', text: 'Coges la carta. La caligrafía del abuelo es densa y cuidada. La primera línea está escrita en castellano, como si supiera que aún no leerías euskera.' },
+    {
+      type: 'speak',
+      speaker: 'La carta del abuelo',
+      spriteId: 'narrator',
+      eu: '“Biloba: lehen hitza ikasi duzu. Hori da nahikoa orain.”',
+      es: '"Nieto: ya has aprendido la primera palabra. Eso es bastante por ahora."',
+      emotion: 'mystic',
+    },
+    {
+      type: 'speak',
+      speaker: 'La carta del abuelo',
+      spriteId: 'narrator',
+      eu: '“Mapa hau gorde dut hire izenarekin. Zazpi puntu daude. Bakoitzean zerbait aurkitu nuen, eta zerbait utzi.”',
+      es: '"He guardado este mapa con tu nombre. Hay siete puntos. En cada uno encontré algo, y dejé algo."',
+      emotion: 'mystic',
+    },
+    {
+      type: 'speak',
+      speaker: 'La carta del abuelo',
+      spriteId: 'narrator',
+      eu: '“Hitzaren Sua piztuta eduki behar da. Hor utzi dut, banaka, zazpi tokitan.”',
+      es: '"El Fuego de la Palabra debe seguir encendido. Lo dejé, repartido, en siete lugares."',
+      emotion: 'mystic',
+    },
+    {
+      type: 'speak',
+      speaker: 'La carta del abuelo',
+      spriteId: 'narrator',
+      eu: '“Zergatik hire gain? Zeren niretzat ez dago denborarik. Ez ahaztu: hitzak biziak dira.”',
+      es: '"¿Por qué tú? Porque para mí ya no hay tiempo. No olvides: las palabras están vivas."',
+      emotion: 'sad',
+    },
+    {
+      type: 'gain-item',
+      item: { id: 'pendant', name: 'Lauburu de madera', description: 'El colgante tallado por aitona. Algo cálido al tocarlo.', icon: '☘' },
+      flavor: 'Te cuelgas el lauburu al cuello.',
+    },
+    {
+      type: 'gain-item',
+      item: { id: 'book', name: 'Libro del abuelo', description: 'En euskera antiguo, ilegible aún. Cada capítulo se descifrará a su tiempo.', icon: '📖' },
+    },
+    {
+      type: 'gain-item',
+      item: { id: 'map', name: 'Mapa de Euskal Herria', description: 'Siete puntos marcados en tinta sepia. El primero: Donostia.', icon: '🗺' },
+    },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Lehen geltokia: Donostia. Itsasoaren ondoan.',
+      es: 'Primera parada: Donostia. Junto al mar.',
+      emotion: 'neutral',
+    },
+    { type: 'narration', text: 'Antes de salir, repasas las cosas básicas. ¿Cómo se llaman estas cosas que ves en la habitación?' },
+    {
+      type: 'puzzle',
+      puzzle: {
+        type: 'match-pairs',
+        prompt: 'Empareja los objetos de la habitación con su nombre en euskera.',
+        pairs: [
+          { left: 'mesa', right: 'mahaia' },
+          { left: 'libro', right: 'liburua' },
+          { left: 'puerta', right: 'atea' },
+          { left: 'llave', right: 'giltza' },
+        ],
+      },
+      onSuccess: 'after-objects',
+    },
+    { type: 'label', id: 'after-objects' },
+    {
+      type: 'gain-word',
+      word: { eu: 'mahaia', es: 'la mesa', level: 'a1' },
+    },
+    {
+      type: 'gain-word',
+      word: { eu: 'atea', es: 'la puerta', level: 'a1' },
+    },
+    {
+      type: 'gain-word',
+      word: { eu: 'giltza', es: 'la llave', level: 'a1' },
+    },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Ondo. Orain pentsatu nola esan: "Banoa Donostiara".',
+      es: 'Bien. Ahora piensa cómo decir: "Voy a Donostia".',
+      emotion: 'neutral',
+    },
+    {
+      type: 'puzzle',
+      puzzle: {
+        type: 'order-words',
+        prompt: 'Construye la frase: "Voy a Donostia"',
+        words: ['Donostiara', 'banoa'],
+        correctOrder: [1, 0],
+      },
+      onSuccess: 'after-sentence',
+    },
+    { type: 'label', id: 'after-sentence' },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Ezin hobeto. "-ra" atzizkia da: hara noa, harantz noa.',
+      es: 'Inmejorable. "-ra" es el sufijo: voy hacia allí, hacia ese sitio.',
+      emotion: 'happy',
+    },
+    {
+      type: 'gain-word',
+      word: { eu: 'banoa', es: 'voy', level: 'a1', context: 'verbo de movimiento, primera persona' },
+    },
+    {
+      type: 'gain-word',
+      word: { eu: '-ra', es: 'hacia (sufijo de dirección)', level: 'a1' },
+    },
+    {
+      type: 'choice',
+      prompt: 'Antes de irte. Tienes la llave en la mano. ¿Qué haces con la casa?',
+      options: [
+        { label: 'Cierro y guardo la llave. Volveré.', gotoLabel: 'leave-locked', effect: { flag: 'house_locked' } },
+        { label: 'Dejo la puerta abierta. Aquí no queda nada que robar.', gotoLabel: 'leave-open' },
+      ],
+    },
+    { type: 'label', id: 'leave-locked' },
+    { type: 'narration', text: 'Cierras con dos vueltas. La casa queda dentro de ti, no detrás.' },
+    { type: 'goto-label', label: 'final' },
+    { type: 'label', id: 'leave-open' },
+    { type: 'narration', text: 'Dejas la puerta entreabierta. El viento entra y mueve un papel sobre la mesa. Te despides sin mirar.' },
+    { type: 'label', id: 'final' },
+    { type: 'leave-actor', actorId: 'aitona' },
+    {
+      type: 'speak',
+      speaker: 'Aitonaren ahotsa',
+      spriteId: 'aitona',
+      eu: 'Ondo ibili, biloba. Itsasora.',
+      es: 'Buen viaje, nieto. Hacia el mar.',
+      emotion: 'happy',
+    },
+    { type: 'narration', text: 'El sol está ya alto. La carretera baja al valle, y luego sube de nuevo hacia la costa. Donostia te espera.' },
+    { type: 'goto-scene', scene: 'ch02-donostia' },
+  ],
+};
