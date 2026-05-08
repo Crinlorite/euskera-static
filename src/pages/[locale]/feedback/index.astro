@@ -1,0 +1,108 @@
+---
+import RootLayout from '../../../layouts/RootLayout.astro';
+import FeedbackForm from '../../../components/feedback/FeedbackForm.svelte';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+---
+<RootLayout locale={locale} title="Reportar / Feedback">
+  <section class="container feedback-hero fade-in">
+    <p class="eyebrow">Tickets</p>
+    <h1 class="display">
+      Hay algo que <span class="text-grad">contar</span>.
+    </h1>
+    <p class="lead">
+      Bugs, sugerencias, errores en una lección, traducciones que cojean, dudas concretas.
+      Lo que sea. Cada ticket nos llega y se gestiona desde nuestro Discord.
+    </p>
+  </section>
+
+  <section class="container feedback-form fade-in">
+    <FeedbackForm client:load />
+  </section>
+
+  <aside class="container feedback-aside fade-in">
+    <h2>¿Cómo funciona?</h2>
+    <ol>
+      <li>Eliges la categoría que mejor describe el asunto.</li>
+      <li>Lo describes con el detalle que tengas — pasos, capturas mentales, contexto.</li>
+      <li>Si quieres respuesta, dejas email o usuario de Discord.</li>
+      <li>Recibes un ID público. Si dejaste contacto, te avisamos cuando lo cerramos.</li>
+    </ol>
+    <p class="aside-note">
+      No hay backend de cuentas. No guardamos historiales ligados a ti. El ID que recibes
+      es lo único que necesitas para seguir el ticket.
+    </p>
+  </aside>
+</RootLayout>
+
+<style>
+  .feedback-hero {
+    padding-block: var(--s-7) var(--s-4);
+    display: grid;
+    gap: var(--s-3);
+    max-inline-size: 760px;
+  }
+  .feedback-hero .eyebrow {
+    margin: 0;
+    font-family: var(--ff-sans);
+    font-size: var(--t-eyebrow);
+    font-weight: 600;
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+    color: var(--c-text-muted);
+  }
+  .feedback-hero h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 0.98;
+    letter-spacing: var(--tr-tight);
+  }
+  .feedback-hero h1 .text-grad {
+    font-style: italic;
+    background: var(--grad-ikurri-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .lead {
+    margin: var(--s-2) 0 0;
+    color: var(--c-text-muted);
+    font-size: 1.05rem;
+    line-height: 1.55;
+    max-inline-size: 60ch;
+  }
+
+  .feedback-form { padding-block: var(--s-3) var(--s-7); }
+
+  .feedback-aside {
+    padding-block: 0 var(--s-8);
+    max-inline-size: 720px;
+    color: var(--c-text-muted);
+  }
+  .feedback-aside h2 {
+    margin: 0 0 var(--s-3);
+    font-family: var(--ff-display);
+    font-size: 1.2rem;
+    color: var(--c-text);
+    border-block-start: 1px solid var(--c-border);
+    padding-block-start: var(--s-5);
+  }
+  .feedback-aside ol {
+    margin: 0 0 var(--s-3);
+    padding-inline-start: var(--s-5);
+    line-height: 1.7;
+  }
+  .feedback-aside ol li { margin-block-end: var(--s-1); }
+  .aside-note {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--c-text-dim);
+  }
+</style>
