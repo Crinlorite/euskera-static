@@ -1,0 +1,13 @@
+id: b2-gutunak
+code: 02-gutunak-eta-eskaerak
+level: b2
+title: Gutunak eta eskaerak
+order: 2
+description: "Escribir cartas formales: presentación, petición y queja, con fórmulas y registro adecuado."
+estimatedMinutes: 70
+covers:
+  - b2-letter-structure
+  - b2-formal-greetings
+  - b2-letter-request
+  - b2-letter-complaint
+  - b2-letter-application

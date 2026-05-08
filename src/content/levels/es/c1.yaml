@@ -1,0 +1,36 @@
+code: c1
+name: C1 Maila
+description: Nivel avanzado. Argumentación, abstracción y registro formal escrito (IVAP/HABE).
+order: 5
+status: active
+beta: true
+curriculum:
+  # Estructura del ensayo / saiakera-egitura
+  - { id: c1-essay-structure, title: 'Estructura del ensayo: sarrera, garapena, ondorioa' }
+  - { id: c1-thesis-statement, title: 'Tesis (tesia) — formulación clara del punto de vista' }
+  - { id: c1-introductions, title: 'Tipos de introducción (galdera erretorikoa, datu-eragilea, kontextualizazioa)' }
+  - { id: c1-conclusions, title: 'Cierres efectivos (laburpena, gogoeta zabala, deia)' }
+  # Argumentación / argudiatzea
+  - { id: c1-argumentation, title: 'Argumentación: tesia, frogak, adibideak' }
+  - { id: c1-counterargument, title: 'Contraargumentos y refutación (hala ere, dena den, izan ere)' }
+  - { id: c1-evidence-types, title: 'Tipos de evidencia (datuak, autoritate-iturriak, esperientzia, analogia)' }
+  - { id: c1-fallacies, title: 'Falacias frecuentes y argumentación rigurosa' }
+  # Cohesión / lokailuak eta kohesioa
+  - { id: c1-connectors-addition, title: 'Lokailu emendiozkoak (gainera, are gehiago, halaber, bestalde)' }
+  - { id: c1-connectors-contrast, title: 'Lokailu aurkaritzakoak (alabaina, ostera, aldiz, ordea)' }
+  - { id: c1-connectors-cause, title: 'Lokailu kausazkoak eta ondoriozkoak (izan ere, beraz, hortaz, ondorioz)' }
+  - { id: c1-cohesion-anaphora, title: 'Cohesión: anáfora, sinonimia, hiperónimos para evitar repetición' }
+  - { id: c1-paragraph-transitions, title: 'Transiciones entre párrafos y progresión temática' }
+  # Sintaxis avanzada
+  - { id: c1-completive-clauses, title: 'Perpaus konpletiboak avanzados (-ela, -enik, -ena) y verbos de opinión/duda' }
+  - { id: c1-relative-advanced, title: 'Erlatibo aurreratuak (-(e)n, zein/non/nori) en registro formal' }
+  - { id: c1-conditional-hypothetical, title: 'Baldintzazko hipotetikoak (banintz, banintza, ...ko nuke)' }
+  - { id: c1-concessive, title: 'Kontzesiboak (nahiz eta, arren, ba ere)' }
+  # Registro y léxico / erregistroa eta lexikoa
+  - { id: c1-formal-register, title: 'Registro formal: marcadores, fórmulas y distancia comunicativa' }
+  - { id: c1-abstract-lexicon, title: 'Léxico abstracto (gizarte-eredua, ondorio, eragin, jarrera, gogoeta)' }
+  - { id: c1-precision-synonyms, title: 'Precisión léxica: discriminación de sinónimos en C1' }
+  - { id: c1-nominalization, title: 'Nominalizaciones (-tza, -keta, -kuntza, -tasun, -pen) para densidad escrita' }
+  - { id: c1-ivap-format, title: 'Formato IVAP: artículo de opinión 180 palabras' }
+  - { id: c1-habe-format, title: 'Formato HABE: artículo de opinión 300 palabras' }
+  - { id: c1-letter-formal, title: 'Carta formal argumentativa (queja, solicitud, denuncia)' }

@@ -1,0 +1,12 @@
+id: c1-argudiatzea
+code: 02-argudiatzea
+level: c1
+title: Argumentación
+order: 2
+description: Construir tesis, sostenerlas con evidencias y rebatir contraargumentos con rigor.
+estimatedMinutes: 90
+covers:
+  - c1-argumentation
+  - c1-counterargument
+  - c1-evidence-types
+  - c1-fallacies

@@ -1,0 +1,13 @@
+id: c1-lokailuak
+code: 03-lokailuak-eta-kohesioa
+level: c1
+title: Conectores y cohesión
+order: 3
+description: Lokailuak avanzados, transiciones entre párrafos y mecanismos de cohesión textual.
+estimatedMinutes: 90
+covers:
+  - c1-connectors-addition
+  - c1-connectors-contrast
+  - c1-connectors-cause
+  - c1-cohesion-anaphora
+  - c1-paragraph-transitions

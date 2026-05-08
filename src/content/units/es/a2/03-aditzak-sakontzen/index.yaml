@@ -1,0 +1,14 @@
+id: a2-aditzak
+code: 03-aditzak-sakontzen
+level: a2
+title: Aditzak sakontzen — NOR-NORI-NORK, ahalera y condicional
+order: 3
+description: Verbos con tres argumentos (le doy algo, se lo enseñé), poder/no poder y una primera mirada al condicional.
+estimatedMinutes: 75
+covers:
+  - a2-nor-nori-nork
+  - a2-nor-nori-nork-past
+  - a2-nor-nori
+  - a2-ahalera
+  - a2-ezin
+  - a2-baldintza-intro

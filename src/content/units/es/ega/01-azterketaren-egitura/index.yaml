@@ -1,0 +1,12 @@
+id: ega-egitura
+code: 01-azterketaren-egitura
+level: ega
+title: Estructura del examen EGA
+order: 1
+description: Visión general de las tres pruebas obligatorias del EGA, sistema de puntuación, calendario y estrategia para abordar el examen completo.
+estimatedMinutes: 100
+covers:
+  - ega-overview
+  - ega-puntuation
+  - ega-calendar
+  - ega-strategy

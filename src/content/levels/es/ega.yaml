@@ -1,0 +1,44 @@
+code: ega
+name: EGA Maila
+description: Preparación del examen EGA (Euskararen Gaitasun Agiria). No es un curso curricular CEFR sino una guía de preparación de las tres pruebas oficiales (atariko proba, proba idatzia, ahozko proba) con estrategias, modelos y léxico-gramática avanzados.
+order: 6
+status: active
+beta: true
+curriculum:
+  # Bloque 1: estructura del examen
+  - { id: ega-overview, title: 'Visión general del examen EGA: tres atalak obligatorios y eliminatorios' }
+  - { id: ega-puntuation, title: 'Sistema de puntuación, umbrales y orden de las pruebas' }
+  - { id: ega-calendar, title: 'Convocatorias EGA: deialdiak, inscripción y diferencias HABE/Nafarroa' }
+  - { id: ega-strategy, title: 'Estrategia general: gestión del tiempo, errores frecuentes, cómo NO suspender' }
+  # Bloque 2: atariko proba
+  - { id: ega-atariko-structure, title: 'Atariko proba: 80 ítems, hizkuntza baliabideak + entzunaren + irakurriaren ulermena' }
+  - { id: ega-cloze, title: 'Cloze test (a-b-c): técnica de discriminación fina y matices léxicos' }
+  - { id: ega-multiple-choice, title: 'Test de aukera anitzeko (a-b-c-d): filtrar distractores y registro' }
+  - { id: ega-listening, title: 'Entzunaren ulermena: toma de notas, predicción y segunda escucha' }
+  - { id: ega-reading, title: 'Irakurriaren ulermena: skim/scan, ideas principales vs detalles' }
+  - { id: ega-vocab-screening, title: 'Léxico de screening: sinónimos, falsos amigos, hitz-eraketa, locuciones' }
+  - { id: ega-grammar-screening, title: 'Gramática de screening: ergatibo, deklinabidea, perpaus erlatiboa, aspektua' }
+  # Bloque 3: proba idatzia
+  - { id: ega-idatzia-structure, title: 'Proba idatzia: 1. idazlana (180 hitz, gutuna) + 2. idazlana (250 hitz, iritzia)' }
+  - { id: ega-argudio-text, title: 'Argudio testua: sarrera, garapena, ondorioa — esquema de tres partes' }
+  - { id: ega-thesis-arguments, title: 'Tesia, argudio motak (autoritate, adibide, kontrajarpena) y refutación' }
+  - { id: ega-cohesion, title: 'Cohesión textual: erreferentzia baliabideak, ordezkapena, pronominalizazioa' }
+  - { id: ega-formal-letter, title: 'Gutun formala (1. idazlana): kexa, eskaera, erreklamazioa — fórmulas y registro' }
+  - { id: ega-personal-letter, title: 'Gutun pertsonala: situaciones informales con corrección estructural' }
+  - { id: ega-opinion-piece, title: '2. idazlana: blogetako sarrera / zuzendariari gutuna / iritzi-artikulua' }
+  - { id: ega-organizers-i, title: 'Testu antolatzaileak I: hasierakoak, ordena, jarraipena, kontrakotasuna' }
+  - { id: ega-organizers-ii, title: 'Testu antolatzaileak II: indartzea, onarpena, bukaerakoak, ondorioak' }
+  # Bloque 4: ahozko proba
+  - { id: ega-ahozko-structure, title: 'Ahozko proba: bakarrizketa (5 min) + solasaldia (10 min), prestaketa-tartea (30 min)' }
+  - { id: ega-bakarrizketa, title: 'Bakarrizketa: planteamiento de un texto-input en 5 minutos con coherencia' }
+  - { id: ega-solasaldia, title: 'Solasaldia: turn-taking, defender postura, refutar al compañero' }
+  - { id: ega-fluency, title: 'Fluidez y registro oral: muletillas útiles vs muletillas tóxicas' }
+  - { id: ega-pronunciation, title: 'Pronunciación EGA: r/rr, tx/tz/ts, h, palatalizaciones, jaietan-jautsi' }
+  # Bloque 5: aditzak, sinonimoak, modelos
+  - { id: ega-aditz-trinkoak, title: 'Aditz trinkoak completos (izan, ukan, egon, joan, etorri, jakin, eduki, esan, ekarri, eraman)' }
+  - { id: ega-aditz-nor-nori-nork, title: 'Aditz laguntzaileak NOR-NORI-NORK al completo (orain, iragan, baldintza, ahalera, agintera)' }
+  - { id: ega-subjuntive, title: 'Subjuntiboa eta ahalera: -en, daiteke, daitekeen kasuak' }
+  - { id: ega-relative-clauses, title: 'Perpaus erlatiboak: -en, -tako, zein bait-, eta participio motzak' }
+  - { id: ega-synonyms, title: 'Sinonimoak C1+: matices y registro entre opciones aparentemente equivalentes' }
+  - { id: ega-exam-models, title: 'Azterketa ereduak: estructura de los modelos históricos y mini-simulacros' }
+  - { id: ega-self-correction, title: 'Auto-corrección sistemática: ergatibo, komunztadura, joskera, ortografia' }
