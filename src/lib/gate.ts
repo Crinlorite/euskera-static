@@ -6,6 +6,11 @@
 // Para rotar el token sin tocar código, define `PUBLIC_GATE_HASH` en las
 // env vars de Cloudflare Pages (se inlinea en el bundle al build time).
 
+// Rutas que requieren desbloqueo. A1 nunca está bloqueado.
+// Misma lista usada por LevelGate (gate runtime) y por el home (estilo
+// visual "Próximamente" en cards de nivel). Mantener single source of truth.
+export const LOCKED_PATHS: readonly string[] = ['a2', 'b1', 'b2', 'c1', 'ega', 'expedicion'];
+
 const FALLBACK_HASH = '048d57cd633576444ccfb25ea9e9c85e3c351a10a6a371d401d6fe4774665f6a';
 
 const envHash = (import.meta.env.PUBLIC_GATE_HASH as string | undefined)?.trim();
