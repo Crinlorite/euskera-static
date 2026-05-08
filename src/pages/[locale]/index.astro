@@ -6,6 +6,7 @@ import Particles from '../../components/ui/Particles.svelte';
 import HeroBackground from '../../components/ui/HeroBackground.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
+import { LOCKED_PATHS } from '../../lib/gate';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -15,8 +16,6 @@ const { locale } = Astro.params as { locale: LocaleCode };
 const levels = (await getCollection('levels'))
   .filter((l) => l.id.startsWith(`${locale}/`))
   .sort((a, b) => a.data.order - b.data.order);
-
-const upcoming = ['a2', 'b1', 'b2', 'c1', 'ega'].filter((c) => !levels.some((l) => l.data.code === c));
 ---
 <RootLayout locale={locale} title={t(locale, 'site.tagline')} bodyClass="home">
   <section class="hero">
@@ -50,27 +49,22 @@ const upcoming = ['a2', 'b1', 'b2', 'c1', 'ega'].filter((c) => !levels.some((l) 
       <h2 class="display levels-title">Seis niveles. <span class="text-grad">Una ruta.</span></h2>
     </header>
     <ul class="level-list">
-      {levels.map((level) => (
-        <li class="level-item">
-          <a class="card level-card pulse-active" href={`/${locale}/${level.data.code}/`}>
-            <span class="level-code display">{level.data.name.split(' ')[0]}</span>
-            <span class="level-status">Disponible</span>
-            <span class="level-desc">{level.data.description}</span>
-            <span class="level-arrow icon-direction-aware" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-          </a>
-        </li>
-      ))}
-      {upcoming.map((code) => (
-        <li class="level-item">
-          <div class="card level-card disabled" aria-disabled="true">
-            <span class="level-code display">{code.toUpperCase()}</span>
-            <span class="level-status">{t(locale, 'levels.upcoming')}</span>
-            <span class="level-desc">En el horizonte.</span>
-          </div>
-        </li>
-      ))}
+      {levels.map((level) => {
+        const inReview = LOCKED_PATHS.includes(level.data.code);
+        const cardClass = inReview ? 'card level-card in-review' : 'card level-card pulse-active';
+        return (
+          <li class="level-item">
+            <a class={cardClass} href={`/${locale}/${level.data.code}/`}>
+              <span class="level-code display">{level.data.name.split(' ')[0]}</span>
+              <span class="level-status">{inReview ? t(locale, 'levels.upcoming') : 'Disponible'}</span>
+              <span class="level-desc">{level.data.description}</span>
+              <span class="level-arrow icon-direction-aware" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </a>
+          </li>
+        );
+      })}
     </ul>
 
     <a class="expedicion-cta" href={`/${locale}/expedicion/`}>
@@ -247,6 +241,43 @@ const upcoming = ['a2', 'b1', 'b2', 'c1', 'ega'].filter((c) => !levels.some((l) 
   }
   .level-card.disabled .level-status {
     color: var(--c-text-muted);
+  }
+
+  /* En revisión: niveles A2-EGA detrás del gate. Visualmente "Próximamente"
+     pero clickables — al hacer click se navega a /<level>/ y LevelGate
+     pide la contraseña de revisión. */
+  .level-card.in-review {
+    filter: grayscale(0.7);
+    opacity: 0.78;
+    transition:
+      filter var(--m-base) var(--ease-out),
+      opacity var(--m-base) var(--ease-out),
+      transform var(--m-base) var(--ease-out),
+      border-color var(--m-base) var(--ease-out),
+      box-shadow var(--m-base) var(--ease-out);
+  }
+  .level-card.in-review .level-code {
+    background: linear-gradient(120deg, var(--c-text-dim), var(--c-border-strong));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .level-card.in-review .level-status {
+    color: var(--c-text-muted);
+  }
+  .level-card.in-review .level-arrow {
+    color: var(--c-text-muted);
+  }
+  .level-card.in-review:hover {
+    filter: grayscale(0.15);
+    opacity: 1;
+    transform: translateY(-2px);
+    border-color: var(--c-border-strong);
+  }
+  .level-card.in-review:hover .level-arrow {
+    color: var(--c-red);
+    transform: translateX(6px);
   }
 
   /* ---------- EXPEDICIÓN CTA ---------- */
