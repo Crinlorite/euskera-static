@@ -72,6 +72,15 @@ const upcoming = ['a2', 'b1', 'b2', 'c1', 'c2'].filter((c) => !levels.some((l) =
         </li>
       ))}
     </ul>
+
+    <a class="expedicion-cta" href={`/${locale}/expedicion/`}>
+      <span class="cta-eyebrow">Vista previa · Steam</span>
+      <span class="cta-title display">Modo <em>Expedición</em></span>
+      <span class="cta-desc">Convierte tu progreso en un viaje por Euskal Herria. Cada lección abre una zona nueva.</span>
+      <span class="cta-arrow icon-direction-aware" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+    </a>
   </section>
 </RootLayout>
 
@@ -239,6 +248,65 @@ const upcoming = ['a2', 'b1', 'b2', 'c1', 'c2'].filter((c) => !levels.some((l) =
   .level-card.disabled .level-status {
     color: var(--c-text-muted);
   }
+
+  /* ---------- EXPEDICIÓN CTA ---------- */
+  .expedicion-cta {
+    margin-block-start: var(--s-7);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      "eyebrow eyebrow arrow"
+      "title   title   arrow"
+      "desc    desc    desc";
+    gap: var(--s-1) var(--s-4);
+    padding: var(--s-5) var(--s-6);
+    background: var(--c-bg-alt);
+    border: 2px solid var(--c-text);
+    border-radius: var(--r-md);
+    box-shadow: 6px 6px 0 0 var(--c-text);
+    text-decoration: none;
+    color: var(--c-text);
+    transition: transform var(--m-base) var(--ease-out), box-shadow var(--m-base) var(--ease-out);
+  }
+  .expedicion-cta:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 8px 0 0 var(--c-text);
+  }
+  .cta-eyebrow {
+    grid-area: eyebrow;
+    font-size: var(--t-eyebrow);
+    font-weight: 600;
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+    color: var(--c-red);
+  }
+  .cta-title {
+    grid-area: title;
+    font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+    line-height: 1.05;
+    letter-spacing: var(--tr-tight);
+  }
+  .cta-title em {
+    font-style: italic;
+    background: var(--grad-ikurri-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  .cta-desc {
+    grid-area: desc;
+    color: var(--c-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin-block-start: var(--s-2);
+  }
+  .cta-arrow {
+    grid-area: arrow;
+    align-self: center;
+    color: var(--c-red);
+  }
+  .expedicion-cta:hover .cta-arrow { transform: translateX(4px); transition: transform var(--m-base); }
 
   /* ---------- Mobile ---------- */
   @media (max-width: 720px) {

@@ -1,96 +1,125 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { GATE_HASH, sha256Hex } from '../../lib/gate';
 
-  // Niveles que requieren desbloqueo. A1 nunca está bloqueado.
-  // El token vive en código cliente — esto es protección "casual visitor",
-  // NO seguridad real. El propósito es evitar que alguien sin supervisión
-  // humana llegue a contenido aún no validado pedagógicamente.
-  const LOCKED_LEVELS = ['a2', 'b1', 'b2', 'c1', 'ega'];
-  const TOKEN = 'crintechstudios1234';
+  // Rutas que requieren desbloqueo. A1 nunca está bloqueado.
+  // Comparamos contra el SHA-256 del token (no contra plaintext): el
+  // password real no aparece en el repo ni en el bundle. Esto es protección
+  // "casual visitor", no seguridad real — su propósito es evitar que alguien
+  // sin supervisión humana llegue a contenido aún no validado.
+  const LOCKED_PATHS = ['a2', 'b1', 'b2', 'c1', 'ega', 'expedicion'];
   const STORAGE_PREFIX = 'euskera-static.gate.';
 
+  const LABEL_OVERRIDES: Record<string, { eyebrow: string; titlePre: string; titleHi: string; titlePost: string }> = {
+    expedicion: {
+      eyebrow: 'Modo expedición',
+      titlePre: 'Una expedición ',
+      titleHi: 'en preparación',
+      titlePost: '',
+    },
+  };
+
   let mounted = false;
-  let currentLockedLevel: string | null = null;
+  let currentLockedPath: string | null = null;
   let input = '';
   let error = '';
   let revealed = false;
+  let busy = false;
 
-  function detectLockedLevel(pathname: string): string | null {
-    // Match /es/<level>/... donde <level> está en LOCKED_LEVELS
-    const m = pathname.match(/^\/[a-zA-Z-]+\/([a-z0-9]+)(?:\/|$)/);
+  function detectLockedPath(pathname: string): string | null {
+    // Match /<locale>/<seg>/... donde <seg> está en LOCKED_PATHS
+    const m = pathname.match(/^\/[a-zA-Z-]+\/([a-z0-9-]+)(?:\/|$)/);
     if (!m) return null;
-    const lvl = m[1];
-    return LOCKED_LEVELS.includes(lvl) ? lvl : null;
+    const seg = m[1];
+    return LOCKED_PATHS.includes(seg) ? seg : null;
   }
 
-  function isUnlocked(level: string): boolean {
+  function isUnlocked(seg: string): boolean {
     try {
-      return localStorage.getItem(STORAGE_PREFIX + level) === '1';
+      return localStorage.getItem(STORAGE_PREFIX + seg) === '1';
     } catch {
       return false;
     }
   }
 
-  function unlock(level: string) {
+  function unlock(seg: string) {
     try {
-      localStorage.setItem(STORAGE_PREFIX + level, '1');
+      localStorage.setItem(STORAGE_PREFIX + seg, '1');
     } catch {
       /* fallthrough */
     }
   }
 
   function check() {
-    const lvl = detectLockedLevel(location.pathname);
-    if (!lvl) {
-      currentLockedLevel = null;
+    const seg = detectLockedPath(location.pathname);
+    if (!seg) {
+      currentLockedPath = null;
       revealed = true;
       document.body.classList.remove('gate-locked');
       return;
     }
-    if (isUnlocked(lvl)) {
-      currentLockedLevel = null;
+    if (isUnlocked(seg)) {
+      currentLockedPath = null;
       revealed = true;
       document.body.classList.remove('gate-locked');
       return;
     }
-    currentLockedLevel = lvl;
+    currentLockedPath = seg;
     revealed = false;
     document.body.classList.add('gate-locked');
   }
 
-  function tryUnlock(e: Event) {
+  async function tryUnlock(e: Event) {
     e.preventDefault();
-    if (!currentLockedLevel) return;
-    if (input.trim() === TOKEN) {
-      unlock(currentLockedLevel);
-      revealed = true;
-      currentLockedLevel = null;
-      document.body.classList.remove('gate-locked');
-      input = '';
-      error = '';
-    } else {
-      error = 'Contraseña incorrecta.';
+    if (!currentLockedPath || busy) return;
+    busy = true;
+    try {
+      const h = await sha256Hex(input.trim());
+      if (h === GATE_HASH) {
+        // Una sola contraseña para todo: si la sabes para uno, la sabes para todos.
+        for (const p of LOCKED_PATHS) unlock(p);
+        revealed = true;
+        currentLockedPath = null;
+        document.body.classList.remove('gate-locked');
+        input = '';
+        error = '';
+      } else {
+        error = 'Contraseña incorrecta.';
+      }
+    } finally {
+      busy = false;
     }
   }
 
   onMount(() => {
     mounted = true;
     check();
-    // Recheck on Astro view-transitions
     document.addEventListener('astro:page-load', check);
   });
+
+  $: override = currentLockedPath ? LABEL_OVERRIDES[currentLockedPath] : null;
 </script>
 
-{#if mounted && currentLockedLevel}
+{#if mounted && currentLockedPath}
   <div class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
     <div class="gate-card">
-      <p class="eyebrow">Acceso restringido</p>
+      <p class="eyebrow">{override?.eyebrow ?? 'Acceso restringido'}</p>
       <h2 id="gate-title" class="display gate-title">
-        Nivel <span class="text-grad">{currentLockedLevel.toUpperCase()}</span> en revisión
+        {#if override}
+          {override.titlePre}<span class="text-grad">{override.titleHi}</span>{override.titlePost}
+        {:else}
+          Nivel <span class="text-grad">{currentLockedPath.toUpperCase()}</span> en revisión
+        {/if}
       </h2>
       <p class="gate-desc">
-        Este nivel todavía está en validación pedagógica y no está disponible para acceso libre.
-        Si tienes la contraseña de revisión, introdúcela para continuar.
+        {#if currentLockedPath === 'expedicion'}
+          El modo expedición es una vista previa de la futura versión Steam. Todavía está en
+          fase de prototipo y no está disponible para acceso libre. Si tienes la contraseña
+          de revisión, introdúcela para continuar.
+        {:else}
+          Este nivel todavía está en validación pedagógica y no está disponible para acceso libre.
+          Si tienes la contraseña de revisión, introdúcela para continuar.
+        {/if}
       </p>
 
       <form on:submit={tryUnlock} class="gate-form">
@@ -104,8 +133,11 @@
           autocapitalize="off"
           autocorrect="off"
           spellcheck="false"
+          disabled={busy}
         />
-        <button class="btn btn-primary" type="submit">Desbloquear</button>
+        <button class="btn btn-primary" type="submit" disabled={busy}>
+          {busy ? 'Comprobando…' : 'Desbloquear'}
+        </button>
       </form>
       {#if error}
         <p class="gate-error" role="alert">{error}</p>
@@ -197,6 +229,7 @@
     outline-offset: 1px;
     border-color: var(--c-text);
   }
+  input[type="password"]:disabled { opacity: 0.7; }
   .gate-error {
     color: var(--c-red);
     font-size: 0.9rem;
