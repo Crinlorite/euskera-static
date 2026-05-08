@@ -120,8 +120,8 @@
   @media (min-width: 760px) {
     .picker { grid-template-columns: repeat(3, 1fr); }
   }
-  @media (max-width: 540px) {
-    .picker { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 760px) {
+    .picker { grid-template-columns: 1fr; gap: var(--s-2); }
   }
   .picker button {
     inline-size: 100%;
@@ -139,6 +139,14 @@
                 box-shadow var(--m-base) var(--ease-out),
                 background var(--m-base) var(--ease-out);
     min-block-size: 64px;
+  }
+  @media (max-width: 760px) {
+    .picker button {
+      padding: var(--s-3) var(--s-4);
+      min-block-size: 52px;
+    }
+    .name { font-size: 1rem; }
+    .badge { font-size: 0.62rem; padding: 2px 8px; }
   }
   .picker button:hover:not([disabled]) {
     transform: translateY(-3px);
