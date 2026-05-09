@@ -19,6 +19,7 @@
     saveGame,
     hasSave,
   } from '../engine/state';
+  import { getScene as getSceneById } from '../scenes';
   import { onFullscreenChange, toggleFullscreen, exitFullscreen } from '../engine/fullscreen';
   import type { Beat, Choice } from '../engine/types';
 
@@ -104,6 +105,18 @@
     handleSideEffect($currentBeat);
   }
 
+  // Clamp helper para posiciones de actores: y entre 40-65 para no
+  // solaparse con el dialogue, scale entre 1.2-1.8 para que entren
+  // en el viewport.
+  function clampActor(a: { x: number; y: number; scale?: number; flip?: boolean }) {
+    return {
+      x: Math.max(8, Math.min(92, a.x)),
+      y: Math.max(40, Math.min(65, a.y)),
+      scale: Math.max(1.2, Math.min(1.85, a.scale ?? 1.5)),
+      flip: !!a.flip,
+    };
+  }
+
   function handleSideEffect(b: Beat) {
     switch (b.type) {
       case 'gain-item':
@@ -132,14 +145,28 @@
         setFlag(b.flag, b.value !== false);
         advance();
         break;
-      case 'goto-label':
+      case 'goto-label': {
+        const before = $story.cursor;
         gotoLabel(b.label);
+        // Si gotoLabel no encontró el label, el cursor no se movió.
+        // Avanzamos manualmente para no quedar atascados en bucle.
+        if ($story.cursor === before) {
+          console.warn(`[game] label '${b.label}' no encontrado en escena ${$currentScene?.id}; avanzando`);
+          advance();
+        }
         break;
-      case 'goto-scene':
-        // mostrar intro del siguiente capítulo
-        gotoScene(b.scene);
-        view = { mode: 'chapter-intro', sceneId: b.scene };
+      }
+      case 'goto-scene': {
+        const sceneExists = !!getSceneById(b.scene);
+        if (!sceneExists) {
+          console.warn(`[game] escena '${b.scene}' no existe; mostrando ending fallback`);
+          view = { mode: 'ending', title: 'Continuará…', body: 'Has llegado al final del prototipo. Más capítulos en próximas versiones.' };
+        } else {
+          gotoScene(b.scene);
+          view = { mode: 'chapter-intro', sceneId: b.scene };
+        }
         break;
+      }
       case 'label':
         advance();
         break;
@@ -201,13 +228,16 @@
   {:else if view.mode === 'playing' && $currentScene}
     <div class="stage">
       <Background bgId={$story.bgOverride ?? $currentScene.bgId} />
+      <div class="stage-band" aria-hidden="true"></div>
       <!-- actores -->
       {#each Object.values($story.actors) as a (a.id)}
+        {@const ca = clampActor(a)}
         <div
           class="actor"
-          style={`inset-inline-start: ${a.x}%; inset-block-end: ${100 - a.y}%;`}
+          style={`inset-inline-start: ${ca.x}%; inset-block-end: ${100 - ca.y}%;`}
         >
-          <Sprite id={a.spriteId} scale={a.scale ?? 1.6} flip={!!a.flip} />
+          <div class="actor-shadow" aria-hidden="true"></div>
+          <Sprite id={a.spriteId} scale={ca.scale} flip={ca.flip} />
         </div>
       {/each}
     </div>
@@ -302,12 +332,36 @@
     inset: 0;
     overflow: hidden;
   }
+  /* Banda de "escenario" que separa fondo de zona de diálogo y crea
+     una franja donde los personajes se sitúan. Suave gradiente sin
+     línea dura para no romper la composición de cada fondo. */
+  .stage-band {
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline: 0;
+    block-size: 38%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.22) 60%, rgba(0, 0, 0, 0.55));
+    pointer-events: none;
+    z-index: 1;
+  }
   .actor {
     position: absolute;
     transform: translate(-50%, 0);
     z-index: 5;
     pointer-events: none;
-    filter: drop-shadow(2px 4px 0 rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(2px 4px 0 rgba(0, 0, 0, 0.55));
+  }
+  /* Sombra elíptica bajo el personaje para anclarlo al "suelo" */
+  .actor-shadow {
+    position: absolute;
+    inset-block-end: -6px;
+    inset-inline-start: 50%;
+    transform: translateX(-50%);
+    inline-size: 64px;
+    block-size: 12px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+    pointer-events: none;
   }
 
   /* ---- HUD ---- */
