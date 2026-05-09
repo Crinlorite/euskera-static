@@ -18,11 +18,32 @@
   let orderChecked = false;
   let orderCorrect = false;
 
-  // match: simple sequential pairing
+  // match: pairing con shuffle determinista de la columna derecha
   let leftSel: number | null = null;
   let rightSel: number | null = null;
   let matchSolved: boolean[] = [];
   let matchAttempted: boolean[] = [];
+  let rightOrder: number[] = []; // mapping posición visible → índice original
+
+  // contador de fallos para mostrar pista / saltar
+  let failedAttempts = 0;
+  let showSkip = false;
+
+  function deterministicShuffle(n: number, seed: string): number[] {
+    // Fisher-Yates con LCG sembrado por hash del seed.
+    let h = seed.split('').reduce((acc, c) => (acc * 31 + c.charCodeAt(0)) >>> 0, 7) || 1;
+    const out = Array.from({ length: n }, (_, i) => i);
+    for (let i = n - 1; i > 0; i--) {
+      h = (h * 1664525 + 1013904223) >>> 0;
+      const j = h % (i + 1);
+      [out[i], out[j]] = [out[j], out[i]];
+    }
+    // garantiza al menos un swap (si el shuffle salió identidad, intercambia 0 y 1)
+    if (n > 1 && out.every((v, i) => v === i)) {
+      [out[0], out[1]] = [out[1], out[0]];
+    }
+    return out;
+  }
 
   let writeValue = '';
   let writeChecked = false;
@@ -42,9 +63,20 @@
     if (p.type === 'match-pairs') {
       matchSolved = p.pairs.map(() => false);
       matchAttempted = p.pairs.map(() => false);
+      rightOrder = deterministicShuffle(p.pairs.length, p.prompt);
     }
     writeValue = ''; writeChecked = false; writeOk = false; writeFeedback = '';
     compChosen = null; compRevealed = false;
+    failedAttempts = 0;
+    showSkip = false;
+  }
+
+  function bumpFail() {
+    failedAttempts += 1;
+    if (failedAttempts >= 2) showSkip = true;
+  }
+  function skipPuzzle() {
+    dispatch('result', { success: true });
   }
 
   // ---------- multiple-choice ----------
@@ -60,7 +92,7 @@
     if (ok) {
       dispatch('result', { success: true });
     } else {
-      // permitir reintentar
+      bumpFail();
       mcRevealed = false;
       mcChosen = null;
     }
@@ -77,6 +109,7 @@
     if (fillCorrect) {
       dispatch('result', { success: true });
     } else {
+      bumpFail();
       fillChecked = false;
       fillValue = '';
     }
@@ -101,6 +134,7 @@
     if (orderCorrect) {
       dispatch('result', { success: true });
     } else {
+      bumpFail();
       orderChecked = false;
       orderPicks = [];
     }
@@ -114,14 +148,16 @@
     else rightSel = i;
     if (leftSel !== null && rightSel !== null) {
       const ok = leftSel === rightSel;
+      const lSel = leftSel; // capturar antes de reset
       if (ok) {
-        matchSolved[matchSolved.findIndex((v, idx) => idx === leftSel)] = true;
+        matchSolved[lSel] = true;
         matchSolved = [...matchSolved];
       } else {
-        matchAttempted[leftSel] = true;
+        bumpFail();
+        matchAttempted[lSel] = true;
         matchAttempted = [...matchAttempted];
         setTimeout(() => {
-          matchAttempted[leftSel as number] = false;
+          matchAttempted[lSel] = false;
           matchAttempted = [...matchAttempted];
         }, 600);
       }
@@ -170,6 +206,7 @@
     if (writeOk) {
       dispatch('result', { success: true });
     } else {
+      bumpFail();
       writeChecked = false;
       writeFeedback = '';
     }
@@ -187,6 +224,7 @@
     if (compChosen === puzzle.correctIndex) {
       dispatch('result', { success: true });
     } else {
+      bumpFail();
       compRevealed = false;
       compChosen = null;
     }
@@ -277,6 +315,7 @@
 
   {:else if puzzle.type === 'match-pairs'}
     <p class="prompt">{puzzle.prompt}</p>
+    <p class="hint">Haz clic en una carta de la izquierda y luego en su pareja de la derecha.</p>
     <div class="match">
       <div class="match-col">
         {#each puzzle.pairs as p, i}
@@ -293,15 +332,15 @@
         {/each}
       </div>
       <div class="match-col">
-        {#each puzzle.pairs as p, i}
+        {#each rightOrder as origIdx}
           <button
             class="match-cell"
-            class:solved={matchSolved[i]}
-            class:active={rightSel === i}
-            disabled={matchSolved[i]}
-            on:click={() => matchSelect('right', i)}
+            class:solved={matchSolved[origIdx]}
+            class:active={rightSel === origIdx}
+            disabled={matchSolved[origIdx]}
+            on:click={() => matchSelect('right', origIdx)}
           >
-            {p.right}
+            {puzzle.pairs[origIdx].right}
           </button>
         {/each}
       </div>
@@ -366,6 +405,15 @@
         <button class="next" on:click={nextComp}>{ok ? 'Continuar →' : 'Reintentar'}</button>
       </div>
     {/if}
+  {/if}
+
+  {#if showSkip}
+    <div class="skip-row">
+      <button class="skip" on:click={skipPuzzle}>
+        Saltar prueba (vista previa) →
+      </button>
+      <span class="skip-note">Disponible tras varios intentos. En la versión final el contenido será más pulido.</span>
+    </div>
   {/if}
 </div>
 
@@ -537,4 +585,25 @@
   .examples { font-size: 0.85rem; color: #a89c7a; }
   .examples summary { cursor: pointer; }
   .examples ul { padding-inline-start: var(--s-4); margin: var(--s-1) 0; }
+
+  .skip-row {
+    display: grid;
+    gap: 4px;
+    padding-block-start: var(--s-3);
+    border-block-start: 1px dashed #4a3a22;
+  }
+  .skip {
+    justify-self: end;
+    background: transparent;
+    border: 1px solid #6a5a3a;
+    color: #a89c7a;
+    padding: var(--s-1) var(--s-3);
+    border-radius: var(--r-sm);
+    font-family: inherit;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .skip:hover { border-color: #d4a017; color: #f0e6d0; }
+  .skip-note { font-size: 0.72rem; color: #6a5a3a; font-style: italic; text-align: end; }
 </style>
