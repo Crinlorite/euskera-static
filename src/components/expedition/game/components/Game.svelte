@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte';
+  import { get } from 'svelte/store';
   import {
     story,
     currentScene,
@@ -47,6 +48,66 @@
   let lastGainBanner: { kind: 'item' | 'word'; label: string; sub: string } | null = null;
   let gainTimer: ReturnType<typeof setTimeout> | null = null;
   let unsubFs: (() => void) | null = null;
+  let unsubBeat: (() => void) | null = null;
+
+  // Sistema de hints: si el jugador no interactúa en X segundos sobre un
+  // beat interactivo, mostramos un cartel "¿Atascado?".
+  let lastInteraction = Date.now();
+  let idleHint = false;
+  let idleTimer: ReturnType<typeof setInterval> | null = null;
+
+  function bumpInteraction() {
+    lastInteraction = Date.now();
+    idleHint = false;
+  }
+
+  // Guard contra reentrancia del procesado de side-effects.
+  let processing = false;
+
+  function isSideEffectBeat(b: import('../engine/types').Beat): boolean {
+    return (
+      b.type === 'gain-item' ||
+      b.type === 'gain-word' ||
+      b.type === 'set-bg' ||
+      b.type === 'enter-actor' ||
+      b.type === 'leave-actor' ||
+      b.type === 'flag' ||
+      b.type === 'goto-label' ||
+      b.type === 'goto-scene' ||
+      b.type === 'label' ||
+      b.type === 'pause' ||
+      b.type === 'ending'
+    );
+  }
+
+  // Procesa beats de side-effect en cadena hasta llegar a uno interactivo
+  // o cambiar de view. Crítico: el reactivo de Svelte NO encadena fiable
+  // los $$invalidate dentro del mismo tick, por eso lo hacemos a mano.
+  function processBeats() {
+    if (processing) return;
+    if (view.mode !== 'playing') return;
+    processing = true;
+    try {
+      let safety = 200;
+      while (safety-- > 0) {
+        const beat = get(currentBeat);
+        if (!beat) return;
+        if (!isSideEffectBeat(beat)) return;
+        const beforeCursor = get(story).cursor;
+        const beforeSceneId = get(story).currentSceneId;
+        handleSideEffect(beat);
+        // si el view cambió a chapter-intro/ending, salimos
+        if (view.mode !== 'playing') return;
+        const afterCursor = get(story).cursor;
+        const afterSceneId = get(story).currentSceneId;
+        // si nada se movió, asumimos asíncrono (pause con setTimeout) y salimos
+        if (afterCursor === beforeCursor && afterSceneId === beforeSceneId) return;
+      }
+      console.warn('[game] processBeats: safety guard hit en escena', get(story).currentSceneId);
+    } finally {
+      processing = false;
+    }
+  }
 
   function flashGain(kind: 'item' | 'word', label: string, sub: string) {
     lastGainBanner = { kind, label, sub };
@@ -65,16 +126,49 @@
       saveGame();
       view = { mode: 'menu' };
     }
+    // Enter / Space avanzan dialogue/narration desde cualquier sitio del juego.
+    if ((e.key === 'Enter' || e.key === ' ') && view.mode === 'playing') {
+      const beat = get(currentBeat);
+      if (beat && (beat.type === 'narration' || beat.type === 'speak')) {
+        e.preventDefault();
+        tryAdvance();
+      }
+    }
   }
 
   onMount(() => {
     loadGame();
     unsubFs = onFullscreenChange((fs) => (isFs = fs));
+    // Subscribe a currentBeat: cada vez que el beat cambia, intenta procesar
+    // side-effects. Combina con el reactivo de view más abajo.
+    unsubBeat = currentBeat.subscribe(() => processBeats());
+    // Watcher de inactividad: si hay beat interactivo pendiente y el usuario
+    // lleva >7s sin clickar, mostramos hint.
+    idleTimer = setInterval(() => {
+      if (view.mode !== 'playing') {
+        idleHint = false;
+        return;
+      }
+      const beat = get(currentBeat);
+      const isInteractive =
+        beat &&
+        (beat.type === 'narration' || beat.type === 'speak' || beat.type === 'choice' || beat.type === 'puzzle');
+      if (isInteractive && Date.now() - lastInteraction > 7000) {
+        idleHint = true;
+      }
+    }, 1500);
   });
   onDestroy(() => {
     if (unsubFs) unsubFs();
+    if (unsubBeat) unsubBeat();
     if (gainTimer) clearTimeout(gainTimer);
+    if (idleTimer) clearInterval(idleTimer);
   });
+
+  // Reactivo: cuando view cambia a 'playing', arrancamos el procesador.
+  // (necesario porque el subscribe a currentBeat puede haber fired antes
+  // de que view fuera 'playing'.)
+  $: if (view.mode === 'playing') processBeats();
 
   // ----- handlers de acciones de menú -----
   function startNewGame() {
@@ -97,14 +191,6 @@
     if (typeof location !== 'undefined') location.href = '/es/';
   }
 
-  // ----- el cuerpo de "playing": resolver el beat actual -----
-  // Algunos beats (gain-item, gain-word, set-bg, enter-actor, leave-actor,
-  // flag, label, goto-label, goto-scene, pause, ending) son "side-effect"
-  // que se resuelven y avanzan automáticamente.
-  $: if (view.mode === 'playing' && $currentBeat) {
-    handleSideEffect($currentBeat);
-  }
-
   // Clamp helper para posiciones de actores: y entre 40-65 para no
   // solaparse con el dialogue, scale entre 1.2-1.8 para que entren
   // en el viewport.
@@ -115,6 +201,20 @@
       scale: Math.max(1.2, Math.min(1.85, a.scale ?? 1.5)),
       flip: !!a.flip,
     };
+  }
+
+  // Botón de "Avanzar" siempre disponible en HUD. Para narration/speak,
+  // hace lo mismo que un click en la caja. Para puzzle/choice no fuerza
+  // (el jugador tiene que decidir), pero limpia idleHint.
+  function tryAdvance() {
+    bumpInteraction();
+    const beat = get(currentBeat);
+    if (!beat) return;
+    if (beat.type === 'narration' || beat.type === 'speak') {
+      advance();
+    } else if (isSideEffectBeat(beat)) {
+      processBeats();
+    }
   }
 
   function handleSideEffect(b: Beat) {
@@ -183,9 +283,11 @@
   }
 
   function onChoicePick(detail: Choice) {
+    bumpInteraction();
     applyChoice(detail);
   }
   function onPuzzleResult(success: boolean) {
+    bumpInteraction();
     if (!success || !$currentBeat || $currentBeat.type !== 'puzzle') return;
     const beat = $currentBeat;
     if (beat.onSuccess) {
@@ -193,6 +295,10 @@
     } else {
       advance();
     }
+  }
+  function onDialogueContinue() {
+    bumpInteraction();
+    advance();
   }
 </script>
 
@@ -248,6 +354,7 @@
         <span class="lvl-tag">{$currentScene.level.toUpperCase()}</span>
       </div>
       <div class="hud-actions">
+        <button class="hud-btn primary-btn" on:click={tryAdvance} title="Avanzar (Enter / Espacio)">▶ Avanzar</button>
         <button class="hud-btn" on:click={() => (view = { mode: 'menu' })} title="Menú (Esc)">☰ Menú</button>
         <button class="hud-btn" on:click={() => gameRoot && toggleFullscreen(gameRoot)} title="Pantalla completa (F)">{isFs ? '⮌' : '⛶'}</button>
       </div>
@@ -264,9 +371,9 @@
       {#if $currentBeat}
         {@const b = $currentBeat}
         {#if b.type === 'narration'}
-          <button class="narration" on:click={advance}>
+          <button class="narration" on:click={onDialogueContinue}>
             <p>{b.text}</p>
-            <span class="cont">▶</span>
+            <span class="cont">▶ Continuar</span>
           </button>
         {:else if b.type === 'speak'}
           <DialogueBox
@@ -275,13 +382,24 @@
             eu={b.eu}
             es={b.es}
             emotion={b.emotion ?? 'neutral'}
-            on:continue={advance}
+            on:continue={onDialogueContinue}
           />
         {:else if b.type === 'choice'}
           <ChoiceList prompt={b.prompt} options={b.options} on:pick={(e) => onChoicePick(e.detail)} />
         {:else if b.type === 'puzzle'}
           <PuzzleHost puzzle={b.puzzle} on:result={(e) => onPuzzleResult(e.detail.success)} />
+        {:else}
+          <!-- side-effect que aún no se ha procesado: muestra botón de rescate -->
+          <button class="narration stuck" on:click={tryAdvance}>
+            <p>Procesando… si no avanza, pulsa aquí.</p>
+            <span class="cont">▶ Avanzar</span>
+          </button>
         {/if}
+      {:else}
+        <button class="narration stuck" on:click={tryAdvance}>
+          <p>El abuelo guarda silencio. Pulsa para continuar el viaje.</p>
+          <span class="cont">▶ Avanzar</span>
+        </button>
       {/if}
 
       <div class="hud-side">
@@ -289,6 +407,12 @@
         <Notebook />
       </div>
     </div>
+
+    {#if idleHint}
+      <div class="idle-hint" role="status">
+        <p><strong>¿Atascado?</strong> Pulsa la caja de diálogo (o usa <kbd>Enter</kbd> · <kbd>▶ Avanzar</kbd> arriba a la derecha).</p>
+      </div>
+    {/if}
 
   {:else if view.mode === 'ending'}
     <div class="ending">
@@ -408,6 +532,13 @@
     transition: border-color 0.15s, background 0.15s;
   }
   .hud-btn:hover { border-color: #d4a017; background: rgba(40, 32, 22, 0.9); }
+  .hud-btn.primary-btn {
+    background: rgba(212, 160, 23, 0.18);
+    border-color: #d4a017;
+    color: #f0d878;
+    font-weight: 700;
+  }
+  .hud-btn.primary-btn:hover { background: rgba(212, 160, 23, 0.32); color: #fff; }
 
   /* ---- HUD bottom: dialogue / choices / puzzle ---- */
   .hud-bottom {
@@ -435,12 +566,14 @@
     border-inline-start: 3px solid #d4a017;
     border-radius: var(--r-sm);
     padding: var(--s-3) var(--s-4);
+    padding-inline-end: 110px; /* espacio para el indicador "Continuar" */
     color: #d8c8a8;
     font-style: italic;
     line-height: 1.5;
     cursor: pointer;
     font-family: inherit;
     position: relative;
+    animation: pulse-edge 2.4s ease-in-out infinite;
   }
   .narration:hover { background: rgba(25, 20, 12, 0.96); }
   .narration p { margin: 0; }
@@ -451,6 +584,17 @@
     color: #d4a017;
     animation: nudge 1.5s ease-in-out infinite;
     font-style: normal;
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+  .narration.stuck {
+    border-color: #d4a017;
+    background: rgba(40, 32, 22, 0.96);
+    color: #f0e6d0;
+  }
+  @keyframes pulse-edge {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(212, 160, 23, 0); }
+    50%      { box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.18); }
   }
   @keyframes nudge {
     0%, 100% { transform: translateX(0); }
