@@ -43,14 +43,16 @@
   }
 
   function handleKey(e: KeyboardEvent) {
-    if (e.key === 'Enter' || e.key === ' ') {
-      e.preventDefault();
-      skip();
-    }
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const target = e.target as HTMLElement | null;
+    if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'BUTTON')) return;
+    e.preventDefault();
+    e.stopPropagation();
+    skip();
   }
 </script>
 
-<svelte:window on:keydown={handleKey} />
+<svelte:window on:keydown|capture={handleKey} />
 
 <button class="box" on:click={skip} aria-label="Continuar diálogo">
   <div class="portrait">

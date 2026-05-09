@@ -126,10 +126,15 @@
       saveGame();
       view = { mode: 'menu' };
     }
-    // Enter / Space avanzan dialogue/narration desde cualquier sitio del juego.
+    // Enter / Space avanzan SOLO en narration. Para 'speak' el DialogueBox
+    // tiene su propio handler con el typewriter (skip → reveal → continue).
+    // Si gestionamos ambos aquí y allá, se salta contenido.
     if ((e.key === 'Enter' || e.key === ' ') && view.mode === 'playing') {
       const beat = get(currentBeat);
-      if (beat && (beat.type === 'narration' || beat.type === 'speak')) {
+      const target = e.target as HTMLElement | null;
+      const inField = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA');
+      if (inField) return;
+      if (beat && beat.type === 'narration') {
         e.preventDefault();
         tryAdvance();
       }
@@ -222,12 +227,15 @@
       case 'gain-item':
         gainItem(b.item);
         flashGain('item', `+${b.item.icon} ${b.item.name}`, b.flavor ?? b.item.description);
-        advance();
+        // Pausa para que el banner se vea antes del siguiente beat. processBeats
+        // verá que el cursor no cambió y saldrá del loop. setTimeout reanuda
+        // mediante el subscribe a currentBeat.
+        setTimeout(() => advance(), 900);
         break;
       case 'gain-word':
         gainWord(b.word);
         flashGain('word', b.word.eu, b.word.es);
-        advance();
+        setTimeout(() => advance(), 900);
         break;
       case 'set-bg':
         setBackground(b.bgId);
