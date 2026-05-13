@@ -12,7 +12,7 @@
 // los assets cambian solos, así que en la mayoría de releases NO hay que
 // tocar esto.
 
-const CACHE_VERSION = 'euskera-v1';
+const CACHE_VERSION = 'euskera-v2';
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const PAGES_CACHE = `pages-${CACHE_VERSION}`;
 const ASSETS_CACHE = `assets-${CACHE_VERSION}`;
@@ -27,6 +27,7 @@ const PRECACHE = [
   '/favicon-32.png',
   '/favicon-192.png',
   '/favicon-512.png',
+  '/favicon-512-maskable.png',
   '/apple-touch-icon.png',
   '/og-image.png',
   '/fonts/Manrope-Variable.woff2',
