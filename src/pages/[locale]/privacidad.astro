@@ -1,0 +1,129 @@
+---
+import RootLayout from '../../layouts/RootLayout.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const lastUpdated = '13 de mayo de 2026';
+---
+<RootLayout locale={locale} title="Política de privacidad">
+  <article class="container prose">
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: {lastUpdated}</p>
+
+    <p>
+      Esta política describe cómo <strong>Crintech Studios</strong> ("nosotros") trata la
+      información cuando usas <em>Kaixo</em>, ya sea en la web
+      <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a>
+      o en la aplicación Android publicada en Google Play (en adelante, "el Servicio").
+    </p>
+
+    <h2>1. Información que recogemos</h2>
+    <p>Kaixo está diseñada para no recoger información personal:</p>
+    <ul>
+      <li><strong>Sin cuentas.</strong> No necesitas registrarte ni iniciar sesión. No te pedimos nombre, email, teléfono ni ningún otro dato identificativo.</li>
+      <li><strong>Sin analítica ni tracking.</strong> No usamos Google Analytics, Cloudflare Web Analytics, Plausible, Umami, Meta Pixel ni ningún SDK de terceros para medir audiencia, generar perfiles o mostrar publicidad.</li>
+      <li><strong>Sin fingerprinting.</strong> No usamos huellas digitales del navegador ni técnicas de tracking entre sitios.</li>
+      <li><strong>Sin publicidad.</strong> El Servicio es gratuito y libre de anuncios.</li>
+    </ul>
+
+    <h2>2. Almacenamiento local en tu dispositivo</h2>
+    <p>
+      Tu progreso vive únicamente en el navegador o en la app, usando
+      <code>localStorage</code>. Esto incluye: lecciones completadas, ejercicios
+      acertados, logros desbloqueados, idioma seleccionado, estado del Modo
+      Expedición y la marca de paso por la página "Sobre".
+    </p>
+    <p>
+      <strong>Estos datos nunca salen de tu dispositivo</strong>. No los enviamos a
+      ningún servidor. Si te cambias de dispositivo, puedes exportar tu progreso
+      como un código que pegas en el nuevo dispositivo para restaurarlo —
+      tú decides cuándo y dónde compartirlo.
+    </p>
+    <p>
+      Al ser estrictamente necesarias para que la aplicación funcione, este tipo de
+      almacenamiento no requiere banner de consentimiento bajo la Directiva
+      ePrivacy europea ni las guías de la AEPD.
+    </p>
+
+    <h2>3. Hosting y conexiones de red</h2>
+    <p>
+      La web y los archivos estáticos de la app se sirven desde
+      <strong>Cloudflare Pages</strong>. Como cualquier servidor web, Cloudflare
+      registra peticiones HTTP que pueden incluir IP, fecha y user agent, con el fin
+      exclusivo de proteger el Servicio (mitigación de abuso, CDN, métricas
+      agregadas de tráfico). No tenemos acceso a estos registros individualmente y
+      no los enlazamos con ninguna identidad. Puedes consultar su política en
+      <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a>.
+    </p>
+    <p>
+      La aplicación Android es un <strong>Trusted Web Activity (TWA)</strong>: una
+      pasarela que carga la misma web dentro del navegador Chrome del sistema. No
+      se envían datos adicionales por el hecho de usar la app en vez de la web.
+    </p>
+
+    <h2>4. Servicios de terceros</h2>
+    <p>El Servicio no integra ningún SDK ni servicio de terceros que reciba datos personales. Las únicas conexiones salientes son:</p>
+    <ul>
+      <li><strong>Tipografías</strong> Manrope y Fraunces, auto-hospedadas desde el mismo dominio (no Google Fonts).</li>
+      <li><strong>GitHub</strong> únicamente si haces clic en un enlace al repositorio. La visita queda sujeta a la <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" rel="noopener">política de GitHub</a>.</li>
+      <li><strong>Google Play</strong> únicamente para la descarga e instalación de la app Android, sujeta a la política de Google.</li>
+    </ul>
+
+    <h2>5. Sistema de feedback</h2>
+    <p>
+      Si nos envías un reporte a través de la página de
+      <a href={`/${locale}/feedback/`}>Feedback</a>, almacenamos el contenido del
+      mensaje (lo que tú escribes) junto a metadatos técnicos no personales (locale,
+      versión, ruta de la página). No te pedimos email ni nombre. Si decides
+      adjuntar voluntariamente un dato de contacto en el texto, se almacenará tal
+      cual lo escribiste; puedes pedir su borrado escribiéndonos al correo más
+      abajo.
+    </p>
+
+    <h2>6. Personas menores de edad</h2>
+    <p>
+      Kaixo no está dirigida específicamente a personas menores de 13 años, ni
+      recoge datos sobre ellas. No usamos pasarelas de identificación de edad
+      precisamente porque no necesitamos ningún dato personal.
+    </p>
+
+    <h2>7. Tus derechos (RGPD)</h2>
+    <p>
+      Como no almacenamos datos personales identificables en nuestros sistemas, los
+      derechos clásicos de acceso, rectificación, supresión, oposición,
+      portabilidad y limitación se ejercen en la práctica desde el propio
+      dispositivo: borrando los datos del navegador o desinstalando la app. Aun
+      así, si tienes cualquier consulta o crees que algún dato te concierne, puedes
+      escribirnos.
+    </p>
+
+    <h2>8. Cambios a esta política</h2>
+    <p>
+      Si esta política cambia (por ejemplo, si en el futuro añadiéramos algún
+      servicio adicional), actualizaremos la fecha en la parte superior y, si el
+      cambio fuese material, lo anunciaríamos también en la home y en las notas de
+      versión del repositorio.
+    </p>
+
+    <h2>9. Contacto</h2>
+    <p>
+      Crintech Studios &mdash; <a href="https://crintech.pro" rel="noopener">crintech.pro</a><br />
+      Email: <a href="mailto:kaixo@crintech.pro">kaixo@crintech.pro</a><br />
+      Repositorio: <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">github.com/Crinlorite/euskera-static</a>
+    </p>
+  </article>
+</RootLayout>
+
+<style>
+  .prose { padding-block: var(--s-6); max-width: 800px; }
+  .prose h1 { margin: 0 0 var(--s-2); }
+  .prose .updated { color: var(--c-text-muted); font-size: 0.9rem; margin: 0 0 var(--s-6); }
+  .prose h2 { margin-block: var(--s-6) var(--s-2); font-size: 1.25rem; }
+  .prose p { margin: 0 0 var(--s-3); line-height: 1.7; }
+  .prose ul { padding-inline-start: var(--s-5); display: grid; gap: var(--s-2); margin: 0 0 var(--s-3); }
+  .prose code { background: var(--c-bg-alt); padding: 0.1em 0.4em; border-radius: 4px; font-size: 0.9em; }
+</style>
