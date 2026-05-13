@@ -76,12 +76,19 @@ const lastUpdated = '13 de mayo de 2026';
     <h2>5. Sistema de feedback</h2>
     <p>
       Si nos envías un reporte a través de la página de
-      <a href={`/${locale}/feedback/`}>Feedback</a>, almacenamos el contenido del
-      mensaje (lo que tú escribes) junto a metadatos técnicos no personales (locale,
-      versión, ruta de la página). No te pedimos email ni nombre. Si decides
-      adjuntar voluntariamente un dato de contacto en el texto, se almacenará tal
-      cual lo escribiste; puedes pedir su borrado escribiéndonos al correo más
-      abajo.
+      <a href={`/${locale}/feedback/`}>Feedback</a>, recogemos los siguientes
+      datos en nuestro backend (no en tu dispositivo):
+    </p>
+    <ul>
+      <li><strong>Obligatorios:</strong> título y descripción del reporte (lo que tú escribes), tipo (bug / sugerencia / etc.).</li>
+      <li><strong>Opcionales:</strong> email y/o nombre de Discord, únicamente si tú decides escribirlos en los campos correspondientes para que podamos responderte. Si los dejas vacíos, no se recoge ningún identificador.</li>
+      <li><strong>Técnicos:</strong> la URL relativa de la página desde la que se envió y un fragmento del user agent (máximo 200 caracteres), para reproducir bugs.</li>
+      <li><strong>Anti-bot:</strong> un token de <a href="https://www.cloudflare.com/products/turnstile/" rel="noopener">Cloudflare Turnstile</a> emitido por Cloudflare, que verifica que no eres un bot. Se descarta inmediatamente tras la validación.</li>
+    </ul>
+    <p>
+      Estos datos se usan únicamente para gestionar el ticket y, si nos has dejado
+      contacto, para responderte. No los compartimos con terceros y puedes pedir su
+      borrado en cualquier momento escribiéndonos al correo más abajo.
     </p>
 
     <h2>6. Personas menores de edad</h2>
