@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.crintechstudios.kaixo",
+      "package_name": "pro.crintech.euskera.twa",
       "sha256_cert_fingerprints": [
         "REEMPLAZAR_TRAS_PRIMER_UPLOAD_A_PLAY_CONSOLE"
       ]
