@@ -35,8 +35,8 @@ exercises:
     cards:
       - { eu: jatorra, es: agradable / majo }
       - { eu: lotsatia, es: tímido/a }
-      - { eu: irekia, es: abierto/a, extrovertido/a }
-      - { eu: zorrotza, es: estricto/a, exigente }
+      - { eu: irekia, es: 'abierto/a, extrovertido/a' }
+      - { eu: zorrotza, es: 'estricto/a, exigente' }
       - { eu: errukitsua, es: compasivo/a }
       - { eu: sentibera, es: sensible }
       - { eu: jenio biziko, es: de temperamento vivo }
@@ -46,8 +46,8 @@ exercises:
       - { eu: berekoia, es: egoísta }
       - { eu: eskuzabala, es: generoso/a }
       - { eu: dotorea, es: elegante }
-      - { eu: zintzoa, es: honrado/a, sincero/a }
-      - { eu: alaitsua, es: alegre, jovial }
+      - { eu: zintzoa, es: 'honrado/a, sincero/a' }
+      - { eu: alaitsua, es: 'alegre, jovial' }
   - id: ex-b2-norb4-mp
     type: match-pairs
     pairs:

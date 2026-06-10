@@ -55,9 +55,9 @@ exercises:
       - { eu: Ados nago., es: Estoy de acuerdo. }
       - { eu: Ez nago ados., es: No estoy de acuerdo. }
       - { eu: Erabat ados., es: Totalmente de acuerdo. }
-      - { eu: Hala ere, ez nago guztiz ados., es: Sin embargo, no del todo de acuerdo. }
-      - { eu: Hori horrela izan daiteke, baina …, es: Eso podría ser así, pero … }
-      - { eu: Egia da, baina ahaztu egin zaizu …, es: Es verdad, pero olvidas que … }
+      - { eu: 'Hala ere, ez nago guztiz ados.', es: 'Sin embargo, no estoy del todo de acuerdo.' }
+      - { eu: 'Hori horrela izan daiteke, baina…', es: 'Eso podría ser así, pero…' }
+      - { eu: 'Egia da, baina ahaztu egin zaizu…', es: 'Es verdad, pero olvidas que…' }
       - { eu: Nire ikuspuntua bestelakoa da., es: Mi punto de vista es distinto. }
       - { eu: Ez ote da hori gehiegi esatea?, es: ¿No es eso decir demasiado? }
       - { eu: Konformatzen al zaitu erantzun horrek?, es: ¿Te satisface esa respuesta? }

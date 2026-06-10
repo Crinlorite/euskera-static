@@ -68,7 +68,7 @@ exercises:
       - { eu: 'Nondik zatoz?', es: '¿De dónde vienes?' }
       - { eu: 'Lanetik nator', es: 'Vengo del trabajo' }
       - { eu: 'Etxetik dator', es: 'Viene de casa' }
-      - { eu: 'Hemendik handik', es: 'De aquí allí (idiomático)' }
+      - { eu: 'Hemendik hara', es: 'De aquí a allí' }
       - { eu: 'Bilbotik Donostiara', es: 'De Bilbao a Donostia' }
 ---
 

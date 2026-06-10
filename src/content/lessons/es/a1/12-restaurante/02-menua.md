@@ -28,9 +28,9 @@ exercises:
     explanation: '*Eguneko menua* — literalmente "el menú del día" (eguneko = del día).'
   - id: ex-menu-fb2
     type: fill-in-blank
-    prompt: 'Pides "ensalada y pescado". El camarero confirma: "Hasteko, entsalada eta gainerako, ___."'
+    prompt: 'Pides "ensalada y pescado". El camarero confirma: "Hasteko, entsalada eta bigarrenerako, ___."'
     answers: [arraina]
-    explanation: '*Arraina* — pescado. *Gainerako* — "y de segundo / lo demás".'
+    explanation: '*Arraina* — pescado. *Bigarrenerako* — "para el segundo (plato)".'
   - id: ex-menu-fc
     type: flashcards
     cards:

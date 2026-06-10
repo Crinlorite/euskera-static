@@ -54,7 +54,7 @@ exercises:
       - { eu: genuen, es: nosotros lo (pasado) }
       - { eu: zenuten, es: vosotros lo (pasado) }
       - { eu: zuten, es: ellos lo (pasado) }
-      - { eu: nituen, es: yo los (objeto plural, pasado) }
+      - { eu: nituen, es: 'yo los (objeto plural, pasado)' }
       - { eu: zenituen, es: tú los }
       - { eu: zituen, es: él los }
       - { eu: genituen, es: nosotros los }

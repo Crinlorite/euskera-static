@@ -45,7 +45,7 @@ exercises:
       - { eu: urdaiazpiko ogitartekoa, es: bocadillo de jamón }
       - { eu: txorizoa, es: chorizo }
       - { eu: txistorra, es: txistorra }
-      - { eu: anchoa, es: anchoa }
+      - { eu: antxoa, es: anchoa }
       - { eu: 'Niretzat pintxo bat', es: 'Para mí, un pincho' }
       - { eu: 'Razio bat hartuko dugu', es: 'Tomaremos una ración' }
   - id: ex-pin-mp
@@ -85,7 +85,7 @@ Estos son los rellenos más habituales que vas a ver en una pizarra de bar:
 | *txorizoa* | chorizo |
 | *gazta* | queso |
 | *urdaiazpikoa* | jamón |
-| *anchoa* / *antxoa* | anchoa |
+| *antxoa* | anchoa |
 | *atuna* | atún |
 | *gilda* | gilda (anchoa + guindilla + aceituna) |
 
@@ -129,6 +129,6 @@ La fórmula es: **descriptor + formato + bat (mesedez)**. El descriptor (lo que 
 - **Pagatzera!** — ¡A pagar!
 - **Niri tokatzen zait.** — Me toca a mí.
 - **Nik gonbidatzen zaitut.** — Te invito.
-- **Erdi eta erdi.** — Mitad y mitad. (compartir)
+- **Erdibana.** — A medias, mitad cada uno. (compartir)
 
 > **Nota cultural:** los pintxos son una tradición especialmente fuerte en Donostia, Bilbao e Iruñea. Cada bar suele tener una especialidad de la casa. La costumbre del **poteo** consiste en ir de bar en bar tomando un pintxo y una bebida en cada uno — tradición muy social y muy euskaldun.

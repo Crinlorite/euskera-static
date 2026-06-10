@@ -87,14 +87,14 @@ Cada comida del día tiene su nombre en euskera, y conocerlos te ayudará a habl
 
 ## Hambre y sed
 
-Para decir "tengo hambre" / "tengo sed" en euskera **no se usa el verbo "tener"** (como en español o francés), sino el verbo **izan** ("ser"):
+Para decir "tengo hambre" / "tengo sed" en euskera **no se usa el verbo "tener"** (como en castellano o francés), sino el verbo **izan** ("ser"):
 
 - **Gose naiz.** — Tengo hambre. (literal: "soy hambriento/a")
 - **Egarri naiz.** — Tengo sed. (literal: "soy sediento/a")
 - **Maialen gose da.** — Maialen tiene hambre.
 - **Gu egarri gara.** — Nosotros tenemos sed.
 
-> Esta construcción te puede sorprender. En euskera, las sensaciones físicas como hambre, sed, sueño se expresan a menudo con *izan* + adjetivo, como si fueran un estado de ser. Lo verás también con *logura naiz* (tengo sueño) y *hotz naiz* (tengo frío).
+> Esta construcción te puede sorprender. En euskera, las sensaciones físicas como hambre, sed, sueño se expresan a menudo con *izan* + adjetivo, como si fueran un estado de ser. Lo verás también con *logura naiz* (tengo sueño). Ojo: "tengo frío" no sigue este patrón — se dice *hotzak nago*, con *egon*.
 
 ## Frases típicas
 

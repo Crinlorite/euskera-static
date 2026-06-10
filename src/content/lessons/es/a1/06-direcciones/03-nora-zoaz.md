@@ -99,7 +99,7 @@ Para responder, añadimos **`-ra`** al lugar de destino. El patrón se adapta se
 | etxe (casa) | **etxera** | *Etxera noa.* — Voy a casa. |
 | eskola | **eskolara** | *Eskolara doaz.* — Van a la escuela. |
 | euskaltegi | **euskaltegira** | *Euskaltegira goaz.* — Vamos al euskaltegi. |
-| tabernA | **tabernara** | *Tabernara zoaz?* — ¿Vas al bar? |
+| taberna | **tabernara** | *Tabernara zoaz?* — ¿Vas al bar? |
 | lan (trabajo) | **lanera** | *Lanera nator.* — Vengo al trabajo. (igualmente -era tras consonante) |
 | Bilbo | **Bilbora** | *Bilbora doa.* — Va a Bilbao. |
 | Donostia | **Donostiara** | *Donostiara goaz asteburuan.* — Vamos a Donostia el fin de semana. |

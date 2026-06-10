@@ -100,10 +100,10 @@ Esta lección **amplía** las profesiones que ya viste en la unidad de descripci
 
 Si te fijas, muchas profesiones llevan sufijos típicos:
 
-- **`-ari` / `-lari`** → "el/la que se dedica a…": *kazetari*, *idazlari*, *mekanikari*, *sukaldari*.
+- **`-ari` / `-lari`** → "el/la que se dedica a…": *kazetari*, *dantzari*, *mekanikari*, *sukaldari*.
 - **`-le`** → "el/la que hace…": *irakasle*, *idazle*, *ikasle*, *arrantzale*.
 - **`-zain` / `-zai`** → "guardián/a de…": *erizain* (cuidador/a de enfermos = enfermero/a), *atezaina* (portero/a).
-- **`-tzaile`** → forma productiva: *hizlaria* (hablante), *sukaldatzailea*.
+- **`-tzaile`** → forma productiva: *saltzailea* (vendedor/a), *suhiltzailea* (bombero/a).
 
 Saber identificar estos sufijos te ayuda a **adivinar** profesiones nuevas sin diccionario.
 
@@ -115,7 +115,7 @@ El patrón ya lo conoces de las primeras unidades:
 - **Bera kazetaria da.** — Él/ella es periodista.
 - **Gu ikasleak gara.** — Nosotros somos estudiantes.
 
-> Importante: para nombrar una profesión en general, va con artículo `-a`: *medikua*, *kazetaria*. Sin artículo es la forma de diccionario y no se usa para "ser X".
+> Importante: para nombrar una profesión en general, va con artículo `-a`: *medikua*, *kazetaria*. (En el habla también oirás *mediku naiz*, sin artículo; las dos formas son válidas, pero en este curso usamos la forma con `-a`.)
 
 ## Preguntar por la profesión
 

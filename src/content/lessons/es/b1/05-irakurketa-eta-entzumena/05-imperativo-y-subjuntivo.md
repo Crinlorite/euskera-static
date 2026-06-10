@@ -47,7 +47,7 @@ exercises:
       - { eu: esan / esan ezazu, es: di / dilo }
       - { eu: itxi / itxi ezazu, es: cierra / ciérralo }
       - { eu: ireki / ireki ezazu, es: abre / ábrelo }
-      - { eu: dadin, es: que (3ª pers., subjuntivo) }
+      - { eu: dadin, es: 'que (3ª pers., subjuntivo)' }
       - { eu: nadin, es: que yo (subjuntivo) }
       - { eu: dadila, es: que sea / esté }
       - { eu: -tzeko, es: para que (mandato) }

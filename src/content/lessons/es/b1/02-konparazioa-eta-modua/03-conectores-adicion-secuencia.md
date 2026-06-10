@@ -47,7 +47,7 @@ exercises:
       - { eu: halaber, es: asimismo }
       - { eu: are gehiago, es: más aún }
       - { eu: bestalde, es: por otro lado }
-      - { eu: ez ezik..., -ere, es: no solo... sino también }
+      - { eu: '... ez ezik, ... ere', es: 'no solo..., sino también...' }
       - { eu: hala nola, es: tales como }
       - { eu: lehenik / hasteko, es: en primer lugar / para empezar }
       - { eu: ondoren / gero, es: a continuación }

@@ -42,12 +42,12 @@ exercises:
   - id: ex-c1-argu-01-mp
     type: match-pairs
     pairs:
-      - { eu: argudioa, es: argumento, razón que apoya la tesis }
-      - { eu: froga, es: prueba, evidencia }
+      - { eu: argudioa, es: 'argumento: razón que apoya la tesis' }
+      - { eu: froga, es: 'prueba, evidencia' }
       - { eu: adibidea, es: ejemplo concreto }
       - { eu: arrazoia, es: razón }
-      - { eu: oinarria, es: base, fundamento }
-      - { eu: euskarria, es: soporte, sostén }
+      - { eu: oinarria, es: 'base, fundamento' }
+      - { eu: euskarria, es: 'soporte, sostén' }
   - id: ex-c1-argu-01-fc
     type: flashcards
     cards:

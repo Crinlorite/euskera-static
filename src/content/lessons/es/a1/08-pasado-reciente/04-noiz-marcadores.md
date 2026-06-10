@@ -61,7 +61,7 @@ exercises:
       - { eu: etzi, es: pasado mañana }
       - { eu: orain, es: ahora }
       - { eu: lehen, es: antes }
-      - { eu: gero, es: luego, después }
+      - { eu: gero, es: 'luego, después' }
       - { eu: gaur goizean, es: esta mañana / hoy por la mañana }
       - { eu: gaur eguerdian, es: hoy a mediodía }
       - { eu: gaur arratsaldean, es: esta tarde }
@@ -127,9 +127,9 @@ Los marcadores se combinan con *goizean*, *arratsaldean*, *gauean* y compañía 
 
 > *Gaur goizean lanera joan naiz autoz.* — Esta mañana he ido al trabajo en coche.
 >
-> *Atzo arratsaldean Mikelekin egon naiz.* — Ayer por la tarde estuve con Egoitz.
+> *Gaur arratsaldean Mikelekin egon naiz.* — Esta tarde he estado con Mikel.
 >
-> *Atzo gauean berandu oheratu naiz.* — Anoche me acosté tarde.
+> *Gaur oso berandu esnatu naiz.* — Hoy me he despertado muy tarde.
 >
 > *Gaur eguerdian etxean bazkaldu dut.* — Hoy a mediodía he comido en casa.
 >
@@ -141,14 +141,14 @@ En euskera el orden típico de una frase con marcador temporal es:
 
 > **CUÁNDO + DÓNDE + QUÉ + VERBO**
 
-> *Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**.* — Esta mañana he estudiado euskera en la euskaltegi.
+> **Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**. — Esta mañana he estudiado euskera en el euskaltegi.
 
 No es la única posibilidad — el euskera permite mover los elementos para enfatizar — pero si sigues este orden no te equivocas.
 
 ## Mini-conversación
 
-> *— Eta atzo zer egin zenuen, Maialen?*
+> *— Eta gaur zer egin duzu, Maialen?*
 >
-> *— **Atzo goizean** lanera joan naiz oinez. **Eguerdian** lagunekin bazkaldu dut tabernan. **Atzo arratsaldean** etxera bueltatu naiz eta liburua irakurri dut. **Atzo gauean** ez dut afaldu, asko jan baitut bazkaltzeko.*
+> *— **Gaur goizean** lanera joan naiz oinez. **Eguerdian** lagunekin bazkaldu dut tabernan. **Arratsaldean** etxera bueltatu naiz eta liburua irakurri dut. **Gauean** ez dut afaldu, asko jan baitut bazkarian.*
 
 > **Nota:** *gaur* abarca todo el día actual. Si quieres precisar, añade el momento (*gaur goizean*, *gaur arratsaldean*). En conversaciones corrientes, *Zer egin duzu gaur?* se entiende como "¿qué has hecho hoy en general?".

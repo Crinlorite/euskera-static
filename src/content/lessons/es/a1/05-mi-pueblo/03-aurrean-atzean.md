@@ -9,7 +9,7 @@ title: Posiciones espaciales (delante, detrás, al lado…)
 estimatedMinutes: 12
 covers: [spatial-positions, spatial-adverbs, locative-non]
 exercises:
-  - id: ex-aa-mp
+  - id: ex-aatz-mp
     type: match-pairs
     pairs:
       - { eu: aurrean, es: delante }
@@ -20,29 +20,29 @@ exercises:
       - { eu: artean, es: entre }
       - { eu: ezkerrean, es: a la izquierda }
       - { eu: eskuinean, es: a la derecha }
-  - id: ex-aa-mc1
+  - id: ex-aatz-mc1
     type: multiple-choice
     prompt: '"El gato está debajo de la mesa" — la palabra correcta es:'
     options: [gainean, azpian, ondoan, atzean]
     answer: 1
     explanation: '"Azpian" = debajo. "Gainean" = encima.'
-  - id: ex-aa-mc2
+  - id: ex-aatz-mc2
     type: multiple-choice
     prompt: '¿Cómo se dice "delante de la iglesia"?'
-    options: ["elizaren aurrean", "elizan aurrean", "elizara aurrean", "eliza aurrean"]
+    options: ["elizaren aurrean", "elizan aurrean", "elizara aurrean", "elizako aurrean"]
     answer: 0
     explanation: 'La fórmula es "X-(r)en + posición": elizaren aurrean (de la iglesia + delante).'
-  - id: ex-aa-fb1
+  - id: ex-aatz-fb1
     type: fill-in-blank
     prompt: 'Mahaiaren ___ daude liburuak (los libros están encima de la mesa).'
     answers: [gainean]
-  - id: ex-aa-mc3
+  - id: ex-aatz-mc3
     type: multiple-choice
     prompt: '"Hemen", "hor", "han" significan, respectivamente:'
     options: ["allí, ahí, aquí", "aquí, ahí, allí", "ahí, aquí, allí", "aquí, allí, ahí"]
     answer: 1
     explanation: 'Las tres distancias del euskera: HEMEN (cerca de mí, "aquí"), HOR (cerca del oyente, "ahí"), HAN (lejos de los dos, "allí").'
-  - id: ex-aa-fc
+  - id: ex-aatz-fc
     type: flashcards
     cards:
       - { eu: aurrean, es: delante }
@@ -100,7 +100,7 @@ Patrón: la referencia va primero, **luego** la posición. Es exactamente al rev
 - **Katua aulkiaren azpian dago.** — El gato está debajo de la silla.
 - **Eliza plazaren erdian dago.** — La iglesia está en el centro de la plaza.
 - **Botika eskolaren ondoan dago.** — La farmacia está al lado de la escuela.
-- **Ni Maitaren eta Anaren artean nago.** — Yo estoy entre Maite y Ana.
+- **Ni Maiteren eta Anaren artean nago.** — Yo estoy entre Maite y Ana.
 
 ## Adverbios de lugar: hemen / hor / han
 
@@ -128,6 +128,6 @@ Ejemplos rápidos:
 >
 > — *Aulkiaren atzean dago?* — ¿Está detrás de la silla?
 >
-> — *Bai, han dago!* — ¡Sí, ahí está!
+> — *Bai, hor dago!* — ¡Sí, ahí está!
 
 > **Truco:** todas las posiciones llevan ya el sufijo `-an` incorporado (*aurr-ean*, *atz-ean*, *azp-ian*…). No tienes que añadir nada más.

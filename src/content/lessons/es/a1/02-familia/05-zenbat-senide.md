@@ -28,7 +28,7 @@ exercises:
       - { eu: lau, es: cuatro }
       - { eu: bost, es: cinco }
       - { eu: hamar, es: diez }
-      - { eu: 'Zenbat senide zara?', es: ¿Cuántos hermanos sois? }
+      - { eu: 'Zenbat senide zarete?', es: ¿Cuántos hermanos sois? }
       - { eu: senide, es: hermano/a (genérico) }
       - { eu: dut, es: tengo (1 cosa) }
       - { eu: ditut, es: tengo (varias cosas) }
@@ -38,8 +38,8 @@ exercises:
 
 Para hablar de cuántos miembros tiene una familia, usamos:
 
-- **Zenbat senide zara?** → "¿Cuántos hermanos sois?" (literal: "¿Cuántos hermanos eres/sois?")
-- **Familia handi(a)/txiki(a) bat dut.** → "Tengo una familia grande/pequeña."
+- **Zenbat senide zarete?** → "¿Cuántos hermanos sois?" (se pregunta en plural: el total de hermanos, contigo incluido)
+- **Familia handi/txiki bat dut.** → "Tengo una familia grande/pequeña."
 
 ## Números del 1 al 10
 
@@ -70,7 +70,7 @@ Aquí entra una primera forma del verbo **ukan** (tener), que veremos a fondo en
 ## Frases típicas en presentaciones
 
 - *Familia handi bat dut: bi anaia eta arreba bat.* — Tengo una familia grande: dos hermanos y una hermana.
-- *Senide bakar bat naiz.* — Soy hijo único.
+- *Senide bakarra naiz.* — Soy hijo único.
 - *Zure familia handia da?* — ¿Tu familia es grande?
 
 ## Edad

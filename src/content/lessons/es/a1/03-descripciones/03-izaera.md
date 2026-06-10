@@ -35,12 +35,12 @@ exercises:
     type: flashcards
     cards:
       - { eu: alaia, es: alegre }
-      - { eu: jatorra, es: maja, simpática }
-      - { eu: atsegina, es: amable, agradable }
+      - { eu: jatorra, es: 'maja, simpática' }
+      - { eu: atsegina, es: 'amable, agradable' }
       - { eu: ona, es: bueno/buena }
       - { eu: txarra, es: malo/mala }
       - { eu: isila, es: callado/silencioso }
-      - { eu: berritsua, es: parlanchín, hablador }
+      - { eu: berritsua, es: 'parlanchín, hablador' }
       - { eu: lasaia, es: tranquilo }
       - { eu: urduria, es: nervioso }
       - { eu: langilea, es: trabajador }
@@ -48,10 +48,10 @@ exercises:
       - { eu: ausarta, es: valiente }
       - { eu: beldurtia, es: miedoso }
       - { eu: bihurria, es: travieso }
-      - { eu: zintzoa, es: formal, honrado }
+      - { eu: zintzoa, es: 'formal, honrado' }
       - { eu: serioa, es: serio }
       - { eu: lotsatia, es: tímido }
-      - { eu: bikaina, es: excelente, estupendo }
+      - { eu: bikaina, es: 'excelente, estupendo' }
   - id: ex-iza-mp
     type: match-pairs
     pairs:

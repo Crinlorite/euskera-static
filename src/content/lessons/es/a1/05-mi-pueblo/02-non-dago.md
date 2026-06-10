@@ -86,7 +86,7 @@ Para decir **dónde está** algo, añade el sufijo **`-(e)an`** al lugar:
 |---|---|---|
 | -a (orgánica, como *Donostia*) | + n | Donostia → **Donostian** |
 | Vocal sin -a final (*mendi*, *kale-*) | + an | mendi → **mendian** |
-| Consonante (*Madril*, *lur*) | + ean | Madril → **Madrilen**; lur → **lurrean** |
+| Consonante (*Madril*, *lur*) | + en (nombres propios) / + ean (nombres comunes) | Madril → **Madrilen**; lur → **lurrean** |
 
 > Aviso para palabras como *kale* (calle): cuando llevan el artículo *kalea* ("la calle"), se quita la `-a` del artículo antes de añadir el sufijo: *kalea* → *kale-an* = **kalean** ("en la calle").
 
@@ -95,7 +95,7 @@ Para decir **dónde está** algo, añade el sufijo **`-(e)an`** al lugar:
 - **Botika kalean dago.** — La farmacia está en la calle.
 - **Liburuak mahaian daude.** — Los libros están en la mesa.
 - **Ikaslea ikasgelan dago.** — El alumno está en el aula.
-- **Aita tabernan dago.** — Padre está en el bar.
+- **Aita tabernan dago.** — Papá está en el bar.
 - **Ni euskaltegian nago.** — Yo estoy en el euskaltegi.
 - **Bilbo Bizkaian dago.** — Bilbao está en Bizkaia.
 

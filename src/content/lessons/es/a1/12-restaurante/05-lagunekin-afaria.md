@@ -24,8 +24,8 @@ exercises:
   - id: ex-laf-fb1
     type: fill-in-blank
     prompt: '"No puedo, mañana tengo trabajo" = Ezin dut, bihar ___ dut.'
-    answers: [lan, Lan]
-    explanation: '*Lan dut / lan egin behar dut* — "tengo trabajo / tengo que trabajar".'
+    answers: [lana, Lana]
+    explanation: '*Lana dut / lan egin behar dut* — "tengo trabajo / tengo que trabajar".'
   - id: ex-laf-fb2
     type: fill-in-blank
     prompt: '"Quedamos a las nueve" = ___ geratuko gara.'

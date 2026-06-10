@@ -153,7 +153,7 @@ Con *joan* (ir):
 
 ## Mini-diálogo
 
-> *— Atzo zer egin zenuen?*
+> *— Gaur zer egin duzu?*
 >
 > *— Goizean kiroldegira **joan naiz**, gero etxera **etorri naiz** eta lasai-lasai **bazkaldu dut**. Arratsaldean lagun batekin **egon naiz**.*
 
