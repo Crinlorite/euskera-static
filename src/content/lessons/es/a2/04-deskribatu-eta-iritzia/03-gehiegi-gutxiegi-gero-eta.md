@@ -77,7 +77,7 @@ Para decir que algo es **excesivo**, añades **-egi** al adjetivo (y luego la **
 
 > *Alkandora hau **handiegia** da niretzat.* — Esta camisa es demasiado grande para mí.
 >
-> *Kafea **beroegia** dago.* — El café está demasiado caliente.
+> *Kafea **beroegi** dago.* — El café está demasiado caliente.
 >
 > *Ikastaroa **zailegia** zen guretzat.* — El curso era demasiado difícil para nosotros.
 
@@ -117,7 +117,7 @@ Para "**cada vez más X**" o "**cada vez menos X**", el euskera usa una fórmula
 
 > *Bilbo gero eta handiagoa da.* — Bilbao es cada vez más grande.
 >
-> *Eguraldia gero eta okerragoa dago.* — El tiempo está cada vez peor.
+> *Eguraldia gero eta okerrago dago.* — El tiempo está cada vez peor.
 >
 > *Gazteek gero eta gutxiago hitz egiten dute euskaraz.* — Los jóvenes hablan cada vez menos en euskera.
 
@@ -131,9 +131,9 @@ Para "**cada vez más X**" o "**cada vez menos X**", el euskera usa una fórmula
 | No es tan caro | *Ez da **hain** garestia* |
 | ¡Es tan bonito! | *Hain polita da!* |
 
-> Combinada con *baino hobea* da una forma elegante de comparar:
+> Para "no es tan... como..." se usa *bezain* (lección anterior):
 >
-> *Ez da hain ona zuk uste duzun bezala.* — No es tan bueno como tú piensas.
+> *Ez da zuk uste duzun bezain ona.* — No es tan bueno como tú piensas.
 
 ## Modificadores de cantidad
 
@@ -160,7 +160,7 @@ Más allá de A2 estricto, conviene reconocer:
 
 ## Mini-texto
 
-> *Garazi sukaldari ona da, baina kafea **beroegia** ipintzen du beti. Lehengo egunean **hain beroa** zegoen, ezen ezin nuen edan! Eta hura ez da gutxien: pintxo bakoitzean **gehiegi** botatzen ditu olioak. **Pixka bat gutxiago** beharko luke. Hala ere, hura **gero eta hobea** da: orain dela urtebete askoz **okerragoa** zen.*
+> *Garazi sukaldari ona da, baina kafea **beroegi** ipintzen du beti. Lehengo egunean **hain bero** zegoen, ezen ezin nuen edan! Eta hori ez da dena: pintxo bakoitzean olio **gehiegi** botatzen du. **Pixka bat gutxiago** beharko luke. Hala ere, hura **gero eta hobea** da: orain dela urtebete askoz **okerragoa** zen.*
 
 ## Mini-diálogo
 
@@ -172,4 +172,4 @@ Más allá de A2 estricto, conviene reconocer:
 >
 > *— **Gero eta zailagoa** da etxebizitza on bat aurkitzea. Prezioak **gero eta altuagoak** dira eta etxebizitza on guztiek dute lehia **gehiegi**.*
 
-> **Nota cultural:** la escasez de vivienda asequible (*etxebizitza*) es un tema recurrente en cualquier conversación A2 sobre la actualidad: *gero eta garestiago, gutxiegi pisu eskuragarri, askoz okerrago lehen baino*. Esta lección te da el vocabulario para participar.
+> **Nota cultural:** la escasez de vivienda asequible (*etxebizitza*) es un tema recurrente en cualquier conversación A2 sobre la actualidad: *gero eta garestiago, pisu eskuragarri gutxiegi, askoz okerrago lehen baino*. Esta lección te da el vocabulario para participar.

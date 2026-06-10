@@ -17,7 +17,7 @@ exercises:
     explanation: '*Zatoz* es la forma sintética del imperativo de *etorri* (venir) para *zu*. Es la forma natural en órdenes y peticiones.'
   - id: ex-a2-eg4-mc2
     type: multiple-choice
-    prompt: '"Hartu eseri, mesedez" significa…'
+    prompt: '"Eseri, mesedez" significa…'
     options: ['Cogí asiento, por favor', 'Toma asiento, por favor', '¿Tomo asiento?', 'No te sientes']
     answer: 1
     explanation: 'El imperativo afirmativo más usado se forma simplemente con el participio: *hartu* (toma), *eseri* (siéntate). El "por favor" es *mesedez*.'
@@ -84,7 +84,7 @@ Algunos verbos muy frecuentes tienen formas sintéticas específicas para el imp
 |---|---|---|
 | *etorri* (venir) | **Zatoz** | **Zatozte** |
 | *joan* (ir) | **Zoaz** | **Zoazte** |
-| *ekarri* (traer) | **Ekarri** / **Ekartzazu** | **Ekartzazue** |
+| *ekarri* (traer) | **Ekarri** / **Ekar ezazu** | **Ekar ezazue** |
 | *eraman* (llevar) | **Eraman** / **Eramazu** | **Eramazue** |
 | *egon* (estar) | **Egon** / **Lasai** (¡tranqui!) | **Egon** |
 
@@ -111,12 +111,12 @@ Estas formas son largas de aprender; en A2 basta con **emadazu / esadazu / emaio
 El imperativo en euskera **no suena brusco** si añades alguna palabra de cortesía:
 
 - *Mesedez* — por favor
-- *Ahal duzu(la)?* — ¿puedes?
+- *Ahal baduzu* — si puedes
 - *Faborez* (variante coloquial)
 - *Eskerrik asko aldez aurretik* — gracias por adelantado
 
 > *Emadazu ogia, **mesedez**.*
-> *Itxoin pixka bat, **ahal duzula**.*
+> *Itxoin pixka bat, **ahal baduzu**.*
 
 ## Instrucciones (recetas, anuncios, aula)
 
@@ -131,6 +131,6 @@ El imperativo es la forma estándar en:
 
 > *Sukaldari eskolan, irakasleak esaten du:*
 >
-> *— **Hartu** patata bat. **Garbitu** ondo. **Zuritu** azala. **Moztu** zatitan eta **bota** ur irakinera. **Itxoin** hogei minutu. Eta **probatu** ondoren.*
+> *— **Hartu** patata bat. **Garbitu** ondo. **Kendu** azala. **Moztu** zatitan eta **bota** ur irakinera. **Itxoin** hogei minutu. Eta **probatu** ondoren.*
 
 > **Nota cultural:** en euskera el tono **mandón** del imperativo se atenúa con la entonación y el contexto, no tantas veces con perífrasis ("podrías..."). Acompañar la orden con *mesedez* o con una sonrisa suele ser suficiente. Si quieres algo más cortés, di *eman ahal didazu...?* (¿me puedes dar...?).

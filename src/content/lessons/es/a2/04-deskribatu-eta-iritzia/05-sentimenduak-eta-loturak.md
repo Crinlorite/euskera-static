@@ -50,7 +50,7 @@ exercises:
       - { eu: 'Pozik nago', es: 'Estoy contento' }
       - { eu: 'Triste dago', es: 'Está triste' }
       - { eu: 'Beldur naiz', es: 'Tengo miedo' }
-      - { eu: 'Haserre da', es: 'Está enfadado' }
+      - { eu: 'Haserre dago', es: 'Está enfadado' }
       - { eu: 'Lotsa ematen dit', es: 'Me da vergüenza' }
       - { eu: 'Urduri jartzen naiz', es: 'Me pongo nervioso' }
 ---
@@ -105,7 +105,7 @@ Una fórmula muy euskara: el sentimiento "te da":
 | Me da rabia | *Amorrua ematen dit* |
 | Me da miedo | *Beldurra ematen dit* |
 
-> *Hori esaten **lotsa ematen dit**.* — Me da vergüenza decirlo.
+> *Hori esateak **lotsa ematen dit**.* — Me da vergüenza decirlo.
 >
 > *Albiste horrek **pena handia ematen dit**.* — Esa noticia me da mucha pena.
 
@@ -200,7 +200,7 @@ Estas son construcciones que aparecen en cualquier examen A2:
 
 ## Mini-texto opinión
 
-> *Niretzat **garrantzitsua** da gauean ondo lo egitea. **Alde batetik**, lasaitu egiten gara. **Bestetik**, hurrengo egunean indartsuago **gaude**. **Gainera**, osasunarentzat ezinbestekoa da: zazpi-zortzi ordu lo egiten ez **baditugu**, gaixotzeko probabilitate **handiagoa** dugu. **Hala ere**, ez beti errazak izaten gara: askotan ezin dut lo hartu **kezkatuta nagoelako**. **Beraz**, lo egiten lagunduko didan rutina bat behar dut.*
+> *Niretzat **garrantzitsua** da gauean ondo lo egitea. **Alde batetik**, lasaitu egiten gara. **Bestetik**, hurrengo egunean indartsuago **gaude**. **Gainera**, osasunarentzat ezinbestekoa da: zazpi-zortzi ordu lo egiten ez **baditugu**, gaixotzeko probabilitate **handiagoa** dugu. **Hala ere**, ez da beti erraza izaten: askotan ezin dut lo hartu **kezkatuta nagoelako**. **Beraz**, lo egiten lagunduko didan errutina bat behar dut.*
 
 ## Truco para A2: el "esqueleto opinativo"
 

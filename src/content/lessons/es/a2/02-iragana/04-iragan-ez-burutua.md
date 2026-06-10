@@ -68,7 +68,7 @@ El **imperfecto** del euskera (*iragan ez burutua*) corresponde, a grandes rasgo
 
 ## La fórmula
 
-> **partizipioa + -tzen / -ten + auxiliar en pasado**
+> **verbo en -tzen / -ten + auxiliar en pasado**
 
 Compara presente vs imperfecto:
 
@@ -162,7 +162,7 @@ Estos marcadores empujan la frase hacia el imperfecto/hábito:
 
 ## Trampas frecuentes
 
-1. **Verbo regular + -tzen** funciona casi siempre. Cuidado: *jan → jaten* (no *jaten*), *edan → edaten*, *egin → egiten*. Estas se memorizan en A1.
+1. **Verbo regular + -tzen** funciona casi siempre. Cuidado: *jan → jaten* (no *jantzen*), *edan → edaten*, *egin → egiten*. Estas se memorizan en A1.
 2. **No traduzcas literalmente "estaba siendo"**: en euskera el imperfecto cubre buena parte de los usos del pasado descriptivo, sin necesidad de añadir *ari*.
 3. **El auxiliar es el mismo** que con el partizipio (*nintzen, nuen*); lo único que cambia es la forma del verbo principal.
 

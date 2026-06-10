@@ -71,7 +71,7 @@ Tabla pasado, NOR singular ("lo"):
 | niri | — | **zenidan** | **zidan** | — | **zenidaten** | **zidaten** |
 | zuri | **nizun** | — | **zizun** | **genizun** | — | **zizuten** |
 | hari | **nion** | **zenion** | **zion** | **genion** | **zenioten** | **zioten** |
-| guri | — | **zeniguren** | **zigun** | — | **zenigute(z)n** | **ziguten** |
+| guri | — | **zenigun** | **zigun** | — | **zeniguten** | **ziguten** |
 | zuei | **nizuen** | — | **zizuen** | **genizuen** | — | **zizueten** |
 | haiei | **nien** | **zenien** | **zien** | **genien** | **zenieten** | **zieten** |
 
@@ -101,7 +101,7 @@ Compara presente y pasado:
 | zidan | **zizkidan** | él me lo / él me los |
 | genion | **genizkion** | nosotros se lo / se los |
 
-> *Aitak liburu bi **eman zizkidan** atzo.* — Padre me dio dos libros ayer.
+> *Aitak liburu bi **eman zizkidan** atzo.* — Mi padre me dio dos libros ayer.
 
 ## Ejemplos en contexto
 
