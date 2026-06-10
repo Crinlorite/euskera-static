@@ -12,7 +12,7 @@
 // los assets cambian solos, así que en la mayoría de releases NO hay que
 // tocar esto.
 
-const CACHE_VERSION = 'euskera-v2';
+const CACHE_VERSION = 'euskera-v3';
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const PAGES_CACHE = `pages-${CACHE_VERSION}`;
 const ASSETS_CACHE = `assets-${CACHE_VERSION}`;
