@@ -90,7 +90,7 @@ Cuatro técnicas clásicas para abrir, todas validadas en EGA:
 > *Azken urteotan, sare sozialen erabilera ezohiko abiaduran hedatu da gizartean.*
 
 ### b) Anécdota o vivencia personal
-> *Ez al zaizu inoiz gertatu ordu beteko bideo bat ikusten amaitu eta ezer ez gogoratzea?*
+> *Ez al zaizu inoiz gertatu ordubeteko bideo bat ikusten amaitu eta ezer ez gogoratzea?*
 
 ### c) Pregunta retórica
 > *Zenbat aldiz entzun dugu hezkuntza dela jendartea aldatzeko motorra? Eta zenbat aldiz, benetan, hala dela?*
@@ -100,7 +100,7 @@ Cuatro técnicas clásicas para abrir, todas validadas en EGA:
 
 Tras la apertura, el último renglón de la sarrera anuncia la **tesis** o el camino del texto:
 
-> *Honako lerrootan honako galdera honi erantzuten saiatuko naiz: …*
+> *Hurrengo lerrootan honako galdera honi erantzuten saiatuko naiz: …*
 
 ## Garapena — el motor
 
@@ -120,7 +120,7 @@ Tres reglas:
 
 ### Cómo se ve un párrafo bien hecho
 
-> *Lehenengo arrazoia hezkuntza-sistemaren beraren egiturarekin lotuta dago. Ikastetxeek, izan ere, ez dute beti aukerarik ikasleen aniztasunari behar bezala erantzuteko, baliabide gutxiegi izaten baitituzte. Adibidez, hizkuntza ahalmenak desberdinak dituzten ikasle-taldeetan, irakasle bakarrak nekez egokitu ditzake bere materialak. Honek frustrazio-iturri bihurtzen du gela bera.*
+> *Lehenengo arrazoia hezkuntza-sistemaren beraren egiturarekin lotuta dago. Ikastetxeek, izan ere, ez dute beti aukerarik ikasleen aniztasunari behar bezala erantzuteko, baliabide gutxiegi izaten baitituzte. Adibidez, hizkuntza-ahalmen desberdinak dituzten ikasle-taldeetan, irakasle bakarrak nekez egoki ditzake bere materialak. Honek frustrazio-iturri bihurtzen du gela bera.*
 
 Estructura: tesis del párrafo + justificación + ejemplo + cierre o consecuencia.
 

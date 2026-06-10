@@ -45,7 +45,7 @@ exercises:
     options:
       - 'Datu estatistiko ofiziala.'
       - 'Aditu baten lekukotasuna.'
-      - 'Norberaren bizipen bakarra, generalización gabe.'
+      - 'Norberaren bizipen bakarra, orokortzerik gabe.'
       - 'Lege edo araudi baten aipua.'
     answer: 2
     explanation: 'La experiencia personal aislada vale poco si no se eleva a patrón general. Las otras tres tienen autoridad explícita.'
@@ -96,7 +96,7 @@ Riesgo: si inventas un nombre propio, te puedes equivocar de área. Mejor formul
 
 Un caso concreto que ilustra el argumento.
 
-> *Adibidez, Iparraldeko hainbat herritan, eskola publikoek euskara murgiltze-eredua hartu zuten 80ko hamarkadan, eta gaur egun belaunaldi euskaldunago bat dute.*
+> *Adibidez, Hego Euskal Herriko hainbat herritan, eskola publikoek euskarazko murgiltze-eredua hartu zuten 80ko hamarkadan, eta gaur egun belaunaldi euskaldunago bat dute.*
 
 Reglas:
 - El ejemplo debe ser relevante, no decorativo.
@@ -124,7 +124,7 @@ Riesgo: si suena exclusivamente personal (*"nire amari gertatu zitzaion"*), pier
 
 Un argumento C1 sólido suele combinar **dos tipos** de evidencia:
 
-> *Eskolaz kanpoko ekintzek ikasleen sare soziala zabaltzen dute. **Hezitzaileek** behin eta berriz azpimarratu dute kirola edo musika partekatzeak ohitura osasuntsuak ekartzen dituela. **Adibidez**, herri txikietako kirol-elkarteek auzo-bizitza biziago bat eusten dute.*
+> *Eskolaz kanpoko ekintzek ikasleen sare soziala zabaltzen dute. **Hezitzaileek** behin eta berriz azpimarratu dute kirola edo musika partekatzeak ohitura osasuntsuak ekartzen dituela. **Adibidez**, herri txikietako kirol-elkarteek auzo-bizitza biziago bati eusten diote.*
 
 (Aditu-iturria + adibide zehatza.)
 

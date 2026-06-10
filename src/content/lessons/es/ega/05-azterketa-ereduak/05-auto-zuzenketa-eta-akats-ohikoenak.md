@@ -11,14 +11,14 @@ covers: [ega-self-correction]
 exercises:
   - id: ex-eg-er5-mc1
     type: multiple-choice
-    prompt: 'Konpondu akatsa: "Lankideak ekarri du proiektu berria".'
+    prompt: 'Konpondu akatsa ("Los compañeros han traído el nuevo proyecto"): "Lankideak ekarri dute proiektu berria".'
     options:
       - 'Frase correcta, no hay error.'
       - 'Lankideak → lankideek (ergativo plural).'
       - 'Ekarri → ekartzen.'
-      - 'Du → dute.'
+      - 'Dute → du.'
     answer: 1
-    explanation: 'Si el sentido es "los compañeros han traído", el ergativo plural exige *lankideek*. Si fuera singular ("el compañero"), entonces *lankideak* (ergativo singular).'
+    explanation: 'Con el verbo *dute* y el sentido "los compañeros han traído", el sujeto ergativo plural exige *lankideek*. *Lankideak* sería ergativo singular ("el compañero", con *du*) o absolutivo plural.'
   - id: ex-eg-er5-mc2
     type: multiple-choice
     prompt: 'Konpondu komunztadura: "Bidaiariek atzo etxeratu da".'
@@ -31,16 +31,16 @@ exercises:
     explanation: '*Etxeratu* es intransitivo (NOR). El sujeto debe ser absolutivo plural *bidaiariak* + verbo NOR plural *dira*. Doble corrección.'
   - id: ex-eg-er5-mc3
     type: multiple-choice
-    prompt: 'Konpondu erlatiboa: "Ikusi nuen ___ pelikula gustatu zait" (la película que vi me ha gustado).'
+    prompt: 'Konpondu erlatiboa: "Ikusi ___ gustatu zait" ("lo que vi me ha gustado").'
     options: [haren, hura, dudana, nuena]
     answer: 3
-    explanation: '*Ikusi nuena* = "la que vi" (perpaus erlatiboa pasada NOR-NORK). *Haren* y *hura* son demostrativos, no relativos.'
+    explanation: '*Ikusi nuena* = "lo que vi" (relativo sin antecedente, pasado NOR-NORK). *Dudana* sería "lo que he visto" (no coincide con la traducción dada) y *haren* / *hura* son demostrativos, no relativos.'
   - id: ex-eg-er5-mc4
     type: multiple-choice
-    prompt: 'Konpondu ortografia: "Ari nintzen aspaldi ari ___ asuntu hori".'
+    prompt: 'Konpondu ortografia: "Aspaldi ari nintzen kontu horretan ___".'
     options: [pentzaten, pentsatzen, pentsa, pentsuten]
     answer: 1
-    explanation: '*Pentsatzen* (pensando) — partizipio + *-tzen* habitual. Las otras son ortografías incorrectas o formas inexistentes.'
+    explanation: '*Pentsatzen* — aditz-izena en *-tzen*, exigida por *ari izan*. Las otras son grafías incorrectas o formas que no encajan con *ari*.'
   - id: ex-eg-er5-mc5
     type: multiple-choice
     prompt: 'Konpondu joskera: "Klasea bukatu eta gero, etxera joan naiz".'
@@ -120,18 +120,18 @@ Atención también al **mugagabe** (indefinido): *libururen bat irakurri dut* (h
 
 ### 5. Ortografia
 
-- *h* en su sitio: *hau, hori, hura, hori, ohi*. Aunque sea muda en muchas zonas, en escrito es obligatoria.
+- *h* en su sitio: *hau, hori, hura, ohi*. Aunque sea muda en muchas zonas, en escrito es obligatoria.
 - *tx, tz, ts* sin confundir: *txakurra* (ch-), *hotza* (frío), *otsoa* (lobo).
-- *tz* + *t* = *zt* en derivación: *erantzun + t* en algunos casos.
+- *tz* ante consonante pasa a *z* en derivación: *hitz + -tegi → hiztegi*, *bihotz + -kada → bihozkada*.
 - *r/rr* — *gora* (arriba), *berri* (nuevo).
 - *j* — palabra batua casi siempre con *j-* gráfica aunque la pronunciación dialectal varíe.
 
 ### 6. Joskera (sintaxis)
 
-- **Orden marcado vs neutro.** El orden no marcado es **galdegaia** (foco) inmediatamente antes del verbo: *Mikelek dut liburua eman* es marcado; *Mikelek liburua eman dit* es neutro.
+- **Orden marcado vs neutro.** El **galdegaia** (foco) va inmediatamente antes del verbo: *Mikelek eman dit liburua* es marcado (foco en *Mikelek*); *Mikelek liburua eman dit* es neutro.
 - **Subordinadas con -en/-eN.** *Datorren astean* (cláusula relativa) vs *datorrelarik* (cláusula adverbial).
 - **Negación.** *Ez* va siempre delante del auxiliar: *Ez naiz joan* (no *naiz ez joan*).
-- **Coordinación con -ta / -tarik / -ela.** *Etorri eta* (después de venir) vs *etorrita* (estando venido).
+- **Coordinación con -ta / -(r)ik / -ela.** *Etorri eta…* (tras venir) vs *etorrita / etorririk* (habiendo venido).
 
 ## Rutina de los últimos 10-15 minutos en la idatzia
 
@@ -170,7 +170,7 @@ Durante la preparación, lleva un cuaderno con tres columnas:
 |---|---|---|
 | *Lankideak esan dute* | *Lankideek esan dute* | NORK plural -ek, no -ak |
 | *Etxean dut* (físicamente en casa) | *Etxean nago* | egon para estado, no ukan |
-| *Joatuko naiz* | *Joango naiz* | -koan en *joan* |
+| *Joatuko naiz* | *Joango naiz* | el futuro de *joan* es *joango* (-go), no *joatuko* |
 
 Después de un mes, mira el cuaderno: verás patrones. **Esos patrones son lo que tienes que machacar antes del examen**, no la teoría general.
 
@@ -180,7 +180,7 @@ Después de un mes, mira el cuaderno: verás patrones. **Esos patrones son lo qu
 
 - Repaso del cuaderno de errores propios.
 - Una lectura del listado de testu antolatzaileak.
-- Un repaso de las 12-15 locuciones fijas (*bertan behera utzi*, *aintzat hartu*, *aurrera eraman*, *atzera egin*, *bide eman*, *gainezka egin*, *adar jo*, *zuku atera*, *aitzakia bilatu*, *kontuan hartu*, *gora egin*, *behera egin*).
+- Un repaso de las 12-15 locuciones fijas (*bertan behera utzi*, *aintzat hartu*, *aurrera eraman*, *atzera egin*, *bide eman*, *gainezka egin*, *adarra jo*, *zukua atera*, *aitzakia bilatu*, *kontuan hartu*, *gora egin*, *behera egin*).
 - Una lectura del paradigma NOR-NORI-NORK.
 - Material listo: DNI, varios bolígrafos, agua, snack.
 

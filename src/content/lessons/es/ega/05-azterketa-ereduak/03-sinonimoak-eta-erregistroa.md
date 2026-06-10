@@ -72,7 +72,7 @@ exercises:
       - { eu: tresna / baliabidea, es: herramienta / recurso }
       - { eu: aukera berdintasuna, es: igualdad de oportunidades }
       - { eu: gizarte aniztasuna, es: diversidad social }
-      - { eu: ardura / erantzukizuna, es: cuidado / responsabilidad }
+      - { eu: ardura / erantzukizuna, es: responsabilidad }
       - { eu: ondorioak / inplikazioak, es: consecuencias / implicaciones }
 ---
 
@@ -83,7 +83,7 @@ A nivel C1+ no basta con conocer una palabra para una idea; hay que saber **esco
 Una palabra equivocada raramente es agramatical, pero puede:
 
 - Romper el registro del texto.
-- Decir algo ligeramente distinto a lo intended.
+- Decir algo ligeramente distinto a lo que pretendías.
 - Sonar a calco del castellano.
 
 En la atariko, dos opciones del cloze pueden ser sinónimos casi exactos pero solo una encaja en el registro del texto. En la idatzia, escoger *funtsezkoa* en lugar de *garrantzitsua* sube el nivel sin que tengas que hacer nada más.
@@ -98,7 +98,7 @@ En la atariko, dos opciones del cloze pueden ser sinónimos casi exactos pero so
 | ona | egokia, baliotsua |
 | txarra | desegokia, kaltegarria |
 | beharrezkoa | nahitaezkoa, derrigorrezkoa |
-| ondoa | onura, abantaila |
+| probetxua | onura, abantaila |
 
 ### Conocimiento / saber
 
@@ -119,7 +119,7 @@ En la atariko, dos opciones del cloze pueden ser sinónimos casi exactos pero so
 | iraultza | revolución |
 | garapen | desarrollo |
 | eboluzio | evolución |
-| moldakuntza | adaptación |
+| egokitzapen | adaptación |
 | eraldaketa | transformación |
 
 ### Problema / dificultad
@@ -179,17 +179,17 @@ En la atariko, dos opciones del cloze pueden ser sinónimos casi exactos pero so
 | arrazoia eman | dar la razón |
 | ekarpen eskuzabala | aportación generosa |
 | erabateko aldaketa | cambio total |
-| epe luzeko / motzeko | a largo / corto plazo |
+| epe luzeko / laburreko | a largo / corto plazo |
 
 ## Falsos amigos del castellano (otra vez)
 
 Volviendo a los más perniciosos:
 
-- *aktuala* (vigente, real) ≠ "actual" temporal.
-- *demanda* (exigencia) ≠ "demanda" judicial.
-- *editorea* (editor persona) ≠ "editorial" empresa.
+- *prestatu* (preparar) ≠ "prestar" (= *utzi, mailegatu*).
+- *akabatu* (matar / morir, sobre todo animales) ≠ "acabar" neutro (= *amaitu, bukatu*).
+- *editorea* (editor persona) ≠ "editorial" empresa (= *argitaletxea*).
 - *ofizioa* (profesión, oficio) ≠ "oficio" administrativo.
-- *kontestatu* (replicar, protestar) ≠ "contestar" neutro.
+- *komeriak* (apuros, líos) ≠ "comedias".
 - *ekonomia* (economía como disciplina) — para "ahorrar" usa *aurreztu*.
 
 ## Diminutivos y aumentativos como recurso

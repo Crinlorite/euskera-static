@@ -105,7 +105,7 @@ No hay un reparto oficial pero los aztertzaileak suelen recomendar:
 ## Trampas habituales
 
 1. **Distractores casi correctos** — la opción "casi" siempre es la diseñada para tentarte.
-2. **Falsos amigos del castellano** — *aktuala* no es "actual" en sentido temporal sino "real, vigente"; *demanda* no significa lo mismo que en castellano. Más en la lección de léxico de screening.
+2. **Falsos amigos del castellano** — *prestatu* no es "prestar" sino "preparar"; *akabatu* no es "acabar" en sentido neutro sino "matar / morir (animales)". Más en la lección de léxico de screening.
 3. **Cuestiones de registro** — entre dos opciones gramaticalmente correctas, una rompe el registro del texto.
 
 > **Resumen:** 80 ítems, 80 puntos, 2,5 horas, 52 puntos para sobrevivir. La pelea está en los 50 de hizkuntza baliabideak.

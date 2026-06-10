@@ -48,7 +48,7 @@ exercises:
       - '"Eta zuek, zer pentsatzen duzue?"'
       - '"Beraz, esan bezala, esan dudana esan dut."'
     answer: 1
-    explanation: 'La opción 1 reformula la tesis con un giro fuerte (gastua → aurrezkia), propia de un cierre C1.'
+    explanation: 'La opción 2 reformula la tesis con un giro fuerte (gastua → aurrezkia), propia de un cierre C1.'
   - id: ex-c1-saia-04-mp
     type: match-pairs
     pairs:

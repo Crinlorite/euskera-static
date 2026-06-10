@@ -56,14 +56,14 @@ exercises:
       - { eu: 'orokortze azkarra', es: 'generalización apresurada' }
       - { eu: 'falazia kausala', es: 'falsa causa (post hoc)' }
       - { eu: 'analogia okerra', es: 'falsa analogía' }
-      - { eu: 'tradiziorako jaioak', es: 'apelación a la tradición' }
-      - { eu: 'biztanleriaren erroa', es: 'apelación a la mayoría (ad populum)' }
+      - { eu: 'tradizioari dei egitea', es: 'apelación a la tradición' }
+      - { eu: 'gehiengoari dei egitea', es: 'apelación a la mayoría (ad populum)' }
   - id: ex-c1-argu-04-fc
     type: flashcards
     cards:
       - { eu: 'falazia', es: 'falacia' }
       - { eu: 'argudio okerra', es: 'argumento erróneo' }
-      - { eu: 'logika hutsegitea', es: 'fallo lógico' }
+      - { eu: 'logika-hutsegitea', es: 'fallo lógico' }
       - { eu: 'arrazoiketa akastuna', es: 'razonamiento defectuoso' }
       - { eu: 'oinarri ahula', es: 'base débil' }
       - { eu: 'orokortzea', es: 'generalización' }
@@ -82,7 +82,7 @@ Atacar a quien afirma, no a lo que afirma.
 
 El argumento no se vuelve falso por quién lo dice. Si la fuente importa (sesgo, conflicto de intereses), eso se discute aparte; no anula el contenido.
 
-**Versión C1 correcta:** *"Iturria interesduna izan daiteke; hala ere, datuak independenteki egiazta daitezke."*
+**Versión C1 correcta:** *"Iturria interesduna izan daiteke; hala ere, datuak modu independentean egiazta daitezke."*
 
 ## 2. Orokortze azkarra (generalización apresurada)
 
@@ -100,7 +100,7 @@ Confundir sucesión temporal con causalidad.
 
 Quizá sí; quizá no. Habría que descartar otras causas (mejor tiempo, menos tráfico, campañas paralelas).
 
-## 4. Pendiente resbaladiza (mailaz mailako jaitsiera okerra)
+## 4. Pendiente resbaladiza (malda labainkorraren falazia)
 
 Encadenar consecuencias sin justificación de cada paso.
 

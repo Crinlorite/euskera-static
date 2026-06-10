@@ -110,6 +110,6 @@ En ambos organismos hay un plazo (normalmente entre 5 y 10 días hábiles) tras 
 - Solicitar **revisión** de tu examen.
 - Presentar **erreklamazioa** formal.
 
-Si reclamas y prosperan, te suben la nota; si no, queda como estaba. No es habitual que reclamar baje la nota original, pero infórmate de los términos exactos en cada deialdia.
+Si reclamas y la reclamación prospera, te suben la nota; si no, queda como estaba. No es habitual que reclamar baje la nota original, pero infórmate de los términos exactos en cada deialdia.
 
 > **Resumen:** dos organismos, dos calendarios al año cada uno, certificado equivalente. Planifica tu próxima convocatoria mirando ambas resoluciones, no solo la que te queda más cerca.

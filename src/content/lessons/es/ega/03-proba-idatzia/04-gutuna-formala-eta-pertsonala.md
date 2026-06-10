@@ -21,14 +21,14 @@ exercises:
     explanation: '"Jaun-andre agurgarriak" o "Agurgarria" son saludos formales canónicos. Los demás son informales o coloquiales.'
   - id: ex-eg-id4-mc2
     type: multiple-choice
-    prompt: 'En una carta formal, "Agur t''ero!" como despedida sería…'
+    prompt: 'En una carta formal, "Agur t''erdi!" como despedida sería…'
     options:
       - Adecuado, es elegante.
       - "Inadecuado: pertenece al registro coloquial."
       - Recomendable porque es típico.
       - Neutro, vale en cualquier contexto.
     answer: 1
-    explanation: '"Agur t''ero" es coloquial-festivo (forma corta de "agur t''erokoa"). En una carta formal pierde puntos.'
+    explanation: '"Agur t''erdi" (de "agur eta erdi") es una despedida expresiva y familiar. En una carta formal pierde puntos.'
   - id: ex-eg-id4-mc3
     type: multiple-choice
     prompt: ¿Qué fórmula de cierre es la más adecuada en una carta formal de queja?
@@ -173,7 +173,7 @@ Se usa para situaciones informales: contar algo a un amigo, agradecer, invitar, 
 ```
 Donostia, 2026ko maiatzaren 8a.
 
-Udaleko Zerbitzuak agurgarriak,
+Udaleko Zerbitzu agurgarriak,
 
 Eskutitz honen bidez azken hilabetean nire auzoan
 gertatzen ari den arazo bati buruzko kexa adierazi

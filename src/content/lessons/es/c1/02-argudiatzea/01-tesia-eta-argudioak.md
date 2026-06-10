@@ -14,7 +14,7 @@ exercises:
     prompt: 'Tesis: "Eskolaz kanpoko ekintzek ikasleen garapena hobetzen dute". ¿Cuál de las siguientes funciona como argumento de apoyo, NO como mera reformulación?'
     options:
       - 'Eskolaz kanpoko ekintzek garapena hobetzen dute.'
-      - 'Aktibitate horiek lagunarteko sare berriak sortzeko aukera ematen dute, eskolan agian topatuko ez liratekeenak.'
+      - 'Ekintza horiek lagunarteko sare berriak sortzeko aukera ematen dute, eskolan agian topatuko ez liratekeenak.'
       - 'Eskolaz kanpoko ekintzak existitzen dira.'
       - 'Garapena hobetzea garrantzitsua da.'
     answer: 1
@@ -93,8 +93,8 @@ Si puedes parafrasear tu argumento como **"... eta horregatik, tesia egia da"**,
 Un argumento C1 se monta en tres tiempos: **Punto + Explicación + Ejemplo o Evidencia**.
 
 > **P** — *Telelanak ordutegi malguagoa eskaintzen du.*
-> **E** — *Horrek esan nahi du langileak bere errendimendu-orduekin egokitu dezakeela lan-bolumena.*
-> **E** — *Adibidez, goizean kontzentrazioa hobea duen pertsona batek goizean lan dezake, eta arratsaldea zaintza-lanetarako utzi.*
+> **E** — *Horrek esan nahi du langileak bere errendimendu-orduetara egoki dezakeela lan-bolumena.*
+> **E** — *Adibidez, goizean kontzentrazio hobea duen pertsona batek goizean lan egin dezake, eta arratsaldea zaintza-lanetarako utzi.*
 
 Tres frases. Una idea. Un párrafo.
 

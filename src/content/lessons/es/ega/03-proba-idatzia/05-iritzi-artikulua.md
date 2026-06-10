@@ -97,7 +97,7 @@ Cuatro o cinco párrafos. Más de seis y el texto se desmenuza; menos de tres y 
 
 ### Sarrera más sutil (con pregunta retórica)
 
-> *Zenbat aldiz entzun dugun arren ___, gutxitan jartzen dugu zalantzan. Iruditzen zait ordua dela horretaz hausnartzeko.*
+> *Behin eta berriz entzun dugun arren ___, gutxitan jartzen dugu zalantzan. Iruditzen zait ordua dela horretaz hausnartzeko.*
 
 ### Cierre tipo síntesis-llamada
 
@@ -156,7 +156,7 @@ Repetir una palabra clave a propósito para enfatizar un eje del texto. Solo fun
 3. **Anécdota larga sin reflexión.** Una historia personal vale como apoyo, no como sustituto del argumento.
 4. **Mezcla de registros.** Empiezas con *adituen ustez* y acabas con *kristoren erronka da*.
 5. **Conclusión vacía.** *Beraz, hori horrela da* sin más es regalar puntos.
-6. **Faltar a la extensión.** 220 palabras cuando piden 250 es penalización clara.
+6. **No llegar a la extensión.** 220 palabras cuando piden 250 es penalización clara.
 
 ## Lista de comprobación de los últimos 10 minutos
 
