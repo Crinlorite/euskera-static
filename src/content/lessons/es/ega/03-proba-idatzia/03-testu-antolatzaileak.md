@@ -30,7 +30,7 @@ exercises:
       - { eu: Dirudienez, es: Al parecer }
       - { eu: Badirudi, es: Parece ser que }
       - { eu: Bistan da, es: Es evidente }
-      - { eu: Ez horrek bakarrik, es: Y no solo eso }
+      - { eu: Ez hori bakarrik, es: Y no solo eso }
   - id: ex-eg-id3-mc1
     type: multiple-choice
     prompt: '"Hori horrela izanik" introduce…'
@@ -146,7 +146,7 @@ Esta lección recoge la **lista canónica** que conviene aprender de memoria, or
 
 ## 7. Arrazoitzeko — justificación
 
-- *bait-* (sufijo: *baitago*, *baituen*)
+- *bait-* (prefijo: *baitago*, *baitu*)
 - *…-(e)lako*
 - *-(e)la eta*
 - *-t(z)eagatik*
@@ -181,7 +181,7 @@ Esta lección recoge la **lista canónica** que conviene aprender de memoria, or
 ## 10. Bukaerakoak eta ondorioak — cierre
 
 - *Amaitzeko, / Bukatzeko,*
-- *Amaiera bezala,*
+- *Amaiera gisa,*
 - *Aurreko guztia laburbilduz,*
 - *Ondorio gisa,*
 - *Amai dezagun esanez … -(e)la*

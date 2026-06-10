@@ -137,7 +137,7 @@ Cuando encuentres la frase que responde a una pregunta, **subráyala y numérala
 
 ### Sobre la velocidad
 
-15 ítems en 30-40 minutos significa 2-3 minutos por pregunta. Si te atasca un texto entero (no entiendes el tema), salta a la siguiente lectura: vale más resolver dos textos al 80 % que uno al 100 %.
+15 ítems en 30-40 minutos significa 2-3 minutos por pregunta. Si te atascas en un texto entero (no entiendes el tema), salta a la siguiente lectura: vale más resolver dos textos al 80 % que uno al 100 %.
 
 ## Reglas de oro compartidas
 

@@ -11,16 +11,16 @@ covers: [ega-aditz-trinkoak]
 exercises:
   - id: ex-eg-er1-mc1
     type: multiple-choice
-    prompt: 'Aukeratu zuzena: "Etxean ___ orain".'
+    prompt: 'Aukeratu zuzena: "Ama etxean ___ orain" ("Mamá está en casa ahora").'
     options: [naiz, dago, dauka, doa]
     answer: 1
-    explanation: 'Verbo *egon* sintético, 3ª pers. sg.: *dago* (está). *Naiz* sería "soy/estoy" en 1ª pers. NOR.'
+    explanation: 'Verbo *egon* sintético, 3ª pers. sg.: *dago* (está). *Naiz* es 1ª persona, *dauka* es "tiene" (eduki) y *doa* ("va") pediría destino en -ra.'
   - id: ex-eg-er1-mc2
     type: multiple-choice
-    prompt: 'Aukeratu zuzena: "Garaiz ___, lana bukatzeko".'
+    prompt: 'Aukeratu zuzena: "Orain bulegora ___, lana bukatzeko" ("Ahora voy a la oficina, a terminar el trabajo").'
     options: [nator, noa, nabil, nago]
     answer: 1
-    explanation: '*Noa* (yo voy) — verbo *joan* sintético 1ª pers. *Nator* es "vengo", *nabil* es "ando".'
+    explanation: '*Noa* (yo voy) — verbo *joan* sintético 1ª pers., concuerda con el destino en -ra. *Nator* es "vengo", *nabil* es "ando", *nago* es "estoy".'
   - id: ex-eg-er1-mc3
     type: multiple-choice
     prompt: 'Aukeratu zuzena: "Ez ___ horren berri".'
@@ -29,10 +29,10 @@ exercises:
     explanation: '*Dakit* (lo sé) — verbo *jakin* sintético 1ª pers. NOR-NORK. *Daukat* sería "tengo".'
   - id: ex-eg-er1-mc4
     type: multiple-choice
-    prompt: 'Aukeratu zuzena: "Hark zer ___ esan?"'
+    prompt: 'Aukeratu *esan* aditzaren forma trinkoa: "Hark zer ___?" ("¿Qué dice él/ella?")'
     options: [dio, du, da, daki]
     answer: 0
-    explanation: '*Dio* — verbo *esan* sintético, 3ª pers. NOR-NORK ("dice/dijo"). En NOR-NORI-NORK pasa a *dio*: "se lo dice".'
+    explanation: '*Dio* — forma trinkoa de *esan*, 3ª pers.: "Hark zer dio?" = "¿qué dice?". *Du* y *da* son auxiliares y *daki* es "sabe" (jakin).'
   - id: ex-eg-er1-mc5
     type: multiple-choice
     prompt: '"Ekarri" verbo sintético, 1ª persona singular significa…'
@@ -43,7 +43,7 @@ exercises:
     type: flashcards
     cards:
       - { eu: naiz / zara / da / gara / zarete / dira, es: 'izan: soy/eres/es/somos/sois/son' }
-      - { eu: dut / duzu / du / dugu / duzue / dute, es: 'ukan (objeto sg.): tengo/has...' }
+      - { eu: dut / duzu / du / dugu / duzue / dute, es: 'ukan (objeto sg.): lo tengo/lo tienes...' }
       - { eu: ditut / dituzu / ditu / ditugu / dituzue / dituzte, es: 'ukan (objeto pl.): los tengo...' }
       - { eu: nago / zaude / dago / gaude / zaudete / daude, es: 'egon: estoy/estás...' }
       - { eu: noa / zoaz / doa / goaz / zoazte / doaz, es: 'joan: voy/vas...' }
@@ -110,7 +110,7 @@ Con objeto plural: *ditut, dituzu, ditu, ditugu, dituzue, dituzte*.
 | Persona | Presente | Iragana |
 |---|---|---|
 | Ni | nago | nengoen |
-| Zu | zaude | zinen / zeunden |
+| Zu | zaude | zeunden |
 | Hura | dago | zegoen |
 | Gu | gaude | geunden |
 | Zuek | zaudete | zeundeten |
@@ -184,13 +184,13 @@ Con objeto plural: *ditut, dituzu, ditu, ditugu, dituzue, dituzte*.
 
 ### ESAN — decir (NOR-NORI-NORK)
 
-| Persona NORK | Hark NORI | Forma |
+| Persona NORK | NORI | Forma |
 |---|---|---|
 | Nik | hari (a él/ella) | diot |
-| Nik | zuri | dizut |
-| Zuk | niri | didazu |
+| Zuk | hari | diozu |
 | Hark | hari | dio |
 | Guk | hari | diogu |
+| Zuek | hari | diozue |
 | Haiek | hari | diote |
 
 > *Esan* en NOR-NORI-NORK es paralelo a *eman* (dar): *eman dio* = se lo ha dado.
@@ -199,8 +199,8 @@ Con objeto plural: *ditut, dituzu, ditu, ditugu, dituzue, dituzte*.
 
 - *Hau ondo dakit nik.* — Yo esto lo sé bien. (vs *Hau ondo jakin dut.*)
 - *Etxean dago oraindik.* — Sigue en casa. (vs *Etxean egon da.*)
-- *Berriak dakar berri pozgarriak.* — Las noticias traen alegrías. (forma culta vs *ekarri ditu*).
-- *Kontatzen ari dena ez datorkit ondo.* — Lo que está contando no me cuadra.
+- *Egunkariak berri pozgarriak dakartza.* — El periódico trae buenas noticias. (forma culta vs *ekarri ditu*).
+- *Kontatzen ari dena ez dator bat nik dakidanarekin.* — Lo que está contando no cuadra con lo que sé.
 
 ## Trinkoa vs perifrástica — diferencia de matiz
 
@@ -217,7 +217,7 @@ Con objeto plural: *ditut, dituzu, ditu, ditugu, dituzue, dituzte*.
 
 ## Trampas habituales
 
-1. **Confundir *dauka* (tiene) con *dago* (está).** Mismo número de letras, sentidos distintos.
+1. **Confundir *dauka* (tiene) con *dago* (está).** Se parecen visualmente, pero los sentidos son distintos.
 2. **No saber que *esan* tiene trinkoa NOR-NORI-NORK** (*diot, dio, diogu*).
 3. **Usar *dut* donde tocaría *daukat*** en contextos de posesión física.
 4. **Confundir *nabil* con *naiz*.** *Nabil* implica movimiento o actividad ("ando dándole vueltas"); *naiz* es estado.

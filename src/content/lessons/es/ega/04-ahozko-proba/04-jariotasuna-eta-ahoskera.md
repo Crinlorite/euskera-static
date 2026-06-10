@@ -61,7 +61,7 @@ exercises:
       - { eu: argi mintzatu, es: hablar claro }
       - { eu: arnasa hartu, es: respirar / coger aire }
       - { eu: etena, es: pausa }
-      - { eu: muletila, es: muletilla }
+      - { eu: makulu-hitza, es: muletilla }
       - { eu: betelana, es: relleno }
       - { eu: kritika eraikitzailea, es: crítica constructiva }
       - { eu: tonua egokitu, es: ajustar el tono }
@@ -149,7 +149,7 @@ No se exige acento dialectal concreto: se examina en **batua**, así que basta c
 | **rr / -r final / r- inicial** | vibrante múltiple | berri, hor, errota | la r- inicial es siempre fuerte |
 | **tx** | africada palatal sorda (como "ch") | txakurra, etxea | NO ts |
 | **tz** | africada alveolar sorda | hotza, atzo | NO ch |
-| **ts** | africada apicoalveolar | hots, motz | distinta de tz, más sibilante |
+| **ts** | africada apicoalveolar | hots, itsaso | distinta de tz, más sibilante |
 | **x** | fricativa palatal sorda ("sh" inglés) | xake, kaixo | NO j castellana |
 | **j** | en batua, semivocal "y" | joan, jakin | NO jota castellana |
 | **z** | fricativa apicoalveolar | zazpi, zer | NO theta castellana |
@@ -158,14 +158,14 @@ No se exige acento dialectal concreto: se examina en **batua**, así que basta c
 
 ### Diptongos
 
-*ai, ei, oi, au, eu* se pronuncian **siempre** como una sola sílaba: *aita* (2 sílabas: ai-ta), *gehiago* (3: ge-hi-a-go con hiato gráfico).
+*ai, ei, oi, au, eu* se pronuncian **siempre** como una sola sílaba: *aita* (2 sílabas: ai-ta), *gau* (1 sílaba), *euri* (2: eu-ri).
 
 ### Palatalizaciones
 
 En batua oral son optativas, pero suenan natural:
 
-- *etxe → e-txe* (el lehiago palataliza la *t* tras *ai/ei*).
-- *gain → gain* (sin palatalización en batua, sí en bizkaiera).
+- *mutila → mutilla* (la *l* tras *i* palataliza en buena parte de los dialectos).
+- *gain → gañ* (palatalización de *-in-*; en batua cuidado se mantiene *gain*).
 
 Para el EGA basta con consistencia: si palatalizas, hazlo siempre; si no, no.
 

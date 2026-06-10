@@ -121,7 +121,7 @@ Aquí pasamos del eje "langilea" al eje "enpresa". Sin oponer; solo cambiando de
 
 Útiles para encadenar dos argumentos muy paralelos.
 
-> *Eskolaz kanpoko jardueretan haurrek bizitza soziala lantzen dute. **Ildo beretik**, herriko kirol-elkarteek auzo-bizitza biziago bat eusten dute.*
+> *Eskolaz kanpoko jardueretan haurrek bizitza soziala lantzen dute. **Ildo beretik**, herriko kirol-elkarteek auzo-bizitza biziago bati eusten diote.*
 
 ## Cómo NO acumularlos
 
@@ -129,7 +129,7 @@ Aquí pasamos del eje "langilea" al eje "enpresa". Sin oponer; solo cambiando de
 
 Cada conector marca una operación distinta. Si en cuatro líneas usas tres conectores aditivos diferentes, el texto se vuelve mecánico.
 
-**Regla práctica para 180-300 palabras:** un *gainera* (o *halaber*), un *bestalde* y, si encaja, un *are gehiago* en el remate. Más empieza a ruido.
+**Regla práctica para 180-300 palabras:** un *gainera* (o *halaber*), un *bestalde* y, si encaja, un *are gehiago* en el remate. Más empieza a ser ruido.
 
 ## Posición en la frase
 

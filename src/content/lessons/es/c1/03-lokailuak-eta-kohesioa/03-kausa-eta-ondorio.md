@@ -136,7 +136,7 @@ Esa estructura (verbo + -lako) condensa razón y afirmación en una sola unidad:
 
 Variante con **bait-** (más literario):
 
-> *Telelana baliagarria da: langileari autonomia **baitio** ematen.*
+> *Telelana baliagarria da: langileari autonomia ematen **baitio**.*
 
 Esta forma — *bait-* prefijado al auxiliar, frecuente en prensa escrita — es marca clara de C1, pero úsala con cuidado: pide buen control del orden.
 
@@ -144,7 +144,7 @@ Esta forma — *bait-* prefijado al auxiliar, frecuente en prensa escrita — es
 
 Permite anteponer la causa para enfatizarla.
 
-> *Etxebizitzaren prezioa altuegia **delako**, gazte askok etxetik kanpora ezin dute joan.*
+> *Etxebizitzaren prezioa altuegia **delako**, gazte askok ezin dute etxetik alde egin.*
 
 ## Errores típicos
 
@@ -155,6 +155,6 @@ Permite anteponer la causa para enfatizarla.
 
 ## Patrón completo en un párrafo C1
 
-> *Bizilagunen artean tirabirak ohikoak dira hiriguneetan. **Izan ere**, eraikinetako bizilagun gehienek ez dute elkar ezagutzen, eta arazo txikia istiluak bihur daiteke. **Beraz**, auzo-bilerek tresna baliagarri bat eskaintzen dute: harremanak landuz, gatazka asko aurretik konpontzen dira.*
+> *Bizilagunen artean tirabirak ohikoak dira hiriguneetan. **Izan ere**, eraikinetako bizilagun gehienek ez dute elkar ezagutzen, eta arazo txikia istilu bihur daiteke. **Beraz**, auzo-bilerek tresna baliagarri bat eskaintzen dute: harremanak landuz, gatazka asko aurretik konpontzen dira.*
 
 Tres frases, dos conectores en direcciones opuestas (justificación + consecuencia), idea articulada. C1 limpio.

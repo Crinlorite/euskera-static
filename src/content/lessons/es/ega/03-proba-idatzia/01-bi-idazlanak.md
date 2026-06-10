@@ -110,7 +110,7 @@ Esta es la redacción "de verdad" del EGA: si fallas en argumentación, la nota 
 |---|---|---|
 | Extensión mínima | 180 hitz | 250 hitz |
 | Ámbito | Comunicación interpersonal | Medios de comunicación |
-| Voz | Yo emisor a tú destinatario | Yo argumentador a lectoría general |
+| Voz | Yo emisor a tú destinatario | Yo argumentador a público lector general |
 | Estructura | Carta (encabezado/cuerpo/despedida) | Argumentativa (sarrera/garapena/ondorioa) |
 | Riesgo principal | Registro inadecuado | Argumentación pobre |
 | Tiempo recomendado | 45-55 min | 65-75 min |

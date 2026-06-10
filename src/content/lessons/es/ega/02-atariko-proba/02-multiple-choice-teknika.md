@@ -12,21 +12,21 @@ exercises:
   - id: ex-eg-at2-mc1
     type: multiple-choice
     prompt: 'Erabili itzazu ___ baliabide guztiak: ez utzi bat ere alde batera. (Significado: "Usa todos los recursos: no dejes ni uno de lado")'
-    options: [zenbait, ditugun, dauzkagun, zenituen]
+    options: [zenbait, dugun, dauzkagun, zenituen]
     answer: 2
-    explanation: 'Necesitamos 2ª persona singular ("itzazu" lo confirma) y NORK plural objeto: *dauzkagun* (los que tenemos, perpaus erlatiboa con NOR-NORK). *Ditugun* sería plural pero queda flojo en registro escrito; *dauzkagun* es la opción canónica.'
+    explanation: 'El hueco es una oración de relativo sobre "baliabide guztiak" (objeto plural): *dauzkagun* ("que tenemos", eduki en NOR-NORK) concuerda en plural. *Dugun* falla la concordancia (objeto singular), *zenituen* cambia de persona y de tiempo sin motivo, y *zenbait* no puede combinarse con *guztiak*.'
   - id: ex-eg-at2-mc2
     type: multiple-choice
-    prompt: 'Aukeratu zuzena: "___ ezagutzen ditut horrelako jendea, eta ez naiz beraien aldekoa".'
+    prompt: 'Aukeratu egokiena (matiz "de sobra, demasiado bien"): "___ ezagutzen dut horrelako jendea, eta ez naiz beraien aldekoa".'
     options: [Ondo, Ondotxo, Ondoegi, Ondogi]
     answer: 1
     explanation: '"Ondotxo" (-txo, diminutivo expresivo) significa "bastante bien" / "demasiado bien" con matiz irónico. Encaja con el contexto crítico del enunciado. *Ondo* sería neutro, *ondoegi* significa "demasiado bien" pero es menos natural aquí.'
   - id: ex-eg-at2-mc3
     type: multiple-choice
-    prompt: 'Aukeratu erregistro formalena: "Esan beharra dago azken aldian asko ___ direla matrikulazio kopuruak".'
+    prompt: 'Aukeratu egokiena: "Esan beharra dago azken aldian asko ___ dutela matrikulazio-kopuruek".'
     options: [igo, igon, gora egin, igo egin]
     answer: 2
-    explanation: 'En registro formal-académico, *gora egin* ("subir / aumentar") es preferible a la forma simple *igo* en este tipo de enunciado escrito. Las otras formas son agramaticales o descuidadas.'
+    explanation: '*Gora egin* es du ad. y concuerda con "dutela ... kopuruek"; además es el giro propio del registro formal escrito. *Igo* intransitivo pediría "igo direla ... kopuruak"; *igon* es variante dialectal no batua; *igo egin* tampoco encaja con ese auxiliar.'
   - id: ex-eg-at2-mc4
     type: multiple-choice
     prompt: 'Sinonimoa: "Ekitaldia bertan behera utzi dute" =…'
@@ -75,7 +75,7 @@ Para cada pregunta, en menos de 90 segundos:
 Suelen ser dos verbos correctos en abstracto pero solo uno encaja con el sujeto, el aspecto o la concordancia.
 
 > Ejemplo: *Hori ondo ___ duzu* — opciones: egin / eginen / egiten / egindako.
-> La forma habitual es *egin* (pasado reciente), *egiten* (habitual). Solo el contexto temporal del enunciado completo te lo dirá.
+> *Egin* marca el hecho cumplido (pasado reciente); *egiten*, lo habitual. Solo el contexto temporal del enunciado completo te lo dirá.
 
 ### Tipo 2 — discriminación léxica con sinónimos
 Tres opciones cercanas en significado y una es la justa por **matiz** o **colocación**.
@@ -100,7 +100,7 @@ Cuando dudas entre dos opciones, no las compares directamente: descarta primero 
 
 ## Trampas frecuentes
 
-1. **Falsos amigos del castellano.** *Aktuala* no es "actual" en sentido temporal; *kontestua* no equivale a "contestar"; *editorea* no es "editorial".
+1. **Falsos amigos del castellano.** *Prestatu* no es "prestar" sino "preparar"; *akabatu* no es "acabar" neutro sino "matar / morir (animales)"; *editorea* no es "editorial" sino "editor".
 2. **Ergatibo singular vs plural.** El ergativo plural *-ek* y el singular *-ak* se confunden con la forma del absolutivo plural. Mira la concordancia del verbo.
 3. **Aspekto burutua vs burutugabea.** *Egin dut* (pasado reciente) vs *egiten dut* (habitual): basta una marca temporal en el enunciado.
 4. **Perpaus erlatiboa.** *Datorren astea* / *etorriko den astea* / *etortzen den astea* — cada forma marca un aspecto distinto.

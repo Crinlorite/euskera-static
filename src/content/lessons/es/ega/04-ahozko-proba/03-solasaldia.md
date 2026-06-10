@@ -60,7 +60,7 @@ exercises:
       - { eu: 'Egia da, baina ahaztu egin zaizu…', es: 'Es verdad, pero olvidas que…' }
       - { eu: Nire ikuspuntua bestelakoa da., es: Mi punto de vista es distinto. }
       - { eu: Ez ote da hori gehiegi esatea?, es: ¿No es eso decir demasiado? }
-      - { eu: Konformatzen al zaitu erantzun horrek?, es: ¿Te satisface esa respuesta? }
+      - { eu: Asetzen al zaitu erantzun horrek?, es: ¿Te satisface esa respuesta? }
       - { eu: Zer iruditzen zaizu nire planteamendua?, es: ¿Qué te parece mi planteamiento? }
   - id: ex-eg-ah3-fc
     type: flashcards
@@ -115,7 +115,7 @@ Aceptar parte y discrepar parte:
 
 > *Egia da, baina nire ustez muga bat jarri behar zaio horri. Izan ere, …*
 
-> *Puntu horretan ados gaude, baina niri gehiago kezkatzen nau beste alderdi bat: …*
+> *Puntu horretan ados gaude, baina ni gehiago kezkatzen nau beste alderdi batek: …*
 
 ### 3. Discrepar respetuosamente
 
@@ -132,9 +132,9 @@ NUNCA: *Hori gezurra da*, *Ez duzu ezer ulertu*, *Erotuta zaude*. Cualquier cosa
 ## Los gestos comunicativos que suman
 
 - **Pedir la palabra:** *Barkatu, lehenengo neuk gehituko nuke zerbait …*
-- **Devolver el turno:** *Eta zuk zer diozu honi buruz?* / *Konformatzen al zaitu nire erantzunak?*
+- **Devolver el turno:** *Eta zuk zer diozu honi buruz?* / *Asetzen al zaitu nire erantzunak?*
 - **Ceder el turno:** *Bukatu dut. Zure txanda da.*
-- **Reformular al otro:** *Ulertzen dudanagatik, hau da zuk esan duzuna: …*
+- **Reformular al otro:** *Nik ulertzen dudanez, hau da zuk esan duzuna: …*
 - **Pedir aclaración:** *Ez dut guztiz ulertu. Esango al zenuke beste era batera?*
 - **Cerrar un tema:** *Puntu horri buruz hori da nire iritzia. Beste gai batera pasa gaitezke.*
 
@@ -160,7 +160,7 @@ A veces los aztertzaileak hacen una pregunta. Trátalos como interlocutores form
 
 Responde con voz clara, sin titubear, y devuélvele el flujo al otro candidato:
 
-> *…eta horretan koincididatzen dugula uste dut zurekin, ezta?*
+> *…eta horretan zurekin bat natorrela uste dut, ezta?*
 
 ## Plantillas de oro
 
@@ -171,7 +171,7 @@ Responde con voz clara, sin titubear, y devuélvele el flujo al otro candidato:
 | Pedir argumento | *Zerk eraman zaitu ondorio horretara?* |
 | Sostener tu postura | *Eutsi behar diot nire ikuspuntuari, eta hona hemen zergatik: …* |
 | Cerrar con acuerdo parcial | *Behintzat, batean ados gaude: …* |
-| Cierre final | *Erabaki ezin dugun arren, eztabaidatu duguna ondo zegoela uste dut.* |
+| Cierre final | *Erabaki ezin dugun arren, eztabaida aberasgarria izan dela uste dut.* |
 
 ## Errores que tumban la solasaldia
 

@@ -11,7 +11,7 @@ covers: [ega-vocab-screening, ega-grammar-screening]
 exercises:
   - id: ex-eg-at5-mc1
     type: multiple-choice
-    prompt: 'Aukeratu zuzena: "Hori ___ da, baina nik beste iritzia daukat".'
+    prompt: 'Aukeratu zuzena: "Hori ___ da, baina nik beste iritzi bat daukat".'
     options: [aldekoa, alderdikoa, alderantzizkoa, alde-ezetz]
     answer: 0
     explanation: '"Aldekoa" significa "favorable / a favor"; encaja con la oración. *Alderdikoa* es "del partido / del bando", *alderantzizkoa* "lo contrario".'
@@ -87,7 +87,7 @@ La sección de **hizkuntza baliabideak** (50 puntos) cubre toda la lengua, pero 
 |---|---|
 | *aldekoa* / *aurkakoa* | a favor / en contra |
 | *lorpena* / *porrota* | logro / fracaso |
-| *arrakasta* / *huts egite* | éxito / fallo |
+| *arrakasta* / *hutsegitea* | éxito / fallo |
 | *gaitza* / *erraza* | difícil / fácil |
 | *ohikoa* / *bitxia* | habitual / curioso |
 | *itzela* / *txikia* | enorme / pequeño |
@@ -116,16 +116,16 @@ Muchas se preguntan literalmente:
 - *atzera egin* — retroceder, echarse atrás
 - *aurrera egin* — avanzar, salir adelante
 - *bide eman* — dar pie, posibilitar
-- *zuku atera* — sacar partido / sacar provecho
-- *adar jo* — tomar el pelo
+- *zukua atera* — sacar partido / sacar provecho
+- *adarra jo* — tomar el pelo
 
 ### 4. Falsos amigos del castellano
 
-- *aktuala* ≠ "actual" temporal (significa "real, vigente").
-- *demanda* ≠ "demanda" judicial (más bien "petición/exigencia"; para denuncia, *salaketa*).
+- *prestatu* ≠ "prestar" (significa "preparar"; prestar = *utzi, mailegatu*).
+- *akabatu* ≠ "acabar" en sentido neutro (en euskera es "matar" o "morir" — sobre todo animales —; acabar = *amaitu, bukatu*).
 - *editorea* ≠ "editorial" (es "editor"; editorial = *argitaletxea*).
-- *kontestatu* ≠ "contestar" en sentido neutro (suele ser "responder con réplica/protesta").
-- *konformatu* ≠ "conformarse" (significa "configurar, dar forma").
+- *komeriak* ≠ "comedias" (significa "apuros, líos": *komeriak ibili genituen*).
+- *gaitza* ≠ solo "enfermedad/mal": como adjetivo significa "difícil, enorme" (*lan gaitza*).
 
 ## Gramática que cae sí o sí
 
@@ -149,7 +149,7 @@ Si añades dativo (NORI):
 - *Nik zuri esan dizut* — Yo te lo he dicho a ti.
 - *Hark guri esan digu* — Él/ella nos lo ha dicho.
 
-### 2. Perpaus erlatiboa (clausulas relativas)
+### 2. Perpaus erlatiboa (cláusulas relativas)
 
 Cuatro formas que se confunden:
 
@@ -191,4 +191,4 @@ Sufijos productivos: **-tzaile/-le** (agente), **-keta/-pen** (acción), **-tegi
 
 Atención al **NORK plural -ek** vs **NOR plural -ak**: se confunden visualmente y son la trampa más recurrente.
 
-> **Resumen:** repasa estos siete bloques (sinónimos, *-garri/-tsu*, locuciones, NOR-NORI-NORK, erlatiboa, aspektua, hitz-eraketa, deklinabidea) y tendrás cubierto el 70-80 % de los 50 puntos de hizkuntza baliabideak.
+> **Resumen:** repasa estos ocho bloques (sinónimos, *-garri/-tsu*, locuciones, NOR-NORI-NORK, erlatiboa, aspektua, hitz-eraketa, deklinabidea) y tendrás cubierto el 70-80 % de los 50 puntos de hizkuntza baliabideak.

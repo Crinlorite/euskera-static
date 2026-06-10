@@ -104,5 +104,5 @@ El "hiru arrazoi nagusirengatik" anuncia la estructura del cuerpo. El lector ya 
 C1 valora el matiz. Una tesis **absoluta** ("X da beti onena") suele resultar débil: cuesta defenderla sin caer en simplificación. Una tesis **matizada** ("X da bide egokia, baldin eta Y bermatzen bada") es más sólida y abre argumentación natural.
 
 > Reglas de oro:
-> - Si tu tesis cabe en un eslogan, pruébala con un caso límite. Si no aguanta, mátizala.
+> - Si tu tesis cabe en un eslogan, pruébala con un caso límite. Si no aguanta, matízala.
 > - La tesis no es una pregunta. Las preguntas se hacen en la introducción para llamar la atención; la tesis es la **respuesta** que tú das.

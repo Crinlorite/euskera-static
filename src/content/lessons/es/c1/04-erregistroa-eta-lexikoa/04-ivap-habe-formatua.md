@@ -48,7 +48,7 @@ exercises:
       - '"Bueno, hori da. Ondo izan."'
       - '"Hau da hau."'
     answer: 1
-    explanation: '"Aldez aurretik eskerrak emanez, agur bero bat" es la fórmula de cierre formal estándar en cartas tipo carta formal.'
+    explanation: '"Aldez aurretik eskerrak emanez, agur bero bat" es una fórmula de cierre estándar en la carta formal.'
   - id: ex-c1-erre-04-mc5
     type: multiple-choice
     prompt: 'En la apertura de una carta formal argumentativa, ¿cuál de estas fórmulas es correcta?'
@@ -81,7 +81,7 @@ exercises:
       - { eu: 'argudiatuz', es: 'argumentando' }
       - { eu: 'eskertuko nizuke', es: 'le agradecería' }
       - { eu: 'agur bero bat', es: 'un cordial saludo' }
-      - { eu: 'agur agurgarria', es: 'atentamente' }
+      - { eu: 'adeitasunez', es: 'atentamente' }
       - { eu: 'argi eta garbi', es: 'clara y abiertamente' }
 ---
 
@@ -181,8 +181,8 @@ Cierra con lo que pides o la postura final.
 | Fórmula | Tono |
 |---|---|
 | *Aldez aurretik eskerrak emanez, agur bero bat.* | Cordial-formal. |
-| *Eskerrik asko zure arretagatik. Agur agurgarria.* | Más formal aún. |
-| *Itxaroten dut zure erantzuna. Agur bero bat.* | Indica espera de respuesta. |
+| *Eskerrik asko zure arretagatik. Adeitasunez.* | Más formal aún. |
+| *Zure erantzunaren zain geratzen naiz. Agur bero bat.* | Indica espera de respuesta. |
 
 ## Errores típicos en los tres formatos
 

@@ -44,7 +44,7 @@ exercises:
     pairs:
       - { eu: galdera erretorikoa, es: pregunta retórica }
       - { eu: datu-eragilea, es: dato impactante de apertura }
-      - { eu: kontextualizazioa, es: contextualización del tema }
+      - { eu: kontestualizazioa, es: contextualización del tema }
       - { eu: definizio iradokitzailea, es: definición sugerente }
       - { eu: aipu esanguratsua, es: cita significativa }
       - { eu: kontraste-irudia, es: imagen contrastante }
@@ -64,7 +64,7 @@ exercises:
 
 No todas las introducciones funcionan igual. La elección del tipo de **sarrera** condiciona el tono del texto y prepara — o estropea — la tesis. Cinco modelos válidos en C1.
 
-## 1. Kontextualizazio neutroa
+## 1. Kontestualizazio neutroa
 
 La opción más segura: situar el tema en el momento, en la sociedad o en un sector concreto. Funciona siempre y no consume mucho espacio.
 
@@ -104,7 +104,7 @@ Riesgo: si la cita ocupa más que la tesis, se desequilibra. En IVAP 180 palabra
 
 Abrir con dos realidades enfrentadas — antes/ahora, hemen/han, esan/egin.
 
-> *Lehen, jostailu bakarrarekin asebetetzen ziren haurrak; gaur, hamar dauzkate eta aspertzen dira.*
+> *Lehen, jostailu bakarrarekin asetzen ziren haurrak; gaur, hamar dauzkate eta aspertzen dira.*
 
 Ventaja: instala una tensión que el desarrollo resolverá.
 Riesgo: si el contraste es caricaturesco, debilita la credibilidad.

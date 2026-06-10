@@ -138,7 +138,7 @@ Adjetivo + tasun = sustantivo abstracto de cualidad.
 | malgu | malgutasun (flexibilidad) |
 | ahul | ahultasun (debilidad) |
 | zintzo | zintzotasun (honradez) |
-| iraunkorra | iraunkortasun (sostenibilidad) |
+| iraunkor | iraunkortasun (sostenibilidad) |
 
 ### Sufijo -keta (acción / resultado)
 
@@ -158,7 +158,7 @@ Indica proceso o sistema completo.
 | Raíz | Nominal |
 |---|---|
 | eraiki | eraikuntza (construcción) |
-| heziketa-base | heziketa / hezkuntza (educación) |
+| hezi | heziketa / hezkuntza (educación) |
 | antolatu | antolakuntza (organización) |
 | aldatu | aldakuntza (proceso de cambio) |
 
@@ -169,26 +169,26 @@ Indica capacidad o facultad de.
 | Raíz | Nominal |
 |---|---|
 | erabaki | erabakimen (capacidad de decisión) |
-| ahalmena (poder, capacidad) |
-| sentimena (sentimiento) |
-| iritzi → iritzi-emaile *(otro patrón)* |
+| ahal | ahalmen (poder, capacidad) |
+| sentitu | sentimen (sentimiento) |
+| ulertu | ulermen (comprensión) |
 
 ### Sufijo -pen (acción / efecto, frecuente con verbos)
 
 | Raíz | Nominal |
 |---|---|
-| asebete | asebetetzea / asebetepena (satisfacción) |
+| garatu | garapen (desarrollo) |
 | onartu | onarpen (aceptación, aprobación) |
-| ulertu | ulermen (comprensión) |
-| sortu | sorkuntza/sorpen (creación) |
+| itzuli | itzulpen (traducción) |
+| adierazi | adierazpen (declaración, expresión) |
 
 ### Sufijo -tza (estado, oficio, abstracto)
 
 | Raíz | Nominal |
 |---|---|
-| nagusi → nagusitza (predominio) |
-| irakasle → irakaskuntza (enseñanza) |
-| izan → izaera (carácter) |
+| nagusi | nagusitza (predominio) |
+| jabe | jabetza (propiedad) |
+| ezkondu | ezkontza (matrimonio, boda) |
 
 ## Cómo usar nominalizaciones para densificar
 
@@ -198,7 +198,7 @@ Frase B2:
 
 Versión C1 con nominalización:
 
-> *Erabakimena eta negoziazio-gaitasuna dituzte ezinbestekoak.*
+> *Erabakimena eta negoziazio-gaitasuna ezinbesteko dituzte.*
 
 Más densa, menos verbal, más abstracta.
 
@@ -221,7 +221,7 @@ Eso no es C1, es Boletín Oficial. Alterna nominal y verbal.
 | txarra | kaltegarria, eskasa, desegokia, problematikoa |
 | ona | aproposa, baliagarria, eraginkorra, oparoa |
 | handia | nabarmena, esanguratsua, sakona, hedatua |
-| pentsatu | hausnartu, gogoeta egin, irizten, ohartu |
+| pentsatu | hausnartu, gogoeta egin, iritzi, ohartu |
 | aldatu | eraldatu, moldatu, biratu, doitu |
 
 Saber alternar tres o cuatro versiones de cada palabra-comodín distingue el C1 del B2.
