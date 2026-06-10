@@ -14,14 +14,19 @@
   let result: 'pending' | 'correct' | 'wrong' = 'pending';
   const dispatch = createEventDispatcher<{ result: { exerciseId: string; score: number; finished: boolean } }>();
 
-  $: parts = prompt.split('___');
-  $: before = parts[0] ?? prompt;
-  $: after = parts[1] ?? '';
+  // Un "hueco" es una racha de 3+ guiones bajos; rachas consecutivas separadas
+  // solo por espacios forman UN único hueco multi-palabra ("___ ___" = respuesta
+  // de dos palabras). El texto posterior al hueco se conserva siempre íntegro.
+  const GAP_RE = /_{3,}(?:[ \t]+_{3,})*/;
+  $: gapMatch = GAP_RE.exec(prompt);
+  $: before = gapMatch ? prompt.slice(0, gapMatch.index) : prompt;
+  $: after = gapMatch ? prompt.slice(gapMatch.index + gapMatch[0].length) : '';
+  $: wordHint = gapMatch ? gapMatch[0].split(/[ \t]+/).map(() => '___').join(' ') : '___';
 
   function check() {
     if (result !== 'pending') return;
-    const v = normalize(value);
-    const ok = answers.some((a) => normalize(a) === v);
+    const v = normalize(value).replace(/\s+/g, ' ');
+    const ok = answers.some((a) => normalize(a).replace(/\s+/g, ' ') === v);
     result = ok ? 'correct' : 'wrong';
     dispatch('result', { exerciseId: id, score: ok ? 100 : 0, finished: true });
   }
@@ -39,16 +44,21 @@
       autocomplete="off"
       autocorrect="off"
       spellcheck="false"
-      placeholder="___"
+      placeholder={wordHint}
+      style={`min-inline-size: ${Math.max(6, wordHint.length * 0.7)}em`}
     />
     <span>{after}</span>
   </p>
   <button class="btn btn-primary" on:click={check} disabled={result !== 'pending' || !value.trim()}>
     {t(locale, 'common.check')}
   </button>
-  {#if result === 'wrong'}
-    <p class="hint">Era: <strong>{answers[0]}</strong></p>
-  {/if}
+  <p class="feedback" role="status">
+    {#if result === 'correct'}
+      <span class="ok">{t(locale, 'exercise.correct')}</span>
+    {:else if result === 'wrong'}
+      {t(locale, 'exercise.was')} <strong>{answers[0]}</strong>
+    {/if}
+  </p>
   {#if result !== 'pending' && explanation}
     <p class="explain">{explanation}</p>
   {/if}
@@ -67,6 +77,8 @@
     font-size: 1rem;
   }
   input:focus { outline: 2px solid var(--c-text); outline-offset: 1px; border-color: var(--c-text); }
-  .hint { color: var(--c-green-strong); }
+  .feedback { color: var(--c-green-strong); margin-block: var(--s-3) 0; min-block-size: 1.2em; }
+  .feedback:empty { margin: 0; min-block-size: 0; }
+  .feedback .ok { color: var(--c-green-strong); font-weight: 600; }
   .explain { color: var(--c-text-muted); font-size: 0.9rem; }
 </style>

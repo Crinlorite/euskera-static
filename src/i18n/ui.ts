@@ -20,6 +20,10 @@ export type StringKey =
   | 'beta.banner'
   | 'common.cancel' | 'common.continue' | 'common.close' | 'common.copy' | 'common.download'
   | 'common.check' | 'common.skip' | 'common.skip-content'
+  | 'exercise.correct' | 'exercise.was'
+  | 'exercise.match.help' | 'exercise.match.mistakes'
+  | 'exercise.flash.counter' | 'exercise.flash.reveal' | 'exercise.flash.hide'
+  | 'exercise.flash.learning' | 'exercise.flash.known' | 'exercise.flash.round'
   | 'sources.statement';
 
 const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
@@ -70,6 +74,16 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'common.check': 'Comprobar',
     'common.skip': 'Saltar',
     'common.skip-content': 'Saltar al contenido',
+    'exercise.correct': '¡Correcto!',
+    'exercise.was': 'Era:',
+    'exercise.match.help': 'Empareja cada palabra con su traducción.',
+    'exercise.match.mistakes': 'Errores: {0}',
+    'exercise.flash.counter': 'Tarjeta {0} de {1}',
+    'exercise.flash.reveal': '(toca para ver traducción)',
+    'exercise.flash.hide': '(toca para ocultar)',
+    'exercise.flash.learning': 'Lo aprendo',
+    'exercise.flash.known': 'Lo sabía',
+    'exercise.flash.round': 'Ronda terminada: sabías {0} de {1}.',
     'sources.statement': 'El currículum sigue los estándares CEFR oficiales para los niveles A1-C2 del euskera. Las explicaciones, ejemplos y ejercicios son material original. Vocabulario y reglas gramaticales son hechos lingüísticos de dominio público.',
   },
   // Peninsulares (planned, sin traducciones aún)
@@ -81,4 +95,12 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
 
 export function t(locale: LocaleCode, key: StringKey): string {
   return STRINGS[locale]?.[key] ?? STRINGS['es']?.[key] ?? key;
+}
+
+// Variante con interpolación posicional: tf('es', 'exercise.flash.counter', 2, 10)
+// sustituye {0}, {1}… en el string. Mantiene t() puro para los casos sin args.
+export function tf(locale: LocaleCode, key: StringKey, ...args: Array<string | number>): string {
+  let s = t(locale, key);
+  args.forEach((a, i) => { s = s.replaceAll(`{${i}}`, String(a)); });
+  return s;
 }

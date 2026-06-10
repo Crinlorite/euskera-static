@@ -78,14 +78,35 @@ export function getProgress(): ProgressV1 {
 }
 
 let saveTimer: ReturnType<typeof setTimeout> | null = null;
+let pendingSave: ProgressV1 | null = null;
 
 export function setProgress(p: ProgressV1) {
   if (!isStorageAvailable()) return;
   p.lastUpdated = new Date().toISOString();
+  pendingSave = p;
   if (saveTimer) clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
+    flushPendingSave();
   }, 500);
+}
+
+// El debounce de 500ms pierde la última escritura si el usuario cierra la
+// pestaña justo tras terminar un ejercicio. pagehide cubre cierre, navegación
+// externa y bfcache; visibilitychange cubre cambio de app en móvil.
+function flushPendingSave() {
+  if (saveTimer) { clearTimeout(saveTimer); saveTimer = null; }
+  if (pendingSave === null) return;
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(pendingSave));
+  } catch { /* storage lleno o bloqueado — no hay nada que hacer */ }
+  pendingSave = null;
+}
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('pagehide', flushPendingSave);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') flushPendingSave();
+  });
 }
 
 // Migración path-based legacy → opaque IDs estables.
