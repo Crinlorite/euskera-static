@@ -22,9 +22,9 @@ exercises:
   - id: ex-b2-norb3-mc2
     type: multiple-choice
     prompt: '"Se ha vestido" (él/ella, sin ayuda):'
-    options: ['Jantzi du', 'Jantzi da', 'Bere burua jantzi du', 'Jantzia da']
+    options: ['Jantzi du', 'Bere burua jantzi da', 'Bere burua jantzi du', 'Jantzia da']
     answer: 2
-    explanation: 'Con la idea reflexiva explícita, *bere burua jantzi du*. *Jantzi da* (sin reflexivo explícito) también es habitual en lengua hablada.'
+    explanation: 'Con la idea reflexiva explícita, *bere burua jantzi du*: el auxiliar es transitivo (NOR-NORK). Sin reflexivo explícito, lo habitual es *jantzi da*.'
   - id: ex-b2-norb3-fb1
     type: fill-in-blank
     prompt: '"Vosotros os engañáis a vosotros mismos" — ____________ buruak engainatzen dituzue.'
@@ -67,7 +67,7 @@ Las **oraciones reflexivas** (*perpaus bihurkariak*) son aquellas en las que suj
 | zuek | *zeuen buruak* | a vosotros mismos/as |
 | haiek | *beren buruak* | a sí mismos/as |
 
-> En euskera estándar **gu, zuek, haiek** llevan **buruak** en plural: cada uno tiene su propia "cabeza". Pero también se ve *bere burua* tras un sujeto plural (más coloquial).
+> En euskera estándar **gu, zuek, haiek** llevan **buruak** en plural: cada uno tiene su propia "cabeza". Pero también se ve *beren burua* (con *burua* en singular) tras un sujeto plural.
 
 ## Posesivos: nire vs neure
 
@@ -86,7 +86,7 @@ La forma **intensiva** es la que se usa en reflexivos, y también para enfatizar
 
 ## Conjugación: el verbo es transitivo
 
-Aunque la traducción castellana lleve *me, te, se*, el verbo en euskera **es transitivo (NOR-NORK)**: el sujeto va en ergativo (*-ek*) si es plural, y el auxiliar es *dut/duzu/du/dugu/duzue/dute*.
+Aunque la traducción castellana lleve *me, te, se*, el verbo en euskera **es transitivo (NOR-NORK)**: el sujeto va en ergativo (*nik, zuk, berak, guk...*), y el auxiliar es *dut/duzu/du/dugu/duzue/dute*.
 
 - *Nik **neure burua ezagutzen dut**.* — Yo me conozco a mí mismo. (sujeto *nik* en ergativo)
 - *Zuk **zeure burua zaintzen duzu**.* — Tú te cuidas a ti mismo.

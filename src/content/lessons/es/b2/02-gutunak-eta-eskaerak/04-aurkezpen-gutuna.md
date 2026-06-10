@@ -93,7 +93,7 @@ Empezar con la fuente da contexto:
 
 Dos o tres líneas, no más. Deja datos para el CV.
 
-- *Hezkuntza ikasketak ditut eta ondoko bost urteetan ___ erakundean lan egin dut, ___ arloan.* — Tengo formación en Educación y los últimos cinco años he trabajado en la entidad ___, en el área de ___.
+- *Hezkuntza ikasketak ditut eta azken bost urteetan ___ erakundean lan egin dut, ___ arloan.* — Tengo formación en Educación y los últimos cinco años he trabajado en la entidad ___, en el área de ___.
 - *Goi-mailako zikloa egin nuen ___ -an, eta orduz geroztik hainbat enpresatan aritu naiz.* — Hice un ciclo superior en ___ y desde entonces he trabajado en varias empresas.
 
 ## Párrafo 3 — Por qué encajas (con ejemplo)
@@ -119,7 +119,7 @@ Tres elementos:
 Frases-modelo:
 
 - *Pozik egongo nintzateke nire profila aurrez aurre azaltzeko aukera izango banu.* — Estaría encantado/a de poder explicar mi perfil personalmente.
-- *Edozein unetan deitu zaitezkete: ___ telefonora.* — Pueden llamarme en cualquier momento al ___.
+- *Edozein unetan dei diezadakezue: ___ telefonora.* — Pueden llamarme en cualquier momento al ___.
 - *Eskerrik asko nire hautagaitza kontuan hartzeagatik.* — Gracias por considerar mi candidatura.
 
 ## Tono y registro
@@ -149,7 +149,7 @@ Donostian, 2026ko otsailaren 18an
 
 Gaia: ___ lanposturako hautagaitza.
 
-Agurgarria,
+Agurgarria:
 
 [1 — cómo te has enterado + puesto]
 [2 — perfil resumido]

@@ -90,7 +90,7 @@ Mismo orden inverso. Cada entrada lleva:
 
 - **Cuándo** — *2020etik gaur arte*, *2018–2019*.
 - **Puesto** — *Hezitzailea*, *Saltzailea*, *Programatzailea*.
-- **Empresa o centro** — *Donostiako Udala*, *Lasarteko adingabeko zentroan*.
+- **Empresa o centro** — *Donostiako Udala*, *Lasarteko adingabeen zentroa*.
 - **Función breve** — una línea.
 
 ## Hizkuntzak

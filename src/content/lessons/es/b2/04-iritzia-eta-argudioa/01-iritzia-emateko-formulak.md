@@ -27,7 +27,7 @@ exercises:
     explanation: '*Iruditzen zait* = me parece. NOR-NORI: el sujeto es lo que parece.'
   - id: ex-b2-iri1-fb1
     type: fill-in-blank
-    prompt: '"No tengo dudas" — Inolako ___________ gabe.'
+    prompt: '"Sin ningún tipo de duda" — Inolako ___________ gabe.'
     answers: [zalantzarik, ZALANTZARIK]
     explanation: '*Zalantzarik gabe* = sin duda. *Inolako* refuerza el sentido de "ningún tipo de".'
   - id: ex-b2-iri1-fc

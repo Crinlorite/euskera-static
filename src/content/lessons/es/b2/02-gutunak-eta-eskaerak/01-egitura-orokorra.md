@@ -23,9 +23,9 @@ exercises:
     explanation: '*Adeitasunez* = "atentamente"; aparece justo antes de la firma.'
   - id: ex-b2-gut1-fb1
     type: fill-in-blank
-    prompt: '"Estimado señor" como saludo formal: ___________ jauna.'
-    answers: [Agurgarria, agurgarria]
-    explanation: '*Agurgarria* (literalmente "saludable, digno de saludo") es la forma estándar de "estimado/a, distinguido/a".'
+    prompt: '"Estimado señor" como saludo formal: Jaun ___________.'
+    answers: [agurgarria, Agurgarria, AGURGARRIA]
+    explanation: '*Jaun agurgarria* = "Estimado señor". *Agurgarri* (literalmente "digno de saludo") equivale a "estimado/a, distinguido/a" y, como todo adjetivo, va detrás de *jaun/andre*.'
   - id: ex-b2-gut1-fc
     type: flashcards
     cards:
@@ -60,7 +60,7 @@ Una **carta formal** (*gutun formala*) sigue siempre la misma estructura. Saberl
 2. IGORLEA                 → tus datos
 3. HARTZAILEA              → datos del destinatario
 4. GAIA                    → "Asunto: ..."
-5. AGURRA                  → "Agurgarria,"
+5. AGURRA                  → "Agurgarria:"
 6. GORPUTZA                → cuerpo de la carta
 7. AGUR-FORMULA + SINADURA → "Adeitasunez, Garazi Etxeberria"
 ```
@@ -114,13 +114,13 @@ Las fórmulas más habituales:
 
 | Fórmula | Cuándo se usa |
 |---|---|
-| *Agurgarria,* | Estándar, neutra |
-| *Agurgarri jauna / andrea,* | Cuando conoces el género |
-| *Jaun/Andre agurgarriak,* | Plural, varios destinatarios |
-| *Zuzendari jauna,* | Si conoces el cargo |
+| *Agurgarria:* | Estándar, neutra |
+| *Jaun / andre agurgarria:* | Cuando conoces el género |
+| *Jaun-andre agurgarriak:* | Plural, varios destinatarios |
+| *Zuzendari jauna:* | Si conoces el cargo |
 | *Kaixo,* | Solo informal — **NO** en cartas administrativas |
 
-> El saludo va **seguido de coma**, no de dos puntos. La frase siguiente empieza con mayúscula y aparte.
+> El saludo va **seguido de dos puntos**, como en castellano. La frase siguiente empieza con mayúscula y aparte.
 
 ## 6. Gorputza (cuerpo)
 
@@ -161,7 +161,7 @@ Donostian, 2026ko martxoaren 8an
 
 Gaia: ...
 
-Agurgarria,
+Agurgarria:
 
 [Sarrera: nor naizen eta zergatik idazten dudan]
 

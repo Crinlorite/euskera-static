@@ -31,8 +31,7 @@ exercises:
     explanation: 'En negación se usa **-(e)nik** (más cuidado: *Ez dut uste etorriko **denik***), aunque *Ez dut uste etorriko **dela*** también se acepta.'
   - id: ex-b2-adi2-fb1
     type: fill-in-blank
-    prompt: '"Sé que vives en Bilbao" — Badakit Bilbon bizi ___________.
-'
+    prompt: '"Sé que vives en Bilbao" — Badakit Bilbon bizi ___________.'
     answers: [zarela, ZARELA]
     explanation: '*Bizi zara* + *-la* = *bizi zarela*. La completiva *-(e)la* se cuelga del auxiliar.'
   - id: ex-b2-adi2-fb2
@@ -50,7 +49,7 @@ exercises:
       - { eu: galdetu dit non bizi naizen, es: me ha preguntado dónde vivo }
       - { eu: ez dakit nor den, es: no sé quién es }
       - { eu: esan zidan etorriko zela, es: me dijo que vendría }
-      - { eu: erantzun zion bai zela, es: le respondió que sí lo era }
+      - { eu: baietz erantzun zion, es: le respondió que sí }
   - id: ex-b2-adi2-mp
     type: match-pairs
     pairs:

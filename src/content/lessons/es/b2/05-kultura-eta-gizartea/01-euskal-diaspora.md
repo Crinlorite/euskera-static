@@ -27,9 +27,9 @@ exercises:
     explanation: 'Argentina (especialmente la pampa húmeda y Buenos Aires) acoge la mayor comunidad histórica de descendientes vascos en América.'
   - id: ex-b2-kul1-fb1
     type: fill-in-blank
-    prompt: '"Emigrar" en euskera: ___________ egin.'
+    prompt: '"Emigrar" en euskera: ___________.'
     answers: [emigratu, EMIGRATU]
-    explanation: '*Emigratu* (verbo) o *emigrazioa* (sustantivo). El sinónimo más euskaldun es *emigrazioa egin* o *atzerrira joan*.'
+    explanation: '*Emigratu* (verbo) o *emigrazioa* (sustantivo). La alternativa más patrimonial es *atzerrira joan*.'
   - id: ex-b2-kul1-fc
     type: flashcards
     cards:
@@ -66,14 +66,14 @@ En el caso vasco, son los descendientes y emigrantes que mantienen vínculo cult
 | Continente | Países con presencia destacada |
 |---|---|
 | América | Argentina, Uruguay, Chile, EEUU (sobre todo Idaho, Nevada, California), México |
-| Europa | Francia (Bordele, Pariseko zonaldea), Reino Unido |
+| Europa | Francia (Bordele, Parisko ingurua), Reino Unido |
 | Australia | Comunidad reducida pero activa |
 
 ## Olas migratorias principales
 
 ### Siglo XIX (1830-1900)
 
-> *Mende horretan, etxalde txikiak ezin zuen seme guztiei ondasunik utzi, eta seme zaharrenak ez beste guztiek atzerrira joan behar izan zuten lan bila.*
+> *Mende horretan, etxalde txikiak ezin zien seme guztiei ondasunik utzi, eta seme zaharrenak ez beste guztiek atzerrira joan behar izan zuten lan bila.*
 
 Vocabulario clave de esta etapa:
 
@@ -128,7 +128,7 @@ El Gobierno Vasco mantiene programas para conectar la diáspora con Euskal Herri
 | *euskal jatorria* | origen vasco |
 | *euskaldunberria* | persona que ha aprendido euskera (no de cuna) |
 | *itzulera* | retorno |
-| *enborra mantendu* | mantener la raíz |
+| *enborra mantendu* | mantener el tronco (la raíz familiar) |
 | *errotu* | enraizarse |
 | *kultura biziarazi* | mantener viva la cultura |
 
@@ -136,9 +136,9 @@ El Gobierno Vasco mantiene programas para conectar la diáspora con Euskal Herri
 
 Plantillas útiles si te toca hablar o escribir sobre tu familia (real o ficticia):
 
-> *Nire arbasoak Bizkaiakoak ziren, baina XIX. mende amaieran, lan bila, Argentinara joan ziren. Han kokatu ziren, han ezkondu, eta han ekin zioten beste bizimodu bati.*
+> *Nire arbasoak Bizkaikoak ziren, baina XIX. mende amaieran, lan bila, Argentinara joan ziren. Han kokatu ziren, han ezkondu, eta han ekin zioten beste bizimodu bati.*
 
-> *Belaunaldi batez, euskara galdu zen familian. Nire amonak gaztelania zekien soilik, baina amak, gaztetan, Eusko Etxean ikasi zuen euskaraz, eta orain ni neuk ari naiz osatzen lotura hori.*
+> *Belaunaldi batez, euskara galdu zen familian. Nire amonak gaztelania zekien soilik, baina amak, gaztetan, Eusko Etxean euskara ikasi zuen, eta orain ni neu ari naiz lotura hori osatzen.*
 
 ## Ideas para un texto B2
 
