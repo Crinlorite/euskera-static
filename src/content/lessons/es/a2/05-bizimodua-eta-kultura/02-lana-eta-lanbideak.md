@@ -131,24 +131,24 @@ Pasos típicos y vocabulario:
 
 | Castellano | Euskera |
 |---|---|
-| Lan-eskaintza | oferta de empleo |
+| Oferta de empleo | *lan-eskaintza* |
 | Curriculum / CV | *curriculuma* |
 | Carta de presentación | *aurkezpen-gutuna* |
-| Lan-elkarrizketa | entrevista de trabajo |
-| Esperientzia | experiencia |
-| Erreferentziak | referencias |
-| Hizkuntzak | idiomas |
-| Trebetasunak | habilidades |
-| Ikasketak | estudios |
+| Entrevista de trabajo | *lan-elkarrizketa* |
+| Experiencia | *esperientzia* |
+| Referencias | *erreferentziak* |
+| Idiomas | *hizkuntzak* |
+| Habilidades | *trebetasunak* |
+| Estudios | *ikasketak* |
 
 ## Frases típicas en una entrevista
 
 | Castellano | Euskera |
 |---|---|
-| Cuéntame algo de ti | *Konta zaitez pixka bat* |
+| Cuéntame algo de ti | *Konta iezadazu zerbait zuri buruz* |
 | ¿Por qué quieres este puesto? | *Zergatik nahi duzu lanpostu hau?* |
 | ¿Qué experiencia tienes? | *Zer esperientzia daukazu?* |
-| Hablo euskera, castellano e inglés | *Euskara, gaztelania eta ingelesa hitz egiten ditut* |
+| Hablo euskera, castellano e inglés | *Euskaraz, gaztelaniaz eta ingelesez hitz egiten dut* |
 | Estoy disponible desde junio | *Ekainetik aurrera nago eskuragarri* |
 | ¿Qué sueldo quieres? | *Zer **soldata** nahi duzu?* |
 
@@ -174,9 +174,9 @@ Para describir tu trabajo en términos más complejos, te conviene usar la **rel
 
 ## Mini-diálogo: lan-elkarrizketa
 
-> *— Egun on. Eseri, mesedez. **Konta iezadazu** zertan **egin duzun lan** orain arte.*
+> *— Egun on. Eseri, mesedez. **Konta iezadazu** zertan **lan egin duzun** orain arte.*
 >
-> *— Bai. Bost urtez **lan egin dut** Bilboko diseinu-enpresa batean. Han **dauzkadan zereginek** bezeroentzako proiektuak diseinatzea da.*
+> *— Bai. Bost urtez **lan egin dut** Bilboko diseinu-enpresa batean. Han **daukadan zeregina** bezeroentzako proiektuak diseinatzea da.*
 >
 > *— Ondo. Eta zergatik nahi duzu **lanpostu hau**?*
 >
@@ -184,6 +184,6 @@ Para describir tu trabajo en términos más complejos, te conviene usar la **rel
 
 ## Mini-texto: descripción del trabajo
 
-> *Lander **kazetari** lanetan dabil duela hamar urtetik. Bilboko egunkari batean **lan egiten du**, **lanaldi osoan**. Goizeko zortzietan hasten da eta bostetan amaitzen du. Berarentzat **garrantzitsuena** albisteak ondo **kontatzea** da. **Soldata** ez da oso handia, baina **gustatzen zaion lana** dauka, eta **lankide jatorrak** ditu.*
+> *Lander **kazetari** lanetan dabil hamar urtetik hona. Bilboko egunkari batean **lan egiten du**, **lanaldi osoan**. Goizeko zortzietan hasten da eta bostetan amaitzen du. Berarentzat **garrantzitsuena** albisteak ondo **kontatzea** da. **Soldata** ez da oso handia, baina **gustatzen zaion lana** dauka, eta **lankide jatorrak** ditu.*
 
 > **Nota cultural:** en Euskal Herria muchas ofertas de empleo público (Osakidetza, Eusko Jaurlaritza, ayuntamientos) puntúan el conocimiento del euskera con un sistema de **"perfiles"** (PL1, PL2, PL3, PL4). Aprender euskera no es solo cultural: para muchos puestos públicos es competitivo.

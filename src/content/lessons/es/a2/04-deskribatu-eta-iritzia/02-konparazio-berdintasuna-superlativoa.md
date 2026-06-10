@@ -5,7 +5,7 @@ code: 02-konparazio-berdintasuna-superlativoa
 unit: 04-deskribatu-eta-iritzia
 level: a2
 order: 2
-title: Berdintasuna eta superlativoa — igualdad y superlativo
+title: Berdintasuna eta superlatiboa — igualdad y superlativo
 estimatedMinutes: 12
 covers: [a2-comp-equality, a2-comp-superlative]
 exercises:
@@ -69,7 +69,7 @@ Para "tan... como" con adjetivo o adverbio:
 | Tan alto como tú | *Zu **bezain** altua* |
 | Tan bonita como Donostia | *Donostia **bezain** polita* |
 | Tan bueno como su padre | *Aita **bezain** ona* |
-| No tan rápido como creía | *Uste nuena **bezain** azkar ez da* |
+| No tan rápido como creía | *Uste nuen **bezain** azkarra ez da* |
 
 > Frase completa: *Lander **zu bezain altua** da.* — Lander es tan alto como tú.
 
@@ -138,7 +138,7 @@ Cuando indicas **dentro de qué grupo**, usas el caso locativo o el genitivo:
 
 > *Klaseko ikasle **azkarrena** da.* — Es el alumno más rápido de la clase.
 >
-> *Euskal Herriko mendi **altuena** Aizkorri da.* — La montaña más alta del País Vasco es Aizkorri.
+> *Euskal Herriko mendi **altuena** Hiru Errege Mahaia da.* — La montaña más alta de Euskal Herria es Hiru Errege Mahaia (la Mesa de los Tres Reyes).
 
 ## *Gehien / gutxien* — el que más / el que menos
 
@@ -154,7 +154,7 @@ Equivalentes superlativos de cantidad o frecuencia:
 
 Frases típicas:
 
-- *Aizkorri Euskal Herriko mendi **altuena** da.* — Aizkorri es el monte más alto de Euskal Herria.
+- *Hiru Errege Mahaia Euskal Herriko mendi **altuena** da.* — Hiru Errege Mahaia (la Mesa de los Tres Reyes) es el monte más alto de Euskal Herria.
 - *Korrika euskararen aldeko ekintza **handiena** da.* — Korrika es la mayor acción a favor del euskera.
 - *San Fermin festa famatuena da.* — San Fermín es la fiesta más famosa.
 
