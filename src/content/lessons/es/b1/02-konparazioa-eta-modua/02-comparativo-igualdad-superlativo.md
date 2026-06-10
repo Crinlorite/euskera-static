@@ -52,7 +52,7 @@ exercises:
       - { eu: bezala, es: como (modo) }
       - { eu: -en moduan, es: del modo que }
       - { eu: -en bezala, es: como (igual que) }
-      - { eu: -en, es: -ísimo (superlativo) }
+      - { eu: -en, es: el más … (superlativo) }
       - { eu: guztietan -ena, es: el más ... de todos }
       - { eu: -egi, es: demasiado ... }
       - { eu: gehiegi, es: demasiado (en cantidad) }
@@ -99,15 +99,15 @@ Para "como" en sentido de modo, no de cantidad:
 
 - *handi → handi**ena*** (el más grande)
 - *garesti → garesti**ena*** (el más caro)
-- *azkar → azkar**ena*** (el más rápido)
+- *azkar → azkar**rena*** (el más rápido)
 
 ### Concretar el grupo
 
 Para decir "el más X **de Y**", el grupo de referencia se pone en genitivo o con **artean** (entre):
 
 - *Familia**ko** altuena.* — El más alto **de la familia**.
-- *Klase**ko** ikasle**rik** ona ona... (mejor: ona).* — El mejor alumno de la clase.
-- *Lagun**en artean**, Olatz da pozgarriena.* — Entre los amigos, Olatz es el más alegre.
+- *Klase**ko** ikasle**rik** onena.* — El mejor alumno de la clase.
+- *Lagun**en artean**, Olatz da alaiena.* — Entre los amigos, Olatz es la más alegre.
 
 ### Superlativos irregulares
 
@@ -154,7 +154,7 @@ Para "demasiado/-a/-os/-as" + nombre, se usa **gehiegi** detrás del nombre:
 
 ## Combinaciones
 
-> *Mendia ez da Aralar **bezain** altua, baina paisaiarik ederr**ena** du. Gerta liteke iristea zail**egi**a, baina merezi du saiatzea.*
+> *Mendia ez da Aralar **bezain** altua, baina paisaiarik ederr**ena** du. Gerta liteke iristea zail**egi**a izatea, baina merezi du saiatzea.*
 
 ## Resumen de comparativos
 

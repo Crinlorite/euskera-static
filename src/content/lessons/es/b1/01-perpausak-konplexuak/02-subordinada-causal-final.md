@@ -28,13 +28,13 @@ exercises:
       - "Laguntzera nator"
       - "Lagunduko etortzen naiz"
     answer: 2
-    explanation: 'Para finalidad con verbos de movimiento se usa -**tzera**: *laguntzera nator* ("vengo a ayudar"). *Nator* es la forma sintética de *etorri naiz* en presente.'
+    explanation: 'Para finalidad con verbos de movimiento se usa -**tzera**: *laguntzera nator* ("vengo a ayudar"). *Nator* es la forma sintética de *etorri* en presente (= *etortzen naiz*).'
   - id: ex-b1-pk-02-mc3
     type: multiple-choice
     prompt: '¿Cuál es la diferencia entre -(e)lako y -tzeko?'
     options:
       - "Son sinónimos exactos"
-      - "-(e)lako da causa; -tzeko da finalidad"
+      - "-(e)lako es causa; -tzeko es finalidad"
       - "-(e)lako es informal, -tzeko es formal"
       - "-(e)lako va con verbos transitivos solo"
     answer: 1
@@ -43,12 +43,12 @@ exercises:
     type: fill-in-blank
     prompt: 'Estoy estudiando para aprobar el examen → Azterketa gaindi___ ari naiz ikasten.'
     answers: [tzeko]
-    explanation: '*Gainditu* (aprobar) + -**tzeko** = *gainditzeko* (para aprobar). El radical es *gainditu* → *gainditze*.'
+    explanation: '*Gainditu* (aprobar) + -**tzeko** = *gainditzeko* (para aprobar). El sustantivo verbal es *gainditze* → *gainditzeko*.'
   - id: ex-b1-pk-02-fb2
     type: fill-in-blank
-    prompt: 'Completa: "No quiero salir porque hace frío" → Ez dut atera nahi hotz ___ (porque hace).'
-    answers: [egiten duelako, dagoelako]
-    explanation: '*Hotz egiten duelako* (porque hace frío) o *hotza dagoelako*. Las dos formas son válidas en euskera estándar.'
+    prompt: 'Completa: "No quiero salir porque hace frío" → Ez dut atera nahi hotz egiten ___ (porque hace).'
+    answers: [duelako]
+    explanation: '*Hotz egiten duelako* (porque hace frío). También es válido *hotza dagoelako*.'
   - id: ex-b1-pk-02-fc
     type: flashcards
     cards:
@@ -70,14 +70,14 @@ Tras dominar el "cuándo", el siguiente paso es el "**por qué**" y el "**para q
 
 ## Causa con -(e)lako
 
-> verbo auxiliar + -**en** + -**lako** → -**elako**
+> verbo auxiliar + -**(e)la** + -**ko** → -**elako**
 
 Responde a *zergatik?* ("¿por qué?"). Se pega al verbo igual que -**enean**, pero con sentido causal.
 
-| Frase | Construcción |
+| Frase | Traducción |
 |---|---|
 | *Pozik nago **etorri zarelako**.* | Estoy contento porque has venido. |
-| *Ez dut bukatu **denbora ez nuelako**.* | No lo he terminado porque no tenía tiempo. |
+| *Ez dut bukatu **denborarik ez nuelako**.* | No lo he terminado porque no tenía tiempo. |
 | *Garazi nekatuta dago **lan asko egin duelako**.* | Garazi está cansada porque ha trabajado mucho. |
 
 > **Pista:** la subordinada con -lako va casi siempre **al final**, después de la principal — al revés que en castellano, donde "porque" puede ir delante.
@@ -103,7 +103,7 @@ Responde a *zertarako?* ("¿para qué?"). El verbo subordinado va en forma nomin
 | joan | joa**teko** |
 | etorri | etor**tzeko** |
 
-Para verbos en -**tu**: cae la -**u** y se añade -**tzeko**: *bukatu → bukatzeko*, *gainditu → gainditzeko*.
+Para verbos en -**tu**: cae -**tu** y se añade -**tzeko**: *bukatu → bukatzeko*, *gainditu → gainditzeko*.
 
 ## Finalidad con movimiento: -tzera
 
@@ -120,9 +120,9 @@ Cuando la finalidad va asociada a un verbo de movimiento (*joan*, *etorri*, *ate
 Para reforzar la causa, especialmente al inicio de la oración explicativa:
 
 - *Ez dut deitu. **Izan ere**, telefonoa hondatuta dut.* — No te he llamado. Es que tengo el móvil estropeado.
-- *Etxean geratu naiz, **zeren** euri zaparrada hasi du.* — Me he quedado en casa, **porque** ha empezado a llover a cántaros.
+- *Etxean geratu naiz, **zeren** euri zaparrada hasi baita.* — Me he quedado en casa, **porque** ha empezado a llover a cántaros.
 
-`Zeren` es un calco del castellano y se considera correcto en estándar, aunque en registros más cuidados se prefiere -(e)lako o izan ere.
+`Zeren` es propio del registro literario y pide el verbo con **bait-** (o con -(e)n); en la lengua hablada de hoy se prefiere -(e)lako o izan ere.
 
 ## Conectores causales/consecutivos para argumentar
 
@@ -139,6 +139,6 @@ Para reforzar la causa, especialmente al inicio de la oración explicativa:
 
 ## Ejemplos de B1 (argumentación)
 
-> *Nire ustez, bizikletak askoz osasuntsuagoak dira **autoek baino**, eta **horregatik** auzoan errei berde gehiago jartzea proposatu nahi nuke. **Izan ere**, gero eta kutsadura gehiago dago, eta zerbait egin behar dugu **etorkizuna hobetzeko**.*
+> *Nire ustez, bizikletak askoz osasuntsuagoak dira **autoak baino**, eta **horregatik** auzoan errei berde gehiago jartzea proposatu nahi nuke. **Izan ere**, gero eta kutsadura gehiago dago, eta zerbait egin behar dugu **etorkizuna hobetzeko**.*
 
 Fíjate cómo encadena: comparación → consecuencia (*horregatik*) → propuesta → causa (*izan ere*) → finalidad (*hobetzeko*). Ese es el músculo discursivo del B1.

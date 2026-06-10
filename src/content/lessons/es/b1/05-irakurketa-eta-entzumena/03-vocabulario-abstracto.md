@@ -126,10 +126,10 @@ Equivale al castellano "-dad / -idad / -tud".
 | Verbo | Sufijo | Resultado |
 |---|---|---|
 | irabazi | -pen | irabaz**pen** (ganancia) |
-| arrakasta | -tsu | arrakasta**tsu** (exitoso) |
-| jakin | -kuntza | jakin**duria** (sabiduría) |
-| eraiki | -kuntza | eraiki**kuntza** (construcción) |
-| laguntza | --- | lagun**tza** (ayuda) |
+| hezi | -kuntza | hez**kuntza** (educación) |
+| jakin | -duria | jakin**duria** (sabiduría) |
+| eraiki | -kuntza | erai**kuntza** (construcción) |
+| lagundu | -tza | lagun**tza** (ayuda) |
 
 ### -**garri** : "digno de" o "que provoca"
 
@@ -138,8 +138,8 @@ Crea adjetivos.
 | Raíz | + -garri |
 |---|---|
 | interes | interes**garri** (interesante) |
-| harri (asombro) | harri**garri** (asombroso) |
-| poz | poz**garri** (alegre) |
+| harritu (asombrarse) | harri**garri** (asombroso) |
+| poz | poz**garri** (que da alegría, gratificante) |
 | min (dolor) | min**garri** (doloroso) |
 | ulertu | uler**garri** (comprensible) |
 | irakurri | irakur**garri** (legible) |
@@ -150,10 +150,10 @@ Crea adjetivos.
 | Raíz | + -tegi |
 |---|---|
 | liburu | liburu**tegi** (biblioteca) |
-| ardao (vino) | arda**tegi** (bodega) |
+| ardo (vino) | ardan**degi** (bodega) |
 | agiri (documento) | agiri**tegi** (archivo) |
-| oroi (recuerdo) | oroi**tegi** (memorial) |
-| gauza (cosa) | gauz**ategi** (almacén) |
+| lan (trabajo) | lan**tegi** (taller, fábrica) |
+| bildu (reunir) | bil**tegi** (almacén) |
 
 ### -**le** / -**gile** : agente
 

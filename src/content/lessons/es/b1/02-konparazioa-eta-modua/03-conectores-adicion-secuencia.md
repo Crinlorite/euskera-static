@@ -57,7 +57,7 @@ exercises:
       - { eu: hau da, es: es decir }
       - { eu: alegia, es: es decir / a saber }
       - { eu: adibidez, es: por ejemplo }
-      - { eu: esate baterako, es: por ejemplo (literario) }
+      - { eu: esate baterako, es: por ejemplo (escrito) }
 ---
 
 Una de las cosas que más diferencia a un B1 sólido de un A2 alto es la **densidad de conectores**. Con los mismos verbos y vocabulario, un texto bien conectado parece de nivel mucho más alto.
@@ -71,8 +71,8 @@ Sirven para sumar información a lo ya dicho.
 | **gainera** | neutro | *Lan asko dut. **Gainera**, etxetik egin behar dut.* |
 | **halaber** | escrito/formal | *Aurrekontua handitu da; **halaber**, langile berriak hartu dira.* |
 | **are gehiago** | enfático | *Ez du etorri nahi; **are gehiago**, ez du deituko ere.* |
-| **bestalde** | neutro | *Bestalde**, kontuan hartu behar dugu prezioa.* |
-| **ezezik..., ere** | neutro | *Garazi euskara **ez ezik**, frantsesa **ere** badaki.* |
+| **bestalde** | neutro | ***Bestalde**, kontuan hartu behar dugu prezioa.* |
+| **ez ezik..., ere** | neutro | *Garazik euskara **ez ezik**, frantsesa **ere** badaki.* |
 
 ### El patrón "ez ezik..., ere"
 
@@ -146,7 +146,7 @@ Compara dos versiones del mismo texto:
 > *Bizikletaz ibiltzea ona da. Ez du kutsatzen. Osasuntsua da. Diru gutxi balio du.*
 
 > **Versión con conectores (B1):**
-> *Bizikletaz ibiltzea ondoa da hainbat arrazoirengatik. **Lehenik**, ez du kutsatzen. **Gainera**, oso osasuntsua da, eta diru gutxi balio du. **Azkenik**, **kontuan hartu behar dugu** auzoaren bizikalitatea hobetzen duela.*
+> *Bizikletaz ibiltzea ona da hainbat arrazoirengatik. **Lehenik**, ez du kutsatzen. **Gainera**, oso osasuntsua da, eta diru gutxi balio du. **Azkenik**, **kontuan hartu behar dugu** auzoaren bizi-kalitatea hobetzen duela.*
 
 La segunda versión es la que un examinador puntúa con nota alta.
 

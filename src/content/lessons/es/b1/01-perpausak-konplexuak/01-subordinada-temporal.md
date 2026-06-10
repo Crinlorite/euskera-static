@@ -107,9 +107,9 @@ Para "antes de + infinitivo", tienes dos opciones equivalentes:
 - *Iritsi **bezain laster**, deituko dizut.* — Te llamaré en cuanto llegue.
 - *Etxera heldu **orduko**, neka-neka eginda nago.* — Nada más llegar a casa, estoy agotado.
 
-## Origen temporal: -(e)tik
+## Origen temporal: -(e)netik
 
-> partizipioa + -(e)n + -**etik**
+> verbo conjugado + -(e)n + -**etik**
 
 - *Hona iritsi nintze**netik**, askoz hobeto nago.* — Desde que llegué aquí, estoy mucho mejor.
 - *Euskara ikasten hasi naize**netik**, bizitza zabaldu zait.*

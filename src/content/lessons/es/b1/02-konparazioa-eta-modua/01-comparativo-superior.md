@@ -73,7 +73,7 @@ Lit. "A, **que** B, más-adjetivo".
 | Soy más alto que tú. | *Ni zu **baino** altu**ago**a naiz.* |
 | Bilbao es más grande que Vitoria. | *Bilbo Gasteiz **baino** handi**ago**a da.* |
 | El café está más caliente que el té. | *Kafea tea **baino** bero**ago** dago.* |
-| Garazi corre más rápido que Olatz. | *Garazi Olatz **baino** azkar**ago** dabil.* |
+| Garazi anda más rápido que Olatz. | *Garazi Olatz **baino** azkar**rago** dabil.* |
 
 > Si el adjetivo va con artículo (-**a**), el sufijo -ago entra antes: *altua → altuago**a***. Si va sin artículo (predicativo con *egon*, adverbio), no lleva -a: *bero dago → beroago dago*.
 
@@ -86,7 +86,7 @@ Lit. "A, **que** B, más-adjetivo".
 | polit (bonito) | polit**ago** |
 | garesti (caro) | garesti**ago** |
 | merke (barato) | merke**ago** |
-| azkar (rápido) | azkar**ago** |
+| azkar (rápido) | azkar**rago** |
 | motel (lento) | motel**ago** |
 | altu (alto) | altu**ago** |
 | baxu (bajo) | baxu**ago** |
@@ -101,7 +101,7 @@ Lit. "A, **que** B, más-adjetivo".
 | gutxi (poco) | **gutxiago** | menos |
 | ondo (bien) | **hobeto** | mejor |
 | gaizki (mal) | **okerrago** / **gaizkiago** | peor |
-| goiz (temprano) | **lehenago** | antes |
+| goiz (temprano) | **goizago** / **lehenago** | más temprano / antes |
 | berandu (tarde) | **beranduago** | más tarde |
 
 ## Reforzar el comparativo
@@ -148,7 +148,7 @@ A veces el contexto deja claro con qué se compara, y omites el complemento *bai
    > Correcto: *Bilbo **Gasteiz baino** handiagoa da.*
    > Incorrecto: *Bilbo handiagoa da **baino Gasteiz**.*
 2. **Artículo -a**: si el adjetivo en positivo lleva -a, el comparativo también la lleva: *altua → altuagoa* (no *altuago*).
-3. **Hobea / hobeto**: *hobea* es adjetivo (mejor); *hobeto* es adverbio (mejor, en sentido de "más bien").
+3. **Hobea / hobeto**: *hobea* es adjetivo (mejor); *hobeto* es adverbio (mejor, referido al modo: *hobeto nago*).
 
 ## Ejemplo extendido
 

@@ -106,7 +106,7 @@ Cuando quieres dar más cuerpo al mandato (registro escrito, instrucciones, form
 
 - *Ez egin hori!* — ¡No hagas eso!
 - *Ez ezazu zabaldu!* — ¡No lo abras! (cuidado)
-- *Ez sartu ezetz?!* — ¡No entres!
+- *Ez sartu!* — ¡No entres!
 - *Ez itxi atea, mesedez.* — No cierres la puerta, por favor.
 
 ## Imperativo con eskatu (pedir cortés)
@@ -153,7 +153,7 @@ El subjuntivo (*subjuntiboa*) en euskera es bastante limitado y aparece sobre to
 - *Espero dut **etor dadin**.* — Espero que venga.
 - *Eskatu dizut **erantzun dezazun**.* — Te he pedido que respondas.
 - *Lehenbailehen amaitu **dezagun**.* — Acabémoslo cuanto antes.
-- *Ez nahi nuke ahaztu **zenezakeen**.* — No querría que se te olvidara.
+- *Ez nuke nahi hori gerta **dadin**.* — No querría que eso ocurriera.
 
 > Atención: en B1 lo más exigible es **reconocer** el subjuntivo y producir formas básicas. No necesitas dominar todo el cuadro.
 
@@ -181,7 +181,7 @@ En registro formal o cortés, las opciones son varias:
 
 - *Mesedez, atea ireki**ko zenuke**?* — ¿Podrías abrir la puerta, por favor?
 - *Erantzungo **zenidake** ahalik eta lasterren?* — ¿Me responderías cuanto antes?
-- *Aseguratu**ko zenuke** dena ondo dagoela?* — ¿Te asegurarías de que todo está bien?
+- *Ziurtatu**ko zenuke** dena ondo dagoela?* — ¿Te asegurarías de que todo está bien?
 
 ## Donde aparece en el examen B1
 
@@ -189,19 +189,19 @@ En registro formal o cortés, las opciones son varias:
 
 Carteles, instrucciones de uso, normas de uso de un servicio, recetas:
 
-> *Sartu ezazu menuko izena pasahitzarekin batera. Ez ireki kontuari hirugarrenei. Edozein arazo izanez gero, jarri zaitezte gurekin harremanetan.*
+> *Sar ezazu erabiltzaile-izena pasahitzarekin batera. Ez ireki kontua hirugarrenei. Edozein arazo izanez gero, jarri zaitezte gurekin harremanetan.*
 
 ### En entzumena
 
 Indicaciones de un voluntario en un evento, mensaje de megafonía:
 
-> *Mesedez, joan zaitezte 3. zenbakiko atera. Hartu izan ezazue zuen sarrera ondoan, eta itxaron dezazuela txanda.*
+> *Mesedez, joan zaitezte 3. zenbakiko atera. Eduki ezazue zuen sarrera eskura, eta itxaron ezazue txanda.*
 
 ### En idazmena
 
 Cuando escribes una carta formal o un email pidiendo algo, el imperativo cortés es esencial:
 
-> *Mesedez, idatzi dezadan jakinarazpena email bidez bidaltzeko. Eskertuko nuke ahalik eta lasterren erantzun nahi izatea.*
+> *Mesedez, eskatuko nizuke jakinarazpena email bidez bidaltzeko. Eskertuko nuke ahalik eta lasterren erantzutea.*
 
 ## Errores frecuentes
 
