@@ -82,7 +82,7 @@ Esta lección integradora repasa **cuatro declinaciones nuevas** que A2 añade a
 >
 > *Liburu hau **gazte ikasleentzat** da.* — Este libro es para los jóvenes estudiantes.
 
-> **Variante:** existe también la forma **-(r)endako**, sinónima en muchos dialectos: *Garaziarendako, niretzako/niretako*. La estándar es *-rentzat*.
+> **Variante:** existe también la forma **-(r)endako**, sinónima en muchos dialectos: *Garazirendako, niretzako/niretako*. La estándar es *-rentzat*.
 
 ## NORAINO — hasta (límite)
 
@@ -113,7 +113,7 @@ Esta lección integradora repasa **cuatro declinaciones nuevas** que A2 añade a
 
 > *Etxe**rantz** abiatu nintzen.* — Me dirigí hacia casa.
 >
-> *Itsasoa**rantz** dago etxea.* — La casa está orientada hacia el mar.
+> *Itsaso**rantz** dago etxea.* — La casa está orientada hacia el mar.
 
 > **Diferencia con NORA (-ra):** *NORA* indica destino concreto ("voy a Bilbao"); *NORANTZ* indica dirección aproximada ("voy hacia Bilbao", sin garantía de llegar).
 

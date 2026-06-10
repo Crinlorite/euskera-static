@@ -53,7 +53,7 @@ exercises:
     pairs:
       - { eu: 'Atzo etxean nintzen', es: 'Ayer estuve/estaba en casa' }
       - { eu: 'Joan den astean Donostian', es: 'La semana pasada en San Sebastián' }
-      - { eu: 'Ginen ikasleak', es: 'Éramos estudiantes' }
+      - { eu: 'Ikasleak ginen', es: 'Éramos estudiantes' }
       - { eu: 'Bart pozik nengoen', es: 'Anoche estaba contento' }
       - { eu: 'Zergatik zineten han?', es: '¿Por qué estabais allí?' }
       - { eu: 'Duela urtebete', es: 'Hace un año' }
@@ -133,7 +133,7 @@ Igual que en presente: **ez** antes del verbo.
 
 > *Atzo ez nintzen lanean egon.* — Ayer no estuve en el trabajo.
 >
-> *Ainara ez zen pozik orduan.* — Ainara no estaba contenta entonces.
+> *Ainara ez zegoen pozik orduan.* — Ainara no estaba contenta entonces.
 >
 > *Gu ez ginen ikaskideak.* — Nosotros no éramos compañeros.
 

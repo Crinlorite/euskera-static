@@ -53,7 +53,7 @@ exercises:
       - { eu: 'Astia banu', es: 'Si tuviera tiempo' }
       - { eu: 'Erosiko nuke', es: 'Lo compraría' }
       - { eu: 'Joango nintzateke', es: 'Iría' }
-      - { eu: 'Banintz aberatsa', es: 'Si yo fuera rico' }
+      - { eu: 'Aberatsa banintz', es: 'Si yo fuera rico' }
       - { eu: 'Edukiko bagenu', es: 'Si tuviéramos' }
 ---
 
@@ -148,7 +148,7 @@ El "comprar**ía** / iría / sería" se forma con **-ko/-go** (la misma marca qu
 
 > *Diru asko **banu**, etxe bat **erosiko nuke**.* — Si tuviera mucho dinero, compraría una casa.
 >
-> *Lurralde berri batean **bizi banintz**, beste hizkuntza bat **ikasiko nuke**.* — Si viviera en otro país, aprendería otro idioma.
+> *Lurralde berri batean **bizi banintz**, beste hizkuntza bat **ikasiko nuke**.* — Si viviera en un país nuevo, aprendería otro idioma.
 >
 > *Anboto hemen **balitz**, lasaiago **egongo ginateke**.* — Si Anboto estuviera aquí, estaríamos más tranquilos.
 >
@@ -182,6 +182,6 @@ El "comprar**ía** / iría / sería" se forma con **-ko/-go** (la misma marca qu
 >
 > *— Bai, **gustatuko litzaidake**, baina astia **banu**... Lan asko daukat astean.*
 >
-> *— Lasai. Bihar **etortzen bazara**, sarrera bana **erosiko dizut**.*
+> *— Lasai. Bihar **etortzen bazara**, sarrera bat **erosiko dizut**.*
 
 > **Nota pedagógica:** la *baldintza* es uno de los puntos donde A2 te abre la puerta a B1. En A2 oficial basta con **reconocerla** y producir frases simples del tipo *banintz... -ko nuke*. La conjugación completa del condicional se trabaja en B1.

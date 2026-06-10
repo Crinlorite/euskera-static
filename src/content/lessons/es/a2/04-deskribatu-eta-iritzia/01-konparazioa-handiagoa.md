@@ -18,7 +18,7 @@ exercises:
   - id: ex-a2-de1-mc2
     type: multiple-choice
     prompt: '¿Cómo se forma el comparativo de "txikia"?'
-    options: [txikiena, txikiago, txikiagoa, txikitxoa]
+    options: [txikiena, oso txikia, txikiagoa, txikitxoa]
     answer: 2
     explanation: 'Adjetivo + -agoa: *txikia → txikiagoa* (más pequeño/a).'
   - id: ex-a2-de1-fb1
@@ -78,7 +78,7 @@ Comparar es uno de los actos más cotidianos del lenguaje: *este es más grande 
 | Lander es más alto que Olatz | *Lander Olatz **baino** altu**agoa** da* |
 | Esta casa es más grande que aquella | *Etxe hau hura **baino** handi**agoa** da* |
 | Bilbao es más grande que Donosti | *Bilbo Donostia **baino** handi**agoa** da* |
-| El café está más caro que el té | *Kafea tea **baino** garesti**agoa** dago* |
+| El café está más caro que el té | *Kafea tea **baino** garesti**ago** dago* |
 | Garazi corre más rápido que yo | *Garazik nik **baino** azkarrago **egiten du korrika*** |
 
 > **Orden:** en euskera el "que" (*baino*) va entre las dos cosas comparadas, no después del adjetivo. **X baino Y-agoa** literalmente "X que Y-más".
@@ -143,7 +143,7 @@ Una fórmula muy productiva:
 |---|---|
 | No es tan caro | *Ez da **hain** garestia* |
 | No tan rápido | *Ez **hain** azkar* |
-| No es tan grande como pensabas | *Ez da **hain** handia uste zenuena* |
+| No es tan grande como pensabas | *Ez da uste zenuen **bezain** handia* |
 
 > *Hain* sirve para "tan" (= así de). Combinado con *ez* funciona para suavizar comparaciones.
 
@@ -155,7 +155,7 @@ Una fórmula muy productiva:
 >
 > *— Eta kalea?*
 >
-> *— Lehen baino **lasaiagoa**: ez dago **hain** auto askorik.*
+> *— Lehen baino **lasaiagoa**: ez dago **hainbeste** autorik.*
 
 ## Truco mnemotécnico
 

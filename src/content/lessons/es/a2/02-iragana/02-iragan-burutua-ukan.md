@@ -153,7 +153,7 @@ Dos verbos muy frecuentes mantienen forma **sintética** en pasado, igual que en
 
 ## Mini-narración
 
-> *Aurreko larunbatean Olatzek eta Landerrek itsasora **joan ziren** (NOR). Hondartzan egun osoa **eman zuten**: igeri **egin zuten**, eguzkitan etzanda **egon ziren** eta liburu bat **irakurri zuten**. Iluntzean afari bat **prestatu zuten** eta lagunekin **bazkaldu zuten**.*
+> *Aurreko larunbatean Olatz eta Lander itsasora **joan ziren** (NOR). Hondartzan egun osoa **eman zuten**: igeri **egin zuten**, eguzkitan etzanda **egon ziren** eta liburu bat **irakurri zuten**. Iluntzean afari bat **prestatu zuten** eta lagunekin **afaldu zuten**.*
 
 Fíjate cómo se mezclan formas NOR (*joan ziren, egon ziren*) y NOR-NORK (*eman zuten, irakurri zuten, prestatu zuten*). Las dos lecciones se combinan para narrar.
 

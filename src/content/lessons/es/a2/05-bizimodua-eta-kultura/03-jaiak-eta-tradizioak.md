@@ -27,8 +27,8 @@ exercises:
     explanation: '*Lehen... orain...* es la fórmula de comparación temporal "antes... ahora..." muy típica para hablar de cambios culturales.'
   - id: ex-a2-bz3-fb1
     type: fill-in-blank
-    prompt: 'Tanto en verano como en invierno = ___ udan ___ neguan.'
-    answers: ['Bai bai']
+    prompt: 'Tanto en verano como en invierno = bai udan, ___ neguan.'
+    answers: [bai]
     explanation: '*Bai... bai...* = "tanto... como..." en distributivas.'
   - id: ex-a2-bz3-fc
     type: flashcards
@@ -120,7 +120,7 @@ La comparación cultural pasa por estas dos palabras:
 
 > *Lehen baserrian **bizi ginen**, orain hirian **bizi gara**.* — Antes vivíamos en el caserío, ahora vivimos en la ciudad.
 >
-> *Garai batean euskaraz **dena egiten zen**; gaur egun, **gehiago erderaz** ere bai.* — En su día todo se hacía en euskera; hoy en día, también más en castellano.
+> *Garai batean **dena euskaraz egiten zen**; gaur egun, **erdaraz ere asko** egiten da.* — En su día todo se hacía en euskera; hoy en día, también se hace mucho en castellano.
 
 ## Comparar lugares: *bai... bai...*, *baita... ere*
 
@@ -133,7 +133,7 @@ La comparación cultural pasa por estas dos palabras:
 
 > *San Juan sua **bai** Donostian, **bai** Bilbon ospatzen da.* — La hoguera de San Juan se celebra tanto en Donostia como en Bilbao.
 >
-> *Korrika **bai** Hego Euskal Herrian **bai** Iparraldean** egiten da.* — Korrika se celebra tanto en Hegoalde como en Iparralde.
+> *Korrika **bai** Hego Euskal Herrian, **bai** Iparraldean egiten da.* — Korrika se celebra tanto en Hegoalde como en Iparralde.
 
 ## Cómo describir una fiesta
 
@@ -141,11 +141,11 @@ Estructura útil:
 
 > **Fiesta + cuándo + dónde + qué se hace + por qué es especial**
 
-> *San Juan sua **ekainaren 23an** ospatzen da. Herri askotan **plaza nagusian** egur pila bat egiten da, eta gauean **sua pizten dute**. Jendeak **suaren gainetik salto egiten du**, eta **dantzan eta kantuan** ari dira gauerdi arte. Familia eta lagun arteko ospakizuna da, eta **udaberriaren amaiera** ospatzen du.*
+> *San Juan sua **ekainaren 23an** ospatzen da. Herri askotan **plaza nagusian** egur pila bat egiten da, eta gauean **sua pizten dute**. Jendeak **suaren gainetik salto egiten du**, eta **dantzan eta kantuan** aritzen da gauerdi arte. Familia eta lagun arteko ospakizuna da, eta **udaren hasiera** ospatzen du.*
 
 ## Mini-texto comparativo
 
-> *Lehen, herriko **jaiak** ohikoak ziren udazkenean. Familia osoa elkartzen zen plaza nagusian, **bertsolariak** eta **trikitilariak** entzuten zituzten, eta **dantzan** ari ziren gauerdi arte. **Gaur egun**, jaiak antolatzeko zailagoa da: jendea sakabanatuta dago, gazteek bestelako gustuak dituzte, eta dirua **lehen baino gutxiago** dago. Hala ere, **tradizioa** mantentzen ahalegintzen dira: **bai herri txikietan, bai hiri handietan**, urtero programa **politak** prestatzen dituzte.*
+> *Lehen, herriko **jaiak** ohikoak ziren udazkenean. Familia osoa elkartzen zen plaza nagusian, **bertsolariak** eta **trikitilariak** entzuten zituen, eta **dantzan** ari zen gauerdi arte. **Gaur egun**, jaiak antolatzea zailagoa da: jendea sakabanatuta dago, gazteek bestelako gustuak dituzte, eta **lehen baino** diru **gutxiago** dago. Hala ere, **tradizioa** mantentzen ahalegintzen dira: **bai herri txikietan, bai hiri handietan**, urtero programa **politak** prestatzen dituzte.*
 
 ## Diálogo: comparar costumbres
 
@@ -153,7 +153,7 @@ Estructura útil:
 >
 > *— Ba, klasikoak: **San Juan**, **herriko jaiak** abuztuan, **Olentzero** Eguberrian. **Korrika** ere bai bi urtero, oso garrantzitsua hori.*
 >
-> *— Olentzeroz, oraindik etxez etxe ibiltzen da?*
+> *— Eta Olentzero, oraindik etxez etxe ibiltzen da?*
 >
 > *— **Lehen ohitura zen** etxez etxe ibili eta umeentzako opariak banatzea. **Orain**, herri txikietan oraindik egiten da, baina hirietan ekitaldi nagusi bat plazan egin ohi da, **bertsolariekin eta musikarekin**.*
 
@@ -163,7 +163,7 @@ Estructura útil:
 |---|---|
 | En cambio, aquí... | *Hemen, aldiz, ...* |
 | Igual que en X | *X-(e)n bezala* |
-| A diferencia de | *...ren ezberdin* |
+| A diferencia de X | *X ez bezala* |
 | Es similar a | *Antzekoa da* |
 | Es muy distinto | *Oso ezberdina da* |
 

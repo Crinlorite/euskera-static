@@ -146,8 +146,8 @@ Para expresar **causa** ("porque"), tienes dos vías:
 
 | Castellano | Euskera |
 |---|---|
-| Porque es importante | *…, **zeren** garrantzitsua da* |
-| …, ya que ha venido | *…, **zeren** etorri da* |
+| Porque es importante | *…, **zeren** garrantzitsua baita* |
+| …, ya que ha venido | *…, **zeren** etorri baita* |
 
 > Es la forma "romana" de causa, más formal o periodística. En el habla se prefiere *-lako*.
 
@@ -155,7 +155,7 @@ Para expresar **causa** ("porque"), tienes dos vías:
 
 > *— Olatz, **uste dut** Bilbo Donostia baino interesgarriagoa **dela**.*
 >
-> *— **Ez nago ados**. Donostia askoz politagoa da, **uste dut** itsasoa **duelako** ondoan.*
+> *— **Ez nago ados**. Donostia askoz politagoa da, **uste dut**, itsasoa **duelako** ondoan.*
 >
 > *— **Egia da** itsasoa duela, baina Bilbon **museo gehiago daudela ere egia da**.*
 >
@@ -170,7 +170,7 @@ Para expresar **causa** ("porque"), tienes dos vías:
 | No creo que vengan | *Ez dut uste etorriko **direnik*** |
 | Está claro que tiene problemas | *Argi dago arazoak **dituela*** |
 | Porque está enfermo | *Gaixorik **dagoelako*** |
-| Porque hace frío | *Hotza **egiten duelako*** |
+| Porque hace frío | *Hotz **egiten duelako*** |
 
 ## Trampas frecuentes
 

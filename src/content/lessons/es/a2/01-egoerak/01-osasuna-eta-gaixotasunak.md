@@ -67,7 +67,7 @@ A2 te abre la puerta a hablar de cómo te sientes físicamente: cuándo estás m
 En euskera tienes dos formas frecuentes:
 
 - **Gaixorik nago.** — Estoy enfermo/a. (estado puntual, con *egon*)
-- **Ondo ez nago.** — No estoy bien.
+- **Ez nago ondo.** — No estoy bien.
 - **Min hartu dut.** — Me he hecho daño.
 - **Gaixotu egin naiz.** — Me he puesto malo (verbo intransitivo, *naiz*).
 
@@ -103,7 +103,7 @@ El **dolor** es un sustantivo en euskera (*mina*) y se combina con la parte del 
 
 Otra forma muy frecuente, sobre todo cuando algo te duele "ahora mismo":
 
-- *Burua min ematen dit.* — Me da dolor la cabeza.
+- *Buruak min ematen dit.* — Me da dolor la cabeza.
 
 ## En la consulta
 

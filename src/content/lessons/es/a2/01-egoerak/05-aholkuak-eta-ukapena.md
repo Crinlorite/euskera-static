@@ -51,7 +51,7 @@ exercises:
       - { eu: 'Ez edan asko', es: 'No bebas mucho' }
       - { eu: 'Hartu fruta', es: 'Toma fruta' }
       - { eu: 'Egin kirola', es: 'Haz deporte' }
-      - { eu: 'Lo egin ondo', es: 'Duerme bien' }
+      - { eu: 'Ondo lo egin', es: 'Duerme bien' }
       - { eu: 'Saiatu lasai egoten', es: 'Intenta estar tranquilo' }
 ---
 
@@ -130,7 +130,7 @@ Junta varias fórmulas: una recomendación + una prohibición + una explicación
 >
 > *— Zer egin behar dut, mediku?*
 >
-> *— **Hartu** barazkiak egunero. **Ez jan** azukrea. **Ez edan** edari gasdunik. **Saiatu** astean lau aldiz paseatzen, gutxienez ordubete. Eta **hobe duzu** lo asko egitea: **ez geratu** gauean berandura arte.*
+> *— **Hartu** barazkiak egunero. **Ez jan** azukrea. **Ez edan** edari gasdunik. **Saiatu** astean lau aldiz paseatzen, gutxienez ordubete. Eta **hobe duzu** lo asko egitea: **ez geratu** gauean berandu arte.*
 
 ## Prohibiciones de cartel
 

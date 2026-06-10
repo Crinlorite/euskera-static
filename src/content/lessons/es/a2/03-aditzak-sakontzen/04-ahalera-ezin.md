@@ -156,7 +156,7 @@ Las tres conviven. En A2 produce las dos primeras y reconoce todas.
 
 | Castellano | Euskera |
 |---|---|
-| He podido ir | *Joan ahal izan naiz* / *Joaterik izan dut* |
+| He podido ir | *Joan ahal izan naiz* |
 | Podré ir | *Joan ahal izango naiz* |
 | No he podido | *Ezin izan dut* |
 
@@ -164,17 +164,17 @@ Las tres conviven. En A2 produce las dos primeras y reconoce todas.
 
 - *Lagundu ahal didazu, mesedez?* — ¿Me puedes ayudar?
 - *Bihar ezin naiz etorri.* — Mañana no puedo venir.
-- *Hau ulertu dezaket.* — Esto lo puedo entender.
+- *Hau uler dezaket.* — Esto lo puedo entender.
 - *Ezin duzu hori egin.* — No puedes hacer eso.
 - *Goazen lasai, denbora dugu eta.* — Vamos tranquilos, que tenemos tiempo.
-- *Etxea bihar erosi daiteke.* — La casa se puede comprar mañana.
+- *Etxea bihar eros daiteke.* — La casa se puede comprar mañana.
 
 ## Mini-diálogo
 
 > *— Anboto, **etor zaitezke** bihar afaltzera?*
 >
-> *— Tira, **ezin dut**: lan asko daukat eta beranduagora arte ezin naiz mugitu. Baina hurrengo astean **etor naiteke**, eta zer ekarri **dezaket**?*
+> *— Tira, **ezin dut**: lan asko daukat eta berandu arte ezin naiz mugitu. Baina hurrengo astean **etor naiteke**, eta zer ekar **dezaket**?*
 >
-> *— **Eraman dezakezu** ardo botila bat, hori asko gustatzen zaigu.*
+> *— **Ekar dezakezu** ardo botila bat, hori asko gustatzen zaigu.*
 
 > **Nota pedagógica:** en A2 lo más útil es manejar bien *ezin dut/naiz* para "no puedo" y *ahal duzu?* para preguntar. Las formas sintéticas (*dezaket, naiteke*) las irás integrando con la lectura. La unidad B1 las profundiza.

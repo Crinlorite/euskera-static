@@ -18,12 +18,12 @@ exercises:
   - id: ex-a2-ad3-mc2
     type: multiple-choice
     prompt: '¿Qué significa "Ahaztu zait"?'
-    options: ['Lo he olvidado', 'Se me ha olvidado', 'Le he olvidado', 'Me he olvidado']
+    options: ['Lo he olvidado', 'Se me ha olvidado', 'Le he olvidado', 'Me ha olvidado (él a mí)']
     answer: 1
     explanation: '*Ahaztu zait* = "se me ha olvidado" — el sujeto gramatical es la cosa olvidada, y a mí (zait) "me llega" el olvido.'
   - id: ex-a2-ad3-fb1
     type: fill-in-blank
-    prompt: 'A Lander le gustan los perros = Landerrri txakurrak gustatzen ___ .'
+    prompt: 'A Lander le gustan los perros = Landerri txakurrak gustatzen ___ .'
     answers: [zaizkio]
     explanation: '*Zaizkio* = "le gustan (a él/ella)". NOR plural + NORI 3ª pers.'
   - id: ex-a2-ad3-fc
@@ -162,6 +162,6 @@ Una de las fórmulas más útiles para A2:
 
 1. **El sujeto ergativo NO existe aquí.** No digas *\*Nik gustatzen dut* (es un error muy común): es *Niri gustatzen zait*. La persona no es la que actúa.
 2. **Concordancia NOR.** Si la cosa es plural, el auxiliar es plural: *zaizkit, zaizkio, zaizkigu...*
-3. **Algunas regiones usan otras variantes** (*zaitut, zaidak* en hitano), pero en *batua* las formas estándar son las de la tabla.
+3. **Algunas regiones usan otras variantes** (*zaidak, zaidan* en hitano), pero en *batua* las formas estándar son las de la tabla.
 
 > **Nota cultural:** los hablantes de euskera suelen abusar (con cariño) de *iruditzen zait* para opinar con cierta cautela: *interesgarria iruditzen zait*, *bitxia iruditzen zait*, *ez zait ondo iruditzen*. Es la versión vasca del "me parece que..." matizado.

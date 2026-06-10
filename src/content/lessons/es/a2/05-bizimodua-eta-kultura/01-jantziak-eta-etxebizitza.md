@@ -73,11 +73,11 @@ En A1 viste el vocabulario básico de **ropa** y **casa**. En A2 amplías a regi
 | | polo | *poloa* |
 | Pantalones | pantalones | *galtzak* / *prakak* |
 | | vaqueros | *bakeroak* |
-| | mallas | *maillak* |
+| | mallas | *galtza estuak* |
 | Faldas y vestidos | falda | *gona* |
 | | vestido | *soineko* |
 | Abrigos | jersey | *jertsea* |
-| | sudadera | *txandala* |
+| | chándal | *txandala* |
 | | chaqueta | *jaka* |
 | | abrigo | *beroki(a)* |
 | | impermeable | *euri-jantzia* |
@@ -172,17 +172,17 @@ En A1 viste el vocabulario básico de **ropa** y **casa**. En A2 amplías a regi
 
 ## Mini-texto: anuncio de piso
 
-> *Donostiako alde zaharrean **etxebizitza** berria **alokairuan**. Hiru logela, sukalde berriztatua, egongela zabala eta bi komun. **Terraza** txiki bat **lorategira** ematen duena. Eraikinak **igogailua** dauka, eta auzoa oso **lasaia eta argitsua** da. Hileko alokairua: 1.100 euro. **Fidantza**: bi hilabete. Interesatuak deitu **jabeari**.*
+> *Donostiako alde zaharrean **etxebizitza** berria **alokairuan**. Hiru logela, sukalde berriztatua, egongela zabala eta bi komun. **Terraza** txiki bat **lorategira** ematen duena. Eraikinak **igogailua** dauka, eta auzoa oso **lasaia eta argitsua** da. Hileko alokairua: 1.100 euro. **Fidantza**: bi hilabete. Interesatuek deitu **jabeari**.*
 
 ## Mini-diálogo en la tienda
 
 > *— Egun on. **Galtza beltzak** behar ditut.*
 >
-> *— Zein **neurri** zara?*
+> *— Zein **neurri** daukazu?*
 >
 > *— 40, baina lasai-lasai geratzen zaizkit azken aldian, beharbada **txikiagoa** behar dut.*
 >
-> *— Hartu hauek **proba ezazu**. **Aldagela** atze-atzean dago.*
+> *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
 > *(Probatu ondoren)*
 >

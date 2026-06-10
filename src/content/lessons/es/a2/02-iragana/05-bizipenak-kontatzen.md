@@ -27,8 +27,8 @@ exercises:
     explanation: 'La escena, la descripción y los hábitos van en imperfecto. Las acciones puntuales que hacen avanzar la historia van en burutua.'
   - id: ex-a2-ir5-fb1
     type: fill-in-blank
-    prompt: 'Hace un mes fui a Donosti = Duela hilabete Donostira ___ .'
-    answers: [joan nintzen]
+    prompt: 'Hace un mes fui a Donosti = Duela hilabete Donostira joan ___ .'
+    answers: [nintzen]
     explanation: 'Hecho puntual del pasado: *partizipioa + nintzen*.'
   - id: ex-a2-ir5-fc
     type: flashcards
@@ -39,7 +39,7 @@ exercises:
       - { eu: azkenean, es: 'finalmente / al final' }
       - { eu: bat-batean, es: 'de repente' }
       - { eu: bitartean, es: 'mientras tanto' }
-      - { eu: ondoren, es: 'después' }
+      - { eu: geroago, es: 'más tarde' }
       - { eu: orduan, es: 'entonces' }
       - { eu: 'duela X urte', es: 'hace X años' }
       - { eu: 'X-an jaio nintzen', es: 'nací en X' }

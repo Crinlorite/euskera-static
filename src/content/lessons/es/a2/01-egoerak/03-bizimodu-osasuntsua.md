@@ -116,7 +116,7 @@ Para decir "X veces" usas la fórmula **número + aldiz**:
 
 | Color habitual | Euskera | Para qué |
 |---|---|---|
-| Azul | *edukiontzi urdina* | papela / papel |
+| Azul | *edukiontzi urdina* | papera / papel |
 | Amarillo | *edukiontzi horia* | plastikoa / plástico |
 | Verde | *edukiontzi berdea* | beira / vidrio |
 | Marrón | *edukiontzi marroia* | organikoa / orgánico |
