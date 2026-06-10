@@ -6,14 +6,36 @@
   export let options: Choice[];
 
   const dispatch = createEventDispatcher<{ pick: Choice }>();
+
+  // Una elección por instancia: evita que un repeat de tecla o un doble
+  // click dispare dos picks del mismo beat.
+  let picked = false;
+  function pick(opt: Choice) {
+    if (picked) return;
+    picked = true;
+    dispatch('pick', opt);
+  }
+
+  // Los números que pinta .hot son atajos reales: 1-9 eligen la opción.
+  function handleKey(e: KeyboardEvent) {
+    if (e.repeat) return;
+    const target = e.target as HTMLElement | null;
+    if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) return;
+    const n = parseInt(e.key, 10);
+    if (!Number.isInteger(n) || n < 1 || n > options.length) return;
+    e.preventDefault();
+    pick(options[n - 1]);
+  }
 </script>
+
+<svelte:window on:keydown={handleKey} />
 
 <div class="wrap">
   <p class="prompt">{prompt}</p>
   <ul class="choices">
     {#each options as opt, i}
       <li>
-        <button class="choice" on:click={() => dispatch('pick', opt)}>
+        <button class="choice" on:click={() => pick(opt)}>
           <span class="hot">{i + 1}</span>
           <span class="lbl">{opt.label}</span>
         </button>
