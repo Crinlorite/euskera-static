@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { createEventDispatcher } from 'svelte';
+  import { createEventDispatcher, onDestroy } from 'svelte';
   import Sprite from '../sprites/Sprite.svelte';
 
   export let speaker: string;
@@ -42,7 +42,12 @@
     }
   }
 
+  onDestroy(() => {
+    if (interval) clearInterval(interval);
+  });
+
   function handleKey(e: KeyboardEvent) {
+    if (e.repeat) return; // mantener pulsado no debe saltarse diálogos
     if (e.key !== 'Enter' && e.key !== ' ') return;
     const target = e.target as HTMLElement | null;
     if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'BUTTON')) return;
