@@ -64,6 +64,37 @@
   // Guard contra reentrancia del procesado de side-effects.
   let processing = false;
 
+  // Avance diferido (pause). Clave escena:cursor para que un click del
+  // jugador durante la espera no programe un SEGUNDO advance del mismo
+  // beat (causaba doble avance → contenido saltado), y para que un timer
+  // huérfano no avance una escena distinta de la que lo programó.
+  let pendingTimer: ReturnType<typeof setTimeout> | null = null;
+  let pendingKey: string | null = null;
+
+  function storyKey(): string {
+    const s = get(story);
+    return `${s.currentSceneId}:${s.cursor}`;
+  }
+
+  function scheduleAdvance(ms: number) {
+    const key = storyKey();
+    if (pendingKey === key) return; // ya hay un advance programado para este beat
+    cancelPendingAdvance();
+    pendingKey = key;
+    pendingTimer = setTimeout(() => {
+      const k = pendingKey;
+      pendingTimer = null;
+      pendingKey = null;
+      if (storyKey() === k) advance();
+    }, ms);
+  }
+
+  function cancelPendingAdvance() {
+    if (pendingTimer) clearTimeout(pendingTimer);
+    pendingTimer = null;
+    pendingKey = null;
+  }
+
   function isSideEffectBeat(b: import('../engine/types').Beat): boolean {
     return (
       b.type === 'gain-item' ||
@@ -116,6 +147,7 @@
   }
 
   function handleKey(e: KeyboardEvent) {
+    if (e.repeat) return; // mantener pulsada una tecla no debe metrallar avances
     if (e.key === 'f' || e.key === 'F') {
       e.preventDefault();
       if (gameRoot) toggleFullscreen(gameRoot);
@@ -123,6 +155,7 @@
     if (e.key === 'Escape' && view.mode === 'playing') {
       e.preventDefault();
       // ESC abre menú (sin perder progreso, está autosave)
+      cancelPendingAdvance();
       saveGame();
       view = { mode: 'menu' };
     }
@@ -132,7 +165,10 @@
     if ((e.key === 'Enter' || e.key === ' ') && view.mode === 'playing') {
       const beat = get(currentBeat);
       const target = e.target as HTMLElement | null;
-      const inField = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA');
+      // BUTTON incluido: si hay un botón enfocado, el navegador ya dispara su
+      // click nativo con Espacio/Enter — gestionarlo también aquí provocaba
+      // DOS avances por pulsación (pantallas que se saltan solas).
+      const inField = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'BUTTON');
       if (inField) return;
       if (beat && beat.type === 'narration') {
         e.preventDefault();
@@ -168,6 +204,7 @@
     if (unsubBeat) unsubBeat();
     if (gainTimer) clearTimeout(gainTimer);
     if (idleTimer) clearInterval(idleTimer);
+    cancelPendingAdvance();
   });
 
   // Reactivo: cuando view cambia a 'playing', arrancamos el procesador.
@@ -189,6 +226,7 @@
     }
   }
   function pickChapter(sceneId: string) {
+    cancelPendingAdvance();
     gotoScene(sceneId);
     view = { mode: 'chapter-intro', sceneId };
   }
@@ -216,8 +254,15 @@
     const beat = get(currentBeat);
     if (!beat) return;
     if (beat.type === 'narration' || beat.type === 'speak') {
-      advance();
+      uiAdvance();
     } else if (isSideEffectBeat(beat)) {
+      // Si hay un advance diferido pendiente para este beat (pause), el
+      // click lo adelanta: cancela el timer y avanza una sola vez.
+      if (pendingKey === storyKey()) {
+        cancelPendingAdvance();
+        advance();
+        return;
+      }
       processBeats();
     }
   }
@@ -225,17 +270,18 @@
   function handleSideEffect(b: Beat) {
     switch (b.type) {
       case 'gain-item':
+        // Avance inmediato: el banner flota por encima 2,4s sin bloquear el
+        // flujo. El antiguo setTimeout(900) dejaba una ventana en la que un
+        // click del jugador re-procesaba el beat y programaba un segundo
+        // advance → contenido saltado.
         gainItem(b.item);
         flashGain('item', `+${b.item.icon} ${b.item.name}`, b.flavor ?? b.item.description);
-        // Pausa para que el banner se vea antes del siguiente beat. processBeats
-        // verá que el cursor no cambió y saldrá del loop. setTimeout reanuda
-        // mediante el subscribe a currentBeat.
-        setTimeout(() => advance(), 900);
+        advance();
         break;
       case 'gain-word':
         gainWord(b.word);
         flashGain('word', b.word.eu, b.word.es);
-        setTimeout(() => advance(), 900);
+        advance();
         break;
       case 'set-bg':
         setBackground(b.bgId);
@@ -279,7 +325,7 @@
         advance();
         break;
       case 'pause':
-        setTimeout(() => advance(), b.ms);
+        scheduleAdvance(b.ms);
         break;
       case 'ending':
         view = { mode: 'ending', title: b.title, body: b.body };
@@ -288,6 +334,17 @@
         // narration / speak / choice / puzzle requieren input del jugador
         break;
     }
+  }
+
+  // Cooldown anti doble-tap: dos clicks muy seguidos sobre la caja de
+  // narración/diálogo consumían dos beats (el segundo sin llegar a leerse).
+  let lastUiAdvanceAt = 0;
+  function uiAdvance(): boolean {
+    const now = Date.now();
+    if (now - lastUiAdvanceAt < 280) return false;
+    lastUiAdvanceAt = now;
+    advance();
+    return true;
   }
 
   function onChoicePick(detail: Choice) {
@@ -306,7 +363,7 @@
   }
   function onDialogueContinue() {
     bumpInteraction();
-    advance();
+    uiAdvance();
   }
 </script>
 
@@ -451,6 +508,8 @@
     color: #f0e6d0;
     font-family: var(--ff-sans);
     user-select: none;
+    /* taps sin retardo ni double-tap-zoom en táctil */
+    touch-action: manipulation;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
   }
   .game.fullscreen {
@@ -697,6 +756,8 @@
   /* ---- responsive ---- */
   @media (max-width: 720px) {
     .game { aspect-ratio: 4 / 5; }
-    .hud-side { display: none; }
+    /* En móvil la maleta ocupa demasiado; el cuaderno (palabras aprendidas)
+       es la pieza pedagógica y se queda accesible como toggle compacto. */
+    .hud-side :global(.inv) { display: none; }
   }
 </style>
