@@ -31,9 +31,9 @@ exercises:
     explanation: 'En euskera el orden estándar va de lo general (quién y de dónde) a lo concreto (qué hago y por qué estoy aquí).'
   - id: ex-b2-norb1-fb1
     type: fill-in-blank
-    prompt: 'Hogeita hamar urte ___ ditut. (tener — yo)'
-    answers: [eta, ETA]
-    explanation: 'Atención: *hogeita hamar* (30) lleva *eta* dentro del propio numeral. La estructura completa es *Hogeita hamar urte ditut*. (Si la respuesta esperada parece rara, repasa el numeral.)'
+    prompt: 'Hogeita hamar urte ___. (tener — yo)'
+    answers: [ditut, DITUT]
+    explanation: 'La estructura es *Hogeita hamar urte ditut* ("tengo treinta años"): los años se "tienen", con auxiliar NOR-NORK. Atención: *hogeita hamar* (30) lleva *eta* dentro del propio numeral.'
   - id: ex-b2-norb1-fc
     type: flashcards
     cards:
@@ -93,7 +93,7 @@ Estos verbos aparecen una y otra vez al hablar de la propia trayectoria. Memorí
 Tres recursos básicos:
 
 1. **Conectores temporales** — *gero, ondoren, urte batzuk geroago, denboraren poderioz, azkenik*.
-2. **Causalidad ligera** — *horregatik, hala ere, nahiz eta...*.
+2. **Causa y contraste** — *horregatik, hala ere, nahiz eta...*.
 3. **Subordinadas relativas** — *jaio nintzen herrian* (en el pueblo donde nací), *ikasi nuen unibertsitatean* (en la universidad donde estudié).
 
 Ejemplo encadenado:

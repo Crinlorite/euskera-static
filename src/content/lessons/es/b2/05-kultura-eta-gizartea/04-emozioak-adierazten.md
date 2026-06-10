@@ -18,7 +18,7 @@ exercises:
       - "Maitasuna diot"
       - "Maitasunarekin nago"
     answer: 2
-    explanation: '*Maitasuna diot* (NOR-NORI-NORK con *eutsi/izan*) = "le tengo cariño / amor". Estructura habitual con *errukia, gorrotoa, mespretxua...*.'
+    explanation: '*Maitasuna diot* (NOR-NORI-NORK con *izan/ukan*) = "le tengo cariño / amor". Estructura habitual con *errukia, gorrotoa, mespretxua...*.'
   - id: ex-b2-kul4-mc2
     type: multiple-choice
     prompt: '"Me admiraba mucho" — ¿qué construcción es la más natural?'
@@ -81,11 +81,11 @@ Estructura NOR-NORI-NORK: el sujeto es lo que provoca la emoción, el dativo es 
 Ejemplos:
 
 - *Liburu honek pena handia ematen dit.* — Este libro me da mucha pena.
-- *Berarekin egotea atsegin ematen dit.* — Estar con él me da gusto.
+- *Berarekin egoteak atsegin ematen dit.* — Estar con él me da gusto.
 
-### Patrón 2: "Ni-k X-i Y-a izan/eutsi" — yo le tengo algo
+### Patrón 2: "Ni-k X-i Y-a izan" — yo le tengo algo
 
-Estructura NOR-NORI-NORK con *izan* o *eutsi*: yo soy el sujeto, la otra persona es el dativo.
+Estructura NOR-NORI-NORK con *izan* (*ukan*): yo soy el sujeto, la otra persona es el dativo.
 
 | Frase | Sentido |
 |---|---|
@@ -118,7 +118,7 @@ Verbos derivados directamente de la emoción:
 Ejemplos:
 
 - *Asko poztu naiz albisteagatik.* — Me he alegrado mucho por la noticia.
-- *Berari maite diozu, ezta?* — A él lo quieres, ¿no? (forma muy frecuente con *maite izan + dativo*)
+- *Bera maite duzu, ezta?* — A él lo quieres, ¿no? (*maite izan* es NOR-NORK: el objeto va en absolutivo — *maite dut, maite zaitut*)
 
 ## Verbos de impacto emocional
 
@@ -163,7 +163,7 @@ Patrón típico para narrar una experiencia emocional:
 
 Ejemplo:
 
-> *Telefonoa jo zuenean eta amaren ahotsa entzun nuenean, bihotza estutu zitzaidan. Esan zidan aitona ospitalean zegoela. Une batez, hitzik gabe gelditu nintzen; ondoren, jakaita janzten ari nintzela, malko batek aurpegia zeharkatu zidan. Geroago konturatu nintzen, beldurraren beldurrez, ez nuela ezer ulertu zer esan zidan.*
+> *Telefonoak jo zuenean eta amaren ahotsa entzun nuenean, bihotza estutu zitzaidan. Esan zidan aitona ospitalean zegoela. Une batez, hitzik gabe gelditu nintzen; ondoren, jaka janzten ari nintzela, malko batek aurpegia zeharkatu zidan. Geroago konturatu nintzen, beldurraren beldurrez, ez nuela ulertu zer esan zidan.*
 
 Análisis:
 
@@ -179,7 +179,7 @@ Recurso muy euskaldun: **repetir el sustantivo** (*beldurraren beldurrez, pozare
 > *Pozaren pozez, salto egiten zuen.* — De pura alegría, daba saltos.
 > *Lotsaren lotsaz, ez zion begietara begiratu.* — De pura vergüenza, no le miró a los ojos.
 
-Otra forma: **adjetivo + -enez**:
+Otra forma: **repetir el adjetivo**:
 
 > *Triste-tristerik gelditu zen.* — Se quedó triste-triste (muy triste).
 > *Harro-harro hitz egiten du.* — Habla con mucho orgullo.

@@ -105,8 +105,8 @@ Hay que **adaptar el referente**:
 
 El *ni* original era Olatz; al narrarlo yo, Olatz pasa a tercera persona, así que *naiz* → *da*.
 
-> Lander zuri: *"Bihar **zure** etxera joango naiz."*
-> → Landerrek esan zion hurrengo egunean **(harenetxera/zure)** joango zela.
+> Lander Olatzi: *"Bihar **zure** etxera joango naiz."*
+> → Landerrek esan zion hurrengo egunean **haren etxera** joango zela.
 
 Adapta cada pronombre a quién narra y a quién oye.
 
@@ -161,16 +161,16 @@ Para órdenes, peticiones y consejos en indirecto se usa el **sustantivo verbal 
 
 Estilo directo:
 
-> *Garazik esan zion Lehren: "**Bihar etxera joango naiz** eta **zure liburua ekarriko dut**."*
+> *Garazik esan zion Landerri: "**Bihar etxera joango naiz** eta **zure liburua ekarriko dut**."*
 
 Estilo indirecto, introductor en pasado:
 
-> *Garazik Lehren esan zion **hurrengo egunean Lehrenetxera joango zela** eta **bere liburua ekarriko zuela**.*
+> *Garazik Landerri esan zion **hurrengo egunean Landerren etxera joango zela** eta **haren liburua ekarriko zuela**.*
 
 Tres ajustes:
 
 1. *Bihar* → *hurrengo egunean*.
-2. *Zure liburua* → *bere liburua* (al narrarlo, *zure* en boca de Garazi se convierte en *bere*, posesivo de Lehr).
+2. *Zure liburua* → *haren liburua* (al narrarlo, el *zure* que dijo Garazi pasa a tercera persona: el libro es de Lander).
 3. *naiz, dut* → *zela, zuela* (futuro pasado + completiva).
 
 ## Truco de práctica

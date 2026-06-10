@@ -12,9 +12,9 @@ exercises:
   - id: ex-b2-kul2-mc1
     type: multiple-choice
     prompt: '"Tribu urbano" en euskera:'
-    options: ['hiri-tribu', 'hiri-talde', 'tribu urbanoa', 'kale-tribu']
+    options: ['herri-tribu', 'hiri-talde', 'tribu urbanoa', 'kale-tribu']
     answer: 2
-    explanation: '*Tribu urbanoa* es la forma adoptada en euskera, calco directo del castellano y reconocido en euskaltzaindia.'
+    explanation: '*Tribu urbanoa* es la forma más extendida en euskera, préstamo del castellano (también se documenta *hiri-tribu*).'
   - id: ex-b2-kul2-mc2
     type: multiple-choice
     prompt: '"Belaunaldi-arrakala" significa:'
@@ -56,7 +56,7 @@ Las **tribus urbanas** (*tribu urbanoak*) son grupos sociales — sobre todo juv
 
 ## ¿Por qué surgen?
 
-> *Gazte askok, helduen mundutik bereizteko, talde estetiko eta kulturaletan biltzen dira. Talde horiek nortasun bat eskaintzen diete, kanpotik nabarmenak eta barrutik kohesionatuak.*
+> *Gazte asko, helduen mundutik bereizteko, talde estetiko eta kulturaletan biltzen dira. Talde horiek nortasun bat eskaintzen diete, kanpotik nabarmenak eta barrutik kohesionatuak.*
 
 Las funciones principales:
 
@@ -81,7 +81,7 @@ Las funciones principales:
 - *jantzi urratuak, iltze-zinta, ile pintatua*
 - *No future* — eslogan generacional
 
-> En Euskal Herria, el punk tuvo una versión propia muy fuerte: el **euskal rock-aren mugimendua** de los 80, con grupos como Hertzainak, Eskorbuto, Kortatu o La Polla Records.
+> En Euskal Herria, el punk tuvo una versión propia muy fuerte: el **Rock Radical Vasco** (*Euskal Rock Erradikala*) de los 80, con grupos como Hertzainak, Eskorbuto, Kortatu o La Polla Records.
 
 ### Heavyak / metaleroak
 
@@ -141,7 +141,7 @@ Frase tipo:
 
 ## ¿Y hoy?
 
-> *Gaur egun, klasiko zaharreneko tribu asko desagertu egin dira, edo nostalgia gisa bakarrik geratzen dira. Baina horrek ez du esan nahi gazteek talde estetikoetan biltzeari utzi diotenik.*
+> *Gaur egun, tribu klasiko zaharrenetako asko desagertu egin dira, edo nostalgia gisa bakarrik geratzen dira. Baina horrek ez du esan nahi gazteek talde estetikoetan biltzeari utzi diotenik.*
 
 Las "tribus" actuales son más fluidas y muchas veces se construyen en torno a:
 
@@ -154,11 +154,11 @@ Las "tribus" actuales son más fluidas y muchas veces se construyen en torno a:
 
 Una pregunta de redacción habitual:
 
-> ***Tribu urbanoek nortasuna eraikitzen laguntzen al diete gazteei, edo, alderantziz, libertasun-zentzua mugatzen al diete?***
+> ***Tribu urbanoek nortasuna eraikitzen laguntzen al diete gazteei, edo, alderantziz, askatasun-zentzua mugatzen al diete?***
 
 Plantilla de respuesta posible:
 
-> *Argi dago tribu urbanoek nortasun-eraikuntzan funtzio garrantzitsua dutela. Hala ere, ezin dugu ahaztu uniformetasuna ere ekartzen dutela: talde batekoak izateak ezaugarri estetiko eta ideologiko jakin batzuk eskatzen ditu, eta hortik kanpo geratzea zaila bihurtzen da.*
+> *Argi dago tribu urbanoek nortasun-eraikuntzan funtzio garrantzitsua dutela. Hala ere, ezin dugu ahaztu uniformetasuna ere ekartzen dutela: talde batekoa izateak ezaugarri estetiko eta ideologiko jakin batzuk eskatzen ditu, eta hortik kanpo geratzea zaila bihurtzen da.*
 
 ## Conexión con el carácter
 

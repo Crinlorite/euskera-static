@@ -13,8 +13,8 @@ exercises:
     type: multiple-choice
     prompt: '¿Cuál es la forma mugagabe (indeterminada) de "lagun" en ergativo?'
     options: ['lagunek', 'lagunak', 'lagunak (indeterminado)', 'zenbat lagunek']
-    answer: 3
-    explanation: 'En mugagabea, *lagun* en ergativo es *lagunek* (igual al plural definido), pero solo aparece tras numerales/cuantificadores indeterminados (*zenbat lagunek, hainbat lagunek, edozein lagunek*).'
+    answer: 0
+    explanation: 'En mugagabea, *lagun* en ergativo es *lagunek* (igual al plural definido); aparece tras numerales/cuantificadores indeterminados (*zenbat lagunek, hainbat lagunek, edozein lagunek*).'
   - id: ex-b2-iri4-mc2
     type: multiple-choice
     prompt: '"Según el periódico" en euskera:'
@@ -87,7 +87,7 @@ Hay una lista cerrada de contextos:
 ### 3. Con interrogativos sustantivados
 
 - *Norbait**ek** deitu du.* — Alguien ha llamado. (mugagabea)
-- *Ezer**ez**i buruz ari naiz.* — Sobre nada estoy hablando.
+- *Ez naiz **ezeri** buruz ari.* — No estoy hablando de nada.
 
 ## Tabla de declinación: mugatua vs mugagabea
 
@@ -99,7 +99,9 @@ Tomemos *lagun* (amigo) como ejemplo:
 | NORK (erg) | *lagunak* | *lagunek* | ***lagun**ek* |
 | NORI (dat) | *lagunari* | *lagunei* | ***lagun**i* |
 | NOREN (gen) | *lagunaren* | *lagunen* | ***lagun**en* |
-| NON (ines) | *lagunean* | *lagunetan* | ***lagun**etan* |
+| NON (ines) — con *herri* | *herrian* | *herrietan* | ***herri**tan* |
+
+> En el inesivo usamos *herri* porque *lagun* es animado, y los casos de lugar de los animados llevan *-gan*: *lagunarengan, lagunengan*.
 
 > Importante: en mugagabea **el ergativo coincide con el plural definido** (*lagunek*). Solo el contexto (precedido de *zenbat*, *hainbat*...) te dice cuál es.
 
@@ -139,7 +141,7 @@ A diferencia de las anteriores, esta se construye con dativo (*-i*), no con geni
 Va sufijado al genitivo del nombre:
 
 > *Eguraldi**arengatik** ez gara joan.* — Por causa del tiempo no hemos ido.
-> *Zur**engatik** etorri naiz.* — He venido por ti.
+> *Zu**regatik** etorri naiz.* — He venido por ti.
 
 ### 6. **-engana / -engandik** (hacia / desde alguien)
 
@@ -168,7 +170,7 @@ Tres postposiciones (*arabera, alde, bidez*) + un conector (*hala ere*). Esa den
 - ❌ *Liburu buruz* (sin dativo) → ✅ *Liburu**a**ri buruz*.
 - ❌ *Etxean alde* (mal caso) → ✅ *Etxe**aren** alde*.
 - ❌ Confundir mugagabea con plural: *lagunek* puede ser ambos según contexto.
-- ❌ Aplicar *engatik* a cosas inanimadas pero genitivo singular: con cosas se puede *eguraldiagatik*; correcto es *eguraldi**a**rengatik* (admite ambas, pero *-arengatik* es más formal).
+- ❌ Creer que con cosas inanimadas solo vale una forma: *eguraldi**a**gatik* y *eguraldi**aren**gatik* son ambas correctas.
 
 ## Conclusión
 

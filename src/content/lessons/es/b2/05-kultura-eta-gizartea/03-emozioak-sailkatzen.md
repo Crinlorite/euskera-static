@@ -28,7 +28,7 @@ exercises:
   - id: ex-b2-kul3-fb1
     type: fill-in-blank
     prompt: '"Tener miedo" — ___________ izan.'
-    answers: [Beldurra, beldurra]
+    answers: [Beldurra, beldurra, Beldur, beldur]
     explanation: '*Beldurra izan* / *beldur izan* = tener miedo.'
   - id: ex-b2-kul3-fc
     type: flashcards
@@ -141,7 +141,7 @@ Cada emoción tiene **sustantivo + verbo + adjetivo**:
 | Forma | Ejemplo |
 |---|---|
 | Sustantivo: *beldurra* | *Beldurra eman dit.* |
-| Adjetivo: *beldur, izutu* | *Beldur naiz.* |
+| Adjetivo: *beldur, izututa* | *Beldur naiz.* |
 | Verbo: *beldurtu, izutu* | *Beldurtu egin nintzen.* |
 
 ### Harridura (sorpresa)

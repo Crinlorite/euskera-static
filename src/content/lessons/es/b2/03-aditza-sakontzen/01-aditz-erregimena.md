@@ -56,14 +56,14 @@ exercises:
 
 El **régimen verbal** (*aditz erregimena*) es la decisión clave que toma cada verbo: ¿qué auxiliar usa? En B2 ya no basta con saber conjugar — hay que saber **qué tipo de oración necesita cada verbo**.
 
-## Las tres familias de auxiliares
+## Las cuatro familias de auxiliares
 
 | Familia | Caso | Sujeto | Ejemplo |
 |---|---|---|---|
 | **NOR (izan/da)** | Absolutivo | sin marca | *Etorri **da*** (Ha venido) |
 | **NOR-NORK (ukan/du)** | Ergativo | -k / -ek | *Ekarri **du*** (Lo ha traído) |
-| **NOR-NORI (-zaio)** | Dativo | -ri / -ei | *Gustatu **zait*** (Me ha gustado) |
-| **NOR-NORI-NORK (-dio)** | Erg + Dat | -k + -ri | *Ekarri **dit*** (Me lo ha traído) |
+| **NOR-NORI (-zaio)** | Abs + dativo | sin marca (la persona, en *-ri / -ei*) | *Gustatu **zait*** (Me ha gustado) |
+| **NOR-NORI-NORK (-dio)** | Erg + dativo | -k / -ek (la persona, en *-ri / -ei*) | *Ekarri **dit*** (Me lo ha traído) |
 
 > El auxiliar manda. Y el verbo elige el auxiliar.
 
