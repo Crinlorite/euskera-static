@@ -28,7 +28,7 @@ exercises:
       - "Esan zidan etorri zenean deituko zidala"
       - "Galdetu zidan non bizi nintzen"
     answer: 0
-    explanation: '*Deitu* en sentido "llamar por teléfono" pide NOR-NORI: *deituko didala* ("me llamará a mí"). *Deituko nauela* sería "me llamará en el sentido de me invocará / me requerirá", incorrecto en este contexto.'
+    explanation: '*Deitu* en sentido "llamar por teléfono" pide dativo (NOR-NORI-NORK): *deituko didala* ("me llamará a mí"). *Deituko nauela* sería "me llamará en el sentido de me invocará / me requerirá", incorrecto en este contexto.'
   - id: ex-b2-adi5-fb1
     type: fill-in-blank
     prompt: '"Sabíamos que se había olvidado del libro" — Bagenekien liburua ahaztu ___________.'
@@ -134,7 +134,7 @@ Coge una conversación cualquiera y conviértela en **informe** en pasado. Por e
 > — *Garazi: "Goizeko zortzietan."*
 
 > **Informe:**
-> *Garazik esan zion Lehren hurrengo egunean Bilbora joango zela. Landerrek galdetu zion zein ordutan, eta Garazik erantzun zion goizeko zortzietan joango zela.*
+> *Garazik esan zion Landerri hurrengo egunean Bilbora joango zela. Landerrek galdetu zion zein ordutan, eta Garazik erantzun zion goizeko zortzietan joango zela.*
 
 Tres frases que comprimen toda la mecánica del estilo indirecto + completivas.
 
@@ -146,7 +146,7 @@ Tres frases que comprimen toda la mecánica del estilo indirecto + completivas.
 | *Galdetu dit non bizi naiz* (sin -en) | *Galdetu dit non bizi **naizen***. |
 | *Ahaztu dut etortzea* (régimen mal) | *Ahaztu **zait** etortzea*. |
 | *Iritsi nintzen denean* (mal lugar de -en) | *Iritsi **nintzenean***. |
-| *Esan zuela* (sin sujeto principal) | *Esan **du** etorriko **zela***. |
+| *Esan zuela* (sin sujeto principal) | *Esan **zuen** etorriko **zela***. |
 
 ## Plan de trabajo para asentar B2 verbal
 

@@ -32,8 +32,8 @@ exercises:
   - id: ex-b2-adi4-fb1
     type: fill-in-blank
     prompt: '"Antes de comer, lava las manos" — Jan ___________ lehen, eskuak garbitu.'
-    answers: [aurretik, AURRETIK, baino, BAINO]
-    explanation: '*Jan baino lehen* o *Jan aurretik* son las dos formas de "antes de comer". Ambas correctas.'
+    answers: [baino, BAINO]
+    explanation: '*Jan baino lehen* = antes de comer: como el hueco va seguido de *lehen*, pide *baino*. La alternativa, sin *lehen*, es *jan aurretik*.'
   - id: ex-b2-adi4-fc
     type: flashcards
     cards:
@@ -46,7 +46,7 @@ exercises:
       - { eu: ondoren, es: después de }
       - { eu: arte, es: hasta }
       - { eu: orduko, es: para cuando }
-      - { eu: '-takoan ezagutu zuen', es: 'al verlo / una vez visto, lo reconoció' }
+      - { eu: 'ikusitakoan ezagutu zuen', es: 'al verlo / una vez visto, lo reconoció' }
   - id: ex-b2-adi4-mp
     type: match-pairs
     pairs:
@@ -149,13 +149,13 @@ Dos opciones que conviven:
 
 | Forma | Estructura |
 |---|---|
-| *baino lehen* | sustantivo verbal (-tu) + *baino lehen* |
-| *aurretik* | sustantivo verbal en -t(z)e + *aurretik* o *-(e)n aurretik* |
+| *baino lehen* | participio (*-tu*) + *baino lehen* |
+| *aurretik* | participio (*-tu*) + *aurretik* |
 
 - *Jan **baino lehen**, eskuak garbitu.* — Antes de comer, lavar las manos.
 - *Jaten hasi **aurretik**, otoitza egiten dute.* — Antes de empezar a comer, rezan.
 
-## 7. Ondoren / -eta gero — después de
+## 7. Ondoren / eta gero — después de
 
 - *Bazkaldu **ondoren**, lo egin nuen.* — Después de comer, dormí.
 - *Etxera iritsi **eta gero**, deitu nuen.* — Después de llegar a casa, llamé.

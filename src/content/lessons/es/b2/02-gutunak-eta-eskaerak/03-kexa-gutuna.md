@@ -70,7 +70,7 @@ Cuatro bloques:
 
 Identifícate y sitúa la queja en un contrato, factura, número de expediente o servicio concreto:
 
-> *Garazi Etxeberria naiz, NAN ___ duena, eta zuen enpresan harpidedun ___ zenbakiarekin. Honen bidez, kexa agertu nahi nuke martxoaren 12an gertatutako gorabeheraren inguruan.*
+> *Garazi Etxeberria naiz, NAN ___ dudana, eta zuen enpresan harpidedun ___ zenbakiarekin. Honen bidez, kexa agertu nahi nuke martxoaren 12an gertatutako gorabeheraren inguruan.*
 
 Vocabulario clave:
 
@@ -137,14 +137,14 @@ Donostian, 2026ko martxoaren 25ean
 
 Gaia: martxoaren 12an enkargatutako produktuaren kexa-gutuna.
 
-Agurgarria,
+Agurgarria:
 
 Garazi Etxeberria naiz, harpidedun ___ zenbakiduna,
 eta honen bidez kexa agertu nahi dizuet ondoko
 gertaeren inguruan.
 
-Martxoaren 12an enkargu bat egin nuen, agindu zidaten
-epea hiru egunekoa zela. Astebete eta erdi pasatu
+Martxoaren 12an enkargu bat egin nuen, eta agindu
+zidaten epea hiru egunekoa zela. Astebete eta erdi pasatu
 dira, eta oraindik ez da ezer iritsi. Bost aldiz
 deitu dut bezeroentzako arretarako zenbakira eta ez
 dit inork erantzun.

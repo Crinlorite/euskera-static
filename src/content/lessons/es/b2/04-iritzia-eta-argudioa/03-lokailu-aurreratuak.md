@@ -46,7 +46,7 @@ exercises:
       - { eu: hortaz, es: así que / por consiguiente }
       - { eu: aitzitik, es: por el contrario }
       - { eu: aldiz, es: en cambio }
-      - { eu: ere bai, es: también sí }
+      - { eu: ere bai, es: también }
   - id: ex-b2-iri3-mp
     type: match-pairs
     pairs:
@@ -104,18 +104,18 @@ Ejemplos:
 - *Sukaldari ona da. Aitak, ***ordea***, ez du oso ondo prestatzen.* — Ella es buena cocinera. El padre, en cambio, no cocina muy bien.
 - *Ez da Bilbokoa, ***baizik eta*** Donostiakoa.* — No es de Bilbao, sino de Donostia.
 
-> *Aitzitik* es muy fuerte. Reservalo para cuando contradices algo que se dijo antes: *Pentsatzen genuen ez zela etorriko. Aitzitik, hor zegoen.*
+> *Aitzitik* es muy fuerte. Resérvalo para cuando contradices algo que se dijo antes: *Pentsatzen genuen ez zela etorriko. Aitzitik, hor zegoen.*
 
 ## 3. Causa — explicar el porqué
 
 | Conector | Posición | Registro |
 |---|---|---|
-| *zeren / ze* | Tras la oración principal, separada por coma | Coloquial-estándar |
+| *zeren / ze* | Tras la oración principal, separada por coma; el verbo lleva *bait-* o *-(e)n* (*zeren ... baita*) | Coloquial-estándar |
 | *-(e)lako* | Sufijo, escondido en el verbo | Estándar |
 | *izan ere* | Inicial | Refuerza la causa |
 | *bait-* | Prefijo verbal | Literario |
 
-- *Ez da etorri, ***-elako*** lanean dabil.* (forma sufijada) — *Ez da etorri lanean dabilelako.*
+- *Ez da etorri **lanean dabilelako**.* (forma sufijada: *-elako* va dentro del propio verbo)
 - *Ez da etorri. ***Izan ere***, lanean dabil.* — No ha venido. De hecho, está trabajando.
 
 ## 4. Consecuencia — el resultado
@@ -171,8 +171,8 @@ Reglas:
 
 Combinación frecuente: *baita ... ere* (también) y *ezta ... ere* (tampoco):
 
-- *Baita Lander ere etorri da.* — También ha venido Lander.
-- *Ezta nik ere ez dakit.* — Tampoco yo lo sé.
+- *Garazi etorri da, baita Lander ere.* — Ha venido Garazi, y también Lander.
+- *Garazik ez daki, ezta nik ere.* — Garazi no lo sabe, ni yo tampoco.
 
 ## Errores que delatan en B2
 

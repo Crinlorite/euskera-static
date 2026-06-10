@@ -13,7 +13,7 @@ exercises:
     type: multiple-choice
     prompt: '"Hitz gutxiko gizona" significa…'
     options:
-      - "Un hombre de palabras pocas (callado)"
+      - "Un hombre de pocas palabras (callado)"
       - "Un hombre que habla en voz baja"
       - "Un hombre desconocido"
       - "Un hombre breve / bajo"
@@ -81,7 +81,7 @@ Tres piezas:
 | *Esku zabaleko gizona* | Hombre de mano abierta (generoso) |
 | *Bihotz handiko pertsona* | Persona de gran corazón |
 | *Aho zabaleko mutila* | Chico bocazas |
-| *Buru ileguneko neska* | Chica de cabeza despeinada / cabello suelto |
+| *Ile harroko neska* | Chica de pelo alborotado |
 | *Bekoki zabaleko gizona* | Hombre de frente ancha |
 
 ### Aplicado a rasgos abstractos
@@ -137,7 +137,7 @@ Saber abrir bien la descripción importa. Verbos útiles:
 | *ematen du* | Da la impresión (de). *Triste ematen du.* |
 | *bururatzen zait* | Se me ocurre / me hace pensar en. *Aitona bururatzen zait.* |
 | *gogorarazten dit* | Me recuerda a. *Lehengo lagun bat gogorarazten dit.* |
-| *antzekoa da* | Es parecido/a a. *Anaiari oso antzekoa da.* |
+| *antzekoa da* | Es parecido/a a. *Anaiaren oso antzekoa da.* |
 
 ## Encadenar una descripción completa
 
@@ -147,12 +147,12 @@ Plantilla en cuatro frases:
 
 Ejemplo:
 
-> *Anboto pertsona meharra eta liraina zen, hogeita hamabost urte ingurukoa. Bizar motza eta begi marroi sakonak zituen, eta beti eramaten zuen kapelu beltz bat barrutik. Itxuraz erreserbatua zirudien, baina, behin konfiantza hartuta, oso berritsua eta eskuzabala zen. Klaseko denei oroitzen zaie zein zen bere ohitura: bilera bakoitza amaitzean, bakoitzari mesede txiki bat egiten zion, mugikorrean idatzitako ohar baten bidez.*
+> *Anboto pertsona meharra eta liraina zen, hogeita hamabost urte ingurukoa. Bizar motza eta begi marroi sakonak zituen, eta beti eramaten zuen kapelu beltz bat, baita barruan ere. Itxuraz erreserbatua zirudien, baina, behin konfiantza hartuta, oso berritsua eta eskuzabala zen. Klaseko denek gogoan dute zein zen haren ohitura: bilera bakoitza amaitzean, bakoitzari mesede txiki bat egiten zion, mugikorrean idatzitako ohar baten bidez.*
 
 Análisis rápido:
 
 - *meharra eta liraina* — apariencia
-- *kapelu beltz bat barrutik* — detalle físico
+- *kapelu beltz bat, baita barruan ere* — detalle físico
 - *erreserbatua... berritsua eta eskuzabala* — carácter en contraste
 - *mesede txiki bat... oharra* — detalle revelador
 

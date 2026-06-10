@@ -27,9 +27,9 @@ exercises:
     explanation: '*Lotsatia* = tímido. *Irekia* = abierto, extrovertido.'
   - id: ex-b2-norb4-fb1
     type: fill-in-blank
-    prompt: '"Es muy sensible" — ___________ da.'
-    answers: [Sentibera, sentibera, oso sentibera, Oso sentibera]
-    explanation: '*Sentibera* = sensible. La traducción literal con énfasis sería *oso sentibera*.'
+    prompt: '"Es muy sensible" — Oso ___________ da.'
+    answers: [sentibera, Sentibera, SENTIBERA]
+    explanation: '*Oso sentibera da* = es muy sensible. *Sentibera* = sensible.'
   - id: ex-b2-norb4-fc
     type: flashcards
     cards:
@@ -142,7 +142,7 @@ La estructura básica:
 | *Esku zikinekoa* | de manos sucias | corrupto |
 | *Hitz gutxikoa* | de pocas palabras | callado, parco |
 | *Begi zorrotzeko* | de ojo penetrante | observador, perspicaz |
-| *Gibelhandi* | de gran hígado | paciente |
+| *Gibel-handi* | de gran hígado | paciente |
 
 > Estas expresiones siguen el patrón **sustantivo + adjetivo + ko** y funcionan como un único adjetivo: *hitz gutxiko gizona* = "un hombre de pocas palabras".
 
@@ -155,7 +155,7 @@ No basta con poner el adjetivo: hay que matizar:
 
 Conectores útiles para matizar:
 
-- **batzuetan / inoiz** — a veces / nunca
+- **batzuetan / inoiz ez** — a veces / nunca
 - **itxuraz / agerian** — en apariencia / a la vista
 - **bihurtzen da** — se vuelve
 - **erakusten du** — muestra (que es)

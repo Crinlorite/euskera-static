@@ -20,7 +20,7 @@ exercises:
     prompt: '¿Cuál de estas frases es una petición correcta y cortés?'
     options:
       - "Eman behar didazu txartela!"
-      - "Mesedez, txartel hori eman dezakezu?"
+      - "Mesedez, eman iezadazu txartela oraintxe bertan!"
       - "Txartela ekartzeko eskatzen dizut adeitasunez."
       - "Txartela behar dut!"
     answer: 2
@@ -68,7 +68,7 @@ Cuatro párrafos:
 
 Empieza presentándote. Las fórmulas habituales:
 
-- *Lander Olabarri Zubia naiz, NAN ___ duena, eta Donostian bizi naizena.* — Soy Lander Olabarri Zubia, con DNI ___, residente en Donostia.
+- *Lander Olabarri Zubia naiz, NAN ___ dudana, eta Donostian bizi naizena.* — Soy Lander Olabarri Zubia, con DNI ___, residente en Donostia.
 - *Honen bidez, zuengana zuzentzen naiz...* — Por la presente, me dirijo a ustedes...
 
 > Si la carta va a una entidad concreta, identifícate también respecto a esa entidad: *zuen ikastetxeko ikaslea*, *zuen langilea*, *zuen herriko biztanlea*.
@@ -128,10 +128,10 @@ Donostian, 2026ko apirilaren 5ean
 
 Gaia: aparkalekurako baimen-txartel berriaren eskaera.
 
-Agurgarria,
+Agurgarria:
 
-Lander Olabarri Zubia naiz, NAN ___ duena, eta zuen
-herriko biztanlea naiz hamabost urte daramatzadana.
+Lander Olabarri Zubia naiz, NAN ___ dudana, eta zuen
+herriko biztanlea; hamabost urte daramatzat bertan.
 
 Joan den astean konturatu naiz aparkalekurako baimen-
 txartela iraungita daukadala. Lana dela eta, autoa
@@ -139,8 +139,8 @@ egunero erabili behar dut, beraz ezin dut txartelik
 gabe segitu.
 
 Horregatik, honako hau eskatzen dizuet: nire baimen-
--txartela berritzea, dagokion ordainketa egiteko prest
-nagoen heinean.
+-txartela berritzea. Dagokion ordainketa egiteko prest
+nago.
 
 Aldez aurretik, eskerrik asko zuen arretagatik.
 Erantzun-zain naukazu.

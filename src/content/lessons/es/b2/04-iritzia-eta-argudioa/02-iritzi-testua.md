@@ -23,8 +23,8 @@ exercises:
     explanation: '*Tesia* = la idea/postura central que se defiende a lo largo del texto.'
   - id: ex-b2-iri2-fb1
     type: fill-in-blank
-    prompt: '"Para concluir" — ___________ amaitzeko.'
-    answers: [Bukatzeko, BUKATZEKO, Amaitzeko]
+    prompt: '"Para concluir" — ___________.'
+    answers: [Bukatzeko, BUKATZEKO, Amaitzeko, AMAITZEKO]
     explanation: '*Bukatzeko* o *Amaitzeko* son las fórmulas estándar para abrir la conclusión.'
   - id: ex-b2-iri2-fc
     type: flashcards
@@ -108,7 +108,7 @@ Estructura por párrafo:
 
 Ejemplo de un argumento (de los dos o tres del texto):
 
-> ***Lehenik eta behin***, *adin horretako haurrek ez dute oraindik nahikoa heldutasun pantaila baten erabilera kudeatzeko. Nahiz eta gurasoek mugak jartzen saiatu, ikerketek erakutsi dutenez, gehienek ezin diote tentazioari eutsi.* ***Adibidez***, *Eusko Jaurlaritzaren 2024ko txosten batek dioenez, hamar hamarretik bostek baino gehiagok bi ordutik gora pasatzen dituzte mugikor aurrean.*
+> ***Lehenik eta behin***, *adin horretako haurrek ez dute oraindik nahikoa heldutasun pantaila baten erabilera kudeatzeko. Nahiz eta gurasoek mugak jartzen saiatu, ikerketek erakutsi dutenez, gehienek ezin diote tentazioari eutsi.* ***Adibidez***, *Eusko Jaurlaritzaren 2024ko txosten batek dioenez, hamarretik bostek baino gehiagok bi ordutik gora pasatzen dituzte mugikor aurrean.*
 
 ### Conectores de orden (oso erabilgarriak)
 
@@ -142,7 +142,7 @@ Estructura:
 
 Ejemplo:
 
-> *Bukatzeko, esan beharra dago argudio guzti hauek norabide bera erakusten dutela: hamabi urtetik beherakoei mugikor propio bat ematea ez dela burutsua. Familia bakoitzak bere erabakia hartuko du, jakina, baina pentsatu beharko genuke ondorengo belaunaldiei zer eredu erakusten ari garen.*
+> *Bukatzeko, esan beharra dago argudio hauek guztiek norabide bera erakusten dutela: hamabi urtetik beherakoei mugikor propio bat ematea ez dela burutsua. Familia bakoitzak bere erabakia hartuko du, jakina, baina pentsatu beharko genuke ondorengo belaunaldiei zer eredu erakusten ari garen.*
 
 ### Fórmulas para abrir la conclusión
 
