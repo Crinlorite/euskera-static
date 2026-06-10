@@ -42,7 +42,7 @@ exercises:
   - id: ex-b1-ul-04-fb1
     type: fill-in-blank
     prompt: 'Encabezamiento típico de carta formal: "___ jauna/andrea," (estimado/a)'
-    answers: [Agurgarri, Agurgarria, Begirunez]
+    answers: [Agurgarri, Agurgarria]
     explanation: '*Agurgarri X jauna* = Estimado señor X. *Agurgarria* es variante. Es la apertura estándar de cartas formales.'
   - id: ex-b1-ul-04-fc
     type: flashcards
@@ -141,7 +141,7 @@ Para amigo o familiar.
 |---|---|
 | *Kaixo, Olatz!* | *Agur, Anboto* |
 | *Aupa, Lander!* | *Musu handi bat* |
-| *Maite Garazi:* | *Laster arte* |
+| *Garazi maitea:* | *Laster arte* |
 | *Adiskide:* | *Besarkada bat* |
 
 ### Carta formal
@@ -167,7 +167,7 @@ Para administración, empresa, autoridad.
 
 | Informal | Formal |
 |---|---|
-| Kaixo | Agurgarri X-a |
+| Kaixo | Jaun/andre agurgarria |
 | Egunero idazten dizut | Eskutitz hau idazten dizut … aurkezteko |
 | Eskerrik asko! | Eskerrik asko aldez aurretik |
 | Laster arte | Adeitasunez |
@@ -178,7 +178,7 @@ Para administración, empresa, autoridad.
 Funciona como una carta, pero más breve. Estructura:
 
 1. **Gaia / asuntoa**: claro y específico.
-2. **Agurra**: *Kaixo X*, *Agurgarri X-a*…
+2. **Agurra**: *Kaixo X*, *Jaun/andre agurgarria*…
 3. **Cuerpo**: 1-2 párrafos máximo.
 4. **Cierre**: *Eskerrik asko, agur, adeitasunez*.
 

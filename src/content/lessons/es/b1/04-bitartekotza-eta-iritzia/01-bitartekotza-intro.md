@@ -122,7 +122,7 @@ Una mediación bien estructurada suele tener tres bloques:
 | **Resumir** | *labur esanda, laburbilduz, hitz batean* |
 | **Citar** | *autoreak dio... -ela, idazleak aipatzen du... -ela* |
 | **Reformular** | *hau da, alegia, beste hitz batzuekin esateko* |
-| **Adaptar** | *zuk hori interesgarria izango duzu, kontuan hartu behar duzu* |
+| **Adaptar** | *zuretzat hori interesgarria izango da, kontuan hartu behar duzu* |
 | **Recomendar** | *gomendatuko nizuke, hobe izango zenuke* |
 | **Comparar** | *X bezain garrantzitsua da, baina X-en aldean* |
 

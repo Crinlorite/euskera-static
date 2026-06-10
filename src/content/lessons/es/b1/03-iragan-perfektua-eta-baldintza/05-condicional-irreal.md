@@ -43,8 +43,8 @@ exercises:
   - id: ex-b1-ir-05-fb2
     type: fill-in-blank
     prompt: '"Si supiera" → ___'
-    answers: [banekien, banaki]
-    explanation: '*Banekien* (forma común con auxiliar pasado) o *banaki* (forma con verbo sintético). Ambas válidas.'
+    answers: [baneki, jakingo banu]
+    explanation: '*Baneki* = "si yo supiera", forma sintética hipotética de *jakin* (*euskaraz baneki!*). También vale la perifrástica *jakingo banu*.'
   - id: ex-b1-ir-05-fc
     type: flashcards
     cards:
@@ -118,13 +118,13 @@ La condicional irreal expresa **hipótesis improbables o imposibles** ("si tuvie
 Para el "si hubiera... habría...":
 
 > Subordinada: partizipioa + **izan** + ba- + auxiliar
-> Principal: -**ko** + auxiliar pasado + -**en**
+> Principal: -**ko** + auxiliar pasado (*izango nintzen, erosiko nuen*)
 
 ### Ejemplos
 
 - *Etorri **izan balitz**, ondo **pasako genuen**.* — Si hubiera venido, lo habríamos pasado bien.
 - *Lehenago jakin **izan banu**, ez nintzen joango.* — Si lo hubiera sabido antes, no habría ido.
-- *Lan hori egin **izan baluzu**, ondo geratuko zen.* — Si hubieras hecho ese trabajo, habría quedado bien.
+- *Lan hori egin **izan bazenu**, ondo geratuko zen.* — Si hubieras hecho ese trabajo, habría quedado bien.
 
 > En B1 las formas más usadas son *izan banu, izan balitz, izango nintzen, izango nuen*. No te exigen el cuadro completo de irreal pasado; pero sí que lo reconozcas y produzcas en frases sencillas.
 
@@ -141,12 +141,12 @@ Para construir cualquier condicional irreal, ten estos cuatro bloques en la cabe
 
 Algunas formas sintéticas:
 
-- *banaki* — si yo supiera
+- *baneki* — si yo supiera
 - *baleki* — si supiera
-- *banator* (nada habitual; preferimos *etorriko banintz*) — si viniera
-- *banoa* (idem; preferimos *joango banintz*) — si fuera
+- *banentor* (nada habitual; preferimos *etorriko banintz*) — si viniera
+- *banindoa* (idem; preferimos *joango banintz*) — si fuera
 
-En B1 lo más útil: dominar *banaki / baleki* (saber).
+En B1 lo más útil: dominar *baneki / baleki* (saber).
 
 ## Comparación entre real e irreal
 
@@ -154,14 +154,14 @@ En B1 lo más útil: dominar *banaki / baleki* (saber).
 |---|---|
 | *Diru gehiago **badut**, **erosiko dut**.* (Si tengo más dinero, lo compraré.) | *Diru gehiago **banu**, **erosiko nuke**.* (Si tuviera más dinero, lo compraría.) |
 | *Etortzen **bada**, deituko dut.* | *Etorriko **balitz**, deituko nioke.* |
-| *Asko jakiten **baduzu**, **gaindituko duzu**.* | *Asko **bazeneki**, **gaindituko zenuke**.* |
+| *Asko **badakizu**, **gaindituko duzu**.* | *Asko **bazeneki**, **gaindituko zenuke**.* |
 
 ## Usos típicos en B1
 
 ### Dar consejos / sugerencias
 
 - *Zu banintz, beste lan bat bilatuko nuke.* — Yo que tú, buscaría otro trabajo.
-- *Nik bazina, lehen deituko nioke.* — Yo en tu lugar, le llamaría primero.
+- *Zure lekuan banengo, lehenengo deituko nioke.* — Yo en tu lugar, le llamaría primero.
 
 ### Expresar deseos imposibles
 

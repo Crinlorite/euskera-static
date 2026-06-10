@@ -91,7 +91,7 @@ Cuando lo que comes / compras / ves es **plural** (varios libros, las cosas, etc
 | haiek | **zituzten** |
 
 > *Hiru liburu erosi **nituen**.* — Compré tres libros.
-> *Garaziek opariak ekarri **zituen**.* — Garazi trajo los regalos.
+> *Garazik opariak ekarri **zituen**.* — Garazi trajo los regalos.
 
 ## Recuerda: el sujeto va en -k
 
@@ -121,20 +121,20 @@ Aquí entra una de las distinciones más importantes del B1:
 
 ### Ejemplos contrastados
 
-> *Atzo zinea ikusi nuen* — Ayer vi una película (acción puntual).
+> *Atzo pelikula bat ikusi nuen* — Ayer vi una película (acción puntual).
 > *Lehen astero zinera joaten nintzen* — Antes iba al cine cada semana (hábito).
 
 > *Iaz Italian egon ginen* — El año pasado estuvimos en Italia.
 > *Garai hartan asko bidaiatzen genuen* — En aquella época viajábamos mucho.
 
-## El pluskuanperfektua: izan duen + auxiliar pasado
+## El pluscuamperfecto: partizipioa + -a/-ta + auxiliar pasado
 
-Para "**había + participio**", se construye con *izan*:
+Para "**había + participio**", lo más natural es el participio resultativo:
 
-> partizipioa + **izan** + auxiliar pasado
+> partizipioa + **-a / -ta** + auxiliar pasado
 
-- *Etxera iristerako, afaria prestatu **izan zuen**.* — Para cuando llegué a casa, había preparado la cena.
-- *Ez **izan** nuen ezagutu.* — No le había conocido.
+- *Etxera iristerako, afaria prestatu**ta** zuen.* — Para cuando llegué a casa, había preparado la cena.
+- *Ordurako ez nuen ezagutzen.* — Para entonces aún no le conocía.
 
 > En la mayoría de contextos B1 se usa simplemente el pasado simple. El pluscuamperfecto aparece sobre todo en narraciones de cierta complejidad.
 

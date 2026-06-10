@@ -116,14 +116,14 @@ Una de las preguntas favoritas del B1: *"¿Qué actitud tiene Anboto hacia el ca
 | Adjetivos negativos: *eskasa, txarra, kezkagarria* | Crítica |
 | Adjetivos positivos: *bikaina, harrigarria, aparta* | Entusiasmo |
 | Marcadores: *zoritxarrez, tamalez* | Lamento |
-| Marcadores: *zorionez, esperoa baino hobeto* | Satisfacción |
+| Marcadores: *zorionez, espero baino hobeto* | Satisfacción |
 | Verbos modales: *behar dugu, ezin dugu* | Llamada a la acción |
 
 ### Vocabulario de actitud
 
 - **kezkatuta** — preocupado
 - **harro** — orgulloso
-- **dezepzionatuta** — decepcionado
+- **desilusionatuta** — decepcionado
 - **pozik** — contento
 - **mesfidati** — desconfiado
 - **zalantzati** — dubitativo
@@ -137,7 +137,7 @@ El euskera marca mucho la **opinión** con verbos y construcciones específicas.
 - *Nire ustez…* (en mi opinión) → opinión.
 - *Argi dago…* (está claro) → opinión presentada como hecho.
 - *Esan nahi dut…* (quiero decir) → matización.
-- *Datuak hau dio…* (los datos dicen…) → hecho.
+- *Datuek hau diote…* (los datos dicen…) → hecho.
 - *Iruditzen zait…* (me parece) → opinión.
 
 ## Trampas habituales

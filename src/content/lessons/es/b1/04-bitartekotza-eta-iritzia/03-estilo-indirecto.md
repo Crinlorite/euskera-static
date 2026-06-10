@@ -11,7 +11,7 @@ covers: [mediation-quote]
 exercises:
   - id: ex-b1-bi-03-mc1
     type: multiple-choice
-    prompt: 'Original: "Bihar etorriko naiz." En estilo indirecto, Anborok esan zuen…'
+    prompt: 'Original: "Bihar etorriko naiz." En estilo indirecto, Anbotok esan zuen…'
     options:
       - "bihar etorriko naizela"
       - "bihar etorriko zela"
@@ -77,8 +77,8 @@ Cuando pasas de estilo directo a indirecto, **cambian** estos cuatro elementos:
 > verbo de comunicación + verbo reportado + -**(e)la**
 
 - *Anbotok esan zuen **etorriko zela**.* — Anboto dijo que vendría.
-- *Aitak agindu zigun **lasai egongo zela**.* — Padre nos prometió que estaría tranquilo.
-- *Garaziek aitortu zuen **gaizki egin zuela** lana.* — Garazi reconoció que había hecho mal el trabajo.
+- *Aitak agindu zigun **lasai egongo zela**.* — Mi padre nos prometió que estaría tranquilo.
+- *Garazik aitortu zuen **gaizki egin zuela** lana.* — Garazi reconoció que había hecho mal el trabajo.
 
 > Recuerda: si la principal es **negativa** o de duda, prefieres -**(e)nik** en lugar de -**(e)la**.
 > *Ez zuen onartu erratu zenik.* — No reconoció haberse equivocado.
@@ -116,7 +116,7 @@ Si el verbo principal está en **pasado** (*esan zuen, galdetu zidan*), los tiem
 |---|---|
 | **Etorriko naiz.** | …etorriko **zela**. (vendría) |
 | **Asko gustatzen zait.** | …asko gustatzen **zitzaiola**. (le gustaba) |
-| **Atzo ikusi zaitut.** | …egun aurreko egunean ikusi zuela. (le había visto el día anterior) |
+| **Atzo ikusi nuen.** | …bezperan ikusi zuela. (le había visto el día anterior) |
 | **Hemen nago.** | …han zegoela. (estaba allí) |
 
 > En B1 lo más exigible: la transformación de **presente → pasado**, **futuro -ko → condicional**, y **pasado simple → pluscuamperfecto** (este último a menudo simplificado en pasado).

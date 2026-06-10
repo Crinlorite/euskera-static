@@ -151,7 +151,7 @@ Practica leyendo despacio: cuando veas un verbo con -**en** seguido de un nombre
 
 > *Joan den astean Iruñean ezagutu nuen mutilak gaur deitu dit, eta hitz egin dugu hark idatzi duen liburuari buruz. Asko gustatu zaizkit kontatu dizkidan istorioak.*
 
-Tres relativos en dos frases:
+Cuatro relativos en dos frases:
 - *Joan den astean* (la semana pasada)
 - *Iruñean ezagutu nuen mutilak* (el chico que conocí en Iruñea)
 - *Hark idatzi duen liburua* (el libro que él ha escrito)

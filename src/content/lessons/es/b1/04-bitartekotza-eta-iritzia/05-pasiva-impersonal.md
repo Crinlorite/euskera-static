@@ -11,7 +11,7 @@ covers: [passive-construction, impersonal-da, passive-resultative]
 exercises:
   - id: ex-b1-bi-05-mc1
     type: multiple-choice
-    prompt: '"Hemen euskara hitz egiten da" significa…'
+    prompt: '"Hemen euskaraz hitz egiten da" significa…'
     options:
       - "Aquí hablo euskera"
       - "Aquí se habla euskera"
@@ -28,7 +28,7 @@ exercises:
   - id: ex-b1-bi-05-mc3
     type: multiple-choice
     prompt: 'Pasiva con "izan": "Eraikina XX. mendean ___ zen" (fue construido).'
-    options: [eraikitzen, eraiki, eraikia izan, eraikitzen da]
+    options: [eraikitzen, eraikiko, eraikia izan, eraikitzen da]
     answer: 2
     explanation: 'Pasiva pura en euskera: *partizipioa + -a + izan + auxiliar*. *Eraikia izan zen* = fue construido.'
   - id: ex-b1-bi-05-fb1
@@ -70,7 +70,7 @@ Es la más usada y la más útil en B1. Equivale al "se + verbo" castellano.
 
 | Castellano | Euskera |
 |---|---|
-| Aquí se habla euskera. | *Hemen euskara hitz egiten da.* |
+| Aquí se habla euskera. | *Hemen euskaraz hitz egiten da.* |
 | Esto se hace así. | *Hau horrela egiten da.* |
 | Se piensa que vendrá. | *Etorriko dela uste da.* |
 | Las cosas se arreglan hablando. | *Gauzak hitz eginez konpontzen dira.* |
@@ -86,7 +86,7 @@ Es la más usada y la más útil en B1. Equivale al "se + verbo" castellano.
 
 > verbo + -**tzen / -ten** + **zen / ziren**
 
-- *Lehen, jende gehiagok hitz egiten zuen euskara.* (más natural NOR-NORK pasado)
+- *Lehen, jende gehiagok hitz egiten zuen euskaraz.* (más natural NOR-NORK pasado)
 - *Lehen, euskara askoz gehiago erabiltzen zen.* — Antes se usaba mucho más el euskera.
 
 ## Pasiva clásica: -a izan + auxiliar
@@ -97,7 +97,7 @@ Es pasiva "fuerte" — más típica de textos escritos, periodismo, textos insti
 
 - *Eraikin hau XX. mendean **eraikia izan zen**.* — Este edificio fue construido en el siglo XX.
 - *Liburu hori urtarrilean **argitaratua izan da**.* — Ese libro ha sido publicado en enero.
-- *Erabakia ahobatez **hartua izan zen**.* — La decisión fue tomada por unanimidad.
+- *Erabakia aho batez **hartua izan zen**.* — La decisión fue tomada por unanimidad.
 
 > En la lengua hablada esta forma es poco frecuente. Predomina el impersonal -tzen da o la pasiva refleja con -ta.
 
@@ -119,9 +119,9 @@ Expresa **el estado resultante** de una acción. No la acción en sí, sino el "
 Algunas zonas usan -**(r)ik** en lugar de -ta. Es perfectamente correcto:
 
 - *Atea itxi**rik** dago.*
-- *Itzalia**rik** zegoen telebista.*
+- *Itzali**rik** zegoen telebista.*
 
-> En B1 estándar puedes usar cualquiera; -**ta** es más común en el norte (Iparralde) y -**(r)ik** mantiene presencia clara en escrito y poesía. La mayoría de manuales prefieren -**ta**.
+> En B1 estándar puedes usar cualquiera; -**ta** es la más común en Hegoalde y -**(r)ik** es propia de Iparralde y mantiene presencia clara en escrito y poesía. La mayoría de manuales prefieren -**ta**.
 
 ## Comparación entre las tres
 
@@ -164,7 +164,7 @@ Construcción impersonal de obligación, muy común:
 |---|---|
 | **-tu / -i ahal da** | se puede |
 | **ezin da -tu** | no se puede |
-| **ahalbidetzen da** | se permite |
+| **ahalbidetzen da** | se posibilita |
 | **debekatuta dago** | está prohibido |
 
 - *Hemen erre ahal da.* / *Hemen erretzen ahal da.* — Aquí se puede fumar.

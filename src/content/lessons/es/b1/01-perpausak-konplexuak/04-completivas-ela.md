@@ -33,12 +33,12 @@ exercises:
     type: multiple-choice
     prompt: 'Transforma: "Ainara: «Asko gustatzen zait»." en estilo indirecto.'
     options:
-      - "Ainarak esan zuen asko gustatzen zaiola"
+      - "Ainarak esan zuen asko gustatzen zitzaiola"
       - "Ainarak esan zuen asko gustatzen zaiona"
       - "Ainarak esan zuen asko gustatzen zaiok"
       - "Ainarak esan zuen asko gustatu zaiola"
     answer: 0
-    explanation: '*Gustatzen zaio* (le gusta) + -**la** → *gustatzen zaio**la***. La completiva sigue el orden normal del euskera: subordinada al final.'
+    explanation: 'Con *esan zuen* (pasado), la completiva pasa también al pasado: *gustatzen zait* → *gustatzen zitzaion* + -**la** → *gustatzen zitzaio**la***.'
   - id: ex-b1-pk-04-fb1
     type: fill-in-blank
     prompt: 'Completa: "Pienso que tienes razón" → Uste dut arrazoia ___.'
@@ -62,7 +62,7 @@ exercises:
       - { eu: galdetu zidan, es: me preguntó }
       - { eu: dirudienez, es: por lo que parece }
       - { eu: agian, es: quizá }
-      - { eu: -(e)n ala ez, es: si (interrogativa indirecta) sí o no }
+      - { eu: -(e)n ala ez, es: si… o no (interrogativa indirecta) }
       - { eu: ea -(e)n, es: si (interrogativa indirecta) }
 ---
 
@@ -81,7 +81,7 @@ Funciona como el "que" castellano cuando introduce una afirmación.
 
 ### Cómo se forma
 
-Pega -la al verbo auxiliar (o sintético) terminado en -n: *du-* + -en + -la → *du-en-la* → *duela*.
+Pega -(e)la al verbo auxiliar (o sintético): *da* + -**la** → *dela*; *dut* + -**la** → *dudala* (la -t se convierte en -da-).
 
 | Forma | + -la |
 |---|---|
@@ -92,7 +92,7 @@ Pega -la al verbo auxiliar (o sintético) terminado en -n: *du-* + -en + -la →
 | genuen | genuela |
 | dira | direla |
 
-> Algunas formas pierden la -n al añadir -la: *naiz → naizela*, *dut → dudala*. Otras la mantienen: *zen → zela*, *zuen → zuela*.
+> Las formas de pasado pierden la -n final al añadir -la: *zen → zela*, *zuen → zuela*, *genuen → genuela*. Y en las que acaban en -t, la -t se convierte en -da-: *dut → dudala*, *dakit → dakidala*.
 
 ## Cuándo usar -(e)nik
 
@@ -148,10 +148,10 @@ Imagina que Olatz te dice "Bihar etorriko naiz". Para reportarlo:
 
 Para suavizar afirmaciones, son típicas en B1:
 
-- *Dirudienez, **berandu iritsiko dela**.* — Por lo que parece, llegará tarde.
-- *Antza denez, **euria egingo duela**.* — Por lo visto, va a llover.
-- *Agian **etxean geratuko dela**.* — Quizá se quede en casa.
-- *Beharbada **gertatuko dela**.* — Tal vez ocurra.
+- *Dirudienez, **berandu iritsiko da**.* — Por lo que parece, llegará tarde.
+- *Antza denez, **euria egingo du**.* — Por lo visto, va a llover.
+- *Agian **etxean geratuko da**.* — Quizá se quede en casa.
+- *Beharbada **gertatuko da**.* — Tal vez ocurra.
 
 ## Ejemplo conectado
 
