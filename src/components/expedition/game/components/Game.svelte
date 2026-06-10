@@ -212,6 +212,41 @@
   // de que view fuera 'playing'.)
   $: if (view.mode === 'playing') processBeats();
 
+  // Pista contextual: qué tiene que hacer el jugador AHORA para progresar.
+  // Visible en todo momento como línea discreta sobre la zona de interacción,
+  // y reutilizada por el banner de "¿Atascado?" cuando hay inactividad.
+  function actionHint(beat: Beat | null): string {
+    if (!beat) return 'Pulsa ▶ Avanzar, arriba a la derecha';
+    switch (beat.type) {
+      case 'narration':
+        return 'Pulsa el texto (o Enter) para continuar';
+      case 'speak':
+        return 'Pulsa el diálogo: primero muestra todo el texto, después continúa';
+      case 'choice':
+        return 'Elige una opción — click o teclas 1-9';
+      case 'puzzle':
+        switch (beat.puzzle.type) {
+          case 'multiple-choice':
+            return 'Prueba lingüística: pulsa la respuesta que creas correcta';
+          case 'comprehension':
+            return 'Lee el texto en euskera y responde la pregunta de abajo';
+          case 'fill-in':
+            return 'Escribe la palabra que falta y pulsa Comprobar';
+          case 'order-words':
+            return 'Pulsa las palabras en el orden correcto para formar la frase';
+          case 'match-pairs':
+            return 'Pulsa una carta de la izquierda y luego su pareja de la derecha';
+          case 'free-write':
+            return 'Escribe tu respuesta en el cuadro y pulsa Enviar';
+          default:
+            return 'Resuelve la prueba para continuar';
+        }
+      default:
+        return 'Pulsa ▶ Avanzar si no progresa solo';
+    }
+  }
+  $: hintText = view.mode === 'playing' ? actionHint($currentBeat) : '';
+
   // ----- handlers de acciones de menú -----
   function startNewGame() {
     newGame('ch01-etxea');
@@ -433,6 +468,9 @@
     {/if}
 
     <div class="hud-bottom">
+      {#if hintText}
+        <p class="action-hint">💡 {hintText}</p>
+      {/if}
       {#if $currentBeat}
         {@const b = $currentBeat}
         {#if b.type === 'narration'}
@@ -475,7 +513,7 @@
 
     {#if idleHint}
       <div class="idle-hint" role="status">
-        <p><strong>¿Atascado?</strong> Pulsa la caja de diálogo (o usa <kbd>Enter</kbd> · <kbd>▶ Avanzar</kbd> arriba a la derecha).</p>
+        <p><strong>¿Atascado?</strong> {hintText || 'Pulsa ▶ Avanzar, arriba a la derecha.'}</p>
       </div>
     {/if}
 
@@ -616,6 +654,16 @@
     padding: var(--s-3);
     display: grid;
     gap: var(--s-2);
+  }
+  /* Pista contextual permanente: qué pulsar para progresar */
+  .action-hint {
+    margin: 0;
+    font-size: 0.78rem;
+    font-style: italic;
+    color: #e8c95e;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85);
+    opacity: 0.92;
+    pointer-events: none;
   }
   .hud-side {
     display: flex;
