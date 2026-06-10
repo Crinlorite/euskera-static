@@ -28,7 +28,7 @@ exercises:
     type: fill-in-blank
     prompt: 'Vivo con mis padres = Gurasoe___ bizi naiz.'
     answers: [kin]
-    explanation: 'En plural el sufijo es "-ekin": gurasoek + -in = gurasoekin (con los padres).'
+    explanation: 'En plural el sufijo es "-ekin": guraso + -ekin = gurasoekin (con los padres).'
   - id: ex-09-04-mc2
     type: multiple-choice
     prompt: '"Bikotekidearekin bizi naiz" significa...'
@@ -68,7 +68,7 @@ Se añade al sustantivo, ya con su artículo:
 | txakurra (el perro) | **txakurrarekin** | con el perro |
 | bikotekidea (la pareja) | **bikotekidearekin** | con la pareja |
 
-> Si la palabra acaba en consonante o "r", se añade **-ekin**: *lagun + ekin → lagunekin* (con los amigos, plural).
+> Con nombres propios y con *bat* se añade **-(e)kin** directamente, sin artículo: *Miren + ekin → Mirenekin* (con Miren), *lagun batekin* (con un amigo).
 
 ## Plural
 

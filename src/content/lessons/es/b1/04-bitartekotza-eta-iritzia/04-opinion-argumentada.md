@@ -46,8 +46,8 @@ exercises:
     explanation: '*Alde nago* = "estoy a favor". *Kontra nago* = "estoy en contra".'
   - id: ex-b1-bi-04-fb2
     type: fill-in-blank
-    prompt: 'Completa: "Por un lado..., por otro..." → ___ batetik..., ___ batetik...'
-    answers: [Alde / Bestetik]
+    prompt: 'Completa: "Por un lado..., por otro..." → Alde batetik..., ___...'
+    answers: [bestetik, beste alde batetik]
     explanation: '*Alde batetik..., bestetik...* es estructura clásica de argumentación equilibrada.'
   - id: ex-b1-bi-04-fc
     type: flashcards
@@ -148,7 +148,7 @@ Esenciales para matizar argumentos:
 | **ia** | casi |
 
 > *Erabat ados nago* — totalmente de acuerdo.
-> *Inola ere ez naiz horren alde* — de ningún modo estoy a favor de eso.
+> *Inola ere ez nago horren alde* — de ningún modo estoy a favor de eso.
 > *Neurri batean konpondu da* — se ha resuelto en parte.
 
 ## Argumentar con ejemplos
@@ -180,9 +180,9 @@ A veces hay que refutar sin chocar. Ahí es donde brillan los matizadores:
 >
 > *Egia da garraio publikoa hobetzeak diru asko eskatzen duela. Hala ere, gizarte osoarentzat onura ekarriko du epe luzera. Are gehiago, kontuan hartu behar dugu osasun-arazoak gutxitu egingo direla aire garbiagoarekin.*
 >
-> *Laburbilduz, garbi dut administrazioek ahalegin gehiago egin behar dutela autobusak eta trenak hobetzeko. Hortaz, ekitaldi politikoa beharrezkoa dela uste dut, eta herritarrok ere geure jokabidea aldatu behar dugu.*
+> *Laburbilduz, garbi dut administrazioek ahalegin gehiago egin behar dutela autobusak eta trenak hobetzeko. Hortaz, ekintza politikoa beharrezkoa dela uste dut, eta herritarrok ere geure jokabidea aldatu behar dugu.*
 
-Cuenta los recursos: posicionamiento (*nire ustez*), conectores (*lehenik, bigarrenik, hala ere, are gehiago*), reformulación (*hau da*), ejemplos, refutación, conclusión. Eso es una opinión B1 alta.
+Cuenta los recursos: posicionamiento (*nire ustez*), conectores (*lehenik, bigarrenik, hala ere, are gehiago*), ejemplos, refutación, conclusión. Eso es una opinión B1 alta.
 
 ## Errores frecuentes
 

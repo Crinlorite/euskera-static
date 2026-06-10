@@ -39,12 +39,12 @@ exercises:
   - id: ex-b1-ir-03-fc
     type: flashcards
     cards:
-      - { eu: zitzaidan, es: me (singular, pasado) }
-      - { eu: zitzaizun, es: te (singular, pasado) }
-      - { eu: zitzaion, es: le (singular, pasado) }
-      - { eu: zitzaigun, es: nos (singular, pasado) }
-      - { eu: zitzaizuen, es: os (singular, pasado) }
-      - { eu: zitzaien, es: les (singular, pasado) }
+      - { eu: zitzaidan, es: 'me (singular, pasado)' }
+      - { eu: zitzaizun, es: 'te (singular, pasado)' }
+      - { eu: zitzaion, es: 'le (singular, pasado)' }
+      - { eu: zitzaigun, es: 'nos (singular, pasado)' }
+      - { eu: zitzaizuen, es: 'os (singular, pasado)' }
+      - { eu: zitzaien, es: 'les (singular, pasado)' }
       - { eu: zitzaizkidan, es: me (plural) }
       - { eu: zitzaizkion, es: le (plural) }
       - { eu: zitzaizkien, es: les (plural) }

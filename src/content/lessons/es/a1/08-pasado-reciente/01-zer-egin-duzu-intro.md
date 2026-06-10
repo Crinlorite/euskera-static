@@ -39,7 +39,7 @@ exercises:
     type: flashcards
     cards:
       - { eu: 'Zer egin duzu gaur?', es: '¿Qué has hecho hoy?' }
-      - { eu: 'Zer egin du Mikelek?', es: '¿Qué ha hecho Egoitz?' }
+      - { eu: 'Zer egin du Mikelek?', es: '¿Qué ha hecho Mikel?' }
       - { eu: 'Zer egin duzue gaur?', es: '¿Qué habéis hecho hoy?' }
       - { eu: gaur, es: hoy }
       - { eu: gaur goizean, es: hoy por la mañana }
@@ -71,8 +71,8 @@ Comparada con el aspecto habitual que viste en la unidad anterior, lo único que
 
 > **Es la misma diferencia que en castellano** entre presente habitual y pretérito perfecto compuesto:
 >
-> - *Egunero euskaltegira **joaten naiz**.* — Cada día voy a la euskaltegi.
-> - *Gaur goizean euskaltegira **joan naiz**.* — Esta mañana he ido a la euskaltegi.
+> - *Egunero euskaltegira **joaten naiz**.* — Cada día voy al euskaltegi.
+> - *Gaur goizean euskaltegira **joan naiz**.* — Esta mañana he ido al euskaltegi.
 
 ## La pregunta más natural
 

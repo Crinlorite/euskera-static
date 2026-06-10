@@ -77,7 +77,7 @@ En euskera, el imperativo afirmativo de los verbos de movimiento es muy directo:
 |---|---|---|
 | **Jo** | jo | golpea / dirige (jo ezkerrera = gira a la izquierda) |
 | **Segi** / **Jarraitu** | segitu / jarraitu | sigue, continúa |
-| **Hartu** | hartu | toma (jartu kale hau = toma esta calle) |
+| **Hartu** | hartu | toma (hartu kale hau = toma esta calle) |
 | **Igo** | igo | sube |
 | **Jaitsi** | jaitsi | baja |
 | **Sartu** | sartu | entra |

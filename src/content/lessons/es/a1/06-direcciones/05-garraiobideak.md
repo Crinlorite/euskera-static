@@ -94,7 +94,7 @@ Las dos formas (*Nola* y *Zerez*) son válidas y frecuentes. *Nola* es más gene
 | furgoneta | **furgonetaz** | en furgoneta |
 | zaldi (caballo) | **zaldiz** | a caballo |
 
-> El sufijo es siempre **`-z`** tras vocal y, ocasionalmente, **`-ez`** tras consonante (*autobus → autobusez*). En la práctica, casi todos los nombres de transporte acaban en vocal, así que la fórmula básica es: **medio + z**.
+> El sufijo es **`-z`** tras vocal y **`-ez`** tras consonante (*autobus → autobusez*). En la práctica, casi todos los nombres de transporte acaban en vocal, así que la fórmula básica es: **medio + z**.
 
 ## Ejemplos completos
 

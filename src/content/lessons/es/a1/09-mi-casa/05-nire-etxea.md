@@ -116,6 +116,6 @@ Construye tu propio párrafo respondiendo en este orden:
 | *errenta* | renta / alquiler mensual |
 | *auzoa* | barrio |
 | *erdigunea* | centro (de la ciudad) |
-| *hiriaurrea* | extrarradio / afueras |
+| *aldiriak* | extrarradio / afueras |
 
 > **Consejo:** cuando hables de tu casa en clase, no intentes traducir cada detalle. Quédate con frases cortas y bien hechas. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* es mejor descripción que una frase larga llena de errores.

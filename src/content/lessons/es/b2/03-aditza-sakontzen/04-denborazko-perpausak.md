@@ -46,7 +46,7 @@ exercises:
       - { eu: ondoren, es: después de }
       - { eu: arte, es: hasta }
       - { eu: orduko, es: para cuando }
-      - { eu: -takoan ezagutu zuen, es: al / una vez visto, lo reconoció }
+      - { eu: '-takoan ezagutu zuen', es: 'al verlo / una vez visto, lo reconoció' }
   - id: ex-b2-adi4-mp
     type: match-pairs
     pairs:

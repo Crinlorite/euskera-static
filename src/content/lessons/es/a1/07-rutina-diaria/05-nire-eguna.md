@@ -29,7 +29,7 @@ exercises:
   - id: ex-05-ne-fb2
     type: fill-in-blank
     prompt: 'Por la mañana voy al trabajo = Goizean ___ joaten naiz.'
-    answers: [lanera, lanEra]
+    answers: [lanera, Lanera]
     explanation: '"Lan" = trabajo. Con el caso NORA (-ra, dirección): *lanera* = "al trabajo".'
   - id: ex-05-ne-fc
     type: flashcards
@@ -44,7 +44,7 @@ exercises:
       - { eu: ordu bietan, es: a las dos (en punto) }
       - { eu: bost eta erdietan, es: a las cinco y media }
       - { eu: lanera, es: al trabajo }
-      - { eu: euskaltegira, es: a la euskaltegi (escuela de euskera) }
+      - { eu: euskaltegira, es: al euskaltegi (escuela de euskera) }
       - { eu: etxera, es: a casa }
       - { eu: ohera, es: a la cama }
 ---
@@ -84,7 +84,7 @@ Para responder "a las (horas)", coge la hora en plural y cambia *-ak* por **-eta
 
 Lee este texto ejemplo y fíjate en cómo se enlazan todas las piezas:
 
-> *Ni goizeko zazpietan esnatzen naiz. Poliki-poliki altxatzen naiz eta komunera joaten naiz. Dutxa bat hartzen dut, arropa janzten dut eta sukaldera joaten naiz. Sukaldean gosaria prestatzen dut eta lasai-lasai gosaltzen dut. Ondoren, etxetik ateratzen naiz eta lanera joaten naiz. Eguerdiko ordu bietan bazkaltzen dut. Arratsaldean batzuetan zinera joaten naiz, beste batzuetan lagunekin egoten naiz. Gauean, etxean afaltzen dut, telebista ikusten dut eta hamaiketan oheratzen naiz.*
+> *Ni goizeko zazpietan esnatzen naiz. Poliki-poliki altxatzen naiz eta komunera joaten naiz. Dutxa bat hartzen dut, arropa janzten dut eta sukaldera joaten naiz. Sukaldean gosaria prestatzen dut eta lasai-lasai gosaltzen dut. Ondoren, etxetik ateratzen naiz eta lanera joaten naiz. Eguerdiko ordu bietan bazkaltzen dut. Arratsaldean batzuetan zinemara joaten naiz, beste batzuetan lagunekin egoten naiz. Gauean, etxean afaltzen dut, telebista ikusten dut eta hamaiketan oheratzen naiz.*
 
 Traducción aproximada:
 > *Yo me despierto a las siete de la mañana. Me levanto despacito y voy al baño. Me ducho, me visto y voy a la cocina. En la cocina preparo el desayuno y desayuno tranquilamente. Después salgo de casa y voy al trabajo. A las dos del mediodía como. Por la tarde a veces voy al cine, otras veces estoy con amigos. Por la noche, ceno en casa, veo la tele y me acuesto a las once.*

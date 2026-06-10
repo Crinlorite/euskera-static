@@ -23,14 +23,14 @@ exercises:
     explanation: '*Niretzat* — "para mí" (destinatario). Es la fórmula natural al pedir en mesa compartida.'
   - id: ex-esk-fb1
     type: fill-in-blank
-    prompt: 'Para preguntar "¿y para ti?" a tu acompañante = ___?'
-    answers: [Eta zuretzat, eta zuretzat]
+    prompt: 'Para preguntar "¿y para ti?" a tu acompañante = Eta ___?'
+    answers: [zuretzat]
     explanation: '*Zuretzat* — "para ti" (cortés/usted-tú).'
   - id: ex-esk-fb2
     type: fill-in-blank
     prompt: '"De segundo, carne" = Bigarrenerako, ___'
     answers: [haragia]
-    explanation: '*Bigarrenerako* — "para de segundo". *Haragia* — la carne.'
+    explanation: '*Bigarrenerako* — "de segundo (para el segundo plato)". *Haragia* — la carne.'
   - id: ex-esk-fc
     type: flashcards
     cards:

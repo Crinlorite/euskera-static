@@ -26,9 +26,9 @@ exercises:
       - "Porque es un nombre vasco"
       - "Porque es el sujeto de un verbo transitivo (NORK)"
       - "Porque significa plural"
-      - "Es un error, debería ser solo Egoitz"
+      - "Es un error, debería ser solo Mikel"
     answer: 1
-    explanation: 'En euskera el sujeto de los verbos transitivos lleva la marca NORK (-k): Egoitz**ek** ha leído el periódico.'
+    explanation: 'En euskera el sujeto de los verbos transitivos lleva la marca NORK (-k): Mikel**ek** ha leído el periódico.'
   - id: ex-05-gze-fb1
     type: fill-in-blank
     prompt: 'He desayunado tostadas y café = Tostadak eta kafea ___ ___ (rellena: partizipio + auxiliar para "yo").'
@@ -36,7 +36,7 @@ exercises:
     explanation: 'Para "tomar/comer varias cosas" se usa *ditut* (auxiliar plural de ukan): *hartu/jan ditut*.'
   - id: ex-05-gze-fb2
     type: fill-in-blank
-    prompt: 'He ido a la euskaltegi a pie = Euskaltegira oinez ___ ___ (rellena: partizipio + auxiliar).'
+    prompt: 'He ido al euskaltegi a pie = Euskaltegira oinez ___ ___ (rellena: partizipio + auxiliar).'
     answers: ['joan naiz']
     explanation: '"Joan" intransitivo + "naiz" para 1ª persona = "joan naiz".'
   - id: ex-05-gze-fc
@@ -80,7 +80,7 @@ Para contar el día, sigue este recorrido:
 > *Etxean afaldu dut, telebista pixka bat ikusi dut eta hamaiketan oheratu naiz.*
 
 Traducción aproximada:
-> *Hoy me he despertado a las siete de la mañana. Enseguida me he levantado y me he duchado. Para desayunar he tomado café con leche y he comido tostadas. Luego he salido de casa y he ido andando a la euskaltegi. Por la mañana he estudiado euskera y he hablado con compañeros.*
+> *Hoy me he despertado a las siete de la mañana. Enseguida me he levantado y me he duchado. Para desayunar he tomado café con leche y he comido tostadas. Luego he salido de casa y he ido andando al euskaltegi. Por la mañana he estudiado euskera y he hablado con compañeros.*
 >
 > *A mediodía he vuelto a casa. Para comer he comido ensalada y pescado. Luego me he echado la siesta.*
 >
@@ -100,11 +100,11 @@ Sigue la misma plantilla pero con tu información real. Revisa estas dos cosas m
 | Incorrecto | Correcto | Por qué |
 |---|---|---|
 | *Goizean joan dut* | *Goizean joan naiz* | *Joan* es intransitivo, va con *izan* (naiz). |
-| *Egoitz egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* es transitivo: sujeto con -k, auxiliar *du*. |
+| *Mikel egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* es transitivo: sujeto con -k, auxiliar *du*. |
 | *Gaur gosaltzen dut etxean* | *Gaur gosaldu dut etxean* | Si quieres pasado reciente, sin *-tzen*. |
-| *Atzo lanera joan naiz* | (correcto, pero forma común también: *Atzo lanera joan nintzen* — pasado completo) | Para acciones de ayer, en conversación se admite el pasado reciente; el pasado completo se ve más adelante. |
+| *Atzo lanera joan naiz* | *Atzo lanera joan nintzen* (pasado completo) | Con *atzo* y otros periodos ya cerrados se usa el pasado completo; el pasado reciente es para hoy. |
 
-> **Nota:** para acciones de ayer también es común usar el pasado completo (*joan nintzen*, *jan nuen*) que es propio del nivel A2. En A1, si te apoyas en *atzo* + pasado reciente (*atzo joan naiz*) te van a entender perfectamente, especialmente cuando hablas de hoy o del pasado más cercano.
+> **Nota:** para acciones de ayer se usa el pasado completo (*joan nintzen*, *jan nuen*), que es propio del nivel A2. En A1 céntrate en contar lo de **hoy** con el pasado reciente; si alguna vez dices *atzo joan naiz* te van a entender, pero lo estándar es *atzo joan nintzen*.
 
 ## Combinándolo con habitual
 
@@ -116,4 +116,4 @@ Esto es clave: los dos sistemas conviven y a menudo se mezclan en una misma conv
 
 Saber alternar es la base del nivel A1: si dominas las dos formas y los dos auxiliares, ya tienes la columna vertebral del euskera oral cotidiano.
 
-> **Para terminar:** la mejor manera de fijar todo esto es *contar tu día en voz alta cada noche antes de acostarte*, durante una semana. Si te falta una palabra, búscala — pero el ejercicio mental de pasarlo todo a euskera es lo que automatiza el sistema NOR/NOR-NORK. Animo!
+> **Para terminar:** la mejor manera de fijar todo esto es *contar tu día en voz alta cada noche antes de acostarte*, durante una semana. Si te falta una palabra, búscala — pero el ejercicio mental de pasarlo todo a euskera es lo que automatiza el sistema NOR/NOR-NORK. Aurrera!

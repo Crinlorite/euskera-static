@@ -37,7 +37,7 @@ exercises:
     explanation: '*Bitartean* expresa simultaneidad prolongada ("mientras"). *Sukaldatu* es transitivo, así que el sujeto lleva -k: *Garazik*.'
   - id: ex-b1-pk-01-fb1
     type: fill-in-blank
-    prompt: 'Completa: "Etxera ___ (cuando llegues), deitu" → Etxera iristen ___, deitu.'
+    prompt: 'Completa: "Cuando llegues a casa, llama" → Etxera iristen ___, deitu.'
     answers: [zarenean]
     explanation: '*Iristen zara* + -ean → *iristen zarenean* (cuando llegas/llegues). En euskera el presente cubre el futuro temporal.'
   - id: ex-b1-pk-01-fc
@@ -105,7 +105,7 @@ Para "antes de + infinitivo", tienes dos opciones equivalentes:
 ## Inmediatez: bezain laster, orduko
 
 - *Iritsi **bezain laster**, deituko dizut.* — Te llamaré en cuanto llegue.
-- *Heltzen naizen **orduko**, neka-neka eginda nago.* — Para cuando llego, estoy agotado.
+- *Etxera heldu **orduko**, neka-neka eginda nago.* — Nada más llegar a casa, estoy agotado.
 
 ## Origen temporal: -(e)tik
 
@@ -124,4 +124,4 @@ En los exámenes B1 (HABE / EOI) suelen pedirte **transformar dos frases simples
 
 > *Bazkaldu dut. Gero kalera irten naiz.* → *Bazkaldu **ondoren** kalera irten naiz.*
 
-> *Etxera iritsi nintzen. Orduan euria hasi zuen.* → *Etxera iritsi **nintzenean** euria hasi zuen.*
+> *Etxera iritsi nintzen. Orduan euria hasi zen.* → *Etxera iritsi **nintzenean** euria hasi zen.*

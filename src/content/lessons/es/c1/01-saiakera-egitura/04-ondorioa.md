@@ -52,16 +52,16 @@ exercises:
   - id: ex-c1-saia-04-mp
     type: match-pairs
     pairs:
-      - { eu: laburbilduz, es: en resumen, recapitulando }
-      - { eu: hortaz, es: por tanto, así pues }
+      - { eu: laburbilduz, es: 'en resumen, recapitulando' }
+      - { eu: hortaz, es: 'por tanto, así pues' }
       - { eu: beraz, es: por consiguiente }
       - { eu: ondorioz, es: en consecuencia }
       - { eu: amaitzeko, es: para terminar }
-      - { eu: azken batean, es: en el fondo, al fin y al cabo }
+      - { eu: 'azken batean', es: 'en el fondo, al fin y al cabo' }
   - id: ex-c1-saia-04-fc
     type: flashcards
     cards:
-      - { eu: laburbildu, es: resumir, recapitular }
+      - { eu: laburbildu, es: 'resumir, recapitular' }
       - { eu: ondorioa atera, es: extraer una conclusión }
       - { eu: deia egin, es: hacer un llamamiento }
       - { eu: gogoeta egin, es: reflexionar }

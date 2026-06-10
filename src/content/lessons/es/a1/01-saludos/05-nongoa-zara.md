@@ -88,6 +88,6 @@ Para dónde vives ahora usa **Non bizi zara?** ("¿dónde vives?") + lugar con l
 
 - **herri** — pueblo
 - **hiri** — ciudad
-- **herrialde** — comarca / región
+- **herrialde** — territorio / provincia
 - **estatu** — estado / país
 - **norekin bizi zara?** — ¿con quién vives? → *Bakarrik bizi naiz* (vivo solo) / *Gurasoekin bizi naiz* (vivo con mis padres)

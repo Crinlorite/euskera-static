@@ -20,7 +20,7 @@ exercises:
       - { eu: haiek, es: ellos/ellas }
   - id: ex-04-pp-fb1
     type: fill-in-blank
-    prompt: 'Gu Bilbon ___ (somos).'
+    prompt: 'Gu lagunak ___ (somos).'
     answers: [gara]
     explanation: 'Para "nosotros" la forma de "izan" es "gara".'
   - id: ex-04-pp-mc1

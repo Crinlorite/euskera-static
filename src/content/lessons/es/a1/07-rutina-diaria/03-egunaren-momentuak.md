@@ -20,7 +20,7 @@ exercises:
     prompt: 'Quieres decir "a las ocho de la mañana". ¿Cómo lo dices?'
     options: ["zortziak goizean", "goizeko zortziak", "goiz zortziak", "zortzi goizeko"]
     answer: 1
-    explanation: 'Para precisar mañana/tarde se antepone el sufijo "-ko": *goizeko zortziak* (las ocho de la mañana).'
+    explanation: 'Para precisar mañana/tarde se antepone la parte del día con el sufijo "-ko": *goizeko zortziak* (las ocho de la mañana).'
   - id: ex-03-em-fb1
     type: fill-in-blank
     prompt: 'Por la tarde = ___ (rellena la palabra completa).'
@@ -128,7 +128,7 @@ Estos te van a salir todos los días:
 
 > *Bihar goizean lanera joango naiz.* — Mañana por la mañana iré al trabajo.
 >
-> *Atzo arratsaldean zinera joan ginen.* — Ayer por la tarde fuimos al cine.
+> *Atzo arratsaldean zinemara joan ginen.* — Ayer por la tarde fuimos al cine.
 >
 > *Gaur gaueko hamarretan afalduko dut.* — Hoy a las diez de la noche cenaré.
 

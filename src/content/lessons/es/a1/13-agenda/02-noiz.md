@@ -44,7 +44,7 @@ exercises:
       - { eu: asteburuan, es: el fin de semana }
       - { eu: 'aste honetan', es: esta semana }
       - { eu: 'orain', es: ahora }
-      - { eu: 'gero', es: luego, después }
+      - { eu: 'gero', es: 'luego, después' }
       - { eu: 'lehen', es: antes }
       - { eu: 'noiz?', es: ¿cuándo? }
   - id: ex-noiz-mp
@@ -72,7 +72,7 @@ Para hablar de planes hay que dominar los marcadores temporales. Aquí tienes lo
 
 Tres palabras cortas (*atzo, gaur, bihar*) y *etzi* — con eso resuelves casi cualquier conversación cotidiana sobre fechas.
 
-## El sufijo `datorren` (que viene)
+## `Datorren` (que viene)
 
 Para hablar de "la próxima semana", "el próximo mes" se usa **datorren** + nombre:
 
