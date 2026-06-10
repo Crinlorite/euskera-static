@@ -1,0 +1,17 @@
+# Cache: los assets de Astro llevan hash en el nombre → immutable.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# El SW debe revalidarse siempre para que los bumps de CACHE_VERSION lleguen.
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Seguridad base para todo el sitio.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
