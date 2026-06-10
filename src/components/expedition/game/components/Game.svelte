@@ -43,6 +43,15 @@
     | { mode: 'ending'; title: string; body: string };
 
   let view: View = { mode: 'menu' };
+  // Periodo de gracia tras cada cambio de vista: el segundo click de un
+  // doble click sobre el diálogo aterrizaba en el botón "Comenzar capítulo"
+  // de la intro recién montada (o en los botones del ending/menú) y saltaba
+  // de episodio sin que el jugador llegara a ver la pantalla.
+  let viewChangedAt = 0;
+  $: view, (viewChangedAt = Date.now());
+  function viewArmed(): boolean {
+    return Date.now() - viewChangedAt > 450;
+  }
   let gameRoot: HTMLElement | null = null;
   let isFs = false;
   let lastGainBanner: { kind: 'item' | 'word'; label: string; sub: string } | null = null;
@@ -410,10 +419,10 @@
 <div class="game" bind:this={gameRoot} class:fullscreen={isFs}>
   {#if view.mode === 'menu'}
     <MainMenu
-      on:new-game={startNewGame}
-      on:continue={continueGame}
-      on:chapters={() => (view = { mode: 'chapter-select' })}
-      on:exit={exitToPortal}
+      on:new-game={() => { if (viewArmed()) startNewGame(); }}
+      on:continue={() => { if (viewArmed()) continueGame(); }}
+      on:chapters={() => { if (viewArmed()) view = { mode: 'chapter-select' }; }}
+      on:exit={() => { if (viewArmed()) exitToPortal(); }}
     />
   {:else if view.mode === 'chapter-select'}
     <ChapterSelect
@@ -430,8 +439,8 @@
         body={scene.intro.body}
         level={scene.level}
         playable={scene.playable}
-        on:enter={() => (view = { mode: 'playing' })}
-        on:back={() => (view = { mode: 'menu' })}
+        on:enter={() => { if (viewArmed()) view = { mode: 'playing' }; }}
+        on:back={() => { if (viewArmed()) view = { mode: 'menu' }; }}
       />
     {/if}
   {:else if view.mode === 'playing' && $currentScene}
@@ -530,8 +539,8 @@
         {/each}
       </div>
       <div class="ending-actions">
-        <button class="primary" on:click={() => (view = { mode: 'menu' })}>Volver al menú principal</button>
-        <button class="ghost" on:click={exitToPortal}>← Salir al portal</button>
+        <button class="primary" on:click={() => { if (viewArmed()) view = { mode: 'menu' }; }}>Volver al menú principal</button>
+        <button class="ghost" on:click={() => { if (viewArmed()) exitToPortal(); }}>← Salir al portal</button>
       </div>
     </div>
   {/if}
