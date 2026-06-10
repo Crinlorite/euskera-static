@@ -335,12 +335,15 @@
         advance();
         break;
       case 'goto-label': {
-        const before = $story.cursor;
+        // OJO: get(story), no $story — dentro de la cadena de subscribers los
+        // updates anidados se encolan y $story queda obsoleto, lo que hacía
+        // creer que el salto falló y disparaba un advance() extra (beat saltado).
+        const before = get(story).cursor;
         gotoLabel(b.label);
         // Si gotoLabel no encontró el label, el cursor no se movió.
         // Avanzamos manualmente para no quedar atascados en bucle.
-        if ($story.cursor === before) {
-          console.warn(`[game] label '${b.label}' no encontrado en escena ${$currentScene?.id}; avanzando`);
+        if (get(story).cursor === before) {
+          console.warn(`[game] label '${b.label}' no encontrado en escena ${get(story).currentSceneId}; avanzando`);
           advance();
         }
         break;

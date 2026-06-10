@@ -1,6 +1,7 @@
 import type { Scene } from '../engine/types';
 
-// Capítulo 7 — Sugaarren galeria. Nivel C1. Última parada antes del final.
+// Capítulo 7 — Sugaarren galeria. Nivel C1. Última parada antes del final:
+// una pregunta al consorte de Mari y la declaración del porqué.
 
 export const sceneSugaar: Scene = {
   id: 'ch07-sugaar',
@@ -26,6 +27,57 @@ export const sceneSugaar: Scene = {
       eu: 'Iritsi zara, azkenean. Aitona Anderren bidearen amaiera dago zure begien aurrean.',
       es: 'Has llegado, finalmente. El final del camino del abuelo Ander está delante de tus ojos.',
       emotion: 'mystic',
+    },
+    {
+      type: 'speak',
+      speaker: 'Sugaar',
+      spriteId: 'sugaar',
+      eu: 'Galdera bakarra erantzungo dizut. Aukeratu ondo.',
+      es: 'Te responderé una sola pregunta. Elige bien.',
+      emotion: 'neutral',
+    },
+    {
+      type: 'choice',
+      prompt: 'Puedes hacerle una sola pregunta.',
+      options: [
+        { label: '"Nor da Hitz Beltza, benetan?" (¿Quién es realmente la Palabra Negra?)', gotoLabel: 'q-beltza' },
+        { label: '"Ezagutu al zenuen nire aitona?" (¿Conoció usted a mi abuelo?)', gotoLabel: 'q-aitona' },
+        { label: '"Zergatik laguntzen didazue?" (¿Por qué me ayudáis?)', gotoLabel: 'q-zergatik' },
+      ],
+    },
+    { type: 'label', id: 'q-beltza' },
+    {
+      type: 'speak',
+      speaker: 'Sugaar',
+      spriteId: 'sugaar',
+      eu: 'Ez da inor. Horregatik da arriskutsua: ez dauka aurpegirik, ez izenik. Axolagabekeria hutsa da, beltzez jantzita.',
+      es: 'No es nadie. Por eso es peligrosa: no tiene cara ni nombre. Es pura indiferencia, vestida de negro.',
+      emotion: 'mystic',
+    },
+    { type: 'goto-label', label: 'after-q' },
+    { type: 'label', id: 'q-aitona' },
+    {
+      type: 'speak',
+      speaker: 'Sugaar',
+      spriteId: 'sugaar',
+      eu: 'Behin jaitsi zen hona, zu bezala. Galdera berberak zekartzan. Erantzunak, ordea, berak idatzi zituen.',
+      es: 'Bajó aquí una vez, como tú. Traía las mismas preguntas. Las respuestas, en cambio, las escribió él.',
+      emotion: 'sad',
+    },
+    { type: 'goto-label', label: 'after-q' },
+    { type: 'label', id: 'q-zergatik' },
+    {
+      type: 'speak',
+      speaker: 'Sugaar',
+      spriteId: 'sugaar',
+      eu: 'Gu ez gara existitzen hizkuntzarik gabe. Mari, Basajaun, ni neu… hitzek gordetzen gaituzte. Zuri lagunduz, geure burua zaintzen dugu.',
+      es: 'Nosotros no existimos sin lengua. Mari, Basajaun, yo mismo… nos guardan las palabras. Ayudándote a ti, nos cuidamos a nosotros mismos.',
+      emotion: 'neutral',
+    },
+    { type: 'label', id: 'after-q' },
+    {
+      type: 'gain-word',
+      word: { eu: 'mehatxua', es: 'la amenaza', level: 'c1', context: 'Ez zinen oraindik mehatxua. Orain bazara.' },
     },
     {
       type: 'speak',
@@ -66,10 +118,26 @@ export const sceneSugaar: Scene = {
     },
     { type: 'label', id: 'after-comp' },
     {
+      type: 'gain-word',
+      word: { eu: 'zerumuga', es: 'el horizonte', level: 'c1', context: 'Zerumugaren beste aldera doazen izarrek ez dute itzulerarik.' },
+    },
+    {
+      type: 'puzzle',
+      puzzle: {
+        type: 'free-write',
+        prompt: 'Sugaar te mira fijo: "Esan ozen: zergatik ari zara euskara ikasten?" — Escríbelo en euskera, con tus palabras (mínimo 8).',
+        minWords: 8,
+        mustContain: ['euskara'],
+        acceptableExamples: [
+          'Euskara ikasten ari naiz aitonaren hitzak ulertu nahi ditudalako eta hizkuntza bizirik mantendu nahi dudalako.',
+        ],
+      },
+    },
+    {
       type: 'speak',
       speaker: 'Sugaar',
       spriteId: 'sugaar',
-      eu: 'Ulertzen duzu. Orain, hartu liburuko azken orria. Bertan zaude zu, idatziak.',
+      eu: 'Ulertzen duzu. Orain, hartu liburuko azken orria. Bertan zaude zu, idatzita.',
       es: 'Lo entiendes. Ahora coge la última hoja del libro. En ella estás escrito tú.',
       emotion: 'mystic',
     },
@@ -81,7 +149,7 @@ export const sceneSugaar: Scene = {
       type: 'speak',
       speaker: 'Sugaar',
       spriteId: 'sugaar',
-      eu: 'Joan. Hitz Beltza zain dago. Ez du hiri ezer egingo orain arte. Arrazoi bakar batengatik.',
+      eu: 'Joan. Hitz Beltza zain duzu. Ez dizu ezer egin orain arte. Arrazoi bakar batengatik.',
       es: 'Vete. La Palabra Negra te espera. No te ha hecho nada hasta ahora. Por una sola razón.',
       emotion: 'sad',
     },
