@@ -33,6 +33,26 @@ const exercise = z.discriminatedUnion('type', [
   multipleChoice, fillInBlank, flashcards, matchPairs,
 ]);
 
+// Validaciones de integridad que el shape no cubre. Van sobre el array
+// (no sobre los miembros de la union) porque discriminatedUnion solo
+// acepta ZodObject puros, no ZodEffects.
+const exercises = z.array(exercise).superRefine((arr, ctx) => {
+  for (const ex of arr) {
+    if (ex.type === 'multiple-choice' && ex.answer >= ex.options.length) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: `${ex.id}: answer=${ex.answer} fuera de rango (${ex.options.length} opciones)`,
+      });
+    }
+    if (ex.type === 'fill-in-blank' && !/_{3,}/.test(ex.prompt)) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: `${ex.id}: prompt sin hueco "___"`,
+      });
+    }
+  }
+});
+
 const levels = defineCollection({
   type: 'data',
   schema: z.object({
@@ -78,7 +98,7 @@ const lessons = defineCollection({
     title: z.string(),
     estimatedMinutes: z.number().int().positive().default(10),
     covers: z.array(z.string()).default([]),
-    exercises: z.array(exercise).default([]),
+    exercises: exercises.default([]),
   }),
 });
 
