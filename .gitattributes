@@ -1,0 +1,13 @@
+# Binarios: jamás conversión de fin de línea (un woff2 ya llegó corrupto
+# a producción por CRLF sobre binario).
+*.woff2 binary
+*.woff binary
+*.ttf binary
+*.otf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.gif binary
