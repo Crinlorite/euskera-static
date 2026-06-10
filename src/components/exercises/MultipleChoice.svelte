@@ -1,11 +1,14 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
+  import { t } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
 
   export let id: string;
   export let prompt: string;
   export let options: string[];
   export let answer: number;
   export let explanation: string | undefined = undefined;
+  export let locale: LocaleCode = 'es';
 
   let chosen: number | null = null;
   const dispatch = createEventDispatcher<{ result: { exerciseId: string; score: number; finished: boolean } }>();
@@ -35,9 +38,13 @@
       </li>
     {/each}
   </ul>
-  {#if chosen !== null && chosen !== answer}
-    <p class="hint">Era: <strong>{options[answer]}</strong></p>
-  {/if}
+  <p class="feedback" role="status">
+    {#if chosen !== null && chosen === answer}
+      <span class="ok">{t(locale, 'exercise.correct')}</span>
+    {:else if chosen !== null}
+      {t(locale, 'exercise.was')} <strong>{options[answer]}</strong>
+    {/if}
+  </p>
   {#if chosen !== null && explanation}
     <p class="explain">{explanation}</p>
   {/if}
@@ -59,13 +66,17 @@
   }
   .opt:hover:not([disabled]) { border-color: var(--c-text-dim); }
   .opt[disabled] { cursor: default; opacity: 0.85; }
-  .dot { inline-size: 1rem; block-size: 1rem; border-radius: 50%; border: 2px solid var(--c-border); }
+  .dot { inline-size: 1rem; block-size: 1rem; border-radius: 50%; border: 2px solid var(--c-border); flex-shrink: 0; }
   .correct { background: var(--c-green-soft); border-color: var(--c-green); animation: bounce 200ms; }
   .correct .dot { border-color: var(--c-green); background: var(--c-green); }
   .wrong { background: var(--c-red-soft); border-color: var(--c-red); }
-  .hint { color: var(--c-green-strong); margin-block-start: var(--s-3); }
+  .feedback { color: var(--c-green-strong); margin-block: var(--s-3) 0; }
+  .feedback .ok { font-weight: 600; }
   .explain { color: var(--c-text-muted); margin-block-start: var(--s-2); font-size: 0.9rem; }
   @keyframes bounce {
     0% { transform: scale(1); } 50% { transform: scale(1.03); } 100% { transform: scale(1); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .correct { animation: none; }
   }
 </style>

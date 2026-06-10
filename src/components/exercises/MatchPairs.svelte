@@ -1,8 +1,11 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
+  import { t, tf } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
 
   export let id: string;
   export let pairs: Array<{ eu: string; es: string }>;
+  export let locale: LocaleCode = 'es';
 
   type Side = 'left' | 'right';
   interface Item { side: Side; text: string; pairIndex: number; matched: boolean; }
@@ -20,6 +23,7 @@
   let right: Item[] = shuffle(pairs.map((p, i) => ({ side: 'right' as Side, text: p.es, pairIndex: i, matched: false })));
   let selected: Item | null = null;
   let mistakes = 0;
+  let done = false;
 
   const dispatch = createEventDispatcher<{ result: { exerciseId: string; score: number; finished: boolean } }>();
 
@@ -35,6 +39,7 @@
       selected = null;
       const allMatched = left.every((l) => l.matched);
       if (allMatched) {
+        done = true;
         const score = Math.max(0, 100 - mistakes * 10);
         dispatch('result', { exerciseId: id, score, finished: true });
       }
@@ -46,7 +51,7 @@
 </script>
 
 <div class="ex">
-  <p class="meta">Empareja cada palabra con su traducción.</p>
+  <p class="meta">{t(locale, 'exercise.match.help')}</p>
   <div class="grid">
     <ul>
       {#each left as item}
@@ -73,7 +78,14 @@
       {/each}
     </ul>
   </div>
-  {#if mistakes > 0}<p class="hint">Errores: {mistakes}</p>{/if}
+  <p class="hint" role="status">
+    {#if done}
+      <span class="ok">{t(locale, 'exercise.correct')}</span>
+      {#if mistakes > 0}· {tf(locale, 'exercise.match.mistakes', mistakes)}{/if}
+    {:else if mistakes > 0}
+      {tf(locale, 'exercise.match.mistakes', mistakes)}
+    {/if}
+  </p>
 </div>
 
 <style>
@@ -94,5 +106,6 @@
   button:hover:not([disabled]) { border-color: var(--c-text-dim); }
   button.selected { background: var(--c-red-soft); border-color: var(--c-red); }
   button.matched { background: var(--c-green-soft); border-color: var(--c-green); color: var(--c-green-strong); }
-  .hint { color: var(--c-text-muted); margin-block-start: var(--s-3); font-size: 0.9rem; }
+  .hint { color: var(--c-text-muted); margin-block: var(--s-3) 0; font-size: 0.9rem; }
+  .hint .ok { color: var(--c-green-strong); font-weight: 600; }
 </style>

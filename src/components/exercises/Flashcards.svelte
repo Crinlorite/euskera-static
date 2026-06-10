@@ -1,8 +1,11 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
+  import { t, tf } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
 
   export let id: string;
   export let cards: Array<{ eu: string; es: string }>;
+  export let locale: LocaleCode = 'es';
 
   function shuffle<T>(arr: T[]): T[] {
     const copy = [...arr];
@@ -17,6 +20,7 @@
   let i = 0;
   let flipped = false;
   let known = 0;
+  let lastRound: { known: number; total: number } | null = null;
 
   const dispatch = createEventDispatcher<{ result: { exerciseId: string; score: number; finished: boolean } }>();
 
@@ -29,6 +33,7 @@
     } else {
       const score = Math.round((known / deck.length) * 100);
       dispatch('result', { exerciseId: id, score, finished: true });
+      lastRound = { known, total: deck.length };
       deck = shuffle(cards);
       i = 0;
       known = 0;
@@ -37,20 +42,25 @@
 </script>
 
 <div class="ex">
-  <p class="meta">Tarjeta {i + 1} de {deck.length}</p>
+  <p class="meta">{tf(locale, 'exercise.flash.counter', i + 1, deck.length)}</p>
   <button class="card" on:click={flip}>
     {#if !flipped}
       <span class="front">{deck[i].eu}</span>
-      <small>(toca para ver traducción)</small>
+      <small>{t(locale, 'exercise.flash.reveal')}</small>
     {:else}
       <span class="back">{deck[i].es}</span>
-      <small>(toca para ocultar)</small>
+      <small>{t(locale, 'exercise.flash.hide')}</small>
     {/if}
   </button>
   <div class="actions">
-    <button class="btn btn-secondary" on:click={() => mark(false)}>Lo aprendo</button>
-    <button class="btn btn-primary" on:click={() => mark(true)}>Lo sabía</button>
+    <button class="btn btn-secondary" on:click={() => mark(false)}>{t(locale, 'exercise.flash.learning')}</button>
+    <button class="btn btn-primary" on:click={() => mark(true)}>{t(locale, 'exercise.flash.known')}</button>
   </div>
+  <p class="round" role="status">
+    {#if lastRound}
+      {tf(locale, 'exercise.flash.round', lastRound.known, lastRound.total)}
+    {/if}
+  </p>
 </div>
 
 <style>
@@ -73,4 +83,5 @@
   .back { font-style: italic; color: var(--c-text-muted); font-weight: 500; }
   small { color: var(--c-text-muted); font-size: 0.8rem; }
   .actions { display: flex; gap: var(--s-3); margin-block-start: var(--s-4); justify-content: center; }
+  .round { color: var(--c-green-strong); text-align: center; font-size: 0.9rem; margin-block: var(--s-3) 0; }
 </style>

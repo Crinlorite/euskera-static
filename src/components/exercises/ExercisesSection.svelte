@@ -43,6 +43,7 @@
         options={ex.options}
         answer={ex.answer}
         explanation={ex.explanation}
+        {locale}
         on:result={onResult}
       />
     {:else if ex.type === 'fill-in-blank'}
@@ -55,9 +56,9 @@
         on:result={onResult}
       />
     {:else if ex.type === 'flashcards'}
-      <Flashcards id={ex.id} cards={ex.cards} on:result={onResult} />
+      <Flashcards id={ex.id} cards={ex.cards} {locale} on:result={onResult} />
     {:else if ex.type === 'match-pairs'}
-      <MatchPairs id={ex.id} pairs={ex.pairs} on:result={onResult} />
+      <MatchPairs id={ex.id} pairs={ex.pairs} {locale} on:result={onResult} />
     {/if}
   {/each}
 </section>
