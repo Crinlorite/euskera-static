@@ -28,7 +28,7 @@ exercises:
       - 'Negar de entrada que exista la objeción.'
       - 'Listar todas las objeciones posibles sin responderlas.'
     answer: 1
-    explanation: 'Reconocer + matizar + refutar es la secuencia C1. Negar la objeción sin más es eristica débil.'
+    explanation: 'Reconocer + matizar + refutar es la secuencia C1. Negar la objeción sin más es erística débil.'
   - id: ex-c1-argu-03-mc3
     type: multiple-choice
     prompt: '¿Cuál de estas conjunciones introduce mejor una refutación?'
@@ -62,10 +62,10 @@ exercises:
     type: flashcards
     cards:
       - { eu: 'kontraargudioa', es: 'contraargumento' }
-      - { eu: 'errefusatu', es: 'refutar' }
+      - { eu: 'gezurtatu', es: 'refutar, rebatir' }
       - { eu: 'aurka egin', es: 'oponerse' }
       - { eu: 'arrazoia eman', es: 'dar la razón (en parte)' }
-      - { eu: 'matiza dezagun', es: 'matizemos' }
+      - { eu: 'matiza dezagun', es: 'maticemos' }
       - { eu: 'egia da... baina...', es: 'es cierto que... pero...' }
       - { eu: 'aurkako iritzia', es: 'opinión contraria' }
       - { eu: 'puntu ahula', es: 'punto débil' }
@@ -88,7 +88,7 @@ Tres movimientos:
 2. **Conceder** lo que tenga de razonable.
 3. **Refutar** mostrando por qué tu tesis sigue siendo preferible.
 
-> *Egia da telelanak isolamendu-arriskua ekar dezakeela, eta hori ez da gutxiestekoa. Hala ere, arazo hori antolaketa egokiarekin saihestu daiteke: astean bilera presentzialak finkatzen direnean, lankideen arteko harremana bizirik mantendu daiteke. Hortaz, oztopoa erreala da, baina ez konpongaitza.*
+> *Egia da telelanak isolamendu-arriskua ekar dezakeela, eta hori ez da gutxiestekoa. Hala ere, arazo hori antolaketa egokiarekin saihets daiteke: astean bilera presentzialak finkatzen direnean, lankideen arteko harremana bizirik manten daiteke. Hortaz, oztopoa erreala da, baina ez konpongaitza.*
 
 ## Conectores para cada movimiento
 

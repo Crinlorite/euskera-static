@@ -31,7 +31,7 @@ exercises:
     explanation: '"Funtsezkoa" implica que sin eso el conjunto no se sostiene. "Garrantzitsua" es importante pero no necesariamente irrenunciable.'
   - id: ex-c1-erre-03-mc3
     type: multiple-choice
-    prompt: '"Hausnarketa" y "gogoeta" comparten significado, pero matizalmente:'
+    prompt: '"Hausnarketa" y "gogoeta" comparten significado, pero, en cuanto al matiz:'
     options:
       - '"Hausnarketa" sugiere un proceso reflexivo más sostenido y meditado; "gogoeta" puede ser más puntual.'
       - '"Gogoeta" es coloquial y "hausnarketa" formal.'
@@ -171,7 +171,7 @@ Una **colocación** es una combinación habitual de palabras. C1 evalúa que sep
 | *konfiantza* | irabazi, galdu, eman |
 | *bidea* | jorratu, ireki, hautatu |
 
-Las colocaciones agudizadas son señal de competencia léxica avanzada. *"Eztabaida piztu"* (encender el debate) es C1; *"eztabaida egin"* (hacer debate) es genérico.
+Las colocaciones bien afinadas son señal de competencia léxica avanzada. *"Eztabaida piztu"* (encender el debate) es C1; *"eztabaida egin"* (hacer debate) es genérico.
 
 ## Falsos sinónimos: trampas frecuentes
 

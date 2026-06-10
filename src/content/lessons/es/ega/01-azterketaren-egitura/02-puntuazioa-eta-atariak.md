@@ -52,7 +52,7 @@ exercises:
       - { eu: EZ GAI, es: no apto }
       - { eu: orokorrean, es: en conjunto / globalmente }
       - { eu: batuketa, es: suma }
-      - { eu: bataz besteko, es: media }
+      - { eu: batez besteko, es: media }
       - { eu: konpentsatu, es: compensar }
       - { eu: igaro / gainditu, es: superar }
       - { eu: erreklamatu, es: reclamar }

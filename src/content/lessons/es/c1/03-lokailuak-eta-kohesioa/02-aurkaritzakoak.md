@@ -79,7 +79,7 @@ exercises:
       - { eu: 'alabaina', es: 'no obstante (literario)' }
       - { eu: 'dena den', es: 'aun así' }
       - { eu: 'edonola ere', es: 'en cualquier caso' }
-      - { eu: 'hori horrela izanik ere', es: 'siendo eso así' }
+      - { eu: 'hori horrela izanik ere', es: 'aun siendo eso así' }
 ---
 
 Los **lokailu aurkaritzakoak** introducen oposición, matiz contrario o concesión. Son la herramienta principal para incorporar contraargumentos y refutaciones — pieza obligada de un texto C1.
@@ -95,7 +95,7 @@ Los **lokailu aurkaritzakoak** introducen oposición, matiz contrario o concesi�
 | **aitzitik** | "Al contrario": niega y opone. | Inicio. |
 | **alabaina** | Literario, "no obstante". | Inicio. |
 | **dena den / edonola ere** | "En cualquier caso, aun así." | Inicio. |
-| **hori horrela izanik ere** | "Siendo eso así." | Inicio. |
+| **hori horrela izanik ere** | "Aun siendo eso así." | Inicio. |
 
 ## Hala ere
 

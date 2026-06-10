@@ -18,7 +18,7 @@ exercises:
       - 'Beno, ba, gauza horrek pila bat gauza eragiten ditu.'
       - 'Gainera, jode, gaur egun denek dakite hau.'
     answer: 1
-    explanation: 'La opción 1 mantiene distancia, evita coloquialismos y usa léxico abstracto ("auzi", "ondorio sakonak"). El resto está en registro coloquial.'
+    explanation: 'La opción 2 mantiene distancia, evita coloquialismos y usa léxico abstracto ("auzi", "ondorio sakonak"). El resto está en registro coloquial.'
   - id: ex-c1-erre-01-mc2
     type: multiple-choice
     prompt: '¿Qué rasgo NO es propio del registro formal escrito en euskera?'
@@ -103,7 +103,7 @@ Convertir verbos en sustantivos da densidad.
 
 | Verbal | Nominal |
 |---|---|
-| *erabakitzea zaila da* | *erabakimena ez da erraza* |
+| *erabakitzea zaila da* | *erabakia ez da erraza* |
 | *aldatzea behar da* | *aldaketa beharrezkoa da* |
 | *negoziatzeko gaitasuna* | *negoziaziorako gaitasuna* |
 
@@ -126,7 +126,7 @@ Visto en la unidad anterior. Un texto C1 alterna *gainera*, *halaber*, *hala ere
 El artículo de opinión IVAP/HABE **es opinión**: se espera que el autor tome postura. Por tanto:
 
 - **Sí** a *nire iritziz, nire ustez* — una o dos veces.
-- **Sí** a *defendatzen dut, ohartzen naiz, kezka iruditzen zait* — selectivamente.
+- **Sí** a *defendatzen dut, ohartzen naiz, kezkagarria iruditzen zait* — selectivamente.
 - **No** a saturar con *nik, nire, niretzat* — el yo se convierte en obstáculo.
 
 > Regla práctica: en 180 palabras, **dos marcas explícitas de yo** son suficientes. En 300, hasta tres.

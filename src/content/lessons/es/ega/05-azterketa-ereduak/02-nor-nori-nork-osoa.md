@@ -26,16 +26,16 @@ exercises:
     prompt: 'Baldintza: "Berandu balitz, joango ___."'
     options: [ginateke, gintezke, ginatekete, ginatozkez]
     answer: 0
-    explanation: '*Ginateke* (iríamos) — baldintzazko forma de NOR 1ª pers. pl. La forma estándar es *ginateke* o, según norma, *ginatzateke* en algunos paradigmas.'
+    explanation: '*Ginateke* (iríamos) — condicional (baldintzaren ondorioa) de NOR 1ª pers. pl. *Gintezke* es ahalera ("podríamos ir"); las otras dos formas no existen.'
   - id: ex-eg-er2-mc4
     type: multiple-choice
-    prompt: 'Ahalera: "Hau egin ___ duzu, gehiegizko aitzakiarik gabe".'
+    prompt: 'Ahalera: "Hau egin ___, gehiegizko aitzakiarik gabe" ("Puedes hacerlo, sin excusas").'
     options: [zenezakeen, dezakezu, zenuke, zenukeen]
     answer: 1
     explanation: '*Dezakezu* — ahalera (poder) NOR-NORK 2ª pers.: "puedes hacerlo".'
   - id: ex-eg-er2-mc5
     type: multiple-choice
-    prompt: 'Agintera: "Hau orain ___ guretzat" (NOR-NORI-NORK 2ª pers. → 1ª pers. pl., objeto sg.).'
+    prompt: 'Agintera: "Hau orain ___" (NOR-NORI-NORK 2ª pers. → 1ª pers. pl., objeto sg.).'
     options: [eman didazu, eman iezadazu, eman iezaguzu, eman zenuen]
     answer: 2
     explanation: '*Eman iezaguzu* — imperativo NOR-NORI-NORK: forma analítica con *iezaguzu* (a nosotros) tras el partizipio.'
@@ -43,7 +43,7 @@ exercises:
     type: flashcards
     cards:
       - { eu: dit / dizut / dio / digu / dizuet / die, es: 'NOR-NORI-NORK presente sg. (me/te/le/nos/os/les)' }
-      - { eu: zidan / zizun / zion / zigun / zizun / zien, es: 'NOR-NORI-NORK iragana (me/te/le)' }
+      - { eu: zidan / zizun / zion / zigun / zizuen / zien, es: 'NOR-NORI-NORK iragana (me/te/le/nos/os/les)' }
       - { eu: nuke / zenuke / luke / genuke / zenukete / lukete, es: 'baldintza ukan: tendría' }
       - { eu: nintzateke / zinateke / litzateke / ginateke / zinatekete / lirateke, es: 'baldintza izan: sería' }
       - { eu: dezaket / dezakezu / dezake / dezakegu / dezakezue / dezakete, es: 'ahalera (NOR-NORK): puedo... lo' }
@@ -51,7 +51,7 @@ exercises:
       - { eu: izan dadila, es: que sea (subjuntivo 3ª) }
       - { eu: egon nadila, es: que esté yo (subjuntivo 1ª) }
       - { eu: egin dezadan, es: que (yo lo) haga }
-      - { eu: hartu beza, es: tómelo (imperativo 3ª) }
+      - { eu: har beza, es: tómelo (imperativo 3ª) }
       - { eu: ikus ezazu, es: véalo (imperativo 2ª pers.) }
       - { eu: eman iezadazu, es: démelo (imperativo NOR-NORI-NORK) }
 ---
@@ -95,7 +95,7 @@ Mismas casillas, marca *-en* al final y prefijo de pasado.
 | niri | — | zenidan | zidan | — |
 | zuri | nizun | — | zizun | genizun |
 | hari | nion | zenion | zion | genion |
-| guri | — | zeniguzun | zigun | — |
+| guri | — | zenigun | zigun | — |
 
 > Para objeto plural en pasado: *nion → nizkion* ("se los daba/dije").
 
@@ -198,8 +198,8 @@ Usado tras *nahi izan*, *espero izan*, en oraciones finales (-tzeko reemplazo cu
 
 ### NOR-NORK agintera
 
-- *Ezazu / Ezazue* — hazlo / hacedlo (analítica): *Ikusi ezazu*, *Ikus ezazu*.
-- *Ezadan, ezazun, dezala, ezagun, ezazuen, ezaten* — formas reducidas en orden indirecta.
+- *Ezazu / Ezazue* — hazlo / hacedlo (analítica, con aditzoina): *Ikus ezazu*, *Ikus ezazue*.
+- *Dezala / Dezatela* — orden indirecta: *Egin dezala* (que lo haga), *Egin dezatela* (que lo hagan).
 
 ### NOR-NORI-NORK agintera
 

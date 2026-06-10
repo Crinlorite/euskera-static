@@ -34,7 +34,7 @@ exercises:
       - Pidiendo aclaraciones al tribunal.
       - En silencio durante 30 segundos para concentrarse.
     answer: 0
-    explanation: 'Saludo breve + presentación del tema en una frase ("Niri suertatu zaidan testua X-ri buruz da eta nik horretaz hau pentsatzen dut: …"). Captas atención y arrancas con buen pie.'
+    explanation: 'Saludo breve + presentación del tema en una frase ("Niri suertatu zaidan testua X-ri buruzkoa da eta nik horretaz hau pentsatzen dut: …"). Captas atención y arrancas con buen pie.'
   - id: ex-eg-ah2-mc4
     type: multiple-choice
     prompt: 'Si te equivocas con una palabra durante la bakarrizketa, ¿qué conviene hacer?'

@@ -17,22 +17,22 @@ exercises:
     explanation: 'Sujeto plural ergativo *sare sozialek* + objeto singular abstracto *eragin handia* = NORK pl. + NOR sg. = *dute*.'
   - id: ex-eg-er4-mc2
     type: multiple-choice
-    prompt: '"Argitaratu berri den ___ liburua oso interesgarria izan da". Aukera onena:'
+    prompt: '"Argitaratu berri den ___ kritikari guztiek goraipatu duten liburua oso interesgarria izan da". Aukera onena:'
     options: [eta, baina, beraz, berriki]
     answer: 0
-    explanation: 'En esta posición lo natural es coordinar dos atributos del libro con *eta* o usar perpaus erlatiboa. *Berriki* sería redundante con *berri den*.'
+    explanation: 'El hueco coordina dos oraciones de relativo sobre el mismo nombre ("argitaratu berri den eta ... goraipatu duten liburua"): *eta* es la coordinación natural. *Baina* crearía un contraste sin sentido aquí; *beraz* y *berriki* no pueden unir dos relativas.'
   - id: ex-eg-er4-mc3
     type: multiple-choice
-    prompt: 'Idazlanaren sarrera hau azaltzeko: "Egungo gizartean ___ kezka iturri nagusi bat klima-aldaketa da". Aukera onena:'
-    options: [diren, dauden, ari diren, suertatzen ari diren]
+    prompt: 'Idazlanaren sarrera hau azaltzeko: "Egungo gizartean ___ kezka-iturri nagusietako bat klima-aldaketa da". Aukera onena:'
+    options: [daudenak, dauden, ari diren, suertatzen ari diren]
     answer: 1
-    explanation: '*Dauden* (que están / que existen) — perpaus erlatiboa con *egon* sintético, encaja con sustantivo abstracto "kezka iturri".'
+    explanation: '*Dauden* — perpaus erlatiboa con *egon* sintético: "egungo gizartean dauden kezka-iturri nagusietako bat". *Daudenak* lleva un artículo que sobra en el relativo antepuesto; *ari diren* y *suertatzen ari diren* necesitarían otro verbo principal.'
   - id: ex-eg-er4-mc4
     type: multiple-choice
-    prompt: 'Erlatiboa: "Liburu ___ ezin nuen utzi". Aukera onena:'
+    prompt: 'Erlatiboa: "___ liburua ezin nuen utzi". Aukera onena:'
     options: [hori, irakurtzen ari nintzen, irakurtzen nuena, irakurtzen]
-    answer: 2
-    explanation: '*Liburu irakurtzen nuena* = "el libro que estaba leyendo". *Hura* es indicativo, no relativo.'
+    answer: 1
+    explanation: 'El relativo va antepuesto al nombre: *Irakurtzen ari nintzen liburua* = "el libro que estaba leyendo". *Hori* iría pospuesto (*liburu hori*), *irakurtzen nuena* lleva un artículo que no encaja ante el nombre y *irakurtzen* solo no forma relativo.'
   - id: ex-eg-er4-fc
     type: flashcards
     cards:
@@ -71,7 +71,7 @@ Temas recurrentes en convocatorias históricas:
 - Cultura / euskal kultura / hedabideak.
 - Salud / osasuna / janari ohiturak / kirola.
 
-> **Predicción cero-mágico:** si te toca redactar sobre uno de estos seis bloques, no te estás "adivinando" el examen, estás aceptando que la mayoría de convocatorias EGA giran sobre estos temas.
+> **Predicción nada mágica:** si te toca redactar sobre uno de estos seis bloques, no te estás "adivinando" el examen, estás aceptando que la mayoría de convocatorias EGA giran sobre estos temas.
 
 ### En la ahozko proba
 
@@ -88,19 +88,19 @@ Marca la opción correcta:
 
 **1.** *Eskolaren hezkuntza-proiektua ___ hobetu beharra dago.*
 - a) hain
-- b) zinez
+- b) oso
 - c) bere garaian
 - d) erro-errotik
 
-> Respuesta: **d) erro-errotik** ("desde la raíz, profundamente"). Las otras son adverbios pero no tienen el matiz radical que pide la frase.
+> Respuesta: **d) erro-errotik** ("de raíz, profundamente"). *Hain* y *oso* no modifican así al verbo, y *bere garaian* ("en su día") choca con el presente *dago*.
 
-**2.** *Ez ote da hori azken aldian ___ den arazoa?*
-- a) ageri
+**2.** *Ez ote da hori azken aldian behin eta berriz ___ den arazoa?*
+- a) agertuz
 - b) agertzen
-- c) agertu
+- c) agerturik
 - d) agertuko
 
-> Respuesta: **b) agertzen den arazoa** = "el problema que aparece / se manifiesta". Perpaus erlatiboa habitual.
+> Respuesta: **b) agertzen den arazoa** = "el problema que aparece una y otra vez". Relativo habitual: *agertuko den* es futuro (choca con *azken aldian*) y *agertuz / agerturik* no forman relativo con *den*.
 
 **3.** *Lankideok ___ behar genuke erabaki hori.*
 - a) onartu
@@ -113,10 +113,10 @@ Marca la opción correcta:
 **4.** *Aurreko inkesta baten arabera, gazteen ___ etxean bizi dira oraindik.*
 - a) bost laurdenak
 - b) hiru laurden
-- c) erdiak
+- c) erdi
 - d) gehienak
 
-> Respuesta: **d) gehienak** ("la mayoría"). *Bost laurdenak* es agramatical (no existe), *hiru laurden* es "tres cuartos" pero falta determinante, *erdiak* sería "la mitad".
+> Respuesta: **d) gehienak** ("la mayoría"). *Bost laurdenak* es una fracción imposible, y *hiru laurden* y *erdi* necesitarían determinante (*hiru laurdenak*, *erdiak*).
 
 **5.** *Hori da, ___, gehien kezkatzen nauena.*
 - a) izan ere
