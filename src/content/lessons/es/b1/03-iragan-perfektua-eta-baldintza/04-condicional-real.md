@@ -110,7 +110,7 @@ La principal puede ser una orden o sugerencia:
 
 - *Hori egia **bada**, **esan iezadazu**.* — Si eso es verdad, dímelo.
 - *Etxean **bazaude**, **ireki atea**!* — Si estás en casa, ¡abre la puerta!
-- *Garazi **etortzen bada**, **eseri dadila**.* — Si viene Garazi, que se siente.
+- *Garazi **etortzen bada**, **eser dadila**.* — Si viene Garazi, que se siente.
 
 ## "Si no" → ezean / bestela
 
@@ -120,8 +120,8 @@ Para la condición negativa o alternativa:
    > *Eros ezazu sarrera lehenbailehen; **bestela**, agortuko dira.*
 - *Ezean* (en caso contrario) — más cuidado, escrito.
    > *Garaiz iristen bazara, ondo. **Ezean**, ez sartu.*
-- *Ez bada -en, ...* — "si no…":
-   > *Ez bada hori egia, zer esan nahi du?*
+- *Ez ba-* — "si no…":
+   > *Hori egia ez bada, zer esan nahi du?*
 
 ## Locuciones útiles
 
@@ -160,6 +160,6 @@ En B1 puedes encadenar varias:
 
 ## Frase compleja típica de examen B1
 
-> *Auzoan zerbitzu gehiago jartzen **badira** eta jendeak parte hartzen **badu**, bizikalitatea hobetuko da. **Bestela**, gero eta jende gutxiago geratuko da hemen, eta auzoa hilik geratuko da.*
+> *Auzoan zerbitzu gehiago jartzen **badira** eta jendeak parte hartzen **badu**, bizi-kalitatea hobetuko da. **Bestela**, gero eta jende gutxiago geratuko da hemen, eta auzoa hilik geratuko da.*
 
 Aquí: dos condicionales (*jartzen badira*, *parte hartzen badu*) + futuro (*hobetuko da*) + alternativa (*bestela*) + futuro (*geratuko da*).

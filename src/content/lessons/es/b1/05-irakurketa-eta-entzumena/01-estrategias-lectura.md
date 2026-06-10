@@ -41,9 +41,9 @@ exercises:
     explanation: 'En examen no tienes diccionario. La estrategia clave es **inferir por contexto**: ¿qué hace que la frase tenga sentido? *Argitalpena* (publicación) se entiende si va con "liburu", "egunkari", "argitaratu".'
   - id: ex-b1-ul-01-fb1
     type: fill-in-blank
-    prompt: '"La idea principal del texto" → ___ ideia.'
-    answers: [Testuaren nagusia, nagusia]
-    explanation: '*Testuaren ideia nagusia* (la idea principal del texto). El sustantivo *nagusia* es esencial en la prueba.'
+    prompt: '"La idea principal del texto" → Testuaren ideia ___.'
+    answers: [nagusia]
+    explanation: '*Testuaren ideia nagusia* (la idea principal del texto). El adjetivo *nagusia* (principal) es esencial en la prueba.'
   - id: ex-b1-ul-01-fc
     type: flashcards
     cards:
@@ -155,7 +155,7 @@ En B1 te suelen preguntar cosas como:
 - **subjektiboa** — subjetivo
 - **ironikoa** — irónico
 - **lasaia** — sereno, tranquilo
-- **alarmistakoa** — alarmista
+- **alarmista** — alarmista
 - **zientifikoa** — científico
 
 ## Tipos de preguntas frecuentes

@@ -37,7 +37,7 @@ exercises:
     explanation: 'La opción b combina *nire iritziz* (en mi opinión), *agian* (quizá) y *pixka bat* (un poco) — tres atenuadores típicos del B1 cortés.'
   - id: ex-b1-kn-04-fb1
     type: fill-in-blank
-    prompt: 'Sin duda → ___'
+    prompt: 'Sin duda → ___ ___'
     answers: [Ezbairik gabe, Zalantzarik gabe]
     explanation: '*Ezbairik gabe* o *zalantzarik gabe* (literalmente "sin duda"). Ambas son habituales en B1.'
   - id: ex-b1-kn-04-fc
@@ -98,12 +98,12 @@ Cuando no afirmas con seguridad, sino que **deduces** o **supones**:
 | Posición | Marcador |
 |---|---|
 | Acuerdo | **ados nago**, **arrazoi duzu**, **erabat ados** (totalmente de acuerdo) |
-| Acuerdo parcial | **zati batean ados nago**, **alde batetik bai** (por un lado sí) |
+| Acuerdo parcial | **hein batean ados nago**, **alde batetik bai** (por un lado sí) |
 | Desacuerdo | **ez nago ados**, **ez dut uste hori horrela denik** |
 | Desacuerdo fuerte | **inola ere ez**, **inondik inora ez** |
 
 - *Erabat ados nago zurekin.* — Estoy totalmente de acuerdo contigo.
-- *Zati batean ados nago, baina beste alderdi batzuk kontuan hartu behar ditugu.* — En parte estoy de acuerdo, pero hay que tener en cuenta otros aspectos.
+- *Hein batean ados nago, baina beste alderdi batzuk kontuan hartu behar ditugu.* — En parte estoy de acuerdo, pero hay que tener en cuenta otros aspectos.
 - *Ez dut uste hori bide egokia denik.* — No creo que ese sea el camino adecuado.
 
 ## Marcadores valorativos
@@ -145,11 +145,11 @@ Hacen tu opinión menos categórica, lo que en B1 escrito y oral se valora mucho
 - **nahiko** — bastante
 - **edonola ere** — en cualquier caso
 
-> *Agian gehiegi esan dut. Edonola ere, ez nuen norbait minduko.*
+> *Agian gehiegi esan dut. Edonola ere, ez nuen inor mindu nahi.*
 
 ## Patrón completo de opinión argumentada
 
-> *Nire ustez**, gaur egungo arazo handienetako bat etxebizitzaren prezioa da. **Dirudienez**, urtero gora egiten du, eta **zoritxarrez** gazteok gero eta zailago dugu independizatzea. **Egia esan**, **inondik inora ez dut uste** soluzio errazik dagoenik, baina **kontuan hartu behar dugu** zerbait egin gabe egoerak okerrera egingo duela. **Nire aldetik**, alokairu sozial gehiago eraikitzea proposatuko nuke.*
+> ***Nire ustez**, gaur egungo arazo handienetako bat etxebizitzaren prezioa da. **Dirudienez**, urtero gora egiten du, eta **zoritxarrez** gazteok gero eta zailago dugu emantzipatzea. **Egia esan**, **inondik inora ez dut uste** soluzio errazik dagoenik, baina **kontuan hartu behar dugu** zerbait egin gabe egoerak okerrera egingo duela. **Nire aldetik**, alokairu sozial gehiago eraikitzea proposatuko nuke.*
 
 Cuenta los marcadores: en cinco frases hay siete o más. Esa es la densidad de un B1 alto.
 

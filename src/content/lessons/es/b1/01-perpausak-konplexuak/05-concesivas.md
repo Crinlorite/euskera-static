@@ -41,12 +41,12 @@ exercises:
     explanation: '*Hala ere* = "aun así, sin embargo". Marca contraste entre dos frases independientes.'
   - id: ex-b1-pk-05-fb1
     type: fill-in-blank
-    prompt: 'Completa con "arren": "Aunque está cansada, sigue trabajando" → Nekatuta ___, lanean jarraitzen du.'
+    prompt: 'Completa con "arren": "Aunque está cansada, sigue trabajando" → Nekatuta ___ ___, lanean jarraitzen du.'
     answers: [egon arren]
     explanation: 'Estructura: partizipioa + **arren**. *Nekatuta egon arren* (aunque esté cansada).'
   - id: ex-b1-pk-05-fb2
     type: fill-in-blank
-    prompt: '"Aunque no me gusta, lo comeré" → Gustatzen ez ___, jango dut.'
+    prompt: '"Aunque no me gusta, lo comeré" → Gustatzen ez ___ ___, jango dut.'
     answers: [zaidan arren]
     explanation: '*Gustatzen ez zait* (no me gusta) → en concesiva con *arren* va con -en: *gustatzen ez zaidan arren*.'
   - id: ex-b1-pk-05-fc
@@ -63,7 +63,7 @@ exercises:
       - { eu: ordea, es: sin embargo (escrito) }
       - { eu: aitzitik, es: por el contrario }
       - { eu: alabaina, es: ahora bien (literario) }
-      - { eu: arazo izan arren, es: a pesar del problema }
+      - { eu: arazoak izan arren, es: a pesar de los problemas }
 ---
 
 Las concesivas expresan que algo ocurre **a pesar de** una condición desfavorable. En castellano usamos "aunque", "a pesar de", "pese a". El euskera tiene varias estructuras y es importante distinguir cuándo va el verbo conjugado y cuándo va en participio.
@@ -89,7 +89,7 @@ Equivalente, pero con un matiz algo más formal o escrito.
 - *Berandu iritsi nintzen arren, sartzen utzi zidaten.* — Aunque llegué tarde, me dejaron entrar.
 - *Asko jakin arren, ez du erakutsi nahi.* — Aunque sabe mucho, no quiere mostrarlo.
 
-> Atención: aquí ***arren*** se usa siempre con verbo conjugado + -en, no con participio suelto.
+> Atención: ***arren*** admite las dos formas: participio + *arren* (*asko jakin arren*) o verbo conjugado + -(e)n + *arren* (*iritsi nintzen arren*).
 
 ### 3. Partizipioa + -ta ere / + ere
 
@@ -130,21 +130,21 @@ Esto es típico del euskera escrito y aparece frecuentemente en textos de examen
 
 ## Combinaciones de B1
 
-> *Nahiz eta** garestia izan, **erosi nuen, hala ere**.* — Aunque era cara, la compré, aun así.
-> *Anbotori asko gustatzen zaio, **baina** ezin du etorri **lan asko duelako**.*
+> ***Nahiz eta** garestia izan, erosi nuen, **hala ere**.* — Aunque era cara, la compré, aun así.
+> *Anbotori asko gustatzen zaio, **baina** ezin da etorri **lan asko duelako**.*
 > *Lan baldintzak hobetu dira; **hala eta guztiz ere**, langabezia handia da oraindik auzoan.*
 
 ## Marcadores de matiz
 
 Para suavizar o reforzar el contraste:
 
-- **zati batean** — en parte
+- **hein batean** — en parte
 - **neurri batean** — en cierta medida
 - **batez ere** — sobre todo
 - **bereziki** — especialmente
 - **inola ere ez** — de ninguna manera
 
-> *Zati batean ados nago zurekin, baina, hala ere, beste alderdi batzuk kontuan hartu behar ditugu.*
+> *Hein batean ados nago zurekin, baina, hala ere, beste alderdi batzuk kontuan hartu behar ditugu.*
 
 ## Distinción clave: causa vs concesión
 

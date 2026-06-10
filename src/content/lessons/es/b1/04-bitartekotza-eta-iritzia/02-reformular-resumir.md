@@ -37,7 +37,7 @@ exercises:
     explanation: '*Beste hitz batzuekin esanda* = "dicho con otras palabras". Es la fórmula más útil de reformulación.'
   - id: ex-b1-bi-02-fb1
     type: fill-in-blank
-    prompt: 'Completa la fórmula sinonímica: "Hau da, ___ esanda…" (con otras palabras).'
+    prompt: 'Completa la fórmula sinonímica: "Hau da, ___ ___ ___ esanda…" (con otras palabras).'
     answers: [beste hitz batzuekin]
     explanation: '*Beste hitz batzuekin esanda* es una fórmula muy frecuente en mediación escrita.'
   - id: ex-b1-bi-02-fc
@@ -146,7 +146,7 @@ Para resumir un texto, sigue estos pasos:
 |---|---|
 | garrantzitsua | funtsezkoa, nagusia |
 | arazoa | gatazka, zailtasuna |
-| egoera | egokiera |
+| aukera | egokiera |
 | jendea | herritarrak, biztanleak |
 | asko | hainbat, ugari |
 | txikia | apala, urria |

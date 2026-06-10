@@ -38,7 +38,7 @@ exercises:
     explanation: '*Jaio* (nacer) es intransitivo: pasado NOR. Yo → *nintzen*.'
   - id: ex-b1-ir-01-fb2
     type: fill-in-blank
-    prompt: 'Lander estuvo enfermo la semana pasada → Lander gaixorik ___ joan den astean.'
+    prompt: 'Lander estuvo enfermo la semana pasada → Lander gaixorik ___ ___ joan den astean.'
     answers: [egon zen]
     explanation: '*Egon zen* (estuvo). Pasado NOR de 3.ª persona singular.'
   - id: ex-b1-ir-01-fc
@@ -50,9 +50,9 @@ exercises:
       - { eu: ginen, es: nosotros éramos / estábamos }
       - { eu: zineten, es: vosotros erais / estabais }
       - { eu: ziren, es: ellos eran / estaban }
-      - { eu: joan nintzen, es: fui / iba }
-      - { eu: etorri zen, es: vino / venía }
-      - { eu: ibili ginen, es: anduvimos / andábamos }
+      - { eu: joan nintzen, es: fui }
+      - { eu: etorri zen, es: vino }
+      - { eu: ibili ginen, es: anduvimos }
       - { eu: jaio nintzen, es: nací }
       - { eu: hil zen, es: murió }
       - { eu: gertatu zen, es: ocurrió }
@@ -80,12 +80,12 @@ Memoriza este cuadro entero — es base de todo lo demás:
 
 Con verbos **intransitivos** (los que en presente llevan *naiz, zara, da*):
 
-- *Joan ginen* — fuimos / íbamos.
-- *Etorri zen* — vino / venía.
-- *Esnatu nintzen* — me desperté / me despertaba.
+- *Joan ginen* — fuimos.
+- *Etorri zen* — vino.
+- *Esnatu nintzen* — me desperté.
 - *Iritsi ziren* — llegaron.
 - *Egon ginen* — estuvimos.
-- *Geratu zen* — se quedó / se quedaba.
+- *Geratu zen* — se quedó.
 
 ## Pasado puntual vs habitual
 

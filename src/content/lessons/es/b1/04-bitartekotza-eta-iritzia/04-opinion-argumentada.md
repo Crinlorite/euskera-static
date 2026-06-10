@@ -57,7 +57,7 @@ exercises:
       - { eu: ados nago, es: estoy de acuerdo }
       - { eu: ez nago ados, es: no estoy de acuerdo }
       - { eu: erabat ados, es: totalmente de acuerdo }
-      - { eu: zati batean, es: en parte }
+      - { eu: hein batean, es: en parte }
       - { eu: alde batetik / bestetik, es: por un lado / por otro }
       - { eu: lehen arrazoia, es: la primera razón }
       - { eu: bigarren arrazoia, es: la segunda razón }
@@ -76,7 +76,7 @@ En la prueba escrita y oral del B1, una de las tareas estrella es la **opinión 
 | Posición | Fórmulas |
 |---|---|
 | Totalmente a favor | *Erabat alde nago, ados nago erabat, ez dut zalantzarik* |
-| Parcialmente a favor | *Zati batean ados nago, neurri batean alde nago* |
+| Parcialmente a favor | *Hein batean ados nago, neurri batean alde nago* |
 | Neutral / matizado | *Erdi-erdian nago, bi alderdiek dute arrazoia* |
 | Parcialmente en contra | *Zenbait puntutan ez nago ados* |
 | Totalmente en contra | *Erabat kontra nago, inola ere ez nago ados* |

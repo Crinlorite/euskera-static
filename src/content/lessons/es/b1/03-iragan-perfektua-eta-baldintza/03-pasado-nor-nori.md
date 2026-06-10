@@ -100,7 +100,7 @@ Con NOR plural (la cosa en plural), añade -**zki-**:
 En NOR-NORI **el sujeto gramatical (NOR) es la cosa**, no la persona. La persona es el dativo (NORI).
 
 - *Liburu**ak** gustatu **zitzaizkidan**.* — Me gustaron los libros.
-   - NOR: *liburuak* (en plural) → la forma lleva -zki- y -**en** plural NOR.
+   - NOR: *liburuak* (en plural) → la forma lleva la marca de plural -**zki**-.
    - NORI: *niri* (a mí) → terminación -**dan**.
 
 > Comparado con castellano: "**los libros** me gustaron" — el sujeto en castellano también es "los libros". Misma lógica.
@@ -117,7 +117,7 @@ Igual que NOR y NOR-NORK, la oposición burutua / ez-burutua se mantiene:
 | *gertatzen zitzaion* | le ocurría |
 
 > *Lehen txokolatea asko gustatzen zitzaidan, baina orain ez.* — Antes me gustaba mucho el chocolate, pero ahora no.
-> *Atzo Anborori zerbait bitxia gertatu zitzaion.* — Ayer le ocurrió a Anboto algo curioso.
+> *Atzo Anbotori zerbait bitxia gertatu zitzaion.* — Ayer le ocurrió a Anboto algo curioso.
 
 ## Ahaztu: ¿NORI o NORK?
 
@@ -156,4 +156,4 @@ La primera es más natural en euskera: la "culpa" no recae explícitamente en la
 
 Algunos verbos sintéticos también:
 
-- *Etxea badaukat* (tengo casa) → *Etxea bazitzaidan...* — En NOR-NORI sintético se usa raras veces; en B1 basta con dominar el cuadro perifrástico.
+- *Hori niri dagokit* (eso me corresponde) → pasado: *zegokidan* (me correspondía). Estas formas sintéticas NOR-NORI son poco frecuentes; en B1 basta con dominar el cuadro perifrástico.
