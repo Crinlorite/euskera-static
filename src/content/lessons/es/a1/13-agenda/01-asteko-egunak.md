@@ -68,7 +68,7 @@ Antes de hablar de planes y agenda, repasamos los días de la semana y aprendemo
 | *asteartea* | martes | aste + arte = "entre semana" |
 | *asteazkena* | miércoles | aste + azken = "último día de la semana laboral" (hist.) |
 | *osteguna* | jueves | egun = día |
-| *ostirala* | viernes | similar a "viernes" en lenguas vecinas |
+| *ostirala* | viernes | comparte la raíz *ortzi/osti-* (cielo) con *osteguna* |
 | *larunbata* | sábado | larun + bata |
 | *igandea* | domingo | día festivo histórico |
 
@@ -86,7 +86,7 @@ Para fechar un evento se añade `-(e)an` al día:
 | osteguna | ostegun**ean** |
 | ostirala | ostirale**an** |
 | larunbata | larunbat**ean** |
-| igandea | iganderik (poco usado) / *igandean* |
+| igandea | igande**an** |
 
 - *Astelehenean lan egiten dut.* — Trabajo el lunes.
 - *Larunbatean afaltzera joango gara.* — El sábado iremos a cenar.
@@ -119,4 +119,4 @@ Para frecuencia regular:
 - *Asteburu honetan mendira joango naiz.* — Este fin de semana iré al monte.
 - *Asteburu pasa egitea gustatzen zait.* — Me gusta hacer escapadas de fin de semana.
 
-> **Nota cultural:** en muchas zonas vascas la palabra *iganderoa* (o *igandero*) la sustituye *jaieguna* (día festivo). En carteles de ayuntamiento verás los dos términos según el caso.
+> **Nota cultural:** junto a *igandea* verás a menudo *jaieguna* (día festivo): la fórmula *igandeak eta jaiegunak* es típica en horarios de autobuses, comercios y carteles de ayuntamiento.

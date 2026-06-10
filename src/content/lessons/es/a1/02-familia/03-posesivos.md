@@ -43,7 +43,7 @@ Los posesivos en euskera se colocan **antes del sustantivo**, igual que en caste
 | zuek | **zuen** | zuen lagunak | vuestros amigos |
 | haiek | **beren** | beren autoa | su coche (de ellos) |
 
-> Cuando un sustantivo va con posesivo no lleva el artículo "-a" añadido, pero sí cuando va sin posesivo: *nire ama* (mi madre) vs. *ama* — pero "la madre" sería *amaren* en otra estructura. En A1 te basta con la forma con posesivo, **siempre sin artículo**.
+> A diferencia del castellano, el sustantivo **conserva el artículo `-a`** aunque lleve posesivo: *gure etxea* (nuestra casa), *zuen lagunak* (vuestros amigos), *beren autoa* (su coche). En palabras que ya terminan en `-a` (como *ama* o *arreba*) el artículo no se aprecia: *nire ama*.
 
 ## Familia + posesivos
 

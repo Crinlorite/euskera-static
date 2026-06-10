@@ -48,7 +48,7 @@ exercises:
       - { eu: ezaguna, es: conocido/a }
       - { eu: ezezaguna, es: desconocido/a }
       - { eu: koadrila, es: cuadrilla }
-      - { eu: kuadrilakide, es: miembro de la cuadrilla }
+      - { eu: koadrilakide, es: miembro de la cuadrilla }
       - { eu: bikotekidea, es: pareja }
       - { eu: nire ondoko bizilaguna, es: mi vecino/a de al lado }
       - { eu: gazteen koadrila, es: la cuadrilla de los jóvenes }

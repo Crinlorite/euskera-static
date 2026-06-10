@@ -12,7 +12,7 @@ exercises:
   - id: ex-erostera-mc1
     type: multiple-choice
     prompt: '¿Qué dices al pedir algo educadamente en una tienda?'
-    options: [Eskerrik asko!, Jarriko al didazu kilo bat sagar, mesedez?, Agur!, Nor zara?]
+    options: ["Eskerrik asko!", "Jarriko al didazu kilo bat sagar, mesedez?", "Agur!", "Nor zara?"]
     answer: 1
     explanation: '"Jarriko al didazu… mesedez?" = "¿Me pones…, por favor?". Estructura cortés y frecuente.'
   - id: ex-erostera-mc2
@@ -34,13 +34,13 @@ exercises:
   - id: ex-erostera-fc
     type: flashcards
     cards:
-      - { eu: 'Azkena, mesedez?', es: ¿El último, por favor? (en la cola) }
+      - { eu: 'Azkena, mesedez?', es: '¿El último, por favor? (en la cola)' }
       - { eu: 'Zer nahi duzu?', es: ¿Qué quieres? }
       - { eu: 'Jarriko al didazu...?', es: ¿Me pones...? }
       - { eu: 'Hartuko dut', es: Lo cogeré / Me lo llevo }
       - { eu: 'Eman X mesedez', es: Dame X por favor }
       - { eu: 'Besterik?', es: ¿Algo más? }
-      - { eu: 'Ez, besterik ez', es: No, nada más }
+      - { eu: 'Ez, besterik ez', es: 'No, nada más' }
       - { eu: 'Tori!', es: ¡Toma! }
       - { eu: 'Eskerrik asko!', es: ¡Muchas gracias! }
       - { eu: 'Zuri!', es: ¡A ti! (respuesta a las gracias) }

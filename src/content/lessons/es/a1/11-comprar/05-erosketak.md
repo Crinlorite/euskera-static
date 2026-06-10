@@ -28,7 +28,7 @@ exercises:
     explanation: '*Dena* significa "todo".'
   - id: ex-eros-fb2
     type: fill-in-blank
-    prompt: 'Para preguntar si tienen un producto: "¿Tienen leche?" = Esne___ ba(d)augkazue?'
+    prompt: 'Para preguntar si tienen un producto: "¿Tienen leche?" = Esne___ ba(d)aukazue?'
     answers: [rik]
     explanation: 'Pregunta de existencia con objeto indefinido = partitivo **-rik** (esne**rik**).'
   - id: ex-eros-fc
@@ -37,7 +37,7 @@ exercises:
       - { eu: erosketa-zerrenda, es: lista de la compra }
       - { eu: 'Zer behar dugu?', es: '¿Qué necesitamos?' }
       - { eu: 'Ez dago ogirik', es: No hay pan }
-      - { eu: 'Esnerik ba(d)augkazue?', es: '¿Tenéis leche?' }
+      - { eu: 'Esnerik ba(d)aukazue?', es: '¿Tenéis leche?' }
       - { eu: 'Bai, badago', es: 'Sí, hay' }
       - { eu: 'Ez, ez dago', es: 'No, no hay' }
       - { eu: 'Erosketak egitera noa', es: Voy a hacer la compra }
@@ -115,9 +115,11 @@ Una conversación típica al planificar:
 >
 > **B:** *Bai, kilo erdi tomate ere bai.*
 >
-> **F:** *Tira, hemen. Zenbat da dena?*
+> **F:** *Tira, hemen.*
 >
-> Bueno, ya te lo digo... **Bost euro eta hogei zentimo.**
+> **B:** *Zenbat da dena?*
+>
+> **F:** *Bost euro eta hogei zentimo.*
 >
 > **B:** *Tori! Eskerrik asko!*
 >
@@ -125,9 +127,9 @@ Una conversación típica al planificar:
 
 ## Para repasar
 
-1. **Producto + cantidad:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
+1. **Cantidad + producto:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
 2. **Pedir cortés:** *Jarriko al didazu...?* / *Eman..., mesedez*.
 3. **Cerrar la compra:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Negación con producto:** *Ez dago ...rik* (con partitivo).
 
-> **Nota cultural:** muchas familias hacen las compras "del día" en las tiendas de barrio (frutadenda, harategia) y van al supermercado solo para los productos envasados. Es una mezcla muy habitual de canales que se nota especialmente los sábados por la mañana en cualquier pueblo.
+> **Nota cultural:** muchas familias hacen las compras "del día" en las tiendas de barrio (fruta-denda, harategia) y van al supermercado solo para los productos envasados. Es una mezcla muy habitual de canales que se nota especialmente los sábados por la mañana en cualquier pueblo.

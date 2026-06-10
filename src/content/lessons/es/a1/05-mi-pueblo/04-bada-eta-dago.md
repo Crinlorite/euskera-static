@@ -46,7 +46,7 @@ exercises:
       - { eu: 'Ba al daude…?', es: ¿Hay…? (plural) }
       - { eu: 'Bai, badaude', es: 'Sí, hay (varios)' }
       - { eu: 'Ez dago tabernarik', es: No hay bar }
-      - { eu: 'Ez dago jaterik', es: No hay nada para comer }
+      - { eu: 'Ez dago jatekorik', es: No hay nada para comer }
       - { eu: 'Ez dago dirurik', es: No hay dinero }
       - { eu: 'Auzoan ez dago supermerkaturik', es: En el barrio no hay supermercado }
   - id: ex-bd-mp
@@ -65,7 +65,7 @@ En castellano usamos un solo verbo, "haber/estar", para dos ideas distintas: **e
 
 | Idea | Patrón en euskera | Ejemplo |
 |---|---|---|
-| **Existir** ("hay") | **bada(go)** + sustantivo en partitivo | *Auzoan **badago** taberna **rik***. — En el barrio hay bar(es). |
+| **Existir** ("hay") | **bada(go)** + sustantivo en partitivo | *Auzoan **badago** tabernarik?* — ¿Hay algún bar en el barrio? |
 | **Estar** (ubicarse) | sustantivo concreto + lugar + **dago** | *Taberna kalean **dago***. — El bar está en la calle. |
 
 Cuando preguntas si algo **existe** (no si dónde está, sino si hay), usa el patrón con **bada(go)**.
@@ -81,7 +81,7 @@ Ejemplos:
 
 - ***Ba al dago* botikarik herrian?** — ¿Hay farmacia en el pueblo?
 - ***Badago* supermerkaturik auzoan?** — ¿Hay supermercado en el barrio?
-- ***Ba al daude* komun publikorik?** — ¿Hay aseos públicos? (plural)
+- ***Ba al dago* komun publikorik?** — ¿Hay aseos públicos?
 
 ## La respuesta afirmativa
 
@@ -103,7 +103,7 @@ Para decir **"no hay"** usamos el partitivo **`-rik`** sobre el sustantivo:
 | *Ez dago **tabernarik**.* | No hay bar(es). |
 | *Ez dago **supermerkaturik**.* | No hay supermercado. |
 | *Ez dago **kafetegirik**.* | No hay cafetería. |
-| *Ez daude **komun publikorik**.* | No hay aseos públicos. |
+| *Ez dago **komun publikorik**.* | No hay aseos públicos. |
 
 > El sufijo **`-rik`** (o `-ik` tras consonante) es el "partitivo": marca un sustantivo indefinido en preguntas y negaciones. Lo veremos también con otros verbos (*Ez dut anaiarik* — "no tengo hermanos").
 

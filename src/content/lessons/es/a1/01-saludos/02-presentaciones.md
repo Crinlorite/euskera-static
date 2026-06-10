@@ -27,7 +27,7 @@ exercises:
       - { eu: Zu zara, es: Tú eres }
       - { eu: Hura da, es: Él/ella es }
       - { eu: 'Zer moduz?', es: '¿Qué tal?' }
-      - { eu: Ondo, eskerrik asko, es: Bien, gracias }
+      - { eu: 'Ondo, eskerrik asko', es: 'Bien, gracias' }
       - { eu: Ni ere ondo, es: Yo también bien }
 ---
 

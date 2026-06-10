@@ -28,8 +28,8 @@ exercises:
     explanation: '*hartuko dut* = "tomaré". Es una manera muy común de pedir.'
   - id: ex-tab-fb2
     type: fill-in-blank
-    prompt: '"¿Quieres un café?" = ___ ___ ___ kafea?'
-    answers: [Nahi duzu, nahi duzu]
+    prompt: '"¿Quieres café?" = ___ ___ kafea?'
+    answers: [Nahi duzu]
     explanation: '*nahi duzu* = "quieres". Patrón básico de oferta.'
   - id: ex-tab-fc
     type: flashcards
@@ -120,7 +120,7 @@ En euskera el "oye / oiga" típico para llamar la atención es **Aizu!** (inform
 >
 > — *Eta jateko? Ogitarteko bat?* — ¿Y para comer? ¿Un bocadillo?
 >
-> — *Ez, eskerrik asko. Bakarrik kafea.* — No, gracias. Solo el café.
+> — *Ez, eskerrik asko. Kafea bakarrik.* — No, gracias. Solo el café.
 >
 > — *Ederki!* — ¡Estupendo!
 

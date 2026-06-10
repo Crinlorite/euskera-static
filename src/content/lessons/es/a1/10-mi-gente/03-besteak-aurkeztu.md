@@ -113,4 +113,4 @@ Igual que ya sabes con *izan*, la negación va antes del verbo:
 - *Hau **ez da** Egoitz.* — Este no es Egoitz.
 - *Bera **ez da** mediku, irakaslea da.* — Él/ella no es médico, es profesor.
 
-> **Truco:** para no liarte con el orden, recuerda que en euskera **el verbo va al final** de la frase. La negación se cuela justo delante del verbo.
+> **Truco:** para no liarte con el orden, recuerda que en la negación **ez va siempre justo delante del verbo conjugado**: *ez da*, *ez naiz*, *ez gara*.

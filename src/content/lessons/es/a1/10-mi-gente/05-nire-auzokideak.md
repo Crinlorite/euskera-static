@@ -101,7 +101,7 @@ Para cada vecino, sigue siempre estas piezas. Si las tienes, la descripción se 
 >
 > ***Bigarrena Egoitz da.*** *Bera kazetaria da eta egunkari batean lan egiten du. Bere bikotekidearekin bizi da bigarren solairuan. Lasaia da, ez dugu ia entzuten.*
 >
-> ***Hirugarrena Hodei eta Maialen dira.*** *Hauek nire ikaskideak ere badira: euskaltegira biok joaten gara. Hirugarren solairuan bizi dira eta ikasleak dira. Alaiak eta zaratatsuak dira: asteburuetan musika ozen entzuten dute.*
+> ***Hirugarrena Hodei eta Maialen dira.*** *Hauek nire ikaskideak ere badira: euskaltegira elkarrekin joaten gara. Hirugarren solairuan bizi dira eta ikasleak dira. Alaiak eta zaratatsuak dira: asteburuetan musika ozen entzuten dute.*
 
 ## Ahora tú: describe tres vecinos tuyos
 
@@ -117,7 +117,7 @@ Sigue esta plantilla y completa con tus datos reales (o inventados, si prefieres
 
 ## Frases conectoras útiles
 
-Si quieres encadenar mejor las descripciones, estas conectores sencillos te ayudan:
+Si quieres encadenar mejor las descripciones, estos conectores sencillos te ayudan:
 
 | Euskera | Castellano |
 |---|---|

@@ -42,12 +42,12 @@ exercises:
   - id: ex-c1-saia-01-mp
     type: match-pairs
     pairs:
-      - { eu: sarrera, es: introducción, presentación del tema y tesis }
-      - { eu: garapena, es: desarrollo, cuerpo argumentativo }
-      - { eu: ondorioa, es: conclusión, cierre y síntesis }
-      - { eu: tesia, es: tesis, idea central que se defiende }
-      - { eu: paragrafoa, es: párrafo, unidad que desarrolla una idea }
-      - { eu: ardatza, es: eje, hilo conductor del texto }
+      - { eu: sarrera, es: 'introducción: presentación del tema y tesis' }
+      - { eu: garapena, es: 'desarrollo: cuerpo argumentativo' }
+      - { eu: ondorioa, es: 'conclusión: cierre y síntesis' }
+      - { eu: tesia, es: 'tesis: idea central que se defiende' }
+      - { eu: paragrafoa, es: 'párrafo: unidad que desarrolla una idea' }
+      - { eu: ardatza, es: 'eje: hilo conductor del texto' }
   - id: ex-c1-saia-01-fc
     type: flashcards
     cards:

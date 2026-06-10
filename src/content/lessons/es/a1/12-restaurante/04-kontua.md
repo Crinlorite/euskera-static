@@ -12,7 +12,7 @@ exercises:
   - id: ex-kont-mc1
     type: multiple-choice
     prompt: '¿Cómo pides la cuenta?'
-    options: [Eskerrik asko, Kontua mesedez, Zer da hau?, Bukatu dut]
+    options: ['Eskerrik asko', 'Kontua, mesedez', 'Zer da hau?', 'Bukatu dut']
     answer: 1
     explanation: '*Kontua, mesedez* es la fórmula universal para pedir la cuenta.'
   - id: ex-kont-mc2
@@ -81,7 +81,7 @@ Tres maneras, todas correctas:
 
 ## Propinas
 
-En Euskal Herria, como en el resto de España, **la propina no es obligatoria**. Lo habitual:
+En Euskal Herria **la propina no es obligatoria**. Lo habitual:
 
 - En bares y comidas informales: dejar las monedas sueltas del cambio (50 céntimos a 1 euro).
 - En restaurantes con cuenta más alta: 1-2 euros por persona si te ha gustado.

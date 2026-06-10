@@ -9,29 +9,29 @@ title: Mi semana (lección integradora)
 estimatedMinutes: 12
 covers: [weekly-planning, future-koGo, time-when, days-of-week, common-verbs]
 exercises:
-  - id: ex-na-mc1
+  - id: ex-nast-mc1
     type: multiple-choice
     prompt: '"Mañana iré al gimnasio" =…'
     options: ['Bihar kiroldegira joan naiz', 'Bihar kiroldegira joango naiz', 'Bihar kiroldegian nago', 'Kiroldegira bihar dut']
     answer: 1
     explanation: 'Futuro: *joan + go = joango* + *naiz* (yo). *Kiroldegira* = al gimnasio (sufijo -ra de destino).'
-  - id: ex-na-mc2
+  - id: ex-nast-mc2
     type: multiple-choice
     prompt: '"El sábado quedaré con Maialen para tomar café" =…'
     options: ['Larunbatean Maialenekin geratuko naiz kafea hartzeko', 'Larunbat Maialen kafea hartu', 'Maialen larunbatean kafea du', 'Larunbatean kafea Maialenekin']
     answer: 0
     explanation: '*Larunbatean* (el sábado) + *Maialenekin* (con Maialen) + *geratuko naiz* (quedaré) + *kafea hartzeko* (para tomar café).'
-  - id: ex-na-fb1
+  - id: ex-nast-fb1
     type: fill-in-blank
     prompt: '"La semana que viene tendré exámenes" = ___ astean azterketak izango ditut.'
-    answers: [Datorren, datorren]
+    answers: [Datorren]
     explanation: '*Datorren* — "que viene". *Datorren astean* — "la semana que viene".'
-  - id: ex-na-fb2
+  - id: ex-nast-fb2
     type: fill-in-blank
     prompt: '"El viernes saldré con los amigos" = Ostiralean lagunekin atera___ naiz.'
     answers: [ko]
     explanation: '*Atera* + *ko* + *naiz* = *aterako naiz* (saldré). Verbo en -a → -ko.'
-  - id: ex-na-fc
+  - id: ex-nast-fc
     type: flashcards
     cards:
       - { eu: agenda, es: agenda }
@@ -45,7 +45,7 @@ exercises:
       - { eu: 'Bilera dut hamarretan', es: Tengo reunión a las diez }
       - { eu: 'Libre zaude?', es: '¿Estás libre?' }
       - { eu: 'Geratuko gara?', es: '¿Quedamos?' }
-  - id: ex-na-mp
+  - id: ex-nast-mp
     type: match-pairs
     pairs:
       - { eu: 'datorren astean', es: la semana que viene }
@@ -110,7 +110,7 @@ Lee esta agenda inventada y fíjate en los marcadores temporales:
 
 > *Bihar lanera joango naiz goizean. Arratsaldean kafea hartuko dut lagun batekin, eta gauean etxean afalduko dut.*
 
-**Pregunta:** *Datorren astean zer planik duzu?*
+**Pregunta:** *Datorren astean zer plan duzu?*
 
 > *Datorren astean azterketa bat izango dut. Asko ikasiko dut. Larunbatean lasai gelditu nahi dut.*
 
@@ -130,7 +130,7 @@ Lee esta agenda inventada y fíjate en los marcadores temporales:
 ```
 Pasado    →  Presente  →  Futuro
 atzo         gaur          bihar — etzi — datorren astean
-joan zen     da             izango da
+joan zen     doa            joango da
 ikusi dut    ikusten dut    ikusiko dut
 ```
 

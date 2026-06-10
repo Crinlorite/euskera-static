@@ -28,7 +28,7 @@ exercises:
     explanation: '*hiru* = 3.'
   - id: ex-zbd-fb2
     type: fill-in-blank
-    prompt: 'Tomaré dos cafés = Bi kafe ___.'
+    prompt: 'Tomaré dos cafés = Bi kafe ___ ___.'
     answers: [hartuko ditut]
     explanation: 'Para "varias cosas" se usa *ditut* en lugar de *dut*.'
   - id: ex-zbd-fc

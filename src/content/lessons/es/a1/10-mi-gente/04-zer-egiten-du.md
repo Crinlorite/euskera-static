@@ -45,7 +45,7 @@ exercises:
       - { eu: 'Iruñean bizi da', es: 'Vive en Pamplona' }
       - { eu: 'Hogeita hamar urte ditu', es: 'Tiene 30 años' }
       - { eu: 'Ezkonduta dago', es: 'Está casado/a' }
-      - { eu: 'Ezkongabea da', es: 'Está soltero/a' }
+      - { eu: 'Ezkongabea da', es: 'Es soltero/a' }
       - { eu: 'Bi seme-alaba ditu', es: 'Tiene dos hijos' }
       - { eu: 'Bakarrik bizi da', es: 'Vive solo/a' }
       - { eu: 'Lagunekin bizi da', es: 'Vive con sus amigos' }
