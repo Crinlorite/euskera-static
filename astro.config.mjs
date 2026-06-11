@@ -19,4 +19,13 @@ export default defineConfig({
   build: {
     format: 'directory',
   },
+  vite: {
+    define: {
+      // Sello de build visible en el menú del juego: permite distinguir al
+      // instante "código nuevo desplegado" de "caché/SW viejo en el cliente".
+      __BUILD_ID__: JSON.stringify(
+        new Date().toISOString().slice(0, 16).replace('T', ' ') + ' UTC',
+      ),
+    },
+  },
 });
