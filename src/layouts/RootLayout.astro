@@ -34,8 +34,17 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
 <html lang={locale} dir={info.dir}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {/* viewport-fit=cover habilita las safe-area insets del notch para que el
+        contenido pueda extenderse bajo la barra de estado en PWA. */}
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#FFFFFF" />
+    {/* PWA en iOS: 'black-translucent' deja que la app se dibuje BAJO la barra
+        de estado (gana esos píxeles); es lo más cerca del fullscreen total que
+        permite iPhone. Solo aplica cuando se abre desde "Añadir a inicio". */}
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Kaixo" />
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
