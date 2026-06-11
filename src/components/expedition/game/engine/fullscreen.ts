@@ -114,3 +114,27 @@ export function onFullscreenChange(cb: (isFs: boolean) => void): () => void {
     pseudoListeners.delete(cb);
   };
 }
+
+// En iPhone el pseudo-fullscreen es un overlay CSS, y al rotar Safari
+// recalcula su viewport (barra que aparece/desaparece, dvh nuevo) sin avisar
+// a nuestro estado: el overlay quedaba "colgado" y el botón no reflejaba la
+// realidad ("bloqueado"). Al cambiar de orientación o redimensionar,
+// re-afirmamos el overlay y re-notificamos para que el botón siga vivo.
+function reassertPseudo() {
+  if (!pseudoEl) return;
+  pseudoEl.classList.add('pseudo-fullscreen');
+  document.body.style.overflow = 'hidden';
+  // Empujón de reflow: forzar que Safari recomponga el fixed con el dvh nuevo.
+  void pseudoEl.offsetHeight;
+  notifyPseudo();
+}
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('orientationchange', () => {
+    // El recálculo del viewport en iOS llega un tick tarde tras el evento.
+    setTimeout(reassertPseudo, 250);
+  });
+  window.addEventListener('resize', () => {
+    if (pseudoEl) reassertPseudo();
+  });
+}

@@ -34,7 +34,7 @@
   {#if hasAura}
     <div class="aura" style={`background: radial-gradient(circle, ${palette.aura}55 0%, transparent 65%);`}></div>
   {/if}
-  <svg viewBox="0 0 16 24" width={64 * scale} height={96 * scale} shape-rendering="crispEdges">
+  <svg viewBox="0 0 16 24" width="64" height="96" shape-rendering="crispEdges">
     <!-- pelo -->
     <rect x="4" y="0" width="8" height="2" fill={palette.hair} />
     <rect x="3" y="1" width="10" height="3" fill={palette.hair} />
