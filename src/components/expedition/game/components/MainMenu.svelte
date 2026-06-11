@@ -42,7 +42,7 @@
   </div>
 
   <p class="footer-tip">
-    Recomendado a pantalla completa. Puedes activarla con la tecla <kbd>F</kbd>.
+    Recomendado a pantalla completa: tecla <kbd>F</kbd> o el botón ⛶ durante el juego.
   </p>
   <p class="build-tag">Build {typeof __BUILD_ID__ !== 'undefined' ? __BUILD_ID__ : 'dev'}</p>
 </div>
