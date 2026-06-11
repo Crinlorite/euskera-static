@@ -650,6 +650,15 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
     pointer-events: none;
   }
+  /* A pantalla completa en iPhone (real o pseudo), el notch invade la franja
+     superior y el home-indicator la inferior: sumamos las safe-area insets a
+     los HUD para que botones y diálogo no queden tapados. env() = 0 sin notch. */
+  .game.fullscreen .hud-top,
+  .game:global(.pseudo-fullscreen) .hud-top {
+    padding-block-start: max(var(--s-3), env(safe-area-inset-top, 0px));
+    padding-inline: max(var(--s-4), env(safe-area-inset-left, 0px))
+                    max(var(--s-4), env(safe-area-inset-right, 0px));
+  }
   .hud-info {
     display: flex;
     align-items: center;
@@ -698,6 +707,12 @@
     padding: var(--s-3);
     display: grid;
     gap: var(--s-2);
+  }
+  .game.fullscreen .hud-bottom,
+  .game:global(.pseudo-fullscreen) .hud-bottom {
+    padding-block-end: max(var(--s-3), env(safe-area-inset-bottom, 0px));
+    padding-inline: max(var(--s-3), env(safe-area-inset-left, 0px))
+                    max(var(--s-3), env(safe-area-inset-right, 0px));
   }
   /* Pista contextual permanente: qué pulsar para progresar */
   .action-hint {

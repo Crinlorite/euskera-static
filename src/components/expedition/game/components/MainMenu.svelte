@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { createEventDispatcher } from 'svelte';
+  import { createEventDispatcher, onMount } from 'svelte';
   import { hasSave, story } from '../engine/state';
 
   const dispatch = createEventDispatcher<{
@@ -16,6 +16,22 @@
     saveExists = $story && hasSave();
     lastSaved = $story?.lastSavedAt ?? null;
   }
+
+  // Pista PWA: solo en iPhone con Safari y solo si NO está ya instalada como
+  // app de inicio. iPhone es el único que no tiene Fullscreen API ni para
+  // <video> útil; añadirla a inicio es su único camino a pantalla completa real.
+  // (iPad sí tiene Fullscreen API → no le hace falta. Chrome/Firefox iOS no
+  // ofrecen "Añadir a inicio" del mismo modo → no se lo sugerimos.)
+  let showIosTip = false;
+  onMount(() => {
+    const ua = navigator.userAgent;
+    const isIPhone = /iphone|ipod/i.test(ua);
+    const isSafari = !/CriOS|FxiOS|EdgiOS/i.test(ua);
+    const standalone =
+      (navigator as Navigator & { standalone?: boolean }).standalone === true ||
+      window.matchMedia('(display-mode: standalone)').matches;
+    showIosTip = isIPhone && isSafari && !standalone;
+  });
 </script>
 
 <div class="menu" role="dialog" aria-modal="true">
@@ -44,6 +60,13 @@
   <p class="footer-tip">
     Recomendado a pantalla completa: tecla <kbd>F</kbd> o el botón ⛶ durante el juego.
   </p>
+  {#if showIosTip}
+    <p class="ios-tip">
+      💡 En iPhone, para pantalla completa total: toca <strong>Compartir</strong>
+      <span class="share-glyph" aria-hidden="true"></span> y luego
+      <strong>«Añadir a pantalla de inicio»</strong>.
+    </p>
+  {/if}
   <p class="build-tag">Build {typeof __BUILD_ID__ !== 'undefined' ? __BUILD_ID__ : 'dev'}</p>
 </div>
 
@@ -129,6 +152,40 @@
     margin: 0;
     color: #6a5a3a;
     font-size: 0.82rem;
+  }
+  .ios-tip {
+    margin: var(--s-3) auto 0;
+    max-inline-size: 30ch;
+    padding: var(--s-2) var(--s-3);
+    border: 1px solid #4a3a22;
+    border-radius: var(--r-sm);
+    background: rgba(212, 160, 23, 0.08);
+    color: #d8c8a8;
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+  .ios-tip strong { color: #f0d878; font-weight: 700; }
+  /* glifo "compartir" de iOS: cuadrado con flecha hacia arriba */
+  .share-glyph {
+    display: inline-block;
+    inline-size: 0.7em;
+    block-size: 0.9em;
+    border: 1.5px solid currentColor;
+    border-radius: 2px;
+    position: relative;
+    vertical-align: -0.15em;
+    margin-inline: 0.1em;
+  }
+  .share-glyph::before {
+    content: "↑";
+    position: absolute;
+    inset-block-start: -0.62em;
+    inset-inline-start: 50%;
+    transform: translateX(-50%);
+    font-size: 0.95em;
+    line-height: 1;
+    background: #0d0a08;
+    padding-inline: 1px;
   }
   .build-tag {
     margin: var(--s-2) 0 0;
