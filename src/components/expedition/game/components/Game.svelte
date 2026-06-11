@@ -120,9 +120,20 @@
     );
   }
 
+  // Beat actual leído de PRIMITIVAS frescas (writable + registry), nunca del
+  // derived currentBeat: dentro de una cadena de subscribers los updates
+  // anidados se encolan y el derived devuelve un beat CONGELADO — el motor
+  // entraba en ping-pong sobre un goto-label y arrasaba la escena entera
+  // (puzzles incluidos) hasta el cambio de capítulo.
+  function freshBeat(): Beat | null {
+    const s = get(story);
+    return getSceneById(s.currentSceneId)?.beats[s.cursor] ?? null;
+  }
+
   // Procesa beats de side-effect en cadena hasta llegar a uno interactivo
-  // o cambiar de view. Crítico: el reactivo de Svelte NO encadena fiable
-  // los $$invalidate dentro del mismo tick, por eso lo hacemos a mano.
+  // o cambiar de view. handleSideEffect devuelve true si hizo progreso
+  // síncrono (seguir iterando) y false si quedó en espera asíncrona
+  // (pause) o terminal (ending / cambio de escena).
   function processBeats() {
     if (processing) return;
     if (view.mode !== 'playing') return;
@@ -130,18 +141,12 @@
     try {
       let safety = 200;
       while (safety-- > 0) {
-        const beat = get(currentBeat);
+        const beat = freshBeat();
         if (!beat) return;
         if (!isSideEffectBeat(beat)) return;
-        const beforeCursor = get(story).cursor;
-        const beforeSceneId = get(story).currentSceneId;
-        handleSideEffect(beat);
-        // si el view cambió a chapter-intro/ending, salimos
+        const progressed = handleSideEffect(beat);
         if (view.mode !== 'playing') return;
-        const afterCursor = get(story).cursor;
-        const afterSceneId = get(story).currentSceneId;
-        // si nada se movió, asumimos asíncrono (pause con setTimeout) y salimos
-        if (afterCursor === beforeCursor && afterSceneId === beforeSceneId) return;
+        if (!progressed) return;
       }
       console.warn('[game] processBeats: safety guard hit en escena', get(story).currentSceneId);
     } finally {
@@ -172,7 +177,7 @@
     // tiene su propio handler con el typewriter (skip → reveal → continue).
     // Si gestionamos ambos aquí y allá, se salta contenido.
     if ((e.key === 'Enter' || e.key === ' ') && view.mode === 'playing') {
-      const beat = get(currentBeat);
+      const beat = freshBeat();
       const target = e.target as HTMLElement | null;
       // BUTTON incluido: si hay un botón enfocado, el navegador ya dispara su
       // click nativo con Espacio/Enter — gestionarlo también aquí provocaba
@@ -199,7 +204,7 @@
         idleHint = false;
         return;
       }
-      const beat = get(currentBeat);
+      const beat = freshBeat();
       const isInteractive =
         beat &&
         (beat.type === 'narration' || beat.type === 'speak' || beat.type === 'choice' || beat.type === 'puzzle');
@@ -295,7 +300,7 @@
   // (el jugador tiene que decidir), pero limpia idleHint.
   function tryAdvance() {
     bumpInteraction();
-    const beat = get(currentBeat);
+    const beat = freshBeat();
     if (!beat) return;
     if (beat.type === 'narration' || beat.type === 'speak') {
       uiAdvance();
@@ -311,7 +316,12 @@
     }
   }
 
-  function handleSideEffect(b: Beat) {
+  // Devuelve true si hizo progreso SÍNCRONO (processBeats debe seguir
+  // iterando) y false si quedó en espera asíncrona o estado terminal.
+  // Las decisiones se toman sobre get(story)/registry — nunca sobre stores
+  // derivados ni variables $reactivas, que dentro de una cadena de
+  // subscribers pueden estar congelados.
+  function handleSideEffect(b: Beat): boolean {
     switch (b.type) {
       case 'gain-item':
         // Avance inmediato: el banner flota por encima 2,4s sin bloquear el
@@ -321,41 +331,43 @@
         gainItem(b.item);
         flashGain('item', `+${b.item.icon} ${b.item.name}`, b.flavor ?? b.item.description);
         advance();
-        break;
+        return true;
       case 'gain-word':
         gainWord(b.word);
         flashGain('word', b.word.eu, b.word.es);
         advance();
-        break;
+        return true;
       case 'set-bg':
         setBackground(b.bgId);
         advance();
-        break;
+        return true;
       case 'enter-actor':
         enterActor(b.actor);
         advance();
-        break;
+        return true;
       case 'leave-actor':
         leaveActor(b.actorId);
         advance();
-        break;
+        return true;
       case 'flag':
         setFlag(b.flag, b.value !== false);
         advance();
-        break;
+        return true;
       case 'goto-label': {
-        // OJO: get(story), no $story — dentro de la cadena de subscribers los
-        // updates anidados se encolan y $story queda obsoleto, lo que hacía
-        // creer que el salto falló y disparaba un advance() extra (beat saltado).
-        const before = get(story).cursor;
-        gotoLabel(b.label);
-        // Si gotoLabel no encontró el label, el cursor no se movió.
-        // Avanzamos manualmente para no quedar atascados en bucle.
-        if (get(story).cursor === before) {
-          console.warn(`[game] label '${b.label}' no encontrado en escena ${get(story).currentSceneId}; avanzando`);
+        // Comprobación explícita de existencia — nada de heurísticas de
+        // "¿se movió el cursor?", que daban falsos positivos y dobles avances.
+        const s = get(story);
+        const scene = getSceneById(s.currentSceneId);
+        const exists = !!scene?.beats.some(
+          (bb) => (bb.type === 'label' && bb.id === b.label) || bb.id === b.label,
+        );
+        if (exists) {
+          gotoLabel(b.label);
+        } else {
+          console.warn(`[game] label '${b.label}' no encontrado en escena ${s.currentSceneId}; avanzando`);
           advance();
         }
-        break;
+        return true;
       }
       case 'goto-scene': {
         const sceneExists = !!getSceneById(b.scene);
@@ -366,20 +378,20 @@
           gotoScene(b.scene);
           view = { mode: 'chapter-intro', sceneId: b.scene };
         }
-        break;
+        return false; // cambio de view: processBeats sale por su guard
       }
       case 'label':
         advance();
-        break;
+        return true;
       case 'pause':
         scheduleAdvance(b.ms);
-        break;
+        return false; // reanuda el timer; no hay progreso síncrono
       case 'ending':
         view = { mode: 'ending', title: b.title, body: b.body };
-        break;
+        return false;
       default:
         // narration / speak / choice / puzzle requieren input del jugador
-        break;
+        return false;
     }
   }
 
@@ -396,12 +408,16 @@
 
   function onChoicePick(detail: Choice) {
     bumpInteraction();
+    // Comparte el cooldown: sin esto, el segundo click de un doble click
+    // sobre una opción caía en la narración recién renderizada y la saltaba.
+    lastUiAdvanceAt = Date.now();
     applyChoice(detail);
   }
   function onPuzzleResult(success: boolean) {
     bumpInteraction();
-    if (!success || !$currentBeat || $currentBeat.type !== 'puzzle') return;
-    const beat = $currentBeat;
+    const beat = freshBeat();
+    if (!success || !beat || beat.type !== 'puzzle') return;
+    lastUiAdvanceAt = Date.now();
     if (beat.onSuccess) {
       gotoLabel(beat.onSuccess);
     } else {

@@ -14,6 +14,10 @@
   let revealed = '';
   let typing = true;
   let interval: ReturnType<typeof setInterval> | null = null;
+  // Momento en que el texto quedó completo: un click que llegue justo
+  // después de revelar (segundo click de un doble) no debe continuar ya
+  // — se tragaba la línea sin que diera tiempo a leerla.
+  let revealedAt = 0;
 
   $: startTyping(eu);
 
@@ -28,6 +32,7 @@
       if (i >= text.length) {
         if (interval) clearInterval(interval);
         typing = false;
+        revealedAt = Date.now();
       }
     }, 18);
   }
@@ -37,7 +42,9 @@
       if (interval) clearInterval(interval);
       revealed = eu;
       typing = false;
+      revealedAt = Date.now();
     } else {
+      if (Date.now() - revealedAt < 250) return;
       dispatch('continue');
     }
   }
