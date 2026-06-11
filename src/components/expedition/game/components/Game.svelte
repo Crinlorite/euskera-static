@@ -584,6 +584,22 @@
     aspect-ratio: auto;
     block-size: 100vh;
   }
+  /* Pseudo-fullscreen (iPhone: sin Fullscreen API): overlay fijo al viewport
+     visual. dvh sigue el chrome dinámico de Safari; vh queda de fallback.
+     :global porque la clase la añade el engine via classList en runtime y el
+     compilador de Svelte poda los selectores que no aparecen en el template. */
+  .game:global(.pseudo-fullscreen) {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    border: 0;
+    border-radius: 0;
+    aspect-ratio: auto;
+    block-size: 100vh;
+    block-size: 100dvh;
+    inline-size: 100vw;
+    inline-size: 100dvw;
+  }
   .stage {
     position: absolute;
     inset: 0;
