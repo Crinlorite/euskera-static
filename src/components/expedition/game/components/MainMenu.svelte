@@ -44,6 +44,7 @@
   <p class="footer-tip">
     Recomendado a pantalla completa. Puedes activarla con la tecla <kbd>F</kbd>.
   </p>
+  <p class="build-tag">Build {typeof __BUILD_ID__ !== 'undefined' ? __BUILD_ID__ : 'dev'}</p>
 </div>
 
 <style>
@@ -128,6 +129,13 @@
     margin: 0;
     color: #6a5a3a;
     font-size: 0.82rem;
+  }
+  .build-tag {
+    margin: var(--s-2) 0 0;
+    color: #4a3a22;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    font-family: ui-monospace, monospace;
   }
   kbd {
     background: #2a1f12;
