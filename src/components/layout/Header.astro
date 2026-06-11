@@ -50,6 +50,10 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
     background: rgba(255, 255, 255, 0.96);
     border-block-end: 1px solid var(--c-border);
     z-index: 50;
+    /* PWA en iPhone con status-bar translúcida: empuja el header bajo el
+       notch. env() vale 0 en navegadores sin notch, así que no afecta a nadie más. */
+    padding-block-start: env(safe-area-inset-top, 0px);
+    padding-inline: env(safe-area-inset-left, 0px) env(safe-area-inset-right, 0px);
   }
   .row {
     display: flex;
