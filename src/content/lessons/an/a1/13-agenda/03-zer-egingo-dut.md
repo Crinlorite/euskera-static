@@ -17,7 +17,7 @@ exercises:
     explanation: '*Joango naiz* — futuro de *joan* (ir): partícula *-go* + auxiliar *naiz*.'
   - id: ex-fut-mc2
     type: multiple-choice
-    prompt: 'Quál ye o futuro de "ikusi" (veyer)?'
+    prompt: '¿Quál ye o futuro de "ikusi" (veyer)?'
     options: [ikusten, ikusiko, ikusten dut, ikuste]
     answer: 1
     explanation: 'Os verbos remataus en *-i* anyaden *-ko*: *ikusi → ikusiko*.'
@@ -35,7 +35,7 @@ exercises:
     type: flashcards
     cards:
       - { eu: 'joango naiz', es: iré }
-      - { eu: 'etorriko zara?', es: vendrás? }
+      - { eu: 'etorriko zara?', es: ¿vendrás? }
       - { eu: 'ikusiko dut', es: lo veyeré }
       - { eu: 'eskatuko dugu', es: pediremos }
       - { eu: 'jango dut', es: mincharé }
@@ -107,7 +107,7 @@ Lo mesmo con l'auxiliar transitivo (*ukan*) cuan i hai obchecto:
 ## Eixemplos en contexto
 
 - *Bihar mendira **joango naiz**.* — Maitín iré ta o mon.
-- *Datorren astean klasera **etorriko zara**?* — Vendrás ta clase la semana que vien?
+- *Datorren astean klasera **etorriko zara**?* — ¿Vendrás ta clase la semana que vien?
 - *Asteburuan film bat **ikusiko dugu**.* — Ista fin de semana veyeremos una cinta.
 - *Etzi familia **etorriko da**.* — Maitín de l'atro vendrá la familia.
 - *Larunbatean **lan egingo dut**.* — O sabado treballaré.
@@ -121,7 +121,7 @@ Ta negar anyade *ez* debant de l'auxiliar (que pasa a la primera posición):
 
 Y a pregunta:
 
-- ***Etorriko al zara**?* — Vendrás?
-- ***Joango al gara** mendira?* — Iremos ta o mon?
+- ***Etorriko al zara**?* — ¿Vendrás?
+- ***Joango al gara** mendira?* — ¿Iremos ta o mon?
 
-> **Nota cultural:** en euskera o futuro con *-ko/-go* s'emplega tamién ta muitas cosas que en aragonés son simple present: *Zer hartuko duzu?* — "Qué prens / vas a prener?". Ye una d'as "voces" més caracteristicas d'a luenga; contra antis l'asiente la oreija, millor.
+> **Nota cultural:** en euskera o futuro con *-ko/-go* s'emplega tamién ta muitas cosas que en aragonés son simple present: *Zer hartuko duzu?* — "¿Qué prens / vas a prener?". Ye una d'as "voces" més caracteristicas d'a luenga; contra antis l'asiente la oreija, millor.

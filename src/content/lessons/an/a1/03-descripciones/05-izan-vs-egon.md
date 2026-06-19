@@ -79,7 +79,7 @@ Mira cómo cambea a parola triada seguntes charres de cualidat u d'estau:
 | *Urduria naiz.* (Soi nerviosa de carácter) | *Urduri nago.* (Estoi nerviosa hue) |
 | *Lasaia da.* (Ye tranquilo) | *Lasai dago.* (Está tranquilo agora) |
 | *Ona da.* (Ye buena presona) | *Ondo dago.* (Está bien) |
-| *Gaixoa da.* (Ye enfermizo) | *Gaixorik dago.* (Está malo) |
+| *Gaixoa da.* (Ye enfermizo) | *Gaixorik dago.* (Está enfermo) |
 
 > Cuenta: **alaia** y **pozik** se traducen as dos por "alegre/contento", pero no son intercambiables. *Alaia* describe lo carácter; *pozik* l'estau d'animo d'un momento.
 

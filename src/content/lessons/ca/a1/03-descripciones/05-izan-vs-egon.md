@@ -41,11 +41,11 @@ exercises:
     cards:
       - { eu: 'Nolakoa zara?', es: 'Com ets? (qualitat)' }
       - { eu: 'Nola zaude?', es: 'Com estàs? (estat)' }
-      - { eu: alaia naiz, es: sóc alegre (sempre) }
+      - { eu: alaia naiz, es: soc alegre (sempre) }
       - { eu: pozik nago, es: estic contenta (ara) }
       - { eu: lasaia da, es: és tranquil (caràcter) }
       - { eu: lasai dago, es: està tranquil (en aquest moment) }
-      - { eu: urduria naiz, es: sóc nerviosa (caràcter) }
+      - { eu: urduria naiz, es: soc nerviosa (caràcter) }
       - { eu: urduri nago, es: estic nerviosa (ara) }
       - { eu: gaztea da, es: és jove }
       - { eu: nekatuta dago, es: està cansat }
@@ -54,7 +54,7 @@ exercises:
     pairs:
       - { eu: alaia da, es: és alegre (sempre) }
       - { eu: pozik dago, es: està content (ara) }
-      - { eu: urduria naiz, es: sóc nerviosa (caràcter) }
+      - { eu: urduria naiz, es: soc nerviosa (caràcter) }
       - { eu: urduri nago, es: estic nerviosa (ara) }
       - { eu: ona da, es: és bo (qualitat) }
       - { eu: ondo dago, es: està bé (estat) }
@@ -76,7 +76,7 @@ Mira com canvia la paraula triada segons parlis de qualitat o d'estat:
 | Qualitat (izan) | Estat (egon) |
 |---|---|
 | *Alaia da.* (És alegre, així és) | *Pozik dago.* (Està contenta) |
-| *Urduria naiz.* (Sóc nerviosa de caràcter) | *Urduri nago.* (Estic nerviosa avui) |
+| *Urduria naiz.* (Soc nerviosa de caràcter) | *Urduri nago.* (Estic nerviosa avui) |
 | *Lasaia da.* (És tranquil) | *Lasai dago.* (Està tranquil ara) |
 | *Ona da.* (És bona persona) | *Ondo dago.* (Està bé) |
 | *Gaixoa da.* (És malaltís) | *Gaixorik dago.* (Està malalt) |
@@ -91,7 +91,7 @@ Mira com canvia la paraula triada segons parlis de qualitat o d'estat:
 
 ## Casos típics d'A1
 
-- *Ni langilea naiz, baina gaur nekatuta nago.* — Sóc treballadora, però avui estic cansada.
+- *Ni langilea naiz, baina gaur nekatuta nago.* — Soc treballadora, però avui estic cansada.
 - *Egoitz oso jatorra da, baina haserre dago.* — Egoitz és molt simpàtic, però està enfadat.
 - *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — La mare de la Maialen és jove. Està contenta perquè avui és el seu aniversari.
 
@@ -100,4 +100,4 @@ Mira com canvia la paraula triada segons parlis de qualitat o d'estat:
 - **Nolakoa zara?** → descriu el teu caràcter / físic (ús d'*izan*).
 - **Nola zaude?** o **Zer moduz?** → explica com estàs avui (ús d'*egon*).
 
-> **Nota:** en català es diria "sóc nerviós" o "estic nerviós" sense canviar la paraula. En euskera la paraula canvia (*urduria* vs *urduri*). Al principi costa; amb la pràctica diària surt sol. Si dubtes en una conversa real, una sortida segura és fer servir *egon* amb una paraula invariable: *haserre nago*, *triste nago*, *nekatuta nago* — sempre funcionen.
+> **Nota:** en català es diria "soc nerviós" o "estic nerviós" sense canviar la paraula. En euskera la paraula canvia (*urduria* vs *urduri*). Al principi costa; amb la pràctica diària surt sol. Si dubtes en una conversa real, una sortida segura és fer servir *egon* amb una paraula invariable: *haserre nago*, *triste nago*, *nekatuta nago* — sempre funcionen.

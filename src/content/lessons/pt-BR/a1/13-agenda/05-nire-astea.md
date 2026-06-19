@@ -43,7 +43,7 @@ exercises:
       - { eu: 'Datorren astean lan asko izango dut', es: Na semana que vem terei muito trabalho }
       - { eu: 'Ostiralean parranda egingo dugu', es: Na sexta-feira vamos cair na farra }
       - { eu: 'Bilera dut hamarretan', es: Tenho reunião às dez }
-      - { eu: 'Libre zaude?', es: '¿Estás libre?' }
+      - { eu: 'Libre zaude?', es: 'Você está livre?' }
       - { eu: 'Geratuko gara?', es: 'Vamos nos encontrar?' }
   - id: ex-nast-mp
     type: match-pairs

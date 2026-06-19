@@ -116,4 +116,4 @@ Observă cele două forme: **lan egin dut** (cu *dut* fiindcă "a munci" duce ob
 >
 > *— Polita. Ni gaur ez naiz lanera joan, gaixo egon naiz.*
 
-> **Rezumatul partidei:** tot trucul stă în a ști ce auxiliar folosește fiecare verb (vom vedea asta în următoarele două lecții) și în a păstra partizipio-ul fără marca habituală *-tzen/-ten*.
+> **Recapitulare:** tot trucul stă în a ști ce auxiliar folosește fiecare verb (vom vedea asta în următoarele două lecții) și în a păstra partizipio-ul fără marca habituală *-tzen/-ten*.

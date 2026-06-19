@@ -11,7 +11,7 @@ covers: [recent-past-dut, recent-past-naiz, recent-past-time-markers, parts-of-d
 exercises:
   - id: ex-05-gze-mc1
     type: multiple-choice
-    prompt: 'Quála ye la traducción correuta de "Iste maitín me he dispertau tardi"?'
+    prompt: '¿Quála ye la traducción correuta de "Iste maitín me he dispertau tardi"?'
     options:
       - "Gaur goizean berandu esnatu dut"
       - "Gaur goizean berandu esnatu naiz"
@@ -21,7 +21,7 @@ exercises:
     explanation: '"Esnatu" ye intransitivo (leva izan); "yo" → naiz. "Iste maitín" → gaur goizean.'
   - id: ex-05-gze-mc2
     type: multiple-choice
-    prompt: 'En a frase "Mikelek egunkaria irakurri du", per qué "Mikelek" leva -k?'
+    prompt: 'En a frase "Mikelek egunkaria irakurri du", ¿per qué "Mikelek" leva -k?'
     options:
       - "Porque ye un nombre vasco"
       - "Porque ye o subchecto d'un verbo transitivo (NORK)"
@@ -42,7 +42,7 @@ exercises:
   - id: ex-05-gze-fc
     type: flashcards
     cards:
-      - { eu: 'Gaur zer egin duzu?', es: 'Qué has feito hue?' }
+      - { eu: 'Gaur zer egin duzu?', es: '¿Qué has feito hue?' }
       - { eu: Gaur goizean lanera joan naiz, es: Iste maitín he iu ta o treballo }
       - { eu: Etxean gosaldu dut, es: He almorzau en casa }
       - { eu: Eguerdian lagunekin bazkaldu dut, es: A meyodía he chentau con amigos }
@@ -92,8 +92,8 @@ Traducción aproximada:
 
 Sigue a mesma plantilla pero con a tuya información reyal. Repasa istas dos cosas mientres escribes:
 
-1. **O verbo ye transitivo u intransitivo?** Si tien obchecto → *dut/duzu/du…* (con subchecto -k). Si no → *naiz/zara/da…*
-2. **L'acción ye habitual u pasada recient?** Habitual = *-tzen/-ten + auxiliar*. Pasau recient = partizipio sin sufixo + auxiliar.
+1. **¿O verbo ye transitivo u intransitivo?** Si tien obchecto → *dut/duzu/du…* (con subchecto -k). Si no → *naiz/zara/da…*
+2. **¿L'acción ye habitual u pasada recient?** Habitual = *-tzen/-ten + auxiliar*. Pasau recient = partizipio sin sufixo + auxiliar.
 
 ## Errors tipicas a privar
 

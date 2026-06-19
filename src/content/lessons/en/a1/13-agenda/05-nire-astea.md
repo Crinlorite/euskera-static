@@ -34,7 +34,7 @@ exercises:
   - id: ex-nast-fc
     type: flashcards
     cards:
-      - { eu: agenda, es: agenda }
+      - { eu: agenda, es: diary / planner }
       - { eu: 'Asteko agenda', es: Schedule for the week }
       - { eu: 'Zer egingo duzu astelehenean?', es: What will you do on Monday? }
       - { eu: 'Kiroldegira joango naiz', es: I will go to the gym }
@@ -128,7 +128,7 @@ Read this made-up schedule and notice the time markers:
 ## Visual review
 
 ```
-Pasado    →  Presente  →  Futuro
+Past      →  Present   →  Future
 atzo         gaur          bihar — etzi — datorren astean
 joan zen     doa            joango da
 ikusi dut    ikusten dut    ikusiko dut

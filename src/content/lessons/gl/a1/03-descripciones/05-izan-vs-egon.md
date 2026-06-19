@@ -92,7 +92,7 @@ Mira como cambia a palabra elixida segundo fales de calidade ou de estado:
 ## Casos típicos de A1
 
 - *Ni langilea naiz, baina gaur nekatuta nago.* — Son traballadora, pero hoxe estou cansa.
-- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz é moi majo, pero está anoxado.
+- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz é moi simpático, pero está anoxado.
 - *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — A nai de Maialen é nova. Está contenta porque hoxe é o seu aniversario.
 
 ## Pregunta correctamente

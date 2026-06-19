@@ -20,13 +20,13 @@ exercises:
       - { eu: kutxazain automatikoa, es: caixero automatico }
   - id: ex-dendak-mc1
     type: multiple-choice
-    prompt: 'On crompas pan?'
+    prompt: '¿On crompas pan?'
     options: [Harategian, Okindegian, Arrandegian, Fruta-dendan]
     answer: 1
     explanation: '"Okindegia" viene de *ogi* (pan); o sufixo *-degi* significa "puesto an i hai…".'
   - id: ex-dendak-mc2
     type: multiple-choice
-    prompt: 'Quiers crompar legatza (merluza). A qué botiga vas?'
+    prompt: 'Quiers crompar legatza (merluza). ¿A qué botiga vas?'
     options: [Harategira, Okindegira, Arrandegira, Fruta-dendara]
     answer: 2
     explanation: '*Arrandegia* viene de *arrain* (peix). O sufixo *-ra* endica o destín: "voi ta la pescateria".'

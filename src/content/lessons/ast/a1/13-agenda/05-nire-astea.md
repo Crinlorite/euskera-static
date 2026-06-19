@@ -38,7 +38,7 @@ exercises:
       - { eu: 'Asteko agenda', es: Axenda de la selmana }
       - { eu: 'Zer egingo duzu astelehenean?', es: ¿Qué vas facer el llunes? }
       - { eu: 'Kiroldegira joango naiz', es: Diré al ximnasiu }
-      - { eu: 'Lagunekin afaltzera joango gara', es: Diremos cenar colos amigos }
+      - { eu: 'Lagunekin afaltzera joango gara', es: Diremos a cenar colos amigos }
       - { eu: 'Asteburu honetan mendira joango gara', es: Esti fin de selmana diremos al monte }
       - { eu: 'Datorren astean lan asko izango dut', es: La selmana que vien tendré muncho trabayu }
       - { eu: 'Ostiralean parranda egingo dugu', es: El vienres saldremos de folixa }
@@ -66,7 +66,7 @@ Una rempuesta natural usaría'l día + futuru:
 
 > *Astelehenean kiroldegira joango naiz. Asteartean euskara klasea dut. Asteazkenean bilera bat izango dut. Ostegunean lasai egongo naiz. Ostiralean lagunekin afaltzera joango gara. Asteburuan mendira joango gara.*
 >
-> El llunes diré al ximnasiu. El martes tengo clase d'euskera. El miércoles tendré una reunión. El xueves taré tranquilu. El vienres diremos cenar colos amigos. El fin de selmana diremos al monte.
+> El llunes diré al ximnasiu. El martes tengo clase d'euskera. El miércoles tendré una reunión. El xueves taré tranquilu. El vienres diremos a cenar colos amigos. El fin de selmana diremos al monte.
 
 ## Plantía básica
 

@@ -78,7 +78,7 @@ El comiat més universal és **Agur**, equivalent a "adéu". També són freqüe
 
 - **Gero arte** — fins després
 - **Bihar arte** — fins demà
-- **Hurrengora arte** — fins la pròxima
+- **Hurrengora arte** — fins a la pròxima
 - **Ondo ibili** / **Ondo segi** — que vagi bé (literal: "vés bé")
 
 ## "Gràcies" i "de res"
