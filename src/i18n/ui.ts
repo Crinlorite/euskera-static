@@ -206,7 +206,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.known": "Sabíao",
     "exercise.flash.round": "Rolda rematada: sabías {0} de {1}.",
     "sources.statement": "O currículo segue os estándares CEFR oficiais para os niveis A1-C2 do éuscaro. As explicacións, exemplos e exercicios son material orixinal. O vocabulario e as regras gramaticais son feitos lingüísticos de dominio público.",
-  }, 'eu': {}, 'oc': {
+  }, 'oc': {
     "site.name": "Basc",
     "site.tagline": "Apren basc, de gratís e entà toti.",
     "nav.home": "Inici",
