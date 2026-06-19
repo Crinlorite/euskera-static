@@ -35,7 +35,7 @@ exercises:
       - { eu: Egun on, es: 좋은 아침입니다 }
       - { eu: Eguerdi on, es: 좋은 정오입니다 }
       - { eu: Arratsalde on, es: 좋은 오후입니다 }
-      - { eu: Gabon, es: 안녕히 주무세요 }
+      - { eu: Gabon, es: 좋은 밤 / 안녕히 주무세요 }
       - { eu: Aspaldiko, es: '오랜만이에요!' }
       - { eu: Agur, es: 안녕히 가세요 }
       - { eu: Gero arte, es: 나중에 봐요 }
@@ -49,7 +49,7 @@ exercises:
       - { eu: Kaixo, es: 안녕하세요 }
       - { eu: Agur, es: 안녕히 가세요 }
       - { eu: Egun on, es: 좋은 아침입니다 }
-      - { eu: Gabon, es: 안녕히 주무세요 }
+      - { eu: Gabon, es: 좋은 밤 / 안녕히 주무세요 }
       - { eu: Gero arte, es: 나중에 봐요 }
       - { eu: Eskerrik asko, es: 정말 감사합니다 }
 ---
@@ -63,7 +63,7 @@ exercises:
 | 아침부터 정오까지 | *Egun on* | 좋은 아침입니다 |
 | 정오 / 점심시간 | *Eguerdi on* | 좋은 정오입니다 |
 | 오후, 점심 식사 후 | *Arratsalde on* | 좋은 오후입니다 |
-| 밤 및 밤의 작별 인사 | *Gabon* | 안녕히 주무세요 |
+| 밤 및 밤의 작별 인사 | *Gabon* | 좋은 밤 / 안녕히 주무세요 |
 | 아무 때나 | *Kaixo* / *Hepa* / *Aupa* | 안녕하세요 |
 
 `On`은 "좋은"이라는 뜻으로, 많은 인사말에 등장합니다. *egun on*은 문자 그대로 "좋은 날"입니다.

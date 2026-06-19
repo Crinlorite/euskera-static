@@ -14,7 +14,7 @@ exercises:
     prompt: '"Zer egin duzu gaur?" significa…'
     options: ["¿Qué faes tolos díes?", "¿Qué fixisti güei?", "¿Qué vas facer mañana?", "¿Qué hora ye?"]
     answer: 1
-    explanation: '"Egin" ye'' l partizipio de "facer"; "duzu" ye la forma de ukan pa "tu". Xuntos = "fixisti".'
+    explanation: '"Egin" ye''l partizipio de "facer"; "duzu" ye la forma de ukan pa "tu". Xuntos = "fixisti".'
   - id: ex-01-zedi-mc2
     type: multiple-choice
     prompt: 'Compara: "egunero gosaltzen dut" vs "gaur gosaldu dut". ¿Cuála ye la diferencia?'

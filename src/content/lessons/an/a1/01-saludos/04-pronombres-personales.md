@@ -25,13 +25,13 @@ exercises:
     explanation: 'Ta "nusatros" la forma de "izan" ye "gara".'
   - id: ex-04-pp-mc1
     type: multiple-choice
-    prompt: Quál ye la forma de "estar/ser" ta "vusatros"?
+    prompt: ¿Quál ye la forma de "estar/ser" ta "vusatros"?
     options: [naiz, zara, gara, zarete, dira]
     answer: 3
     explanation: 'Vusatros = zuek; la forma d''o verbo ye "zarete".'
   - id: ex-04-pp-mc2
     type: multiple-choice
-    prompt: 'Cómo dices "Yo no soi estudiant"?'
+    prompt: '¿Cómo dices "Yo no soi estudiant"?'
     options: [Ni ikaslea naiz, Ni ez naiz ikaslea, Ez ni ikaslea naiz, Ni ikaslea ez naiz]
     answer: 1
     explanation: 'En euskera la negación va: SUCHETO + ez + VERBO + atributo.'

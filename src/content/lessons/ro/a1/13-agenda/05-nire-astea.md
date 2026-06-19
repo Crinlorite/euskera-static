@@ -43,8 +43,8 @@ exercises:
       - { eu: 'Datorren astean lan asko izango dut', es: Săptămâna viitoare voi avea mult de muncă }
       - { eu: 'Ostiralean parranda egingo dugu', es: Vineri vom ieși la petrecere }
       - { eu: 'Bilera dut hamarretan', es: Am o ședință la ora zece }
-      - { eu: 'Libre zaude?', es: '¿Ești liber?' }
-      - { eu: 'Geratuko gara?', es: '¿Ne întâlnim?' }
+      - { eu: 'Libre zaude?', es: 'Ești liber?' }
+      - { eu: 'Geratuko gara?', es: 'Ne întâlnim?' }
   - id: ex-nast-mp
     type: match-pairs
     pairs:

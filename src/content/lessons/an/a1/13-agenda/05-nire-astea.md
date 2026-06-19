@@ -36,15 +36,15 @@ exercises:
     cards:
       - { eu: agenda, es: achenda }
       - { eu: 'Asteko agenda', es: Achenda d'a semana }
-      - { eu: 'Zer egingo duzu astelehenean?', es: Qué ferás o luns? }
+      - { eu: 'Zer egingo duzu astelehenean?', es: ¿Qué ferás o luns? }
       - { eu: 'Kiroldegira joango naiz', es: Iré ta o chimnasio }
       - { eu: 'Lagunekin afaltzera joango gara', es: Iremos a cenar con os amigos }
       - { eu: 'Asteburu honetan mendira joango gara', es: Iste cabo de semana iremos ta o mon }
       - { eu: 'Datorren astean lan asko izango dut', es: A semana que viene tendré muito treballo }
       - { eu: 'Ostiralean parranda egingo dugu', es: O viernes saldremos de marcha }
       - { eu: 'Bilera dut hamarretan', es: Tiengo reunión a las diez }
-      - { eu: 'Libre zaude?', es: 'Yes libre?' }
-      - { eu: 'Geratuko gara?', es: 'Quedamos?' }
+      - { eu: 'Libre zaude?', es: '¿Yes libre?' }
+      - { eu: 'Geratuko gara?', es: '¿Quedamos?' }
   - id: ex-nast-mp
     type: match-pairs
     pairs:
@@ -60,7 +60,7 @@ Lección final d'a unidat: imos a montar **una semana entera** chuntando tot lo 
 
 ## Pregunta ubierta
 
-> *Zer egingo duzu aste honetan?* — Qué vas a fer ista semana?
+> *Zer egingo duzu aste honetan?* — ¿Qué vas a fer ista semana?
 
 Una respuesta natural usaría o día + futuro:
 
@@ -89,7 +89,7 @@ Una respuesta natural usaría o día + futuro:
 | joan | joango naiz/da | iré, irá |
 | etorri | etorriko naiz/da | vendré, vendrá |
 | egon | egongo naiz | estaré |
-| izan | izango da | será / i abrá |
+| izan | izango da | será / bi habrá |
 | ikusi | ikusiko dut | (lo) veré |
 | egin | egingo dut | (lo) feré |
 | jan | jango dut | (lo) mincharé |
@@ -120,8 +120,8 @@ Leye ista achenda inventada y fixa-te en os marcadors temporals:
 
 ## Frases clau ta coordinar a semana
 
-- **Libre zaude X-(e)an?** — Yes libre o X?
-- **Hamarretan ondo?** — A las diez bien?
+- **Libre zaude X-(e)an?** — ¿Yes libre o X?
+- **Hamarretan ondo?** — ¿A las diez bien?
 - **Beste egun batean izan beharko du.** — Habrá d'estar atro día.
 - **Konforme, X-(e)an geratuko gara.** — D'alcuerdo, quedamos o X.
 
