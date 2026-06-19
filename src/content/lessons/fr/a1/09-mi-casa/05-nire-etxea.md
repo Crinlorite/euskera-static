@@ -119,5 +119,3 @@ Construis ton propre paragraphe en répondant dans cet ordre :
 | *aldiriak* | périphérie / banlieue |
 
 > **Conseil :** quand tu parles de ta maison en classe, n'essaie pas de traduire chaque détail. Tiens-t'en à des phrases courtes et bien construites. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* est une meilleure description qu'une longue phrase pleine de fautes.
-</content>
-</invoke>

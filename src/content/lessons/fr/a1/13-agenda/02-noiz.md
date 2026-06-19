@@ -121,5 +121,3 @@ Pour « cette semaine », « ce week-end » :
 - *Asteburu honetan ez dut planik.* — Ce week-end je n'ai pas de projet.
 
 > **Note culturelle :** en euskera « matin » comme moment de la journée est *goiza* et « demain » comme jour suivant est *bihar*. L'expression *bihar goizean* (« demain matin ») réunit les deux. Lors des premières conversations, il est très fréquent de se tromper sur cette nuance, il convient donc de la fixer dès le départ.
-</content>
-</invoke>

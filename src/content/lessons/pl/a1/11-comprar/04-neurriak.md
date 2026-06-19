@@ -102,5 +102,3 @@ Typowe przykłady w warzywniaku:
 - *Bi botila ur, mesedez.* — Dwie butelki wody, proszę.
 
 > **Notatka kulturowa:** na targach (azoka) i tradycyjnych placach wciąż wszystko waży się "na oko": prosisz o *kilo bat sagar*, a sprzedawca dokłada, aż osiągnie dokładną wagę. Często słychać *pixka bat gehiago, mesedez*, gdy wskazówka wagi się podnosi.
-</content>
-</invoke>

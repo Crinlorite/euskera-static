@@ -105,5 +105,3 @@ Para dizer "estou com fome" / "estou com sede" em euskera **não se usa o verbo 
 - *Gose naiz, zer dago jateko?* — Estou com fome, o que tem para comer?
 
 > **Nota cultural:** os horários das refeições em Euskal Herria costumam ser parecidos com os do resto da península: café da manhã cedo, *hamaiketako* por volta das onze, *bazkaria* lá pelas 14h-15h, lanche por volta das 18h, jantar às 21h ou mais tarde.
-</content>
-</invoke>

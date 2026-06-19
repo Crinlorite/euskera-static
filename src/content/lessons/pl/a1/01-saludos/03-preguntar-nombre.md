@@ -51,5 +51,3 @@ Masz dwie możliwości, równie poprawne:
 2. **Egoitz naiz.** — "Jestem Egoitz." (wzorzec z poprzedniej lekcji)
 
 > Podstawowe zaimki dzierżawcze to *nire* (mój), *zure* (twój), *bere* (jego/jej). Zobaczysz je jeszcze wiele razy w dalszej części — zacznij się z nimi oswajać już teraz.
-</content>
-</invoke>

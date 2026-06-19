@@ -92,5 +92,3 @@ D'on surt aquest **-ak** final? És el plural euskèric (ja el vas veure a *gura
 ## Practica
 
 Mira el rellotge del teu mòbil ara mateix i digues-ho en veu alta. Si són les onze: *hamaikak dira*. Si és la una: *ordu bata da*. Fes-ho durant tota la setmana cada vegada que miris el rellotge — és la millor manera d'automatitzar-ho.
-</content>
-</invoke>

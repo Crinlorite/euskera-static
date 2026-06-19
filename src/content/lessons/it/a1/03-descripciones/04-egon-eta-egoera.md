@@ -126,5 +126,3 @@ Oltre agli stati, **egon** si usa per dire **dove** sta qualcuno o qualcosa:
 - *Liburuak mahaian daude.* — I libri sono sul tavolo.
 
 > Questo si sovrappone a *izan* in modo curioso: *Ni ikaslea naiz* ("sono studente" = professione, qualità), ma *Ni ikastetxean nago* ("sono a scuola" = posizione). Nella prossima lezione lo vediamo a confronto.
-</content>
-</invoke>

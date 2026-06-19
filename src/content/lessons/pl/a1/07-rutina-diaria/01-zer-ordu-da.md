@@ -92,5 +92,3 @@ Skąd bierze się ta końcówka **-ak**? To baskijska liczba mnoga (widziałeś 
 ## Ćwicz
 
 Spójrz teraz na zegar w telefonie i powiedz to na głos. Jeśli jest jedenasta: *hamaikak dira*. Jeśli jest pierwsza: *ordu bata da*. Rób to przez cały tydzień za każdym razem, gdy spoglądasz na zegar — to najlepszy sposób, żeby to zautomatyzować.
-</content>
-</invoke>

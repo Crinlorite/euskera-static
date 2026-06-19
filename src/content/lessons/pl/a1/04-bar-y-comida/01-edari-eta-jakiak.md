@@ -129,5 +129,3 @@ Gdy zamawiasz "jedno", `-a` znika i pojawia się **bat** ("jeden/jedna"):
 - *Garagardo **bat**.* — Jedno piwo.
 
 > W lekcji 3 zobaczysz to szczegółowo. Na razie zapamiętaj formy z `-a`, żeby rozpoznawać je w barowym menu.
-</content>
-</invoke>

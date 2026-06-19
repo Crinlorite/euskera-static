@@ -116,5 +116,3 @@ Une manière très naturelle de présenter quelqu'un est d'énoncer 3-4 traits �
 > *Nire ama oso jatorra eta atsegina da. Lasaia da, baina nire aita urduria da. Anaia bihurri samarra da, baina ni zintzoa naiz!*
 >
 > Ma mère est très gentille et aimable. Elle est tranquille, mais mon père est nerveux. Mon frère est assez espiègle, mais moi je suis sérieux !
-</content>
-</invoke>

@@ -125,5 +125,3 @@ And the question:
 - ***Joango al gara** mendira?* — Will we go to the mountains?
 
 > **Cultural note:** in Basque the future with *-ko/-go* is also used for many things that in English are just the present: *Zer hartuko duzu?* — "What are you having / going to have?". It is one of the most characteristic "voices" of the language; the sooner your ear settles into it, the better.
-</content>
-</invoke>

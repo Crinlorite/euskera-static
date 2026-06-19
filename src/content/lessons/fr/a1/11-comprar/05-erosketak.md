@@ -133,5 +133,3 @@ Une conversation typique au moment de planifier :
 4. **Négation avec un produit :** *Ez dago ...rik* (avec le partitif).
 
 > **Note culturelle :** beaucoup de familles font les courses « du jour » dans les commerces de quartier (fruta-denda, harategia) et ne vont au supermarché que pour les produits emballés. C'est un mélange de circuits très courant, particulièrement visible le samedi matin dans n'importe quel village.
-</content>
-</invoke>

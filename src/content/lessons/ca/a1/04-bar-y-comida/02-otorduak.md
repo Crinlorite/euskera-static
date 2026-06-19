@@ -105,5 +105,3 @@ Per dir "tinc gana" / "tinc set" en euskera **no s'utilitza el verb "tenir"** (c
 - *Gose naiz, zer dago jateko?* — Tinc gana, què hi ha per menjar?
 
 > **Nota cultural:** els horaris dels àpats a Euskal Herria solen ser semblants als de la resta de la península: esmorzar d'hora, *hamaiketako* cap a les onze, *bazkaria* cap a les 14h-15h, berenar cap a les 18h, sopar a les 21h o més tard.
-</content>
-</invoke>

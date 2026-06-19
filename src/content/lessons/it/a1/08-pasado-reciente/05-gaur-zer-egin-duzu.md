@@ -117,5 +117,3 @@ Questo è fondamentale: i due sistemi convivono e spesso si mescolano in una ste
 Saper alternare è la base del livello A1: se padroneggi le due forme e i due ausiliari, hai già la colonna vertebrale dell'euskera orale quotidiano.
 
 > **Per concludere:** il modo migliore per fissare tutto questo è *raccontare la tua giornata ad alta voce ogni sera prima di andare a letto*, per una settimana. Se ti manca una parola, cercala — ma l'esercizio mentale di tradurre tutto in euskera è ciò che automatizza il sistema NOR/NOR-NORK. Aurrera!
-</content>
-</invoke>

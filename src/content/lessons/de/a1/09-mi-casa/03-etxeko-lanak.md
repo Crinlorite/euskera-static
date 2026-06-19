@@ -121,5 +121,3 @@ Um zu sagen, wie oft du eine Aufgabe erledigst:
 - **Zuri gustatzen zaizu sukaldatzea?** — Kochst du gern?
 
 > **Kultureller Hinweis:** Umfragen über die Verteilung der Hausarbeit sind ein Klassiker in den Lehrbüchern der Euskaltegi — und das aus gutem Grund. Es ist sehr nützlicher Wortschatz für echte Gespräche mit Freunden und Familie.
-</content>
-</invoke>

@@ -118,5 +118,3 @@ Dalla mezza in poi, parliamo in funzione dell'ora successiva con la parola **gut
 > *— **Zortziak laurden gutxi dira.*** (Sono le otto meno un quarto.)
 
 > **Nota culturale:** in molti paesi baschi le campane della chiesa segnano ancora le ore e i quarti. Se ti fermi ad ascoltarle, il tuo orecchio si abitua allo schema prima che la tua bocca lo automatizzi.
-</content>
-</invoke>

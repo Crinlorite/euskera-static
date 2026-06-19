@@ -92,5 +92,3 @@ Woher kommt dieses **-ak** am Ende? Es ist der baskische Plural (du hast ihn bei
 ## Übe
 
 Schau jetzt sofort auf die Uhr deines Handys und sage es laut. Wenn es elf Uhr ist: *hamaikak dira*. Wenn es ein Uhr ist: *ordu bata da*. Mach das die ganze Woche über jedes Mal, wenn du auf die Uhr schaust — das ist die beste Art, es zu automatisieren.
-</content>
-</invoke>

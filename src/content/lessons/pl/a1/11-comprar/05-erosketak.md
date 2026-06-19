@@ -133,5 +133,3 @@ Typowa rozmowa podczas planowania:
 4. **Przeczenie z produktem:** *Ez dago ...rik* (z partytywem).
 
 > **Notatka kulturowa:** wiele rodzin robi zakupy "na dziś" w osiedlowych sklepach (fruta-denda, harategia), a do supermarketu chodzi tylko po produkty paczkowane. To bardzo powszechne łączenie kanałów, które szczególnie widać w sobotnie poranki w każdym miasteczku.
-</content>
-</invoke>
