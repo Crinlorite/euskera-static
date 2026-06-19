@@ -43,7 +43,7 @@ exercises:
       - { eu: 'Zer egin duzue gaur?', es: 'Qué auetz hèt aué?' }
       - { eu: gaur, es: aué }
       - { eu: gaur goizean, es: aué peth maitin }
-      - { eu: gaur arratsaldean, es: aué peth dempús de miègdia }
+      - { eu: gaur arratsaldean, es: aué ara vrespada }
       - { eu: partizipioa, es: 'partizipio (forma deth vèrb: jan, edan, joan, ikusi)' }
       - { eu: jan dut, es: è minjat }
       - { eu: joan naiz, es: è anat }

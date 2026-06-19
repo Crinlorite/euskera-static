@@ -66,7 +66,7 @@ Quan vas a hèr era crompa en Euskal Herria, cada produsit acostume a auer era s
 | *fruta-denda* | fruteria | frutak, barazkiak |
 | *supermerkatua* | supermercat | de tot |
 | *hipermerkatua* | ipermercat | granes superfícies |
-| *azoka* / *plaza* | mercat / plaça | diuèrsi llòcs |
+| *azoka* / *plaza* | mercat / plaça | diuèrsi taulèrs |
 
 ## Era pista amagada: *-degi*
 

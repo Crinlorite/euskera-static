@@ -58,7 +58,7 @@ Wenn du in Euskal Herria einkaufen gehst, hat jedes Produkt meist sein eigenes F
 
 ## Lebensmittelgeschäfte
 
-| Euskera | Deutsch | Was verkauft wird |
+| Baskisch | Deutsch | Was verkauft wird |
 |---|---|---|
 | *harategia* | Metzgerei | haragia (Fleisch) |
 | *okindegia* | Bäckerei | ogia (Brot) |
@@ -81,7 +81,7 @@ Viele Geschäftsnamen enden auf **-degi**, einem alten Suffix, das "Ort, wo es �
 
 ## Andere nützliche Orte
 
-| Euskera | Deutsch |
+| Baskisch | Deutsch |
 |---|---|
 | *kutxazain automatikoa* | Geldautomat |
 | *banketxea* | Bank |

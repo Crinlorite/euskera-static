@@ -100,4 +100,4 @@ exercises:
 - **Nolakoa zara?** → あなたの性格や外見を描写する（*izan* を使う）。
 - **Nola zaude?** または **Zer moduz?** → 今日の調子を伝える（*egon* を使う）。
 
-> **メモ：** スペイン語では "soy nervioso"（性格）も "estar nervioso"（状態）も語を変えずに言えます。バスク語では語が変わります（*urduria* vs *urduri*）。最初は難しいですが、毎日練習すれば自然に出てくるようになります。実際の会話で迷ったら、安全な逃げ道は *egon* を不変の語と一緒に使うことです。*haserre nago*、*triste nago*、*nekatuta nago* — これらは常に通用します。
+> **メモ：** スペイン語では "soy nervioso"（性格）も "estoy nervioso"（状態）も語を変えずに言えます。バスク語では語が変わります（*urduria* vs *urduri*）。最初は難しいですが、毎日練習すれば自然に出てくるようになります。実際の会話で迷ったら、安全な逃げ道は *egon* を不変の語と一緒に使うことです。*haserre nago*、*triste nago*、*nekatuta nago* — これらは常に通用します。

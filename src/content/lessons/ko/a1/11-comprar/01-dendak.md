@@ -26,7 +26,7 @@ exercises:
     explanation: '"Okindegia"는 *ogi*(빵)에서 왔으며, 접미사 *-degi*는 "…이 있는 곳"을 뜻합니다.'
   - id: ex-dendak-mc2
     type: multiple-choice
-    prompt: 'legatza(대구)를 사고 싶습니다. 어느 가게로 가나요?'
+    prompt: 'legatza(메를루사)를 사고 싶습니다. 어느 가게로 가나요?'
     options: [Harategira, Okindegira, Arrandegira, Fruta-dendara]
     answer: 2
     explanation: '*Arrandegia*는 *arrain*(생선)에서 왔습니다. 접미사 *-ra*는 목적지를 나타냅니다: "생선 가게로 간다".'

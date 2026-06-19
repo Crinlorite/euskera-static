@@ -53,7 +53,7 @@ exercises:
       - { eu: esnatu naiz, es: 目が覚めました }
 ---
 
-エウスカラ（バスク語）では、最近したこと — とくに今日のこと — を語るには **orainaldi burutua**（文字どおり「現在完了」）を使います。これは日本語の「食べました／行きました」に当たります。これがいわゆる **近い過去** です。
+エウスケラ（バスク語）では、最近したこと — とくに今日のこと — を語るには **orainaldi burutua**（文字どおり「現在完了」）を使います。これは日本語の「食べました／行きました」に当たります。これがいわゆる **近い過去** です。
 
 ## 公式はとても簡単
 
@@ -69,7 +69,7 @@ exercises:
 | *etortzen naiz* | **etorri naiz** | 来る → 来た |
 | *ikusten dut* | **ikusi dut** | 見る → 見た |
 
-> **これは日本語の** 習慣的な現在と完了相の違いと同じです：
+> **これはスペイン語の** 習慣的な現在と複合過去（現在完了）の違いと同じです：
 >
 > - *Egunero euskaltegira **joaten naiz**.* — 毎日 euskaltegi に行きます。
 > - *Gaur goizean euskaltegira **joan naiz**.* — 今朝 euskaltegi に行きました。
@@ -80,7 +80,7 @@ exercises:
 >
 > *— Lan egin dut, eta gero zinera joan naiz.* — 働いて、そのあと映画館に行きました。
 
-2つの形に注目してください：**lan egin dut**（エウスカラでは「働く」が目的語をとるので *dut*）と **joan naiz**（「行く」は目的語をとらないので *naiz*）です。
+2つの形に注目してください：**lan egin dut**（エウスケラでは「働く」が目的語をとるので *dut*）と **joan naiz**（「行く」は目的語をとらないので *naiz*）です。
 
 ## 2つの助動詞 — さっとおさらい
 

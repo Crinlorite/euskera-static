@@ -11,7 +11,7 @@ covers: [shopping-dialogue, shops, prices, quantities-units, partitive-rik]
 exercises:
   - id: ex-eros-mc1
     type: multiple-choice
-    prompt: 'Yes en a fruteria. Cómo demandas meyo quilo de mazanas?'
+    prompt: 'Yes en a fruteria. ¿Cómo demandas meyo quilo de mazanas?'
     options: ['Sagar erdi kilo bat, mesedez', 'Kilo erdi sagar, mesedez', 'Erdia bat kilo sagar', 'Sagarra erdi mesedez']
     answer: 1
     explanation: 'Patrón cantidat + producto sin articlo: **kilo erdi sagar** (meyo quilo de mazanas).'
@@ -23,21 +23,21 @@ exercises:
     explanation: 'Con a negación + obchecto indefinido s''emplega o partitivo *-rik*: **ogi-rik**.'
   - id: ex-eros-fb1
     type: fill-in-blank
-    prompt: '"Cuánto ye tot?" = Zenbat da ___?'
+    prompt: '"¿Cuánto ye tot?" = Zenbat da ___?'
     answers: [dena]
     explanation: '*Dena* significa "tot".'
   - id: ex-eros-fb2
     type: fill-in-blank
-    prompt: 'Ta preguntar si tienen un producto: "Tienen leit?" = Esne___ ba(d)aukazue?'
+    prompt: 'Ta preguntar si tienen un producto: "¿Tienen leit?" = Esne___ ba(d)aukazue?'
     answers: [rik]
     explanation: 'Pregunta d''existencia con obchecto indefinido = partitivo **-rik** (esne**rik**).'
   - id: ex-eros-fc
     type: flashcards
     cards:
       - { eu: erosketa-zerrenda, es: lista d'a compra }
-      - { eu: 'Zer behar dugu?', es: 'Qué amenestamos?' }
+      - { eu: 'Zer behar dugu?', es: '¿Qué amenestamos?' }
       - { eu: 'Ez dago ogirik', es: No bi ha pan }
-      - { eu: 'Esnerik ba(d)aukazue?', es: 'Tenez leit?' }
+      - { eu: 'Esnerik ba(d)aukazue?', es: '¿Tenez leit?' }
       - { eu: 'Bai, badago', es: 'Sí, bi ha' }
       - { eu: 'Ez, ez dago', es: 'No, no bi ha' }
       - { eu: 'Erosketak egitera noa', es: Voi a fer a compra }
@@ -54,9 +54,9 @@ exercises:
       - { eu: harategia, es: carniceria }
       - { eu: okindegia, es: panaderia }
       - { eu: arrandegia, es: peixateria }
-      - { eu: 'Zenbat da?', es: Cuánto ye? }
+      - { eu: 'Zenbat da?', es: ¿Cuánto ye? }
       - { eu: 'Hartuko dut', es: M'o levo }
-      - { eu: 'Besterik?', es: Cosa més? }
+      - { eu: 'Besterik?', es: ¿Cosa més? }
 ---
 
 Ista lección integra lo aprendiu en a unidat. Imos a montar una **lista d'a compra**, repartir productos por botiga y simular un mini-diálogo.
@@ -78,8 +78,8 @@ Antis de salir, miramos a niera (*hozkailua*) y l'almario (*armairua*). Lo que f
 
 Ta preguntar si una botiga tiene un producto, emplega o **partitivo `-rik`**:
 
-- *Ogi**rik** baduzu?* — Tiens pan?
-- *Sagar**rik** ba al duzue?* — Tenez mazanas?
+- *Ogi**rik** baduzu?* — ¿Tiens pan?
+- *Sagar**rik** ba al duzue?* — ¿Tenez mazanas?
 - *Esne**rik** behar dugu.* — Amenestamos leit.
 
 Y ta dir que NO bi ha:
@@ -93,15 +93,15 @@ Y ta dir que NO bi ha:
 
 Una charrada típica en planificar:
 
-> — *Non erosiko dugu ogia?* — Án compraremos o pan?
+> — *Non erosiko dugu ogia?* — ¿Án compraremos o pan?
 >
 > — *Okindegian, jakina!* — En a panaderia, prou!
 >
-> — *Eta arraina?* — Y o peix?
+> — *Eta arraina?* — ¿Y o peix?
 >
 > — *Auzoko arrandegian.* — En a peixateria d'o vico.
 >
-> — *Frutak eta barazkiak?* — Y a fruta y a berdura?
+> — *Frutak eta barazkiak?* — ¿Y a fruta y a berdura?
 >
 > — *Plazan, beti bezala.* — En a plaza, como siempre.
 

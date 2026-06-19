@@ -66,7 +66,7 @@ exercises:
 
 > *Astelehenean kiroldegira joango naiz. Asteartean euskara klasea dut. Asteazkenean bilera bat izango dut. Ostegunean lasai egongo naiz. Ostiralean lagunekin afaltzera joango gara. Asteburuan mendira joango gara.*
 >
-> 星期一我要去健身房。星期二我有欧斯克拉语课。星期三我会有个会议。星期四我会很轻松。星期五我们要和朋友们去吃晚饭。周末我们要去山里。
+> 星期一我要去健身房。星期二我有巴斯克语课。星期三我会有个会议。星期四我会很轻松。星期五我们要和朋友们去吃晚饭。周末我们要去山里。
 
 ## 基本模板
 

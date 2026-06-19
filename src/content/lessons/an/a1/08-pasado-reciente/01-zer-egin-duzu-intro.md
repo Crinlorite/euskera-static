@@ -5,19 +5,19 @@ code: 01-zer-egin-duzu-intro
 unit: 08-pasado-reciente
 level: a1
 order: 1
-title: Qué has feito güei? — o pasau recient
+title: ¿Qué has feito güei? — o pasau recient
 estimatedMinutes: 10
 covers: [participle-form, recent-past-dut, recent-past-naiz]
 exercises:
   - id: ex-01-zedi-mc1
     type: multiple-choice
     prompt: '"Zer egin duzu gaur?" significa…'
-    options: ["Qué fas toz os días?", "Qué has feito güei?", "Qué vas a fer maitín?", "Qué hora ye?"]
+    options: ["¿Qué fas toz os días?", "¿Qué has feito güei?", "¿Qué vas a fer maitín?", "¿Qué hora ye?"]
     answer: 1
     explanation: '"Egin" ye o partizipio de "fer"; "duzu" ye a forma de ukan ta "tu". Chunto = "has feito".'
   - id: ex-01-zedi-mc2
     type: multiple-choice
-    prompt: 'Compara: "egunero gosaltzen dut" vs "gaur gosaldu dut". Quála ye a diferencia?'
+    prompt: 'Compara: "egunero gosaltzen dut" vs "gaur gosaldu dut". ¿Quála ye a diferencia?'
     options:
       - "A primera ye present, a segunda ye futuro"
       - "A primera ye habitual (almuerzo cada día), a segunda ye pasau recient (he almorzau güei)"
@@ -38,9 +38,9 @@ exercises:
   - id: ex-01-zedi-fc
     type: flashcards
     cards:
-      - { eu: 'Zer egin duzu gaur?', es: 'Qué has feito güei?' }
-      - { eu: 'Zer egin du Mikelek?', es: 'Qué ha feito Mikel?' }
-      - { eu: 'Zer egin duzue gaur?', es: 'Qué hez feito güei?' }
+      - { eu: 'Zer egin duzu gaur?', es: '¿Qué has feito güei?' }
+      - { eu: 'Zer egin du Mikelek?', es: '¿Qué ha feito Mikel?' }
+      - { eu: 'Zer egin duzue gaur?', es: '¿Qué hez feito güei?' }
       - { eu: gaur, es: güei }
       - { eu: gaur goizean, es: güei de maitins }
       - { eu: gaur arratsaldean, es: güei de tardada }
@@ -76,7 +76,7 @@ Comparada con l'aspecto habitual que veyés en a unidat anterior, lo unico que c
 
 ## A pregunta más natural
 
-> *— **Zer egin duzu gaur?*** — Qué has feito güei?
+> *— **Zer egin duzu gaur?*** — ¿Qué has feito güei?
 >
 > *— Lan egin dut, eta gero zinera joan naiz.* — He treballau, y dimpués he iu a o cine.
 

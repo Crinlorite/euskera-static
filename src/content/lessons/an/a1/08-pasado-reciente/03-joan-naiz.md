@@ -17,7 +17,7 @@ exercises:
     explanation: '"Joan" + "naiz" sin -tzen marca pasau recient: "he iu". O destín leva -ra: *etxera* (ta casa).'
   - id: ex-03-jn-mc2
     type: multiple-choice
-    prompt: 'Por qué "joan" emplega l''auxiliar naiz y no pas dut?'
+    prompt: '¿Por qué "joan" emplega l''auxiliar naiz y no pas dut?'
     options:
       - "Porque encieta con J"
       - "Porque ye un verbo intransitivo (no leva obchecto)"
@@ -27,7 +27,7 @@ exercises:
     explanation: 'Os verbos sin obchecto (ir, venir, dispertar-se...) levan izan (naiz/zara/da). Os que tienen obchecto levan ukan (dut/duzu/du).'
   - id: ex-03-jn-mc3
     type: multiple-choice
-    prompt: 'Quiers dicir "Maialen ha venito tardi". Cómo lo dices?'
+    prompt: 'Quiers dicir "Maialen ha venito tardi". ¿Cómo lo dices?'
     options:
       - "Maialenek berandu etorri du"
       - "Maialen berandu etorri da"
@@ -80,7 +80,7 @@ Ista ye **a regla fundamental** d'o euskera y a dificultat prencipal d'ista unid
 | Intransitivo (NOR) | NO | *izan* (naiz/zara/da…) | *joan naiz* (he iu) |
 | Transitivo (NOR-NORK) | SÍ | *ukan* (dut/duzu/du…) | *jan dut* (he minchau bella cosa) |
 
-> **Truco prautico:** si en aragonés puez preguntar "qué?" dimpués d'o verbo (qué he minchau? qué he visto?), ye transitivo y va con *dut*. Si no se puede ("qué he iu?" no funciona), ye intransitivo y va con *naiz*.
+> **Truco prautico:** si en aragonés puez preguntar "¿qué?" dimpués d'o verbo (¿qué he minchau? ¿qué he visto?), ye transitivo y va con *dut*. Si no se puede ("¿qué he iu?" no funciona), ye intransitivo y va con *naiz*.
 
 ## Verbos intransitivos basicos
 
