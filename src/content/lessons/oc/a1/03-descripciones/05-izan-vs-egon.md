@@ -17,7 +17,7 @@ exercises:
     explanation: 'Qualitat establa → *izan* + adjectiu damb `-a`.'
   - id: ex-ive-mc2
     type: multiple-choice
-    prompt: 'Entà díder "Aué Maialen ei alègra / contenta (ei un estat)" emplegam…'
+    prompt: 'Entà díder "Aué Maialen està alègra / contenta (ei un estat)" emplegam…'
     options: [Maialen pozik dago, Maialen alaia da, Maialen pozik da, Maialen alaia dago]
     answer: 0
     explanation: 'Estat passatgèr → *egon* + paraula sense `-a`. *pozik* ei era opcion naturau.'
@@ -28,36 +28,36 @@ exercises:
     explanation: 'Qualitat → *izan*: *da*.'
   - id: ex-ive-fb2
     type: fill-in-blank
-    prompt: 'Aué mon pair ei nerviós (estat d''aué) = Gaur nire aita urduri ___.'
+    prompt: 'Aué mon pair està nerviós (estat d''aué) = Gaur nire aita urduri ___.'
     answers: [dago]
     explanation: 'Estat passatgèr → *egon*: *dago*. E nòta com l''adjectiu pèrd era `-a`.'
   - id: ex-ive-fb3
     type: fill-in-blank
-    prompt: 'Èm cansats = Nekatuta ___.'
+    prompt: 'Estam cansats = Nekatuta ___.'
     answers: [gaude]
     explanation: 'Forma de *egon* entà "nosauti" = *gaude*.'
   - id: ex-ive-fc
     type: flashcards
     cards:
       - { eu: 'Nolakoa zara?', es: 'Com ès? (qualitat)' }
-      - { eu: 'Nola zaude?', es: 'Com ès? / Com te trobes? (estat)' }
+      - { eu: 'Nola zaude?', es: 'Com estàs? / Com te trobes? (estat)' }
       - { eu: alaia naiz, es: sò alègre (tostemp) }
-      - { eu: pozik nago, es: sò contenta (ara) }
+      - { eu: pozik nago, es: estau contenta (ara) }
       - { eu: lasaia da, es: ei tranquil (caractèr) }
-      - { eu: lasai dago, es: ei tranquil (en aguest moment) }
+      - { eu: lasai dago, es: està tranquil (en aguest moment) }
       - { eu: urduria naiz, es: sò nerviosa (caractèr) }
-      - { eu: urduri nago, es: sò nerviosa (ara) }
+      - { eu: urduri nago, es: estau nerviosa (ara) }
       - { eu: gaztea da, es: ei joen }
-      - { eu: nekatuta dago, es: ei cansat }
+      - { eu: nekatuta dago, es: està cansat }
   - id: ex-ive-mp
     type: match-pairs
     pairs:
       - { eu: alaia da, es: ei alègra (tostemp) }
-      - { eu: pozik dago, es: ei content (ara) }
+      - { eu: pozik dago, es: està content (ara) }
       - { eu: urduria naiz, es: sò nerviosa (caractèr) }
-      - { eu: urduri nago, es: sò nerviosa (ara) }
+      - { eu: urduri nago, es: estau nerviosa (ara) }
       - { eu: ona da, es: ei bon (qualitat) }
-      - { eu: ondo dago, es: ei plan (estat) }
+      - { eu: ondo dago, es: està plan (estat) }
 ---
 
 Aguesta ei probablament era distincion mès relhanta der A1 en euskera. Coma en occitan "èster" vs "estar", mès damb dues diferéncies importantes: **(1) es adjectius càmbien de forma** e **(2) bères paraules sonque s'emplèguen damb un des dus vèrbs**.
@@ -75,11 +75,11 @@ Guarda com cambie era paraula causida segontes parles de qualitat o d'estat:
 
 | Qualitat (izan) | Estat (egon) |
 |---|---|
-| *Alaia da.* (Ei alègra, atau ei) | *Pozik dago.* (Ei contenta) |
-| *Urduria naiz.* (Sò nerviosa de caractèr) | *Urduri nago.* (Sò nerviosa aué) |
-| *Lasaia da.* (Ei tranquil) | *Lasai dago.* (Ei tranquil ara) |
-| *Ona da.* (Ei ua bona persona) | *Ondo dago.* (Ei plan) |
-| *Gaixoa da.* (Ei malautís) | *Gaixorik dago.* (Ei malaut) |
+| *Alaia da.* (Ei alègra, atau ei) | *Pozik dago.* (Està contenta) |
+| *Urduria naiz.* (Sò nerviosa de caractèr) | *Urduri nago.* (Estau nerviosa aué) |
+| *Lasaia da.* (Ei tranquil) | *Lasai dago.* (Està tranquil ara) |
+| *Ona da.* (Ei ua bona persona) | *Ondo dago.* (Està plan) |
+| *Gaixoa da.* (Ei malautís) | *Gaixorik dago.* (Està malaut) |
 
 > Compde: **alaia** e **pozik** se tradusissen totes dus per "alègre/content", mès non son interscambiables. *Alaia* descriu eth caractèr; *pozik* l'estat d'anim d'un moment.
 
@@ -91,13 +91,13 @@ Guarda com cambie era paraula causida segontes parles de qualitat o d'estat:
 
 ## Casi tipics d'A1
 
-- *Ni langilea naiz, baina gaur nekatuta nago.* — Sò trabalhadora, mès aué sò cansada.
-- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz ei fòrça simpatic, mès ei enrabiat.
-- *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — Era mair de Maialen ei joena. Ei contenta pr'amor qu'aué ei eth sòn aniversari.
+- *Ni langilea naiz, baina gaur nekatuta nago.* — Sò trabalhadora, mès aué estau cansada.
+- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz ei fòrça simpatic, mès està enrabiat.
+- *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — Era mair de Maialen ei joena. Està contenta pr'amor qu'aué ei eth sòn aniversari.
 
 ## Pregunta corrèctament
 
 - **Nolakoa zara?** → descriu eth tòn caractèr / fisic (emplec d'*izan*).
-- **Nola zaude?** o **Zer moduz?** → conde com ès aué (emplec d'*egon*).
+- **Nola zaude?** o **Zer moduz?** → conde com estàs aué (emplec d'*egon*).
 
-> **Nòta:** en occitan se diderie "sò nerviós" o "sò nerviós" sense cambiar era paraula. En euskera era paraula cambie (*urduria* vs *urduri*). Ath començament còste; damb era practica de cada dia ges solet. Se dobtes en ua convèrsa reau, ua sortida segura ei emplegar *egon* damb ua paraula invariabla: *haserre nago*, *triste nago*, *nekatuta nago* — tostemp foncionen.
+> **Nòta:** en occitan aranés tanben distinguim **èster** (qualitat) e **estar** (estat), parièr coma en euskera *izan* vs *egon*: dises *sò nerviós* (de caractèr, èster) mès *estau nerviós* (ara, estar). Era diferéncia ei qu'en euskera, ath delà de cambiar de vèrb (*izan* → *egon*), tanben cambie era paraula (*urduria* → *urduri*). Ath començament còste; damb era practica de cada dia ges solet. Se dobtes en ua convèrsa reau, ua sortida segura ei emplegar *egon* (estar) damb ua paraula invariabla: *haserre nago* (estau enrabiat), *triste nago* (estau triste), *nekatuta nago* (estau cansat) — tostemp foncionen.

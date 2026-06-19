@@ -88,4 +88,4 @@ Dues frases qu'as a emplegar contunhament:
 - **Eskerrik asko** (o **Mila esker**) — plan mercés
 - **Ez horregatik** — de arren
 
-> **Nòta culturau:** en Euskal Herria fòrça gent altèrne occitan e euskera damb naturalitat. Començar era convèrsa damb *Kaixo* o *Egun on* ei ua manèra amabla de mostrar que coneishes era lengua.
+> **Nòta culturau:** en Euskal Herria fòrça gent altèrne espanhòu (castelhan) e euskera damb naturalitat. Començar era convèrsa damb *Kaixo* o *Egun on* ei ua manèra amabla de mostrar que coneishes era lengua.

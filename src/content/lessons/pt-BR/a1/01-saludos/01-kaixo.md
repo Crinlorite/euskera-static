@@ -88,4 +88,4 @@ Duas frases que você vai usar o tempo todo:
 - **Eskerrik asko** (ou **Mila esker**) — muito obrigado
 - **Ez horregatik** — de nada
 
-> **Nota cultural:** em Euskal Herria muita gente alterna português e euskera com naturalidade. Começar a conversa com *Kaixo* ou *Egun on* é uma maneira gentil de mostrar que você conhece o idioma.
+> **Nota cultural:** em Euskal Herria muita gente alterna espanhol (castelhano) e euskera com naturalidade. Começar a conversa com *Kaixo* ou *Egun on* é uma maneira gentil de mostrar que você conhece o idioma.
