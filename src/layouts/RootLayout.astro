@@ -118,6 +118,21 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       // dispararse, evitando acumular un listener por cada navegación SPA.
       window.addEventListener('resize', applyBetaBanner);
       window.addEventListener('orientationchange', applyBetaBanner);
+      // Evita el parpadeo del aviso YA descartado durante la transición SPA:
+      // oculta el banner en el documento ENTRANTE antes del swap (y del pintado),
+      // así no reaparece un instante en cada navegación entre páginas beta.
+      document.addEventListener('astro:before-swap', (e) => {
+        let dismissed = false;
+        try { dismissed = sessionStorage.getItem(BB_KEY) === '1'; } catch { /* private */ }
+        if (!dismissed) return;
+        const doc = e.newDocument;
+        const el = doc && doc.getElementById('beta-banner');
+        if (el) el.style.display = 'none';
+        if (doc) doc.documentElement.style.setProperty('--beta-banner-h', '0px');
+      });
+      // Tras el swap (antes de page-load) re-mide/aplica ya con el DOM vivo, para
+      // que el caso NO descartado fije su altura cuanto antes.
+      document.addEventListener('astro:after-swap', applyBetaBanner);
       setupBetaBanner();
       document.addEventListener('astro:page-load', setupBetaBanner);
     </script>
