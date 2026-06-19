@@ -90,5 +90,3 @@ And to wrap up:
 - **Zuri! Agur!** — To you! Goodbye! (the shopkeeper's reply)
 
 > **Cultural note:** *Tori* is a short little word used a great deal when passing something from hand to hand: money, a bag, a key. It's very useful to learn early.
-</content>
-</invoke>

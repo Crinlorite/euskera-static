@@ -131,5 +131,3 @@ exercises:
 - *kafea* —— 咖啡
 
 > **文化提示：** **arroz-esnea、mamia 和 gazta-intxaurrak** 是最“本地”的三种甜点。如果你在菜单上看到它们，就是个好兆头，说明你来到了一家有传统料理的地方。
-</content>
-</invoke>

@@ -132,5 +132,3 @@ Iar pentru a răspunde despre sine sau despre altă persoană:
 - *Bera erizaina da, ospitalean lan egiten du.* — Este asistent/asistentă medical(ă), lucrează la spital.
 
 > **Notă:** în euskera, a spune „sunt asistent” sau „sunt asistentă” se zice la fel: **erizaina naiz**. Nu există mărci de gen la substantive. Le lămurești prin context sau prin numele persoanei.
-</content>
-</invoke>

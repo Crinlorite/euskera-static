@@ -119,5 +119,3 @@ Para descrever o que alguém faz habitualmente, revise o padrão **`-tzen` + du*
 - *Arratsaldean **kirola egiten du**.* — À tarde pratica esporte.
 
 > Para o A1 bastam frases soltas; não é preciso encadear o dia inteiro. Se você consegue dizer três coisas claras sobre um vizinho, já está apresentando-o bem.
-</content>
-</invoke>

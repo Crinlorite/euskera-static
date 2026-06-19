@@ -159,5 +159,3 @@ exercises:
 > — *Eskerrik asko, eta hementxe duzu bueltakoa.*
 >
 > 谢谢，这是找你的零钱。
-</content>
-</invoke>

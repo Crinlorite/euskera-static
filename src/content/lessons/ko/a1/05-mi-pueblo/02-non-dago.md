@@ -108,5 +108,3 @@ exercises:
 > — *Eskerrik asko!*
 
 > **요령:** *non* = euskera로 "어디". *non…?*에 대한 모든 대답에는 접미사 `-(e)an`이 붙은 명사나 장소 부사(*hemen*, *hor*, *han* — 다음 수업에서 볼 거예요)가 들어갑니다.
-</content>
-</invoke>

@@ -133,5 +133,3 @@ Una conversazione tipica nel pianificare:
 4. **Negazione con prodotto:** *Ez dago ...rik* (con partitivo).
 
 > **Nota culturale:** molte famiglie fanno la spesa "del giorno" nei negozi di quartiere (fruta-denda, harategia) e vanno al supermercato solo per i prodotti confezionati. È un mix di canali molto comune che si nota soprattutto il sabato mattina in qualsiasi paese.
-</content>
-</invoke>

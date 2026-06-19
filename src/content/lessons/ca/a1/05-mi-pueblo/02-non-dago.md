@@ -108,5 +108,3 @@ Per dir **on és** una cosa, afegeix el sufix **`-(e)an`** al lloc:
 > — *Eskerrik asko!*
 
 > **Truc:** *non* = "on" en euskera. Qualsevol resposta a *non…?* porta un substantiu amb el sufix `-(e)an` o un adverbi de lloc (*hemen*, *hor*, *han* — els veuràs a la lliçó següent).
-</content>
-</invoke>

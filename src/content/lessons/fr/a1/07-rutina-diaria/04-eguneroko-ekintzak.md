@@ -139,5 +139,3 @@ Ceux-ci vont **avec ukan** parce qu'ils ont un sujet et un objet :
 > *Batzuetan lo-kuluxka egiten dut bazkalostean.* — Parfois, je fais la sieste après le déjeuner.
 
 > **Remarque :** *bazkalostean* = « après le déjeuner » (littéralement : « après le repas »). La culture du basque a des mots compacts pour des concepts du quotidien comme cette courte sieste — *lo-kuluxka* est précisément cela.
-</content>
-</invoke>

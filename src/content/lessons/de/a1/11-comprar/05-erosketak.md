@@ -133,5 +133,3 @@ Ein typisches Gespräch bei der Planung:
 4. **Verneinung mit Produkt:** *Ez dago ...rik* (mit Partitiv).
 
 > **Kulturhinweis:** Viele Familien erledigen die "täglichen" Einkäufe in den Vierteltläden (fruta-denda, harategia) und gehen nur für die verpackten Produkte in den Supermarkt. Das ist eine sehr verbreitete Mischung von Einkaufswegen, die man besonders samstagvormittags in jedem Dorf bemerkt.
-</content>
-</invoke>

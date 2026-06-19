@@ -133,5 +133,3 @@ Diese wirst du jeden Tag brauchen:
 > *Gaur gaueko hamarretan afalduko dut.* — Heute um zehn Uhr nachts werde ich zu Abend essen.
 
 > **Kulturelle Anmerkung:** Euskal Herria ist berühmt für seine *iluntze* — jene Stunde der Abenddämmerung, in der die Cuadrillas (Freundesgruppen) zum *poteo* (Runde von Potes/Zuritos) ausgehen. Das ist weder Nachmittag noch Nacht: Es ist eine Tageszeit mit ganz eigener Identität.
-</content>
-</invoke>

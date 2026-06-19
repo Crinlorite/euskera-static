@@ -105,5 +105,3 @@ Per dire a quale piano abiti:
 - **Etxeak badu balkoirik?** — La casa ha un balcone?
 
 > **Nota culturale:** in Navarra e nella zona basco-castigliana è comune dire *pisua* per l'abitazione urbana ed *etxea* per la casa familiare/di paese. Nel quotidiano si mescolano senza problemi.
-</content>
-</invoke>

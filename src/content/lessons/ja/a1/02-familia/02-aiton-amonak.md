@@ -57,5 +57,3 @@ exercises:
 - *Nire aitona Ekaitz da.* — 私の祖父はEkaitzです。
 - *Amona oso atsegina da.* — 祖母はとても優しいです。
 - *Bi biloba ditu.* — 彼/彼女には孫が二人います。
-</content>
-</invoke>

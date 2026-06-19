@@ -116,5 +116,3 @@ Un mod foarte firesc de a prezenta pe cineva este să enumeri 3-4 trăsături la
 > *Nire ama oso jatorra eta atsegina da. Lasaia da, baina nire aita urduria da. Anaia bihurri samarra da, baina ni zintzoa naiz!*
 >
 > Mama mea este foarte de treabă și amabilă. Este liniștită, dar tatăl meu este nervos. Fratele meu este destul de poznaș, dar eu sunt serios!
-</content>
-</invoke>

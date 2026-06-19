@@ -131,5 +131,3 @@ exercises:
 > 例：*Bera lasaia da, **baina** asteburuetan zaratatsua bihurtzen da. **Adibidez**, ostiraletan musika entzuten du gauean.*
 
 > **最后的建议：** 对邻居的最初几次描述不会是完美的。重要的是让听者明白**他/她是谁**、**他/她做什么**以及**你怎么看他/她**。有了这个基础，语法上的纠正会随着练习自然而来。
-</content>
-</invoke>

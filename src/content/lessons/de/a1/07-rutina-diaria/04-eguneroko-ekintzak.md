@@ -139,5 +139,3 @@ Diese stehen **mit ukan**, weil sie ein Subjekt und ein Objekt haben:
 > *Batzuetan lo-kuluxka egiten dut bazkalostean.* — Manchmal mache ich nach dem Mittagessen ein Nickerchen.
 
 > **Hinweis:** *bazkalostean* = "nach dem Mittagessen" (wörtlich: "nach der Mahlzeit"). Die baskische Kultur hat kompakte Wörter für alltägliche Begriffe wie dieses kurze Nickerchen — *lo-kuluxka* ist genau das.
-</content>
-</invoke>

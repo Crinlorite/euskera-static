@@ -120,5 +120,3 @@ exercises:
 - *Asteburu pasa egitea gustatzen zait.* — 週末の小旅行をするのが好きです。
 
 > **文化メモ：** *igandea* と並んで *jaieguna*（祝日）をよく目にします。*igandeak eta jaiegunak* という表現は、バスの時刻表、商店、市役所の掲示でよく使われます。
-</content>
-</invoke>

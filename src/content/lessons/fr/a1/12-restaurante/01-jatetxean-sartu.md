@@ -112,5 +112,3 @@ Par téléphone ou en personne, il y a un scénario presque immuable :
 - **Karta nahi duzue?** — Voulez-vous la carte ?
 
 > **Note culturelle :** les **elkarteak** ou sociétés gastronomiques sont des espaces typiques d'Euskal Herria où le repas est préparé et nettoyé par le groupe de membres lui-même. Elles ne fonctionnent pas comme des restaurants publics, mais il est utile de savoir qu'elles existent car tu entendras ce mot très souvent.
-</content>
-</invoke>

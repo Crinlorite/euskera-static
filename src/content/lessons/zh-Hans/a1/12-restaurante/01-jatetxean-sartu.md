@@ -112,5 +112,3 @@ exercises:
 - **Karta nahi duzue?** — 你们要菜单吗？
 
 > **文化小贴士：** **elkarteak**（美食协会）是 Euskal Herria 典型的场所，在那里饭菜由会员小组自己准备和清洗。它们不像公共餐厅那样运营，但值得知道它们的存在，因为你会经常听到这个词。
-</content>
-</invoke>

@@ -133,5 +133,3 @@ A typical conversation when planning:
 4. **Negation with a product:** *Ez dago ...rik* (with the partitive).
 
 > **Cultural note:** many families do their "daily" shopping at the neighbourhood shops (fruta-denda, harategia) and only go to the supermarket for packaged goods. It is a very common mix of channels that is especially noticeable on Saturday mornings in any town.
-</content>
-</invoke>

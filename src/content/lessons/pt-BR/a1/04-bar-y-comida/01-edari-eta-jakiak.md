@@ -129,5 +129,3 @@ Quando você pede "um", desaparece o `-a` e entra **bat** ("um/uma"):
 - *Garagardo **bat**.* — Uma cerveja.
 
 > Na lição 3 você verá isso em detalhe. Por ora, memorize as formas com `-a` para reconhecê-las no cardápio do bar.
-</content>
-</invoke>

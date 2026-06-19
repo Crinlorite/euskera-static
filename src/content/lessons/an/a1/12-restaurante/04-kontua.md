@@ -108,5 +108,3 @@ En Euskal Herria **la propina no ye obligatoria**. Lo habitual:
 > — *Zuri! Agur!*
 
 > **Nota cultural:** deixar a moneda d'o café como chicota propina a o camarero ye un cheste bien estendillau en bars vascos, sobre tot si te quedas una mica a charrar. No s'aspera, pero s'agradeixe.
-</content>
-</invoke>

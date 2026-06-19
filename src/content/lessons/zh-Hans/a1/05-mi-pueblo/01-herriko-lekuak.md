@@ -128,5 +128,3 @@ exercises:
 - **-etxe**（"房子"）→ *udal·etxe*（市政会之屋）、*osasun·etxe*（健康之屋）、*jatetxe*（吃饭的地方）。
 
 > **文化小贴士：** 在许多巴斯克的街区和村镇里，**taberna**（酒吧）和**广场**是最重要的聚会地点，而 **frontoia**（回力球场）通常就在教堂旁边。*euskaltegi* 正是你正在学习这门语言的那种学校。
-</content>
-</invoke>

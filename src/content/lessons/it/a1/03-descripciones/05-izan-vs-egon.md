@@ -101,5 +101,3 @@ Guarda come cambia la parola scelta a seconda che tu parli di qualità o di stat
 - **Nola zaude?** o **Zer moduz?** → racconta come stai oggi (uso *egon*).
 
 > **Nota:** in italiano si direbbe "sono nervoso" sia per il carattere che per lo stato del momento, cambiando il verbo. In euskera cambia la parola (*urduria* vs *urduri*). All'inizio costa fatica; con la pratica quotidiana viene da sola. Se sei in dubbio in una conversazione reale, una via sicura è usare *egon* con una parola invariabile: *haserre nago*, *triste nago*, *nekatuta nago* — funzionano sempre.
-</content>
-</invoke>

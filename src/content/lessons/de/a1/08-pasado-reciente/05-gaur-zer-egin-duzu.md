@@ -117,5 +117,3 @@ Das ist entscheidend: Die beiden Systeme bestehen nebeneinander und vermischen s
 Das Wechseln zu beherrschen ist die Grundlage des Niveaus A1: Wenn du beide Formen und beide Hilfsverben sicher beherrschst, hast du bereits das Rückgrat des alltäglichen gesprochenen Baskisch.
 
 > **Zum Abschluss:** Der beste Weg, all dies zu verankern, ist, *deinen Tag eine Woche lang jeden Abend vor dem Schlafengehen laut zu erzählen*. Wenn dir ein Wort fehlt, schlage es nach — aber die geistige Übung, alles ins Baskische zu übertragen, ist es, die das System NOR/NOR-NORK automatisiert. Aurrera!
-</content>
-</invoke>

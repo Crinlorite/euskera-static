@@ -92,5 +92,3 @@ Da dove esce quel **-ak** finale? È il plurale euskerico (l'hai visto in *guras
 ## Esercitati
 
 Guarda l'orologio del tuo cellulare proprio ora e dillo ad alta voce. Se sono le undici: *hamaikak dira*. Se è l'una: *ordu bata da*. Fallo per tutta la settimana ogni volta che guardi l'orologio — è il modo migliore per automatizzarlo.
-</content>
-</invoke>
