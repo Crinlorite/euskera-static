@@ -88,4 +88,4 @@ Deux expressions que tu vas utiliser sans arrêt :
 - **Eskerrik asko** (ou **Mila esker**) — merci beaucoup
 - **Ez horregatik** — de rien
 
-> **Note culturelle :** au Pays basque (Euskal Herria), beaucoup de gens alternent naturellement entre le français et le basque. Commencer la conversation par *Kaixo* ou *Egun on* est une manière aimable de montrer que tu connais la langue.
+> **Note culturelle :** au Pays basque (Euskal Herria), beaucoup de gens alternent naturellement entre l'espagnol (castillan) et le basque. Commencer la conversation par *Kaixo* ou *Egun on* est une manière aimable de montrer que tu connais la langue.
