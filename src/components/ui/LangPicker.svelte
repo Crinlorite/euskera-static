@@ -12,7 +12,11 @@
       document.cookie = `lang=${code}; path=/; max-age=31536000`;
     }
     if (typeof location !== 'undefined') {
-      const path = location.pathname.replace(/^\/[a-zA-Z-]+/, `/${code}`);
+      // Vuelve a la página de origen (?from=) en el idioma elegido; si no hay
+      // origen válido del mismo sitio, cae a la ruta actual (el propio selector).
+      const from = new URLSearchParams(location.search).get('from');
+      const base = from && from.startsWith('/') && !from.startsWith('//') ? from : location.pathname;
+      const path = base.replace(/^\/[a-zA-Z-]+/, `/${code}`);
       location.href = path;
     }
   }
