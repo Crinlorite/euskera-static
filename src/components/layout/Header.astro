@@ -64,8 +64,11 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
     border-block-end: 1px solid var(--c-border);
     z-index: 50;
     /* PWA en iPhone con status-bar translúcida: empuja el header bajo el
-       notch. env() vale 0 en navegadores sin notch, así que no afecta a nadie más. */
-    padding-block-start: env(safe-area-inset-top, 0px);
+       notch. env() vale 0 en navegadores sin notch, así que no afecta a nadie más.
+       Consume el notch SOLO cuando no hay aviso beta: si el banner está presente
+       ya absorbió el safe-area y el header queda anclado bajo él
+       (--beta-banner-h ≥ inset), así que restarlo da 0 y evita una doble franja. */
+    padding-block-start: max(0px, calc(env(safe-area-inset-top, 0px) - var(--beta-banner-h, 0px)));
     padding-inline: env(safe-area-inset-left, 0px) env(safe-area-inset-right, 0px);
   }
   .row {

@@ -92,25 +92,32 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       // Aviso beta: descarte por sesión + publica su altura como
       // --beta-banner-h para empujar header/contenido. Re-evalúa en cada
       // navegación (view transitions recrean el DOM).
-      const setupBetaBanner = () => {
+      const BB_KEY = 'euskera-static.beta-banner-dismissed';
+      // Re-lee el banner vigente del DOM en cada llamada (tras un swap de view
+      // transitions el nodo es nuevo). Idempotente: publica --beta-banner-h o lo
+      // pone a 0 si no hay banner o está descartado.
+      const applyBetaBanner = () => {
         const root = document.documentElement;
         const el = document.getElementById('beta-banner');
         if (!el) { root.style.setProperty('--beta-banner-h', '0px'); return; }
-        const KEY = 'euskera-static.beta-banner-dismissed';
-        const apply = () => {
-          let dismissed = false;
-          try { dismissed = sessionStorage.getItem(KEY) === '1'; } catch { /* private */ }
-          if (dismissed) { el.style.display = 'none'; root.style.setProperty('--beta-banner-h', '0px'); }
-          else { el.style.display = ''; root.style.setProperty('--beta-banner-h', el.offsetHeight + 'px'); }
-        };
-        apply();
-        window.addEventListener('resize', apply);
+        let dismissed = false;
+        try { dismissed = sessionStorage.getItem(BB_KEY) === '1'; } catch { /* private */ }
+        if (dismissed) { el.style.display = 'none'; root.style.setProperty('--beta-banner-h', '0px'); }
+        else { el.style.display = ''; root.style.setProperty('--beta-banner-h', el.offsetHeight + 'px'); }
+      };
+      const setupBetaBanner = () => {
+        applyBetaBanner();
         const btn = document.getElementById('beta-banner-dismiss');
         if (btn) btn.addEventListener('click', () => {
-          try { sessionStorage.setItem(KEY, '1'); } catch { /* private */ }
-          apply();
+          try { sessionStorage.setItem(BB_KEY, '1'); } catch { /* private */ }
+          applyBetaBanner();
         });
       };
+      // resize/orientationchange se registran UNA sola vez a nivel de módulo (el
+      // módulo se ejecuta una vez por sesión) y leen el banner vigente al
+      // dispararse, evitando acumular un listener por cada navegación SPA.
+      window.addEventListener('resize', applyBetaBanner);
+      window.addEventListener('orientationchange', applyBetaBanner);
       setupBetaBanner();
       document.addEventListener('astro:page-load', setupBetaBanner);
     </script>
