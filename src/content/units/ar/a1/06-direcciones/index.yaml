@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "الاتجاهات والحركة"
+order: 6
+description: أفعال الحركة، إعطاء الاتجاهات وفهمها، حالتا NORA وNONDIK، وأداة الوصل -z لوسائل النقل.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

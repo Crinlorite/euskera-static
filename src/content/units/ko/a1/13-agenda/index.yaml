@@ -1,0 +1,14 @@
+id: a1-week-plan
+code: 13-agenda
+level: a1
+title: "주간 일정표"
+order: 13
+description: 한 주를 계획하고, 약속과 일정에 대해 이야기하며, 가까운 미래 시제를 사용하기.
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs

@@ -1,0 +1,16 @@
+id: a1-greetings
+code: 01-saludos
+level: a1
+title: 问候与最初的词汇
+order: 1
+description: 学习用巴斯克语打招呼、告别和自我介绍。
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities

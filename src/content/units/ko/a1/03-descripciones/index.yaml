@@ -1,0 +1,14 @@
+id: a1-descriptions
+code: 03-descripciones
+level: a1
+title: "신체 묘사와 성격 묘사"
+order: 3
+description: 신체와 성격을 묘사하는 법을 배우고, 어떤 사람인지(izan)와 어떤 상태인지(egon)를 구별하는 법을 익힙니다.
+estimatedMinutes: 55
+covers:
+  - physical-description
+  - hair-eyes
+  - character
+  - mental-states
+  - egon-nor
+  - izan-vs-egon

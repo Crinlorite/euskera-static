@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "Miasteczko i miejsca"
+order: 5
+description: Miejsca w miasteczku, lokalizacja z przypadkiem NON, położenie w przestrzeni i istnienie (ba al dago…?).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

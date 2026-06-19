@@ -78,15 +78,19 @@
   <ul class="picker">
     {#each all as lang}
       {@const isActive = lang.status === 'active'}
+      {@const isBeta = lang.status === 'beta'}
       {@const isPlanned = lang.status === 'planned'}
-      <li class:active={isActive} class:planned={isPlanned}>
+      <li class:active={isActive} class:beta={isBeta} class:planned={isPlanned}>
         <button
           on:click={() => pickLocale(lang.code, lang.status)}
           disabled={isPlanned}
           aria-label={`Ir a ${lang.name}`}
         >
           <span class="name" dir={lang.dir}>{lang.name}</span>
-          {#if isActive}
+          {#if isBeta}
+            <span class="badge beta">Beta</span>
+          {/if}
+          {#if isActive || isBeta}
             <span class="arrow icon-direction-aware" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="18" height="18"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </span>
@@ -165,6 +169,13 @@
     opacity: 0.7;
     box-shadow: none;
     background: var(--c-bg-alt);
+  }
+  .beta button { border-color: var(--c-green); }
+  .beta button:hover:not([disabled]) { border-color: var(--c-green-strong); }
+  .badge.beta {
+    margin-inline-start: 0;
+    background: var(--c-green-soft);
+    color: var(--c-green-strong);
   }
 
   .name { font-weight: 600; flex: 1; font-size: 1.1rem; }

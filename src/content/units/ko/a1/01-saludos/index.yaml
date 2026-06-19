@@ -1,0 +1,16 @@
+id: a1-greetings
+code: 01-saludos
+level: a1
+title: 인사와 첫 단어
+order: 1
+description: 바스크어로 인사하고, 작별 인사를 하고, 자기소개하는 법을 배웁니다.
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities

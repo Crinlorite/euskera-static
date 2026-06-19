@@ -1,0 +1,14 @@
+id: a1-descriptions
+code: 03-descripciones
+level: a1
+title: "Beschreibungen von Aussehen und Charakter"
+order: 3
+description: Lerne, Aussehen und Charakter zu beschreiben und zu unterscheiden, wie du bist (izan) und wie es dir geht (egon).
+estimatedMinutes: 55
+covers:
+  - physical-description
+  - hair-eyes
+  - character
+  - mental-states
+  - egon-nor
+  - izan-vs-egon

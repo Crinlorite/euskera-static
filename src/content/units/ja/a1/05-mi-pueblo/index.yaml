@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "町と場所"
+order: 5
+description: 町の場所、NON格による位置の表し方、空間的な位置関係、存在表現（ba al dago…?）。
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

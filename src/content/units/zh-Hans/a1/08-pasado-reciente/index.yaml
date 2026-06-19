@@ -1,0 +1,15 @@
+id: a1-recent-past
+code: 08-pasado-reciente
+level: a1
+title: "最近的过去时"
+order: 8
+description: 讲述你今天做过的事情。学习巴斯克语的最近过去时（orainaldi burutua）以及 NOR（naiz）与 NOR-NORK（dut）的区别，并配合时间标记词。
+estimatedMinutes: 55
+covers:
+  - participle-form
+  - recent-past-dut
+  - recent-past-naiz
+  - recent-past-time-markers
+  - common-verbs
+  - parts-of-day
+  - time-expressions

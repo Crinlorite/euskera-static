@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "方向与位移"
+order: 6
+description: 位移动词、给出和理解方向、NORA 格与 NONDIK 格，以及表示交通工具的工具格 -z。
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

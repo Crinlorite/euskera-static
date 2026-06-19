@@ -1,0 +1,14 @@
+id: a1-people
+code: 10-mi-gente
+level: a1
+title: "이웃과 인간관계"
+order: 10
+description: "이웃을 소개해 보세요: 다른 사람들의 인간관계, 직업, 일상을 말합니다."
+estimatedMinutes: 55
+covers:
+  - social-relations
+  - professions
+  - professions-extended
+  - third-person-introductions
+  - daily-routine-third-person
+  - possessives

@@ -1,0 +1,15 @@
+id: a1-recent-past
+code: 08-pasado-reciente
+level: a1
+title: "El passat recent"
+order: 8
+description: Explica el que has fet avui. Aprèn el passat recent de l'èuscar (orainaldi burutua) i la distinció NOR (naiz) vs NOR-NORK (dut), amb marcadors temporals.
+estimatedMinutes: 55
+covers:
+  - participle-form
+  - recent-past-dut
+  - recent-past-naiz
+  - recent-past-time-markers
+  - common-verbs
+  - parts-of-day
+  - time-expressions

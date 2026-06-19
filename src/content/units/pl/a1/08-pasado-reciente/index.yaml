@@ -1,0 +1,15 @@
+id: a1-recent-past
+code: 08-pasado-reciente
+level: a1
+title: "Czas przeszły niedawny"
+order: 8
+description: Opowiedz, co zrobiłeś dzisiaj. Naucz się czasu przeszłego niedawnego w języku baskijskim (orainaldi burutua) oraz rozróżnienia NOR (naiz) i NOR-NORK (dut), wraz z określeniami czasu.
+estimatedMinutes: 55
+covers:
+  - participle-form
+  - recent-past-dut
+  - recent-past-naiz
+  - recent-past-time-markers
+  - common-verbs
+  - parts-of-day
+  - time-expressions

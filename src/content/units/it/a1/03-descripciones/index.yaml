@@ -1,0 +1,14 @@
+id: a1-descriptions
+code: 03-descripciones
+level: a1
+title: "Descrizioni fisiche e del carattere"
+order: 3
+description: Impara a descrivere l'aspetto fisico e il carattere, e a distinguere come sei (izan) da come stai (egon).
+estimatedMinutes: 55
+covers:
+  - physical-description
+  - hair-eyes
+  - character
+  - mental-states
+  - egon-nor
+  - izan-vs-egon

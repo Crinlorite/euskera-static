@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "日々の習慣と時刻"
+order: 7
+description: 自分の日々の習慣を語りましょう。時刻や一日の時間帯の言い方、そして習慣相（-tzen / -ten）を使って普段していることを話す方法を学びます。
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

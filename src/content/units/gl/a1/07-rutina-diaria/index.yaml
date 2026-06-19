@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "Rutina diaria e a hora"
+order: 7
+description: Conta a túa rutina diaria. Aprende a dicir a hora, os momentos do día e a falar do que fas habitualmente co aspecto habitual (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

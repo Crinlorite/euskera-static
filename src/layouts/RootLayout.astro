@@ -7,6 +7,7 @@ import { LANGUAGES, DEFAULT_LOCALE, type LocaleCode } from '../i18n/config';
 import { t } from '../i18n/ui';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import BetaBanner from '../components/layout/BetaBanner.astro';
 import LevelGate from '../components/layout/LevelGate.svelte';
 
 interface Props {
@@ -65,6 +66,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
   </head>
   <body class={bodyClass}>
     <a class="sr-only" href="#main">{t(locale, 'common.skip-content')}</a>
+    <BetaBanner locale={locale} />
     <Header locale={locale} />
     <main id="main">
       <slot />
@@ -85,6 +87,32 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
       };
       setupFadeIns();
       document.addEventListener('astro:page-load', setupFadeIns);
+    </script>
+    <script>
+      // Aviso beta: descarte por sesión + publica su altura como
+      // --beta-banner-h para empujar header/contenido. Re-evalúa en cada
+      // navegación (view transitions recrean el DOM).
+      const setupBetaBanner = () => {
+        const root = document.documentElement;
+        const el = document.getElementById('beta-banner');
+        if (!el) { root.style.setProperty('--beta-banner-h', '0px'); return; }
+        const KEY = 'euskera-static.beta-banner-dismissed';
+        const apply = () => {
+          let dismissed = false;
+          try { dismissed = sessionStorage.getItem(KEY) === '1'; } catch { /* private */ }
+          if (dismissed) { el.style.display = 'none'; root.style.setProperty('--beta-banner-h', '0px'); }
+          else { el.style.display = ''; root.style.setProperty('--beta-banner-h', el.offsetHeight + 'px'); }
+        };
+        apply();
+        window.addEventListener('resize', apply);
+        const btn = document.getElementById('beta-banner-dismiss');
+        if (btn) btn.addEventListener('click', () => {
+          try { sessionStorage.setItem(KEY, '1'); } catch { /* private */ }
+          apply();
+        });
+      };
+      setupBetaBanner();
+      document.addEventListener('astro:page-load', setupBetaBanner);
     </script>
     <script>
       // Registra el Service Worker para PWA offline-first.

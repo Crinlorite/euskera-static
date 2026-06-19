@@ -1,0 +1,14 @@
+id: a1-people
+code: 10-mi-gente
+level: a1
+title: "Vecini și relații"
+order: 10
+description: "Descrie-ți vecinii: relații, profesii și rutinele altor persoane."
+estimatedMinutes: 55
+covers:
+  - social-relations
+  - professions
+  - professions-extended
+  - third-person-introductions
+  - daily-routine-third-person
+  - possessives

@@ -1,0 +1,16 @@
+id: a1-greetings
+code: 01-saludos
+level: a1
+title: Salutacions i primeres paraules
+order: 1
+description: Aprèn a saludar, acomiadar-te i presentar-te en euskera.
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities

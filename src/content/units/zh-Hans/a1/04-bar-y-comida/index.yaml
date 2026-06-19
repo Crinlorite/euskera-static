@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: "酒吧与饮食"
+order: 4
+description: 饮料、食物、一日三餐以及如何在酒吧点单——这是任何日常对话都不可或缺的词汇。
+estimatedMinutes: 55
+covers:
+  - food-bar
+  - meals
+  - bar-ordering
+  - prices
+  - pintxos
+  - numbers-1-100

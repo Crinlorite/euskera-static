@@ -1,0 +1,15 @@
+id: a1-recent-past
+code: 08-pasado-reciente
+level: a1
+title: "O passado recente"
+order: 8
+description: Conte o que você fez hoje. Aprenda o passado recente do euskera (orainaldi burutua) e a distinção NOR (naiz) vs NOR-NORK (dut), com marcadores temporais.
+estimatedMinutes: 55
+covers:
+  - participle-form
+  - recent-past-dut
+  - recent-past-naiz
+  - recent-past-time-markers
+  - common-verbs
+  - parts-of-day
+  - time-expressions

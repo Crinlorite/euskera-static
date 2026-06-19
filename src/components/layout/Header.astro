@@ -44,7 +44,8 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
 <style>
   .site-header {
     position: sticky;
-    inset-block-start: 0;
+    /* Se pega bajo el aviso beta si lo hay (var = 0 cuando no). */
+    inset-block-start: var(--beta-banner-h, 0px);
     /* No backdrop-filter: crea containing block que atrapa al drawer móvil.
        Para mantener el efecto, sería necesario portalar el drawer a body. */
     background: rgba(255, 255, 255, 0.96);

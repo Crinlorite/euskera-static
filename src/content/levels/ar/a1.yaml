@@ -1,0 +1,114 @@
+code: a1
+name: المستوى A1
+description: المستوى المبتدئ. الفهم والإنتاج الأساسي في المواقف اليومية.
+order: 1
+status: active
+beta: false
+curriculum:
+  # التحيات والتواصل الاجتماعي
+  - { id: greetings, title: التحيات والوداع (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: المجاملة والصف (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # التعارف والهوية
+  - { id: introductions, title: 'التعارف (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: البيانات الشخصية (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: 'العمر: ... urte ditut/ditu/dituzte' }
+  # الأفعال الأساسية
+  - { id: izan-nor, title: 'الفعل "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: 'النفي: ez قبل الفعل (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: 'الفعل "egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'التمييز izan/egon: الصفة الثابتة مقابل الحالة العابرة' }
+  - { id: ukan-basic, title: 'الفعل "ukan" (NOR-NORK) — يملك: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'المفعول الجمع في ukan: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: 'الجزئي -rik في النفي مع مفعول غير معرّف' }
+  - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — فعل الإعجاب (مقدمة NOR-NORI)' }
+  # الضمائر وأسماء الإشارة
+  - { id: personal-pronouns, title: الضمائر الشخصية (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: أسماء الإشارة hau/hori/hura وجموعها hauek/horiek/haiek }
+  - { id: possessives, title: ضمائر الملكية (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # العائلة
+  - { id: family-types, title: أنواع العائلة (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: العائلة (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: العائلة الموسّعة (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # الأصل والإقامة والموقع
+  - { id: origin-koa, title: 'المنشأ: Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: 'الإقامة: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: البلدان الشائعة والجنسيات }
+  - { id: companions-rekin, title: 'حالة المصاحبة: Norekin bizi zara? → X-(r)ekin' }
+  # حالات اللغة الباسكية
+  - { id: nor-case, title: 'حالة NOR (المطلق): -A للمفرد، -AK للجمع' }
+  - { id: nork-case, title: 'حالة NORK (الفاعلية): -AK للمفرد، -EK للجمع' }
+  - { id: nori-case, title: 'حالة NORI (المفعول غير المباشر): -ARI للمفرد، -EI للجمع' }
+  - { id: noren-case, title: 'حالة الإضافة NOREN: الملكية -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: 'الظرفية NON: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # الأوصاف والمهن
+  - { id: physical-description, title: 'NOLAKOA da? — الوصف الجسدي بـ izan + صفة+A' }
+  - { id: mental-states, title: 'NOLA dago? — الحالة العابرة بـ egon + صفة (pozik, triste)' }
+  - { id: hair-eyes, title: 'الشعر والعينان (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: 'الطبع (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: 'المهن (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # المفردات الموضوعية
+  - { id: numbers-1-20, title: الأرقام من 1 إلى 20 }
+  - { id: numbers-1-100, title: الأرقام من 1 إلى 100 (النظام العشريني) }
+  - { id: colors, title: الألوان (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: 'أيام الأسبوع (astelehena → igandea)' }
+  - { id: months, title: 'أشهر السنة (urtarrila → abendua)' }
+  - { id: seasons, title: الفصول (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: 'قول الساعة (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: 'الزمن: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: أجزاء الجسم (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: 'الصحة الأساسية (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: الملابس الأساسية (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: 'أماكن البلدة (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: 'الاتجاهات (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: 'الحانة والطعام (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: 'وجبات اليوم (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: 'الأفعال الأساسية (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: 'الأسئلة الأساسية (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: 'التهاني (Zorionak, Urte askotarako, Topa egin)' }
+  # الحي والموقع والوجود والحركة
+  - { id: spatial-positions, title: 'المواضع المكانية (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: 'الوجود بـ bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: 'ظروف المكان hemen / hor / han وأسماء الإشارة honetan / horretan / hartan' }
+  - { id: movement-verbs, title: 'أفعال الحركة joan, etorri, ibili (التركيبية: noa/zoaz, nator/zatoz, nabil/zabiltza)' }
+  - { id: nora-allative, title: 'حالة NORA: -ra (الاتجاه، الوجهة) — Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'حالة NONDIK: -tik (الأصل، مصدر الحركة) — Etxetik nator' }
+  - { id: instrumental-z, title: 'الأداتية -z للمواصلات والطريقة (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: 'تعليمات المسار (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # البيت والحياة المنزلية
+  - { id: home-rooms, title: 'غرف المنزل (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: 'الأثاث وأدوات المنزل (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: 'الأعمال المنزلية (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: 'أنواع المعيشة المشتركة (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: 'وصف منزلك (gela kopurua, kokapena, altzariak)' }
+  # الجيران والحياة الاجتماعية الموسّعة
+  - { id: social-relations, title: 'العلاقات الاجتماعية (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: 'المهن (توسيع: erizaina, polizia, kazetaria, dendaria, mekanikaria)' }
+  - { id: third-person-introductions, title: 'تقديم شخص آخر (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: 'روتين ومهنة الآخرين (Bera medikua da, ospitalean lan egiten du)' }
+  # الحانة والطعام والطلبات
+  - { id: bar-ordering, title: 'الطلب في الحانة (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: 'الأسعار والكميات (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: 'الطعام التقليدي في الحانة (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # التسوق (الدرس 11)
+  - { id: shops, title: 'أنواع المتاجر (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: 'الكميات والوحدات (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: 'القيام بالتسوق: قائمة، طلب، دفع (Hartuko dut..., Eman X mesedez)' }
+  # المطعم (الدرس 12)
+  - { id: restaurant-vocab, title: 'المطعم: الأنواع (jatetxea, sagardotegia, erretegia) وأجزاء القائمة (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: 'الطلب على الطاولة (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: 'الحساب وطرق الدفع (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # الأجندة والمستقبل القريب (الدرس 13)
+  - { id: weekly-planning, title: 'التخطيط الأسبوعي: أجندة، مواعيد والتزامات (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: 'المستقبل القريب: اللاحقة -ko/-go + الفعل المساعد (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: 'محددات المتى (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # الروتين اليومي والساعة ولحظات اليوم (الدرس 7)
+  - { id: time-detail, title: 'الساعة بالتفصيل (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: 'لحظات اليوم (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: 'الروتين اليومي (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: 'الجانب الاعتيادي: partizipioa + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: 'التكرار (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # الماضي القريب / orainaldi burutua (الدرس 8)
+  - { id: participle-form, title: 'Partizipioa: صيغة الفعل للماضي القريب (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: 'الماضي القريب NOR-NORK: partizipioa + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: 'الماضي القريب NOR: partizipioa + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: 'محددات الماضي القريب (gaur, gaur goizean, atzo, atzo arratsaldean)' }

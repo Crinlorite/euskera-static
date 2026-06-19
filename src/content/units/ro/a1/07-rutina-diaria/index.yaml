@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "Rutina zilnică și ora"
+order: 7
+description: Povestește-ți rutina zilnică. Învață să spui ora, momentele zilei și să vorbești despre ceea ce faci de obicei cu aspectul habitual (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

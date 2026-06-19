@@ -1,0 +1,15 @@
+id: a1-shopping
+code: 11-comprar
+level: a1
+title: "Cumpărăturile"
+order: 11
+description: Magazine, prețuri, cantități și dialoguri de bază pentru a face cumpărături.
+estimatedMinutes: 55
+covers:
+  - shops
+  - prices
+  - quantities-units
+  - shopping-dialogue
+  - numbers-1-100
+  - partitive-rik
+  - ukan-plural-objects

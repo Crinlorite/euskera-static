@@ -1,0 +1,14 @@
+id: a1-people
+code: 10-mi-gente
+level: a1
+title: "Vecinos y rellaciones"
+order: 10
+description: "Describi a los tos vecinos: rellaciones, profesiones y rutines d'otres persones."
+estimatedMinutes: 55
+covers:
+  - social-relations
+  - professions
+  - professions-extended
+  - third-person-introductions
+  - daily-routine-third-person
+  - possessives

@@ -1,0 +1,16 @@
+id: a1-family
+code: 02-familia
+level: a1
+title: 가족
+order: 2
+description: 자신과 다른 사람의 가족에 대해 이야기하기 위한 어휘와 표현 패턴.
+estimatedMinutes: 55
+covers:
+  - family-basics
+  - family-extended
+  - possessives
+  - ukan-basic
+  - ukan-plural-objects
+  - partitive-rik
+  - numbers-1-20
+  - ages

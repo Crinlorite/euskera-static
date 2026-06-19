@@ -1,0 +1,16 @@
+id: a1-greetings
+code: 01-saludos
+level: a1
+title: あいさつと最初のことば
+order: 1
+description: バスク語であいさつし、別れを告げ、自己紹介することを学びましょう。
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities
