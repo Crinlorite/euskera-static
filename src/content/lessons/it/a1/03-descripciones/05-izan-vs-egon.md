@@ -42,20 +42,20 @@ exercises:
       - { eu: 'Nolakoa zara?', es: 'Come sei? (qualità)' }
       - { eu: 'Nola zaude?', es: 'Come stai? (stato)' }
       - { eu: alaia naiz, es: sono allegra (sempre) }
-      - { eu: pozik nago, es: sono contenta (adesso) }
+      - { eu: pozik nago, es: sto contenta (adesso) }
       - { eu: lasaia da, es: è tranquillo (carattere) }
-      - { eu: lasai dago, es: è tranquillo (in questo momento) }
+      - { eu: lasai dago, es: sta tranquillo (in questo momento) }
       - { eu: urduria naiz, es: sono nervosa (carattere) }
-      - { eu: urduri nago, es: sono nervosa (adesso) }
+      - { eu: urduri nago, es: sto nervosa (adesso) }
       - { eu: gaztea da, es: è giovane }
-      - { eu: nekatuta dago, es: è stanco }
+      - { eu: nekatuta dago, es: sta stanco }
   - id: ex-ive-mp
     type: match-pairs
     pairs:
       - { eu: alaia da, es: è allegra (sempre) }
-      - { eu: pozik dago, es: è contento (adesso) }
+      - { eu: pozik dago, es: sta contento (adesso) }
       - { eu: urduria naiz, es: sono nervosa (carattere) }
-      - { eu: urduri nago, es: sono nervosa (adesso) }
+      - { eu: urduri nago, es: sto nervosa (adesso) }
       - { eu: ona da, es: è buono (qualità) }
       - { eu: ondo dago, es: sta bene (stato) }
 ---
@@ -75,11 +75,11 @@ Guarda come cambia la parola scelta a seconda che tu parli di qualità o di stat
 
 | Qualità (izan) | Stato (egon) |
 |---|---|
-| *Alaia da.* (È allegra, è così) | *Pozik dago.* (È contenta) |
-| *Urduria naiz.* (Sono nervosa di carattere) | *Urduri nago.* (Sono nervosa oggi) |
-| *Lasaia da.* (È tranquillo) | *Lasai dago.* (È tranquillo adesso) |
+| *Alaia da.* (È allegra, è così) | *Pozik dago.* (Sta contenta) |
+| *Urduria naiz.* (Sono nervosa di carattere) | *Urduri nago.* (Sto nervosa oggi) |
+| *Lasaia da.* (È tranquillo) | *Lasai dago.* (Sta tranquillo adesso) |
 | *Ona da.* (È una brava persona) | *Ondo dago.* (Sta bene) |
-| *Gaixoa da.* (È cagionevole) | *Gaixorik dago.* (È malato) |
+| *Gaixoa da.* (È cagionevole) | *Gaixorik dago.* (Sta male / è malato) |
 
 > Attenzione: **alaia** e **pozik** si traducono entrambi con "allegro/contento", ma non sono intercambiabili. *Alaia* descrive il carattere; *pozik* lo stato d'animo di un momento.
 
@@ -92,12 +92,12 @@ Guarda come cambia la parola scelta a seconda che tu parli di qualità o di stat
 ## Casi tipici di A1
 
 - *Ni langilea naiz, baina gaur nekatuta nago.* — Sono una lavoratrice, ma oggi sono stanca.
-- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz è molto simpatico, ma è arrabbiato.
-- *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — La madre di Maialen è giovane. È contenta perché oggi è il suo compleanno.
+- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz è molto simpatico, ma sta arrabbiato.
+- *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — La madre di Maialen è giovane. Sta contenta perché oggi è il suo compleanno.
 
 ## Domanda correttamente
 
 - **Nolakoa zara?** → descrive il tuo carattere / fisico (uso *izan*).
 - **Nola zaude?** o **Zer moduz?** → racconta come stai oggi (uso *egon*).
 
-> **Nota:** in italiano si direbbe "sono nervoso" sia per il carattere che per lo stato del momento, cambiando il verbo. In euskera cambia la parola (*urduria* vs *urduri*). All'inizio costa fatica; con la pratica quotidiana viene da sola. Se sei in dubbio in una conversazione reale, una via sicura è usare *egon* con una parola invariabile: *haserre nago*, *triste nago*, *nekatuta nago* — funzionano sempre.
+> **Nota:** in italiano hai già due verbi distinti per questa differenza: **essere** per la qualità (*sono nervosa* = è il mio carattere) e **stare** per lo stato del momento (*sto nervosa* = oggi). È esattamente il contrasto dell'euskera: **izan** corrisponde a *essere*, **egon** corrisponde a *stare*. In più, in euskera cambia anche la parola (*urduria* con *izan* vs *urduri* con *egon*). All'inizio costa fatica; con la pratica quotidiana viene da sola. Se sei in dubbio in una conversazione reale, una via sicura è usare *egon* (*stare*) con una parola invariabile: *haserre nago* (sto arrabbiata), *triste nago* (sto triste), *nekatuta nago* (sto stanca) — funzionano sempre.

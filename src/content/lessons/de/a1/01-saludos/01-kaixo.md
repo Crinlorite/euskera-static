@@ -88,4 +88,4 @@ Zwei Sätze, die du ständig verwenden wirst:
 - **Eskerrik asko** (oder **Mila esker**) — vielen Dank
 - **Ez horregatik** — gern geschehen
 
-> **Kultureller Hinweis:** Im Euskal Herria wechseln viele Menschen ganz selbstverständlich zwischen Deutsch und Baskischem. Ein Gespräch mit *Kaixo* oder *Egun on* zu beginnen, ist eine freundliche Art zu zeigen, dass du die Sprache kennst.
+> **Kultureller Hinweis:** Im Euskal Herria wechseln viele Menschen ganz selbstverständlich zwischen Spanisch und Baskischem. Ein Gespräch mit *Kaixo* oder *Egun on* zu beginnen, ist eine freundliche Art zu zeigen, dass du die Sprache kennst.
