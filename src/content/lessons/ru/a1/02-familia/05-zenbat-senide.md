@@ -78,5 +78,3 @@ exercises:
 - **Zenbat urte dituzu?** — Сколько тебе лет?
 - **Hogeita hamar urte ditut.** — Мне тридцать лет.
 - **Hirurogeita hamabost urte ditu.** — Ему/ей семьдесят пять лет.
-</content>
-</invoke>

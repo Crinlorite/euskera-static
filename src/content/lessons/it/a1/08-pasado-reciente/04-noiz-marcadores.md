@@ -152,5 +152,3 @@ Non è l'unica possibilità — l'euskera permette di spostare gli elementi per 
 > *— **Gaur goizean** lanera joan naiz oinez. **Eguerdian** lagunekin bazkaldu dut tabernan. **Arratsaldean** etxera bueltatu naiz eta liburua irakurri dut. **Gauean** ez dut afaldu, asko jan baitut bazkarian.*
 
 > **Nota:** *gaur* abbraccia tutta la giornata di oggi. Se vuoi essere preciso, aggiungi il momento (*gaur goizean*, *gaur arratsaldean*). Nelle conversazioni quotidiane, *Zer egin duzu gaur?* si intende come "cosa hai fatto oggi in generale?".
-</content>
-</invoke>

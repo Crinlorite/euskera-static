@@ -133,5 +133,3 @@ Esses vão aparecer todos os dias para você:
 > *Gaur gaueko hamarretan afalduko dut.* — Hoje às dez da noite vou jantar.
 
 > **Nota cultural:** Euskal Herria é famosa por seu *iluntze* — aquela hora do entardecer em que as turmas (cuadrillas) saem para o *poteo* (rodada de potes/zuritos). Não é a tarde nem a noite: é um momento do dia com identidade própria.
-</content>
-</invoke>

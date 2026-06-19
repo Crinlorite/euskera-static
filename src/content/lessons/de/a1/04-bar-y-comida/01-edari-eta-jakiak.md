@@ -129,5 +129,3 @@ Wenn du "einen" bestellst, verschwindet das `-a` und es kommt **bat** ("ein/eine
 - *Garagardo **bat**.* — Ein Bier.
 
 > In Lektion 3 wirst du das im Detail sehen. Merke dir vorerst die Formen mit `-a`, um sie auf der Karte der Bar wiederzuerkennen.
-</content>
-</invoke>

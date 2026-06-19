@@ -128,5 +128,3 @@ Fai attenzione a questi suffissi produttivi: compaiono in continuazione.
 - **-etxe** ("casa") → *udal·etxe* (casa del consiglio comunale), *osasun·etxe* (casa della salute), *jatetxe* (luogo dove si mangia).
 
 > **Nota culturale:** in molti quartieri e paesi baschi la **taberna** e la **plaza** sono i punti di ritrovo per eccellenza, e il **frontoia** (frontone) di solito si trova accanto alla chiesa. Un *euskaltegi* è proprio la scuola dove stai imparando questa lingua.
-</content>
-</invoke>

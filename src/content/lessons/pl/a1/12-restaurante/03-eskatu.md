@@ -114,5 +114,3 @@ Pełny przykład:
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
 > **Notatka kulturowa:** w małych restauracjach bardzo często jedna osoba zamawia za całą grupę (*Niretzat legatza eta beretzat haragia* — dla mnie morszczuk, a dla niego/niej mięso). Dlatego *niretzat / zuretzat / beretzat* to słowa o bardzo dużej przydatności od pierwszego dnia.
-</content>
-</invoke>

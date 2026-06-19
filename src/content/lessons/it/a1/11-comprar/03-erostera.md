@@ -90,5 +90,3 @@ E per finire:
 - **Zuri! Agur!** — A te! Arrivederci! (risposta del commesso)
 
 > **Nota culturale:** *Tori* è una parolina che si usa moltissimo quando si passa qualcosa di mano in mano: soldi, una busta, una chiave. È molto utile impararla presto.
-</content>
-</invoke>

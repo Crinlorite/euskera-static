@@ -98,5 +98,3 @@ La **koadrila** ye una institución social bien de mano d'Euskal Herria: un grup
 - **Bera nire koadrilakidea da.** — Ye de la mio cuadriella.
 
 > **Nota cultural:** la diferencia ente "amigos" y "koadrila" ye que la cuadriella queda **regularmente** (selmana sí, selmana tamién), tien rituales propios (la comida del domingu, les fiestes del pueblu, la ronda en bares concretos) y de cutiu hereda: fíos ya fíes conócense y formen la so propia cuadriella siguiendo a la de los pas.
-</content>
-</invoke>

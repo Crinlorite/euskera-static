@@ -115,5 +115,3 @@ Se vivi senza compagnia, non serve usare `-rekin`:
 > — *Ez, txikia. Hiru logela ditu.*
 
 > **Nota:** *bikotekide* è una parola moderna e neutra, valida sia per coppie sposate sia non sposate, etero od omosessuali. Per "marito" e "moglie" si continuano a usare **senarra** ed **emaztea**.
-</content>
-</invoke>

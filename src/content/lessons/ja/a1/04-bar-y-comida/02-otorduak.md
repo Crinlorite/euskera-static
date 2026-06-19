@@ -105,5 +105,3 @@ exercises:
 - *Gose naiz, zer dago jateko?* — お腹がすいています、何か食べるものはありますか？
 
 > **文化的なメモ：** Euskal Herria での食事の時間は、半島(スペイン)の他の地域と似ています。朝食は早く、*hamaiketako* は11時ごろ、*bazkaria* は14時～15時ごろ、おやつは18時ごろ、夕食は21時かそれより遅い時間です。
-</content>
-</invoke>

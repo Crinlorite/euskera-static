@@ -159,5 +159,3 @@ Gdy zamawiasz więcej niż jedną sztukę, pamiętaj, by użyć **ditut** lub **
 > — *Eskerrik asko, eta hementxe duzu bueltakoa.*
 >
 > Dziękuję, a tu jest reszta.
-</content>
-</invoke>

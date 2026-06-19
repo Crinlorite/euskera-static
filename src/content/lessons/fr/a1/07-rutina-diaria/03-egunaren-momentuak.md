@@ -133,5 +133,3 @@ Ceux-ci vont te servir tous les jours :
 > *Gaur gaueko hamarretan afalduko dut.* — Aujourd'hui je dînerai à dix heures du soir.
 
 > **Note culturelle :** Euskal Herria est célèbre pour son *iluntze* — cette heure du crépuscule où les bandes d'amis (*cuadrillas*) sortent faire le *poteo* (tournée de petits verres / *zuritos*). Ce n'est ni l'après-midi ni la nuit : c'est un moment de la journée avec sa propre identité.
-</content>
-</invoke>

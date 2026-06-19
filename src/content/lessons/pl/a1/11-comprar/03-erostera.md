@@ -90,5 +90,3 @@ A na zakończenie:
 - **Zuri! Agur!** — Tobie! Do widzenia! (odpowiedź sprzedawcy)
 
 > **Notka kulturowa:** *Tori* to krótkie słówko, którego używa się bardzo często przy podawaniu czegoś z ręki do ręki: pieniędzy, torby, klucza. Warto nauczyć się go szybko.
-</content>
-</invoke>

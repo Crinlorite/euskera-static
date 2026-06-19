@@ -151,5 +151,3 @@ Es tres distancies tanben an era sua forma NONDIK:
 > — *Ni ere supermerkatura noa! **Goazen** elkarrekin.* — Jo tanben vau ath supermercat! Anem amassa.
 
 > **Errors tipics a evitar:** confóner *Bilbon* (en Bilbo) damb *Bilbora* (a Bilbo) o *Bilbotik* (de Bilbo). E, laguens de NONDIK, non desbrembes que darrèr vocau va `-tik` e darrèr consonanta s'intercale ua `-e-` o s'admet `-dik`. Practica en tot encadenar es tres sufixes damb era madeixa paraula: *etxean / etxera / etxetik*; *Bilbon / Bilbora / Bilbotik*. Quan sòrte automatic, ja lo as.
-</content>
-</invoke>

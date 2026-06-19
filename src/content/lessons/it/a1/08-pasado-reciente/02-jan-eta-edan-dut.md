@@ -139,5 +139,3 @@ Per dire "non ho fatto X", **ez** va davanti all'ausiliare:
 > *— Nik tortilla egin dut, baina ez dut postrerik jan.*
 
 > **Riepilogo visivo:** se l'azione ha un oggetto esplicito o implicito (mangiare qualcosa, vedere qualcosa, fare qualcosa), l'ausiliare è **dut** (e derivati). Memorizza queste coppie verbo-ausiliare e il resto viene da sé.
-</content>
-</invoke>

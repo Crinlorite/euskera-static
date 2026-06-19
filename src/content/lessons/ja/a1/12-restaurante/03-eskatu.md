@@ -114,5 +114,3 @@ exercises:
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
 > **文化メモ：** 小さなレストランでは、ひとりがグループ全員分を注文するのがとても一般的です（*Niretzat legatza eta beretzat haragia* — 私にはメルルーサ、彼／彼女には肉を）。だからこそ *niretzat / zuretzat / beretzat* は、初日からとても役立つ言葉なのです。
-</content>
-</invoke>

@@ -135,5 +135,3 @@ ikusi dut    ikusten dut    ikusiko dut
 ```
 
 > **Note culturelle :** dans beaucoup d'endroits tu verras des affiches du genre *« Asteburu honetan jaiak »* ou *« Datorren ostiralean kontzertua »*. Les marqueurs temporels comme *datorren* et *asteburu honetan* apparaissent aussi bien dans la conversation que sur n'importe quel panneau d'information du quartier. Quand l'oreille les reconnaît, lire la rue devient beaucoup plus facile.
-</content>
-</invoke>

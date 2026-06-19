@@ -98,5 +98,3 @@ La **koadrila** és una institució social molt pròpia d'Euskal Herria: un grup
 - **Bera nire koadrilakidea da.** — És de la meva colla.
 
 > **Nota cultural:** la diferència entre "amics" i "koadrila" és que la colla queda **regularment** (una setmana sí i l'altra també), té rituals propis (el dinar del diumenge, les festes del poble, la ronda en bars concrets) i sovint s'hereta: fills i filles es coneixen i formen la seva pròpia colla seguint la dels pares.
-</content>
-</invoke>

@@ -135,5 +135,3 @@ exercises:
 | **Nola? / Zerez?** | -z | 怎么去？ / 用什么？ | *Tren**ez** noa.* |
 
 > **窍门：** 这三个后缀合在一起几乎能组成任何旅行句子。例如：*Bilbotik Donostiara autobusez goaz, lagun bat bisitatzera*。 — “我们乘公交车从 Bilbao 去 Donostia，去拜访一位朋友。” 只要你掌握了这三个后缀，再加上 *joan* 和 *etorri* 的合成形式，你就能谈论日常生活中的任何出行。
-</content>
-</invoke>

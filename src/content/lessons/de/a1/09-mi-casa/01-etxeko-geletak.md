@@ -105,5 +105,3 @@ Um zu sagen, in welcher Etage du wohnst:
 - **Etxeak badu balkoirik?** — Hat das Haus einen Balkon?
 
 > **Kultureller Hinweis:** In Navarra und im baskisch-kastilischen Gebiet ist es üblich, *pisua* für die städtische Wohnung und *etxea* für das Familien-/Dorfhaus zu sagen. Im Alltag werden sie problemlos vermischt.
-</content>
-</invoke>

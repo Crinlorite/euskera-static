@@ -132,5 +132,3 @@ Y pa responder sobre ún mesmu o sobre otra persona:
 - *Bera erizaina da, ospitalean lan egiten du.* — Ye enfermeru/a, trabaya nel hospital.
 
 > **Nota:** n'euskera, dicir "soi enfermeru" o "soi enfermera" dizse igual: **erizaina naiz**. Nun hai marques de xéneru nos sustantivos. Aclárlo col contestu o col nome de la persona.
-</content>
-</invoke>

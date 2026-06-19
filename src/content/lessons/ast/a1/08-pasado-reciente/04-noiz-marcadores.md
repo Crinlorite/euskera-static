@@ -152,5 +152,3 @@ Nun ye la única posibilidá — l'euskera permite mover los elementos pa enfati
 > *— **Gaur goizean** lanera joan naiz oinez. **Eguerdian** lagunekin bazkaldu dut tabernan. **Arratsaldean** etxera bueltatu naiz eta liburua irakurri dut. **Gauean** ez dut afaldu, asko jan baitut bazkarian.*
 
 > **Nota:** *gaur* abarca tol día actual. Si quies precisar, amiesta'l momentu (*gaur goizean*, *gaur arratsaldean*). En conversaciones corrientes, *Zer egin duzu gaur?* entiéndese como "¿qué fixisti güei en xeneral?".
-</content>
-</invoke>

@@ -125,5 +125,3 @@ W języku baskijskim typowe "hej / przepraszam" do zwrócenia uwagi to **Aizu!**
 > — *Ederki!* — Świetnie!
 
 > **Nota kulturowa:** w baskijskiej tabernie normą jest zamawianie przy barze, picie na stojąco i głośna rozmowa. *Mesedez* i *eskerrik asko* są podstawowe, ale nie obowiązkowe w każdym zdaniu — w przeciwieństwie do hiszpańskiego, suche "*ebakia*" nie jest uznawane za niegrzeczne, o ile ton jest życzliwy.
-</content>
-</invoke>

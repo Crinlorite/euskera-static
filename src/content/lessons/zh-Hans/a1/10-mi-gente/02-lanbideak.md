@@ -132,5 +132,3 @@ exercises:
 - *Bera erizaina da, ospitalean lan egiten du.* — 他/她是护士，在医院工作。
 
 > **注意：** 在巴斯克语中，说"我是男护士"或"我是女护士"是一样的：**erizaina naiz**。名词没有性别标记。你要通过上下文或人名来加以说明。
-</content>
-</invoke>

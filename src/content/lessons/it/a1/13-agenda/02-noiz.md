@@ -121,5 +121,3 @@ Per "questa settimana", "questo fine settimana":
 - *Asteburu honetan ez dut planik.* — Questo fine settimana non ho programmi.
 
 > **Nota culturale:** in euskera "mattina" come momento del giorno è *goiza* e "domani" come giorno seguente è *bihar*. La frase *bihar goizean* ("domani mattina") unisce i due termini. Nelle prime conversazioni è molto frequente sbagliare questa sfumatura, quindi conviene fissarla fin dall'inizio.
-</content>
-</invoke>

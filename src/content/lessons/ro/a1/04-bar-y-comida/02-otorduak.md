@@ -105,5 +105,3 @@ Pentru a spune "mi-e foame" / "mi-e sete" în euskera **nu se folosește verbul 
 - *Gose naiz, zer dago jateko?* — Mi-e foame, ce este de mâncare?
 
 > **Notă culturală:** orele meselor în Euskal Herria sunt de obicei asemănătoare cu cele din restul peninsulei: mic dejun devreme, *hamaiketako* pe la ora unsprezece, *bazkaria* pe la ora 14-15, gustare pe la 18h, cină la 21h sau mai târziu.
-</content>
-</invoke>

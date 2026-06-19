@@ -51,5 +51,3 @@ Du hast zwei Möglichkeiten, beide gleichermaßen gültig:
 2. **Egoitz naiz.** — "Ich bin Egoitz." (das Muster aus der vorigen Lektion)
 
 > Die grundlegenden Possessivpronomen sind *nire* (mein), *zure* (dein), *bere* (sein/ihr). Du wirst sie später noch oft sehen — fang schon jetzt an, dich mit ihnen vertraut zu machen.
-</content>
-</invoke>

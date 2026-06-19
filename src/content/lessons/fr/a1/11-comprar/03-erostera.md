@@ -90,5 +90,3 @@ Et pour finir :
 - **Zuri! Agur!** — À toi ! Au revoir ! (réponse du vendeur)
 
 > **Note culturelle :** *Tori* est un petit mot très utilisé pour passer quelque chose de main en main : de l'argent, un sac, une clé. Il est très utile de l'apprendre rapidement.
-</content>
-</invoke>

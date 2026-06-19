@@ -101,5 +101,3 @@ Mira com canvia la paraula triada segons parlis de qualitat o d'estat:
 - **Nola zaude?** o **Zer moduz?** → explica com estàs avui (ús d'*egon*).
 
 > **Nota:** en català es diria "sóc nerviós" o "estic nerviós" sense canviar la paraula. En euskera la paraula canvia (*urduria* vs *urduri*). Al principi costa; amb la pràctica diària surt sol. Si dubtes en una conversa real, una sortida segura és fer servir *egon* amb una paraula invariable: *haserre nago*, *triste nago*, *nekatuta nago* — sempre funcionen.
-</content>
-</invoke>

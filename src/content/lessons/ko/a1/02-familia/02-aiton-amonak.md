@@ -57,5 +57,3 @@ exercises:
 - *Nire aitona Ekaitz da.* — 나의 할아버지는 Ekaitz입니다.
 - *Amona oso atsegina da.* — 할머니는 매우 친절하십니다.
 - *Bi biloba ditu.* — 그는 손주가 둘 있습니다.
-</content>
-</invoke>

@@ -132,5 +132,3 @@ Und um über sich selbst oder über eine andere Person zu antworten:
 - *Bera erizaina da, ospitalean lan egiten du.* — Er/sie ist Krankenpfleger/in, er/sie arbeitet im Krankenhaus.
 
 > **Hinweis:** Auf Baskisch sagt man "ich bin Krankenpfleger" oder "ich bin Krankenpflegerin" gleich: **erizaina naiz**. Es gibt keine Geschlechtsmarkierungen bei den Substantiven. Du machst es durch den Kontext oder durch den Namen der Person deutlich.
-</content>
-</invoke>

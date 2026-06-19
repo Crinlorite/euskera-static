@@ -87,5 +87,3 @@ Il y a deux structures fréquentes :
 - **Hemen daukazu kanbioa.** — Voici votre monnaie.
 
 > **Note culturelle :** dans beaucoup de petits commerces de quartier, le paiement en espèces reste l'usage habituel, donc *txartelaz ordain dezaket?* est une question utile quand tu entres pour la première fois.
-</content>
-</invoke>

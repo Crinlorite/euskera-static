@@ -101,5 +101,3 @@ Mira cómo cambea a parola triada seguntes charres de cualidat u d'estau:
 - **Nola zaude?** u **Zer moduz?** → conta cómo yes hue (uso *egon*).
 
 > **Nota:** en aragonés se diría "soi nervioso" u "estoi nervioso" sin cambiar a parola. En euskera a parola cambea (*urduria* vs *urduri*). En primeras cuesta; con a practica diaria sale solo. Si dandalées en una charrada reyal, una salida segura ye emplegar *egon* con una parola invariable: *haserre nago*, *triste nago*, *nekatuta nago* — siempre funcionan.
-</content>
-</invoke>

@@ -132,5 +132,3 @@ exercises:
 - *Bera erizaina da, ospitalean lan egiten du.* — 彼／彼女は看護師で、病院で働いています。
 
 > **注意：**バスク語では「私は看護師（男性）です」も「私は看護師（女性）です」も同じように言います：**erizaina naiz**。名詞に性の標識はありません。それは文脈やその人の名前で区別します。
-</content>
-</invoke>

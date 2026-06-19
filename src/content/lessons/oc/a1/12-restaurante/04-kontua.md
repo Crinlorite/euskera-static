@@ -108,5 +108,3 @@ En Euskal Herria **la prepina non ei obligatòria**. Çò abituau:
 > — *Zuri! Agur!*
 
 > **Nòta culturau:** deishar la moneda deth cafè coma petita prepina ath cambrèr ei un gèst pro espandit enes bars basques, sustot se demores un moment a charrar. Non s'espère, mès s'agraïs.
-</content>
-</invoke>
