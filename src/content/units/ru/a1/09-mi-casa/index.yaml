@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "Дом"
+order: 9
+description: "Расскажи о своём доме: комнаты, мебель и домашние дела. Опиши, с кем ты живёшь."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

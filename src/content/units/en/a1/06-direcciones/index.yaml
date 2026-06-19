@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "Directions and movement"
+order: 6
+description: Movement verbs, giving and understanding directions, the NORA and NONDIK cases, and the instrumental -z for transport.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

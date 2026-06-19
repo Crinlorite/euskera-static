@@ -1,10 +1,14 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import RootLayout from '../../../../layouts/RootLayout.astro';
 import UnitSidebar from '../../../../components/layout/UnitSidebar.astro';
 import LessonNav from '../../../../components/layout/LessonNav.astro';
 import ExercisesSection from '../../../../components/exercises/ExercisesSection.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
+
+// Con 1.000+ lecciones, TS infiere `id` como un union de literales gigante y
+// "se queda sin tipo". Lo aplanamos a string para que el type-check escale.
+type Lesson = Omit<CollectionEntry<'lessons'>, 'id'> & { id: string };
 
 export async function getStaticPaths() {
   const allLessons = await getCollection('lessons');
@@ -25,7 +29,7 @@ const { locale, level: levelCode, unit: unitCode, lesson: lessonCode } = Astro.p
 const { lesson } = Astro.props;
 const { Content } = await lesson.render();
 
-const allLessons = await getCollection('lessons');
+const allLessons = (await getCollection('lessons')) as Lesson[];
 const sibs = allLessons
   .filter((l) => l.id.startsWith(`${locale}/${levelCode}/${unitCode}/`))
   .sort((a, b) => a.data.order - b.data.order);

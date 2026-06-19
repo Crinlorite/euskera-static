@@ -1,0 +1,14 @@
+id: a1-week-plan
+code: 13-agenda
+level: a1
+title: "جدول الأسبوع"
+order: 13
+description: تخطيط الأسبوع، والحديث عن المواعيد والالتزامات، واستخدام المستقبل القريب.
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs

@@ -1,0 +1,16 @@
+id: a1-greetings
+code: 01-saludos
+level: a1
+title: Saluti e prime parole
+order: 1
+description: Impara a salutare, congedarti e presentarti in euskera.
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities

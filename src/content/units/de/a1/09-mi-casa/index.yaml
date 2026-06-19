@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "Das Haus"
+order: 9
+description: "Sprich über dein Zuhause: Zimmer, Möbel und Hausarbeit. Beschreibe, mit wem du wohnst."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

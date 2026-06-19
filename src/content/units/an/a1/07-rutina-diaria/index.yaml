@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "Rutina diaria y la hora"
+order: 7
+description: Conta a tuya rutina diaria. Adependa a dir a hora, os momentos d'o día y a charrar d'o que fas habitualment con l'aspecto habitual (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

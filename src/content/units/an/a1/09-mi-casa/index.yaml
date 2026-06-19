@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "A casa"
+order: 9
+description: "Charra d'a tuya casa: cambras, mobles y quefers d'a casa. Describe con quí vives."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

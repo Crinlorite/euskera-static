@@ -1,0 +1,14 @@
+id: a1-descriptions
+code: 03-descripciones
+level: a1
+title: "Descripcions fisiques e de caractèr"
+order: 3
+description: Apren a descríuer fisicament e de caractèr, e a distinguir cossí ès (izan) de cossí estàs (egon).
+estimatedMinutes: 55
+covers:
+  - physical-description
+  - hair-eyes
+  - character
+  - mental-states
+  - egon-nor
+  - izan-vs-egon

@@ -28,6 +28,7 @@ let exerciseCount = 0;
 
 for (const file of walk(ROOT)) {
   const rel = relative(ROOT, file).replaceAll('\\', '/');
+  const locale = rel.split('/')[0]; // ids únicos POR idioma (se repiten entre idiomas a propósito)
   const raw = readFileSync(file, 'utf8');
   const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!m) { problems.push(`${rel}: sin frontmatter`); continue; }
@@ -35,8 +36,9 @@ for (const file of walk(ROOT)) {
   try { fm = load(m[1]); } catch (e) { problems.push(`${rel}: YAML inválido — ${e.message}`); continue; }
   lessonCount++;
 
-  if (lessonIds.has(fm.id)) problems.push(`${rel}: id de lección duplicado "${fm.id}" (también en ${lessonIds.get(fm.id)})`);
-  else lessonIds.set(fm.id, rel);
+  const lKey = `${locale}::${fm.id}`;
+  if (lessonIds.has(lKey)) problems.push(`${rel}: id de lección duplicado "${fm.id}" (también en ${lessonIds.get(lKey)})`);
+  else lessonIds.set(lKey, rel);
 
   const seenLocal = new Set();
   for (const ex of fm.exercises ?? []) {
@@ -44,9 +46,10 @@ for (const file of walk(ROOT)) {
     const where = `${rel} → ${ex.id}`;
     if (seenLocal.has(ex.id)) problems.push(`${where}: id de ejercicio repetido en la misma lección`);
     seenLocal.add(ex.id);
-    if (exerciseIds.has(ex.id) && exerciseIds.get(ex.id) !== rel) {
-      problems.push(`${where}: id de ejercicio duplicado globalmente (también en ${exerciseIds.get(ex.id)})`);
-    } else exerciseIds.set(ex.id, rel);
+    const exKey = `${locale}::${ex.id}`;
+    if (exerciseIds.has(exKey) && exerciseIds.get(exKey) !== rel) {
+      problems.push(`${where}: id de ejercicio duplicado en ${locale} (también en ${exerciseIds.get(exKey)})`);
+    } else exerciseIds.set(exKey, rel);
 
     if (ex.type === 'multiple-choice') {
       if (ex.answer >= ex.options.length) problems.push(`${where}: answer=${ex.answer} fuera de rango (${ex.options.length} opciones)`);

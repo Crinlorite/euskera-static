@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "A cidade e os lugares"
+order: 5
+description: Lugares da cidade, localização com o caso NON, posições espaciais e existência (ba al dago…?).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

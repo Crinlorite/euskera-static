@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "El pueblu y los llugares"
+order: 5
+description: Llugares del pueblu, allugamientu col casu NON, posiciones espaciales y esistencia (ba al dago…?).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

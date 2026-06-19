@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "The house"
+order: 9
+description: "Talk about your house: rooms, furniture and household chores. Describe who you live with."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

@@ -1,0 +1,15 @@
+id: a1-recent-past
+code: 08-pasado-reciente
+level: a1
+title: "가까운 과거"
+order: 8
+description: 오늘 당신이 한 일을 이야기해 보세요. 바스크어의 가까운 과거(orainaldi burutua)와 시간 표지와 함께 NOR(naiz) 대 NOR-NORK(dut)의 구분을 배워 보세요.
+estimatedMinutes: 55
+covers:
+  - participle-form
+  - recent-past-dut
+  - recent-past-naiz
+  - recent-past-time-markers
+  - common-verbs
+  - parts-of-day
+  - time-expressions

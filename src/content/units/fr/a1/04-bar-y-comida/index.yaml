@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: "Le bar et la nourriture"
+order: 4
+description: Boissons, plats, repas de la journée et comment commander au bar — vocabulaire indispensable pour toute conversation quotidienne.
+estimatedMinutes: 55
+covers:
+  - food-bar
+  - meals
+  - bar-ordering
+  - prices
+  - pintxos
+  - numbers-1-100

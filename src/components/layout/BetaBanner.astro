@@ -1,0 +1,68 @@
+---
+// Aviso persistente para idiomas en beta. Patrón tomado de royalforge
+// (BetaBadge): franja fija, role=status, descartable por sesión, que publica
+// su altura como --beta-banner-h para que header y contenido se desplacen.
+// Aquí la condición NO es el subdominio sino el status del LOCALE: el aviso
+// solo sale cuando el idioma elegido está marcado como beta en LANGUAGES.
+import { LANGUAGES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+
+interface Props { locale: LocaleCode; }
+const { locale } = Astro.props;
+const isBeta = LANGUAGES[locale]?.status === 'beta';
+---
+{isBeta && (
+  <div id="beta-banner" class="beta-banner" role="status" aria-live="polite">
+    <span class="bb-icon" aria-hidden="true">🧪</span>
+    <span class="bb-text">{t(locale, 'beta.banner')}</span>
+    <a class="bb-link" href={`/${locale}/feedback/`}>{t(locale, 'beta.report')}</a>
+    <button type="button" id="beta-banner-dismiss" class="bb-dismiss" aria-label={t(locale, 'common.close')}>×</button>
+  </div>
+)}
+
+<style>
+  .beta-banner {
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline: 0;
+    z-index: 60; /* por encima del header (50) */
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    padding: var(--s-2) var(--s-4);
+    padding-block-start: max(var(--s-2), env(safe-area-inset-top, 0px));
+    background: var(--c-green-strong);
+    color: #fff;
+    font-size: 0.88rem;
+    line-height: 1.3;
+    box-shadow: 0 2px 12px -4px rgba(0, 0, 0, 0.4);
+  }
+  .bb-icon { flex-shrink: 0; }
+  .bb-text { flex: 1; min-inline-size: 0; }
+  .bb-link {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .bb-link:hover { color: #fff; opacity: 0.85; }
+  .bb-dismiss {
+    flex-shrink: 0;
+    inline-size: 28px;
+    block-size: 28px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1;
+    display: grid;
+    place-items: center;
+    transition: background 150ms;
+  }
+  .bb-dismiss:hover { background: rgba(255, 255, 255, 0.18); }
+  @media (max-width: 540px) {
+    .beta-banner { font-size: 0.8rem; gap: var(--s-2); padding-inline: var(--s-3); }
+    .bb-link { font-size: 0.78rem; }
+  }
+</style>

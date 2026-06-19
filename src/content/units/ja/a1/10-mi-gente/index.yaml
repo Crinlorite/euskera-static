@@ -1,0 +1,14 @@
+id: a1-people
+code: 10-mi-gente
+level: a1
+title: "近所の人と人間関係"
+order: 10
+description: "近所の人を描写しよう：人間関係、職業、そして他の人たちの日課。"
+estimatedMinutes: 55
+covers:
+  - social-relations
+  - professions
+  - professions-extended
+  - third-person-introductions
+  - daily-routine-third-person
+  - possessives

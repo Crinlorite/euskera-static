@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "La routine quotidienne et l'heure"
+order: 7
+description: Raconte ta routine quotidienne. Apprends à dire l'heure, les moments de la journée et à parler de ce que tu fais habituellement avec l'aspect habituel (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

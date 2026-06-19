@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "村镇与场所"
+order: 5
+description: 村镇里的场所、用 NON 格表示位置、空间方位以及存在表达（ba al dago…?）。
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

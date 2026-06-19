@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: "바와 음식"
+order: 4
+description: 음료, 음식, 하루 식사, 그리고 바에서 주문하는 법 — 모든 일상 대화에 꼭 필요한 어휘.
+estimatedMinutes: 55
+covers:
+  - food-bar
+  - meals
+  - bar-ordering
+  - prices
+  - pintxos
+  - numbers-1-100

@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "Casa"
+order: 9
+description: "Vorbește despre casa ta: camere, mobilier și treburi gospodărești. Descrie cu cine locuiești."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

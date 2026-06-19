@@ -1,0 +1,16 @@
+id: a1-greetings
+code: 01-saludos
+level: a1
+title: Begrüßungen und erste Wörter
+order: 1
+description: Lerne, auf Euskera zu grüßen, dich zu verabschieden und dich vorzustellen.
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities

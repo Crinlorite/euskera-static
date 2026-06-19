@@ -1,0 +1,16 @@
+id: a1-family
+code: 02-familia
+level: a1
+title: 家庭
+order: 2
+description: 用来谈论你的家庭以及别人家庭的词汇和句型。
+estimatedMinutes: 55
+covers:
+  - family-basics
+  - family-extended
+  - possessives
+  - ukan-basic
+  - ukan-plural-objects
+  - partitive-rik
+  - numbers-1-20
+  - ages

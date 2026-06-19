@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "마을과 장소들"
+order: 5
+description: 마을의 장소들, NON 격을 이용한 위치 표현, 공간적 위치 및 존재 표현 (ba al dago…?).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

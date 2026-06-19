@@ -1,0 +1,114 @@
+code: a1
+name: A1 Maila
+description: Начальный уровень. Базовое понимание и речь в повседневных ситуациях.
+order: 1
+status: active
+beta: false
+curriculum:
+  # Приветствия и социальное общение
+  - { id: greetings, title: Приветствия и прощания (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: Вежливость и аудитория (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # Представления и личность
+  - { id: introductions, title: 'Представления (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: Личные данные (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: 'Возраст: ... urte ditut/ditu/dituzte' }
+  # Базовые глаголы
+  - { id: izan-nor, title: 'Глагол "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: 'Отрицание: ez перед глаголом (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: 'Глагол "egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'Различие izan/egon: качество vs временное состояние' }
+  - { id: ukan-basic, title: 'Глагол "ukan" (NOR-NORK) — иметь: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'Множественное дополнение в ukan: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: 'Партитив -rik в отрицании с неопределённым дополнением' }
+  - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — глагол предпочтения (введение NOR-NORI)' }
+  # Местоимения и указательные слова
+  - { id: personal-pronouns, title: Личные местоимения (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: Указательные hau/hori/hura и множественные hauek/horiek/haiek }
+  - { id: possessives, title: Притяжательные (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # Семья
+  - { id: family-types, title: Типы семьи (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: Семья (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: Расширенная семья (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # Происхождение, проживание, местоположение
+  - { id: origin-koa, title: 'Происхождение: Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: 'Проживание: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: Распространённые страны и национальности }
+  - { id: companions-rekin, title: 'Социатив: Norekin bizi zara? → X-(r)ekin' }
+  # Падежи баскского языка
+  - { id: nor-case, title: 'Падеж NOR (абсолютив): -A единственное, -AK множественное' }
+  - { id: nork-case, title: 'Падеж NORK (эргатив): -AK единственное, -EK множественное' }
+  - { id: nori-case, title: 'Падеж NORI (датив): -ARI единственное, -EI множественное' }
+  - { id: noren-case, title: 'Генитив NOREN: принадлежность -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: 'Локатив NON: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # Описания и профессии
+  - { id: physical-description, title: 'NOLAKOA da? — физическое описание с izan + прилагательное+A' }
+  - { id: mental-states, title: 'NOLA dago? — временное состояние с egon + прилагательное (pozik, triste)' }
+  - { id: hair-eyes, title: 'Волосы и глаза (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: 'Характер (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: 'Профессии (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # Тематическая лексика
+  - { id: numbers-1-20, title: Числа от 1 до 20 }
+  - { id: numbers-1-100, title: Числа от 1 до 100 (двадцатеричная система) }
+  - { id: colors, title: Цвета (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: 'Дни недели (astelehena → igandea)' }
+  - { id: months, title: 'Месяцы года (urtarrila → abendua)' }
+  - { id: seasons, title: Времена года (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: 'Который час (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: 'Время: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: Части тела (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: 'Базовое здоровье (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: Базовая одежда (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: 'Места в городе (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: 'Направления (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: 'Бар и еда (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: 'Приёмы пищи (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: 'Базовые глаголы (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: 'Базовые вопросы (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: 'Поздравления (Zorionak, Urte askotarako, Topa egin)' }
+  # Район, местоположение, существование, движение
+  - { id: spatial-positions, title: 'Пространственные положения (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: 'Существование с bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: 'Наречия места hemen / hor / han и указательные honetan / horretan / hartan' }
+  - { id: movement-verbs, title: 'Глаголы движения joan, etorri, ibili (синтетические: noa/zoaz, nator/zatoz, nabil/zabiltza)' }
+  - { id: nora-allative, title: 'Падеж NORA: -ra (направление, цель) — Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'Падеж NONDIK: -tik (исходный пункт движения) — Etxetik nator' }
+  - { id: instrumental-z, title: 'Инструменталь -z для транспорта и способа (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: 'Указания маршрута (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # Дом и домашняя жизнь
+  - { id: home-rooms, title: 'Комнаты в доме (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: 'Мебель и предметы дома (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: 'Домашние дела (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: 'Типы совместного проживания (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: 'Описание своего дома (gela kopurua, kokapena, altzariak)' }
+  # Соседи и расширенная социальная жизнь
+  - { id: social-relations, title: 'Социальные отношения (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: 'Профессии (расширение: erizaina, polizia, kazetaria, dendaria, mekanikaria)' }
+  - { id: third-person-introductions, title: 'Представить другого человека (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: 'Распорядок и профессия других (Bera medikua da, ospitalean lan egiten du)' }
+  # Бар, еда и заказы
+  - { id: bar-ordering, title: 'Заказ в баре (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: 'Цены и количества (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: 'Типичная барная еда (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # Покупки (Тема 11)
+  - { id: shops, title: 'Типы магазинов (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: 'Количества и единицы (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: 'Делать покупки: список, заказ, оплата (Hartuko dut..., Eman X mesedez)' }
+  # Ресторан (Тема 12)
+  - { id: restaurant-vocab, title: 'Ресторан: типы (jatetxea, sagardotegia, erretegia) и части меню (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: 'Заказ за столом (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: 'Счёт и способы оплаты (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # Ежедневник и ближайшее будущее (Тема 13)
+  - { id: weekly-planning, title: 'Планирование недели: ежедневник, встречи и обязательства (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: 'Ближайшее будущее: частица -ko/-go + вспомогательный глагол (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: 'Маркеры времени когда (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # Распорядок дня, время и части дня (Тема 7)
+  - { id: time-detail, title: 'Время с подробностями (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: 'Части дня (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: 'Распорядок дня (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: 'Хабитуальный аспект: partizipioa + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: 'Частота (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # Недавнее прошлое / orainaldi burutua (Тема 8)
+  - { id: participle-form, title: 'Partizipioa: форма глагола для недавнего прошлого (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: 'Недавнее прошлое NOR-NORK: partizipioa + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: 'Недавнее прошлое NOR: partizipioa + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: 'Маркеры недавнего прошлого (gaur, gaur goizean, atzo, atzo arratsaldean)' }

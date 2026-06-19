@@ -1,0 +1,15 @@
+id: a1-recent-past
+code: 08-pasado-reciente
+level: a1
+title: "O pasau recient"
+order: 8
+description: Conta lo que has feito hue. Aprende lo pasau recient de l'euskera (orainaldi burutua) y la distinción NOR (naiz) vs NOR-NORK (dut), con marcadors temporals.
+estimatedMinutes: 55
+covers:
+  - participle-form
+  - recent-past-dut
+  - recent-past-naiz
+  - recent-past-time-markers
+  - common-verbs
+  - parts-of-day
+  - time-expressions

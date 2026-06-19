@@ -1,0 +1,14 @@
+id: a1-week-plan
+code: 13-agenda
+level: a1
+title: "每周日程"
+order: 13
+description: 规划一周、谈论约会与安排，并使用近将来时。
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs

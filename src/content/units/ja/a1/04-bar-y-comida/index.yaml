@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: "バルと食事"
+order: 4
+description: "飲み物、食べ物、一日の食事、そしてバルでの注文の仕方 — 日常のあらゆる会話に欠かせない語彙。"
+estimatedMinutes: 55
+covers:
+  - food-bar
+  - meals
+  - bar-ordering
+  - prices
+  - pintxos
+  - numbers-1-100

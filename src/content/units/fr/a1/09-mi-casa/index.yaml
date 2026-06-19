@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "La maison"
+order: 9
+description: "Parle de ta maison : les pièces, les meubles et les tâches ménagères. Décris avec qui tu vis."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

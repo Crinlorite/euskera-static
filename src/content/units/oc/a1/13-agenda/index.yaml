@@ -1,0 +1,14 @@
+id: a1-week-plan
+code: 13-agenda
+level: a1
+title: "L'agenda setmanau"
+order: 13
+description: Planificar era setmana, parlar de cites e compromisi, e emplegar eth futur pròche.
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs

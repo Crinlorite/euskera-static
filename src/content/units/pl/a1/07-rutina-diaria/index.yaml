@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "Codzienna rutyna i godzina"
+order: 7
+description: Opowiedz o swojej codziennej rutynie. Naucz się podawać godzinę, pory dnia oraz mówić o tym, co robisz zwykle, używając aspektu habitualnego (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

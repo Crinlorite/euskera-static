@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "Indicazioni e movimento"
+order: 6
+description: Verbi di movimento, dare e capire indicazioni, casi NORA e NONDIK, e strumentale -z per i mezzi di trasporto.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

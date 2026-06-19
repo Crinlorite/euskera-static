@@ -1,0 +1,114 @@
+code: a1
+name: A1 Maila
+description: Nível inicial. Compreensão e produção básica em situações cotidianas.
+order: 1
+status: active
+beta: false
+curriculum:
+  # Saudações e comunicação social
+  - { id: greetings, title: Saudações e despedidas (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: Cortesia e sala de aula (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # Apresentações e identidade
+  - { id: introductions, title: 'Apresentações (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: Dados pessoais (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: 'Idade: ... urte ditut/ditu/dituzte' }
+  # Verbos básicos
+  - { id: izan-nor, title: 'Verbo "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: 'Negação: ez anteposto ao verbo (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: 'Verbo "egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'Distinção izan/egon: qualidade vs estado passageiro' }
+  - { id: ukan-basic, title: 'Verbo "ukan" (NOR-NORK) — ter: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'Objeto plural em ukan: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: 'Partitivo -rik na negação com objeto indefinido' }
+  - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — verbo de gosto (introdução NOR-NORI)' }
+  # Pronomes e demonstrativos
+  - { id: personal-pronouns, title: Pronomes pessoais (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: Demonstrativos hau/hori/hura e plurais hauek/horiek/haiek }
+  - { id: possessives, title: Possessivos (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # Família
+  - { id: family-types, title: Tipos de família (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: Família (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: Família estendida (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # Origem, residência, localização
+  - { id: origin-koa, title: 'Procedência: Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: 'Residência: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: Países comuns e nacionalidades }
+  - { id: companions-rekin, title: 'Sociativo: Norekin bizi zara? → X-(r)ekin' }
+  # Casos do euskera
+  - { id: nor-case, title: 'Caso NOR (absolutivo): -A singular, -AK plural' }
+  - { id: nork-case, title: 'Caso NORK (ergativo): -AK singular, -EK plural' }
+  - { id: nori-case, title: 'Caso NORI (dativo): -ARI singular, -EI plural' }
+  - { id: noren-case, title: 'Genitivo NOREN: posse -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: 'Locativo NON: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # Descrições e profissões
+  - { id: physical-description, title: 'NOLAKOA da? — descrição física com izan + adjetivo+A' }
+  - { id: mental-states, title: 'NOLA dago? — estado passageiro com egon + adjetivo (pozik, triste)' }
+  - { id: hair-eyes, title: 'Cabelo e olhos (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: 'Personalidade (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: 'Profissões (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # Vocabulário temático
+  - { id: numbers-1-20, title: Números de 1 a 20 }
+  - { id: numbers-1-100, title: Números de 1 a 100 (sistema vigesimal) }
+  - { id: colors, title: Cores (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: 'Dias da semana (astelehena → igandea)' }
+  - { id: months, title: 'Meses do ano (urtarrila → abendua)' }
+  - { id: seasons, title: Estações (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: 'Dizer as horas (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: 'Tempo: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: Partes do corpo (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: 'Saúde básica (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: Roupas básicas (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: 'Lugares da cidade (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: 'Direções (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: 'Bar e comida (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: 'Refeições do dia (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: 'Verbos básicos (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: 'Perguntas básicas (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: 'Felicitações (Zorionak, Urte askotarako, Topa egin)' }
+  # Bairro, localização, existência, movimento
+  - { id: spatial-positions, title: 'Posições espaciais (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: 'Existência com bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: 'Advérbios de lugar hemen / hor / han e demonstrativos honetan / horretan / hartan' }
+  - { id: movement-verbs, title: 'Verbos de movimento joan, etorri, ibili (sintéticos: noa/zoaz, nator/zatoz, nabil/zabiltza)' }
+  - { id: nora-allative, title: 'Caso NORA: -ra (direção, destino) — Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'Caso NONDIK: -tik (origem, procedência do movimento) — Etxetik nator' }
+  - { id: instrumental-z, title: 'Instrumental -z para transporte e modo (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: 'Instruções de rota (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # Casa e vida doméstica
+  - { id: home-rooms, title: 'Cômodos da casa (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: 'Móveis e objetos do lar (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: 'Tarefas domésticas (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: 'Tipos de convivência (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: 'Descrever a própria casa (gela kopurua, kokapena, altzariak)' }
+  # Vizinhos e vida social ampliada
+  - { id: social-relations, title: 'Relações sociais (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: 'Profissões (ampliação: erizaina, polizia, kazetaria, dendaria, mekanikaria)' }
+  - { id: third-person-introductions, title: 'Apresentar outra pessoa (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: 'Rotina e profissão de outros (Bera medikua da, ospitalean lan egiten du)' }
+  # Bar, comida e pedidos
+  - { id: bar-ordering, title: 'Pedir no bar (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: 'Preços e quantidades (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: 'Comida típica de bar (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # Compras (Gaia 11)
+  - { id: shops, title: 'Tipos de loja (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: 'Quantidades e unidades (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: 'Fazer compras: lista, pedir, pagar (Hartuko dut..., Eman X mesedez)' }
+  # Restaurante (Gaia 12)
+  - { id: restaurant-vocab, title: 'Restaurante: tipos (jatetxea, sagardotegia, erretegia) e partes do cardápio (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: 'Pedir à mesa (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: 'A conta e formas de pagamento (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # Agenda e futuro próximo (Gaia 13)
+  - { id: weekly-planning, title: 'Planejamento semanal: agenda, compromissos e encontros (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: 'Futuro próximo: partícula -ko/-go + verbo auxiliar (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: 'Marcadores de quando (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # Rotina diária, hora e momentos do dia (Gaia 7)
+  - { id: time-detail, title: 'Hora com detalhe (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: 'Momentos do dia (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: 'Rotina diária (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: 'Aspecto habitual: partizipioa + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: 'Frequência (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # Passado recente / orainaldi burutua (Gaia 8)
+  - { id: participle-form, title: 'Partizipioa: forma do verbo para o passado recente (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: 'Passado recente NOR-NORK: partizipioa + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: 'Passado recente NOR: partizipioa + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: 'Marcadores de passado recente (gaur, gaur goizean, atzo, atzo arratsaldean)' }

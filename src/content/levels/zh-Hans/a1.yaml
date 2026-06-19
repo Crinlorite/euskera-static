@@ -1,0 +1,114 @@
+code: a1
+name: A1 等级
+description: 入门级别。在日常情境中进行基础的理解与表达。
+order: 1
+status: active
+beta: false
+curriculum:
+  # 问候与社交沟通
+  - { id: greetings, title: 打招呼与告别 (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: 礼貌用语与课堂用语 (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # 自我介绍与身份
+  - { id: introductions, title: '自我介绍 (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: 个人信息 (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: '年龄：... urte ditut/ditu/dituzte' }
+  # 基础动词
+  - { id: izan-nor, title: '动词 "izan" (NOR)：naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: '否定：在动词前加 ez (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: '动词 "egon" (NOR)：nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: '区分 izan/egon：固有属性 vs 暂时状态' }
+  - { id: ukan-basic, title: '动词 "ukan" (NOR-NORK) — 拥有：dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'ukan 中的复数宾语：ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: '部分格 -rik 用于带不定宾语的否定句' }
+  - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — 表示喜好的动词 (NOR-NORI 入门)' }
+  # 代词与指示词
+  - { id: personal-pronouns, title: 人称代词 (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: 指示词 hau/hori/hura 及其复数 hauek/horiek/haiek }
+  - { id: possessives, title: 物主代词 (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # 家庭
+  - { id: family-types, title: 家庭类型 (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: 家庭 (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: 大家庭 (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # 出身、居住、位置
+  - { id: origin-koa, title: '来历：Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: '居住地：Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: 常见国家与国籍 }
+  - { id: companions-rekin, title: '共同格：Norekin bizi zara? → X-(r)ekin' }
+  # 巴斯克语的格
+  - { id: nor-case, title: 'NOR 格（绝对格）：单数 -A，复数 -AK' }
+  - { id: nork-case, title: 'NORK 格（作格）：单数 -AK，复数 -EK' }
+  - { id: nori-case, title: 'NORI 格（与格）：单数 -ARI，复数 -EI' }
+  - { id: noren-case, title: '属格 NOREN：所有 -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: '位置格 NON：-(e)n (Bilbon, Donostian, Madrilen)' }
+  # 描述与职业
+  - { id: physical-description, title: 'NOLAKOA da? — 用 izan + 形容词+A 进行外貌描述' }
+  - { id: mental-states, title: 'NOLA dago? — 用 egon + 形容词表示暂时状态 (pozik, triste)' }
+  - { id: hair-eyes, title: '头发和眼睛 (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: '性格 (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: '职业 (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # 主题词汇
+  - { id: numbers-1-20, title: 1 到 20 的数字 }
+  - { id: numbers-1-100, title: 1 到 100 的数字（二十进制系统） }
+  - { id: colors, title: 颜色 (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: '星期 (astelehena → igandea)' }
+  - { id: months, title: '一年的月份 (urtarrila → abendua)' }
+  - { id: seasons, title: 季节 (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: '说时间 (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: '时间：lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: 身体部位 (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: '基础健康 (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: 基础衣物 (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: '城镇的地点 (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: '方向 (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: '酒吧与食物 (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: '一天的餐食 (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: '基础动词 (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: '基础疑问句 (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: '祝贺语 (Zorionak, Urte askotarako, Topa egin)' }
+  # 街区、位置、存在、移动
+  - { id: spatial-positions, title: '空间位置 (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: '用 bada/badago 表示存在 (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: '地点副词 hemen / hor / han 及指示词 honetan / horretan / hartan' }
+  - { id: movement-verbs, title: '移动动词 joan, etorri, ibili（合成形式：noa/zoaz, nator/zatoz, nabil/zabiltza）' }
+  - { id: nora-allative, title: 'NORA 格：-ra（方向、目的地）— Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'NONDIK 格：-tik（移动的来源、出处）— Etxetik nator' }
+  - { id: instrumental-z, title: '工具格 -z 用于交通方式和方式 (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: '路线指示 (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # 家与居家生活
+  - { id: home-rooms, title: '房子的房间 (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: '家具与家居物品 (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: '家务 (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: '同居类型 (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: '描述自己的家 (gela kopurua, kokapena, altzariak)' }
+  # 邻居与扩展的社交生活
+  - { id: social-relations, title: '社会关系 (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: '职业（扩展：erizaina, polizia, kazetaria, dendaria, mekanikaria）' }
+  - { id: third-person-introductions, title: '介绍他人 (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: '他人的日常与职业 (Bera medikua da, ospitalean lan egiten du)' }
+  # 酒吧、食物与点单
+  - { id: bar-ordering, title: '在酒吧点单 (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: '价格与数量 (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: '典型酒吧食物 (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # 购物 (Gaia 11)
+  - { id: shops, title: '商店类型 (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: '数量与单位 (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: '购物：清单、点单、付款 (Hartuko dut..., Eman X mesedez)' }
+  # 餐厅 (Gaia 12)
+  - { id: restaurant-vocab, title: '餐厅：类型 (jatetxea, sagardotegia, erretegia) 及菜单部分 (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: '在餐桌点餐 (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: '账单与支付方式 (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # 日程与近期将来 (Gaia 13)
+  - { id: weekly-planning, title: '每周规划：日程、约会与约定 (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: '近期将来：助词 -ko/-go + 助动词 (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: '表示何时的标记词 (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # 日常作息、时间与一天的时段 (Gaia 7)
+  - { id: time-detail, title: '详细的时间表达 (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: '一天的时段 (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: '日常作息 (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: '习惯体：分词 + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: '频率 (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # 近期过去 / orainaldi burutua (Gaia 8)
+  - { id: participle-form, title: 'Partizipioa：用于近期过去的动词形式 (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: '近期过去 NOR-NORK：分词 + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: '近期过去 NOR：分词 + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: '近期过去的标记词 (gaur, gaur goizean, atzo, atzo arratsaldean)' }

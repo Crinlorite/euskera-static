@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "Eth pòble e es lòcs"
+order: 5
+description: Lòcs deth pòble, ubicacion damb eth cas NON, posicions espaciaus e existéncia (ba al dago…?).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

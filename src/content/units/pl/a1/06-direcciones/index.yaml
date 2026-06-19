@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "Kierunki i ruch"
+order: 6
+description: Czasowniki ruchu, udzielanie i rozumienie wskazówek, przypadki NORA i NONDIK oraz instrumentalis -z dla środków transportu.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

@@ -1,0 +1,114 @@
+code: a1
+name: Nivelul A1
+description: Nivel începător. Înțelegere și producere de bază în situații cotidiene.
+order: 1
+status: active
+beta: false
+curriculum:
+  # Salutări și comunicare socială
+  - { id: greetings, title: Salutări și formule de rămas-bun (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: Politețe și clasă (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # Prezentări și identitate
+  - { id: introductions, title: 'Prezentări (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: Date personale (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: 'Vârsta: ... urte ditut/ditu/dituzte' }
+  # Verbe de bază
+  - { id: izan-nor, title: 'Verbul „izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: 'Negația: ez plasat înaintea verbului (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: 'Verbul „egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'Distincția izan/egon: calitate vs stare trecătoare' }
+  - { id: ukan-basic, title: 'Verbul „ukan" (NOR-NORK) — a avea: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'Obiect la plural în ukan: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: 'Partitivul -rik în negație cu obiect nedeterminat' }
+  - { id: gustatzen-zait, title: '„Gustatzen zait/zaio" — verb de plăcere (introducere NOR-NORI)' }
+  # Pronume și demonstrative
+  - { id: personal-pronouns, title: Pronume personale (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: Demonstrative hau/hori/hura și pluralele hauek/horiek/haiek }
+  - { id: possessives, title: Posesive (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # Familie
+  - { id: family-types, title: Tipuri de familie (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: Familie (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: Familie extinsă (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # Origine, reședință, localizare
+  - { id: origin-koa, title: 'Proveniență: Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: 'Reședință: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: Țări frecvente și naționalități }
+  - { id: companions-rekin, title: 'Sociativul: Norekin bizi zara? → X-(r)ekin' }
+  # Cazurile limbii euskera
+  - { id: nor-case, title: 'Cazul NOR (absolutiv): -A singular, -AK plural' }
+  - { id: nork-case, title: 'Cazul NORK (ergativ): -AK singular, -EK plural' }
+  - { id: nori-case, title: 'Cazul NORI (dativ): -ARI singular, -EI plural' }
+  - { id: noren-case, title: 'Genitivul NOREN: posesie -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: 'Locativul NON: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # Descrieri și profesii
+  - { id: physical-description, title: 'NOLAKOA da? — descriere fizică cu izan + adjectiv+A' }
+  - { id: mental-states, title: 'NOLA dago? — stare trecătoare cu egon + adjectiv (pozik, triste)' }
+  - { id: hair-eyes, title: 'Păr și ochi (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: 'Caracter (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: 'Profesii (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # Vocabular tematic
+  - { id: numbers-1-20, title: Numerele de la 1 la 20 }
+  - { id: numbers-1-100, title: Numerele de la 1 la 100 (sistem vigesimal) }
+  - { id: colors, title: Culori (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: 'Zilele săptămânii (astelehena → igandea)' }
+  - { id: months, title: 'Lunile anului (urtarrila → abendua)' }
+  - { id: seasons, title: Anotimpuri (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: 'A spune ora (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: 'Timp: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: Părți ale corpului (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: 'Sănătate de bază (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: Îmbrăcăminte de bază (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: 'Locuri din oraș (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: 'Direcții (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: 'Bar și mâncare (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: 'Mesele zilei (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: 'Verbe de bază (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: 'Întrebări de bază (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: 'Felicitări (Zorionak, Urte askotarako, Topa egin)' }
+  # Cartier, localizare, existență, mișcare
+  - { id: spatial-positions, title: 'Poziții spațiale (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: 'Existență cu bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: 'Adverbe de loc hemen / hor / han și demonstrative honetan / horretan / hartan' }
+  - { id: movement-verbs, title: 'Verbe de mișcare joan, etorri, ibili (sintetice: noa/zoaz, nator/zatoz, nabil/zabiltza)' }
+  - { id: nora-allative, title: 'Cazul NORA: -ra (direcție, destinație) — Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'Cazul NONDIK: -tik (origine, proveniența mișcării) — Etxetik nator' }
+  - { id: instrumental-z, title: 'Instrumentalul -z pentru transport și mod (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: 'Instrucțiuni de traseu (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # Casă și viață domestică
+  - { id: home-rooms, title: 'Camerele casei (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: 'Mobilier și obiecte de uz casnic (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: 'Treburi casnice (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: 'Tipuri de conviețuire (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: 'A descrie propria casă (gela kopurua, kokapena, altzariak)' }
+  # Vecini și viață socială extinsă
+  - { id: social-relations, title: 'Relații sociale (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: 'Profesii (extindere: erizaina, polizia, kazetaria, dendaria, mekanikaria)' }
+  - { id: third-person-introductions, title: 'A prezenta o altă persoană (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: 'Rutina și profesia altora (Bera medikua da, ospitalean lan egiten du)' }
+  # Bar, mâncare și cereri
+  - { id: bar-ordering, title: 'A comanda la bar (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: 'Prețuri și cantități (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: 'Mâncare tipică de bar (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # Cumpărături (Gaia 11)
+  - { id: shops, title: 'Tipuri de magazin (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: 'Cantități și unități (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: 'A face cumpărăturile: lista, a cere, a plăti (Hartuko dut..., Eman X mesedez)' }
+  # Restaurant (Gaia 12)
+  - { id: restaurant-vocab, title: 'Restaurant: tipuri (jatetxea, sagardotegia, erretegia) și părțile meniului (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: 'A comanda la masă (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: 'Nota de plată și modalitățile de plată (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # Agendă și viitor apropiat (Gaia 13)
+  - { id: weekly-planning, title: 'Planificare săptămânală: agendă, întâlniri și angajamente (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: 'Viitor apropiat: particula -ko/-go + verb auxiliar (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: 'Marcatori de când (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # Rutina zilnică, ora și momentele zilei (Gaia 7)
+  - { id: time-detail, title: 'Ora în detaliu (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: 'Momentele zilei (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: 'Rutina zilnică (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: 'Aspectul habitual: partizipioa + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: 'Frecvență (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # Trecut recent / orainaldi burutua (Gaia 8)
+  - { id: participle-form, title: 'Partizipioa: forma verbului pentru trecutul recent (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: 'Trecut recent NOR-NORK: partizipioa + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: 'Trecut recent NOR: partizipioa + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: 'Marcatori de trecut recent (gaur, gaur goizean, atzo, atzo arratsaldean)' }
