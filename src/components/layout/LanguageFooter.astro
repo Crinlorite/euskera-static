@@ -11,6 +11,14 @@ const otros = all.filter((l) =>
   l.status === 'planned' && !['ca','gl','oc','ast','an'].includes(l.code)
 );
 const current = LANGUAGES[currentLocale];
+
+// Cambiar de idioma mantiene la página actual: sustituye el segmento de locale
+// por el nuevo. Si la ruta no tiene segmento (raíz), cae al inicio del idioma.
+const here = Astro.url.pathname;
+const switchTo = (code: string) => {
+  const mapped = here.replace(/^\/[a-zA-Z-]+/, `/${code}`);
+  return mapped === `/${code}` || mapped.startsWith(`/${code}/`) ? mapped : `/${code}/`;
+};
 ---
 <details class="lang-select">
   <summary>
@@ -29,7 +37,7 @@ const current = LANGUAGES[currentLocale];
         <ul>
           {active.map((l) => (
             <li>
-              <a href={`/${l.code}/`} aria-current={l.code === currentLocale ? 'true' : undefined} dir={l.dir}>
+              <a href={switchTo(l.code)} aria-current={l.code === currentLocale ? 'true' : undefined} dir={l.dir}>
                 {l.name}
                 {l.status === 'beta' && <span class="badge beta">Beta</span>}
               </a>
