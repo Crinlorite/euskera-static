@@ -6,6 +6,9 @@ import MobileDrawer from './MobileDrawer.svelte';
 interface Props { locale: LocaleCode; }
 const { locale } = Astro.props;
 
+// Nombre corto para el botón móvil: sin el paréntesis (Occitan (aranés) → Occitan).
+const langName = LANGUAGES[locale].name.replace(/\s*\([^)]*\)\s*$/, '');
+
 const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' }> = [
   { href: `/${locale}/`, key: 'nav.home' },
   { href: `/${locale}/a1/`, label: 'A1' },
@@ -43,7 +46,7 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
         <path d="M3 12h18" />
         <path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0 -18" />
       </svg>
-      <span class="lang-name">{LANGUAGES[locale].name}</span>
+      <span class="lang-name">{langName}</span>
       <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
     </a>
     <MobileDrawer client:load locale={locale} />
@@ -123,12 +126,26 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
   }
   .lang-mobile .globe { color: var(--c-red); flex-shrink: 0; }
   .lang-mobile .chev { color: var(--c-text-muted); flex-shrink: 0; }
-  .lang-mobile .lang-name { max-inline-size: 9ch; overflow: hidden; text-overflow: ellipsis; }
+  .lang-mobile .lang-name {
+    display: block;
+    min-inline-size: 0;
+    max-inline-size: 10ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
   .lang-mobile:hover { border-color: var(--c-red); color: var(--c-red); }
   [dir="rtl"] .lang-mobile { margin-inline-start: auto; }
 
   @media (max-width: 768px) {
     .primary-nav { display: none; }
     .lang-mobile { display: inline-flex; }
+    /* Libera espacio para el botón de idioma; el lema sigue en escritorio y footer. */
+    .brand-by { display: none; }
+  }
+  /* Pantallas muy estrechas: acorta más el nombre para que nunca se desborde. */
+  @media (max-width: 380px) {
+    .lang-mobile .lang-name { max-inline-size: 7ch; }
+    .lang-mobile { padding-inline: var(--s-2); gap: var(--s-1); }
   }
 </style>
