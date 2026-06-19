@@ -1,5 +1,5 @@
 export type LocaleCode =
-  | 'es' | 'ca' | 'gl' | 'eu' | 'ast' | 'an' | 'oc'
+  | 'es' | 'ca' | 'gl' | 'ast' | 'an' | 'oc'
   | 'en' | 'ar' | 'fr' | 'ro' | 'pt-BR'
   | 'de' | 'it' | 'ru' | 'pl' | 'zh-Hans' | 'ja' | 'ko';
 
@@ -18,7 +18,6 @@ export const LANGUAGES: Record<LocaleCode, LocaleInfo> = {
   // Cooficiales y reconocidas con protección legal en la Península
   'ca': { code: 'ca', name: 'Català', dir: 'ltr', status: 'beta' },
   'gl': { code: 'gl', name: 'Galego', dir: 'ltr', status: 'beta' },
-  'eu': { code: 'eu', name: 'Euskara', dir: 'ltr', status: 'planned' },
   'oc': { code: 'oc', name: 'Occitan (aranés)', dir: 'ltr', status: 'beta' },
   'ast': { code: 'ast', name: 'Asturianu', dir: 'ltr', status: 'beta' },
   'an': { code: 'an', name: 'Aragonés', dir: 'ltr', status: 'beta' },

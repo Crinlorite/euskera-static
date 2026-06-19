@@ -6,9 +6,9 @@ const { currentLocale } = Astro.props;
 
 const all = Object.values(LANGUAGES);
 const active = all.filter((l) => l.status === 'active' || l.status === 'beta');
-const peninsulares = all.filter((l) => l.status === 'planned' && ['ca','gl','eu','oc','ast','an'].includes(l.code));
+const peninsulares = all.filter((l) => l.status === 'planned' && ['ca','gl','oc','ast','an'].includes(l.code));
 const otros = all.filter((l) =>
-  l.status === 'planned' && !['ca','gl','eu','oc','ast','an'].includes(l.code)
+  l.status === 'planned' && !['ca','gl','oc','ast','an'].includes(l.code)
 );
 const current = LANGUAGES[currentLocale];
 ---
