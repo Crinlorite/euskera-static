@@ -1,0 +1,14 @@
+id: a1-week-plan
+code: 13-agenda
+level: a1
+title: "Plan tygodnia"
+order: 13
+description: Planowanie tygodnia, rozmawianie o spotkaniach i zobowiązaniach oraz używanie czasu przyszłego bliskiego.
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs

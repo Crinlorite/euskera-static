@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "道案内と移動"
+order: 6
+description: 移動の動詞、道案内を尋ねたり伝えたりする表現、格 NORA と NONDIK、交通手段を表す具格 -z。
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "Era casa"
+order: 9
+description: "Parla dera tua casa: crames, mòbles e prètzhèits domestics. Descriu damb qui viues."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

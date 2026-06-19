@@ -1,0 +1,16 @@
+id: a1-family
+code: 02-familia
+level: a1
+title: Семья
+order: 2
+description: Лексика и модели для разговора о своей семье и о семье других людей.
+estimatedMinutes: 55
+covers:
+  - family-basics
+  - family-extended
+  - possessives
+  - ukan-basic
+  - ukan-plural-objects
+  - partitive-rik
+  - numbers-1-20
+  - ages

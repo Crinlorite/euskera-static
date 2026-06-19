@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: "Barul și mâncarea"
+order: 4
+description: "Băuturi, mâncăruri, mesele zilei și cum să comanzi la bar — vocabular indispensabil pentru orice conversație de zi cu zi."
+estimatedMinutes: 55
+covers:
+  - food-bar
+  - meals
+  - bar-ordering
+  - prices
+  - pintxos
+  - numbers-1-100

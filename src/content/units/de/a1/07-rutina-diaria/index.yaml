@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "Tagesablauf und die Uhrzeit"
+order: 7
+description: Erzähle deinen Tagesablauf. Lerne, die Uhrzeit und die Tageszeiten zu sagen und über das zu sprechen, was du gewöhnlich tust, mit dem habituellen Aspekt (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

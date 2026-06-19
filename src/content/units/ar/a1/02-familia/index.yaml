@@ -1,0 +1,16 @@
+id: a1-family
+code: 02-familia
+level: a1
+title: العائلة
+order: 2
+description: مفردات وأنماط للحديث عن عائلتك وعائلة الآخرين.
+estimatedMinutes: 55
+covers:
+  - family-basics
+  - family-extended
+  - possessives
+  - ukan-basic
+  - ukan-plural-objects
+  - partitive-rik
+  - numbers-1-20
+  - ages

@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "Das Dorf und die Orte"
+order: 5
+description: Orte im Dorf, Lokalisierung mit dem Kasus NON, räumliche Positionen und Existenz (ba al dago…?).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

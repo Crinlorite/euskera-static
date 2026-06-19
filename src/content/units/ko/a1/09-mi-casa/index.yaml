@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: "집"
+order: 9
+description: "당신의 집에 대해 이야기하세요: 방, 가구 그리고 집안일. 누구와 함께 사는지 묘사하세요."
+estimatedMinutes: 55
+covers:
+  - home-rooms
+  - furniture
+  - house-chores
+  - companions-rekin
+  - living-arrangements
+  - house-description

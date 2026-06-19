@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "Direiciones y movimientu"
+order: 6
+description: Verbos de movimientu, dar y entender direiciones, casos NORA y NONDIK, ya instrumental -z pa los tresportes.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

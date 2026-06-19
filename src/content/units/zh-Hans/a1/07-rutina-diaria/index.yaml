@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "日常作息与时间"
+order: 7
+description: 讲述你的日常作息。学会表达时间、一天中的各个时段，并用惯常体（-tzen / -ten）谈论你平常做的事情。
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

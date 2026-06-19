@@ -1,0 +1,15 @@
+id: a1-recent-past
+code: 08-pasado-reciente
+level: a1
+title: "The recent past"
+order: 8
+description: Talk about what you have done today. Learn the recent past in Basque (orainaldi burutua) and the NOR (naiz) vs NOR-NORK (dut) distinction, with time markers.
+estimatedMinutes: 55
+covers:
+  - participle-form
+  - recent-past-dut
+  - recent-past-naiz
+  - recent-past-time-markers
+  - common-verbs
+  - parts-of-day
+  - time-expressions

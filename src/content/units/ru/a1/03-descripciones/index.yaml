@@ -1,0 +1,14 @@
+id: a1-descriptions
+code: 03-descripciones
+level: a1
+title: "Описание внешности и характера"
+order: 3
+description: Научитесь описывать внешность и характер, а также различать, какой вы (izan) и в каком состоянии находитесь (egon).
+estimatedMinutes: 55
+covers:
+  - physical-description
+  - hair-eyes
+  - character
+  - mental-states
+  - egon-nor
+  - izan-vs-egon

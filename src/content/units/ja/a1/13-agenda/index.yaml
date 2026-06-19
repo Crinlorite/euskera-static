@@ -1,0 +1,14 @@
+id: a1-week-plan
+code: 13-agenda
+level: a1
+title: "週間スケジュール"
+order: 13
+description: 一週間の予定を立て、約束やアポイントメントについて話し、近い未来の表現を使う。
+estimatedMinutes: 55
+covers:
+  - days-of-week
+  - time-expressions
+  - time-when
+  - weekly-planning
+  - future-koGo
+  - common-verbs

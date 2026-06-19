@@ -1,0 +1,114 @@
+code: a1
+name: A1 Maila
+description: 입문 단계. 일상적인 상황에서의 기본적인 이해와 표현.
+order: 1
+status: active
+beta: false
+curriculum:
+  # 인사와 사회적 의사소통
+  - { id: greetings, title: 인사와 작별 (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: 예의와 교실 (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # 자기소개와 정체성
+  - { id: introductions, title: '자기소개 (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: 개인 정보 (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: '나이: ... urte ditut/ditu/dituzte' }
+  # 기본 동사
+  - { id: izan-nor, title: '동사 "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: '부정: 동사 앞에 ez 붙이기 (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: '동사 "egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'izan/egon 구별: 성질 vs 일시적 상태' }
+  - { id: ukan-basic, title: '동사 "ukan" (NOR-NORK) — 가지다: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'ukan의 복수 목적어: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: '부정문에서 불특정 목적어와 함께 쓰는 부분격 -rik' }
+  - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — 기호를 나타내는 동사 (NOR-NORI 입문)' }
+  # 대명사와 지시사
+  - { id: personal-pronouns, title: 인칭 대명사 (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: 지시사 hau/hori/hura 와 복수형 hauek/horiek/haiek }
+  - { id: possessives, title: 소유격 (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # 가족
+  - { id: family-types, title: 가족 유형 (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: 가족 (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: 확대 가족 (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # 출신, 거주, 위치
+  - { id: origin-koa, title: '출신: Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: '거주: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: 흔한 나라와 국적 }
+  - { id: companions-rekin, title: '공동격: Norekin bizi zara? → X-(r)ekin' }
+  # 에우스케라의 격
+  - { id: nor-case, title: 'NOR 격 (절대격): 단수 -A, 복수 -AK' }
+  - { id: nork-case, title: 'NORK 격 (능격): 단수 -AK, 복수 -EK' }
+  - { id: nori-case, title: 'NORI 격 (여격): 단수 -ARI, 복수 -EI' }
+  - { id: noren-case, title: 'NOREN 속격: 소유 -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: 'NON 처소격: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # 묘사와 직업
+  - { id: physical-description, title: 'NOLAKOA da? — izan + 형용사+A 로 외모 묘사' }
+  - { id: mental-states, title: 'NOLA dago? — egon + 형용사로 일시적 상태 (pozik, triste)' }
+  - { id: hair-eyes, title: '머리카락과 눈 (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: '성격 (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: '직업 (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # 주제별 어휘
+  - { id: numbers-1-20, title: 1부터 20까지의 숫자 }
+  - { id: numbers-1-100, title: 1부터 100까지의 숫자 (20진법 체계) }
+  - { id: colors, title: 색깔 (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: '요일 (astelehena → igandea)' }
+  - { id: months, title: '연중 달 (urtarrila → abendua)' }
+  - { id: seasons, title: 계절 (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: '시간 말하기 (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: '시간: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: 신체 부위 (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: '기본 건강 (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: 기본 의류 (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: '마을의 장소 (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: '방향 (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: '바와 음식 (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: '하루의 식사 (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: '기본 동사 (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: '기본 의문사 (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: '축하 인사 (Zorionak, Urte askotarako, Topa egin)' }
+  # 동네, 위치, 존재, 이동
+  - { id: spatial-positions, title: '공간 위치 (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: '존재 표현 bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: '장소 부사 hemen / hor / han 와 지시사 honetan / horretan / hartan' }
+  - { id: movement-verbs, title: '이동 동사 joan, etorri, ibili (종합형: noa/zoaz, nator/zatoz, nabil/zabiltza)' }
+  - { id: nora-allative, title: 'NORA 격: -ra (방향, 목적지) — Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'NONDIK 격: -tik (이동의 출발, 출처) — Etxetik nator' }
+  - { id: instrumental-z, title: '교통과 방법을 나타내는 도구격 -z (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: '길 안내 (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # 집과 가정 생활
+  - { id: home-rooms, title: '집의 방 (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: '가구와 가정용품 (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: '집안일 (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: '동거 형태 (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: '자기 집 묘사하기 (gela kopurua, kokapena, altzariak)' }
+  # 이웃과 확장된 사회 생활
+  - { id: social-relations, title: '사회적 관계 (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: '직업 (확장: erizaina, polizia, kazetaria, dendaria, mekanikaria)' }
+  - { id: third-person-introductions, title: '다른 사람 소개하기 (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: '타인의 일과와 직업 (Bera medikua da, ospitalean lan egiten du)' }
+  # 바, 음식, 요청
+  - { id: bar-ordering, title: '바에서 주문하기 (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: '가격과 수량 (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: '바의 전형적인 음식 (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # 쇼핑 (Gaia 11)
+  - { id: shops, title: '가게 종류 (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: '수량과 단위 (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: '장보기: 목록, 주문, 결제 (Hartuko dut..., Eman X mesedez)' }
+  # 식당 (Gaia 12)
+  - { id: restaurant-vocab, title: '식당: 종류 (jatetxea, sagardotegia, erretegia) 와 메뉴 구성 (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: '식탁에서 주문하기 (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: '계산서와 결제 방법 (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # 일정과 가까운 미래 (Gaia 13)
+  - { id: weekly-planning, title: '주간 계획: 일정, 약속, 일정 잡기 (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: '가까운 미래: 접사 -ko/-go + 보조 동사 (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: '시점 표지 (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # 일과, 시간, 하루의 순간들 (Gaia 7)
+  - { id: time-detail, title: '상세한 시간 (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: '하루의 순간 (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: '일과 (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: '습관상: 분사 + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: '빈도 (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # 가까운 과거 / orainaldi burutua (Gaia 8)
+  - { id: participle-form, title: 'Partizipioa: 가까운 과거를 위한 동사 형태 (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: '가까운 과거 NOR-NORK: 분사 + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: '가까운 과거 NOR: 분사 + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: '가까운 과거 표지 (gaur, gaur goizean, atzo, atzo arratsaldean)' }

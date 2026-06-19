@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: "القرية والأماكن"
+order: 5
+description: أماكن القرية، تحديد الموقع باستخدام حالة NON، المواضع المكانية والوجود (ba al dago…؟).
+estimatedMinutes: 55
+covers:
+  - places-town
+  - locative-non
+  - spatial-positions
+  - spatial-adverbs
+  - existence-bada
+  - egon-nor

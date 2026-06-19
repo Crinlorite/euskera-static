@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "Wegbeschreibungen und Bewegung"
+order: 6
+description: Bewegungsverben, Wegbeschreibungen geben und verstehen, die Kasus NORA und NONDIK sowie der Instrumental -z für Verkehrsmittel.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

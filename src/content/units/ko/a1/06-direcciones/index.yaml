@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "방향과 이동"
+order: 6
+description: 이동 동사, 방향을 알려주고 이해하기, NORA 격과 NONDIK 격, 그리고 교통수단을 나타내는 도구격 -z.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

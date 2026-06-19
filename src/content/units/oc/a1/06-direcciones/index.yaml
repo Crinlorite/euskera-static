@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: "Adreces e movement"
+order: 6
+description: Vèrbs de movement, balhar e compréner adreces, casi NORA e NONDIK, e instrumentau -z entàs transpòrts.
+estimatedMinutes: 55
+covers:
+  - movement-verbs
+  - route-instructions
+  - nora-allative
+  - nondik-ablative
+  - instrumental-z
+  - directions

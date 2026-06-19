@@ -1,0 +1,114 @@
+code: a1
+name: A1 Maila
+description: 初級レベル。日常的な場面における基礎的な理解と表現。
+order: 1
+status: active
+beta: false
+curriculum:
+  # あいさつと社会的コミュニケーション
+  - { id: greetings, title: あいさつと別れの言葉 (kaixo, hepa, agur, gero arte) }
+  - { id: courtesy, title: 礼儀と教室での表現 (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  # 自己紹介とアイデンティティ
+  - { id: introductions, title: '自己紹介 (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
+  - { id: personal-data, title: 個人情報 (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: ages, title: '年齢: ... urte ditut/ditu/dituzte' }
+  # 基本動詞
+  - { id: izan-nor, title: '動詞「izan」(NOR): naiz, haiz, da, gara, zara, zarete, dira' }
+  - { id: izan-negation, title: '否定: 動詞の前に置く ez (ez naiz, ez da, ez gara)' }
+  - { id: egon-nor, title: '動詞「egon」(NOR): nago, hago, dago, gaude, zaude, zaudete, daude' }
+  - { id: izan-vs-egon, title: 'izan/egon の区別: 性質 対 一時的な状態' }
+  - { id: ukan-basic, title: '動詞「ukan」(NOR-NORK) — 持つ: dut, duzu, du, dugu, duzue, dute' }
+  - { id: ukan-plural-objects, title: 'ukan における複数の目的語: ditut, dituzu, ditu, ...' }
+  - { id: partitive-rik, title: '不定の目的語を伴う否定における部分格 -rik' }
+  - { id: gustatzen-zait, title: '「Gustatzen zait/zaio」— 好みを表す動詞 (NOR-NORI 導入)' }
+  # 代名詞と指示詞
+  - { id: personal-pronouns, title: 人称代名詞 (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: demonstratives, title: 指示詞 hau/hori/hura と複数形 hauek/horiek/haiek }
+  - { id: possessives, title: 所有形 (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  # 家族
+  - { id: family-types, title: 家族の種類 (guraso bakarrekoa, bikote mistoa, ezkonduta) }
+  - { id: family-basics, title: 家族 (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
+  - { id: family-extended, title: 拡大家族 (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  # 出身、居住地、位置
+  - { id: origin-koa, title: '出身: Nongoa zara? → X-koa naiz' }
+  - { id: residence-an, title: '居住地: Non bizi zara? → X-(e)an bizi naiz' }
+  - { id: countries-nationalities, title: よく使う国名と国籍 }
+  - { id: companions-rekin, title: '共格: Norekin bizi zara? → X-(r)ekin' }
+  # 日本語の格 (euskera の格)
+  - { id: nor-case, title: 'NOR 格 (絶対格): 単数 -A、複数 -AK' }
+  - { id: nork-case, title: 'NORK 格 (能格): 単数 -AK、複数 -EK' }
+  - { id: nori-case, title: 'NORI 格 (与格): 単数 -ARI、複数 -EI' }
+  - { id: noren-case, title: '属格 NOREN: 所有 -(r)en (Beñaten aita)' }
+  - { id: locative-non, title: '位置格 NON: -(e)n (Bilbon, Donostian, Madrilen)' }
+  # 描写と職業
+  - { id: physical-description, title: 'NOLAKOA da? — izan + 形容詞+A による外見の描写' }
+  - { id: mental-states, title: 'NOLA dago? — egon + 形容詞による一時的な状態 (pozik, triste)' }
+  - { id: hair-eyes, title: '髪と目 (ile beltza, begi urdinak, ile motza/luzea)' }
+  - { id: character, title: '性格 (alaia, jatorra, isila, langilea, lasaia)' }
+  - { id: professions, title: '職業 (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)' }
+  # テーマ別語彙
+  - { id: numbers-1-20, title: 1から20までの数字 }
+  - { id: numbers-1-100, title: 1から100までの数字 (二十進法) }
+  - { id: colors, title: 色 (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: days-of-week, title: '曜日 (astelehena → igandea)' }
+  - { id: months, title: '一年の月 (urtarrila → abendua)' }
+  - { id: seasons, title: 季節 (udaberria, uda, udazkena, negua) }
+  - { id: time-basics, title: '時刻を言う (Hamabiak dira, sei eta erdiak)' }
+  - { id: time-expressions, title: '時間: lehen/orain/gero, atzo/gaur/bihar/etzi' }
+  - { id: body-parts, title: 体の部位 (burua, eskua, hanka, sabela) }
+  - { id: health-basics, title: '基本的な健康表現 (... mina daukat, sukarra, eztula)' }
+  - { id: clothes, title: 基本的な衣服 (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: places-town, title: '町の場所 (taberna, merkatua, hondartza, eliza, banketxea)' }
+  - { id: directions, title: '道案内 (jo ezkerrera, segi aurrera, gainean/azpian)' }
+  - { id: food-bar, title: 'バルと食べ物 (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }
+  - { id: meals, title: '一日の食事 (gosaria, hamaiketakoa, bazkaria, afaria)' }
+  - { id: common-verbs, title: '基本動詞 (sartu/irten, jan, edan, ikusi, joan, etorri)' }
+  - { id: questions-basic, title: '基本的な疑問詞 (zer, nor, non, noiz, zenbat, nola)' }
+  - { id: celebrations, title: 'お祝いの言葉 (Zorionak, Urte askotarako, Topa egin)' }
+  # 地区、位置、存在、移動
+  - { id: spatial-positions, title: '空間的な位置 (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)' }
+  - { id: existence-bada, title: '存在を表す bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)' }
+  - { id: spatial-adverbs, title: '場所の副詞 hemen / hor / han と指示詞 honetan / horretan / hartan' }
+  - { id: movement-verbs, title: '移動動詞 joan, etorri, ibili (総合形: noa/zoaz, nator/zatoz, nabil/zabiltza)' }
+  - { id: nora-allative, title: 'NORA 格: -ra (方向、目的地) — Etxera noa, Bilbora doa' }
+  - { id: nondik-ablative, title: 'NONDIK 格: -tik (移動の起点、出発点) — Etxetik nator' }
+  - { id: instrumental-z, title: '交通手段と方法を表す具格 -z (oinez, kotxez, autobusez, trenez, bizikletaz)' }
+  - { id: route-instructions, title: '道順の指示 (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)' }
+  # 家と家庭生活
+  - { id: home-rooms, title: '家の部屋 (sukaldea, logela, komuna, egongela, sarrera, korridorea)' }
+  - { id: furniture, title: '家具と家庭用品 (mahaia, aulkia, ohea, armairua, sofa, hozkailua)' }
+  - { id: house-chores, title: '家事 (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)' }
+  - { id: living-arrangements, title: '同居の形態 (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)' }
+  - { id: house-description, title: '自分の家を描写する (gela kopurua, kokapena, altzariak)' }
+  # 近所と広がる社会生活
+  - { id: social-relations, title: '社会的な関係 (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)' }
+  - { id: professions-extended, title: '職業 (拡張: erizaina, polizia, kazetaria, dendaria, mekanikaria)' }
+  - { id: third-person-introductions, title: '他の人を紹介する (Hau X da, Bera ... da)' }
+  - { id: daily-routine-third-person, title: '他人の日課と職業 (Bera medikua da, ospitalean lan egiten du)' }
+  # バル、食べ物、注文
+  - { id: bar-ordering, title: 'バルで注文する (Kafe bat mesedez, Hartuko dut, Nahi duzu)' }
+  - { id: prices, title: '値段と数量 (Zenbat balio du? X euro)' }
+  - { id: pintxos, title: 'バルの定番料理 (pintxoa, ogitartekoa, plater konbinatua, razioa)' }
+  # 買い物 (Gaia 11)
+  - { id: shops, title: '店の種類 (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)' }
+  - { id: quantities-units, title: '数量と単位 (kilo bat, litro erdi, dozena bat, pakete bat)' }
+  - { id: shopping-dialogue, title: '買い物をする: リスト、注文、支払い (Hartuko dut..., Eman X mesedez)' }
+  # レストラン (Gaia 12)
+  - { id: restaurant-vocab, title: 'レストラン: 種類 (jatetxea, sagardotegia, erretegia) とメニューの構成 (lehen platera, bigarrena, postrea)' }
+  - { id: ordering-food, title: 'テーブルで注文する (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)' }
+  - { id: bill-payment, title: '会計と支払い方法 (Kontua, mesedez; Txartelaz ordain dezaket?)' }
+  # 予定と近い未来 (Gaia 13)
+  - { id: weekly-planning, title: '週の計画: 予定、約束、用事 (Bilera dut, X-rekin geratu)' }
+  - { id: future-koGo, title: '近い未来: 接辞 -ko/-go + 助動詞 (joango naiz, ikusiko dut)' }
+  - { id: time-when, title: '「いつ」を表す標識 (bihar, etzi, datorren astean, asteburuan, datorren urtean)' }
+  # 日課、時刻、一日の時間帯 (Gaia 7)
+  - { id: time-detail, title: '詳しい時刻 (eta erdiak, eta laurden, gutxi)' }
+  - { id: parts-of-day, title: '一日の時間帯 (goizean, eguerdian, arratsaldean, gauean)' }
+  - { id: daily-routine, title: '日課 (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)' }
+  - { id: habitual-aspect, title: '習慣相: 分詞 + -tzen / -ten (egunero gosaltzen dut)' }
+  - { id: frequency-adverbs, title: '頻度 (egunero, beti, askotan, batzuetan, inoiz ez)' }
+  # 近い過去 / orainaldi burutua (Gaia 8)
+  - { id: participle-form, title: 'Partizipioa: 近い過去を表す動詞の形 (jan, edan, joan, etorri)' }
+  - { id: recent-past-dut, title: '近い過去 NOR-NORK: 分詞 + dut/duzu/du (jan dut, ikusi dut)' }
+  - { id: recent-past-naiz, title: '近い過去 NOR: 分詞 + naiz/zara/da (joan naiz, etorri naiz)' }
+  - { id: recent-past-time-markers, title: '近い過去の標識 (gaur, gaur goizean, atzo, atzo arratsaldean)' }

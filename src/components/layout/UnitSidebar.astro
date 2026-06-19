@@ -1,12 +1,13 @@
 ---
-import type { CollectionEntry } from 'astro:content';
 import type { LocaleCode } from '../../i18n/config';
 
 interface Props {
   locale: LocaleCode;
   levelCode: string;
   unitCode: string;
-  lessons: CollectionEntry<'lessons'>[];
+  // Shape mínimo (solo lo que se usa). Evita el union de 1.000+ ids literales
+  // de CollectionEntry<'lessons'>, que hace explotar el type-check.
+  lessons: Array<{ data: { code: string; id: string; title: string } }>;
   currentLessonCode?: string;
 }
 const { locale, levelCode, unitCode, lessons, currentLessonCode } = Astro.props;

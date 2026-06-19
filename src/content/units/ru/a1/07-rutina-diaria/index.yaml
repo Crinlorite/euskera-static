@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "Распорядок дня и время"
+order: 7
+description: Расскажи о своём распорядке дня. Научись называть время, части суток и говорить о том, что ты делаешь обычно, используя обычный аспект (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals

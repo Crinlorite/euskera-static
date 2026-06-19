@@ -1,0 +1,16 @@
+id: a1-greetings
+code: 01-saludos
+level: a1
+title: التحيات والكلمات الأولى
+order: 1
+description: تعلّم كيف تُلقي التحية وتودّع وتعرّف بنفسك بلغة الإيوسكيرا.
+estimatedMinutes: 50
+covers:
+  - greetings
+  - courtesy
+  - introductions
+  - personal-pronouns
+  - izan-nor
+  - origin-koa
+  - residence-an
+  - countries-nationalities

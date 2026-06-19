@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: "일상과 시간"
+order: 7
+description: 당신의 일상을 이야기해 보세요. 시간 말하기, 하루의 때를 표현하기, 그리고 습관상(-tzen / -ten)을 사용하여 평소에 하는 일에 대해 말하는 법을 배웁니다.
+estimatedMinutes: 55
+covers:
+  - time-basics
+  - time-detail
+  - parts-of-day
+  - daily-routine
+  - habitual-aspect
+  - frequency-adverbs
+  - common-verbs
+  - meals
