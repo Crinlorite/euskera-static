@@ -1,3 +1,5 @@
+import { saveProgress as nativeSaveProgress } from '../lib/platform';
+
 export const STORAGE_KEY = 'euskera-static.progress.v1';
 export const SCHEMA_VERSION = 1 as const;
 
@@ -96,8 +98,16 @@ export function setProgress(p: ProgressV1) {
 function flushPendingSave() {
   if (saveTimer) { clearTimeout(saveTimer); saveTimer = null; }
   if (pendingSave === null) return;
+  const progress = pendingSave;
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(pendingSave));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    const lessonsCompleted = Object.values(progress.lessons).filter((l) => l.status === 'completed').length;
+    nativeSaveProgress({
+      streak: progress.streak.current,
+      longest: progress.streak.longest,
+      lessonsCompleted,
+      lastStudied: progress.streak.lastStudiedDate,
+    });
   } catch { /* storage lleno o bloqueado — no hay nada que hacer */ }
   pendingSave = null;
 }

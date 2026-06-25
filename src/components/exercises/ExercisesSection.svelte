@@ -4,6 +4,7 @@
   import Flashcards from './Flashcards.svelte';
   import MatchPairs from './MatchPairs.svelte';
   import { recordExerciseResult, recordLessonRead, recordLessonCompleted } from '../../stores/progress';
+  import { haptic } from '../../lib/platform';
   import { onMount } from 'svelte';
   import type { LocaleCode } from '../../i18n/config';
 
@@ -25,6 +26,7 @@
 
   function onResult(event: CustomEvent<{ exerciseId: string; score: number; finished: boolean }>) {
     const { exerciseId, score, finished } = event.detail;
+    haptic(score === 100 ? 'success' : score === 0 ? 'error' : 'light');
     recordExerciseResult(lessonKey, exerciseId, score);
     if (finished) completed.add(exerciseId);
     if (completed.size === exercises.length) {
