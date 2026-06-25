@@ -28,14 +28,22 @@ export function speak(text: string): void {
   if (!t) return;
   const b = bridge();
   if (b?.speak) { b.speak(t, 'eu-ES'); return; }
-  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+  if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+  const run = () => {
+    const voices = window.speechSynthesis.getVoices();
+    // Prioriza euskera; si no hay, español. Nunca el idioma del sistema.
+    const v =
+      voices.find((x) => x.lang?.toLowerCase().startsWith('eu')) ||
+      voices.find((x) => x.lang?.toLowerCase().startsWith('es'));
+    if (!v) return;
     const u = new SpeechSynthesisUtterance(t);
-    const v = window.speechSynthesis.getVoices().find((x) => x.lang?.toLowerCase().startsWith('eu'));
-    if (v) u.voice = v;
-    u.lang = v?.lang || 'eu-ES';
+    u.voice = v;
+    u.lang = v.lang;
     window.speechSynthesis.cancel();
     window.speechSynthesis.speak(u);
-  }
+  };
+  if (window.speechSynthesis.getVoices().length) run();
+  else window.speechSynthesis.addEventListener('voiceschanged', run, { once: true });
 }
 
 export function haptic(type: HapticType): void {
