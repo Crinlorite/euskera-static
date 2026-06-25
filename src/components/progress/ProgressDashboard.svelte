@@ -5,6 +5,7 @@
     type ProgressV1,
   } from '../../stores/progress';
   import { t } from '../../i18n/ui';
+  import { shareProgress } from '../../lib/platform';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
@@ -50,6 +51,7 @@
   }
 
   async function shareHash() {
+    if (shareProgress(exportedHash)) return;
     unlockAchievements(['first-export']);
     if (typeof navigator !== 'undefined' && (navigator as Navigator & { share?: (data: { title?: string; text?: string }) => Promise<void> }).share) {
       try {

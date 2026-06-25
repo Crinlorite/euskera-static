@@ -1,6 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import { t, tf } from '../../i18n/ui';
+  import { speak, canSpeak } from '../../lib/platform';
   import type { LocaleCode } from '../../i18n/config';
 
   export let id: string;
@@ -46,6 +47,7 @@
   <button class="card" on:click={flip}>
     {#if !flipped}
       <span class="front">{deck[i].eu}</span>
+      {#if canSpeak()}<button class="tts-btn" type="button" aria-label="Entzun" on:click|stopPropagation={() => speak(deck[i].eu)}>🔊</button>{/if}
       <small>{t(locale, 'exercise.flash.reveal')}</small>
     {:else}
       <span class="back">{deck[i].es}</span>
@@ -82,6 +84,16 @@
   .front, .back { font-size: 1.6rem; font-weight: 700; }
   .back { font-style: italic; color: var(--c-text-muted); font-weight: 500; }
   small { color: var(--c-text-muted); font-size: 0.8rem; }
+  .tts-btn {
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    background: var(--c-bg);
+    cursor: pointer;
+    padding: var(--s-1) var(--s-2);
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+  .tts-btn:hover { background: var(--c-bg-alt); }
   .actions { display: flex; gap: var(--s-3); margin-block-start: var(--s-4); justify-content: center; }
   .round { color: var(--c-green-strong); text-align: center; font-size: 0.9rem; margin-block: var(--s-3) 0; }
 </style>
