@@ -7,6 +7,7 @@ import HeroBackground from '../../components/ui/HeroBackground.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 import { LOCKED_PATHS } from '../../lib/gate';
+import AppBadges from '../../components/layout/AppBadges.astro';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -35,6 +36,10 @@ const levels = (await getCollection('levels'))
       <div class="hero-cta">
         <a class="btn btn-primary" href={`/${locale}/a1/`}>{t(locale, 'home.cta.start')}</a>
         <a class="btn btn-secondary" href={`/${locale}/sobre/`}>{t(locale, 'about.title')}</a>
+      </div>
+      <div class="hero-app">
+        <span class="hero-app-label">{t(locale, 'app.title')}</span>
+        <AppBadges locale={locale} />
       </div>
     </div>
 
@@ -122,6 +127,21 @@ const levels = (await getCollection('levels'))
     display: flex;
     gap: var(--s-3);
     flex-wrap: wrap;
+  }
+  .hero-app {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--s-2) var(--s-4);
+    margin-block-start: var(--s-5);
+  }
+  .hero-app-label {
+    font-family: var(--ff-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: var(--tr-wide);
+    text-transform: uppercase;
+    color: var(--c-text-dim);
   }
   .hero-scroll {
     position: absolute;
