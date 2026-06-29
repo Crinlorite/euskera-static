@@ -7,12 +7,11 @@ interface Props { locale: LocaleCode; }
 const { locale } = Astro.props;
 const year = new Date().getFullYear();
 
-// App Kaixo. La app iOS está EN REVISIÓN con publicación MANUAL: el enlace de la
-// App Store solo resuelve cuando esté aprobada Y publicada. Ese día pon
-// IOS_LIVE = true y se mostrará el badge oficial con enlace vivo (Android sigue
-// "Próximamente"). El "Próximamente" reutiliza la clave ya traducida levels.upcoming.
+// App Kaixo. iOS PUBLICADA en la App Store (READY_FOR_SALE) → IOS_LIVE = true
+// muestra el badge oficial con enlace vivo. Android aún sin publicar → píldora
+// "Próximamente" (reutiliza la clave ya traducida levels.upcoming).
 const APP_STORE_URL = 'https://apps.apple.com/app/id6784369966';
-const IOS_LIVE = false;
+const IOS_LIVE = true;
 const comingSoon = t(locale, 'levels.upcoming');
 ---
 <footer class="site-footer">
