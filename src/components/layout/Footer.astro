@@ -2,17 +2,11 @@
 import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
 import LanguageFooter from './LanguageFooter.astro';
+import AppBadges from './AppBadges.astro';
 
 interface Props { locale: LocaleCode; }
 const { locale } = Astro.props;
 const year = new Date().getFullYear();
-
-// App Kaixo. iOS PUBLICADA en la App Store (READY_FOR_SALE) → IOS_LIVE = true
-// muestra el badge oficial con enlace vivo. Android aún sin publicar → píldora
-// "Próximamente" (reutiliza la clave ya traducida levels.upcoming).
-const APP_STORE_URL = 'https://apps.apple.com/app/id6784369966';
-const IOS_LIVE = true;
-const comingSoon = t(locale, 'levels.upcoming');
 ---
 <footer class="site-footer">
   <div class="container-wide grid">
@@ -39,17 +33,7 @@ const comingSoon = t(locale, 'levels.upcoming');
     </div>
     <div class="app-col">
       <h4>{t(locale, 'app.title')}</h4>
-      <div class="badges">
-        {IOS_LIVE && (
-          <a href={APP_STORE_URL} class="badge-link" rel="noopener" aria-label="Download on the App Store">
-            <img src="/app-store-badge.svg" alt="Download on the App Store" width="135" height="45" loading="lazy" />
-          </a>
-        )}
-        {!IOS_LIVE && (
-          <span class="store-pill"><span class="os">iOS</span><span class="soon">{comingSoon}</span></span>
-        )}
-        <span class="store-pill"><span class="os">Android</span><span class="soon">{comingSoon}</span></span>
-      </div>
+      <AppBadges locale={locale} />
     </div>
   </div>
   <div class="container-wide bottom">© {year} <a href="https://crintech.pro" rel="noopener" class="brand-link">Crintech Studios</a></div>
@@ -71,18 +55,6 @@ const comingSoon = t(locale, 'levels.upcoming');
   .brand-col { display: grid; gap: var(--s-3); align-content: start; }
   .brand-col p { margin: 0; }
   .app-col { display: grid; gap: var(--s-3); align-content: start; }
-  .badges { display: grid; gap: var(--s-2); justify-items: start; }
-  .badge-link { display: inline-flex; }
-  .badge-link img { display: block; height: 45px; width: auto; }
-  .store-pill {
-    display: inline-flex; align-items: center; gap: var(--s-2);
-    padding: 0.4rem 0.7rem;
-    border: 1px solid var(--c-border-strong);
-    border-radius: 999px;
-    font-size: 0.8rem; color: var(--c-text-muted);
-  }
-  .store-pill .os { font-weight: 600; color: var(--c-text); }
-  .store-pill .soon { opacity: 0.85; }
   .grid h4 { margin: 0 0 var(--s-2); color: var(--c-text); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; }
   .grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
   .grid a { color: inherit; }
