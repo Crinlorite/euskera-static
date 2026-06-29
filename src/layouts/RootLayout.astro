@@ -62,6 +62,25 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={locale.replace('-', '_')} />
     <meta name="twitter:card" content="summary_large_image" />
+    {/* App nativa (WKWebView Kaixo) o PWA instalada: marca <html> para OCULTAR el
+        bloque de descarga de la app y, con él, cualquier mención a otras
+        plataformas (Android) DENTRO de la app → evita el rechazo de Apple por la
+        Guideline 2.3.10. La web normal en navegador lo sigue mostrando. Señal
+        fiable: el puente window.Kaixo que el wrapper inyecta en documentStart. */}
+    <script is:inline>
+      (function () {
+        try {
+          var w = window;
+          var native = !!(w.Kaixo && w.Kaixo.platform)
+            || w.navigator.standalone === true
+            || (w.matchMedia && w.matchMedia('(display-mode: standalone)').matches);
+          if (native) document.documentElement.classList.add('is-native-app');
+        } catch (e) {}
+      })();
+    </script>
+    <style is:global>
+      .is-native-app .app-promo { display: none !important; }
+    </style>
     <ViewTransitions />
   </head>
   <body class={bodyClass}>
