@@ -1,0 +1,37 @@
+---
+// Badges de descarga de la app Kaixo (iOS App Store + Android próximamente).
+// Reutilizable: footer y home. Flag/URL en src/lib/appstore.ts.
+import { t } from '../../i18n/ui';
+import type { LocaleCode } from '../../i18n/config';
+import { APP_STORE_URL, IOS_LIVE } from '../../lib/appstore';
+
+interface Props { locale: LocaleCode; }
+const { locale } = Astro.props;
+const comingSoon = t(locale, 'levels.upcoming');
+---
+<div class="app-badges">
+  {IOS_LIVE && (
+    <a href={APP_STORE_URL} class="badge-link" rel="noopener" aria-label="Download on the App Store">
+      <img src="/app-store-badge.svg" alt="Download on the App Store" width="135" height="45" loading="lazy" />
+    </a>
+  )}
+  {!IOS_LIVE && (
+    <span class="store-pill"><span class="os">iOS</span><span class="soon">{comingSoon}</span></span>
+  )}
+  <span class="store-pill"><span class="os">Android</span><span class="soon">{comingSoon}</span></span>
+</div>
+
+<style>
+  .app-badges { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); }
+  .badge-link { display: inline-flex; }
+  .badge-link img { display: block; height: 45px; width: auto; }
+  .store-pill {
+    display: inline-flex; align-items: center; gap: var(--s-2);
+    padding: 0.4rem 0.7rem;
+    border: 1px solid var(--c-border-strong);
+    border-radius: 999px;
+    font-size: 0.8rem; color: var(--c-text-muted);
+  }
+  .store-pill .os { font-weight: 600; color: var(--c-text); }
+  .store-pill .soon { opacity: 0.85; }
+</style>
