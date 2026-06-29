@@ -7,7 +7,7 @@ export async function getStaticPaths() {
 }
 
 const { locale } = Astro.params as { locale: LocaleCode };
-const lastUpdated = '13 de mayo de 2026';
+const lastUpdated = '29 de junio de 2026';
 ---
 <RootLayout locale={locale} title="Política de privacidad">
   <article class="container prose">
@@ -17,8 +17,9 @@ const lastUpdated = '13 de mayo de 2026';
     <p>
       Esta política describe cómo <strong>Crintech Studios</strong> ("nosotros") trata la
       información cuando usas <em>Kaixo</em>, ya sea en la web
-      <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a>
-      o en la aplicación Android publicada en Google Play (en adelante, "el Servicio").
+      <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a>,
+      en la aplicación para iOS (App Store) o en la aplicación Android
+      (próximamente en Google Play) &mdash; en adelante, "el Servicio".
     </p>
 
     <h2>1. Información que recogemos</h2>
@@ -60,9 +61,11 @@ const lastUpdated = '13 de mayo de 2026';
       <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a>.
     </p>
     <p>
-      La aplicación Android es un <strong>Trusted Web Activity (TWA)</strong>: una
-      pasarela que carga la misma web dentro del navegador Chrome del sistema. No
-      se envían datos adicionales por el hecho de usar la app en vez de la web.
+      La aplicación para iOS es un contenedor ligero que carga la misma web dentro
+      de un <strong>WebView</strong> del sistema; la aplicación Android, cuando se
+      publique, será un <strong>Trusted Web Activity (TWA)</strong> equivalente
+      sobre Chrome. En ningún caso se envían datos adicionales por usar la app en
+      vez de la web.
     </p>
 
     <h2>4. Servicios de terceros</h2>
@@ -70,7 +73,8 @@ const lastUpdated = '13 de mayo de 2026';
     <ul>
       <li><strong>Tipografías</strong> Manrope y Fraunces, auto-hospedadas desde el mismo dominio (no Google Fonts).</li>
       <li><strong>GitHub</strong> únicamente si haces clic en un enlace al repositorio. La visita queda sujeta a la <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" rel="noopener">política de GitHub</a>.</li>
-      <li><strong>Google Play</strong> únicamente para la descarga e instalación de la app Android, sujeta a la política de Google.</li>
+      <li><strong>App Store</strong> únicamente para la descarga e instalación de la app de iOS, sujeta a la política de Apple.</li>
+      <li><strong>Google Play</strong>, cuando la app Android esté disponible, únicamente para su descarga e instalación, sujeta a la política de Google.</li>
     </ul>
 
     <h2>5. Sistema de feedback</h2>
