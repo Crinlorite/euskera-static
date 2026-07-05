@@ -7,6 +7,8 @@
   export let id: string;
   export let cards: Array<{ eu: string; es: string }>;
   export let locale: LocaleCode = 'es';
+  // Mejor nota de una ronda anterior (null = nunca completada).
+  export let restoredScore: number | null = null;
 
   function shuffle<T>(arr: T[]): T[] {
     const copy = [...arr];
@@ -43,6 +45,12 @@
 </script>
 
 <div class="ex">
+  {#if restoredScore !== null}
+  <div class="solved" role="status">
+    <span class="ok">✓ {t(locale, 'exercise.done')} · {restoredScore}%</span>
+    <button class="btn btn-secondary" on:click={() => (restoredScore = null)}>{t(locale, 'exercise.redo')}</button>
+  </div>
+  {:else}
   <p class="meta">{tf(locale, 'exercise.flash.counter', i + 1, deck.length)}</p>
   <button class="card" on:click={flip}>
     {#if !flipped}
@@ -63,6 +71,7 @@
       {tf(locale, 'exercise.flash.round', lastRound.known, lastRound.total)}
     {/if}
   </p>
+  {/if}
 </div>
 
 <style>
@@ -96,4 +105,6 @@
   .tts-btn:hover { background: var(--c-bg-alt); }
   .actions { display: flex; gap: var(--s-3); margin-block-start: var(--s-4); justify-content: center; }
   .round { color: var(--c-green-strong); text-align: center; font-size: 0.9rem; margin-block: var(--s-3) 0; }
+  .solved { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); flex-wrap: wrap; }
+  .solved .ok { color: var(--c-green-strong); font-weight: 600; }
 </style>
