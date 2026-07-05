@@ -9,6 +9,9 @@
   export let answer: number;
   export let explanation: string | undefined = undefined;
   export let locale: LocaleCode = 'es';
+  // Mejor nota de una visita anterior (null = nunca resuelto). Se muestra un
+  // resumen "Resuelto" en vez del ejercicio; "Repetir" lo reabre limpio.
+  export let restoredScore: number | null = null;
 
   let chosen: number | null = null;
   const dispatch = createEventDispatcher<{ result: { exerciseId: string; score: number; finished: boolean } }>();
@@ -22,6 +25,13 @@
 </script>
 
 <div class="ex">
+  {#if restoredScore !== null}
+  <p class="prompt">{prompt}</p>
+  <div class="solved" role="status">
+    <span class="ok">✓ {t(locale, 'exercise.done')} · {restoredScore}%</span>
+    <button class="btn btn-secondary" on:click={() => (restoredScore = null)}>{t(locale, 'exercise.redo')}</button>
+  </div>
+  {:else}
   <p class="prompt">{prompt}</p>
   <ul>
     {#each options as opt, i}
@@ -48,6 +58,7 @@
   {#if chosen !== null && explanation}
     <p class="explain">{explanation}</p>
   {/if}
+  {/if}
 </div>
 
 <style>
@@ -73,6 +84,8 @@
   .feedback { color: var(--c-green-strong); margin-block: var(--s-3) 0; }
   .feedback .ok { font-weight: 600; }
   .explain { color: var(--c-text-muted); margin-block-start: var(--s-2); font-size: 0.9rem; }
+  .solved { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); flex-wrap: wrap; }
+  .solved .ok { color: var(--c-green-strong); font-weight: 600; }
   @keyframes bounce {
     0% { transform: scale(1); } 50% { transform: scale(1.03); } 100% { transform: scale(1); }
   }
