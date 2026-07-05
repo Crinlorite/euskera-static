@@ -9,6 +9,8 @@
   export let answers: string[];
   export let explanation: string | undefined = undefined;
   export let locale: LocaleCode = 'es';
+  // Mejor nota de una visita anterior (null = nunca resuelto).
+  export let restoredScore: number | null = null;
 
   let value = '';
   let result: 'pending' | 'correct' | 'wrong' = 'pending';
@@ -33,6 +35,13 @@
 </script>
 
 <div class="ex" class:correct={result === 'correct'} class:wrong={result === 'wrong'}>
+  {#if restoredScore !== null}
+  <p class="prompt-solved">{prompt}</p>
+  <div class="solved" role="status">
+    <span class="ok">✓ {t(locale, 'exercise.done')} · {restoredScore}%</span>
+    <button class="btn btn-secondary" on:click={() => (restoredScore = null)}>{t(locale, 'exercise.redo')}</button>
+  </div>
+  {:else}
   <p class="prompt">
     <span>{before}</span>
     <input
@@ -62,6 +71,7 @@
   {#if result !== 'pending' && explanation}
     <p class="explain">{explanation}</p>
   {/if}
+  {/if}
 </div>
 
 <style>
@@ -81,4 +91,7 @@
   .feedback:empty { margin: 0; min-block-size: 0; }
   .feedback .ok { color: var(--c-green-strong); font-weight: 600; }
   .explain { color: var(--c-text-muted); font-size: 0.9rem; }
+  .prompt-solved { font-weight: 600; margin: 0 0 var(--s-3); font-size: 1.1rem; }
+  .solved { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); flex-wrap: wrap; }
+  .solved .ok { color: var(--c-green-strong); font-weight: 600; }
 </style>

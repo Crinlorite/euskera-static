@@ -25,10 +25,13 @@ export type StringKey =
   | 'exercise.flash.counter' | 'exercise.flash.reveal' | 'exercise.flash.hide'
   | 'exercise.flash.learning' | 'exercise.flash.known' | 'exercise.flash.round'
   | 'sources.statement'
-  | 'app.title';
+  | 'app.title'
+  | 'exercise.done' | 'exercise.redo';
 
 const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   'es': {
+    'exercise.done': 'Resuelto',
+    'exercise.redo': 'Repetir',
     'app.title': 'Descarga la app',
     'site.name': 'Euskera',
     'site.tagline': 'Aprende euskera, gratis y para todos.',
@@ -91,6 +94,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Peninsulares (planned, sin traducciones aún)
   'ca': {
+    "exercise.done": "Resolt",
+    "exercise.redo": "Repetir",
     "app.title": "Descarrega l'app",
     "site.name": "Basc",
     "site.tagline": "Aprèn basc, gratis i per a tothom.",
@@ -151,6 +156,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "El currículum segueix els estàndards CEFR oficials per als nivells A1-C2 del basc. Les explicacions, exemples i exercicis són material original. El vocabulari i les regles gramaticals són fets lingüístics de domini públic.",
   }, 'gl': {
+    "exercise.done": "Resolto",
+    "exercise.redo": "Repetir",
     "app.title": "Descarga a app",
     "site.name": "Éuscaro",
     "site.tagline": "Aprende éuscaro, de balde e para todos.",
@@ -211,6 +218,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rolda rematada: sabías {0} de {1}.",
     "sources.statement": "O currículo segue os estándares CEFR oficiais para os niveis A1-C2 do éuscaro. As explicacións, exemplos e exercicios son material orixinal. O vocabulario e as regras gramaticais son feitos lingüísticos de dominio público.",
   }, 'oc': {
+    "exercise.done": "Resolgut",
+    "exercise.redo": "Repetir",
     "app.title": "Telecargatz l'app",
     "site.name": "Basc",
     "site.tagline": "Apren basc, de gratís e entà toti.",
@@ -271,6 +280,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "Eth curriculum seguís es estandards CEFR oficiaus entàs nivèus A1-C2 deth basc. Es explicacions, exemples e exercicis son materiau originau. Vocabulari e règles gramaticaus son hèts lingüistics de domeni public.",
   }, 'ast': {
+    "exercise.done": "Resueltu",
+    "exercise.redo": "Repetir",
     "app.title": "Descarga l'app",
     "site.name": "Vascu",
     "site.tagline": "Deprendi vascu, de baldre y pa toos.",
@@ -331,6 +342,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda fináu: sabíes {0} de {1}.",
     "sources.statement": "El currículu sigue los estándares CEFR oficiales pa los niveles A1-C2 del vascu. Les esplicaciones, exemplos y exercicios son material orixinal. Vocabulariu y regles gramaticales son fechos llingüísticos de dominiu públicu.",
   }, 'an': {
+    "exercise.done": "Resuelto",
+    "exercise.redo": "Repetir",
     "app.title": "Descarga la app",
     "site.name": "Basco",
     "site.tagline": "Aprende basco, de baldes y ta toz.",
@@ -393,6 +406,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Resto del roadmap
   'en': {
+    "exercise.done": "Solved",
+    "exercise.redo": "Try again",
     "app.title": "Get the app",
     "site.name": "Basque",
     "site.tagline": "Learn Basque, free and for everyone.",
@@ -453,6 +468,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round finished: you knew {0} of {1}.",
     "sources.statement": "The curriculum follows the official CEFR standards for Basque levels A1-C2. The explanations, examples, and exercises are original material. Vocabulary and grammar rules are linguistic facts in the public domain.",
   }, 'ar': {
+    "exercise.done": "تم الحل",
+    "exercise.redo": "إعادة المحاولة",
     "app.title": "احصل على التطبيق",
     "site.name": "الباسكية",
     "site.tagline": "تعلّم اللغة الباسكية، مجانًا وللجميع.",
@@ -513,6 +530,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "انتهت الجولة: عرفت {0} من {1}.",
     "sources.statement": "يتّبع المنهج المعايير الرسمية للإطار الأوروبي المرجعي المشترك للغات (CEFR) للمستويات A1-C2 من اللغة الباسكية. الشروحات والأمثلة والتمارين مادة أصلية. المفردات والقواعد النحوية حقائق لغوية في الملكية العامة.",
   }, 'fr': {
+    "exercise.done": "Résolu",
+    "exercise.redo": "Recommencer",
     "app.title": "Télécharger l'app",
     "site.name": "Basque",
     "site.tagline": "Apprenez le basque, gratuitement et pour tous.",
@@ -573,6 +592,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Tour terminé : vous saviez {0} sur {1}.",
     "sources.statement": "Le programme suit les normes officielles du CECRL pour les niveaux A1-C2 du basque. Les explications, les exemples et les exercices sont du matériel original. Le vocabulaire et les règles grammaticales sont des faits linguistiques du domaine public.",
   }, 'ro': {
+    "exercise.done": "Rezolvat",
+    "exercise.redo": "Repetă",
     "app.title": "Descarcă aplicația",
     "site.name": "Bască",
     "site.tagline": "Învață basca, gratuit și pentru toți.",
@@ -633,6 +654,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rundă terminată: ai știut {0} din {1}.",
     "sources.statement": "Programa urmează standardele oficiale CEFR pentru nivelurile A1-C2 ale limbii basce. Explicațiile, exemplele și exercițiile sunt material original. Vocabularul și regulile gramaticale sunt fapte lingvistice de domeniu public.",
   }, 'pt-BR': {
+    "exercise.done": "Resolvido",
+    "exercise.redo": "Repetir",
     "app.title": "Baixe o app",
     "site.name": "Basco",
     "site.tagline": "Aprenda basco, de graça e para todos.",
@@ -694,6 +717,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "sources.statement": "O currículo segue os padrões oficiais do CEFR para os níveis A1-C2 do basco. As explicações, exemplos e exercícios são material original. O vocabulário e as regras gramaticais são fatos linguísticos de domínio público.",
   },
   'de': {
+    "exercise.done": "Gelöst",
+    "exercise.redo": "Wiederholen",
     "app.title": "App herunterladen",
     "site.name": "Baskisch",
     "site.tagline": "Lerne Baskisch, kostenlos und für alle.",
@@ -754,6 +779,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runde beendet: Du wusstest {0} von {1}.",
     "sources.statement": "Das Curriculum folgt den offiziellen GER-Standards für die Niveaus A1–C2 des Baskischen. Die Erklärungen, Beispiele und Übungen sind Originalmaterial. Wortschatz und Grammatikregeln sind sprachliche Fakten der Gemeinfreiheit.",
   }, 'it': {
+    "exercise.done": "Risolto",
+    "exercise.redo": "Ripeti",
     "app.title": "Scarica l'app",
     "site.name": "Basco",
     "site.tagline": "Impara il basco, gratis e per tutti.",
@@ -814,6 +841,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round terminato: ne sapevi {0} su {1}.",
     "sources.statement": "Il curriculum segue gli standard ufficiali CEFR per i livelli A1-C2 del basco. Le spiegazioni, gli esempi e gli esercizi sono materiale originale. Il vocabolario e le regole grammaticali sono fatti linguistici di dominio pubblico.",
   }, 'ru': {
+    "exercise.done": "Решено",
+    "exercise.redo": "Повторить",
     "app.title": "Скачать приложение",
     "site.name": "Баскский",
     "site.tagline": "Учите баскский — бесплатно и для всех.",
@@ -874,6 +903,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Раунд завершён: вы знали {0} из {1}.",
     "sources.statement": "Учебная программа соответствует официальным стандартам CEFR для уровней A1–C2 баскского языка. Объяснения, примеры и упражнения являются оригинальным материалом. Лексика и грамматические правила — лингвистические факты, относящиеся к общественному достоянию.",
   }, 'pl': {
+    "exercise.done": "Rozwiązane",
+    "exercise.redo": "Powtórz",
     "app.title": "Pobierz aplikację",
     "site.name": "Baskijski",
     "site.tagline": "Ucz się baskijskiego, za darmo i dla wszystkich.",
@@ -934,6 +965,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runda zakończona: znałeś {0} z {1}.",
     "sources.statement": "Program nauczania jest zgodny z oficjalnymi standardami CEFR dla poziomów A1–C2 języka baskijskiego. Objaśnienia, przykłady i ćwiczenia są materiałem oryginalnym. Słownictwo i zasady gramatyczne to fakty językowe należące do domeny publicznej.",
   }, 'zh-Hans': {
+    "exercise.done": "已完成",
+    "exercise.redo": "重做",
     "app.title": "下载应用",
     "site.name": "巴斯克语",
     "site.tagline": "学习巴斯克语，免费，面向所有人。",
@@ -994,6 +1027,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "本轮结束：你答对了 {1} 个中的 {0} 个。",
     "sources.statement": "本课程遵循巴斯克语 A1-C2 级别的官方 CEFR 标准。讲解、示例和练习均为原创内容。词汇和语法规则属于公共领域的语言学事实。",
   }, 'ja': {
+    "exercise.done": "解答済み",
+    "exercise.redo": "もう一度",
     "app.title": "アプリを入手",
     "site.name": "バスク語",
     "site.tagline": "バスク語を学ぼう。無料で、みんなのために。",
@@ -1054,6 +1089,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "ラウンド終了：{1}問中{0}問正解でした。",
     "sources.statement": "カリキュラムはバスク語のA1〜C2レベルに対応する公式のCEFR基準に従っています。説明、例文、練習問題はすべてオリジナルの教材です。語彙と文法規則はパブリックドメインの言語学的事実です。",
   }, 'ko': {
+    "exercise.done": "완료",
+    "exercise.redo": "다시 풀기",
     "app.title": "앱 다운로드",
     "site.name": "바스크어",
     "site.tagline": "바스크어를 무료로, 모두를 위해 배우세요.",

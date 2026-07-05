@@ -6,6 +6,8 @@
   export let id: string;
   export let pairs: Array<{ eu: string; es: string }>;
   export let locale: LocaleCode = 'es';
+  // Mejor nota de una visita anterior (null = nunca resuelto).
+  export let restoredScore: number | null = null;
 
   type Side = 'left' | 'right';
   interface Item { side: Side; text: string; pairIndex: number; matched: boolean; }
@@ -51,6 +53,12 @@
 </script>
 
 <div class="ex">
+  {#if restoredScore !== null}
+  <div class="solved" role="status">
+    <span class="ok">✓ {t(locale, 'exercise.done')} · {restoredScore}%</span>
+    <button class="btn btn-secondary" on:click={() => (restoredScore = null)}>{t(locale, 'exercise.redo')}</button>
+  </div>
+  {:else}
   <p class="meta">{t(locale, 'exercise.match.help')}</p>
   <div class="grid">
     <ul>
@@ -86,6 +94,7 @@
       {tf(locale, 'exercise.match.mistakes', mistakes)}
     {/if}
   </p>
+  {/if}
 </div>
 
 <style>
@@ -108,4 +117,6 @@
   button.matched { background: var(--c-green-soft); border-color: var(--c-green); color: var(--c-green-strong); }
   .hint { color: var(--c-text-muted); margin-block: var(--s-3) 0; font-size: 0.9rem; }
   .hint .ok { color: var(--c-green-strong); font-weight: 600; }
+  .solved { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); flex-wrap: wrap; }
+  .solved .ok { color: var(--c-green-strong); font-weight: 600; }
 </style>
