@@ -12,14 +12,14 @@ exercises:
   - id: ex-a2-ir1-mc1
     type: multiple-choice
     prompt: '¿Cuál es la forma de "izan" en pasado para "ni" (yo)?'
-    options: [naiz, nintzen, nuen, nago]
-    answer: 1
+    options: ['nintzen', 'naiz', 'nuen', 'nago']
+    answer: 0
     explanation: '*Nintzen* es el pasado de *izan/egon* para "yo": "yo era / yo estaba".'
   - id: ex-a2-ir1-mc2
     type: multiple-choice
     prompt: '"Atzo Bilbon egon nintzen" significa…'
-    options: ['Hoy estoy en Bilbao', 'Ayer estuve en Bilbao', 'Mañana estaré en Bilbao', 'He estado en Bilbao']
-    answer: 1
+    options: ['Hoy estoy en Bilbao', 'Mañana estaré en Bilbao', 'Ayer estuve en Bilbao', 'He estado en Bilbao']
+    answer: 2
     explanation: 'Atzo = ayer. Egon nintzen = estuve. Pasado completo: hecho concreto y cerrado.'
   - id: ex-a2-ir1-fb1
     type: fill-in-blank

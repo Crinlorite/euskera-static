@@ -25,11 +25,12 @@ exercises:
       - 'Antes era ciudad, ahora es caserío'
     answer: 0
     explanation: '*Lehen... orain...* es la fórmula de comparación temporal "antes... ahora..." muy típica para hablar de cambios culturales.'
-  - id: ex-a2-bz3-fb1
-    type: fill-in-blank
-    prompt: 'Tanto en verano como en invierno = bai udan, ___ neguan.'
-    answers: [bai]
-    explanation: '*Bai... bai...* = "tanto... como..." en distributivas.'
+  - id: ex-a2-bz3-mc3
+    type: multiple-choice
+    prompt: '¿Cómo se dice «tanto en verano como en invierno»?'
+    options: ['bai udan, bai neguan', 'edo udan, edo neguan', 'ez udan, ez neguan', 'ala udan, ala neguan']
+    answer: 0
+    explanation: '*Bai... bai...* = "tanto... como..." en distributivas. Con *edo/ala* sería "o... o...", y *ez... ez...* = "ni... ni...".'
   - id: ex-a2-bz3-fc
     type: flashcards
     cards:
