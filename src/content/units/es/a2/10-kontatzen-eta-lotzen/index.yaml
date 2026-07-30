@@ -1,9 +1,9 @@
 id: a2-kontatzen
 code: 10-kontatzen-eta-lotzen
 level: a2
-title: Kontatzen eta lotzen — contar, enlazar y repasar
+title: 'Kontatzen eta lotzen — contar, enlazar y repasar'
 order: 10
-description: Biografías, preguntas indirectas, oraciones temporales y de finalidad, y el repaso integrador del nivel.
+description: 'Biografías, preguntas indirectas, oraciones temporales y de finalidad, y el repaso integrador del nivel.'
 estimatedMinutes: 65
 covers:
   - a2-biography
