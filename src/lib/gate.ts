@@ -9,7 +9,7 @@
 // Rutas que requieren desbloqueo. A1 nunca está bloqueado.
 // Misma lista usada por LevelGate (gate runtime) y por el home (estilo
 // visual "Próximamente" en cards de nivel). Mantener single source of truth.
-export const LOCKED_PATHS: readonly string[] = ['a2', 'b1', 'b2', 'c1', 'ega', 'expedicion'];
+export const LOCKED_PATHS: readonly string[] = ['b1', 'b2', 'c1', 'ega', 'expedicion'];
 
 const FALLBACK_HASH = '048d57cd633576444ccfb25ea9e9c85e3c351a10a6a371d401d6fe4774665f6a';
 
