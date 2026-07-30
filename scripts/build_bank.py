@@ -336,7 +336,16 @@ SEED_READINGS = [
 ]
 
 # ═══════════════════ SEED: tareas de idazmena ═══════════════════
-# 5 checks = 5 puntos por tarea. kind ∈ aurkezpena | fitxa | mezua | deskribapena.
+# 5 checks = 5 puntos por tarea, TODOS auto-corregibles en cliente. kind ∈
+# aurkezpena | fitxa | mezua | deskribapena. Reglas (evalúa el generador):
+#   sentences {n}  — ≥n frases/segmentos con ≥2 palabras
+#   any {re,min?}  — ≥min (def. 1) de los patrones presentes (regex u, sobre minúsculas)
+#   all {re}       — TODOS los patrones presentes
+#   phoneWords {n} — ≥n números-palabra en euskera
+#   noSpanish      — sin tildes/ñ ni palabras-función castellanas
+RE_HABITUAL = r"\w+(?:tzen|ten) (?:dut|naiz|dugu|gara|du|da)\b"
+RE_FUTURO = r"\w+[kg]o (?:naiz|dut|dugu|gara|da|du|zara|duzu)\b"
+RE_INESIVO = r"\w{3,}(?:ean|ian|oan|uan|etan)\b"
 
 SEED_WRITINGS = [
     {
@@ -349,9 +358,17 @@ SEED_WRITINGS = [
                  "igerilekura joaten naiz, eta larunbatetan mendira. Emaztea eta bi seme ditut. Gurasoak "
                  "Lizarran bizi dira. Asteburuetan haiekin bazkaltzen dugu, eta amaren paella asko "
                  "gustatzen zait!</p>",
-        "checks": ["Se entiende todo", "naiz / dut / ditut bien usados",
-                   "Casos correctos (-n, -ra, -rekin)", "Al menos 6 frases",
-                   "Ni una palabra en castellano"],
+        "checks": [
+            {"label": "Al menos 6 frases", "rule": {"kind": "sentences", "n": 6}},
+            {"label": "naiz para presentarte (Ane naiz, iruindarra naiz…)",
+             "rule": {"kind": "any", "re": [r"\bnaiz\b"]}},
+            {"label": "dut / ditut (lo que tienes o haces)",
+             "rule": {"kind": "any", "re": [r"\bdut\b", r"\bditut\b"]}},
+            {"label": "Al menos dos casos distintos: -rekin, -ra, -n de lugar",
+             "rule": {"kind": "any", "min": 2,
+                      "re": [r"\w+rekin\b", r"(?!gara\b|zara\b)\w{3,}ra\b", RE_INESIVO]}},
+            {"label": "Todo en euskera (sin castellano)", "rule": {"kind": "noSpanish"}},
+        ],
     },
     {
         "id": "wr-fitxa", "kind": "fitxa", "title": "Fitxa bete",
@@ -361,8 +378,20 @@ SEED_WRITINGS = [
         "model": "<p>Izen-abizenak: <em>Ane Etxeberria</em> · Adina: <em>28 urte</em> · Herria: "
                  "<em>Lekeitio</em> · Telefonoa: <em>sei-bat-zazpi-bederatzi-zero-bi-lau-hiru-zortzi</em> "
                  "· Kirola: <em>igeriketa gustatzen zait</em></p>",
-        "checks": ["Izen-abizenak completos", "Adina con «urte»", "Herria con mayúscula",
-                   "Teléfono en palabras", "El deporte con su artículo (-a)"],
+        "checks": [
+            {"label": "Los cinco campos rellenos", "rule": {"kind": "sentences", "n": 5}},
+            {"label": "La edad con «urte»",
+             "rule": {"kind": "any",
+                      "re": [r"\d+ ?urte", r"(?:bat|bi|hiru|lau|bost|sei|zazpi|zortzi|bederatzi|hamar|hogei\w*|berrogei\w*)[\w ]{0,12}urte"]}},
+            {"label": "El teléfono en palabras (seis números-palabra o más)",
+             "rule": {"kind": "phoneWords", "n": 6}},
+            {"label": "Un deporte en euskera",
+             "rule": {"kind": "any",
+                      "re": ["igeriketa", "igeri\\b", "pilota", "futbol", "saskibaloi",
+                             "eskubaloi", "korrika", "mendi", "bizikleta", "txirrindu",
+                             "tenis", "yoga", "eskalada", "surf"]}},
+            {"label": "Todo en euskera (sin castellano)", "rule": {"kind": "noSpanish"}},
+        ],
     },
     {
         "id": "wr-erantzun", "kind": "mezua", "title": "Erantzun gonbidapenari",
@@ -374,9 +403,17 @@ SEED_WRITINGS = [
                  "Larunbatera arte!</p>"
                  "<p><strong>Ezetz:</strong> Kaixo, Jon! Mila esker, baina larunbatean ezin dut: lan "
                  "egiten dut. Hurrengoan bai, ados? Ondo pasa eta on egin!</p>",
-        "checks": ["Saludo y despedida", "Futuro bien usado (joango naiz / ekarriko dut)",
-                   "El motivo del no (o del sí) con sentido", "Una pregunta bien formada",
-                   "4 frases o más"],
+        "checks": [
+            {"label": "Saludo Y despedida (Kaixo… / agur, ondo izan, laster arte…)",
+             "rule": {"kind": "all",
+                      "re": [r"\bkaixo\b|\bepa\b|\baupa\b|egun on|arratsalde on",
+                             r"\bagur\b|ondo izan|laster arte|ondo pasa|muxu|besarkada|arte!"]}},
+            {"label": "El futuro -ko/-go (joango naiz, ekarriko dut…)",
+             "rule": {"kind": "any", "re": [RE_FUTURO]}},
+            {"label": "Una pregunta (con su «?»)", "rule": {"kind": "any", "re": [r"\?"]}},
+            {"label": "4 frases o más", "rule": {"kind": "sentences", "n": 4}},
+            {"label": "Todo en euskera (sin castellano)", "rule": {"kind": "noSpanish"}},
+        ],
     },
     {
         "id": "wr-eguna", "kind": "deskribapena", "title": "Zure eguna",
@@ -386,8 +423,18 @@ SEED_WRITINGS = [
                  "lanera. Bulego batean egiten dut lan, zortzietatik hiruretara. Eguerdian etxean "
                  "bazkaltzen dut. Arratsaldean kirola egiten dut eta erosketak egiten ditut. Gauean "
                  "familiarekin afaltzen dut eta telesail bat ikusten dut.</p>",
-        "checks": ["Horas correctas (…etan)", "Verbos habituales (-tzen dut / naiz)",
-                   "Orden natural de la frase", "6 frases o más", "Cero castellano"],
+        "checks": [
+            {"label": "Una hora (zazpietan, ordu batean…)",
+             "rule": {"kind": "any", "re": [r"\w+etan\b", r"\bordu\w*"]}},
+            {"label": "Presente habitual (-tzen dut / joaten naiz…)",
+             "rule": {"kind": "any", "re": [RE_HABITUAL]}},
+            {"label": "Un transporte (oinez, autobusez, kotxez, bizikletaz…)",
+             "rule": {"kind": "any",
+                      "re": ["oinez", "autobusez", "autoz", "kotxez", "bizikletaz",
+                             "trenez", "metroz", "motoz"]}},
+            {"label": "6 frases o más", "rule": {"kind": "sentences", "n": 6}},
+            {"label": "Todo en euskera (sin castellano)", "rule": {"kind": "noSpanish"}},
+        ],
     },
     {
         "id": "wr-postala", "kind": "mezua", "title": "Postal batetik",
@@ -397,9 +444,18 @@ SEED_WRITINGS = [
         "model": "<p>Kaixo, Maddi! Donostian nago, lagunekin. Goizetan hondartzara joaten gara eta "
                  "arratsaldetan paseatzen dugu. Gaur Aquariuma ikusi dugu — zoragarria! Eguraldi ona "
                  "egiten du, eguzkia egunero. Igandean etxera itzuliko naiz. Muxu bat!</p>",
-        "checks": ["Dónde estás con -n (Donostian nago)", "Presente habitual (-tzen)",
-                   "Un perfecto reciente (ikusi dut/dugu)", "Un futuro (-ko: itzuliko naiz)",
-                   "5 frases o más"],
+        "checks": [
+            {"label": "Dónde estás: …-n nago / gaude (Donostian nago)",
+             "rule": {"kind": "any", "re": [r"\w{3,}n (?:nago|gaude)\b"]}},
+            {"label": "Lo de cada día en habitual (-tzen/-ten)",
+             "rule": {"kind": "any", "re": [RE_HABITUAL]}},
+            {"label": "Algo de HOY en perfecto (ikusi dut, jan dugu…)",
+             "rule": {"kind": "any",
+                      "re": [r"\b(?!nahi |behar |ezin )\w+(?:tu|du|i|n) (?:dut|dugu)\b"]}},
+            {"label": "Cuándo vuelves, en futuro (itzuliko naiz…)",
+             "rule": {"kind": "any", "re": [RE_FUTURO]}},
+            {"label": "5 frases o más", "rule": {"kind": "sentences", "n": 5}},
+        ],
     },
     {
         "id": "wr-etxea", "kind": "deskribapena", "title": "Zure etxea",
@@ -410,9 +466,19 @@ SEED_WRITINGS = [
                  "handia da eta leiho handi bat dauka — asko gustatzen zait. Sukaldean mahai bat, lau "
                  "aulki eta hozkailu zahar bat daude. Balkoirik ez daukagu, baina berdin da: etxe polita "
                  "da!</p>",
-        "checks": ["dago / daude bien usados", "Numeral + sustantivo desnudo (hiru logela)",
-                   "El -n de lugar (sukaldean, Iruñean)", "Una negación (ez dago / ez daukat / -rik)",
-                   "6 frases o más"],
+        "checks": [
+            {"label": "dago / daude para lo que hay",
+             "rule": {"kind": "any", "re": [r"\bdago\b", r"\bdaude\b"]}},
+            {"label": "Un número + cosa (hiru logela, bi komun…)",
+             "rule": {"kind": "any",
+                      "re": [r"\b(?:bat|bi|hiru|lau|bost|sei|zazpi|zortzi|bederatzi|hamar) \w+"]}},
+            {"label": "El -n de lugar (sukaldean, Iruñean…)",
+             "rule": {"kind": "any", "re": [RE_INESIVO]}},
+            {"label": "Algo que NO hay (ez dago / ez daukat / -rik)",
+             "rule": {"kind": "any",
+                      "re": [r"ez dago", r"ez daukat", r"ez dut", r"ez daukagu", r"\w+rik\b"]}},
+            {"label": "6 frases o más", "rule": {"kind": "sentences", "n": 6}},
+        ],
     },
 ]
 
