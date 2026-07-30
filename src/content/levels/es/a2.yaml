@@ -64,6 +64,30 @@ curriculum:
   - { id: a2-weather, title: 'El tiempo (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)' }
   - { id: a2-weather-forecast, title: 'La previsión en futuro (bihar euria egingo du, eguzkia aterako da)' }
   - { id: a2-ohi-habitual, title: 'Hábitos con ohi (joan ohi naiz, bazkaldu ohi dugu)' }
+  # Bloque: viajes y transporte (unidad 07)
+  - { id: a2-transport-vocab, title: 'Transporte (trena, autobusa, hegazkina, geltokia, aireportua, oinez)' }
+  - { id: a2-tickets-schedules, title: 'Billetes y horarios (txartela, joan-etorria, zenbat balio du?, noiz ateratzen da?)' }
+  - { id: a2-accommodation, title: 'Alojamiento (hotela, erreserba, gela bikoitza, gosaria barne)' }
+  - { id: a2-travel-planning, title: 'Preparar un viaje (maleta, agiriak, planifikatu — futuro aplicado)' }
+  - { id: a2-travel-narrative, title: 'Contar un viaje (pasado aplicado: joan ginen, ikusi genuen, galdu genuen trena)' }
+  # Bloque: gestiones cotidianas (unidad 08)
+  - { id: a2-bank-post, title: 'Banco y correos (kontua, dirua atera, transferentzia, paketea bidali)' }
+  - { id: a2-town-hall, title: 'Ayuntamiento y papeleo (udaletxea, errolda, NAN, hitzordua eskatu)' }
+  - { id: a2-phone-messages, title: 'Al teléfono (deitu, mezua utzi, okerreko zenbakia, gero deituko dizut)' }
+  - { id: a2-tech-basics, title: 'Tecnología (ordenagailua, mugikorra, posta elektronikoa, pasahitza, wifia)' }
+  - { id: a2-shopping-returns, title: 'Compras: cambios y devoluciones (probatu, handiegia, aldatu, dirua itzuli)' }
+  # Bloque: naturaleza, deporte y ocio (unidad 09)
+  - { id: a2-nature-vocab, title: 'Naturaleza (mendia, basoa, ibaia, hondartza, gailurra, bidezidorra)' }
+  - { id: a2-animals, title: 'Animales (txakurra, behia, ardia, txoria, basurdea, otsoa)' }
+  - { id: a2-sports, title: 'Deportes (igeriketa, korrika, pilota, entrenatu, partida irabazi/galdu)' }
+  - { id: a2-hobbies, title: 'Aficiones (-tzea gustatzen zait: irakurtzea, sukaldatzea, argazkiak ateratzea)' }
+  - { id: a2-weekend-leisure, title: 'Ocio del finde (kontzertua, museoa, erakusketa, sarrera, doan)' }
+  # Bloque: contar y enlazar (unidad 10)
+  - { id: a2-biography, title: 'Biografías (jaio zen, ikasketak egin zituen, ezkondu ziren, hil zen)' }
+  - { id: a2-indirect-questions, title: 'Preguntas indirectas (ea + -(e)n: ez dakit etorriko den)' }
+  - { id: a2-time-clauses, title: 'Oraciones temporales (-nean, aurretik, ondoren)' }
+  - { id: a2-purpose-clauses, title: 'Finalidad (-tzeko, -tzera: ikastera etorri naiz)' }
+  - { id: a2-exam-review, title: 'Repaso integrador del nivel (formato prueba)' }
   - { id: a2-clothes-extended, title: 'Ropa ampliada (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)' }
   - { id: a2-home-extended, title: 'Casa ampliada (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)' }
   - { id: a2-jobs-extended, title: 'Oficios ampliados (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)' }
