@@ -106,9 +106,41 @@
   $: exam = generate(seed);
 
   let auto: Record<string, number> = {};       // id → puntos automáticos
-  let checks: Record<string, boolean[]> = {};  // idazmena → 5 checks (autoevaluación)
   let texts: Record<string, string> = {};
   let showModel: Record<string, boolean> = {};
+
+  // ── corrección automática de idazmena (reglas del banco, en vivo) ──
+  type Rule =
+    | { kind: 'sentences'; n: number }
+    | { kind: 'any'; re: string[]; min?: number }
+    | { kind: 'all'; re: string[] }
+    | { kind: 'phoneWords'; n: number }
+    | { kind: 'noSpanish' };
+
+  // Chivatos de castellano: tildes/¿¡ o palabras-función que el euskera no
+  // tiene. La ñ NO está (Iruñea, Begoña…) ni "al" (partícula interrogativa eu).
+  const ES_HINTS = /[áéíóú¿¡]/i;
+  const ES_WORDS = /\b(el|la|los|las|un|una|de|del|que|y|es|soy|estoy|tengo|vivo|llamo|con|para|por|pero|muy|hola|gracias|años|anos|trabajo|casa|me gusta)\b/i;
+
+  function evalRule(rule: Rule, raw: string): boolean {
+    const text = (raw ?? '').toLowerCase().replace(/\s+/g, ' ').trim();
+    if (!text) return false;
+    switch (rule.kind) {
+      case 'sentences':
+        return raw.split(/[.!?;\n·]+/)
+          .filter((s) => s.trim().split(/\s+/).filter(Boolean).length >= 2).length >= rule.n;
+      case 'any':
+        return rule.re.filter((p) => new RegExp(p, 'u').test(text)).length >= (rule.min ?? 1);
+      case 'all':
+        return rule.re.every((p) => new RegExp(p, 'u').test(text));
+      case 'phoneWords':
+        return (text.match(/\b(zero|bat|bi|hiru|lau|bost|sei|zazpi|zortzi|bederatzi|hamar)\b/g)?.length ?? 0) >= rule.n;
+      case 'noSpanish':
+        return !ES_HINTS.test(raw) && !ES_WORDS.test(text);
+      default:
+        return false;
+    }
+  }
 
   const onPoint = (e: CustomEvent<{ exerciseId: string; score: number }>) => {
     auto[e.detail.exerciseId] = e.detail.score === 100 ? 1 : 0;
@@ -123,7 +155,7 @@
   const AUTO_N = 8 + 10 + 1 + 2; // preguntas de lectura + gramática + tarjetas + 2 parejas
   $: autoTotal = Object.values(auto).reduce((a, b) => a + b, 0);
   $: writeTotal = exam.writings.reduce(
-    (a, w) => a + (checks[w.id] ?? []).filter(Boolean).length, 0);
+    (a, w) => a + w.checks.filter((c) => evalRule(c.rule as Rule, texts[w.id] ?? '')).length, 0);
   $: total = Math.round((autoTotal + writeTotal) * 10) / 10;
   $: pending = AUTO_N - Object.keys(auto).length;
 
@@ -136,15 +168,9 @@
   $: failedReading = exam.readings.reduce(
     (a, r) => a + r.questions.filter((q) => auto[q.id] === 0).length, 0);
 
-  function setCheck(wid: string, i: number, e: Event) {
-    const arr = checks[wid] ?? [false, false, false, false, false];
-    arr[i] = (e.currentTarget as HTMLInputElement).checked;
-    checks[wid] = arr;
-  }
-
   function regen() {
     seed = newSeed();
-    auto = {}; checks = {}; texts = {}; showModel = {};
+    auto = {}; texts = {}; showModel = {};
     history.replaceState(null, '', `?s=${seed}`);
     haptic('light');
     scrollTo({ top: 0, behavior: 'smooth' });
@@ -220,15 +246,14 @@
           {#if showModel[w.id]}
             <div class="w-model">{@html w.model}</div>
           {/if}
-          <p class="w-rubric-h">Puntúate con honestidad (1 punto por check):</p>
+          <p class="w-rubric-h">Corrección automática — se actualiza mientras escribes (1 punto por check):</p>
           <ul class="w-rubric">
-            {#each w.checks as c, i}
-              <li><label>
-                <input type="checkbox"
-                  checked={checks[w.id]?.[i] ?? false}
-                  on:change={(e) => setCheck(w.id, i, e)} />
-                <span>{c}</span>
-              </label></li>
+            {#each w.checks as c (c.label)}
+              {@const ok = evalRule(c.rule, texts[w.id] ?? '')}
+              <li class:ok>
+                <span class="w-mark" aria-hidden="true">{ok ? '✓' : '✗'}</span>
+                <span>{c.label}</span>
+              </li>
             {/each}
           </ul>
         </article>
@@ -320,8 +345,10 @@
   }
   .w-rubric-h { font-size: 0.9rem; color: var(--c-text-muted); margin-top: var(--s-2); }
   .w-rubric { list-style: none; padding: 0; display: grid; gap: var(--s-2); }
-  .w-rubric label { display: flex; gap: var(--s-2); align-items: baseline; cursor: pointer; }
-  .w-rubric input { accent-color: var(--c-green); }
+  .w-rubric li { display: flex; gap: var(--s-2); align-items: baseline; color: var(--c-text-muted); }
+  .w-rubric li.ok { color: var(--c-text); }
+  .w-mark { font-weight: 700; color: var(--c-red-strong); min-width: 1em; }
+  li.ok .w-mark { color: var(--c-green-strong); }
 
   .verdict {
     border: 2px dashed var(--c-border-strong); border-radius: var(--r-md);
