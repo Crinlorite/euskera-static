@@ -63,6 +63,15 @@ for (const u of units) {
           ))}
         </ul>
       )}
+      {locale === 'es' && levelSlug === 'a1' && (
+        <a class="sim-cta" href={`/${locale}/${levelSlug}/simulakroa/`}>
+          <span class="sim-cta-dice" aria-hidden="true">🎲</span>
+          <span class="sim-cta-body">
+            <strong>Simulakro sortzailea</strong>
+            <small>Genera un examen A1 completo distinto cada vez — estructura real, banco de cientos de preguntas.</small>
+          </span>
+        </a>
+      )}
     </section>
 
     <section class="curriculum">
@@ -87,6 +96,26 @@ for (const u of units) {
 
 <style>
   .level { padding-block: var(--s-8) var(--s-9); }
+
+  .sim-cta {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--s-4);
+    align-items: center;
+    margin-block-start: var(--s-5);
+    padding: var(--s-4) var(--s-5);
+    border: 2px solid var(--c-green);
+    border-radius: var(--r-md);
+    background: var(--c-green-soft);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .sim-cta:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(0 150 75 / 0.18); }
+  .sim-cta-dice { font-size: 2rem; }
+  .sim-cta-body { display: grid; gap: 2px; }
+  .sim-cta-body strong { color: var(--c-green-deep); }
+  .sim-cta-body small { color: var(--c-text-muted); }
 
   .level-header { margin-block-end: var(--s-9); border-block-end: 1px solid var(--c-border); padding-block-end: var(--s-7); }
   .level-h1 {

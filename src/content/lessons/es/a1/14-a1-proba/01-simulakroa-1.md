@@ -224,3 +224,5 @@ El polideportivo te da una ficha. Rellénala **en euskera** con TUS datos:
 - **24-30**: A1 sólido. Empieza el A2 esta semana — en serio.
 - **18-23**: aprobado con lagunas: cada fallo señala su unidad; repásalas y haz el simulacro 2.
 - **Menos de 18**: sin drama — vuelve a las unidades 1-6, y en dos semanas repites. Para eso está esto.
+
+> 🎲 **¿Te lo sabes ya de memoria?** Ese es el problema de todo simulacro fijo — y por eso existe el [**Simulakro sortzailea**](/es/a1/simulakroa/): genera un examen distinto cada vez, con esta misma estructura, desde un banco de cientos de preguntas.
