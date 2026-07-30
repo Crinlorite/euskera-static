@@ -1,9 +1,9 @@
 id: a2-gestioak
 code: 08-eguneroko-gestioak
 level: a2
-title: Eguneroko gestioak — banco, papeleo, teléfono
+title: 'Eguneroko gestioak — banco, papeleo, teléfono'
 order: 8
-description: La vida práctica: banco y correos, ayuntamiento, llamadas, tecnología y devoluciones en la tienda.
+description: 'La vida práctica: banco y correos, ayuntamiento, llamadas, tecnología y devoluciones en la tienda.'
 estimatedMinutes: 65
 covers:
   - a2-bank-post
