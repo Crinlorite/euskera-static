@@ -1,6 +1,6 @@
 code: a2
 name: A2 Maila
-description: Nivel elemental. Comprensión y producción autónoma en situaciones cotidianas habituales, con narración en pasado y opiniones simples.
+description: Nivel elemental. Comprensión y producción autónoma en situaciones cotidianas habituales, con narración en pasado, planes de futuro y opiniones simples.
 order: 2
 status: active
 beta: false
@@ -55,6 +55,15 @@ curriculum:
   - { id: a2-causal-clauses, title: 'Causales subordinadas: -lako (porque, sufijado), zeren...bait- (libro)' }
   - { id: a2-completive-ela, title: 'Completivas con -(e)la: uste dut etorriko dela, badakit egia dela' }
   # Bloque 12: ropa, casa, oficios y vida cotidiana ampliados
+  # Bloque: futuro y planes (unidad 06)
+  - { id: a2-future-forms, title: 'Futuro (geroaldia): partizipioa + -ko/-go (joango, egingo, ikusiko, hartuko)' }
+  - { id: a2-future-izango, title: 'Futuro de izan/ukan/egon (izango naiz, izango dut, egongo da)' }
+  - { id: a2-future-markers, title: 'Marcadores de futuro (bihar, etzi, datorren astean, hurrengo urtean, laster)' }
+  - { id: a2-plans-intentions, title: 'Planes e intenciones (zer egingo duzu?, -tzeko asmoa dut, pentsatu, erabaki)' }
+  - { id: a2-invitations, title: 'Invitar y quedar (nahi duzu...?, zergatik ez...?, geratu, ondo iruditzen zait)' }
+  - { id: a2-weather, title: 'El tiempo (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)' }
+  - { id: a2-weather-forecast, title: 'La previsión en futuro (bihar euria egingo du, eguzkia aterako da)' }
+  - { id: a2-ohi-habitual, title: 'Hábitos con ohi (joan ohi naiz, bazkaldu ohi dugu)' }
   - { id: a2-clothes-extended, title: 'Ropa ampliada (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)' }
   - { id: a2-home-extended, title: 'Casa ampliada (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)' }
   - { id: a2-jobs-extended, title: 'Oficios ampliados (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)' }
