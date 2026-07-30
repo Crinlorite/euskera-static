@@ -12,14 +12,14 @@ exercises:
   - id: ex-a2-eg5-mc1
     type: multiple-choice
     prompt: '"Ez erre" significa…'
-    options: ['Fuma', 'No fumes', 'He fumado', 'Estoy fumando']
-    answer: 1
+    options: ['No fumes', 'Fuma', 'He fumado', 'Estoy fumando']
+    answer: 0
     explanation: 'El imperativo negativo se forma con *ez* + participio: *ez erre* = no fumes.'
   - id: ex-a2-eg5-mc2
     type: multiple-choice
     prompt: '"Hobe duzu deskantsatzea" da…'
-    options: ['Has descansado', 'Es mejor que descanses', 'No descanses', 'Voy a descansar']
-    answer: 1
+    options: ['Has descansado', 'Voy a descansar', 'No descanses', 'Es mejor que descanses']
+    answer: 3
     explanation: '*Hobe duzu + -tzea* = "es mejor que (tú)…" — fórmula clave para dar consejos.'
   - id: ex-a2-eg5-fb1
     type: fill-in-blank

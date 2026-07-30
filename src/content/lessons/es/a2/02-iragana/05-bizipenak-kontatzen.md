@@ -22,8 +22,8 @@ exercises:
   - id: ex-a2-ir5-mc2
     type: multiple-choice
     prompt: 'Para hablar de la **escena** de fondo (cómo era el día, dónde estaban) en una historia, ¿qué pasado uso?'
-    options: ['Iragan burutua (joan nintzen)', 'Iragan ez burutua (joaten nintzen / zen)', 'Pasado reciente (joan naiz)', 'Presente']
-    answer: 1
+    options: ['Iragan burutua (joan nintzen)', 'Presente', 'Pasado reciente (joan naiz)', 'Iragan ez burutua (joaten nintzen / zen)']
+    answer: 3
     explanation: 'La escena, la descripción y los hábitos van en imperfecto. Las acciones puntuales que hacen avanzar la historia van en burutua.'
   - id: ex-a2-ir5-fb1
     type: fill-in-blank

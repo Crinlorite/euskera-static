@@ -12,18 +12,18 @@ exercises:
   - id: ex-a2-ir4-mc1
     type: multiple-choice
     prompt: '"Lan egiten nuen Bilbon" significa…'
-    options: ['He trabajado en Bilbao', 'Trabajaba en Bilbao (hábito)', 'Voy a trabajar en Bilbao', 'Trabajé en Bilbao un día']
-    answer: 1
+    options: ['Trabajaba en Bilbao (hábito)', 'He trabajado en Bilbao', 'Voy a trabajar en Bilbao', 'Trabajé en Bilbao un día']
+    answer: 0
     explanation: '*Egiten nuen* es imperfecto: hábito o acción repetida en el pasado.'
   - id: ex-a2-ir4-mc2
     type: multiple-choice
     prompt: '¿Cuál es la diferencia entre "irakurri nuen" y "irakurtzen nuen"?'
     options:
-      - 'No hay diferencia'
       - '"Irakurri nuen" = leí (hecho cerrado); "irakurtzen nuen" = leía (hábito)'
+      - 'No hay diferencia'
       - '"Irakurri nuen" = leía; "irakurtzen nuen" = he leído'
       - '"Irakurri nuen" es presente, "irakurtzen nuen" es pasado'
-    answer: 1
+    answer: 0
     explanation: 'Es la oposición clave de A2: partizipioa = hecho puntual; -tzen + auxiliar pasado = hábito o acción en curso.'
   - id: ex-a2-ir4-fb1
     type: fill-in-blank

@@ -12,8 +12,8 @@ exercises:
   - id: ex-a2-eg2-mc1
     type: multiple-choice
     prompt: 'En el médico, "Hartu pilula bat zortzi orduro" significa…'
-    options: ['Toma una pastilla a las ocho', 'Toma una pastilla cada ocho horas', 'Toma ocho pastillas', 'Toma una pastilla durante ocho horas']
-    answer: 1
+    options: ['Toma una pastilla a las ocho', 'Toma una pastilla durante ocho horas', 'Toma ocho pastillas', 'Toma una pastilla cada ocho horas']
+    answer: 3
     explanation: 'El sufijo *-ro* sobre una hora indica frecuencia regular: *zortzi orduro* = cada ocho horas.'
   - id: ex-a2-eg2-mc2
     type: multiple-choice
