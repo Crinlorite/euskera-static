@@ -8,6 +8,8 @@
   const items: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' }> = [
     { href: `/${locale}/`, key: 'nav.home' },
     { href: `/${locale}/a1/`, label: 'A1' },
+    // A2 aún solo existe en es; al traducirlo, quitar la condición.
+    ...(locale === 'es' ? [{ href: `/${locale}/a2/`, label: 'A2' }] : []),
     { href: `/${locale}/progreso/`, key: 'nav.progress' },
   ];
 </script>
