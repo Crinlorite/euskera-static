@@ -3,7 +3,7 @@ name: A2 Maila
 description: Nivel elemental. Comprensión y producción autónoma en situaciones cotidianas habituales, con narración en pasado y opiniones simples.
 order: 2
 status: active
-beta: true
+beta: false
 curriculum:
   # Bloque 1: salud, cuerpo, dolencias y vida sana
   - { id: a2-health-vocab, title: 'Vocabulario de salud (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)' }
