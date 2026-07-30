@@ -221,3 +221,5 @@ Describe TU día de trabajo o estudio en **6-8 frases**, con al menos: una hora 
 - **24-30 en los dos simulacros**: tu A1 está COMPLETO. Es oficial (lo nuestro): pasa al A2, que te espera el pasado, el futuro y medio mundo.
 - **18-23**: casi — cada fallo es un cartel con el número de la unidad a repasar.
 - **Menos de 18**: date dos semanas de repaso guiado (unidades que fallaste) y repite. El examen no se te escapa: se aplaza.
+
+> 🎲 **Tercer examen, cuarto, quinto…** los genera el [**Simulakro sortzailea**](/es/a1/simulakroa/): misma estructura, otra papeleta, infinitas veces.
