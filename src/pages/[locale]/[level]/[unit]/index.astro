@@ -55,6 +55,19 @@ const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
       </p>
     </header>
 
+    {locale === 'es' && unitCode === '14-a1-proba' && (
+      <a class="sim-cta" href={`/${locale}/${levelCode}/simulakroa/`}>
+        <span class="sim-cta-dice" aria-hidden="true">🎲</span>
+        <span class="sim-cta-body">
+          <strong>Simulakro sortzailea</strong>
+          <small>¿Ya has hecho estos dos? Genera un examen distinto cada vez, del mismo banco.</small>
+        </span>
+        <span class="unit-arrow icon-direction-aware" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </a>
+    )}
+
     <section class="lessons-section">
       <header class="section-head">
         <p class="eyebrow">Lecciones</p>
@@ -98,6 +111,26 @@ const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
 
 <style>
   .unit { padding-block: var(--s-8) var(--s-9); }
+
+  .sim-cta {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: var(--s-4);
+    align-items: center;
+    margin-block-end: var(--s-7);
+    padding: var(--s-4) var(--s-5);
+    border: 2px solid var(--c-green);
+    border-radius: var(--r-md);
+    background: var(--c-green-soft);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .sim-cta:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgb(0 150 75 / 0.18); }
+  .sim-cta-dice { font-size: 2rem; }
+  .sim-cta-body { display: grid; gap: 2px; }
+  .sim-cta-body strong { color: var(--c-green-deep); }
+  .sim-cta-body small { color: var(--c-text-muted); }
 
   .unit-header { margin-block-end: var(--s-9); padding-block-end: var(--s-7); border-block-end: 1px solid var(--c-border); }
   .unit-header .eyebrow a { color: inherit; text-decoration: none; }

@@ -1,0 +1,37 @@
+---
+// Generador procedural de simulacros. Solo es/a1 de momento: el banco se
+// construye desde las lecciones es (scripts/build_bank.py); al traducir el
+// A1 proba a más idiomas, se añaden locales aquí y bancos por locale.
+import RootLayout from '../../../layouts/RootLayout.astro';
+import SimulakroGenerator from '../../../components/exercises/SimulakroGenerator.svelte';
+import type { LocaleCode } from '../../../i18n/config';
+
+export function getStaticPaths() {
+  return [{ params: { locale: 'es', level: 'a1' } }];
+}
+
+const { locale, level } = Astro.params as { locale: LocaleCode; level: string };
+---
+<RootLayout locale={locale} title="Simulakro sortzailea — examen A1 infinito">
+  <article class="container sim-page">
+    <header class="sim-header stagger">
+      <p class="eyebrow">
+        <a href={`/${locale}/${level}/`}>← A1 · Todas las unidades</a>
+      </p>
+      <h1 class="display">🎲 Simulakro <span class="text-grad">sortzailea</span></h1>
+      <p class="sim-lead">
+        Un examen A1 <strong>distinto cada vez</strong>, montado al momento desde un banco de
+        cientos de preguntas con la estructura de una prueba real: misma receta, otra papeleta.
+        Hazlo del tirón, sin diccionario — y cuando acabes, pulsa
+        <em>«Beste simulakro bat sortu»</em> y cae otro.
+      </p>
+    </header>
+    <SimulakroGenerator client:only="svelte" />
+  </article>
+</RootLayout>
+
+<style>
+  .sim-page { display: grid; gap: var(--s-6); padding-block: var(--s-6) var(--s-9); }
+  .sim-header { display: grid; gap: var(--s-3); }
+  .sim-lead { max-width: 62ch; line-height: 1.65; color: var(--c-text-muted); }
+</style>

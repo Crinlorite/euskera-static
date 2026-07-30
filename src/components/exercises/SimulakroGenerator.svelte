@@ -1,0 +1,340 @@
+<script lang="ts">
+  // Generador procedural de simulacros A1. Banco estático (bundle del
+  // island, funciona offline) + blueprint fijo: la ESTRUCTURA del examen
+  // nunca se sortea (2 lecturas de tipos distintos, 10 de gramática con
+  // cuota mínima por categoría, tarjetas, 2 de emparejar, 2 escrituras de
+  // tipos distintos); solo se sortea el CONTENIDO. Misma semilla → mismo
+  // examen (la URL ?s= es compartible); botón → semilla nueva.
+  import bank from '../../data/bank/a1.es.json';
+  import MultipleChoice from './MultipleChoice.svelte';
+  import FillInBlank from './FillInBlank.svelte';
+  import Flashcards from './Flashcards.svelte';
+  import MatchPairs from './MatchPairs.svelte';
+  import { haptic } from '../../lib/platform';
+
+  type Rnd = () => number;
+  type GrItem = {
+    id: string; type: 'mc' | 'fill'; cat: string; unit: string; prompt: string;
+    explanation: string; options?: string[]; answer?: number; answers?: string[];
+  };
+
+  // ── PRNG con semilla (mulberry32) ──
+  function mulberry32(a: number): Rnd {
+    return () => {
+      a |= 0; a = (a + 0x6d2b79f5) | 0;
+      let t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function seedToInt(s: string): number {
+    let h = 2166136261;
+    for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return h >>> 0;
+  }
+  function newSeed(): string {
+    const buf = new Uint32Array(1);
+    crypto.getRandomValues(buf);
+    return buf[0].toString(36).padStart(6, '0').slice(0, 6);
+  }
+
+  function shuffle<T>(arr: T[], rnd: Rnd): T[] {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(rnd() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+  const sample = <T,>(arr: T[], n: number, rnd: Rnd): T[] => shuffle(arr, rnd).slice(0, n);
+
+  // Baraja las opciones de un MC y remapea la respuesta — el sesgo de
+  // posición muere aquí, en runtime.
+  function shuffleMc<T extends { options?: string[]; answer?: number }>(q: T, rnd: Rnd): T {
+    if (!q.options) return q;
+    const idx = shuffle(q.options.map((_, i) => i), rnd);
+    return { ...q, options: idx.map((i) => q.options![i]), answer: idx.indexOf(q.answer!) };
+  }
+
+  function generate(seedStr: string) {
+    const rnd = mulberry32(seedToInt(seedStr));
+    const bp = bank.blueprint;
+
+    // Irakurmena: 2 lecturas de tipos distintos, 4 preguntas cada una
+    const rs = shuffle(bank.readings, rnd);
+    const r1 = rs[0];
+    const r2 = rs.find((r) => r.kind !== r1.kind) ?? rs[1];
+    const readings = [r1, r2].map((r) => ({
+      ...r,
+      questions: sample(r.questions, bp.irakurmena.questionsPer, rnd).map((q) => shuffleMc(q, rnd)),
+    }));
+
+    // Gramatika: cuota mínima por categoría + relleno libre
+    const byCat: Record<string, GrItem[]> = {};
+    for (const it of bank.items as GrItem[]) (byCat[it.cat] ??= []).push(it);
+    const picked: GrItem[] = [];
+    const used = new Set<string>();
+    for (const [cat, min] of Object.entries(bp.gramatika.minPerCat)) {
+      for (const it of sample(byCat[cat] ?? [], min as number, rnd)) {
+        picked.push(it); used.add(it.id);
+      }
+    }
+    const rest = (bank.items as GrItem[]).filter((i) => !used.has(i.id));
+    picked.push(...sample(rest, bp.gramatika.total - picked.length, rnd));
+    const gramatika = shuffle(picked, rnd).map((it) => (it.type === 'mc' ? shuffleMc(it, rnd) : it));
+
+    // Hiztegia: tarjetas del pool global + 2 sets de parejas ATÓMICOS
+    // (recortados a 6: un subconjunto de un set coherente sigue siéndolo)
+    const cards = sample(bank.cards, bp.hiztegia.cards, rnd);
+    const pairSets = sample(bank.pairSets, bp.hiztegia.pairSets, rnd).map((s) => ({
+      ...s,
+      pairs: sample(s.pairs, Math.min(bp.hiztegia.pairsPerSet, s.pairs.length), rnd),
+    }));
+
+    // Idazmena: 2 tareas de tipos distintos
+    const ws = shuffle(bank.writings, rnd);
+    const w1 = ws[0];
+    const w2 = ws.find((w) => w.kind !== w1.kind) ?? ws[1];
+
+    return { readings, gramatika, cards, pairSets, writings: [w1, w2] };
+  }
+
+  // ── estado ──
+  let seed = new URLSearchParams(location.search).get('s') || newSeed();
+  history.replaceState(null, '', `?s=${seed}`);
+
+  $: exam = generate(seed);
+
+  let auto: Record<string, number> = {};       // id → puntos automáticos
+  let checks: Record<string, boolean[]> = {};  // idazmena → 5 checks (autoevaluación)
+  let texts: Record<string, string> = {};
+  let showModel: Record<string, boolean> = {};
+
+  const onPoint = (e: CustomEvent<{ exerciseId: string; score: number }>) => {
+    auto[e.detail.exerciseId] = e.detail.score === 100 ? 1 : 0;
+  };
+  const onCards = (e: CustomEvent<{ exerciseId: string; score: number }>) => {
+    auto[e.detail.exerciseId] = e.detail.score >= 75 ? 1 : 0;
+  };
+  const onPairs = (e: CustomEvent<{ exerciseId: string; score: number }>) => {
+    auto[e.detail.exerciseId] = e.detail.score >= 70 ? 0.5 : 0;
+  };
+
+  const AUTO_N = 8 + 10 + 1 + 2; // preguntas de lectura + gramática + tarjetas + 2 parejas
+  $: autoTotal = Object.values(auto).reduce((a, b) => a + b, 0);
+  $: writeTotal = exam.writings.reduce(
+    (a, w) => a + (checks[w.id] ?? []).filter(Boolean).length, 0);
+  $: total = Math.round((autoTotal + writeTotal) * 10) / 10;
+  $: pending = AUTO_N - Object.keys(auto).length;
+
+  // Fallos de gramática → unidades a repasar, con nombre y enlace
+  $: failedUnits = (() => {
+    const m = new Map<string, number>();
+    for (const it of exam.gramatika) if (auto[it.id] === 0) m.set(it.unit, (m.get(it.unit) ?? 0) + 1);
+    return [...m.entries()].sort((a, b) => b[1] - a[1]);
+  })();
+  $: failedReading = exam.readings.reduce(
+    (a, r) => a + r.questions.filter((q) => auto[q.id] === 0).length, 0);
+
+  function setCheck(wid: string, i: number, e: Event) {
+    const arr = checks[wid] ?? [false, false, false, false, false];
+    arr[i] = (e.currentTarget as HTMLInputElement).checked;
+    checks[wid] = arr;
+  }
+
+  function regen() {
+    seed = newSeed();
+    auto = {}; checks = {}; texts = {}; showModel = {};
+    history.replaceState(null, '', `?s=${seed}`);
+    haptic('light');
+    scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  const KIND_LABEL: Record<string, string> = {
+    pertsona: 'testua', mezua: 'mezua', iragarkia: 'iragarkia',
+  };
+</script>
+
+<div class="sim">
+  <header class="sim-head">
+    <p class="sim-seed">Simulakroa <strong>#{seed}</strong> — cada semilla es un examen distinto.
+      Guarda la URL para repetir (o retar a alguien con) exactamente este.</p>
+    <table class="sim-tbl">
+      <thead><tr><th>Atala</th><th>Qué hay</th><th>Puntos</th></tr></thead>
+      <tbody>
+        <tr><td>1 · Irakurmena</td><td>2 textos, 8 preguntas</td><td>8</td></tr>
+        <tr><td>2 · Gramatika eta hiztegia</td><td>10 ejercicios + tarjetas + 2 de emparejar</td><td>12</td></tr>
+        <tr><td>3 · Idazmena</td><td>2 tareas con modelo y rúbrica</td><td>10</td></tr>
+        <tr class="sim-tot"><td><strong>Guztira</strong></td><td>45-60 min, sin diccionario</td><td><strong>30</strong></td></tr>
+      </tbody>
+    </table>
+    <p class="sim-note">Sin audio no hay <em>entzumena</em> y sin examinador no hay <em>mintzamena</em>:
+      lee los textos en voz alta al acabar y grábate con el móvil. Y recuerda: A1 y A2 se acreditan
+      en el euskaltegi por evaluación continua — el primer examen de convocatoria es el B1 de HABE.</p>
+  </header>
+
+  {#key seed}
+    <section class="atala">
+      <h2>📖 1 · Irakurmena</h2>
+      {#each exam.readings as r, ri}
+        <article class="reading">
+          <h3>{ri + 1}. {KIND_LABEL[r.kind] ?? 'testua'} — {r.title}</h3>
+          <div class="reading-text">{@html r.html}</div>
+          {#each r.questions as q (q.id)}
+            <MultipleChoice id={q.id} prompt={q.prompt} options={q.options} answer={q.answer}
+              explanation={q.explanation} locale="es" on:result={onPoint} />
+          {/each}
+        </article>
+      {/each}
+    </section>
+
+    <section class="atala">
+      <h2>✏️ 2 · Gramatika eta hiztegia</h2>
+      {#each exam.gramatika as it (it.id)}
+        {#if it.type === 'mc'}
+          <MultipleChoice id={it.id} prompt={it.prompt} options={it.options} answer={it.answer}
+            explanation={it.explanation} locale="es" on:result={onPoint} />
+        {:else}
+          <FillInBlank id={it.id} prompt={it.prompt} answers={it.answers}
+            explanation={it.explanation} locale="es" on:result={onPoint} />
+        {/if}
+      {/each}
+      <h3 class="hiz-h">Hiztegia</h3>
+      <Flashcards id="sim-fc" cards={exam.cards} locale="es" on:result={onCards} />
+      {#each exam.pairSets as ps (ps.id)}
+        <MatchPairs id={ps.id} pairs={ps.pairs} locale="es" on:result={onPairs} />
+      {/each}
+    </section>
+
+    <section class="atala">
+      <h2>🖊️ 3 · Idazmena</h2>
+      {#each exam.writings as w, wi (w.id)}
+        <article class="writing">
+          <h3>{wi + 1}. ataza — {w.title} <span class="pts">(5 puntos)</span></h3>
+          <p class="w-task">{@html w.task}</p>
+          <textarea rows="6" placeholder="Idatzi hemen…" bind:value={texts[w.id]}></textarea>
+          <button class="btn btn-secondary w-toggle"
+            on:click={() => { showModel[w.id] = !showModel[w.id]; }}>
+            {showModel[w.id] ? 'Ezkutatu eredua' : 'Erakutsi eredua'}
+          </button>
+          {#if showModel[w.id]}
+            <div class="w-model">{@html w.model}</div>
+          {/if}
+          <p class="w-rubric-h">Puntúate con honestidad (1 punto por check):</p>
+          <ul class="w-rubric">
+            {#each w.checks as c, i}
+              <li><label>
+                <input type="checkbox"
+                  checked={checks[w.id]?.[i] ?? false}
+                  on:change={(e) => setCheck(w.id, i, e)} />
+                <span>{c}</span>
+              </label></li>
+            {/each}
+          </ul>
+        </article>
+      {/each}
+    </section>
+  {/key}
+
+  <section class="verdict" class:done={pending === 0}>
+    <h2>🎯 Nota</h2>
+    {#if pending > 0}
+      <p class="v-pending">Te quedan <strong>{pending}</strong> ejercicios por responder.
+        Llevas <strong>{total}</strong> puntos ({autoTotal} automáticos + {writeTotal} de escritura).</p>
+    {:else}
+      <p class="v-score"><strong>{total} / 30</strong></p>
+      {#if total >= 24}
+        <p class="v-msg ok">A1 sendoa. Genera otro con el botón de abajo y confírmalo — y si también
+          lo pasas, empieza el A2 esta semana. En serio.</p>
+      {:else if total >= 18}
+        <p class="v-msg mid">Aprobado con lagunas — abajo tienes exactamente cuáles repasar.
+          Repásalas y genera otro simulacro.</p>
+      {:else}
+        <p class="v-msg low">Sin drama: repasa las unidades de abajo con calma y en dos semanas
+          generas otro. El examen no se te escapa: se aplaza.</p>
+      {/if}
+      {#if failedUnits.length > 0}
+        <p class="v-rep-h">Unidades a repasar (fallos de gramática):</p>
+        <ul class="v-rep">
+          {#each failedUnits as [unit, n]}
+            <li><a href={`/es/a1/${unit}/`}>{bank.unitTitles[unit] ?? unit}</a>
+              <span class="v-n">{n} {n === 1 ? 'fallo' : 'fallos'}</span></li>
+          {/each}
+        </ul>
+      {/if}
+      {#if failedReading > 0}
+        <p class="v-read">Irakurmena: {failedReading} {failedReading === 1 ? 'fallo' : 'fallos'} —
+          vuelve a leer los textos DESPACIO y busca la frase exacta de cada respuesta.</p>
+      {/if}
+    {/if}
+    <button class="btn btn-primary v-regen" on:click={regen}>🎲 Beste simulakro bat sortu</button>
+  </section>
+</div>
+
+<style>
+  .sim { display: grid; gap: var(--s-6); }
+  .sim-head { display: grid; gap: var(--s-4); }
+  .sim-seed { color: var(--c-text-muted); font-size: 0.95rem; }
+  .sim-seed strong { color: var(--c-red); font-variant-numeric: tabular-nums; }
+  .sim-tbl { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  .sim-tbl th, .sim-tbl td {
+    text-align: left; padding: var(--s-2) var(--s-3);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .sim-tbl th { color: var(--c-text-muted); font-weight: 600; }
+  .sim-tbl td:last-child, .sim-tbl th:last-child { text-align: right; }
+  .sim-tot td { border-bottom: none; }
+  .sim-note {
+    font-size: 0.9rem; color: var(--c-text-muted);
+    background: var(--c-bg-muted); border-radius: var(--r-md); padding: var(--s-3) var(--s-4);
+  }
+
+  .atala { display: grid; gap: var(--s-4); }
+  .atala h2 {
+    border-bottom: 3px solid var(--c-green);
+    padding-bottom: var(--s-2); margin-top: var(--s-4);
+  }
+  .hiz-h { margin-top: var(--s-4); }
+
+  .reading { display: grid; gap: var(--s-4); }
+  .reading h3 { color: var(--c-green-strong); }
+  .reading-text {
+    background: var(--c-bg-cream); border-left: 4px solid var(--c-green);
+    border-radius: var(--r-md); padding: var(--s-4) var(--s-5);
+    display: grid; gap: var(--s-3); font-size: 1.02rem; line-height: 1.65;
+  }
+
+  .writing { display: grid; gap: var(--s-3); }
+  .writing h3 { color: var(--c-red-strong); }
+  .pts { color: var(--c-text-muted); font-weight: 400; font-size: 0.9rem; }
+  .w-task { line-height: 1.6; }
+  textarea {
+    width: 100%; padding: var(--s-3); border: 1px solid var(--c-border-strong);
+    border-radius: var(--r-md); font: inherit; resize: vertical; background: var(--c-bg);
+  }
+  textarea:focus { outline: 2px solid var(--c-green); border-color: transparent; }
+  .w-toggle { justify-self: start; }
+  .w-model {
+    background: var(--c-green-soft); border-radius: var(--r-md);
+    padding: var(--s-3) var(--s-4); line-height: 1.6;
+  }
+  .w-rubric-h { font-size: 0.9rem; color: var(--c-text-muted); margin-top: var(--s-2); }
+  .w-rubric { list-style: none; padding: 0; display: grid; gap: var(--s-2); }
+  .w-rubric label { display: flex; gap: var(--s-2); align-items: baseline; cursor: pointer; }
+  .w-rubric input { accent-color: var(--c-green); }
+
+  .verdict {
+    border: 2px dashed var(--c-border-strong); border-radius: var(--r-md);
+    padding: var(--s-5); display: grid; gap: var(--s-3); justify-items: start;
+  }
+  .verdict.done { border-style: solid; border-color: var(--c-green); }
+  .v-score { font-size: 2.2rem; }
+  .v-score strong { color: var(--c-green-strong); }
+  .v-msg.ok { color: var(--c-green-strong); }
+  .v-msg.low { color: var(--c-red-strong); }
+  .v-rep { list-style: none; padding: 0; display: grid; gap: var(--s-1); }
+  .v-rep a { color: var(--c-red-strong); font-weight: 600; }
+  .v-n { color: var(--c-text-muted); font-size: 0.85rem; margin-left: var(--s-2); }
+  .v-read, .v-pending { color: var(--c-text-muted); }
+  .v-regen { margin-top: var(--s-2); }
+</style>
