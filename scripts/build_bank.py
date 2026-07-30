@@ -47,7 +47,6 @@ UNIT_CAT = {
     "04-bar-y-comida": "erosketak",
     "11-comprar": "erosketak",
     "12-restaurante": "erosketak",
-    "14-a1-proba": "azterketa",
 }
 
 BLUEPRINT = {
@@ -102,11 +101,6 @@ def collect():
         cat = UNIT_CAT.get(unit)
         if not cat:
             sys.exit(f"✗ unidad sin categoría en UNIT_CAT: {unit}")
-        # La unidad 14 ya no tiene lecciones (los simulacros fijos se retiraron:
-        # solo existe el generador); si algún día vuelven, su contenido YA vive
-        # en la seed — saltar para no duplicar ids.
-        if unit == "14-a1-proba":
-            continue
         for ex in fm.get("exercises") or []:
             t = ex.get("type")
             if t in ("multiple-choice", "fill-in-blank"):

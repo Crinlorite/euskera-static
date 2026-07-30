@@ -1,9 +1,0 @@
-id: a1-proba
-code: 14-a1-proba
-level: a1
-title: 'Ponte a prueba — simulacros A1'
-order: 14
-description: 'Tira el dado: un examen completo distinto cada vez, al estilo de las pruebas de nivel — doble lectura, 10 ejercicios de gramática, vocabulario y dos tareas de escritura con modelo y puntuación sobre 30. La verdad sobre tu A1, tantas veces como quieras.'
-estimatedMinutes: 60
-covers:
-  - a1-exam-review
