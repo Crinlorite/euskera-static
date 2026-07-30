@@ -23,6 +23,9 @@ const { locale, level: levelCode, unit: unitCode } = Astro.params as {
 };
 const { unit } = Astro.props;
 
+// La unidad-examen no tiene lecciones: solo el generador de simulacros.
+const isSimUnit = locale === 'es' && unitCode === '14-a1-proba';
+
 const allLessons = await getCollection('lessons');
 const lessons = allLessons
   .filter((l) => l.id.startsWith(`${locale}/${levelCode}/${unitCode}/`))
@@ -51,30 +54,32 @@ const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
       </div>
       <p class="unit-desc">{unit.data.description}</p>
       <p class="unit-meta">
-        {lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min
+        {isSimUnit
+          ? 'Exámenes infinitos · 45-60 min cada uno'
+          : `${lessons.length} ${t(locale, 'unit.lessons').toLowerCase()} · ~${unit.data.estimatedMinutes} min`}
       </p>
     </header>
 
-    {locale === 'es' && unitCode === '14-a1-proba' && (
+    {isSimUnit ? (
       <a class="sim-cta" href={`/${locale}/${levelCode}/simulakroa/`}>
         <span class="sim-cta-dice" aria-hidden="true">🎲</span>
         <span class="sim-cta-body">
           <strong>Simulakro sortzailea</strong>
-          <small>¿Ya has hecho estos dos? Genera un examen distinto cada vez, del mismo banco.</small>
+          <small>Doble lectura, gramática, vocabulario y escritura — 30 puntos. Pulsa, tira el dado y a examen.</small>
         </span>
         <span class="unit-arrow icon-direction-aware" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </span>
       </a>
+    ) : (
+      <section class="lessons-section">
+        <header class="section-head">
+          <p class="eyebrow">Lecciones</p>
+          <h2 class="display section-title">Empieza por la primera</h2>
+        </header>
+        <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
+      </section>
     )}
-
-    <section class="lessons-section">
-      <header class="section-head">
-        <p class="eyebrow">Lecciones</p>
-        <h2 class="display section-title">Empieza por la primera</h2>
-      </header>
-      <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
-    </section>
 
     <nav class="unit-nav" aria-label="Navegación entre unidades">
       {prevUnit ? (

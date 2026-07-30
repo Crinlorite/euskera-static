@@ -102,13 +102,14 @@ def collect():
         cat = UNIT_CAT.get(unit)
         if not cat:
             sys.exit(f"✗ unidad sin categoría en UNIT_CAT: {unit}")
+        # La unidad 14 ya no tiene lecciones (los simulacros fijos se retiraron:
+        # solo existe el generador); si algún día vuelven, su contenido YA vive
+        # en la seed — saltar para no duplicar ids.
+        if unit == "14-a1-proba":
+            continue
         for ex in fm.get("exercises") or []:
             t = ex.get("type")
             if t in ("multiple-choice", "fill-in-blank"):
-                # Los -ir* de la unidad 14 dependen del texto del cuerpo:
-                # entran vía SEED_READINGS con su texto, no como items sueltos.
-                if unit == "14-a1-proba" and re.search(r"-ir\d+$", ex["id"]):
-                    continue
                 prompt = re.sub(r"^(IRAKURMENA|GRAMATIKA)[^·]*·\s*", "", ex["prompt"])
                 item = {
                     "id": ex["id"],
@@ -422,8 +423,157 @@ SEED_WRITINGS = [
 ]
 
 
+# ═══════════════ SEED: items de examen (ex-simulacros estáticos) ═══════════════
+# Los 2 simulacros fijos se retiraron como lecciones (solo existe el generador);
+# su gramática vive aquí con cat=azterketa (la cuota del blueprint garantiza ≥1
+# item transversal por examen) y unit= su unidad TEMÁTICA real, para que el
+# veredicto de «unidades a repasar» apunte a donde de verdad se estudia eso.
+
+SEED_GR = [
+    {"id": "ex-a1p1-gr1", "type": "fill", "cat": "azterketa", "unit": "05-mi-pueblo",
+     "prompt": "Nosotros vivimos en Pamplona = gu Iruñean bizi ___.", "answers": ["gara"],
+     "explanation": "Bizi izan va con NOR: ni bizi naiz, gu bizi gara."},
+    {"id": "ex-a1p1-gr2", "type": "fill", "cat": "azterketa", "unit": "02-familia",
+     "prompt": "¿Tienes hermanos? = senide___ baduzu?", "answers": ["rik"],
+     "explanation": "Partitivo -rik en preguntas: seniderik baduzu?, dirurik baduzu?"},
+    {"id": "ex-a1p1-gr3", "type": "mc", "cat": "azterketa", "unit": "10-mi-gente",
+     "prompt": '"Me gustan las manzanas" = …',
+     "options": ["Sagarra gustatzen zait", "Sagarrak gustatzen zaizkit", "Sagarrak gustatzen dut", "Sagarra gustatzen naiz"],
+     "answer": 1,
+     "explanation": "Plural (sagarrak) → zaizkit. Jamás dut/naiz con gustatzen: el error que el examen busca con lupa."},
+    {"id": "ex-a1p1-gr4", "type": "fill", "cat": "azterketa", "unit": "06-direcciones",
+     "prompt": "Voy a casa en autobús = etxe___ noa autobusez.", "answers": ["ra"],
+     "explanation": "Adlativo -ra (a/hacia): etxera noa. El instrumental -z (autobusez) ya te lo dan hecho."},
+    {"id": "ex-a1p1-gr5", "type": "fill", "cat": "azterketa", "unit": "06-direcciones",
+     "prompt": "Vengo de la playa = hondartza___ nator.", "answers": ["tik"],
+     "explanation": "Ablativo -tik (desde/de): hondartzatik nator. La pareja de -ra: voy A / vengo DE."},
+    {"id": "ex-a1p1-gr6", "type": "mc", "cat": "azterketa", "unit": "02-familia",
+     "prompt": '"Trabajo con mi hermano" = …',
+     "options": ["Anaiarentzat egiten dut lan", "Anaiarekin egiten dut lan", "Anaiaren egiten dut lan", "Anaiara egiten dut lan"],
+     "answer": 1,
+     "explanation": "Comitativo -rekin (con): anaiarekin. *-rentzat* sería PARA él; *-ren*, suyo; *-ra*, hacia él (!)."},
+    {"id": "ex-a1p1-gr7", "type": "mc", "cat": "azterketa", "unit": "11-comprar",
+     "prompt": "¿Cuál es la CORRECTA?",
+     "options": ["Hiru liburuak ditut", "Hiru liburu ditut", "Liburu hirurak dut", "Hiru liburua ditut"],
+     "answer": 1,
+     "explanation": "Numeral + sustantivo DESNUDO: hiru liburu (tres libros), sin artículo. Y plural en el verbo: ditut."},
+    {"id": "ex-a1p1-gr8", "type": "mc", "cat": "azterketa", "unit": "07-rutina-diaria",
+     "prompt": '"Son las tres y media" = …',
+     "options": ["Hirurak eta erdiak dira", "Hiru ordu dira", "Hirurak gutxi dira", "Erdiak eta hirurak dira"],
+     "answer": 0,
+     "explanation": "Hirurak eta erdiak dira. Las horas en plural: ordu batA es la excepción (singular)."},
+    {"id": "ex-a1p1-gr9", "type": "fill", "cat": "azterketa", "unit": "02-familia",
+     "prompt": "Este libro es de Ane (posesión) = liburu hau Ane___ da.", "answers": ["rena"],
+     "explanation": "Genitivo -ren + artículo: Anerena (el de Ane). Con nombre: Aneren liburua."},
+    {"id": "ex-a1p1-gr10", "type": "mc", "cat": "azterketa", "unit": "06-direcciones",
+     "prompt": 'Pregunta bien formada para responder "Okindegian erosten dut ogia":',
+     "options": ["Nora erosten duzu ogia?", "Non erosten duzu ogia?", "Nongoa da ogia?", "Norekin da okindegia?"],
+     "answer": 1,
+     "explanation": "Respuesta en -n (okindegiAN, lugar) → pregunta NON (dónde). Nora = a dónde (movimiento)."},
+    {"id": "ex-a1p2-gr1", "type": "fill", "cat": "azterketa", "unit": "04-bar-y-comida",
+     "prompt": "Quiero café con leche = kafea esne___ nahi dut.", "answers": ["arekin"],
+     "explanation": "Comitativo con palabra en -e: esne + arekin = esnearekin."},
+    {"id": "ex-a1p2-gr2", "type": "fill", "cat": "azterketa", "unit": "11-comprar",
+     "prompt": "Vamos al mercado = merkatu___ goaz.", "answers": ["ra"],
+     "explanation": "Adlativo -ra con goaz: merkatura goaz."},
+    {"id": "ex-a1p2-gr3", "type": "mc", "cat": "azterketa", "unit": "13-agenda",
+     "prompt": '"No tengo tiempo" = …',
+     "options": ["Denborarik ez naiz", "Ez daukat denborarik", "Denbora ez dut nahi", "Ez nago denbora"],
+     "answer": 1,
+     "explanation": "Ez daukat denborarik: negación + partitivo. Naiz/nago no valen para TENER."},
+    {"id": "ex-a1p2-gr4", "type": "mc", "cat": "azterketa", "unit": "13-agenda",
+     "prompt": '"Mañana compraré pan" (futuro A1) = …',
+     "options": ["Bihar ogia erosten dut", "Bihar ogia erosi dut", "Bihar ogia erosiko dut", "Atzo ogia erosiko dut"],
+     "answer": 2,
+     "explanation": 'Bihar + erosiKO dut (futuro -ko de la unidad 13). Con "erosi dut" sería ya comprado; "atzo" (ayer) + futuro es imposible.'},
+    {"id": "ex-a1p2-gr5", "type": "fill", "cat": "azterketa", "unit": "11-comprar",
+     "prompt": "¿Cuánto cuesta el queso? = zenbat ___ du gaztak?", "answers": ["balio"],
+     "explanation": "Zenbat balio du? — la pregunta de precios. El NORK (gaztaK) te lo da hecho la frase."},
+    {"id": "ex-a1p2-gr6", "type": "mc", "cat": "azterketa", "unit": "12-restaurante",
+     "prompt": "En el restaurante, para pedir educadamente:",
+     "options": ["Ekarri ura!", "Ura, mesedez", "Ura nahi duzu?", "Non dago ura?"],
+     "answer": 1,
+     "explanation": '"Ura, mesedez" — lo pedido + mesedez es la fórmula A1 perfecta. La primera es una orden seca; la tercera pregunta al revés.'},
+    {"id": "ex-a1p2-gr7", "type": "fill", "cat": "azterketa", "unit": "13-agenda",
+     "prompt": "Tengo que estudiar = ikasi ___ dut.", "answers": ["behar"],
+     "explanation": "Behar dut = tengo que: ikasi behar dut, joan behar dut."},
+    {"id": "ex-a1p2-gr8", "type": "mc", "cat": "azterketa", "unit": "12-restaurante",
+     "prompt": '"¿Dónde está el baño?" = …',
+     "options": ["Nora doa komuna?", "Non dago komuna?", "Nongoa da komuna?", "Zer da komuna?"],
+     "answer": 1,
+     "explanation": "Non dago…? — ubicación con egon. La pregunta de supervivencia número 1."},
+    {"id": "ex-a1p2-gr9", "type": "mc", "cat": "azterketa", "unit": "10-mi-gente",
+     "prompt": "Ordena la frase: [gustatzen / kafea / zait / asko]",
+     "options": ["Kafea asko gustatzen zait", "Gustatzen kafea asko zait", "Zait gustatzen asko kafea", "Kafea zait asko gustatzen"],
+     "answer": 0,
+     "explanation": "Kafea asko gustatzen zait — el orden neutro: NOR + asko + gustatzen + NOR-NORI."},
+    {"id": "ex-a1p2-gr10", "type": "fill", "cat": "azterketa", "unit": "07-rutina-diaria",
+     "prompt": "Los lunes voy a clase de euskera = astelehen___ euskara-klasera joaten naiz.", "answers": ["etan"],
+     "explanation": "Los días en plural habitual: astelehenETAN (los lunes), ostiraletan (los viernes)."},
+]
+
+SEED_CARDS = [
+    {"eu": "nongoa zara?", "es": "¿de dónde eres?"}, {"eu": "non bizi zara?", "es": "¿dónde vives?"},
+    {"eu": "zenbat urte dituzu?", "es": "¿cuántos años tienes?"},
+    {"eu": "zertan egiten duzu lan?", "es": "¿en qué trabajas?"},
+    {"eu": "seniderik baduzu?", "es": "¿tienes hermanos?"}, {"eu": "erizaina", "es": "enfermero/a"},
+    {"eu": "irakaslea", "es": "profesor/a"}, {"eu": "ikaslea", "es": "estudiante"},
+    {"eu": "ezkonduta", "es": "casado/a"}, {"eu": "ezkongabea", "es": "soltero/a"},
+    {"eu": "itxita", "es": "cerrado"}, {"eu": "irekita", "es": "abierto"},
+    {"eu": "doan", "es": "gratis"}, {"eu": "hilean", "es": "al mes"},
+    {"eu": "ekarri", "es": "traer"}, {"eu": "izena eman", "es": "apuntarse / inscribirse"},
+    {"eu": "zer ordutan?", "es": "¿a qué hora?"}, {"eu": "ordu batean", "es": "a la una"},
+    {"eu": "jaiki", "es": "levantarse"}, {"eu": "gosaldu", "es": "desayunar"},
+    {"eu": "bazkaldu", "es": "comer (mediodía)"}, {"eu": "afaldu", "es": "cenar"},
+    {"eu": "etorri nahi duzu?", "es": "¿quieres venir?"}, {"eu": "eraman", "es": "llevar"},
+    {"eu": "postrea", "es": "el postre"}, {"eu": "ezin dut joan", "es": "no puedo ir"},
+    {"eu": "erantzun", "es": "responder"}, {"eu": "laster", "es": "pronto"},
+    {"eu": "ondo pasa!", "es": "¡pásalo bien!"}, {"eu": "on egin!", "es": "¡buen provecho!"},
+    {"eu": "merkatua", "es": "el mercado"},
+]
+
+SEED_PAIRSETS = [
+    {"id": "ex-a1p1-mp1", "unit": "azterketa", "pairs": [
+        {"eu": "Nongoa zara?", "es": "Gasteiztarra naiz"},
+        {"eu": "Non bizi zara?", "es": "Bilbon, alde zaharrean"},
+        {"eu": "Zenbat urte dituzu?", "es": "28 urte ditut"},
+        {"eu": "Zertan egiten duzu lan?", "es": "Erizaina naiz ospitalean"},
+        {"eu": "Seniderik baduzu?", "es": "Bai, ahizpa bat"},
+        {"eu": "Zer gustatzen zaizu?", "es": "Amaren tortilla!"},
+        {"eu": "Noiz jokatzen duzu pilotan?", "es": "Asteartetan eta ostegunetan"}]},
+    {"id": "ex-a1p1-mp2", "unit": "azterketa", "pairs": [
+        {"eu": "Ordu bata da", "es": "13:00"},
+        {"eu": "Hirurak eta laurden", "es": "15:15"},
+        {"eu": "Seiak eta erdiak", "es": "18:30"},
+        {"eu": "Zortziak hamar gutxi", "es": "19:50"},
+        {"eu": "Hamarrak puntuan", "es": "22:00 en punto"},
+        {"eu": "Eguerdia", "es": "12:00 mediodía"}]},
+    {"id": "ex-a1p2-mp1", "unit": "azterketa", "pairs": [
+        {"eu": "Zer ordutan?", "es": "Ordu batean"},
+        {"eu": "Non?", "es": "Gure etxean"},
+        {"eu": "Norekin?", "es": "Familia osoarekin"},
+        {"eu": "Zer ekarriko dut?", "es": "Postrea, mesedez"},
+        {"eu": "Etorri nahi duzu?", "es": "Bai, noski!"},
+        {"eu": "Zergatik ezin duzu?", "es": "Lan egiten dudalako"}]},
+    {"id": "ex-a1p2-mp2", "unit": "azterketa", "pairs": [
+        {"eu": "goizean", "es": "jaiki eta gosaldu"},
+        {"eu": "eguerdian", "es": "bazkaldu"},
+        {"eu": "arratsaldean", "es": "euskara-klasera joan"},
+        {"eu": "gauean", "es": "afaldu eta telesaila ikusi"},
+        {"eu": "larunbat goizean", "es": "merkatura joan"},
+        {"eu": "igandean", "es": "mendira joan"}]},
+]
+
+
 def main():
     items, cards, pair_sets = collect()
+    items = items + SEED_GR
+    seen = {norm(c["eu"]) for c in cards}
+    for c in SEED_CARDS:
+        if norm(c["eu"]) not in seen:
+            seen.add(norm(c["eu"]))
+            cards.append({**c, "unit": "azterketa"})
+    pair_sets = pair_sets + SEED_PAIRSETS
     bank = {
         "version": 1,
         "level": "a1",

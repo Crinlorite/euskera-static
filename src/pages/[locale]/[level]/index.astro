@@ -52,7 +52,9 @@ for (const u of units) {
                 <div class="unit-body">
                   <h3 class="unit-title">{u.data.title}</h3>
                   <p class="unit-meta">
-                    {lessonsByUnit.get(u.data.code) ?? 0} {t(locale, 'unit.lessons').toLowerCase()} · ~{u.data.estimatedMinutes} min
+                    {locale === 'es' && u.data.code === '14-a1-proba'
+                      ? '🎲 exámenes infinitos · 45-60 min'
+                      : `${lessonsByUnit.get(u.data.code) ?? 0} ${t(locale, 'unit.lessons').toLowerCase()} · ~${u.data.estimatedMinutes} min`}
                   </p>
                 </div>
                 <span class="unit-arrow icon-direction-aware" aria-hidden="true">
