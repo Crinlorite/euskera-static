@@ -112,3 +112,5 @@ curriculum:
   - { id: recent-past-dut, title: 'Pasado reciente NOR-NORK: partizipioa + dut/duzu/du (jan dut, ikusi dut)' }
   - { id: recent-past-naiz, title: 'Pasado reciente NOR: partizipioa + naiz/zara/da (joan naiz, etorri naiz)' }
   - { id: recent-past-time-markers, title: 'Marcadores de pasado reciente (gaur, gaur goizean, atzo, atzo arratsaldean)' }
+  # Bloque: ponte a prueba (unidad 14)
+  - { id: a1-exam-review, title: 'Simulacros del nivel A1: autoevaluación al estilo de las pruebas de euskaltegi' }

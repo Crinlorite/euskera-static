@@ -9,7 +9,7 @@ export const sceneFinala: Scene = {
   chapter: 8,
   title: 'Hitz Beltzaren aurpegia',
   subtitle: 'El rostro de la Palabra Negra',
-  level: 'ega',
+  level: 'c2',
   bgId: 'hitzbeltz-finala',
   intro: {
     title: 'Hitz Beltzaren aurpegia',
