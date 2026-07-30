@@ -12,8 +12,8 @@ exercises:
   - id: ex-a2-eg1-mc1
     type: multiple-choice
     prompt: '¿Qué significa "Sukarra daukat"?'
-    options: [Tengo tos, Tengo fiebre, Tengo hambre, Tengo frío]
-    answer: 1
+    options: ['Tengo fiebre', 'Tengo tos', 'Tengo hambre', 'Tengo frío']
+    answer: 0
     explanation: '*Sukarra* es la fiebre. La estructura *X daukat* (tengo X) sirve para casi cualquier síntoma.'
   - id: ex-a2-eg1-mc2
     type: multiple-choice

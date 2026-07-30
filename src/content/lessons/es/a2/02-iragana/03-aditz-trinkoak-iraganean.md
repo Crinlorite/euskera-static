@@ -12,8 +12,8 @@ exercises:
   - id: ex-a2-ir3-mc1
     type: multiple-choice
     prompt: '"Lanera nindoan goizeko zortzietan" significa…'
-    options: ['Voy al trabajo a las ocho', 'Iba al trabajo a las ocho', 'Fui al trabajo a las ocho (puntual)', 'Vendré al trabajo a las ocho']
-    answer: 1
+    options: ['Voy al trabajo a las ocho', 'Vendré al trabajo a las ocho', 'Fui al trabajo a las ocho (puntual)', 'Iba al trabajo a las ocho']
+    answer: 3
     explanation: '*Nindoan* es el imperfecto sintético de *joan*: describe acción en curso o habitual en el pasado, no un hecho puntual cerrado.'
   - id: ex-a2-ir3-mc2
     type: multiple-choice

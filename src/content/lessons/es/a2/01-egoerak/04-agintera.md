@@ -12,14 +12,14 @@ exercises:
   - id: ex-a2-eg4-mc1
     type: multiple-choice
     prompt: 'Para decir "ven" (a una persona, informal) en euskera, ¿qué forma usas?'
-    options: [Etorri zara, Zatoz, Etorriko zara, Etortzen zara]
-    answer: 1
+    options: ['Etorri zara', 'Etortzen zara', 'Etorriko zara', 'Zatoz']
+    answer: 3
     explanation: '*Zatoz* es la forma sintética del imperativo de *etorri* (venir) para *zu*. Es la forma natural en órdenes y peticiones.'
   - id: ex-a2-eg4-mc2
     type: multiple-choice
     prompt: '"Eseri, mesedez" significa…'
-    options: ['Cogí asiento, por favor', 'Toma asiento, por favor', '¿Tomo asiento?', 'No te sientes']
-    answer: 1
+    options: ['Toma asiento, por favor', 'Cogí asiento, por favor', '¿Tomo asiento?', 'No te sientes']
+    answer: 0
     explanation: 'El imperativo afirmativo más usado se forma simplemente con el participio: *hartu* (toma), *eseri* (siéntate). El "por favor" es *mesedez*.'
   - id: ex-a2-eg4-fb1
     type: fill-in-blank

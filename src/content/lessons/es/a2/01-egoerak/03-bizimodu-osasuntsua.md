@@ -12,14 +12,14 @@ exercises:
   - id: ex-a2-eg3-mc1
     type: multiple-choice
     prompt: '¿Qué significa "Birziklatu behar dugu"?'
-    options: ['Hay que cocinar', 'Hay que reciclar', 'Hay que correr', 'Hay que descansar']
-    answer: 1
+    options: ['Hay que reciclar', 'Hay que cocinar', 'Hay que correr', 'Hay que descansar']
+    answer: 0
     explanation: '*Birziklatu* = reciclar. *Behar dugu* = tenemos que.'
   - id: ex-a2-eg3-mc2
     type: multiple-choice
     prompt: '"Kirola egiten dut astean hiru aldiz" significa…'
-    options: ['Hago deporte tres horas a la semana', 'Hago deporte tres veces a la semana', 'Hago tres deportes', 'Tres semanas haciendo deporte']
-    answer: 1
+    options: ['Hago deporte tres horas a la semana', 'Hago tres deportes', 'Hago deporte tres veces a la semana', 'Tres semanas haciendo deporte']
+    answer: 2
     explanation: '*X aldiz* = X veces. *Astean hiru aldiz* = tres veces a la semana.'
   - id: ex-a2-eg3-fb1
     type: fill-in-blank
