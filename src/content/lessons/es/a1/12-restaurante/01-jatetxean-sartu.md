@@ -18,7 +18,7 @@ exercises:
   - id: ex-jat1-mc2
     type: multiple-choice
     prompt: '"Erreserba egin nahi dut" significa…'
-    options: [Quiero pagar, Quiero hacer una reserva, ¿Hay sitio?, Tengo hambre]
+    options: ['Quiero pagar', 'Quiero hacer una reserva', '¿Hay sitio?', 'Tengo hambre']
     answer: 1
     explanation: '*Erreserba egin* — "hacer una reserva". *Nahi dut* — "quiero".'
   - id: ex-jat1-fb1

@@ -2,7 +2,7 @@
 // Una escena es un screenplay: lista ordenada de beats que el jugador
 // avanza con clicks y elecciones. Algunos beats ramifican (choice/puzzle).
 
-export type CefrLevel = 'a1' | 'a2' | 'b1' | 'b2' | 'c1' | 'ega';
+export type CefrLevel = 'a1' | 'a2' | 'b1' | 'b2' | 'c1' | 'c2';
 
 export interface WordCard {
   eu: string;

@@ -27,7 +27,7 @@ exercises:
       - { eu: nire, es: mi }
       - { eu: zure, es: tu (de ti) }
       - { eu: bere, es: su (de él/ella) }
-      - { eu: 'Zein da zure izena?', es: ¿Cómo te llamas? }
+      - { eu: 'Zein da zure izena?', es: '¿Cómo te llamas?'}
       - { eu: Nire izena Egoitz da, es: Mi nombre es Egoitz }
 ---
 

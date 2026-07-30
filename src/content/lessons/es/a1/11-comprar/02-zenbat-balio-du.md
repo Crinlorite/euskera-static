@@ -12,7 +12,7 @@ exercises:
   - id: ex-prec-mc1
     type: multiple-choice
     prompt: '¿Cómo preguntas el precio de un producto?'
-    options: [Zer da hau?, Zenbat balio du?, Non dago?, Nork du hau?]
+    options: ['Zer da hau?', 'Zenbat balio du?', 'Non dago?', 'Nork du hau?']
     answer: 1
     explanation: '"Zenbat balio du?" es literal "¿cuánto vale?". También se usa "Zenbat da?" más coloquial.'
   - id: ex-prec-mc2
@@ -34,9 +34,9 @@ exercises:
   - id: ex-prec-fc
     type: flashcards
     cards:
-      - { eu: 'Zenbat balio du?', es: ¿Cuánto vale? }
+      - { eu: 'Zenbat balio du?', es: '¿Cuánto vale?'}
       - { eu: 'Zenbat da?', es: '¿Cuánto es? (al pagar)' }
-      - { eu: 'Zenbatean dago kiloa?', es: ¿A cuánto está el kilo? }
+      - { eu: 'Zenbatean dago kiloa?', es: '¿A cuánto está el kilo?'}
       - { eu: 'Kiloa hamar eurotan dago', es: El kilo está a 10 euros }
       - { eu: 'X euro balio du', es: Vale X euros }
       - { eu: garestia, es: caro }
@@ -44,7 +44,7 @@ exercises:
       - { eu: 'Garestia da', es: Es caro }
       - { eu: 'Merkea da', es: Es barato }
       - { eu: txartela, es: tarjeta }
-      - { eu: 'Txartelaz ordain dezaket?', es: ¿Puedo pagar con tarjeta? }
+      - { eu: 'Txartelaz ordain dezaket?', es: '¿Puedo pagar con tarjeta?'}
       - { eu: dirua, es: dinero }
       - { eu: kanbioa, es: cambio (vuelta) }
 ---
