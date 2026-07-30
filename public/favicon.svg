@@ -1,11 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Placa blanca: el lauburu fino anterior era #1A1A1A sobre transparente y
+       desaparecía en pestañas/fondos oscuros. Placa + pétalos = el icono de la app. -->
+  <rect width="200" height="200" rx="42" fill="#FFFFFF"/>
   <defs>
-    <path id="lauburu-lobe" d="M0 0 C 30 -10, 60 -30, 80 -60 C 60 -30, 30 -5, 0 0 Z" fill="#1A1A1A"/>
+    <ellipse id="petalo" cx="58" cy="0" rx="40" ry="26"/>
   </defs>
-  <g>
-    <use href="#lauburu-lobe" transform="rotate(0)"/>
-    <use href="#lauburu-lobe" transform="rotate(90)"/>
-    <use href="#lauburu-lobe" transform="rotate(180)"/>
-    <use href="#lauburu-lobe" transform="rotate(270)"/>
+  <g transform="translate(100 100)">
+    <use href="#petalo" transform="rotate(-135)" fill="#00964B"/>
+    <use href="#petalo" transform="rotate(-45)"  fill="#D52B1E"/>
+    <use href="#petalo" transform="rotate(45)"   fill="#00964B"/>
+    <use href="#petalo" transform="rotate(135)"  fill="#D52B1E"/>
   </g>
 </svg>

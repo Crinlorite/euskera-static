@@ -117,6 +117,11 @@ const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
        cuando es <1). */
     line-height: 1;
     padding-block: 0.08em;
+    /* …y padding-inline por los voladizos HORIZONTALES de la cursiva: el remate
+       del 6 se sale de la caja y, con relleno transparente, quedaba "cortado".
+       El margin negativo compensa el desplazamiento óptico a la izquierda. */
+    padding-inline: 0.14em;
+    margin-inline-start: -0.12em;
     background: var(--grad-ikurri-text);
     -webkit-background-clip: text;
     background-clip: text;
