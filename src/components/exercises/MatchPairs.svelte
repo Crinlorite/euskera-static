@@ -1,6 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import { t, tf } from '../../i18n/ui';
+  import { playEu } from '../../lib/audio';
   import type { LocaleCode } from '../../i18n/config';
 
   export let id: string;
@@ -38,6 +39,8 @@
       item.matched = true;
       left = [...left];
       right = [...right];
+      // refuerzo pasivo: al acertar, suena el lado euskera (si hay audio)
+      playEu(pairs[item.pairIndex].eu);
       selected = null;
       const allMatched = left.every((l) => l.matched);
       if (allMatched) {
