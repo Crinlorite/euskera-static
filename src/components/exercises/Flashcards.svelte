@@ -2,6 +2,7 @@
   import { createEventDispatcher } from 'svelte';
   import { t, tf } from '../../i18n/ui';
   import { speak, canSpeak } from '../../lib/platform';
+  import { hasEuAudio, playEu } from '../../lib/audio';
   import type { LocaleCode } from '../../i18n/config';
 
   export let id: string;
@@ -55,7 +56,7 @@
   <button class="card" on:click={flip}>
     {#if !flipped}
       <span class="front">{deck[i].eu}</span>
-      {#if canSpeak()}<button class="tts-btn" type="button" aria-label="Entzun" on:click|stopPropagation={() => speak(deck[i].eu)}>🔊</button>{/if}
+      {#if hasEuAudio(deck[i].eu) || canSpeak()}<button class="tts-btn" type="button" aria-label="Entzun" on:click|stopPropagation={() => { if (!playEu(deck[i].eu)) speak(deck[i].eu); }}>🔊</button>{/if}
       <small>{t(locale, 'exercise.flash.reveal')}</small>
     {:else}
       <span class="back">{deck[i].es}</span>
