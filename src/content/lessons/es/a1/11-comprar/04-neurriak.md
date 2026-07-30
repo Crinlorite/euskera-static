@@ -23,9 +23,9 @@ exercises:
     explanation: '"*Dozena bat*" sigue el mismo patrón que *kilo bat*: cantidad + producto sin artículo.'
   - id: ex-neur-fb1
     type: fill-in-blank
-    prompt: '"Medio kilo de tomate" = ___ erdi tomate.'
-    answers: [kilo, Kilo]
-    explanation: '*Kilo erdi* — "medio kilo". *Erdi* va detrás de la unidad.'
+    prompt: '"Medio kilo de tomate" = kilo ___ tomate.'
+    answers: [erdi]
+    explanation: '*Kilo erdi* — "medio kilo". *Erdi* (medio) va DETRÁS de la unidad, al revés que en castellano.'
   - id: ex-neur-fb2
     type: fill-in-blank
     prompt: '"Más" en euskera (para pedir un poco más en la tienda) = ___.'

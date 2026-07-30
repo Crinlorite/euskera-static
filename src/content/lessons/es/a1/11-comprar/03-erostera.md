@@ -18,7 +18,7 @@ exercises:
   - id: ex-erostera-mc2
     type: multiple-choice
     prompt: '"Hartuko dut" significa…'
-    options: [Lo cogeré (lo compro), No lo quiero, ¿Lo tienes?, Es caro]
+    options: [Lo cogeré (lo compro), No lo quiero, '¿Lo tienes?', Es caro]
     answer: 0
     explanation: '*Hartuko dut* — futuro de *hartu* (coger/tomar). Se usa para confirmar la compra.'
   - id: ex-erostera-fb1
@@ -35,15 +35,15 @@ exercises:
     type: flashcards
     cards:
       - { eu: 'Azkena, mesedez?', es: '¿El último, por favor? (en la cola)' }
-      - { eu: 'Zer nahi duzu?', es: ¿Qué quieres? }
-      - { eu: 'Jarriko al didazu...?', es: ¿Me pones...? }
+      - { eu: 'Zer nahi duzu?', es: '¿Qué quieres?'}
+      - { eu: 'Jarriko al didazu...?', es: '¿Me pones...?'}
       - { eu: 'Hartuko dut', es: Lo cogeré / Me lo llevo }
       - { eu: 'Eman X mesedez', es: Dame X por favor }
-      - { eu: 'Besterik?', es: ¿Algo más? }
+      - { eu: 'Besterik?', es: '¿Algo más?'}
       - { eu: 'Ez, besterik ez', es: 'No, nada más' }
-      - { eu: 'Tori!', es: ¡Toma! }
-      - { eu: 'Eskerrik asko!', es: ¡Muchas gracias! }
-      - { eu: 'Zuri!', es: ¡A ti! (respuesta a las gracias) }
+      - { eu: 'Tori!', es: '¡Toma!'}
+      - { eu: 'Eskerrik asko!', es: '¡Muchas gracias!'}
+      - { eu: 'Zuri!', es: '¡A ti! (respuesta a las gracias)'}
 ---
 
 Esta lección enseña las frases que se repiten una y otra vez en la tienda. Con cuatro o cinco fórmulas puedes resolver casi cualquier situación.

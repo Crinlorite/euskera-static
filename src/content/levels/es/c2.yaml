@@ -1,0 +1,17 @@
+code: c2
+name: C2 Maila
+description: 'Nivel de maestría — la cima de la escalera HABE (acreditable desde el Decreto 187/2017). Precisión, matiz y naturalidad casi nativas, en cualquier registro.'
+order: 6
+status: active
+beta: true
+curriculum:
+  # Bloque 1: dominio del registro
+  - { id: c2-registers, title: 'Registros: académico, literario, administrativo y coloquial — cambiar de traje sin arrugas' }
+  - { id: c2-idioms, title: 'Fraseología y esamoldeak: expresión idiomática de nivel nativo' }
+  - { id: c2-euskalkiak, title: 'Euskalkiak: comprender los dialectos (bizkaiera, gipuzkera, nafarrera, zuberera) desde el batua' }
+  # Bloque 2: producción experta
+  - { id: c2-argumentation, title: 'Argumentación compleja: ensayo, crítica y opinión matizada' }
+  - { id: c2-mediation, title: 'Mediación: resumir, traducir y adaptar textos entre registros y lenguas' }
+  - { id: c2-style, title: 'Estilo y precisión: puntuación avanzada, orden de galdegaia, ritmo de la prosa' }
+  # Bloque 3: el examen
+  - { id: c2-exam-format, title: 'El examen HABE C2: estructura, criterios de corrección y estrategia' }
