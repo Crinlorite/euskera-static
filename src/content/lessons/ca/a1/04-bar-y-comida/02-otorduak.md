@@ -7,56 +7,87 @@ level: a1
 order: 2
 title: Àpats del dia (otorduak)
 estimatedMinutes: 10
-covers: [meals]
+covers:
+- meals
 exercises:
-  - id: ex-otr-mc1
-    type: multiple-choice
-    prompt: '"Bazkaria" significa…'
-    options: [l'esmorzar, el dinar del migdia, el berenar, el sopar]
-    answer: 1
-    explanation: '*bazkaria* és el dinar principal del migdia.'
-  - id: ex-otr-mc2
-    type: multiple-choice
-    prompt: 'Com es diu "el mos de mig matí" (la pausa de les 11)?'
-    options: [gosaria, hamaiketakoa, bazkaria, afaria]
-    answer: 1
-    explanation: '*hamaiketakoa* (literal: "el de les onze") és aquest mos de mig matí, un costum molt basc.'
-  - id: ex-otr-fb1
-    type: fill-in-blank
-    prompt: 'Menjar (verb) = ___.'
-    answers: [jan]
-    explanation: "*jan* = menjar. Forma bàsica de l'infinitiu."
-  - id: ex-otr-fb2
-    type: fill-in-blank
-    prompt: 'Beure (verb) = ___.'
-    answers: [edan]
-    explanation: '*edan* = beure.'
-  - id: ex-otr-fc
-    type: flashcards
-    cards:
-      - { eu: gosaria, es: l'esmorzar }
-      - { eu: hamaiketakoa, es: el mos de mig matí }
-      - { eu: bazkaria, es: el dinar (del migdia) }
-      - { eu: askaria, es: el berenar }
-      - { eu: afaria, es: el sopar }
-      - { eu: otordua, es: l'àpat (genèric) }
-      - { eu: jan, es: menjar }
-      - { eu: edan, es: beure }
-      - { eu: gosaldu, es: esmorzar }
-      - { eu: bazkaldu, es: dinar (al migdia) }
-      - { eu: afaldu, es: sopar }
-      - { eu: gose naiz, es: tinc gana }
-      - { eu: egarri naiz, es: tinc set }
-  - id: ex-otr-mp
-    type: match-pairs
-    pairs:
-      - { eu: gosaria, es: esmorzar }
-      - { eu: hamaiketakoa, es: mos de mig matí }
-      - { eu: bazkaria, es: dinar del migdia }
-      - { eu: askaria, es: berenar }
-      - { eu: afaria, es: sopar }
-      - { eu: jan, es: menjar }
-      - { eu: edan, es: beure }
+- id: ex-otr-mc1
+  type: multiple-choice
+  prompt: '"Bazkaria" significa…'
+  options:
+  - l'esmorzar
+  - el dinar del migdia
+  - el berenar
+  - el sopar
+  answer: 1
+  explanation: '*bazkaria* és el dinar principal del migdia.'
+- id: ex-otr-mc2
+  type: multiple-choice
+  prompt: Com es diu "el mos de mig matí" (la pausa de les 11)?
+  options:
+  - gosaria
+  - hamaiketakoa
+  - bazkaria
+  - afaria
+  answer: 1
+  explanation: '*hamaiketakoa* (literal: "el de les onze") és aquest mos de mig matí, un costum molt basc.'
+- id: ex-otr-fb1
+  type: fill-in-blank
+  prompt: Menjar (verb) = ___.
+  answers:
+  - jan
+  explanation: '*jan* = menjar. Forma bàsica de l''infinitiu.'
+- id: ex-otr-fb2
+  type: fill-in-blank
+  prompt: Beure (verb) = ___.
+  answers:
+  - edan
+  explanation: '*edan* = beure.'
+- id: ex-otr-fc
+  type: flashcards
+  cards:
+  - eu: gosaria
+    es: l'esmorzar
+  - eu: hamaiketakoa
+    es: el mos de mig matí
+  - eu: bazkaria
+    es: el dinar (del migdia)
+  - eu: askaria
+    es: el berenar
+  - eu: afaria
+    es: el sopar
+  - eu: otordua
+    es: l'àpat (genèric)
+  - eu: jan
+    es: menjar
+  - eu: edan
+    es: beure
+  - eu: gosaldu
+    es: esmorzar
+  - eu: bazkaldu
+    es: dinar (al migdia)
+  - eu: afaldu
+    es: sopar
+  - eu: gose naiz
+    es: tinc gana
+  - eu: egarri naiz
+    es: tinc set
+- id: ex-otr-mp
+  type: match-pairs
+  pairs:
+  - eu: gosaria
+    es: desayuno
+  - eu: hamaiketakoa
+    es: mos de mig matí
+  - eu: bazkaria
+    es: dinar del migdia
+  - eu: askaria
+    es: merienda
+  - eu: afaria
+    es: cena
+  - eu: jan
+    es: comer
+  - eu: edan
+    es: beber
 ---
 
 Cada àpat del dia té el seu nom en euskera, i conèixer-los t'ajudarà a parlar de la teva rutina diària. A més, hi ha un àpat específicament basc que en català no té equivalent directe: el **hamaiketako**.
@@ -71,7 +102,7 @@ Cada àpat del dia té el seu nom en euskera, i conèixer-los t'ajudarà a parla
 | *askaria* | berenar | tarda |
 | *afaria* | sopar | nit |
 
-> **Hamaiketakoa** literalment és "el de les onze" (*hamaika* = onze). És la pausa típica basca a mig matí: un *pintxo*, un cafè o un *zurito* amb alguna cosa. No és un esmorzar fort ni un dinar; és quelcom intermedi que es fa al carrer, a la taverna, amb companys de feina o de la colla.
+> **Hamaiketakoa** literalment és "el de les onze" (*hamaika* = onze). És la pausa típica basca a mig matí: un *pintxo*, un cafè o un *zurito* amb alguna cosa. No és un esmorzar fort ni un dinar; és alguna cosa intermèdia que es fa al carrer, a la taverna, amb companys de feina o la colla.
 
 ## Verbs: jan, edan i els específics
 

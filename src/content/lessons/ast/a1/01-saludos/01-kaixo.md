@@ -7,51 +7,84 @@ level: a1
 order: 1
 title: Kaixo, agur y otros saludos
 estimatedMinutes: 10
-covers: [greetings, courtesy]
+covers:
+- greetings
+- courtesy
 exercises:
-  - id: ex-01-kaixo-mc1
-    type: multiple-choice
-    prompt: ¿Qué significa "Kaixo"?
-    options: [Hola, Adiós, Por favor, Gracias]
-    answer: 0
-    explanation: "\"Kaixo\" ye'l saludu más común n'euskera, equivalente a \"hola\"."
-  - id: ex-01-kaixo-mc2
-    type: multiple-choice
-    prompt: Ye de nueche y atópeste con un amigu. ¿Cómo lu saludes?
-    options: [Egun on, Arratsalde on, Gabon, Agur]
-    answer: 2
-    explanation: '"Gabon" úsase pela nueche, tamién pa "bones nueches" al despidise.'
-  - id: ex-01-kaixo-mc3
-    type: multiple-choice
-    prompt: '"Aspaldiko" significa…'
-    options: ["¡Hasta mañana!", "¡Cuánto tiempu ensin vete!", "Bones tardes", "De nada"]
-    answer: 1
-    explanation: '"Aspaldiko" úsase al reatopate con daquién tres dalgún tiempu ensin velu.'
-  - id: ex-01-kaixo-fc
-    type: flashcards
-    cards:
-      - { eu: Kaixo, es: Hola }
-      - { eu: Hepa / Aupa, es: '¡Hola! (informal)' }
-      - { eu: Egun on, es: Bonos díes }
-      - { eu: Eguerdi on, es: Bon mediudía }
-      - { eu: Arratsalde on, es: Bones tardes }
-      - { eu: Gabon, es: Bones nueches }
-      - { eu: Aspaldiko, es: '¡Cuánto tiempu!' }
-      - { eu: Agur, es: Adiós }
-      - { eu: Gero arte, es: Hasta llueu }
-      - { eu: Bihar arte, es: Hasta mañana }
-      - { eu: Ondo ibili, es: Que vaiga bien }
-      - { eu: Eskerrik asko, es: Munches gracies }
-      - { eu: Ez horregatik, es: De nada }
-  - id: ex-01-kaixo-mp
-    type: match-pairs
-    pairs:
-      - { eu: Kaixo, es: Hola }
-      - { eu: Agur, es: Adiós }
-      - { eu: Egun on, es: Bonos díes }
-      - { eu: Gabon, es: Bones nueches }
-      - { eu: Gero arte, es: Hasta llueu }
-      - { eu: Eskerrik asko, es: Munches gracies }
+- id: ex-01-kaixo-mc1
+  type: multiple-choice
+  prompt: ¿Qué significa "Kaixo"?
+  options:
+  - Hola
+  - Adiós
+  - Por favor
+  - Gracies
+  answer: 0
+  explanation: '"Kaixo" ye''l saludu más común n''euskera, equivalente a "hola".'
+- id: ex-01-kaixo-mc2
+  type: multiple-choice
+  prompt: Ye de nueche y atópeste con un amigu. ¿Cómo lu saludes?
+  options:
+  - Egun on
+  - Arratsalde on
+  - Gabon
+  - Agur
+  answer: 2
+  explanation: '"Gabon" úsase pela nueche, tamién pa "bones nueches" al despidise.'
+- id: ex-01-kaixo-mc3
+  type: multiple-choice
+  prompt: '"Aspaldiko" significa…'
+  options:
+  - ¡Hasta mañana!
+  - ¡Cuánto tiempu ensin verte!
+  - Bones tardes
+  - De nada
+  answer: 1
+  explanation: '"Aspaldiko" úsase al reatopate con daquién tres tiempu ensin velu.'
+- id: ex-01-kaixo-fc
+  type: flashcards
+  cards:
+  - eu: Kaixo
+    es: Hola
+  - eu: Hepa / Aupa
+    es: ¡Hola! (informal)
+  - eu: Egun on
+    es: Bonos díes
+  - eu: Eguerdi on
+    es: Bon mediudía
+  - eu: Arratsalde on
+    es: Bones tardes
+  - eu: Gabon
+    es: Bones nueches
+  - eu: Aspaldiko
+    es: ¡Cuánto tiempu!
+  - eu: Agur
+    es: Adiós
+  - eu: Gero arte
+    es: Hasta llueu
+  - eu: Bihar arte
+    es: Hasta mañana
+  - eu: Ondo ibili
+    es: Que vaiga bien
+  - eu: Eskerrik asko
+    es: Munches gracies
+  - eu: Ez horregatik
+    es: De nada
+- id: ex-01-kaixo-mp
+  type: match-pairs
+  pairs:
+  - eu: Kaixo
+    es: Hola
+  - eu: Agur
+    es: Adiós
+  - eu: Egun on
+    es: Bonos díes
+  - eu: Gabon
+    es: Buenas noches
+  - eu: Gero arte
+    es: Hasta luego
+  - eu: Eskerrik asko
+    es: Muchas gracias
 ---
 
 N'euskera, los saludos camuden según el momentu del día. La fórmula universal y la más común ye **Kaixo**, que s'usa a cualquier hora con cuasi cualquier persona — igual que'l "hola" n'asturianu. **Hepa** o **Aupa** son alternatives entá más informales, sobre too ente la xente moza y los amigos.

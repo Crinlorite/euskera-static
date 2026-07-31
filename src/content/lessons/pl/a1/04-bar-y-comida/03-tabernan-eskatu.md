@@ -7,68 +7,101 @@ level: a1
 order: 3
 title: Zamawianie w barze (Tabernan eskatu)
 estimatedMinutes: 11
-covers: [bar-ordering, food-bar, courtesy]
+covers:
+- bar-ordering
+- food-bar
+- courtesy
 exercises:
-  - id: ex-tab-mc1
-    type: multiple-choice
-    prompt: '"Mesedez" znaczy…'
-    options: [dziękuję, proszę, przepraszam, cześć]
-    answer: 1
-    explanation: '*mesedez* to "proszę". *Eskerrik asko* to "dziękuję".'
-  - id: ex-tab-mc2
-    type: multiple-choice
-    prompt: 'Chcesz zamówić kawę. Jaka jest naturalna formuła?'
-    options: [Kafea bat, Kafe bat mesedez, Kafe nahi dut, Kafea da mesedez]
-    answer: 1
-    explanation: '*Kafe bat, mesedez* — "Kawę, proszę". Rzeczownik traci końcówkę `-a`, gdy występuje z *bat*.'
-  - id: ex-tab-fb1
-    type: fill-in-blank
-    prompt: '"Wezmę kawę z odrobiną mleka" = Ebakia ___ ___.'
-    answers: [hartuko dut]
-    explanation: '*hartuko dut* = "wezmę". To bardzo powszechny sposób zamawiania.'
-  - id: ex-tab-fb2
-    type: fill-in-blank
-    prompt: '"Chcesz kawy?" = ___ ___ kafea?'
-    answers: [Nahi duzu]
-    explanation: '*nahi duzu* = "chcesz". Podstawowy wzorzec propozycji.'
-  - id: ex-tab-fc
-    type: flashcards
-    cards:
-      - { eu: mesedez, es: proszę }
-      - { eu: eskerrik asko, es: bardzo dziękuję }
-      - { eu: ez horregatik, es: nie ma za co }
-      - { eu: 'Zer nahi duzu?', es: 'Czego chcesz?' }
-      - { eu: 'Nahi duzu kafea?', es: 'Chcesz kawy?' }
-      - { eu: 'Kafe bat mesedez', es: 'Kawę, proszę' }
-      - { eu: 'Hartuko dut...', es: 'Wezmę...' }
-      - { eu: 'Niretzat...', es: 'Dla mnie...' }
-      - { eu: 'Beste bat mesedez', es: 'Jeszcze jedno, proszę' }
-      - { eu: 'Aizu!', es: 'Hej! (zawołanie kelnera)' }
-      - { eu: ona dago, es: jest dobre }
-      - { eu: goxoa da, es: jest pyszne/smaczne }
-  - id: ex-tab-mp
-    type: match-pairs
-    pairs:
-      - { eu: mesedez, es: proszę }
-      - { eu: eskerrik asko, es: bardzo dziękuję }
-      - { eu: ez horregatik, es: nie ma za co }
-      - { eu: 'Nahi duzu...?', es: 'Chcesz...?' }
-      - { eu: 'Hartuko dut', es: 'Wezmę' }
-      - { eu: 'Aizu!', es: 'Hej!' }
-      - { eu: 'Niretzat', es: 'Dla mnie' }
-      - { eu: ona, es: dobry }
+- id: ex-tab-mc1
+  type: multiple-choice
+  prompt: '"Mesedez" znaczy…'
+  options:
+  - dziękuję
+  - proszę
+  - przepraszam
+  - cześć
+  answer: 1
+  explanation: '*mesedez* to „proszę”. *Eskerrik asko* to „dziękuję”.'
+- id: ex-tab-mc2
+  type: multiple-choice
+  prompt: Chcesz zamówić kawę. Jaka jest naturalna formuła?
+  options:
+  - Kafea bat
+  - Kafe bat mesedez
+  - Kafe nahi dut
+  - Kafea da mesedez
+  answer: 1
+  explanation: '*Kafe bat, mesedez* — „Kawa, proszę”. Rzeczownik traci `-a`, gdy występuje z *bat*.'
+- id: ex-tab-fb1
+  type: fill-in-blank
+  prompt: '"Wezmę cortado" = Ebakia ___ ___.'
+  answers:
+  - hartuko dut
+  explanation: '*hartuko dut* = „wezmę”. To bardzo powszechny sposób zamawiania.'
+- id: ex-tab-fb2
+  type: fill-in-blank
+  prompt: '"Chcesz kawy?" = ___ ___ kafea?'
+  answers:
+  - Nahi duzu
+  explanation: '*nahi duzu* = „chcesz”. Podstawowy wzór proponowania czegoś.'
+- id: ex-tab-fc
+  type: flashcards
+  cards:
+  - eu: mesedez
+    es: proszę
+  - eu: eskerrik asko
+    es: dziękuję bardzo
+  - eu: ez horregatik
+    es: nie ma za co
+  - eu: Zer nahi duzu?
+    es: Co podać?
+  - eu: Nahi duzu kafea?
+    es: Chcesz kawy?
+  - eu: Kafe bat mesedez
+    es: Kawa, proszę
+  - eu: Hartuko dut...
+    es: Wezmę...
+  - eu: Niretzat...
+    es: Dla mnie...
+  - eu: Beste bat mesedez
+    es: Jeszcze jedno, proszę
+  - eu: Aizu!
+    es: Hej! (wołanie kelnera)
+  - eu: ona dago
+    es: jest dobre
+  - eu: goxoa da
+    es: jest pyszne/smaczne
+- id: ex-tab-mp
+  type: match-pairs
+  pairs:
+  - eu: mesedez
+    es: proszę
+  - eu: eskerrik asko
+    es: muchas gracias
+  - eu: ez horregatik
+    es: nie ma za co
+  - eu: Nahi duzu...?
+    es: Chcesz...?
+  - eu: Hartuko dut
+    es: Wezmę
+  - eu: Aizu!
+    es: Proszę pana/pani!
+  - eu: Niretzat
+    es: Dla mnie
+  - eu: ona
+    es: bueno
 ---
 
-Zamawianie w barze to jedna z najbardziej przydatnych rzeczy, jakie nauczysz się mówić po baskijsku. Podstawowa formuła jest bardzo prosta: nazwa tego, co chcesz + **bat** (jeden) + **mesedez** (proszę). I to wszystko.
+Zamawianie w barze to jedna z najprzydatniejszych rzeczy, których nauczysz się mówić po baskijsku. Podstawowa formuła jest bardzo prosta: nazwa tego, co chcesz + **bat** (jeden) + **mesedez** (proszę). I to wszystko.
 
 ## Minimalna formuła
 
-> *Kafe bat, mesedez.* — Kawę, proszę.
+> *Kafe bat, mesedez.* — Kawa, proszę.
 
 To rozwiązuje 80% sytuacji. Zwróć uwagę na dwie rzeczy:
 
 1. Rzeczownik traci końcowe `-a`, gdy występuje z **bat**: *kafea* → *kafe bat*.
-2. **mesedez** stawia się na końcu, oddzielone pauzą.
+2. **mesedez** umieszcza się na końcu, oddzielone pauzą.
 
 | Zamawiasz | Po baskijsku |
 |---|---|
@@ -76,22 +109,22 @@ To rozwiązuje 80% sytuacji. Zwróć uwagę na dwie rzeczy:
 | Małe piwo | *Zurito bat, mesedez.* |
 | Wodę | *Ur bat, mesedez.* |
 | Czerwone wino | *Ardo gorri bat, mesedez.* |
-| Sidr | *Sagardo bat, mesedez.* |
+| Cydr | *Sagardo bat, mesedez.* |
 
 ## Warianty z czasownikami
 
-Aby brzmieć trochę bardziej naturalnie i mniej "jak robot", istnieją inne, równie poprawne sposoby:
+Aby brzmieć trochę bardziej naturalnie i mniej „jak robot”, istnieją inne, równie poprawne sposoby:
 
-- **Hartuko dut...** — *Wezmę...* (dosłownie: "wezmę"). Bardzo używane.
-  - *Ebakia hartuko dut.* — Wezmę kawę z odrobiną mleka.
+- **Hartuko dut...** — *Wezmę...* (dosłownie: „wezmę”). Bardzo popularne.
+  - *Ebakia hartuko dut.* — Wezmę cortado.
   - *Garagardo bat hartuko dut.* — Wezmę piwo.
 - **Niretzat...** — *Dla mnie...* (gdy zamawia kilka osób).
   - *Niretzat kafe hutsa, mesedez.* — Dla mnie czarną kawę, proszę.
-- **Nahi dut...** — *Chcę...* (bardziej bezpośrednie, w niektórych kontekstach może brzmieć obcesowo; lepiej *hartuko dut*).
+- **Nahi dut...** — *Chcę...* (bardziej bezpośrednie, w niektórych kontekstach może zabrzmieć szorstko; lepiej użyć *hartuko dut*).
 
 ## Proponowanie i przyjmowanie
 
-Gdy ktoś coś ci proponuje:
+Gdy ktoś ci coś proponuje:
 
 - **Nahi duzu kafea?** — Chcesz kawy?
 - **Bai, mesedez.** — Tak, proszę.
@@ -101,20 +134,20 @@ Gdy ktoś coś ci proponuje:
 
 ## Wołanie kelnera
 
-W języku baskijskim typowe "hej / przepraszam" do zwrócenia uwagi to **Aizu!** (nieformalne i bardzo używane) lub **Mesedez!** (nieco bardziej formalne):
+Po baskijsku typowe „hej / proszę pana/pani”, aby zwrócić na siebie uwagę, to **Aizu!** (nieformalne i bardzo popularne) lub **Mesedez!** (nieco bardziej formalne):
 
-> *Aizu, ebakia mesedez!* — Hej, kawę z mlekiem proszę!
+> *Aizu, ebakia mesedez!* — Hej, cortado proszę!
 
 ## Komentowanie i dziękowanie
 
 - *Oso ona dago.* — Jest bardzo dobre.
 - *Goxoa da.* — Jest pyszne / smaczne.
-- *Eskerrik asko!* — Bardzo dziękuję!
+- *Eskerrik asko!* — Dziękuję bardzo!
 - *Ez horregatik.* — Nie ma za co.
 
 ## Mini-dialog w barze
 
-> — *Kaixo! Zer nahi duzu?* — Cześć, czego chcesz?
+> — *Kaixo! Zer nahi duzu?* — Cześć, co podać?
 >
 > — *Kafesnea hartuko dut, mesedez.* — Wezmę kawę z mlekiem, proszę.
 >
@@ -124,4 +157,4 @@ W języku baskijskim typowe "hej / przepraszam" do zwrócenia uwagi to **Aizu!**
 >
 > — *Ederki!* — Świetnie!
 
-> **Nota kulturowa:** w baskijskiej tabernie normą jest zamawianie przy barze, picie na stojąco i głośna rozmowa. *Mesedez* i *eskerrik asko* są podstawowe, ale nie obowiązkowe w każdym zdaniu — w przeciwieństwie do hiszpańskiego, suche "*ebakia*" nie jest uznawane za niegrzeczne, o ile ton jest życzliwy.
+> **Wskazówka kulturowa:** w baskijskiej tawernie normalne jest zamawianie przy barze, picie na stojąco i głośne rozmawianie. *Mesedez* i *eskerrik asko* są podstawowe, ale nie obowiązkowe w każdym zdaniu — w przeciwieństwie do hiszpańskiego, rzucone od niechcenia „*ebakia*” nie jest uważane za niegrzeczne, o ile ton jest serdeczny.

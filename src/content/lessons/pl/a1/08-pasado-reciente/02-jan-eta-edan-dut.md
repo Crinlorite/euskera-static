@@ -7,128 +7,161 @@ level: a1
 order: 2
 title: Czasowniki przechodnie w czasie przeszłym niedawnym (jan dut, ikusi dut)
 estimatedMinutes: 12
-covers: [recent-past-dut, ukan-basic, participle-form]
+covers:
+- recent-past-dut
+- ukan-basic
+- participle-form
 exercises:
-  - id: ex-02-jed-mc1
-    type: multiple-choice
-    prompt: '"Egunkaria irakurri dut" oznacza…'
-    options: ["Czytam gazetę codziennie", "Przeczytałem gazetę", "Zamierzam przeczytać gazetę", "Gazeta czyta"]
-    answer: 1
-    explanation: '"Irakurri" (czytać) + "dut" (ja + dopełnienie) = "przeczytałem". Bez końcówki -tzen wskazuje na czas przeszły niedawny.'
-  - id: ex-02-jed-mc2
-    type: multiple-choice
-    prompt: 'Jak powiedziałbyś "Mikel zjadł śniadanie w domu"?'
-    options:
-      - "Mikel etxean gosaldu da"
-      - "Mikelek etxean gosaldu du"
-      - "Mikelek etxean gosaltzen du"
-      - "Mikel etxean gosaltzen da"
-    answer: 1
-    explanation: '*Gosaldu* jest przechodni (ma domyślne dopełnienie: śniadanie). Podmiot przyjmuje końcówkę NORK (-k): *Mikelek*; czasownik posiłkowy to *du*.'
-  - id: ex-02-jed-fb1
-    type: fill-in-blank
-    prompt: 'Kupiliśmy chleb = Ogia erosi ___.'
-    answers: [dugu]
-    explanation: '"Erosi" używa ukan; "my" → *dugu*. Podmiot: *guk*. Wynik: *guk ogia erosi dugu*.'
-  - id: ex-02-jed-fb2
-    type: fill-in-blank
-    prompt: 'Wypili wino = Ardoa edan ___.'
-    answers: [dute]
-    explanation: '"Edan" używa ukan; "oni" → *dute*. Podmiot: *haiek*. Wynik: *haiek ardoa edan dute*.'
-  - id: ex-02-jed-mp
-    type: match-pairs
-    pairs:
-      - { eu: jan dut, es: zjadłem }
-      - { eu: edan dut, es: wypiłem }
-      - { eu: ikusi dut, es: zobaczyłem }
-      - { eu: irakurri dut, es: przeczytałem }
-      - { eu: erosi dut, es: kupiłem }
-      - { eu: egin dut, es: zrobiłem }
-      - { eu: hartu dut, es: wziąłem }
-      - { eu: ikasi dut, es: nauczyłem się / przestudiowałem }
-  - id: ex-02-jed-fc
-    type: flashcards
-    cards:
-      - { eu: jan dut, es: zjadłem }
-      - { eu: edan dut, es: wypiłem }
-      - { eu: ikusi dut, es: zobaczyłem }
-      - { eu: irakurri dut, es: przeczytałem }
-      - { eu: erosi dut, es: kupiłem }
-      - { eu: egin dut, es: zrobiłem }
-      - { eu: ekarri dut, es: przyniosłem }
-      - { eu: eraman dut, es: zaniosłem }
-      - { eu: hartu dut, es: wziąłem }
-      - { eu: eskatu dut, es: poprosiłem / zamówiłem }
-      - { eu: ikasi dut, es: nauczyłem się }
-      - { eu: gosaldu dut, es: zjadłem śniadanie }
-      - { eu: bazkaldu dut, es: zjadłem obiad }
-      - { eu: afaldu dut, es: zjadłem kolację }
-      - { eu: lan egin dut, es: pracowałem }
-      - { eu: lo egin dut, es: spałem }
+- id: ex-02-jed-mc1
+  type: multiple-choice
+  prompt: '"Egunkaria irakurri dut" oznacza...'
+  options:
+  - Czytam gazetę codziennie
+  - Przeczytałem/-am gazetę
+  - Zamierzam przeczytać gazetę
+  - Gazeta czyta
+  answer: 1
+  explanation: '"Irakurri" (czytać) + "dut" (ja + dopełnienie) = "przeczytałem/-am". Brak *-tzen* oznacza czas przeszły niedawny.'
+- id: ex-02-jed-mc2
+  type: multiple-choice
+  prompt: Jak powiesz „Mikel zjadł śniadanie w domu”?
+  options:
+  - Mikel etxean gosaldu da
+  - Mikelek etxean gosaldu du
+  - Mikelek etxean gosaltzen du
+  - Mikel etxean gosaltzen da
+  answer: 1
+  explanation: '*Gosaldu* jest przechodni (ma domyślne dopełnienie: śniadanie). Podmiot przyjmuje NORK (-k): *Mikelek*; czasownik posiłkowy to *du*.'
+- id: ex-02-jed-fb1
+  type: fill-in-blank
+  prompt: Kupiliśmy chleb = Ogia erosi ___.
+  answers:
+  - dugu
+  explanation: '"Erosi" łączy się z ukan; „my” → *dugu*. Podmiot: *guk*. Wynik: *guk ogia erosi dugu*.'
+- id: ex-02-jed-fb2
+  type: fill-in-blank
+  prompt: Oni/one wypili/wypiły wino = Ardoa edan ___.
+  answers:
+  - dute
+  explanation: '"Edan" łączy się z ukan; „oni/one” → *dute*. Podmiot: *haiek*. Wynik: *haiek ardoa edan dute*.'
+- id: ex-02-jed-mp
+  type: match-pairs
+  pairs:
+  - eu: jan dut
+    es: he comido
+  - eu: edan dut
+    es: he bebido
+  - eu: ikusi dut
+    es: he visto
+  - eu: irakurri dut
+    es: przeczytałem/-am
+  - eu: erosi dut
+    es: he comprado
+  - eu: egin dut
+    es: he hecho
+  - eu: hartu dut
+    es: he tomado / he cogido
+  - eu: ikasi dut
+    es: he aprendido / he estudiado
+- id: ex-02-jed-fc
+  type: flashcards
+  cards:
+  - eu: jan dut
+    es: zjadłem/-am
+  - eu: edan dut
+    es: wypiłem/-am
+  - eu: ikusi dut
+    es: zobaczyłem/-am
+  - eu: irakurri dut
+    es: przeczytałem/-am
+  - eu: erosi dut
+    es: kupiłem/-am
+  - eu: egin dut
+    es: zrobiłem/-am
+  - eu: ekarri dut
+    es: przyniosłem/-am
+  - eu: eraman dut
+    es: zaniosłem/-am
+  - eu: hartu dut
+    es: wziąłem/-am
+  - eu: eskatu dut
+    es: poprosiłem/-am / zamówiłem/-am
+  - eu: ikasi dut
+    es: nauczyłem/-am się
+  - eu: gosaldu dut
+    es: zjadłem/-am śniadanie
+  - eu: bazkaldu dut
+    es: zjadłem/-am obiad
+  - eu: afaldu dut
+    es: zjadłem/-am kolację
+  - eu: lan egin dut
+    es: pracowałem/-am
+  - eu: lo egin dut
+    es: spałem/-am
 ---
 
-**Czasowniki przechodnie** to te, które mają dopełnienie: ktoś je *coś*, widzi *coś*, czyta *coś*. W euskerze czasowniki te używają czasownika posiłkowego **ukan** (dut, duzu, du…). W czasie przeszłym niedawnym wzór jest następujący:
+**Czasowniki przechodnie** to te, które przyjmują dopełnienie: ktoś je *coś*, widzi *coś*, czyta *coś*. W języku baskijskim te czasowniki używają czasownika posiłkowego **ukan** (dut, duzu, du…). W czasie przeszłym niedawnym wzór jest następujący:
 
 > **partizipioa + dut/duzu/du/dugu/duzue/dute**
 
 ## Podstawowe czasowniki przechodnie
 
-| Partizipioa | Ja (…łem) | Polski |
+| Partizipioa | Ja (zrobiłem/-am…) | Polski |
 |---|---|---|
-| *jan* | **jan dut** | zjadłem |
-| *edan* | **edan dut** | wypiłem |
-| *ikusi* | **ikusi dut** | zobaczyłem |
-| *irakurri* | **irakurri dut** | przeczytałem |
-| *entzun* | **entzun dut** | wysłuchałem |
-| *erosi* | **erosi dut** | kupiłem |
-| *egin* | **egin dut** | zrobiłem |
-| *hartu* | **hartu dut** | wziąłem |
-| *ekarri* | **ekarri dut** | przyniosłem |
-| *eraman* | **eraman dut** | zaniosłem |
-| *ikasi* | **ikasi dut** | nauczyłem się / przestudiowałem |
-| *eskatu* | **eskatu dut** | poprosiłem |
-| *ordaindu* | **ordaindu dut** | zapłaciłem |
-| *idatzi* | **idatzi dut** | napisałem |
-| *prestatu* | **prestatu dut** | przygotowałem |
-| *garbitu* | **garbitu dut** | posprzątałem |
-| *gosaldu* | **gosaldu dut** | zjadłem śniadanie |
-| *bazkaldu* | **bazkaldu dut** | zjadłem obiad |
-| *afaldu* | **afaldu dut** | zjadłem kolację |
-| *lan egin* | **lan egin dut** | pracowałem |
+| *jan* | **jan dut** | zjadłem/-am |
+| *edan* | **edan dut** | wypiłem/-am |
+| *ikusi* | **ikusi dut** | zobaczyłem/-am |
+| *irakurri* | **irakurri dut** | przeczytałem/-am |
+| *entzun* | **entzun dut** | posłuchałem/-am |
+| *erosi* | **erosi dut** | kupiłem/-am |
+| *egin* | **egin dut** | zrobiłem/-am |
+| *hartu* | **hartu dut** | wziąłem/-am |
+| *ekarri* | **ekarri dut** | przyniosłem/-am |
+| *eraman* | **eraman dut** | zaniosłem/-am |
+| *ikasi* | **ikasi dut** | nauczyłem/-am się / uczyłem/-am się |
+| *eskatu* | **eskatu dut** | poprosiłem/-am / zamówiłem/-am |
+| *ordaindu* | **ordaindu dut** | zapłaciłem/-am |
+| *idatzi* | **idatzi dut** | napisałem/-am |
+| *prestatu* | **prestatu dut** | przygotowałem/-am |
+| *garbitu* | **garbitu dut** | posprzątałem/-am |
+| *gosaldu* | **gosaldu dut** | zjadłem/-am śniadanie |
+| *bazkaldu* | **bazkaldu dut** | zjadłem/-am obiad |
+| *afaldu* | **afaldu dut** | zjadłem/-am kolację |
+| *lan egin* | **lan egin dut** | pracowałem/-am |
 
-## Pełna odmiana z jednym czasownikiem
+## Pełna odmiana czasownika
 
-Bierzemy *ikusi* (widzieć) jako przykład:
+Weźmy jako przykład *ikusi* (widzieć):
 
 | Zaimek + podmiot | Forma | Polski |
 |---|---|---|
-| Nik | **ikusi dut** | Zobaczyłem |
-| Zuk | **ikusi duzu** | Zobaczyłeś |
-| Hark | **ikusi du** | Zobaczył (on/ona) |
-| Guk | **ikusi dugu** | Zobaczyliśmy |
-| Zuek | **ikusi duzue** | Zobaczyliście |
-| Haiek | **ikusi dute** | Zobaczyli |
+| Nik | **ikusi dut** | Zobaczyłem/-am |
+| Zuk | **ikusi duzu** | Zobaczyłeś/-aś |
+| Hark | **ikusi du** | Zobaczył/-a |
+| Guk | **ikusi dugu** | Zobaczyliśmy/-łyśmy |
+| Zuek | **ikusi duzue** | Zobaczyliście/-łyście |
+| Haiek | **ikusi dute** | Zobaczyli/-ły |
 
-> Podmiot czasowników przechodnich przyjmuje końcówkę **NORK** (-k): *nik, zuk, hark, guk, zuek, haiek*. Będziesz ją widzieć często, zwłaszcza gdy podmiotem jest imię: *Mikelek* (Mikel coś zrobił…), *Maialenek* (Maialen coś zrobiła…). Jeśli cię to myli, na poziomie A1 możesz pominąć zaimek i zostawić sam czasownik: kontekst wystarczy.
+> Podmiot czasowników przechodnich przyjmuje znacznik **NORK** (-k): *nik, zuk, hark, guk, zuek, haiek*. Zobaczysz go często, zwłaszcza gdy podmiotem jest imię: *Mikelek* (Mikel zrobił...), *Maialenek* (Maialen zrobiła...). Jeśli cię to myli, na poziomie A1 możesz pominąć zaimek i zostawić sam czasownik: kontekst wystarczy.
 
 ## Typowe zdania
 
-- *Gaur goizean egunkaria irakurri dut.* — Dziś rano przeczytałem gazetę.
-- *Bazkaltzeko arraina jan dut.* — Na obiad zjadłem rybę.
-- *Lagunekin kafea hartu dut.* — Wypiłem kawę z przyjaciółmi.
+- *Gaur goizean egunkaria irakurri dut.* — Dziś rano przeczytałem/-am gazetę.
+- *Bazkaltzeko arraina jan dut.* — Na obiad zjadłem/-am rybę.
+- *Lagunekin kafea hartu dut.* — Wypiłem/-am kawę z przyjaciółmi.
 - *Mikelek ardoa erosi du.* — Mikel kupił wino.
-- *Guk pelikula bat ikusi dugu.* — Obejrzeliśmy film.
-- *Haiek euskara ikasi dute gaur.* — Dziś uczyli się euskery.
+- *Guk pelikula bat ikusi dugu.* — Obejrzeliśmy/-łyśmy film.
+- *Haiek euskara ikasi dute gaur.* — Oni/one uczyli/uczyły się dziś baskijskiego.
 
 ## Przeczenie
 
-Aby powiedzieć "nie zrobiłem X", **ez** stoi przed czasownikiem posiłkowym:
+Aby powiedzieć „nie zrobiłem/-am X”, **ez** stawia się przed czasownikiem posiłkowym:
 
-> *Ez dut bazkaldu.* — Nie zjadłem obiadu.
+> *Ez dut bazkaldu.* — Nie zjadłem/-am obiadu.
 >
-> *Ez du egunkaria irakurri.* — Nie przeczytał gazety.
+> *Ez du egunkaria irakurri.* — Nie przeczytał/-a gazety.
 >
-> *Ez dugu ardorik edan.* — Nie wypiliśmy wina. (Zwróć uwagę na *ardorik*: przy przeczeniu dopełnienie zwykle przyjmuje partytywne **-rik**.)
+> *Ez dugu ardorik edan.* — Nie piliśmy wina. (Zwróć uwagę na *ardorik*: w przeczeniu dopełnienie często przyjmuje partykułę **-rik**.)
 
 ## Mini-dialog
 
@@ -138,4 +171,4 @@ Aby powiedzieć "nie zrobiłem X", **ez** stoi przed czasownikiem posiłkowym:
 >
 > *— Nik tortilla egin dut, baina ez dut postrerik jan.*
 
-> **Podsumowanie wizualne:** jeśli czynność ma dopełnienie wyrażone lub domyślne (zjeść coś, zobaczyć coś, zrobić coś), czasownikiem posiłkowym jest **dut** (i jego formy pochodne). Zapamiętaj te pary czasownik–posiłkowy, a reszta wyjdzie sama.
+> **Podsumowanie wizualne:** jeśli czynność ma dopełnienie bliższe lub domyślne (jeść coś, widzieć coś, robić coś), czasownikiem posiłkowym jest **dut** (i jego formy). Zapamiętaj te pary czasownik-posiłkowy, a reszta przyjdzie sama.

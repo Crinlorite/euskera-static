@@ -5,151 +5,186 @@ code: 05-lagunekin-afaria
 unit: 12-restaurante
 level: a1
 order: 5
-title: Ужин с друзьями (интегрирующий урок)
+title: Ужин с друзьями (обобщающий урок)
 estimatedMinutes: 12
-covers: [restaurant-vocab, ordering-food, bill-payment, food-bar, courtesy]
+covers:
+- restaurant-vocab
+- ordering-food
+- bill-payment
+- food-bar
+- courtesy
 exercises:
-  - id: ex-laf-mc1
-    type: multiple-choice
-    prompt: 'Как ты предлагаешь другу "хочешь прийти поужинать?"'
-    options: ['Etorri nahi duzu afaltzera?', 'Afari bat duzu?', 'Afaria zara?', 'Afaltzen ari naiz']
-    answer: 0
-    explanation: '*Etorri nahi duzu...?* — "хочешь прийти...?". *Afaltzera* = "ужинать" (падеж NORA с глаголом).'
-  - id: ex-laf-mc2
-    type: multiple-choice
-    prompt: '"Договорились, во сколько встречаемся?" говорится…'
-    options: ['Ados, zer ordutan geratuko gara?', 'Ados, zer ordutan da?', 'Ezin dut etorri', 'Eta zu, nor zara?']
-    answer: 0
-    explanation: '*Ados* — договорились. *Geratuko gara* — "встретимся / договоримся" (будущее время от *geratu*).'
-  - id: ex-laf-fb1
-    type: fill-in-blank
-    prompt: '"Не могу, завтра у меня работа" = Ezin dut, bihar ___ dut.'
-    answers: [lana, Lana]
-    explanation: '*Lana dut / lan egin behar dut* — "у меня работа / мне надо работать".'
-  - id: ex-laf-fb2
-    type: fill-in-blank
-    prompt: '"Встречаемся в девять" = ___ geratuko gara.'
-    answers: [Bederatzietan, bederatzietan]
-    explanation: '*Bederatzietan* — "в девять" (инессив множественного числа в указании времени).'
-  - id: ex-laf-fc
-    type: flashcards
-    cards:
-      - { eu: 'Etorri nahi duzu afaltzera?', es: Хочешь прийти поужинать? }
-      - { eu: 'Bai, oso ongi', es: 'Да, отлично' }
-      - { eu: 'Ezin dut', es: 'Не могу' }
-      - { eu: 'Geratuko gara', es: 'Встретимся' }
-      - { eu: 'Bederatzietan', es: 'В девять' }
-      - { eu: 'Erreserba egingo dut', es: 'Я сделаю бронь' }
-      - { eu: 'Hasteko, niretzat...', es: 'На начало, мне...' }
-      - { eu: 'Zer iruditzen zaizu?', es: 'Что скажешь? / Как тебе?' }
-      - { eu: 'Topa!', es: 'Будем здоровы! / Чин-чин!' }
-      - { eu: 'On egin!', es: 'Приятного аппетита!' }
-      - { eu: 'Oso goxoa zegoen', es: 'Было очень вкусно' }
-      - { eu: 'Hurrengora arte!', es: 'До следующего раза!' }
-  - id: ex-laf-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Hasteko', es: 'На начало' }
-      - { eu: 'Bigarrenerako', es: 'На второе' }
-      - { eu: 'Postrerako', es: 'На десерт' }
-      - { eu: 'Edateko', es: 'Чтобы выпить / на напитки' }
-      - { eu: 'Kontua, mesedez', es: 'Счёт, пожалуйста' }
-      - { eu: 'On egin!', es: 'Приятного аппетита!' }
+- id: ex-laf-mc1
+  type: multiple-choice
+  prompt: Как предложить другу «хочешь пойти поужинать?»
+  options:
+  - Etorri nahi duzu afaltzera?
+  - Afari bat duzu?
+  - Afaria zara?
+  - Afaltzen ari naiz
+  answer: 0
+  explanation: '*Etorri nahi duzu...?* — «хочешь прийти/пойти...?». *Afaltzera* = «ужинать» (падеж NORA с глаголом).'
+- id: ex-laf-mc2
+  type: multiple-choice
+  prompt: «Договорились, во сколько встречаемся?» говорится...
+  options:
+  - Ados, zer ordutan geratuko gara?
+  - Ados, zer ordutan da?
+  - Ezin dut etorri
+  - Eta zu, nor zara?
+  answer: 0
+  explanation: '*Ados* — договорились. *Geratuko gara* — «встретимся» (будущее время от *geratu*).'
+- id: ex-laf-fb1
+  type: fill-in-blank
+  prompt: «Не могу, завтра у меня работа» = Ezin dut, bihar ___ dut.
+  answers:
+  - lana
+  - Lana
+  explanation: '*Lana dut / lan egin behar dut* — «у меня есть работа / я должен работать».'
+- id: ex-laf-fb2
+  type: fill-in-blank
+  prompt: «Встречаемся в девять» = ___ geratuko gara.
+  answers:
+  - Bederatzietan
+  - bederatzietan
+  explanation: '*Bederatzietan* — «в девять часов» (инессив, множественное число для времени).'
+- id: ex-laf-fc
+  type: flashcards
+  cards:
+  - eu: Etorri nahi duzu afaltzera?
+    es: Хочешь пойти поужинать?
+  - eu: Bai, oso ongi
+    es: Да, отлично
+  - eu: Ezin dut
+    es: Не могу
+  - eu: Geratuko gara
+    es: Встретимся
+  - eu: Bederatzietan
+    es: В девять часов
+  - eu: Erreserba egingo dut
+    es: Я забронирую
+  - eu: Hasteko, niretzat...
+    es: На первое, для меня...
+  - eu: Zer iruditzen zaizu?
+    es: Как тебе?
+  - eu: Topa!
+    es: Ваше здоровье!
+  - eu: On egin!
+    es: Приятного аппетита!
+  - eu: Oso goxoa zegoen
+    es: Было очень вкусно
+  - eu: Hurrengora arte!
+    es: До следующего раза!
+- id: ex-laf-mp
+  type: match-pairs
+  pairs:
+  - eu: Hasteko
+    es: На первое
+  - eu: Bigarrenerako
+    es: На второе
+  - eu: Postrerako
+    es: На десерт
+  - eu: Edateko
+    es: Из напитков
+  - eu: Kontua, mesedez
+    es: Счёт, пожалуйста
+  - eu: On egin!
+    es: Приятного аппетита!
 ---
 
-У тебя уже есть все детали: типы ресторанов, меню, как заказывать, как платить. Давай объединим их в ужин с друзьями: организовать встречу, заказать и завершить вечер.
+У тебя уже есть все части: типы ресторанов, меню, как заказывать, как платить. Давай соберём их вместе за ужином с друзьями: договоримся о встрече, сделаем заказ и завершим вечер.
 
 ## 1. Договориться об ужине
 
-> — *Aizue, ostiralean afaltzera joango gara?* — Слушайте, пойдём в пятницу поужинать?
+> — *Aizue, ostiralean afaltzera joango gara?* — Слушай, пойдём ужинать в пятницу?
 >
-> — *Bai, ideia ona!* — Да, хорошая идея!
+> — *Bai, ideia ona!* — Да, отличная идея!
 >
-> — *Nik ezin dut ostiralean. Larunbatean ondo?* — Я в пятницу не могу. В субботу нормально?
+> — *Nik ezin dut ostiralean. Larunbatean ondo?* — Я не могу в пятницу. В субботу нормально?
 >
 > — *Ados. Zer ordutan geratuko gara?* — Договорились. Во сколько встречаемся?
 >
-> — *Bederatzi eta erdietan, taberna ondoan?* — В половине десятого, рядом с баром?
+> — *Bederatzi eta erdietan, taberna ondoan?* — В полдесятого, рядом с баром?
 >
 > — *Ederki!* — Отлично!
 
-Фразы, чтобы извиниться, когда не можешь:
+Фразы, чтобы вежливо отказаться, если не можешь:
 
-- **Ezin dut, beste plan bat dut.** — Не могу, у меня другой план.
-- **Ezin dut, bihar lan egin behar dut.** — Не могу, завтра мне надо работать.
-- **Beste egun batean izan beharko du.** — Придётся в другой день.
+- **Ezin dut, beste plan bat dut.** — Не могу, у меня другие планы.
+- **Ezin dut, bihar lan egin behar dut.** — Не могу, завтра мне нужно работать.
+- **Beste egun batean izan beharko du.** — Придётся в другой раз.
 
-## 2. Сделать бронь
+## 2. Забронировать столик
 
-> — *Egun on! "Kutixi" jatetxea al da?*
+> — *Egun on! "Kutixi" jatetxea al da?* — Добрый день! Это ресторан «Kutixi»?
 >
-> — *Bai, esan.*
+> — *Bai, esan.* — Да, слушаю.
 >
-> — *Erreserba egin nahi dut, larunbat gauerako.*
+> — *Erreserba egin nahi dut, larunbat gauerako.* — Я хочу забронировать столик на вечер субботы.
 >
-> — *Zenbat lagunentzat?*
+> — *Zenbat lagunentzat?* — На сколько человек?
 >
-> — *Lau lagun izango gara.*
+> — *Lau lagun izango gara.* — Нас будет четверо.
 >
-> — *Zer ordutan?*
+> — *Zer ordutan?* — На какое время?
 >
-> — *Bederatzi eta erdietan.*
+> — *Bederatzi eta erdietan.* — На полдесятого.
 >
-> — *Noren izenean?*
+> — *Noren izenean?* — На чьё имя?
 >
-> — *Mikelen izenean.*
+> — *Mikelen izenean.* — На имя Микеля.
 >
-> — *Oso ondo. Larunbat arte!*
+> — *Oso ondo. Larunbat arte!* — Очень хорошо. До субботы!
 
 ## 3. За столом
 
-Приветствия, когда садишься:
+Приветствия за столом:
 
 - **On egin!** — Приятного аппетита!
-- **Topa!** — Чин-чин! / Будем здоровы! (при тосте)
+- **Topa!** — Ваше здоровье! (когда чокаются)
 
-Заказать, уже со всеми деталями:
+Заказ, используя всё, что мы выучили:
 
-> — *Hasteko, niretzat entsalada mistoa, mesedez.*
+> — *Hasteko, niretzat entsalada mistoa, mesedez.* — На первое, мне смешанный салат, пожалуйста.
 >
-> — *Eta niretzat arrain-zopa.*
+> — *Eta niretzat arrain-zopa.* — А мне — рыбный суп.
 >
-> — *Bigarrenerako, niretzat legatza saltsan.*
+> — *Bigarrenerako, niretzat legatza saltsan.* — На второе, мне хека в соусе.
 >
-> — *Niri, txuleta. Eta edateko, ardo gorria botila bat, mesedez.*
+> — *Niri, txuleta. Eta edateko, ardo gorria botila bat, mesedez.* — Мне — чулету. И из напитков, бутылку красного вина, пожалуйста.
 
-## 4. Обсудить еду
+## 4. Обсуждение еды
 
 | Euskera | Русский |
 |---|---|
 | *Oso goxoa zegoen!* | Было очень вкусно! |
-| *Hau betekada!* | Вот это объелись! |
-| *Beste botila bat ardo, mesedez.* | Ещё одну бутылку вина, пожалуйста. |
+| *Hau betekada!* | Как же я наелся! |
+| *Beste botila bat ardo, mesedez.* | Ещё бутылку вина, пожалуйста. |
 | *Postrerako, izozkia hartuko dut.* | На десерт я возьму мороженое. |
 | *Nik ez dut postrerik nahi.* | Я не хочу десерт. |
 
-## 5. Завершить вечер
+## 5. Завершение вечера
 
-> — *Aizu, kobratuko al diguzu?*
+> — *Aizu, kobratuko al diguzu?* — Простите, принесите счёт, пожалуйста.
 >
-> — *Bai, oraintxe. Berrogeita hamabi euro eta hogeita bost zentimo.*
+> — *Bai, oraintxe. Berrogeita hamabi euro eta hogeita bost zentimo.* — Да, сейчас. Пятьдесят два евро и двадцать пять центов.
 >
-> — *Txartelaz ordain dezakegu?*
+> — *Txartelaz ordain dezakegu?* — Мы можем заплатить картой?
 >
-> — *Bai, noski.*
+> — *Bai, noski.* — Да, конечно.
 >
-> — *Eskerrik asko! Oso ondo zegoen.*
+> — *Eskerrik asko! Oso ondo zegoen.* — Спасибо! Всё было очень хорошо.
 >
-> — *Zuri! Hurrengora arte!*
+> — *Zuri! Hurrengora arte!* — Вам спасибо! До следующего раза!
 
 ## Наглядное резюме
 
 ```
 1. Договориться: Etorri nahi duzu afaltzera?  →  Bai, ados!
-2. Бронь:        Erreserba egin nahi dut...   →  Noren izenean?
-3. Заказать:     Hasteko... Bigarrenerako...  →  Postrerako...
-4. Наслаждаться: On egin! / Topa! / Goxoa zegoen!
-5. Заплатить:    Kontua, mesedez. / Txartelaz ordain dezaket?
+2. Бронь:       Erreserba egin nahi dut...   →  Noren izenean?
+3. Заказ:       Hasteko... Bigarrenerako...  →  Postrerako...
+4. За столом:   On egin! / Topa! / Goxoa zegoen!
+5. Оплата:      Kontua, mesedez. / Txartelaz ordain dezaket?
 ```
 
-> **Культурная заметка:** формула *On egin!* используется также, если ты проходишь мимо людей, которые едят в общественном месте (терраса, фруктовая лавка, любое место). Это очень типичный вежливый жест, который стоит услышать и вернуть: естественный ответ — *Eskerrik asko!*.
+> **Культурная заметка:** формула *On egin!* также используется, когда вы проходите мимо людей, которые едят в общественном месте (на террасе, в кафе, где угодно). Это очень типичный вежливый жест, который принято слышать и отвечать на него: естественный ответ — *Eskerrik asko!*.

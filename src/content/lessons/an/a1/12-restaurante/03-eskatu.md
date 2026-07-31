@@ -5,95 +5,119 @@ code: 03-eskatu
 unit: 12-restaurante
 level: a1
 order: 3
-title: Pedir lo minchar (eskatu)
+title: Demandar a comida (eskatu)
 estimatedMinutes: 10
-covers: [ordering-food, food-bar]
+covers:
+- ordering-food
+- food-bar
 exercises:
-  - id: ex-esk-mc1
-    type: multiple-choice
-    prompt: '"De primero, voi a prener ensalada" se diz…'
-    options: ['Hasteko, entsalada hartuko dut', 'Lehen entsalada da', 'Entsalada bat hartzen', 'Hasteko, entsaladarik']
-    answer: 0
-    explanation: '*Hasteko* (ta prencipiar) + *entsalada hartuko dut* (preneré ensalada). Estructura tipica.'
-  - id: ex-esk-mc2
-    type: multiple-choice
-    prompt: '"Ta yo, lo peix" se diz…'
-    options: ['Niretzat, arraina', 'Nire arraina', 'Niri arraina', 'Ni arraina dut']
-    answer: 0
-    explanation: '*Niretzat* — "ta yo" (destinatario). Ye la formula natural en pedir en mesa compartida.'
-  - id: ex-esk-fb1
-    type: fill-in-blank
-    prompt: 'Ta preguntar "¿e ta tu?" a lo tuyo acompañant = Eta ___?'
-    answers: [zuretzat]
-    explanation: '*Zuretzat* — "ta tu" (cortés/vusté-tu).'
-  - id: ex-esk-fb2
-    type: fill-in-blank
-    prompt: '"De segundo, carne" = Bigarrenerako, ___'
-    answers: [haragia]
-    explanation: '*Bigarrenerako* — "de segundo (ta lo segundo plato)". *Haragia* — la carne.'
-  - id: ex-esk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer nahi duzu?', es: ¿Qué quiers? }
-      - { eu: 'Zer hartuko duzu?', es: ¿Qué vas a prener? }
-      - { eu: 'Hartuko dut...', es: 'Voi a prener...' }
-      - { eu: 'Niretzat...', es: 'Ta yo...' }
-      - { eu: 'Eta zuretzat?', es: ¿E ta tu? }
-      - { eu: 'Hasteko...', es: 'Ta prencipiar...' }
-      - { eu: 'Bigarrenerako...', es: 'De segundo...' }
-      - { eu: 'Postrerako...', es: 'De postre...' }
-      - { eu: 'Edateko, ardo gorria', es: 'Ta beber, vin tinto' }
-      - { eu: 'Nahiago dut...', es: 'M''estimo más...' }
-      - { eu: 'Ez dut nahi', es: 'No quiero' }
-      - { eu: 'Ez zait gustatzen', es: 'No me fa goyo' }
+- id: ex-esk-mc1
+  type: multiple-choice
+  prompt: '"De primero, voi a prener ensalada" se diz…'
+  options:
+  - Hasteko, entsalada hartuko dut
+  - Lehen entsalada da
+  - Entsalada bat hartzen
+  - Hasteko, entsaladarik
+  answer: 0
+  explanation: '*Hasteko* (pa prencipiar) + *entsalada hartuko dut* (preneré ensalada). Estructura tipica.'
+- id: ex-esk-mc2
+  type: multiple-choice
+  prompt: '"Pa mí, o peix" se diz…'
+  options:
+  - Niretzat, arraina
+  - Nire arraina
+  - Niri arraina
+  - Ni arraina dut
+  answer: 0
+  explanation: '*Niretzat* — "pa mí" (destinatario). Ye a formula natural en demandar en una mesa compartida.'
+- id: ex-esk-fb1
+  type: fill-in-blank
+  prompt: Pa preguntar "¿y pa tu?" a o tuyo acompanyant = Eta ___?
+  answers:
+  - zuretzat
+  explanation: '*Zuretzat* — "pa tu" (cortés/vusté-tu).'
+- id: ex-esk-fb2
+  type: fill-in-blank
+  prompt: '"De segundo, carne" = Bigarrenerako, ___'
+  answers:
+  - haragia
+  explanation: '*Bigarrenerako* — "de segundo (pa o segundo plato)". *Haragia* — a carne.'
+- id: ex-esk-fc
+  type: flashcards
+  cards:
+  - eu: Zer nahi duzu?
+    es: Qué quiers?
+  - eu: Zer hartuko duzu?
+    es: Qué vas a prener?
+  - eu: Hartuko dut...
+    es: Voi a prener...
+  - eu: Niretzat...
+    es: Pa mí...
+  - eu: Eta zuretzat?
+    es: ¿Y pa tu?
+  - eu: Hasteko...
+    es: Pa prencipiar...
+  - eu: Bigarrenerako...
+    es: De segundo...
+  - eu: Postrerako...
+    es: De postre...
+  - eu: Edateko, ardo gorria
+    es: Pa beber, vin tinto
+  - eu: Nahiago dut...
+    es: M'estimo más...
+  - eu: Ez dut nahi
+    es: No quiero
+  - eu: Ez zait gustatzen
+    es: No me fa goyo
 ---
 
-Esta lección achunta las formulas ta pedir en mesa: estructurar lehen/bigarren/postrea, decir "ta yo" y amostrar preferencias.
+Ista lección aplega as formulas pa demandar en a mesa: estructurar *lehen/bigarren/postrea*, dicir "pa mí" y amostrar preferencias.
 
-## La pregunta d'o cambrero
+## A pregunta d'o cambrero
 
-Lo cambrero ubrirá con bella d'estas:
+O cambrero ubrirá con bella d'istas:
 
-- **Zer nahi duzu(e)?** — ¿Qué desicha(n)?
-- **Zer hartuko duzu(e)?** — ¿Qué va(n) a prener?
-- **Pentsatu duzu(e)?** — ¿Ya l'ha(n) pensau?
+- **Zer nahi duzu(e)?** — Qué deseya(n)?
+- **Zer hartuko duzu(e)?** — Qué va(n) a prener?
+- **Pentsatu duzu(e)?** — Ya l'ha(n) pensau?
 
-## Estructurar lo pedimiento
+## Estructurar a comanda
 
-Ta organizar lo que pides, bi ha tres marcadors muito utils:
+Pa organizar o que demandas, bi ha tres marcadors muito útils:
 
 | Euskera | Aragonés |
 |---|---|
-| *Hasteko...* | Ta prencipiar... |
+| *Hasteko...* | Pa prencipiar... |
 | *Bigarrenerako...* | De segundo... |
 | *Postrerako...* | De postre... |
-| *Edateko...* | Ta beber... |
+| *Edateko...* | Pa beber... |
 
 Eixemplo completo:
 
 > *Hasteko, entsalada nahi dut. Bigarrenerako, legatza. Postrerako, izozkia. Eta edateko, ardo zuria.*
 >
-> Ta prencipiar, ensalada. De segundo, merluza. De postre, gelau. E ta beber, vin blanco.
+> Pa prencipiar, ensalada. De segundo, merluza. De postre, chelau. Y pa beber, vin blanco.
 
-## Tres trazas de pedir
+## Tres trazas de demandar
 
-| Estructura | Eixemplo | Quán |
+| Estructura | Eixemplo | Cuan |
 |---|---|---|
-| **... hartuko dut** | *Legatza hartuko dut* | yo voi a prener... |
-| **... nahi dut** | *Legatza nahi dut* | yo quiero... |
-| **Niretzat...** | *Niretzat, legatza* | ta yo... |
+| **... hartuko dut** | *Legatza hartuko dut* | voi a prener... |
+| **... nahi dut** | *Legatza nahi dut* | quiero... |
+| **Niretzat...** | *Niretzat, legatza* | pa mí... |
 
-`Niretzat` ye muito util quan un comensal pide por toz: "*Niretzat legatza, eta zuretzat?*" (Ta yo, merluza, ¿e ta tu?).
+`Niretzat` ye muito útil cuan un comensal demanda pa toz: "*Niretzat legatza, eta zuretzat?*" (Pa mí, merluza, ¿y pa tu?).
 
 ## Preferencias
 
 - **Nahiago dut...** — M'estimo más...
-   - *Nahiago dut arraina haragia baino.* — M'estimo más lo peix que la carne.
+   - *Nahiago dut arraina haragia baino.* — M'estimo más o peix que a carne.
 - **Ez dut ... nahi.** — No quiero...
 - **Ez zait gustatzen.** — No me fa goyo.
 - **... gustatzen zait.** — Me fa goyo...
 
-## Mini-dialogo en mesa
+## Mini-dialogo en a mesa
 
 > **Zerbitzaria:** *Egun on! Zer nahi duzue bazkaltzeko?*
 >
@@ -113,4 +137,4 @@ Eixemplo completo:
 >
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
-> **Nota cultural:** en restaurants chicotz ye muito freqüent que un comensal pida por tot lo grupo (*Niretzat legatza eta beretzat haragia* — ta yo merluza e ta er/era carne). Por ixo *niretzat / zuretzat / beretzat* son parolas de muito rendimiento dende lo primer día.
+> **Nota cultural:** en restaurants chicoz ye muito frequent que un comensal demande pa tot o grupo (*Niretzat legatza eta beretzat haragia* — pa mí merluza y pa él/ella carne). Por ixo *niretzat / zuretzat / beretzat* son palabras de muito proveito dende o primer día.

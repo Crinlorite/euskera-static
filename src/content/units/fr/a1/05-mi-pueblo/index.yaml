@@ -1,14 +1,14 @@
 id: a1-town
 code: 05-mi-pueblo
 level: a1
-title: "Le village et les lieux"
+title: Le village et les lieux
 order: 5
-description: "Lieux du village, localisation avec le cas NON, positions spatiales et existence (ba al dago…?)."
+description: Les lieux du village, la localisation avec le cas NON, les positions spatiales et l'existence (ba al dago…?).
 estimatedMinutes: 55
 covers:
-  - places-town
-  - locative-non
-  - spatial-positions
-  - spatial-adverbs
-  - existence-bada
-  - egon-nor
+- places-town
+- locative-non
+- spatial-positions
+- spatial-adverbs
+- existence-bada
+- egon-nor

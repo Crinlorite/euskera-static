@@ -7,64 +7,101 @@ level: a1
 order: 4
 title: Zenbat balio du? Prezzi e quantità
 estimatedMinutes: 11
-covers: [prices, numbers-1-100]
+covers:
+- prices
+- numbers-1-100
 exercises:
-  - id: ex-zbd-mc1
-    type: multiple-choice
-    prompt: '"Zenbat balio du?" significa…'
-    options: ["Quanto costa?", "Quanti anni hai?", "Quanto pesa?", "Quanti ce ne sono?"]
-    answer: 0
-    explanation: '*zenbat* = quanto/quanti; *balio* = vale/costa; *du* = "ha/costa egli/ella".'
-  - id: ex-zbd-mc2
-    type: multiple-choice
-    prompt: 'Come si dice "venti" in euskera?'
-    options: [hamar, hamabost, hogei, ehun]
-    answer: 2
-    explanation: '*hogei* = 20. È la base del sistema vigesimale dell''euskera.'
-  - id: ex-zbd-fb1
-    type: fill-in-blank
-    prompt: 'Costa 3 euro = ___ euro balio du.'
-    answers: [hiru]
-    explanation: '*hiru* = 3.'
-  - id: ex-zbd-fb2
-    type: fill-in-blank
-    prompt: 'Prenderò due caffè = Bi kafe ___ ___.'
-    answers: [hartuko ditut]
-    explanation: 'Per "diverse cose" si usa *ditut* invece di *dut*.'
-  - id: ex-zbd-fc
-    type: flashcards
-    cards:
-      - { eu: hamar, es: "10" }
-      - { eu: hamabi, es: "12" }
-      - { eu: hamabost, es: "15" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita bost, es: "25" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: laurogei, es: "80" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: l'euro }
-      - { eu: zentimo, es: centesimo }
-      - { eu: 'Zenbat balio du?', es: 'Quanto costa?' }
-      - { eu: 'Zenbat dira denera?', es: 'Quant''è in totale?' }
-      - { eu: garesti, es: caro }
-      - { eu: merke, es: economico }
-  - id: ex-zbd-mp
-    type: match-pairs
-    pairs:
-      - { eu: hamar, es: "10" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: euro }
+- id: ex-zbd-mc1
+  type: multiple-choice
+  prompt: '"Zenbat balio du?" significa…'
+  options:
+  - Quanto costa?
+  - Quanti anni hai?
+  - Quanto pesa?
+  - Quanti ce ne sono?
+  answer: 0
+  explanation: '*zenbat* = quanto/quanti; *balio* = vale/costa; *du* = "ha/costa lui/lei".'
+- id: ex-zbd-mc2
+  type: multiple-choice
+  prompt: Come si dice "venti" in basco?
+  options:
+  - hamar
+  - hamabost
+  - hogei
+  - ehun
+  answer: 2
+  explanation: '*hogei* = 20. È la base del sistema vigesimale basco.'
+- id: ex-zbd-fb1
+  type: fill-in-blank
+  prompt: Costa 3 euro = ___ euro balio du.
+  answers:
+  - hiru
+  explanation: '*hiru* = 3.'
+- id: ex-zbd-fb2
+  type: fill-in-blank
+  prompt: Prenderò due caffè = Bi kafe ___ ___.
+  answers:
+  - hartuko ditut
+  explanation: Per "più cose" si usa *ditut* invece di *dut*.
+- id: ex-zbd-fc
+  type: flashcards
+  cards:
+  - eu: hamar
+    es: '10'
+  - eu: hamabi
+    es: '12'
+  - eu: hamabost
+    es: '15'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita bost
+    es: '25'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: laurogei
+    es: '80'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: l'euro
+  - eu: zentimo
+    es: centesimo
+  - eu: Zenbat balio du?
+    es: Quanto costa?
+  - eu: Zenbat dira denera?
+    es: Quant'è in totale?
+  - eu: garesti
+    es: caro
+  - eu: merke
+    es: economico
+- id: ex-zbd-mp
+  type: match-pairs
+  pairs:
+  - eu: hamar
+    es: '10'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: euro
 ---
 
-Per chiedere i prezzi in euskera e capire ciò che ti dicono quando paghi, ti servono due cose: la formula **Zenbat balio du?** e i numeri fino a 100. Il sistema numerico dell'euskera è **vigesimale** (si basa su gruppi di 20), quindi richiede un po' di abitudine.
+Per chiedere i prezzi in basco e capire cosa ti dicono quando paghi, hai bisogno di due cose: la formula **Zenbat balio du?** e i numeri fino a 100. Il sistema numerico basco è **vigesimale** (si basa su gruppi di 20), quindi richiede un po' di abitudine.
 
 ## La domanda chiave
 
@@ -73,13 +110,13 @@ Per chiedere i prezzi in euskera e capire ciò che ti dicono quando paghi, ti se
 | *Zenbat balio du?* | Quanto costa? |
 | *Zenbat da?* | Quant'è? |
 | *Zenbat dira denera?* | Quant'è in totale? |
-| *Pagatu daiteke?* | Si può pagare? (chiedere il conto) |
+| *Pagatu daiteke?* | Si può pagare? (per chiedere il conto) |
 
-> **Zenbat** è "quanto / quanti" — l'hai già visto con *Zenbat urte dituzu?* ("Quanti anni hai?"). **Balio** = "vale / costa".
+> **Zenbat** significa "quanto / quanti" — l'hai già visto in *Zenbat urte dituzu?* ("Quanti anni hai?"). **Balio** = "vale / costa".
 
 ## Numeri fino a 20 (ripasso)
 
-Hai già visto quelli dall'1 al 10 nell'unità sulla famiglia. Qui ci sono quelli dall'11 al 20:
+Hai già visto i numeri da 1 a 10 nell'unità sulla famiglia. Ecco quelli da 11 a 20:
 
 | Numero | Euskera |
 |---|---|
@@ -94,11 +131,11 @@ Hai già visto quelli dall'1 al 10 nell'unità sulla famiglia. Qui ci sono quell
 | 19 | *hemeretzi* |
 | 20 | *hogei* |
 
-> Dal 12 al 17, osserva come si forma con *hamar* ("dieci") + la cifra: *hamabi* = "dieci-due" = dodici. *Hamaika* (11) e *hemezortzi*/*hemeretzi* (18, 19) sono irregolari.
+> Dal 12 al 17, nota come si formano con *hamar* ("dieci") + la cifra: *hamabi* = "dieci-due" = dodici. *Hamaika* (11) e *hemezortzi*/*hemeretzi* (18, 19) sono irregolari.
 
 ## Le decine: il sistema vigesimale
 
-Ecco la sorpresa dell'euskera. Le decine si contano **in gruppi di 20**:
+Ecco la sorpresa del basco. Le decine si contano **a gruppi di 20**:
 
 | Numero | Euskera | Logica |
 |---|---|---|
@@ -112,7 +149,7 @@ Ecco la sorpresa dell'euskera. Le decine si contano **in gruppi di 20**:
 | 90 | *laurogeita hamar* | "quattro 20 e 10" |
 | 100 | *ehun* | base |
 
-> Per i numeri intermedi, segui la stessa logica: 25 = *hogeita bost* ("20 e 5"), 67 = *hirurogeita zazpi* ("tre 20 e 7"). All'inizio è difficile; con la pratica del bar e dei prezzi viene da sé.
+> Per i numeri intermedi, segui la stessa logica: 25 = *hogeita bost* ("20 e 5"), 67 = *hirurogeita zazpi* ("tre 20 e 7"). All'inizio è difficile; ma con la pratica al bar e con i prezzi, verrà naturale.
 
 ## Dire un prezzo
 
@@ -124,29 +161,29 @@ Ecco la sorpresa dell'euskera. Le decine si contano **in gruppi di 20**:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> Nota che **euro** non porta la `-a` quando è preceduto da un numero (proprio come in *bi anaia*, "due fratelli"). Gli importi esatti in centesimi si dicono come in italiano: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
+> Nota che **euro** non prende la `-a` quando è preceduto da un numero (proprio come in *bi anaia*, "due fratelli"). Gli importi esatti in centesimi si dicono come in italiano: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
 
-## Comprare più articoli
+## Comprare più cose
 
-Quando ordini più di uno, ricordati di usare **ditut** o **ditugu** invece di *dut*/*dugu*:
+Quando ordini più di una cosa, ricorda di usare **ditut** o **ditugu** invece di *dut*/*dugu*:
 
 - *Bi kafe hartuko ditut.* — Prenderò due caffè.
 - *Hiru ogitarteko hartuko ditugu.* — Prenderemo tre panini.
 
-## Aggettivi per parlare di prezzi
+## Aggettivi per parlare dei prezzi
 
 - **garesti** — caro (anche *garestia* con l'articolo)
 - **merke** — economico (*merkea* con l'articolo)
 - **doan** — gratis
 
 > *Hau oso garestia da!* — Questo è molto caro!
-> *Bilbon kafea merkea da.* — A Bilbo il caffè è economico.
+> *Bilbon kafea merkea da.* — A Bilbao il caffè è economico.
 
 ## Mini-dialogo
 
 > — *Kafe hutsa eta ogitarteko bat. Zenbat balio du denera?*
 >
-> Un caffè nero e un panino. Quant'è in totale?
+> Un caffè e un panino. Quant'è in totale?
 >
 > — *Lau euro eta berrogeita hamar.*
 >

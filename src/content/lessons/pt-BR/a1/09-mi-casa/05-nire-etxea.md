@@ -7,53 +7,89 @@ level: a1
 order: 5
 title: Nire etxea — Descrever a própria casa
 estimatedMinutes: 12
-covers: [house-description, home-rooms, furniture, house-chores, companions-rekin]
+covers:
+- house-description
+- home-rooms
+- furniture
+- house-chores
+- companions-rekin
 exercises:
-  - id: ex-09-05-mc1
-    type: multiple-choice
-    prompt: 'Para perguntar "Quantos cômodos tem?" você diz…'
-    options: ["Non dago etxea?", "Zenbat gela ditu?", "Norekin bizi zara?", "Zer egiten duzu?"]
-    answer: 1
-    explanation: '"Zenbat" = quanto(s), "gela" = cômodo, "ditu" = tem (vários objetos).'
-  - id: ex-09-05-fb1
-    type: fill-in-blank
-    prompt: 'Minha casa é luminosa = Nire etxea ___ da.'
-    answers: [argitsua]
-    explanation: '"Argitsua" = luminoso(a) (de "argi" = luz + sufixo -tsu de abundância).'
-  - id: ex-09-05-mc2
-    type: multiple-choice
-    prompt: '"Etxea hirugarren solairuan dago" significa...'
-    options: [A casa tem três cômodos, A casa está no terceiro andar, A casa tem três janelas, A casa custa três mil]
-    answer: 1
-    explanation: '"Hirugarren" = terceiro, "solairua" = andar, "dago" = está. "Está no terceiro andar".'
-  - id: ex-09-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: argitsua, es: luminoso(a) }
-      - { eu: handia, es: grande }
-      - { eu: txikia, es: pequeno(a) }
-      - { eu: lasaia, es: tranquilo(a) }
-      - { eu: berria, es: novo(a) }
-      - { eu: zaharra, es: velho(a) }
-  - id: ex-09-05-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nolakoa da zure etxea?', es: 'Como é a sua casa?' }
-      - { eu: argitsua, es: luminoso(a) }
-      - { eu: iluna, es: escuro(a) }
-      - { eu: handia, es: grande }
-      - { eu: txikia, es: pequeno(a) }
-      - { eu: lasaia, es: tranquilo(a) }
-      - { eu: zaratatsua, es: barulhento(a) }
-      - { eu: berria, es: novo(a) }
-      - { eu: zaharra, es: velho(a) }
-      - { eu: erosoa, es: confortável }
-      - { eu: 'Non dago zure etxea?', es: 'Onde fica a sua casa?' }
-      - { eu: erdigunean, es: no centro }
-      - { eu: auzo lasai batean, es: em um bairro tranquilo }
-      - { eu: hirugarren solairuan, es: no terceiro andar }
-      - { eu: 'Etxeak badu igogailua?', es: 'A casa tem elevador?' }
-      - { eu: 'Norekin bizi zara?', es: 'Com quem você mora?' }
+- id: ex-09-05-mc1
+  type: multiple-choice
+  prompt: Para perguntar "Quantos cômodos tem?" você diz…
+  options:
+  - Non dago etxea?
+  - Zenbat gela ditu?
+  - Norekin bizi zara?
+  - Zer egiten duzu?
+  answer: 1
+  explanation: '"Zenbat" = quanto(s), "gela" = cômodo, "ditu" = tem (vários objetos).'
+- id: ex-09-05-fb1
+  type: fill-in-blank
+  prompt: Minha casa é luminosa = Nire etxea ___ da.
+  answers:
+  - argitsua
+  explanation: '"Argitsua" = luminoso(a) (de "argi" = luz + sufixo -tsu de abundância).'
+- id: ex-09-05-mc2
+  type: multiple-choice
+  prompt: '"Etxea hirugarren solairuan dago" significa...'
+  options:
+  - A casa tem três cômodos
+  - A casa está no terceiro andar
+  - A casa tem três janelas
+  - A casa custa três mil
+  answer: 1
+  explanation: '"Hirugarren" = terceiro/a, "solairua" = andar, "dago" = está. "Está no terceiro andar".'
+- id: ex-09-05-mp
+  type: match-pairs
+  pairs:
+  - eu: argitsua
+    es: luminoso/a
+  - eu: handia
+    es: grande
+  - eu: txikia
+    es: pequeño/a
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berria
+    es: nuevo/a
+  - eu: zaharra
+    es: viejo/a
+- id: ex-09-05-fc
+  type: flashcards
+  cards:
+  - eu: Nolakoa da zure etxea?
+    es: Como é a sua casa?
+  - eu: argitsua
+    es: luminoso(a)
+  - eu: iluna
+    es: escuro(a)
+  - eu: handia
+    es: grande
+  - eu: txikia
+    es: pequeno(a)
+  - eu: lasaia
+    es: tranquilo(a)
+  - eu: zaratatsua
+    es: barulhento(a)
+  - eu: berria
+    es: novo(a)
+  - eu: zaharra
+    es: velho(a)
+  - eu: erosoa
+    es: confortável
+  - eu: Non dago zure etxea?
+    es: Onde fica a sua casa?
+  - eu: erdigunean
+    es: no centro
+  - eu: auzo lasai batean
+    es: em um bairro tranquilo
+  - eu: hirugarren solairuan
+    es: no terceiro andar
+  - eu: Etxeak badu igogailua?
+    es: A casa tem elevador?
+  - eu: Norekin bizi zara?
+    es: Com quem você mora?
 ---
 
 Esta lição integra tudo o que vimos no tema 9: os cômodos, os móveis, as tarefas e com quem você mora. O objetivo é que você consiga **descrever a sua casa** em frases simples, como se estivessem perguntando para você na aula ou em uma conversa informal.
@@ -89,7 +125,7 @@ Esta lição integra tudo o que vimos no tema 9: os cômodos, os móveis, as tar
 
 ## Um parágrafo modelo
 
-Aqui está um texto simples descrevendo uma casa. Leia-o em voz alta e preste atenção nos padrões.
+Aqui tem um texto simples descrevendo uma casa. Leia-o em voz alta e preste atenção nos padrões.
 
 > *Ni Iruñean bizi naiz, auzo lasai batean. Nire etxea ez da oso handia: hiru gela ditu — bi logela eta egongela bat — sukaldea eta komuna. Egongela argitsua da, eta balkoi bat dauka. Hirugarren solairuan dago, eta etxeak igogailua du.*
 >
@@ -113,9 +149,9 @@ Monte o seu próprio parágrafo respondendo nesta ordem:
 | *etxebizitza* | moradia |
 | *etxejabea* | proprietário |
 | *alokairua* | aluguel |
-| *errenta* | renda / aluguel mensal |
+| *errenta* | aluguel / aluguel mensal |
 | *auzoa* | bairro |
 | *erdigunea* | centro (da cidade) |
 | *aldiriak* | periferia / arredores |
 
-> **Dica:** quando for falar da sua casa na aula, não tente traduzir cada detalhe. Fique com frases curtas e bem feitas. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* é uma descrição melhor do que uma frase longa cheia de erros.
+> **Dica:** quando for falar da sua casa na aula, não tente traduzir cada detalhe. Use frases curtas e bem construídas. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* é uma descrição melhor do que uma frase longa cheia de erros.

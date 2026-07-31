@@ -7,53 +7,84 @@ level: a1
 order: 2
 title: Onde está? — o caso NON
 estimatedMinutes: 12
-covers: [locative-non, egon-nor, places-town]
+covers:
+- locative-non
+- egon-nor
+- places-town
 exercises:
-  - id: ex-nd-mc1
-    type: multiple-choice
-    prompt: 'Como se diz "O bar fica na rua"?'
-    options: ["Taberna kalea dago", "Taberna kalean dago", "Taberna kaleko dago", "Taberna kalera dago"]
-    answer: 1
-    explanation: 'Para "em + lugar" acrescentamos -an à palavra: kale + an = kalean ("na rua").'
-  - id: ex-nd-fb1
-    type: fill-in-blank
-    prompt: 'Donostia + locativo (em Donostia) = Donostia___.'
-    answers: [n]
-    explanation: 'As palavras terminadas em -a orgânica só acrescentam -n: Donostian.'
-  - id: ex-nd-fb2
-    type: fill-in-blank
-    prompt: 'Madril (Madri) + locativo = Madril___.'
-    answers: [en]
-    explanation: 'Depois de consoante final, o locativo intercala -e-: Madril → Madrilen.'
-  - id: ex-nd-fb3
-    type: fill-in-blank
-    prompt: 'Pergunta: "Onde está a farmácia?" = ___ dago botika?'
-    answers: [Non, non]
-  - id: ex-nd-mc2
-    type: multiple-choice
-    prompt: '"Banketxean nago" significa…'
-    options: ["Sou do banco", "Vou ao banco", "Estou no banco", "Venho do banco"]
-    answer: 2
-    explanation: '"-an" indica localização; "nago" é "eu estou" (egon).'
-  - id: ex-nd-fc
-    type: flashcards
-    cards:
-      - { eu: 'Non?', es: Onde? }
-      - { eu: 'Non dago?', es: Onde está? }
-      - { eu: 'Non daude?', es: Onde estão? }
-      - { eu: 'Non zaude?', es: Onde você está? }
-      - { eu: kalean, es: na rua }
-      - { eu: etxean, es: em casa }
-      - { eu: euskaltegian, es: no euskaltegi }
-      - { eu: tabernan, es: no bar }
-      - { eu: parkean, es: no parque }
-      - { eu: Bilbon, es: em Bilbao }
-      - { eu: Donostian, es: em Donostia }
-      - { eu: Iruñean, es: em Pamplona }
-      - { eu: Madrilen, es: em Madri }
-      - { eu: nago, es: estou }
-      - { eu: dago, es: está }
-      - { eu: daude, es: estão }
+- id: ex-nd-mc1
+  type: multiple-choice
+  prompt: Como se diz "O bar está na rua"?
+  options:
+  - Taberna kalea dago
+  - Taberna kalean dago
+  - Taberna kaleko dago
+  - Taberna kalera dago
+  answer: 1
+  explanation: 'Para "em + lugar" acrescentamos -an à palavra: kale + an = kalean ("na rua").'
+- id: ex-nd-fb1
+  type: fill-in-blank
+  prompt: Donostia + locativo (em Donostia) = Donostia___.
+  answers:
+  - n
+  explanation: 'As palavras terminadas em -a orgânica só acrescentam -n: Donostian.'
+- id: ex-nd-fb2
+  type: fill-in-blank
+  prompt: Madril (Madri) + locativo = Madril___.
+  answers:
+  - en
+  explanation: 'Depois de consoante final, o locativo intercala -e-: Madril → Madrilen.'
+- id: ex-nd-fb3
+  type: fill-in-blank
+  prompt: 'Pergunta: "Onde está a farmácia?" = ___ dago botika?'
+  answers:
+  - Non
+  - non
+- id: ex-nd-mc2
+  type: multiple-choice
+  prompt: '"Banketxean nago" significa…'
+  options:
+  - Sou do banco
+  - Vou ao banco
+  - Estou no banco
+  - Venho do banco
+  answer: 2
+  explanation: '"-an" indica localização; "nago" é "eu estou" (egon).'
+- id: ex-nd-fc
+  type: flashcards
+  cards:
+  - eu: Non?
+    es: Onde?
+  - eu: Non dago?
+    es: Onde está?
+  - eu: Non daude?
+    es: Onde estão?
+  - eu: Non zaude?
+    es: Onde você está?
+  - eu: kalean
+    es: na rua
+  - eu: etxean
+    es: em casa
+  - eu: euskaltegian
+    es: no euskaltegi
+  - eu: tabernan
+    es: no bar
+  - eu: parkean
+    es: no parque
+  - eu: Bilbon
+    es: em Bilbao
+  - eu: Donostian
+    es: em Donostia
+  - eu: Iruñean
+    es: em Pamplona
+  - eu: Madrilen
+    es: em Madri
+  - eu: nago
+    es: estou
+  - eu: dago
+    es: está
+  - eu: daude
+    es: estão
 ---
 
 Você já conhece o sufixo **`-(e)an`** da lição "Onde você mora" (*Bilbon bizi naiz*). Aqui o aplicamos ao bairro: onde está cada coisa.

@@ -5,150 +5,186 @@ code: 04-noiz-marcadores
 unit: 08-pasado-reciente
 level: a1
 order: 4
-title: Quan? Marcadors temporaus (gaur, atzo, gaur goizean)
+title: Quan? Marcaires temporaus (gaur, atzo, gaur goizean)
 estimatedMinutes: 10
-covers: [recent-past-time-markers, time-expressions, parts-of-day]
+covers:
+- recent-past-time-markers
+- time-expressions
+- parts-of-day
 exercises:
-  - id: ex-04-nm-mc1
-    type: multiple-choice
-    prompt: '"Atzo arratsaldean" vò díder…'
-    options: ["deman ara tarde", "ièr ara tarde", "aguesta tarde", "ara madeish"]
-    answer: 1
-    explanation: '"Atzo" = ièr; "arratsaldean" = ara tarde. Combinats: "ièr ara tarde".'
-  - id: ex-04-nm-mc2
-    type: multiple-choice
-    prompt: 'Vòs díder "Aguest maitin è dejunat en casa". Com ac dides?'
-    options:
-      - "Bihar goizean etxean gosaldu dut"
-      - "Gaur goizean etxean gosaldu dut"
-      - "Atzo goizean etxean gosaldu dut"
-      - "Gaur goizean etxean gosaltzen dut"
-    answer: 1
-    explanation: '"Gaur goizean" = "uei peth maitin / aguest maitin". E coma ei passat recent, "gosaldu dut" sense -tzen.'
-  - id: ex-04-nm-mc3
-    type: multiple-choice
-    prompt: 'Distinguís: "askotan" vs "behin". Qué vòlen díder?'
-    options:
-      - "askotan = un còp; behin = soent"
-      - "askotan = jamès; behin = tostemp"
-      - "askotan = soent, fòrça còps; behin = un còp"
-      - "Es dues signifiquen çò madeish"
-    answer: 2
-    explanation: '"Askotan" = soent, fòrça còps. "Behin" = un còp (acostume a acompanhar accions puntuaus).'
-  - id: ex-04-nm-fb1
-    type: fill-in-blank
-    prompt: 'Despús-deman = ___ (aumplís era paraula).'
-    answers: [etzi, Etzi]
-    explanation: '"Etzi" = despús-deman. Era cadena temporau: atzo (ièr) → gaur (uei) → bihar (deman) → etzi (despús-deman).'
-  - id: ex-04-nm-mp
-    type: match-pairs
-    pairs:
-      - { eu: gaur, es: uei }
-      - { eu: atzo, es: ièr }
-      - { eu: bihar, es: deman }
-      - { eu: etzi, es: despús-deman }
-      - { eu: gaur goizean, es: aguest maitin }
-      - { eu: gaur arratsaldean, es: aguesta tarde }
-      - { eu: atzo gauean, es: anet }
-      - { eu: orain, es: ara }
-      - { eu: lehen, es: abans }
-  - id: ex-04-nm-fc
-    type: flashcards
-    cards:
-      - { eu: gaur, es: uei }
-      - { eu: atzo, es: ièr }
-      - { eu: bihar, es: deman }
-      - { eu: etzi, es: despús-deman }
-      - { eu: orain, es: ara }
-      - { eu: lehen, es: abans }
-      - { eu: gero, es: 'dempús, après' }
-      - { eu: gaur goizean, es: aguest maitin / uei peth maitin }
-      - { eu: gaur eguerdian, es: uei a meddia }
-      - { eu: gaur arratsaldean, es: aguesta tarde }
-      - { eu: gaur gauean, es: aguesta net }
-      - { eu: atzo goizean, es: ièr peth maitin }
-      - { eu: atzo arratsaldean, es: ièr ara tarde }
-      - { eu: atzo gauean, es: anet }
-      - { eu: aste honetan, es: aguesta setmana }
-      - { eu: behin, es: un còp }
-      - { eu: bi aldiz, es: dus còps }
-      - { eu: oraintxe, es: ara madeish }
+- id: ex-04-nm-mc1
+  type: multiple-choice
+  prompt: '"Atzo arratsaldean" signifique…'
+  options:
+  - deman de vrèspe
+  - ièr de vrèspe
+  - aguest vrèspe
+  - ara madeish
+  answer: 1
+  explanation: '"Atzo" = ièr; "arratsaldean" = de vrèspe. Combinadi: "ièr de vrèspe".'
+- id: ex-04-nm-mc2
+  type: multiple-choice
+  prompt: Vòs díder "Aguest maitin èi dejunat en casa". Com ac ditzes?
+  options:
+  - Bihar goizean etxean gosaldu dut
+  - Gaur goizean etxean gosaldu dut
+  - Atzo goizean etxean gosaldu dut
+  - Gaur goizean etxean gosaltzen dut
+  answer: 1
+  explanation: '"Gaur goizean" = "aué de maitin / aguest maitin". E coma ei passat recent, "gosaldu dut" sense -tzen.'
+- id: ex-04-nm-mc3
+  type: multiple-choice
+  prompt: 'Destrie: "askotan" vs "behin". Qué vòlen díder?'
+  options:
+  - askotan = un còp; behin = soent
+  - askotan = jamès; behin = tostemp
+  - askotan = soent; behin = un còp
+  - Es dues signifiquen eth madeish
+  answer: 2
+  explanation: '"Askotan" = soent, fòrça còps. "Behin" = un còp (acostume a acompanhar accions puntuaus).'
+- id: ex-04-nm-fb1
+  type: fill-in-blank
+  prompt: Deman passat = ___ (remplís era paraula).
+  answers:
+  - etzi
+  - Etzi
+  explanation: '"Etzi" = deman passat. Era cadena temporau: atzo (ièr) → gaur (aué) → bihar (deman) → etzi (deman passat).'
+- id: ex-04-nm-mp
+  type: match-pairs
+  pairs:
+  - eu: gaur
+    es: hoy
+  - eu: atzo
+    es: ayer
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasado mañana
+  - eu: gaur goizean
+    es: esta mañana
+  - eu: gaur arratsaldean
+    es: esta tarde
+  - eu: atzo gauean
+    es: anoche
+  - eu: orain
+    es: ahora
+  - eu: lehen
+    es: antes
+- id: ex-04-nm-fc
+  type: flashcards
+  cards:
+  - eu: gaur
+    es: aué
+  - eu: atzo
+    es: ièr
+  - eu: bihar
+    es: deman
+  - eu: etzi
+    es: deman passat
+  - eu: orain
+    es: ara
+  - eu: lehen
+    es: abans
+  - eu: gero
+    es: dempús, après
+  - eu: gaur goizean
+    es: aguest maitin / aué de maitin
+  - eu: gaur eguerdian
+    es: aué a meddia
+  - eu: gaur arratsaldean
+    es: aguest vrèspe
+  - eu: gaur gauean
+    es: aguesta net
+  - eu: atzo goizean
+    es: ièr de maitin
+  - eu: atzo arratsaldean
+    es: ièr de vrèspe
+  - eu: atzo gauean
+    es: ièr de net
+  - eu: aste honetan
+    es: aguesta setmana
+  - eu: behin
+    es: un còp
+  - eu: bi aldiz
+    es: dus còps
+  - eu: oraintxe
+    es: ara madeish
 ---
 
-Entà condar plan çò qu'a passat, te cau díder **quan**. Aguesta leçon te balhe es marcadors que se combinen damb eth passat recent entà ancorar es accions en temps.
+Entà explicar ben çò que s'a passat, as de besonh de díder **quan**. Aguesta leccion te balhe es marcaires que se combinen damb eth passat recent entà ancorar es accions en temps.
 
-## Es marcadors basics
+## Es marcaires basics
 
-| Euskera | Occitan |
+| Basc | Aranés |
 |---|---|
-| *gaur* | uei |
+| *gaur* | aué |
 | *atzo* | ièr |
 | *bihar* | deman |
-| *etzi* | despús-deman |
+| *etzi* | deman passat |
 | *orain* | ara |
 | *oraintxe* | ara madeish |
 | *lehen* | abans |
 | *gero* | dempús, après |
 
-> Se te n'as encuedat, *atzo* (ièr) e *bihar* (deman) son dues paraules tant cuertes que s'aprenen d'un solet còp. *Etzi* (despús-deman) ei ua paraula qu'er occitan non a en ua soleta pèça — un petit present der euskera.
+> S'as estat atent, *atzo* (ièr) e *bihar* (deman) son dues paraules tan cuertes que s'aprenen d'un còp. *Etzi* (deman passat) ei ua paraula qu'eth castelhan non a en ua soleta pèça — un petit present deth basc.
 
-## Combinant damb moments deth dia
+## En tot combinar damb moments deth dia
 
-Es marcadors se combinen damb *goizean*, *arratsaldean*, *gauean* e companhia dera unitat anteriora. Era formula ei: **marcador + part deth dia**.
+Es marcaires se combinen damb *goizean*, *arratsaldean*, *gauean* e companhia dera unitat anteriora. Era formula ei: **marcaire + part deth dia**.
 
-| Euskera | Occitan |
+| Basc | Aranés |
 |---|---|
-| *gaur goizean* | aguest maitin / uei peth maitin |
-| *gaur eguerdian* | uei a meddia |
-| *gaur arratsaldean* | aguesta tarde |
+| *gaur goizean* | aguest maitin / aué de maitin |
+| *gaur eguerdian* | aué a meddia |
+| *gaur arratsaldean* | aguest vrèspe |
 | *gaur gauean* | aguesta net |
-| *atzo goizean* | ièr peth maitin |
-| *atzo arratsaldean* | ièr ara tarde |
-| *atzo gauean* | anet |
-| *bihar goizean* | deman peth maitin |
+| *atzo goizean* | ièr de maitin |
+| *atzo arratsaldean* | ièr de vrèspe |
+| *atzo gauean* | ièr de net |
+| *bihar goizean* | deman de maitin |
 
-> **Atencion:** *gaur gauean* ei "aguesta net" (era net qu'as per dauant o era qu'ès en tot víuer); *atzo gauean* ei "anet". Er euskera distinguís plan clarament.
+> **Atencion:** *gaur gauean* ei "aguesta net" (era net que t'espere o era que viues); *atzo gauean* ei "ièr de net". Eth basc hè ua distincion fòrça clara.
 
 ## Frequéncia e còps
 
-| Euskera | Occitan |
+| Basc | Aranés |
 |---|---|
 | *behin* | un còp |
 | *bi aldiz* | dus còps |
 | *hiru aldiz* | tres còps |
 | *askotan* | soent, fòrça còps |
-| *batzuetan* | a viatges |
+| *batzuetan* | de còps |
 | *inoiz ez* | jamès |
-| *gaur goizetik* | dempús d'aguest maitin |
+| *gaur goizetik* | des d'aguest maitin |
 | *aste honetan* | aguesta setmana |
 | *hilabete honetan* | aguest mes |
 
-## Frases damb passat recent e marcadors
+## Frases damb passat recent e marcaires
 
-> *Gaur goizean lanera joan naiz autoz.* — Aguest maitin è anat ath trabalh en auto.
+> *Gaur goizean lanera joan naiz autoz.* — Aguest maitin èi anat a trabalhar en veitura.
 >
-> *Gaur arratsaldean Mikelekin egon naiz.* — Aguesta tarde è estat damb Mikel.
+> *Gaur arratsaldean Mikelekin egon naiz.* — Aguest vrèspe èi estat damb Mikel.
 >
-> *Gaur oso berandu esnatu naiz.* — Uei me sò desvelhat fòrça tard.
+> *Gaur oso berandu esnatu naiz.* — Aué m'è despertat fòrça tard.
 >
-> *Gaur eguerdian etxean bazkaldu dut.* — Uei a meddia è dinat en casa.
+> *Gaur eguerdian etxean bazkaldu dut.* — Aué a meddia èi dinat en casa.
 >
-> *Aste honetan bi aldiz egon naiz zinean.* — Aguesta setmana è estat dus còps ath cinèma.
+> *Aste honetan bi aldiz egon naiz zinean.* — Aguesta setmana èi estat dus còps en cinèma.
 
 ## Er orde dera frasa
 
-En euskera er orde tipic d'ua frasa damb marcador temporau ei:
+En basc, er orde tipic d'ua frasa damb un marcaire temporau ei:
 
 > **QUAN + ON + QUÉ + VÈRB**
 
-> **Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**. — Aguest maitin è estudiat euskera en euskaltegi.
+> **Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**. — Aguest maitin èi estudiat basc en euskaltegi.
 
-Non ei era soleta possibilitat — er euskera permet botjar es elements entà emfasizar — mès se seguisses aguest orde non te trompes.
+Non ei era unica possibilitat —eth basc permet de mòir es elements entà emfatizar— mès se seguisses aguest orde, non t'enganaràs.
 
-## Mini-convèrsa
+## Mini-conversacion
 
 > *— Eta gaur zer egin duzu, Maialen?*
 >
 > *— **Gaur goizean** lanera joan naiz oinez. **Eguerdian** lagunekin bazkaldu dut tabernan. **Arratsaldean** etxera bueltatu naiz eta liburua irakurri dut. **Gauean** ez dut afaldu, asko jan baitut bazkarian.*
 
-> **Nòta:** *gaur* abaste tot eth dia actuau. Se vòs precisar, higís eth moment (*gaur goizean*, *gaur arratsaldean*). En convèrses correntes, *Zer egin duzu gaur?* se compren coma "qué as hèt uei en generau?".
+> **Nòta:** *gaur* includís tot eth dia actuau. Se vòs precisar, ahig eth moment (*gaur goizean*, *gaur arratsaldean*). Enes conversacions correntes, *Zer egin duzu gaur?* s'enten coma "qué as hèt aué en generau?".

@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — 讲述过去
+order: 2
+description: 完成过去时 (*iragan burutua*) 和未完成过去时 (*iragan ez burutua*)。如何叙述昨天、几年前发生的事情，或你过去习惯做的事。
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

@@ -7,64 +7,101 @@ level: a1
 order: 4
 title: Zenbat balio du? Preços e quantidades
 estimatedMinutes: 11
-covers: [prices, numbers-1-100]
+covers:
+- prices
+- numbers-1-100
 exercises:
-  - id: ex-zbd-mc1
-    type: multiple-choice
-    prompt: '"Zenbat balio du?" significa…'
-    options: ["Quanto custa?", "Quantos anos você tem?", "Quanto pesa?", "Quantos há?"]
-    answer: 0
-    explanation: '*zenbat* = quanto/quantos; *balio* = vale/custa; *du* = "tem/custa ele/ela".'
-  - id: ex-zbd-mc2
-    type: multiple-choice
-    prompt: 'Como se diz "vinte" em euskera?'
-    options: [hamar, hamabost, hogei, ehun]
-    answer: 2
-    explanation: '*hogei* = 20. É a base do sistema vigesimal do euskera.'
-  - id: ex-zbd-fb1
-    type: fill-in-blank
-    prompt: 'Custa 3 euros = ___ euro balio du.'
-    answers: [hiru]
-    explanation: '*hiru* = 3.'
-  - id: ex-zbd-fb2
-    type: fill-in-blank
-    prompt: 'Vou tomar dois cafés = Bi kafe ___ ___.'
-    answers: [hartuko ditut]
-    explanation: 'Para "várias coisas" usa-se *ditut* em vez de *dut*.'
-  - id: ex-zbd-fc
-    type: flashcards
-    cards:
-      - { eu: hamar, es: "10" }
-      - { eu: hamabi, es: "12" }
-      - { eu: hamabost, es: "15" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita bost, es: "25" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: laurogei, es: "80" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: o euro }
-      - { eu: zentimo, es: centavo }
-      - { eu: 'Zenbat balio du?', es: 'Quanto custa?' }
-      - { eu: 'Zenbat dira denera?', es: 'Quanto é no total?' }
-      - { eu: garesti, es: caro }
-      - { eu: merke, es: barato }
-  - id: ex-zbd-mp
-    type: match-pairs
-    pairs:
-      - { eu: hamar, es: "10" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: euro }
+- id: ex-zbd-mc1
+  type: multiple-choice
+  prompt: '"Zenbat balio du?" significa…'
+  options:
+  - Quanto custa?
+  - Quantos anos você tem?
+  - Quanto pesa?
+  - Quantos há?
+  answer: 0
+  explanation: '*zenbat* = quanto/quantos; *balio* = vale/custa; *du* = "tem/custa ele/ela".'
+- id: ex-zbd-mc2
+  type: multiple-choice
+  prompt: Como se diz "vinte" em euskera?
+  options:
+  - hamar
+  - hamabost
+  - hogei
+  - ehun
+  answer: 2
+  explanation: '*hogei* = 20. É a base do sistema vigesimal do euskera.'
+- id: ex-zbd-fb1
+  type: fill-in-blank
+  prompt: Custa 3 euros = ___ euro balio du.
+  answers:
+  - hiru
+  explanation: '*hiru* = 3.'
+- id: ex-zbd-fb2
+  type: fill-in-blank
+  prompt: Vou tomar dois cafés = Bi kafe ___ ___.
+  answers:
+  - hartuko ditut
+  explanation: Para "várias coisas" usa-se *ditut* em vez de *dut*.
+- id: ex-zbd-fc
+  type: flashcards
+  cards:
+  - eu: hamar
+    es: '10'
+  - eu: hamabi
+    es: '12'
+  - eu: hamabost
+    es: '15'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita bost
+    es: '25'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: laurogei
+    es: '80'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: o euro
+  - eu: zentimo
+    es: centavo
+  - eu: Zenbat balio du?
+    es: Quanto custa?
+  - eu: Zenbat dira denera?
+    es: Quanto é no total?
+  - eu: garesti
+    es: caro
+  - eu: merke
+    es: barato
+- id: ex-zbd-mp
+  type: match-pairs
+  pairs:
+  - eu: hamar
+    es: '10'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: euro
 ---
 
-Para perguntar preços em euskera e entender o que te dizem na hora de cobrar, você precisa de duas coisas: a fórmula **Zenbat balio du?** e os números até 100. O sistema de números do euskera é **vigesimal** (baseia-se em grupos de 20), por isso exige um pouco de prática.
+Para perguntar preços em euskera e entender o que lhe dizem na hora de cobrar, você precisa de duas coisas: a fórmula **Zenbat balio du?** e os números até 100. O sistema de números do euskera é **vigesimal** (baseia-se em grupos de 20), por isso exige um pouco de costume.
 
 ## A pergunta-chave
 
@@ -73,7 +110,7 @@ Para perguntar preços em euskera e entender o que te dizem na hora de cobrar, v
 | *Zenbat balio du?* | Quanto custa? |
 | *Zenbat da?* | Quanto é? |
 | *Zenbat dira denera?* | Quanto é no total? |
-| *Pagatu daiteke?* | Posso pagar? (pedir a conta) |
+| *Pagatu daiteke?* | Pode pagar? (pedir a conta) |
 
 > **Zenbat** é "quanto / quantos" — você já viu isso com *Zenbat urte dituzu?* ("Quantos anos você tem?"). **Balio** = "vale / custa".
 
@@ -112,7 +149,7 @@ Aqui está a surpresa do euskera. As dezenas são contadas **em grupos de 20**:
 | 90 | *laurogeita hamar* | "quatro 20 e 10" |
 | 100 | *ehun* | base |
 
-> Para os números intermediários, você segue a mesma lógica: 25 = *hogeita bost* ("20 e 5"), 67 = *hirurogeita zazpi* ("três 20 e 7"). É difícil no começo; com a prática do bar e dos preços sai sozinho.
+> Para os números intermediários, você segue a mesma lógica: 25 = *hogeita bost* ("20 e 5"), 67 = *hirurogeita zazpi* ("três 20 e 7"). Custa um pouco no começo, mas com a prática no bar e com os preços, sai naturalmente.
 
 ## Dizer um preço
 
@@ -128,10 +165,10 @@ Aqui está a surpresa do euskera. As dezenas são contadas **em grupos de 20**:
 
 ## Comprar vários itens
 
-Quando você pede mais de um, lembre-se de usar **ditut** ou **ditugu** em vez de *dut*/*dugu*:
+Quando você pede mais de um item, lembre-se de usar **ditut** ou **ditugu** em vez de *dut*/*dugu*:
 
 - *Bi kafe hartuko ditut.* — Vou tomar dois cafés.
-- *Hiru ogitarteko hartuko ditugu.* — Vamos tomar três sanduíches.
+- *Hiru ogitarteko hartuko ditugu.* — Vamos pegar três sanduíches.
 
 ## Adjetivos para falar de preços
 
@@ -146,7 +183,7 @@ Quando você pede mais de um, lembre-se de usar **ditut** ou **ditugu** em vez d
 
 > — *Kafe hutsa eta ogitarteko bat. Zenbat balio du denera?*
 >
-> Um café puro e um sanduíche. Quanto é no total?
+> Um café expresso e um sanduíche. Quanto é no total?
 >
 > — *Lau euro eta berrogeita hamar.*
 >
@@ -154,7 +191,7 @@ Quando você pede mais de um, lembre-se de usar **ditut** ou **ditugu** em vez d
 >
 > — *Tori, bost euro.*
 >
-> Toma, cinco euros.
+> Aqui está, cinco euros.
 >
 > — *Eskerrik asko, eta hementxe duzu bueltakoa.*
 >

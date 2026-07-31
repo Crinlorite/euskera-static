@@ -7,48 +7,76 @@ level: a1
 order: 4
 title: Que fait-il/elle ? — Parler de la routine des autres
 estimatedMinutes: 12
-covers: [daily-routine-third-person, professions-extended, locative-non]
+covers:
+- daily-routine-third-person
+- professions-extended
+- locative-non
 exercises:
-  - id: ex-10-04-mc1
-    type: multiple-choice
-    prompt: 'Comment dis-tu « Il/elle travaille à l''hôpital » ?'
-    options: [Ospitalean lan egiten du, Ospitalean lan egiten dut, Ospitala lan egiten du, Ospitalean lan egin du]
-    answer: 0
-    explanation: '« Ospitalean » = à l''hôpital (locatif -ean), « lan egiten du » = il/elle travaille (3e personne).'
-  - id: ex-10-04-fb1
-    type: fill-in-blank
-    prompt: 'Il/elle vit à Pamplona = Iruñean ___ da.'
-    answers: [bizi]
-    explanation: '« Bizi da » = il/elle vit (littéralement : « est en train de vivre »). Pour la 1re personne, ce serait « bizi naiz ».'
-  - id: ex-10-04-mc2
-    type: multiple-choice
-    prompt: '« Bera euskaltegian lan egiten du » — à quelle profession cela correspond-il le mieux ?'
-    options: [sukaldaria, irakaslea, mekanikaria, zerbitzaria]
-    answer: 1
-    explanation: 'Si la personne travaille dans un euskaltegi, le plus probable est qu''elle soit professeur(e) (irakaslea).'
-  - id: ex-10-04-fb2
-    type: fill-in-blank
-    prompt: 'Il/elle a 40 ans = Berrogei urte ___.'
-    answers: [ditu]
-    explanation: '« Ditu » = il/elle a (3e personne, objet pluriel — les années se comptent au pluriel).'
-  - id: ex-10-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer egiten du?', es: 'Que fait-il/elle ?' }
-      - { eu: 'Non bizi da?', es: 'Où vit-il/elle ?' }
-      - { eu: 'Non lan egiten du?', es: 'Où travaille-t-il/elle ?' }
-      - { eu: 'Bera medikua da', es: 'Il/elle est médecin' }
-      - { eu: 'Ospitalean lan egiten du', es: 'Il/elle travaille à l''hôpital' }
-      - { eu: 'Eskolan lan egiten du', es: 'Il/elle travaille à l''école' }
-      - { eu: 'Tabernan lan egiten du', es: 'Il/elle travaille au bar' }
-      - { eu: 'Bulegoan lan egiten du', es: 'Il/elle travaille au bureau' }
-      - { eu: 'Iruñean bizi da', es: 'Il/elle vit à Pamplona' }
-      - { eu: 'Hogeita hamar urte ditu', es: 'Il/elle a 30 ans' }
-      - { eu: 'Ezkonduta dago', es: 'Il/elle est marié(e)' }
-      - { eu: 'Ezkongabea da', es: 'Il/elle est célibataire' }
-      - { eu: 'Bi seme-alaba ditu', es: 'Il/elle a deux enfants' }
-      - { eu: 'Bakarrik bizi da', es: 'Il/elle vit seul(e)' }
-      - { eu: 'Lagunekin bizi da', es: 'Il/elle vit avec ses amis' }
+- id: ex-10-04-mc1
+  type: multiple-choice
+  prompt: Comment dis-tu « Il/elle travaille à l'hôpital » ?
+  options:
+  - Ospitalean lan egiten du
+  - Ospitalean lan egiten dut
+  - Ospitala lan egiten du
+  - Ospitalean lan egin du
+  answer: 0
+  explanation: « Ospitalean » = à l'hôpital (locatif -ean), « lan egiten du » = il/elle travaille (3e personne).
+- id: ex-10-04-fb1
+  type: fill-in-blank
+  prompt: Il/elle vit à Pampelune = Iruñean ___ da.
+  answers:
+  - bizi
+  explanation: '« Bizi da » = il/elle vit (littéralement : « est en train de vivre »). Pour la 1re personne, ce serait « bizi naiz ».'
+- id: ex-10-04-mc2
+  type: multiple-choice
+  prompt: « Bera euskaltegian lan egiten du » — à quelle profession cela correspond-il le mieux ?
+  options:
+  - sukaldaria
+  - irakaslea
+  - mekanikaria
+  - zerbitzaria
+  answer: 1
+  explanation: Si une personne travaille dans un euskaltegi, le plus probable est qu'elle soit professeur(e) (irakaslea).
+- id: ex-10-04-fb2
+  type: fill-in-blank
+  prompt: Il/elle a 40 ans = Berrogei urte ___.
+  answers:
+  - ditu
+  explanation: « Ditu » = il/elle a (3e personne, objet pluriel — les années se comptent au pluriel).
+- id: ex-10-04-fc
+  type: flashcards
+  cards:
+  - eu: Zer egiten du?
+    es: Que fait-il/elle ?
+  - eu: Non bizi da?
+    es: Où vit-il/elle ?
+  - eu: Non lan egiten du?
+    es: Où travaille-t-il/elle ?
+  - eu: Bera medikua da
+    es: Il/elle est médecin
+  - eu: Ospitalean lan egiten du
+    es: Il/elle travaille à l'hôpital
+  - eu: Eskolan lan egiten du
+    es: Il/elle travaille à l'école
+  - eu: Tabernan lan egiten du
+    es: Il/elle travaille au bar
+  - eu: Bulegoan lan egiten du
+    es: Il/elle travaille au bureau
+  - eu: Iruñean bizi da
+    es: Il/elle vit à Pampelune
+  - eu: Hogeita hamar urte ditu
+    es: Il/elle a 30 ans
+  - eu: Ezkonduta dago
+    es: Il/elle est marié(e)
+  - eu: Ezkongabea da
+    es: Il/elle est célibataire
+  - eu: Bi seme-alaba ditu
+    es: Il/elle a deux enfants
+  - eu: Bakarrik bizi da
+    es: Il/elle vit seul(e)
+  - eu: Lagunekin bizi da
+    es: Il/elle vit avec ses amis
 ---
 
 Une fois que tu sais présenter quelqu'un (*Hau X da*), l'étape naturelle suivante est de **raconter ce que fait cette personne** : où elle vit, où elle travaille, quel âge elle a, comment se déroule son quotidien. Toute la conjugaison se fait à la **troisième personne**, c'est donc cela que nous travaillons ici.
@@ -60,7 +88,7 @@ Une fois que tu sais présenter quelqu'un (*Hau X da*), l'étape naturelle suiva
 | *Non bizi da?* | Où vit-il/elle ? |
 | *Norekin bizi da?* | Avec qui vit-il/elle ? |
 | *Zenbat urte ditu?* | Quel âge a-t-il/elle ? |
-| *Zer da bera?* / *Zer egiten du?* | Qu'est-il/elle ? / Que fait-il/elle ? |
+| *Zer da bera?* / *Zer egiten du?* | Qu'est-ce qu'il/elle est ? / Que fait-il/elle ? |
 | *Non egiten du lan?* | Où travaille-t-il/elle ? |
 | *Ezkonduta dago?* | Est-il/elle marié(e) ? |
 
@@ -70,7 +98,7 @@ Combine ce que tu as appris. La structure est : **sujet + compléments + verbe**
 
 | Thème | Phrase type |
 |---|---|
-| Résidence | *Bera **Iruñean bizi da**.* — Il/elle vit à Pamplona. |
+| Résidence | *Bera **Iruñean bizi da**.* — Il/elle vit à Pampelune. |
 | Compagnie | *Bera **bikotekidearekin bizi da**.* — Il/elle vit avec son/sa partenaire. |
 | Âge | *Bera**k hogeita hamar urte ditu**.* — Il/elle a 30 ans. |
 | Profession | *Bera **medikua da**.* — Il/elle est médecin. |
@@ -78,7 +106,7 @@ Combine ce que tu as appris. La structure est : **sujet + compléments + verbe**
 
 ## Le locatif `-(e)an` pour le lieu de travail
 
-Le suffixe **`-(e)an`** (« à/dans ») t'est déjà familier depuis l'unité sur le quartier et sur la résidence. Ici, tu l'utilises pour dire où travaille quelqu'un.
+Le suffixe **`-(e)an`** (« à/dans ») t'est déjà familier depuis l'unité sur le quartier et la résidence. Ici, tu l'utilises pour dire où travaille quelqu'un.
 
 | Lieu | Phrase |
 |---|---|

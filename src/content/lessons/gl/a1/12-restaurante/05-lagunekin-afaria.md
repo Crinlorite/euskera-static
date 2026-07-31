@@ -7,65 +7,100 @@ level: a1
 order: 5
 title: Cea con amigos (lección integradora)
 estimatedMinutes: 12
-covers: [restaurant-vocab, ordering-food, bill-payment, food-bar, courtesy]
+covers:
+- restaurant-vocab
+- ordering-food
+- bill-payment
+- food-bar
+- courtesy
 exercises:
-  - id: ex-laf-mc1
-    type: multiple-choice
-    prompt: 'Como lle propós a un amigo "queres vir cear?"'
-    options: ['Etorri nahi duzu afaltzera?', 'Afari bat duzu?', 'Afaria zara?', 'Afaltzen ari naiz']
-    answer: 0
-    explanation: '*Etorri nahi duzu...?* — "queres vir...?". *Afaltzera* = "a cear" (caso NORA co verbo).'
-  - id: ex-laf-mc2
-    type: multiple-choice
-    prompt: '"De acordo, a que hora quedamos?" dise…'
-    options: ['Ados, zer ordutan geratuko gara?', 'Ados, zer ordutan da?', 'Ezin dut etorri', 'Eta zu, nor zara?']
-    answer: 0
-    explanation: '*Ados* — de acordo. *Geratuko gara* — "quedaremos" (futuro de *geratu*).'
-  - id: ex-laf-fb1
-    type: fill-in-blank
-    prompt: '"Non podo, mañá teño traballo" = Ezin dut, bihar ___ dut.'
-    answers: [lana, Lana]
-    explanation: '*Lana dut / lan egin behar dut* — "teño traballo / teño que traballar".'
-  - id: ex-laf-fb2
-    type: fill-in-blank
-    prompt: '"Quedamos ás nove" = ___ geratuko gara.'
-    answers: [Bederatzietan, bederatzietan]
-    explanation: '*Bederatzietan* — "ás nove" (caso inesivo plural nas horas).'
-  - id: ex-laf-fc
-    type: flashcards
-    cards:
-      - { eu: 'Etorri nahi duzu afaltzera?', es: Queres vir cear? }
-      - { eu: 'Bai, oso ongi', es: 'Si, perfecto' }
-      - { eu: 'Ezin dut', es: 'Non podo' }
-      - { eu: 'Geratuko gara', es: 'Quedaremos' }
-      - { eu: 'Bederatzietan', es: 'Ás nove' }
-      - { eu: 'Erreserba egingo dut', es: 'Farei a reserva' }
-      - { eu: 'Hasteko, niretzat...', es: 'Para empezar, para min...' }
-      - { eu: 'Zer iruditzen zaizu?', es: 'Que che parece?' }
-      - { eu: 'Topa!', es: 'Saúde / chinchín!' }
-      - { eu: 'On egin!', es: 'Bo proveito!' }
-      - { eu: 'Oso goxoa zegoen', es: 'Estaba moi bo' }
-      - { eu: 'Hurrengora arte!', es: 'Ata a próxima!' }
-  - id: ex-laf-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Hasteko', es: 'Para empezar' }
-      - { eu: 'Bigarrenerako', es: 'De segundo' }
-      - { eu: 'Postrerako', es: 'De sobremesa' }
-      - { eu: 'Edateko', es: 'Para beber' }
-      - { eu: 'Kontua, mesedez', es: 'A conta, por favor' }
-      - { eu: 'On egin!', es: 'Bo proveito!' }
+- id: ex-laf-mc1
+  type: multiple-choice
+  prompt: Como lle propós a un amigo "queres vir cear?"
+  options:
+  - Etorri nahi duzu afaltzera?
+  - Afari bat duzu?
+  - Afaria zara?
+  - Afaltzen ari naiz
+  answer: 0
+  explanation: '*Etorri nahi duzu...?* — "queres vir...?". *Afaltzera* = "a cear" (caso NORA con verbo).'
+- id: ex-laf-mc2
+  type: multiple-choice
+  prompt: '"De acordo, a que hora quedamos?" dise…'
+  options:
+  - Ados, zer ordutan geratuko gara?
+  - Ados, zer ordutan da?
+  - Ezin dut etorri
+  - Eta zu, nor zara?
+  answer: 0
+  explanation: '*Ados* — de acordo. *Geratuko gara* — "quedaremos" (futuro de *geratu*).'
+- id: ex-laf-fb1
+  type: fill-in-blank
+  prompt: '"Non podo, mañá teño traballo" = Ezin dut, bihar ___ dut.'
+  answers:
+  - lana
+  - Lana
+  explanation: '*Lana dut / lan egin behar dut* — "teño traballo / teño que traballar".'
+- id: ex-laf-fb2
+  type: fill-in-blank
+  prompt: '"Quedamos ás nove" = ___ geratuko gara.'
+  answers:
+  - Bederatzietan
+  - bederatzietan
+  explanation: '*Bederatzietan* — "ás nove" (caso inesivo plural nas horas).'
+- id: ex-laf-fc
+  type: flashcards
+  cards:
+  - eu: Etorri nahi duzu afaltzera?
+    es: Queres vir cear?
+  - eu: Bai, oso ongi
+    es: Si, perfecto
+  - eu: Ezin dut
+    es: Non podo
+  - eu: Geratuko gara
+    es: Quedaremos
+  - eu: Bederatzietan
+    es: Ás nove
+  - eu: Erreserba egingo dut
+    es: Farei a reserva
+  - eu: Hasteko, niretzat...
+    es: Para empezar, para min...
+  - eu: Zer iruditzen zaizu?
+    es: Que che parece?
+  - eu: Topa!
+    es: Saúde / chin-chin!
+  - eu: On egin!
+    es: Bo proveito!
+  - eu: Oso goxoa zegoen
+    es: Estaba moi bo
+  - eu: Hurrengora arte!
+    es: Ata a próxima!
+- id: ex-laf-mp
+  type: match-pairs
+  pairs:
+  - eu: Hasteko
+    es: Para empezar
+  - eu: Bigarrenerako
+    es: De segundo
+  - eu: Postrerako
+    es: De sobremesa
+  - eu: Edateko
+    es: Para beber
+  - eu: Kontua, mesedez
+    es: A conta, por favor
+  - eu: On egin!
+    es: Bo proveito!
 ---
 
 Xa tes todas as pezas: tipos de restaurante, menú, pedir, pagar. Imos integralas nunha cea con amigos: organizar a cita, pedir e pechar a noite.
 
 ## 1. Quedar para cear
 
-> — *Aizue, ostiralean afaltzera joango gara?* — Oe, imos cear o venres?
+> — *Aizue, ostiralean afaltzera joango gara?* — Ouve, imos cear o venres?
 >
 > — *Bai, ideia ona!* — Si, boa idea!
 >
-> — *Nik ezin dut ostiralean. Larunbatean ondo?* — Eu non podo o venres. O sábado vai ben?
+> — *Nik ezin dut ostiralean. Larunbatean ondo?* — Eu non podo o venres. O sábado ben?
 >
 > — *Ados. Zer ordutan geratuko gara?* — De acordo. A que hora quedamos?
 >
@@ -73,7 +108,7 @@ Xa tes todas as pezas: tipos de restaurante, menú, pedir, pagar. Imos integrala
 >
 > — *Ederki!* — Perfecto!
 
-Frases para escusarte cando non podes:
+Frases para escusarse cando non podes:
 
 - **Ezin dut, beste plan bat dut.** — Non podo, teño outro plan.
 - **Ezin dut, bihar lan egin behar dut.** — Non podo, mañá teño que traballar.
@@ -103,10 +138,10 @@ Frases para escusarte cando non podes:
 
 ## 3. Na mesa
 
-Saúdos ao sentarse:
+Saúdos ao sentar:
 
 - **On egin!** — Bo proveito!
-- **Topa!** — Chinchín! / Saúde! (ao brindar)
+- **Topa!** — Chin-chin! / Saúde! (ao brindar)
 
 Pedir, xa con todas as pezas:
 
@@ -120,7 +155,7 @@ Pedir, xa con todas as pezas:
 
 ## 4. Comentar a comida
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *Oso goxoa zegoen!* | Estaba moi bo! |
 | *Hau betekada!* | Que fartura! |
@@ -148,8 +183,8 @@ Pedir, xa con todas as pezas:
 1. Quedar:      Etorri nahi duzu afaltzera?  →  Bai, ados!
 2. Reserva:     Erreserba egin nahi dut...   →  Noren izenean?
 3. Pedir:       Hasteko... Bigarrenerako...  →  Postrerako...
-4. Disfrutar:   On egin! / Topa! / Goxoa zegoen!
+4. Gozar:       On egin! / Topa! / Goxoa zegoen!
 5. Pagar:       Kontua, mesedez. / Txartelaz ordain dezaket?
 ```
 
-> **Nota cultural:** a fórmula *On egin!* úsase tamén se pasas ao lado de xente que está comendo nun sitio público (terraza, froitería, calquera sitio). É un xesto educado moi típico que convén oír e devolver: a resposta natural é *Eskerrik asko!*.
+> **Nota cultural:** a fórmula *On egin!* úsase tamén se pasas ao lado de xente que está a comer nun sitio público (terraza, froitaría, calquera sitio). É un xesto educado moi típico que convén oír e devolver: a resposta natural é *Eskerrik asko!*.

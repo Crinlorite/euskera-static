@@ -7,59 +7,86 @@ level: a1
 order: 4
 title: Quantités et mesures (neurriak)
 estimatedMinutes: 10
-covers: [quantities-units, numbers-1-100]
+covers:
+- quantities-units
+- numbers-1-100
 exercises:
-  - id: ex-neur-mc1
-    type: multiple-choice
-    prompt: '"Un kilo de pommes" en euskera, c''est…'
-    options: [Sagar bat, Kilo bat sagar, Bat sagar kilo, Kiloa bat sagar]
-    answer: 1
-    explanation: 'En euskera, la quantité se place **avant** et le produit reste sans article : *kilo bat sagar*.'
-  - id: ex-neur-mc2
-    type: multiple-choice
-    prompt: '"Une douzaine d''œufs" se dit…'
-    options: [Arrautza dozena, Arrautza bat dozena, Dozena bat arrautza, Dozena arrautzak]
-    answer: 2
-    explanation: '"*Dozena bat*" suit le même schéma que *kilo bat* : quantité + produit sans article.'
-  - id: ex-neur-fb1
-    type: fill-in-blank
-    prompt: '"Un demi-kilo de tomate" = ___ erdi tomate.'
-    answers: [kilo, Kilo]
-    explanation: '*Kilo erdi* — "un demi-kilo". *Erdi* se place après l''unité.'
-  - id: ex-neur-fb2
-    type: fill-in-blank
-    prompt: '"Plus" en euskera (pour demander un peu plus au magasin) = ___.'
-    answers: [gehiago, Gehiago]
-    explanation: '*Gehiago* (plus) et *gutxiago* (moins) sont les deux comparatifs de base pour ajuster les quantités.'
-  - id: ex-neur-fc
-    type: flashcards
-    cards:
-      - { eu: kilo bat, es: un kilo }
-      - { eu: kilo erdi, es: un demi-kilo }
-      - { eu: bi kilo, es: deux kilos }
-      - { eu: 200 g (berrehun gramo), es: 200 grammes }
-      - { eu: litro bat, es: un litre }
-      - { eu: litro erdi, es: un demi-litre }
-      - { eu: dozena bat, es: une douzaine }
-      - { eu: pakete bat, es: un paquet }
-      - { eu: botila bat, es: une bouteille }
-      - { eu: lata bat, es: une boîte }
-      - { eu: gehiago, es: plus }
-      - { eu: gutxiago, es: moins }
-      - { eu: pixka bat, es: un peu }
-      - { eu: nahikoa, es: assez }
+- id: ex-neur-mc1
+  type: multiple-choice
+  prompt: « Un kilo de pommes » en basque, c'est…
+  options:
+  - Sagar bat
+  - Kilo bat sagar
+  - Bat sagar kilo
+  - Kiloa bat sagar
+  answer: 1
+  explanation: 'En basque, la quantité se place **avant** et le produit est sans article : *kilo bat sagar*.'
+- id: ex-neur-mc2
+  type: multiple-choice
+  prompt: « Une douzaine d'œufs » se dit…
+  options:
+  - Arrautza dozena
+  - Arrautza bat dozena
+  - Dozena bat arrautza
+  - Dozena arrautzak
+  answer: 2
+  explanation: '*Dozena bat* suit le même schéma que *kilo bat* : quantité + produit sans article.'
+- id: ex-neur-fb1
+  type: fill-in-blank
+  prompt: « Un demi-kilo de tomates » = kilo ___ tomate.
+  answers:
+  - erdi
+  explanation: '*Kilo erdi* — « un demi-kilo ». *Erdi* (demi) se place APRÈS l''unité, à l''inverse du français.'
+- id: ex-neur-fb2
+  type: fill-in-blank
+  prompt: « Plus » en basque (pour demander un peu plus au magasin) = ___.
+  answers:
+  - gehiago
+  - Gehiago
+  explanation: '*Gehiago* (plus) et *gutxiago* (moins) sont les deux comparatifs de base pour ajuster les quantités.'
+- id: ex-neur-fc
+  type: flashcards
+  cards:
+  - eu: kilo bat
+    es: un kilo
+  - eu: kilo erdi
+    es: un demi-kilo
+  - eu: bi kilo
+    es: deux kilos
+  - eu: 200 g (berrehun gramo)
+    es: 200 grammes
+  - eu: litro bat
+    es: un litre
+  - eu: litro erdi
+    es: un demi-litre
+  - eu: dozena bat
+    es: une douzaine
+  - eu: pakete bat
+    es: un paquet
+  - eu: botila bat
+    es: une bouteille
+  - eu: lata bat
+    es: une conserve
+  - eu: gehiago
+    es: plus
+  - eu: gutxiago
+    es: moins
+  - eu: pixka bat
+    es: un peu
+  - eu: nahikoa
+    es: assez / suffisant
 ---
 
-Savoir demander des quantités précises, c'est ce qui fait la différence entre "une pomme" et "un kilo de pommes". Le schéma en euskera est très régulier et toujours le même.
+Savoir demander des quantités précises, c'est ce qui fait la différence entre « une pomme » et « un kilo de pommes ». Le schéma en basque est très régulier et toujours le même.
 
 ## Le schéma de base
 
 > **QUANTITÉ + PRODUIT (sans article)**
 
-| Euskera | Français |
+| Basque | Français |
 |---|---|
 | *kilo bat sagar* | un kilo de pommes |
-| *bi kilo tomate* | deux kilos de tomate |
+| *bi kilo tomate* | deux kilos de tomates |
 | *kilo erdi piper* | un demi-kilo de poivrons |
 | *200 g txorizo* | 200 grammes de chorizo |
 | *litro bat ur* | un litre d'eau |
@@ -67,27 +94,27 @@ Savoir demander des quantités précises, c'est ce qui fait la différence entre
 | *dozena bat arrautza* | une douzaine d'œufs |
 | *pakete bat makarroi* | un paquet de macaronis |
 | *botila bat ardo* | une bouteille de vin |
-| *lata bat tomate* | une boîte de tomate |
+| *lata bat tomate* | une conserve de tomates |
 
-> **Attention :** le produit reste **sans article** (*sagar*, et non *sagarra*). C'est différent du français et cela s'apprend avec la pratique.
+> **Attention :** le produit s'emploie **sans article** (*sagar*, et non *sagarra*). C'est différent du français et cela s'apprend avec la pratique.
 
 ## Le nombre avant, le produit après
 
 L'ordre est important :
 
-- *Bi kilo sagar* — deux kilos de pommes (CORRECT)
+- *Bi kilo sagar* — deux kilos de pommes (correct)
 - ~~Sagar bi kilo~~ — ça ne se dit pas comme ça
 
 ## Quantités approximatives
 
-| Euskera | Français |
+| Basque | Français |
 |---|---|
 | *gehiago* | plus |
 | *gutxiago* | moins |
 | *pixka bat* | un peu |
 | *asko* | beaucoup |
 | *gutxi* | peu |
-| *nahikoa* | assez |
+| *nahikoa* | assez / suffisant |
 
 Exemples typiques chez le primeur :
 
@@ -101,4 +128,4 @@ Exemples typiques chez le primeur :
 - *Litro bat esne hartuko dut.* — Je vais prendre un litre de lait.
 - *Bi botila ur, mesedez.* — Deux bouteilles d'eau, s'il vous plaît.
 
-> **Note culturelle :** sur les marchés (azoka) et les places traditionnelles, on pèse encore tout "à l'œil" : vous demandez *kilo bat sagar* et le vendeur ajuste jusqu'à donner le poids juste. Il est courant d'entendre *pixka bat gehiago, mesedez* pendant que la balance monte.
+> **Note culturelle :** sur les marchés (*azoka*) et les places traditionnelles, on pèse encore tout « à l'œil » : vous demandez *kilo bat sagar* et le vendeur ajuste jusqu'à atteindre le poids exact. Il est courant d'entendre *pixka bat gehiago, mesedez* pendant que la balance monte.

@@ -7,68 +7,108 @@ level: a1
 order: 3
 title: A onde vas? — o caso NORA
 estimatedMinutes: 12
-covers: [nora-allative, movement-verbs, places-town]
+covers:
+- nora-allative
+- movement-verbs
+- places-town
 exercises:
-  - id: ex-nz-mc1
-    type: multiple-choice
-    prompt: 'Como se di "Vou a Bilbao"?'
-    options: ["Bilbon noa", "Bilbora noa", "Bilbotik noa", "Bilboan noa"]
-    answer: 1
-    explanation: '"Bilbo" + sufixo -ra (caso NORA) = "Bilbora", "a Bilbao".'
-  - id: ex-nz-fb1
-    type: fill-in-blank
-    prompt: 'Vou á casa = Etxe___ noa.'
-    answers: [ra]
-    explanation: '"Etxe" + ra = "etxera" (á casa). O sufixo -ra é o caso NORA.'
-  - id: ex-nz-fb2
-    type: fill-in-blank
-    prompt: 'Vou a Madrid = Madril___ noa.'
-    answers: [era]
-    explanation: 'Tras consoante, o sufixo intercala -e-: "Madril" → "Madrilera".'
-  - id: ex-nz-mc2
-    type: multiple-choice
-    prompt: 'Que significa "Eskolara doa"?'
-    options: ["Está na escola", "Vai á escola", "Vén da escola", "É da escola"]
-    answer: 1
-    explanation: '"Eskola" + ra (caso NORA) = "eskolara" (á escola); "doa" = "vai".'
-  - id: ex-nz-fb3
-    type: fill-in-blank
-    prompt: 'Imos ao parque = Parke___ goaz.'
-    answers: [ra]
-  - id: ex-nz-mc3
-    type: multiple-choice
-    prompt: 'Que quere dicir "Zertara zoaz tabernara?"'
-    options: ["Quen vai ao bar?", "De que bar vés?", "A que vas ao bar?", "Onde está o bar?"]
-    answer: 2
-    explanation: '"Zertara" = a que (a facer que); normalmente respóndese cun verbo + -tzera: "kafe bat hartzera" (a tomar un café).'
-  - id: ex-nz-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nora?', es: A onde? }
-      - { eu: 'Nora zoaz?', es: A onde vas? }
-      - { eu: 'Nora doa?', es: A onde vai? }
-      - { eu: etxera, es: á casa }
-      - { eu: eskolara, es: á escola }
-      - { eu: euskaltegira, es: ao euskaltegi }
-      - { eu: tabernara, es: ao bar }
-      - { eu: lanera, es: ao traballo }
-      - { eu: hondartzara, es: á praia }
-      - { eu: mendira, es: ao monte }
-      - { eu: Bilbora, es: a Bilbao }
-      - { eu: Iruñera, es: a Pamplona }
-      - { eu: Madrilera, es: a Madrid }
-      - { eu: 'Zertara?', es: A que? }
-      - { eu: erostera, es: a mercar }
-      - { eu: bazkaltzera, es: a comer }
-      - { eu: ikastera, es: a estudar }
-  - id: ex-nz-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Nora zoaz?', es: 'A onde vas?' }
-      - { eu: Etxera noa, es: 'Vou á casa' }
-      - { eu: Eskolara noa, es: 'Vou á escola' }
-      - { eu: 'Zertara zoaz?', es: 'A que vas?' }
-      - { eu: Erostera, es: 'A mercar' }
+- id: ex-nz-mc1
+  type: multiple-choice
+  prompt: Como se di "Vou a Bilbao"?
+  options:
+  - Bilbon noa
+  - Bilbora noa
+  - Bilbotik noa
+  - Bilboan noa
+  answer: 1
+  explanation: '"Bilbo" + sufixo -ra (caso NORA) = "Bilbora", "a Bilbao".'
+- id: ex-nz-fb1
+  type: fill-in-blank
+  prompt: Vou á casa = Etxe___ noa.
+  answers:
+  - ra
+  explanation: '"Etxe" + ra = "etxera" (á casa). O sufixo -ra é o caso NORA.'
+- id: ex-nz-fb2
+  type: fill-in-blank
+  prompt: Vou a Madrid = Madril___ noa.
+  answers:
+  - era
+  explanation: 'Tras consoante, o sufixo intercala -e-: "Madril" → "Madrilera".'
+- id: ex-nz-mc2
+  type: multiple-choice
+  prompt: Que significa "Eskolara doa"?
+  options:
+  - Está na escola
+  - Vai á escola
+  - Vén da escola
+  - É da escola
+  answer: 1
+  explanation: '"Eskola" + ra (caso NORA) = "eskolara" (á escola); "doa" = "vai".'
+- id: ex-nz-fb3
+  type: fill-in-blank
+  prompt: Imos ao parque = Parke___ goaz.
+  answers:
+  - ra
+- id: ex-nz-mc3
+  type: multiple-choice
+  prompt: Que quere dicir "Zertara zoaz tabernara?"
+  options:
+  - Quen vai ao bar?
+  - De que bar ves?
+  - A que vas ao bar?
+  - Onde está o bar?
+  answer: 2
+  explanation: '"Zertara" = a que (a facer que); tipicamente respóndese con verbo + -tzera: "kafe bat hartzera" (a tomar un café).'
+- id: ex-nz-fc
+  type: flashcards
+  cards:
+  - eu: Nora?
+    es: A onde?
+  - eu: Nora zoaz?
+    es: A onde vas?
+  - eu: Nora doa?
+    es: A onde vai?
+  - eu: etxera
+    es: á casa
+  - eu: eskolara
+    es: á escola
+  - eu: euskaltegira
+    es: ao euskaltegi
+  - eu: tabernara
+    es: ao bar
+  - eu: lanera
+    es: ao traballo
+  - eu: hondartzara
+    es: á praia
+  - eu: mendira
+    es: ao monte
+  - eu: Bilbora
+    es: a Bilbao
+  - eu: Iruñera
+    es: a Pamplona
+  - eu: Madrilera
+    es: a Madrid
+  - eu: Zertara?
+    es: A que?
+  - eu: erostera
+    es: a comprar
+  - eu: bazkaltzera
+    es: a comer
+  - eu: ikastera
+    es: a estudar
+- id: ex-nz-mp
+  type: match-pairs
+  pairs:
+  - eu: Nora zoaz?
+    es: A onde vas?
+  - eu: Etxera noa
+    es: Voy a casa
+  - eu: Eskolara noa
+    es: Vou á escola
+  - eu: Zertara zoaz?
+    es: A que vas?
+  - eu: Erostera
+    es: A comprar
 ---
 
 O **caso NORA** (tamén chamado *adlativo*) marca **o destino** dun movemento: cara a onde vas. En galego tradúcese normalmente coa preposición **"a"** ("vou *á* casa", "*a* Bilbao", "*ao* parque").
@@ -79,14 +119,14 @@ O **caso NORA** (tamén chamado *adlativo*) marca **o destino** dun movemento: c
 |---|---|
 | ***Nora* zoaz?** | A onde vas? |
 | ***Nora* doa?** | A onde vai? |
-| ***Nora* goaz?** | A onde imos? |
+| ***Nora* goaz?** | A onde vamos? |
 | ***Nora* doaz?** | A onde van? |
 
 ## O sufixo: -ra
 
-Para responder, engadimos **`-ra`** ao lugar de destino. O patrón adáptase segundo como remate a palabra:
+Para responder, engadimos **`-ra`** ao lugar de destino. O padrón adáptase segundo como remate a palabra:
 
-| Final do lugar | Patrón | Exemplo |
+| Final do lugar | Padrón | Exemplo |
 |---|---|---|
 | -a (orgánica, *eskola*) | + ra | eskola → **eskolara** |
 | Vogal sen -a final (*Bilbo*, *etxe*) | + ra | etxe → **etxera**, Bilbo → **Bilbora** |
@@ -106,20 +146,20 @@ Para responder, engadimos **`-ra`** ao lugar de destino. O patrón adáptase seg
 | Madril | **Madrilera** | *Madrilera doaz.* — Van a Madrid. |
 | mendi (monte) | **mendira** | *Mendira goaz larunbatean.* — Imos ao monte o sábado. |
 
-> **Mini-truco:** *non* → *nora* seguen o mesmo patrón que *kale-an* → *kale-ra*. Se sabes formar *Bilbon* (en Bilbao), xa sabes formar *Bilbora* (a Bilbao): cambia *-n* por *-ra*. Se sabes formar *Madrilen*, sabes formar *Madrilera*.
+> **Mini-truco:** *non* → *nora* seguen o mesmo padrón que *kale-an* → *kale-ra*. Se sabes formar *Bilbon* (en Bilbao), xa sabes formar *Bilbora* (a Bilbao): cambia *-n* por *-ra*. Se sabes formar *Madrilen*, sabes formar *Madrilera*.
 
 ## Zertara? — "A que?"
 
-Para preguntar a **que** vas (con que obxectivo), úsase **Zertara zoaz?** e respóndese cun verbo + sufixo **`-tzera`**:
+Para preguntar **a que** vas (con que obxectivo), úsase **Zertara zoaz?** e respóndese cun verbo + sufixo **`-tzera`**:
 
 | Pregunta | Resposta |
 |---|---|
 | *Zertara zoaz tabernara?* | *Kafea hartzera.* — A tomar café. |
-| *Zertara doa Kepa supermerkatura?* | *Erostera.* — A mercar. |
-| *Zertara goaz mendira?* | *Ibiltzera.* — A camiñar. |
+| *Zertara doa Kepa supermerkatura?* | *Erostera.* — A comprar. |
+| *Zertara goaz mendira?* | *Ibiltzera.* — A andar. |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — A nadar. |
 
-> **Patrón:** *(verbo en participio) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. É basicamente o "a + infinitivo" do galego.
+> **Padrón:** *(verbo en participio) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. É basicamente o "a + infinitivo" do galego.
 
 ## Mini-conversa
 
@@ -129,9 +169,9 @@ Para preguntar a **que** vas (con que obxectivo), úsase **Zertara zoaz?** e res
 >
 > — *Eta zertara?* — E a que?
 >
-> — *Klasera, noski! Euskara ikastera.* — A clase, claro. A aprender euskera.
+> — *Klasera, noski! Euskara ikastera.* — A clase, claro. A aprender éuscaro.
 >
-> — *Eta gero?* — E despois?
+> — *Eta gero?* — E logo?
 >
 > — *Tabernara goaz lagunekin pote bat hartzera.* — Imos ao bar cos amigos a tomar algo.
 
@@ -141,11 +181,11 @@ Os demostrativos tamén teñen a súa forma NORA:
 
 | NON (locativo) | NORA (dirección) | Significado |
 |---|---|---|
-| hemen | **hona** | cara aquí |
-| hor | **horra** | cara aí |
-| han | **hara** | cara alí |
+| hemen | **hona** | cara a aquí |
+| hor | **horra** | cara a aí |
+| han | **hara** | cara a alí |
 
-- **Hona zatoz?** — Vés aquí?
-- **Hara doaz.** — Van cara alí.
+- **Hona zatoz?** — Ves aquí?
+- **Hara doaz.** — Van cara a alí.
 
-> **Recordatorio importante:** confunde a moita xente ao principio: *etxean* (na casa) ≠ *etxera* (á casa) ≠ *etxetik* (da casa, lección 04). As tres parécense porque todas falan de "casa", pero a información é totalmente distinta. Marca mentalmente: **NON = -an (estar)**, **NORA = -ra (ir)**, **NONDIK = -tik (vir, lección 4)**.
+> **Recordatorio importante:** confunde a moita xente ao principio: *etxean* (na casa) ≠ *etxera* (á casa) ≠ *etxetik* (da casa, lección 04). As tres parécense porque todas falan da "casa", pero a información é totalmente distinta. Marca mentalmente: **NON = -an (estar)**, **NORA = -ra (ir)**, **NONDIK = -tik (vir, lección 4)**.

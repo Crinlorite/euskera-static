@@ -7,61 +7,90 @@ level: a1
 order: 1
 title: Arrivare al ristorante (jatetxean sartu)
 estimatedMinutes: 10
-covers: [restaurant-vocab, courtesy, greetings]
+covers:
+- restaurant-vocab
+- courtesy
+- greetings
 exercises:
-  - id: ex-jat1-mc1
-    type: multiple-choice
-    prompt: 'Come chiedi un tavolo per due?'
-    options: ['Bi mahaiak, mesedez', 'Mahai bat bi lagunentzat, mesedez', 'Mahai bi lagunak, mesedez', 'Bi lagun mahaian']
-    answer: 1
-    explanation: '"Mahai bat bi lagunentzat" = "un tavolo per due persone". *-entzat* è il destinatario plurale.'
-  - id: ex-jat1-mc2
-    type: multiple-choice
-    prompt: '"Erreserba egin nahi dut" significa…'
-    options: [Voglio pagare, Voglio fare una prenotazione, C'è posto?, Ho fame]
-    answer: 1
-    explanation: '*Erreserba egin* — "fare una prenotazione". *Nahi dut* — "voglio".'
-  - id: ex-jat1-fb1
-    type: fill-in-blank
-    prompt: 'Il cameriere chiede: "A nome di chi?" = "___ izenean?"'
-    answers: [Noren, noren]
-    explanation: '*Noren?* — genitivo interrogativo: "di chi?". *Noren izenean?* è la formula standard.'
-  - id: ex-jat1-fb2
-    type: fill-in-blank
-    prompt: '"Per domani sera" = Bihar ___'
-    answers: [gauerako, Gauerako]
-    explanation: '*Gau* (notte) + *-rako* (per) → *gauerako* — "per la notte".'
-  - id: ex-jat1-fc
-    type: flashcards
-    cards:
-      - { eu: jatetxea, es: ristorante }
-      - { eu: erretegia, es: 'griglia, rosticceria' }
-      - { eu: sagardotegia, es: cidreria }
-      - { eu: pizzeria, es: pizzeria }
-      - { eu: hanburgeseria, es: hamburgheria }
-      - { eu: elkartea, es: 'società gastronomica' }
-      - { eu: mahaia, es: tavolo }
-      - { eu: zerbitzaria, es: 'cameriere, cameriera' }
-      - { eu: bezeroa, es: cliente }
-      - { eu: erreserba, es: prenotazione }
-      - { eu: 'Mahai bat, mesedez', es: 'Un tavolo, per favore' }
-      - { eu: 'Lau lagunentzat', es: 'Per quattro persone' }
-      - { eu: 'Noren izenean?', es: 'A nome di chi?' }
-      - { eu: 'Bihar gauerako', es: 'Per domani sera' }
+- id: ex-jat1-mc1
+  type: multiple-choice
+  prompt: Come chiedi un tavolo per due?
+  options:
+  - Bi mahaiak, mesedez
+  - Mahai bat bi lagunentzat, mesedez
+  - Mahai bi lagunak, mesedez
+  - Bi lagun mahaian
+  answer: 1
+  explanation: '"Mahai bat bi lagunentzat" = "un tavolo per due persone". *-entzat* indica il destinatario plurale.'
+- id: ex-jat1-mc2
+  type: multiple-choice
+  prompt: '"Erreserba egin nahi dut" significa…'
+  options:
+  - Voglio pagare
+  - Voglio fare una prenotazione
+  - C'è posto?
+  - Ho fame
+  answer: 1
+  explanation: '*Erreserba egin* — "fare una prenotazione". *Nahi dut* — "voglio".'
+- id: ex-jat1-fb1
+  type: fill-in-blank
+  prompt: 'Il cameriere chiede: "A nome di chi?" = "___ izenean?"'
+  answers:
+  - Noren
+  - noren
+  explanation: '*Noren?* — genitivo interrogativo: "di chi?". *Noren izenean?* è la formula standard.'
+- id: ex-jat1-fb2
+  type: fill-in-blank
+  prompt: '"Per domani sera" = Bihar ___'
+  answers:
+  - gauerako
+  - Gauerako
+  explanation: '*Gau* (notte) + *-rako* (per) → *gauerako* — "per la notte".'
+- id: ex-jat1-fc
+  type: flashcards
+  cards:
+  - eu: jatetxea
+    es: ristorante
+  - eu: erretegia
+    es: griglieria, braceria
+  - eu: sagardotegia
+    es: sidreria
+  - eu: pizzeria
+    es: pizzeria
+  - eu: hanburgeseria
+    es: hamburgeria
+  - eu: elkartea
+    es: società gastronomica
+  - eu: mahaia
+    es: tavolo
+  - eu: zerbitzaria
+    es: cameriere, cameriera
+  - eu: bezeroa
+    es: cliente
+  - eu: erreserba
+    es: prenotazione
+  - eu: Mahai bat, mesedez
+    es: Un tavolo, per favore
+  - eu: Lau lagunentzat
+    es: Per quattro persone
+  - eu: Noren izenean?
+    es: A nome di chi?
+  - eu: Bihar gauerako
+    es: Per domani sera
 ---
 
 Il primo passo quando si va al ristorante: entrare, salutare, chiedere un tavolo o confermare la prenotazione. Ecco le formule di base.
 
-## Tipi di luogo dove mangiare
+## Tipi di posti dove mangiare
 
-| Euskera | Italiano |
+| Basco | Italiano |
 |---|---|
 | *jatetxea* | ristorante |
-| *erretegia* | griglia / rosticceria |
-| *sagardotegia* | cidreria |
+| *erretegia* | griglieria / braceria |
+| *sagardotegia* | sidreria |
 | *taberna* | bar |
 | *pizzeria* | pizzeria |
-| *hanburgeseria* | hamburgheria |
+| *hanburgeseria* | hamburgeria |
 | *elkartea* | società gastronomica |
 
 ## I personaggi della scena
@@ -90,11 +119,11 @@ Per telefono o di persona, c'è un copione quasi fisso:
 >
 > — *Bai, hala da. Zer nahi duzu?* — Sì. Cosa desidera?
 >
-> — *Erreserba bat egin nahi dut, bihar gauerako.* — Voglio fare una prenotazione, per domani sera.
+> — *Erreserba bat egin nahi dut, bihar gauerako.* — Vorrei fare una prenotazione, per domani sera.
 >
 > — *Zenbat lagunentzat?* — Per quante persone?
 >
-> — *Lau lagun izango gara.* — Saremo quattro persone.
+> — *Lau lagun izango gara.* — Saremo in quattro.
 >
 > — *Zer ordutan afaldu nahi duzue?* — A che ora volete cenare?
 >
@@ -108,7 +137,7 @@ Per telefono o di persona, c'è un copione quasi fisso:
 
 - **Itxaron pixka bat, mesedez.** — Aspetti un attimo, per favore.
 - **Jarraitu mesedez.** — Prego, seguitemi (indicando il tavolo).
-- **Hemen daukazue.** — Eccolo qui.
+- **Hemen daukazue.** — Ecco a voi.
 - **Karta nahi duzue?** — Volete il menù?
 
-> **Nota culturale:** gli **elkarteak** o società gastronomiche sono spazi tipici di Euskal Herria dove il cibo viene preparato e pulito dal gruppo stesso dei soci. Non funzionano come ristoranti pubblici, ma conviene sapere che esistono perché sentirai questa parola moltissimo.
+> **Nota culturale:** gli **elkarteak** o società gastronomiche sono spazi tipici di Euskal Herria dove il cibo viene preparato e il locale pulito dallo stesso gruppo di soci. Non funzionano come ristoranti pubblici, ma è utile sapere che esistono perché sentirai questa parola molto spesso.

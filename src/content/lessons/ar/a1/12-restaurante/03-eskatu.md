@@ -7,83 +7,107 @@ level: a1
 order: 3
 title: طلب الطعام (eskatu)
 estimatedMinutes: 10
-covers: [ordering-food, food-bar]
+covers:
+- ordering-food
+- food-bar
 exercises:
-  - id: ex-esk-mc1
-    type: multiple-choice
-    prompt: '«كطبق أول، سآخذ سلطة» تُقال…'
-    options: ['Hasteko, entsalada hartuko dut', 'Lehen entsalada da', 'Entsalada bat hartzen', 'Hasteko, entsaladarik']
-    answer: 0
-    explanation: '*Hasteko* (للبدء) + *entsalada hartuko dut* (سآخذ سلطة). بنية نموذجية.'
-  - id: ex-esk-mc2
-    type: multiple-choice
-    prompt: '«بالنسبة لي، السمك» تُقال…'
-    options: ['Niretzat, arraina', 'Nire arraina', 'Niri arraina', 'Ni arraina dut']
-    answer: 0
-    explanation: '*Niretzat* — «بالنسبة لي» (المتلقّي). إنها الصيغة الطبيعية عند الطلب على طاولة مشتركة.'
-  - id: ex-esk-fb1
-    type: fill-in-blank
-    prompt: 'لتسأل «وبالنسبة لك؟» لمرافقك = Eta ___?'
-    answers: [zuretzat]
-    explanation: '*Zuretzat* — «بالنسبة لك» (مهذّب/أنت).'
-  - id: ex-esk-fb2
-    type: fill-in-blank
-    prompt: '«كطبق ثانٍ، لحم» = Bigarrenerako, ___'
-    answers: [haragia]
-    explanation: '*Bigarrenerako* — «كطبق ثانٍ (للطبق الثاني)». *Haragia* — اللحم.'
-  - id: ex-esk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer nahi duzu?', es: ماذا تريد؟ }
-      - { eu: 'Zer hartuko duzu?', es: ماذا ستأخذ؟ }
-      - { eu: 'Hartuko dut...', es: 'سآخذ...' }
-      - { eu: 'Niretzat...', es: 'بالنسبة لي...' }
-      - { eu: 'Eta zuretzat?', es: وبالنسبة لك؟ }
-      - { eu: 'Hasteko...', es: 'للبدء...' }
-      - { eu: 'Bigarrenerako...', es: 'كطبق ثانٍ...' }
-      - { eu: 'Postrerako...', es: 'كحلوى...' }
-      - { eu: 'Edateko, ardo gorria', es: 'للشرب، نبيذ أحمر' }
-      - { eu: 'Nahiago dut...', es: 'أفضّل...' }
-      - { eu: 'Ez dut nahi', es: 'لا أريد' }
-      - { eu: 'Ez zait gustatzen', es: 'لا يعجبني' }
+- id: ex-esk-mc1
+  type: multiple-choice
+  prompt: «كطبق أول، سآخذ سلطة» تُقال…
+  options:
+  - Hasteko, entsalada hartuko dut
+  - Lehen entsalada da
+  - Entsalada bat hartzen
+  - Hasteko, entsaladarik
+  answer: 0
+  explanation: '*Hasteko* (للبداية) + *entsalada hartuko dut* (سآخذ سلطة). بنية نموذجية.'
+- id: ex-esk-mc2
+  type: multiple-choice
+  prompt: «بالنسبة لي، السمك» تُقال…
+  options:
+  - Niretzat, arraina
+  - Nire arraina
+  - Niri arraina
+  - Ni arraina dut
+  answer: 0
+  explanation: '*Niretzat* — «بالنسبة لي». إنها الصيغة الطبيعية عند الطلب على طاولة مشتركة.'
+- id: ex-esk-fb1
+  type: fill-in-blank
+  prompt: لتسأل «وبالنسبة لك؟» لمرافقك = Eta ___?
+  answers:
+  - zuretzat
+  explanation: '*Zuretzat* — «بالنسبة لك» (للمخاطب).'
+- id: ex-esk-fb2
+  type: fill-in-blank
+  prompt: «للطبق الثاني، لحم» = Bigarrenerako, ___
+  answers:
+  - haragia
+  explanation: '*Bigarrenerako* — «للطبق الثاني». *Haragia* — اللحم.'
+- id: ex-esk-fc
+  type: flashcards
+  cards:
+  - eu: Zer nahi duzu?
+    es: ماذا تريد؟
+  - eu: Zer hartuko duzu?
+    es: ماذا ستطلب؟
+  - eu: Hartuko dut...
+    es: سآخذ...
+  - eu: Niretzat...
+    es: بالنسبة لي...
+  - eu: Eta zuretzat?
+    es: وبالنسبة لك؟
+  - eu: Hasteko...
+    es: للبداية...
+  - eu: Bigarrenerako...
+    es: للطبق الثاني...
+  - eu: Postrerako...
+    es: للتحلية...
+  - eu: Edateko, ardo gorria
+    es: للشرب، نبيذ أحمر
+  - eu: Nahiago dut...
+    es: أفضّل...
+  - eu: Ez dut nahi
+    es: لا أريد
+  - eu: Ez zait gustatzen
+    es: لا يعجبني
 ---
 
-يجمع هذا الدرس صيغ الطلب على الطاولة: تنظيم lehen/bigarren/postrea، وقول «بالنسبة لي»، وإظهار التفضيلات.
+يجمع هذا الدرس صيغ طلب الطعام في المطعم: تنظيم الطلب إلى مقبلات (*lehen*) وطبق رئيسي (*bigarren*) وتحلية (*postrea*)، وقول «بالنسبة لي»، والتعبير عن التفضيلات.
 
 ## سؤال النادل
 
-سيبدأ النادل بإحدى هذه الصيغ:
+سيفتتح النادل الحوار بإحدى هذه العبارات:
 
-- **Zer nahi duzu(e)?** — ماذا ترغب(ون)؟
-- **Zer hartuko duzu(e)?** — ماذا ستأخذ(ون)؟
-- **Pentsatu duzu(e)?** — هل فكّرت(م) في الأمر بعد؟
+- **Zer nahi duzu(e)?** — ماذا تريد(ون)؟
+- **Zer hartuko duzu(e)?** — ماذا ستطلب(ون)؟
+- **Pentsatu duzu(e)?** — هل قررتم؟
 
 ## تنظيم الطلب
 
-لتنظيم ما تطلبه، هناك ثلاثة مؤشّرات مفيدة جدًّا:
+لتنظيم طلبك، هناك ثلاث عبارات مفيدة جداً:
 
 | Euskera | العربية |
 |---|---|
-| *Hasteko...* | للبدء... |
-| *Bigarrenerako...* | كطبق ثانٍ... |
-| *Postrerako...* | كحلوى... |
+| *Hasteko...* | للبداية... |
+| *Bigarrenerako...* | للطبق الثاني... |
+| *Postrerako...* | للتحلية... |
 | *Edateko...* | للشرب... |
 
 مثال كامل:
 
 > *Hasteko, entsalada nahi dut. Bigarrenerako, legatza. Postrerako, izozkia. Eta edateko, ardo zuria.*
 >
-> للبدء، سلطة. كطبق ثانٍ، نازلي. كحلوى، آيس كريم. وللشرب، نبيذ أبيض.
+> للبداية، أريد سلطة. وللطبق الثاني، سمك النازلي. وللتحلية، آيس كريم. وللشرب، نبيذ أبيض.
 
 ## ثلاث طرق للطلب
 
-| البنية | المثال | متى |
+| البنية | المثال | الاستخدام |
 |---|---|---|
-| **... hartuko dut** | *Legatza hartuko dut* | أنا سآخذ... |
-| **... nahi dut** | *Legatza nahi dut* | أنا أريد... |
+| **... hartuko dut** | *Legatza hartuko dut* | سآخذ... |
+| **... nahi dut** | *Legatza nahi dut* | أريد... |
 | **Niretzat...** | *Niretzat, legatza* | بالنسبة لي... |
 
-`Niretzat` مفيدة جدًّا عندما يطلب أحد الضيوف للجميع: «*Niretzat legatza, eta zuretzat?*» (بالنسبة لي، نازلي، وبالنسبة لك؟).
+كلمة `Niretzat` مفيدة جداً عندما يطلب أحد الجالسين للجميع: «*Niretzat legatza, eta zuretzat?*» (بالنسبة لي، سمك النازلي، وبالنسبة لك؟).
 
 ## التفضيلات
 
@@ -113,4 +137,4 @@ exercises:
 >
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
-> **ملاحظة ثقافية:** في المطاعم الصغيرة من الشائع جدًّا أن يطلب أحد الضيوف لكامل المجموعة (*Niretzat legatza eta beretzat haragia* — بالنسبة لي نازلي وبالنسبة له/لها لحم). لذلك فإنّ *niretzat / zuretzat / beretzat* كلمات ذات مردود كبير منذ اليوم الأول.
+> **ملاحظة ثقافية:** في المطاعم الصغيرة من الشائع جداً أن يطلب أحد الجالسين لكامل المجموعة (*Niretzat legatza eta beretzat haragia* — بالنسبة لي سمك النازلي وبالنسبة له/لها لحم). لذلك فإنّ *niretzat / zuretzat / beretzat* كلمات مفيدة جداً منذ اليوم الأول.

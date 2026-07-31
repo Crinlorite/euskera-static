@@ -7,90 +7,120 @@ level: a1
 order: 5
 title: Nire auzokideak — Opisywanie trojga sąsiadów
 estimatedMinutes: 12
-covers: [social-relations, third-person-introductions, daily-routine-third-person, professions-extended, possessives]
+covers:
+- social-relations
+- third-person-introductions
+- daily-routine-third-person
+- professions-extended
+- possessives
 exercises:
-  - id: ex-10-05-mc1
-    type: multiple-choice
-    prompt: 'Aby przedstawić starszą sąsiadkę, która mieszka sama, jaka kolejność jest najbardziej naturalna?'
-    options:
-      - "Hau ... da → bera ... da → bera ... egiten du"
-      - "Bera ... egiten du → hau ... da → bera ... da"
-      - "Hura ... egiten du → hau ... naiz → bera ... zara"
-      - "Ni ... naiz → zu ... zara → bera ... da"
-    answer: 0
-    explanation: 'Najpierw przedstawiasz (Hau X da), potem dodajesz informacje (Bera Y da), a na końcu opowiadasz, co robi (Bera Z egiten du).'
-  - id: ex-10-05-mc2
-    type: multiple-choice
-    prompt: '"Nire bizilaguna 75 urteko jubilatua da" znaczy…'
-    options:
-      - "Mój sąsiad ma 75 lat i jest na emeryturze"
-      - "Mój sąsiad przeszedł na emeryturę 75 lat temu"
-      - "Mój sąsiad pracuje pod numerem 75"
-      - "Mam 75 sąsiadów na emeryturze"
-    answer: 0
-    explanation: '"75 urteko jubilatua" = emeryt mający 75 lat. Struktura: "X-eko Y" wskazuje wiek/cechę + rzeczownik.'
-  - id: ex-10-05-fb1
-    type: fill-in-blank
-    prompt: 'Moi sąsiedzi są sympatyczni = Nire bizilagunak ___ dira.'
-    answers: [atseginak, jatorrak]
-    explanation: '"Atseginak" lub "jatorrak" to dwa najczęściej używane przymiotniki oznaczające "sympatyczni/mili" w liczbie mnogiej.'
-  - id: ex-10-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: jatorra, es: sympatyczny/a (bliski) }
-      - { eu: atsegina, es: miły/a }
-      - { eu: alaia, es: wesoły/a }
-      - { eu: lasaia, es: spokojny/a }
-      - { eu: berritsua, es: gadatliwy/a }
-      - { eu: zaratatsua, es: hałaśliwy/a }
-  - id: ex-10-05-fc
-    type: flashcards
-    cards:
-      - { eu: nire bizilaguna, es: mój sąsiad / moja sąsiadka }
-      - { eu: nire bizilagunak, es: moi sąsiedzi }
-      - { eu: nire ondoko bizilaguna, es: mój sąsiad / moja sąsiadka z naprzeciwka }
-      - { eu: lehenengo solairukoa, es: z pierwszego piętra }
-      - { eu: bigarren solairukoa, es: z drugiego piętra }
-      - { eu: jatorra, es: sympatyczny/a }
-      - { eu: atsegina, es: miły/a }
-      - { eu: alaia, es: wesoły/a }
-      - { eu: lasaia, es: spokojny/a }
-      - { eu: berritsua, es: gadatliwy/a }
-      - { eu: zaratatsua, es: hałaśliwy/a }
-      - { eu: jubilatua, es: emeryt/ka }
-      - { eu: gaztea, es: młody/a }
-      - { eu: zaharra, es: starszy/a }
-      - { eu: 'Asko hitz egiten du', es: 'Dużo mówi' }
-      - { eu: 'Ez dut askotan ikusten', es: 'Nie widuję jej często' }
-      - { eu: 'Beti pozik dago', es: 'Zawsze jest zadowolony/a' }
+- id: ex-10-05-mc1
+  type: multiple-choice
+  prompt: Aby przedstawić starszą sąsiadkę, która mieszka sama, jaka kolejność jest najbardziej naturalna?
+  options:
+  - Hau ... da → bera ... da → bera ... egiten du
+  - Bera ... egiten du → hau ... da → bera ... da
+  - Hura ... egiten du → hau ... naiz → bera ... zara
+  - Ni ... naiz → zu ... zara → bera ... da
+  answer: 0
+  explanation: Najpierw przedstawiasz (Hau X da), potem dodajesz informacje (Bera Y da), a na końcu opowiadasz, co robi (Bera Z egiten du).
+- id: ex-10-05-mc2
+  type: multiple-choice
+  prompt: '"Nire bizilaguna 75 urteko jubilatua da" oznacza…'
+  options:
+  - Mój sąsiad ma 75 lat i jest na emeryturze
+  - Mój sąsiad przeszedł na emeryturę 75 lat temu
+  - Mój sąsiad pracuje pod numerem 75
+  - Mam 75 emerytowanych sąsiadów
+  answer: 0
+  explanation: '"75 urteko jubilatua" = 75-letni emeryt. Struktura: "X-eko Y" wskazuje na wiek/cechę + rzeczownik.'
+- id: ex-10-05-fb1
+  type: fill-in-blank
+  prompt: Moi sąsiedzi są sympatyczni = Nire bizilagunak ___ dira.
+  answers:
+  - atseginak
+  - jatorrak
+  explanation: '"Atseginak" lub "jatorrak" to dwa najczęściej używane przymiotniki oznaczające „sympatyczni/mili” w liczbie mnogiej.'
+- id: ex-10-05-mp
+  type: match-pairs
+  pairs:
+  - eu: jatorra
+    es: sympatyczny/a (przyjazny/a)
+  - eu: atsegina
+    es: agradable
+  - eu: alaia
+    es: alegre
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berritsua
+    es: gadatliwy/a
+  - eu: zaratatsua
+    es: ruidoso/a
+- id: ex-10-05-fc
+  type: flashcards
+  cards:
+  - eu: nire bizilaguna
+    es: mój sąsiad / moja sąsiadka
+  - eu: nire bizilagunak
+    es: moi sąsiedzi
+  - eu: nire ondoko bizilaguna
+    es: mój sąsiad / moja sąsiadka zza ściany
+  - eu: lehenengo solairukoa
+    es: z pierwszego piętra
+  - eu: bigarren solairukoa
+    es: z drugiego piętra
+  - eu: jatorra
+    es: sympatyczny/a
+  - eu: atsegina
+    es: miły/a
+  - eu: alaia
+    es: wesoły/a
+  - eu: lasaia
+    es: spokojny/a
+  - eu: berritsua
+    es: gadatliwy/a
+  - eu: zaratatsua
+    es: hałaśliwy/a
+  - eu: jubilatua
+    es: emeryt/ka
+  - eu: gaztea
+    es: młody/a
+  - eu: zaharra
+    es: starszy/a
+  - eu: Asko hitz egiten du
+    es: Dużo mówi
+  - eu: Ez dut askotan ikusten
+    es: Nie widuję go/jej często
+  - eu: Beti pozik dago
+    es: Zawsze jest zadowolony/a
 ---
 
-Ta lekcja łączy wszystko z tematu 10. Tutaj ćwiczysz coś konkretnego i przydatnego: **opisywanie trojga twoich sąsiadów** za pomocą prostych, ale powiązanych ze sobą zdań. To prawdziwy sprawdzian poziomu A1 — i dokładnie to, co przerabia się podczas pierwszych prezentacji na zajęciach.
+Ta lekcja integruje wszystko z tematu 10. Tutaj poćwiczysz coś konkretnego i użytecznego: **opisywanie trojga swoich sąsiadów** za pomocą prostych, ale połączonych ze sobą zdań. To jest test bojowy na poziomie A1 — i dokładnie to ćwiczy się podczas pierwszych prezentacji w klasie.
 
 ## Typowa struktura (zalecana kolejność)
 
-Dla każdego sąsiada trzymaj się zawsze tych elementów. Jeśli je masz, opis sam się buduje:
+Dla każdego sąsiada zawsze trzymaj się tych elementów. Jeśli je masz, opis stworzy się sam:
 
-1. **Przedstawienie** — *Hau nire bizilaguna da. Bera X-koa da.* (skąd jest)
+1. **Przedstawienie** — *Hau nire bizilaguna da. Bera X-koa da.* (skąd pochodzi)
 2. **Wiek / stan cywilny** — *X urte ditu. Ezkonduta / Bakarrik dago.*
 3. **Zawód** — *Bera Y da.* lub *Y-an lan egiten du.*
 4. **Charakter** — *Oso jatorra da.* lub *Lasaia / Berritsua da.*
-5. **Własny szczegół** — coś, co sam zaobserwujesz: kiedy go widujesz, co robi.
+5. **Własna obserwacja** — coś, co obserwujesz: kiedy go/ją widzisz, co robi.
 
-> Nie musisz mówić wszystkich pięciu rzeczy. Trzy już wystarczą, żeby był opis.
+> Nie musisz mówić o wszystkich pięciu rzeczach. Trzy wystarczą, aby stworzyć opis.
 
-## Słownictwo dotyczące charakteru sąsiada
+## Słownictwo do opisu charakteru sąsiada
 
-| Euskera | Polski |
+| Baskijski | Polski |
 |---|---|
-| *jatorra* | sympatyczny/a, bliski |
+| *jatorra* | sympatyczny/a, przyjazny/a |
 | *atsegina* | miły/a |
-| *alaia* | wesoły/a |
+| *alaia* | wesoły/a, radosny/a |
 | *lasaia* | spokojny/a |
-| *isila* | cichy/a |
+| *isila* | cichy/a, małomówny/a |
 | *berritsua* | gadatliwy/a |
 | *zaratatsua* | hałaśliwy/a |
-| *zakarra* | opryskliwy / szorstki |
+| *zakarra* | opryskliwy/a / gburowaty/a |
 | *jakintsua* | mądry/a |
 
 ## Tekst modelowy
@@ -105,7 +135,7 @@ Dla każdego sąsiada trzymaj się zawsze tych elementów. Jeśli je masz, opis 
 
 ## Teraz ty: opisz troje swoich sąsiadów
 
-Trzymaj się tego szablonu i uzupełnij go swoimi prawdziwymi danymi (albo zmyślonymi, jeśli wolisz):
+Skorzystaj z tego szablonu i uzupełnij go swoimi prawdziwymi danymi (lub wymyślonymi, jeśli wolisz):
 
 > *Nire bizilagunetatik hiru aukeratuko ditut.*
 >
@@ -115,19 +145,19 @@ Trzymaj się tego szablonu i uzupełnij go swoimi prawdziwymi danymi (albo zmyś
 >
 > *Hirugarrena _________ da. Hau nire _________ ere bada. _________ ditu, eta _________(e)an lan egiten du. _________-rekin bizi da.*
 
-## Przydatne łączniki zdań
+## Przydatne spójniki
 
-Jeśli chcesz lepiej łączyć opisy, pomogą ci te proste łączniki:
+Jeśli chcesz lepiej łączyć opisy, te proste spójniki ci pomogą:
 
-| Euskera | Polski |
+| Baskijski | Polski |
 |---|---|
 | *eta* | i |
 | *baina* | ale |
-| *baita ere* | także |
-| *gainera* | poza tym |
+| *baita ere* | również, także |
+| *gainera* | ponadto, oprócz tego |
 | *adibidez* | na przykład |
 | *batzuetan* | czasami |
 
 > Np.: *Bera lasaia da, **baina** asteburuetan zaratatsua bihurtzen da. **Adibidez**, ostiraletan musika entzuten du gauean.*
 
-> **Rada na koniec:** pierwsze opisy sąsiadów nie będą doskonałe. Ważne jest, żeby słuchacz zrozumiał, **kim jest**, **co robi** i **jak ty go postrzegasz**. Mając taką podstawę, poprawki gramatyczne przyjdą same wraz z praktyką.
+> **Ostatnia rada:** pierwsze opisy sąsiadów nie będą idealne. Ważne jest, aby słuchacz zrozumiał, **kim jest**, **co robi** i **jak go postrzegasz**. Na tej podstawie poprawki gramatyczne przyjdą same wraz z praktyką.

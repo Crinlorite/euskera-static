@@ -1,0 +1,13 @@
+id: a2-bidaiak
+code: 07-bidaiak-eta-garraioa
+level: a2
+title: Bidaiak eta garraioa — a călători în bască
+order: 7
+description: Transport, bilete, cazare, pregătirea călătoriei (viitor) și povestirea ei la întoarcere (trecut).
+estimatedMinutes: 65
+covers:
+- a2-transport-vocab
+- a2-tickets-schedules
+- a2-accommodation
+- a2-travel-planning
+- a2-travel-narrative

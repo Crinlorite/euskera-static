@@ -7,60 +7,91 @@ level: a1
 order: 4
 title: Norekin bizi zara? — Cu cine locuiești
 estimatedMinutes: 10
-covers: [companions-rekin, living-arrangements]
+covers:
+- companions-rekin
+- living-arrangements
 exercises:
-  - id: ex-09-04-mp
-    type: match-pairs
-    pairs:
-      - { eu: bakarrik, es: singur/ă }
-      - { eu: lagunarekin, es: cu un/o prieten/ă }
-      - { eu: gurasoekin, es: cu părinții }
-      - { eu: bikotekidearekin, es: cu partenerul/partenera }
-      - { eu: anaiarekin, es: cu un frate }
-      - { eu: pisukideekin, es: cu colegii de apartament }
-  - id: ex-09-04-mc1
-    type: multiple-choice
-    prompt: 'Sufixul -rekin (sociativ) înseamnă…'
-    options: [spre, dinspre, cu, fără]
-    answer: 2
-    explanation: '"-rekin" indică însoțirea: "lagunarekin" = "cu prietenul/prietena".'
-  - id: ex-09-04-fb1
-    type: fill-in-blank
-    prompt: 'Locuiesc cu părinții mei = Gurasoe___ bizi naiz.'
-    answers: [kin]
-    explanation: 'La plural sufixul este "-ekin": guraso + -ekin = gurasoekin (cu părinții).'
-  - id: ex-09-04-mc2
-    type: multiple-choice
-    prompt: '"Bikotekidearekin bizi naiz" înseamnă...'
-    options: ["Locuiesc singur", "Locuiesc cu partenerul/partenera", "Locuiesc cu un coleg", "Locuiesc cu fratele meu"]
-    answer: 1
-    explanation: '"Bikotekide" = partener/parteneră (literal: "membru al cuplului"). Cu -arekin = "cu partenerul/partenera".'
-  - id: ex-09-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Norekin bizi zara?', es: 'Cu cine locuiești?' }
-      - { eu: bakarrik bizi naiz, es: locuiesc singur/ă }
-      - { eu: gurasoekin bizi naiz, es: locuiesc cu părinții mei }
-      - { eu: lagunarekin bizi naiz, es: locuiesc cu un/o prieten/ă }
-      - { eu: lagunekin bizi naiz, es: locuiesc cu prietenii mei }
-      - { eu: bikotekidearekin, es: cu partenerul/partenera mea }
-      - { eu: senarrarekin, es: cu soțul meu }
-      - { eu: emaztearekin, es: cu soția mea }
-      - { eu: anaiarekin / arrebarekin, es: cu fratele meu / sora mea }
-      - { eu: pisukidea, es: coleg/ă de apartament }
-      - { eu: txakurrarekin, es: cu câinele }
-      - { eu: katuarekin, es: cu pisica }
-      - { eu: alokairuan bizi naiz, es: locuiesc cu chirie }
-      - { eu: nire pisua da, es: este apartamentul meu (în proprietate) }
+- id: ex-09-04-mp
+  type: match-pairs
+  pairs:
+  - eu: bakarrik
+    es: solo/a
+  - eu: lagunarekin
+    es: cu un prieten/o prietenă
+  - eu: gurasoekin
+    es: cu părinții
+  - eu: bikotekidearekin
+    es: cu partenerul/partenera
+  - eu: anaiarekin
+    es: cu un frate
+  - eu: pisukideekin
+    es: cu colegii de apartament
+- id: ex-09-04-mc1
+  type: multiple-choice
+  prompt: Sufixul -rekin (sociativ) înseamnă…
+  options:
+  - spre
+  - de la
+  - cu
+  - fără
+  answer: 2
+  explanation: '„-rekin” indică compania: „lagunarekin” = „cu prietenul/prietena”.'
+- id: ex-09-04-fb1
+  type: fill-in-blank
+  prompt: Locuiesc cu părinții mei = Gurasoe___ bizi naiz.
+  answers:
+  - kin
+  explanation: 'La plural, sufixul este „-ekin”: guraso + -ekin = gurasoekin (cu părinții).'
+- id: ex-09-04-mc2
+  type: multiple-choice
+  prompt: '"Bikotekidearekin bizi naiz" înseamnă...'
+  options:
+  - Locuiesc singur
+  - Locuiesc cu partenerul/partenera mea
+  - Locuiesc cu un coleg
+  - Locuiesc cu fratele meu
+  answer: 1
+  explanation: '„Bikotekide” = partener/ă (literal: „membru al cuplului”). Cu -arekin = „cu partenerul/partenera”.'
+- id: ex-09-04-fc
+  type: flashcards
+  cards:
+  - eu: Norekin bizi zara?
+    es: Cu cine locuiești?
+  - eu: bakarrik bizi naiz
+    es: locuiesc singur/ă
+  - eu: gurasoekin bizi naiz
+    es: locuiesc cu părinții mei
+  - eu: lagunarekin bizi naiz
+    es: locuiesc cu un prieten/o prietenă
+  - eu: lagunekin bizi naiz
+    es: locuiesc cu prietenii mei
+  - eu: bikotekidearekin
+    es: cu partenerul/partenera mea
+  - eu: senarrarekin
+    es: cu soțul meu
+  - eu: emaztearekin
+    es: cu soția mea
+  - eu: anaiarekin / arrebarekin
+    es: cu fratele / sora mea
+  - eu: pisukidea
+    es: coleg/ă de apartament
+  - eu: txakurrarekin
+    es: cu câinele
+  - eu: katuarekin
+    es: cu pisica
+  - eu: alokairuan bizi naiz
+    es: locuiesc în chirie
+  - eu: nire pisua da
+    es: este apartamentul meu (proprietate personală)
 ---
 
-Una dintre întrebările de bază pentru a cunoaște pe cineva este **Norekin bizi zara?** — "Cu cine locuiești?". Răspunsul folosește sufixul **`-(r)ekin`**, numit **sociativ**, care este "cu"-ul de însoțire în euskera.
+Una dintre întrebările de bază pentru a cunoaște pe cineva este **Norekin bizi zara?** — „Cu cine locuiești?”. Răspunsul folosește sufixul **`-(r)ekin`**, numit **sociativ**, care este „cu” de companie în bască.
 
 ## Sufixul `-rekin`
 
 Se adaugă la substantiv, deja cu articolul său:
 
-| Substantiv | + -(r)ekin | Sens |
+| Substantiv | + -(r)ekin | Semnificație |
 |---|---|---|
 | laguna (prietenul/prietena) | **lagunarekin** | cu prietenul/prietena |
 | ama (mama) | **amarekin** | cu mama |
@@ -68,25 +99,25 @@ Se adaugă la substantiv, deja cu articolul său:
 | txakurra (câinele) | **txakurrarekin** | cu câinele |
 | bikotekidea (partenerul/partenera) | **bikotekidearekin** | cu partenerul/partenera |
 
-> Cu nume proprii și cu *bat* se adaugă **-(e)kin** direct, fără articol: *Miren + ekin → Mirenekin* (cu Miren), *lagun batekin* (cu un prieten).
+> La numele proprii și cu *bat* se adaugă **-(e)kin** direct, fără articol: *Miren + ekin → Mirenekin* (cu Miren), *lagun batekin* (cu un prieten).
 
 ## Plural
 
-| Plural | + -ekin | Sens |
+| Plural | + -ekin | Semnificație |
 |---|---|---|
 | gurasoak (părinții) | **gurasoekin** | cu părinții |
 | lagunak (prietenii) | **lagunekin** | cu prietenii |
-| pisukideak (colegii de apartament) | **pisukideekin** | cu colegii |
+| pisukideak (colegii de apartament) | **pisukideekin** | cu colegii de apartament |
 | seme-alabak (copiii) | **seme-alabekin** | cu copiii |
 
 ## A locui singur
 
-Dacă locuiești fără companie, nu este nevoie să folosești `-rekin`:
+Dacă locuiești fără companie, nu este necesar să folosești `-rekin`:
 
 - **Bakarrik bizi naiz.** — Locuiesc singur/ă.
 - **Bakarrik bizi naiz, baina katu batekin.** — Locuiesc singur, dar cu o pisică.
 
-## Cele mai frecvente tipuri de conviețuire
+## Cele mai comune tipuri de coabitare
 
 | Situație | Cum se spune |
 |---|---|
@@ -100,11 +131,11 @@ Dacă locuiești fără companie, nu este nevoie să folosești `-rekin`:
 
 ## Chirie sau proprietate
 
-- **Alokairuan bizi naiz.** — Locuiesc cu chirie.
-- **Nire pisua da.** — Este apartamentul meu (în proprietate).
+- **Alokairuan bizi naiz.** — Locuiesc în chirie.
+- **Nire pisua da.** — Este apartamentul meu (proprietate personală).
 - **Errenta gora doa.** — Chiria crește. *(colocvial)*
 
-## Conversație tipică
+## Exemplu de conversație
 
 > — *Kaixo Maialen! Norekin bizi zara?*
 >
@@ -114,4 +145,4 @@ Dacă locuiești fără companie, nu este nevoie să folosești `-rekin`:
 >
 > — *Ez, txikia. Hiru logela ditu.*
 
-> **Notă:** *bikotekide* este un cuvânt modern și neutru, valabil atât pentru cuplurile căsătorite, cât și necăsătorite, hetero sau homosexuale. Pentru "soț" și "soție" se folosesc în continuare **senarra** și **emaztea**.
+> **Notă:** *bikotekide* este un cuvânt modern și neutru, valabil atât pentru cuplurile căsătorite, cât și pentru cele necăsătorite, hetero sau homosexuale. Pentru „soț” și „soție” se folosesc în continuare **senarra** și **emaztea**.

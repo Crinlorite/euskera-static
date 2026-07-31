@@ -7,36 +7,57 @@ level: a1
 order: 1
 title: Família básica
 estimatedMinutes: 12
-covers: [family-basics]
+covers:
+- family-basics
 exercises:
-  - id: ex-fb-mp
-    type: match-pairs
-    pairs:
-      - { eu: aita, es: pai }
-      - { eu: ama, es: mãe }
-      - { eu: anaia, es: irmão (de um homem ou de uma mulher) }
-      - { eu: arreba, es: irmã (dita por um homem) }
-      - { eu: ahizpa, es: irmã (dita por uma mulher) }
-      - { eu: seme, es: filho }
-      - { eu: alaba, es: filha }
-  - id: ex-fb-mc1
-    type: multiple-choice
-    prompt: Maialen tem uma irmã. Como se diz "irmã" do ponto de vista de Maialen?
-    options: [arreba, ahizpa, anaia, ama]
-    answer: 1
-    explanation: 'Em euskera, uma mulher chama a irmã de "ahizpa"; um homem a chama de "arreba".'
-  - id: ex-fb-fc
-    type: flashcards
-    cards:
-      - { eu: aita, es: pai }
-      - { eu: ama, es: mãe }
-      - { eu: anaia, es: irmão }
-      - { eu: arreba, es: irmã (dele) }
-      - { eu: ahizpa, es: irmã (dela) }
-      - { eu: seme, es: filho }
-      - { eu: alaba, es: filha }
-      - { eu: gurasoak, es: pais (os) }
-      - { eu: anai-arrebak, es: irmãos e irmãs }
+- id: ex-fb-mp
+  type: match-pairs
+  pairs:
+  - eu: aita
+    es: padre
+  - eu: ama
+    es: madre
+  - eu: anaia
+    es: irmão (dito por um homem ou por uma mulher)
+  - eu: arreba
+    es: irmã (dita por um homem)
+  - eu: ahizpa
+    es: irmã (dita por uma mulher)
+  - eu: seme
+    es: hijo
+  - eu: alaba
+    es: hija
+- id: ex-fb-mc1
+  type: multiple-choice
+  prompt: Maialen tem uma irmã. Como se diz "irmã" do ponto de vista de Maialen?
+  options:
+  - arreba
+  - ahizpa
+  - anaia
+  - ama
+  answer: 1
+  explanation: Em euskera, uma mulher chama a irmã de "ahizpa"; um homem a chama de "arreba".
+- id: ex-fb-fc
+  type: flashcards
+  cards:
+  - eu: aita
+    es: pai
+  - eu: ama
+    es: mãe
+  - eu: anaia
+    es: irmão
+  - eu: arreba
+    es: irmã (dele)
+  - eu: ahizpa
+    es: irmã (dela)
+  - eu: seme
+    es: filho
+  - eu: alaba
+    es: filha
+  - eu: gurasoak
+    es: pais (os)
+  - eu: anai-arrebak
+    es: irmãos e irmãs
 ---
 
 O euskera tem uma particularidade muito interessante no vocabulário familiar: **a palavra para "irmã" depende de quem fala**.
@@ -54,7 +75,7 @@ O euskera tem uma particularidade muito interessante no vocabulário familiar: *
 
 ## O detalhe de "irmão/irmã"
 
-- **anaia** — irmão (dizem tanto homens quanto mulheres)
+- **anaia** — irmão (dito tanto por homens quanto por mulheres)
 - **arreba** — irmã, **dita por um homem**
 - **ahizpa** — irmã, **dita por uma mulher**
 

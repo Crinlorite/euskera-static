@@ -7,58 +7,92 @@ level: a1
 order: 2
 title: When? (noiz, bihar, etzi…)
 estimatedMinutes: 9
-covers: [time-when, time-expressions, questions-basic]
+covers:
+- time-when
+- time-expressions
+- questions-basic
 exercises:
-  - id: ex-noiz-mc1
-    type: multiple-choice
-    prompt: '"Tomorrow" in Basque is…'
-    options: [atzo, gaur, bihar, etzi]
-    answer: 2
-    explanation: '*Bihar* — tomorrow (the next day).'
-  - id: ex-noiz-mc2
-    type: multiple-choice
-    prompt: '"The day after tomorrow" is said…'
-    options: [bihar, etzi, atzo, gaur]
-    answer: 1
-    explanation: '*Etzi* — the day after tomorrow. It is a short and very useful word.'
-  - id: ex-noiz-fb1
-    type: fill-in-blank
-    prompt: '"Next week" = ___ astean.'
-    answers: [Datorren, datorren]
-    explanation: '*Datorren* — "the one that is coming" (literally: "coming"). *Datorren astean* is the standard form.'
-  - id: ex-noiz-fb2
-    type: fill-in-blank
-    prompt: '"When are you coming?" = ___ zatoz?'
-    answers: [Noiz, noiz]
-    explanation: '*Noiz?* — interrogative particle for "when?".'
-  - id: ex-noiz-fc
-    type: flashcards
-    cards:
-      - { eu: atzo, es: yesterday }
-      - { eu: gaur, es: today }
-      - { eu: bihar, es: tomorrow }
-      - { eu: etzi, es: the day after tomorrow }
-      - { eu: 'datorren astean', es: next week }
-      - { eu: 'datorren astelehenean', es: next Monday }
-      - { eu: 'datorren urtean', es: next year }
-      - { eu: asteburuan, es: the weekend }
-      - { eu: 'aste honetan', es: this week }
-      - { eu: 'orain', es: now }
-      - { eu: 'gero', es: 'later, afterwards' }
-      - { eu: 'lehen', es: before }
-      - { eu: 'noiz?', es: when? }
-  - id: ex-noiz-mp
-    type: match-pairs
-    pairs:
-      - { eu: atzo, es: yesterday }
-      - { eu: gaur, es: today }
-      - { eu: bihar, es: tomorrow }
-      - { eu: etzi, es: the day after tomorrow }
-      - { eu: 'datorren astean', es: next week }
-      - { eu: 'datorren urtean', es: next year }
+- id: ex-noiz-mc1
+  type: multiple-choice
+  prompt: '"Tomorrow" in Basque is…'
+  options:
+  - atzo
+  - gaur
+  - bihar
+  - etzi
+  answer: 2
+  explanation: '*Bihar* — tomorrow (the next day).'
+- id: ex-noiz-mc2
+  type: multiple-choice
+  prompt: '"The day after tomorrow" is…'
+  options:
+  - bihar
+  - etzi
+  - atzo
+  - gaur
+  answer: 1
+  explanation: '*Etzi* — the day after tomorrow. It''s a short and very useful word.'
+- id: ex-noiz-fb1
+  type: fill-in-blank
+  prompt: '"Next week" = ___ astean.'
+  answers:
+  - Datorren
+  - datorren
+  explanation: '*Datorren* — "the next" or "the coming one" (literally: "that comes"). *Datorren astean* is the standard form.'
+- id: ex-noiz-fb2
+  type: fill-in-blank
+  prompt: '"When are you coming?" = ___ zatoz?'
+  answers:
+  - Noiz
+  - noiz
+  explanation: '*Noiz?* — interrogative particle for "when?".'
+- id: ex-noiz-fc
+  type: flashcards
+  cards:
+  - eu: atzo
+    es: yesterday
+  - eu: gaur
+    es: today
+  - eu: bihar
+    es: tomorrow
+  - eu: etzi
+    es: the day after tomorrow
+  - eu: datorren astean
+    es: next week
+  - eu: datorren astelehenean
+    es: next Monday
+  - eu: datorren urtean
+    es: next year
+  - eu: asteburuan
+    es: the weekend
+  - eu: aste honetan
+    es: this week
+  - eu: orain
+    es: now
+  - eu: gero
+    es: later, after
+  - eu: lehen
+    es: before
+  - eu: noiz?
+    es: when?
+- id: ex-noiz-mp
+  type: match-pairs
+  pairs:
+  - eu: atzo
+    es: ayer
+  - eu: gaur
+    es: hoy
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasado mañana
+  - eu: datorren astean
+    es: next week
+  - eu: datorren urtean
+    es: next year
 ---
 
-To talk about plans you have to master time markers. Here you have the ones on the past-present-future axis and the most used ones for the near future.
+To talk about plans, you need to master time markers. Here are the ones for the past-present-future axis and the most common ones for the near future.
 
 ## The basic axis
 
@@ -68,13 +102,13 @@ To talk about plans you have to master time markers. Here you have the ones on t
 | *gaur* | today |
 | *bihar* | tomorrow |
 | *etzi* | the day after tomorrow |
-| *etziluma / etzidamu* | "two days after tomorrow" (rarely used) |
+| *etziluma / etzidamu* | "the day after the day after tomorrow" (rarely used) |
 
-Three short words (*atzo, gaur, bihar*) and *etzi* — with that you can handle almost any everyday conversation about dates.
+Three short words (*atzo, gaur, bihar*) and *etzi* — with these, you can handle almost any daily conversation about dates.
 
-## `Datorren` (coming / next)
+## `Datorren` (coming)
 
-To talk about "next week", "next month" you use **datorren** + noun:
+To talk about "next week" or "next month," you use **datorren** + noun:
 
 | Basque | English |
 |---|---|
@@ -83,11 +117,11 @@ To talk about "next week", "next month" you use **datorren** + noun:
 | *datorren hilean* | next month |
 | *datorren urtean* | next year |
 
-`Datorren` means "coming" (it is the relative form of the verb *etorri*, to come). The important thing is to learn it as a block.
+`Datorren` means "that comes" or "coming" (it's the relative form of the verb *etorri*, to come). The important thing is to learn it as a block.
 
 ## "This" — `hau` / `honetan`
 
-For "this week", "this weekend":
+For "this week," "this weekend":
 
 - *aste honetan* — this week
 - *asteburu honetan* — this weekend
@@ -98,7 +132,7 @@ For "this week", "this weekend":
 | Basque | English |
 |---|---|
 | *orain* | now |
-| *gero* | later, afterwards |
+| *gero* | later, after |
 | *lehen* | before |
 | *gaur goizean* | this morning |
 | *gaur arratsaldean* | this afternoon |
@@ -111,13 +145,13 @@ For "this week", "this weekend":
 
 - **Noiz?** — When?
 - **Noiz etorriko zara?** — When will you come?
-- **Noiz egingo dugu afaria?** — When will we have dinner?
+- **Noiz egingo dugu afaria?** — When will we make dinner?
 
 ## Examples in context
 
-- *Bihar mendira joango naiz.* — Tomorrow I will go to the mountains.
-- *Etzi euskara klasea dut.* — The day after tomorrow I have a Basque class.
+- *Bihar mendira joango naiz.* — Tomorrow I will go to the mountain.
+- *Etzi euskara klasea dut.* — The day after tomorrow I have Basque class.
 - *Datorren astean lan asko izango dut.* — Next week I will have a lot of work.
-- *Asteburu honetan ez dut planik.* — This weekend I have no plans.
+- *Asteburu honetan ez dut planik.* — This weekend I don't have any plans.
 
-> **Cultural note:** in Basque "morning" as a time of day is *goiza* and "tomorrow" as the next day is *bihar*. The phrase *bihar goizean* ("tomorrow morning") combines the two. In the first conversations it is very common to slip up on this nuance, so it is worth fixing it from the start.
+> **Cultural note:** in Basque, "morning" as a time of day is *goiza*, and "tomorrow" as the next day is *bihar*. The phrase *bihar goizean* ("tomorrow morning") combines both. It's very common to get this nuance wrong in early conversations, so it's a good idea to get it straight from the beginning.

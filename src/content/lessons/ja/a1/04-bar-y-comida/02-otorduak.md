@@ -7,101 +7,132 @@ level: a1
 order: 2
 title: 一日の食事 (otorduak)
 estimatedMinutes: 10
-covers: [meals]
+covers:
+- meals
 exercises:
-  - id: ex-otr-mc1
-    type: multiple-choice
-    prompt: '「Bazkaria」の意味は…'
-    options: [朝食, 昼の食事, おやつ, 夕食]
-    answer: 1
-    explanation: '*bazkaria* は昼のメインの食事です。'
-  - id: ex-otr-mc2
-    type: multiple-choice
-    prompt: '「午前中のおやつ」(11時の休憩)はどう言いますか？'
-    options: [gosaria, hamaiketakoa, bazkaria, afaria]
-    answer: 1
-    explanation: '*hamaiketakoa* (直訳：「11時のもの」)は午前中のおやつで、とてもバスク的な習慣です。'
-  - id: ex-otr-fb1
-    type: fill-in-blank
-    prompt: '食べる (動詞) = ___。'
-    answers: [jan]
-    explanation: '*jan* = 食べる。不定詞の基本形です。'
-  - id: ex-otr-fb2
-    type: fill-in-blank
-    prompt: '飲む (動詞) = ___。'
-    answers: [edan]
-    explanation: '*edan* = 飲む。'
-  - id: ex-otr-fc
-    type: flashcards
-    cards:
-      - { eu: gosaria, es: 朝食 }
-      - { eu: hamaiketakoa, es: 午前中のおやつ }
-      - { eu: bazkaria, es: 昼の食事 }
-      - { eu: askaria, es: おやつ }
-      - { eu: afaria, es: 夕食 }
-      - { eu: otordua, es: 食事(一般) }
-      - { eu: jan, es: 食べる }
-      - { eu: edan, es: 飲む }
-      - { eu: gosaldu, es: 朝食をとる }
-      - { eu: bazkaldu, es: 昼食をとる }
-      - { eu: afaldu, es: 夕食をとる }
-      - { eu: gose naiz, es: お腹がすいている }
-      - { eu: egarri naiz, es: のどが渇いている }
-  - id: ex-otr-mp
-    type: match-pairs
-    pairs:
-      - { eu: gosaria, es: 朝食 }
-      - { eu: hamaiketakoa, es: 午前中のおやつ }
-      - { eu: bazkaria, es: 昼の食事 }
-      - { eu: askaria, es: おやつ }
-      - { eu: afaria, es: 夕食 }
-      - { eu: jan, es: 食べる }
-      - { eu: edan, es: 飲む }
+- id: ex-otr-mc1
+  type: multiple-choice
+  prompt: '"Bazkaria"の意味は…'
+  options:
+  - 朝食
+  - 昼食
+  - おやつ
+  - 夕食
+  answer: 1
+  explanation: '*bazkaria*は正午の主な食事です。'
+- id: ex-otr-mc2
+  type: multiple-choice
+  prompt: 「午前中の軽食」（11時の休憩）は、何と言いますか？
+  options:
+  - gosaria
+  - hamaiketakoa
+  - bazkaria
+  - afaria
+  answer: 1
+  explanation: '*hamaiketakoa*（直訳：「11時のもの」）がその午前中の軽食で、非常にバスク的な習慣です。'
+- id: ex-otr-fb1
+  type: fill-in-blank
+  prompt: 食べる（動詞）= ___。
+  answers:
+  - jan
+  explanation: '*jan* = 食べる。不定詞の基本形です。'
+- id: ex-otr-fb2
+  type: fill-in-blank
+  prompt: 飲む（動詞）= ___。
+  answers:
+  - edan
+  explanation: '*edan* = 飲む。'
+- id: ex-otr-fc
+  type: flashcards
+  cards:
+  - eu: gosaria
+    es: 朝食
+  - eu: hamaiketakoa
+    es: 午前中の軽食
+  - eu: bazkaria
+    es: 昼食
+  - eu: askaria
+    es: おやつ
+  - eu: afaria
+    es: 夕食
+  - eu: otordua
+    es: 食事（一般的）
+  - eu: jan
+    es: 食べる
+  - eu: edan
+    es: 飲む
+  - eu: gosaldu
+    es: 朝食をとる
+  - eu: bazkaldu
+    es: 昼食をとる
+  - eu: afaldu
+    es: 夕食をとる
+  - eu: gose naiz
+    es: お腹が空いた
+  - eu: egarri naiz
+    es: 喉が渇いた
+- id: ex-otr-mp
+  type: match-pairs
+  pairs:
+  - eu: gosaria
+    es: desayuno
+  - eu: hamaiketakoa
+    es: 午前中の軽食
+  - eu: bazkaria
+    es: 昼食
+  - eu: askaria
+    es: merienda
+  - eu: afaria
+    es: cena
+  - eu: jan
+    es: comer
+  - eu: edan
+    es: beber
 ---
 
-一日のそれぞれの食事にはエウスケラでの名前があり、それらを知ることで日々の習慣について話す助けになります。さらに、バスク独特の食事で、日本語に直接の対応語がないものがあります。**hamaiketako** です。
+バスク語では、一日の各食事に名前があります。これらを知っておくと、日々の習慣について話すのに役立ちます。また、スペイン語に直接の訳語がない、バスク特有の食事があります。それが**hamaiketako**です。
 
-## 一日の五つの食事
+## 一日の5回の食事
 
-| エウスケラ | 日本語 | いつ |
+| バスク語 | 日本語 | いつ |
 |---|---|---|
 | *gosaria* | 朝食 | 朝 |
-| *hamaiketakoa* | 午前中のおやつ | 11時ごろ |
-| *bazkaria* | 食事(メイン) | 13時～14時 |
+| *hamaiketakoa* | 午前中の軽食 | 11時頃 |
+| *bazkaria* | 昼食（主な食事） | 13時〜14時 |
 | *askaria* | おやつ | 午後 |
 | *afaria* | 夕食 | 夜 |
 
-> **Hamaiketakoa** は直訳すると「11時のもの」(*hamaika* = 11) です。これは午前中の典型的なバスクの休憩で、*pintxo* や、コーヒー、または何かを添えた *zurito* をとります。しっかりした朝食でも、食事でもなく、その中間のもので、通りやバル(居酒屋)で、同僚や仲間(cuadrilla)と一緒にとります。
+> **Hamaiketakoa**は文字通り「11時のもの」という意味です（*hamaika* = 11）。これは午前中の典型的なバスクの休憩で、*pintxo*やコーヒー、*zurito*などを軽く摂ります。しっかりした朝食でも昼食でもありません。その中間のようなもので、外のバル（taberna）で、同僚や仲間（cuadrilla）ととるものです。
 
-## 動詞：jan、edan と専用の動詞
+## 動詞：jan, edanと特定の動詞
 
-| エウスケラ | 日本語 |
+| バスク語 | 日本語 |
 |---|---|
-| *jan* | 食べる(一般) |
+| *jan* | 食べる（一般） |
 | *edan* | 飲む |
 | *gosaldu* | 朝食をとる |
 | *bazkaldu* | 昼食をとる |
 | *afaldu* | 夕食をとる |
 
-> 食事ごとに専用の動詞があります(日本語の「朝食をとる/昼食をとる/夕食をとる」と同じです)。A1では活用するより見分けられるようになることが目標です。今のところは、それらが存在することを知っていれば十分です。
+> 食事ごとに特定の動詞があります。A1レベルでは、これらの動詞を活用させるよりも、まずは見てわかるようになることが目標です。今のところは、その存在を知っておくだけで十分です。
 
-## 空腹とのどの渇き
+## 空腹と喉の渇き
 
-エウスケラで「お腹がすいている」「のどが渇いている」と言うには、(日本語やフランス語のように)**「持つ」という動詞は使いません**。代わりに **izan**(「～である」)という動詞を使います。
+バスク語で「お腹が空いた」「喉が渇いた」と言うには、（スペイン語やフランス語のように）「持つ」という動詞は**使いません**。代わりに**izan**（〜である）という動詞を使います：
 
-- **Gose naiz.** — お腹がすいています。(直訳：「私は空腹である」)
-- **Egarri naiz.** — のどが渇いています。(直訳：「私は渇いている」)
-- **Maialen gose da.** — Maialen はお腹がすいています。
-- **Gu egarri gara.** — 私たちはのどが渇いています。
+- **Gose naiz.** — お腹が空きました。（直訳：「私は空腹です」）
+- **Egarri naiz.** — 喉が渇きました。（直訳：「私は喉が渇いています」）
+- **Maialen gose da.** — マイアレンはお腹が空いています。
+- **Gu egarri gara.** — 私たちは喉が渇いています。
 
-> この構文は驚くかもしれません。エウスケラでは、空腹、のどの渇き、眠気などの身体的な感覚は、まるで存在の状態であるかのように、しばしば *izan* + 形容詞で表現されます。*logura naiz*(眠い)でも同じパターンが見られます。注意：「寒い」はこのパターンに従わず、*hotzak nago* と、*egon* を使って言います。
+> この構文には驚くかもしれません。バスク語では、空腹、喉の渇き、眠気といった身体的な感覚は、まるで存在の状態であるかのように、*izan* + 形容詞で表現されることがよくあります。これは *logura naiz*（眠い）でも見られます。注意：「寒い」はこのパターンには従いません。*egon* を使って *hotzak nago* と言います。
 
-## よく使うフレーズ
+## 典型的なフレーズ
 
-- *Goizean gosaria hartzen dut.* — 朝、私は朝食をとります(直訳：「朝食をとる」)。
-- *Hamaiketakoa egiten dugu lankideekin.* — 私たちは同僚と一緒に *hamaiketako* をとります。
-- *Etxean bazkaltzen dut.* — 私は家で昼食をとります。
-- *Afari ona prestatu dugu.* — 私たちはおいしい夕食を用意しました。
-- *Gose naiz, zer dago jateko?* — お腹がすいています、何か食べるものはありますか？
+- *Goizean gosaria hartzen dut.* — 朝、朝食をとります。（直訳：「朝食を取る」）。
+- *Hamaiketakoa egiten dugu lankideekin.* — 同僚たちと*hamaiketako*をします。
+- *Etxean bazkaltzen dut.* — 家で昼食をとります。
+- *Afari ona prestatu dugu.* — 美味しい夕食を用意しました。
+- *Gose naiz, zer dago jateko?* — お腹が空いた、何か食べるものある？
 
-> **文化的なメモ：** Euskal Herria での食事の時間は、半島(スペイン)の他の地域と似ています。朝食は早く、*hamaiketako* は11時ごろ、*bazkaria* は14時～15時ごろ、おやつは18時ごろ、夕食は21時かそれより遅い時間です。
+> **文化メモ：**バスク地方での食事の時間は、イベリア半島の他の地域とだいたい同じです。朝早くに朝食、11時頃に*hamaiketako*、14時〜15時頃に*bazkaria*、18時頃におやつ、そして夕食は21時かそれ以降です。

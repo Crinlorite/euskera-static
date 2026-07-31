@@ -7,56 +7,92 @@ level: a1
 order: 5
 title: Nire etxea — Das eigene Haus beschreiben
 estimatedMinutes: 12
-covers: [house-description, home-rooms, furniture, house-chores, companions-rekin]
+covers:
+- house-description
+- home-rooms
+- furniture
+- house-chores
+- companions-rekin
 exercises:
-  - id: ex-09-05-mc1
-    type: multiple-choice
-    prompt: 'Um zu fragen "Wie viele Zimmer hat es?", sagst du…'
-    options: ["Non dago etxea?", "Zenbat gela ditu?", "Norekin bizi zara?", "Zer egiten duzu?"]
-    answer: 1
-    explanation: '"Zenbat" = wie viel(e), "gela" = Zimmer, "ditu" = es hat (mehrere Objekte).'
-  - id: ex-09-05-fb1
-    type: fill-in-blank
-    prompt: 'Mein Haus ist hell = Nire etxea ___ da.'
-    answers: [argitsua]
-    explanation: '"Argitsua" = hell (von "argi" = Licht + Suffix -tsu, das Fülle ausdrückt).'
-  - id: ex-09-05-mc2
-    type: multiple-choice
-    prompt: '"Etxea hirugarren solairuan dago" bedeutet...'
-    options: [Das Haus hat drei Zimmer, Das Haus ist im dritten Stock, Das Haus hat drei Fenster, Das Haus kostet dreitausend]
-    answer: 1
-    explanation: '"Hirugarren" = dritter, "solairua" = Stock, "dago" = ist. "Es ist im dritten Stock".'
-  - id: ex-09-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: argitsua, es: hell }
-      - { eu: handia, es: groß }
-      - { eu: txikia, es: klein }
-      - { eu: lasaia, es: ruhig }
-      - { eu: berria, es: neu }
-      - { eu: zaharra, es: alt }
-  - id: ex-09-05-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nolakoa da zure etxea?', es: 'Wie ist dein Haus?' }
-      - { eu: argitsua, es: hell }
-      - { eu: iluna, es: dunkel }
-      - { eu: handia, es: groß }
-      - { eu: txikia, es: klein }
-      - { eu: lasaia, es: ruhig }
-      - { eu: zaratatsua, es: laut }
-      - { eu: berria, es: neu }
-      - { eu: zaharra, es: alt }
-      - { eu: erosoa, es: gemütlich }
-      - { eu: 'Non dago zure etxea?', es: 'Wo ist dein Haus?' }
-      - { eu: erdigunean, es: im Zentrum }
-      - { eu: auzo lasai batean, es: in einem ruhigen Viertel }
-      - { eu: hirugarren solairuan, es: im dritten Stock }
-      - { eu: 'Etxeak badu igogailua?', es: 'Hat das Haus einen Aufzug?' }
-      - { eu: 'Norekin bizi zara?', es: 'Mit wem wohnst du?' }
+- id: ex-09-05-mc1
+  type: multiple-choice
+  prompt: Um zu fragen „Wie viele Zimmer hat es?“, sagst du …
+  options:
+  - Non dago etxea?
+  - Zenbat gela ditu?
+  - Norekin bizi zara?
+  - Zer egiten duzu?
+  answer: 1
+  explanation: '"Zenbat" = wie viel/e, "gela" = Zimmer, "ditu" = es hat (mehrere Objekte).'
+- id: ex-09-05-fb1
+  type: fill-in-blank
+  prompt: Mein Haus ist hell = Nire etxea ___ da.
+  answers:
+  - argitsua
+  explanation: '"Argitsua" = hell (von "argi" = Licht + Suffix -tsu für Fülle).'
+- id: ex-09-05-mc2
+  type: multiple-choice
+  prompt: '"Etxea hirugarren solairuan dago" bedeutet ...'
+  options:
+  - Das Haus hat drei Zimmer
+  - Das Haus ist im dritten Stockwerk
+  - Das Haus hat drei Fenster
+  - Das Haus kostet dreitausend
+  answer: 1
+  explanation: '"Hirugarren" = dritte/r/s, "solairua" = Stockwerk, "dago" = es ist/befindet sich. „Es ist im dritten Stockwerk“.'
+- id: ex-09-05-mp
+  type: match-pairs
+  pairs:
+  - eu: argitsua
+    es: luminoso/a
+  - eu: handia
+    es: grande
+  - eu: txikia
+    es: pequeño/a
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berria
+    es: nuevo/a
+  - eu: zaharra
+    es: viejo/a
+- id: ex-09-05-fc
+  type: flashcards
+  cards:
+  - eu: Nolakoa da zure etxea?
+    es: Wie ist dein Haus?
+  - eu: argitsua
+    es: hell
+  - eu: iluna
+    es: dunkel
+  - eu: handia
+    es: groß
+  - eu: txikia
+    es: klein
+  - eu: lasaia
+    es: ruhig
+  - eu: zaratatsua
+    es: laut
+  - eu: berria
+    es: neu
+  - eu: zaharra
+    es: alt
+  - eu: erosoa
+    es: bequem
+  - eu: Non dago zure etxea?
+    es: Wo ist dein Haus?
+  - eu: erdigunean
+    es: im Zentrum
+  - eu: auzo lasai batean
+    es: in einem ruhigen Viertel
+  - eu: hirugarren solairuan
+    es: im dritten Stockwerk
+  - eu: Etxeak badu igogailua?
+    es: Hat das Haus einen Aufzug?
+  - eu: Norekin bizi zara?
+    es: Mit wem wohnst du?
 ---
 
-Diese Lektion fasst alles aus Thema 9 zusammen: die Zimmer, die Möbel, die Aufgaben und mit wem du wohnst. Das Ziel ist, dass du **dein Haus beschreiben** kannst, in einfachen Sätzen, so als würdest du im Unterricht oder in einem lockeren Gespräch danach gefragt.
+In dieser Lektion wird alles aus Thema 9 zusammengefasst: die Zimmer, die Möbel, die Hausarbeiten und mit wem du wohnst. Das Ziel ist, dass du **dein Haus beschreiben** kannst, und zwar in einfachen Sätzen, so als ob man dich im Unterricht oder in einem informellen Gespräch fragen würde.
 
 ## Die grundlegenden Fragen
 
@@ -66,12 +102,12 @@ Diese Lektion fasst alles aus Thema 9 zusammen: die Zimmer, die Möbel, die Aufg
 | *Nolakoa da?* | Wie ist es? |
 | *Zenbat gela ditu?* | Wie viele Zimmer hat es? |
 | *Norekin bizi zara?* | Mit wem wohnst du? |
-| *Zenbatgarren solairuan bizi zara?* | In welchem Stock wohnst du? |
+| *Zenbatgarren solairuan bizi zara?* | In welchem Stockwerk wohnst du? |
 | *Etxeak badu igogailua / balkoia / terraza?* | Hat das Haus einen Aufzug / Balkon / eine Terrasse? |
 
 ## Nützliche Adjektive, um das Haus zu beschreiben
 
-| Euskera | Deutsch |
+| Baskisch | Deutsch |
 |---|---|
 | *handia* | groß |
 | *txikia* | klein |
@@ -81,13 +117,13 @@ Diese Lektion fasst alles aus Thema 9 zusammen: die Zimmer, die Möbel, die Aufg
 | *zaharra* | alt |
 | *lasaia* | ruhig |
 | *zaratatsua* | laut |
-| *erosoa* | gemütlich |
+| *erosoa* | bequem |
 | *garestia* | teuer |
 | *merkea* | billig |
 
-> Denk an das Muster **NOLAKOA da?**, das du in anderen Einheiten schon gesehen hast: die Antwort enthält das Adjektiv + die Endung `-a` + das Verb *izan*. Z. B.: *Nire etxea **handia da**.* — Mein Haus ist groß.
+> Erinnere dich an das Muster **NOLAKOA da?**, das du schon in anderen Lektionen gesehen hast: Die Antwort enthält das Adjektiv + das finale `-a` + das Verb *izan*. Bsp.: *Nire etxea **handia da**.* — Mein Haus ist groß.
 
-## Ein Musterabsatz
+## Ein Beispielabsatz
 
 Hier hast du einen einfachen Text, der ein Haus beschreibt. Lies ihn laut vor und achte auf die Muster.
 
@@ -95,27 +131,27 @@ Hier hast du einen einfachen Text, der ein Haus beschreibt. Lies ihn laut vor un
 >
 > *Bikotekidearekin bizi naiz. Berak bazkaria prestatzen du, eta nik ontziak garbitzen ditut. Asteburuetan biok elkarrekin egiten dugu erosketa.*
 
-## Du bist dran: beschreibe dein Haus
+## Du bist dran: Beschreibe dein Haus
 
-Bau deinen eigenen Absatz, indem du in dieser Reihenfolge antwortest:
+Bilde deinen eigenen Absatz, indem du in dieser Reihenfolge antwortest:
 
 1. **Non bizi zara?** (Wo wohnst du?) → *X-(e)an bizi naiz.*
 2. **Nolakoa da etxea?** (Wie ist es?) → *Nire etxea handia / argitsua / lasaia da.*
-3. **Zenbat gela ditu?** (Wie viele Zimmer?) → *Bi / Hiru / Lau gela ditu.*
-4. **Zer dago etxean?** (Was gibt es?) → *Sukaldea, egongela, bi logela eta komun bat ditu.*
-5. **Norekin bizi zara?** → *Bakarrik / Gurasoekin / Lagunekin bizi naiz.*
-6. **Etxeko lanak nork egiten ditu?** → *Nik egunero garbitzen dut* / *Pisukideen artean banatzen ditugu.*
+3. **Zenbat gela ditu?** (Wie viele Zimmer hat es?) → *Bi / Hiru / Lau gela ditu.*
+4. **Zer dago etxean?** (Was gibt es im Haus?) → *Sukaldea, egongela, bi logela eta komun bat ditu.*
+5. **Norekin bizi zara?** (Mit wem wohnst du?) → *Bakarrik / Gurasoekin / Lagunekin bizi naiz.*
+6. **Etxeko lanak nork egiten ditu?** (Wer macht die Hausarbeit?) → *Nik egunero garbitzen dut* / *Pisukideen artean banatzen ditugu.*
 
-## Abschlussvokabular
+## Abschließender Wortschatz
 
-| Euskera | Deutsch |
+| Baskisch | Deutsch |
 |---|---|
 | *etxebizitza* | Wohnung |
 | *etxejabea* | Eigentümer |
 | *alokairua* | Miete |
-| *errenta* | monatliche Miete |
-| *auzoa* | Viertel |
-| *erdigunea* | Stadtzentrum |
-| *aldiriak* | Außenbezirk / Vororte |
+| *errenta* | Miete / monatliche Miete |
+| *auzoa* | Stadtviertel |
+| *erdigunea* | Zentrum (der Stadt) |
+| *aldiriak* | Stadtrand / Vororte |
 
-> **Tipp:** Wenn du im Unterricht über dein Haus sprichst, versuche nicht, jedes Detail zu übersetzen. Bleib bei kurzen und gut gebauten Sätzen. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* ist eine bessere Beschreibung als ein langer Satz voller Fehler.
+> **Tipp:** Wenn du im Unterricht über dein Haus sprichst, versuche nicht, jedes Detail zu übersetzen. Bleib bei kurzen und gut formulierten Sätzen. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* ist eine bessere Beschreibung als ein langer Satz voller Fehler.

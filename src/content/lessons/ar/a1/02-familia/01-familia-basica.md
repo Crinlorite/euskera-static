@@ -7,39 +7,60 @@ level: a1
 order: 1
 title: العائلة الأساسية
 estimatedMinutes: 12
-covers: [family-basics]
+covers:
+- family-basics
 exercises:
-  - id: ex-fb-mp
-    type: match-pairs
-    pairs:
-      - { eu: aita, es: أب }
-      - { eu: ama, es: أم }
-      - { eu: anaia, es: أخ (لرجل أو لامرأة) }
-      - { eu: arreba, es: أخت (يقولها الرجل) }
-      - { eu: ahizpa, es: أخت (تقولها المرأة) }
-      - { eu: seme, es: ابن }
-      - { eu: alaba, es: ابنة }
-  - id: ex-fb-mc1
-    type: multiple-choice
-    prompt: لدى Maialen أخت. كيف تُقال كلمة «أخت» من وجهة نظر Maialen؟
-    options: [arreba, ahizpa, anaia, ama]
-    answer: 1
-    explanation: 'في اللغة الباسكية، تنادي المرأةُ أختَها بكلمة "ahizpa"؛ أمّا الرجل فيناديها بكلمة "arreba".'
-  - id: ex-fb-fc
-    type: flashcards
-    cards:
-      - { eu: aita, es: أب }
-      - { eu: ama, es: أم }
-      - { eu: anaia, es: أخ }
-      - { eu: arreba, es: أخت (من وجهة نظره) }
-      - { eu: ahizpa, es: أخت (من وجهة نظرها) }
-      - { eu: seme, es: ابن }
-      - { eu: alaba, es: ابنة }
-      - { eu: gurasoak, es: الوالدان }
-      - { eu: anai-arrebak, es: الإخوة والأخوات }
+- id: ex-fb-mp
+  type: match-pairs
+  pairs:
+  - eu: aita
+    es: padre
+  - eu: ama
+    es: madre
+  - eu: anaia
+    es: أخ (لرجل أو لامرأة)
+  - eu: arreba
+    es: أخت (يقولها رجل)
+  - eu: ahizpa
+    es: أخت (تقولها امرأة)
+  - eu: seme
+    es: hijo
+  - eu: alaba
+    es: hija
+- id: ex-fb-mc1
+  type: multiple-choice
+  prompt: لدى Maialen أخت. كيف تُسمى "الأخت" من وجهة نظر Maialen؟
+  options:
+  - arreba
+  - ahizpa
+  - anaia
+  - ama
+  answer: 1
+  explanation: في اللغة الباسكية، تسمي المرأة أختها "ahizpa"؛ بينما يسميها الرجل "arreba".
+- id: ex-fb-fc
+  type: flashcards
+  cards:
+  - eu: aita
+    es: أب
+  - eu: ama
+    es: أم
+  - eu: anaia
+    es: أخ
+  - eu: arreba
+    es: أخت (له)
+  - eu: ahizpa
+    es: أخت (لها)
+  - eu: seme
+    es: ابن
+  - eu: alaba
+    es: ابنة
+  - eu: gurasoak
+    es: الوالدان
+  - eu: anai-arrebak
+    es: إخوة وأخوات
 ---
 
-تتميّز اللغة الباسكية بخاصية مثيرة للاهتمام جدًّا في مفردات العائلة: **فالكلمة التي تعني «أخت» تعتمد على من يتكلّم**.
+اللغة الباسكية لديها خصوصية مثيرة للاهتمام في مفردات العائلة: **كلمة "أخت" تعتمد على من يتحدث**.
 
 ## المفردات الأساسية
 
@@ -50,26 +71,26 @@ exercises:
 | *gurasoak* | الوالدان |
 | *seme* | ابن |
 | *alaba* | ابنة |
-| *seme-alabak* | الأبناء والبنات |
+| *seme-alabak* | أبناء وبنات |
 
-## تفصيل كلمة «أخ/أخت»
+## تفاصيل كلمة "أخ/أخت"
 
-- **anaia** — أخ (يقولها الرجال والنساء على حدّ سواء)
+- **anaia** — أخ (يقولها الرجال والنساء على حد سواء)
 - **arreba** — أخت، **يقولها الرجل**
 - **ahizpa** — أخت، **تقولها المرأة**
 
-وبالتالي:
+لذلك:
 
-> يقول **Egoitz**: *"Nire arreba Maialen da."* (أختي هي Maialen.)
+> **Egoitz** يقول: *"Nire arreba Maialen da."* (أختي هي Maialen.)
 >
-> تقول **Maialen**: *"Nire ahizpa Naia da."* (أختي هي Naia.)
+> **Maialen** تقول: *"Nire ahizpa Naia da."* (أختي هي Naia.)
 >
-> ويقول كلٌّ من Egoitz وMaialen: *"Nire anaia Hodei da."* (أخي هو Hodei.)
+> كل من Egoitz و Maialen يقول: *"Nire anaia Hodei da."* (أخي هو Hodei.)
 
-يعكس هذا تمييزًا قديمًا جدًّا في اللغة الباسكية. ولا يوجد له مقابل مباشر في العربية، ويُتعلَّم بالممارسة. وإذا أخطأت في البداية، فلا بأس بذلك — فالجميع سيفهمونك.
+يعكس هذا تمييزًا قديمًا جدًا في اللغة الباسكية. ليس له مقابل مباشر في العربية ويُتعلم بالاستخدام. إذا أخطأت في البداية، فلا بأس — سيفهمك الجميع.
 
-## صيغ الجمع المفيدة
+## صيغ جمع مفيدة
 
-- **anai-arrebak** — الإخوة والأخوات (صيغة عامة، دون تمييز)
+- **anai-arrebak** — إخوة وأخوات (صيغة عامة، بدون تمييز)
 - **gurasoak** — الوالدان
-- **seme-alabak** — الأبناء والبنات
+- **seme-alabak** — أبناء وبنات

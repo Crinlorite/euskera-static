@@ -7,58 +7,92 @@ level: a1
 order: 3
 title: Les xeres doméstiques
 estimatedMinutes: 12
-covers: [house-chores]
+covers:
+- house-chores
 exercises:
-  - id: ex-09-03-mp
-    type: match-pairs
-    pairs:
-      - { eu: garbitu, es: llimpiar }
-      - { eu: prestatu, es: preparar }
-      - { eu: jaso, es: recoyer }
-      - { eu: lisatu, es: planchar }
-      - { eu: erosketak egin, es: facer la compra }
-      - { eu: zaborra atera, es: sacar la basura }
-  - id: ex-09-03-mc1
-    type: multiple-choice
-    prompt: '¿Cómo dices "fregar los platos"?'
-    options: [arropa lisatu, ohea jantzi, ontziak garbitu, lurra erratu]
-    answer: 2
-    explanation: '"Ontziak garbitu" (lliteralmente "llimpiar los platos") = fregar. Tamién se diz "harrikoa egin".'
-  - id: ex-09-03-mc2
-    type: multiple-choice
-    prompt: '"Ohea jantzi" ye...'
-    options: [facer la cama, desfacer la cama, mercar una cama, llavar les sábanes]
-    answer: 0
-    explanation: '"Jantzi" significa vistir/poner; "ohea jantzi" = poner/facer la cama.'
-  - id: ex-09-03-fb1
-    type: fill-in-blank
-    prompt: 'Yo llimpio el bañu = Nik komuna ___.'
-    answers: [garbitzen dut]
-    explanation: 'Pa una aición habitual usamos `-tzen` + verbu auxiliar (presente): "garbitzen dut" = llimpio.'
-  - id: ex-09-03-fc
-    type: flashcards
-    cards:
-      - { eu: etxeko lanak, es: les xeres doméstiques }
-      - { eu: garbitu, es: llimpiar }
-      - { eu: prestatu, es: preparar }
-      - { eu: jaso, es: recoyer }
-      - { eu: lisatu, es: planchar }
-      - { eu: ohea jantzi, es: facer la cama }
-      - { eu: ontziak garbitu, es: fregar los platos }
-      - { eu: harrikoa egin, es: fregar (espresión) }
-      - { eu: arropa lisatu, es: planchar la ropa }
-      - { eu: arropa zabaldu, es: tender la ropa }
-      - { eu: zaborra atera, es: sacar la basura }
-      - { eu: erosketak egin, es: facer la compra }
-      - { eu: xurgagailua pasa, es: pasar l'aspiradora }
-      - { eu: bazkaria prestatu, es: preparar la comida }
-      - { eu: txakurra paseatu, es: pasear al perru }
-      - { eu: 'Nork egiten du?', es: '¿Quién lo fai?' }
-      - { eu: egunero, es: tolos díes }
-      - { eu: astean behin, es: una vez per selmana }
+- id: ex-09-03-mp
+  type: match-pairs
+  pairs:
+  - eu: garbitu
+    es: limpiar
+  - eu: prestatu
+    es: preparar
+  - eu: jaso
+    es: recoger
+  - eu: lisatu
+    es: planchar
+  - eu: erosketak egin
+    es: facer la compra
+  - eu: zaborra atera
+    es: sacar la basura
+- id: ex-09-03-mc1
+  type: multiple-choice
+  prompt: ¿Cómo se diz «fregar los platos»?
+  options:
+  - arropa lisatu
+  - ohea jantzi
+  - ontziak garbitu
+  - lurra erratu
+  answer: 2
+  explanation: «Ontziak garbitu» (lliteralmente «llimpiar los platos») = fregar. Tamién se diz «harrikoa egin».
+- id: ex-09-03-mc2
+  type: multiple-choice
+  prompt: «Ohea jantzi» ye...
+  options:
+  - facer la cama
+  - desfacer la cama
+  - mercar una cama
+  - llavar les sábanes
+  answer: 0
+  explanation: «Jantzi» significa vistir/poner; «ohea jantzi» = poner/facer la cama.
+- id: ex-09-03-fb1
+  type: fill-in-blank
+  prompt: Yo llimpio'l bañu = Nik komuna ___.
+  answers:
+  - garbitzen dut
+  explanation: 'Pa una aición habitual usamos `-tzen` + verbu auxiliar (presente): «garbitzen dut» = llimpio.'
+- id: ex-09-03-fc
+  type: flashcards
+  cards:
+  - eu: etxeko lanak
+    es: les xeres doméstiques
+  - eu: garbitu
+    es: llimpiar
+  - eu: prestatu
+    es: preparar
+  - eu: jaso
+    es: recoyer
+  - eu: lisatu
+    es: planchar
+  - eu: ohea jantzi
+    es: facer la cama
+  - eu: ontziak garbitu
+    es: fregar los platos
+  - eu: harrikoa egin
+    es: fregar (espresión)
+  - eu: arropa lisatu
+    es: planchar la ropa
+  - eu: arropa zabaldu
+    es: tender la ropa
+  - eu: zaborra atera
+    es: sacar la basura
+  - eu: erosketak egin
+    es: facer la compra
+  - eu: xurgagailua pasa
+    es: pasar l'aspiradora
+  - eu: bazkaria prestatu
+    es: preparar la comida
+  - eu: txakurra paseatu
+    es: pasiar al perru
+  - eu: Nork egiten du?
+    es: ¿Quién lo fai?
+  - eu: egunero
+    es: tolos díes
+  - eu: astean behin
+    es: una vez per selmana
 ---
 
-Nesta lleición deprendes los verbos básicos pa falar de les **etxeko lanak** (xeres de casa). En euskera, los verbos suelen dase en forma de **participiu** (`-tu`, `-i`, `-n`), que ye la forma "de diccionariu": *garbitu*, *prestatu*, *jaso*…
+Nesta lleición deprendes los verbos básicos pa falar de les **etxeko lanak** (xeres de casa). N'euskera, los verbos suelen dase en forma de **participiu** (`-tu`, `-i`, `-n`), que ye la forma «de diccionariu»: *garbitu*, *prestatu*, *jaso*…
 
 ## Verbos clave
 
@@ -71,7 +105,7 @@ Nesta lleición deprendes los verbos básicos pa falar de les **etxeko lanak** (
 | *atera* | sacar |
 | *zabaldu* | tender / abrir |
 | *lisatu* | planchar |
-| *paseatu* | pasear |
+| *paseatu* | pasiar |
 | *erosi* | mercar |
 
 ## Xeres típiques
@@ -87,11 +121,11 @@ Nesta lleición deprendes los verbos básicos pa falar de les **etxeko lanak** (
 | Sacar la basura | *zaborra atera* |
 | Preparar la comida | *bazkaria prestatu* |
 | Facer la compra | *erosketak egin* |
-| Pasear al perru | *txakurra paseatu* |
+| Pasiar al perru | *txakurra paseatu* |
 
 ## De la forma de diccionariu al presente habitual
 
-Cuando una aición se repite habitualmente (tolos díes, cada selmana…), el verbu cambia a la forma con `-tzen` + l'auxiliar **dut/duzu/du…** (que yá conoces de *ukan*):
+Cuando una aición se repite davezu (tolos díes, cada selmana…), el verbu cambia a la forma con `-tzen` + l'auxiliar **dut/duzu/du…** (que yá conoces de *ukan*):
 
 | Persona | Exemplu | Asturianu |
 |---|---|---|
@@ -120,4 +154,4 @@ Pa dicir cada cuántu faes una xera:
 - **Nor arduratzen da arropaz?** — ¿Quién s'encarga de la ropa?
 - **Zuri gustatzen zaizu sukaldatzea?** — ¿Préstate cocinar?
 
-> **Nota cultural:** les encuestes sobre el repartu de xeres nel llar son un clásicu nos manuales d'euskaltegi — y por una razón. Ye vocabulariu mui útil pa conversaciones reales con amigos y familia.
+> **Nota cultural:** les encuestes sobre'l repartu de xeres en casa son un clásicu nos manuales d'euskaltegi — y por una razón. Ye vocabulariu mui útil pa conversaciones reales con amigos y familia.

@@ -7,53 +7,84 @@ level: a1
 order: 2
 title: Onde está? — o caso NON
 estimatedMinutes: 12
-covers: [locative-non, egon-nor, places-town]
+covers:
+- locative-non
+- egon-nor
+- places-town
 exercises:
-  - id: ex-nd-mc1
-    type: multiple-choice
-    prompt: 'Como se di "O bar está na rúa"?'
-    options: ["Taberna kalea dago", "Taberna kalean dago", "Taberna kaleko dago", "Taberna kalera dago"]
-    answer: 1
-    explanation: 'Para "en + lugar" engadimos -an á palabra: kale + an = kalean ("na rúa").'
-  - id: ex-nd-fb1
-    type: fill-in-blank
-    prompt: 'Donostia + locativo (en Donostia) = Donostia___.'
-    answers: [n]
-    explanation: 'As palabras rematadas en -a orgánica só engaden -n: Donostian.'
-  - id: ex-nd-fb2
-    type: fill-in-blank
-    prompt: 'Madril (Madrid) + locativo = Madril___.'
-    answers: [en]
-    explanation: 'Tras consoante final, o locativo intercala -e-: Madril → Madrilen.'
-  - id: ex-nd-fb3
-    type: fill-in-blank
-    prompt: 'Pregunta: "Onde está a farmacia?" = ___ dago botika?'
-    answers: [Non, non]
-  - id: ex-nd-mc2
-    type: multiple-choice
-    prompt: '"Banketxean nago" significa…'
-    options: ["Son do banco", "Vou ao banco", "Estou no banco", "Veño do banco"]
-    answer: 2
-    explanation: '"-an" indica situación; "nago" é "eu estou" (egon).'
-  - id: ex-nd-fc
-    type: flashcards
-    cards:
-      - { eu: 'Non?', es: Onde? }
-      - { eu: 'Non dago?', es: Onde está? }
-      - { eu: 'Non daude?', es: Onde están? }
-      - { eu: 'Non zaude?', es: Onde estás? }
-      - { eu: kalean, es: na rúa }
-      - { eu: etxean, es: na casa }
-      - { eu: euskaltegian, es: no euskaltegi }
-      - { eu: tabernan, es: no bar }
-      - { eu: parkean, es: no parque }
-      - { eu: Bilbon, es: en Bilbao }
-      - { eu: Donostian, es: en Donostia }
-      - { eu: Iruñean, es: en Pamplona }
-      - { eu: Madrilen, es: en Madrid }
-      - { eu: nago, es: estou }
-      - { eu: dago, es: está }
-      - { eu: daude, es: están }
+- id: ex-nd-mc1
+  type: multiple-choice
+  prompt: Como se di "O bar está na rúa"?
+  options:
+  - Taberna kalea dago
+  - Taberna kalean dago
+  - Taberna kaleko dago
+  - Taberna kalera dago
+  answer: 1
+  explanation: 'Para "en + lugar" engadimos -an á palabra: kale + an = kalean ("na rúa").'
+- id: ex-nd-fb1
+  type: fill-in-blank
+  prompt: Donostia + locativo (en Donostia) = Donostia___.
+  answers:
+  - n
+  explanation: 'As palabras rematadas en -a orgánica só engaden -n: Donostian.'
+- id: ex-nd-fb2
+  type: fill-in-blank
+  prompt: Madril (Madrid) + locativo = Madril___.
+  answers:
+  - en
+  explanation: 'Tras consoante final, o locativo intercala -e-: Madril → Madrilen.'
+- id: ex-nd-fb3
+  type: fill-in-blank
+  prompt: 'Pregunta: "Onde está a farmacia?" = ___ dago botika?'
+  answers:
+  - Non
+  - non
+- id: ex-nd-mc2
+  type: multiple-choice
+  prompt: '"Banketxean nago" significa…'
+  options:
+  - Son do banco
+  - Vou ao banco
+  - Estou no banco
+  - Veño do banco
+  answer: 2
+  explanation: '"-an" indica situación; "nago" é "eu estou" (egon).'
+- id: ex-nd-fc
+  type: flashcards
+  cards:
+  - eu: Non?
+    es: Onde?
+  - eu: Non dago?
+    es: Onde está?
+  - eu: Non daude?
+    es: Onde están?
+  - eu: Non zaude?
+    es: Onde estás?
+  - eu: kalean
+    es: na rúa
+  - eu: etxean
+    es: na casa
+  - eu: euskaltegian
+    es: no euskaltegi
+  - eu: tabernan
+    es: no bar
+  - eu: parkean
+    es: no parque
+  - eu: Bilbon
+    es: en Bilbao
+  - eu: Donostian
+    es: en Donostia
+  - eu: Iruñean
+    es: en Pamplona
+  - eu: Madrilen
+    es: en Madrid
+  - eu: nago
+    es: estou
+  - eu: dago
+    es: está
+  - eu: daude
+    es: están
 ---
 
 Xa coñeces o sufixo **`-(e)an`** da lección "Onde vives" (*Bilbon bizi naiz*). Aquí aplicámolo ao barrio: onde está cada cousa.
@@ -107,4 +138,4 @@ Para dicir **onde está** algo, engade o sufixo **`-(e)an`** ao lugar:
 >
 > — *Eskerrik asko!*
 
-> **Truco:** *non* = "onde" en euskera. Calquera resposta a *non…?* leva un substantivo con sufixo `-(e)an` ou un adverbio de lugar (*hemen*, *hor*, *han* — verás na seguinte lección).
+> **Truco:** *non* = "onde" en éuscaro. Calquera resposta a *non…?* leva un substantivo co sufixo `-(e)an` ou un adverbio de lugar (*hemen*, *hor*, *han* — veralos na seguinte lección).

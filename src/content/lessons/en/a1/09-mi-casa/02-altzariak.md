@@ -5,67 +5,105 @@ code: 02-altzariak
 unit: 09-mi-casa
 level: a1
 order: 2
-title: Furniture and household objects
+title: Furniture and objects in the house
 estimatedMinutes: 12
-covers: [furniture, home-rooms]
+covers:
+- furniture
+- home-rooms
 exercises:
-  - id: ex-09-02-mp
-    type: match-pairs
-    pairs:
-      - { eu: mahaia, es: table }
-      - { eu: aulkia, es: chair }
-      - { eu: ohea, es: bed }
-      - { eu: armairua, es: wardrobe }
-      - { eu: sofa, es: sofa }
-      - { eu: telebista, es: television }
-      - { eu: hozkailua, es: fridge }
-  - id: ex-09-02-mc1
-    type: multiple-choice
-    prompt: In which room is the "hozkailua"?
-    options: [logelan, sukaldean, komunean, egongelan]
-    answer: 1
-    explanation: '"Hozkailua" (fridge) is always in the kitchen (sukaldean).'
-  - id: ex-09-02-mc2
-    type: multiple-choice
-    prompt: '"Gau-mahaia" means…'
-    options: [dining table, work desk, bedside table, low table]
-    answer: 2
-    explanation: '"Gau" = night, "mahaia" = table. Literally "night table".'
-  - id: ex-09-02-fb1
-    type: fill-in-blank
-    prompt: 'I have two beds in my house = Bi ohe ___ etxean.'
-    answers: [ditut]
-    explanation: '"Ditut" = "I have (several things)" — the verb "ukan" with a plural object.'
-  - id: ex-09-02-fc
-    type: flashcards
-    cards:
-      - { eu: altzaria, es: piece of furniture }
-      - { eu: mahaia, es: table }
-      - { eu: aulkia, es: chair }
-      - { eu: besaulkia, es: armchair }
-      - { eu: sofa, es: sofa }
-      - { eu: ohea, es: bed }
-      - { eu: gau-mahaia, es: bedside table }
-      - { eu: armairua, es: wardrobe }
-      - { eu: apalategia, es: bookshelf }
-      - { eu: lanpara, es: lamp }
-      - { eu: kuxina, es: cushion }
-      - { eu: telebista, es: television }
-      - { eu: ordenagailua, es: computer }
-      - { eu: hozkailua, es: fridge }
-      - { eu: labea, es: oven }
-      - { eu: mikrouhina, es: microwave }
-      - { eu: garbigailua, es: washing machine }
-      - { eu: ispilua, es: mirror }
-      - { eu: dutxa, es: shower }
-      - { eu: bainuontzia, es: bathtub }
+- id: ex-09-02-mp
+  type: match-pairs
+  pairs:
+  - eu: mahaia
+    es: mesa
+  - eu: aulkia
+    es: silla
+  - eu: ohea
+    es: cama
+  - eu: armairua
+    es: armario
+  - eu: sofa
+    es: sofa
+  - eu: telebista
+    es: television
+  - eu: hozkailua
+    es: nevera
+- id: ex-09-02-mc1
+  type: multiple-choice
+  prompt: In which room is the "hozkailua"?
+  options:
+  - logelan
+  - sukaldean
+  - komunean
+  - egongelan
+  answer: 1
+  explanation: '"Hozkailua" (fridge) is always in the kitchen (sukaldean).'
+- id: ex-09-02-mc2
+  type: multiple-choice
+  prompt: '"Gau-mahaia" means…'
+  options:
+  - dining table
+  - desk
+  - bedside table
+  - coffee table
+  answer: 2
+  explanation: '"Gau" = night, "mahaia" = table. Literally "night table".'
+- id: ex-09-02-fb1
+  type: fill-in-blank
+  prompt: I have two beds in my house = Bi ohe ___ etxean.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "I have (several things)" — verb "ukan" with a plural object.'
+- id: ex-09-02-fc
+  type: flashcards
+  cards:
+  - eu: altzaria
+    es: furniture
+  - eu: mahaia
+    es: table
+  - eu: aulkia
+    es: chair
+  - eu: besaulkia
+    es: armchair
+  - eu: sofa
+    es: sofa
+  - eu: ohea
+    es: bed
+  - eu: gau-mahaia
+    es: bedside table
+  - eu: armairua
+    es: wardrobe
+  - eu: apalategia
+    es: bookshelf
+  - eu: lanpara
+    es: lamp
+  - eu: kuxina
+    es: cushion
+  - eu: telebista
+    es: television
+  - eu: ordenagailua
+    es: computer
+  - eu: hozkailua
+    es: fridge
+  - eu: labea
+    es: oven
+  - eu: mikrouhina
+    es: microwave
+  - eu: garbigailua
+    es: washing machine
+  - eu: ispilua
+    es: mirror
+  - eu: dutxa
+    es: shower
+  - eu: bainuontzia
+    es: bathtub
 ---
 
-Every room has its furniture. The general word for "piece of furniture" is **altzaria** (plural *altzariak*). Let's go through the house room by room (gelas).
+Each room has its furniture. The general word for "furniture" is **altzaria** (plural *altzariak*). Let's go through the house room by room.
 
 ## Egongelan — In the living room
 
-| Euskera | English |
+| Basque | English |
 |---|---|
 | *sofa* | sofa |
 | *besaulkia* | armchair |
@@ -78,7 +116,7 @@ Every room has its furniture. The general word for "piece of furniture" is **alt
 
 ## Logelan — In the bedroom
 
-| Euskera | English |
+| Basque | English |
 |---|---|
 | *ohea* | bed |
 | *gau-mahaia* | bedside table |
@@ -89,7 +127,7 @@ Every room has its furniture. The general word for "piece of furniture" is **alt
 
 ## Sukaldean — In the kitchen
 
-| Euskera | English |
+| Basque | English |
 |---|---|
 | *hozkailua* | fridge |
 | *labea* | oven |
@@ -102,7 +140,7 @@ Every room has its furniture. The general word for "piece of furniture" is **alt
 
 ## Komunean — In the bathroom
 
-| Euskera | English |
+| Basque | English |
 |---|---|
 | *dutxa* | shower |
 | *bainuontzia* | bathtub |
@@ -111,7 +149,7 @@ Every room has its furniture. The general word for "piece of furniture" is **alt
 | *eskuoihala* | towel |
 | *komuneko papera* | toilet paper |
 
-## How to put it into a sentence
+## How to combine it in a sentence
 
 Remember what you already know about **ukan** (to have) and apply it:
 

@@ -7,67 +7,108 @@ level: a1
 order: 1
 title: Verbes de mouvement (joan, etorri, ibili)
 estimatedMinutes: 12
-covers: [movement-verbs, common-verbs]
+covers:
+- movement-verbs
+- common-verbs
 exercises:
-  - id: ex-mu-mp
-    type: match-pairs
-    pairs:
-      - { eu: joan, es: aller }
-      - { eu: etorri, es: venir }
-      - { eu: ibili, es: marcher / se déplacer }
-      - { eu: sartu, es: entrer }
-      - { eu: irten, es: sortir }
-      - { eu: igo, es: monter }
-      - { eu: jaitsi, es: descendre }
-  - id: ex-mu-fb1
-    type: fill-in-blank
-    prompt: 'Je vais = Ni ___.'
-    answers: [noa]
-    explanation: 'La forme synthétique de « joan » pour « je » est « noa ». Fréquente dans des questions comme « Nora noa? » → « Où vais-je ? ».'
-  - id: ex-mu-fb2
-    type: fill-in-blank
-    prompt: 'Tu viens = Zu ___.'
-    answers: [zatoz]
-    explanation: '« Zatoz » est la forme synthétique de « etorri » pour « zu ».'
-  - id: ex-mu-mc1
-    type: multiple-choice
-    prompt: '« Nora zoaz? » signifie…'
-    options: ["D'où viens-tu ?", "Où vas-tu ?", "Où es-tu ?", "Par où vas-tu ?"]
-    answer: 1
-    explanation: '« Nora » = où (avec mouvement) ; « zoaz » = tu vas (forme synthétique de « joan » pour « zu »).'
-  - id: ex-mu-mc2
-    type: multiple-choice
-    prompt: '« Sartu » et son opposé « irten » signifient, respectivement :'
-    options: ["entrer / sortir", "monter / descendre", "aller / venir", "ouvrir / fermer"]
-    answer: 0
-  - id: ex-mu-fc
-    type: flashcards
-    cards:
-      - { eu: joan, es: aller }
-      - { eu: noa, es: je vais }
-      - { eu: zoaz, es: tu vas }
-      - { eu: doa, es: il/elle va }
-      - { eu: goaz, es: nous allons }
-      - { eu: zoazte, es: vous allez }
-      - { eu: doaz, es: ils/elles vont }
-      - { eu: etorri, es: venir }
-      - { eu: nator, es: je viens }
-      - { eu: zatoz, es: tu viens }
-      - { eu: dator, es: il/elle vient }
-      - { eu: gatoz, es: nous venons }
-      - { eu: zatozte, es: vous venez }
-      - { eu: datoz, es: ils/elles viennent }
-      - { eu: ibili, es: marcher / être (en allant d'un endroit à l'autre) }
-      - { eu: nabil, es: je marche }
-      - { eu: zabiltza, es: tu marches }
-      - { eu: dabil, es: il/elle marche }
-      - { eu: sartu, es: entrer }
-      - { eu: irten, es: sortir }
-      - { eu: igo, es: monter }
-      - { eu: jaitsi, es: descendre }
+- id: ex-mu-mp
+  type: match-pairs
+  pairs:
+  - eu: joan
+    es: ir
+  - eu: etorri
+    es: venir
+  - eu: ibili
+    es: andar / moverse
+  - eu: sartu
+    es: entrar
+  - eu: irten
+    es: salir
+  - eu: igo
+    es: subir
+  - eu: jaitsi
+    es: bajar
+- id: ex-mu-fb1
+  type: fill-in-blank
+  prompt: Je vais = Ni ___.
+  answers:
+  - noa
+  explanation: La forme synthétique de "joan" pour "je" est "noa". Fréquent dans des questions comme "Nora noa?" → "Où vais-je ?".
+- id: ex-mu-fb2
+  type: fill-in-blank
+  prompt: Tu viens = Zu ___.
+  answers:
+  - zatoz
+  explanation: '"Zatoz" est la forme synthétique de "etorri" pour "zu".'
+- id: ex-mu-mc1
+  type: multiple-choice
+  prompt: '"Nora zoaz?" signifie…'
+  options:
+  - D'où viens-tu ?
+  - Où vas-tu ?
+  - Où es-tu ?
+  - Où te balades-tu ?
+  answer: 1
+  explanation: '"Nora" = où (direction) ; "zoaz" = tu vas (forme synthétique de "joan" pour "zu").'
+- id: ex-mu-mc2
+  type: multiple-choice
+  prompt: '"Sartu" et son contraire "irten" signifient, respectivement :'
+  options:
+  - entrar / salir
+  - subir / bajar
+  - ir / venir
+  - abrir / cerrar
+  answer: 0
+- id: ex-mu-fc
+  type: flashcards
+  cards:
+  - eu: joan
+    es: aller
+  - eu: noa
+    es: je vais
+  - eu: zoaz
+    es: tu vas
+  - eu: doa
+    es: il/elle va
+  - eu: goaz
+    es: nous allons
+  - eu: zoazte
+    es: vous allez
+  - eu: doaz
+    es: ils/elles vont
+  - eu: etorri
+    es: venir
+  - eu: nator
+    es: je viens
+  - eu: zatoz
+    es: tu viens
+  - eu: dator
+    es: il/elle vient
+  - eu: gatoz
+    es: nous venons
+  - eu: zatozte
+    es: vous venez
+  - eu: datoz
+    es: ils/elles viennent
+  - eu: ibili
+    es: marcher / se déplacer
+  - eu: nabil
+    es: je marche
+  - eu: zabiltza
+    es: tu marches
+  - eu: dabil
+    es: il/elle marche
+  - eu: sartu
+    es: entrer
+  - eu: irten
+    es: sortir
+  - eu: igo
+    es: monter
+  - eu: jaitsi
+    es: descendre
 ---
 
-Trois verbes de base vont apparaître tout le temps : **joan** (aller), **etorri** (venir) et **ibili** (marcher, « se déplacer d'un endroit à l'autre »). Tous les trois ont des formes **synthétiques** (sans auxiliaire) que l'on utilise énormément au présent — et il convient de les apprendre comme un bloc.
+Trois verbes de base apparaissent constamment : **joan** (aller), **etorri** (venir) et **ibili** (marcher, "se déplacer d'un endroit à un autre"). Les trois ont des formes **synthétiques** (sans auxiliaire) qui sont très utilisées au présent — et il est conseillé de les apprendre en bloc.
 
 ## Joan — aller
 
@@ -80,7 +121,7 @@ Trois verbes de base vont apparaître tout le temps : **joan** (aller), **etorri
 | zuek | **zoazte** | vous allez |
 | haiek | **doaz** | ils/elles vont |
 
-> La question clé : ***Nora zoaz?*** — Où vas-tu ? Nous la travaillerons dans la leçon 03.
+> La question clé : ***Nora zoaz?*** — Où vas-tu ? Nous l'étudierons dans la leçon 03.
 
 ## Etorri — venir
 
@@ -93,7 +134,7 @@ Trois verbes de base vont apparaître tout le temps : **joan** (aller), **etorri
 | zuek | **zatozte** | vous venez |
 | haiek | **datoz** | ils/elles viennent |
 
-> La question clé : ***Nondik zatoz?*** — D'où viens-tu ? Nous la travaillerons dans la leçon 04.
+> La question clé : ***Nondik zatoz?*** — D'où viens-tu ? Nous l'étudierons dans la leçon 04.
 
 ## Ibili — marcher, se déplacer
 
@@ -106,21 +147,21 @@ Trois verbes de base vont apparaître tout le temps : **joan** (aller), **etorri
 | zuek | **zabiltzate** | vous marchez |
 | haiek | **dabiltza** | ils/elles marchent |
 
-> *Ibili* sert aussi à demander « qu'est-ce que tu fabriques » : **Zer zabiltza?** — Comment ça va ? / Qu'est-ce que tu manigances ? C'est très fréquent comme salutation entre personnes qui se connaissent.
+> *Ibili* sert aussi à demander "ce que tu fabriques" : **Zer zabiltza?** — Comment ça va ? / Qu'est-ce que tu fabriques ? C'est une salutation très fréquente entre personnes qui se connaissent.
 
 ## Autres verbes de mouvement utiles
 
-| Euskera | Français | Exemple |
+| Basque | Français | Exemple |
 |---|---|---|
-| *sartu* | entrer | *Tabernan sartu naiz.* — Je suis entré au bar. |
-| *irten* | sortir | *Etxetik irten naiz.* — Je suis sorti de chez moi. |
+| *sartu* | entrer | *Tabernan sartu naiz.* — Je suis entré(e) dans le bar. |
+| *irten* | sortir | *Etxetik irten naiz.* — Je suis sorti(e) de la maison. |
 | *igo* | monter | *Eskailerak igo ditut.* — J'ai monté les escaliers. |
-| *jaitsi* | descendre | *Aldapa jaitsi dut.* — J'ai descendu la côte. |
-| *iritsi / heldu* | arriver | *Iruñera iritsi naiz.* — Je suis arrivé à Pamplona. |
+| *jaitsi* | descendre | *Aldapa jaitsi dut.* — J'ai descendu la pente. |
+| *iritsi / heldu* | arriver | *Iruñera iritsi naiz.* — Je suis arrivé(e) à Pampelune. |
 
-## Pourquoi les formes synthétiques sont importantes
+## Pourquoi les formes synthétiques sont-elles importantes
 
-En euskera, la plupart des verbes se conjuguent avec un **auxiliaire** : *jan dut* (j'ai mangé), *ikusi dut* (j'ai vu). Mais quelques verbes très fréquents — parmi eux **joan**, **etorri**, **egon**, **ibili**, **eduki**, **jakin** — ont une conjugaison propre « compacte » (*synthétique*) que l'on utilise au présent. Comme ils apparaissent tellement souvent, il est plus facile de mémoriser les six formes que de faire mille détours.
+En basque, la plupart des verbes se conjuguent avec un **auxiliaire** : *jan dut* (j'ai mangé), *ikusi dut* (j'ai vu). Mais quelques verbes très fréquents — parmi lesquels **joan**, **etorri**, **egon**, **ibili**, **eduki**, **jakin** — ont une conjugaison propre "compacte" (*synthétique*) qui s'utilise au présent. Comme ils apparaissent très souvent, il est plus facile de mémoriser les six formes que de faire des détours.
 
 ## Mini-conversation
 
@@ -132,6 +173,6 @@ En euskera, la plupart des verbes se conjuguent avec un **auxiliaire** : *jan du
 >
 > — *Eta Lide? Zer **dabil**?* — Et Lide ? Qu'est-ce qu'elle fait ?
 >
-> — *Enkargutan **dabil**, batetik bestera.* — Elle est en train de faire des courses, d'un endroit à l'autre.
+> — *Enkargutan **dabil**, batetik bestera.* — Elle fait des courses, elle va d'un endroit à l'autre.
 
-> **Note :** les formes synthétiques sont une brique centrale du niveau A1. Mémorise-les par blocs de 2 (ni/zu) ou de 3 (gu/zuek/haiek) en chantant, en écrivant, en répétant. La maîtrise viendra d'elle-même avec la pratique.
+> **Note :** les formes synthétiques sont un élément central du niveau A1. Mémorisez-les par blocs de 2 (ni/zu) ou de 3 (gu/zuek/haiek) en chantant, en écrivant, en répétant. L'automatisme viendra tout seul avec la pratique.

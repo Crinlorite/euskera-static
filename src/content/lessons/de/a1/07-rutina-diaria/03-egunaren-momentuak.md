@@ -7,63 +7,102 @@ level: a1
 order: 3
 title: Tageszeiten (goizean, arratsaldean, gauean)
 estimatedMinutes: 10
-covers: [parts-of-day, time-expressions, locative-non]
+covers:
+- parts-of-day
+- time-expressions
+- locative-non
 exercises:
-  - id: ex-03-em-mc1
-    type: multiple-choice
-    prompt: '"Goizean" bedeutet…'
-    options: ["nachts", "morgens", "mittags", "gerade jetzt"]
-    answer: 1
-    explanation: '"Goiz" = Morgen; mit dem Lokativ "-an": "morgens".'
-  - id: ex-03-em-mc2
-    type: multiple-choice
-    prompt: 'Du möchtest "um acht Uhr morgens" sagen. Wie sagst du das?'
-    options: ["zortziak goizean", "goizeko zortziak", "goiz zortziak", "zortzi goizeko"]
-    answer: 1
-    explanation: 'Um Vormittag/Nachmittag zu präzisieren, stellt man die Tageszeit mit dem Suffix "-ko" voran: *goizeko zortziak* (acht Uhr morgens).'
-  - id: ex-03-em-fb1
-    type: fill-in-blank
-    prompt: 'Nachmittags = ___ (ergänze das vollständige Wort).'
-    answers: [arratsaldean, Arratsaldean]
-    explanation: '"Arratsalde" = Nachmittag; mit dem Lokativ "-(e)an": *arratsaldean* (nachmittags).'
-  - id: ex-03-em-fb2
-    type: fill-in-blank
-    prompt: 'Nachts = ___ (ergänze das vollständige Wort).'
-    answers: [gauean, Gauean]
-    explanation: '"Gau" = Nacht; mit dem Lokativ "-an": *gauean*.'
-  - id: ex-03-em-mp
-    type: match-pairs
-    pairs:
-      - { eu: goizean, es: morgens }
-      - { eu: eguerdian, es: mittags }
-      - { eu: arratsaldean, es: nachmittags }
-      - { eu: iluntzean, es: in der Abenddämmerung }
-      - { eu: gauean, es: nachts }
-      - { eu: gaur, es: heute }
-      - { eu: bihar, es: morgen (am nächsten Tag) }
-      - { eu: atzo, es: gestern }
-  - id: ex-03-em-fc
-    type: flashcards
-    cards:
-      - { eu: goiza, es: der Morgen }
-      - { eu: eguerdia, es: der Mittag }
-      - { eu: arratsaldea, es: der Nachmittag }
-      - { eu: iluntzea, es: die Abenddämmerung }
-      - { eu: gaua, es: die Nacht }
-      - { eu: goizean, es: morgens }
-      - { eu: eguerdian, es: mittags }
-      - { eu: arratsaldean, es: nachmittags }
-      - { eu: iluntzean, es: in der Abenddämmerung }
-      - { eu: gauean, es: nachts }
-      - { eu: goizeko zortziak, es: acht Uhr morgens }
-      - { eu: arratsaldeko hirurak, es: drei Uhr nachmittags }
-      - { eu: gaueko hamarrak, es: zehn Uhr nachts }
-      - { eu: gaur, es: heute }
-      - { eu: atzo, es: gestern }
-      - { eu: bihar, es: morgen (am nächsten Tag) }
+- id: ex-03-em-mc1
+  type: multiple-choice
+  prompt: '"Goizean" bedeutet…'
+  options:
+  - in der Nacht
+  - am Morgen
+  - am Mittag
+  - jetzt sofort
+  answer: 1
+  explanation: '"Goiz" = Morgen; mit dem Lokativ "-an": „am Morgen“.'
+- id: ex-03-em-mc2
+  type: multiple-choice
+  prompt: Du möchtest „acht Uhr morgens“ sagen. Wie sagst du das?
+  options:
+  - zortziak goizean
+  - goizeko zortziak
+  - goiz zortziak
+  - zortzi goizeko
+  answer: 1
+  explanation: 'Um anzugeben, ob es morgens/nachmittags ist, stellt man die Tageszeit mit dem Suffix „-ko“ voran: *goizeko zortziak* (acht Uhr morgens).'
+- id: ex-03-em-fb1
+  type: fill-in-blank
+  prompt: Am Nachmittag = ___ (fülle das ganze Wort aus).
+  answers:
+  - arratsaldean
+  - Arratsaldean
+  explanation: '"Arratsalde" = Nachmittag; mit dem Lokativ "-(e)an": *arratsaldean* (am Nachmittag).'
+- id: ex-03-em-fb2
+  type: fill-in-blank
+  prompt: In der Nacht = ___ (fülle das ganze Wort aus).
+  answers:
+  - gauean
+  - Gauean
+  explanation: '"Gau" = Nacht; mit dem Lokativ "-an": *gauean*.'
+- id: ex-03-em-mp
+  type: match-pairs
+  pairs:
+  - eu: goizean
+    es: am Morgen
+  - eu: eguerdian
+    es: am Mittag
+  - eu: arratsaldean
+    es: am Nachmittag
+  - eu: iluntzean
+    es: al atardecer
+  - eu: gauean
+    es: in der Nacht
+  - eu: gaur
+    es: hoy
+  - eu: bihar
+    es: morgen (nächster Tag)
+  - eu: atzo
+    es: ayer
+- id: ex-03-em-fc
+  type: flashcards
+  cards:
+  - eu: goiza
+    es: der Morgen
+  - eu: eguerdia
+    es: der Mittag
+  - eu: arratsaldea
+    es: der Nachmittag
+  - eu: iluntzea
+    es: die Abenddämmerung
+  - eu: gaua
+    es: die Nacht
+  - eu: goizean
+    es: am Morgen
+  - eu: eguerdian
+    es: am Mittag
+  - eu: arratsaldean
+    es: am Nachmittag
+  - eu: iluntzean
+    es: in der Abenddämmerung
+  - eu: gauean
+    es: in der Nacht
+  - eu: goizeko zortziak
+    es: acht Uhr morgens
+  - eu: arratsaldeko hirurak
+    es: drei Uhr nachmittags
+  - eu: gaueko hamarrak
+    es: zehn Uhr abends
+  - eu: gaur
+    es: heute
+  - eu: atzo
+    es: gestern
+  - eu: bihar
+    es: morgen (nächster Tag)
 ---
 
-Die Tageszeiten auf Baskisch funktionieren mit zwei zentralen Suffixen: **`-(e)an`** ("in/um") und **`-(e)ko`** ("von") je nachdem, wofür du sie verwendest. Das Gute ist, dass sie sich regelmäßig mit allen Wörtern kombinieren lassen.
+Die Tageszeiten im Baskischen funktionieren mit zwei Schlüsselsuffixen: **`-(e)an`** („in/am“) und **`-(e)ko`** („von“), je nachdem, wofür du sie verwendest. Das Gute ist, dass sie regelmäßig mit allen Wörtern kombiniert werden.
 
 ## Die Grundwörter
 
@@ -75,27 +114,27 @@ Die Tageszeiten auf Baskisch funktionieren mit zwei zentralen Suffixen: **`-(e)a
 | *iluntzea* | die Abenddämmerung |
 | *gaua* | die Nacht |
 
-## "Morgens / nachmittags" — Lokativ `-(e)an`
+## „Am Morgen / am Nachmittag“ — Lokativ `-(e)an`
 
-Um zu sagen, wann (zu welcher Tageszeit) etwas geschieht, fügst du **-(e)an** an den Wortstamm an:
+Um zu sagen, wann (zu welcher Tageszeit) etwas passiert, füge **-(e)an** an den Wortstamm an:
 
 | Wann | Baskisch |
 |---|---|
-| morgens | **goizean** |
-| mittags | **eguerdian** |
-| nachmittags | **arratsaldean** |
+| am Morgen | **goizean** |
+| am Mittag | **eguerdian** |
+| am Nachmittag | **arratsaldean** |
 | in der Abenddämmerung | **iluntzean** |
-| nachts | **gauean** |
+| in der Nacht | **gauean** |
 
-> *Goizean kafea hartzen dut.* — Morgens trinke ich Kaffee.
+> *Goizean kafea hartzen dut.* — Am Morgen trinke ich Kaffee.
 >
-> *Arratsaldean lagunekin egoten naiz.* — Nachmittags bin ich mit Freunden zusammen.
+> *Arratsaldean lagunekin egoten naiz.* — Am Nachmittag bin ich mit Freunden zusammen.
 >
-> *Gauean lo egiten dut.* — Nachts schlafe ich.
+> *Gauean lo egiten dut.* — In der Nacht schlafe ich.
 
-## "Am Morgen / am Nachmittag" — Suffix `-ko`
+## „Vom Morgen / vom Nachmittag“ — Suffix `-ko`
 
-Um zu präzisieren, **zu welcher Uhrzeit am Tag**, stellst du das Wort mit **-ko** vor die Uhrzeit:
+Um anzugeben, **zu welcher Tageszeit**, stellst du das Wort mit **-ko** vor die Uhrzeit:
 
 | Genaue Uhrzeit | Baskisch |
 |---|---|
@@ -108,28 +147,28 @@ Um zu präzisieren, **zu welcher Uhrzeit am Tag**, stellst du das Wort mit **-ko
 >
 > *Arratsaldeko hirurak dira.* — Es ist drei Uhr nachmittags.
 
-## Grundlegende Zeitmarker
+## Grundlegende Zeitangaben
 
-Diese wirst du jeden Tag brauchen:
+Diese werden dir täglich begegnen:
 
 | Baskisch | Deutsch |
 |---|---|
 | *gaur* | heute |
 | *atzo* | gestern |
-| *bihar* | morgen (am nächsten Tag) |
+| *bihar* | morgen (nächster Tag) |
 | *etzi* | übermorgen |
 | *orain* | jetzt |
 | *gero* | später, danach |
-| *lehen* | vorher |
+| *lehen* | vorher, früher |
 
-> Achtung: Pass auf bei **bihar** (der nächste Tag, "morgen") und **goiza** (der Morgen, bis zum Mittag). Im Deutschen verwenden wir teils dasselbe Wort, im Baskischen nicht.
+> Achtung: Verwechsle nicht **bihar** (der nächste Tag, „morgen“) und **goiza** (der Morgen, bis zum Mittag). Im Deutschen sind die Wörter „Morgen“ und „morgen“ fast identisch, im Baskischen sind sie es nicht.
 
-## Alles kombinieren
+## Alles zusammen
 
 > *Bihar goizean lanera joango naiz.* — Morgen früh werde ich zur Arbeit gehen.
 >
 > *Atzo arratsaldean zinemara joan ginen.* — Gestern Nachmittag sind wir ins Kino gegangen.
 >
-> *Gaur gaueko hamarretan afalduko dut.* — Heute um zehn Uhr nachts werde ich zu Abend essen.
+> *Gaur gaueko hamarretan afalduko dut.* — Heute um zehn Uhr abends werde ich zu Abend essen.
 
-> **Kulturelle Anmerkung:** Euskal Herria ist berühmt für seine *iluntze* — jene Stunde der Abenddämmerung, in der die Cuadrillas (Freundesgruppen) zum *poteo* (Runde von Potes/Zuritos) ausgehen. Das ist weder Nachmittag noch Nacht: Es ist eine Tageszeit mit ganz eigener Identität.
+> **Kultureller Hinweis:** Das Baskenland ist berühmt für sein *iluntze* — jene Zeit der Abenddämmerung, zu der die *cuadrillas* zum *poteo* (einer Runde *potes*/*zuritos*) ausgehen. Es ist weder Nachmittag noch Nacht: Es ist eine Tageszeit mit eigener Identität.

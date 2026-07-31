@@ -7,90 +7,114 @@ level: a1
 order: 4
 title: Die Rechnung (kontua eskatzen)
 estimatedMinutes: 9
-covers: [bill-payment, courtesy]
+covers:
+- bill-payment
+- courtesy
 exercises:
-  - id: ex-kont-mc1
-    type: multiple-choice
-    prompt: 'Wie bittest du um die Rechnung?'
-    options: ['Eskerrik asko', 'Kontua, mesedez', 'Zer da hau?', 'Bukatu dut']
-    answer: 1
-    explanation: '*Kontua, mesedez* ist die universelle Formel, um die Rechnung zu verlangen.'
-  - id: ex-kont-mc2
-    type: multiple-choice
-    prompt: '"Kobratuko al didazu?" bedeutet…'
-    options: ['Wie viel kostet das?', 'Kassierst du bei mir ab?', 'Hast du Wechselgeld?', 'Möchtest du mehr?']
-    answer: 1
-    explanation: '*Kobratu* — kassieren; *al* — Fragepartikel; *didazu* — "(du) mir/an mich". Höfliche Form.'
-  - id: ex-kont-fb1
-    type: fill-in-blank
-    prompt: '"Kann ich mit Karte zahlen?" = Txartelaz ___ dezaket?'
-    answers: [ordain]
-    explanation: '*Ordaindu* — zahlen. *Ordain dezaket?* — "darf/kann ich zahlen?".'
-  - id: ex-kont-fb2
-    type: fill-in-blank
-    prompt: '"Ich habe kein Wechselgeld" = Ez ___ kanbiorik.'
-    answers: [daukat]
-    explanation: '*Daukat* — "ich habe" (von *eduki*). Mit Verneinung + unbestimmtem Objekt → *kanbio**rik***.'
-  - id: ex-kont-fc
-    type: flashcards
-    cards:
-      - { eu: kontua, es: die Rechnung }
-      - { eu: 'Kontua, mesedez', es: 'Die Rechnung, bitte' }
-      - { eu: 'Atera kontua, mesedez', es: 'Machen Sie mir bitte die Rechnung' }
-      - { eu: 'Kobratuko al didazu?', es: 'Kassierst du bei mir ab?' }
-      - { eu: 'Zenbat da dena?', es: 'Wie viel macht alles zusammen?' }
-      - { eu: 'Txartelaz ordain dezaket?', es: 'Kann ich mit Karte zahlen?' }
-      - { eu: dirua, es: Geld }
-      - { eu: txartela, es: Karte }
-      - { eu: kanbioa, es: Wechselgeld (Rückgeld) }
-      - { eu: 'Ez daukat kanbiorik', es: Ich habe kein Wechselgeld }
-      - { eu: 'Tori!', es: 'Hier, bitte!' }
-      - { eu: 'Eskerrik asko, oso ondo zegoen', es: 'Vielen Dank, es war sehr lecker' }
+- id: ex-kont-mc1
+  type: multiple-choice
+  prompt: Wie fragst du nach der Rechnung?
+  options:
+  - Eskerrik asko
+  - Kontua, mesedez
+  - Zer da hau?
+  - Bukatu dut
+  answer: 1
+  explanation: '*Kontua, mesedez* ist die universelle Formel, um nach der Rechnung zu fragen.'
+- id: ex-kont-mc2
+  type: multiple-choice
+  prompt: '"Kobratuko al didazu?" bedeutet …'
+  options:
+  - Wie viel kostet es?
+  - Kann ich zahlen?
+  - Hast du Wechselgeld?
+  - Möchtest du mehr?
+  answer: 1
+  explanation: '*Kobratu* – kassieren; *al* – Fragepartikel; *didazu* – „(du) mir“. Höfliche Form.'
+- id: ex-kont-fb1
+  type: fill-in-blank
+  prompt: '"Kann ich mit Karte bezahlen?" = Txartelaz ___ dezaket?'
+  answers:
+  - ordain
+  explanation: '*Ordaindu* – bezahlen. *Ordain dezaket?* – „kann ich bezahlen?“.'
+- id: ex-kont-fb2
+  type: fill-in-blank
+  prompt: '"Ich habe kein Wechselgeld" = Ez ___ kanbiorik.'
+  answers:
+  - daukat
+  explanation: '*Daukat* – „ich habe“ (von *eduki*). Mit Verneinung + unbestimmtem Objekt → *kanbio**rik***.'
+- id: ex-kont-fc
+  type: flashcards
+  cards:
+  - eu: kontua
+    es: die Rechnung
+  - eu: Kontua, mesedez
+    es: Die Rechnung, bitte
+  - eu: Atera kontua, mesedez
+    es: Bringen Sie mir die Rechnung, bitte
+  - eu: Kobratuko al didazu?
+    es: Kann ich zahlen?
+  - eu: Zenbat da dena?
+    es: Wie viel macht das zusammen?
+  - eu: Txartelaz ordain dezaket?
+    es: Kann ich mit Karte bezahlen?
+  - eu: dirua
+    es: Geld
+  - eu: txartela
+    es: Karte
+  - eu: kanbioa
+    es: Wechselgeld (Rückgeld)
+  - eu: Ez daukat kanbiorik
+    es: Ich habe kein Wechselgeld
+  - eu: Tori!
+    es: Hier, bitte!
+  - eu: Eskerrik asko, oso ondo zegoen
+    es: Vielen Dank, es war sehr lecker
 ---
 
-Der Abschluss des Essens hat sein kleines Drehbuch: die Rechnung verlangen, zahlen und sich verabschieden.
+Der Abschluss des Essens hat sein eigenes kleines Drehbuch: nach der Rechnung fragen, bezahlen und sich verabschieden.
 
-## Die Rechnung verlangen
+## Nach der Rechnung fragen
 
-Drei Möglichkeiten, alle korrekt:
+Drei Möglichkeiten, alle sind korrekt:
 
-| Euskera | Deutsch | Ton |
+| Baskisch | Deutsch | Ton |
 |---|---|---|
 | **Kontua, mesedez.** | Die Rechnung, bitte. | neutral, klar |
-| **Atera kontua, mesedez.** | Machen Sie mir bitte die Rechnung. | neutral |
-| **Kobratuko al didazu?** | Kassierst du bei mir ab? | höflich (Futur) |
+| **Atera kontua, mesedez.** | Bringen Sie mir die Rechnung, bitte. | neutral |
+| **Kobratuko al didazu?** | Kann ich zahlen? | höflich (Futur) |
 
-`Kobratuko al didazu?` hört man sehr häufig in informellen Bars und Restaurants. *Al* ist die Fragepartikel und *didazu* ist "(du) mir" (NOR-NORI-NORK).
+`Kobratuko al didazu?` hört man sehr oft in informellen Bars und Restaurants. *Al* ist eine Fragepartikel und *didazu* bedeutet „(du) mir“ (NOR-NORI-NORK).
 
-## Der Gesamtpreis
+## Der Gesamtbetrag
 
-- **Zenbat da dena?** — Wie viel macht alles zusammen?
+- **Zenbat da dena?** — Wie viel macht das zusammen?
 - **Hamabost euro eta hogei zentimo.** — Fünfzehn Euro und zwanzig Cent.
 
-## Zahlen
+## Bezahlen
 
-| Euskera | Deutsch |
+| Baskisch | Deutsch |
 |---|---|
-| *Txartelaz ordain dezaket?* | Kann ich mit Karte zahlen? |
+| *Txartelaz ordain dezaket?* | Kann ich mit Karte bezahlen? |
 | *Eskudirutan ordainduko dut.* | Ich zahle bar. |
-| *Tori!* | Hier, bitte! (beim Übergeben des Geldes) |
-| *Hemen daukazu kanbioa.* | Hier haben Sie das Wechselgeld. |
+| *Tori!* | Hier, bitte! (beim Geben des Geldes) |
+| *Hemen daukazu kanbioa.* | Hier ist Ihr Wechselgeld. |
 | *Ez daukat kanbiorik.* | Ich habe kein Wechselgeld. |
 
-> *Eskudiru* = "Geld zur Hand" → bar. *Txartel* = Karte. *Kanbio* ist ein Lehnwort und wird ganz normal verwendet.
+> *Eskudiru* = „Geld zur Hand“ → bar. *Txartel* = Karte. *Kanbio* ist ein Lehnwort und wird ganz normal verwendet.
 
 ## Trinkgeld
 
-In Euskal Herria **ist das Trinkgeld nicht verpflichtend**. Üblich ist:
+Im Baskenland ist **Trinkgeld nicht obligatorisch**. Üblich ist:
 
-- In Bars und bei informellen Mahlzeiten: das Kleingeld vom Rückgeld liegen lassen (50 Cent bis 1 Euro).
-- In Restaurants mit höherer Rechnung: 1-2 Euro pro Person, wenn es dir geschmeckt hat.
-- Die typischen 10 % nach Art anderer Länder sind nie nötig.
+- In Bars und bei informellen Mahlzeiten: das lose Wechselgeld dalassen (50 Cent bis 1 Euro).
+- In Restaurants mit einer höheren Rechnung: 1-2 Euro pro Person, wenn es einem geschmeckt hat.
+- Die typischen 10 % wie in anderen Ländern sind nie erforderlich.
 
 ## Sich verabschieden
 
 - **Eskerrik asko, oso ondo zegoen!** — Vielen Dank, es war sehr lecker!
-- **Zuri! Agur!** — Dir auch! Tschüss!
+- **Zuri! Agur!** — Danke ebenfalls! Tschüss!
 - **Hurrengora arte!** — Bis zum nächsten Mal!
 
 ## Komplette Mini-Sequenz
@@ -107,4 +131,4 @@ In Euskal Herria **ist das Trinkgeld nicht verpflichtend**. Üblich ist:
 >
 > — *Zuri! Agur!*
 
-> **Kultureller Hinweis:** Die Münze vom Kaffee als kleines Trinkgeld für den Kellner liegen zu lassen ist in baskischen Bars eine recht verbreitete Geste, besonders wenn man eine Weile zum Plaudern bleibt. Es wird nicht erwartet, aber geschätzt.
+> **Kultureller Hinweis:** Das Münzgeld vom Kaffee als kleines Trinkgeld für den Kellner dazulassen, ist eine recht verbreitete Geste in baskischen Bars, besonders wenn man eine Weile zum Plaudern bleibt. Es wird nicht erwartet, aber geschätzt.

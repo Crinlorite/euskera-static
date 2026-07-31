@@ -7,48 +7,75 @@ level: a1
 order: 3
 title: Futuro prossimo (-ko / -go)
 estimatedMinutes: 11
-covers: [future-koGo, common-verbs, ukan-basic]
+covers:
+- future-koGo
+- common-verbs
+- ukan-basic
 exercises:
-  - id: ex-fut-mc1
-    type: multiple-choice
-    prompt: '"Andrò a Bilbo domani" si dice…'
-    options: ['Bihar Bilbora joaten naiz', 'Bihar Bilbora joango naiz', 'Bihar Bilbora joan naiz', 'Bilbora bihar dut']
-    answer: 1
-    explanation: '*Joango naiz* — futuro di *joan* (andare): particella *-go* + ausiliare *naiz*.'
-  - id: ex-fut-mc2
-    type: multiple-choice
-    prompt: 'Qual è il futuro di "ikusi" (vedere)?'
-    options: [ikusten, ikusiko, ikusten dut, ikuste]
-    answer: 1
-    explanation: 'I verbi che terminano in *-i* aggiungono *-ko*: *ikusi → ikusiko*.'
-  - id: ex-fut-fb1
-    type: fill-in-blank
-    prompt: '"Domani lo vedrò" = Bihar ikusi___ dut.'
-    answers: [ko, KO]
-    explanation: '*Ikusi* + *-ko* = *ikusiko*. La particella -ko segna il futuro.'
-  - id: ex-fut-fb2
-    type: fill-in-blank
-    prompt: '"Verrò con voi" = Zuekin joan___ naiz.'
-    answers: [go, GO]
-    explanation: '*Joan* + *-go* (perché finisce in -n) = *joango*. La particella è *-go* dopo consonante nasale.'
-  - id: ex-fut-fc
-    type: flashcards
-    cards:
-      - { eu: 'joango naiz', es: andrò }
-      - { eu: 'etorriko zara?', es: verrai? }
-      - { eu: 'ikusiko dut', es: lo vedrò }
-      - { eu: 'eskatuko dugu', es: chiederemo }
-      - { eu: 'jango dut', es: mangerò }
-      - { eu: 'edango dugu', es: berremo }
-      - { eu: 'lan egingo dut', es: lavorerò }
-      - { eu: 'erosiko dut', es: lo comprerò }
-      - { eu: 'esango diot', es: glielo dirò }
-      - { eu: 'egongo gara', es: staremo }
-      - { eu: 'izango da', es: sarà }
-      - { eu: 'ekarriko dut', es: lo porterò }
+- id: ex-fut-mc1
+  type: multiple-choice
+  prompt: '"Andrò a Bilbao domani" si dice…'
+  options:
+  - Bihar Bilbora joaten naiz
+  - Bihar Bilbora joango naiz
+  - Bihar Bilbora joan naiz
+  - Bilbora bihar dut
+  answer: 1
+  explanation: '*Joango naiz* — futuro di *joan* (andare): particella *-go* + ausiliare *naiz*.'
+- id: ex-fut-mc2
+  type: multiple-choice
+  prompt: Qual è il futuro di "ikusi" (vedere)?
+  options:
+  - ikusten
+  - ikusiko
+  - ikusten dut
+  - ikuste
+  answer: 1
+  explanation: 'I verbi che terminano in *-i* aggiungono *-ko*: *ikusi → ikusiko*.'
+- id: ex-fut-fb1
+  type: fill-in-blank
+  prompt: '"Domani lo vedrò" = Bihar ikusi___ dut.'
+  answers:
+  - ko
+  - KO
+  explanation: '*Ikusi* + *-ko* = *ikusiko*. La particella -ko marca il futuro.'
+- id: ex-fut-fb2
+  type: fill-in-blank
+  prompt: '"Andrò con voi" = Zuekin joan___ naiz.'
+  answers:
+  - go
+  - GO
+  explanation: '*Joan* + *-go* (perché finisce in -n) = *joango*. La particella è *-go* dopo una consonante nasale.'
+- id: ex-fut-fc
+  type: flashcards
+  cards:
+  - eu: joango naiz
+    es: andrò
+  - eu: etorriko zara?
+    es: verrai?
+  - eu: ikusiko dut
+    es: lo vedrò
+  - eu: eskatuko dugu
+    es: chiederemo
+  - eu: jango dut
+    es: mangerò
+  - eu: edango dugu
+    es: berremo
+  - eu: lan egingo dut
+    es: lavorerò
+  - eu: erosiko dut
+    es: lo comprerò
+  - eu: esango diot
+    es: glielo dirò
+  - eu: egongo gara
+    es: staremo
+  - eu: izango da
+    es: sarà
+  - eu: ekarriko dut
+    es: lo porterò
 ---
 
-Il **futuro prossimo** in euskera è molto regolare: aggiungi una particella al verbo nella sua forma base e mantieni l'ausiliare coniugato al presente. Con questa lezione sblocchi quasi qualsiasi "farò, andrò, vedrò...".
+Il **futuro prossimo** in basco è molto regolare: si aggiunge una particella al verbo nella sua forma base e si mantiene l'ausiliare coniugato al presente. Con questa lezione sbloccherai quasi qualsiasi "farò, andrò, vedrò...".
 
 ## La regola in una riga
 
@@ -56,17 +83,17 @@ Il **futuro prossimo** in euskera è molto regolare: aggiungi una particella al 
 
 | Verbo | Forma base | Futuro | Esempio |
 |---|---|---|---|
-| *joan* (andare) | joan | joan**go** | *Bilbora **joango naiz*** (Andrò a Bilbo) |
+| *joan* (andare) | joan | joan**go** | *Bilbora **joango naiz*** (Andrò a Bilbao) |
 | *etorri* (venire) | etorri | etorri**ko** | *Bihar **etorriko da*** (Verrà domani) |
 | *ikusi* (vedere) | ikusi | ikusi**ko** | *Filma **ikusiko dut*** (Vedrò il film) |
 | *jan* (mangiare) | jan | jan**go** | *Pizza **jango dugu*** (Mangeremo la pizza) |
-| *eskatu* (chiedere) | eskatu | eskatu**ko** | *Kafea **eskatuko dut*** (Chiederò un caffè) |
+| *eskatu* (chiedere/ordinare) | eskatu | eskatu**ko** | *Kafea **eskatuko dut*** (Ordinerò un caffè) |
 
 ## La regola del `-ko` vs `-go`
 
 È una scelta puramente fonetica:
 
-- **-go** dopo la **n** (quelli che finiscono in -n: *joan, jan, izan, egon, eraman*).
+- **-go** dopo la **n** (i verbi che finiscono in -n: *joan, jan, izan, egon, eraman*).
 - **-ko** dopo qualsiasi altra cosa.
 
 Esempi:
@@ -78,11 +105,11 @@ Esempi:
 - *erosi* → *erosi**ko*** (i + ko)
 - *eskatu* → *eskatu**ko*** (u + ko)
 
-> Se ti sbagli e dici *joan-ko*, tutti capiscono lo stesso. Ma la forma corretta e naturale è *joan**go***.
+> Se ti sbagli e dici *joan-ko*, ti capiscono tutti lo stesso. Ma la forma corretta e naturale è *joan**go***.
 
 ## L'ausiliare va al **presente**
 
-Anche se la frase guarda al futuro, l'ausiliare **non cambia**:
+Anche se la frase è al futuro, l'ausiliare **non cambia**:
 
 | Persona | Ausiliare (NOR) | Esempio |
 |---|---|---|
@@ -114,9 +141,9 @@ Lo stesso con l'ausiliare transitivo (*ukan*) quando c'è un oggetto:
 
 ## La negazione
 
-Per negare aggiungi *ez* davanti all'ausiliare (che passa in prima posizione):
+Per formare la negazione, aggiungi *ez* davanti all'ausiliare:
 
-- *Bihar **ez naiz** Bilbora **joango**.* — Domani non andrò a Bilbo.
+- *Bihar **ez naiz** Bilbora **joango**.* — Domani non andrò a Bilbao.
 - *Filma **ez dut** ikusi**ko**.* — Non vedrò il film.
 
 E la domanda:
@@ -124,4 +151,4 @@ E la domanda:
 - ***Etorriko al zara**?* — Verrai?
 - ***Joango al gara** mendira?* — Andremo in montagna?
 
-> **Nota culturale:** in euskera il futuro con *-ko/-go* si usa anche per molte cose che in italiano sono un semplice presente: *Zer hartuko duzu?* — "Cosa prendi / cosa prenderai?". È una delle "voci" più caratteristiche della lingua; prima l'orecchio la fa propria, meglio è.
+> **Nota culturale:** in basco il futuro con *-ko/-go* si usa anche per molte situazioni che in italiano sono espresse con il presente indicativo: *Zer hartuko duzu?* — "Cosa prendi / Cosa prenderai?". È una delle "voci" più caratteristiche della lingua; prima l'orecchio si abitua, meglio è.

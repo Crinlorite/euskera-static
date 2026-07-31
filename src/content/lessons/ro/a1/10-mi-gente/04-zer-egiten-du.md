@@ -7,48 +7,76 @@ level: a1
 order: 4
 title: Ce face? — A vorbi despre rutina altora
 estimatedMinutes: 12
-covers: [daily-routine-third-person, professions-extended, locative-non]
+covers:
+- daily-routine-third-person
+- professions-extended
+- locative-non
 exercises:
-  - id: ex-10-04-mc1
-    type: multiple-choice
-    prompt: 'Cum spui „Lucrează la spital”?'
-    options: [Ospitalean lan egiten du, Ospitalean lan egiten dut, Ospitala lan egiten du, Ospitalean lan egin du]
-    answer: 0
-    explanation: '„Ospitalean” = la spital (locativ -ean), „lan egiten du” = lucrează (persoana a 3-a).'
-  - id: ex-10-04-fb1
-    type: fill-in-blank
-    prompt: 'Locuiește în Pamplona = Iruñean ___ da.'
-    answers: [bizi]
-    explanation: '„Bizi da” = locuiește (literal: „trăiește/stă”). Pentru persoana 1 ar fi „bizi naiz”.'
-  - id: ex-10-04-mc2
-    type: multiple-choice
-    prompt: '„Bera euskaltegian lan egiten du” — care profesie se potrivește cel mai bine?'
-    options: [sukaldaria, irakaslea, mekanikaria, zerbitzaria]
-    answer: 1
-    explanation: 'Dacă lucrează într-un euskaltegi, cel mai probabil este profesor/profesoară (irakaslea).'
-  - id: ex-10-04-fb2
-    type: fill-in-blank
-    prompt: 'Are 40 de ani = Berrogei urte ___.'
-    answers: [ditu]
-    explanation: '„Ditu” = are (persoana a 3-a, obiect la plural — anii se numără la plural).'
-  - id: ex-10-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer egiten du?', es: 'Ce face?' }
-      - { eu: 'Non bizi da?', es: 'Unde locuiește?' }
-      - { eu: 'Non lan egiten du?', es: 'Unde lucrează?' }
-      - { eu: 'Bera medikua da', es: 'El/ea este medic' }
-      - { eu: 'Ospitalean lan egiten du', es: 'Lucrează la spital' }
-      - { eu: 'Eskolan lan egiten du', es: 'Lucrează la școală' }
-      - { eu: 'Tabernan lan egiten du', es: 'Lucrează la bar' }
-      - { eu: 'Bulegoan lan egiten du', es: 'Lucrează la birou' }
-      - { eu: 'Iruñean bizi da', es: 'Locuiește în Pamplona' }
-      - { eu: 'Hogeita hamar urte ditu', es: 'Are 30 de ani' }
-      - { eu: 'Ezkonduta dago', es: 'Este căsătorit/ă' }
-      - { eu: 'Ezkongabea da', es: 'Este necăsătorit/ă' }
-      - { eu: 'Bi seme-alaba ditu', es: 'Are doi copii' }
-      - { eu: 'Bakarrik bizi da', es: 'Locuiește singur/ă' }
-      - { eu: 'Lagunekin bizi da', es: 'Locuiește cu prietenii săi' }
+- id: ex-10-04-mc1
+  type: multiple-choice
+  prompt: Cum spui „Lucrează la spital”?
+  options:
+  - Ospitalean lan egiten du
+  - Ospitalean lan egiten dut
+  - Ospitala lan egiten du
+  - Ospitalean lan egin du
+  answer: 0
+  explanation: „Ospitalean” = la spital (locativ -ean), „lan egiten du” = lucrează (persoana a 3-a).
+- id: ex-10-04-fb1
+  type: fill-in-blank
+  prompt: Locuiește în Pamplona = Iruñean ___ da.
+  answers:
+  - bizi
+  explanation: '„Bizi da” = locuiește (literal: „trăiește/stă”). Pentru persoana 1 ar fi „bizi naiz”.'
+- id: ex-10-04-mc2
+  type: multiple-choice
+  prompt: „Bera euskaltegian lan egiten du” — care profesie se potrivește cel mai bine?
+  options:
+  - sukaldaria
+  - irakaslea
+  - mekanikaria
+  - zerbitzaria
+  answer: 1
+  explanation: Dacă lucrează într-un euskaltegi, cel mai probabil este profesor/profesoară (irakaslea).
+- id: ex-10-04-fb2
+  type: fill-in-blank
+  prompt: Are 40 de ani = Berrogei urte ___.
+  answers:
+  - ditu
+  explanation: „Ditu” = are (persoana a 3-a, obiect la plural — anii se numără la plural).
+- id: ex-10-04-fc
+  type: flashcards
+  cards:
+  - eu: Zer egiten du?
+    es: Ce face?
+  - eu: Non bizi da?
+    es: Unde locuiește?
+  - eu: Non lan egiten du?
+    es: Unde lucrează?
+  - eu: Bera medikua da
+    es: El/ea este medic
+  - eu: Ospitalean lan egiten du
+    es: Lucrează la spital
+  - eu: Eskolan lan egiten du
+    es: Lucrează la școală
+  - eu: Tabernan lan egiten du
+    es: Lucrează la bar
+  - eu: Bulegoan lan egiten du
+    es: Lucrează la birou
+  - eu: Iruñean bizi da
+    es: Locuiește în Pamplona
+  - eu: Hogeita hamar urte ditu
+    es: Are 30 de ani
+  - eu: Ezkonduta dago
+    es: Este căsătorit/ă
+  - eu: Ezkongabea da
+    es: Este necăsătorit/ă
+  - eu: Bi seme-alaba ditu
+    es: Are doi copii
+  - eu: Bakarrik bizi da
+    es: Locuiește singur/ă
+  - eu: Lagunekin bizi da
+    es: Locuiește cu prietenii săi
 ---
 
 Odată ce știi să prezinți pe cineva (*Hau X da*), următorul pas natural este să **povestești ce face persoana respectivă**: unde locuiește, unde lucrează, câți ani are, cum este viața ei de zi cu zi. Toată conjugarea este la **persoana a treia**, așa că aici exersăm exact acest lucru.
@@ -94,7 +122,7 @@ Sufixul **`-(e)an`** („în/la”) îl cunoști deja din unitatea despre cartie
 
 ## Profesie + loc = portret complet
 
-Combinarea profesiei cu locul este ceea ce dă coerență prezentării unui vecin:
+Combinarea profesiei cu locația este ceea ce dă coerență prezentării unui vecin:
 
 > *Bera **erizaina** da, eta **ospitalean lan egiten du**. **Iruñean bizi da, bikotekidearekin**, eta **bi seme-alaba ditu**.*
 
@@ -118,4 +146,4 @@ Pentru a descrie ce face cineva în mod obișnuit, recapitulează tiparul **`-tz
 - *Eguerdian **etxean bazkaltzen du**.* — La prânz mănâncă acasă.
 - *Arratsaldean **kirola egiten du**.* — După-amiaza face sport.
 
-> Pentru A1 îți sunt suficiente fraze izolate; nu este nevoie să înlănțui toată ziua. Dacă poți spune trei lucruri clare despre un vecin, deja îl prezinți bine.
+> Pentru A1 îți sunt suficiente fraze izolate; nu este nevoie să înlănțui activitățile întregii zile. Dacă poți spune trei lucruri clare despre un vecin, deja îl prezinți bine.

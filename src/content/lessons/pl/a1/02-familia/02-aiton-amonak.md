@@ -7,30 +7,41 @@ level: a1
 order: 2
 title: Aiton-amonak (dziadkowie)
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-aa-fc
-    type: flashcards
-    cards:
-      - { eu: aitona, es: dziadek }
-      - { eu: amona, es: babcia }
-      - { eu: aiton-amonak, es: dziadkowie }
-      - { eu: biloba, es: wnuk/wnuczka }
-      - { eu: bilobak, es: wnuki }
-  - id: ex-aa-fb1
-    type: fill-in-blank
-    prompt: 'Moi dziadkowie = nire ___.'
-    answers: [aiton-amonak]
-    explanation: '"Aiton-amonak" łączy aitona + amona w liczbie mnogiej — częsta konwencja w euskera dla par.'
-  - id: ex-aa-mc1
-    type: multiple-choice
-    prompt: '"Biloba" to...'
-    options: [siostrzeniec, wnuk, kuzyn, teść]
-    answer: 1
-    explanation: '"Biloba" to wnuk/wnuczka. Nie ma oznaczenia rodzaju.'
+- id: ex-aa-fc
+  type: flashcards
+  cards:
+  - eu: aitona
+    es: dziadek
+  - eu: amona
+    es: babcia
+  - eu: aiton-amonak
+    es: dziadkowie
+  - eu: biloba
+    es: wnuk/wnuczka
+  - eu: bilobak
+    es: wnuki
+- id: ex-aa-fb1
+  type: fill-in-blank
+  prompt: Moi dziadkowie = nire ___.
+  answers:
+  - aiton-amonak
+  explanation: „Aiton-amonak” łączy aitona + amona w liczbie mnogiej — to częsta konwencja w języku baskijskim dla par.
+- id: ex-aa-mc1
+  type: multiple-choice
+  prompt: „Biloba” to...
+  options:
+  - siostrzeniec
+  - wnuk
+  - kuzyn
+  - teść
+  answer: 1
+  explanation: „Biloba” oznacza wnuk/wnuczka. Nie ma oznaczenia rodzaju.
 ---
 
-Dziadkowie w euskera to **aitona** (dziadek) i **amona** (babcia). W liczbie mnogiej preferuje się formę połączoną **aiton-amonak**, która oznacza "dziadków" (oboje razem).
+Dziadkowie w języku baskijskim to **aitona** (dziadek) i **amona** (babcia). W liczbie mnogiej preferowana jest forma łączona **aiton-amonak**, która oznacza „dziadkowie” (oboje razem).
 
 ## Słownictwo
 
@@ -42,15 +53,15 @@ Dziadkowie w euskera to **aitona** (dziadek) i **amona** (babcia). W liczbie mno
 | *biloba* | wnuk/wnuczka |
 | *bilobak* | wnuki |
 
-## Wzorzec "X-Y-ak"
+## Wzorzec „X-Y-ak”
 
-Euskera ma elegancki sposób mówienia o parach/grupach tego samego typu, łącząc oba terminy w liczbie mnogiej:
+Język baskijski ma elegancki sposób mówienia o parach/grupach tego samego typu, łącząc oba terminy w liczbie mnogiej:
 
 - **anai-arrebak** — bracia i siostry
 - **aiton-amonak** — dziadkowie
 - **seme-alabak** — synowie i córki
 
-> Kiedy chcesz powiedzieć "moi dziadkowie przyszli do domu", wystarczy **Nire aiton-amonak etxera etorri ziren** — bez konieczności mówienia "dziadek i babcia".
+> Kiedy chcesz powiedzieć „moi dziadkowie przyszli do domu”, wystarczy **Nire aiton-amonak etxera etorri ziren** — bez konieczności mówienia „dziadek i babcia”.
 
 ## Przydatne zwroty
 

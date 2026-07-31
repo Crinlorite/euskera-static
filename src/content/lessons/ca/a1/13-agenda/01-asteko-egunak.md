@@ -7,55 +7,88 @@ level: a1
 order: 1
 title: Dies de la setmana i activitats
 estimatedMinutes: 9
-covers: [days-of-week, common-verbs]
+covers:
+- days-of-week
+- common-verbs
 exercises:
-  - id: ex-eg-mc1
-    type: multiple-choice
-    prompt: '"Dilluns" en euskera és…'
-    options: [astelehena, asteartea, asteazkena, igandea]
-    answer: 0
-    explanation: '*Astelehena* — primer dia de la setmana (literalment "primer-dia-de-la-setmana").'
-  - id: ex-eg-mc2
-    type: multiple-choice
-    prompt: 'Quin dia és "asteburua"?'
-    options: ['dilluns', 'dimarts', 'cap de setmana (dissabte-diumenge)', 'dimecres']
-    answer: 2
-    explanation: '*Asteburua* — cap de setmana, literal "el final de setmana".'
-  - id: ex-eg-fb1
-    type: fill-in-blank
-    prompt: '"Vaig al gimnàs el dilluns" = ___ kiroldegira noa.'
-    answers: [Astelehenean, astelehenean]
-    explanation: '*-(e)an* en els dies = "el". *Astelehenean* — "el dilluns".'
-  - id: ex-eg-fb2
-    type: fill-in-blank
-    prompt: '"Tots els dilluns" = ___'
-    answers: [astelehenero, Astelehenero]
-    explanation: 'El sufix *-ero* indica "cada / tots els": *astelehenero* = "tots els dilluns".'
-  - id: ex-eg-fc
-    type: flashcards
-    cards:
-      - { eu: astelehena, es: dilluns }
-      - { eu: asteartea, es: dimarts }
-      - { eu: asteazkena, es: dimecres }
-      - { eu: osteguna, es: dijous }
-      - { eu: ostirala, es: divendres }
-      - { eu: larunbata, es: dissabte }
-      - { eu: igandea, es: diumenge }
-      - { eu: astelehenean, es: el dilluns }
-      - { eu: ostiralean, es: el divendres }
-      - { eu: asteburuan, es: el cap de setmana }
-      - { eu: astelehenero, es: tots els dilluns }
-      - { eu: egunero, es: cada dia / tots els dies }
-  - id: ex-eg-mp
-    type: match-pairs
-    pairs:
-      - { eu: astelehena, es: dilluns }
-      - { eu: asteartea, es: dimarts }
-      - { eu: asteazkena, es: dimecres }
-      - { eu: osteguna, es: dijous }
-      - { eu: ostirala, es: divendres }
-      - { eu: larunbata, es: dissabte }
-      - { eu: igandea, es: diumenge }
+- id: ex-eg-mc1
+  type: multiple-choice
+  prompt: '"Dilluns" en basc és…'
+  options:
+  - astelehena
+  - asteartea
+  - asteazkena
+  - igandea
+  answer: 0
+  explanation: '*Astelehena* — primer dia de la setmana (literalment "primer-dia-de-la-setmana").'
+- id: ex-eg-mc2
+  type: multiple-choice
+  prompt: Quin dia és "asteburua"?
+  options:
+  - dilluns
+  - dimarts
+  - cap de setmana (dissabte-diumenge)
+  - dimecres
+  answer: 2
+  explanation: '*Asteburua* — cap de setmana, literal "el final de setmana".'
+- id: ex-eg-fb1
+  type: fill-in-blank
+  prompt: '"Vaig al gimnàs el dilluns" = ___ kiroldegira noa.'
+  answers:
+  - Astelehenean
+  - astelehenean
+  explanation: '*-(e)an* en dies = "el". *Astelehenean* — "el dilluns".'
+- id: ex-eg-fb2
+  type: fill-in-blank
+  prompt: '"Tots els dilluns" = ___'
+  answers:
+  - astelehenero
+  - Astelehenero
+  explanation: 'El sufix *-ero* indica "cada / tots els": *astelehenero* = "tots els dilluns".'
+- id: ex-eg-fc
+  type: flashcards
+  cards:
+  - eu: astelehena
+    es: dilluns
+  - eu: asteartea
+    es: dimarts
+  - eu: asteazkena
+    es: dimecres
+  - eu: osteguna
+    es: dijous
+  - eu: ostirala
+    es: divendres
+  - eu: larunbata
+    es: dissabte
+  - eu: igandea
+    es: diumenge
+  - eu: astelehenean
+    es: el dilluns
+  - eu: ostiralean
+    es: el divendres
+  - eu: asteburuan
+    es: el cap de setmana
+  - eu: astelehenero
+    es: tots els dilluns
+  - eu: egunero
+    es: cada dia / tots els dies
+- id: ex-eg-mp
+  type: match-pairs
+  pairs:
+  - eu: astelehena
+    es: lunes
+  - eu: asteartea
+    es: martes
+  - eu: asteazkena
+    es: dimecres
+  - eu: osteguna
+    es: jueves
+  - eu: ostirala
+    es: viernes
+  - eu: larunbata
+    es: dissabte
+  - eu: igandea
+    es: domingo
 ---
 
 Abans de parlar de plans i agenda, repassem els dies de la setmana i aprenem a associar-los amb les activitats quotidianes.
@@ -72,7 +105,7 @@ Abans de parlar de plans i agenda, repassem els dies de la setmana i aprenem a a
 | *larunbata* | dissabte | larun + bata |
 | *igandea* | diumenge | dia festiu històric |
 
-> **Pista de memòria:** la paraula **aste** (setmana) apareix al principi dels dies laborals. *Astelehen-, astear-, asteazken-* gairebé compten en veu alta el principi, la meitat i el final de la setmana.
+> **Pista de memòria:** la paraula **aste** (setmana) apareix al principi dels dies feiners. *Astelehen-, astear-, asteazken-* gairebé compten en veu alta el principi, la meitat i el final de la setmana.
 
 ## Dir "el dilluns" — sufix `-(e)an`
 
@@ -93,21 +126,21 @@ Per datar un esdeveniment s'afegeix `-(e)an` al dia:
 
 ## Dir "tots els X" — sufix `-ero`
 
-Per a una freqüència regular:
+Per a freqüència regular:
 
 - *astelehenero* — tots els dilluns
 - *larunbatero* — tots els dissabtes
-- *egunero* — tots els dies
-- *astero* — totes les setmanes
-- *astebururo* — tots els caps de setmana
+- *egunero* — cada dia / tots els dies
+- *astero* — cada setmana / totes les setmanes
+- *astebururo* — cada cap de setmana / tots els caps de setmana
 
 ## Dia + activitat: exemples
 
 | Euskera | Català |
 |---|---|
 | *Astelehenean kiroldegira noa.* | El dilluns vaig al gimnàs. |
-| *Asteartean euskara klasea dut.* | El dimarts tinc classe d'euskera. |
-| *Ostiralean parranda egiten dugu.* | El divendres sortim de gresca. |
+| *Asteartean euskara klasea dut.* | El dimarts tinc classe de basc. |
+| *Ostiralean parranda egiten dugu.* | El divendres sortim de festa. |
 | *Larunbatean familiaren etxera joango naiz.* | El dissabte aniré a casa de la família. |
 | *Igandean lasai gelditzen naiz etxean.* | El diumenge em quedo tranquil a casa. |
 
@@ -119,4 +152,4 @@ Per a una freqüència regular:
 - *Asteburu honetan mendira joango naiz.* — Aquest cap de setmana aniré a la muntanya.
 - *Asteburu pasa egitea gustatzen zait.* — M'agrada fer escapades de cap de setmana.
 
-> **Nota cultural:** al costat d'*igandea* sovint veuràs *jaieguna* (dia festiu): la fórmula *igandeak eta jaiegunak* és típica en horaris d'autobusos, comerços i cartells d'ajuntament.
+> **Nota cultural:** al costat de *igandea* veuràs sovint *jaieguna* (dia festiu): la fórmula *igandeak eta jaiegunak* és típica en horaris d'autobusos, comerços i cartells d'ajuntament.

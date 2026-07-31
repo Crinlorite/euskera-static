@@ -7,58 +7,92 @@ level: a1
 order: 3
 title: Le faccende domestiche
 estimatedMinutes: 12
-covers: [house-chores]
+covers:
+- house-chores
 exercises:
-  - id: ex-09-03-mp
-    type: match-pairs
-    pairs:
-      - { eu: garbitu, es: pulire }
-      - { eu: prestatu, es: preparare }
-      - { eu: jaso, es: raccogliere }
-      - { eu: lisatu, es: stirare }
-      - { eu: erosketak egin, es: fare la spesa }
-      - { eu: zaborra atera, es: portare fuori la spazzatura }
-  - id: ex-09-03-mc1
-    type: multiple-choice
-    prompt: 'Come si dice "lavare i piatti"?'
-    options: [arropa lisatu, ohea jantzi, ontziak garbitu, lurra erratu]
-    answer: 2
-    explanation: '"Ontziak garbitu" (letteralmente "pulire i piatti") = lavare i piatti. Si dice anche "harrikoa egin".'
-  - id: ex-09-03-mc2
-    type: multiple-choice
-    prompt: '"Ohea jantzi" significa...'
-    options: [fare il letto, disfare il letto, comprare un letto, lavare le lenzuola]
-    answer: 0
-    explanation: '"Jantzi" significa vestire/mettere; "ohea jantzi" = fare il letto.'
-  - id: ex-09-03-fb1
-    type: fill-in-blank
-    prompt: 'Io pulisco il bagno = Nik komuna ___.'
-    answers: [garbitzen dut]
-    explanation: 'Per un''azione abituale usiamo `-tzen` + verbo ausiliare (presente): "garbitzen dut" = pulisco.'
-  - id: ex-09-03-fc
-    type: flashcards
-    cards:
-      - { eu: etxeko lanak, es: le faccende domestiche }
-      - { eu: garbitu, es: pulire }
-      - { eu: prestatu, es: preparare }
-      - { eu: jaso, es: raccogliere }
-      - { eu: lisatu, es: stirare }
-      - { eu: ohea jantzi, es: fare il letto }
-      - { eu: ontziak garbitu, es: lavare i piatti }
-      - { eu: harrikoa egin, es: lavare i piatti (espressione) }
-      - { eu: arropa lisatu, es: stirare i panni }
-      - { eu: arropa zabaldu, es: stendere il bucato }
-      - { eu: zaborra atera, es: portare fuori la spazzatura }
-      - { eu: erosketak egin, es: fare la spesa }
-      - { eu: xurgagailua pasa, es: passare l'aspirapolvere }
-      - { eu: bazkaria prestatu, es: preparare il pranzo }
-      - { eu: txakurra paseatu, es: portare a spasso il cane }
-      - { eu: 'Nork egiten du?', es: 'Chi lo fa?' }
-      - { eu: egunero, es: tutti i giorni }
-      - { eu: astean behin, es: una volta a settimana }
+- id: ex-09-03-mp
+  type: match-pairs
+  pairs:
+  - eu: garbitu
+    es: limpiar
+  - eu: prestatu
+    es: preparar
+  - eu: jaso
+    es: recoger
+  - eu: lisatu
+    es: planchar
+  - eu: erosketak egin
+    es: fare la spesa
+  - eu: zaborra atera
+    es: portare fuori la spazzatura
+- id: ex-09-03-mc1
+  type: multiple-choice
+  prompt: Come si dice "lavare i piatti"?
+  options:
+  - arropa lisatu
+  - ohea jantzi
+  - ontziak garbitu
+  - lurra erratu
+  answer: 2
+  explanation: '"Ontziak garbitu" (letteralmente "pulire i piatti") = lavare i piatti. Si dice anche "harrikoa egin".'
+- id: ex-09-03-mc2
+  type: multiple-choice
+  prompt: '"Ohea jantzi" significa...'
+  options:
+  - fare il letto
+  - disfare il letto
+  - comprare un letto
+  - lavare le lenzuola
+  answer: 0
+  explanation: '"Jantzi" significa vestire/mettere; "ohea jantzi" = fare il letto.'
+- id: ex-09-03-fb1
+  type: fill-in-blank
+  prompt: Io pulisco il bagno = Nik komuna ___.
+  answers:
+  - garbitzen dut
+  explanation: 'Per un''azione abituale usiamo `-tzen` + verbo ausiliare (presente): "garbitzen dut" = pulisco.'
+- id: ex-09-03-fc
+  type: flashcards
+  cards:
+  - eu: etxeko lanak
+    es: le faccende domestiche
+  - eu: garbitu
+    es: pulire
+  - eu: prestatu
+    es: preparare
+  - eu: jaso
+    es: raccogliere
+  - eu: lisatu
+    es: stirare
+  - eu: ohea jantzi
+    es: fare il letto
+  - eu: ontziak garbitu
+    es: lavare i piatti
+  - eu: harrikoa egin
+    es: lavare i piatti (espressione)
+  - eu: arropa lisatu
+    es: stirare i panni
+  - eu: arropa zabaldu
+    es: stendere il bucato
+  - eu: zaborra atera
+    es: portare fuori la spazzatura
+  - eu: erosketak egin
+    es: fare la spesa
+  - eu: xurgagailua pasa
+    es: passare l'aspirapolvere
+  - eu: bazkaria prestatu
+    es: preparare da mangiare
+  - eu: txakurra paseatu
+    es: portare a spasso il cane
+  - eu: Nork egiten du?
+    es: Chi lo fa?
+  - eu: egunero
+    es: tutti i giorni
+  - eu: astean behin
+    es: una volta a settimana
 ---
 
-In questa lezione impari i verbi di base per parlare delle **etxeko lanak** (faccende domestiche). In basco, i verbi si danno di solito in forma di **participio** (`-tu`, `-i`, `-n`), che è la forma "da dizionario": *garbitu*, *prestatu*, *jaso*…
+In questa lezione impari i verbi di base per parlare delle **etxeko lanak** (faccende domestiche). In basco, i verbi si trovano solitamente in forma di **participio** (`-tu`, `-i`, `-n`), che è la forma "da dizionario": *garbitu*, *prestatu*, *jaso*…
 
 ## Verbi chiave
 
@@ -85,7 +119,7 @@ In questa lezione impari i verbi di base per parlare delle **etxeko lanak** (fac
 | Stirare i panni | *arropa lisatu* |
 | Pulire il bagno | *komuna garbitu* |
 | Portare fuori la spazzatura | *zaborra atera* |
-| Preparare il pranzo | *bazkaria prestatu* |
+| Preparare da mangiare | *bazkaria prestatu* |
 | Fare la spesa | *erosketak egin* |
 | Portare a spasso il cane | *txakurra paseatu* |
 
@@ -97,7 +131,7 @@ Quando un'azione si ripete abitualmente (tutti i giorni, ogni settimana…), il 
 |---|---|---|
 | Nik | *Nik etxea **garbitzen dut**.* | Io pulisco la casa. |
 | Zuk | *Zuk arropa **lisatzen duzu**.* | Tu stiri i panni. |
-| Berak | *Aitak bazkaria **prestatzen du**.* | Mio padre prepara il pranzo. |
+| Berak | *Aitak bazkaria **prestatzen du**.* | Mio padre prepara da mangiare. |
 | Guk | *Guk erosketak **egiten ditugu**.* | Noi facciamo la spesa. |
 
 > In questa lezione non è necessario padroneggiare la coniugazione. Tieni a mente lo schema **`-tzen` + dut/du** per parlare della routine.

@@ -7,64 +7,101 @@ level: a1
 order: 4
 title: Verbo egon e estados pasaxeiros
 estimatedMinutes: 11
-covers: [egon-nor, mental-states]
+covers:
+- egon-nor
+- mental-states
 exercises:
-  - id: ex-egon-mc1
-    type: multiple-choice
-    prompt: 'Cal é a forma de "egon" para "eu"?'
-    options: [naiz, nago, dut, daude]
-    answer: 1
-    explanation: '*nago* = "estou". O verbo *egon* ten a súa propia conxugación, distinta de *izan*.'
-  - id: ex-egon-mc2
-    type: multiple-choice
-    prompt: 'Queres dicir "Estou cansada". Cal é a forma natural?'
-    options: [Ni nekatua naiz, Ni nekatuta nago, Ni nekatuan nago, Ni nekatua dut]
-    answer: 1
-    explanation: 'Para un estado pasaxeiro ("hoxe estou cansada") usa *egon* + *nekatuta* (sen `-a` final).'
-  - id: ex-egon-fb1
-    type: fill-in-blank
-    prompt: 'Maialen pozik ___. (Maialen está contenta)'
-    answers: [dago]
-    explanation: '*dago* = "está" (3ª persoa).'
-  - id: ex-egon-fb2
-    type: fill-in-blank
-    prompt: 'Gu nekatuta ___. (Nós estamos cansados)'
-    answers: [gaude]
-    explanation: '*gaude* = "estamos".'
-  - id: ex-egon-fc
-    type: flashcards
-    cards:
-      - { eu: nago, es: estou }
-      - { eu: zaude, es: estás }
-      - { eu: dago, es: está }
-      - { eu: gaude, es: estamos }
-      - { eu: zaudete, es: estades }
-      - { eu: daude, es: están }
-      - { eu: pozik, es: contento }
-      - { eu: triste, es: triste }
-      - { eu: nekatuta, es: cansado }
-      - { eu: haserre, es: anoxado }
-      - { eu: lasai, es: tranquilo (estado) }
-      - { eu: urduri, es: nervioso (estado) }
-      - { eu: gaixorik, es: enfermo }
-      - { eu: ondo, es: ben }
-      - { eu: gaizki, es: mal }
-      - { eu: 'Nola zaude?', es: 'Como estás?' }
-      - { eu: 'Zer moduz zaude?', es: 'Que tal estás?' }
-  - id: ex-egon-mp
-    type: match-pairs
-    pairs:
-      - { eu: pozik, es: contento }
-      - { eu: triste, es: triste }
-      - { eu: nekatuta, es: cansado }
-      - { eu: haserre, es: anoxado }
-      - { eu: gaixorik, es: enfermo }
-      - { eu: ondo, es: ben }
-      - { eu: gaizki, es: mal }
-      - { eu: lasai, es: tranquilo (agora) }
+- id: ex-egon-mc1
+  type: multiple-choice
+  prompt: Cal é a forma de "egon" para "eu"?
+  options:
+  - naiz
+  - nago
+  - dut
+  - daude
+  answer: 1
+  explanation: '*nago* = "estou". O verbo *egon* ten a súa propia conxugación, distinta de *izan*.'
+- id: ex-egon-mc2
+  type: multiple-choice
+  prompt: Queres dicir "Estou cansada". Cal é a forma natural?
+  options:
+  - Ni nekatua naiz
+  - Ni nekatuta nago
+  - Ni nekatuan nago
+  - Ni nekatua dut
+  answer: 1
+  explanation: Para un estado pasaxeiro ("hoxe estou cansada") usa *egon* + *nekatuta* (sen `-a` final).
+- id: ex-egon-fb1
+  type: fill-in-blank
+  prompt: Maialen pozik ___. (Maialen está contenta)
+  answers:
+  - dago
+  explanation: '*dago* = "está" (3ª persoa).'
+- id: ex-egon-fb2
+  type: fill-in-blank
+  prompt: Gu nekatuta ___. (Nós estamos cansados)
+  answers:
+  - gaude
+  explanation: '*gaude* = "estamos".'
+- id: ex-egon-fc
+  type: flashcards
+  cards:
+  - eu: nago
+    es: estou
+  - eu: zaude
+    es: estás
+  - eu: dago
+    es: está
+  - eu: gaude
+    es: estamos
+  - eu: zaudete
+    es: estades
+  - eu: daude
+    es: están
+  - eu: pozik
+    es: contento
+  - eu: triste
+    es: triste
+  - eu: nekatuta
+    es: cansado
+  - eu: haserre
+    es: anoxado
+  - eu: lasai
+    es: tranquilo (estado)
+  - eu: urduri
+    es: nervioso (estado)
+  - eu: gaixorik
+    es: doente
+  - eu: ondo
+    es: ben
+  - eu: gaizki
+    es: mal
+  - eu: Nola zaude?
+    es: Como estás?
+  - eu: Zer moduz zaude?
+    es: Que tal estás?
+- id: ex-egon-mp
+  type: match-pairs
+  pairs:
+  - eu: pozik
+    es: contento
+  - eu: triste
+    es: triste
+  - eu: nekatuta
+    es: cansado
+  - eu: haserre
+    es: enfadado
+  - eu: gaixorik
+    es: enfermo
+  - eu: ondo
+    es: bien
+  - eu: gaizki
+    es: mal
+  - eu: lasai
+    es: tranquilo (ahora)
 ---
 
-En éuscaro hai dous verbos onde en galego usamos un só. Xa coñeces **izan** ("ser/estar" para calidades). Agora tócalle a **egon**, que se traduce como "estar" cando falamos de **estados pasaxeiros**: como está alguén hoxe, agora mesmo, neste momento.
+En éuscaro hai dous verbos onde en galego usamos un só. Xa coñeces **izan** ("ser/estar" para calidades). Agora é a quenda de **egon**, que se traduce como "estar" cando falamos de **estados pasaxeiros**: como está alguén hoxe, agora mesmo, neste momento.
 
 ## O paradigma de egon
 
@@ -84,8 +121,8 @@ En éuscaro hai dous verbos onde en galego usamos un só. Xa coñeces **izan** (
 
 A gran trampa: cando un adxectivo vai con **egon**, **NON** leva o `-a` final. Compara:
 
-- **Izan** (calidade estable): *Ni alegre soy* → *Ni alai**a** naiz.* (con `-a`)
-- **Egon** (estado pasaxeiro): *Yo estoy contenta hoy* → *Ni pozik nago.* (sen `-a`)
+- **Izan** (calidade estable): *Eu alegre son* → *Ni alai**a** naiz.* (con `-a`)
+- **Egon** (estado pasaxeiro): *Eu estou contenta hoxe* → *Ni pozik nago.* (sen `-a`)
 
 | Estado | Galego |
 |---|---|
@@ -95,7 +132,7 @@ A gran trampa: cando un adxectivo vai con **egon**, **NON** leva o `-a` final. C
 | *haserre* | anoxado/a |
 | *lasai* | tranquilo (neste momento) |
 | *urduri* | nervioso (agora mesmo) |
-| *gaixorik* | enfermo |
+| *gaixorik* | doente |
 | *ondo* | ben |
 | *gaizki* | mal |
 
@@ -107,7 +144,7 @@ A gran trampa: cando un adxectivo vai con **egon**, **NON** leva o `-a` final. C
 - *Maialen triste **dago**.* — Maialen está triste.
 - *Zu nekatuta **zaude**?* — Estás cansado?
 - *Gu haserre **gaude**.* — Estamos anoxados.
-- *Haiek gaixorik **daude**.* — Eles están enfermos.
+- *Haiek gaixorik **daude**.* — Eles están doentes.
 
 ## Preguntar polo estado
 
@@ -115,7 +152,7 @@ A gran trampa: cando un adxectivo vai con **egon**, **NON** leva o `-a` final. C
 - **Zer moduz?** — Que tal? (o máis coloquial)
 - **Ondo, eskerrik asko. Eta zu?** — Ben, grazas. E ti?
 - **Nekatuta nago.** — Estou cansado.
-- **Pixka bat gaixorik nago.** — Estou un pouco enfermo.
+- **Pixka bat gaixorik nago.** — Estou un pouco doente.
 
 ## Egon tamén localiza
 

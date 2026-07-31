@@ -7,33 +7,46 @@ level: a1
 order: 2
 title: Presentar-te (Ni X naiz)
 estimatedMinutes: 10
-covers: [introductions, izan-nor]
+covers:
+- introductions
+- izan-nor
 exercises:
-  - id: ex-02-pres-fb1
-    type: fill-in-blank
-    prompt: 'Ni Egoitz ___.'
-    answers: [naiz]
-    explanation: '"Naiz" ei la forma de "izan" (èster/estar) entà "jo".'
-  - id: ex-02-pres-mc1
-    type: multiple-choice
-    prompt: Vòs díder "Sò Maialen". Cossè ac dises?
-    options: [Ni Maialen naiz, Ni Maialen da, Ni Maialen zara, Ni Maialen gara]
-    answer: 0
-    explanation: 'Entara 1a persona deth singular emplegam "naiz".'
-  - id: ex-02-pres-fc
-    type: flashcards
-    cards:
-      - { eu: Ni naiz, es: Jo sò }
-      - { eu: Zu zara, es: Tu ès }
-      - { eu: Hura da, es: Eth/era ei }
-      - { eu: 'Zer moduz?', es: 'Quin va?' }
-      - { eu: 'Ondo, eskerrik asko', es: 'Plan, mercés' }
-      - { eu: Ni ere ondo, es: Jo tanben plan }
+- id: ex-02-pres-fb1
+  type: fill-in-blank
+  prompt: Ni Egoitz ___.
+  answers:
+  - naiz
+  explanation: '"Naiz" ei era forma de "izan" (èster/estar) entà "jo".'
+- id: ex-02-pres-mc1
+  type: multiple-choice
+  prompt: Vòs díder "Sò Maialen". Cossí ac dises?
+  options:
+  - Ni Maialen naiz
+  - Ni Maialen da
+  - Ni Maialen zara
+  - Ni Maialen gara
+  answer: 0
+  explanation: Entara 1a persona deth singular emplegam "naiz".
+- id: ex-02-pres-fc
+  type: flashcards
+  cards:
+  - eu: Ni naiz
+    es: Jo sò
+  - eu: Zu zara
+    es: Tu ès
+  - eu: Hura da
+    es: Eth/era ei
+  - eu: Zer moduz?
+    es: Quin va?
+  - eu: Ondo, eskerrik asko
+    es: Plan, mercés
+  - eu: Ni ere ondo
+    es: Jo tanben plan
 ---
 
 Entà presentar-te en euskera n'i a pro damb ua formula plan simpla: **Ni** (jo) + ton nòm + **naiz** (sò).
 
-## Eth patron
+## Eth modèl
 
 | Euskera | Occitan |
 |---|---|
@@ -41,7 +54,7 @@ Entà presentar-te en euskera n'i a pro damb ua formula plan simpla: **Ni** (jo)
 | *Ni Maialen naiz.* | Sò Maialen. |
 | *Ni Hodei naiz.* | Sò Hodei. |
 
-Eth vèrb **izan** ("èster/estar") cambie segon era persona. Per ara memoriza sonque tres formes:
+Eth vèrb **izan** ("èster/estar") càmbie segon era persona. Per ara memoriza sonque tres formes:
 
 - *Ni* + **naiz** → jo sò
 - *Zu* + **zara** → tu ès
@@ -51,7 +64,7 @@ Eth vèrb **izan** ("èster/estar") cambie segon era persona. Per ara memoriza s
 
 ## "Quin va?"
 
-Un còp t'as presentat, çò de naturau ei demanar cossè va era auta persona:
+Un còp t'as presentat, çò naturau ei demanar cossí va era auta persona:
 
 - *Zer moduz?* → Quin va?
 - *Ondo, eskerrik asko.* → Plan, mercés.

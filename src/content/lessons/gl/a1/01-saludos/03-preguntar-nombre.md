@@ -7,28 +7,40 @@ level: a1
 order: 3
 title: Preguntar o nome
 estimatedMinutes: 10
-covers: [introductions]
+covers:
+- introductions
 exercises:
-  - id: ex-03-pn-mc1
-    type: multiple-choice
-    prompt: Como preguntas "Como te chamas?" en euskera?
-    options: ["Zein da zure izena?", "Nongoa zara?", "Zer moduz?", "Egun on?"]
-    answer: 0
-    explanation: '"Zein" significa "cal"; "izena" significa "o nome"; literalmente "Cal é o teu nome?".'
-  - id: ex-03-pn-fb1
-    type: fill-in-blank
-    prompt: 'Nire izena Maialen ___.'
-    answers: [da]
-    explanation: '"Da" é a forma de "izan" (ser) para a 3ª persoa; o suxeito aquí é "izena".'
-  - id: ex-03-pn-fc
-    type: flashcards
-    cards:
-      - { eu: izen, es: nome }
-      - { eu: nire, es: meu }
-      - { eu: zure, es: teu (de ti) }
-      - { eu: bere, es: seu (del/dela) }
-      - { eu: 'Zein da zure izena?', es: Como te chamas? }
-      - { eu: Nire izena Egoitz da, es: O meu nome é Egoitz }
+- id: ex-03-pn-mc1
+  type: multiple-choice
+  prompt: Como preguntas "Como te chamas?" en éuscaro?
+  options:
+  - Zein da zure izena?
+  - Nongoa zara?
+  - Zer moduz?
+  - Egun on?
+  answer: 0
+  explanation: '"Zein" significa "cal"; "izena" significa "o nome"; literalmente "Cal é o teu nome?".'
+- id: ex-03-pn-fb1
+  type: fill-in-blank
+  prompt: Nire izena Maialen ___.
+  answers:
+  - da
+  explanation: '"Da" é a forma de "izan" (ser) para a 3ª persoa; o suxeito aquí é "izena".'
+- id: ex-03-pn-fc
+  type: flashcards
+  cards:
+  - eu: izen
+    es: nome
+  - eu: nire
+    es: meu
+  - eu: zure
+    es: teu (de ti)
+  - eu: bere
+    es: seu (del/dela)
+  - eu: Zein da zure izena?
+    es: Como te chamas?
+  - eu: Nire izena Egoitz da
+    es: O meu nome é Egoitz
 ---
 
 Hai dúas maneiras igualmente correctas de preguntar o nome:
@@ -40,7 +52,7 @@ Hai dúas maneiras igualmente correctas de preguntar o nome:
 
 - **Zein** = cal / que (en preguntas de elección)
 - **izena** = o nome (o `-a` final é o artigo "o/a")
-- **zure** = teu / túa
+- **zure** = teu
 - **da** = é
 
 ## Como responder
@@ -48,6 +60,6 @@ Hai dúas maneiras igualmente correctas de preguntar o nome:
 Tes dúas opcións, igualmente válidas:
 
 1. **Nire izena Egoitz da.** — "O meu nome é Egoitz."
-2. **Egoitz naiz.** — "Son Egoitz." (o patrón da lección anterior)
+2. **Egoitz naiz.** — "Son Egoitz." (o padrón da lección anterior)
 
-> Os posesivos básicos son *nire* (meu), *zure* (teu), *bere* (seu). Verás moitas veces máis adiante — comeza a familiarizarte con eles xa.
+> Os posesivos básicos son *nire* (meu), *zure* (teu), *bere* (seu). Verásos moitas veces máis adiante — empeza a familiarizarte con eles xa.

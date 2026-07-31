@@ -5,76 +5,115 @@ code: 04-eguneroko-ekintzak
 unit: 07-rutina-diaria
 level: a1
 order: 4
-title: Codzienne czynności i aspekt zwyczajowy
+title: Codzienne czynności i aspekt habitualny
 estimatedMinutes: 12
-covers: [daily-routine, habitual-aspect, frequency-adverbs, common-verbs]
+covers:
+- daily-routine
+- habitual-aspect
+- frequency-adverbs
+- common-verbs
 exercises:
-  - id: ex-04-ee-mc1
-    type: multiple-choice
-    prompt: 'Co oznacza "esnatzen naiz"?'
-    options: ["obudziłem się", "budzę się", "zaraz się obudzę", "budziłem się"]
-    answer: 1
-    explanation: 'Aspekt zwyczajowy (-tzen + naiz/dut) wyraża to, co robisz zwykle: "budzę się" (każdego dnia).'
-  - id: ex-04-ee-mc2
-    type: multiple-choice
-    prompt: '"Egunero gosaltzen dut" znaczy…'
-    options: ["Zjadłem dziś śniadanie", "Jem śniadanie każdego dnia", "Zaraz zjem śniadanie", "Jem właśnie śniadanie"]
-    answer: 1
-    explanation: '"Egunero" = każdego dnia; "gosaltzen dut" = jem śniadanie (zwyczajowo).'
-  - id: ex-04-ee-fb1
-    type: fill-in-blank
-    prompt: 'Esnatu (budzić się) → forma zwyczajowa ___ (z końcówką -n aspektu zwyczajowego).'
-    answers: [esnatzen]
-    explanation: 'Czasowniki zakończone na spółgłoskę lub na -tu/-du dodają "-tzen" dla aspektu zwyczajowego: esna**tu** → esna**tzen**.'
-  - id: ex-04-ee-fb2
-    type: fill-in-blank
-    prompt: 'Jan (jeść) → forma zwyczajowa ___ (z końcówką aspektu zwyczajowego).'
-    answers: [jaten]
-    explanation: 'Czasowniki zakończone na -n zmieniają się: ja**n** → ja**ten** (nie "janten"). Zasada: końcowe -n → "-ten".'
-  - id: ex-04-ee-mp
-    type: match-pairs
-    pairs:
-      - { eu: esnatu, es: budzić się }
-      - { eu: jaiki, es: wstawać }
-      - { eu: dutxatu, es: brać prysznic }
-      - { eu: gosaldu, es: jeść śniadanie }
-      - { eu: bazkaldu, es: jeść (obiad) }
-      - { eu: afaldu, es: jeść kolację }
-      - { eu: lan egin, es: pracować }
-      - { eu: lo egin, es: spać }
-      - { eu: oheratu, es: kłaść się spać }
-  - id: ex-04-ee-fc
-    type: flashcards
-    cards:
-      - { eu: esnatu / esnatzen naiz, es: 'budzić się / budzę się' }
-      - { eu: jaiki / jaikitzen naiz, es: 'wstawać / wstaję' }
-      - { eu: dutxatu / dutxatzen naiz, es: 'brać prysznic / biorę prysznic' }
-      - { eu: jantzi / janzten naiz, es: 'ubierać się / ubieram się' }
-      - { eu: gosaldu / gosaltzen dut, es: 'jeść śniadanie / jem śniadanie' }
-      - { eu: bazkaldu / bazkaltzen dut, es: 'jeść obiad / jem (obiad)' }
-      - { eu: afaldu / afaltzen dut, es: 'jeść kolację / jem kolację' }
-      - { eu: lan egin / lan egiten dut, es: 'pracować / pracuję' }
-      - { eu: lo egin / lo egiten dut, es: 'spać / śpię' }
-      - { eu: oheratu / oheratzen naiz, es: 'kłaść się spać / kładę się spać' }
-      - { eu: lo-kuluxka egin, es: 'uciąć sobie drzemkę' }
-      - { eu: egunero, es: codziennie / każdego dnia }
-      - { eu: beti, es: zawsze }
-      - { eu: askotan, es: często }
-      - { eu: batzuetan, es: czasami }
-      - { eu: inoiz ez, es: nigdy }
+- id: ex-04-ee-mc1
+  type: multiple-choice
+  prompt: Co oznacza „esnatzen naiz”?
+  options:
+  - obudziłem/am się
+  - budzę się
+  - obudzę się
+  - budziłem/am się
+  answer: 1
+  explanation: 'Aspekt habitualny (-tzen + naiz/dut) wyraża to, co robisz zazwyczaj: „budzę się” (codziennie).'
+- id: ex-04-ee-mc2
+  type: multiple-choice
+  prompt: „Egunero gosaltzen dut” oznacza…
+  options:
+  - Zjadłem/am dzisiaj śniadanie
+  - Jem śniadanie codziennie
+  - Zjem śniadanie
+  - Jem śniadanie (teraz)
+  answer: 1
+  explanation: „Egunero” = codziennie; „gosaltzen dut” = jem śniadanie (zwyczajowo).
+- id: ex-04-ee-fb1
+  type: fill-in-blank
+  prompt: Esnatu (budzić się) → forma habitualna ___ (z końcówką aspektu habitualnego).
+  answers:
+  - esnatzen
+  explanation: 'Czasowniki zakończone na spółgłoskę lub na -tu/-du dodają „-tzen” w aspekcie habitualnym: esna**tu** → esna**tzen**.'
+- id: ex-04-ee-fb2
+  type: fill-in-blank
+  prompt: Jan (jeść) → forma habitualna ___ (z końcówką aspektu habitualnego).
+  answers:
+  - jaten
+  explanation: 'Czasowniki zakończone na -n zmieniają się: ja**n** → ja**ten** (nie „janten”). Zasada: końcowe -n → „-ten”.'
+- id: ex-04-ee-mp
+  type: match-pairs
+  pairs:
+  - eu: esnatu
+    es: despertarse
+  - eu: jaiki
+    es: levantarse
+  - eu: dutxatu
+    es: ducharse
+  - eu: gosaldu
+    es: desayunar
+  - eu: bazkaldu
+    es: comer (almorzar)
+  - eu: afaldu
+    es: cenar
+  - eu: lan egin
+    es: trabajar
+  - eu: lo egin
+    es: dormir
+  - eu: oheratu
+    es: acostarse
+- id: ex-04-ee-fc
+  type: flashcards
+  cards:
+  - eu: esnatu / esnatzen naiz
+    es: budzić się / budzę się
+  - eu: jaiki / jaikitzen naiz
+    es: wstawać / wstaję
+  - eu: dutxatu / dutxatzen naiz
+    es: brać prysznic / biorę prysznic
+  - eu: jantzi / janzten naiz
+    es: ubierać się / ubieram się
+  - eu: gosaldu / gosaltzen dut
+    es: jeść śniadanie / jem śniadanie
+  - eu: bazkaldu / bazkaltzen dut
+    es: jeść obiad / jem obiad
+  - eu: afaldu / afaltzen dut
+    es: jeść kolację / jem kolację
+  - eu: lan egin / lan egiten dut
+    es: pracować / pracuję
+  - eu: lo egin / lo egiten dut
+    es: spać / śpię
+  - eu: oheratu / oheratzen naiz
+    es: kłaść się spać / kładę się spać
+  - eu: lo-kuluxka egin
+    es: uciąć sobie drzemkę
+  - eu: egunero
+    es: codziennie / każdego dnia
+  - eu: beti
+    es: zawsze
+  - eu: askotan
+    es: często
+  - eu: batzuetan
+    es: czasami
+  - eu: inoiz ez
+    es: nigdy
 ---
 
-Aby powiedzieć, co robisz każdego dnia, język baskijski używa **aspektu zwyczajowego**: bierzesz czasownik (imiesłów) i dodajesz **-tzen** lub **-ten**, a następnie łączysz go z czasownikiem posiłkowym **izan** (naiz, zara, da…) lub **ukan** (dut, duzu, du…).
+Aby powiedzieć, co robisz na co dzień, w języku baskijskim używa się **aspektu habitualnego**: bierzesz czasownik (*partizipio*) i dodajesz do niego **-tzen** lub **-ten**, a następnie łączysz z czasownikiem posiłkowym **izan** (naiz, zara, da…) lub **ukan** (dut, duzu, du…).
 
 ## Zasada
 
-| Zakończenie czasownika | Przyrostek zwyczajowy | Przykład |
+| Końcówka czasownika | Sufiks habitualny | Przykład |
 |---|---|---|
 | spółgłoska lub `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (nieregularny) | **-tzen** lub **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` (nieregularne) | **-tzen** lub **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
 
-> Czasownik *jan* (jeść) **nie** zmienia się w *janten*, lecz w *jaten* — końcowe "n" znika. Tak samo z *edan* → *edaten*, *egon* → *egoten*.
+> Czasownik *jan* (jeść) **nie** zmienia się w *janten*, lecz w *jaten* — końcowe „n” zanika. To samo dotyczy *edan* → *edaten*, *egon* → *egoten*.
 
 ## Czasowniki dnia codziennego
 
@@ -82,7 +121,7 @@ Aby powiedzieć, co robisz każdego dnia, język baskijski używa **aspektu zwyc
 
 Te łączą się **z izan**, ponieważ są nieprzechodnie — podmiot doświadcza czynności bez dopełnienia:
 
-| Partizipioa | Aspekt zwyczajowy | Znaczenie |
+| Partizipioa | Aspekt habitualny | Znaczenie |
 |---|---|---|
 | *esnatu* | *esnatzen naiz* | budzę się |
 | *jaiki* | *jaikitzen naiz* | wstaję |
@@ -98,10 +137,10 @@ Te łączą się **z izan**, ponieważ są nieprzechodnie — podmiot doświadcz
 
 Te łączą się **z ukan**, ponieważ mają podmiot i dopełnienie:
 
-| Partizipioa | Aspekt zwyczajowy | Znaczenie |
+| Partizipioa | Aspekt habitualny | Znaczenie |
 |---|---|---|
 | *gosaldu* | *gosaltzen dut* | jem śniadanie |
-| *bazkaldu* | *bazkaltzen dut* | jem (obiad) |
+| *bazkaldu* | *bazkaltzen dut* | jem obiad |
 | *afaldu* | *afaltzen dut* | jem kolację |
 | *jan* | *jaten dut* | jem |
 | *edan* | *edaten dut* | piję |
@@ -111,26 +150,26 @@ Te łączą się **z ukan**, ponieważ mają podmiot i dopełnienie:
 | *irakurri* | *irakurtzen dut* | czytam |
 | *erosi* | *erosten dut* | kupuję |
 
-> **Dlaczego jedne łączą się z NAIZ, a inne z DUT?** To kluczowe rozróżnienie w języku baskijskim. *Esnatzen naiz* (budzę się) to coś, co dzieje się ze mną: nie ma dopełnienia. *Jaten dut* (jem) ma dopełnienie: *ogia jaten dut* (jem chleb). Zobaczymy to dogłębnie w następnej jednostce — na razie zapamiętaj pary czasownik + posiłkowy.
+> **Dlaczego niektóre łączą się z NAIZ, a inne z DUT?** To kluczowe rozróżnienie w języku baskijskim. *Esnatzen naiz* (budzę się) to coś, co mi się przydarza: nie ma dopełnienia. *Jaten dut* (jem) ma dopełnienie: *ogia jaten dut* (jem chleb). Omówimy to szczegółowo w następnej lekcji — na razie zapamiętaj pary czasownik + czasownik posiłkowy.
 
-## Wskaźniki częstotliwości
+## Określenia częstotliwości
 
-| Euskera | Polski |
+| Baskijski | Polski |
 |---|---|
 | *egunero* | codziennie / każdego dnia |
 | *beti* | zawsze |
 | *askotan* | często |
 | *batzuetan* | czasami |
-| *normalean* | zwykle |
-| *gehienetan* | przeważnie / najczęściej |
+| *normalean* | zazwyczaj |
+| *gehienetan* | najczęściej |
 | *gutxitan* | rzadko |
 | *inoiz ez* | nigdy |
 | *astero* | co tydzień |
 | *hilero* | co miesiąc |
 
-## Powiązane przykłady
+## Połączone przykłady
 
-> *Egunero zazpietan esnatzen naiz eta dutxatzen naiz.* — Każdego dnia budzę się o siódmej i biorę prysznic.
+> *Egunero zazpietan esnatzen naiz eta dutxatzen naiz.* — Codziennie budzę się o siódmej i biorę prysznic.
 >
 > *Goizean kafea hartzen dut.* — Rano piję kawę.
 >
@@ -138,4 +177,4 @@ Te łączą się **z ukan**, ponieważ mają podmiot i dopełnienie:
 >
 > *Batzuetan lo-kuluxka egiten dut bazkalostean.* — Czasami ucinam sobie drzemkę po obiedzie.
 
-> **Uwaga:** *bazkalostean* = "po obiedzie" (dosłownie: "po posiłku"). Język baskijski ma zwięzłe słowa na codzienne pojęcia, jak ta krótka drzemka — *lo-kuluxka* to właśnie ona.
+> **Uwaga:** *bazkalostean* = „po obiedzie” (dosłownie: „po posiłku”). Kultura baskijska ma zwięzłe słowa na codzienne pojęcia, takie jak krótka drzemka — *lo-kuluxka* to jest właśnie to.

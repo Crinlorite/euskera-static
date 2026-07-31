@@ -5,109 +5,144 @@ code: 01-nolakoa-da
 unit: 03-descripciones
 level: a1
 order: 1
-title: Nolakoa da? 用 izan 表达形容词
+title: Nolakoa da? 与 izan 连用的形容词
 estimatedMinutes: 10
-covers: [physical-description, izan-nor]
+covers:
+- physical-description
+- izan-nor
 exercises:
-  - id: ex-nlk-mc1
-    type: multiple-choice
-    prompt: '"Nolakoa zara?" 是什么意思？'
-    options: ["你叫什么名字？", "你是怎样的人？", "你好吗？", "你来自哪里？"]
-    answer: 1
-    explanation: '"Nolakoa" 询问的是某人或某物的性质，也就是"是怎样的"——指的是长期、固定的描述，而不是一时的状态。'
-  - id: ex-nlk-mc2
-    type: multiple-choice
-    prompt: '你想说"我个子高"。该怎么说？'
-    options: [Ni altu naiz, Ni altua naiz, Ni altuan naiz, Ni naiz altu]
-    answer: 1
-    explanation: '在这个句型里，形容词要带上冠词 `-a`：*altu* + *-a* = *altua*。'
-  - id: ex-nlk-fb1
-    type: fill-in-blank
-    prompt: 'Maialen 非常和蔼可亲 = Maialen oso atsegin___ da。'
-    answers: [a]
-    explanation: '当你描述某种性质时，形容词要加冠词 `-a`：*atsegina*。'
-  - id: ex-nlk-fb2
-    type: fill-in-blank
-    prompt: 'Hura ___ da。（他个子矮）—— 用 "baxu" + 冠词。'
-    answers: [baxua]
-    explanation: '标准形式：形容词词尾始终带 `-a`。'
-  - id: ex-nlk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nolakoa zara?', es: '你是怎样的人？' }
-      - { eu: 'Nolakoa da?', es: '他/她是怎样的人？' }
-      - { eu: altua, es: 高 }
-      - { eu: baxua, es: 矮 }
-      - { eu: handia, es: 大 }
-      - { eu: txikia, es: 小 }
-      - { eu: lodia, es: 胖 }
-      - { eu: argala, es: 瘦 }
-      - { eu: gaztea, es: 年轻 }
-      - { eu: heldua, es: 成年（年长） }
-      - { eu: zaharra, es: 老 }
-      - { eu: polita, es: 漂亮/好看 }
-      - { eu: itsusia, es: 丑 }
-      - { eu: ederra, es: 美丽 }
-      - { eu: dotorea, es: 优雅 }
-  - id: ex-nlk-mp
-    type: match-pairs
-    pairs:
-      - { eu: altua, es: 高 }
-      - { eu: baxua, es: 矮 }
-      - { eu: handia, es: 大 }
-      - { eu: txikia, es: 小 }
-      - { eu: lodia, es: 胖 }
-      - { eu: argala, es: 瘦 }
-      - { eu: polita, es: 漂亮 }
-      - { eu: itsusia, es: 丑 }
+- id: ex-nlk-mc1
+  type: multiple-choice
+  prompt: “Nolakoa zara?” 是什么意思？
+  options:
+  - 你叫什么名字？
+  - 你是什么样的？
+  - 你怎么样？
+  - 你来自哪里？
+  answer: 1
+  explanation: “Nolakoa” 用来询问某人或某物的特质或“是什么样的”——描述的是永久性特征，而不是暂时状态。
+- id: ex-nlk-mc2
+  type: multiple-choice
+  prompt: 你想说“我很高”。该怎么说？
+  options:
+  - Ni altu naiz
+  - Ni altua naiz
+  - Ni altuan naiz
+  - Ni naiz altu
+  answer: 1
+  explanation: 在这个句式中，形容词需要加上冠词 `-a`：*altu* + *-a* = *altua*。
+- id: ex-nlk-fb1
+  type: fill-in-blank
+  prompt: Maialen 非常友善 = Maialen oso atsegin___ da.
+  answers:
+  - a
+  explanation: 在描述特质时，使用“形容词 + 冠词 `-a`”：*atsegina*。
+- id: ex-nlk-fb2
+  type: fill-in-blank
+  prompt: Hura ___ da. (他很矮) — 使用 “baxu” + 冠词。
+  answers:
+  - baxua
+  explanation: 标准形式：形容词总是以 `-a` 结尾。
+- id: ex-nlk-fc
+  type: flashcards
+  cards:
+  - eu: Nolakoa zara?
+    es: 你是什么样的？
+  - eu: Nolakoa da?
+    es: 他/她是什么样的？
+  - eu: altua
+    es: 高的
+  - eu: baxua
+    es: 矮的
+  - eu: handia
+    es: 大的
+  - eu: txikia
+    es: 小的
+  - eu: lodia
+    es: 胖的
+  - eu: argala
+    es: 瘦的
+  - eu: gaztea
+    es: 年轻的
+  - eu: heldua
+    es: 成年的（年长的）
+  - eu: zaharra
+    es: 老的
+  - eu: polita
+    es: 漂亮的/帅气的
+  - eu: itsusia
+    es: 丑的
+  - eu: ederra
+    es: 美丽的
+  - eu: dotorea
+    es: 优雅的
+- id: ex-nlk-mp
+  type: match-pairs
+  pairs:
+  - eu: altua
+    es: alto
+  - eu: baxua
+    es: bajo
+  - eu: handia
+    es: grande
+  - eu: txikia
+    es: pequeño
+  - eu: lodia
+    es: gordo
+  - eu: argala
+    es: delgado
+  - eu: polita
+    es: bonito
+  - eu: itsusia
+    es: feo
 ---
 
-当你想以**稳定**的方式（外貌上、总体上）描述一个人或一件事物时，在巴斯克语中我们使用 **Nolakoa da?**（"是怎样的？"）这个问句来发问，并用动词 **izan** + 一个词尾带 `-a` 标记的形容词来回答。
+当你想描述一个人或一个事物的**稳定**特征（身体上的、总体的）时，在巴斯克语中我们使用问句 **Nolakoa da?**（“是什么样的？”），并用动词 **izan** + 一个以 `-a` 结尾的形容词来回答。
 
 ## 问句
 
 | 巴斯克语 | 中文 |
 |---|---|
-| *Nolakoa zara?* | 你是怎样的人？（对"你"说） |
-| *Nolakoa da?* | 他/她是怎样的人？（对"他/她"说） |
-| *Nolakoak dira?* | 他们是怎样的人？（对"他们"说） |
+| *Nolakoa zara?* | 你是什么样的？ (对“你”) |
+| *Nolakoa da?* | 他/她是什么样的？ (对“他/她”) |
+| *Nolakoak dira?* | 他们是什么样的？ (对“他们”) |
 
-> **Nolakoa** = 怎样？（指性质方面）。不要和 **nola**（指状态的"怎样"：*nola dago?* = 他好吗？）混淆。它与 *egon* 的区别你会在第 4 课里学到。
+> **Nolakoa** = 什么样的？ (用于询问特质)。不要与 **nola**（询问状态的“怎么样”：*nola dago?* = 他/她怎么样？）混淆。你将在第4课学习它与 *egon* 的区别。
 
 ## 结构：主语 + 形容词 + izan
 
-这个句式非常规则。形容词始终带上冠词的 `-a`：
+这个句式非常有规律。形容词总是带有冠词 `-a`：
 
-- *Ni **altua** naiz.* —— 我个子高。
-- *Zu **txikia** zara.* —— 你个子小。
-- *Hura **polita** da.* —— 他/她长得漂亮。
-- *Gu **gazteak** gara.* —— 我们很年轻。（复数：`-ak`）
-- *Haiek **lodiak** dira.* —— 他们很胖。
+- *Ni **altua** naiz.* — 我很高。
+- *Zu **txikia** zara.* — 你很矮小。
+- *Hura **polita** da.* — 他/她很漂亮。
+- *Gu **gazteak** gara.* — 我们很年轻。（复数：`-ak`）
+- *Haiek **lodiak** dira.* — 他们很胖。
 
-> 巴斯克语没有语法上的性别区分。*Altua* 既可表示"高（阳）"也可表示"高（阴）"。
+> 在巴斯克语中没有语法性别。*Altua* 既可以指男性“高”，也可以指女性“高”。
 
-## 描述总体外貌的基础形容词
+## 描述外貌的基本形容词
 
 | 巴斯克语 | 中文 | 反义词 |
 |---|---|---|
-| *altua* | 高 | *baxua*（矮） |
-| *handia* | 大 | *txikia*（小） |
-| *lodia* | 胖 | *argala*（瘦） |
-| *gaztea* | 年轻 | *zaharra* / *heldua*（年长） |
-| *polita* | 漂亮、好看 | *itsusia*（丑） |
-| *ederra* | 美丽 | — |
-| *dotorea* | 优雅 | — |
+| *altua* | 高的 | *baxua* (矮的) |
+| *handia* | 大的 | *txikia* (小的) |
+| *lodia* | 胖的 | *argala* (瘦的) |
+| *gaztea* | 年轻的 | *zaharra* / *heldua* (年长的) |
+| *polita* | 漂亮的，好看的 | *itsusia* (丑的) |
+| *ederra* | 美丽的 | — |
+| *dotorea* | 优雅的 | — |
 
-## 实际用例
+## 使用示例
 
-- *Nire ama altua eta argala da.* —— 我妈妈又高又瘦。
-- *Mikelen anaia gaztea da, baina ni heldua naiz.* —— Mikel 的哥哥很年轻，但我年纪比较大。
-- *Etxe hau handia da; nire etxea txikia da.* —— 这栋房子很大；我的房子很小。
+- *Nire ama altua eta argala da.* — 我的妈妈又高又瘦。
+- *Mikelen anaia gaztea da, baina ni heldua naiz.* — Mikel 的哥哥很年轻，但我年纪比较大。
+- *Etxe hau handia da; nire etxea txikia da.* — 这栋房子很大；我的房子很小。
 
-## 否定与程度
+## 否定和强调
 
-- **Ni ez naiz altua.** —— 我个子不高。
-- **Hura oso polita da.** —— 他/她非常漂亮。（*oso* = 非常）
-- **Ez naiz oso lodia.** —— 我不太胖。
+- **Ni ez naiz altua.** — 我不高。
+- **Hura oso polita da.** — 他/她非常漂亮。(*oso* = 很)
+- **Ez naiz oso lodia.** — 我不是很胖。
 
-> 想要加强语气可以用 **oso**（非常）或 **nahiko**（相当）：*nahiko altua naiz*（"我个子相当高"）。要表示否定，就把 **ez** 放在动词前面，就像你已经在 *izan* 中见过的那样。
+> 要表示程度，可以使用 **oso** (很) 或 **nahiko** (相当)：*nahiko altua naiz* (“我相当高”)。要表示否定，只需将 **ez** 放在动词前，就像你学过的 *izan* 的用法一样。

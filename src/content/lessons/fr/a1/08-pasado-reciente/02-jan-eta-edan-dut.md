@@ -7,73 +7,106 @@ level: a1
 order: 2
 title: Verbes transitifs au passé récent (jan dut, ikusi dut)
 estimatedMinutes: 12
-covers: [recent-past-dut, ukan-basic, participle-form]
+covers:
+- recent-past-dut
+- ukan-basic
+- participle-form
 exercises:
-  - id: ex-02-jed-mc1
-    type: multiple-choice
-    prompt: '« Egunkaria irakurri dut » signifie…'
-    options: ["Je lis le journal tous les jours", "J'ai lu le journal", "Je vais lire le journal", "Le journal est en train de lire"]
-    answer: 1
-    explanation: '« Irakurri » (lire) + « dut » (je + objet) = « j''ai lu ». Sans le -tzen, il marque le passé récent.'
-  - id: ex-02-jed-mc2
-    type: multiple-choice
-    prompt: 'Comment dirais-tu « Mikel a pris son petit-déjeuner à la maison » ?'
-    options:
-      - "Mikel etxean gosaldu da"
-      - "Mikelek etxean gosaldu du"
-      - "Mikelek etxean gosaltzen du"
-      - "Mikel etxean gosaltzen da"
-    answer: 1
-    explanation: '*Gosaldu* est transitif (il porte un objet implicite : le petit-déjeuner). Le sujet prend NORK (-k) : *Mikelek* ; l''auxiliaire est *du*.'
-  - id: ex-02-jed-fb1
-    type: fill-in-blank
-    prompt: 'Nous avons acheté du pain = Ogia erosi ___.'
-    answers: [dugu]
-    explanation: '« Erosi » prend ukan ; « nous » → *dugu*. Sujet : *guk*. Résultat : *guk ogia erosi dugu*.'
-  - id: ex-02-jed-fb2
-    type: fill-in-blank
-    prompt: 'Ils ont bu du vin = Ardoa edan ___.'
-    answers: [dute]
-    explanation: '« Edan » prend ukan ; « ils » → *dute*. Sujet : *haiek*. Résultat : *haiek ardoa edan dute*.'
-  - id: ex-02-jed-mp
-    type: match-pairs
-    pairs:
-      - { eu: jan dut, es: j'ai mangé }
-      - { eu: edan dut, es: j'ai bu }
-      - { eu: ikusi dut, es: j'ai vu }
-      - { eu: irakurri dut, es: j'ai lu }
-      - { eu: erosi dut, es: j'ai acheté }
-      - { eu: egin dut, es: j'ai fait }
-      - { eu: hartu dut, es: j'ai pris }
-      - { eu: ikasi dut, es: j'ai appris / j'ai étudié }
-  - id: ex-02-jed-fc
-    type: flashcards
-    cards:
-      - { eu: jan dut, es: j'ai mangé }
-      - { eu: edan dut, es: j'ai bu }
-      - { eu: ikusi dut, es: j'ai vu }
-      - { eu: irakurri dut, es: j'ai lu }
-      - { eu: erosi dut, es: j'ai acheté }
-      - { eu: egin dut, es: j'ai fait }
-      - { eu: ekarri dut, es: j'ai apporté }
-      - { eu: eraman dut, es: j'ai emporté }
-      - { eu: hartu dut, es: j'ai pris }
-      - { eu: eskatu dut, es: j'ai demandé }
-      - { eu: ikasi dut, es: j'ai appris }
-      - { eu: gosaldu dut, es: j'ai pris le petit-déjeuner }
-      - { eu: bazkaldu dut, es: j'ai déjeuné }
-      - { eu: afaldu dut, es: j'ai dîné }
-      - { eu: lan egin dut, es: j'ai travaillé }
-      - { eu: lo egin dut, es: j'ai dormi }
+- id: ex-02-jed-mc1
+  type: multiple-choice
+  prompt: '"Egunkaria irakurri dut" signifie…'
+  options:
+  - Je lis le journal tous les jours
+  - J'ai lu le journal
+  - Je vais lire le journal
+  - Le journal est en train de lire
+  answer: 1
+  explanation: '"Irakurri" (lire) + "dut" (je + objet) = "j''ai lu". Sans le -tzen, cela marque le passé récent.'
+- id: ex-02-jed-mc2
+  type: multiple-choice
+  prompt: Comment dirais-tu « Mikel a pris son petit-déjeuner à la maison » ?
+  options:
+  - Mikel etxean gosaldu da
+  - Mikelek etxean gosaldu du
+  - Mikelek etxean gosaltzen du
+  - Mikel etxean gosaltzen da
+  answer: 1
+  explanation: '*Gosaldu* est transitif (il a un objet implicite : le petit-déjeuner). Le sujet prend la marque NORK (-k) : *Mikelek* ; l''auxiliaire est *du*.'
+- id: ex-02-jed-fb1
+  type: fill-in-blank
+  prompt: Nous avons acheté du pain = Ogia erosi ___.
+  answers:
+  - dugu
+  explanation: '"Erosi" se conjugue avec ukan ; « nous » → *dugu*. Sujet : *guk*. Résultat : *guk ogia erosi dugu*.'
+- id: ex-02-jed-fb2
+  type: fill-in-blank
+  prompt: Ils/Elles ont bu du vin = Ardoa edan ___.
+  answers:
+  - dute
+  explanation: '"Edan" se conjugue avec ukan ; « ils/elles » → *dute*. Sujet : *haiek*. Résultat : *haiek ardoa edan dute*.'
+- id: ex-02-jed-mp
+  type: match-pairs
+  pairs:
+  - eu: jan dut
+    es: he comido
+  - eu: edan dut
+    es: he bebido
+  - eu: ikusi dut
+    es: he visto
+  - eu: irakurri dut
+    es: j'ai lu
+  - eu: erosi dut
+    es: he comprado
+  - eu: egin dut
+    es: he hecho
+  - eu: hartu dut
+    es: he tomado / he cogido
+  - eu: ikasi dut
+    es: he aprendido / he estudiado
+- id: ex-02-jed-fc
+  type: flashcards
+  cards:
+  - eu: jan dut
+    es: j'ai mangé
+  - eu: edan dut
+    es: j'ai bu
+  - eu: ikusi dut
+    es: j'ai vu
+  - eu: irakurri dut
+    es: j'ai lu
+  - eu: erosi dut
+    es: j'ai acheté
+  - eu: egin dut
+    es: j'ai fait
+  - eu: ekarri dut
+    es: j'ai apporté
+  - eu: eraman dut
+    es: j'ai emporté
+  - eu: hartu dut
+    es: j'ai pris
+  - eu: eskatu dut
+    es: j'ai demandé
+  - eu: ikasi dut
+    es: j'ai appris
+  - eu: gosaldu dut
+    es: j'ai pris le petit-déjeuner
+  - eu: bazkaldu dut
+    es: j'ai déjeuné
+  - eu: afaldu dut
+    es: j'ai dîné
+  - eu: lan egin dut
+    es: j'ai travaillé
+  - eu: lo egin dut
+    es: j'ai dormi
 ---
 
-Les **verbes transitifs** sont ceux qui portent un objet : quelqu'un mange *quelque chose*, voit *quelque chose*, lit *quelque chose*. En basque, ces verbes utilisent l'auxiliaire **ukan** (dut, duzu, du…). Au passé récent, la formule est :
+Les **verbes transitifs** sont ceux qui ont un objet : quelqu'un mange *quelque chose*, voit *quelque chose*, lit *quelque chose*. En basque, ces verbes utilisent l'auxiliaire **ukan** (dut, duzu, du…). Au passé récent, la formule est :
 
 > **partizipioa + dut/duzu/du/dugu/duzue/dute**
 
 ## Les verbes transitifs de base
 
-| Partizipioa | Moi (j'ai…) | Français |
+| Partizipioa | Je (j'ai…) | Français |
 |---|---|---|
 | *jan* | **jan dut** | j'ai mangé |
 | *edan* | **edan dut** | j'ai bu |
@@ -96,7 +129,7 @@ Les **verbes transitifs** sont ceux qui portent un objet : quelqu'un mange *quel
 | *afaldu* | **afaldu dut** | j'ai dîné |
 | *lan egin* | **lan egin dut** | j'ai travaillé |
 
-## Conjugaison complète avec un verbe
+## Conjugaison complète d'un verbe
 
 Prenons *ikusi* (voir) comme exemple :
 
@@ -104,31 +137,31 @@ Prenons *ikusi* (voir) comme exemple :
 |---|---|---|
 | Nik | **ikusi dut** | J'ai vu |
 | Zuk | **ikusi duzu** | Tu as vu |
-| Hark | **ikusi du** | Il/elle a vu |
+| Hark | **ikusi du** | Il/Elle a vu |
 | Guk | **ikusi dugu** | Nous avons vu |
 | Zuek | **ikusi duzue** | Vous avez vu |
-| Haiek | **ikusi dute** | Ils/elles ont vu |
+| Haiek | **ikusi dute** | Ils/Elles ont vu |
 
-> Le sujet des verbes transitifs porte la marque **NORK** (-k) : *nik, zuk, hark, guk, zuek, haiek*. Tu la verras souvent, surtout quand le sujet est un nom : *Mikelek* (Mikel a…), *Maialenek* (Maialen a…). Si cela te trouble, en A1 tu peux omettre le pronom et ne garder que le verbe : le contexte suffit.
+> Le sujet des verbes transitifs porte la marque **NORK** (-k) : *nik, zuk, hark, guk, zuek, haiek*. Tu la verras souvent, surtout quand le sujet est un nom : *Mikelek* (Mikel a…), *Maialenek* (Maialen a…). Si cela te perturbe, au niveau A1 tu peux omettre le pronom et ne laisser que le verbe : le contexte suffit.
 
 ## Phrases typiques
 
 - *Gaur goizean egunkaria irakurri dut.* — Ce matin, j'ai lu le journal.
-- *Bazkaltzeko arraina jan dut.* — Pour le déjeuner, j'ai mangé du poisson.
+- *Bazkaltzeko arraina jan dut.* — Pour déjeuner, j'ai mangé du poisson.
 - *Lagunekin kafea hartu dut.* — J'ai pris un café avec des amis.
 - *Mikelek ardoa erosi du.* — Mikel a acheté du vin.
 - *Guk pelikula bat ikusi dugu.* — Nous avons vu un film.
-- *Haiek euskara ikasi dute gaur.* — Ils ont étudié l'euskera aujourd'hui.
+- *Haiek euskara ikasi dute gaur.* — Ils ont étudié le basque aujourd'hui.
 
 ## Négation
 
-Pour dire « je n'ai pas fait X », **ez** se place devant l'auxiliaire :
+Pour dire « je n'ai pas fait X », **ez** se place avant l'auxiliaire :
 
 > *Ez dut bazkaldu.* — Je n'ai pas déjeuné.
 >
-> *Ez du egunkaria irakurri.* — Il n'a pas lu le journal.
+> *Ez du egunkaria irakurri.* — Il/Elle n'a pas lu le journal.
 >
-> *Ez dugu ardorik edan.* — Nous n'avons pas bu de vin. (Remarque *ardorik* : avec la négation, l'objet porte souvent le **-rik** partitif.)
+> *Ez dugu ardorik edan.* — Nous n'avons pas bu de vin. (Remarque *ardorik* : avec la négation, l'objet prend souvent le partitif **-rik**.)
 
 ## Mini-dialogue
 
@@ -138,4 +171,4 @@ Pour dire « je n'ai pas fait X », **ez** se place devant l'auxiliaire :
 >
 > *— Nik tortilla egin dut, baina ez dut postrerik jan.*
 
-> **Résumé visuel :** si l'action a un objet explicite ou implicite (manger quelque chose, voir quelque chose, faire quelque chose), l'auxiliaire est **dut** (et ses dérivés). Mémorise ces paires verbe-auxiliaire et le reste vient tout seul.
+> **Résumé visuel :** si l'action a un objet explicite ou implicite (manger quelque chose, voir quelque chose, faire quelque chose), l'auxiliaire est **dut** (et ses dérivés). Mémorise ces paires verbe-auxiliaire et le reste viendra tout seul.

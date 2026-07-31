@@ -7,56 +7,83 @@ level: a1
 order: 3
 title: المستقبل القريب (-ko / -go)
 estimatedMinutes: 11
-covers: [future-koGo, common-verbs, ukan-basic]
+covers:
+- future-koGo
+- common-verbs
+- ukan-basic
 exercises:
-  - id: ex-fut-mc1
-    type: multiple-choice
-    prompt: '"سأذهب إلى Bilbao غدًا" تُقال…'
-    options: ['Bihar Bilbora joaten naiz', 'Bihar Bilbora joango naiz', 'Bihar Bilbora joan naiz', 'Bilbora bihar dut']
-    answer: 1
-    explanation: '*Joango naiz* — مستقبل الفعل *joan* (يذهب): الأداة *-go* + الفعل المساعد *naiz*.'
-  - id: ex-fut-mc2
-    type: multiple-choice
-    prompt: 'ما هو مستقبل الفعل "ikusi" (يرى)؟'
-    options: [ikusten, ikusiko, ikusten dut, ikuste]
-    answer: 1
-    explanation: 'الأفعال المنتهية بـ *-i* تُضيف *-ko*: *ikusi → ikusiko*.'
-  - id: ex-fut-fb1
-    type: fill-in-blank
-    prompt: '"غدًا سأراه" = Bihar ikusi___ dut.'
-    answers: [ko, KO]
-    explanation: '*Ikusi* + *-ko* = *ikusiko*. الأداة -ko تشير إلى المستقبل.'
-  - id: ex-fut-fb2
-    type: fill-in-blank
-    prompt: '"سأذهب معكم" = Zuekin joan___ naiz.'
-    answers: [go, GO]
-    explanation: '*Joan* + *-go* (لأنه ينتهي بـ -n) = *joango*. الأداة هي *-go* بعد الحرف الأنفي الساكن.'
-  - id: ex-fut-fc
-    type: flashcards
-    cards:
-      - { eu: 'joango naiz', es: سأذهب }
-      - { eu: 'etorriko zara?', es: هل ستأتي؟ }
-      - { eu: 'ikusiko dut', es: سأراه }
-      - { eu: 'eskatuko dugu', es: سنطلب }
-      - { eu: 'jango dut', es: سآكل }
-      - { eu: 'edango dugu', es: سنشرب }
-      - { eu: 'lan egingo dut', es: سأعمل }
-      - { eu: 'erosiko dut', es: سأشتريه }
-      - { eu: 'esango diot', es: سأقول له ذلك }
-      - { eu: 'egongo gara', es: سنكون }
-      - { eu: 'izango da', es: سيكون }
-      - { eu: 'ekarriko dut', es: سأحضره }
+- id: ex-fut-mc1
+  type: multiple-choice
+  prompt: '"سأذهب إلى بلباو غدًا" تُقال…'
+  options:
+  - Bihar Bilbora joaten naiz
+  - Bihar Bilbora joango naiz
+  - Bihar Bilbora joan naiz
+  - Bilbora bihar dut
+  answer: 1
+  explanation: '*Joango naiz* — صيغة المستقبل من الفعل *joan* (يذهب): اللاحقة *-go* + الفعل المساعد *naiz*.'
+- id: ex-fut-mc2
+  type: multiple-choice
+  prompt: ما هي صيغة المستقبل من الفعل "ikusi" (يرى)؟
+  options:
+  - ikusten
+  - ikusiko
+  - ikusten dut
+  - ikuste
+  answer: 1
+  explanation: 'الأفعال المنتهية بـ *-i* تُضاف إليها اللاحقة *-ko*: *ikusi → ikusiko*.'
+- id: ex-fut-fb1
+  type: fill-in-blank
+  prompt: '"غدًا سأراه" = Bihar ikusi___ dut.'
+  answers:
+  - ko
+  - KO
+  explanation: '*Ikusi* + *-ko* = *ikusiko*. اللاحقة *-ko* تدل على المستقبل.'
+- id: ex-fut-fb2
+  type: fill-in-blank
+  prompt: '"سأذهب معكم" = Zuekin joan___ naiz.'
+  answers:
+  - go
+  - GO
+  explanation: '*Joan* + *-go* (لأنه ينتهي بحرف **n**) = *joango*. تُستخدم اللاحقة *-go* مع الأفعال المنتهية بحرف **n**.'
+- id: ex-fut-fc
+  type: flashcards
+  cards:
+  - eu: joango naiz
+    es: سأذهب
+  - eu: etorriko zara?
+    es: هل ستأتي؟
+  - eu: ikusiko dut
+    es: سأراه
+  - eu: eskatuko dugu
+    es: سنطلب
+  - eu: jango dut
+    es: سآكل
+  - eu: edango dugu
+    es: سنشرب
+  - eu: lan egingo dut
+    es: سأعمل
+  - eu: erosiko dut
+    es: سأشتريه
+  - eu: esango diot
+    es: سأخبره
+  - eu: egongo gara
+    es: سنكون
+  - eu: izango da
+    es: سيكون
+  - eu: ekarriko dut
+    es: سأحضره
 ---
 
-**المستقبل القريب** في اللغة الباسكية منتظم جدًا: تُضيف أداة إلى الفعل في صيغته الأساسية وتُبقي الفعل المساعد مُصرّفًا في المضارع. مع هذا الدرس تفتح تقريبًا أي "سأفعل، سأذهب، سأرى...".
+صيغة **المستقبل القريب** في لغة الإيسكارا (الباسكية) قياسية جدًا: تُضاف لاحقة إلى مصدر الفعل، ويبقى الفعل المساعد مُصَرَّفًا في زمن المضارع. مع هذا الدرس، ستتمكن من صياغة أي فعل في المستقبل تقريبًا مثل "سأفعل، سأذهب، سأرى...".
 
 ## القاعدة في سطر واحد
 
-> **الفعل الأساسي + `-ko` أو `-go` + الفعل المساعد (المضارع)**
+> **مصدر الفعل + `-ko` أو `-go` + الفعل المساعد (في المضارع)**
 
-| الفعل | الصيغة الأساسية | المستقبل | مثال |
+| الفعل | المصدر | المستقبل | مثال |
 |---|---|---|---|
-| *joan* (يذهب) | joan | joan**go** | *Bilbora **joango naiz*** (سأذهب إلى Bilbao) |
+| *joan* (يذهب) | joan | joan**go** | *Bilbora **joango naiz*** (سأذهب إلى بلباو) |
 | *etorri* (يأتي) | etorri | etorri**ko** | *Bihar **etorriko da*** (سيأتي غدًا) |
 | *ikusi* (يرى) | ikusi | ikusi**ko** | *Filma **ikusiko dut*** (سأرى الفيلم) |
 | *jan* (يأكل) | jan | jan**go** | *Pizza **jango dugu*** (سنأكل بيتزا) |
@@ -66,8 +93,8 @@ exercises:
 
 إنه اختيار صوتي بحت:
 
-- **-go** بعد **n** (المنتهية بـ -n: *joan, jan, izan, egon, eraman*).
-- **-ko** بعد أي شيء آخر.
+- **-go** بعد **n** (مع الأفعال المنتهية بـ -n: *joan, jan, izan, egon, eraman*).
+- **-ko** بعد أي حرف آخر.
 
 أمثلة:
 
@@ -82,7 +109,7 @@ exercises:
 
 ## الفعل المساعد يبقى في **المضارع**
 
-رغم أن الجملة تتطلع إلى المستقبل، فإن الفعل المساعد **لا يتغير**:
+رغم أن الجملة تشير إلى المستقبل، إلا أن الفعل المساعد **لا يتغير**:
 
 | الشخص | الفعل المساعد (NOR) | مثال |
 |---|---|---|
@@ -114,14 +141,14 @@ exercises:
 
 ## النفي
 
-للنفي تُضيف *ez* أمام الفعل المساعد (الذي ينتقل إلى الموضع الأول):
+للنفي، تُضاف *ez* قبل الفعل المساعد (الذي ينتقل إلى مقدمة الجملة):
 
-- *Bihar **ez naiz** Bilbora **joango**.* — غدًا لن أذهب إلى Bilbao.
+- *Bihar **ez naiz** Bilbora **joango**.* — غدًا لن أذهب إلى بلباو.
 - *Filma **ez dut** ikusi**ko**.* — لن أرى الفيلم.
 
-والسؤال:
+وفي حالة السؤال:
 
 - ***Etorriko al zara**?* — هل ستأتي؟
 - ***Joango al gara** mendira?* — هل سنذهب إلى الجبل؟
 
-> **ملاحظة ثقافية:** في اللغة الباسكية يُستخدم المستقبل بـ *-ko/-go* أيضًا في كثير من الأمور التي تكون في العربية مجرد مضارع: *Zer hartuko duzu?* — "ماذا تأخذ / ماذا ستأخذ؟". إنها واحدة من أكثر "النبرات" تميزًا في اللغة؛ وكلما عوّدت أذنك عليها مبكرًا، كان أفضل.
+> **ملاحظة ثقافية:** في لغة الإيسكارا، تُستخدم صيغة المستقبل مع اللاحقة *-ko/-go* أيضًا في كثير من الحالات التي نُعَبِّر عنها في العربية بصيغة المضارع، على سبيل المثال: *Zer hartuko duzu?* — "ماذا تأخذ / ماذا ستأخذ؟". إنها إحدى أبرز السمات اللغوية المميزة؛ وكلما أَلِفَتْها أذنك مبكرًا، كان ذلك أفضل.

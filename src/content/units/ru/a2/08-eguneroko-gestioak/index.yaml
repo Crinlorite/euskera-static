@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — банк, оформление документов, телефон
+order: 8
+description: 'Повседневные дела: банк и почта, мэрия, звонки, технологии и возврат товаров в магазине.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

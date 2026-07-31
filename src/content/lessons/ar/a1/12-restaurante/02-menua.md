@@ -5,119 +5,156 @@ code: 02-menua
 unit: 12-restaurante
 level: a1
 order: 2
-title: القائمة (menua eta platerak)
+title: قائمة الطعام (menua eta platerak)
 estimatedMinutes: 10
-covers: [restaurant-vocab, food-bar, meals]
+covers:
+- restaurant-vocab
+- food-bar
+- meals
 exercises:
-  - id: ex-menu-mc1
-    type: multiple-choice
-    prompt: '"Lehen platera" تعني…'
-    options: [الحلوى, الطبق الأول, الطبق الثاني, المشروب]
-    answer: 1
-    explanation: '*Lehen platera* — الطبق الأول. كلمة *Lehen* تعني "الأول".'
-  - id: ex-menu-mc2
-    type: multiple-choice
-    prompt: '"Postrea" بالعربية هي…'
-    options: [مشروب, مقبلات, حلوى, طبق رئيسي]
-    answer: 2
-    explanation: '*Postrea* — الحلوى. الترجمة مباشرة.'
-  - id: ex-menu-fb1
-    type: fill-in-blank
-    prompt: '"قائمة اليوم" = Eguneko ___'
-    answers: [menua]
-    explanation: '*Eguneko menua* — حرفيًا "قائمة اليوم" (eguneko = الخاصة باليوم).'
-  - id: ex-menu-fb2
-    type: fill-in-blank
-    prompt: 'تطلب "سلطة وسمك". يؤكّد النادل: "Hasteko, entsalada eta bigarrenerako, ___."'
-    answers: [arraina]
-    explanation: '*Arraina* — سمك. *Bigarrenerako* — "للطبق الثاني".'
-  - id: ex-menu-fc
-    type: flashcards
-    cards:
-      - { eu: menua, es: قائمة }
-      - { eu: karta, es: لائحة الطعام }
-      - { eu: 'eguneko menua', es: قائمة اليوم }
-      - { eu: 'lehen platera', es: الطبق الأول }
-      - { eu: 'bigarren platera', es: الطبق الثاني }
-      - { eu: postrea, es: حلوى }
-      - { eu: edaria, es: مشروب }
-      - { eu: entsalada, es: سلطة }
-      - { eu: zopa, es: حساء }
-      - { eu: arraina, es: سمك }
-      - { eu: haragia, es: لحم }
-      - { eu: legatza, es: نازلي }
-      - { eu: bakailaoa, es: سمك القد }
-      - { eu: oilaskoa, es: دجاج }
-      - { eu: txuleta, es: شريحة لحم بالعظم }
-      - { eu: izozkia, es: بوظة }
-      - { eu: 'sagar tarta', es: فطيرة التفاح }
-      - { eu: flana, es: فلان }
-  - id: ex-menu-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'lehen platera', es: الطبق الأول }
-      - { eu: 'bigarren platera', es: الطبق الثاني }
-      - { eu: postrea, es: حلوى }
-      - { eu: edaria, es: مشروب }
-      - { eu: 'eguneko menua', es: قائمة اليوم }
-      - { eu: karta, es: لائحة الطعام }
+- id: ex-menu-mc1
+  type: multiple-choice
+  prompt: '"Lehen platera" تعني...'
+  options:
+  - Postre
+  - Primer plato
+  - Segundo plato
+  - Bebida
+  answer: 1
+  explanation: '*Lehen platera* — الطبق الأول. *Lehen* تعني "الأول".'
+- id: ex-menu-mc2
+  type: multiple-choice
+  prompt: '"Postrea" بالعربية هي...'
+  options:
+  - Bebida
+  - Aperitivo
+  - Postre
+  - Plato principal
+  answer: 2
+  explanation: '*Postrea* — الحلوى. الترجمة مباشرة.'
+- id: ex-menu-fb1
+  type: fill-in-blank
+  prompt: '"قائمة اليوم" = Eguneko ___'
+  answers:
+  - menua
+  explanation: '*Eguneko menua* — حرفيًا "قائمة اليوم" (eguneko = الخاص باليوم).'
+- id: ex-menu-fb2
+  type: fill-in-blank
+  prompt: 'تطلب "سلطة وسمك". يؤكد النادل: "Hasteko, entsalada eta bigarrenerako, ___."'
+  answers:
+  - arraina
+  explanation: '*Arraina* — سمك. *Bigarrenerako* — "للطبق الثاني".'
+- id: ex-menu-fc
+  type: flashcards
+  cards:
+  - eu: menua
+    es: قائمة طعام
+  - eu: karta
+    es: قائمة حسب الطلب
+  - eu: eguneko menua
+    es: قائمة اليوم
+  - eu: lehen platera
+    es: الطبق الأول
+  - eu: bigarren platera
+    es: الطبق الثاني
+  - eu: postrea
+    es: الحلوى
+  - eu: edaria
+    es: المشروب
+  - eu: entsalada
+    es: سلطة
+  - eu: zopa
+    es: شوربة
+  - eu: arraina
+    es: سمك
+  - eu: haragia
+    es: لحم
+  - eu: legatza
+    es: نازلي
+  - eu: bakailaoa
+    es: سمك القد
+  - eu: oilaskoa
+    es: دجاج
+  - eu: txuleta
+    es: شريحة لحم بالعظم
+  - eu: izozkia
+    es: آيس كريم
+  - eu: sagar tarta
+    es: فطيرة التفاح
+  - eu: flana
+    es: فلان
+- id: ex-menu-mp
+  type: match-pairs
+  pairs:
+  - eu: lehen platera
+    es: primer plato
+  - eu: bigarren platera
+    es: segundo plato
+  - eu: postrea
+    es: postre
+  - eu: edaria
+    es: bebida
+  - eu: eguneko menua
+    es: قائمة اليوم
+  - eu: karta
+    es: carta
 ---
 
-معرفة قراءة القائمة تفتح لك الأبواب. في معظم الـ jatetxeak سترى البنية الكلاسيكية المؤلفة من ثلاثة أجزاء: الطبق الأول، الطبق الثاني والحلوى.
+معرفة قراءة قائمة الطعام تفتح لك الأبواب. في معظم مطاعم *jatetxeak* سترى الهيكل الكلاسيكي المكون من ثلاثة أجزاء: الطبق الأول، والطبق الثاني، والحلوى.
 
-## الخياران لتناول الطعام
+## خياران لتناول الطعام
 
-| Euskera | العربية | متى |
+| باللغة الباسكية | بالعربية | متى |
 |---|---|---|
 | *eguneko menua* | قائمة اليوم | سعر ثابت، خيارات محدودة |
-| *karta* | لائحة الطعام | حسب اللائحة، تختار بحرية |
+| *karta* | قائمة طعام | حسب الطلب، تختار بحرية |
 
 عادةً ما يسأل النادل:
 
-- **Menua ala karta nahi duzue?** — هل تريدون قائمة أم لائحة؟
+- **Menua ala karta nahi duzue?** — هل تريدون قائمة اليوم أم قائمة الطعام؟
 
-## أجزاء القائمة
+## أجزاء قائمة الطعام
 
-| Euskera | العربية |
+| باللغة الباسكية | بالعربية |
 |---|---|
-| *hasierakoak* | مقبلات / فاتحات شهية |
+| *hasierakoak* | مقبلات / فواتح شهية |
 | *lehen platera* | الطبق الأول |
 | *bigarren platera* | الطبق الثاني |
-| *postrea* | حلوى |
-| *edaria* | مشروب |
+| *postrea* | الحلوى |
+| *edaria* | المشروب |
 
-> *Lehen* = الأول. *Bigarren* = الثاني. *Postrea* اقتباس واضح ويُستخدم بنفس الشكل.
+> *Lehen* = الأول. *Bigarren* = الثاني. *Postrea* هي كلمة مستعارة واضحة وتستخدم بنفس الطريقة.
 
-## Lehen platera (الأطباق المعتادة)
+## Lehen platera (أطباق نموذجية)
 
-السلطات والحساء والبقوليات شائعة:
+السلطات والشوربات والبقوليات شائعة:
 
-- *entsalada mistoa* — سلطة مشكّلة
-- *errusiar entsalada* — السلطة الروسية
-- *zopa* — حساء
-- *porrusalda* — حساء الكرّاث والبطاطس
-- *babarrunak* — فاصولياء
-- *paella* — باييلا
+- *entsalada mistoa* — سلطة مشكلة
+- *errusiar entsalada* — سلطة روسية
+- *zopa* — شوربة
+- *porrusalda* — شوربة الكراث والبطاطس
+- *babarrunak* — فاصوليا
+- *paella* — باييا
 
 ## Bigarren platera
 
-هنا يُفصَل بين **arrainak** (الأسماك) و**haragiak** (اللحوم):
+هنا يتم الفصل بين **arrainak** (الأسماك) و **haragiak** (اللحوم):
 
 | Arrainak | Haragiak |
 |---|---|
 | *legatza* (نازلي) | *oilaskoa* (دجاج) |
 | *bakailaoa* (سمك القد) | *txuleta* (شريحة لحم بالعظم) |
-| *antxoak* (أنشوفة) | *xerra* (شريحة لحم) |
-| *itsas zapoa* (سمك منk) | *arkume txuletak* (شرائح لحم الخروف) |
+| *antxoak* (أنشوجة) | *xerra* (فيليه) |
+| *itsas zapoa* (سمك الراهب) | *arkume txuletak* (شرائح لحم الضأن) |
 
 ## Postrea
 
-الحلويات الكلاسيكية في الـ jatetxeak الباسكية:
+حلويات كلاسيكية في مطاعم *jatetxeak* الباسكية:
 
 - *flana* — فلان
-- *izozkia* — بوظة
+- *izozkia* — آيس كريم
 - *sagar tarta* — فطيرة التفاح
-- *mamia* — رائب (لبن مخثّر)
+- *mamia* — خثارة
 - *arroz-esnea* — أرز بالحليب
 - *gazta eta intxaurrak* — جبن مع جوز
 
@@ -125,9 +162,9 @@ exercises:
 
 - *ardo gorria / beltza* — نبيذ أحمر
 - *ardo zuria* — نبيذ أبيض
-- *garagardoa* — جعة
-- *sagardoa* — عصير تفاح مخمّر
+- *garagardoa* — بيرة
+- *sagardoa* — سيدر التفاح
 - *ura* — ماء
 - *kafea* — قهوة
 
-> **ملاحظة ثقافية:** **arroz-esnea وmamia وgazta-intxaurrak** هي أكثر ثلاث حلويات "محلية الطابع". إن رأيتها في اللائحة، فهذه علامة جيدة على أنك في مكان يقدّم مطبخًا تقليديًا.
+> **ملاحظة ثقافية:** **arroz-esnea، mamia و gazta-intxaurrak** هي الحلويات الثلاث الأكثر "شعبية في البلاد". إذا رأيتها في القائمة، فهذه علامة جيدة على أنك في مكان يقدم المطبخ التقليدي.

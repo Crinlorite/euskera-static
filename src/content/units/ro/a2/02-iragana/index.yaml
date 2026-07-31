@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — nararea trecutului
+order: 2
+description: Trecutul perfect (iragan burutua) și trecutul imperfect (iragan ez burutua). Cum să povestești ce s-a întâmplat ieri, cu ani în urmă sau ce obișnuiai să faci.
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

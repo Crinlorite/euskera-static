@@ -7,33 +7,55 @@ level: a1
 order: 5
 title: How many siblings do you have? (Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: 'I have two brothers = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" = "I have (several)" — form of "ukan" (to have) NOR-NORK.'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: 'How do you say "three" in Basque?'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: one }
-      - { eu: bi, es: two }
-      - { eu: hiru, es: three }
-      - { eu: lau, es: four }
-      - { eu: bost, es: five }
-      - { eu: hamar, es: ten }
-      - { eu: 'Zenbat senide zarete?', es: How many siblings are you? }
-      - { eu: senide, es: sibling (generic) }
-      - { eu: dut, es: I have (1 thing) }
-      - { eu: ditut, es: I have (several things) }
-      - { eu: ez dut anaiarik, es: I have no brothers (negation with -rik) }
-      - { eu: 'Zenbat urte dituzu?', es: 'How old are you?' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: I have two brothers = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "I have (several)" — form of "ukan" (to have) NOR-NORK.'
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: How do you say "three" in Basque?
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: one
+  - eu: bi
+    es: two
+  - eu: hiru
+    es: three
+  - eu: lau
+    es: four
+  - eu: bost
+    es: five
+  - eu: hamar
+    es: ten
+  - eu: Zenbat senide zarete?
+    es: How many siblings are you?
+  - eu: senide
+    es: sibling (generic)
+  - eu: dut
+    es: I have (1 thing)
+  - eu: ditut
+    es: I have (several things)
+  - eu: ez dut anaiarik
+    es: I don't have any brothers (negation with -rik)
+  - eu: Zenbat urte dituzu?
+    es: How old are you?
 ---
 
 To talk about how many members a family has, we use:
@@ -58,14 +80,14 @@ To talk about how many members a family has, we use:
 
 ## Saying how many you have
 
-Here we meet a first form of the verb **ukan** (to have), which we will look at in depth in upcoming lessons:
+Here's a first form of the verb **ukan** (to have), which we'll look at in depth in upcoming lessons:
 
 - **Anaia bat dut.** — I have one brother.
 - **Bi anaia ditut.** — I have two brothers.
 - **Hiru seme ditut.** — I have three sons.
-- **Ez dut anaiarik.** — I have no brothers. (negative form)
+- **Ez dut anaiarik.** — I don't have any brothers. (negative form)
 
-> **dut** is used when what you have is **a single thing** or a noun in the singular. **ditut** is used when it is **several things**. It is like the difference between "I have a book" (singular) and "I have books" (plural).
+> **dut** is used when what you have is **a single thing** or a noun in the singular. **ditut** is used when you have **several things**. It's like the difference between "I have a book" (singular) and "I have books" (plural).
 
 ## Typical phrases in introductions
 

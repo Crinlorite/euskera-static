@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — banca, papereig, telefòn
+order: 8
+description: 'Era vida practica: banca e corrèus, ajuntament, aperades, tecnologia e devolucions ena botiga.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

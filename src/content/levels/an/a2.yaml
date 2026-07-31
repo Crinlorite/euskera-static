@@ -1,0 +1,149 @@
+code: a2
+name: A2 Maila
+description: Nivel elemental. Comprensión y producción autonoma en situacions quotidianas habituals, con narración en pasau, plans de futuro y opinions simples.
+order: 2
+status: active
+beta: false
+curriculum:
+- id: a2-health-vocab
+  title: Vocabulario de salut (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)
+- id: a2-doctor-visit
+  title: 'En a consulta medica (mediku-kontsultan: zer duzu?, mina daukat, hartu pilula bat)'
+- id: a2-healthy-habits
+  title: Habitos saludables (kirola egin, ondo lo egin, fruta jan, erre, alkohola)
+- id: a2-environment
+  title: Medio ambient (ingurumena, kutsadura, birziklatu, energia, klima-aldaketa)
+- id: a2-civic-life
+  title: Vida social y civica (auzoa, herria, partehartzea, boluntariotza, jaiak)
+- id: a2-agintera-intro
+  title: 'Imperativo (agintera): formas basicas afirmativas (zatoz, hartu, joan zaitez)'
+- id: a2-agintera-uses
+  title: 'Usos de l''imperativo: instruccions, consellos, peticions (mesedez, hartu eseri)'
+- id: a2-agintera-negation
+  title: Imperativo negativo (ez egin, ez joan, ez ezazu hartu)
+- id: a2-past-nor
+  title: 'Pasau de izan/egon — NOR: nintzen, zinen, zen, ginen, zineten, ziren / nengoen, zegoen'
+- id: a2-past-nor-nork
+  title: 'Pasau de ukan — NOR-NORK: nuen, zenuen, zuen, genuen, zenuten, zuten / nituen, zituen'
+- id: a2-past-trinkoak
+  title: 'Pasau de verbos sinteticos (joan/etorri/ibili/eduki/jakin: nindoan, nentorren, nenbilen, neukan, nekien)'
+- id: a2-past-time-markers
+  title: Marcadors de pasau completo (atzo, joan den astean, duela X urte, orduan, gero)
+- id: a2-past-narrative
+  title: 'Narrar una experiencia: encadenar accions en pasau (lehenengo... gero... azkenean)'
+- id: a2-past-imperfect
+  title: 'Pasau imperfecto: aditza-tzen + nintzen/zen (lan egiten nuen, joaten nintzen)'
+- id: a2-perfect-vs-imperfect
+  title: 'Contraste burutua/ez burutua: feitos puntuals vs habitos y descripcions d''o pasau'
+- id: a2-past-progressive
+  title: 'Pasau progresivo (puntukaria): -tzen ari nintzen / nenbilen'
+- id: a2-nor-nori-nork
+  title: NOR-NORI-NORK present (eman dizut, esan diot, erakutsi digute)
+- id: a2-nor-nori-nork-past
+  title: NOR-NORI-NORK pasau (eman nion, esan zion, ekarri zigun)
+- id: a2-nor-nori
+  title: NOR-NORI present y pasau (gustatzen zait/zaio, ahaztu zitzaidan)
+- id: a2-ahalera
+  title: 'Verbo poder (ahalera): -t(z)en + dezaket/daiteke (etor daiteke, egin dezakezu)'
+- id: a2-ezin
+  title: 'No poder (ezin izan): ezin dut, ezin nintzen joan, ezin daiteke'
+- id: a2-baldintza-intro
+  title: 'Condicional (baldintza) basico: si... alavez... (banaiz, banu, joango nintzateke) — introducción'
+- id: a2-norentzat
+  title: 'Caso destinativo NORENTZAT: pa qui (lagunarentzat, niretzat, guretzat)'
+- id: a2-noraino-norantz
+  title: Casos NORAINO (-raino, dica) y NORANTZ (-rantz, enta)
+- id: a2-norengatik
+  title: Caso motivativo ZERGATIK / NORENGATIK (lagunarengatik, ekonomiaz)
+- id: a2-nongo-noizko
+  title: 'Caso NONGO/NOIZKO (-ko, -tako): atributo de puesto y tiempo (Bilboko, atzoko)'
+- id: a2-comp-superiority
+  title: 'Comparativo de superioridat: -ago, baino...-ago (handiagoa da, baino altuagoa)'
+- id: a2-comp-equality
+  title: 'Comparativo d''igualdat: bezain, adina/beste (zu bezain ona, zuk adina)'
+- id: a2-comp-superlative
+  title: 'Superlativo: -en (politena, onena, txikiena)'
+- id: a2-comp-excess
+  title: 'Exceso y defecto: -egi, gehiegi, gutxiegi (handiegia, gehiegi jan dut)'
+- id: a2-comp-progressive
+  title: 'Comparanza progresiva: gero eta ...ago (cada vegada mas / cada vegada menos)'
+- id: a2-opinion
+  title: 'Expresar opinión: nire ustez, uste dut, iruditzen zait, ados nago'
+- id: a2-feelings
+  title: 'Sentimientos: pozik, triste, haserre, urduri, lasai, beldur naiz, lotsa ematen dit'
+- id: a2-connectors
+  title: 'Conectors: zeren/ze (perque), beraz (por tanto), hala ere (manimenos), gainera (amás)'
+- id: a2-distributive
+  title: 'Coordinadas distributivas: bai...bai, ez...ez, baita...ere, baizik'
+- id: a2-relative-en
+  title: 'Oracions de relativo con -(e)n: ezagutzen dudan gizona, joaten naizen tabernan'
+- id: a2-causal-clauses
+  title: 'Causals subordinadas: -lako (perque, sufixau), zeren...bait- (libro)'
+- id: a2-completive-ela
+  title: 'Completivas con -(e)la: uste dut etorriko dela, badakit egia dela'
+- id: a2-future-forms
+  title: 'Futuro (geroaldia): partizipioa + -ko/-go (joango, egingo, ikusiko, hartuko)'
+- id: a2-future-izango
+  title: Futuro de izan/ukan/egon (izango naiz, izango dut, egongo da)
+- id: a2-future-markers
+  title: Marcadors de futuro (bihar, etzi, datorren astean, hurrengo urtean, laster)
+- id: a2-plans-intentions
+  title: Plans y intencions (zer egingo duzu?, -tzeko asmoa dut, pentsatu, erabaki)
+- id: a2-invitations
+  title: Convidar y quedar (nahi duzu...?, zergatik ez...?, geratu, ondo iruditzen zait)
+- id: a2-weather
+  title: 'O tiempo (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)'
+- id: a2-weather-forecast
+  title: A previsión en futuro (bihar euria egingo du, eguzkia aterako da)
+- id: a2-ohi-habitual
+  title: Habitos con ohi (joan ohi naiz, bazkaldu ohi dugu)
+- id: a2-transport-vocab
+  title: Transporte (trena, autobusa, hegazkina, geltokia, aireportua, oinez)
+- id: a2-tickets-schedules
+  title: Billez y horarios (txartela, joan-etorria, zenbat balio du?, noiz ateratzen da?)
+- id: a2-accommodation
+  title: Alochamiento (hotela, erreserba, gela bikoitza, gosaria barne)
+- id: a2-travel-planning
+  title: Preparar un viache (maleta, agiriak, planifikatu — futuro aplicau)
+- id: a2-travel-narrative
+  title: 'Contar un viache (pasau aplicau: joan ginen, ikusi genuen, galdu genuen trena)'
+- id: a2-bank-post
+  title: Banco y correus (kontua, dirua atera, transferentzia, paketea bidali)
+- id: a2-town-hall
+  title: Casa d'a Villa y papeleo (udaletxea, errolda, NAN, hitzordua eskatu)
+- id: a2-phone-messages
+  title: A o telefono (deitu, mezua utzi, okerreko zenbakia, gero deituko dizut)
+- id: a2-tech-basics
+  title: Tecnolochía (ordenagailua, mugikorra, posta elektronikoa, pasahitza, wifia)
+- id: a2-shopping-returns
+  title: 'Compras: cambios y devolucions (probatu, handiegia, aldatu, dirua itzuli)'
+- id: a2-nature-vocab
+  title: Naturaleza (mendia, basoa, ibaia, hondartza, gailurra, bidezidorra)
+- id: a2-animals
+  title: Animals (txakurra, behia, ardia, txoria, basurdea, otsoa)
+- id: a2-sports
+  title: Esportes (igeriketa, korrika, pilota, entrenatu, partida irabazi/galdu)
+- id: a2-hobbies
+  title: 'Aficions (-tzea gustatzen zait: irakurtzea, sukaldatzea, argazkiak ateratzea)'
+- id: a2-weekend-leisure
+  title: Ocio d'a fin de semana (kontzertua, museoa, erakusketa, sarrera, doan)
+- id: a2-biography
+  title: Biografías (jaio zen, ikasketak egin zituen, ezkondu ziren, hil zen)
+- id: a2-indirect-questions
+  title: 'Preguntas indirectas (ea + -(e)n: ez dakit etorriko den)'
+- id: a2-time-clauses
+  title: Oracions temporals (-nean, aurretik, ondoren)
+- id: a2-purpose-clauses
+  title: 'Finalidat (-tzeko, -tzera: ikastera etorri naiz)'
+- id: a2-exam-review
+  title: Repaso integrador d'o nivel (formato preba)
+- id: a2-clothes-extended
+  title: Ropa ampliada (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)
+- id: a2-home-extended
+  title: Casa ampliada (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)
+- id: a2-jobs-extended
+  title: Oficios ampliaus (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)
+- id: a2-festivals
+  title: Fiestas y tradicions (San Juan sua, Olentzero, Korrika, jai herrikoiak)
+- id: a2-routines-compare
+  title: Comparar rutinas y costumbres (lehen... orain..., bertan... bestea... )

@@ -7,43 +7,68 @@ level: a1
 order: 3
 title: Comprar (erostera)
 estimatedMinutes: 10
-covers: [shopping-dialogue, courtesy, common-verbs]
+covers:
+- shopping-dialogue
+- courtesy
+- common-verbs
 exercises:
-  - id: ex-erostera-mc1
-    type: multiple-choice
-    prompt: 'Que dis ao pedir algo educadamente nunha tenda?'
-    options: ["Eskerrik asko!", "Jarriko al didazu kilo bat sagar, mesedez?", "Agur!", "Nor zara?"]
-    answer: 1
-    explanation: '"Jarriko al didazu… mesedez?" = "Ponme…, por favor?". Estrutura cortés e frecuente.'
-  - id: ex-erostera-mc2
-    type: multiple-choice
-    prompt: '"Hartuko dut" significa…'
-    options: [Collereino (cómproo), Non o quero, Telo?, É caro]
-    answer: 0
-    explanation: '*Hartuko dut* — futuro de *hartu* (coller/tomar). Úsase para confirmar a compra.'
-  - id: ex-erostera-fb1
-    type: fill-in-blank
-    prompt: 'Para pedir algo: "O último, por favor?" → ___, mesedez?'
-    answers: [Azkena, azkena]
-    explanation: '*Azkena, mesedez?* é a fórmula universal para preguntar quen vai o último nunha cola.'
-  - id: ex-erostera-fb2
-    type: fill-in-blank
-    prompt: 'Vendedor: "Algo máis?" en euskera = "___?"'
-    answers: [Besterik, besterik]
-    explanation: '*Besterik?* ou *Besterik nahi duzu?* — "algo máis?" / "queres algo máis?"'
-  - id: ex-erostera-fc
-    type: flashcards
-    cards:
-      - { eu: 'Azkena, mesedez?', es: 'O último, por favor? (na cola)' }
-      - { eu: 'Zer nahi duzu?', es: Que queres? }
-      - { eu: 'Jarriko al didazu...?', es: Ponme...? }
-      - { eu: 'Hartuko dut', es: Collereino / Lévoo }
-      - { eu: 'Eman X mesedez', es: Dáme X por favor }
-      - { eu: 'Besterik?', es: Algo máis? }
-      - { eu: 'Ez, besterik ez', es: 'Non, nada máis' }
-      - { eu: 'Tori!', es: Toma! }
-      - { eu: 'Eskerrik asko!', es: Moitas grazas! }
-      - { eu: 'Zuri!', es: A ti! (resposta ás grazas) }
+- id: ex-erostera-mc1
+  type: multiple-choice
+  prompt: Que dis ao pedir algo educadamente nunha tenda?
+  options:
+  - Eskerrik asko!
+  - Jarriko al didazu kilo bat sagar, mesedez?
+  - Agur!
+  - Nor zara?
+  answer: 1
+  explanation: '"Jarriko al didazu… mesedez?" = "Póñesme…, por favor?". Estrutura cortés e frecuente.'
+- id: ex-erostera-mc2
+  type: multiple-choice
+  prompt: '"Hartuko dut" significa…'
+  options:
+  - Collereino (cómproo)
+  - Non o quero
+  - Telo?
+  - É caro
+  answer: 0
+  explanation: '*Hartuko dut* — futuro de *hartu* (coller/tomar). Úsase para confirmar a compra.'
+- id: ex-erostera-fb1
+  type: fill-in-blank
+  prompt: 'Para pedir a quenda: "O último, por favor?" → ___, mesedez?'
+  answers:
+  - Azkena
+  - azkena
+  explanation: '*Azkena, mesedez?* é a fórmula universal para preguntar quen vai de último nunha cola.'
+- id: ex-erostera-fb2
+  type: fill-in-blank
+  prompt: 'Vendedor: "Algo máis?" en éuscaro = "___?"'
+  answers:
+  - Besterik
+  - besterik
+  explanation: '*Besterik?* ou *Besterik nahi duzu?* — "algo máis?" / "queres algo máis?"'
+- id: ex-erostera-fc
+  type: flashcards
+  cards:
+  - eu: Azkena, mesedez?
+    es: O último, por favor? (na cola)
+  - eu: Zer nahi duzu?
+    es: Que queres?
+  - eu: Jarriko al didazu...?
+    es: Póñesme...?
+  - eu: Hartuko dut
+    es: Collereino / Lévoo
+  - eu: Eman X mesedez
+    es: Dáme X por favor
+  - eu: Besterik?
+    es: Algo máis?
+  - eu: Ez, besterik ez
+    es: Non, nada máis
+  - eu: Tori!
+    es: Toma!
+  - eu: Eskerrik asko!
+    es: Moitas grazas!
+  - eu: Zuri!
+    es: A ti! (resposta ás grazas)
 ---
 
 Esta lección ensina as frases que se repiten unha e outra vez na tenda. Con catro ou cinco fórmulas podes resolver case calquera situación.
@@ -61,13 +86,13 @@ Cando chegue a túa quenda diranche:
 
 ## Pedir o que queres
 
-Tres maneiras frecuentes, de máis coloquial a máis cortés:
+Tres maneiras frecuentes, da máis coloquial á máis cortés:
 
-| Euskera | Galego | Ton |
+| Éuscaro | Galego | Ton |
 |---|---|---|
 | **Eman kilo bat sagar, mesedez.** | Dáme un quilo de mazás, por favor. | directo, neutro |
-| **Jarriko al didazu kilo bat sagar?** | Ponme un quilo de mazás? | cortés (futuro + cortesía) |
-| **Hartuko dut kilo bat sagar.** | Lévome un quilo de mazás. | confirmando a elección |
+| **Jarriko al didazu kilo bat sagar?** | Póñesme un quilo de mazás? | cortés (futuro + cortesía) |
+| **Hartuko dut kilo bat sagar.** | Levo un quilo de mazás. | confirmando a elección |
 
 > *-Ko / -go* é a marca do futuro: *jarri → jarriko*, *hartu → hartuko*. Úsase moitísimo para suavizar as peticións.
 
@@ -85,8 +110,8 @@ E para rematar:
 ## Pechar a compra
 
 - **Zenbat da dena?** — Canto é todo?
-- **Tori!** — Toma! (ao entregar o diñeiro)
+- **Tori!** — Toma! (ao entregar os cartos)
 - **Eskerrik asko! Agur!** — Grazas! Adeus!
 - **Zuri! Agur!** — A ti! Adeus! (resposta do vendedor)
 
-> **Nota cultural:** *Tori* é unha palabra curtiña que se usa moitísimo ao pasar algo de man a man: diñeiro, unha bolsa, unha chave. É moi útil aprendela cedo.
+> **Nota cultural:** *Tori* é unha palabra curtiña que se usa moitísimo ao pasar algo de man a man: cartos, unha bolsa, unha chave. É moi útil aprendela pronto.

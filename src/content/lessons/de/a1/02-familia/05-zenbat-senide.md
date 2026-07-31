@@ -7,33 +7,55 @@ level: a1
 order: 5
 title: Wie viele Geschwister hast du? (Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: 'Ich habe zwei Brüder = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" = "ich habe (mehrere)" — Form von "ukan" (haben) NOR-NORK.'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: 'Wie sagt man "drei" auf Baskisch?'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: eins }
-      - { eu: bi, es: zwei }
-      - { eu: hiru, es: drei }
-      - { eu: lau, es: vier }
-      - { eu: bost, es: fünf }
-      - { eu: hamar, es: zehn }
-      - { eu: 'Zenbat senide zarete?', es: Wie viele Geschwister seid ihr? }
-      - { eu: senide, es: Geschwister (allgemein) }
-      - { eu: dut, es: ich habe (1 Sache) }
-      - { eu: ditut, es: ich habe (mehrere Sachen) }
-      - { eu: ez dut anaiarik, es: ich habe keine Brüder (Verneinung mit -rik) }
-      - { eu: 'Zenbat urte dituzu?', es: 'Wie alt bist du?' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: Ich habe zwei Brüder = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "ich habe (mehrere)" — Form von "ukan" (haben) NOR-NORK.'
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: Wie sagt man "drei" auf Baskisch?
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: eins
+  - eu: bi
+    es: zwei
+  - eu: hiru
+    es: drei
+  - eu: lau
+    es: vier
+  - eu: bost
+    es: fünf
+  - eu: hamar
+    es: zehn
+  - eu: Zenbat senide zarete?
+    es: Wie viele Geschwister seid ihr?
+  - eu: senide
+    es: Geschwister (Sammelbegriff)
+  - eu: dut
+    es: ich habe (1 Sache)
+  - eu: ditut
+    es: ich habe (mehrere Sachen)
+  - eu: ez dut anaiarik
+    es: ich habe keine Brüder (Verneinung mit -rik)
+  - eu: Zenbat urte dituzu?
+    es: Wie alt bist du?
 ---
 
 Um darüber zu sprechen, wie viele Mitglieder eine Familie hat, verwenden wir:
@@ -56,16 +78,16 @@ Um darüber zu sprechen, wie viele Mitglieder eine Familie hat, verwenden wir:
 | 9 | *bederatzi* |
 | 10 | *hamar* |
 
-## Sagen, wie viele du hast
+## Wie man die Anzahl angibt
 
-Hier kommt eine erste Form des Verbs **ukan** (haben) ins Spiel, das wir in den nächsten Lektionen ausführlich behandeln werden:
+Hier kommt eine erste Form des Verbs **ukan** (haben) ins Spiel, die wir in den nächsten Lektionen ausführlich behandeln werden:
 
 - **Anaia bat dut.** — Ich habe einen Bruder.
 - **Bi anaia ditut.** — Ich habe zwei Brüder.
 - **Hiru seme ditut.** — Ich habe drei Söhne.
 - **Ez dut anaiarik.** — Ich habe keine Brüder. (verneinte Form)
 
-> **dut** wird verwendet, wenn das, was du hast, **eine einzige Sache** oder ein Substantiv im Singular ist. **ditut** wird verwendet, wenn es **mehrere Sachen** sind. Es ist wie der Unterschied zwischen "ich habe ein Buch" (Singular) und "ich habe Bücher" (Plural).
+> **dut** wird verwendet, wenn man **nur eine Sache** oder ein Substantiv im Singular besitzt. **ditut** wird verwendet, wenn es **mehrere Sachen** sind. Das ist wie der Unterschied zwischen "ich habe ein Buch" (Singular) und "ich habe Bücher" (Plural).
 
 ## Typische Sätze bei Vorstellungen
 

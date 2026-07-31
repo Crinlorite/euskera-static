@@ -5,53 +5,81 @@ code: 04-zer-egiten-du
 unit: 10-mi-gente
 level: a1
 order: 4
-title: "O que ele/ela faz? — Falar sobre a rotina dos outros"
+title: O que ele/ela faz? — Falar sobre a rotina dos outros
 estimatedMinutes: 12
-covers: [daily-routine-third-person, professions-extended, locative-non]
+covers:
+- daily-routine-third-person
+- professions-extended
+- locative-non
 exercises:
-  - id: ex-10-04-mc1
-    type: multiple-choice
-    prompt: 'Como você diz "Trabalha no hospital"?'
-    options: [Ospitalean lan egiten du, Ospitalean lan egiten dut, Ospitala lan egiten du, Ospitalean lan egin du]
-    answer: 0
-    explanation: '"Ospitalean" = no hospital (locativo -ean), "lan egiten du" = trabalha (3ª pessoa).'
-  - id: ex-10-04-fb1
-    type: fill-in-blank
-    prompt: 'Mora em Pamplona = Iruñean ___ da.'
-    answers: [bizi]
-    explanation: '"Bizi da" = mora (literal: "está morando"). Para a 1ª pessoa seria "bizi naiz".'
-  - id: ex-10-04-mc2
-    type: multiple-choice
-    prompt: '"Bera euskaltegian lan egiten du" — em qual profissão isso se encaixa melhor?'
-    options: [sukaldaria, irakaslea, mekanikaria, zerbitzaria]
-    answer: 1
-    explanation: 'Se trabalha em um euskaltegi, o mais provável é que seja professor(a) (irakaslea).'
-  - id: ex-10-04-fb2
-    type: fill-in-blank
-    prompt: 'Tem 40 anos = Berrogei urte ___.'
-    answers: [ditu]
-    explanation: '"Ditu" = tem (3ª pessoa, objeto plural — os anos se contam no plural).'
-  - id: ex-10-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer egiten du?', es: 'O que ele/ela faz?' }
-      - { eu: 'Non bizi da?', es: 'Onde ele/ela mora?' }
-      - { eu: 'Non lan egiten du?', es: 'Onde ele/ela trabalha?' }
-      - { eu: 'Bera medikua da', es: 'Ele/ela é médico(a)' }
-      - { eu: 'Ospitalean lan egiten du', es: 'Trabalha no hospital' }
-      - { eu: 'Eskolan lan egiten du', es: 'Trabalha na escola' }
-      - { eu: 'Tabernan lan egiten du', es: 'Trabalha no bar' }
-      - { eu: 'Bulegoan lan egiten du', es: 'Trabalha no escritório' }
-      - { eu: 'Iruñean bizi da', es: 'Mora em Pamplona' }
-      - { eu: 'Hogeita hamar urte ditu', es: 'Tem 30 anos' }
-      - { eu: 'Ezkonduta dago', es: 'Está casado(a)' }
-      - { eu: 'Ezkongabea da', es: 'É solteiro(a)' }
-      - { eu: 'Bi seme-alaba ditu', es: 'Tem dois filhos' }
-      - { eu: 'Bakarrik bizi da', es: 'Mora sozinho(a)' }
-      - { eu: 'Lagunekin bizi da', es: 'Mora com os amigos' }
+- id: ex-10-04-mc1
+  type: multiple-choice
+  prompt: Como você diz "Trabalha no hospital"?
+  options:
+  - Ospitalean lan egiten du
+  - Ospitalean lan egiten dut
+  - Ospitala lan egiten du
+  - Ospitalean lan egin du
+  answer: 0
+  explanation: '"Ospitalean" = no hospital (locativo -ean), "lan egiten du" = trabalha (3ª pessoa).'
+- id: ex-10-04-fb1
+  type: fill-in-blank
+  prompt: Mora em Pamplona = Iruñean ___ da.
+  answers:
+  - bizi
+  explanation: '"Bizi da" = mora (literal: "está morando"). Para a 1ª pessoa seria "bizi naiz".'
+- id: ex-10-04-mc2
+  type: multiple-choice
+  prompt: '"Bera euskaltegian lan egiten du" — em qual profissão isso se encaixa melhor?'
+  options:
+  - sukaldaria
+  - irakaslea
+  - mekanikaria
+  - zerbitzaria
+  answer: 1
+  explanation: Se trabalha em um euskaltegi, o mais provável é que seja professor(a) (irakaslea).
+- id: ex-10-04-fb2
+  type: fill-in-blank
+  prompt: Tem 40 anos = Berrogei urte ___.
+  answers:
+  - ditu
+  explanation: '"Ditu" = tem (3ª pessoa, objeto plural — os anos se contam no plural).'
+- id: ex-10-04-fc
+  type: flashcards
+  cards:
+  - eu: Zer egiten du?
+    es: O que ele/ela faz?
+  - eu: Non bizi da?
+    es: Onde ele/ela mora?
+  - eu: Non lan egiten du?
+    es: Onde ele/ela trabalha?
+  - eu: Bera medikua da
+    es: Ele/ela é médico(a)
+  - eu: Ospitalean lan egiten du
+    es: Trabalha no hospital
+  - eu: Eskolan lan egiten du
+    es: Trabalha na escola
+  - eu: Tabernan lan egiten du
+    es: Trabalha no bar
+  - eu: Bulegoan lan egiten du
+    es: Trabalha no escritório
+  - eu: Iruñean bizi da
+    es: Mora em Pamplona
+  - eu: Hogeita hamar urte ditu
+    es: Tem 30 anos
+  - eu: Ezkonduta dago
+    es: Está casado(a)
+  - eu: Ezkongabea da
+    es: É solteiro(a)
+  - eu: Bi seme-alaba ditu
+    es: Tem dois filhos
+  - eu: Bakarrik bizi da
+    es: Mora sozinho(a)
+  - eu: Lagunekin bizi da
+    es: Mora com os amigos
 ---
 
-Depois de saber apresentar alguém (*Hau X da*), o próximo passo natural é **contar o que essa pessoa faz**: onde mora, onde trabalha, quantos anos tem, como é o seu dia a dia. Toda a conjugação vai na **terceira pessoa**, então é isso que praticamos aqui.
+Depois de aprender a apresentar alguém (*Hau X da*), o próximo passo natural é **contar o que essa pessoa faz**: onde mora, onde trabalha, quantos anos tem, como é o seu dia a dia. Toda a conjugação vai na **terceira pessoa**, então é isso que praticamos aqui.
 
 ## As perguntas
 
@@ -90,7 +118,7 @@ O sufixo **`-(e)an`** ("em") você já conhece da unidade de bairro e de residê
 | euskaltegia (academia de euskera) | *euskaltegi**an** lan egiten du* |
 | etxean (em casa) | *etxean lan egiten du* |
 
-> Lembre-se: se a palavra termina em `-a` orgânico (tabern**a**), ele se mantém → *tabernan*. Se termina em consoante (Madril), intercala-se `-e-` → *Madrilen*.
+> Lembre-se: se a palavra termina em `-a` orgânico (tabern**a**), o `-a` se mantém → *tabernan*. Se termina em consoante (Madril), intercala-se `-e-` → *Madrilen*.
 
 ## Profissão + lugar = retrato completo
 

@@ -7,55 +7,86 @@ level: a1
 order: 1
 title: Os cômodos da casa
 estimatedMinutes: 10
-covers: [home-rooms]
+covers:
+- home-rooms
 exercises:
-  - id: ex-09-01-mp
-    type: match-pairs
-    pairs:
-      - { eu: sukaldea, es: cozinha }
-      - { eu: logela, es: quarto }
-      - { eu: komuna, es: banheiro }
-      - { eu: egongela, es: sala de estar }
-      - { eu: sarrera, es: entrada }
-      - { eu: korridorea, es: corredor }
-  - id: ex-09-01-mc1
-    type: multiple-choice
-    prompt: Você quer tomar banho. A qual cômodo você vai?
-    options: [sukaldea, logela, komuna, egongela]
-    answer: 2
-    explanation: '"Komuna" é o banheiro (o cômodo com chuveiro, pia, etc.).'
-  - id: ex-09-01-mc2
-    type: multiple-choice
-    prompt: '"Egongela" é...'
-    options: [o quarto, a cozinha, a sala de estar, o terraço]
-    answer: 2
-    explanation: '"Egongela" é formado por "egon" (estar) + "gela" (sala) — a sala onde se fica, a sala de estar.'
-  - id: ex-09-01-fb1
-    type: fill-in-blank
-    prompt: 'Dormimos no ___ (em português: quarto).'
-    answers: [logela]
-    explanation: '"Logela" = "lo" (sono) + "gela" (sala).'
-  - id: ex-09-01-fc
-    type: flashcards
-    cards:
-      - { eu: etxea, es: a casa }
-      - { eu: pisua, es: o apartamento }
-      - { eu: gela, es: cômodo / sala }
-      - { eu: sukaldea, es: cozinha }
-      - { eu: logela, es: quarto }
-      - { eu: komuna, es: banheiro }
-      - { eu: egongela, es: sala de estar }
-      - { eu: sarrera, es: entrada }
-      - { eu: korridorea / pasabidea, es: corredor }
-      - { eu: balkoia, es: sacada }
-      - { eu: terraza, es: terraço }
-      - { eu: igogailua, es: elevador }
-      - { eu: solairua, es: andar / piso (nível do prédio) }
-      - { eu: 'Zenbat logela ditu?', es: 'Quantos quartos tem?' }
-      - { eu: 'Non dago sukaldea?', es: 'Onde fica a cozinha?' }
+- id: ex-09-01-mp
+  type: match-pairs
+  pairs:
+  - eu: sukaldea
+    es: cocina
+  - eu: logela
+    es: dormitorio
+  - eu: komuna
+    es: baño
+  - eu: egongela
+    es: sala de estar
+  - eu: sarrera
+    es: entrada
+  - eu: korridorea
+    es: pasillo
+- id: ex-09-01-mc1
+  type: multiple-choice
+  prompt: Você quer tomar banho. A que cômodo você vai?
+  options:
+  - sukaldea
+  - logela
+  - komuna
+  - egongela
+  answer: 2
+  explanation: '"Komuna" é o banheiro (o cômodo com chuveiro, pia, etc.).'
+- id: ex-09-01-mc2
+  type: multiple-choice
+  prompt: '"Egongela" é...'
+  options:
+  - o quarto
+  - a cozinha
+  - a sala de estar
+  - o terraço
+  answer: 2
+  explanation: '"Egongela" é formado por "egon" (estar) + "gela" (sala) — a sala onde se fica, a sala de estar.'
+- id: ex-09-01-fb1
+  type: fill-in-blank
+  prompt: 'Dormimos no ___ (em português: quarto).'
+  answers:
+  - logela
+  explanation: '"Logela" = "lo" (sono) + "gela" (sala).'
+- id: ex-09-01-fc
+  type: flashcards
+  cards:
+  - eu: etxea
+    es: a casa
+  - eu: pisua
+    es: o apartamento
+  - eu: gela
+    es: cômodo / sala
+  - eu: sukaldea
+    es: cozinha
+  - eu: logela
+    es: quarto
+  - eu: komuna
+    es: banheiro
+  - eu: egongela
+    es: sala de estar
+  - eu: sarrera
+    es: entrada
+  - eu: korridorea / pasabidea
+    es: corredor
+  - eu: balkoia
+    es: sacada
+  - eu: terraza
+    es: terraço
+  - eu: igogailua
+    es: elevador
+  - eu: solairua
+    es: andar / piso (nível do prédio)
+  - eu: Zenbat logela ditu?
+    es: Quantos quartos tem?
+  - eu: Non dago sukaldea?
+    es: Onde fica a cozinha?
 ---
 
-Começamos pelo mais básico de qualquer moradia: os **cômodos**. A palavra geral para "sala / cômodo" é **gela**, e a maior parte dos nomes dos cômodos é formada combinando uma raiz com `-gela`.
+Começamos pelo mais básico de qualquer moradia: os **cômodos**. A palavra geral para "sala / cômodo" é **gela**, e a maior parte dos nomes dos cômodos se forma combinando uma raiz com `-gela`.
 
 ## Vocabulário básico
 
@@ -104,4 +135,4 @@ Para dizer em que andar você mora:
 - **Non dago sukaldea?** — Onde fica a cozinha?
 - **Etxeak badu balkoirik?** — A casa tem sacada?
 
-> **Nota cultural:** em Navarra e na zona basco-castelhana é comum dizer *pisua* para a moradia urbana e *etxea* para a casa familiar/do povoado. No dia a dia, ambos se misturam sem problemas.
+> **Nota cultural:** em Navarra e na zona basco-castelhana é comum dizer *pisua* para a moradia urbana e *etxea* para a casa familiar/do vilarejo. No dia a dia, ambos se misturam sem problemas.

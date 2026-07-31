@@ -5,92 +5,122 @@ code: 05-nire-auzokideak
 unit: 10-mi-gente
 level: a1
 order: 5
-title: Nire auzokideak — وصف ثلاثة من الجيران
+title: Nire auzokideak — وصف ثلاثة جيران
 estimatedMinutes: 12
-covers: [social-relations, third-person-introductions, daily-routine-third-person, professions-extended, possessives]
+covers:
+- social-relations
+- third-person-introductions
+- daily-routine-third-person
+- professions-extended
+- possessives
 exercises:
-  - id: ex-10-05-mc1
-    type: multiple-choice
-    prompt: 'لتقديم جارة مسنّة تعيش وحدها، ما الترتيب الأكثر طبيعية؟'
-    options:
-      - "Hau ... da → bera ... da → bera ... egiten du"
-      - "Bera ... egiten du → hau ... da → bera ... da"
-      - "Hura ... egiten du → hau ... naiz → bera ... zara"
-      - "Ni ... naiz → zu ... zara → bera ... da"
-    answer: 0
-    explanation: 'أولًا تُقدّم (Hau X da)، ثم تضيف معلومات (Bera Y da)، وأخيرًا تروي ما تفعله (Bera Z egiten du).'
-  - id: ex-10-05-mc2
-    type: multiple-choice
-    prompt: '"Nire bizilaguna 75 urteko jubilatua da" تعني…'
-    options:
-      - "جاري عمره 75 عامًا ومتقاعد"
-      - "تقاعد جاري قبل 75 عامًا"
-      - "جاري يعمل في 75"
-      - "لديّ 75 جارًا متقاعدًا"
-    answer: 0
-    explanation: '"75 urteko jubilatua" = متقاعد عمره 75 عامًا. البنية: "X-eko Y" تدل على العمر/الصفة + الاسم.'
-  - id: ex-10-05-fb1
-    type: fill-in-blank
-    prompt: 'جيراني لطفاء = Nire bizilagunak ___ dira.'
-    answers: [atseginak, jatorrak]
-    explanation: '"Atseginak" أو "jatorrak" هما أكثر صفتين استخدامًا لـ "لطفاء/ودودون" في الجمع.'
-  - id: ex-10-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: jatorra, es: لطيف/ة (قريب) }
-      - { eu: atsegina, es: ودود/ة }
-      - { eu: alaia, es: مرح/ة }
-      - { eu: lasaia, es: هادئ/ة }
-      - { eu: berritsua, es: ثرثار/ة }
-      - { eu: zaratatsua, es: مزعج/ة (كثير الضجيج) }
-  - id: ex-10-05-fc
-    type: flashcards
-    cards:
-      - { eu: nire bizilaguna, es: جاري/جارتي }
-      - { eu: nire bizilagunak, es: جيراني }
-      - { eu: nire ondoko bizilaguna, es: جاري/جارتي المجاور }
-      - { eu: lehenengo solairukoa, es: من الطابق الأول }
-      - { eu: bigarren solairukoa, es: من الطابق الثاني }
-      - { eu: jatorra, es: لطيف/ة }
-      - { eu: atsegina, es: ودود/ة }
-      - { eu: alaia, es: مرح/ة }
-      - { eu: lasaia, es: هادئ/ة }
-      - { eu: berritsua, es: ثرثار/ة }
-      - { eu: zaratatsua, es: مزعج/ة (كثير الضجيج) }
-      - { eu: jubilatua, es: متقاعد/ة }
-      - { eu: gaztea, es: شابّ/ة }
-      - { eu: zaharra, es: مسنّ/ة }
-      - { eu: 'Asko hitz egiten du', es: 'يتكلّم كثيرًا' }
-      - { eu: 'Ez dut askotan ikusten', es: 'لا أراها كثيرًا' }
-      - { eu: 'Beti pozik dago', es: 'دائمًا سعيد/ة' }
+- id: ex-10-05-mc1
+  type: multiple-choice
+  prompt: لتقديم جارة كبيرة في السن تعيش بمفردها، ما هو الترتيب الأكثر طبيعية؟
+  options:
+  - Hau ... da → bera ... da → bera ... egiten du
+  - Bera ... egiten du → hau ... da → bera ... da
+  - Hura ... egiten du → hau ... naiz → bera ... zara
+  - Ni ... naiz → zu ... zara → bera ... da
+  answer: 0
+  explanation: أولاً تقدم (Hau X da)، ثم تضيف بيانات (Bera Y da)، وأخيراً تحكي ماذا تفعل (Bera Z egiten du).
+- id: ex-10-05-mc2
+  type: multiple-choice
+  prompt: '"Nire bizilaguna 75 urteko jubilatua da" تعني...'
+  options:
+  - جاري يبلغ من العمر 75 عامًا وهو متقاعد
+  - تقاعد جاري قبل 75 عامًا
+  - جاري يعمل في الـ 75
+  - لدي 75 جارًا متقاعدًا
+  answer: 0
+  explanation: '"75 urteko jubilatua" = متقاعد يبلغ من العمر 75 عامًا. الهيكل: "X-eko Y" يشير إلى العمر/صفة + اسم.'
+- id: ex-10-05-fb1
+  type: fill-in-blank
+  prompt: جيراني لطفاء = Nire bizilagunak ___ dira.
+  answers:
+  - atseginak
+  - jatorrak
+  explanation: '"Atseginak" أو "jatorrak" هما الصفتان الأكثر استخدامًا لـ "لطفاء/ودودين" في صيغة الجمع.'
+- id: ex-10-05-mp
+  type: match-pairs
+  pairs:
+  - eu: jatorra
+    es: لطيف/ة (ودود)
+  - eu: atsegina
+    es: agradable
+  - eu: alaia
+    es: alegre
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berritsua
+    es: ثرثار/ة
+  - eu: zaratatsua
+    es: ruidoso/a
+- id: ex-10-05-fc
+  type: flashcards
+  cards:
+  - eu: nire bizilaguna
+    es: جاري/جارتي
+  - eu: nire bizilagunak
+    es: جيراني
+  - eu: nire ondoko bizilaguna
+    es: جاري/جارتي المجاور/ة
+  - eu: lehenengo solairukoa
+    es: من الطابق الأول
+  - eu: bigarren solairukoa
+    es: من الطابق الثاني
+  - eu: jatorra
+    es: لطيف/ة
+  - eu: atsegina
+    es: لطيف/ة
+  - eu: alaia
+    es: مرح/ة
+  - eu: lasaia
+    es: هادئ/ة
+  - eu: berritsua
+    es: ثرثار/ة
+  - eu: zaratatsua
+    es: صاخب/ة
+  - eu: jubilatua
+    es: متقاعد/ة
+  - eu: gaztea
+    es: شاب/ة
+  - eu: zaharra
+    es: كبير/ة في السن
+  - eu: Asko hitz egiten du
+    es: يتحدث/تتحدث كثيراً
+  - eu: Ez dut askotan ikusten
+    es: لا أراه/أراها غالبًا
+  - eu: Beti pozik dago
+    es: دائماً سعيد/ة
 ---
 
-يدمج هذا الدرس كل ما ورد في الوحدة 10. هنا تتدرّب على شيء محدّد ومفيد: **وصف ثلاثة من جيرانك** بجُمل بسيطة لكنها مترابطة. إنها اختبار الحسم لمستوى A1 — وهي تحديدًا ما يُتدرّب عليه في أوائل التقديمات داخل الصف.
+يدمج هذا الدرس كل ما ورد في الوحدة 10. هنا ستتدرب على شيء ملموس ومفيد: **وصف ثلاثة من جيرانك** بجمل بسيطة ولكن مترابطة. إنه الاختبار الحقيقي للمستوى A1 — وهو بالضبط ما يتم التدرب عليه في العروض التقديمية الأولى في الفصل.
 
-## بنية نموذجية (الترتيب المُوصى به)
+## الهيكل النموذجي (الترتيب الموصى به)
 
-لكل جار، اتبع دائمًا هذه العناصر. إذا توافرت لديك، يُبنى الوصف من تلقاء نفسه:
+لكل جار، اتبع دائمًا هذه الأجزاء. إذا كانت لديك، فإن الوصف يُبنى من تلقاء نفسه:
 
-1. **التقديم** — *Hau nire bizilaguna da. Bera X-koa da.* (من أين هو)
+1. **التقديم** — *Hau nire bizilaguna da. Bera X-koa da.* (من أين هو/هي)
 2. **العمر / الحالة الاجتماعية** — *X urte ditu. Ezkonduta / Bakarrik dago.*
 3. **المهنة** — *Bera Y da.* أو *Y-an lan egiten du.*
-4. **الطبع** — *Oso jatorra da.* أو *Lasaia / Berritsua da.*
+4. **الشخصية** — *Oso jatorra da.* أو *Lasaia / Berritsua da.*
 5. **تفصيل خاص** — شيء تلاحظه أنت: متى تراه، ماذا يفعل.
 
-> لست بحاجة إلى قول الأمور الخمسة كلها. بثلاثة منها يصير هناك وصف.
+> لست بحاجة لقول الأشياء الخمسة كلها. ثلاثة منها تكفي لعمل وصف.
 
-## مفردات لوصف طبع الجار
+## مفردات لوصف شخصية الجار
 
 | Euskera | العربية |
 |---|---|
-| *jatorra* | لطيف/ة، قريب |
-| *atsegina* | ودود/ة |
+| *jatorra* | لطيف/ة، ودود/ة |
+| *atsegina* | لطيف/ة |
 | *alaia* | مرح/ة |
 | *lasaia* | هادئ/ة |
-| *isila* | صامت/ة |
+| *isila* | صامت/ة، قليل/ة الكلام |
 | *berritsua* | ثرثار/ة |
-| *zaratatsua* | مزعج/ة (كثير الضجيج) |
-| *zakarra* | فظّ / جافّ |
+| *zaratatsua* | صاخب/ة، مزعج/ة |
+| *zakarra* | فظ/ة / خشن/ة |
 | *jakintsua* | حكيم/ة |
 
 ## نص نموذجي
@@ -103,9 +133,9 @@ exercises:
 >
 > ***Hirugarrena Hodei eta Maialen dira.*** *Hauek nire ikaskideak ere badira: euskaltegira elkarrekin joaten gara. Hirugarren solairuan bizi dira eta ikasleak dira. Alaiak eta zaratatsuak dira: asteburuetan musika ozen entzuten dute.*
 
-## الآن دورك: صِف ثلاثة من جيرانك
+## الآن دورك: صف ثلاثة من جيرانك
 
-اتبع هذا القالب وأكمله ببياناتك الحقيقية (أو مُختلَقة، إن فضّلت ذلك):
+اتبع هذا القالب وأكمله ببياناتك الحقيقية (أو اخترعها، إذا كنت تفضل):
 
 > *Nire bizilagunetatik hiru aukeratuko ditut.*
 >
@@ -115,19 +145,19 @@ exercises:
 >
 > *Hirugarrena _________ da. Hau nire _________ ere bada. _________ ditu, eta _________(e)an lan egiten du. _________-rekin bizi da.*
 
-## عبارات رابطة مفيدة
+## عبارات ربط مفيدة
 
-إن أردت ربط الأوصاف على نحو أفضل، تساعدك هذه الروابط البسيطة:
+إذا أردت ربط الأوصاف بشكل أفضل، فإن أدوات الربط البسيطة هذه ستساعدك:
 
 | Euskera | العربية |
 |---|---|
 | *eta* | و |
 | *baina* | لكن |
-| *baita ere* | أيضًا |
-| *gainera* | علاوة على ذلك |
+| *baita ere* | أيضاً |
+| *gainera* | بالإضافة إلى ذلك |
 | *adibidez* | على سبيل المثال |
-| *batzuetan* | أحيانًا |
+| *batzuetan* | أحياناً |
 
 > مثال: *Bera lasaia da, **baina** asteburuetan zaratatsua bihurtzen da. **Adibidez**, ostiraletan musika entzuten du gauean.*
 
-> **نصيحة أخيرة:** لن تكون أوصافك الأولى للجيران مثالية. المهم أن يفهم المستمع **من هو**، و**ماذا يفعل**، و**كيف تراه أنت**. وبهذه القاعدة، تأتي تصحيحات القواعد من تلقاء نفسها مع التمرّن.
+> **نصيحة أخيرة:** الأوصاف الأولى للجيران لن تكون مثالية. المهم هو أن يفهم المستمع **من هو**، **ماذا يفعل** و**كيف تراه أنت**. على هذا الأساس، تأتي التصحيحات النحوية مع الممارسة.

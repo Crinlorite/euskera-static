@@ -7,62 +7,97 @@ level: a1
 order: 1
 title: Nolakoa da? Adjectives with izan
 estimatedMinutes: 10
-covers: [physical-description, izan-nor]
+covers:
+- physical-description
+- izan-nor
 exercises:
-  - id: ex-nlk-mc1
-    type: multiple-choice
-    prompt: 'What does "Nolakoa zara?" mean?'
-    options: ["What's your name?", "What are you like?", "How are you?", "Where are you from?"]
-    answer: 1
-    explanation: '"Nolakoa" asks about the quality or the "what is it like" of something or someone — a permanent description, not a passing state.'
-  - id: ex-nlk-mc2
-    type: multiple-choice
-    prompt: 'You want to say "I am tall". How do you say it?'
-    options: [Ni altu naiz, Ni altua naiz, Ni altuan naiz, Ni naiz altu]
-    answer: 1
-    explanation: 'In this pattern the adjective takes the article `-a`: *altu* + *-a* = *altua*.'
-  - id: ex-nlk-fb1
-    type: fill-in-blank
-    prompt: 'Maialen is very nice = Maialen oso atsegin___ da.'
-    answers: [a]
-    explanation: 'Adjective + article `-a` when you describe a quality: *atsegina*.'
-  - id: ex-nlk-fb2
-    type: fill-in-blank
-    prompt: 'Hura ___ da. (He is short) — use "baxu" + article.'
-    answers: [baxua]
-    explanation: 'Standard form: the adjective always ends in `-a`.'
-  - id: ex-nlk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nolakoa zara?', es: 'What are you like?' }
-      - { eu: 'Nolakoa da?', es: 'What is he/she like?' }
-      - { eu: altua, es: tall }
-      - { eu: baxua, es: short }
-      - { eu: handia, es: big }
-      - { eu: txikia, es: small }
-      - { eu: lodia, es: fat }
-      - { eu: argala, es: thin }
-      - { eu: gaztea, es: young }
-      - { eu: heldua, es: adult (older) }
-      - { eu: zaharra, es: old }
-      - { eu: polita, es: pretty/good-looking }
-      - { eu: itsusia, es: ugly }
-      - { eu: ederra, es: beautiful }
-      - { eu: dotorea, es: elegant }
-  - id: ex-nlk-mp
-    type: match-pairs
-    pairs:
-      - { eu: altua, es: tall }
-      - { eu: baxua, es: short }
-      - { eu: handia, es: big }
-      - { eu: txikia, es: small }
-      - { eu: lodia, es: fat }
-      - { eu: argala, es: thin }
-      - { eu: polita, es: pretty }
-      - { eu: itsusia, es: ugly }
+- id: ex-nlk-mc1
+  type: multiple-choice
+  prompt: What does "Nolakoa zara?" mean?
+  options:
+  - What is your name?
+  - What are you like?
+  - How are you?
+  - Where are you from?
+  answer: 1
+  explanation: '"Nolakoa" asks about the quality or "what something/someone is like" — a permanent description, not a temporary state.'
+- id: ex-nlk-mc2
+  type: multiple-choice
+  prompt: You want to say "I am tall". How do you say it?
+  options:
+  - Ni altu naiz
+  - Ni altua naiz
+  - Ni altuan naiz
+  - Ni naiz altu
+  answer: 1
+  explanation: 'In this pattern, the adjective takes the article `-a`: *altu* + *-a* = *altua*.'
+- id: ex-nlk-fb1
+  type: fill-in-blank
+  prompt: Maialen is very nice = Maialen oso atsegin___ da.
+  answers:
+  - a
+  explanation: 'Adjective + article `-a` when you describe a quality: *atsegina*.'
+- id: ex-nlk-fb2
+  type: fill-in-blank
+  prompt: Hura ___ da. (He is short) — use "baxu" + article.
+  answers:
+  - baxua
+  explanation: 'Standard form: the adjective always with a final `-a`.'
+- id: ex-nlk-fc
+  type: flashcards
+  cards:
+  - eu: Nolakoa zara?
+    es: What are you like?
+  - eu: Nolakoa da?
+    es: What is he/she like?
+  - eu: altua
+    es: tall
+  - eu: baxua
+    es: short
+  - eu: handia
+    es: big
+  - eu: txikia
+    es: small
+  - eu: lodia
+    es: fat
+  - eu: argala
+    es: thin
+  - eu: gaztea
+    es: young
+  - eu: heldua
+    es: adult (older)
+  - eu: zaharra
+    es: old
+  - eu: polita
+    es: pretty/handsome
+  - eu: itsusia
+    es: ugly
+  - eu: ederra
+    es: beautiful
+  - eu: dotorea
+    es: elegant
+- id: ex-nlk-mp
+  type: match-pairs
+  pairs:
+  - eu: altua
+    es: alto
+  - eu: baxua
+    es: bajo
+  - eu: handia
+    es: grande
+  - eu: txikia
+    es: pequeño
+  - eu: lodia
+    es: gordo
+  - eu: argala
+    es: delgado
+  - eu: polita
+    es: bonito
+  - eu: itsusia
+    es: feo
 ---
 
-When you want to describe what a person or a thing is like in a **stable** way (physically, in general), in Basque we use the question **Nolakoa da?** ("what is it like?") and answer with the verb **izan** + an adjective with the `-a` ending.
+When you want to describe what a person or a thing is like in a **stable** way (physically, in general), in Basque we use the question **Nolakoa da?** ("what is it like?") and we answer with the verb **izan** + an adjective with the final `-a` marker.
 
 ## The question
 
@@ -72,42 +107,42 @@ When you want to describe what a person or a thing is like in a **stable** way (
 | *Nolakoa da?* | What is he/she like? (to "he/she") |
 | *Nolakoak dira?* | What are they like? (to "they") |
 
-> **Nolakoa** = what … like? (in the sense of quality). Don't confuse it with **nola** ("how" in a state: *nola dago?* = how is he/she?). You'll see the difference with *egon* in lesson 4.
+> **Nolakoa** = what... like? (in the sense of quality). Don't confuse it with **nola** ("how" in the sense of state: *nola dago?* = how is it?). You'll see the difference with *egon* in lesson 4.
 
 ## The structure: subject + adjective + izan
 
-The pattern is very regular. The adjective always takes the article `-a`:
+The pattern is very regular. The adjective always takes the `-a` article:
 
 - *Ni **altua** naiz.* — I am tall.
 - *Zu **txikia** zara.* — You are small.
-- *Hura **polita** da.* — He/she is good-looking.
+- *Hura **polita** da.* — He/she is pretty/handsome.
 - *Gu **gazteak** gara.* — We are young. (plural: `-ak`)
 - *Haiek **lodiak** dira.* — They are fat.
 
-> Basque has no grammatical gender. *Altua* works the same for a man or a woman.
+> There is no grammatical gender in Basque. *Altua* means "tall" regardless of the person's gender.
 
-## Basic adjectives of general appearance
+## Basic adjectives for general appearance
 
 | Basque | English | Opposite |
 |---|---|---|
 | *altua* | tall | *baxua* (short) |
 | *handia* | big | *txikia* (small) |
 | *lodia* | fat | *argala* (thin) |
-| *gaztea* | young | *zaharra* / *heldua* (older) |
-| *polita* | pretty, good-looking | *itsusia* (ugly) |
+| *gaztea* | young | *zaharra* / *heldua* (old / adult) |
+| *polita* | pretty, handsome | *itsusia* (ugly) |
 | *ederra* | beautiful | — |
 | *dotorea* | elegant | — |
 
 ## Examples in use
 
 - *Nire ama altua eta argala da.* — My mother is tall and thin.
-- *Mikelen anaia gaztea da, baina ni heldua naiz.* — Mikel's brother is young, but I am older.
+- *Mikelen anaia gaztea da, baina ni heldua naiz.* — Mikel's brother is young, but I am an adult.
 - *Etxe hau handia da; nire etxea txikia da.* — This house is big; my house is small.
 
 ## Negation and intensity
 
 - **Ni ez naiz altua.** — I am not tall.
-- **Hura oso polita da.** — He/she is very good-looking. (*oso* = very)
+- **Hura oso polita da.** — He/she is very pretty. (*oso* = very)
 - **Ez naiz oso lodia.** — I am not very fat.
 
-> To soften, use **oso** (very) or **nahiko** (quite): *nahiko altua naiz* ("I am quite tall"). To negate, you put **ez** before the verb, as you already saw with *izan*.
+> To soften, use **oso** (very) or **nahiko** (quite/rather): *nahiko altua naiz* ("I am quite tall"). To negate, you put **ez** before the verb, as you already saw with *izan*.

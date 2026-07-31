@@ -5,58 +5,87 @@ code: 01-jatetxean-sartu
 unit: 12-restaurante
 level: a1
 order: 1
-title: Plegar a lo restaurante (jatetxean sartu)
+title: Arribar a o restaurant (jatetxean sartu)
 estimatedMinutes: 10
-covers: [restaurant-vocab, courtesy, greetings]
+covers:
+- restaurant-vocab
+- courtesy
+- greetings
 exercises:
-  - id: ex-jat1-mc1
-    type: multiple-choice
-    prompt: 'Cómo demandas una mesa ta dos?'
-    options: ['Bi mahaiak, mesedez', 'Mahai bat bi lagunentzat, mesedez', 'Mahai bi lagunak, mesedez', 'Bi lagun mahaian']
-    answer: 1
-    explanation: '"Mahai bat bi lagunentzat" = "una mesa ta dos personas". *-entzat* ye lo destinatario plural.'
-  - id: ex-jat1-mc2
-    type: multiple-choice
-    prompt: '"Erreserba egin nahi dut" significa…'
-    options: [Quiero pagar, Quiero fer una reserva, B'ha puesto?, Tiengo fambre]
-    answer: 1
-    explanation: '*Erreserba egin* — "fer una reserva". *Nahi dut* — "quiero".'
-  - id: ex-jat1-fb1
-    type: fill-in-blank
-    prompt: 'Lo camarero pregunta: "A nombre de qui?" = "___ izenean?"'
-    answers: [Noren, noren]
-    explanation: '*Noren?* — genitivo interrogativo: "de qui?". *Noren izenean?* ye la fórmula estándar.'
-  - id: ex-jat1-fb2
-    type: fill-in-blank
-    prompt: '"Ta maitín de nueit" = Bihar ___'
-    answers: [gauerako, Gauerako]
-    explanation: '*Gau* (nueit) + *-rako* (ta) → *gauerako* — "ta la nueit".'
-  - id: ex-jat1-fc
-    type: flashcards
-    cards:
-      - { eu: jatetxea, es: restaurante }
-      - { eu: erretegia, es: 'parrilla, asador' }
-      - { eu: sagardotegia, es: sidrería }
-      - { eu: pizzeria, es: pizzería }
-      - { eu: hanburgeseria, es: hamburguesería }
-      - { eu: elkartea, es: 'sociedat gastronomica' }
-      - { eu: mahaia, es: mesa }
-      - { eu: zerbitzaria, es: 'camarero, camarera' }
-      - { eu: bezeroa, es: client }
-      - { eu: erreserba, es: reserva }
-      - { eu: 'Mahai bat, mesedez', es: 'Una mesa, por favor' }
-      - { eu: 'Lau lagunentzat', es: 'Ta quatro personas' }
-      - { eu: 'Noren izenean?', es: 'A nombre de qui?' }
-      - { eu: 'Bihar gauerako', es: 'Ta maitín de nueit' }
+- id: ex-jat1-mc1
+  type: multiple-choice
+  prompt: Cómo demandas una mesa pa dos?
+  options:
+  - Bi mahaiak, mesedez
+  - Mahai bat bi lagunentzat, mesedez
+  - Mahai bi lagunak, mesedez
+  - Bi lagun mahaian
+  answer: 1
+  explanation: '"Mahai bat bi lagunentzat" = "una mesa pa dos personas". *-entzat* ye o destinatario plural.'
+- id: ex-jat1-mc2
+  type: multiple-choice
+  prompt: '"Erreserba egin nahi dut" significa…'
+  options:
+  - Quiero pagar
+  - Quiero fer una reserva
+  - Bi ha puesto?
+  - Tiengo fambre
+  answer: 1
+  explanation: '*Erreserba egin* — "fer una reserva". *Nahi dut* — "quiero".'
+- id: ex-jat1-fb1
+  type: fill-in-blank
+  prompt: 'O cambrero pregunta: "A nombre de qui?" = "___ izenean?"'
+  answers:
+  - Noren
+  - noren
+  explanation: '*Noren?* — chenitivo interrogativo: "de qui?". *Noren izenean?* ye a formula estandar.'
+- id: ex-jat1-fb2
+  type: fill-in-blank
+  prompt: '"Pa maitín per a nueit" = Bihar ___'
+  answers:
+  - gauerako
+  - Gauerako
+  explanation: '*Gau* (nueit) + *-rako* (pa) → *gauerako* — "pa la nueit".'
+- id: ex-jat1-fc
+  type: flashcards
+  cards:
+  - eu: jatetxea
+    es: restaurant
+  - eu: erretegia
+    es: parrilla, asador
+  - eu: sagardotegia
+    es: sidrería
+  - eu: pizzeria
+    es: pizzería
+  - eu: hanburgeseria
+    es: hamburguesería
+  - eu: elkartea
+    es: sociedat gastronomica
+  - eu: mahaia
+    es: mesa
+  - eu: zerbitzaria
+    es: cambrero, cambrera
+  - eu: bezeroa
+    es: client
+  - eu: erreserba
+    es: reserva
+  - eu: Mahai bat, mesedez
+    es: Una mesa, por favor
+  - eu: Lau lagunentzat
+    es: Pa cuatro personas
+  - eu: Noren izenean?
+    es: A nombre de qui?
+  - eu: Bihar gauerako
+    es: Pa maitín per a nueit
 ---
 
-Lo primer paso en ir-ie a un restaurante: dentrar, saludar, demandar mesa u confirmar la reserva. Aquí tiens las fórmulas basicas.
+O primer trango en ir a un restaurant: dentrar, saludar, demandar mesa u confirmar a reserva. Aquí tiens as formulas basicas.
 
-## Tipos de puesto an minchar
+## Tipos de puestos an do minchar
 
 | Euskera | Aragonés |
 |---|---|
-| *jatetxea* | restaurante |
+| *jatetxea* | restaurant |
 | *erretegia* | parrilla / asador |
 | *sagardotegia* | sidrería |
 | *taberna* | bar |
@@ -64,41 +93,41 @@ Lo primer paso en ir-ie a un restaurante: dentrar, saludar, demandar mesa u conf
 | *hanburgeseria* | hamburguesería |
 | *elkartea* | sociedat gastronomica |
 
-## Personaches de la escena
+## Personaches d'a escena
 
-- **Bezeroa** — lo client
-- **Zerbitzaria** — lo/la camarero/a
-- **Mahaia** — la mesa
+- **Bezeroa** — o client
+- **Zerbitzaria** — o/a cambrero/a
+- **Mahaia** — a mesa
 
-## Plegar sin reserva
+## Arribar sin reserva
 
 > — *Egun on! Mahai bat bi lagunentzat, mesedez.*
 >
 > — *Bai, jarraitu mesedez. Hemen daukazue mahai bat.*
 
-Frases utils:
+Frases útils:
 
 - **Mahai bat, mesedez.** — Una mesa, por favor.
-- **Bi lagunentzat / lau lagunentzat.** — Ta dos / quatro personas.
-- **Eserlekurik baduzue?** — B'ha puesto?
+- **Bi lagunentzat / lau lagunentzat.** — Pa dos / cuatro personas.
+- **Eserlekurik baduzue?** — Tenez puesto?
 
 ## Fer una reserva
 
-Por telefono u presencial, b'ha un guion cuasi fixo:
+Per telefono u presencial, bi ha un guión cuasi fixo:
 
-> — *Egun on! "Kutixi" jatetxea al da?* — Ye lo restaurante "Kutixi"?
+> — *Egun on! "Kutixi" jatetxea al da?* — Ye o restaurant "Kutixi"?
 >
-> — *Bai, hala da. Zer nahi duzu?* — Sí. Qué desicha?
+> — *Bai, hala da. Zer nahi duzu?* — Sí. Qué deseya?
 >
-> — *Erreserba bat egin nahi dut, bihar gauerako.* — Quiero fer una reserva, ta maitín de nueit.
+> — *Erreserba bat egin nahi dut, bihar gauerako.* — Quiero fer una reserva, pa maitín per a nueit.
 >
-> — *Zenbat lagunentzat?* — Ta quántas personas?
+> — *Zenbat lagunentzat?* — Pa cuantas personas?
 >
-> — *Lau lagun izango gara.* — Seremos quatro personas.
+> — *Lau lagun izango gara.* — Seremos cuatro personas.
 >
 > — *Zer ordutan afaldu nahi duzue?* — A qué hora querez cenar?
 >
-> — *Bederatziak aldera.* — Sobre las nueu.
+> — *Bederatziak aldera.* — Enta as nueu.
 >
 > — *Noren izenean?* — A nombre de qui?
 >
@@ -106,9 +135,9 @@ Por telefono u presencial, b'ha un guion cuasi fixo:
 
 ## Frases que sentirás
 
-- **Itxaron pixka bat, mesedez.** — Aspere un poquet, por favor.
-- **Jarraitu mesedez.** — Sigan, por favor (sinyalando la mesa).
+- **Itxaron pixka bat, mesedez.** — Espere una miqueta, por favor.
+- **Jarraitu mesedez.** — Sigan, por favor (sinyalando a mesa).
 - **Hemen daukazue.** — Aquí lo tienen.
-- **Karta nahi duzue?** — Quieren la carta?
+- **Karta nahi duzue?** — Quieren a carta?
 
-> **Nota cultural:** los **elkarteak** u sociedaz gastronomicas son espacios tipicos d'Euskal Herria an lo minchar lo prepara y limpia lo mesmo grupo de socios. No funcionan como restaurantes publicos, pero conviene saber que existen porque sentirás la parola muitismo.
+> **Nota cultural:** os **elkarteak** u sociedaz gastronomicas son espacios tipicos d'Euskal Herria an do a mincha la prepara y limpia o mesmo grupo de socios. No funcionan como restaurants publicos, pero conviene saber que existen porque sentirás a parola a embute.

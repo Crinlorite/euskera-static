@@ -5,133 +5,174 @@ code: 01-mugimendua
 unit: 06-direcciones
 level: a1
 order: 1
-title: أفعال الحركة (joan، etorri، ibili)
+title: أفعال الحركة (joan, etorri, ibili)
 estimatedMinutes: 12
-covers: [movement-verbs, common-verbs]
+covers:
+- movement-verbs
+- common-verbs
 exercises:
-  - id: ex-mu-mp
-    type: match-pairs
-    pairs:
-      - { eu: joan, es: الذهاب }
-      - { eu: etorri, es: المجيء }
-      - { eu: ibili, es: المشي / التنقّل }
-      - { eu: sartu, es: الدخول }
-      - { eu: irten, es: الخروج }
-      - { eu: igo, es: الصعود }
-      - { eu: jaitsi, es: النزول }
-  - id: ex-mu-fb1
-    type: fill-in-blank
-    prompt: 'أنا أذهب = Ni ___.'
-    answers: [noa]
-    explanation: 'الصيغة التركيبية لفعل "joan" مع "أنا" هي "noa". شائعة في أسئلة مثل "Nora noa?" ← "إلى أين أذهب؟".'
-  - id: ex-mu-fb2
-    type: fill-in-blank
-    prompt: 'أنت تأتي = Zu ___.'
-    answers: [zatoz]
-    explanation: '"Zatoz" هي الصيغة التركيبية لفعل "etorri" مع "zu".'
-  - id: ex-mu-mc1
-    type: multiple-choice
-    prompt: '"Nora zoaz?" تعني…'
-    options: ["من أين تأتي؟", "إلى أين تذهب؟", "أين أنت؟", "في أي مكان تتنقّل؟"]
-    answer: 1
-    explanation: '"Nora" = إلى أين؛ "zoaz" = تذهب (الصيغة التركيبية لفعل "joan" مع "zu").'
-  - id: ex-mu-mc2
-    type: multiple-choice
-    prompt: '"Sartu" وضدّه "irten" يعنيان، على التوالي:'
-    options: ["الدخول / الخروج", "الصعود / النزول", "الذهاب / المجيء", "الفتح / الإغلاق"]
-    answer: 0
-  - id: ex-mu-fc
-    type: flashcards
-    cards:
-      - { eu: joan, es: الذهاب }
-      - { eu: noa, es: أذهب }
-      - { eu: zoaz, es: تذهب }
-      - { eu: doa, es: يذهب }
-      - { eu: goaz, es: نذهب }
-      - { eu: zoazte, es: تذهبون }
-      - { eu: doaz, es: يذهبون }
-      - { eu: etorri, es: المجيء }
-      - { eu: nator, es: أجيء }
-      - { eu: zatoz, es: تأتي }
-      - { eu: dator, es: يأتي }
-      - { eu: gatoz, es: نأتي }
-      - { eu: zatozte, es: تأتون }
-      - { eu: datoz, es: يأتون }
-      - { eu: ibili, es: المشي / التنقّل (الانتقال من مكان إلى آخر) }
-      - { eu: nabil, es: أمشي }
-      - { eu: zabiltza, es: تمشي }
-      - { eu: dabil, es: يمشي }
-      - { eu: sartu, es: الدخول }
-      - { eu: irten, es: الخروج }
-      - { eu: igo, es: الصعود }
-      - { eu: jaitsi, es: النزول }
+- id: ex-mu-mp
+  type: match-pairs
+  pairs:
+  - eu: joan
+    es: ir
+  - eu: etorri
+    es: venir
+  - eu: ibili
+    es: andar / moverse
+  - eu: sartu
+    es: entrar
+  - eu: irten
+    es: salir
+  - eu: igo
+    es: subir
+  - eu: jaitsi
+    es: bajar
+- id: ex-mu-fb1
+  type: fill-in-blank
+  prompt: أنا أذهب = Ni ___.
+  answers:
+  - noa
+  explanation: الصيغة التركيبية للفعل "joan" لضمير "أنا" هي "noa". شائعة في أسئلة مثل "Nora noa?" ← "إلى أين أذهب؟".
+- id: ex-mu-fb2
+  type: fill-in-blank
+  prompt: أنت تأتي = Zu ___.
+  answers:
+  - zatoz
+  explanation: '"Zatoz" هي الصيغة التركيبية للفعل "etorri" لضمير "zu".'
+- id: ex-mu-mc1
+  type: multiple-choice
+  prompt: '"Nora zoaz?" تعني...'
+  options:
+  - من أين تأتي؟
+  - إلى أين تذهب؟
+  - أين أنت؟
+  - من أي طريق تمشي؟
+  answer: 1
+  explanation: '"Nora" = إلى أين؛ "zoaz" = تذهب (الصيغة التركيبية للفعل "joan" لضمير "zu").'
+- id: ex-mu-mc2
+  type: multiple-choice
+  prompt: '"Sartu" وعكسها "irten" تعنيان على التوالي:'
+  options:
+  - entrar / salir
+  - subir / bajar
+  - ir / venir
+  - abrir / cerrar
+  answer: 0
+- id: ex-mu-fc
+  type: flashcards
+  cards:
+  - eu: joan
+    es: يذهب
+  - eu: noa
+    es: أذهب
+  - eu: zoaz
+    es: تذهب
+  - eu: doa
+    es: يذهب / تذهب
+  - eu: goaz
+    es: نذهب
+  - eu: zoazte
+    es: تذهبون
+  - eu: doaz
+    es: يذهبون / يذهبن
+  - eu: etorri
+    es: يأتي
+  - eu: nator
+    es: آتي
+  - eu: zatoz
+    es: تأتي
+  - eu: dator
+    es: يأتي / تأتي
+  - eu: gatoz
+    es: نأتي
+  - eu: zatozte
+    es: تأتون
+  - eu: datoz
+    es: يأتون / يأتين
+  - eu: ibili
+    es: يمشي / يتنقل (من مكان إلى آخر)
+  - eu: nabil
+    es: أمشي
+  - eu: zabiltza
+    es: تمشي
+  - eu: dabil
+    es: يمشي / تمشي
+  - eu: sartu
+    es: يدخل
+  - eu: irten
+    es: يخرج
+  - eu: igo
+    es: يصعد
+  - eu: jaitsi
+    es: ينزل
 ---
 
-ثلاثة أفعال أساسية ستظهر طوال الوقت: **joan** (الذهاب)، **etorri** (المجيء) و**ibili** (المشي، "التنقّل من مكان إلى آخر"). لهذه الأفعال الثلاثة صيغ **تركيبية** (بدون فعل مساعد) تُستعمل كثيرًا جدًّا في المضارع — ويُستحسن تعلّمها ككتلة واحدة.
+ستظهر ثلاثة أفعال أساسية طوال الوقت: **joan** (يذهب)، **etorri** (يأتي)، و **ibili** (يمشي، "التنقل من مكان إلى آخر"). الثلاثة لديهم صيغ **تركيبية** (بدون فعل مساعد) تُستخدم كثيرًا في زمن المضارع — ومن المستحسن تعلمها ككتلة واحدة.
 
-## Joan — الذهاب
+## Joan — يذهب
 
 | الشخص | الصيغة | العربية |
 |---|---|---|
 | ni | **noa** | أذهب |
 | zu | **zoaz** | تذهب |
-| hura | **doa** | يذهب |
+| hura | **doa** | يذهب / تذهب |
 | gu | **goaz** | نذهب |
 | zuek | **zoazte** | تذهبون |
-| haiek | **doaz** | يذهبون |
+| haiek | **doaz** | يذهبون / يذهبن |
 
-> السؤال المفتاح: ***Nora zoaz?*** — إلى أين تذهب؟ سنتناوله في الدرس 03.
+> السؤال الرئيسي: ***Nora zoaz?*** — إلى أين تذهب؟ سنتناولها في الدرس 03.
 
-## Etorri — المجيء
+## Etorri — يأتي
 
 | الشخص | الصيغة | العربية |
 |---|---|---|
-| ni | **nator** | أجيء |
+| ni | **nator** | آتي |
 | zu | **zatoz** | تأتي |
-| hura | **dator** | يأتي |
+| hura | **dator** | يأتي / تأتي |
 | gu | **gatoz** | نأتي |
 | zuek | **zatozte** | تأتون |
-| haiek | **datoz** | يأتون |
+| haiek | **datoz** | يأتون / يأتين |
 
-> السؤال المفتاح: ***Nondik zatoz?*** — من أين تأتي؟ سنتناوله في الدرس 04.
+> السؤال الرئيسي: ***Nondik zatoz?*** — من أين تأتي؟ سنتناولها في الدرس 04.
 
-## Ibili — المشي، التنقّل
+## Ibili — يمشي، يتنقل
 
 | الشخص | الصيغة | العربية |
 |---|---|---|
-| ni | **nabil** | أمشي، أتنقّل |
+| ni | **nabil** | أمشي، أتنقل |
 | zu | **zabiltza** | تمشي |
-| hura | **dabil** | يمشي |
+| hura | **dabil** | يمشي / تمشي |
 | gu | **gabiltza** | نمشي |
 | zuek | **zabiltzate** | تمشون |
-| haiek | **dabiltza** | يمشون |
+| haiek | **dabiltza** | يمشون / يمشين |
 
-> يُستعمل *Ibili* أيضًا للسؤال عمّا "تفعله هذه الأيام": **Zer zabiltza?** — كيف حالك؟ / ما الذي تنشغل به؟ وهو شائع جدًّا كتحية بين الأشخاص الذين يعرفون بعضهم.
+> يُستخدم *Ibili* أيضًا للسؤال "ماذا تفعل": **Zer zabiltza?** — كيف حالك؟ / ماذا تفعل؟ وهي تحية شائعة جدًا بين المعارف.
 
 ## أفعال حركة أخرى مفيدة
 
-| Euskera | العربية | مثال |
+| الباسكية | العربية | مثال |
 |---|---|---|
-| *sartu* | الدخول | *Tabernan sartu naiz.* — لقد دخلتُ إلى الحانة. |
-| *irten* | الخروج | *Etxetik irten naiz.* — لقد خرجتُ من البيت. |
-| *igo* | الصعود | *Eskailerak igo ditut.* — لقد صعدتُ الدرج. |
-| *jaitsi* | النزول | *Aldapa jaitsi dut.* — لقد نزلتُ المنحدر. |
-| *iritsi / heldu* | الوصول | *Iruñera iritsi naiz.* — لقد وصلتُ إلى Iruña. |
+| *sartu* | يدخل | *Tabernan sartu naiz.* — لقد دخلت الحانة. |
+| *irten* | يخرج | *Etxetik irten naiz.* — لقد خرجت من المنزل. |
+| *igo* | يصعد | *Eskailerak igo ditut.* — لقد صعدت السلالم. |
+| *jaitsi* | ينزل | *Aldapa jaitsi dut.* — لقد نزلت المنحدر. |
+| *iritsi / heldu* | يصل | *Iruñera iritsi naiz.* — لقد وصلت إلى بامبلونا. |
 
-## لماذا تهمّ الصيغ التركيبية
+## لماذا الصيغ التركيبية مهمة
 
-في اللغة الباسكية، تُصرَّف معظم الأفعال بـ**فعل مساعد**: *jan dut* (لقد أكلتُ)، *ikusi dut* (لقد رأيتُ). لكنّ قلّة من الأفعال الشائعة جدًّا — ومن بينها **joan**، **etorri**، **egon**، **ibili**، **eduki**، **jakin** — لها تصريف خاصّ "مُدمَج" (*تركيبي*) يُستعمل في المضارع. وبما أنها تظهر كثيرًا جدًّا، فمن الأسهل حفظ الصيغ الستّ بدلًا من اللفّ والدوران ألف مرّة.
+في اللغة الباسكية، تُصرَّف معظم الأفعال باستخدام فعل **مساعد**: *jan dut* (لقد أكلت)، *ikusi dut* (لقد رأيت). لكن بعض الأفعال الشائعة جدًا — من بينها **joan**، **etorri**، **egon**، **ibili**، **eduki**، **jakin** — لها تصريف خاص بها "مدمج" (*تركيبي*) يُستخدم في زمن المضارع. وبما أنها تظهر كثيرًا، فمن الأسهل حفظ الصيغ الست بدلاً من سلوك طرق ملتوية.
 
 ## محادثة قصيرة
 
 > — *Aupa, nora zoaz?* — مرحبًا! إلى أين تذهب؟
 >
-> — *Banketxera **noa**. Eta zu, nondik **zatoz**?* — أذهب إلى البنك. وأنت، من أين تأتي؟
+> — *Banketxera **noa**. Eta zu, nondik **zatoz**?* — أنا ذاهب إلى البنك. وأنت، من أين تأتي؟
 >
-> — *Lanetik **nator**.* — أجيء من العمل.
+> — *Lanetik **nator**.* — أنا قادم من العمل.
 >
-> — *Eta Lide? Zer **dabil**?* — وLide؟ ماذا تفعل؟
+> — *Eta Lide? Zer **dabil**?* — وليدي؟ ماذا تفعل؟
 >
-> — *Enkargutan **dabil**, batetik bestera.* — تتجوّل لقضاء بعض المشاوير، من مكان إلى آخر.
+> — *Enkargutan **dabil**, batetik bestera.* — إنها تقوم ببعض المهام، تتنقل من مكان إلى آخر.
 
-> **ملاحظة:** الصيغ التركيبية لبنة أساسية في المستوى A1. احفظها على شكل كتل من اثنين (ni/zu) أو ثلاثة (gu/zuek/haiek) بالغناء والكتابة والتكرار. أمّا الإتقان فسيأتي وحده مع الممارسة.
+> **ملاحظة:** الصيغ التركيبية هي لبنة أساسية في المستوى A1. احفظها في مجموعات من 2 (ni/zu) أو 3 (gu/zuek/haiek) عن طريق الغناء والكتابة والتكرار. سيأتي الاستيعاب تلقائيًا مع الممارسة.

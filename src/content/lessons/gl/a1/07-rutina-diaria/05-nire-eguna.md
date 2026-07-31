@@ -7,49 +7,80 @@ level: a1
 order: 5
 title: O meu día (conta a túa rutina)
 estimatedMinutes: 12
-covers: [daily-routine, habitual-aspect, time-basics, time-detail, parts-of-day, frequency-adverbs]
+covers:
+- daily-routine
+- habitual-aspect
+- time-basics
+- time-detail
+- parts-of-day
+- frequency-adverbs
 exercises:
-  - id: ex-05-ne-mc1
-    type: multiple-choice
-    prompt: '"Zer ordutan esnatzen zara?" significa…'
-    options: ["Que hora é?", "A que hora te espertas?", "Cando te deitas?", "Que almorzas?"]
-    answer: 1
-    explanation: '"Zer ordutan…?" = "a que hora…?". O sufixo "-tan" fai as funcións de "ás (horas)".'
-  - id: ex-05-ne-mc2
-    type: multiple-choice
-    prompt: 'Como dirías "Ás sete espértome"?'
-    options: ["Zazpiak esnatzen naiz", "Zazpietan esnatzen naiz", "Zazpiak dira esnatzen", "Zazpiko esnatu naiz"]
-    answer: 1
-    explanation: 'Para dicir "ás (horas)" úsase "-etan" sobre a hora en plural: zazpi**etan** = ás sete.'
-  - id: ex-05-ne-fb1
-    type: fill-in-blank
-    prompt: 'Ás nove = ___ (enche a palabra completa).'
-    answers: [bederatzietan, Bederatzietan]
-    explanation: 'A hora "ás X" fórmase con "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
-  - id: ex-05-ne-fb2
-    type: fill-in-blank
-    prompt: 'Pola mañá vou ao traballo = Goizean ___ joaten naiz.'
-    answers: [lanera, Lanera]
-    explanation: '"Lan" = traballo. Co caso NORA (-ra, dirección): *lanera* = "ao traballo".'
-  - id: ex-05-ne-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer ordutan esnatzen zara?', es: 'A que hora te espertas?' }
-      - { eu: 'Zer ordutan oheratzen zara?', es: 'A que hora te deitas?' }
-      - { eu: 'Zer egiten duzu goizean?', es: 'Que fas pola mañá?' }
-      - { eu: zazpietan, es: ás sete }
-      - { eu: zortzietan, es: ás oito }
-      - { eu: hamarretan, es: ás dez }
-      - { eu: hamabietan, es: ás doce }
-      - { eu: ordu bietan, es: ás dúas (en punto) }
-      - { eu: bost eta erdietan, es: ás cinco e media }
-      - { eu: lanera, es: ao traballo }
-      - { eu: euskaltegira, es: ao euskaltegi (escola de euskera) }
-      - { eu: etxera, es: á casa }
-      - { eu: ohera, es: á cama }
+- id: ex-05-ne-mc1
+  type: multiple-choice
+  prompt: '"Zer ordutan esnatzen zara?" significa…'
+  options:
+  - Que hora é?
+  - A que hora te espertas?
+  - Cando te deitas?
+  - Que almorzas?
+  answer: 1
+  explanation: '"Zer ordutan…?" = "a que hora…?". O sufixo "-tan" fai as funcións de "ás (horas)".'
+- id: ex-05-ne-mc2
+  type: multiple-choice
+  prompt: Como dirías "Ás sete espértome"?
+  options:
+  - Zazpiak esnatzen naiz
+  - Zazpietan esnatzen naiz
+  - Zazpiak dira esnatzen
+  - Zazpiko esnatu naiz
+  answer: 1
+  explanation: 'Para dicir "ás (horas)" úsase "-etan" coa hora en plural: zazpi**etan** = ás sete.'
+- id: ex-05-ne-fb1
+  type: fill-in-blank
+  prompt: Ás nove = ___ (enche a palabra completa).
+  answers:
+  - bederatzietan
+  - Bederatzietan
+  explanation: 'A hora "ás X" fórmase con "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+- id: ex-05-ne-fb2
+  type: fill-in-blank
+  prompt: Pola mañá vou ao traballo = Goizean ___ joaten naiz.
+  answers:
+  - lanera
+  - Lanera
+  explanation: '"Lan" = traballo. Co caso NORA (-ra, dirección): *lanera* = "ao traballo".'
+- id: ex-05-ne-fc
+  type: flashcards
+  cards:
+  - eu: Zer ordutan esnatzen zara?
+    es: A que hora te espertas?
+  - eu: Zer ordutan oheratzen zara?
+    es: A que hora te deitas?
+  - eu: Zer egiten duzu goizean?
+    es: Que fas pola mañá?
+  - eu: zazpietan
+    es: ás sete
+  - eu: zortzietan
+    es: ás oito
+  - eu: hamarretan
+    es: ás dez
+  - eu: hamabietan
+    es: ás doce
+  - eu: ordu bietan
+    es: ás dúas (en punto)
+  - eu: bost eta erdietan
+    es: ás cinco e media
+  - eu: lanera
+    es: ao traballo
+  - eu: euskaltegira
+    es: ao euskaltegi (escola de éuscaro)
+  - eu: etxera
+    es: á casa
+  - eu: ohera
+    es: á cama
 ---
 
-Esta lección une todo o da unidade: hora, momentos do día, verbos de rutina e frecuencia. O obxectivo é que poidas contar o teu día completo en euskera de principio a fin.
+Esta lección une todo o da unidade: hora, momentos do día, verbos de rutina e frecuencia. O obxectivo é que poidas contar o teu día completo en éuscaro de principio a fin.
 
 ## A pregunta clave: "Zer ordutan…?"
 
@@ -94,7 +125,7 @@ Tradución aproximada:
 Segue este modelo coa túa información real. É a mellor maneira de fixar o aprendido:
 
 1. **A que hora te espertas:** *Goizeko ___etan esnatzen naiz.*
-2. **Que fas ao erguerte:** *... dutxatzen naiz / gosaltzen dut / ...*
+2. **Que fas ao te ergueres:** *... dutxatzen naiz / gosaltzen dut / ...*
 3. **Como vas ao traballo ou estudo:** *... oinez / autoz / autobusez joaten naiz.*
 4. **Que fas pola tarde:** *Arratsaldean ...*
 5. **A que hora ceas e te deitas:** *Gaueko ___etan afaltzen dut eta ___etan oheratzen naiz.*

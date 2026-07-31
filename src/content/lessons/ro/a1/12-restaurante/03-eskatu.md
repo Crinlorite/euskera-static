@@ -7,48 +7,72 @@ level: a1
 order: 3
 title: A comanda mâncarea (eskatu)
 estimatedMinutes: 10
-covers: [ordering-food, food-bar]
+covers:
+- ordering-food
+- food-bar
 exercises:
-  - id: ex-esk-mc1
-    type: multiple-choice
-    prompt: '„Ca fel întâi, voi lua salată” se spune…'
-    options: ['Hasteko, entsalada hartuko dut', 'Lehen entsalada da', 'Entsalada bat hartzen', 'Hasteko, entsaladarik']
-    answer: 0
-    explanation: '*Hasteko* (pentru a începe) + *entsalada hartuko dut* (voi lua salată). Structură tipică.'
-  - id: ex-esk-mc2
-    type: multiple-choice
-    prompt: '„Pentru mine, peștele” se spune…'
-    options: ['Niretzat, arraina', 'Nire arraina', 'Niri arraina', 'Ni arraina dut']
-    answer: 0
-    explanation: '*Niretzat* — „pentru mine” (destinatarul). Este formula naturală când comanzi la o masă comună.'
-  - id: ex-esk-fb1
-    type: fill-in-blank
-    prompt: 'Pentru a întreba „și pentru tine?” însoțitorul tău = Eta ___?'
-    answers: [zuretzat]
-    explanation: '*Zuretzat* — „pentru tine” (politicos/dumneavoastră-tu).'
-  - id: ex-esk-fb2
-    type: fill-in-blank
-    prompt: '„Ca fel doi, carne” = Bigarrenerako, ___'
-    answers: [haragia]
-    explanation: '*Bigarrenerako* — „ca fel doi (pentru al doilea fel)”. *Haragia* — carnea.'
-  - id: ex-esk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer nahi duzu?', es: Ce vrei? }
-      - { eu: 'Zer hartuko duzu?', es: Ce vei lua? }
-      - { eu: 'Hartuko dut...', es: 'Voi lua...' }
-      - { eu: 'Niretzat...', es: 'Pentru mine...' }
-      - { eu: 'Eta zuretzat?', es: Și pentru tine? }
-      - { eu: 'Hasteko...', es: 'Pentru a începe...' }
-      - { eu: 'Bigarrenerako...', es: 'Ca fel doi...' }
-      - { eu: 'Postrerako...', es: 'Ca desert...' }
-      - { eu: 'Edateko, ardo gorria', es: 'De băut, vin roșu' }
-      - { eu: 'Nahiago dut...', es: 'Prefer...' }
-      - { eu: 'Ez dut nahi', es: 'Nu vreau' }
-      - { eu: 'Ez zait gustatzen', es: 'Nu îmi place' }
+- id: ex-esk-mc1
+  type: multiple-choice
+  prompt: „Ca fel întâi, voi lua salată” se spune…
+  options:
+  - Hasteko, entsalada hartuko dut
+  - Lehen entsalada da
+  - Entsalada bat hartzen
+  - Hasteko, entsaladarik
+  answer: 0
+  explanation: '*Hasteko* (pentru a începe) + *entsalada hartuko dut* (voi lua salată). Structură tipică.'
+- id: ex-esk-mc2
+  type: multiple-choice
+  prompt: „Pentru mine, peștele” se spune…
+  options:
+  - Niretzat, arraina
+  - Nire arraina
+  - Niri arraina
+  - Ni arraina dut
+  answer: 0
+  explanation: '*Niretzat* — „pentru mine” (destinatarul). Este formula naturală atunci când comanzi la masă împreună cu alte persoane.'
+- id: ex-esk-fb1
+  type: fill-in-blank
+  prompt: Pentru a întreba „și pentru tine?” persoanei care te însoțește = Eta ___?
+  answers:
+  - zuretzat
+  explanation: '*Zuretzat* — „pentru tine” (forma standard, de politețe).'
+- id: ex-esk-fb2
+  type: fill-in-blank
+  prompt: „Ca felul doi, carne” = Bigarrenerako, ___
+  answers:
+  - haragia
+  explanation: '*Bigarrenerako* — „ca felul doi (pentru felul doi)”. *Haragia* — carnea.'
+- id: ex-esk-fc
+  type: flashcards
+  cards:
+  - eu: Zer nahi duzu?
+    es: Ce vrei?
+  - eu: Zer hartuko duzu?
+    es: Ce vei lua?
+  - eu: Hartuko dut...
+    es: Voi lua...
+  - eu: Niretzat...
+    es: Pentru mine...
+  - eu: Eta zuretzat?
+    es: Și pentru tine?
+  - eu: Hasteko...
+    es: Pentru a începe...
+  - eu: Bigarrenerako...
+    es: Ca felul doi...
+  - eu: Postrerako...
+    es: Ca desert...
+  - eu: Edateko, ardo gorria
+    es: De băut, vin roșu
+  - eu: Nahiago dut...
+    es: Prefer...
+  - eu: Ez dut nahi
+    es: Nu vreau
+  - eu: Ez zait gustatzen
+    es: Nu îmi place
 ---
 
-Această lecție reunește formulele pentru a comanda la masă: a structura lehen/bigarren/postrea, a spune „pentru mine” și a-ți arăta preferințele.
+Această lecție reunește formulele pentru a comanda la masă: cum să structurezi felurile (*lehen/bigarren/postrea*), cum să spui „pentru mine” și cum să îți exprimi preferințele.
 
 ## Întrebarea chelnerului
 
@@ -60,12 +84,12 @@ Chelnerul va începe cu una dintre acestea:
 
 ## A structura comanda
 
-Pentru a organiza ceea ce comanzi, există trei marcatori foarte utili:
+Pentru a-ți organiza comanda, există trei expresii foarte utile:
 
 | Euskera | Română |
 |---|---|
 | *Hasteko...* | Pentru a începe... |
-| *Bigarrenerako...* | Ca fel doi... |
+| *Bigarrenerako...* | Ca felul doi... |
 | *Postrerako...* | Ca desert... |
 | *Edateko...* | De băut... |
 
@@ -73,7 +97,7 @@ Exemplu complet:
 
 > *Hasteko, entsalada nahi dut. Bigarrenerako, legatza. Postrerako, izozkia. Eta edateko, ardo zuria.*
 >
-> Pentru a începe, salată. Ca fel doi, merluciu. Ca desert, înghețată. Și de băut, vin alb.
+> Pentru a începe, salată. Ca felul doi, merluciu. Ca desert, înghețată. Și de băut, vin alb.
 
 ## Trei moduri de a comanda
 
@@ -88,7 +112,7 @@ Exemplu complet:
 ## Preferințe
 
 - **Nahiago dut...** — Prefer...
-   - *Nahiago dut arraina haragia baino.* — Prefer peștele în locul cărnii.
+   - *Nahiago dut arraina haragia baino.* — Prefer peștele decât carnea.
 - **Ez dut ... nahi.** — Nu vreau...
 - **Ez zait gustatzen.** — Nu îmi place.
 - **... gustatzen zait.** — Îmi place...

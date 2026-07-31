@@ -7,56 +7,83 @@ level: a1
 order: 4
 title: Quantitats i mesures (neurriak)
 estimatedMinutes: 10
-covers: [quantities-units, numbers-1-100]
+covers:
+- quantities-units
+- numbers-1-100
 exercises:
-  - id: ex-neur-mc1
-    type: multiple-choice
-    prompt: '"Un quilo de pomes" en euskera és…'
-    options: [Sagar bat, Kilo bat sagar, Bat sagar kilo, Kiloa bat sagar]
-    answer: 1
-    explanation: 'En euskera la quantitat va **abans** i el producte va sense article: *kilo bat sagar*.'
-  - id: ex-neur-mc2
-    type: multiple-choice
-    prompt: '"Una dotzena d''ous" es diu…'
-    options: [Arrautza dozena, Arrautza bat dozena, Dozena bat arrautza, Dozena arrautzak]
-    answer: 2
-    explanation: '"*Dozena bat*" segueix el mateix patró que *kilo bat*: quantitat + producte sense article.'
-  - id: ex-neur-fb1
-    type: fill-in-blank
-    prompt: '"Mig quilo de tomàquet" = ___ erdi tomate.'
-    answers: [kilo, Kilo]
-    explanation: '*Kilo erdi* — "mig quilo". *Erdi* va darrere de la unitat.'
-  - id: ex-neur-fb2
-    type: fill-in-blank
-    prompt: '"Més" en euskera (per demanar una mica més a la botiga) = ___.'
-    answers: [gehiago, Gehiago]
-    explanation: '*Gehiago* (més) i *gutxiago* (menys) són els dos comparatius bàsics per regular quantitats.'
-  - id: ex-neur-fc
-    type: flashcards
-    cards:
-      - { eu: kilo bat, es: un quilo }
-      - { eu: kilo erdi, es: mig quilo }
-      - { eu: bi kilo, es: dos quilos }
-      - { eu: 200 g (berrehun gramo), es: 200 grams }
-      - { eu: litro bat, es: un litre }
-      - { eu: litro erdi, es: mig litre }
-      - { eu: dozena bat, es: una dotzena }
-      - { eu: pakete bat, es: un paquet }
-      - { eu: botila bat, es: una ampolla }
-      - { eu: lata bat, es: una llauna }
-      - { eu: gehiago, es: més }
-      - { eu: gutxiago, es: menys }
-      - { eu: pixka bat, es: una mica }
-      - { eu: nahikoa, es: suficient }
+- id: ex-neur-mc1
+  type: multiple-choice
+  prompt: '"Un quilo de pomes" en basc és…'
+  options:
+  - Sagar bat
+  - Kilo bat sagar
+  - Bat sagar kilo
+  - Kiloa bat sagar
+  answer: 1
+  explanation: 'En basc la quantitat va **abans** i el producte va sense article: *kilo bat sagar*.'
+- id: ex-neur-mc2
+  type: multiple-choice
+  prompt: '"Una dotzena d''ous" es diu…'
+  options:
+  - Arrautza dozena
+  - Arrautza bat dozena
+  - Dozena bat arrautza
+  - Dozena arrautzak
+  answer: 2
+  explanation: '"*Dozena bat*" segueix el mateix patró que *kilo bat*: quantitat + producte sense article.'
+- id: ex-neur-fb1
+  type: fill-in-blank
+  prompt: '"Mig quilo de tomàquet" = kilo ___ tomate.'
+  answers:
+  - erdi
+  explanation: '*Kilo erdi* — "mig quilo". *Erdi* (mig) va **DARRERE** de la unitat, a l''inrevés que en català.'
+- id: ex-neur-fb2
+  type: fill-in-blank
+  prompt: '"Més" en basc (per demanar-ne una mica més a la botiga) = ___.'
+  answers:
+  - gehiago
+  - Gehiago
+  explanation: '*Gehiago* (més) i *gutxiago* (menys) són els dos comparatius bàsics per regular quantitats.'
+- id: ex-neur-fc
+  type: flashcards
+  cards:
+  - eu: kilo bat
+    es: un quilo
+  - eu: kilo erdi
+    es: mig quilo
+  - eu: bi kilo
+    es: dos quilos
+  - eu: 200 g (berrehun gramo)
+    es: 200 grams
+  - eu: litro bat
+    es: un litre
+  - eu: litro erdi
+    es: mig litre
+  - eu: dozena bat
+    es: una dotzena
+  - eu: pakete bat
+    es: un paquet
+  - eu: botila bat
+    es: una ampolla
+  - eu: lata bat
+    es: una llauna
+  - eu: gehiago
+    es: més
+  - eu: gutxiago
+    es: menys
+  - eu: pixka bat
+    es: una mica
+  - eu: nahikoa
+    es: suficient
 ---
 
-Saber demanar quantitats concretes és la diferència entre "una poma" i "un quilo de pomes". El patró en euskera és molt regular i sempre el mateix.
+Saber demanar quantitats concretes és la diferència entre "una poma" i "un quilo de pomes". El patró en basc és molt regular i sempre el mateix.
 
 ## El patró bàsic
 
 > **QUANTITAT + PRODUCTE (sense article)**
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *kilo bat sagar* | un quilo de pomes |
 | *bi kilo tomate* | dos quilos de tomàquet |
@@ -80,7 +107,7 @@ Saber demanar quantitats concretes és la diferència entre "una poma" i "un qui
 
 ## Quantitats aproximades
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *gehiago* | més |
 | *gutxiago* | menys |
@@ -97,7 +124,7 @@ Exemples típics a la fruiteria:
 
 ## Frases tipus
 
-- *Eman kilo bat sagar eta dozena bat arrautza, mesedez.* — Dóna'm un quilo de pomes i una dotzena d'ous, si us plau.
+- *Eman kilo bat sagar eta dozena bat arrautza, mesedez.* — Dona'm un quilo de pomes i una dotzena d'ous, si us plau.
 - *Litro bat esne hartuko dut.* — M'enduré un litre de llet.
 - *Bi botila ur, mesedez.* — Dues ampolles d'aigua, si us plau.
 

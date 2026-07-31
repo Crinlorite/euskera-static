@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — banco, trámites, teléfono
+order: 8
+description: 'A vida práctica: banco e correos, concello, chamadas, tecnoloxía e devolucións na tenda.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

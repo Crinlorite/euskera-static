@@ -5,88 +5,113 @@ code: 03-erostera
 unit: 11-comprar
 level: a1
 order: 3
-title: 買い物をする (erostera)
+title: 買い物 (erostera)
 estimatedMinutes: 10
-covers: [shopping-dialogue, courtesy, common-verbs]
+covers:
+- shopping-dialogue
+- courtesy
+- common-verbs
 exercises:
-  - id: ex-erostera-mc1
-    type: multiple-choice
-    prompt: 店で何かを丁寧にお願いするとき、何と言いますか？
-    options: ["Eskerrik asko!", "Jarriko al didazu kilo bat sagar, mesedez?", "Agur!", "Nor zara?"]
-    answer: 1
-    explanation: "\"Jarriko al didazu… mesedez?\" =「…をいただけますか、お願いします」。丁寧でよく使われる表現です。"
-  - id: ex-erostera-mc2
-    type: multiple-choice
-    prompt: "\"Hartuko dut\" の意味は…"
-    options: [それをもらいます（買います）, それは欲しくありません, ありますか？, 高いです]
-    answer: 0
-    explanation: "*Hartuko dut* — *hartu*（取る/もらう）の未来形。購入を確定するときに使います。"
-  - id: ex-erostera-fb1
-    type: fill-in-blank
-    prompt: "何かをお願いするとき：「最後の人ですか、お願いします？」→ ___, mesedez?"
-    answers: [Azkena, azkena]
-    explanation: "*Azkena, mesedez?* は、列で誰が最後かを尋ねるときの万能の決まり文句です。"
-  - id: ex-erostera-fb2
-    type: fill-in-blank
-    prompt: "店員：「ほかに何か？」をエウスケラで言うと =「___?」"
-    answers: [Besterik, besterik]
-    explanation: "*Besterik?* または *Besterik nahi duzu?* —「ほかに何か？」/「ほかに何か欲しいですか？」"
-  - id: ex-erostera-fc
-    type: flashcards
-    cards:
-      - { eu: 'Azkena, mesedez?', es: '最後の人ですか、お願いします？（列で）' }
-      - { eu: 'Zer nahi duzu?', es: 何が欲しいですか？ }
-      - { eu: 'Jarriko al didazu...?', es: ...をいただけますか？ }
-      - { eu: 'Hartuko dut', es: それをもらいます / それを買います }
-      - { eu: 'Eman X mesedez', es: Xをください、お願いします }
-      - { eu: 'Besterik?', es: ほかに何か？ }
-      - { eu: 'Ez, besterik ez', es: 'いいえ、ほかには何も' }
-      - { eu: 'Tori!', es: はい、どうぞ！ }
-      - { eu: 'Eskerrik asko!', es: どうもありがとう！ }
-      - { eu: 'Zuri!', es: こちらこそ！（お礼への返事） }
+- id: ex-erostera-mc1
+  type: multiple-choice
+  prompt: お店で丁寧に何かを頼むとき、何と言いますか？
+  options:
+  - Eskerrik asko!
+  - Jarriko al didazu kilo bat sagar, mesedez?
+  - Agur!
+  - Nor zara?
+  answer: 1
+  explanation: '"Jarriko al didazu… mesedez?" = 「〜をいただけますか？」。丁寧でよく使われる言い方です。'
+- id: ex-erostera-mc2
+  type: multiple-choice
+  prompt: '"Hartuko dut" の意味は…'
+  options:
+  - それをいただきます（それを買います）
+  - それは要りません
+  - それはありますか？
+  - それは高いです
+  answer: 0
+  explanation: '*Hartuko dut* — *hartu*（取る）の未来形。買うものを決めるときに使います。'
+- id: ex-erostera-fb1
+  type: fill-in-blank
+  prompt: 順番を尋ねるには：「最後の方はどなたですか？」 → ___, mesedez?
+  answers:
+  - Azkena
+  - azkena
+  explanation: '*Azkena, mesedez?* は、列の最後が誰か尋ねるための一般的な言い方です。'
+- id: ex-erostera-fb2
+  type: fill-in-blank
+  prompt: 店員：「他に何かありますか？」をバスク語で言うと = "___?"
+  answers:
+  - Besterik
+  - besterik
+  explanation: '*Besterik?* または *Besterik nahi duzu?* — 「他に何か？」/「他に何か欲しいですか？」'
+- id: ex-erostera-fc
+  type: flashcards
+  cards:
+  - eu: Azkena, mesedez?
+    es: 最後の方はどなたですか？（列で）
+  - eu: Zer nahi duzu?
+    es: 何になさいますか？
+  - eu: Jarriko al didazu...?
+    es: 〜をいただけますか？
+  - eu: Hartuko dut
+    es: それをいただきます / これにします
+  - eu: Eman X mesedez
+    es: Xをください
+  - eu: Besterik?
+    es: 他に何かありますか？
+  - eu: Ez, besterik ez
+    es: いいえ、それで全部です
+  - eu: Tori!
+    es: はい、どうぞ！
+  - eu: Eskerrik asko!
+    es: どうもありがとうございます！
+  - eu: Zuri!
+    es: こちらこそ！（ありがとうへの返事）
 ---
 
-このレッスンでは、店で何度も繰り返し使うフレーズを学びます。4つか5つの決まり文句があれば、ほとんどどんな場面でも切り抜けられます。
+このレッスンでは、お店で何度も繰り返されるフレーズを学びます。4つか5つの決まり文句で、ほとんどの状況に対応できます。
 
-## 順番の作法
+## 順番のならわし
 
-小さな店では順番があります。入ったときの基本の決まり文句は次のとおりです。
+小さな店では順番があります。入店したときの基本的な言い方はこちらです：
 
-- **Azkena, mesedez?** — 最後の人ですか、お願いします？
+- **Azkena, mesedez?** — 最後の方はどなたですか？
 
-自分の番が来ると、こう言われます。
+自分の番が来たら、こう言われるでしょう：
 
-- **Zer nahi duzu?** — 何が欲しいですか？
-- **Esan!** — どうぞ言ってください！
+- **Zer nahi duzu?** — 何になさいますか？
+- **Esan!** — どうぞ！
 
-## 欲しいものをお願いする
+## 欲しいものを頼む
 
-よく使う3つの言い方を、くだけた言い方から丁寧な言い方の順に紹介します。
+よく使われる3つの言い方です。より口語的なものから丁寧なものへ：
 
-| エウスケラ | 日本語 | トーン |
+| バスク語 | 日本語 | トーン |
 |---|---|---|
-| **Eman kilo bat sagar, mesedez.** | りんごを1キロください、お願いします。 | 直接的、中立的 |
-| **Jarriko al didazu kilo bat sagar?** | りんごを1キロいただけますか？ | 丁寧（未来形＋丁寧さ） |
-| **Hartuko dut kilo bat sagar.** | りんごを1キロもらいます。 | 選択を確定する |
+| **Eman kilo bat sagar, mesedez.** | りんごを1キロください。 | 直接的、ニュートラル |
+| **Jarriko al didazu kilo bat sagar?** | りんごを1キロいただけますか？ | 丁寧（未来形＋丁寧表現） |
+| **Hartuko dut kilo bat sagar.** | りんごを1キロいただきます。 | 買うものを決めるとき |
 
-> *-Ko / -go* は未来形の標識です：*jarri → jarriko*、*hartu → hartuko*。お願いを和らげるために非常によく使われます。
+> *-Ko / -go* は未来を表す目印です：*jarri → jarriko*、*hartu → hartuko*。依頼を和らげるためによく使われます。
 
-## 店員の質問
+## 店員からの質問
 
-- **Nolakoa nahi duzu?** — どのようなものが欲しいですか？（どんな品質／種類か）
-- **Zenbat nahi duzu?** — どのくらい欲しいですか？
-- **Besterik?** / **Besterik nahi duzu?** — ほかに何か？
-- **Pentsatu duzu?** — 考えましたか？
+- **Nolakoa nahi duzu?** — どのようなものがよろしいですか？（品質や種類など）
+- **Zenbat nahi duzu?** — どれくらいご入用ですか？
+- **Besterik?** / **Besterik nahi duzu?** — 他に何かありますか？
+- **Pentsatu duzu?** — お決まりですか？
 
 そして最後に：
 
-- **Ez, besterik ez. Eskerrik asko.** — いいえ、ほかには何も。どうもありがとう。
+- **Ez, besterik ez. Eskerrik asko.** — いいえ、それで全部です。ありがとうございます。
 
-## 買い物を締めくくる
+## 会計
 
-- **Zenbat da dena?** — 全部でいくらですか？
+- **Zenbat da dena?** — 全部でおいくらですか？
 - **Tori!** — はい、どうぞ！（お金を渡すとき）
 - **Eskerrik asko! Agur!** — ありがとう！さようなら！
-- **Zuri! Agur!** — こちらこそ！さようなら！（店員の返事）
+- **Zuri! Agur!** — どういたしまして！さようなら！（店員の返事）
 
-> **文化メモ：** *Tori* は、お金、袋、鍵など、何かを手から手へ渡すときに非常によく使われる短い言葉です。早めに覚えておくととても役に立ちます。
+> **文化メモ：** *Tori* は、お金や袋、鍵など、何かを手渡すときに非常によく使われる短い言葉です。早く覚えるととても便利です。

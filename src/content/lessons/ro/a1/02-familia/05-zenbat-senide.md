@@ -7,39 +7,61 @@ level: a1
 order: 5
 title: Câți frați ai? (Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: 'Am doi frați = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" = "eu am (mai mulți/mai multe)" — formă a verbului "ukan" (a avea) NOR-NORK.'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: 'Cum se spune "trei" în euskera?'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: unu }
-      - { eu: bi, es: doi }
-      - { eu: hiru, es: trei }
-      - { eu: lau, es: patru }
-      - { eu: bost, es: cinci }
-      - { eu: hamar, es: zece }
-      - { eu: 'Zenbat senide zarete?', es: Câți frați sunteți? }
-      - { eu: senide, es: frate/soră (generic) }
-      - { eu: dut, es: am (1 lucru) }
-      - { eu: ditut, es: am (mai multe lucruri) }
-      - { eu: ez dut anaiarik, es: nu am frați (negație cu -rik) }
-      - { eu: 'Zenbat urte dituzu?', es: 'Câți ani ai?' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: Am doi frați = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: „Ditut” = „eu am (mai mulți/multe)” — formă a verbului „ukan” (a avea) NOR-NORK.
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: Cum se spune „trei” în euskera?
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: unu
+  - eu: bi
+    es: doi
+  - eu: hiru
+    es: trei
+  - eu: lau
+    es: patru
+  - eu: bost
+    es: cinci
+  - eu: hamar
+    es: zece
+  - eu: Zenbat senide zarete?
+    es: Câți frați sunteți?
+  - eu: senide
+    es: frate/soră (generic)
+  - eu: dut
+    es: am (1 lucru)
+  - eu: ditut
+    es: am (mai multe lucruri)
+  - eu: ez dut anaiarik
+    es: nu am frați (negație cu -rik)
+  - eu: Zenbat urte dituzu?
+    es: Câți ani ai?
 ---
 
 Pentru a vorbi despre câți membri are o familie, folosim:
 
-- **Zenbat senide zarete?** → "Câți frați sunteți?" (se întreabă la plural: totalul fraților, inclusiv tu)
-- **Familia handi/txiki bat dut.** → "Am o familie mare/mică."
+- **Zenbat senide zarete?** → „Câți frați sunteți?” (se întreabă la plural: totalul fraților, inclusiv tu)
+- **Familia handi/txiki bat dut.** → „Am o familie mare/mică.”
 
 ## Numerele de la 1 la 10
 
@@ -56,18 +78,18 @@ Pentru a vorbi despre câți membri are o familie, folosim:
 | 9 | *bederatzi* |
 | 10 | *hamar* |
 
-## A spune câți ai
+## Cum să spui câți ai
 
-Aici apare o primă formă a verbului **ukan** (a avea), pe care îl vom vedea în detaliu în lecțiile următoare:
+Aici apare o primă formă a verbului **ukan** (a avea), pe care o vom vedea în detaliu în lecțiile următoare:
 
 - **Anaia bat dut.** — Am un frate.
 - **Bi anaia ditut.** — Am doi frați.
 - **Hiru seme ditut.** — Am trei copii.
-- **Ez dut anaiarik.** — Nu am frați. (forma negativă)
+- **Ez dut anaiarik.** — Nu am frați. (formă negativă)
 
-> **dut** se folosește când ceea ce ai este **un singur lucru** sau un substantiv la singular. **ditut** se folosește când sunt **mai multe lucruri**. Este ca diferența dintre "am o carte" (singular) și "am cărți" (plural).
+> **dut** se folosește când ceea ce ai este **un singur lucru** sau un substantiv la singular. **ditut** se folosește când sunt **mai multe lucruri**. Este ca diferența dintre „am o carte” (singular) și „am cărți” (plural).
 
-## Fraze tipice la prezentări
+## Fraze tipice în prezentări
 
 - *Familia handi bat dut: bi anaia eta arreba bat.* — Am o familie mare: doi frați și o soră.
 - *Senide bakarra naiz.* — Sunt singur la părinți.

@@ -5,91 +5,126 @@ code: 05-erosketak
 unit: 11-comprar
 level: a1
 order: 5
-title: Doing the shopping (integration lesson)
+title: Grocery Shopping (review lesson)
 estimatedMinutes: 12
-covers: [shopping-dialogue, shops, prices, quantities-units, partitive-rik]
+covers:
+- shopping-dialogue
+- shops
+- prices
+- quantities-units
+- partitive-rik
 exercises:
-  - id: ex-eros-mc1
-    type: multiple-choice
-    prompt: 'You are at the greengrocer''s. How do you ask for half a kilo of apples?'
-    options: ['Sagar erdi kilo bat, mesedez', 'Kilo erdi sagar, mesedez', 'Erdia bat kilo sagar', 'Sagarra erdi mesedez']
-    answer: 1
-    explanation: 'Pattern quantity + product without article: **kilo erdi sagar** (half a kilo of apples).'
-  - id: ex-eros-mc2
-    type: multiple-choice
-    prompt: '"There is no bread" is said…'
-    options: [Ez dago ogia, Ez dago ogirik, Ogia ez du, Ez ogia da]
-    answer: 1
-    explanation: 'With negation + an indefinite object the partitive *-rik* is used: **ogi-rik**.'
-  - id: ex-eros-fb1
-    type: fill-in-blank
-    prompt: '"How much is everything?" = Zenbat da ___?'
-    answers: [dena]
-    explanation: '*Dena* means "everything".'
-  - id: ex-eros-fb2
-    type: fill-in-blank
-    prompt: 'To ask whether they have a product: "Do you have milk?" = Esne___ ba(d)aukazue?'
-    answers: [rik]
-    explanation: 'An existence question with an indefinite object = partitive **-rik** (esne**rik**).'
-  - id: ex-eros-fc
-    type: flashcards
-    cards:
-      - { eu: erosketa-zerrenda, es: shopping list }
-      - { eu: 'Zer behar dugu?', es: 'What do we need?' }
-      - { eu: 'Ez dago ogirik', es: There is no bread }
-      - { eu: 'Esnerik ba(d)aukazue?', es: 'Do you have milk?' }
-      - { eu: 'Bai, badago', es: 'Yes, there is' }
-      - { eu: 'Ez, ez dago', es: 'No, there isn''t' }
-      - { eu: 'Erosketak egitera noa', es: I'm going to do the shopping }
-      - { eu: barazkiak, es: vegetables }
-      - { eu: frutak, es: fruit }
-      - { eu: haragia, es: meat }
-      - { eu: arraina, es: fish }
-      - { eu: esnea, es: milk }
-      - { eu: ogia, es: bread }
-      - { eu: arrautzak, es: eggs }
-  - id: ex-eros-mp
-    type: match-pairs
-    pairs:
-      - { eu: harategia, es: butcher's }
-      - { eu: okindegia, es: bakery }
-      - { eu: arrandegia, es: fishmonger's }
-      - { eu: 'Zenbat da?', es: How much is it? }
-      - { eu: 'Hartuko dut', es: I'll take it }
-      - { eu: 'Besterik?', es: Anything else? }
+- id: ex-eros-mc1
+  type: multiple-choice
+  prompt: You're at the fruit shop. How do you ask for half a kilo of apples?
+  options:
+  - Sagar erdi kilo bat, mesedez
+  - Kilo erdi sagar, mesedez
+  - Erdia bat kilo sagar
+  - Sagarra erdi mesedez
+  answer: 1
+  explanation: 'Pattern: quantity + product without the article: **kilo erdi sagar** (half a kilo of apples).'
+- id: ex-eros-mc2
+  type: multiple-choice
+  prompt: '"There is no bread" is said…'
+  options:
+  - Ez dago ogia
+  - Ez dago ogirik
+  - Ogia ez du
+  - Ez ogia da
+  answer: 1
+  explanation: 'With negation + indefinite object, the partitive *-rik* is used: **ogi-rik**.'
+- id: ex-eros-fb1
+  type: fill-in-blank
+  prompt: '"How much is everything?" = Zenbat da ___?'
+  answers:
+  - dena
+  explanation: '*Dena* means "everything".'
+- id: ex-eros-fb2
+  type: fill-in-blank
+  prompt: 'To ask if they have a product: "Do you have milk?" = Esne___ ba(d)aukazue?'
+  answers:
+  - rik
+  explanation: Question of existence with an indefinite object = partitive **-rik** (esne**rik**).
+- id: ex-eros-fc
+  type: flashcards
+  cards:
+  - eu: erosketa-zerrenda
+    es: shopping list
+  - eu: Zer behar dugu?
+    es: What do we need?
+  - eu: Ez dago ogirik
+    es: There is no bread
+  - eu: Esnerik ba(d)aukazue?
+    es: Do you have milk?
+  - eu: Bai, badago
+    es: Yes, there is
+  - eu: Ez, ez dago
+    es: No, there isn't
+  - eu: Erosketak egitera noa
+    es: I'm going grocery shopping
+  - eu: barazkiak
+    es: vegetables
+  - eu: frutak
+    es: fruits
+  - eu: haragia
+    es: meat
+  - eu: arraina
+    es: fish
+  - eu: esnea
+    es: milk
+  - eu: ogia
+    es: bread
+  - eu: arrautzak
+    es: eggs
+- id: ex-eros-mp
+  type: match-pairs
+  pairs:
+  - eu: harategia
+    es: butcher shop
+  - eu: okindegia
+    es: bakery
+  - eu: arrandegia
+    es: fishmonger's
+  - eu: Zenbat da?
+    es: How much is it?
+  - eu: Hartuko dut
+    es: I'll take it
+  - eu: Besterik?
+    es: Anything else?
 ---
 
-This lesson brings together what you have learned in the unit. We are going to put together a **shopping list**, sort the products by shop, and act out a mini-dialogue.
+This lesson integrates what you've learned in the unit. We're going to put together a **shopping list**, distribute products by store, and simulate a mini-dialogue.
 
 ## The shopping list (erosketa-zerrenda)
 
-Before going out, we check the fridge (*hozkailua*) and the cupboard (*armairua*). Whatever is missing, we write down. Some typical products:
+Before going out, we look in the fridge (*hozkailua*) and the cupboard (*armairua*). We write down what's missing. Some typical products:
 
 | Category | Products |
 |---|---|
 | **Barazkiak** (vegetables) | tipula, letxuga, tomatea, piperra, baratxuria |
-| **Frutak** (fruit) | sagarra, banana, laranja, mahatsa, marrubia |
+| **Frutak** (fruits) | sagarra, banana, laranja, mahatsa, marrubia |
 | **Haragia** (meat) | oilaskoa, txuleta, urdaiazpikoa, txorizoa |
 | **Arraina** (fish) | legatza, antxoak, ganbak, bakailaoa |
-| **Esnekiak** (dairy) | esnea, gazta, jogurta, gurina |
+| **Esnekiak** (dairy products) | esnea, gazta, jogurta, gurina |
 | **Bestelakoak** (others) | ogia, arrautzak, olioa, ozpina, gatza |
 
-## Asking whether there is something (with `-rik`)
+## Asking if there is something (with `-rik`)
 
-To ask whether a shop has a product, use the **partitive `-rik`**:
+To ask if a store has a product, use the **partitive `-rik`**:
 
 - *Ogi**rik** baduzu?* — Do you have bread?
 - *Sagar**rik** ba al duzue?* — Do you have apples?
 - *Esne**rik** behar dugu.* — We need milk.
 
-And to say that there is NONE:
+And to say there ISN'T any:
 
 - *Ez dago ogi**rik**.* — There is no bread.
 - *Ez daukat sagar**rik**.* — I don't have any apples.
 
-> The partitive `-rik` is always used with indefinite quantities and in negation. The product form goes without an article (*ogi**rik***, not *ogiarik*).
+> The partitive `-rik` is always used with indefinite quantities and in negation. The product form goes without the article (*ogi**rik***, not *ogiarik*).
 
-## Splitting the shopping between shops
+## Splitting the shopping among stores
 
 A typical conversation when planning:
 
@@ -99,13 +134,13 @@ A typical conversation when planning:
 >
 > — *Eta arraina?* — And the fish?
 >
-> — *Auzoko arrandegian.* — At the neighbourhood fishmonger's.
+> — *Auzoko arrandegian.* — At the neighborhood fishmonger's.
 >
 > — *Frutak eta barazkiak?* — And the fruit and vegetables?
 >
-> — *Plazan, beti bezala.* — At the market, as always.
+> — *Plazan, beti bezala.* — At the market square, as always.
 
-## Mini-dialogue at the greengrocer's
+## Mini-dialogue at the fruit shop
 
 > **Frutaria:** *Egun on! Zer nahi duzu?*
 >
@@ -132,4 +167,4 @@ A typical conversation when planning:
 3. **Closing the purchase:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Negation with a product:** *Ez dago ...rik* (with the partitive).
 
-> **Cultural note:** many families do their "daily" shopping at the neighbourhood shops (fruta-denda, harategia) and only go to the supermarket for packaged goods. It is a very common mix of channels that is especially noticeable on Saturday mornings in any town.
+> **Cultural note:** many families do their "daily" shopping at neighborhood stores (fruta-denda, harategia) and only go to the supermarket for packaged goods. This is a very common mix of channels, especially noticeable on Saturday mornings in any town.

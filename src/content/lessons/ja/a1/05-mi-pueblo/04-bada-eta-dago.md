@@ -5,113 +5,146 @@ code: 04-bada-eta-dago
 unit: 05-mi-pueblo
 level: a1
 order: 4
-title: 「…ある？」 — bada/badago による存在
+title: 〜はありますか？ — bada/badagoを使った存在の表現
 estimatedMinutes: 12
-covers: [existence-bada, egon-nor, partitive-rik, places-town]
+covers:
+- existence-bada
+- egon-nor
+- partitive-rik
+- places-town
 exercises:
-  - id: ex-bd-mc1
-    type: multiple-choice
-    prompt: 「地区にバーはありますか？」はどう尋ねますか
-    options: ["Auzoan dago tabernarik?", "Auzoan badago tabernarik?", "Auzoan tabernan dago?", "Auzoan tabernara dago?"]
-    answer: 1
-    explanation: "「Bada(go)」は存在を表し、「tabernarik」は存在に関する疑問文や否定文で典型的な部分格「-rik」です。"
-  - id: ex-bd-mc2
-    type: multiple-choice
-    prompt: 「Ez dago supermerkaturik」の意味は…
-    options: [私はスーパーにいません, スーパーがそこにありません（不在）, スーパーはありません（存在しない）, 私はスーパーへ行きます]
-    answer: 2
-    explanation: "「Ez dago + X-rik」=「X はない」。部分格 -rik は否定における不定の名詞に使われます。"
-  - id: ex-bd-fb1
-    type: fill-in-blank
-    prompt: 'はい、あります = Bai, ___.'
-    answers: [badago]
-    explanation: "「Badago」=「bai dago」が融合したもの。「ba al dago…?」に対する典型的な肯定の答えです。"
-  - id: ex-bd-fb2
-    type: fill-in-blank
-    prompt: '否定: ここにはパン屋がありません = Hemen ez dago okindegi___.'
-    answers: [rik]
-  - id: ex-bd-mc3
-    type: multiple-choice
-    prompt: 「dago」と「badago」の重要な違いは
-    options: ["dago = ある（いる）; badago = ある？ または はい、ある", 違いはない, dago は現在で badago は過去, badago は複数だけ]
-    answer: 0
-    explanation: "「Dago」は中立的な形「ある（いる）」です。「Bada(go)」は存在する・ある、というニュアンスを加えます。典型的には疑問文（Ba al dago?）や肯定の答え（Bai, badago）で使われます。"
-  - id: ex-bd-fc
-    type: flashcards
-    cards:
-      - { eu: 'Ba al dago…?', es: …ある？ }
-      - { eu: 'Badago?', es: ある？（くだけた言い方） }
-      - { eu: 'Bai, badago', es: はい、あります }
-      - { eu: 'Ez, ez dago', es: いいえ、ありません }
-      - { eu: 'Ba al daude…?', es: …ある？（複数） }
-      - { eu: 'Bai, badaude', es: はい、あります（複数） }
-      - { eu: 'Ez dago tabernarik', es: バーはありません }
-      - { eu: 'Ez dago jatekorik', es: 食べるものは何もありません }
-      - { eu: 'Ez dago dirurik', es: お金がありません }
-      - { eu: 'Auzoan ez dago supermerkaturik', es: 地区にはスーパーがありません }
-  - id: ex-bd-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Ba al dago tabernarik?', es: バーは何かありますか？ }
-      - { eu: 'Bai, badago', es: はい、あります }
-      - { eu: 'Ez, ez dago', es: いいえ、ありません }
-      - { eu: tabernarik, es: 何かのバー / バー（部分格の形） }
-      - { eu: 'Non dago taberna?', es: バーはどこにありますか？ }
+- id: ex-bd-mc1
+  type: multiple-choice
+  prompt: 「近所にバルはありますか？」と尋ねるには？
+  options:
+  - Auzoan dago tabernarik?
+  - Auzoan badago tabernarik?
+  - Auzoan tabernan dago?
+  - Auzoan tabernara dago?
+  answer: 1
+  explanation: 「Bada(go)」は存在を表し、「tabernarik」は存在に関する疑問文や否定文で典型的に使われる分格の「-rik」です。
+- id: ex-bd-mc2
+  type: multiple-choice
+  prompt: 「Ez dago supermerkaturik」の意味は…
+  options:
+  - 私はスーパーにいません
+  - そのスーパーは（ここに）ありません
+  - スーパーはありません
+  - 私はスーパーに行きます
+  answer: 2
+  explanation: 「Ez dago + X-rik」=「Xはありません」。分格の -rik は、否定文で不特定の名詞と共に使われます。
+- id: ex-bd-fb1
+  type: fill-in-blank
+  prompt: はい、あります = Bai, ___.
+  answers:
+  - badago
+  explanation: 「Badago」=「bai dago」の融合形：「ba al dago…?」に対する典型的な肯定の返事です。
+- id: ex-bd-fb2
+  type: fill-in-blank
+  prompt: 否定：ここにパン屋はありません = Hemen ez dago okindegi___.
+  answers:
+  - rik
+- id: ex-bd-mc3
+  type: multiple-choice
+  prompt: 「dago」と「badago」の主な違い：
+  options:
+  - dago = あります; badago = ありますか？ または はい、あります
+  - 違いはありません
+  - dago は現在形、badago は過去形です
+  - badago は複数形のみです
+  answer: 0
+  explanation: 「Dago」は中立的な「あります」です。「Bada(go)」は存在・有無のニュアンスを加えます。典型的には疑問文（Ba al dago?）や肯定の返事（Bai, badago）で使われます。
+- id: ex-bd-fc
+  type: flashcards
+  cards:
+  - eu: Ba al dago…?
+    es: 〜はありますか？
+  - eu: Badago?
+    es: ある？（口語）
+  - eu: Bai, badago
+    es: はい、あります
+  - eu: Ez, ez dago
+    es: いいえ、ありません
+  - eu: Ba al daude…?
+    es: 〜はありますか？（複数）
+  - eu: Bai, badaude
+    es: はい、あります（複数）
+  - eu: Ez dago tabernarik
+    es: バルはありません
+  - eu: Ez dago jatekorik
+    es: 食べるものが何もありません
+  - eu: Ez dago dirurik
+    es: お金がありません
+  - eu: Auzoan ez dago supermerkaturik
+    es: 近所にスーパーはありません
+- id: ex-bd-mp
+  type: match-pairs
+  pairs:
+  - eu: Ba al dago tabernarik?
+    es: バルはありますか？
+  - eu: Bai, badago
+    es: はい、あります
+  - eu: Ez, ez dago
+    es: いいえ、ありません
+  - eu: tabernarik
+    es: バル（分格の形）
+  - eu: Non dago taberna?
+    es: そのバルはどこにありますか？
 ---
 
-日本語（訳注: ここでは castellano）では、二つの異なる考え方に対して一つの動詞「ある・いる」を使います。**存在する**（「地区に薬局はありますか？」）と**位置する**（「薬局はマヨール通りにあります」）です。バスク語はこの二つを非常にはっきり区別します。早めに身につけておくとよいことです。
+スペイン語では「haber/estar」という一つの動詞を、**存在**（「近所に薬局はありますか？」）と**所在**（「薬局はマヨール通りにあります」）という二つの異なる意味で使います。バスク語ではこの二つを明確に区別し、これは早めに定着させたいポイントです。
 
-## 存在する vs ある（位置する）
+## 存在 vs 所在
 
-| 考え方 | バスク語のパターン | 例 |
+| 概念 | バスク語のパターン | 例 |
 |---|---|---|
-| **存在する**（「ある」） | **bada(go)** + 部分格の名詞 | *Auzoan **badago** tabernarik?* — 地区にバーはありますか？ |
-| **ある**（位置する） | 特定の名詞 + 場所 + **dago** | *Taberna kalean **dago***. — バーは通りにあります。 |
+| **存在**（「ある」） | **bada(go)** + 名詞の分格 | *Auzoan **badago** tabernarik?* — 近所にバルはありますか？ |
+| **所在**（「〜にある」） | 具体的な名詞 + 場所 + **dago** | *Taberna kalean **dago***. — バルは通りにあります。 |
 
-何かが**存在する**かどうか（どこにあるかではなく、あるかどうか）を尋ねるときは、**bada(go)** のパターンを使います。
+何かが**存在するかどうか**（どこにあるかではなく、あるかどうか）を尋ねるときは、**bada(go)** を使ったパターンを使います。
 
-## 疑問文: Ba al dago…?
+## 質問：Ba al dago…?
 
-二つの形がどちらもよく使われます。
+どちらの形もよく使われます：
 
-- **Ba al dago + X-rik?** — 標準的な形（疑問の助詞 *al* を伴う）。
-- **Bada(go) + X-rik?** — 日常的な形、*al* なし。
+- **Ba al dago + X-rik?** — 標準形（疑問詞 *al* を使用）。
+- **Bada(go) + X-rik?** — 日常的な形（*al* なし）。
 
-例:
+例：
 
 - ***Ba al dago* botikarik herrian?** — 村に薬局はありますか？
-- ***Badago* supermerkaturik auzoan?** — 地区にスーパーはありますか？
+- ***Badago* supermerkaturik auzoan?** — 近所にスーパーはありますか？
 - ***Ba al dago* komun publikorik?** — 公衆トイレはありますか？
 
-## 肯定の答え
+## 肯定の返事
 
-**「はい、あります」**と答えるには、融合形 **bai, badago** で答えます。
+「**はい、あります**」と答えるには、融合形 **bai, badago** を使います：
 
-- **Bai, badago.** — はい、あります（一つ）。
+- **Bai, badago.** — はい、あります（単数）。
 - **Bai, badaude.** — はい、あります（複数）。
 
-そして次のように広げることもできます。
+さらに情報を加えることもできます：
 
 - **Bai, badago botika handi bat eskolaren ondoan.** — はい、学校の隣に大きな薬局があります。
 
-## 否定の答え: -rik
+## 否定の返事：-rik
 
-**「ありません」**と言うには、名詞に部分格 **`-rik`** を付けます。
+「**ありません**」と言うには、名詞に分格の **`-rik`** を使います：
 
-| Euskera | 日本語 |
+| バスク語 | 日本語 |
 |---|---|
-| *Ez dago **tabernarik**.* | バーはありません。 |
+| *Ez dago **tabernarik**.* | バルはありません。 |
 | *Ez dago **supermerkaturik**.* | スーパーはありません。 |
 | *Ez dago **kafetegirik**.* | カフェはありません。 |
 | *Ez dago **komun publikorik**.* | 公衆トイレはありません。 |
 
-> 接尾辞 **`-rik`**（子音の後では `-ik`）は「部分格」です。疑問文や否定文で不定の名詞を示します。他の動詞でも見かけます（*Ez dut anaiarik* — 「私には兄弟がいません」）。
+> 接尾辞 **`-rik`**（子音の後では `-ik`）は「分格」です。疑問文や否定文で不特定の名詞を示します。他の動詞でも使われます（例：*Ez dut anaiarik* — 「私には兄弟がいません」）。
 
-## 存在することがすでに分かっているとき — 場所を尋ねる
+## 存在がわかったら — 場所を尋ねる
 
-存在することが確認できたら、**どこにあるか**を尋ねるのが自然です。そこで前回のレッスンのパターンに切り替えます。
+存在することが確認できたら、次は**どこにあるか**を尋ねるのが自然です。その場合は、前の課のパターンに切り替えます：
 
-> — *Ba al dago kutxazain automatikorik herrian?* — 村に ATM はありますか？
+> — *Ba al dago kutxazain automatikorik herrian?* — 村にATMはありますか？
 >
 > — *Bai, badago.* — はい、あります。
 >
@@ -119,7 +152,7 @@ exercises:
 >
 > — *Banketxearen ondoan dago.* — 銀行の隣にあります。
 
-## 完全なミニ会話
+## ミニ会話（完全版）
 
 > — *Egun on, barkatu! Auzoan **ba al dago** liburutegirik?*
 >
@@ -133,4 +166,4 @@ exercises:
 >
 > — *Ez, hemen ez dago **kafetegirik**, baina taberna bat **badago**.*
 
-> **覚え方のコツ:** *存在する*には「**ba**」（=「ある」）+ dago/daude を思い浮かべましょう。*位置する（ある）*には普通の *dago*/*daude* だけを思い浮かべます。そして `-rik` は、何かを不定の形で言ったり尋ねたりするとき、ほとんどいつも現れます。
+> **記憶のヒント：** *存在*を表すには、「**ba**」（=「ある」）+ dago/daudeと考えましょう。*所在*を表すには、通常の *dago*/*daude* だけを考えます。そして `-rik` は、不特定の何かについて言ったり尋ねたりするときに、ほぼ必ず現れます。

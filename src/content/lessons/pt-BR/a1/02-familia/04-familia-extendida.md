@@ -7,40 +7,59 @@ level: a1
 order: 4
 title: Família estendida
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-fe-mp
-    type: match-pairs
-    pairs:
-      - { eu: osaba, es: tio }
-      - { eu: izeba, es: tia }
-      - { eu: lehengusu, es: primo }
-      - { eu: lehengusina, es: prima }
-      - { eu: iloba, es: sobrinho/a }
-  - id: ex-fe-mc1
-    type: multiple-choice
-    prompt: '"Lehengusu" é...'
-    options: [primo, irmão, avô, sogro]
-    answer: 0
-  - id: ex-fe-fc
-    type: flashcards
-    cards:
-      - { eu: osaba, es: tio }
-      - { eu: izeba, es: tia }
-      - { eu: lehengusu, es: primo }
-      - { eu: lehengusina, es: prima }
-      - { eu: iloba, es: 'sobrinho, sobrinha' }
-      - { eu: aitaginarreba, es: sogro }
-      - { eu: amaginarreba, es: sogra }
-      - { eu: koinatu, es: cunhado }
-      - { eu: koinata, es: cunhada }
+- id: ex-fe-mp
+  type: match-pairs
+  pairs:
+  - eu: osaba
+    es: tio
+  - eu: izeba
+    es: tia
+  - eu: lehengusu
+    es: primo
+  - eu: lehengusina
+    es: prima
+  - eu: iloba
+    es: sobrino/a
+- id: ex-fe-mc1
+  type: multiple-choice
+  prompt: '"Lehengusu" é...'
+  options:
+  - primo
+  - hermano
+  - abuelo
+  - suegro
+  answer: 0
+- id: ex-fe-fc
+  type: flashcards
+  cards:
+  - eu: osaba
+    es: tio
+  - eu: izeba
+    es: tia
+  - eu: lehengusu
+    es: primo
+  - eu: lehengusina
+    es: prima
+  - eu: iloba
+    es: sobrinho, sobrinha
+  - eu: aitaginarreba
+    es: sogro
+  - eu: amaginarreba
+    es: sogra
+  - eu: koinatu
+    es: cunhado
+  - eu: koinata
+    es: cunhada
 ---
 
-Além de pais, irmãos e filhos, a família se estende com tios, primos, sobrinhos e a família por afinidade. Aqui você tem o vocabulário mais usado.
+Além de pais, irmãos e filhos, a família se estende com tios, primos, sobrinhos e a família por afinidade. Aqui está o vocabulário mais usado.
 
 ## Tios e primos
 
-| Euskera | Português |
+| Basco | Português |
 |---|---|
 | *osaba* | tio |
 | *izeba* | tia |
@@ -50,7 +69,7 @@ Além de pais, irmãos e filhos, a família se estende com tios, primos, sobrinh
 
 ## Família por afinidade
 
-| Euskera | Português |
+| Basco | Português |
 |---|---|
 | *aitaginarreba* | sogro |
 | *amaginarreba* | sogra |
@@ -65,4 +84,4 @@ Além de pais, irmãos e filhos, a família se estende com tios, primos, sobrinh
 - *Bere lehengusinak hamabi urte ditu.* — Sua prima tem doze anos.
 - *Zure koinata euskalduna da?* — Sua cunhada é basca?
 
-> As palavras para família por afinidade frequentemente se formam combinando palavras existentes (*aita-* + *ginarreba*). Não é preciso memorizar a lógica interna; com o uso elas se fixam.
+> As palavras para a família por afinidade são frequentemente formadas pela combinação de palavras existentes (*aita-* + *ginarreba*). Não é preciso memorizar a lógica interna; com o uso, elas se fixam.

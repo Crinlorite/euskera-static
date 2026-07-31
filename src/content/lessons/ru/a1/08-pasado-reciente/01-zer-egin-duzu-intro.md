@@ -5,105 +5,127 @@ code: 01-zer-egin-duzu-intro
 unit: 08-pasado-reciente
 level: a1
 order: 1
-title: Что ты делал сегодня? — недавнее прошлое
+title: Что ты сегодня делал? — ближайшее прошедшее время
 estimatedMinutes: 10
-covers: [participle-form, recent-past-dut, recent-past-naiz]
+covers:
+- participle-form
+- recent-past-dut
+- recent-past-naiz
 exercises:
-  - id: ex-01-zedi-mc1
-    type: multiple-choice
-    prompt: '"Zer egin duzu gaur?" означает…'
-    options: ["Что ты делаешь каждый день?", "Что ты делал сегодня?", "Что ты будешь делать завтра?", "Который час?"]
-    answer: 1
-    explanation: '"Egin" — это partizipio глагола "делать"; "duzu" — форма ukan для "ты". Вместе = "ты сделал".'
-  - id: ex-01-zedi-mc2
-    type: multiple-choice
-    prompt: 'Сравни: "egunero gosaltzen dut" и "gaur gosaldu dut". В чём разница?'
-    options:
-      - "Первое — настоящее время, второе — будущее"
-      - "Первое — привычное действие (завтракаю каждый день), второе — недавнее прошлое (позавтракал сегодня)"
-      - "Второе неверно"
-      - "Оба означают одно и то же"
-    answer: 1
-    explanation: 'В этом и суть: partizipio + вспомогательный глагол БЕЗ -tzen — это недавнее прошлое. С -tzen — привычное действие.'
-  - id: ex-01-zedi-fb1
-    type: fill-in-blank
-    prompt: 'Я поел = jan ___ (вспомогательный глагол для "я + объект").'
-    answers: [dut]
-    explanation: '"Jan" (есть) переходный: берёт ukan. "Я" → *dut*. Результат: *jan dut* (я поел).'
-  - id: ex-01-zedi-fb2
-    type: fill-in-blank
-    prompt: 'Я пошёл = joan ___ (вспомогательный глагол для "я" без объекта).'
-    answers: [naiz]
-    explanation: '"Joan" (идти) непереходный: берёт izan. "Я" → *naiz*. Результат: *joan naiz* (я пошёл).'
-  - id: ex-01-zedi-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer egin duzu gaur?', es: 'Что ты делал сегодня?' }
-      - { eu: 'Zer egin du Mikelek?', es: 'Что сделал Mikel?' }
-      - { eu: 'Zer egin duzue gaur?', es: 'Что вы делали сегодня?' }
-      - { eu: gaur, es: сегодня }
-      - { eu: gaur goizean, es: сегодня утром }
-      - { eu: gaur arratsaldean, es: сегодня днём }
-      - { eu: partizipioa, es: 'partizipio (форма глагола: jan, edan, joan, ikusi)' }
-      - { eu: jan dut, es: я поел }
-      - { eu: joan naiz, es: я пошёл }
-      - { eu: ikusi dut, es: я увидел }
-      - { eu: etorri naiz, es: я пришёл }
-      - { eu: gosaldu dut, es: я позавтракал }
-      - { eu: esnatu naiz, es: я проснулся }
+- id: ex-01-zedi-mc1
+  type: multiple-choice
+  prompt: '"Zer egin duzu gaur?" означает…'
+  options:
+  - Что ты делаешь каждый день?
+  - Что ты сегодня сделал(а)?
+  - Что ты будешь делать завтра?
+  - Который час?
+  answer: 1
+  explanation: '"Egin" — это причастие (partizipio) от «делать»; "duzu" — это форма *ukan* для «ты». Вместе = «ты сделал(а)».'
+- id: ex-01-zedi-mc2
+  type: multiple-choice
+  prompt: 'Сравните: "egunero gosaltzen dut" и "gaur gosaldu dut". В чём разница?'
+  options:
+  - Первое — настоящее время, второе — будущее
+  - Первое — обычное действие (завтракаю каждый день), второе — недавнее прошлое (сегодня позавтракал(а))
+  - Второе предложение неверно
+  - Оба означают одно и то же
+  answer: 1
+  explanation: 'Это ключевой момент: причастие (partizipio) + вспомогательный глагол БЕЗ *-tzen* — это ближайшее прошедшее время. С *-tzen* — это обычное, повторяющееся действие.'
+- id: ex-01-zedi-fb1
+  type: fill-in-blank
+  prompt: Я поел(а) = jan ___ (вспомогательный глагол для «я + объект»).
+  answers:
+  - dut
+  explanation: 'Глагол "Jan" (есть) — переходный: требует *ukan*. «Я» → *dut*. Результат: *jan dut* (я поел(а)).'
+- id: ex-01-zedi-fb2
+  type: fill-in-blank
+  prompt: Я сходил(а) = joan ___ (вспомогательный глагол для «я» без объекта).
+  answers:
+  - naiz
+  explanation: 'Глагол "Joan" (идти) — непереходный: требует *izan*. «Я» → *naiz*. Результат: *joan naiz* (я сходил(а)).'
+- id: ex-01-zedi-fc
+  type: flashcards
+  cards:
+  - eu: Zer egin duzu gaur?
+    es: Что ты сегодня сделал(а)?
+  - eu: Zer egin du Mikelek?
+    es: Что сделал Микель?
+  - eu: Zer egin duzue gaur?
+    es: Что вы сегодня сделали?
+  - eu: gaur
+    es: сегодня
+  - eu: gaur goizean
+    es: сегодня утром
+  - eu: gaur arratsaldean
+    es: сегодня днём
+  - eu: partizipioa
+    es: 'partizipio (форма глагола: jan, edan, joan, ikusi)'
+  - eu: jan dut
+    es: я поел(а)
+  - eu: joan naiz
+    es: я сходил(а)
+  - eu: ikusi dut
+    es: я увидел(а)
+  - eu: etorri naiz
+    es: я пришёл(а)
+  - eu: gosaldu dut
+    es: я позавтракал(а)
+  - eu: esnatu naiz
+    es: я проснулся(ась)
 ---
 
-В баскском языке, чтобы рассказать о том, что ты сделал недавно — особенно сегодня, — используется **orainaldi burutua** (буквально "настоящее совершённое"), которое соответствует русскому *я поел / я пошёл*. Это то, что называют **недавним прошлым**.
+В баскском языке, чтобы рассказать о том, что вы сделали недавно — особенно сегодня — используется **orainaldi burutua** (буквально «настоящее совершенное»), которое эквивалентно испанским *he comido / he ido*. Это время известно как **ближайшее прошедшее**.
 
-## Формула очень простая
+## Формула очень проста
 
 > **Partizipioa + вспомогательный глагол (izan или ukan)**
 
-По сравнению с привычным аспектом, который ты видел в предыдущем разделе, меняется лишь одно: глагол идёт **без -tzen / -ten**:
+По сравнению с обычной формой, которую вы видели в предыдущем уроке, единственное изменение в том, что глагол используется **без -tzen / -ten**:
 
-| Привычное действие | Недавнее прошлое | По-русски |
+| Обычное действие | Ближайшее прошедшее | Русский |
 |---|---|---|
-| *gosaltzen dut* | **gosaldu dut** | завтракаю → я позавтракал |
-| *jaten dut* | **jan dut** | ем → я поел |
-| *joaten naiz* | **joan naiz** | иду → я пошёл |
-| *etortzen naiz* | **etorri naiz** | прихожу → я пришёл |
-| *ikusten dut* | **ikusi dut** | вижу → я увидел |
+| *gosaltzen dut* | **gosaldu dut** | завтракаю → позавтракал(а) |
+| *jaten dut* | **jan dut** | ем → поел(а) |
+| *joaten naiz* | **joan naiz** | хожу → сходил(а) |
+| *etortzen naiz* | **etorri naiz** | прихожу → пришёл(а) |
+| *ikusten dut* | **ikusi dut** | вижу → увидел(а) |
 
-> **Это та же разница, что и в русском** между настоящим временем привычного действия и прошедшим совершённым:
+> **Это та же разница, что и в испанском** между обычным настоящим и pretérito perfecto compuesto:
 >
-> - *Egunero euskaltegira **joaten naiz**.* — Каждый день я хожу в euskaltegi.
-> - *Gaur goizean euskaltegira **joan naiz**.* — Сегодня утром я пошёл в euskaltegi.
+> - *Egunero euskaltegira **joaten naiz**.* — Каждый день я хожу в эускальтеги.
+> - *Gaur goizean euskaltegira **joan naiz**.* — Сегодня утром я ходил(а) в эускальтеги.
 
 ## Самый естественный вопрос
 
-> *— **Zer egin duzu gaur?*** — Что ты делал сегодня?
+> *— **Zer egin duzu gaur?*** — Что ты сегодня делал(а)?
 >
-> *— Lan egin dut, eta gero zinera joan naiz.* — Я работал, а потом пошёл в кино.
+> *— Lan egin dut, eta gero zinera joan naiz.* — Я работал(а), а потом ходил(а) в кино.
 
-Обрати внимание на две формы: **lan egin dut** (с *dut*, потому что "работать" в баскском берёт объект) и **joan naiz** (с *naiz*, потому что "идти" не берёт объект).
+Обратите внимание на две формы: **lan egin dut** (с *dut*, потому что «работать» в баскском языке требует прямого дополнения) и **joan naiz** (с *naiz*, потому что «идти» не требует прямого дополнения).
 
-## Два вспомогательных глагола — быстрый обзор
+## Два вспомогательных глагола — краткий обзор
 
 ### С izan (NOR) — naiz / zara / da / gara / zarete / dira
 
-| Местоимение | Вспомогательный глагол | Пример |
+| Местоимение | Вспом. глагол | Пример |
 |---|---|---|
-| ni (я) | naiz | *joan **naiz*** (я пошёл) |
-| zu (ты) | zara | *etorri **zara*** (ты пришёл) |
-| hura (он/она) | da | *esnatu **da*** (он проснулся) |
-| gu (мы) | gara | *joan **gara*** (мы пошли) |
+| ni (я) | naiz | *joan **naiz*** (я сходил(а)) |
+| zu (ты) | zara | *etorri **zara*** (ты пришёл(а)) |
+| hura (он/она) | da | *esnatu **da*** (он/она проснулся(ась)) |
+| gu (мы) | gara | *joan **gara*** (мы сходили) |
 | zuek (вы) | zarete | *etorri **zarete*** (вы пришли) |
-| haiek (они) | dira | *joan **dira*** (они пошли) |
+| haiek (они) | dira | *joan **dira*** (они сходили) |
 
 ### С ukan (NOR-NORK) — dut / duzu / du / dugu / duzue / dute
 
-| Местоимение | Вспомогательный глагол | Пример |
+| Местоимение | Вспом. глагол | Пример |
 |---|---|---|
-| nik (я) | dut | *jan **dut*** (я поел) |
-| zuk (ты) | duzu | *ikusi **duzu*** (ты увидел) |
-| hark (он/она) | du | *erosi **du*** (он купил) |
+| nik (я) | dut | *jan **dut*** (я поел(а)) |
+| zuk (ты) | duzu | *ikusi **duzu*** (ты увидел(а)) |
+| hark (он/она) | du | *erosi **du*** (он/она купил(а)) |
 | guk (мы) | dugu | *egin **dugu*** (мы сделали) |
-| zuek (вы) | duzue | *jan **duzue*** (вы поели) |
+| zuek (вы) | duzue | *jan **duzue*** (вы съели) |
 | haiek (они) | dute | *ikusi **dute*** (они увидели) |
 
 ## Мини-диалог
@@ -116,4 +138,4 @@ exercises:
 >
 > *— Polita. Ni gaur ez naiz lanera joan, gaixo egon naiz.*
 
-> **Итог партии:** весь секрет в том, чтобы знать, какой вспомогательный глагол использует каждый глагол (мы разберём это в следующих двух уроках), и сохранять partizipio без привычной метки *-tzen/-ten*.
+> **Основной вывод:** вся хитрость в том, чтобы знать, какой вспомогательный глагол используется с каждым глаголом (это мы рассмотрим в следующих двух уроках) и использовать *partizipio* без обычного окончания *-tzen/-ten*.

@@ -7,70 +7,110 @@ level: a1
 order: 1
 title: Boissons et plats de base
 estimatedMinutes: 10
-covers: [food-bar]
+covers:
+- food-bar
 exercises:
-  - id: ex-edj-mc1
-    type: multiple-choice
-    prompt: '« Kafe hutsa » signifie…'
-    options: [café au lait, café noisette, café noir, café décaféiné]
-    answer: 2
-    explanation: '*hutsa* vient de *huts* (« vide », « pur ») : café sans rien, café noir.'
-  - id: ex-edj-mc2
-    type: multiple-choice
-    prompt: 'Comment dit-on « eau » en euskera ?'
-    options: [ardo, ura, esnea, garagardoa]
-    answer: 1
-    explanation: '*ura* (avec l''article) ou *ur* (sans article).'
-  - id: ex-edj-fb1
-    type: fill-in-blank
-    prompt: 'Cidre (typique basque) = ___.'
-    answers: [sagardoa, sagardo]
-    explanation: '*sagardoa* vient de *sagar* (« pomme ») + *ardo* (« vin ») : vin de pomme.'
-  - id: ex-edj-fb2
-    type: fill-in-blank
-    prompt: 'Bière = ___.'
-    answers: [garagardoa, garagardo]
-    explanation: '*garagardoa* vient de *garagar* (« orge ») + *ardo* : littéralement « vin d''orge ».'
-  - id: ex-edj-fc
-    type: flashcards
-    cards:
-      - { eu: kafea, es: le café }
-      - { eu: kafe hutsa, es: café noir }
-      - { eu: kafesnea, es: café au lait }
-      - { eu: kafe ebakia, es: café noisette }
-      - { eu: kafe deskafeinatua, es: café décaféiné }
-      - { eu: infusioa, es: infusion }
-      - { eu: tea, es: thé }
-      - { eu: ura, es: eau }
-      - { eu: esnea, es: lait }
-      - { eu: zumoa, es: jus }
-      - { eu: ardo gorria, es: vin rouge }
-      - { eu: ardo zuria, es: vin blanc }
-      - { eu: garagardoa, es: bière }
-      - { eu: zuritoa, es: petite bière (demi) }
-      - { eu: sagardoa, es: cidre }
-      - { eu: ogia, es: pain }
-      - { eu: gazta, es: fromage }
-      - { eu: urdaiazpikoa, es: jambon }
-      - { eu: tortilla, es: tortilla }
-  - id: ex-edj-mp
-    type: match-pairs
-    pairs:
-      - { eu: kafea, es: café }
-      - { eu: kafesnea, es: café au lait }
-      - { eu: ura, es: eau }
-      - { eu: ardo gorria, es: vin rouge }
-      - { eu: garagardoa, es: bière }
-      - { eu: sagardoa, es: cidre }
-      - { eu: zumoa, es: jus }
-      - { eu: tea, es: thé }
+- id: ex-edj-mc1
+  type: multiple-choice
+  prompt: « Kafe hutsa » signifie…
+  options:
+  - café au lait
+  - café noisette
+  - café noir
+  - café décaféiné
+  answer: 2
+  explanation: '*hutsa* vient de *huts* (« vide », « pur ») : café sans rien, café noir.'
+- id: ex-edj-mc2
+  type: multiple-choice
+  prompt: Comment dit-on « eau » en euskera ?
+  options:
+  - ardo
+  - ura
+  - esnea
+  - garagardoa
+  answer: 1
+  explanation: '*ura* (avec l''article) ou *ur* (sans l''article).'
+- id: ex-edj-fb1
+  type: fill-in-blank
+  prompt: Cidre (typique basque) = ___.
+  answers:
+  - sagardoa
+  - sagardo
+  explanation: '*sagardoa* vient de *sagar* (« pomme ») + *ardo* (« vin ») : vin de pomme.'
+- id: ex-edj-fb2
+  type: fill-in-blank
+  prompt: Bière = ___.
+  answers:
+  - garagardoa
+  - garagardo
+  explanation: '*garagardoa* vient de *garagar* (« orge ») + *ardo* : littéralement « vin d''orge ».'
+- id: ex-edj-fc
+  type: flashcards
+  cards:
+  - eu: kafea
+    es: le café
+  - eu: kafe hutsa
+    es: café noir
+  - eu: kafesnea
+    es: café au lait
+  - eu: kafe ebakia
+    es: café noisette
+  - eu: kafe deskafeinatua
+    es: café décaféiné
+  - eu: infusioa
+    es: infusion
+  - eu: tea
+    es: thé
+  - eu: ura
+    es: eau
+  - eu: esnea
+    es: lait
+  - eu: zumoa
+    es: jus
+  - eu: ardo gorria
+    es: vin rouge
+  - eu: ardo zuria
+    es: vin blanc
+  - eu: garagardoa
+    es: bière
+  - eu: zuritoa
+    es: demi (petite bière)
+  - eu: sagardoa
+    es: cidre
+  - eu: ogia
+    es: pain
+  - eu: gazta
+    es: fromage
+  - eu: urdaiazpikoa
+    es: jambon
+  - eu: tortilla
+    es: omelette aux pommes de terre
+- id: ex-edj-mp
+  type: match-pairs
+  pairs:
+  - eu: kafea
+    es: café
+  - eu: kafesnea
+    es: café au lait
+  - eu: ura
+    es: agua
+  - eu: ardo gorria
+    es: vino tinto
+  - eu: garagardoa
+    es: cerveza
+  - eu: sagardoa
+    es: sidra
+  - eu: zumoa
+    es: zumo
+  - eu: tea
+    es: thé
 ---
 
-Une bonne partie de la vie sociale en Euskal Herria passe par la **taberna** (le bar). Connaître les boissons et les plats de base en euskera t'ouvrira des portes immédiatement : une bande d'amis, une visite dans un village nouveau, un *poteo*. Commençons par le vocabulaire.
+Une bonne partie de la vie sociale en Euskal Herria passe par la **taberna** (le bar). Connaître les boissons et les plats de base en euskera t'ouvrira bien des portes : une bande d'amis, une visite dans un nouveau village, un *poteo*. Commençons par le vocabulaire.
 
 ## Le café et ses variantes
 
-Le café est probablement ce que tu vas commander le plus. Il a plusieurs formes :
+Le café est probablement ce que tu commanderas le plus. Il en existe plusieurs variantes :
 
 | Euskera | Français |
 |---|---|
@@ -111,21 +151,21 @@ Pour accompagner ce que tu bois :
 | *ogia* | le pain |
 | *gazta* | fromage |
 | *urdaiazpikoa* | jambon |
-| *tortilla* | tortilla (aux pommes de terre) |
+| *tortilla* | tortilla (omelette aux pommes de terre) |
 | *patata frijituak* | frites |
 | *gozokia* | sucrerie (générique) |
 | *txokolatea* | chocolat |
 
 ## L'article `-a`
 
-Presque tous ces mots portent **`-a`** à la fin lorsqu'ils apparaissent « neutres » dans une phrase : c'est l'article « le / la ».
+La plupart de ces mots prennent un **`-a`** final lorsqu'ils sont employés dans un sens général : c'est l'article défini, l'équivalent de « le / la ».
 
 - *Ardoa gustatzen zait.* — J'aime le vin.
 - *Ura nahi dut.* — Je veux de l'eau.
 
-Quand tu commandes « un », le `-a` disparaît et entre **bat** (« un/une ») :
+Quand tu en demandes « un » ou « une », le `-a` disparaît et on utilise **bat** (« un/une ») :
 
 - *Kafe **bat**, mesedez.* — Un café, s'il te plaît.
 - *Garagardo **bat**.* — Une bière.
 
-> Dans la leçon 3 tu verras cela en détail. Pour l'instant, mémorise les formes avec `-a` pour les reconnaître sur la carte du bar.
+> Dans la leçon 3, tu verras cela en détail. Pour l'instant, mémorise les formes avec `-a` pour les reconnaître sur la carte du bar.

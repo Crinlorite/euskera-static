@@ -1,0 +1,13 @@
+id: a2-kontatzen
+code: 10-kontatzen-eta-lotzen
+level: a2
+title: Kontatzen eta lotzen — comptar, ligar e repassar
+order: 10
+description: Biografies, preguntes indirèctes, oracions temporaus e de finalitat, e eth repàs integrador deth nivèu.
+estimatedMinutes: 65
+covers:
+- a2-biography
+- a2-indirect-questions
+- a2-time-clauses
+- a2-purpose-clauses
+- a2-exam-review

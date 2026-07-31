@@ -7,48 +7,76 @@ level: a1
 order: 4
 title: ماذا يفعل؟ — التحدث عن روتين الآخرين
 estimatedMinutes: 12
-covers: [daily-routine-third-person, professions-extended, locative-non]
+covers:
+- daily-routine-third-person
+- professions-extended
+- locative-non
 exercises:
-  - id: ex-10-04-mc1
-    type: multiple-choice
-    prompt: 'كيف تقول "يعمل في المستشفى"؟'
-    options: [Ospitalean lan egiten du, Ospitalean lan egiten dut, Ospitala lan egiten du, Ospitalean lan egin du]
-    answer: 0
-    explanation: '"Ospitalean" = في المستشفى (حالة المكان ‎-ean)، "lan egiten du" = يعمل (الشخص الثالث).'
-  - id: ex-10-04-fb1
-    type: fill-in-blank
-    prompt: 'يعيش في Pamplona = Iruñean ___ da.'
-    answers: [bizi]
-    explanation: '"Bizi da" = يعيش (حرفياً: "يكون عائشاً"). للشخص الأول تكون "bizi naiz".'
-  - id: ex-10-04-mc2
-    type: multiple-choice
-    prompt: '"Bera euskaltegian lan egiten du" — مع أي مهنة يتناسب هذا أكثر؟'
-    options: [sukaldaria, irakaslea, mekanikaria, zerbitzaria]
-    answer: 1
-    explanation: 'إذا كان يعمل في euskaltegi (أكاديمية لغة الباسك)، فالأرجح أنه مُدرّس/ة (irakaslea).'
-  - id: ex-10-04-fb2
-    type: fill-in-blank
-    prompt: 'عمره 40 عاماً = Berrogei urte ___.'
-    answers: [ditu]
-    explanation: '"Ditu" = لديه (الشخص الثالث، مفعول جمع — تُعدّ السنوات بصيغة الجمع).'
-  - id: ex-10-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer egiten du?', es: 'ماذا يفعل؟' }
-      - { eu: 'Non bizi da?', es: 'أين يعيش؟' }
-      - { eu: 'Non lan egiten du?', es: 'أين يعمل؟' }
-      - { eu: 'Bera medikua da', es: 'هو/هي طبيب/ة' }
-      - { eu: 'Ospitalean lan egiten du', es: 'يعمل في المستشفى' }
-      - { eu: 'Eskolan lan egiten du', es: 'يعمل في المدرسة' }
-      - { eu: 'Tabernan lan egiten du', es: 'يعمل في الحانة' }
-      - { eu: 'Bulegoan lan egiten du', es: 'يعمل في المكتب' }
-      - { eu: 'Iruñean bizi da', es: 'يعيش في Pamplona' }
-      - { eu: 'Hogeita hamar urte ditu', es: 'عمره 30 عاماً' }
-      - { eu: 'Ezkonduta dago', es: 'متزوج/ة' }
-      - { eu: 'Ezkongabea da', es: 'أعزب/عزباء' }
-      - { eu: 'Bi seme-alaba ditu', es: 'لديه طفلان' }
-      - { eu: 'Bakarrik bizi da', es: 'يعيش وحده' }
-      - { eu: 'Lagunekin bizi da', es: 'يعيش مع أصدقائه' }
+- id: ex-10-04-mc1
+  type: multiple-choice
+  prompt: كيف تقول "يعمل في المستشفى"؟
+  options:
+  - Ospitalean lan egiten du
+  - Ospitalean lan egiten dut
+  - Ospitala lan egiten du
+  - Ospitalean lan egin du
+  answer: 0
+  explanation: '"Ospitalean" = في المستشفى (حالة المكان ‎-ean)، "lan egiten du" = يعمل (الشخص الثالث).'
+- id: ex-10-04-fb1
+  type: fill-in-blank
+  prompt: يعيش في Pamplona = Iruñean ___ da.
+  answers:
+  - bizi
+  explanation: '"Bizi da" = يعيش (حرفياً: "يكون عائشاً"). للشخص الأول تكون "bizi naiz".'
+- id: ex-10-04-mc2
+  type: multiple-choice
+  prompt: '"Bera euskaltegian lan egiten du" — مع أي مهنة يتناسب هذا أكثر؟'
+  options:
+  - sukaldaria
+  - irakaslea
+  - mekanikaria
+  - zerbitzaria
+  answer: 1
+  explanation: إذا كان يعمل في euskaltegi (أكاديمية لغة الباسك)، فالأرجح أنه مُدرّس/ة (irakaslea).
+- id: ex-10-04-fb2
+  type: fill-in-blank
+  prompt: عمره 40 عاماً = Berrogei urte ___.
+  answers:
+  - ditu
+  explanation: '"Ditu" = لديه (الشخص الثالث، مفعول به جمع — تُعدّ السنوات بصيغة الجمع).'
+- id: ex-10-04-fc
+  type: flashcards
+  cards:
+  - eu: Zer egiten du?
+    es: ماذا يفعل؟
+  - eu: Non bizi da?
+    es: أين يعيش؟
+  - eu: Non lan egiten du?
+    es: أين يعمل؟
+  - eu: Bera medikua da
+    es: هو/هي طبيب/ة
+  - eu: Ospitalean lan egiten du
+    es: يعمل في المستشفى
+  - eu: Eskolan lan egiten du
+    es: يعمل في المدرسة
+  - eu: Tabernan lan egiten du
+    es: يعمل في الحانة
+  - eu: Bulegoan lan egiten du
+    es: يعمل في المكتب
+  - eu: Iruñean bizi da
+    es: يعيش في Pamplona
+  - eu: Hogeita hamar urte ditu
+    es: عمره 30 عاماً
+  - eu: Ezkonduta dago
+    es: متزوج/ة
+  - eu: Ezkongabea da
+    es: أعزب/عزباء
+  - eu: Bi seme-alaba ditu
+    es: لديه طفلان
+  - eu: Bakarrik bizi da
+    es: يعيش وحده / تعيش وحدها
+  - eu: Lagunekin bizi da
+    es: يعيش مع أصدقائه
 ---
 
 بمجرد أن تعرف كيف تُقدّم شخصاً ما (*Hau X da*)، تكون الخطوة الطبيعية التالية هي **الحديث عمّا يفعله ذلك الشخص**: أين يعيش، أين يعمل، كم عمره، كيف يبدو يومه. كل التصريفات تأتي في **الشخص الثالث**، لذا نتدرّب هنا على ذلك.
@@ -90,7 +118,7 @@ exercises:
 | euskaltegia (أكاديمية لغة الباسك) | *euskaltegi**an** lan egiten du* |
 | etxean (في البيت) | *etxean lan egiten du* |
 
-> تذكّر: إذا انتهت الكلمة بـ `-a` أصلية (tabern**a**)، فإنها تبقى ← *tabernan*. وإذا انتهت بحرف ساكن (Madril)، تُدرَج `-e-` ← *Madrilen*.
+> تذكّر: إذا انتهت الكلمة بـ `-a` أصلية (tabern**a**)، فإنها تبقى → *tabernan*. وإذا انتهت بحرف ساكن (Madril)، تُدرَج `-e-` → *Madrilen*.
 
 ## المهنة + المكان = صورة كاملة
 

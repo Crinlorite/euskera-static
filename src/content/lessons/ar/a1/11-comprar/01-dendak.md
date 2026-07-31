@@ -7,77 +7,109 @@ level: a1
 order: 1
 title: أنواع المتاجر (dendak)
 estimatedMinutes: 10
-covers: [shops, places-town]
+covers:
+- shops
+- places-town
 exercises:
-  - id: ex-dendak-mp
-    type: match-pairs
-    pairs:
-      - { eu: harategia, es: محل الجزارة }
-      - { eu: okindegia, es: مخبز }
-      - { eu: arrandegia, es: محل بيع السمك }
-      - { eu: fruta-denda, es: محل بيع الفاكهة }
-      - { eu: supermerkatua, es: سوبر ماركت }
-      - { eu: kutxazain automatikoa, es: صراف آلي }
-  - id: ex-dendak-mc1
-    type: multiple-choice
-    prompt: 'أين تشتري الخبز؟'
-    options: [Harategian, Okindegian, Arrandegian, Fruta-dendan]
-    answer: 1
-    explanation: '"Okindegia" تأتي من *ogi* (الخبز)؛ واللاحقة *-degi* تعني "المكان الذي يوجد فيه…".'
-  - id: ex-dendak-mc2
-    type: multiple-choice
-    prompt: 'تريد شراء legatza (سمك النازلي). إلى أي متجر تذهب؟'
-    options: [Harategira, Okindegira, Arrandegira, Fruta-dendara]
-    answer: 2
-    explanation: '*Arrandegia* تأتي من *arrain* (السمك). واللاحقة *-ra* تدلّ على الوجهة: "أذهب إلى محل بيع السمك".'
-  - id: ex-dendak-fb1
-    type: fill-in-blank
-    prompt: 'محل الجزارة = ___ (الكلمة الكاملة، بصيغة المفرد مع أداة التعريف).'
-    answers: [harategia, Harategia]
-    explanation: 'من *haragi* (اللحم) + *-tegi* (مكان، وهو صيغة من *-degi*) + *-a* (أداة التعريف).'
-  - id: ex-dendak-fc
-    type: flashcards
-    cards:
-      - { eu: denda, es: متجر (عام) }
-      - { eu: harategia, es: محل الجزارة }
-      - { eu: okindegia, es: مخبز }
-      - { eu: arrandegia, es: محل بيع السمك }
-      - { eu: fruta-denda, es: محل بيع الفاكهة }
-      - { eu: supermerkatua, es: سوبر ماركت }
-      - { eu: hipermerkatua, es: هايبر ماركت }
-      - { eu: azoka, es: سوق }
-      - { eu: plaza, es: 'ساحة (سوق في الهواء الطلق)' }
-      - { eu: kutxazain automatikoa, es: صراف آلي }
-      - { eu: banketxea, es: بنك }
-      - { eu: postetxea, es: مكتب البريد }
-      - { eu: tabako-denda, es: محل بيع التبغ }
-      - { eu: liburu-denda, es: مكتبة }
+- id: ex-dendak-mp
+  type: match-pairs
+  pairs:
+  - eu: harategia
+    es: محل جزارة
+  - eu: okindegia
+    es: مخبز
+  - eu: arrandegia
+    es: محل أسماك
+  - eu: fruta-denda
+    es: محل فواكه
+  - eu: supermerkatua
+    es: supermercado
+  - eu: kutxazain automatikoa
+    es: صراف آلي
+- id: ex-dendak-mc1
+  type: multiple-choice
+  prompt: أين تشتري الخبز؟
+  options:
+  - Harategian
+  - Okindegian
+  - Arrandegian
+  - Fruta-dendan
+  answer: 1
+  explanation: '"Okindegia" تأتي من *ogi* (خبز)؛ اللاحقة *-degi* تعني "مكان يوجد فيه…".'
+- id: ex-dendak-mc2
+  type: multiple-choice
+  prompt: تريد شراء *legatza* (سمك النازلي). إلى أي متجر تذهب؟
+  options:
+  - Harategira
+  - Okindegira
+  - Arrandegira
+  - Fruta-dendara
+  answer: 2
+  explanation: '*Arrandegia* تأتي من *arrain* (سمك). اللاحقة *-ra* تشير إلى الوجهة: "أنا ذاهب إلى محل الأسماك".'
+- id: ex-dendak-fb1
+  type: fill-in-blank
+  prompt: محل الجزارة = ___ (الكلمة كاملة، بصيغة المفرد مع أداة التعريف).
+  answers:
+  - harategia
+  - Harategia
+  explanation: من *haragi* (لحم) + *-tegi* (مكان، صيغة أخرى من *-degi*) + *-a* (أداة التعريف).
+- id: ex-dendak-fc
+  type: flashcards
+  cards:
+  - eu: denda
+    es: متجر (عام)
+  - eu: harategia
+    es: محل جزارة
+  - eu: okindegia
+    es: مخبز
+  - eu: arrandegia
+    es: محل أسماك
+  - eu: fruta-denda
+    es: محل فواكه
+  - eu: supermerkatua
+    es: سوبر ماركت
+  - eu: hipermerkatua
+    es: هايبر ماركت
+  - eu: azoka
+    es: سوق
+  - eu: plaza
+    es: ساحة (سوق في الهواء الطلق)
+  - eu: kutxazain automatikoa
+    es: صراف آلي
+  - eu: banketxea
+    es: بنك
+  - eu: postetxea
+    es: مكتب بريد
+  - eu: tabako-denda
+    es: محل تبغ
+  - eu: liburu-denda
+    es: مكتبة
 ---
 
-عندما تذهب للتسوق في Euskal Herria، عادةً ما يكون لكل منتج متجره المتخصص، خصوصًا في القرى والأحياء. تعلّم الأسماء يساعدك على التنقّل وكذلك على فهم اللافتات.
+عندما تذهب للتسوق في Euskal Herria، عادة ما يكون لكل منتج متجره المتخصص، خاصة في القرى والأحياء. تعلم الأسماء يساعدك على التنقل وأيضًا على فهم اللافتات.
 
-## متاجر الطعام
+## متاجر المواد الغذائية
 
-| اللغة الباسكية | الإسبانية | ما يُباع فيه |
+| اللغة الباسكية | الإسبانية | ما يُباع |
 |---|---|---|
-| *harategia* | محل الجزارة | haragia (اللحم) |
-| *okindegia* | مخبز | ogia (الخبز) |
-| *arrandegia* | محل بيع السمك | arraina (السمك) |
-| *fruta-denda* | محل بيع الفاكهة | frutak, barazkiak |
+| *harategia* | محل جزارة | haragia (لحم) |
+| *okindegia* | مخبز | ogia (خبز) |
+| *arrandegia* | محل أسماك | arraina (سمك) |
+| *fruta-denda* | محل فواكه | frutak, barazkiak |
 | *supermerkatua* | سوبر ماركت | كل شيء |
-| *hipermerkatua* | هايبر ماركت | المساحات الكبرى |
-| *azoka* / *plaza* | سوق / ساحة | عدة أكشاك |
+| *hipermerkatua* | هايبر ماركت | مساحات تجارية كبيرة |
+| *azoka* / *plaza* | سوق / ساحة | أكشاك متنوعة |
 
 ## الدليل الخفي: *-degi*
 
-كثير من أسماء المتاجر تنتهي بـ **-degi**، وهي لاحقة قديمة تعني "المكان الذي يوجد فيه…":
+تنتهي العديد من أسماء المتاجر باللاحقة **-degi**، وهي لاحقة قديمة تعني "مكان يوجد فيه…":
 
-- *ogi* (الخبز) ← **okindegia** (مخبز)
-- *haragi* (اللحم) ← **harategia** (محل الجزارة)
-- *arrain* (السمك) ← **arrandegia** (محل بيع السمك)
-- *gozo* (الحلوى) ← **gozotegia** (محل الحلويات)
+- *ogi* (خبز) → **okindegia** (مخبز)
+- *haragi* (لحم) → **harategia** (محل جزارة)
+- *arrain* (سمك) → **arrandegia** (محل أسماك)
+- *gozo* (حلوى) → **gozotegia** (محل حلويات)
 
-> عندما تكتشف نمط *-degi*، ستتمكّن من التعرّف على متاجر أخرى حتى وإن لم تكن قد رأيتها من قبل.
+> عندما تكتشف النمط *-degi*، ستتمكن من التعرف على متاجر أخرى حتى لو لم ترها من قبل.
 
 ## أماكن أخرى مفيدة
 
@@ -85,15 +117,15 @@ exercises:
 |---|---|
 | *kutxazain automatikoa* | صراف آلي |
 | *banketxea* | بنك |
-| *postetxea* | مكتب البريد |
-| *tabako-denda* | محل بيع التبغ |
+| *postetxea* | مكتب بريد |
+| *tabako-denda* | محل تبغ |
 
-## كيف تقول إلى أين تذهب
+## للتعبير عن وجهتك
 
-للذهاب إلى متجر استخدم حالة **NORA** مع اللاحقة `-ra` (الوجهة):
+للذهاب إلى متجر، استخدم حالة **NORA** مع اللاحقة `-ra` (الوجهة):
 
-- *Okindegi**ra** noa.* — أذهب إلى المخبز.
+- *Okindegi**ra** noa.* — أنا ذاهب إلى المخبز.
 - *Harategi**ra** joango naiz.* — سأذهب إلى محل الجزارة.
-- *Fruta-denda**ra** joaten naiz astero.* — أذهب إلى محل بيع الفاكهة كل أسبوع.
+- *Fruta-denda**ra** joaten naiz astero.* — أذهب إلى محل الفواكه كل أسبوع.
 
-> **ملاحظة ثقافية:** ما زالت كثير من العائلات تقوم بالتسوّق موزّعًا: السمك من *arrandegia* الحي، والخبز من *okindegia*، وما تبقّى فقط من السوبر ماركت. ومن الشائع أن تسمع "*okindegira noa*" كعبارة روتينية.
+> **ملاحظة ثقافية:** لا تزال العديد من العائلات تقسم مشترياتها: السمك من *arrandegia* الحي، والخبز من *okindegia*، والباقي فقط من السوبر ماركت. من الشائع سماع "*okindegira noa*" كتعبير روتيني.

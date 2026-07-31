@@ -1,0 +1,13 @@
+id: a2-natura
+code: 09-natura-kirola-aisia
+level: a2
+title: Natura, kirola eta aisia — monte, deporte y tiempu llibre
+order: 9
+description: Naturaleza y animales, deporte, aficiones con -tzea y los planes d'ociu de la fin de selmana.
+estimatedMinutes: 65
+covers:
+- a2-nature-vocab
+- a2-animals
+- a2-sports
+- a2-hobbies
+- a2-weekend-leisure

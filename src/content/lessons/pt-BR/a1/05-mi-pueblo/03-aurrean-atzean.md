@@ -7,61 +7,99 @@ level: a1
 order: 3
 title: Posições espaciais (na frente, atrás, ao lado…)
 estimatedMinutes: 12
-covers: [spatial-positions, spatial-adverbs, locative-non]
+covers:
+- spatial-positions
+- spatial-adverbs
+- locative-non
 exercises:
-  - id: ex-aatz-mp
-    type: match-pairs
-    pairs:
-      - { eu: aurrean, es: na frente }
-      - { eu: atzean, es: atrás }
-      - { eu: ondoan, es: ao lado }
-      - { eu: gainean, es: em cima }
-      - { eu: azpian, es: embaixo }
-      - { eu: artean, es: entre }
-      - { eu: ezkerrean, es: à esquerda }
-      - { eu: eskuinean, es: à direita }
-  - id: ex-aatz-mc1
-    type: multiple-choice
-    prompt: '"O gato está embaixo da mesa" — a palavra correta é:'
-    options: [gainean, azpian, ondoan, atzean]
-    answer: 1
-    explanation: '"Azpian" = embaixo. "Gainean" = em cima.'
-  - id: ex-aatz-mc2
-    type: multiple-choice
-    prompt: 'Como se diz "na frente da igreja"?'
-    options: ["elizaren aurrean", "elizan aurrean", "elizara aurrean", "elizako aurrean"]
-    answer: 0
-    explanation: 'A fórmula é "X-(r)en + posição": elizaren aurrean (da igreja + na frente).'
-  - id: ex-aatz-fb1
-    type: fill-in-blank
-    prompt: 'Mahaiaren ___ daude liburuak (os livros estão em cima da mesa).'
-    answers: [gainean]
-  - id: ex-aatz-mc3
-    type: multiple-choice
-    prompt: '"Hemen", "hor", "han" significam, respectivamente:'
-    options: ["lá, aí, aqui", "aqui, aí, lá", "aí, aqui, lá", "aqui, lá, aí"]
-    answer: 1
-    explanation: 'As três distâncias do euskera: HEMEN (perto de mim, "aqui"), HOR (perto do ouvinte, "aí"), HAN (longe dos dois, "lá").'
-  - id: ex-aatz-fc
-    type: flashcards
-    cards:
-      - { eu: aurrean, es: na frente }
-      - { eu: atzean, es: atrás }
-      - { eu: ondoan, es: ao lado }
-      - { eu: gainean, es: em cima }
-      - { eu: azpian, es: embaixo }
-      - { eu: artean, es: entre }
-      - { eu: ezkerrean, es: à esquerda }
-      - { eu: eskuinean, es: à direita }
-      - { eu: barruan, es: dentro }
-      - { eu: kanpoan, es: fora }
-      - { eu: erdian, es: no meio }
-      - { eu: hemen, es: aqui }
-      - { eu: hor, es: aí }
-      - { eu: han, es: lá }
+- id: ex-aatz-mp
+  type: match-pairs
+  pairs:
+  - eu: aurrean
+    es: delante
+  - eu: atzean
+    es: atrás
+  - eu: ondoan
+    es: al lado
+  - eu: gainean
+    es: encima
+  - eu: azpian
+    es: debajo
+  - eu: artean
+    es: entre
+  - eu: ezkerrean
+    es: à esquerda
+  - eu: eskuinean
+    es: à direita
+- id: ex-aatz-mc1
+  type: multiple-choice
+  prompt: '"O gato está embaixo da mesa" — a palavra correta é:'
+  options:
+  - gainean
+  - azpian
+  - ondoan
+  - atzean
+  answer: 1
+  explanation: '"Azpian" = embaixo. "Gainean" = em cima.'
+- id: ex-aatz-mc2
+  type: multiple-choice
+  prompt: Como se diz "na frente da igreja"?
+  options:
+  - elizaren aurrean
+  - elizan aurrean
+  - elizara aurrean
+  - elizako aurrean
+  answer: 0
+  explanation: 'A fórmula é "X-(r)en + posição": elizaren aurrean (da igreja + na frente).'
+- id: ex-aatz-fb1
+  type: fill-in-blank
+  prompt: Mahaiaren ___ daude liburuak (os livros estão em cima da mesa).
+  answers:
+  - gainean
+- id: ex-aatz-mc3
+  type: multiple-choice
+  prompt: '"Hemen", "hor", "han" significam, respectivamente:'
+  options:
+  - lá, aí, aqui
+  - aqui, aí, lá
+  - aí, aqui, lá
+  - aqui, lá, aí
+  answer: 1
+  explanation: 'As três distâncias do basco: HEMEN (perto de mim, "aqui"), HOR (perto de quem ouve, "aí"), HAN (longe dos dois, "lá").'
+- id: ex-aatz-fc
+  type: flashcards
+  cards:
+  - eu: aurrean
+    es: na frente
+  - eu: atzean
+    es: atrás
+  - eu: ondoan
+    es: ao lado
+  - eu: gainean
+    es: em cima
+  - eu: azpian
+    es: embaixo
+  - eu: artean
+    es: entre
+  - eu: ezkerrean
+    es: à esquerda
+  - eu: eskuinean
+    es: à direita
+  - eu: barruan
+    es: dentro
+  - eu: kanpoan
+    es: fora
+  - eu: erdian
+    es: no meio
+  - eu: hemen
+    es: aqui
+  - eu: hor
+    es: aí
+  - eu: han
+    es: lá
 ---
 
-Depois de saber dizer "está em X", o próximo passo é dizer **onde exatamente**: em cima, embaixo, ao lado, atrás… Em euskera essas posições se constroem sempre com o padrão **lugar de referência + posição**.
+Uma vez que você sabe dizer "está em X", o próximo passo é dizer **onde exatamente**: em cima, embaixo, ao lado, atrás… Em basco, essas posições são sempre construídas com o padrão **lugar de referência + posição**.
 
 ## As posições básicas
 
@@ -104,23 +142,23 @@ Padrão: a referência vem primeiro, **depois** a posição. É exatamente o con
 
 ## Advérbios de lugar: hemen / hor / han
 
-Para indicar de forma rápida há três advérbios — e, atenção, são **três distâncias**, não duas como em português:
+Para indicar de forma rápida, existem três advérbios — e, atenção, são **três distâncias**, não duas como no português:
 
 | Euskera | Português | Quando |
 |---|---|---|
-| *hemen* | aqui | perto do falante |
-| *hor* | aí | perto do ouvinte |
+| *hemen* | aqui | perto de quem fala |
+| *hor* | aí | perto de quem ouve |
 | *han* | lá | longe dos dois |
 
-> Esses três advérbios correspondem aos demonstrativos *hau / hori / hura* e às suas formas locativas longas *honetan / horretan / hartan* ("neste / nesse / naquele").
+> Estes três advérbios correspondem aos demonstrativos *hau / hori / hura* e às suas formas locativas longas *honetan / horretan / hartan* ("neste / nesse / naquele").
 
 Exemplos rápidos:
 
-- **Hemen** taberna bat dago. — Aqui há um bar.
+- **Hemen** taberna bat dago. — Aqui tem um bar.
 - **Hor** parkea dago. — Aí está o parque.
 - **Han** dago euskaltegia. — O euskaltegi está lá.
 
-## Mini-conversa: brincar de esconder
+## Miniconversa: brincar de esconde-esconde
 
 > — *Pilota mahaiaren azpian dago?* — A bola está embaixo da mesa?
 >
@@ -128,6 +166,6 @@ Exemplos rápidos:
 >
 > — *Aulkiaren atzean dago?* — Está atrás da cadeira?
 >
-> — *Bai, hor dago!* — Sim, aí está!
+> — *Bai, hor dago!* — Sim, está aí!
 
-> **Dica:** todas as posições já trazem o sufixo `-an` incorporado (*aurr-ean*, *atz-ean*, *azp-ian*…). Você não precisa acrescentar mais nada.
+> **Dica:** todas as posições já vêm com o sufixo `-an` incorporado (*aurr-ean*, *atz-ean*, *azp-ian*…). Você não precisa adicionar mais nada.

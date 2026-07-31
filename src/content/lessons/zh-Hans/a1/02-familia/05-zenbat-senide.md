@@ -7,33 +7,55 @@ level: a1
 order: 5
 title: 你有几个兄弟姐妹？(Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: '我有两个兄弟 = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" =“我有（好几个）”——“ukan”（拥有）的 NOR-NORK 形式。'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: '“三”用巴斯克语怎么说？'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: 一 }
-      - { eu: bi, es: 二 }
-      - { eu: hiru, es: 三 }
-      - { eu: lau, es: 四 }
-      - { eu: bost, es: 五 }
-      - { eu: hamar, es: 十 }
-      - { eu: 'Zenbat senide zarete?', es: 你们有几个兄弟姐妹？ }
-      - { eu: senide, es: 兄弟姐妹（通称） }
-      - { eu: dut, es: 我有（1样东西） }
-      - { eu: ditut, es: 我有（好几样东西） }
-      - { eu: ez dut anaiarik, es: 我没有兄弟（用 -rik 表示否定） }
-      - { eu: 'Zenbat urte dituzu?', es: '你多大了？' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: 我有两个兄弟 = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: '"Ditut" =“我有（好几个）”——“ukan”（有，拥有）的 NOR-NORK 形式。'
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: “三”用巴斯克语怎么说？
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: 一
+  - eu: bi
+    es: 二
+  - eu: hiru
+    es: 三
+  - eu: lau
+    es: 四
+  - eu: bost
+    es: 五
+  - eu: hamar
+    es: 十
+  - eu: Zenbat senide zarete?
+    es: 你们有几个兄弟姐妹？
+  - eu: senide
+    es: 兄弟姐妹（通称）
+  - eu: dut
+    es: 我有（1样东西）
+  - eu: ditut
+    es: 我有（好几样东西）
+  - eu: ez dut anaiarik
+    es: 我没有兄弟（用 -rik 表示否定）
+  - eu: Zenbat urte dituzu?
+    es: 你多大了？
 ---
 
 要谈论一个家庭有几个成员，我们用：
@@ -56,9 +78,9 @@ exercises:
 | 9 | *bederatzi* |
 | 10 | *hamar* |
 
-## 说出你有几个
+## 说明你有多少
 
-这里出现了动词 **ukan**（拥有）的第一种形式，我们会在接下来的课程里深入讲解：
+这里出现了动词 **ukan**（有，拥有）的第一种形式，我们会在接下来的课程里深入讲解：
 
 - **Anaia bat dut.** —— 我有一个兄弟。
 - **Bi anaia ditut.** —— 我有两个兄弟。

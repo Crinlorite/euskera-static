@@ -7,99 +7,145 @@ level: a1
 order: 2
 title: Direiciones na cai
 estimatedMinutes: 10
-covers: [route-instructions, directions, common-verbs]
+covers:
+- route-instructions
+- directions
+- common-verbs
 exercises:
-  - id: ex-no-mp
-    type: match-pairs
-    pairs:
-      - { eu: jo ezkerrera, es: xira a manzorga }
-      - { eu: jo eskuinera, es: xira a mandrecha }
-      - { eu: segi aurrera, es: sigui recto / haza alantre }
-      - { eu: zeharkatu, es: cruza }
-      - { eu: igo eskailerak, es: xubi les escaleres }
-      - { eu: jaitsi aldapa, es: baxa la pindia }
-      - { eu: egin atzera, es: vuelvi p'atrás }
-  - id: ex-no-mc1
-    type: multiple-choice
-    prompt: '¿Cómo diríes "xira a manzorga nel semáforu"?'
-    options: ["Jo ezkerrera semaforora", "Jo ezkerrera semaforoan", "Joan semaforoa ezkerrera", "Semaforora ezkerrera"]
-    answer: 1
-    explanation: '"Jo ezkerrera" (xira a manzorga) + allugamientu con "-an": "semaforoan" (nel semáforu).'
-  - id: ex-no-mc2
-    type: multiple-choice
-    prompt: '"Zeharkatu" significa…'
-    options: ["siguir recto", "cruzar", "xirar", "xubir"]
-    answer: 1
-    explanation: 'De "zehar" (a traviés). "Zeharkatu kalea / zebrabidea" = cruzar la cai / el pasu de cebra.'
-  - id: ex-no-fb1
-    type: fill-in-blank
-    prompt: 'Sigui recto = ___ aurrera.'
-    answers: [Segi, segi, Jarraitu, jarraitu]
-    explanation: '"Segi aurrera" o "jarraitu aurrera" — los dos válidos pa "sigui recto".'
-  - id: ex-no-mc3
-    type: multiple-choice
-    prompt: 'Quies pidir indicaciones pa llegar al hospital. ¿Qué dices?'
-    options: ["Non dago ospitalea?", "Nora doa ospitalea?", "Nondik dator ospitalea?", "Nongoa da ospitalea?"]
-    answer: 0
-    explanation: '"Non dago…?" entruga ónde ta; ideal pa pidir indicaciones.'
-  - id: ex-no-fc
-    type: flashcards
-    cards:
-      - { eu: ezkerra, es: manzorga }
-      - { eu: eskuina, es: mandrecha }
-      - { eu: aurrera, es: haza alantre }
-      - { eu: atzera, es: haza atrás }
-      - { eu: jo ezkerrera, es: xira a manzorga }
-      - { eu: jo eskuinera, es: xira a mandrecha }
-      - { eu: segi aurrera, es: sigui recto }
-      - { eu: jarraitu zuzen, es: sigui drecho }
-      - { eu: zeharkatu, es: cruzar }
-      - { eu: zebrabidea, es: pasu de cebra }
-      - { eu: semaforoa, es: semáforu }
-      - { eu: bidegurutzea, es: cruce }
-      - { eu: errepidea, es: carretera }
-      - { eu: kalea, es: cai }
-      - { eu: aldapa, es: pindia }
-      - { eu: eskailerak, es: escaleres }
-      - { eu: igo, es: xubir }
-      - { eu: jaitsi, es: baxar }
-      - { eu: gertu, es: cerca }
-      - { eu: urrun, es: lloñe }
+- id: ex-no-mp
+  type: match-pairs
+  pairs:
+  - eu: jo ezkerrera
+    es: xira a la izquierda
+  - eu: jo eskuinera
+    es: xira a la derecha
+  - eu: segi aurrera
+    es: sigue recto / hacia delante
+  - eu: zeharkatu
+    es: cruza
+  - eu: igo eskailerak
+    es: xube les escaleres
+  - eu: jaitsi aldapa
+    es: baxa la cuesta
+  - eu: egin atzera
+    es: vuelvi atrás
+- id: ex-no-mc1
+  type: multiple-choice
+  prompt: ¿Cómo diríes "xira a la izquierda nel semáforu"?
+  options:
+  - Jo ezkerrera semaforora
+  - Jo ezkerrera semaforoan
+  - Joan semaforoa ezkerrera
+  - Semaforora ezkerrera
+  answer: 1
+  explanation: '"Jo ezkerrera" (xira a la izquierda) + ubicación con "-an": "semaforoan" (nel semáforu).'
+- id: ex-no-mc2
+  type: multiple-choice
+  prompt: '"Zeharkatu" significa…'
+  options:
+  - seguir recto
+  - cruzar
+  - girar
+  - subir
+  answer: 1
+  explanation: De "zehar" (al traviés). "Zeharkatu kalea / zebrabidea" = cruciar la cai / el pasu de cebra.
+- id: ex-no-fb1
+  type: fill-in-blank
+  prompt: Sigue rectu = ___ aurrera.
+  answers:
+  - Segi
+  - segi
+  - Jarraitu
+  - jarraitu
+  explanation: '"Segi aurrera" o "jarraitu aurrera" — dambos válidos pa "sigue rectu".'
+- id: ex-no-mc3
+  type: multiple-choice
+  prompt: Quies pidir señes pa llegar al hospital. ¿Qué dices?
+  options:
+  - Non dago ospitalea?
+  - Nora doa ospitalea?
+  - Nondik dator ospitalea?
+  - Nongoa da ospitalea?
+  answer: 0
+  explanation: '"Non dago…?" pregunta ú ta; ideal pa pidir señes.'
+- id: ex-no-fc
+  type: flashcards
+  cards:
+  - eu: ezkerra
+    es: izquierda
+  - eu: eskuina
+    es: derecha
+  - eu: aurrera
+    es: hacia alantre
+  - eu: atzera
+    es: hacia atrás
+  - eu: jo ezkerrera
+    es: xira a la izquierda
+  - eu: jo eskuinera
+    es: xira a la derecha
+  - eu: segi aurrera
+    es: sigue rectu
+  - eu: jarraitu zuzen
+    es: continúa rectu
+  - eu: zeharkatu
+    es: cruciar
+  - eu: zebrabidea
+    es: pasu de cebra
+  - eu: semaforoa
+    es: semáforu
+  - eu: bidegurutzea
+    es: cruce
+  - eu: errepidea
+    es: carretera
+  - eu: kalea
+    es: cai
+  - eu: aldapa
+    es: cuesta
+  - eu: eskailerak
+    es: escaleres
+  - eu: igo
+    es: xubir
+  - eu: jaitsi
+    es: baxar
+  - eu: gertu
+    es: cerca
+  - eu: urrun
+    es: lloñe
 ---
 
-Cuando daquién te entruga cómo llegar a un sitiu — o cuando te pierdes y entrugues tu — precises un puñáu de verbos imperativos y d'alverbios de direición. Nesta lleición axuntamos lo esencial.
+Cuando daquién te pregunta cómo llegar a un sitiu — o cuando te pierdes y preguntes tu — necesites un puñáu de verbos imperativos y d'alverbios de direición. Nesta lleición axuntamos lo esencial.
 
 ## Imperativos básicos
 
-N'euskera, l'imperativu afirmativu de los verbos de movimientu ye perdirectu:
+N'eusquera, l'imperativu afirmativu de los verbos de movimientu ye mui direutu:
 
-| Forma | Verbu base | Sentíu |
+| Forma | Verbo base | Sentido |
 |---|---|---|
-| **Jo** | jo | golpia / empobina (jo ezkerrera = xira a manzorga) |
-| **Segi** / **Jarraitu** | segitu / jarraitu | sigui, sigui alantre |
-| **Hartu** | hartu | garra (hartu kale hau = garra esta cai) |
-| **Igo** | igo | xubi |
+| **Jo** | jo | golpia / dirixe (jo ezkerrera = xira a la izquierda) |
+| **Segi** / **Jarraitu** | segitu / jarraitu | sigue, continúa |
+| **Hartu** | hartu | toma (hartu kale hau = toma esta cai) |
+| **Igo** | igo | xube |
 | **Jaitsi** | jaitsi | baxa |
 | **Sartu** | sartu | entra |
 | **Irten** | irten | sal |
-| **Zeharkatu** | zeharkatu | cruza |
+| **Zeharkatu** | zeharkatu | crucia |
 | **Iritsi** / **heldu** | iritsi / heldu | llega (… arte = "hasta…") |
 
-> *Jo* lliteralmente significa "golpiar", pero úsase de mou metafóricu como "empobinase haza": **jo ezkerrera** = "tira haza manzorga".
+> *Jo* lliteralmente significa "golpiar", pero úsase metafóricamente como "dirixise hacia": **jo ezkerrera** = "tira pa la izquierda".
 
 ## Alverbios y referencies direicionales
 
 | Euskera | Asturianu |
 |---|---|
-| *ezkerra* | la manzorga |
-| *eskuina* | la mandrecha |
-| *aurrera* | haza alantre |
-| *atzera* | haza atrás |
-| *zuzen* | recto, drecho |
-| *gora* | haza riba |
-| *behera* | haza baxo |
+| *ezkerra* | la izquierda |
+| *eskuina* | la derecha |
+| *aurrera* | hacia alantre |
+| *atzera* | hacia atrás |
+| *zuzen* | rectu, derechu |
+| *gora* | hacia arriba |
+| *behera* | hacia abaxo |
 
-> Fíxate: pa indicar **direición haza** úsase'l sufixu `-ra` (que verás a fondu na lleición 03): *ezkerre-ra* (a manzorga), *aurre-ra* (haza alantre), *atze-ra* (haza atrás). Lo mesmo pa *gora*, *behera*.
+> Fíxate: pa indicar **direición hacia** úsase'l sufixu `-ra` (que vas ver a fondu na lleición 03): *ezkerre-ra* (a la izquierda), *aurre-ra* (hacia alantre), *atze-ra* (hacia atrás). Lo mesmo pa *gora*, *behera*.
 
 ## Llugares de referencia típicos
 
@@ -109,7 +155,7 @@ N'euskera, l'imperativu afirmativu de los verbos de movimientu ye perdirectu:
 | *bidegurutzea* | cruce, interseición |
 | *zebrabidea* | pasu de cebra |
 | *biribilgunea* / *errotonda* | rotonda |
-| *aldapa* | pindia |
+| *aldapa* | cuesta |
 | *eskailerak* | escaleres |
 | *zubia* | ponte |
 | *errepidea* | carretera |
@@ -117,21 +163,21 @@ N'euskera, l'imperativu afirmativu de los verbos de movimientu ye perdirectu:
 
 ## Frases tipu
 
-- **Jo ezkerrera bidegurutzean.** — Xira a manzorga nel cruce.
-- **Segi aurrera semaforora arte.** — Sigui recto hasta'l semáforu.
-- **Zeharkatu zebrabidea.** — Cruza'l pasu de cebra.
-- **Igo eskailerak eta sartu eraikinean.** — Xubi les escaleres y entra nel edificiu.
-- **Jaitsi aldapa, eta gero jo eskuinera.** — Baxa la pindia, y llueu xira a mandrecha.
-- **Egin atzera; gehiegi joan zara.** — Vuelvi p'atrás; pasástite.
+- **Jo ezkerrera bidegurutzean.** — Xira a la izquierda nel cruce.
+- **Segi aurrera semaforora arte.** — Sigue rectu hasta'l semáforu.
+- **Zeharkatu zebrabidea.** — Crucia'l pasu de cebra.
+- **Igo eskailerak eta sartu eraikinean.** — Xube les escaleres y entra nel edificiu.
+- **Jaitsi aldapa, eta gero jo eskuinera.** — Baxa la cuesta, y depués xira a la derecha.
+- **Egin atzera; gehiegi joan zara.** — Vuelvi atrás; pasasti.
 
-## Pidir y dar indicaciones
+## Pidir y dar señes
 
-> — *Barkatu, **non dago** udaletxea?* — Perdona, ¿ónde ta'l conceyu?
+> — *Barkatu, **non dago** udaletxea?* — Perdona, ¿ú ta'l conceyu?
 >
-> — ***Segi aurrera** semaforora arte. Han **jo eskuinera** eta **zeharkatu** plaza. Udaletxea elizaren ondoan dago.* — Sigui recto hasta'l semáforu. Ellí xira a mandrecha y cruza la plaza. El conceyu ta al llau de la ilesia.
+> — ***Segi aurrera** semaforora arte. Han **jo eskuinera** eta **zeharkatu** plaza. Udaletxea elizaren ondoan dago.* — Sigue rectu hasta'l semáforu. Ellí xira a la derecha y crucia la plaza. El conceyu ta al llau de la ilesia.
 >
 > — *Eta gertu **dago**?* — ¿Y ta cerca?
 >
-> — *Bai, oso gertu. Bost minutu oinez.* — Sí, percerca. Cinco minutos a pie.
+> — *Bai, oso gertu. Bost minutu oinez.* — Sí, mui cerca. Cinco minutos a pie.
 
-> **Truco:** munches indicaciones siguen un patrón fixu: imperativu (*jo*, *segi*, *zeharkatu*) + llugar con sufixu (*ezkerrera*, *semaforora*, *zebrabidea*). Si memorices el patrón, pues encadenar instrucciones llargues combinando pieces.
+> **Trucu:** munches señes siguen un patrón fixu: imperativu (*jo*, *segi*, *zeharkatu*) + llugar con sufixu (*ezkerrera*, *semaforora*, *zebrabidea*). Si memorices el patrón, puedes encadenar instrucciones llargues combinando pieces.

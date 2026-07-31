@@ -7,60 +7,84 @@ level: a1
 order: 3
 title: Pidir la comida (eskatu)
 estimatedMinutes: 10
-covers: [ordering-food, food-bar]
+covers:
+- ordering-food
+- food-bar
 exercises:
-  - id: ex-esk-mc1
-    type: multiple-choice
-    prompt: '"De primeru, voi tomar ensalada" diz se…'
-    options: ['Hasteko, entsalada hartuko dut', 'Lehen entsalada da', 'Entsalada bat hartzen', 'Hasteko, entsaladarik']
-    answer: 0
-    explanation: '*Hasteko* (pa entamar) + *entsalada hartuko dut* (tomaré ensalada). Estructura típica.'
-  - id: ex-esk-mc2
-    type: multiple-choice
-    prompt: '"Pa min, el pescáu" diz se…'
-    options: ['Niretzat, arraina', 'Nire arraina', 'Niri arraina', 'Ni arraina dut']
-    answer: 0
-    explanation: '*Niretzat* — "pa min" (destinatariu). Ye la fórmula natural al pidir en mesa compartida.'
-  - id: ex-esk-fb1
-    type: fill-in-blank
-    prompt: 'Pa entrugar "¿y pa ti?" al to acompañante = Eta ___?'
-    answers: [zuretzat]
-    explanation: '*Zuretzat* — "pa ti" (cortés/vusté-tu).'
-  - id: ex-esk-fb2
-    type: fill-in-blank
-    prompt: '"De segundu, carne" = Bigarrenerako, ___'
-    answers: [haragia]
-    explanation: '*Bigarrenerako* — "de segundu (pal segundu platu)". *Haragia* — la carne.'
-  - id: ex-esk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer nahi duzu?', es: ¿Qué quies? }
-      - { eu: 'Zer hartuko duzu?', es: ¿Qué vas a tomar? }
-      - { eu: 'Hartuko dut...', es: 'Voi tomar...' }
-      - { eu: 'Niretzat...', es: 'Pa min...' }
-      - { eu: 'Eta zuretzat?', es: ¿Y pa ti? }
-      - { eu: 'Hasteko...', es: 'Pa entamar...' }
-      - { eu: 'Bigarrenerako...', es: 'De segundu...' }
-      - { eu: 'Postrerako...', es: 'De postre...' }
-      - { eu: 'Edateko, ardo gorria', es: 'Pa beber, vinu tintu' }
-      - { eu: 'Nahiago dut...', es: 'Prefiero...' }
-      - { eu: 'Ez dut nahi', es: 'Nun quiero' }
-      - { eu: 'Ez zait gustatzen', es: 'Nun me presta' }
+- id: ex-esk-mc1
+  type: multiple-choice
+  prompt: '"De primeru, voi tomar ensalada" dizse…'
+  options:
+  - Hasteko, entsalada hartuko dut
+  - Lehen entsalada da
+  - Entsalada bat hartzen
+  - Hasteko, entsaladarik
+  answer: 0
+  explanation: '*Hasteko* (pa entamar) + *entsalada hartuko dut* (tomaré ensalada). Estructura típica.'
+- id: ex-esk-mc2
+  type: multiple-choice
+  prompt: '"Pa min, el pescáu" dizse…'
+  options:
+  - Niretzat, arraina
+  - Nire arraina
+  - Niri arraina
+  - Ni arraina dut
+  answer: 0
+  explanation: '*Niretzat* — "pa min" (destinatariu). Ye la fórmula natural al pidir nuna mesa compartida.'
+- id: ex-esk-fb1
+  type: fill-in-blank
+  prompt: Pa entrugar "¿y pa ti?" al to acompañante = Eta ___?
+  answers:
+  - zuretzat
+  explanation: '*Zuretzat* — "pa ti" (cortés/vusté-tu).'
+- id: ex-esk-fb2
+  type: fill-in-blank
+  prompt: '"De segundu, carne" = Bigarrenerako, ___'
+  answers:
+  - haragia
+  explanation: '*Bigarrenerako* — "de segundu (pal segundu platu)". *Haragia* — la carne.'
+- id: ex-esk-fc
+  type: flashcards
+  cards:
+  - eu: Zer nahi duzu?
+    es: ¿Qué quies?
+  - eu: Zer hartuko duzu?
+    es: ¿Qué vas a tomar?
+  - eu: Hartuko dut...
+    es: Voi tomar...
+  - eu: Niretzat...
+    es: Pa min...
+  - eu: Eta zuretzat?
+    es: ¿Y pa ti?
+  - eu: Hasteko...
+    es: Pa entamar...
+  - eu: Bigarrenerako...
+    es: De segundu...
+  - eu: Postrerako...
+    es: De postre...
+  - eu: Edateko, ardo gorria
+    es: Pa beber, vinu tintu
+  - eu: Nahiago dut...
+    es: Prefiero...
+  - eu: Ez dut nahi
+    es: Nun quiero
+  - eu: Ez zait gustatzen
+    es: Nun me presta
 ---
 
-Esta lleición axunta les fórmules pa pidir en mesa: estructurar lehen/bigarren/postrea, dicir "pa min" y amosar preferencies.
+Esta lleición axunta les fórmules pa pidir na mesa: estructurar lehen/bigarren/postrea, dicir "pa min" y amosar preferencies.
 
-## La entruga del camareru
+## La pregunta del camareru
 
-El camareru va abrir con dalguna d'estes:
+El camareru va empezar con dalguna d'estes:
 
-- **Zer nahi duzu(e)?** — ¿Qué deseya(n)?
-- **Zer hartuko duzu(e)?** — ¿Qué va(n) a tomar?
-- **Pentsatu duzu(e)?** — ¿Yá lo pensó/pensaron?
+- **Zer nahi duzu(e)?** — ¿Qué quiés/queréis?
+- **Zer hartuko duzu(e)?** — ¿Qué vas/vais tomar?
+- **Pentsatu duzu(e)?** — ¿Tiéneslo/Ténislo pensao yá?
 
 ## Estructurar el pidíu
 
-Pa entamar lo que pides, hai trés marcadores perútiles:
+Pa entamar lo que pides, hai tres marcadores perútiles:
 
 | Euskera | Asturianu |
 |---|---|
@@ -73,17 +97,17 @@ Exemplu completu:
 
 > *Hasteko, entsalada nahi dut. Bigarrenerako, legatza. Postrerako, izozkia. Eta edateko, ardo zuria.*
 >
-> Pa entamar, ensalada. De segundu, pixín. De postre, xeláu. Y pa beber, vinu blancu.
+> Pa entamar, ensalada. De segundu, merluza. De postre, xeláu. Y pa beber, vinu blancu.
 
-## Trés formes de pidir
+## Tres formes de pidir
 
 | Estructura | Exemplu | Cuándo |
 |---|---|---|
-| **... hartuko dut** | *Legatza hartuko dut* | yo voi tomar... |
-| **... nahi dut** | *Legatza nahi dut* | yo quiero... |
-| **Niretzat...** | *Niretzat, legatza* | pa min... |
+| **... hartuko dut** | *Legatza hartuko dut* | Voi tomar... |
+| **... nahi dut** | *Legatza nahi dut* | Quiero... |
+| **Niretzat...** | *Niretzat, legatza* | Pa min... |
 
-`Niretzat` ye perútil cuando un comensal pide por toos: "*Niretzat legatza, eta zuretzat?*" (Pa min, pixín, ¿y pa ti?).
+`Niretzat` ye perútil cuando un comensal pide por toos: "*Niretzat legatza, eta zuretzat?*" (Pa min, merluza, ¿y pa ti?).
 
 ## Preferencies
 
@@ -93,7 +117,7 @@ Exemplu completu:
 - **Ez zait gustatzen.** — Nun me presta.
 - **... gustatzen zait.** — Préstame...
 
-## Mini-diálogu en mesa
+## Mini-diálogu na mesa
 
 > **Zerbitzaria:** *Egun on! Zer nahi duzue bazkaltzeko?*
 >
@@ -113,4 +137,4 @@ Exemplu completu:
 >
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
-> **Nota cultural:** nos restoranes pequeños ye perfrecuente qu'un comensal pida por tol grupu (*Niretzat legatza eta beretzat haragia* — pa min pixín y pa elli/ella carne). Por eso *niretzat / zuretzat / beretzat* son pallabres de muncho rindimientu dende'l primer día.
+> **Nota cultural:** nos restoranes pequeños ye perfrecuente qu'un comensal pida por tol grupu (*Niretzat legatza eta beretzat haragia* — pa min merluza y pa él/ella carne). Por eso *niretzat / zuretzat / beretzat* son pallabres perútiles dende'l primer día.
