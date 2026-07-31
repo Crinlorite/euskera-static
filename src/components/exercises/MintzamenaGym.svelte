@@ -42,8 +42,13 @@
   let hits: boolean[] = [];
   let refAudio: HTMLAudioElement | null = null;
   let myUrl: string | null = null;
-  let rec: MediaRecorder | null = null;
-  let chunks: Blob[] = [];
+  // Captura PCM cruda (nada de MediaRecorder: en iOS produce MP4 fragmentado
+  // que decodeAudioData rechaza con EncodingError)
+  let recCtx: AudioContext | null = null;
+  let recStream: MediaStream | null = null;
+  let recNode: AudioWorkletNode | ScriptProcessorNode | null = null;
+  let recSrc: MediaStreamAudioSourceNode | null = null;
+  let pcmChunks: Float32Array[] = [];
 
   const norm = (s: string) =>
     s.normalize('NFD').toLowerCase().split(/\s+/).map((w) => w.replace(/[^a-z0-9ñ]/g, '')).filter(Boolean);
@@ -109,17 +114,32 @@
     if (myUrl) new Audio(myUrl).play().catch(() => {});
   }
 
+  const WORKLET_SRC = `class P extends AudioWorkletProcessor {
+    process(inputs) { const c = inputs[0]?.[0]; if (c) this.port.postMessage(c.slice()); return true; }
+  } registerProcessor('pcm-tap', P);`;
+
   async function startRec() {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      chunks = [];
-      rec = new MediaRecorder(stream);
-      rec.ondataavailable = (e) => chunks.push(e.data);
-      rec.onstop = async () => {
-        stream.getTracks().forEach((tr) => tr.stop());
-        await analyze(new Blob(chunks, { type: rec?.mimeType || 'audio/webm' }));
-      };
-      rec.start();
+      recStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      recCtx = new AudioContext();               // rate nativo del dispositivo
+      pcmChunks = [];
+      recSrc = recCtx.createMediaStreamSource(recStream);
+      try {
+        const url = URL.createObjectURL(new Blob([WORKLET_SRC], { type: 'application/javascript' }));
+        await recCtx.audioWorklet.addModule(url);
+        URL.revokeObjectURL(url);
+        const node = new AudioWorkletNode(recCtx, 'pcm-tap');
+        node.port.onmessage = (e) => pcmChunks.push(e.data);
+        recSrc.connect(node);
+        recNode = node;
+      } catch {
+        // Fallback: ScriptProcessor (viejuno pero universal)
+        const sp = recCtx.createScriptProcessor(4096, 1, 1);
+        sp.onaudioprocess = (e) => pcmChunks.push(new Float32Array(e.inputBuffer.getChannelData(0)));
+        recSrc.connect(sp);
+        sp.connect(recCtx.destination);
+        recNode = sp;
+      }
       phase = 'recording';
     } catch (e: any) {
       errMsg = e?.name === 'NotFoundError'
@@ -128,20 +148,58 @@
       phase = 'error';
     }
   }
+
   function stopRec() {
-    if (rec && rec.state !== 'inactive') rec.stop();
+    if (!recCtx) return;
+    const rate = recCtx.sampleRate;
+    try { recSrc?.disconnect(); recNode?.disconnect(); } catch {}
+    recStream?.getTracks().forEach((tr) => tr.stop());
+    recCtx.close();
+    recCtx = null; recNode = null; recSrc = null; recStream = null;
+    const total = pcmChunks.reduce((a, c) => a + c.length, 0);
+    const raw = new Float32Array(total);
+    let off = 0;
+    for (const c of pcmChunks) { raw.set(c, off); off += c.length; }
+    pcmChunks = [];
+    analyze(raw, rate);
   }
 
-  async function analyze(blob: Blob) {
+  function wavFromFloat32(raw: Float32Array, rate: number): Blob {
+    const len = raw.length;
+    const buf = new ArrayBuffer(44 + len * 2);
+    const v = new DataView(buf);
+    const ws = (o: number, s: string) => { for (let i = 0; i < s.length; i++) v.setUint8(o + i, s.charCodeAt(i)); };
+    ws(0, 'RIFF'); v.setUint32(4, 36 + len * 2, true); ws(8, 'WAVE'); ws(12, 'fmt ');
+    v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, rate, true); v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true);
+    v.setUint16(34, 16, true); ws(36, 'data'); v.setUint32(40, len * 2, true);
+    for (let i = 0; i < len; i++) {
+      const s = Math.max(-1, Math.min(1, raw[i]));
+      v.setInt16(44 + i * 2, s < 0 ? s * 0x8000 : s * 0x7fff, true);
+    }
+    return new Blob([buf], { type: 'audio/wav' });
+  }
+
+  async function resampleTo16k(raw: Float32Array, rate: number): Promise<Float32Array> {
+    if (rate === 16000) return raw;
+    const off = new OfflineAudioContext(1, Math.ceil((raw.length * 16000) / rate), 16000);
+    const b = off.createBuffer(1, raw.length, rate);
+    b.copyToChannel(raw, 0);
+    const src = off.createBufferSource();
+    src.buffer = b;
+    src.connect(off.destination);
+    src.start();
+    const rendered = await off.startRendering();
+    return rendered.getChannelData(0);
+  }
+
+  async function analyze(raw: Float32Array, rate: number) {
     phase = 'thinking';
     if (myUrl) URL.revokeObjectURL(myUrl);
-    myUrl = URL.createObjectURL(blob);
+    myUrl = URL.createObjectURL(wavFromFloat32(raw, rate));
     try {
-      const buf = await blob.arrayBuffer();
-      const ctx = new AudioContext({ sampleRate: 16000 });
-      const decoded = await ctx.decodeAudioData(buf);
-      const mono = decoded.getChannelData(0);
-      ctx.close();
+      if (raw.length < rate * 0.3) throw new Error('grabación demasiado corta');
+      const mono = await resampleTo16k(raw, rate);
       const out = await transcriber(mono, { language: 'basque', task: 'transcribe' });
       heard = (out?.text ?? '').trim();
       const tw = norm(target);
