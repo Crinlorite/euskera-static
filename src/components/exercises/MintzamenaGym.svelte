@@ -142,9 +142,12 @@
       }
       phase = 'recording';
     } catch (e: any) {
-      errMsg = e?.name === 'NotFoundError'
-        ? 'No se ha encontrado ningún micrófono en este dispositivo.'
-        : 'No hay acceso al micrófono (permiso denegado en el navegador).';
+      const inApp = typeof (window as any).Kaixo !== 'undefined';
+      errMsg = inApp
+        ? 'El micrófono llegará a la app en su próxima actualización 📲 Mientras tanto, abre euskera.crintech.pro en Safari o Chrome y el gimnasio funciona al completo.'
+        : e?.name === 'NotFoundError'
+          ? 'No se ha encontrado ningún micrófono en este dispositivo.'
+          : 'No hay acceso al micrófono (permiso denegado en el navegador).';
       phase = 'error';
     }
   }
