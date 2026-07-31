@@ -7,30 +7,41 @@ level: a1
 order: 2
 title: Aiton-amonak (avós)
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-aa-fc
-    type: flashcards
-    cards:
-      - { eu: aitona, es: avó }
-      - { eu: amona, es: avoa }
-      - { eu: aiton-amonak, es: os avós }
-      - { eu: biloba, es: neto/a }
-      - { eu: bilobak, es: os netos }
-  - id: ex-aa-fb1
-    type: fill-in-blank
-    prompt: 'Os meus avós = nire ___.'
-    answers: [aiton-amonak]
-    explanation: '"Aiton-amonak" combina aitona + amona en plural — convención frecuente en euskera para parellas.'
-  - id: ex-aa-mc1
-    type: multiple-choice
-    prompt: '"Biloba" é...'
-    options: [o sobriño, o neto, o curmán, o sogro]
-    answer: 1
-    explanation: '"Biloba" é neto/neta. Non ten marca de xénero.'
+- id: ex-aa-fc
+  type: flashcards
+  cards:
+  - eu: aitona
+    es: avó
+  - eu: amona
+    es: avoa
+  - eu: aiton-amonak
+    es: os avós
+  - eu: biloba
+    es: neto/a
+  - eu: bilobak
+    es: os netos
+- id: ex-aa-fb1
+  type: fill-in-blank
+  prompt: Os meus avós = nire ___.
+  answers:
+  - aiton-amonak
+  explanation: '"Aiton-amonak" combina aitona + amona en plural — convención frecuente en éuscaro para parellas.'
+- id: ex-aa-mc1
+  type: multiple-choice
+  prompt: '"Biloba" é...'
+  options:
+  - o sobriño
+  - o neto
+  - o curmán
+  - o sogro
+  answer: 1
+  explanation: '"Biloba" é neto/neta. Non ten marca de xénero.'
 ---
 
-Os avós en euskera son **aitona** (avó) e **amona** (avoa). En plural, prefírese a forma combinada **aiton-amonak**, que significa "avós" (os dous xuntos).
+Os avós en éuscaro son **aitona** (avó) e **amona** (avoa). En plural, prefírese a forma combinada **aiton-amonak**, que significa "avós" (os dous xuntos).
 
 ## Vocabulario
 
@@ -44,7 +55,7 @@ Os avós en euskera son **aitona** (avó) e **amona** (avoa). En plural, prefír
 
 ## O patrón "X-Y-ak"
 
-O euskera ten unha forma elegante de falar de parellas/grupos do mesmo tipo combinando ambos os termos en plural:
+O éuscaro ten unha forma elegante de falar de parellas/grupos do mesmo tipo combinando ambos termos en plural:
 
 - **anai-arrebak** — irmáns e irmás
 - **aiton-amonak** — avós

@@ -5,72 +5,104 @@ code: 05-nire-astea
 unit: 13-agenda
 level: a1
 order: 5
-title: Meine Woche (zusammenführende Lektion)
+title: Meine Woche (zusammenfassende Lektion)
 estimatedMinutes: 12
-covers: [weekly-planning, future-koGo, time-when, days-of-week, common-verbs]
+covers:
+- weekly-planning
+- future-koGo
+- time-when
+- days-of-week
+- common-verbs
 exercises:
-  - id: ex-nast-mc1
-    type: multiple-choice
-    prompt: '"Morgen werde ich ins Sportzentrum gehen" =…'
-    options: ['Bihar kiroldegira joan naiz', 'Bihar kiroldegira joango naiz', 'Bihar kiroldegian nago', 'Kiroldegira bihar dut']
-    answer: 1
-    explanation: 'Futur: *joan + go = joango* + *naiz* (ich). *Kiroldegira* = ins Sportzentrum (Suffix -ra für das Ziel).'
-  - id: ex-nast-mc2
-    type: multiple-choice
-    prompt: '"Am Samstag verabrede ich mich mit Maialen, um einen Kaffee zu trinken" =…'
-    options: ['Larunbatean Maialenekin geratuko naiz kafea hartzeko', 'Larunbat Maialen kafea hartu', 'Maialen larunbatean kafea du', 'Larunbatean kafea Maialenekin']
-    answer: 0
-    explanation: '*Larunbatean* (am Samstag) + *Maialenekin* (mit Maialen) + *geratuko naiz* (werde ich mich verabreden) + *kafea hartzeko* (um einen Kaffee zu trinken).'
-  - id: ex-nast-fb1
-    type: fill-in-blank
-    prompt: '"Nächste Woche werde ich Prüfungen haben" = ___ astean azterketak izango ditut.'
-    answers: [Datorren]
-    explanation: '*Datorren* — "kommend". *Datorren astean* — "nächste Woche".'
-  - id: ex-nast-fb2
-    type: fill-in-blank
-    prompt: '"Am Freitag werde ich mit den Freunden ausgehen" = Ostiralean lagunekin atera___ naiz.'
-    answers: [ko]
-    explanation: '*Atera* + *ko* + *naiz* = *aterako naiz* (werde ich ausgehen). Verb auf -a → -ko.'
-  - id: ex-nast-fc
-    type: flashcards
-    cards:
-      - { eu: agenda, es: Terminkalender }
-      - { eu: 'Asteko agenda', es: Wochenplan }
-      - { eu: 'Zer egingo duzu astelehenean?', es: Was wirst du am Montag machen? }
-      - { eu: 'Kiroldegira joango naiz', es: Ich werde ins Sportzentrum gehen }
-      - { eu: 'Lagunekin afaltzera joango gara', es: Wir werden mit den Freunden zum Abendessen gehen }
-      - { eu: 'Asteburu honetan mendira joango gara', es: Dieses Wochenende werden wir in die Berge gehen }
-      - { eu: 'Datorren astean lan asko izango dut', es: Nächste Woche werde ich viel Arbeit haben }
-      - { eu: 'Ostiralean parranda egingo dugu', es: Am Freitag werden wir feiern gehen }
-      - { eu: 'Bilera dut hamarretan', es: Ich habe eine Besprechung um zehn }
-      - { eu: 'Libre zaude?', es: '¿Bist du frei?' }
-      - { eu: 'Geratuko gara?', es: 'Verabreden wir uns?' }
-  - id: ex-nast-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'datorren astean', es: nächste Woche }
-      - { eu: 'asteburuan', es: am Wochenende }
-      - { eu: 'bihar', es: morgen }
-      - { eu: 'etzi', es: übermorgen }
-      - { eu: 'gaur arratsaldean', es: heute Nachmittag }
-      - { eu: 'libre nago', es: ich bin frei }
+- id: ex-nast-mc1
+  type: multiple-choice
+  prompt: '"Morgen gehe ich ins Fitnessstudio" =…'
+  options:
+  - Bihar kiroldegira joan naiz
+  - Bihar kiroldegira joango naiz
+  - Bihar kiroldegian nago
+  - Kiroldegira bihar dut
+  answer: 1
+  explanation: 'Zukunft: *joan + go = joango* + *naiz* (ich). *Kiroldegira* = ins Fitnessstudio (Suffix -ra für die Richtung).'
+- id: ex-nast-mc2
+  type: multiple-choice
+  prompt: '"Am Samstag treffe ich mich mit Maialen auf einen Kaffee" =…'
+  options:
+  - Larunbatean Maialenekin geratuko naiz kafea hartzeko
+  - Larunbat Maialen kafea hartu
+  - Maialen larunbatean kafea du
+  - Larunbatean kafea Maialenekin
+  answer: 0
+  explanation: '*Larunbatean* (am Samstag) + *Maialenekin* (mit Maialen) + *geratuko naiz* (ich werde mich treffen) + *kafea hartzeko* (um einen Kaffee zu trinken).'
+- id: ex-nast-fb1
+  type: fill-in-blank
+  prompt: '"Nächste Woche habe ich Prüfungen" = ___ astean azterketak izango ditut.'
+  answers:
+  - Datorren
+  explanation: '*Datorren* — „nächste/kommende“. *Datorren astean* — „nächste Woche“.'
+- id: ex-nast-fb2
+  type: fill-in-blank
+  prompt: '"Am Freitag gehe ich mit Freunden aus" = Ostiralean lagunekin atera___ naiz.'
+  answers:
+  - ko
+  explanation: '*Atera* + *ko* + *naiz* = *aterako naiz* (ich werde ausgehen). Verb auf -a → -ko.'
+- id: ex-nast-fc
+  type: flashcards
+  cards:
+  - eu: agenda
+    es: Terminkalender
+  - eu: Asteko agenda
+    es: Wochenplaner
+  - eu: Zer egingo duzu astelehenean?
+    es: Was machst du am Montag?
+  - eu: Kiroldegira joango naiz
+    es: Ich gehe ins Fitnessstudio
+  - eu: Lagunekin afaltzera joango gara
+    es: Wir gehen mit Freunden essen
+  - eu: Asteburu honetan mendira joango gara
+    es: Dieses Wochenende gehen wir in die Berge
+  - eu: Datorren astean lan asko izango dut
+    es: Nächste Woche werde ich viel Arbeit haben
+  - eu: Ostiralean parranda egingo dugu
+    es: Am Freitag gehen wir aus
+  - eu: Bilera dut hamarretan
+    es: Ich habe um zehn ein Meeting
+  - eu: Libre zaude?
+    es: Bist du frei?
+  - eu: Geratuko gara?
+    es: Treffen wir uns?
+- id: ex-nast-mp
+  type: match-pairs
+  pairs:
+  - eu: datorren astean
+    es: nächste Woche
+  - eu: asteburuan
+    es: das Wochenende
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasado mañana
+  - eu: gaur arratsaldean
+    es: esta tarde
+  - eu: libre nago
+    es: estoy libre
 ---
 
-Letzte Lektion der Einheit: Wir bauen **eine ganze Woche** zusammen und vereinen alles Gelernte. Tage, Futur, Verabredungen, Zeitmarker des Wann... die Sprache des Planens.
+Abschlusslektion der Einheit: Wir werden **eine ganze Woche** zusammenstellen und dabei alles Gelernte anwenden. Tage, Zukunftsformen, Termine, Zeitangaben... die Sprache der Planung.
 
 ## Offene Frage
 
 > *Zer egingo duzu aste honetan?* — Was wirst du diese Woche machen?
 
-Eine natürliche Antwort verwendet den Tag + Futur:
+Eine natürliche Antwort würde den Tag + die Zukunftsform verwenden:
 
 > *Astelehenean kiroldegira joango naiz. Asteartean euskara klasea dut. Asteazkenean bilera bat izango dut. Ostegunean lasai egongo naiz. Ostiralean lagunekin afaltzera joango gara. Asteburuan mendira joango gara.*
 >
-> Am Montag werde ich ins Sportzentrum gehen. Am Dienstag habe ich Euskara-Unterricht. Am Mittwoch werde ich eine Besprechung haben. Am Donnerstag werde ich entspannt sein. Am Freitag werden wir mit den Freunden zum Abendessen gehen. Am Wochenende werden wir in die Berge gehen.
+> Am Montag gehe ich ins Fitnessstudio. Am Dienstag habe ich Baskischunterricht. Am Mittwoch werde ich ein Meeting haben. Am Donnerstag werde ich es ruhig angehen lassen. Am Freitag gehen wir mit Freunden essen. Am Wochenende gehen wir in die Berge.
 
-## Grundvorlage
+## Grundlegende Vorlage
 
-> **TAG + AKTIVITÄT + FUTUR**
+> **TAG + AKTIVITÄT + ZUKUNFTSFORM**
 
 | Tag | Beispielaktivität |
 |---|---|
@@ -84,27 +116,27 @@ Eine natürliche Antwort verwendet den Tag + Futur:
 
 ## Nützliche Verben für den Terminkalender
 
-| Verb | Futurform | Deutsch |
+| Verb | Zukunftsform | Deutsch |
 |---|---|---|
-| joan | joango naiz/da | ich werde gehen, er/sie wird gehen |
-| etorri | etorriko naiz/da | ich werde kommen, er/sie wird kommen |
+| joan | joango naiz/da | ich werde gehen, er/sie/es wird gehen |
+| etorri | etorriko naiz/da | ich werde kommen, er/sie/es wird kommen |
 | egon | egongo naiz | ich werde sein |
-| izan | izango da | wird sein / wird es geben |
+| izan | izango da | es wird sein / es wird geben |
 | ikusi | ikusiko dut | ich werde (es) sehen |
-| egin | egingo dut | ich werde (es) machen |
+| egin | egingo dut | ich werde (es) tun/machen |
 | jan | jango dut | ich werde (es) essen |
 | lan egin | lan egingo dut | ich werde arbeiten |
 | atera | aterako naiz | ich werde ausgehen |
-| eraman | eramango dut | ich werde (es) tragen |
+| eraman | eramango dut | ich werde (es) mitnehmen/bringen |
 | erosi | erosiko dut | ich werde (es) kaufen |
 
-## Mini-Geschichte: die Woche von Iratxe
+## Mini-Geschichte: Iratxes Woche
 
-Lies diesen erfundenen Terminkalender und achte auf die Zeitmarker:
+Lies diesen erfundenen Terminkalender und achte auf die Zeitangaben:
 
 > *Astelehenean lana dut goizean, eta arratsaldean kiroldegira joango naiz. Asteartean medikuarekin daukat hitzordua, hamabietan. Asteazkenean ez dut ezer berezirik, etxean afalduko dut lasai. Ostegunean Maialenekin geratuko naiz kafe bat hartzeko, sei eta erdietan. Ostiralean afari bat dugu lankideekin. Larunbatean asteburu pasa: Bilbora joango gara nire bikotekidearekin. Igandean buelta etxera, eta arratsaldean lasai-lasai filma bat ikusiko dut.*
 
-## Du bist dran: drei Musterantworten
+## Du bist dran: drei Modellantworten
 
 **Frage:** *Bihar zer egingo duzu?*
 
@@ -121,17 +153,17 @@ Lies diesen erfundenen Terminkalender und achte auf die Zeitmarker:
 ## Schlüsselsätze, um die Woche zu koordinieren
 
 - **Libre zaude X-(e)an?** — Bist du am X frei?
-- **Hamarretan ondo?** — Um zehn in Ordnung?
-- **Beste egun batean izan beharko du.** — Es wird ein anderer Tag sein müssen.
-- **Konforme, X-(e)an geratuko gara.** — Einverstanden, wir verabreden uns am X.
+- **Hamarretan ondo?** — Passt es um zehn?
+- **Beste egun batean izan beharko du.** — Es muss ein andermal sein.
+- **Konforme, X-(e)an geratuko gara.** — Einverstanden, wir treffen uns am X.
 
 ## Visuelle Wiederholung
 
 ```
-Vergangenheit  →  Gegenwart  →  Zukunft
-atzo              gaur           bihar — etzi — datorren astean
-joan zen          doa            joango da
-ikusi dut         ikusten dut    ikusiko dut
+Vergangenheit → Gegenwart → Zukunft
+atzo         gaur          bihar — etzi — datorren astean
+joan zen     doa            joango da
+ikusi dut    ikusten dut    ikusiko dut
 ```
 
-> **Kulturelle Anmerkung:** an vielen Orten siehst du Schilder im Stil *"Asteburu honetan jaiak"* oder *"Datorren ostiralean kontzertua"*. Die Zeitmarker wie *datorren* und *asteburu honetan* tauchen sowohl im Gespräch als auch auf jeder Informationstafel im Viertel auf. Wenn das Ohr sie erkennt, wird das Lesen der Straße viel einfacher.
+> **Kultureller Hinweis:** An vielen Orten wirst du Schilder im Stil von *"Asteburu honetan jaiak"* oder *"Datorren ostiralean kontzertua"* sehen. Zeitangaben wie *datorren* und *asteburu honetan* kommen sowohl in Gesprächen als auch auf jeder Informationstafel in der Nachbarschaft vor. Wenn das Ohr sie erkennt, wird es viel einfacher, die Straße zu lesen.

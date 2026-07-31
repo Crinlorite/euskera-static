@@ -7,54 +7,84 @@ level: a1
 order: 1
 title: Laguna, bizilaguna și alte relații
 estimatedMinutes: 10
-covers: [social-relations]
+covers:
+- social-relations
 exercises:
-  - id: ex-10-01-mp
-    type: match-pairs
-    pairs:
-      - { eu: laguna, es: prieten/ă }
-      - { eu: bizilaguna, es: vecin/ă }
-      - { eu: ikaskidea, es: coleg/ă de clasă }
-      - { eu: lankidea, es: coleg/ă de muncă }
-      - { eu: ezaguna, es: cunoscut/ă }
-      - { eu: koadrila, es: gașcă / grup de prieteni }
-  - id: ex-10-01-mc1
-    type: multiple-choice
-    prompt: 'Cine este "bizilaguna" ta?'
-    options: [Fratele tău, Șeful tău, Vecinul tău, Profesorul tău]
-    answer: 2
-    explanation: '"Bizi" (a locui) + "laguna" (tovarăș/ă) = "tovarăș/ă de locuință" → vecin/ă (de pe scara ta sau din cartier).'
-  - id: ex-10-01-mc2
-    type: multiple-choice
-    prompt: '"Lankidea" se compune din…'
-    options: ["lan (muncă) + kide (tovarăș)", "lan (muncă) + idea (idee)", "la + nike (noroc)", "lan (mult) + kide (rudă)"]
-    answer: 0
-    explanation: '"Lan" (muncă) + "kide" (membru/tovarăș) = "coleg de muncă".'
-  - id: ex-10-01-fb1
-    type: fill-in-blank
-    prompt: 'Gașca mea = nire ___.'
-    answers: [koadrila]
-    explanation: '"Koadrila" este un împrumut din spaniolul "cuadrilla" și, în Euskal Herria, este o piesă centrală a vieții sociale.'
-  - id: ex-10-01-fc
-    type: flashcards
-    cards:
-      - { eu: laguna, es: prieten/ă }
-      - { eu: lagun mina, es: prieten/ă apropiat/ă }
-      - { eu: bizilaguna, es: vecin/ă }
-      - { eu: auzokidea, es: vecin/ă (din cartier) }
-      - { eu: auzoa, es: cartier }
-      - { eu: ikaskidea, es: coleg/ă de clasă }
-      - { eu: lankidea, es: coleg/ă de muncă }
-      - { eu: ezaguna, es: cunoscut/ă }
-      - { eu: ezezaguna, es: necunoscut/ă }
-      - { eu: koadrila, es: gașcă }
-      - { eu: koadrilakide, es: membru al găștii }
-      - { eu: bikotekidea, es: partener/ă (de cuplu) }
-      - { eu: nire ondoko bizilaguna, es: vecinul/a meu/mea de alături }
-      - { eu: gazteen koadrila, es: gașca tinerilor }
+- id: ex-10-01-mp
+  type: match-pairs
+  pairs:
+  - eu: laguna
+    es: amigo/a
+  - eu: bizilaguna
+    es: vecino/a
+  - eu: ikaskidea
+    es: coleg/ă de clasă
+  - eu: lankidea
+    es: coleg/ă de muncă
+  - eu: ezaguna
+    es: conocido/a
+  - eu: koadrila
+    es: gașcă / grup de prieteni
+- id: ex-10-01-mc1
+  type: multiple-choice
+  prompt: Cine este "bizilaguna" ta?
+  options:
+  - Tu hermano
+  - Tu jefe
+  - Tu vecino
+  - Tu profesor
+  answer: 2
+  explanation: '"Bizi" (a locui) + "laguna" (coleg/ă) = "coleg/ă de locuință" → vecin/ă (de pe scara ta sau din cartier).'
+- id: ex-10-01-mc2
+  type: multiple-choice
+  prompt: '"Lankidea" se compune din…'
+  options:
+  - lan (muncă) + kide (coleg)
+  - lan (muncă) + idea (idee)
+  - la + nike (noroc)
+  - lan (mult) + kide (rudă)
+  answer: 0
+  explanation: '"Lan" (muncă) + "kide" (membru/coleg) = "coleg de muncă".'
+- id: ex-10-01-fb1
+  type: fill-in-blank
+  prompt: Gașca mea = nire ___.
+  answers:
+  - koadrila
+  explanation: '"Koadrila" este un împrumut din spaniolă ("cuadrilla") și, în Euskal Herria, este un element central al vieții sociale.'
+- id: ex-10-01-fc
+  type: flashcards
+  cards:
+  - eu: laguna
+    es: prieten/ă
+  - eu: lagun mina
+    es: prieten/ă apropiat/ă
+  - eu: bizilaguna
+    es: vecin/ă
+  - eu: auzokidea
+    es: vecin/ă (din cartier)
+  - eu: auzoa
+    es: cartier
+  - eu: ikaskidea
+    es: coleg/ă de clasă
+  - eu: lankidea
+    es: coleg/ă de muncă
+  - eu: ezaguna
+    es: cunoscut/ă
+  - eu: ezezaguna
+    es: necunoscut/ă
+  - eu: koadrila
+    es: gașcă
+  - eu: koadrilakide
+    es: membru al găștii
+  - eu: bikotekidea
+    es: partener/ă (de cuplu)
+  - eu: nire ondoko bizilaguna
+    es: vecinul / vecina de alături
+  - eu: gazteen koadrila
+    es: gașca tinerilor
 ---
 
-În această unitate ne concentrăm pe oamenii care te înconjoară: **bizilagunak** (vecinii), **lagunak** (prietenii), cei de la muncă și cei de la clasă. Limba bască are cuvinte precise pentru a distinge aceste tipuri de relație, iar multe dintre ele împărtășesc sufixul **`-kide`** ("tovarăș/membru").
+În această unitate ne concentrăm pe oamenii care te înconjoară: **bizilagunak** (vecinii), **lagunak** (prietenii), cei de la muncă și cei de la clasă. Limba bască are cuvinte precise pentru a distinge aceste tipuri de relație, iar multe dintre ele au în comun sufixul **`-kide`** ("coleg/membru").
 
 ## Cuvintele-cheie
 
@@ -66,12 +96,12 @@ exercises:
 | *auzokidea* | vecin/ă | din cartier |
 | *ikaskidea* | coleg/ă de clasă | euskaltegi, liceu, universitate |
 | *lankidea* | coleg/ă de muncă | de la birou |
-| *ezaguna* | cunoscut/ă | îți sună cunoscut, dar relație slabă |
-| *ezezaguna* | necunoscut/ă | nu îți sună cunoscut |
+| *ezaguna* | cunoscut/ă | Îți este cunoscut/ă, dar relația e superficială |
+| *ezezaguna* | necunoscut/ă | Nu îți este cunoscut/ă deloc |
 
 ## Sufixul -kide
 
-Foarte productiv în euskera. Înseamnă "membru / tovarăș":
+Foarte productiv în euskera. Înseamnă "membru / coleg":
 
 - **ikaskidea** = *ikas-* (a studia) + *kide* → coleg de studii
 - **lankidea** = *lan* (muncă) + *kide* → coleg de muncă
@@ -79,7 +109,7 @@ Foarte productiv în euskera. Înseamnă "membru / tovarăș":
 - **bizikide** = *bizi* (a locui) + *kide* → conlocuitor
 - **pisukidea** = *pisu* (apartament) + *kide* → coleg de apartament
 
-> Dacă vreodată nu îți amintești cuvântul concret, *X-kidea* funcționează ca soluție de urgență: "membru/tovarăș al grupului X".
+> Dacă vreodată nu îți amintești cuvântul concret, *X-kidea* funcționează ca soluție de urgență: "membru/coleg al grupului X".
 
 ## Bizilaguna vs auzokidea
 

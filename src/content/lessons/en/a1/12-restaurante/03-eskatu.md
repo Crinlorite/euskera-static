@@ -7,52 +7,76 @@ level: a1
 order: 3
 title: Ordering food (eskatu)
 estimatedMinutes: 10
-covers: [ordering-food, food-bar]
+covers:
+- ordering-food
+- food-bar
 exercises:
-  - id: ex-esk-mc1
-    type: multiple-choice
-    prompt: '"For starters, I''ll have salad" is said…'
-    options: ['Hasteko, entsalada hartuko dut', 'Lehen entsalada da', 'Entsalada bat hartzen', 'Hasteko, entsaladarik']
-    answer: 0
-    explanation: '*Hasteko* (to start) + *entsalada hartuko dut* (I''ll have salad). Typical structure.'
-  - id: ex-esk-mc2
-    type: multiple-choice
-    prompt: '"For me, the fish" is said…'
-    options: ['Niretzat, arraina', 'Nire arraina', 'Niri arraina', 'Ni arraina dut']
-    answer: 0
-    explanation: '*Niretzat* — "for me" (recipient). It''s the natural formula when ordering at a shared table.'
-  - id: ex-esk-fb1
-    type: fill-in-blank
-    prompt: 'To ask "and for you?" to your companion = Eta ___?'
-    answers: [zuretzat]
-    explanation: '*Zuretzat* — "for you" (polite/formal-informal).'
-  - id: ex-esk-fb2
-    type: fill-in-blank
-    prompt: '"For the main course, meat" = Bigarrenerako, ___'
-    answers: [haragia]
-    explanation: '*Bigarrenerako* — "for the main course (for the second course)". *Haragia* — the meat.'
-  - id: ex-esk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer nahi duzu?', es: What do you want? }
-      - { eu: 'Zer hartuko duzu?', es: What are you going to have? }
-      - { eu: 'Hartuko dut...', es: 'I''m going to have...' }
-      - { eu: 'Niretzat...', es: 'For me...' }
-      - { eu: 'Eta zuretzat?', es: And for you? }
-      - { eu: 'Hasteko...', es: 'To start...' }
-      - { eu: 'Bigarrenerako...', es: 'For the main course...' }
-      - { eu: 'Postrerako...', es: 'For dessert...' }
-      - { eu: 'Edateko, ardo gorria', es: 'To drink, red wine' }
-      - { eu: 'Nahiago dut...', es: 'I prefer...' }
-      - { eu: 'Ez dut nahi', es: 'I don''t want it' }
-      - { eu: 'Ez zait gustatzen', es: 'I don''t like it' }
+- id: ex-esk-mc1
+  type: multiple-choice
+  prompt: '"For starters, I''ll have salad" is said…'
+  options:
+  - Hasteko, entsalada hartuko dut
+  - Lehen entsalada da
+  - Entsalada bat hartzen
+  - Hasteko, entsaladarik
+  answer: 0
+  explanation: '*Hasteko* (to start) + *entsalada hartuko dut* (I''ll have salad). Typical structure.'
+- id: ex-esk-mc2
+  type: multiple-choice
+  prompt: '"For me, the fish" is said…'
+  options:
+  - Niretzat, arraina
+  - Nire arraina
+  - Niri arraina
+  - Ni arraina dut
+  answer: 0
+  explanation: '*Niretzat* — "for me" (recipient). It''s the natural phrase to use when ordering at a shared table.'
+- id: ex-esk-fb1
+  type: fill-in-blank
+  prompt: To ask "and for you?" to your companion = Eta ___?
+  answers:
+  - zuretzat
+  explanation: '*Zuretzat* — "for you" (the standard singular form).'
+- id: ex-esk-fb2
+  type: fill-in-blank
+  prompt: '"For the main course, meat" = Bigarrenerako, ___'
+  answers:
+  - haragia
+  explanation: '*Bigarrenerako* — "for the main course (for the second course)". *Haragia* — the meat.'
+- id: ex-esk-fc
+  type: flashcards
+  cards:
+  - eu: Zer nahi duzu?
+    es: What would you like?
+  - eu: Zer hartuko duzu?
+    es: What are you going to have?
+  - eu: Hartuko dut...
+    es: I'm going to have...
+  - eu: Niretzat...
+    es: For me...
+  - eu: Eta zuretzat?
+    es: And for you?
+  - eu: Hasteko...
+    es: To start...
+  - eu: Bigarrenerako...
+    es: For the main course...
+  - eu: Postrerako...
+    es: For dessert...
+  - eu: Edateko, ardo gorria
+    es: To drink, red wine
+  - eu: Nahiago dut...
+    es: I prefer...
+  - eu: Ez dut nahi
+    es: I don't want...
+  - eu: Ez zait gustatzen
+    es: I don't like it
 ---
 
-This lesson brings together the formulas for ordering at the table: structuring lehen/bigarren/postrea, saying "for me" and expressing preferences.
+This lesson brings together the phrases for ordering at a table: structuring your order with lehen/bigarren/postrea, saying "for me," and expressing preferences.
 
 ## The waiter's question
 
-The waiter will open with one of these:
+The waiter will likely start with one of these:
 
 - **Zer nahi duzu(e)?** — What would you like?
 - **Zer hartuko duzu(e)?** — What are you going to have?
@@ -60,7 +84,7 @@ The waiter will open with one of these:
 
 ## Structuring your order
 
-To organize what you order, there are three very useful markers:
+To organize your order, there are three very useful phrases:
 
 | Euskera | English |
 |---|---|
@@ -77,11 +101,11 @@ Complete example:
 
 ## Three ways to order
 
-| Structure | Example | When |
+| Structure | Example | Meaning |
 |---|---|---|
 | **... hartuko dut** | *Legatza hartuko dut* | I'm going to have... |
 | **... nahi dut** | *Legatza nahi dut* | I want... |
-| **Niretzat...** | *Niretzat, legatza* | for me... |
+| **Niretzat...** | *Niretzat, legatza* | For me... |
 
 `Niretzat` is very useful when one diner orders for everyone: "*Niretzat legatza, eta zuretzat?*" (For me, hake, and for you?).
 
@@ -113,4 +137,4 @@ Complete example:
 >
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
-> **Cultural note:** in small restaurants it's very common for one diner to order for the whole group (*Niretzat legatza eta beretzat haragia* — for me hake and for him/her meat). That's why *niretzat / zuretzat / beretzat* are highly productive words from day one.
+> **Cultural note:** in small restaurants, it's very common for one diner to order for the whole group (*Niretzat legatza eta beretzat haragia* — for me hake and for him/her meat). That's why *niretzat / zuretzat / beretzat* are very useful words to know from day one.

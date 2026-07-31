@@ -7,38 +7,60 @@ level: a1
 order: 5
 title: Quantos irmãos você tem? (Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: 'Tenho dois irmãos = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" = "eu tenho (vários)" — forma de "ukan" (ter) NOR-NORK.'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: 'Como se diz "três" em euskera?'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: um }
-      - { eu: bi, es: dois }
-      - { eu: hiru, es: três }
-      - { eu: lau, es: quatro }
-      - { eu: bost, es: cinco }
-      - { eu: hamar, es: dez }
-      - { eu: 'Zenbat senide zarete?', es: Quantos irmãos vocês são? }
-      - { eu: senide, es: irmão/irmã (genérico) }
-      - { eu: dut, es: tenho (1 coisa) }
-      - { eu: ditut, es: tenho (várias coisas) }
-      - { eu: ez dut anaiarik, es: não tenho irmãos (negação com -rik) }
-      - { eu: 'Zenbat urte dituzu?', es: 'Quantos anos você tem?' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: Tenho dois irmãos = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "eu tenho (vários)" — forma de "ukan" (ter) NOR-NORK.'
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: Como se diz "três" em euskera?
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: um
+  - eu: bi
+    es: dois
+  - eu: hiru
+    es: três
+  - eu: lau
+    es: quatro
+  - eu: bost
+    es: cinco
+  - eu: hamar
+    es: dez
+  - eu: Zenbat senide zarete?
+    es: Quantos irmãos vocês são?
+  - eu: senide
+    es: irmão/irmã (genérico)
+  - eu: dut
+    es: tenho (1 coisa)
+  - eu: ditut
+    es: tenho (várias coisas)
+  - eu: ez dut anaiarik
+    es: não tenho irmãos (negação com -rik)
+  - eu: Zenbat urte dituzu?
+    es: Quantos anos você tem?
 ---
 
-Para falar de quantos membros uma família tem, usamos:
+Para falar sobre quantos membros uma família tem, usamos:
 
-- **Zenbat senide zarete?** → "Quantos irmãos vocês são?" (pergunta-se no plural: o total de irmãos, você incluído)
+- **Zenbat senide zarete?** → "Quantos irmãos vocês são?" (pergunta-se no plural: o total de irmãos, incluindo você)
 - **Familia handi/txiki bat dut.** → "Tenho uma família grande/pequena."
 
 ## Números de 1 a 10
@@ -56,7 +78,7 @@ Para falar de quantos membros uma família tem, usamos:
 | 9 | *bederatzi* |
 | 10 | *hamar* |
 
-## Dizer quantos você tem
+## Como dizer quantos você tem
 
 Aqui entra uma primeira forma do verbo **ukan** (ter), que veremos a fundo nas próximas lições:
 
@@ -77,4 +99,4 @@ Aqui entra uma primeira forma do verbo **ukan** (ter), que veremos a fundo nas p
 
 - **Zenbat urte dituzu?** — Quantos anos você tem?
 - **Hogeita hamar urte ditut.** — Tenho trinta anos.
-- **Hirurogeita hamabost urte ditu.** — Tem setenta e cinco anos.
+- **Hirurogeita hamabost urte ditu.** — Ele/Ela tem setenta e cinco anos.

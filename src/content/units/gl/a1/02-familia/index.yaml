@@ -3,14 +3,14 @@ code: 02-familia
 level: a1
 title: A familia
 order: 2
-description: Vocabulario e patróns para falar da túa familia e a doutros.
+description: Vocabulario e patróns para falar da túa familia e da de outros.
 estimatedMinutes: 55
 covers:
-  - family-basics
-  - family-extended
-  - possessives
-  - ukan-basic
-  - ukan-plural-objects
-  - partitive-rik
-  - numbers-1-20
-  - ages
+- family-basics
+- family-extended
+- possessives
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages

@@ -1,0 +1,13 @@
+id: a2-natura
+code: 09-natura-kirola-aisia
+level: a2
+title: Natura, kirola eta aisia — muntanya, esport i temps lliure
+order: 9
+description: Natura i animals, esport, aficions amb -tzea i els plans d'oci del cap de setmana.
+estimatedMinutes: 65
+covers:
+- a2-nature-vocab
+- a2-animals
+- a2-sports
+- a2-hobbies
+- a2-weekend-leisure

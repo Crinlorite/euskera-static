@@ -7,30 +7,43 @@ level: a1
 order: 3
 title: Possessius (nire, zure, bere…)
 estimatedMinutes: 10
-covers: [possessives]
+covers:
+- possessives
 exercises:
-  - id: ex-pos-mp
-    type: match-pairs
-    pairs:
-      - { eu: nire, es: el meu/meu }
-      - { eu: zure, es: el teu/teu }
-      - { eu: bere, es: el seu (d'ell/ella) }
-      - { eu: gure, es: el nostre }
-      - { eu: zuen, es: el vostre }
-      - { eu: beren, es: el seu (d'ells) }
-  - id: ex-pos-fb1
-    type: fill-in-blank
-    prompt: 'La meva mare = ___ ama.'
-    answers: [nire, Nire]
-  - id: ex-pos-mc1
-    type: multiple-choice
-    prompt: Com dius "la nostra casa" en euskera?
-    options: [nire etxea, zure etxea, gure etxea, beren etxea]
-    answer: 2
-    explanation: '"Gure" és el possessiu de "nosaltres".'
+- id: ex-pos-mp
+  type: match-pairs
+  pairs:
+  - eu: nire
+    es: meu/meva
+  - eu: zure
+    es: tu/tuyo
+  - eu: bere
+    es: seu/seva (d'ell/ella)
+  - eu: gure
+    es: nuestro
+  - eu: zuen
+    es: vuestro
+  - eu: beren
+    es: seu/seva (d'ells/elles)
+- id: ex-pos-fb1
+  type: fill-in-blank
+  prompt: La meva mare = ___ ama.
+  answers:
+  - nire
+  - Nire
+- id: ex-pos-mc1
+  type: multiple-choice
+  prompt: Com dius "la nostra casa" en basc?
+  options:
+  - nire etxea
+  - zure etxea
+  - gure etxea
+  - beren etxea
+  answer: 2
+  explanation: '"Gure" és el possessiu de "nosaltres".'
 ---
 
-Els possessius en euskera es col·loquen **abans del substantiu**, igual que en català. No canvien de forma segons el gènere de l'objecte posseït (no hi ha "meu/meva", només *nire*).
+Els possessius en basc es col·loquen **davant del substantiu**, igual que en català. No canvien de forma segons el gènere de l'objecte posseït (no hi ha "meu/meva", només *nire*).
 
 ## Taula completa
 
@@ -41,7 +54,7 @@ Els possessius en euskera es col·loquen **abans del substantiu**, igual que en 
 | hura | **bere** | bere arreba | la seva germana (d'ell/ella) |
 | gu | **gure** | gure etxea | la nostra casa |
 | zuek | **zuen** | zuen lagunak | els vostres amics |
-| haiek | **beren** | beren autoa | el seu cotxe (d'ells) |
+| haiek | **beren** | beren autoa | el seu cotxe (d'ells/elles) |
 
 > A diferència del català, el substantiu **conserva l'article `-a`** encara que porti possessiu: *gure etxea* (la nostra casa), *zuen lagunak* (els vostres amics), *beren autoa* (el seu cotxe). En paraules que ja acaben en `-a` (com *ama* o *arreba*) l'article no s'aprecia: *nire ama*.
 

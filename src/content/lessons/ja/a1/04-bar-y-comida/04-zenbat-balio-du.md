@@ -7,81 +7,118 @@ level: a1
 order: 4
 title: Zenbat balio du? 値段と数量
 estimatedMinutes: 11
-covers: [prices, numbers-1-100]
+covers:
+- prices
+- numbers-1-100
 exercises:
-  - id: ex-zbd-mc1
-    type: multiple-choice
-    prompt: '「Zenbat balio du?」の意味は…'
-    options: ["いくらですか？", "何歳ですか？", "重さはどれくらいですか？", "いくつありますか？"]
-    answer: 0
-    explanation: '*zenbat* = どれくらい／いくつ；*balio* = 値する／かかる；*du* =「彼・彼女が持っている／かかる」。'
-  - id: ex-zbd-mc2
-    type: multiple-choice
-    prompt: 'エウスケラで「20」はどう言いますか？'
-    options: [hamar, hamabost, hogei, ehun]
-    answer: 2
-    explanation: '*hogei* = 20。エウスケラの二十進法の基礎となる数です。'
-  - id: ex-zbd-fb1
-    type: fill-in-blank
-    prompt: '3ユーロです = ___ euro balio du.'
-    answers: [hiru]
-    explanation: '*hiru* = 3。'
-  - id: ex-zbd-fb2
-    type: fill-in-blank
-    prompt: 'コーヒーを2杯いただきます = Bi kafe ___ ___.'
-    answers: [hartuko ditut]
-    explanation: '「複数のもの」には *dut* の代わりに *ditut* を使います。'
-  - id: ex-zbd-fc
-    type: flashcards
-    cards:
-      - { eu: hamar, es: "10" }
-      - { eu: hamabi, es: "12" }
-      - { eu: hamabost, es: "15" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita bost, es: "25" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: laurogei, es: "80" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: ユーロ }
-      - { eu: zentimo, es: セント }
-      - { eu: 'Zenbat balio du?', es: 'いくらですか？' }
-      - { eu: 'Zenbat dira denera?', es: '全部でいくらですか？' }
-      - { eu: garesti, es: 高い }
-      - { eu: merke, es: 安い }
-  - id: ex-zbd-mp
-    type: match-pairs
-    pairs:
-      - { eu: hamar, es: "10" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: ユーロ }
+- id: ex-zbd-mc1
+  type: multiple-choice
+  prompt: '"Zenbat balio du?" は…という意味です。'
+  options:
+  - いくらですか？
+  - 何歳ですか？
+  - 重さはどのくらいですか？
+  - いくつありますか？
+  answer: 0
+  explanation: '*zenbat* = いくら／いくつ; *balio* = 価値がある／値段がする; *du* = 「彼／彼女は持つ／値段がする」。'
+- id: ex-zbd-mc2
+  type: multiple-choice
+  prompt: バスク語で「20」は何と言いますか？
+  options:
+  - hamar
+  - hamabost
+  - hogei
+  - ehun
+  answer: 2
+  explanation: '*hogei* = 20。バスク語の二十進法の基本です。'
+- id: ex-zbd-fb1
+  type: fill-in-blank
+  prompt: 3ユーロです = ___ euro balio du.
+  answers:
+  - hiru
+  explanation: '*hiru* = 3。'
+- id: ex-zbd-fb2
+  type: fill-in-blank
+  prompt: コーヒーを2つお願いします = Bi kafe ___ ___.
+  answers:
+  - hartuko ditut
+  explanation: 「複数のもの」には *dut* の代わりに *ditut* を使います。
+- id: ex-zbd-fc
+  type: flashcards
+  cards:
+  - eu: hamar
+    es: '10'
+  - eu: hamabi
+    es: '12'
+  - eu: hamabost
+    es: '15'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita bost
+    es: '25'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: laurogei
+    es: '80'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: ユーロ
+  - eu: zentimo
+    es: セント
+  - eu: Zenbat balio du?
+    es: いくらですか？
+  - eu: Zenbat dira denera?
+    es: 全部でいくらですか？
+  - eu: garesti
+    es: 高い
+  - eu: merke
+    es: 安い
+- id: ex-zbd-mp
+  type: match-pairs
+  pairs:
+  - eu: hamar
+    es: '10'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: euro
 ---
 
-エウスケラで値段を尋ね、会計のときに言われることを理解するには、2つのものが必要です。**Zenbat balio du?** という決まり文句と、100までの数です。エウスケラの数のシステムは**二十進法**（20のグループを基礎とする）なので、少し慣れが必要です。
+バスク語で値段を尋ねたり、支払いの際に言われることを理解したりするには、**Zenbat balio du?** という決まり文句と100までの数字、この2つが必要です。バスク語の数字の数え方は**二十進法**（20をひとつのグループとして数える）なので、少し慣れが必要です。
 
-## 重要な質問
+## 基本の質問
 
-| エウスケラ | 日本語 |
+| バスク語 | 日本語 |
 |---|---|
 | *Zenbat balio du?* | いくらですか？ |
 | *Zenbat da?* | いくらですか？ |
 | *Zenbat dira denera?* | 全部でいくらですか？ |
 | *Pagatu daiteke?* | お会計できますか？（勘定を頼む） |
 
-> **Zenbat** は「どれくらい／いくつ」です — すでに *Zenbat urte dituzu?*（「何歳ですか？」）で見ましたね。**Balio** =「値する／かかる」。
+> **Zenbat** は「いくら／いくつ」という意味です。*Zenbat urte dituzu?*（「何歳ですか？」）で既に出てきましたね。**Balio** = 「価値がある／値段がする」。
 
-## 20までの数（おさらい）
+## 20までの数字（復習）
 
-家族のユニットで1から10まではすでに見ました。ここでは11から20までです。
+1から10までは家族のユニットで学びました。ここでは11から20までを見ていきましょう。
 
-| 数 | エウスケラ |
+| 数字 | バスク語 |
 |---|---|
 | 11 | *hamaika* |
 | 12 | *hamabi* (hamar + bi) |
@@ -94,15 +131,15 @@ exercises:
 | 19 | *hemeretzi* |
 | 20 | *hogei* |
 
-> 12から17までは、*hamar*（「10」）+ 数字という作りに注目してください。*hamabi* =「10-2」= 12です。*Hamaika*（11）と *hemezortzi*／*hemeretzi*（18、19）は不規則です。
+> 12から17までは、*hamar*（「10」）+ 数字という形になっていることに注目してください。例えば *hamabi* = 「10-2」= 12です。*Hamaika*（11）と *hemezortzi*/*hemeretzi*（18、19）は不規則です。
 
-## 十の位：二十進法
+## 10の位：二十進法
 
-ここがエウスケラの驚きどころです。十の位は**20のグループ**で数えます。
+ここがバスク語の面白いところです。10の位は**20をひとつのグループとして**数えます。
 
-| 数 | エウスケラ | 仕組み |
+| 数字 | バスク語 | 仕組み |
 |---|---|---|
-| 20 | *hogei* | 基礎 |
+| 20 | *hogei* | 基本 |
 | 30 | *hogeita hamar* | 「20と10」 |
 | 40 | *berrogei* | 「2倍の20」（*ber-* = 2倍） |
 | 50 | *berrogeita hamar* | 「2倍の20と10」 |
@@ -110,13 +147,13 @@ exercises:
 | 70 | *hirurogeita hamar* | 「3つの20と10」 |
 | 80 | *laurogei* | 「4つの20」 |
 | 90 | *laurogeita hamar* | 「4つの20と10」 |
-| 100 | *ehun* | 基礎 |
+| 100 | *ehun* | 基本 |
 
-> 中間の数も同じ仕組みに従います。25 = *hogeita bost*（「20と5」）、67 = *hirurogeita zazpi*（「3つの20と7」）。最初は難しいですが、バルや値段で練習すれば自然にできるようになります。
+> 間の数字も同じ仕組みです。25 = *hogeita bost*（「20と5」）、67 = *hirurogeita zazpi*（「3つの20と7」）。最初は難しく感じますが、バルで値段を聞いたりして練習すれば自然に身につきます。
 
-## 値段を言う
+## 値段の言い方
 
-| 値段 | エウスケラ |
+| 値段 | バスク語 |
 |---|---|
 | 1 € | *euro bat* |
 | 2 € | *bi euro* |
@@ -124,29 +161,29 @@ exercises:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> **euro** は数の後に来るとき `-a` が付かないことに注目してください（*bi anaia*「兄弟2人」と同じです）。ちょうどのセントの金額は日本語と同じように言います。*hiru euro eta berrogeita hamar zentimo*（3,50 €）。
+> 数字の後に続く場合、**euro** には `-a` が付かないことに注意してください（*bi anaia*「2人の兄弟」と同じです）。セント単位の正確な金額は、スペイン語と同じように言います：*hiru euro eta berrogeita hamar zentimo*（3.50€）。
 
-## 複数の品物を買う
+## 複数のものを買う
 
-1つより多く注文するときは、*dut*／*dugu* の代わりに **ditut** または **ditugu** を使うことを忘れないでください。
+複数のものを頼むときは、*dut*/*dugu* の代わりに **ditut** や **ditugu** を使うことを覚えておきましょう。
 
-- *Bi kafe hartuko ditut.* — コーヒーを2杯いただきます。
-- *Hiru ogitarteko hartuko ditugu.* — サンドイッチを3ついただきます。
+- *Bi kafe hartuko ditut.* — コーヒーを2つお願いします。
+- *Hiru ogitarteko hartuko ditugu.* — サンドイッチを3つお願いします。
 
-## 値段について話す形容詞
+## 値段に関する形容詞
 
-- **garesti** — 高い（冠詞付きで *garestia* とも）
-- **merke** — 安い（冠詞付きで *merkea*）
+- **garesti** — 高い（定冠詞付きは *garestia*）
+- **merke** — 安い（定冠詞付きは *merkea*）
 - **doan** — 無料
 
-> *Hau oso garestia da!* — これはとても高い！
-> *Bilbon kafea merkea da.* — Bilbon ではコーヒーが安い。
+> *Hau oso garestia da!* — これはとても高いです！
+> *Bilbon kafea merkea da.* — ビルバオではコーヒーは安いです。
 
 ## ミニ会話
 
 > — *Kafe hutsa eta ogitarteko bat. Zenbat balio du denera?*
 >
-> ブラックコーヒー1杯とサンドイッチ1つ。全部でいくらですか？
+> ブラックコーヒーとサンドイッチを1つ。全部でいくらですか？
 >
 > — *Lau euro eta berrogeita hamar.*
 >
@@ -158,4 +195,4 @@ exercises:
 >
 > — *Eskerrik asko, eta hementxe duzu bueltakoa.*
 >
-> ありがとうございます、こちらがお釣りです。
+> ありがとうございます。はい、お釣りです。

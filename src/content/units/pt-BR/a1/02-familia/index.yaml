@@ -3,14 +3,14 @@ code: 02-familia
 level: a1
 title: A família
 order: 2
-description: Vocabulário e estruturas para falar da sua família e da família dos outros.
+description: Vocabulário e estruturas para falar da sua família e da de outros.
 estimatedMinutes: 55
 covers:
-  - family-basics
-  - family-extended
-  - possessives
-  - ukan-basic
-  - ukan-plural-objects
-  - partitive-rik
-  - numbers-1-20
-  - ages
+- family-basics
+- family-extended
+- possessives
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages

@@ -7,124 +7,170 @@ level: a1
 order: 1
 title: Lòcs deth pòble
 estimatedMinutes: 10
-covers: [places-town]
+covers:
+- places-town
 exercises:
-  - id: ex-hl-mp
-    type: match-pairs
-    pairs:
-      - { eu: taberna, es: bar }
-      - { eu: okindegia, es: panaderia }
-      - { eu: botika, es: farmàcia }
-      - { eu: liburutegia, es: bibliotèca }
-      - { eu: eliza, es: glèisa }
-      - { eu: merkatua, es: mercat }
-      - { eu: banketxea, es: banca }
-      - { eu: ospitalea, es: espitau }
-  - id: ex-hl-mc1
-    type: multiple-choice
-    prompt: As de crompar pan. A quin tipe de botiga vas?
-    options: [okindegia, botika, ile-apaindegia, postetxea]
-    answer: 0
-    explanation: '"Okindegia" ei era panaderia. "Oki(n)" se restigue a "ogi" (pan) — eth lòc deth pan.'
-  - id: ex-hl-mc2
-    type: multiple-choice
-    prompt: '"Osasun-etxea" ei…'
-    options: [era casa deth comun, eth centre de salut, era oficina de corrèus, era perruqueria]
-    answer: 1
-    explanation: '"Osasun" vò díder "salut" e "etxe(a)" ei "casa": literaument "casa dera salut" = ambulatòri o centre de salut.'
-  - id: ex-hl-fb1
-    type: fill-in-blank
-    prompt: 'Vau a trèir sòs, vau ara banca = ___ noa.'
-    answers: [Banketxera, banketxera]
-    explanation: '"Banketxe" (banca) + sufixe -ra de direccion = banketxera, "ara banca".'
-  - id: ex-hl-fc
-    type: flashcards
-    cards:
-      - { eu: taberna, es: bar }
-      - { eu: kafetegia, es: cafeteria }
-      - { eu: jatetxea, es: restaurant }
-      - { eu: okindegia, es: panaderia }
-      - { eu: harategia, es: carnisseria }
-      - { eu: arrandegia, es: peisheteria }
-      - { eu: fruta-denda, es: fruteria }
-      - { eu: botika, es: farmàcia }
-      - { eu: merkatua, es: mercat }
-      - { eu: supermerkatua, es: supermercat }
-      - { eu: banketxea, es: banca }
-      - { eu: kutxazain automatikoa, es: caisha automatica }
-      - { eu: liburutegia, es: bibliotèca }
-      - { eu: liburu-denda, es: libraria }
-      - { eu: ile-apaindegia, es: perruqueria }
-      - { eu: postetxea, es: oficina de corrèus }
-      - { eu: udaletxea, es: casa deth comun }
-      - { eu: osasun-etxea, es: centre de salut }
-      - { eu: ospitalea, es: espitau }
-      - { eu: eliza, es: glèisa }
-      - { eu: eskola, es: escòla }
-      - { eu: euskaltegia, es: escòla d'euskera }
-      - { eu: kiroldegia, es: polisportiu }
-      - { eu: parkea, es: parc }
-      - { eu: autobus-geltokia, es: parada d'autobús }
-      - { eu: tren-geltokia, es: estacion de tren }
-      - { eu: gasolindegia, es: gasolinèra }
+- id: ex-hl-mp
+  type: match-pairs
+  pairs:
+  - eu: taberna
+    es: bar
+  - eu: okindegia
+    es: forn de pan
+  - eu: botika
+    es: farmacia
+  - eu: liburutegia
+    es: biblioteca
+  - eu: eliza
+    es: iglesia
+  - eu: merkatua
+    es: mercado
+  - eu: banketxea
+    es: banco
+  - eu: ospitalea
+    es: hospital
+- id: ex-hl-mc1
+  type: multiple-choice
+  prompt: As de besonh crompar pan. A quin tipe de botiga vas?
+  options:
+  - okindegia
+  - botika
+  - ile-apaindegia
+  - postetxea
+  answer: 0
+  explanation: '"Okindegia" ei eth forn de pan. "Oki(n)" se relacione damb "ogi" (pan) — eth lòc deth pan.'
+- id: ex-hl-mc2
+  type: multiple-choice
+  prompt: '"Osasun-etxea" ei…'
+  options:
+  - er ajuntament
+  - eth centre de salut
+  - eth burèu de corrèus
+  - era perruqueria
+  answer: 1
+  explanation: '"Osasun" vò díder "salut" e "etxe(a)" ei "casa": literaument "casa dera salut" = ambulatòri o centre de salut.'
+- id: ex-hl-fb1
+  type: fill-in-blank
+  prompt: Vau a trèir sòs, vau ath banc = ___ noa.
+  answers:
+  - Banketxera
+  - banketxera
+  explanation: '"Banketxe" (banc) + sufix -ra de direccion = banketxera, "ath banc".'
+- id: ex-hl-fc
+  type: flashcards
+  cards:
+  - eu: taberna
+    es: bar
+  - eu: kafetegia
+    es: cafeteria
+  - eu: jatetxea
+    es: restaurant
+  - eu: okindegia
+    es: forn de pan
+  - eu: harategia
+    es: carnisseria
+  - eu: arrandegia
+    es: peisheria
+  - eu: fruta-denda
+    es: fruteria
+  - eu: botika
+    es: farmacia
+  - eu: merkatua
+    es: mercat
+  - eu: supermerkatua
+    es: supermercat
+  - eu: banketxea
+    es: banc
+  - eu: kutxazain automatikoa
+    es: caishièr automatic
+  - eu: liburutegia
+    es: bibliotèca
+  - eu: liburu-denda
+    es: libreria
+  - eu: ile-apaindegia
+    es: perruqueria
+  - eu: postetxea
+    es: burèu de corrèus
+  - eu: udaletxea
+    es: ajuntament
+  - eu: osasun-etxea
+    es: centre de salut
+  - eu: ospitalea
+    es: espitau
+  - eu: eliza
+    es: glèisa
+  - eu: eskola
+    es: escòla
+  - eu: euskaltegia
+    es: escòla de basc
+  - eu: kiroldegia
+    es: poliesportiu
+  - eu: parkea
+    es: parc
+  - eu: autobus-geltokia
+    es: arrèst de bus
+  - eu: tren-geltokia
+    es: gara de tren
+  - eu: gasolindegia
+    es: gasolinèra
 ---
 
-Abans de saber balhar indicacions, as de besonh deth vocabulari basic entà parlar deth quartièr (**auzoa**) e deth pòble (**herria**). En aguesta leçon amassam es lòcs e servicis mès tipics.
+Abantes de saber dar indicacions, as de besonh eth vocabulari basic entà parlar deth barri (**auzoa**) e deth pòble (**herria**). En aguesta leccion amassam es lòcs e servicis mès tipics.
 
 ## Botigues e comèrç
 
-| Euskera | Occitan aranés |
+| Basc | Castelhan |
 |---|---|
 | *taberna* | bar |
 | *kafetegia* | cafeteria |
 | *jatetxea* | restaurant |
-| *okindegia* | panaderia |
+| *okindegia* | forn de pan |
 | *harategia* | carnisseria |
-| *arrandegia* | peisheteria |
+| *arrandegia* | peisheria |
 | *fruta-denda* | fruteria |
-| *gozoki-denda* | botiga de lecaries |
+| *gozoki-denda* | botiga de chucherias |
 | *merkatua* / *supermerkatua* | mercat / supermercat |
 | *jantzi-denda* | botiga de ròba |
-| *liburu-denda* | libraria |
+| *liburu-denda* | libreria |
 | *loradenda* | floristeria |
 
-> Fòrça mots seguissen eth patron **producte + denda** ("botiga de…"): *fruta-denda*, *liburu-denda*, *jantzi-denda*. Se coneishes eth producte, sabes eth lòc.
+> Fòrça paraules seguissen eth patron **producte + denda** ("botiga de…"): *fruta-denda*, *liburu-denda*, *jantzi-denda*. Se coneishes eth producte, sabs eth lòc.
 
 ## Servicis
 
-| Euskera | Occitan aranés |
+| Basc | Castelhan |
 |---|---|
-| *banketxea* / *aurrezki-kutxa* | banca / caisha d'estauvis |
-| *kutxazain automatikoa* | caisha automatica |
-| *postetxea* | oficina de corrèus |
-| *udaletxea* | casa deth comun |
+| *banketxea* / *aurrezki-kutxa* | banc / caisha d'estalvis |
+| *kutxazain automatikoa* | caishièr automatic |
+| *postetxea* | burèu de corrèus |
+| *udaletxea* | ajuntament |
 | *osasun-etxea* | centre de salut |
 | *ospitalea* | espitau |
-| *botika* / *farmazia* | farmàcia |
+| *botika* / *farmazia* | farmacia |
 | *ile-apaindegia* | perruqueria |
 | *liburutegia* | bibliotèca |
 | *eskola* / *ikastola* | escòla |
-| *euskaltegia* | escòla d'euskera |
+| *euskaltegia* | escòla de basc |
 | *eliza* | glèisa |
-| *kiroldegia* | polisportiu |
+| *kiroldegia* | poliesportiu |
 | *parkea* | parc |
 
 ## Transpòrt e comunicacion
 
-| Euskera | Occitan aranés |
+| Basc | Castelhan |
 |---|---|
-| *autobus-geltokia* | parada d'autobús |
-| *tren-geltokia* | estacion de tren |
+| *autobus-geltokia* | arrèst de bus |
+| *tren-geltokia* | gara de tren |
 | *aireportua* | aeropòrt |
 | *gasolindegia* | gasolinèra |
 | *aparkalekua* | aparcament |
 
-## Eth sufixe -tegi e companhia
+## Eth sufix -tegi e companhia
 
-Fixa-te en aguesti sufixes productius: apareishen un viatge e un aute.
+Fixa-te en aguesti sufixes productius: apareishen un còp e un aute.
 
-- **-tegi** → lòc a on i a quauquarren: *euskal·tegi* (lòc der euskera), *ile-apain·degi* (lòc d'apraiar es peus), *liburu·tegi* (lòc des libres).
-- **-degi / -tegi** → varianta damb era madeisha idèa: *gasolin·degi*, *okin·degi*.
-- **-etxe** ("casa") → *udal·etxe* (casa deth conselh), *osasun·etxe* (casa dera salut), *jatetxe* (lòc de minjar).
+- **-tegi** → lòc a on i a quauquarren: *euskal·tegi* (lòc deth basc), *ile-apain·degi* (lòc d'adobar eth peu), *liburu·tegi* (lòc des libres).
+- **-degi / -tegi** → variant damb era madeisha idèa: *gasolin·degi*, *okin·degi*.
+- **-etxe** ("casa") → *udal·etxe* (casa der ajuntament), *osasun·etxe* (casa dera salut), *jatetxe* (lòc de manjar).
 
-> **Nòta culturau:** en fòrça quartièrs e pòbles basqui era **taberna** e era **plaça** son es punts de reünion per excelléncia, e eth **frontoia** (frontón) sòl èster ath costat dera glèisa. Un *euskaltegi* ei justament era escòla a on ès aprenent aguesta lengua.
+> **Nòta culturau:** en fòrça barris e pòbles bascos era **taberna** e era **plaça** son es punts de amassada per excelléncia, e eth **frontoia** (fronton) solet èster ath costat dera glèisa. Un *euskaltegi* ei justament era escòla a on aprenes aguesta lengua.

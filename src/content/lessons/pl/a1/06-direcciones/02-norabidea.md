@@ -5,108 +5,154 @@ code: 02-norabidea
 unit: 06-direcciones
 level: a1
 order: 2
-title: Wskazówki na ulicy
+title: Wskazywanie drogi na ulicy
 estimatedMinutes: 10
-covers: [route-instructions, directions, common-verbs]
+covers:
+- route-instructions
+- directions
+- common-verbs
 exercises:
-  - id: ex-no-mp
-    type: match-pairs
-    pairs:
-      - { eu: jo ezkerrera, es: skręć w lewo }
-      - { eu: jo eskuinera, es: skręć w prawo }
-      - { eu: segi aurrera, es: idź prosto / przed siebie }
-      - { eu: zeharkatu, es: przejdź na drugą stronę }
-      - { eu: igo eskailerak, es: wejdź po schodach }
-      - { eu: jaitsi aldapa, es: zejdź ze wzniesienia }
-      - { eu: egin atzera, es: zawróć }
-  - id: ex-no-mc1
-    type: multiple-choice
-    prompt: 'Jak powiesz "skręć w lewo na światłach"?'
-    options: ["Jo ezkerrera semaforora", "Jo ezkerrera semaforoan", "Joan semaforoa ezkerrera", "Semaforora ezkerrera"]
-    answer: 1
-    explanation: '"Jo ezkerrera" (skręć w lewo) + lokalizacja z "-an": "semaforoan" (na światłach).'
-  - id: ex-no-mc2
-    type: multiple-choice
-    prompt: '"Zeharkatu" oznacza…'
-    options: ["iść prosto", "przejść na drugą stronę", "skręcić", "wejść do góry"]
-    answer: 1
-    explanation: 'Od "zehar" (w poprzek). "Zeharkatu kalea / zebrabidea" = przejść przez ulicę / przez przejście dla pieszych.'
-  - id: ex-no-fb1
-    type: fill-in-blank
-    prompt: 'Idź prosto = ___ aurrera.'
-    answers: [Segi, segi, Jarraitu, jarraitu]
-    explanation: '"Segi aurrera" lub "jarraitu aurrera" — oba poprawne dla "idź prosto".'
-  - id: ex-no-mc3
-    type: multiple-choice
-    prompt: 'Chcesz zapytać o drogę do szpitala. Co mówisz?'
-    options: ["Non dago ospitalea?", "Nora doa ospitalea?", "Nondik dator ospitalea?", "Nongoa da ospitalea?"]
-    answer: 0
-    explanation: '"Non dago…?" pyta, gdzie coś się znajduje; idealne do pytania o drogę.'
-  - id: ex-no-fc
-    type: flashcards
-    cards:
-      - { eu: ezkerra, es: lewo }
-      - { eu: eskuina, es: prawo }
-      - { eu: aurrera, es: do przodu }
-      - { eu: atzera, es: do tyłu }
-      - { eu: jo ezkerrera, es: skręć w lewo }
-      - { eu: jo eskuinera, es: skręć w prawo }
-      - { eu: segi aurrera, es: idź prosto }
-      - { eu: jarraitu zuzen, es: kontynuuj prosto }
-      - { eu: zeharkatu, es: przejść na drugą stronę }
-      - { eu: zebrabidea, es: przejście dla pieszych }
-      - { eu: semaforoa, es: światła }
-      - { eu: bidegurutzea, es: skrzyżowanie }
-      - { eu: errepidea, es: droga }
-      - { eu: kalea, es: ulica }
-      - { eu: aldapa, es: wzniesienie }
-      - { eu: eskailerak, es: schody }
-      - { eu: igo, es: wejść do góry }
-      - { eu: jaitsi, es: zejść w dół }
-      - { eu: gertu, es: blisko }
-      - { eu: urrun, es: daleko }
+- id: ex-no-mp
+  type: match-pairs
+  pairs:
+  - eu: jo ezkerrera
+    es: skręć w lewo
+  - eu: jo eskuinera
+    es: skręć w prawo
+  - eu: segi aurrera
+    es: sigue recto / hacia delante
+  - eu: zeharkatu
+    es: cruza
+  - eu: igo eskailerak
+    es: wejdź po schodach
+  - eu: jaitsi aldapa
+    es: zejdź ze wzniesienia
+  - eu: egin atzera
+    es: wróć się
+- id: ex-no-mc1
+  type: multiple-choice
+  prompt: Jak powiesz "skręć w lewo na światłach"?
+  options:
+  - Jo ezkerrera semaforora
+  - Jo ezkerrera semaforoan
+  - Joan semaforoa ezkerrera
+  - Semaforora ezkerrera
+  answer: 1
+  explanation: '"Jo ezkerrera" (skręć w lewo) + lokalizacja z "-an": "semaforoan" (na światłach).'
+- id: ex-no-mc2
+  type: multiple-choice
+  prompt: '"Zeharkatu" oznacza…'
+  options:
+  - seguir recto
+  - cruzar
+  - girar
+  - subir
+  answer: 1
+  explanation: Od "zehar" (przez). "Zeharkatu kalea / zebrabidea" = przejść przez ulicę / przejście dla pieszych.
+- id: ex-no-fb1
+  type: fill-in-blank
+  prompt: Idź prosto = ___ aurrera.
+  answers:
+  - Segi
+  - segi
+  - Jarraitu
+  - jarraitu
+  explanation: '"Segi aurrera" lub "jarraitu aurrera" — oba zwroty oznaczają "idź prosto".'
+- id: ex-no-mc3
+  type: multiple-choice
+  prompt: Chcesz zapytać o drogę do szpitala. Co powiesz?
+  options:
+  - Non dago ospitalea?
+  - Nora doa ospitalea?
+  - Nondik dator ospitalea?
+  - Nongoa da ospitalea?
+  answer: 0
+  explanation: '"Non dago…?" to pytanie o to, gdzie coś jest; idealne do pytania o drogę.'
+- id: ex-no-fc
+  type: flashcards
+  cards:
+  - eu: ezkerra
+    es: lewo
+  - eu: eskuina
+    es: prawo
+  - eu: aurrera
+    es: do przodu
+  - eu: atzera
+    es: do tyłu
+  - eu: jo ezkerrera
+    es: skręć w lewo
+  - eu: jo eskuinera
+    es: skręć w prawo
+  - eu: segi aurrera
+    es: idź prosto
+  - eu: jarraitu zuzen
+    es: kontynuuj prosto
+  - eu: zeharkatu
+    es: przejść przez
+  - eu: zebrabidea
+    es: przejście dla pieszych
+  - eu: semaforoa
+    es: sygnalizacja świetlna
+  - eu: bidegurutzea
+    es: skrzyżowanie
+  - eu: errepidea
+    es: droga
+  - eu: kalea
+    es: ulica
+  - eu: aldapa
+    es: wzniesienie
+  - eu: eskailerak
+    es: schody
+  - eu: igo
+    es: iść w górę
+  - eu: jaitsi
+    es: iść w dół
+  - eu: gertu
+    es: blisko
+  - eu: urrun
+    es: daleko
 ---
 
-Kiedy ktoś pyta cię, jak gdzieś dojść — albo kiedy sam się zgubisz i pytasz — potrzebujesz garści czasowników w trybie rozkazującym oraz przysłówków kierunku. W tej lekcji zbieramy to, co najważniejsze.
+Gdy ktoś pyta cię, jak gdzieś dotrzeć — lub gdy sam się zgubisz i pytasz o drogę — potrzebujesz garści czasowników w trybie rozkazującym i przysłówków kierunku. W tej lekcji zebraliśmy to, co najważniejsze.
 
-## Podstawowe formy rozkazujące
+## Podstawowe tryby rozkazujące
 
-W języku baskijskim tryb rozkazujący twierdzący czasowników ruchu jest bardzo bezpośredni:
+W języku baskijskim, twierdzący tryb rozkazujący czasowników ruchu jest bardzo prosty:
 
-| Forma | Czasownik podstawowy | Znaczenie |
+| Forma | Verbo base | Sentido |
 |---|---|---|
 | **Jo** | jo | uderz / skieruj się (jo ezkerrera = skręć w lewo) |
 | **Segi** / **Jarraitu** | segitu / jarraitu | idź dalej, kontynuuj |
-| **Hartu** | hartu | weź (hartu kale hau = idź tą ulicą) |
-| **Igo** | igo | wejdź do góry |
-| **Jaitsi** | jaitsi | zejdź w dół |
+| **Hartu** | hartu | weź (hartu kale hau = weź tę ulicę) |
+| **Igo** | igo | idź w górę |
+| **Jaitsi** | jaitsi | idź w dół |
 | **Sartu** | sartu | wejdź |
 | **Irten** | irten | wyjdź |
-| **Zeharkatu** | zeharkatu | przejdź na drugą stronę |
+| **Zeharkatu** | zeharkatu | przejdź przez |
 | **Iritsi** / **heldu** | iritsi / heldu | dotrzyj (… arte = "aż do…") |
 
-> *Jo* dosłownie znaczy "uderzyć", ale używa się go metaforycznie jako "kierować się ku": **jo ezkerrera** = "skręć w lewo".
+> *Jo* dosłownie oznacza "uderzać", ale używane jest metaforycznie jako "kierować się w stronę": **jo ezkerrera** = "skieruj się w lewo".
 
-## Przysłówki i punkty odniesienia kierunkowe
+## Przysłówki i określenia kierunku
 
-| Euskera | Polski |
+| Euskera | Castellano |
 |---|---|
 | *ezkerra* | lewo |
 | *eskuina* | prawo |
 | *aurrera* | do przodu |
 | *atzera* | do tyłu |
-| *zuzen* | prosto, na wprost |
-| *gora* | do góry |
+| *zuzen* | prosto |
+| *gora* | w górę |
 | *behera* | w dół |
 
-> Zwróć uwagę: aby wskazać **kierunek ku** czemuś, używa się przyrostka `-ra` (który zobaczysz dokładnie w lekcji 03): *ezkerre-ra* (w lewo), *aurre-ra* (do przodu), *atze-ra* (do tyłu). To samo dla *gora*, *behera*.
+> Zwróć uwagę: aby wskazać **kierunek do**, używa się przyrostka `-ra` (który poznasz szczegółowo w lekcji 03): *ezkerre-ra* (w lewo), *aurre-ra* (do przodu), *atze-ra* (do tyłu). To samo dotyczy *gora* i *behera*.
 
-## Typowe punkty odniesienia
+## Typowe punkty orientacyjne
 
-| Euskera | Polski |
+| Euskera | Castellano |
 |---|---|
-| *semaforoa* | światła |
-| *bidegurutzea* | skrzyżowanie, przecięcie ulic |
+| *semaforoa* | sygnalizacja świetlna |
+| *bidegurutzea* | skrzyżowanie |
 | *zebrabidea* | przejście dla pieszych |
 | *biribilgunea* / *errotonda* | rondo |
 | *aldapa* | wzniesienie |
@@ -115,23 +161,23 @@ W języku baskijskim tryb rozkazujący twierdzący czasowników ruchu jest bardz
 | *errepidea* | droga |
 | *kalea* | ulica |
 
-## Zdania wzorcowe
+## Przykładowe zwroty
 
 - **Jo ezkerrera bidegurutzean.** — Skręć w lewo na skrzyżowaniu.
 - **Segi aurrera semaforora arte.** — Idź prosto aż do świateł.
 - **Zeharkatu zebrabidea.** — Przejdź przez przejście dla pieszych.
 - **Igo eskailerak eta sartu eraikinean.** — Wejdź po schodach i wejdź do budynku.
 - **Jaitsi aldapa, eta gero jo eskuinera.** — Zejdź ze wzniesienia, a potem skręć w prawo.
-- **Egin atzera; gehiegi joan zara.** — Zawróć; poszedłeś za daleko.
+- **Egin atzera; gehiegi joan zara.** — Wróć się; poszedłeś/poszłaś za daleko.
 
-## Pytanie o drogę i wskazywanie drogi
+## Pytanie o drogę i wskazywanie jej
 
 > — *Barkatu, **non dago** udaletxea?* — Przepraszam, gdzie jest ratusz?
 >
 > — ***Segi aurrera** semaforora arte. Han **jo eskuinera** eta **zeharkatu** plaza. Udaletxea elizaren ondoan dago.* — Idź prosto aż do świateł. Tam skręć w prawo i przejdź przez plac. Ratusz jest obok kościoła.
 >
-> — *Eta gertu **dago**?* — A czy to blisko?
+> — *Eta gertu **dago**?* — A czy to jest blisko?
 >
 > — *Bai, oso gertu. Bost minutu oinez.* — Tak, bardzo blisko. Pięć minut pieszo.
 
-> **Wskazówka:** wiele wskazówek opiera się na stałym schemacie: tryb rozkazujący (*jo*, *segi*, *zeharkatu*) + miejsce z przyrostkiem (*ezkerrera*, *semaforora*, *zebrabidea*). Jeśli zapamiętasz ten schemat, możesz łączyć długie ciągi instrukcji, składając elementy ze sobą.
+> **Wskazówka:** wiele wskazówek ma stały schemat: tryb rozkazujący (*jo*, *segi*, *zeharkatu*) + miejsce z przyrostkiem (*ezkerrera*, *semaforora*, *zebrabidea*). Jeśli zapamiętasz ten schemat, możesz tworzyć długie instrukcje, łącząc elementy.

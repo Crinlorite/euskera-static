@@ -7,69 +7,99 @@ level: a1
 order: 3
 title: Eine andere Person vorstellen — Hau X da
 estimatedMinutes: 10
-covers: [third-person-introductions, demonstratives, izan-nor]
+covers:
+- third-person-introductions
+- demonstratives
+- izan-nor
 exercises:
-  - id: ex-10-03-mc1
-    type: multiple-choice
-    prompt: 'Wie stellst du jemanden vor, der neben dir steht? "Das ist meine Freundin"'
-    options: [Hau nire laguna da, Ni nire laguna naiz, Bera nire laguna naiz, Hau nire laguna naiz]
-    answer: 0
-    explanation: 'Zum Vorstellen benutzt du das Demonstrativpronomen "hau" (diese/r) + Subjekt + "da" (dritte Person Singular).'
-  - id: ex-10-03-fb1
-    type: fill-in-blank
-    prompt: 'Er ist mein Nachbar = ___ nire bizilaguna da.'
-    answers: [Bera, bera, Hura, hura]
-    explanation: '"Bera" oder "hura" bedeuten er/sie auf Baskisch. "Bera" ist die in der Alltagssprache gebräuchlichere Form.'
-  - id: ex-10-03-mc2
-    type: multiple-choice
-    prompt: '"Bera nire lankidea da" bedeutet...'
-    options: [Ich bin sein/ihr Kollege, Du bist mein Kollege, Er/sie ist mein/e Arbeitskollege/in, Wir haben einen Kollegen]
-    answer: 2
-    explanation: '"Bera" = er/sie, "lankidea" = Arbeitskollege/in, "da" = ist.'
-  - id: ex-10-03-mp
-    type: match-pairs
-    pairs:
-      - { eu: hau, es: diese/r (nah) }
-      - { eu: hori, es: diese/r da (auf mittlere Entfernung) }
-      - { eu: hura, es: jene/r }
-      - { eu: bera, es: er/sie }
-      - { eu: haiek, es: sie (Plural) }
-      - { eu: 'Nor da hau?', es: 'Wer ist das?' }
-  - id: ex-10-03-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nor da hau?', es: 'Wer ist das?' }
-      - { eu: 'Hau nire laguna da.', es: 'Das ist meine Freundin.' }
-      - { eu: 'Hau Egoitz da.', es: 'Das ist Egoitz.' }
-      - { eu: 'Bera nire bizilaguna da.', es: 'Er/sie ist mein/e Nachbar/in.' }
-      - { eu: 'Bera erizaina da.', es: 'Er/sie ist Krankenpfleger/in.' }
-      - { eu: 'Hauek nire lankideak dira.', es: 'Das sind meine Arbeitskollegen.' }
-      - { eu: 'Pozten naiz zu ezagutzeaz', es: 'Freut mich, dich kennenzulernen.' }
-      - { eu: 'Aspaldiko!', es: 'Lange nicht gesehen!' }
-      - { eu: 'Ezagutzen al duzu?', es: 'Kennst du sie/ihn?' }
+- id: ex-10-03-mc1
+  type: multiple-choice
+  prompt: Wie stellst du jemanden vor, der neben dir steht? „Das ist meine Freundin“
+  options:
+  - Hau nire laguna da
+  - Ni nire laguna naiz
+  - Bera nire laguna naiz
+  - Hau nire laguna naiz
+  answer: 0
+  explanation: Zum Vorstellen verwendest du das Demonstrativpronomen „hau“ (dieser/diese) + Subjekt + „da“ (dritte Person Singular).
+- id: ex-10-03-fb1
+  type: fill-in-blank
+  prompt: Er ist mein Nachbar = ___ nire bizilaguna da.
+  answers:
+  - Bera
+  - bera
+  - Hura
+  - hura
+  explanation: „Bera“ oder „hura“ bedeuten er/sie im Baskischen. „Bera“ ist die in der Alltagssprache gebräuchlichere Form.
+- id: ex-10-03-mc2
+  type: multiple-choice
+  prompt: '"Bera nire lankidea da" bedeutet...'
+  options:
+  - Ich bin sein/ihr Kollege/ihre Kollegin
+  - Du bist mein Kollege
+  - Er/Sie ist mein/e Arbeitskollege/in
+  - Wir haben einen Kollegen
+  answer: 2
+  explanation: „Bera“ = er/sie, „lankidea“ = Arbeitskollege/Arbeitskollegin, „da“ = ist.
+- id: ex-10-03-mp
+  type: match-pairs
+  pairs:
+  - eu: hau
+    es: este/a (cerca)
+  - eu: hori
+    es: ese/a (a media distancia)
+  - eu: hura
+    es: aquel/aquella
+  - eu: bera
+    es: er/sie
+  - eu: haiek
+    es: ellos/ellas
+  - eu: Nor da hau?
+    es: Wer ist das?
+- id: ex-10-03-fc
+  type: flashcards
+  cards:
+  - eu: Nor da hau?
+    es: Wer ist das?
+  - eu: Hau nire laguna da.
+    es: Das ist meine Freundin.
+  - eu: Hau Egoitz da.
+    es: Das ist Egoitz.
+  - eu: Bera nire bizilaguna da.
+    es: Er/Sie ist mein/e Nachbar/in.
+  - eu: Bera erizaina da.
+    es: Er/Sie ist Krankenpfleger/in.
+  - eu: Hauek nire lankideak dira.
+    es: Das sind meine Arbeitskollegen.
+  - eu: Pozten naiz zu ezagutzeaz
+    es: Freut mich, dich kennenzulernen.
+  - eu: Aspaldiko!
+    es: Lange nicht gesehen!
+  - eu: Ezagutzen al duzu?
+    es: Kennst du sie/ihn?
 ---
 
-Bisher hast du gelernt, über dich selbst zu sprechen (*Ni X naiz*) und über deinen Gesprächspartner (*Zu X zara*). In dieser Lektion fügst du das fehlende Stück hinzu: **über eine andere Person sprechen**, sie vorstellen, sagen, wer sie ist und was sie macht.
+Bisher hast du gelernt, über dich selbst zu sprechen (*Ni X naiz*) und über dein Gegenüber (*Zu X zara*). In dieser Lektion fügst du das fehlende Teil hinzu: **über eine andere Person zu sprechen**, sie vorzustellen, zu sagen, wer sie ist und was sie tut.
 
 ## Die Demonstrativpronomen
 
-Im Baskischen gibt es drei Nähestufen mit drei Demonstrativpronomen. Du wirst sie ständig benutzen, um jemanden vorzustellen.
+Im Baskischen gibt es drei Nähe-Stufen mit drei Demonstrativpronomen. Du wirst sie ständig verwenden, um jemanden vorzustellen.
 
 | Demonstrativpronomen | Entfernung | Deutsch |
 |---|---|---|
-| **hau** | nah bei mir | diese/r |
-| **hori** | nah bei dir | diese/r da |
-| **hura** | weit von uns beiden entfernt | jene/r |
+| **hau** | in meiner Nähe | dieser, diese |
+| **hori** | in deiner Nähe | der, die da |
+| **hura** | weit von beiden entfernt | jener, jene dort |
 
 Und ihre Pluralformen:
 
 | Plural | Deutsch |
 |---|---|
 | **hauek** | diese |
-| **horiek** | diese da |
-| **haiek** | jene |
+| **horiek** | die da |
+| **haiek** | jene dort |
 
-## Jemanden vorstellen mit "Hau ... da"
+## Jemanden mit "Hau ... da" vorstellen
 
 Die Grundformel lautet:
 
@@ -82,23 +112,23 @@ Die Grundformel lautet:
 | *Hau nire bizilaguna da.* | Das ist mein Nachbar. |
 | *Hauek nire lankideak dira.* | Das sind meine Arbeitskollegen. |
 
-> Beachte: Für eine einzelne Person benutzt du **da**, und für mehrere **dira**. Es ist dieselbe Konjugation von *izan*, die du bereits kennst, in der dritten Person.
+> Beachte: für eine einzelne Person verwendest du **da** und für mehrere **dira**. Es ist dieselbe Konjugation von *izan*, die du bereits kennst, in der dritten Person.
 
 ## Hura und bera
 
-Wenn du jemanden bereits vorgestellt hast oder wenn du über eine Person sprichst, die nicht anwesend ist, benutzt du **hura** (Standardform) oder **bera** (Alltagsform, viel häufiger).
+Wenn du jemanden bereits vorgestellt hast oder wenn du über eine Person sprichst, die nicht anwesend ist, verwendest du **hura** (Standardform) oder **bera** (umgangssprachliche Form, viel häufiger).
 
 | Satz | Deutsch |
 |---|---|
 | *Bera Maialen da.* | Sie ist Maialen. |
-| *Bera nire bizilaguna da.* | Er/sie ist mein/e Nachbar/in. |
-| *Bera medikua da.* | Er/sie ist Arzt/Ärztin. |
+| *Bera nire bizilaguna da.* | Er/Sie ist mein/e Nachbar/in. |
+| *Bera medikua da.* | Er/Sie ist Arzt/Ärztin. |
 
-> Im Baskischen gibt es **keine Geschlechterunterscheidung** bei Pronomen: *bera* steht sowohl für "er" als auch für "sie". Das klärt sich aus dem Kontext oder dem Namen.
+> Im Baskischen gibt es **keine Geschlechtsunterscheidung** bei Pronomen: *bera* wird sowohl für „er“ als auch für „sie“ verwendet. Der Kontext oder der Name stellt dies klar.
 
-## Alles kombinieren
+## Alles zusammenfügen
 
-Schau dir diese typische Vorstellung an, die im Unterricht oder bei einer ersten Begegnung mit neuen Nachbarn häufig vorkommt:
+Schau dir diese typische Vorstellung an, die im Unterricht oder bei der ersten Begegnung mit neuen Nachbarn üblich ist:
 
 > — *Kaixo, **hau Maite da**. **Bera** Bilbokoa da, baina orain hemen bizi da. **Bera** kazetaria da.*
 >
@@ -108,9 +138,9 @@ Schau dir diese typische Vorstellung an, die im Unterricht oder bei einer ersten
 
 ## Verneinung: das ist NICHT...
 
-Genau wie du es schon von *izan* kennst, steht die Verneinung vor dem Verb:
+Wie du bereits von *izan* weißt, steht die Verneinung vor dem Verb:
 
 - *Hau **ez da** Egoitz.* — Das ist nicht Egoitz.
-- *Bera **ez da** mediku, irakaslea da.* — Er/sie ist nicht Arzt, sondern Lehrer/in.
+- *Bera **ez da** mediku, irakaslea da.* — Er/Sie ist kein Arzt, sondern Lehrer/in.
 
-> **Trick:** Damit du nicht mit der Reihenfolge durcheinanderkommst, denk daran, dass in der Verneinung **ez immer direkt vor dem konjugierten Verb steht**: *ez da*, *ez naiz*, *ez gara*.
+> **Tipp:** um bei der Wortstellung nicht durcheinander zu kommen, merke dir, dass bei der Verneinung **ez immer direkt vor dem konjugierten Verb steht**: *ez da*, *ez naiz*, *ez gara*.

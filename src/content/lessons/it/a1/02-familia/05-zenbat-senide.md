@@ -7,33 +7,55 @@ level: a1
 order: 5
 title: Quanti fratelli hai? (Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: 'Ho due fratelli = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" = "io ho (più cose)" — forma di "ukan" (avere) NOR-NORK.'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: 'Come si dice "tre" in euskera?'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: uno }
-      - { eu: bi, es: due }
-      - { eu: hiru, es: tre }
-      - { eu: lau, es: quattro }
-      - { eu: bost, es: cinque }
-      - { eu: hamar, es: dieci }
-      - { eu: 'Zenbat senide zarete?', es: Quanti fratelli siete? }
-      - { eu: senide, es: fratello/sorella (generico) }
-      - { eu: dut, es: ho (1 cosa) }
-      - { eu: ditut, es: ho (più cose) }
-      - { eu: ez dut anaiarik, es: non ho fratelli (negazione con -rik) }
-      - { eu: 'Zenbat urte dituzu?', es: 'Quanti anni hai?' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: Ho due fratelli = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "io ho (più cose)" — forma di "ukan" (avere) NOR-NORK.'
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: Come si dice "tre" in euskera?
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: uno
+  - eu: bi
+    es: due
+  - eu: hiru
+    es: tre
+  - eu: lau
+    es: quattro
+  - eu: bost
+    es: cinque
+  - eu: hamar
+    es: dieci
+  - eu: Zenbat senide zarete?
+    es: Quanti fratelli siete?
+  - eu: senide
+    es: fratello/sorella (generico)
+  - eu: dut
+    es: ho (1 cosa)
+  - eu: ditut
+    es: ho (più cose)
+  - eu: ez dut anaiarik
+    es: non ho fratelli (negazione con -rik)
+  - eu: Zenbat urte dituzu?
+    es: Quanti anni hai?
 ---
 
 Per parlare di quanti membri ha una famiglia, usiamo:

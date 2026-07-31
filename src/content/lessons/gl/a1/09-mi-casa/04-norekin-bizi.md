@@ -7,54 +7,85 @@ level: a1
 order: 4
 title: Norekin bizi zara? — Con quen vives
 estimatedMinutes: 10
-covers: [companions-rekin, living-arrangements]
+covers:
+- companions-rekin
+- living-arrangements
 exercises:
-  - id: ex-09-04-mp
-    type: match-pairs
-    pairs:
-      - { eu: bakarrik, es: só/soa }
-      - { eu: lagunarekin, es: cun/cunha amigo/a }
-      - { eu: gurasoekin, es: cos pais }
-      - { eu: bikotekidearekin, es: coa parella }
-      - { eu: anaiarekin, es: cun irmán }
-      - { eu: pisukideekin, es: cos compañeiros de piso }
-  - id: ex-09-04-mc1
-    type: multiple-choice
-    prompt: 'O sufixo -rekin (sociativo) significa…'
-    options: [cara a, desde, con, sen]
-    answer: 2
-    explanation: '"-rekin" indica compañía: "lagunarekin" = "co/coa amigo/a".'
-  - id: ex-09-04-fb1
-    type: fill-in-blank
-    prompt: 'Vivo cos meus pais = Gurasoe___ bizi naiz.'
-    answers: [kin]
-    explanation: 'En plural o sufixo é "-ekin": guraso + -ekin = gurasoekin (cos pais).'
-  - id: ex-09-04-mc2
-    type: multiple-choice
-    prompt: '"Bikotekidearekin bizi naiz" significa...'
-    options: ["Vivo só", "Vivo coa miña parella", "Vivo cun compañeiro", "Vivo co meu irmán"]
-    answer: 1
-    explanation: '"Bikotekide" = parella (literal: "membro da parella"). Con -arekin = "coa parella".'
-  - id: ex-09-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Norekin bizi zara?', es: '¿Con quen vives?' }
-      - { eu: bakarrik bizi naiz, es: vivo só/soa }
-      - { eu: gurasoekin bizi naiz, es: vivo cos meus pais }
-      - { eu: lagunarekin bizi naiz, es: vivo cun/cunha amigo/a }
-      - { eu: lagunekin bizi naiz, es: vivo cos meus amigos }
-      - { eu: bikotekidearekin, es: coa miña parella }
-      - { eu: senarrarekin, es: co meu marido }
-      - { eu: emaztearekin, es: coa miña muller }
-      - { eu: anaiarekin / arrebarekin, es: co meu irmán / irmá }
-      - { eu: pisukidea, es: compañeiro/a de piso }
-      - { eu: txakurrarekin, es: co can }
-      - { eu: katuarekin, es: co gato }
-      - { eu: alokairuan bizi naiz, es: vivo de aluguer }
-      - { eu: nire pisua da, es: é o meu piso (en propiedade) }
+- id: ex-09-04-mp
+  type: match-pairs
+  pairs:
+  - eu: bakarrik
+    es: solo/a
+  - eu: lagunarekin
+    es: cun/cunha amigo/a
+  - eu: gurasoekin
+    es: cos pais
+  - eu: bikotekidearekin
+    es: coa parella
+  - eu: anaiarekin
+    es: cun irmán
+  - eu: pisukideekin
+    es: con compañeiros de piso
+- id: ex-09-04-mc1
+  type: multiple-choice
+  prompt: O sufixo -rekin (sociativo) significa…
+  options:
+  - cara a
+  - desde
+  - con
+  - sen
+  answer: 2
+  explanation: '"-rekin" indica compañía: "lagunarekin" = "co/coa amigo/a".'
+- id: ex-09-04-fb1
+  type: fill-in-blank
+  prompt: Vivo cos meus pais = Gurasoe___ bizi naiz.
+  answers:
+  - kin
+  explanation: 'En plural o sufixo é "-ekin": guraso + -ekin = gurasoekin (cos pais).'
+- id: ex-09-04-mc2
+  type: multiple-choice
+  prompt: '"Bikotekidearekin bizi naiz" significa...'
+  options:
+  - Vivo só
+  - Vivo coa miña parella
+  - Vivo cun compañeiro
+  - Vivo co meu irmán
+  answer: 1
+  explanation: '"Bikotekide" = parella (literal: "membro da parella"). Con -arekin = "coa parella".'
+- id: ex-09-04-fc
+  type: flashcards
+  cards:
+  - eu: Norekin bizi zara?
+    es: Con quen vives?
+  - eu: bakarrik bizi naiz
+    es: vivo só/soa
+  - eu: gurasoekin bizi naiz
+    es: vivo cos meus pais
+  - eu: lagunarekin bizi naiz
+    es: vivo cun/cunha amigo/a
+  - eu: lagunekin bizi naiz
+    es: vivo cos meus amigos
+  - eu: bikotekidearekin
+    es: coa miña parella
+  - eu: senarrarekin
+    es: co meu marido
+  - eu: emaztearekin
+    es: coa miña muller
+  - eu: anaiarekin / arrebarekin
+    es: co meu irmán / coa miña irmá
+  - eu: pisukidea
+    es: compañeiro/a de piso
+  - eu: txakurrarekin
+    es: co can
+  - eu: katuarekin
+    es: co gato
+  - eu: alokairuan bizi naiz
+    es: vivo de alugueiro
+  - eu: nire pisua da
+    es: é o meu piso (en propiedade)
 ---
 
-Unha das preguntas básicas para coñecer a alguén é **Norekin bizi zara?** — "¿Con quen vives?". A resposta usa o sufixo **`-(r)ekin`**, chamado **sociativo**, que é o "con" de compañía en euskera.
+Unha das preguntas básicas para coñecer a alguén é **Norekin bizi zara?** — "Con quen vives?". A resposta usa o sufixo **`-(r)ekin`**, chamado **sociativo**, que é o "con" de compañía en éuscaro.
 
 ## O sufixo `-rekin`
 
@@ -90,19 +121,19 @@ Se vives sen compañía, non fai falta usar `-rekin`:
 
 | Situación | Como se di |
 |---|---|
-| Só/Soa | *Bakarrik bizi naiz.* |
+| Só/soa | *Bakarrik bizi naiz.* |
 | Cos pais | *Gurasoekin bizi naiz.* |
 | Coa parella | *Bikotekidearekin bizi naiz.* |
-| Co marido / a muller | *Senarrarekin / Emaztearekin bizi naiz.* |
-| Cos compañeiros de piso | *Pisukideekin bizi naiz.* |
+| Co marido / coa muller | *Senarrarekin / Emaztearekin bizi naiz.* |
+| Con compañeiros de piso | *Pisukideekin bizi naiz.* |
 | Cos fillos | *Seme-alabekin bizi naiz.* |
-| Cun amigo / amigos | *Lagun batekin / Lagunekin bizi naiz.* |
+| Cun amigo / cos amigos | *Lagun batekin / Lagunekin bizi naiz.* |
 
-## Aluguer ou propiedade
+## Alugueiro ou propiedade
 
-- **Alokairuan bizi naiz.** — Vivo de aluguer.
+- **Alokairuan bizi naiz.** — Vivo de alugueiro.
 - **Nire pisua da.** — É o meu piso (en propiedade).
-- **Errenta gora doa.** — O aluguer sobe. *(coloquial)*
+- **Errenta gora doa.** — O alugueiro sobe. *(coloquial)*
 
 ## Conversa tipo
 

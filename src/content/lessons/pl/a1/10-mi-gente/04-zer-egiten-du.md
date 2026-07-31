@@ -7,48 +7,76 @@ level: a1
 order: 4
 title: Co robi? — Mówienie o codziennej rutynie innych osób
 estimatedMinutes: 12
-covers: [daily-routine-third-person, professions-extended, locative-non]
+covers:
+- daily-routine-third-person
+- professions-extended
+- locative-non
 exercises:
-  - id: ex-10-04-mc1
-    type: multiple-choice
-    prompt: 'Jak powiesz "Pracuje w szpitalu"?'
-    options: [Ospitalean lan egiten du, Ospitalean lan egiten dut, Ospitala lan egiten du, Ospitalean lan egin du]
-    answer: 0
-    explanation: '"Ospitalean" = w szpitalu (miejscownik -ean), "lan egiten du" = pracuje (3. osoba).'
-  - id: ex-10-04-fb1
-    type: fill-in-blank
-    prompt: 'Mieszka w Pampelunie = Iruñean ___ da.'
-    answers: [bizi]
-    explanation: '"Bizi da" = mieszka (dosłownie: "mieszka, żyje"). Dla 1. osoby byłoby "bizi naiz".'
-  - id: ex-10-04-mc2
-    type: multiple-choice
-    prompt: '"Bera euskaltegian lan egiten du" — do jakiego zawodu najlepiej pasuje?'
-    options: [sukaldaria, irakaslea, mekanikaria, zerbitzaria]
-    answer: 1
-    explanation: 'Jeśli ktoś pracuje w euskaltegi, najprawdopodobniej jest nauczycielem/nauczycielką (irakaslea).'
-  - id: ex-10-04-fb2
-    type: fill-in-blank
-    prompt: 'Ma 40 lat = Berrogei urte ___.'
-    answers: [ditu]
-    explanation: '"Ditu" = ma (3. osoba, dopełnienie w liczbie mnogiej — lata liczy się w liczbie mnogiej).'
-  - id: ex-10-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer egiten du?', es: 'Co robi?' }
-      - { eu: 'Non bizi da?', es: 'Gdzie mieszka?' }
-      - { eu: 'Non lan egiten du?', es: 'Gdzie pracuje?' }
-      - { eu: 'Bera medikua da', es: 'On/ona jest lekarzem/lekarką' }
-      - { eu: 'Ospitalean lan egiten du', es: 'Pracuje w szpitalu' }
-      - { eu: 'Eskolan lan egiten du', es: 'Pracuje w szkole' }
-      - { eu: 'Tabernan lan egiten du', es: 'Pracuje w barze' }
-      - { eu: 'Bulegoan lan egiten du', es: 'Pracuje w biurze' }
-      - { eu: 'Iruñean bizi da', es: 'Mieszka w Pampelunie' }
-      - { eu: 'Hogeita hamar urte ditu', es: 'Ma 30 lat' }
-      - { eu: 'Ezkonduta dago', es: 'Jest żonaty/zamężna' }
-      - { eu: 'Ezkongabea da', es: 'Jest stanu wolnego' }
-      - { eu: 'Bi seme-alaba ditu', es: 'Ma dwoje dzieci' }
-      - { eu: 'Bakarrik bizi da', es: 'Mieszka sam/sama' }
-      - { eu: 'Lagunekin bizi da', es: 'Mieszka ze swoimi przyjaciółmi' }
+- id: ex-10-04-mc1
+  type: multiple-choice
+  prompt: Jak powiesz „Pracuje w szpitalu”?
+  options:
+  - Ospitalean lan egiten du
+  - Ospitalean lan egiten dut
+  - Ospitala lan egiten du
+  - Ospitalean lan egin du
+  answer: 0
+  explanation: „Ospitalean” = w szpitalu (miejscownik -ean), „lan egiten du” = pracuje (3. osoba).
+- id: ex-10-04-fb1
+  type: fill-in-blank
+  prompt: Mieszka w Pampelunie = Iruñean ___ da.
+  answers:
+  - bizi
+  explanation: '„Bizi da” = mieszka (dosłownie: „mieszka, żyje”). Dla 1. osoby byłoby „bizi naiz”.'
+- id: ex-10-04-mc2
+  type: multiple-choice
+  prompt: „Bera euskaltegian lan egiten du” — do jakiego zawodu najlepiej pasuje?
+  options:
+  - sukaldaria
+  - irakaslea
+  - mekanikaria
+  - zerbitzaria
+  answer: 1
+  explanation: Jeśli ktoś pracuje w euskaltegi, najprawdopodobniej jest nauczycielem/nauczycielką (irakaslea).
+- id: ex-10-04-fb2
+  type: fill-in-blank
+  prompt: Ma 40 lat = Berrogei urte ___.
+  answers:
+  - ditu
+  explanation: „Ditu” = ma (3. osoba, dopełnienie w liczbie mnogiej — lata liczy się w liczbie mnogiej).
+- id: ex-10-04-fc
+  type: flashcards
+  cards:
+  - eu: Zer egiten du?
+    es: Co robi?
+  - eu: Non bizi da?
+    es: Gdzie mieszka?
+  - eu: Non lan egiten du?
+    es: Gdzie pracuje?
+  - eu: Bera medikua da
+    es: On/ona jest lekarzem/lekarką
+  - eu: Ospitalean lan egiten du
+    es: Pracuje w szpitalu
+  - eu: Eskolan lan egiten du
+    es: Pracuje w szkole
+  - eu: Tabernan lan egiten du
+    es: Pracuje w barze
+  - eu: Bulegoan lan egiten du
+    es: Pracuje w biurze
+  - eu: Iruñean bizi da
+    es: Mieszka w Pampelunie
+  - eu: Hogeita hamar urte ditu
+    es: Ma 30 lat
+  - eu: Ezkonduta dago
+    es: Jest żonaty/zamężna
+  - eu: Ezkongabea da
+    es: Jest kawalerem/panną
+  - eu: Bi seme-alaba ditu
+    es: Ma dwoje dzieci
+  - eu: Bakarrik bizi da
+    es: Mieszka sam/sama
+  - eu: Lagunekin bizi da
+    es: Mieszka ze swoimi przyjaciółmi
 ---
 
 Kiedy już potrafisz kogoś przedstawić (*Hau X da*), naturalnym kolejnym krokiem jest **opowiedzenie, co ta osoba robi**: gdzie mieszka, gdzie pracuje, ile ma lat, jak wygląda jej dzień. Cała koniugacja jest w **trzeciej osobie**, więc właśnie to tutaj ćwiczymy.
@@ -78,7 +106,7 @@ Połącz to, czego się nauczyłeś. Struktura to: **podmiot + dopełnienia + cz
 
 ## Miejscownik `-(e)an` dla miejsca pracy
 
-Sufiks **`-(e)an`** ("w") znasz już z lekcji o dzielnicy i o miejscu zamieszkania. Tutaj używasz go, aby powiedzieć, gdzie ktoś pracuje.
+Sufiks **`-(e)an`** („w”) znasz już z lekcji o dzielnicy i o miejscu zamieszkania. Tutaj używasz go, aby powiedzieć, gdzie ktoś pracuje.
 
 | Miejsce | Zdanie |
 |---|---|
@@ -105,7 +133,7 @@ Połączenie zawodu z miejscem to właśnie to, co nadaje spójności przedstawi
 | Euskera | Polski |
 |---|---|
 | *ezkonduta dago* | jest żonaty/zamężna |
-| *ezkongabea da* | jest stanu wolnego |
+| *ezkongabea da* | jest kawalerem/panną |
 | *banatuta dago* | jest w separacji |
 | *dibortziatuta dago* | jest rozwiedziony/rozwiedziona |
 | *alargun da* | jest wdowcem/wdową |

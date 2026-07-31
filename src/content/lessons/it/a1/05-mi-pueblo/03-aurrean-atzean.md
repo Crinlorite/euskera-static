@@ -7,61 +7,99 @@ level: a1
 order: 3
 title: Posizioni spaziali (davanti, dietro, accanto…)
 estimatedMinutes: 12
-covers: [spatial-positions, spatial-adverbs, locative-non]
+covers:
+- spatial-positions
+- spatial-adverbs
+- locative-non
 exercises:
-  - id: ex-aatz-mp
-    type: match-pairs
-    pairs:
-      - { eu: aurrean, es: davanti }
-      - { eu: atzean, es: dietro }
-      - { eu: ondoan, es: accanto }
-      - { eu: gainean, es: sopra }
-      - { eu: azpian, es: sotto }
-      - { eu: artean, es: tra }
-      - { eu: ezkerrean, es: a sinistra }
-      - { eu: eskuinean, es: a destra }
-  - id: ex-aatz-mc1
-    type: multiple-choice
-    prompt: '"Il gatto è sotto il tavolo" — la parola corretta è:'
-    options: [gainean, azpian, ondoan, atzean]
-    answer: 1
-    explanation: '"Azpian" = sotto. "Gainean" = sopra.'
-  - id: ex-aatz-mc2
-    type: multiple-choice
-    prompt: 'Come si dice "davanti alla chiesa"?'
-    options: ["elizaren aurrean", "elizan aurrean", "elizara aurrean", "elizako aurrean"]
-    answer: 0
-    explanation: 'La formula è "X-(r)en + posizione": elizaren aurrean (della chiesa + davanti).'
-  - id: ex-aatz-fb1
-    type: fill-in-blank
-    prompt: 'Mahaiaren ___ daude liburuak (i libri sono sopra il tavolo).'
-    answers: [gainean]
-  - id: ex-aatz-mc3
-    type: multiple-choice
-    prompt: '"Hemen", "hor", "han" significano, rispettivamente:'
-    options: ["là, lì, qui", "qui, lì, là", "lì, qui, là", "qui, là, lì"]
-    answer: 1
-    explanation: 'Le tre distanze dell''euskera: HEMEN (vicino a me, "qui"), HOR (vicino a chi ascolta, "lì"), HAN (lontano da entrambi, "là").'
-  - id: ex-aatz-fc
-    type: flashcards
-    cards:
-      - { eu: aurrean, es: davanti }
-      - { eu: atzean, es: dietro }
-      - { eu: ondoan, es: accanto }
-      - { eu: gainean, es: sopra }
-      - { eu: azpian, es: sotto }
-      - { eu: artean, es: tra }
-      - { eu: ezkerrean, es: a sinistra }
-      - { eu: eskuinean, es: a destra }
-      - { eu: barruan, es: dentro }
-      - { eu: kanpoan, es: fuori }
-      - { eu: erdian, es: nel mezzo }
-      - { eu: hemen, es: qui }
-      - { eu: hor, es: lì }
-      - { eu: han, es: là }
+- id: ex-aatz-mp
+  type: match-pairs
+  pairs:
+  - eu: aurrean
+    es: delante
+  - eu: atzean
+    es: dietro
+  - eu: ondoan
+    es: al lado
+  - eu: gainean
+    es: encima
+  - eu: azpian
+    es: debajo
+  - eu: artean
+    es: entre
+  - eu: ezkerrean
+    es: a sinistra
+  - eu: eskuinean
+    es: a destra
+- id: ex-aatz-mc1
+  type: multiple-choice
+  prompt: '"Il gatto è sotto il tavolo" — la parola corretta è:'
+  options:
+  - gainean
+  - azpian
+  - ondoan
+  - atzean
+  answer: 1
+  explanation: '"Azpian" = sotto. "Gainean" = sopra.'
+- id: ex-aatz-mc2
+  type: multiple-choice
+  prompt: Come si dice "davanti alla chiesa"?
+  options:
+  - elizaren aurrean
+  - elizan aurrean
+  - elizara aurrean
+  - elizako aurrean
+  answer: 0
+  explanation: 'La formula è "X-(r)en + posizione": elizaren aurrean (della chiesa + davanti).'
+- id: ex-aatz-fb1
+  type: fill-in-blank
+  prompt: Mahaiaren ___ daude liburuak (i libri sono sopra il tavolo).
+  answers:
+  - gainean
+- id: ex-aatz-mc3
+  type: multiple-choice
+  prompt: '"Hemen", "hor", "han" significano, rispettivamente:'
+  options:
+  - là, lì, qui
+  - qui, lì, là
+  - lì, qui, là
+  - qui, là, lì
+  answer: 1
+  explanation: 'Le tre distanze del basco: HEMEN (vicino a me, "qui"), HOR (vicino a chi ascolta, "lì"), HAN (lontano da entrambi, "là").'
+- id: ex-aatz-fc
+  type: flashcards
+  cards:
+  - eu: aurrean
+    es: davanti
+  - eu: atzean
+    es: dietro
+  - eu: ondoan
+    es: accanto
+  - eu: gainean
+    es: sopra
+  - eu: azpian
+    es: sotto
+  - eu: artean
+    es: tra
+  - eu: ezkerrean
+    es: a sinistra
+  - eu: eskuinean
+    es: a destra
+  - eu: barruan
+    es: dentro
+  - eu: kanpoan
+    es: fuori
+  - eu: erdian
+    es: in mezzo
+  - eu: hemen
+    es: qui
+  - eu: hor
+    es: lì
+  - eu: han
+    es: là
 ---
 
-Una volta che sai dire "è in X", il passo successivo è dire **dove esattamente**: sopra, sotto, accanto, dietro… In euskera queste posizioni si costruiscono sempre con lo schema **luogo di riferimento + posizione**.
+Una volta che sai dire "è in X", il passo successivo è dire **dove esattamente**: sopra, sotto, accanto, dietro… In basco queste posizioni si costruiscono sempre con lo schema **luogo di riferimento + posizione**.
 
 ## Le posizioni di base
 
@@ -70,18 +108,18 @@ Una volta che sai dire "è in X", il passo successivo è dire **dove esattamente
 | *aurrean* | davanti |
 | *atzean* | dietro |
 | *ondoan* | accanto |
-| *gainean* | sopra, su |
+| *gainean* | sopra |
 | *azpian* | sotto |
 | *artean* | tra |
 | *ezkerrean* | a sinistra |
 | *eskuinean* | a destra |
 | *barruan* | dentro |
 | *kanpoan* | fuori |
-| *erdian* | nel mezzo, al centro |
+| *erdian* | in mezzo, al centro |
 
 ## Come costruirle: -(r)en + posizione
 
-La formula base è **(riferimento)-(r)en + posizione**. Il riferimento prende il genitivo `-(r)en` (che vale "del/della" in italiano):
+La formula di base è **(riferimento)-(r)en + posizione**. Il riferimento prende il genitivo `-(r)en` (che equivale a "del/dello/della" in italiano):
 
 | Euskera | Italiano (letterale) |
 |---|---|
@@ -92,7 +130,7 @@ La formula base è **(riferimento)-(r)en + posizione**. Il riferimento prende il
 | **kutxaren barruan** | dentro la scatola |
 | **bi mendien artean** | tra due monti |
 
-Schema: il riferimento va prima, **poi** la posizione. È esattamente al contrario dell'italiano.
+Schema: prima il riferimento, **poi** la posizione. È esattamente il contrario dell'italiano.
 
 ## Esempi completi
 
@@ -104,7 +142,7 @@ Schema: il riferimento va prima, **poi** la posizione. È esattamente al contrar
 
 ## Avverbi di luogo: hemen / hor / han
 
-Per indicare in modo rapido ci sono tre avverbi — e attenzione, sono **tre distanze**, non due come in italiano:
+Per indicare rapidamente un luogo ci sono tre avverbi — e, attenzione, sono **tre distanze**, non due come in italiano:
 
 | Euskera | Italiano | Quando |
 |---|---|---|
@@ -112,7 +150,7 @@ Per indicare in modo rapido ci sono tre avverbi — e attenzione, sono **tre dis
 | *hor* | lì | vicino a chi ascolta |
 | *han* | là | lontano da entrambi |
 
-> Questi tre avverbi corrispondono ai dimostrativi *hau / hori / hura* e alle loro forme locative lunghe *honetan / horretan / hartan* ("in questo / in quello / in quello là").
+> Questi tre avverbi corrispondono ai dimostrativi *hau / hori / hura* e alle loro forme locative estese *honetan / horretan / hartan* ("in questo / in quello / in quello là").
 
 Esempi rapidi:
 
@@ -130,4 +168,4 @@ Esempi rapidi:
 >
 > — *Bai, hor dago!* — Sì, è lì!
 
-> **Trucco:** tutte le posizioni hanno già il suffisso `-an` incorporato (*aurr-ean*, *atz-ean*, *azp-ian*…). Non devi aggiungere nient'altro.
+> **Consiglio:** tutte le posizioni hanno già il suffisso `-an` incorporato (*aurr-ean*, *atz-ean*, *azp-ian*…). Non devi aggiungere nient'altro.

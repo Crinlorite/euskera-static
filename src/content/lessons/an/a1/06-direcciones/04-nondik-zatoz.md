@@ -5,126 +5,161 @@ code: 04-nondik-zatoz
 unit: 06-direcciones
 level: a1
 order: 4
-title: D'án vienes? — o caso NONDIK
+title: D'an vienes? — o caso NONDIK
 estimatedMinutes: 12
-covers: [nondik-ablative, movement-verbs, places-town]
+covers:
+- nondik-ablative
+- movement-verbs
+- places-town
 exercises:
-  - id: ex-nzt-mc1
-    type: multiple-choice
-    prompt: '"Viengo de Bilbo" se diz:'
-    options: ["Bilbon nator", "Bilbora nator", "Bilbotik nator", "Bilboko nator"]
-    answer: 2
-    explanation: '"Bilbo" + sufixo -tik = "Bilbotik" (de Bilbo, orichen d''o movimiento).'
-  - id: ex-nzt-fb1
-    type: fill-in-blank
-    prompt: 'Viengo de casa = Etxe___ nator.'
-    answers: [tik]
-    explanation: '"Etxe" + tik = "etxetik" (de casa, orichen).'
-  - id: ex-nzt-fb2
-    type: fill-in-blank
-    prompt: 'Vienen de Madrid = Madril___ datoz.'
-    answers: [dik, etik]
-    explanation: 'Dimpués de consonant, o sufixo s''adapta: "Madril" → "Madrildik" u "Madriletik" (las dos formas s''acceptan).'
-  - id: ex-nzt-mc2
-    type: multiple-choice
-    prompt: 'Qué significa "Lanetik nator"?'
-    options: ["Voi t''o treballo", "Soi en o treballo", "Viengo d''o treballo", "O treballo ye aquí"]
-    answer: 2
-    explanation: '"Lan" + etik = "lanetik" (d''o treballo, orichen). "Nator" = viengo (etorri sintetico).'
-  - id: ex-nzt-mc3
-    type: multiple-choice
-    prompt: 'Combina orichen y destín: "Viengo d''o banco y voi t''o supermercau":'
-    options:
-      - "Bankuan nator eta supermerkatuan noa"
-      - "Bankutik nator eta supermerkatura noa"
-      - "Bankura nator eta supermerkatutik noa"
-      - "Bankura noa eta supermerkatutik nator"
-    answer: 1
-    explanation: 'NONDIK = -tik (orichen, con etorri); NORA = -ra (destín, con joan). Bankutik nator + supermerkatura noa.'
-  - id: ex-nzt-fb3
-    type: fill-in-blank
-    prompt: 'Pregunta: D''án vienes? = ___ zatoz?'
-    answers: [Nondik, nondik]
-  - id: ex-nzt-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nondik?', es: D'án? }
-      - { eu: 'Nondik zatoz?', es: D'án vienes? }
-      - { eu: 'Nondik dator?', es: D'án viene? }
-      - { eu: etxetik, es: de casa }
-      - { eu: lanetik, es: d'o treballo }
-      - { eu: euskaltegitik, es: d'o euskaltegi }
-      - { eu: eskolatik, es: de la escuela }
-      - { eu: tabernatik, es: d'a taberna }
-      - { eu: dendatik, es: d'a botiga }
-      - { eu: medikutik, es: d'o medico }
-      - { eu: Bilbotik, es: de Bilbo }
-      - { eu: Iruñetik, es: d'Iruña }
-      - { eu: Madriletik, es: de Madrid }
-      - { eu: 'Nondik nora?', es: D'án enta án? }
-  - id: ex-nzt-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Nondik zatoz?', es: 'D''án vienes?' }
-      - { eu: 'Lanetik nator', es: 'Viengo d''o treballo' }
-      - { eu: 'Etxetik dator', es: 'Viene de casa' }
-      - { eu: 'Hemendik hara', es: 'D''aquí enta allá' }
-      - { eu: 'Bilbotik Donostiara', es: 'De Bilbo enta Donostia' }
+- id: ex-nzt-mc1
+  type: multiple-choice
+  prompt: '"Viengo de Bilbau" se diz:'
+  options:
+  - Bilbon nator
+  - Bilbora nator
+  - Bilbotik nator
+  - Bilboko nator
+  answer: 2
+  explanation: '"Bilbo" + sufixo -tik = "Bilbotik" (de Bilbau, orichen d''o movimiento).'
+- id: ex-nzt-fb1
+  type: fill-in-blank
+  prompt: Viengo de casa = Etxe___ nator.
+  answers:
+  - tik
+  explanation: '"Etxe" + tik = "etxetik" (de casa, orichen).'
+- id: ex-nzt-fb2
+  type: fill-in-blank
+  prompt: Vienen de Madrit = Madril___ datoz.
+  answers:
+  - dik
+  - etik
+  explanation: 'Dezaga de consonant, o sufixo s''adapta: "Madril" → "Madrildik" u "Madriletik" (as dos formas s''acceptan).'
+- id: ex-nzt-mc2
+  type: multiple-choice
+  prompt: Qué significa "Lanetik nator"?
+  options:
+  - Voi a o treballo
+  - Soi en o treballo
+  - Viengo d'o treballo
+  - O treballo ye aquí
+  answer: 2
+  explanation: '"Lan" + etik = "lanetik" (d''o treballo, orichen). "Nator" = viengo (etorri sintetico).'
+- id: ex-nzt-mc3
+  type: multiple-choice
+  prompt: 'Combina orichen y destín: "Viengo d''o banco y voi a o supermercau":'
+  options:
+  - Bankuan nator eta supermerkatuan noa
+  - Bankutik nator eta supermerkatura noa
+  - Bankura nator eta supermerkatutik noa
+  - Bankura noa eta supermerkatutik nator
+  answer: 1
+  explanation: NONDIK = -tik (orichen, con etorri); NORA = -ra (destín, con joan). Bankutik nator + supermerkatura noa.
+- id: ex-nzt-fb3
+  type: fill-in-blank
+  prompt: 'Pregunta: D''an vienes? = ___ zatoz?'
+  answers:
+  - Nondik
+  - nondik
+- id: ex-nzt-fc
+  type: flashcards
+  cards:
+  - eu: Nondik?
+    es: D'an?
+  - eu: Nondik zatoz?
+    es: D'an vienes?
+  - eu: Nondik dator?
+    es: D'an viene?
+  - eu: etxetik
+    es: de casa
+  - eu: lanetik
+    es: d'o treballo
+  - eu: euskaltegitik
+    es: d'o euskaltegi
+  - eu: eskolatik
+    es: d'a escuela
+  - eu: tabernatik
+    es: d'o bar
+  - eu: dendatik
+    es: d'a botiga
+  - eu: medikutik
+    es: d'o medico
+  - eu: Bilbotik
+    es: de Bilbau
+  - eu: Iruñetik
+    es: de Pamplona
+  - eu: Madriletik
+    es: de Madrit
+  - eu: Nondik nora?
+    es: D'an ta an?
+- id: ex-nzt-mp
+  type: match-pairs
+  pairs:
+  - eu: Nondik zatoz?
+    es: D'an vienes?
+  - eu: Lanetik nator
+    es: Viengo d'o treballo
+  - eu: Etxetik dator
+    es: Viene de casa
+  - eu: Hemendik hara
+    es: D'aquí ta allí
+  - eu: Bilbotik Donostiara
+    es: De Bilbau ta Donostia
 ---
 
-Si en a lección anterior aprendiemos **NORA** (ta án vas), agora viene a suya parella: **NONDIK** — *d'án* vienes. O sufixo ye **`-tik`**. Por sí solo no ye difícil; o importán ye **no mezclar-lo** con NORA.
+Si en a lección anterior aprendiemos **NORA** (t'an vas), agora viene a suya parella: **NONDIK** — *d'an* vienes. O sufixo ye **`-tik`**. Por sí mesmo no ye dificil; lo important ye **no mesclar-lo** con NORA.
 
 ## A pregunta: Nondik?
 
 | Pregunta | Aragonés |
 |---|---|
-| ***Nondik* zatoz?** | D'án vienes? |
-| ***Nondik* dator?** | D'án viene (ell/ella)? |
-| ***Nondik* gatoz?** | D'án venimos? |
-| ***Nondik* datoz?** | D'án vienen? |
+| ***Nondik* zatoz?** | D'an vienes? |
+| ***Nondik* dator?** | D'an viene (él/ella)? |
+| ***Nondik* gatoz?** | D'an venimos? |
+| ***Nondik* datoz?** | D'an vienen? |
 
-> O verbo natural con NONDIK ye **etorri** (venir): *nator*, *zatoz*, *dator*, *gatoz*, *zatozte*, *datoz*. A pregunta basica que t'ubrirá conversacions tot o rato ye **Nondik zatoz?**.
+> O verbo natural con NONDIK ye **etorri** (venir): *nator*, *zatoz*, *dator*, *gatoz*, *zatozte*, *datoz*. A pregunta basica que te ubrirá conversacions de contino ye **Nondik zatoz?**.
 
 ## O sufixo: -tik
 
-S'anyade t'o puesto d'orichen. O patrón s'adapta seguntes a terminación:
+S'adhibe a o puesto d'orichen. O patrón s'adapta seguntes a terminación:
 
-| Final d'o puesto | Patrón | Eixemplo |
+| Final d'o puesto | Patrón | Exemplo |
 |---|---|---|
 | -a (organica, *eskola*) | + tik | eskola → **eskolatik** |
 | Vocal sin -a final (*Bilbo*, *etxe*) | + tik | Bilbo → **Bilbotik**, etxe → **etxetik** |
 | Consonant (*Madril*, *lan*) | + (e)tik u + dik | Madril → **Madriletik** / **Madrildik**; lan → **lanetik** |
 
-> Aviso: dimpués de consonant existen as dos variants (*Madriletik* / *Madrildik*) y as dos son acceptadas. A forma con `-etik` ye más estándard y menos arriscada en escribir.
+> Aviso: dezaga de consonant existen as dos variants (*Madriletik* / *Madrildik*) y todas dos son acceptadas. A forma con `-etik` ye mas estándard y menos arrisgada en escribir.
 
-## Eixemplos
+## Exemplos
 
 - **Etxetik nator.** — Viengo de casa.
 - **Lanetik dator.** — Viene d'o treballo.
-- **Eskolatik gatoz.** — Venimos de la escuela.
-- **Tabernatik datoz.** — Vienen d'a taberna.
-- **Bilbotik etorri da.** — Ha venito de Bilbo.
-- **Iruñetik Donostiara doa.** — Va d'Iruña enta Donostia.
+- **Eskolatik gatoz.** — Venimos d'a escuela.
+- **Tabernatik datoz.** — Vienen d'o bar.
+- **Bilbotik etorri da.** — Ha veniu de Bilbau.
+- **Iruñetik Donostiara doa.** — Va de Pamplona ta Donostia.
 
 ## NORA y NONDIK chuntos: nondik nora?
 
-Ye muito frecuent combinar os dos en una sola frase: **"d'án enta án"**.
+Ye muito frecuent combinar toz dos en una sola frase: **"d'an ta an"**.
 
-- **Hegazkina Bilbotik Madrilera doa.** — L'avión va de Bilbo enta Madrid.
-- **Autobusa Iruñetik Tutera doa.** — L'autobús va d'Iruña enta Tudela.
-- **Idoia bankutik supermerkatura doa.** — Idoia va d'o banco t'o supermercau.
+- **Hegazkina Bilbotik Madrilera doa.** — L'avión va de Bilbau ta Madrit.
+- **Autobusa Iruñetik Tutera doa.** — L'autobús va de Pamplona ta Tudela.
+- **Idoia bankutik supermerkatura doa.** — Idoia va d'o banco a o supermercau.
 
-A pregunta cheneral ye **Nondik nora?**: "d'án enta án?".
+A pregunta cheneral ye **Nondik nora?**: "d'an ta an?".
 
-> **Mini-truco:** as tres preguntas basicas d'o puesto son: ***Non?*** (estar), ***Nora?*** (ir), ***Nondik?*** (venir). Y os tres sufixos correspondiens son: **-an / -ra / -tik**. Quasi tot o que dirás sobre puestos cabe en iste trío.
+> **Mini-truco:** as tres preguntas basicas d'o puesto son: ***Non?*** (estar), ***Nora?*** (ir-ne), ***Nondik?*** (venir). Y os tres sufixos correspondients son: **-an / -ra / -tik**. Cuasi tot lo que dirás sobre puestos cabe en iste trío.
 
 ## Tabla resumen NON / NORA / NONDIK
 
-| Pregunta | Sufixo | Verbo tipico | Eixemplo |
+| Pregunta | Sufixo | Verbo tipico | Exemplo |
 |---|---|---|---|
-| **Non?** (án?) | **-an** | egon (estar) | *Etxe**an** nago.* — Soi en casa. |
-| **Nora?** (ta án?) | **-ra** | joan (ir) | *Etxe**ra** noa.* — Voi enta casa. |
-| **Nondik?** (d'án?) | **-tik** | etorri (venir) | *Etxe**tik** nator.* — Viengo de casa. |
+| **Non?** (an?) | **-an** | egon (estar) | *Etxe**an** nago.* — Soi en casa. |
+| **Nora?** (t'an?) | **-ra** | joan (ir-ne) | *Etxe**ra** noa.* — Voi ta casa. |
+| **Nondik?** (d'an?) | **-tik** | etorri (venir) | *Etxe**tik** nator.* — Viengo de casa. |
 
 ## Adverbios y demostrativos NONDIK
 
@@ -133,21 +168,21 @@ As tres distancias tamién tienen a suya forma NONDIK:
 | NON | NORA | NONDIK | Significau |
 |---|---|---|---|
 | hemen | hona | **hemendik** | dende aquí |
-| hor | horra | **hortik** | dende astí |
-| han | hara | **handik** | dende allá |
+| hor | horra | **hortik** | dende ahí |
+| han | hara | **handik** | dende allí |
 
 - **Hemendik gertu dago.** — Ye amán d'aquí.
-- **Handik nator.** — Viengo d'allá.
-- **Hortik aurrera, jo eskuinera.** — D'astí enta debán, chira a la dreita.
+- **Handik nator.** — Viengo d'allí.
+- **Hortik aurrera, jo eskuinera.** — D'ahí enta debant, chira a la dreita.
 
 ## Mini-conversación
 
-> — *Aupa, **nondik zatoz**?* — Ola! D'án vienes?
+> — *Aupa, **nondik zatoz**?* — Ola! D'an vienes?
 >
-> — *Lanetik nator. Eta zu, **nora zoaz**?* — Viengo d'o treballo. Y tu, ta án vas?
+> — *Lanetik nator. Eta zu, **nora zoaz**?* — Viengo d'o treballo. Y tu, t'an vas?
 >
-> — *Supermerkatura noa, afaria erostera.* — Voi t'o supermercau, a mercar a cena.
+> — *Supermerkatura noa, afaria erostera.* — Voi a o supermercau, a mercar a cena.
 >
-> — *Ni ere supermerkatura noa! **Goazen** elkarrekin.* — Yo tamién voi t'o supermercau! Imos chuntos.
+> — *Ni ere supermerkatura noa! **Goazen** elkarrekin.* — Yo tamién voi a o supermercau! Imos chuntos.
 
-> **Errors tipicos a privar:** confundir *Bilbon* (en Bilbo) con *Bilbora* (enta Bilbo) u *Bilbotik* (de Bilbo). Y, dentro de NONDIK, no oblides que dimpués de vocal va `-tik` y dimpués de consonant s'intercala una `-e-` u s'almite `-dik`. Practica encadenando os tres sufixos con a mesma parola: *etxean / etxera / etxetik*; *Bilbon / Bilbora / Bilbotik*. Cuan salga automatico, ya lo tiens.
+> **Errors tipicos a evitar:** confundir *Bilbon* (en Bilbau) con *Bilbora* (ta Bilbau) u *Bilbotik* (de Bilbau). Y, dentro de NONDIK, no ixublides que dezaga de vocal va `-tik` y dezaga de consonant s'intercala una `-e-` u s'admite `-dik`. Practica encadenando os tres sufixos con a mesma parola: *etxean / etxera / etxetik*; *Bilbon / Bilbora / Bilbotik*. Cuan salga automatico, ya lo tiens.

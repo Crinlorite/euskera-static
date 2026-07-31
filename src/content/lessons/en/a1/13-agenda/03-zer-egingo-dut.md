@@ -5,50 +5,77 @@ code: 03-zer-egingo-dut
 unit: 13-agenda
 level: a1
 order: 3
-title: Near future (-ko / -go)
+title: Future Tense (-ko / -go)
 estimatedMinutes: 11
-covers: [future-koGo, common-verbs, ukan-basic]
+covers:
+- future-koGo
+- common-verbs
+- ukan-basic
 exercises:
-  - id: ex-fut-mc1
-    type: multiple-choice
-    prompt: '"I will go to Bilbao tomorrow" is said…'
-    options: ['Bihar Bilbora joaten naiz', 'Bihar Bilbora joango naiz', 'Bihar Bilbora joan naiz', 'Bilbora bihar dut']
-    answer: 1
-    explanation: '*Joango naiz* — future of *joan* (to go): particle *-go* + auxiliary *naiz*.'
-  - id: ex-fut-mc2
-    type: multiple-choice
-    prompt: 'What is the future of "ikusi" (to see)?'
-    options: [ikusten, ikusiko, ikusten dut, ikuste]
-    answer: 1
-    explanation: 'Verbs ending in *-i* add *-ko*: *ikusi → ikusiko*.'
-  - id: ex-fut-fb1
-    type: fill-in-blank
-    prompt: '"Tomorrow I will see it" = Bihar ikusi___ dut.'
-    answers: [ko, KO]
-    explanation: '*Ikusi* + *-ko* = *ikusiko*. The particle -ko marks the future.'
-  - id: ex-fut-fb2
-    type: fill-in-blank
-    prompt: '"I will go with you (pl.)" = Zuekin joan___ naiz.'
-    answers: [go, GO]
-    explanation: '*Joan* + *-go* (because it ends in -n) = *joango*. The particle is *-go* after a nasal consonant.'
-  - id: ex-fut-fc
-    type: flashcards
-    cards:
-      - { eu: 'joango naiz', es: I will go }
-      - { eu: 'etorriko zara?', es: will you come? }
-      - { eu: 'ikusiko dut', es: I will see it }
-      - { eu: 'eskatuko dugu', es: we will order }
-      - { eu: 'jango dut', es: I will eat }
-      - { eu: 'edango dugu', es: we will drink }
-      - { eu: 'lan egingo dut', es: I will work }
-      - { eu: 'erosiko dut', es: I will buy it }
-      - { eu: 'esango diot', es: I will tell him/her }
-      - { eu: 'egongo gara', es: we will be }
-      - { eu: 'izango da', es: it will be }
-      - { eu: 'ekarriko dut', es: I will bring it }
+- id: ex-fut-mc1
+  type: multiple-choice
+  prompt: '''I will go to Bilbao tomorrow'' is...'
+  options:
+  - Bihar Bilbora joaten naiz
+  - Bihar Bilbora joango naiz
+  - Bihar Bilbora joan naiz
+  - Bilbora bihar dut
+  answer: 1
+  explanation: '*Joango naiz* — future of *joan* (to go): particle *-go* + auxiliary *naiz*.'
+- id: ex-fut-mc2
+  type: multiple-choice
+  prompt: What is the future of "ikusi" (to see)?
+  options:
+  - ikusten
+  - ikusiko
+  - ikusten dut
+  - ikuste
+  answer: 1
+  explanation: 'Verbs ending in *-i* add *-ko*: *ikusi → ikusiko*.'
+- id: ex-fut-fb1
+  type: fill-in-blank
+  prompt: '"Tomorrow I will see it" = Bihar ikusi___ dut.'
+  answers:
+  - ko
+  - KO
+  explanation: '*Ikusi* + *-ko* = *ikusiko*. The particle *-ko* marks the future.'
+- id: ex-fut-fb2
+  type: fill-in-blank
+  prompt: '"I will go with you (pl.)" = Zuekin joan___ naiz.'
+  answers:
+  - go
+  - GO
+  explanation: '*Joan* + *-go* (because it ends in -n) = *joango*. The particle *-go* is used after a nasal consonant.'
+- id: ex-fut-fc
+  type: flashcards
+  cards:
+  - eu: joango naiz
+    es: I will go
+  - eu: etorriko zara?
+    es: will you come?
+  - eu: ikusiko dut
+    es: I will see it
+  - eu: eskatuko dugu
+    es: we will order
+  - eu: jango dut
+    es: I will eat
+  - eu: edango dugu
+    es: we will drink
+  - eu: lan egingo dut
+    es: I will work
+  - eu: erosiko dut
+    es: I will buy it
+  - eu: esango diot
+    es: I will tell him/her
+  - eu: egongo gara
+    es: we will be
+  - eu: izango da
+    es: it will be
+  - eu: ekarriko dut
+    es: I will bring it
 ---
 
-The **near future** in Basque is very regular: you add a particle to the verb in its base form and keep the auxiliary conjugated in the present. With this lesson you unlock almost any "I will do, I will go, I will see...".
+The **future tense** in Basque is very regular: you add a particle to the verb's base form and keep the auxiliary verb conjugated in the present. With this lesson, you'll be able to form almost any "I will do, I will go, I will see...".
 
 ## The rule in one line
 
@@ -66,7 +93,7 @@ The **near future** in Basque is very regular: you add a particle to the verb in
 
 It's a purely phonetic choice:
 
-- **-go** after **n** (those ending in -n: *joan, jan, izan, egon, eraman*).
+- **-go** after **n** (for verbs ending in -n: *joan, jan, izan, egon, eraman*).
 - **-ko** after anything else.
 
 Examples:
@@ -78,11 +105,11 @@ Examples:
 - *erosi* → *erosi**ko*** (i + ko)
 - *eskatu* → *eskatu**ko*** (u + ko)
 
-> If you slip and say *joan-ko*, everyone will still understand you. But the correct and natural form is *joan**go***.
+> If you make a mistake and say *joan-ko*, everyone will understand. But the correct and natural form is *joan**go***.
 
 ## The auxiliary stays in the **present**
 
-Even though the sentence looks to the future, the auxiliary **does not change**:
+Even though the sentence refers to the future, the auxiliary verb **does not change**:
 
 | Person | Auxiliary (NOR) | Example |
 |---|---|---|
@@ -106,7 +133,7 @@ The same goes for the transitive auxiliary (*ukan*) when there is an object:
 
 ## Examples in context
 
-- *Bihar mendira **joango naiz**.* — Tomorrow I will go to the mountains.
+- *Bihar mendira **joango naiz**.* — Tomorrow I will go to the mountain.
 - *Datorren astean klasera **etorriko zara**?* — Will you come to class next week?
 - *Asteburuan film bat **ikusiko dugu**.* — This weekend we will watch a film.
 - *Etzi familia **etorriko da**.* — The day after tomorrow the family will come.
@@ -114,14 +141,14 @@ The same goes for the transitive auxiliary (*ukan*) when there is an object:
 
 ## Negation
 
-To negate, add *ez* in front of the auxiliary (which moves to first position):
+To negate, add *ez* before the auxiliary verb, which then moves before the main verb:
 
 - *Bihar **ez naiz** Bilbora **joango**.* — Tomorrow I will not go to Bilbao.
 - *Filma **ez dut** ikusi**ko**.* — I will not watch the film.
 
-And the question:
+And for questions:
 
 - ***Etorriko al zara**?* — Will you come?
-- ***Joango al gara** mendira?* — Will we go to the mountains?
+- ***Joango al gara** mendira?* — Shall we go to the mountain?
 
-> **Cultural note:** in Basque the future with *-ko/-go* is also used for many things that in English are just the present: *Zer hartuko duzu?* — "What are you having / going to have?". It is one of the most characteristic "voices" of the language; the sooner your ear settles into it, the better.
+> **Cultural note:** In Basque, the future tense with *-ko/-go* is often used in situations where Spanish would use the simple present (e.g., ordering at a bar). For an English speaker, this usage feels quite natural: *Zer hartuko duzu?* translates to "What will you have?" or "What are you having?". It's one of the most characteristic features of the language; the sooner your ear gets used to it, the better.

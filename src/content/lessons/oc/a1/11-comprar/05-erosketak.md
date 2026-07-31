@@ -5,131 +5,166 @@ code: 05-erosketak
 unit: 11-comprar
 level: a1
 order: 5
-title: Hèr era crompa (leçon integradora)
+title: Hèr era crompa (leccion integradora)
 estimatedMinutes: 12
-covers: [shopping-dialogue, shops, prices, quantities-units, partitive-rik]
+covers:
+- shopping-dialogue
+- shops
+- prices
+- quantities-units
+- partitive-rik
 exercises:
-  - id: ex-eros-mc1
-    type: multiple-choice
-    prompt: 'Ès ena fruitaria. Cossí demanes mieg quilo de pomes?'
-    options: ['Sagar erdi kilo bat, mesedez', 'Kilo erdi sagar, mesedez', 'Erdia bat kilo sagar', 'Sagarra erdi mesedez']
-    answer: 1
-    explanation: 'Patron quantitat + produsit sense article: **kilo erdi sagar** (mieg quilo de pomes).'
-  - id: ex-eros-mc2
-    type: multiple-choice
-    prompt: '"Non i a pan" se ditz…'
-    options: [Ez dago ogia, Ez dago ogirik, Ogia ez du, Ez ogia da]
-    answer: 1
-    explanation: 'Damb era negacion + objècte indefinit s''emplègue eth partitiu *-rik*: **ogi-rik**.'
-  - id: ex-eros-fb1
-    type: fill-in-blank
-    prompt: '"Quant ei tot?" = Zenbat da ___?'
-    answers: [dena]
-    explanation: '*Dena* vò díder "tot".'
-  - id: ex-eros-fb2
-    type: fill-in-blank
-    prompt: 'Entà demanar se an un produsit: "Auetz lèit?" = Esne___ ba(d)aukazue?'
-    answers: [rik]
-    explanation: 'Question d''existéncia damb objècte indefinit = partitiu **-rik** (esne**rik**).'
-  - id: ex-eros-fc
-    type: flashcards
-    cards:
-      - { eu: erosketa-zerrenda, es: lista dera crompa }
-      - { eu: 'Zer behar dugu?', es: 'Qué auem de besonh?' }
-      - { eu: 'Ez dago ogirik', es: Non i a pan }
-      - { eu: 'Esnerik ba(d)aukazue?', es: 'Auetz lèit?' }
-      - { eu: 'Bai, badago', es: 'Òc, n''i a' }
-      - { eu: 'Ez, ez dago', es: 'Non, non n''i a' }
-      - { eu: 'Erosketak egitera noa', es: Vau a hèr era crompa }
-      - { eu: barazkiak, es: legums }
-      - { eu: frutak, es: fruites }
-      - { eu: haragia, es: carn }
-      - { eu: arraina, es: peish }
-      - { eu: esnea, es: lèit }
-      - { eu: ogia, es: pan }
-      - { eu: arrautzak, es: ueus }
-  - id: ex-eros-mp
-    type: match-pairs
-    pairs:
-      - { eu: harategia, es: carnisseria }
-      - { eu: okindegia, es: forn }
-      - { eu: arrandegia, es: peishateria }
-      - { eu: 'Zenbat da?', es: Quant ei? }
-      - { eu: 'Hartuko dut', es: Me lo hèsqui }
-      - { eu: 'Besterik?', es: Bèra auta causa? }
+- id: ex-eros-mc1
+  type: multiple-choice
+  prompt: Ès ena fruteraria. Com demanes un miei quilo de pomes?
+  options:
+  - Sagar erdi kilo bat, mesedez
+  - Kilo erdi sagar, mesedez
+  - Erdia bat kilo sagar
+  - Sagarra erdi mesedez
+  answer: 1
+  explanation: 'Modèl quantitat + producte sense article: **kilo erdi sagar** (un miei quilo de pomes).'
+- id: ex-eros-mc2
+  type: multiple-choice
+  prompt: '"Non i a pan" se ditz…'
+  options:
+  - Ez dago ogia
+  - Ez dago ogirik
+  - Ogia ez du
+  - Ez ogia da
+  answer: 1
+  explanation: 'Damb era negacion + objècte indefinit s''utilize eth partitiu *-rik*: **ogi-rik**.'
+- id: ex-eros-fb1
+  type: fill-in-blank
+  prompt: '"Quant ei tot?" = Zenbat da ___?'
+  answers:
+  - dena
+  explanation: '*Dena* signifique "tot".'
+- id: ex-eros-fb2
+  type: fill-in-blank
+  prompt: 'Entà demanar se an un producte: "Auetz lèit?" = Esne___ ba(d)aukazue?'
+  answers:
+  - rik
+  explanation: Pregunta d'existéncia damb objècte indefinit = partitiu **-rik** (esne**rik**).
+- id: ex-eros-fc
+  type: flashcards
+  cards:
+  - eu: erosketa-zerrenda
+    es: lista dera crompa
+  - eu: Zer behar dugu?
+    es: Qué auem besonh?
+  - eu: Ez dago ogirik
+    es: Non i a pan
+  - eu: Esnerik ba(d)aukazue?
+    es: Auetz lèit?
+  - eu: Bai, badago
+    es: Òc, i a
+  - eu: Ez, ez dago
+    es: Non, non i a
+  - eu: Erosketak egitera noa
+    es: Vau a hèr era crompa
+  - eu: barazkiak
+    es: verdures
+  - eu: frutak
+    es: frutes
+  - eu: haragia
+    es: carn
+  - eu: arraina
+    es: peish
+  - eu: esnea
+    es: lèit
+  - eu: ogia
+    es: pan
+  - eu: arrautzak
+    es: ueus
+- id: ex-eros-mp
+  type: match-pairs
+  pairs:
+  - eu: harategia
+    es: carnisseria
+  - eu: okindegia
+    es: paneteria
+  - eu: arrandegia
+    es: peishateria
+  - eu: Zenbat da?
+    es: Quant ei?
+  - eu: Hartuko dut
+    es: M'ac emporti
+  - eu: Besterik?
+    es: Quauquarren mès?
 ---
 
-Aguesta leçon integre çò qu'auem aprés ena unitat. Anam a montar ua **lista dera crompa**, distribuir produsits per botiga e simular un mini-dialòg.
+Aguesta leccion intègre çò qu'auem aprés ena unitat. Anam a hèr ua **lista dera crompa**, distribuir es productes per botiga e simular un mini-dialòg.
 
 ## Era lista dera crompa (erosketa-zerrenda)
 
-Abans de gésher, guardam era nevèra (*hozkailua*) e er armari (*armairua*). Çò que mancque ac apuntam. Bèri produsits tipics:
+Abantes de sortir, guardam eth frigorific (*hozkailua*) e er armari (*armairua*). Çò que manque, ac apuntam. Quauqui productes tipics:
 
-| Categoria | Produsits |
+| Categoria | Productes |
 |---|---|
-| **Barazkiak** (legums) | tipula, letxuga, tomatea, piperra, baratxuria |
-| **Frutak** (fruites) | sagarra, banana, laranja, mahatsa, marrubia |
+| **Barazkiak** (verdures) | tipula, letxuga, tomatea, piperra, baratxuria |
+| **Frutak** (frutes) | sagarra, banana, laranja, mahatsa, marrubia |
 | **Haragia** (carn) | oilaskoa, txuleta, urdaiazpikoa, txorizoa |
 | **Arraina** (peish) | legatza, antxoak, ganbak, bakailaoa |
-| **Esnekiak** (lacticinis) | esnea, gazta, jogurta, gurina |
+| **Esnekiak** (lactics) | esnea, gazta, jogurta, gurina |
 | **Bestelakoak** (auti) | ogia, arrautzak, olioa, ozpina, gatza |
 
 ## Demanar se i a quauquarren (damb `-rik`)
 
-Entà demanar se ua botiga a un produsit, emplègue eth **partitiu `-rik`**:
+Entà demanar se ua botiga a un producte, utilize eth **partitiu `-rik`**:
 
 - *Ogi**rik** baduzu?* — As pan?
 - *Sagar**rik** ba al duzue?* — Auetz pomes?
-- *Esne**rik** behar dugu.* — Auem de besonh lèit.
+- *Esne**rik** behar dugu.* — Auem besonh de lèit.
 
-E entà díder que NON n'i a:
+E entà díder que NON i a:
 
 - *Ez dago ogi**rik**.* — Non i a pan.
-- *Ez daukat sagar**rik**.* — Non è pomes.
+- *Ez daukat sagar**rik**.* — Non èi pomes.
 
-> Eth partitiu `-rik` s'emplègue tostemp damb quantitats indefinides e ena negacion. Era forma deth produsit va sense article (*ogi**rik***, non *ogiarik*).
+> Eth partitiu `-rik` s'utilize tostemp damb quantitats indefinides e en negacion. Era forma deth producte va sense article (*ogi**rik***, non *ogiarik*).
 
-## Repartir era crompa entre botigues
+## Repartir era crompa entre es botigues
 
-Ua convèrsa tipica en planificar:
+Ua conversacion tipica en tot planificar:
 
-> — *Non erosiko dugu ogia?* — A on cromparam eth pan?
+> — *Non erosiko dugu ogia?* — On cromparam eth pan?
 >
-> — *Okindegian, jakina!* — En forn, plan segur.
+> — *Okindegian, jakina!* — Ena paneteria, clar.
 >
 > — *Eta arraina?* — E eth peish?
 >
-> — *Auzoko arrandegian.* — Ena peishateria deth vesiat.
+> — *Auzoko arrandegian.* — Ena peishateria deth barri.
 >
-> — *Frutak eta barazkiak?* — E era fruita e es legums?
+> — *Frutak eta barazkiak?* — E era fruta e era verdura?
 >
 > — *Plazan, beti bezala.* — Ena plaça, coma tostemp.
 
-## Mini-dialòg ena fruitaria
+## Mini-dialòg ena fruteraria
 
-> **Frutaria:** *Egun on! Zer nahi duzu?*
+> **Frutèr:** *Egun on! Zer nahi duzu?*
 >
-> **Bezeroa:** *Egun on! Kilo bat sagar eta hiru banana, mesedez.*
+> **Client:** *Egun on! Kilo bat sagar eta hiru banana, mesedez.*
 >
 > **F:** *Bai, hemen daukazu. Besterik?*
 >
-> **B:** *Bai, kilo erdi tomate ere bai.*
+> **C:** *Bai, kilo erdi tomate ere bai.*
 >
 > **F:** *Tira, hemen.*
 >
-> **B:** *Zenbat da dena?*
+> **C:** *Zenbat da dena?*
 >
 > **F:** *Bost euro eta hogei zentimo.*
 >
-> **B:** *Tori! Eskerrik asko!*
+> **C:** *Tori! Eskerrik asko!*
 >
 > **F:** *Zuri! Agur!*
 
 ## Entà repassar
 
-1. **Quantitat + produsit:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
+1. **Quantitat + producte:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
 2. **Demanar damb cortesia:** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **Barrar era crompa:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
-4. **Negacion damb produsit:** *Ez dago ...rik* (damb partitiu).
+3. **Acabar era crompa:** *Zenbat da dena? — X èuros. — Tori! — Eskerrik asko!*
+4. **Negacion damb producte:** *Ez dago ...rik* (damb partitiu).
 
-> **Nòta culturau:** fòrça familhes hèn es crompes "deth dia" enes botigues deth vesiat (fruita-denda, harategia) e van ath supermercat sonque entàs produsits embalats. Ei ua mescla plan abituau de canaus que se ve especiaument es dissabtes ath maitin en quinsevolh pòble.
+> **Nòta culturau:** fòrça familhes hèn es crompes "deth dia" enes botigues de barri (fruta-denda, harategia) e van ath supermercat sonque entàs productes envasadi. Ei ua barreja fòrça abituau de canaus que se nòte especiaument es dissabtes ath maitin en quinsevolh pòble.

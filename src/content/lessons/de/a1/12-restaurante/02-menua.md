@@ -7,63 +7,100 @@ level: a1
 order: 2
 title: Die Speisekarte (menua eta platerak)
 estimatedMinutes: 10
-covers: [restaurant-vocab, food-bar, meals]
+covers:
+- restaurant-vocab
+- food-bar
+- meals
 exercises:
-  - id: ex-menu-mc1
-    type: multiple-choice
-    prompt: '"Lehen platera" bedeutet…'
-    options: [Nachtisch, Erster Gang, Zweiter Gang, Getränk]
-    answer: 1
-    explanation: '*Lehen platera* — erster Gang. *Lehen* bedeutet "erste/r".'
-  - id: ex-menu-mc2
-    type: multiple-choice
-    prompt: '"Postrea" heißt auf Deutsch…'
-    options: [Getränk, Vorspeise, Nachtisch, Hauptgericht]
-    answer: 2
-    explanation: '*Postrea* — Nachtisch. Die Übersetzung ist direkt.'
-  - id: ex-menu-fb1
-    type: fill-in-blank
-    prompt: '"Tagesmenü" = Eguneko ___'
-    answers: [menua]
-    explanation: '*Eguneko menua* — wörtlich "das Menü des Tages" (eguneko = des Tages).'
-  - id: ex-menu-fb2
-    type: fill-in-blank
-    prompt: 'Du bestellst "Salat und Fisch". Der Kellner bestätigt: "Hasteko, entsalada eta bigarrenerako, ___."'
-    answers: [arraina]
-    explanation: '*Arraina* — Fisch. *Bigarrenerako* — "für den zweiten (Gang)".'
-  - id: ex-menu-fc
-    type: flashcards
-    cards:
-      - { eu: menua, es: Menü }
-      - { eu: karta, es: Speisekarte }
-      - { eu: 'eguneko menua', es: Tagesmenü }
-      - { eu: 'lehen platera', es: erster Gang }
-      - { eu: 'bigarren platera', es: zweiter Gang }
-      - { eu: postrea, es: Nachtisch }
-      - { eu: edaria, es: Getränk }
-      - { eu: entsalada, es: Salat }
-      - { eu: zopa, es: Suppe }
-      - { eu: arraina, es: Fisch }
-      - { eu: haragia, es: Fleisch }
-      - { eu: legatza, es: Seehecht }
-      - { eu: bakailaoa, es: Stockfisch }
-      - { eu: oilaskoa, es: Hähnchen }
-      - { eu: txuleta, es: Kotelett }
-      - { eu: izozkia, es: Eis }
-      - { eu: 'sagar tarta', es: Apfelkuchen }
-      - { eu: flana, es: Pudding }
-  - id: ex-menu-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'lehen platera', es: erster Gang }
-      - { eu: 'bigarren platera', es: zweiter Gang }
-      - { eu: postrea, es: Nachtisch }
-      - { eu: edaria, es: Getränk }
-      - { eu: 'eguneko menua', es: Tagesmenü }
-      - { eu: karta, es: Speisekarte }
+- id: ex-menu-mc1
+  type: multiple-choice
+  prompt: '"Lehen platera" bedeutet…'
+  options:
+  - Postre
+  - Primer plato
+  - Segundo plato
+  - Bebida
+  answer: 1
+  explanation: '*Lehen platera* — erster Gang. *Lehen* bedeutet "erste/r".'
+- id: ex-menu-mc2
+  type: multiple-choice
+  prompt: '"Postrea" heißt auf Deutsch…'
+  options:
+  - Bebida
+  - Aperitivo
+  - Postre
+  - Plato principal
+  answer: 2
+  explanation: '*Postrea* — Nachtisch. Die Übersetzung ist direkt.'
+- id: ex-menu-fb1
+  type: fill-in-blank
+  prompt: '"Tagesmenü" = Eguneko ___'
+  answers:
+  - menua
+  explanation: '*Eguneko menua* — wörtlich "das Menü des Tages" (eguneko = des Tages).'
+- id: ex-menu-fb2
+  type: fill-in-blank
+  prompt: 'Du bestellst "Salat und Fisch". Der Kellner bestätigt: "Hasteko, entsalada eta bigarrenerako, ___."'
+  answers:
+  - arraina
+  explanation: '*Arraina* — Fisch. *Bigarrenerako* — "für den zweiten (Gang)".'
+- id: ex-menu-fc
+  type: flashcards
+  cards:
+  - eu: menua
+    es: Menü
+  - eu: karta
+    es: Speisekarte
+  - eu: eguneko menua
+    es: Tagesmenü
+  - eu: lehen platera
+    es: erster Gang
+  - eu: bigarren platera
+    es: zweiter Gang
+  - eu: postrea
+    es: Nachtisch
+  - eu: edaria
+    es: Getränk
+  - eu: entsalada
+    es: Salat
+  - eu: zopa
+    es: Suppe
+  - eu: arraina
+    es: Fisch
+  - eu: haragia
+    es: Fleisch
+  - eu: legatza
+    es: Seehecht
+  - eu: bakailaoa
+    es: gesalzener Kabeljau
+  - eu: oilaskoa
+    es: Hähnchen
+  - eu: txuleta
+    es: Kotelett
+  - eu: izozkia
+    es: Eis
+  - eu: sagar tarta
+    es: Apfelkuchen
+  - eu: flana
+    es: Flan
+- id: ex-menu-mp
+  type: match-pairs
+  pairs:
+  - eu: lehen platera
+    es: primer plato
+  - eu: bigarren platera
+    es: segundo plato
+  - eu: postrea
+    es: postre
+  - eu: edaria
+    es: bebida
+  - eu: eguneko menua
+    es: Tagesmenü
+  - eu: karta
+    es: carta
 ---
 
-Die Speisekarte lesen zu können öffnet dir Türen. In den meisten jatetxeak findest du die klassische Struktur aus drei Teilen: erster Gang, zweiter Gang und Nachtisch.
+Die Speisekarte lesen zu können, öffnet dir Türen. In den meisten jatetxeak findest du die klassische Struktur aus drei Teilen: erster Gang, zweiter Gang und Nachtisch.
 
 ## Die zwei Optionen zum Essen
 
@@ -74,13 +111,13 @@ Die Speisekarte lesen zu können öffnet dir Türen. In den meisten jatetxeak fi
 
 Der Kellner fragt meistens:
 
-- **Menua ala karta nahi duzue?** — Möchtet ihr Menü oder Speisekarte?
+- **Menua ala karta nahi duzue?** — Möchtet ihr das Tagesmenü oder à la carte?
 
 ## Die Teile des Menüs
 
 | Euskera | Deutsch |
 |---|---|
-| *hasierakoak* | Vorspeisen / Appetithäppchen |
+| *hasierakoak* | Vorspeisen |
 | *lehen platera* | erster Gang |
 | *bigarren platera* | zweiter Gang |
 | *postrea* | Nachtisch |
@@ -93,7 +130,7 @@ Der Kellner fragt meistens:
 Salate, Suppen und Hülsenfrüchte sind üblich:
 
 - *entsalada mistoa* — gemischter Salat
-- *errusiar entsalada* — russischer Salat
+- *errusiar entsalada* — russischer Eiersalat
 - *zopa* — Suppe
 - *porrusalda* — Lauch-Kartoffel-Suppe
 - *babarrunak* — Bohnen
@@ -106,18 +143,18 @@ Hier wird unterschieden zwischen **arrainak** (Fisch) und **haragiak** (Fleisch)
 | Arrainak | Haragiak |
 |---|---|
 | *legatza* (Seehecht) | *oilaskoa* (Hähnchen) |
-| *bakailaoa* (Stockfisch) | *txuleta* (Kotelett) |
-| *antxoak* (Sardellen) | *xerra* (Schnitzel) |
+| *bakailaoa* (gesalzener Kabeljau) | *txuleta* (Kotelett) |
+| *antxoak* (Sardellen) | *xerra* (Steak) |
 | *itsas zapoa* (Seeteufel) | *arkume txuletak* (Lammkoteletts) |
 
 ## Postrea
 
 Klassische Nachtische in baskischen jatetxeak:
 
-- *flana* — Pudding
+- *flana* — Flan
 - *izozkia* — Eis
 - *sagar tarta* — Apfelkuchen
-- *mamia* — Quark (cuajada)
+- *mamia* — Dickmilch
 - *arroz-esnea* — Milchreis
 - *gazta eta intxaurrak* — Käse mit Walnüssen
 

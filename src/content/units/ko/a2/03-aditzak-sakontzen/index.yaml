@@ -1,0 +1,14 @@
+id: a2-aditzak
+code: 03-aditzak-sakontzen
+level: a2
+title: Aditzak sakontzen — NOR-NORI-NORK, ahalera 와 조건법
+order: 3
+description: 세 개의 논항을 가진 동사(무언가를 주다, 그것을 가르쳐주었다), 가능/불가능 표현 및 조건법 첫걸음.
+estimatedMinutes: 75
+covers:
+- a2-nor-nori-nork
+- a2-nor-nori-nork-past
+- a2-nor-nori
+- a2-ahalera
+- a2-ezin
+- a2-baldintza-intro

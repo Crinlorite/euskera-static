@@ -7,71 +7,111 @@ level: a1
 order: 3
 title: Dove vai? — il caso NORA
 estimatedMinutes: 12
-covers: [nora-allative, movement-verbs, places-town]
+covers:
+- nora-allative
+- movement-verbs
+- places-town
 exercises:
-  - id: ex-nz-mc1
-    type: multiple-choice
-    prompt: 'Come si dice "Vado a Bilbao"?'
-    options: ["Bilbon noa", "Bilbora noa", "Bilbotik noa", "Bilboan noa"]
-    answer: 1
-    explanation: '"Bilbo" + suffisso -ra (caso NORA) = "Bilbora", "a Bilbao".'
-  - id: ex-nz-fb1
-    type: fill-in-blank
-    prompt: 'Vado a casa = Etxe___ noa.'
-    answers: [ra]
-    explanation: '"Etxe" + ra = "etxera" (a casa). Il suffisso -ra è il caso NORA.'
-  - id: ex-nz-fb2
-    type: fill-in-blank
-    prompt: 'Vado a Madrid = Madril___ noa.'
-    answers: [era]
-    explanation: 'Dopo consonante, il suffisso intercala una -e-: "Madril" → "Madrilera".'
-  - id: ex-nz-mc2
-    type: multiple-choice
-    prompt: 'Cosa significa "Eskolara doa"?'
-    options: ["È a scuola", "Va a scuola", "Viene da scuola", "È di scuola"]
-    answer: 1
-    explanation: '"Eskola" + ra (caso NORA) = "eskolara" (a scuola); "doa" = "va".'
-  - id: ex-nz-fb3
-    type: fill-in-blank
-    prompt: 'Andiamo al parco = Parke___ goaz.'
-    answers: [ra]
-  - id: ex-nz-mc3
-    type: multiple-choice
-    prompt: 'Cosa vuol dire "Zertara zoaz tabernara?"'
-    options: ["Chi va al bar?", "Da quale bar vieni?", "Per fare cosa vai al bar?", "Dov'è il bar?"]
-    answer: 2
-    explanation: '"Zertara" = per fare cosa (con quale scopo); di solito si risponde con verbo + -tzera: "kafe bat hartzera" (a prendere un caffè).'
-  - id: ex-nz-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nora?', es: Dove? (verso dove?) }
-      - { eu: 'Nora zoaz?', es: Dove vai? }
-      - { eu: 'Nora doa?', es: Dove va? }
-      - { eu: etxera, es: a casa }
-      - { eu: eskolara, es: a scuola }
-      - { eu: euskaltegira, es: all'euskaltegi }
-      - { eu: tabernara, es: al bar }
-      - { eu: lanera, es: al lavoro }
-      - { eu: hondartzara, es: alla spiaggia }
-      - { eu: mendira, es: in montagna }
-      - { eu: Bilbora, es: a Bilbao }
-      - { eu: Iruñera, es: a Pamplona }
-      - { eu: Madrilera, es: a Madrid }
-      - { eu: 'Zertara?', es: Per fare cosa? }
-      - { eu: erostera, es: a comprare }
-      - { eu: bazkaltzera, es: a pranzare }
-      - { eu: ikastera, es: a studiare }
-  - id: ex-nz-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Nora zoaz?', es: 'Dove vai?' }
-      - { eu: Etxera noa, es: 'Vado a casa' }
-      - { eu: Eskolara noa, es: 'Vado a scuola' }
-      - { eu: 'Zertara zoaz?', es: 'Per fare cosa vai?' }
-      - { eu: Erostera, es: 'A comprare' }
+- id: ex-nz-mc1
+  type: multiple-choice
+  prompt: Come si dice "Vado a Bilbao"?
+  options:
+  - Bilbon noa
+  - Bilbora noa
+  - Bilbotik noa
+  - Bilboan noa
+  answer: 1
+  explanation: '"Bilbo" + suffisso -ra (caso NORA) = "Bilbora", "a Bilbao".'
+- id: ex-nz-fb1
+  type: fill-in-blank
+  prompt: Vado a casa = Etxe___ noa.
+  answers:
+  - ra
+  explanation: '"Etxe" + ra = "etxera" (a casa). Il suffisso -ra è il caso NORA.'
+- id: ex-nz-fb2
+  type: fill-in-blank
+  prompt: Vado a Madrid = Madril___ noa.
+  answers:
+  - era
+  explanation: 'Dopo una consonante, il suffisso intercala una -e-: "Madril" → "Madrilera".'
+- id: ex-nz-mc2
+  type: multiple-choice
+  prompt: Cosa significa "Eskolara doa"?
+  options:
+  - È a scuola
+  - Va a scuola
+  - Viene da scuola
+  - È della scuola
+  answer: 1
+  explanation: '"Eskola" + ra (caso NORA) = "eskolara" (a scuola); "doa" = "va".'
+- id: ex-nz-fb3
+  type: fill-in-blank
+  prompt: Andiamo al parco = Parke___ goaz.
+  answers:
+  - ra
+- id: ex-nz-mc3
+  type: multiple-choice
+  prompt: Cosa vuol dire "Zertara zoaz tabernara?"
+  options:
+  - Chi va al bar?
+  - Da quale bar vieni?
+  - A cosa vai al bar?
+  - Dov'è il bar?
+  answer: 2
+  explanation: '"Zertara" = a cosa (a fare cosa); tipicamente si risponde con un verbo + -tzera: "kafe bat hartzera" (a prendere un caffè).'
+- id: ex-nz-fc
+  type: flashcards
+  cards:
+  - eu: Nora?
+    es: Dove?
+  - eu: Nora zoaz?
+    es: Dove vai?
+  - eu: Nora doa?
+    es: Dove va?
+  - eu: etxera
+    es: a casa
+  - eu: eskolara
+    es: a scuola
+  - eu: euskaltegira
+    es: all'euskaltegi
+  - eu: tabernara
+    es: al bar
+  - eu: lanera
+    es: al lavoro
+  - eu: hondartzara
+    es: in spiaggia
+  - eu: mendira
+    es: in montagna
+  - eu: Bilbora
+    es: a Bilbao
+  - eu: Iruñera
+    es: a Pamplona
+  - eu: Madrilera
+    es: a Madrid
+  - eu: Zertara?
+    es: A cosa?
+  - eu: erostera
+    es: a comprare
+  - eu: bazkaltzera
+    es: a mangiare
+  - eu: ikastera
+    es: a studiare
+- id: ex-nz-mp
+  type: match-pairs
+  pairs:
+  - eu: Nora zoaz?
+    es: Dove vai?
+  - eu: Etxera noa
+    es: Voy a casa
+  - eu: Eskolara noa
+    es: Vado a scuola
+  - eu: Zertara zoaz?
+    es: A cosa vai?
+  - eu: Erostera
+    es: A comprar
 ---
 
-Il **caso NORA** (chiamato anche *adlativo*) indica **la destinazione** di un movimento: verso dove vai. In italiano si traduce normalmente con la preposizione **"a"** ("vado *a* casa", "*a* Bilbao", "*al* parco").
+Il **caso NORA** (chiamato anche *adlativo*) indica **la destinazione** di un movimento: dove vai. In italiano si traduce normalmente con la preposizione **"a"** ("vado *a* casa", "*a* Bilbao", "*al* parco").
 
 ## La domanda: Nora?
 
@@ -84,7 +124,7 @@ Il **caso NORA** (chiamato anche *adlativo*) indica **la destinazione** di un mo
 
 ## Il suffisso: -ra
 
-Per rispondere, aggiungiamo **`-ra`** al luogo di destinazione. Lo schema si adatta a seconda di come finisce la parola:
+Per rispondere, aggiungiamo **`-ra`** al luogo di destinazione. Lo schema si adatta a seconda di come termina la parola:
 
 | Finale del luogo | Schema | Esempio |
 |---|---|---|
@@ -100,17 +140,17 @@ Per rispondere, aggiungiamo **`-ra`** al luogo di destinazione. Lo schema si ada
 | eskola | **eskolara** | *Eskolara doaz.* — Vanno a scuola. |
 | euskaltegi | **euskaltegira** | *Euskaltegira goaz.* — Andiamo all'euskaltegi. |
 | taberna | **tabernara** | *Tabernara zoaz?* — Vai al bar? |
-| lan (lavoro) | **lanera** | *Lanera nator.* — Vengo al lavoro. (sempre -era dopo consonante) |
+| lan (lavoro) | **lanera** | *Lanera nator.* — Vengo al lavoro. (ugualmente -era dopo consonante) |
 | Bilbo | **Bilbora** | *Bilbora doa.* — Va a Bilbao. |
 | Donostia | **Donostiara** | *Donostiara goaz asteburuan.* — Andiamo a Donostia nel fine settimana. |
 | Madril | **Madrilera** | *Madrilera doaz.* — Vanno a Madrid. |
-| mendi (monte) | **mendira** | *Mendira goaz larunbatean.* — Andiamo in montagna sabato. |
+| mendi (montagna) | **mendira** | *Mendira goaz larunbatean.* — Andiamo in montagna sabato. |
 
-> **Mini-trucco:** *non* → *nora* seguono lo stesso schema di *kale-an* → *kale-ra*. Se sai formare *Bilbon* (a Bilbao, stato in luogo), sai già formare *Bilbora* (a Bilbao, moto a luogo): cambia *-n* con *-ra*. Se sai formare *Madrilen*, sai formare *Madrilera*.
+> **Mini-trucco:** *non* → *nora* seguono lo stesso schema di *kale-an* → *kale-ra*. Se sai formare *Bilbon* (a Bilbao), sai già formare *Bilbora* (a Bilbao): cambia *-n* con *-ra*. Se sai formare *Madrilen*, sai formare *Madrilera*.
 
-## Zertara? — "Per fare cosa?"
+## Zertara? — "A cosa?"
 
-Per chiedere **a fare cosa** vai (con quale obiettivo), si usa **Zertara zoaz?** e si risponde con un verbo + suffisso **`-tzera`**:
+Per chiedere **a cosa** vai (con quale obiettivo), si usa **Zertara zoaz?** e si risponde con un verbo + suffisso **`-tzera`**:
 
 | Domanda | Risposta |
 |---|---|
@@ -119,7 +159,7 @@ Per chiedere **a fare cosa** vai (con quale obiettivo), si usa **Zertara zoaz?**
 | *Zertara goaz mendira?* | *Ibiltzera.* — A camminare. |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — A nuotare. |
 
-> **Schema:** *(verbo al participio) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. È fondamentalmente l'"a + infinito" dell'italiano.
+> **Schema:** *(verbo al participio) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. È fondamentalmente l'equivalente di "a + infinito" dell'italiano.
 
 ## Mini-conversazione
 
@@ -127,25 +167,25 @@ Per chiedere **a fare cosa** vai (con quale obiettivo), si usa **Zertara zoaz?**
 >
 > — *Euskaltegira noa.* — Vado all'euskaltegi.
 >
-> — *Eta zertara?* — E per fare cosa?
+> — *Eta zertara?* — E a fare cosa?
 >
-> — *Klasera, noski! Euskara ikastera.* — A lezione, ovvio. A imparare l'euskera.
+> — *Klasera, noski! Euskara ikastera.* — A lezione, certo! A imparare il basco.
 >
 > — *Eta gero?* — E dopo?
 >
 > — *Tabernara goaz lagunekin pote bat hartzera.* — Andiamo al bar con gli amici a bere qualcosa.
 
-## Avverbi direzionali
+## Avverbi di direzione
 
 Anche i dimostrativi hanno la loro forma NORA:
 
-| NON (locativo) | NORA (direzione) | Significato |
+| NON (stato in luogo) | NORA (moto a luogo) | Significato |
 |---|---|---|
-| hemen | **hona** | verso qui |
+| hemen | **hona** | verso qui / qua |
 | hor | **horra** | verso lì |
 | han | **hara** | verso là |
 
 - **Hona zatoz?** — Vieni qui?
-- **Hara doaz.** — Vanno verso là.
+- **Hara doaz.** — Vanno là.
 
-> **Promemoria importante:** all'inizio confonde molte persone: *etxean* (a casa, stato) ≠ *etxera* (a casa, moto a luogo) ≠ *etxetik* (da casa, lezione 04). Tutte e tre si assomigliano perché parlano di "casa", ma l'informazione è completamente diversa. Memorizza: **NON = -an (stare)**, **NORA = -ra (andare)**, **NONDIK = -tik (venire, lezione 4)**.
+> **Promemoria importante:** all'inizio confonde molte persone: *etxean* (a casa, stato in luogo) ≠ *etxera* (a casa, moto a luogo) ≠ *etxetik* (da casa, lezione 04). Le tre forme si assomigliano perché parlano tutte di "casa", ma l'informazione è completamente diversa. Memorizza così: **NON = -an (stare)**, **NORA = -ra (andare)**, **NONDIK = -tik (venire, lezione 4)**.

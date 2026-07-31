@@ -7,48 +7,72 @@ level: a1
 order: 3
 title: Zamawianie jedzenia (eskatu)
 estimatedMinutes: 10
-covers: [ordering-food, food-bar]
+covers:
+- ordering-food
+- food-bar
 exercises:
-  - id: ex-esk-mc1
-    type: multiple-choice
-    prompt: '"Na pierwsze danie wezmę sałatkę" mówi się…'
-    options: ['Hasteko, entsalada hartuko dut', 'Lehen entsalada da', 'Entsalada bat hartzen', 'Hasteko, entsaladarik']
-    answer: 0
-    explanation: '*Hasteko* (na początek) + *entsalada hartuko dut* (wezmę sałatkę). Typowa struktura.'
-  - id: ex-esk-mc2
-    type: multiple-choice
-    prompt: '"Dla mnie ryba" mówi się…'
-    options: ['Niretzat, arraina', 'Nire arraina', 'Niri arraina', 'Ni arraina dut']
-    answer: 0
-    explanation: '*Niretzat* — "dla mnie" (odbiorca). To naturalna formuła przy zamawianiu przy wspólnym stole.'
-  - id: ex-esk-fb1
-    type: fill-in-blank
-    prompt: 'Aby zapytać "a dla ciebie?" swojego towarzysza = Eta ___?'
-    answers: [zuretzat]
-    explanation: '*Zuretzat* — "dla ciebie" (grzecznościowe / pan-ty).'
-  - id: ex-esk-fb2
-    type: fill-in-blank
-    prompt: '"Na drugie mięso" = Bigarrenerako, ___'
-    answers: [haragia]
-    explanation: '*Bigarrenerako* — "na drugie (na drugie danie)". *Haragia* — mięso.'
-  - id: ex-esk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer nahi duzu?', es: Czego chcesz? }
-      - { eu: 'Zer hartuko duzu?', es: Co weźmiesz? }
-      - { eu: 'Hartuko dut...', es: 'Wezmę...' }
-      - { eu: 'Niretzat...', es: 'Dla mnie...' }
-      - { eu: 'Eta zuretzat?', es: A dla ciebie? }
-      - { eu: 'Hasteko...', es: 'Na początek...' }
-      - { eu: 'Bigarrenerako...', es: 'Na drugie...' }
-      - { eu: 'Postrerako...', es: 'Na deser...' }
-      - { eu: 'Edateko, ardo gorria', es: 'Do picia, czerwone wino' }
-      - { eu: 'Nahiago dut...', es: 'Wolę...' }
-      - { eu: 'Ez dut nahi', es: 'Nie chcę' }
-      - { eu: 'Ez zait gustatzen', es: 'Nie lubię tego' }
+- id: ex-esk-mc1
+  type: multiple-choice
+  prompt: '"Na pierwsze danie wezmę sałatkę" mówi się…'
+  options:
+  - Hasteko, entsalada hartuko dut
+  - Lehen entsalada da
+  - Entsalada bat hartzen
+  - Hasteko, entsaladarik
+  answer: 0
+  explanation: '*Hasteko* (na początek) + *entsalada hartuko dut* (wezmę sałatkę). Typowa struktura.'
+- id: ex-esk-mc2
+  type: multiple-choice
+  prompt: '"Dla mnie ryba" mówi się…'
+  options:
+  - Niretzat, arraina
+  - Nire arraina
+  - Niri arraina
+  - Ni arraina dut
+  answer: 0
+  explanation: '*Niretzat* — „dla mnie” (odbiorca). To naturalny zwrot podczas zamawiania przy wspólnym stole.'
+- id: ex-esk-fb1
+  type: fill-in-blank
+  prompt: Aby zapytać "a dla ciebie?" swojego towarzysza = Eta ___?
+  answers:
+  - zuretzat
+  explanation: '*Zuretzat* — „dla ciebie” (używane zarówno w sytuacjach formalnych, jak i nieformalnych).'
+- id: ex-esk-fb2
+  type: fill-in-blank
+  prompt: '"Na drugie mięso" = Bigarrenerako, ___'
+  answers:
+  - haragia
+  explanation: '*Bigarrenerako* — „na drugie (na drugie danie)”. *Haragia* — mięso.'
+- id: ex-esk-fc
+  type: flashcards
+  cards:
+  - eu: Zer nahi duzu?
+    es: Czego chcesz?
+  - eu: Zer hartuko duzu?
+    es: Co weźmiesz?
+  - eu: Hartuko dut...
+    es: Wezmę...
+  - eu: Niretzat...
+    es: Dla mnie...
+  - eu: Eta zuretzat?
+    es: A dla ciebie?
+  - eu: Hasteko...
+    es: Na początek...
+  - eu: Bigarrenerako...
+    es: Na drugie...
+  - eu: Postrerako...
+    es: Na deser...
+  - eu: Edateko, ardo gorria
+    es: Do picia, czerwone wino
+  - eu: Nahiago dut...
+    es: Wolę...
+  - eu: Ez dut nahi
+    es: Nie chcę
+  - eu: Ez zait gustatzen
+    es: Nie lubię
 ---
 
-Ta lekcja zbiera formuły do zamawiania przy stole: jak ułożyć lehen/bigarren/postrea, powiedzieć "dla mnie" i wyrazić preferencje.
+W tej lekcji poznasz zwroty używane przy zamawianiu jedzenia: jak uporządkować zamówienie (*lehen/bigarren/postrea*), powiedzieć „dla mnie” i wyrazić swoje preferencje.
 
 ## Pytanie kelnera
 
@@ -60,7 +84,7 @@ Kelner zacznie od jednego z tych zwrotów:
 
 ## Układanie zamówienia
 
-Aby uporządkować to, co zamawiasz, są trzy bardzo przydatne wyznaczniki:
+Aby uporządkować zamówienie, mamy trzy bardzo przydatne zwroty:
 
 | Euskera | Polski |
 |---|---|
@@ -90,7 +114,7 @@ Pełny przykład:
 - **Nahiago dut...** — Wolę...
    - *Nahiago dut arraina haragia baino.* — Wolę rybę od mięsa.
 - **Ez dut ... nahi.** — Nie chcę...
-- **Ez zait gustatzen.** — Nie lubię tego.
+- **Ez zait gustatzen.** — Nie lubię.
 - **... gustatzen zait.** — Lubię...
 
 ## Mini-dialog przy stole
@@ -113,4 +137,4 @@ Pełny przykład:
 >
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
-> **Notatka kulturowa:** w małych restauracjach bardzo często jedna osoba zamawia za całą grupę (*Niretzat legatza eta beretzat haragia* — dla mnie morszczuk, a dla niego/niej mięso). Dlatego *niretzat / zuretzat / beretzat* to słowa o bardzo dużej przydatności od pierwszego dnia.
+> **Notatka kulturowa:** w małych restauracjach bardzo często jedna osoba zamawia za całą grupę (*Niretzat legatza eta beretzat haragia* — dla mnie morszczuk, a dla niego/niej mięso). Dlatego *niretzat / zuretzat / beretzat* to bardzo przydatne słowa już od pierwszego dnia.

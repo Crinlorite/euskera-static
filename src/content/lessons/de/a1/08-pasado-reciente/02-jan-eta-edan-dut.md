@@ -5,69 +5,102 @@ code: 02-jan-eta-edan-dut
 unit: 08-pasado-reciente
 level: a1
 order: 2
-title: Transitive Verben in der jüngsten Vergangenheit (jan dut, ikusi dut)
+title: Transitive Verben im Perfekt (jan dut, ikusi dut)
 estimatedMinutes: 12
-covers: [recent-past-dut, ukan-basic, participle-form]
+covers:
+- recent-past-dut
+- ukan-basic
+- participle-form
 exercises:
-  - id: ex-02-jed-mc1
-    type: multiple-choice
-    prompt: '"Egunkaria irakurri dut" bedeutet…'
-    options: ["Ich lese jeden Tag die Zeitung", "Ich habe die Zeitung gelesen", "Ich werde die Zeitung lesen", "Die Zeitung liest gerade"]
-    answer: 1
-    explanation: '"Irakurri" (lesen) + "dut" (ich + Objekt) = "ich habe gelesen". Ohne das -tzen markiert es die jüngste Vergangenheit.'
-  - id: ex-02-jed-mc2
-    type: multiple-choice
-    prompt: 'Wie würdest du "Mikel hat zu Hause gefrühstückt" sagen?'
-    options:
-      - "Mikel etxean gosaldu da"
-      - "Mikelek etxean gosaldu du"
-      - "Mikelek etxean gosaltzen du"
-      - "Mikel etxean gosaltzen da"
-    answer: 1
-    explanation: '*Gosaldu* ist transitiv (mit implizitem Objekt: das Frühstück). Das Subjekt steht mit NORK (-k): *Mikelek*; das Hilfsverb ist *du*.'
-  - id: ex-02-jed-fb1
-    type: fill-in-blank
-    prompt: 'Wir haben Brot gekauft = Ogia erosi ___.'
-    answers: [dugu]
-    explanation: '"Erosi" verlangt ukan; "wir" → *dugu*. Subjekt: *guk*. Ergebnis: *guk ogia erosi dugu*.'
-  - id: ex-02-jed-fb2
-    type: fill-in-blank
-    prompt: 'Sie haben Wein getrunken = Ardoa edan ___.'
-    answers: [dute]
-    explanation: '"Edan" verlangt ukan; "sie" → *dute*. Subjekt: *haiek*. Ergebnis: *haiek ardoa edan dute*.'
-  - id: ex-02-jed-mp
-    type: match-pairs
-    pairs:
-      - { eu: jan dut, es: ich habe gegessen }
-      - { eu: edan dut, es: ich habe getrunken }
-      - { eu: ikusi dut, es: ich habe gesehen }
-      - { eu: irakurri dut, es: ich habe gelesen }
-      - { eu: erosi dut, es: ich habe gekauft }
-      - { eu: egin dut, es: ich habe gemacht }
-      - { eu: hartu dut, es: ich habe genommen / ich habe gegriffen }
-      - { eu: ikasi dut, es: ich habe gelernt / ich habe studiert }
-  - id: ex-02-jed-fc
-    type: flashcards
-    cards:
-      - { eu: jan dut, es: ich habe gegessen }
-      - { eu: edan dut, es: ich habe getrunken }
-      - { eu: ikusi dut, es: ich habe gesehen }
-      - { eu: irakurri dut, es: ich habe gelesen }
-      - { eu: erosi dut, es: ich habe gekauft }
-      - { eu: egin dut, es: ich habe gemacht }
-      - { eu: ekarri dut, es: ich habe gebracht }
-      - { eu: eraman dut, es: ich habe getragen }
-      - { eu: hartu dut, es: ich habe genommen / ich habe gegriffen }
-      - { eu: eskatu dut, es: ich habe bestellt }
-      - { eu: ikasi dut, es: ich habe gelernt }
-      - { eu: gosaldu dut, es: ich habe gefrühstückt }
-      - { eu: bazkaldu dut, es: ich habe zu Mittag gegessen }
-      - { eu: afaldu dut, es: ich habe zu Abend gegessen }
-      - { eu: lan egin dut, es: ich habe gearbeitet }
-      - { eu: lo egin dut, es: ich habe geschlafen }
+- id: ex-02-jed-mc1
+  type: multiple-choice
+  prompt: '"Egunkaria irakurri dut" bedeutet…'
+  options:
+  - Ich lese jeden Tag die Zeitung
+  - Ich habe die Zeitung gelesen
+  - Ich werde die Zeitung lesen
+  - Die Zeitung liest
+  answer: 1
+  explanation: '"Irakurri" (lesen) + "dut" (ich + Objekt) = „ich habe gelesen“. Ohne *-tzen* markiert es das Perfekt.'
+- id: ex-02-jed-mc2
+  type: multiple-choice
+  prompt: 'Wie würdest du sagen: „Mikel hat zu Hause gefrühstückt“?'
+  options:
+  - Mikel etxean gosaldu da
+  - Mikelek etxean gosaldu du
+  - Mikelek etxean gosaltzen du
+  - Mikel etxean gosaltzen da
+  answer: 1
+  explanation: '*Gosaldu* ist transitiv (hat ein implizites Objekt: das Frühstück). Das Subjekt steht im NORK-Fall (-k): *Mikelek*; das Hilfsverb ist *du*.'
+- id: ex-02-jed-fb1
+  type: fill-in-blank
+  prompt: Wir haben Brot gekauft = Ogia erosi ___.
+  answers:
+  - dugu
+  explanation: '"Erosi" wird mit *ukan* konjugiert; „wir“ → *dugu*. Subjekt: *guk*. Ergebnis: *guk ogia erosi dugu*.'
+- id: ex-02-jed-fb2
+  type: fill-in-blank
+  prompt: Sie haben Wein getrunken = Ardoa edan ___.
+  answers:
+  - dute
+  explanation: '"Edan" wird mit *ukan* konjugiert; „sie“ → *dute*. Subjekt: *haiek*. Ergebnis: *haiek ardoa edan dute*.'
+- id: ex-02-jed-mp
+  type: match-pairs
+  pairs:
+  - eu: jan dut
+    es: he comido
+  - eu: edan dut
+    es: he bebido
+  - eu: ikusi dut
+    es: he visto
+  - eu: irakurri dut
+    es: habe gelesen
+  - eu: erosi dut
+    es: he comprado
+  - eu: egin dut
+    es: he hecho
+  - eu: hartu dut
+    es: he tomado / he cogido
+  - eu: ikasi dut
+    es: he aprendido / he estudiado
+- id: ex-02-jed-fc
+  type: flashcards
+  cards:
+  - eu: jan dut
+    es: habe gegessen
+  - eu: edan dut
+    es: habe getrunken
+  - eu: ikusi dut
+    es: habe gesehen
+  - eu: irakurri dut
+    es: habe gelesen
+  - eu: erosi dut
+    es: habe gekauft
+  - eu: egin dut
+    es: habe gemacht
+  - eu: ekarri dut
+    es: habe gebracht
+  - eu: eraman dut
+    es: habe mitgenommen
+  - eu: hartu dut
+    es: habe genommen
+  - eu: eskatu dut
+    es: habe bestellt
+  - eu: ikasi dut
+    es: habe gelernt
+  - eu: gosaldu dut
+    es: habe gefrühstückt
+  - eu: bazkaldu dut
+    es: habe zu Mittag gegessen
+  - eu: afaldu dut
+    es: habe zu Abend gegessen
+  - eu: lan egin dut
+    es: habe gearbeitet
+  - eu: lo egin dut
+    es: habe geschlafen
 ---
 
-Die **transitiven Verben** sind diejenigen, die ein Objekt haben: jemand isst *etwas*, sieht *etwas*, liest *etwas*. Im Baskischen verwenden diese Verben das Hilfsverb **ukan** (dut, duzu, du…). In der jüngsten Vergangenheit lautet die Formel:
+**Transitive Verben** sind solche, die ein Objekt haben: jemand isst *etwas*, sieht *etwas*, liest *etwas*. Im Baskischen verwenden diese Verben das Hilfsverb **ukan** (dut, duzu, du…). Im Perfekt lautet die Formel:
 
 > **partizipioa + dut/duzu/du/dugu/duzue/dute**
 
@@ -75,41 +108,41 @@ Die **transitiven Verben** sind diejenigen, die ein Objekt haben: jemand isst *e
 
 | Partizipioa | Ich (habe…) | Deutsch |
 |---|---|---|
-| *jan* | **jan dut** | ich habe gegessen |
-| *edan* | **edan dut** | ich habe getrunken |
-| *ikusi* | **ikusi dut** | ich habe gesehen |
-| *irakurri* | **irakurri dut** | ich habe gelesen |
-| *entzun* | **entzun dut** | ich habe gehört |
-| *erosi* | **erosi dut** | ich habe gekauft |
-| *egin* | **egin dut** | ich habe gemacht |
-| *hartu* | **hartu dut** | ich habe gegriffen / genommen |
-| *ekarri* | **ekarri dut** | ich habe gebracht |
-| *eraman* | **eraman dut** | ich habe getragen |
-| *ikasi* | **ikasi dut** | ich habe gelernt / ich habe studiert |
-| *eskatu* | **eskatu dut** | ich habe bestellt |
-| *ordaindu* | **ordaindu dut** | ich habe bezahlt |
-| *idatzi* | **idatzi dut** | ich habe geschrieben |
-| *prestatu* | **prestatu dut** | ich habe vorbereitet |
-| *garbitu* | **garbitu dut** | ich habe geputzt |
-| *gosaldu* | **gosaldu dut** | ich habe gefrühstückt |
-| *bazkaldu* | **bazkaldu dut** | ich habe zu Mittag gegessen |
-| *afaldu* | **afaldu dut** | ich habe zu Abend gegessen |
-| *lan egin* | **lan egin dut** | ich habe gearbeitet |
+| *jan* | **jan dut** | habe gegessen |
+| *edan* | **edan dut** | habe getrunken |
+| *ikusi* | **ikusi dut** | habe gesehen |
+| *irakurri* | **irakurri dut** | habe gelesen |
+| *entzun* | **entzun dut** | habe gehört |
+| *erosi* | **erosi dut** | habe gekauft |
+| *egin* | **egin dut** | habe gemacht |
+| *hartu* | **hartu dut** | habe genommen |
+| *ekarri* | **ekarri dut** | habe gebracht |
+| *eraman* | **eraman dut** | habe mitgenommen |
+| *ikasi* | **ikasi dut** | habe gelernt / studiert |
+| *eskatu* | **eskatu dut** | habe gebeten / bestellt |
+| *ordaindu* | **ordaindu dut** | habe bezahlt |
+| *idatzi* | **idatzi dut** | habe geschrieben |
+| *prestatu* | **prestatu dut** | habe vorbereitet |
+| *garbitu* | **garbitu dut** | habe geputzt |
+| *gosaldu* | **gosaldu dut** | habe gefrühstückt |
+| *bazkaldu* | **bazkaldu dut** | habe zu Mittag gegessen |
+| *afaldu* | **afaldu dut** | habe zu Abend gegessen |
+| *lan egin* | **lan egin dut** | habe gearbeitet |
 
 ## Vollständige Konjugation mit einem Verb
 
-Wir nehmen *ikusi* (sehen) als Beispiel:
+Nehmen wir *ikusi* (sehen) als Beispiel:
 
-| Pronomen + Subjekt | Form | Deutsch |
+| Pronomen + Subjekt | Forma | Deutsch |
 |---|---|---|
 | Nik | **ikusi dut** | Ich habe gesehen |
 | Zuk | **ikusi duzu** | Du hast gesehen |
-| Hark | **ikusi du** | Er/sie hat gesehen |
+| Hark | **ikusi du** | Er/Sie hat gesehen |
 | Guk | **ikusi dugu** | Wir haben gesehen |
 | Zuek | **ikusi duzue** | Ihr habt gesehen |
 | Haiek | **ikusi dute** | Sie haben gesehen |
 
-> Das Subjekt der transitiven Verben trägt die Markierung **NORK** (-k): *nik, zuk, hark, guk, zuek, haiek*. Du wirst sie häufig sehen, besonders wenn das Subjekt ein Name ist: *Mikelek* (Mikel hat…), *Maialenek* (Maialen hat…). Wenn es dich verwirrt, kannst du im A1 das Pronomen weglassen und nur das Verb stehen lassen: der Kontext genügt.
+> Das Subjekt transitiver Verben trägt die Markierung **NORK** (-k): *nik, zuk, hark, guk, zuek, haiek*. Du wirst sie häufig sehen, besonders wenn das Subjekt ein Name ist: *Mikelek* (Mikel hat…), *Maialenek* (Maialen hat…). Wenn dich das verwirrt, kannst du auf A1-Niveau das Pronomen weglassen und nur das Verb verwenden: Der Kontext genügt.
 
 ## Typische Sätze
 
@@ -122,13 +155,13 @@ Wir nehmen *ikusi* (sehen) als Beispiel:
 
 ## Verneinung
 
-Um "ich habe X nicht gemacht" zu sagen, steht **ez** vor dem Hilfsverb:
+Um „ich habe X nicht getan“ zu sagen, steht **ez** vor dem Hilfsverb:
 
 > *Ez dut bazkaldu.* — Ich habe nicht zu Mittag gegessen.
 >
-> *Ez du egunkaria irakurri.* — Er/sie hat die Zeitung nicht gelesen.
+> *Ez du egunkaria irakurri.* — Er/Sie hat die Zeitung nicht gelesen.
 >
-> *Ez dugu ardorik edan.* — Wir haben keinen Wein getrunken. (Beachte *ardorik*: bei der Verneinung trägt das Objekt meist das partitive **-rik**.)
+> *Ez dugu ardorik edan.* — Wir haben keinen Wein getrunken. (Beachte *ardorik*: bei der Verneinung trägt das Objekt oft die partitive Endung **-rik**.)
 
 ## Mini-Dialog
 
@@ -138,4 +171,4 @@ Um "ich habe X nicht gemacht" zu sagen, steht **ez** vor dem Hilfsverb:
 >
 > *— Nik tortilla egin dut, baina ez dut postrerik jan.*
 
-> **Visuelle Zusammenfassung:** Wenn die Handlung ein explizites oder implizites Objekt hat (etwas essen, etwas sehen, etwas machen), ist das Hilfsverb **dut** (und seine Formen). Lerne diese Verb-Hilfsverb-Paare auswendig, und der Rest ergibt sich von selbst.
+> **Visuelle Zusammenfassung:** Wenn die Handlung ein explizites oder implizites Objekt hat (etwas essen, etwas sehen, etwas tun), ist das Hilfsverb **dut** (und seine Ableitungen). Lerne diese Verb-Hilfsverb-Paare auswendig, und der Rest ergibt sich von selbst.

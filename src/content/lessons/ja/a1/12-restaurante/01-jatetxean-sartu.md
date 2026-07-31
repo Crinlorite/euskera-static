@@ -5,110 +5,139 @@ code: 01-jatetxean-sartu
 unit: 12-restaurante
 level: a1
 order: 1
-title: レストランに着く (jatetxean sartu)
+title: レストランに到着する (jatetxean sartu)
 estimatedMinutes: 10
-covers: [restaurant-vocab, courtesy, greetings]
+covers:
+- restaurant-vocab
+- courtesy
+- greetings
 exercises:
-  - id: ex-jat1-mc1
-    type: multiple-choice
-    prompt: '2人用のテーブルはどうやって頼みますか？'
-    options: ['Bi mahaiak, mesedez', 'Mahai bat bi lagunentzat, mesedez', 'Mahai bi lagunak, mesedez', 'Bi lagun mahaian']
-    answer: 1
-    explanation: '"Mahai bat bi lagunentzat" =「2人用のテーブル」。*-entzat* は複数の受け手を表します。'
-  - id: ex-jat1-mc2
-    type: multiple-choice
-    prompt: '"Erreserba egin nahi dut" の意味は…'
-    options: [払いたい, 予約をしたい, 席はありますか？, お腹がすいた]
-    answer: 1
-    explanation: '*Erreserba egin* —「予約をする」。*Nahi dut* —「したい」。'
-  - id: ex-jat1-fb1
-    type: fill-in-blank
-    prompt: 'ウェイターが尋ねます：「どなたのお名前で？」=「___ izenean?」'
-    answers: [Noren, noren]
-    explanation: '*Noren?* — 属格の疑問詞：「誰の？」。*Noren izenean?* が標準的な言い回しです。'
-  - id: ex-jat1-fb2
-    type: fill-in-blank
-    prompt: '「明日の夜のために」= Bihar ___'
-    answers: [gauerako, Gauerako]
-    explanation: '*Gau*（夜）+ *-rako*（～のために）→ *gauerako* —「夜のために」。'
-  - id: ex-jat1-fc
-    type: flashcards
-    cards:
-      - { eu: jatetxea, es: レストラン }
-      - { eu: erretegia, es: '炭火焼きの店、焼肉屋' }
-      - { eu: sagardotegia, es: シードル醸造所（食堂） }
-      - { eu: pizzeria, es: ピザ屋 }
-      - { eu: hanburgeseria, es: ハンバーガー店 }
-      - { eu: elkartea, es: '美食クラブ' }
-      - { eu: mahaia, es: テーブル }
-      - { eu: zerbitzaria, es: 'ウェイター、ウェイトレス' }
-      - { eu: bezeroa, es: 客 }
-      - { eu: erreserba, es: 予約 }
-      - { eu: 'Mahai bat, mesedez', es: 'テーブルを一つ、お願いします' }
-      - { eu: 'Lau lagunentzat', es: '4人用に' }
-      - { eu: 'Noren izenean?', es: 'どなたのお名前で？' }
-      - { eu: 'Bihar gauerako', es: '明日の夜のために' }
+- id: ex-jat1-mc1
+  type: multiple-choice
+  prompt: 2人分のテーブルをどう頼みますか？
+  options:
+  - Bi mahaiak, mesedez
+  - Mahai bat bi lagunentzat, mesedez
+  - Mahai bi lagunak, mesedez
+  - Bi lagun mahaian
+  answer: 1
+  explanation: 「Mahai bat bi lagunentzat」=「2人分のテーブル」。*-entzat* は複数の受け手を表します。
+- id: ex-jat1-mc2
+  type: multiple-choice
+  prompt: 「Erreserba egin nahi dut」の意味は…
+  options:
+  - 支払いたい
+  - 予約したい
+  - 席はありますか？
+  - お腹が空きました
+  answer: 1
+  explanation: '*Erreserba egin* — 「予約する」。*Nahi dut* — 「〜したい」。'
+- id: ex-jat1-fb1
+  type: fill-in-blank
+  prompt: 店員が尋ねます：「どなた様のお名前ですか？」=「___ izenean?」
+  answers:
+  - Noren
+  - noren
+  explanation: '*Noren?* — 属格の疑問詞：「誰の？」。*Noren izenean?* が標準的な言い方です。'
+- id: ex-jat1-fb2
+  type: fill-in-blank
+  prompt: 「明日の夜に」= Bihar ___
+  answers:
+  - gauerako
+  - Gauerako
+  explanation: '*Gau* (夜) + *-rako* (〜のために) → *gauerako* — 「夜のために」。'
+- id: ex-jat1-fc
+  type: flashcards
+  cards:
+  - eu: jatetxea
+    es: レストラン
+  - eu: erretegia
+    es: グリル料理店、ロースト専門店
+  - eu: sagardotegia
+    es: シードル専門店
+  - eu: pizzeria
+    es: ピザ屋
+  - eu: hanburgeseria
+    es: ハンバーガー店
+  - eu: elkartea
+    es: 美食倶楽部
+  - eu: mahaia
+    es: テーブル
+  - eu: zerbitzaria
+    es: 店員、ウェイター、ウェイトレス
+  - eu: bezeroa
+    es: 客
+  - eu: erreserba
+    es: 予約
+  - eu: Mahai bat, mesedez
+    es: テーブルを一つお願いします
+  - eu: Lau lagunentzat
+    es: 4名です
+  - eu: Noren izenean?
+    es: どなた様のお名前ですか？
+  - eu: Bihar gauerako
+    es: 明日の夜に
 ---
 
-レストランに行くときの最初のステップ：入る、挨拶する、テーブルを頼む、または予約を確認する。ここでは基本的な言い回しを紹介します。
+レストランに行くときの最初のステップは、入店して挨拶し、テーブルを頼むか予約を確認することです。ここでは基本的な表現を紹介します。
 
-## 食事をする店の種類
+## 食事をする場所の種類
 
-| 日本語 | 日本語訳 |
+| バスク語 | 日本語 |
 |---|---|
 | *jatetxea* | レストラン |
-| *erretegia* | 炭火焼きの店 / 焼肉屋 |
-| *sagardotegia* | シードル醸造所（食堂） |
+| *erretegia* | グリル料理店 / ロースト専門店 |
+| *sagardotegia* | シードル専門店 |
 | *taberna* | バル |
 | *pizzeria* | ピザ屋 |
 | *hanburgeseria* | ハンバーガー店 |
-| *elkartea* | 美食クラブ |
+| *elkartea* | 美食倶楽部 |
 
-## 場面の登場人物
+## 登場人物
 
 - **Bezeroa** — 客
-- **Zerbitzaria** — ウェイター／ウェイトレス
+- **Zerbitzaria** — 店員 / ウェイター / ウェイトレス
 - **Mahaia** — テーブル
 
-## 予約なしで着く
+## 予約なしで到着した場合
 
 > — *Egun on! Mahai bat bi lagunentzat, mesedez.*
 >
 > — *Bai, jarraitu mesedez. Hemen daukazue mahai bat.*
 
-役立つフレーズ：
+便利なフレーズ：
 
-- **Mahai bat, mesedez.** — テーブルを一つ、お願いします。
-- **Bi lagunentzat / lau lagunentzat.** — 2人用に / 4人用に。
+- **Mahai bat, mesedez.** — テーブルを一つお願いします。
+- **Bi lagunentzat / lau lagunentzat.** — 2名 / 4名です。
 - **Eserlekurik baduzue?** — 席はありますか？
 
-## 予約をする
+## 予約する
 
-電話でも対面でも、ほぼ決まった台本があります：
+電話または直接店に行く場合、ほぼ決まったやり取りがあります：
 
-> — *Egun on! "Kutixi" jatetxea al da?* — レストラン「Kutixi」ですか？
+> — *Egun on! "Kutixi" jatetxea al da?* — 「Kutixi」レストランですか？
 >
-> — *Bai, hala da. Zer nahi duzu?* — はい。ご用件は何でしょうか？
+> — *Bai, hala da. Zer nahi duzu?* — はい、そうです。ご用件は何でしょうか？
 >
-> — *Erreserba bat egin nahi dut, bihar gauerako.* — 予約をしたいのですが、明日の夜のために。
+> — *Erreserba bat egin nahi dut, bihar gauerako.* — 予約をしたいのですが、明日の夜です。
 >
-> — *Zenbat lagunentzat?* — 何人用ですか？
+> — *Zenbat lagunentzat?* — 何名様ですか？
 >
-> — *Lau lagun izango gara.* — 4人になります。
+> — *Lau lagun izango gara.* — 4名です。
 >
-> — *Zer ordutan afaldu nahi duzue?* — 何時に夕食をとりたいですか？
+> — *Zer ordutan afaldu nahi duzue?* — 夕食は何時がよろしいですか？
 >
-> — *Bederatziak aldera.* — 9時ごろです。
+> — *Bederatziak aldera.* — 9時頃です。
 >
-> — *Noren izenean?* — どなたのお名前で？
+> — *Noren izenean?* — どなた様のお名前ですか？
 >
-> — *Mikelen izenean.* — Mikel の名前で。
+> — *Mikelen izenean.* — ミケルでお願いします。
 
 ## 耳にするフレーズ
 
 - **Itxaron pixka bat, mesedez.** — 少々お待ちください。
-- **Jarraitu mesedez.** — こちらへどうぞ（テーブルを指しながら）。
-- **Hemen daukazue.** — こちらでございます。
+- **Jarraitu mesedez.** — どうぞこちらへ (テーブルを指しながら)。
+- **Hemen daukazue.** — どうぞ。
 - **Karta nahi duzue?** — メニューはいかがですか？
 
-> **文化メモ：** **elkarteak**（美食クラブ）は Euskal Herria に典型的な場所で、料理は会員のグループ自身が作り、片付けます。一般のレストランのようには営業していませんが、この言葉をしょっちゅう耳にするので、存在を知っておくとよいでしょう。
+> **文化メモ：** **elkarteak**、つまり美食倶楽部は、Euskal Herria 特有の場所で、会員グループ自身が料理を作り、片付けをします。一般のレストランとしては機能していませんが、この言葉は非常によく耳にするので、存在を知っておくと便利です。

@@ -5,77 +5,115 @@ code: 05-garraiobideak
 unit: 06-direcciones
 level: a1
 order: 5
-title: Транспорт (oinez, autobusez, trenez…)
+title: Транспорт (*oinez*, *autobusez*, *trenez*…)
 estimatedMinutes: 10
-covers: [instrumental-z, movement-verbs]
+covers:
+- instrumental-z
+- movement-verbs
 exercises:
-  - id: ex-ga-mp
-    type: match-pairs
-    pairs:
-      - { eu: oinez, es: пешком }
-      - { eu: kotxez / autoz, es: на машине }
-      - { eu: autobusez, es: на автобусе }
-      - { eu: trenez, es: на поезде }
-      - { eu: bizikletaz, es: на велосипеде }
-      - { eu: hegazkinez, es: на самолёте }
-      - { eu: itsasontziz, es: на корабле }
-  - id: ex-ga-mc1
-    type: multiple-choice
-    prompt: 'Как сказать "Я еду на автобусе"?'
-    options: ["Autobusera noa", "Autobusan noa", "Autobusez noa", "Autobusetik noa"]
-    answer: 2
-    explanation: '"Autobus" + суффикс -ez (инструментальный падеж) = "autobusez" (на автобусе, способ передвижения).'
-  - id: ex-ga-fb1
-    type: fill-in-blank
-    prompt: 'Я иду пешком = ___ noa.'
-    answers: [Oinez, oinez]
-    explanation: '"Oinez" — это устойчивая форма для "пешком" (буквально "с ногой").'
-  - id: ex-ga-fb2
-    type: fill-in-blank
-    prompt: 'Я еду в Pamplona на поезде = Iruñera ___ noa.'
-    answers: [trenez]
-  - id: ex-ga-mc2
-    type: multiple-choice
-    prompt: '"Bilbora hegazkinez doaz" означает…'
-    options: ["Они прилетают из Bilbao на самолёте", "Они летят в Bilbao на самолёте", "Он в самолёте в Bilbao", "В Bilbao есть аэропорт"]
-    answer: 1
-    explanation: 'Bilbo + ra = в Bilbao; hegazkin + ez = на самолёте; doaz = они едут/летят.'
-  - id: ex-ga-mc3
-    type: multiple-choice
-    prompt: 'Как спросить "Как ты добираешься до школы?"'
-    options: ["Nora zoaz eskolara?", "Nondik zatoz eskolatik?", "Nola zoaz eskolara?", "Non dago eskola?"]
-    answer: 2
-    explanation: '"Nola?" означает "как?". Чтобы спросить про способ передвижения, мы используем "Nola zoaz…?" или также "Zerez zoaz?".'
-  - id: ex-ga-fc
-    type: flashcards
-    cards:
-      - { eu: oinez, es: пешком }
-      - { eu: autoz / kotxez, es: на машине }
-      - { eu: autobusez, es: на автобусе }
-      - { eu: trenez, es: на поезде }
-      - { eu: bizikletaz, es: на велосипеде }
-      - { eu: motorrez, es: на мотоцикле }
-      - { eu: hegazkinez, es: на самолёте }
-      - { eu: itsasontziz, es: на корабле }
-      - { eu: taxiz, es: на такси }
-      - { eu: metroz, es: на метро }
-      - { eu: 'Nola zoaz?', es: Как ты едешь? }
-      - { eu: 'Zerez zoaz?', es: На каком транспорте ты едешь? }
-      - { eu: garraiobide, es: вид транспорта }
-      - { eu: ibilbide, es: маршрут / путь }
+- id: ex-ga-mp
+  type: match-pairs
+  pairs:
+  - eu: oinez
+    es: a pie
+  - eu: kotxez / autoz
+    es: en coche
+  - eu: autobusez
+    es: на автобусе
+  - eu: trenez
+    es: en tren
+  - eu: bizikletaz
+    es: en bicicleta
+  - eu: hegazkinez
+    es: на самолёте
+  - eu: itsasontziz
+    es: en barco
+- id: ex-ga-mc1
+  type: multiple-choice
+  prompt: Как сказать «Я еду на автобусе»?
+  options:
+  - Autobusera noa
+  - Autobusan noa
+  - Autobusez noa
+  - Autobusetik noa
+  answer: 2
+  explanation: '"Autobus" + суффикс -ez (инструментальный падеж) = "autobusez" (на автобусе, способ передвижения).'
+- id: ex-ga-fb1
+  type: fill-in-blank
+  prompt: Я иду пешком = ___ noa.
+  answers:
+  - Oinez
+  - oinez
+  explanation: '"Oinez" — это устоявшаяся форма для «пешком» (буквально «ногой»).'
+- id: ex-ga-fb2
+  type: fill-in-blank
+  prompt: Я еду в Памплону на поезде = Iruñera ___ noa.
+  answers:
+  - trenez
+- id: ex-ga-mc2
+  type: multiple-choice
+  prompt: «Bilbora hegazkinez doaz» означает…
+  options:
+  - Они прилетают из Бильбао на самолёте
+  - Они летят в Бильбао на самолёте
+  - Он/она в самолёте в Бильбао
+  - В Бильбао есть аэропорт
+  answer: 1
+  explanation: Bilbo + ra = в Бильбао; hegazkin + ez = на самолёте; doaz = они едут/летят.
+- id: ex-ga-mc3
+  type: multiple-choice
+  prompt: Как спросить «Как ты добираешься до школы?»
+  options:
+  - Nora zoaz eskolara?
+  - Nondik zatoz eskolatik?
+  - Nola zoaz eskolara?
+  - Non dago eskola?
+  answer: 2
+  explanation: «Nola?» означает «как?». Чтобы спросить о виде транспорта, мы используем «Nola zoaz…?» или «Zerez zoaz?».
+- id: ex-ga-fc
+  type: flashcards
+  cards:
+  - eu: oinez
+    es: пешком
+  - eu: autoz / kotxez
+    es: на машине
+  - eu: autobusez
+    es: на автобусе
+  - eu: trenez
+    es: на поезде
+  - eu: bizikletaz
+    es: на велосипеде
+  - eu: motorrez
+    es: на мотоцикле
+  - eu: hegazkinez
+    es: на самолёте
+  - eu: itsasontziz
+    es: на корабле
+  - eu: taxiz
+    es: на такси
+  - eu: metroz
+    es: на метро
+  - eu: Nola zoaz?
+    es: Как ты едешь/идёшь?
+  - eu: Zerez zoaz?
+    es: На чём ты едешь/идёшь?
+  - eu: garraiobide
+    es: вид транспорта
+  - eu: ibilbide
+    es: маршрут / путь
 ---
 
-Чтобы завершить раздел, нам не хватает одной детали: **как ты передвигаешься**. В русском мы используем "на + транспорт" ("на машине", "на автобусе"). В баскском используется суффикс **`-z`** (*инструментальный* падеж), который добавляется к виду транспорта и, что удивительно, также к слову "нога".
+Чтобы завершить этот раздел, нам не хватает одной детали: **как вы передвигаетесь**. В русском мы используем предлог «на» + транспорт («на машине», «на автобусе»). В баскском языке используется суффикс **`-z`** (*инструментальный* падеж), который добавляется к названию транспорта и, что удивительно, также к слову, означающему «нога».
 
 ## Вопрос
 
 | Вопрос | Русский |
 |---|---|
-| ***Nola* zoaz?** | Как ты едешь? |
-| ***Zerez* zoaz?** | На каком (транспорте) ты едешь? |
-| ***Nola* doa Iruñera?** | Как он/она едет в Pamplona? |
+| ***Nola* zoaz?** | Как ты едешь/идёшь? |
+| ***Zerez* zoaz?** | На чём ты едешь/идёшь? |
+| ***Nola* doa Iruñera?** | Как он/она едет в Памплону? |
 
-Обе формы (*Nola* и *Zerez*) допустимы и употребительны. *Nola* более общая; *zerez* напрямую подразумевает "на каком транспорте".
+Обе формы (*Nola* и *Zerez*) допустимы и часто используются. *Nola* — более общий вопрос; *zerez* прямо подразумевает «на каком транспорте».
 
 ## Виды транспорта
 
@@ -92,39 +130,39 @@ exercises:
 | hegazkin | **hegazkinez** | на самолёте |
 | itsasontzi | **itsasontziz** | на корабле |
 | furgoneta | **furgonetaz** | на фургоне |
-| zaldi (лошадь) | **zaldiz** | верхом / на лошади |
+| zaldi (лошадь) | **zaldiz** | верхом |
 
-> Суффикс — это **`-z`** после гласной и **`-ez`** после согласной (*autobus → autobusez*). На практике почти все названия транспорта оканчиваются на гласную, поэтому базовая формула такая: **транспорт + z**.
+> Суффикс — **`-z`** после гласной и **`-ez`** после согласной (*autobus → autobusez*). На практике почти все названия транспорта заканчиваются на гласную, поэтому основная формула: **транспорт + z**.
 
 ## Полные примеры
 
 - **Oinez noa lanera.** — Я иду на работу пешком.
-- **Iruñera trenez goaz.** — Мы едем в Pamplona на поезде.
-- **Bilbora hegazkinez doaz.** — Они летят в Bilbao на самолёте.
-- **Eskolara bizikletaz dator alaba.** — Дочь едет в школу на велосипеде.
-- **Mendira oinez igotzen gara.** — Мы поднимаемся в гору пешком.
+- **Iruñera trenez goaz.** — Мы едем в Памплону на поезде.
+- **Bilbora hegazkinez doaz.** — Они летят в Бильбао на самолёте.
+- **Eskolara bizikletaz dator alaba.** — Дочь приезжает в школу на велосипеде.
+- **Mendira oinez igotzen gara.** — Мы поднимаемся на гору пешком.
 
-## Сочетание NONDIK + NORA + NOLA
+## Комбинируем NONDIK + NORA + NOLA
 
-Типичная фраза о путешествии обычно состоит из трёх частей: **откуда + куда + как**.
+Типичное предложение о поездке обычно состоит из трёх частей: **откуда + куда + как**.
 
-- **Iruñetik Donostiara autobusez doa.** — Он/она едет из Pamplona в Donostia на автобусе.
-- **Bilbotik Madrilera trenez gatoz.** — Мы едем из Bilbao в Мадрид на поезде.
-- **Etxetik euskaltegira oinez noa.** — Я иду из дома в euskaltegi пешком.
+- **Iruñetik Donostiara autobusez doa.** — Он/она едет из Памплоны в Доностию на автобусе.
+- **Bilbotik Madrilera trenez gatoz.** — Мы едем из Бильбао в Мадрид на поезде.
+- **Etxetik euskaltegira oinez noa.** — Я иду из дома в *euskaltegi* пешком.
 
 ## Мини-диалог
 
-> — *Aupa! Bihar Bilbora **noa**.* — Привет! Завтра я еду в Bilbao.
+> — *Aupa! Bihar Bilbora **noa**.* — Привет! Завтра я еду в Бильбао.
 >
-> — *Eta **nola** zoaz?* — А как ты едешь?
+> — *Eta **nola** zoaz?* — И как ты едешь?
 >
 > — *Trenez. Oso erosoa da.* — На поезде. Это очень удобно.
 >
 > — *Ni autoz noa beti, baina garestia da gasolina.* — Я всегда езжу на машине, но бензин дорогой.
 
-## О слове "oinez"
+## О слове *oinez*
 
-На первый взгляд *oinez* кажется особым случаем ("с ногой"), но на самом деле это в точности тот же шаблон, что и у остальных: *oin* (нога) + *ez* (инструментальный суффикс). Баскский язык относится к "идти пешком" как к любому другому способу передвижения: используя то средство, которое тебя несёт.
+На первый взгляд *oinez* кажется исключением («ногой»), но на самом деле это та же самая схема, что и в остальных случаях: *oin* (нога) + *ez* (инструментальный суффикс). В баскском языке «идти пешком» рассматривается как любой другой способ передвижения: с использованием средства, которое вас перемещает.
 
 ## Итоговое повторение блока NORA / NONDIK / NOLA
 
@@ -134,4 +172,4 @@ exercises:
 | **Nondik?** | -tik | Откуда? | *Bilbo**tik** nator.* |
 | **Nola? / Zerez?** | -z | Как? / На чём? | *Tren**ez** noa.* |
 
-> **Хитрость:** три суффикса вместе образуют почти любую фразу о путешествии. Например: *Bilbotik Donostiara autobusez goaz, lagun bat bisitatzera*. — "Мы едем из Bilbao в Donostia на автобусе, чтобы навестить друга." Если ты владеешь этими тремя суффиксами + синтетическими формами глаголов *joan* и *etorri*, ты можешь говорить о любом перемещении в своей повседневной жизни.
+> **Лайфхак:** эти три суффикса вместе позволяют составить почти любое предложение о поездке. Например: *Bilbotik Donostiara autobusez goaz, lagun bat bisitatzera*. — «Мы едем из Бильбао в Доностию на автобусе, чтобы навестить друга». Если вы освоите эти три суффикса + синтетические формы глаголов *joan* и *etorri*, вы сможете рассказать о любом своём передвижении в повседневной жизни.

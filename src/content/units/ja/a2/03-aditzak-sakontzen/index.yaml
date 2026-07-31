@@ -1,0 +1,14 @@
+id: a2-aditzak
+code: 03-aditzak-sakontzen
+level: a2
+title: Aditzak sakontzen — NOR-NORI-NORK、ahaleraと条件法
+order: 3
+description: 3つの項を持つ動詞（「彼に何かをあげる」「彼にそれを教えた」）、可能・不可能の表現、そして条件法の初歩。
+estimatedMinutes: 75
+covers:
+- a2-nor-nori-nork
+- a2-nor-nori-nork-past
+- a2-nor-nori
+- a2-ahalera
+- a2-ezin
+- a2-baldintza-intro

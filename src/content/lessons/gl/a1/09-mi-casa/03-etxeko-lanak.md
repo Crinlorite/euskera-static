@@ -7,62 +7,96 @@ level: a1
 order: 3
 title: As tarefas domésticas
 estimatedMinutes: 12
-covers: [house-chores]
+covers:
+- house-chores
 exercises:
-  - id: ex-09-03-mp
-    type: match-pairs
-    pairs:
-      - { eu: garbitu, es: limpar }
-      - { eu: prestatu, es: preparar }
-      - { eu: jaso, es: recoller }
-      - { eu: lisatu, es: pasar o ferro }
-      - { eu: erosketak egin, es: facer a compra }
-      - { eu: zaborra atera, es: tirar o lixo }
-  - id: ex-09-03-mc1
-    type: multiple-choice
-    prompt: 'Como dis "fregar os pratos"?'
-    options: [arropa lisatu, ohea jantzi, ontziak garbitu, lurra erratu]
-    answer: 2
-    explanation: '"Ontziak garbitu" (literalmente "limpar os pratos") = fregar. Tamén se di "harrikoa egin".'
-  - id: ex-09-03-mc2
-    type: multiple-choice
-    prompt: '"Ohea jantzi" é...'
-    options: [facer a cama, desfacer a cama, mercar unha cama, lavar as sabas]
-    answer: 0
-    explanation: '"Jantzi" significa vestir/poñer; "ohea jantzi" = poñer/facer a cama.'
-  - id: ex-09-03-fb1
-    type: fill-in-blank
-    prompt: 'Eu limpo o baño = Nik komuna ___.'
-    answers: [garbitzen dut]
-    explanation: 'Para acción habitual usamos `-tzen` + verbo auxiliar (presente): "garbitzen dut" = limpo.'
-  - id: ex-09-03-fc
-    type: flashcards
-    cards:
-      - { eu: etxeko lanak, es: as tarefas domésticas }
-      - { eu: garbitu, es: limpar }
-      - { eu: prestatu, es: preparar }
-      - { eu: jaso, es: recoller }
-      - { eu: lisatu, es: pasar o ferro }
-      - { eu: ohea jantzi, es: facer a cama }
-      - { eu: ontziak garbitu, es: fregar os pratos }
-      - { eu: harrikoa egin, es: fregar (expresión) }
-      - { eu: arropa lisatu, es: pasar o ferro á roupa }
-      - { eu: arropa zabaldu, es: tender a roupa }
-      - { eu: zaborra atera, es: tirar o lixo }
-      - { eu: erosketak egin, es: facer a compra }
-      - { eu: xurgagailua pasa, es: pasar a aspiradora }
-      - { eu: bazkaria prestatu, es: preparar a comida }
-      - { eu: txakurra paseatu, es: pasear o can }
-      - { eu: 'Nork egiten du?', es: 'Quen o fai?' }
-      - { eu: egunero, es: todos os días }
-      - { eu: astean behin, es: unha vez por semana }
+- id: ex-09-03-mp
+  type: match-pairs
+  pairs:
+  - eu: garbitu
+    es: limpiar
+  - eu: prestatu
+    es: preparar
+  - eu: jaso
+    es: recoger
+  - eu: lisatu
+    es: planchar
+  - eu: erosketak egin
+    es: facer a compra
+  - eu: zaborra atera
+    es: sacar o lixo
+- id: ex-09-03-mc1
+  type: multiple-choice
+  prompt: Como dis "fregar os pratos"?
+  options:
+  - arropa lisatu
+  - ohea jantzi
+  - ontziak garbitu
+  - lurra erratu
+  answer: 2
+  explanation: '"Ontziak garbitu" (literalmente "limpar os pratos") = fregar. Tamén se di "harrikoa egin".'
+- id: ex-09-03-mc2
+  type: multiple-choice
+  prompt: '"Ohea jantzi" é...'
+  options:
+  - facer a cama
+  - desfacer a cama
+  - comprar unha cama
+  - lavar as sabas
+  answer: 0
+  explanation: '"Jantzi" significa vestir/poñer; "ohea jantzi" = poñer/facer a cama.'
+- id: ex-09-03-fb1
+  type: fill-in-blank
+  prompt: Eu limpo o baño = Nik komuna ___.
+  answers:
+  - garbitzen dut
+  explanation: 'Para unha acción habitual usamos `-tzen` + verbo auxiliar (presente): "garbitzen dut" = limpo.'
+- id: ex-09-03-fc
+  type: flashcards
+  cards:
+  - eu: etxeko lanak
+    es: as tarefas domésticas
+  - eu: garbitu
+    es: limpar
+  - eu: prestatu
+    es: preparar
+  - eu: jaso
+    es: recoller
+  - eu: lisatu
+    es: pranchar
+  - eu: ohea jantzi
+    es: facer a cama
+  - eu: ontziak garbitu
+    es: fregar os pratos
+  - eu: harrikoa egin
+    es: fregar (expresión)
+  - eu: arropa lisatu
+    es: pranchar a roupa
+  - eu: arropa zabaldu
+    es: tender a roupa
+  - eu: zaborra atera
+    es: sacar o lixo
+  - eu: erosketak egin
+    es: facer a compra
+  - eu: xurgagailua pasa
+    es: pasar a aspiradora
+  - eu: bazkaria prestatu
+    es: preparar a comida
+  - eu: txakurra paseatu
+    es: pasear o can
+  - eu: Nork egiten du?
+    es: Quen o fai?
+  - eu: egunero
+    es: todos os días
+  - eu: astean behin
+    es: unha vez por semana
 ---
 
-Nesta lección aprendes os verbos básicos para falar das **etxeko lanak** (tarefas da casa). En euskera, os verbos adoitan darse en forma de **participio** (`-tu`, `-i`, `-n`), que é a forma "de dicionario": *garbitu*, *prestatu*, *jaso*…
+Nesta lección aprendes os verbos básicos para falar das **etxeko lanak** (tarefas da casa). En éuscaro, os verbos adoitan darse en forma de **participio** (`-tu`, `-i`, `-n`), que é a forma "de dicionario": *garbitu*, *prestatu*, *jaso*…
 
 ## Verbos clave
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *garbitu* | limpar |
 | *prestatu* | preparar |
@@ -70,9 +104,9 @@ Nesta lección aprendes os verbos básicos para falar das **etxeko lanak** (tare
 | *jantzi* | vestir / poñer |
 | *atera* | sacar |
 | *zabaldu* | tender / abrir |
-| *lisatu* | pasar o ferro |
+| *lisatu* | pranchar |
 | *paseatu* | pasear |
-| *erosi* | mercar |
+| *erosi* | comprar |
 
 ## Tarefas típicas
 
@@ -82,9 +116,9 @@ Nesta lección aprendes os verbos básicos para falar das **etxeko lanak** (tare
 | Fregar os pratos | *ontziak garbitu* / *harrikoa egin* |
 | Pasar a aspiradora | *xurgagailua pasa* |
 | Tender a roupa | *arropa zabaldu* |
-| Pasar o ferro á roupa | *arropa lisatu* |
+| Pranchar a roupa | *arropa lisatu* |
 | Limpar o baño | *komuna garbitu* |
-| Tirar o lixo | *zaborra atera* |
+| Sacar o lixo | *zaborra atera* |
 | Preparar a comida | *bazkaria prestatu* |
 | Facer a compra | *erosketak egin* |
 | Pasear o can | *txakurra paseatu* |
@@ -96,11 +130,11 @@ Cando unha acción se repite habitualmente (todos os días, cada semana…), o v
 | Persoa | Exemplo | Galego |
 |---|---|---|
 | Nik | *Nik etxea **garbitzen dut**.* | Eu limpo a casa. |
-| Zuk | *Zuk arropa **lisatzen duzu**.* | Ti pasas o ferro á roupa. |
-| Berak | *Aitak bazkaria **prestatzen du**.* | Meu pai prepara a comida. |
+| Zuk | *Zuk arropa **lisatzen duzu**.* | Ti pranchas a roupa. |
+| Berak | *Aitak bazkaria **prestatzen du**.* | O meu pai prepara a comida. |
 | Guk | *Guk erosketak **egiten ditugu**.* | Nós facemos a compra. |
 
-> Nesta lección non fai falta dominar a conxugación. Queda co patrón **`-tzen` + dut/du** para falar da rutina.
+> Nesta lección non fai falta dominar a conxugación. Fica co padrón **`-tzen` + dut/du** para falar da rutina.
 
 ## Frecuencia
 
@@ -112,7 +146,7 @@ Para dicir cada canto fas unha tarefa:
 - **noizean behin** — de cando en vez
 - **inoiz ez** — nunca
 
-> *Nire etxean nik **astean behin** lisatzen dut, baina **egunero** garbitzen dut sukaldea.* — Na miña casa paso o ferro unha vez por semana, pero limpo a cociña todos os días.
+> *Nire etxean nik **astean behin** lisatzen dut, baina **egunero** garbitzen dut sukaldea.* — Na miña casa prancho unha vez por semana, pero limpo a cociña todos os días.
 
 ## Preguntar quen fai que
 

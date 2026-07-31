@@ -7,56 +7,91 @@ level: a1
 order: 5
 title: Facer la compra (lleición integradora)
 estimatedMinutes: 12
-covers: [shopping-dialogue, shops, prices, quantities-units, partitive-rik]
+covers:
+- shopping-dialogue
+- shops
+- prices
+- quantities-units
+- partitive-rik
 exercises:
-  - id: ex-eros-mc1
-    type: multiple-choice
-    prompt: 'Tas na frutería. ¿Cómo pides mediu quilu de mazanes?'
-    options: ['Sagar erdi kilo bat, mesedez', 'Kilo erdi sagar, mesedez', 'Erdia bat kilo sagar', 'Sagarra erdi mesedez']
-    answer: 1
-    explanation: 'Patrón cantidá + productu ensin artículu: **kilo erdi sagar** (mediu quilu de mazanes).'
-  - id: ex-eros-mc2
-    type: multiple-choice
-    prompt: '"Nun hai pan" dizse…'
-    options: [Ez dago ogia, Ez dago ogirik, Ogia ez du, Ez ogia da]
-    answer: 1
-    explanation: "Cola negación + oxetu indefiníu úsase'l partitivu *-rik*: **ogi-rik**."
-  - id: ex-eros-fb1
-    type: fill-in-blank
-    prompt: '"¿Cuántu ye too?" = Zenbat da ___?'
-    answers: [dena]
-    explanation: '*Dena* significa "too".'
-  - id: ex-eros-fb2
-    type: fill-in-blank
-    prompt: 'Pa entrugar si tienen un productu: "¿Tienen lleche?" = Esne___ ba(d)aukazue?'
-    answers: [rik]
-    explanation: 'Entruga d''esistencia con oxetu indefiníu = partitivu **-rik** (esne**rik**).'
-  - id: ex-eros-fc
-    type: flashcards
-    cards:
-      - { eu: erosketa-zerrenda, es: llista de la compra }
-      - { eu: 'Zer behar dugu?', es: '¿Qué necesitamos?' }
-      - { eu: 'Ez dago ogirik', es: Nun hai pan }
-      - { eu: 'Esnerik ba(d)aukazue?', es: '¿Tenéis lleche?' }
-      - { eu: 'Bai, badago', es: 'Sí, hai' }
-      - { eu: 'Ez, ez dago', es: 'Non, nun hai' }
-      - { eu: 'Erosketak egitera noa', es: Voi facer la compra }
-      - { eu: barazkiak, es: verdures }
-      - { eu: frutak, es: frutes }
-      - { eu: haragia, es: carne }
-      - { eu: arraina, es: pexe }
-      - { eu: esnea, es: lleche }
-      - { eu: ogia, es: pan }
-      - { eu: arrautzak, es: güevos }
-  - id: ex-eros-mp
-    type: match-pairs
-    pairs:
-      - { eu: harategia, es: carnicería }
-      - { eu: okindegia, es: panadería }
-      - { eu: arrandegia, es: pescadería }
-      - { eu: 'Zenbat da?', es: ¿Cuántu ye? }
-      - { eu: 'Hartuko dut', es: Llévolo }
-      - { eu: 'Besterik?', es: ¿Daqué más? }
+- id: ex-eros-mc1
+  type: multiple-choice
+  prompt: Tas na frutería. ¿Cómo pides mediu quilu de mazanes?
+  options:
+  - Sagar erdi kilo bat, mesedez
+  - Kilo erdi sagar, mesedez
+  - Erdia bat kilo sagar
+  - Sagarra erdi mesedez
+  answer: 1
+  explanation: 'Patrón cantidá + productu ensin artículu: **kilo erdi sagar** (mediu quilu de mazanes).'
+- id: ex-eros-mc2
+  type: multiple-choice
+  prompt: '"Nun hai pan" dizse…'
+  options:
+  - Ez dago ogia
+  - Ez dago ogirik
+  - Ogia ez du
+  - Ez ogia da
+  answer: 1
+  explanation: 'Cola negación + oxetu indefiníu úsase''l partitivu *-rik*: **ogi-rik**.'
+- id: ex-eros-fb1
+  type: fill-in-blank
+  prompt: '"¿Cuántu ye too?" = Zenbat da ___?'
+  answers:
+  - dena
+  explanation: '*Dena* significa "too".'
+- id: ex-eros-fb2
+  type: fill-in-blank
+  prompt: 'Pa entrugar si tienen un productu: "¿Tienen lleche?" = Esne___ ba(d)aukazue?'
+  answers:
+  - rik
+  explanation: Entruga d'esistencia con oxetu indefiníu = partitivu **-rik** (esne**rik**).
+- id: ex-eros-fc
+  type: flashcards
+  cards:
+  - eu: erosketa-zerrenda
+    es: llista de la compra
+  - eu: Zer behar dugu?
+    es: ¿Qué necesitamos?
+  - eu: Ez dago ogirik
+    es: Nun hai pan
+  - eu: Esnerik ba(d)aukazue?
+    es: ¿Tenéis lleche?
+  - eu: Bai, badago
+    es: Sí, hai
+  - eu: Ez, ez dago
+    es: Non, nun hai
+  - eu: Erosketak egitera noa
+    es: Voi facer la compra
+  - eu: barazkiak
+    es: verdures
+  - eu: frutak
+    es: frutes
+  - eu: haragia
+    es: carne
+  - eu: arraina
+    es: pexe
+  - eu: esnea
+    es: lleche
+  - eu: ogia
+    es: pan
+  - eu: arrautzak
+    es: güevos
+- id: ex-eros-mp
+  type: match-pairs
+  pairs:
+  - eu: harategia
+    es: carnicería
+  - eu: okindegia
+    es: panadería
+  - eu: arrandegia
+    es: pescadería
+  - eu: Zenbat da?
+    es: ¿Cuántu ye?
+  - eu: Hartuko dut
+    es: Llévolo
+  - eu: Besterik?
+    es: ¿Daqué más?
 ---
 
 Esta lleición integra lo deprendío na unidá. Vamos montar una **llista de la compra**, distribuyir productos por tienda y simular un mini-diálogu.
@@ -91,9 +126,9 @@ Y pa dicir que NUN hai:
 
 ## Repartir la compra ente tiendes
 
-Una conversación típica al planificar:
+Una conversación típica al preparala:
 
-> — *Non erosiko dugu ogia?* — ¿Ónde comparemos el pan?
+> — *Non erosiko dugu ogia?* — ¿Ónde compraremos el pan?
 >
 > — *Okindegian, jakina!* — Na panadería, ¡claro!
 >
@@ -129,7 +164,7 @@ Una conversación típica al planificar:
 
 1. **Cantidá + productu:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
 2. **Pidir con educación:** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **Zarrar la compra:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
+3. **Pagar la compra:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Negación con productu:** *Ez dago ...rik* (con partitivu).
 
-> **Nota cultural:** munches families faen les compres "del día" nes tiendes de barriu (fruta-denda, harategia) y van al supermercáu namás pa los productos empaquetaos. Ye una amiestura mui avezada de canales que se nota especialmente los sábados pela mañana en cualquier pueblu.
+> **Nota cultural:** munches families faen les compres "del día" nes tiendes de barriu (fruta-denda, harategia) y van al supermercáu namás pa los productos envasaos. Ye una amiestura mui avezada que se nota especialmente los sábados pela mañana en cualquier pueblu.

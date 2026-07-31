@@ -3,14 +3,14 @@ code: 02-familia
 level: a1
 title: 家族
 order: 2
-description: 自分や他人の家族について話すための語彙とパターン。
+description: 自分や他の人の家族について話すための語彙と表現を学びます。
 estimatedMinutes: 55
 covers:
-  - family-basics
-  - family-extended
-  - possessives
-  - ukan-basic
-  - ukan-plural-objects
-  - partitive-rik
-  - numbers-1-20
-  - ages
+- family-basics
+- family-extended
+- possessives
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages

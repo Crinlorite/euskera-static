@@ -1,0 +1,16 @@
+id: a2-egoerak
+code: 01-egoerak
+level: a2
+title: Egoerak — 日常情景与建议
+order: 1
+description: 健康、习惯和环境。学习使用命令式 (agintera) 来请求和给出指示。
+estimatedMinutes: 70
+covers:
+- a2-health-vocab
+- a2-doctor-visit
+- a2-healthy-habits
+- a2-environment
+- a2-civic-life
+- a2-agintera-intro
+- a2-agintera-uses
+- a2-agintera-negation

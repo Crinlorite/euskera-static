@@ -5,55 +5,66 @@ code: 02-aiton-amonak
 unit: 02-familia
 level: a1
 order: 2
-title: Aiton-amonak (pairans)
+title: Aiton-amonak (pairins)
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-aa-fc
-    type: flashcards
-    cards:
-      - { eu: aitona, es: pairin }
-      - { eu: amona, es: mairina }
-      - { eu: aiton-amonak, es: es pairans }
-      - { eu: biloba, es: net/a }
-      - { eu: bilobak, es: es nets }
-  - id: ex-aa-fb1
-    type: fill-in-blank
-    prompt: 'Es mèns pairans = nire ___.'
-    answers: [aiton-amonak]
-    explanation: '"Aiton-amonak" combine aitona + amona en plurau — convencion frequenta en euskèra entàs parelhes.'
-  - id: ex-aa-mc1
-    type: multiple-choice
-    prompt: '"Biloba" ei...'
-    options: [eth nebot, eth net, eth cosin, eth pairastre]
-    answer: 1
-    explanation: '"Biloba" ei net/neta. Non a marca de genre.'
+- id: ex-aa-fc
+  type: flashcards
+  cards:
+  - eu: aitona
+    es: pairin
+  - eu: amona
+    es: pairia
+  - eu: aiton-amonak
+    es: es pairins
+  - eu: biloba
+    es: neth/a
+  - eu: bilobak
+    es: es nethi
+- id: ex-aa-fb1
+  type: fill-in-blank
+  prompt: Es mèns pairins = nire ___.
+  answers:
+  - aiton-amonak
+  explanation: '"Aiton-amonak" combine aitona + amona en plurau — ua convencion frequenta en basc entàs parelhes.'
+- id: ex-aa-mc1
+  type: multiple-choice
+  prompt: '"Biloba" ei...'
+  options:
+  - eth nebot
+  - eth neth
+  - eth cosin
+  - eth sògre
+  answer: 1
+  explanation: '"Biloba" ei neth/neta. Non a cap de marca de genre.'
 ---
 
-Es pairans en euskèra son **aitona** (pairin) e **amona** (mairina). En plurau, se preferís era forma combinada **aiton-amonak**, que vò díder "pairans" (es dus amassa).
+Es pairins en basc son **aitona** (pairin) e **amona** (pairia). En plurau, se preferís era forma combinada **aiton-amonak**, que vò díder "pairins" (es dus amassa).
 
 ## Vocabulari
 
-| Euskèra | Aranés |
+| Basc | Aranés |
 |---|---|
 | *aitona* | pairin |
-| *amona* | mairina |
-| *aiton-amonak* | es pairans (toti dus) |
-| *biloba* | net/neta |
-| *bilobak* | es nets |
+| *amona* | pairia |
+| *aiton-amonak* | es pairins (ambdús) |
+| *biloba* | neth/neta |
+| *bilobak* | es nethi |
 
 ## Eth patron "X-Y-ak"
 
-Eth euskèra a ua forma eleganta de parlar de parelhes/grops dera madeisha sòrta combinant ambdús tèrmes en plurau:
+Eth basc a ua forma eleganta de parlar de parelhes/grops deth madeish tipe en tot combinar ambdús tèrmes en plurau:
 
-- **anai-arrebak** — frairs e fraies
-- **aiton-amonak** — pairans
+- **anai-arrebak** — frairs e sòrs
+- **aiton-amonak** — pairins
 - **seme-alabak** — hilhs e hilhes
 
-> Quan vogues díder "es mèns pairans vengueren tà casa", n'i a pro damb **Nire aiton-amonak etxera etorri ziren** — sense auer de díder "pairin e mairina".
+> Quan volgues díder "es mèns pairins vieren a casa", n'i a pro damb **Nire aiton-amonak etxera etorri ziren** — sense auer de díder "pairin e pairia".
 
 ## Frases utiles
 
-- *Nire aitona Ekaitz da.* — Eth mèn pairin ei Ekaitz.
-- *Amona oso atsegina da.* — Era mairina ei fòrça amabla.
-- *Bi biloba ditu.* — A dus nets.
+- *Nire aitona Ekaitz da.* — Mèn pairin ei Ekaitz.
+- *Amona oso atsegina da.* — Era pairia ei fòrça aimabla.
+- *Bi biloba ditu.* — A dus nethi.

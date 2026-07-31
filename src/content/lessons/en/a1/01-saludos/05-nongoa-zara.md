@@ -5,46 +5,69 @@ code: 05-nongoa-zara
 unit: 01-saludos
 level: a1
 order: 5
-title: Where you are from and where you live
+title: Where you're from and where you live
 estimatedMinutes: 12
-covers: [origin-koa, residence-an, countries-nationalities, locative-non]
+covers:
+- origin-koa
+- residence-an
+- countries-nationalities
+- locative-non
 exercises:
-  - id: ex-05-nz-mc1
-    type: multiple-choice
-    prompt: 'What does "Nongoa zara?" mean?'
-    options: ["What's your name?", "Where are you from?", "How old are you?", "Where do you live?"]
-    answer: 1
-    explanation: '"Nongoa" combines "non" (where) + the suffix of origin.'
-  - id: ex-05-nz-fb1
-    type: fill-in-blank
-    prompt: 'Bilbo + -koa = ___ (from Bilbao).'
-    answers: [Bilbokoa, bilbokoa]
-    explanation: 'The suffix "-ko" indicates origin/belonging; together with the article "-a" it becomes "-koa".'
-  - id: ex-05-nz-fb2
-    type: fill-in-blank
-    prompt: 'I live in Donostia = Donostia___ bizi naiz.'
-    answers: [n]
-    explanation: 'For residence the locative `-(e)n` ("in") is used. Donostia + -n = Donostian (the final "a" is kept).'
-  - id: ex-05-nz-mc2
-    type: multiple-choice
-    prompt: 'How do you say "Where do you live?"'
-    options: ["Nongoa zara?", "Non bizi zara?", "Nor zara?", "Zer egiten duzu?"]
-    answer: 1
-    explanation: '"Non" is "where", "bizi zara" is "you live" — literally: "Where do you live?"'
-  - id: ex-05-nz-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nongoa zara?', es: Where are you from? }
-      - { eu: Bilbokoa naiz, es: I'm from Bilbao }
-      - { eu: Iruñekoa naiz, es: I'm from Pamplona }
-      - { eu: Espainiakoa naiz, es: I'm from Spain }
-      - { eu: 'Non bizi zara?', es: Where do you live? }
-      - { eu: Bilbon bizi naiz, es: I live in Bilbao }
-      - { eu: Donostian bizi naiz, es: I live in Donostia }
-      - { eu: Madrilen bizi naiz, es: I live in Madrid }
+- id: ex-05-nz-mc1
+  type: multiple-choice
+  prompt: What does "Nongoa zara?" mean?
+  options:
+  - What's your name?
+  - Where are you from?
+  - How old are you?
+  - Where do you live?
+  answer: 1
+  explanation: '"Nongoa" combines "non" (where) + the suffix for origin.'
+- id: ex-05-nz-fb1
+  type: fill-in-blank
+  prompt: Bilbo + -koa = ___ (from Bilbao).
+  answers:
+  - Bilbokoa
+  - bilbokoa
+  explanation: The suffix "-ko" indicates origin/belonging; with the article "-a" it becomes "-koa".
+- id: ex-05-nz-fb2
+  type: fill-in-blank
+  prompt: I live in Donostia = Donostia___ bizi naiz.
+  answers:
+  - n
+  explanation: For residence, the locative suffix `-(e)n` ("in") is used. Donostia + -n = Donostian (the final "a" is kept).
+- id: ex-05-nz-mc2
+  type: multiple-choice
+  prompt: How do you say "Where do you live?"
+  options:
+  - Nongoa zara?
+  - Non bizi zara?
+  - Nor zara?
+  - Zer egiten duzu?
+  answer: 1
+  explanation: '"Non" is "where", "bizi zara" is "you live" — literally: "Where do you live?"'
+- id: ex-05-nz-fc
+  type: flashcards
+  cards:
+  - eu: Nongoa zara?
+    es: Where are you from?
+  - eu: Bilbokoa naiz
+    es: I'm from Bilbao
+  - eu: Iruñekoa naiz
+    es: I'm from Pamplona
+  - eu: Espainiakoa naiz
+    es: I'm from Spain
+  - eu: Non bizi zara?
+    es: Where do you live?
+  - eu: Bilbon bizi naiz
+    es: I live in Bilbao
+  - eu: Donostian bizi naiz
+    es: I live in Donostia
+  - eu: Madrilen bizi naiz
+    es: I live in Madrid
 ---
 
-This lesson covers two questions that are often confused: **where you are from** (origin) and **where you live** (current residence). In Basque they are built with different suffixes.
+This lesson covers two questions that are often confused: **where you're from** (origin) and **where you live** (current residence). In Basque, they are constructed with different suffixes.
 
 ## Origin: Nongoa zara? → ...koa naiz
 
@@ -59,11 +82,11 @@ For origin, use **Nongoa zara?** and answer with the place + the suffix **`-(e)k
 | Espainia | Espainia**koa** naiz |
 | Argentina | Argentina**koa** naiz |
 
-> After a consonant the suffix adapts orthographically (*Madril* → *Madrilgoa*). With practice it comes naturally.
+> After a consonant, the suffix adapts orthographically (*Madril* → *Madrilgoa*). It will come naturally with practice.
 
 ## Residence: Non bizi zara? → ...n bizi naiz
 
-For where you live now, use **Non bizi zara?** ("where do you live?") + the place with the locative **`-(e)n`**:
+For where you live now, use **Non bizi zara?** ("where do you live?") + the place with the locative suffix **`-(e)n`**:
 
 | Place | Residence |
 |---|---|
@@ -72,9 +95,9 @@ For where you live now, use **Non bizi zara?** ("where do you live?") + the plac
 | Iruñea | Iruñea**n** bizi naiz |
 | Madril | Madril**en** bizi naiz |
 
-> Those ending in an organic `-a` (Donostia) keep the `a`. Those ending in a consonant (Madril) insert an `-e-`.
+> Words ending in an organic `-a` (Donostia) keep the `a`. Words ending in a consonant (Madril) insert an `-e-`.
 
-## Both things in one conversation
+## Both in one conversation
 
 > — *Kaixo! Zein da zure izena?* — Hello, what's your name?
 >
@@ -86,7 +109,7 @@ For where you live now, use **Non bizi zara?** ("where do you live?") + the plac
 
 ## Useful vocabulary
 
-- **herri** — village
+- **herri** — town / village
 - **hiri** — city
 - **herrialde** — territory / province
 - **estatu** — state / country

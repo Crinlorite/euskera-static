@@ -7,64 +7,103 @@ level: a1
 order: 4
 title: Accións diarias e aspecto habitual
 estimatedMinutes: 12
-covers: [daily-routine, habitual-aspect, frequency-adverbs, common-verbs]
+covers:
+- daily-routine
+- habitual-aspect
+- frequency-adverbs
+- common-verbs
 exercises:
-  - id: ex-04-ee-mc1
-    type: multiple-choice
-    prompt: 'Que significa "esnatzen naiz"?'
-    options: ["espertei", "espértome", "vou espertar", "estaba espertando"]
-    answer: 1
-    explanation: 'O aspecto habitual (-tzen + naiz/dut) expresa o que fas normalmente: "espértome" (cada día).'
-  - id: ex-04-ee-mc2
-    type: multiple-choice
-    prompt: '"Egunero gosaltzen dut" significa…'
-    options: ["Almorcei hoxe", "Almorzo todos os días", "Vou almorzar", "Estou almorzando"]
-    answer: 1
-    explanation: '"Egunero" = todos os días; "gosaltzen dut" = almorzo (habitualmente).'
-  - id: ex-04-ee-fb1
-    type: fill-in-blank
-    prompt: 'Esnatu (espertarse) → forma habitual ___ (coa -n do aspecto habitual).'
-    answers: [esnatzen]
-    explanation: 'Os verbos rematados en consoante ou en -tu/-du engaden "-tzen" para o aspecto habitual: esna**tu** → esna**tzen**.'
-  - id: ex-04-ee-fb2
-    type: fill-in-blank
-    prompt: 'Jan (comer) → forma habitual ___ (coa terminación do aspecto habitual).'
-    answers: [jaten]
-    explanation: 'Os verbos rematados en -n cambian: ja**n** → ja**ten** (non "janten"). A regra: -n final → "-ten".'
-  - id: ex-04-ee-mp
-    type: match-pairs
-    pairs:
-      - { eu: esnatu, es: espertarse }
-      - { eu: jaiki, es: erguerse }
-      - { eu: dutxatu, es: ducharse }
-      - { eu: gosaldu, es: almorzar }
-      - { eu: bazkaldu, es: comer (xantar) }
-      - { eu: afaldu, es: cear }
-      - { eu: lan egin, es: traballar }
-      - { eu: lo egin, es: durmir }
-      - { eu: oheratu, es: deitarse }
-  - id: ex-04-ee-fc
-    type: flashcards
-    cards:
-      - { eu: esnatu / esnatzen naiz, es: 'espertarse / espértome' }
-      - { eu: jaiki / jaikitzen naiz, es: 'erguerse / érgome' }
-      - { eu: dutxatu / dutxatzen naiz, es: 'ducharse / dúchome' }
-      - { eu: jantzi / janzten naiz, es: 'vestirse / vístome' }
-      - { eu: gosaldu / gosaltzen dut, es: 'almorzar / almorzo' }
-      - { eu: bazkaldu / bazkaltzen dut, es: 'comer / como (xanto)' }
-      - { eu: afaldu / afaltzen dut, es: 'cear / ceo' }
-      - { eu: lan egin / lan egiten dut, es: 'traballar / traballo' }
-      - { eu: lo egin / lo egiten dut, es: 'durmir / durmo' }
-      - { eu: oheratu / oheratzen naiz, es: 'deitarse / déitome' }
-      - { eu: lo-kuluxka egin, es: 'botar a sesta' }
-      - { eu: egunero, es: cada día / todos os días }
-      - { eu: beti, es: sempre }
-      - { eu: askotan, es: a miúdo }
-      - { eu: batzuetan, es: ás veces }
-      - { eu: inoiz ez, es: nunca }
+- id: ex-04-ee-mc1
+  type: multiple-choice
+  prompt: ¿Que significa "esnatzen naiz"?
+  options:
+  - espertei
+  - espértome
+  - vou espertar
+  - estaba espertando
+  answer: 1
+  explanation: 'O aspecto habitual (-tzen + naiz/dut) expresa o que fas normalmente: "espértome" (cada día).'
+- id: ex-04-ee-mc2
+  type: multiple-choice
+  prompt: '"Egunero gosaltzen dut" significa…'
+  options:
+  - Almorcei hoxe
+  - Almorzo todos os días
+  - Vou almorzar
+  - Estou almorzando
+  answer: 1
+  explanation: '"Egunero" = todos os días; "gosaltzen dut" = almorzo (habitualmente).'
+- id: ex-04-ee-fb1
+  type: fill-in-blank
+  prompt: Esnatu (espertarse) → forma habitual ___ (coa -n do aspecto habitual).
+  answers:
+  - esnatzen
+  explanation: 'Os verbos rematados en consoante ou en -tu/-du engaden "-tzen" para o aspecto habitual: esna**tu** → esna**tzen**.'
+- id: ex-04-ee-fb2
+  type: fill-in-blank
+  prompt: Jan (comer) → forma habitual ___ (coa terminación do aspecto habitual).
+  answers:
+  - jaten
+  explanation: 'Os verbos rematados en -n cambian: ja**n** → ja**ten** (non "janten"). A regra: -n final → "-ten".'
+- id: ex-04-ee-mp
+  type: match-pairs
+  pairs:
+  - eu: esnatu
+    es: despertarse
+  - eu: jaiki
+    es: levantarse
+  - eu: dutxatu
+    es: ducharse
+  - eu: gosaldu
+    es: desayunar
+  - eu: bazkaldu
+    es: comer (almorzar)
+  - eu: afaldu
+    es: cenar
+  - eu: lan egin
+    es: trabajar
+  - eu: lo egin
+    es: dormir
+  - eu: oheratu
+    es: acostarse
+- id: ex-04-ee-fc
+  type: flashcards
+  cards:
+  - eu: esnatu / esnatzen naiz
+    es: espertarse / espértome
+  - eu: jaiki / jaikitzen naiz
+    es: erguerse / érgome
+  - eu: dutxatu / dutxatzen naiz
+    es: ducharse / dúchome
+  - eu: jantzi / janzten naiz
+    es: vestirse / vístome
+  - eu: gosaldu / gosaltzen dut
+    es: almorzar / almorzo
+  - eu: bazkaldu / bazkaltzen dut
+    es: comer / como (xanto)
+  - eu: afaldu / afaltzen dut
+    es: cear / ceo
+  - eu: lan egin / lan egiten dut
+    es: traballar / traballo
+  - eu: lo egin / lo egiten dut
+    es: durmir / durmo
+  - eu: oheratu / oheratzen naiz
+    es: deitarse / déitome
+  - eu: lo-kuluxka egin
+    es: botar a sesta
+  - eu: egunero
+    es: cada día / todos os días
+  - eu: beti
+    es: sempre
+  - eu: askotan
+    es: a miúdo
+  - eu: batzuetan
+    es: ás veces
+  - eu: inoiz ez
+    es: nunca
 ---
 
-Para dicir o que fas todos os días, o éuscaro usa o **aspecto habitual**: tomas o verbo (partizipio) e engádeslle **-tzen** ou **-ten**, despois combinas co verbo auxiliar **izan** (naiz, zara, da…) ou **ukan** (dut, duzu, du…).
+Para dicir o que fas todos os días, o vasco usa o **aspecto habitual**: tomas o verbo (partizipio) e engádeslle **-tzen** ou **-ten**, despois combinas co verbo auxiliar **izan** (naiz, zara, da…) ou **ukan** (dut, duzu, du…).
 
 ## A regra
 
@@ -111,7 +150,7 @@ Estes van **con ukan** porque teñen suxeito e obxecto:
 | *irakurri* | *irakurtzen dut* | leo |
 | *erosi* | *erosten dut* | compro |
 
-> **Por que algúns van con NAIZ e outros con DUT?** É a distinción clave do éuscaro. *Esnatzen naiz* (espértome) é algo que me pasa a min: non hai un obxecto. *Jaten dut* (como) ten obxecto: *ogia jaten dut* (como pan). Isto vese a fondo na próxima unidade — polo de agora memoriza as parellas verbo + auxiliar.
+> **¿Por que algúns van con NAIZ e outros con DUT?** É a distinción clave do vasco. *Esnatzen naiz* (espértome) é algo que me pasa a min: non hai un obxecto. *Jaten dut* (como) ten obxecto: *ogia jaten dut* (como pan). Isto vese a fondo na próxima unidade — de momento memoriza as parellas verbo + auxiliar.
 
 ## Marcadores de frecuencia
 
@@ -138,4 +177,4 @@ Estes van **con ukan** porque teñen suxeito e obxecto:
 >
 > *Batzuetan lo-kuluxka egiten dut bazkalostean.* — Ás veces boto a sesta despois de comer.
 
-> **Nota:** *bazkalostean* = "despois de comer" (literal: "tras a comida"). A cultura do éuscaro ten palabras compactas para conceptos cotiáns coma esa sesta curta — *lo-kuluxka* é xustamente iso.
+> **Nota:** *bazkalostean* = "despois de comer" (literal: "tras a comida"). A cultura vasca ten palabras compactas para conceptos cotiáns coma esa sesta curta — *lo-kuluxka* é xusto iso.

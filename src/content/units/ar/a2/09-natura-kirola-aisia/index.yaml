@@ -1,0 +1,13 @@
+id: a2-natura
+code: 09-natura-kirola-aisia
+level: a2
+title: Natura, kirola eta aisia — الجبل، الرياضة ووقت الفراغ
+order: 9
+description: الطبيعة والحيوانات، الرياضة، الهوايات مع اللاحقة -tzea وخطط الترفيه في عطلة نهاية الأسبوع.
+estimatedMinutes: 65
+covers:
+- a2-nature-vocab
+- a2-animals
+- a2-sports
+- a2-hobbies
+- a2-weekend-leisure

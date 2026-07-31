@@ -7,54 +7,81 @@ level: a1
 order: 3
 title: Ближайшее будущее (-ko / -go)
 estimatedMinutes: 11
-covers: [future-koGo, common-verbs, ukan-basic]
+covers:
+- future-koGo
+- common-verbs
+- ukan-basic
 exercises:
-  - id: ex-fut-mc1
-    type: multiple-choice
-    prompt: '"Завтра я поеду в Бильбао" говорится…'
-    options: ['Bihar Bilbora joaten naiz', 'Bihar Bilbora joango naiz', 'Bihar Bilbora joan naiz', 'Bilbora bihar dut']
-    answer: 1
-    explanation: '*Joango naiz* — будущее время от *joan* (идти, ехать): частица *-go* + вспомогательный глагол *naiz*.'
-  - id: ex-fut-mc2
-    type: multiple-choice
-    prompt: 'Какая форма будущего времени у "ikusi" (видеть)?'
-    options: [ikusten, ikusiko, ikusten dut, ikuste]
-    answer: 1
-    explanation: 'Глаголы, оканчивающиеся на *-i*, добавляют *-ko*: *ikusi → ikusiko*.'
-  - id: ex-fut-fb1
-    type: fill-in-blank
-    prompt: '"Завтра я это увижу" = Bihar ikusi___ dut.'
-    answers: [ko, KO]
-    explanation: '*Ikusi* + *-ko* = *ikusiko*. Частица -ko обозначает будущее время.'
-  - id: ex-fut-fb2
-    type: fill-in-blank
-    prompt: '"Я пойду с вами" = Zuekin joan___ naiz.'
-    answers: [go, GO]
-    explanation: '*Joan* + *-go* (потому что оканчивается на -n) = *joango*. После носового согласного частица — *-go*.'
-  - id: ex-fut-fc
-    type: flashcards
-    cards:
-      - { eu: 'joango naiz', es: я пойду }
-      - { eu: 'etorriko zara?', es: ты придёшь? }
-      - { eu: 'ikusiko dut', es: я это увижу }
-      - { eu: 'eskatuko dugu', es: мы закажем }
-      - { eu: 'jango dut', es: я поем }
-      - { eu: 'edango dugu', es: мы выпьем }
-      - { eu: 'lan egingo dut', es: я буду работать }
-      - { eu: 'erosiko dut', es: я это куплю }
-      - { eu: 'esango diot', es: я ему это скажу }
-      - { eu: 'egongo gara', es: мы будем }
-      - { eu: 'izango da', es: будет }
-      - { eu: 'ekarriko dut', es: я это принесу }
+- id: ex-fut-mc1
+  type: multiple-choice
+  prompt: «Я поеду в Бильбао завтра» по-баскски будет...
+  options:
+  - Bihar Bilbora joaten naiz
+  - Bihar Bilbora joango naiz
+  - Bihar Bilbora joan naiz
+  - Bilbora bihar dut
+  answer: 1
+  explanation: '*Joango naiz* — будущее время от *joan* (идти, ехать): частица *-go* + вспомогательный глагол *naiz*.'
+- id: ex-fut-mc2
+  type: multiple-choice
+  prompt: Какая форма будущего времени у глагола "ikusi" (видеть)?
+  options:
+  - ikusten
+  - ikusiko
+  - ikusten dut
+  - ikuste
+  answer: 1
+  explanation: 'Глаголы, оканчивающиеся на *-i*, добавляют *-ko*: *ikusi → ikusiko*.'
+- id: ex-fut-fb1
+  type: fill-in-blank
+  prompt: «Завтра я это увижу» = Bihar ikusi___ dut.
+  answers:
+  - ko
+  - KO
+  explanation: '*Ikusi* + *-ko* = *ikusiko*. Частица -ko обозначает будущее время.'
+- id: ex-fut-fb2
+  type: fill-in-blank
+  prompt: «Я пойду с вами» = Zuekin joan___ naiz.
+  answers:
+  - go
+  - GO
+  explanation: '*Joan* + *-go* (потому что оканчивается на -n) = *joango*. После носового согласного используется частица *-go*.'
+- id: ex-fut-fc
+  type: flashcards
+  cards:
+  - eu: joango naiz
+    es: я пойду
+  - eu: etorriko zara?
+    es: ты придёшь?
+  - eu: ikusiko dut
+    es: я это увижу
+  - eu: eskatuko dugu
+    es: мы закажем
+  - eu: jango dut
+    es: я поем
+  - eu: edango dugu
+    es: мы выпьем
+  - eu: lan egingo dut
+    es: я буду работать
+  - eu: erosiko dut
+    es: я это куплю
+  - eu: esango diot
+    es: я ему это скажу
+  - eu: egongo gara
+    es: мы будем
+  - eu: izango da
+    es: будет
+  - eu: ekarriko dut
+    es: я это принесу
 ---
 
-**Ближайшее будущее** в эускере очень регулярно: ты добавляешь частицу к глаголу в его базовой форме и сохраняешь вспомогательный глагол, спрягаемый в настоящем времени. С этим уроком ты разблокируешь почти любое «сделаю, пойду, увижу...».
+**Ближайшее будущее** в баскском языке образуется очень просто: ты добавляешь частицу к глаголу в его основной форме и оставляешь вспомогательный глагол в настоящем времени. С этим уроком ты сможешь сказать почти любое «сделаю, пойду, увижу...».
 
 ## Правило в одну строку
 
-> **Базовая форма глагола + `-ko` или `-go` + вспомогательный глагол (настоящее время)**
+> **Основная форма глагола + `-ko` или `-go` + вспомогательный глагол (настоящее время)**
 
-| Глагол | Базовая форма | Будущее | Пример |
+| Глагол | Основная форма | Будущее | Пример |
 |---|---|---|---|
 | *joan* (идти, ехать) | joan | joan**go** | *Bilbora **joango naiz*** (Я поеду в Бильбао) |
 | *etorri* (приходить) | etorri | etorri**ko** | *Bihar **etorriko da*** (Он/она придёт завтра) |
@@ -62,12 +89,12 @@ exercises:
 | *jan* (есть) | jan | jan**go** | *Pizza **jango dugu*** (Мы поедим пиццу) |
 | *eskatu* (просить, заказывать) | eskatu | eskatu**ko** | *Kafea **eskatuko dut*** (Я закажу кофе) |
 
-## Правило `-ko` против `-go`
+## Правило выбора: `-ko` или `-go`
 
 Это чисто фонетический выбор:
 
-- **-go** после **n** (оканчивающиеся на -n: *joan, jan, izan, egon, eraman*).
-- **-ko** после всего остального.
+- **-go** после **n** (у глаголов, оканчивающихся на -n: *joan, jan, izan, egon, eraman*).
+- **-ko** после любого другого звука.
 
 Примеры:
 
@@ -82,7 +109,7 @@ exercises:
 
 ## Вспомогательный глагол стоит в **настоящем времени**
 
-Хотя фраза смотрит в будущее, вспомогательный глагол **не меняется**:
+Хотя предложение относится к будущему, вспомогательный глагол **не меняется**:
 
 | Лицо | Вспомогательный глагол (NOR) | Пример |
 |---|---|---|
@@ -93,7 +120,7 @@ exercises:
 | zuek | zarete | Bilbora joa**ngo zarete** |
 | haiek | dira | Bilbora joa**ngo dira** |
 
-То же самое со вспомогательным переходным глаголом (*ukan*), когда есть дополнение:
+То же самое со вспомогательным переходным глаголом (*ukan*), когда есть прямое дополнение:
 
 | Лицо | Вспомогательный глагол (NOR-NORK) | Пример |
 |---|---|---|
@@ -114,7 +141,7 @@ exercises:
 
 ## Отрицание
 
-Чтобы образовать отрицание, добавь *ez* перед вспомогательным глаголом (который переходит на первое место):
+Для отрицания добавь *ez* перед вспомогательным глаголом (который перемещается в начало фразы):
 
 - *Bihar **ez naiz** Bilbora **joango**.* — Завтра я не поеду в Бильбао.
 - *Filma **ez dut** ikusi**ko**.* — Я не посмотрю фильм.
@@ -124,4 +151,4 @@ exercises:
 - ***Etorriko al zara**?* — Ты придёшь?
 - ***Joango al gara** mendira?* — Мы пойдём в горы?
 
-> **Культурная заметка:** в эускере будущее с *-ko/-go* используется также для многих вещей, которые в русском языке — простое настоящее: *Zer hartuko duzu?* — «Что ты будешь / возьмёшь?». Это один из самых характерных «голосов» языка; чем раньше ухо к нему привыкнет, тем лучше.
+> **Культурная заметка:** в баскском языке будущее время с *-ko/-go* также используется во многих случаях, когда в русском языке употребляется настоящее время: *Zer hartuko duzu?* — «Что ты будешь / возьмёшь?». Это одна из самых характерных черт языка; чем раньше ты к ней привыкнешь на слух, тем лучше.

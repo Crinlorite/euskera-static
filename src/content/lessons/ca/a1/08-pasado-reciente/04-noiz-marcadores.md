@@ -7,79 +7,115 @@ level: a1
 order: 4
 title: Quan? Marcadors temporals (gaur, atzo, gaur goizean)
 estimatedMinutes: 10
-covers: [recent-past-time-markers, time-expressions, parts-of-day]
+covers:
+- recent-past-time-markers
+- time-expressions
+- parts-of-day
 exercises:
-  - id: ex-04-nm-mc1
-    type: multiple-choice
-    prompt: '"Atzo arratsaldean" significa…'
-    options: ["demà a la tarda", "ahir a la tarda", "aquesta tarda", "ara mateix"]
-    answer: 1
-    explanation: '"Atzo" = ahir; "arratsaldean" = a la tarda. Combinats: "ahir a la tarda".'
-  - id: ex-04-nm-mc2
-    type: multiple-choice
-    prompt: 'Vols dir "Aquest matí he esmorzat a casa". Com ho dius?'
-    options:
-      - "Bihar goizean etxean gosaldu dut"
-      - "Gaur goizean etxean gosaldu dut"
-      - "Atzo goizean etxean gosaldu dut"
-      - "Gaur goizean etxean gosaltzen dut"
-    answer: 1
-    explanation: '"Gaur goizean" = "avui al matí / aquest matí". I com que és passat recent, "gosaldu dut" sense -tzen.'
-  - id: ex-04-nm-mc3
-    type: multiple-choice
-    prompt: 'Distingeix: "askotan" vs "behin". Què volen dir?'
-    options:
-      - "askotan = una vegada; behin = sovint"
-      - "askotan = mai; behin = sempre"
-      - "askotan = sovint; behin = una vegada"
-      - "Totes dues signifiquen el mateix"
-    answer: 2
-    explanation: '"Askotan" = sovint, moltes vegades. "Behin" = una vegada (sol acompanyar accions puntuals).'
-  - id: ex-04-nm-fb1
-    type: fill-in-blank
-    prompt: 'Demà passat = ___ (omple la paraula).'
-    answers: [etzi, Etzi]
-    explanation: '"Etzi" = demà passat. La cadena temporal: atzo (ahir) → gaur (avui) → bihar (demà) → etzi (demà passat).'
-  - id: ex-04-nm-mp
-    type: match-pairs
-    pairs:
-      - { eu: gaur, es: avui }
-      - { eu: atzo, es: ahir }
-      - { eu: bihar, es: demà }
-      - { eu: etzi, es: demà passat }
-      - { eu: gaur goizean, es: aquest matí }
-      - { eu: gaur arratsaldean, es: aquesta tarda }
-      - { eu: atzo gauean, es: anit }
-      - { eu: orain, es: ara }
-      - { eu: lehen, es: abans }
-  - id: ex-04-nm-fc
-    type: flashcards
-    cards:
-      - { eu: gaur, es: avui }
-      - { eu: atzo, es: ahir }
-      - { eu: bihar, es: demà }
-      - { eu: etzi, es: demà passat }
-      - { eu: orain, es: ara }
-      - { eu: lehen, es: abans }
-      - { eu: gero, es: 'després, més tard' }
-      - { eu: gaur goizean, es: aquest matí / avui al matí }
-      - { eu: gaur eguerdian, es: avui al migdia }
-      - { eu: gaur arratsaldean, es: aquesta tarda }
-      - { eu: gaur gauean, es: aquesta nit }
-      - { eu: atzo goizean, es: ahir al matí }
-      - { eu: atzo arratsaldean, es: ahir a la tarda }
-      - { eu: atzo gauean, es: anit }
-      - { eu: aste honetan, es: aquesta setmana }
-      - { eu: behin, es: una vegada }
-      - { eu: bi aldiz, es: dues vegades }
-      - { eu: oraintxe, es: ara mateix }
+- id: ex-04-nm-mc1
+  type: multiple-choice
+  prompt: '"Atzo arratsaldean" significa…'
+  options:
+  - demà a la tarda
+  - ahir a la tarda
+  - aquesta tarda
+  - ara mateix
+  answer: 1
+  explanation: '"Atzo" = ahir; "arratsaldean" = a la tarda. Combinats: "ahir a la tarda".'
+- id: ex-04-nm-mc2
+  type: multiple-choice
+  prompt: Vols dir "Aquest matí he esmorzat a casa". Com ho dius?
+  options:
+  - Bihar goizean etxean gosaldu dut
+  - Gaur goizean etxean gosaldu dut
+  - Atzo goizean etxean gosaldu dut
+  - Gaur goizean etxean gosaltzen dut
+  answer: 1
+  explanation: '"Gaur goizean" = "avui al matí / aquest matí". I com que és passat recent, "gosaldu dut" sense *-tzen*.'
+- id: ex-04-nm-mc3
+  type: multiple-choice
+  prompt: 'Distingeix: "askotan" vs "behin". Què volen dir?'
+  options:
+  - askotan = una vegada; behin = sovint
+  - askotan = mai; behin = sempre
+  - askotan = sovint; behin = una vegada
+  - Totes dues signifiquen el mateix
+  answer: 2
+  explanation: '"Askotan" = sovint, moltes vegades. "Behin" = una vegada (sol acompanyar accions puntuals).'
+- id: ex-04-nm-fb1
+  type: fill-in-blank
+  prompt: Demà passat = ___ (omple el buit).
+  answers:
+  - etzi
+  - Etzi
+  explanation: '"Etzi" = demà passat. La cadena temporal: *atzo* (ahir) → *gaur* (avui) → *bihar* (demà) → *etzi* (demà passat).'
+- id: ex-04-nm-mp
+  type: match-pairs
+  pairs:
+  - eu: gaur
+    es: hoy
+  - eu: atzo
+    es: ayer
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasado mañana
+  - eu: gaur goizean
+    es: esta mañana
+  - eu: gaur arratsaldean
+    es: esta tarde
+  - eu: atzo gauean
+    es: anoche
+  - eu: orain
+    es: ahora
+  - eu: lehen
+    es: antes
+- id: ex-04-nm-fc
+  type: flashcards
+  cards:
+  - eu: gaur
+    es: avui
+  - eu: atzo
+    es: ahir
+  - eu: bihar
+    es: demà
+  - eu: etzi
+    es: demà passat
+  - eu: orain
+    es: ara
+  - eu: lehen
+    es: abans
+  - eu: gero
+    es: després
+  - eu: gaur goizean
+    es: aquest matí / avui al matí
+  - eu: gaur eguerdian
+    es: avui al migdia
+  - eu: gaur arratsaldean
+    es: aquesta tarda
+  - eu: gaur gauean
+    es: aquesta nit
+  - eu: atzo goizean
+    es: ahir al matí
+  - eu: atzo arratsaldean
+    es: ahir a la tarda
+  - eu: atzo gauean
+    es: anit
+  - eu: aste honetan
+    es: aquesta setmana
+  - eu: behin
+    es: una vegada
+  - eu: bi aldiz
+    es: dues vegades
+  - eu: oraintxe
+    es: ara mateix
 ---
 
-Per explicar bé el que ha passat, necessites dir **quan**. Aquesta lliçó et dóna els marcadors que es combinen amb el passat recent per ancorar les accions en el temps.
+Per explicar bé el que ha passat, necessites dir **quan**. Aquesta lliçó et dona els marcadors que es combinen amb el passat recent per ancorar les accions en el temps.
 
 ## Els marcadors bàsics
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *gaur* | avui |
 | *atzo* | ahir |
@@ -88,15 +124,15 @@ Per explicar bé el que ha passat, necessites dir **quan**. Aquesta lliçó et d
 | *orain* | ara |
 | *oraintxe* | ara mateix |
 | *lehen* | abans |
-| *gero* | després, més tard |
+| *gero* | després |
 
-> Si t'hi has fixat, *atzo* (ahir) i *bihar* (demà) són dues paraules tan curtes que s'aprenen d'una tirada. *Etzi* (demà passat) és una paraula que el català no té en una sola peça — un petit regal de l'euskera.
+> Si t'hi has fixat, *atzo* (ahir) i *bihar* (demà) són dues paraules tan curtes que s'aprenen de cop. *Etzi* (demà passat) és una paraula que el català no té en una sola peça — un petit regal del basc.
 
 ## Combinant amb moments del dia
 
 Els marcadors es combinen amb *goizean*, *arratsaldean*, *gauean* i companyia de la unitat anterior. La fórmula és: **marcador + part del dia**.
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *gaur goizean* | aquest matí / avui al matí |
 | *gaur eguerdian* | avui al migdia |
@@ -107,11 +143,11 @@ Els marcadors es combinen amb *goizean*, *arratsaldean*, *gauean* i companyia de
 | *atzo gauean* | anit |
 | *bihar goizean* | demà al matí |
 
-> **Atenció:** *gaur gauean* és "aquesta nit" (la nit que tens al davant o la que estàs vivint); *atzo gauean* és "anit". L'euskera ho distingeix molt clarament.
+> **Atenció:** *gaur gauean* és "aquesta nit" (la nit que tens per davant o la que estàs vivint); *atzo gauean* és "anit". El basc ho distingeix molt clarament.
 
 ## Freqüència i vegades
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *behin* | una vegada |
 | *bi aldiz* | dues vegades |
@@ -125,30 +161,30 @@ Els marcadors es combinen amb *goizean*, *arratsaldean*, *gauean* i companyia de
 
 ## Frases amb passat recent i marcadors
 
-> *Gaur goizean lanera joan naiz autoz.* — Aquest matí he anat a la feina en cotxe.
+> *Gaur goizean lanera joan naiz autoz.* — Aquest matí he anat a la feina amb cotxe.
 >
-> *Gaur arratsaldean Mikelekin egon naiz.* — Aquesta tarda he estat amb Mikel.
+> *Gaur arratsaldean Mikelekin egon naiz.* — Aquesta tarda he estat amb en Mikel.
 >
 > *Gaur oso berandu esnatu naiz.* — Avui m'he despertat molt tard.
 >
 > *Gaur eguerdian etxean bazkaldu dut.* — Avui al migdia he dinat a casa.
 >
-> *Aste honetan bi aldiz egon naiz zinean.* — Aquesta setmana he estat dues vegades al cinema.
+> *Aste honetan bi aldiz egon naiz zinean.* — Aquesta setmana he anat al cinema dues vegades.
 
 ## L'ordre de la frase
 
-En euskera l'ordre típic d'una frase amb marcador temporal és:
+En basc, l'ordre típic d'una frase amb marcador temporal és:
 
 > **QUAN + ON + QUÈ + VERB**
 
-> **Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**. — Aquest matí he estudiat euskera a l'euskaltegi.
+> **Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**. — Aquest matí he estudiat basc a l'*euskaltegi*.
 
-No és l'única possibilitat — l'euskera permet moure els elements per emfatitzar — però si segueixes aquest ordre no t'equivoques.
+No és l'única possibilitat —el basc permet moure els elements per emfatitzar—, però si segueixes aquest ordre no t'equivoques.
 
-## Mini-conversa
+## Miniconversa
 
 > *— Eta gaur zer egin duzu, Maialen?*
 >
 > *— **Gaur goizean** lanera joan naiz oinez. **Eguerdian** lagunekin bazkaldu dut tabernan. **Arratsaldean** etxera bueltatu naiz eta liburua irakurri dut. **Gauean** ez dut afaldu, asko jan baitut bazkarian.*
 
-> **Nota:** *gaur* abasta tot el dia actual. Si vols precisar, afegeix el moment (*gaur goizean*, *gaur arratsaldean*). En converses corrents, *Zer egin duzu gaur?* s'entén com a "què has fet avui en general?".
+> **Nota:** *gaur* abasta tot el dia actual. Si vols precisar, afegeix el moment (*gaur goizean*, *gaur arratsaldean*). En converses corrents, *Zer egin duzu gaur?* s'entén com "què has fet avui en general?".

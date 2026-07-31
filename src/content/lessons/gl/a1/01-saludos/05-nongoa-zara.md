@@ -7,44 +7,67 @@ level: a1
 order: 5
 title: De onde es e onde vives
 estimatedMinutes: 12
-covers: [origin-koa, residence-an, countries-nationalities, locative-non]
+covers:
+- origin-koa
+- residence-an
+- countries-nationalities
+- locative-non
 exercises:
-  - id: ex-05-nz-mc1
-    type: multiple-choice
-    prompt: 'Que quere dicir "Nongoa zara?"'
-    options: ["Como te chamas?", "De onde es?", "Que idade tes?", "Onde vives?"]
-    answer: 1
-    explanation: '"Nongoa" combina "non" (onde) + sufixo de procedencia.'
-  - id: ex-05-nz-fb1
-    type: fill-in-blank
-    prompt: 'Bilbo + -koa = ___ (de Bilbao).'
-    answers: [Bilbokoa, bilbokoa]
-    explanation: 'O sufixo "-ko" indica procedencia/pertenza; coa "-a" do artigo queda "-koa".'
-  - id: ex-05-nz-fb2
-    type: fill-in-blank
-    prompt: 'Vivo en Donostia = Donostia___ bizi naiz.'
-    answers: [n]
-    explanation: 'Para a residencia úsase o locativo `-(e)n` ("en"). Donostia + -n = Donostian (o "a" final mantense).'
-  - id: ex-05-nz-mc2
-    type: multiple-choice
-    prompt: 'Como dis "Onde vives?"'
-    options: ["Nongoa zara?", "Non bizi zara?", "Nor zara?", "Zer egiten duzu?"]
-    answer: 1
-    explanation: '"Non" é "onde", "bizi zara" é "vives" — literal: "Onde vives?"'
-  - id: ex-05-nz-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nongoa zara?', es: De onde es? }
-      - { eu: Bilbokoa naiz, es: Son de Bilbao }
-      - { eu: Iruñekoa naiz, es: Son de Pamplona }
-      - { eu: Espainiakoa naiz, es: Son de España }
-      - { eu: 'Non bizi zara?', es: Onde vives? }
-      - { eu: Bilbon bizi naiz, es: Vivo en Bilbao }
-      - { eu: Donostian bizi naiz, es: Vivo en Donostia }
-      - { eu: Madrilen bizi naiz, es: Vivo en Madrid }
+- id: ex-05-nz-mc1
+  type: multiple-choice
+  prompt: Que quere dicir "Nongoa zara?"
+  options:
+  - Como te chamas?
+  - De onde es?
+  - Que idade tes?
+  - Onde vives?
+  answer: 1
+  explanation: '"Nongoa" combina "non" (onde) + sufixo de procedencia.'
+- id: ex-05-nz-fb1
+  type: fill-in-blank
+  prompt: Bilbo + -koa = ___ (de Bilbao).
+  answers:
+  - Bilbokoa
+  - bilbokoa
+  explanation: O sufixo "-ko" indica procedencia/pertenencia; co "-a" do artigo queda "-koa".
+- id: ex-05-nz-fb2
+  type: fill-in-blank
+  prompt: Vivo en Donostia = Donostia___ bizi naiz.
+  answers:
+  - n
+  explanation: Para a residencia úsase o locativo `-(e)n` ("en"). Donostia + -n = Donostian (o "a" final mantense).
+- id: ex-05-nz-mc2
+  type: multiple-choice
+  prompt: Como dis "Onde vives?"
+  options:
+  - Nongoa zara?
+  - Non bizi zara?
+  - Nor zara?
+  - Zer egiten duzu?
+  answer: 1
+  explanation: '"Non" é "onde", "bizi zara" é "vives" — literal: "Onde vives?"'
+- id: ex-05-nz-fc
+  type: flashcards
+  cards:
+  - eu: Nongoa zara?
+    es: De onde es?
+  - eu: Bilbokoa naiz
+    es: Son de Bilbao
+  - eu: Iruñekoa naiz
+    es: Son de Pamplona
+  - eu: Espainiakoa naiz
+    es: Son de España
+  - eu: Non bizi zara?
+    es: Onde vives?
+  - eu: Bilbon bizi naiz
+    es: Vivo en Bilbao
+  - eu: Donostian bizi naiz
+    es: Vivo en Donostia
+  - eu: Madrilen bizi naiz
+    es: Vivo en Madrid
 ---
 
-Esta lección abrangue dúas preguntas que se confunden a miúdo: **de onde es** (orixe) e **onde vives** (residencia actual). En euskera constrúense con sufixos distintos.
+Esta lección abrangue dúas preguntas que se confunden a miúdo: **de onde es** (orixe) e **onde vives** (residencia actual). En éuscaro constrúense con sufixos distintos.
 
 ## Orixe: Nongoa zara? → ...koa naiz
 

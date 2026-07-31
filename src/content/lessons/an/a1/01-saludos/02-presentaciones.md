@@ -5,33 +5,46 @@ code: 02-presentaciones
 unit: 01-saludos
 level: a1
 order: 2
-title: Presentar-te (Ni X naiz)
+title: Presentar-se (Ni X naiz)
 estimatedMinutes: 10
-covers: [introductions, izan-nor]
+covers:
+- introductions
+- izan-nor
 exercises:
-  - id: ex-02-pres-fb1
-    type: fill-in-blank
-    prompt: 'Ni Egoitz ___.'
-    answers: [naiz]
-    explanation: '"Naiz" ye la forma de "izan" (ser/estar) ta "yo".'
-  - id: ex-02-pres-mc1
-    type: multiple-choice
-    prompt: Quiers dir "Soi Maialen". Cómo lo dices?
-    options: [Ni Maialen naiz, Ni Maialen da, Ni Maialen zara, Ni Maialen gara]
-    answer: 0
-    explanation: 'Ta la 1ª persona d''o singular emplegamos "naiz".'
-  - id: ex-02-pres-fc
-    type: flashcards
-    cards:
-      - { eu: Ni naiz, es: Yo soi }
-      - { eu: Zu zara, es: Tu yes }
-      - { eu: Hura da, es: Er/ella ye }
-      - { eu: 'Zer moduz?', es: 'Qué tal?' }
-      - { eu: 'Ondo, eskerrik asko', es: 'Bien, gracias' }
-      - { eu: Ni ere ondo, es: Yo tamién bien }
+- id: ex-02-pres-fb1
+  type: fill-in-blank
+  prompt: Ni Egoitz ___.
+  answers:
+  - naiz
+  explanation: '"Naiz" ye la forma d''"izan" (ser/estar) pa "yo".'
+- id: ex-02-pres-mc1
+  type: multiple-choice
+  prompt: Quiers dir "Soi Maialen". ¿Cómo lo dices?
+  options:
+  - Ni Maialen naiz
+  - Ni Maialen da
+  - Ni Maialen zara
+  - Ni Maialen gara
+  answer: 0
+  explanation: Pa la 1ª persona d'o singular emplegamos "naiz".
+- id: ex-02-pres-fc
+  type: flashcards
+  cards:
+  - eu: Ni naiz
+    es: Yo soi
+  - eu: Zu zara
+    es: Tu yes
+  - eu: Hura da
+    es: Él/ella ye
+  - eu: Zer moduz?
+    es: ¿Qué tal?
+  - eu: Ondo, eskerrik asko
+    es: Bien, gracias
+  - eu: Ni ere ondo
+    es: Yo tamién bien
 ---
 
-Ta presentar-te en euskera prou con una fórmula muito simpla: **Ni** (yo) + o tuyo nombre + **naiz** (soi).
+Pa presentar-te en euskera basta con una fórmula muito simple: **Ni** (yo) + o tuyo nombre + **naiz** (soi).
 
 ## O patrón
 
@@ -45,15 +58,15 @@ O verbo **izan** ("ser/estar") cambia seguntes la persona. Por agora memoriza no
 
 - *Ni* + **naiz** → yo soi
 - *Zu* + **zara** → tu yes
-- *Hura* + **da** → er/ella ye
+- *Hura* + **da** → él/ella ye
 
-> En euskera no bi ha chenero gramatical en o verbo: *Hura da* sirve igual ta "er ye" u "ella ye". Lo aclara o contexto u o nombre.
+> En euskera no bi ha chenero gramatical en o verbo: *Hura da* sirve igual pa "él ye" u "ella ye". L'aclara o contexto u o nombre.
 
-## "Qué tal?"
+## "¿Qué tal?"
 
-Una vegada t'has presentau, lo natural ye preguntar cómo ye l'atra persona:
+Una vegada t'has presentau, lo natural ye preguntar cómo se troba l'atra persona:
 
-- *Zer moduz?* → Qué tal?
+- *Zer moduz?* → ¿Qué tal?
 - *Ondo, eskerrik asko.* → Bien, gracias.
 - *Ni ere ondo.* → Yo tamién bien.
 

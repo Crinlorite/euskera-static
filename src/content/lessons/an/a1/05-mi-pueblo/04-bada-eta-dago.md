@@ -5,121 +5,154 @@ code: 04-bada-eta-dago
 unit: 05-mi-pueblo
 level: a1
 order: 4
-title: I bi ha…? — esistencia con bada/badago
+title: Bi ha…? — existencia con bada/badago
 estimatedMinutes: 12
-covers: [existence-bada, egon-nor, partitive-rik, places-town]
+covers:
+- existence-bada
+- egon-nor
+- partitive-rik
+- places-town
 exercises:
-  - id: ex-bd-mc1
-    type: multiple-choice
-    prompt: 'Cómo preguntas "I bi ha un bar en o barrio?"'
-    options: ["Auzoan dago tabernarik?", "Auzoan badago tabernarik?", "Auzoan tabernan dago?", "Auzoan tabernara dago?"]
-    answer: 1
-    explanation: '"Bada(go)" esprisa esistencia y "tabernarik" ye o partitivo "-rik" típico en preguntas y negacions d''esistencia.'
-  - id: ex-bd-mc2
-    type: multiple-choice
-    prompt: '"Ez dago supermerkaturik" significa…'
-    options: ["No soi en o supermercau", "O supermercau no i ye", "No i ha supermercau", "Voi t''o supermercau"]
-    answer: 2
-    explanation: '"Ez dago + X-rik" = "no i ha X". O partitivo -rik s''emplega con sustantivos indefinius en negación.'
-  - id: ex-bd-fb1
-    type: fill-in-blank
-    prompt: 'Sí, i bi ha = Bai, ___.'
-    answers: [badago]
-    explanation: '"Badago" = "bai dago" fusionaus: respuesta afirmativa típica a "ba al dago…?".'
-  - id: ex-bd-fb2
-    type: fill-in-blank
-    prompt: 'Negación: Aquí no i ha panadería = Hemen ez dago okindegi___.'
-    answers: [rik]
-  - id: ex-bd-mc3
-    type: multiple-choice
-    prompt: 'Diferencia clau entre "dago" y "badago":'
-    options: ["dago = i ye; badago = i ye? u Sí i ye", "no i ha diferencia", "dago ye presén, badago ye pasau", "badago ye nomás plural"]
-    answer: 0
-    explanation: '"Dago" ye a forma neutra "i ye". "Bada(go)" añade o matiz d''esistir/i haber; típicamén en preguntas (Ba al dago?) y respuestas afirmativas (Bai, badago).'
-  - id: ex-bd-fc
-    type: flashcards
-    cards:
-      - { eu: 'Ba al dago…?', es: I bi ha…? }
-      - { eu: 'Badago?', es: I bi ha? (informal) }
-      - { eu: 'Bai, badago', es: 'Sí, i bi ha' }
-      - { eu: 'Ez, ez dago', es: 'No, no i ha' }
-      - { eu: 'Ba al daude…?', es: I bi ha…? (plural) }
-      - { eu: 'Bai, badaude', es: 'Sí, i bi ha (busatos)' }
-      - { eu: 'Ez dago tabernarik', es: No i ha bar }
-      - { eu: 'Ez dago jatekorik', es: No i ha cosa ta minchar }
-      - { eu: 'Ez dago dirurik', es: No i ha diners }
-      - { eu: 'Auzoan ez dago supermerkaturik', es: En o barrio no i ha supermercau }
-  - id: ex-bd-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Ba al dago tabernarik?', es: 'I bi ha bel bar?' }
-      - { eu: 'Bai, badago', es: 'Sí, i bi ha' }
-      - { eu: 'Ez, ez dago', es: 'No, no i ha' }
-      - { eu: tabernarik, es: 'bel bar / bars (forma partitiva)' }
-      - { eu: 'Non dago taberna?', es: 'Án ye o bar?' }
+- id: ex-bd-mc1
+  type: multiple-choice
+  prompt: Cómo preguntas "Bi ha una tabierna en o barrio?"
+  options:
+  - Auzoan dago tabernarik?
+  - Auzoan badago tabernarik?
+  - Auzoan tabernan dago?
+  - Auzoan tabernara dago?
+  answer: 1
+  explanation: '"Bada(go)" expresa existencia y "tabernarik" ye o partitivo "-rik" tipico en preguntas y negacions d''existencia.'
+- id: ex-bd-mc2
+  type: multiple-choice
+  prompt: '"Ez dago supermerkaturik" significa…'
+  options:
+  - No soi en o supermercau
+  - O supermercau no i ye
+  - No bi ha supermercau
+  - Voi a o supermercau
+  answer: 2
+  explanation: '"Ez dago + X-rik" = "no bi ha X". O partitivo -rik se fa servir con substantivos indefinius en negación.'
+- id: ex-bd-fb1
+  type: fill-in-blank
+  prompt: Sí, bi ha = Bai, ___.
+  answers:
+  - badago
+  explanation: '"Badago" = "bai dago" fusionaus: respuesta afirmativa tipica a "ba al dago…?".'
+- id: ex-bd-fb2
+  type: fill-in-blank
+  prompt: 'Negación: Aquí no bi ha panadería = Hemen ez dago okindegi___.'
+  answers:
+  - rik
+- id: ex-bd-mc3
+  type: multiple-choice
+  prompt: 'Diferencia clau entre "dago" y "badago":'
+  options:
+  - dago = ye; badago = ¿bi ha? u Sí, bi ha
+  - no bi ha diferencia
+  - dago ye present, badago ye pasau
+  - badago ye solo plural
+  answer: 0
+  explanation: '"Dago" ye a forma neutra "ye". "Bada(go)" adhibe o matiz d''existir/haber; tipicament en preguntas (Ba al dago?) y respuestas afirmativas (Bai, badago).'
+- id: ex-bd-fc
+  type: flashcards
+  cards:
+  - eu: Ba al dago…?
+    es: Bi ha…?
+  - eu: Badago?
+    es: Bi ha? (informal)
+  - eu: Bai, badago
+    es: Sí, bi ha
+  - eu: Ez, ez dago
+    es: No, no bi ha
+  - eu: Ba al daude…?
+    es: Bi ha…? (plural)
+  - eu: Bai, badaude
+    es: Sí, bi ha (uns quants)
+  - eu: Ez dago tabernarik
+    es: No bi ha tabierna
+  - eu: Ez dago jatekorik
+    es: No bi ha cosa pa minchar
+  - eu: Ez dago dirurik
+    es: No bi ha diners
+  - eu: Auzoan ez dago supermerkaturik
+    es: En o barrio no bi ha supermercau
+- id: ex-bd-mp
+  type: match-pairs
+  pairs:
+  - eu: Ba al dago tabernarik?
+    es: Bi ha garra tabierna?
+  - eu: Bai, badago
+    es: Sí, bi ha
+  - eu: Ez, ez dago
+    es: No, no bi ha
+  - eu: tabernarik
+    es: garra tabierna / tabiernas (forma partitiva)
+  - eu: Non dago taberna?
+    es: A on ye a tabierna?
 ---
 
-En castellano emplegamos un solo verbo, "i haber/estar", ta dos ideyas distintas: **esistir** ("i bi ha una farmacia en o barrio?") y **ubicar-se** ("a farmacia ye en a carrera Mayor"). O euskera distingue muito claramén estas dos cosas, y ye bella cosa que combiene fixar luego.
+En castellano fem servir os verbos "haber" y "estar" pa dos ideas distintas: **existir** ("bi ha una farmacia en o barrio?") y **ubicar-se** ("a farmacia ye en a carrera Mayor"). O basco distingue muit clarament istas dos cosas, y ye bella cosa que conviene fixar luego.
 
-## Esistir vs estar
+## Existir vs estar
 
-| Ideya | Patrón en euskera | Eixemplo |
+| Idea | Patrón en basco | Exemplo |
 |---|---|---|
-| **Esistir** ("i ha") | **bada(go)** + sustantivo en partitivo | *Auzoan **badago** tabernarik?* — I bi ha bel bar en o barrio? |
-| **Estar** (ubicar-se) | sustantivo concreto + puesto + **dago** | *Taberna kalean **dago***. — O bar ye en a carrera. |
+| **Existir** ("bi ha") | **bada(go)** + substantivo en partitivo | *Auzoan **badago** tabernarik?* — Bi ha garra tabierna en o barrio? |
+| **Estar** (ubicar-se) | substantivo concreto + puesto + **dago** | *Taberna kalean **dago***. — A tabierna ye en a carrera. |
 
-Cuan preguntas si bella cosa **esiste** (no si án ye, sino si i ha), emplega o patrón con **bada(go)**.
+Cuan preguntas si bella cosa **existe** (no si a on ye, sino si bi ha), fa servir o patrón con **bada(go)**.
 
 ## A pregunta: Ba al dago…?
 
-As dos formas son freqüens:
+As dos formas son frecuents:
 
-- **Ba al dago + X-rik?** — forma estándar (con a partícula interrogativa *al*).
+- **Ba al dago + X-rik?** — forma estándar (con a particla interrogativa *al*).
 - **Bada(go) + X-rik?** — forma cotidiana, sin *al*.
 
-Eixemplos:
+Exemplos:
 
-- ***Ba al dago* botikarik herrian?** — I bi ha farmacia en o lugar?
-- ***Badago* supermerkaturik auzoan?** — I bi ha supermercau en o barrio?
-- ***Ba al dago* komun publikorik?** — I bi ha comuns publicos?
+- ***Ba al dago* botikarik herrian?** — Bi ha farmacia en o lugar?
+- ***Badago* supermerkaturik auzoan?** — Bi ha supermercau en o barrio?
+- ***Ba al dago* komun publikorik?** — Bi ha escusaus publicos?
 
 ## A respuesta afirmativa
 
-Ta responder **"sí, i bi ha"** se contesta con a fusión **bai, badago**:
+Pa responder **"sí, bi ha"** se responde con a fusión **bai, badago**:
 
-- **Bai, badago.** — Sí, i bi ha (un).
-- **Bai, badaude.** — Sí, i bi ha (busatos).
+- **Bai, badago.** — Sí, bi ha (un).
+- **Bai, badaude.** — Sí, bi ha (uns quants).
 
-Y se puet ixamplar:
+Y se puede ampliar:
 
-- **Bai, badago botika handi bat eskolaren ondoan.** — Sí, i bi ha una farmacia gran a o canto de a escuela.
+- **Bai, badago botika handi bat eskolaren ondoan.** — Sí, bi ha una farmacia gran a o costau d'a escuela.
 
 ## A respuesta negativa: -rik
 
-Ta dir **"no i ha"** emplegamos o partitivo **`-rik`** sobre o sustantivo:
+Pa decir **"no bi ha"** fem servir o partitivo **`-rik`** sobre o substantivo:
 
-| Euskera | Castellano |
+| Basco | Aragonés |
 |---|---|
-| *Ez dago **tabernarik**.* | No i ha bar(s). |
-| *Ez dago **supermerkaturik**.* | No i ha supermercau. |
-| *Ez dago **kafetegirik**.* | No i ha cafetería. |
-| *Ez dago **komun publikorik**.* | No i ha comuns publicos. |
+| *Ez dago **tabernarik**.* | No bi ha tabierna(s). |
+| *Ez dago **supermerkaturik**.* | No bi ha supermercau. |
+| *Ez dago **kafetegirik**.* | No bi ha cafetería. |
+| *Ez dago **komun publikorik**.* | No bi ha escusaus publicos. |
 
-> O sufixo **`-rik`** (u `-ik` dimpués de consonán) ye o "partitivo": marca un sustantivo indefiniu en preguntas y negacions. Lo veyeremos tamién con atros verbos (*Ez dut anaiarik* — "no tiengo chermanos").
+> O sufixo **`-rik`** (u `-ik` dezaga d'una consonant) ye o "partitivo": marca un substantivo indefiniu en preguntas y negacions. Lo veremos tamién con atros verbos (*Ez dut anaiarik* — "no tiengo chirmans").
 
-## Cuan ya sabes que esiste — pregunta por a ubicación
+## Cuan ya sabes que existe — pregunta por a ubicación
 
-Una vegada te confirman que esiste, lo natural ye preguntar **án ye**, y astí cambias a o patrón de a lección anterior:
+Una vegada te confirman que existe, lo natural ye preguntar **a on ye**, y allora cambias a o patrón d'a lección anterior:
 
-> — *Ba al dago kutxazain automatikorik herrian?* — I bi ha un caixero automatico en o lugar?
+> — *Ba al dago kutxazain automatikorik herrian?* — Bi ha un caixero automatico en o lugar?
 >
-> — *Bai, badago.* — Sí, i bi ha.
+> — *Bai, badago.* — Sí, bi ha.
 >
-> — ***Non dago?*** — Án ye?
+> — ***Non dago?*** — A on ye?
 >
-> — *Banketxearen ondoan dago.* — Ye a o canto d'o banco.
+> — *Banketxearen ondoan dago.* — Ye a o costau d'o banco.
 
-## Mini-dialogo completo
+## Mini-dialgo completo
 
 > — *Egun on, barkatu! Auzoan **ba al dago** liburutegirik?*
 >
@@ -133,4 +166,4 @@ Una vegada te confirman que esiste, lo natural ye preguntar **án ye**, y astí 
 >
 > — *Ez, hemen ez dago **kafetegirik**, baina taberna bat **badago**.*
 
-> **Truco mnemotecnico:** ta *esistir* piensa "**ba**" (= "i ha") + dago/daude. Ta *estar* piensa nomás en *dago*/*daude* normals. Y o `-rik` amaneixe quasi siempre que digas u preguntes por bella cosa de forma indefinida.
+> **Truco mnemotecnico:** pa *existir* piensa "**ba**" (= "bi ha") + dago/daude. Pa *estar* piensa solo en *dago*/*daude* normals. Y o `-rik` amaneix cuasi siempre que digas u preguntes por bella cosa de forma indefinida.

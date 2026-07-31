@@ -7,37 +7,56 @@ level: a1
 order: 4
 title: Pronomes personales
 estimatedMinutes: 12
-covers: [personal-pronouns, izan-nor, izan-negation]
+covers:
+- personal-pronouns
+- izan-nor
+- izan-negation
 exercises:
-  - id: ex-04-pp-mp
-    type: match-pairs
-    pairs:
-      - { eu: ni, es: yo }
-      - { eu: zu, es: tu/usté }
-      - { eu: hura, es: él/ella }
-      - { eu: gu, es: nós }
-      - { eu: zuek, es: vós }
-      - { eu: haiek, es: ellos/elles }
-  - id: ex-04-pp-fb1
-    type: fill-in-blank
-    prompt: 'Gu lagunak ___ (somos).'
-    answers: [gara]
-    explanation: 'Pa "nós" la forma de "izan" ye "gara".'
-  - id: ex-04-pp-mc1
-    type: multiple-choice
-    prompt: ¿Cuála ye la forma de "ser/tar" pa "vós"?
-    options: [naiz, zara, gara, zarete, dira]
-    answer: 3
-    explanation: 'Vós = zuek; la forma del verbu ye "zarete".'
-  - id: ex-04-pp-mc2
-    type: multiple-choice
-    prompt: '¿Cómo dices "Yo nun soi estudiante"?'
-    options: [Ni ikaslea naiz, Ni ez naiz ikaslea, Ez ni ikaslea naiz, Ni ikaslea ez naiz]
-    answer: 1
-    explanation: 'En euskera la negación va asina: SUXETU + ez + VERBU + atributu.'
+- id: ex-04-pp-mp
+  type: match-pairs
+  pairs:
+  - eu: ni
+    es: yo
+  - eu: zu
+    es: tu/usté
+  - eu: hura
+    es: él/ella
+  - eu: gu
+    es: nosotros
+  - eu: zuek
+    es: vosotros
+  - eu: haiek
+    es: ellos/ellas
+- id: ex-04-pp-fb1
+  type: fill-in-blank
+  prompt: Gu lagunak ___ (somos).
+  answers:
+  - gara
+  explanation: Pa "nós" la forma de "izan" ye "gara".
+- id: ex-04-pp-mc1
+  type: multiple-choice
+  prompt: ¿Cuál ye la forma de "ser/tar" pa "vós"?
+  options:
+  - naiz
+  - zara
+  - gara
+  - zarete
+  - dira
+  answer: 3
+  explanation: Vós = zuek; la forma del verbu ye "zarete".
+- id: ex-04-pp-mc2
+  type: multiple-choice
+  prompt: ¿Cómo dices "Yo nun soi estudiante"?
+  options:
+  - Ni ikaslea naiz
+  - Ni ez naiz ikaslea
+  - Ez ni ikaslea naiz
+  - Ni ikaslea ez naiz
+  answer: 1
+  explanation: 'N''eusquera la negación va: SUXETU + ez + VERBU + atributu.'
 ---
 
-En euskera estándar (*euskara batua*) hai siete pronomes personales:
+N'eusquera estándar (*euskara batua*) hai siete pronomes personales:
 
 | Pronome | Quién | Verbu "izan" (NOR) |
 |---|---|---|
@@ -49,20 +68,20 @@ En euskera estándar (*euskara batua*) hai siete pronomes personales:
 | **zuek** | vós | zarete |
 | **haiek** | ellos, elles | dira |
 
-> Nun esiste distinción de xéneru: *hura* val pa él y pa ella; *haiek* pa ellos y elles. **Bera** ye una variante mui frecuente de *hura* na fala cotidiana.
+> Nun esiste distinción de xéneru: *hura* val pa él y ella; *haiek* pa ellos y elles. **Bera** ye una variante mui frecuente de *hura* na fala cotidiana.
 
 ## Hi vs zu (importante)
 
-En euskera hai dos formes de "tu":
+N'eusquera hai dos formes de "tu":
 
-- **zu** → tu estándar. Ye lo que s'usa na clase, con desconocíos, colos compañeros de trabayu, con tol mundu en cualesquier rexistru neutru. **En A1 usa siempres `zu`.**
-- **hi** → tu íntimu (*hitano*). Namái ente amigos cercanos, familia, o en dellos pueblos como rexistru habitual. Tien la so propia conxugación (`haiz`, `duk`/`dun` con marca de xéneru del oyente). Nun la trabayamos en A1.
+- **zu** → tu estándar. Ye lo que s'usa en clase, con desconocíos, con compañeros de trabayu, con tol mundu en cualquier rexistru neutru. **N'A1 usa siempre `zu`.**
+- **hi** → tu íntimu (*hitano*). Namás ente amigos cercanos, familia, o en dellos pueblos como rexistru habitual. Tien la so propia conxugación (`haiz`, `duk`/`dun` con marca de xéneru del oyente). Nun la trabayamos n'A1.
 
-Si dudes, **usa `zu`** — furrula siempres.
+Si duldes, **usa `zu`** — funciona siempre.
 
 ## Negación
 
-Pa negar, antepones **ez** al verbu:
+Pa negar, antepónse **ez** al verbu:
 
 - *Ni ez naiz Egoitz.* — Yo nun soi Egoitz.
 - *Hau ez da nire kalea.* — Esta nun ye la mio cai.

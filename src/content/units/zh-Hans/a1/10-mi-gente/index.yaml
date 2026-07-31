@@ -1,14 +1,14 @@
 id: a1-people
 code: 10-mi-gente
 level: a1
-title: "邻居与人际关系"
+title: 邻居与关系
 order: 10
-description: "描述你的邻居：人际关系、职业以及他人的日常作息。"
+description: 描述你的邻居：他们的关系、职业以及日常活动。
 estimatedMinutes: 55
 covers:
-  - social-relations
-  - professions
-  - professions-extended
-  - third-person-introductions
-  - daily-routine-third-person
-  - possessives
+- social-relations
+- professions
+- professions-extended
+- third-person-introductions
+- daily-routine-third-person
+- possessives

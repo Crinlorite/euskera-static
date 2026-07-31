@@ -1,0 +1,16 @@
+id: a2-egoerak
+code: 01-egoerak
+level: a2
+title: Egoerak — situacions quotidianes e conselhs
+order: 1
+description: Salud, abituds e miei ambient. Apren a demanar e dar instruccions damb er imperatiu (agintera).
+estimatedMinutes: 70
+covers:
+- a2-health-vocab
+- a2-doctor-visit
+- a2-healthy-habits
+- a2-environment
+- a2-civic-life
+- a2-agintera-intro
+- a2-agintera-uses
+- a2-agintera-negation

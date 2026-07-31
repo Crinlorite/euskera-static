@@ -5,129 +5,167 @@ code: 03-aurrean-atzean
 unit: 05-mi-pueblo
 level: a1
 order: 3
-title: Posicions espacials (debant, dezaga, a o canto…)
+title: Posicions espacials (debán, dezaga, a o canto…)
 estimatedMinutes: 12
-covers: [spatial-positions, spatial-adverbs, locative-non]
+covers:
+- spatial-positions
+- spatial-adverbs
+- locative-non
 exercises:
-  - id: ex-aatz-mp
-    type: match-pairs
-    pairs:
-      - { eu: aurrean, es: debant }
-      - { eu: atzean, es: dezaga }
-      - { eu: ondoan, es: a o canto }
-      - { eu: gainean, es: dencima }
-      - { eu: azpian, es: debaixo }
-      - { eu: artean, es: entre }
-      - { eu: ezkerrean, es: a la zurda }
-      - { eu: eskuinean, es: a la dreita }
-  - id: ex-aatz-mc1
-    type: multiple-choice
-    prompt: '"O gato ye debaixo d''a mesa" — a parola correcta ye:'
-    options: [gainean, azpian, ondoan, atzean]
-    answer: 1
-    explanation: '"Azpian" = debaixo. "Gainean" = dencima.'
-  - id: ex-aatz-mc2
-    type: multiple-choice
-    prompt: 'Cómo se diz "debant d''a ilesia"?'
-    options: ["elizaren aurrean", "elizan aurrean", "elizara aurrean", "elizako aurrean"]
-    answer: 0
-    explanation: 'A fórmula ye "X-(r)en + posición": elizaren aurrean (d''a ilesia + debant).'
-  - id: ex-aatz-fb1
-    type: fill-in-blank
-    prompt: 'Mahaiaren ___ daude liburuak (os libros son dencima d''a mesa).'
-    answers: [gainean]
-  - id: ex-aatz-mc3
-    type: multiple-choice
-    prompt: '"Hemen", "hor", "han" significan, respectivament:'
-    options: ["allá, astí, aquí", "aquí, astí, allá", "astí, aquí, allá", "aquí, allá, astí"]
-    answer: 1
-    explanation: 'As tres distancias de l''euskera: HEMEN (a o canto de yo, "aquí"), HOR (a o canto de qui escuita, "astí"), HAN (luen d''os dos, "allá").'
-  - id: ex-aatz-fc
-    type: flashcards
-    cards:
-      - { eu: aurrean, es: debant }
-      - { eu: atzean, es: dezaga }
-      - { eu: ondoan, es: a o canto }
-      - { eu: gainean, es: dencima }
-      - { eu: azpian, es: debaixo }
-      - { eu: artean, es: entre }
-      - { eu: ezkerrean, es: a la zurda }
-      - { eu: eskuinean, es: a la dreita }
-      - { eu: barruan, es: dentro }
-      - { eu: kanpoan, es: difuera }
-      - { eu: erdian, es: en o medio }
-      - { eu: hemen, es: aquí }
-      - { eu: hor, es: astí }
-      - { eu: han, es: allá }
+- id: ex-aatz-mp
+  type: match-pairs
+  pairs:
+  - eu: aurrean
+    es: delante
+  - eu: atzean
+    es: dezaga
+  - eu: ondoan
+    es: al lado
+  - eu: gainean
+    es: encima
+  - eu: azpian
+    es: debajo
+  - eu: artean
+    es: entre
+  - eu: ezkerrean
+    es: a la cucha
+  - eu: eskuinean
+    es: a la dreita
+- id: ex-aatz-mc1
+  type: multiple-choice
+  prompt: '"O gato ye debaixo d''a mesa" — a parola correcta ye:'
+  options:
+  - gainean
+  - azpian
+  - ondoan
+  - atzean
+  answer: 1
+  explanation: '"Azpian" = debaixo. "Gainean" = encima.'
+- id: ex-aatz-mc2
+  type: multiple-choice
+  prompt: Cómo se diz "debán d'a ilesia"?
+  options:
+  - elizaren aurrean
+  - elizan aurrean
+  - elizara aurrean
+  - elizako aurrean
+  answer: 0
+  explanation: 'A formula ye "X-(r)en + posición": elizaren aurrean (d''a ilesia + debán).'
+- id: ex-aatz-fb1
+  type: fill-in-blank
+  prompt: Mahaiaren ___ daude liburuak (os libros son encima d'a mesa).
+  answers:
+  - gainean
+- id: ex-aatz-mc3
+  type: multiple-choice
+  prompt: '"Hemen", "hor", "han" significan, respectivament:'
+  options:
+  - allí, astí, aquí
+  - aquí, astí, allí
+  - astí, aquí, allí
+  - aquí, allí, astí
+  answer: 1
+  explanation: 'As tres distancias d''o basco: HEMEN (amán de yo, "aquí"), HOR (amán de qui escuita, "astí"), HAN (luent d''os dos, "allí").'
+- id: ex-aatz-fc
+  type: flashcards
+  cards:
+  - eu: aurrean
+    es: debán
+  - eu: atzean
+    es: dezaga
+  - eu: ondoan
+    es: a o canto
+  - eu: gainean
+    es: encima
+  - eu: azpian
+    es: debaixo
+  - eu: artean
+    es: entre
+  - eu: ezkerrean
+    es: a la cucha
+  - eu: eskuinean
+    es: a la dreita
+  - eu: barruan
+    es: adintro
+  - eu: kanpoan
+    es: afuera
+  - eu: erdian
+    es: en o meyo
+  - eu: hemen
+    es: aquí
+  - eu: hor
+    es: astí
+  - eu: han
+    es: allí
 ---
 
-Una vegada sabes dicir "ye en X", o siguient paso ye dicir **án exactament**: dencima, debaixo, a o canto, dezaga… En euskera istas posicions se construyen siempre con o patrón **puesto de referencia + posición**.
+Una vegada sabes decir "ye en X", o siguient paso ye decir **án exactament**: encima, debaixo, a o canto, dezaga… En basco istas posicions se construyen siempre con o patrón **puesto de referencia + posición**.
 
 ## As posicions basicas
 
 | Euskera | Aragonés |
 |---|---|
-| *aurrean* | debant |
+| *aurrean* | debán |
 | *atzean* | dezaga |
 | *ondoan* | a o canto |
-| *gainean* | dencima, sobre |
+| *gainean* | encima, sobre |
 | *azpian* | debaixo |
 | *artean* | entre |
-| *ezkerrean* | a la zurda |
+| *ezkerrean* | a la cucha |
 | *eskuinean* | a la dreita |
-| *barruan* | dentro |
-| *kanpoan* | difuera |
-| *erdian* | en o medio, en o centro |
+| *barruan* | adintro |
+| *kanpoan* | afuera |
+| *erdian* | en o meyo, en o centro |
 
 ## Cómo construir-las: -(r)en + posición
 
-A fórmula basica ye **(referencia)-(r)en + posición**. A referencia toma o genitivo `-(r)en` (lo que vale "d'o/d'a" en aragonés):
+A formula basica ye **(referencia)-(r)en + posición**. A referencia prene o chenitivo `-(r)en` (o que val "d'o/de la" en aragonés):
 
 | Euskera | Aragonés (literal) |
 |---|---|
-| **mahaiaren gainean** | dencima d'a mesa (lit. "d'a mesa, dencima") |
-| **etxearen aurrean** | debant d'a casa |
+| **mahaiaren gainean** | encima d'a mesa (lit. "d'a mesa, encima") |
+| **etxearen aurrean** | debán d'a casa |
 | **elizaren atzean** | dezaga d'a ilesia |
 | **parkearen ondoan** | a o canto d'o parque |
-| **kutxaren barruan** | dentro d'a caixa |
+| **kutxaren barruan** | adintro d'a caixa |
 | **bi mendien artean** | entre dos monts |
 
-Patrón: a referencia va primero, **dimpués** a posición. Ye exactament a l'inrevés que l'aragonés.
+Patrón: a referencia va primero, **dimpués** a posición. Ye exactament a o revés que en aragonés.
 
-## Eixemplos completos
+## Exemplos completos
 
-- **Liburua mahaiaren gainean dago.** — O libro ye dencima d'a mesa.
-- **Katua aulkiaren azpian dago.** — O gato ye debaixo d'a cadiera.
+- **Liburua mahaiaren gainean dago.** — O libro ye encima d'a mesa.
+- **Katua aulkiaren azpian dago.** — O gato ye debaixo d'a siella.
 - **Eliza plazaren erdian dago.** — A ilesia ye en o centro d'a plaza.
 - **Botika eskolaren ondoan dago.** — A farmacia ye a o canto d'a escuela.
 - **Ni Maiteren eta Anaren artean nago.** — Yo soi entre Maite y Ana.
 
 ## Adverbios de puesto: hemen / hor / han
 
-Ta sinyalar d'una traza rapida bi ha tres adverbios — y, atura cuenta, son **tres distancias**, no pas dos como en aragonés:
+Pa sinyalar de traza rapida bi ha tres adverbios — y, cuenta, son **tres distancias**, no dos como en aragonés:
 
-| Euskera | Aragonés | Quán |
+| Euskera | Aragonés | Cuan |
 |---|---|---|
-| *hemen* | aquí | a o canto d'o charrador |
-| *hor* | astí | a o canto de qui escuita |
-| *han* | allá | luen d'os dos |
+| *hemen* | aquí | amán de qui parla |
+| *hor* | astí | amán de qui escuita |
+| *han* | allí | luent d'os dos |
 
-> Istos tres adverbios se correspuenden con os demostrativos *hau / hori / hura* y con as suyas formas locativas largas *honetan / horretan / hartan* ("en iste / en ixe / en aquel").
+> Istos tres adverbios se corresponden con os demostrativos *hau / hori / hura* y con as suyas formas locativas largas *honetan / horretan / hartan* ("en iste / en ixe / en aquel").
 
-Eixemplos rapidos:
+Exemplos rapidos:
 
 - **Hemen** taberna bat dago. — Aquí bi ha un bar.
 - **Hor** parkea dago. — Astí ye o parque.
-- **Han** dago euskaltegia. — L'euskaltegi ye allá.
+- **Han** dago euskaltegia. — O euskaltegi ye allí.
 
-## Mini-conversa: chugar a amagar-se
+## Mini-conversación: chugar a l'amagatorio
 
 > — *Pilota mahaiaren azpian dago?* — Ye a pilota debaixo d'a mesa?
 >
 > — *Ez, pilota ez dago mahaiaren azpian.* — No, a pilota no ye debaixo d'a mesa.
 >
-> — *Aulkiaren atzean dago?* — Ye dezaga d'a cadiera?
+> — *Aulkiaren atzean dago?* — Ye dezaga d'a siella?
 >
 > — *Bai, hor dago!* — Sí, astí ye!
 
-> **Truco:** todas as posicions levan ya o sufixo `-an` incorporau (*aurr-ean*, *atz-ean*, *azp-ian*…). No has d'anyadir cosa más.
+> **Truco:** todas as posicions levan ya o sufixo `-an` incorporau (*aurr-ean*, *atz-ean*, *azp-ian*…). No has d'anyadir cosa mas.

@@ -7,104 +7,137 @@ level: a1
 order: 4
 title: Cites y compromisos (hitzorduak)
 estimatedMinutes: 10
-covers: [weekly-planning, time-when, companions-rekin]
+covers:
+- weekly-planning
+- time-when
+- companions-rekin
 exercises:
-  - id: ex-hit-mc1
-    type: multiple-choice
-    prompt: '"Quedo con Mikel mañana" dizse…'
-    options: ['Bihar Mikelarekin geratuko naiz', 'Bihar Mikelekin geratuko naiz', 'Bihar Mikel naiz', 'Bihar Mikelan geratuko naiz']
-    answer: 1
-    explanation: '*Mikel + -ekin* (con) = *Mikelekin*. *Geratuko naiz* — quedaré.'
-  - id: ex-hit-mc2
-    type: multiple-choice
-    prompt: '"Tengo reunión a les cinco" =…'
-    options: ['Bilera dut bostetan', 'Bilera bostak da', 'Bostetan bilera dut', 'Les opciones 1 y 3 son correutes']
-    answer: 3
-    explanation: 'En euskera l''orde ye flexible: *Bostetan bilera dut* y *Bilera dut bostetan* son dambos correutos.'
-  - id: ex-hit-fb1
-    type: fill-in-blank
-    prompt: '"¿A qué hora quedamos?" = ___ ordutan geratuko gara?'
-    answers: [Zer, zer]
-    explanation: '*Zer ordutan?* — "¿a qué hora?" (lliteral: "¿en qué hora?").'
-  - id: ex-hit-fb2
-    type: fill-in-blank
-    prompt: '"Sobre les nueve" = Bederatziak ___'
-    answers: [aldera]
-    explanation: '*Aldera* — "alredor de", "sobre". *Bederatziak aldera* — "sobre les nueve".'
-  - id: ex-hit-fc
-    type: flashcards
-    cards:
-      - { eu: hitzordua, es: cita }
-      - { eu: bilera, es: reunión }
-      - { eu: 'Bilera dut', es: Tengo reunión }
-      - { eu: 'Mikelekin geratu naiz', es: Quedé con Mikel }
-      - { eu: 'Mikelekin geratuko naiz', es: Quedaré con Mikel }
-      - { eu: 'Zer ordutan geratuko gara?', es: ¿A qué hora quedamos? }
-      - { eu: 'Bederatziak aldera', es: Sobre les nueve }
-      - { eu: 'Libre nago', es: Toi llibre }
-      - { eu: 'Lanpetuta nago', es: Toi ocupáu/ada }
-      - { eu: 'Ezin dut, beste plan bat dut', es: 'Nun puedo, tengo otru plan' }
-      - { eu: 'Ados!', es: '¡D''alcuerdu!' }
-      - { eu: dentista, es: dentista }
-      - { eu: medikua, es: el médicu }
-  - id: ex-hit-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'hitzordua', es: cita }
-      - { eu: 'bilera', es: reunión }
-      - { eu: 'libre', es: llibre }
-      - { eu: 'lanpetuta', es: ocupáu/ada }
-      - { eu: 'geratu', es: quedar }
-      - { eu: 'geratuko gara', es: quedaremos }
+- id: ex-hit-mc1
+  type: multiple-choice
+  prompt: «Quedo con Mikel mañana» dizse…
+  options:
+  - Bihar Mikelarekin geratuko naiz
+  - Bihar Mikelekin geratuko naiz
+  - Bihar Mikel naiz
+  - Bihar Mikelan geratuko naiz
+  answer: 1
+  explanation: '*Mikel + -ekin* (con) = *Mikelekin*. *Geratuko naiz* — voi quedar.'
+- id: ex-hit-mc2
+  type: multiple-choice
+  prompt: «Tengo xunta a les cinco» =…
+  options:
+  - Bilera dut bostetan
+  - Bilera bostak da
+  - Bostetan bilera dut
+  - Les opciones 1 y 3 son correctes
+  answer: 3
+  explanation: 'N''eusquera l''orde ye flexible: *Bostetan bilera dut* y *Bilera dut bostetan* son dambos correctos.'
+- id: ex-hit-fb1
+  type: fill-in-blank
+  prompt: «¿A qué hora quedamos?» = ___ ordutan geratuko gara?
+  answers:
+  - Zer
+  - zer
+  explanation: '*Zer ordutan?* — «¿a qué hora?» (lliteral: «¿en qué hora?»).'
+- id: ex-hit-fb2
+  type: fill-in-blank
+  prompt: «Sobre les nueve» = Bederatziak ___
+  answers:
+  - aldera
+  explanation: '*Aldera* — «alredor de», «sobre». *Bederatziak aldera* — «sobre les nueve».'
+- id: ex-hit-fc
+  type: flashcards
+  cards:
+  - eu: hitzordua
+    es: cita
+  - eu: bilera
+    es: xunta
+  - eu: Bilera dut
+    es: Tengo xunta
+  - eu: Mikelekin geratu naiz
+    es: Quedé con Mikel
+  - eu: Mikelekin geratuko naiz
+    es: Voi quedar con Mikel
+  - eu: Zer ordutan geratuko gara?
+    es: ¿A qué hora quedamos?
+  - eu: Bederatziak aldera
+    es: Sobre les nueve
+  - eu: Libre nago
+    es: Toi llibre
+  - eu: Lanpetuta nago
+    es: Toi ocupáu/ada
+  - eu: Ezin dut, beste plan bat dut
+    es: Nun puedo, tengo otru plan
+  - eu: Ados!
+    es: ¡D'acuerdu!
+  - eu: dentista
+    es: dentista
+  - eu: medikua
+    es: el médicu
+- id: ex-hit-mp
+  type: match-pairs
+  pairs:
+  - eu: hitzordua
+    es: cita
+  - eu: bilera
+    es: xunta
+  - eu: libre
+    es: libre
+  - eu: lanpetuta
+    es: ocupado/a
+  - eu: geratu
+    es: quedar
+  - eu: geratuko gara
+    es: quedaremos
 ---
 
-Una axenda viva ta enllena de cites y compromisos. Esta lleición enséñate a falar d'ellos: tener una cita, quedar con daquién, dicir si tas llibre.
+Una axenda viva ta llena de cites y compromisos. Esta lleición enséñate a falar d'ellos: tener una cita, quedar con daquién, dicir si tas llibre.
 
 ## Vocabulariu clave
 
 | Euskera | Asturianu |
 |---|---|
-| *hitzordua* | cita (alcuerdu d'hora con daquién) |
-| *bilera* | reunión |
+| *hitzordua* | cita (acuerdu d'hora con daquién) |
+| *bilera* | xunta |
 | *errebisioa* | revisión (médica, dental) |
 | *medikua* | el médicu |
 | *dentista* | dentista |
 | *kontsulta* | consulta |
 
-## Tener una cita o reunión
+## Tener una cita o xunta
 
-Pa "tengo X" úsase'l verbu *ukan* (`dut, du, dugu, ...`):
+Pa «tengo X» úsase'l verbu *ukan* (`dut, du, dugu, ...`):
 
-- **Bilera dut.** — Tengo reunión.
+- **Bilera dut.** — Tengo xunta.
 - **Hitzordua dut medikuarekin.** — Tengo cita col médicu.
 - **Errebisioa du semearekin.** — Tien revisión col so fíu.
 
-> Si quies especificar la hora, namái la amiestes al principiu o al final: *Bostetan bilera dut* / *Bilera dut bostetan*.
+> Si quies especificar la hora, cenciellamente añádesla al principiu o a la fin: *Bostetan bilera dut* / *Bilera dut bostetan*.
 
 ## Quedar con daquién — `geratu` + `-ekin`
 
-`Geratu` significa "quedar(se)", y combináu col sociativu `-ekin` (con):
+`Geratu` significa «quedar(se)», y combináu col sociativu `-ekin` (con):
 
 | Patrón | Exemplu | Asturianu |
 |---|---|---|
 | *X-ekin geratu naiz* | *Egoitz**ekin** geratu naiz* | Quedé con Egoitz |
-| *X-ekin geratuko naiz* | *Egoitz**ekin** geratuko naiz* | Quedaré con Egoitz |
+| *X-ekin geratuko naiz* | *Egoitz**ekin** geratuko naiz* | Voi quedar con Egoitz |
 
-> El sufixu `-ekin` apégase al nome. Si acaba en consonante amiéstase *-ekin*: *Mikel + ekin = Mikelekin*, *Maialenekin*. Si acaba en vocal amiéstase *-rekin*: *Garazirekin, Anerekin*.
+> El sufixu `-ekin` péga-y al nome. Si acaba en consonante añádese *-ekin*: *Mikel + ekin = Mikelekin*, *Maialenekin*. Si acaba en vocal añádese *-rekin*: *Garazirekin, Anerekin*.
 
-## Alcordar la hora
+## Acordar la hora
 
 Frases típiques pa concretar:
 
 - **Zer ordutan geratuko gara?** — ¿A qué hora quedamos?
 - **Bostetan ondo?** — ¿A les cinco bien?
-- **Sei eta erdietan geratuko gara.** — Quedaremos a les seis y media.
+- **Sei eta erdietan geratuko gara.** — Vamos quedar a les seis y media.
 - **Bederatziak aldera.** — Sobre les nueve.
 - **Hamabietan.** — A les doce.
 
-`Aldera` = "alredor de", "sobre". Bien útil cuando nun quies comprometete con una hora esauta.
+`Aldera` = «alredor de», «sobre». Bien útil cuando nun quies comprometete con una hora exauta.
 
-## Aceutar y refugar
+## Aceptar y refugar
 
 | Sí | Non / escusa |
 |---|---|
@@ -120,7 +153,7 @@ Frases típiques pa concretar:
 - **Lanpetuta nago.** — Toi ocupáu/ada.
 - **Gauza asko egin behar ditut.** — Tengo munches coses que facer.
 
-## Mini-diálogu
+## Minidiálogu
 
 > — *Aizu, kafe bat hartuko dugu bihar?*
 >
@@ -138,6 +171,6 @@ Cuando refugues daqué, lo natural ye dar la razón col sufixu **-elako** (porqu
 
 - *Ezin dut, lan egin behar du**dalako**.* — Nun puedo, **porque** tengo que trabayar.
 - *Ezin dut, gaixorik nago**elako**.* — Nun puedo, **porque** toi malu.
-- *Ezin dut, amarekin egon behar du**dalako**.* — Nun puedo, **porque** tengo que tar cola mio madre.
+- *Ezin dut, amarekin egon behar du**dalako**.* — Nun puedo, **porque** tengo que tar con ma.
 
-> **Nota cultural:** nos euskaltegis y entornos formales resérvase *hitzordua* pa cites concretes (médicu, peluquería). Ente amigos ye más natural usar *geratu* + *-ekin*, ensin la palabra *hitzordua* sacante que quieras destacar que ye daqué formal.
+> **Nota cultural:** nos euskaltegis y entornos formales acútase *hitzordua* pa cites concretes (médicu, peluquería). Ente amigos ye más natural usar *geratu* + *-ekin*, ensin la pallabra *hitzordua* sacantes que quieras sorrayar que ye daqué formal.

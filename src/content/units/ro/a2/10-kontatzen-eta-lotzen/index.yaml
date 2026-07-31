@@ -1,0 +1,13 @@
+id: a2-kontatzen
+code: 10-kontatzen-eta-lotzen
+level: a2
+title: Kontatzen eta lotzen — a povesti, a lega și a recapitula
+order: 10
+description: Biografii, întrebări indirecte, propoziții temporale și de scop, și recapitularea integratoare a nivelului.
+estimatedMinutes: 65
+covers:
+- a2-biography
+- a2-indirect-questions
+- a2-time-clauses
+- a2-purpose-clauses
+- a2-exam-review

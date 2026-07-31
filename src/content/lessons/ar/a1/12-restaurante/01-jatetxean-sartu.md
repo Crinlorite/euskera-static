@@ -7,62 +7,91 @@ level: a1
 order: 1
 title: الوصول إلى المطعم (jatetxean sartu)
 estimatedMinutes: 10
-covers: [restaurant-vocab, courtesy, greetings]
+covers:
+- restaurant-vocab
+- courtesy
+- greetings
 exercises:
-  - id: ex-jat1-mc1
-    type: multiple-choice
-    prompt: 'كيف تطلب طاولة لشخصين؟'
-    options: ['Bi mahaiak, mesedez', 'Mahai bat bi lagunentzat, mesedez', 'Mahai bi lagunak, mesedez', 'Bi lagun mahaian']
-    answer: 1
-    explanation: '"Mahai bat bi lagunentzat" = "طاولة لشخصين". *-entzat* تدل على المُرسَل إليه في صيغة الجمع.'
-  - id: ex-jat1-mc2
-    type: multiple-choice
-    prompt: '"Erreserba egin nahi dut" تعني…'
-    options: [أريد أن أدفع, أريد أن أحجز, هل يوجد مكان؟, أنا جائع]
-    answer: 1
-    explanation: '*Erreserba egin* — "إجراء حجز". *Nahi dut* — "أريد".'
-  - id: ex-jat1-fb1
-    type: fill-in-blank
-    prompt: 'يسأل النادل: "باسم مَن؟" = "___ izenean?"'
-    answers: [Noren, noren]
-    explanation: '*Noren?* — صيغة المضاف إليه الاستفهامية: "لمَن؟". *Noren izenean?* هي العبارة المعتادة.'
-  - id: ex-jat1-fb2
-    type: fill-in-blank
-    prompt: '"لِغد مساءً" = Bihar ___'
-    answers: [gauerako, Gauerako]
-    explanation: '*Gau* (ليل) + *-rako* (لِـ) ← *gauerako* — "للمساء".'
-  - id: ex-jat1-fc
-    type: flashcards
-    cards:
-      - { eu: jatetxea, es: مطعم }
-      - { eu: erretegia, es: 'مشواة، مشوى' }
-      - { eu: sagardotegia, es: حانة عصير التفاح }
-      - { eu: pizzeria, es: مطعم بيتزا }
-      - { eu: hanburgeseria, es: مطعم همبرغر }
-      - { eu: elkartea, es: 'جمعية للطهي وتناول الطعام' }
-      - { eu: mahaia, es: طاولة }
-      - { eu: zerbitzaria, es: 'نادل، نادلة' }
-      - { eu: bezeroa, es: زبون }
-      - { eu: erreserba, es: حجز }
-      - { eu: 'Mahai bat, mesedez', es: 'طاولة، من فضلك' }
-      - { eu: 'Lau lagunentzat', es: 'لأربعة أشخاص' }
-      - { eu: 'Noren izenean?', es: 'باسم مَن؟' }
-      - { eu: 'Bihar gauerako', es: 'لِغد مساءً' }
+- id: ex-jat1-mc1
+  type: multiple-choice
+  prompt: كيف تطلب طاولة لشخصين؟
+  options:
+  - Bi mahaiak, mesedez
+  - Mahai bat bi lagunentzat, mesedez
+  - Mahai bi lagunak, mesedez
+  - Bi lagun mahaian
+  answer: 1
+  explanation: '"Mahai bat bi lagunentzat" = "طاولة لشخصين". اللاحقة *-entzat* تشير إلى المستفيد بصيغة الجمع.'
+- id: ex-jat1-mc2
+  type: multiple-choice
+  prompt: '"Erreserba egin nahi dut" تعني...'
+  options:
+  - أريد أن أدفع
+  - أريد أن أحجز
+  - هل يوجد مكان؟
+  - أنا جائع
+  answer: 1
+  explanation: '*Erreserba egin* — "إجراء حجز". *Nahi dut* — "أريد".'
+- id: ex-jat1-fb1
+  type: fill-in-blank
+  prompt: 'يسأل النادل: "باسم من؟" = "___ izenean?"'
+  answers:
+  - Noren
+  - noren
+  explanation: '*Noren?* — صيغة المضاف إليه الاستفهامية: "لمن؟". *Noren izenean?* هي الصيغة المعتادة.'
+- id: ex-jat1-fb2
+  type: fill-in-blank
+  prompt: '"لليلة الغد" = Bihar ___'
+  answers:
+  - gauerako
+  - Gauerako
+  explanation: '*Gau* (ليل) + *-rako* (لـ) → *gauerako* — "لليل".'
+- id: ex-jat1-fc
+  type: flashcards
+  cards:
+  - eu: jatetxea
+    es: مطعم
+  - eu: erretegia
+    es: مطعم شواء، مشواة
+  - eu: sagardotegia
+    es: سيديريا (مكان شرب عصير التفاح)
+  - eu: pizzeria
+    es: مطعم بيتزا
+  - eu: hanburgeseria
+    es: مطعم همبرغر
+  - eu: elkartea
+    es: جمعية تذوق الطعام
+  - eu: mahaia
+    es: طاولة
+  - eu: zerbitzaria
+    es: نادل، نادلة
+  - eu: bezeroa
+    es: زبون
+  - eu: erreserba
+    es: حجز
+  - eu: Mahai bat, mesedez
+    es: طاولة، من فضلك
+  - eu: Lau lagunentzat
+    es: لأربعة أشخاص
+  - eu: Noren izenean?
+    es: باسم من؟
+  - eu: Bihar gauerako
+    es: لليلة الغد
 ---
 
-الخطوة الأولى عند الذهاب إلى مطعم: الدخول، إلقاء التحية، طلب طاولة أو تأكيد الحجز. إليك العبارات الأساسية.
+الخطوة الأولى عند الذهاب إلى مطعم: الدخول، إلقاء التحية، طلب طاولة أو تأكيد الحجز. إليك الصيغ الأساسية.
 
-## أنواع الأماكن التي يُؤكل فيها
+## أنواع أماكن تناول الطعام
 
-| Euskera | العربية |
+| اللغة الباسكية | العربية |
 |---|---|
 | *jatetxea* | مطعم |
-| *erretegia* | مشواة / مشوى |
-| *sagardotegia* | حانة عصير التفاح |
+| *erretegia* | مطعم شواء / مشواة |
+| *sagardotegia* | سيديريا (مكان شرب عصير التفاح) |
 | *taberna* | حانة |
 | *pizzeria* | مطعم بيتزا |
 | *hanburgeseria* | مطعم همبرغر |
-| *elkartea* | جمعية للطهي وتناول الطعام |
+| *elkartea* | جمعية تذوق الطعام |
 
 ## شخصيات المشهد
 
@@ -70,7 +99,7 @@ exercises:
 - **Zerbitzaria** — النادل/النادلة
 - **Mahaia** — الطاولة
 
-## الوصول دون حجز
+## الوصول بدون حجز
 
 > — *Egun on! Mahai bat bi lagunentzat, mesedez.*
 >
@@ -84,31 +113,31 @@ exercises:
 
 ## إجراء حجز
 
-عبر الهاتف أو حضوريًا، هناك حوار شبه ثابت:
+عبر الهاتف أو بالحضور الشخصي، يوجد سيناريو شبه ثابت:
 
 > — *Egun on! "Kutixi" jatetxea al da?* — هل هذا مطعم "Kutixi"؟
 >
 > — *Bai, hala da. Zer nahi duzu?* — نعم. ماذا تريد؟
 >
-> — *Erreserba bat egin nahi dut, bihar gauerako.* — أريد أن أحجز، لِغد مساءً.
+> — *Erreserba bat egin nahi dut, bihar gauerako.* — أريد أن أحجز، لليلة الغد.
 >
-> — *Zenbat lagunentzat?* — لكم شخصًا؟
+> — *Zenbat lagunentzat?* — لكم شخص؟
 >
 > — *Lau lagun izango gara.* — سنكون أربعة أشخاص.
 >
-> — *Zer ordutan afaldu nahi duzue?* — في أي ساعة تريدون أن تتعشّوا؟
+> — *Zer ordutan afaldu nahi duzue?* — في أي ساعة تريدون تناول العشاء؟
 >
 > — *Bederatziak aldera.* — حوالي التاسعة.
 >
-> — *Noren izenean?* — باسم مَن؟
+> — *Noren izenean?* — باسم من؟
 >
 > — *Mikelen izenean.* — باسم Mikel.
 
 ## عبارات ستسمعها
 
-- **Itxaron pixka bat, mesedez.** — انتظر قليلًا، من فضلك.
-- **Jarraitu mesedez.** — تفضّلوا بالدخول، من فضلكم (مع الإشارة إلى الطاولة).
-- **Hemen daukazue.** — ها هو ذا أمامكم.
+- **Itxaron pixka bat, mesedez.** — انتظر قليلاً، من فضلك.
+- **Jarraitu mesedez.** — تفضلوا من هنا من فضلكم (مشيراً إلى الطاولة).
+- **Hemen daukazue.** — ها هي لديكم.
 - **Karta nahi duzue?** — هل تريدون قائمة الطعام؟
 
-> **ملاحظة ثقافية:** الـ **elkarteak** أو جمعيات الطهي وتناول الطعام هي أماكن نموذجية في Euskal Herria حيث يُعِدّ الطعام ويُنظّف المكانَ جماعةُ الأعضاء أنفسهم. لا تعمل كمطاعم عامة، لكن من المفيد معرفة وجودها لأنك ستسمع هذه الكلمة كثيرًا جدًا.
+> **ملاحظة ثقافية:** الـ **elkarteak** أو جمعيات تذوق الطعام هي أماكن نموذجية في بلاد الباسك حيث يقوم أعضاء الجمعية أنفسهم بإعداد الطعام والتنظيف. هي لا تعمل كمطاعم عامة، ولكن من الجيد معرفة وجودها لأنك ستسمع هذه الكلمة كثيراً.

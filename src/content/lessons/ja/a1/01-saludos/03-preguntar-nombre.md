@@ -7,28 +7,40 @@ level: a1
 order: 3
 title: 名前をたずねる
 estimatedMinutes: 10
-covers: [introductions]
+covers:
+- introductions
 exercises:
-  - id: ex-03-pn-mc1
-    type: multiple-choice
-    prompt: 「お名前は何ですか？」はバスク語でどう言いますか？
-    options: ["Zein da zure izena?", "Nongoa zara?", "Zer moduz?", "Egun on?"]
-    answer: 0
-    explanation: '"Zein" は「どれ」を意味し、"izena" は「名前」を意味します。直訳すると「あなたの名前はどれですか？」となります。'
-  - id: ex-03-pn-fb1
-    type: fill-in-blank
-    prompt: 'Nire izena Maialen ___.'
-    answers: [da]
-    explanation: '"Da" は "izan"（～である）の三人称の形です。ここでの主語は "izena" です。'
-  - id: ex-03-pn-fc
-    type: flashcards
-    cards:
-      - { eu: izen, es: 名前 }
-      - { eu: nire, es: 私の }
-      - { eu: zure, es: あなたの }
-      - { eu: bere, es: 彼／彼女の }
-      - { eu: 'Zein da zure izena?', es: お名前は何ですか？ }
-      - { eu: Nire izena Egoitz da, es: 私の名前はEgoitzです }
+- id: ex-03-pn-mc1
+  type: multiple-choice
+  prompt: 「お名前は何ですか？」はバスク語でどう言いますか？
+  options:
+  - Zein da zure izena?
+  - Nongoa zara?
+  - Zer moduz?
+  - Egun on?
+  answer: 0
+  explanation: '"Zein" は「どれ」、「izena」は「名前」を意味します。バスク語では「名前は何ですか？」と尋ねるのに、「どれ」を意味する "Zein" を使います。'
+- id: ex-03-pn-fb1
+  type: fill-in-blank
+  prompt: Nire izena Maialen ___.
+  answers:
+  - da
+  explanation: '"Da" は "izan"（～である）の三人称の形です。ここでの主語は "izena" です。'
+- id: ex-03-pn-fc
+  type: flashcards
+  cards:
+  - eu: izen
+    es: 名前
+  - eu: nire
+    es: 私の
+  - eu: zure
+    es: あなたの
+  - eu: bere
+    es: 彼／彼女の
+  - eu: Zein da zure izena?
+    es: お名前は何ですか？
+  - eu: Nire izena Egoitz da
+    es: 私の名前はEgoitzです
 ---
 
 名前をたずねるには、同じくらい正しい言い方が二つあります。
@@ -39,13 +51,13 @@ exercises:
 ## 構造
 
 - **Zein** = どれ／何（選択をたずねる疑問で）
-- **izena** = 名前（語末の `-a` は冠詞「その」にあたります）
+- **izena** = 名前（語末の `-a` は定冠詞です）
 - **zure** = あなたの／あなたのもの
 - **da** = ～である
 
 ## 答え方
 
-同じくらい正しい二つの選択肢があります。
+答え方は2通りあり、どちらも正しく自然です。
 
 1. **Nire izena Egoitz da.** —「私の名前はEgoitzです。」
 2. **Egoitz naiz.** —「私はEgoitzです。」（前のレッスンのパターン）

@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — 은행, 서류 업무, 전화
+order: 8
+description: '실생활: 은행과 우체국, 시청, 전화 통화, 기술 및 상점 환불.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

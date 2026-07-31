@@ -5,86 +5,126 @@ code: 03-nora-zoaz
 unit: 06-direcciones
 level: a1
 order: 3
-title: Entà on vas? — eth cas NORA
+title: Tà on vas? — eth cas NORA
 estimatedMinutes: 12
-covers: [nora-allative, movement-verbs, places-town]
+covers:
+- nora-allative
+- movement-verbs
+- places-town
 exercises:
-  - id: ex-nz-mc1
-    type: multiple-choice
-    prompt: 'Cossí se ditz "Vau tà Bilbo"?'
-    options: ["Bilbon noa", "Bilbora noa", "Bilbotik noa", "Bilboan noa"]
-    answer: 1
-    explanation: '"Bilbo" + sufix -ra (cas NORA) = "Bilbora", "tà Bilbo".'
-  - id: ex-nz-fb1
-    type: fill-in-blank
-    prompt: 'Vau tà casa = Etxe___ noa.'
-    answers: [ra]
-    explanation: '"Etxe" + ra = "etxera" (tà casa). Eth sufix -ra ei eth cas NORA.'
-  - id: ex-nz-fb2
-    type: fill-in-blank
-    prompt: 'Vau tà Madrid = Madril___ noa.'
-    answers: [era]
-    explanation: 'Dempús de consonanta, eth sufix intercale -e-: "Madril" → "Madrilera".'
-  - id: ex-nz-mc2
-    type: multiple-choice
-    prompt: 'Qué vò díder "Eskolara doa"?'
-    options: ["Ei ena escòla", "Va tara escòla", "Ven dera escòla", "Ei dera escòla"]
-    answer: 1
-    explanation: '"Eskola" + ra (cas NORA) = "eskolara" (tara escòla); "doa" = "va".'
-  - id: ex-nz-fb3
-    type: fill-in-blank
-    prompt: 'Anam tath parc = Parke___ goaz.'
-    answers: [ra]
-  - id: ex-nz-mc3
-    type: multiple-choice
-    prompt: 'Qué vò díder "Zertara zoaz tabernara?"'
-    options: ["Qui va tath bar?", "De quin bar vies?", "A qué vas tath bar?", "On ei eth bar?"]
-    answer: 2
-    explanation: '"Zertara" = a qué (a hèr qué); tipicament se respon damb vèrb + -tzera: "kafe bat hartzera" (a préner un cafè).'
-  - id: ex-nz-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nora?', es: Entà on? }
-      - { eu: 'Nora zoaz?', es: Entà on vas? }
-      - { eu: 'Nora doa?', es: Entà on va? }
-      - { eu: etxera, es: tà casa }
-      - { eu: eskolara, es: tara escòla }
-      - { eu: euskaltegira, es: tath euskaltegi }
-      - { eu: tabernara, es: tath bar }
-      - { eu: lanera, es: tath trabalh }
-      - { eu: hondartzara, es: tara plaja }
-      - { eu: mendira, es: tath mont }
-      - { eu: Bilbora, es: tà Bilbo }
-      - { eu: Iruñera, es: tà Iruña }
-      - { eu: Madrilera, es: tà Madrid }
-      - { eu: 'Zertara?', es: A qué? }
-      - { eu: erostera, es: a crompar }
-      - { eu: bazkaltzera, es: a minjar }
-      - { eu: ikastera, es: a estudiar }
-  - id: ex-nz-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Nora zoaz?', es: 'Entà on vas?' }
-      - { eu: Etxera noa, es: 'Vau tà casa' }
-      - { eu: Eskolara noa, es: 'Vau tara escòla' }
-      - { eu: 'Zertara zoaz?', es: 'A qué vas?' }
-      - { eu: Erostera, es: 'A crompar' }
+- id: ex-nz-mc1
+  type: multiple-choice
+  prompt: Com se ditz "Voy a Bilbao"?
+  options:
+  - Bilbon noa
+  - Bilbora noa
+  - Bilbotik noa
+  - Bilboan noa
+  answer: 1
+  explanation: '"Bilbo" + sufix -ra (cas NORA) = "Bilbora", "tà Bilbao".'
+- id: ex-nz-fb1
+  type: fill-in-blank
+  prompt: Voi tà casa = Etxe___ noa.
+  answers:
+  - ra
+  explanation: '"Etxe" + ra = "etxera" (tà casa). Eth sufix -ra ei eth cas NORA.'
+- id: ex-nz-fb2
+  type: fill-in-blank
+  prompt: Voi tà Madrid = Madril___ noa.
+  answers:
+  - era
+  explanation: 'Darrèr de consonanta, eth sufix intercale -e-: "Madril" → "Madrilera".'
+- id: ex-nz-mc2
+  type: multiple-choice
+  prompt: Qué signifique "Eskolara doa"?
+  options:
+  - Ei ena escòla
+  - Va tà era escòla
+  - Ven dera escòla
+  - Ei dera escòla
+  answer: 1
+  explanation: '"Eskola" + ra (cas NORA) = "eskolara" (tà era escòla); "doa" = "va".'
+- id: ex-nz-fb3
+  type: fill-in-blank
+  prompt: Anam ath parc = Parke___ goaz.
+  answers:
+  - ra
+- id: ex-nz-mc3
+  type: multiple-choice
+  prompt: Qué vò díder "Zertara zoaz tabernara?"
+  options:
+  - Qui va ath bar?
+  - De quin bar vens?
+  - Tà qué vas ath bar?
+  - A on ei eth bar?
+  answer: 2
+  explanation: '"Zertara" = tà qué (tà hèr qué); tipicament se respon damb un vèrb + -tzera: "kafe bat hartzera" (tà préner un cafè).'
+- id: ex-nz-fc
+  type: flashcards
+  cards:
+  - eu: Nora?
+    es: Tà on?
+  - eu: Nora zoaz?
+    es: Tà on vas?
+  - eu: Nora doa?
+    es: Tà on va?
+  - eu: etxera
+    es: tà casa
+  - eu: eskolara
+    es: tà era escòla
+  - eu: euskaltegira
+    es: ath euskaltegi
+  - eu: tabernara
+    es: ath bar
+  - eu: lanera
+    es: ath trabalh
+  - eu: hondartzara
+    es: tà era platja
+  - eu: mendira
+    es: tà era montanha
+  - eu: Bilbora
+    es: tà Bilbao
+  - eu: Iruñera
+    es: tà Pamplona
+  - eu: Madrilera
+    es: tà Madrid
+  - eu: Zertara?
+    es: Tà qué?
+  - eu: erostera
+    es: tà comprar
+  - eu: bazkaltzera
+    es: tà minjar
+  - eu: ikastera
+    es: tà estudiar
+- id: ex-nz-mp
+  type: match-pairs
+  pairs:
+  - eu: Nora zoaz?
+    es: Tà on vas?
+  - eu: Etxera noa
+    es: Voy a casa
+  - eu: Eskolara noa
+    es: Voi tà era escòla
+  - eu: Zertara zoaz?
+    es: Tà qué vas?
+  - eu: Erostera
+    es: A comprar
 ---
 
-Eth **cas NORA** (tanben aperat *adlatiu*) marque **eth destin** d'un movement: entà on vas. En occitan se tradusís normaument damb era preposicion **"tà"** ("vau *tà* casa", "*tà* Bilbo", "*tath* parc").
+Eth **cas NORA** (tanben nomentat *adlatiu*) marque **era destinacion** d'un moviment: tà on vas. En castelhan se tradusís normaument damb era preposicion **"a"** ("voy *a* casa", "*a* Bilbao", "*al* parque").
 
-## Era pregunta: Nora?
+## Era qüestion: Nora?
 
-| Pregunta | Occitan |
+| Qüestion | Castelhan |
 |---|---|
-| ***Nora* zoaz?** | Entà on vas? |
-| ***Nora* doa?** | Entà on va? |
-| ***Nora* goaz?** | Entà on anam? |
-| ***Nora* doaz?** | Entà on van? |
+| ***Nora* zoaz?** | ¿Adónde vas? |
+| ***Nora* doa?** | ¿Adónde va? |
+| ***Nora* goaz?** | ¿Adónde vamos? |
+| ***Nora* doaz?** | ¿Adónde van? |
 
 ## Eth sufix: -ra
 
-Entà respóner, ajustam **`-ra`** ath lòc de destin. Eth patron s'adapte segon cossí s'acabe era paraula:
+Entà respóner, ajustam **`-ra`** ath lòc de destinacion. Eth patron s'adapte segons coma acabe eth mot:
 
 | Finau deth lòc | Patron | Exemple |
 |---|---|---|
@@ -94,58 +134,58 @@ Entà respóner, ajustam **`-ra`** ath lòc de destin. Eth patron s'adapte segon
 
 ## Taula d'exemples
 
-| Lòc | Forma -ra | Frasa modèl |
+| Lòc | Fòrma -ra | Frasa modèle |
 |---|---|---|
-| etxe (casa) | **etxera** | *Etxera noa.* — Vau tà casa. |
-| eskola | **eskolara** | *Eskolara doaz.* — Van tara escòla. |
-| euskaltegi | **euskaltegira** | *Euskaltegira goaz.* — Anam tath euskaltegi. |
-| taberna | **tabernara** | *Tabernara zoaz?* — Vas tath bar? |
-| lan (trabalh) | **lanera** | *Lanera nator.* — Vengui tath trabalh. (parièr -era dempús de consonanta) |
-| Bilbo | **Bilbora** | *Bilbora doa.* — Va tà Bilbo. |
-| Donostia | **Donostiara** | *Donostiara goaz asteburuan.* — Anam tà Donostia eth cap de setmana. |
+| etxe (casa) | **etxera** | *Etxera noa.* — Voi tà casa. |
+| eskola | **eskolara** | *Eskolara doaz.* — Van tà era escòla. |
+| euskaltegi | **euskaltegira** | *Euskaltegira goaz.* — Anam ath euskaltegi. |
+| taberna | **tabernara** | *Tabernara zoaz?* — Vas ath bar? |
+| lan (trabalh) | **lanera** | *Lanera nator.* — Vengui ath trabalh. (parierament -era darrèr de consonanta) |
+| Bilbo | **Bilbora** | *Bilbora doa.* — Va tà Bilbao. |
+| Donostia | **Donostiara** | *Donostiara goaz asteburuan.* — Anam tà Donostia eth fin de setmana. |
 | Madril | **Madrilera** | *Madrilera doaz.* — Van tà Madrid. |
-| mendi (mont) | **mendira** | *Mendira goaz larunbatean.* — Anam tath mont eth dissabte. |
+| mendi (montanha) | **mendira** | *Mendira goaz larunbatean.* — Anam tà era montanha eth dissabte. |
 
-> **Mini-truc:** *non* → *nora* seguissen eth madeish patron que *kale-an* → *kale-ra*. Se sabes formar *Bilbon* (en Bilbo), ja sabes formar *Bilbora* (tà Bilbo): cambia *-n* per *-ra*. Se sabes formar *Madrilen*, sabes formar *Madrilera*.
+> **Mini-truc:** *non* → *nora* seguissen eth madeish patron que *kale-an* → *kale-ra*. Se sabs formar *Bilbon* (en Bilbao), ja sabs formar *Bilbora* (tà Bilbao): cambia *-n* per *-ra*. Se sabs formar *Madrilen*, sabs formar *Madrilera*.
 
-## Zertara? — "A qué?"
+## Zertara? — "Tà qué?"
 
-Entà preguntar a **qué** vas (damb quin objectiu), s'emplegue **Zertara zoaz?** e se respon damb un vèrb + sufix **`-tzera`**:
+Entà demandar tà **qué** vas (damb quin objectiu), s'use **Zertara zoaz?** e se respon damb un vèrb + sufix **`-tzera`**:
 
-| Pregunta | Responsa |
+| Qüestion | Responsa |
 |---|---|
-| *Zertara zoaz tabernara?* | *Kafea hartzera.* — A préner cafè. |
-| *Zertara doa Kepa supermerkatura?* | *Erostera.* — A crompar. |
-| *Zertara goaz mendira?* | *Ibiltzera.* — A caminar. |
-| *Zertara doaz hondartzara?* | *Igeri egitera.* — A nadar. |
+| *Zertara zoaz tabernara?* | *Kafea hartzera.* — Tà préner un cafè. |
+| *Zertara doa Kepa supermerkatura?* | *Erostera.* — Tà comprar. |
+| *Zertara goaz mendira?* | *Ibiltzera.* — Tà caminar. |
+| *Zertara doaz hondartzara?* | *Igeri egitera.* — Tà nadar. |
 
-> **Patron:** *(vèrb en participi) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Ei basicament eth "a + infinitiu" der occitan.
+> **Patron:** *(vèrb en participi) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Ei basicament eth "a + infinitiu" deth castelhan.
 
 ## Mini-convèrsa
 
-> — *Nora zoaz, Maialen?* — Entà on vas, Maialen?
+> — *Nora zoaz, Maialen?* — Tà on vas, Maialen?
 >
-> — *Euskaltegira noa.* — Vau tath euskaltegi.
+> — *Euskaltegira noa.* — Voi ath euskaltegi.
 >
-> — *Eta zertara?* — E a qué?
+> — *Eta zertara?* — E tà qué?
 >
-> — *Klasera, noski! Euskara ikastera.* — A classa, plan. A apréner euskera.
+> — *Klasera, noski! Euskara ikastera.* — Tà classe, clar. Tà apréner basc.
 >
 > — *Eta gero?* — E dempús?
 >
-> — *Tabernara goaz lagunekin pote bat hartzera.* — Anam tath bar damb es amics a préner quauquarren.
+> — *Tabernara goaz lagunekin pote bat hartzera.* — Anam ath bar damb es amics tà préner quauquarren.
 
 ## Advèrbis direccionaus
 
-Es demostratius tanben an era sua forma NORA:
+Es demostratius tanben an era sua fòrma NORA:
 
 | NON (locatiu) | NORA (direccion) | Significat |
 |---|---|---|
-| hemen | **hona** | de cap ací |
-| hor | **horra** | de cap aquiu |
-| han | **hara** | de cap alà |
+| hemen | **hona** | tà ací |
+| hor | **horra** | tà aí |
+| han | **hara** | tà alià |
 
-- **Hona zatoz?** — Vies ací?
-- **Hara doaz.** — Van de cap alà.
+- **Hona zatoz?** — Vens ací?
+- **Hara doaz.** — Van tà alià.
 
-> **Brembader important:** confon a fòrça gent ath començament: *etxean* (en casa) ≠ *etxera* (tà casa) ≠ *etxetik* (de casa, leçon 04). Es tres se semblen pr'amor qu'totes parlen de "casa", mès era informacion ei completament diferenta. Marca mentaument: **NON = -an (èster)**, **NORA = -ra (anar)**, **NONDIK = -tik (vénguer, leçon 4)**.
+> **Remembrador important:** confon a fòrça gent ath començament: *etxean* (en casa) ≠ *etxera* (tà casa) ≠ *etxetik* (de casa, leçon 04). Es tres s'assemblen pr'amor que totes parlen de "casa", mès era informacion ei totaument diferenta. Mèrque mentaument: **NON = -an (èster)**, **NORA = -ra (anar)**, **NONDIK = -tik (vier, leçon 4)**.

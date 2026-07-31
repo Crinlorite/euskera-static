@@ -7,87 +7,122 @@ level: a1
 order: 5
 title: Robienie zakupów (lekcja podsumowująca)
 estimatedMinutes: 12
-covers: [shopping-dialogue, shops, prices, quantities-units, partitive-rik]
+covers:
+- shopping-dialogue
+- shops
+- prices
+- quantities-units
+- partitive-rik
 exercises:
-  - id: ex-eros-mc1
-    type: multiple-choice
-    prompt: "Jesteś w warzywniaku. Jak poprosisz o pół kilo jabłek?"
-    options: ['Sagar erdi kilo bat, mesedez', 'Kilo erdi sagar, mesedez', 'Erdia bat kilo sagar', 'Sagarra erdi mesedez']
-    answer: 1
-    explanation: "Wzorzec ilość + produkt bez rodzajnika: **kilo erdi sagar** (pół kilo jabłek)."
-  - id: ex-eros-mc2
-    type: multiple-choice
-    prompt: '"Nie ma chleba" mówi się…'
-    options: [Ez dago ogia, Ez dago ogirik, Ogia ez du, Ez ogia da]
-    answer: 1
-    explanation: "Z przeczeniem + dopełnienie nieokreślone używa się partytywu *-rik*: **ogi-rik**."
-  - id: ex-eros-fb1
-    type: fill-in-blank
-    prompt: '"Ile to wszystko?" = Zenbat da ___?'
-    answers: [dena]
-    explanation: '*Dena* znaczy "wszystko".'
-  - id: ex-eros-fb2
-    type: fill-in-blank
-    prompt: 'Aby zapytać, czy mają jakiś produkt: "Czy macie mleko?" = Esne___ ba(d)aukazue?'
-    answers: [rik]
-    explanation: "Pytanie o istnienie z dopełnieniem nieokreślonym = partytyw **-rik** (esne**rik**)."
-  - id: ex-eros-fc
-    type: flashcards
-    cards:
-      - { eu: erosketa-zerrenda, es: lista zakupów }
-      - { eu: 'Zer behar dugu?', es: "Czego potrzebujemy?" }
-      - { eu: 'Ez dago ogirik', es: Nie ma chleba }
-      - { eu: 'Esnerik ba(d)aukazue?', es: "Czy macie mleko?" }
-      - { eu: 'Bai, badago', es: "Tak, jest" }
-      - { eu: 'Ez, ez dago', es: "Nie, nie ma" }
-      - { eu: 'Erosketak egitera noa', es: Idę zrobić zakupy }
-      - { eu: barazkiak, es: warzywa }
-      - { eu: frutak, es: owoce }
-      - { eu: haragia, es: mięso }
-      - { eu: arraina, es: ryba }
-      - { eu: esnea, es: mleko }
-      - { eu: ogia, es: chleb }
-      - { eu: arrautzak, es: jajka }
-  - id: ex-eros-mp
-    type: match-pairs
-    pairs:
-      - { eu: harategia, es: sklep mięsny }
-      - { eu: okindegia, es: piekarnia }
-      - { eu: arrandegia, es: sklep rybny }
-      - { eu: 'Zenbat da?', es: Ile to kosztuje? }
-      - { eu: 'Hartuko dut', es: Wezmę to }
-      - { eu: 'Besterik?', es: Coś jeszcze? }
+- id: ex-eros-mc1
+  type: multiple-choice
+  prompt: Jesteś w warzywniaku. Jak poprosisz o pół kilo jabłek?
+  options:
+  - Sagar erdi kilo bat, mesedez
+  - Kilo erdi sagar, mesedez
+  - Erdia bat kilo sagar
+  - Sagarra erdi mesedez
+  answer: 1
+  explanation: 'Schemat: ilość + produkt bez rodzajnika: **kilo erdi sagar** (pół kilo jabłek).'
+- id: ex-eros-mc2
+  type: multiple-choice
+  prompt: Jak powiesz „Nie ma chleba”?
+  options:
+  - Ez dago ogia
+  - Ez dago ogirik
+  - Ogia ez du
+  - Ez ogia da
+  answer: 1
+  explanation: 'W przeczeniach z dopełnieniem nieokreślonym używa się partytywu *-rik*: **ogi-rik**.'
+- id: ex-eros-fb1
+  type: fill-in-blank
+  prompt: „Ile za wszystko?” = Zenbat da ___?
+  answers:
+  - dena
+  explanation: '*Dena* znaczy „wszystko”.'
+- id: ex-eros-fb2
+  type: fill-in-blank
+  prompt: 'Aby zapytać o dostępność produktu: „Czy macie mleko?” = Esne___ ba(d)aukazue?'
+  answers:
+  - rik
+  explanation: Pytanie o istnienie z dopełnieniem nieokreślonym = partytyw **-rik** (esne**rik**).
+- id: ex-eros-fc
+  type: flashcards
+  cards:
+  - eu: erosketa-zerrenda
+    es: lista zakupów
+  - eu: Zer behar dugu?
+    es: Czego potrzebujemy?
+  - eu: Ez dago ogirik
+    es: Nie ma chleba
+  - eu: Esnerik ba(d)aukazue?
+    es: Macie mleko?
+  - eu: Bai, badago
+    es: Tak, jest
+  - eu: Ez, ez dago
+    es: Nie, nie ma
+  - eu: Erosketak egitera noa
+    es: Idę na zakupy
+  - eu: barazkiak
+    es: warzywa
+  - eu: frutak
+    es: owoce
+  - eu: haragia
+    es: mięso
+  - eu: arraina
+    es: ryby
+  - eu: esnea
+    es: mleko
+  - eu: ogia
+    es: chleb
+  - eu: arrautzak
+    es: jajka
+- id: ex-eros-mp
+  type: match-pairs
+  pairs:
+  - eu: harategia
+    es: sklep mięsny
+  - eu: okindegia
+    es: piekarnia
+  - eu: arrandegia
+    es: sklep rybny
+  - eu: Zenbat da?
+    es: Ile to kosztuje?
+  - eu: Hartuko dut
+    es: Wezmę to
+  - eu: Besterik?
+    es: Coś jeszcze?
 ---
 
-Ta lekcja łączy to, czego nauczyliśmy się w tym dziale. Ułożymy **listę zakupów**, rozdzielimy produkty według sklepów i odegramy mini-dialog.
+Ta lekcja podsumowuje to, czego nauczyliśmy się w tym rozdziale. Stworzymy **listę zakupów**, przyporządkujemy produkty do sklepów i przeprowadzimy symulację krótkiego dialogu.
 
 ## Lista zakupów (erosketa-zerrenda)
 
-Zanim wyjdziemy, zaglądamy do lodówki (*hozkailua*) i do szafki (*armairua*). To, czego brakuje, zapisujemy. Kilka typowych produktów:
+Przed wyjściem sprawdzamy lodówkę (*hozkailua*) i szafkę (*armairua*). Zapisujemy to, czego brakuje. Oto kilka typowych produktów:
 
 | Kategoria | Produkty |
 |---|---|
 | **Barazkiak** (warzywa) | tipula, letxuga, tomatea, piperra, baratxuria |
 | **Frutak** (owoce) | sagarra, banana, laranja, mahatsa, marrubia |
 | **Haragia** (mięso) | oilaskoa, txuleta, urdaiazpikoa, txorizoa |
-| **Arraina** (ryba) | legatza, antxoak, ganbak, bakailaoa |
+| **Arraina** (ryby) | legatza, antxoak, ganbak, bakailaoa |
 | **Esnekiak** (nabiał) | esnea, gazta, jogurta, gurina |
 | **Bestelakoak** (inne) | ogia, arrautzak, olioa, ozpina, gatza |
 
-## Pytanie, czy coś jest (z `-rik`)
+## Pytanie o dostępność (z `-rik`)
 
-Aby zapytać, czy sklep ma dany produkt, użyj **partytywu `-rik`**:
+Aby zapytać, czy w sklepie jest dany produkt, użyj **partytywu `-rik`**:
 
 - *Ogi**rik** baduzu?* — Masz chleb?
 - *Sagar**rik** ba al duzue?* — Macie jabłka?
 - *Esne**rik** behar dugu.* — Potrzebujemy mleka.
 
-A żeby powiedzieć, że NIE ma:
+A żeby powiedzieć, że czegoś NIE ma:
 
 - *Ez dago ogi**rik**.* — Nie ma chleba.
 - *Ez daukat sagar**rik**.* — Nie mam jabłek.
 
-> Partytyw `-rik` używany jest zawsze przy ilościach nieokreślonych oraz w przeczeniu. Forma produktu występuje bez rodzajnika (*ogi**rik***, a nie *ogiarik*).
+> Partytyw `-rik` jest zawsze używany przy nieokreślonych ilościach i w przeczeniach. Forma produktu występuje bez rodzajnika (*ogi**rik***, nie *ogiarik*).
 
 ## Rozdzielanie zakupów między sklepy
 
@@ -95,17 +130,17 @@ Typowa rozmowa podczas planowania:
 
 > — *Non erosiko dugu ogia?* — Gdzie kupimy chleb?
 >
-> — *Okindegian, jakina!* — W piekarni, jasne!
+> — *Okindegian, jakina!* — W piekarni, oczywiście!
 >
-> — *Eta arraina?* — A ryba?
+> — *Eta arraina?* — A ryby?
 >
-> — *Auzoko arrandegian.* — W sklepie rybnym na osiedlu.
+> — *Auzoko arrandegian.* — W osiedlowym sklepie rybnym.
 >
 > — *Frutak eta barazkiak?* — A owoce i warzywa?
 >
 > — *Plazan, beti bezala.* — Na targu, jak zawsze.
 
-## Mini-dialog w warzywniaku
+## Krótki dialog w warzywniaku
 
 > **Frutaria:** *Egun on! Zer nahi duzu?*
 >
@@ -128,8 +163,8 @@ Typowa rozmowa podczas planowania:
 ## Do powtórzenia
 
 1. **Ilość + produkt:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
-2. **Uprzejma prośba:** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **Zamknięcie zakupów:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
+2. **Uprzejme prośby:** *Jarriko al didazu...?* / *Eman..., mesedez*.
+3. **Zakończenie zakupów:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Przeczenie z produktem:** *Ez dago ...rik* (z partytywem).
 
-> **Notatka kulturowa:** wiele rodzin robi zakupy "na dziś" w osiedlowych sklepach (fruta-denda, harategia), a do supermarketu chodzi tylko po produkty paczkowane. To bardzo powszechne łączenie kanałów, które szczególnie widać w sobotnie poranki w każdym miasteczku.
+> **Wskazówka kulturowa:** wiele rodzin robi codzienne zakupy w osiedlowych sklepach (fruta-denda, harategia), a do supermarketu chodzi tylko po produkty paczkowane. To bardzo powszechne połączenie, które jest szczególnie widoczne w sobotnie poranki w każdym miasteczku.

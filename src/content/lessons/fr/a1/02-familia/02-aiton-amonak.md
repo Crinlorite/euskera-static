@@ -5,32 +5,43 @@ code: 02-aiton-amonak
 unit: 02-familia
 level: a1
 order: 2
-title: Aiton-amonak (les grands-parents)
+title: Aiton-amonak (grands-parents)
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-aa-fc
-    type: flashcards
-    cards:
-      - { eu: aitona, es: grand-père }
-      - { eu: amona, es: grand-mère }
-      - { eu: aiton-amonak, es: les grands-parents }
-      - { eu: biloba, es: petit-fils/petite-fille }
-      - { eu: bilobak, es: les petits-enfants }
-  - id: ex-aa-fb1
-    type: fill-in-blank
-    prompt: 'Mes grands-parents = nire ___.'
-    answers: [aiton-amonak]
-    explanation: '« Aiton-amonak » combine aitona + amona au pluriel — convention fréquente en basque pour les couples.'
-  - id: ex-aa-mc1
-    type: multiple-choice
-    prompt: '« Biloba » signifie...'
-    options: [le neveu, le petit-fils, le cousin, le beau-père]
-    answer: 1
-    explanation: '« Biloba » désigne le petit-fils/la petite-fille. Il n''y a pas de marque de genre.'
+- id: ex-aa-fc
+  type: flashcards
+  cards:
+  - eu: aitona
+    es: grand-père
+  - eu: amona
+    es: grand-mère
+  - eu: aiton-amonak
+    es: les grands-parents
+  - eu: biloba
+    es: petit-fils/petite-fille
+  - eu: bilobak
+    es: les petits-enfants
+- id: ex-aa-fb1
+  type: fill-in-blank
+  prompt: Mes grands-parents = nire ___.
+  answers:
+  - aiton-amonak
+  explanation: « Aiton-amonak » combine aitona + amona au pluriel — une convention fréquente en basque pour les paires.
+- id: ex-aa-mc1
+  type: multiple-choice
+  prompt: « Biloba » est...
+  options:
+  - le neveu
+  - le petit-fils
+  - le cousin
+  - le beau-père
+  answer: 1
+  explanation: « Biloba » signifie petit-fils/petite-fille. Il n'a pas de marque de genre.
 ---
 
-Les grands-parents en basque sont **aitona** (grand-père) et **amona** (grand-mère). Au pluriel, on préfère la forme combinée **aiton-amonak**, qui signifie « grands-parents » (les deux ensemble).
+En basque, les grands-parents sont **aitona** (grand-père) et **amona** (grand-mère). Au pluriel, on préfère la forme combinée **aiton-amonak**, qui signifie « grands-parents » (les deux ensemble).
 
 ## Vocabulaire
 
@@ -42,9 +53,9 @@ Les grands-parents en basque sont **aitona** (grand-père) et **amona** (grand-m
 | *biloba* | petit-fils/petite-fille |
 | *bilobak* | les petits-enfants |
 
-## Le schéma « X-Y-ak »
+## Le modèle « X-Y-ak »
 
-Le basque dispose d'une manière élégante de parler de couples/groupes du même type en combinant les deux termes au pluriel :
+Le basque a une manière élégante de parler de paires/groupes du même type en combinant les deux termes au pluriel :
 
 - **anai-arrebak** — frères et sœurs
 - **aiton-amonak** — grands-parents
@@ -55,5 +66,5 @@ Le basque dispose d'une manière élégante de parler de couples/groupes du mêm
 ## Phrases utiles
 
 - *Nire aitona Ekaitz da.* — Mon grand-père est Ekaitz.
-- *Amona oso atsegina da.* — La grand-mère est très aimable.
-- *Bi biloba ditu.* — Il/elle a deux petits-enfants.
+- *Amona oso atsegina da.* — La grand-mère est très gentille.
+- *Bi biloba ditu.* — Il/Elle a deux petits-enfants.

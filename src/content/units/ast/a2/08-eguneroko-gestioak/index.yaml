@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — bancu, papeleo, teléfonu
+order: 8
+description: 'La vida práutica: bancu y correos, conceyu, llamaes, teunoloxía y devoluciones na tienda.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

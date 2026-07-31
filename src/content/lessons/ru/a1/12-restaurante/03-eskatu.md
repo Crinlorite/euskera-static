@@ -5,66 +5,89 @@ code: 03-eskatu
 unit: 12-restaurante
 level: a1
 order: 3
-title: Заказать еду (eskatu)
+title: Заказ еды (eskatu)
 estimatedMinutes: 10
-covers: [ordering-food, food-bar]
+covers:
+- ordering-food
+- food-bar
 exercises:
-  - id: ex-esk-mc1
-    type: multiple-choice
-    prompt: '"На первое я возьму салат" говорится…'
-    options: ['Hasteko, entsalada hartuko dut', 'Lehen entsalada da', 'Entsalada bat hartzen', 'Hasteko, entsaladarik']
-    answer: 0
-    explanation: '*Hasteko* (на начало) + *entsalada hartuko dut* (я возьму салат). Типичная структура.'
-  - id: ex-esk-mc2
-    type: multiple-choice
-    prompt: '"Мне рыбу" говорится…'
-    options: ['Niretzat, arraina', 'Nire arraina', 'Niri arraina', 'Ni arraina dut']
-    answer: 0
-    explanation: '*Niretzat* — "для меня" (адресат). Это естественная формула при заказе за общим столом.'
-  - id: ex-esk-fb1
-    type: fill-in-blank
-    prompt: 'Чтобы спросить "а тебе?" у спутника = Eta ___?'
-    answers: [zuretzat]
-    explanation: '*Zuretzat* — "для тебя" (вежливое/на ты).'
-  - id: ex-esk-fb2
-    type: fill-in-blank
-    prompt: '"На второе — мясо" = Bigarrenerako, ___'
-    answers: [haragia]
-    explanation: '*Bigarrenerako* — "на второе (на второе блюдо)". *Haragia* — мясо.'
-  - id: ex-esk-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer nahi duzu?', es: Что ты хочешь? }
-      - { eu: 'Zer hartuko duzu?', es: Что ты будешь брать? }
-      - { eu: 'Hartuko dut...', es: 'Я возьму...' }
-      - { eu: 'Niretzat...', es: 'Для меня...' }
-      - { eu: 'Eta zuretzat?', es: А тебе? }
-      - { eu: 'Hasteko...', es: 'На начало...' }
-      - { eu: 'Bigarrenerako...', es: 'На второе...' }
-      - { eu: 'Postrerako...', es: 'На десерт...' }
-      - { eu: 'Edateko, ardo gorria', es: 'Из напитков — красное вино' }
-      - { eu: 'Nahiago dut...', es: 'Я предпочитаю...' }
-      - { eu: 'Ez dut nahi', es: 'Я не хочу' }
-      - { eu: 'Ez zait gustatzen', es: 'Мне не нравится' }
+- id: ex-esk-mc1
+  type: multiple-choice
+  prompt: 'Как сказать: «На первое я возьму салат»?'
+  options:
+  - Hasteko, entsalada hartuko dut
+  - Lehen entsalada da
+  - Entsalada bat hartzen
+  - Hasteko, entsaladarik
+  answer: 0
+  explanation: '*Hasteko* (для начала) + *entsalada hartuko dut* (я возьму салат). Типичная структура.'
+- id: ex-esk-mc2
+  type: multiple-choice
+  prompt: 'Как сказать: «Мне рыбу»?'
+  options:
+  - Niretzat, arraina
+  - Nire arraina
+  - Niri arraina
+  - Ni arraina dut
+  answer: 0
+  explanation: '*Niretzat* — «мне» (буквально: «для меня»). Это естественная форма при заказе за общим столом.'
+- id: ex-esk-fb1
+  type: fill-in-blank
+  prompt: Чтобы спросить «а тебе?» у своего спутника = Eta ___?
+  answers:
+  - zuretzat
+  explanation: '*Zuretzat* — «для тебя» или «для Вас» (вежл.).'
+- id: ex-esk-fb2
+  type: fill-in-blank
+  prompt: «На второе — мясо» = Bigarrenerako, ___
+  answers:
+  - haragia
+  explanation: '*Bigarrenerako* — «на второе (на второе блюдо)». *Haragia* — мясо.'
+- id: ex-esk-fc
+  type: flashcards
+  cards:
+  - eu: Zer nahi duzu?
+    es: Что ты хочешь?
+  - eu: Zer hartuko duzu?
+    es: Что будешь заказывать?
+  - eu: Hartuko dut...
+    es: Я возьму...
+  - eu: Niretzat...
+    es: Мне...
+  - eu: Eta zuretzat?
+    es: А тебе?
+  - eu: Hasteko...
+    es: Для начала...
+  - eu: Bigarrenerako...
+    es: На второе...
+  - eu: Postrerako...
+    es: На десерт...
+  - eu: Edateko, ardo gorria
+    es: Из напитков — красное вино
+  - eu: Nahiago dut...
+    es: Я предпочитаю...
+  - eu: Ez dut nahi
+    es: Я не хочу
+  - eu: Ez zait gustatzen
+    es: Мне не нравится
 ---
-
-Этот урок собирает формулы для заказа за столом: как выстроить lehen/bigarren/postrea, как сказать "для меня" и как выразить предпочтения.
+В этом уроке собраны фразы для заказа еды в ресторане: как структурировать заказ (*lehen/bigarren/postrea*), как сказать «для меня» и как выражать предпочтения.
 
 ## Вопрос официанта
 
-Официант начнёт с одной из таких фраз:
+Официант начнёт с одной из этих фраз:
 
 - **Zer nahi duzu(e)?** — Что желаете?
-- **Zer hartuko duzu(e)?** — Что будете брать?
+- **Zer hartuko duzu(e)?** — Что будете заказывать?
 - **Pentsatu duzu(e)?** — Вы уже выбрали (подумали)?
 
 ## Структура заказа
 
-Чтобы упорядочить то, что заказываешь, есть три очень полезных маркера:
+Чтобы структурировать заказ, есть три очень полезных слова-маркера:
 
-| Эускера | Русский |
+| Euskera | Русский |
 |---|---|
-| *Hasteko...* | На начало... |
+| *Hasteko...* | Для начала... |
 | *Bigarrenerako...* | На второе... |
 | *Postrerako...* | На десерт... |
 | *Edateko...* | Из напитков... |
@@ -73,7 +96,7 @@ exercises:
 
 > *Hasteko, entsalada nahi dut. Bigarrenerako, legatza. Postrerako, izozkia. Eta edateko, ardo zuria.*
 >
-> На начало — салат. На второе — мерлуза. На десерт — мороженое. И из напитков — белое вино.
+> Для начала — салат. На второе — мерлуза. На десерт — мороженое. И из напитков — белое вино.
 
 ## Три способа заказать
 
@@ -81,9 +104,9 @@ exercises:
 |---|---|---|
 | **... hartuko dut** | *Legatza hartuko dut* | я возьму... |
 | **... nahi dut** | *Legatza nahi dut* | я хочу... |
-| **Niretzat...** | *Niretzat, legatza* | для меня... |
+| **Niretzat...** | *Niretzat, legatza* | мне... |
 
-`Niretzat` очень удобно, когда один из обедающих заказывает за всех: "*Niretzat legatza, eta zuretzat?*" (Мне мерлузу, а тебе?).
+`Niretzat` очень удобно, когда один человек заказывает за всех: «*Niretzat legatza, eta zuretzat?*» (Мне мерлузу, а тебе?).
 
 ## Предпочтения
 
@@ -113,4 +136,4 @@ exercises:
 >
 > **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
 
-> **Культурная заметка:** в небольших ресторанах очень часто один из обедающих заказывает за всю компанию (*Niretzat legatza eta beretzat haragia* — мне мерлузу, а ему/ей мясо). Поэтому *niretzat / zuretzat / beretzat* — слова с большой отдачей с самого первого дня.
+> **Культурная заметка:** в небольших ресторанах очень часто один человек заказывает на всю компанию (*Niretzat legatza eta beretzat haragia* — мне мерлузу, а ему/ей мясо). Поэтому *niretzat / zuretzat / beretzat* — очень полезные слова с самого первого дня.

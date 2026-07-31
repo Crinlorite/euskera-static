@@ -7,51 +7,82 @@ level: a1
 order: 4
 title: Norekin bizi zara? — Con chi vivi
 estimatedMinutes: 10
-covers: [companions-rekin, living-arrangements]
+covers:
+- companions-rekin
+- living-arrangements
 exercises:
-  - id: ex-09-04-mp
-    type: match-pairs
-    pairs:
-      - { eu: bakarrik, es: da solo/a }
-      - { eu: lagunarekin, es: con un amico/un'amica }
-      - { eu: gurasoekin, es: con i genitori }
-      - { eu: bikotekidearekin, es: con il/la partner }
-      - { eu: anaiarekin, es: con un fratello }
-      - { eu: pisukideekin, es: con i coinquilini }
-  - id: ex-09-04-mc1
-    type: multiple-choice
-    prompt: 'Il suffisso -rekin (sociativo) significa…'
-    options: [verso, da, con, senza]
-    answer: 2
-    explanation: '"-rekin" indica compagnia: "lagunarekin" = "con l''amico/a".'
-  - id: ex-09-04-fb1
-    type: fill-in-blank
-    prompt: 'Vivo con i miei genitori = Gurasoe___ bizi naiz.'
-    answers: [kin]
-    explanation: 'Al plurale il suffisso è "-ekin": guraso + -ekin = gurasoekin (con i genitori).'
-  - id: ex-09-04-mc2
-    type: multiple-choice
-    prompt: '"Bikotekidearekin bizi naiz" significa...'
-    options: ["Vivo da solo", "Vivo con il/la mio/a partner", "Vivo con un coinquilino", "Vivo con mio fratello"]
-    answer: 1
-    explanation: '"Bikotekide" = partner (letteralmente: "membro della coppia"). Con -arekin = "con il/la partner".'
-  - id: ex-09-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Norekin bizi zara?', es: 'Con chi vivi?' }
-      - { eu: bakarrik bizi naiz, es: vivo da solo/a }
-      - { eu: gurasoekin bizi naiz, es: vivo con i miei genitori }
-      - { eu: lagunarekin bizi naiz, es: vivo con un amico/un'amica }
-      - { eu: lagunekin bizi naiz, es: vivo con i miei amici }
-      - { eu: bikotekidearekin, es: con il/la mio/a partner }
-      - { eu: senarrarekin, es: con mio marito }
-      - { eu: emaztearekin, es: con mia moglie }
-      - { eu: anaiarekin / arrebarekin, es: con mio fratello / mia sorella }
-      - { eu: pisukidea, es: coinquilino/a }
-      - { eu: txakurrarekin, es: con il cane }
-      - { eu: katuarekin, es: con il gatto }
-      - { eu: alokairuan bizi naiz, es: vivo in affitto }
-      - { eu: nire pisua da, es: è il mio appartamento (di proprietà) }
+- id: ex-09-04-mp
+  type: match-pairs
+  pairs:
+  - eu: bakarrik
+    es: solo/a
+  - eu: lagunarekin
+    es: con un amico/un'amica
+  - eu: gurasoekin
+    es: con i genitori
+  - eu: bikotekidearekin
+    es: con il/la partner
+  - eu: anaiarekin
+    es: con un fratello
+  - eu: pisukideekin
+    es: con i coinquilini
+- id: ex-09-04-mc1
+  type: multiple-choice
+  prompt: Il suffisso -rekin (sociativo) significa…
+  options:
+  - verso
+  - da
+  - con
+  - senza
+  answer: 2
+  explanation: '"-rekin" indica compagnia: "lagunarekin" = "con l''amico/a".'
+- id: ex-09-04-fb1
+  type: fill-in-blank
+  prompt: Vivo con i miei genitori = Gurasoe___ bizi naiz.
+  answers:
+  - kin
+  explanation: 'Al plurale il suffisso è "-ekin": guraso + -ekin = gurasoekin (con i genitori).'
+- id: ex-09-04-mc2
+  type: multiple-choice
+  prompt: '"Bikotekidearekin bizi naiz" significa...'
+  options:
+  - Vivo da solo
+  - Vivo con il mio/la mia partner
+  - Vivo con un coinquilino
+  - Vivo con mio fratello
+  answer: 1
+  explanation: '"Bikotekide" = partner (letteralmente: "membro della coppia"). Con -arekin = "con il/la partner".'
+- id: ex-09-04-fc
+  type: flashcards
+  cards:
+  - eu: Norekin bizi zara?
+    es: Con chi vivi?
+  - eu: bakarrik bizi naiz
+    es: vivo da solo/a
+  - eu: gurasoekin bizi naiz
+    es: vivo con i miei genitori
+  - eu: lagunarekin bizi naiz
+    es: vivo con un amico/un'amica
+  - eu: lagunekin bizi naiz
+    es: vivo con i miei amici
+  - eu: bikotekidearekin
+    es: con il mio/la mia partner
+  - eu: senarrarekin
+    es: con mio marito
+  - eu: emaztearekin
+    es: con mia moglie
+  - eu: anaiarekin / arrebarekin
+    es: con mio fratello / mia sorella
+  - eu: pisukidea
+    es: coinquilino/a
+  - eu: txakurrarekin
+    es: con il cane
+  - eu: katuarekin
+    es: con il gatto
+  - eu: alokairuan bizi naiz
+    es: vivo in affitto
+  - eu: nire pisua da
+    es: è il mio appartamento (di proprietà)
 ---
 
 Una delle domande basilari per conoscere qualcuno è **Norekin bizi zara?** — "Con chi vivi?". La risposta usa il suffisso **`-(r)ekin`**, chiamato **sociativo**, che è il "con" di compagnia in euskera.
@@ -114,4 +145,4 @@ Se vivi senza compagnia, non serve usare `-rekin`:
 >
 > — *Ez, txikia. Hiru logela ditu.*
 
-> **Nota:** *bikotekide* è una parola moderna e neutra, valida sia per coppie sposate sia non sposate, etero od omosessuali. Per "marito" e "moglie" si continuano a usare **senarra** ed **emaztea**.
+> **Nota:** *bikotekide* è una parola moderna e neutra, valida sia per coppie sposate sia non sposate, etero o omosessuali. Per "marito" e "moglie" si continuano a usare **senarra** ed **emaztea**.

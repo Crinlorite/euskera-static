@@ -7,71 +7,102 @@ level: a1
 order: 2
 title: Les repas de la journée (otorduak)
 estimatedMinutes: 10
-covers: [meals]
+covers:
+- meals
 exercises:
-  - id: ex-otr-mc1
-    type: multiple-choice
-    prompt: '« Bazkaria » signifie…'
-    options: [le petit-déjeuner, le repas de midi, le goûter, le dîner]
-    answer: 1
-    explanation: '*bazkaria* est le repas principal de midi.'
-  - id: ex-otr-mc2
-    type: multiple-choice
-    prompt: 'Comment dit-on « le déjeuner de fin de matinée » (la pause de 11 h) ?'
-    options: [gosaria, hamaiketakoa, bazkaria, afaria]
-    answer: 1
-    explanation: '*hamaiketakoa* (littéralement : « celui de onze heures ») est ce déjeuner de fin de matinée, une coutume très basque.'
-  - id: ex-otr-fb1
-    type: fill-in-blank
-    prompt: 'Manger (verbe) = ___.'
-    answers: [jan]
-    explanation: '*jan* = manger. Forme de base de l''infinitif.'
-  - id: ex-otr-fb2
-    type: fill-in-blank
-    prompt: 'Boire (verbe) = ___.'
-    answers: [edan]
-    explanation: '*edan* = boire.'
-  - id: ex-otr-fc
-    type: flashcards
-    cards:
-      - { eu: gosaria, es: le petit-déjeuner }
-      - { eu: hamaiketakoa, es: le déjeuner de fin de matinée }
-      - { eu: bazkaria, es: le repas (de midi) }
-      - { eu: askaria, es: le goûter }
-      - { eu: afaria, es: le dîner }
-      - { eu: otordua, es: le repas (générique) }
-      - { eu: jan, es: manger }
-      - { eu: edan, es: boire }
-      - { eu: gosaldu, es: prendre le petit-déjeuner }
-      - { eu: bazkaldu, es: déjeuner (à midi) }
-      - { eu: afaldu, es: dîner }
-      - { eu: gose naiz, es: j'ai faim }
-      - { eu: egarri naiz, es: j'ai soif }
-  - id: ex-otr-mp
-    type: match-pairs
-    pairs:
-      - { eu: gosaria, es: petit-déjeuner }
-      - { eu: hamaiketakoa, es: déjeuner de fin de matinée }
-      - { eu: bazkaria, es: repas de midi }
-      - { eu: askaria, es: goûter }
-      - { eu: afaria, es: dîner }
-      - { eu: jan, es: manger }
-      - { eu: edan, es: boire }
+- id: ex-otr-mc1
+  type: multiple-choice
+  prompt: '"Bazkaria" signifie…'
+  options:
+  - le petit-déjeuner
+  - le repas de midi
+  - le goûter
+  - le dîner
+  answer: 1
+  explanation: '*bazkaria* est le repas principal du midi.'
+- id: ex-otr-mc2
+  type: multiple-choice
+  prompt: Comment dit-on "l'en-cas de milieu de matinée" (la pause de 11h) ?
+  options:
+  - gosaria
+  - hamaiketakoa
+  - bazkaria
+  - afaria
+  answer: 1
+  explanation: '*hamaiketakoa* (littéralement : "celui de onze heures") est cet en-cas de milieu de matinée, une coutume très basque.'
+- id: ex-otr-fb1
+  type: fill-in-blank
+  prompt: Manger (verbe) = ___.
+  answers:
+  - jan
+  explanation: '*jan* = manger. Forme de base de l''infinitif.'
+- id: ex-otr-fb2
+  type: fill-in-blank
+  prompt: Boire (verbe) = ___.
+  answers:
+  - edan
+  explanation: '*edan* = boire.'
+- id: ex-otr-fc
+  type: flashcards
+  cards:
+  - eu: gosaria
+    es: le petit-déjeuner
+  - eu: hamaiketakoa
+    es: l'en-cas de milieu de matinée
+  - eu: bazkaria
+    es: le déjeuner (repas de midi)
+  - eu: askaria
+    es: le goûter
+  - eu: afaria
+    es: le dîner
+  - eu: otordua
+    es: le repas (générique)
+  - eu: jan
+    es: manger
+  - eu: edan
+    es: boire
+  - eu: gosaldu
+    es: prendre le petit-déjeuner
+  - eu: bazkaldu
+    es: déjeuner (le midi)
+  - eu: afaldu
+    es: dîner
+  - eu: gose naiz
+    es: j'ai faim
+  - eu: egarri naiz
+    es: j'ai soif
+- id: ex-otr-mp
+  type: match-pairs
+  pairs:
+  - eu: gosaria
+    es: desayuno
+  - eu: hamaiketakoa
+    es: en-cas de milieu de matinée
+  - eu: bazkaria
+    es: repas de midi
+  - eu: askaria
+    es: merienda
+  - eu: afaria
+    es: cena
+  - eu: jan
+    es: comer
+  - eu: edan
+    es: beber
 ---
 
-Chaque repas de la journée a son nom en euskera, et les connaître t'aidera à parler de ta routine quotidienne. Il existe par ailleurs un repas spécifiquement basque qui n'a pas d'équivalent direct en français : le **hamaiketako**.
+Chaque repas de la journée a son nom en basque, et les connaître t'aidera à parler de ta routine quotidienne. Il y a de plus un repas spécifiquement basque qui n'a pas d'équivalent direct en français : le **hamaiketako**.
 
 ## Les cinq repas de la journée
 
 | Euskera | Français | Quand |
 |---|---|---|
 | *gosaria* | petit-déjeuner | matin |
-| *hamaiketakoa* | déjeuner de fin de matinée | vers 11 h |
-| *bazkaria* | repas (le principal) | 13 h-14 h |
+| *hamaiketakoa* | en-cas de milieu de matinée | vers 11h |
+| *bazkaria* | déjeuner (le principal) | 13h-14h |
 | *askaria* | goûter | après-midi |
-| *afaria* | dîner | nuit |
+| *afaria* | dîner | soir |
 
-> **Hamaiketakoa** signifie littéralement « celui de onze heures » (*hamaika* = onze). C'est la pause basque typique de fin de matinée : un *pintxo*, un café ou un *zurito* avec quelque chose. Ce n'est ni un petit-déjeuner copieux ni un vrai repas ; c'est quelque chose d'intermédiaire, qui se prend dans la rue, à la taverne, avec des collègues de travail ou la *cuadrilla*.
+> **Hamaiketakoa** signifie littéralement "celui de onze heures" (*hamaika* = onze). C'est la pause typiquement basque en milieu de matinée : un *pintxo*, un café ou un *zurito* avec quelque chose. Ce n'est pas un petit-déjeuner copieux ni un déjeuner ; c'est quelque chose d'intermédiaire que l'on prend à l'extérieur, au bar, avec des collègues ou son groupe d'amis.
 
 ## Verbes : jan, edan et les verbes spécifiques
 
@@ -80,28 +111,28 @@ Chaque repas de la journée a son nom en euskera, et les connaître t'aidera à 
 | *jan* | manger (général) |
 | *edan* | boire |
 | *gosaldu* | prendre le petit-déjeuner |
-| *bazkaldu* | déjeuner (à midi) |
+| *bazkaldu* | déjeuner (le midi) |
 | *afaldu* | dîner |
 
-> Il existe des verbes spécifiques pour chaque repas (tout comme le français « petit-déjeuner / déjeuner / dîner »). En A1, tu les reconnaîtras plus que tu ne les conjugueras — pour l'instant, il suffit de savoir qu'ils existent.
+> Il existe des verbes spécifiques pour chaque repas (tout comme en français "prendre le petit-déjeuner / déjeuner / dîner"). Au niveau A1, tu les reconnaîtras plus que tu ne les conjugueras — pour l'instant, il suffit de savoir qu'ils existent.
 
 ## Faim et soif
 
-Pour dire « j'ai faim » / « j'ai soif » en euskera, **on n'utilise pas le verbe « avoir »** (comme en français ou en castellan), mais le verbe **izan** (« être ») :
+Pour dire "j'ai faim" / "j'ai soif" en basque, **on n'utilise pas le verbe "avoir"** (contrairement au français), mais le verbe **izan** ("être") :
 
-- **Gose naiz.** — J'ai faim. (littéralement : « je suis affamé/e »)
-- **Egarri naiz.** — J'ai soif. (littéralement : « je suis assoiffé/e »)
+- **Gose naiz.** — J'ai faim. (littéralement : "je suis affamé(e)")
+- **Egarri naiz.** — J'ai soif. (littéralement : "je suis assoiffé(e)")
 - **Maialen gose da.** — Maialen a faim.
 - **Gu egarri gara.** — Nous avons soif.
 
-> Cette construction peut te surprendre. En euskera, les sensations physiques comme la faim, la soif ou le sommeil s'expriment souvent avec *izan* + adjectif, comme s'il s'agissait d'un état d'être. Tu le verras aussi avec *logura naiz* (j'ai sommeil). Attention : « j'ai froid » ne suit pas ce schéma — on dit *hotzak nago*, avec *egon*.
+> Cette construction peut te surprendre. En basque, les sensations physiques comme la faim, la soif, le sommeil s'expriment souvent avec *izan* + adjectif, comme s'il s'agissait d'un état d'être. Tu le verras aussi avec *logura naiz* (j'ai sommeil). Attention : "j'ai froid" ne suit pas ce modèle — on dit *hotzak nago*, avec *egon*.
 
 ## Phrases typiques
 
-- *Goizean gosaria hartzen dut.* — Le matin, je prends le petit-déjeuner (littéralement : « je prends le petit-déjeuner »).
+- *Goizean gosaria hartzen dut.* — Le matin, je prends le petit-déjeuner (littéralement : "je prends le petit-déjeuner").
 - *Hamaiketakoa egiten dugu lankideekin.* — Nous faisons le *hamaiketako* avec les collègues.
 - *Etxean bazkaltzen dut.* — Je déjeune à la maison.
 - *Afari ona prestatu dugu.* — Nous avons préparé un bon dîner.
 - *Gose naiz, zer dago jateko?* — J'ai faim, qu'est-ce qu'il y a à manger ?
 
-> **Note culturelle :** les horaires des repas en Euskal Herria sont en général semblables à ceux du reste de la péninsule : petit-déjeuner tôt, *hamaiketako* vers onze heures, *bazkaria* vers 14 h-15 h, goûter vers 18 h, dîner à 21 h ou plus tard.
+> **Note culturelle :** les heures des repas au Pays Basque sont généralement similaires à celles du reste de la péninsule : petit-déjeuner tôt, *hamaiketako* vers onze heures, *bazkaria* vers 14h-15h, goûter vers 18h, dîner à 21h ou plus tard.

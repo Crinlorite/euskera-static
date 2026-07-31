@@ -1,0 +1,16 @@
+id: a2-egoerak
+code: 01-egoerak
+level: a2
+title: Egoerak — 일상적인 상황과 조언
+order: 1
+description: 건강, 습관, 환경. 명령법(agintera)으로 지시를 내리고 요청하는 법을 배워보세요.
+estimatedMinutes: 70
+covers:
+- a2-health-vocab
+- a2-doctor-visit
+- a2-healthy-habits
+- a2-environment
+- a2-civic-life
+- a2-agintera-intro
+- a2-agintera-uses
+- a2-agintera-negation

@@ -7,50 +7,69 @@ level: a1
 order: 4
 title: Familia extinsă
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-fe-mp
-    type: match-pairs
-    pairs:
-      - { eu: osaba, es: unchi }
-      - { eu: izeba, es: mătușă }
-      - { eu: lehengusu, es: văr }
-      - { eu: lehengusina, es: verișoară }
-      - { eu: iloba, es: nepot/nepoată }
-  - id: ex-fe-mc1
-    type: multiple-choice
-    prompt: '"Lehengusu" înseamnă...'
-    options: [văr, frate, bunic, socru]
-    answer: 0
-  - id: ex-fe-fc
-    type: flashcards
-    cards:
-      - { eu: osaba, es: unchi }
-      - { eu: izeba, es: mătușă }
-      - { eu: lehengusu, es: văr }
-      - { eu: lehengusina, es: verișoară }
-      - { eu: iloba, es: 'nepot, nepoată' }
-      - { eu: aitaginarreba, es: socru }
-      - { eu: amaginarreba, es: soacră }
-      - { eu: koinatu, es: cumnat }
-      - { eu: koinata, es: cumnată }
+- id: ex-fe-mp
+  type: match-pairs
+  pairs:
+  - eu: osaba
+    es: unchi
+  - eu: izeba
+    es: mătușă
+  - eu: lehengusu
+    es: primo
+  - eu: lehengusina
+    es: prima
+  - eu: iloba
+    es: sobrino/a
+- id: ex-fe-mc1
+  type: multiple-choice
+  prompt: '"Lehengusu" înseamnă...'
+  options:
+  - primo
+  - hermano
+  - abuelo
+  - suegro
+  answer: 0
+- id: ex-fe-fc
+  type: flashcards
+  cards:
+  - eu: osaba
+    es: unchi
+  - eu: izeba
+    es: mătușă
+  - eu: lehengusu
+    es: văr
+  - eu: lehengusina
+    es: verișoară
+  - eu: iloba
+    es: nepot, nepoată
+  - eu: aitaginarreba
+    es: socru
+  - eu: amaginarreba
+    es: soacră
+  - eu: koinatu
+    es: cumnat
+  - eu: koinata
+    es: cumnată
 ---
 
-Dincolo de părinți, frați și copii, familia se extinde cu unchi, veri, nepoți și familia prin alianță. Iată vocabularul cel mai folosit.
+Dincolo de părinți, frați și copii, familia se extinde cu unchi, veri, nepoți și familia prin alianță. Iată vocabularul cel mai des folosit.
 
 ## Unchi și veri
 
-| Euskera | Română |
+| Bască | Română |
 |---|---|
 | *osaba* | unchi |
 | *izeba* | mătușă |
 | *lehengusu* | văr |
 | *lehengusina* | verișoară |
-| *iloba* | nepot/nepoată (de asemenea „nepot/nepoată de bunic" în unele dialecte — contextul decide) |
+| *iloba* | nepot/nepoată (în unele dialecte și „nepot/nepoată de la bunici” — contextul decide) |
 
 ## Familia prin alianță
 
-| Euskera | Română |
+| Bască | Română |
 |---|---|
 | *aitaginarreba* | socru |
 | *amaginarreba* | soacră |
@@ -59,10 +78,10 @@ Dincolo de părinți, frați și copii, familia se extinde cu unchi, veri, nepo�
 | *errain* | noră |
 | *suhi* | ginere |
 
-## Tipare de utilizare
+## Modele de utilizare
 
-- *Nire osaba Bilbon bizi da.* — Unchiul meu locuiește în Bilbo.
-- *Bere lehengusinak hamabi urte ditu.* — Verișoara lui/ei are doisprezece ani.
+- *Nire osaba Bilbon bizi da.* — Unchiul meu locuiește în Bilbao.
+- *Bere lehengusinak hamabi urte ditu.* — Verișoara sa are doisprezece ani.
 - *Zure koinata euskalduna da?* — Cumnata ta este bască?
 
-> Cuvintele pentru familia prin alianță se formează adesea combinând cuvinte deja existente (*aita-* + *ginarreba*). Nu este nevoie să memorezi logica internă; cu utilizarea se fixează.
+> Cuvintele pentru familia prin alianță se formează adesea combinând cuvinte existente (*aita-* + *ginarreba*). Nu este necesar să memorezi logica internă; prin utilizare, ele se vor fixa.

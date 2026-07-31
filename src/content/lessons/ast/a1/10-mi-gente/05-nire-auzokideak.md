@@ -5,92 +5,122 @@ code: 05-nire-auzokideak
 unit: 10-mi-gente
 level: a1
 order: 5
-title: Nire auzokideak — Describir tres vecinos
+title: Nire auzokideak — Describir a tres vecinos
 estimatedMinutes: 12
-covers: [social-relations, third-person-introductions, daily-routine-third-person, professions-extended, possessives]
+covers:
+- social-relations
+- third-person-introductions
+- daily-routine-third-person
+- professions-extended
+- possessives
 exercises:
-  - id: ex-10-05-mc1
-    type: multiple-choice
-    prompt: 'Pa presentar a una vecina mayor que vive sola, ¿qué orde ye más natural?'
-    options:
-      - "Hau ... da → bera ... da → bera ... egiten du"
-      - "Bera ... egiten du → hau ... da → bera ... da"
-      - "Hura ... egiten du → hau ... naiz → bera ... zara"
-      - "Ni ... naiz → zu ... zara → bera ... da"
-    answer: 0
-    explanation: 'Primero preséntesla (Hau X da), llueu amiéstense datos (Bera Y da), y a lo cabero cuéntase qué fai (Bera Z egiten du).'
-  - id: ex-10-05-mc2
-    type: multiple-choice
-    prompt: '"Nire bizilaguna 75 urteko jubilatua da" significa…'
-    options:
-      - "El mio vecín tien 75 años y ta xubiláu"
-      - "El mio vecín xubilóse hai 75 años"
-      - "El mio vecín trabaya nel 75"
-      - "Tengo 75 vecinos xubilaos"
-    answer: 0
-    explanation: '"75 urteko jubilatua" = un xubiláu de 75 años. Estructura: "X-eko Y" indica edá/atributu + sustantivu.'
-  - id: ex-10-05-fb1
-    type: fill-in-blank
-    prompt: 'Los mios vecinos son simpáticos = Nire bizilagunak ___ dira.'
-    answers: [atseginak, jatorrak]
-    explanation: '"Atseginak" o "jatorrak" son los dos axetivos más usaos pa "simpáticos/prestosos" en plural.'
-  - id: ex-10-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: jatorra, es: simpáticu/a (cercanu) }
-      - { eu: atsegina, es: prestosu/a }
-      - { eu: alaia, es: allegre }
-      - { eu: lasaia, es: tranquilu/a }
-      - { eu: berritsua, es: charranu/a }
-      - { eu: zaratatsua, es: ruidosu/a }
-  - id: ex-10-05-fc
-    type: flashcards
-    cards:
-      - { eu: nire bizilaguna, es: el mio vecín/vecina }
-      - { eu: nire bizilagunak, es: los mios vecinos }
-      - { eu: nire ondoko bizilaguna, es: el mio vecín/vecina d'al llau }
-      - { eu: lehenengo solairukoa, es: del primer pisu }
-      - { eu: bigarren solairukoa, es: del segundu pisu }
-      - { eu: jatorra, es: simpáticu/a }
-      - { eu: atsegina, es: prestosu/a }
-      - { eu: alaia, es: allegre }
-      - { eu: lasaia, es: tranquilu/a }
-      - { eu: berritsua, es: charranu/a }
-      - { eu: zaratatsua, es: ruidosu/a }
-      - { eu: jubilatua, es: xubiláu/ada }
-      - { eu: gaztea, es: xoven }
-      - { eu: zaharra, es: mayor }
-      - { eu: 'Asko hitz egiten du', es: 'Fala muncho' }
-      - { eu: 'Ez dut askotan ikusten', es: 'Nun la veo davezu' }
-      - { eu: 'Beti pozik dago', es: 'Siempre ta contentu/a' }
+- id: ex-10-05-mc1
+  type: multiple-choice
+  prompt: Pa presentar a una vecina mayor que vive sola, ¿qué orde ye más natural?
+  options:
+  - Hau ... da → bera ... da → bera ... egiten du
+  - Bera ... egiten du → hau ... da → bera ... da
+  - Hura ... egiten du → hau ... naiz → bera ... zara
+  - Ni ... naiz → zu ... zara → bera ... da
+  answer: 0
+  explanation: Primero presentes (Hau X da), depués añades datos (Bera Y da), y por último cuentes qué fai (Bera Z egiten du).
+- id: ex-10-05-mc2
+  type: multiple-choice
+  prompt: '"Nire bizilaguna 75 urteko jubilatua da" significa…'
+  options:
+  - El mio vecín tien 75 años y ta xubiláu
+  - El mio vecín xubilóse hai 75 años
+  - El mio vecín trabaya nel 75
+  - Tengo 75 vecinos xubilaos
+  answer: 0
+  explanation: '"75 urteko jubilatua" = un xubiláu de 75 años. Estructura: "X-eko Y" indica edá/atributu + sustantivu.'
+- id: ex-10-05-fb1
+  type: fill-in-blank
+  prompt: Los mios vecinos son simpáticos = Nire bizilagunak ___ dira.
+  answers:
+  - atseginak
+  - jatorrak
+  explanation: '"Atseginak" o "jatorrak" son los dos axetivos más usaos pa "simpáticos/agradables" en plural.'
+- id: ex-10-05-mp
+  type: match-pairs
+  pairs:
+  - eu: jatorra
+    es: simpáticu/a (cercanu)
+  - eu: atsegina
+    es: agradable
+  - eu: alaia
+    es: alegre
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berritsua
+    es: charlatán/ana
+  - eu: zaratatsua
+    es: ruidoso/a
+- id: ex-10-05-fc
+  type: flashcards
+  cards:
+  - eu: nire bizilaguna
+    es: el mio vecín / la mio vecina
+  - eu: nire bizilagunak
+    es: los mios vecinos
+  - eu: nire ondoko bizilaguna
+    es: el mio vecín / la mio vecina de la vera
+  - eu: lehenengo solairukoa
+    es: del primer pisu
+  - eu: bigarren solairukoa
+    es: del segundu pisu
+  - eu: jatorra
+    es: simpáticu/a
+  - eu: atsegina
+    es: agradable
+  - eu: alaia
+    es: allegre
+  - eu: lasaia
+    es: tranquilu/a
+  - eu: berritsua
+    es: charlatán/ana
+  - eu: zaratatsua
+    es: ruidosu/a
+  - eu: jubilatua
+    es: xubiláu/ada
+  - eu: gaztea
+    es: xoven
+  - eu: zaharra
+    es: mayor
+  - eu: Asko hitz egiten du
+    es: Fala muncho
+  - eu: Ez dut askotan ikusten
+    es: Nun la veo a menudo
+  - eu: Beti pozik dago
+    es: Siempre ta contentu/a
 ---
 
-Esta lleición integra too lo del tema 10. Equí práctiques daqué concretu y útil: **describir tres vecinos tuyos** con frases simples pero coneutaes. Ye la prueba de fueu del A1 — y ye xustamente lo que se trabaya nes primeres presentaciones d'aula.
+Esta lleición integra tolo del tema 10. Equí practiques daqué concreto y útil: **describir a tres vecinos tuyos** con frases simples pero coneutaes. Ye la prueba de fueu d'A1 — y ye esautamente lo que se trabaya nes primeres presentaciones d'aula.
 
-## Estructura tipu (orde recomendáu)
+## Estructura tipo (orde recomendáu)
 
-Pa cada vecín, sigui siempre estes pieces. Si les tienes, la descripción constrúyese sola:
+Pa cada vecín, sigui siempre estes pieces. Si les tienes, la descripción constrúise sola:
 
-1. **Presentación** — *Hau nire bizilaguna da. Bera X-koa da.* (d'au ye)
+1. **Presentación** — *Hau nire bizilaguna da. Bera X-koa da.* (d'ónde ye)
 2. **Edá / estáu civil** — *X urte ditu. Ezkonduta / Bakarrik dago.*
-3. **Profesión** — *Bera Y da.* o *Y-an lan egiten du.*
-4. **Calter** — *Oso jatorra da.* o *Lasaia / Berritsua da.*
-5. **Detalle propiu** — daqué qu'observes tu: cuándo lu ves, qué fai.
+3. **Oficiu** — *Bera Y da.* o *Y-an lan egiten du.*
+4. **Caráuter** — *Oso jatorra da.* o *Lasaia / Berritsua da.*
+5. **Detalle propiu** — daqué que tu observes: cuándo lu ves, qué fai.
 
-> Nun precises dicir les cinco coses. Con tres yá hai descripción.
+> Nun precises dicir les cinco coses. Con trés yá hai descripción.
 
-## Vocabulariu pal calter del vecín
+## Vocabulariu pal caráuter del vecín
 
-| Euskera | Asturianu |
+| Eusquera | Asturianu |
 |---|---|
 | *jatorra* | simpáticu/a, cercanu |
-| *atsegina* | prestosu/a |
+| *atsegina* | agradable |
 | *alaia* | allegre |
 | *lasaia* | tranquilu/a |
-| *isila* | calláu/ada |
-| *berritsua* | charranu/a |
+| *isila* | calláu/ina |
+| *berritsua* | charlatán/ana |
 | *zaratatsua* | ruidosu/a |
-| *zakarra* | bordu / bruscu |
+| *zakarra* | borde / toscu |
 | *jakintsua* | sabiu/a |
 
 ## Testu modelu
@@ -103,9 +133,9 @@ Pa cada vecín, sigui siempre estes pieces. Si les tienes, la descripción const
 >
 > ***Hirugarrena Hodei eta Maialen dira.*** *Hauek nire ikaskideak ere badira: euskaltegira elkarrekin joaten gara. Hirugarren solairuan bizi dira eta ikasleak dira. Alaiak eta zaratatsuak dira: asteburuetan musika ozen entzuten dute.*
 
-## Agora tu: describi tres vecinos tuyos
+## Agora tu: describe a tres vecinos tuyos
 
-Sigui esta plantía y completa colos tos datos reales (o inventaos, si prefieres):
+Sigui esta plantía y completa colos tos datos reales (o inventaos, si quies):
 
 > *Nire bizilagunetatik hiru aukeratuko ditut.*
 >
@@ -115,11 +145,11 @@ Sigui esta plantía y completa colos tos datos reales (o inventaos, si prefieres
 >
 > *Hirugarrena _________ da. Hau nire _________ ere bada. _________ ditu, eta _________(e)an lan egiten du. _________-rekin bizi da.*
 
-## Frases coneutores útiles
+## Frases conectores útiles
 
-Si quies encadenar meyor les descripciones, estos coneutores cenciellos ayúdente:
+Si quies encadenar meyor les descripciones, estos conectores cenciellos ayúdenten:
 
-| Euskera | Asturianu |
+| Eusquera | Asturianu |
 |---|---|
 | *eta* | y |
 | *baina* | pero |
@@ -130,4 +160,4 @@ Si quies encadenar meyor les descripciones, estos coneutores cenciellos ayúdent
 
 > Ex.: *Bera lasaia da, **baina** asteburuetan zaratatsua bihurtzen da. **Adibidez**, ostiraletan musika entzuten du gauean.*
 
-> **Conseyu final:** les primeres descripciones a vecinos nun van ser perfeutes. Lo importante ye que'l que t'escucha entienda **quién ye**, **qué fai** y **cómo lu ves tu**. Con esa base, les correiciones de gramática vienen soles cola práutica.
+> **Conseyu final:** les primeres descripciones a vecinos nun van ser perfeutes. Lo importante ye que la persona qu'escucha entienda **quién ye**, **qué fai** y **cómo lu ves tu**. Con esa base, les correiciones de gramática vienen soles cola práutica.

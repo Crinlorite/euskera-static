@@ -7,71 +7,97 @@ level: a1
 order: 3
 title: Verbos intransitivos en pasáu recién (joan naiz, etorri naiz)
 estimatedMinutes: 12
-covers: [recent-past-naiz, izan-nor, participle-form]
+covers:
+- recent-past-naiz
+- izan-nor
+- participle-form
 exercises:
-  - id: ex-03-jn-mc1
-    type: multiple-choice
-    prompt: '"Etxera joan naiz" significa…'
-    options: ["Voi a casa", "Fui a casa", "Vendré a casa", "Toi en casa"]
-    answer: 1
-    explanation: '"Joan" + "naiz" ensin -tzen marca pasáu recién: "fui". El destín lleva -ra: *etxera* (a casa).'
-  - id: ex-03-jn-mc2
-    type: multiple-choice
-    prompt: '¿Por qué "joan" usa l''auxiliar naiz y non dut?'
-    options:
-      - "Porque entama con J"
-      - "Porque ye un verbu intransitivu (nun lleva oxetu)"
-      - "Porque ye un verbu irregular"
-      - "Porque ye un verbu de la primera conxugación"
-    answer: 1
-    explanation: 'Los verbos ensin oxetu (dir, venir, espertase...) lleven izan (naiz/zara/da). Los que tienen oxetu lleven ukan (dut/duzu/du).'
-  - id: ex-03-jn-mc3
-    type: multiple-choice
-    prompt: 'Quies dicir "Maialen vieno tarde". ¿Cómo lo dices?'
-    options:
-      - "Maialenek berandu etorri du"
-      - "Maialen berandu etorri da"
-      - "Maialen berandu etorri du"
-      - "Maialenek berandu etorri da"
-    answer: 1
-    explanation: '*Etorri* (venir) ye intransitivu: lleva *izan*. "Ella" → *da*. Ensin -k nel suxetu. Resultáu: *Maialen berandu etorri da*.'
-  - id: ex-03-jn-fb1
-    type: fill-in-blank
-    prompt: 'Esperté tarde = Berandu esnatu ___.'
-    answers: [naiz]
-    explanation: '"Esnatu" (espertase) ye intransitivu: lleva izan; "yo" → *naiz*.'
-  - id: ex-03-jn-fb2
-    type: fill-in-blank
-    prompt: 'Foron al cine = Zinera joan ___.'
-    answers: [dira]
-    explanation: '"Joan" lleva izan; "ellos" → *dira*. Resultáu: *haiek zinera joan dira*.'
-  - id: ex-03-jn-fc
-    type: flashcards
-    cards:
-      - { eu: joan naiz, es: fui }
-      - { eu: etorri naiz, es: vini }
-      - { eu: ibili naiz, es: anduvi / estuvi per ende }
-      - { eu: esnatu naiz, es: esperté }
-      - { eu: jaiki naiz, es: llevantéme }
-      - { eu: dutxatu naiz, es: ducheme }
-      - { eu: jantzi naiz, es: vistíme }
-      - { eu: oheratu naiz, es: acostéme }
-      - { eu: lokartu naiz, es: adormecíme }
-      - { eu: erori naiz, es: caí }
-      - { eu: eseri naiz, es: senteme }
-      - { eu: igo naiz, es: xubí }
-      - { eu: jaitsi naiz, es: baxé }
-      - { eu: sartu naiz, es: entré }
-      - { eu: atera naiz, es: salí }
-      - { eu: gaixotu naiz, es: enfermé / púnxeme malu }
-      - { eu: egon naiz, es: estuvi }
+- id: ex-03-jn-mc1
+  type: multiple-choice
+  prompt: '"Etxera joan naiz" significa…'
+  options:
+  - Voi a casa
+  - Fui a casa
+  - Vendré a casa
+  - Toi en casa
+  answer: 1
+  explanation: '"Joan" + "naiz" ensin -tzen marca pasáu recién: "fui". El destín lleva -ra: *etxera* (a casa).'
+- id: ex-03-jn-mc2
+  type: multiple-choice
+  prompt: ¿Por qué "joan" usa l'auxiliar naiz y non dut?
+  options:
+  - Porque entama con J
+  - Porque ye un verbu intransitivu (nun lleva oxetu)
+  - Porque ye un verbu irregular
+  - Porque ye un verbu de la primera conxugación
+  answer: 1
+  explanation: Los verbos ensin oxetu (dir, venir, espertase...) lleven izan (naiz/zara/da). Los que tienen oxetu lleven ukan (dut/duzu/du).
+- id: ex-03-jn-mc3
+  type: multiple-choice
+  prompt: Quies dicir "Maialen vieno tarde". ¿Cómo lo dices?
+  options:
+  - Maialenek berandu etorri du
+  - Maialen berandu etorri da
+  - Maialen berandu etorri du
+  - Maialenek berandu etorri da
+  answer: 1
+  explanation: '*Etorri* (venir) ye intransitivu: lleva *izan*. "Ella" → *da*. Ensin -k nel suxetu. Resultáu: *Maialen berandu etorri da*.'
+- id: ex-03-jn-fb1
+  type: fill-in-blank
+  prompt: Espertéme tarde = Berandu esnatu ___.
+  answers:
+  - naiz
+  explanation: '"Esnatu" (espertase) ye intransitivu: lleva izan; "yo" → *naiz*.'
+- id: ex-03-jn-fb2
+  type: fill-in-blank
+  prompt: Foron al cine = Zinera joan ___.
+  answers:
+  - dira
+  explanation: '"Joan" lleva izan; "ellos" → *dira*. Resultáu: *haiek zinera joan dira*.'
+- id: ex-03-jn-fc
+  type: flashcards
+  cards:
+  - eu: joan naiz
+    es: fui
+  - eu: etorri naiz
+    es: vini
+  - eu: ibili naiz
+    es: anduvi / estuvi per ende
+  - eu: esnatu naiz
+    es: espertéme
+  - eu: jaiki naiz
+    es: llevantéme
+  - eu: dutxatu naiz
+    es: duchéme
+  - eu: jantzi naiz
+    es: vistíme
+  - eu: oheratu naiz
+    es: acostéme
+  - eu: lokartu naiz
+    es: adormecíme
+  - eu: erori naiz
+    es: caí
+  - eu: eseri naiz
+    es: sentéme
+  - eu: igo naiz
+    es: xubí
+  - eu: jaitsi naiz
+    es: baxé
+  - eu: sartu naiz
+    es: entré
+  - eu: atera naiz
+    es: salí
+  - eu: gaixotu naiz
+    es: enfermé / púnxeme malu
+  - eu: egon naiz
+    es: estuvi
 ---
 
-Los **verbos intransitivos** son los que **nun lleven oxetu**: naide *espierta daqué* o *va daqué* — ún cenciellamente *espiértase*, *va*, *vien*. En euskera, estos verbos usen l'auxiliar **izan** (naiz, zara, da…). Nel pasáu recién la fórmula ye:
+Los **verbos intransitivos** son los que **nun lleven oxetu**: naide *espierta daqué* o *va daqué* — ún cenciellamente *espiértase*, *va*, *vien*. N'euskera, estos verbos usen l'auxiliar **izan** (naiz, zara, da…). Nel pasáu recién la fórmula ye:
 
 > **partizipioa + naiz/zara/da/gara/zarete/dira**
 
-## La estremadura clave: NOR vs NOR-NORK
+## La distinción clave: NOR vs NOR-NORK
 
 Esta ye **la regla fundamental** del euskera y la dificultá principal d'esta unidá:
 
@@ -80,11 +106,11 @@ Esta ye **la regla fundamental** del euskera y la dificultá principal d'esta un
 | Intransitivu (NOR) | NON | *izan* (naiz/zara/da…) | *joan naiz* (fui) |
 | Transitivu (NOR-NORK) | SÍ | *ukan* (dut/duzu/du…) | *jan dut* (comí daqué) |
 
-> **Truco práuticu:** si en asturianu pues entrugar "¿qué?" dempués del verbu (¿qué comí? ¿qué vi?), ye transitivu y va con *dut*. Si nun se pue ("¿qué fui?" nun furrula), ye intransitivu y va con *naiz*.
+> **Trucu práuticu:** si n'asturianu pues preguntar "¿qué?" dempués del verbu (¿qué comí? ¿qué vi?), ye transitivu y va con *dut*. Si nun se pue ("¿qué fui?" nun funciona), ye intransitivu y va con *naiz*.
 
 ## Verbos intransitivos básicos
 
-| Partizipioa | Yo (… ) | Asturianu |
+| Partizipioa | Yo | Asturianu |
 |---|---|---|
 | *joan* | **joan naiz** | fui |
 | *etorri* | **etorri naiz** | vini |
@@ -96,15 +122,15 @@ Esta ye **la regla fundamental** del euskera y la dificultá principal d'esta un
 | *itzuli* | **itzuli naiz** | volví |
 | *bueltatu* | **bueltatu naiz** | volví (variante) |
 | *iritsi* | **iritsi naiz** | aporté |
-| *esnatu* | **esnatu naiz** | esperté |
+| *esnatu* | **esnatu naiz** | espertéme |
 | *jaiki* | **jaiki naiz** | llevantéme |
 | *altxatu* | **altxatu naiz** | llevantéme |
-| *dutxatu* | **dutxatu naiz** | ducheme |
+| *dutxatu* | **dutxatu naiz** | duchéme |
 | *jantzi* | **jantzi naiz** | vistíme |
 | *oheratu* | **oheratu naiz** | acostéme |
 | *lokartu* | **lokartu naiz** | adormecíme |
 | *erori* | **erori naiz** | caí |
-| *eseri* | **eseri naiz** | senteme |
+| *eseri* | **eseri naiz** | sentéme |
 | *gaixotu* | **gaixotu naiz** | púnxeme malu |
 | *egon* | **egon naiz** | estuvi |
 
@@ -118,7 +144,7 @@ Con *joan* (dir):
 | Zu | **joan zara** | Fuisti |
 | Hura | **joan da** | Foi |
 | Gu | **joan gara** | Fuimos |
-| Zuek | **joan zarete** | Fuisteis |
+| Zuek | **joan zarete** | Fuistis |
 | Haiek | **joan dira** | Foron |
 
 > Los pronomes equí van **ensin -k** (van con NOR, non con NORK): *ni*, non *nik*; *Maialen*, non *Maialenek*. Nesti patrón los nomes propios van tal cual: *Egoitz etorri da* (Egoitz vieno), *Maialen joan da* (Maialen foi).
@@ -127,21 +153,21 @@ Con *joan* (dir):
 
 | Intransitivu (NAIZ) | Transitivu (DUT) |
 |---|---|
-| *joan naiz* (fui) | *eraman dut* (lleví) |
+| *joan naiz* (fui) | *eraman dut* (llevé) |
 | *etorri naiz* (vini) | *ekarri dut* (traxi) |
-| *esnatu naiz* (esperté) | *esnatu dut umea* (esperté al neñu) |
+| *esnatu naiz* (espertéme) | *esnatu dut umea* (esperté al neñu) |
 | *jaiki naiz* (llevantéme) | *jaso dut* (recoyí) |
 
-> Dalgunos verbos puen ser intransitivos **o** transitivos según el contestu: *esnatzen naiz* = espierto; *umea esnatu dut* = esperté al neñu. En A1 céntrate nes pareyes más comunes.
+> Dalgunos verbos puen ser intransitivos **o** transitivos según el contestu: *esnatzen naiz* = espiértome; *umea esnatu dut* = esperté al neñu. N'A1 céntrate nes pareyes más comunes.
 
 ## Frases típiques
 
-- *Goizeko zazpietan esnatu naiz.* — Esperté a les siete de la mañana.
+- *Goizeko zazpietan esnatu naiz.* — Espertéme a les siete de la mañana.
 - *Lanera autobusez joan naiz.* — Fui al trabayu n'autobús.
-- *Etxera oinez etorri naiz.* — Vini a casa andando.
+- *Etxera oinez etorri naiz.* — Vini a casa a cuerpu.
 - *Egoitz berandu jaiki da gaur.* — Egoitz llevantóse tarde güei.
 - *Gu zinera joan gara.* — Nós fuimos al cine.
-- *Haiek tabernan egon dira.* — Ellos estuvieron na taberna.
+- *Haiek tabernan egon dira.* — Ellos tuvieron na tabierna.
 
 ## Negación
 
@@ -149,7 +175,7 @@ Con *joan* (dir):
 >
 > *Ez da etorri.* — Nun vieno.
 >
-> *Ez gara goiz esnatu.* — Nun espertemos ceo.
+> *Ez gara goiz esnatu.* — Nun nos espertemos ceo.
 
 ## Mini-diálogu
 

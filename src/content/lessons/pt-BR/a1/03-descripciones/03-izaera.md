@@ -7,81 +7,120 @@ level: a1
 order: 3
 title: Como é por dentro (izaera)
 estimatedMinutes: 10
-covers: [character, izan-nor]
+covers:
+- character
+- izan-nor
 exercises:
-  - id: ex-iza-mc1
-    type: multiple-choice
-    prompt: '"Alaia" significa…'
-    options: [entediado, alegre, nervoso, calado]
-    answer: 1
-    explanation: '*alaia* é "alegre". É um dos adjetivos de caráter mais comuns.'
-  - id: ex-iza-mc2
-    type: multiple-choice
-    prompt: 'Você quer dizer "Meu pai é trabalhador". Qual é a forma correta?'
-    options: [Nire aita lan da, Nire aita langilea da, Nire aita lana du, Nire aita langilea du]
-    answer: 1
-    explanation: '*langilea* (de *lan*, "trabalho") = trabalhador/a. Vai com *izan*.'
-  - id: ex-iza-fb1
-    type: fill-in-blank
-    prompt: 'Maialen oso ___ da. (Maialen é muito simpática)'
-    answers: [atsegina, jatorra]
-    explanation: '*atsegina* ou *jatorra* servem para "simpática" / "gente boa".'
-  - id: ex-iza-fb2
-    type: fill-in-blank
-    prompt: 'Hura isila da, baina ni ___ naiz. (Ele é calado, mas eu sou falador/tagarela)'
-    answers: [berritsua]
-    explanation: '*berritsua* = falador, tagarela — o oposto de *isila*.'
-  - id: ex-iza-fc
-    type: flashcards
-    cards:
-      - { eu: alaia, es: alegre }
-      - { eu: jatorra, es: 'gente boa, simpática' }
-      - { eu: atsegina, es: 'amável, agradável' }
-      - { eu: ona, es: bom/boa }
-      - { eu: txarra, es: mau/má }
-      - { eu: isila, es: calado/silencioso }
-      - { eu: berritsua, es: 'tagarela, falador' }
-      - { eu: lasaia, es: tranquilo }
-      - { eu: urduria, es: nervoso }
-      - { eu: langilea, es: trabalhador }
-      - { eu: alferra, es: preguiçoso }
-      - { eu: ausarta, es: corajoso }
-      - { eu: beldurtia, es: medroso }
-      - { eu: bihurria, es: travesso }
-      - { eu: zintzoa, es: 'sério, honrado' }
-      - { eu: serioa, es: sério }
-      - { eu: lotsatia, es: tímido }
-      - { eu: bikaina, es: 'excelente, ótimo' }
-  - id: ex-iza-mp
-    type: match-pairs
-    pairs:
-      - { eu: alaia, es: alegre }
-      - { eu: isila, es: calado }
-      - { eu: berritsua, es: falador }
-      - { eu: lasaia, es: tranquilo }
-      - { eu: urduria, es: nervoso }
-      - { eu: langilea, es: trabalhador }
-      - { eu: alferra, es: preguiçoso }
-      - { eu: jatorra, es: simpático }
+- id: ex-iza-mc1
+  type: multiple-choice
+  prompt: '"Alaia" significa…'
+  options:
+  - aburrido
+  - alegre
+  - nervioso
+  - callado
+  answer: 1
+  explanation: '*alaia* é "alegre". É um dos adjetivos de personalidade mais comuns.'
+- id: ex-iza-mc2
+  type: multiple-choice
+  prompt: Você quer dizer "Meu pai é trabalhador". Qual é a forma correta?
+  options:
+  - Nire aita lan da
+  - Nire aita langilea da
+  - Nire aita lana du
+  - Nire aita langilea du
+  answer: 1
+  explanation: '*langilea* (de *lan*, "trabalho") = trabalhador/a. Vai com *izan*.'
+- id: ex-iza-fb1
+  type: fill-in-blank
+  prompt: Maialen oso ___ da. (Maialen é muito simpática)
+  answers:
+  - atsegina
+  - jatorra
+  explanation: '*atsegina* ou *jatorra* servem para "simpática" / "gente boa".'
+- id: ex-iza-fb2
+  type: fill-in-blank
+  prompt: Hura isila da, baina ni ___ naiz. (Ele é calado, mas eu sou falador/tagarela)
+  answers:
+  - berritsua
+  explanation: '*berritsua* = falador, tagarela — o oposto de *isila*.'
+- id: ex-iza-fc
+  type: flashcards
+  cards:
+  - eu: alaia
+    es: alegre
+  - eu: jatorra
+    es: gente boa, simpática
+  - eu: atsegina
+    es: amável, agradável
+  - eu: ona
+    es: bom/boa
+  - eu: txarra
+    es: mau/má
+  - eu: isila
+    es: calado/silencioso
+  - eu: berritsua
+    es: tagarela, falador
+  - eu: lasaia
+    es: tranquilo
+  - eu: urduria
+    es: nervoso
+  - eu: langilea
+    es: trabalhador
+  - eu: alferra
+    es: preguiçoso
+  - eu: ausarta
+    es: corajoso
+  - eu: beldurtia
+    es: medroso
+  - eu: bihurria
+    es: travesso
+  - eu: zintzoa
+    es: comportado, honrado
+  - eu: serioa
+    es: sério
+  - eu: lotsatia
+    es: tímido
+  - eu: bikaina
+    es: excelente, ótimo
+- id: ex-iza-mp
+  type: match-pairs
+  pairs:
+  - eu: alaia
+    es: alegre
+  - eu: isila
+    es: callado
+  - eu: berritsua
+    es: hablador
+  - eu: lasaia
+    es: tranquilo
+  - eu: urduria
+    es: nervioso
+  - eu: langilea
+    es: trabajador
+  - eu: alferra
+    es: vago
+  - eu: jatorra
+    es: simpático
 ---
 
-Depois de descrever como alguém é fisicamente, o natural é contar **como é por dentro**: seu caráter, seu jeito de ser. Em euskera esses adjetivos também se constroem com **izan** + adjetivo + `-a`, igual aos físicos.
+Depois de descrever como alguém é fisicamente, o natural é contar **como é por dentro**: sua personalidade, seu jeito de ser. Em basco, esses adjetivos também se constroem com **izan** + adjetivo + `-a`, igual aos físicos.
 
-## Vocabulário básico de caráter
+## Vocabulário básico de personalidade
 
 Os adjetivos quase sempre vêm em pares de opostos:
 
 | Euskera | Português | Contrário |
 |---|---|---|
-| *alaia* | alegre | *triste* (triste — mas atenção, isso é estado) |
+| *alaia* | alegre | *triste* (triste — mas atenção, isso é um estado) |
 | *jatorra* | gente boa, simpático | — |
 | *atsegina* | amável, agradável | — |
-| *ona* | bom | *txarra* (mau) |
+| *ona* | bom/boa | *txarra* (mau/má) |
 | *isila* | calado | *berritsua* (tagarela) |
 | *lasaia* | tranquilo | *urduria* (nervoso) |
 | *langilea* | trabalhador | *alferra* (preguiçoso) |
 | *ausarta* | corajoso | *beldurtia* (medroso) |
-| *zintzoa* | sério, honrado | *bihurria* (travesso, levado) |
+| *zintzoa* | comportado, honrado | *bihurria* (travesso, levado) |
 | *serioa* | sério | — |
 | *lotsatia* | tímido | — |
 | *bikaina* | excelente, ótimo | — |
@@ -98,7 +137,7 @@ Os adjetivos quase sempre vêm em pares de opostos:
 
 ## Encadear vários adjetivos
 
-Uma maneira bem natural de apresentar alguém é dizer 3-4 características seguidas. O euskera faz isso com a conjunção **eta** ("e") apenas antes da última:
+Uma maneira bem natural de apresentar alguém é dizer 3-4 características seguidas. O basco faz isso com a conjunção **eta** ("e") apenas antes da última:
 
 > *Nire arreba alaia, jatorra **eta** langilea da.*
 >
@@ -115,4 +154,4 @@ Uma maneira bem natural de apresentar alguém é dizer 3-4 características segu
 
 > *Nire ama oso jatorra eta atsegina da. Lasaia da, baina nire aita urduria da. Anaia bihurri samarra da, baina ni zintzoa naiz!*
 >
-> Minha mãe é muito gente boa e amável. É tranquila, mas meu pai é nervoso. Meu irmão é bem travesso, mas eu sou sério!
+> Minha mãe é muito gente boa e amável. É tranquila, mas meu pai é nervoso. Meu irmão é bem travesso, mas eu sou comportado!

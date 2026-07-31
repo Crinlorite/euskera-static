@@ -7,52 +7,78 @@ level: a1
 order: 2
 title: Și jumătate, și un sfert, fără (eta erdiak, eta laurden, gutxi)
 estimatedMinutes: 12
-covers: [time-detail, time-basics]
+covers:
+- time-detail
+- time-basics
 exercises:
-  - id: ex-02-ee-mc1
-    type: multiple-choice
-    prompt: 'Este cinci și jumătate. Cum spui asta în euskera?'
-    options: ["Bost eta erdi da", "Bost eta erdiak dira", "Bostak erdi dira", "Bost erdi"]
-    answer: 1
-    explanation: 'Pentru „și jumătate” se folosește „eta erdiak” (literal „și jumătăți”, tot la plural). Numărul se pune fără „-ak” înainte de „eta erdiak”: „bost eta erdiak”.'
-  - id: ex-02-ee-mc2
-    type: multiple-choice
-    prompt: 'Este trei și un sfert. Cum spui?'
-    options: ["Hiruak eta laurden", "Hiruak eta laurdenak dira", "Hirurak eta laurden dira", "Hiru eta laurdenak"]
-    answer: 2
-    explanation: '„Eta laurden” înseamnă „și un sfert”; ora este la plural („hirurak”): *Hirurak eta laurden dira*.'
-  - id: ex-02-ee-mc3
-    type: multiple-choice
-    prompt: 'Este nouă fără un sfert. Cum spui?'
-    options: ["Bederatziak laurden gutxi dira", "Bederatziak gutxi laurden", "Laurden bederatziak dira", "Bederatzi gutxi laurden"]
-    answer: 0
-    explanation: 'În euskera „fără” se spune „gutxi” și vine după. Literal: „nouăle sfert mai puțin”.'
-  - id: ex-02-ee-fb1
-    type: fill-in-blank
-    prompt: 'Este șapte și cinci = Zazpiak eta ___ dira.'
-    answers: [bost]
-    explanation: 'Minutele trecute se spun cu „eta + număr”. Cinci = bost.'
-  - id: ex-02-ee-fb2
-    type: fill-in-blank
-    prompt: 'Este patru fără zece = Laurak hamar ___ dira.'
-    answers: [gutxi]
-    explanation: '„Gutxi” înseamnă „fără” în expresiile despre oră.'
-  - id: ex-02-ee-fc
-    type: flashcards
-    cards:
-      - { eu: eta erdiak, es: 'și jumătate (3:30 = hiru eta erdiak)' }
-      - { eu: eta laurden, es: 'și un sfert (3:15 = hirurak eta laurden)' }
-      - { eu: laurden gutxi, es: 'fără un sfert (2:45 = hirurak laurden gutxi)' }
-      - { eu: gutxi, es: fără (în expresiile despre oră) }
-      - { eu: Bostak eta erdiak dira, es: 'Este cinci și jumătate' }
-      - { eu: Hirurak eta laurden dira, es: 'Este trei și un sfert' }
-      - { eu: Bederatziak laurden gutxi dira, es: 'Este nouă fără un sfert' }
-      - { eu: Hamarrak eta hamar dira, es: 'Este zece și zece' }
-      - { eu: Zortziak hamar gutxi dira, es: 'Este opt fără zece' }
-      - { eu: Sei eta erdiak dira, es: 'Este șase și jumătate' }
+- id: ex-02-ee-mc1
+  type: multiple-choice
+  prompt: Este cinci și jumătate. Cum spui asta în euskera?
+  options:
+  - Bost eta erdi da
+  - Bost eta erdiak dira
+  - Bostak erdi dira
+  - Bost erdi
+  answer: 1
+  explanation: 'Pentru „și jumătate” se folosește „eta erdiak” (literal „și jumătăți”, tot la plural). Numărul se pune fără „-ak” înainte de „eta erdiak”: „bost eta erdiak”.'
+- id: ex-02-ee-mc2
+  type: multiple-choice
+  prompt: Este trei și un sfert. Cum spui?
+  options:
+  - Hiruak eta laurden
+  - Hiruak eta laurdenak dira
+  - Hirurak eta laurden dira
+  - Hiru eta laurdenak
+  answer: 2
+  explanation: '„Eta laurden” înseamnă „și un sfert”; ora este la plural („hirurak”): *Hirurak eta laurden dira*.'
+- id: ex-02-ee-mc3
+  type: multiple-choice
+  prompt: Este nouă fără un sfert. Cum spui?
+  options:
+  - Bederatziak laurden gutxi dira
+  - Bederatziak gutxi laurden
+  - Laurden bederatziak dira
+  - Bederatzi gutxi laurden
+  answer: 0
+  explanation: 'În euskera, „fără” se spune „gutxi” și se pune după. Literal: „ora nouă sfert fără”.'
+- id: ex-02-ee-fb1
+  type: fill-in-blank
+  prompt: Este șapte și cinci = Zazpiak eta ___ dira.
+  answers:
+  - bost
+  explanation: Minutele trecute se spun cu „eta + număr”. Cinci = bost.
+- id: ex-02-ee-fb2
+  type: fill-in-blank
+  prompt: Este patru fără zece = Laurak hamar ___ dira.
+  answers:
+  - gutxi
+  explanation: „Gutxi” înseamnă „fără” în expresiile despre oră.
+- id: ex-02-ee-fc
+  type: flashcards
+  cards:
+  - eu: eta erdiak
+    es: și jumătate (3:30 = hiru eta erdiak)
+  - eu: eta laurden
+    es: și un sfert (3:15 = hirurak eta laurden)
+  - eu: laurden gutxi
+    es: fără un sfert (2:45 = hirurak laurden gutxi)
+  - eu: gutxi
+    es: fără (în expresiile despre oră)
+  - eu: Bostak eta erdiak dira
+    es: Este cinci și jumătate
+  - eu: Hirurak eta laurden dira
+    es: Este trei și un sfert
+  - eu: Bederatziak laurden gutxi dira
+    es: Este nouă fără un sfert
+  - eu: Hamarrak eta hamar dira
+    es: Este zece și zece
+  - eu: Zortziak hamar gutxi dira
+    es: Este opt fără zece
+  - eu: Sei eta erdiak dira
+    es: Este șase și jumătate
 ---
 
-Pentru minutele în euskera există trei construcții care acoperă aproape totul: **eta erdiak** (și jumătate), **eta laurden** (și un sfert) și **gutxi** (fără). Trucul stă în a ști unde se așază fiecare lucru.
+Pentru minutele în euskera există trei construcții care acoperă aproape totul: **eta erdiak** (și jumătate), **eta laurden** (și un sfert) și **gutxi** (fără). Trucul stă în a ști unde se așază fiecare.
 
 ## „Și jumătate” — cazul special
 
@@ -85,7 +111,7 @@ Când au trecut minute de la ora fixă, folosești formula **ORA-ak eta MINUTE**
 
 ## „Fără” — gutxi vine după
 
-De la jumătate înainte, vorbim în funcție de ora următoare cu cuvântul **gutxi** („fără”). Ordinea este: **ORA-ak + MINUTE + gutxi**.
+De la jumătate încolo, vorbim în funcție de ora următoare cu cuvântul **gutxi** („fără”). Ordinea este: **ORA-ak + MINUTE + gutxi**.
 
 | Ora | Euskera |
 |---|---|
@@ -95,7 +121,7 @@ De la jumătate înainte, vorbim în funcție de ora următoare cu cuvântul **g
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Dacă vii din limba spaniolă, cel mai ciudat este că **gutxi** vine **după** număr, nu înainte. *Bederatziak laurden gutxi* înseamnă literal „nouăle sfert mai puțin”.
+> Pentru un vorbitor de spaniolă, cel mai ciudat este că **gutxi** se pune **după** număr, nu înaintea lui. *Bederatziak laurden gutxi* înseamnă, literal, „ora nouă sfert fără”.
 
 ## Tabel rezumat
 

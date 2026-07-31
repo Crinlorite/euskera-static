@@ -7,55 +7,88 @@ level: a1
 order: 4
 title: Cites i compromisos (hitzorduak)
 estimatedMinutes: 10
-covers: [weekly-planning, time-when, companions-rekin]
+covers:
+- weekly-planning
+- time-when
+- companions-rekin
 exercises:
-  - id: ex-hit-mc1
-    type: multiple-choice
-    prompt: '"Quedo amb en Mikel demà" es diu…'
-    options: ['Bihar Mikelarekin geratuko naiz', 'Bihar Mikelekin geratuko naiz', 'Bihar Mikel naiz', 'Bihar Mikelan geratuko naiz']
-    answer: 1
-    explanation: '*Mikel + -ekin* (amb) = *Mikelekin*. *Geratuko naiz* — quedaré.'
-  - id: ex-hit-mc2
-    type: multiple-choice
-    prompt: '"Tinc reunió a les cinc" =…'
-    options: ['Bilera dut bostetan', 'Bilera bostak da', 'Bostetan bilera dut', 'Les opcions 1 i 3 són correctes']
-    answer: 3
-    explanation: 'En basc l''ordre és flexible: *Bostetan bilera dut* i *Bilera dut bostetan* són tots dos correctes.'
-  - id: ex-hit-fb1
-    type: fill-in-blank
-    prompt: '"A quina hora quedem?" = ___ ordutan geratuko gara?'
-    answers: [Zer, zer]
-    explanation: '*Zer ordutan?* — "a quina hora?" (literal: "en quina hora?").'
-  - id: ex-hit-fb2
-    type: fill-in-blank
-    prompt: '"Cap a les nou" = Bederatziak ___'
-    answers: [aldera]
-    explanation: '*Aldera* — "al voltant de", "cap a". *Bederatziak aldera* — "cap a les nou".'
-  - id: ex-hit-fc
-    type: flashcards
-    cards:
-      - { eu: hitzordua, es: cita }
-      - { eu: bilera, es: reunió }
-      - { eu: 'Bilera dut', es: Tinc reunió }
-      - { eu: 'Mikelekin geratu naiz', es: He quedat amb en Mikel }
-      - { eu: 'Mikelekin geratuko naiz', es: Quedaré amb en Mikel }
-      - { eu: 'Zer ordutan geratuko gara?', es: A quina hora quedem? }
-      - { eu: 'Bederatziak aldera', es: Cap a les nou }
-      - { eu: 'Libre nago', es: Estic lliure }
-      - { eu: 'Lanpetuta nago', es: Estic ocupat/ada }
-      - { eu: 'Ezin dut, beste plan bat dut', es: 'No puc, tinc un altre pla' }
-      - { eu: 'Ados!', es: 'D''acord!' }
-      - { eu: dentista, es: dentista }
-      - { eu: medikua, es: el metge }
-  - id: ex-hit-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'hitzordua', es: cita }
-      - { eu: 'bilera', es: reunió }
-      - { eu: 'libre', es: lliure }
-      - { eu: 'lanpetuta', es: ocupat/ada }
-      - { eu: 'geratu', es: quedar }
-      - { eu: 'geratuko gara', es: quedarem }
+- id: ex-hit-mc1
+  type: multiple-choice
+  prompt: '"Quedo amb en Mikel demà" es diu…'
+  options:
+  - Bihar Mikelarekin geratuko naiz
+  - Bihar Mikelekin geratuko naiz
+  - Bihar Mikel naiz
+  - Bihar Mikelan geratuko naiz
+  answer: 1
+  explanation: '*Mikel + -ekin* (amb) = *Mikelekin*. *Geratuko naiz* — quedaré.'
+- id: ex-hit-mc2
+  type: multiple-choice
+  prompt: '"Tinc reunió a les cinc" =…'
+  options:
+  - Bilera dut bostetan
+  - Bilera bostak da
+  - Bostetan bilera dut
+  - Les opcions 1 i 3 són correctes
+  answer: 3
+  explanation: 'En basc l''ordre és flexible: *Bostetan bilera dut* i *Bilera dut bostetan* són tots dos correctes.'
+- id: ex-hit-fb1
+  type: fill-in-blank
+  prompt: '"A quina hora quedem?" = ___ ordutan geratuko gara?'
+  answers:
+  - Zer
+  - zer
+  explanation: '*Zer ordutan?* — "a quina hora?" (literal: "en quina hora?").'
+- id: ex-hit-fb2
+  type: fill-in-blank
+  prompt: '"Cap a les nou" = Bederatziak ___'
+  answers:
+  - aldera
+  explanation: '*Aldera* — "al voltant de", "cap a". *Bederatziak aldera* — "cap a les nou".'
+- id: ex-hit-fc
+  type: flashcards
+  cards:
+  - eu: hitzordua
+    es: cita
+  - eu: bilera
+    es: reunió
+  - eu: Bilera dut
+    es: Tinc reunió
+  - eu: Mikelekin geratu naiz
+    es: He quedat amb en Mikel
+  - eu: Mikelekin geratuko naiz
+    es: Quedaré amb en Mikel
+  - eu: Zer ordutan geratuko gara?
+    es: A quina hora quedem?
+  - eu: Bederatziak aldera
+    es: Cap a les nou
+  - eu: Libre nago
+    es: Estic lliure
+  - eu: Lanpetuta nago
+    es: Estic ocupat/ada
+  - eu: Ezin dut, beste plan bat dut
+    es: No puc, tinc un altre pla
+  - eu: Ados!
+    es: D'acord!
+  - eu: dentista
+    es: dentista
+  - eu: medikua
+    es: el metge
+- id: ex-hit-mp
+  type: match-pairs
+  pairs:
+  - eu: hitzordua
+    es: cita
+  - eu: bilera
+    es: reunió
+  - eu: libre
+    es: libre
+  - eu: lanpetuta
+    es: ocupado/a
+  - eu: geratu
+    es: quedar
+  - eu: geratuko gara
+    es: quedaremos
 ---
 
 Una agenda viva és plena de cites i compromisos. Aquesta lliçó t'ensenya a parlar-ne: tenir una cita, quedar amb algú, dir si estàs lliure.
@@ -137,7 +170,7 @@ Frases típiques per concretar:
 Quan rebutges alguna cosa, el natural és donar el motiu amb el sufix **-elako** (perquè):
 
 - *Ezin dut, lan egin behar du**dalako**.* — No puc, **perquè** he de treballar.
-- *Ezin dut, gaixorik nago**elako**.* — No puc, **perquè** estic malalt.
+- *Ezin dut, gaixorik nago**elako**.* — No puc, **perquè** estic malalt/a.
 - *Ezin dut, amarekin egon behar du**dalako**.* — No puc, **perquè** he d'estar amb la meva mare.
 
 > **Nota cultural:** als euskaltegis i entorns formals es reserva *hitzordua* per a cites concretes (metge, perruqueria). Entre amics és més natural fer servir *geratu* + *-ekin*, sense la paraula *hitzordua* tret que vulguis subratllar que és quelcom formal.

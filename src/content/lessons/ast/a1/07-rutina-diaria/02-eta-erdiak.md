@@ -7,49 +7,75 @@ level: a1
 order: 2
 title: Y media, y cuartu, menos (eta erdiak, eta laurden, gutxi)
 estimatedMinutes: 12
-covers: [time-detail, time-basics]
+covers:
+- time-detail
+- time-basics
 exercises:
-  - id: ex-02-ee-mc1
-    type: multiple-choice
-    prompt: 'Son les cinco y media. ¿Cómo lo dices n''euskera?'
-    options: ["Bost eta erdi da", "Bost eta erdiak dira", "Bostak erdi dira", "Bost erdi"]
-    answer: 1
-    explanation: 'Pa "y media" úsase "eta erdiak" (lliteralmente "y medies", tamién plural). El númberu va ensin "-ak" enantes de "eta erdiak": "bost eta erdiak".'
-  - id: ex-02-ee-mc2
-    type: multiple-choice
-    prompt: 'Son les trés y cuartu. ¿Cómo lo dices?'
-    options: ["Hiruak eta laurden", "Hiruak eta laurdenak dira", "Hirurak eta laurden dira", "Hiru eta laurdenak"]
-    answer: 2
-    explanation: '"Eta laurden" significa "y cuartu"; la hora va en plural ("hirurak"): *Hirurak eta laurden dira*.'
-  - id: ex-02-ee-mc3
-    type: multiple-choice
-    prompt: 'Son les nueve menos cuartu. ¿Cómo lo dices?'
-    options: ["Bederatziak laurden gutxi dira", "Bederatziak gutxi laurden", "Laurden bederatziak dira", "Bederatzi gutxi laurden"]
-    answer: 0
-    explanation: 'N''euskera "menos" dizse "gutxi" y va detrás. Lliteral: "les nueves cuartu menos".'
-  - id: ex-02-ee-fb1
-    type: fill-in-blank
-    prompt: 'Son les siete y cinco = Zazpiak eta ___ dira.'
-    answers: [bost]
-    explanation: 'Los minutos pasaos dizse con "eta + númberu". Cinco = bost.'
-  - id: ex-02-ee-fb2
-    type: fill-in-blank
-    prompt: 'Son les cuatro menos diez = Laurak hamar ___ dira.'
-    answers: [gutxi]
-    explanation: '"Gutxi" significa "menos" nes espresiones de hora.'
-  - id: ex-02-ee-fc
-    type: flashcards
-    cards:
-      - { eu: eta erdiak, es: 'y media (3:30 = hiru eta erdiak)' }
-      - { eu: eta laurden, es: 'y cuartu (3:15 = hirurak eta laurden)' }
-      - { eu: laurden gutxi, es: 'menos cuartu (2:45 = hirurak laurden gutxi)' }
-      - { eu: gutxi, es: menos (nes espresiones de hora) }
-      - { eu: Bostak eta erdiak dira, es: 'Son les cinco y media' }
-      - { eu: Hirurak eta laurden dira, es: 'Son les trés y cuartu' }
-      - { eu: Bederatziak laurden gutxi dira, es: 'Son les nueve menos cuartu' }
-      - { eu: Hamarrak eta hamar dira, es: 'Son les diez y diez' }
-      - { eu: Zortziak hamar gutxi dira, es: 'Son les ocho menos diez' }
-      - { eu: Sei eta erdiak dira, es: 'Son les seis y media' }
+- id: ex-02-ee-mc1
+  type: multiple-choice
+  prompt: Son les cinco y media. ¿Cómo lo dices n'euskera?
+  options:
+  - Bost eta erdi da
+  - Bost eta erdiak dira
+  - Bostak erdi dira
+  - Bost erdi
+  answer: 1
+  explanation: 'Pa "y media" úsase "eta erdiak" (lliteralmente "y medies", tamién plural). El númberu va ensin "-ak" enantes de "eta erdiak": "bost eta erdiak".'
+- id: ex-02-ee-mc2
+  type: multiple-choice
+  prompt: Son les trés y cuartu. ¿Cómo lo dices?
+  options:
+  - Hiruak eta laurden
+  - Hiruak eta laurdenak dira
+  - Hirurak eta laurden dira
+  - Hiru eta laurdenak
+  answer: 2
+  explanation: '"Eta laurden" significa "y cuartu"; la hora va en plural ("hirurak"): *Hirurak eta laurden dira*.'
+- id: ex-02-ee-mc3
+  type: multiple-choice
+  prompt: Son les nueve menos cuartu. ¿Cómo lo dices?
+  options:
+  - Bederatziak laurden gutxi dira
+  - Bederatziak gutxi laurden
+  - Laurden bederatziak dira
+  - Bederatzi gutxi laurden
+  answer: 0
+  explanation: 'N''euskera "menos" dizse "gutxi" y va detrás. Lliteral: "les nueves cuartu menos".'
+- id: ex-02-ee-fb1
+  type: fill-in-blank
+  prompt: Son les siete y cinco = Zazpiak eta ___ dira.
+  answers:
+  - bost
+  explanation: Los minutos pasaos dicen con "eta + númberu". Cinco = bost.
+- id: ex-02-ee-fb2
+  type: fill-in-blank
+  prompt: Son les cuatro menos diez = Laurak hamar ___ dira.
+  answers:
+  - gutxi
+  explanation: '"Gutxi" significa "menos" nes espresiones de hora.'
+- id: ex-02-ee-fc
+  type: flashcards
+  cards:
+  - eu: eta erdiak
+    es: y media (3:30 = hiru eta erdiak)
+  - eu: eta laurden
+    es: y cuartu (3:15 = hirurak eta laurden)
+  - eu: laurden gutxi
+    es: menos cuartu (2:45 = hirurak laurden gutxi)
+  - eu: gutxi
+    es: menos (nes espresiones de hora)
+  - eu: Bostak eta erdiak dira
+    es: Son les cinco y media
+  - eu: Hirurak eta laurden dira
+    es: Son les trés y cuartu
+  - eu: Bederatziak laurden gutxi dira
+    es: Son les nueve menos cuartu
+  - eu: Hamarrak eta hamar dira
+    es: Son les diez y diez
+  - eu: Zortziak hamar gutxi dira
+    es: Son les ocho menos diez
+  - eu: Sei eta erdiak dira
+    es: Son les seis y media
 ---
 
 Pa los minutos n'euskera hai trés construcciones que dominen casi too: **eta erdiak** (y media), **eta laurden** (y cuartu) y **gutxi** (menos). El truco ta en saber ónde se pon cada cosa.
@@ -97,7 +123,7 @@ A partir de la media p'alantre, falamos en función de la hora siguiente cola pa
 
 > Si vienes del castellanu, lo más raro ye que **gutxi** vaya **detrás** del númberu, non delantre. *Bederatziak laurden gutxi* lliteralmente ye "les nueves cuartu menos".
 
-## Tabla resume
+## Tabla resumen
 
 | Conceutu | Pallabra clave | Posición |
 |---|---|---|
@@ -117,4 +143,4 @@ A partir de la media p'alantre, falamos en función de la hora siguiente cola pa
 >
 > *— **Zortziak laurden gutxi dira.*** (Son les ocho menos cuartu.)
 
-> **Nota cultural:** en munchos pueblos vascos les campanes de la ilesia sigen marcando les hores y los cuartos. Si te pares a escuchales, l'oíu avézase al patrón enantes de que la to boca lo automatice.
+> **Nota cultural:** en munchos pueblos vascos les campanes de la ilesia siguen marcando les hores y los cuartos. Si te pares a escuchales, l'oyíu avézase al patrón enantes de que la to boca lo automatice.

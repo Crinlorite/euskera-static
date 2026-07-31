@@ -5,111 +5,147 @@ code: 04-noiz-marcadores
 unit: 08-pasado-reciente
 level: a1
 order: 4
-title: ¿Cuándo? Marcadors temporals (gaur, atzo, gaur goizean)
+title: Cuan? Marcadors temporals (gaur, atzo, gaur goizean)
 estimatedMinutes: 10
-covers: [recent-past-time-markers, time-expressions, parts-of-day]
+covers:
+- recent-past-time-markers
+- time-expressions
+- parts-of-day
 exercises:
-  - id: ex-04-nm-mc1
-    type: multiple-choice
-    prompt: '"Atzo arratsaldean" significa…'
-    options: ["maitín a la tardada", "ahiere a la tardada", "ista tardada", "agora mesmo"]
-    answer: 1
-    explanation: '"Atzo" = ahiere; "arratsaldean" = a la tardada. Combinaus: "ahiere a la tardada".'
-  - id: ex-04-nm-mc2
-    type: multiple-choice
-    prompt: 'Quiers dir "Ista maitinada he almorzau en casa". ¿Cómo lo dices?'
-    options:
-      - "Bihar goizean etxean gosaldu dut"
-      - "Gaur goizean etxean gosaldu dut"
-      - "Atzo goizean etxean gosaldu dut"
-      - "Gaur goizean etxean gosaltzen dut"
-    answer: 1
-    explanation: '"Gaur goizean" = "hue por la maitinada / ista maitinada". Y como ye pasau recient, "gosaldu dut" sin -tzen.'
-  - id: ex-04-nm-mc3
-    type: multiple-choice
-    prompt: 'Distingue: "askotan" vs "behin". ¿Qué quieren dir?'
-    options:
-      - "askotan = una vegada; behin = a sobén"
-      - "askotan = nunca; behin = siempre"
-      - "askotan = a sobén; behin = una vegada"
-      - "Las dos significan o mesmo"
-    answer: 2
-    explanation: '"Askotan" = a sobén, muitas vegadas. "Behin" = una vegada (gosta d''acompanyar accions puntuals).'
-  - id: ex-04-nm-fb1
-    type: fill-in-blank
-    prompt: 'Pasau maitín = ___ (replena la parola).'
-    answers: [etzi, Etzi]
-    explanation: '"Etzi" = pasau maitín. La cadena temporal: atzo (ahiere) → gaur (hue) → bihar (maitín) → etzi (pasau maitín).'
-  - id: ex-04-nm-mp
-    type: match-pairs
-    pairs:
-      - { eu: gaur, es: hue }
-      - { eu: atzo, es: ahiere }
-      - { eu: bihar, es: maitín }
-      - { eu: etzi, es: pasau maitín }
-      - { eu: gaur goizean, es: ista maitinada }
-      - { eu: gaur arratsaldean, es: ista tardada }
-      - { eu: atzo gauean, es: anuei }
-      - { eu: orain, es: agora }
-      - { eu: lehen, es: antis }
-  - id: ex-04-nm-fc
-    type: flashcards
-    cards:
-      - { eu: gaur, es: hue }
-      - { eu: atzo, es: ahiere }
-      - { eu: bihar, es: maitín }
-      - { eu: etzi, es: pasau maitín }
-      - { eu: orain, es: agora }
-      - { eu: lehen, es: antis }
-      - { eu: gero, es: 'dimpués, allora' }
-      - { eu: gaur goizean, es: ista maitinada / hue por la maitinada }
-      - { eu: gaur eguerdian, es: hue a meyodía }
-      - { eu: gaur arratsaldean, es: ista tardada }
-      - { eu: gaur gauean, es: ista nuei }
-      - { eu: atzo goizean, es: ahiere por la maitinada }
-      - { eu: atzo arratsaldean, es: ahiere a la tardada }
-      - { eu: atzo gauean, es: anuei }
-      - { eu: aste honetan, es: ista semana }
-      - { eu: behin, es: una vegada }
-      - { eu: bi aldiz, es: dos vegadas }
-      - { eu: oraintxe, es: agora mesmo }
+- id: ex-04-nm-mc1
+  type: multiple-choice
+  prompt: '"Atzo arratsaldean" quiere decir…'
+  options:
+  - maitín tardi
+  - ahier tardi
+  - ista tardi
+  - agora mesmo
+  answer: 1
+  explanation: '"Atzo" = ahier; "arratsaldean" = tardi. Combinaus: "ahier tardi".'
+- id: ex-04-nm-mc2
+  type: multiple-choice
+  prompt: Quiers decir "Iste maitín he desayuno en casa". Cómo lo dices?
+  options:
+  - Bihar goizean etxean gosaldu dut
+  - Gaur goizean etxean gosaldu dut
+  - Atzo goizean etxean gosaldu dut
+  - Gaur goizean etxean gosaltzen dut
+  answer: 1
+  explanation: '"Gaur goizean" = "hue de maitins / iste maitín". Y como ye pasau recient, "gosaldu dut" sin -tzen.'
+- id: ex-04-nm-mc3
+  type: multiple-choice
+  prompt: 'Distingue: "askotan" vs "behin". Qué quieren decir?'
+  options:
+  - askotan = una vegada; behin = a sobén
+  - askotan = nunca; behin = siempre
+  - askotan = a sobén; behin = una vegada
+  - As dos quieren decir o mesmo
+  answer: 2
+  explanation: '"Askotan" = a sobén, muitas vegadas. "Behin" = una vegada (gosa acompanyar accions puntuals).'
+- id: ex-04-nm-fb1
+  type: fill-in-blank
+  prompt: Pasau maitín = ___ (replena a parola).
+  answers:
+  - etzi
+  - Etzi
+  explanation: '"Etzi" = pasau maitín. A cadena temporal: atzo (ahier) → gaur (hue) → bihar (maitín) → etzi (pasau maitín).'
+- id: ex-04-nm-mp
+  type: match-pairs
+  pairs:
+  - eu: gaur
+    es: hoy
+  - eu: atzo
+    es: ayer
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasado mañana
+  - eu: gaur goizean
+    es: esta mañana
+  - eu: gaur arratsaldean
+    es: esta tarde
+  - eu: atzo gauean
+    es: anoche
+  - eu: orain
+    es: ahora
+  - eu: lehen
+    es: antes
+- id: ex-04-nm-fc
+  type: flashcards
+  cards:
+  - eu: gaur
+    es: hue
+  - eu: atzo
+    es: ahier
+  - eu: bihar
+    es: maitín
+  - eu: etzi
+    es: pasau maitín
+  - eu: orain
+    es: agora
+  - eu: lehen
+    es: antes
+  - eu: gero
+    es: dimpués
+  - eu: gaur goizean
+    es: iste maitín / hue de maitins
+  - eu: gaur eguerdian
+    es: hue a meyo día
+  - eu: gaur arratsaldean
+    es: ista tardi
+  - eu: gaur gauean
+    es: ista nueit
+  - eu: atzo goizean
+    es: ahier de maitins
+  - eu: atzo arratsaldean
+    es: ahier tardi
+  - eu: atzo gauean
+    es: ahier nueit
+  - eu: aste honetan
+    es: ista semana
+  - eu: behin
+    es: una vegada
+  - eu: bi aldiz
+    es: dos vegadas
+  - eu: oraintxe
+    es: agora mesmo
 ---
 
-Pa contar bien lo que ha pasau, amenestes dir **cuándo**. Ista lección te da los marcadors que se combinan con o pasau recient pa fitar las accions en o tiempo.
+Pa contar bien o que ha pasau, precisas decir **cuan**. Ista lección te da os marcadors que se combinan con o pasau recient pa anclar as accions en o tiempo.
 
-## Los marcadors basicos
+## Os marcadors basicos
 
 | Euskera | Aragonés |
 |---|---|
 | *gaur* | hue |
-| *atzo* | ahiere |
+| *atzo* | ahier |
 | *bihar* | maitín |
 | *etzi* | pasau maitín |
 | *orain* | agora |
 | *oraintxe* | agora mesmo |
-| *lehen* | antis |
-| *gero* | dimpués, allora |
+| *lehen* | antes |
+| *gero* | dimpués |
 
-> Si t'has fixau, *atzo* (ahiere) y *bihar* (maitín) son dos parolas tan curtas que s'aprenden d'un golpe. *Etzi* (pasau maitín) ye una parola que l'aragonés no tien en una sola pieza — un chicot regalo de l'euskera.
+> Si t'has fixau, *atzo* (ahier) y *bihar* (maitín) son dos parolas tan curtas que s'aprenden d'un truco. *Etzi* (pasau maitín) ye una parola que o castellano no tiene en una sola pieza — un chiquet present de l'euskera.
 
-## Combinando con moments d'o día
+## Combinando con momentos d'o día
 
-Los marcadors se combinan con *goizean*, *arratsaldean*, *gauean* y companyía de la unidat anterior. La fórmula ye: **marcador + parte d'o día**.
+Os marcadors se combinan con *goizean*, *arratsaldean*, *gauean* y companyía d'a unidat anterior. A formula ye: **marcador + parte d'o día**.
 
 | Euskera | Aragonés |
 |---|---|
-| *gaur goizean* | ista maitinada / hue por la maitinada |
-| *gaur eguerdian* | hue a meyodía |
-| *gaur arratsaldean* | ista tardada |
-| *gaur gauean* | ista nuei |
-| *atzo goizean* | ahiere por la maitinada |
-| *atzo arratsaldean* | ahiere a la tardada |
-| *atzo gauean* | anuei |
-| *bihar goizean* | maitín por la maitinada |
+| *gaur goizean* | iste maitín / hue de maitins |
+| *gaur eguerdian* | hue a meyo día |
+| *gaur arratsaldean* | ista tardi |
+| *gaur gauean* | ista nueit |
+| *atzo goizean* | ahier de maitins |
+| *atzo arratsaldean* | ahier tardi |
+| *atzo gauean* | ahier nueit |
+| *bihar goizean* | maitín de maitins |
 
-> **Pareta cuenta:** *gaur gauean* ye "ista nuei" (la nuei que tiens por debant u la que yes vivindo); *atzo gauean* ye "anuei". L'euskera distingue muit claro.
+> **Pare cuenta:** *gaur gauean* ye "ista nueit" (a nueit que tienes per debant u a que yes vivindo); *atzo gauean* ye "ahier nueit". L'euskera distingue muit clarament.
 
-## Freqüencia y vegadas
+## Frecuencia y vegadas
 
 | Euskera | Aragonés |
 |---|---|
@@ -119,31 +155,31 @@ Los marcadors se combinan con *goizean*, *arratsaldean*, *gauean* y companyía d
 | *askotan* | a sobén, muitas vegadas |
 | *batzuetan* | a vegadas |
 | *inoiz ez* | nunca |
-| *gaur goizetik* | dende ista maitinada |
+| *gaur goizetik* | dende iste maitín |
 | *aste honetan* | ista semana |
 | *hilabete honetan* | iste mes |
 
 ## Frases con pasau recient y marcadors
 
-> *Gaur goizean lanera joan naiz autoz.* — Ista maitinada he iu a o treballo en auto.
+> *Gaur goizean lanera joan naiz autoz.* — Iste maitín he iu a treballar en auto.
 >
-> *Gaur arratsaldean Mikelekin egon naiz.* — Ista tardada he estau con Mikel.
+> *Gaur arratsaldean Mikelekin egon naiz.* — Ista tardi he estau con Mikel.
 >
-> *Gaur oso berandu esnatu naiz.* — Hue m'he dispertau muit tardi.
+> *Gaur oso berandu esnatu naiz.* — Hue m'he espertato muit tardi.
 >
-> *Gaur eguerdian etxean bazkaldu dut.* — Hue a meyodía he chentau en casa.
+> *Gaur eguerdian etxean bazkaldu dut.* — Hue a meyo día he minchau en casa.
 >
 > *Aste honetan bi aldiz egon naiz zinean.* — Ista semana he estau dos vegadas en o cine.
 
-## L'orden de la frase
+## L'orden d'a frase
 
 En euskera l'orden tipico d'una frase con marcador temporal ye:
 
-> **CUÁNDO + ÁN + QUÉ + VERBO**
+> **CUAN + AON + QUÉ + VERBO**
 
-> **Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**. — Ista maitinada he estudiau euskera en l'euskaltegi.
+> **Gaur goizean** + **euskaltegian** + **euskara** + **ikasi dut**. — Iste maitín he estudiau euskera en o euskaltegi.
 
-No ye la sola posibilidat — l'euskera permite mover los elementos pa enfatizar — pero si sigues iste orden no te trafucas.
+No ye a unica posibilidat — l'euskera permite mover os elementos pa emfatizar — pero si sigues iste orden no t'entivocas.
 
 ## Mini-charrada
 
@@ -151,4 +187,4 @@ No ye la sola posibilidat — l'euskera permite mover los elementos pa enfatizar
 >
 > *— **Gaur goizean** lanera joan naiz oinez. **Eguerdian** lagunekin bazkaldu dut tabernan. **Arratsaldean** etxera bueltatu naiz eta liburua irakurri dut. **Gauean** ez dut afaldu, asko jan baitut bazkarian.*
 
-> **Nota:** *gaur* abarca tot o día d'hue. Si quiers precisar, anyade lo momento (*gaur goizean*, *gaur arratsaldean*). En charradas correntes, *Zer egin duzu gaur?* s'entiende como "¿qué has feito hue en cheneral?".
+> **Nota:** *gaur* abarca tot o día actual. Si quiers precisar, adhibe o momento (*gaur goizean*, *gaur arratsaldean*). En conversacions corrients, *Zer egin duzu gaur?* s'entiende como "qué has feito hue en cheneral?".

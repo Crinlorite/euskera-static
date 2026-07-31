@@ -1,0 +1,13 @@
+id: a2-bidaiak
+code: 07-bidaiak-eta-garraioa
+level: a2
+title: Bidaiak eta garraioa — 用巴斯克语聊旅行
+order: 7
+description: 交通、票务、住宿、准备旅行（将来时）以及归来后讲述旅途（过去时）。
+estimatedMinutes: 65
+covers:
+- a2-transport-vocab
+- a2-tickets-schedules
+- a2-accommodation
+- a2-travel-planning
+- a2-travel-narrative

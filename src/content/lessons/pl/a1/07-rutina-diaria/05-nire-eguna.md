@@ -7,49 +7,80 @@ level: a1
 order: 5
 title: Mój dzień (opowiedz o swojej rutynie)
 estimatedMinutes: 12
-covers: [daily-routine, habitual-aspect, time-basics, time-detail, parts-of-day, frequency-adverbs]
+covers:
+- daily-routine
+- habitual-aspect
+- time-basics
+- time-detail
+- parts-of-day
+- frequency-adverbs
 exercises:
-  - id: ex-05-ne-mc1
-    type: multiple-choice
-    prompt: '"Zer ordutan esnatzen zara?" znaczy…'
-    options: ["Która jest godzina?", "O której godzinie się budzisz?", "Kiedy idziesz spać?", "Co jesz na śniadanie?"]
-    answer: 1
-    explanation: '"Zer ordutan…?" = "o której godzinie…?". Przyrostek "-tan" pełni funkcję "o (godzinie)".'
-  - id: ex-05-ne-mc2
-    type: multiple-choice
-    prompt: 'Jak powiesz "Budzę się o siódmej"?'
-    options: ["Zazpiak esnatzen naiz", "Zazpietan esnatzen naiz", "Zazpiak dira esnatzen", "Zazpiko esnatu naiz"]
-    answer: 1
-    explanation: 'Aby powiedzieć "o (godzinie)" używa się "-etan" przy godzinie w liczbie mnogiej: zazpi**etan** = o siódmej.'
-  - id: ex-05-ne-fb1
-    type: fill-in-blank
-    prompt: 'O dziewiątej = ___ (uzupełnij całe słowo).'
-    answers: [bederatzietan, Bederatzietan]
-    explanation: 'Godzinę "o X" tworzy się za pomocą "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
-  - id: ex-05-ne-fb2
-    type: fill-in-blank
-    prompt: 'Rano idę do pracy = Goizean ___ joaten naiz.'
-    answers: [lanera, Lanera]
-    explanation: '"Lan" = praca. W przypadku NORA (-ra, kierunek): *lanera* = "do pracy".'
-  - id: ex-05-ne-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer ordutan esnatzen zara?', es: 'O której godzinie się budzisz?' }
-      - { eu: 'Zer ordutan oheratzen zara?', es: 'O której godzinie idziesz spać?' }
-      - { eu: 'Zer egiten duzu goizean?', es: 'Co robisz rano?' }
-      - { eu: zazpietan, es: o siódmej }
-      - { eu: zortzietan, es: o ósmej }
-      - { eu: hamarretan, es: o dziesiątej }
-      - { eu: hamabietan, es: o dwunastej }
-      - { eu: ordu bietan, es: o drugiej (punktualnie) }
-      - { eu: bost eta erdietan, es: o wpół do szóstej }
-      - { eu: lanera, es: do pracy }
-      - { eu: euskaltegira, es: do euskaltegi (szkoły euskery) }
-      - { eu: etxera, es: do domu }
-      - { eu: ohera, es: do łóżka }
+- id: ex-05-ne-mc1
+  type: multiple-choice
+  prompt: '"Zer ordutan esnatzen zara?" znaczy…'
+  options:
+  - Która jest godzina?
+  - O której godzinie się budzisz?
+  - Kiedy idziesz spać?
+  - Co jesz na śniadanie?
+  answer: 1
+  explanation: '"Zer ordutan…?" = "o której godzinie…?". Przyrostek "-tan" pełni funkcję "o (godzinie)".'
+- id: ex-05-ne-mc2
+  type: multiple-choice
+  prompt: Jak powiesz "Budzę się o siódmej"?
+  options:
+  - Zazpiak esnatzen naiz
+  - Zazpietan esnatzen naiz
+  - Zazpiak dira esnatzen
+  - Zazpiko esnatu naiz
+  answer: 1
+  explanation: 'Aby powiedzieć "o (godzinie)" używa się "-etan" przy godzinie w liczbie mnogiej: zazpi**etan** = o siódmej.'
+- id: ex-05-ne-fb1
+  type: fill-in-blank
+  prompt: O dziewiątej = ___ (uzupełnij całe słowo).
+  answers:
+  - bederatzietan
+  - Bederatzietan
+  explanation: 'Godzinę "o X" tworzy się za pomocą "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+- id: ex-05-ne-fb2
+  type: fill-in-blank
+  prompt: Rano idę do pracy = Goizean ___ joaten naiz.
+  answers:
+  - lanera
+  - Lanera
+  explanation: '"Lan" = praca. W przypadku NORA (-ra, kierunek): *lanera* = "do pracy".'
+- id: ex-05-ne-fc
+  type: flashcards
+  cards:
+  - eu: Zer ordutan esnatzen zara?
+    es: O której godzinie się budzisz?
+  - eu: Zer ordutan oheratzen zara?
+    es: O której godzinie idziesz spać?
+  - eu: Zer egiten duzu goizean?
+    es: Co robisz rano?
+  - eu: zazpietan
+    es: o siódmej
+  - eu: zortzietan
+    es: o ósmej
+  - eu: hamarretan
+    es: o dziesiątej
+  - eu: hamabietan
+    es: o dwunastej
+  - eu: ordu bietan
+    es: o drugiej (punktualnie)
+  - eu: bost eta erdietan
+    es: o wpół do szóstej
+  - eu: lanera
+    es: do pracy
+  - eu: euskaltegira
+    es: do euskaltegi (szkoły euskery)
+  - eu: etxera
+    es: do domu
+  - eu: ohera
+    es: do łóżka
 ---
 
-Ta lekcja łączy wszystko, co było w tym dziale: godzinę, pory dnia, czasowniki rutyny i częstotliwość. Celem jest, abyś potrafił opowiedzieć o całym swoim dniu w euskerze od początku do końca.
+Ta lekcja łączy wszystko z tego rozdziału: godziny, pory dnia, czasowniki związane z codziennymi czynnościami i określenia częstotliwości. Celem jest, abyś potrafił/a opowiedzieć o całym swoim dniu po baskijsku, od początku do końca.
 
 ## Kluczowe pytanie: "Zer ordutan…?"
 
@@ -63,7 +94,7 @@ Ta lekcja łączy wszystko, co było w tym dziale: godzinę, pory dnia, czasowni
 | *Zer ordutan afaltzen duzu?* | O której godzinie jesz kolację? |
 | *Zer ordutan oheratzen zara?* | O której godzinie idziesz spać? |
 
-> Zwróć uwagę na zmianę czasownika posiłkowego: *esnatzen **zara*** (NOR), ale *gosaltzen **duzu*** (NOR-NORK). Stopniowo zaczynaj wyczuwać parę czasownik + posiłkowy.
+> Zwróć uwagę na zmianę czasownika posiłkowego: *esnatzen **zara*** (NOR), ale *gosaltzen **duzu*** (NOR-NORK). Twoim zadaniem jest zacząć zauważać te pary: czasownik + czasownik posiłkowy.
 
 ## "O godzinie X" — jak to powiedzieć
 
@@ -91,7 +122,7 @@ Przybliżone tłumaczenie:
 
 ## Zbuduj swój własny
 
-Postępuj według tego szablonu, wpisując swoje prawdziwe informacje. To najlepszy sposób, by utrwalić to, czego się nauczyłeś:
+Uzupełnij ten szablon swoimi danymi. To najlepszy sposób na utrwalenie materiału:
 
 1. **O której godzinie się budzisz:** *Goizeko ___etan esnatzen naiz.*
 2. **Co robisz po wstaniu:** *... dutxatzen naiz / gosaltzen dut / ...*
@@ -99,7 +130,7 @@ Postępuj według tego szablonu, wpisując swoje prawdziwe informacje. To najlep
 4. **Co robisz po południu:** *Arratsaldean ...*
 5. **O której godzinie jesz kolację i idziesz spać:** *Gaueko ___etan afaltzen dut eta ___etan oheratzen naiz.*
 
-## Przydatne zwroty do łączenia
+## Przydatne zwroty łączące
 
 - *Lehenengo* — najpierw
 - *Gero / Ondoren* — potem, później
@@ -110,4 +141,4 @@ Postępuj według tego szablonu, wpisując swoje prawdziwe informacje. To najlep
 - *Beti* — zawsze
 - *Inoiz ez* — nigdy
 
-> **Notka kulturowa:** w Euskal Herria wiele osób je obiad (*bazkaldu*) między 14:00 a 15:00, a kolację (*afaldu*) dość późno, około 21:00-22:00. *Hamaiketakoa* — przekąska o jedenastej rano, zwykle pintxo lub kanapka — to prawdziwa instytucja. Jeśli jesteś z paczką znajomych (cuadrilla) i o 11:00 ktoś powie *hamaiketakoa egitera goaz*, już wiesz, o co chodzi.
+> **Notka kulturowa:** w Kraju Basków wiele osób je obiad (*bazkaldu*) między 14:00 a 15:00, a kolację (*afaldu*) dość późno, około 21:00-22:00. *Hamaiketakoa* — drugie śniadanie około jedenastej, zwykle *pintxo* lub kanapka — to prawdziwa instytucja. Jeśli jesteś z paczką znajomych (*cuadrilla*) i o 11:00 ktoś powie *hamaiketakoa egitera goaz*, już wiesz, o co chodzi.

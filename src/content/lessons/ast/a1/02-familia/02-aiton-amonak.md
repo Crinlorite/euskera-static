@@ -7,30 +7,41 @@ level: a1
 order: 2
 title: Aiton-amonak (güelos)
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-aa-fc
-    type: flashcards
-    cards:
-      - { eu: aitona, es: güelu }
-      - { eu: amona, es: güela }
-      - { eu: aiton-amonak, es: los güelos }
-      - { eu: biloba, es: nietu/a }
-      - { eu: bilobak, es: los nietos }
-  - id: ex-aa-fb1
-    type: fill-in-blank
-    prompt: 'Los mios güelos = nire ___.'
-    answers: [aiton-amonak]
-    explanation: '"Aiton-amonak" combina aitona + amona en plural — convención frecuente n''euskera pa pareyes.'
-  - id: ex-aa-mc1
-    type: multiple-choice
-    prompt: '"Biloba" ye...'
-    options: [el sobrín, el nietu, el primu, el suegru]
-    answer: 1
-    explanation: '"Biloba" ye nietu/nieta. Nun tien marca de xéneru.'
+- id: ex-aa-fc
+  type: flashcards
+  cards:
+  - eu: aitona
+    es: güelu
+  - eu: amona
+    es: güela
+  - eu: aiton-amonak
+    es: los güelos
+  - eu: biloba
+    es: nietu/a
+  - eu: bilobak
+    es: los nietos
+- id: ex-aa-fb1
+  type: fill-in-blank
+  prompt: Los mios güelos = nire ___.
+  answers:
+  - aiton-amonak
+  explanation: «Aiton-amonak» combina aitona + amona en plural — convención frecuente n'euskera pa pareyes.
+- id: ex-aa-mc1
+  type: multiple-choice
+  prompt: «Biloba» ye...
+  options:
+  - el sobrín
+  - el nietu
+  - el primu
+  - el suegru
+  answer: 1
+  explanation: «Biloba» ye nietu/nieta. Nun tien marca de xéneru.
 ---
 
-Los güelos n'euskera son **aitona** (güelu) y **amona** (güela). En plural, prefierse la forma combinada **aiton-amonak**, que significa "güelos" (los dos xuntos).
+Los güelos n'euskera son **aitona** (güelu) y **amona** (güela). En plural, prefierse la forma combinada **aiton-amonak**, que significa «güelos» (los dos xuntos).
 
 ## Vocabulariu
 
@@ -42,7 +53,7 @@ Los güelos n'euskera son **aitona** (güelu) y **amona** (güela). En plural, p
 | *biloba* | nietu/nieta |
 | *bilobak* | los nietos |
 
-## El patrón "X-Y-ak"
+## El patrón «X-Y-ak»
 
 L'euskera tien una forma elegante de falar de pareyes/grupos del mesmu tipu combinando dambos términos en plural:
 
@@ -50,7 +61,7 @@ L'euskera tien una forma elegante de falar de pareyes/grupos del mesmu tipu comb
 - **aiton-amonak** — güelos
 - **seme-alabak** — fíos y fíes
 
-> Cuando quieras dicir "los mios güelos vinieron a casa", abonda con **Nire aiton-amonak etxera etorri ziren** — ensin tener que dicir "güelu y güela".
+> Cuando quieras dicir «los mios güelos vinieron a casa», abonda con **Nire aiton-amonak etxera etorri ziren** — ensin tener que dicir «güelu y güela».
 
 ## Frases útiles
 

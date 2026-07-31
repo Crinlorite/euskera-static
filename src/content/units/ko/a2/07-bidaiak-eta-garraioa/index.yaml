@@ -1,0 +1,13 @@
+id: a2-bidaiak
+code: 07-bidaiak-eta-garraioa
+level: a2
+title: Bidaiak eta garraioa — 바스크어로 여행하기
+order: 7
+description: 교통수단, 티켓, 숙소, 여행 준비하기(미래)와 돌아와서 이야기하기(과거).
+estimatedMinutes: 65
+covers:
+- a2-transport-vocab
+- a2-tickets-schedules
+- a2-accommodation
+- a2-travel-planning
+- a2-travel-narrative

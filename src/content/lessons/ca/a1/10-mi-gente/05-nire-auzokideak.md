@@ -7,69 +7,99 @@ level: a1
 order: 5
 title: Nire auzokideak — Descriure tres veïns
 estimatedMinutes: 12
-covers: [social-relations, third-person-introductions, daily-routine-third-person, professions-extended, possessives]
+covers:
+- social-relations
+- third-person-introductions
+- daily-routine-third-person
+- professions-extended
+- possessives
 exercises:
-  - id: ex-10-05-mc1
-    type: multiple-choice
-    prompt: 'Per presentar una veïna gran que viu sola, quin ordre és més natural?'
-    options:
-      - "Hau ... da → bera ... da → bera ... egiten du"
-      - "Bera ... egiten du → hau ... da → bera ... da"
-      - "Hura ... egiten du → hau ... naiz → bera ... zara"
-      - "Ni ... naiz → zu ... zara → bera ... da"
-    answer: 0
-    explanation: 'Primer presentes (Hau X da), després afegeixes dades (Bera Y da) i, finalment, expliques què fa (Bera Z egiten du).'
-  - id: ex-10-05-mc2
-    type: multiple-choice
-    prompt: '"Nire bizilaguna 75 urteko jubilatua da" significa…'
-    options:
-      - "El meu veí té 75 anys i està jubilat"
-      - "El meu veí es va jubilar fa 75 anys"
-      - "El meu veí treballa al 75"
-      - "Tinc 75 veïns jubilats"
-    answer: 0
-    explanation: '"75 urteko jubilatua" = un jubilat de 75 anys. Estructura: "X-eko Y" indica edat/atribut + substantiu.'
-  - id: ex-10-05-fb1
-    type: fill-in-blank
-    prompt: 'Els meus veïns són simpàtics = Nire bizilagunak ___ dira.'
-    answers: [atseginak, jatorrak]
-    explanation: '"Atseginak" o "jatorrak" són els dos adjectius més usats per a "simpàtics/agradables" en plural.'
-  - id: ex-10-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: jatorra, es: simpàtic/a (proper) }
-      - { eu: atsegina, es: agradable }
-      - { eu: alaia, es: alegre }
-      - { eu: lasaia, es: tranquil/a }
-      - { eu: berritsua, es: xerraire }
-      - { eu: zaratatsua, es: sorollós/a }
-  - id: ex-10-05-fc
-    type: flashcards
-    cards:
-      - { eu: nire bizilaguna, es: el meu veí / la meva veïna }
-      - { eu: nire bizilagunak, es: els meus veïns }
-      - { eu: nire ondoko bizilaguna, es: el meu veí / la meva veïna del costat }
-      - { eu: lehenengo solairukoa, es: del primer pis }
-      - { eu: bigarren solairukoa, es: del segon pis }
-      - { eu: jatorra, es: simpàtic/a }
-      - { eu: atsegina, es: agradable }
-      - { eu: alaia, es: alegre }
-      - { eu: lasaia, es: tranquil/a }
-      - { eu: berritsua, es: xerraire }
-      - { eu: zaratatsua, es: sorollós/a }
-      - { eu: jubilatua, es: jubilat/da }
-      - { eu: gaztea, es: jove }
-      - { eu: zaharra, es: gran }
-      - { eu: 'Asko hitz egiten du', es: 'Parla molt' }
-      - { eu: 'Ez dut askotan ikusten', es: 'No la veig sovint' }
-      - { eu: 'Beti pozik dago', es: 'Sempre està content/a' }
+- id: ex-10-05-mc1
+  type: multiple-choice
+  prompt: Per presentar una veïna gran que viu sola, quin ordre és més natural?
+  options:
+  - Hau ... da → bera ... da → bera ... egiten du
+  - Bera ... egiten du → hau ... da → bera ... da
+  - Hura ... egiten du → hau ... naiz → bera ... zara
+  - Ni ... naiz → zu ... zara → bera ... da
+  answer: 0
+  explanation: Primer presentes (*Hau X da*), després afegeixes dades (*Bera Y da*), i finalment expliques què fa (*Bera Z egiten du*).
+- id: ex-10-05-mc2
+  type: multiple-choice
+  prompt: '"Nire bizilaguna 75 urteko jubilatua da" significa…'
+  options:
+  - El meu veí té 75 anys i està jubilat
+  - El meu veí es va jubilar fa 75 anys
+  - El meu veí treballa al 75
+  - Tinc 75 veïns jubilats
+  answer: 0
+  explanation: '"75 urteko jubilatua" = un jubilat de 75 anys. Estructura: "X-eko Y" indica edat/atribut + substantiu.'
+- id: ex-10-05-fb1
+  type: fill-in-blank
+  prompt: Els meus veïns són simpàtics = *Nire bizilagunak* ___ *dira*.
+  answers:
+  - atseginak
+  - jatorrak
+  explanation: '"Atseginak" o "jatorrak" són els dos adjectius més utilitzats per a "simpàtics/agradables" en plural.'
+- id: ex-10-05-mp
+  type: match-pairs
+  pairs:
+  - eu: jatorra
+    es: simpàtic/a (proper)
+  - eu: atsegina
+    es: agradable
+  - eu: alaia
+    es: alegre
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berritsua
+    es: xerraire
+  - eu: zaratatsua
+    es: ruidoso/a
+- id: ex-10-05-fc
+  type: flashcards
+  cards:
+  - eu: nire bizilaguna
+    es: el meu veí / la meva veïna
+  - eu: nire bizilagunak
+    es: els meus veïns
+  - eu: nire ondoko bizilaguna
+    es: el meu veí / la meva veïna del costat
+  - eu: lehenengo solairukoa
+    es: del primer pis
+  - eu: bigarren solairukoa
+    es: del segon pis
+  - eu: jatorra
+    es: simpàtic/a
+  - eu: atsegina
+    es: agradable
+  - eu: alaia
+    es: alegre
+  - eu: lasaia
+    es: tranquil/a
+  - eu: berritsua
+    es: xerraire
+  - eu: zaratatsua
+    es: sorollós/a
+  - eu: jubilatua
+    es: jubilat/da
+  - eu: gaztea
+    es: jove
+  - eu: zaharra
+    es: gran
+  - eu: Asko hitz egiten du
+    es: Parla molt
+  - eu: Ez dut askotan ikusten
+    es: No la veig sovint
+  - eu: Beti pozik dago
+    es: Sempre està content/a
 ---
 
-Aquesta lliçó integra tot el del tema 10. Aquí practiques una cosa concreta i útil: **descriure tres veïns teus** amb frases simples però connectades. És la prova de foc de l'A1 — i és exactament el que es treballa en les primeres presentacions d'aula.
+Aquesta lliçó integra tot el del tema 10. Aquí practicaràs una cosa concreta i útil: **descriure tres veïns teus** amb frases simples però connectades. És la prova de foc de l'A1 — i és exactament el que es treballa a les primeres presentacions a l'aula.
 
 ## Estructura tipus (ordre recomanat)
 
-Per a cada veí, segueix sempre aquestes peces. Si les tens, la descripció es construeix sola:
+Per a cada veí, segueix sempre aquestes peces. Si les tens, la descripció es construeix tota sola:
 
 1. **Presentació** — *Hau nire bizilaguna da. Bera X-koa da.* (d'on és)
 2. **Edat / estat civil** — *X urte ditu. Ezkonduta / Bakarrik dago.*
@@ -77,11 +107,11 @@ Per a cada veí, segueix sempre aquestes peces. Si les tens, la descripció es c
 4. **Caràcter** — *Oso jatorra da.* o *Lasaia / Berritsua da.*
 5. **Detall propi** — alguna cosa que tu observes: quan el veus, què fa.
 
-> No cal que diguis les cinc coses. Amb tres ja hi ha descripció.
+> No cal que diguis les cinc coses. Amb tres ja hi ha una descripció.
 
 ## Vocabulari per al caràcter del veí
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *jatorra* | simpàtic/a, proper |
 | *atsegina* | agradable |
@@ -90,7 +120,7 @@ Per a cada veí, segueix sempre aquestes peces. Si les tens, la descripció es c
 | *isila* | callat/da |
 | *berritsua* | xerraire |
 | *zaratatsua* | sorollós/a |
-| *zakarra* | sec / brusc |
+| *zakarra* | brusc/a / esquerp/a |
 | *jakintsua* | savi/àvia |
 
 ## Text model
@@ -117,9 +147,9 @@ Segueix aquesta plantilla i completa-la amb les teves dades reals (o inventades,
 
 ## Frases connectores útils
 
-Si vols encadenar millor les descripcions, aquests connectors senzills t'ajuden:
+Si vols encadenar millor les descripcions, aquests connectors senzills t'ajudaran:
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *eta* | i |
 | *baina* | però |
@@ -130,4 +160,4 @@ Si vols encadenar millor les descripcions, aquests connectors senzills t'ajuden:
 
 > Ex.: *Bera lasaia da, **baina** asteburuetan zaratatsua bihurtzen da. **Adibidez**, ostiraletan musika entzuten du gauean.*
 
-> **Consell final:** les primeres descripcions de veïns no seran perfectes. L'important és que qui t'escolta entengui **qui és**, **què fa** i **com el veus tu**. Amb aquesta base, les correccions de gramàtica vénen soles amb la pràctica.
+> **Consell final:** les primeres descripcions de veïns no seran perfectes. L'important és que l'oient entengui **qui és**, **què fa** i **com el veus tu**. Amb aquesta base, les correccions de gramàtica venen soles amb la pràctica.

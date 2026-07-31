@@ -7,131 +7,172 @@ level: a1
 order: 1
 title: 이동 동사 (joan, etorri, ibili)
 estimatedMinutes: 12
-covers: [movement-verbs, common-verbs]
+covers:
+- movement-verbs
+- common-verbs
 exercises:
-  - id: ex-mu-mp
-    type: match-pairs
-    pairs:
-      - { eu: joan, es: 가다 }
-      - { eu: etorri, es: 오다 }
-      - { eu: ibili, es: 걷다 / 돌아다니다 }
-      - { eu: sartu, es: 들어가다 }
-      - { eu: irten, es: 나가다 }
-      - { eu: igo, es: 오르다 }
-      - { eu: jaitsi, es: 내려가다 }
-  - id: ex-mu-fb1
-    type: fill-in-blank
-    prompt: '나는 간다 = Ni ___.'
-    answers: [noa]
-    explanation: '"joan"의 "나"에 대한 합성형은 "noa"이다. "Nora noa?" → "나는 어디로 가지?" 같은 질문에서 자주 쓰인다.'
-  - id: ex-mu-fb2
-    type: fill-in-blank
-    prompt: '너는 온다 = Zu ___.'
-    answers: [zatoz]
-    explanation: '"Zatoz"는 "zu"에 대한 "etorri"의 합성형이다.'
-  - id: ex-mu-mc1
-    type: multiple-choice
-    prompt: '"Nora zoaz?"의 뜻은…'
-    options: ["어디서 오니?", "어디로 가니?", "어디 있니?", "어디를 돌아다니니?"]
-    answer: 1
-    explanation: '"Nora" = 어디로; "zoaz" = 간다 ("zu"에 대한 "joan"의 합성형).'
-  - id: ex-mu-mc2
-    type: multiple-choice
-    prompt: '"Sartu"와 그 반대말 "irten"은 각각 무엇을 뜻하는가:'
-    options: ["들어가다 / 나가다", "오르다 / 내려가다", "가다 / 오다", "열다 / 닫다"]
-    answer: 0
-  - id: ex-mu-fc
-    type: flashcards
-    cards:
-      - { eu: joan, es: 가다 }
-      - { eu: noa, es: (나는) 간다 }
-      - { eu: zoaz, es: (너는) 간다 }
-      - { eu: doa, es: (그/그녀는) 간다 }
-      - { eu: goaz, es: (우리는) 간다 }
-      - { eu: zoazte, es: (너희는) 간다 }
-      - { eu: doaz, es: (그들은) 간다 }
-      - { eu: etorri, es: 오다 }
-      - { eu: nator, es: (나는) 온다 }
-      - { eu: zatoz, es: (너는) 온다 }
-      - { eu: dator, es: (그/그녀는) 온다 }
-      - { eu: gatoz, es: (우리는) 온다 }
-      - { eu: zatozte, es: (너희는) 온다 }
-      - { eu: datoz, es: (그들은) 온다 }
-      - { eu: ibili, es: 걷다 / 돌아다니다 (이리저리 다니다) }
-      - { eu: nabil, es: (나는) 다닌다 }
-      - { eu: zabiltza, es: (너는) 다닌다 }
-      - { eu: dabil, es: (그/그녀는) 다닌다 }
-      - { eu: sartu, es: 들어가다 }
-      - { eu: irten, es: 나가다 }
-      - { eu: igo, es: 오르다 }
-      - { eu: jaitsi, es: 내려가다 }
+- id: ex-mu-mp
+  type: match-pairs
+  pairs:
+  - eu: joan
+    es: ir
+  - eu: etorri
+    es: venir
+  - eu: ibili
+    es: andar / moverse
+  - eu: sartu
+    es: entrar
+  - eu: irten
+    es: salir
+  - eu: igo
+    es: subir
+  - eu: jaitsi
+    es: bajar
+- id: ex-mu-fb1
+  type: fill-in-blank
+  prompt: 나는 간다 = Ni ___.
+  answers:
+  - noa
+  explanation: '"joan"의 ''나''에 대한 통합형은 "noa"입니다. "Nora noa?" → "어디로 가지?"와 같은 질문에서 자주 쓰입니다.'
+- id: ex-mu-fb2
+  type: fill-in-blank
+  prompt: 너는 온다 = Zu ___.
+  answers:
+  - zatoz
+  explanation: '"Zatoz"는 "etorri"의 "zu"에 대한 통합형입니다.'
+- id: ex-mu-mc1
+  type: multiple-choice
+  prompt: '"Nora zoaz?"의 뜻은…'
+  options:
+  - 어디에서 오니?
+  - 어디에 가니?
+  - 어디에 있니?
+  - 어디쯤 다니고 있니?
+  answer: 1
+  explanation: '"Nora" = 어디에; "zoaz" = 가다 ("joan"의 "zu"에 대한 통합형).'
+- id: ex-mu-mc2
+  type: multiple-choice
+  prompt: '"Sartu"와 그 반대말인 "irten"은 각각 다음과 같은 뜻입니다:'
+  options:
+  - entrar / salir
+  - subir / bajar
+  - ir / venir
+  - abrir / cerrar
+  answer: 0
+- id: ex-mu-fc
+  type: flashcards
+  cards:
+  - eu: joan
+    es: 가다
+  - eu: noa
+    es: 가다 (나)
+  - eu: zoaz
+    es: 가다 (너)
+  - eu: doa
+    es: 가다 (그/그녀)
+  - eu: goaz
+    es: 가다 (우리)
+  - eu: zoazte
+    es: 가다 (너희)
+  - eu: doaz
+    es: 가다 (그들)
+  - eu: etorri
+    es: 오다
+  - eu: nator
+    es: 오다 (나)
+  - eu: zatoz
+    es: 오다 (너)
+  - eu: dator
+    es: 오다 (그/그녀)
+  - eu: gatoz
+    es: 오다 (우리)
+  - eu: zatozte
+    es: 오다 (너희)
+  - eu: datoz
+    es: 오다 (그들)
+  - eu: ibili
+    es: 다니다 / (이리저리) 다니다
+  - eu: nabil
+    es: 다니다 (나)
+  - eu: zabiltza
+    es: 다니다 (너)
+  - eu: dabil
+    es: 다니다 (그/그녀)
+  - eu: sartu
+    es: 들어가다
+  - eu: irten
+    es: 나가다
+  - eu: igo
+    es: 올라가다
+  - eu: jaitsi
+    es: 내려가다
 ---
 
-세 가지 기본 동사가 계속해서 나올 것이다: **joan** (가다), **etorri** (오다), 그리고 **ibili** (걷다, "이리저리 돌아다니다"). 이 셋은 모두 현재형에서 아주 많이 쓰이는 **합성형**(조동사 없이 쓰는 형태)을 가지고 있으며 — 한 묶음으로 배워 두는 것이 좋다.
+세 가지 기본 동사가 계속해서 나올 겁니다: **joan** (가다), **etorri** (오다), **ibili** (다니다, "이리저리 움직이다"). 이 세 동사 모두 현재 시제에서 아주 많이 사용되는 **통합형** (조동사 없음) 형태를 가집니다 — 덩어리로 외워두는 것이 좋습니다.
 
 ## Joan — 가다
 
 | 인칭 | 형태 | 한국어 |
 |---|---|---|
-| ni | **noa** | (나는) 간다 |
-| zu | **zoaz** | (너는) 간다 |
-| hura | **doa** | (그/그녀는) 간다 |
-| gu | **goaz** | (우리는) 간다 |
-| zuek | **zoazte** | (너희는) 간다 |
-| haiek | **doaz** | (그들은) 간다 |
+| ni | **noa** | 가다 (나) |
+| zu | **zoaz** | 가다 (너) |
+| hura | **doa** | 가다 (그/그녀) |
+| gu | **goaz** | 가다 (우리) |
+| zuek | **zoazte** | 가다 (너희) |
+| haiek | **doaz** | 가다 (그들) |
 
-> 핵심 질문: ***Nora zoaz?*** — 어디로 가니? 이것은 03과에서 다룰 것이다.
+> 핵심 질문: ***Nora zoaz?*** — 어디에 가니? 03과에서 다룰 겁니다.
 
 ## Etorri — 오다
 
 | 인칭 | 형태 | 한국어 |
 |---|---|---|
-| ni | **nator** | (나는) 온다 |
-| zu | **zatoz** | (너는) 온다 |
-| hura | **dator** | (그/그녀는) 온다 |
-| gu | **gatoz** | (우리는) 온다 |
-| zuek | **zatozte** | (너희는) 온다 |
-| haiek | **datoz** | (그들은) 온다 |
+| ni | **nator** | 오다 (나) |
+| zu | **zatoz** | 오다 (너) |
+| hura | **dator** | 오다 (그/그녀) |
+| gu | **gatoz** | 오다 (우리) |
+| zuek | **zatozte** | 오다 (너희) |
+| haiek | **datoz** | 오다 (그들) |
 
-> 핵심 질문: ***Nondik zatoz?*** — 어디서 오니? 이것은 04과에서 다룰 것이다.
+> 핵심 질문: ***Nondik zatoz?*** — 어디에서 오니? 04과에서 다룰 겁니다.
 
-## Ibili — 걷다, 돌아다니다
+## Ibili — 다니다, 움직이다
 
 | 인칭 | 형태 | 한국어 |
 |---|---|---|
-| ni | **nabil** | (나는) 다닌다, 돌아다니고 있다 |
-| zu | **zabiltza** | (너는) 다닌다 |
-| hura | **dabil** | (그/그녀는) 다닌다 |
-| gu | **gabiltza** | (우리는) 다닌다 |
-| zuek | **zabiltzate** | (너희는) 다닌다 |
-| haiek | **dabiltza** | (그들은) 다닌다 |
+| ni | **nabil** | 다니다, 이리저리 움직이다 (나) |
+| zu | **zabiltza** | 다니다 (너) |
+| hura | **dabil** | 다니다 (그/그녀) |
+| gu | **gabiltza** | 다니다 (우리) |
+| zuek | **zabiltzate** | 다니다 (너희) |
+| haiek | **dabiltza** | 다니다 (그들) |
 
-> *Ibili*는 "무엇을 하고 다니느냐"를 묻는 데에도 쓰인다: **Zer zabiltza?** — 어떻게 지내? / 무슨 일을 하고 다녀? 서로 아는 사람들 사이에서 인사로 매우 자주 쓰인다.
+> *Ibili*는 "요즘 뭐하고 지내?"라고 물을 때도 사용됩니다: **Zer zabiltza?** — 어떻게 지내? / 뭐하고 다녀? 서로 아는 사람들 사이에서 흔한 인사말입니다.
 
-## 그 밖의 유용한 이동 동사
+## 기타 유용한 이동 동사
 
-| Euskera | 한국어 | 예문 |
+| 바스크어 | 한국어 | 예시 |
 |---|---|---|
-| *sartu* | 들어가다 | *Tabernan sartu naiz.* — 나는 바에 들어갔다. |
-| *irten* | 나가다 | *Etxetik irten naiz.* — 나는 집에서 나왔다. |
-| *igo* | 오르다 | *Eskailerak igo ditut.* — 나는 계단을 올라갔다. |
-| *jaitsi* | 내려가다 | *Aldapa jaitsi dut.* — 나는 비탈을 내려갔다. |
-| *iritsi / heldu* | 도착하다 | *Iruñera iritsi naiz.* — 나는 Iruña에 도착했다. |
+| *sartu* | 들어가다 | *Tabernan sartu naiz.* — 술집에 들어갔어. |
+| *irten* | 나가다 | *Etxetik irten naiz.* — 집에서 나왔어. |
+| *igo* | 올라가다 | *Eskailerak igo ditut.* — 계단을 올라갔어. |
+| *jaitsi* | 내려가다 | *Aldapa jaitsi dut.* — 언덕을 내려갔어. |
+| *iritsi / heldu* | 도착하다 | *Iruñera iritsi naiz.* — 팜플로나에 도착했어. |
 
-## 합성형이 중요한 이유
+## 통합형은 왜 중요한가
 
-바스크어에서는 대부분의 동사가 **조동사**와 함께 활용된다: *jan dut* (나는 먹었다), *ikusi dut* (나는 보았다). 그러나 아주 자주 쓰이는 몇몇 동사들 — 그중에 **joan**, **etorri**, **egon**, **ibili**, **eduki**, **jakin** — 은 현재형에서 쓰이는 자체의 "압축된" 활용(*합성형*)을 가지고 있다. 워낙 많이 나오기 때문에, 빙 둘러 가는 것보다 여섯 형태를 외워 두는 편이 더 쉽다.
+바스크어에서 대부분의 동사는 **조동사**와 함께 활용됩니다: *jan dut* (먹었다), *ikusi dut* (보았다). 하지만 **joan**, **etorri**, **egon**, **ibili**, **eduki**, **jakin** 등을 포함한 몇몇 매우 흔한 동사들은 현재 시제에서 사용되는 고유의 "축약된" (*통합형*) 활용형을 가집니다. 워낙 자주 나오기 때문에, 빙빙 돌아가기보다 여섯 가지 형태를 모두 외우는 것이 더 쉽습니다.
 
-## 미니 대화
+## 짧은 대화
 
-> — *Aupa, nora zoaz?* — 안녕! 어디 가니?
+> — *Aupa, nora zoaz?* — 안녕! 어디 가?
 >
-> — *Banketxera **noa**. Eta zu, nondik **zatoz**?* — 나는 은행에 가. 너는, 어디서 오니?
+> — *Banketxera **noa**. Eta zu, nondik **zatoz**?* — 은행에 가. 너는 어디서 오는 길이야?
 >
-> — *Lanetik **nator**.* — 나는 일터에서 와.
+> — *Lanetik **nator**.* — 직장에서 오는 길이야.
 >
-> — *Eta Lide? Zer **dabil**?* — 그럼 Lide는? 뭘 하고 있어?
+> — *Eta Lide? Zer **dabil**?* — Lide는? 뭐하고 지내?
 >
-> — *Enkargutan **dabil**, batetik bestera.* — 이리저리 다니며 심부름을 하고 있어.
+> — *Enkargutan **dabil**, batetik bestera.* — 심부름하러 이리저리 다니고 있어.
 
-> **참고:** 합성형은 A1의 핵심 벽돌이다. 2개(ni/zu) 또는 3개(gu/zuek/haiek) 묶음으로 노래하고, 쓰고, 반복하며 외워라. 활용 능력은 연습과 함께 저절로 따라올 것이다.
+> **참고:** 통합형은 A1 레벨의 핵심적인 부분입니다. 노래 부르기, 쓰기, 반복하기 등을 통해 2개(ni/zu) 또는 3개(gu/zuek/haiek)씩 묶어서 외우세요. 연습하다 보면 자연스럽게 익숙해질 겁니다.

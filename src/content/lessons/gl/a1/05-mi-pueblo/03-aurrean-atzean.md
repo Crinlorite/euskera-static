@@ -7,61 +7,99 @@ level: a1
 order: 3
 title: Posicións espaciais (diante, detrás, ao lado…)
 estimatedMinutes: 12
-covers: [spatial-positions, spatial-adverbs, locative-non]
+covers:
+- spatial-positions
+- spatial-adverbs
+- locative-non
 exercises:
-  - id: ex-aatz-mp
-    type: match-pairs
-    pairs:
-      - { eu: aurrean, es: diante }
-      - { eu: atzean, es: detrás }
-      - { eu: ondoan, es: ao lado }
-      - { eu: gainean, es: enriba }
-      - { eu: azpian, es: debaixo }
-      - { eu: artean, es: entre }
-      - { eu: ezkerrean, es: á esquerda }
-      - { eu: eskuinean, es: á dereita }
-  - id: ex-aatz-mc1
-    type: multiple-choice
-    prompt: '"O gato está debaixo da mesa" — a palabra correcta é:'
-    options: [gainean, azpian, ondoan, atzean]
-    answer: 1
-    explanation: '"Azpian" = debaixo. "Gainean" = enriba.'
-  - id: ex-aatz-mc2
-    type: multiple-choice
-    prompt: 'Como se di "diante da igrexa"?'
-    options: ["elizaren aurrean", "elizan aurrean", "elizara aurrean", "elizako aurrean"]
-    answer: 0
-    explanation: 'A fórmula é "X-(r)en + posición": elizaren aurrean (da igrexa + diante).'
-  - id: ex-aatz-fb1
-    type: fill-in-blank
-    prompt: 'Mahaiaren ___ daude liburuak (os libros están enriba da mesa).'
-    answers: [gainean]
-  - id: ex-aatz-mc3
-    type: multiple-choice
-    prompt: '"Hemen", "hor", "han" significan, respectivamente:'
-    options: ["alí, aí, aquí", "aquí, aí, alí", "aí, aquí, alí", "aquí, alí, aí"]
-    answer: 1
-    explanation: 'As tres distancias do euskera: HEMEN (preto de min, "aquí"), HOR (preto do oínte, "aí"), HAN (lonxe dos dous, "alí").'
-  - id: ex-aatz-fc
-    type: flashcards
-    cards:
-      - { eu: aurrean, es: diante }
-      - { eu: atzean, es: detrás }
-      - { eu: ondoan, es: ao lado }
-      - { eu: gainean, es: enriba }
-      - { eu: azpian, es: debaixo }
-      - { eu: artean, es: entre }
-      - { eu: ezkerrean, es: á esquerda }
-      - { eu: eskuinean, es: á dereita }
-      - { eu: barruan, es: dentro }
-      - { eu: kanpoan, es: fóra }
-      - { eu: erdian, es: no medio }
-      - { eu: hemen, es: aquí }
-      - { eu: hor, es: aí }
-      - { eu: han, es: alí }
+- id: ex-aatz-mp
+  type: match-pairs
+  pairs:
+  - eu: aurrean
+    es: delante
+  - eu: atzean
+    es: detrás
+  - eu: ondoan
+    es: al lado
+  - eu: gainean
+    es: encima
+  - eu: azpian
+    es: debajo
+  - eu: artean
+    es: entre
+  - eu: ezkerrean
+    es: á esquerda
+  - eu: eskuinean
+    es: á dereita
+- id: ex-aatz-mc1
+  type: multiple-choice
+  prompt: '"O gato está debaixo da mesa" — a palabra correcta é:'
+  options:
+  - gainean
+  - azpian
+  - ondoan
+  - atzean
+  answer: 1
+  explanation: '"Azpian" = debaixo. "Gainean" = enriba.'
+- id: ex-aatz-mc2
+  type: multiple-choice
+  prompt: Como se di "diante da igrexa"?
+  options:
+  - elizaren aurrean
+  - elizan aurrean
+  - elizara aurrean
+  - elizako aurrean
+  answer: 0
+  explanation: 'A fórmula é "X-(r)en + posición": elizaren aurrean (da igrexa + diante).'
+- id: ex-aatz-fb1
+  type: fill-in-blank
+  prompt: Mahaiaren ___ daude liburuak (os libros están enriba da mesa).
+  answers:
+  - gainean
+- id: ex-aatz-mc3
+  type: multiple-choice
+  prompt: '"Hemen", "hor", "han" significan, respectivamente:'
+  options:
+  - alí, aí, aquí
+  - aquí, aí, alí
+  - aí, aquí, alí
+  - aquí, alí, aí
+  answer: 1
+  explanation: 'As tres distancias do éuscaro: HEMEN (preto de min, "aquí"), HOR (preto do oínte, "aí"), HAN (lonxe dos dous, "alí").'
+- id: ex-aatz-fc
+  type: flashcards
+  cards:
+  - eu: aurrean
+    es: diante
+  - eu: atzean
+    es: detrás
+  - eu: ondoan
+    es: ao lado
+  - eu: gainean
+    es: enriba
+  - eu: azpian
+    es: debaixo
+  - eu: artean
+    es: entre
+  - eu: ezkerrean
+    es: á esquerda
+  - eu: eskuinean
+    es: á dereita
+  - eu: barruan
+    es: dentro
+  - eu: kanpoan
+    es: fóra
+  - eu: erdian
+    es: no medio
+  - eu: hemen
+    es: aquí
+  - eu: hor
+    es: aí
+  - eu: han
+    es: alí
 ---
 
-Unha vez sabes dicir "está en X", o seguinte paso é dicir **onde exactamente**: enriba, debaixo, ao lado, detrás… En euskera estas posicións constrúense sempre co patrón **lugar de referencia + posición**.
+Unha vez que sabes dicir "está en X", o seguinte paso é dicir **onde exactamente**: enriba, debaixo, ao lado, detrás… En éuscaro estas posicións constrúense sempre co patrón **lugar de referencia + posición**.
 
 ## As posicións básicas
 
@@ -104,7 +142,7 @@ Patrón: a referencia vai primeiro, **logo** a posición. É exactamente ao rev�
 
 ## Adverbios de lugar: hemen / hor / han
 
-Para sinalar de forma rápida hai tres adverbios — e, ollo, son **tres distancias**, non dúas como o galego:
+Para sinalar de forma rápida hai tres adverbios — e, ollo, son **tres distancias**, non dúas como o castelán:
 
 | Euskera | Galego | Cando |
 |---|---|---|

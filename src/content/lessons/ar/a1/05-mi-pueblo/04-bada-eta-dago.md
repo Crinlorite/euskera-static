@@ -5,121 +5,154 @@ code: 04-bada-eta-dago
 unit: 05-mi-pueblo
 level: a1
 order: 4
-title: هل يوجد…؟ — التعبير عن الوجود بـ bada/badago
+title: هل يوجد...؟ — التعبير عن الوجود باستخدام bada/badago
 estimatedMinutes: 12
-covers: [existence-bada, egon-nor, partitive-rik, places-town]
+covers:
+- existence-bada
+- egon-nor
+- partitive-rik
+- places-town
 exercises:
-  - id: ex-bd-mc1
-    type: multiple-choice
-    prompt: 'كيف تسأل "هل يوجد حانة في الحي؟"'
-    options: ["Auzoan dago tabernarik?", "Auzoan badago tabernarik?", "Auzoan tabernan dago?", "Auzoan tabernara dago?"]
-    answer: 1
-    explanation: '"Bada(go)" يعبّر عن الوجود، و"tabernarik" هو صيغة التبعيض "-rik" الشائعة في الأسئلة وفي نفي الوجود.'
-  - id: ex-bd-mc2
-    type: multiple-choice
-    prompt: '"Ez dago supermerkaturik" تعني…'
-    options: ["لستُ في السوبر ماركت", "السوبر ماركت ليس موجودًا", "لا يوجد سوبر ماركت", "أنا ذاهب إلى السوبر ماركت"]
-    answer: 2
-    explanation: '"Ez dago + X-rik" = "لا يوجد X". تُستخدم صيغة التبعيض ‎-rik‎ مع الأسماء النكرة في النفي.'
-  - id: ex-bd-fb1
-    type: fill-in-blank
-    prompt: 'نعم، يوجد = Bai, ___.'
-    answers: [badago]
-    explanation: '"Badago" = "bai dago" مدمجتان: هي الإجابة الإيجابية النموذجية على "ba al dago…?".'
-  - id: ex-bd-fb2
-    type: fill-in-blank
-    prompt: 'النفي: هنا لا توجد مخبزة = Hemen ez dago okindegi___.'
-    answers: [rik]
-  - id: ex-bd-mc3
-    type: multiple-choice
-    prompt: 'الفرق الأساسي بين "dago" و"badago":'
-    options: ["dago = موجود/يكون؛ badago = هل يوجد؟ أو نعم يوجد", "لا يوجد فرق", "‏dago للحاضر و‏badago للماضي", "‏badago للجمع فقط"]
-    answer: 0
-    explanation: '"Dago" هي الصيغة المحايدة "يكون/موجود". أما "Bada(go)" فتضيف معنى الوجود/التواجد؛ وتأتي عادةً في الأسئلة (Ba al dago?) وفي الإجابات الإيجابية (Bai, badago).'
-  - id: ex-bd-fc
-    type: flashcards
-    cards:
-      - { eu: 'Ba al dago…?', es: هل يوجد…؟ }
-      - { eu: 'Badago?', es: هل يوجد؟ (غير رسمي) }
-      - { eu: 'Bai, badago', es: 'نعم، يوجد' }
-      - { eu: 'Ez, ez dago', es: 'لا، لا يوجد' }
-      - { eu: 'Ba al daude…?', es: هل يوجد…؟ (جمع) }
-      - { eu: 'Bai, badaude', es: 'نعم، يوجد (عدّة)' }
-      - { eu: 'Ez dago tabernarik', es: لا توجد حانة }
-      - { eu: 'Ez dago jatekorik', es: لا يوجد شيء للأكل }
-      - { eu: 'Ez dago dirurik', es: لا يوجد مال }
-      - { eu: 'Auzoan ez dago supermerkaturik', es: لا يوجد سوبر ماركت في الحي }
-  - id: ex-bd-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Ba al dago tabernarik?', es: 'هل توجد حانة ما؟' }
-      - { eu: 'Bai, badago', es: 'نعم، يوجد' }
-      - { eu: 'Ez, ez dago', es: 'لا، لا يوجد' }
-      - { eu: tabernarik, es: 'حانة ما / حانات (صيغة التبعيض)' }
-      - { eu: 'Non dago taberna?', es: 'أين الحانة؟' }
+- id: ex-bd-mc1
+  type: multiple-choice
+  prompt: كيف تسأل "هل توجد حانة في الحي؟"
+  options:
+  - Auzoan dago tabernarik?
+  - Auzoan badago tabernarik?
+  - Auzoan tabernan dago?
+  - Auzoan tabernara dago?
+  answer: 1
+  explanation: '"Bada(go)" تعبر عن الوجود و"tabernarik" هي صيغة التجزئة "-rik" النمطية في أسئلة ونفي الوجود.'
+- id: ex-bd-mc2
+  type: multiple-choice
+  prompt: '"Ez dago supermerkaturik" تعني...'
+  options:
+  - أنا لست في السوبر ماركت
+  - السوبر ماركت ليس موجوداً
+  - لا يوجد سوبر ماركت
+  - أنا ذاهب إلى السوبر ماركت
+  answer: 2
+  explanation: '"Ez dago + X-rik" = "لا يوجد X". تُستخدم صيغة التجزئة -rik مع الأسماء النكرة في النفي.'
+- id: ex-bd-fb1
+  type: fill-in-blank
+  prompt: نعم، يوجد = Bai, ___.
+  answers:
+  - badago
+  explanation: '"Badago" هي دمج لـ "bai dago": وهي الإجابة الإيجابية النمطية على "ba al dago…؟".'
+- id: ex-bd-fb2
+  type: fill-in-blank
+  prompt: 'النفي: هنا لا يوجد مخبز = Hemen ez dago okindegi___.'
+  answers:
+  - rik
+- id: ex-bd-mc3
+  type: multiple-choice
+  prompt: 'الفرق الرئيسي بين "dago" و "badago":'
+  options:
+  - dago = يقع/تقع؛ badago = هل يقع؟ أو نعم يقع
+  - لا يوجد فرق
+  - dago هي للمضارع، badago للماضي
+  - badago هي للجمع فقط
+  answer: 0
+  explanation: '"Dago" هي الشكل المحايد لـ "يوجد/يقع". "Bada(go)" تضيف فارقاً دقيقاً بمعنى الوجود؛ عادةً في الأسئلة (Ba al dago?) والإجابات الإيجابية (Bai, badago).'
+- id: ex-bd-fc
+  type: flashcards
+  cards:
+  - eu: Ba al dago…?
+    es: هل يوجد...؟
+  - eu: Badago?
+    es: هل يوجد؟ (غير رسمي)
+  - eu: Bai, badago
+    es: نعم، يوجد
+  - eu: Ez, ez dago
+    es: لا، لا يوجد
+  - eu: Ba al daude…?
+    es: هل يوجد...؟ (جمع)
+  - eu: Bai, badaude
+    es: نعم، يوجد (عدة)
+  - eu: Ez dago tabernarik
+    es: لا توجد حانة
+  - eu: Ez dago jatekorik
+    es: لا يوجد شيء للأكل
+  - eu: Ez dago dirurik
+    es: لا يوجد مال
+  - eu: Auzoan ez dago supermerkaturik
+    es: في الحي لا يوجد سوبر ماركت
+- id: ex-bd-mp
+  type: match-pairs
+  pairs:
+  - eu: Ba al dago tabernarik?
+    es: هل توجد أي حانة؟
+  - eu: Bai, badago
+    es: نعم، يوجد
+  - eu: Ez, ez dago
+    es: لا، لا يوجد
+  - eu: tabernarik
+    es: حانة ما / حانات (صيغة التجزئة)
+  - eu: Non dago taberna?
+    es: أين تقع الحانة؟
 ---
 
-في الإسبانية نستخدم فعلًا واحدًا، "haber/estar"، للتعبير عن فكرتين مختلفتين: **الوجود** ("هل توجد صيدلية في الحي؟") و**التموضع** ("الصيدلية تقع في الشارع الرئيسي"). أما الإيوسكيرا فيميّز بين هذين الأمرين تمييزًا واضحًا جدًا، وهذا شيء يُستحسن ترسيخه مبكرًا.
+في اللغة الإسبانية نستخدم فعلاً واحداً، "haber/estar"، لفكرتين مختلفتين: **الوجود** ("هل توجد صيدلية في الحي؟") و **الموقع** ("الصيدلية تقع في شارع مايور"). اللغة الباسكية تميز بوضوح شديد بين هذين الأمرين، وهو شيء من الجيد ترسيخه مبكراً.
 
-## الوجود مقابل التموضع
+## الوجود مقابل الموقع
 
-| الفكرة | النمط في الإيوسكيرا | مثال |
+| الفكرة | النمط في الباسكية | مثال |
 |---|---|---|
-| **الوجود** ("يوجد") | **bada(go)** + اسم في صيغة التبعيض | *Auzoan **badago** tabernarik?* — هل توجد حانة ما في الحي؟ |
-| **التموضع** (التواجد في مكان) | اسم محدّد + مكان + **dago** | *Taberna kalean **dago***. — الحانة في الشارع. |
+| **الوجود** ("يوجد") | **bada(go)** + اسم في صيغة التجزئة | *Auzoan **badago** tabernarik?* — هل يوجد أي حانة في الحي؟ |
+| **الموقع** (يقع/تقع) | اسم محدد + مكان + **dago** | *Taberna kalean **dago***. — الحانة تقع في الشارع. |
 
-عندما تسأل عمّا إذا كان شيء ما **موجودًا** (لا أين يقع، بل هل يوجد)، استخدم النمط مع **bada(go)**.
+عندما تسأل عما إذا كان شيء ما **موجوداً** (ليس عن مكانه، بل عن وجوده)، استخدم النمط مع **bada(go)**.
 
-## السؤال: Ba al dago…؟
+## السؤال: Ba al dago…?
 
-كلا الصيغتين شائعتان:
+كلا الشكلين شائعان:
 
-- **Ba al dago + X-rik?** — الصيغة القياسية (مع أداة الاستفهام *al*).
-- **Bada(go) + X-rik?** — الصيغة اليومية، بدون *al*.
+- **Ba al dago + X-rik?** — الشكل القياسي (مع أداة الاستفهام *al*).
+- **Bada(go) + X-rik?** — الشكل اليومي، بدون *al*.
 
 أمثلة:
 
-- ***Ba al dago* botikarik herrian?** — هل توجد صيدلية في القرية؟
+- ***Ba al dago* botikarik herrian?** — هل توجد صيدلية في البلدة؟
 - ***Badago* supermerkaturik auzoan?** — هل يوجد سوبر ماركت في الحي؟
-- ***Ba al dago* komun publikorik?** — هل توجد دورات مياه عامة؟
+- ***Ba al dago* komun publikorik?** — هل توجد حمامات عامة؟
 
-## الإجابة الإيجابية
+## الإجابة بالإيجاب
 
-للإجابة بـ**"نعم، يوجد"** يُجاب بالدمج **bai, badago**:
+للإجابة بـ **"نعم، يوجد"**، نستخدم الدمج **bai, badago**:
 
 - **Bai, badago.** — نعم، يوجد (واحد).
-- **Bai, badaude.** — نعم، يوجد (عدّة).
+- **Bai, badaude.** — نعم، يوجد (عدة).
 
-ويمكن التوسيع:
+ويمكن توسيع الإجابة:
 
 - **Bai, badago botika handi bat eskolaren ondoan.** — نعم، توجد صيدلية كبيرة بجانب المدرسة.
 
-## الإجابة المنفية: ‎-rik‎
+## الإجابة بالنفي: -rik
 
-لقول **"لا يوجد"** نستخدم صيغة التبعيض **`-rik`** على الاسم:
+لنقول **"لا يوجد"**، نستخدم صيغة التجزئة **`-rik`** مع الاسم:
 
-| الإيوسكيرا | الإسبانية |
+| الباسكية | الإسبانية |
 |---|---|
-| *Ez dago **tabernarik**.* | لا توجد حانة (حانات). |
+| *Ez dago **tabernarik**.* | لا توجد حانة (أو حانات). |
 | *Ez dago **supermerkaturik**.* | لا يوجد سوبر ماركت. |
-| *Ez dago **kafetegirik**.* | لا توجد مقهى. |
-| *Ez dago **komun publikorik**.* | لا توجد دورات مياه عامة. |
+| *Ez dago **kafetegirik**.* | لا يوجد مقهى. |
+| *Ez dago **komun publikorik**.* | لا توجد حمامات عامة. |
 
-> اللاحقة **`-rik`** (أو `-ik` بعد حرف ساكن) هي "التبعيض": تُعلِّم على اسم نكرة في الأسئلة والنفي. وسنراها أيضًا مع أفعال أخرى (*Ez dut anaiarik* — "ليس لي إخوة").
+> اللاحقة **`-rik`** (أو `-ik` بعد حرف ساكن) هي "صيغة التجزئة": تحدد اسماً نكرة في الأسئلة والنفي. سنراها أيضاً مع أفعال أخرى (*Ez dut anaiarik* — "ليس لدي إخوة").
 
 ## عندما تعرف بالفعل أنه موجود — اسأل عن الموقع
 
-بمجرد أن يؤكّدوا لك وجوده، يكون من الطبيعي أن تسأل **أين يقع**، وهنا تنتقل إلى نمط الدرس السابق:
+بمجرد أن يؤكدوا لك وجوده، من الطبيعي أن تسأل **أين هو**، وهنا تنتقل إلى نمط الدرس السابق:
 
-> — *Ba al dago kutxazain automatikorik herrian?* — هل يوجد صرّاف آلي في القرية؟
+> — *Ba al dago kutxazain automatikorik herrian?* — هل يوجد صراف آلي في البلدة؟
 >
 > — *Bai, badago.* — نعم، يوجد.
 >
-> — ***Non dago?*** — أين يقع؟
+> — ***Non dago?*** — أين هو؟
 >
-> — *Banketxearen ondoan dago.* — يقع بجانب البنك.
+> — *Banketxearen ondoan dago.* — إنه بجانب البنك.
 
-## حوار قصير كامل
+## حوار صغير كامل
 
 > — *Egun on, barkatu! Auzoan **ba al dago** liburutegirik?*
 >
@@ -133,4 +166,4 @@ exercises:
 >
 > — *Ez, hemen ez dago **kafetegirik**, baina taberna bat **badago**.*
 
-> **حيلة للحفظ:** للتعبير عن *الوجود* فكّر في "**ba**" (= "يوجد") + dago/daude. وللتعبير عن *التموضع* فكّر فقط في *dago*/*daude* العاديتين. أما `-rik` فتظهر غالبًا كلما قلتَ أو سألتَ عن شيء بصيغة نكرة.
+> **خدعة للتذكر:** للتعبير عن *الوجود*، فكر في "**ba**" (= "يوجد") + dago/daude. للتعبير عن *الموقع*، فكر فقط في *dago*/*daude* العادية. واللاحقة `-rik` تظهر دائماً تقريباً عندما تتحدث أو تسأل عن شيء بشكل نكرة.

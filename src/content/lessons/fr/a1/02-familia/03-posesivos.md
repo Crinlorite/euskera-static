@@ -7,30 +7,43 @@ level: a1
 order: 3
 title: Possessifs (nire, zure, bere…)
 estimatedMinutes: 10
-covers: [possessives]
+covers:
+- possessives
 exercises:
-  - id: ex-pos-mp
-    type: match-pairs
-    pairs:
-      - { eu: nire, es: mon/le mien }
-      - { eu: zure, es: ton/le tien }
-      - { eu: bere, es: son (à lui/elle) }
-      - { eu: gure, es: notre }
-      - { eu: zuen, es: votre }
-      - { eu: beren, es: leur (à eux) }
-  - id: ex-pos-fb1
-    type: fill-in-blank
-    prompt: 'Ma mère = ___ ama.'
-    answers: [nire, Nire]
-  - id: ex-pos-mc1
-    type: multiple-choice
-    prompt: Comment dit-on « notre maison » en euskera ?
-    options: [nire etxea, zure etxea, gure etxea, beren etxea]
-    answer: 2
-    explanation: '« Gure » est le possessif de « nous ».'
+- id: ex-pos-mp
+  type: match-pairs
+  pairs:
+  - eu: nire
+    es: mon/ma
+  - eu: zure
+    es: tu/tuyo
+  - eu: bere
+    es: son/sa (à lui/elle)
+  - eu: gure
+    es: nuestro
+  - eu: zuen
+    es: vuestro
+  - eu: beren
+    es: leur (à eux)
+- id: ex-pos-fb1
+  type: fill-in-blank
+  prompt: Ma mère = ___ ama.
+  answers:
+  - nire
+  - Nire
+- id: ex-pos-mc1
+  type: multiple-choice
+  prompt: Comment dit-on "notre maison" en basque ?
+  options:
+  - nire etxea
+  - zure etxea
+  - gure etxea
+  - beren etxea
+  answer: 2
+  explanation: '"Gure" est le possessif pour "nous".'
 ---
 
-Les possessifs en euskera se placent **avant le nom**, tout comme en français. Ils ne changent pas de forme selon le genre de l'objet possédé (il n'y a pas de « mien/mienne », seulement *nire*).
+En basque, les possessifs se placent **avant le nom**, comme en français. Ils ne changent pas de forme selon le genre de l'objet possédé (il n'y a pas de "mon/ma", seulement *nire*).
 
 ## Tableau complet
 
@@ -43,13 +56,13 @@ Les possessifs en euskera se placent **avant le nom**, tout comme en français. 
 | zuek | **zuen** | zuen lagunak | vos amis |
 | haiek | **beren** | beren autoa | leur voiture (à eux) |
 
-> À la différence du français, le nom **conserve l'article `-a`** même s'il porte un possessif : *gure etxea* (notre maison), *zuen lagunak* (vos amis), *beren autoa* (leur voiture). Dans les mots qui se terminent déjà par `-a` (comme *ama* ou *arreba*), l'article ne se distingue pas : *nire ama*.
+> Contrairement au français, le nom **conserve l'article `-a`** même avec un possessif : *gure etxea* (notre maison), *zuen lagunak* (vos amis), *beren autoa* (leur voiture). Pour les mots qui se terminent déjà par `-a` (comme *ama* ou *arreba*), l'article n'est pas visible : *nire ama*.
 
 ## Famille + possessifs
 
-Combine ce que tu as appris pour décrire ta famille :
+Combinez ce que vous avez appris pour décrire votre famille :
 
 - *Nire aita Mattin da.* — Mon père est Mattin.
-- *Zure ama nongoa da?* — D'où est ta mère ?
+- *Zure ama nongoa da?* — D'où vient ta mère ?
 - *Bere arreba Donostiakoa da.* — Sa sœur est de Donostia.
 - *Gure aiton-amonak Bilbon bizi dira.* — Nos grands-parents vivent à Bilbao.

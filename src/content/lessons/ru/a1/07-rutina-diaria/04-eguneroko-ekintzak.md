@@ -5,130 +5,169 @@ code: 04-eguneroko-ekintzak
 unit: 07-rutina-diaria
 level: a1
 order: 4
-title: Ежедневные действия и привычный аспект
+title: Повседневные действия и привычный аспект
 estimatedMinutes: 12
-covers: [daily-routine, habitual-aspect, frequency-adverbs, common-verbs]
+covers:
+- daily-routine
+- habitual-aspect
+- frequency-adverbs
+- common-verbs
 exercises:
-  - id: ex-04-ee-mc1
-    type: multiple-choice
-    prompt: 'Что означает "esnatzen naiz"?'
-    options: ["я проснулся", "я просыпаюсь", "я собираюсь проснуться", "я просыпался"]
-    answer: 1
-    explanation: 'Привычный аспект (-tzen + naiz/dut) выражает то, что ты делаешь обычно: "я просыпаюсь" (каждый день).'
-  - id: ex-04-ee-mc2
-    type: multiple-choice
-    prompt: '"Egunero gosaltzen dut" означает…'
-    options: ["Я позавтракал сегодня", "Я завтракаю каждый день", "Я собираюсь позавтракать", "Я завтракаю прямо сейчас"]
-    answer: 1
-    explanation: '"Egunero" = каждый день; "gosaltzen dut" = я завтракаю (обычно).'
-  - id: ex-04-ee-fb1
-    type: fill-in-blank
-    prompt: 'Esnatu (просыпаться) → привычная форма ___ (с -n привычного аспекта).'
-    answers: [esnatzen]
-    explanation: 'Глаголы, оканчивающиеся на согласный или на -tu/-du, добавляют "-tzen" для привычного аспекта: esna**tu** → esna**tzen**.'
-  - id: ex-04-ee-fb2
-    type: fill-in-blank
-    prompt: 'Jan (есть) → привычная форма ___ (с окончанием привычного аспекта).'
-    answers: [jaten]
-    explanation: 'Глаголы, оканчивающиеся на -n, меняются: ja**n** → ja**ten** (не "janten"). Правило: конечное -n → "-ten".'
-  - id: ex-04-ee-mp
-    type: match-pairs
-    pairs:
-      - { eu: esnatu, es: просыпаться }
-      - { eu: jaiki, es: вставать }
-      - { eu: dutxatu, es: принимать душ }
-      - { eu: gosaldu, es: завтракать }
-      - { eu: bazkaldu, es: обедать }
-      - { eu: afaldu, es: ужинать }
-      - { eu: lan egin, es: работать }
-      - { eu: lo egin, es: спать }
-      - { eu: oheratu, es: ложиться спать }
-  - id: ex-04-ee-fc
-    type: flashcards
-    cards:
-      - { eu: esnatu / esnatzen naiz, es: 'просыпаться / я просыпаюсь' }
-      - { eu: jaiki / jaikitzen naiz, es: 'вставать / я встаю' }
-      - { eu: dutxatu / dutxatzen naiz, es: 'принимать душ / я принимаю душ' }
-      - { eu: jantzi / janzten naiz, es: 'одеваться / я одеваюсь' }
-      - { eu: gosaldu / gosaltzen dut, es: 'завтракать / я завтракаю' }
-      - { eu: bazkaldu / bazkaltzen dut, es: 'обедать / я обедаю' }
-      - { eu: afaldu / afaltzen dut, es: 'ужинать / я ужинаю' }
-      - { eu: lan egin / lan egiten dut, es: 'работать / я работаю' }
-      - { eu: lo egin / lo egiten dut, es: 'спать / я сплю' }
-      - { eu: oheratu / oheratzen naiz, es: 'ложиться спать / я ложусь спать' }
-      - { eu: lo-kuluxka egin, es: 'вздремнуть' }
-      - { eu: egunero, es: каждый день / ежедневно }
-      - { eu: beti, es: всегда }
-      - { eu: askotan, es: часто }
-      - { eu: batzuetan, es: иногда }
-      - { eu: inoiz ez, es: никогда }
+- id: ex-04-ee-mc1
+  type: multiple-choice
+  prompt: Что означает "esnatzen naiz"?
+  options:
+  - я проснулся
+  - я просыпаюсь
+  - я собираюсь проснуться
+  - я просыпался
+  answer: 1
+  explanation: 'Привычный аспект (-tzen + naiz/dut) выражает действие, которое вы совершаете обычно: "просыпаюсь" (каждый день).'
+- id: ex-04-ee-mc2
+  type: multiple-choice
+  prompt: '"Egunero gosaltzen dut" означает…'
+  options:
+  - Я сегодня позавтракал
+  - Я завтракаю каждый день
+  - Я собираюсь завтракать
+  - Я завтракаю (сейчас)
+  answer: 1
+  explanation: '"Egunero" = каждый день; "gosaltzen dut" = завтракаю (обычно).'
+- id: ex-04-ee-fb1
+  type: fill-in-blank
+  prompt: Esnatu (просыпаться) → форма привычного аспекта ___ (с суффиксом привычного аспекта).
+  answers:
+  - esnatzen
+  explanation: 'Глаголы, оканчивающиеся на согласный или на -tu/-du, добавляют "-tzen" для образования привычного аспекта: esna**tu** → esna**tzen**.'
+- id: ex-04-ee-fb2
+  type: fill-in-blank
+  prompt: Jan (есть) → форма привычного аспекта ___ (с окончанием привычного аспекта).
+  answers:
+  - jaten
+  explanation: 'Глаголы, оканчивающиеся на -n, изменяются: ja**n** → ja**ten** (не "janten"). Правило: конечное -n → "-ten".'
+- id: ex-04-ee-mp
+  type: match-pairs
+  pairs:
+  - eu: esnatu
+    es: despertarse
+  - eu: jaiki
+    es: levantarse
+  - eu: dutxatu
+    es: ducharse
+  - eu: gosaldu
+    es: desayunar
+  - eu: bazkaldu
+    es: comer (almorzar)
+  - eu: afaldu
+    es: cenar
+  - eu: lan egin
+    es: trabajar
+  - eu: lo egin
+    es: dormir
+  - eu: oheratu
+    es: acostarse
+- id: ex-04-ee-fc
+  type: flashcards
+  cards:
+  - eu: esnatu / esnatzen naiz
+    es: просыпаться / просыпаюсь
+  - eu: jaiki / jaikitzen naiz
+    es: вставать / встаю
+  - eu: dutxatu / dutxatzen naiz
+    es: принимать душ / принимаю душ
+  - eu: jantzi / janzten naiz
+    es: одеваться / одеваюсь
+  - eu: gosaldu / gosaltzen dut
+    es: завтракать / завтракаю
+  - eu: bazkaldu / bazkaltzen dut
+    es: обедать / обедаю
+  - eu: afaldu / afaltzen dut
+    es: ужинать / ужинаю
+  - eu: lan egin / lan egiten dut
+    es: работать / работаю
+  - eu: lo egin / lo egiten dut
+    es: спать / сплю
+  - eu: oheratu / oheratzen naiz
+    es: ложиться спать / ложусь спать
+  - eu: lo-kuluxka egin
+    es: спать после обеда
+  - eu: egunero
+    es: каждый день
+  - eu: beti
+    es: всегда
+  - eu: askotan
+    es: часто
+  - eu: batzuetan
+    es: иногда
+  - eu: inoiz ez
+    es: никогда
 ---
 
-Чтобы сказать, что ты делаешь каждый день, в баскском используется **привычный аспект**: берёшь глагол (partizipio) и добавляешь к нему **-tzen** или **-ten**, а затем соединяешь со вспомогательным глаголом **izan** (naiz, zara, da…) или **ukan** (dut, duzu, du…).
+Чтобы сказать, что вы делаете каждый день, в баскском языке используется **привычный аспект**: вы берёте глагол (partizipio) и добавляете к нему **-tzen** или **-ten**, а затем сочетаете его со вспомогательным глаголом **izan** (naiz, zara, da…) или **ukan** (dut, duzu, du…).
 
 ## Правило
 
-| Окончание глагола | Привычный суффикс | Пример |
+| Окончание глагола | Суффикс привычного аспекта | Пример |
 |---|---|---|
 | согласный или `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
 | `-i` (неправильный) | **-tzen** или **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
 
-> Глагол *jan* (есть) **не** превращается в *janten*, а в *jaten* — конечная "n" исчезает. То же самое с *edan* → *edaten*, *egon* → *egoten*.
+> Глагол *jan* (есть) **не** превращается в *janten*, а в *jaten* — конечная «n» исчезает. То же самое с *edan* → *edaten*, *egon* → *egoten*.
 
-## Повседневные глаголы
+## Глаголы на каждый день
 
 ### NOR (вспомогательный **izan**: naiz, zara, da…)
 
-Они идут **с izan**, потому что непереходные — субъект испытывает действие без объекта:
+Они используются **с izan**, потому что они непереходные — субъект испытывает действие без объекта:
 
 | Partizipioa | Привычный аспект | Значение |
 |---|---|---|
-| *esnatu* | *esnatzen naiz* | я просыпаюсь |
-| *jaiki* | *jaikitzen naiz* | я встаю |
-| *altxatu* | *altxatzen naiz* | я встаю (вариант *jaiki*) |
-| *dutxatu* | *dutxatzen naiz* | я принимаю душ |
-| *jantzi* | *janzten naiz* | я одеваюсь |
-| *joan* | *joaten naiz* | я иду |
-| *etorri* | *etortzen naiz* | я прихожу |
-| *oheratu* | *oheratzen naiz* | я ложусь спать |
-| *lokartu* | *lokartzen naiz* | я засыпаю |
+| *esnatu* | *esnatzen naiz* | просыпаюсь |
+| *jaiki* | *jaikitzen naiz* | встаю |
+| *altxatu* | *altxatzen naiz* | встаю (вариант *jaiki*) |
+| *dutxatu* | *dutxatzen naiz* | принимаю душ |
+| *jantzi* | *janzten naiz* | одеваюсь |
+| *joan* | *joaten naiz* | хожу |
+| *etorri* | *etortzen naiz* | прихожу |
+| *oheratu* | *oheratzen naiz* | ложусь спать |
+| *lokartu* | *lokartzen naiz* | засыпаю |
 
 ### NOR-NORK (вспомогательный **ukan**: dut, duzu, du…)
 
-Они идут **с ukan**, потому что у них есть субъект и объект:
+Они используются **с ukan**, потому что у них есть субъект и объект:
 
 | Partizipioa | Привычный аспект | Значение |
 |---|---|---|
-| *gosaldu* | *gosaltzen dut* | я завтракаю |
-| *bazkaldu* | *bazkaltzen dut* | я обедаю |
-| *afaldu* | *afaltzen dut* | я ужинаю |
-| *jan* | *jaten dut* | я ем |
-| *edan* | *edaten dut* | я пью |
-| *lan egin* | *lan egiten dut* | я работаю |
-| *lo egin* | *lo egiten dut* | я сплю |
-| *ikusi* | *ikusten dut* | я вижу |
-| *irakurri* | *irakurtzen dut* | я читаю |
-| *erosi* | *erosten dut* | я покупаю |
+| *gosaldu* | *gosaltzen dut* | завтракаю |
+| *bazkaldu* | *bazkaltzen dut* | обедаю |
+| *afaldu* | *afaltzen dut* | ужинаю |
+| *jan* | *jaten dut* | ем |
+| *edan* | *edaten dut* | пью |
+| *lan egin* | *lan egiten dut* | работаю |
+| *lo egin* | *lo egiten dut* | сплю |
+| *ikusi* | *ikusten dut* | смотрю |
+| *irakurri* | *irakurtzen dut* | читаю |
+| *erosi* | *erosten dut* | покупаю |
 
-> **Почему одни идут с NAIZ, а другие с DUT?** Это ключевое различие баскского языка. *Esnatzen naiz* (я просыпаюсь) — это то, что происходит со мной: объекта нет. *Jaten dut* (я ем) имеет объект: *ogia jaten dut* (я ем хлеб). Это подробно рассматривается в следующем разделе — а пока запоминай пары глагол + вспомогательный глагол.
+> **Почему одни глаголы используются с NAIZ, а другие с DUT?** Это ключевое различие в баскском языке. *Esnatzen naiz* (я просыпаюсь) — это то, что происходит со мной: здесь нет объекта. *Jaten dut* (я ем) имеет объект: *ogia jaten dut* (я ем хлеб). Это подробно рассматривается в следующем разделе — а пока просто запомните пары глагол + вспомогательный глагол.
 
 ## Маркеры частотности
 
-| Euskera | Русский |
+| Баскский | Русский |
 |---|---|
-| *egunero* | каждый день / ежедневно |
+| *egunero* | каждый день |
 | *beti* | всегда |
 | *askotan* | часто |
 | *batzuetan* | иногда |
 | *normalean* | обычно |
-| *gehienetan* | в большинстве случаев |
+| *gehienetan* | чаще всего |
 | *gutxitan* | редко |
 | *inoiz ez* | никогда |
 | *astero* | каждую неделю |
 | *hilero* | каждый месяц |
 
-## Связанные примеры
+## Примеры в предложениях
 
 > *Egunero zazpietan esnatzen naiz eta dutxatzen naiz.* — Каждый день я просыпаюсь в семь и принимаю душ.
 >
@@ -136,6 +175,6 @@ exercises:
 >
 > *Askotan lagunekin afaltzen dut.* — Я часто ужинаю с друзьями.
 >
-> *Batzuetan lo-kuluxka egiten dut bazkalostean.* — Иногда я дремлю после обеда.
+> *Batzuetan lo-kuluxka egiten dut bazkalostean.* — Иногда я сплю после обеда (сиеста).
 
-> **Примечание:** *bazkalostean* = "после обеда" (буквально: "после еды"). В баскской культуре есть компактные слова для повседневных понятий, таких как этот короткий сон — *lo-kuluxka* — это как раз он.
+> **Примечание:** *bazkalostean* = «после обеда» (буквально: «после еды»). В баскской культуре есть ёмкие слова для повседневных понятий, таких как короткий дневной сон — *lo-kuluxka* как раз это и означает.

@@ -7,48 +7,67 @@ level: a1
 order: 4
 title: Rodzina dalsza
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-fe-mp
-    type: match-pairs
-    pairs:
-      - { eu: osaba, es: wujek }
-      - { eu: izeba, es: ciotka }
-      - { eu: lehengusu, es: kuzyn }
-      - { eu: lehengusina, es: kuzynka }
-      - { eu: iloba, es: siostrzeniec/bratanek }
-  - id: ex-fe-mc1
-    type: multiple-choice
-    prompt: '"Lehengusu" to...'
-    options: [kuzyn, brat, dziadek, teść]
-    answer: 0
-  - id: ex-fe-fc
-    type: flashcards
-    cards:
-      - { eu: osaba, es: wujek }
-      - { eu: izeba, es: ciotka }
-      - { eu: lehengusu, es: kuzyn }
-      - { eu: lehengusina, es: kuzynka }
-      - { eu: iloba, es: 'siostrzeniec, siostrzenica' }
-      - { eu: aitaginarreba, es: teść }
-      - { eu: amaginarreba, es: teściowa }
-      - { eu: koinatu, es: szwagier }
-      - { eu: koinata, es: szwagierka }
+- id: ex-fe-mp
+  type: match-pairs
+  pairs:
+  - eu: osaba
+    es: wujek
+  - eu: izeba
+    es: ciocia
+  - eu: lehengusu
+    es: primo
+  - eu: lehengusina
+    es: prima
+  - eu: iloba
+    es: sobrino/a
+- id: ex-fe-mc1
+  type: multiple-choice
+  prompt: '"Lehengusu" to...'
+  options:
+  - primo
+  - hermano
+  - abuelo
+  - suegro
+  answer: 0
+- id: ex-fe-fc
+  type: flashcards
+  cards:
+  - eu: osaba
+    es: wujek
+  - eu: izeba
+    es: ciocia
+  - eu: lehengusu
+    es: kuzyn
+  - eu: lehengusina
+    es: kuzynka
+  - eu: iloba
+    es: bratanek/siostrzeniec, bratanica/siostrzenica
+  - eu: aitaginarreba
+    es: teść
+  - eu: amaginarreba
+    es: teściowa
+  - eu: koinatu
+    es: szwagier
+  - eu: koinata
+    es: szwagierka
 ---
 
-Poza rodzicami, rodzeństwem i dziećmi rodzina rozszerza się o wujków, kuzynów, siostrzeńców oraz rodzinę przez powinowactwo. Oto najczęściej używane słownictwo.
+Oprócz rodziców, rodzeństwa i dzieci, rodzina obejmuje również wujków, ciocie, kuzynów i powinowatych. Oto najczęściej używane słownictwo.
 
-## Wujkowie i kuzyni
+## Wujkowie, ciocie i kuzyni
 
 | Euskera | Polski |
 |---|---|
 | *osaba* | wujek |
-| *izeba* | ciotka |
+| *izeba* | ciocia |
 | *lehengusu* | kuzyn |
 | *lehengusina* | kuzynka |
-| *iloba* | siostrzeniec/bratanek (w niektórych dialektach także "wnuk/wnuczka" — decyduje kontekst) |
+| *iloba* | bratanek/siostrzeniec / bratanica/siostrzenica (w niektórych dialektach także "wnuk/wnuczka" — decyduje kontekst) |
 
-## Rodzina przez powinowactwo
+## Powinowaci
 
 | Euskera | Polski |
 |---|---|
@@ -61,8 +80,8 @@ Poza rodzicami, rodzeństwem i dziećmi rodzina rozszerza się o wujków, kuzyn�
 
 ## Wzorce użycia
 
-- *Nire osaba Bilbon bizi da.* — Mój wujek mieszka w Bilbo.
+- *Nire osaba Bilbon bizi da.* — Mój wujek mieszka w Bilbao.
 - *Bere lehengusinak hamabi urte ditu.* — Jego/jej kuzynka ma dwanaście lat.
 - *Zure koinata euskalduna da?* — Czy twoja szwagierka jest Baskijką?
 
-> Słowa oznaczające rodzinę przez powinowactwo często powstają przez łączenie istniejących wyrazów (*aita-* + *ginarreba*). Nie trzeba zapamiętywać wewnętrznej logiki; utrwalają się wraz z używaniem.
+> Słowa określające powinowatych są często tworzone przez łączenie istniejących słów (*aita-* + *ginarreba*). Nie trzeba uczyć się na pamięć tej wewnętrznej logiki; utrwali się ona w miarę używania.

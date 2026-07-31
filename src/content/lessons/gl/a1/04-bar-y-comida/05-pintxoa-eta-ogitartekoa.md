@@ -7,58 +7,95 @@ level: a1
 order: 5
 title: Pintxoa, ogitartekoa eta plater konbinatua
 estimatedMinutes: 11
-covers: [pintxos, food-bar, bar-ordering]
+covers:
+- pintxos
+- food-bar
+- bar-ordering
 exercises:
-  - id: ex-pin-mc1
-    type: multiple-choice
-    prompt: '"Ogitarteko" significa…'
-    options: [pintxo, bocadillo, prato combinado, sobremesa]
-    answer: 1
-    explanation: '*ogitartekoa* vén de *ogi* (pan) + *arte* (entre): "o de entre dous pans" — o bocadillo.'
-  - id: ex-pin-mc2
-    type: multiple-choice
-    prompt: 'Queres un pincho de tortilla. Como o pides?'
-    options: [Tortillaren pintxoa, Tortilla pintxoa bat, Tortilla pintxo bat, Pintxoa tortilla]
-    answer: 2
-    explanation: '"Pintxo bat" perde o `-a` ao ir con *bat*; o descritor (*tortilla*) vai diante.'
-  - id: ex-pin-fb1
-    type: fill-in-blank
-    prompt: '"Prato combinado" en euskera = ___ ___.'
-    answers: [plater konbinatua, plater konbinatu]
-    explanation: '*plater konbinatua* — exactamente como en castelán, sen gran adaptación.'
-  - id: ex-pin-fb2
-    type: fill-in-blank
-    prompt: 'Para min, unha ración de queixo = Niretzat ___ ___.'
-    answers: [gazta razioa, gazta razio bat]
-    explanation: '*razioa* = ración; con *bat* perde o `-a`. A forma "gazta razioa" (a ración de queixo) é válida.'
-  - id: ex-pin-fc
-    type: flashcards
-    cards:
-      - { eu: pintxoa, es: pincho (tapa pequena) }
-      - { eu: ogitartekoa, es: bocadillo }
-      - { eu: plater konbinatua, es: prato combinado }
-      - { eu: razioa, es: ración }
-      - { eu: tortilla pintxoa, es: pincho de tortilla }
-      - { eu: gilda, es: gilda (banderilla típica) }
-      - { eu: tortilla ogitartekoa, es: bocadillo de tortilla }
-      - { eu: gazta ogitartekoa, es: bocadillo de queixo }
-      - { eu: urdaiazpiko ogitartekoa, es: bocadillo de xamón }
-      - { eu: txorizoa, es: chourizo }
-      - { eu: txistorra, es: txistorra }
-      - { eu: antxoa, es: anchoa }
-      - { eu: 'Niretzat pintxo bat', es: 'Para min, un pincho' }
-      - { eu: 'Razio bat hartuko dugu', es: 'Tomaremos unha ración' }
-  - id: ex-pin-mp
-    type: match-pairs
-    pairs:
-      - { eu: pintxoa, es: pincho }
-      - { eu: ogitartekoa, es: bocadillo }
-      - { eu: plater konbinatua, es: prato combinado }
-      - { eu: razioa, es: ración }
-      - { eu: txorizoa, es: chourizo }
-      - { eu: txistorra, es: txistorra }
-      - { eu: gazta, es: queixo }
-      - { eu: tortilla, es: tortilla }
+- id: ex-pin-mc1
+  type: multiple-choice
+  prompt: '"Ogitarteko" significa…'
+  options:
+  - pintxo
+  - bocadillo
+  - plato combinado
+  - postre
+  answer: 1
+  explanation: '*ogitartekoa* vén de *ogi* (pan) + *arte* (entre): "o de entre dous pans" — o bocadillo.'
+- id: ex-pin-mc2
+  type: multiple-choice
+  prompt: Queres un pincho de tortilla. Como o pides?
+  options:
+  - Tortillaren pintxoa
+  - Tortilla pintxoa bat
+  - Tortilla pintxo bat
+  - Pintxoa tortilla
+  answer: 2
+  explanation: '"Pintxo bat" perde o `-a` ao ir con *bat*; o descritor (*tortilla*) vai diante.'
+- id: ex-pin-fb1
+  type: fill-in-blank
+  prompt: '"Prato combinado" en éuscaro = ___ ___.'
+  answers:
+  - plater konbinatua
+  - plater konbinatu
+  explanation: '*plater konbinatua* — exactamente como en castelán, sen gran adaptación.'
+- id: ex-pin-fb2
+  type: fill-in-blank
+  prompt: Para min, unha ración de queixo = Niretzat ___ ___.
+  answers:
+  - gazta razioa
+  - gazta razio bat
+  explanation: '*razioa* = ración; con *bat* perde o `-a`. A forma "gazta razioa" (a ración de queixo) é válida.'
+- id: ex-pin-fc
+  type: flashcards
+  cards:
+  - eu: pintxoa
+    es: pincho (tapa pequena)
+  - eu: ogitartekoa
+    es: bocadillo
+  - eu: plater konbinatua
+    es: prato combinado
+  - eu: razioa
+    es: ración
+  - eu: tortilla pintxoa
+    es: pincho de tortilla
+  - eu: gilda
+    es: gilda (banderilla típica)
+  - eu: tortilla ogitartekoa
+    es: bocadillo de tortilla
+  - eu: gazta ogitartekoa
+    es: bocadillo de queixo
+  - eu: urdaiazpiko ogitartekoa
+    es: bocadillo de xamón
+  - eu: txorizoa
+    es: chourizo
+  - eu: txistorra
+    es: txistorra
+  - eu: antxoa
+    es: anchoa
+  - eu: Niretzat pintxo bat
+    es: Para min, un pincho
+  - eu: Razio bat hartuko dugu
+    es: Tomaremos unha ración
+- id: ex-pin-mp
+  type: match-pairs
+  pairs:
+  - eu: pintxoa
+    es: pincho
+  - eu: ogitartekoa
+    es: bocadillo
+  - eu: plater konbinatua
+    es: plato combinado
+  - eu: razioa
+    es: ración
+  - eu: txorizoa
+    es: chorizo
+  - eu: txistorra
+    es: txistorra
+  - eu: gazta
+    es: queso
+  - eu: tortilla
+    es: tortilla
 ---
 
 A gran cultura do bar vasco xira arredor de tres formatos principais: o **pintxo** (pequeno, de barra), o **ogitarteko** (bocadillo) e o **plater konbinatua** (prato combinado). Coñecer como pedir variantes permíteche comer en calquera sitio.
@@ -76,7 +113,7 @@ A gran cultura do bar vasco xira arredor de tres formatos principais: o **pintxo
 
 ## Recheos típicos
 
-Estes son os recheos máis habituais que vas ver nunha pizarra de bar:
+Estes son os recheos máis habituais que vas ver nunha lousa de bar:
 
 | Euskera | Galego |
 |---|---|
@@ -122,7 +159,7 @@ A fórmula é: **descritor + formato + bat (mesedez)**. O descritor (o que leva)
 >
 > — *Nik plater konbinatu bat: arrautzak, txorizoa eta patata frijituak.* — Eu, un prato combinado: ovos, chourizo e patacas fritas.
 >
-> — *Bale, hiru eskaera dira.* — Vale, son tres pedidos.
+> — *Bale, hiru eskaera dira.* — Vale, son tres cousas.
 
 ## Pagar
 

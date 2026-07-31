@@ -7,45 +7,69 @@ level: a1
 order: 4
 title: La cuenta (kontua eskatzen)
 estimatedMinutes: 9
-covers: [bill-payment, courtesy]
+covers:
+- bill-payment
+- courtesy
 exercises:
-  - id: ex-kont-mc1
-    type: multiple-choice
-    prompt: '¿Cómo pides la cuenta?'
-    options: ['Eskerrik asko', 'Kontua, mesedez', 'Zer da hau?', 'Bukatu dut']
-    answer: 1
-    explanation: '*Kontua, mesedez* ye la fórmula universal pa pidir la cuenta.'
-  - id: ex-kont-mc2
-    type: multiple-choice
-    prompt: '"Kobratuko al didazu?" significa…'
-    options: ['¿Cuánto cuesta?', '¿Me cobras?', '¿Tienes cambio?', '¿Quieres más?']
-    answer: 1
-    explanation: '*Kobratu* — cobrar; *al* — partícula de pregunta; *didazu* — "(tú) me/a mí". Forma cortés.'
-  - id: ex-kont-fb1
-    type: fill-in-blank
-    prompt: '"¿Puedo pagar con tarjeta?" = Txartelaz ___ dezaket?'
-    answers: [ordain]
-    explanation: '*Ordaindu* — pagar. *Ordain dezaket?* — "¿puedo pagar?".'
-  - id: ex-kont-fb2
-    type: fill-in-blank
-    prompt: '"No tengo cambio" = Ez ___ kanbiorik.'
-    answers: [daukat]
-    explanation: '*Daukat* — "tengo" (de *eduki*). Con negación + oxetu indefiníu → *kanbio**rik***.'
-  - id: ex-kont-fc
-    type: flashcards
-    cards:
-      - { eu: kontua, es: la cuenta }
-      - { eu: 'Kontua, mesedez', es: 'La cuenta, por favor' }
-      - { eu: 'Atera kontua, mesedez', es: 'Ponme la cuenta, por favor' }
-      - { eu: 'Kobratuko al didazu?', es: '¿Me cobres?' }
-      - { eu: 'Zenbat da dena?', es: '¿Cuánto ye too?' }
-      - { eu: 'Txartelaz ordain dezaket?', es: '¿Puedo pagar con tarxeta?' }
-      - { eu: dirua, es: dineru }
-      - { eu: txartela, es: tarxeta }
-      - { eu: kanbioa, es: cambiu (vuelta) }
-      - { eu: 'Ez daukat kanbiorik', es: Nun tengo cambiu }
-      - { eu: 'Tori!', es: '¡Toma!' }
-      - { eu: 'Eskerrik asko, oso ondo zegoen', es: 'Munches gracies, taba mui bono' }
+- id: ex-kont-mc1
+  type: multiple-choice
+  prompt: ¿Cómo pides la cuenta?
+  options:
+  - Eskerrik asko
+  - Kontua, mesedez
+  - Zer da hau?
+  - Bukatu dut
+  answer: 1
+  explanation: '*Kontua, mesedez* ye la fórmula universal pa pidir la cuenta.'
+- id: ex-kont-mc2
+  type: multiple-choice
+  prompt: '"Kobratuko al didazu?" significa…'
+  options:
+  - ¿Cuánto cuesta?
+  - ¿Cóbresme?
+  - ¿Ties cambiu?
+  - ¿Quies más?
+  answer: 1
+  explanation: '*Kobratu* — cobrar; *al* — partícula d''entruga; *didazu* — "(tú) me/a mí". Forma cortés.'
+- id: ex-kont-fb1
+  type: fill-in-blank
+  prompt: '"¿Puedo pagar con tarxeta?" = Txartelaz ___ dezaket?'
+  answers:
+  - ordain
+  explanation: '*Ordaindu* — pagar. *Ordain dezaket?* — "¿puedo pagar?".'
+- id: ex-kont-fb2
+  type: fill-in-blank
+  prompt: '"Nun tengo cambiu" = Ez ___ kanbiorik.'
+  answers:
+  - daukat
+  explanation: '*Daukat* — "tengo" (de *eduki*). Con negación + oxetu indefiníu → *kanbio**rik***.'
+- id: ex-kont-fc
+  type: flashcards
+  cards:
+  - eu: kontua
+    es: la cuenta
+  - eu: Kontua, mesedez
+    es: La cuenta, por favor
+  - eu: Atera kontua, mesedez
+    es: Ponme la cuenta, por favor
+  - eu: Kobratuko al didazu?
+    es: ¿Cóbresme?
+  - eu: Zenbat da dena?
+    es: ¿Cuánto ye too?
+  - eu: Txartelaz ordain dezaket?
+    es: ¿Puedo pagar con tarxeta?
+  - eu: dirua
+    es: dineru
+  - eu: txartela
+    es: tarxeta
+  - eu: kanbioa
+    es: cambiu (les vueltes)
+  - eu: Ez daukat kanbiorik
+    es: Nun tengo cambiu
+  - eu: Tori!
+    es: ¡Toma!
+  - eu: Eskerrik asko, oso ondo zegoen
+    es: Munches gracies, taba perbono
 ---
 
 El zarru de la comida tien el so pequeñu guión: pidir la cuenta, pagar y despidise.
@@ -58,9 +82,9 @@ Tres maneres, toes correutes:
 |---|---|---|
 | **Kontua, mesedez.** | La cuenta, por favor. | neutru, claru |
 | **Atera kontua, mesedez.** | Ponme la cuenta, por favor. | neutru |
-| **Kobratuko al didazu?** | ¿Me cobres? | cortés (futuru) |
+| **Kobratuko al didazu?** | ¿Cóbresme? | cortés (futuru) |
 
-`Kobratuko al didazu?` óyese muchísimo en bares y restoranes informales. *Al* ye partícula de pregunta y *didazu* ye "(tú a) mí" (NOR-NORI-NORK).
+`Kobratuko al didazu?` óyese permucho en bares y restoranes informales. *Al* ye partícula de pregunta y *didazu* ye "(tú a) mí" (NOR-NORI-NORK).
 
 ## El preciu total
 
@@ -72,12 +96,12 @@ Tres maneres, toes correutes:
 | Euskera | Asturianu |
 |---|---|
 | *Txartelaz ordain dezaket?* | ¿Puedo pagar con tarxeta? |
-| *Eskudirutan ordainduko dut.* | Pagaré en efeutivo. |
+| *Eskudirutan ordainduko dut.* | Pagaré n'efeutivu. |
 | *Tori!* | ¡Toma! (al dar el dineru) |
 | *Hemen daukazu kanbioa.* | Equí tien el cambiu. |
 | *Ez daukat kanbiorik.* | Nun tengo cambiu. |
 
-> *Eskudiru* = "dineru a mano" → en efeutivo. *Txartel* = tarxeta. *Kanbio* ye préstamu y úsase con normalidá.
+> *Eskudiru* = "dineru a mano" → n'efeutivu. *Txartel* = tarxeta. *Kanbio* ye préstamu y úsase con normalidá.
 
 ## Propines
 
@@ -89,7 +113,7 @@ N'Euskal Herria **la propina nun ye obligatoria**. Lo avezao:
 
 ## Despidise
 
-- **Eskerrik asko, oso ondo zegoen!** — ¡Munches gracies, taba mui bono!
+- **Eskerrik asko, oso ondo zegoen!** — ¡Munches gracies, taba perbono!
 - **Zuri! Agur!** — ¡A ti! ¡Adiós!
 - **Hurrengora arte!** — ¡Hasta la próxima!
 

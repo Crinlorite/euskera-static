@@ -3,14 +3,14 @@ code: 01-saludos
 level: a1
 title: Saúdos e primeiras palabras
 order: 1
-description: Aprende a saudar, despedirte e presentarte en euskera.
+description: Aprende a saudar, despedirte e presentarte en éuscaro.
 estimatedMinutes: 50
 covers:
-  - greetings
-  - courtesy
-  - introductions
-  - personal-pronouns
-  - izan-nor
-  - origin-koa
-  - residence-an
-  - countries-nationalities
+- greetings
+- courtesy
+- introductions
+- personal-pronouns
+- izan-nor
+- origin-koa
+- residence-an
+- countries-nationalities
