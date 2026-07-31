@@ -1,0 +1,20 @@
+---
+// 404 real. Sin este fichero, CF Pages sirve la home con status 200 para
+// CUALQUIER ruta inexistente — y durante las ventanas de deploy eso ENVENENA
+// la caché de la zona: un asset pedido un segundo antes de propagarse queda
+// cacheado 4h como HTML (island roto, 31-jul-2026). Un 404 de verdad no se
+// cachea como contenido bueno. También corrige los «200 mentirosos» que
+// confunden cualquier verificación.
+import RootLayout from '../layouts/RootLayout.astro';
+---
+<RootLayout locale="es" title="404 — Ez dago hemen">
+  <section class="container nf">
+    <h1 class="display">404 · <span class="text-grad">Ez dago hemen</span></h1>
+    <p>Esta página no existe (o ya no). <em>Barkatu!</em></p>
+    <p><a class="btn btn-primary" href="/es/">← Volver al inicio</a></p>
+  </section>
+</RootLayout>
+
+<style>
+  .nf { padding-block: var(--s-9); display: grid; gap: var(--s-4); justify-items: start; }
+</style>
