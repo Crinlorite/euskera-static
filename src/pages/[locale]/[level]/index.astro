@@ -64,13 +64,22 @@ for (const u of units) {
         </ul>
       )}
       {locale === 'es' && levelSlug === 'a1' && (
-        <a class="sim-cta" href={`/${locale}/${levelSlug}/simulakroa/`}>
-          <span class="sim-cta-dice" aria-hidden="true">🎲</span>
-          <span class="sim-cta-body">
-            <strong>Simulakro sortzailea</strong>
-            <small>Un examen A1 completo distinto cada vez — con entzumena de voz real, lectura, gramática y escritura autocorregida.</small>
-          </span>
-        </a>
+        <>
+          <a class="sim-cta" href={`/${locale}/${levelSlug}/simulakroa/`}>
+            <span class="sim-cta-dice" aria-hidden="true">🎲</span>
+            <span class="sim-cta-body">
+              <strong>Simulakro sortzailea</strong>
+              <small>Un examen A1 completo distinto cada vez — con entzumena de voz real, lectura, gramática y escritura autocorregida.</small>
+            </span>
+          </a>
+          <a class="sim-cta gym" href={`/${locale}/${levelSlug}/mintzamena/`}>
+            <span class="sim-cta-dice" aria-hidden="true">🎙️</span>
+            <span class="sim-cta-body">
+              <strong>Ahoskera-gimnasioa <span class="beta-mini">BETA</span></strong>
+              <small>Pronuncia y comprueba si se te entiende — la IA corre en tu dispositivo, nada sale de él.</small>
+            </span>
+          </a>
+        </>
       )}
     </section>
 
@@ -116,6 +125,14 @@ for (const u of units) {
   .sim-cta-body { display: grid; gap: 2px; }
   .sim-cta-body strong { color: var(--c-green-deep); }
   .sim-cta-body small { color: var(--c-text-muted); }
+  .sim-cta.gym { border-color: var(--c-red); background: var(--c-red-soft); }
+  .sim-cta.gym:hover { box-shadow: 0 6px 18px rgb(213 43 30 / 0.16); }
+  .sim-cta.gym strong { color: var(--c-red-deep); }
+  .beta-mini {
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em;
+    background: var(--c-red); color: #fff; padding: 1px 7px;
+    border-radius: 999px; vertical-align: middle; margin-inline-start: 4px;
+  }
 
   .level-header { margin-block-end: var(--s-9); border-block-end: 1px solid var(--c-border); padding-block-end: var(--s-7); }
   .level-h1 {

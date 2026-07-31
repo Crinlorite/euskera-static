@@ -18,6 +18,7 @@
   "dependencies": {
     "@astrojs/sitemap": "3.2.1",
     "@astrojs/svelte": "5.7.3",
+    "@huggingface/transformers": "^4.2.0",
     "astro": "4.16.19",
     "svelte": "4.2.20"
   },
