@@ -36,6 +36,7 @@ LEVEL_ES = ROOT / "src/content/levels/es/a2.yaml"
 
 KEY = json.load(open("/root/.claude/gemini.local.json"))["GEMINI_API_KEY"]
 MODEL = "gemini-3.1-pro-preview"
+LEVEL_REVIEW = "a1"  # se itera a1+a2 en main
 
 LANGS = {
     "ca": "Català", "gl": "Galego", "oc": "Occitan (aranés d'era Val d'Aran)",
@@ -163,7 +164,7 @@ def parse_md(path: pathlib.Path):
 def collect_review_jobs(loc):
     """A1: (kind, rel, data_es, body_es, seg_es, seg_actual|None)."""
     out = []
-    base_es = ROOT / "src/content/lessons/es/a1"
+    base_es = ROOT / "src/content/lessons/es" / LEVEL_REVIEW
     for f in sorted(base_es.rglob("*.md")):
         rel = f.relative_to(ROOT / "src/content/lessons/es")
         fm, body = parse_md(f)
@@ -179,7 +180,7 @@ def collect_review_jobs(loc):
             except Exception:
                 seg_cur = None
         out.append(("lesson", rel, fm, body, seg, seg_cur))
-    for f in sorted((ROOT / "src/content/units/es/a1").glob("*/index.yaml")):
+    for f in sorted((ROOT / "src/content/units/es" / LEVEL_REVIEW).glob("*/index.yaml")):
         rel = f.relative_to(ROOT / "src/content/units/es")
         u = yaml.safe_load(f.read_text(encoding="utf-8"))
         seg = segments_unit(u)
@@ -193,9 +194,9 @@ def collect_review_jobs(loc):
             except Exception:
                 pass
         out.append(("unit", rel, u, None, seg, seg_cur))
-    l = yaml.safe_load(LEVEL_ES.parent.joinpath("a1.yaml").read_text(encoding="utf-8"))
+    l = yaml.safe_load(LEVEL_ES.parent.joinpath(f"{LEVEL_REVIEW}.yaml").read_text(encoding="utf-8"))
     seg = segments_level(l)
-    cur = ROOT / "src/content/levels" / loc / "a1.yaml"
+    cur = ROOT / "src/content/levels" / loc / f"{LEVEL_REVIEW}.yaml"
     seg_cur = None
     if cur.exists():
         try:
@@ -253,7 +254,7 @@ def dump_lesson(fm: dict, body: str) -> str:
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "plan"
     locales = [a for a in sys.argv[2:] if a in LANGS] or list(LANGS)
-    jobs = collect_jobs()
+    jobs = []  # modo todo-revisión: sin traducciones desde cero
     n_seg = sum(len(j[4]) for j in jobs)
     n_char = sum(len(v) for j in jobs for v in j[4].values())
     print(f"ficheros es/a2: {len(jobs)} · segmentos: {n_seg} · chars: {n_char} · "
@@ -263,7 +264,14 @@ def main():
 
     # ── peticiones: T=traducir A2 · R=revisar A1 (o traducir si falta base) ──
     reqs = []
-    review_jobs = {loc: collect_review_jobs(loc) for loc in locales}
+    global LEVEL_REVIEW
+    review_jobs = {}
+    for loc in locales:
+        both = []
+        for lvl in ("a1", "a2"):
+            LEVEL_REVIEW = lvl
+            both.extend(collect_review_jobs(loc))
+        review_jobs[loc] = both
     for loc in locales:
         for k, (kind, rel, data, body, seg) in enumerate(jobs):
             payload = json.dumps(seg, ensure_ascii=False)
@@ -271,7 +279,8 @@ def main():
                 "request": {
                     "contents": [{"parts": [{"text": PROMPT.format(lang=LANGS[loc], payload=payload)}]}],
                     "generationConfig": {"responseMimeType": "application/json",
-                                          "temperature": 0.2},
+                                          "temperature": 0.2,
+                                          "thinkingConfig": {"thinkingBudget": 128}},
                 },
                 "metadata": {"key": f"T|{loc}|{k}"},
             })
@@ -285,7 +294,8 @@ def main():
                 "request": {
                     "contents": [{"parts": [{"text": prompt}]}],
                     "generationConfig": {"responseMimeType": "application/json",
-                                          "temperature": 0.2},
+                                          "temperature": 0.2,
+                                          "thinkingConfig": {"thinkingBudget": 128}},
                 },
                 "metadata": {"key": f"R|{loc}|{k}"},
             })
