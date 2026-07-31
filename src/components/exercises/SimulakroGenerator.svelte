@@ -60,7 +60,14 @@
     const rnd = mulberry32(seedToInt(seedStr));
     const bp = bank.blueprint;
 
-    // Irakurmena: 2 lecturas de tipos distintos, 4 preguntas cada una
+    // Entzumena: 1 audio (rota por semilla), 4 preguntas barajadas
+    const ls = shuffle(bank.listenings, rnd)[0];
+    const listening = {
+      ...ls,
+      questions: sample(ls.questions, bp.entzumena.questionsPer, rnd).map((q) => shuffleMc(q, rnd)),
+    };
+
+    // Irakurmena: 2 lecturas de tipos distintos, 3 preguntas cada una
     const rs = shuffle(bank.readings, rnd);
     const r1 = rs[0];
     const r2 = rs.find((r) => r.kind !== r1.kind) ?? rs[1];
@@ -96,7 +103,7 @@
     const w1 = ws[0];
     const w2 = ws.find((w) => w.kind !== w1.kind) ?? ws[1];
 
-    return { readings, gramatika, cards, pairSets, writings: [w1, w2] };
+    return { listening, readings, gramatika, cards, pairSets, writings: [w1, w2] };
   }
 
   // ── estado ──
@@ -152,7 +159,27 @@
     auto[e.detail.exerciseId] = e.detail.score >= 70 ? 0.5 : 0;
   };
 
-  const AUTO_N = 8 + 10 + 1 + 2; // preguntas de lectura + gramática + tarjetas + 2 parejas
+  // ── entzumena: 2 escuchas máximo (como el examen real); transcripción
+  //    visible solo tras responder sus 4 preguntas ──
+  let lsPlays = 0;
+  let lsPlaying = false;
+  let lsShowTranscript = false;
+  let lsAudio: HTMLAudioElement | null = null;
+  $: lsMax = bank.blueprint.entzumena.plays;
+  $: lsAnswered = exam.listening.questions.every((q) => auto[q.id] !== undefined);
+
+  function playListening() {
+    if (lsPlays >= lsMax || lsPlaying) return;
+    lsPlays += 1;
+    lsPlaying = true;
+    lsAudio?.pause();
+    lsAudio = new Audio(`/audio/eu/${exam.listening.audio}`);
+    lsAudio.onended = () => { lsPlaying = false; };
+    lsAudio.onerror = () => { lsPlaying = false; };
+    lsAudio.play().catch(() => { lsPlaying = false; });
+  }
+
+  const AUTO_N = 4 + 6 + 8 + 1 + 2; // entzumena + lectura + gramática + tarjetas + 2 parejas
   $: autoTotal = Object.values(auto).reduce((a, b) => a + b, 0);
   $: writeTotal = exam.writings.reduce(
     (a, w) => a + w.checks.filter((c) => evalRule(c.rule as Rule, texts[w.id] ?? '')).length, 0);
@@ -167,10 +194,13 @@
   })();
   $: failedReading = exam.readings.reduce(
     (a, r) => a + r.questions.filter((q) => auto[q.id] === 0).length, 0);
+  $: failedListening = exam.listening.questions.filter((q) => auto[q.id] === 0).length;
 
   function regen() {
     seed = newSeed();
     auto = {}; texts = {}; showModel = {};
+    lsAudio?.pause();
+    lsPlays = 0; lsPlaying = false; lsShowTranscript = false;
     history.replaceState(null, '', `?s=${seed}`);
     haptic('light');
     scrollTo({ top: 0, behavior: 'smooth' });
@@ -188,20 +218,51 @@
     <table class="sim-tbl">
       <thead><tr><th>Atala</th><th>Qué hay</th><th>Puntos</th></tr></thead>
       <tbody>
-        <tr><td>1 · Irakurmena</td><td>2 textos, 8 preguntas</td><td>8</td></tr>
-        <tr><td>2 · Gramatika eta hiztegia</td><td>10 ejercicios + tarjetas + 2 de emparejar</td><td>12</td></tr>
-        <tr><td>3 · Idazmena</td><td>2 tareas con modelo y rúbrica</td><td>10</td></tr>
+        <tr><td>1 · Entzumena</td><td>1 audio (2 escuchas), 4 preguntas</td><td>4</td></tr>
+        <tr><td>2 · Irakurmena</td><td>2 textos, 6 preguntas</td><td>6</td></tr>
+        <tr><td>3 · Gramatika eta hiztegia</td><td>8 ejercicios + tarjetas + 2 de emparejar</td><td>10</td></tr>
+        <tr><td>4 · Idazmena</td><td>2 tareas con corrección automática</td><td>10</td></tr>
         <tr class="sim-tot"><td><strong>Guztira</strong></td><td>45-60 min, sin diccionario</td><td><strong>30</strong></td></tr>
       </tbody>
     </table>
-    <p class="sim-note">Sin audio no hay <em>entzumena</em> y sin examinador no hay <em>mintzamena</em>:
-      lee los textos en voz alta al acabar y grábate con el móvil. Y recuerda: A1 y A2 se acreditan
-      en el euskaltegi por evaluación continua — el primer examen de convocatoria es el B1 de HABE.</p>
+    <p class="sim-note">Sin examinador no hay <em>mintzamena</em>: lee los textos en voz alta al acabar
+      y grábate con el móvil. Y recuerda: A1 y A2 se acreditan en el euskaltegi por evaluación
+      continua — el primer examen de convocatoria es el B1 de HABE.</p>
   </header>
 
   {#key seed}
     <section class="atala">
-      <h2>📖 1 · Irakurmena</h2>
+      <h2>🎧 1 · Entzumena</h2>
+      <article class="listening">
+        <h3>{exam.listening.title}</h3>
+        <div class="ls-player">
+          <button class="btn btn-primary" on:click={playListening}
+            disabled={lsPlays >= lsMax || lsPlaying}>
+            {lsPlaying ? '🔊 Sonando…' : lsPlays >= lsMax ? 'Escuchas agotadas' : `▶ Entzun (${lsMax - lsPlays} ${lsMax - lsPlays === 1 ? 'escucha' : 'escuchas'})`}
+          </button>
+          <span class="ls-hint">Como en el examen real: {lsMax} escuchas. Lee antes las preguntas.</span>
+        </div>
+        {#each exam.listening.questions as q (q.id)}
+          <MultipleChoice id={q.id} prompt={q.prompt} options={q.options} answer={q.answer}
+            explanation={q.explanation} locale="es" on:result={onPoint} />
+        {/each}
+        {#if lsAnswered}
+          <button class="btn btn-secondary ls-tr-btn" on:click={() => (lsShowTranscript = !lsShowTranscript)}>
+            {lsShowTranscript ? 'Ezkutatu transkripzioa' : '📜 Erakutsi transkripzioa'}
+          </button>
+          {#if lsShowTranscript}
+            <div class="ls-transcript">
+              {#each exam.listening.transcriptEu.split('\n') as line}
+                <p>{line}</p>
+              {/each}
+            </div>
+          {/if}
+        {/if}
+      </article>
+    </section>
+
+    <section class="atala">
+      <h2>📖 2 · Irakurmena</h2>
       {#each exam.readings as r, ri}
         <article class="reading">
           <h3>{ri + 1}. {KIND_LABEL[r.kind] ?? 'testua'} — {r.title}</h3>
@@ -215,7 +276,7 @@
     </section>
 
     <section class="atala">
-      <h2>✏️ 2 · Gramatika eta hiztegia</h2>
+      <h2>✏️ 3 · Gramatika eta hiztegia</h2>
       {#each exam.gramatika as it (it.id)}
         {#if it.type === 'mc'}
           <MultipleChoice id={it.id} prompt={it.prompt} options={it.options} answer={it.answer}
@@ -233,7 +294,7 @@
     </section>
 
     <section class="atala">
-      <h2>🖊️ 3 · Idazmena</h2>
+      <h2>🖊️ 4 · Idazmena</h2>
       {#each exam.writings as w, wi (w.id)}
         <article class="writing">
           <h3>{wi + 1}. ataza — {w.title} <span class="pts">(5 puntos)</span></h3>
@@ -291,6 +352,10 @@
         <p class="v-read">Irakurmena: {failedReading} {failedReading === 1 ? 'fallo' : 'fallos'} —
           vuelve a leer los textos DESPACIO y busca la frase exacta de cada respuesta.</p>
       {/if}
+      {#if failedListening > 0}
+        <p class="v-read">Entzumena: {failedListening} {failedListening === 1 ? 'fallo' : 'fallos'} —
+          abre la transcripción y vuelve a escuchar siguiéndola con el dedo.</p>
+      {/if}
     {/if}
     <button class="btn btn-primary v-regen" on:click={regen}>🎲 Beste simulakro bat sortu</button>
   </section>
@@ -323,6 +388,18 @@
 
   .reading { display: grid; gap: var(--s-4); }
   .reading h3 { color: var(--c-green-strong); }
+
+  .listening { display: grid; gap: var(--s-4); }
+  .listening h3 { color: var(--c-green-strong); }
+  .ls-player { display: flex; align-items: center; gap: var(--s-4); flex-wrap: wrap; }
+  .ls-hint { color: var(--c-text-muted); font-size: 0.88rem; }
+  .ls-tr-btn { justify-self: start; }
+  .ls-transcript {
+    background: var(--c-bg-cream); border-left: 4px solid var(--c-green);
+    border-radius: var(--r-md); padding: var(--s-4) var(--s-5);
+    display: grid; gap: var(--s-2); line-height: 1.6; font-style: italic;
+  }
+  .ls-transcript p { margin: 0; }
   .reading-text {
     background: var(--c-bg-cream); border-left: 4px solid var(--c-green);
     border-radius: var(--r-md); padding: var(--s-4) var(--s-5);
