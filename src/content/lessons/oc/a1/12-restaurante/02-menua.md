@@ -7,60 +7,97 @@ level: a1
 order: 2
 title: Eth menú (menua eta platerak)
 estimatedMinutes: 10
-covers: [restaurant-vocab, food-bar, meals]
+covers:
+- restaurant-vocab
+- food-bar
+- meals
 exercises:
-  - id: ex-menu-mc1
-    type: multiple-choice
-    prompt: '"Lehen platera" vò díder…'
-    options: [Pòstre, Prumèr plat, Dusau plat, Beuenda]
-    answer: 1
-    explanation: '*Lehen platera* — prumèr plat. *Lehen* vò díder "prumèr".'
-  - id: ex-menu-mc2
-    type: multiple-choice
-    prompt: '"Postrea" en occitan ei…'
-    options: [Beuenda, Aperitiu, Pòstre, Plat principau]
-    answer: 2
-    explanation: '*Postrea* — pòstre. Era traduccion ei dirècta.'
-  - id: ex-menu-fb1
-    type: fill-in-blank
-    prompt: '"Menú deth dia" = Eguneko ___'
-    answers: [menua]
-    explanation: '*Eguneko menua* — literaument "eth menú deth dia" (eguneko = deth dia).'
-  - id: ex-menu-fb2
-    type: fill-in-blank
-    prompt: 'Demanes "ensalada e peish". Eth cambrèr confirme: "Hasteko, entsalada eta bigarrenerako, ___."'
-    answers: [arraina]
-    explanation: '*Arraina* — peish. *Bigarrenerako* — "entath dusau (plat)".'
-  - id: ex-menu-fc
-    type: flashcards
-    cards:
-      - { eu: menua, es: menú }
-      - { eu: karta, es: carta }
-      - { eu: 'eguneko menua', es: menú deth dia }
-      - { eu: 'lehen platera', es: prumèr plat }
-      - { eu: 'bigarren platera', es: dusau plat }
-      - { eu: postrea, es: pòstre }
-      - { eu: edaria, es: beuenda }
-      - { eu: entsalada, es: ensalada }
-      - { eu: zopa, es: sopa }
-      - { eu: arraina, es: peish }
-      - { eu: haragia, es: carn }
-      - { eu: legatza, es: lui }
-      - { eu: bakailaoa, es: bacalhau }
-      - { eu: oilaskoa, es: poth }
-      - { eu: txuleta, es: costèla }
-      - { eu: izozkia, es: gelat }
-      - { eu: 'sagar tarta', es: tarta de poma }
-      - { eu: flana, es: flam }
-  - id: ex-menu-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'lehen platera', es: prumèr plat }
-      - { eu: 'bigarren platera', es: dusau plat }
-      - { eu: postrea, es: pòstre }
-      - { eu: edaria, es: beuenda }
-      - { eu: 'eguneko menua', es: menú deth dia }
-      - { eu: karta, es: carta }
+- id: ex-menu-mc1
+  type: multiple-choice
+  prompt: '"Lehen platera" vò díder…'
+  options:
+  - Postre
+  - Primer plato
+  - Segundo plato
+  - Bebida
+  answer: 1
+  explanation: '*Lehen platera* — prumèr plat. *Lehen* vò díder "prumèr".'
+- id: ex-menu-mc2
+  type: multiple-choice
+  prompt: '"Postrea" en occitan ei…'
+  options:
+  - Bebida
+  - Aperitivo
+  - Postre
+  - Plato principal
+  answer: 2
+  explanation: '*Postrea* — pòstre. Era traduccion ei dirècta.'
+- id: ex-menu-fb1
+  type: fill-in-blank
+  prompt: '"Menú deth dia" = Eguneko ___'
+  answers:
+  - menua
+  explanation: '*Eguneko menua* — literaument "eth menú deth dia" (eguneko = deth dia).'
+- id: ex-menu-fb2
+  type: fill-in-blank
+  prompt: 'Demanes "ensalada e peish". Eth cambrèr confirme: "Hasteko, entsalada eta bigarrenerako, ___."'
+  answers:
+  - arraina
+  explanation: '*Arraina* — peish. *Bigarrenerako* — "entath dusau (plat)".'
+- id: ex-menu-fc
+  type: flashcards
+  cards:
+  - eu: menua
+    es: menú
+  - eu: karta
+    es: carta
+  - eu: eguneko menua
+    es: menú deth dia
+  - eu: lehen platera
+    es: prumèr plat
+  - eu: bigarren platera
+    es: dusau plat
+  - eu: postrea
+    es: pòstre
+  - eu: edaria
+    es: beuenda
+  - eu: entsalada
+    es: ensalada
+  - eu: zopa
+    es: sopa
+  - eu: arraina
+    es: peish
+  - eu: haragia
+    es: carn
+  - eu: legatza
+    es: lui
+  - eu: bakailaoa
+    es: bacalhau
+  - eu: oilaskoa
+    es: poth
+  - eu: txuleta
+    es: costèla
+  - eu: izozkia
+    es: gelat
+  - eu: sagar tarta
+    es: tarta de poma
+  - eu: flana
+    es: flam
+- id: ex-menu-mp
+  type: match-pairs
+  pairs:
+  - eu: lehen platera
+    es: primer plato
+  - eu: bigarren platera
+    es: segundo plato
+  - eu: postrea
+    es: postre
+  - eu: edaria
+    es: bebida
+  - eu: eguneko menua
+    es: menú deth dia
+  - eu: karta
+    es: carta
 ---
 
 Saber liéger eth menú te daurís pòrtes. Ena màger part des jatetxeak veiràs era estructura classica de tres parts: prumèr, dusau e pòstre.
@@ -70,7 +107,7 @@ Saber liéger eth menú te daurís pòrtes. Ena màger part des jatetxeak veirà
 | Euskera | Occitan | Quan |
 |---|---|---|
 | *eguneko menua* | menú deth dia | prètz fixe, opcions limitades |
-| *karta* | carta | ara carta, causisses liuraments |
+| *karta* | carta | ara carta, causisses liurament |
 
 Eth cambrèr acostume a preguntar:
 
@@ -96,7 +133,7 @@ Ensalades, sopes e legums son abituaus:
 - *errusiar entsalada* — ensaladilha russa
 - *zopa* — sopa
 - *porrusalda* — sopa de pòrres e trumfa
-- *babarrunak* — haves
+- *babarrunak* — mongetes
 - *paella* — paella
 
 ## Bigarren platera
@@ -112,21 +149,21 @@ Aciu se separe entre **arrainak** (peishi) e **haragiak** (carns):
 
 ## Postrea
 
-Pòstres classics enes jatetxeak basqui:
+Pòstres classics enes jatetxeak bascos:
 
 - *flana* — flam
 - *izozkia* — gelat
 - *sagar tarta* — tarta de poma
 - *mamia* — calhada
 - *arroz-esnea* — arrós damb lèit
-- *gazta eta intxaurrak* — hormatge damb anodes
+- *gazta eta intxaurrak* — hormatge damb anèths
 
 ## Edariak (beuendes)
 
 - *ardo gorria / beltza* — vin roi
 - *ardo zuria* — vin blanc
 - *garagardoa* — cervesa
-- *sagardoa* — citra
+- *sagardoa* — sidra
 - *ura* — aigua
 - *kafea* — cafè
 

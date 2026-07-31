@@ -7,62 +7,98 @@ level: a1
 order: 5
 title: Nire etxea — Descriure la casa pròpia
 estimatedMinutes: 12
-covers: [house-description, home-rooms, furniture, house-chores, companions-rekin]
+covers:
+- house-description
+- home-rooms
+- furniture
+- house-chores
+- companions-rekin
 exercises:
-  - id: ex-09-05-mc1
-    type: multiple-choice
-    prompt: 'Per preguntar "Quantes habitacions té?" dius…'
-    options: ["Non dago etxea?", "Zenbat gela ditu?", "Norekin bizi zara?", "Zer egiten duzu?"]
-    answer: 1
-    explanation: '"Zenbat" = quant/s, "gela" = habitació, "ditu" = té (diversos objectes).'
-  - id: ex-09-05-fb1
-    type: fill-in-blank
-    prompt: 'La meva casa és lluminosa = Nire etxea ___ da.'
-    answers: [argitsua]
-    explanation: '"Argitsua" = lluminós/osa (de "argi" = llum + sufix -tsu d''abundància).'
-  - id: ex-09-05-mc2
-    type: multiple-choice
-    prompt: '"Etxea hirugarren solairuan dago" significa...'
-    options: [La casa té tres habitacions, La casa és al tercer pis, La casa té tres finestres, La casa costa tres mil]
-    answer: 1
-    explanation: '"Hirugarren" = tercer, "solairua" = pis, "dago" = està. "És al tercer pis".'
-  - id: ex-09-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: argitsua, es: lluminós/osa }
-      - { eu: handia, es: gran }
-      - { eu: txikia, es: petit/a }
-      - { eu: lasaia, es: tranquil/il·la }
-      - { eu: berria, es: nou/nova }
-      - { eu: zaharra, es: vell/a }
-  - id: ex-09-05-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nolakoa da zure etxea?', es: 'Com és la teva casa?' }
-      - { eu: argitsua, es: lluminós/osa }
-      - { eu: iluna, es: fosc/a }
-      - { eu: handia, es: gran }
-      - { eu: txikia, es: petit/a }
-      - { eu: lasaia, es: tranquil/il·la }
-      - { eu: zaratatsua, es: sorollós/osa }
-      - { eu: berria, es: nou/nova }
-      - { eu: zaharra, es: vell/a }
-      - { eu: erosoa, es: còmode/a }
-      - { eu: 'Non dago zure etxea?', es: 'On és la teva casa?' }
-      - { eu: erdigunean, es: al centre }
-      - { eu: auzo lasai batean, es: en un barri tranquil }
-      - { eu: hirugarren solairuan, es: al tercer pis }
-      - { eu: 'Etxeak badu igogailua?', es: 'La casa té ascensor?' }
-      - { eu: 'Norekin bizi zara?', es: 'Amb qui vius?' }
+- id: ex-09-05-mc1
+  type: multiple-choice
+  prompt: Per preguntar "Quantes habitacions té?" dius…
+  options:
+  - Non dago etxea?
+  - Zenbat gela ditu?
+  - Norekin bizi zara?
+  - Zer egiten duzu?
+  answer: 1
+  explanation: '"Zenbat" = quant/s, "gela" = habitació, "ditu" = té (diversos objectes).'
+- id: ex-09-05-fb1
+  type: fill-in-blank
+  prompt: Casa meva és lluminosa = Nire etxea ___ da.
+  answers:
+  - argitsua
+  explanation: '"Argitsua" = lluminós/osa (de "argi" = llum + sufix -tsu d''abundància).'
+- id: ex-09-05-mc2
+  type: multiple-choice
+  prompt: '"Etxea hirugarren solairuan dago" significa...'
+  options:
+  - La casa té tres habitacions
+  - La casa està al tercer pis
+  - La casa té tres finestres
+  - La casa costa tres mil
+  answer: 1
+  explanation: '"Hirugarren" = tercer/a, "solairua" = pis, "dago" = està. "Està al tercer pis".'
+- id: ex-09-05-mp
+  type: match-pairs
+  pairs:
+  - eu: argitsua
+    es: luminoso/a
+  - eu: handia
+    es: grande
+  - eu: txikia
+    es: pequeño/a
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berria
+    es: nuevo/a
+  - eu: zaharra
+    es: viejo/a
+- id: ex-09-05-fc
+  type: flashcards
+  cards:
+  - eu: Nolakoa da zure etxea?
+    es: Com és casa teva?
+  - eu: argitsua
+    es: lluminós/osa
+  - eu: iluna
+    es: fosc/a
+  - eu: handia
+    es: gran
+  - eu: txikia
+    es: petit/a
+  - eu: lasaia
+    es: tranquil/a
+  - eu: zaratatsua
+    es: sorollós/osa
+  - eu: berria
+    es: nou/nova
+  - eu: zaharra
+    es: vell/a
+  - eu: erosoa
+    es: còmode/a
+  - eu: Non dago zure etxea?
+    es: On és casa teva?
+  - eu: erdigunean
+    es: al centre
+  - eu: auzo lasai batean
+    es: en un barri tranquil
+  - eu: hirugarren solairuan
+    es: al tercer pis
+  - eu: Etxeak badu igogailua?
+    es: La casa té ascensor?
+  - eu: Norekin bizi zara?
+    es: Amb qui vius?
 ---
 
-Aquesta lliçó integra tot el del tema 9: les habitacions, els mobles, les tasques i amb qui vius. L'objectiu és que puguis **descriure casa teva** en frases senzilles, com si t'ho estiguessin preguntant a classe o en una conversa informal.
+Aquesta lliçó integra tot el del tema 9: les habitacions, els mobles, les tasques i amb qui vius. L'objectiu és que puguis **descriure casa teva** en frases senzilles, com si t'ho preguntessin a classe o en una conversa informal.
 
 ## Les preguntes bàsiques
 
 | Pregunta | Català |
 |---|---|
-| *Non dago zure etxea?* | On és la teva casa? |
+| *Non dago zure etxea?* | On és casa teva? |
 | *Nolakoa da?* | Com és? |
 | *Zenbat gela ditu?* | Quantes habitacions té? |
 | *Norekin bizi zara?* | Amb qui vius? |
@@ -71,7 +107,7 @@ Aquesta lliçó integra tot el del tema 9: les habitacions, els mobles, les tasq
 
 ## Adjectius útils per descriure la casa
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *handia* | gran |
 | *txikia* | petita |
@@ -85,7 +121,7 @@ Aquesta lliçó integra tot el del tema 9: les habitacions, els mobles, les tasq
 | *garestia* | cara |
 | *merkea* | barata |
 
-> Recorda el patró **NOLAKOA da?** ja vist en altres unitats: la resposta porta l'adjectiu + `-a` final + verb *izan*. Ex.: *Nire etxea **handia da**.* — La meva casa és gran.
+> Recorda el patró **NOLAKOA da?** que ja hem vist en altres unitats: la resposta porta l'adjectiu + `-a` final + verb *izan*. Ex.: *Nire etxea **handia da**.* — Casa meva és gran.
 
 ## Un paràgraf model
 
@@ -95,7 +131,7 @@ Aquí tens un text senzill que descriu una casa. Llegeix-lo en veu alta i fixa't
 >
 > *Bikotekidearekin bizi naiz. Berak bazkaria prestatzen du, eta nik ontziak garbitzen ditut. Asteburuetan biok elkarrekin egiten dugu erosketa.*
 
-## El teu torn: descriu la teva casa
+## El teu torn: descriu casa teva
 
 Construeix el teu propi paràgraf responent en aquest ordre:
 
@@ -108,7 +144,7 @@ Construeix el teu propi paràgraf responent en aquest ordre:
 
 ## Vocabulari de tancament
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *etxebizitza* | habitatge |
 | *etxejabea* | propietari |
@@ -118,4 +154,4 @@ Construeix el teu propi paràgraf responent en aquest ordre:
 | *erdigunea* | centre (de la ciutat) |
 | *aldiriak* | extraradi / afores |
 
-> **Consell:** quan parlis de casa teva a classe, no intentis traduir cada detall. Queda't amb frases curtes i ben fetes. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* és millor descripció que una frase llarga plena d'errors.
+> **Consell:** quan parlis de casa teva a classe, no intentis traduir-ne cada detall. Fes servir frases curtes i ben fetes. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* és una descripció millor que una frase llarga plena d'errors.

@@ -5,40 +5,51 @@ code: 02-aiton-amonak
 unit: 02-familia
 level: a1
 order: 2
-title: Aiton-amonak (lolos)
+title: Aiton-amonak (güelos)
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-aa-fc
-    type: flashcards
-    cards:
-      - { eu: aitona, es: lolo }
-      - { eu: amona, es: lola }
-      - { eu: aiton-amonak, es: os lolos }
-      - { eu: biloba, es: nieto/a }
-      - { eu: bilobak, es: os nietos }
-  - id: ex-aa-fb1
-    type: fill-in-blank
-    prompt: 'Os míos lolos = nire ___.'
-    answers: [aiton-amonak]
-    explanation: '"Aiton-amonak" combina aitona + amona en plural — convención freqüent en euskera ta parellas.'
-  - id: ex-aa-mc1
-    type: multiple-choice
-    prompt: '"Biloba" ye...'
-    options: [o nebot, o nieto, o cusín, o suegro]
-    answer: 1
-    explanation: '"Biloba" ye nieto/nieta. No tien marca de chenero.'
+- id: ex-aa-fc
+  type: flashcards
+  cards:
+  - eu: aitona
+    es: güelo
+  - eu: amona
+    es: güela
+  - eu: aiton-amonak
+    es: os güelos
+  - eu: biloba
+    es: nieto/a
+  - eu: bilobak
+    es: os nietos
+- id: ex-aa-fb1
+  type: fill-in-blank
+  prompt: Os míos güelos = nire ___.
+  answers:
+  - aiton-amonak
+  explanation: '"Aiton-amonak" combina aitona + amona en plural — convención frequent en euskera ta parellas.'
+- id: ex-aa-mc1
+  type: multiple-choice
+  prompt: '"Biloba" ye...'
+  options:
+  - o nebot
+  - o nieto
+  - o cusín
+  - o suegro
+  answer: 1
+  explanation: '"Biloba" ye nieto/nieta. No tien marca de chenero.'
 ---
 
-Os lolos en euskera son **aitona** (lolo) y **amona** (lola). En plural, se prefiere a forma combinada **aiton-amonak**, que significa "lolos" (os dos chuntos).
+Os güelos en euskera son **aitona** (güelo) y **amona** (güela). En plural, se prefiere la forma combinada **aiton-amonak**, que significa "güelos" (os dos chuntos).
 
 ## Vocabulario
 
 | Euskera | Aragonés |
 |---|---|
-| *aitona* | lolo |
-| *amona* | lola |
-| *aiton-amonak* | os lolos (os dos) |
+| *aitona* | güelo |
+| *amona* | güela |
+| *aiton-amonak* | os güelos (os dos) |
 | *biloba* | nieto/nieta |
 | *bilobak* | os nietos |
 
@@ -47,13 +58,13 @@ Os lolos en euskera son **aitona** (lolo) y **amona** (lola). En plural, se pref
 O euskera tien una forma elegant de charrar de parellas/grupos d'o mesmo tipo combinando os dos termins en plural:
 
 - **anai-arrebak** — chirmans y chirmanas
-- **aiton-amonak** — lolos
+- **aiton-amonak** — güelos
 - **seme-alabak** — fillos y fillas
 
-> Quan quieras dir "os míos lolos vinioron ta casa", abasta con **Nire aiton-amonak etxera etorri ziren** — sin haber de dir "lolo y lola".
+> Quan quieras decir "os míos güelos vinioron ta casa", abasta con **Nire aiton-amonak etxera etorri ziren** — sin haber de decir "güelo y güela".
 
-## Frases utils
+## Frases útils
 
-- *Nire aitona Ekaitz da.* — O mío lolo ye Ekaitz.
-- *Amona oso atsegina da.* — A lola ye muito amabla.
+- *Nire aitona Ekaitz da.* — O mío güelo ye Ekaitz.
+- *Amona oso atsegina da.* — A güela ye muito amable.
 - *Bi biloba ditu.* — Tien dos nietos.

@@ -7,69 +7,107 @@ level: a1
 order: 5
 title: Tresportes (oinez, autobusez, trenez…)
 estimatedMinutes: 10
-covers: [instrumental-z, movement-verbs]
+covers:
+- instrumental-z
+- movement-verbs
 exercises:
-  - id: ex-ga-mp
-    type: match-pairs
-    pairs:
-      - { eu: oinez, es: a pie }
-      - { eu: kotxez / autoz, es: en coche }
-      - { eu: autobusez, es: n'autobús }
-      - { eu: trenez, es: en tren }
-      - { eu: bizikletaz, es: en bicicleta }
-      - { eu: hegazkinez, es: n'avión }
-      - { eu: itsasontziz, es: en barcu }
-  - id: ex-ga-mc1
-    type: multiple-choice
-    prompt: '¿Cómo se diz "Voi n''autobús"?'
-    options: ["Autobusera noa", "Autobusan noa", "Autobusez noa", "Autobusetik noa"]
-    answer: 2
-    explanation: '"Autobus" + sufixu -ez (instrumental) = "autobusez" (n''autobús, mou de movimientu).'
-  - id: ex-ga-fb1
-    type: fill-in-blank
-    prompt: 'Voi a pie = ___ noa.'
-    answers: [Oinez, oinez]
-    explanation: '"Oinez" ye la forma fixa pa "a pie" (lliteralmente "con pie").'
-  - id: ex-ga-fb2
-    type: fill-in-blank
-    prompt: 'Voi a Pamplona en tren = Iruñera ___ noa.'
-    answers: [trenez]
-  - id: ex-ga-mc2
-    type: multiple-choice
-    prompt: '"Bilbora hegazkinez doaz" significa…'
-    options: ["Vienen de Bilbao n'avión", "Van a Bilbao n'avión", "Ta nel avión a Bilbao", "Bilbao tien aeropuertu"]
-    answer: 1
-    explanation: 'Bilbo + ra = a Bilbao; hegazkin + ez = n''avión; doaz = van.'
-  - id: ex-ga-mc3
-    type: multiple-choice
-    prompt: '¿Cómo entrugues "¿Cómo vas a la escuela?"'
-    options: ["Nora zoaz eskolara?", "Nondik zatoz eskolatik?", "Nola zoaz eskolara?", "Non dago eskola?"]
-    answer: 2
-    explanation: '"Nola?" significa "¿cómo?". Pa entrugar pol mediu de tresporte usamos "Nola zoaz…?" o tamién "Zerez zoaz?".'
-  - id: ex-ga-fc
-    type: flashcards
-    cards:
-      - { eu: oinez, es: a pie }
-      - { eu: autoz / kotxez, es: en coche }
-      - { eu: autobusez, es: n'autobús }
-      - { eu: trenez, es: en tren }
-      - { eu: bizikletaz, es: en bicicleta }
-      - { eu: motorrez, es: en moto }
-      - { eu: hegazkinez, es: n'avión }
-      - { eu: itsasontziz, es: en barcu }
-      - { eu: taxiz, es: en taxi }
-      - { eu: metroz, es: en metro }
-      - { eu: 'Nola zoaz?', es: ¿Cómo vas? }
-      - { eu: 'Zerez zoaz?', es: ¿Con qué mediu vas? }
-      - { eu: garraiobide, es: mediu de tresporte }
-      - { eu: ibilbide, es: trayeutu / itinerariu }
+- id: ex-ga-mp
+  type: match-pairs
+  pairs:
+  - eu: oinez
+    es: a pie
+  - eu: kotxez / autoz
+    es: en coche
+  - eu: autobusez
+    es: n'autobús
+  - eu: trenez
+    es: en tren
+  - eu: bizikletaz
+    es: en bicicleta
+  - eu: hegazkinez
+    es: n'avión
+  - eu: itsasontziz
+    es: en barco
+- id: ex-ga-mc1
+  type: multiple-choice
+  prompt: ¿Cómo se diz "Voi n'autobús"?
+  options:
+  - Autobusera noa
+  - Autobusan noa
+  - Autobusez noa
+  - Autobusetik noa
+  answer: 2
+  explanation: '"Autobus" + sufixu -ez (instrumental) = "autobusez" (n''autobús, mou de movimientu).'
+- id: ex-ga-fb1
+  type: fill-in-blank
+  prompt: Voi a pie = ___ noa.
+  answers:
+  - Oinez
+  - oinez
+  explanation: '"Oinez" ye la forma fixo pa "a pie" (lliteralmente "con pie").'
+- id: ex-ga-fb2
+  type: fill-in-blank
+  prompt: Voi a Pamplona en tren = Iruñera ___ noa.
+  answers:
+  - trenez
+- id: ex-ga-mc2
+  type: multiple-choice
+  prompt: '"Bilbora hegazkinez doaz" significa…'
+  options:
+  - Vienen de Bilbao n'avión
+  - Van a Bilbao n'avión
+  - Ta nel avión a Bilbao
+  - Bilbao tien aeropuertu
+  answer: 1
+  explanation: Bilbo + ra = a Bilbao; hegazkin + ez = n'avión; doaz = van.
+- id: ex-ga-mc3
+  type: multiple-choice
+  prompt: ¿Cómo preguntes "¿Cómo vas a la escuela?"
+  options:
+  - Nora zoaz eskolara?
+  - Nondik zatoz eskolatik?
+  - Nola zoaz eskolara?
+  - Non dago eskola?
+  answer: 2
+  explanation: '"Nola?" significa "¿cómo?". Pa preguntar el mediu de tresporte usamos "Nola zoaz…?" o tamién "Zerez zoaz?".'
+- id: ex-ga-fc
+  type: flashcards
+  cards:
+  - eu: oinez
+    es: a pie
+  - eu: autoz / kotxez
+    es: en coche
+  - eu: autobusez
+    es: n'autobús
+  - eu: trenez
+    es: en tren
+  - eu: bizikletaz
+    es: en bicicleta
+  - eu: motorrez
+    es: en moto
+  - eu: hegazkinez
+    es: n'avión
+  - eu: itsasontziz
+    es: en barcu
+  - eu: taxiz
+    es: en taxi
+  - eu: metroz
+    es: en metro
+  - eu: Nola zoaz?
+    es: ¿Cómo vas?
+  - eu: Zerez zoaz?
+    es: ¿Con qué mediu vas?
+  - eu: garraiobide
+    es: mediu de tresporte
+  - eu: ibilbide
+    es: trayeutu / itinerariu
 ---
 
-Pa zarrar la unidá fáltanos una pieza: **cómo te mueves**. En castellanu usamos "en + tresporte" ("en coche", "n'autobús"). N'euskera úsase'l sufixu **`-z`** (casu *instrumental*), qu'amiéstase al mediu de tresporte y, ablucantemente, tamién a la pallabra pa "pie".
+Pa zarrar la unidá fáltanos una pieza: **cómo te mueves**. N'asturianu usamos "en + tresporte" ("en coche", "n'autobús"). N'eusquera úsase'l sufixu **`-z`** (casu *instrumental*), que s'añade al mediu de tresporte y, sorprendentemente, tamién a la pallabra pa "pie".
 
-## La entruga
+## La pregunta
 
-| Entruga | Castellanu |
+| Pregunta | Asturianu |
 |---|---|
 | ***Nola* zoaz?** | ¿Cómo vas? |
 | ***Zerez* zoaz?** | ¿Con qué (mediu) vas? |
@@ -79,7 +117,7 @@ Les dos formes (*Nola* y *Zerez*) son válides y frecuentes. *Nola* ye más xene
 
 ## Los medios de tresporte
 
-| Mediu | Forma con -z | Castellanu |
+| Mediu | Forma con -z | Asturianu |
 |---|---|---|
 | oin (pie) | **oinez** | a pie |
 | kotxe / auto | **kotxez** / **autoz** | en coche |
@@ -102,7 +140,7 @@ Les dos formes (*Nola* y *Zerez*) son válides y frecuentes. *Nola* ye más xene
 - **Iruñera trenez goaz.** — Vamos a Pamplona en tren.
 - **Bilbora hegazkinez doaz.** — Van a Bilbao n'avión.
 - **Eskolara bizikletaz dator alaba.** — La fía vien a la escuela en bicicleta.
-- **Mendira oinez igotzen gara.** — Xubimos a pie al monte.
+- **Mendira oinez igotzen gara.** — Subimos a pie al monte.
 
 ## Combinando NONDIK + NORA + NOLA
 
@@ -118,20 +156,20 @@ Una frase típica de viaxe suel tener tres pieces: **d'ónde + a ónde + cómo**
 >
 > — *Eta **nola** zoaz?* — ¿Y cómo vas?
 >
-> — *Trenez. Oso erosoa da.* — En tren. Ye perafayadizu.
+> — *Trenez. Oso erosoa da.* — En tren. Ye mui cómodu.
 >
 > — *Ni autoz noa beti, baina garestia da gasolina.* — Yo voi siempre en coche, pero la gasolina ye cara.
 
 ## Sobre "oinez"
 
-A primer vista *oinez* paez un casu aparte ("con pie"), pero en realidá ye esautamente'l mesmu patrón que'l restu: *oin* (pie) + *ez* (sufixu instrumental). L'euskera trata "dir a pie" como cualesquier otru mou de tresporte: usando'l mediu que te lleva.
+A primer vista *oinez* paez un casu aparte ("con pie"), pero en realidá ye esautamente'l mesmu patrón que'l restu: *oin* (pie) + *ez* (sufixu instrumental). L'eusquera trata "dir a pie" como cualesquier otru mou de tresporte: usando'l mediu que te lleva.
 
-## Repás final del bloque NORA / NONDIK / NOLA
+## Repasu final del bloque NORA / NONDIK / NOLA
 
-| Entruga | Sufixu | Entruga-tipu | Rempuesta-tipu |
+| Pregunta | Sufixu | Pregunta-tipu | Respuesta-tipu |
 |---|---|---|---|
 | **Nora?** | -ra | ¿A ónde? | *Bilbo**ra** noa.* |
 | **Nondik?** | -tik | ¿D'ónde? | *Bilbo**tik** nator.* |
 | **Nola? / Zerez?** | -z | ¿Cómo? / ¿Con qué? | *Tren**ez** noa.* |
 
-> **Trucu:** los trés sufixos xuntos formen cuasi cualesquier frase de viaxe. Por exemplu: *Bilbotik Donostiara autobusez goaz, lagun bat bisitatzera*. — "Vamos de Bilbao a Donostia n'autobús, a visitar a un amigu." Si dominues estos trés sufixos + les formes sintétiques de *joan* y *etorri*, pues falar de cualesquier desplazamientu del to día a día.
+> **Trucu:** los tres sufixos xuntos formen cuasi cualquier frase de viaxe. Por exemplu: *Bilbotik Donostiara autobusez goaz, lagun bat bisitatzera*. — "Vamos de Bilbao a Donostia n'autobús, a visitar a un amigu." Si domines estos tres sufixos + les formes sintétiques de *joan* y *etorri*, puedes falar de cualquier desplazamientu del to día a día.

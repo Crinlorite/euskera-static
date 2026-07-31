@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — narrar eth passat
+order: 2
+description: Passat complet (iragan burutua) e passat imperfèt (iragan ez burutua). Com arrelatar çò que passèc ier, hè ans o çò que soies hèr.
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

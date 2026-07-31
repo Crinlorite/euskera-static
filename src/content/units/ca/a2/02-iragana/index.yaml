@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — narrar el passat
+order: 2
+description: Passat complet (iragan burutua) i passat imperfet (iragan ez burutua). Com explicar el que va passar ahir, fa anys o el que solies fer.
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

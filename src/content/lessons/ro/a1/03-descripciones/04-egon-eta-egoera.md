@@ -7,64 +7,101 @@ level: a1
 order: 4
 title: Verbul egon și stările trecătoare
 estimatedMinutes: 11
-covers: [egon-nor, mental-states]
+covers:
+- egon-nor
+- mental-states
 exercises:
-  - id: ex-egon-mc1
-    type: multiple-choice
-    prompt: 'Care este forma lui "egon" pentru "eu"?'
-    options: [naiz, nago, dut, daude]
-    answer: 1
-    explanation: '*nago* = "sunt / mă aflu". Verbul *egon* are propria conjugare, diferită de *izan*.'
-  - id: ex-egon-mc2
-    type: multiple-choice
-    prompt: 'Vrei să spui "Sunt obosită". Care este forma firească?'
-    options: [Ni nekatua naiz, Ni nekatuta nago, Ni nekatuan nago, Ni nekatua dut]
-    answer: 1
-    explanation: 'Pentru o stare trecătoare ("azi sunt obosită") folosește *egon* + *nekatuta* (fără `-a` final).'
-  - id: ex-egon-fb1
-    type: fill-in-blank
-    prompt: 'Maialen pozik ___. (Maialen este mulțumită)'
-    answers: [dago]
-    explanation: '*dago* = "este / se află" (persoana a 3-a).'
-  - id: ex-egon-fb2
-    type: fill-in-blank
-    prompt: 'Gu nekatuta ___. (Noi suntem obosiți)'
-    answers: [gaude]
-    explanation: '*gaude* = "suntem".'
-  - id: ex-egon-fc
-    type: flashcards
-    cards:
-      - { eu: nago, es: sunt }
-      - { eu: zaude, es: ești }
-      - { eu: dago, es: este }
-      - { eu: gaude, es: suntem }
-      - { eu: zaudete, es: sunteți }
-      - { eu: daude, es: sunt (ei/ele) }
-      - { eu: pozik, es: mulțumit }
-      - { eu: triste, es: trist }
-      - { eu: nekatuta, es: obosit }
-      - { eu: haserre, es: supărat }
-      - { eu: lasai, es: liniștit (stare) }
-      - { eu: urduri, es: agitat (stare) }
-      - { eu: gaixorik, es: bolnav }
-      - { eu: ondo, es: bine }
-      - { eu: gaizki, es: rău }
-      - { eu: 'Nola zaude?', es: 'Ce mai faci?' }
-      - { eu: 'Zer moduz zaude?', es: 'Cum o mai duci?' }
-  - id: ex-egon-mp
-    type: match-pairs
-    pairs:
-      - { eu: pozik, es: mulțumit }
-      - { eu: triste, es: trist }
-      - { eu: nekatuta, es: obosit }
-      - { eu: haserre, es: supărat }
-      - { eu: gaixorik, es: bolnav }
-      - { eu: ondo, es: bine }
-      - { eu: gaizki, es: rău }
-      - { eu: lasai, es: liniștit (acum) }
+- id: ex-egon-mc1
+  type: multiple-choice
+  prompt: Care este forma lui "egon" pentru "eu"?
+  options:
+  - naiz
+  - nago
+  - dut
+  - daude
+  answer: 1
+  explanation: '*nago* = "sunt / mă aflu". Verbul *egon* are propria conjugare, diferită de *izan*.'
+- id: ex-egon-mc2
+  type: multiple-choice
+  prompt: Vrei să spui "Sunt obosită". Care este forma firească?
+  options:
+  - Ni nekatua naiz
+  - Ni nekatuta nago
+  - Ni nekatuan nago
+  - Ni nekatua dut
+  answer: 1
+  explanation: Pentru o stare trecătoare ("azi sunt obosită") folosește *egon* + *nekatuta* (fără `-a` la final).
+- id: ex-egon-fb1
+  type: fill-in-blank
+  prompt: Maialen pozik ___. (Maialen este mulțumită)
+  answers:
+  - dago
+  explanation: '*dago* = "este / se află" (persoana a 3-a).'
+- id: ex-egon-fb2
+  type: fill-in-blank
+  prompt: Gu nekatuta ___. (Noi suntem obosiți)
+  answers:
+  - gaude
+  explanation: '*gaude* = "suntem".'
+- id: ex-egon-fc
+  type: flashcards
+  cards:
+  - eu: nago
+    es: sunt
+  - eu: zaude
+    es: ești
+  - eu: dago
+    es: este
+  - eu: gaude
+    es: suntem
+  - eu: zaudete
+    es: sunteți
+  - eu: daude
+    es: sunt
+  - eu: pozik
+    es: mulțumit
+  - eu: triste
+    es: trist
+  - eu: nekatuta
+    es: obosit
+  - eu: haserre
+    es: supărat
+  - eu: lasai
+    es: liniștit (stare)
+  - eu: urduri
+    es: agitat (stare)
+  - eu: gaixorik
+    es: bolnav
+  - eu: ondo
+    es: bine
+  - eu: gaizki
+    es: rău
+  - eu: Nola zaude?
+    es: Cum ești?
+  - eu: Zer moduz zaude?
+    es: Ce mai faci?
+- id: ex-egon-mp
+  type: match-pairs
+  pairs:
+  - eu: pozik
+    es: contento
+  - eu: triste
+    es: triste
+  - eu: nekatuta
+    es: cansado
+  - eu: haserre
+    es: enfadado
+  - eu: gaixorik
+    es: enfermo
+  - eu: ondo
+    es: bien
+  - eu: gaizki
+    es: mal
+  - eu: lasai
+    es: tranquilo (ahora)
 ---
 
-În euskera există două verbe acolo unde în română folosim unul singur. Cunoști deja **izan** ("a fi" pentru însușiri). Acum urmează **egon**, care se traduce ca "a fi / a se afla" atunci când vorbim despre **stări trecătoare**: cum se simte cineva azi, chiar acum, în acest moment.
+În euskera există două verbe acolo unde în română folosim unul singur. Cunoști deja **izan** ("a fi" pentru însușiri). Acum urmează **egon**, care se traduce prin "a fi" atunci când vorbim despre **stări trecătoare**: cum se simte cineva azi, chiar acum, în acest moment.
 
 ## Paradigma lui egon
 
@@ -82,10 +119,10 @@ exercises:
 
 ## Stări tipice: fără -a final
 
-Marea capcană: când un adjectiv merge cu **egon**, **NU** primește `-a` final. Compară:
+Marea capcană: când un adjectiv merge cu **egon**, **NU** are `-a` la final. Compară:
 
-- **Izan** (însușire stabilă): *Eu sunt vesel* → *Ni alai**a** naiz.* (cu `-a`)
-- **Egon** (stare trecătoare): *Eu sunt mulțumită azi* → *Ni pozik nago.* (fără `-a`)
+- **Izan** (însușire stabilă): *Ni alegre soy* → *Ni alai**a** naiz.* (cu `-a`)
+- **Egon** (stare trecătoare): *Yo estoy contenta hoy* → *Ni pozik nago.* (fără `-a`)
 
 | Stare | Română |
 |---|---|
@@ -99,7 +136,7 @@ Marea capcană: când un adjectiv merge cu **egon**, **NU** primește `-a` final
 | *ondo* | bine |
 | *gaizki* | rău |
 
-> Unele dintre acestea primesc forme terminate în `-ik` (*pozik*, *gaixorik*) sau `-ta` (*nekatuta*, *ezkonduta*); altele sunt adverbe (*ondo*, *gaizki*); altele sunt direct cuvinte invariabile (*haserre*, *triste*). Niciunul nu primește `-a`-ul tipic al adjectivelor cu *izan*.
+> Unele dintre acestea au forme terminate în `-ik` (*pozik*, *gaixorik*) sau `-ta` (*nekatuta*, *ezkonduta*); altele sunt adverbe (*ondo*, *gaizki*); altele sunt direct cuvinte invariabile (*haserre*, *triste*). Niciunul nu are `-a`-ul tipic adjectivelor cu *izan*.
 
 ## Propoziții tipice
 
@@ -109,15 +146,15 @@ Marea capcană: când un adjectiv merge cu **egon**, **NU** primește `-a` final
 - *Gu haserre **gaude**.* — Suntem supărați.
 - *Haiek gaixorik **daude**.* — Ei sunt bolnavi.
 
-## A întreba despre stare
+## Cum întrebi despre starea cuiva
 
-- **Nola zaude?** — Ce mai faci?
-- **Zer moduz?** — Cum o duci? (cel mai colocvial)
+- **Nola zaude?** — Cum ești?
+- **Zer moduz?** — Ce mai faci? (cel mai colocvial)
 - **Ondo, eskerrik asko. Eta zu?** — Bine, mulțumesc. Și tu?
 - **Nekatuta nago.** — Sunt obosit.
-- **Pixka bat gaixorik nago.** — Sunt cam bolnav.
+- **Pixka bat gaixorik nago.** — Sunt puțin bolnav.
 
-## Egon localizează de asemenea
+## Egon localizează
 
 Pe lângă stări, **egon** se folosește pentru a spune **unde** se află cineva sau ceva:
 
@@ -125,4 +162,4 @@ Pe lângă stări, **egon** se folosește pentru a spune **unde** se află cinev
 - *Maialen lanean dago.* — Maialen este la muncă.
 - *Liburuak mahaian daude.* — Cărțile sunt pe masă.
 
-> Acest lucru se suprapune cu *izan* într-un mod curios: *Ni ikaslea naiz* ("sunt student" = profesie, însușire), dar *Ni ikastetxean nago* ("sunt la școală" = localizare). În lecția următoare îl vedem în contrast.
+> Acest lucru se suprapune cu *izan* într-un mod curios: *Ni ikaslea naiz* ("sunt student" = profesie, însușire), dar *Ni ikastetxean nago* ("sunt la școală" = locație). Vom vedea această diferență în lecția următoare.

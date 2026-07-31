@@ -7,43 +7,65 @@ level: a1
 order: 5
 title: Ile masz rodzeństwa? (Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: 'Mam dwóch braci = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" = "ja mam (kilka)" — forma czasownika "ukan" (mieć) NOR-NORK.'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: 'Jak powiedzieć "trzy" po baskijsku?'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: jeden }
-      - { eu: bi, es: dwa }
-      - { eu: hiru, es: trzy }
-      - { eu: lau, es: cztery }
-      - { eu: bost, es: pięć }
-      - { eu: hamar, es: dziesięć }
-      - { eu: 'Zenbat senide zarete?', es: Ilu was jest rodzeństwa? }
-      - { eu: senide, es: rodzeństwo (ogólnie) }
-      - { eu: dut, es: mam (1 rzecz) }
-      - { eu: ditut, es: mam (kilka rzeczy) }
-      - { eu: ez dut anaiarik, es: nie mam braci (przeczenie z -rik) }
-      - { eu: 'Zenbat urte dituzu?', es: 'Ile masz lat?' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: Mam dwóch braci = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "ja mam (w liczbie mnogiej)" — forma czasownika "ukan" (mieć) NOR-NORK.'
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: Jak powiedzieć „trzy” po baskijsku?
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: jeden
+  - eu: bi
+    es: dwa
+  - eu: hiru
+    es: trzy
+  - eu: lau
+    es: cztery
+  - eu: bost
+    es: pięć
+  - eu: hamar
+    es: dziesięć
+  - eu: Zenbat senide zarete?
+    es: Ilu was jest w rodzeństwie?
+  - eu: senide
+    es: rodzeństwo (ogólnie)
+  - eu: dut
+    es: mam (1 rzecz)
+  - eu: ditut
+    es: mam (kilka rzeczy)
+  - eu: ez dut anaiarik
+    es: nie mam braci (przeczenie z -rik)
+  - eu: Zenbat urte dituzu?
+    es: Ile masz lat?
 ---
 
 Aby powiedzieć, ilu członków liczy rodzina, używamy:
 
-- **Zenbat senide zarete?** → "Ilu was jest rodzeństwa?" (pytamy w liczbie mnogiej: łączna liczba rodzeństwa, wliczając ciebie)
-- **Familia handi/txiki bat dut.** → "Mam dużą/małą rodzinę."
+- **Zenbat senide zarete?** → „Ilu was jest w rodzeństwie?” (pytamy w liczbie mnogiej: o łączną liczbę rodzeństwa, wliczając ciebie)
+- **Familia handi/txiki bat dut.** → „Mam dużą/małą rodzinę”.
 
 ## Liczby od 1 do 10
 
-| Liczba | Baskijski |
+| Liczba | Po baskijsku |
 |---|---|
 | 1 | *bat* |
 | 2 | *bi* |
@@ -56,16 +78,16 @@ Aby powiedzieć, ilu członków liczy rodzina, używamy:
 | 9 | *bederatzi* |
 | 10 | *hamar* |
 
-## Mówienie, ilu masz
+## Mówienie, ile czegoś masz
 
-Tu pojawia się pierwsza forma czasownika **ukan** (mieć), który dokładnie omówimy w kolejnych lekcjach:
+Tutaj pojawia się pierwsza forma czasownika **ukan** (mieć), którą dokładnie omówimy w kolejnych lekcjach:
 
 - **Anaia bat dut.** — Mam jednego brata.
 - **Bi anaia ditut.** — Mam dwóch braci.
 - **Hiru seme ditut.** — Mam trzech synów.
 - **Ez dut anaiarik.** — Nie mam braci. (forma przecząca)
 
-> **dut** stosuje się, gdy to, co masz, jest **jedną rzeczą** lub rzeczownikiem w liczbie pojedynczej. **ditut** stosuje się, gdy jest to **kilka rzeczy**. To jak różnica między "mam książkę" (liczba pojedyncza) a "mam książki" (liczba mnoga).
+> **dut** używamy, gdy to, co masz, to **jedna rzecz** lub rzeczownik w liczbie pojedynczej. **ditut** używamy, gdy jest to **kilka rzeczy**. To tak jak różnica między „mam książkę” (liczba pojedyncza) a „mam książki” (liczba mnoga).
 
 ## Typowe zdania przy przedstawianiu się
 

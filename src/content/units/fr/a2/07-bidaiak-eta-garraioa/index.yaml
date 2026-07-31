@@ -1,0 +1,13 @@
+id: a2-bidaiak
+code: 07-bidaiak-eta-garraioa
+level: a2
+title: Bidaiak eta garraioa — voyager en basque
+order: 7
+description: Transport, billets, logement, préparer le voyage (futur) et le raconter au retour (passé).
+estimatedMinutes: 65
+covers:
+- a2-transport-vocab
+- a2-tickets-schedules
+- a2-accommodation
+- a2-travel-planning
+- a2-travel-narrative

@@ -5,88 +5,113 @@ code: 03-erostera
 unit: 11-comprar
 level: a1
 order: 3
-title: Robienie zakupów (erostera)
+title: Kupowanie (erostera)
 estimatedMinutes: 10
-covers: [shopping-dialogue, courtesy, common-verbs]
+covers:
+- shopping-dialogue
+- courtesy
+- common-verbs
 exercises:
-  - id: ex-erostera-mc1
-    type: multiple-choice
-    prompt: 'Co mówisz, prosząc o coś grzecznie w sklepie?'
-    options: ["Eskerrik asko!", "Jarriko al didazu kilo bat sagar, mesedez?", "Agur!", "Nor zara?"]
-    answer: 1
-    explanation: '"Jarriko al didazu… mesedez?" = "Poproszę…?". Uprzejma i częsta konstrukcja.'
-  - id: ex-erostera-mc2
-    type: multiple-choice
-    prompt: '"Hartuko dut" oznacza…'
-    options: [Wezmę to (kupuję to), Nie chcę tego, Masz to?, To jest drogie]
-    answer: 0
-    explanation: '*Hartuko dut* — czas przyszły od *hartu* (brać/wziąć). Używa się do potwierdzenia zakupu.'
-  - id: ex-erostera-fb1
-    type: fill-in-blank
-    prompt: 'Aby o coś poprosić: "Ostatni, proszę?" → ___, mesedez?'
-    answers: [Azkena, azkena]
-    explanation: '*Azkena, mesedez?* to uniwersalny zwrot, by zapytać, kto jest ostatni w kolejce.'
-  - id: ex-erostera-fb2
-    type: fill-in-blank
-    prompt: 'Sprzedawca: "Coś jeszcze?" po baskijsku = "___?"'
-    answers: [Besterik, besterik]
-    explanation: '*Besterik?* lub *Besterik nahi duzu?* — "coś jeszcze?" / "chcesz coś jeszcze?"'
-  - id: ex-erostera-fc
-    type: flashcards
-    cards:
-      - { eu: 'Azkena, mesedez?', es: 'Ostatni, proszę? (w kolejce)' }
-      - { eu: 'Zer nahi duzu?', es: Czego sobie życzysz? }
-      - { eu: 'Jarriko al didazu...?', es: Poproszę...? }
-      - { eu: 'Hartuko dut', es: Wezmę to / Biorę to }
-      - { eu: 'Eman X mesedez', es: Daj mi X proszę }
-      - { eu: 'Besterik?', es: Coś jeszcze? }
-      - { eu: 'Ez, besterik ez', es: 'Nie, nic więcej' }
-      - { eu: 'Tori!', es: Proszę! (przy podawaniu) }
-      - { eu: 'Eskerrik asko!', es: Dziękuję bardzo! }
-      - { eu: 'Zuri!', es: Tobie! (odpowiedź na podziękowania) }
+- id: ex-erostera-mc1
+  type: multiple-choice
+  prompt: Co powiesz, prosząc o coś uprzejmie w sklepie?
+  options:
+  - Eskerrik asko!
+  - Jarriko al didazu kilo bat sagar, mesedez?
+  - Agur!
+  - Nor zara?
+  answer: 1
+  explanation: '"Jarriko al didazu… mesedez?" = "Czy poda mi Pan/Pani..., proszę?". Uprzejma i często używana konstrukcja.'
+- id: ex-erostera-mc2
+  type: multiple-choice
+  prompt: '"Hartuko dut" oznacza…'
+  options:
+  - Wezmę to (kupuję)
+  - Nie chcę tego
+  - Masz to?
+  - To jest drogie
+  answer: 0
+  explanation: '*Hartuko dut* — czas przyszły od *hartu* (brać/wziąć). Używane do potwierdzenia zakupu.'
+- id: ex-erostera-fb1
+  type: fill-in-blank
+  prompt: 'Pytając o kolejkę: "Kto jest ostatni?" → ___, mesedez?'
+  answers:
+  - Azkena
+  - azkena
+  explanation: '*Azkena, mesedez?* to uniwersalna formułka, aby zapytać, kto jest ostatni w kolejce.'
+- id: ex-erostera-fb2
+  type: fill-in-blank
+  prompt: 'Sprzedawca: "Coś jeszcze?" po baskijsku = "___?"'
+  answers:
+  - Besterik
+  - besterik
+  explanation: '*Besterik?* o *Besterik nahi duzu?* — "coś jeszcze?" / "chcesz coś jeszcze?"'
+- id: ex-erostera-fc
+  type: flashcards
+  cards:
+  - eu: Azkena, mesedez?
+    es: Kto jest ostatni? (w kolejce)
+  - eu: Zer nahi duzu?
+    es: Czego sobie życzysz?
+  - eu: Jarriko al didazu...?
+    es: Czy poda mi Pan/Pani...?
+  - eu: Hartuko dut
+    es: Wezmę to
+  - eu: Eman X mesedez
+    es: Poproszę X
+  - eu: Besterik?
+    es: Coś jeszcze?
+  - eu: Ez, besterik ez
+    es: Nie, to wszystko
+  - eu: Tori!
+    es: Proszę! (podając coś)
+  - eu: Eskerrik asko!
+    es: Dziękuję bardzo!
+  - eu: Zuri!
+    es: Proszę! (w odpowiedzi na podziękowanie)
 ---
 
-Ta lekcja uczy zwrotów, które powtarzają się raz za razem w sklepie. Mając cztery czy pięć formułek, poradzisz sobie niemal w każdej sytuacji.
+Ta lekcja uczy zwrotów, które powtarzają się w sklepie. Za pomocą czterech lub pięciu formułek poradzisz sobie w prawie każdej sytuacji.
 
 ## Rytuał kolejki
 
-W małych sklepach obowiązuje kolejność. Podstawowy zwrot przy wejściu to:
+W małych sklepach obowiązuje kolejka. Podstawowa formułka przy wejściu to:
 
-- **Azkena, mesedez?** — Ostatni, proszę?
+- **Azkena, mesedez?** — Kto jest ostatni?
 
-Gdy przyjdzie twoja kolej, powiedzą ci:
+Gdy nadejdzie Twoja kolej, usłyszysz:
 
 - **Zer nahi duzu?** — Czego sobie życzysz?
-- **Esan!** — Mów!
+- **Esan!** — Słucham!
 
-## Prosić o to, czego chcesz
+## Prośba o produkty
 
-Trzy częste sposoby, od bardziej potocznego do bardziej uprzejmego:
+Trzy popularne sposoby, od najbardziej potocznego do najbardziej uprzejmego:
 
-| Euskera | Polski | Ton |
+| Baskijski | Polski | Ton |
 |---|---|---|
-| **Eman kilo bat sagar, mesedez.** | Daj mi kilo jabłek, proszę. | bezpośredni, neutralny |
-| **Jarriko al didazu kilo bat sagar?** | Poproszę kilo jabłek? | uprzejmy (przyszły + grzeczność) |
-| **Hartuko dut kilo bat sagar.** | Biorę kilo jabłek. | potwierdzenie wyboru |
+| **Eman kilo bat sagar, mesedez.** | Poproszę kilogram jabłek. | bezpośredni, neutralny |
+| **Jarriko al didazu kilo bat sagar?** | Czy poda mi Pan/Pani kilogram jabłek? | uprzejmy (czas przyszły + grzeczność) |
+| **Hartuko dut kilo bat sagar.** | Wezmę kilogram jabłek. | potwierdzenie wyboru |
 
-> *-Ko / -go* to wykładnik czasu przyszłego: *jarri → jarriko*, *hartu → hartuko*. Używa się go bardzo często, by złagodzić prośby.
+> *-Ko / -go* to końcówka czasu przyszłego: *jarri → jarriko*, *hartu → hartuko*. Używa się jej bardzo często, aby złagodzić prośby.
 
 ## Pytania sprzedawcy
 
-- **Nolakoa nahi duzu?** — Jaki chcesz? (jaka jakość / rodzaj)
-- **Zenbat nahi duzu?** — Ile chcesz?
+- **Nolakoa nahi duzu?** — Jaki/Jaką/Jakie? (jaki rodzaj / jakość)
+- **Zenbat nahi duzu?** — Ile?
 - **Besterik?** / **Besterik nahi duzu?** — Coś jeszcze?
-- **Pentsatu duzu?** — Już się zdecydowałeś?
+- **Pentsatu duzu?** — Zdecydowany/a?
 
-A na zakończenie:
+I na zakończenie:
 
-- **Ez, besterik ez. Eskerrik asko.** — Nie, nic więcej. Dziękuję bardzo.
+- **Ez, besterik ez. Eskerrik asko.** — Nie, to wszystko. Dziękuję bardzo.
 
 ## Finalizacja zakupu
 
 - **Zenbat da dena?** — Ile za wszystko?
-- **Tori!** — Proszę! (przy wręczaniu pieniędzy)
+- **Tori!** — Proszę! (podając pieniądze)
 - **Eskerrik asko! Agur!** — Dziękuję! Do widzenia!
-- **Zuri! Agur!** — Tobie! Do widzenia! (odpowiedź sprzedawcy)
+- **Zuri! Agur!** — Proszę! Do widzenia! (odpowiedź sprzedawcy)
 
-> **Notka kulturowa:** *Tori* to krótkie słówko, którego używa się bardzo często przy podawaniu czegoś z ręki do ręki: pieniędzy, torby, klucza. Warto nauczyć się go szybko.
+> **Wskazówka kulturowa:** *Tori* to krótkie słowo, którego używa się bardzo często, podając coś z ręki do ręki: pieniądze, torbę, klucz. Warto się go szybko nauczyć.

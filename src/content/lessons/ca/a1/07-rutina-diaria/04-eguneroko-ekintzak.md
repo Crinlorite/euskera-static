@@ -7,64 +7,103 @@ level: a1
 order: 4
 title: Accions diàries i aspecte habitual
 estimatedMinutes: 12
-covers: [daily-routine, habitual-aspect, frequency-adverbs, common-verbs]
+covers:
+- daily-routine
+- habitual-aspect
+- frequency-adverbs
+- common-verbs
 exercises:
-  - id: ex-04-ee-mc1
-    type: multiple-choice
-    prompt: 'Què significa "esnatzen naiz"?'
-    options: ["m'he despertat", "em desperto", "em despertaré", "m'estava despertant"]
-    answer: 1
-    explanation: "L'aspecte habitual (-tzen + naiz/dut) expressa el que fas normalment: \"em desperto\" (cada dia)."
-  - id: ex-04-ee-mc2
-    type: multiple-choice
-    prompt: '"Egunero gosaltzen dut" significa…'
-    options: ["He esmorzat avui", "Esmorzo cada dia", "Esmorzaré", "Estic esmorzant"]
-    answer: 1
-    explanation: '"Egunero" = cada dia; "gosaltzen dut" = esmorzo (habitualment).'
-  - id: ex-04-ee-fb1
-    type: fill-in-blank
-    prompt: 'Esnatu (despertar-se) → forma habitual ___ (amb la -n de l''aspecte habitual).'
-    answers: [esnatzen]
-    explanation: 'Els verbs acabats en consonant o en -tu/-du afegeixen "-tzen" per a l''aspecte habitual: esna**tu** → esna**tzen**.'
-  - id: ex-04-ee-fb2
-    type: fill-in-blank
-    prompt: 'Jan (menjar) → forma habitual ___ (amb la terminació de l''aspecte habitual).'
-    answers: [jaten]
-    explanation: 'Els verbs acabats en -n canvien: ja**n** → ja**ten** (no "janten"). La regla: -n final → "-ten".'
-  - id: ex-04-ee-mp
-    type: match-pairs
-    pairs:
-      - { eu: esnatu, es: despertar-se }
-      - { eu: jaiki, es: llevar-se }
-      - { eu: dutxatu, es: dutxar-se }
-      - { eu: gosaldu, es: esmorzar }
-      - { eu: bazkaldu, es: dinar }
-      - { eu: afaldu, es: sopar }
-      - { eu: lan egin, es: treballar }
-      - { eu: lo egin, es: dormir }
-      - { eu: oheratu, es: anar al llit }
-  - id: ex-04-ee-fc
-    type: flashcards
-    cards:
-      - { eu: esnatu / esnatzen naiz, es: 'despertar-se / em desperto' }
-      - { eu: jaiki / jaikitzen naiz, es: 'llevar-se / em llevo' }
-      - { eu: dutxatu / dutxatzen naiz, es: 'dutxar-se / em dutxo' }
-      - { eu: jantzi / janzten naiz, es: 'vestir-se / em vesteixo' }
-      - { eu: gosaldu / gosaltzen dut, es: 'esmorzar / esmorzo' }
-      - { eu: bazkaldu / bazkaltzen dut, es: 'dinar / dino' }
-      - { eu: afaldu / afaltzen dut, es: 'sopar / sopo' }
-      - { eu: lan egin / lan egiten dut, es: 'treballar / treballo' }
-      - { eu: lo egin / lo egiten dut, es: 'dormir / dormo' }
-      - { eu: oheratu / oheratzen naiz, es: 'anar al llit / me''n vaig al llit' }
-      - { eu: lo-kuluxka egin, es: 'fer la migdiada' }
-      - { eu: egunero, es: cada dia / tots els dies }
-      - { eu: beti, es: sempre }
-      - { eu: askotan, es: sovint }
-      - { eu: batzuetan, es: de vegades }
-      - { eu: inoiz ez, es: mai }
+- id: ex-04-ee-mc1
+  type: multiple-choice
+  prompt: Què significa "esnatzen naiz"?
+  options:
+  - m'he despertat
+  - em desperto
+  - em despertaré
+  - m'estava despertant
+  answer: 1
+  explanation: 'L''aspecte habitual (-tzen + naiz/dut) expressa el que fas normalment: "em desperto" (cada dia).'
+- id: ex-04-ee-mc2
+  type: multiple-choice
+  prompt: '"Egunero gosaltzen dut" significa…'
+  options:
+  - He esmorzat avui
+  - Esmorzo cada dia
+  - Esmorzaré
+  - Estic esmorzant
+  answer: 1
+  explanation: '"Egunero" = tots els dies; "gosaltzen dut" = esmorzo (habitualment).'
+- id: ex-04-ee-fb1
+  type: fill-in-blank
+  prompt: Esnatu (despertar-se) → forma habitual ___ (amb la -n de l'aspecte habitual).
+  answers:
+  - esnatzen
+  explanation: 'Els verbs acabats en consonant o en -tu/-du afegeixen "-tzen" per a l''aspecte habitual: esna**tu** → esna**tzen**.'
+- id: ex-04-ee-fb2
+  type: fill-in-blank
+  prompt: Jan (menjar) → forma habitual ___ (amb la terminació de l'aspecte habitual).
+  answers:
+  - jaten
+  explanation: 'Els verbs acabats en -n canvien: ja**n** → ja**ten** (no "janten"). La regla: -n final → "-ten".'
+- id: ex-04-ee-mp
+  type: match-pairs
+  pairs:
+  - eu: esnatu
+    es: despertarse
+  - eu: jaiki
+    es: levantarse
+  - eu: dutxatu
+    es: ducharse
+  - eu: gosaldu
+    es: desayunar
+  - eu: bazkaldu
+    es: comer (almorzar)
+  - eu: afaldu
+    es: cenar
+  - eu: lan egin
+    es: trabajar
+  - eu: lo egin
+    es: dormir
+  - eu: oheratu
+    es: acostarse
+- id: ex-04-ee-fc
+  type: flashcards
+  cards:
+  - eu: esnatu / esnatzen naiz
+    es: despertar-se / em desperto
+  - eu: jaiki / jaikitzen naiz
+    es: aixecar-se / m'aixeco
+  - eu: dutxatu / dutxatzen naiz
+    es: dutxar-se / em dutxo
+  - eu: jantzi / janzten naiz
+    es: vestir-se / em vesteixo
+  - eu: gosaldu / gosaltzen dut
+    es: esmorzar / esmorzo
+  - eu: bazkaldu / bazkaltzen dut
+    es: dinar / dino
+  - eu: afaldu / afaltzen dut
+    es: sopar / sopo
+  - eu: lan egin / lan egiten dut
+    es: treballar / treballo
+  - eu: lo egin / lo egiten dut
+    es: dormir / dormo
+  - eu: oheratu / oheratzen naiz
+    es: anar-se'n al llit / me'n vaig al llit
+  - eu: lo-kuluxka egin
+    es: fer la migdiada
+  - eu: egunero
+    es: cada dia / tots els dies
+  - eu: beti
+    es: sempre
+  - eu: askotan
+    es: sovint
+  - eu: batzuetan
+    es: a vegades
+  - eu: inoiz ez
+    es: mai
 ---
 
-Per dir el que fas cada dia, l'euskera fa servir l'**aspecte habitual**: prens el verb (partizipio) i li afegeixes **-tzen** o **-ten**, després el combines amb el verb auxiliar **izan** (naiz, zara, da…) o **ukan** (dut, duzu, du…).
+Per dir el que fas cada dia, el basc fa servir l'**aspecte habitual**: prens el verb (*partizipio*) i hi afegeixes **-tzen** o **-ten**, després combines amb el verb auxiliar **izan** (*naiz, zara, da*…) o **ukan** (*dut, duzu, du*…).
 
 ## La regla
 
@@ -74,7 +113,7 @@ Per dir el que fas cada dia, l'euskera fa servir l'**aspecte habitual**: prens e
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
 | `-i` (irregular) | **-tzen** o **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
 
-> El verb *jan* (menjar) **no** es converteix en *janten* sinó en *jaten* — la "n" final desapareix. El mateix amb *edan* → *edaten*, *egon* → *egoten*.
+> El verb *jan* (menjar) **no** es converteix en *janten* sinó en *jaten* — la "n" final desapareix. El mateix passa amb *edan* → *edaten*, *egon* → *egoten*.
 
 ## Verbs del dia a dia
 
@@ -85,8 +124,8 @@ Aquests van **amb izan** perquè són intransitius — el subjecte experimenta l
 | Partizipioa | Aspecte habitual | Significat |
 |---|---|---|
 | *esnatu* | *esnatzen naiz* | em desperto |
-| *jaiki* | *jaikitzen naiz* | em llevo |
-| *altxatu* | *altxatzen naiz* | em llevo (variant de *jaiki*) |
+| *jaiki* | *jaikitzen naiz* | m'aixeco |
+| *altxatu* | *altxatzen naiz* | m'aixeco (variant de *jaiki*) |
 | *dutxatu* | *dutxatzen naiz* | em dutxo |
 | *jantzi* | *janzten naiz* | em vesteixo |
 | *joan* | *joaten naiz* | vaig |
@@ -111,16 +150,16 @@ Aquests van **amb ukan** perquè tenen subjecte i objecte:
 | *irakurri* | *irakurtzen dut* | llegeixo |
 | *erosi* | *erosten dut* | compro |
 
-> **Per què alguns van amb NAIZ i d'altres amb DUT?** És la distinció clau de l'euskera. *Esnatzen naiz* (em desperto) és una cosa que em passa a mi: no hi ha cap objecte. *Jaten dut* (menjo) té objecte: *ogia jaten dut* (menjo pa). Això es veu a fons a la propera unitat — de moment memoritza les parelles verb + auxiliar.
+> **Per què alguns van amb NAIZ i altres amb DUT?** És la distinció clau del basc. *Esnatzen naiz* (em desperto) és una cosa que em passa a mi: no hi ha un objecte. *Jaten dut* (menjo) té objecte: *ogia jaten dut* (menjo pa). Això es veu a fons a la pròxima unitat — de moment memoritza les parelles verb + auxiliar.
 
 ## Marcadors de freqüència
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *egunero* | cada dia / tots els dies |
 | *beti* | sempre |
 | *askotan* | sovint |
-| *batzuetan* | de vegades |
+| *batzuetan* | a vegades |
 | *normalean* | normalment |
 | *gehienetan* | la majoria de vegades |
 | *gutxitan* | poques vegades |
@@ -136,6 +175,6 @@ Aquests van **amb ukan** perquè tenen subjecte i objecte:
 >
 > *Askotan lagunekin afaltzen dut.* — Sovint sopo amb amics.
 >
-> *Batzuetan lo-kuluxka egiten dut bazkalostean.* — De vegades faig la migdiada després de dinar.
+> *Batzuetan lo-kuluxka egiten dut bazkalostean.* — A vegades faig la migdiada després de dinar.
 
-> **Nota:** *bazkalostean* = "després de dinar" (literal: "rere el dinar"). La cultura de l'euskera té paraules compactes per a conceptes quotidians com aquest — *lo-kuluxka* és justament aquesta migdiada curta.
+> **Nota:** *bazkalostean* = "després de dinar" (literalment: "després del dinar"). La cultura del basc té paraules compactes per a conceptes quotidians com aquesta migdiada curta — *lo-kuluxka* és justament això.

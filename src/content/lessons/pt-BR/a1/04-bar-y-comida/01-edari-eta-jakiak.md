@@ -7,82 +7,122 @@ level: a1
 order: 1
 title: Bebidas e comidas básicas
 estimatedMinutes: 10
-covers: [food-bar]
+covers:
+- food-bar
 exercises:
-  - id: ex-edj-mc1
-    type: multiple-choice
-    prompt: '"Kafe hutsa" significa…'
-    options: [café com leite, café pingado, café puro, café descafeinado]
-    answer: 2
-    explanation: '*hutsa* vem de *huts* ("vazio", "puro"): café sem nada, café puro.'
-  - id: ex-edj-mc2
-    type: multiple-choice
-    prompt: 'Como se diz "água" em euskera?'
-    options: [ardo, ura, esnea, garagardoa]
-    answer: 1
-    explanation: '*ura* (com artigo) ou *ur* (sem ele).'
-  - id: ex-edj-fb1
-    type: fill-in-blank
-    prompt: 'Sidra (típica basca) = ___.'
-    answers: [sagardoa, sagardo]
-    explanation: '*sagardoa* vem de *sagar* ("maçã") + *ardo* ("vinho"): vinho de maçã.'
-  - id: ex-edj-fb2
-    type: fill-in-blank
-    prompt: 'Cerveja = ___.'
-    answers: [garagardoa, garagardo]
-    explanation: '*garagardoa* vem de *garagar* ("cevada") + *ardo*: literalmente "vinho de cevada".'
-  - id: ex-edj-fc
-    type: flashcards
-    cards:
-      - { eu: kafea, es: o café }
-      - { eu: kafe hutsa, es: café puro }
-      - { eu: kafesnea, es: café com leite }
-      - { eu: kafe ebakia, es: café pingado }
-      - { eu: kafe deskafeinatua, es: café descafeinado }
-      - { eu: infusioa, es: chá de ervas }
-      - { eu: tea, es: chá }
-      - { eu: ura, es: água }
-      - { eu: esnea, es: leite }
-      - { eu: zumoa, es: suco }
-      - { eu: ardo gorria, es: vinho tinto }
-      - { eu: ardo zuria, es: vinho branco }
-      - { eu: garagardoa, es: cerveja }
-      - { eu: zuritoa, es: cerveja pequena (chope pequeno) }
-      - { eu: sagardoa, es: sidra }
-      - { eu: ogia, es: pão }
-      - { eu: gazta, es: queijo }
-      - { eu: urdaiazpikoa, es: presunto }
-      - { eu: tortilla, es: omelete }
-  - id: ex-edj-mp
-    type: match-pairs
-    pairs:
-      - { eu: kafea, es: café }
-      - { eu: kafesnea, es: café com leite }
-      - { eu: ura, es: água }
-      - { eu: ardo gorria, es: vinho tinto }
-      - { eu: garagardoa, es: cerveja }
-      - { eu: sagardoa, es: sidra }
-      - { eu: zumoa, es: suco }
-      - { eu: tea, es: chá }
+- id: ex-edj-mc1
+  type: multiple-choice
+  prompt: '"Kafe hutsa" significa…'
+  options:
+  - café com leite
+  - café cortado
+  - café puro
+  - café descafeinado
+  answer: 2
+  explanation: '*hutsa* vem de *huts* ("vazio", "puro"): café sem nada, café puro.'
+- id: ex-edj-mc2
+  type: multiple-choice
+  prompt: Como se diz "água" em basco?
+  options:
+  - ardo
+  - ura
+  - esnea
+  - garagardoa
+  answer: 1
+  explanation: '*ura* (com artigo) ou *ur* (sem ele).'
+- id: ex-edj-fb1
+  type: fill-in-blank
+  prompt: Sidra (típica basca) = ___.
+  answers:
+  - sagardoa
+  - sagardo
+  explanation: '*sagardoa* vem de *sagar* ("maçã") + *ardo* ("vinho"): vinho de maçã.'
+- id: ex-edj-fb2
+  type: fill-in-blank
+  prompt: Cerveja = ___.
+  answers:
+  - garagardoa
+  - garagardo
+  explanation: '*garagardoa* vem de *garagar* ("cevada") + *ardo*: literalmente "vinho de cevada".'
+- id: ex-edj-fc
+  type: flashcards
+  cards:
+  - eu: kafea
+    es: o café
+  - eu: kafe hutsa
+    es: café puro
+  - eu: kafesnea
+    es: café com leite
+  - eu: kafe ebakia
+    es: café cortado
+  - eu: kafe deskafeinatua
+    es: café descafeinado
+  - eu: infusioa
+    es: infusão
+  - eu: tea
+    es: chá
+  - eu: ura
+    es: água
+  - eu: esnea
+    es: leite
+  - eu: zumoa
+    es: suco
+  - eu: ardo gorria
+    es: vinho tinto
+  - eu: ardo zuria
+    es: vinho branco
+  - eu: garagardoa
+    es: cerveja
+  - eu: zuritoa
+    es: cerveja pequena (chope)
+  - eu: sagardoa
+    es: sidra
+  - eu: ogia
+    es: pão
+  - eu: gazta
+    es: queijo
+  - eu: urdaiazpikoa
+    es: presunto
+  - eu: tortilla
+    es: tortilla
+- id: ex-edj-mp
+  type: match-pairs
+  pairs:
+  - eu: kafea
+    es: café
+  - eu: kafesnea
+    es: café com leite
+  - eu: ura
+    es: agua
+  - eu: ardo gorria
+    es: vino tinto
+  - eu: garagardoa
+    es: cerveza
+  - eu: sagardoa
+    es: sidra
+  - eu: zumoa
+    es: zumo
+  - eu: tea
+    es: chá
 ---
 
-Boa parte da vida social em Euskal Herria passa pela **taberna** (o bar). Conhecer as bebidas e comidas básicas em euskera vai te abrir portas imediatas: uma turma de amigos, uma visita a um vilarejo novo, um *poteo*. Começamos pelo vocabulário.
+Uma boa parte da vida social em Euskal Herria passa pela **taberna** (o bar). Conhecer as bebidas e comidas básicas em basco abrirá portas para você imediatamente: um grupo de amigos, uma visita a uma cidade nova, um *poteo*. Começamos pelo vocabulário.
 
-## O café e suas variantes
+## O café e suas variações
 
-O café é provavelmente o que você mais vai pedir. Tem várias formas:
+O café é provavelmente o que você mais vai pedir. Ele tem várias formas:
 
 | Euskera | Português |
 |---|---|
 | *kafea* | o café (genérico) |
-| *kafe hutsa* | café puro (literal: "café puro/vazio") |
+| *kafe hutsa* | café puro (literalmente: "café puro/vazio") |
 | *kafesnea* | café com leite (de *kafe* + *esne*) |
-| *kafe ebakia* | café pingado (*ebaki* = "cortado") |
+| *kafe ebakia* | café cortado (*ebaki* = "cortado") |
 | *kafe deskafeinatua* | café descafeinado |
-| *infusioa* | chá de ervas |
+| *infusioa* | infusão |
 | *tea* | chá |
 
-> *Kafesne* literalmente significa "café-leite". O euskera forma muitas palavras compostas assim, sem hífen e com a palavra principal no final.
+> *Kafesne* significa literalmente "café-leite". O basco forma muitas palavras compostas assim, sem hífen e com a palavra principal no final.
 
 ## Outras bebidas
 
@@ -95,12 +135,12 @@ O café é provavelmente o que você mais vai pedir. Tem várias formas:
 | *ardo gorria* | vinho tinto |
 | *ardo zuria* | vinho branco |
 | *garagardoa* | cerveja |
-| *zuritoa* | chope pequeno (cerveja pequena, típica) |
+| *zuritoa* | chope (cerveja pequena, típica) |
 | *sagardoa* | sidra |
 | *txakolina* | txakoli (vinho branco basco) |
-| *patxarana* | pacharán |
+| *patxarana* | patxaran |
 
-> Três palavras curiosas: **sagardo** (sidra) = *sagar* (maçã) + *ardo* (vinho); **garagardo** (cerveja) = *garagar* (cevada) + *ardo*; **txakolina** é um vinho branco jovem e leve, marca registrada de Euskadi.
+> Três palavras curiosas: **sagardo** (sidra) = *sagar* (maçã) + *ardo* (vinho); **garagardo** (cerveja) = *garagar* (cevada) + *ardo*; **txakolina** é um vinho branco jovem e leve, marca da casa em Euskadi.
 
 ## Comidas básicas no bar
 
@@ -111,21 +151,21 @@ Para acompanhar o que você bebe:
 | *ogia* | o pão |
 | *gazta* | queijo |
 | *urdaiazpikoa* | presunto |
-| *tortilla* | omelete (de batata) |
+| *tortilla* | tortilla (de batata) |
 | *patata frijituak* | batatas fritas |
 | *gozokia* | doce (genérico) |
 | *txokolatea* | chocolate |
 
 ## O artigo `-a`
 
-Quase todas essas palavras levam **`-a`** no final quando aparecem "neutras" em uma frase: é o artigo "o / a".
+Quase todas estas palavras levam **`-a`** no final quando aparecem "neutras" em uma frase: é o artigo "o / a".
 
-- *Ardoa gustatzen zait.* — Eu gosto de vinho.
+- *Ardoa gustatzen zait.* — Eu gosto do vinho.
 - *Ura nahi dut.* — Quero água.
 
-Quando você pede "um", desaparece o `-a` e entra **bat** ("um/uma"):
+Quando você pede "um", o `-a` desaparece e entra **bat** ("um/uma"):
 
 - *Kafe **bat**, mesedez.* — Um café, por favor.
 - *Garagardo **bat**.* — Uma cerveja.
 
-> Na lição 3 você verá isso em detalhe. Por ora, memorize as formas com `-a` para reconhecê-las no cardápio do bar.
+> Na lição 3, você verá isso em detalhes. Por enquanto, memorize as formas com `-a` para reconhecê-las no cardápio do bar.

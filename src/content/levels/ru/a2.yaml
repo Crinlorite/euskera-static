@@ -1,0 +1,149 @@
+code: a2
+name: A2 Maila
+description: Элементарный уровень. Самостоятельное понимание и говорение в обычных повседневных ситуациях, с повествованием в прошлом, планами на будущее и простыми мнениями.
+order: 2
+status: active
+beta: false
+curriculum:
+- id: a2-health-vocab
+  title: Лексика о здоровье (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)
+- id: a2-doctor-visit
+  title: 'На приёме у врача (mediku-kontsultan: zer duzu?, mina daukat, hartu pilula bat)'
+- id: a2-healthy-habits
+  title: Здоровые привычки (kirola egin, ondo lo egin, fruta jan, erre, alkohola)
+- id: a2-environment
+  title: Окружающая среда (ingurumena, kutsadura, birziklatu, energia, klima-aldaketa)
+- id: a2-civic-life
+  title: Общественная и гражданская жизнь (auzoa, herria, partehartzea, boluntariotza, jaiak)
+- id: a2-agintera-intro
+  title: 'Повелительное наклонение (agintera): основные утвердительные формы (zatoz, hartu, joan zaitez)'
+- id: a2-agintera-uses
+  title: 'Использование повелительного наклонения: инструкции, советы, просьбы (mesedez, hartu eseri)'
+- id: a2-agintera-negation
+  title: Отрицательное повелительное наклонение (ez egin, ez joan, ez ezazu hartu)
+- id: a2-past-nor
+  title: 'Прошедшее время izan/egon — NOR: nintzen, zinen, zen, ginen, zineten, ziren / nengoen, zegoen'
+- id: a2-past-nor-nork
+  title: 'Прошедшее время ukan — NOR-NORK: nuen, zenuen, zuen, genuen, zenuten, zuten / nituen, zituen'
+- id: a2-past-trinkoak
+  title: 'Прошедшее время синтетических глаголов (joan/etorri/ibili/eduki/jakin: nindoan, nentorren, nenbilen, neukan, nekien)'
+- id: a2-past-time-markers
+  title: Маркеры завершённого прошлого (atzo, joan den astean, duela X urte, orduan, gero)
+- id: a2-past-narrative
+  title: 'Рассказ об опыте: последовательность действий в прошлом (lehenengo... gero... azkenean)'
+- id: a2-past-imperfect
+  title: 'Прошедшее несовершенное время (имперфект): aditza-tzen + nintzen/zen (lan egiten nuen, joaten nintzen)'
+- id: a2-perfect-vs-imperfect
+  title: 'Контраст burutua/ez burutua: разовые действия vs привычки и описания в прошлом'
+- id: a2-past-progressive
+  title: 'Прошедшее длительное время (puntukaria): -tzen ari nintzen / nenbilen'
+- id: a2-nor-nori-nork
+  title: NOR-NORI-NORK в настоящем времени (eman dizut, esan diot, erakutsi digute)
+- id: a2-nor-nori-nork-past
+  title: NOR-NORI-NORK в прошедшем времени (eman nion, esan zion, ekarri zigun)
+- id: a2-nor-nori
+  title: NOR-NORI в настоящем и прошедшем времени (gustatzen zait/zaio, ahaztu zitzaidan)
+- id: a2-ahalera
+  title: 'Глагол «мочь» (ahalera): -t(z)en + dezaket/daiteke (etor daiteke, egin dezakezu)'
+- id: a2-ezin
+  title: 'Немодальность (ezin izan): ezin dut, ezin nintzen joan, ezin daiteke'
+- id: a2-baldintza-intro
+  title: 'Условное наклонение (baldintza), основы: если... то... (banaiz, banu, joango nintzateke) — введение'
+- id: a2-norentzat
+  title: 'Падеж предназначения NORENTZAT: для кого (lagunarentzat, niretzat, guretzat)'
+- id: a2-noraino-norantz
+  title: Падежи NORAINO (-raino, до) и NORANTZ (-rantz, по направлению к)
+- id: a2-norengatik
+  title: Падеж причины ZERGATIK / NORENGATIK (lagunarengatik, ekonomiaz)
+- id: a2-nongo-noizko
+  title: 'Падеж NONGO/NOIZKO (-ko, -tako): определение места и времени (Bilboko, atzoko)'
+- id: a2-comp-superiority
+  title: 'Сравнительная степень превосходства: -ago, baino...-ago (handiagoa da, baino altuagoa)'
+- id: a2-comp-equality
+  title: 'Сравнительная степень равенства: bezain, adina/beste (zu bezain ona, zuk adina)'
+- id: a2-comp-superlative
+  title: 'Превосходная степень: -en (politena, onena, txikiena)'
+- id: a2-comp-excess
+  title: 'Избыток и недостаток: -egi, gehiegi, gutxiegi (handiegia, gehiegi jan dut)'
+- id: a2-comp-progressive
+  title: 'Прогрессивное сравнение: gero eta ...ago (всё больше / всё меньше)'
+- id: a2-opinion
+  title: 'Выражение мнения: nire ustez, uste dut, iruditzen zait, ados nago'
+- id: a2-feelings
+  title: 'Чувства: pozik, triste, haserre, urduri, lasai, beldur naiz, lotsa ematen dit'
+- id: a2-connectors
+  title: 'Союзы и связки: zeren/ze (потому что), beraz (поэтому), hala ere (однако), gainera (кроме того)'
+- id: a2-distributive
+  title: 'Разделительные союзы: bai...bai, ez...ez, baita...ere, baizik'
+- id: a2-relative-en
+  title: 'Относительные придаточные с -(e)n: ezagutzen dudan gizona, joaten naizen tabernan'
+- id: a2-causal-clauses
+  title: 'Придаточные причины: -lako (потому что, суффикс), zeren...bait- (книжн.)'
+- id: a2-completive-ela
+  title: 'Дополнительные придаточные с -(e)la: uste dut etorriko dela, badakit egia dela'
+- id: a2-future-forms
+  title: 'Будущее время (geroaldia): причастие + -ko/-go (joango, egingo, ikusiko, hartuko)'
+- id: a2-future-izango
+  title: Будущее время izan/ukan/egon (izango naiz, izango dut, egongo da)
+- id: a2-future-markers
+  title: Маркеры будущего времени (bihar, etzi, datorren astean, hurrengo urtean, laster)
+- id: a2-plans-intentions
+  title: Планы и намерения (zer egingo duzu?, -tzeko asmoa dut, pentsatu, erabaki)
+- id: a2-invitations
+  title: Приглашения и встречи (nahi duzu...?, zergatik ez...?, geratu, ondo iruditzen zait)
+- id: a2-weather
+  title: 'Погода (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)'
+- id: a2-weather-forecast
+  title: Прогноз погоды в будущем времени (bihar euria egingo du, eguzkia aterako da)
+- id: a2-ohi-habitual
+  title: Привычные действия с ohi (joan ohi naiz, bazkaldu ohi dugu)
+- id: a2-transport-vocab
+  title: Транспорт (trena, autobusa, hegazkina, geltokia, aireportua, oinez)
+- id: a2-tickets-schedules
+  title: Билеты и расписание (txartela, joan-etorria, zenbat balio du?, noiz ateratzen da?)
+- id: a2-accommodation
+  title: Жильё (hotela, erreserba, gela bikoitza, gosaria barne)
+- id: a2-travel-planning
+  title: Подготовка к поездке (maleta, agiriak, planifikatu — применение будущего времени)
+- id: a2-travel-narrative
+  title: 'Рассказ о поездке (применение прошедшего времени: joan ginen, ikusi genuen, galdu genuen trena)'
+- id: a2-bank-post
+  title: Банк и почта (kontua, dirua atera, transferentzia, paketea bidali)
+- id: a2-town-hall
+  title: Мэрия и оформление документов (udaletxea, errolda, NAN, hitzordua eskatu)
+- id: a2-phone-messages
+  title: Разговор по телефону (deitu, mezua utzi, okerreko zenbakia, gero deituko dizut)
+- id: a2-tech-basics
+  title: Технологии (ordenagailua, mugikorra, posta elektronikoa, pasahitza, wifia)
+- id: a2-shopping-returns
+  title: 'Покупки: обмен и возврат (probatu, handiegia, aldatu, dirua itzuli)'
+- id: a2-nature-vocab
+  title: Природа (mendia, basoa, ibaia, hondartza, gailurra, bidezidorra)
+- id: a2-animals
+  title: Животные (txakurra, behia, ardia, txoria, basurdea, otsoa)
+- id: a2-sports
+  title: Спорт (igeriketa, korrika, pilota, entrenatu, partida irabazi/galdu)
+- id: a2-hobbies
+  title: 'Хобби (-tzea gustatzen zait: irakurtzea, sukaldatzea, argazkiak ateratzea)'
+- id: a2-weekend-leisure
+  title: Досуг на выходных (kontzertua, museoa, erakusketa, sarrera, doan)
+- id: a2-biography
+  title: Биографии (jaio zen, ikasketak egin zituen, ezkondu ziren, hil zen)
+- id: a2-indirect-questions
+  title: 'Косвенные вопросы (ea + -(e)n: ez dakit etorriko den)'
+- id: a2-time-clauses
+  title: Придаточные времени (-nean, aurretik, ondoren)
+- id: a2-purpose-clauses
+  title: 'Цель (-tzeko, -tzera: ikastera etorri naiz)'
+- id: a2-exam-review
+  title: Комплексное повторение уровня (формат теста)
+- id: a2-clothes-extended
+  title: Одежда, расширенная лексика (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)
+- id: a2-home-extended
+  title: Дом, расширенная лексика (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)
+- id: a2-jobs-extended
+  title: Профессии, расширенная лексика (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)
+- id: a2-festivals
+  title: Праздники и традиции (San Juan sua, Olentzero, Korrika, jai herrikoiak)
+- id: a2-routines-compare
+  title: Сравнение рутины и обычаев (lehen... orain..., bertan... bestea... )

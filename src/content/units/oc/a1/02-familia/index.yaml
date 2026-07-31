@@ -3,14 +3,14 @@ code: 02-familia
 level: a1
 title: La familha
 order: 2
-description: Vocabulari e patrons entà parlar dera tua familha e dera des auti.
+description: Vocabulari e modèls entà parlar dera tua familha e dera des auti.
 estimatedMinutes: 55
 covers:
-  - family-basics
-  - family-extended
-  - possessives
-  - ukan-basic
-  - ukan-plural-objects
-  - partitive-rik
-  - numbers-1-20
-  - ages
+- family-basics
+- family-extended
+- possessives
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages

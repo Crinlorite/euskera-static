@@ -7,53 +7,73 @@ level: a1
 order: 5
 title: Conta o teu día de hoxe (lección integradora)
 estimatedMinutes: 12
-covers: [recent-past-dut, recent-past-naiz, recent-past-time-markers, parts-of-day, common-verbs]
+covers:
+- recent-past-dut
+- recent-past-naiz
+- recent-past-time-markers
+- parts-of-day
+- common-verbs
 exercises:
-  - id: ex-05-gze-mc1
-    type: multiple-choice
-    prompt: 'Cal é a tradución correcta de "Esta mañá espertei tarde"?'
-    options:
-      - "Gaur goizean berandu esnatu dut"
-      - "Gaur goizean berandu esnatu naiz"
-      - "Atzo goizean berandu esnatu naiz"
-      - "Bihar goizean berandu esnatzen naiz"
-    answer: 1
-    explanation: '"Esnatu" é intransitivo (leva izan); "eu" → naiz. "Esta mañá" → gaur goizean.'
-  - id: ex-05-gze-mc2
-    type: multiple-choice
-    prompt: 'Na frase "Mikelek egunkaria irakurri du", por que "Mikelek" leva -k?'
-    options:
-      - "Porque é un nome vasco"
-      - "Porque é o suxeito dun verbo transitivo (NORK)"
-      - "Porque significa plural"
-      - "É un erro, debería ser só Mikel"
-    answer: 1
-    explanation: 'En éuscaro o suxeito dos verbos transitivos leva a marca NORK (-k): Mikel**ek** leu o xornal.'
-  - id: ex-05-gze-fb1
-    type: fill-in-blank
-    prompt: 'Almorcei torradas e café = Tostadak eta kafea ___ ___ (enche: partizipio + auxiliar para "eu").'
-    answers: ['hartu ditut', 'jan ditut']
-    explanation: 'Para "tomar/comer varias cousas" úsase *ditut* (auxiliar plural de ukan): *hartu/jan ditut*.'
-  - id: ex-05-gze-fb2
-    type: fill-in-blank
-    prompt: 'Fun ao euskaltegi a pé = Euskaltegira oinez ___ ___ (enche: partizipio + auxiliar).'
-    answers: ['joan naiz']
-    explanation: '"Joan" intransitivo + "naiz" para 1ª persoa = "joan naiz".'
-  - id: ex-05-gze-fc
-    type: flashcards
-    cards:
-      - { eu: 'Gaur zer egin duzu?', es: 'Que fixeches hoxe?' }
-      - { eu: Gaur goizean lanera joan naiz, es: Esta mañá fun ao traballo }
-      - { eu: Etxean gosaldu dut, es: Almorcei na casa }
-      - { eu: Eguerdian lagunekin bazkaldu dut, es: Ao mediodía xantei con amigos }
-      - { eu: Arratsaldean kafea hartu dut, es: Pola tarde tomei café }
-      - { eu: Buelta bat eman dut, es: Dei unha volta }
-      - { eu: Erosketak egin ditut, es: Fixen a compra }
-      - { eu: Etxera bueltatu naiz, es: Volvín á casa }
-      - { eu: Telebista ikusi dut, es: Vin a tele }
-      - { eu: Hamaiketan oheratu naiz, es: Deiteime ás once }
-      - { eu: Lasai egon naiz, es: Estiven tranquilo/a }
-      - { eu: Asko ikasi dut, es: Aprendín moito }
+- id: ex-05-gze-mc1
+  type: multiple-choice
+  prompt: Cal é a tradución correcta de "Esta mañana me he despertado tarde"?
+  options:
+  - Gaur goizean berandu esnatu dut
+  - Gaur goizean berandu esnatu naiz
+  - Atzo goizean berandu esnatu naiz
+  - Bihar goizean berandu esnatzen naiz
+  answer: 1
+  explanation: '"Esnatu" é intransitivo (leva izan); "eu" → naiz. "Esta mañá" → gaur goizean.'
+- id: ex-05-gze-mc2
+  type: multiple-choice
+  prompt: Na frase "Mikelek egunkaria irakurri du", por que "Mikelek" leva -k?
+  options:
+  - Porque é un nome vasco
+  - Porque é o suxeito dun verbo transitivo (NORK)
+  - Porque significa plural
+  - É un erro, debería ser só Mikel
+  answer: 1
+  explanation: 'En éuscaro o suxeito dos verbos transitivos leva a marca NORK (-k): Mikel**ek** leu o xornal.'
+- id: ex-05-gze-fb1
+  type: fill-in-blank
+  prompt: 'Almorcei torradas e café = Tostadak eta kafea ___ ___ (enche: participio + auxiliar para "eu").'
+  answers:
+  - hartu ditut
+  - jan ditut
+  explanation: 'Para "tomar/comer varias cousas" úsase *ditut* (auxiliar plural de ukan): *hartu/jan ditut*.'
+- id: ex-05-gze-fb2
+  type: fill-in-blank
+  prompt: 'Fun ao euskaltegi a pé = Euskaltegira oinez ___ ___ (enche: participio + auxiliar).'
+  answers:
+  - joan naiz
+  explanation: '"Joan" intransitivo + "naiz" para 1ª persoa = "joan naiz".'
+- id: ex-05-gze-fc
+  type: flashcards
+  cards:
+  - eu: Gaur zer egin duzu?
+    es: Que fixeches hoxe?
+  - eu: Gaur goizean lanera joan naiz
+    es: Esta mañá fun ao traballo
+  - eu: Etxean gosaldu dut
+    es: Almorcei na casa
+  - eu: Eguerdian lagunekin bazkaldu dut
+    es: Ao mediodía xantei cos amigos
+  - eu: Arratsaldean kafea hartu dut
+    es: Pola tarde tomei café
+  - eu: Buelta bat eman dut
+    es: Dei unha volta
+  - eu: Erosketak egin ditut
+    es: Fixen a compra
+  - eu: Etxera bueltatu naiz
+    es: Volvín á casa
+  - eu: Telebista ikusi dut
+    es: Vin a tele
+  - eu: Hamaiketan oheratu naiz
+    es: Deiteime ás once
+  - eu: Lasai egon naiz
+    es: Estiven tranquilo/a
+  - eu: Asko ikasi dut
+    es: Aprendín moito
 ---
 
 Esta lección reúne todo o material da unidade: pasado recente cos dous auxiliares, marcadores temporais, partes do día e verbos cotiáns. O obxectivo é que poidas contar o teu día completo.
@@ -80,11 +100,11 @@ Para contar o día, segue este percorrido:
 > *Etxean afaldu dut, telebista pixka bat ikusi dut eta hamaiketan oheratu naiz.*
 
 Tradución aproximada:
-> *Hoxe espertei ás sete da mañá. Axiña erguinme e ducheime. Para almorzar tomei café con leite e comín torradas. Logo saín da casa e fun andando ao euskaltegi. Pola mañá estudei éuscaro e falei con compañeiros.*
+> *Hoxe espertei ás sete da mañá. Axiña erguinme e ducheime. Para almorzar tomei café con leite e comín torradas. Logo saín da casa e fun andando ao euskaltegi. Pola mañá estudei éuscaro e falei cos compañeiros.*
 >
 > *Ao mediodía volvín á casa. Para xantar comín ensalada e peixe. Logo botei a sesta.*
 >
-> *Pola tarde fixen a compra: comprei pan, froita e leite. Despois tomei café cun amigo no bar.*
+> *Pola tarde fixen a compra: merquei pan, froita e leite. Despois tomei café cun amigo no bar.*
 >
 > *Ceei na casa, vin un pouco a tele e deiteime ás once.*
 
@@ -93,7 +113,7 @@ Tradución aproximada:
 Segue o mesmo modelo pero coa túa información real. Revisa estas dúas cousas mentres escribes:
 
 1. **O verbo é transitivo ou intransitivo?** Se ten obxecto → *dut/duzu/du…* (co suxeito -k). Se non → *naiz/zara/da…*
-2. **A acción é habitual ou pasado recente?** Habitual = *-tzen/-ten + auxiliar*. Pasado recente = partizipio sen sufixo + auxiliar.
+2. **A acción é habitual ou pasado recente?** Habitual = *-tzen/-ten + auxiliar*. Pasado recente = participio sen sufixo + auxiliar.
 
 ## Erros típicos a evitar
 

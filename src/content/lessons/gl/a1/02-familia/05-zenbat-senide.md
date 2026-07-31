@@ -7,33 +7,55 @@ level: a1
 order: 5
 title: Cantos irmáns tes? (Zenbat senide?)
 estimatedMinutes: 12
-covers: [ukan-basic, ukan-plural-objects, partitive-rik, numbers-1-20, ages]
+covers:
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages
 exercises:
-  - id: ex-zs-fb1
-    type: fill-in-blank
-    prompt: 'Teño dous irmáns = Bi anaia ___.'
-    answers: [ditut]
-    explanation: '"Ditut" = "eu teño (a varios)" — forma de "ukan" (ter) NOR-NORK.'
-  - id: ex-zs-mc1
-    type: multiple-choice
-    prompt: 'Como se di "tres" en euskera?'
-    options: [bat, bi, hiru, lau]
-    answer: 2
-  - id: ex-zs-fc
-    type: flashcards
-    cards:
-      - { eu: bat, es: un }
-      - { eu: bi, es: dous }
-      - { eu: hiru, es: tres }
-      - { eu: lau, es: catro }
-      - { eu: bost, es: cinco }
-      - { eu: hamar, es: dez }
-      - { eu: 'Zenbat senide zarete?', es: Cantos irmáns sodes? }
-      - { eu: senide, es: irmán/á (xenérico) }
-      - { eu: dut, es: teño (1 cousa) }
-      - { eu: ditut, es: teño (varias cousas) }
-      - { eu: ez dut anaiarik, es: non teño irmáns (negación con -rik) }
-      - { eu: 'Zenbat urte dituzu?', es: 'Cantos anos tes?' }
+- id: ex-zs-fb1
+  type: fill-in-blank
+  prompt: Teño dous irmáns = Bi anaia ___.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "eu teño (a varios)" — forma de "ukan" (ter) NOR-NORK.'
+- id: ex-zs-mc1
+  type: multiple-choice
+  prompt: Como se di "tres" en éuscaro?
+  options:
+  - bat
+  - bi
+  - hiru
+  - lau
+  answer: 2
+- id: ex-zs-fc
+  type: flashcards
+  cards:
+  - eu: bat
+    es: un
+  - eu: bi
+    es: dous
+  - eu: hiru
+    es: tres
+  - eu: lau
+    es: catro
+  - eu: bost
+    es: cinco
+  - eu: hamar
+    es: dez
+  - eu: Zenbat senide zarete?
+    es: Cantos irmáns sodes?
+  - eu: senide
+    es: irmán/irmá (xenérico)
+  - eu: dut
+    es: teño (1 cousa)
+  - eu: ditut
+    es: teño (varias cousas)
+  - eu: ez dut anaiarik
+    es: non teño irmáns (negación con -rik)
+  - eu: Zenbat urte dituzu?
+    es: Cantos anos tes?
 ---
 
 Para falar de cantos membros ten unha familia, usamos:

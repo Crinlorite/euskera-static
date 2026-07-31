@@ -7,53 +7,73 @@ level: a1
 order: 5
 title: Povestește-ți ziua de azi (lecție de sinteză)
 estimatedMinutes: 12
-covers: [recent-past-dut, recent-past-naiz, recent-past-time-markers, parts-of-day, common-verbs]
+covers:
+- recent-past-dut
+- recent-past-naiz
+- recent-past-time-markers
+- parts-of-day
+- common-verbs
 exercises:
-  - id: ex-05-gze-mc1
-    type: multiple-choice
-    prompt: 'Care este traducerea corectă a propoziției „M-am trezit târziu azi-dimineață"?'
-    options:
-      - "Gaur goizean berandu esnatu dut"
-      - "Gaur goizean berandu esnatu naiz"
-      - "Atzo goizean berandu esnatu naiz"
-      - "Bihar goizean berandu esnatzen naiz"
-    answer: 1
-    explanation: '„Esnatu" este intranzitiv (merge cu izan); „eu" → naiz. „Azi-dimineață" → gaur goizean.'
-  - id: ex-05-gze-mc2
-    type: multiple-choice
-    prompt: 'În propoziția „Mikelek egunkaria irakurri du", de ce „Mikelek" poartă -k?'
-    options:
-      - "Pentru că este un nume basc"
-      - "Pentru că este subiectul unui verb tranzitiv (NORK)"
-      - "Pentru că înseamnă plural"
-      - "Este o greșeală, ar trebui să fie doar Mikel"
-    answer: 1
-    explanation: 'În euskera, subiectul verbelor tranzitive poartă marca NORK (-k): Mikel**ek** a citit ziarul.'
-  - id: ex-05-gze-fb1
-    type: fill-in-blank
-    prompt: 'Am luat la micul dejun pâine prăjită și cafea = Tostadak eta kafea ___ ___ (completează: participiu + auxiliar pentru „eu").'
-    answers: ['hartu ditut', 'jan ditut']
-    explanation: 'Pentru „a lua/a mânca mai multe lucruri" se folosește *ditut* (auxiliarul de plural al lui ukan): *hartu/jan ditut*.'
-  - id: ex-05-gze-fb2
-    type: fill-in-blank
-    prompt: 'Am mers pe jos la euskaltegi = Euskaltegira oinez ___ ___ (completează: participiu + auxiliar).'
-    answers: ['joan naiz']
-    explanation: '„Joan" intranzitiv + „naiz" pentru persoana I = „joan naiz".'
-  - id: ex-05-gze-fc
-    type: flashcards
-    cards:
-      - { eu: 'Gaur zer egin duzu?', es: 'Ce ai făcut azi?' }
-      - { eu: Gaur goizean lanera joan naiz, es: Azi-dimineață am mers la muncă }
-      - { eu: Etxean gosaldu dut, es: Am luat micul dejun acasă }
-      - { eu: Eguerdian lagunekin bazkaldu dut, es: La prânz am mâncat cu prietenii }
-      - { eu: Arratsaldean kafea hartu dut, es: După-amiaza am băut o cafea }
-      - { eu: Buelta bat eman dut, es: Am dat o tură }
-      - { eu: Erosketak egin ditut, es: Am făcut cumpărăturile }
-      - { eu: Etxera bueltatu naiz, es: M-am întors acasă }
-      - { eu: Telebista ikusi dut, es: M-am uitat la televizor }
-      - { eu: Hamaiketan oheratu naiz, es: M-am culcat la ora unsprezece }
-      - { eu: Lasai egon naiz, es: Am stat liniștit/ă }
-      - { eu: Asko ikasi dut, es: Am învățat mult }
+- id: ex-05-gze-mc1
+  type: multiple-choice
+  prompt: Care este traducerea corectă a propoziției „Azi-dimineață m-am trezit târziu”?
+  options:
+  - Gaur goizean berandu esnatu dut
+  - Gaur goizean berandu esnatu naiz
+  - Atzo goizean berandu esnatu naiz
+  - Bihar goizean berandu esnatzen naiz
+  answer: 1
+  explanation: „Esnatu" este intranzitiv (merge cu izan); „eu" → naiz. „Azi-dimineață" → gaur goizean.
+- id: ex-05-gze-mc2
+  type: multiple-choice
+  prompt: În propoziția „Mikelek egunkaria irakurri du", de ce „Mikelek" poartă -k?
+  options:
+  - Pentru că este un nume basc
+  - Pentru că este subiectul unui verb tranzitiv (NORK)
+  - Pentru că înseamnă plural
+  - Este o greșeală, ar trebui să fie doar Mikel
+  answer: 1
+  explanation: 'În euskera, subiectul verbelor tranzitive poartă marca NORK (-k): Mikel**ek** a citit ziarul.'
+- id: ex-05-gze-fb1
+  type: fill-in-blank
+  prompt: 'Am luat la micul dejun pâine prăjită și cafea = Tostadak eta kafea ___ ___ (completează: participiu + auxiliar pentru „eu").'
+  answers:
+  - hartu ditut
+  - jan ditut
+  explanation: 'Pentru „a lua/a mânca mai multe lucruri" se folosește *ditut* (auxiliarul de plural al lui ukan): *hartu/jan ditut*.'
+- id: ex-05-gze-fb2
+  type: fill-in-blank
+  prompt: 'Am mers pe jos la euskaltegi = Euskaltegira oinez ___ ___ (completează: participiu + auxiliar).'
+  answers:
+  - joan naiz
+  explanation: „Joan" intranzitiv + „naiz" pentru persoana I = „joan naiz".
+- id: ex-05-gze-fc
+  type: flashcards
+  cards:
+  - eu: Gaur zer egin duzu?
+    es: Ce ai făcut azi?
+  - eu: Gaur goizean lanera joan naiz
+    es: Azi-dimineață am mers la muncă
+  - eu: Etxean gosaldu dut
+    es: Am luat micul dejun acasă
+  - eu: Eguerdian lagunekin bazkaldu dut
+    es: La prânz am mâncat cu prietenii
+  - eu: Arratsaldean kafea hartu dut
+    es: După-amiaza am băut o cafea
+  - eu: Buelta bat eman dut
+    es: Am dat o tură
+  - eu: Erosketak egin ditut
+    es: Am făcut cumpărăturile
+  - eu: Etxera bueltatu naiz
+    es: M-am întors acasă
+  - eu: Telebista ikusi dut
+    es: M-am uitat la televizor
+  - eu: Hamaiketan oheratu naiz
+    es: M-am culcat la ora unsprezece
+  - eu: Lasai egon naiz
+    es: Am stat liniștit/ă
+  - eu: Asko ikasi dut
+    es: Am învățat mult
 ---
 
 Această lecție adună tot materialul unității: trecutul recent cu cele două auxiliare, marcatorii temporali, părțile zilei și verbele de zi cu zi. Scopul este să poți povesti întreaga ta zi.
@@ -100,13 +120,13 @@ Urmează același șablon, dar cu informațiile tale reale. Verifică aceste dou
 | Incorect | Corect | De ce |
 |---|---|---|
 | *Goizean joan dut* | *Goizean joan naiz* | *Joan* este intranzitiv, merge cu *izan* (naiz). |
-| *Mikel egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* este tranzitiv: subiectul în -k, auxiliarul *du*. |
+| *Mikel egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* este tranzitiv: subiectul cu -k, auxiliarul *du*. |
 | *Gaur gosaltzen dut etxean* | *Gaur gosaldu dut etxean* | Dacă vrei trecut recent, fără *-tzen*. |
 | *Atzo lanera joan naiz* | *Atzo lanera joan nintzen* (trecut complet) | Cu *atzo* și alte perioade deja încheiate se folosește trecutul complet; trecutul recent este pentru azi. |
 
 > **Notă:** pentru acțiunile de ieri se folosește trecutul complet (*joan nintzen*, *jan nuen*), care este specific nivelului A2. La A1 concentrează-te pe a povesti ceea ce s-a întâmplat **azi** cu trecutul recent; dacă vreodată spui *atzo joan naiz*, vei fi înțeles, dar forma standard este *atzo joan nintzen*.
 
-## Combinându-l cu obișnuitul
+## Combinarea cu prezentul obișnuit
 
 Acest lucru este esențial: cele două sisteme coexistă și deseori se amestecă în aceeași conversație.
 

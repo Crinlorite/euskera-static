@@ -5,95 +5,125 @@ code: 05-nire-auzokideak
 unit: 10-mi-gente
 level: a1
 order: 5
-title: Nire auzokideak — 3人の隣人を描写する
+title: Nire auzokideak — 3人の隣人について説明する
 estimatedMinutes: 12
-covers: [social-relations, third-person-introductions, daily-routine-third-person, professions-extended, possessives]
+covers:
+- social-relations
+- third-person-introductions
+- daily-routine-third-person
+- professions-extended
+- possessives
 exercises:
-  - id: ex-10-05-mc1
-    type: multiple-choice
-    prompt: 'ひとり暮らしの年配の女性の隣人を紹介するとき、最も自然な順序はどれですか？'
-    options:
-      - "Hau ... da → bera ... da → bera ... egiten du"
-      - "Bera ... egiten du → hau ... da → bera ... da"
-      - "Hura ... egiten du → hau ... naiz → bera ... zara"
-      - "Ni ... naiz → zu ... zara → bera ... da"
-    answer: 0
-    explanation: 'まず紹介し（Hau X da）、次に情報を加え（Bera Y da）、最後にその人が何をするかを述べます（Bera Z egiten du）。'
-  - id: ex-10-05-mc2
-    type: multiple-choice
-    prompt: '"Nire bizilaguna 75 urteko jubilatua da" の意味は…'
-    options:
-      - "私の隣人は75歳で退職している"
-      - "私の隣人は75年前に退職した"
-      - "私の隣人は75番地で働いている"
-      - "退職した隣人が75人いる"
-    answer: 0
-    explanation: '"75 urteko jubilatua" = 75歳の退職者。構造："X-eko Y" は年齢／属性 + 名詞を表します。'
-  - id: ex-10-05-fb1
-    type: fill-in-blank
-    prompt: '私の隣人たちは感じがいい = Nire bizilagunak ___ dira.'
-    answers: [atseginak, jatorrak]
-    explanation: '"Atseginak" または "jatorrak" は、複数形で「感じのいい／心地よい」を表す最もよく使われる2つの形容詞です。'
-  - id: ex-10-05-mp
-    type: match-pairs
-    pairs:
-      - { eu: jatorra, es: 感じがいい（親しみやすい） }
-      - { eu: atsegina, es: 心地よい }
-      - { eu: alaia, es: 陽気な }
-      - { eu: lasaia, es: 落ち着いた }
-      - { eu: berritsua, es: おしゃべりな }
-      - { eu: zaratatsua, es: 騒がしい }
-  - id: ex-10-05-fc
-    type: flashcards
-    cards:
-      - { eu: nire bizilaguna, es: 私の隣人 }
-      - { eu: nire bizilagunak, es: 私の隣人たち }
-      - { eu: nire ondoko bizilaguna, es: 私の隣の隣人 }
-      - { eu: lehenengo solairukoa, es: 1階の人 }
-      - { eu: bigarren solairukoa, es: 2階の人 }
-      - { eu: jatorra, es: 感じがいい }
-      - { eu: atsegina, es: 心地よい }
-      - { eu: alaia, es: 陽気な }
-      - { eu: lasaia, es: 落ち着いた }
-      - { eu: berritsua, es: おしゃべりな }
-      - { eu: zaratatsua, es: 騒がしい }
-      - { eu: jubilatua, es: 退職した }
-      - { eu: gaztea, es: 若い }
-      - { eu: zaharra, es: 年配の }
-      - { eu: 'Asko hitz egiten du', es: 'よく話す' }
-      - { eu: 'Ez dut askotan ikusten', es: '彼女にはあまり会わない' }
-      - { eu: 'Beti pozik dago', es: 'いつも機嫌がいい' }
+- id: ex-10-05-mc1
+  type: multiple-choice
+  prompt: 一人暮らしの年配の女性の隣人を紹介するには、どのような順序が最も自然ですか？
+  options:
+  - Hau ... da → bera ... da → bera ... egiten du
+  - Bera ... egiten du → hau ... da → bera ... da
+  - Hura ... egiten du → hau ... naiz → bera ... zara
+  - Ni ... naiz → zu ... zara → bera ... da
+  answer: 0
+  explanation: まず紹介し (*Hau X da*)、次に情報を加え (*Bera Y da*)、最後に何をしているかを話します (*Bera Z egiten du*)。
+- id: ex-10-05-mc2
+  type: multiple-choice
+  prompt: '"Nire bizilaguna 75 urteko jubilatua da" の意味は…'
+  options:
+  - 私の隣人は75歳で、退職しています
+  - 私の隣人は75年前に退職しました
+  - 私の隣人は75番地で働いています
+  - 私には75人の退職した隣人がいます
+  answer: 0
+  explanation: '"75 urteko jubilatua" = 75歳の退職者。構造："X-eko Y" は年齢/属性＋名詞を示します。'
+- id: ex-10-05-fb1
+  type: fill-in-blank
+  prompt: 私の隣人たちは感じが良いです = Nire bizilagunak ___ dira.
+  answers:
+  - atseginak
+  - jatorrak
+  explanation: '"Atseginak" または "jatorrak" は、複数形で「感じが良い/親しみやすい」を表すのに最もよく使われる2つの形容詞です。'
+- id: ex-10-05-mp
+  type: match-pairs
+  pairs:
+  - eu: jatorra
+    es: 親しみやすい、感じの良い
+  - eu: atsegina
+    es: agradable
+  - eu: alaia
+    es: alegre
+  - eu: lasaia
+    es: tranquilo/a
+  - eu: berritsua
+    es: おしゃべりな
+  - eu: zaratatsua
+    es: ruidoso/a
+- id: ex-10-05-fc
+  type: flashcards
+  cards:
+  - eu: nire bizilaguna
+    es: 私の隣人
+  - eu: nire bizilagunak
+    es: 私の隣人たち
+  - eu: nire ondoko bizilaguna
+    es: 私の隣の家の隣人
+  - eu: lehenengo solairukoa
+    es: 1階の
+  - eu: bigarren solairukoa
+    es: 2階の
+  - eu: jatorra
+    es: 感じの良い
+  - eu: atsegina
+    es: 親切な
+  - eu: alaia
+    es: 陽気な
+  - eu: lasaia
+    es: 穏やかな
+  - eu: berritsua
+    es: おしゃべりな
+  - eu: zaratatsua
+    es: 騒がしい
+  - eu: jubilatua
+    es: 退職した
+  - eu: gaztea
+    es: 若い
+  - eu: zaharra
+    es: 年配の
+  - eu: Asko hitz egiten du
+    es: よく話す
+  - eu: Ez dut askotan ikusten
+    es: 彼女にはあまり会わない
+  - eu: Beti pozik dago
+    es: いつも機嫌が良い
 ---
 
-このレッスンはトピック10のすべてを統合します。ここでは具体的で役に立つことを練習します。**あなた自身の3人の隣人を描写する**こと、シンプルだけれどつながりのある文で行います。これはA1の正念場であり、まさに教室での最初の自己紹介で取り組む内容です。
+このレッスンでは、テーマ10のすべてを統合します。ここでは、具体的で役立つ練習として、シンプルながらもつながりのある文章で**自分の隣人3人について説明する**ことに挑戦します。これはA1レベルの腕試しであり、まさに教室での最初の自己紹介などで練習する内容です。
 
-## 基本の構成（おすすめの順序）
+## 基本的な構成（推奨される順序）
 
-それぞれの隣人について、いつもこれらの要素に従いましょう。これらがそろっていれば、描写はひとりでに組み上がります。
+隣人一人ひとりについて、常にこれらの要素に従ってください。これらがあれば、説明文は自然に出来上がります：
 
-1. **紹介** — *Hau nire bizilaguna da. Bera X-koa da.*（どこの出身か）
-2. **年齢／配偶関係** — *X urte ditu. Ezkonduta / Bakarrik dago.*
+1. **紹介** — *Hau nire bizilaguna da. Bera X-koa da.* (出身地)
+2. **年齢・未婚/既婚** — *X urte ditu. Ezkonduta / Bakarrik dago.*
 3. **職業** — *Bera Y da.* または *Y-an lan egiten du.*
 4. **性格** — *Oso jatorra da.* または *Lasaia / Berritsua da.*
-5. **自分なりの細かい点** — あなたが気づいたこと：いつ会うか、何をするか。
+5. **個人的な情報** — あなたが観察したこと：いつ会うか、何をしているかなど。
 
-> 5つすべてを言う必要はありません。3つあればもう描写になります。
+> 5つすべてを言う必要はありません。3つあれば十分に説明になります。
 
 ## 隣人の性格を表す語彙
 
-| Euskera | 日本語 |
+| バスク語 | 日本語 |
 |---|---|
-| *jatorra* | 感じがいい、親しみやすい |
-| *atsegina* | 心地よい |
+| *jatorra* | 親しみやすい、感じの良い |
+| *atsegina* | 感じの良い、親切な |
 | *alaia* | 陽気な |
-| *lasaia* | 落ち着いた |
-| *isila* | 無口な |
+| *lasaia* | 穏やかな、静かな |
+| *isila* | 無口な、静かな |
 | *berritsua* | おしゃべりな |
 | *zaratatsua* | 騒がしい |
-| *zakarra* | 無愛想な／そっけない |
+| *zakarra* | 無愛想な、ぶっきらぼうな |
 | *jakintsua* | 賢い |
 
-## モデルとなる文章
+## モデル文
 
 > *Nire atarian hiru bizilagun nagusi ditugu — bakoitza solairu batean.*
 >
@@ -103,9 +133,9 @@ exercises:
 >
 > ***Hirugarrena Hodei eta Maialen dira.*** *Hauek nire ikaskideak ere badira: euskaltegira elkarrekin joaten gara. Hirugarren solairuan bizi dira eta ikasleak dira. Alaiak eta zaratatsuak dira: asteburuetan musika ozen entzuten dute.*
 
-## さあ、あなたの番：自分の隣人を3人描写しよう
+## あなたの番です：自分の隣人3人について説明してみましょう
 
-このテンプレートに従って、自分の本当のデータ（または好みで作り話でも）を埋めてください。
+このテンプレートに従って、あなたの実際の情報（または、よければ創作した情報）で完成させてください：
 
 > *Nire bizilagunetatik hiru aukeratuko ditut.*
 >
@@ -115,19 +145,19 @@ exercises:
 >
 > *Hirugarrena _________ da. Hau nire _________ ere bada. _________ ditu, eta _________(e)an lan egiten du. _________-rekin bizi da.*
 
-## 役立つつなぎの表現
+## 便利な接続詞
 
-描写をうまくつなげたいなら、これらのシンプルな接続表現が助けになります。
+説明をより上手につなげたい場合、これらの簡単な接続詞が役立ちます：
 
-| Euskera | 日本語 |
+| バスク語 | 日本語 |
 |---|---|
 | *eta* | そして |
-| *baina* | でも |
-| *baita ere* | …もまた |
+| *baina* | しかし |
+| *baita ere* | 〜もまた |
 | *gainera* | さらに |
-| *adibidez* | たとえば |
-| *batzuetan* | ときどき |
+| *adibidez* | 例えば |
+| *batzuetan* | 時々 |
 
 > 例：*Bera lasaia da, **baina** asteburuetan zaratatsua bihurtzen da. **Adibidez**, ostiraletan musika entzuten du gauean.*
 
-> **最後のアドバイス：** 隣人を描写する最初の試みは完璧にはなりません。大切なのは、聞き手が**それが誰で**、**何をしていて**、**あなたがどう見ているか**を理解できることです。その土台があれば、文法の修正は練習を重ねるうちに自然とついてきます。
+> **最後のアドバイス：** 最初の隣人の説明は完璧でなくても構いません。重要なのは、聞き手が**誰なのか**、**何をしているのか**、そして**あなたがその人をどう見ているか**を理解することです。その土台があれば、文法的な修正は練習を重ねるうちに自然と身についていきます。

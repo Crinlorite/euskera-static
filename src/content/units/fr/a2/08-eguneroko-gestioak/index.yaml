@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — banque, papiers, téléphone
+order: 8
+description: 'La vie pratique : banque et poste, mairie, appels, technologie et retours en magasin.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

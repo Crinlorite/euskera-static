@@ -7,46 +7,67 @@ level: a1
 order: 1
 title: Familia básica
 estimatedMinutes: 12
-covers: [family-basics]
+covers:
+- family-basics
 exercises:
-  - id: ex-fb-mp
-    type: match-pairs
-    pairs:
-      - { eu: aita, es: pá }
-      - { eu: ama, es: ma }
-      - { eu: anaia, es: hermanu (d'un home o d'una muyer) }
-      - { eu: arreba, es: hermana (dizla un home) }
-      - { eu: ahizpa, es: hermana (dizla una muyer) }
-      - { eu: seme, es: fíu }
-      - { eu: alaba, es: fía }
-  - id: ex-fb-mc1
-    type: multiple-choice
-    prompt: Maialen tien una hermana. ¿Cómo se diz "hermana" dende'l puntu de vista de Maialen?
-    options: [arreba, ahizpa, anaia, ama]
-    answer: 1
-    explanation: 'N''euskera, una muyer llama "ahizpa" a la so hermana; un home llámala "arreba".'
-  - id: ex-fb-fc
-    type: flashcards
-    cards:
-      - { eu: aita, es: pá }
-      - { eu: ama, es: ma }
-      - { eu: anaia, es: hermanu }
-      - { eu: arreba, es: hermana (d'elli) }
-      - { eu: ahizpa, es: hermana (d'ella) }
-      - { eu: seme, es: fíu }
-      - { eu: alaba, es: fía }
-      - { eu: gurasoak, es: padres (los) }
-      - { eu: anai-arrebak, es: hermanos y hermanes }
+- id: ex-fb-mp
+  type: match-pairs
+  pairs:
+  - eu: aita
+    es: padre
+  - eu: ama
+    es: madre
+  - eu: anaia
+    es: hermanu (d'un home o d'una muyer)
+  - eu: arreba
+    es: hermana (dizla un home)
+  - eu: ahizpa
+    es: hermana (dizla una muyer)
+  - eu: seme
+    es: hijo
+  - eu: alaba
+    es: hija
+- id: ex-fb-mc1
+  type: multiple-choice
+  prompt: Maialen tien una hermana. ¿Cómo se diz "hermana" dende'l puntu de vista de Maialen?
+  options:
+  - arreba
+  - ahizpa
+  - anaia
+  - ama
+  answer: 1
+  explanation: N'eusquera, una muyer llama "ahizpa" a la so hermana; un home llámala "arreba".
+- id: ex-fb-fc
+  type: flashcards
+  cards:
+  - eu: aita
+    es: padre
+  - eu: ama
+    es: madre
+  - eu: anaia
+    es: hermanu
+  - eu: arreba
+    es: hermana (d'él)
+  - eu: ahizpa
+    es: hermana (d'ella)
+  - eu: seme
+    es: fíu
+  - eu: alaba
+    es: fía
+  - eu: gurasoak
+    es: padres (los)
+  - eu: anai-arrebak
+    es: hermanos y hermanes
 ---
 
-L'euskera tien una particularidá perinteresante nel vocabulariu familiar: **la palabra pa "hermana" depende de quién fale**.
+L'eusquera tien una particularidá mui interesante nel vocabulariu familiar: **la pallabra pa "hermana" depende de quién fale**.
 
 ## Vocabulariu base
 
 | Euskera | Asturianu |
 |---|---|
-| *aita* | pá |
-| *ama* | ma |
+| *aita* | padre |
+| *ama* | madre |
 | *gurasoak* | los padres |
 | *seme* | fíu |
 | *alaba* | fía |
@@ -54,7 +75,7 @@ L'euskera tien una particularidá perinteresante nel vocabulariu familiar: **la 
 
 ## El detalle de "hermanu/a"
 
-- **anaia** — hermanu (dízenlo tanto homes como muyeres)
+- **anaia** — hermanu (dicenlo tanto homes como muyeres)
 - **arreba** — hermana, **dicha por un home**
 - **ahizpa** — hermana, **dicha por una muyer**
 
@@ -66,7 +87,7 @@ Poro:
 >
 > Tanto Egoitz como Maialen dicen: *"Nire anaia Hodei da."* (El mio hermanu ye Hodei.)
 
-Esto reflexa una distinción perantigua del euskera. Nun tien equivalente direutu n'asturianu y depréndese pol usu. Si t'enquivocas al principiu, nun pasa nada — too'l mundu va atalantate.
+Esto reflexa una distinción mui antigua del eusquera. Nun tien equivalente direutu n'asturianu y apréndese pol usu. Si t'enquivoques al principiu, nun pasa nada — tol mundu va entendete.
 
 ## Plurales útiles
 

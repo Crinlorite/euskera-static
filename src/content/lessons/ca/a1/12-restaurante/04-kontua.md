@@ -7,48 +7,72 @@ level: a1
 order: 4
 title: El compte (kontua eskatzen)
 estimatedMinutes: 9
-covers: [bill-payment, courtesy]
+covers:
+- bill-payment
+- courtesy
 exercises:
-  - id: ex-kont-mc1
-    type: multiple-choice
-    prompt: 'Com demanes el compte?'
-    options: ['Eskerrik asko', 'Kontua, mesedez', 'Zer da hau?', 'Bukatu dut']
-    answer: 1
-    explanation: '*Kontua, mesedez* és la fórmula universal per demanar el compte.'
-  - id: ex-kont-mc2
-    type: multiple-choice
-    prompt: '"Kobratuko al didazu?" significa…'
-    options: ['Quant costa?', 'Em cobres?', 'Tens canvi?', 'En vols més?']
-    answer: 1
-    explanation: '*Kobratu* — cobrar; *al* — partícula de pregunta; *didazu* — "(tu) em/a mi". Forma cortès.'
-  - id: ex-kont-fb1
-    type: fill-in-blank
-    prompt: '"Puc pagar amb targeta?" = Txartelaz ___ dezaket?'
-    answers: [ordain]
-    explanation: '*Ordaindu* — pagar. *Ordain dezaket?* — "puc pagar?".'
-  - id: ex-kont-fb2
-    type: fill-in-blank
-    prompt: '"No tinc canvi" = Ez ___ kanbiorik.'
-    answers: [daukat]
-    explanation: '*Daukat* — "tinc" (de *eduki*). Amb negació + objecte indefinit → *kanbio**rik***.'
-  - id: ex-kont-fc
-    type: flashcards
-    cards:
-      - { eu: kontua, es: el compte }
-      - { eu: 'Kontua, mesedez', es: 'El compte, si us plau' }
-      - { eu: 'Atera kontua, mesedez', es: "Porta'm el compte, si us plau" }
-      - { eu: 'Kobratuko al didazu?', es: 'Em cobres?' }
-      - { eu: 'Zenbat da dena?', es: 'Quant és tot?' }
-      - { eu: 'Txartelaz ordain dezaket?', es: 'Puc pagar amb targeta?' }
-      - { eu: dirua, es: diners }
-      - { eu: txartela, es: targeta }
-      - { eu: kanbioa, es: canvi (tornada) }
-      - { eu: 'Ez daukat kanbiorik', es: No tinc canvi }
-      - { eu: 'Tori!', es: 'Té!' }
-      - { eu: 'Eskerrik asko, oso ondo zegoen', es: 'Moltes gràcies, estava molt bo' }
+- id: ex-kont-mc1
+  type: multiple-choice
+  prompt: Com demanes el compte?
+  options:
+  - Eskerrik asko
+  - Kontua, mesedez
+  - Zer da hau?
+  - Bukatu dut
+  answer: 1
+  explanation: '*Kontua, mesedez* és la fórmula universal per demanar el compte.'
+- id: ex-kont-mc2
+  type: multiple-choice
+  prompt: '"Kobratuko al didazu?" significa…'
+  options:
+  - Quant costa?
+  - Em cobres?
+  - Tens canvi?
+  - En vols més?
+  answer: 1
+  explanation: '*Kobratu* — cobrar; *al* — partícula de pregunta; *didazu* — "(tu) em/a mi". Forma cortès.'
+- id: ex-kont-fb1
+  type: fill-in-blank
+  prompt: '"Puc pagar amb targeta?" = Txartelaz ___ dezaket?'
+  answers:
+  - ordain
+  explanation: '*Ordaindu* — pagar. *Ordain dezaket?* — "puc pagar?".'
+- id: ex-kont-fb2
+  type: fill-in-blank
+  prompt: '"No tinc canvi" = Ez ___ kanbiorik.'
+  answers:
+  - daukat
+  explanation: '*Daukat* — "tinc" (de *eduki*). Amb negació + objecte indefinit → *kanbio**rik***.'
+- id: ex-kont-fc
+  type: flashcards
+  cards:
+  - eu: kontua
+    es: el compte
+  - eu: Kontua, mesedez
+    es: El compte, si us plau
+  - eu: Atera kontua, mesedez
+    es: Porta'm el compte, si us plau
+  - eu: Kobratuko al didazu?
+    es: Em cobres?
+  - eu: Zenbat da dena?
+    es: Quant és tot?
+  - eu: Txartelaz ordain dezaket?
+    es: Puc pagar amb targeta?
+  - eu: dirua
+    es: diners
+  - eu: txartela
+    es: targeta
+  - eu: kanbioa
+    es: canvi (de tornada)
+  - eu: Ez daukat kanbiorik
+    es: No tinc canvi
+  - eu: Tori!
+    es: Té!
+  - eu: Eskerrik asko, oso ondo zegoen
+    es: Moltes gràcies, estava molt bo
 ---
 
-El tancament del menjar té el seu petit guió: demanar el compte, pagar i acomiadar-se.
+El final de l'àpat té el seu petit guió: demanar el compte, pagar i acomiadar-se.
 
 ## Demanar el compte
 
@@ -83,14 +107,14 @@ Tres maneres, totes correctes:
 
 A Euskal Herria **la propina no és obligatòria**. El més habitual:
 
-- En bars i menjars informals: deixar les monedes soltes del canvi (50 cèntims a 1 euro).
+- En bars i àpats informals: deixar les monedes soltes del canvi (50 cèntims a 1 euro).
 - En restaurants amb un compte més alt: 1-2 euros per persona si t'ha agradat.
 - Mai no cal el típic 10% a l'estil d'altres països.
 
 ## Acomiadar-se
 
 - **Eskerrik asko, oso ondo zegoen!** — Moltes gràcies, estava molt bo!
-- **Zuri! Agur!** — A tu! Adéu!
+- **Zuri! Agur!** — A tu! Adeu!
 - **Hurrengora arte!** — Fins a la pròxima!
 
 ## Mini-seqüència completa

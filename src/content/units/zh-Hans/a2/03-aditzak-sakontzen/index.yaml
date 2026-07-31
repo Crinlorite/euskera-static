@@ -1,0 +1,14 @@
+id: a2-aditzak
+code: 03-aditzak-sakontzen
+level: a2
+title: Aditzak sakontzen — NOR-NORI-NORK, ahalera 及条件式
+order: 3
+description: 三论元动词（我给他东西，我教了他），能/不能，以及初探条件式。
+estimatedMinutes: 75
+covers:
+- a2-nor-nori-nork
+- a2-nor-nori-nork-past
+- a2-nor-nori
+- a2-ahalera
+- a2-ezin
+- a2-baldintza-intro

@@ -7,97 +7,127 @@ level: a1
 order: 5
 title: Izan vs egon (qualità vs stato)
 estimatedMinutes: 11
-covers: [izan-vs-egon, izan-nor, egon-nor]
+covers:
+- izan-vs-egon
+- izan-nor
+- egon-nor
 exercises:
-  - id: ex-ive-mc1
-    type: multiple-choice
-    prompt: 'Per dire "Maialen è allegra (in generale, lei è così)" usiamo…'
-    options: [Maialen alai dago, Maialen alaia da, Maialen pozik dago, Maialen alaia dago]
-    answer: 1
-    explanation: 'Qualità stabile → *izan* + aggettivo con `-a`.'
-  - id: ex-ive-mc2
-    type: multiple-choice
-    prompt: 'Per dire "Oggi Maialen è allegra / contenta (è uno stato)" usiamo…'
-    options: [Maialen pozik dago, Maialen alaia da, Maialen pozik da, Maialen alaia dago]
-    answer: 0
-    explanation: 'Stato passeggero → *egon* + parola senza `-a`. *pozik* è l''opzione naturale.'
-  - id: ex-ive-fb1
-    type: fill-in-blank
-    prompt: 'Mio padre è nervoso (è così) = Nire aita urduria ___.'
-    answers: [da]
-    explanation: 'Qualità → *izan*: *da*.'
-  - id: ex-ive-fb2
-    type: fill-in-blank
-    prompt: 'Oggi mio padre è nervoso (stato di oggi) = Gaur nire aita urduri ___.'
-    answers: [dago]
-    explanation: 'Stato passeggero → *egon*: *dago*. E nota come l''aggettivo perde la `-a`.'
-  - id: ex-ive-fb3
-    type: fill-in-blank
-    prompt: 'Siamo stanchi = Nekatuta ___.'
-    answers: [gaude]
-    explanation: 'Forma di *egon* per "noi" = *gaude*.'
-  - id: ex-ive-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nolakoa zara?', es: 'Come sei? (qualità)' }
-      - { eu: 'Nola zaude?', es: 'Come stai? (stato)' }
-      - { eu: alaia naiz, es: sono allegra (sempre) }
-      - { eu: pozik nago, es: sto contenta (adesso) }
-      - { eu: lasaia da, es: è tranquillo (carattere) }
-      - { eu: lasai dago, es: sta tranquillo (in questo momento) }
-      - { eu: urduria naiz, es: sono nervosa (carattere) }
-      - { eu: urduri nago, es: sto nervosa (adesso) }
-      - { eu: gaztea da, es: è giovane }
-      - { eu: nekatuta dago, es: sta stanco }
-  - id: ex-ive-mp
-    type: match-pairs
-    pairs:
-      - { eu: alaia da, es: è allegra (sempre) }
-      - { eu: pozik dago, es: sta contento (adesso) }
-      - { eu: urduria naiz, es: sono nervosa (carattere) }
-      - { eu: urduri nago, es: sto nervosa (adesso) }
-      - { eu: ona da, es: è buono (qualità) }
-      - { eu: ondo dago, es: sta bene (stato) }
+- id: ex-ive-mc1
+  type: multiple-choice
+  prompt: Per dire "Maialen è allegra (in generale, è il suo carattere)" usiamo...
+  options:
+  - Maialen alai dago
+  - Maialen alaia da
+  - Maialen pozik dago
+  - Maialen alaia dago
+  answer: 1
+  explanation: Qualità stabile → *izan* + aggettivo con `-a`.
+- id: ex-ive-mc2
+  type: multiple-choice
+  prompt: Per dire "Oggi Maialen è allegra / contenta (è uno stato)" usiamo...
+  options:
+  - Maialen pozik dago
+  - Maialen alaia da
+  - Maialen pozik da
+  - Maialen alaia dago
+  answer: 0
+  explanation: Stato passeggero → *egon* + parola senza `-a`. *pozik* è l'opzione naturale.
+- id: ex-ive-fb1
+  type: fill-in-blank
+  prompt: Mio padre è nervoso (è il suo carattere) = Nire aita urduria ___.
+  answers:
+  - da
+  explanation: 'Qualità → *izan*: *da*.'
+- id: ex-ive-fb2
+  type: fill-in-blank
+  prompt: Oggi mio padre è nervoso (stato di oggi) = Gaur nire aita urduri ___.
+  answers:
+  - dago
+  explanation: 'Stato passeggero → *egon*: *dago*. E nota come l''aggettivo perde la `-a`.'
+- id: ex-ive-fb3
+  type: fill-in-blank
+  prompt: Siamo stanchi = Nekatuta ___.
+  answers:
+  - gaude
+  explanation: Forma di *egon* per "noi" = *gaude*.
+- id: ex-ive-fc
+  type: flashcards
+  cards:
+  - eu: Nolakoa zara?
+    es: Come sei? (qualità)
+  - eu: Nola zaude?
+    es: Come stai? (stato)
+  - eu: alaia naiz
+    es: sono allegro/a (sempre)
+  - eu: pozik nago
+    es: sono contento/a (ora)
+  - eu: lasaia da
+    es: è tranquillo/a (carattere)
+  - eu: lasai dago
+    es: è tranquillo/a (in questo momento)
+  - eu: urduria naiz
+    es: sono nervoso/a (carattere)
+  - eu: urduri nago
+    es: sono nervoso/a (ora)
+  - eu: gaztea da
+    es: è giovane
+  - eu: nekatuta dago
+    es: è stanco/a
+- id: ex-ive-mp
+  type: match-pairs
+  pairs:
+  - eu: alaia da
+    es: è allegro/a (sempre)
+  - eu: pozik dago
+    es: è contento/a (ora)
+  - eu: urduria naiz
+    es: sono nervoso/a (carattere)
+  - eu: urduri nago
+    es: estoy nerviosa (ahora)
+  - eu: ona da
+    es: è buono/a (qualità)
+  - eu: ondo dago
+    es: sta bene (stato)
 ---
 
-Questa è probabilmente la distinzione più scivolosa dell'A1 in euskera. Come in italiano "essere" vs "stare", ma con due differenze importanti: **(1) gli aggettivi cambiano forma** e **(2) alcune parole si usano solo con uno dei due verbi**.
+Questa è probabilmente la distinzione più scivolosa del livello A1 in basco. Come in spagnolo "ser" vs "estar", ma con due differenze importanti: **(1) gli aggettivi cambiano forma** e **(2) alcune parole si usano solo con uno dei due verbi**.
 
 ## La regola in una riga
 
-| Quando parli di… | Verbo | L'aggettivo prende `-a` |
+| Quando parli di... | Verbo | L'aggettivo prende `-a` |
 |---|---|---|
 | **Com'è qualcuno sempre** (qualità, descrizione) | **izan** | sì (*alaia*, *altua*) |
-| **Come sta adesso** (stato, momento) | **egon** | no (*pozik*, *nekatuta*) |
+| **Come sta ora** (stato, momento) | **egon** | no (*pozik*, *nekatuta*) |
 
-## Esempi a coppie
+## Esempi in coppia
 
-Guarda come cambia la parola scelta a seconda che tu parli di qualità o di stato:
+Guarda come cambia la parola scelta a seconda che tu parli di una qualità o di uno stato:
 
 | Qualità (izan) | Stato (egon) |
 |---|---|
-| *Alaia da.* (È allegra, è così) | *Pozik dago.* (Sta contenta) |
-| *Urduria naiz.* (Sono nervosa di carattere) | *Urduri nago.* (Sto nervosa oggi) |
-| *Lasaia da.* (È tranquillo) | *Lasai dago.* (Sta tranquillo adesso) |
+| *Alaia da.* (È allegro/a, è il suo carattere) | *Pozik dago.* (È contento/a) |
+| *Urduria naiz.* (Sono nervoso/a di carattere) | *Urduri nago.* (Sono nervoso/a oggi) |
+| *Lasaia da.* (È tranquillo/a) | *Lasai dago.* (È tranquillo/a ora) |
 | *Ona da.* (È una brava persona) | *Ondo dago.* (Sta bene) |
-| *Gaixoa da.* (È cagionevole) | *Gaixorik dago.* (Sta male / è malato) |
+| *Gaixoa da.* (È malaticcio/a) | *Gaixorik dago.* (È malato/a) |
 
 > Attenzione: **alaia** e **pozik** si traducono entrambi con "allegro/contento", ma non sono intercambiabili. *Alaia* descrive il carattere; *pozik* lo stato d'animo di un momento.
 
-## Trucchi per indovinare
+## Trucchi per non sbagliare
 
-1. **Gli capita oggi o è sempre così?** Se è di un momento preciso → *egon*. Se è il suo modo di essere → *izan*.
-2. **La parola finisce in `-ik`, `-ta`, o è un avverbio (`ondo`, `gaizki`)?** Quasi sempre va con *egon*.
-3. **Sto descrivendo un tratto fisico permanente (alto, grasso, giovane)?** Va con *izan* + `-a`.
+1. **Succede oggi o è sempre così?** Se è un momento specifico → *egon*. Se è il suo modo di essere → *izan*.
+2. **La parola finisce in `-ik`, `-ta`, o è un avverbio (`ondo`, `gaizki`)?** Va quasi sempre con *egon*.
+3. **Sto descrivendo una caratteristica fisica permanente (alto, grasso, giovane)?** Va con *izan* + `-a`.
 
-## Casi tipici di A1
+## Casi tipici del livello A1
 
 - *Ni langilea naiz, baina gaur nekatuta nago.* — Sono una lavoratrice, ma oggi sono stanca.
-- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz è molto simpatico, ma sta arrabbiato.
-- *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — La madre di Maialen è giovane. Sta contenta perché oggi è il suo compleanno.
+- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz è molto simpatico, ma è arrabbiato.
+- *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — La madre di Maialen è giovane. È contenta perché oggi è il suo compleanno.
 
-## Domanda correttamente
+## Fai la domanda corretta
 
-- **Nolakoa zara?** → descrive il tuo carattere / fisico (uso *izan*).
-- **Nola zaude?** o **Zer moduz?** → racconta come stai oggi (uso *egon*).
+- **Nolakoa zara?** → descrivi il tuo carattere / fisico (si usa *izan*).
+- **Nola zaude?** o **Zer moduz?** → racconta come stai oggi (si usa *egon*).
 
-> **Nota:** in italiano hai già due verbi distinti per questa differenza: **essere** per la qualità (*sono nervosa* = è il mio carattere) e **stare** per lo stato del momento (*sto nervosa* = oggi). È esattamente il contrasto dell'euskera: **izan** corrisponde a *essere*, **egon** corrisponde a *stare*. In più, in euskera cambia anche la parola (*urduria* con *izan* vs *urduri* con *egon*). All'inizio costa fatica; con la pratica quotidiana viene da sola. Se sei in dubbio in una conversazione reale, una via sicura è usare *egon* (*stare*) con una parola invariabile: *haserre nago* (sto arrabbiata), *triste nago* (sto triste), *nekatuta nago* (sto stanca) — funzionano sempre.
+> **Nota:** in italiano si usa "essere" per entrambi i casi ("sono nervoso"), senza cambiare l'aggettivo. In basco invece la parola cambia (*urduria* vs *urduri*). All'inizio è difficile, ma con la pratica quotidiana diventa automatico. Se hai dubbi in una conversazione reale, una via d'uscita sicura è usare *egon* con una parola invariabile: *haserre nago*, *triste nago*, *nekatuta nago* — funzionano sempre.

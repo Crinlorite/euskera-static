@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — 銀行、手続き、電話
+order: 8
+description: 実生活：銀行や郵便局、市役所、電話、テクノロジー、店での返品など。
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

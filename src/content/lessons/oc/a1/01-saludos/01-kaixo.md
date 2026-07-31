@@ -5,87 +5,120 @@ code: 01-kaixo
 unit: 01-saludos
 level: a1
 order: 1
-title: Kaixo, agur e auti saluds
+title: Kaixo, agur e d'autes salutacions
 estimatedMinutes: 10
-covers: [greetings, courtesy]
+covers:
+- greetings
+- courtesy
 exercises:
-  - id: ex-01-kaixo-mc1
-    type: multiple-choice
-    prompt: Qué vò díder "Kaixo"?
-    options: [Adiu, Adiussiatz, Se vos platz, Mercés]
-    answer: 0
-    explanation: '"Kaixo" ei eth saluda mès comun en euskera, equivalent a "adiu".'
-  - id: ex-01-kaixo-mc2
-    type: multiple-choice
-    prompt: Ei net e trapes un amic. Cossí lo saludes?
-    options: [Egun on, Arratsalde on, Gabon, Agur]
-    answer: 2
-    explanation: '"Gabon" s''emplegue ara net, tanben entà "bona net" en tot dider-se adiu.'
-  - id: ex-01-kaixo-mc3
-    type: multiple-choice
-    prompt: '"Aspaldiko" vò díder…'
-    options: ["Enquia deman!", "Quant de temps sense veder-te!", "Bona vrespada", "De arren"]
-    answer: 1
-    explanation: '"Aspaldiko" s''emplegue quan te tornes a trapar damb quauquarrés dempús de temps sense veder-lo.'
-  - id: ex-01-kaixo-fc
-    type: flashcards
-    cards:
-      - { eu: Kaixo, es: Adiu }
-      - { eu: Hepa / Aupa, es: 'Adiu! (informau)' }
-      - { eu: Egun on, es: Bon dia }
-      - { eu: Eguerdi on, es: Bon meddia }
-      - { eu: Arratsalde on, es: Bona vrespada }
-      - { eu: Gabon, es: Bona net }
-      - { eu: Aspaldiko, es: 'Quant de temps!' }
-      - { eu: Agur, es: Adiussiatz }
-      - { eu: Gero arte, es: Enquia ara }
-      - { eu: Bihar arte, es: Enquia deman }
-      - { eu: Ondo ibili, es: Que vage plan }
-      - { eu: Eskerrik asko, es: Plan mercés }
-      - { eu: Ez horregatik, es: De arren }
-  - id: ex-01-kaixo-mp
-    type: match-pairs
-    pairs:
-      - { eu: Kaixo, es: Adiu }
-      - { eu: Agur, es: Adiussiatz }
-      - { eu: Egun on, es: Bon dia }
-      - { eu: Gabon, es: Bona net }
-      - { eu: Gero arte, es: Enquia ara }
-      - { eu: Eskerrik asko, es: Plan mercés }
+- id: ex-01-kaixo-mc1
+  type: multiple-choice
+  prompt: Qué vò díder "Kaixo"?
+  options:
+  - Adiu / Hola
+  - Adiu
+  - Se vos platz
+  - Gràcies
+  answer: 0
+  explanation: '"Kaixo" ei era salutacion mès comuna en euscaro, equivalenta a "hola" o "adiu".'
+- id: ex-01-kaixo-mc2
+  type: multiple-choice
+  prompt: Ei de net e te tròbes un amic. Com le saludes?
+  options:
+  - Egun on
+  - Arratsalde on
+  - Gabon
+  - Agur
+  answer: 2
+  explanation: '"Gabon" s''emplegue de net, tanben entà díder "bona net" en comiat.'
+- id: ex-01-kaixo-mc3
+  type: multiple-choice
+  prompt: '"Aspaldiko" vò díder…'
+  options:
+  - A deman!
+  - Quant de temps sense véder-te!
+  - Bona tarde
+  - De arren
+  answer: 1
+  explanation: '"Aspaldiko" s''emplegue en retrobar a bèth un dempús de temps sense véder-lo.'
+- id: ex-01-kaixo-fc
+  type: flashcards
+  cards:
+  - eu: Kaixo
+    es: Adiu / Hola
+  - eu: Hepa / Aupa
+    es: Adiu! (informau)
+  - eu: Egun on
+    es: Bon dia
+  - eu: Eguerdi on
+    es: Bon meddia
+  - eu: Arratsalde on
+    es: Bona tarde
+  - eu: Gabon
+    es: Bona net
+  - eu: Aspaldiko
+    es: Quant de temps!
+  - eu: Agur
+    es: Adiu
+  - eu: Gero arte
+    es: A lèu
+  - eu: Bihar arte
+    es: A deman
+  - eu: Ondo ibili
+    es: Que vage ben
+  - eu: Eskerrik asko
+    es: Fòrça gràcies
+  - eu: Ez horregatik
+    es: De arren
+- id: ex-01-kaixo-mp
+  type: match-pairs
+  pairs:
+  - eu: Kaixo
+    es: Hola
+  - eu: Agur
+    es: Adiu
+  - eu: Egun on
+    es: Bon dia
+  - eu: Gabon
+    es: Buenas noches
+  - eu: Gero arte
+    es: Hasta luego
+  - eu: Eskerrik asko
+    es: Muchas gracias
 ---
 
-En euskera, es saluds càmbien segontes eth moment deth dia. Era formula universau e era mès comuna ei **Kaixo**, que s'emplegue a quinsevolh ora damb gaireben quinsevolh persona — parièr qu'eth "adiu" en occitan. **Hepa** o **Aupa** son alternatives encara mès informaus, sustot entram era gent joena e es amics.
+En euscaro, es salutacions cambien segontes eth moment deth dia. Era formula universau e era mès comuna ei **Kaixo**, que s'emplegue a quinsevolh ora damb gaireben quinsevolh persona — ath madeish que "hola" en castelhan. **Hepa** o **Aupa** son alternatives encara mès informaus, sustot entre joeni e amics.
 
-## Saluds segontes eth moment deth dia
+## Salutacions per moment deth dia
 
-| Quan | Euskera | Occitan |
+| Quan | Euscaro | Castelhan |
 |---|---|---|
-| Maitin, enquia eth meddia | *Egun on* | Bon dia |
-| Meddia / ora de minjar | *Eguerdi on* | Bon meddia |
-| Vrespada, dempús de minjar | *Arratsalde on* | Bona vrespada |
-| Net e adiu nocturn | *Gabon* | Bona net |
-| Quinsevolh moment | *Kaixo* / *Hepa* / *Aupa* | Adiu |
+| Matin, enquiath meddia | *Egun on* | Bon dia |
+| Meddia / ora de dinar | *Eguerdi on* | Bon meddia |
+| Vespre, dempús de dinar | *Arratsalde on* | Bona tarde |
+| Net e comiat de net | *Gabon* | Bona net |
+| Quinsevolh moment | *Kaixo* / *Hepa* / *Aupa* | Adiu / Hola |
 
-`On` vò díder "bon", e apareish en fòrça saluds: *egun on* literaument ei "dia bon".
+`On` vò díder "bon", e apareish en fòrça salutacions: *egun on* literaument ei "dia bon".
 
-## Tornar-se a trapar
+## Retrobades
 
-Quan ves a quauquarrés que hè temps que non vedies, eth saluda naturau ei **Aspaldiko!** ("quant de temps!").
+Quan vedes a bèth un que hè temps que non vedies, era salutacion naturau ei **Aspaldiko!** ("quant de temps!").
 
-## Adius
+## Comiats
 
-Eth adiu mès universau ei **Agur**, equivalent a "adiussiatz". Tanben son frequents:
+Eth comiat mès universau ei **Agur**, equivalent a "adiu". Tanben son frequenti:
 
-- **Gero arte** — enquia ara
-- **Bihar arte** — enquia deman
-- **Hurrengora arte** — enquia era prossima
-- **Ondo ibili** / **Ondo segi** — que vage plan (literau: "ana plan")
+- **Gero arte** — a lèu
+- **Bihar arte** — a deman
+- **Hurrengora arte** — enquia era pròplèu
+- **Ondo ibili** / **Ondo segi** — que vage ben (literaument: "camina ben")
 
-## "Mercés" e "de arren"
+## "Gràcies" e "de arren"
 
-Dues frases qu'as a emplegar contunhament:
+Dues frases que emplegaràs constantament:
 
-- **Eskerrik asko** (o **Mila esker**) — plan mercés
+- **Eskerrik asko** (o **Mila esker**) — fòrça gràcies
 - **Ez horregatik** — de arren
 
-> **Nòta culturau:** en Euskal Herria fòrça gent altèrne espanhòu (castelhan) e euskera damb naturalitat. Començar era convèrsa damb *Kaixo* o *Egun on* ei ua manèra amabla de mostrar que coneishes era lengua.
+> **Nòta culturau:** en Euskal Herria fòrça gent altèrne castelhan e euscaro damb naturalitat. Començar era conversacion damb *Kaixo* o *Egun on* ei ua manèra aimabla de mostrar que coneishes era lengua.

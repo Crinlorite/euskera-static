@@ -7,63 +7,100 @@ level: a1
 order: 2
 title: El menú (menua eta platerak)
 estimatedMinutes: 10
-covers: [restaurant-vocab, food-bar, meals]
+covers:
+- restaurant-vocab
+- food-bar
+- meals
 exercises:
-  - id: ex-menu-mc1
-    type: multiple-choice
-    prompt: '"Lehen platera" significa…'
-    options: [Postres, Primer plat, Segon plat, Beguda]
-    answer: 1
-    explanation: '*Lehen platera* — primer plat. *Lehen* significa "primer".'
-  - id: ex-menu-mc2
-    type: multiple-choice
-    prompt: '"Postrea" en català és…'
-    options: [Beguda, Aperitiu, Postres, Plat principal]
-    answer: 2
-    explanation: '*Postrea* — postres. La traducció és directa.'
-  - id: ex-menu-fb1
-    type: fill-in-blank
-    prompt: '"Menú del dia" = Eguneko ___'
-    answers: [menua]
-    explanation: '*Eguneko menua* — literalment "el menú del dia" (eguneko = del dia).'
-  - id: ex-menu-fb2
-    type: fill-in-blank
-    prompt: 'Demanes "amanida i peix". El cambrer confirma: "Hasteko, entsalada eta bigarrenerako, ___."'
-    answers: [arraina]
-    explanation: '*Arraina* — peix. *Bigarrenerako* — "per al segon (plat)".'
-  - id: ex-menu-fc
-    type: flashcards
-    cards:
-      - { eu: menua, es: menú }
-      - { eu: karta, es: carta }
-      - { eu: 'eguneko menua', es: menú del dia }
-      - { eu: 'lehen platera', es: primer plat }
-      - { eu: 'bigarren platera', es: segon plat }
-      - { eu: postrea, es: postres }
-      - { eu: edaria, es: beguda }
-      - { eu: entsalada, es: amanida }
-      - { eu: zopa, es: sopa }
-      - { eu: arraina, es: peix }
-      - { eu: haragia, es: carn }
-      - { eu: legatza, es: lluç }
-      - { eu: bakailaoa, es: bacallà }
-      - { eu: oilaskoa, es: pollastre }
-      - { eu: txuleta, es: costella }
-      - { eu: izozkia, es: gelat }
-      - { eu: 'sagar tarta', es: pastís de poma }
-      - { eu: flana, es: flam }
-  - id: ex-menu-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'lehen platera', es: primer plat }
-      - { eu: 'bigarren platera', es: segon plat }
-      - { eu: postrea, es: postres }
-      - { eu: edaria, es: beguda }
-      - { eu: 'eguneko menua', es: menú del dia }
-      - { eu: karta, es: carta }
+- id: ex-menu-mc1
+  type: multiple-choice
+  prompt: '"Lehen platera" significa…'
+  options:
+  - Postre
+  - Primer plato
+  - Segundo plato
+  - Bebida
+  answer: 1
+  explanation: '*Lehen platera* — primer plat. *Lehen* significa "primer".'
+- id: ex-menu-mc2
+  type: multiple-choice
+  prompt: '"Postrea" en català és…'
+  options:
+  - Bebida
+  - Aperitivo
+  - Postre
+  - Plato principal
+  answer: 2
+  explanation: '*Postrea* — postre. La traducció és directa.'
+- id: ex-menu-fb1
+  type: fill-in-blank
+  prompt: '"Menú del dia" = Eguneko ___'
+  answers:
+  - menua
+  explanation: '*Eguneko menua* — literalment "el menú del dia" (eguneko = del dia).'
+- id: ex-menu-fb2
+  type: fill-in-blank
+  prompt: 'Demanes "amanida i peix". El cambrer confirma: "Hasteko, entsalada eta bigarrenerako, ___."'
+  answers:
+  - arraina
+  explanation: '*Arraina* — peix. *Bigarrenerako* — "per al segon (plat)".'
+- id: ex-menu-fc
+  type: flashcards
+  cards:
+  - eu: menua
+    es: menú
+  - eu: karta
+    es: carta
+  - eu: eguneko menua
+    es: menú del dia
+  - eu: lehen platera
+    es: primer plat
+  - eu: bigarren platera
+    es: segon plat
+  - eu: postrea
+    es: postre
+  - eu: edaria
+    es: beguda
+  - eu: entsalada
+    es: amanida
+  - eu: zopa
+    es: sopa
+  - eu: arraina
+    es: peix
+  - eu: haragia
+    es: carn
+  - eu: legatza
+    es: lluç
+  - eu: bakailaoa
+    es: bacallà
+  - eu: oilaskoa
+    es: pollastre
+  - eu: txuleta
+    es: mitjana
+  - eu: izozkia
+    es: gelat
+  - eu: sagar tarta
+    es: pastís de poma
+  - eu: flana
+    es: flam
+- id: ex-menu-mp
+  type: match-pairs
+  pairs:
+  - eu: lehen platera
+    es: primer plato
+  - eu: bigarren platera
+    es: segundo plato
+  - eu: postrea
+    es: postre
+  - eu: edaria
+    es: bebida
+  - eu: eguneko menua
+    es: menú del dia
+  - eu: karta
+    es: carta
 ---
 
-Saber llegir el menú t'obre portes. A la majoria de jatetxeak veuràs l'estructura clàssica de tres parts: primer, segon i postres.
+Saber llegir el menú t'obre portes. A la majoria de jatetxeak veuràs l'estructura clàssica de tres parts: primer, segon i postre.
 
 ## Les dues opcions per menjar
 
@@ -83,7 +120,7 @@ El cambrer sol preguntar:
 | *hasierakoak* | entrants / aperitius |
 | *lehen platera* | primer plat |
 | *bigarren platera* | segon plat |
-| *postrea* | postres |
+| *postrea* | postre |
 | *edaria* | beguda |
 
 > *Lehen* = primer. *Bigarren* = segon. *Postrea* és un préstec clar i s'utilitza igual.
@@ -106,7 +143,7 @@ Aquí se separa entre **arrainak** (peixos) i **haragiak** (carns):
 | Arrainak | Haragiak |
 |---|---|
 | *legatza* (lluç) | *oilaskoa* (pollastre) |
-| *bakailaoa* (bacallà) | *txuleta* (costella) |
+| *bakailaoa* (bacallà) | *txuleta* (mitjana) |
 | *antxoak* (anxoves) | *xerra* (filet) |
 | *itsas zapoa* (rap) | *arkume txuletak* (costelles de xai) |
 

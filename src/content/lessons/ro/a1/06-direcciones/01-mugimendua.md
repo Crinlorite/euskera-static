@@ -7,131 +7,172 @@ level: a1
 order: 1
 title: Verbe de mișcare (joan, etorri, ibili)
 estimatedMinutes: 12
-covers: [movement-verbs, common-verbs]
+covers:
+- movement-verbs
+- common-verbs
 exercises:
-  - id: ex-mu-mp
-    type: match-pairs
-    pairs:
-      - { eu: joan, es: a merge }
-      - { eu: etorri, es: a veni }
-      - { eu: ibili, es: a umbla / a se mișca }
-      - { eu: sartu, es: a intra }
-      - { eu: irten, es: a ieși }
-      - { eu: igo, es: a urca }
-      - { eu: jaitsi, es: a coborî }
-  - id: ex-mu-fb1
-    type: fill-in-blank
-    prompt: 'Eu merg = Ni ___.'
-    answers: [noa]
-    explanation: 'Forma sintetică a verbului "joan" pentru "eu" este "noa". Frecventă în întrebări precum "Nora noa?" → "Unde merg?".'
-  - id: ex-mu-fb2
-    type: fill-in-blank
-    prompt: 'Tu vii = Zu ___.'
-    answers: [zatoz]
-    explanation: '"Zatoz" este forma sintetică a verbului "etorri" pentru "zu".'
-  - id: ex-mu-mc1
-    type: multiple-choice
-    prompt: '"Nora zoaz?" înseamnă…'
-    options: ["De unde vii?", "Unde te duci?", "Unde ești?", "Pe unde umbli?"]
-    answer: 1
-    explanation: '"Nora" = unde (cu direcție); "zoaz" = te duci (forma sintetică a verbului "joan" pentru "zu").'
-  - id: ex-mu-mc2
-    type: multiple-choice
-    prompt: '"Sartu" și opusul său "irten" înseamnă, respectiv:'
-    options: ["a intra / a ieși", "a urca / a coborî", "a merge / a veni", "a deschide / a închide"]
-    answer: 0
-  - id: ex-mu-fc
-    type: flashcards
-    cards:
-      - { eu: joan, es: a merge }
-      - { eu: noa, es: merg }
-      - { eu: zoaz, es: te duci }
-      - { eu: doa, es: merge }
-      - { eu: goaz, es: mergem }
-      - { eu: zoazte, es: mergeți }
-      - { eu: doaz, es: merg (ei/ele) }
-      - { eu: etorri, es: a veni }
-      - { eu: nator, es: vin }
-      - { eu: zatoz, es: vii }
-      - { eu: dator, es: vine }
-      - { eu: gatoz, es: venim }
-      - { eu: zatozte, es: veniți }
-      - { eu: datoz, es: vin (ei/ele) }
-      - { eu: ibili, es: a umbla / a fi (mergând dintr-o parte în alta) }
-      - { eu: nabil, es: umblu }
-      - { eu: zabiltza, es: umbli }
-      - { eu: dabil, es: umblă }
-      - { eu: sartu, es: a intra }
-      - { eu: irten, es: a ieși }
-      - { eu: igo, es: a urca }
-      - { eu: jaitsi, es: a coborî }
+- id: ex-mu-mp
+  type: match-pairs
+  pairs:
+  - eu: joan
+    es: ir
+  - eu: etorri
+    es: venir
+  - eu: ibili
+    es: andar / moverse
+  - eu: sartu
+    es: entrar
+  - eu: irten
+    es: salir
+  - eu: igo
+    es: subir
+  - eu: jaitsi
+    es: bajar
+- id: ex-mu-fb1
+  type: fill-in-blank
+  prompt: Eu merg = Ni ___.
+  answers:
+  - noa
+  explanation: Forma sintetică a lui "joan" pentru "eu" este "noa". Frecventă în întrebări precum "Nora noa?" → "Unde merg?".
+- id: ex-mu-fb2
+  type: fill-in-blank
+  prompt: Tu vii = Zu ___.
+  answers:
+  - zatoz
+  explanation: '"Zatoz" este forma sintetică a lui "etorri" pentru "zu".'
+- id: ex-mu-mc1
+  type: multiple-choice
+  prompt: '"Nora zoaz?" înseamnă…'
+  options:
+  - De unde vii?
+  - Unde mergi?
+  - Unde ești?
+  - Pe unde umbli?
+  answer: 1
+  explanation: '"Nora" = încotro/unde; "zoaz" = mergi (forma sintetică a lui "joan" pentru "zu").'
+- id: ex-mu-mc2
+  type: multiple-choice
+  prompt: '"Sartu" și opusul său "irten" înseamnă, respectiv:'
+  options:
+  - entrar / salir
+  - subir / bajar
+  - ir / venir
+  - abrir / cerrar
+  answer: 0
+- id: ex-mu-fc
+  type: flashcards
+  cards:
+  - eu: joan
+    es: a merge
+  - eu: noa
+    es: merg
+  - eu: zoaz
+    es: mergi
+  - eu: doa
+    es: merge
+  - eu: goaz
+    es: mergem
+  - eu: zoazte
+    es: mergeți
+  - eu: doaz
+    es: merg
+  - eu: etorri
+    es: a veni
+  - eu: nator
+    es: vin
+  - eu: zatoz
+    es: vii
+  - eu: dator
+    es: vine
+  - eu: gatoz
+    es: venim
+  - eu: zatozte
+    es: veniți
+  - eu: datoz
+    es: vin
+  - eu: ibili
+    es: a umbla / a fi (mergând dintr-o parte în alta)
+  - eu: nabil
+    es: umblu
+  - eu: zabiltza
+    es: umbli
+  - eu: dabil
+    es: umblă
+  - eu: sartu
+    es: a intra
+  - eu: irten
+    es: a ieși
+  - eu: igo
+    es: a urca
+  - eu: jaitsi
+    es: a coborî
 ---
 
-Trei verbe de bază vor apărea tot timpul: **joan** (a merge), **etorri** (a veni) și **ibili** (a umbla, "a se mișca dintr-o parte în alta"). Toate trei au forme **sintetice** (fără auxiliar) care se folosesc foarte mult la prezent — și e bine să le înveți ca pe un bloc.
+Trei verbe de bază vor apărea constant: **joan** (a merge), **etorri** (a veni) și **ibili** (a umbla, "a se mișca dintr-o parte în alta"). Toate trei au forme **sintetice** (fără auxiliar) care se folosesc foarte mult la prezent — și este convenabil să le învățați ca un bloc.
 
 ## Joan — a merge
 
-| Persoană | Formă | Română |
+| Persoana | Forma | Română |
 |---|---|---|
 | ni | **noa** | merg |
-| zu | **zoaz** | te duci |
+| zu | **zoaz** | mergi |
 | hura | **doa** | merge |
 | gu | **goaz** | mergem |
 | zuek | **zoazte** | mergeți |
-| haiek | **doaz** | merg (ei/ele) |
+| haiek | **doaz** | merg |
 
-> Întrebarea-cheie: ***Nora zoaz?*** — Unde te duci? O vom lucra în lecția 03.
+> Întrebarea cheie: ***Nora zoaz?*** — Unde mergi? O vom exersa în lecția 03.
 
 ## Etorri — a veni
 
-| Persoană | Formă | Română |
+| Persoana | Forma | Română |
 |---|---|---|
 | ni | **nator** | vin |
 | zu | **zatoz** | vii |
 | hura | **dator** | vine |
 | gu | **gatoz** | venim |
 | zuek | **zatozte** | veniți |
-| haiek | **datoz** | vin (ei/ele) |
+| haiek | **datoz** | vin |
 
-> Întrebarea-cheie: ***Nondik zatoz?*** — De unde vii? O vom lucra în lecția 04.
+> Întrebarea cheie: ***Nondik zatoz?*** — De unde vii? O vom exersa în lecția 04.
 
 ## Ibili — a umbla, a se mișca
 
-| Persoană | Formă | Română |
+| Persoana | Forma | Română |
 |---|---|---|
-| ni | **nabil** | umblu, mă tot mișc |
+| ni | **nabil** | umblu, mă mișc |
 | zu | **zabiltza** | umbli |
 | hura | **dabil** | umblă |
 | gu | **gabiltza** | umblăm |
 | zuek | **zabiltzate** | umblați |
-| haiek | **dabiltza** | umblă (ei/ele) |
+| haiek | **dabiltza** | umblă |
 
-> *Ibili* servește și la a întreba "ce mai faci / cu ce te ocupi": **Zer zabiltza?** — Ce mai faci? / Cu ce te ocupi? Este foarte frecvent ca salut între persoane care se cunosc.
+> *Ibili* servește și pentru a întreba "ce mai faci" / "cu ce te ocupi": **Zer zabiltza?** — Ce mai faci? / Ce meșterești? Este foarte frecvent ca salut între persoane care se cunosc.
 
 ## Alte verbe de mișcare utile
 
-| Euskera | Română | Exemplu |
+| Bască | Română | Exemplu |
 |---|---|---|
 | *sartu* | a intra | *Tabernan sartu naiz.* — Am intrat în bar. |
-| *irten* | a ieși | *Etxetik irten naiz.* — Am ieșit din casă. |
+| *irten* | a ieși | *Etxetik irten naiz.* — Am ieșit de acasă. |
 | *igo* | a urca | *Eskailerak igo ditut.* — Am urcat scările. |
 | *jaitsi* | a coborî | *Aldapa jaitsi dut.* — Am coborât panta. |
-| *iritsi / heldu* | a ajunge | *Iruñera iritsi naiz.* — Am ajuns la Iruña. |
+| *iritsi / heldu* | a ajunge | *Iruñera iritsi naiz.* — Am ajuns la Pamplona. |
 
 ## De ce sunt importante formele sintetice
 
-În euskera, majoritatea verbelor se conjugă cu un **auxiliar**: *jan dut* (am mâncat), *ikusi dut* (am văzut). Dar câteva verbe foarte frecvente — printre care **joan**, **etorri**, **egon**, **ibili**, **eduki**, **jakin** — au o conjugare proprie "compactă" (*sintetică*) care se folosește la prezent. Întrucât apar atât de des, e mai ușor să memorezi cele șase forme decât să faci mii de ocolișuri.
+În bască, majoritatea verbelor se conjugă cu un **auxiliar**: *jan dut* (am mâncat), *ikusi dut* (am văzut). Dar câteva verbe foarte frecvente — printre care **joan**, **etorri**, **egon**, **ibili**, **eduki**, **jakin** — au o conjugare proprie "compactă" (*sintetică*) care se folosește la prezent. Deoarece apar foarte des, este mai ușor să memorați cele șase forme decât să faceți ocoluri.
 
 ## Mini-conversație
 
-> — *Aupa, nora zoaz?* — Bună! Unde te duci?
+> — *Aupa, nora zoaz?* — Salut! Unde mergi?
 >
-> — *Banketxera **noa**. Eta zu, nondik **zatoz**?* — Mă duc la bancă. Și tu, de unde vii?
+> — *Banketxera **noa**. Eta zu, nondik **zatoz**?* — Merg la bancă. Și tu, de unde vii?
 >
 > — *Lanetik **nator**.* — Vin de la muncă.
 >
 > — *Eta Lide? Zer **dabil**?* — Și Lide? Ce face?
 >
-> — *Enkargutan **dabil**, batetik bestera.* — Umblă cu treburi, dintr-o parte în alta.
+> — *Enkargutan **dabil**, batetik bestera.* — E plecată cu treburi, dintr-o parte în alta.
 
-> **Notă:** formele sintetice sunt o cărămidă centrală a nivelului A1. Memorează-le în grupuri de 2 (ni/zu) sau de 3 (gu/zuek/haiek) cântând, scriind, repetând. Investiția va da roade de la sine cu practica.
+> **Notă:** formele sintetice sunt o cărămidă centrală a nivelului A1. Memorați-le în blocuri de 2 (ni/zu) sau de 3 (gu/zuek/haiek) cântând, scriind, repetând. Vor deveni un automatism cu practica.

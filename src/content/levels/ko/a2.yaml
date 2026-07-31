@@ -1,0 +1,149 @@
+code: a2
+name: A2 Maila
+description: 초급 레벨. 일상적인 상황에서 자율적인 이해 및 표현, 과거 시제 서술, 미래 계획, 간단한 의견 표현.
+order: 2
+status: active
+beta: false
+curriculum:
+- id: a2-health-vocab
+  title: 건강 관련 어휘 (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)
+- id: a2-doctor-visit
+  title: '병원 진료 (mediku-kontsultan: zer duzu?, mina daukat, hartu pilula bat)'
+- id: a2-healthy-habits
+  title: 건강한 습관 (kirola egin, ondo lo egin, fruta jan, erre, alkohola)
+- id: a2-environment
+  title: 환경 (ingurumena, kutsadura, birziklatu, energia, klima-aldaketa)
+- id: a2-civic-life
+  title: 사회 및 시민 생활 (auzoa, herria, partehartzea, boluntariotza, jaiak)
+- id: a2-agintera-intro
+  title: '명령법 (agintera): 기본 긍정형 (zatoz, hartu, joan zaitez)'
+- id: a2-agintera-uses
+  title: '명령법의 사용: 지시, 조언, 요청 (mesedez, hartu eseri)'
+- id: a2-agintera-negation
+  title: 부정 명령법 (ez egin, ez joan, ez ezazu hartu)
+- id: a2-past-nor
+  title: 'izan/egon 동사의 과거형 — NOR: nintzen, zinen, zen, ginen, zineten, ziren / nengoen, zegoen'
+- id: a2-past-nor-nork
+  title: 'ukan 동사의 과거형 — NOR-NORK: nuen, zenuen, zuen, genuen, zenuten, zuten / nituen, zituen'
+- id: a2-past-trinkoak
+  title: '합성 동사의 과거형 (joan/etorri/ibili/eduki/jakin: nindoan, nentorren, nenbilen, neukan, nekien)'
+- id: a2-past-time-markers
+  title: 완료 과거 시제 표현 (atzo, joan den astean, duela X urte, orduan, gero)
+- id: a2-past-narrative
+  title: '경험 이야기하기: 과거 행동 연결하기 (lehenengo... gero... azkenean)'
+- id: a2-past-imperfect
+  title: '과거 미완료: 동사-tzen + nintzen/zen (lan egiten nuen, joaten nintzen)'
+- id: a2-perfect-vs-imperfect
+  title: 'burutua/ez burutua 대조: 단발성 사건 vs 과거의 습관 및 묘사'
+- id: a2-past-progressive
+  title: '과거 진행형 (puntukaria): -tzen ari nintzen / nenbilen'
+- id: a2-nor-nori-nork
+  title: NOR-NORI-NORK 현재형 (eman dizut, esan diot, erakutsi digute)
+- id: a2-nor-nori-nork-past
+  title: NOR-NORI-NORK 과거형 (eman nion, esan zion, ekarri zigun)
+- id: a2-nor-nori
+  title: NOR-NORI 현재형과 과거형 (gustatzen zait/zaio, ahaztu zitzaidan)
+- id: a2-ahalera
+  title: '가능 동사 (ahalera): -t(z)en + dezaket/daiteke (etor daiteke, egin dezakezu)'
+- id: a2-ezin
+  title: '불가능 표현 (ezin izan): ezin dut, ezin nintzen joan, ezin daiteke'
+- id: a2-baldintza-intro
+  title: '기본 조건문 (baldintza): 만약... 라면... (banaiz, banu, joango nintzateke) — 소개'
+- id: a2-norentzat
+  title: '수혜격 NORENTZAT: ~를 위해 (lagunarentzat, niretzat, guretzat)'
+- id: a2-noraino-norantz
+  title: 격 NORAINO (-raino, ~까지)와 NORANTZ (-rantz, ~를 향해)
+- id: a2-norengatik
+  title: 동기격 ZERGATIK / NORENGATIK (lagunarengatik, ekonomiaz)
+- id: a2-nongo-noizko
+  title: '격 NONGO/NOIZKO (-ko, -tako): 장소와 시간의 속성 (Bilboko, atzoko)'
+- id: a2-comp-superiority
+  title: '우등 비교: -ago, baino...-ago (handiagoa da, baino altuagoa)'
+- id: a2-comp-equality
+  title: '동등 비교: bezain, adina/beste (zu bezain ona, zuk adina)'
+- id: a2-comp-superlative
+  title: '최상급: -en (politena, onena, txikiena)'
+- id: a2-comp-excess
+  title: '과잉과 부족: -egi, gehiegi, gutxiegi (handiegia, gehiegi jan dut)'
+- id: a2-comp-progressive
+  title: '점진적 비교: gero eta ...ago (점점 더 / 점점 덜)'
+- id: a2-opinion
+  title: '의견 표현하기: nire ustez, uste dut, iruditzen zait, ados nago'
+- id: a2-feelings
+  title: '감정: pozik, triste, haserre, urduri, lasai, beldur naiz, lotsa ematen dit'
+- id: a2-connectors
+  title: '연결어: zeren/ze (왜냐하면), beraz (그러므로), hala ere (하지만), gainera (게다가)'
+- id: a2-distributive
+  title: '분배 접속사: bai...bai, ez...ez, baita...ere, baizik'
+- id: a2-relative-en
+  title: '-(e)n을 사용한 관계절: ezagutzen dudan gizona, joaten naizen tabernan'
+- id: a2-causal-clauses
+  title: '종속 이유절: -lako (왜냐하면, 접미사), zeren...bait- (책)'
+- id: a2-completive-ela
+  title: '-(e)la를 사용한 보문절: uste dut etorriko dela, badakit egia dela'
+- id: a2-future-forms
+  title: '미래 시제 (geroaldia): 분사 + -ko/-go (joango, egingo, ikusiko, hartuko)'
+- id: a2-future-izango
+  title: izan/ukan/egon 동사의 미래형 (izango naiz, izango dut, egongo da)
+- id: a2-future-markers
+  title: 미래 시제 표현 (bihar, etzi, datorren astean, hurrengo urtean, laster)
+- id: a2-plans-intentions
+  title: 계획과 의도 (zer egingo duzu?, -tzeko asmoa dut, pentsatu, erabaki)
+- id: a2-invitations
+  title: 초대하고 약속 잡기 (nahi duzu...?, zergatik ez...?, geratu, ondo iruditzen zait)
+- id: a2-weather
+  title: '날씨 (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)'
+- id: a2-weather-forecast
+  title: 미래 시제로 일기 예보하기 (bihar euria egingo du, eguzkia aterako da)
+- id: a2-ohi-habitual
+  title: ohi를 사용한 습관 표현 (joan ohi naiz, bazkaldu ohi dugu)
+- id: a2-transport-vocab
+  title: 교통수단 (trena, autobusa, hegazkina, geltokia, aireportua, oinez)
+- id: a2-tickets-schedules
+  title: 표와 시간표 (txartela, joan-etorria, zenbat balio du?, noiz ateratzen da?)
+- id: a2-accommodation
+  title: 숙소 (hotela, erreserba, gela bikoitza, gosaria barne)
+- id: a2-travel-planning
+  title: 여행 준비하기 (maleta, agiriak, planifikatu — 미래 시제 응용)
+- id: a2-travel-narrative
+  title: '여행 이야기하기 (과거 시제 응용: joan ginen, ikusi genuen, galdu genuen trena)'
+- id: a2-bank-post
+  title: 은행과 우체국 (kontua, dirua atera, transferentzia, paketea bidali)
+- id: a2-town-hall
+  title: 시청과 서류 작업 (udaletxea, errolda, NAN, hitzordua eskatu)
+- id: a2-phone-messages
+  title: 전화 통화 (deitu, mezua utzi, okerreko zenbakia, gero deituko dizut)
+- id: a2-tech-basics
+  title: 기술 (ordenagailua, mugikorra, posta elektronikoa, pasahitza, wifia)
+- id: a2-shopping-returns
+  title: '쇼핑: 교환과 환불 (probatu, handiegia, aldatu, dirua itzuli)'
+- id: a2-nature-vocab
+  title: 자연 (mendia, basoa, ibaia, hondartza, gailurra, bidezidorra)
+- id: a2-animals
+  title: 동물 (txakurra, behia, ardia, txoria, basurdea, otsoa)
+- id: a2-sports
+  title: 스포츠 (igeriketa, korrika, pilota, entrenatu, partida irabazi/galdu)
+- id: a2-hobbies
+  title: '취미 (-tzea gustatzen zait: irakurtzea, sukaldatzea, argazkiak ateratzea)'
+- id: a2-weekend-leisure
+  title: 주말 여가 (kontzertua, museoa, erakusketa, sarrera, doan)
+- id: a2-biography
+  title: 인물 소개 (jaio zen, ikasketak egin zituen, ezkondu ziren, hil zen)
+- id: a2-indirect-questions
+  title: '간접 의문문 (ea + -(e)n: ez dakit etorriko den)'
+- id: a2-time-clauses
+  title: 시간절 (-nean, aurretik, ondoren)
+- id: a2-purpose-clauses
+  title: '목적 (-tzeko, -tzera: ikastera etorri naiz)'
+- id: a2-exam-review
+  title: 레벨 종합 복습 (시험 형식)
+- id: a2-clothes-extended
+  title: 의류 심화 (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)
+- id: a2-home-extended
+  title: 집 심화 (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)
+- id: a2-jobs-extended
+  title: 직업 심화 (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)
+- id: a2-festivals
+  title: 축제와 전통 (San Juan sua, Olentzero, Korrika, jai herrikoiak)
+- id: a2-routines-compare
+  title: 일상과 관습 비교하기 (lehen... orain..., bertan... bestea... )

@@ -7,74 +7,108 @@ level: a1
 order: 2
 title: ¿Cuándo? (noiz, bihar, etzi…)
 estimatedMinutes: 9
-covers: [time-when, time-expressions, questions-basic]
+covers:
+- time-when
+- time-expressions
+- questions-basic
 exercises:
-  - id: ex-noiz-mc1
-    type: multiple-choice
-    prompt: '"Mañana" n''euskera ye…'
-    options: [atzo, gaur, bihar, etzi]
-    answer: 2
-    explanation: '*Bihar* — mañana (el día siguiente).'
-  - id: ex-noiz-mc2
-    type: multiple-choice
-    prompt: '"Pasáu mañana" dizse…'
-    options: [bihar, etzi, atzo, gaur]
-    answer: 1
-    explanation: '*Etzi* — pasáu mañana. Ye una palabra curtia y bien útil.'
-  - id: ex-noiz-fb1
-    type: fill-in-blank
-    prompt: '"La selmana que vien" = ___ astean.'
-    answers: [Datorren, datorren]
-    explanation: '*Datorren* — "el/la que vien" (lliteral: "que vien"). *Datorren astean* ye la forma estándar.'
-  - id: ex-noiz-fb2
-    type: fill-in-blank
-    prompt: '"¿Cuándo vienes?" = ___ zatoz?'
-    answers: [Noiz, noiz]
-    explanation: '*Noiz?* — partícula interrogativa pa "¿cuándo?".'
-  - id: ex-noiz-fc
-    type: flashcards
-    cards:
-      - { eu: atzo, es: ayeri }
-      - { eu: gaur, es: güei }
-      - { eu: bihar, es: mañana }
-      - { eu: etzi, es: pasáu mañana }
-      - { eu: 'datorren astean', es: la selmana que vien }
-      - { eu: 'datorren astelehenean', es: el llunes que vien }
-      - { eu: 'datorren urtean', es: l'añu que vien }
-      - { eu: asteburuan, es: la fin de selmana }
-      - { eu: 'aste honetan', es: esta selmana }
-      - { eu: 'orain', es: agora }
-      - { eu: 'gero', es: 'llueu, dempués' }
-      - { eu: 'lehen', es: enantes }
-      - { eu: 'noiz?', es: ¿cuándo? }
-  - id: ex-noiz-mp
-    type: match-pairs
-    pairs:
-      - { eu: atzo, es: ayeri }
-      - { eu: gaur, es: güei }
-      - { eu: bihar, es: mañana }
-      - { eu: etzi, es: pasáu mañana }
-      - { eu: 'datorren astean', es: la selmana que vien }
-      - { eu: 'datorren urtean', es: l'añu que vien }
+- id: ex-noiz-mc1
+  type: multiple-choice
+  prompt: '"Mañana" n''eusquera ye…'
+  options:
+  - atzo
+  - gaur
+  - bihar
+  - etzi
+  answer: 2
+  explanation: '*Bihar* — mañana (el día siguiente).'
+- id: ex-noiz-mc2
+  type: multiple-choice
+  prompt: '"Pasao mañana" dizse…'
+  options:
+  - bihar
+  - etzi
+  - atzo
+  - gaur
+  answer: 1
+  explanation: '*Etzi* — pasao mañana. Ye una pallabra curtia y mui útil.'
+- id: ex-noiz-fb1
+  type: fill-in-blank
+  prompt: '"La selmana que vien" = ___ astean.'
+  answers:
+  - Datorren
+  - datorren
+  explanation: '*Datorren* — "el/la que vien" (lliteral: "que vien"). *Datorren astean* ye la forma estándar.'
+- id: ex-noiz-fb2
+  type: fill-in-blank
+  prompt: '"¿Cuándo vienes?" = ___ zatoz?'
+  answers:
+  - Noiz
+  - noiz
+  explanation: '*Noiz?* — partícula interrogativa pa "¿cuándo?".'
+- id: ex-noiz-fc
+  type: flashcards
+  cards:
+  - eu: atzo
+    es: ayeri
+  - eu: gaur
+    es: güei
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasao mañana
+  - eu: datorren astean
+    es: la selmana que vien
+  - eu: datorren astelehenean
+    es: el llunes que vien
+  - eu: datorren urtean
+    es: l'añu que vien
+  - eu: asteburuan
+    es: el fin de selmana
+  - eu: aste honetan
+    es: esta selmana
+  - eu: orain
+    es: agora
+  - eu: gero
+    es: llueu, dempués
+  - eu: lehen
+    es: enantes
+  - eu: noiz?
+    es: ¿cuándo?
+- id: ex-noiz-mp
+  type: match-pairs
+  pairs:
+  - eu: atzo
+    es: ayer
+  - eu: gaur
+    es: hoy
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasado mañana
+  - eu: datorren astean
+    es: la selmana que vien
+  - eu: datorren urtean
+    es: l'añu que vien
 ---
 
-Pa falar de planes hai que dominar los marcadores temporales. Equí tienes los del exe pasáu-presente-futuru y los más usaos pal futuru próximu.
+Pa falar de planes hai que dominar los marcadores temporales. Equí tienes los de la exa pasáu-presente-futuru y los más usaos pal futuru próximu.
 
-## L'exe básicu
+## La exa básica
 
 | Euskera | Asturianu |
 |---|---|
 | *atzo* | ayeri |
 | *gaur* | güei |
 | *bihar* | mañana |
-| *etzi* | pasáu mañana |
-| *etziluma / etzidamu* | "tres-pasáu mañana" (pocu usáu) |
+| *etzi* | pasao mañana |
+| *etziluma / etzidamu* | "tres-pasao mañana" (pocu usáu) |
 
-Tres palabres curties (*atzo, gaur, bihar*) y *etzi* — con eso resuelves cuasi cualquier conversación cotidiana sobre feches.
+Tres pallabres curties (*atzo, gaur, bihar*) y *etzi* — con eso resuelves cuasi cualquier conversación cotidiana sobre feches.
 
 ## `Datorren` (que vien)
 
-Pa falar de "la próxima selmana", "el próximu mes" úsase **datorren** + nome:
+Pa falar de "la selmana que vien", "el mes que vien" úsase **datorren** + nome:
 
 | Euskera | Asturianu |
 |---|---|
@@ -87,10 +121,10 @@ Pa falar de "la próxima selmana", "el próximu mes" úsase **datorren** + nome:
 
 ## "Esti/esta" — `hau` / `honetan`
 
-Pa "esta selmana", "esta fin de selmana":
+Pa "esta selmana", "esti fin de selmana":
 
 - *aste honetan* — esta selmana
-- *asteburu honetan* — esta fin de selmana
+- *asteburu honetan* — esti fin de selmana
 - *hilabete honetan* — esti mes
 
 ## Otros marcadores clave
@@ -105,19 +139,19 @@ Pa "esta selmana", "esta fin de selmana":
 | *gaur gauean* | esta nueche |
 | *bihar goizean* | mañana pela mañana |
 
-> *Goiza* = mañana (parte del día). *Bihar* = mañana (día siguiente). Son dos palabres distintes, ¡nun les confundas!
+> *Goiza* = mañana (parte del día). *Bihar* = mañana (día siguiente). Son dos pallabres distintes, ¡nun les confundas!
 
-## Facer entrugues sobre'l tiempu
+## Facer preguntes sobre'l tiempu
 
 - **Noiz?** — ¿Cuándo?
-- **Noiz etorriko zara?** — ¿Cuándo vendrás?
-- **Noiz egingo dugu afaria?** — ¿Cuándo faremos la cena?
+- **Noiz etorriko zara?** — ¿Cuándo vas venir?
+- **Noiz egingo dugu afaria?** — ¿Cuándo vamos facer la cena?
 
 ## Exemplos en contestu
 
-- *Bihar mendira joango naiz.* — Mañana diré al monte.
-- *Etzi euskara klasea dut.* — Pasáu mañana tengo clase d'euskera.
-- *Datorren astean lan asko izango dut.* — La selmana que vien tendré munchu trabayu.
-- *Asteburu honetan ez dut planik.* — Esta fin de selmana nun tengo plan.
+- *Bihar mendira joango naiz.* — Mañana voi dir al monte.
+- *Etzi euskara klasea dut.* — Pasao mañana tengo clas d'eusquera.
+- *Datorren astean lan asko izango dut.* — La selmana que vien voi tener munchu trabayu.
+- *Asteburu honetan ez dut planik.* — Esti fin de selmana nun tengo plan.
 
-> **Nota cultural:** n'euskera "mañana" como momentu del día ye *goiza* y "mañana" como día siguiente ye *bihar*. La frase *bihar goizean* ("mañana pela mañana") xunta los dos. Nes primeres conversaciones ye bien frecuente fallar esti matiz, asina que convien afitalo dende'l principiu.
+> **Nota cultural:** n'eusquera "mañana" como momentu del día ye *goiza* y "mañana" como día siguiente ye *bihar*. La fras *bihar goizean* ("mañana pela mañana") xunta los dos. Nes primeres conversaciones ye mui frecuente fallar esti matiz, asina que convien afitalo dende'l principiu.

@@ -5,42 +5,61 @@ code: 04-familia-extendida
 unit: 02-familia
 level: a1
 order: 4
-title: Familia estendida
+title: Familia extensa
 estimatedMinutes: 10
-covers: [family-extended]
+covers:
+- family-extended
 exercises:
-  - id: ex-fe-mp
-    type: match-pairs
-    pairs:
-      - { eu: osaba, es: tío }
-      - { eu: izeba, es: tía }
-      - { eu: lehengusu, es: primo }
-      - { eu: lehengusina, es: prima }
-      - { eu: iloba, es: sobriño/a }
-  - id: ex-fe-mc1
-    type: multiple-choice
-    prompt: '"Lehengusu" é...'
-    options: [primo, irmán, avó, sogro]
-    answer: 0
-  - id: ex-fe-fc
-    type: flashcards
-    cards:
-      - { eu: osaba, es: tío }
-      - { eu: izeba, es: tía }
-      - { eu: lehengusu, es: primo }
-      - { eu: lehengusina, es: prima }
-      - { eu: iloba, es: 'sobriño, sobriña' }
-      - { eu: aitaginarreba, es: sogro }
-      - { eu: amaginarreba, es: sogra }
-      - { eu: koinatu, es: cuñado }
-      - { eu: koinata, es: cuñada }
+- id: ex-fe-mp
+  type: match-pairs
+  pairs:
+  - eu: osaba
+    es: tío
+  - eu: izeba
+    es: tía
+  - eu: lehengusu
+    es: primo
+  - eu: lehengusina
+    es: prima
+  - eu: iloba
+    es: sobrino/a
+- id: ex-fe-mc1
+  type: multiple-choice
+  prompt: '"Lehengusu" é...'
+  options:
+  - primo
+  - hermano
+  - abuelo
+  - suegro
+  answer: 0
+- id: ex-fe-fc
+  type: flashcards
+  cards:
+  - eu: osaba
+    es: tío
+  - eu: izeba
+    es: tía
+  - eu: lehengusu
+    es: primo
+  - eu: lehengusina
+    es: prima
+  - eu: iloba
+    es: sobriño, sobriña
+  - eu: aitaginarreba
+    es: sogro
+  - eu: amaginarreba
+    es: sogra
+  - eu: koinatu
+    es: cuñado
+  - eu: koinata
+    es: cuñada
 ---
 
-Máis alá de pais, irmáns e fillos, a familia esténdese con tíos, primos, sobriños e a familia política. Aquí tes o vocabulario máis usado.
+Máis aló de pais, irmáns e fillos, a familia esténdese con tíos, primos, sobriños e a familia política. Aquí tes o vocabulario máis usado.
 
 ## Tíos e primos
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *osaba* | tío |
 | *izeba* | tía |
@@ -50,7 +69,7 @@ Máis alá de pais, irmáns e fillos, a familia esténdese con tíos, primos, so
 
 ## Familia política
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *aitaginarreba* | sogro |
 | *amaginarreba* | sogra |
@@ -59,10 +78,10 @@ Máis alá de pais, irmáns e fillos, a familia esténdese con tíos, primos, so
 | *errain* | nora |
 | *suhi* | xenro |
 
-## Patróns de uso
+## Padróns de uso
 
-- *Nire osaba Bilbon bizi da.* — O meu tío vive en Bilbo.
+- *Nire osaba Bilbon bizi da.* — O meu tío vive en Bilbao.
 - *Bere lehengusinak hamabi urte ditu.* — A súa prima ten doce anos.
 - *Zure koinata euskalduna da?* — A túa cuñada é vasca?
 
-> As palabras para familia política fórmanse a miúdo combinando palabras existentes (*aita-* + *ginarreba*). Non fai falta memorizar a lóxica interna; co uso vanse asentando.
+> As palabras para a familia política fórmanse a miúdo combinando palabras existentes (*aita-* + *ginarreba*). Non fai falta memorizar a lóxica interna; co uso aséntanse.

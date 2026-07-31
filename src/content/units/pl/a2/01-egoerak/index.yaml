@@ -1,0 +1,16 @@
+id: a2-egoerak
+code: 01-egoerak
+level: a2
+title: Egoerak — codzienne sytuacje i rady
+order: 1
+description: Zdrowie, nawyki i środowisko. Naucz się prosić o polecenia i wydawać je w trybie rozkazującym (agintera).
+estimatedMinutes: 70
+covers:
+- a2-health-vocab
+- a2-doctor-visit
+- a2-healthy-habits
+- a2-environment
+- a2-civic-life
+- a2-agintera-intro
+- a2-agintera-uses
+- a2-agintera-negation

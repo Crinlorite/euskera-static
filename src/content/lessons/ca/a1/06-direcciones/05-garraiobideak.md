@@ -7,62 +7,100 @@ level: a1
 order: 5
 title: Transports (oinez, autobusez, trenez…)
 estimatedMinutes: 10
-covers: [instrumental-z, movement-verbs]
+covers:
+- instrumental-z
+- movement-verbs
 exercises:
-  - id: ex-ga-mp
-    type: match-pairs
-    pairs:
-      - { eu: oinez, es: a peu }
-      - { eu: kotxez / autoz, es: en cotxe }
-      - { eu: autobusez, es: en autobús }
-      - { eu: trenez, es: en tren }
-      - { eu: bizikletaz, es: en bicicleta }
-      - { eu: hegazkinez, es: en avió }
-      - { eu: itsasontziz, es: en vaixell }
-  - id: ex-ga-mc1
-    type: multiple-choice
-    prompt: 'Com es diu "Vaig en autobús"?'
-    options: ["Autobusera noa", "Autobusan noa", "Autobusez noa", "Autobusetik noa"]
-    answer: 2
-    explanation: '"Autobus" + sufix -ez (instrumental) = "autobusez" (en autobús, mode de moviment).'
-  - id: ex-ga-fb1
-    type: fill-in-blank
-    prompt: 'Vaig a peu = ___ noa.'
-    answers: [Oinez, oinez]
-    explanation: '"Oinez" és la forma fixa per a "a peu" (literalment "amb peu").'
-  - id: ex-ga-fb2
-    type: fill-in-blank
-    prompt: 'Vaig a Pamplona en tren = Iruñera ___ noa.'
-    answers: [trenez]
-  - id: ex-ga-mc2
-    type: multiple-choice
-    prompt: '"Bilbora hegazkinez doaz" significa…'
-    options: ["Vénen de Bilbo en avió", "Van a Bilbo en avió", "És a l'avió cap a Bilbo", "Bilbo té aeroport"]
-    answer: 1
-    explanation: 'Bilbo + ra = a Bilbo; hegazkin + ez = en avió; doaz = van.'
-  - id: ex-ga-mc3
-    type: multiple-choice
-    prompt: 'Com preguntes "Com vas a l''escola?"'
-    options: ["Nora zoaz eskolara?", "Nondik zatoz eskolatik?", "Nola zoaz eskolara?", "Non dago eskola?"]
-    answer: 2
-    explanation: '"Nola?" significa "com?". Per preguntar el mitjà de transport fem servir "Nola zoaz…?" o també "Zerez zoaz?".'
-  - id: ex-ga-fc
-    type: flashcards
-    cards:
-      - { eu: oinez, es: a peu }
-      - { eu: autoz / kotxez, es: en cotxe }
-      - { eu: autobusez, es: en autobús }
-      - { eu: trenez, es: en tren }
-      - { eu: bizikletaz, es: en bicicleta }
-      - { eu: motorrez, es: en moto }
-      - { eu: hegazkinez, es: en avió }
-      - { eu: itsasontziz, es: en vaixell }
-      - { eu: taxiz, es: en taxi }
-      - { eu: metroz, es: en metro }
-      - { eu: 'Nola zoaz?', es: Com vas? }
-      - { eu: 'Zerez zoaz?', es: Amb quin mitjà vas? }
-      - { eu: garraiobide, es: mitjà de transport }
-      - { eu: ibilbide, es: trajecte / itinerari }
+- id: ex-ga-mp
+  type: match-pairs
+  pairs:
+  - eu: oinez
+    es: a pie
+  - eu: kotxez / autoz
+    es: en coche
+  - eu: autobusez
+    es: en autobús
+  - eu: trenez
+    es: en tren
+  - eu: bizikletaz
+    es: en bicicleta
+  - eu: hegazkinez
+    es: en avió
+  - eu: itsasontziz
+    es: en barco
+- id: ex-ga-mc1
+  type: multiple-choice
+  prompt: Com es diu "Vaig en autobús"?
+  options:
+  - Autobusera noa
+  - Autobusan noa
+  - Autobusez noa
+  - Autobusetik noa
+  answer: 2
+  explanation: '"Autobus" + sufix -ez (instrumental) = "autobusez" (en autobús, mode de moviment).'
+- id: ex-ga-fb1
+  type: fill-in-blank
+  prompt: Vaig a peu = ___ noa.
+  answers:
+  - Oinez
+  - oinez
+  explanation: '"Oinez" és la forma fixa per a "a peu" (literalment "amb peu").'
+- id: ex-ga-fb2
+  type: fill-in-blank
+  prompt: Vaig a Pamplona en tren = Iruñera ___ noa.
+  answers:
+  - trenez
+- id: ex-ga-mc2
+  type: multiple-choice
+  prompt: '"Bilbora hegazkinez doaz" significa…'
+  options:
+  - Vénen de Bilbo en avió
+  - Van a Bilbo en avió
+  - Està a l'avió cap a Bilbo
+  - Bilbo té aeroport
+  answer: 1
+  explanation: Bilbo + ra = a Bilbo; hegazkin + ez = en avió; doaz = van.
+- id: ex-ga-mc3
+  type: multiple-choice
+  prompt: Com preguntes "Com vas a l'escola?"
+  options:
+  - Nora zoaz eskolara?
+  - Nondik zatoz eskolatik?
+  - Nola zoaz eskolara?
+  - Non dago eskola?
+  answer: 2
+  explanation: '"Nola?" significa "com?". Per preguntar pel mitjà de transport fem servir "Nola zoaz…?" o també "Zerez zoaz?".'
+- id: ex-ga-fc
+  type: flashcards
+  cards:
+  - eu: oinez
+    es: a peu
+  - eu: autoz / kotxez
+    es: en cotxe
+  - eu: autobusez
+    es: en autobús
+  - eu: trenez
+    es: en tren
+  - eu: bizikletaz
+    es: en bicicleta
+  - eu: motorrez
+    es: en moto
+  - eu: hegazkinez
+    es: en avió
+  - eu: itsasontziz
+    es: en vaixell
+  - eu: taxiz
+    es: en taxi
+  - eu: metroz
+    es: en metro
+  - eu: Nola zoaz?
+    es: Com vas?
+  - eu: Zerez zoaz?
+    es: Amb quin mitjà vas?
+  - eu: garraiobide
+    es: mitjà de transport
+  - eu: ibilbide
+    es: trajecte / itinerari
 ---
 
 Per tancar la unitat ens falta una peça: **com et mous**. En català fem servir "en + transport" ("en cotxe", "en autobús"). En basc s'utilitza el sufix **`-z`** (cas *instrumental*), que s'afegeix al mitjà de transport i, sorprenentment, també a la paraula per a "peu".

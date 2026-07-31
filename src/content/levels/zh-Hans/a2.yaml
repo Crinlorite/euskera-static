@@ -1,0 +1,149 @@
+code: a2
+name: A2 Maila
+description: 初级水平。在日常情境中独立理解和表达，包括过去时叙事、未来计划和简单观点。
+order: 2
+status: active
+beta: false
+curriculum:
+- id: a2-health-vocab
+  title: 健康词汇 (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)
+- id: a2-doctor-visit
+  title: '在诊所 (mediku-kontsultan: zer duzu?, mina daukat, hartu pilula bat)'
+- id: a2-healthy-habits
+  title: 健康习惯 (kirola egin, ondo lo egin, fruta jan, erre, alkohola)
+- id: a2-environment
+  title: 环境 (ingurumena, kutsadura, birziklatu, energia, klima-aldaketa)
+- id: a2-civic-life
+  title: 社会与公民生活 (auzoa, herria, partehartzea, boluntariotza, jaiak)
+- id: a2-agintera-intro
+  title: 命令式 (agintera)：基本肯定形式 (zatoz, hartu, joan zaitez)
+- id: a2-agintera-uses
+  title: 命令式的用法：指令、建议、请求 (mesedez, hartu eseri)
+- id: a2-agintera-negation
+  title: 否定命令式 (ez egin, ez joan, ez ezazu hartu)
+- id: a2-past-nor
+  title: 'izan/egon 的过去时 — NOR: nintzen, zinen, zen, ginen, zineten, ziren / nengoen, zegoen'
+- id: a2-past-nor-nork
+  title: 'ukan 的过去时 — NOR-NORK: nuen, zenuen, zuen, genuen, zenuten, zuten / nituen, zituen'
+- id: a2-past-trinkoak
+  title: '综合动词的过去时 (joan/etorri/ibili/eduki/jakin: nindoan, nentorren, nenbilen, neukan, nekien)'
+- id: a2-past-time-markers
+  title: 完成过去时的时间标记 (atzo, joan den astean, duela X urte, orduan, gero)
+- id: a2-past-narrative
+  title: 叙述经历：连接过去时的动作 (lehenengo... gero... azkenean)
+- id: a2-past-imperfect
+  title: 未完成过去时：aditza-tzen + nintzen/zen (lan egiten nuen, joaten nintzen)
+- id: a2-perfect-vs-imperfect
+  title: burutua/ez burutua 的对比：一次性事件 vs 过去的习惯和描述
+- id: a2-past-progressive
+  title: '过去进行时 (puntukaria): -tzen ari nintzen / nenbilen'
+- id: a2-nor-nori-nork
+  title: NOR-NORI-NORK 现在时 (eman dizut, esan diot, erakutsi digute)
+- id: a2-nor-nori-nork-past
+  title: NOR-NORI-NORK 过去时 (eman nion, esan zion, ekarri zigun)
+- id: a2-nor-nori
+  title: NOR-NORI 现在时和过去时 (gustatzen zait/zaio, ahaztu zitzaidan)
+- id: a2-ahalera
+  title: '情态动词“能够” (ahalera): -t(z)en + dezaket/daiteke (etor daiteke, egin dezakezu)'
+- id: a2-ezin
+  title: '不能 (ezin izan): ezin dut, ezin nintzen joan, ezin daiteke'
+- id: a2-baldintza-intro
+  title: 基本条件式 (baldintza)：如果...那么... (banaiz, banu, joango nintzateke) — 简介
+- id: a2-norentzat
+  title: 为格 NORENTZAT：为了谁 (lagunarentzat, niretzat, guretzat)
+- id: a2-noraino-norantz
+  title: 格 NORAINO (-raino, 直到) 和 NORANTZ (-rantz, 朝向)
+- id: a2-norengatik
+  title: 动机格 ZERGATIK / NORENGATIK (lagunarengatik, ekonomiaz)
+- id: a2-nongo-noizko
+  title: 格 NONGO/NOIZKO (-ko, -tako)：地点和时间定语 (Bilboko, atzoko)
+- id: a2-comp-superiority
+  title: 比较级：-ago, baino...-ago (handiagoa da, baino altuagoa)
+- id: a2-comp-equality
+  title: 同级比较：bezain, adina/beste (zu bezain ona, zuk adina)
+- id: a2-comp-superlative
+  title: 最高级：-en (politena, onena, txikiena)
+- id: a2-comp-excess
+  title: 过度与不足：-egi, gehiegi, gutxiegi (handiegia, gehiegi jan dut)
+- id: a2-comp-progressive
+  title: 渐进比较：gero eta ...ago (越来越... / 越来越不...)
+- id: a2-opinion
+  title: 表达观点：nire ustez, uste dut, iruditzen zait, ados nago
+- id: a2-feelings
+  title: 情感：pozik, triste, haserre, urduri, lasai, beldur naiz, lotsa ematen dit
+- id: a2-connectors
+  title: 连接词：zeren/ze (因为)，beraz (所以)，hala ere (然而)，gainera (此外)
+- id: a2-distributive
+  title: 并列连词：bai...bai, ez...ez, baita...ere, baizik
+- id: a2-relative-en
+  title: 带 -(e)n 的关系从句：ezagutzen dudan gizona, joaten naizen tabernan
+- id: a2-causal-clauses
+  title: 原因状语从句：-lako (因为，作后缀)，zeren...bait- (书面语)
+- id: a2-completive-ela
+  title: 带 -(e)la 的补语从句：uste dut etorriko dela, badakit egia dela
+- id: a2-future-forms
+  title: 将来时 (geroaldia)：分词 + -ko/-go (joango, egingo, ikusiko, hartuko)
+- id: a2-future-izango
+  title: izan/ukan/egon 的将来时 (izango naiz, izango dut, egongo da)
+- id: a2-future-markers
+  title: 将来时的时间标记 (bihar, etzi, datorren astean, hurrengo urtean, laster)
+- id: a2-plans-intentions
+  title: 计划与意图 (zer egingo duzu?, -tzeko asmoa dut, pentsatu, erabaki)
+- id: a2-invitations
+  title: 邀请与约定 (nahi duzu...?, zergatik ez...?, geratu, ondo iruditzen zait)
+- id: a2-weather
+  title: '天气 (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)'
+- id: a2-weather-forecast
+  title: 用将来时预报天气 (bihar euria egingo du, eguzkia aterako da)
+- id: a2-ohi-habitual
+  title: 用 ohi 表达习惯 (joan ohi naiz, bazkaldu ohi dugu)
+- id: a2-transport-vocab
+  title: 交通 (trena, autobusa, hegazkina, geltokia, aireportua, oinez)
+- id: a2-tickets-schedules
+  title: 票与时刻表 (txartela, joan-etorria, zenbat balio du?, noiz ateratzen da?)
+- id: a2-accommodation
+  title: 住宿 (hotela, erreserba, gela bikoitza, gosaria barne)
+- id: a2-travel-planning
+  title: 准备旅行 (maleta, agiriak, planifikatu — 将来时的应用)
+- id: a2-travel-narrative
+  title: 讲述一次旅行 (过去时的应用：joan ginen, ikusi genuen, galdu genuen trena)
+- id: a2-bank-post
+  title: 银行和邮局 (kontua, dirua atera, transferentzia, paketea bidali)
+- id: a2-town-hall
+  title: 市政厅与文书工作 (udaletxea, errolda, NAN, hitzordua eskatu)
+- id: a2-phone-messages
+  title: 打电话 (deitu, mezua utzi, okerreko zenbakia, gero deituko dizut)
+- id: a2-tech-basics
+  title: 科技 (ordenagailua, mugikorra, posta elektronikoa, pasahitza, wifia)
+- id: a2-shopping-returns
+  title: 购物：换货与退货 (probatu, handiegia, aldatu, dirua itzuli)
+- id: a2-nature-vocab
+  title: 自然 (mendia, basoa, ibaia, hondartza, gailurra, bidezidorra)
+- id: a2-animals
+  title: 动物 (txakurra, behia, ardia, txoria, basurdea, otsoa)
+- id: a2-sports
+  title: 体育 (igeriketa, korrika, pilota, entrenatu, partida irabazi/galdu)
+- id: a2-hobbies
+  title: '爱好 (-tzea gustatzen zait: irakurtzea, sukaldatzea, argazkiak ateratzea)'
+- id: a2-weekend-leisure
+  title: 周末休闲 (kontzertua, museoa, erakusketa, sarrera, doan)
+- id: a2-biography
+  title: 传记 (jaio zen, ikasketak egin zituen, ezkondu ziren, hil zen)
+- id: a2-indirect-questions
+  title: '间接问句 (ea + -(e)n: ez dakit etorriko den)'
+- id: a2-time-clauses
+  title: 时间从句 (-nean, aurretik, ondoren)
+- id: a2-purpose-clauses
+  title: '目的 (-tzeko, -tzera: ikastera etorri naiz)'
+- id: a2-exam-review
+  title: 本级别综合复习 (测试形式)
+- id: a2-clothes-extended
+  title: 服装扩展词汇 (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)
+- id: a2-home-extended
+  title: 住房扩展词汇 (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)
+- id: a2-jobs-extended
+  title: 职业扩展词汇 (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)
+- id: a2-festivals
+  title: 节日与传统 (San Juan sua, Olentzero, Korrika, jai herrikoiak)
+- id: a2-routines-compare
+  title: 比较日常与习俗 (lehen... orain..., bertan... bestea... )

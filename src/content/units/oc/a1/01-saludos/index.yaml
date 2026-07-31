@@ -3,14 +3,14 @@ code: 01-saludos
 level: a1
 title: Saludacions e prumères paraules
 order: 1
-description: Apren a saludar, a díder adiu e a presentar-te en euskera.
+description: Apren a saludar, a díder adiu e a presentar-te en basc.
 estimatedMinutes: 50
 covers:
-  - greetings
-  - courtesy
-  - introductions
-  - personal-pronouns
-  - izan-nor
-  - origin-koa
-  - residence-an
-  - countries-nationalities
+- greetings
+- courtesy
+- introductions
+- personal-pronouns
+- izan-nor
+- origin-koa
+- residence-an
+- countries-nationalities

@@ -7,68 +7,105 @@ level: a1
 order: 4
 title: Zenbat balio du? Preus i quantitats
 estimatedMinutes: 11
-covers: [prices, numbers-1-100]
+covers:
+- prices
+- numbers-1-100
 exercises:
-  - id: ex-zbd-mc1
-    type: multiple-choice
-    prompt: '"Zenbat balio du?" significa…'
-    options: ["Quant costa?", "Quants anys tens?", "Quant pesa?", "Quants n'hi ha?"]
-    answer: 0
-    explanation: '*zenbat* = quant/quants; *balio* = val/costa; *du* = "té/costa ell/ella".'
-  - id: ex-zbd-mc2
-    type: multiple-choice
-    prompt: 'Com es diu "vint" en euskera?'
-    options: [hamar, hamabost, hogei, ehun]
-    answer: 2
-    explanation: '*hogei* = 20. És la base del sistema vigesimal de l''euskera.'
-  - id: ex-zbd-fb1
-    type: fill-in-blank
-    prompt: 'Costa 3 euros = ___ euro balio du.'
-    answers: [hiru]
-    explanation: '*hiru* = 3.'
-  - id: ex-zbd-fb2
-    type: fill-in-blank
-    prompt: 'Prendré dos cafès = Bi kafe ___ ___.'
-    answers: [hartuko ditut]
-    explanation: 'Per a "diverses coses" s''usa *ditut* en lloc de *dut*.'
-  - id: ex-zbd-fc
-    type: flashcards
-    cards:
-      - { eu: hamar, es: "10" }
-      - { eu: hamabi, es: "12" }
-      - { eu: hamabost, es: "15" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita bost, es: "25" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: laurogei, es: "80" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: l'euro }
-      - { eu: zentimo, es: cèntim }
-      - { eu: 'Zenbat balio du?', es: 'Quant costa?' }
-      - { eu: 'Zenbat dira denera?', es: 'Quant és en total?' }
-      - { eu: garesti, es: car }
-      - { eu: merke, es: barat }
-  - id: ex-zbd-mp
-    type: match-pairs
-    pairs:
-      - { eu: hamar, es: "10" }
-      - { eu: hogei, es: "20" }
-      - { eu: hogeita hamar, es: "30" }
-      - { eu: berrogei, es: "40" }
-      - { eu: berrogeita hamar, es: "50" }
-      - { eu: hirurogei, es: "60" }
-      - { eu: ehun, es: "100" }
-      - { eu: euroa, es: euro }
+- id: ex-zbd-mc1
+  type: multiple-choice
+  prompt: '"Zenbat balio du?" significa…'
+  options:
+  - Quant costa?
+  - Quants anys tens?
+  - Quant pesa?
+  - Quants n'hi ha?
+  answer: 0
+  explanation: '*zenbat* = quant/quants; *balio* = val/costa; *du* = "té/costa ell/ella".'
+- id: ex-zbd-mc2
+  type: multiple-choice
+  prompt: Com es diu "vint" en basc?
+  options:
+  - hamar
+  - hamabost
+  - hogei
+  - ehun
+  answer: 2
+  explanation: '*hogei* = 20. És la base del sistema vigesimal del basc.'
+- id: ex-zbd-fb1
+  type: fill-in-blank
+  prompt: Costa 3 euros = ___ euro balio du.
+  answers:
+  - hiru
+  explanation: '*hiru* = 3.'
+- id: ex-zbd-fb2
+  type: fill-in-blank
+  prompt: Prendré dos cafès = Bi kafe ___ ___.
+  answers:
+  - hartuko ditut
+  explanation: Per a "diverses coses" es fa servir *ditut* en lloc de *dut*.
+- id: ex-zbd-fc
+  type: flashcards
+  cards:
+  - eu: hamar
+    es: '10'
+  - eu: hamabi
+    es: '12'
+  - eu: hamabost
+    es: '15'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita bost
+    es: '25'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: laurogei
+    es: '80'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: l'euro
+  - eu: zentimo
+    es: cèntim
+  - eu: Zenbat balio du?
+    es: Quant costa?
+  - eu: Zenbat dira denera?
+    es: Quant és en total?
+  - eu: garesti
+    es: car
+  - eu: merke
+    es: barat
+- id: ex-zbd-mp
+  type: match-pairs
+  pairs:
+  - eu: hamar
+    es: '10'
+  - eu: hogei
+    es: '20'
+  - eu: hogeita hamar
+    es: '30'
+  - eu: berrogei
+    es: '40'
+  - eu: berrogeita hamar
+    es: '50'
+  - eu: hirurogei
+    es: '60'
+  - eu: ehun
+    es: '100'
+  - eu: euroa
+    es: euro
 ---
 
-Per preguntar preus en euskera i entendre el que et diuen en cobrar, necessites dues coses: la fórmula **Zenbat balio du?** i els números fins a 100. El sistema de números de l'euskera és **vigesimal** (es basa en grups de 20), així que requereix una mica de pràctica.
+Per preguntar preus en basc i entendre el que et diuen en cobrar, necessites dues coses: la fórmula **Zenbat balio du?** i els números fins a 100. El sistema de números del basc és **vigesimal** (es basa en grups de 20), així que requereix una mica de costum.
 
 ## La pregunta clau
 
-| Euskera | Català |
+| Basc | Català |
 |---|---|
 | *Zenbat balio du?* | Quant costa? |
 | *Zenbat da?* | Quant és? |
@@ -77,11 +114,11 @@ Per preguntar preus en euskera i entendre el que et diuen en cobrar, necessites 
 
 > **Zenbat** és "quant / quants" — ja ho vas veure amb *Zenbat urte dituzu?* ("Quants anys tens?"). **Balio** = "val / costa".
 
-## Números fins a 20 (recordatori)
+## Nombres fins a 20 (recordatori)
 
-Ja vas veure els de l'1 al 10 a la unitat de la família. Aquí els de l'11 al 20:
+Ja vas veure els de l'1 al 10 a la unitat de la família. Aquí tens els de l'11 al 20:
 
-| Número | Euskera |
+| Nombre | Basc |
 |---|---|
 | 11 | *hamaika* |
 | 12 | *hamabi* (hamar + bi) |
@@ -98,9 +135,9 @@ Ja vas veure els de l'1 al 10 a la unitat de la família. Aquí els de l'11 al 2
 
 ## Les desenes: el sistema vigesimal
 
-Aquí ve la sorpresa de l'euskera. Les desenes es compten **en grups de 20**:
+Aquí hi ha la sorpresa del basc. Les desenes es compten **en grups de 20**:
 
-| Número | Euskera | Lògica |
+| Nombre | Basc | Lògica |
 |---|---|---|
 | 20 | *hogei* | base |
 | 30 | *hogeita hamar* | "20 i 10" |
@@ -112,11 +149,11 @@ Aquí ve la sorpresa de l'euskera. Les desenes es compten **en grups de 20**:
 | 90 | *laurogeita hamar* | "quatre 20 i 10" |
 | 100 | *ehun* | base |
 
-> Per als números intermedis, segueixes la mateixa lògica: 25 = *hogeita bost* ("20 i 5"), 67 = *hirurogeita zazpi* ("tres 20 i 7"). Costa al principi; amb la pràctica del bar i els preus surt tot sol.
+> Per als nombres intermedis, segueixes la mateixa lògica: 25 = *hogeita bost* ("20 i 5"), 67 = *hirurogeita zazpi* ("tres 20 i 7"). Costa al principi; amb la pràctica del bar i els preus surt sol.
 
 ## Dir un preu
 
-| Preu | Euskera |
+| Preu | Basc |
 |---|---|
 | 1 € | *euro bat* |
 | 2 € | *bi euro* |
@@ -124,11 +161,11 @@ Aquí ve la sorpresa de l'euskera. Les desenes es compten **en grups de 20**:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> Fixa't que **euro** no porta la `-a` quan va precedit d'un número (igual que a *bi anaia*, "dos germans"). Les quantitats exactes en cèntims es diuen com en català: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
+> Fixa't que **euro** no porta la `-a` quan va precedit d'un nombre (igual que a *bi anaia*, "dos germans"). Les quantitats exactes en cèntims es diuen com en català: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
 
 ## Comprar diversos elements
 
-Quan demanes més d'un, recorda usar **ditut** o **ditugu** en lloc de *dut*/*dugu*:
+Quan en demanes més d'un, recorda fer servir **ditut** o **ditugu** en comptes de *dut*/*dugu*:
 
 - *Bi kafe hartuko ditut.* — Prendré dos cafès.
 - *Hiru ogitarteko hartuko ditugu.* — Prendrem tres entrepans.
@@ -140,9 +177,9 @@ Quan demanes més d'un, recorda usar **ditut** o **ditugu** en lloc de *dut*/*du
 - **doan** — gratis
 
 > *Hau oso garestia da!* — Això és molt car!
-> *Bilbon kafea merkea da.* — A Bilbo el cafè és barat.
+> *Bilbon kafea merkea da.* — A Bilbao el cafè és barat.
 
-## Mini-diàleg
+## Minidiàleg
 
 > — *Kafe hutsa eta ogitarteko bat. Zenbat balio du denera?*
 >

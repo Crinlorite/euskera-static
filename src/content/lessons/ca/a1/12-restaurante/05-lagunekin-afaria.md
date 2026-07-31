@@ -7,76 +7,111 @@ level: a1
 order: 5
 title: Sopar amb amics (lliçó integradora)
 estimatedMinutes: 12
-covers: [restaurant-vocab, ordering-food, bill-payment, food-bar, courtesy]
+covers:
+- restaurant-vocab
+- ordering-food
+- bill-payment
+- food-bar
+- courtesy
 exercises:
-  - id: ex-laf-mc1
-    type: multiple-choice
-    prompt: 'Com li proposes a un amic "vols venir a sopar?"'
-    options: ['Etorri nahi duzu afaltzera?', 'Afari bat duzu?', 'Afaria zara?', 'Afaltzen ari naiz']
-    answer: 0
-    explanation: '*Etorri nahi duzu...?* — "vols venir...?". *Afaltzera* = "a sopar" (cas NORA amb verb).'
-  - id: ex-laf-mc2
-    type: multiple-choice
-    prompt: '"D''acord, a quina hora quedem?" es diu…'
-    options: ['Ados, zer ordutan geratuko gara?', 'Ados, zer ordutan da?', 'Ezin dut etorri', 'Eta zu, nor zara?']
-    answer: 0
-    explanation: '*Ados* — d''acord. *Geratuko gara* — "quedarem" (futur de *geratu*).'
-  - id: ex-laf-fb1
-    type: fill-in-blank
-    prompt: '"No puc, demà tinc feina" = Ezin dut, bihar ___ dut.'
-    answers: [lana, Lana]
-    explanation: '*Lana dut / lan egin behar dut* — "tinc feina / haig de treballar".'
-  - id: ex-laf-fb2
-    type: fill-in-blank
-    prompt: '"Quedem a les nou" = ___ geratuko gara.'
-    answers: [Bederatzietan, bederatzietan]
-    explanation: '*Bederatzietan* — "a les nou" (cas inessiu plural en les hores).'
-  - id: ex-laf-fc
-    type: flashcards
-    cards:
-      - { eu: 'Etorri nahi duzu afaltzera?', es: Vols venir a sopar? }
-      - { eu: 'Bai, oso ongi', es: 'Sí, perfecte' }
-      - { eu: 'Ezin dut', es: 'No puc' }
-      - { eu: 'Geratuko gara', es: 'Quedarem' }
-      - { eu: 'Bederatzietan', es: 'A les nou' }
-      - { eu: 'Erreserba egingo dut', es: 'Faré la reserva' }
-      - { eu: 'Hasteko, niretzat...', es: 'Per començar, per a mi...' }
-      - { eu: 'Zer iruditzen zaizu?', es: 'Què et sembla?' }
-      - { eu: 'Topa!', es: 'Salut / xin-xin!' }
-      - { eu: 'On egin!', es: 'Bon profit!' }
-      - { eu: 'Oso goxoa zegoen', es: 'Estava molt bo' }
-      - { eu: 'Hurrengora arte!', es: 'Fins a la propera!' }
-  - id: ex-laf-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Hasteko', es: 'Per començar' }
-      - { eu: 'Bigarrenerako', es: 'De segon' }
-      - { eu: 'Postrerako', es: 'De postres' }
-      - { eu: 'Edateko', es: 'Per beure' }
-      - { eu: 'Kontua, mesedez', es: 'El compte, si us plau' }
-      - { eu: 'On egin!', es: 'Bon profit!' }
+- id: ex-laf-mc1
+  type: multiple-choice
+  prompt: Com li proposes a un amic "vols venir a sopar?"
+  options:
+  - Etorri nahi duzu afaltzera?
+  - Afari bat duzu?
+  - Afaria zara?
+  - Afaltzen ari naiz
+  answer: 0
+  explanation: '*Etorri nahi duzu...?* — "vols venir...?" *Afaltzera* = "a sopar" (cas NORA amb verb).'
+- id: ex-laf-mc2
+  type: multiple-choice
+  prompt: '"D''acord, a quina hora quedem?" es diu…'
+  options:
+  - Ados, zer ordutan geratuko gara?
+  - Ados, zer ordutan da?
+  - Ezin dut etorri
+  - Eta zu, nor zara?
+  answer: 0
+  explanation: '*Ados* — d''acord. *Geratuko gara* — "quedarem" (futur de *geratu*).'
+- id: ex-laf-fb1
+  type: fill-in-blank
+  prompt: '"No puc, demà tinc feina" = Ezin dut, bihar ___ dut.'
+  answers:
+  - lana
+  - Lana
+  explanation: '*Lana dut / lan egin behar dut* — "tinc feina / he de treballar".'
+- id: ex-laf-fb2
+  type: fill-in-blank
+  prompt: '"Quedem a les nou" = ___ geratuko gara.'
+  answers:
+  - Bederatzietan
+  - bederatzietan
+  explanation: '*Bederatzietan* — "a les nou" (cas inessiu plural en hores).'
+- id: ex-laf-fc
+  type: flashcards
+  cards:
+  - eu: Etorri nahi duzu afaltzera?
+    es: Vols venir a sopar?
+  - eu: Bai, oso ongi
+    es: Sí, perfecte
+  - eu: Ezin dut
+    es: No puc
+  - eu: Geratuko gara
+    es: Quedarem
+  - eu: Bederatzietan
+    es: A les nou
+  - eu: Erreserba egingo dut
+    es: Faré la reserva
+  - eu: Hasteko, niretzat...
+    es: Per començar, per a mi...
+  - eu: Zer iruditzen zaizu?
+    es: Què et sembla?
+  - eu: Topa!
+    es: Salut!
+  - eu: On egin!
+    es: Bon profit!
+  - eu: Oso goxoa zegoen
+    es: Estava molt bo
+  - eu: Hurrengora arte!
+    es: Fins a la pròxima!
+- id: ex-laf-mp
+  type: match-pairs
+  pairs:
+  - eu: Hasteko
+    es: Per començar
+  - eu: Bigarrenerako
+    es: De segon
+  - eu: Postrerako
+    es: De postres
+  - eu: Edateko
+    es: Per beure
+  - eu: Kontua, mesedez
+    es: El compte, si us plau
+  - eu: On egin!
+    es: Bon profit!
 ---
 
-Ja tens totes les peces: tipus de restaurant, menú, demanar, pagar. Anem a integrar-les en un sopar amb amics: organitzar la cita, demanar i tancar la nit.
+Ja tens totes les peces: tipus de restaurant, menú, demanar, pagar. Les integrarem en un sopar amb amics: organitzar la cita, demanar i tancar la nit.
 
 ## 1. Quedar per sopar
 
-> — *Aizue, ostiralean afaltzera joango gara?* — Escolteu, anem a sopar el divendres?
+> — *Aizue, ostiralean afaltzera joango gara?* — Ei, anem a sopar divendres?
 >
 > — *Bai, ideia ona!* — Sí, bona idea!
 >
-> — *Nik ezin dut ostiralean. Larunbatean ondo?* — Jo no puc el divendres. El dissabte va bé?
+> — *Nik ezin dut ostiralean. Larunbatean ondo?* — Jo no puc divendres. Dissabte va bé?
 >
 > — *Ados. Zer ordutan geratuko gara?* — D'acord. A quina hora quedem?
 >
-> — *Bederatzi eta erdietan, taberna ondoan?* — A les nou i mitja, al costat del bar?
+> — *Bederatzi eta erdietan, taberna ondoan?* — A dos quarts de deu, al costat del bar?
 >
 > — *Ederki!* — Perfecte!
 
-Frases per excusar-te quan no pots:
+Frases per excusar-se quan no pots:
 
 - **Ezin dut, beste plan bat dut.** — No puc, tinc un altre pla.
-- **Ezin dut, bihar lan egin behar dut.** — No puc, demà haig de treballar.
+- **Ezin dut, bihar lan egin behar dut.** — No puc, demà he de treballar.
 - **Beste egun batean izan beharko du.** — Haurà de ser un altre dia.
 
 ## 2. Fer la reserva
@@ -106,7 +141,7 @@ Frases per excusar-te quan no pots:
 Salutacions en seure:
 
 - **On egin!** — Bon profit!
-- **Topa!** — Xin-xin! / Salut! (en brindar)
+- **Topa!** — Salut! (en brindar)
 
 Demanar, ja amb totes les peces:
 
@@ -123,7 +158,7 @@ Demanar, ja amb totes les peces:
 | Euskera | Català |
 |---|---|
 | *Oso goxoa zegoen!* | Estava molt bo! |
-| *Hau betekada!* | Quin tip! |
+| *Hau betekada!* | Quin fart! |
 | *Beste botila bat ardo, mesedez.* | Una altra ampolla de vi, si us plau. |
 | *Postrerako, izozkia hartuko dut.* | De postres, prendré gelat. |
 | *Nik ez dut postrerik nahi.* | Jo no vull postres. |
@@ -152,4 +187,4 @@ Demanar, ja amb totes les peces:
 5. Pagar:       Kontua, mesedez. / Txartelaz ordain dezaket?
 ```
 
-> **Nota cultural:** la fórmula *On egin!* es fa servir també si passes al costat de gent que està menjant en un lloc públic (terrassa, fruiteria, qualsevol lloc). És un gest educat molt típic que convé sentir i tornar: la resposta natural és *Eskerrik asko!*.
+> **Nota cultural:** la fórmula *On egin!* també es fa servir si passes pel costat de gent que està menjant en un lloc públic (terrassa, fruiteria, qualsevol lloc). És un gest educat molt típic que convé sentir i tornar: la resposta natural és *Eskerrik asko!*.

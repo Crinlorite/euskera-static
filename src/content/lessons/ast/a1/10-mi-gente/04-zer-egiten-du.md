@@ -7,48 +7,76 @@ level: a1
 order: 4
 title: ¿Qué fai? — Falar de la rutina d'otros
 estimatedMinutes: 12
-covers: [daily-routine-third-person, professions-extended, locative-non]
+covers:
+- daily-routine-third-person
+- professions-extended
+- locative-non
 exercises:
-  - id: ex-10-04-mc1
-    type: multiple-choice
-    prompt: '¿Cómo dices "Trabaya nel hospital"?'
-    options: [Ospitalean lan egiten du, Ospitalean lan egiten dut, Ospitala lan egiten du, Ospitalean lan egin du]
-    answer: 0
-    explanation: '"Ospitalean" = nel hospital (locativu -ean), "lan egiten du" = trabaya (3ª persona).'
-  - id: ex-10-04-fb1
-    type: fill-in-blank
-    prompt: 'Vive en Pamplona = Iruñean ___ da.'
-    answers: [bizi]
-    explanation: '"Bizi da" = vive (lliteral: "ta viviendo"). Pa 1ª persona sería "bizi naiz".'
-  - id: ex-10-04-mc2
-    type: multiple-choice
-    prompt: '"Bera euskaltegian lan egiten du" — ¿en qué profesión encaxa meyor?'
-    options: [sukaldaria, irakaslea, mekanikaria, zerbitzaria]
-    answer: 1
-    explanation: 'Si trabaya nun euskaltegi, lo más probable ye que seya profesor/a (irakaslea).'
-  - id: ex-10-04-fb2
-    type: fill-in-blank
-    prompt: 'Tien 40 años = Berrogei urte ___.'
-    answers: [ditu]
-    explanation: '"Ditu" = tien (3ª persona, oxetu plural — los años cuéntense en plural).'
-  - id: ex-10-04-fc
-    type: flashcards
-    cards:
-      - { eu: 'Zer egiten du?', es: '¿Qué fai?' }
-      - { eu: 'Non bizi da?', es: '¿Ónde vive?' }
-      - { eu: 'Non lan egiten du?', es: '¿Ónde trabaya?' }
-      - { eu: 'Bera medikua da', es: 'Él/ella ye médicu/a' }
-      - { eu: 'Ospitalean lan egiten du', es: 'Trabaya nel hospital' }
-      - { eu: 'Eskolan lan egiten du', es: 'Trabaya na escuela' }
-      - { eu: 'Tabernan lan egiten du', es: 'Trabaya nel chigre' }
-      - { eu: 'Bulegoan lan egiten du', es: 'Trabaya na oficina' }
-      - { eu: 'Iruñean bizi da', es: 'Vive en Pamplona' }
-      - { eu: 'Hogeita hamar urte ditu', es: 'Tien 30 años' }
-      - { eu: 'Ezkonduta dago', es: 'Ta casáu/ada' }
-      - { eu: 'Ezkongabea da', es: 'Ye solteru/a' }
-      - { eu: 'Bi seme-alaba ditu', es: 'Tien dos fíos' }
-      - { eu: 'Bakarrik bizi da', es: 'Vive solu/a' }
-      - { eu: 'Lagunekin bizi da', es: 'Vive colos sos amigos' }
+- id: ex-10-04-mc1
+  type: multiple-choice
+  prompt: ¿Cómo dices "Trabaya nel hospital"?
+  options:
+  - Ospitalean lan egiten du
+  - Ospitalean lan egiten dut
+  - Ospitala lan egiten du
+  - Ospitalean lan egin du
+  answer: 0
+  explanation: '"Ospitalean" = nel hospital (locativu -ean), "lan egiten du" = trabaya (3ª persona).'
+- id: ex-10-04-fb1
+  type: fill-in-blank
+  prompt: Vive en Pamplona = Iruñean ___ da.
+  answers:
+  - bizi
+  explanation: '"Bizi da" = vive (lliteral: "ta viviendo"). Pa la 1ª persona sería "bizi naiz".'
+- id: ex-10-04-mc2
+  type: multiple-choice
+  prompt: '"Bera euskaltegian lan egiten du" — ¿en qué oficiu encaxa meyor?'
+  options:
+  - sukaldaria
+  - irakaslea
+  - mekanikaria
+  - zerbitzaria
+  answer: 1
+  explanation: Si trabaya nun euskaltegi, lo más probable ye que seya profesor/a (irakaslea).
+- id: ex-10-04-fb2
+  type: fill-in-blank
+  prompt: Tien 40 años = Berrogei urte ___.
+  answers:
+  - ditu
+  explanation: '"Ditu" = tien (3ª persona, oxetu plural — los años cuéntense en plural).'
+- id: ex-10-04-fc
+  type: flashcards
+  cards:
+  - eu: Zer egiten du?
+    es: ¿Qué fai?
+  - eu: Non bizi da?
+    es: ¿Ónde vive?
+  - eu: Non lan egiten du?
+    es: ¿Ónde trabaya?
+  - eu: Bera medikua da
+    es: Ye médicu/a
+  - eu: Ospitalean lan egiten du
+    es: Trabaya nel hospital
+  - eu: Eskolan lan egiten du
+    es: Trabaya na escuela
+  - eu: Tabernan lan egiten du
+    es: Trabaya nel chigre
+  - eu: Bulegoan lan egiten du
+    es: Trabaya na oficina
+  - eu: Iruñean bizi da
+    es: Vive en Pamplona
+  - eu: Hogeita hamar urte ditu
+    es: Tien 30 años
+  - eu: Ezkonduta dago
+    es: Ta casáu/ada
+  - eu: Ezkongabea da
+    es: Ye solteru/a
+  - eu: Bi seme-alaba ditu
+    es: Tien dos fíos
+  - eu: Bakarrik bizi da
+    es: Vive solu/a
+  - eu: Lagunekin bizi da
+    es: Vive colos sos amigos
 ---
 
 Una vez sabes presentar a daquién (*Hau X da*), el siguiente pasu natural ye **cuntar qué fai esa persona**: ónde vive, ónde trabaya, cuántos años tien, cómo ye'l so día a día. Tola conxugación va en **tercera persona**, asina qu'equí practicamos eso.
@@ -92,9 +120,9 @@ El sufixu **`-(e)an`** ("en") yá lu conoces de la unidá de barriu y de residen
 
 > Recuerda: si la pallabra acaba en `-a` orgánica (tabern**a**), caltiénse → *tabernan*. Si acaba en consonante (Madril), intercala `-e-` → *Madrilen*.
 
-## Profesión + llugar = retratu completu
+## Oficiu + llugar = retratu completu
 
-Combinar profesión con llocación ye lo que da consistencia a la presentación d'un vecín:
+Combinar l'oficiu col llugar ye lo que da consistencia a la presentación d'un vecín:
 
 > *Bera **erizaina** da, eta **ospitalean lan egiten du**. **Iruñean bizi da, bikotekidearekin**, eta **bi seme-alaba ditu**.*
 

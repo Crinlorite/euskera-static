@@ -7,59 +7,92 @@ level: a1
 order: 3
 title: Pedir no bar (Tabernan eskatu)
 estimatedMinutes: 11
-covers: [bar-ordering, food-bar, courtesy]
+covers:
+- bar-ordering
+- food-bar
+- courtesy
 exercises:
-  - id: ex-tab-mc1
-    type: multiple-choice
-    prompt: '"Mesedez" significa…'
-    options: [obrigado, por favor, desculpe, oi]
-    answer: 1
-    explanation: '*mesedez* é "por favor". *Eskerrik asko* é "obrigado".'
-  - id: ex-tab-mc2
-    type: multiple-choice
-    prompt: 'Você quer pedir um café. Qual é a fórmula natural?'
-    options: [Kafea bat, Kafe bat mesedez, Kafe nahi dut, Kafea da mesedez]
-    answer: 1
-    explanation: '*Kafe bat, mesedez* — "Um café, por favor". O substantivo perde o `-a` quando vai com *bat*.'
-  - id: ex-tab-fb1
-    type: fill-in-blank
-    prompt: '"Vou tomar um cortado" = Ebakia ___ ___.'
-    answers: [hartuko dut]
-    explanation: '*hartuko dut* = "vou tomar". É uma maneira muito comum de pedir.'
-  - id: ex-tab-fb2
-    type: fill-in-blank
-    prompt: '"Você quer café?" = ___ ___ kafea?'
-    answers: [Nahi duzu]
-    explanation: '*nahi duzu* = "você quer". Padrão básico de oferta.'
-  - id: ex-tab-fc
-    type: flashcards
-    cards:
-      - { eu: mesedez, es: por favor }
-      - { eu: eskerrik asko, es: muito obrigado }
-      - { eu: ez horregatik, es: de nada }
-      - { eu: 'Zer nahi duzu?', es: 'O que você quer?' }
-      - { eu: 'Nahi duzu kafea?', es: 'Você quer café?' }
-      - { eu: 'Kafe bat mesedez', es: 'Um café, por favor' }
-      - { eu: 'Hartuko dut...', es: 'Vou tomar...' }
-      - { eu: 'Niretzat...', es: 'Para mim...' }
-      - { eu: 'Beste bat mesedez', es: 'Outro, por favor' }
-      - { eu: 'Aizu!', es: 'Ei! (chamar o garçom)' }
-      - { eu: ona dago, es: está bom }
-      - { eu: goxoa da, es: está gostoso/saboroso }
-  - id: ex-tab-mp
-    type: match-pairs
-    pairs:
-      - { eu: mesedez, es: por favor }
-      - { eu: eskerrik asko, es: muito obrigado }
-      - { eu: ez horregatik, es: de nada }
-      - { eu: 'Nahi duzu...?', es: 'Você quer...?' }
-      - { eu: 'Hartuko dut', es: 'Vou tomar' }
-      - { eu: 'Aizu!', es: 'Ei!' }
-      - { eu: 'Niretzat', es: 'Para mim' }
-      - { eu: ona, es: bom }
+- id: ex-tab-mc1
+  type: multiple-choice
+  prompt: '"Mesedez" significa…'
+  options:
+  - obrigado
+  - por favor
+  - desculpe
+  - olá
+  answer: 1
+  explanation: '*mesedez* é "por favor". *Eskerrik asko* é "obrigado".'
+- id: ex-tab-mc2
+  type: multiple-choice
+  prompt: Você quer pedir um café. Qual é a fórmula natural?
+  options:
+  - Kafea bat
+  - Kafe bat mesedez
+  - Kafe nahi dut
+  - Kafea da mesedez
+  answer: 1
+  explanation: '*Kafe bat, mesedez* — "Um café, por favor". O substantivo perde o `-a` ao ir com *bat*.'
+- id: ex-tab-fb1
+  type: fill-in-blank
+  prompt: '"Vou tomar um café pingado" = Ebakia ___ ___.'
+  answers:
+  - hartuko dut
+  explanation: '*hartuko dut* = "vou tomar". É uma forma muito comum de pedir.'
+- id: ex-tab-fb2
+  type: fill-in-blank
+  prompt: '"Você quer café?" = ___ ___ kafea?'
+  answers:
+  - Nahi duzu
+  explanation: '*nahi duzu* = "você quer". Padrão básico para oferecer algo.'
+- id: ex-tab-fc
+  type: flashcards
+  cards:
+  - eu: mesedez
+    es: por favor
+  - eu: eskerrik asko
+    es: muito obrigado
+  - eu: ez horregatik
+    es: de nada
+  - eu: Zer nahi duzu?
+    es: O que você quer?
+  - eu: Nahi duzu kafea?
+    es: Você quer café?
+  - eu: Kafe bat mesedez
+    es: Um café, por favor
+  - eu: Hartuko dut...
+    es: Vou tomar...
+  - eu: Niretzat...
+    es: Para mim...
+  - eu: Beste bat mesedez
+    es: Outro, por favor
+  - eu: Aizu!
+    es: Ei! (chamar o garçom)
+  - eu: ona dago
+    es: está bom
+  - eu: goxoa da
+    es: está gostoso/saboroso
+- id: ex-tab-mp
+  type: match-pairs
+  pairs:
+  - eu: mesedez
+    es: por favor
+  - eu: eskerrik asko
+    es: muchas gracias
+  - eu: ez horregatik
+    es: de nada
+  - eu: Nahi duzu...?
+    es: Você quer...?
+  - eu: Hartuko dut
+    es: Vou tomar
+  - eu: Aizu!
+    es: Licença!
+  - eu: Niretzat
+    es: Para mim
+  - eu: ona
+    es: bueno
 ---
 
-Pedir no bar é uma das coisas mais úteis que você vai saber dizer em euskera. A fórmula básica é bem direta: nome do que você quer + **bat** (um) + **mesedez** (por favor). E pronto.
+Pedir no bar é uma das coisas mais úteis que você vai aprender a dizer em basco. A fórmula básica é bem direta: nome do que você quer + **bat** (um) + **mesedez** (por favor). E pronto.
 
 ## A fórmula mínima
 
@@ -68,9 +101,9 @@ Pedir no bar é uma das coisas mais úteis que você vai saber dizer em euskera.
 Isso resolve 80% das situações. Repare em duas coisas:
 
 1. O substantivo perde o `-a` final quando vai com **bat**: *kafea* → *kafe bat*.
-2. **mesedez** vai no final, separado por uma pausa.
+2. **mesedez** é colocado no final, separado por uma pausa.
 
-| Você pede | Em euskera |
+| Você pede | Em basco |
 |---|---|
 | Um café | *Kafe bat, mesedez.* |
 | Um chope pequeno | *Zurito bat, mesedez.* |
@@ -78,16 +111,16 @@ Isso resolve 80% das situações. Repare em duas coisas:
 | Um vinho tinto | *Ardo gorri bat, mesedez.* |
 | Uma sidra | *Sagardo bat, mesedez.* |
 
-## Variantes com verbos
+## Variações com verbos
 
-Para soar um pouco mais natural e menos "robô", há outras maneiras igualmente corretas:
+Para soar um pouco mais natural e menos "robótico", existem outras formas igualmente corretas:
 
 - **Hartuko dut...** — *Vou tomar...* (literal: "tomarei"). Muito usado.
-  - *Ebakia hartuko dut.* — Vou tomar um cortado.
+  - *Ebakia hartuko dut.* — Vou tomar um café pingado.
   - *Garagardo bat hartuko dut.* — Vou tomar uma cerveja.
-- **Niretzat...** — *Para mim...* (quando vocês estão pedindo várias pessoas).
+- **Niretzat...** — *Para mim...* (quando vocês estão pedindo para várias pessoas).
   - *Niretzat kafe hutsa, mesedez.* — Para mim um café puro, por favor.
-- **Nahi dut...** — *Quero...* (mais direto; em alguns contextos pode soar brusco; é melhor *hartuko dut*).
+- **Nahi dut...** — *Eu quero...* (mais direto, em alguns contextos pode soar rude; é melhor usar *hartuko dut*).
 
 ## Oferecer e aceitar
 
@@ -96,14 +129,14 @@ Quando alguém te oferece algo:
 - **Nahi duzu kafea?** — Você quer café?
 - **Bai, mesedez.** — Sim, por favor.
 - **Ez, eskerrik asko.** — Não, obrigado.
-- **Beste bat?** — Mais um?
+- **Beste bat?** — Outro?
 - **Bai, beste bat hartuko dut.** — Sim, vou tomar outro.
 
 ## Chamar o garçom
 
-Em euskera, o "ei / olha" típico para chamar a atenção é **Aizu!** (informal e muito usado) ou **Mesedez!** (um pouco mais formal):
+Em basco, o "ei / licença" típico para chamar a atenção é **Aizu!** (informal e muito usado) ou **Mesedez!** (um pouco mais formal):
 
-> *Aizu, ebakia mesedez!* — Ei, um cortado por favor!
+> *Aizu, ebakia mesedez!* — Ei, um café pingado, por favor!
 
 ## Comentar e agradecer
 
@@ -114,7 +147,7 @@ Em euskera, o "ei / olha" típico para chamar a atenção é **Aizu!** (informal
 
 ## Minidiálogo de bar
 
-> — *Kaixo! Zer nahi duzu?* — Oi, o que você quer?
+> — *Kaixo! Zer nahi duzu?* — Olá, o que você quer?
 >
 > — *Kafesnea hartuko dut, mesedez.* — Vou tomar um café com leite, por favor.
 >
@@ -124,4 +157,4 @@ Em euskera, o "ei / olha" típico para chamar a atenção é **Aizu!** (informal
 >
 > — *Ederki!* — Ótimo!
 
-> **Nota cultural:** numa taberna basca, o normal é pedir no balcão, beber em pé e falar alto. *Mesedez* e *eskerrik asko* são básicos, mas não obrigatórios em cada frase — ao contrário do português, não se considera falta de educação um "*ebakia*" seco, desde que o tom seja cordial.
+> **Nota cultural:** em uma taverna basca, o normal é pedir no balcão, beber em pé e falar alto. *Mesedez* e *eskerrik asko* são básicos, mas não obrigatórios em cada frase — ao contrário do espanhol, não se considera falta de educação um "*ebakia*" seco, desde que o tom seja cordial.

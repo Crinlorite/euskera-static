@@ -7,78 +7,115 @@ level: a1
 order: 2
 title: Меню (menua eta platerak)
 estimatedMinutes: 10
-covers: [restaurant-vocab, food-bar, meals]
+covers:
+- restaurant-vocab
+- food-bar
+- meals
 exercises:
-  - id: ex-menu-mc1
-    type: multiple-choice
-    prompt: '"Lehen platera" означает…'
-    options: [Десерт, Первое блюдо, Второе блюдо, Напиток]
-    answer: 1
-    explanation: '*Lehen platera* — первое блюдо. *Lehen* означает "первый".'
-  - id: ex-menu-mc2
-    type: multiple-choice
-    prompt: '"Postrea" по-русски это…'
-    options: [Напиток, Закуска, Десерт, Основное блюдо]
-    answer: 2
-    explanation: '*Postrea* — десерт. Перевод прямой.'
-  - id: ex-menu-fb1
-    type: fill-in-blank
-    prompt: '"Меню дня" = Eguneko ___'
-    answers: [menua]
-    explanation: '*Eguneko menua* — буквально "меню дня" (eguneko = дневное, дня).'
-  - id: ex-menu-fb2
-    type: fill-in-blank
-    prompt: 'Ты заказываешь "салат и рыбу". Официант подтверждает: "Hasteko, entsalada eta bigarrenerako, ___."'
-    answers: [arraina]
-    explanation: '*Arraina* — рыба. *Bigarrenerako* — "на второе (блюдо)".'
-  - id: ex-menu-fc
-    type: flashcards
-    cards:
-      - { eu: menua, es: меню }
-      - { eu: karta, es: меню (карта) }
-      - { eu: 'eguneko menua', es: меню дня }
-      - { eu: 'lehen platera', es: первое блюдо }
-      - { eu: 'bigarren platera', es: второе блюдо }
-      - { eu: postrea, es: десерт }
-      - { eu: edaria, es: напиток }
-      - { eu: entsalada, es: салат }
-      - { eu: zopa, es: суп }
-      - { eu: arraina, es: рыба }
-      - { eu: haragia, es: мясо }
-      - { eu: legatza, es: хек }
-      - { eu: bakailaoa, es: треска }
-      - { eu: oilaskoa, es: курица }
-      - { eu: txuleta, es: отбивная }
-      - { eu: izozkia, es: мороженое }
-      - { eu: 'sagar tarta', es: яблочный пирог }
-      - { eu: flana, es: флан }
-  - id: ex-menu-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'lehen platera', es: первое блюдо }
-      - { eu: 'bigarren platera', es: второе блюдо }
-      - { eu: postrea, es: десерт }
-      - { eu: edaria, es: напиток }
-      - { eu: 'eguneko menua', es: меню дня }
-      - { eu: karta, es: меню (карта) }
+- id: ex-menu-mc1
+  type: multiple-choice
+  prompt: '"Lehen platera" означает…'
+  options:
+  - Postre
+  - Primer plato
+  - Segundo plato
+  - Bebida
+  answer: 1
+  explanation: '*Lehen platera* — первое блюдо. *Lehen* означает «первый».'
+- id: ex-menu-mc2
+  type: multiple-choice
+  prompt: '"Postrea" по-русски — это…'
+  options:
+  - Bebida
+  - Aperitivo
+  - Postre
+  - Plato principal
+  answer: 2
+  explanation: '*Postrea* — десерт. Перевод прямой.'
+- id: ex-menu-fb1
+  type: fill-in-blank
+  prompt: '"Menú del día" = Eguneko ___'
+  answers:
+  - menua
+  explanation: '*Eguneko menua* — буквально «меню дня» (*eguneko* = дня).'
+- id: ex-menu-fb2
+  type: fill-in-blank
+  prompt: 'Вы заказываете «салат и рыбу». Официант подтверждает: "Hasteko, entsalada eta bigarrenerako, ___."'
+  answers:
+  - arraina
+  explanation: '*Arraina* — рыба. *Bigarrenerako* — «на второе (блюдо)».'
+- id: ex-menu-fc
+  type: flashcards
+  cards:
+  - eu: menua
+    es: меню
+  - eu: karta
+    es: меню (а-ля карт)
+  - eu: eguneko menua
+    es: комплексный обед
+  - eu: lehen platera
+    es: первое блюдо
+  - eu: bigarren platera
+    es: второе блюдо
+  - eu: postrea
+    es: десерт
+  - eu: edaria
+    es: напиток
+  - eu: entsalada
+    es: салат
+  - eu: zopa
+    es: суп
+  - eu: arraina
+    es: рыба
+  - eu: haragia
+    es: мясо
+  - eu: legatza
+    es: мерлуза / хек
+  - eu: bakailaoa
+    es: треска
+  - eu: oilaskoa
+    es: курица
+  - eu: txuleta
+    es: стейк на кости
+  - eu: izozkia
+    es: мороженое
+  - eu: sagar tarta
+    es: яблочный пирог
+  - eu: flana
+    es: флан
+- id: ex-menu-mp
+  type: match-pairs
+  pairs:
+  - eu: lehen platera
+    es: primer plato
+  - eu: bigarren platera
+    es: segundo plato
+  - eu: postrea
+    es: postre
+  - eu: edaria
+    es: bebida
+  - eu: eguneko menua
+    es: комплексный обед
+  - eu: karta
+    es: carta
 ---
 
-Умение читать меню открывает двери. В большинстве jatetxeak ты увидишь классическую структуру из трёх частей: первое, второе и десерт.
+Умение читать меню открывает двери. В большинстве *jatetxeak* вы увидите классическую структуру из трёх частей: первое, второе и десерт.
 
-## Два варианта поесть
+## Два варианта заказа
 
-| Эускера | Русский | Когда |
+| На баскском | На русском | Описание |
 |---|---|---|
-| *eguneko menua* | меню дня | фиксированная цена, ограниченный выбор |
-| *karta* | меню (карта) | по карте, выбираешь свободно |
+| *eguneko menua* | комплексный обед | фиксированная цена, ограниченный выбор |
+| *karta* | меню (а-ля карт) | по меню, свободный выбор |
 
 Официант обычно спрашивает:
 
-- **Menua ala karta nahi duzue?** — Вы хотите меню или карту?
+- **Menua ala karta nahi duzue?** — Будете комплексный обед или по меню?
 
 ## Части меню
 
-| Эускера | Русский |
+| На баскском | На русском |
 |---|---|
 | *hasierakoak* | закуски / аперитивы |
 | *lehen platera* | первое блюдо |
@@ -88,12 +125,12 @@ exercises:
 
 > *Lehen* = первый. *Bigarren* = второй. *Postrea* — явное заимствование и используется так же.
 
-## Lehen platera (типичные)
+## Lehen platera (типичные блюда)
 
-Салаты, супы и бобовые встречаются часто:
+Обычно это салаты, супы и бобовые:
 
 - *entsalada mistoa* — смешанный салат
-- *errusiar entsalada* — салат оливье
+- *errusiar entsalada* — русский салат
 - *zopa* — суп
 - *porrusalda* — суп из лука-порея и картофеля
 - *babarrunak* — фасоль
@@ -101,23 +138,23 @@ exercises:
 
 ## Bigarren platera
 
-Здесь разделяют на **arrainak** (рыбу) и **haragiak** (мясо):
+Здесь идёт разделение на **arrainak** (рыба) и **haragiak** (мясо):
 
 | Arrainak | Haragiak |
 |---|---|
-| *legatza* (хек) | *oilaskoa* (курица) |
-| *bakailaoa* (треска) | *txuleta* (отбивная) |
-| *antxoak* (анчоусы) | *xerra* (стейк) |
-| *itsas zapoa* (морской чёрт) | *arkume txuletak* (бараньи отбивные) |
+| *legatza* (мерлуза / хек) | *oilaskoa* (курица) |
+| *bakailaoa* (треска) | *txuleta* (стейк на кости) |
+| *antxoak* (анчоусы) | *xerra* (филе / стейк) |
+| *itsas zapoa* (морской чёрт) | *arkume txuletak* (рёбрышки ягнёнка) |
 
 ## Postrea
 
-Классические десерты в баскских jatetxeak:
+Классические десерты в баскских *jatetxeak*:
 
 - *flana* — флан
 - *izozkia* — мороженое
 - *sagar tarta* — яблочный пирог
-- *mamia* — творожный десерт (куахада)
+- *mamia* — куахада (вид творога)
 - *arroz-esnea* — рисовый пудинг
 - *gazta eta intxaurrak* — сыр с грецкими орехами
 
@@ -130,4 +167,4 @@ exercises:
 - *ura* — вода
 - *kafea* — кофе
 
-> **Культурная заметка:** **arroz-esnea, mamia и gazta-intxaurrak** — три самых "местных" десерта. Если ты видишь их в меню, это хороший знак, что ты в заведении с традиционной кухней.
+> **Культурная заметка:** **arroz-esnea, mamia и gazta-intxaurrak** — это три самых «местных» десерта. Если вы видите их в меню, это хороший знак, что вы попали в место с традиционной кухней.

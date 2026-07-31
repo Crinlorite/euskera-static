@@ -7,112 +7,151 @@ level: a1
 order: 3
 title: Com ei per laguens (izaera)
 estimatedMinutes: 10
-covers: [character, izan-nor]
+covers:
+- character
+- izan-nor
 exercises:
-  - id: ex-iza-mc1
-    type: multiple-choice
-    prompt: '"Alaia" vò díder…'
-    options: [aborrit, alègre, nerviós, carat]
-    answer: 1
-    explanation: '*alaia* ei "alègre". Ei un des adjectius de caractèr mès comuns.'
-  - id: ex-iza-mc2
-    type: multiple-choice
-    prompt: 'Vòs díder "Mon pair ei trabalhador". Quina ei era forma corrècta?'
-    options: [Nire aita lan da, Nire aita langilea da, Nire aita lana du, Nire aita langilea du]
-    answer: 1
-    explanation: '*langilea* (de *lan*, "trabalh") = trabalhador/a. Va damb *izan*.'
-  - id: ex-iza-fb1
-    type: fill-in-blank
-    prompt: 'Maialen oso ___ da. (Maialen ei plan simpatica)'
-    answers: [atsegina, jatorra]
-    explanation: '*atsegina* o *jatorra* servissen entà "simpatica" / "amabla".'
-  - id: ex-iza-fb2
-    type: fill-in-blank
-    prompt: 'Hura isila da, baina ni ___ naiz. (Eth ei carat, mès jo sò charraire/parladís)'
-    answers: [berritsua]
-    explanation: '*berritsua* = charraire, parladís — er opausat de *isila*.'
-  - id: ex-iza-fc
-    type: flashcards
-    cards:
-      - { eu: alaia, es: alègre }
-      - { eu: jatorra, es: 'amabla, simpatica' }
-      - { eu: atsegina, es: 'amable, agradable' }
-      - { eu: ona, es: bon/bona }
-      - { eu: txarra, es: maishant/maishanta }
-      - { eu: isila, es: carat/silenciós }
-      - { eu: berritsua, es: 'parladís, charraire' }
-      - { eu: lasaia, es: tranquil }
-      - { eu: urduria, es: nerviós }
-      - { eu: langilea, es: trabalhador }
-      - { eu: alferra, es: mandrós/peresós }
-      - { eu: ausarta, es: valent }
-      - { eu: beldurtia, es: poruc }
-      - { eu: bihurria, es: trincaire }
-      - { eu: zintzoa, es: 'seriós, aunèst' }
-      - { eu: serioa, es: seriós }
-      - { eu: lotsatia, es: vergonhós }
-      - { eu: bikaina, es: 'excellent, estupend' }
-  - id: ex-iza-mp
-    type: match-pairs
-    pairs:
-      - { eu: alaia, es: alègre }
-      - { eu: isila, es: carat }
-      - { eu: berritsua, es: charraire }
-      - { eu: lasaia, es: tranquil }
-      - { eu: urduria, es: nerviós }
-      - { eu: langilea, es: trabalhador }
-      - { eu: alferra, es: mandrós }
-      - { eu: jatorra, es: simpatic }
+- id: ex-iza-mc1
+  type: multiple-choice
+  prompt: '"Alaia" signifique…'
+  options:
+  - aburrido
+  - alegre
+  - nervioso
+  - callado
+  answer: 1
+  explanation: '*alaia* ei "alegre". Ei un des adjectius de caractèr mès comuns.'
+- id: ex-iza-mc2
+  type: multiple-choice
+  prompt: Vòs díder "Mèn pair ei trabalhador". Quina ei era forma corrècta?
+  options:
+  - Nire aita lan da
+  - Nire aita langilea da
+  - Nire aita lana du
+  - Nire aita langilea du
+  answer: 1
+  explanation: '*langilea* (de *lan*, "trabalh") = trabalhador/a. Va damb *izan*.'
+- id: ex-iza-fb1
+  type: fill-in-blank
+  prompt: Maialen oso ___ da. (Maialen ei fòrça simpatica)
+  answers:
+  - atsegina
+  - jatorra
+  explanation: '*atsegina* o *jatorra* servissen entà "simpatica" / "agradable".'
+- id: ex-iza-fb2
+  type: fill-in-blank
+  prompt: Hura isila da, baina ni ___ naiz. (Eth ei calhat, mès jo soi parlaire)
+  answers:
+  - berritsua
+  explanation: '*berritsua* = parlaire — eth contràri de *isila*.'
+- id: ex-iza-fc
+  type: flashcards
+  cards:
+  - eu: alaia
+    es: alegre
+  - eu: jatorra
+    es: simpatic, agradable
+  - eu: atsegina
+    es: amable, agradable
+  - eu: ona
+    es: bon/bona
+  - eu: txarra
+    es: maishant/maishanta
+  - eu: isila
+    es: calhat/silenciós
+  - eu: berritsua
+    es: parlaire
+  - eu: lasaia
+    es: tranquille
+  - eu: urduria
+    es: nerviós
+  - eu: langilea
+    es: trabalhador
+  - eu: alferra
+    es: mandrós/pigre
+  - eu: ausarta
+    es: valent
+  - eu: beldurtia
+    es: medrós
+  - eu: bihurria
+    es: trast
+  - eu: zintzoa
+    es: formau, onrat
+  - eu: serioa
+    es: seriós
+  - eu: lotsatia
+    es: timid
+  - eu: bikaina
+    es: excellent, estupend
+- id: ex-iza-mp
+  type: match-pairs
+  pairs:
+  - eu: alaia
+    es: alegre
+  - eu: isila
+    es: callado
+  - eu: berritsua
+    es: hablador
+  - eu: lasaia
+    es: tranquilo
+  - eu: urduria
+    es: nervioso
+  - eu: langilea
+    es: trabajador
+  - eu: alferra
+    es: vago
+  - eu: jatorra
+    es: simpatic
 ---
 
-Dempús de descríuer com ei quauquarrés fisicament, çò de naturau ei condar **com ei per laguens**: eth sòn caractèr, era sua manèra d'èster. En euskera aguesti adjectius tanben se bastissen damb **izan** + adjectiu + `-a`, parièr qu'es fisics.
+Après de descríuer com ei ua persona fisicament, çò naturau ei explicar **com ei per laguens**: eth sòn caractèr, era sua manèra d'èster. En basc, aguesti adjectius tanben se bastissen damb **izan** + adjectiu + `-a`, ath madeish que es fisics.
 
-## Vocabulari de basa de caractèr
+## Vocabulari basic de caractèr
 
-Es adjectius vien lèu tostemp per parelhes d'opausats:
+Es adjectius vien quasi tostemp per parelhes d'opausadi:
 
-| Euskera | Occitan | Contrari |
+| Euskera | Aranés | Contràri |
 |---|---|---|
-| *alaia* | alègre | *triste* (triste — mès atencion, aquerò ei estat) |
-| *jatorra* | amable, simpatic | — |
+| *alaia* | alegre | *triste* (triste — mès atencion, açò ei un estat) |
+| *jatorra* | simpatic, agradable | — |
 | *atsegina* | amable, agradable | — |
 | *ona* | bon | *txarra* (maishant) |
-| *isila* | carat | *berritsua* (parladís) |
-| *lasaia* | tranquil | *urduria* (nerviós) |
-| *langilea* | trabalhador | *alferra* (mandrós, peresós) |
-| *ausarta* | valent | *beldurtia* (poruc) |
-| *zintzoa* | seriós, aunèst | *bihurria* (trincaire, revolhós) |
+| *isila* | calhat | *berritsua* (parlaire) |
+| *lasaia* | tranquille | *urduria* (nerviós) |
+| *langilea* | trabalhador | *alferra* (mandrós, pigre) |
+| *ausarta* | valent | *beldurtia* (medrós) |
+| *zintzoa* | formau, onrat | *bihurria* (trast, esverat) |
 | *serioa* | seriós | — |
-| *lotsatia* | vergonhós | — |
+| *lotsatia* | timid | — |
 | *bikaina* | excellent, estupend | — |
 
-> Fòrça d'aguesti adjectius vien d'un substantiu + sufix. Per exemple *langile* vie de *lan* ("trabalh"); *beldurti* vie de *beldur* ("pòur"). Non as de aprénguer era logica intèrna en A1, mès te ajudarà a memorizar.
+> Fòrça d'aguesti adjectius deriven d'un substantiu + sufix. Per exemple, *langile* ven de *lan* ("trabalh"); *beldurti* ven de *beldur* ("paur"). Non cau qu'aprengues era logica intèrna en A1, mès t'ajudarà a memorizar.
 
-## Estructura: parièr qu'es fisics
+## Estructura: ath madeish qu'es fisics
 
-- *Maialen oso **alaia** da.* — Maialen ei plan alègra.
-- *Egoitz **isila eta serioa** da.* — Egoitz ei carat e seriós.
+- *Maialen oso **alaia** da.* — Maialen ei fòrça alegre.
+- *Egoitz **isila eta serioa** da.* — Egoitz ei calhat e seriós.
 - *Gu **langileak** gara.* — Nosati èm trabalhadors.
-- *Haiek **bihurriak** dira.* — Eri son trincaires.
-- *Ni ez naiz oso **lotsatia**.* — Jo non sò plan vergonhosa.
+- *Haiek **bihurriak** dira.* — Eri son trasts.
+- *Ni ez naiz oso **lotsatia**.* — Jo non soi fòrça timida.
 
 ## Encadenar diuèrsi adjectius
 
-Ua manèra plan naturau de presentar a quauquarrés ei lançar 3-4 trèts seguits. Er euskera ac hè damb era conjoncion **eta** ("e") sonque abans deth darrèr:
+Ua manèra fòrça naturau de presentar a ua persona ei díder 3-4 trèits seguits. Eth basc ac hè damb era conjoncion **eta** ("e") sonque abans deth darrèr:
 
 > *Nire arreba alaia, jatorra **eta** langilea da.*
 >
-> Era mia fraia ei alègra, simpatica e trabalhadora.
+> Ma sòr ei alegre, simpatica e trabalhadora.
 
-## "Oso" e "nahiko" entà matizar
+## "Oso" e "nahiko" entà matisar
 
-- **oso** alaia → plan alègra
-- **nahiko** isila → pro carada
-- **ez** oso urduria → non plan nerviosa
-- **ez** zara batere alferra → non ès brica mandrosa (*batere* renfòrce era negacion)
+- **oso** alaia → fòrça alegre
+- **nahiko** isila → pro calhada
+- **ez** oso urduria → non fòrça nerviosa
+- **ez** zara batere alferra → non ès gota mandrosa (*batere* renforce era negacion)
 
 ## Exemple complet
 
 > *Nire ama oso jatorra eta atsegina da. Lasaia da, baina nire aita urduria da. Anaia bihurri samarra da, baina ni zintzoa naiz!*
 >
-> Era mia mair ei plan amabla e agradabla. Ei tranquilla, mès mon pair ei nerviós. Mon frair ei pro trincaire, mès jo sò seriosa!
+> Ma maire ei fòrça simpatica e amable. Ei tranquille, mès mèn pair ei nerviós. Mèn frair ei pro trast, mès jo soi formau!

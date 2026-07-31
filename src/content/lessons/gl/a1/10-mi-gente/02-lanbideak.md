@@ -7,66 +7,105 @@ level: a1
 order: 2
 title: Lanbideak — Profesións (ampliación)
 estimatedMinutes: 12
-covers: [professions, professions-extended]
+covers:
+- professions
+- professions-extended
 exercises:
-  - id: ex-10-02-mp
-    type: match-pairs
-    pairs:
-      - { eu: irakaslea, es: profesor/a }
-      - { eu: ikaslea, es: estudante }
-      - { eu: medikua, es: médico/a }
-      - { eu: erizaina, es: enfermeiro/a }
-      - { eu: sukaldaria, es: cociñeiro/a }
-      - { eu: kazetaria, es: xornalista }
-  - id: ex-10-02-mc1
-    type: multiple-choice
-    prompt: Quen é un "polizia"?
-    options: [Un médico, Un policía, Un xornalista, Un cociñeiro]
-    answer: 1
-    explanation: '"Polizia" = policía. É un préstamo, pero a forma vasca con artigo é "polizia" (sen -a final adicional).'
-  - id: ex-10-02-mc2
-    type: multiple-choice
-    prompt: '"Mekanikaria" traballa con...'
-    options: [enfermos, libros, coches, nenos]
-    answer: 2
-    explanation: '"Mekanikaria" é o mecánico, adoita traballar en talleres con coches.'
-  - id: ex-10-02-fb1
-    type: fill-in-blank
-    prompt: 'Son estudante = Ni ___ naiz.'
-    answers: [ikaslea]
-    explanation: '"Ikaslea" = estudante. Lembra: en euskera "son X" dise "Ni X-a naiz", co substantivo + artigo "-a".'
-  - id: ex-10-02-fc
-    type: flashcards
-    cards:
-      - { eu: lanbidea, es: profesión }
-      - { eu: ikaslea, es: estudante }
-      - { eu: irakaslea, es: profesor/a }
-      - { eu: medikua, es: médico/a }
-      - { eu: erizaina, es: enfermeiro/a }
-      - { eu: sukaldaria, es: cociñeiro/a }
-      - { eu: kazetaria, es: xornalista }
-      - { eu: polizia, es: policía }
-      - { eu: dendaria, es: dependente/a }
-      - { eu: zerbitzaria, es: camareiro/a }
-      - { eu: mekanikaria, es: mecánico/a }
-      - { eu: idazlea, es: escritor/a }
-      - { eu: abokatua, es: avogado/a }
-      - { eu: arkitektoa, es: arquitecto/a }
-      - { eu: igeltseroa, es: albanel }
-      - { eu: nekazaria, es: agricultor/a }
-      - { eu: arrantzalea, es: pescador/a }
-      - { eu: langilea, es: traballador/a }
-      - { eu: jubilatua, es: xubilado/a }
-      - { eu: langabea, es: en paro / desempregado/a }
-      - { eu: 'Zer da zure lanbidea?', es: 'Cal é a túa profesión?' }
-      - { eu: 'Zertan egiten duzu lan?', es: 'En que traballas?' }
+- id: ex-10-02-mp
+  type: match-pairs
+  pairs:
+  - eu: irakaslea
+    es: profesor/a
+  - eu: ikaslea
+    es: estudiante
+  - eu: medikua
+    es: médico/a
+  - eu: erizaina
+    es: enfermero/a
+  - eu: sukaldaria
+    es: cocinero/a
+  - eu: kazetaria
+    es: periodista
+- id: ex-10-02-mc1
+  type: multiple-choice
+  prompt: Quen é un "polizia"?
+  options:
+  - Un médico
+  - Un policía
+  - Un xornalista
+  - Un cociñeiro
+  answer: 1
+  explanation: '"Polizia" = policía. É un préstamo, pero a forma vasca con artigo é "polizia" (sen -a final adicional).'
+- id: ex-10-02-mc2
+  type: multiple-choice
+  prompt: '"Mekanikaria" traballa con...'
+  options:
+  - enfermos
+  - libros
+  - coches
+  - niños
+  answer: 2
+  explanation: '"Mekanikaria" é o mecánico, adoita traballar en talleres con coches.'
+- id: ex-10-02-fb1
+  type: fill-in-blank
+  prompt: Son estudante = Ni ___ naiz.
+  answers:
+  - ikaslea
+  explanation: '"Ikaslea" = estudante. Lembra: en éuscaro "son X" dise "Ni X-a naiz", co substantivo + artigo "-a".'
+- id: ex-10-02-fc
+  type: flashcards
+  cards:
+  - eu: lanbidea
+    es: profesión
+  - eu: ikaslea
+    es: estudante
+  - eu: irakaslea
+    es: profesor/a
+  - eu: medikua
+    es: médico/a
+  - eu: erizaina
+    es: enfermeiro/a
+  - eu: sukaldaria
+    es: cociñeiro/a
+  - eu: kazetaria
+    es: xornalista
+  - eu: polizia
+    es: policía
+  - eu: dendaria
+    es: dependente/a
+  - eu: zerbitzaria
+    es: camareiro/a
+  - eu: mekanikaria
+    es: mecánico/a
+  - eu: idazlea
+    es: escritor/a
+  - eu: abokatua
+    es: avogado/a
+  - eu: arkitektoa
+    es: arquitecto/a
+  - eu: igeltseroa
+    es: albanel
+  - eu: nekazaria
+    es: agricultor/a
+  - eu: arrantzalea
+    es: pescador/a
+  - eu: langilea
+    es: traballador/a
+  - eu: jubilatua
+    es: xubilado/a
+  - eu: langabea
+    es: en paro / desempregado/a
+  - eu: Zer da zure lanbidea?
+    es: Cal é a túa profesión?
+  - eu: Zertan egiten duzu lan?
+    es: En que traballas?
 ---
 
 Esta lección **amplía** as profesións que xa viches na unidade de descrición persoal. Aquí tes un repertorio maior, con foco nas que aparecen en historias e conversas cotiás sobre veciños.
 
 ## Repaso rápido
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *ikaslea* | estudante |
 | *irakaslea* | profesor/a |
@@ -77,7 +116,7 @@ Esta lección **amplía** as profesións que xa viches na unidade de descrición
 
 ## Ampliación
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *erizaina* | enfermeiro/a |
 | *sukaldaria* | cociñeiro/a |
@@ -131,4 +170,4 @@ E para responder sobre un mesmo ou sobre outra persoa:
 - *Ikaslea naiz, baina dendari moduan ere lan egiten dut.* — Son estudante, pero tamén traballo de dependente.
 - *Bera erizaina da, ospitalean lan egiten du.* — É enfermeiro/a, traballa no hospital.
 
-> **Nota:** en euskera, dicir "son enfermeiro" ou "son enfermeira" dise igual: **erizaina naiz**. Non hai marcas de xénero nos substantivos. Aclárasllo co contexto ou co nome da persoa.
+> **Nota:** en éuscaro, dicir "son enfermeiro" ou "son enfermeira" dise igual: **erizaina naiz**. Non hai marcas de xénero nos substantivos. Acláralo co contexto ou co nome da persoa.

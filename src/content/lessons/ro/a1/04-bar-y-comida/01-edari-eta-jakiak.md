@@ -7,86 +7,126 @@ level: a1
 order: 1
 title: Băuturi și mâncăruri de bază
 estimatedMinutes: 10
-covers: [food-bar]
+covers:
+- food-bar
 exercises:
-  - id: ex-edj-mc1
-    type: multiple-choice
-    prompt: '"Kafe hutsa" înseamnă…'
-    options: [cafea cu lapte, cafea scurtă, cafea simplă, cafea decofeinizată]
-    answer: 2
-    explanation: '*hutsa* vine de la *huts* ("gol", "pur"): cafea fără nimic, cafea simplă.'
-  - id: ex-edj-mc2
-    type: multiple-choice
-    prompt: 'Cum se spune "apă" în euskera?'
-    options: [ardo, ura, esnea, garagardoa]
-    answer: 1
-    explanation: '*ura* (cu articol) sau *ur* (fără el).'
-  - id: ex-edj-fb1
-    type: fill-in-blank
-    prompt: 'Cidru (tipic bascesc) = ___.'
-    answers: [sagardoa, sagardo]
-    explanation: '*sagardoa* vine de la *sagar* ("măr") + *ardo* ("vin"): vin de mere.'
-  - id: ex-edj-fb2
-    type: fill-in-blank
-    prompt: 'Bere = ___.'
-    answers: [garagardoa, garagardo]
-    explanation: '*garagardoa* vine de la *garagar* ("orz") + *ardo*: literal "vin de orz".'
-  - id: ex-edj-fc
-    type: flashcards
-    cards:
-      - { eu: kafea, es: cafeaua }
-      - { eu: kafe hutsa, es: cafea simplă }
-      - { eu: kafesnea, es: cafea cu lapte }
-      - { eu: kafe ebakia, es: cafea scurtă }
-      - { eu: kafe deskafeinatua, es: cafea decofeinizată }
-      - { eu: infusioa, es: infuzie }
-      - { eu: tea, es: ceai }
-      - { eu: ura, es: apă }
-      - { eu: esnea, es: lapte }
-      - { eu: zumoa, es: suc }
-      - { eu: ardo gorria, es: vin roșu }
-      - { eu: ardo zuria, es: vin alb }
-      - { eu: garagardoa, es: bere }
-      - { eu: zuritoa, es: bere mică (halbă mică) }
-      - { eu: sagardoa, es: cidru }
-      - { eu: ogia, es: pâine }
-      - { eu: gazta, es: brânză }
-      - { eu: urdaiazpikoa, es: șuncă }
-      - { eu: tortilla, es: omletă }
-  - id: ex-edj-mp
-    type: match-pairs
-    pairs:
-      - { eu: kafea, es: cafea }
-      - { eu: kafesnea, es: cafea cu lapte }
-      - { eu: ura, es: apă }
-      - { eu: ardo gorria, es: vin roșu }
-      - { eu: garagardoa, es: bere }
-      - { eu: sagardoa, es: cidru }
-      - { eu: zumoa, es: suc }
-      - { eu: tea, es: ceai }
+- id: ex-edj-mc1
+  type: multiple-choice
+  prompt: '"Kafe hutsa" înseamnă…'
+  options:
+  - cafea cu lapte
+  - cafea scurtă
+  - cafea simplă
+  - cafea decofeinizată
+  answer: 2
+  explanation: '*hutsa* provine din *huts* ("gol", "pur"): cafea fără nimic, cafea simplă.'
+- id: ex-edj-mc2
+  type: multiple-choice
+  prompt: Cum se spune "apă" în bască?
+  options:
+  - ardo
+  - ura
+  - esnea
+  - garagardoa
+  answer: 1
+  explanation: '*ura* (cu articol) sau *ur* (fără).'
+- id: ex-edj-fb1
+  type: fill-in-blank
+  prompt: Cidru (tipic basc) = ___.
+  answers:
+  - sagardoa
+  - sagardo
+  explanation: '*sagardoa* provine din *sagar* ("măr") + *ardo* ("vin"): vin de mere.'
+- id: ex-edj-fb2
+  type: fill-in-blank
+  prompt: Bere = ___.
+  answers:
+  - garagardoa
+  - garagardo
+  explanation: '*garagardoa* provine din *garagar* ("orz") + *ardo*: literal "vin de orz".'
+- id: ex-edj-fc
+  type: flashcards
+  cards:
+  - eu: kafea
+    es: cafeaua
+  - eu: kafe hutsa
+    es: cafea simplă
+  - eu: kafesnea
+    es: cafea cu lapte
+  - eu: kafe ebakia
+    es: cafea scurtă
+  - eu: kafe deskafeinatua
+    es: cafea decofeinizată
+  - eu: infusioa
+    es: infuzie
+  - eu: tea
+    es: ceai
+  - eu: ura
+    es: apă
+  - eu: esnea
+    es: lapte
+  - eu: zumoa
+    es: suc
+  - eu: ardo gorria
+    es: vin roșu
+  - eu: ardo zuria
+    es: vin alb
+  - eu: garagardoa
+    es: bere
+  - eu: zuritoa
+    es: bere mică
+  - eu: sagardoa
+    es: cidru
+  - eu: ogia
+    es: pâine
+  - eu: gazta
+    es: brânză
+  - eu: urdaiazpikoa
+    es: șuncă
+  - eu: tortilla
+    es: omletă
+- id: ex-edj-mp
+  type: match-pairs
+  pairs:
+  - eu: kafea
+    es: cafea
+  - eu: kafesnea
+    es: cafea cu lapte
+  - eu: ura
+    es: agua
+  - eu: ardo gorria
+    es: vino tinto
+  - eu: garagardoa
+    es: cerveza
+  - eu: sagardoa
+    es: sidra
+  - eu: zumoa
+    es: zumo
+  - eu: tea
+    es: ceai
 ---
 
-O bună parte din viața socială din Euskal Herria se petrece în **taberna** (barul). Cunoașterea băuturilor și mâncărurilor de bază în euskera îți va deschide imediat uși: un grup de prieteni, o vizită într-un sat nou, un *poteo*. Începem cu vocabularul.
+O bună parte a vieții sociale din Euskal Herria se petrece la **taberna** (bar). Cunoașterea băuturilor și mâncărurilor de bază în limba bască îți va deschide uși imediat: o gașcă de prieteni, o vizită într-un sat nou, un *poteo*. Începem cu vocabularul.
 
-## Cafeaua și variantele ei
+## Cafeaua și variantele sale
 
 Cafeaua este probabil ceea ce vei comanda cel mai des. Are mai multe forme:
 
-| Euskera | Română |
+| Bască | Română |
 |---|---|
 | *kafea* | cafeaua (generic) |
 | *kafe hutsa* | cafea simplă (literal: "cafea pură/goală") |
-| *kafesnea* | cafea cu lapte (de la *kafe* + *esne*) |
+| *kafesnea* | cafea cu lapte (din *kafe* + *esne*) |
 | *kafe ebakia* | cafea scurtă (*ebaki* = "tăiat") |
 | *kafe deskafeinatua* | cafea decofeinizată |
 | *infusioa* | infuzie |
 | *tea* | ceai |
 
-> *Kafesne* înseamnă literal "cafea-lapte". Euskera formează multe cuvinte compuse în acest fel, fără cratimă și cu cuvântul principal la sfârșit.
+> *Kafesne* înseamnă literal "cafea-lapte". Limba bască formează multe cuvinte compuse astfel, fără cratimă și cu cuvântul principal la final.
 
 ## Alte băuturi
 
-| Euskera | Română |
+| Bască | Română |
 |---|---|
 | *ura* | apa |
 | *zumoa* | suc |
@@ -95,18 +135,18 @@ Cafeaua este probabil ceea ce vei comanda cel mai des. Are mai multe forme:
 | *ardo gorria* | vin roșu |
 | *ardo zuria* | vin alb |
 | *garagardoa* | bere |
-| *zuritoa* | halbă mică (bere mică, tipică) |
+| *zuritoa* | bere mică (tipică) |
 | *sagardoa* | cidru |
-| *txakolina* | txakoli (vin alb bascesc) |
+| *txakolina* | txakoli (vin alb basc) |
 | *patxarana* | pacharán |
 
-> Trei cuvinte curioase: **sagardo** (cidru) = *sagar* (măr) + *ardo* (vin); **garagardo** (bere) = *garagar* (orz) + *ardo*; **txakolina** este un vin alb tânăr și ușor, marcă a casei în Euskadi.
+> Trei cuvinte curioase: **sagardo** (cidru) = *sagar* (măr) + *ardo* (vin); **garagardo** (bere) = *garagar* (orz) + *ardo*; **txakolina** este un vin alb tânăr și ușor, marcă înregistrată în Euskadi.
 
 ## Mâncăruri de bază la bar
 
-Pentru a însoți ceea ce bei:
+Pentru a acompania ceea ce bei:
 
-| Euskera | Română |
+| Bască | Română |
 |---|---|
 | *ogia* | pâinea |
 | *gazta* | brânză |
@@ -118,14 +158,14 @@ Pentru a însoți ceea ce bei:
 
 ## Articolul `-a`
 
-Aproape toate aceste cuvinte poartă **`-a`** la sfârșit când apar "neutre" într-o frază: este articolul "cel / cea".
+Aproape toate aceste cuvinte poartă **`-a`** la final când apar în formă "neutră" într-o propoziție: este articolul hotărât.
 
 - *Ardoa gustatzen zait.* — Îmi place vinul.
 - *Ura nahi dut.* — Vreau apă.
 
-Când ceri "unul", dispare `-a` și intră **bat** ("unul/una"):
+Când ceri "unul/una", `-a` dispare și apare **bat** ("un/o"):
 
-- *Kafe **bat**, mesedez.* — O cafea, te rog.
+- *Kafe **bat**, mesedez.* — O cafea, vă rog.
 - *Garagardo **bat**.* — O bere.
 
-> În lecția 3 vei vedea asta în detaliu. Deocamdată memorează formele cu `-a` ca să le recunoști pe lista de băuturi a barului.
+> În lecția 3 vei vedea acest lucru în detaliu. Deocamdată, memorează formele cu `-a` pentru a le recunoaște în meniul barului.

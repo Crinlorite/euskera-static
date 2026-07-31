@@ -7,93 +7,117 @@ level: a1
 order: 4
 title: Rachunek (kontua eskatzen)
 estimatedMinutes: 9
-covers: [bill-payment, courtesy]
+covers:
+- bill-payment
+- courtesy
 exercises:
-  - id: ex-kont-mc1
-    type: multiple-choice
-    prompt: 'Jak prosisz o rachunek?'
-    options: ['Eskerrik asko', 'Kontua, mesedez', 'Zer da hau?', 'Bukatu dut']
-    answer: 1
-    explanation: '*Kontua, mesedez* to uniwersalny zwrot, którym prosi się o rachunek.'
-  - id: ex-kont-mc2
-    type: multiple-choice
-    prompt: '"Kobratuko al didazu?" znaczy…'
-    options: ['Ile to kosztuje?', 'Policzysz mi?', 'Masz resztę?', 'Chcesz więcej?']
-    answer: 1
-    explanation: '*Kobratu* — pobierać należność; *al* — partykuła pytajna; *didazu* — "(ty) mnie/do mnie". Forma grzecznościowa.'
-  - id: ex-kont-fb1
-    type: fill-in-blank
-    prompt: '"Czy mogę zapłacić kartą?" = Txartelaz ___ dezaket?'
-    answers: [ordain]
-    explanation: '*Ordaindu* — płacić. *Ordain dezaket?* — "czy mogę zapłacić?".'
-  - id: ex-kont-fb2
-    type: fill-in-blank
-    prompt: '"Nie mam reszty" = Ez ___ kanbiorik.'
-    answers: [daukat]
-    explanation: '*Daukat* — "mam" (od *eduki*). Z przeczeniem + dopełnieniem nieokreślonym → *kanbio**rik***.'
-  - id: ex-kont-fc
-    type: flashcards
-    cards:
-      - { eu: kontua, es: rachunek }
-      - { eu: 'Kontua, mesedez', es: 'Rachunek, proszę' }
-      - { eu: 'Atera kontua, mesedez', es: 'Proszę przygotować rachunek' }
-      - { eu: 'Kobratuko al didazu?', es: 'Policzysz mi?' }
-      - { eu: 'Zenbat da dena?', es: 'Ile wynosi w sumie?' }
-      - { eu: 'Txartelaz ordain dezaket?', es: 'Czy mogę zapłacić kartą?' }
-      - { eu: dirua, es: pieniądze }
-      - { eu: txartela, es: karta }
-      - { eu: kanbioa, es: reszta }
-      - { eu: 'Ez daukat kanbiorik', es: Nie mam reszty }
-      - { eu: 'Tori!', es: 'Proszę!' }
-      - { eu: 'Eskerrik asko, oso ondo zegoen', es: 'Bardzo dziękuję, było bardzo dobre' }
+- id: ex-kont-mc1
+  type: multiple-choice
+  prompt: Jak poprosić o rachunek?
+  options:
+  - Eskerrik asko
+  - Kontua, mesedez
+  - Zer da hau?
+  - Bukatu dut
+  answer: 1
+  explanation: '*Kontua, mesedez* to uniwersalna formuła, by poprosić o rachunek.'
+- id: ex-kont-mc2
+  type: multiple-choice
+  prompt: '"Kobratuko al didazu?" oznacza…'
+  options:
+  - Ile to kosztuje?
+  - Skasujesz mnie?
+  - Masz resztę?
+  - Chcesz więcej?
+  answer: 1
+  explanation: '*Kobratu* — kasować/pobierać opłatę; *al* — partykuła pytająca; *didazu* — „(ty) mnie/mi”. Forma grzecznościowa.'
+- id: ex-kont-fb1
+  type: fill-in-blank
+  prompt: '"Czy mogę zapłacić kartą?" = Txartelaz ___ dezaket?'
+  answers:
+  - ordain
+  explanation: '*Ordaindu* — płacić. *Ordain dezaket?* — „czy mogę zapłacić?”.'
+- id: ex-kont-fb2
+  type: fill-in-blank
+  prompt: '"Nie mam reszty" = Ez ___ kanbiorik.'
+  answers:
+  - daukat
+  explanation: '*Daukat* — „mam” (od *eduki*). Z przeczeniem + dopełnienie w formie nieokreślonej → *kanbio**rik***.'
+- id: ex-kont-fc
+  type: flashcards
+  cards:
+  - eu: kontua
+    es: rachunek
+  - eu: Kontua, mesedez
+    es: Rachunek, proszę
+  - eu: Atera kontua, mesedez
+    es: Poproszę rachunek
+  - eu: Kobratuko al didazu?
+    es: Skasujesz mnie?
+  - eu: Zenbat da dena?
+    es: Ile za wszystko?
+  - eu: Txartelaz ordain dezaket?
+    es: Czy mogę zapłacić kartą?
+  - eu: dirua
+    es: pieniądze
+  - eu: txartela
+    es: karta
+  - eu: kanbioa
+    es: reszta (z płatności)
+  - eu: Ez daukat kanbiorik
+    es: Nie mam reszty
+  - eu: Tori!
+    es: Proszę!
+  - eu: Eskerrik asko, oso ondo zegoen
+    es: Dziękuję bardzo, było bardzo dobre
 ---
 
-Zakończenie posiłku ma swój mały scenariusz: poprosić o rachunek, zapłacić i pożegnać się.
+Zakończenie posiłku ma swój mały scenariusz: prośba o rachunek, płacenie i pożegnanie.
 
-## Prosić o rachunek
+## Prośba o rachunek
 
 Trzy sposoby, wszystkie poprawne:
 
-| Euskera | Polski | Ton |
+| Język baskijski | Polski | Ton |
 |---|---|---|
 | **Kontua, mesedez.** | Rachunek, proszę. | neutralny, jasny |
-| **Atera kontua, mesedez.** | Proszę przygotować rachunek. | neutralny |
-| **Kobratuko al didazu?** | Policzysz mi? | grzeczny (czas przyszły) |
+| **Atera kontua, mesedez.** | Poproszę rachunek. | neutralny |
+| **Kobratuko al didazu?** | Skasujesz mnie? | uprzejmy (czas przyszły) |
 
-`Kobratuko al didazu?` słychać bardzo często w barach i nieformalnych restauracjach. *Al* to partykuła pytajna, a *didazu* znaczy "(ty) mnie" (NOR-NORI-NORK).
+`Kobratuko al didazu?` słyszy się bardzo często w barach i nieformalnych restauracjach. *Al* to partykuła pytająca, a *didazu* oznacza „(ty) mi” (NOR-NORI-NORK).
 
-## Cena całkowita
+## Całkowita kwota
 
-- **Zenbat da dena?** — Ile wynosi w sumie?
+- **Zenbat da dena?** — Ile za wszystko?
 - **Hamabost euro eta hogei zentimo.** — Piętnaście euro i dwadzieścia centów.
 
-## Płacić
+## Płacenie
 
-| Euskera | Polski |
+| Język baskijski | Polski |
 |---|---|
 | *Txartelaz ordain dezaket?* | Czy mogę zapłacić kartą? |
 | *Eskudirutan ordainduko dut.* | Zapłacę gotówką. |
-| *Tori!* | Proszę! (przy podawaniu pieniędzy) |
+| *Tori!* | Proszę! (podając pieniądze) |
 | *Hemen daukazu kanbioa.* | Oto reszta. |
 | *Ez daukat kanbiorik.* | Nie mam reszty. |
 
-> *Eskudiru* = "pieniądze pod ręką" → gotówka. *Txartel* = karta. *Kanbio* to zapożyczenie i używa się go całkiem normalnie.
+> *Eskudiru* = „pieniądze pod ręką” → gotówka. *Txartel* = karta. *Kanbio* to zapożyczenie i jest używane normalnie.
 
 ## Napiwki
 
-W Euskal Herria **napiwek nie jest obowiązkowy**. Zwyczajowo:
+W Kraju Basków **napiwek nie jest obowiązkowy**. Zazwyczaj:
 
-- W barach i przy nieformalnych posiłkach: zostawić drobne z reszty (od 50 centów do 1 euro).
-- W restauracjach z wyższym rachunkiem: 1-2 euro od osoby, jeśli ci smakowało.
-- Nigdy nie trzeba dawać typowych 10% jak w innych krajach.
+- W barach i przy nieformalnych posiłkach: zostawienie drobnych z reszty (od 50 centów do 1 euro).
+- W restauracjach przy wyższym rachunku: 1-2 euro na osobę, jeśli ci smakowało.
+- Nigdy nie jest wymagane typowe 10% w stylu innych krajów.
 
-## Pożegnać się
+## Pożegnanie
 
-- **Eskerrik asko, oso ondo zegoen!** — Bardzo dziękuję, było bardzo dobre!
+- **Eskerrik asko, oso ondo zegoen!** — Dziękuję bardzo, było bardzo dobre!
 - **Zuri! Agur!** — Tobie! Do widzenia!
 - **Hurrengora arte!** — Do następnego razu!
 
-## Pełna mini-sekwencja
+## Kompletna mini-scenka
 
 > — *Aizu, kobratuko al didazu, mesedez?*
 >
@@ -107,4 +131,4 @@ W Euskal Herria **napiwek nie jest obowiązkowy**. Zwyczajowo:
 >
 > — *Zuri! Agur!*
 
-> **Notka kulturowa:** zostawienie monety z kawy jako drobny napiwek dla kelnera to dość rozpowszechniony gest w baskijskich barach, zwłaszcza jeśli zostajesz na chwilę, by pogawędzić. Nikt tego nie oczekuje, ale jest mile widziane.
+> **Nota kulturowa:** zostawienie monety o wartości kawy jako małego napiwku dla kelnera jest dość rozpowszechnionym gestem w baskijskich barach, zwłaszcza jeśli zostajesz na dłuższą pogawędkę. Nie jest to oczekiwane, ale mile widziane.

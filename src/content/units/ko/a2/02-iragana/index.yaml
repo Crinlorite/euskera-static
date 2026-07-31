@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — 과거 이야기하기
+order: 2
+description: 완료 과거(iragan burutua)와 불완료 과거(iragan ez burutua). 어제, 몇 년 전 또는 과거에 하곤 했던 일에 대해 이야기하는 방법을 배워 보세요.
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

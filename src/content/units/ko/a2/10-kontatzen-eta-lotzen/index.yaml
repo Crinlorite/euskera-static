@@ -1,0 +1,13 @@
+id: a2-kontatzen
+code: 10-kontatzen-eta-lotzen
+level: a2
+title: Kontatzen eta lotzen — 이야기하기, 연결하기, 복습하기
+order: 10
+description: 전기, 간접 의문문, 시간절과 목적절, 그리고 레벨 통합 복습.
+estimatedMinutes: 65
+covers:
+- a2-biography
+- a2-indirect-questions
+- a2-time-clauses
+- a2-purpose-clauses
+- a2-exam-review

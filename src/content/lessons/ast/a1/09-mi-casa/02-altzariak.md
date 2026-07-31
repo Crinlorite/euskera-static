@@ -7,61 +7,99 @@ level: a1
 order: 2
 title: Muebles y oxetos de la casa
 estimatedMinutes: 12
-covers: [furniture, home-rooms]
+covers:
+- furniture
+- home-rooms
 exercises:
-  - id: ex-09-02-mp
-    type: match-pairs
-    pairs:
-      - { eu: mahaia, es: mesa }
-      - { eu: aulkia, es: siella }
-      - { eu: ohea, es: cama }
-      - { eu: armairua, es: armariu }
-      - { eu: sofa, es: sofá }
-      - { eu: telebista, es: televisión }
-      - { eu: hozkailua, es: neveru }
-  - id: ex-09-02-mc1
-    type: multiple-choice
-    prompt: ¿En qué cuartu ta'l "hozkailua"?
-    options: [logelan, sukaldean, komunean, egongelan]
-    answer: 1
-    explanation: '"Hozkailua" (neveru) ta siempre na cocina (sukaldean).'
-  - id: ex-09-02-mc2
-    type: multiple-choice
-    prompt: '"Gau-mahaia" significa…'
-    options: [mesa de comedor, mesa de trabayu, mesina de nueche, mesa baxa]
-    answer: 2
-    explanation: '"Gau" = nueche, "mahaia" = mesa. Lliteralmente "mesa de nueche".'
-  - id: ex-09-02-fb1
-    type: fill-in-blank
-    prompt: 'Tengo dos cames en casa = Bi ohe ___ etxean.'
-    answers: [ditut]
-    explanation: '"Ditut" = "yo tengo (delles coses)" — verbu "ukan" con oxetu plural.'
-  - id: ex-09-02-fc
-    type: flashcards
-    cards:
-      - { eu: altzaria, es: mueble }
-      - { eu: mahaia, es: mesa }
-      - { eu: aulkia, es: siella }
-      - { eu: besaulkia, es: sillón / butaca }
-      - { eu: sofa, es: sofá }
-      - { eu: ohea, es: cama }
-      - { eu: gau-mahaia, es: mesina de nueche }
-      - { eu: armairua, es: armariu }
-      - { eu: apalategia, es: estantería }
-      - { eu: lanpara, es: llámpara }
-      - { eu: kuxina, es: coxín }
-      - { eu: telebista, es: televisión }
-      - { eu: ordenagailua, es: ordenador }
-      - { eu: hozkailua, es: neveru }
-      - { eu: labea, es: fornu }
-      - { eu: mikrouhina, es: microondes }
-      - { eu: garbigailua, es: llavadora }
-      - { eu: ispilua, es: espeyu }
-      - { eu: dutxa, es: ducha }
-      - { eu: bainuontzia, es: bañera }
+- id: ex-09-02-mp
+  type: match-pairs
+  pairs:
+  - eu: mahaia
+    es: mesa
+  - eu: aulkia
+    es: silla
+  - eu: ohea
+    es: cama
+  - eu: armairua
+    es: armario
+  - eu: sofa
+    es: sofá
+  - eu: telebista
+    es: televisión
+  - eu: hozkailua
+    es: nevera
+- id: ex-09-02-mc1
+  type: multiple-choice
+  prompt: ¿En qué cuartu ta'l "hozkailua"?
+  options:
+  - logelan
+  - sukaldean
+  - komunean
+  - egongelan
+  answer: 1
+  explanation: '"Hozkailua" (nevera) ta siempre na cocina (sukaldean).'
+- id: ex-09-02-mc2
+  type: multiple-choice
+  prompt: '"Gau-mahaia" significa…'
+  options:
+  - mesa de comedor
+  - mesa de trabayu
+  - mesina de nueche
+  - mesa baxa
+  answer: 2
+  explanation: '"Gau" = nueche, "mahaia" = mesa. Lliteralmente "mesa de nueche".'
+- id: ex-09-02-fb1
+  type: fill-in-blank
+  prompt: Tengo dos cames en casa = Bi ohe ___ etxean.
+  answers:
+  - ditut
+  explanation: '"Ditut" = "yo tengo (delles coses)" — verbu "ukan" con oxetu plural.'
+- id: ex-09-02-fc
+  type: flashcards
+  cards:
+  - eu: altzaria
+    es: mueble
+  - eu: mahaia
+    es: mesa
+  - eu: aulkia
+    es: siella
+  - eu: besaulkia
+    es: sillón / butaca
+  - eu: sofa
+    es: sofá
+  - eu: ohea
+    es: cama
+  - eu: gau-mahaia
+    es: mesina de nueche
+  - eu: armairua
+    es: armariu
+  - eu: apalategia
+    es: estantería
+  - eu: lanpara
+    es: llámpara
+  - eu: kuxina
+    es: coxín
+  - eu: telebista
+    es: televisión
+  - eu: ordenagailua
+    es: ordenador
+  - eu: hozkailua
+    es: nevera
+  - eu: labea
+    es: fornu
+  - eu: mikrouhina
+    es: microondes
+  - eu: garbigailua
+    es: llavadora
+  - eu: ispilua
+    es: espeyu
+  - eu: dutxa
+    es: ducha
+  - eu: bainuontzia
+    es: bañera
 ---
 
-Cada cuartu tien el so mobiliariu. La palabra xeneral pa "mueble" ye **altzaria** (en plural *altzariak*). Vamos recorrer la casa por gelas.
+Cada cuartu tien el so mobiliariu. La pallabra xeneral pa "mueble" ye **altzaria** (en plural *altzariak*). Vamos a percorrer la casa por gelas.
 
 ## Egongelan — Na sala
 
@@ -91,7 +129,7 @@ Cada cuartu tien el so mobiliariu. La palabra xeneral pa "mueble" ye **altzaria*
 
 | Euskera | Asturianu |
 |---|---|
-| *hozkailua* | neveru |
+| *hozkailua* | nevera |
 | *labea* | fornu |
 | *mikrouhina* | microondes |
 | *garbigailua* | llavadora |
@@ -109,14 +147,14 @@ Cada cuartu tien el so mobiliariu. La palabra xeneral pa "mueble" ye **altzaria*
 | *konketa* | llavamanos |
 | *ispilua* | espeyu |
 | *eskuoihala* | toalla |
-| *komuneko papera* | papel hixiénicu |
+| *komuneko papera* | papel hixénicu |
 
-## Cómo amestalo nuna frase
+## Cómo combinalo nuna frase
 
 Recuerda lo que yá sabes de **ukan** (tener) y aplícalo:
 
-- *Sukaldean hozkailu bat dut.* — Na cocina tengo una neveru.
+- *Sukaldean hozkailu bat dut.* — Na cocina tengo una nevera.
 - *Egongelan bi besaulki ditugu.* — Na sala tenemos dos sillones.
 - *Logelan ez dut posterrik.* — Nel cuartu nun tengo pósters. *(negación con `-rik`)*
 
-> **Nota:** *garbigailua* (llavadora) y *ontzi-garbigailua* (llavavaxíes) comparten la raíz *garbi-* (llimpiar). Ye un bon exemplu de cómo l'euskera constrúi palabres compuestes mui tresparentes.
+> **Nota:** *garbigailua* (llavadora) y *ontzi-garbigailua* (llavavaxíes) comparten el raigañu *garbi-* (llimpiar). Ye un bon exemplu de cómo l'euskera constrúi pallabres compuestes mui tresparentes.

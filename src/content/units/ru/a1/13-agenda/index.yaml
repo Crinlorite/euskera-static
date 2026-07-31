@@ -1,14 +1,14 @@
 id: a1-week-plan
 code: 13-agenda
 level: a1
-title: "Недельное расписание"
+title: Расписание на неделю
 order: 13
-description: Планирование недели, разговоры о встречах и обязательствах, а также использование ближайшего будущего времени.
+description: Планировать неделю, говорить о встречах и планах и использовать ближайшее будущее время.
 estimatedMinutes: 55
 covers:
-  - days-of-week
-  - time-expressions
-  - time-when
-  - weekly-planning
-  - future-koGo
-  - common-verbs
+- days-of-week
+- time-expressions
+- time-when
+- weekly-planning
+- future-koGo
+- common-verbs

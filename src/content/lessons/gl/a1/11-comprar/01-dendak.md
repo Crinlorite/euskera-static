@@ -7,58 +7,90 @@ level: a1
 order: 1
 title: Tipos de tenda (dendak)
 estimatedMinutes: 10
-covers: [shops, places-town]
+covers:
+- shops
+- places-town
 exercises:
-  - id: ex-dendak-mp
-    type: match-pairs
-    pairs:
-      - { eu: harategia, es: carnicería }
-      - { eu: okindegia, es: panadaría }
-      - { eu: arrandegia, es: peixaría }
-      - { eu: fruta-denda, es: froitaría }
-      - { eu: supermerkatua, es: supermercado }
-      - { eu: kutxazain automatikoa, es: caixeiro automático }
-  - id: ex-dendak-mc1
-    type: multiple-choice
-    prompt: 'Onde compras o pan?'
-    options: [Harategian, Okindegian, Arrandegian, Fruta-dendan]
-    answer: 1
-    explanation: '"Okindegia" vén de *ogi* (pan); o sufixo *-degi* significa "lugar onde hai…".'
-  - id: ex-dendak-mc2
-    type: multiple-choice
-    prompt: 'Queres comprar legatza (pescada). A que tenda vas?'
-    options: [Harategira, Okindegira, Arrandegira, Fruta-dendara]
-    answer: 2
-    explanation: '*Arrandegia* vén de *arrain* (peixe). O sufixo *-ra* indica destino: "vou á peixaría".'
-  - id: ex-dendak-fb1
-    type: fill-in-blank
-    prompt: 'A carnicería = ___ (palabra completa, en singular con artigo).'
-    answers: [harategia, Harategia]
-    explanation: 'De *haragi* (carne) + *-tegi* (lugar, variante de *-degi*) + *-a* (artigo).'
-  - id: ex-dendak-fc
-    type: flashcards
-    cards:
-      - { eu: denda, es: tenda (xeral) }
-      - { eu: harategia, es: carnicería }
-      - { eu: okindegia, es: panadaría }
-      - { eu: arrandegia, es: peixaría }
-      - { eu: fruta-denda, es: froitaría }
-      - { eu: supermerkatua, es: supermercado }
-      - { eu: hipermerkatua, es: hipermercado }
-      - { eu: azoka, es: mercado }
-      - { eu: plaza, es: 'praza (mercado ao aire libre)' }
-      - { eu: kutxazain automatikoa, es: caixeiro automático }
-      - { eu: banketxea, es: banco }
-      - { eu: postetxea, es: oficina de correos }
-      - { eu: tabako-denda, es: estanco }
-      - { eu: liburu-denda, es: libraría }
+- id: ex-dendak-mp
+  type: match-pairs
+  pairs:
+  - eu: harategia
+    es: carnicería
+  - eu: okindegia
+    es: panadaría
+  - eu: arrandegia
+    es: peixaría
+  - eu: fruta-denda
+    es: froitaría
+  - eu: supermerkatua
+    es: supermercado
+  - eu: kutxazain automatikoa
+    es: caixeiro automático
+- id: ex-dendak-mc1
+  type: multiple-choice
+  prompt: Onde compras o pan?
+  options:
+  - Harategian
+  - Okindegian
+  - Arrandegian
+  - Fruta-dendan
+  answer: 1
+  explanation: '"Okindegia" vén de *ogi* (pan); o sufixo *-degi* significa "lugar onde hai…".'
+- id: ex-dendak-mc2
+  type: multiple-choice
+  prompt: Queres comprar legatza (pescada). A que tenda vas?
+  options:
+  - Harategira
+  - Okindegira
+  - Arrandegira
+  - Fruta-dendara
+  answer: 2
+  explanation: '*Arrandegia* vén de *arrain* (peixe). O sufixo *-ra* indica destino: "vou á peixaría".'
+- id: ex-dendak-fb1
+  type: fill-in-blank
+  prompt: A carnicería = ___ (palabra completa, en singular con artigo).
+  answers:
+  - harategia
+  - Harategia
+  explanation: De *haragi* (carne) + *-tegi* (lugar, variante de *-degi*) + *-a* (artigo).
+- id: ex-dendak-fc
+  type: flashcards
+  cards:
+  - eu: denda
+    es: tenda (xeral)
+  - eu: harategia
+    es: carnicería
+  - eu: okindegia
+    es: panadaría
+  - eu: arrandegia
+    es: peixaría
+  - eu: fruta-denda
+    es: froitaría
+  - eu: supermerkatua
+    es: supermercado
+  - eu: hipermerkatua
+    es: hipermercado
+  - eu: azoka
+    es: mercado
+  - eu: plaza
+    es: praza (mercado ao aire libre)
+  - eu: kutxazain automatikoa
+    es: caixeiro automático
+  - eu: banketxea
+    es: banco
+  - eu: postetxea
+    es: oficina de correos
+  - eu: tabako-denda
+    es: estanco
+  - eu: liburu-denda
+    es: libraría
 ---
 
 Cando vas facer a compra en Euskal Herria, cada produto adoita ter a súa tenda especializada, sobre todo en vilas e barrios. Aprender os nomes axúdache a moverte e tamén a entender os carteis.
 
 ## Tendas de comida
 
-| Euskera | Galego | O que se vende |
+| Éuscaro | Galego | O que se vende |
 |---|---|---|
 | *harategia* | carnicería | haragia (carne) |
 | *okindegia* | panadaría | ogia (pan) |
@@ -81,7 +113,7 @@ Moitos nomes de tenda rematan en **-degi**, un sufixo antigo que significa "luga
 
 ## Outros sitios útiles
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *kutxazain automatikoa* | caixeiro automático |
 | *banketxea* | banco |

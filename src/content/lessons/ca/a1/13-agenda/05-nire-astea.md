@@ -7,62 +7,94 @@ level: a1
 order: 5
 title: La meva setmana (lliçó integradora)
 estimatedMinutes: 12
-covers: [weekly-planning, future-koGo, time-when, days-of-week, common-verbs]
+covers:
+- weekly-planning
+- future-koGo
+- time-when
+- days-of-week
+- common-verbs
 exercises:
-  - id: ex-nast-mc1
-    type: multiple-choice
-    prompt: '"Demà aniré al gimnàs" =…'
-    options: ['Bihar kiroldegira joan naiz', 'Bihar kiroldegira joango naiz', 'Bihar kiroldegian nago', 'Kiroldegira bihar dut']
-    answer: 1
-    explanation: 'Futur: *joan + go = joango* + *naiz* (jo). *Kiroldegira* = al gimnàs (sufix -ra de destinació).'
-  - id: ex-nast-mc2
-    type: multiple-choice
-    prompt: '"Dissabte quedaré amb la Maialen per prendre un cafè" =…'
-    options: ['Larunbatean Maialenekin geratuko naiz kafea hartzeko', 'Larunbat Maialen kafea hartu', 'Maialen larunbatean kafea du', 'Larunbatean kafea Maialenekin']
-    answer: 0
-    explanation: '*Larunbatean* (dissabte) + *Maialenekin* (amb la Maialen) + *geratuko naiz* (quedaré) + *kafea hartzeko* (per prendre un cafè).'
-  - id: ex-nast-fb1
-    type: fill-in-blank
-    prompt: '"La setmana que ve tindré exàmens" = ___ astean azterketak izango ditut.'
-    answers: [Datorren]
-    explanation: '*Datorren* — "que ve". *Datorren astean* — "la setmana que ve".'
-  - id: ex-nast-fb2
-    type: fill-in-blank
-    prompt: '"Divendres sortiré amb els amics" = Ostiralean lagunekin atera___ naiz.'
-    answers: [ko]
-    explanation: '*Atera* + *ko* + *naiz* = *aterako naiz* (sortiré). Verb en -a → -ko.'
-  - id: ex-nast-fc
-    type: flashcards
-    cards:
-      - { eu: agenda, es: agenda }
-      - { eu: 'Asteko agenda', es: Agenda de la setmana }
-      - { eu: 'Zer egingo duzu astelehenean?', es: Què faràs dilluns? }
-      - { eu: 'Kiroldegira joango naiz', es: Aniré al gimnàs }
-      - { eu: 'Lagunekin afaltzera joango gara', es: Anirem a sopar amb els amics }
-      - { eu: 'Asteburu honetan mendira joango gara', es: Aquest cap de setmana anirem a la muntanya }
-      - { eu: 'Datorren astean lan asko izango dut', es: La setmana que ve tindré molta feina }
-      - { eu: 'Ostiralean parranda egingo dugu', es: Divendres sortirem de festa }
-      - { eu: 'Bilera dut hamarretan', es: Tinc reunió a les deu }
-      - { eu: 'Libre zaude?', es: 'Estàs lliure?' }
-      - { eu: 'Geratuko gara?', es: 'Quedem?' }
-  - id: ex-nast-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'datorren astean', es: la setmana que ve }
-      - { eu: 'asteburuan', es: el cap de setmana }
-      - { eu: 'bihar', es: demà }
-      - { eu: 'etzi', es: demà passat }
-      - { eu: 'gaur arratsaldean', es: aquesta tarda }
-      - { eu: 'libre nago', es: estic lliure }
+- id: ex-nast-mc1
+  type: multiple-choice
+  prompt: '"Demà aniré al gimnàs" =…'
+  options:
+  - Bihar kiroldegira joan naiz
+  - Bihar kiroldegira joango naiz
+  - Bihar kiroldegian nago
+  - Kiroldegira bihar dut
+  answer: 1
+  explanation: 'Futur: *joan + go = joango* + *naiz* (jo). *Kiroldegira* = al gimnàs (sufix -ra de destinació).'
+- id: ex-nast-mc2
+  type: multiple-choice
+  prompt: '"Dissabte quedaré amb la Maialen per prendre un cafè" =…'
+  options:
+  - Larunbatean Maialenekin geratuko naiz kafea hartzeko
+  - Larunbat Maialen kafea hartu
+  - Maialen larunbatean kafea du
+  - Larunbatean kafea Maialenekin
+  answer: 0
+  explanation: '*Larunbatean* (dissabte) + *Maialenekin* (amb la Maialen) + *geratuko naiz* (quedaré) + *kafea hartzeko* (per prendre un cafè).'
+- id: ex-nast-fb1
+  type: fill-in-blank
+  prompt: '"La setmana que ve tindré exàmens" = ___ astean azterketak izango ditut.'
+  answers:
+  - Datorren
+  explanation: '*Datorren* — "que ve". *Datorren astean* — "la setmana que ve".'
+- id: ex-nast-fb2
+  type: fill-in-blank
+  prompt: '"Divendres sortiré amb els amics" = Ostiralean lagunekin atera___ naiz.'
+  answers:
+  - ko
+  explanation: '*Atera* + *ko* + *naiz* = *aterako naiz* (sortiré). Verb en -a → -ko.'
+- id: ex-nast-fc
+  type: flashcards
+  cards:
+  - eu: agenda
+    es: agenda
+  - eu: Asteko agenda
+    es: Agenda de la setmana
+  - eu: Zer egingo duzu astelehenean?
+    es: Què faràs dilluns?
+  - eu: Kiroldegira joango naiz
+    es: Aniré al gimnàs
+  - eu: Lagunekin afaltzera joango gara
+    es: Anirem a sopar amb els amics
+  - eu: Asteburu honetan mendira joango gara
+    es: Aquest cap de setmana anirem a la muntanya
+  - eu: Datorren astean lan asko izango dut
+    es: La setmana que ve tindré molta feina
+  - eu: Ostiralean parranda egingo dugu
+    es: Divendres sortirem de festa
+  - eu: Bilera dut hamarretan
+    es: Tinc reunió a les deu
+  - eu: Libre zaude?
+    es: Estàs lliure?
+  - eu: Geratuko gara?
+    es: Quedem?
+- id: ex-nast-mp
+  type: match-pairs
+  pairs:
+  - eu: datorren astean
+    es: la setmana que ve
+  - eu: asteburuan
+    es: el cap de setmana
+  - eu: bihar
+    es: mañana
+  - eu: etzi
+    es: pasado mañana
+  - eu: gaur arratsaldean
+    es: esta tarde
+  - eu: libre nago
+    es: estoy libre
 ---
 
-Lliçó final de la unitat: muntarem **una setmana sencera** unint tot el que hem après. Dies, futurs, cites, marcadors de quan... el llenguatge de planificar.
+Lliçó final de la unitat: muntarem **una setmana sencera** unint tot el que hem après. Dies, futurs, cites, marcadors temporals... el llenguatge per planificar.
 
 ## Pregunta oberta
 
 > *Zer egingo duzu aste honetan?* — Què faràs aquesta setmana?
 
-Una resposta natural faria servir el dia + futur:
+Una resposta natural usaria el dia + futur:
 
 > *Astelehenean kiroldegira joango naiz. Asteartean euskara klasea dut. Asteazkenean bilera bat izango dut. Ostegunean lasai egongo naiz. Ostiralean lagunekin afaltzera joango gara. Asteburuan mendira joango gara.*
 >
@@ -134,4 +166,4 @@ joan zen     doa            joango da
 ikusi dut    ikusten dut    ikusiko dut
 ```
 
-> **Nota cultural:** en molts llocs veuràs cartells de l'estil *"Asteburu honetan jaiak"* o *"Datorren ostiralean kontzertua"*. Els marcadors temporals com *datorren* i *asteburu honetan* apareixen tant en la conversa com en qualsevol plafó informatiu del barri. Quan l'oïda els reconeix, llegir el carrer es torna molt més fàcil.
+> **Nota cultural:** en molts llocs veuràs cartells de l'estil *"Asteburu honetan jaiak"* o *"Datorren ostiralean kontzertua"*. Els marcadors temporals com *datorren* i *asteburu honetan* apareixen tant en conversa com en qualsevol plafó informatiu del barri. Quan l'oïda els reconeix, entendre el que llegeixes pel carrer es torna molt més fàcil.

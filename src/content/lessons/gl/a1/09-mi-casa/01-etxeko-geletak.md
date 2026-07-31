@@ -7,59 +7,90 @@ level: a1
 order: 1
 title: As habitacións da casa
 estimatedMinutes: 10
-covers: [home-rooms]
+covers:
+- home-rooms
 exercises:
-  - id: ex-09-01-mp
-    type: match-pairs
-    pairs:
-      - { eu: sukaldea, es: cociña }
-      - { eu: logela, es: dormitorio }
-      - { eu: komuna, es: baño }
-      - { eu: egongela, es: salón }
-      - { eu: sarrera, es: entrada }
-      - { eu: korridorea, es: corredor }
-  - id: ex-09-01-mc1
-    type: multiple-choice
-    prompt: Queres ducharte. A que habitación vas?
-    options: [sukaldea, logela, komuna, egongela]
-    answer: 2
-    explanation: '"Komuna" é o baño (a habitación con ducha, lavabo, etc.).'
-  - id: ex-09-01-mc2
-    type: multiple-choice
-    prompt: '"Egongela" é...'
-    options: [o dormitorio, a cociña, o salón, a terraza]
-    answer: 2
-    explanation: '"Egongela" componse de "egon" (estar) + "gela" (sala) — a sala onde se está, o salón.'
-  - id: ex-09-01-fb1
-    type: fill-in-blank
-    prompt: 'Durmimos na ___ (en galego: dormitorio).'
-    answers: [logela]
-    explanation: '"Logela" = "lo" (sono) + "gela" (sala).'
-  - id: ex-09-01-fc
-    type: flashcards
-    cards:
-      - { eu: etxea, es: a casa }
-      - { eu: pisua, es: o piso }
-      - { eu: gela, es: habitación / sala }
-      - { eu: sukaldea, es: cociña }
-      - { eu: logela, es: dormitorio }
-      - { eu: komuna, es: baño }
-      - { eu: egongela, es: salón }
-      - { eu: sarrera, es: entrada }
-      - { eu: korridorea / pasabidea, es: corredor }
-      - { eu: balkoia, es: balcón }
-      - { eu: terraza, es: terraza }
-      - { eu: igogailua, es: ascensor }
-      - { eu: solairua, es: planta / piso (nivel do edificio) }
-      - { eu: 'Zenbat logela ditu?', es: 'Cantos dormitorios ten?' }
-      - { eu: 'Non dago sukaldea?', es: 'Onde está a cociña?' }
+- id: ex-09-01-mp
+  type: match-pairs
+  pairs:
+  - eu: sukaldea
+    es: cocina
+  - eu: logela
+    es: dormitorio
+  - eu: komuna
+    es: baño
+  - eu: egongela
+    es: salón
+  - eu: sarrera
+    es: entrada
+  - eu: korridorea
+    es: pasillo
+- id: ex-09-01-mc1
+  type: multiple-choice
+  prompt: Queres ducharte. A que habitación vas?
+  options:
+  - sukaldea
+  - logela
+  - komuna
+  - egongela
+  answer: 2
+  explanation: '"Komuna" é o baño (a habitación con ducha, lavabo, etc.).'
+- id: ex-09-01-mc2
+  type: multiple-choice
+  prompt: '"Egongela" é...'
+  options:
+  - o dormitorio
+  - a cociña
+  - o salón
+  - a terraza
+  answer: 2
+  explanation: '"Egongela" componse de "egon" (estar) + "gela" (sala) — a sala onde se está, o salón.'
+- id: ex-09-01-fb1
+  type: fill-in-blank
+  prompt: 'Durmimos na ___ (en galego: dormitorio).'
+  answers:
+  - logela
+  explanation: '"Logela" = "lo" (sono) + "gela" (sala).'
+- id: ex-09-01-fc
+  type: flashcards
+  cards:
+  - eu: etxea
+    es: a casa
+  - eu: pisua
+    es: o piso
+  - eu: gela
+    es: habitación / sala
+  - eu: sukaldea
+    es: cociña
+  - eu: logela
+    es: dormitorio
+  - eu: komuna
+    es: baño
+  - eu: egongela
+    es: salón
+  - eu: sarrera
+    es: entrada
+  - eu: korridorea / pasabidea
+    es: corredor
+  - eu: balkoia
+    es: balcón
+  - eu: terraza
+    es: terraza
+  - eu: igogailua
+    es: ascensor
+  - eu: solairua
+    es: planta / piso (nivel do edificio)
+  - eu: Zenbat logela ditu?
+    es: Cantos dormitorios ten?
+  - eu: Non dago sukaldea?
+    es: Onde está a cociña?
 ---
 
 Comezamos polo máis básico de calquera vivenda: as **habitacións**. A palabra xeral para "sala / habitación" é **gela**, e a maior parte dos nomes das estancias constrúense combinando unha raíz con `-gela`.
 
 ## Vocabulario base
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *etxea* | a casa |
 | *pisua* | o piso (vivenda nun edificio) |
@@ -75,7 +106,7 @@ Comezamos polo máis básico de calquera vivenda: as **habitacións**. A palabra
 
 ## Como se forman algúns nomes
 
-O euskera é moi transparente con estas palabras. Se miras como están compostas, lémbralas mellor:
+O éuscaro é moi transparente con estas palabras. Se miras como están compostas, lémbralas mellor:
 
 - **logela** → *lo* (sono) + *gela* (sala) = "sala do sono" → dormitorio
 - **egongela** → *egon* (estar) + *gela* = "sala de estar" → salón
@@ -85,7 +116,7 @@ O euskera é moi transparente con estas palabras. Se miras como están compostas
 
 ## Edificio: planta e ascensor
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *solairua* | planta (1ª, 2ª…) |
 | *igogailua* | ascensor |
@@ -104,4 +135,4 @@ Para dicir en que planta vives:
 - **Non dago sukaldea?** — Onde está a cociña?
 - **Etxeak badu balkoirik?** — Ten balcón a casa?
 
-> **Nota cultural:** en Navarra e na zona vasco-castelá é habitual dicir *pisua* para a vivenda urbana e *etxea* para a casa familiar/de aldea. No día a día mestúranse sen problema.
+> **Nota cultural:** en Navarra e na zona vasco-castelá é habitual dicir *pisua* para a vivenda urbana e *etxea* para a casa familiar ou da aldea. No día a día mestúranse sen problema.

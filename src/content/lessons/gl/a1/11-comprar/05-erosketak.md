@@ -7,59 +7,94 @@ level: a1
 order: 5
 title: Facer a compra (lección integradora)
 estimatedMinutes: 12
-covers: [shopping-dialogue, shops, prices, quantities-units, partitive-rik]
+covers:
+- shopping-dialogue
+- shops
+- prices
+- quantities-units
+- partitive-rik
 exercises:
-  - id: ex-eros-mc1
-    type: multiple-choice
-    prompt: 'Estás na froitería. Como pides medio quilo de mazás?'
-    options: ['Sagar erdi kilo bat, mesedez', 'Kilo erdi sagar, mesedez', 'Erdia bat kilo sagar', 'Sagarra erdi mesedez']
-    answer: 1
-    explanation: 'Patrón cantidade + produto sen artigo: **kilo erdi sagar** (medio quilo de mazás).'
-  - id: ex-eros-mc2
-    type: multiple-choice
-    prompt: '"Non hai pan" dise…'
-    options: [Ez dago ogia, Ez dago ogirik, Ogia ez du, Ez ogia da]
-    answer: 1
-    explanation: 'Coa negación + obxecto indefinido úsase o partitivo *-rik*: **ogi-rik**.'
-  - id: ex-eros-fb1
-    type: fill-in-blank
-    prompt: '"Canto é todo?" = Zenbat da ___?'
-    answers: [dena]
-    explanation: '*Dena* significa "todo".'
-  - id: ex-eros-fb2
-    type: fill-in-blank
-    prompt: 'Para preguntar se teñen un produto: "Teñen leite?" = Esne___ ba(d)aukazue?'
-    answers: [rik]
-    explanation: 'Pregunta de existencia con obxecto indefinido = partitivo **-rik** (esne**rik**).'
-  - id: ex-eros-fc
-    type: flashcards
-    cards:
-      - { eu: erosketa-zerrenda, es: lista da compra }
-      - { eu: 'Zer behar dugu?', es: '¿Que necesitamos?' }
-      - { eu: 'Ez dago ogirik', es: Non hai pan }
-      - { eu: 'Esnerik ba(d)aukazue?', es: '¿Tedes leite?' }
-      - { eu: 'Bai, badago', es: 'Si, hai' }
-      - { eu: 'Ez, ez dago', es: 'Non, non hai' }
-      - { eu: 'Erosketak egitera noa', es: Vou facer a compra }
-      - { eu: barazkiak, es: verduras }
-      - { eu: frutak, es: froitas }
-      - { eu: haragia, es: carne }
-      - { eu: arraina, es: peixe }
-      - { eu: esnea, es: leite }
-      - { eu: ogia, es: pan }
-      - { eu: arrautzak, es: ovos }
-  - id: ex-eros-mp
-    type: match-pairs
-    pairs:
-      - { eu: harategia, es: carnicería }
-      - { eu: okindegia, es: panadería }
-      - { eu: arrandegia, es: peixaría }
-      - { eu: 'Zenbat da?', es: ¿Canto é? }
-      - { eu: 'Hartuko dut', es: Lévoo }
-      - { eu: 'Besterik?', es: ¿Algo máis? }
+- id: ex-eros-mc1
+  type: multiple-choice
+  prompt: Estás na froitaría. Como pides medio quilo de mazás?
+  options:
+  - Sagar erdi kilo bat, mesedez
+  - Kilo erdi sagar, mesedez
+  - Erdia bat kilo sagar
+  - Sagarra erdi mesedez
+  answer: 1
+  explanation: 'Patrón cantidade + produto sen artigo: **kilo erdi sagar** (medio quilo de mazás).'
+- id: ex-eros-mc2
+  type: multiple-choice
+  prompt: '"Non hai pan" dise…'
+  options:
+  - Ez dago ogia
+  - Ez dago ogirik
+  - Ogia ez du
+  - Ez ogia da
+  answer: 1
+  explanation: 'Coa negación + obxecto indefinido úsase o partitivo *-rik*: **ogi-rik**.'
+- id: ex-eros-fb1
+  type: fill-in-blank
+  prompt: '"Canto é todo?" = Zenbat da ___?'
+  answers:
+  - dena
+  explanation: '*Dena* significa "todo".'
+- id: ex-eros-fb2
+  type: fill-in-blank
+  prompt: 'Para preguntar se teñen un produto: "Teñen leite?" = Esne___ ba(d)aukazue?'
+  answers:
+  - rik
+  explanation: Pregunta de existencia con obxecto indefinido = partitivo **-rik** (esne**rik**).
+- id: ex-eros-fc
+  type: flashcards
+  cards:
+  - eu: erosketa-zerrenda
+    es: lista da compra
+  - eu: Zer behar dugu?
+    es: Que necesitamos?
+  - eu: Ez dago ogirik
+    es: Non hai pan
+  - eu: Esnerik ba(d)aukazue?
+    es: Tedes leite?
+  - eu: Bai, badago
+    es: Si, hai
+  - eu: Ez, ez dago
+    es: Non, non hai
+  - eu: Erosketak egitera noa
+    es: Vou facer a compra
+  - eu: barazkiak
+    es: verduras
+  - eu: frutak
+    es: froitas
+  - eu: haragia
+    es: carne
+  - eu: arraina
+    es: peixe
+  - eu: esnea
+    es: leite
+  - eu: ogia
+    es: pan
+  - eu: arrautzak
+    es: ovos
+- id: ex-eros-mp
+  type: match-pairs
+  pairs:
+  - eu: harategia
+    es: carnicería
+  - eu: okindegia
+    es: panadería
+  - eu: arrandegia
+    es: peixaría
+  - eu: Zenbat da?
+    es: Canto é?
+  - eu: Hartuko dut
+    es: Lévoo
+  - eu: Besterik?
+    es: Algo máis?
 ---
 
-Esta lección integra o aprendido na unidade. Imos montar unha **lista da compra**, distribuír produtos por tenda e simular un mini-diálogo.
+Esta lección integra o aprendido na unidade. Imos facer unha **lista da compra**, distribuír produtos por tenda e simular un mini-diálogo.
 
 ## A lista da compra (erosketa-zerrenda)
 
@@ -105,7 +140,7 @@ Unha conversa típica ao planificar:
 >
 > — *Plazan, beti bezala.* — Na praza, coma sempre.
 
-## Mini-diálogo na froitería
+## Mini-diálogo na froitaría
 
 > **Frutaria:** *Egun on! Zer nahi duzu?*
 >
@@ -132,4 +167,4 @@ Unha conversa típica ao planificar:
 3. **Pechar a compra:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Negación con produto:** *Ez dago ...rik* (con partitivo).
 
-> **Nota cultural:** moitas familias fan as compras "do día" nas tendas de barrio (fruta-denda, harategia) e van ao supermercado só para os produtos envasados. É unha mestura moi habitual de canles que se nota especialmente os sábados pola mañá en calquera vila.
+> **Nota cultural:** moitas familias fan as compras "do día" nas tendas de barrio (fruta-denda, harategia) e van ao supermercado só para os produtos envasados. É unha mestura moi habitual que se nota especialmente os sábados pola mañá en calquera vila.

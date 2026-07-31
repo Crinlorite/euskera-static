@@ -7,53 +7,84 @@ level: a1
 order: 2
 title: A on ei? — eth cas NON
 estimatedMinutes: 12
-covers: [locative-non, egon-nor, places-town]
+covers:
+- locative-non
+- egon-nor
+- places-town
 exercises:
-  - id: ex-nd-mc1
-    type: multiple-choice
-    prompt: 'Quin se ditz "Eth bar ei en carrèr"?'
-    options: ["Taberna kalea dago", "Taberna kalean dago", "Taberna kaleko dago", "Taberna kalera dago"]
-    answer: 1
-    explanation: 'Entà "en + lòc" higem -an ara paraula: kale + an = kalean ("en carrèr").'
-  - id: ex-nd-fb1
-    type: fill-in-blank
-    prompt: 'Donostia + locatiu (en Donostia) = Donostia___.'
-    answers: [n]
-    explanation: 'Es paraules acabades en -a organica sonque higen -n: Donostian.'
-  - id: ex-nd-fb2
-    type: fill-in-blank
-    prompt: 'Madril (Madrid) + locatiu = Madril___.'
-    answers: [en]
-    explanation: 'Dempús de consonanta finau, eth locatiu intercale -e-: Madril → Madrilen.'
-  - id: ex-nd-fb3
-    type: fill-in-blank
-    prompt: 'Pregunta: "A on ei era farmàcia?" = ___ dago botika?'
-    answers: [Non, non]
-  - id: ex-nd-mc2
-    type: multiple-choice
-    prompt: '"Banketxean nago" vò díder…'
-    options: ["Sò deth banc", "Vau ath banc", "Sò en banc", "Vení deth banc"]
-    answer: 2
-    explanation: '"-an" indique ubicacion; "nago" ei "jo sò" (egon).'
-  - id: ex-nd-fc
-    type: flashcards
-    cards:
-      - { eu: 'Non?', es: A on? }
-      - { eu: 'Non dago?', es: A on ei? }
-      - { eu: 'Non daude?', es: A on son? }
-      - { eu: 'Non zaude?', es: A on ès? }
-      - { eu: kalean, es: en carrèr }
-      - { eu: etxean, es: a casa }
-      - { eu: euskaltegian, es: en euskaltegi }
-      - { eu: tabernan, es: en bar }
-      - { eu: parkean, es: en parc }
-      - { eu: Bilbon, es: en Bilbo }
-      - { eu: Donostian, es: en Donostia }
-      - { eu: Iruñean, es: en Iruña }
-      - { eu: Madrilen, es: en Madrid }
-      - { eu: nago, es: sò }
-      - { eu: dago, es: ei }
-      - { eu: daude, es: son }
+- id: ex-nd-mc1
+  type: multiple-choice
+  prompt: Com se ditz "Eth bar ei en carrèr"?
+  options:
+  - Taberna kalea dago
+  - Taberna kalean dago
+  - Taberna kaleko dago
+  - Taberna kalera dago
+  answer: 1
+  explanation: 'Entà "en + lòc" higem -an ara paraula: kale + an = kalean ("en carrèr").'
+- id: ex-nd-fb1
+  type: fill-in-blank
+  prompt: Donostia + locatiu (en Donostia) = Donostia___.
+  answers:
+  - n
+  explanation: 'Es paraules acabades en -a organica sonque higen -n: Donostian.'
+- id: ex-nd-fb2
+  type: fill-in-blank
+  prompt: Madril (Madrid) + locatiu = Madril___.
+  answers:
+  - en
+  explanation: 'Dempús de consonanta finau, eth locatiu intercale -e-: Madril → Madrilen.'
+- id: ex-nd-fb3
+  type: fill-in-blank
+  prompt: 'Pregunta: "A on ei era farmàcia?" = ___ dago botika?'
+  answers:
+  - Non
+  - non
+- id: ex-nd-mc2
+  type: multiple-choice
+  prompt: '"Banketxean nago" vò díder…'
+  options:
+  - Sò deth banc
+  - Vau ath banc
+  - Sò en banc
+  - Vení deth banc
+  answer: 2
+  explanation: '"-an" indica ubicacion; "nago" ei "jo sò" (egon).'
+- id: ex-nd-fc
+  type: flashcards
+  cards:
+  - eu: Non?
+    es: A on?
+  - eu: Non dago?
+    es: A on ei?
+  - eu: Non daude?
+    es: A on son?
+  - eu: Non zaude?
+    es: A on ès?
+  - eu: kalean
+    es: en carrèr
+  - eu: etxean
+    es: a casa
+  - eu: euskaltegian
+    es: en er euskaltegi
+  - eu: tabernan
+    es: en eth bar
+  - eu: parkean
+    es: en eth parc
+  - eu: Bilbon
+    es: en Bilbo
+  - eu: Donostian
+    es: en Donostia
+  - eu: Iruñean
+    es: en Pamplona
+  - eu: Madrilen
+    es: en Madrid
+  - eu: nago
+    es: sò
+  - eu: dago
+    es: ei
+  - eu: daude
+    es: son
 ---
 
 Ja coneishes eth sufix **`-(e)an`** dera leçon "A on viues" (*Bilbon bizi naiz*). Aciu l'apliquem ath barri: a on ei cada causa.
@@ -67,7 +98,7 @@ Entà preguntar **a on ei…?** emplegam:
 - **Non zaude?** — A on ès (tu)?
 - **Non nago?** — A on sò?
 
-Eth vèrb ei **egon** ("èster"), que ja vegueres enes saludacions. Bremba-te des formes:
+Eth vèrb ei **egon** ("èster"), que ja vegueres enes salutacions. Bremba-te des formes:
 
 | Persona | Forma |
 |---|---|
@@ -95,8 +126,8 @@ Entà díder **a on ei** quauquarren, hige eth sufix **`-(e)an`** ath lòc:
 - **Botika kalean dago.** — Era farmàcia ei en carrèr.
 - **Liburuak mahaian daude.** — Es libes son ena taula.
 - **Ikaslea ikasgelan dago.** — Er alumne ei ena aula.
-- **Aita tabernan dago.** — Eth pair ei en bar.
-- **Ni euskaltegian nago.** — Jo sò en euskaltegi.
+- **Aita tabernan dago.** — Eth pair ei en eth bar.
+- **Ni euskaltegian nago.** — Jo sò en er euskaltegi.
 - **Bilbo Bizkaian dago.** — Bilbo ei en Bizkaia.
 
 ## Mini-dialòg
@@ -107,4 +138,4 @@ Entà díder **a on ei** quauquarren, hige eth sufix **`-(e)an`** ath lòc:
 >
 > — *Eskerrik asko!*
 
-> **Trampa:** *non* = "a on" en euskèra. Quina sigue era responsa a *non…?* amie un substantiu damb sufix `-(e)an` o un advèrbi de lòc (*hemen*, *hor*, *han* — les veiràs ena leçon següenta).
+> **Truc:** *non* = "a on" en basc. Tota responsa a *non…?* pòrte un substantiu damb eth sufix `-(e)an` o un advèrbi de lòc (*hemen*, *hor*, *han* — les veiràs ena leçon següenta).

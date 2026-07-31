@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — 過去を語る
+order: 2
+description: 完了過去（iragan burutua）と未完了過去（iragan ez burutua）。昨日や何年も前に起こったこと、あるいは過去の習慣について話す方法。
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

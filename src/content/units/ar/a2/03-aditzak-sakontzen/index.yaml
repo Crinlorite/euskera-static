@@ -1,0 +1,14 @@
+id: a2-aditzak
+code: 03-aditzak-sakontzen
+level: a2
+title: Aditzak sakontzen — NOR-NORI-NORK، ahalera و condicional
+order: 3
+description: أفعال بثلاثة أطراف (أعطيه شيئًا، علّمته إياه)، القدرة/عدم القدرة ونظرة أولى على صيغة الشرط.
+estimatedMinutes: 75
+covers:
+- a2-nor-nori-nork
+- a2-nor-nori-nork-past
+- a2-nor-nori
+- a2-ahalera
+- a2-ezin
+- a2-baldintza-intro

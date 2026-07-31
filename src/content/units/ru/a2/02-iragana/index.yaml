@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — повествование о прошлом
+order: 2
+description: Прошедшее совершённое время (iragan burutua) и прошедшее несовершённое время (iragan ez burutua). Как рассказать о том, что случилось вчера, много лет назад, или о том, что вы делали раньше.
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

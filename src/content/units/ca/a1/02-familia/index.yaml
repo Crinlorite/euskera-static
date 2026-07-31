@@ -6,11 +6,11 @@ order: 2
 description: Vocabulari i patrons per parlar de la teva família i la dels altres.
 estimatedMinutes: 55
 covers:
-  - family-basics
-  - family-extended
-  - possessives
-  - ukan-basic
-  - ukan-plural-objects
-  - partitive-rik
-  - numbers-1-20
-  - ages
+- family-basics
+- family-extended
+- possessives
+- ukan-basic
+- ukan-plural-objects
+- partitive-rik
+- numbers-1-20
+- ages

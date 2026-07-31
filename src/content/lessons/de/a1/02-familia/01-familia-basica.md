@@ -7,43 +7,64 @@ level: a1
 order: 1
 title: Grundwortschatz Familie
 estimatedMinutes: 12
-covers: [family-basics]
+covers:
+- family-basics
 exercises:
-  - id: ex-fb-mp
-    type: match-pairs
-    pairs:
-      - { eu: aita, es: Vater }
-      - { eu: ama, es: Mutter }
-      - { eu: anaia, es: Bruder (eines Mannes oder einer Frau) }
-      - { eu: arreba, es: Schwester (von einem Mann gesagt) }
-      - { eu: ahizpa, es: Schwester (von einer Frau gesagt) }
-      - { eu: seme, es: Sohn }
-      - { eu: alaba, es: Tochter }
-  - id: ex-fb-mc1
-    type: multiple-choice
-    prompt: Maialen hat eine Schwester. Wie heißt "Schwester" aus Maialens Sicht?
-    options: [arreba, ahizpa, anaia, ama]
-    answer: 1
-    explanation: 'Im Baskischen nennt eine Frau ihre Schwester "ahizpa"; ein Mann nennt sie "arreba".'
-  - id: ex-fb-fc
-    type: flashcards
-    cards:
-      - { eu: aita, es: Vater }
-      - { eu: ama, es: Mutter }
-      - { eu: anaia, es: Bruder }
-      - { eu: arreba, es: Schwester (von ihm) }
-      - { eu: ahizpa, es: Schwester (von ihr) }
-      - { eu: seme, es: Sohn }
-      - { eu: alaba, es: Tochter }
-      - { eu: gurasoak, es: Eltern (die) }
-      - { eu: anai-arrebak, es: Geschwister }
+- id: ex-fb-mp
+  type: match-pairs
+  pairs:
+  - eu: aita
+    es: padre
+  - eu: ama
+    es: madre
+  - eu: anaia
+    es: Bruder (eines Mannes oder einer Frau)
+  - eu: arreba
+    es: Schwester (sagt ein Mann)
+  - eu: ahizpa
+    es: Schwester (sagt eine Frau)
+  - eu: seme
+    es: hijo
+  - eu: alaba
+    es: hija
+- id: ex-fb-mc1
+  type: multiple-choice
+  prompt: Maialen hat eine Schwester. Wie heißt „Schwester“ aus Maialens Sicht?
+  options:
+  - arreba
+  - ahizpa
+  - anaia
+  - ama
+  answer: 1
+  explanation: Im Baskischen nennt eine Frau ihre Schwester "ahizpa"; ein Mann nennt sie "arreba".
+- id: ex-fb-fc
+  type: flashcards
+  cards:
+  - eu: aita
+    es: Vater
+  - eu: ama
+    es: Mutter
+  - eu: anaia
+    es: Bruder
+  - eu: arreba
+    es: Schwester (seine)
+  - eu: ahizpa
+    es: Schwester (ihre)
+  - eu: seme
+    es: Sohn
+  - eu: alaba
+    es: Tochter
+  - eu: gurasoak
+    es: Eltern (die)
+  - eu: anai-arrebak
+    es: Brüder und Schwestern
 ---
 
-Das Baskische hat eine sehr interessante Besonderheit im Familienwortschatz: **das Wort für "Schwester" hängt davon ab, wer spricht**.
+Das Baskische hat eine sehr interessante Besonderheit im Familienwortschatz: **Das Wort für „Schwester“ hängt davon ab, wer spricht**.
 
 ## Grundwortschatz
 
-| Baskisch | Deutsch |
+| Euskera | Deutsch |
 |---|---|
 | *aita* | Vater |
 | *ama* | Mutter |
@@ -52,7 +73,7 @@ Das Baskische hat eine sehr interessante Besonderheit im Familienwortschatz: **d
 | *alaba* | Tochter |
 | *seme-alabak* | Söhne und Töchter |
 
-## Die Feinheit bei "Bruder/Schwester"
+## Die Besonderheit bei „Bruder/Schwester“
 
 - **anaia** — Bruder (sagen sowohl Männer als auch Frauen)
 - **arreba** — Schwester, **von einem Mann gesagt**
@@ -66,10 +87,10 @@ Daher:
 >
 > Sowohl Egoitz als auch Maialen sagen: *"Nire anaia Hodei da."* (Mein Bruder ist Hodei.)
 
-Das spiegelt eine sehr alte Unterscheidung im Baskischen wider. Sie hat keine direkte Entsprechung im Deutschen und wird durch den Gebrauch erlernt. Wenn du dich am Anfang vertust, ist das nicht schlimm — jeder wird dich verstehen.
+Dies spiegelt eine sehr alte Unterscheidung im Baskischen wider. Es gibt keine direkte Entsprechung im Deutschen und man lernt es durch Anwendung. Wenn du am Anfang Fehler machst, ist das nicht schlimm — jeder wird dich verstehen.
 
 ## Nützliche Pluralformen
 
-- **anai-arrebak** — Geschwister (allgemeine Form, ohne Unterscheidung)
+- **anai-arrebak** — Brüder und Schwestern (allgemeine Form, ohne Unterscheidung)
 - **gurasoak** — die Eltern
 - **seme-alabak** — Söhne und Töchter

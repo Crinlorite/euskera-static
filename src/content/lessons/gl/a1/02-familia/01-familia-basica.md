@@ -7,43 +7,64 @@ level: a1
 order: 1
 title: Familia básica
 estimatedMinutes: 12
-covers: [family-basics]
+covers:
+- family-basics
 exercises:
-  - id: ex-fb-mp
-    type: match-pairs
-    pairs:
-      - { eu: aita, es: pai }
-      - { eu: ama, es: nai }
-      - { eu: anaia, es: irmán (dun home ou dunha muller) }
-      - { eu: arreba, es: irmá (dío un home) }
-      - { eu: ahizpa, es: irmá (dío unha muller) }
-      - { eu: seme, es: fillo }
-      - { eu: alaba, es: filla }
-  - id: ex-fb-mc1
-    type: multiple-choice
-    prompt: Maialen ten unha irmá. Como se di "irmá" dende o punto de vista de Maialen?
-    options: [arreba, ahizpa, anaia, ama]
-    answer: 1
-    explanation: 'En euskera, unha muller chámalle "ahizpa" á súa irmá; un home chámalle "arreba".'
-  - id: ex-fb-fc
-    type: flashcards
-    cards:
-      - { eu: aita, es: pai }
-      - { eu: ama, es: nai }
-      - { eu: anaia, es: irmán }
-      - { eu: arreba, es: irmá (del) }
-      - { eu: ahizpa, es: irmá (dela) }
-      - { eu: seme, es: fillo }
-      - { eu: alaba, es: filla }
-      - { eu: gurasoak, es: pais (os) }
-      - { eu: anai-arrebak, es: irmáns e irmás }
+- id: ex-fb-mp
+  type: match-pairs
+  pairs:
+  - eu: aita
+    es: padre
+  - eu: ama
+    es: madre
+  - eu: anaia
+    es: irmán (dun home ou dunha muller)
+  - eu: arreba
+    es: irmá (dita por un home)
+  - eu: ahizpa
+    es: irmá (dita por unha muller)
+  - eu: seme
+    es: hijo
+  - eu: alaba
+    es: hija
+- id: ex-fb-mc1
+  type: multiple-choice
+  prompt: Maialen ten unha irmá. Como se di "irmá" desde o punto de vista de Maialen?
+  options:
+  - arreba
+  - ahizpa
+  - anaia
+  - ama
+  answer: 1
+  explanation: En éuscaro, unha muller chámalle "ahizpa" á súa irmá; un home chámalle "arreba".
+- id: ex-fb-fc
+  type: flashcards
+  cards:
+  - eu: aita
+    es: pai
+  - eu: ama
+    es: nai
+  - eu: anaia
+    es: irmán
+  - eu: arreba
+    es: irmá (del)
+  - eu: ahizpa
+    es: irmá (dela)
+  - eu: seme
+    es: fillo
+  - eu: alaba
+    es: filla
+  - eu: gurasoak
+    es: pais (os)
+  - eu: anai-arrebak
+    es: irmáns e irmás
 ---
 
-O euskera ten unha particularidade moi interesante no vocabulario familiar: **a palabra para "irmá" depende de quen fale**.
+O éuscaro ten unha particularidade moi interesante no vocabulario familiar: **a palabra para "irmá" depende de quen fale**.
 
 ## Vocabulario base
 
-| Euskera | Galego |
+| Éuscaro | Galego |
 |---|---|
 | *aita* | pai |
 | *ama* | nai |
@@ -52,9 +73,9 @@ O euskera ten unha particularidade moi interesante no vocabulario familiar: **a 
 | *alaba* | filla |
 | *seme-alabak* | fillos e fillas |
 
-## O detalle de "irmán/á"
+## O detalle de "irmán/irmá"
 
-- **anaia** — irmán (díano tanto homes coma mulleres)
+- **anaia** — irmán (dino tanto homes coma mulleres)
 - **arreba** — irmá, **dita por un home**
 - **ahizpa** — irmá, **dita por unha muller**
 
@@ -66,7 +87,7 @@ Polo tanto:
 >
 > Tanto Egoitz coma Maialen din: *"Nire anaia Hodei da."* (O meu irmán é Hodei.)
 
-Isto reflicte unha distinción moi antiga do euskera. Non ten equivalente directo en galego e apréndese co uso. Se te equivocas ao principio, non pasa nada — todo o mundo te entenderá.
+Isto reflicte unha distinción moi antiga do éuscaro. Non ten equivalente directo en galego e apréndese co uso. Se te equivocas ao principio, non pasa nada — todo o mundo te entenderá.
 
 ## Plurais útiles
 

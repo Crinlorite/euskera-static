@@ -5,82 +5,122 @@ code: 03-nora-zoaz
 unit: 06-direcciones
 level: a1
 order: 3
-title: Unde te duci? — cazul NORA
+title: Încotro te duci? — cazul NORA
 estimatedMinutes: 12
-covers: [nora-allative, movement-verbs, places-town]
+covers:
+- nora-allative
+- movement-verbs
+- places-town
 exercises:
-  - id: ex-nz-mc1
-    type: multiple-choice
-    prompt: 'Cum se spune „Mă duc la Bilbao”?'
-    options: ["Bilbon noa", "Bilbora noa", "Bilbotik noa", "Bilboan noa"]
-    answer: 1
-    explanation: '„Bilbo” + sufixul -ra (cazul NORA) = „Bilbora”, „la Bilbao”.'
-  - id: ex-nz-fb1
-    type: fill-in-blank
-    prompt: 'Mă duc acasă = Etxe___ noa.'
-    answers: [ra]
-    explanation: '„Etxe” + ra = „etxera” (acasă). Sufixul -ra este cazul NORA.'
-  - id: ex-nz-fb2
-    type: fill-in-blank
-    prompt: 'Mă duc la Madrid = Madril___ noa.'
-    answers: [era]
-    explanation: 'După consoană, sufixul intercalează -e-: „Madril” → „Madrilera”.'
-  - id: ex-nz-mc2
-    type: multiple-choice
-    prompt: 'Ce înseamnă „Eskolara doa”?'
-    options: ["Este la școală", "Se duce la școală", "Vine de la școală", "Este de la școală"]
-    answer: 1
-    explanation: '„Eskola” + ra (cazul NORA) = „eskolara” (la școală); „doa” = „se duce”.'
-  - id: ex-nz-fb3
-    type: fill-in-blank
-    prompt: 'Mergem la parc = Parke___ goaz.'
-    answers: [ra]
-  - id: ex-nz-mc3
-    type: multiple-choice
-    prompt: 'Ce înseamnă „Zertara zoaz tabernara?”'
-    options: ["Cine se duce la bar?", "De la ce bar vii?", "Pentru ce te duci la bar?", "Unde este barul?"]
-    answer: 2
-    explanation: '„Zertara” = pentru ce (ca să faci ce); de obicei se răspunde cu verb + -tzera: „kafe bat hartzera” (să bei o cafea).'
-  - id: ex-nz-fc
-    type: flashcards
-    cards:
-      - { eu: 'Nora?', es: Unde? (cu mișcare) }
-      - { eu: 'Nora zoaz?', es: Unde te duci? }
-      - { eu: 'Nora doa?', es: Unde se duce? }
-      - { eu: etxera, es: acasă }
-      - { eu: eskolara, es: la școală }
-      - { eu: euskaltegira, es: la euskaltegi }
-      - { eu: tabernara, es: la bar }
-      - { eu: lanera, es: la muncă }
-      - { eu: hondartzara, es: la plajă }
-      - { eu: mendira, es: la munte }
-      - { eu: Bilbora, es: la Bilbao }
-      - { eu: Iruñera, es: la Pamplona }
-      - { eu: Madrilera, es: la Madrid }
-      - { eu: 'Zertara?', es: Pentru ce? }
-      - { eu: erostera, es: să cumpăr }
-      - { eu: bazkaltzera, es: să mănânc (de prânz) }
-      - { eu: ikastera, es: să studiez }
-  - id: ex-nz-mp
-    type: match-pairs
-    pairs:
-      - { eu: 'Nora zoaz?', es: 'Unde te duci?' }
-      - { eu: Etxera noa, es: 'Mă duc acasă' }
-      - { eu: Eskolara noa, es: 'Mă duc la școală' }
-      - { eu: 'Zertara zoaz?', es: 'Pentru ce te duci?' }
-      - { eu: Erostera, es: 'Să cumpăr' }
+- id: ex-nz-mc1
+  type: multiple-choice
+  prompt: Cum se spune „Mă duc la Bilbao”?
+  options:
+  - Bilbon noa
+  - Bilbora noa
+  - Bilbotik noa
+  - Bilboan noa
+  answer: 1
+  explanation: „Bilbo” + sufixul -ra (cazul NORA) = „Bilbora”, „la Bilbao”.
+- id: ex-nz-fb1
+  type: fill-in-blank
+  prompt: Mă duc acasă = Etxe___ noa.
+  answers:
+  - ra
+  explanation: „Etxe” + ra = „etxera” (acasă). Sufixul -ra este cazul NORA.
+- id: ex-nz-fb2
+  type: fill-in-blank
+  prompt: Mă duc la Madrid = Madril___ noa.
+  answers:
+  - era
+  explanation: 'După consoană, sufixul intercalează -e-: „Madril” → „Madrilera”.'
+- id: ex-nz-mc2
+  type: multiple-choice
+  prompt: Ce înseamnă „Eskolara doa”?
+  options:
+  - Este la școală
+  - Se duce la școală
+  - Vine de la școală
+  - Este de la școală
+  answer: 1
+  explanation: „Eskola” + ra (cazul NORA) = „eskolara” (la școală); „doa” = „se duce”.
+- id: ex-nz-fb3
+  type: fill-in-blank
+  prompt: Mergem la parc = Parke___ goaz.
+  answers:
+  - ra
+- id: ex-nz-mc3
+  type: multiple-choice
+  prompt: Ce înseamnă „Zertara zoaz tabernara?”
+  options:
+  - Cine se duce la bar?
+  - De la ce bar vii?
+  - Pentru ce te duci la bar?
+  - Unde este barul?
+  answer: 2
+  explanation: '„Zertara” = pentru ce (ca să faci ce); de obicei se răspunde cu verb + -tzera: „kafe bat hartzera” (să bei o cafea).'
+- id: ex-nz-fc
+  type: flashcards
+  cards:
+  - eu: Nora?
+    es: Încotro?
+  - eu: Nora zoaz?
+    es: Încotro te duci?
+  - eu: Nora doa?
+    es: Încotro se duce?
+  - eu: etxera
+    es: acasă
+  - eu: eskolara
+    es: la școală
+  - eu: euskaltegira
+    es: la euskaltegi
+  - eu: tabernara
+    es: la bar
+  - eu: lanera
+    es: la muncă
+  - eu: hondartzara
+    es: la plajă
+  - eu: mendira
+    es: la munte
+  - eu: Bilbora
+    es: la Bilbao
+  - eu: Iruñera
+    es: la Pamplona
+  - eu: Madrilera
+    es: la Madrid
+  - eu: Zertara?
+    es: Pentru ce?
+  - eu: erostera
+    es: să cumpăr
+  - eu: bazkaltzera
+    es: să mănânc
+  - eu: ikastera
+    es: să studiez
+- id: ex-nz-mp
+  type: match-pairs
+  pairs:
+  - eu: Nora zoaz?
+    es: Încotro te duci?
+  - eu: Etxera noa
+    es: Voy a casa
+  - eu: Eskolara noa
+    es: Mă duc la școală
+  - eu: Zertara zoaz?
+    es: Pentru ce te duci?
+  - eu: Erostera
+    es: A comprar
 ---
 
-**Cazul NORA** (numit și *adlativ*) marchează **destinația** unei mișcări: încotro te duci. În română se traduce de obicei cu prepoziția **„la”** („mă duc *la* casă”, *la* Bilbao, *la* parc).
+**Cazul NORA** (numit și *adlativ*) marchează **destinația** unei mișcări: încotro te duci. În română se traduce de obicei cu prepoziția **„la”** („mă duc *acasă*”, „*la* Bilbao”, „*la* parc”).
 
 ## Întrebarea: Nora?
 
 | Întrebare | Română |
 |---|---|
-| ***Nora* zoaz?** | Unde te duci? |
-| ***Nora* doa?** | Unde se duce? |
-| ***Nora* goaz?** | Unde mergem? |
-| ***Nora* doaz?** | Unde se duc? |
+| ***Nora* zoaz?** | Încotro te duci? |
+| ***Nora* doa?** | Încotro se duce? |
+| ***Nora* goaz?** | Încotro mergem? |
+| ***Nora* doaz?** | Încotro se duc? |
 
 ## Sufixul: -ra
 
@@ -119,11 +159,11 @@ Pentru a întreba **pentru ce** te duci (cu ce scop), se folosește **Zertara zo
 | *Zertara goaz mendira?* | *Ibiltzera.* — Să ne plimbăm. |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — Să înoate. |
 
-> **Tipar:** *(verb la participiu) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Este în esență „a + infinitiv” din spaniolă (în română „să + verb”).
+> **Tipar:** *(verb la participiu) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Este în esență echivalentul construcției românești „să + verb”.
 
 ## Mini-conversație
 
-> — *Nora zoaz, Maialen?* — Unde te duci, Maialen?
+> — *Nora zoaz, Maialen?* — Încotro te duci, Maialen?
 >
 > — *Euskaltegira noa.* — Mă duc la euskaltegi.
 >
@@ -143,9 +183,9 @@ Pentru a întreba **pentru ce** te duci (cu ce scop), se folosește **Zertara zo
 |---|---|---|
 | hemen | **hona** | încoace |
 | hor | **horra** | spre acolo (lângă tine) |
-| han | **hara** | spre acolo |
+| han | **hara** | într-acolo |
 
 - **Hona zatoz?** — Vii aici?
 - **Hara doaz.** — Se duc într-acolo.
 
-> **Reamintire importantă:** îi încurcă pe mulți la început: *etxean* (acasă, locativ) ≠ *etxera* (spre casă) ≠ *etxetik* (de acasă, lecția 04). Toate trei se aseamănă pentru că toate vorbesc despre „casă”, dar informația este complet diferită. Reține mental: **NON = -an (a fi)**, **NORA = -ra (a merge)**, **NONDIK = -tik (a veni, lecția 4)**.
+> **Reamintire importantă:** îi încurcă pe mulți la început: *etxean* (în casă / acasă) ≠ *etxera* (acasă) ≠ *etxetik* (de acasă, lecția 04). Toate trei se aseamănă pentru că toate vorbesc despre „casă”, dar informația este complet diferită. Reține mental: **NON = -an (a fi, a sta)**, **NORA = -ra (a merge)**, **NONDIK = -tik (a veni, lecția 4)**.

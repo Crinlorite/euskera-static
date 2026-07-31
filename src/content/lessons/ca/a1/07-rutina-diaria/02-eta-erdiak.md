@@ -7,56 +7,82 @@ level: a1
 order: 2
 title: I mitja, i quart, menys (eta erdiak, eta laurden, gutxi)
 estimatedMinutes: 12
-covers: [time-detail, time-basics]
+covers:
+- time-detail
+- time-basics
 exercises:
-  - id: ex-02-ee-mc1
-    type: multiple-choice
-    prompt: 'Són les cinc i mitja. Com ho dius en euskera?'
-    options: ["Bost eta erdi da", "Bost eta erdiak dira", "Bostak erdi dira", "Bost erdi"]
-    answer: 1
-    explanation: 'Per a "i mitja" s''usa "eta erdiak" (literalment "i mitges", també plural). El número va sense "-ak" abans de "eta erdiak": "bost eta erdiak".'
-  - id: ex-02-ee-mc2
-    type: multiple-choice
-    prompt: 'Són les tres i quart. Com ho dius?'
-    options: ["Hiruak eta laurden", "Hiruak eta laurdenak dira", "Hirurak eta laurden dira", "Hiru eta laurdenak"]
-    answer: 2
-    explanation: '"Eta laurden" significa "i quart"; l''hora va en plural ("hirurak"): *Hirurak eta laurden dira*.'
-  - id: ex-02-ee-mc3
-    type: multiple-choice
-    prompt: 'Són les nou menys quart. Com ho dius?'
-    options: ["Bederatziak laurden gutxi dira", "Bederatziak gutxi laurden", "Laurden bederatziak dira", "Bederatzi gutxi laurden"]
-    answer: 0
-    explanation: 'En euskera "menys" es diu "gutxi" i va al darrere. Literal: "les nous quart menys".'
-  - id: ex-02-ee-fb1
-    type: fill-in-blank
-    prompt: 'Són les set i cinc = Zazpiak eta ___ dira.'
-    answers: [bost]
-    explanation: 'Els minuts passats es diuen amb "eta + número". Cinc = bost.'
-  - id: ex-02-ee-fb2
-    type: fill-in-blank
-    prompt: 'Són les quatre menys deu = Laurak hamar ___ dira.'
-    answers: [gutxi]
-    explanation: '"Gutxi" significa "menys" en expressions d''hora.'
-  - id: ex-02-ee-fc
-    type: flashcards
-    cards:
-      - { eu: eta erdiak, es: 'i mitja (3:30 = hiru eta erdiak)' }
-      - { eu: eta laurden, es: 'i quart (3:15 = hirurak eta laurden)' }
-      - { eu: laurden gutxi, es: 'menys quart (2:45 = hirurak laurden gutxi)' }
-      - { eu: gutxi, es: menys (en expressions d'hora) }
-      - { eu: Bostak eta erdiak dira, es: 'Són les cinc i mitja' }
-      - { eu: Hirurak eta laurden dira, es: 'Són les tres i quart' }
-      - { eu: Bederatziak laurden gutxi dira, es: 'Són les nou menys quart' }
-      - { eu: Hamarrak eta hamar dira, es: 'Són les deu i deu' }
-      - { eu: Zortziak hamar gutxi dira, es: 'Són les vuit menys deu' }
-      - { eu: Sei eta erdiak dira, es: 'Són les sis i mitja' }
+- id: ex-02-ee-mc1
+  type: multiple-choice
+  prompt: Són les cinc i mitja. Com ho dius en euskera?
+  options:
+  - Bost eta erdi da
+  - Bost eta erdiak dira
+  - Bostak erdi dira
+  - Bost erdi
+  answer: 1
+  explanation: 'Per a "i mitja" es fa servir "eta erdiak" (literalment "i mitges", també en plural). El número va sense "-ak" abans d''"eta erdiak": "bost eta erdiak".'
+- id: ex-02-ee-mc2
+  type: multiple-choice
+  prompt: Són les tres i quart. Com ho dius?
+  options:
+  - Hiruak eta laurden
+  - Hiruak eta laurdenak dira
+  - Hirurak eta laurden dira
+  - Hiru eta laurdenak
+  answer: 2
+  explanation: '"Eta laurden" significa "i quart"; l''hora va en plural ("hirurak"): *Hirurak eta laurden dira*.'
+- id: ex-02-ee-mc3
+  type: multiple-choice
+  prompt: Són les nou menys quart. Com ho dius?
+  options:
+  - Bederatziak laurden gutxi dira
+  - Bederatziak gutxi laurden
+  - Laurden bederatziak dira
+  - Bederatzi gutxi laurden
+  answer: 0
+  explanation: 'En euskera "menys" es diu "gutxi" i va al darrere. Literalment: "les nou quart menys".'
+- id: ex-02-ee-fb1
+  type: fill-in-blank
+  prompt: Són les set i cinc = Zazpiak eta ___ dira.
+  answers:
+  - bost
+  explanation: Els minuts que passen de l'hora es diuen amb "eta + número". Cinc = bost.
+- id: ex-02-ee-fb2
+  type: fill-in-blank
+  prompt: Són les quatre menys deu = Laurak hamar ___ dira.
+  answers:
+  - gutxi
+  explanation: '"Gutxi" significa "menys" en expressions d''hora.'
+- id: ex-02-ee-fc
+  type: flashcards
+  cards:
+  - eu: eta erdiak
+    es: i mitja (3:30 = hiru eta erdiak)
+  - eu: eta laurden
+    es: i quart (3:15 = hirurak eta laurden)
+  - eu: laurden gutxi
+    es: menys quart (2:45 = hirurak laurden gutxi)
+  - eu: gutxi
+    es: menys (en expressions d'hora)
+  - eu: Bostak eta erdiak dira
+    es: Són les cinc i mitja
+  - eu: Hirurak eta laurden dira
+    es: Són les tres i quart
+  - eu: Bederatziak laurden gutxi dira
+    es: Són les nou menys quart
+  - eu: Hamarrak eta hamar dira
+    es: Són les deu i deu
+  - eu: Zortziak hamar gutxi dira
+    es: Són les vuit menys deu
+  - eu: Sei eta erdiak dira
+    es: Són les sis i mitja
 ---
 
-Per als minuts en euskera hi ha tres construccions que dominen gairebé tot: **eta erdiak** (i mitja), **eta laurden** (i quart) i **gutxi** (menys). El truc està a saber on es col·loca cada cosa.
+Per als minuts en euskera hi ha tres construccions que ho dominen gairebé tot: **eta erdiak** (i mitja), **eta laurden** (i quart) i **gutxi** (menys). El truc és saber on es col·loca cada cosa.
 
-## "I mitja" — el cas especial
+## "I mitja": el cas especial
 
-A diferència de la resta, "i mitja" fa que l'hora també es digui en plural — i la paraula "mitja" també:
+A diferència de la resta, "i mitja" fa que l'hora també es digui en plural —i la paraula "mitja" també:
 
 | Hora | Euskera |
 |---|---|
@@ -71,7 +97,7 @@ A diferència de la resta, "i mitja" fa que l'hora també es digui en plural —
 
 ## "I quart" i minuts passats
 
-Quan han passat minuts de l'hora exacta uses la fórmula **HORA-ak eta MINUTS**:
+Quan han passat minuts de l'hora exacta fas servir la fórmula **HORA-ak eta MINUTS**:
 
 | Hora | Euskera |
 |---|---|
@@ -83,9 +109,9 @@ Quan han passat minuts de l'hora exacta uses la fórmula **HORA-ak eta MINUTS**:
 
 **Laurden** significa "quart", així que **eta laurden** = "i quart".
 
-## "Menys" — gutxi va al darrere
+## "Menys": gutxi va al darrere
 
-A partir de la mitja endavant, parlem en funció de l'hora següent amb la paraula **gutxi** ("menys"). L'ordre és: **HORA-ak + MINUTS + gutxi**.
+A partir de la mitja en endavant, parlem en funció de l'hora següent amb la paraula **gutxi** ("menys"). L'ordre és: **HORA-ak + MINUTS + gutxi**.
 
 | Hora | Euskera |
 |---|---|
@@ -95,7 +121,7 @@ A partir de la mitja endavant, parlem en funció de l'hora següent amb la parau
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Si véns del castellà, el més estrany és que **gutxi** vagi **al darrere** del número, no al davant. *Bederatziak laurden gutxi* literalment és "les nous quart menys".
+> Si vens del castellà, el més estrany és que **gutxi** vagi **al darrere** del número, no al davant. *Bederatziak laurden gutxi* literalment és "les nou quart menys".
 
 ## Taula resum
 
@@ -107,7 +133,7 @@ A partir de la mitja endavant, parlem en funció de l'hora següent amb la parau
 | menys quart | *laurden gutxi* | després de l'hora següent amb -ak |
 | menys X minuts | *número + gutxi* | després de l'hora següent amb -ak |
 
-## Exemple conversacional
+## Exemple de conversa
 
 > *— Zer ordu da?*
 >
