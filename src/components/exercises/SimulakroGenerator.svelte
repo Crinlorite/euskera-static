@@ -1,5 +1,5 @@
 <script lang="ts">
-  // Generador procedural de simulacros A1 (v2: con entzumena). Banco estático (bundle del
+  // Generador procedural de simulacros A1 (v2.1: con entzumena). Banco estático (bundle del
   // island, funciona offline) + blueprint fijo: la ESTRUCTURA del examen
   // nunca se sortea (2 lecturas de tipos distintos, 10 de gramática con
   // cuota mínima por categoría, tarjetas, 2 de emparejar, 2 escrituras de

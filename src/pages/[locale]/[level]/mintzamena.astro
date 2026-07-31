@@ -1,0 +1,43 @@
+---
+// Ahoskera-gimnasioa (BETA): mintzamena con Whisper EN EL NAVEGADOR.
+// Solo es/a1 de momento, como el simulakro.
+import RootLayout from '../../../layouts/RootLayout.astro';
+import MintzamenaGym from '../../../components/exercises/MintzamenaGym.svelte';
+import type { LocaleCode } from '../../../i18n/config';
+
+export function getStaticPaths() {
+  return [{ params: { locale: 'es', level: 'a1' } }];
+}
+
+const { locale, level } = Astro.params as { locale: LocaleCode; level: string };
+---
+<RootLayout locale={locale} title="Ahoskera-gimnasioa (Beta) — pronuncia y compruébalo">
+  <article class="container gym-page">
+    <header class="gym-header stagger">
+      <p class="eyebrow">
+        <a href={`/${locale}/${level}/`}>← A1 · Todas las unidades</a>
+      </p>
+      <h1 class="display">🎙️ Ahoskera-<span class="text-grad">gimnasioa</span>
+        <span class="beta-tag">BETA</span></h1>
+      <p class="gym-lead">
+        La quinta destreza, <strong>mintzamena</strong>: escucha la frase con voz nativa,
+        grábate diciéndola y una IA que corre <strong>en tu propio dispositivo</strong>
+        te dice qué palabras se han entendido. Nada de lo que grabas sale de tu móvil
+        u ordenador — ni a nuestro servidor ni a ningún otro.
+      </p>
+    </header>
+    <MintzamenaGym client:only="svelte" />
+  </article>
+</RootLayout>
+
+<style>
+  .gym-page { display: grid; gap: var(--s-6); padding-block: var(--s-6) var(--s-9); max-inline-size: 760px; }
+  .gym-header { display: grid; gap: var(--s-3); }
+  .gym-lead { line-height: 1.65; color: var(--c-text-muted); }
+  .beta-tag {
+    display: inline-block; vertical-align: middle;
+    font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em;
+    background: var(--c-red); color: #fff;
+    padding: 2px 10px; border-radius: 999px; margin-inline-start: var(--s-2);
+  }
+</style>
