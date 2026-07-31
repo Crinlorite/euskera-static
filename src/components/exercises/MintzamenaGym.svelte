@@ -19,6 +19,8 @@
   const DECODER_URL = `${MODEL_BASE}/onnx/decoder_model_merged_uint8.onnx`;
 
   type Phase = 'idle' | 'loading' | 'ready' | 'recording' | 'thinking' | 'result' | 'error';
+  // client:only → window existe en init
+  const inApp = typeof (window as any).Kaixo !== 'undefined';
   let phase: Phase = 'idle';
   let loadMsg = '';
   let errMsg = '';
@@ -239,6 +241,14 @@
 <div class="gym">
   {#if phase === 'idle'}
     <div class="card intro">
+      {#if inApp}
+        <p class="warn">📲 <strong>Aviso:</strong> en la app de iOS el micrófono llega en la
+        <strong>próxima actualización</strong>. Esta función está en pruebas y de momento
+        funciona <strong>solo en navegador web</strong> — abre euskera.crintech.pro en Safari o Chrome.</p>
+      {:else}
+        <p class="warn">🧪 Función <strong>en pruebas</strong>: de momento disponible
+        <strong>solo en navegador web</strong> (en la app de iOS llegará en próximas versiones).</p>
+      {/if}
       <p><strong>Cómo funciona:</strong> escucha la frase con la voz nativa → grábate diciéndola →
       tu propio dispositivo comprueba qué palabras se han entendido.</p>
       <p class="fine">Primera vez: descarga el motor (~40 MB, una sola vez). Mide si <em>se te
@@ -298,6 +308,10 @@
     padding: var(--s-5); display: grid; gap: var(--s-3); background: var(--c-bg-alt);
   }
   .intro p { margin: 0; line-height: 1.6; }
+  .warn {
+    background: var(--c-red-soft); border-left: 3px solid var(--c-red);
+    border-radius: var(--r-sm); padding: var(--s-2) var(--s-3); font-size: 0.92rem;
+  }
   .fine { color: var(--c-text-muted); font-size: 0.9rem; }
   .pulse { animation: pulse 1.4s ease-in-out infinite; }
   @keyframes pulse { 50% { opacity: 0.55; } }
