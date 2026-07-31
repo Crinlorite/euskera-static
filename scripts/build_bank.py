@@ -50,22 +50,24 @@ UNIT_CAT = {
 }
 
 BLUEPRINT = {
-    "irakurmena": {"readings": 2, "questionsPer": 4, "distinctKinds": True},
+    "entzumena": {"listenings": 1, "questionsPer": 4, "plays": 2},
+    "irakurmena": {"readings": 2, "questionsPer": 3, "distinctKinds": True},
     "gramatika": {
-        "total": 10,
+        "total": 8,
         "minPerCat": {
             "aurkezpena": 1,
-            "lekuak": 2,
-            "eguneroko": 2,
+            "lekuak": 1,
+            "eguneroko": 1,
             "iragana": 1,
-            "erosketak": 2,
+            "erosketak": 1,
             "azterketa": 1,
         },
     },
     "hiztegia": {"cards": 16, "pairSets": 2, "pairsPerSet": 6},
     "idazmena": {"tasks": 2, "distinctKinds": True},
-    # 8 + 10 + (1 + 2×0.5) + 2×5 = 30
-    "scoring": {"irakurmena": 8, "gramatika": 10, "hiztegia": 2, "idazmena": 10, "total": 30},
+    # 4 + 6 + 8 + (1 + 2×0.5) + 2×5 = 30
+    "scoring": {"entzumena": 4, "irakurmena": 6, "gramatika": 8, "hiztegia": 2,
+                "idazmena": 10, "total": 30},
 }
 
 
@@ -331,6 +333,162 @@ SEED_READINGS = [
             {"id": "rd-pos-4", "prompt": "¿Cuándo vuelven a casa?",
              "options": ["El domingo", "Mañana", "El viernes", "No lo dicen"], "answer": 2,
              "explanation": "\"Ostiralean etxera itzuliko gara\" — futuro -ko: volverEMOS el viernes."},
+        ],
+    },
+]
+
+# ═══════════════════ SEED: entzumena (audio + preguntas) ═══════════════════
+# El audio se genera UNA vez con scripts/gen_listenings.py (TTS + verificación
+# por transcripción) → public/audio/eu/ls-<id>.mp3. El transcriptEu se enseña
+# SOLO tras responder las preguntas. kind ∈ elkarrizketa | iragarkia | mezua.
+# speakers: None = una voz; [(nombre, voz), …] = diálogo multivoz.
+
+SEED_LISTENINGS = [
+    {
+        "id": "ls-kafetegian", "kind": "elkarrizketa", "title": "Kafetegian",
+        "speakers": [("Miren", "Kore"), ("Jon", "Puck")],
+        "transcriptEu": (
+            "Miren: Egun on! Zer nahi duzu?\n"
+            "Jon: Kaixo! Kafe bat esnearekin, mesedez.\n"
+            "Miren: Zerbait jateko?\n"
+            "Jon: Bai, kruasan bat. Zenbat da?\n"
+            "Miren: Hiru euro eta berrogeita hamar.\n"
+            "Jon: Hartu, lau euro.\n"
+            "Miren: Eskerrik asko! Berrogeita hamar zentimo zuretzat."
+        ),
+        "questions": [
+            {"id": "ls-kaf-1", "prompt": "¿Qué pide Jon para beber?",
+             "options": ["Un té", "Un café con leche", "Un café solo", "Un zumo"], "answer": 1,
+             "explanation": "«Kafe bat esnearekin» — café con leche (esnea + -arekin)."},
+            {"id": "ls-kaf-2", "prompt": "¿Qué pide para comer?",
+             "options": ["Una tostada", "Un pintxo", "Un cruasán", "Nada"], "answer": 2,
+             "explanation": "«Kruasan bat» — un cruasán."},
+            {"id": "ls-kaf-3", "prompt": "¿Cuánto cuesta todo?",
+             "options": ["3,50 €", "4 €", "3 €", "4,50 €"], "answer": 0,
+             "explanation": "«Hiru euro eta berrogeita hamar» — tres euros y cincuenta."},
+            {"id": "ls-kaf-4", "prompt": "¿Con cuánto paga Jon?",
+             "options": ["Con 3,50 justos", "Con 5 euros", "Con 4 euros", "Con tarjeta"], "answer": 2,
+             "explanation": "«Hartu, lau euro» — toma, cuatro euros. La vuelta: 50 céntimos."},
+        ],
+    },
+    {
+        "id": "ls-zermoduz", "kind": "elkarrizketa", "title": "Bi lagun kalean",
+        "speakers": [("Ane", "Kore"), ("Mikel", "Puck")],
+        "transcriptEu": (
+            "Ane: Kaixo, Mikel! Zer moduz?\n"
+            "Mikel: Oso ondo, eta zu?\n"
+            "Ane: Ni ere ondo. Nora zoaz?\n"
+            "Mikel: Lanera noa. Bulego batean egiten dut lan, Bilbon.\n"
+            "Ane: Ni euskara-klasera noa, asteartero.\n"
+            "Mikel: Oso ondo! Gero arte, Ane!\n"
+            "Ane: Agur, Mikel!"
+        ),
+        "questions": [
+            {"id": "ls-zer-1", "prompt": "¿Cómo está Mikel?",
+             "options": ["Muy bien", "Cansado", "Regular", "No lo dice"], "answer": 0,
+             "explanation": "«Oso ondo» — muy bien."},
+            {"id": "ls-zer-2", "prompt": "¿A dónde va Mikel?",
+             "options": ["A clase de euskera", "Al trabajo", "A casa", "Al bar"], "answer": 1,
+             "explanation": "«Lanera noa» — voy al trabajo."},
+            {"id": "ls-zer-3", "prompt": "¿Dónde trabaja Mikel?",
+             "options": ["En una escuela", "En un hospital", "En una oficina en Bilbao", "En una tienda"], "answer": 2,
+             "explanation": "«Bulego batean egiten dut lan, Bilbon» — en una oficina, en Bilbao."},
+            {"id": "ls-zer-4", "prompt": "¿Cuándo va Ane a clase de euskera?",
+             "options": ["Todos los días", "Los lunes", "Cada martes", "Los fines de semana"], "answer": 2,
+             "explanation": "«Asteartero» — cada martes (astearte + -ro)."},
+        ],
+    },
+    {
+        "id": "ls-geltokia", "kind": "iragarkia", "title": "Tren-geltokian (megafonia)",
+        "speakers": None,
+        "transcriptEu": (
+            "Arratsalde on. Donostiara doan trena laugarren bidetik aterako da, "
+            "seiak eta erdietan. Trenak hamar minutuko atzerapena du. "
+            "Txartelak leihatilan edo makinetan eros ditzakezue. Eskerrik asko."
+        ),
+        "questions": [
+            {"id": "ls-gel-1", "prompt": "¿A dónde va el tren?",
+             "options": ["A Bilbao", "A Donostia", "A Iruñea", "A Gasteiz"], "answer": 1,
+             "explanation": "«Donostiara doan trena» — el tren que va a Donostia."},
+            {"id": "ls-gel-2", "prompt": "¿De qué vía sale?",
+             "options": ["De la segunda", "De la primera", "De la cuarta", "De la sexta"], "answer": 2,
+             "explanation": "«Laugarren bidetik» — de la cuarta vía (lau → laugarren)."},
+            {"id": "ls-gel-3", "prompt": "¿A qué hora sale?",
+             "options": ["A las seis y media", "A las seis", "A las siete y media", "A las seis y cuarto"], "answer": 0,
+             "explanation": "«Seiak eta erdietan» — a las seis y media."},
+            {"id": "ls-gel-4", "prompt": "¿Qué pasa con el tren?",
+             "options": ["Está cancelado", "Llega 10 minutos tarde", "Sale antes de hora", "Cambia de vía"], "answer": 1,
+             "explanation": "«Hamar minutuko atzerapena du» — lleva diez minutos de retraso."},
+        ],
+    },
+    {
+        "id": "ls-denda", "kind": "iragarkia", "title": "Supermerkatuan (megafonia)",
+        "speakers": None,
+        "transcriptEu": (
+            "Arratsalde on, bezero maiteok. Gaur sagarrak eskaintzan daude: "
+            "kiloa euro batean. Fruta-saila bigarren solairuan dago. "
+            "Gogoratu: denda zortzietan itxiko dugu. Eskerrik asko eta ongi etorri!"
+        ),
+        "questions": [
+            {"id": "ls-den-1", "prompt": "¿Qué está de oferta hoy?",
+             "options": ["Las naranjas", "Las manzanas", "El pan", "La leche"], "answer": 1,
+             "explanation": "«Sagarrak eskaintzan daude» — las manzanas están de oferta."},
+            {"id": "ls-den-2", "prompt": "¿Cuánto cuesta el kilo?",
+             "options": ["Dos euros", "Un euro", "Un euro y medio", "Cincuenta céntimos"], "answer": 1,
+             "explanation": "«Kiloa euro batean» — el kilo, a un euro."},
+            {"id": "ls-den-3", "prompt": "¿Dónde está la sección de fruta?",
+             "options": ["En la entrada", "En el sótano", "En la segunda planta", "Junto a la caja"], "answer": 2,
+             "explanation": "«Bigarren solairuan» — en la segunda planta."},
+            {"id": "ls-den-4", "prompt": "¿A qué hora cierra la tienda?",
+             "options": ["A las siete", "A las nueve", "A las ocho y media", "A las ocho"], "answer": 3,
+             "explanation": "«Zortzietan itxiko dugu» — cerraremos a las ocho."},
+        ],
+    },
+    {
+        "id": "ls-abisua", "kind": "mezua", "title": "Aitonaren mezua (erantzungailua)",
+        "speakers": None,
+        "transcriptEu": (
+            "Kaixo, maitea! Aitona naiz. Bihar herrira etorriko naiz, "
+            "eguerdian. Elkarrekin bazkalduko dugu, ados? Mesedez, "
+            "erosi ogia eta gazta. Ondo izan, laster arte!"
+        ),
+        "questions": [
+            {"id": "ls-abi-1", "prompt": "¿Quién deja el mensaje?",
+             "options": ["El padre", "El abuelo", "Un amigo", "El profesor"], "answer": 1,
+             "explanation": "«Aitona naiz» — soy el abuelo."},
+            {"id": "ls-abi-2", "prompt": "¿Cuándo viene?",
+             "options": ["Hoy por la tarde", "El domingo", "Mañana al mediodía", "Mañana por la noche"], "answer": 2,
+             "explanation": "«Bihar… eguerdian» — mañana, al mediodía."},
+            {"id": "ls-abi-3", "prompt": "¿Qué plan propone?",
+             "options": ["Cenar juntos", "Ir al monte", "Comer juntos", "Ver un partido"], "answer": 2,
+             "explanation": "«Elkarrekin bazkalduko dugu» — comeremos juntos (bazkaldu = comer a mediodía)."},
+            {"id": "ls-abi-4", "prompt": "¿Qué hay que comprar?",
+             "options": ["Pan y queso", "Vino y pan", "Fruta", "Pescado"], "answer": 0,
+             "explanation": "«Erosi ogia eta gazta» — compra pan y queso."},
+        ],
+    },
+    {
+        "id": "ls-lagunmezua", "kind": "mezua", "title": "Lagunaren audio-mezua",
+        "speakers": None,
+        "transcriptEu": (
+            "Aupa! Entzun: gaur ezin dugu zazpietan geratu. Nire anaia "
+            "berandu aterako da lanetik. Zortzietan geratuko gara, ados? "
+            "Eta plaza berrian, ez zaharrean — euria egingo du eta han "
+            "aterpea dago. Erantzun, mesedez!"
+        ),
+        "questions": [
+            {"id": "ls-lag-1", "prompt": "¿A qué hora quedan FINALMENTE?",
+             "options": ["A las siete", "A las ocho", "A las nueve", "A las siete y media"], "answer": 1,
+             "explanation": "«Zortzietan geratuko gara» — la nueva hora: las ocho. Las siete se cancelan."},
+            {"id": "ls-lag-2", "prompt": "¿Por qué cambia el plan?",
+             "options": ["Está enfermo", "Su hermano sale tarde del trabajo", "Llueve", "Ha perdido el bus"], "answer": 1,
+             "explanation": "«Nire anaia berandu aterako da lanetik» — su hermano sale tarde de trabajar."},
+            {"id": "ls-lag-3", "prompt": "¿Dónde quedan?",
+             "options": ["En la plaza vieja", "En el bar", "En la plaza nueva", "En casa"], "answer": 2,
+             "explanation": "«Plaza berrian, ez zaharrean» — en la plaza nueva, no en la vieja."},
+            {"id": "ls-lag-4", "prompt": "¿Qué tiempo va a hacer?",
+             "options": ["Sol", "Nieve", "Viento", "Lluvia"], "answer": 3,
+             "explanation": "«Euria egingo du» — va a llover (por eso eligen sitio con aterpe/cubierto)."},
         ],
     },
 ]
@@ -643,6 +801,11 @@ def main():
         "cards": cards,
         "pairSets": pair_sets,
         "readings": SEED_READINGS,
+        # speakers no viaja al cliente (solo lo usa gen_listenings.py)
+        "listenings": [{"id": l["id"], "kind": l["kind"], "title": l["title"],
+                        "audio": f"{l['id']}.mp3", "transcriptEu": l["transcriptEu"],
+                        "questions": l["questions"]}
+                       for l in SEED_LISTENINGS],
         "writings": SEED_WRITINGS,
         "unitTitles": unit_titles(),
     }
@@ -654,6 +817,11 @@ def main():
         assert dist.get(cat, 0) >= n * 3, f"categoría {cat} escasa: {dist.get(cat, 0)}"
     kinds_r = Counter(r["kind"] for r in SEED_READINGS)
     assert len(kinds_r) >= 2 and len(SEED_READINGS) >= 3
+    assert len(SEED_LISTENINGS) >= 3 and len({l["kind"] for l in SEED_LISTENINGS}) >= 2
+    for l in SEED_LISTENINGS:
+        assert len(l["questions"]) >= BLUEPRINT["entzumena"]["questionsPer"], l["id"]
+        for q in l["questions"]:
+            assert 0 <= q["answer"] < len(q["options"]), q["id"]
     assert len({w["kind"] for w in SEED_WRITINGS}) >= 2
     for w in SEED_WRITINGS:
         assert len(w["checks"]) == 5, f"{w['id']}: {len(w['checks'])} checks (deben ser 5)"
