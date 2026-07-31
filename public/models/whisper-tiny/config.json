@@ -146,7 +146,7 @@
     50361,
     50362
   ],
-  "transformers_version": "4.33.0.dev0",
+  "transformers_version": "4.38.2",
   "use_cache": true,
   "use_weighted_layer_sum": false,
   "vocab_size": 51865
