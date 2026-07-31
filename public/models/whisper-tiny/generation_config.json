@@ -144,10 +144,11 @@
     "<|yo|>": 50325,
     "<|zh|>": 50260
   },
-  "max_initial_timestamp_index": 1,
+  "max_initial_timestamp_index": 50,
   "max_length": 448,
   "no_timestamps_token_id": 50363,
   "pad_token_id": 50257,
+  "prev_sot_token_id": 50361,
   "return_timestamps": false,
   "suppress_tokens": [
     1,
@@ -243,5 +244,6 @@
     "transcribe": 50359,
     "translate": 50358
   },
-  "transformers_version": "4.33.0.dev0"
+  "transformers_version": "4.38.2",
+  "trust_remote_code": false
 }

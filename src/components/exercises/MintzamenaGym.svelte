@@ -16,7 +16,7 @@
 
   const M = audioManifest as Record<string, string>;
   const MODEL_BASE = '/models/whisper-tiny';
-  const DECODER_URL = `${MODEL_BASE}/onnx/decoder_model_merged_quantized.onnx`;
+  const DECODER_URL = `${MODEL_BASE}/onnx/decoder_model_merged_uint8.onnx`;
 
   type Phase = 'idle' | 'loading' | 'ready' | 'recording' | 'thinking' | 'result' | 'error';
   let phase: Phase = 'idle';
@@ -49,8 +49,12 @@
     s.normalize('NFD').toLowerCase().split(/\s+/).map((w) => w.replace(/[^a-z0-9ñ]/g, '')).filter(Boolean);
 
   async function primeCache() {
-    const cache = await caches.open('whisper-eu-v1');
-    if (await cache.match(DECODER_URL)) return;
+    // transformers.js busca en SU caché ('transformers-cache') con la URL
+    // ABSOLUTA como clave — sembrar exactamente ahí o el motor re-descarga
+    // (y el decoder entero no existe como fichero: está partido).
+    const cache = await caches.open('transformers-cache');
+    const absUrl = new URL(DECODER_URL, location.origin).href;
+    if (await cache.match(absUrl)) return;
     loadMsg = 'Descargando el motor (una sola vez, ~40 MB)…';
     const parts = await Promise.all(
       [`${MODEL_BASE}/decoder_00.part`, `${MODEL_BASE}/decoder_01.part`].map(async (u) => {
@@ -60,7 +64,12 @@
       }),
     );
     const blob = new Blob(parts, { type: 'application/octet-stream' });
-    await cache.put(DECODER_URL, new Response(blob, { headers: { 'Content-Length': String(blob.size) } }));
+    const resp = new Response(blob, {
+      status: 200,
+      headers: { 'Content-Type': 'application/octet-stream', 'Content-Length': String(blob.size) },
+    });
+    await cache.put(absUrl, resp.clone());
+    await cache.put(DECODER_URL, resp);   // clave relativa también, por si acaso
   }
 
   async function initEngine() {
@@ -70,24 +79,24 @@
       await primeCache();
       loadMsg = 'Arrancando Whisper en tu dispositivo…';
       const t = await import('@huggingface/transformers');
+      // allowLocalModels arranca en false en algunos entornos (WKWebView de
+      // la app iOS incluido): con remote también apagado, el motor no tiene
+      // de dónde tirar — «both local and remote models are disabled».
+      t.env.allowLocalModels = true;
       t.env.allowRemoteModels = false;
       t.env.localModelPath = '/models';
       t.env.useBrowserCache = true;
+      // WASM siempre (la ruleta WebGPU rompía en headless/dispositivos raros)
+      // y runtime ONNX auto-alojado: CERO peticiones a CDNs externos.
+      t.env.backends.onnx.wasm.wasmPaths = '/ort/';
       transcriber = await t.pipeline('automatic-speech-recognition', 'whisper-tiny', {
-        dtype: 'q8',
-        device: (navigator as any).gpu ? 'webgpu' : 'wasm',
+        dtype: { encoder_model: 'q8', decoder_model_merged: 'uint8' },
+        device: 'wasm',
       });
       phase = 'ready';
     } catch (e) {
-      // WebGPU puede fallar a mitad de init: reintento en wasm puro
-      try {
-        const t = await import('@huggingface/transformers');
-        transcriber = await t.pipeline('automatic-speech-recognition', 'whisper-tiny', { dtype: 'q8', device: 'wasm' });
-        phase = 'ready';
-      } catch (e2) {
-        errMsg = `${e2}`.slice(0, 160);
-        phase = 'error';
-      }
+      errMsg = `${e}`.slice(0, 200);
+      phase = 'error';
     }
   }
 
@@ -112,8 +121,10 @@
       };
       rec.start();
       phase = 'recording';
-    } catch {
-      errMsg = 'No hay acceso al micrófono (permiso denegado).';
+    } catch (e: any) {
+      errMsg = e?.name === 'NotFoundError'
+        ? 'No se ha encontrado ningún micrófono en este dispositivo.'
+        : 'No hay acceso al micrófono (permiso denegado en el navegador).';
       phase = 'error';
     }
   }
@@ -168,7 +179,7 @@
   {#if phase === 'idle'}
     <div class="card intro">
       <p><strong>Cómo funciona:</strong> escucha la frase con la voz nativa → grábate diciéndola →
-      la IA (en TU dispositivo, nada sale de él) te dice qué palabras se han entendido.</p>
+      tu propio dispositivo comprueba qué palabras se han entendido.</p>
       <p class="fine">Primera vez: descarga el motor (~40 MB, una sola vez). Mide si <em>se te
       entiende</em> — el acento fino es cosa tuya y del oído 😉. Función <strong>Beta</strong>.</p>
       <button class="btn btn-primary" on:click={initEngine}>🚀 Preparar el gimnasio</button>
@@ -208,7 +219,7 @@
             {/each}
           </p>
           <p class="score">{nOk}/{hits.length} palabras reconocidas · {verdict}</p>
-          {#if heard}<p class="heard">La IA ha oído: «{heard}»</p>{/if}
+          {#if heard}<p class="heard">Se ha oído: «{heard}»</p>{/if}
         </div>
       {/if}
     </div>
