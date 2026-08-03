@@ -1,7 +1,7 @@
 <script lang="ts">
   // Ahoskera-gimnasioa (BETA) — mintzamena a coste CERO y privacidad total:
-  // Whisper-tiny corre EN EL NAVEGADOR (transformers.js, WebGPU si hay y
-  // WASM si no). El audio del usuario JAMÁS sale de su dispositivo.
+  // el reconocedor corre EN EL NAVEGADOR (transformers.js, WASM). El audio
+  // del usuario JAMÁS sale de su dispositivo.
   //
   // Truco de hosting: CF Pages rechaza ficheros >25MB, así que el decoder
   // (30MB) viaja partido en dos .part; antes de arrancar el motor los
@@ -13,6 +13,10 @@
   // debe decir): palabras reconocidas, en positivo. No puntúa el examen.
   import { onDestroy } from 'svelte';
   import audioManifest from '../../data/audio-eu.json';
+  import { t, tf } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
+
+  export let locale: LocaleCode = 'es';
 
   const M = audioManifest as Record<string, string>;
   const MODEL_BASE = '/models/whisper-tiny';
@@ -62,11 +66,11 @@
     const cache = await caches.open('transformers-cache');
     const absUrl = new URL(DECODER_URL, location.origin).href;
     if (await cache.match(absUrl)) return;
-    loadMsg = 'Descargando el motor (una sola vez, ~40 MB)…';
+    loadMsg = t(locale, 'gym.load.download');
     const parts = await Promise.all(
       [`${MODEL_BASE}/decoder_00.part`, `${MODEL_BASE}/decoder_01.part`].map(async (u) => {
         const r = await fetch(u);
-        if (!r.ok) throw new Error(`no se pudo bajar ${u}`);
+        if (!r.ok) throw new Error(`fetch ${u}: ${r.status}`);
         return r.arrayBuffer();
       }),
     );
@@ -84,19 +88,19 @@
     errMsg = '';
     try {
       await primeCache();
-      loadMsg = 'Arrancando Whisper en tu dispositivo…';
-      const t = await import('@huggingface/transformers');
+      loadMsg = t(locale, 'gym.load.start');
+      const t2 = await import('@huggingface/transformers');
       // allowLocalModels arranca en false en algunos entornos (WKWebView de
       // la app iOS incluido): con remote también apagado, el motor no tiene
       // de dónde tirar — «both local and remote models are disabled».
-      t.env.allowLocalModels = true;
-      t.env.allowRemoteModels = false;
-      t.env.localModelPath = '/models';
-      t.env.useBrowserCache = true;
+      t2.env.allowLocalModels = true;
+      t2.env.allowRemoteModels = false;
+      t2.env.localModelPath = '/models';
+      t2.env.useBrowserCache = true;
       // WASM siempre (la ruleta WebGPU rompía en headless/dispositivos raros)
       // y runtime ONNX auto-alojado: CERO peticiones a CDNs externos.
-      t.env.backends.onnx.wasm.wasmPaths = '/ort/';
-      transcriber = await t.pipeline('automatic-speech-recognition', 'whisper-tiny', {
+      t2.env.backends.onnx.wasm.wasmPaths = '/ort/';
+      transcriber = await t2.pipeline('automatic-speech-recognition', 'whisper-tiny', {
         dtype: { encoder_model: 'q8', decoder_model_merged: 'uint8' },
         device: 'wasm',
       });
@@ -144,12 +148,11 @@
       }
       phase = 'recording';
     } catch (e: any) {
-      const inApp = typeof (window as any).Kaixo !== 'undefined';
       errMsg = inApp
-        ? 'El micrófono llegará a la app en su próxima actualización 📲 Mientras tanto, abre euskera.crintech.pro en Safari o Chrome y el gimnasio funciona al completo.'
+        ? t(locale, 'gym.err.mic.app')
         : e?.name === 'NotFoundError'
-          ? 'No se ha encontrado ningún micrófono en este dispositivo.'
-          : 'No hay acceso al micrófono (permiso denegado en el navegador).';
+          ? t(locale, 'gym.err.mic.none')
+          : t(locale, 'gym.err.mic.denied');
       phase = 'error';
     }
   }
@@ -203,7 +206,7 @@
     if (myUrl) URL.revokeObjectURL(myUrl);
     myUrl = URL.createObjectURL(wavFromFloat32(raw, rate));
     try {
-      if (raw.length < rate * 0.3) throw new Error('grabación demasiado corta');
+      if (raw.length < rate * 0.3) throw new Error(t(locale, 'gym.err.short'));
       const mono = await resampleTo16k(raw, rate);
       const out = await transcriber(mono, { language: 'basque', task: 'transcribe' });
       heard = (out?.text ?? '').trim();
@@ -212,7 +215,7 @@
       hits = tw.map((w) => hw.has(w) || [...hw].some((h) => h.length > 2 && (w.includes(h) || h.includes(w))));
       phase = 'result';
     } catch (e) {
-      errMsg = `No se pudo analizar: ${e}`.slice(0, 160);
+      errMsg = tf(locale, 'gym.err.analyze', `${e}`.slice(0, 120));
       phase = 'error';
     }
   }
@@ -230,10 +233,10 @@
   $: nOk = hits.filter(Boolean).length;
   $: verdict =
     hits.length === 0 ? '' :
-    nOk === hits.length ? '¡Redondo! Se te ha entendido TODO.' :
-    nOk >= Math.ceil(hits.length * 0.6) ? 'Muy bien — se te entiende. Pulir lo marcado y otra vez.' :
-    nOk > 0 ? 'Se entiende una parte. Escucha la referencia y repite despacio.' :
-    'El micro no ha pillado la frase — acércate, habla claro y prueba de nuevo.';
+    nOk === hits.length ? t(locale, 'gym.v.all') :
+    nOk >= Math.ceil(hits.length * 0.6) ? t(locale, 'gym.v.most') :
+    nOk > 0 ? t(locale, 'gym.v.some') :
+    t(locale, 'gym.v.none');
 
   onDestroy(() => { refAudio?.pause(); if (myUrl) URL.revokeObjectURL(myUrl); });
 </script>
@@ -242,43 +245,37 @@
   {#if phase === 'idle'}
     <div class="card intro">
       {#if inApp}
-        <p class="warn">📲 <strong>Aviso:</strong> en la app de iOS el micrófono llega en la
-        <strong>próxima actualización</strong>. Esta función está en pruebas y de momento
-        funciona <strong>solo en navegador web</strong> — abre euskera.crintech.pro en Safari o Chrome.</p>
+        <p class="warn">📲 {t(locale, 'gym.warn.inapp')}</p>
       {:else}
-        <p class="warn">🧪 Función <strong>en pruebas</strong>: de momento disponible
-        <strong>solo en navegador web</strong> (en la app de iOS llegará en próximas versiones).</p>
+        <p class="warn">🧪 {t(locale, 'gym.warn.web')}</p>
       {/if}
-      <p><strong>Cómo funciona:</strong> escucha la frase con la voz nativa → grábate diciéndola →
-      tu propio dispositivo comprueba qué palabras se han entendido.</p>
-      <p class="fine">Primera vez: descarga el motor (~40 MB, una sola vez). Mide si <em>se te
-      entiende</em> — el acento fino es cosa tuya y del oído 😉. Función <strong>Beta</strong>.</p>
-      <button class="btn btn-primary" on:click={initEngine}>🚀 Preparar el gimnasio</button>
+      <p>{t(locale, 'gym.how')}</p>
+      <p class="fine">{t(locale, 'gym.first')}</p>
+      <button class="btn btn-primary" on:click={initEngine}>🚀 {t(locale, 'gym.start')}</button>
     </div>
   {:else if phase === 'loading'}
     <div class="card"><p class="pulse">⏳ {loadMsg}</p></div>
   {:else if phase === 'error'}
     <div class="card">
       <p>😕 {errMsg}</p>
-      <p class="fine">Puedes practicar igual en modo espejo: escucha la referencia y grábate con
-      la app de notas de voz del móvil para compararte.</p>
-      <button class="btn btn-secondary" on:click={initEngine}>Reintentar</button>
+      <p class="fine">{t(locale, 'gym.mirror')}</p>
+      <button class="btn btn-secondary" on:click={initEngine}>{t(locale, 'gym.retry')}</button>
     </div>
   {:else}
     <div class="card">
-      <p class="counter">Frase {idx + 1} / {phrases.length}</p>
+      <p class="counter">{tf(locale, 'gym.counter', idx + 1, phrases.length)}</p>
       <p class="phrase">{target}</p>
       <div class="row">
-        <button class="btn btn-secondary" on:click={playRef}>🔊 Referencia</button>
+        <button class="btn btn-secondary" on:click={playRef}>🔊 {t(locale, 'gym.ref')}</button>
         {#if phase === 'ready' || phase === 'result'}
-          <button class="btn btn-primary" on:click={startRec}>🎙️ {phase === 'result' ? 'Otra vez' : 'Grabar'}</button>
+          <button class="btn btn-primary" on:click={startRec}>🎙️ {phase === 'result' ? t(locale, 'gym.again') : t(locale, 'gym.rec')}</button>
         {:else if phase === 'recording'}
-          <button class="btn btn-primary rec" on:click={stopRec}>⏹ Parar</button>
+          <button class="btn btn-primary rec" on:click={stopRec}>⏹ {t(locale, 'gym.stop')}</button>
         {:else}
-          <button class="btn btn-primary" disabled>🧠 Analizando…</button>
+          <button class="btn btn-primary" disabled>🧠 {t(locale, 'gym.analyzing')}</button>
         {/if}
         {#if myUrl && phase === 'result'}
-          <button class="btn btn-secondary" on:click={playMine}>▶ Mi voz</button>
+          <button class="btn btn-secondary" on:click={playMine}>▶ {t(locale, 'gym.mine')}</button>
         {/if}
       </div>
 
@@ -289,14 +286,14 @@
               <span class:ok={hits[i]} class:ko={!hits[i]}>{w}</span>
             {/each}
           </p>
-          <p class="score">{nOk}/{hits.length} palabras reconocidas · {verdict}</p>
-          {#if heard}<p class="heard">Se ha oído: «{heard}»</p>{/if}
+          <p class="score">{tf(locale, 'gym.score', nOk, hits.length)} · {verdict}</p>
+          {#if heard}<p class="heard">{tf(locale, 'gym.heard', heard)}</p>{/if}
         </div>
       {/if}
     </div>
     <div class="row foot">
-      <button class="btn btn-secondary" on:click={next}>Siguiente frase →</button>
-      <button class="btn btn-secondary" on:click={reshuffle}>🎲 Otras 10</button>
+      <button class="btn btn-secondary" on:click={next}>{t(locale, 'gym.next')}</button>
+      <button class="btn btn-secondary" on:click={reshuffle}>🎲 {t(locale, 'gym.reshuffle')}</button>
     </div>
   {/if}
 </div>

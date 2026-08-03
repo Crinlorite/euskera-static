@@ -28,9 +28,18 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-LESSONS = ROOT / "src/content/lessons/es/a1"
-UNITS = ROOT / "src/content/units/es/a1"
-OUT = ROOT / "src/data/bank/a1.es.json"
+# Rutas por locale: la cosecha (items/cards/pairs/títulos) sale del content YA
+# traducido de cada idioma; los SEED_* (solo-es) se localizan con el overlay
+# scripts/seed_i18n/<loc>.json — el euskera jamás se toca (paridad por construcción).
+LOCALES = ["es", "ca", "gl", "ast", "an", "oc", "en", "ar", "fr", "ro", "pt-BR",
+           "de", "it", "ru", "pl", "zh-Hans", "ja", "ko"]
+def lessons_dir(loc): return ROOT / f"src/content/lessons/{loc}/a1"
+def units_dir(loc): return ROOT / f"src/content/units/{loc}/a1"
+def out_path(loc): return ROOT / f"src/data/bank/a1.{loc}.json"
+def overlay_path(loc): return ROOT / f"scripts/seed_i18n/{loc}.json"
+LESSONS = lessons_dir("es")
+UNITS = units_dir("es")
+OUT = out_path("es")
 
 # ── categorías de gramática por unidad (para las cuotas del blueprint) ──
 UNIT_CAT = {
@@ -91,10 +100,10 @@ def norm(s: str) -> str:
     return "".join(c for c in s if unicodedata.category(c) != "Mn")
 
 
-def collect():
+def collect(loc="es"):
     items, cards, pair_sets = [], [], []
     seen_eu = set()
-    for f in sorted(LESSONS.rglob("*.md")):
+    for f in sorted(lessons_dir(loc).rglob("*.md")):
         unit = f.parent.name
         m = re.match(r"^---\n(.*?)\n---\n", f.read_text(encoding="utf-8"), re.S)
         if not m:
@@ -132,9 +141,9 @@ def collect():
     return items, cards, pair_sets
 
 
-def unit_titles():
+def unit_titles(loc="es"):
     out = {}
-    for d in sorted(UNITS.iterdir()):
+    for d in sorted(units_dir(loc).iterdir()):
         y = d / "index.yaml"
         if y.exists():
             fm = yaml.safe_load(y.read_text(encoding="utf-8"))
@@ -783,69 +792,150 @@ SEED_PAIRSETS = [
 ]
 
 
-def main():
-    items, cards, pair_sets = collect()
-    items = items + SEED_GR
+def load_overlay(loc):
+    """Traducciones de los SEED_* (que solo existen en es). es → sin overlay."""
+    if loc == "es":
+        return {}, []
+    p = overlay_path(loc)
+    if not p.exists():
+        sys.exit(f"✗ falta el overlay de seeds: {p.relative_to(ROOT)}")
+    return json.loads(p.read_text(encoding="utf-8")), []
+
+
+def _ov(overlay, missing, key, fallback):
+    if key in overlay:
+        return overlay[key]
+    missing.append(key)
+    return fallback
+
+
+def localized_seeds(loc):
+    """Copias profundas de los SEED_* con lo vehicular sustituido por el overlay.
+    El euskera (html de lecturas, transcriptEu, modelos, respuestas, reglas,
+    ids, kinds) se copia tal cual del original: paridad por construcción."""
+    overlay, missing = load_overlay(loc)
+    if loc == "es":
+        return SEED_GR, SEED_CARDS, SEED_PAIRSETS, SEED_READINGS, SEED_LISTENINGS, SEED_WRITINGS, []
+
+    def q_loc(q, pref):
+        out = dict(q)
+        out["prompt"] = _ov(overlay, missing, f"{pref}:{q['id']}.prompt", q["prompt"])
+        if "options" in q:
+            out["options"] = [_ov(overlay, missing, f"{pref}:{q['id']}.opt{i}", o)
+                              for i, o in enumerate(q["options"])]
+        if q.get("explanation"):
+            out["explanation"] = _ov(overlay, missing, f"{pref}:{q['id']}.expl", q["explanation"])
+        return out
+
+    gr = []
+    for it in SEED_GR:
+        o = dict(it)
+        o["prompt"] = _ov(overlay, missing, f"it:{it['id']}.prompt", it["prompt"])
+        if it.get("explanation"):
+            o["explanation"] = _ov(overlay, missing, f"it:{it['id']}.expl", it["explanation"])
+        if "options" in it:  # opciones eu se dejan tal cual salvo overlay explícito
+            o["options"] = [overlay.get(f"it:{it['id']}.opt{i}", op)
+                            for i, op in enumerate(it["options"])]
+        gr.append(o)
+
+    cards = [{**c, "es": _ov(overlay, missing, f"sc:{norm(c['eu'])}", c["es"])} for c in SEED_CARDS]
+    pairs = [{**s, "pairs": [{**p, "es": _ov(overlay, missing, f"sp:{s['id']}.{i}", p["es"])}
+                             for i, p in enumerate(s["pairs"])]} for s in SEED_PAIRSETS]
+    readings = [{**r, "questions": [q_loc(q, "rq") for q in r["questions"]]} for r in SEED_READINGS]
+    listenings = [{**l, "questions": [q_loc(q, "lq") for q in l["questions"]]} for l in SEED_LISTENINGS]
+    writings = [{**w,
+                 "task": _ov(overlay, missing, f"wr:{w['id']}.task", w["task"]),
+                 "checks": [{**c, "label": _ov(overlay, missing, f"wr:{w['id']}.chk{i}", c["label"])}
+                            for i, c in enumerate(w["checks"])]} for w in SEED_WRITINGS]
+    return gr, cards, pairs, readings, listenings, writings, missing
+
+
+def build_bank(loc):
+    items, cards, pair_sets = collect(loc)
+    gr, s_cards, s_pairs, s_readings, s_listenings, s_writings, missing = localized_seeds(loc)
+    items = items + gr
     seen = {norm(c["eu"]) for c in cards}
-    for c in SEED_CARDS:
+    for c in s_cards:
         if norm(c["eu"]) not in seen:
             seen.add(norm(c["eu"]))
             cards.append({**c, "unit": "azterketa"})
-    pair_sets = pair_sets + SEED_PAIRSETS
+    pair_sets = pair_sets + s_pairs
     bank = {
         "version": 1,
         "level": "a1",
-        "locale": "es",
+        "locale": loc,
         "blueprint": BLUEPRINT,
         "items": items,
         "cards": cards,
         "pairSets": pair_sets,
-        "readings": SEED_READINGS,
+        "readings": s_readings,
         # speakers no viaja al cliente (solo lo usa gen_listenings.py)
         "listenings": [{"id": l["id"], "kind": l["kind"], "title": l["title"],
                         "audio": f"{l['id']}.mp3", "transcriptEu": l["transcriptEu"],
                         "questions": l["questions"]}
-                       for l in SEED_LISTENINGS],
-        "writings": SEED_WRITINGS,
-        "unitTitles": unit_titles(),
+                       for l in s_listenings],
+        "writings": s_writings,
+        "unitTitles": unit_titles(loc),
     }
+    return bank, missing
+
+
+def main():
+    args = sys.argv[1:]
+    locs = LOCALES if "--all" in args else (args or ["es"])
+    for loc in locs:
+        write_bank(loc)
+
+
+def write_bank(loc):
+    bank, missing = build_bank(loc)
+    items, cards = bank["items"], bank["cards"]
+    SEED_READINGS_L, SEED_LISTENINGS_L, SEED_WRITINGS_L = bank["readings"], bank["listenings"], bank["writings"]
 
     # ── sanity: las cuotas del blueprint caben en el banco ──
     from collections import Counter
     dist = Counter(i["cat"] for i in items)
     for cat, n in BLUEPRINT["gramatika"]["minPerCat"].items():
-        assert dist.get(cat, 0) >= n * 3, f"categoría {cat} escasa: {dist.get(cat, 0)}"
-    kinds_r = Counter(r["kind"] for r in SEED_READINGS)
-    assert len(kinds_r) >= 2 and len(SEED_READINGS) >= 3
-    assert len(SEED_LISTENINGS) >= 3 and len({l["kind"] for l in SEED_LISTENINGS}) >= 2
-    for l in SEED_LISTENINGS:
+        assert dist.get(cat, 0) >= n * 3, f"[{loc}] categoría {cat} escasa: {dist.get(cat, 0)}"
+    kinds_r = Counter(r["kind"] for r in SEED_READINGS_L)
+    assert len(kinds_r) >= 2 and len(SEED_READINGS_L) >= 3
+    assert len(SEED_LISTENINGS_L) >= 3 and len({l["kind"] for l in SEED_LISTENINGS_L}) >= 2
+    for l in SEED_LISTENINGS_L:
         assert len(l["questions"]) >= BLUEPRINT["entzumena"]["questionsPer"], l["id"]
         for q in l["questions"]:
             assert 0 <= q["answer"] < len(q["options"]), q["id"]
-    assert len({w["kind"] for w in SEED_WRITINGS}) >= 2
-    for w in SEED_WRITINGS:
+    assert len({w["kind"] for w in SEED_WRITINGS_L}) >= 2
+    for w in SEED_WRITINGS_L:
         assert len(w["checks"]) == 5, f"{w['id']}: {len(w['checks'])} checks (deben ser 5)"
-    for r in SEED_READINGS:
+    for r in SEED_READINGS_L:
         assert len(r["questions"]) >= BLUEPRINT["irakurmena"]["questionsPer"], r["id"]
         for q in r["questions"]:
             assert 0 <= q["answer"] < len(q["options"]), q["id"]
-    ids = [i["id"] for i in items] + [q["id"] for r in SEED_READINGS for q in r["questions"]]
+    ids = [i["id"] for i in items] + [q["id"] for r in SEED_READINGS_L for q in r["questions"]]
     assert len(ids) == len(set(ids)), "ids duplicados en el banco"
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(bank, ensure_ascii=False, separators=(",", ":")) + "\n",
+    out = out_path(loc)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(bank, ensure_ascii=False, separators=(",", ":")) + "\n",
                    encoding="utf-8")
 
-    kb = OUT.stat().st_size / 1024
-    print(f"✓ {OUT.relative_to(ROOT)} — {kb:.0f} KB")
-    print(f"  items sueltos : {len(items)}  (mc {sum(1 for i in items if i['type']=='mc')} · "
-          f"fill {sum(1 for i in items if i['type']=='fill')})")
-    for cat in BLUEPRINT["gramatika"]["minPerCat"]:
-        print(f"    {cat:<12} {dist.get(cat, 0)}")
-    print(f"  tarjetas pool : {len(cards)} (dedup eu)")
-    print(f"  sets parejas  : {len(pair_sets)}")
-    print(f"  lecturas      : {len(SEED_READINGS)} ({dict(kinds_r)})")
-    print(f"  idazmenak     : {len(SEED_WRITINGS)}")
+    kb = out.stat().st_size / 1024
+    extra = f" · ⚠️ {len(missing)} claves seed SIN traducir (fallback es)" if missing else ""
+    if loc == "es":
+        print(f"✓ {out.relative_to(ROOT)} — {kb:.0f} KB")
+        print(f"  items sueltos : {len(items)}  (mc {sum(1 for i in items if i['type']=='mc')} · "
+              f"fill {sum(1 for i in items if i['type']=='fill')})")
+        for cat in BLUEPRINT["gramatika"]["minPerCat"]:
+            print(f"    {cat:<12} {dist.get(cat, 0)}")
+        print(f"  tarjetas pool : {len(cards)} (dedup eu)")
+        print(f"  sets parejas  : {len(bank['pairSets'])}")
+        print(f"  lecturas      : {len(SEED_READINGS_L)} ({dict(kinds_r)})")
+        print(f"  idazmenak     : {len(SEED_WRITINGS_L)}")
+    else:
+        print(f"✓ {out.relative_to(ROOT)} — {kb:.0f} KB · items {len(items)} · tarjetas {len(cards)}{extra}")
+    if missing:
+        for k in missing[:8]:
+            print(f"    falta: {k}")
 
 
 if __name__ == "__main__":
