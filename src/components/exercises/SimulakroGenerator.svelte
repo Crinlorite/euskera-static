@@ -1,16 +1,30 @@
 <script lang="ts">
-  // Generador procedural de simulacros A1 (v2.1: con entzumena). Banco estático (bundle del
-  // island, funciona offline) + blueprint fijo: la ESTRUCTURA del examen
-  // nunca se sortea (2 lecturas de tipos distintos, 10 de gramática con
-  // cuota mínima por categoría, tarjetas, 2 de emparejar, 2 escrituras de
-  // tipos distintos); solo se sortea el CONTENIDO. Misma semilla → mismo
-  // examen (la URL ?s= es compartible); botón → semilla nueva.
-  import bank from '../../data/bank/a1.es.json';
+  // Generador procedural de simulacros A1 (v3: multi-idioma). Banco POR LOCALE
+  // (a1.<loc>.json, import dinámico → cada idioma solo carga el suyo) +
+  // blueprint fijo: la ESTRUCTURA del examen nunca se sortea (2 lecturas de
+  // tipos distintos, gramática con cuota mínima por categoría, tarjetas, 2 de
+  // emparejar, 2 escrituras de tipos distintos); solo se sortea el CONTENIDO.
+  // Misma semilla → mismo examen (la URL ?s= es compartible); botón → semilla
+  // nueva. El euskera del banco es idéntico en los 18 locales (paridad por
+  // construcción); lo vehicular viene ya localizado del build.
+  import { onMount } from 'svelte';
   import MultipleChoice from './MultipleChoice.svelte';
   import FillInBlank from './FillInBlank.svelte';
   import Flashcards from './Flashcards.svelte';
   import MatchPairs from './MatchPairs.svelte';
   import { haptic } from '../../lib/platform';
+  import { t, tf } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
+
+  export let locale: LocaleCode = 'es';
+
+  const BANKS = import.meta.glob('../../data/bank/a1.*.json');
+  let bank: any = null;
+  onMount(async () => {
+    const key = `../../data/bank/a1.${locale}.json`;
+    const load = BANKS[key] ?? BANKS['../../data/bank/a1.es.json'];
+    bank = ((await load()) as any).default;
+  });
 
   type Rnd = () => number;
   type GrItem = {
@@ -56,29 +70,29 @@
     return { ...q, options: idx.map((i) => q.options![i]), answer: idx.indexOf(q.answer!) };
   }
 
-  function generate(seedStr: string) {
+  function generate(bk: any, seedStr: string) {
     const rnd = mulberry32(seedToInt(seedStr));
-    const bp = bank.blueprint;
+    const bp = bk.blueprint;
 
     // Entzumena: 1 audio (rota por semilla), 4 preguntas barajadas
-    const ls = shuffle(bank.listenings, rnd)[0];
+    const ls = shuffle(bk.listenings, rnd)[0] as any;
     const listening = {
       ...ls,
-      questions: sample(ls.questions, bp.entzumena.questionsPer, rnd).map((q) => shuffleMc(q, rnd)),
+      questions: sample(ls.questions, bp.entzumena.questionsPer, rnd).map((q: any) => shuffleMc(q, rnd)),
     };
 
     // Irakurmena: 2 lecturas de tipos distintos, 3 preguntas cada una
-    const rs = shuffle(bank.readings, rnd);
+    const rs = shuffle(bk.readings as any[], rnd);
     const r1 = rs[0];
     const r2 = rs.find((r) => r.kind !== r1.kind) ?? rs[1];
     const readings = [r1, r2].map((r) => ({
       ...r,
-      questions: sample(r.questions, bp.irakurmena.questionsPer, rnd).map((q) => shuffleMc(q, rnd)),
+      questions: sample(r.questions, bp.irakurmena.questionsPer, rnd).map((q: any) => shuffleMc(q, rnd)),
     }));
 
     // Gramatika: cuota mínima por categoría + relleno libre
     const byCat: Record<string, GrItem[]> = {};
-    for (const it of bank.items as GrItem[]) (byCat[it.cat] ??= []).push(it);
+    for (const it of bk.items as GrItem[]) (byCat[it.cat] ??= []).push(it);
     const picked: GrItem[] = [];
     const used = new Set<string>();
     for (const [cat, min] of Object.entries(bp.gramatika.minPerCat)) {
@@ -86,20 +100,20 @@
         picked.push(it); used.add(it.id);
       }
     }
-    const rest = (bank.items as GrItem[]).filter((i) => !used.has(i.id));
+    const rest = (bk.items as GrItem[]).filter((i) => !used.has(i.id));
     picked.push(...sample(rest, bp.gramatika.total - picked.length, rnd));
     const gramatika = shuffle(picked, rnd).map((it) => (it.type === 'mc' ? shuffleMc(it, rnd) : it));
 
     // Hiztegia: tarjetas del pool global + 2 sets de parejas ATÓMICOS
     // (recortados a 6: un subconjunto de un set coherente sigue siéndolo)
-    const cards = sample(bank.cards, bp.hiztegia.cards, rnd);
-    const pairSets = sample(bank.pairSets, bp.hiztegia.pairSets, rnd).map((s) => ({
+    const cards = sample(bk.cards, bp.hiztegia.cards, rnd);
+    const pairSets = sample(bk.pairSets as any[], bp.hiztegia.pairSets, rnd).map((s) => ({
       ...s,
       pairs: sample(s.pairs, Math.min(bp.hiztegia.pairsPerSet, s.pairs.length), rnd),
     }));
 
     // Idazmena: 2 tareas de tipos distintos
-    const ws = shuffle(bank.writings, rnd);
+    const ws = shuffle(bk.writings as any[], rnd);
     const w1 = ws[0];
     const w2 = ws.find((w) => w.kind !== w1.kind) ?? ws[1];
 
@@ -110,7 +124,7 @@
   let seed = new URLSearchParams(location.search).get('s') || newSeed();
   history.replaceState(null, '', `?s=${seed}`);
 
-  $: exam = generate(seed);
+  $: exam = bank ? generate(bank, seed) : null;
 
   let auto: Record<string, number> = {};       // id → puntos automáticos
   let texts: Record<string, string> = {};
@@ -165,11 +179,11 @@
   let lsPlaying = false;
   let lsShowTranscript = false;
   let lsAudio: HTMLAudioElement | null = null;
-  $: lsMax = bank.blueprint.entzumena.plays;
-  $: lsAnswered = exam.listening.questions.every((q) => auto[q.id] !== undefined);
+  $: lsMax = bank?.blueprint.entzumena.plays ?? 2;
+  $: lsAnswered = exam ? exam.listening.questions.every((q: any) => auto[q.id] !== undefined) : false;
 
   function playListening() {
-    if (lsPlays >= lsMax || lsPlaying) return;
+    if (!exam || lsPlays >= lsMax || lsPlaying) return;
     lsPlays += 1;
     lsPlaying = true;
     lsAudio?.pause();
@@ -181,20 +195,21 @@
 
   const AUTO_N = 4 + 6 + 8 + 1 + 2; // entzumena + lectura + gramática + tarjetas + 2 parejas
   $: autoTotal = Object.values(auto).reduce((a, b) => a + b, 0);
-  $: writeTotal = exam.writings.reduce(
-    (a, w) => a + w.checks.filter((c) => evalRule(c.rule as Rule, texts[w.id] ?? '')).length, 0);
+  $: writeTotal = exam ? exam.writings.reduce(
+    (a: number, w: any) => a + w.checks.filter((c: any) => evalRule(c.rule as Rule, texts[w.id] ?? '')).length, 0) : 0;
   $: total = Math.round((autoTotal + writeTotal) * 10) / 10;
   $: pending = AUTO_N - Object.keys(auto).length;
 
   // Fallos de gramática → unidades a repasar, con nombre y enlace
   $: failedUnits = (() => {
+    if (!exam) return [] as Array<[string, number]>;
     const m = new Map<string, number>();
     for (const it of exam.gramatika) if (auto[it.id] === 0) m.set(it.unit, (m.get(it.unit) ?? 0) + 1);
     return [...m.entries()].sort((a, b) => b[1] - a[1]);
   })();
-  $: failedReading = exam.readings.reduce(
-    (a, r) => a + r.questions.filter((q) => auto[q.id] === 0).length, 0);
-  $: failedListening = exam.listening.questions.filter((q) => auto[q.id] === 0).length;
+  $: failedReading = exam ? exam.readings.reduce(
+    (a: number, r: any) => a + r.questions.filter((q: any) => auto[q.id] === 0).length, 0) : 0;
+  $: failedListening = exam ? exam.listening.questions.filter((q: any) => auto[q.id] === 0).length : 0;
 
   function regen() {
     seed = newSeed();
@@ -209,27 +224,28 @@
   const KIND_LABEL: Record<string, string> = {
     pertsona: 'testua', mezua: 'mezua', iragarkia: 'iragarkia',
   };
+  const fails = (n: number) => (n === 1 ? t(locale, 'sim.fail.one') : tf(locale, 'sim.fails', n));
 </script>
 
 <div class="sim">
   <header class="sim-head">
-    <p class="sim-seed">Simulakroa <strong>#{seed}</strong> — cada semilla es un examen distinto.
-      Guarda la URL para repetir (o retar a alguien con) exactamente este.</p>
+    <p class="sim-seed">Simulakroa <strong>#{seed}</strong> — {t(locale, 'sim.seed')}</p>
     <table class="sim-tbl">
-      <thead><tr><th>Atala</th><th>Qué hay</th><th>Puntos</th></tr></thead>
+      <thead><tr><th>Atala</th><th>{t(locale, 'sim.tbl.what')}</th><th>{t(locale, 'sim.tbl.points')}</th></tr></thead>
       <tbody>
-        <tr><td>1 · Entzumena</td><td>1 audio (2 escuchas), 4 preguntas</td><td>4</td></tr>
-        <tr><td>2 · Irakurmena</td><td>2 textos, 6 preguntas</td><td>6</td></tr>
-        <tr><td>3 · Gramatika eta hiztegia</td><td>8 ejercicios + tarjetas + 2 de emparejar</td><td>10</td></tr>
-        <tr><td>4 · Idazmena</td><td>2 tareas con corrección automática</td><td>10</td></tr>
-        <tr class="sim-tot"><td><strong>Guztira</strong></td><td>45-60 min, sin diccionario</td><td><strong>30</strong></td></tr>
+        <tr><td>1 · Entzumena</td><td>{t(locale, 'sim.tbl.r1')}</td><td>4</td></tr>
+        <tr><td>2 · Irakurmena</td><td>{t(locale, 'sim.tbl.r2')}</td><td>6</td></tr>
+        <tr><td>3 · Gramatika eta hiztegia</td><td>{t(locale, 'sim.tbl.r3')}</td><td>10</td></tr>
+        <tr><td>4 · Idazmena</td><td>{t(locale, 'sim.tbl.r4')}</td><td>10</td></tr>
+        <tr class="sim-tot"><td><strong>Guztira</strong></td><td>{t(locale, 'sim.tbl.total')}</td><td><strong>30</strong></td></tr>
       </tbody>
     </table>
-    <p class="sim-note">Sin examinador no hay <em>mintzamena</em>: lee los textos en voz alta al acabar
-      y grábate con el móvil. Y recuerda: A1 y A2 se acreditan en el euskaltegi por evaluación
-      continua — el primer examen de convocatoria es el B1 de HABE.</p>
+    <p class="sim-note">{t(locale, 'sim.note')}</p>
   </header>
 
+  {#if !exam}
+    <section class="atala"><p class="sim-loading">⏳ {t(locale, 'sim.loading')}</p></section>
+  {:else}
   {#key seed}
     <section class="atala">
       <h2>🎧 1 · Entzumena</h2>
@@ -238,13 +254,13 @@
         <div class="ls-player">
           <button class="btn btn-primary" on:click={playListening}
             disabled={lsPlays >= lsMax || lsPlaying}>
-            {lsPlaying ? '🔊 Sonando…' : lsPlays >= lsMax ? 'Escuchas agotadas' : `▶ Entzun (${lsMax - lsPlays} ${lsMax - lsPlays === 1 ? 'escucha' : 'escuchas'})`}
+            {lsPlaying ? t(locale, 'sim.play.playing') : lsPlays >= lsMax ? t(locale, 'sim.play.out') : `▶ Entzun · ${lsMax - lsPlays}`}
           </button>
-          <span class="ls-hint">Como en el examen real: {lsMax} escuchas. Lee antes las preguntas.</span>
+          <span class="ls-hint">{tf(locale, 'sim.play.hint', lsMax)}</span>
         </div>
         {#each exam.listening.questions as q (q.id)}
           <MultipleChoice id={q.id} prompt={q.prompt} options={q.options} answer={q.answer}
-            explanation={q.explanation} locale="es" on:result={onPoint} />
+            explanation={q.explanation} {locale} on:result={onPoint} />
         {/each}
         {#if lsAnswered}
           <button class="btn btn-secondary ls-tr-btn" on:click={() => (lsShowTranscript = !lsShowTranscript)}>
@@ -269,7 +285,7 @@
           <div class="reading-text">{@html r.html}</div>
           {#each r.questions as q (q.id)}
             <MultipleChoice id={q.id} prompt={q.prompt} options={q.options} answer={q.answer}
-              explanation={q.explanation} locale="es" on:result={onPoint} />
+              explanation={q.explanation} {locale} on:result={onPoint} />
           {/each}
         </article>
       {/each}
@@ -280,16 +296,16 @@
       {#each exam.gramatika as it (it.id)}
         {#if it.type === 'mc'}
           <MultipleChoice id={it.id} prompt={it.prompt} options={it.options} answer={it.answer}
-            explanation={it.explanation} locale="es" on:result={onPoint} />
+            explanation={it.explanation} {locale} on:result={onPoint} />
         {:else}
           <FillInBlank id={it.id} prompt={it.prompt} answers={it.answers}
-            explanation={it.explanation} locale="es" on:result={onPoint} />
+            explanation={it.explanation} {locale} on:result={onPoint} />
         {/if}
       {/each}
       <h3 class="hiz-h">Hiztegia</h3>
-      <Flashcards id="sim-fc" cards={exam.cards} locale="es" on:result={onCards} />
+      <Flashcards id="sim-fc" cards={exam.cards} {locale} on:result={onCards} />
       {#each exam.pairSets as ps (ps.id)}
-        <MatchPairs id={ps.id} pairs={ps.pairs} locale="es" on:result={onPairs} />
+        <MatchPairs id={ps.id} pairs={ps.pairs} {locale} on:result={onPairs} />
       {/each}
     </section>
 
@@ -297,7 +313,7 @@
       <h2>🖊️ 4 · Idazmena</h2>
       {#each exam.writings as w, wi (w.id)}
         <article class="writing">
-          <h3>{wi + 1}. ataza — {w.title} <span class="pts">(5 puntos)</span></h3>
+          <h3>{wi + 1}. ataza — {w.title} <span class="pts">({t(locale, 'sim.write.points')})</span></h3>
           <p class="w-task">{@html w.task}</p>
           <textarea rows="6" placeholder="Idatzi hemen…" bind:value={texts[w.id]}></textarea>
           <button class="btn btn-secondary w-toggle"
@@ -307,7 +323,7 @@
           {#if showModel[w.id]}
             <div class="w-model">{@html w.model}</div>
           {/if}
-          <p class="w-rubric-h">Corrección automática — se actualiza mientras escribes (1 punto por check):</p>
+          <p class="w-rubric-h">{t(locale, 'sim.write.rubric')}</p>
           <ul class="w-rubric">
             {#each w.checks as c (c.label)}
               {@const ok = evalRule(c.rule, texts[w.id] ?? '')}
@@ -323,42 +339,37 @@
   {/key}
 
   <section class="verdict" class:done={pending === 0}>
-    <h2>🎯 Nota</h2>
+    <h2>🎯 {t(locale, 'sim.verdict.title')}</h2>
     {#if pending > 0}
-      <p class="v-pending">Te quedan <strong>{pending}</strong> ejercicios por responder.
-        Llevas <strong>{total}</strong> puntos ({autoTotal} automáticos + {writeTotal} de escritura).</p>
+      <p class="v-pending">{tf(locale, 'sim.verdict.pending', pending, total, autoTotal, writeTotal)}</p>
     {:else}
       <p class="v-score"><strong>{total} / 30</strong></p>
       {#if total >= 24}
-        <p class="v-msg ok">A1 sendoa. Genera otro con el botón de abajo y confírmalo — y si también
-          lo pasas, empieza el A2 esta semana. En serio.</p>
+        <p class="v-msg ok">{t(locale, 'sim.verdict.ok')}</p>
       {:else if total >= 18}
-        <p class="v-msg mid">Aprobado con lagunas — abajo tienes exactamente cuáles repasar.
-          Repásalas y genera otro simulacro.</p>
+        <p class="v-msg mid">{t(locale, 'sim.verdict.mid')}</p>
       {:else}
-        <p class="v-msg low">Sin drama: repasa las unidades de abajo con calma y en dos semanas
-          generas otro. El examen no se te escapa: se aplaza.</p>
+        <p class="v-msg low">{t(locale, 'sim.verdict.low')}</p>
       {/if}
       {#if failedUnits.length > 0}
-        <p class="v-rep-h">Unidades a repasar (fallos de gramática):</p>
+        <p class="v-rep-h">{t(locale, 'sim.verdict.units')}</p>
         <ul class="v-rep">
           {#each failedUnits as [unit, n]}
-            <li><a href={`/es/a1/${unit}/`}>{bank.unitTitles[unit] ?? unit}</a>
-              <span class="v-n">{n} {n === 1 ? 'fallo' : 'fallos'}</span></li>
+            <li><a href={`/${locale}/a1/${unit}/`}>{bank.unitTitles[unit] ?? unit}</a>
+              <span class="v-n">{fails(n)}</span></li>
           {/each}
         </ul>
       {/if}
       {#if failedReading > 0}
-        <p class="v-read">Irakurmena: {failedReading} {failedReading === 1 ? 'fallo' : 'fallos'} —
-          vuelve a leer los textos DESPACIO y busca la frase exacta de cada respuesta.</p>
+        <p class="v-read">Irakurmena: {fails(failedReading)} — {t(locale, 'sim.verdict.read')}</p>
       {/if}
       {#if failedListening > 0}
-        <p class="v-read">Entzumena: {failedListening} {failedListening === 1 ? 'fallo' : 'fallos'} —
-          abre la transcripción y vuelve a escuchar siguiéndola con el dedo.</p>
+        <p class="v-read">Entzumena: {fails(failedListening)} — {t(locale, 'sim.verdict.listen')}</p>
       {/if}
     {/if}
     <button class="btn btn-primary v-regen" on:click={regen}>🎲 Beste simulakro bat sortu</button>
   </section>
+  {/if}
 </div>
 
 <style>
@@ -366,6 +377,7 @@
   .sim-head { display: grid; gap: var(--s-4); }
   .sim-seed { color: var(--c-text-muted); font-size: 0.95rem; }
   .sim-seed strong { color: var(--c-red); font-variant-numeric: tabular-nums; }
+  .sim-loading { color: var(--c-text-muted); }
   .sim-tbl { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
   .sim-tbl th, .sim-tbl td {
     text-align: left; padding: var(--s-2) var(--s-3);
