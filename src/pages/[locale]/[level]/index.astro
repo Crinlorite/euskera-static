@@ -28,6 +28,49 @@ for (const u of units) {
   const count = allLessons.filter((l) => l.id.startsWith(`${locale}/${levelSlug}/${u.data.code}/`)).length;
   lessonsByUnit.set(u.data.code, count);
 }
+
+// Teasers del simulakro y el gimnasio (03-ago-2026: abiertos a los 18 idiomas).
+// Copy de página: vive aquí, no en ui.ts.
+type Teasers = { sim: string; gym: string };
+const TEASERS: Partial<Record<LocaleCode, Teasers>> = {
+  es: { sim: 'Un examen A1 completo distinto cada vez — con entzumena de voz real, lectura, gramática y escritura autocorregida.',
+        gym: 'Pronuncia y comprueba si se te entiende — todo funciona en tu dispositivo, nada sale de él.' },
+  ca: { sim: 'Un examen A1 complet diferent cada vegada — amb entzumena de veu real, lectura, gramàtica i escriptura autocorregida.',
+        gym: 'Pronuncia i comprova si se t’entén — tot funciona al teu dispositiu, res no en surt.' },
+  gl: { sim: 'Un exame A1 completo distinto cada vez — con entzumena de voz real, lectura, gramática e escritura autocorrixida.',
+        gym: 'Pronuncia e comproba se se che entende — todo funciona no teu dispositivo, nada sae del.' },
+  ast: { sim: 'Un esame A1 completu distintu cada vegada — con entzumena de voz nativa, llectura, gramática y escritura autocorrexida.',
+        gym: 'Pronuncia y comprueba si se t’entiende — too funciona nel to preséu, nada sal d’él.' },
+  an: { sim: 'Un examen A1 completo diferent cada vegada — con entzumena de voz real, lectura, gramatica y escritura autocorrechida.',
+        gym: 'Pronuncia y compreba si se t’entiende — tot funciona en o tuyo dispositivo, cosa no en sale.' },
+  oc: { sim: 'Un examen A1 complet diferent cada còp — amb entzumena de votz reala, lectura, gramatica e escritura autocorregida.',
+        gym: 'Prononcia e verifica se te comprenon — tot fonciona sus ton aparelh, res ne sortís pas.' },
+  en: { sim: 'A complete A1 exam, different every time — with real-voice entzumena, reading, grammar and auto-scored writing.',
+        gym: 'Pronounce and check whether you can be understood — everything runs on your device, nothing leaves it.' },
+  ar: { sim: 'امتحان A1 كامل مختلف في كل مرة — مع entzumena بصوت حقيقي، وقراءة وقواعد وكتابة بتصحيح تلقائي.',
+        gym: 'انطق وتحقّق هل يمكن فهمك — كل شيء يعمل على جهازك، ولا يغادره شيء.' },
+  fr: { sim: 'Un examen A1 complet, différent à chaque fois — avec entzumena en vraie voix, lecture, grammaire et écriture autocorrigée.',
+        gym: 'Prononce et vérifie si l’on te comprend — tout tourne sur ton appareil, rien n’en sort.' },
+  ro: { sim: 'Un examen A1 complet, diferit de fiecare dată — cu entzumena cu voce reală, citire, gramatică și scriere autocorectată.',
+        gym: 'Pronunță și verifică dacă poți fi înțeles — totul rulează pe dispozitivul tău, nimic nu-l părăsește.' },
+  'pt-BR': { sim: 'Uma prova A1 completa, diferente a cada vez — com entzumena de voz real, leitura, gramática e escrita autocorrigida.',
+        gym: 'Pronuncie e confira se dá para te entender — tudo roda no seu aparelho, nada sai dele.' },
+  de: { sim: 'Eine komplette A1-Prüfung, jedes Mal anders — mit entzumena in echter Stimme, Lesen, Grammatik und automatisch korrigiertem Schreiben.',
+        gym: 'Sprich und prüf, ob man dich versteht — alles läuft auf deinem Gerät, nichts verlässt es.' },
+  it: { sim: 'Un esame A1 completo, diverso ogni volta — con entzumena a voce reale, lettura, grammatica e scrittura autocorretta.',
+        gym: 'Pronuncia e verifica se ti si capisce — tutto gira sul tuo dispositivo, nulla ne esce.' },
+  ru: { sim: 'Полный экзамен A1, каждый раз другой — с entzumena с живым голосом, чтением, грамматикой и автопроверкой письма.',
+        gym: 'Произнесите и проверьте, можно ли вас понять — всё работает на вашем устройстве и не покидает его.' },
+  pl: { sim: 'Pełny egzamin A1, za każdym razem inny — z entzumena z prawdziwym głosem, czytaniem, gramatyką i automatycznie ocenianym pisaniem.',
+        gym: 'Wymów i sprawdź, czy da się ciebie zrozumieć — wszystko działa na twoim urządzeniu i nic go nie opuszcza.' },
+  'zh-Hans': { sim: '一份完整的 A1 试卷，每次都不一样——含真人语音的 entzumena、阅读、语法和自动批改的写作。',
+        gym: '开口说说看能不能被听懂——一切都在你的设备上运行，什么都不会外传。' },
+  ja: { sim: '毎回内容が変わる完全な A1 試験 — 本物の声の entzumena、読解、文法、自動採点の作文つき。',
+        gym: '発音して「通じるか」をチェック — すべてあなたの端末内で動き、外には何も出ません。' },
+  ko: { sim: '매번 다른 완전한 A1 시험 — 실제 목소리의 entzumena, 읽기, 문법, 자동 채점 작문 포함.',
+        gym: '발음하고 알아들을 수 있는지 확인하세요 — 모두 당신 기기에서 돌아가고, 아무것도 밖으로 나가지 않아요.' },
+};
+const teasers = TEASERS[locale] ?? TEASERS.es!;
 ---
 <RootLayout locale={locale} title={level.data.name}>
   <article class="container-wide level">
@@ -63,20 +106,20 @@ for (const u of units) {
           ))}
         </ul>
       )}
-      {locale === 'es' && levelSlug === 'a1' && (
+      {levelSlug === 'a1' && (
         <>
           <a class="sim-cta" href={`/${locale}/${levelSlug}/simulakroa/`}>
             <span class="sim-cta-dice" aria-hidden="true">🎲</span>
             <span class="sim-cta-body">
               <strong>Simulakro sortzailea</strong>
-              <small>Un examen A1 completo distinto cada vez — con entzumena de voz real, lectura, gramática y escritura autocorregida.</small>
+              <small>{teasers.sim}</small>
             </span>
           </a>
           <a class="sim-cta gym" href={`/${locale}/${levelSlug}/mintzamena/`}>
             <span class="sim-cta-dice" aria-hidden="true">🎙️</span>
             <span class="sim-cta-body">
               <strong>Ahoskera-gimnasioa <span class="beta-mini">BETA</span></strong>
-              <small>Pronuncia y comprueba si se te entiende — todo funciona en tu dispositivo, nada sale de él.</small>
+              <small>{teasers.gym}</small>
             </span>
           </a>
         </>
