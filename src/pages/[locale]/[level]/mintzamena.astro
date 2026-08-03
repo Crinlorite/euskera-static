@@ -1,32 +1,70 @@
 ---
-// Ahoskera-gimnasioa (BETA): mintzamena con Whisper EN EL NAVEGADOR.
-// Solo es/a1 de momento, como el simulakro.
+// Ahoskera-gimnasioa (BETA): mintzamena con reconocimiento de voz EN EL
+// NAVEGADOR — en los 18 idiomas desde el 03-ago-2026. El copy de ESTA página
+// vive aquí (copy de página, no UI compartida).
 import RootLayout from '../../../layouts/RootLayout.astro';
 import MintzamenaGym from '../../../components/exercises/MintzamenaGym.svelte';
+import { ACTIVE_LOCALES } from '../../../i18n/config';
 import type { LocaleCode } from '../../../i18n/config';
 
 export function getStaticPaths() {
-  return [{ params: { locale: 'es', level: 'a1' } }];
+  return ACTIVE_LOCALES.map((code) => ({ params: { locale: code, level: 'a1' } }));
 }
 
 const { locale, level } = Astro.params as { locale: LocaleCode; level: string };
+
+type Copy = { title: string; back: string; lead: string };
+const COPY: Partial<Record<LocaleCode, Copy>> = {
+  es: { title: 'Ahoskera-gimnasioa (Beta) — pronuncia y compruébalo', back: '← A1 · Todas las unidades',
+    lead: 'La quinta destreza, <strong>mintzamena</strong>: escucha la frase con voz nativa, grábate diciéndola y el reconocimiento de voz de <strong>tu propio dispositivo</strong> te dice qué palabras se han entendido. Nada de lo que grabas sale de tu móvil u ordenador — ni a nuestro servidor ni a ningún otro.' },
+  ca: { title: 'Ahoskera-gimnasioa (Beta) — pronuncia i comprova-ho', back: '← A1 · Totes les unitats',
+    lead: 'La cinquena destresa, <strong>mintzamena</strong>: escolta la frase amb veu nativa, grava’t dient-la i el reconeixement de veu del <strong>teu propi dispositiu</strong> et diu quines paraules s’han entès. Res del que graves surt del teu mòbil o ordinador — ni al nostre servidor ni a cap altre.' },
+  gl: { title: 'Ahoskera-gimnasioa (Beta) — pronuncia e compróbao', back: '← A1 · Todas as unidades',
+    lead: 'A quinta destreza, <strong>mintzamena</strong>: escoita a frase con voz nativa, grávate dicíndoa e o recoñecemento de voz do <strong>teu propio dispositivo</strong> diche que palabras se entenderon. Nada do que gravas sae do teu móbil ou ordenador — nin ao noso servidor nin a ningún outro.' },
+  ast: { title: 'Ahoskera-gimnasioa (Beta) — pronuncia y compruébalo', back: '← A1 · Toles unidaes',
+    lead: 'La quinta destreza, <strong>mintzamena</strong>: escucha la fras con voz nativa, grábate diciéndola y el reconocimientu de voz del <strong>to propiu preséu</strong> dizte qué pallabres s’entendieron. Nada de lo que grabes sal del to móvil o ordenador — nin al nuesu sirvidor nin a nengún otru.' },
+  an: { title: 'Ahoskera-gimnasioa (Beta) — pronuncia y compreba-lo', back: '← A1 · Todas as unidatz',
+    lead: 'A cinquena destreza, <strong>mintzamena</strong>: escuita a frase con voz nativa, grava-te dicindo-la y o reconoiximiento de voz d’o <strong>tuyo propio dispositivo</strong> te diz qué parolas s’han entendiu. Cosa de lo que grabas no sale d’o tuyo móbil u ordinador — ni ta o nuestro servidor ni ta garra atro.' },
+  oc: { title: 'Ahoskera-gimnasioa (Bèta) — prononcia e verifica-o', back: '← A1 · Totas las unitats',
+    lead: 'La cinquena competéncia, <strong>mintzamena</strong>: escota la frasa amb votz nativa, enregistra-te en la disent e lo reconeissement de votz de <strong>ton pròpri aparelh</strong> te ditz quins mots son estats compreses. Res de çò qu’enregistras sortís pas de ton mobil o ordenador — ni cap a nòstre servidor ni cap a un autre.' },
+  en: { title: 'Ahoskera-gimnasioa (Beta) — pronounce and check it', back: '← A1 · All units',
+    lead: 'The fifth skill, <strong>mintzamena</strong>: listen to the phrase in a native voice, record yourself saying it, and the speech recognition on <strong>your own device</strong> tells you which words were understood. Nothing you record leaves your phone or computer — not to our server, not to anyone’s.' },
+  ar: { title: 'Ahoskera-gimnasioa (بيتا) — انطق وتحقّق', back: '← A1 · كل الوحدات',
+    lead: 'المهارة الخامسة، <strong>mintzamena</strong>: استمع إلى الجملة بصوت أصلي، سجّل نفسك وأنت تقولها، وسيخبرك التعرف على الكلام في <strong>جهازك أنت</strong> أيّ الكلمات فُهمت. لا شيء مما تسجّله يغادر هاتفك أو حاسوبك — لا إلى خادمنا ولا إلى أي خادم آخر.' },
+  fr: { title: 'Ahoskera-gimnasioa (Bêta) — prononce et vérifie', back: '← A1 · Toutes les unités',
+    lead: 'La cinquième compétence, <strong>mintzamena</strong> : écoute la phrase avec une voix native, enregistre-toi en la disant et la reconnaissance vocale de <strong>ton propre appareil</strong> te dit quels mots ont été compris. Rien de ce que tu enregistres ne quitte ton téléphone ou ton ordinateur — ni vers notre serveur, ni vers aucun autre.' },
+  ro: { title: 'Ahoskera-gimnasioa (Beta) — pronunță și verifică', back: '← A1 · Toate unitățile',
+    lead: 'A cincea abilitate, <strong>mintzamena</strong>: ascultă fraza cu voce nativă, înregistrează-te spunând-o, iar recunoașterea vocală de pe <strong>propriul tău dispozitiv</strong> îți spune ce cuvinte s-au înțeles. Nimic din ce înregistrezi nu-ți părăsește telefonul sau calculatorul — nici spre serverul nostru, nici spre altul.' },
+  'pt-BR': { title: 'Ahoskera-gimnasioa (Beta) — pronuncie e confira', back: '← A1 · Todas as unidades',
+    lead: 'A quinta habilidade, <strong>mintzamena</strong>: escute a frase com voz nativa, grave-se dizendo-a e o reconhecimento de voz do <strong>seu próprio aparelho</strong> diz quais palavras foram entendidas. Nada do que você grava sai do seu celular ou computador — nem para o nosso servidor, nem para nenhum outro.' },
+  de: { title: 'Ahoskera-gimnasioa (Beta) — sprich und prüf es nach', back: '← A1 · Alle Einheiten',
+    lead: 'Die fünfte Fertigkeit, <strong>mintzamena</strong>: Hör die Phrase mit nativer Stimme, nimm dich beim Nachsprechen auf, und die Spracherkennung auf <strong>deinem eigenen Gerät</strong> sagt dir, welche Wörter verstanden wurden. Nichts von dem, was du aufnimmst, verlässt dein Handy oder deinen Rechner — weder zu unserem Server noch zu irgendeinem anderen.' },
+  it: { title: 'Ahoskera-gimnasioa (Beta) — pronuncia e verificalo', back: '← A1 · Tutte le unità',
+    lead: 'La quinta abilità, <strong>mintzamena</strong>: ascolta la frase con voce nativa, registrati mentre la dici e il riconoscimento vocale del <strong>tuo stesso dispositivo</strong> ti dice quali parole sono state capite. Nulla di ciò che registri esce dal tuo telefono o computer — né verso il nostro server né verso nessun altro.' },
+  ru: { title: 'Ahoskera-gimnasioa (бета) — произнеси и проверь', back: '← A1 · Все юниты',
+    lead: 'Пятый навык, <strong>mintzamena</strong>: послушайте фразу с голосом носителя, запишите себя, и распознавание речи на <strong>вашем собственном устройстве</strong> скажет, какие слова были поняты. Ничто из записанного не покидает ваш телефон или компьютер — ни на наш сервер, ни на чей-либо ещё.' },
+  pl: { title: 'Ahoskera-gimnasioa (Beta) — wymów i sprawdź', back: '← A1 · Wszystkie działy',
+    lead: 'Piąta sprawność, <strong>mintzamena</strong>: posłuchaj frazy w wykonaniu natywnego głosu, nagraj się, a rozpoznawanie mowy na <strong>twoim własnym urządzeniu</strong> powie ci, które słowa zostały zrozumiane. Nic z tego, co nagrywasz, nie opuszcza twojego telefonu ani komputera — ani na nasz serwer, ani na żaden inny.' },
+  'zh-Hans': { title: 'Ahoskera-gimnasioa（测试版）— 开口练发音', back: '← A1 · 全部单元',
+    lead: '第五项技能，<strong>mintzamena</strong>：先听母语者读的句子，再录下自己说的，<strong>你自己设备上</strong>的语音识别会告诉你哪些词被听懂了。你录的任何内容都不会离开你的手机或电脑——不会传到我们的服务器，也不会传到任何其他地方。' },
+  ja: { title: 'Ahoskera-gimnasioa（ベータ）— 発音してチェック', back: '← A1 · 全ユニット',
+    lead: '5つ目のスキル、<strong>mintzamena</strong>。ネイティブ音声でフレーズを聞き、自分で言って録音すると、<strong>あなた自身の端末</strong>の音声認識がどの単語が通じたかを教えてくれます。録音した音声がスマホやパソコンの外へ出ることはありません — 私たちのサーバーにも、他のどこにも。' },
+  ko: { title: 'Ahoskera-gimnasioa (베타) — 발음하고 확인하기', back: '← A1 · 전체 단원',
+    lead: '다섯 번째 기능, <strong>mintzamena</strong>: 원어민 음성으로 문장을 듣고 따라 말하며 녹음하면, <strong>당신 기기 안의</strong> 음성 인식이 어떤 단어가 알아들렸는지 알려줍니다. 녹음한 것은 휴대폰이나 컴퓨터 밖으로 나가지 않아요 — 우리 서버로도, 그 어디로도.' },
+};
+const c = COPY[locale] ?? COPY.es!;
 ---
-<RootLayout locale={locale} title="Ahoskera-gimnasioa (Beta) — pronuncia y compruébalo">
+<RootLayout locale={locale} title={c.title}>
   <article class="container gym-page">
     <header class="gym-header stagger">
       <p class="eyebrow">
-        <a href={`/${locale}/${level}/`}>← A1 · Todas las unidades</a>
+        <a href={`/${locale}/${level}/`}>{c.back}</a>
       </p>
       <h1 class="display">🎙️ Ahoskera-<span class="text-grad">gimnasioa</span>
         <span class="beta-tag">BETA</span></h1>
-      <p class="gym-lead">
-        La quinta destreza, <strong>mintzamena</strong>: escucha la frase con voz nativa,
-        grábate diciéndola y el reconocimiento de voz de <strong>tu propio dispositivo</strong>
-        te dice qué palabras se han entendido. Nada de lo que grabas sale de tu móvil
-        u ordenador — ni a nuestro servidor ni a ningún otro.
-      </p>
+      <p class="gym-lead" set:html={c.lead} />
     </header>
-    <MintzamenaGym client:only="svelte" />
+    <MintzamenaGym client:only="svelte" locale={locale} />
   </article>
 </RootLayout>
 

@@ -1,32 +1,70 @@
 ---
-// Generador procedural de simulacros. Solo es/a1 de momento: el banco se
-// construye desde las lecciones es (scripts/build_bank.py); al traducir el
-// A1 proba a más idiomas, se añaden locales aquí y bancos por locale.
+// Generador procedural de simulacros — en los 18 idiomas desde el 03-ago-2026.
+// El banco por locale (a1.<loc>.json) lo produce scripts/build_bank.py --all:
+// items/tarjetas/títulos cosechados del content YA traducido + seeds con overlay.
+// El copy de ESTA página vive aquí (es copy de página, no UI compartida).
 import RootLayout from '../../../layouts/RootLayout.astro';
 import SimulakroGenerator from '../../../components/exercises/SimulakroGenerator.svelte';
+import { ACTIVE_LOCALES } from '../../../i18n/config';
 import type { LocaleCode } from '../../../i18n/config';
 
 export function getStaticPaths() {
-  return [{ params: { locale: 'es', level: 'a1' } }];
+  return ACTIVE_LOCALES.map((code) => ({ params: { locale: code, level: 'a1' } }));
 }
 
 const { locale, level } = Astro.params as { locale: LocaleCode; level: string };
+
+type Copy = { title: string; back: string; lead: string };
+const COPY: Partial<Record<LocaleCode, Copy>> = {
+  es: { title: 'Simulakro sortzailea — examen A1 infinito', back: '← A1 · Todas las unidades',
+    lead: 'Un examen A1 <strong>distinto cada vez</strong>, montado al momento desde un banco de cientos de preguntas con la estructura de una prueba real — <strong>con entzumena</strong>: audio con voz real y dos escuchas, como el día de verdad. Hazlo del tirón, sin diccionario — y cuando acabes, pulsa <em>«Beste simulakro bat sortu»</em> y cae otro.' },
+  ca: { title: 'Simulakro sortzailea — examen A1 infinit', back: '← A1 · Totes les unitats',
+    lead: 'Un examen A1 <strong>diferent cada vegada</strong>, muntat a l’instant des d’un banc de centenars de preguntes amb l’estructura d’una prova real — <strong>amb entzumena</strong>: àudio amb veu real i dues escoltes, com el dia de veritat. Fes-lo d’una tirada, sense diccionari — i en acabar, prem <em>«Beste simulakro bat sortu»</em> i en cau un altre.' },
+  gl: { title: 'Simulakro sortzailea — exame A1 infinito', back: '← A1 · Todas as unidades',
+    lead: 'Un exame A1 <strong>distinto cada vez</strong>, montado no momento desde un banco de centos de preguntas coa estrutura dunha proba real — <strong>con entzumena</strong>: audio con voz real e dúas escoitas, coma o día de verdade. Faino dunha tirada, sen dicionario — e ao rematar, preme <em>«Beste simulakro bat sortu»</em> e cae outro.' },
+  ast: { title: 'Simulakro sortzailea — esame A1 infinitu', back: '← A1 · Toles unidaes',
+    lead: 'Un esame A1 <strong>distintu cada vegada</strong>, montáu nel momentu dende un bancu de cientos d’entrugues cola estructura d’una prueba real — <strong>con entzumena</strong>: audiu con voz nativa y dos escuches, como’l día de verdá. Failu del tirón, ensin diccionariu — y al acabar, calca <em>«Beste simulakro bat sortu»</em> y cai otru.' },
+  an: { title: 'Simulakro sortzailea — examen A1 infinito', back: '← A1 · Todas as unidatz',
+    lead: 'Un examen A1 <strong>diferent cada vegada</strong>, montau a o momento dende un banco de cientos de preguntas con a estructura d’una preba real — <strong>con entzumena</strong>: audio con voz real y dos escuitas, como o día de verdat. Fe-lo d’una tirada, sin diccionario — y en rematar, preta <em>«Beste simulakro bat sortu»</em> y en caye unatro.' },
+  oc: { title: 'Simulakro sortzailea — examen A1 infinit', back: '← A1 · Totas las unitats',
+    lead: 'Un examen A1 <strong>diferent cada còp</strong>, montat sul moment dempuèi un banc de centenats de questions amb l’estructura d’una espròva reala — <strong>amb entzumena</strong>: àudio amb votz reala e doas escotas, coma lo jorn vertadièr. Fai-lo d’una tirada, sens diccionari — e en acabant, quicha <em>«Beste simulakro bat sortu»</em> e ne tomba un autre.' },
+  en: { title: 'Simulakro sortzailea — infinite A1 exam', back: '← A1 · All units',
+    lead: 'An A1 exam that is <strong>different every time</strong>, assembled on the spot from a bank of hundreds of questions with the structure of a real test — <strong>with entzumena</strong>: audio with a real voice and two listens, just like the real day. Do it in one go, no dictionary — and when you finish, press <em>«Beste simulakro bat sortu»</em> and another one drops.' },
+  ar: { title: 'Simulakro sortzailea — امتحان A1 لا نهائي', back: '← A1 · كل الوحدات',
+    lead: 'امتحان A1 <strong>مختلف في كل مرة</strong>، يُركَّب لحظيًا من بنك يضم مئات الأسئلة ببنية امتحان حقيقي — <strong>مع entzumena</strong>: صوت حقيقي واستماعان، كما في اليوم الحقيقي. أنجزه دفعة واحدة وبلا قاموس — وعند الانتهاء اضغط <em>«Beste simulakro bat sortu»</em> فيسقط امتحان آخر.' },
+  fr: { title: 'Simulakro sortzailea — examen A1 infini', back: '← A1 · Toutes les unités',
+    lead: 'Un examen A1 <strong>différent à chaque fois</strong>, assemblé à l’instant depuis une banque de centaines de questions avec la structure d’une épreuve réelle — <strong>avec entzumena</strong> : audio avec une vraie voix et deux écoutes, comme le jour J. Fais-le d’une traite, sans dictionnaire — et à la fin, appuie sur <em>«Beste simulakro bat sortu»</em> et un autre tombe.' },
+  ro: { title: 'Simulakro sortzailea — examen A1 infinit', back: '← A1 · Toate unitățile',
+    lead: 'Un examen A1 <strong>diferit de fiecare dată</strong>, asamblat pe loc dintr-o bancă de sute de întrebări cu structura unei probe reale — <strong>cu entzumena</strong>: audio cu voce reală și două ascultări, ca în ziua cea mare. Fă-l dintr-o bucată, fără dicționar — iar la final apasă <em>«Beste simulakro bat sortu»</em> și pică altul.' },
+  'pt-BR': { title: 'Simulakro sortzailea — prova A1 infinita', back: '← A1 · Todas as unidades',
+    lead: 'Uma prova A1 <strong>diferente a cada vez</strong>, montada na hora a partir de um banco de centenas de perguntas com a estrutura de um exame real — <strong>com entzumena</strong>: áudio com voz real e duas escutas, como no dia de verdade. Faça de uma vez, sem dicionário — e ao terminar, aperte <em>«Beste simulakro bat sortu»</em> e cai outra.' },
+  de: { title: 'Simulakro sortzailea — endlose A1-Prüfung', back: '← A1 · Alle Einheiten',
+    lead: 'Eine A1-Prüfung, die <strong>jedes Mal anders</strong> ist — im Moment zusammengestellt aus einer Bank mit Hunderten Fragen und der Struktur einer echten Prüfung, <strong>mit entzumena</strong>: Audio mit echter Stimme und zwei Durchläufen, wie am echten Tag. Mach sie in einem Zug, ohne Wörterbuch — und am Ende drückst du <em>«Beste simulakro bat sortu»</em> und die nächste fällt.' },
+  it: { title: 'Simulakro sortzailea — esame A1 infinito', back: '← A1 · Tutte le unità',
+    lead: 'Un esame A1 <strong>diverso ogni volta</strong>, montato al momento da una banca di centinaia di domande con la struttura di una prova reale — <strong>con entzumena</strong>: audio con voce reale e due ascolti, come il giorno vero. Fallo tutto d’un fiato, senza dizionario — e alla fine premi <em>«Beste simulakro bat sortu»</em> e ne cade un altro.' },
+  ru: { title: 'Simulakro sortzailea — бесконечный экзамен A1', back: '← A1 · Все юниты',
+    lead: 'Экзамен A1, <strong>каждый раз другой</strong>: собирается на лету из банка в сотни вопросов со структурой настоящего испытания — <strong>с entzumena</strong>: аудио с живым голосом и двумя прослушиваниями, как в настоящий день. Пройдите его на одном дыхании, без словаря — а в конце нажмите <em>«Beste simulakro bat sortu»</em>, и выпадет следующий.' },
+  pl: { title: 'Simulakro sortzailea — nieskończony egzamin A1', back: '← A1 · Wszystkie działy',
+    lead: 'Egzamin A1 <strong>za każdym razem inny</strong>, składany na poczekaniu z banku setek pytań o strukturze prawdziwego testu — <strong>z entzumena</strong>: nagranie z prawdziwym głosem i dwoma odsłuchami, jak w prawdziwy dzień. Zrób go za jednym podejściem, bez słownika — a na końcu naciśnij <em>«Beste simulakro bat sortu»</em> i wypada następny.' },
+  'zh-Hans': { title: 'Simulakro sortzailea — 无限 A1 模拟考', back: '← A1 · 全部单元',
+    lead: '一份<strong>每次都不一样</strong>的 A1 试卷：从数百道题的题库即时组卷，结构与真实考试一致——<strong>含 entzumena</strong>：真人语音、限听两次，就像真正的考试日。一口气做完，不查词典——做完后按 <em>«Beste simulakro bat sortu»</em>，又是一份新卷。' },
+  ja: { title: 'Simulakro sortzailea — 無限 A1 模試', back: '← A1 · 全ユニット',
+    lead: '<strong>毎回内容が変わる</strong> A1 試験。数百問のバンクからその場で組み立てられ、構成は本物の試験そのまま——<strong>entzumena 付き</strong>：本物の声の音声を2回まで再生、本番と同じです。辞書なしで一気に解いて、終わったら <em>«Beste simulakro bat sortu»</em> を押せば次の一枚が落ちてきます。' },
+  ko: { title: 'Simulakro sortzailea — 무한 A1 모의고사', back: '← A1 · 전체 단원',
+    lead: '<strong>매번 다른</strong> A1 시험: 수백 문항의 문제은행에서 즉석으로 조립되며 구조는 실제 시험 그대로 — <strong>entzumena 포함</strong>: 실제 목소리 음성과 2회 듣기, 진짜 시험날처럼. 사전 없이 한 번에 풀고, 끝나면 <em>«Beste simulakro bat sortu»</em>를 누르세요. 새 시험이 떨어집니다.' },
+};
+const c = COPY[locale] ?? COPY.es!;
 ---
-<RootLayout locale={locale} title="Simulakro sortzailea — examen A1 infinito">
+<RootLayout locale={locale} title={c.title}>
   <article class="container sim-page">
     <header class="sim-header stagger">
       <p class="eyebrow">
-        <a href={`/${locale}/${level}/`}>← A1 · Todas las unidades</a>
+        <a href={`/${locale}/${level}/`}>{c.back}</a>
       </p>
       <h1 class="display">🎲 Simulakro <span class="text-grad">sortzailea</span></h1>
-      <p class="sim-lead">
-        Un examen A1 <strong>distinto cada vez</strong>, montado al momento desde un banco de
-        cientos de preguntas con la estructura de una prueba real — <strong>con entzumena</strong>:
-        audio con voz real y dos escuchas, como el día de verdad. Hazlo del tirón, sin
-        diccionario — y cuando acabes, pulsa <em>«Beste simulakro bat sortu»</em> y cae otro.
-      </p>
+      <p class="sim-lead" set:html={c.lead} />
     </header>
-    <SimulakroGenerator client:only="svelte" />
+    <SimulakroGenerator client:only="svelte" locale={locale} />
   </article>
 </RootLayout>
 
