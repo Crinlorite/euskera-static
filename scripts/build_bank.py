@@ -87,8 +87,11 @@ def lenient_yaml(raw: str):
     try:
         return yaml.safe_load(raw)
     except yaml.YAMLError:
+        # ⚠️ el valor NO puede cruzar líneas ([^,}\n]): con [^,}] a secas el
+        # match saltaba de un prompt de bloque a la coma de la línea siguiente
+        # y sembraba comillas en medio de options (cazado con el content ro).
         fixed = re.sub(
-            r"(\b(?:es|eu|prompt|explanation):\s)([^'\"{}\[\]][^,}]*?)(\s*[,}])",
+            r"(\b(?:es|eu|prompt|explanation):\s)([^'\"{}\[\]\n][^,}\n]*?)(\s*[,}])",
             lambda m: f"{m.group(1)}'{m.group(2).strip()}'{m.group(3)}",
             raw,
         )
