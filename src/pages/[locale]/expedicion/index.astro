@@ -2,6 +2,7 @@
 import RootLayout from '../../../layouts/RootLayout.astro';
 import Game from '../../../components/expedition/game/components/Game.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
+import { t } from '../../../i18n/ui';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -11,7 +12,7 @@ const { locale } = Astro.params as { locale: LocaleCode };
 ---
 <RootLayout locale={locale} title="Aitonaren Hitzak — Modo Expedición" bodyClass="game-page">
   <section class="container expedicion-hero fade-in">
-    <p class="eyebrow">Modo Expedición · Vista previa Steam</p>
+    <p class="eyebrow">{t(locale, 'expedition.page.eyebrow')}</p>
     <h1 class="display">
       Aitonaren <span class="text-grad">Hitzak</span>.
     </h1>

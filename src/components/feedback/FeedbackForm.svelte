@@ -1,5 +1,10 @@
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte';
+  import { t as ui } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
+  import type { StringKey } from '../../i18n/ui';
+
+  export let locale: LocaleCode = 'es';
 
   // Site key de Cloudflare Turnstile (opcional). Si no está definida en
   // env vars (PUBLIC_TURNSTILE_SITE_KEY), el widget no se renderiza y el
@@ -9,12 +14,12 @@
 
   type FeedbackType = 'bug' | 'feature' | 'question' | 'language' | 'pedagogy';
 
-  const TYPES: { id: FeedbackType; icon: string; label: string; desc: string }[] = [
-    { id: 'bug',      icon: '🐛', label: 'Algo no funciona', desc: 'Bug en la web' },
-    { id: 'feature',  icon: '✨', label: 'Sugerencia',        desc: 'Idea o mejora' },
-    { id: 'question', icon: '💬', label: 'Pregunta',          desc: '¿Cómo funciona X?' },
-    { id: 'language', icon: '🌐', label: 'Traducción',        desc: 'Error en el texto de UI' },
-    { id: 'pedagogy', icon: '📚', label: 'Contenido',         desc: 'Error en una lección' },
+  const TYPES: { id: FeedbackType; icon: string; label: StringKey; desc: StringKey }[] = [
+    { id: 'bug',      icon: '🐛', label: 'fb.cat.bug',     desc: 'fb.cat.bug.d' },
+    { id: 'feature',  icon: '✨', label: 'fb.cat.idea',    desc: 'fb.cat.idea.d' },
+    { id: 'question', icon: '💬', label: 'fb.cat.q',       desc: 'fb.cat.q.d' },
+    { id: 'language', icon: '🌐', label: 'fb.cat.tr',      desc: 'fb.cat.tr.d' },
+    { id: 'pedagogy', icon: '📚', label: 'fb.cat.content', desc: 'fb.cat.content.d' },
   ];
 
   declare global {
@@ -99,9 +104,9 @@
 
     const t = title.trim();
     const d = description.trim();
-    if (t.length < 5) { error = 'El título debe tener al menos 5 caracteres.'; return; }
-    if (d.length < 20) { error = 'La descripción debe tener al menos 20 caracteres.'; return; }
-    if (TURNSTILE_SITE_KEY && !turnstileToken) { error = 'Completa la verificación anti-bot.'; return; }
+    if (t.length < 5) { error = ui(locale, 'fb.err.title'); return; }
+    if (d.length < 20) { error = ui(locale, 'fb.err.desc'); return; }
+    if (TURNSTILE_SITE_KEY && !turnstileToken) { error = ui(locale, 'fb.err.captcha'); return; }
 
     submitting = true;
     try {
@@ -128,7 +133,7 @@
       }
       if (!res.ok) {
         const body = await res.json().catch(() => ({}));
-        error = body?.error?.message || 'No se pudo enviar el ticket.';
+        error = body?.error?.message || ui(locale, 'fb.err.send');
         resetTurnstile();
         return;
       }
@@ -140,7 +145,7 @@
       discordUser = '';
       resetTurnstile();
     } catch {
-      error = 'Error de red.';
+      error = ui(locale, 'fb.err.net');
       resetTurnstile();
     } finally {
       submitting = false;
@@ -159,28 +164,28 @@
       <svg viewBox="0 0 32 32" width="48" height="48"><path d="M6 17 l6 6 l14 -14" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </div>
     <h2 class="display">¡Eskerrik asko!</h2>
-    <p class="success-sub">Tu ticket queda registrado.</p>
-    <div class="ticket-id" aria-label="Identificador del ticket">{result.publicId}</div>
+    <p class="success-sub">{ui(locale, 'fb.ok.sub')}</p>
+    <div class="ticket-id" aria-label={ui(locale, 'fb.ok.id')}>{result.publicId}</div>
     <p class="success-foot">
       {#if email}
-        Te avisaremos por email cuando lo trabajemos.
+        {ui(locale, 'fb.ok.email')}
       {:else if discordUser}
-        Te avisaremos por mensaje directo en Discord.
+        {ui(locale, 'fb.ok.discord')}
       {:else}
-        Guarda este ID si quieres seguir el progreso.
+        {ui(locale, 'fb.ok.save')}
       {/if}
     </p>
     {#if result.threadUrl}
       <a class="btn btn-secondary" href={result.threadUrl} target="_blank" rel="noopener">
-        Abrir hilo en Discord
+        {ui(locale, 'fb.ok.thread')}
       </a>
     {/if}
-    <button type="button" class="btn btn-primary" on:click={reset}>Enviar otro</button>
+    <button type="button" class="btn btn-primary" on:click={reset}>{ui(locale, 'fb.again')}</button>
   </div>
 {:else}
   <form class="form" on:submit={handleSubmit}>
     <fieldset class="types">
-      <legend class="sr-only">Tipo de ticket</legend>
+      <legend class="sr-only">{ui(locale, 'fb.legend')}</legend>
       {#each TYPES as tt}
         <label class="type-card" class:selected={type === tt.id}>
           <input
@@ -191,31 +196,31 @@
             class="sr-only"
           />
           <span class="type-icon" aria-hidden="true">{tt.icon}</span>
-          <span class="type-label">{tt.label}</span>
-          <span class="type-desc">{tt.desc}</span>
+          <span class="type-label">{ui(locale, tt.label)}</span>
+          <span class="type-desc">{ui(locale, tt.desc)}</span>
         </label>
       {/each}
     </fieldset>
 
     <label class="field">
-      <span class="field-label">Título <span class="required">*</span></span>
+      <span class="field-label">{ui(locale, 'fb.title')} <span class="required">*</span></span>
       <input
         type="text"
         bind:value={title}
         maxlength="200"
-        placeholder="Resume el asunto en una frase"
+        placeholder={ui(locale, 'fb.title.ph')}
         required
       />
       <span class="counter">{title.length}/200</span>
     </label>
 
     <label class="field">
-      <span class="field-label">Descripción <span class="required">*</span></span>
+      <span class="field-label">{ui(locale, 'fb.desc')} <span class="required">*</span></span>
       <textarea
         bind:value={description}
         maxlength="4000"
         rows="8"
-        placeholder="Pasos para reproducir, lo que esperabas, lo que pasó…"
+        placeholder={ui(locale, 'fb.desc.ph')}
         required
       ></textarea>
       <span class="counter">{description.length}/4000</span>
@@ -223,7 +228,7 @@
 
     <div class="contact">
       <label class="field">
-        <span class="field-label">Email <span class="optional">(opcional)</span></span>
+        <span class="field-label">{ui(locale, 'fb.email')} <span class="optional">{ui(locale, 'fb.optional')}</span></span>
         <input
           type="email"
           bind:value={email}
@@ -232,7 +237,7 @@
         />
       </label>
       <label class="field">
-        <span class="field-label">Usuario Discord <span class="optional">(opcional)</span></span>
+        <span class="field-label">{ui(locale, 'fb.discord')} <span class="optional">{ui(locale, 'fb.optional')}</span></span>
         <input
           type="text"
           bind:value={discordUser}
@@ -271,7 +276,7 @@
       class="btn btn-primary submit"
       disabled={submitting || (!!TURNSTILE_SITE_KEY && !turnstileToken)}
     >
-      {submitting ? 'Enviando…' : 'Enviar ticket'}
+      {submitting ? ui(locale, 'fb.sending') : ui(locale, 'fb.send')}
     </button>
   </form>
 {/if}
