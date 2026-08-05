@@ -1,6 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher, onDestroy } from 'svelte';
   import Sprite from '../sprites/Sprite.svelte';
+  import { playVoice, hasVoice, stopVoice, voiceOn } from '../engine/audio';
 
   export let speaker: string;
   export let spriteId: string;
@@ -23,6 +24,7 @@
 
   function startTyping(text: string) {
     if (interval) clearInterval(interval);
+    if ($voiceOn) playVoice(text);
     revealed = '';
     typing = true;
     let i = 0;
@@ -51,12 +53,23 @@
 
   onDestroy(() => {
     if (interval) clearInterval(interval);
+    stopVoice();
   });
+
+  $: if (!$voiceOn) stopVoice();
+
+  function voiceKey(e: KeyboardEvent, action: () => void) {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();
+    e.stopPropagation();
+    action();
+  }
 
   function handleKey(e: KeyboardEvent) {
     if (e.repeat) return; // mantener pulsado no debe saltarse diálogos
     if (e.key !== 'Enter' && e.key !== ' ') return;
     const target = e.target as HTMLElement | null;
+    if (target?.closest?.('[data-voice-btn]')) return; // los botones de voz no avanzan diálogo
     if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'BUTTON')) return;
     e.preventDefault();
     e.stopPropagation();
@@ -71,7 +84,18 @@
     <Sprite id={spriteId} scale={1} {emotion} />
   </div>
   <div class="content">
-    <div class="speaker">{speaker}</div>
+    <div class="speaker">{speaker}
+      {#if hasVoice(eu)}
+        <span class="vbtn" data-voice-btn role="button" tabindex="0" aria-label="Escuchar en euskera"
+          on:click|stopPropagation={() => playVoice(eu)}
+          on:keydown={(e) => voiceKey(e, () => playVoice(eu))}>🔊</span>
+      {/if}
+      <span class="vbtn vtoggle" data-voice-btn role="button" tabindex="0"
+        aria-label={$voiceOn ? 'Silenciar las voces' : 'Activar las voces'}
+        title={$voiceOn ? 'Voces activadas' : 'Voces silenciadas'}
+        on:click|stopPropagation={() => voiceOn.set(!$voiceOn)}
+        on:keydown={(e) => voiceKey(e, () => voiceOn.set(!$voiceOn))}>{$voiceOn ? '🗣️' : '🔇'}</span>
+    </div>
     <div class="line eu">{revealed}<span class="caret" class:hidden={!typing}>▍</span></div>
     {#if !typing}
       <div class="line es">{es}</div>
@@ -115,6 +139,17 @@
     color: #d4a017;
     letter-spacing: 0.02em;
   }
+  .vbtn {
+    display: inline-block;
+    margin-inline-start: 8px;
+    font-style: normal;
+    font-size: 0.9rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.15s, transform 0.15s;
+  }
+  .vbtn:hover, .vbtn:focus-visible { opacity: 1; transform: scale(1.12); }
+  .vtoggle { opacity: 0.55; }
   .line { line-height: 1.4; }
   .line.eu {
     font-size: 1.15rem;
