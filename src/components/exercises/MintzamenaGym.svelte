@@ -24,7 +24,6 @@
 
   type Phase = 'idle' | 'loading' | 'ready' | 'recording' | 'thinking' | 'result' | 'error';
   // client:only → window existe en init
-  const inApp = typeof (window as any).Kaixo !== 'undefined';
   let phase: Phase = 'idle';
   let loadMsg = '';
   let errMsg = '';
@@ -148,11 +147,9 @@
       }
       phase = 'recording';
     } catch (e: any) {
-      errMsg = inApp
-        ? t(locale, 'gym.err.mic.app')
-        : e?.name === 'NotFoundError'
-          ? t(locale, 'gym.err.mic.none')
-          : t(locale, 'gym.err.mic.denied');
+      errMsg = e?.name === 'NotFoundError'
+        ? t(locale, 'gym.err.mic.none')
+        : t(locale, 'gym.err.mic.denied');
       phase = 'error';
     }
   }
@@ -244,11 +241,6 @@
 <div class="gym">
   {#if phase === 'idle'}
     <div class="card intro">
-      {#if inApp}
-        <p class="warn">📲 {t(locale, 'gym.warn.inapp')}</p>
-      {:else}
-        <p class="warn">🧪 {t(locale, 'gym.warn.web')}</p>
-      {/if}
       <p>{t(locale, 'gym.how')}</p>
       <p class="fine">{t(locale, 'gym.first')}</p>
       <button class="btn btn-primary" on:click={initEngine}>🚀 {t(locale, 'gym.start')}</button>
