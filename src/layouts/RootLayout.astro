@@ -82,6 +82,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
     <style is:global>
       .is-native-app .app-promo { display: none !important; }
     </style>
+    {/* Puerta para que el wrapper de iOS devuelva el progreso respaldado en iCloud.
+        Inerte en navegador: solo registra window.KaixoWeb, nadie la llama. */}
+    <script>
+      import '../lib/native-restore';
+    </script>
     <ViewTransitions />
   </head>
   <body class={bodyClass}>
