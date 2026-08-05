@@ -98,6 +98,8 @@ export const sceneBaso: Scene = {
       onSuccess: 'after-puzzle',
     },
     { type: 'label', id: 'after-puzzle' },
+    { type: 'narration', text: 'El libro del abuelo se abre solo entre los helechos: repaso rápido.' },
+    { type: 'bank-puzzle', n: 3 },
     {
       type: 'puzzle',
       puzzle: {

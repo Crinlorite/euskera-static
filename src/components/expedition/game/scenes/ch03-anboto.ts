@@ -107,6 +107,8 @@ export const sceneAnboto: Scene = {
       es: 'Ahora te haré yo una pregunta. Responde, y te dejaré marchar.',
       emotion: 'mystic',
     },
+    { type: 'narration', text: 'El libro del abuelo se abre solo: repaso rápido antes de responder a Mari.' },
+    { type: 'bank-puzzle', n: 2 },
     {
       type: 'puzzle',
       puzzle: {

@@ -107,6 +107,8 @@ export const sceneFinala: Scene = {
       es: 'Bien, de nuevo. Tercera prueba: escribe. Una lengua que no se escribe está olvidada.',
       emotion: 'sad',
     },
+    { type: 'narration', text: 'El libro del abuelo se abre una última vez: repaso rápido antes de escribir.' },
+    { type: 'bank-puzzle', n: 3 },
 
     // ============= ETAPA 3: ESCRITURA LIBRE =============
     {

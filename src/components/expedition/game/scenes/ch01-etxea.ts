@@ -145,6 +145,8 @@ export const sceneEtxea: Scene = {
       es: 'Primera parada: Donostia. Junto al mar.',
       emotion: 'neutral',
     },
+    { type: 'narration', text: 'El libro del abuelo brilla un instante y se abre solo: unas preguntas rápidas para calibrar tu euskera.' },
+    { type: 'bank-puzzle', n: 2 },
     { type: 'narration', text: 'Antes de salir, repasas las cosas básicas. ¿Cómo se llaman estas cosas que ves en la habitación?' },
     {
       type: 'puzzle',

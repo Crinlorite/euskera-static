@@ -33,6 +33,7 @@
   import DialogueBox from './DialogueBox.svelte';
   import ChoiceList from './ChoiceList.svelte';
   import PuzzleHost from './PuzzleHost.svelte';
+  import BankTrial from './BankTrial.svelte';
   import Inventory from './Inventory.svelte';
   import Notebook from './Notebook.svelte';
   import ChapterIntro from './ChapterIntro.svelte';
@@ -524,6 +525,8 @@
           <ChoiceList prompt={b.prompt} options={b.options} on:pick={(e) => onChoicePick(e.detail)} />
         {:else if b.type === 'puzzle'}
           <PuzzleHost puzzle={b.puzzle} on:result={(e) => onPuzzleResult(e.detail.success)} />
+        {:else if b.type === 'bank-puzzle'}
+          <BankTrial n={b.n} on:done={() => { bumpInteraction(); advance(); }} />
         {:else}
           <!-- side-effect que aún no se ha procesado: muestra botón de rescate -->
           <button class="narration stuck" on:click={tryAdvance}>
