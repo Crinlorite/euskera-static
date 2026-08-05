@@ -2,6 +2,7 @@
 import RootLayout from '../../../layouts/RootLayout.astro';
 import FeedbackForm from '../../../components/feedback/FeedbackForm.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
+import { t } from '../../../i18n/ui';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -9,7 +10,7 @@ export async function getStaticPaths() {
 
 const { locale } = Astro.params as { locale: LocaleCode };
 ---
-<RootLayout locale={locale} title="Reportar / Feedback">
+<RootLayout locale={locale} title={t(locale, 'footer.feedback')}>
   <section class="container feedback-hero fade-in">
     <p class="eyebrow">Tickets</p>
     <h1 class="display">
@@ -22,7 +23,7 @@ const { locale } = Astro.params as { locale: LocaleCode };
   </section>
 
   <section class="container feedback-form fade-in">
-    <FeedbackForm client:load />
+    <FeedbackForm client:load locale={locale} />
   </section>
 
   <aside class="container feedback-aside fade-in">

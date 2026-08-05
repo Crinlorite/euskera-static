@@ -1,5 +1,6 @@
 ---
 import { LANGUAGES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
 
 interface Props { currentLocale: LocaleCode; }
 const { currentLocale } = Astro.props;
@@ -27,19 +28,19 @@ const switchTo = (code: string) => {
       <path d="M3 12h18" />
       <path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0 -18" />
     </svg>
-    <strong>{current?.name ?? 'Idioma'}</strong>
+    <strong>{current?.name ?? t(currentLocale, 'nav.language')}</strong>
     <span class="caret" aria-hidden="true">▾</span>
   </summary>
   <div class="lang-panel">
     {active.length > 0 && (
       <section>
-        <h4>Disponible</h4>
+        <h4>{t(currentLocale, 'lang.available')}</h4>
         <ul>
           {active.map((l) => (
             <li>
               <a href={switchTo(l.code)} aria-current={l.code === currentLocale ? 'true' : undefined} dir={l.dir}>
                 {l.name}
-                {l.status === 'beta' && <span class="badge beta">Beta</span>}
+                {l.status === 'beta' && <span class="badge beta">{t(currentLocale, 'lang.beta')}</span>}
               </a>
             </li>
           ))}
@@ -48,13 +49,13 @@ const switchTo = (code: string) => {
     )}
     {peninsulares.length > 0 && (
       <section>
-        <h4>Peninsulares</h4>
+        <h4>{t(currentLocale, 'lang.peninsular')}</h4>
         <ul>
           {peninsulares.map((l) => (
             <li>
               <span class="planned" dir={l.dir}>
                 {l.name}
-                <span class="badge">Próximamente</span>
+                <span class="badge">{t(currentLocale, 'lang.upcoming')}</span>
               </span>
             </li>
           ))}
@@ -63,13 +64,13 @@ const switchTo = (code: string) => {
     )}
     {otros.length > 0 && (
       <section>
-        <h4>En el horizonte</h4>
+        <h4>{t(currentLocale, 'lang.horizon')}</h4>
         <ul>
           {otros.map((l) => (
             <li>
               <span class="planned" dir={l.dir}>
                 {l.name}
-                <span class="badge">Próximamente</span>
+                <span class="badge">{t(currentLocale, 'lang.upcoming')}</span>
               </span>
             </li>
           ))}
@@ -77,7 +78,7 @@ const switchTo = (code: string) => {
       </section>
     )}
     <p class="help">
-      ¿Hablas alguno? <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">Ayúdanos a traducir</a>.
+      <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">{t(currentLocale, 'lang.help-translate')}</a>
     </p>
   </div>
 </details>

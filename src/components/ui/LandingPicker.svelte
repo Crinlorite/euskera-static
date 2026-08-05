@@ -96,7 +96,7 @@
             </span>
           {/if}
           {#if isPlanned}
-            <span class="badge">Próximamente</span>
+            <span class="badge">Laster · Soon</span>
           {/if}
         </button>
       </li>

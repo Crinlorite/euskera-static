@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import RootLayout from '../../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
-import { t } from '../../../i18n/ui';
+import { t, tf } from '../../../i18n/ui';
 
 export async function getStaticPaths() {
   const allLevels = await getCollection('levels');
@@ -129,9 +129,9 @@ const teasers = TEASERS[locale] ?? TEASERS.es!;
     <section class="curriculum">
       <details class="curriculum-details">
         <summary>
-          <span class="eyebrow">Currículum</span>
-          <span class="curriculum-title-display display">Lo que vas a saber</span>
-          <span class="curriculum-toggle-hint">{level.data.curriculum.length} puntos · pulsa para ver</span>
+          <span class="eyebrow">{t(locale, 'curriculum.eyebrow')}</span>
+          <span class="curriculum-title-display display">{t(locale, 'curriculum.title')}</span>
+          <span class="curriculum-toggle-hint">{tf(locale, 'curriculum.hint', level.data.curriculum.length)}</span>
         </summary>
         <ul class="curriculum-list">
           {level.data.curriculum.map((c, i) => (
