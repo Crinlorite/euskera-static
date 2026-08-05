@@ -11,17 +11,18 @@
 <div class="sel" role="dialog" aria-modal="true">
   <header>
     <h2 class="display">Atalak · Capítulos</h2>
-    <p class="sub">Selecciona un capítulo. Los completados se pueden revisitar.</p>
+    <p class="sub">Cada capítulo se desbloquea al completar el anterior. Los completados se pueden revisitar.</p>
   </header>
   <ul class="list">
-    {#each scenes as scene}
+    {#each scenes as scene, i}
       {@const status = $story.progress[scene.id] ?? 'unvisited'}
-      {@const lockedByChapter = scene.chapter > 2 && status === 'unvisited' && !scene.playable}
+      {@const prevDone = i === 0 || ($story.progress[scenes[i - 1].id] ?? 'unvisited') === 'completed'}
+      {@const locked = !scene.playable || (status === 'unvisited' && !prevDone)}
       <li class:current={scene.id === $story.currentSceneId}>
         <button
           class="row"
-          class:locked={lockedByChapter}
-          on:click={() => !lockedByChapter && dispatch('pick', scene.id)}
+          class:locked
+          on:click={() => !locked && dispatch('pick', scene.id)}
         >
           <span class="num">{scene.chapter.toString().padStart(2, '0')}</span>
           <span class="info">
@@ -32,7 +33,7 @@
             <span class="lvl">{scene.level.toUpperCase()}</span>
             {#if status === 'completed'}<span class="state ok">✓</span>
             {:else if status === 'in-progress'}<span class="state act">⏵</span>
-            {:else if !scene.playable}<span class="state lock">🔒</span>
+            {:else if locked}<span class="state lock">🔒</span>
             {:else}<span class="state new">·</span>{/if}
           </span>
         </button>

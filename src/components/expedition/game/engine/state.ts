@@ -116,7 +116,8 @@ export function gotoLabel(label: string) {
   saveGame();
 }
 
-/** Cambia de escena reseteando cursor a 0. */
+/** Cambia de escena reseteando cursor a 0 (transición NATURAL del guion:
+ *  la escena que se abandona queda completada). */
 export function gotoScene(sceneId: string) {
   story.update((s) => {
     const next = { ...s };
@@ -126,6 +127,27 @@ export function gotoScene(sceneId: string) {
     next.actors = {};
     next.bgOverride = null;
     next.progress[sceneId] = 'in-progress';
+    return next;
+  });
+  saveGame();
+}
+
+/** Salto desde el SELECTOR de capítulos: no regala el "completed" a la
+ *  escena abandonada, y "completed" es pegajoso (revisitar un capítulo
+ *  terminado no re-bloquea los siguientes). */
+export function jumpToScene(sceneId: string) {
+  story.update((s) => {
+    const next = { ...s };
+    if (next.progress[s.currentSceneId] !== 'completed') {
+      next.progress[s.currentSceneId] = 'in-progress';
+    }
+    next.currentSceneId = sceneId;
+    next.cursor = 0;
+    next.actors = {};
+    next.bgOverride = null;
+    if (next.progress[sceneId] !== 'completed') {
+      next.progress[sceneId] = 'in-progress';
+    }
     return next;
   });
   saveGame();

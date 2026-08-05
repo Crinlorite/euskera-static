@@ -8,6 +8,7 @@
     advance,
     gotoLabel,
     gotoScene,
+    jumpToScene,
     applyChoice,
     gainItem,
     gainWord,
@@ -276,7 +277,7 @@
   }
   function pickChapter(sceneId: string) {
     cancelPendingAdvance();
-    gotoScene(sceneId);
+    jumpToScene(sceneId);
     view = { mode: 'chapter-intro', sceneId };
   }
   function exitToPortal() {
