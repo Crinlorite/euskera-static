@@ -61,7 +61,7 @@ const levels = (await getCollection('levels'))
           <li class="level-item">
             <a class={cardClass} href={`/${locale}/${level.data.code}/`}>
               <span class="level-code display">{level.data.name.split(' ')[0]}</span>
-              <span class="level-status">{inReview ? t(locale, 'levels.upcoming') : 'Disponible'}</span>
+              <span class="level-status">{inReview ? t(locale, 'levels.upcoming') : t(locale, 'levels.available')}</span>
               <span class="level-desc">{level.data.description}</span>
               <span class="level-arrow icon-direction-aware" aria-hidden="true">
                 <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -73,9 +73,9 @@ const levels = (await getCollection('levels'))
     </ul>
 
     <a class="expedicion-cta" href={`/${locale}/expedicion/`}>
-      <span class="cta-eyebrow">Vista previa · Steam</span>
-      <span class="cta-title display">Modo <em>Expedición</em></span>
-      <span class="cta-desc">Convierte tu progreso en un viaje por Euskal Herria. Cada lección abre una zona nueva.</span>
+      <span class="cta-eyebrow">{t(locale, 'expedition.cta.eyebrow')}</span>
+      <span class="cta-title display"><em>{t(locale, 'expedition.cta.title')}</em></span>
+      <span class="cta-desc">{t(locale, 'expedition.cta.desc')}</span>
       <span class="cta-arrow icon-direction-aware" aria-hidden="true">
         <svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </span>

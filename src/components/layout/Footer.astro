@@ -16,19 +16,19 @@ const year = new Date().getFullYear();
       <LanguageFooter currentLocale={locale} />
     </div>
     <div>
-      <h4>Proyecto</h4>
+      <h4>{t(locale, 'footer.project')}</h4>
       <ul>
         <li><a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a></li>
         <li><a href={`/${locale}/sobre/`}>{t(locale, 'about.title')}</a></li>
-        <li><a href={`/${locale}/feedback/`}>Reportar / Feedback</a></li>
-        <li><a href={`/${locale}/privacidad/`}>Privacidad</a></li>
+        <li><a href={`/${locale}/feedback/`}>{t(locale, 'footer.feedback')}</a></li>
+        <li><a href={`/${locale}/privacidad/`}>{t(locale, 'footer.privacy')}</a></li>
       </ul>
     </div>
     <div>
-      <h4>Licencias</h4>
+      <h4>{t(locale, 'footer.licenses')}</h4>
       <ul>
-        <li>Código: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE" rel="noopener">MIT</a></li>
-        <li>Contenido: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE-CONTENT" rel="noopener">CC BY-SA 4.0</a></li>
+        <li>{t(locale, 'footer.code')}: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE" rel="noopener">MIT</a></li>
+        <li>{t(locale, 'footer.content')}: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE-CONTENT" rel="noopener">CC BY-SA 4.0</a></li>
       </ul>
     </div>
     <div class="app-col app-promo">
