@@ -9,6 +9,7 @@
   // estado por tipo
   let mcChosen: number | null = null;
   let mcRevealed = false;
+  let mcOrder: number[] = []; // posición visible → índice original (mata el sesgo de posición)
 
   let fillValue = '';
   let fillChecked = false;
@@ -52,11 +53,18 @@
 
   let compChosen: number | null = null;
   let compRevealed = false;
+  let compOrder: number[] = [];
 
   $: resetForPuzzle(puzzle);
 
   function resetForPuzzle(p: Puzzle) {
     mcChosen = null; mcRevealed = false;
+    if (p.type === 'multiple-choice') {
+      mcOrder = deterministicShuffle(p.options.length, p.prompt);
+    }
+    if (p.type === 'comprehension') {
+      compOrder = deterministicShuffle(p.options.length, p.question);
+    }
     fillValue = ''; fillChecked = false; fillCorrect = false;
     orderPicks = []; orderChecked = false; orderCorrect = false;
     leftSel = null; rightSel = null;
@@ -238,17 +246,17 @@
       <p class="prompt-eu">{puzzle.promptEu}</p>
     {/if}
     <ul class="opts">
-      {#each puzzle.options as opt, i}
+      {#each mcOrder as origIdx, i}
         <li>
           <button
             class="opt"
-            class:right={mcRevealed && i === puzzle.correctIndex}
-            class:wrong={mcRevealed && mcChosen === i && i !== puzzle.correctIndex}
+            class:right={mcRevealed && origIdx === puzzle.correctIndex}
+            class:wrong={mcRevealed && mcChosen === origIdx && origIdx !== puzzle.correctIndex}
             disabled={mcRevealed}
-            on:click={() => pickMC(i)}
+            on:click={() => pickMC(origIdx)}
           >
             <span class="letter">{String.fromCharCode(65 + i)}</span>
-            <span>{opt}</span>
+            <span>{puzzle.options[origIdx]}</span>
           </button>
         </li>
       {/each}
@@ -383,17 +391,17 @@
     </div>
     <p class="prompt">{puzzle.question}</p>
     <ul class="opts">
-      {#each puzzle.options as opt, i}
+      {#each compOrder as origIdx, i}
         <li>
           <button
             class="opt"
-            class:right={compRevealed && i === puzzle.correctIndex}
-            class:wrong={compRevealed && compChosen === i && i !== puzzle.correctIndex}
+            class:right={compRevealed && origIdx === puzzle.correctIndex}
+            class:wrong={compRevealed && compChosen === origIdx && origIdx !== puzzle.correctIndex}
             disabled={compRevealed}
-            on:click={() => pickComp(i)}
+            on:click={() => pickComp(origIdx)}
           >
             <span class="letter">{String.fromCharCode(65 + i)}</span>
-            <span>{opt}</span>
+            <span>{puzzle.options[origIdx]}</span>
           </button>
         </li>
       {/each}

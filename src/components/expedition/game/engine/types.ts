@@ -96,7 +96,6 @@ export interface Choice {
 export interface BeatEffect {
   flag?: string; // setea flag en story
   removeFlag?: string;
-  unlockChapter?: string; // marca capítulo desbloqueado
 }
 
 export type Beat =
