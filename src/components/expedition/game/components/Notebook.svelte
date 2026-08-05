@@ -1,5 +1,6 @@
 <script lang="ts">
   import { story } from '../engine/state';
+  import { playVoice, hasVoice } from '../engine/audio';
 
   let open = false;
 </script>
@@ -17,7 +18,11 @@
         <ul class="words">
           {#each $story.notebook as w}
             <li>
-              <span class="eu">{w.eu}</span>
+              <span class="eu">
+                {#if hasVoice(w.eu)}
+                  <button class="say" aria-label={`Escuchar ${w.eu}`} on:click={() => playVoice(w.eu)}>🔊</button>
+                {/if}
+                {w.eu}</span>
               <span class="es">{w.es}</span>
               <span class="lvl" title={`Nivel ${w.level.toUpperCase()}`}>{w.level.toUpperCase()}</span>
               {#if w.context}<span class="ctx">"{w.context}"</span>{/if}
@@ -88,6 +93,16 @@
     align-items: center;
   }
   .eu { font-weight: 700; color: #f0e6d0; }
+  .say {
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-inline-end: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .say:hover { opacity: 1; }
   .es { color: #a89c7a; font-style: italic; }
   .lvl {
     font-size: 0.7rem;
