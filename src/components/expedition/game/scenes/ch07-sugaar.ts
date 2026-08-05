@@ -121,6 +121,8 @@ export const sceneSugaar: Scene = {
       type: 'gain-word',
       word: { eu: 'zerumuga', es: 'el horizonte', level: 'c1', context: 'Zerumugaren beste aldera doazen izarrek ez dute itzulerarik.' },
     },
+    { type: 'narration', text: 'El libro del abuelo se abre solo, iluminado por las vetas de la galería: repaso rápido.' },
+    { type: 'bank-puzzle', n: 3 },
     {
       type: 'puzzle',
       puzzle: {

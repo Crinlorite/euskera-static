@@ -80,6 +80,8 @@ export const sceneBilbao: Scene = {
       es: 'El abuelo me pidió una cosa: contarte algo cuando vinieras. Sacudirte el verbo.',
       emotion: 'mystic',
     },
+    { type: 'narration', text: 'El libro del abuelo se abre solo: repaso rápido antes de sacudir el verbo.' },
+    { type: 'bank-puzzle', n: 2 },
     {
       type: 'puzzle',
       puzzle: {
