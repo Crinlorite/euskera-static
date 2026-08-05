@@ -1,4 +1,6 @@
-import { saveProgress as nativeSaveProgress } from '../lib/platform';
+import { saveProgress as nativeSaveProgress, syncProgressToNative } from '../lib/platform';
+import { mergeProgress } from './progress-merge';
+import { exportHash as encodeHash, decodeHash } from './progress-hash';
 
 export const STORAGE_KEY = 'euskera-static.progress.v1';
 export const SCHEMA_VERSION = 1 as const;
@@ -95,6 +97,13 @@ export function setProgress(p: ProgressV1) {
 // El debounce de 500ms pierde la última escritura si el usuario cierra la
 // pestaña justo tras terminar un ejercicio. pagehide cubre cierre, navegación
 // externa y bfcache; visibilitychange cubre cambio de app en móvil.
+/**
+ * Escribe YA lo que hubiera pendiente. Lo usa la restauración desde iCloud: ahí no
+ * se puede esperar al debounce de 500 ms, porque el usuario puede cerrar la app
+ * justo después de que el wrapper devuelva el progreso.
+ */
+export function saveNow() { flushPendingSave(); }
+
 function flushPendingSave() {
   if (saveTimer) { clearTimeout(saveTimer); saveTimer = null; }
   if (pendingSave === null) return;
@@ -108,6 +117,9 @@ function flushPendingSave() {
       lessonsCompleted,
       lastStudied: progress.streak.lastStudiedDate,
     });
+    // Progreso COMPLETO al wrapper nativo (iOS lo respalda en iCloud). El hash es
+    // asíncrono; si falla no pasa nada: el guardado local ya está hecho.
+    void exportHash(progress).then((h) => syncProgressToNative(h, progress.lastUpdated)).catch(() => {});
   } catch { /* storage lleno o bloqueado — no hay nada que hacer */ }
   pendingSave = null;
 }
@@ -245,36 +257,11 @@ function bumpStreak(p: ProgressV1) {
 }
 
 // ---------- Hash encoding ----------
-
-function bytesToBase64Url(bytes: Uint8Array): string {
-  let str = '';
-  for (let i = 0; i < bytes.length; i++) str += String.fromCharCode(bytes[i]);
-  return btoa(str).replaceAll('+', '-').replaceAll('/', '_').replace(/=+$/, '');
-}
-
-function base64UrlToBytes(s: string): Uint8Array {
-  const pad = s.length % 4 === 0 ? '' : '='.repeat(4 - (s.length % 4));
-  const b64 = (s + pad).replaceAll('-', '+').replaceAll('_', '/');
-  const bin = atob(b64);
-  const bytes = new Uint8Array(bin.length);
-  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-  return bytes;
-}
-
-async function streamThrough(input: Uint8Array, transform: GenericTransformStream): Promise<Uint8Array> {
-  const stream = new Response(new Blob([input as BlobPart])).body!.pipeThrough(transform as TransformStream<Uint8Array, Uint8Array>);
-  const buf = await new Response(stream).arrayBuffer();
-  return new Uint8Array(buf);
-}
+// El códec vive en progress-hash.ts (puro y probado); aquí solo se le da el
+// progreso actual por defecto.
 
 export async function exportHash(p: ProgressV1 = getProgress()): Promise<string> {
-  const json = JSON.stringify(p);
-  const encoded = new TextEncoder().encode(json);
-  if (typeof CompressionStream === 'undefined') {
-    return 'P0.' + bytesToBase64Url(encoded);
-  }
-  const compressed = await streamThrough(encoded, new CompressionStream('deflate-raw'));
-  return 'P1.' + bytesToBase64Url(compressed);
+  return encodeHash(p);
 }
 
 export interface ImportResult {
@@ -287,27 +274,8 @@ export interface ImportResult {
 export async function importHash(hash: string, knownLessonKeys: Set<string>): Promise<ImportResult> {
   hash = hash.trim();
   if (!hash) return { ok: false, reason: 'invalid' };
-  let payload: ProgressAny;
-  try {
-    if (hash.startsWith('P1.')) {
-      const bytes = base64UrlToBytes(hash.slice(3));
-      const expanded = await streamThrough(bytes, new DecompressionStream('deflate-raw'));
-      payload = JSON.parse(new TextDecoder().decode(expanded));
-    } else if (hash.startsWith('P0.')) {
-      const bytes = base64UrlToBytes(hash.slice(3));
-      payload = JSON.parse(new TextDecoder().decode(bytes));
-    } else {
-      payload = JSON.parse(hash);
-    }
-  } catch {
-    return { ok: false, reason: 'invalid' };
-  }
-  if (!payload || typeof payload !== 'object' || !('schemaVersion' in payload)) {
-    return { ok: false, reason: 'invalid' };
-  }
-  if ((payload as ProgressAny).schemaVersion > SCHEMA_VERSION) {
-    return { ok: false, reason: 'outdated' };
-  }
+  const payload = await decodeHash(hash);
+  if (!payload) return { ok: false, reason: 'invalid' };
   const migrated = migrate(payload);
   const skipped: string[] = [];
   for (const key of Object.keys(migrated.lessons)) {
