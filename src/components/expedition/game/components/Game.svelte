@@ -10,6 +10,9 @@
     gotoScene,
     jumpToScene,
     applyChoice,
+  } from '../engine/state';
+  import { playVoice, voiceOn } from '../engine/audio';
+  import {
     gainItem,
     gainWord,
     setFlag,
@@ -335,6 +338,7 @@
         return true;
       case 'gain-word':
         gainWord(b.word);
+        if ($voiceOn) playVoice(b.word.eu); // la palabra nueva se escucha al ganarla
         flashGain('word', b.word.eu, b.word.es);
         advance();
         return true;
