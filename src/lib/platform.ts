@@ -5,6 +5,8 @@ interface KaixoBridge {
   speak(text: string, lang?: string): void;
   haptic(type: HapticType): void;
   saveProgress(s: ProgressSummary): void;
+  /** Progreso COMPLETO (código `P1.…`) para que el nativo lo respalde en iCloud. */
+  syncProgress?(hash: string, lastUpdated: string): void;
   share(hash: string): void;
   requestNotifications?(): void;
 }
@@ -64,4 +66,9 @@ export function shareProgress(hash: string): boolean {
 
 export function saveProgress(s: ProgressSummary): void {
   bridge()?.saveProgress?.(s);
+}
+
+/** Manda el progreso completo al wrapper nativo, si lo soporta. Silencioso en web. */
+export function syncProgressToNative(hash: string, lastUpdated: string): void {
+  bridge()?.syncProgress?.(hash, lastUpdated);
 }
