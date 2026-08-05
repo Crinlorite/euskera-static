@@ -1,7 +1,11 @@
 <script lang="ts">
-  // Backgrounds procedurales por escena. Composiciones SVG con paleta
-  // distintiva por lugar — placeholder hasta que el user ponga arte real.
+  // Backgrounds por escena: arte PINTADO (public/expedition/bg/<id>.webp,
+  // ids listados en bg-manifest.json) con fallback a la composición SVG
+  // procedural para cualquier id sin cuadro.
+  import painted from './bg-manifest.json';
   export let bgId: string;
+
+  const PAINTED = new Set(painted as string[]);
 
   type BgSpec = {
     sky: string;
@@ -73,7 +77,10 @@
   $: spec = BACKGROUNDS[bgId] ?? BACKGROUNDS['etxe-barrua'];
 </script>
 
-<div class="bg">
+<div class="bg" class:painted={PAINTED.has(bgId)}>
+  {#if PAINTED.has(bgId)}
+    <img class="bg-img" src={`/expedition/bg/${bgId}.webp`} alt="" draggable="false" />
+  {:else}
   <svg viewBox="0 0 400 250" preserveAspectRatio="xMidYMid slice" class="bg-svg" shape-rendering="crispEdges">
     <defs>
       <linearGradient id={`sky-${bgId}`} x1="0" y1="0" x2="0" y2="1">
@@ -180,6 +187,7 @@
       </g>
     {/if}
   </svg>
+  {/if}
 </div>
 
 <style>
@@ -188,6 +196,15 @@
     inset: 0;
     overflow: hidden;
     image-rendering: pixelated;
+  }
+  /* el arte pintado NO se pixela */
+  .bg.painted { image-rendering: auto; }
+  .bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    user-select: none;
   }
   .bg-svg {
     width: 100%;
