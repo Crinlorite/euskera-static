@@ -98,6 +98,8 @@ export const sceneGasteiz: Scene = {
       es: 'Te enseñaré algo que él escribió. Era una opinión, en aquellos tiempos imposible de escribir.',
       emotion: 'mystic',
     },
+    { type: 'narration', text: 'El libro del abuelo se abre solo: repaso rápido antes de leer.' },
+    { type: 'bank-puzzle', n: 2 },
     {
       type: 'puzzle',
       puzzle: {

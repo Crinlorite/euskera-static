@@ -264,6 +264,8 @@ export const sceneDonostia: Scene = {
       es: 'Bien. Mari estará lista para ti. Vete ahora.',
       emotion: 'neutral',
     },
+    { type: 'narration', text: 'El libro del abuelo se abre solo: repaso rápido antes de seguir.' },
+    { type: 'bank-puzzle', n: 2 },
     {
       type: 'puzzle',
       puzzle: {

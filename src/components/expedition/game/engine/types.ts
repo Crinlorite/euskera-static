@@ -123,6 +123,11 @@ export type Beat =
       onFailure?: string; // label (si null, deja reintentar)
     }
   | {
+      type: 'bank-puzzle'; // n preguntas del banco A1 del simulakro, al azar
+      id?: string;
+      n: number;
+    }
+  | {
       type: 'gain-item';
       id?: string;
       item: Item;
