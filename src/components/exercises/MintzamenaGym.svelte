@@ -19,7 +19,10 @@
   export let locale: LocaleCode = 'es';
 
   const M = audioManifest as Record<string, string>;
-  const MODEL_BASE = '/models/whisper-tiny';
+  // whisper-tiny FINE-TUNED en euskera (zuazo, Common Voice 13, Apache-2.0):
+  // el A/B del 06-ago sobre 115 clips propios bajó el WER≈78% del tiny
+  // genérico a ≈43% con el MISMO peso de descarga.
+  const MODEL_BASE = '/models/whisper-tiny-eu';
   const DECODER_URL = `${MODEL_BASE}/onnx/decoder_model_merged_uint8.onnx`;
 
   type Phase = 'idle' | 'loading' | 'ready' | 'recording' | 'thinking' | 'result' | 'error';
@@ -99,7 +102,7 @@
       // WASM siempre (la ruleta WebGPU rompía en headless/dispositivos raros)
       // y runtime ONNX auto-alojado: CERO peticiones a CDNs externos.
       t2.env.backends.onnx.wasm.wasmPaths = '/ort/';
-      transcriber = await t2.pipeline('automatic-speech-recognition', 'whisper-tiny', {
+      transcriber = await t2.pipeline('automatic-speech-recognition', 'whisper-tiny-eu', {
         dtype: { encoder_model: 'q8', decoder_model_merged: 'uint8' },
         device: 'wasm',
       });
