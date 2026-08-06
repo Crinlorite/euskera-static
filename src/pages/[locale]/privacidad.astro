@@ -1,126 +1,68 @@
 ---
 import RootLayout from '../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { t, tf } from '../../i18n/ui';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params as { locale: LocaleCode };
-const lastUpdated = '29 de junio de 2026';
 ---
-<RootLayout locale={locale} title="Política de privacidad">
+<RootLayout locale={locale} title={t(locale, 'priv.title')}>
   <article class="container prose">
-    <h1>Política de privacidad</h1>
-    <p class="updated">Última actualización: {lastUpdated}</p>
+    <h1>{t(locale, 'priv.title')}</h1>
+    <p class="updated">{t(locale, 'priv.updated')}</p>
 
-    <p>
-      Esta política describe cómo <strong>Crintech Studios</strong> ("nosotros") trata la
-      información cuando usas <em>Kaixo</em>, ya sea en la web
-      <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a>,
-      en la aplicación para iOS (App Store) o en la aplicación Android
-      (próximamente en Google Play) &mdash; en adelante, "el Servicio".
-    </p>
+    <p set:html={t(locale, 'priv.intro')} />
 
-    <h2>1. Información que recogemos</h2>
-    <p>Kaixo está diseñada para no recoger información personal:</p>
+    <h2>{t(locale, 'priv.s1.title')}</h2>
+    <p>{t(locale, 'priv.s1.intro')}</p>
     <ul>
-      <li><strong>Sin cuentas.</strong> No necesitas registrarte ni iniciar sesión. No te pedimos nombre, email, teléfono ni ningún otro dato identificativo.</li>
-      <li><strong>Sin analítica ni tracking.</strong> No usamos Google Analytics, Cloudflare Web Analytics, Plausible, Umami, Meta Pixel ni ningún SDK de terceros para medir audiencia, generar perfiles o mostrar publicidad.</li>
-      <li><strong>Sin fingerprinting.</strong> No usamos huellas digitales del navegador ni técnicas de tracking entre sitios.</li>
-      <li><strong>Sin publicidad.</strong> El Servicio es gratuito y libre de anuncios.</li>
+      <li set:html={t(locale, 'priv.s1.li1')} />
+      <li set:html={t(locale, 'priv.s1.li2')} />
+      <li set:html={t(locale, 'priv.s1.li3')} />
+      <li set:html={t(locale, 'priv.s1.li4')} />
     </ul>
 
-    <h2>2. Almacenamiento local en tu dispositivo</h2>
-    <p>
-      Tu progreso vive únicamente en el navegador o en la app, usando
-      <code>localStorage</code>. Esto incluye: lecciones completadas, ejercicios
-      acertados, logros desbloqueados, idioma seleccionado, estado del Modo
-      Expedición y la marca de paso por la página "Sobre".
-    </p>
-    <p>
-      <strong>Estos datos nunca salen de tu dispositivo</strong>. No los enviamos a
-      ningún servidor. Si te cambias de dispositivo, puedes exportar tu progreso
-      como un código que pegas en el nuevo dispositivo para restaurarlo —
-      tú decides cuándo y dónde compartirlo.
-    </p>
-    <p>
-      Al ser estrictamente necesarias para que la aplicación funcione, este tipo de
-      almacenamiento no requiere banner de consentimiento bajo la Directiva
-      ePrivacy europea ni las guías de la AEPD.
-    </p>
+    <h2>{t(locale, 'priv.s2.title')}</h2>
+    <p set:html={t(locale, 'priv.s2.p1')} />
+    <p set:html={t(locale, 'priv.s2.p2')} />
+    <p set:html={t(locale, 'priv.s2.p3')} />
 
-    <h2>3. Hosting y conexiones de red</h2>
-    <p>
-      La web y los archivos estáticos de la app se sirven desde
-      <strong>Cloudflare Pages</strong>. Como cualquier servidor web, Cloudflare
-      registra peticiones HTTP que pueden incluir IP, fecha y user agent, con el fin
-      exclusivo de proteger el Servicio (mitigación de abuso, CDN, métricas
-      agregadas de tráfico). No tenemos acceso a estos registros individualmente y
-      no los enlazamos con ninguna identidad. Puedes consultar su política en
-      <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a>.
-    </p>
-    <p>
-      La aplicación para iOS es un contenedor ligero que carga la misma web dentro
-      de un <strong>WebView</strong> del sistema; la aplicación Android, cuando se
-      publique, será un <strong>Trusted Web Activity (TWA)</strong> equivalente
-      sobre Chrome. En ningún caso se envían datos adicionales por usar la app en
-      vez de la web.
-    </p>
+    <h2>{t(locale, 'priv.s3.title')}</h2>
+    <p set:html={t(locale, 'priv.s3.p1')} />
+    <p set:html={t(locale, 'priv.s3.p2')} />
 
-    <h2>4. Servicios de terceros</h2>
-    <p>El Servicio no integra ningún SDK ni servicio de terceros que reciba datos personales. Las únicas conexiones salientes son:</p>
+    <h2>{t(locale, 'priv.s4.title')}</h2>
+    <p>{t(locale, 'priv.s4.intro')}</p>
     <ul>
-      <li><strong>Tipografías</strong> Manrope y Fraunces, auto-hospedadas desde el mismo dominio (no Google Fonts).</li>
-      <li><strong>GitHub</strong> únicamente si haces clic en un enlace al repositorio. La visita queda sujeta a la <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" rel="noopener">política de GitHub</a>.</li>
-      <li><strong>App Store</strong> únicamente para la descarga e instalación de la app de iOS, sujeta a la política de Apple.</li>
-      <li><strong>Google Play</strong>, cuando la app Android esté disponible, únicamente para su descarga e instalación, sujeta a la política de Google.</li>
+      <li set:html={t(locale, 'priv.s4.li1')} />
+      <li set:html={t(locale, 'priv.s4.li2')} />
+      <li set:html={t(locale, 'priv.s4.li3')} />
+      <li set:html={t(locale, 'priv.s4.li4')} />
     </ul>
 
-    <h2>5. Sistema de feedback</h2>
-    <p>
-      Si nos envías un reporte a través de la página de
-      <a href={`/${locale}/feedback/`}>Feedback</a>, recogemos los siguientes
-      datos en nuestro backend (no en tu dispositivo):
-    </p>
+    <h2>{t(locale, 'priv.s5.title')}</h2>
+    <p set:html={tf(locale, 'priv.s5.intro', locale)} />
     <ul>
-      <li><strong>Obligatorios:</strong> título y descripción del reporte (lo que tú escribes), tipo (bug / sugerencia / etc.).</li>
-      <li><strong>Opcionales:</strong> email y/o nombre de Discord, únicamente si tú decides escribirlos en los campos correspondientes para que podamos responderte. Si los dejas vacíos, no se recoge ningún identificador.</li>
-      <li><strong>Técnicos:</strong> la URL relativa de la página desde la que se envió y un fragmento del user agent (máximo 200 caracteres), para reproducir bugs.</li>
-      <li><strong>Anti-bot:</strong> un token de <a href="https://www.cloudflare.com/products/turnstile/" rel="noopener">Cloudflare Turnstile</a> emitido por Cloudflare, que verifica que no eres un bot. Se descarta inmediatamente tras la validación.</li>
+      <li set:html={t(locale, 'priv.s5.li1')} />
+      <li set:html={t(locale, 'priv.s5.li2')} />
+      <li set:html={t(locale, 'priv.s5.li3')} />
+      <li set:html={t(locale, 'priv.s5.li4')} />
     </ul>
-    <p>
-      Estos datos se usan únicamente para gestionar el ticket y, si nos has dejado
-      contacto, para responderte. No los compartimos con terceros y puedes pedir su
-      borrado en cualquier momento escribiéndonos al correo más abajo.
-    </p>
+    <p set:html={t(locale, 'priv.s5.outro')} />
 
-    <h2>6. Personas menores de edad</h2>
-    <p>
-      Kaixo no está dirigida específicamente a personas menores de 13 años, ni
-      recoge datos sobre ellas. No usamos pasarelas de identificación de edad
-      precisamente porque no necesitamos ningún dato personal.
-    </p>
+    <h2>{t(locale, 'priv.s6.title')}</h2>
+    <p set:html={t(locale, 'priv.s6.body')} />
 
-    <h2>7. Tus derechos (RGPD)</h2>
-    <p>
-      Como no almacenamos datos personales identificables en nuestros sistemas, los
-      derechos clásicos de acceso, rectificación, supresión, oposición,
-      portabilidad y limitación se ejercen en la práctica desde el propio
-      dispositivo: borrando los datos del navegador o desinstalando la app. Aun
-      así, si tienes cualquier consulta o crees que algún dato te concierne, puedes
-      escribirnos.
-    </p>
+    <h2>{t(locale, 'priv.s7.title')}</h2>
+    <p set:html={t(locale, 'priv.s7.body')} />
 
-    <h2>8. Cambios a esta política</h2>
-    <p>
-      Si esta política cambia (por ejemplo, si en el futuro añadiéramos algún
-      servicio adicional), actualizaremos la fecha en la parte superior y, si el
-      cambio fuese material, lo anunciaríamos también en la home y en las notas de
-      versión del repositorio.
-    </p>
+    <h2>{t(locale, 'priv.s8.title')}</h2>
+    <p set:html={t(locale, 'priv.s8.body')} />
 
-    <h2>9. Contacto</h2>
+    <h2>{t(locale, 'priv.s9.title')}</h2>
     <p>
       Crintech Studios &mdash; <a href="https://crintech.pro" rel="noopener">crintech.pro</a><br />
       Email: <a href="mailto:kaixo@crintech.pro">kaixo@crintech.pro</a><br />
