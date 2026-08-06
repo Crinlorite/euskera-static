@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { t, type StringKey } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
   import { onMount } from 'svelte';
   import { ACHIEVEMENTS, evaluate, type Achievement, type AchievementCategory } from '../../lib/achievements';
   import { getProgress, unlockAchievements } from '../../stores/progress';
@@ -9,6 +11,7 @@
   export let lessonsByUnit: Record<string, string[]> = {};
   export let unitsByLevel: Record<string, { unitIds: string[] }> = {};
   export let locale: string = 'es';
+  $: loc = locale as LocaleCode;
 
   let unlockedIds: string[] = [];
   let unlockedAt: Record<string, string> = {};
@@ -52,12 +55,18 @@
   });
 
   const FILTERS: Array<{ id: Filter; label: string }> = [
-    { id: 'all',       label: 'Todos' },
-    { id: 'milestone', label: 'Hitos' },
-    { id: 'mastery',   label: 'Maestría' },
-    { id: 'streak',    label: 'Constancia' },
-    { id: 'volume',    label: 'Volumen' },
+    { id: 'all',       label: 'ach.f.all' },
+    { id: 'milestone', label: 'ach.f.milestone' },
+    { id: 'mastery',   label: 'ach.f.mastery' },
+    { id: 'streak',    label: 'ach.f.streak' },
+    { id: 'volume',    label: 'ach.f.volume' },
   ];
+
+  // clave i18n con caída al texto del catálogo (logros futuros sin traducir)
+  function tr(key: string, fallback: string): string {
+    const v = t(loc, key as StringKey);
+    return v === key ? fallback : v;
+  }
 
   function formatDate(iso: string): string {
     if (!iso) return '';
@@ -73,23 +82,23 @@
   function tooltipFor(a: Achievement): string {
     if (unlockedSet.has(a.id)) {
       const when = unlockedAt[a.id];
-      return when ? `Desbloqueado: ${formatDate(when)}` : 'Desbloqueado';
+      return when ? t(loc, 'ach.unlocked').replace('{0}', formatDate(when)) : t(loc, 'ach.unlocked.short');
     }
-    return a.description;
+    return tr('ach.' + a.id + '.d', a.description);
   }
 </script>
 
 <section class="ach" aria-labelledby="achievements-heading">
   <header class="head">
-    <p class="eyebrow">Tu camino</p>
-    <h2 id="achievements-heading" class="title display">Logros</h2>
+    <p class="eyebrow">{t(loc, 'progress.path')}</p>
+    <h2 id="achievements-heading" class="title display">{t(loc, 'ach.title')}</h2>
     <p class="counter" aria-live="polite">
       <span class="counter-num text-grad">{unlockedCount}</span>
-      <span class="counter-of">de {total} desbloqueados</span>
+      <span class="counter-of">{t(loc, 'ach.counter').replace('{0}', String(total))}</span>
     </p>
   </header>
 
-  <div class="filters" role="tablist" aria-label="Filtrar logros por categoría">
+  <div class="filters" role="tablist" aria-label={t(loc, 'a11y.ach.filter')}>
     {#each FILTERS as f (f.id)}
       <button
         type="button"
@@ -99,7 +108,7 @@
         class:active={activeFilter === f.id}
         on:click={() => (activeFilter = f.id)}
       >
-        {f.label}
+        {tr(f.label, f.label)}
       </button>
     {/each}
   </div>
@@ -117,10 +126,10 @@
         {#if isUnlocked}
           <span class="check" aria-hidden="true">✓</span>
         {/if}
-        <h3 class="card-title">{a.title}</h3>
-        <p class="card-desc">{a.description}</p>
+        <h3 class="card-title">{tr('ach.' + a.id + '.t', a.title)}</h3>
+        <p class="card-desc">{tr('ach.' + a.id + '.d', a.description)}</p>
         {#if isUnlocked && unlockedAt[a.id]}
-          <p class="card-date">Desbloqueado: {formatDate(unlockedAt[a.id])}</p>
+          <p class="card-date">{t(loc, 'ach.unlocked').replace('{0}', formatDate(unlockedAt[a.id]))}</p>
         {/if}
       </li>
     {/each}
