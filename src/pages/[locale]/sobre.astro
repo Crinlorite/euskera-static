@@ -13,42 +13,34 @@ const { locale } = Astro.params as { locale: LocaleCode };
   <article class="container prose">
     <h1>{t(locale, 'about.title')}</h1>
 
-    <p>
-      Este es un proyecto personal de aprendizaje colaborativo: aprender euskera
-      enseñándolo. Lo que voy aprendiendo, lo voy publicando aquí, ordenado por
-      niveles del MCER (A1 → C2). Es gratis, sin login, sin ads, y siempre lo será.
-    </p>
+    <p>{t(locale, 'about.intro')}</p>
 
-    <h2>Filosofía</h2>
+    <h2>{t(locale, 'about.phil.title')}</h2>
     <ul>
-      <li><strong>Gratis</strong> y sin paywalls.</li>
-      <li><strong>Sin login</strong>. Tu progreso vive en tu navegador y lo puedes exportar.</li>
-      <li><strong>Sin ads</strong>. Sin tracking. Sin patrones oscuros.</li>
-      <li><strong>Datos abiertos</strong>: las lecciones son archivos Markdown; cualquiera puede clonarlas, forkearlas o auto-hostearlas.</li>
-      <li><strong>Eterno</strong>: el código es estático. Aunque desaparezca el mantenedor, el repo sigue vivo y cualquier persona puede continuarlo.</li>
+      <li set:html={t(locale, 'about.phil.free')} />
+      <li set:html={t(locale, 'about.phil.nologin')} />
+      <li set:html={t(locale, 'about.phil.noads')} />
+      <li set:html={t(locale, 'about.phil.opendata')} />
+      <li set:html={t(locale, 'about.phil.eternal')} />
     </ul>
 
-    <h2>Fuentes</h2>
+    <h2>{t(locale, 'about.sources.title')}</h2>
     <p>{t(locale, 'sources.statement')}</p>
 
-    <h2>Licencias</h2>
+    <h2>{t(locale, 'footer.licenses')}</h2>
     <ul>
-      <li>Código: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE" rel="noopener">MIT</a>.</li>
-      <li>Contenido: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE-CONTENT" rel="noopener">CC BY-SA 4.0</a> — libre para usar, compartir y adaptar con atribución y bajo la misma licencia.</li>
+      <li set:html={t(locale, 'about.license.code')} />
+      <li set:html={t(locale, 'about.license.content')} />
     </ul>
 
-    <h2>Contribuir</h2>
+    <h2>{t(locale, 'about.contribute.title')}</h2>
 
     <script>
       import('../../stores/progress').then(({ unlockAchievements }) => {
         unlockAchievements(['curiosity-about']);
       }).catch(() => {});
     </script>
-    <p>
-      ¿Detectaste un error? ¿Tienes ideas? Abre un issue o un PR en
-      <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a>.
-      Las traducciones a otros idiomas son especialmente bienvenidas.
-    </p>
+    <p set:html={t(locale, 'about.contribute.body')} />
   </article>
 </RootLayout>
 
