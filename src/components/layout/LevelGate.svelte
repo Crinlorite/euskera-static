@@ -1,6 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { GATE_HASH, LOCKED_PATHS, sha256Hex } from '../../lib/gate';
+  import { t, tf } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
 
   // Comparamos contra el SHA-256 del token (no contra plaintext): el
   // password real no aparece en el repo ni en el bundle. Esto es protección
@@ -21,8 +23,14 @@
   let currentLockedPath: string | null = null;
   let input = '';
   let error = '';
+  let locale: LocaleCode = 'es';
   let revealed = false;
   let busy = false;
+
+  function detectLocale(pathname: string): LocaleCode {
+    const m = pathname.match(/^\/([a-zA-Z-]+)\//);
+    return (m?.[1] ?? 'es') as LocaleCode;
+  }
 
   function detectLockedPath(pathname: string): string | null {
     // Match /<locale>/<seg>/... donde <seg> está en LOCKED_PATHS
@@ -49,6 +57,7 @@
   }
 
   function check() {
+    locale = detectLocale(location.pathname);
     const seg = detectLockedPath(location.pathname);
     if (!seg) {
       currentLockedPath = null;
@@ -82,7 +91,7 @@
         input = '';
         error = '';
       } else {
-        error = 'Contraseña incorrecta.';
+        error = t(locale, 'gate.error');
       }
     } finally {
       busy = false;
@@ -101,12 +110,12 @@
 {#if mounted && currentLockedPath}
   <div class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
     <div class="gate-card">
-      <p class="eyebrow">{override?.eyebrow ?? 'Acceso restringido'}</p>
+      <p class="eyebrow">{override?.eyebrow ?? t(locale, 'gate.eyebrow')}</p>
       <h2 id="gate-title" class="display gate-title">
         {#if override}
           {override.titlePre}<span class="text-grad">{override.titleHi}</span>{override.titlePost}
         {:else}
-          Nivel <span class="text-grad">{currentLockedPath.toUpperCase()}</span> en revisión
+          {@html tf(locale, 'gate.title', currentLockedPath.toUpperCase())}
         {/if}
       </h2>
       <p class="gate-desc">
@@ -115,18 +124,17 @@
           fase de prototipo y no está disponible para acceso libre. Si tienes la contraseña
           de revisión, introdúcela para continuar.
         {:else}
-          Este nivel todavía está en validación pedagógica y no está disponible para acceso libre.
-          Si tienes la contraseña de revisión, introdúcela para continuar.
+          {t(locale, 'gate.desc')}
         {/if}
       </p>
 
       <form on:submit={tryUnlock} class="gate-form">
-        <label for="gate-pwd" class="sr-only">Contraseña de revisión</label>
+        <label for="gate-pwd" class="sr-only">{t(locale, 'gate.pwd.label')}</label>
         <input
           id="gate-pwd"
           type="password"
           bind:value={input}
-          placeholder="Contraseña"
+          placeholder={t(locale, 'gate.pwd.ph')}
           autocomplete="off"
           autocapitalize="off"
           autocorrect="off"
@@ -134,17 +142,14 @@
           disabled={busy}
         />
         <button class="btn btn-primary" type="submit" disabled={busy}>
-          {busy ? 'Comprobando…' : 'Desbloquear'}
+          {busy ? t(locale, 'gate.checking') : t(locale, 'gate.unlock')}
         </button>
       </form>
       {#if error}
         <p class="gate-error" role="alert">{error}</p>
       {/if}
 
-      <p class="gate-foot">
-        Mientras tanto puedes seguir con
-        <a href="/es/a1/">A1, completo y validado</a>.
-      </p>
+      <p class="gate-foot">{@html tf(locale, 'gate.foot', locale)}</p>
     </div>
   </div>
 {/if}

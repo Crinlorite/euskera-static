@@ -1,4 +1,5 @@
 ---
+import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
 
 interface Props {
@@ -12,7 +13,7 @@ interface Props {
 }
 const { locale, levelCode, unitCode, lessons, currentLessonCode } = Astro.props;
 ---
-<aside class="unit-sidebar" aria-label="Lecciones de la unidad">
+<aside class="unit-sidebar" aria-label={t(locale, 'a11y.unit.lessons')}>
   <ol>
     {lessons.map((l) => (
       <li class={l.data.code === currentLessonCode ? 'active' : ''}>

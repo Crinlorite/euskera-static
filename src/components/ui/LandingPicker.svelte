@@ -63,14 +63,14 @@
     <div class="countdown" class:hide={cancelled} aria-live="polite">
       {#if !cancelled && !prefersReduce}
         <span class="countdown-text">
-          Vamos a Castellano en
+          Castellano · Spanish →
           <strong class="countdown-num" data-n={countdown}>{Math.max(0, countdown)}</strong>
         </span>
-        <button class="btn-cancel" on:click={cancelTimer} aria-label="Cancelar redirección">
-          esperar
+        <button class="btn-cancel" on:click={cancelTimer} aria-label="Cancelar redirección · Cancel redirect">
+          esperar · wait
         </button>
       {:else if cancelled}
-        <span class="countdown-text muted">Sin prisa. Selecciona abajo cuando quieras.</span>
+        <span class="countdown-text muted">Sin prisa. Selecciona abajo cuando quieras. · No rush — pick below.</span>
       {/if}
     </div>
   {/if}

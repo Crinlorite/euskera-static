@@ -50,8 +50,8 @@ const levels = (await getCollection('levels'))
 
   <section class="container-wide levels fade-in">
     <header class="levels-header">
-      <p class="eyebrow">Marco común europeo</p>
-      <h2 class="display levels-title">Seis niveles. <span class="text-grad">Una ruta.</span></h2>
+      <p class="eyebrow">{t(locale, 'home.cefr')}</p>
+      <h2 class="display levels-title" set:html={t(locale, 'home.levels.title')} />
     </header>
     <ul class="level-list">
       {levels.map((level) => {

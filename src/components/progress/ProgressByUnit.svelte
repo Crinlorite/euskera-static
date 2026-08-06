@@ -18,12 +18,15 @@
 </script>
 
 <script lang="ts">
+  import { t } from '../../i18n/ui';
+  import type { LocaleCode } from '../../i18n/config';
   import { onMount } from 'svelte';
   import { getProgress } from '../../stores/progress';
 
   export let units: UnitInput[] = [];
   export let levelCode: string = 'a1';
   export let locale: string = 'es';
+  $: loc = locale as LocaleCode;
 
   let mounted = false;
   let computed: UnitProgress[] = units.map((u) => ({
@@ -84,9 +87,9 @@
   </header>
 
   {#if computed.length === 0}
-    <p class="empty">Aún no hay unidades activas en este nivel.</p>
+    <p class="empty">{t(loc, 'progress.units.empty')}</p>
   {:else}
-    <nav aria-label="Lista de unidades con progreso">
+    <nav aria-label={t(loc, 'a11y.units.list')}>
       <ul class="list">
         {#each computed as u (u.id)}
           {@const percentage = pct(u)}
@@ -102,11 +105,11 @@
                   <span class="title-text">{u.title}</span>
                   {#if complete}
                     <span class="check" aria-hidden="true">✓</span>
-                    <span class="badge">Completada</span>
+                    <span class="badge">{t(loc, 'progress.unit.done')}</span>
                   {/if}
                 </h3>
                 <p class="meta">
-                  {u.completedLessons} de {u.totalLessons} {u.totalLessons === 1 ? 'lección' : 'lecciones'}
+                  {t(loc, 'unit.eyebrow')}: {u.completedLessons}/{u.totalLessons}
                 </p>
               </div>
 
