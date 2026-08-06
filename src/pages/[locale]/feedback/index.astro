@@ -12,14 +12,9 @@ const { locale } = Astro.params as { locale: LocaleCode };
 ---
 <RootLayout locale={locale} title={t(locale, 'footer.feedback')}>
   <section class="container feedback-hero fade-in">
-    <p class="eyebrow">Tickets</p>
-    <h1 class="display">
-      Hay algo que <span class="text-grad">contar</span>.
-    </h1>
-    <p class="lead">
-      Bugs, sugerencias, errores en una lección, traducciones que cojean, dudas concretas.
-      Lo que sea. Cada ticket nos llega y se gestiona desde nuestro Discord.
-    </p>
+    <p class="eyebrow">{t(locale, 'fbp.eyebrow')}</p>
+    <h1 class="display" set:html={t(locale, 'fbp.title')} />
+    <p class="lead">{t(locale, 'fbp.lead')}</p>
   </section>
 
   <section class="container feedback-form fade-in">
@@ -27,17 +22,14 @@ const { locale } = Astro.params as { locale: LocaleCode };
   </section>
 
   <aside class="container feedback-aside fade-in">
-    <h2>¿Cómo funciona?</h2>
+    <h2>{t(locale, 'fbp.how.title')}</h2>
     <ol>
-      <li>Eliges la categoría que mejor describe el asunto.</li>
-      <li>Lo describes con el detalle que tengas — pasos, capturas mentales, contexto.</li>
-      <li>Si quieres respuesta, dejas email o usuario de Discord.</li>
-      <li>Recibes un ID público. Si dejaste contacto, te avisamos cuando lo cerramos.</li>
+      <li>{t(locale, 'fbp.how.li1')}</li>
+      <li>{t(locale, 'fbp.how.li2')}</li>
+      <li>{t(locale, 'fbp.how.li3')}</li>
+      <li>{t(locale, 'fbp.how.li4')}</li>
     </ol>
-    <p class="aside-note">
-      No hay backend de cuentas. No guardamos historiales ligados a ti. El ID que recibes
-      es lo único que necesitas para seguir el ticket.
-    </p>
+    <p class="aside-note">{t(locale, 'fbp.note')}</p>
   </aside>
 </RootLayout>
 
