@@ -13,7 +13,7 @@ interface Props {
 }
 const { locale, prevHref, prevTitle, prevEyebrow, nextHref, nextTitle, nextEyebrow } = Astro.props;
 ---
-<nav class="lesson-nav" aria-label="Navegación entre lecciones">
+<nav class="lesson-nav" aria-label={t(locale, 'a11y.lesson.nav')}>
   {prevHref ? (
     <a class="prev" href={prevHref} class:list={[{ 'unit-jump': prevEyebrow }]}>
       <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">

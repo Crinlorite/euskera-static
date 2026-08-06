@@ -57,13 +57,13 @@ const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
 
     <section class="lessons-section">
       <header class="section-head">
-        <p class="eyebrow">Lecciones</p>
-        <h2 class="display section-title">Empieza por la primera</h2>
+        <p class="eyebrow">{t(locale, 'unit.eyebrow')}</p>
+        <h2 class="display section-title">{t(locale, 'unit.start')}</h2>
       </header>
       <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
     </section>
 
-    <nav class="unit-nav" aria-label="Navegación entre unidades">
+    <nav class="unit-nav" aria-label={t(locale, 'a11y.unit.nav')}>
       {prevUnit ? (
         <a class="unit-nav-card prev" href={`/${locale}/${levelCode}/${prevUnit.data.code}/`}>
           <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">

@@ -25,7 +25,7 @@
 
 {#if open}
   <div class="overlay" on:click={() => (open = false)} role="presentation"></div>
-  <aside class="drawer" aria-label="Menú móvil">
+  <aside class="drawer" aria-label={t(locale, 'a11y.menu')}>
     <ul>
       {#each items as item}
         <li><a href={item.href} on:click={() => (open = false)}>

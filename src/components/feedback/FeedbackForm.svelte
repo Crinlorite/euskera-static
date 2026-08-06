@@ -128,7 +128,7 @@
       });
 
       if (res.status === 503) {
-        error = 'El sistema de tickets está temporalmente desactivado. Inténtalo más tarde.';
+        error = ui(locale, 'fb.err.disabled');
         return;
       }
       if (!res.ok) {
@@ -233,7 +233,7 @@
           type="email"
           bind:value={email}
           maxlength="120"
-          placeholder="tu@email.com"
+          placeholder={ui(locale, 'fb.email.ph')}
         />
       </label>
       <label class="field">
@@ -242,17 +242,15 @@
           type="text"
           bind:value={discordUser}
           maxlength="40"
-          placeholder="tunick"
+          placeholder={ui(locale, 'fb.discord.ph')}
         />
       </label>
     </div>
 
-    <p class="contact-note">
-      Te avisaremos cuando se resuelva. Si lo dejas en blanco, queda anónimo.
-    </p>
+    <p class="contact-note">{ui(locale, 'fb.contact.note')}</p>
 
     <div class="honeypot" aria-hidden="true">
-      <label>Website (déjalo vacío)
+      <label>{ui(locale, 'fb.honeypot')}
         <input
           type="text"
           name="website"
