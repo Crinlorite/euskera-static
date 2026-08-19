@@ -9,6 +9,8 @@ interface KaixoBridge {
   syncProgress?(hash: string, lastUpdated: string): void;
   share(hash: string): void;
   requestNotifications?(): void;
+  /** Resultado de una lección terminada; el nativo decide si pide la reseña. */
+  requestReview?(correct: number, total: number): void;
 }
 interface ProgressSummary {
   streak: number; longest: number; lessonsCompleted: number; lastStudied: string;
@@ -71,4 +73,23 @@ export function saveProgress(s: ProgressSummary): void {
 /** Manda el progreso completo al wrapper nativo, si lo soporta. Silencioso en web. */
 export function syncProgressToNative(hash: string, lastUpdated: string): void {
   bridge()?.syncProgress?.(hash, lastUpdated);
+}
+
+/**
+ * ¿Puede el binario nativo pedir la reseña? Se comprueba la CAPACIDAD concreta,
+ * no la mera presencia del puente: durante los días de revisión de una versión
+ * hay usuarios con el binario viejo (sin `requestReview` y sin apertura nativa
+ * de la App Store), y ahí no debe ofrecerse nada — degrada sin romper.
+ */
+export const canRequestReview = (): boolean => typeof bridge()?.requestReview === 'function';
+
+/**
+ * Avisa al nativo de que se ha terminado una lección. NO pide la reseña por sí
+ * mismo: el gate nativo (≥80 % de acierto, y solo en la 3.ª/10.ª/25.ª buena
+ * lección) decide, y por encima manda la cuota de Apple. Nunca se llama tras un
+ * fallo ni al arrancar. En web normal es un no-op.
+ */
+export function requestReview(correct: number, total: number): void {
+  if (total <= 0) return;
+  try { bridge()?.requestReview?.(correct, total); } catch { /* nativo ausente */ }
 }

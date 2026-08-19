@@ -67,10 +67,13 @@ export type StringKey =
   | 'gate.desc' | 'gate.pwd.label' | 'gate.pwd.ph' | 'gate.checking' | 'gate.unlock' | 'gate.error'
   | 'gate.foot' | 'unit.eyebrow' | 'unit.start' | 'a11y.unit.nav' | 'a11y.lesson.nav' | 'a11y.unit.lessons'
   | 'a11y.menu' | 'progress.units.empty' | 'a11y.units.list' | 'progress.path' | 'a11y.ach.filter' | 'home.cefr'
-  | 'home.levels.title';
+  | 'home.levels.title'
+  | 'app.rate' | 'app.rate.hint';
 
 const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   'es': {
+    'app.rate': 'Valorar la app',
+    'app.rate.hint': 'Si te está ayudando, una valoración nos ayuda un montón',
     'ach.title': 'Logros',
     'ach.counter': 'de {0} desbloqueados',
     'ach.first-step.t': 'Primer paso',
@@ -360,6 +363,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Peninsulares (planned, sin traducciones aún)
   'ca': {
+    "app.rate": "Valorar l’app",
+    "app.rate.hint": "Si t’està ajudant, una valoració ens ajuda molt",
     'ach.title': 'Assoliments',
     'ach.counter': 'de {0} desbloquejats',
     'ach.first-step.t': 'Primer pas',
@@ -647,6 +652,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "El currículum segueix els estàndards CEFR oficials per als nivells A1-C2 del basc. Les explicacions, exemples i exercicis són material original. El vocabulari i les regles gramaticals són fets lingüístics de domini públic.",
   }, 'gl': {
+    "app.rate": "Valorar a app",
+    "app.rate.hint": "Se che está a axudar, unha valoración axúdanos moito",
     'ach.title': 'Logros',
     'ach.counter': 'de {0} desbloqueados',
     'ach.first-step.t': 'Primeiro paso',
@@ -934,6 +941,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rolda rematada: sabías {0} de {1}.",
     "sources.statement": "O currículo segue os estándares CEFR oficiais para os niveis A1-C2 do éuscaro. As explicacións, exemplos e exercicios son material orixinal. O vocabulario e as regras gramaticais son feitos lingüísticos de dominio público.",
   }, 'oc': {
+    "app.rate": "Notar l’aplicacion",
+    "app.rate.hint": "S’aquò vos ajuda, una nòta nos ajuda fòrça",
     'ach.title': 'Capitadas',
     'ach.counter': 'de {0} desblocadas',
     'ach.first-step.t': 'Primièr pas',
@@ -1221,6 +1230,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "Eth curriculum seguís es estandards CEFR oficiaus entàs nivèus A1-C2 deth basc. Es explicacions, exemples e exercicis son materiau originau. Vocabulari e règles gramaticaus son hèts lingüistics de domeni public.",
   }, 'ast': {
+    "app.rate": "Valorar l’app",
+    "app.rate.hint": "Si te ta ayudando, una valoración ayúdanos muncho",
     'ach.title': 'Llogros',
     'ach.counter': 'de {0} desbloquiaos',
     'ach.first-step.t': 'Primer pasu',
@@ -1508,6 +1519,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda fináu: sabíes {0} de {1}.",
     "sources.statement": "El currículu sigue los estándares CEFR oficiales pa los niveles A1-C2 del vascu. Les esplicaciones, exemplos y exercicios son material orixinal. Vocabulariu y regles gramaticales son fechos llingüísticos de dominiu públicu.",
   }, 'an': {
+    "app.rate": "Valorar la app",
+    "app.rate.hint": "Si te ye aduyando, una valoración nos aduya muito",
     'ach.title': 'Logros',
     'ach.counter': 'de {0} desbloqueyaus',
     'ach.first-step.t': 'Primer trango',
@@ -1797,6 +1810,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Resto del roadmap
   'en': {
+    "app.rate": "Rate the app",
+    "app.rate.hint": "If it is helping you, a rating helps us a lot",
     'ach.title': 'Achievements',
     'ach.counter': 'of {0} unlocked',
     'ach.first-step.t': 'First Step',
@@ -2084,6 +2099,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round finished: you knew {0} of {1}.",
     "sources.statement": "The curriculum follows the official CEFR standards for Basque levels A1-C2. The explanations, examples, and exercises are original material. Vocabulary and grammar rules are linguistic facts in the public domain.",
   }, 'ar': {
+    "app.rate": "قيّم التطبيق",
+    "app.rate.hint": "إذا كان يساعدك، فإن تقييمك يساعدنا كثيرًا",
     'ach.title': 'الإنجازات',
     'ach.counter': 'من {0} مفتوحة',
     'ach.first-step.t': 'الخطوة الأولى',
@@ -2371,6 +2388,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "انتهت الجولة: عرفت {0} من {1}.",
     "sources.statement": "يتّبع المنهج المعايير الرسمية للإطار الأوروبي المرجعي المشترك للغات (CEFR) للمستويات A1-C2 من اللغة الباسكية. الشروحات والأمثلة والتمارين مادة أصلية. المفردات والقواعد النحوية حقائق لغوية في الملكية العامة.",
   }, 'fr': {
+    "app.rate": "Noter l’application",
+    "app.rate.hint": "Si elle vous aide, une note nous aide beaucoup",
     'ach.title': 'Succès',
     'ach.counter': 'sur {0} débloqués',
     'ach.first-step.t': 'Premier pas',
@@ -2658,6 +2677,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Tour terminé : vous saviez {0} sur {1}.",
     "sources.statement": "Le programme suit les normes officielles du CECRL pour les niveaux A1-C2 du basque. Les explications, les exemples et les exercices sont du matériel original. Le vocabulaire et les règles grammaticales sont des faits linguistiques du domaine public.",
   }, 'ro': {
+    "app.rate": "Evaluează aplicația",
+    "app.rate.hint": "Dacă îți este de folos, o evaluare ne ajută mult",
     'ach.title': 'Realizări',
     'ach.counter': 'din {0} deblocate',
     'ach.first-step.t': 'Primul pas',
@@ -2945,6 +2966,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rundă terminată: ai știut {0} din {1}.",
     "sources.statement": "Programa urmează standardele oficiale CEFR pentru nivelurile A1-C2 ale limbii basce. Explicațiile, exemplele și exercițiile sunt material original. Vocabularul și regulile gramaticale sunt fapte lingvistice de domeniu public.",
   }, 'pt-BR': {
+    "app.rate": "Avaliar o app",
+    "app.rate.hint": "Se está te ajudando, uma avaliação nos ajuda muito",
     'ach.title': 'Conquistas',
     'ach.counter': 'de {0} desbloqueadas',
     'ach.first-step.t': 'Primeiro passo',
@@ -3233,6 +3256,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "sources.statement": "O currículo segue os padrões oficiais do CEFR para os níveis A1-C2 do basco. As explicações, exemplos e exercícios são material original. O vocabulário e as regras gramaticais são fatos linguísticos de domínio público.",
   },
   'de': {
+    "app.rate": "App bewerten",
+    "app.rate.hint": "Wenn sie dir hilft, hilft uns eine Bewertung sehr",
     'ach.title': 'Erfolge',
     'ach.counter': 'von {0} freigeschaltet',
     'ach.first-step.t': 'Erster Schritt',
@@ -3520,6 +3545,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runde beendet: Du wusstest {0} von {1}.",
     "sources.statement": "Das Curriculum folgt den offiziellen GER-Standards für die Niveaus A1–C2 des Baskischen. Die Erklärungen, Beispiele und Übungen sind Originalmaterial. Wortschatz und Grammatikregeln sind sprachliche Fakten der Gemeinfreiheit.",
   }, 'it': {
+    "app.rate": "Valuta l’app",
+    "app.rate.hint": "Se ti sta aiutando, una valutazione ci aiuta molto",
     'ach.title': 'Obiettivi',
     'ach.counter': 'di {0} sbloccati',
     'ach.first-step.t': 'Primo passo',
@@ -3807,6 +3834,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round terminato: ne sapevi {0} su {1}.",
     "sources.statement": "Il curriculum segue gli standard ufficiali CEFR per i livelli A1-C2 del basco. Le spiegazioni, gli esempi e gli esercizi sono materiale originale. Il vocabolario e le regole grammaticali sono fatti linguistici di dominio pubblico.",
   }, 'ru': {
+    "app.rate": "Оценить приложение",
+    "app.rate.hint": "Если приложение помогает, оценка очень нас поддержит",
     'ach.title': 'Достижения',
     'ach.counter': 'из {0} открыто',
     'ach.first-step.t': 'Первый шаг',
@@ -4094,6 +4123,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Раунд завершён: вы знали {0} из {1}.",
     "sources.statement": "Учебная программа соответствует официальным стандартам CEFR для уровней A1–C2 баскского языка. Объяснения, примеры и упражнения являются оригинальным материалом. Лексика и грамматические правила — лингвистические факты, относящиеся к общественному достоянию.",
   }, 'pl': {
+    "app.rate": "Oceń aplikację",
+    "app.rate.hint": "Jeśli ci pomaga, ocena bardzo nam pomoże",
     'ach.title': 'Osiągnięcia',
     'ach.counter': 'z {0} odblokowanych',
     'ach.first-step.t': 'Pierwszy krok',
@@ -4381,6 +4412,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runda zakończona: znałeś {0} z {1}.",
     "sources.statement": "Program nauczania jest zgodny z oficjalnymi standardami CEFR dla poziomów A1–C2 języka baskijskiego. Objaśnienia, przykłady i ćwiczenia są materiałem oryginalnym. Słownictwo i zasady gramatyczne to fakty językowe należące do domeny publicznej.",
   }, 'zh-Hans': {
+    "app.rate": "为应用评分",
+    "app.rate.hint": "如果它对你有帮助，评分对我们帮助很大",
     'ach.title': '成就',
     'ach.counter': '/{0} 已解锁',
     'ach.first-step.t': '第一步',
@@ -4668,6 +4701,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "本轮结束：你答对了 {1} 个中的 {0} 个。",
     "sources.statement": "本课程遵循巴斯克语 A1-C2 级别的官方 CEFR 标准。讲解、示例和练习均为原创内容。词汇和语法规则属于公共领域的语言学事实。",
   }, 'ja': {
+    "app.rate": "アプリを評価",
+    "app.rate.hint": "役に立っているなら、評価はとても励みになります",
     'ach.title': '実績',
     'ach.counter': '/{0} 達成',
     'ach.first-step.t': '最初の一歩',
@@ -4955,6 +4990,8 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "ラウンド終了：{1}問中{0}問正解でした。",
     "sources.statement": "カリキュラムはバスク語のA1〜C2レベルに対応する公式のCEFR基準に従っています。説明、例文、練習問題はすべてオリジナルの教材です。語彙と文法規則はパブリックドメインの言語学的事実です。",
   }, 'ko': {
+    "app.rate": "앱 평가하기",
+    "app.rate.hint": "도움이 되었다면 별점이 큰 힘이 됩니다",
     'ach.title': '업적',
     'ach.counter': '/{0} 달성',
     'ach.first-step.t': '첫걸음',

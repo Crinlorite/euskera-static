@@ -5,7 +5,7 @@
     type ProgressV1,
   } from '../../stores/progress';
   import { t } from '../../i18n/ui';
-  import { shareProgress } from '../../lib/platform';
+  import { shareProgress, canRequestReview } from '../../lib/platform';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
@@ -16,8 +16,15 @@
   let importValue = '';
   let banner = '';
   let modalMode: 'none' | 'export' | 'import' = 'none';
+  // Fila de valoración: solo si el binario nativo puede abrir la App Store
+  // de verdad (misma versión que trae `requestReview`). Con el binario
+  // viejo el enlace acabaría en una ficha web sin formulario → no se
+  // muestra. En navegador tampoco. Se resuelve en cliente (onMount).
+  let showRate = false;
+  const RATE_URL = 'https://apps.apple.com/app/id6784369966?action=write-review';
 
   onMount(async () => {
+    showRate = canRequestReview();
     if (!isStorageAvailable()) {
       banner = t(locale, 'guest.banner');
     }
@@ -130,6 +137,18 @@
   </button>
 </section>
 
+{#if showRate}
+  <!-- Sin clase .app-promo: esa la oculta `.is-native-app` y esta fila existe
+       precisamente PARA la app. Sin mención a otras plataformas (2.3.10). -->
+  <section class="rate">
+    <div class="rate-txt">
+      <strong>{t(locale, 'app.rate')}</strong>
+      <span>{t(locale, 'app.rate.hint')}</span>
+    </div>
+    <a class="btn btn-secondary" href={RATE_URL} rel="noopener">★</a>
+  </section>
+{/if}
+
 {#if modalMode === 'export'}
   <div class="modal-overlay" on:click={() => (modalMode = 'none')} role="presentation"></div>
   <dialog class="modal" open>
@@ -165,6 +184,17 @@
 {/if}
 
 <style>
+  .rate {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: var(--s-4); flex-wrap: wrap;
+    margin-block-start: var(--s-5); padding: var(--s-4) var(--s-5);
+    border: 1px solid var(--c-border); border-radius: var(--r-lg);
+    background: var(--c-bg-alt);
+  }
+  .rate-txt { display: grid; gap: 2px; }
+  .rate-txt span { color: var(--c-text-muted); font-size: 0.9rem; }
+  .rate .btn { text-decoration: none; font-size: 1.1rem; line-height: 1; }
+
   .banner { padding: var(--s-3) var(--s-4); background: var(--c-green-soft); color: var(--c-green-strong); border-radius: var(--r-md); margin-block-end: var(--s-4); }
   .summary { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-3); margin-block-end: var(--s-5); }
   .summary .card { display: grid; gap: var(--s-1); text-align: center; }
