@@ -4,7 +4,7 @@
   import Flashcards from './Flashcards.svelte';
   import MatchPairs from './MatchPairs.svelte';
   import { recordExerciseResult, recordLessonRead, recordLessonCompleted, getProgress } from '../../stores/progress';
-  import { haptic } from '../../lib/platform';
+  import { haptic, requestReview } from '../../lib/platform';
   import { onMount } from 'svelte';
   import type { LocaleCode } from '../../i18n/config';
 
@@ -26,6 +26,11 @@
   // (localStorage no existe en SSR). No restauramos la respuesta elegida (no
   // se guarda) sino un resumen "Resuelto · N%" con opción de repetir.
   let restored: Record<string, number> = {};
+  // Notas de esta visita + las restauradas: sirven para el "momento feliz"
+  // de la reseña. `wasComplete` evita volver a contarlo si la lección ya
+  // estaba terminada al entrar (repetir ejercicios no es un hito nuevo).
+  const scores = new Map<string, number>();
+  let wasComplete = false;
 
   onMount(() => {
     recordLessonRead(lessonKey);
@@ -41,15 +46,25 @@
       }
     }
     restored = map;
+    for (const [id, sc] of Object.entries(map)) scores.set(id, sc);
+    wasComplete = completed.size === exercises.length;
   });
 
   function onResult(event: CustomEvent<{ exerciseId: string; score: number; finished: boolean }>) {
     const { exerciseId, score, finished } = event.detail;
     haptic(score === 100 ? 'success' : score === 0 ? 'error' : 'light');
     recordExerciseResult(lessonKey, exerciseId, score);
+    scores.set(exerciseId, Math.max(scores.get(exerciseId) ?? 0, score));
     if (finished) completed.add(exerciseId);
     if (completed.size === exercises.length) {
       recordLessonCompleted(lessonKey);
+      if (!wasComplete) {
+        wasComplete = true;
+        // Momento feliz: lección terminada. Solo se REPORTA el resultado; el
+        // gate nativo decide (≥80 % y solo 3.ª/10.ª/25.ª buena lección).
+        const good = exercises.filter((e) => (scores.get(e.id) ?? 0) >= 80).length;
+        requestReview(good, exercises.length);
+      }
     }
   }
 </script>
