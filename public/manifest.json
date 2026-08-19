@@ -1,7 +1,7 @@
 {
   "name": "Kaixo — Aprende euskera",
   "short_name": "Kaixo",
-  "description": "Aprende euskera gratis. Sin login, sin tracking, sin paywall. Currículum CEFR A1 a EGA con lecciones, ejercicios, logros y modo expedición narrativa.",
+  "description": "Aprende euskera gratis. Sin login, sin tracking, sin paywall. Niveles A1 y A2 (marco CEFR) con lecciones, ejercicios y logros; más niveles en camino.",
   "id": "/",
   "start_url": "/es/",
   "scope": "/",
@@ -11,10 +11,28 @@
   "orientation": "portrait-primary",
   "lang": "es",
   "dir": "ltr",
-  "categories": ["education", "books"],
+  "categories": [
+    "education",
+    "books"
+  ],
   "icons": [
-    { "src": "/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "/favicon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
