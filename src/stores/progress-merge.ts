@@ -3,7 +3,7 @@ import type { AchievementUnlock, ExerciseResult, LessonProgress, ProgressV1 } fr
 /**
  * Fusiona dos progresos. **Solo suma**: nunca borra una lección, nunca baja una
  * puntuación y nunca acorta una racha. Por eso se puede aplicar automáticamente
- * al recuperar de iCloud sin arriesgar lo que se acaba de hacer en el dispositivo.
+ * al recuperar del respaldo nativo sin arriesgar lo que se acaba de hacer en el dispositivo.
  *
  * Es idempotente —`merge(merge(a,b), b) === merge(a,b)`— porque todas las reglas
  * son máximos o mínimos, nunca sumas: así reintentar una sincronización no infla

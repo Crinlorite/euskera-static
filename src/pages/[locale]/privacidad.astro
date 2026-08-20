@@ -29,6 +29,7 @@ const { locale } = Astro.params as { locale: LocaleCode };
     <p set:html={t(locale, 'priv.s2.p1')} />
     <p set:html={t(locale, 'priv.s2.p2')} />
     <p set:html={t(locale, 'priv.s2.p3')} />
+    <p set:html={t(locale, 'priv.s2.p4')} />
 
     <h2>{t(locale, 'priv.s3.title')}</h2>
     <p set:html={t(locale, 'priv.s3.p1')} />
@@ -39,6 +40,7 @@ const { locale } = Astro.params as { locale: LocaleCode };
     <ul>
       <li set:html={t(locale, 'priv.s4.li1')} />
       <li set:html={t(locale, 'priv.s4.li2')} />
+      <li set:html={t(locale, 'priv.s4.li0')} />
       <li set:html={t(locale, 'priv.s4.li3')} />
       <li set:html={t(locale, 'priv.s4.li4')} />
     </ul>
