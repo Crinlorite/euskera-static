@@ -98,7 +98,7 @@ export function setProgress(p: ProgressV1) {
 // pestaña justo tras terminar un ejercicio. pagehide cubre cierre, navegación
 // externa y bfcache; visibilitychange cubre cambio de app en móvil.
 /**
- * Escribe YA lo que hubiera pendiente. Lo usa la restauración desde iCloud: ahí no
+ * Escribe YA lo que hubiera pendiente. Lo usa la restauración desde el respaldo nativo: ahí no
  * se puede esperar al debounce de 500 ms, porque el usuario puede cerrar la app
  * justo después de que el wrapper devuelva el progreso.
  */
@@ -117,7 +117,7 @@ function flushPendingSave() {
       lessonsCompleted,
       lastStudied: progress.streak.lastStudiedDate,
     });
-    // Progreso COMPLETO al wrapper nativo (iOS lo respalda en iCloud). El hash es
+    // Progreso COMPLETO al wrapper nativo (iOS lo respalda en local). El hash es
     // asíncrono; si falla no pasa nada: el guardado local ya está hecho.
     void exportHash(progress).then((h) => syncProgressToNative(h, progress.lastUpdated)).catch(() => {});
   } catch { /* storage lleno o bloqueado — no hay nada que hacer */ }

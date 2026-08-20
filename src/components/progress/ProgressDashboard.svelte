@@ -5,7 +5,7 @@
     type ProgressV1,
   } from '../../stores/progress';
   import { t } from '../../i18n/ui';
-  import { shareProgress, canRequestReview } from '../../lib/platform';
+  import { shareProgress, canRequestReview, canCloudSync, isCloudSyncEnabled, setCloudSync } from '../../lib/platform';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
@@ -21,10 +21,17 @@
   // viejo el enlace acabaría en una ficha web sin formulario → no se
   // muestra. En navegador tampoco. Se resuelve en cliente (onMount).
   let showRate = false;
+  // Respaldo opcional en la nube DEL USUARIO. Apagado por defecto: el credo
+  // promete que el progreso no sale del dispositivo, así que encenderlo es
+  // una decisión suya y se puede revocar (al apagarlo el nativo borra la copia).
+  let showSync = false;
+  let syncOn = false;
   const RATE_URL = 'https://apps.apple.com/app/id6784369966?action=write-review';
 
   onMount(async () => {
     showRate = canRequestReview();
+    showSync = canCloudSync();
+    syncOn = isCloudSyncEnabled();
     if (!isStorageAvailable()) {
       banner = t(locale, 'guest.banner');
     }
@@ -137,6 +144,19 @@
   </button>
 </section>
 
+{#if showSync}
+  <section class="sync">
+    <div class="sync-txt">
+      <strong>{t(locale, 'sync.title')}</strong>
+      <span>{t(locale, 'sync.hint')}</span>
+    </div>
+    <button
+      class="btn {syncOn ? 'btn-primary' : 'btn-secondary'}"
+      aria-pressed={syncOn}
+      on:click={() => { syncOn = !syncOn; setCloudSync(syncOn); }}
+    >{syncOn ? t(locale, 'sync.on') : t(locale, 'sync.off')}</button>
+  </section>
+{/if}
 {#if showRate}
   <!-- Sin clase .app-promo: esa la oculta `.is-native-app` y esta fila existe
        precisamente PARA la app. Sin mención a otras plataformas (2.3.10). -->
@@ -184,6 +204,16 @@
 {/if}
 
 <style>
+  .sync {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: var(--s-4); flex-wrap: wrap;
+    margin-block-start: var(--s-5); padding: var(--s-4) var(--s-5);
+    border: 1px solid var(--c-border); border-radius: var(--r-lg);
+    background: var(--c-bg-alt);
+  }
+  .sync-txt { display: grid; gap: 2px; max-inline-size: 46ch; }
+  .sync-txt span { color: var(--c-text-muted); font-size: 0.9rem; }
+
   .rate {
     display: flex; align-items: center; justify-content: space-between;
     gap: var(--s-4); flex-wrap: wrap;
