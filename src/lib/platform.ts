@@ -5,7 +5,11 @@ interface KaixoBridge {
   speak(text: string, lang?: string): void;
   haptic(type: HapticType): void;
   saveProgress(s: ProgressSummary): void;
-  /** Progreso COMPLETO (código `P1.…`) para que el nativo lo respalde en iCloud. */
+  /** Estado del respaldo opcional en la nube del propio usuario (iCloud / Google). */
+  cloudSync?: { supported: boolean; enabled: boolean };
+  /** Activa o desactiva ese respaldo. Apagado por defecto: lo decide el usuario. */
+  setCloudSync?(enabled: boolean): void;
+  /** Progreso COMPLETO (código `P1.…`) para que el nativo lo respalde en el dispositivo. */
   syncProgress?(hash: string, lastUpdated: string): void;
   share(hash: string): void;
   requestNotifications?(): void;
@@ -92,4 +96,21 @@ export const canRequestReview = (): boolean => typeof bridge()?.requestReview ==
 export function requestReview(correct: number, total: number): void {
   if (total <= 0) return;
   try { bridge()?.requestReview?.(correct, total); } catch { /* nativo ausente */ }
+}
+
+/**
+ * ¿Ofrece este binario el respaldo opcional en la nube del usuario? Se comprueba
+ * la capacidad concreta: con binarios antiguos no existe y no se ofrece nada.
+ */
+export const canCloudSync = (): boolean => !!bridge()?.cloudSync?.supported && typeof bridge()?.setCloudSync === 'function';
+
+/** ¿Lo tiene ACTIVADO? Por defecto no: nada sale del dispositivo sin permiso. */
+export const isCloudSyncEnabled = (): boolean => !!bridge()?.cloudSync?.enabled;
+
+/** Activa/desactiva el respaldo. Al desactivar, el nativo borra lo ya subido. */
+export function setCloudSync(enabled: boolean): void {
+  const b = bridge();
+  if (!b?.setCloudSync) return;
+  b.setCloudSync(enabled);
+  if (b.cloudSync) b.cloudSync.enabled = enabled;   // refleja el cambio sin recargar
 }

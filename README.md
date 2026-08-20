@@ -10,6 +10,7 @@ Curso de euskera gratuito y abierto: **A1 y A2 completos**, con la parte vehicul
 - **Vocabulario con audio**: 1.672 locuciones en flashcards, juegos de parejas y exámenes.
 - **Simulakro sortzailea**: generador de exámenes A1 infinitos sobre un banco de 262 preguntas, 823 tarjetas, 6 lecturas y 6 piezas de escucha. Cada examen sale de una semilla compartible por URL (`?s=`), con estructura fija de examen real: entzumena, irakurmena, gramatika, hiztegia e idazmena con corrección automática.
 - **Ahoskera-gimnasioa (beta)**: gimnasio de pronunciación con reconocimiento de voz que corre **íntegro en tu navegador** — el audio nunca sale del dispositivo, no hay servidor.
+- **Progreso soberano**: se guarda en tu dispositivo. La app añade una copia local (que sobrevive a la limpieza del WebView) y, **si tú lo activas** desde Progreso, una copia en **tu propia** cuenta de la nube (iCloud; el equivalente de Google en Android cuando llegue) para no perderlo al reinstalar. **Apagado por defecto**, y al apagarlo se borra lo subido: nosotros no vemos nada en ningún caso.
 - **Escalera oficial de niveles** A1 → C2 (HABE/EGA) y seguimiento de progreso (lecciones, racha, récord) guardado en tu dispositivo.
 
 ## Los 18 idiomas
@@ -44,3 +45,12 @@ El contenido vive en `src/content/{lessons,units,levels}/<locale>/<nivel>/` y el
 ## Contribuir
 
 PRs bienvenidas, especialmente correcciones de contenido y mejoras de traducción. Abre un issue para hablar de cambios grandes antes de implementarlos.
+
+## Novedades
+
+**20-ago-2026 — Sincronización opcional del progreso.** Hasta ahora el progreso solo vivía en el navegador y se
+perdía al reinstalar. Ahora la app guarda además una copia **local** y ofrece, **desactivada por defecto**, una
+copia en **tu propia** cuenta de iCloud (y la equivalente de Google en Android cuando exista el envoltorio
+nativo). Es opt-in explícito desde *Progreso*, revocable —al apagarla se borra lo subido— y en ningún caso
+pasa por servidores nuestros: seguimos sin recoger ni un dato. La [política de privacidad](https://euskera.crintech.pro/es/privacidad/)
+recoge el cambio (§2 y §4).

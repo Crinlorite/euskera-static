@@ -68,10 +68,17 @@ export type StringKey =
   | 'gate.foot' | 'unit.eyebrow' | 'unit.start' | 'a11y.unit.nav' | 'a11y.lesson.nav' | 'a11y.unit.lessons'
   | 'a11y.menu' | 'progress.units.empty' | 'a11y.units.list' | 'progress.path' | 'a11y.ach.filter' | 'home.cefr'
   | 'home.levels.title'
-  | 'app.rate' | 'app.rate.hint';
+  | 'app.rate' | 'app.rate.hint'
+  | 'sync.title' | 'sync.hint' | 'sync.off' | 'sync.on'
+  | 'priv.s2.p4' | 'priv.s4.li0';
 
 const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   'es': {
+    'priv.s2.p4': '<strong>Sincronización opcional (desactivada por defecto).</strong> En la app puedes activar, desde Progreso, una copia de seguridad en <em>tu propia</em> cuenta de la nube (iCloud en iOS; el servicio equivalente de Google en Android cuando esté disponible), para no perder el progreso al reinstalar. Esa copia viaja a tu cuenta, <strong>no a un servidor nuestro</strong>, y nosotros no podemos leerla. Si la desactivas, se borra lo que se hubiera subido.',
+    'sync.title': 'Sincronizar mi progreso',
+    'sync.hint': 'Guarda una copia en tu propia cuenta de la nube para no perder el progreso si reinstalas. Nosotros no la vemos.',
+    'sync.off': 'Desactivada',
+    'sync.on': 'Activada',
     'app.rate': 'Valorar la app',
     'app.rate.hint': 'Si te está ayudando, una valoración nos ayuda un montón',
     'ach.title': 'Logros',
@@ -155,7 +162,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'about.contribute.title': 'Contribuir',
     'about.contribute.body': '¿Detectaste un error? ¿Tienes ideas? Abre un issue o un PR en <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a>. Las traducciones a otros idiomas son especialmente bienvenidas.',
     'priv.title': 'Política de privacidad',
-    'priv.updated': 'Última actualización: 29 de junio de 2026',
+    'priv.updated': 'Última actualización: 20 de agosto de 2026',
     'priv.intro': 'Esta política describe cómo <strong>Crintech Studios</strong> ("nosotros") trata la información cuando usas <em>Kaixo</em>, ya sea en la web <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a>, en la aplicación para iOS (App Store) o en la aplicación Android (próximamente en Google Play) — en adelante, "el Servicio".',
     'priv.s1.title': '1. Información que recogemos',
     'priv.s1.intro': 'Kaixo está diseñada para no recoger información personal:',
@@ -165,7 +172,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'priv.s1.li4': '<strong>Sin publicidad.</strong> El Servicio es gratuito y libre de anuncios.',
     'priv.s2.title': '2. Almacenamiento local en tu dispositivo',
     'priv.s2.p1': 'Tu progreso vive únicamente en el navegador o en la app, usando <code>localStorage</code>. Esto incluye: lecciones completadas, ejercicios acertados, logros desbloqueados, idioma seleccionado, estado del Modo Expedición y la marca de paso por la página "Sobre".',
-    'priv.s2.p2': '<strong>Estos datos nunca salen de tu dispositivo</strong>. No los enviamos a ningún servidor. Si te cambias de dispositivo, puedes exportar tu progreso como un código que pegas en el nuevo dispositivo para restaurarlo — tú decides cuándo y dónde compartirlo.',
+    'priv.s2.p2': '<strong>Por defecto, estos datos nunca salen de tu dispositivo</strong>. No los enviamos a ningún servidor. Si te cambias de dispositivo, puedes exportar tu progreso como un código que pegas en el nuevo dispositivo para restaurarlo — tú decides cuándo y dónde compartirlo.',
     'priv.s2.p3': 'Al ser estrictamente necesarias para que la aplicación funcione, este tipo de almacenamiento no requiere banner de consentimiento bajo la Directiva ePrivacy europea ni las guías de la AEPD.',
     'priv.s3.title': '3. Hosting y conexiones de red',
     'priv.s3.p1': 'La web y los archivos estáticos de la app se sirven desde <strong>Cloudflare Pages</strong>. Como cualquier servidor web, Cloudflare registra peticiones HTTP que pueden incluir IP, fecha y user agent, con el fin exclusivo de proteger el Servicio (mitigación de abuso, CDN, métricas agregadas de tráfico). No tenemos acceso a estos registros individualmente y no los enlazamos con ninguna identidad. Puedes consultar su política en <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a>.',
@@ -174,6 +181,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'priv.s4.intro': 'El Servicio no integra ningún SDK ni servicio de terceros que reciba datos personales. Las únicas conexiones salientes son:',
     'priv.s4.li1': '<strong>Tipografías</strong> Manrope y Fraunces, auto-hospedadas desde el mismo dominio (no Google Fonts).',
     'priv.s4.li2': '<strong>GitHub</strong> únicamente si haces clic en un enlace al repositorio. La visita queda sujeta a la <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" rel="noopener">política de GitHub</a>.',
+    'priv.s4.li0': '<strong>iCloud (Apple) o el servicio equivalente de Google</strong>, <em>solo si activas la sincronización opcional del progreso</em>: la copia va a tu propia cuenta, nunca a un servidor nuestro.',
     'priv.s4.li3': '<strong>App Store</strong> únicamente para la descarga e instalación de la app de iOS, sujeta a la política de Apple.',
     'priv.s4.li4': '<strong>Google Play</strong>, cuando la app Android esté disponible, únicamente para su descarga e instalación, sujeta a la política de Google.',
     'priv.s5.title': '5. Sistema de feedback',
@@ -363,6 +371,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Peninsulares (planned, sin traducciones aún)
   'ca': {
+    "sync.title": "Sincronitzar el meu progrés",
+    "sync.hint": "Desa una còpia al teu propi compte al núvol per no perdre el progrés si reinstal·les. Nosaltres no la veiem.",
+    "sync.off": "Desactivada",
+    "sync.on": "Activada",
     "app.rate": "Valorar l’app",
     "app.rate.hint": "Si t’està ajudant, una valoració ens ajuda molt",
     'ach.title': 'Assoliments',
@@ -652,6 +664,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "El currículum segueix els estàndards CEFR oficials per als nivells A1-C2 del basc. Les explicacions, exemples i exercicis són material original. El vocabulari i les regles gramaticals són fets lingüístics de domini públic.",
   }, 'gl': {
+    "sync.title": "Sincronizar o meu progreso",
+    "sync.hint": "Garda unha copia na túa propia conta na nube para non perder o progreso se reinstalas. Nós non a vemos.",
+    "sync.off": "Desactivada",
+    "sync.on": "Activada",
     "app.rate": "Valorar a app",
     "app.rate.hint": "Se che está a axudar, unha valoración axúdanos moito",
     'ach.title': 'Logros',
@@ -941,6 +957,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rolda rematada: sabías {0} de {1}.",
     "sources.statement": "O currículo segue os estándares CEFR oficiais para os niveis A1-C2 do éuscaro. As explicacións, exemplos e exercicios son material orixinal. O vocabulario e as regras gramaticais son feitos lingüísticos de dominio público.",
   }, 'oc': {
+    "sync.title": "Sincronizar mon progrès",
+    "sync.hint": "Garda una còpia dins ton pròpri compte en linha per pas pèrdre lo progrès se reinstallas. Nosautres la vesèm pas.",
+    "sync.off": "Desactivada",
+    "sync.on": "Activada",
     "app.rate": "Notar l’aplicacion",
     "app.rate.hint": "S’aquò vos ajuda, una nòta nos ajuda fòrça",
     'ach.title': 'Capitadas',
@@ -1230,6 +1250,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "Eth curriculum seguís es estandards CEFR oficiaus entàs nivèus A1-C2 deth basc. Es explicacions, exemples e exercicis son materiau originau. Vocabulari e règles gramaticaus son hèts lingüistics de domeni public.",
   }, 'ast': {
+    "sync.title": "Sincronizar el mio progresu",
+    "sync.hint": "Guarda una copia na to propia cuenta na nube pa nun perder el progresu si reinstales. Nós nun la vemos.",
+    "sync.off": "Desactivada",
+    "sync.on": "Activada",
     "app.rate": "Valorar l’app",
     "app.rate.hint": "Si te ta ayudando, una valoración ayúdanos muncho",
     'ach.title': 'Llogros',
@@ -1519,6 +1543,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda fináu: sabíes {0} de {1}.",
     "sources.statement": "El currículu sigue los estándares CEFR oficiales pa los niveles A1-C2 del vascu. Les esplicaciones, exemplos y exercicios son material orixinal. Vocabulariu y regles gramaticales son fechos llingüísticos de dominiu públicu.",
   }, 'an': {
+    "sync.title": "Sincronizar lo mío progreso",
+    "sync.hint": "Alza una copia en la tuya propia cuenta en la nube pa no perder lo progreso si reinstalas. Nusatros no la veyemos.",
+    "sync.off": "Desactivada",
+    "sync.on": "Activada",
     "app.rate": "Valorar la app",
     "app.rate.hint": "Si te ye aduyando, una valoración nos aduya muito",
     'ach.title': 'Logros',
@@ -1810,6 +1838,11 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Resto del roadmap
   'en': {
+    "priv.s2.p4": "<strong>Optional sync (off by default).</strong> In the app you can turn on, from Progress, a backup in <em>your own</em> cloud account (iCloud on iOS; Google's equivalent on Android when available), so you do not lose your progress when reinstalling. That copy goes to your account, <strong>not to a server of ours</strong>, and we cannot read it. If you turn it off, whatever was uploaded is deleted.",
+    "sync.title": "Sync my progress",
+    "sync.hint": "Keeps a copy in your own cloud account so you do not lose your progress if you reinstall. We cannot see it.",
+    "sync.off": "Off",
+    "sync.on": "On",
     "app.rate": "Rate the app",
     "app.rate.hint": "If it is helping you, a rating helps us a lot",
     'ach.title': 'Achievements',
@@ -2099,6 +2132,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round finished: you knew {0} of {1}.",
     "sources.statement": "The curriculum follows the official CEFR standards for Basque levels A1-C2. The explanations, examples, and exercises are original material. Vocabulary and grammar rules are linguistic facts in the public domain.",
   }, 'ar': {
+    "sync.title": "مزامنة تقدمي",
+    "sync.hint": "يحفظ نسخة في حسابك السحابي الخاص حتى لا تفقد تقدمك عند إعادة التثبيت. نحن لا نطّلع عليها.",
+    "sync.off": "معطّل",
+    "sync.on": "مفعّل",
     "app.rate": "قيّم التطبيق",
     "app.rate.hint": "إذا كان يساعدك، فإن تقييمك يساعدنا كثيرًا",
     'ach.title': 'الإنجازات',
@@ -2388,6 +2425,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "انتهت الجولة: عرفت {0} من {1}.",
     "sources.statement": "يتّبع المنهج المعايير الرسمية للإطار الأوروبي المرجعي المشترك للغات (CEFR) للمستويات A1-C2 من اللغة الباسكية. الشروحات والأمثلة والتمارين مادة أصلية. المفردات والقواعد النحوية حقائق لغوية في الملكية العامة.",
   }, 'fr': {
+    "sync.title": "Synchroniser ma progression",
+    "sync.hint": "Garde une copie dans votre propre compte cloud pour ne pas perdre votre progression si vous réinstallez. Nous ne la voyons pas.",
+    "sync.off": "Désactivée",
+    "sync.on": "Activée",
     "app.rate": "Noter l’application",
     "app.rate.hint": "Si elle vous aide, une note nous aide beaucoup",
     'ach.title': 'Succès',
@@ -2677,6 +2718,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Tour terminé : vous saviez {0} sur {1}.",
     "sources.statement": "Le programme suit les normes officielles du CECRL pour les niveaux A1-C2 du basque. Les explications, les exemples et les exercices sont du matériel original. Le vocabulaire et les règles grammaticales sont des faits linguistiques du domaine public.",
   }, 'ro': {
+    "sync.title": "Sincronizează progresul meu",
+    "sync.hint": "Păstrează o copie în contul tău cloud ca să nu pierzi progresul dacă reinstalezi. Noi nu o vedem.",
+    "sync.off": "Dezactivată",
+    "sync.on": "Activată",
     "app.rate": "Evaluează aplicația",
     "app.rate.hint": "Dacă îți este de folos, o evaluare ne ajută mult",
     'ach.title': 'Realizări',
@@ -2966,6 +3011,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rundă terminată: ai știut {0} din {1}.",
     "sources.statement": "Programa urmează standardele oficiale CEFR pentru nivelurile A1-C2 ale limbii basce. Explicațiile, exemplele și exercițiile sunt material original. Vocabularul și regulile gramaticale sunt fapte lingvistice de domeniu public.",
   }, 'pt-BR': {
+    "sync.title": "Sincronizar meu progresso",
+    "sync.hint": "Guarda uma cópia na sua própria conta na nuvem para não perder o progresso se reinstalar. Nós não a vemos.",
+    "sync.off": "Desativada",
+    "sync.on": "Ativada",
     "app.rate": "Avaliar o app",
     "app.rate.hint": "Se está te ajudando, uma avaliação nos ajuda muito",
     'ach.title': 'Conquistas',
@@ -3256,6 +3305,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "sources.statement": "O currículo segue os padrões oficiais do CEFR para os níveis A1-C2 do basco. As explicações, exemplos e exercícios são material original. O vocabulário e as regras gramaticais são fatos linguísticos de domínio público.",
   },
   'de': {
+    "sync.title": "Fortschritt synchronisieren",
+    "sync.hint": "Legt eine Kopie in deinem eigenen Cloud-Konto ab, damit du bei einer Neuinstallation nichts verlierst. Wir sehen sie nicht.",
+    "sync.off": "Aus",
+    "sync.on": "An",
     "app.rate": "App bewerten",
     "app.rate.hint": "Wenn sie dir hilft, hilft uns eine Bewertung sehr",
     'ach.title': 'Erfolge',
@@ -3545,6 +3598,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runde beendet: Du wusstest {0} von {1}.",
     "sources.statement": "Das Curriculum folgt den offiziellen GER-Standards für die Niveaus A1–C2 des Baskischen. Die Erklärungen, Beispiele und Übungen sind Originalmaterial. Wortschatz und Grammatikregeln sind sprachliche Fakten der Gemeinfreiheit.",
   }, 'it': {
+    "sync.title": "Sincronizza i miei progressi",
+    "sync.hint": "Salva una copia nel tuo account cloud per non perdere i progressi se reinstalli. Noi non la vediamo.",
+    "sync.off": "Disattivata",
+    "sync.on": "Attivata",
     "app.rate": "Valuta l’app",
     "app.rate.hint": "Se ti sta aiutando, una valutazione ci aiuta molto",
     'ach.title': 'Obiettivi',
@@ -3834,6 +3891,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round terminato: ne sapevi {0} su {1}.",
     "sources.statement": "Il curriculum segue gli standard ufficiali CEFR per i livelli A1-C2 del basco. Le spiegazioni, gli esempi e gli esercizi sono materiale originale. Il vocabolario e le regole grammaticali sono fatti linguistici di dominio pubblico.",
   }, 'ru': {
+    "sync.title": "Синхронизировать прогресс",
+    "sync.hint": "Сохраняет копию в вашем облачном аккаунте, чтобы прогресс не пропал при переустановке. Мы её не видим.",
+    "sync.off": "Выключено",
+    "sync.on": "Включено",
     "app.rate": "Оценить приложение",
     "app.rate.hint": "Если приложение помогает, оценка очень нас поддержит",
     'ach.title': 'Достижения',
@@ -4123,6 +4184,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Раунд завершён: вы знали {0} из {1}.",
     "sources.statement": "Учебная программа соответствует официальным стандартам CEFR для уровней A1–C2 баскского языка. Объяснения, примеры и упражнения являются оригинальным материалом. Лексика и грамматические правила — лингвистические факты, относящиеся к общественному достоянию.",
   }, 'pl': {
+    "sync.title": "Synchronizuj mój postęp",
+    "sync.hint": "Zapisuje kopię na twoim koncie w chmurze, byś nie stracił postępu po ponownej instalacji. Nie mamy do niej wglądu.",
+    "sync.off": "Wyłączona",
+    "sync.on": "Włączona",
     "app.rate": "Oceń aplikację",
     "app.rate.hint": "Jeśli ci pomaga, ocena bardzo nam pomoże",
     'ach.title': 'Osiągnięcia',
@@ -4412,6 +4477,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runda zakończona: znałeś {0} z {1}.",
     "sources.statement": "Program nauczania jest zgodny z oficjalnymi standardami CEFR dla poziomów A1–C2 języka baskijskiego. Objaśnienia, przykłady i ćwiczenia są materiałem oryginalnym. Słownictwo i zasady gramatyczne to fakty językowe należące do domeny publicznej.",
   }, 'zh-Hans': {
+    "sync.title": "同步我的进度",
+    "sync.hint": "在你自己的云账户中保存一份副本，重装后进度不丢失。我们无法查看。",
+    "sync.off": "已关闭",
+    "sync.on": "已开启",
     "app.rate": "为应用评分",
     "app.rate.hint": "如果它对你有帮助，评分对我们帮助很大",
     'ach.title': '成就',
@@ -4701,6 +4770,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "本轮结束：你答对了 {1} 个中的 {0} 个。",
     "sources.statement": "本课程遵循巴斯克语 A1-C2 级别的官方 CEFR 标准。讲解、示例和练习均为原创内容。词汇和语法规则属于公共领域的语言学事实。",
   }, 'ja': {
+    "sync.title": "進捗を同期",
+    "sync.hint": "あなた自身のクラウドにコピーを保存し、再インストールしても進捗が消えません。私たちは中身を見られません。",
+    "sync.off": "オフ",
+    "sync.on": "オン",
     "app.rate": "アプリを評価",
     "app.rate.hint": "役に立っているなら、評価はとても励みになります",
     'ach.title': '実績',
@@ -4990,6 +5063,10 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "ラウンド終了：{1}問中{0}問正解でした。",
     "sources.statement": "カリキュラムはバスク語のA1〜C2レベルに対応する公式のCEFR基準に従っています。説明、例文、練習問題はすべてオリジナルの教材です。語彙と文法規則はパブリックドメインの言語学的事実です。",
   }, 'ko': {
+    "sync.title": "진행 상황 동기화",
+    "sync.hint": "재설치해도 진행 상황이 사라지지 않도록 사용자 본인의 클라우드 계정에 사본을 보관합니다. 저희는 볼 수 없습니다.",
+    "sync.off": "꺼짐",
+    "sync.on": "켜짐",
     "app.rate": "앱 평가하기",
     "app.rate.hint": "도움이 되었다면 별점이 큰 힘이 됩니다",
     'ach.title': '업적',

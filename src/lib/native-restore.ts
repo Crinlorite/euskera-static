@@ -4,7 +4,7 @@ import { mergeProgress } from '../stores/progress-merge';
 
 /**
  * Puerta que el wrapper nativo (iOS) usa para devolver el progreso respaldado en
- * iCloud. El nativo no puede tocar el localStorage del WKWebView, así que la web
+ * su respaldo local. El nativo no puede tocar el localStorage del WKWebView, así que la web
  * expone estas tres primitivas y **la decisión de cuándo restaurar la toma el
  * nativo**, que es quien conoce la fecha del respaldo.
  *

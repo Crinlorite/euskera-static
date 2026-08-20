@@ -5,7 +5,7 @@ import type { ProgressAny, ProgressV1 } from './progress';
  *
  * Vive aparte del store porque no toca `localStorage` ni el puente nativo: así se
  * puede probar y reutilizar tal cual (exportar a mano, restaurar, o respaldar en
- * iCloud desde el wrapper de iOS).
+ * respaldo local del wrapper de iOS).
  */
 
 const SUPPORTED_SCHEMA = 1;
@@ -43,7 +43,7 @@ export async function exportHash(p: ProgressV1): Promise<string> {
 /**
  * Lee un código de progreso. Devuelve `null` si está corrupto, vacío o viene de
  * una versión del esquema más nueva que la que entiende este sitio — nunca lanza,
- * porque lo llama el wrapper nativo con lo que hubiera guardado en iCloud.
+ * porque lo llama el wrapper nativo con lo que hubiera guardado en su respaldo local.
  */
 export async function decodeHash(hash: string): Promise<ProgressAny | null> {
   const trimmed = hash?.trim();
