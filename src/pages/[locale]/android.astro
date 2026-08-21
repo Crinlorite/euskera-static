@@ -1,0 +1,70 @@
+---
+import RootLayout from '../../layouts/RootLayout.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const GROUP = 'https://groups.google.com/g/crintechstudios';
+const OPTIN = 'https://play.google.com/apps/testing/pro.crintech.euskera.twa';
+---
+<RootLayout locale={locale} title={t(locale, 'beta.title')}>
+  <article class="container prose">
+    <h1>{t(locale, 'beta.title')}</h1>
+    <p class="lead" set:html={t(locale, 'beta.lead')} />
+
+    <div class="ctas">
+      <a class="btn btn-primary" href={GROUP} rel="noopener">{t(locale, 'beta.cta.group')}</a>
+      <a class="btn btn-secondary" href={OPTIN} rel="noopener">{t(locale, 'beta.cta.optin')}</a>
+    </div>
+
+    <h2>{t(locale, 'beta.step1.t')}</h2>
+    <p set:html={t(locale, 'beta.step1.d')} />
+    <p><a class="link" href={GROUP} rel="noopener">{GROUP}</a></p>
+
+    <h2>{t(locale, 'beta.step2.t')}</h2>
+    <p set:html={t(locale, 'beta.step2.d')} />
+    <p><a class="link" href={OPTIN} rel="noopener">{OPTIN}</a></p>
+
+    <h2>{t(locale, 'beta.step3.t')}</h2>
+    <p set:html={t(locale, 'beta.step3.d')} />
+
+    <div class="warn">
+      <h2>{t(locale, 'beta.wait.t')}</h2>
+      <p set:html={t(locale, 'beta.wait.d')} />
+    </div>
+
+    <h2>{t(locale, 'beta.faq.t')}</h2>
+    <h3>{t(locale, 'beta.faq1.q')}</h3>
+    <p set:html={t(locale, 'beta.faq1.a')} />
+    <h3>{t(locale, 'beta.faq2.q')}</h3>
+    <p set:html={t(locale, 'beta.faq2.a')} />
+    <h3>{t(locale, 'beta.faq3.q')}</h3>
+    <p set:html={t(locale, 'beta.faq3.a')} />
+
+    <p class="why" set:html={t(locale, 'beta.why')} />
+    <p class="thanks">{t(locale, 'beta.thanks')}</p>
+  </article>
+</RootLayout>
+
+<style>
+  .prose { padding-block: var(--s-6); max-width: 760px; }
+  .prose h1 { margin: 0 0 var(--s-3); }
+  .lead { font-size: 1.1rem; color: var(--c-text); margin: 0 0 var(--s-5); line-height: 1.6; }
+  .ctas { display: flex; gap: var(--s-3); flex-wrap: wrap; margin-block-end: var(--s-6); }
+  .ctas .btn { text-decoration: none; }
+  .prose h2 { margin-block: var(--s-6) var(--s-2); font-size: 1.2rem; }
+  .prose h3 { margin-block: var(--s-4) var(--s-1); font-size: 1rem; }
+  .prose p { margin: 0 0 var(--s-3); line-height: 1.7; }
+  .link { color: var(--c-red); word-break: break-all; font-size: 0.9rem; }
+  .warn {
+    margin-block: var(--s-6); padding: var(--s-4) var(--s-5);
+    border: 1px solid var(--c-border-strong); border-left: 4px solid var(--c-red);
+    border-radius: var(--r-md); background: var(--c-bg-alt);
+  }
+  .warn h2 { margin-block-start: 0; }
+  .why, .thanks { color: var(--c-text-muted); font-size: 0.95rem; }
+</style>

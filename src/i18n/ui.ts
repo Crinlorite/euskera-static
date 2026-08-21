@@ -70,10 +70,33 @@ export type StringKey =
   | 'home.levels.title'
   | 'app.rate' | 'app.rate.hint'
   | 'sync.title' | 'sync.hint' | 'sync.off' | 'sync.on'
-  | 'priv.s2.p4' | 'priv.s4.li0';
+  | 'priv.s2.p4' | 'priv.s4.li0'
+  | 'beta.title' | 'beta.lead' | 'beta.why' | 'beta.step1.t' | 'beta.step1.d' | 'beta.step2.t' | 'beta.step2.d' | 'beta.step3.t' | 'beta.step3.d' | 'beta.wait.t' | 'beta.wait.d' | 'beta.faq.t' | 'beta.faq1.q' | 'beta.faq1.a' | 'beta.faq2.q' | 'beta.faq2.a' | 'beta.faq3.q' | 'beta.faq3.a' | 'beta.cta.group' | 'beta.cta.optin' | 'beta.thanks' | 'beta.badge';
 
 const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   'es': {
+    'beta.title': 'Kaixo para Android: apúntate a la beta',
+    'beta.lead': 'La versión de Android está en <strong>prueba cerrada</strong>: funciona, pero para instalarla hay que apuntarse antes. Son dos minutos y aquí está explicado paso a paso.',
+    'beta.why': '¿Por qué no está en Google Play a la vista de todos? Porque Google exige que una app nueva pase antes por una prueba cerrada con un grupo estable de personas. Cuando la completemos, saldrá para todo el mundo — y tú habrás ayudado a que llegue.',
+    'beta.step1.t': '1. Únete al grupo con la cuenta de Google de tu móvil',
+    'beta.step1.d': 'Es un grupo de Google normal y corriente: solo sirve para que Google sepa que puedes acceder a la prueba. Entras con un clic, sin aprobación ni esperas. <strong>Importante:</strong> hazlo con la misma cuenta de Google que usas en tu teléfono Android.',
+    'beta.step2.t': '2. Acepta la prueba',
+    'beta.step2.d': 'Abre el enlace de la prueba y pulsa <strong>«Convertirme en probador»</strong>. Sin este paso Google no te deja instalarla, aunque estés en el grupo.',
+    'beta.step3.t': '3. Instálala desde Google Play',
+    'beta.step3.d': 'En esa misma página, debajo, aparece el enlace para descargarla en Google Play. A partir de ahí se actualiza sola, como cualquier otra app.',
+    'beta.wait.t': '⏳ Lo que nadie te cuenta: hay que esperar un poco',
+    'beta.wait.d': 'Entre que te apuntas y que Google te da acceso pasa un rato: <strong>normalmente unos minutos, a veces algunas horas</strong>. Durante esa espera es normal que Google Play te diga <em>«Elemento no encontrado»</em> o que no encuentre la app. <strong>No está rota y no has hecho nada mal</strong>: espera un poco y vuelve a abrir el enlace. Si al cabo de unas horas sigue igual, escríbenos y lo miramos.',
+    'beta.faq.t': 'Dudas frecuentes',
+    'beta.faq1.q': 'Me sale «Elemento no encontrado»',
+    'beta.faq1.a': 'Casi siempre es la espera de arriba. Comprueba también que en Google Play tienes seleccionada <strong>la misma cuenta</strong> con la que te uniste al grupo (toca tu foto arriba a la derecha en Play para cambiar de cuenta).',
+    'beta.faq2.q': 'Tengo varias cuentas de Google en el móvil',
+    'beta.faq2.a': 'Entonces asegúrate de que los tres pasos los haces con la misma: la del grupo, la de la prueba y la que tienes activa en Google Play.',
+    'beta.faq3.q': '¿Puedo salirme cuando quiera?',
+    'beta.faq3.a': 'Claro. Puedes dejar de ser probador desde el mismo enlace de la prueba, y salir del grupo cuando quieras. Ni te lo tomamos a mal ni pasa nada.',
+    'beta.cta.group': '1 · Unirme al grupo',
+    'beta.cta.optin': '2 · Aceptar la prueba',
+    'beta.thanks': 'Eskerrik asko por echar una mano. Si algo falla o se te ocurre una mejora, cuéntanoslo: se arregla rápido.',
+    'beta.badge': 'Android · Únete a la beta',
     'priv.s2.p4': '<strong>Sincronización opcional (desactivada por defecto).</strong> En la app puedes activar, desde Progreso, una copia de seguridad en <em>tu propia</em> cuenta de la nube (iCloud en iOS; el servicio equivalente de Google en Android cuando esté disponible), para no perder el progreso al reinstalar. Esa copia viaja a tu cuenta, <strong>no a un servidor nuestro</strong>, y nosotros no podemos leerla. Si la desactivas, se borra lo que se hubiera subido.',
     'sync.title': 'Sincronizar mi progreso',
     'sync.hint': 'Guarda una copia en tu propia cuenta de la nube para no perder el progreso si reinstalas. Nosotros no la vemos.',
@@ -1838,6 +1861,28 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Resto del roadmap
   'en': {
+    "beta.title": "Kaixo for Android: join the beta",
+    "beta.lead": "The Android version is in a <strong>closed test</strong>: it works, but you need to sign up before you can install it. It takes two minutes and here is every step.",
+    "beta.why": "Why is it not simply on Google Play? Because Google requires new apps to run a closed test with a stable group of people first. Once we complete it, it goes out to everyone — and you will have helped it get there.",
+    "beta.step1.t": "1. Join the group with your phone Google account",
+    "beta.step1.d": "It is an ordinary Google Group: it only tells Google that you may access the test. One click, no approval, no waiting. <strong>Important:</strong> use the same Google account you use on your Android phone.",
+    "beta.step2.t": "2. Accept the test",
+    "beta.step2.d": "Open the testing link and press <strong>“Become a tester”</strong>. Without this step Google will not let you install it, even if you are in the group.",
+    "beta.step3.t": "3. Install it from Google Play",
+    "beta.step3.d": "On that same page you will find the link to download it on Google Play. From then on it updates itself like any other app.",
+    "beta.wait.t": "⏳ What nobody tells you: there is a wait",
+    "beta.wait.d": "Between signing up and Google granting access there is a delay: <strong>usually a few minutes, sometimes a few hours</strong>. During that wait it is normal for Google Play to say <em>“Item not found”</em>. <strong>Nothing is broken and you did nothing wrong</strong>: wait a bit and open the link again. If hours later it still fails, tell us and we will look into it.",
+    "beta.faq.t": "Common questions",
+    "beta.faq1.q": "It says “Item not found”",
+    "beta.faq1.a": "Almost always it is the wait above. Also check that Google Play has <strong>the same account</strong> selected that you used to join the group (tap your picture at the top right in Play to switch).",
+    "beta.faq2.q": "I have several Google accounts on my phone",
+    "beta.faq2.a": "Then make sure all three steps use the same one: the group, the test and the account active in Google Play.",
+    "beta.faq3.q": "Can I leave whenever I want?",
+    "beta.faq3.a": "Of course. You can stop being a tester from the same testing link, and leave the group whenever you like. No hard feelings.",
+    "beta.cta.group": "1 · Join the group",
+    "beta.cta.optin": "2 · Accept the test",
+    "beta.thanks": "Eskerrik asko for helping out. If something breaks or you have an idea, tell us: we fix things fast.",
+    "beta.badge": "Android · Join the beta",
     "priv.s2.p4": "<strong>Optional sync (off by default).</strong> In the app you can turn on, from Progress, a backup in <em>your own</em> cloud account (iCloud on iOS; Google's equivalent on Android when available), so you do not lose your progress when reinstalling. That copy goes to your account, <strong>not to a server of ours</strong>, and we cannot read it. If you turn it off, whatever was uploaded is deleted.",
     "sync.title": "Sync my progress",
     "sync.hint": "Keeps a copy in your own cloud account so you do not lose your progress if you reinstall. We cannot see it.",
