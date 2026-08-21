@@ -18,7 +18,7 @@ const comingSoon = t(locale, 'levels.upcoming');
   {!IOS_LIVE && (
     <span class="store-pill"><span class="os">iOS</span><span class="soon">{comingSoon}</span></span>
   )}
-  <span class="store-pill"><span class="os">Android</span><span class="soon">{comingSoon}</span></span>
+  <a class="store-pill beta" href={`/${locale}/android/`}><span class="os">Android</span><span class="soon">{t(locale, 'beta.badge')}</span></a>
 </div>
 
 <style>
@@ -34,4 +34,6 @@ const comingSoon = t(locale, 'levels.upcoming');
   }
   .store-pill .os { font-weight: 600; color: var(--c-text); }
   .store-pill .soon { opacity: 0.85; }
+  a.store-pill.beta { text-decoration: none; border-color: var(--c-green); transition: background .15s; }
+  a.store-pill.beta:hover { background: var(--c-green-soft); }
 </style>
