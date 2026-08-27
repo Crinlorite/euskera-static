@@ -7,12 +7,24 @@
 //     immutable (Astro hashes), así que cachearlos agresivo es seguro.
 //   - Cualquier otro GET: network-first como fallback razonable.
 //
+// PLAZO DE RED (2026-08-27): el network-first NO puede esperar indefinidamente.
+// Si hay copia guardada y la red no contesta en NETWORK_TIMEOUT_MS, se sirve la
+// copia y la petición sigue en segundo plano para refrescarla. Sin ese plazo,
+// una conexión a medias (portal cautivo, cambio de red, DNS mudo) deja la app
+// colgada para siempre — en el envoltorio Android eso se ve como quedarse
+// clavado en la pantalla de inicio. Reportado por un tester el 27-ago-2026.
+// ⚠️ El plazo solo aplica cuando HAY copia: sin ella hay que esperar a la red,
+// porque rendirse rompería la primera carga en conexiones lentas.
+//
 // CACHE_VERSION: bump manual antes de releases que cambien la shell o
 // inviten a invalidar lo cacheado. CF Pages garantiza que los hashes en
 // los assets cambian solos, así que en la mayoría de releases NO hay que
 // tocar esto.
 
-const CACHE_VERSION = 'euskera-v4';
+const CACHE_VERSION = 'euskera-v5';
+const NETWORK_TIMEOUT_MS = 4000;
+const SE_AGOTO = Symbol('plazo de red agotado');
+
 const STATIC_CACHE = `static-${CACHE_VERSION}`;
 const PAGES_CACHE = `pages-${CACHE_VERSION}`;
 const ASSETS_CACHE = `assets-${CACHE_VERSION}`;
@@ -101,24 +113,47 @@ async function cacheFirst(req, cacheName) {
 }
 
 async function networkFirst(req, cacheName) {
-  try {
-    const fresh = await fetch(req);
+  const cached = await caches.match(req);
+
+  // La petición SIEMPRE se lanza y refresca la caché si trae algo bueno,
+  // aunque llegue tarde y ya hayamos servido la copia guardada.
+  const red = fetch(req).then(async (fresh) => {
     if (fresh && fresh.status === 200) {
       const cache = await caches.open(cacheName);
-      cache.put(req, fresh.clone());
+      await cache.put(req, fresh.clone());
     }
     return fresh;
-  } catch (err) {
-    const cached = await caches.match(req);
-    if (cached) return cached;
-    // Para navegaciones a páginas no cacheadas, sirve la home como fallback
-    // amigable en offline.
-    if (req.destination === 'document' || req.mode === 'navigate') {
-      const home = await caches.match('/es/');
-      if (home) return home;
-      const root = await caches.match('/');
-      if (root) return root;
+  });
+
+  if (!cached) {
+    // Sin copia no hay nada mejor que esperar, por lenta que sea la red.
+    try {
+      return await red;
+    } catch (err) {
+      // Navegación a una página nunca visitada y sin red: la home guardada
+      // es mejor recibimiento que el error del navegador.
+      if (req.destination === 'document' || req.mode === 'navigate') {
+        const home = await caches.match('/es/');
+        if (home) return home;
+        const root = await caches.match('/');
+        if (root) return root;
+      }
+      throw err;
     }
-    throw err;
+  }
+
+  // Con copia guardada, la red corre contra el reloj.
+  red.catch(() => {});  // un fallo tardío ya está contemplado: que no quede suelto
+  let reloj;
+  const plazo = new Promise((resolver) => {
+    reloj = setTimeout(() => resolver(SE_AGOTO), NETWORK_TIMEOUT_MS);
+  });
+  try {
+    const ganador = await Promise.race([red, plazo]);
+    return ganador === SE_AGOTO ? cached : ganador;
+  } catch {
+    return cached;
+  } finally {
+    clearTimeout(reloj);
   }
 }
