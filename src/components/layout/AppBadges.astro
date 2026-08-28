@@ -3,7 +3,7 @@
 // Reutilizable: footer y home. Flag/URL en src/lib/appstore.ts.
 import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
-import { APP_STORE_URL, IOS_LIVE } from '../../lib/appstore';
+import { APP_STORE_URL, IOS_LIVE, PLAY_STORE_URL, ANDROID_LIVE } from '../../lib/appstore';
 
 interface Props { locale: LocaleCode; }
 const { locale } = Astro.props;
@@ -18,13 +18,22 @@ const comingSoon = t(locale, 'levels.upcoming');
   {!IOS_LIVE && (
     <span class="store-pill"><span class="os">iOS</span><span class="soon">{comingSoon}</span></span>
   )}
-  <a class="store-pill beta" href={`/${locale}/android/`}><span class="os">Android</span><span class="soon">{t(locale, 'beta.badge')}</span></a>
+  {ANDROID_LIVE && (
+    <a href={PLAY_STORE_URL} class="badge-link play" rel="noopener" aria-label="Get it on Google Play">
+      <img src="/google-play-badge.png" alt="Get it on Google Play" width="155" height="60" loading="lazy" />
+    </a>
+  )}
+  {!ANDROID_LIVE && (
+    <a class="store-pill beta" href={`/${locale}/android/`}><span class="os">Android</span><span class="soon">{t(locale, 'beta.badge')}</span></a>
+  )}
 </div>
 
 <style>
   .app-badges { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); }
   .badge-link { display: inline-flex; }
   .badge-link img { display: block; height: 45px; width: auto; }
+  .badge-link.play img { height: 60px; }
+  .badge-link.play { margin-inline-start: -0.55rem; }
   .store-pill {
     display: inline-flex; align-items: center; gap: var(--s-2);
     padding: 0.4rem 0.7rem;
