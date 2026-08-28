@@ -2,6 +2,7 @@
 import RootLayout from '../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
+import { PLAY_STORE_URL } from '../../lib/appstore';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -13,7 +14,13 @@ const OPTIN = 'https://play.google.com/apps/testing/pro.crintech.euskera.twa';
 ---
 <RootLayout locale={locale} title={t(locale, 'beta.title')}>
   <article class="container prose">
-    <h1>{t(locale, 'beta.title')}</h1>
+    <div class="live">
+      <h1>{t(locale, 'beta.live.t')}</h1>
+      <p set:html={t(locale, 'beta.live.d')} />
+      <a class="btn btn-primary" href={PLAY_STORE_URL} rel="noopener">{t(locale, 'beta.live.cta')}</a>
+    </div>
+
+    <h2 class="beta-h">{t(locale, 'beta.live.beta')}</h2>
     <p class="lead" set:html={t(locale, 'beta.lead')} />
 
     <div class="ctas">
