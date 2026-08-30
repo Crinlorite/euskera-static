@@ -25,3 +25,6 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Estado local de wrangler pages dev (no es codigo)
+.wrangler/
