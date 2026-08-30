@@ -3,6 +3,7 @@ import RootLayout from '../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 import { PLAY_STORE_URL } from '../../lib/appstore';
+import WebOnly from '../../components/platform/WebOnly.astro';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -13,7 +14,15 @@ const GROUP = 'https://groups.google.com/g/crintechstudios';
 const OPTIN = 'https://play.google.com/apps/testing/pro.crintech.euskera.twa';
 ---
 <RootLayout locale={locale} title={t(locale, 'beta.title')}>
-  <article class="container prose">
+  {/* La página ENTERA va marcada como promoción de otra plataforma: dentro del
+      envoltorio nativo de iOS (y de la PWA instalada) se oculta por completo.
+      Apple rechaza por la Guideline 2.3.10 cualquier mención a otra tienda
+      dentro de la app, y aquí hay una descarga de Google Play a pantalla
+      completa. Hoy no hay ningún enlace a esta página desde dentro de la app
+      —la píldora que llevaba aquí vive dentro de app-promo y ya no se pinta—,
+      así que esto es defensa en profundidad, no un parche a un agujero abierto. */}
+  <WebOnly>
+  <article class="container prose app-promo">
     <div class="live">
       <h1>{t(locale, 'beta.live.t')}</h1>
       <p set:html={t(locale, 'beta.live.d')} />
@@ -55,6 +64,7 @@ const OPTIN = 'https://play.google.com/apps/testing/pro.crintech.euskera.twa';
     <p class="why" set:html={t(locale, 'beta.why')} />
     <p class="thanks">{t(locale, 'beta.thanks')}</p>
   </article>
+  </WebOnly>
 </RootLayout>
 
 <style>

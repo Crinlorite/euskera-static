@@ -1,0 +1,24 @@
+---
+// Contenido que SOLO puede existir en la web abierta en un navegador normal.
+//
+// 🔴 POR QUÉ EXISTE: euskera.crintech.pro es UN origen del que cuelgan TRES
+// productos — la web, el envoltorio de iOS (WKWebView) y el TWA de Android. La
+// Guideline 2.3.10 de Apple prohíbe cualquier mención a otras plataformas o
+// tiendas DENTRO de la app; ver una insignia de Google Play es motivo de
+// rechazo. Antes eso se evitaba con una convención: ponerle la clase .app-promo
+// al bloque y una regla CSS que lo ocultaba. Dos problemas:
+//   1. Una convención se OLVIDA. Nada obligaba a marcar un bloque nuevo.
+//   2. Ocultaba con CSS EXTERNO, así que el contenido existía y se pintaba si
+//      esa hoja no cargaba (red mala, un bloqueo de IP...): fallaba en ABIERTO.
+//
+// CÓMO FUNCIONA AHORA: el contenido se emite dentro de un <template>. Por
+// especificación del HTML, el navegador NUNCA pinta lo que hay dentro de un
+// <template> ni descarga sus imágenes — no es que esté oculto, es que no está
+// en el documento. Un script lo saca al DOM SOLO cuando confirma que no
+// estamos dentro de una app. Si ese script no llega a correr, no se pinta:
+// falla en CERRADO, que es el lado correcto del que equivocarse.
+//
+// Peor caso: un visitante de la web no ve las insignias de descarga. Molesto.
+// El caso que evitamos: Apple rechaza la app. Caro.
+---
+<template data-solo-web><slot /></template>
