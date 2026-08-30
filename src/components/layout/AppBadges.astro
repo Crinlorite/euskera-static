@@ -4,6 +4,7 @@
 import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
 import { APP_STORE_URL, IOS_LIVE, PLAY_STORE_URL, ANDROID_LIVE } from '../../lib/appstore';
+import { appStoreBadge, playStoreBadge } from '../../lib/store-badges';
 
 interface Props { locale: LocaleCode; }
 const { locale } = Astro.props;
@@ -12,7 +13,7 @@ const comingSoon = t(locale, 'levels.upcoming');
 <div class="app-badges">
   {IOS_LIVE && (
     <a href={APP_STORE_URL} class="badge-link" rel="noopener" aria-label="Download on the App Store">
-      <img src="/app-store-badge.svg" alt="Download on the App Store" width="135" height="45" loading="lazy" />
+      <img src={appStoreBadge(locale)} alt="App Store" width="135" height="45" loading="lazy" />
     </a>
   )}
   {!IOS_LIVE && (
@@ -20,7 +21,7 @@ const comingSoon = t(locale, 'levels.upcoming');
   )}
   {ANDROID_LIVE && (
     <a href={PLAY_STORE_URL} class="badge-link play" rel="noopener" aria-label="Get it on Google Play">
-      <img src="/google-play-badge.png" alt="Get it on Google Play" width="155" height="60" loading="lazy" />
+      <img src={playStoreBadge(locale)} alt="Google Play" width="151" height="45" loading="lazy" />
     </a>
   )}
   {!ANDROID_LIVE && (
@@ -32,8 +33,12 @@ const comingSoon = t(locale, 'levels.upcoming');
   .app-badges { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); }
   .badge-link { display: inline-flex; }
   .badge-link img { display: block; height: 45px; width: auto; }
-  .badge-link.play img { height: 60px; }
-  .badge-link.play { margin-inline-start: -0.55rem; }
+  /* Las insignias de Google vienen con ~25 % de margen transparente de fábrica y
+     además en dos generaciones distintas (67 % y 77 % de logo visible), así que
+     ninguna altura única las igualaba con la de Apple. Se les ha recortado ese
+     margen —sin tocar el dibujo— y ahora ambas se pintan al mismo alto: el aire
+     alrededor lo pone el gap de la fila. */
+  .badge-link.play img { height: 45px; }
   .store-pill {
     display: inline-flex; align-items: center; gap: var(--s-2);
     padding: 0.4rem 0.7rem;
