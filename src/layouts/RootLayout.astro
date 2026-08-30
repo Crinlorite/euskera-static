@@ -63,20 +63,42 @@ const canonical = new URL(Astro.url.pathname, Astro.site).toString();
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={locale.replace('-', '_')} />
     <meta name="twitter:card" content="summary_large_image" />
-    {/* App nativa (WKWebView Kaixo) o PWA instalada: marca <html> para OCULTAR el
-        bloque de descarga de la app y, con él, cualquier mención a otras
-        plataformas (Android) DENTRO de la app → evita el rechazo de Apple por la
-        Guideline 2.3.10. La web normal en navegador lo sigue mostrando. Señal
-        fiable: el puente window.Kaixo que el wrapper inyecta en documentStart. */}
+    {/* 🔴 PUERTA DE LA GUIDELINE 2.3.10 — dentro de la app de iOS no puede verse
+        NINGUNA mención a Google Play ni a Android, o Apple rechaza la versión.
+        Ese contenido se emite dentro de <template> (ver components/platform/
+        WebOnly.astro): el navegador no lo pinta NUNCA por especificación. Este
+        script lo saca al DOM solo cuando confirma que NO estamos en una app.
+        Si el script no corre, no se pinta: falla en cerrado, a propósito.
+
+        La clase .is-native-app y la regla de abajo se conservan como SEGUNDA
+        barrera para el contenido que aún use la convención vieja (.app-promo). */}
     <script is:inline>
       (function () {
+        // Se asume lo restrictivo hasta demostrar lo contrario.
+        var esApp = true;
         try {
           var w = window;
-          var native = !!(w.Kaixo && w.Kaixo.platform)
+          esApp = !!(w.Kaixo && w.Kaixo.platform)
             || w.navigator.standalone === true
             || (w.matchMedia && w.matchMedia('(display-mode: standalone)').matches);
-          if (native) document.documentElement.classList.add('is-native-app');
-        } catch (e) {}
+        } catch (e) { esApp = true; }
+
+        if (esApp) document.documentElement.classList.add('is-native-app');
+
+        // Saca del <template> lo que sea solo-web. Idempotente y repetible en
+        // cada navegación (las view transitions recrean el documento entero).
+        function abrirSoloWeb() {
+          if (esApp) return;
+          var ts = document.querySelectorAll('template[data-solo-web]');
+          for (var i = 0; i < ts.length; i++) {
+            var t = ts[i];
+            if (!t.parentNode) continue;
+            t.parentNode.replaceChild(t.content.cloneNode(true), t);
+          }
+        }
+        abrirSoloWeb();
+        document.addEventListener('DOMContentLoaded', abrirSoloWeb);
+        document.addEventListener('astro:page-load', abrirSoloWeb);
       })();
     </script>
     <style is:global>

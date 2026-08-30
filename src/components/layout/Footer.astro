@@ -3,6 +3,7 @@ import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
 import LanguageFooter from './LanguageFooter.astro';
 import AppBadges from './AppBadges.astro';
+import WebOnly from '../platform/WebOnly.astro';
 
 interface Props { locale: LocaleCode; }
 const { locale } = Astro.props;
@@ -31,10 +32,12 @@ const year = new Date().getFullYear();
         <li>{t(locale, 'footer.content')}: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE-CONTENT" rel="noopener">CC BY-SA 4.0</a></li>
       </ul>
     </div>
-    <div class="app-col app-promo">
-      <h4>{t(locale, 'app.title')}</h4>
-      <AppBadges locale={locale} />
-    </div>
+    <WebOnly>
+      <div class="app-col app-promo">
+        <h4>{t(locale, 'app.title')}</h4>
+        <AppBadges locale={locale} />
+      </div>
+    </WebOnly>
   </div>
   <div class="container-wide bottom">© {year} <a href="https://crintech.pro" rel="noopener" class="brand-link">Crintech Studios</a></div>
 </footer>
