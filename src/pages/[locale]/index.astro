@@ -8,6 +8,7 @@ import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 import { LOCKED_PATHS } from '../../lib/gate';
 import AppBadges from '../../components/layout/AppBadges.astro';
+import WebOnly from '../../components/platform/WebOnly.astro';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -37,10 +38,12 @@ const levels = (await getCollection('levels'))
         <a class="btn btn-primary" href={`/${locale}/a1/`}>{t(locale, 'home.cta.start')}</a>
         <a class="btn btn-secondary" href={`/${locale}/sobre/`}>{t(locale, 'about.title')}</a>
       </div>
-      <div class="hero-app app-promo">
-        <span class="hero-app-label">{t(locale, 'app.title')}</span>
-        <AppBadges locale={locale} />
-      </div>
+      <WebOnly>
+        <div class="hero-app app-promo">
+          <span class="hero-app-label">{t(locale, 'app.title')}</span>
+          <AppBadges locale={locale} />
+        </div>
+      </WebOnly>
     </div>
 
     <div class="hero-scroll" aria-hidden="true">
