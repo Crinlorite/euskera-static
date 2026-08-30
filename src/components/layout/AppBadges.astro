@@ -3,7 +3,7 @@
 // Reutilizable: footer y home. Flag/URL en src/lib/appstore.ts.
 import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
-import { APP_STORE_URL, IOS_LIVE, PLAY_STORE_URL, ANDROID_LIVE } from '../../lib/appstore';
+import { appStoreUrl, IOS_LIVE, PLAY_STORE_URL, ANDROID_LIVE } from '../../lib/appstore';
 import { appStoreBadge, playStoreBadge } from '../../lib/store-badges';
 
 interface Props { locale: LocaleCode; }
@@ -12,7 +12,7 @@ const comingSoon = t(locale, 'levels.upcoming');
 ---
 <div class="app-badges">
   {IOS_LIVE && (
-    <a href={APP_STORE_URL} class="badge-link" rel="noopener" aria-label="Download on the App Store">
+    <a href={appStoreUrl(locale)} class="badge-link" rel="noopener" aria-label="Download on the App Store">
       <img src={appStoreBadge(locale)} alt="App Store" width="135" height="45" loading="lazy" />
     </a>
   )}

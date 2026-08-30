@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { appStoreReviewUrl } from '../../lib/appstore';
   import {
     getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements,
     type ProgressV1,
@@ -26,7 +27,8 @@
   // una decisión suya y se puede revocar (al apagarlo el nativo borra la copia).
   let showSync = false;
   let syncOn = false;
-  const RATE_URL = 'https://apps.apple.com/app/id6784369966?action=write-review';
+  // Tienda del idioma del lector: sin país, Apple manda a la de EE. UU.
+  $: RATE_URL = appStoreReviewUrl(locale);
 
   onMount(async () => {
     showRate = canRequestReview();
