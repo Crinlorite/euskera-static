@@ -3,6 +3,7 @@
   import { t as ui } from '../../i18n/ui';
   import type { LocaleCode } from '../../i18n/config';
   import type { StringKey } from '../../i18n/ui';
+  import { TURNSTILE_SITE_KEY as SITE_KEY } from '../../lib/turnstile';
 
   export let locale: LocaleCode = 'es';
 
@@ -10,7 +11,8 @@
   // env vars (PUBLIC_TURNSTILE_SITE_KEY), el widget no se renderiza y el
   // form sigue siendo funcional. La verificación server-side también es
   // opcional (TURNSTILE_SECRET en CF Pages settings).
-  const TURNSTILE_SITE_KEY = (import.meta.env.PUBLIC_TURNSTILE_SITE_KEY as string | undefined) ?? '';
+  // La clave vive en src/lib/turnstile.ts (constante, no env: ver el porqué allí).
+  const TURNSTILE_SITE_KEY = SITE_KEY;
 
   type FeedbackType = 'bug' | 'feature' | 'question' | 'language' | 'pedagogy';
 
