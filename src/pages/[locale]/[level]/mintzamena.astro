@@ -7,6 +7,8 @@ import MintzamenaGym from '../../../components/exercises/MintzamenaGym.svelte';
 import { ACTIVE_LOCALES } from '../../../i18n/config';
 import type { LocaleCode } from '../../../i18n/config';
 
+import { ajusta, sinMarcado, minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { t } from '../../../i18n/ui';
 export function getStaticPaths() {
   return ACTIVE_LOCALES.map((code) => ({ params: { locale: code, level: 'a1' } }));
 }
@@ -53,8 +55,9 @@ const COPY: Partial<Record<LocaleCode, Copy>> = {
     lead: '다섯 번째 기능, <strong>mintzamena</strong>: 원어민 음성으로 문장을 듣고 따라 말하며 녹음하면, <strong>당신 기기 안의</strong> 음성 인식이 어떤 단어가 알아들렸는지 알려줍니다. 녹음한 것은 휴대폰이나 컴퓨터 밖으로 나가지 않아요 — 우리 서버로도, 그 어디로도.' },
 };
 const c = COPY[locale] ?? COPY.es!;
+const descripcion = ajusta(sinMarcado(c.lead), t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={c.title}>
+<RootLayout locale={locale} title={c.title} description={descripcion}>
   <article class="container gym-page">
     <header class="gym-header stagger">
       <p class="eyebrow">

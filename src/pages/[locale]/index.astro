@@ -18,8 +18,9 @@ const { locale } = Astro.params as { locale: LocaleCode };
 const levels = (await getCollection('levels'))
   .filter((l) => l.id.startsWith(`${locale}/`))
   .sort((a, b) => a.data.order - b.data.order);
+const descripcion = t(locale, 'site.description');
 ---
-<RootLayout locale={locale} title={t(locale, 'site.tagline')} bodyClass="home">
+<RootLayout locale={locale} title={t(locale, 'site.tagline')} bodyClass="home" description={descripcion}>
   <section class="hero">
     <HeroBackground client:load />
     <div class="hero-art" aria-hidden="true">

@@ -3,13 +3,15 @@ import RootLayout from '../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t, tf } from '../../i18n/ui';
 
+import { ajusta, sinMarcado, minimoDescripcion } from '../../lib/seo-texto.mjs';
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params as { locale: LocaleCode };
+const descripcion = ajusta(sinMarcado(t(locale, 'priv.intro')), t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={t(locale, 'priv.title')}>
+<RootLayout locale={locale} title={t(locale, 'priv.title')} description={descripcion}>
   <article class="container prose">
     <h1>{t(locale, 'priv.title')}</h1>
     <p class="updated">{t(locale, 'priv.updated')}</p>

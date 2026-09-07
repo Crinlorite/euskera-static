@@ -5,6 +5,7 @@ import { t } from '../../i18n/ui';
 import { PLAY_STORE_URL } from '../../lib/appstore';
 import WebOnly from '../../components/platform/WebOnly.astro';
 
+import { ajusta, sinMarcado, minimoDescripcion } from '../../lib/seo-texto.mjs';
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
 }
@@ -12,8 +13,9 @@ export async function getStaticPaths() {
 const { locale } = Astro.params as { locale: LocaleCode };
 const GROUP = 'https://groups.google.com/g/crintechstudios';
 const OPTIN = 'https://play.google.com/apps/testing/pro.crintech.euskera.twa';
+const descripcion = ajusta(sinMarcado(t(locale, 'beta.live.d')), t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={t(locale, 'beta.title')}>
+<RootLayout locale={locale} title={t(locale, 'beta.title')} description={descripcion}>
   {/* La página ENTERA va marcada como promoción de otra plataforma: dentro del
       envoltorio nativo de iOS (y de la PWA instalada) se oculta por completo.
       Apple rechaza por la Guideline 2.3.10 cualquier mención a otra tienda
