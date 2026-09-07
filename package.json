@@ -9,11 +9,12 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node scripts/verificar-seo.mjs dist",
     "preview": "astro preview",
     "check": "astro check && tsc --noEmit && node scripts/validate-content.mjs",
     "validate": "node scripts/validate-content.mjs",
-    "astro": "astro"
+    "astro": "astro",
+    "verify:seo": "node scripts/verificar-seo.mjs dist"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.2.1",
