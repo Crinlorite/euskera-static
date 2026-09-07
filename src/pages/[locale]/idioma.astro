@@ -9,8 +9,9 @@ export async function getStaticPaths() {
 }
 
 const { locale } = Astro.params as { locale: LocaleCode };
+const descripcion = t(locale, 'site.description');
 ---
-<RootLayout locale={locale} title={t(locale, 'nav.language')}>
+<RootLayout locale={locale} title={t(locale, 'nav.language')} description={descripcion}>
   <article class="container">
     <h1>{t(locale, 'lang.choose')}</h1>
     <p class="hint">{t(locale, 'lang.help-translate')}: <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a></p>

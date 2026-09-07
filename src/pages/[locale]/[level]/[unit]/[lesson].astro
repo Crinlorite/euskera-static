@@ -6,6 +6,8 @@ import LessonNav from '../../../../components/layout/LessonNav.astro';
 import ExercisesSection from '../../../../components/exercises/ExercisesSection.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
 
+import { ajusta, descripcionDeLeccion, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
+import { t } from '../../../../i18n/ui';
 // Con 1.000+ lecciones, TS infiere `id` como un union de literales gigante y
 // "se queda sin tipo". Lo aplanamos a string para que el type-check escale.
 type Lesson = Omit<CollectionEntry<'lessons'>, 'id'> & { id: string };
@@ -74,8 +76,16 @@ if (next) {
   nextTitle = nextUnit.data.title;
   nextEyebrow = `Siguiente unidad · ${nextUnit.data.order.toString().padStart(2, '0')}`;
 }
+const unidadActual = sameLevelUnits[currentUnitIdx];
+const minimo = minimoDescripcion(locale);
+const descripcion = descripcionDeLeccion(
+  lesson.body,
+  ajusta(`${lesson.data.title}. ${unidadActual?.data.description ?? ''}`,
+         t(locale, 'site.tagline'), minimo),
+  minimo,
+);
 ---
-<RootLayout locale={locale} title={lesson.data.title}>
+<RootLayout locale={locale} title={lesson.data.title} description={descripcion}>
   <div class="container-wide lesson-grid">
     <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={sibs} currentLessonCode={lessonCode} />
     <article class="lesson">

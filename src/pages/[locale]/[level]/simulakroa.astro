@@ -8,6 +8,8 @@ import SimulakroGenerator from '../../../components/exercises/SimulakroGenerator
 import { ACTIVE_LOCALES } from '../../../i18n/config';
 import type { LocaleCode } from '../../../i18n/config';
 
+import { ajusta, sinMarcado, minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { t } from '../../../i18n/ui';
 export function getStaticPaths() {
   return ACTIVE_LOCALES.map((code) => ({ params: { locale: code, level: 'a1' } }));
 }
@@ -54,8 +56,9 @@ const COPY: Partial<Record<LocaleCode, Copy>> = {
     lead: '<strong>매번 다른</strong> A1 시험: 수백 문항의 문제은행에서 즉석으로 조립되며 구조는 실제 시험 그대로 — <strong>entzumena 포함</strong>: 실제 목소리 음성과 2회 듣기, 진짜 시험날처럼. 사전 없이 한 번에 풀고, 끝나면 <em>«Beste simulakro bat sortu»</em>를 누르세요. 새 시험이 떨어집니다.' },
 };
 const c = COPY[locale] ?? COPY.es!;
+const descripcion = ajusta(sinMarcado(c.lead), t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={c.title}>
+<RootLayout locale={locale} title={c.title} description={descripcion}>
   <article class="container sim-page">
     <header class="sim-header stagger">
       <p class="eyebrow">
