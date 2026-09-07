@@ -5,6 +5,7 @@ import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
 import { t, tf } from '../../../i18n/ui';
 
 import { ajusta, sinMarcado, minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { LOCKED_PATHS } from '../../../lib/locked.mjs';
 export async function getStaticPaths() {
   const allLevels = await getCollection('levels');
   return allLevels
@@ -74,7 +75,7 @@ const TEASERS: Partial<Record<LocaleCode, Teasers>> = {
 const teasers = TEASERS[locale] ?? TEASERS.es!;
 const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={level.data.name} description={descripcion}>
+<RootLayout locale={locale} title={level.data.name} description={descripcion} noindex={LOCKED_PATHS.includes(levelSlug)}>
   <article class="container-wide level">
     <header class="level-header stagger">
       <p class="eyebrow">Nivel · {level.data.name.split(' ')[0]}</p>

@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import svelte from '@astrojs/svelte';
 import sitemap from '@astrojs/sitemap';
+import { estaBloqueada } from './src/lib/locked.mjs';
 
 export default defineConfig({
   site: 'https://euskera.crintech.pro',
@@ -15,7 +16,14 @@ export default defineConfig({
       redirectToDefaultLocale: false,
     },
   },
-  integrations: [svelte(), sitemap()],
+  integrations: [
+    svelte(),
+    // Los niveles bajo candado (B1-C2, EGA y el modo expedicion) no se ofrecen
+    // a Google: son contenido sin validar y quien llegue desde una busqueda se
+    // encuentra una pantalla de contrasena. Las paginas se siguen generando;
+    // solo dejan de anunciarse, y ademas llevan noindex (ver RootLayout).
+    sitemap({ filter: (url) => !estaBloqueada(new URL(url).pathname) }),
+  ],
   build: {
     format: 'directory',
   },

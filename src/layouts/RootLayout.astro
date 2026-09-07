@@ -17,6 +17,7 @@ interface Props {
   description?: string;
   ogImage?: string;
   bodyClass?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -25,6 +26,7 @@ const {
   description,
   ogImage = '/og-image.png',
   bodyClass = '',
+  noindex = false,
 } = Astro.props;
 
 const info = LANGUAGES[locale];
@@ -50,6 +52,9 @@ const alternativas = await alternativasDe(Astro.url.pathname);
     <meta name="apple-mobile-web-app-title" content="Kaixo" />
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
+    {/* Contenido aun no validado: que no aparezca en Google. 'follow' deja que
+        siga los enlaces, para no cortar el rastreo del resto del sitio. */}
+    {noindex && <meta name="robots" content="noindex,follow" />}
     <link rel="canonical" href={canonical} />
     {/* hreflang: le dice a Google que version servir en cada idioma. Sin esto
         (asi estuvo hasta el 7-sep-2026) el 59 % de las busquedas en castellano
