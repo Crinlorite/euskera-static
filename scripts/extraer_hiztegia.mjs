@@ -252,7 +252,9 @@ function extrae(locale) {
           if (!e.lecciones.includes(ruta)) e.lecciones.push(ruta);
           const u = `${nivel}/${unidad}`;
           if (!e.unidades.includes(u)) e.unidades.push(u);
-          if (!porUnidad.has(u)) porUnidad.set(u, { unidad: u, titulo, palabras: [] });
+          // El titulo del tema es el de la UNIDAD, no el de la leccion que se
+          // este leyendo en ese momento.
+          if (!porUnidad.has(u)) porUnidad.set(u, { unidad: u, titulo: tituloUnidad || titulo, palabras: [] });
           const pu = porUnidad.get(u);
           if (!pu.palabras.includes(clave)) pu.palabras.push(clave);
         }
