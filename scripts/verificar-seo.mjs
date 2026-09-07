@@ -156,6 +156,22 @@ for (const f of paginas) {
   if (bloqueada && !tieneNoindex) falla('N1', `${rel} esta bajo candado y NO lleva noindex`);
   if (!bloqueada && tieneNoindex) falla('N1', `${rel} lleva noindex y no deberia`);
 
+  // V1/V2: el Hiztegia esta en beta y se indexa desde el dia uno, asi que
+  // ninguna de sus paginas puede ser un cascaron: entrada sin traduccion o tema
+  // sin palabras darian exactamente las paginas delgadas que Google castiga.
+  if (/^[\w-]+\/hiztegia\/[^/]+\/$/.test(rel) && !rel.includes('/gaiak/')) {
+    if (!/class="principal"/.test(html)) falla('V1', `${rel} sin traduccion visible`);
+    const tieneAlgo = /class="ejemplos"/.test(html) || /class="lista-lecciones"/.test(html)
+      || /class="oir grande"/.test(html);
+    if (!tieneAlgo) falla('V2', `${rel} no ofrece nada: ni ejemplo, ni leccion, ni audio`);
+    if (!/class="badge-beta"/.test(html)) falla('V2', `${rel} sin el aviso de beta`);
+  }
+  if (/\/hiztegia\/gaiak\/[^/]+\/$/.test(rel)) {
+    const filas = (html.match(/<tr[\s>]/g) ?? []).length;
+    if (filas < 4) falla('V2', `${rel}: solo ${filas} filas de vocabulario`);
+    if (!/class="badge-beta"/.test(html)) falla('V2', `${rel} sin el aviso de beta`);
+  }
+
   const canonica = uno(html, /<link rel="canonical" href="([^"]+)"/);
   if (canonica !== url) falla('H5', `${rel}: canonica ${canonica ?? '(ninguna)'} != ${url}`);
 
@@ -219,6 +235,8 @@ const REGLAS = {
   R1: 'no ha desaparecido ninguna ruta',
   N1: 'las paginas bajo candado llevan noindex, y solo ellas',
   N2: 'el sitemap no anuncia lo que esta bajo candado',
+  V1: 'toda entrada del hiztegia trae su traduccion',
+  V2: 'ninguna pagina del hiztegia es un cascaron, y todas avisan de que estan en beta',
   A1: 'la pagina de Android es legible sin JavaScript y conserva su barrera 2.3.10',
 };
 
