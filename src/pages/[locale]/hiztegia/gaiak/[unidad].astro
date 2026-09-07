@@ -1,0 +1,108 @@
+---
+import RootLayout from '../../../../layouts/RootLayout.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
+import { t } from '../../../../i18n/ui';
+import { ajusta, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
+import { temasDe, slugTema, LOCALE_ENTRADAS, type Tema } from '../../../../lib/hiztegia';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.flatMap((locale) =>
+    temasDe(locale).map((tema) => ({
+      params: { locale, unidad: slugTema(tema.unidad) },
+      props: { tema },
+    })),
+  );
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const { tema } = Astro.props as { tema: Tema };
+const [nivel, unidad] = tema.unidad.split('/');
+
+const descripcion = ajusta(
+  `${tema.titulo}: ${tema.palabras.slice(0, 8).map((p) => p.hitza).join(', ')}.`,
+  t(locale, 'site.description'), minimoDescripcion(locale),
+);
+---
+<RootLayout
+  locale={locale}
+  title={`${tema.titulo} — ${t(locale, 'hiz.title')}`}
+  description={descripcion}
+>
+  <article class="container-wide tema">
+    <header class="stagger">
+      <p class="eyebrow">
+        <a href={`/${locale}/hiztegia/`}>← {t(locale, 'hiz.title')}</a>
+        <span class="badge-beta">{t(locale, 'lang.beta')}</span>
+      </p>
+      <h1 class="display">{tema.titulo}</h1>
+      <p class="meta">
+        {tema.palabras.length} {t(locale, 'hiz.words')} ·
+        <a href={`/${locale}/${nivel}/${unidad}/`}>{t(locale, 'hiz.learn')}</a>
+      </p>
+    </header>
+
+    <table class="vocab">
+      <thead>
+        <tr>
+          <th>{t(locale, 'site.name')}</th>
+          <th>{t(locale, 'hiz.title')}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {tema.palabras.map((p) => (
+          <tr>
+            <td class="eu">
+              {locale === LOCALE_ENTRADAS
+                ? <a href={`/${locale}/hiztegia/${p.slug}/`}>{p.hitza}</a>
+                : <span>{p.hitza}</span>}
+              {p.audio && (
+                <button type="button" class="oir" data-audio={p.audio} aria-label={p.hitza}>▶</button>
+              )}
+            </td>
+            <td>{p.tr}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </article>
+</RootLayout>
+
+<script>
+  // Reproduce el banco de voz real ya grabado. Sin isla de Svelte: es un
+  // <audio> y un click, no hace falta hidratar nada.
+  let sonando: HTMLAudioElement | null = null;
+  const enchufa = () => {
+    document.querySelectorAll<HTMLButtonElement>('.oir[data-audio]').forEach((b) => {
+      if (b.dataset.listo) return;
+      b.dataset.listo = '1';
+      b.addEventListener('click', () => {
+        sonando?.pause();
+        sonando = new Audio(`/audio/eu/${b.dataset.audio}`);
+        sonando.play().catch(() => {});
+      });
+    });
+  };
+  enchufa();
+  document.addEventListener('astro:page-load', enchufa);
+</script>
+
+<style>
+  .tema { padding-block: var(--s-6); max-width: 860px; }
+  .eyebrow { display: flex; align-items: center; gap: var(--s-3); }
+  .badge-beta {
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+    padding: 0.15em 0.6em; border-radius: 999px;
+    background: var(--c-accent-soft, #f6e7e5); color: var(--c-accent, #d52b1e);
+  }
+  .meta { color: var(--c-text-muted); margin-block: var(--s-3) var(--s-6); }
+  .vocab { width: 100%; border-collapse: collapse; }
+  .vocab th, .vocab td { text-align: start; padding: var(--s-2) var(--s-3);
+    border-block-end: 1px solid var(--c-border, #e4ded6); }
+  .vocab th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--c-text-muted); font-weight: 600; }
+  .eu { font-style: italic; }
+  .eu a { font-style: normal; font-weight: 600; }
+  .oir { margin-inline-start: var(--s-2); border: 0; background: none; cursor: pointer;
+    color: var(--c-accent, #d52b1e); font-size: 0.8rem; padding: 0 0.2em; }
+  .oir:hover { transform: scale(1.15); }
+</style>

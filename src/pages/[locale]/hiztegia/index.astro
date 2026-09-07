@@ -1,0 +1,109 @@
+---
+import RootLayout from '../../../layouts/RootLayout.astro';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
+import { t } from '../../../i18n/ui';
+import { ajusta, minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { temasDe, entradasDe, slugTema, LOCALE_ENTRADAS } from '../../../lib/hiztegia';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const temas = temasDe(locale);
+const entradas = entradasDe(locale);
+const totalPalabras = temas.reduce((n, tema) => n + tema.palabras.length, 0);
+
+// Índice alfabético, solo donde hay páginas por palabra.
+const porLetra = new Map<string, typeof entradas>();
+for (const e of entradas) {
+  const letra = e.slug[0]?.toUpperCase() ?? '#';
+  if (!porLetra.has(letra)) porLetra.set(letra, []);
+  porLetra.get(letra)!.push(e);
+}
+const letras = [...porLetra.keys()].sort();
+
+const descripcion = ajusta(
+  `${t(locale, 'hiz.sub')}: ${totalPalabras} ${t(locale, 'hiz.words')} ${t(locale, 'hiz.themes').toLowerCase()}.`,
+  t(locale, 'site.description'), minimoDescripcion(locale),
+);
+---
+<RootLayout locale={locale} title={`${t(locale, 'hiz.title')} — ${t(locale, 'hiz.sub')}`} description={descripcion}>
+  <article class="container-wide hiz">
+    <header class="hiz-head stagger">
+      <p class="eyebrow">
+        <a href={`/${locale}/`}>← Kaixo</a>
+        <span class="badge-beta">{t(locale, 'lang.beta')}</span>
+      </p>
+      <h1 class="display">{t(locale, 'hiz.title')}</h1>
+      <p class="hiz-sub">{t(locale, 'hiz.sub')}</p>
+      <p class="hiz-lead">{t(locale, 'hiz.lead')}</p>
+      <p class="hiz-meta">{totalPalabras} {t(locale, 'hiz.words')} · {temas.length} {t(locale, 'hiz.themes').toLowerCase()}</p>
+    </header>
+
+    <section>
+      <h2 class="display section-title">{t(locale, 'hiz.themes')}</h2>
+      <ul class="temas">
+        {temas.map((tema) => (
+          <li>
+            <a class="tema-card" href={`/${locale}/hiztegia/gaiak/${slugTema(tema.unidad)}/`}>
+              <span class="tema-nivel">{tema.unidad.split('/')[0].toUpperCase()}</span>
+              <span class="tema-titulo">{tema.titulo}</span>
+              <span class="tema-n">{tema.palabras.length} {t(locale, 'hiz.words')}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {locale === LOCALE_ENTRADAS && letras.length > 0 && (
+      <section class="az">
+        <h2 class="display section-title">{t(locale, 'hiz.az')}</h2>
+        {letras.map((letra) => (
+          <div class="letra">
+            <h3>{letra}</h3>
+            <ul>
+              {porLetra.get(letra)!.map((e) => (
+                <li><a href={`/${locale}/hiztegia/${e.slug}/`}>{e.hitza}</a></li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </section>
+    )}
+  </article>
+</RootLayout>
+
+<style>
+  .hiz { padding-block: var(--s-6); }
+  .hiz-head { margin-block-end: var(--s-7); }
+  .eyebrow { display: flex; align-items: center; gap: var(--s-3); }
+  .badge-beta {
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+    padding: 0.15em 0.6em; border-radius: 999px;
+    background: var(--c-accent-soft, #f6e7e5); color: var(--c-accent, #d52b1e);
+  }
+  .hiz-sub { font-size: 1.2rem; color: var(--c-text); margin: var(--s-2) 0 var(--s-3); }
+  .hiz-lead { color: var(--c-text-muted); max-width: 62ch; line-height: 1.6; }
+  .hiz-meta { color: var(--c-text-muted); font-size: 0.9rem; margin-block-start: var(--s-3); }
+  .section-title { margin: var(--s-6) 0 var(--s-4); }
+  .temas { list-style: none; padding: 0; margin: 0;
+    display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .tema-card {
+    display: grid; gap: 0.25rem; padding: var(--s-4);
+    border: 1px solid var(--c-border, #e4ded6); border-radius: var(--r-3, 14px);
+    text-decoration: none; color: inherit; background: var(--c-surface, #fff);
+    transition: border-color .15s ease, transform .15s ease;
+  }
+  .tema-card:hover { border-color: var(--c-accent, #d52b1e); transform: translateY(-2px); }
+  .tema-nivel { font-size: 0.72rem; letter-spacing: 0.1em; color: var(--c-text-muted); }
+  .tema-titulo { font-weight: 600; }
+  .tema-n { font-size: 0.85rem; color: var(--c-text-muted); }
+  .az { margin-block-start: var(--s-7); }
+  .letra { margin-block-end: var(--s-5); }
+  .letra h3 { font-size: 1.4rem; margin: 0 0 var(--s-2); color: var(--c-accent, #d52b1e); }
+  .letra ul { list-style: none; padding: 0; margin: 0;
+    display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); }
+  .letra a { text-decoration: none; }
+  .letra a:hover { text-decoration: underline; }
+</style>
