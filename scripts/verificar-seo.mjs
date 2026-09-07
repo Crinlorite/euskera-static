@@ -133,6 +133,21 @@ for (const f of paginas) {
     falla('H1', `${rel}: pagina fuera de todo cluster emitiendo ${enlaces.length} hreflang`);
   }
 
+  // A1: la pagina de Android promociona Google Play. Dentro de la app de iOS no
+  // puede verse (Guideline 2.3.10 de Apple), y la unica barrera es una regla CSS
+  // que DEBE viajar en el propio HTML: si viviera solo en la hoja externa y esa
+  // no cargara, la pagina se pintaria y seria motivo de rechazo.
+  if (/^[\w-]+\/android\/$/.test(rel)) {
+    if (!/\.is-native-app\s+\.app-promo\s*\{[^}]*display:\s*none/.test(html)) {
+      falla('A1', `${rel} no lleva la barrera 2.3.10 inline`);
+    }
+    if (!/class="[^"]*app-promo/.test(html)) falla('A1', `${rel} sin la clase app-promo`);
+    const sinTpl = html.replace(/<template data-solo-web>[\s\S]*?<\/template>/g, '');
+    const cuerpo = sinTpl.match(/<main[^>]*>([\s\S]*?)<\/main>/);
+    const texto = cuerpo ? cuerpo[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : '';
+    if (texto.length < 500) falla('A1', `${rel} solo ${texto.length} caracteres visibles sin JavaScript`);
+  }
+
   const canonica = uno(html, /<link rel="canonical" href="([^"]+)"/);
   if (canonica !== url) falla('H5', `${rel}: canonica ${canonica ?? '(ninguna)'} != ${url}`);
 
@@ -181,6 +196,7 @@ const REGLAS = {
   D4: 'la descripcion no es el titulo',
   D5: 'las paginas de contenido no repiten descripcion dentro de su idioma',
   R1: 'no ha desaparecido ninguna ruta',
+  A1: 'la pagina de Android es legible sin JavaScript y conserva su barrera 2.3.10',
 };
 
 let total = 0;
