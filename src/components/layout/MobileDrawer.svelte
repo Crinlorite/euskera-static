@@ -5,10 +5,11 @@
 
   let open = false;
 
-  const items: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' }> = [
+  const items: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' }> = [
     { href: `/${locale}/`, key: 'nav.home' },
     { href: `/${locale}/a1/`, label: 'A1' },
     { href: `/${locale}/a2/`, label: 'A2' },
+    { href: `/${locale}/hiztegia/`, key: 'hiz.title' },
     { href: `/${locale}/progreso/`, key: 'nav.progress' },
   ];
 </script>
