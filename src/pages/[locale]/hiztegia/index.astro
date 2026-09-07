@@ -12,7 +12,8 @@ export async function getStaticPaths() {
 const { locale } = Astro.params as { locale: LocaleCode };
 const temas = temasDe(locale);
 const entradas = entradasDe(locale);
-const totalPalabras = temas.reduce((n, tema) => n + tema.palabras.length, 0);
+// Una palabra puede estar en varios temas: se cuenta una vez.
+const totalPalabras = new Set(temas.flatMap((tema) => tema.palabras.map((p) => p.slug))).size;
 
 // Índice alfabético, solo donde hay páginas por palabra.
 const porLetra = new Map<string, typeof entradas>();
@@ -24,7 +25,7 @@ for (const e of entradas) {
 const letras = [...porLetra.keys()].sort();
 
 const descripcion = ajusta(
-  `${t(locale, 'hiz.sub')}: ${totalPalabras} ${t(locale, 'hiz.words')} ${t(locale, 'hiz.themes').toLowerCase()}.`,
+  `${t(locale, 'hiz.sub')}: ${totalPalabras} ${t(locale, 'hiz.words')}, ${temas.length} ${t(locale, 'hiz.themes').toLowerCase()}.`,
   t(locale, 'site.description'), minimoDescripcion(locale),
 );
 ---

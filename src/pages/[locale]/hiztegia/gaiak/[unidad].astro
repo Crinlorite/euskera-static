@@ -1,6 +1,6 @@
 ---
 import RootLayout from '../../../../layouts/RootLayout.astro';
-import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
+import { ACTIVE_LOCALES, LANGUAGES, type LocaleCode } from '../../../../i18n/config';
 import { t } from '../../../../i18n/ui';
 import { ajusta, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
 import { temasDe, slugTema, LOCALE_ENTRADAS, type Tema } from '../../../../lib/hiztegia';
@@ -45,7 +45,7 @@ const descripcion = ajusta(
       <thead>
         <tr>
           <th>{t(locale, 'site.name')}</th>
-          <th>{t(locale, 'hiz.title')}</th>
+          <th>{LANGUAGES[locale].name}</th>
         </tr>
       </thead>
       <tbody>
