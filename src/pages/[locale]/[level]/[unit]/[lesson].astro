@@ -7,6 +7,7 @@ import ExercisesSection from '../../../../components/exercises/ExercisesSection.
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
 
 import { ajusta, descripcionDeLeccion, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
+import { temasDe, LOCALE_ENTRADAS } from '../../../../lib/hiztegia';
 import { t } from '../../../../i18n/ui';
 import { LOCKED_PATHS } from '../../../../lib/locked.mjs';
 // Con 1.000+ lecciones, TS infiere `id` como un union de literales gigante y
@@ -79,6 +80,12 @@ if (next) {
 }
 const unidadActual = sameLevelUnits[currentUnitIdx];
 const minimo = minimoDescripcion(locale);
+// Vocabulario de esta unidad que tiene entrada propia en el Hiztegia. Teje la
+// malla en los dos sentidos: la leccion lleva al diccionario y el diccionario a
+// la leccion. Solo en castellano, que es donde hay paginas por palabra.
+const delHiztegia = locale === LOCALE_ENTRADAS
+  ? (temasDe(locale).find((tema) => tema.unidad === `${levelCode}/${unitCode}`)?.palabras ?? []).slice(0, 12)
+  : [];
 const descripcion = descripcionDeLeccion(
   lesson.body,
   ajusta(`${lesson.data.title}. ${unidadActual?.data.description ?? ''}`,
@@ -118,7 +125,28 @@ const descripcion = descripcionDeLeccion(
       />
     </article>
   </div>
+  {delHiztegia.length > 0 && (
+    <aside class="hiztegia-leccion container">
+      <h2>{t(locale, 'hiz.title')}</h2>
+      <ul>
+        {delHiztegia.map((p) => (
+          <li><a href={`/${locale}/hiztegia/${p.slug}/`}>{p.hitza}</a> <span>{p.tr}</span></li>
+        ))}
+      </ul>
+    </aside>
+  )}
 </RootLayout>
+
+<style>
+  .hiztegia-leccion { margin-block: var(--s-6); padding-block-start: var(--s-4);
+    border-block-start: 1px solid var(--c-border, #e4ded6); }
+  .hiztegia-leccion h2 { font-size: 0.8rem; text-transform: uppercase;
+    letter-spacing: 0.09em; color: var(--c-text-muted); margin: 0 0 var(--s-3); }
+  .hiztegia-leccion ul { list-style: none; padding: 0; margin: 0;
+    display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); }
+  .hiztegia-leccion a { font-style: italic; }
+  .hiztegia-leccion span { color: var(--c-text-muted); font-size: 0.9rem; }
+</style>
 
 <style>
   .lesson-grid {

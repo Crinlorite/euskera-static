@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import { ACTIVE_LOCALES, type LocaleCode } from '../i18n/config';
 import { RUTAS_FIJAS, construye, separaLocale } from './alternates-puro.mjs';
+import { temasDe, entradasDe, slugTema, localesConHiztegia, LOCALE_ENTRADAS } from './hiztegia';
 
 export type Alternativa = { hreflang: string; href: string };
 
@@ -40,6 +41,15 @@ export function inventario(): Promise<Map<string, Set<string>>> {
     for (const leccion of await getCollection('lessons')) {
       const [locale, nivel, unidad] = leccion.id.split('/');
       pon(`${nivel}/${unidad}/${leccion.data.code}/`, locale);
+    }
+    // El Hiztegia: indice y temas en los 18 idiomas, paginas por palabra solo
+    // en castellano (ver src/lib/hiztegia.ts).
+    for (const locale of localesConHiztegia()) {
+      pon('hiztegia/', locale);
+      for (const tema of temasDe(locale)) pon(`hiztegia/gaiak/${slugTema(tema.unidad)}/`, locale);
+    }
+    for (const entrada of entradasDe(LOCALE_ENTRADAS)) {
+      pon(`hiztegia/${entrada.slug}/`, LOCALE_ENTRADAS);
     }
     return mapa;
   })();

@@ -1,0 +1,178 @@
+---
+import RootLayout from '../../../layouts/RootLayout.astro';
+import { getCollection } from 'astro:content';
+import type { LocaleCode } from '../../../i18n/config';
+import { t } from '../../../i18n/ui';
+import { ajusta, minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { entradasDe, vecinas, LOCALE_ENTRADAS, type Entrada } from '../../../lib/hiztegia';
+
+export async function getStaticPaths() {
+  // Solo el castellano tiene pagina por palabra: toda la demanda medida en
+  // Search Console es en castellano, y generar las 1.424 en 18 idiomas se saldria
+  // del limite de build de Cloudflare Pages. Los demas tienen sus listas por tema.
+  return entradasDe(LOCALE_ENTRADAS).map((entrada) => ({
+    params: { locale: LOCALE_ENTRADAS, hitza: entrada.slug },
+    props: { entrada },
+  }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const { entrada } = Astro.props as { entrada: Entrada };
+
+const unidades = await getCollection('units');
+const tituloDe = (ruta: string) => {
+  const [nivel, unidad] = ruta.split('/');
+  return unidades.find((u) => u.id.startsWith(`${locale}/${nivel}/${unidad}/`))?.data.title ?? unidad;
+};
+
+const lecciones = await getCollection('lessons');
+const leccionesDe = entrada.lecciones.map((ruta) => {
+  const entry = lecciones.find((l) => l.id.startsWith(`${locale}/${ruta}.`));
+  return { ruta, titulo: entry?.data.title ?? ruta, unidad: tituloDe(ruta) };
+});
+
+const principal = entrada.traducciones[0]?.texto ?? '';
+// Para el titulo y la descripcion, la traduccion mas corta SIN parentesis:
+// "hitzordua - cita en euskera" se lee; "cita (acuerdo de hora con alguien)"
+// se come el titulo y Google lo corta a la mitad.
+const corta = [...entrada.traducciones.map((tr) => tr.texto)]
+  .filter((x) => x && !/[(),/]/.test(x))
+  .sort((a, b) => a.length - b.length)[0] ?? principal.replace(/\s*\([^)]*\)/g, '').trim();
+const otras = entrada.traducciones.slice(1);
+const relacionadas = vecinas(locale, entrada);
+
+// El titulo sirve a las dos formas de buscar lo mismo: "altzariak traduccion"
+// y "muebles en euskera". Las dos salen en Search Console.
+const titulo = corta
+  ? `${entrada.hitza} — ${corta.toLowerCase()} en euskera`
+  : entrada.hitza;
+
+const descripcion = ajusta(
+  principal
+    ? `${entrada.hitza} significa «${principal}» en euskera. ${entrada.ejemplos.length ? 'Con ejemplo de uso real y' : 'Con'} la lección donde se aprende, del curso gratuito de Kaixo.`
+    : `${entrada.hitza}, vocabulario del curso de euskera de Kaixo.`,
+  t(locale, 'site.description'), minimoDescripcion(locale),
+);
+---
+<RootLayout locale={locale} title={titulo} description={descripcion}>
+  <article class="container hitza">
+    <p class="eyebrow">
+      <a href={`/${locale}/hiztegia/`}>← {t(locale, 'hiz.title')}</a>
+      <span class="badge-beta">{t(locale, 'lang.beta')}</span>
+    </p>
+
+    <header class="cabecera">
+      <h1 class="display">{entrada.hitza}</h1>
+      {entrada.audio && (
+        <button type="button" class="oir grande" data-audio={entrada.audio} aria-label={entrada.hitza}>▶</button>
+      )}
+    </header>
+
+    {principal && (
+      <p class="principal">{principal}</p>
+    )}
+    {otras.length > 0 && (
+      <p class="otras">{otras.map((o) => o.texto).join(' · ')}</p>
+    )}
+
+    <section class="uso">
+      <h2>{t(locale, 'hiz.usage')}</h2>
+      {entrada.ejemplos.length > 0 ? (
+        <ul class="ejemplos">
+          {entrada.ejemplos.map((ej) => (
+            <li>
+              <p class="frase">
+                <em>{ej.texto}</em>
+                {ej.audio && (
+                  <button type="button" class="oir" data-audio={ej.audio} aria-label={ej.texto}>▶</button>
+                )}
+              </p>
+              {ej.traduccion && <p class="trad">{ej.traduccion}</p>}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="sin-ejemplo">{t(locale, 'hiz.noexample')}</p>
+      )}
+    </section>
+
+    {leccionesDe.length > 0 && (
+      <section class="leccion">
+        <h2>{t(locale, 'hiz.learn')}</h2>
+        <ul class="lista-lecciones">
+          {leccionesDe.map((l) => (
+            <li>
+              <a href={`/${locale}/${l.ruta}/`}>{l.titulo}</a>
+              <span class="unidad">{l.unidad}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {relacionadas.length > 0 && (
+      <section class="vecinas">
+        <h2>{t(locale, 'hiz.same')}</h2>
+        <ul>
+          {relacionadas.map((p) => (
+            <li><a href={`/${locale}/hiztegia/${p.slug}/`}>{p.hitza}</a> <span>{p.tr}</span></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <p class="avisar">
+      <a href={`/${locale}/feedback/?hitza=${encodeURIComponent(entrada.hitza)}`}>
+        {t(locale, 'footer.feedback')}
+      </a>
+    </p>
+  </article>
+</RootLayout>
+
+<script>
+  let sonando: HTMLAudioElement | null = null;
+  const enchufa = () => {
+    document.querySelectorAll<HTMLButtonElement>('.oir[data-audio]').forEach((b) => {
+      if (b.dataset.listo) return;
+      b.dataset.listo = '1';
+      b.addEventListener('click', () => {
+        sonando?.pause();
+        sonando = new Audio(`/audio/eu/${b.dataset.audio}`);
+        sonando.play().catch(() => {});
+      });
+    });
+  };
+  enchufa();
+  document.addEventListener('astro:page-load', enchufa);
+</script>
+
+<style>
+  .hitza { padding-block: var(--s-6); max-width: 720px; }
+  .eyebrow { display: flex; align-items: center; gap: var(--s-3); }
+  .badge-beta {
+    font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em;
+    padding: 0.15em 0.6em; border-radius: 999px;
+    background: var(--c-accent-soft, #f6e7e5); color: var(--c-accent, #d52b1e);
+  }
+  .cabecera { display: flex; align-items: center; gap: var(--s-3); margin-block: var(--s-4) var(--s-2); }
+  .cabecera h1 { margin: 0; font-style: italic; }
+  .principal { font-size: 1.35rem; margin: 0 0 var(--s-2); }
+  .otras { color: var(--c-text-muted); margin: 0 0 var(--s-5); }
+  h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.09em;
+    color: var(--c-text-muted); margin-block: var(--s-6) var(--s-3); }
+  .ejemplos { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--s-4); }
+  .frase { margin: 0; font-size: 1.05rem; }
+  .trad { margin: 0.2rem 0 0; color: var(--c-text-muted); font-size: 0.95rem; }
+  .sin-ejemplo { color: var(--c-text-muted); font-size: 0.95rem; margin: 0; }
+  .lista-lecciones, .vecinas ul { list-style: none; padding: 0; margin: 0; }
+  .lista-lecciones li { padding-block: var(--s-2);
+    border-block-end: 1px solid var(--c-border, #e4ded6); }
+  .lista-lecciones .unidad { display: block; font-size: 0.85rem; color: var(--c-text-muted); }
+  .vecinas ul { display: flex; flex-wrap: wrap; gap: var(--s-2) var(--s-4); }
+  .vecinas li span { color: var(--c-text-muted); font-size: 0.9rem; }
+  .vecinas a { font-style: italic; }
+  .oir { border: 0; background: none; cursor: pointer; color: var(--c-accent, #d52b1e);
+    font-size: 0.85rem; padding: 0 0.2em; }
+  .oir.grande { font-size: 1.2rem; }
+  .avisar { margin-block-start: var(--s-7); font-size: 0.9rem; }
+</style>
