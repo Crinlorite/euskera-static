@@ -1,0 +1,193 @@
+#!/usr/bin/env node
+/**
+ * Verifica sobre `dist/` que el SEO estructural dice la VERDAD.
+ *
+ * POR QUE EXISTE: hasta el 7-sep-2026 la web no emitia ni un solo `hreflang`,
+ * y Google servia el 59 % de las busquedas en castellano con paginas en
+ * aragones o catalan. El arreglo es facil; lo dificil es que SIGA siendo cierto
+ * cuando alguien anada una pagina, un idioma o un nivel dentro de seis meses.
+ *
+ * Por eso esto no comprueba el codigo: comprueba el RESULTADO contra la
+ * realidad del propio build (que ficheros existen de verdad en dist/). Si el
+ * hreflang promete una traduccion que no existe, o una pagina se queda sin
+ * descripcion, el build falla y Cloudflare Pages no despliega. Es la unica
+ * forma de que el inventario no se pudra.
+ *
+ * Uso: node scripts/verificar-seo.mjs [dist]
+ * Salida: 0 todo en orden, 1 hay fallos (informe agrupado por regla).
+ */
+import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
+import { join, relative } from 'node:path';
+
+const SITIO = 'https://euskera.crintech.pro';
+const DIST = process.argv[2] ?? 'dist';
+
+// Mismo orden que ACTIVE_LOCALES en src/i18n/config.ts.
+const LOCALES = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
+                 'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko'];
+const ES_LOCALE = new Set(LOCALES);
+// Chino, japones y coreano dicen en 30 caracteres lo que el castellano en 120:
+// medirlos con la misma vara los suspenderia siempre.
+const MIN_DESC = (locale) => (['zh-Hans', 'ja', 'ko'].includes(locale) ? 25 : 50);
+const MAX_DESC = 160;
+const NIVELES = /^(a1|a2|b1|b2|c1|c2|ega)\//;
+
+const paginas = [];
+(function anda(dir) {
+  for (const nombre of readdirSync(dir)) {
+    const p = join(dir, nombre);
+    if (statSync(p).isDirectory()) anda(p);
+    else if (nombre.endsWith('.html')) paginas.push(p);
+  }
+})(DIST);
+
+/** Ruta publica de un fichero del build: `dist/es/a1/index.html` -> `es/a1/`. */
+const rutaDe = (fichero) =>
+  relative(DIST, fichero).replaceAll('\\', '/').replace(/index\.html$/, '');
+
+const parte = (rel) => {
+  const seg = rel.split('/');
+  return ES_LOCALE.has(seg[0])
+    ? { locale: seg[0], ruta: seg.slice(1).join('/') }
+    : { locale: null, ruta: rel };
+};
+
+// La VERDAD: que rutas existen en que idiomas, leida del propio build.
+const verdad = new Map();
+for (const f of paginas) {
+  const { locale, ruta } = parte(rutaDe(f));
+  if (!locale) continue;
+  if (!verdad.has(ruta)) verdad.set(ruta, new Set());
+  verdad.get(ruta).add(locale);
+}
+
+const fallos = new Map();
+const falla = (regla, msg) => {
+  if (!fallos.has(regla)) fallos.set(regla, []);
+  fallos.get(regla).push(msg);
+};
+
+const ENTIDADES = { amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'", apos: "'", nbsp: ' ' };
+const decodifica = (s) => s.replace(/&(#?\w+);/g, (t, e) => ENTIDADES[e] ?? t);
+const uno = (html, re) => { const m = html.match(re); return m ? m[1] : null; };
+
+const vistas = new Map();   // descripcion -> primera pagina que la uso (por locale)
+
+for (const f of paginas) {
+  const rel = rutaDe(f);
+  const html = readFileSync(f, 'utf8');
+  const { locale, ruta } = parte(rel);
+  const url = `${SITIO}/${rel}`;
+
+  const enlaces = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"\s*\/?>/g)]
+    .map((m) => ({ lang: m[1], href: m[2] }));
+
+  // 404: no forma parte de ningun cluster de idiomas.
+  if (rel.endsWith('404.html')) {
+    if (enlaces.length) falla('H6', `${rel} emite ${enlaces.length} hreflang y no deberia`);
+    continue;
+  }
+
+  const esRaiz = rel === '';
+  if (locale || esRaiz) {
+    const clave = esRaiz ? '' : ruta;
+    const localesDe = verdad.get(clave) ?? new Set();
+    const esperado = new Set([...localesDe].map((l) => `${SITIO}/${l}/${clave}`));
+    const emitido = new Set(enlaces.filter((e) => e.lang !== 'x-default').map((e) => e.href));
+
+    const faltan = [...esperado].filter((u) => !emitido.has(u));
+    const sobran = [...emitido].filter((u) => !esperado.has(u));
+    if (faltan.length || sobran.length) {
+      falla('H1', `${rel}: esperados ${esperado.size}, emitidos ${emitido.size}` +
+        (faltan.length ? ` - faltan ${faltan.length} (p.ej. ${faltan[0]})` : '') +
+        (sobran.length ? ` - sobran ${sobran.length} (p.ej. ${sobran[0]})` : ''));
+    }
+    if (locale && !emitido.has(url)) falla('H2', `${rel} no se autorreferencia`);
+
+    // x-default: la landing selectora para el cluster de portada; la version es
+    // para el resto (es es superconjunto: si una ruta existe, existe en es).
+    const xd = enlaces.filter((e) => e.lang === 'x-default');
+    const esperadoXd = clave === '' ? `${SITIO}/`
+      : localesDe.has('es') ? `${SITIO}/es/${clave}` : null;
+    if (esperadoXd) {
+      if (xd.length !== 1 || xd[0].href !== esperadoXd) {
+        falla('H3', `${rel}: x-default ${xd.map((x) => x.href).join(', ') || '(ninguno)'} != ${esperadoXd}`);
+      }
+    } else if (xd.length) {
+      falla('H3', `${rel}: x-default ${xd[0].href} en una ruta sin version es`);
+    }
+
+    for (const e of enlaces) {
+      if (!e.href.startsWith(`${SITIO}/`) || !e.href.endsWith('/')) {
+        falla('H4', `${rel} -> ${e.href} (absoluta con barra final)`);
+      } else if (!existsSync(join(DIST, e.href.slice(SITIO.length + 1), 'index.html'))) {
+        falla('H4', `${rel} -> ${e.href} NO EXISTE en el build`);
+      }
+    }
+  } else if (enlaces.length) {
+    falla('H1', `${rel}: pagina fuera de todo cluster emitiendo ${enlaces.length} hreflang`);
+  }
+
+  const canonica = uno(html, /<link rel="canonical" href="([^"]+)"/);
+  if (canonica !== url) falla('H5', `${rel}: canonica ${canonica ?? '(ninguna)'} != ${url}`);
+
+  const desc = decodifica(uno(html, /<meta name="description" content="([^"]*)"/) ?? '');
+  const titulo = decodifica(uno(html, /<title>([^<]*)<\/title>/) ?? '');
+  if (!desc) {
+    falla('D1', `${rel} sin descripcion`);
+  } else {
+    const min = MIN_DESC(locale);
+    if (desc.length < min || desc.length > MAX_DESC) {
+      falla('D2', `${rel}: ${desc.length} caracteres (permitido ${min}-${MAX_DESC})`);
+    }
+    if (/[<>]/.test(desc)) falla('D3', `${rel}: la descripcion lleva marcado`);
+    // El layout anade " . Euskera" al titulo; se quita para comparar.
+    if (desc.trim() === titulo.replace(/\s·\s[^·]+$/, '').trim()) {
+      falla('D4', `${rel}: descripcion identica al titulo`);
+    }
+    const esContenido = locale && NIVELES.test(ruta) && !/(simulakroa|mintzamena)\/$/.test(ruta);
+    if (esContenido) {
+      const k = `${locale} ${desc}`;
+      if (vistas.has(k)) falla('D5', `${rel} repite la descripcion de ${vistas.get(k)}`);
+      else vistas.set(k, rel);
+    }
+  }
+}
+
+// R1: ninguna ruta que existia el 7-sep-2026 puede desaparecer sin querer.
+const instantanea = 'tests/fixtures/rutas-2026-09-07.txt';
+if (existsSync(instantanea)) {
+  const ahora = new Set(paginas.map(rutaDe));
+  for (const r of readFileSync(instantanea, 'utf8').split('\n').filter(Boolean)) {
+    if (!ahora.has(r)) falla('R1', `${r} ha desaparecido del build`);
+  }
+}
+
+const REGLAS = {
+  H1: 'el conjunto de hreflang coincide con las traducciones que existen',
+  H2: 'cada pagina se autorreferencia en su hreflang',
+  H3: 'x-default correcto',
+  H4: 'los hreflang son absolutos, con barra final y apuntan a algo que existe',
+  H5: 'la canonica es la propia URL',
+  H6: 'el 404 no emite hreflang',
+  D1: 'toda pagina tiene descripcion',
+  D2: 'la descripcion mide lo que debe',
+  D3: 'la descripcion no lleva marcado',
+  D4: 'la descripcion no es el titulo',
+  D5: 'las paginas de contenido no repiten descripcion dentro de su idioma',
+  R1: 'no ha desaparecido ninguna ruta',
+};
+
+let total = 0;
+for (const regla of Object.keys(REGLAS)) {
+  const lista = fallos.get(regla);
+  if (!lista) continue;
+  total += lista.length;
+  console.log(`  [${regla}] ${REGLAS[regla]}: ${lista.length} fallo(s)`);
+  for (const m of lista.slice(0, 4)) console.log(`       ${m}`);
+  if (lista.length > 4) console.log(`       ... y ${lista.length - 4} mas`);
+}
+console.log(total
+  ? `\n  FALLA: ${paginas.length} paginas revisadas, ${total} fallos`
+  : `\n  OK: ${paginas.length} paginas con hreflang, descripciones y rutas en orden`);
+process.exit(total ? 1 : 0);
