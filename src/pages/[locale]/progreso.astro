@@ -44,8 +44,9 @@ const unitsByLevel = { a1: { unitIds: a1Units.map((u) => u.data.id) } };
 
 // Catalogo serializable a cliente
 const achievementsCatalog = ACHIEVEMENTS;
+const descripcion = t(locale, 'site.description');
 ---
-<RootLayout locale={locale} title={t(locale, 'nav.progress')}>
+<RootLayout locale={locale} title={t(locale, 'nav.progress')} description={descripcion}>
   <article class="container progreso">
     <header class="page-head">
       <p class="eyebrow">{t(locale, 'progress.path')}</p>

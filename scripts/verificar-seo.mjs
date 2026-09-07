@@ -18,6 +18,9 @@
  */
 import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
+// El minimo sale del mismo sitio que lo usan las paginas: una copia aqui se
+// desincronizaria en cuanto alguien anadiese un idioma sin espacios.
+import { minimoDescripcion } from '../src/lib/seo-texto.mjs';
 
 const SITIO = 'https://euskera.crintech.pro';
 const DIST = process.argv[2] ?? 'dist';
@@ -26,9 +29,6 @@ const DIST = process.argv[2] ?? 'dist';
 const LOCALES = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
                  'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko'];
 const ES_LOCALE = new Set(LOCALES);
-// Chino, japones y coreano dicen en 30 caracteres lo que el castellano en 120:
-// medirlos con la misma vara los suspenderia siempre.
-const MIN_DESC = (locale) => (['zh-Hans', 'ja', 'ko'].includes(locale) ? 25 : 50);
 const MAX_DESC = 160;
 const NIVELES = /^(a1|a2|b1|b2|c1|c2|ega)\//;
 
@@ -67,8 +67,13 @@ const falla = (regla, msg) => {
   fallos.get(regla).push(msg);
 };
 
-const ENTIDADES = { amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'", apos: "'", nbsp: ' ' };
-const decodifica = (s) => s.replace(/&(#?\w+);/g, (t, e) => ENTIDADES[e] ?? t);
+const ENTIDADES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
+// Astro escapa las comillas de los atributos como &#34;: si no se decodifican,
+// una descripcion parece 5 caracteres mas larga por cada comilla y D2 miente.
+const decodifica = (s) => s
+  .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+  .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d)))
+  .replace(/&(\w+);/g, (t, e) => ENTIDADES[e] ?? t);
 const uno = (html, re) => { const m = html.match(re); return m ? m[1] : null; };
 
 const vistas = new Map();   // descripcion -> primera pagina que la uso (por locale)
@@ -136,7 +141,7 @@ for (const f of paginas) {
   if (!desc) {
     falla('D1', `${rel} sin descripcion`);
   } else {
-    const min = MIN_DESC(locale);
+    const min = minimoDescripcion(locale);
     if (desc.length < min || desc.length > MAX_DESC) {
       falla('D2', `${rel}: ${desc.length} caracteres (permitido ${min}-${MAX_DESC})`);
     }

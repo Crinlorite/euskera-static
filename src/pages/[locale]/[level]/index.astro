@@ -4,6 +4,7 @@ import RootLayout from '../../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
 import { t, tf } from '../../../i18n/ui';
 
+import { ajusta, sinMarcado, minimoDescripcion } from '../../../lib/seo-texto.mjs';
 export async function getStaticPaths() {
   const allLevels = await getCollection('levels');
   return allLevels
@@ -71,8 +72,9 @@ const TEASERS: Partial<Record<LocaleCode, Teasers>> = {
         gym: '발음하고 알아들을 수 있는지 확인하세요 — 모두 당신 기기에서 돌아가고, 아무것도 밖으로 나가지 않아요.' },
 };
 const teasers = TEASERS[locale] ?? TEASERS.es!;
+const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={level.data.name}>
+<RootLayout locale={locale} title={level.data.name} description={descripcion}>
   <article class="container-wide level">
     <header class="level-header stagger">
       <p class="eyebrow">Nivel · {level.data.name.split(' ')[0]}</p>
