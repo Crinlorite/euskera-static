@@ -20,5 +20,12 @@
 //
 // Peor caso: un visitante de la web no ve las insignias de descarga. Molesto.
 // El caso que evitamos: Apple rechaza la app. Caro.
+//
+// 🔴 REGLA DE USO (7-sep-2026): esto es para BLOQUES dentro de páginas que se
+// abren desde la app —las insignias del pie y de la portada—, NUNCA para una
+// página entera. Envolver /android/ así la dejó VACÍA para cualquier rastreador
+// sin JavaScript: cero caracteres de texto, y Search Console la daba por
+// desactualizada. Si a una página no se llega desde la app (ningún enlace hacia
+// ella fuera de un WebOnly), le basta la clase .app-promo.
 ---
 <template data-solo-web><slot /></template>
