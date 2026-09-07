@@ -21,6 +21,7 @@ import { join, relative } from 'node:path';
 // El minimo sale del mismo sitio que lo usan las paginas: una copia aqui se
 // desincronizaria en cuanto alguien anadiese un idioma sin espacios.
 import { minimoDescripcion } from '../src/lib/seo-texto.mjs';
+import { estaBloqueada } from '../src/lib/locked.mjs';
 
 const SITIO = 'https://euskera.crintech.pro';
 const DIST = process.argv[2] ?? 'dist';
@@ -148,6 +149,13 @@ for (const f of paginas) {
     if (texto.length < 500) falla('A1', `${rel} solo ${texto.length} caracteres visibles sin JavaScript`);
   }
 
+  // N1: lo que esta detras del candado no se ofrece a Google, y lo que no lo
+  // esta tampoco se esconde por accidente.
+  const bloqueada = estaBloqueada(rel);
+  const tieneNoindex = /<meta name="robots" content="noindex/.test(html);
+  if (bloqueada && !tieneNoindex) falla('N1', `${rel} esta bajo candado y NO lleva noindex`);
+  if (!bloqueada && tieneNoindex) falla('N1', `${rel} lleva noindex y no deberia`);
+
   const canonica = uno(html, /<link rel="canonical" href="([^"]+)"/);
   if (canonica !== url) falla('H5', `${rel}: canonica ${canonica ?? '(ninguna)'} != ${url}`);
 
@@ -183,6 +191,19 @@ if (existsSync(instantanea)) {
   }
 }
 
+// N2: y tampoco se anuncian en el sitemap.
+const mapa = join(DIST, 'sitemap-0.xml');
+if (existsSync(mapa)) {
+  const xml = readFileSync(mapa, 'utf8');
+  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
+  for (const u of urls) {
+    const ruta = u.replace(`${SITIO}/`, '');
+    if (estaBloqueada(ruta)) falla('N2', `${ruta} sigue anunciada en el sitemap`);
+  }
+  if (!urls.includes(`${SITIO}/es/a1/`)) falla('N2', 'el sitemap ha perdido /es/a1/');
+  console.log(`  sitemap: ${urls.length} URLs`);
+}
+
 const REGLAS = {
   H1: 'el conjunto de hreflang coincide con las traducciones que existen',
   H2: 'cada pagina se autorreferencia en su hreflang',
@@ -196,6 +217,8 @@ const REGLAS = {
   D4: 'la descripcion no es el titulo',
   D5: 'las paginas de contenido no repiten descripcion dentro de su idioma',
   R1: 'no ha desaparecido ninguna ruta',
+  N1: 'las paginas bajo candado llevan noindex, y solo ellas',
+  N2: 'el sitemap no anuncia lo que esta bajo candado',
   A1: 'la pagina de Android es legible sin JavaScript y conserva su barrera 2.3.10',
 };
 

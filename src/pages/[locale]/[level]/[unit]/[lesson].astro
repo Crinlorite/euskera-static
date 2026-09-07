@@ -8,6 +8,7 @@ import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
 
 import { ajusta, descripcionDeLeccion, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
 import { t } from '../../../../i18n/ui';
+import { LOCKED_PATHS } from '../../../../lib/locked.mjs';
 // Con 1.000+ lecciones, TS infiere `id` como un union de literales gigante y
 // "se queda sin tipo". Lo aplanamos a string para que el type-check escale.
 type Lesson = Omit<CollectionEntry<'lessons'>, 'id'> & { id: string };
@@ -85,7 +86,7 @@ const descripcion = descripcionDeLeccion(
   minimo,
 );
 ---
-<RootLayout locale={locale} title={lesson.data.title} description={descripcion}>
+<RootLayout locale={locale} title={lesson.data.title} description={descripcion} noindex={LOCKED_PATHS.includes(levelCode)}>
   <div class="container-wide lesson-grid">
     <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={sibs} currentLessonCode={lessonCode} />
     <article class="lesson">

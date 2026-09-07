@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 const { locale } = Astro.params as { locale: LocaleCode };
 const descripcion = t(locale, 'site.description');
 ---
-<RootLayout locale={locale} title="Aitonaren Hitzak — Modo Expedición" bodyClass="game-page" description={descripcion}>
+<RootLayout locale={locale} title="Aitonaren Hitzak — Modo Expedición" bodyClass="game-page" description={descripcion} noindex>
   <section class="container expedicion-hero fade-in">
     <p class="eyebrow">{t(locale, 'expedition.page.eyebrow')}</p>
     <h1 class="display">
