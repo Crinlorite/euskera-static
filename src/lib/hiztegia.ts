@@ -23,7 +23,8 @@ export type Entrada = {
   ejemplos: Ejemplo[];
 };
 
-export type PalabraDeTema = { hitza: string; slug: string; tr: string; audio: string | null };
+/** `pagina`: si la palabra tiene pagina propia (solo en castellano y si pasa el umbral). */
+export type PalabraDeTema = { hitza: string; slug: string; tr: string; pagina: boolean };
 export type Tema = { unidad: string; titulo: string; palabras: PalabraDeTema[] };
 
 type Fichero = { locale: string; generado: string; entradas?: Entrada[]; temas: Tema[] };
@@ -62,7 +63,7 @@ export function vecinas(locale: string, entrada: Entrada, cuantas = 8): PalabraD
   for (const tema of temasDe(locale)) {
     if (!suyas.has(tema.unidad)) continue;
     for (const p of tema.palabras) {
-      if (fuera.has(p.slug)) continue;
+      if (fuera.has(p.slug) || !p.pagina) continue;
       fuera.add(p.slug);
       out.push(p);
       if (out.length >= cuantas) return out;

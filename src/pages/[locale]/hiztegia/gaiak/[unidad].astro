@@ -52,12 +52,9 @@ const descripcion = ajusta(
         {tema.palabras.map((p) => (
           <tr>
             <td class="eu">
-              {locale === LOCALE_ENTRADAS
+              {locale === LOCALE_ENTRADAS && p.pagina
                 ? <a href={`/${locale}/hiztegia/${p.slug}/`}>{p.hitza}</a>
                 : <span>{p.hitza}</span>}
-              {p.audio && (
-                <button type="button" class="oir" data-audio={p.audio} aria-label={p.hitza}>▶</button>
-              )}
             </td>
             <td>{p.tr}</td>
           </tr>
@@ -67,24 +64,6 @@ const descripcion = ajusta(
   </article>
 </RootLayout>
 
-<script>
-  // Reproduce el banco de voz real ya grabado. Sin isla de Svelte: es un
-  // <audio> y un click, no hace falta hidratar nada.
-  let sonando: HTMLAudioElement | null = null;
-  const enchufa = () => {
-    document.querySelectorAll<HTMLButtonElement>('.oir[data-audio]').forEach((b) => {
-      if (b.dataset.listo) return;
-      b.dataset.listo = '1';
-      b.addEventListener('click', () => {
-        sonando?.pause();
-        sonando = new Audio(`/audio/eu/${b.dataset.audio}`);
-        sonando.play().catch(() => {});
-      });
-    });
-  };
-  enchufa();
-  document.addEventListener('astro:page-load', enchufa);
-</script>
 
 <style>
   .tema { padding-block: var(--s-6); max-width: 860px; }

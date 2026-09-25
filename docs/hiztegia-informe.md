@@ -1,6 +1,6 @@
 # Hiztegia — informe de revision
 
-Generado por `scripts/extraer_hiztegia.mjs` el 2026-09-07. **Leer esto antes de publicar.**
+Generado por `scripts/extraer_hiztegia.mjs` el 2026-09-25. **Leer esto antes de publicar.**
 
 El extractor no inventa nada: toda palabra y todo ejemplo salen de un fichero
 del repo. Lo que no puede hacer es juzgar si una traduccion es *buena*. Aqui
@@ -10,24 +10,24 @@ esta lo que conviene mirar con ojos humanos.
 
 | idioma | crudas | publicadas | con audio | con ejemplo | varias traducciones | temas |
 |---|---|---|---|---|---|---|
-| es | 1585 | 1401 | 1286 | 501 | 208 | 23 |
-| ca | 1529 | 1366 | 1258 | 443 | 290 | 23 |
-| gl | 1508 | 1368 | 1258 | 445 | 262 | 23 |
-| oc | 1396 | 1353 | 1254 | 438 | 265 | 23 |
-| ast | 1434 | 1358 | 1254 | 441 | 245 | 23 |
-| an | 1538 | 1362 | 1250 | 442 | 268 | 23 |
-| en | 1527 | 1368 | 1258 | 445 | 280 | 23 |
-| ar | 1455 | 1355 | 1254 | 438 | 275 | 23 |
-| fr | 1557 | 1372 | 1259 | 446 | 302 | 23 |
-| ro | 1555 | 1371 | 1258 | 446 | 315 | 23 |
-| pt-BR | 1561 | 1373 | 1259 | 448 | 283 | 23 |
-| de | 1555 | 1371 | 1258 | 446 | 298 | 23 |
-| it | 1556 | 1370 | 1257 | 445 | 305 | 23 |
-| ru | 1528 | 1367 | 1256 | 444 | 289 | 23 |
-| pl | 1525 | 1368 | 1257 | 444 | 284 | 23 |
-| zh-Hans | 1420 | 1360 | 1256 | 439 | 236 | 23 |
-| ja | 1448 | 1362 | 1257 | 438 | 259 | 23 |
-| ko | 1439 | 1349 | 1247 | 435 | 263 | 23 |
+| es | 1585 | 670 | 553 | 501 | 133 | 23 |
+| ca | 1529 | 611 | 500 | 443 | 171 | 23 |
+| gl | 1508 | 610 | 497 | 445 | 157 | 23 |
+| oc | 1396 | 587 | 485 | 438 | 171 | 23 |
+| ast | 1434 | 596 | 489 | 441 | 163 | 23 |
+| an | 1538 | 610 | 495 | 442 | 164 | 23 |
+| en | 1527 | 612 | 499 | 445 | 171 | 23 |
+| ar | 1455 | 594 | 490 | 438 | 177 | 23 |
+| fr | 1557 | 620 | 504 | 446 | 180 | 23 |
+| ro | 1555 | 621 | 505 | 446 | 186 | 23 |
+| pt-BR | 1561 | 622 | 505 | 448 | 164 | 23 |
+| de | 1555 | 619 | 503 | 446 | 181 | 23 |
+| it | 1556 | 619 | 503 | 445 | 177 | 23 |
+| ru | 1528 | 610 | 496 | 444 | 172 | 23 |
+| pl | 1525 | 610 | 496 | 444 | 170 | 23 |
+| zh-Hans | 1420 | 595 | 488 | 439 | 154 | 23 |
+| ja | 1448 | 599 | 491 | 438 | 164 | 23 |
+| ko | 1439 | 586 | 481 | 435 | 167 | 23 |
 
 ## Traducciones DESCARTADAS por ser euskera (5)
 
@@ -41,7 +41,7 @@ No se publican. Si alguna era correcta de verdad, hay que anadirla a mano.
 - `frontoia -> pilota (a2/09-natura-kirola-aisia/03-kirolak)`
 - `igerilekua -> igeriketa (a2/09-natura-kirola-aisia/03-kirolak)`
 
-## Entradas con mas de dos traducciones (29)
+## Entradas con mas de dos traducciones (25)
 
 Puede ser polisemia legitima o mezcla de acepciones de lecciones distintas.
 
@@ -52,20 +52,17 @@ Puede ser polisemia legitima o mezcla de acepciones de lecciones distintas.
 - `bazkaria`: comida (la principal) / la comida (del mediodía) / comida del mediodía
 - `berria`: nuevo / nueva / nuevo/a
 - `berritsua`: parlanchín, hablador / hablador / charlatán/a
-- `betaurrekoduna`: con gafas / el de las gafas / que lleva gafas / con gafas
 - `bihar`: mañana (día siguiente) / mañana / mañana (futuro)
 - `egunero`: cada día / todos los días / todos los días / Cada día
 - `eguraldia`: El tiempo / el tiempo (meteorológico) / Eguraldia — el tiempo y la previsión
 - `gaur goizean`: hoy por la mañana / esta mañana / hoy por la mañana / esta mañana
 - `hartu`: tomar / coger / Toma / toma / coge / hartuko (cogerá) / coger (el teléfono)
 - `hitzordua`: cita (acuerdo de hora con alguien) / cita / la cita
-- `iloba`: sobrino/a (también "nieto/a" en algunos dialectos — el contexto decide) / sobrino/a / sobrino, sobrina
 - `isila`: callado / callado/silencioso / callado/a
 - `jatorra`: majo, simpático / maja, simpática / simpático / simpático/a, cercano / simpático/a (cercano) / simpático/a
 - `kafea`: el café (genérico) / el café / café
 - `lasai`: tranquilo (estado) / tranquilo (ahora) / tranquilo / tranquilo/a (cálmate) / tranquilo/a
 - `lasaia`: tranquilo / tranquila / tranquilo/a
-- `lodia`: gordo/a / gordo/gorda / gordo
 - `parkea`: parque / El parque / umeekin arratsaldea pasatzeko
 - `pintxoa`: pincho / tapa / pincho (tapa pequeña) / pincho
 - `pisua`: el piso (vivienda en un edificio) / el piso / Piso
@@ -73,7 +70,6 @@ Puede ser polisemia legitima o mezcla de acepciones de lecciones distintas.
 - `txartela`: tarjeta / El billete / La tarjeta
 - `txikia`: pequeño/pequeña / pequeño / pequeña / pequeño/a
 - `zaharra`: viejo/vieja / viejo / vieja / viejo/a / mayor
-- `zenbat balio du`: Zenbat balio du? Precios y cantidades / Preguntar precios (Zenbat balio du?) / ¿cuánto cuesta?
 
 ## Entradas sin audio ni ejemplo (86)
 

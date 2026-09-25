@@ -84,7 +84,8 @@ const minimo = minimoDescripcion(locale);
 // malla en los dos sentidos: la leccion lleva al diccionario y el diccionario a
 // la leccion. Solo en castellano, que es donde hay paginas por palabra.
 const delHiztegia = locale === LOCALE_ENTRADAS
-  ? (temasDe(locale).find((tema) => tema.unidad === `${levelCode}/${unitCode}`)?.palabras ?? []).slice(0, 12)
+  ? (temasDe(locale).find((tema) => tema.unidad === `${levelCode}/${unitCode}`)?.palabras ?? [])
+      .filter((p) => p.pagina).slice(0, 12)
   : [];
 const descripcion = descripcionDeLeccion(
   lesson.body,

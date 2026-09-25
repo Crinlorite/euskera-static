@@ -6,6 +6,9 @@ import { t } from '../../../i18n/ui';
 import { ajusta, minimoDescripcion } from '../../../lib/seo-texto.mjs';
 import { entradasDe, vecinas, LOCALE_ENTRADAS, type Entrada } from '../../../lib/hiztegia';
 
+// ⛔ SIN pronunciaciones (25-sep-2026): el audio por palabra esta pendiente de
+// revision humana. Los datos lo conservan; la pagina no lo pinta. El verificador
+// (regla V3) falla si vuelve a aparecer un boton de audio en el Hiztegia.
 export async function getStaticPaths() {
   // Solo el castellano tiene pagina por palabra: toda la demanda medida en
   // Search Console es en castellano, y generar las 1.424 en 18 idiomas se saldria
@@ -63,9 +66,6 @@ const descripcion = ajusta(
 
     <header class="cabecera">
       <h1 class="display">{entrada.hitza}</h1>
-      {entrada.audio && (
-        <button type="button" class="oir grande" data-audio={entrada.audio} aria-label={entrada.hitza}>▶</button>
-      )}
     </header>
 
     {principal && (
@@ -83,9 +83,6 @@ const descripcion = ajusta(
             <li>
               <p class="frase">
                 <em>{ej.texto}</em>
-                {ej.audio && (
-                  <button type="button" class="oir" data-audio={ej.audio} aria-label={ej.texto}>▶</button>
-                )}
               </p>
               {ej.traduccion && <p class="trad">{ej.traduccion}</p>}
             </li>
@@ -129,22 +126,6 @@ const descripcion = ajusta(
   </article>
 </RootLayout>
 
-<script>
-  let sonando: HTMLAudioElement | null = null;
-  const enchufa = () => {
-    document.querySelectorAll<HTMLButtonElement>('.oir[data-audio]').forEach((b) => {
-      if (b.dataset.listo) return;
-      b.dataset.listo = '1';
-      b.addEventListener('click', () => {
-        sonando?.pause();
-        sonando = new Audio(`/audio/eu/${b.dataset.audio}`);
-        sonando.play().catch(() => {});
-      });
-    });
-  };
-  enchufa();
-  document.addEventListener('astro:page-load', enchufa);
-</script>
 
 <style>
   .hitza { padding-block: var(--s-6); max-width: 720px; }
