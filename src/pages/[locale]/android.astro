@@ -3,8 +3,8 @@ import RootLayout from '../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 import { PLAY_STORE_URL } from '../../lib/appstore';
-import WebOnly from '../../components/platform/WebOnly.astro';
 
+import { ajusta, sinMarcado, minimoDescripcion } from '../../lib/seo-texto.mjs';
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
 }
@@ -12,16 +12,22 @@ export async function getStaticPaths() {
 const { locale } = Astro.params as { locale: LocaleCode };
 const GROUP = 'https://groups.google.com/g/crintechstudios';
 const OPTIN = 'https://play.google.com/apps/testing/pro.crintech.euskera.twa';
+const descripcion = ajusta(sinMarcado(t(locale, 'beta.live.d')), t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={t(locale, 'beta.title')}>
-  {/* La página ENTERA va marcada como promoción de otra plataforma: dentro del
-      envoltorio nativo de iOS (y de la PWA instalada) se oculta por completo.
-      Apple rechaza por la Guideline 2.3.10 cualquier mención a otra tienda
-      dentro de la app, y aquí hay una descarga de Google Play a pantalla
-      completa. Hoy no hay ningún enlace a esta página desde dentro de la app
-      —la píldora que llevaba aquí vive dentro de app-promo y ya no se pinta—,
-      así que esto es defensa en profundidad, no un parche a un agujero abierto. */}
-  <WebOnly>
+<RootLayout locale={locale} title={t(locale, 'beta.title')} description={descripcion}>
+  {/* Esta página promociona Google Play, así que dentro de la app de iOS no
+      puede verse: Apple rechaza por la Guideline 2.3.10 cualquier mención a
+      otra tienda. La barrera es la clase app-promo, que la regla global
+      .is-native-app .app-promo la oculta por completo.
+
+      🔴 NO usar <WebOnly> aquí. Lo estuvo del 30-ago al 7-sep-2026 y salió
+      caro: <WebOnly> emite dentro de un <template>, que ningún rastreador sin
+      JavaScript llega a ver, así que para ellos la página estaba VACÍA (cero
+      caracteres de texto) y Search Console la daba por desactualizada. La
+      diferencia con las insignias del pie o de la portada es que aquellas SÍ
+      viven en páginas que se abren dentro de la app; a esta no se llega desde
+      la app (la píldora que enlazaba aquí dejó de pintarse al publicar en
+      Google Play), así que le basta la clase. */}
   <article class="container prose app-promo">
     <div class="live">
       <h1>{t(locale, 'beta.live.t')}</h1>
@@ -64,8 +70,18 @@ const OPTIN = 'https://play.google.com/apps/testing/pro.crintech.euskera.twa';
     <p class="why" set:html={t(locale, 'beta.why')} />
     <p class="thanks">{t(locale, 'beta.thanks')}</p>
   </article>
-  </WebOnly>
 </RootLayout>
+
+<style is:inline>
+  /* 🔴 INLINE A PROPÓSITO, no por descuido. Esta es la única barrera que impide
+     que una página llena de Google Play se pinte dentro de la app de iOS, y
+     Apple rechaza por eso (Guideline 2.3.10). La misma regla existe en el
+     layout, pero acaba en una hoja de estilo EXTERNA: si esa hoja no llegara
+     —red mala, un bloqueo de IP como los que ya nos comimos—, la página se
+     pintaría igual y fallaríamos en ABIERTO. Inline viaja dentro del propio
+     HTML: si llega la página, llega la regla. */
+  .is-native-app .app-promo { display: none !important; }
+</style>
 
 <style>
   .prose { padding-block: var(--s-6); max-width: 760px; }

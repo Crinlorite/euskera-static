@@ -5,6 +5,8 @@ import UnitSidebar from '../../../../components/layout/UnitSidebar.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
 import { t } from '../../../../i18n/ui';
 
+import { ajusta, sinMarcado, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
+import { LOCKED_PATHS } from '../../../../lib/locked.mjs';
 export async function getStaticPaths() {
   const allUnits = await getCollection('units');
   return allUnits
@@ -38,8 +40,9 @@ const prevUnit = currentIdx > 0 ? sameLevelUnits[currentIdx - 1] : undefined;
 const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
   ? sameLevelUnits[currentIdx + 1]
   : undefined;
+const descripcion = ajusta(unit.data.description, t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
-<RootLayout locale={locale} title={unit.data.title}>
+<RootLayout locale={locale} title={unit.data.title} description={descripcion} noindex={LOCKED_PATHS.includes(levelCode)}>
   <article class="container-wide unit">
     <header class="unit-header stagger">
       <p class="eyebrow">

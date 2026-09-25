@@ -28,3 +28,4 @@ Thumbs.db
 
 # Estado local de wrangler pages dev (no es codigo)
 .wrangler/
+gsc-filas.json
