@@ -94,6 +94,18 @@
     }
   }
 
+  // Salida del muro. El muro tapa toda la pantalla, cabecera incluida, y dentro de
+  // la app no hay boton de atras del navegador: sin esto, quien tocaba un nivel
+  // alto se quedaba atrapado (lo cazo el jefe, 25-sep-2026; probable origen de la
+  // resena de una estrella en Play). Vuelve a la pagina anterior; si no hay
+  // historial (se abrio directo), a la portada del idioma.
+  // (No se mira document.referrer: las transiciones de pagina de Astro no lo
+  // actualizan, asi que entre paginas del sitio siempre parecia llegada directa.)
+  function volver() {
+    if (history.length > 1) history.back();
+    else location.href = `/${locale}/`;
+  }
+
   onMount(() => {
     mounted = true;
     check();
@@ -105,6 +117,9 @@
 {#if mounted && currentLockedPath}
   <div class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
     <div class="gate-card">
+      <button type="button" class="gate-back" on:click={volver}>
+        <span aria-hidden="true" class="icon-direction-aware">←</span> {t(locale, 'gate.back')}
+      </button>
       <p class="eyebrow">{t(locale, 'gate.eyebrow')}</p>
       <h2 id="gate-title" class="display gate-title">
         {@html tf(locale, 'gate.title', currentLockedPath.toUpperCase())}
@@ -149,6 +164,14 @@
 <style>
   /* Globalmente: cuando la página está bloqueada, el contenido principal se oculta */
   :global(body.gate-locked main) { visibility: hidden; }
+  .gate-back {
+    display: inline-flex; align-items: center; gap: 0.4em;
+    width: fit-content; align-self: flex-start; justify-self: start;
+    margin: 0 0 var(--s-4, 1rem); padding: 0.45em 0.9em;
+    background: none; border: 1px solid var(--c-border, #e4ded6); border-radius: 999px;
+    font: inherit; font-size: 0.9rem; color: var(--c-text, #1a1816); cursor: pointer;
+  }
+  .gate-back:hover { border-color: var(--c-text-muted, #8a8175); }
   .gate-reviewer {
     margin-top: var(--s-4, 1rem);
     background: none; border: 0; padding: 0; cursor: pointer;
