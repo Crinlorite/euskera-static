@@ -9,8 +9,9 @@ export async function getStaticPaths() {
 }
 
 const { locale } = Astro.params as { locale: LocaleCode };
+const descripcion = t(locale, 'site.description');
 ---
-<RootLayout locale={locale} title={t(locale, 'footer.feedback')}>
+<RootLayout locale={locale} title={t(locale, 'footer.feedback')} description={descripcion}>
   <section class="container feedback-hero fade-in">
     <p class="eyebrow">{t(locale, 'fbp.eyebrow')}</p>
     <h1 class="display" set:html={t(locale, 'fbp.title')} />
