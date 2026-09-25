@@ -20,6 +20,10 @@
   };
 
   let mounted = false;
+  // La contraseña es para revisores, no para quien llega a la app: con el campo a
+  // la vista, el muro parecía una app rota o de pago (reseña de ★1 en Play,
+  // 16-sep-2026). Queda detrás de un enlace discreto.
+  let mostrarClave = false;
   let currentLockedPath: string | null = null;
   let input = '';
   let error = '';
@@ -121,35 +125,41 @@
       <p class="gate-desc">
         {#if currentLockedPath === 'expedicion'}
           El modo expedición es una vista previa de la futura versión Steam. Todavía está en
-          fase de prototipo y no está disponible para acceso libre. Si tienes la contraseña
-          de revisión, introdúcela para continuar.
+          fase de prototipo: lo abriremos cuando esté listo.
         {:else}
           {t(locale, 'gate.desc')}
         {/if}
       </p>
 
-      <form on:submit={tryUnlock} class="gate-form">
-        <label for="gate-pwd" class="sr-only">{t(locale, 'gate.pwd.label')}</label>
-        <input
-          id="gate-pwd"
-          type="password"
-          bind:value={input}
-          placeholder={t(locale, 'gate.pwd.ph')}
-          autocomplete="off"
-          autocapitalize="off"
-          autocorrect="off"
-          spellcheck="false"
-          disabled={busy}
-        />
-        <button class="btn btn-primary" type="submit" disabled={busy}>
-          {busy ? t(locale, 'gate.checking') : t(locale, 'gate.unlock')}
-        </button>
-      </form>
-      {#if error}
-        <p class="gate-error" role="alert">{error}</p>
-      {/if}
-
       <p class="gate-foot">{@html tf(locale, 'gate.foot', locale)}</p>
+
+      {#if mostrarClave || error}
+        <form on:submit={tryUnlock} class="gate-form">
+          <label for="gate-pwd" class="sr-only">{t(locale, 'gate.pwd.label')}</label>
+          <input
+            id="gate-pwd"
+            type="password"
+            bind:value={input}
+            placeholder={t(locale, 'gate.pwd.ph')}
+            autocomplete="off"
+            autocapitalize="off"
+            autocorrect="off"
+            spellcheck="false"
+            disabled={busy}
+          />
+          <button class="btn btn-primary" type="submit" disabled={busy}>
+            {busy ? t(locale, 'gate.checking') : t(locale, 'gate.unlock')}
+          </button>
+        </form>
+        {#if error}
+          <p class="gate-error" role="alert">{error}</p>
+        {/if}
+
+      {:else}
+        <button type="button" class="gate-reviewer" on:click={() => (mostrarClave = true)}>
+          {t(locale, 'gate.reviewer')}
+        </button>
+      {/if}
     </div>
   </div>
 {/if}
@@ -157,6 +167,11 @@
 <style>
   /* Globalmente: cuando la página está bloqueada, el contenido principal se oculta */
   :global(body.gate-locked main) { visibility: hidden; }
+  .gate-reviewer {
+    margin-top: var(--s-4, 1rem);
+    background: none; border: 0; padding: 0; cursor: pointer;
+    font-size: 0.8rem; color: var(--c-text-muted, #8a8175); text-decoration: underline;
+  }
   :global(body.gate-locked .site-footer) { visibility: hidden; }
 
   .gate {
