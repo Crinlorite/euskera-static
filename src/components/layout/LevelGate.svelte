@@ -10,14 +10,6 @@
   // sin supervisión humana llegue a contenido aún no validado.
   const STORAGE_PREFIX = 'euskera-static.gate.';
 
-  const LABEL_OVERRIDES: Record<string, { eyebrow: string; titlePre: string; titleHi: string; titlePost: string }> = {
-    expedicion: {
-      eyebrow: 'Modo expedición',
-      titlePre: 'Una expedición ',
-      titleHi: 'en preparación',
-      titlePost: '',
-    },
-  };
 
   let mounted = false;
   // La contraseña es para revisores, no para quien llega a la app: con el campo a
@@ -108,27 +100,17 @@
     document.addEventListener('astro:page-load', check);
   });
 
-  $: override = currentLockedPath ? LABEL_OVERRIDES[currentLockedPath] : null;
 </script>
 
 {#if mounted && currentLockedPath}
   <div class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
     <div class="gate-card">
-      <p class="eyebrow">{override?.eyebrow ?? t(locale, 'gate.eyebrow')}</p>
+      <p class="eyebrow">{t(locale, 'gate.eyebrow')}</p>
       <h2 id="gate-title" class="display gate-title">
-        {#if override}
-          {override.titlePre}<span class="text-grad">{override.titleHi}</span>{override.titlePost}
-        {:else}
-          {@html tf(locale, 'gate.title', currentLockedPath.toUpperCase())}
-        {/if}
+        {@html tf(locale, 'gate.title', currentLockedPath.toUpperCase())}
       </h2>
       <p class="gate-desc">
-        {#if currentLockedPath === 'expedicion'}
-          El modo expedición es una vista previa de la futura versión Steam. Todavía está en
-          fase de prototipo: lo abriremos cuando esté listo.
-        {:else}
-          {t(locale, 'gate.desc')}
-        {/if}
+        {t(locale, 'gate.desc')}
       </p>
 
       <p class="gate-foot">{@html tf(locale, 'gate.foot', locale)}</p>

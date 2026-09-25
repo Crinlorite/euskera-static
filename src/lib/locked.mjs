@@ -10,7 +10,7 @@
  * las unidades es/ega/* huerfanas aun generan paginas y sin esto quedarian
  * abiertas.
  */
-export const LOCKED_PATHS = ['b1', 'b2', 'c1', 'c2', 'ega', 'expedicion'];
+export const LOCKED_PATHS = ['b1', 'b2', 'c1', 'c2', 'ega'];
 
 /** ¿Esta ruta (con o sin prefijo de idioma) cae detras del candado? */
 export function estaBloqueada(pathname) {

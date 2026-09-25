@@ -202,11 +202,20 @@ for (const f of paginas) {
 }
 
 // R1: ninguna ruta que existia el 7-sep-2026 puede desaparecer sin querer.
+// Una ruta solo puede desaparecer si se retira A PROPOSITO, apuntandola en
+// rutas-retiradas.txt con el motivo. Y una ruta retirada no puede reaparecer.
 const instantanea = 'tests/fixtures/rutas-2026-09-07.txt';
+const retiradasF = 'tests/fixtures/rutas-retiradas.txt';
+const retiradas = new Set(existsSync(retiradasF)
+  ? readFileSync(retiradasF, 'utf8').split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'))
+  : []);
 if (existsSync(instantanea)) {
   const ahora = new Set(paginas.map(rutaDe));
   for (const r of readFileSync(instantanea, 'utf8').split('\n').filter(Boolean)) {
-    if (!ahora.has(r)) falla('R1', `${r} ha desaparecido del build`);
+    if (!ahora.has(r) && !retiradas.has(r)) falla('R1', `${r} ha desaparecido del build`);
+  }
+  for (const r of retiradas) {
+    if (ahora.has(r)) falla('R2', `${r} esta retirada y ha vuelto a aparecer`);
   }
 }
 
@@ -235,7 +244,8 @@ const REGLAS = {
   D3: 'la descripcion no lleva marcado',
   D4: 'la descripcion no es el titulo',
   D5: 'las paginas de contenido no repiten descripcion dentro de su idioma',
-  R1: 'no ha desaparecido ninguna ruta',
+  R1: 'no ha desaparecido ninguna ruta sin retirarla a proposito',
+  R2: 'ninguna ruta retirada ha vuelto a aparecer',
   N1: 'las paginas bajo candado llevan noindex, y solo ellas',
   N2: 'el sitemap no anuncia lo que esta bajo candado',
   V1: 'toda entrada del hiztegia trae su traduccion',
