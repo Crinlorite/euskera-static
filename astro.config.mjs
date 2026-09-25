@@ -18,7 +18,7 @@ export default defineConfig({
   },
   integrations: [
     svelte(),
-    // Los niveles bajo candado (B1-C2, EGA y el modo expedicion) no se ofrecen
+    // Los niveles bajo candado (B1-C2 y EGA) no se ofrecen
     // a Google: son contenido sin validar y quien llegue desde una busqueda se
     // encuentra una pantalla de contrasena. Las paginas se siguen generando;
     // solo dejan de anunciarse, y ademas llevan noindex (ver RootLayout).

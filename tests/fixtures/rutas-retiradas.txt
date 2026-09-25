@@ -1,0 +1,24 @@
+# Rutas retiradas A PROPÓSITO. El verificador (R1) acepta que falten de la
+# instantánea solo si están aquí, y (R2) falla si alguna vuelve a aparecer.
+#
+# 25-sep-2026 — Modo Expedición: nunca se abrió al público; su futuro es el modo
+# historia de Kaixo Jolas. Guardado en la etiqueta git 'expedicion-prototipo' y
+# en kaixo-jolas/referencia/expedicion-web/. Redirige a la portada (_redirects).
+an/expedicion/
+ar/expedicion/
+ast/expedicion/
+ca/expedicion/
+de/expedicion/
+en/expedicion/
+es/expedicion/
+fr/expedicion/
+gl/expedicion/
+it/expedicion/
+ja/expedicion/
+ko/expedicion/
+oc/expedicion/
+pl/expedicion/
+pt-BR/expedicion/
+ro/expedicion/
+ru/expedicion/
+zh-Hans/expedicion/
