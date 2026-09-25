@@ -300,8 +300,13 @@ function extrae(locale) {
  */
 const publicable = (e) =>
   e.traducciones.length > 0 &&
-  (e.audio || e.ejemplos.length > 0 || e.lecciones.length >= 2 ||
+  (e.ejemplos.length > 0 || e.lecciones.length >= 2 ||
    e.traducciones.some((t) => t.fuente === 'leccion'));
+// ⛔ El audio NO cuenta para el umbral (25-sep-2026): las pronunciaciones por
+// palabra estan pendientes de revision y el Hiztegia sale SIN ellas. Con el audio
+// como motivo, 730 de 1.401 entradas tenian pagina propia solo por el; sin el se
+// quedaban en palabra + traduccion + enlace, justo las paginas delgadas que Google
+// castiga. Esas palabras siguen en las listas por tema, sin pagina propia.
 
 mkdirSync(SALIDA, { recursive: true });
 const informe = [];
@@ -353,15 +358,20 @@ for (const locale of LOCALES) {
   // por palabra (toda la demanda medida en Search Console es en castellano) y
   // guardar los 18 completos pesaba 9,5 MB en el repo. Los demas idiomas solo
   // necesitan sus listas por tema, con la palabra, su traduccion y si tiene voz.
-  const porSlug2 = new Map(finales.map((e) => [e.slug, e]));
-  const temasRicos = temas.map((u) => ({
-    unidad: u.unidad,
-    titulo: u.titulo,
-    palabras: u.palabras.map((slug) => {
-      const e = porSlug2.get(slug);
-      return e ? { hitza: e.hitza, slug, tr: e.traducciones[0]?.texto ?? '', audio: e.audio } : null;
-    }).filter(Boolean),
-  }));
+  // Las listas por tema llevan TODAS las palabras con traduccion valida, tengan
+  // pagina propia o no; `pagina` dice si se puede enlazar.
+  const conPagina = new Set(finales.map((e) => e.slug));
+  const temasRicos = [...porUnidad.values()].sort((a, b) => a.unidad.localeCompare(b.unidad)).map((u) => {
+    const vistos = new Set();
+    const palabras = [];
+    for (const clave of u.palabras) {
+      const e = entradas.get(clave);
+      if (!e || !e.traducciones.length || vistos.has(e.slug)) continue;
+      vistos.add(e.slug);
+      palabras.push({ hitza: e.hitza, slug: e.slug, tr: e.traducciones[0].texto, pagina: conPagina.has(e.slug) });
+    }
+    return { unidad: u.unidad, titulo: u.titulo, palabras };
+  }).filter((t) => t.palabras.length);
   writeFileSync(join(SALIDA, `${locale}.json`), JSON.stringify(
     locale === 'es'
       ? { locale, generado: HOY, entradas: finales, temas: temasRicos }
