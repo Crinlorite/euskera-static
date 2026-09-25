@@ -23,7 +23,7 @@ export const POR_DEFECTO = 'es';
  */
 export const RUTAS_FIJAS = [
   '', 'sobre/', 'privacidad/', 'progreso/', 'android/', 'idioma/',
-  'feedback/', 'expedicion/', 'a1/simulakroa/', 'a1/mintzamena/',
+  'feedback/', 'a1/simulakroa/', 'a1/mintzamena/',
 ];
 
 /** `/an/a1/09-mi-casa/` -> { locale: 'an', ruta: 'a1/09-mi-casa/' }. */
