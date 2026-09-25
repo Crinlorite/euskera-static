@@ -9,7 +9,7 @@ const ficheros = new Set(Object.values(audio));
 test('cada entrada tiene traduccion y cumple el umbral', () => {
   for (const e of es.entradas) {
     assert.ok(e.traducciones.length > 0, `${e.slug} sin traduccion`);
-    const vale = e.audio || e.ejemplos.length > 0 || e.lecciones.length >= 2
+    const vale = e.ejemplos.length > 0 || e.lecciones.length >= 2
       || e.traducciones.some((t) => t.fuente === 'leccion');
     assert.ok(vale, `${e.slug} no cumple el umbral: seria una pagina vacia`);
   }
@@ -63,7 +63,7 @@ test('los temas apuntan a palabras que existen', () => {
   for (const tema of es.temas) {
     assert.ok(tema.palabras.length > 0, `${tema.unidad} sin palabras`);
     for (const p of tema.palabras) {
-      assert.ok(slugs.has(p.slug), `${tema.unidad}: ${p.slug} no es una entrada`);
+      if (p.pagina) assert.ok(slugs.has(p.slug), `${tema.unidad}: ${p.slug} dice tener pagina y no es una entrada`);
       assert.ok(p.tr, `${tema.unidad}/${p.slug} sin traduccion`);
     }
   }

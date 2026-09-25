@@ -161,10 +161,13 @@ for (const f of paginas) {
   // sin palabras darian exactamente las paginas delgadas que Google castiga.
   if (/^[\w-]+\/hiztegia\/[^/]+\/$/.test(rel) && !rel.includes('/gaiak/')) {
     if (!/class="principal"/.test(html)) falla('V1', `${rel} sin traduccion visible`);
-    const tieneAlgo = /class="ejemplos"/.test(html) || /class="lista-lecciones"/.test(html)
-      || /class="oir grande"/.test(html);
+    const tieneAlgo = /class="ejemplos"/.test(html) || /class="lista-lecciones"/.test(html);
     if (!tieneAlgo) falla('V2', `${rel} no ofrece nada: ni ejemplo, ni leccion, ni audio`);
     if (!/class="badge-beta"/.test(html)) falla('V2', `${rel} sin el aviso de beta`);
+  }
+  // V3: el Hiztegia sale SIN pronunciaciones hasta que se revisen (25-sep-2026).
+  if (/^[\w-]+\/hiztegia\//.test(rel) && /data-audio=|class="oir/.test(html)) {
+    falla('V3', `${rel} lleva un boton de audio y las pronunciaciones no estan revisadas`);
   }
   if (/\/hiztegia\/gaiak\/[^/]+\/$/.test(rel)) {
     const filas = (html.match(/<tr[\s>]/g) ?? []).length;
@@ -237,6 +240,7 @@ const REGLAS = {
   N2: 'el sitemap no anuncia lo que esta bajo candado',
   V1: 'toda entrada del hiztegia trae su traduccion',
   V2: 'ninguna pagina del hiztegia es un cascaron, y todas avisan de que estan en beta',
+  V3: 'el hiztegia no lleva pronunciaciones hasta que se revisen',
   A1: 'la pagina de Android es legible sin JavaScript y conserva su barrera 2.3.10',
 };
 
