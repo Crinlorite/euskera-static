@@ -83,6 +83,8 @@ const normal = (s) => s.normalize('NFC').replace(/\s+/g, ' ').trim().toLowerCase
 const claveAudio = new Map(Object.keys(audio).map((k) => [normal(k), audio[k]]));
 
 const limpiaCelda = (s) => s.replace(/[*_`]/g, '').replace(/<[^>]+>/g, '').trim();
+// Cabecera comparable: "Castellano (literal)" cuenta como "castellano".
+const etiqueta = (c) => normal(limpiaCelda(c)).replace(/\s*\([^)]*\)$/, '');
 
 /** Convierte "02-ile-eta-begiak" en un slug de URL a partir de la palabra. */
 export function aSlug(s) {
@@ -125,7 +127,7 @@ function deTablas(cuerpo, locale) {
   const lineas = cuerpo.split('\n');
   for (let i = 0; i < lineas.length - 1; i++) {
     if (!/^\s*\|/.test(lineas[i]) || !/^\s*\|[\s:-]+\|/.test(lineas[i + 1] ?? '')) continue;
-    const cab = lineas[i].split('|').slice(1, -1).map((c) => normal(limpiaCelda(c)));
+    const cab = lineas[i].split('|').slice(1, -1).map(etiqueta);
     const cEu = cab.findIndex((c) => ETIQUETAS_EU.has(c));
     const cTr = cab.findIndex((c) => etiquetasTr.has(c));
     if (cEu < 0 || cTr < 0 || cEu === cTr) continue;
@@ -177,8 +179,8 @@ function deSlug(codigo, titulo) {
   return { eu: hitza, tr: titulo, fuente: 'leccion' };
 }
 
-/** Frases de ejemplo: huecos de fill-in-blank ya rellenos y prompts. */
-function frasesDe(front, cuerpo) {
+/** Frases de ejemplo: huecos de fill-in-blank ya rellenos, prompts y prosa. */
+function frasesDe(front, cuerpo, locale) {
   const frases = [];
   for (const m of front.matchAll(/prompt:\s*["']?(.+?)["']?\s*\n(?:[^\n]*\n)*?\s*answers:\s*\[([^\]]+)\]/g)) {
     const hueco = m[2].split(',')[0].trim().replace(/^["']|["']$/g, '');
@@ -191,12 +193,40 @@ function frasesDe(front, cuerpo) {
     else if (/significa|\?|\u2026/.test(frase)) continue;
     frases.push({ texto: frase, fuente: 'ejercicio' });
   }
-  // Expresiones de tres columnas (euskera / traduccion / cuando se usa).
-  for (const l of cuerpo.split('\n')) {
-    if (!/^\s*\|/.test(l)) continue;
-    const cel = l.split('|').slice(1, -1).map(limpiaCelda);
-    if (cel.length >= 2 && cel[0] && cel[0].split(' ').length >= 2 && !/^[-: ]+$/.test(cel[0])) {
-      frases.push({ texto: cel[0], traduccion: cel[1], fuente: 'tabla' });
+  // Frases de la explicacion con su traduccion al lado, escritas a mano en la
+  // leccion: "> *Duela hamar urte ikaskideak **ginen**.* — Hace diez anos...".
+  // Convencion del repo: el euskera va en cursiva y la traduccion tras la raya.
+  for (let l of cuerpo.split('\n')) {
+    l = l.replace(/\*\*/g, '').replace(/^\s*(?:>\s*)*(?:[-+]\s+|\d+[.)]\s+)?/, '').trim();
+    const m = l.match(/^\*([^*]+)\*\s*(?:—|–|→|=)\s*(.+)$/);
+    if (!m) continue;
+    const eu = m[1].trim().replace(/^—\s*/, '').replace(/^[«"“]|[»"”]$/g, '').trim();
+    const tr = m[2]
+      .replace(/\s*\([^)]*\)\s*$/, '')                  // comentario final entre parentesis
+      .replace(/[\p{Extended_Pictographic}️]/gu, '')
+      .trim().replace(/^[«"“]|[»"”]$/g, '').trim();
+    if (eu.split(/\s+/).length < 2 || /_|\.\.\.|…$/.test(eu)) continue;
+    if (/\*/.test(tr) || tr.length < 3 || tr.length > 120 || /\.\.\.$/.test(tr)) continue;
+    frases.push({ texto: eu, traduccion: tr, fuente: 'prosa' });
+  }
+  // Expresiones de tabla (euskera / traduccion / ...). Con la misma cabecera
+  // exigida que deTablas: sin ella salian pares al reves ("Fregar los platos"
+  // como frase vasca) o euskera traducido a euskera (pisukideak -> pisukideekin).
+  const etiquetasTr = new Set(ETIQUETAS_TR[locale] ?? []);
+  const lineas = cuerpo.split('\n');
+  for (let i = 0; i < lineas.length - 1; i++) {
+    if (!/^\s*\|/.test(lineas[i]) || !/^\s*\|[\s:-]+\|/.test(lineas[i + 1] ?? '')) continue;
+    const cab = lineas[i].split('|').slice(1, -1).map(etiqueta);
+    const cEu = cab.findIndex((c) => ETIQUETAS_EU.has(c));
+    const cTr = cab.findIndex((c) => etiquetasTr.has(c));
+    i += 1;
+    if (cEu < 0 || cTr < 0 || cEu === cTr) continue;
+    for (let j = i + 1; j < lineas.length && /^\s*\|/.test(lineas[j]); j++) {
+      const cel = lineas[j].split('|').slice(1, -1).map(limpiaCelda);
+      const eu = cel[cEu];
+      if (eu && eu.split(' ').length >= 2 && cel[cTr]) {
+        frases.push({ texto: eu, traduccion: cel[cTr], fuente: 'tabla' });
+      }
     }
   }
   return frases;
@@ -227,7 +257,7 @@ function extrae(locale) {
         const [front, cuerpo] = frontmatterYCuerpo(texto);
         const titulo = (front.match(/^title:\s*(.+)$/m)?.[1] ?? '').trim().replace(/^["']|["']$/g, '');
 
-        for (const f of frasesDe(front, cuerpo)) frasesGlobales.push({ ...f, leccion: ruta });
+        for (const f of frasesDe(front, cuerpo, locale)) frasesGlobales.push({ ...f, leccion: ruta });
 
         const codigo = (front.match(/^code:\s*(.+)$/m)?.[1] ?? '').trim().replace(/^["']|["']$/g, '');
         const delSlug = deSlug(codigo, titulo);
@@ -263,16 +293,25 @@ function extrae(locale) {
   }
 
   // Ejemplos de uso: frases REALES que contienen la palabra. Prioridad: las que
-  // tienen voz grabada, luego las de ejercicio, luego las de tabla.
+  // traen traduccion escrita en la leccion, luego las de voz grabada (la voz no
+  // se publica, pero la frase es buena), luego ejercicio y tabla.
   const grabadas = Object.keys(audio).filter((k) => k.split(' ').length >= 2)
     .map((k) => ({ texto: k, fuente: 'audio', audio: audio[k] }));
   const todas = [...grabadas, ...frasesGlobales];
-  const orden = { audio: 0, ejercicio: 1, tabla: 2 };
+  const orden = { prosa: 0, audio: 1, ejercicio: 2, tabla: 3 };
   for (const e of entradas.values()) {
-    const re = new RegExp(`(?<![\\p{L}\\p{N}-])${e.hitza.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}\\p{N}-])`, 'iu');
+    const esc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(`(?<![\\p{L}\\p{N}-])${esc(e.hitza)}(?![\\p{L}\\p{N}-])`, 'iu');
+    // El euskera declina pegado a la palabra: ikaskidea -> ikaskideak,
+    // ikaskideekin. Se acepta la raiz sin el articulo final y hasta seis letras
+    // de sufijo, solo si la raiz es larga (>= 5) para no pescar a ciegas.
+    const raiz = e.hitza.replace(/(?:a|ak)$/i, '');
+    const reRaiz = raiz !== e.hitza && raiz.replace(/\s/g, '').length >= 5
+      ? new RegExp(`(?<![\\p{L}\\p{N}-])${esc(raiz)}\\p{L}{0,6}(?![\\p{L}\\p{N}-])`, 'iu') : null;
+    const peso = (f) => orden[f.fuente] * 2 + (re.test(f.texto) ? 0 : 1);
     const encajan = todas
-      .filter((f) => re.test(f.texto) && normal(f.texto) !== normal(e.hitza))
-      .sort((a, b) => orden[a.fuente] - orden[b.fuente]);
+      .filter((f) => (re.test(f.texto) || reRaiz?.test(f.texto)) && normal(f.texto) !== normal(e.hitza))
+      .sort((a, b) => peso(a) - peso(b));
     const vistos = new Set();
     for (const f of encajan) {
       const k = normal(f.texto);
@@ -301,7 +340,15 @@ function extrae(locale) {
 const publicable = (e) =>
   e.traducciones.length > 0 &&
   (e.ejemplos.length > 0 || e.lecciones.length >= 2 ||
-   e.traducciones.some((t) => t.fuente === 'leccion'));
+   e.traducciones.some((t) => t.fuente === 'leccion') || yaPublicadas.has(e.slug));
+
+// Una entrada ya publicada no se despublica porque el extractor afine sus
+// reglas: su URL esta indexada. Sale de las instantaneas de rutas (R1).
+const yaPublicadas = new Set(readdirSync('tests/fixtures')
+  .filter((f) => /^rutas-\d{4}-\d{2}-\d{2}\.txt$/.test(f))
+  .flatMap((f) => readFileSync(join('tests/fixtures', f), 'utf8').split('\n'))
+  .map((r) => r.match(/^es\/hiztegia\/([^/]+)\/$/)?.[1])
+  .filter((s) => s && s !== 'gaiak'));
 // ⛔ El audio NO cuenta para el umbral (25-sep-2026): las pronunciaciones por
 // palabra estan pendientes de revision y el Hiztegia sale SIN ellas. Con el audio
 // como motivo, 730 de 1.401 entradas tenian pagina propia solo por el; sin el se

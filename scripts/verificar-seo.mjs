@@ -201,17 +201,20 @@ for (const f of paginas) {
   }
 }
 
-// R1: ninguna ruta que existia el 7-sep-2026 puede desaparecer sin querer.
+// R1: ninguna ruta de una instantanea (tests/fixtures/rutas-AAAA-MM-DD.txt)
+// puede desaparecer sin querer. La del 29-sep incluye el Hiztegia.
 // Una ruta solo puede desaparecer si se retira A PROPOSITO, apuntandola en
 // rutas-retiradas.txt con el motivo. Y una ruta retirada no puede reaparecer.
-const instantanea = 'tests/fixtures/rutas-2026-09-07.txt';
+const instantaneas = readdirSync('tests/fixtures')
+  .filter((f) => /^rutas-\d{4}-\d{2}-\d{2}\.txt$/.test(f)).map((f) => `tests/fixtures/${f}`);
 const retiradasF = 'tests/fixtures/rutas-retiradas.txt';
 const retiradas = new Set(existsSync(retiradasF)
   ? readFileSync(retiradasF, 'utf8').split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'))
   : []);
-if (existsSync(instantanea)) {
+if (instantaneas.length) {
   const ahora = new Set(paginas.map(rutaDe));
-  for (const r of readFileSync(instantanea, 'utf8').split('\n').filter(Boolean)) {
+  const antes = new Set(instantaneas.flatMap((f) => readFileSync(f, 'utf8').split('\n').filter(Boolean)));
+  for (const r of antes) {
     if (!ahora.has(r) && !retiradas.has(r)) falla('R1', `${r} ha desaparecido del build`);
   }
   for (const r of retiradas) {
