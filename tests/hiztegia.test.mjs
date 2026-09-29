@@ -1,16 +1,24 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 
 const es = JSON.parse(readFileSync(new URL('../src/data/hiztegia/es.json', import.meta.url), 'utf8'));
 const audio = JSON.parse(readFileSync(new URL('../src/data/audio-eu.json', import.meta.url), 'utf8'));
 const ficheros = new Set(Object.values(audio));
 
+// Entradas ya publicadas (instantaneas de rutas): se quedan aunque el
+// extractor afine y pierdan un ejemplo que era falso. Su URL esta indexada.
+const fixtures = new URL('./fixtures/', import.meta.url);
+const yaPublicadas = new Set(readdirSync(fixtures)
+  .filter((f) => /^rutas-\d{4}-\d{2}-\d{2}\.txt$/.test(f))
+  .flatMap((f) => readFileSync(new URL(f, fixtures), 'utf8').split('\n'))
+  .map((r) => r.match(/^es\/hiztegia\/([^/]+)\/$/)?.[1]).filter(Boolean));
+
 test('cada entrada tiene traduccion y cumple el umbral', () => {
   for (const e of es.entradas) {
     assert.ok(e.traducciones.length > 0, `${e.slug} sin traduccion`);
     const vale = e.ejemplos.length > 0 || e.lecciones.length >= 2
-      || e.traducciones.some((t) => t.fuente === 'leccion');
+      || e.traducciones.some((t) => t.fuente === 'leccion') || yaPublicadas.has(e.slug);
     assert.ok(vale, `${e.slug} no cumple el umbral: seria una pagina vacia`);
   }
 });
@@ -77,4 +85,20 @@ test('los 18 idiomas tienen sus temas', () => {
     assert.ok(d.temas.length >= 20, `${l}: solo ${d.temas.length} temas`);
     assert.equal(l === 'es', Boolean(d.entradas), `${l}: solo el castellano lleva entradas`);
   }
+});
+
+test('los ejemplos de prosa traen traduccion y no arrastran marcado', () => {
+  const ikaskidea = es.entradas.find((e) => e.slug === 'ikaskidea');
+  assert.ok(ikaskidea?.ejemplos.some((x) => x.texto === 'Duela hamar urte ikaskideak ginen.'
+    && x.traduccion === 'Hace diez años éramos compañeros de clase.'), 'ikaskidea sin su frase de la leccion');
+  for (const e of es.entradas) {
+    for (const x of e.ejemplos) {
+      assert.ok(!/[*`|<>_]/.test(x.texto + (x.traduccion ?? '')), `${e.slug}: marcado en "${x.texto}"`);
+    }
+  }
+});
+
+test('ninguna tabla da euskera traducido a euskera', () => {
+  const pisu = es.entradas.find((e) => e.slug === 'pisukidea');
+  assert.ok(!pisu?.ejemplos.some((x) => x.traduccion === 'pisukideekin'));
 });
