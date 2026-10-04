@@ -6,7 +6,8 @@
     type ProgressV1,
   } from '../../stores/progress';
   import { t } from '../../i18n/ui';
-  import { shareProgress, canRequestReview, canCloudSync, isCloudSyncEnabled, setCloudSync } from '../../lib/platform';
+  import { shareProgress, canRequestReview, canCloudSync, isCloudSyncEnabled, setCloudSync, nativePlatform } from '../../lib/platform';
+  import { URL_VALORAR_ANDROID } from '../../lib/migrar.mjs';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
@@ -17,7 +18,7 @@
   let importValue = '';
   let banner = '';
   let modalMode: 'none' | 'export' | 'import' = 'none';
-  // Fila de valoración: solo si el binario nativo puede abrir la App Store
+  // Fila de valoración: solo si el binario nativo puede abrir su tienda
   // de verdad (misma versión que trae `requestReview`). Con el binario
   // viejo el enlace acabaría en una ficha web sin formulario → no se
   // muestra. En navegador tampoco. Se resuelve en cliente (onMount).
@@ -27,11 +28,14 @@
   // una decisión suya y se puede revocar (al apagarlo el nativo borra la copia).
   let showSync = false;
   let syncOn = false;
-  // Tienda del idioma del lector: sin país, Apple manda a la de EE. UU.
-  $: RATE_URL = appStoreReviewUrl(locale);
+  // Cada app valora en SU tienda. iOS: la del idioma del lector (sin país, Apple
+  // manda a la de EE. UU.). Android: la ficha de Play, abierta por la tienda.
+  let enAndroid = false;
+  $: RATE_URL = enAndroid ? URL_VALORAR_ANDROID : appStoreReviewUrl(locale);
 
   onMount(async () => {
     showRate = canRequestReview();
+    enAndroid = nativePlatform() === 'android';
     showSync = canCloudSync();
     syncOn = isCloudSyncEnabled();
     if (!isStorageAvailable()) {
