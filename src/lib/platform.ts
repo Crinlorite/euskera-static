@@ -24,8 +24,11 @@ declare global { interface Window { Kaixo?: KaixoBridge } }
 const bridge = (): KaixoBridge | undefined =>
   typeof window !== 'undefined' ? window.Kaixo : undefined;
 
-/** True si corre dentro de un wrapper nativo (iOS o, en el futuro, Android). */
+/** True si corre dentro de la app (iOS, o Android desde la 2.0). */
 export const isNative = (): boolean => !!bridge()?.platform;
+
+/** 'ios' o 'android' dentro de la app; undefined en un navegador. */
+export const nativePlatform = (): string | undefined => bridge()?.platform;
 
 /** True si se puede pronunciar (puente nativo o SpeechSynthesis del navegador). */
 export const canSpeak = (): boolean =>

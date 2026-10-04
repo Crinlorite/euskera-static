@@ -17,3 +17,20 @@ export function estaBloqueada(pathname) {
   const seg = pathname.replace(/^\/+/, '').split('/');
   return LOCKED_PATHS.includes(seg[0]) || LOCKED_PATHS.includes(seg[1]);
 }
+
+/**
+ * Paginas de servicio: existen para que la app haga algo (p. ej. traer el
+ * progreso de la TWA al contenedor nuevo de Android), no para leerse. No estan
+ * bajo candado, pero tampoco se ofrecen a Google ni salen en el sitemap.
+ */
+export const SERVICE_PATHS = ['app'];
+
+/** ¿Es una pagina de servicio? Nunca llevan prefijo de idioma. */
+export function esDeServicio(pathname) {
+  return SERVICE_PATHS.includes(pathname.replace(/^\/+/, '').split('/')[0]);
+}
+
+/** Lo que no debe indexarse ni anunciarse, por un motivo o por otro. */
+export function fueraDeBuscadores(pathname) {
+  return estaBloqueada(pathname) || esDeServicio(pathname);
+}
