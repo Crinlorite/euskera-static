@@ -3,7 +3,9 @@ import RootLayout from '../../../layouts/RootLayout.astro';
 import { getCollection } from 'astro:content';
 import type { LocaleCode } from '../../../i18n/config';
 import { t } from '../../../i18n/ui';
-import { ajusta, minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { cortaDe, grupoSeo, tituloEntrada, descripcionEntrada, migas } from '../../../lib/hiztegia-seo.mjs';
+import { SITIO } from '../../../lib/alternates-puro.mjs';
 import { entradasDe, vecinas, LOCALE_ENTRADAS, type Entrada } from '../../../lib/hiztegia';
 
 // ⛔ SIN pronunciaciones (25-sep-2026): el audio por palabra esta pendiente de
@@ -35,29 +37,25 @@ const leccionesDe = entrada.lecciones.map((ruta) => {
 });
 
 const principal = entrada.traducciones[0]?.texto ?? '';
-// Para el titulo y la descripcion, la traduccion mas corta SIN parentesis:
-// "hitzordua - cita en euskera" se lee; "cita (acuerdo de hora con alguien)"
-// se come el titulo y Google lo corta a la mitad.
-const corta = [...entrada.traducciones.map((tr) => tr.texto)]
-  .filter((x) => x && !/[(),/]/.test(x))
-  .sort((a, b) => a.length - b.length)[0] ?? principal.replace(/\s*\([^)]*\)/g, '').trim();
+const corta = cortaDe(entrada.traducciones);
 const otras = entrada.traducciones.slice(1);
 const relacionadas = vecinas(locale, entrada);
 
 // El titulo sirve a las dos formas de buscar lo mismo: "altzariak traduccion"
-// y "muebles en euskera". Las dos salen en Search Console.
-const titulo = corta
-  ? `${entrada.hitza} — ${corta.toLowerCase()} en euskera`
-  : entrada.hitza;
-
-const descripcion = ajusta(
-  principal
-    ? `${entrada.hitza} significa «${principal}» en euskera. ${entrada.ejemplos.length ? 'Con ejemplo de uso real y' : 'Con'} la lección donde se aprende, del curso gratuito de Kaixo.`
-    : `${entrada.hitza}, vocabulario del curso de euskera de Kaixo.`,
-  t(locale, 'site.description'), minimoDescripcion(locale),
-);
+// y "muebles en euskera". Las dos salen en Search Console. El texto exacto sale
+// de hiztegia-seo.mjs, que lleva la prueba A/B del 4-oct-2026.
+const grupo = grupoSeo(entrada.slug);
+const titulo = tituloEntrada({ hitza: entrada.hitza, corta, ejemplos: entrada.ejemplos, grupo });
+const descripcion = descripcionEntrada({
+  hitza: entrada.hitza, principal, corta, ejemplos: entrada.ejemplos, grupo,
+  respaldo: t(locale, 'site.description'), minimo: minimoDescripcion(locale),
+});
+const jsonMigas = JSON.stringify(migas({
+  sitio: SITIO, locale, hitza: entrada.hitza, slug: entrada.slug, hiztegia: t(locale, 'hiz.title'),
+}));
 ---
 <RootLayout locale={locale} title={titulo} description={descripcion}>
+  <script type="application/ld+json" is:inline set:html={jsonMigas} />
   <article class="container hitza">
     <p class="eyebrow">
       <a href={`/${locale}/hiztegia/`}>← {t(locale, 'hiz.title')}</a>
