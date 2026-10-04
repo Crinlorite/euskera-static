@@ -1,0 +1,97 @@
+---
+/**
+ * Pagina de servicio para Kaixo Android 2.0 (4-oct-2026).
+ *
+ * Hasta la 1.2.1 la app de Android era una TWA: Chrome a pantalla completa, y
+ * el progreso vivia en el almacen de Chrome. Desde la 2.0 la app trae su propio
+ * WebView, con almacen aparte y vacio. Quien actualiza llega aqui UNA vez: la
+ * app abre esta pagina en el navegador de siempre, la pagina empaqueta el
+ * progreso que encuentra y se lo devuelve a la app por `kaixo://migrar`.
+ *
+ * No lee nadie mas: sin indexar, fuera del sitemap y sin enlaces hacia ella.
+ */
+import RootLayout from '../../layouts/RootLayout.astro';
+import { DEFAULT_LOCALE } from '../../i18n/config';
+
+// Textos propios: solo se ven aqui y un instante. El idioma lo dice la app (?l=).
+const TEXTOS: Record<string, [string, string, string]> = {
+  es: ['Kaixo se ha renovado', 'Toca el botón para conservar tu progreso en la nueva versión.', 'Continuar'],
+  ca: ['Kaixo s’ha renovat', 'Toca el botó per conservar el teu progrés a la nova versió.', 'Continua'],
+  gl: ['Kaixo renovouse', 'Toca o botón para conservar o teu progreso na nova versión.', 'Continuar'],
+  oc: ['Kaixo s’es renovat', 'Tòca lo boton per conservar ton progrès dins la version novèla.', 'Contunhar'],
+  ast: ['Kaixo anovóse', 'Toca’l botón pa caltener el to progresu na versión nueva.', 'Siguir'],
+  an: ['Kaixo s’ha renovau', 'Toca o botón pa conservar o tuyo progreso en a nueva versión.', 'Continar'],
+  en: ['Kaixo has been updated', 'Tap the button to keep your progress in the new version.', 'Continue'],
+  ar: ['تم تحديث Kaixo', 'اضغط على الزر للاحتفاظ بتقدّمك في الإصدار الجديد.', 'متابعة'],
+  fr: ['Kaixo a été mis à jour', 'Touchez le bouton pour conserver votre progression dans la nouvelle version.', 'Continuer'],
+  ro: ['Kaixo a fost actualizat', 'Atinge butonul pentru a-ți păstra progresul în noua versiune.', 'Continuă'],
+  'pt-BR': ['O Kaixo foi atualizado', 'Toque no botão para manter seu progresso na nova versão.', 'Continuar'],
+  de: ['Kaixo wurde aktualisiert', 'Tippe auf die Schaltfläche, um deinen Fortschritt in der neuen Version zu behalten.', 'Weiter'],
+  it: ['Kaixo è stato aggiornato', 'Tocca il pulsante per conservare i tuoi progressi nella nuova versione.', 'Continua'],
+  ru: ['Kaixo обновился', 'Нажмите кнопку, чтобы сохранить свой прогресс в новой версии.', 'Продолжить'],
+  pl: ['Kaixo został zaktualizowany', 'Dotknij przycisku, aby zachować swoje postępy w nowej wersji.', 'Dalej'],
+  'zh-Hans': ['Kaixo 已更新', '点击按钮，在新版本中保留你的学习进度。', '继续'],
+  ja: ['Kaixo がアップデートされました', 'ボタンをタップして、新しいバージョンに学習の進み具合を引き継ぎます。', '続ける'],
+  ko: ['Kaixo가 업데이트되었습니다', '버튼을 눌러 새 버전에서도 학습 진도를 유지하세요.', '계속'],
+};
+const [titulo, cuerpo, boton] = TEXTOS.es;
+---
+<RootLayout
+  locale={DEFAULT_LOCALE}
+  title="Kaixo"
+  description="Página de servicio de la app de Kaixo para Android: lleva tu progreso a la nueva versión."
+  noindex
+  bodyClass="solo-servicio"
+>
+  <div class="migrar">
+    <h1 id="mig-titulo">{titulo}</h1>
+    <p id="mig-cuerpo">{cuerpo}</p>
+    {/* Sin href hasta que el guion empaqueta el progreso: un toque antes de
+        tiempo no debe volver a la app con las manos vacias. */}
+    <a id="mig-boton" class="btn btn-primary" aria-disabled="true">{boton}</a>
+  </div>
+  <script type="application/json" id="mig-textos" set:html={JSON.stringify(TEXTOS)} />
+</RootLayout>
+
+<script>
+  import { getProgress, exportHash } from '../../stores/progress';
+  import { destinoMigracion } from '../../lib/migrar';
+
+  const q = new URLSearchParams(location.search);
+  const textos = JSON.parse(document.getElementById('mig-textos')?.textContent ?? '{}');
+  const t = textos[q.get('l') ?? ''] ?? textos.es;
+  const pon = (id: string, s: string) => { const e = document.getElementById(id); if (e) e.textContent = s; };
+  pon('mig-titulo', t[0]); pon('mig-cuerpo', t[1]); pon('mig-boton', t[2]);
+  if (q.get('l') === 'ar') document.documentElement.dir = 'rtl';
+
+  (async () => {
+    const p = getProgress();
+    const vacio = Object.keys(p.lessons).length === 0;
+    const destino = destinoMigracion(vacio ? '' : await exportHash(p));
+    const boton = document.getElementById('mig-boton') as HTMLAnchorElement | null;
+    if (boton) { boton.href = destino; boton.removeAttribute('aria-disabled'); }
+    // Lo intenta sola. Si el navegador exige un toque para saltar a la app, el
+    // boton hace lo mismo.
+    location.href = destino;
+  })();
+</script>
+
+<style is:global>
+  /* Pagina de paso: sin cabecera, pie ni avisos donde ponerse a navegar. */
+  body.solo-servicio > :not(main) { display: none !important; }
+</style>
+
+<style>
+  .migrar {
+    min-height: 100dvh;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+  .migrar h1 { font-size: 1.6rem; margin: 0; }
+  .migrar p { max-width: 28rem; margin: 0; color: var(--c-text-muted); }
+  .migrar a[aria-disabled='true'] { opacity: 0.5; pointer-events: none; }
+</style>
