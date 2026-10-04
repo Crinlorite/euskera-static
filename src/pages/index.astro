@@ -4,6 +4,17 @@ import LandingPicker from '../components/ui/LandingPicker.svelte';
 import HeroBackground from '../components/ui/HeroBackground.svelte';
 import Lauburu from '../components/ui/Lauburu.svelte';
 import { DEFAULT_LOCALE } from '../i18n/config';
+import { SITIO } from '../lib/alternates-puro.mjs';
+
+// Nombre del sitio para Google: sin esto el resultado se firma con el dominio
+// (crintech.pro) en vez de con la marca. Va solo en la portada, como pide Google.
+const jsonSitio = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Kaixo',
+  alternateName: ['Kaixo — Aprende euskera', 'Kaixo euskera'],
+  url: `${SITIO}/`,
+});
 ---
 <RootLayout
   locale={DEFAULT_LOCALE}
@@ -11,6 +22,7 @@ import { DEFAULT_LOCALE } from '../i18n/config';
   description="Portal gratuito y abierto para aprender euskera. Elige tu idioma."
   bodyClass="landing-body"
 >
+  <script type="application/ld+json" is:inline set:html={jsonSitio} />
   <section class="landing">
     <HeroBackground client:load />
     <div class="landing-art" aria-hidden="true">
