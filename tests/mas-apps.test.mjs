@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, avisoPrivacidad, appsDe, seMuestraEn, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
+import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, TITULO_BETA, avisoPrivacidad, appsDe, seMuestraEn, tituloDe, rutaBeta, esBetaEnAndroid, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
 
 const UA = {
   iphone: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
@@ -33,19 +33,32 @@ test('cada dispositivo recibe SU tienda y ninguna otra', () => {
     assert.ok(ios.startsWith('https://apps.apple.com/es/app/id'), ios);
     assert.ok(!/google|play\./i.test(ios), ios);
     const android = enlaceDe(app, 'android');
-    if (android) {
-      assert.ok(android.startsWith('https://play.google.com/store/apps/details?id='), android);
-      assert.ok(!/apple/i.test(android), android);
-    }
+    assert.ok(android, `${app.id} sin destino en Android`);
+    assert.ok(android.startsWith('https://play.google.com/store/apps/details?id=') || android.startsWith('/app/'), android);
+    assert.ok(!/apple/i.test(android), android);
     const otro = enlaceDe(app, 'otro');
     assert.ok(otro.startsWith(app.web), otro);
     assert.ok(!/apple\.com|play\.google|market:/i.test(otro), otro);
   }
 });
 
-test('en Android solo salen las apps publicadas en Google Play', () => {
+test('en Android: tienda si la app es publica, guia de la beta si esta en prueba cerrada', () => {
   assert.ok(enlaceDe(aulixa, 'android').includes('id=com.crintechstudios.brainykidsacademy'));
-  assert.equal(enlaceDe(aprenza, 'android'), null);
+  assert.ok(!esBetaEnAndroid(aulixa));
+  // Aprenza no tiene ficha publica (404): jamas se enlaza la tienda, sino la guia.
+  assert.ok(esBetaEnAndroid(aprenza));
+  for (const l of ['es', 'ca', 'gl', 'ast', 'an', 'oc']) {
+    assert.equal(enlaceDe(aprenza, 'android', { locale: l }), `/app/aprenza-beta/${l}/`);
+    assert.equal(rutaBeta(aprenza, l), `/app/aprenza-beta/${l}/`);
+    assert.ok(TITULO_BETA[l].startsWith('Aprenza'), l);
+  }
+  assert.ok(!/store\/apps\/details/.test(enlaceDe(aprenza, 'android', { locale: 'es' })));
+  // Sin guia en ese idioma no hay destino: la tarjeta no sale.
+  assert.equal(enlaceDe(aprenza, 'android', { locale: 'ja' }), null);
+  // La guia de la beta es cosa de Android: en iPhone y en ordenador no se usa.
+  assert.ok(enlaceDe(aprenza, 'ios', { locale: 'es' }).startsWith('https://apps.apple.com/'));
+  assert.equal(enlaceDe(aprenza, 'otro', { locale: 'es' }), 'https://aprenza.app/');
+  assert.equal(aprenza.playBeta.prueba, 'https://play.google.com/apps/testing/com.crintechstudios.aprenza');
 });
 
 test('cada idioma va a SU tienda: pais en la App Store, idioma de ficha en Google Play', () => {
@@ -64,8 +77,9 @@ test('cada idioma va a SU tienda: pais en la App Store, idioma de ficha en Googl
 test('los enlaces van limpios: sin etiquetas de seguimiento ni identificadores', () => {
   for (const app of APPS) {
     for (const d of ['ios', 'android', 'otro']) {
-      const url = enlaceDe(app, d, { pais: 'es', hl: 'es' });
+      const url = enlaceDe(app, d, { pais: 'es', hl: 'es', locale: 'es' });
       if (!url) continue;
+      if (url.startsWith('/')) { assert.ok(!url.includes('?'), url); continue; }
       assert.ok(!/utm_|referrer|[?&](ct|pt|mt|ref|src|campaign)=/i.test(url), `${app.id}/${d}: ${url}`);
       assert.equal(new URL(url).hash, '', url);
     }
@@ -78,39 +92,44 @@ test('la privacidad avisa de los destinos nuevos sin nombrar tiendas, solo donde
   const es = avisoPrivacidad('es');
   assert.ok(es.includes('Más apps de Crintech') && es.includes('no registra'), es);
   assert.ok(avisoPrivacidad('en').includes('Another app by Crintech'));
-  assert.equal(avisoPrivacidad('fr'), null);
+  assert.ok(avisoPrivacidad('fr').includes('Une autre app de Crintech'));
+  assert.equal(avisoPrivacidad('eu'), null);
   // «app store» en minúscula es el nombre común en inglés; lo vetado son las marcas.
   for (const t of Object.values(AVISO_PRIVACIDAD)) {
     assert.ok(!/App Store/.test(t) && !/google|\bplay\b|android|iphone|apple/i.test(t), t);
   }
   // El título que cita el aviso es el que de verdad sale en el inicio.
   for (const l of LOCALES_ACTIVOS) {
-    const t = TEXTOS[l];
-    const titulo = `${t.antes} Crintech${t.despues ? ` ${t.despues}` : ''}`;
+    const titulo = tituloDe(l);
+    assert.ok(titulo.includes('Crintech') && titulo.trim() === titulo, `${l}: «${titulo}»`);
     assert.ok(AVISO_PRIVACIDAD[l].includes(titulo), `${l}: el aviso no cita «${titulo}»`);
   }
 });
 
 
-test('cada app sale solo en los idiomas en que existe', () => {
+test('que app sale en cada idioma', () => {
   const ids = (l) => appsDe(l).map((a) => a.id);
   // Lenguas de España: las dos (las apps están en castellano).
   for (const l of ['es', 'ca', 'gl', 'ast', 'an', 'oc']) assert.deepEqual(ids(l), ['aulixa', 'aprenza'], l);
-  // Aulixa existe en inglés, rumano, chino y árabe; Aprenza es de la ESO y solo en castellano.
-  for (const l of ['en', 'ro', 'zh-Hans', 'ar']) assert.deepEqual(ids(l), ['aulixa'], l);
-  // Ninguna de las dos está en estos idiomas: no se anuncia lo que no se puede leer.
-  for (const l of ['fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko']) {
-    assert.deepEqual(ids(l), [], l);
-    assert.ok(!seMuestraEn(l), l);
-    assert.equal(avisoPrivacidad(l), null, l);
+  // En el resto, solo Aulixa: Aprenza es de la ESO y solo en castellano.
+  for (const l of ['en', 'ro', 'zh-Hans', 'ar', 'fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko']) {
+    assert.deepEqual(ids(l), ['aulixa'], l);
   }
-  assert.deepEqual([...LOCALES_ACTIVOS].sort(), ['an', 'ar', 'ast', 'ca', 'en', 'es', 'gl', 'oc', 'ro', 'zh-Hans']);
+  assert.equal(LOCALES_ACTIVOS.length, 18);
 });
+
+test('donde Aulixa no esta en el idioma del lector, la tarjeta lo dice', () => {
+  const pistas = { fr: /anglais.*espagnol/, de: /Englisch.*Spanisch/, it: /inglese.*spagnolo/, 'pt-BR': /inglês.*espanhol/,
+    ru: /английском.*испанском/, pl: /angielsku.*hiszpańsku/, ja: /英語.*スペイン語/, ko: /영어.*스페인어/ };
+  for (const [l, re] of Object.entries(pistas)) assert.ok(re.test(TEXTOS[l].apps.aulixa), `${l}: ${TEXTOS[l].apps.aulixa}`);
+});
+
 
 test('todo idioma activo tiene sus textos completos y su aviso de privacidad', () => {
   for (const l of LOCALES_ACTIVOS) {
     const t = TEXTOS[l];
-    for (const k of ['antetitulo', 'antes', 'entradilla']) assert.ok(t[k] && t[k].trim() === t[k], `${l}.${k}`);
+    for (const k of ['antetitulo', 'entradilla']) assert.ok(t[k] && t[k].trim() === t[k], `${l}.${k}`);
+    assert.ok(t.antes || t.despues, `${l}: titulo vacio`);
     for (const app of appsDe(l)) assert.ok(t.apps[app.id], `${l}: falta la línea de ${app.id}`);
     assert.ok(AVISO_PRIVACIDAD[l], `sin aviso de privacidad en ${l}`);
     assert.equal(avisoPrivacidad(l), AVISO_PRIVACIDAD[l]);
