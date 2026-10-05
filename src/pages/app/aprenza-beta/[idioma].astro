@@ -1,0 +1,88 @@
+---
+/**
+ * Guía para apuntarse a la beta cerrada de Aprenza en Android (5-oct-2026).
+ *
+ * Aprenza no tiene ficha pública en Google Play (está en prueba cerrada), así
+ * que la tarjeta de «Más apps de Crintech» no puede llevar a la tienda: en
+ * Android trae aquí, a los mismos tres pasos que usó Kaixo en su beta (grupo de
+ * Google → aceptar la prueba → instalar). Los pasos salen de los textos `beta.*`
+ * de Kaixo, que no nombran a ninguna app.
+ *
+ * ⛔ SOLO PARA ANDROID. Nombra Android y Google Play, así que no puede verse en
+ * la app de iOS (Apple 2.3.10): nadie la enlaza salvo la tarjeta en Android, y
+ * si aun así se abre en un iPhone, el guion de abajo la cambia por el inicio
+ * antes de pintar nada. Página de servicio: sin indexar y fuera del sitemap.
+ */
+import RootLayout from '../../../layouts/RootLayout.astro';
+import type { LocaleCode } from '../../../i18n/config';
+import { t } from '../../../i18n/ui';
+import { APPS, TITULO_BETA } from '../../../lib/mas-apps.mjs';
+
+export function getStaticPaths() {
+  return Object.keys(TITULO_BETA).map((idioma) => ({ params: { idioma } }));
+}
+
+const locale = Astro.params.idioma as LocaleCode;
+const app = APPS.find((a) => a.id === 'aprenza')!;
+const { grupo, prueba } = app.playBeta!;
+const titulo = TITULO_BETA[locale];
+---
+<RootLayout
+  locale={locale}
+  title={titulo}
+  description="Guía para apuntarse a la prueba cerrada de Aprenza en Android: unirse al grupo, aceptar la prueba e instalar."
+  noindex
+>
+  {/* Antes de pintar: en un iPhone o iPad esta página no existe. */}
+  <script is:inline define:vars={{ inicio: `/${locale}/` }}>
+    (function () {
+      var w = window, ua = navigator.userAgent || '';
+      var ios = (w.Kaixo && w.Kaixo.platform === 'ios') || /iPhone|iPad|iPod/.test(ua)
+        || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+      if (ios) { document.documentElement.style.display = 'none'; location.replace(inicio); }
+    })();
+  </script>
+  <article class="container prose beta-guia">
+    <p><a class="link" href={`/${locale}/`}>← {t(locale, 'gate.back')}</a></p>
+    <div class="beta-cabecera">
+      <img src={app.icono} alt="" width="64" height="64" />
+      <h1>{titulo}</h1>
+    </div>
+    <p set:html={t(locale, 'beta.lead')} />
+    <p set:html={t(locale, 'beta.why')} />
+
+    <div class="beta-cta">
+      <a class="btn btn-primary" href={grupo} rel="noopener">{t(locale, 'beta.cta.group')}</a>
+      <a class="btn btn-secondary" href={prueba} rel="noopener">{t(locale, 'beta.cta.optin')}</a>
+    </div>
+
+    <h2>{t(locale, 'beta.step1.t')}</h2>
+    <p set:html={t(locale, 'beta.step1.d')} />
+    <p><a class="link" href={grupo} rel="noopener">{grupo}</a></p>
+
+    <h2>{t(locale, 'beta.step2.t')}</h2>
+    <p set:html={t(locale, 'beta.step2.d')} />
+    <p><a class="link" href={prueba} rel="noopener">{prueba}</a></p>
+
+    <h2>{t(locale, 'beta.step3.t')}</h2>
+    <p set:html={t(locale, 'beta.step3.d')} />
+
+    <h2>{t(locale, 'beta.wait.t')}</h2>
+    <p set:html={t(locale, 'beta.wait.d')} />
+
+    <h2>{t(locale, 'beta.faq.t')}</h2>
+    <h3>{t(locale, 'beta.faq1.q')}</h3>
+    <p set:html={t(locale, 'beta.faq1.a')} />
+    <h3>{t(locale, 'beta.faq2.q')}</h3>
+    <p set:html={t(locale, 'beta.faq2.a')} />
+    <h3>{t(locale, 'beta.faq3.q')}</h3>
+    <p set:html={t(locale, 'beta.faq3.a')} />
+  </article>
+</RootLayout>
+
+<style>
+  .beta-cabecera { display: flex; align-items: center; gap: var(--s-4); }
+  .beta-cabecera img { border-radius: 15px; flex: none; }
+  .beta-cabecera h1 { margin: 0; font-size: clamp(1.45rem, 5.2vw, 2.2rem); line-height: 1.15; }
+  .beta-cta { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-5); }
+</style>

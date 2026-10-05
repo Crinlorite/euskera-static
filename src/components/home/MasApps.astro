@@ -9,7 +9,7 @@
  * dispositivo, y dentro de una app no se pinta hasta saber qué enlace toca.
  */
 import type { LocaleCode } from '../../i18n/config';
-import { TEXTOS, PLAY_HL, appsDe } from '../../lib/mas-apps.mjs';
+import { TEXTOS, PLAY_HL, appsDe, esBetaEnAndroid } from '../../lib/mas-apps.mjs';
 import { paisAppStore } from '../../lib/appstore';
 
 interface Props { locale: LocaleCode }
@@ -18,11 +18,11 @@ const apps = appsDe(locale);
 const txt = TEXTOS[locale];
 ---
 {apps.length > 0 && txt && (
-  <section class="container-wide mas-apps fade-in" data-mas-apps data-pais={paisAppStore(locale)} data-hl={PLAY_HL[locale] ?? ''}>
+  <section class="container-wide mas-apps fade-in" data-mas-apps data-pais={paisAppStore(locale)} data-hl={PLAY_HL[locale] ?? ''} data-locale={locale}>
     <header class="mas-apps-header">
       <p class="eyebrow">{txt.antetitulo}</p>
       {/* El punto final va con la marca salvo que el idioma siga escribiendo detrás. */}
-      <h2 class="mas-apps-title">{txt.antes}{' '}<span class="text-grad">{txt.despues ? 'Crintech' : 'Crintech.'}</span>{txt.despues ? ` ${txt.despues}` : ''}</h2>
+      <h2 class="mas-apps-title">{txt.antes ? `${txt.antes} ` : ''}<span class="text-grad">{txt.despues ? 'Crintech' : 'Crintech.'}</span>{txt.despues}</h2>
       <p class="mas-apps-intro">{txt.entradilla}</p>
     </header>
     <ul class="mas-apps-list">
@@ -33,7 +33,12 @@ const txt = TEXTOS[locale];
           <a class="card app-card" href={app.web} rel="noopener">
             <img src={app.icono} alt="" width="56" height="56" loading="lazy" decoding="async" />
             <span class="app-card-txt">
-              <b>{app.nombre}</b>
+              <b>
+                {app.nombre}
+                {/* Solo se enseña en Android, y lo enciende el guion: ahí esta
+                    app está en prueba cerrada y la tarjeta lleva a apuntarse. */}
+                {esBetaEnAndroid(app) && <span class="app-card-tag" data-etiqueta-beta hidden>Beta</span>}
+              </b>
               <span class="app-card-desc">{txt.apps[app.id]}</span>
             </span>
             <span class="app-card-arrow icon-direction-aware" aria-hidden="true">
@@ -47,7 +52,7 @@ const txt = TEXTOS[locale];
 )}
 
 <script>
-  import { APPS, dispositivoDe, enlaceDe } from '../../lib/mas-apps.mjs';
+  import { APPS, dispositivoDe, enlaceDe, esBetaEnAndroid } from '../../lib/mas-apps.mjs';
 
   function prepara() {
     const bloque = document.querySelector<HTMLElement>('[data-mas-apps]');
@@ -60,11 +65,13 @@ const txt = TEXTOS[locale];
     let visibles = 0;
     for (const li of bloque.querySelectorAll<HTMLElement>('li[data-app]')) {
       const app = APPS.find((a) => a.id === li.dataset.app);
-      const url = app ? enlaceDe(app, dispositivo, { pais: bloque.dataset.pais, hl: bloque.dataset.hl }) : null;
+      const url = app ? enlaceDe(app, dispositivo, { pais: bloque.dataset.pais, hl: bloque.dataset.hl, locale: bloque.dataset.locale }) : null;
       const a = li.querySelector('a');
       // Sin enlace para este dispositivo (app que no está en su tienda): fuera.
       if (!url || !a) { li.hidden = true; continue; }
       a.href = url;
+      const beta = li.querySelector<HTMLElement>('[data-etiqueta-beta]');
+      if (beta && app) beta.hidden = !(dispositivo === 'android' && esBetaEnAndroid(app));
       li.hidden = false;
       visibles++;
     }
@@ -136,6 +143,20 @@ const txt = TEXTOS[locale];
     font-weight: 700;
     color: var(--c-ink);
   }
+  .app-card-tag {
+    display: inline-block;
+    margin-inline-start: 8px;
+    padding: 1px 8px;
+    border: 1px solid var(--c-border);
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--c-text-muted);
+    vertical-align: middle;
+  }
+  .app-card-tag[hidden] { display: none; }
   .app-card-desc {
     display: block;
     font-size: 0.9rem;
