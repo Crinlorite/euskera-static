@@ -16,7 +16,7 @@
 import RootLayout from '../../../layouts/RootLayout.astro';
 import type { LocaleCode } from '../../../i18n/config';
 import { t } from '../../../i18n/ui';
-import { APPS, TITULO_BETA } from '../../../lib/mas-apps.mjs';
+import { APPS, TITULO_BETA, NOTA_MENORES } from '../../../lib/mas-apps.mjs';
 
 export function getStaticPaths() {
   return Object.keys(TITULO_BETA).map((idioma) => ({ params: { idioma } }));
@@ -59,6 +59,7 @@ const titulo = TITULO_BETA[locale];
     <h2>{t(locale, 'beta.step1.t')}</h2>
     <p set:html={t(locale, 'beta.step1.d')} />
     <p><a class="link" href={grupo} rel="noopener">{grupo}</a></p>
+    {NOTA_MENORES[locale] && <p class="beta-nota" set:html={NOTA_MENORES[locale]} />}
 
     <h2>{t(locale, 'beta.step2.t')}</h2>
     <p set:html={t(locale, 'beta.step2.d')} />
@@ -84,5 +85,11 @@ const titulo = TITULO_BETA[locale];
   .beta-cabecera { display: flex; align-items: center; gap: var(--s-4); }
   .beta-cabecera img { border-radius: 15px; flex: none; }
   .beta-cabecera h1 { margin: 0; font-size: clamp(1.45rem, 5.2vw, 2.2rem); line-height: 1.15; }
+  .beta-nota {
+    border-inline-start: 3px solid var(--c-border);
+    padding-inline-start: var(--s-4);
+    color: var(--c-text-muted);
+    font-size: 0.95rem;
+  }
   .beta-cta { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-5); }
 </style>

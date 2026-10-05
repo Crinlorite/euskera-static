@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, TITULO_BETA, avisoPrivacidad, appsDe, seMuestraEn, tituloDe, rutaBeta, esBetaEnAndroid, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
+import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, TITULO_BETA, NOTA_MENORES, avisoPrivacidad, appsDe, seMuestraEn, tituloDe, rutaBeta, esBetaEnAndroid, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
 
 const UA = {
   iphone: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
@@ -141,5 +141,15 @@ test('los textos no nombran tiendas ni lo que Aulixa no puede decir', () => {
     + APPS.map((a) => a.nombre).join(' ');
   for (const vetado of [/app\s?store/i, /google/i, /play\b/i, /android/i, /iphone/i, /cerebr/i, /brain/i, /nintendo/i, /lomloe/i, /gratis|free\b|gratuit/i]) {
     assert.ok(!vetado.test(todo), `aparece ${vetado}`);
+  }
+});
+
+test('la guia de la beta avisa del caso de las cuentas de menores, en todos sus idiomas', () => {
+  assert.deepEqual(Object.keys(NOTA_MENORES).sort(), Object.keys(TITULO_BETA).sort());
+  for (const [l, nota] of Object.entries(NOTA_MENORES)) {
+    assert.ok(nota.includes('Family Link'), l);
+    // La pagina de soporte de Aprenza va SIN barra final: con barra responde vacio.
+    assert.ok(nota.includes('href="https://aprenza.app/soporte"'), l);
+    assert.equal((nota.match(/<a /g) ?? []).length, 1, l);
   }
 });
