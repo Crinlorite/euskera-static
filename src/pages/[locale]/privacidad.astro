@@ -4,6 +4,7 @@ import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t, tf } from '../../i18n/ui';
 
 import { ajusta, sinMarcado, minimoDescripcion } from '../../lib/seo-texto.mjs';
+import { avisoPrivacidad } from '../../lib/mas-apps.mjs';
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
 }
@@ -42,6 +43,7 @@ const descripcion = ajusta(sinMarcado(t(locale, 'priv.intro')), t(locale, 'site.
     <ul>
       <li set:html={t(locale, 'priv.s4.li1')} />
       <li set:html={t(locale, 'priv.s4.li2')} />
+      {avisoPrivacidad(locale) && <li set:html={avisoPrivacidad(locale)} />}
       <li set:html={t(locale, 'priv.s4.li0')} />
       <li set:html={t(locale, 'priv.s4.li3')} />
       <li set:html={t(locale, 'priv.s4.li4')} />
