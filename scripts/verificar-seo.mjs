@@ -179,6 +179,16 @@ for (const f of paginas) {
     if (!/class="badge-beta"/.test(html)) falla('V2', `${rel} sin el aviso de beta`);
   }
 
+  // M2: las guias de beta de Android (/app/<app>-beta/<idioma>/) nombran
+  // Android y Google Play. No pueden verse en un iPhone (Apple 2.3.10): llevan
+  // un cierre que las cambia por el inicio ANTES del contenido.
+  if (/^app\/[a-z]+-beta\//.test(rel)) {
+    const cierre = html.search(/iPhone\|iPad\|iPod[\s\S]{0,400}location\.replace/);
+    const contenido = html.indexOf('<article');
+    if (cierre < 0) falla('M2', `${rel}: sin cierre para iPhone`);
+    else if (contenido >= 0 && cierre > contenido) falla('M2', `${rel}: el cierre para iPhone va despues del contenido`);
+  }
+
   // M1: «Más apps de Crintech» (inicio). Se ve tambien dentro de las apps, asi
   // que lo que sale del servidor no puede nombrar ni enlazar ninguna tienda:
   // el enlace de la tienda del dispositivo lo pone el guion (mas-apps.mjs).
@@ -198,6 +208,12 @@ for (const f of paginas) {
         }
       }
       if (/class="[^"]*\bapp-promo\b/.test(bloque)) falla('M1', `${rel}: el bloque lleva .app-promo y se ocultaria en las apps`);
+      // La etiqueta «Beta» y la guia de la beta son solo para Android: del
+      // servidor salen apagadas y sin enlazar; las enciende el guion alli.
+      for (const m of bloque.matchAll(/<span[^>]*data-etiqueta-beta[^>]*>/g)) {
+        if (!/\shidden(\s|>|=)/.test(m[0])) falla('M1', `${rel}: la etiqueta Beta sale visible del servidor`);
+      }
+      if (/href="[^"]*\/app\//.test(bloque)) falla('M1', `${rel}: enlace a una guia de beta en el HTML del servidor`);
       if (/<template[^>]*data-solo-web[^>]*>(?:(?!<\/template>)[\s\S])*data-mas-apps/.test(html)) {
         falla('M1', `${rel}: el bloque esta dentro de un <template> solo-web`);
       }
@@ -280,6 +296,7 @@ const REGLAS = {
   R1: 'no ha desaparecido ninguna ruta sin retirarla a proposito',
   R2: 'ninguna ruta retirada ha vuelto a aparecer',
   M1: 'el bloque de mas apps no nombra ni enlaza tiendas en el HTML del servidor, y solo sale donde toca',
+  M2: 'las guias de beta de Android se cierran solas en un iPhone',
   N1: 'las paginas bajo candado llevan noindex, y solo ellas',
   N2: 'el sitemap no anuncia lo que esta bajo candado',
   V1: 'toda entrada del hiztegia trae su traduccion',
