@@ -1,0 +1,146 @@
+---
+/**
+ * «Más apps de Crintech»: bloque del inicio con las otras apps del estudio.
+ *
+ * ⛔ SIN la clase .app-promo y FUERA de <WebOnly>: esas dos cosas ocultan su
+ * contenido dentro de las apps, y este bloque existe sobre todo PARA las apps
+ * (es de donde sale el tráfico). A cambio cumple su propia regla, que vive en
+ * src/lib/mas-apps.mjs: nunca nombra ni enlaza una tienda que no sea la del
+ * dispositivo, y dentro de una app no se pinta hasta saber qué enlace toca.
+ */
+import type { LocaleCode } from '../../i18n/config';
+import { APPS, TEXTOS, seMuestraEn } from '../../lib/mas-apps.mjs';
+import { paisAppStore } from '../../lib/appstore';
+
+interface Props { locale: LocaleCode }
+const { locale } = Astro.props;
+const visible = seMuestraEn(locale);
+const [antetitulo, titulo, entradilla, ...lineas] = TEXTOS[locale] ?? TEXTOS.es;
+---
+{visible && (
+  <section class="container-wide mas-apps fade-in" data-mas-apps data-pais={paisAppStore(locale)}>
+    <header class="mas-apps-header">
+      <p class="eyebrow">{antetitulo}</p>
+      <h2 class="mas-apps-title">{titulo}{' '}<span class="text-grad">Crintech.</span></h2>
+      <p class="mas-apps-intro">{entradilla}</p>
+    </header>
+    <ul class="mas-apps-list">
+      {APPS.map((app, i) => (
+        <li data-app={app.id}>
+          {/* Del servidor sale la web de la app, que es neutra. El guion de
+              abajo la cambia por la tienda del dispositivo. */}
+          <a class="card app-card" href={app.web} rel="noopener">
+            <img src={app.icono} alt="" width="56" height="56" loading="lazy" decoding="async" />
+            <span class="app-card-txt">
+              <b>{app.nombre}</b>
+              <span class="app-card-desc">{lineas[i]}</span>
+            </span>
+            <span class="app-card-arrow icon-direction-aware" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
+
+<script>
+  import { APPS, dispositivoDe, enlaceDe } from '../../lib/mas-apps.mjs';
+
+  function prepara() {
+    const bloque = document.querySelector<HTMLElement>('[data-mas-apps]');
+    if (!bloque) return;
+    const dispositivo = dispositivoDe({
+      plataforma: (window as { Kaixo?: { platform?: string } }).Kaixo?.platform,
+      ua: navigator.userAgent,
+      toques: navigator.maxTouchPoints,
+    });
+    let visibles = 0;
+    for (const li of bloque.querySelectorAll<HTMLElement>('li[data-app]')) {
+      const app = APPS.find((a) => a.id === li.dataset.app);
+      const url = app ? enlaceDe(app, dispositivo, bloque.dataset.pais) : null;
+      const a = li.querySelector('a');
+      // Sin enlace para este dispositivo (app que no está en su tienda): fuera.
+      if (!url || !a) { li.hidden = true; continue; }
+      a.href = url;
+      li.hidden = false;
+      visibles++;
+    }
+    bloque.hidden = visibles === 0;
+    bloque.classList.toggle('listo', visibles > 0);
+  }
+
+  prepara();
+  // Las view transitions recrean el documento sin volver a ejecutar esto.
+  document.addEventListener('astro:page-load', prepara);
+</script>
+
+<style is:global>
+  /* Dentro de una app, oculto hasta que el guion ha puesto el enlace de SU
+     tienda: si el guion no corre, no se enseña nada. Falla en cerrado. */
+  .is-native-app .mas-apps:not(.listo) { display: none !important; }
+</style>
+
+<style>
+  /* Medidas de la maqueta aprobada (kaixo-promo/otras-apps/maqueta.py). */
+  .mas-apps {
+    padding-block: var(--s-7) var(--s-8);
+  }
+  .mas-apps-header { margin-block-end: var(--s-5); }
+  .mas-apps-header .eyebrow { margin: 0 0 var(--s-3); }
+  .mas-apps-title {
+    font-family: var(--ff-display);
+    font-weight: 800;
+    font-size: clamp(2rem, 3.5vw, 2.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin: 0 0 var(--s-3);
+    color: var(--c-ink);
+  }
+  .mas-apps-intro {
+    color: var(--c-text-muted);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    max-inline-size: 46ch;
+  }
+  .mas-apps-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--s-3);
+    max-inline-size: 760px;
+  }
+  .app-card {
+    display: grid;
+    grid-template-columns: 56px 1fr 22px;
+    gap: var(--s-4);
+    align-items: center;
+    padding: var(--s-4);
+    text-decoration: none;
+    color: var(--c-text);
+  }
+  .app-card img {
+    inline-size: 56px;
+    block-size: 56px;
+    border-radius: 13px;
+    display: block;
+  }
+  .app-card b {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--c-ink);
+  }
+  .app-card-desc {
+    display: block;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    color: var(--c-text-muted);
+    margin-block-start: 2px;
+  }
+  .app-card-arrow { color: var(--c-text-dim); display: grid; }
+</style>
