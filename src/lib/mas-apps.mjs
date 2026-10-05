@@ -99,6 +99,22 @@ export const TEXTOS = {
     apps: { aulixa: '초등학교 복습 퀴즈 (영어·스페인어)' } },
 };
 
+/**
+ * Aviso del paso 1 de la guía de la beta de Aprenza. Aprenza es para la ESO
+ * (12-16 años) y quien llega puede tener una cuenta de menor supervisada: en un
+ * caso real (oct-2026) no pudo entrar en el grupo y se quedó atascado sin saber
+ * por qué. Dice «puede que» porque no hay una fuente de Google que lo confirme.
+ * Sugerido por la sesión de Aprenza.
+ */
+export const NOTA_MENORES = {
+  es: 'Si la cuenta de Google del móvil es de un menor supervisado con Family Link, puede que Google no le deje entrar en el grupo. En ese caso, haz los tres pasos con la cuenta de un adulto o pide ayuda en <a href="https://aprenza.app/soporte" rel="noopener">la página de soporte de Aprenza</a>.',
+  ca: 'Si el compte de Google del mòbil és d’un menor supervisat amb Family Link, pot ser que Google no el deixi entrar al grup. En aquest cas, fes els tres passos amb el compte d’un adult o demana ajuda a <a href="https://aprenza.app/soporte" rel="noopener">la pàgina de suport d’Aprenza</a>.',
+  gl: 'Se a conta de Google do móbil é dun menor supervisado con Family Link, pode que Google non o deixe entrar no grupo. Nese caso, fai os tres pasos coa conta dun adulto ou pide axuda na <a href="https://aprenza.app/soporte" rel="noopener">páxina de soporte de Aprenza</a>.',
+  ast: 'Si la cuenta de Google del móvil ye d’un menor supervisáu con Family Link, pue que Google nun lu dexe entrar nel grupu. Nesi casu, fai los tres pasos cola cuenta d’un adultu o pidi ayuda na <a href="https://aprenza.app/soporte" rel="noopener">páxina de soporte d’Aprenza</a>.',
+  an: 'Si a cuenta de Google d’o mobil ye d’un menor supervisau con Family Link, puet estar que Google no le deixe dentrar en o grupo. En ixe caso, fe os tres pasos con a cuenta d’un adulto u demanda aduya en a <a href="https://aprenza.app/soporte" rel="noopener">pachina de soporte d’Aprenza</a>.',
+  oc: 'Se lo compte Google del telefòn es lo d’un menor supervisat amb Family Link, es possible que Google lo daisse pas dintrar dins lo grop. Dins aquel cas, fasètz los tres passes amb lo compte d’un adult o demandatz d’ajuda sus <a href="https://aprenza.app/soporte" rel="noopener">la pagina de supòrt d’Aprenza</a>.',
+};
+
 /** El título tal como se lee: `antes` + Crintech + `despues` (que trae su propio espacio si lo lleva). */
 export const tituloDe = (locale) => {
   const t = TEXTOS[locale];

@@ -20,3 +20,4 @@ export declare function tituloDe(locale: string): string;
 export declare const TITULO_BETA: Record<string, string>;
 export declare function rutaBeta(app: AppDelEstudio, locale: string): string;
 export declare function esBetaEnAndroid(app: AppDelEstudio): boolean;
+export declare const NOTA_MENORES: Record<string, string>;
