@@ -193,7 +193,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'about.contribute.title': 'Contribuir',
     'about.contribute.body': '¿Detectaste un error? ¿Tienes ideas? Abre un issue o un PR en <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a>. Las traducciones a otros idiomas son especialmente bienvenidas.',
     'priv.title': 'Política de privacidad',
-    'priv.updated': 'Última actualización: 20 de agosto de 2026',
+    'priv.updated': 'Última actualización: 5 de octubre de 2026',
     'priv.intro': 'Esta política describe cómo <strong>Crintech Studios</strong> ("nosotros") trata la información cuando usas <em>Kaixo</em>, ya sea en la web <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a>, en la aplicación para iOS (App Store) o en la aplicación Android (Google Play) — en adelante, "el Servicio".',
     'priv.s1.title': '1. Información que recogemos',
     'priv.s1.intro': 'Kaixo está diseñada para no recoger información personal:',

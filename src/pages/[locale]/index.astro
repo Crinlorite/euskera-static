@@ -9,6 +9,7 @@ import { t } from '../../i18n/ui';
 import { LOCKED_PATHS } from '../../lib/gate';
 import AppBadges from '../../components/layout/AppBadges.astro';
 import WebOnly from '../../components/platform/WebOnly.astro';
+import MasApps from '../../components/home/MasApps.astro';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -76,6 +77,8 @@ const descripcion = t(locale, 'site.description');
       })}
     </ul>
   </section>
+
+  <MasApps locale={locale} />
 </RootLayout>
 
 <style>

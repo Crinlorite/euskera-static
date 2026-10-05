@@ -22,6 +22,7 @@ import { join, relative } from 'node:path';
 // desincronizaria en cuanto alguien anadiese un idioma sin espacios.
 import { minimoDescripcion } from '../src/lib/seo-texto.mjs';
 import { estaBloqueada, esDeServicio } from '../src/lib/locked.mjs';
+import { seMuestraEn } from '../src/lib/mas-apps.mjs';
 
 const SITIO = 'https://euskera.crintech.pro';
 const DIST = process.argv[2] ?? 'dist';
@@ -178,6 +179,31 @@ for (const f of paginas) {
     if (!/class="badge-beta"/.test(html)) falla('V2', `${rel} sin el aviso de beta`);
   }
 
+  // M1: «Más apps de Crintech» (inicio). Se ve tambien dentro de las apps, asi
+  // que lo que sale del servidor no puede nombrar ni enlazar ninguna tienda:
+  // el enlace de la tienda del dispositivo lo pone el guion (mas-apps.mjs).
+  if (ES_LOCALE.has(rel.slice(0, -1)) && rel.indexOf('/') === rel.length - 1) {
+    const bloque = uno(html, /(<section[^>]*data-mas-apps[\s\S]*?<\/section>)/);
+    const toca = seMuestraEn(rel.slice(0, -1));
+    if (toca && !bloque) falla('M1', `${rel}: falta el bloque de mas apps`);
+    if (!toca && bloque) falla('M1', `${rel}: lleva el bloque de mas apps en un idioma sin activar`);
+    if (bloque) {
+      const texto = decodifica(bloque.replace(/<[^>]+>/g, ' '));
+      if (/app\s?store|google|\bplay\b|android|iphone|ipad/i.test(texto)) {
+        falla('M1', `${rel}: el bloque de mas apps nombra una tienda o plataforma`);
+      }
+      for (const m of bloque.matchAll(/href="([^"]+)"/g)) {
+        if (/apple\.com|play\.google|market:|itms/i.test(m[1])) {
+          falla('M1', `${rel}: enlace de tienda en el HTML del servidor (${m[1]})`);
+        }
+      }
+      if (/class="[^"]*\bapp-promo\b/.test(bloque)) falla('M1', `${rel}: el bloque lleva .app-promo y se ocultaria en las apps`);
+      if (/<template[^>]*data-solo-web[^>]*>(?:(?!<\/template>)[\s\S])*data-mas-apps/.test(html)) {
+        falla('M1', `${rel}: el bloque esta dentro de un <template> solo-web`);
+      }
+    }
+  }
+
   const canonica = uno(html, /<link rel="canonical" href="([^"]+)"/);
   if (canonica !== url) falla('H5', `${rel}: canonica ${canonica ?? '(ninguna)'} != ${url}`);
 
@@ -253,6 +279,7 @@ const REGLAS = {
   D5: 'las paginas de contenido no repiten descripcion dentro de su idioma',
   R1: 'no ha desaparecido ninguna ruta sin retirarla a proposito',
   R2: 'ninguna ruta retirada ha vuelto a aparecer',
+  M1: 'el bloque de mas apps no nombra ni enlaza tiendas en el HTML del servidor, y solo sale donde toca',
   N1: 'las paginas bajo candado llevan noindex, y solo ellas',
   N2: 'el sitemap no anuncia lo que esta bajo candado',
   V1: 'toda entrada del hiztegia trae su traduccion',

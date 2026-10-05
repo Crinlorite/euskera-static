@@ -28,7 +28,10 @@ const TIENDA: Partial<Record<LocaleCode, string>> = {
   ar: 'es',
 };
 
-export const appStoreUrl = (locale: LocaleCode) => `https://apps.apple.com/${TIENDA[locale] ?? 'us'}/app/${APP_ID}`;
+/** País de la App Store para un idioma del sitio (ver la trampa de arriba). */
+export const paisAppStore = (locale: LocaleCode): string => TIENDA[locale] ?? 'us';
+
+export const appStoreUrl = (locale: LocaleCode) => `https://apps.apple.com/${paisAppStore(locale)}/app/${APP_ID}`;
 export const appStoreReviewUrl = (locale: LocaleCode) =>
   `${appStoreUrl(locale)}?action=write-review`;
 
