@@ -9,23 +9,24 @@
  * dispositivo, y dentro de una app no se pinta hasta saber qué enlace toca.
  */
 import type { LocaleCode } from '../../i18n/config';
-import { APPS, TEXTOS, seMuestraEn } from '../../lib/mas-apps.mjs';
+import { TEXTOS, PLAY_HL, appsDe } from '../../lib/mas-apps.mjs';
 import { paisAppStore } from '../../lib/appstore';
 
 interface Props { locale: LocaleCode }
 const { locale } = Astro.props;
-const visible = seMuestraEn(locale);
-const [antetitulo, titulo, entradilla, ...lineas] = TEXTOS[locale] ?? TEXTOS.es;
+const apps = appsDe(locale);
+const txt = TEXTOS[locale];
 ---
-{visible && (
-  <section class="container-wide mas-apps fade-in" data-mas-apps data-pais={paisAppStore(locale)}>
+{apps.length > 0 && txt && (
+  <section class="container-wide mas-apps fade-in" data-mas-apps data-pais={paisAppStore(locale)} data-hl={PLAY_HL[locale] ?? ''}>
     <header class="mas-apps-header">
-      <p class="eyebrow">{antetitulo}</p>
-      <h2 class="mas-apps-title">{titulo}{' '}<span class="text-grad">Crintech.</span></h2>
-      <p class="mas-apps-intro">{entradilla}</p>
+      <p class="eyebrow">{txt.antetitulo}</p>
+      {/* El punto final va con la marca salvo que el idioma siga escribiendo detrás. */}
+      <h2 class="mas-apps-title">{txt.antes}{' '}<span class="text-grad">{txt.despues ? 'Crintech' : 'Crintech.'}</span>{txt.despues ? ` ${txt.despues}` : ''}</h2>
+      <p class="mas-apps-intro">{txt.entradilla}</p>
     </header>
     <ul class="mas-apps-list">
-      {APPS.map((app, i) => (
+      {apps.map((app) => (
         <li data-app={app.id}>
           {/* Del servidor sale la web de la app, que es neutra. El guion de
               abajo la cambia por la tienda del dispositivo. */}
@@ -33,7 +34,7 @@ const [antetitulo, titulo, entradilla, ...lineas] = TEXTOS[locale] ?? TEXTOS.es;
             <img src={app.icono} alt="" width="56" height="56" loading="lazy" decoding="async" />
             <span class="app-card-txt">
               <b>{app.nombre}</b>
-              <span class="app-card-desc">{lineas[i]}</span>
+              <span class="app-card-desc">{txt.apps[app.id]}</span>
             </span>
             <span class="app-card-arrow icon-direction-aware" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -59,7 +60,7 @@ const [antetitulo, titulo, entradilla, ...lineas] = TEXTOS[locale] ?? TEXTOS.es;
     let visibles = 0;
     for (const li of bloque.querySelectorAll<HTMLElement>('li[data-app]')) {
       const app = APPS.find((a) => a.id === li.dataset.app);
-      const url = app ? enlaceDe(app, dispositivo, bloque.dataset.pais) : null;
+      const url = app ? enlaceDe(app, dispositivo, { pais: bloque.dataset.pais, hl: bloque.dataset.hl }) : null;
       const a = li.querySelector('a');
       // Sin enlace para este dispositivo (app que no está en su tienda): fuera.
       if (!url || !a) { li.hidden = true; continue; }

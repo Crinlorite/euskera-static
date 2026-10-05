@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { APPS, TEXTOS, LOCALES_ACTIVOS, AVISO_PRIVACIDAD, avisoPrivacidad, seMuestraEn, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
+import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, avisoPrivacidad, appsDe, seMuestraEn, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
 
 const UA = {
   iphone: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
@@ -29,7 +29,7 @@ test('sin puente decide el aparato', () => {
 
 test('cada dispositivo recibe SU tienda y ninguna otra', () => {
   for (const app of APPS) {
-    const ios = enlaceDe(app, 'ios', 'es');
+    const ios = enlaceDe(app, 'ios', { pais: 'es' });
     assert.ok(ios.startsWith('https://apps.apple.com/es/app/id'), ios);
     assert.ok(!/google|play\./i.test(ios), ios);
     const android = enlaceDe(app, 'android');
@@ -48,15 +48,23 @@ test('en Android solo salen las apps publicadas en Google Play', () => {
   assert.equal(enlaceDe(aprenza, 'android'), null);
 });
 
-test('la App Store lleva el pais del idioma, no el de EE. UU.', () => {
-  assert.equal(enlaceDe(aulixa, 'ios', 'es'), 'https://apps.apple.com/es/app/id6782634156');
-  assert.equal(enlaceDe(aprenza, 'ios', 'es'), 'https://apps.apple.com/es/app/id6786163224');
+test('cada idioma va a SU tienda: pais en la App Store, idioma de ficha en Google Play', () => {
+  assert.equal(enlaceDe(aulixa, 'ios', { pais: 'es' }), 'https://apps.apple.com/es/app/id6782634156');
+  assert.equal(enlaceDe(aprenza, 'ios', { pais: 'es' }), 'https://apps.apple.com/es/app/id6786163224');
+  assert.equal(enlaceDe(aulixa, 'ios', { pais: 'ro' }), 'https://apps.apple.com/ro/app/id6782634156');
+  assert.equal(enlaceDe(aulixa, 'ios', { pais: 'cn' }), 'https://apps.apple.com/cn/app/id6782634156');
+  assert.equal(enlaceDe(aulixa, 'android', { hl: 'ro' }),
+    'https://play.google.com/store/apps/details?id=com.crintechstudios.brainykidsacademy&hl=ro');
+  assert.equal(PLAY_HL['zh-Hans'], 'zh-CN');
+  // Play no tiene asturiano, aragones ni occitano: castellano.
+  for (const l of ['ast', 'an', 'oc']) assert.equal(PLAY_HL[l], 'es', l);
+  for (const l of LOCALES_ACTIVOS) assert.ok(PLAY_HL[l], `sin idioma de Play para ${l}`);
 });
 
 test('los enlaces van limpios: sin etiquetas de seguimiento ni identificadores', () => {
   for (const app of APPS) {
     for (const d of ['ios', 'android', 'otro']) {
-      const url = enlaceDe(app, d, 'es');
+      const url = enlaceDe(app, d, { pais: 'es', hl: 'es' });
       if (!url) continue;
       assert.ok(!/utm_|referrer|[?&](ct|pt|mt|ref|src|campaign)=/i.test(url), `${app.id}/${d}: ${url}`);
       assert.equal(new URL(url).hash, '', url);
@@ -69,25 +77,50 @@ test('los enlaces van limpios: sin etiquetas de seguimiento ni identificadores',
 test('la privacidad avisa de los destinos nuevos sin nombrar tiendas, solo donde sale el bloque', () => {
   const es = avisoPrivacidad('es');
   assert.ok(es.includes('Más apps de Crintech') && es.includes('no registra'), es);
-  assert.equal(avisoPrivacidad('en'), null);
+  assert.ok(avisoPrivacidad('en').includes('Another app by Crintech'));
+  assert.equal(avisoPrivacidad('fr'), null);
+  // «app store» en minúscula es el nombre común en inglés; lo vetado son las marcas.
   for (const t of Object.values(AVISO_PRIVACIDAD)) {
-    assert.ok(!/app\s?store|google|\bplay\b|android|iphone|apple/i.test(t), t);
+    assert.ok(!/App Store/.test(t) && !/google|\bplay\b|android|iphone|apple/i.test(t), t);
+  }
+  // El título que cita el aviso es el que de verdad sale en el inicio.
+  for (const l of LOCALES_ACTIVOS) {
+    const t = TEXTOS[l];
+    const titulo = `${t.antes} Crintech${t.despues ? ` ${t.despues}` : ''}`;
+    assert.ok(AVISO_PRIVACIDAD[l].includes(titulo), `${l}: el aviso no cita «${titulo}»`);
   }
 });
 
-test('solo se muestra en los idiomas activados, y todos tienen sus cinco textos', () => {
-  assert.deepEqual(LOCALES_ACTIVOS, ['es']);
-  assert.ok(seMuestraEn('es'));
-  for (const l of ['en', 'fr', 'ja', 'ca', 'gl']) assert.ok(!seMuestraEn(l), l);
-  for (const [l, t] of Object.entries(TEXTOS)) {
-    assert.equal(t.length, 5, l);
-    assert.ok(t.every((x) => x && x.trim() === x), l);
+
+test('cada app sale solo en los idiomas en que existe', () => {
+  const ids = (l) => appsDe(l).map((a) => a.id);
+  // Lenguas de España: las dos (las apps están en castellano).
+  for (const l of ['es', 'ca', 'gl', 'ast', 'an', 'oc']) assert.deepEqual(ids(l), ['aulixa', 'aprenza'], l);
+  // Aulixa existe en inglés, rumano, chino y árabe; Aprenza es de la ESO y solo en castellano.
+  for (const l of ['en', 'ro', 'zh-Hans', 'ar']) assert.deepEqual(ids(l), ['aulixa'], l);
+  // Ninguna de las dos está en estos idiomas: no se anuncia lo que no se puede leer.
+  for (const l of ['fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko']) {
+    assert.deepEqual(ids(l), [], l);
+    assert.ok(!seMuestraEn(l), l);
+    assert.equal(avisoPrivacidad(l), null, l);
+  }
+  assert.deepEqual([...LOCALES_ACTIVOS].sort(), ['an', 'ar', 'ast', 'ca', 'en', 'es', 'gl', 'oc', 'ro', 'zh-Hans']);
+});
+
+test('todo idioma activo tiene sus textos completos y su aviso de privacidad', () => {
+  for (const l of LOCALES_ACTIVOS) {
+    const t = TEXTOS[l];
+    for (const k of ['antetitulo', 'antes', 'entradilla']) assert.ok(t[k] && t[k].trim() === t[k], `${l}.${k}`);
+    for (const app of appsDe(l)) assert.ok(t.apps[app.id], `${l}: falta la línea de ${app.id}`);
+    assert.ok(AVISO_PRIVACIDAD[l], `sin aviso de privacidad en ${l}`);
+    assert.equal(avisoPrivacidad(l), AVISO_PRIVACIDAD[l]);
   }
 });
 
 test('los textos no nombran tiendas ni lo que Aulixa no puede decir', () => {
-  const todo = Object.values(TEXTOS).flat().join(' ') + APPS.map((a) => a.nombre).join(' ');
-  for (const vetado of [/app\s?store/i, /google/i, /play\b/i, /android/i, /iphone/i, /cerebr/i, /brain/i, /nintendo/i, /lomloe/i, /gratis/i]) {
+  const todo = Object.values(TEXTOS).map((t) => [t.antetitulo, t.antes, t.despues, t.entradilla, ...Object.values(t.apps)].join(' ')).join(' ')
+    + APPS.map((a) => a.nombre).join(' ');
+  for (const vetado of [/app\s?store/i, /google/i, /play\b/i, /android/i, /iphone/i, /cerebr/i, /brain/i, /nintendo/i, /lomloe/i, /gratis|free\b|gratuit/i]) {
     assert.ok(!vetado.test(todo), `aparece ${vetado}`);
   }
 });
