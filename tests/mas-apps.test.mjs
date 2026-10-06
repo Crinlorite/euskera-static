@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, TITULO_BETA, NOTA_MENORES, avisoPrivacidad, appsDe, seMuestraEn, tituloDe, rutaBeta, esBetaEnAndroid, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
+import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, TITULO_BETA, NOTA_MENORES, PROXIMAMENTE, avisoPrivacidad, appsDe, seMuestraEn, tituloDe, rutaBeta, esBetaEnAndroid, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
 
 const UA = {
   iphone: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
@@ -91,8 +91,8 @@ test('los enlaces van limpios: sin etiquetas de seguimiento ni identificadores',
 test('la privacidad avisa de los destinos nuevos sin nombrar tiendas, solo donde sale el bloque', () => {
   const es = avisoPrivacidad('es');
   assert.ok(es.includes('Más apps de Crintech') && es.includes('no registra'), es);
-  assert.ok(avisoPrivacidad('en').includes('Another app by Crintech'));
-  assert.ok(avisoPrivacidad('fr').includes('Une autre app de Crintech'));
+  assert.ok(avisoPrivacidad('en').includes('More apps by Crintech'));
+  assert.ok(avisoPrivacidad('fr').includes('D’autres apps de Crintech'));
   assert.equal(avisoPrivacidad('eu'), null);
   // «app store» en minúscula es el nombre común en inglés; lo vetado son las marcas.
   for (const t of Object.values(AVISO_PRIVACIDAD)) {
@@ -151,5 +151,13 @@ test('la guia de la beta avisa del caso de las cuentas de menores, en todos sus 
     // La pagina de soporte de Aprenza va SIN barra final: con barra responde vacio.
     assert.ok(nota.includes('href="https://aprenza.app/soporte"'), l);
     assert.equal((nota.match(/<a /g) ?? []).length, 1, l);
+  }
+});
+
+test('lo que viene (Kaixo Jolas) es una tarjeta mas, con pagina propia y sin tienda', () => {
+  assert.deepEqual(PROXIMAMENTE.map((p) => p.id), ['jolas']);
+  for (const p of PROXIMAMENTE) {
+    assert.ok(p.ruta.endsWith('/') && !p.ruta.startsWith('/') && !/^https?:/.test(p.ruta), p.ruta);
+    assert.ok(p.icono.startsWith('/apps/'));
   }
 });

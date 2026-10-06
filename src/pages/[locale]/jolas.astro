@@ -1,0 +1,89 @@
+---
+// Kaixo Jolas — el juego del ecosistema Kaixo, anunciado como «Próximamente».
+// Solo el concepto y un botón «Me interesa» que suma a un contador anónimo.
+// Sin tiendas, sin precios, sin fechas, sin correo y sin prometer avisos:
+// decisión de Crinlorite del 6-oct-2026 («0 recogida de datos, only intent»).
+// Se ve también dentro de las apps: no nombra plataformas (Apple 2.3.10).
+import RootLayout from '../../layouts/RootLayout.astro';
+import BotonInteres from '../../components/jolas/BotonInteres.svelte';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { t } from '../../i18n/ui';
+import { ajusta, minimoDescripcion } from '../../lib/seo-texto.mjs';
+import TEXTOS from '../../data/jolas.json';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+const tx = (TEXTOS as Record<string, (typeof TEXTOS)['es']>)[locale] ?? TEXTOS.es;
+const descripcion = ajusta(`${tx.entradilla} ${tx.pacto}`, t(locale, 'site.description'), minimoDescripcion(locale));
+const ICONOS = ['🔥', '🏡', '🤝'];
+---
+<RootLayout locale={locale} title={tx.titulo} description={descripcion}>
+  <article class="container prose">
+    <p class="eyebrow">{t(locale, 'gate.eyebrow')}</p>
+    <h1><span aria-hidden="true">🔥</span> {tx.titulo}</h1>
+    <p class="lead">{tx.entradilla}</p>
+
+    <figure class="mascot">
+      <video src="/jolas/galtxagorri.mp4" autoplay loop muted playsinline aria-label={tx.titulo}></video>
+      <figcaption>{tx.habitante}</figcaption>
+    </figure>
+
+    <div class="signup">
+      <BotonInteres client:load locale={locale} textos={{ boton: tx.boton, anotado: tx.anotado, error: tx.error, nota: tx.nota }} />
+      <p class="privacidad"><a href={`/${locale}/privacidad/`}>{t(locale, 'priv.title')}</a></p>
+    </div>
+
+    <div class="pillars">
+      {tx.pilares.map(([titulo, texto], i) => (
+        <div class="pillar">
+          <h2>{ICONOS[i]} {titulo}</h2>
+          <p>{texto}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="concepts">
+      {[1, 2, 3].map((n) => (
+        <img src={`/jolas/concept-${n}.webp`} alt={tx.titulo} width="1600" height="900" loading="lazy" />
+      ))}
+    </div>
+
+    <p class="pact">{tx.pacto}</p>
+  </article>
+</RootLayout>
+
+<style>
+  .prose { padding-block: var(--s-6); max-width: 800px; }
+  .prose .eyebrow { margin: 0 0 var(--s-2); }
+  .prose h1 { margin: 0 0 var(--s-2); }
+  .lead { font-size: 1.15rem; line-height: 1.6; color: var(--c-text-muted); margin: 0 0 var(--s-5); }
+  .mascot { margin: 0 0 var(--s-5); text-align: center; }
+  .mascot video {
+    width: min(420px, 100%); border-radius: 16px;
+    border: 1px solid var(--c-border-strong); background: #38383f;
+  }
+  .mascot figcaption { font-size: 0.9rem; color: var(--c-text-muted); margin-block-start: var(--s-2); line-height: 1.5; }
+  .signup { margin: 0 0 var(--s-5); display: grid; gap: var(--s-2); }
+  .privacidad { margin: 0; font-size: 0.85rem; }
+  .pillars { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: var(--s-3); margin: 0 0 var(--s-5); }
+  .pillar { padding: var(--s-3) var(--s-4); border: 1px solid var(--c-border-strong); border-radius: 12px; background: var(--c-bg-alt); }
+  .pillar h2 { margin: 0 0 var(--s-2); font-size: 1.02rem; }
+  .pillar p { margin: 0; font-size: 0.9rem; line-height: 1.6; color: var(--c-text-muted); }
+  .concepts { display: grid; gap: var(--s-3); margin: 0 0 var(--s-5); }
+  .concepts img {
+    width: 100%; height: auto; max-width: 100%;
+    border-radius: 14px; border: 1px solid var(--c-border-strong);
+    background: var(--c-bg-alt);
+  }
+  .pact {
+    padding: var(--s-3) var(--s-4);
+    background: var(--c-green-soft);
+    border-inline-start: 4px solid var(--c-green);
+    border-radius: 8px;
+    font-weight: 600; line-height: 1.6;
+    margin: 0;
+  }
+</style>
