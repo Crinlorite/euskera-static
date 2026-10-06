@@ -1,0 +1,470 @@
+{
+ "es": {
+  "titulo": "Kaixo Jolas está en camino",
+  "entradilla": "El euskera, jugando: hereda la etxea del aitona y despiértala palabra a palabra.",
+  "pacto": "Todo el conocimiento seguirá siempre gratis en Kaixo. Jolas es para vivirlo como un juego.",
+  "pilares": [
+   [
+    "El fuego del hogar",
+    "Tu constancia es el fuego de la etxea: si faltas un día quedan brasas, y se reavivan al volver. Sin castigos, jamás."
+   ],
+   [
+    "Despierta la etxea",
+    "Heredas un caserío apagado y lo reconstruyes palabra a palabra. Tu progreso es tu casa en pie."
+   ],
+   [
+    "Auzolan",
+    "Las obras grandes se levantan en comunidad, como siempre se hizo. Cooperar es más vasco que competir."
+   ]
+  ],
+  "habitante": "El primer habitante del juego ya está aquí. Aún no tiene nombre.",
+  "boton": "Me interesa",
+  "anotado": "¡Anotado, gracias! Nos ayuda a saber si merece la pena hacerlo.",
+  "error": "No se ha podido anotar. Prueba de nuevo en un momento.",
+  "nota": "Solo contamos cuántas personas pulsan el botón. No guardamos tu correo ni nada que te identifique.",
+  "tarjeta": "El euskera, jugando",
+  "privacidad": "<strong>Botón «Me interesa» de Kaixo Jolas:</strong> al pulsarlo sumamos uno a un contador por día, idioma y origen (web o app). No guardamos correo, IP ni ningún identificador; en tu dispositivo queda una marca para no contarte dos veces. Para descartar robots se usa un token de Cloudflare Turnstile en el momento de pulsar."
+ },
+ "ca": {
+  "titulo": "Kaixo Jolas és en camí",
+  "entradilla": "L'èuscar, jugant: hereta l'etxea de l'aitona i desperta-la paraula a paraula.",
+  "pacto": "Tot el coneixement seguirà sempre gratis a Kaixo. Jolas és per viure'l com un joc.",
+  "pilares": [
+   [
+    "El foc de la llar",
+    "La teva constància és el foc de l'etxea: si faltes un dia queden brases, i es revifen en tornar. Sense càstigs, mai."
+   ],
+   [
+    "Desperta l'etxea",
+    "Heretes un mas apagat i el reconstrueixes paraula a paraula. El teu progrés és casa teva dempeus."
+   ],
+   [
+    "Auzolan",
+    "Les grans obres s'aixequen en comunitat, com sempre s'ha fet. Cooperar és més basc que competir."
+   ]
+  ],
+  "habitante": "El primer habitant del joc ja és aquí. Encara no té nom.",
+  "boton": "M’interessa",
+  "anotado": "Anotat, gràcies! Ens ajuda a saber si val la pena fer-lo.",
+  "error": "No s’ha pogut anotar. Torna-ho a provar d’aquí a un moment.",
+  "nota": "Només comptem quantes persones premen el botó. No desem el teu correu ni res que t’identifiqui.",
+  "tarjeta": "L’euskera, jugant",
+  "privacidad": "<strong>Botó «M’interessa» de Kaixo Jolas:</strong> en prémer-lo sumem un a un comptador per dia, idioma i origen (web o app). No desem correu, IP ni cap identificador; al teu dispositiu hi queda una marca per no comptar-te dues vegades. Per descartar robots s’utilitza un token de Cloudflare Turnstile en el moment de prémer."
+ },
+ "gl": {
+  "titulo": "Kaixo Jolas está en camiño",
+  "entradilla": "O éuscaro, xogando: herda a etxea do aitona e espértaa palabra a palabra.",
+  "pacto": "Todo o coñecemento seguirá sempre gratis en Kaixo. Jolas é para vivilo coma un xogo.",
+  "pilares": [
+   [
+    "O lume do fogar",
+    "A túa constancia é o lume da etxea: se faltas un día quedan brasas, e reavívanse ao volver. Sen castigos, xamais."
+   ],
+   [
+    "Esperta a etxea",
+    "Herdas un caserío apagado e reconstrúelo palabra a palabra. O teu progreso é a túa casa en pé."
+   ],
+   [
+    "Auzolan",
+    "As obras grandes levántanse en comunidade, como sempre se fixo. Cooperar é máis vasco ca competir."
+   ]
+  ],
+  "habitante": "O primeiro habitante do xogo xa está aquí. Aínda non ten nome.",
+  "boton": "Interésame",
+  "anotado": "Anotado, grazas! Axúdanos a saber se paga a pena facelo.",
+  "error": "Non se puido anotar. Proba de novo nun momento.",
+  "nota": "Só contamos cantas persoas premen o botón. Non gardamos o teu correo nin nada que te identifique.",
+  "tarjeta": "O éuscaro, xogando",
+  "privacidad": "<strong>Botón «Interésame» de Kaixo Jolas:</strong> ao premelo sumamos un a un contador por día, idioma e orixe (web ou app). Non gardamos correo, IP nin ningún identificador; no teu dispositivo queda unha marca para non contarte dúas veces. Para descartar robots úsase un token de Cloudflare Turnstile no momento de premer."
+ },
+ "oc": {
+  "titulo": "Kaixo Jolas es a venir",
+  "entradilla": "L'euskara, en jogant: ereta l'etxea de l'aitona e revelha-la mot per mot.",
+  "pacto": "Tot lo coneissement demorarà per totjorn a gratis dins Kaixo. Jolas es per lo viure coma un jòc.",
+  "pilares": [
+   [
+    "Lo fuòc de l'ostal",
+    "Ta constància es lo fuòc de l'etxea: se mancas un jorn demòran brasas, e se reviscòlan al retorn. Sens punicions, jamai."
+   ],
+   [
+    "Revelha l'etxea",
+    "Eretas un ostal escantit e lo tornas bastir mot per mot. Ton progrès es ton ostal dreit."
+   ],
+   [
+    "Auzolan",
+    "Las òbras grandas se bastisson en comunautat, coma totjorn. Cooperar es mai basc que competir."
+   ]
+  ],
+  "habitante": "Lo primièr abitant del jòc es ja aquí. A pas encara de nom.",
+  "boton": "M’interèssa",
+  "anotado": "Notat, mercé! Nos ajuda a saber se val la pena de lo far.",
+  "error": "S’es pas pogut notar. Tòrna ensajar dins un moment.",
+  "nota": "Comptam solament quantas personas quichan lo boton. Gardam pas ton corrièl ni res que t’identifique.",
+  "tarjeta": "Lo basc, en jogant",
+  "privacidad": "<strong>Boton «M’interèssa» de Kaixo Jolas:</strong> en quichant, apondèm un a un comptador per jorn, lenga e origina (web o app). Gardam pas cap de corrièl, d’IP ni d’identificant; sus ton aparelh demòra una marca per te comptar pas dos còps. Per escartar los robòts s’utiliza un geton de Cloudflare Turnstile al moment de quichar."
+ },
+ "ast": {
+  "titulo": "Kaixo Jolas ta en camín",
+  "entradilla": "L'éuscaru, xugando: hereda la etxea del aitona y espiértala pallabra a pallabra.",
+  "pacto": "Tola conocencia va siguir siempre de baldre en Kaixo. Jolas ye pa vivilo como un xuegu.",
+  "pilares": [
+   [
+    "El fueu del llar",
+    "La to constancia ye'l fueu de la etxea: si faltes un día queden ascuas, y reavívense al volver. Ensin castigos, enxamás."
+   ],
+   [
+    "Espierta la etxea",
+    "Heredes un caseríu apagáu y reconstrúyeslu pallabra a pallabra. El to progresu ye la to casa en pie."
+   ],
+   [
+    "Auzolan",
+    "Les obres grandes llevántense en comunidá, como siempre se fizo. Cooperar ye más vascu que competir."
+   ]
+  ],
+  "habitante": "El primer habitante del xuegu yá ta equí. Entá nun tien nome.",
+  "boton": "Interésame",
+  "anotado": "¡Apuntao, gracies! Ayúdanos a saber si paga la pena facelo.",
+  "error": "Nun se pudo apuntar. Prueba otra vuelta nun momentu.",
+  "nota": "Namái contamos cuánta xente calca’l botón. Nun guardamos el to corréu nin nada que t’identifique.",
+  "tarjeta": "L’euskera, xugando",
+  "privacidad": "<strong>Botón «Interésame» de Kaixo Jolas:</strong> al calcalu sumamos ún a un contador por día, idioma y orixe (web o app). Nun guardamos corréu, IP nin dengún identificador; nel to preséu queda una marca pa nun contate dos veces. Pa descartar robots úsase un token de Cloudflare Turnstile nel momentu de calcar."
+ },
+ "an": {
+  "titulo": "Kaixo Jolas ye en camín",
+  "entradilla": "L'euskera, chugando: hereda a etxea de l'aitona y dispierta-la parola a parola.",
+  "pacto": "Tot o conoiximiento seguirá siempre de baldes en Kaixo. Jolas ye ta vivir-lo como un chuego.",
+  "pilares": [
+   [
+    "O fuego d'o fogar",
+    "A tuya constancia ye o fuego d'a etxea: si faltas un día quedan brasas, y se reviscolan en tornar. Sin castigos, nunca."
+   ],
+   [
+    "Dispierta a etxea",
+    "Heredas un caserío amortau y lo reconstruyes parola a parola. O tuyo progreso ye a tuya casa en piet."
+   ],
+   [
+    "Auzolan",
+    "As obras grans se devantan en comunidat, como siempre se fizo. Cooperar ye más vasco que competir."
+   ]
+  ],
+  "habitante": "O primer habitant d’o chuego ya ye aquí. Encara no tien nombre.",
+  "boton": "M’intresa",
+  "anotado": "Anotau, gracias! Nos aduya a saber si vale la pena fer-lo.",
+  "error": "No s’ha puesto anotar. Torna a prebar-lo en un momento.",
+  "nota": "Nomás contamos quántas personas pretan o botón. No alzamos o tuyo correu ni cosa que t’identifique.",
+  "tarjeta": "L’euskera, chugando",
+  "privacidad": "<strong>Botón «M’intresa» de Kaixo Jolas:</strong> en pretar-lo sumamos uno a un contador por día, idioma y orichen (web u app). No alzamos correu, IP ni garra identificador; en o tuyo dispositivo queda una marca ta no contar-te dos vegadas. Ta descartar robots se fa servir un token de Cloudflare Turnstile en o momento de pretar."
+ },
+ "en": {
+  "titulo": "Kaixo Jolas is coming",
+  "entradilla": "Basque, as a game: inherit your aitona's farmhouse and wake it up word by word.",
+  "pacto": "All the knowledge will always be free in Kaixo. Jolas is about living it as a game.",
+  "pilares": [
+   [
+    "The hearth fire",
+    "Your consistency is the etxea's fire: miss a day and embers remain, rekindled when you return. No punishments, ever."
+   ],
+   [
+    "Wake the etxea",
+    "You inherit a dormant farmhouse and rebuild it word by word. Your progress is your house, standing."
+   ],
+   [
+    "Auzolan",
+    "Great works are raised together, as they always were. Cooperating is more Basque than competing."
+   ]
+  ],
+  "habitante": "The first inhabitant of the game is already here. It has no name yet.",
+  "boton": "I’m interested",
+  "anotado": "Noted, thank you! It helps us know whether it is worth making.",
+  "error": "It could not be noted. Please try again in a moment.",
+  "nota": "We only count how many people tap the button. We do not store your email or anything that identifies you.",
+  "tarjeta": "Basque, by playing",
+  "privacidad": "<strong>Kaixo Jolas “I’m interested” button:</strong> when you tap it we add one to a counter by day, language and origin (web or app). We store no email, IP address or identifier; a mark stays on your device so you are not counted twice. To rule out bots, a Cloudflare Turnstile token is used at the moment you tap."
+ },
+ "ar": {
+  "titulo": "Kaixo Jolas قادمة قريبًا",
+  "entradilla": "الباسكية لعبًا: ورِث بيت الجدّ الريفي وأيقظه كلمة كلمة.",
+  "pacto": "كل المعرفة ستبقى مجانية دائمًا في Kaixo. أما Jolas فهي لعيشها كلعبة.",
+  "pilares": [
+   [
+    "نار الموقد",
+    "مواظبتك هي نار البيت: إن غبت يومًا يبقى الجمر، ويتقد من جديد حين تعود. لا عقوبات أبدًا."
+   ],
+   [
+    "أيقظ البيت",
+    "ترث بيتًا ريفيًا خامدًا وتعيد بناءه كلمة كلمة. تقدمك هو بيتك واقفًا."
+   ],
+   [
+    "أوزولان",
+    "الأعمال الكبيرة تُبنى معًا، كما كانت دائمًا. التعاون أكثر باسكيةً من التنافس."
+   ]
+  ],
+  "habitante": "أول ساكن في اللعبة موجود هنا بالفعل. لم يُسمَّ بعد.",
+  "boton": "أنا مهتم",
+  "anotado": "تم التسجيل، شكرًا! هذا يساعدنا على معرفة إن كان يستحق أن نصنعه.",
+  "error": "تعذّر التسجيل. حاول مرة أخرى بعد قليل.",
+  "nota": "نحصي فقط عدد من يضغطون على الزر. لا نحفظ بريدك ولا أي شيء يعرّف بك.",
+  "tarjeta": "الباسكية لعبًا",
+  "privacidad": "<strong>زر «أنا مهتم» في Kaixo Jolas:</strong> عند الضغط عليه نضيف واحدًا إلى عدّاد بحسب اليوم واللغة والمصدر (الويب أو التطبيق). لا نحفظ بريدًا ولا عنوان IP ولا أي معرّف؛ وتبقى علامة على جهازك حتى لا تُحتسب مرتين. ولاستبعاد الروبوتات يُستخدم رمز Cloudflare Turnstile لحظة الضغط."
+ },
+ "fr": {
+  "titulo": "Kaixo Jolas arrive",
+  "entradilla": "Le basque, en jouant : hérite de l'etxea de l'aitona et réveille-la mot à mot.",
+  "pacto": "Tout le savoir restera toujours gratuit dans Kaixo. Jolas, c'est pour le vivre comme un jeu.",
+  "pilares": [
+   [
+    "Le feu du foyer",
+    "Ta constance est le feu de l'etxea : manque un jour, il reste des braises, ravivées à ton retour. Sans punitions, jamais."
+   ],
+   [
+    "Réveille l'etxea",
+    "Tu hérites d'une ferme éteinte et tu la rebâtis mot à mot. Ton progrès, c'est ta maison debout."
+   ],
+   [
+    "Auzolan",
+    "Les grands ouvrages se bâtissent ensemble, comme toujours. Coopérer est plus basque que rivaliser."
+   ]
+  ],
+  "habitante": "Le premier habitant du jeu est déjà là. Il n’a pas encore de nom.",
+  "boton": "Ça m’intéresse",
+  "anotado": "C’est noté, merci ! Cela nous aide à savoir si cela vaut la peine de le faire.",
+  "error": "Impossible de le noter. Réessayez dans un instant.",
+  "nota": "Nous comptons seulement combien de personnes touchent le bouton. Nous ne conservons ni votre e-mail ni rien qui vous identifie.",
+  "tarjeta": "Le basque, en jouant",
+  "privacidad": "<strong>Bouton « Ça m’intéresse » de Kaixo Jolas :</strong> quand vous le touchez, nous ajoutons un à un compteur par jour, langue et origine (web ou app). Nous ne conservons ni e-mail, ni adresse IP, ni identifiant ; une marque reste sur votre appareil pour ne pas vous compter deux fois. Pour écarter les robots, un jeton Cloudflare Turnstile est utilisé au moment du toucher."
+ },
+ "ro": {
+  "titulo": "Kaixo Jolas e pe drum",
+  "entradilla": "Basca, jucându-te: moștenește etxea bunicului și trezește-o cuvânt cu cuvânt.",
+  "pacto": "Toată cunoașterea va rămâne mereu gratuită în Kaixo. Jolas e ca s-o trăiești ca pe un joc.",
+  "pilares": [
+   [
+    "Focul din vatră",
+    "Constanța ta e focul etxeei: dacă lipsești o zi rămân jarul și tăciunii, reaprinși când revii. Fără pedepse, niciodată."
+   ],
+   [
+    "Trezește etxea",
+    "Moștenești o fermă stinsă și o reclădești cuvânt cu cuvânt. Progresul tău e casa ta în picioare."
+   ],
+   [
+    "Auzolan",
+    "Lucrările mari se ridică împreună, cum s-a făcut mereu. A coopera e mai basc decât a concura."
+   ]
+  ],
+  "habitante": "Primul locuitor al jocului este deja aici. Încă nu are nume.",
+  "boton": "Mă interesează",
+  "anotado": "Am notat, mulțumim! Ne ajută să știm dacă merită să-l facem.",
+  "error": "Nu s-a putut nota. Încearcă din nou peste o clipă.",
+  "nota": "Numărăm doar câte persoane ating butonul. Nu păstrăm e-mailul tău și nimic care să te identifice.",
+  "tarjeta": "Basca, jucându-te",
+  "privacidad": "<strong>Butonul „Mă interesează” din Kaixo Jolas:</strong> când îl atingi, adăugăm unu la un contor pe zi, limbă și origine (web sau aplicație). Nu păstrăm e-mail, adresă IP sau vreun identificator; pe dispozitivul tău rămâne un marcaj ca să nu fii numărat de două ori. Pentru a exclude roboții se folosește un token Cloudflare Turnstile în momentul atingerii."
+ },
+ "pt-BR": {
+  "titulo": "Kaixo Jolas está chegando",
+  "entradilla": "O basco, jogando: herde a etxea do aitona e desperte-a palavra por palavra.",
+  "pacto": "Todo o conhecimento continuará sempre grátis no Kaixo. O Jolas é para vivê-lo como um jogo.",
+  "pilares": [
+   [
+    "O fogo da lareira",
+    "Sua constância é o fogo da etxea: falte um dia e ficam brasas, reacesas quando você volta. Sem castigos, jamais."
+   ],
+   [
+    "Desperte a etxea",
+    "Você herda um casarão apagado e o reconstrói palavra por palavra. Seu progresso é sua casa de pé."
+   ],
+   [
+    "Auzolan",
+    "As grandes obras se erguem em comunidade, como sempre foi. Cooperar é mais basco que competir."
+   ]
+  ],
+  "habitante": "O primeiro habitante do jogo já está aqui. Ainda não tem nome.",
+  "boton": "Tenho interesse",
+  "anotado": "Anotado, obrigado! Isso nos ajuda a saber se vale a pena fazer.",
+  "error": "Não foi possível anotar. Tente de novo em instantes.",
+  "nota": "Só contamos quantas pessoas tocam no botão. Não guardamos seu e-mail nem nada que identifique você.",
+  "tarjeta": "O basco, jogando",
+  "privacidad": "<strong>Botão “Tenho interesse” do Kaixo Jolas:</strong> ao tocar nele, somamos um a um contador por dia, idioma e origem (web ou app). Não guardamos e-mail, IP nem nenhum identificador; fica uma marca no seu dispositivo para não contar você duas vezes. Para descartar robôs, usa-se um token do Cloudflare Turnstile no momento do toque."
+ },
+ "de": {
+  "titulo": "Kaixo Jolas ist unterwegs",
+  "entradilla": "Baskisch, spielend: Erbe das Etxea des Aitona und erwecke es Wort für Wort.",
+  "pacto": "Alles Wissen bleibt in Kaixo für immer gratis. Jolas ist dafür da, es als Spiel zu erleben.",
+  "pilares": [
+   [
+    "Das Herdfeuer",
+    "Deine Beständigkeit ist das Feuer des Etxea: Fehlst du einen Tag, bleibt Glut — sie flammt auf, wenn du zurückkehrst. Keine Strafen, niemals."
+   ],
+   [
+    "Weck das Etxea",
+    "Du erbst einen erloschenen Hof und baust ihn Wort für Wort wieder auf. Dein Fortschritt ist dein Haus, das steht."
+   ],
+   [
+    "Auzolan",
+    "Große Werke entstehen gemeinsam, wie eh und je. Zusammenarbeit ist baskischer als Wettstreit."
+   ]
+  ],
+  "habitante": "Der erste Bewohner des Spiels ist schon da. Er hat noch keinen Namen.",
+  "boton": "Interessiert mich",
+  "anotado": "Notiert, danke! Das hilft uns zu wissen, ob es sich lohnt, es zu machen.",
+  "error": "Das konnte nicht notiert werden. Versuch es gleich noch einmal.",
+  "nota": "Wir zählen nur, wie viele Personen auf die Schaltfläche tippen. Wir speichern weder deine E-Mail noch irgendetwas, das dich identifiziert.",
+  "tarjeta": "Baskisch, spielend",
+  "privacidad": "<strong>Schaltfläche „Interessiert mich“ von Kaixo Jolas:</strong> Beim Antippen erhöhen wir einen Zähler nach Tag, Sprache und Herkunft (Web oder App) um eins. Wir speichern keine E-Mail, keine IP-Adresse und keine Kennung; auf deinem Gerät bleibt eine Markierung, damit du nicht doppelt gezählt wirst. Um Bots auszuschließen, wird beim Antippen ein Cloudflare-Turnstile-Token verwendet."
+ },
+ "it": {
+  "titulo": "Kaixo Jolas è in arrivo",
+  "entradilla": "Il basco, giocando: eredita l'etxea dell'aitona e risvegliala parola per parola.",
+  "pacto": "Tutta la conoscenza resterà per sempre gratis in Kaixo. Jolas serve a viverla come un gioco.",
+  "pilares": [
+   [
+    "Il fuoco del focolare",
+    "La tua costanza è il fuoco dell'etxea: se manchi un giorno restano le braci, ravvivate al tuo ritorno. Senza punizioni, mai."
+   ],
+   [
+    "Risveglia l'etxea",
+    "Erediti un casale spento e lo ricostruisci parola per parola. Il tuo progresso è la tua casa in piedi."
+   ],
+   [
+    "Auzolan",
+    "Le grandi opere si alzano in comunità, come si è sempre fatto. Cooperare è più basco che competere."
+   ]
+  ],
+  "habitante": "Il primo abitante del gioco è già qui. Non ha ancora un nome.",
+  "boton": "Mi interessa",
+  "anotado": "Annotato, grazie! Ci aiuta a capire se vale la pena farlo.",
+  "error": "Non è stato possibile annotarlo. Riprova tra un momento.",
+  "nota": "Contiamo solo quante persone toccano il pulsante. Non conserviamo la tua email né nulla che ti identifichi.",
+  "tarjeta": "Il basco, giocando",
+  "privacidad": "<strong>Pulsante «Mi interessa» di Kaixo Jolas:</strong> quando lo tocchi aggiungiamo uno a un contatore per giorno, lingua e origine (web o app). Non conserviamo email, indirizzo IP né alcun identificatore; sul tuo dispositivo resta un segno per non contarti due volte. Per escludere i robot si usa un token di Cloudflare Turnstile nel momento del tocco."
+ },
+ "ru": {
+  "titulo": "Kaixo Jolas уже в пути",
+  "entradilla": "Баскский — играя: унаследуй эчеа дедушки-айтоны и разбуди её слово за словом.",
+  "pacto": "Все знания навсегда останутся бесплатными в Kaixo. Jolas — чтобы прожить их как игру.",
+  "pilares": [
+   [
+    "Огонь очага",
+    "Ваше постоянство — огонь эчеа: пропустите день — останутся угли, что вспыхнут вновь по возвращении. Без наказаний, никогда."
+   ],
+   [
+    "Разбудите эчеа",
+    "Вы наследуете угасший хутор и отстраиваете его слово за словом. Ваш прогресс — ваш дом, что стоит."
+   ],
+   [
+    "Аузолан",
+    "Большие дела делаются сообща, как повелось исстари. Сотрудничать — более по-баскски, чем соперничать."
+   ]
+  ],
+  "habitante": "Первый житель игры уже здесь. У него пока нет имени.",
+  "boton": "Мне интересно",
+  "anotado": "Записали, спасибо! Это помогает нам понять, стоит ли её делать.",
+  "error": "Не удалось записать. Попробуйте ещё раз чуть позже.",
+  "nota": "Мы считаем только, сколько людей нажали кнопку. Мы не сохраняем вашу почту и ничего, что вас идентифицирует.",
+  "tarjeta": "Баскский — играя",
+  "privacidad": "<strong>Кнопка «Мне интересно» в Kaixo Jolas:</strong> при нажатии мы прибавляем единицу к счётчику по дню, языку и источнику (сайт или приложение). Мы не сохраняем ни почту, ни IP-адрес, ни какой-либо идентификатор; на вашем устройстве остаётся отметка, чтобы не посчитать вас дважды. Чтобы отсечь роботов, в момент нажатия используется токен Cloudflare Turnstile."
+ },
+ "pl": {
+  "titulo": "Kaixo Jolas już nadchodzi",
+  "entradilla": "Baskijski przez zabawę: odziedzicz etxea po aitonie i obudź ją słowo po słowie.",
+  "pacto": "Cała wiedza na zawsze pozostanie darmowa w Kaixo. Jolas jest po to, by przeżyć ją jak grę.",
+  "pilares": [
+   [
+    "Ogień domowego paleniska",
+    "Twoja wytrwałość to ogień etxei: opuścisz dzień — zostaje żar, który rozpala się, gdy wracasz. Bez kar, nigdy."
+   ],
+   [
+    "Obudź etxeę",
+    "Dziedziczysz wygasłą zagrodę i odbudowujesz ją słowo po słowie. Twój postęp to twój dom, który stoi."
+   ],
+   [
+    "Auzolan",
+    "Wielkie dzieła wznosi się wspólnie, jak zawsze. Współpraca jest bardziej baskijska niż rywalizacja."
+   ]
+  ],
+  "habitante": "Pierwszy mieszkaniec gry już tu jest. Nie ma jeszcze imienia.",
+  "boton": "Interesuje mnie to",
+  "anotado": "Zapisane, dziękujemy! To pomaga nam ocenić, czy warto ją zrobić.",
+  "error": "Nie udało się zapisać. Spróbuj ponownie za chwilę.",
+  "nota": "Liczymy tylko, ile osób dotyka przycisku. Nie zapisujemy Twojego e-maila ani niczego, co Cię identyfikuje.",
+  "tarjeta": "Baskijski przez zabawę",
+  "privacidad": "<strong>Przycisk „Interesuje mnie to” w Kaixo Jolas:</strong> po dotknięciu dodajemy jeden do licznika według dnia, języka i źródła (strona lub aplikacja). Nie zapisujemy e-maila, adresu IP ani żadnego identyfikatora; na Twoim urządzeniu zostaje znacznik, żeby nie liczyć Cię dwa razy. Aby odsiać boty, w chwili dotknięcia używany jest token Cloudflare Turnstile."
+ },
+ "zh-Hans": {
+  "titulo": "Kaixo Jolas 即将到来",
+  "entradilla": "玩着学巴斯克语：继承祖父的农舍（etxea），一词一词把它唤醒。",
+  "pacto": "所有知识将永远在 Kaixo 免费。Jolas 是把它当作游戏来体验。",
+  "pilares": [
+   [
+    "炉火",
+    "你的坚持就是家宅之火：缺席一天只剩余烬，归来时重新燃起。永远没有惩罚。"
+   ],
+   [
+    "唤醒家宅",
+    "你继承一座沉睡的农舍，一词一词将它重建。你的进度，就是矗立的家。"
+   ],
+   [
+    "Auzolan 共建",
+    "大工程向来是大家一起完成的。协作比竞争更巴斯克。"
+   ]
+  ],
+  "habitante": "游戏里的第一位居民已经来了，它还没有名字。",
+  "boton": "我感兴趣",
+  "anotado": "已记下，谢谢！这能帮我们判断是否值得去做。",
+  "error": "未能记下，请稍后再试。",
+  "nota": "我们只统计有多少人点了按钮，不保存你的邮箱，也不保存任何能识别你的信息。",
+  "tarjeta": "边玩边学巴斯克语",
+  "privacidad": "<strong>Kaixo Jolas 的“我感兴趣”按钮：</strong>点击时，我们会在按日期、语言和来源（网页或应用）统计的计数器上加一。我们不保存邮箱、IP 地址或任何标识符；你的设备上会留下一个标记，避免重复计数。为排除机器人，点击时会使用 Cloudflare Turnstile 令牌。"
+ },
+ "ja": {
+  "titulo": "Kaixo Jolas がやってくる",
+  "entradilla": "遊びながらバスク語を：おじいさん（アイトナ）のエチェアを受け継ぎ、ことば一つずつ目覚めさせよう。",
+  "pacto": "すべての知識は Kaixo でずっと無料のまま。Jolas はそれをゲームとして生きるためのもの。",
+  "pilares": [
+   [
+    "囲炉裏の火",
+    "あなたの継続はエチェアの火。一日休んでも熾火が残り、戻れば再び燃え上がる。罰は決してありません。"
+   ],
+   [
+    "エチェアを目覚めさせる",
+    "眠った農家を受け継ぎ、ことば一つずつ建て直す。あなたの進歩が、建っている家そのもの。"
+   ],
+   [
+    "アウソラン",
+    "大きな仕事はいつの時代も皆で成し遂げるもの。競うより協力こそバスク流。"
+   ]
+  ],
+  "habitante": "ゲームの最初の住人はもうここにいます。まだ名前はありません。",
+  "boton": "興味があります",
+  "anotado": "記録しました。ありがとうございます！作る価値があるかどうかの判断に役立ちます。",
+  "error": "記録できませんでした。少ししてからもう一度お試しください。",
+  "nota": "ボタンを押した人の数だけを数えています。メールアドレスも、あなたを特定できる情報も保存しません。",
+  "tarjeta": "遊びながらバスク語を",
+  "privacidad": "<strong>Kaixo Jolas の「興味があります」ボタン：</strong>押すと、日付・言語・流入元（ウェブまたはアプリ）ごとのカウンターに1を加えます。メールアドレス、IPアドレス、識別子は一切保存しません。二重に数えないよう、お使いの端末に目印が残ります。ボットを除外するため、押した時点で Cloudflare Turnstile のトークンを使用します。"
+ },
+ "ko": {
+  "titulo": "Kaixo Jolas가 온다",
+  "entradilla": "놀면서 배우는 바스크어: 할아버지(아이토나)의 에체아를 물려받아 단어 하나하나로 깨워 보세요.",
+  "pacto": "모든 지식은 Kaixo에서 언제까지나 무료입니다. Jolas는 그것을 게임으로 살아보는 앱입니다.",
+  "pilares": [
+   [
+    "화덕의 불",
+    "당신의 꾸준함이 곧 에체아의 불: 하루 빠지면 잉걸불이 남고, 돌아오면 다시 타오릅니다. 벌은 결코 없습니다."
+   ],
+   [
+    "에체아를 깨우다",
+    "잠든 농가를 물려받아 단어 하나하나로 다시 세웁니다. 당신의 진도가 곧 서 있는 집입니다."
+   ],
+   [
+    "아우솔란",
+    "큰 일은 언제나 함께 이루는 법. 경쟁보다 협력이 더 바스크답습니다."
+   ]
+  ],
+  "habitante": "게임의 첫 주민이 벌써 와 있어요. 아직 이름이 없습니다.",
+  "boton": "관심 있어요",
+  "anotado": "기록했어요, 고맙습니다! 만들 가치가 있는지 판단하는 데 도움이 됩니다.",
+  "error": "기록하지 못했습니다. 잠시 후 다시 시도해 주세요.",
+  "nota": "버튼을 누른 사람 수만 셉니다. 이메일이나 당신을 식별할 수 있는 어떤 것도 저장하지 않습니다.",
+  "tarjeta": "놀면서 배우는 바스크어",
+  "privacidad": "<strong>Kaixo Jolas의 「관심 있어요」 버튼:</strong> 누르면 날짜·언어·유입 경로(웹 또는 앱)별 카운터에 1을 더합니다. 이메일, IP 주소, 식별자는 저장하지 않으며, 중복 집계를 막기 위해 기기에 표시가 남습니다. 봇을 걸러내기 위해 누르는 순간 Cloudflare Turnstile 토큰을 사용합니다."
+ }
+}

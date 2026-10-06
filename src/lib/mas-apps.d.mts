@@ -21,3 +21,4 @@ export declare const TITULO_BETA: Record<string, string>;
 export declare function rutaBeta(app: AppDelEstudio, locale: string): string;
 export declare function esBetaEnAndroid(app: AppDelEstudio): boolean;
 export declare const NOTA_MENORES: Record<string, string>;
+export declare const PROXIMAMENTE: { id: string; nombre: string; icono: string; ruta: string }[];

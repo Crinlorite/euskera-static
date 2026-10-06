@@ -55,9 +55,10 @@ export const APPS = [
  * Textos por idioma. Sale una tarjeta por cada app activada para ese idioma
  * (`locales` de cada app); sin ninguna, no hay bloque.
  *
- * `antes` + Crintech + `despues` forman el título; en singular donde solo sale
- * una app. Las líneas de Aulixa en inglés, rumano, chino y árabe salen de su
- * propia ficha en cada tienda.
+ * `antes` + Crintech + `despues` forman el título, en plural: en todos los
+ * idiomas hay al menos dos tarjetas (una app y Kaixo Jolas, «Próximamente»).
+ * Las líneas de Aulixa en inglés, rumano, chino y árabe salen de su propia
+ * ficha en cada tienda.
  */
 export const TEXTOS = {
   es: { antetitulo: 'Del mismo estudio', antes: 'Más apps de', despues: '', entradilla: 'Hechas con el mismo cuidado, para repasar en casa.',
@@ -72,30 +73,30 @@ export const TEXTOS = {
     apps: { aulixa: 'Repaso de Primaria', aprenza: 'Estudio y examens d’a ESO' } },
   oc: { antetitulo: 'Del meteis estudi', antes: 'Mai d’apps de', despues: '', entradilla: 'Fachas amb lo meteis suenh, per repassar a l’ostal.',
     apps: { aulixa: 'Repàs de Primària', aprenza: 'Estudi e examens de l’ESO' } },
-  en: { antetitulo: 'From the same studio', antes: 'Another app by', despues: '', entradilla: 'Made with the same care, for practising at home.',
+  en: { antetitulo: 'From the same studio', antes: 'More apps by', despues: '', entradilla: 'Made with the same care, for practising at home.',
     apps: { aulixa: 'Elementary school quiz' } },
-  ro: { antetitulo: 'De la același studio', antes: 'O altă aplicație de la', despues: '', entradilla: 'Făcută cu aceeași grijă, pentru recapitulat acasă.',
+  ro: { antetitulo: 'De la același studio', antes: 'Mai multe aplicații de la', despues: '', entradilla: 'Făcute cu aceeași grijă, pentru recapitulat acasă.',
     apps: { aulixa: 'Teste pentru clasele I–VI' } },
-  'zh-Hans': { antetitulo: '来自同一工作室', antes: '另一款来自', despues: ' 的应用', entradilla: '同样用心制作，适合在家复习。',
+  'zh-Hans': { antetitulo: '来自同一工作室', antes: '更多来自', despues: ' 的应用', entradilla: '同样用心制作，适合在家复习。',
     apps: { aulixa: '小学1-6年级复习' } },
-  ar: { antetitulo: 'من الاستوديو نفسه', antes: 'تطبيق آخر من', despues: '', entradilla: 'مصنوع بالعناية نفسها، للمراجعة في البيت.',
+  ar: { antetitulo: 'من الاستوديو نفسه', antes: 'تطبيقات أخرى من', despues: '', entradilla: 'مصنوعة بالعناية نفسها، للمراجعة في البيت.',
     apps: { aulixa: 'مراجعة الابتدائية' } },
   // Aulixa no está en estos idiomas: la tarjeta lo dice.
-  fr: { antetitulo: 'Du même studio', antes: 'Une autre app de', despues: '', entradilla: 'Faite avec le même soin, pour réviser à la maison.',
+  fr: { antetitulo: 'Du même studio', antes: 'D’autres apps de', despues: '', entradilla: 'Faites avec le même soin, pour réviser à la maison.',
     apps: { aulixa: 'Quiz de primaire (en anglais ou en espagnol)' } },
-  de: { antetitulo: 'Vom selben Studio', antes: 'Noch eine App von', despues: '', entradilla: 'Mit derselben Sorgfalt gemacht, zum Üben zu Hause.',
+  de: { antetitulo: 'Vom selben Studio', antes: 'Weitere Apps von', despues: '', entradilla: 'Mit derselben Sorgfalt gemacht, zum Üben zu Hause.',
     apps: { aulixa: 'Grundschul-Quiz (auf Englisch oder Spanisch)' } },
-  it: { antetitulo: 'Dallo stesso studio', antes: 'Un’altra app di', despues: '', entradilla: 'Fatta con la stessa cura, per ripassare a casa.',
+  it: { antetitulo: 'Dallo stesso studio', antes: 'Altre app di', despues: '', entradilla: 'Fatte con la stessa cura, per ripassare a casa.',
     apps: { aulixa: 'Quiz della scuola primaria (in inglese o spagnolo)' } },
-  'pt-BR': { antetitulo: 'Do mesmo estúdio', antes: 'Outro app da', despues: '', entradilla: 'Feito com o mesmo cuidado, para revisar em casa.',
+  'pt-BR': { antetitulo: 'Do mesmo estúdio', antes: 'Mais apps da', despues: '', entradilla: 'Feitos com o mesmo cuidado, para revisar em casa.',
     apps: { aulixa: 'Quiz do ensino fundamental (em inglês ou espanhol)' } },
-  ru: { antetitulo: 'От той же студии', antes: 'Ещё одно приложение от', despues: '', entradilla: 'Сделано с той же заботой — для повторения дома.',
+  ru: { antetitulo: 'От той же студии', antes: 'Другие приложения от', despues: '', entradilla: 'Сделано с той же заботой — для повторения дома.',
     apps: { aulixa: 'Викторина для начальной школы (на английском или испанском)' } },
-  pl: { antetitulo: 'Od tego samego studia', antes: 'Kolejna aplikacja od', despues: '', entradilla: 'Zrobiona z tą samą starannością, do powtórek w domu.',
+  pl: { antetitulo: 'Od tego samego studia', antes: 'Więcej aplikacji od', despues: '', entradilla: 'Zrobione z tą samą starannością, do powtórek w domu.',
     apps: { aulixa: 'Quiz dla szkoły podstawowej (po angielsku lub hiszpańsku)' } },
-  ja: { antetitulo: '同じスタジオから', antes: '', despues: 'のもうひとつのアプリ', entradilla: '同じこだわりで作りました。おうちでの復習に。',
+  ja: { antetitulo: '同じスタジオから', antes: '', despues: 'のほかのアプリ', entradilla: '同じこだわりで作りました。おうちでの復習に。',
     apps: { aulixa: '小学校の復習クイズ（英語・スペイン語）' } },
-  ko: { antetitulo: '같은 스튜디오에서', antes: '', despues: '의 또 다른 앱', entradilla: '같은 정성으로 만들었습니다. 집에서 복습할 때 좋아요.',
+  ko: { antetitulo: '같은 스튜디오에서', antes: '', despues: '의 다른 앱', entradilla: '같은 정성으로 만들었습니다. 집에서 복습할 때 좋아요.',
     apps: { aulixa: '초등학교 복습 퀴즈 (영어·스페인어)' } },
 };
 
@@ -114,6 +115,15 @@ export const NOTA_MENORES = {
   an: 'Si a cuenta de Google d’o mobil ye d’un menor supervisau con Family Link, puet estar que Google no le deixe dentrar en o grupo. En ixe caso, fe os tres pasos con a cuenta d’un adulto u demanda aduya en a <a href="https://aprenza.app/soporte" rel="noopener">pachina de soporte d’Aprenza</a>.',
   oc: 'Se lo compte Google del telefòn es lo d’un menor supervisat amb Family Link, es possible que Google lo daisse pas dintrar dins lo grop. Dins aquel cas, fasètz los tres passes amb lo compte d’un adult o demandatz d’ajuda sus <a href="https://aprenza.app/soporte" rel="noopener">la pagina de supòrt d’Aprenza</a>.',
 };
+
+/**
+ * Lo que viene: una tarjeta más del bloque, con la etiqueta «Próximamente», que
+ * no lleva a ninguna tienda sino a su página dentro de Kaixo (igual en todos
+ * los dispositivos e idiomas). Hoy, Kaixo Jolas.
+ */
+export const PROXIMAMENTE = [
+  { id: 'jolas', nombre: 'Kaixo Jolas', icono: '/apps/jolas.png', ruta: 'jolas/' },
+];
 
 /** El título tal como se lee: `antes` + Crintech + `despues` (que trae su propio espacio si lo lleva). */
 export const tituloDe = (locale) => {
@@ -202,18 +212,18 @@ export const AVISO_PRIVACIDAD = {
   ast: '<strong>La tienda d’aplicaciones del to preséu, o la web de l’app</strong>, namái si calques una de les tarxetes de «Más apps de Crintech» del entamu. Kaixo nun rexistra esi toque nin amiesta dengún identificador al enllaz.',
   an: '<strong>A botiga d’aplicacions d’o tuyo dispositivo, u a web de l’app</strong>, nomás si pretas una d’as tarchetas de «Más apps de Crintech» de l’inicio. Kaixo no rechistra ixe toque ni adhibe garra identificador a l’enlaz.',
   oc: '<strong>La botiga d’aplicacions de ton aparelh, o lo site de l’app</strong>, solament se tòcas una de las cartas de «Mai d’apps de Crintech» de l’acuèlh. Kaixo enregistra pas aquel tòc ni apond pas cap d’identificant al ligam.',
-  en: '<strong>Your device’s app store, or the app’s website</strong>, only if you tap the “Another app by Crintech” card on the home page. Kaixo does not record that tap or add any identifier to the link.',
-  ro: '<strong>Magazinul de aplicații al dispozitivului tău sau site-ul aplicației</strong>, numai dacă atingi cardul „O altă aplicație de la Crintech” de pe pagina de pornire. Kaixo nu înregistrează acea atingere și nu adaugă niciun identificator la link.',
-  'zh-Hans': '<strong>你设备上的应用商店，或该应用的网站</strong>：仅当你点击首页“另一款来自 Crintech 的应用”的卡片时。Kaixo 不会记录这次点击，也不会在链接中添加任何标识符。',
-  ar: '<strong>متجر التطبيقات على جهازك، أو موقع التطبيق</strong>، فقط إذا ضغطت على بطاقة «تطبيق آخر من Crintech» في الصفحة الرئيسية. لا يسجّل Kaixo هذه الضغطة ولا يضيف أي معرّف إلى الرابط.',
-  fr: '<strong>La boutique d’applications de votre appareil, ou le site de l’app</strong>, uniquement si vous touchez la carte « Une autre app de Crintech » de l’accueil. Kaixo n’enregistre pas ce geste et n’ajoute aucun identifiant au lien.',
-  de: '<strong>Der App-Shop deines Geräts oder die Website der App</strong>, nur wenn du auf der Startseite auf die Karte „Noch eine App von Crintech“ tippst. Kaixo zeichnet dieses Antippen nicht auf und fügt dem Link keine Kennung hinzu.',
-  it: '<strong>Il negozio di app del tuo dispositivo, o il sito dell’app</strong>, solo se tocchi la scheda «Un’altra app di Crintech» nella pagina iniziale. Kaixo non registra quel tocco né aggiunge alcun identificatore al link.',
-  'pt-BR': '<strong>A loja de aplicativos do seu dispositivo, ou o site do app</strong>, somente se você tocar no cartão “Outro app da Crintech” na página inicial. O Kaixo não registra esse toque nem adiciona nenhum identificador ao link.',
-  ru: '<strong>Магазин приложений вашего устройства или сайт приложения</strong> — только если вы нажмёте карточку «Ещё одно приложение от Crintech» на главной странице. Kaixo не записывает это нажатие и не добавляет в ссылку никаких идентификаторов.',
-  pl: '<strong>Sklep z aplikacjami na Twoim urządzeniu lub strona aplikacji</strong> — tylko jeśli dotkniesz karty „Kolejna aplikacja od Crintech” na stronie głównej. Kaixo nie zapisuje tego dotknięcia ani nie dodaje do linku żadnego identyfikatora.',
-  ja: '<strong>お使いの端末のアプリストア、またはアプリのウェブサイト</strong>：ホームの「Crintechのもうひとつのアプリ」のカードをタップした場合のみ。Kaixo はそのタップを記録せず、リンクに識別子を付けることもありません。',
-  ko: '<strong>기기의 앱 스토어 또는 앱 웹사이트</strong>: 홈의 「Crintech의 또 다른 앱」 카드를 누른 경우에만 해당합니다. Kaixo는 그 터치를 기록하지 않으며 링크에 어떤 식별자도 추가하지 않습니다.',
+  en: '<strong>Your device’s app store, or the app’s website</strong>, only if you tap one of the “More apps by Crintech” cards on the home page. Kaixo does not record that tap or add any identifier to the link.',
+  ro: '<strong>Magazinul de aplicații al dispozitivului tău sau site-ul aplicației</strong>, numai dacă atingi unul dintre cardurile „Mai multe aplicații de la Crintech” de pe pagina de pornire. Kaixo nu înregistrează acea atingere și nu adaugă niciun identificator la link.',
+  'zh-Hans': '<strong>你设备上的应用商店，或该应用的网站</strong>：仅当你点击首页“更多来自 Crintech 的应用”中的卡片时。Kaixo 不会记录这次点击，也不会在链接中添加任何标识符。',
+  ar: '<strong>متجر التطبيقات على جهازك، أو موقع التطبيق</strong>، فقط إذا ضغطت على إحدى بطاقات «تطبيقات أخرى من Crintech» في الصفحة الرئيسية. لا يسجّل Kaixo هذه الضغطة ولا يضيف أي معرّف إلى الرابط.',
+  fr: '<strong>La boutique d’applications de votre appareil, ou le site de l’app</strong>, uniquement si vous touchez l’une des cartes « D’autres apps de Crintech » de l’accueil. Kaixo n’enregistre pas ce geste et n’ajoute aucun identifiant au lien.',
+  de: '<strong>Der App-Shop deines Geräts oder die Website der App</strong>, nur wenn du auf der Startseite auf eine der Karten „Weitere Apps von Crintech“ tippst. Kaixo zeichnet dieses Antippen nicht auf und fügt dem Link keine Kennung hinzu.',
+  it: '<strong>Il negozio di app del tuo dispositivo, o il sito dell’app</strong>, solo se tocchi una delle schede «Altre app di Crintech» nella pagina iniziale. Kaixo non registra quel tocco né aggiunge alcun identificatore al link.',
+  'pt-BR': '<strong>A loja de aplicativos do seu dispositivo, ou o site do app</strong>, somente se você tocar em um dos cartões “Mais apps da Crintech” na página inicial. O Kaixo não registra esse toque nem adiciona nenhum identificador ao link.',
+  ru: '<strong>Магазин приложений вашего устройства или сайт приложения</strong> — только если вы нажмёте одну из карточек «Другие приложения от Crintech» на главной странице. Kaixo не записывает это нажатие и не добавляет в ссылку никаких идентификаторов.',
+  pl: '<strong>Sklep z aplikacjami na Twoim urządzeniu lub strona aplikacji</strong> — tylko jeśli dotkniesz jednej z kart „Więcej aplikacji od Crintech” na stronie głównej. Kaixo nie zapisuje tego dotknięcia ani nie dodaje do linku żadnego identyfikatora.',
+  ja: '<strong>お使いの端末のアプリストア、またはアプリのウェブサイト</strong>：ホームの「Crintechのほかのアプリ」のカードをタップした場合のみ。Kaixo はそのタップを記録せず、リンクに識別子を付けることもありません。',
+  ko: '<strong>기기의 앱 스토어 또는 앱 웹사이트</strong>: 홈의 「Crintech의 다른 앱」 카드를 누른 경우에만 해당합니다. Kaixo는 그 터치를 기록하지 않으며 링크에 어떤 식별자도 추가하지 않습니다.',
 };
 
 /** La línea de privacidad de un idioma, o null si ahí no sale el bloque. */
