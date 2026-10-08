@@ -7,6 +7,7 @@ import { t } from '../../../../i18n/ui';
 
 import { ajusta, sinMarcado, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
 import { LOCKED_PATHS } from '../../../../lib/locked.mjs';
+import { existeRuta } from '../../../../lib/alternates';
 export async function getStaticPaths() {
   const allUnits = await getCollection('units');
   return allUnits
@@ -41,12 +42,16 @@ const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
   ? sameLevelUnits[currentIdx + 1]
   : undefined;
 const descripcion = ajusta(unit.data.description, t(locale, 'site.tagline'), minimoDescripcion(locale));
+// EGA no tiene pagina de nivel: solo se enlaza el nivel si existe.
+const hayNivel = await existeRuta(`${levelCode}/`, locale);
 ---
 <RootLayout locale={locale} title={unit.data.title} description={descripcion} noindex={LOCKED_PATHS.includes(levelCode)}>
   <article class="container-wide unit">
     <header class="unit-header stagger">
       <p class="eyebrow">
-        <a href={`/${locale}/${levelCode}/`}>← {levelCode.toUpperCase()} · Todas las unidades</a>
+        {hayNivel
+          ? <a href={`/${locale}/${levelCode}/`}>← {levelCode.toUpperCase()} · Todas las unidades</a>
+          : <span>{levelCode.toUpperCase()}</span>}
       </p>
       <div class="unit-headline">
         <span class="unit-num display">{unit.data.order.toString().padStart(2, '0')}</span>
@@ -79,10 +84,12 @@ const descripcion = ajusta(unit.data.description, t(locale, 'site.tagline'), min
         </a>
       ) : <div></div>}
 
-      <a class="unit-nav-back" href={`/${locale}/${levelCode}/`}>
-        <small>Volver a</small>
-        <strong>{levelCode.toUpperCase()}</strong>
-      </a>
+      {hayNivel ? (
+        <a class="unit-nav-back" href={`/${locale}/${levelCode}/`}>
+          <small>Volver a</small>
+          <strong>{levelCode.toUpperCase()}</strong>
+        </a>
+      ) : <div></div>}
 
       {nextUnit ? (
         <a class="unit-nav-card next" href={`/${locale}/${levelCode}/${nextUnit.data.code}/`}>

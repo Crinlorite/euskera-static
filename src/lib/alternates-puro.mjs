@@ -53,3 +53,29 @@ export function construye(ruta, locales) {
   }
   return salida;
 }
+
+/**
+ * Rutas candidatas para llevar a alguien a otro idioma, de la mas concreta a la
+ * portada: `hiztegia/ura/` -> ['hiztegia/ura/', 'hiztegia/', ''].
+ */
+export function candidatas(ruta) {
+  const seg = ruta.split('/').filter(Boolean);
+  const salida = [];
+  for (let n = seg.length; n > 0; n--) salida.push(`${seg.slice(0, n).join('/')}/`);
+  salida.push('');
+  return salida;
+}
+
+/**
+ * Adonde lleva el selector de idioma desde `pathname` al idioma `locale`: la
+ * misma pagina si existe en ese idioma y, si no, la mas cercana hacia arriba que
+ * si exista (8-oct-2026: cambiar el prefijo a ciegas dejaba ~18.000 enlaces a
+ * 404 en las paginas que solo existen en castellano). `existe(ruta, locale)`
+ * consulta el inventario. Una ruta sin idioma (`/app/...`) va a la portada.
+ */
+export function destinoIdioma(pathname, locale, existe) {
+  const { locale: actual, ruta } = separaLocale(pathname);
+  if (!actual) return `/${locale}/`;
+  const ruta1 = candidatas(ruta).find((r) => existe(r, locale)) ?? '';
+  return `/${locale}/${ruta1}`;
+}
