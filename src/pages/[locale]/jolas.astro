@@ -32,6 +32,7 @@ const ICONOS = ['🔥', '🏡', '🤝'];
     </figure>
 
     <div class="signup">
+      <p class="pact">{tx.pacto}</p>
       <BotonInteres client:load locale={locale} textos={{ boton: tx.boton, anotado: tx.anotado, error: tx.error, nota: tx.nota }} />
       <p class="privacidad"><a href={`/${locale}/privacidad/`}>{t(locale, 'priv.title')}</a></p>
     </div>
@@ -51,7 +52,6 @@ const ICONOS = ['🔥', '🏡', '🤝'];
       ))}
     </div>
 
-    <p class="pact">{tx.pacto}</p>
   </article>
 </RootLayout>
 
@@ -63,7 +63,7 @@ const ICONOS = ['🔥', '🏡', '🤝'];
   .mascot { margin: 0 0 var(--s-5); text-align: center; }
   .mascot video {
     width: min(420px, 100%); border-radius: 16px;
-    border: 1px solid var(--c-border-strong); background: #38383f;
+    border: 1px solid var(--c-border-strong); background: #f5f3ef;
   }
   .mascot figcaption { font-size: 0.9rem; color: var(--c-text-muted); margin-block-start: var(--s-2); line-height: 1.5; }
   .signup { margin: 0 0 var(--s-5); display: grid; gap: var(--s-2); }
@@ -84,6 +84,6 @@ const ICONOS = ['🔥', '🏡', '🤝'];
     border-inline-start: 4px solid var(--c-green);
     border-radius: 8px;
     font-weight: 600; line-height: 1.6;
-    margin: 0;
+    margin: 0 0 var(--s-2);
   }
 </style>
