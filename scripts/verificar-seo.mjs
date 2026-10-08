@@ -63,6 +63,13 @@ for (const f of paginas) {
   verdad.get(ruta).add(locale);
 }
 
+/** Un enlace interno resuelve a algo del build (pagina o fichero). */
+const existeEnDist = (destino) => {
+  const p = join(DIST, destino);
+  if (destino.endsWith('/')) return existsSync(join(p, 'index.html'));
+  return existsSync(p) && statSync(p).isFile() || existsSync(join(p, 'index.html')) || existsSync(`${p}.html`);
+};
+
 const fallos = new Map();
 const falla = (regla, msg) => {
   if (!fallos.has(regla)) fallos.set(regla, []);
@@ -133,6 +140,16 @@ for (const f of paginas) {
     }
   } else if (enlaces.length) {
     falla('H1', `${rel}: pagina fuera de todo cluster emitiendo ${enlaces.length} hreflang`);
+  }
+
+  // E1: ningun enlace interno apunta a una pagina que no existe (8-oct-2026).
+  // El selector de idioma del pie cambiaba el prefijo a ciegas y en las paginas
+  // que solo existen en castellano (Hiztegia por palabra, B1-C2/EGA) enlazaba
+  // 17 versiones inexistentes: ~24.000 404 que los rastreadores recorrian.
+  for (const m of html.matchAll(/<a\b[^>]*?\shref="(\/(?!\/)[^"#?]*)/g)) {
+    const destino = decodeURI(decodifica(m[1]));
+    if (destino.startsWith('/api/') || destino.startsWith('/cdn-cgi/')) continue;
+    if (!existeEnDist(destino)) falla('E1', `${rel || '/'} -> ${destino}`);
   }
 
   // A1: la pagina de Android promociona Google Play. Dentro de la app de iOS no
@@ -303,6 +320,7 @@ const REGLAS = {
   V2: 'ninguna pagina del hiztegia es un cascaron, y todas avisan de que estan en beta',
   V3: 'el hiztegia no lleva pronunciaciones hasta que se revisen',
   A1: 'la pagina de Android es legible sin JavaScript y conserva su barrera 2.3.10',
+  E1: 'ningun enlace interno apunta a una pagina que no existe',
 };
 
 let total = 0;
@@ -311,8 +329,8 @@ for (const regla of Object.keys(REGLAS)) {
   if (!lista) continue;
   total += lista.length;
   console.log(`  [${regla}] ${REGLAS[regla]}: ${lista.length} fallo(s)`);
-  for (const m of lista.slice(0, 4)) console.log(`       ${m}`);
-  if (lista.length > 4) console.log(`       ... y ${lista.length - 4} mas`);
+  for (const m of (process.env.TODO ? lista : lista.slice(0, 4))) console.log(`       ${m}`);
+  if (lista.length > 4 && !process.env.TODO) console.log(`       ... y ${lista.length - 4} mas`);
 }
 console.log(total
   ? `\n  FALLA: ${paginas.length} paginas revisadas, ${total} fallos`

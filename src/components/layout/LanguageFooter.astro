@@ -1,6 +1,7 @@
 ---
 import { LANGUAGES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
+import { destinoIdiomaDe } from '../../lib/alternates';
 
 interface Props { currentLocale: LocaleCode; }
 const { currentLocale } = Astro.props;
@@ -13,13 +14,13 @@ const otros = all.filter((l) =>
 );
 const current = LANGUAGES[currentLocale];
 
-// Cambiar de idioma mantiene la página actual: sustituye el segmento de locale
-// por el nuevo. Si la ruta no tiene segmento (raíz), cae al inicio del idioma.
+// Cambiar de idioma mantiene la página actual si existe en el otro idioma; si
+// no (Hiztegia por palabra, B1-C2/EGA: solo castellano), lleva a la página más
+// cercana hacia arriba que sí exista. Cambiar el prefijo a ciegas dejaba
+// ~18.000 enlaces a 404 que recorrían los rastreadores (8-oct-2026).
 const here = Astro.url.pathname;
-const switchTo = (code: string) => {
-  const mapped = here.replace(/^\/[a-zA-Z-]+/, `/${code}`);
-  return mapped === `/${code}` || mapped.startsWith(`/${code}/`) ? mapped : `/${code}/`;
-};
+const destinos = new Map(await Promise.all(all.map(async (l) => [l.code, await destinoIdiomaDe(here, l.code)] as const)));
+const switchTo = (code: string) => destinos.get(code) ?? `/${code}/`;
 ---
 <details class="lang-select">
   <summary>
