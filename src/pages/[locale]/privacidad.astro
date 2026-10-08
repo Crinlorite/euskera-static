@@ -5,11 +5,14 @@ import { t, tf } from '../../i18n/ui';
 
 import { ajusta, sinMarcado, minimoDescripcion } from '../../lib/seo-texto.mjs';
 import { avisoPrivacidad } from '../../lib/mas-apps.mjs';
+import TEXTOS_JOLAS from '../../data/jolas.json';
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params as { locale: LocaleCode };
+// Botón «Me interesa» de Kaixo Jolas: solo un contador, sin datos personales.
+const privacidadJolas = (TEXTOS_JOLAS as Record<string, { privacidad: string }>)[locale]?.privacidad ?? TEXTOS_JOLAS.es.privacidad;
 const descripcion = ajusta(sinMarcado(t(locale, 'priv.intro')), t(locale, 'site.tagline'), minimoDescripcion(locale));
 ---
 <RootLayout locale={locale} title={t(locale, 'priv.title')} description={descripcion}>
@@ -58,6 +61,7 @@ const descripcion = ajusta(sinMarcado(t(locale, 'priv.intro')), t(locale, 'site.
       <li set:html={t(locale, 'priv.s5.li4')} />
     </ul>
     <p set:html={t(locale, 'priv.s5.outro')} />
+    <p set:html={privacidadJolas} />
 
     <h2>{t(locale, 'priv.s6.title')}</h2>
     <p set:html={t(locale, 'priv.s6.body')} />
