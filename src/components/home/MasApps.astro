@@ -9,13 +9,16 @@
  * dispositivo, y dentro de una app no se pinta hasta saber qué enlace toca.
  */
 import type { LocaleCode } from '../../i18n/config';
-import { TEXTOS, PLAY_HL, appsDe, esBetaEnAndroid } from '../../lib/mas-apps.mjs';
+import { TEXTOS, PLAY_HL, PROXIMAMENTE, appsDe, esBetaEnAndroid } from '../../lib/mas-apps.mjs';
+import { t } from '../../i18n/ui';
+import TEXTOS_JOLAS from '../../data/jolas.json';
 import { paisAppStore } from '../../lib/appstore';
 
 interface Props { locale: LocaleCode }
 const { locale } = Astro.props;
 const apps = appsDe(locale);
 const txt = TEXTOS[locale];
+const lineaDe = (id: string) => (id === 'jolas' ? (TEXTOS_JOLAS as Record<string, { tarjeta: string }>)[locale]?.tarjeta ?? '' : '');
 ---
 {apps.length > 0 && txt && (
   <section class="container-wide mas-apps fade-in" data-mas-apps data-pais={paisAppStore(locale)} data-hl={PLAY_HL[locale] ?? ''} data-locale={locale}>
@@ -40,6 +43,24 @@ const txt = TEXTOS[locale];
                 {esBetaEnAndroid(app) && <span class="app-card-tag" data-etiqueta-beta hidden>Beta</span>}
               </b>
               <span class="app-card-desc">{txt.apps[app.id]}</span>
+            </span>
+            <span class="app-card-arrow icon-direction-aware" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+        </li>
+      ))}
+      {PROXIMAMENTE.map((p) => (
+        <li data-proximamente={p.id}>
+          {/* Página propia dentro de Kaixo: mismo enlace en todos los dispositivos. */}
+          <a class="card app-card" href={`/${locale}/${p.ruta}`}>
+            <img src={p.icono} alt="" width="56" height="56" loading="lazy" decoding="async" />
+            <span class="app-card-txt">
+              <b>
+                {p.nombre}
+                <span class="app-card-tag">{t(locale, 'gate.eyebrow')}</span>
+              </b>
+              <span class="app-card-desc">{lineaDe(p.id)}</span>
             </span>
             <span class="app-card-arrow icon-direction-aware" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
