@@ -10,6 +10,7 @@ import { ajusta, descripcionDeLeccion, minimoDescripcion } from '../../../../lib
 import { temasDe, LOCALE_ENTRADAS } from '../../../../lib/hiztegia';
 import { t } from '../../../../i18n/ui';
 import { LOCKED_PATHS } from '../../../../lib/locked.mjs';
+import { existeRuta } from '../../../../lib/alternates';
 // Con 1.000+ lecciones, TS infiere `id` como un union de literales gigante y
 // "se queda sin tipo". Lo aplanamos a string para que el type-check escale.
 type Lesson = Omit<CollectionEntry<'lessons'>, 'id'> & { id: string };
@@ -93,6 +94,8 @@ const descripcion = descripcionDeLeccion(
          t(locale, 'site.tagline'), minimo),
   minimo,
 );
+// EGA no tiene pagina de nivel: la miga solo enlaza el nivel si existe.
+const hayNivel = await existeRuta(`${levelCode}/`, locale);
 ---
 <RootLayout locale={locale} title={lesson.data.title} description={descripcion} noindex={LOCKED_PATHS.includes(levelCode)}>
   <div class="container-wide lesson-grid">
@@ -100,7 +103,7 @@ const descripcion = descripcionDeLeccion(
     <article class="lesson">
       <header>
         <p class="crumb">
-          <a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> ·
+          {hayNivel ? <a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> : <span>{levelCode.toUpperCase()}</span>} ·
           <a href={`/${locale}/${levelCode}/${unitCode}/`}>Unidad {sibs[0]?.data.order ?? ''}</a>
         </p>
         <h1>{lesson.data.title}</h1>

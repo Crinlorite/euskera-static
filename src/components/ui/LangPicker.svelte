@@ -1,12 +1,30 @@
 <script lang="ts">
   import { LANGUAGES, type LocaleCode } from '../../i18n/config';
   import { t } from '../../i18n/ui';
+  import { candidatas, separaLocale } from '../../lib/alternates-puro.mjs';
 
   export let currentLocale: LocaleCode;
 
   const all = Object.values(LANGUAGES);
 
-  function pick(code: LocaleCode, status: string) {
+  // La misma página en el otro idioma si existe; si no (Hiztegia por palabra,
+  // B1-C2/EGA: solo castellano), la más cercana hacia arriba que sí exista.
+  // Antes se cambiaba el prefijo a ciegas y se acababa en un 404 (8-oct-2026).
+  async function destino(base: string, code: string): Promise<string> {
+    const { locale, ruta } = separaLocale(base);
+    if (!locale) return `/${code}/`;
+    const rutas = candidatas(ruta).map((r) => `/${code}/${r}`);
+    for (const r of rutas) {
+      try {
+        if ((await fetch(r, { method: 'HEAD' })).ok) return r;
+      } catch {
+        return rutas[0];   // sin red: como antes, sin comprobar
+      }
+    }
+    return `/${code}/`;
+  }
+
+  async function pick(code: LocaleCode, status: string) {
     if (status === 'planned') return;
     if (typeof document !== 'undefined') {
       document.cookie = `lang=${code}; path=/; max-age=31536000`;
@@ -16,8 +34,7 @@
       // origen válido del mismo sitio, cae a la ruta actual (el propio selector).
       const from = new URLSearchParams(location.search).get('from');
       const base = from && from.startsWith('/') && !from.startsWith('//') ? from : location.pathname;
-      const path = base.replace(/^\/[a-zA-Z-]+/, `/${code}`);
-      location.href = path;
+      location.href = await destino(base, code);
     }
   }
 </script>

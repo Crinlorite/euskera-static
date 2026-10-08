@@ -1,6 +1,6 @@
 import { getCollection } from 'astro:content';
 import { ACTIVE_LOCALES, type LocaleCode } from '../i18n/config';
-import { RUTAS_FIJAS, construye, separaLocale } from './alternates-puro.mjs';
+import { RUTAS_FIJAS, construye, destinoIdioma, separaLocale } from './alternates-puro.mjs';
 import { temasDe, entradasDe, slugTema, localesConHiztegia, LOCALE_ENTRADAS } from './hiztegia';
 
 export type Alternativa = { hreflang: string; href: string };
@@ -63,6 +63,17 @@ export async function alternativasDe(pathname: string): Promise<Alternativa[]> {
   if (!locale) return [];                       // 404 y cualquier cosa rara: nada
   const locales = (await inventario()).get(ruta);
   return locales && locales.size ? construye(ruta, locales) : [];
+}
+
+/** Adonde lleva el selector de idioma desde esta URL (ver destinoIdioma). */
+export async function destinoIdiomaDe(pathname: string, locale: string): Promise<string> {
+  const inv = await inventario();
+  return destinoIdioma(pathname, locale, (ruta, l) => inv.get(ruta)?.has(l) ?? false);
+}
+
+/** Si una ruta (sin idioma, con barra final) existe en ese idioma. */
+export async function existeRuta(ruta: string, locale: string): Promise<boolean> {
+  return (await inventario()).get(ruta)?.has(locale) ?? false;
 }
 
 export type { LocaleCode };
