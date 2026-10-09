@@ -1,3 +1,8 @@
 # Modo Expedición retirado el 25-sep-2026: quien tuviera el enlace va a la portada de su idioma.
 /:idioma/expedicion/  /:idioma/  301
 /:idioma/expedicion   /:idioma/  301
+
+# La guía de la beta de Aprenza en Android se mudó a la web de Aprenza (oct-2026).
+# Hay enlaces publicados a la ruta vieja (TikTok del 8-oct), así que redirige para siempre.
+/app/aprenza-beta/:idioma/  https://aprenza.app/beta  301
+/app/aprenza-beta/:idioma   https://aprenza.app/beta  301
