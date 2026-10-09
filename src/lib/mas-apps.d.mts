@@ -1,6 +1,6 @@
 export interface AppDelEstudio {
   id: string; nombre: string; icono: string; web: string; appStore: string; play: string | null; locales: string[];
-  playBeta?: { paquete: string; grupo: string; prueba: string };
+  playBeta?: { paquete: string; grupo: string; prueba: string; guia: string };
 }
 export interface TextosMasApps {
   antetitulo: string; antes: string; despues: string; entradilla: string; apps: Record<string, string>;
@@ -17,8 +17,5 @@ export declare function enlaceDe(app: AppDelEstudio, dispositivo: Dispositivo, d
 export declare const AVISO_PRIVACIDAD: Record<string, string>;
 export declare function avisoPrivacidad(locale: string): string | null;
 export declare function tituloDe(locale: string): string;
-export declare const TITULO_BETA: Record<string, string>;
-export declare function rutaBeta(app: AppDelEstudio, locale: string): string;
 export declare function esBetaEnAndroid(app: AppDelEstudio): boolean;
-export declare const NOTA_MENORES: Record<string, string>;
 export declare const PROXIMAMENTE: { id: string; nombre: string; icono: string; ruta: string }[];
