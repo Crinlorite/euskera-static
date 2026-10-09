@@ -138,8 +138,9 @@ def cobertura(filas):
 
 if __name__ == "__main__":
     hoy = dt.date.today()
-    hasta = sys.argv[2] if len(sys.argv) > 2 else (hoy - dt.timedelta(days=2)).isoformat()
-    desde = sys.argv[1] if len(sys.argv) > 1 else (dt.date.fromisoformat(hasta) - dt.timedelta(days=27)).isoformat()
+    pos = [x for x in sys.argv[1:] if not x.startswith("--")]  # «--palabras» no es una fecha
+    hasta = pos[1] if len(pos) > 1 else (hoy - dt.timedelta(days=2)).isoformat()
+    desde = pos[0] if pos else (dt.date.fromisoformat(hasta) - dt.timedelta(days=27)).isoformat()
     print(f"  {PROP} · {HOST} · {desde} → {hasta}")
     r = filas(desde, hasta)
     json.dump({"desde": desde, "hasta": hasta, "filas": r}, open(SALIDA, "w"), ensure_ascii=False, indent=1)
