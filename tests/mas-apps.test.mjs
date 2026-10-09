@@ -1,6 +1,7 @@
+import { readFileSync } from 'node:fs';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, TITULO_BETA, NOTA_MENORES, PROXIMAMENTE, avisoPrivacidad, appsDe, seMuestraEn, tituloDe, rutaBeta, esBetaEnAndroid, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
+import { APPS, TEXTOS, LOCALES_ACTIVOS, PLAY_HL, AVISO_PRIVACIDAD, PROXIMAMENTE, avisoPrivacidad, appsDe, seMuestraEn, tituloDe, esBetaEnAndroid, dispositivoDe, enlaceDe } from '../src/lib/mas-apps.mjs';
 
 const UA = {
   iphone: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
@@ -34,7 +35,8 @@ test('cada dispositivo recibe SU tienda y ninguna otra', () => {
     assert.ok(!/google|play\./i.test(ios), ios);
     const android = enlaceDe(app, 'android');
     assert.ok(android, `${app.id} sin destino en Android`);
-    assert.ok(android.startsWith('https://play.google.com/store/apps/details?id=') || android.startsWith('/app/'), android);
+    // la tienda o, si la app está en prueba cerrada, su guía para apuntarse
+    assert.ok(android.startsWith('https://play.google.com/store/apps/details?id=') || android === app.playBeta?.guia, android);
     assert.ok(!/apple/i.test(android), android);
     const otro = enlaceDe(app, 'otro');
     assert.ok(otro.startsWith(app.web), otro);
@@ -47,14 +49,11 @@ test('en Android: tienda si la app es publica, guia de la beta si esta en prueba
   assert.ok(!esBetaEnAndroid(aulixa));
   // Aprenza no tiene ficha publica (404): jamas se enlaza la tienda, sino la guia.
   assert.ok(esBetaEnAndroid(aprenza));
+  // La guia vive en la web de Aprenza (oct-2026); la ruta vieja de aqui redirige.
   for (const l of ['es', 'ca', 'gl', 'ast', 'an', 'oc']) {
-    assert.equal(enlaceDe(aprenza, 'android', { locale: l }), `/app/aprenza-beta/${l}/`);
-    assert.equal(rutaBeta(aprenza, l), `/app/aprenza-beta/${l}/`);
-    assert.ok(TITULO_BETA[l].startsWith('Aprenza'), l);
+    assert.equal(enlaceDe(aprenza, 'android', { locale: l }), 'https://aprenza.app/beta');
   }
   assert.ok(!/store\/apps\/details/.test(enlaceDe(aprenza, 'android', { locale: 'es' })));
-  // Sin guia en ese idioma no hay destino: la tarjeta no sale.
-  assert.equal(enlaceDe(aprenza, 'android', { locale: 'ja' }), null);
   // La guia de la beta es cosa de Android: en iPhone y en ordenador no se usa.
   assert.ok(enlaceDe(aprenza, 'ios', { locale: 'es' }).startsWith('https://apps.apple.com/'));
   assert.equal(enlaceDe(aprenza, 'otro', { locale: 'es' }), 'https://aprenza.app/');
@@ -144,20 +143,16 @@ test('los textos no nombran tiendas ni lo que Aulixa no puede decir', () => {
   }
 });
 
-test('la guia de la beta avisa del caso de las cuentas de menores, en todos sus idiomas', () => {
-  assert.deepEqual(Object.keys(NOTA_MENORES).sort(), Object.keys(TITULO_BETA).sort());
-  for (const [l, nota] of Object.entries(NOTA_MENORES)) {
-    assert.ok(nota.includes('Family Link'), l);
-    // La pagina de soporte de Aprenza va SIN barra final: con barra responde vacio.
-    assert.ok(nota.includes('href="https://aprenza.app/soporte"'), l);
-    assert.equal((nota.match(/<a /g) ?? []).length, 1, l);
-  }
-});
-
 test('lo que viene (Kaixo Jolas) es una tarjeta mas, con pagina propia y sin tienda', () => {
   assert.deepEqual(PROXIMAMENTE.map((p) => p.id), ['jolas']);
   for (const p of PROXIMAMENTE) {
     assert.ok(p.ruta.endsWith('/') && !p.ruta.startsWith('/') && !/^https?:/.test(p.ruta), p.ruta);
     assert.ok(p.icono.startsWith('/apps/'));
   }
+});
+
+test('la ruta vieja de la guia de la beta redirige a la web de Aprenza', () => {
+  const r = readFileSync(new URL('../public/_redirects', import.meta.url), 'utf8');
+  assert.match(r, /^\/app\/aprenza-beta\/:idioma\/\s+https:\/\/aprenza\.app\/beta\s+301$/m);
+  assert.match(r, /^\/app\/aprenza-beta\/:idioma\s+https:\/\/aprenza\.app\/beta\s+301$/m);
 });
