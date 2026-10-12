@@ -1,0 +1,124 @@
+@@ title
+A környékem (összefoglaló lecke)
+@@ x0.prompt
+Azt szeretnéd mondani: "A környékem kicsi és szép". Hogyan mondod?
+@@ x0.explanation
+Egyes számú alany két melléknévvel: az ige "da", a melléknevek végső -a hangot kapnak.
+@@ x1.prompt
+"A környékemen van egy nagy park" — így mondják:
+@@ x1.explanation
+Az "Auzo + an" (a környéken) a hely; a "parke handi bat" a létező alany; a "dago" az ige.
+@@ x2.prompt
+A központ közelében élek = Erdigunetik gertu ___ naiz.
+@@ x2.explanation
+"Bizi naiz" = "élek". Ne feledd: az "élni valahol" kifejezéshez mindig a "bizi" szót használjuk.
+@@ x3.prompt
+A falumban nincs kórház = Nire herrian ez dago ospitale___.
+@@ x4.prompt
+Mit kérdez az, aki tudni szeretné, hol van a pékség?
+@@ x4.explanation
+A "Non dago…?" olyasminek a helyére kérdez rá, amelyről már feltételezzük, hogy létezik.
+@@ x5.card0
+a környékem
+@@ x5.card1
+a falum
+@@ x5.card2
+város
+@@ x5.card3
+a központ
+@@ x5.card4
+az utca
+@@ x5.card5
+a tér
+@@ x5.card6
+sok ember
+@@ x5.card7
+kevés ember
+@@ x5.card8
+nagy
+@@ x5.card9
+kicsi
+@@ x5.card10
+szép
+@@ x5.card11
+nyugodt, csendes
+@@ x5.card12
+Milyen a környéked?
+@@ x5.card13
+Mi van a környékeden?
+@@ x5.card14
+Hol élsz?
+@@ x6.pair0
+Milyen a falud?
+@@ x6.pair1
+Mi van a környéken?
+@@ x6.pair2
+Hol van az euskaltegi?
+@@ x6.pair3
+Van valami bár?
+@@ x6.pair4
+a központ
+@@ x6.pair5
+egy nagyváros
+@@ body
+
+Ez a lecke az egység minden tudnivalóját összegyűjti: a helyek szókincsét, a `-(e)an` helyhatározó esetet, a térbeli helyzeteket (*aurrean*, *ondoan*…) és a **létezés / hely** megkülönböztetését (*badago* / *dago*). Ha végzel, valódi mondatokkal tudod majd leírni a környékedet vagy a településedet.
+
+## Egy leírás vázlata
+
+Egy környék vagy település tipikus leírása ezt a sorrendet követi:
+
+1. **Milyen** a hely (méret, jelleg): *Nire auzoa txikia eta polita da.*
+2. **Mi van** és mi nincs: *Auzoan badago liburutegia, baina ez dago zinemarik.*
+3. **Hol van** minden fontos dolog: *Liburutegia plazaren ondoan dago.*
+4. **Hol élsz te** és kivel: *Ni Maialenen ondoan bizi naiz, etxe txiki batean.*
+
+## A leírás szókincse
+
+| Euskera | Magyar |
+|---|---|
+| *handi* | nagy |
+| *txiki* | kicsi |
+| *ertain* | közepes |
+| *polit* | szép |
+| *itsusi* | csúnya |
+| *zaharra* | régi, öreg |
+| *berria* | új |
+| *lasai* | nyugodt, csendes |
+| *jendetsu* | zsúfolt, sok emberrel |
+| *modernoa* | modern |
+| *erdigunean* | a központban |
+| *kanpoaldean* | a külvárosban |
+
+> Ne feledd: a baszk melléknevek **a főnév után** állnak, és megkapják az `-a` névelőt. *Auzo + handi + a* → *auzo handia* ("a nagy környék"); *auzo + txiki + a* → *auzo txikia*.
+
+## Mindent együtt: mintaszöveg
+
+> *Ni Iruñean bizi naiz, Txantrea auzoan. Auzoa ez da oso handia, baina lasaia eta polita da. Auzoan badago supermerkatu txiki bat, bi taberna eta okindegi bat. Eskola plazaren ondoan dago, eta liburutegia eskolaren atzean. Parkea handia da, eta umeentzat oso ona. Auzoan ez dago zinemarik, baina hori ez da arazoa: zinema erdigunean dago, eta gertu dago. Nire etxea bigarren solairuan dago, kale lasai batean.*
+
+Szabad fordítás:
+
+> Pamplonában élek, a Txantrea negyedben. A negyed nem túl nagy, de nyugodt és szép. A negyedben van egy kis szupermarket, két bár és egy pékség. Az iskola a tér mellett van, a könyvtár pedig az iskola mögött. A park nagy, és nagyon jó a gyerekeknek. A negyedben nincs mozi, de ez nem gond: a mozi a központban van, és közel van. A lakásom a második emeleten van, egy csendes utcában.
+
+## Kérdések, amelyeket fel fognak tenni neked
+
+| Kérdés | A válasz típusa |
+|---|---|
+| ***Non bizi zara?*** | Hely + helyhatározó: *X-(e)an bizi naiz.* |
+| ***Nolakoa da zure auzoa?*** | Melléknevek: *Polita da, txikia da…* |
+| ***Zer dago zure auzoan?*** | Létezés: *Badago…, badaude…* |
+| ***Ba al dago tabernarik?*** | Igen/nem: *Bai, badago / Ez, ez dago tabernarik.* |
+| ***Non dago liburutegia?*** | Helyzet: *Plazaren ondoan dago.* |
+
+## Rajtad a sor
+
+Képzeld el, hogy a társad nem ismeri a környékedet. Írd le:
+
+1. Hogy hívják, és hol van.
+2. Nagy vagy kicsi, régi vagy modern.
+3. Milyen három hely **van** ott (a *badago / badaude* szerkezettel).
+4. Milyen három dolog **nincs** ott (az *ez dago … rik* szerkezettel).
+5. Pontosan hol van a lakásod (utca, emelet, mi mellett).
+
+> **Kulturális megjegyzés:** sok baszk negyed és falu viszonyítási pontja a **frontoia** (pelotapálya) és az **eliza** (templom), amelyek általában egymás mellett, a főtér közelében állnak. Ha a környékeden van tér, pelotapálya vagy templom, az a legjobb viszonyítási pont, ha valakit útba akarsz igazítani.
+
