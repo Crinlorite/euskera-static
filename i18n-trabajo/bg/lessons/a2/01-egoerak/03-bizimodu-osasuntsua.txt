@@ -1,0 +1,175 @@
+@@ title
+Bizimodu osasuntsua eta ingurumena — здравословен начин на живот и околна среда
+@@ x0.prompt
+Какво означава "Birziklatu behar dugu"?
+@@ x0.explanation
+*Birziklatu* = рециклирам. *Behar dugu* = трябва (ние).
+@@ x0.opt0
+Трябва да рециклираме
+@@ x0.opt1
+Трябва да готвим
+@@ x0.opt2
+Трябва да тичаме
+@@ x0.opt3
+Трябва да почиваме
+@@ x1.prompt
+"Kirola egiten dut astean hiru aldiz" означава…
+@@ x1.explanation
+*X aldiz* = X пъти. *Astean hiru aldiz* = три пъти седмично.
+@@ x1.opt0
+Спортувам по три часа седмично
+@@ x1.opt1
+Занимавам се с три спорта
+@@ x1.opt2
+Спортувам три пъти седмично
+@@ x1.opt3
+От три седмици спортувам
+@@ x2.prompt
+Климатични промени = klima ___ .
+@@ x2.explanation
+*Aldaketa* = промяна. *Klima-aldaketa* е устойчив термин.
+@@ x3.card0
+здравословен живот
+@@ x3.card1
+спортувам
+@@ x3.card2
+разхождам се
+@@ x3.card3
+спя добре
+@@ x3.card4
+пуша
+@@ x3.card5
+пия алкохол
+@@ x3.card6
+балансирано хранене
+@@ x3.card7
+зеленчуци
+@@ x3.card8
+плодове
+@@ x3.card9
+околна среда
+@@ x3.card10
+замърсяване
+@@ x3.card11
+боклук
+@@ x3.card12
+рециклирам
+@@ x3.card13
+контейнер
+@@ x3.card14
+възстановявам, оползотворявам
+@@ x3.card15
+климатични промени
+@@ x3.card16
+възобновяема енергия
+@@ x3.card17
+кварталът
+@@ x3.card18
+празниците (на селото/квартала)
+@@ x3.card19
+доброволчество
+@@ x4.pair0
+хартия
+@@ x4.pair1
+пластмаса
+@@ x4.pair2
+стъкло
+@@ x4.pair3
+органични отпадъци
+@@ x4.pair4
+батерия
+@@ x4.pair5
+олио
+@@ body
+
+Разговорът за **начина на живот** и **околната среда** е класическа тема на A2: нов речник се смесва с изрази за задължение и съвет (*behar dugu*, *komeni da*, *garrantzitsua da*), които вече владееш от A1.
+
+## Здравословни навици
+
+| Български | Euskera |
+|---|---|
+| Спортувам | *kirola egin* |
+| Вървя / разхождам се | *paseatu* / *ibili* |
+| Тичам | *korrika egin* |
+| Карам колело | *bizikletaz ibili* |
+| Ям плодове и зеленчуци | *fruta eta barazkiak jan* |
+| Пия вода | *ura edan* |
+| Спя добре | *ondo lo egin* |
+| Пуша | *erre* |
+| Пия алкохол | *alkohola edan* |
+| Не прекалявам със солта | *gatzaz ez abusatu* |
+
+> Типични изречения:
+>
+> - *Kirola egiten dut astean hiru aldiz.* — Спортувам три пъти седмично.
+> - *Erretzeari utzi diot.* — Отказах цигарите.
+> - *Ez dut alkoholik edaten astegunetan.* — През седмицата не пия алкохол.
+
+## Честота: *X aldiz*
+
+За "X пъти" използваш формулата **число + aldiz**:
+
+| Български | Euskera |
+|---|---|
+| Веднъж на ден | *Egunean behin* |
+| Два пъти седмично | *Astean bi aldiz* / *birritan* |
+| Три пъти месечно | *Hilean hiru aldiz* |
+| Много пъти | *Askotan* |
+| Понякога | *Batzuetan* |
+| Рядко | *Gutxitan* |
+| Никога | *Inoiz ez* |
+
+## Околна среда — *ingurumena*
+
+| Български | Euskera |
+|---|---|
+| Околна среда | *ingurumena* |
+| Природа | *natura* |
+| Замърсяване | *kutsadura* |
+| Боклук | *zaborra* |
+| Рециклирам | *birziklatu* |
+| Намалявам | *gutxitu* / *murriztu* |
+| Използвам повторно | *berrerabili* |
+| Възобновяема енергия | *energia berriztagarria* |
+| Климатични промени | *klima-aldaketa* |
+| Глобално затопляне | *berotze globala* |
+
+## Контейнерите
+
+| Обичаен цвят | Euskera | За какво |
+|---|---|---|
+| Син | *edukiontzi urdina* | papera / хартия |
+| Жълт | *edukiontzi horia* | plastikoa / пластмаса |
+| Зелен | *edukiontzi berdea* | beira / стъкло |
+| Кафяв | *edukiontzi marroia* | organikoa / органични |
+| Сив | *edukiontzi grisa* | hondakinak / смесени |
+
+## Полезни изрази за мнение
+
+- *Garrantzitsua da birziklatzea.* — Важно е да се рециклира.
+- *Komeni da kirola egitea.* — Добре е да се спортува.
+- *Beharrezkoa da kutsadura gutxitzea.* — Необходимо е да се намали замърсяването.
+- *Ez dut uste plastikoa ona denik.* — Не мисля, че пластмасата е хубаво нещо.
+
+> Тези структури (*-tzea + прилагателно + da*) са формулата на ниво A2 за "важно е / добре е / необходимо е да се направи X". Ще ги разгледаме подробно в раздел 4.
+
+## Животът в квартала
+
+| Български | Euskera |
+|---|---|
+| Квартал | *auzoa* |
+| Съсед/ка | *bizilaguna* |
+| Сдружение | *elkartea* |
+| Доброволчество | *boluntariotza* |
+| Празниците на квартала | *auzoko jaiak* |
+| Участвам | *parte hartu* |
+| Събрание | *bilera* |
+
+> *Gure auzoan jaiak antolatzeko bilera dago ostegunean. Ainarak parte hartzen du beti.*
+
+## Мини примерен текст
+
+> *Lander auzo-elkarteko kidea da. Astean bi aldiz **bilerak** antolatzen ditu. Auzoko **jaiak** prestatzen dituzte, baita **boluntariotza-egitasmoak** ere: zaborrak biltzeko ekintzak, **birziklatzeari** buruzko hitzaldiak, eta abar. Berarentzat **garrantzitsua da auzoaren bizitza zaintzea**.*
+
+> **Културна бележка:** *auzo-elkarteak* (сдруженията на съседите) са основна част от обществения живот в много населени места в Euskal Herria. Организират празници, курсове по баски, излети в планината и екологични кампании. Участието е един от най-добрите начини да упражняваш езика в реална употреба.
+

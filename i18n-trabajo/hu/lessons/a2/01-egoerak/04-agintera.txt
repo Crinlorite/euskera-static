@@ -1,0 +1,146 @@
+@@ title
+Agintera — a felszólító mód
+@@ x0.prompt
+Hogy azt mondd: "gyere" (egy személynek, közvetlenül), melyik alakot használod baszkul?
+@@ x0.explanation
+A *Zatoz* az *etorri* (jönni) felszólító módjának szintetikus alakja a *zu* személyhez. Ez a természetes alak utasításokban és kérésekben.
+@@ x1.prompt
+Az "Eseri, mesedez" jelentése…
+@@ x1.explanation
+A leggyakoribb állító felszólítás egyszerűen a partizipióval képződik: *hartu* (fogd), *eseri* (ülj le). A "kérlek" a *mesedez*.
+@@ x1.opt0
+Foglalj helyet, kérlek
+@@ x1.opt1
+Helyet foglaltam, kérlek
+@@ x1.opt2
+Leüljek?
+@@ x1.opt3
+Ne ülj le
+@@ x2.prompt
+Add ide a vizet, kérlek = ___ ura, mesedez.
+@@ x2.explanation
+*Emadazu* = "add nekem" (az *eman* NOR-NORI-NORK felszólító alakja, *zu*-nak és *niri*-nek szólva).
+@@ x3.card0
+gyere (te)
+@@ x3.card1
+gyertek (ti)
+@@ x3.card2
+menj (te)
+@@ x3.card3
+menjetek (ti)
+@@ x3.card4
+fogd / vedd
+@@ x3.card5
+ülj le
+@@ x3.card6
+állj fel
+@@ x3.card7
+várj
+@@ x3.card8
+figyelj, hallgasd
+@@ x3.card9
+ismételd
+@@ x3.card10
+írd
+@@ x3.card11
+olvasd
+@@ x3.card12
+add ide
+@@ x3.card13
+mondd meg nekem
+@@ x3.card14
+nyugi (nyugodj meg)
+@@ x4.pair0
+Gyere ide
+@@ x4.pair1
+Fogd ezt
+@@ x4.pair2
+Ülj ide
+@@ x4.pair3
+Mondd meg az igazat
+@@ x4.pair4
+Várj egy kicsit
+@@ x4.pair5
+Ismételd meg, kérlek
+@@ body
+
+A **felszólító mód** (*agintera*) utasítások adására, kérésekre és tanácsadásra szolgál. Baszkul **sokkal egyszerűbb, mint amilyennek látszik**: a leggyakrabban használt alak szinte mindig megegyezik az ige **partizipiójával**.
+
+## Az alapszabály: használd a partizipiót
+
+Sok hétköznapi utasításban az ige segédige nélkül, partizipió alakban jelenik meg:
+
+| Magyar | Euskera |
+|---|---|
+| Fogd | *Hartu* |
+| Ülj le | *Eseri* |
+| Állj fel | *Jaiki* |
+| Írd | *Idatzi* |
+| Olvasd | *Irakurri* |
+| Figyelj | *Entzun* |
+| Ismételd | *Errepikatu* |
+| Várj | *Itxoin* |
+| Csukd be az ajtót | *Itxi atea* |
+| Nyisd ki az ablakot | *Ireki leihoa* |
+
+> Ez a **leggyakrabban használt alak** az órán, az utcán és az írott utasításokban. A *zu* és a *zuek* személyhez egyaránt jó.
+
+## Szintetikus alakok (trinkoak): *zatoz*, *zoaz*
+
+Néhány nagyon gyakori igének külön szintetikus felszólító alakja van. Ezeket érdemes megjegyezni:
+
+| Ige | Te (zu) | Ti (zuek) |
+|---|---|---|
+| *etorri* (jönni) | **Zatoz** | **Zatozte** |
+| *joan* (menni) | **Zoaz** | **Zoazte** |
+| *ekarri* (hozni) | **Ekarri** / **Ekar ezazu** | **Ekar ezazue** |
+| *eraman* (vinni) | **Eraman** / **Eramazu** | **Eramazue** |
+| *egon* (lenni valahol/valahogy) | **Egon** / **Lasai** (nyugi!) | **Egon** |
+
+> *— **Zatoz** hona, mesedez.*
+> *— **Zoazte** lehenbailehen.*
+
+## NOR-NORI-NORK felszólítás: *emadazu*, *esadazu*
+
+Ha kettős tárgyú utasítást adsz ("add ide ezt", "mondd meg neki azt"), a baszknak nagyon hasznos tömör alakjai vannak:
+
+| Magyar | Euskera |
+|---|---|
+| Add ide (nekem) | *Emadazu* / *Eman iezadazu* |
+| Mondd meg nekem | *Esadazu* / *Esan iezadazu* |
+| Add oda neki | *Emaiozu* / *Eman iezaiozu* |
+| Mondd meg neki | *Esaiozu* / *Esan iezaiozu* |
+| Add ide nekünk | *Emaguzu* |
+| Adjátok ide nekem | *Emadazue* |
+
+Ezeket hosszú megtanulni; az A2 szinten elég az **emadazu / esadazu / emaiozu / esaiozu** alakokat tudni, és érteni, hogy az *eman* / *esan* igéből jönnek.
+
+## "Kérlek" és tompítók
+
+A baszk felszólítás **nem hangzik nyersnek**, ha hozzáteszel egy udvariassági szót:
+
+- *Mesedez* — kérlek
+- *Ahal baduzu* — ha tudod
+- *Faborez* (közvetlen változat)
+- *Eskerrik asko aldez aurretik* — előre is köszönöm
+
+> *Emadazu ogia, **mesedez**.*
+> *Itxoin pixka bat, **ahal baduzu**.*
+
+## Utasítások (receptek, hirdetések, óra)
+
+A felszólító mód a sztenderd forma ezekben:
+
+- **Receptek:** *Moztu tipula. Bota olioa zartaginera. Frijitu bost minutuz.*
+- **Táblák:** *Itxi atea. Ez ukitu. Erabili maskara.*
+- **Óra:** *Ireki liburua. Idatzi koadernoan. Errepikatu nirekin.*
+- **Orvos:** *Hartu pilula bat. Edan ur asko. Hartu atseden.*
+
+## Mini-szöveg
+
+> *Sukaldari eskolan, irakasleak esaten du:*
+>
+> *— **Hartu** patata bat. **Garbitu** ondo. **Kendu** azala. **Moztu** zatitan eta **bota** ur irakinera. **Itxoin** hogei minutu. Eta **probatu** ondoren.*
+
+> **Kulturális megjegyzés:** baszkul a felszólító mód **parancsoló** hangnemét a hanglejtés és a helyzet tompítja, nem annyira körülírások ("lennél szíves..."). Általában elég, ha az utasítás mellé egy *mesedez*-t vagy egy mosolyt teszel. Ha udvariasabb akarsz lenni, mondd azt: *eman ahal didazu...?* (ide tudnád adni...?).
+

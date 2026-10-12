@@ -1,0 +1,175 @@
+@@ title
+Bizimodu osasuntsua eta ingurumena — egészséges életmód és környezet
+@@ x0.prompt
+Mit jelent az, hogy "Birziklatu behar dugu"?
+@@ x0.explanation
+*Birziklatu* = újrahasznosítani. *Behar dugu* = kell (nekünk).
+@@ x0.opt0
+Újra kell hasznosítani
+@@ x0.opt1
+Főzni kell
+@@ x0.opt2
+Futni kell
+@@ x0.opt3
+Pihenni kell
+@@ x1.prompt
+A "Kirola egiten dut astean hiru aldiz" jelentése…
+@@ x1.explanation
+*X aldiz* = X-szer. *Astean hiru aldiz* = hetente háromszor.
+@@ x1.opt0
+Heti három órát sportolok
+@@ x1.opt1
+Három sportot űzök
+@@ x1.opt2
+Hetente háromszor sportolok
+@@ x1.opt3
+Három hete sportolok
+@@ x2.prompt
+Klímaváltozás = klima ___ .
+@@ x2.explanation
+*Aldaketa* = változás. *Klima-aldaketa*: állandó kifejezés.
+@@ x3.card0
+egészséges életmód
+@@ x3.card1
+sportolni
+@@ x3.card2
+sétálni
+@@ x3.card3
+jól aludni
+@@ x3.card4
+dohányozni
+@@ x3.card5
+alkoholt inni
+@@ x3.card6
+kiegyensúlyozott étrend
+@@ x3.card7
+zöldségek
+@@ x3.card8
+gyümölcs
+@@ x3.card9
+környezet
+@@ x3.card10
+szennyezés
+@@ x3.card11
+szemét
+@@ x3.card12
+újrahasznosítani
+@@ x3.card13
+szemeteskonténer
+@@ x3.card14
+visszanyerni
+@@ x3.card15
+klímaváltozás
+@@ x3.card16
+megújuló energia
+@@ x3.card17
+a környék, a városnegyed
+@@ x3.card18
+az ünnepek, a búcsú
+@@ x3.card19
+önkéntesség
+@@ x4.pair0
+papír
+@@ x4.pair1
+műanyag
+@@ x4.pair2
+üveg
+@@ x4.pair3
+szerves hulladék
+@@ x4.pair4
+elem
+@@ x4.pair5
+olaj
+@@ body
+
+Az **életmódról** és a **környezetről** szóló beszélgetés az A2 klasszikus témaköre: új szókincs keveredik a kötelezettséget és tanácsot kifejező mondatokkal (*behar dugu*, *komeni da*, *garrantzitsua da*), amelyeket már az A1 óta használsz.
+
+## Egészséges szokások
+
+| Magyar | Euskera |
+|---|---|
+| Sportolni | *kirola egin* |
+| Gyalogolni / sétálni | *paseatu* / *ibili* |
+| Futni | *korrika egin* |
+| Biciklizni | *bizikletaz ibili* |
+| Gyümölcsöt és zöldséget enni | *fruta eta barazkiak jan* |
+| Vizet inni | *ura edan* |
+| Jól aludni | *ondo lo egin* |
+| Dohányozni | *erre* |
+| Alkoholt inni | *alkohola edan* |
+| Nem túlzásba vinni a sót | *gatzaz ez abusatu* |
+
+> Tipikus mondatok:
+>
+> - *Kirola egiten dut astean hiru aldiz.* — Hetente háromszor sportolok.
+> - *Erretzeari utzi diot.* — Leszoktam a dohányzásról.
+> - *Ez dut alkoholik edaten astegunetan.* — Hétköznap nem iszom alkoholt.
+
+## Gyakoriság: *X aldiz*
+
+Az "X-szer" kifejezésére a **szám + aldiz** formulát használod:
+
+| Magyar | Euskera |
+|---|---|
+| Naponta egyszer | *Egunean behin* |
+| Hetente kétszer | *Astean bi aldiz* / *birritan* |
+| Havonta háromszor | *Hilean hiru aldiz* |
+| Sokszor | *Askotan* |
+| Néha | *Batzuetan* |
+| Ritkán | *Gutxitan* |
+| Soha | *Inoiz ez* |
+
+## Környezet — *ingurumena*
+
+| Magyar | Euskera |
+|---|---|
+| Környezet | *ingurumena* |
+| Természet | *natura* |
+| Szennyezés | *kutsadura* |
+| Szemét | *zaborra* |
+| Újrahasznosítani | *birziklatu* |
+| Csökkenteni | *gutxitu* / *murriztu* |
+| Újrafelhasználni | *berrerabili* |
+| Megújuló energia | *energia berriztagarria* |
+| Klímaváltozás | *klima-aldaketa* |
+| Globális felmelegedés | *berotze globala* |
+
+## A szelektív gyűjtők
+
+| Szokásos szín | Euskera | Mire |
+|---|---|---|
+| Kék | *edukiontzi urdina* | papera / papír |
+| Sárga | *edukiontzi horia* | plastikoa / műanyag |
+| Zöld | *edukiontzi berdea* | beira / üveg |
+| Barna | *edukiontzi marroia* | organikoa / szerves |
+| Szürke | *edukiontzi grisa* | hondakinak / maradék |
+
+## Hasznos mondatok a véleménynyilvánításhoz
+
+- *Garrantzitsua da birziklatzea.* — Fontos újrahasznosítani.
+- *Komeni da kirola egitea.* — Érdemes sportolni.
+- *Beharrezkoa da kutsadura gutxitzea.* — Szükséges csökkenteni a szennyezést.
+- *Ez dut uste plastikoa ona denik.* — Nem hiszem, hogy a műanyag jó.
+
+> Ezek a szerkezetek (*-tzea + melléknév + da*) az A2-es formulák arra, hogy "fontos / érdemes / szükséges X-et csinálni". A 4. egységben alaposan átvesszük őket.
+
+## A környék élete
+
+| Magyar | Euskera |
+|---|---|
+| Környék, városnegyed | *auzoa* |
+| Szomszéd | *bizilaguna* |
+| Egyesület | *elkartea* |
+| Önkéntesség | *boluntariotza* |
+| A környék ünnepei | *auzoko jaiak* |
+| Részt venni | *parte hartu* |
+| Megbeszélés, gyűlés | *bilera* |
+
+> *Gure auzoan jaiak antolatzeko bilera dago ostegunean. Ainarak parte hartzen du beti.*
+
+## Mini-mintaszöveg
+
+> *Lander auzo-elkarteko kidea da. Astean bi aldiz **bilerak** antolatzen ditu. Auzoko **jaiak** prestatzen dituzte, baita **boluntariotza-egitasmoak** ere: zaborrak biltzeko ekintzak, **birziklatzeari** buruzko hitzaldiak, eta abar. Berarentzat **garrantzitsua da auzoaren bizitza zaintzea**.*
+
+> **Kulturális megjegyzés:** az *auzo-elkarteak* (lakóközösségi egyesületek) Euskal Herria sok településén a társasági élet alapkövei. Ünnepeket, baszk nyelvi foglalkozásokat, hegyi kirándulásokat és környezetvédelmi kampányokat szerveznek. A részvétel az egyik legjobb módja annak, hogy valódi helyzetekben gyakorold a nyelvet.
+

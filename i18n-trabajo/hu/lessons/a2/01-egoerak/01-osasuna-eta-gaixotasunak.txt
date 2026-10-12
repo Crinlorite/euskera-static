@@ -1,0 +1,167 @@
+@@ title
+Osasuna eta gaixotasunak — egészség és panaszok
+@@ x0.prompt
+Mit jelent az, hogy "Sukarra daukat"?
+@@ x0.explanation
+A *Sukarra* a láz. Az *X daukat* (van X-em) szerkezet szinte minden tünetre jó.
+@@ x0.opt0
+Lázam van
+@@ x0.opt1
+Köhögök
+@@ x0.opt2
+Éhes vagyok
+@@ x0.opt3
+Fázom
+@@ x1.prompt
+A rendelőben az orvos azt kérdezi: "Zer duzu?". Mire kérdez rá?
+@@ x1.explanation
+A *Zer duzu?* az orvos klasszikus nyitókérdése — szó szerint "mid van?".
+@@ x1.opt0
+Mi a panasza? (mi a baj?)
+@@ x1.opt1
+Ki maga?
+@@ x1.opt2
+Honnan jön?
+@@ x1.opt3
+Mikor történt?
+@@ x2.prompt
+Fáj a fejem = Buruko ___ daukat.
+@@ x2.explanation
+Baszkul a fájdalom főnév: *mina* (a fájdalom) + a testrész NONGO (-ko) esetben. *Buruko mina* = "fejfájás".
+@@ x3.card0
+az egészség
+@@ x3.card1
+a betegség
+@@ x3.card2
+beteg
+@@ x3.card3
+láz
+@@ x3.card4
+köhögés
+@@ x3.card5
+tüsszentés
+@@ x3.card6
+rekedtség / megfázás
+@@ x3.card7
+nátha
+@@ x3.card8
+az influenza
+@@ x3.card9
+fejfájás
+@@ x3.card10
+torokfájás
+@@ x3.card11
+hasfájás
+@@ x3.card12
+fogfájás
+@@ x3.card13
+hátfájás
+@@ x3.card14
+a seb
+@@ x3.card15
+eltörni a lábát
+@@ x3.card16
+a recept
+@@ x3.card17
+a gyógyszer
+@@ x3.card18
+tabletta
+@@ x3.card19
+az oltás
+@@ x4.pair0
+a kórház
+@@ x4.pair1
+az egészségügyi központ
+@@ x4.pair2
+orvos
+@@ x4.pair3
+ápoló
+@@ x4.pair4
+gyógyszerész
+@@ x4.pair5
+a gyógyszertár
+@@ body
+
+Az A2 szint megnyitja előtted az utat, hogy arról beszélj, hogy érzed magad testileg: mikor vagy beteg, mi fáj, és mit írt fel az orvos. Az A1-ből már ismert alapszerkezet (*mina daukat*) konkrét szókinccsel, egészségügyi szakemberekkel és rendelői párbeszédekkel bővül.
+
+## Hogyan mondd, hogy "beteg vagyok"
+
+Baszkul két gyakori mód van:
+
+- **Gaixorik nago.** — Beteg vagyok. (pillanatnyi állapot, az *egon* igével)
+- **Ez nago ondo.** — Nem vagyok jól.
+- **Min hartu dut.** — Megsérültem.
+- **Gaixotu egin naiz.** — Megbetegedtem (tárgyatlan ige, *naiz*).
+
+> **Nyelvtani megjegyzés:** a *gaixorik* a -**rik** (állapot) toldalékot kapja, akárcsak a *pozik* (elégedett), a *nekatuta*, a *triste*. Ne feledd: állapot = *egon*.
+
+## Tünetek — az univerzális formula: X **daukat**
+
+Ahogy az A1-ben, a tüneteket az *eduki* (birtokolni, van valamije) igével képezzük:
+
+| Magyar | Euskera |
+|---|---|
+| Lázam van | *Sukarra **daukat*** |
+| Köhögök | *Eztula **daukat*** |
+| Náthás vagyok | *Katarroa **daukat*** |
+| Influenzás vagyok | *Gripea **daukat*** |
+| Szédülök | *Zorabiatuta nago* |
+| Hányingerem van | *Goragalea **daukat*** |
+
+## Fájdalom: *mina*
+
+A **fájdalom** baszkul főnév (*mina*), és a testrésszel **NONGO (-ko)** esetben kapcsolódik, amely azt fejezi ki, "milyen fájdalom":
+
+> **testrész + -ko + mina + daukat**
+
+| Magyar | Euskera |
+|---|---|
+| Fáj a fejem | *Buruko mina daukat* |
+| Fáj a torkom | *Eztarriko mina daukat* |
+| Fáj a hasam | *Sabeleko mina daukat* |
+| Fáj a fogam | *Hortzeko mina daukat* |
+| Fáj a hátam | *Bizkarreko mina daukat* |
+| Fáj a lábam (lábfejem) | *Oinetako mina daukat* |
+
+Egy másik nagyon gyakori forma, főleg ha valami "éppen most" fáj:
+
+- *Buruak min ematen dit.* — Fáj a fejem (szó szerint: "a fejem fájdalmat ad nekem").
+
+## A rendelőben
+
+| Magyar | Euskera |
+|---|---|
+| Mi a baj? / Mi a panasza? | *Zer duzu?* / *Zer gertatzen zaizu?* |
+| Mióta? | *Noiztik?* |
+| Fáj? | *Min ematen dizu?* |
+| Vegyen be egy tablettát nyolcóránként | *Hartu pilula bat zortzi orduro* |
+| Pihenjen | *Hartu atseden* |
+| Jöjjön vissza egy hét múlva | *Itzuli astebete barru* |
+
+## Szakemberek és helyek
+
+| Hely / Személy | Euskera |
+|---|---|
+| Az egészségügyi központ | *anbulatorioa* |
+| A kórház | *ospitalea* |
+| Sürgősségi osztály | *larrialdiak* |
+| A háziorvos | *familia-medikua* |
+| Az ápolónő | *erizaina* |
+| A gyógyszerész | *botikaria* |
+| A gyógyszertár | *botika* / *farmazia* |
+| Előzetes időpont | *aurretiazko hitzordua* |
+
+## Mini-párbeszéd
+
+> *— Egun on. **Zer duzu**?*
+>
+> *— **Sukarra daukat** atzotik, eta **buruko mina** ere bai.*
+>
+> *— Eztulik?*
+>
+> *— Bai, baina ez asko.*
+>
+> *— Ondo. **Hartu** pilula hauek **zortzi orduro**, eta **edan** ur asko. Hobeto ez bazaude, bihar etorri berriro.*
+
+> **Kulturális megjegyzés:** Euskal Herriában a *"botikaria"* (gyógyszerész) sok kis faluban még mindig az első állomás enyhe panaszok esetén: megfázás, csípések, szédülés. A gyógyszertár szűrőként működik a háziorvos előtt.
+

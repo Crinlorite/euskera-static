@@ -1,0 +1,145 @@
+@@ title
+Mediku-kontsultan — диалог в кабинета
+@@ x0.prompt
+При лекаря "Hartu pilula bat zortzi orduro" означава…
+@@ x0.explanation
+Наставката *-ro* към единица за време показва редовна честота: *zortzi orduro* = на всеки осем часа.
+@@ x0.opt0
+Изпийте едно хапче в осем
+@@ x0.opt1
+Изпийте едно хапче в продължение на осем часа
+@@ x0.opt2
+Изпийте осем хапчета
+@@ x0.opt3
+Изпийте едно хапче на всеки осем часа
+@@ x1.prompt
+"Hobeto nago" означава…
+@@ x1.explanation
+*Hobeto* = по-добре. *Hobe* е прилагателното "по-добър", а *hobeto* — наречието.
+@@ x1.opt0
+По-зле съм
+@@ x1.opt1
+Добре съм
+@@ x1.opt2
+По-добре съм
+@@ x1.opt3
+Същото съм
+@@ x2.prompt
+Искам да си запиша час = Hitzordua eskatu nahi ___.
+@@ x2.explanation
+*Nahi izan* е преходен: използва *dut*. *Hitzordua eskatu nahi dut* — искам да си запиша час.
+@@ x3.card0
+записвам си час
+@@ x3.card1
+вземам / пия (лекарство)
+@@ x3.card2
+на всеки час
+@@ x3.card3
+на всеки осем часа
+@@ x3.card4
+всеки ден
+@@ x3.card5
+преди ядене
+@@ x3.card6
+след ядене
+@@ x3.card7
+по-добре (нареч.)
+@@ x3.card8
+по-зле (нареч.)
+@@ x3.card9
+същото
+@@ x3.card10
+рецепта
+@@ x3.card11
+болничният
+@@ x3.card12
+кабинетът, прегледът
+@@ x4.pair0
+Какво ви има?
+@@ x4.pair1
+Откога?
+@@ x4.pair2
+Боли ли ви?
+@@ x4.pair3
+Вземете това
+@@ x4.pair4
+Елате отново след седмица
+@@ x4.pair5
+Почивам
+@@ body
+
+Този урок е **пълна симулация на медицински преглед**. Той съчетава речника от предишния урок с изрази за време (колко често, преди/след) и чести формули. Кабинетът на лекаря е една от най-полезните ситуации за A2: появява се на всеки официален изпит.
+
+## Записване на час
+
+> *Egun on. **Hitzordua eskatu nahi dut** familia-medikuarekin.*
+
+Варианти:
+
+- *Hitzordua eman ahal didazu?* — Може ли да ми дадете час?
+- *Larrialdietara joan behar dut.* — Трябва да отида в спешното.
+- *Bihar goizerako badago tarterik?* — Има ли свободен час за утре сутринта?
+
+## Честота с -**ro**
+
+За "на всеки X" баският използва наставката **-ro** към съществителното за време:
+
+| Български | Euskera |
+|---|---|
+| На всеки час | *orduro* |
+| На всеки два часа | *bi orduro* |
+| На всеки осем часа | *zortzi orduro* |
+| Всеки ден | *egunero* |
+| Всяка седмица | *astero* |
+| Всеки месец | *hilero* |
+| Всяка година | *urtero* |
+
+> Това е същото *-ro*, което вече използваше в *egunero* (всеки ден) в A1. Тук просто го разширяваш към часове и други единици.
+
+## Преди / след ядене
+
+Указанията на лекаря обикновено съдържат тези формули:
+
+- *Jan **baino lehen*** — преди ядене
+- *Jan **ondoren*** / *Jan **eta gero*** — след ядене
+- *Goizean baraurik* — сутрин на гладно
+- *Lo egin baino lehen* — преди лягане
+
+## "По-добре" / "по-зле"
+
+За да отговориш как се чувстваш:
+
+| Български | Euskera |
+|---|---|
+| По-добре съм | *Hobeto nago* |
+| По-зле съм | *Okerrago nago* |
+| Същото | *Berdin nago* |
+| Много по-добре | *Askoz hobeto* |
+
+> **Бележка:** *hobe* (прилагателно) и *hobeto* (наречие) са неправилни. Няма *\*onago* — сравнителната степен на *ona* е *hobea*. Ще го разгледаме подробно в раздел 4.
+
+## Примерен диалог
+
+> *— Egun on. **Zer duzu**?*
+>
+> *— **Eztarriko min handia daukat**, eta uste dut **sukarra ere badudala**.*
+>
+> *— Noiztik?*
+>
+> *— Duela hiru egun hasi zen.*
+>
+> *— Ikusiko dut... Bai, eztarria gorri-gorri daukazu. **Hartu** pastilla hauek **jan ondoren**, **zortzi orduro**, hiru egunez. **Edan** ur asko, eta **hartu atseden**. Hobeto ez bazaude **astebete barru**, itzuli.*
+>
+> *— Eskerrik asko, mediku.*
+
+## Ключови изрази за запомняне
+
+- *Hitzordua eskatu nahi dut.* — Искам да си запиша час.
+- *Min handia daukat hemen.* — Тук много ме боли.
+- *Duela bi egun hasi zen.* — Започна преди два дни.
+- *Errezeta emango dizut.* — Ще ви напиша рецепта.
+- *Errezetarik gabe saltzen al duzue?* — Продавате ли го без рецепта?
+- *Bajan nago.* — В болничен съм.
+
+> **Културна бележка:** Osakidetza (баската обществена здравна служба) има своя двуезична терминология; много формуляри и табели се появяват първо на баски. Ако свикнеш с думи като *anbulatorioa*, *larrialdiak* или *errezeta*, ще се ориентираш във всеки здравен център.
+
