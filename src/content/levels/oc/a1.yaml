@@ -6,24 +6,13 @@ status: active
 beta: false
 curriculum:
 - id: greetings
-  title: Salutacions e comiats (kaixo
-  hepa: null
-  agur: null
-  gero arte): null
+  title: Salutacions e comiats (kaixo, hepa, agur, gero arte)
 - id: courtesy
-  title: Cortesia e aula (mesedez
-  eskerrik asko: null
-  ez horregatik: null
-  errepikatu): null
+  title: Cortesia e aula (mesedez, eskerrik asko, ez horregatik, errepikatu)
 - id: introductions
   title: Presentacions (Ni X naiz, Nire izena X da, Zein da zure izena?)
 - id: personal-data
-  title: Donades personaus (izena
-  abizena: null
-  adina: null
-  jaioterria: null
-  telefonoa: null
-  emaila): null
+  title: Donades personaus (izena, abizena, adina, jaioterria, telefonoa, emaila)
 - id: ages
   title: 'Edat: ... urte ditut/ditu/dituzte'
 - id: izan-nor
@@ -43,41 +32,17 @@ curriculum:
 - id: gustatzen-zait
   title: '"Gustatzen zait/zaio" — vèrb de gost (introduccion NOR-NORI)'
 - id: personal-pronouns
-  title: Pronoms personaus (ni
-  hi: null
-  zu: null
-  hura: null
-  gu: null
-  zuek: null
-  haiek): null
+  title: Pronoms personaus (ni, hi, zu, hura, gu, zuek, haiek)
 - id: demonstratives
   title: Demostratius hau/hori/hura e pluraus hauek/horiek/haiek
 - id: possessives
-  title: Possessius (nire
-  hire: null
-  zure: null
-  haren/bere: null
-  gure: null
-  zuen: null
-  haien/beren): null
+  title: Possessius (nire, hire, zure, haren/bere, gure, zuen, haien/beren)
 - id: family-types
-  title: Tipes de familha (guraso bakarrekoa
-  bikote mistoa: null
-  ezkonduta): null
+  title: Tipes de familha (guraso bakarrekoa, bikote mistoa, ezkonduta)
 - id: family-basics
-  title: Familha (aita
-  ama: null
-  seme: null
-  alaba: null
-  anaia: null
-  arreba/ahizpa): null
+  title: Familha (aita, ama, seme, alaba, anaia, arreba/ahizpa)
 - id: family-extended
-  title: Familha alargarècla (aitona
-  amona: null
-  osaba: null
-  izeba: null
-  lehengusu: null
-  iloba): null
+  title: Familha alargarècla (aitona, amona, osaba, izeba, lehengusu, iloba)
 - id: origin-koa
   title: 'Procedéncia: Nongoa zara? → X-koa naiz'
 - id: residence-an
@@ -111,38 +76,23 @@ curriculum:
 - id: numbers-1-100
   title: Nombres de 1 a 100 (sistèma vigesimau)
 - id: colors
-  title: Colors (zuria
-  beltza: null
-  gorria: null
-  urdina: null
-  horia: null
-  berdea): null
+  title: Colors (zuria, beltza, gorria, urdina, horia, berdea)
 - id: days-of-week
   title: Dies dera setmana (astelehena → igandea)
 - id: months
   title: Mesi der an (urtarrila → abendua)
 - id: seasons
-  title: Sasons (udaberria
-  uda: null
-  udazkena: null
-  negua): null
+  title: Sasons (udaberria, uda, udazkena, negua)
 - id: time-basics
   title: Díder era ora (Hamabiak dira, sei eta erdiak)
 - id: time-expressions
   title: 'Temps: lehen/orain/gero, atzo/gaur/bihar/etzi'
 - id: body-parts
-  title: Parts deth còs (burua
-  eskua: null
-  hanka: null
-  sabela): null
+  title: Parts deth còs (burua, eskua, hanka, sabela)
 - id: health-basics
   title: Santat basica (... mina daukat, sukarra, eztula)
 - id: clothes
-  title: Roba basica (alkandora
-  galtza: null
-  soineko: null
-  jertse: null
-  zapatak): null
+  title: Roba basica (alkandora, galtza, soineko, jertse, zapatak)
 - id: places-town
   title: Lòcs deth pòble (taberna, merkatua, hondartza, eliza, banketxea)
 - id: directions

@@ -6,24 +6,13 @@ status: active
 beta: false
 curriculum:
 - id: greetings
-  title: Приветствия и прощания (kaixo
-  hepa: null
-  agur: null
-  gero arte): null
+  title: Приветствия и прощания (kaixo, hepa, agur, gero arte)
 - id: courtesy
-  title: Вежливость и классная комната (mesedez
-  eskerrik asko: null
-  ez horregatik: null
-  errepikatu): null
+  title: Вежливость и классная комната (mesedez, eskerrik asko, ez horregatik, errepikatu)
 - id: introductions
   title: Знакомство (Ni X naiz, Nire izena X da, Zein da zure izena?)
 - id: personal-data
-  title: Личные данные (izena
-  abizena: null
-  adina: null
-  jaioterria: null
-  telefonoa: null
-  emaila): null
+  title: Личные данные (izena, abizena, adina, jaioterria, telefonoa, emaila)
 - id: ages
   title: 'Возраст: ... urte ditut/ditu/dituzte'
 - id: izan-nor
@@ -43,41 +32,17 @@ curriculum:
 - id: gustatzen-zait
   title: '"Gustatzen zait/zaio" — глагол для выражения предпочтений (введение в NOR-NORI)'
 - id: personal-pronouns
-  title: Личные местоимения (ni
-  hi: null
-  zu: null
-  hura: null
-  gu: null
-  zuek: null
-  haiek): null
+  title: Личные местоимения (ni, hi, zu, hura, gu, zuek, haiek)
 - id: demonstratives
   title: Указательные местоимения hau/hori/hura и их мн. ч. hauek/horiek/haiek
 - id: possessives
-  title: Притяжательные местоимения (nire
-  hire: null
-  zure: null
-  haren/bere: null
-  gure: null
-  zuen: null
-  haien/beren): null
+  title: Притяжательные местоимения (nire, hire, zure, haren/bere, gure, zuen, haien/beren)
 - id: family-types
-  title: Типы семьи (guraso bakarrekoa
-  bikote mistoa: null
-  ezkonduta): null
+  title: Типы семьи (guraso bakarrekoa, bikote mistoa, ezkonduta)
 - id: family-basics
-  title: Семья (aita
-  ama: null
-  seme: null
-  alaba: null
-  anaia: null
-  arreba/ahizpa): null
+  title: Семья (aita, ama, seme, alaba, anaia, arreba/ahizpa)
 - id: family-extended
-  title: Расширенная семья (aitona
-  amona: null
-  osaba: null
-  izeba: null
-  lehengusu: null
-  iloba): null
+  title: Расширенная семья (aitona, amona, osaba, izeba, lehengusu, iloba)
 - id: origin-koa
   title: 'Происхождение: Nongoa zara? → X-koa naiz'
 - id: residence-an
@@ -111,38 +76,23 @@ curriculum:
 - id: numbers-1-100
   title: Числа от 1 до 100 (двадцатеричная система)
 - id: colors
-  title: Цвета (zuria
-  beltza: null
-  gorria: null
-  urdina: null
-  horia: null
-  berdea): null
+  title: Цвета (zuria, beltza, gorria, urdina, horia, berdea)
 - id: days-of-week
   title: Дни недели (astelehena → igandea)
 - id: months
   title: Месяцы года (urtarrila → abendua)
 - id: seasons
-  title: Времена года (udaberria
-  uda: null
-  udazkena: null
-  negua): null
+  title: Времена года (udaberria, uda, udazkena, negua)
 - id: time-basics
   title: Как сказать, который час (Hamabiak dira, sei eta erdiak)
 - id: time-expressions
   title: 'Время: lehen/orain/gero, atzo/gaur/bihar/etzi'
 - id: body-parts
-  title: Части тела (burua
-  eskua: null
-  hanka: null
-  sabela): null
+  title: Части тела (burua, eskua, hanka, sabela)
 - id: health-basics
   title: Основы о здоровье (... mina daukat, sukarra, eztula)
 - id: clothes
-  title: Основная одежда (alkandora
-  galtza: null
-  soineko: null
-  jertse: null
-  zapatak): null
+  title: Основная одежда (alkandora, galtza, soineko, jertse, zapatak)
 - id: places-town
   title: Места в городе/деревне (taberna, merkatua, hondartza, eliza, banketxea)
 - id: directions
