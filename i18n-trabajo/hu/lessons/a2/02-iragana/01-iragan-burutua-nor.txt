@@ -1,0 +1,152 @@
+@@ title
+Iragan burutua NOR — az izan és az egon múlt ideje
+@@ x0.prompt
+Mi az "izan" múlt idejű alakja a "ni" (én) személyhez?
+@@ x0.explanation
+A *Nintzen* az *izan/egon* múlt ideje az "én" személyhez: "voltam (valami / valahol)".
+@@ x1.prompt
+Az "Atzo Bilbon egon nintzen" jelentése…
+@@ x1.explanation
+Atzo = tegnap. Egon nintzen = voltam (valahol). Befejezett múlt: konkrét, lezárt esemény.
+@@ x1.opt0
+Ma Bilbaóban vagyok
+@@ x1.opt1
+Holnap Bilbaóban leszek
+@@ x1.opt2
+Tegnap Bilbaóban voltam
+@@ x1.opt3
+Jártam már Bilbaóban
+@@ x2.prompt
+Két éve szomszédok voltunk = Duela bi urte bizilagunak ___ .
+@@ x2.explanation
+Az "izan" múlt ideje a "gu" (mi) személyhez = *ginen*.
+@@ x3.prompt
+Tegnap este moziban voltunk = Bart zinean egon ___ .
+@@ x3.explanation
+*Egon ginen* = voltunk (valahol).
+@@ x4.card0
+voltam (valami / valahol)
+@@ x4.card1
+voltál
+@@ x4.card2
+volt (ő)
+@@ x4.card3
+voltunk
+@@ x4.card4
+voltatok
+@@ x4.card5
+voltak
+@@ x4.card6
+voltam (valahol / valahogy — szintetikus, egon)
+@@ x4.card7
+volt (szintetikus)
+@@ x4.card8
+voltak (szintetikus)
+@@ x4.card9
+tegnap
+@@ x4.card10
+tegnap este
+@@ x4.card11
+a múlt héten
+@@ x4.card12
+két éve
+@@ x4.card13
+akkor, abban az időben
+@@ x5.pair0
+Tegnap otthon voltam
+@@ x5.pair1
+A múlt héten Donostiában
+@@ x5.pair2
+Diákok voltunk
+@@ x5.pair3
+Tegnap este elégedett voltam
+@@ x5.pair4
+Miért voltatok ott?
+@@ x5.pair5
+Egy éve
+@@ body
+
+A **közelmúltat** (*joan naiz*, *jan dut*) már ismered az A1-ből. Az A2 szinten döntő lépést teszel: jön a **befejezett múlt** (*iragan burutua*). Ezzel meséled el a lezárt, távoli vagy időben már messze eső eseményeket: "voltam, mentem, csináltam, mondtam".
+
+Ez az első lecke a NOR igékre koncentrál: az **izan** és az **egon** múlt idejére.
+
+## Az *izan* (lenni) múlt ideje
+
+| Névmás | Múlt idő | Magyar |
+|---|---|---|
+| ni | **nintzen** | voltam |
+| zu | **zinen** | voltál |
+| hura | **zen** | volt |
+| gu | **ginen** | voltunk |
+| zuek | **zineten** | voltatok |
+| haiek | **ziren** | voltak |
+
+> Trükk: a végső **n** minden alakban megjelenik (n**intzen**, zi**nen**, ze**n**, gi**nen**, zi**ne**ten, zir**en**). Ez a baszk múlt idő klasszikus jele.
+
+## Az *egon* (lenni valahol/valahogy) múlt ideje — szintetikus
+
+Az *egon* igének múlt időben is vannak szintetikus alakjai, a jelen idejű *nago/zaude/dago...* párhuzamaként:
+
+| Névmás | Múlt idő | Magyar |
+|---|---|---|
+| ni | **nengoen** | voltam (valahol/valahogy) |
+| zu | **zeunden** | voltál |
+| hura | **zegoen** | volt |
+| gu | **geunden** | voltunk |
+| zuek | **zeundeten** | voltatok |
+| haiek | **zeuden** | voltak |
+
+> A mindennapi beszédben a segédigés **egon nintzen / egon zen** stb. is helyes. A szintetikus alakok gondosabbnak vagy irodalmibbnak hatnak, de sokat fogod hallani őket.
+
+## A különbség: *izan* vagy *egon* múlt időben
+
+Ahogy jelen időben, múlt időben is megmarad a különbség:
+
+- **Tulajdonság / azonosság** → *izan*: *Egoitz medikua zen* (Egoitz orvos volt).
+- **Átmeneti állapot / hely** → *egon*: *Egoitz pozik zegoen* (Egoitz elégedett volt) / *Egoitz Bilbon zegoen* (Egoitz Bilbaóban volt).
+
+## A befejezett múlt időhatározói
+
+Hogy a mondat lezárt múltnak hangozzék, a baszk időhatározókat használ:
+
+| Magyar | Euskera |
+|---|---|
+| Tegnap | *Atzo* |
+| Tegnap este | *Bart* |
+| Tegnapelőtt | *Herenegun* |
+| A múlt héten | *Joan den astean* / *Aurreko astean* |
+| A múlt hónapban | *Joan den hilean* |
+| Tavaly | *Joan den urtean* / *Iaz* |
+| Két éve | *Duela bi urte* |
+| Régen | *Aspaldian* / *Duela urte asko* |
+| Akkor | *Orduan* |
+| 2010-ben | *2010ean* |
+
+## Tipikus minták
+
+> *Atzo ni etxean **nintzen** goiz osoan.* — Tegnap egész délelőtt otthon voltam.
+>
+> *Joan den urtean Garazi Frantzian **zegoen**.* — Tavaly Garazi Franciaországban volt.
+>
+> *Duela hamar urte ikaskideak **ginen**.* — Tíz éve osztálytársak voltunk.
+>
+> *Bart kalean jende asko **zegoen**.* — Tegnap este sok ember volt az utcán.
+>
+> *Haurrak gu **ginen**, eta orain helduak gara.* — A gyerekek mi voltunk, most pedig felnőttek vagyunk.
+
+## A tagadás
+
+Ugyanúgy, mint jelen időben: **ez** az ige előtt.
+
+> *Atzo ez nintzen lanean egon.* — Tegnap nem voltam a munkahelyemen.
+>
+> *Ainara ez zegoen pozik orduan.* — Ainara akkor nem volt elégedett.
+>
+> *Gu ez ginen ikaskideak.* — Mi nem voltunk osztálytársak.
+
+## Mini-szöveg
+
+> *Duela hamar urte Anboto Bartzelonan **bizi zen**. Han ikaslea **zen** eta unibertsitateko logelan **zegoen**. Pozik **zegoen** baina urruti **zegoen** familiatik. Astebururo telefonoz hitz egiten zuen amarekin.*
+
+> **Megjegyzés:** ebben a szövegrészben együtt él a *zen* (volt), a *zegoen* (volt valahol/valahogy) és más alakok, amelyeket a következő leckékben látunk. Ez a 2. egység lényege: múlt idejű alakokat fűzni össze az elbeszéléshez.
+

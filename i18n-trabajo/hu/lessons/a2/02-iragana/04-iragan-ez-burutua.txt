@@ -1,0 +1,178 @@
+@@ title
+Iragan ez burutua — folyamatos múlt és folyamatban lévő cselekvés
+@@ x0.prompt
+A "Lan egiten nuen Bilbon" jelentése…
+@@ x0.explanation
+Az *Egiten nuen* folyamatos múlt: szokás vagy ismétlődő cselekvés a múltban.
+@@ x0.opt0
+Bilbaóban dolgoztam (szokás, hosszabb ideig)
+@@ x0.opt1
+Dolgoztam már Bilbaóban (nemrég)
+@@ x0.opt2
+Bilbaóban fogok dolgozni
+@@ x0.opt3
+Egy napig dolgoztam Bilbaóban
+@@ x1.prompt
+Mi a különbség az "irakurri nuen" és az "irakurtzen nuen" között?
+@@ x1.explanation
+Ez az A2 kulcsfontosságú szembenállása: partizipioa = egyszeri esemény; -tzen + múlt idejű segédige = szokás vagy folyamatban lévő cselekvés.
+@@ x1.opt0
+"Irakurri nuen" = elolvastam (lezárt esemény); "irakurtzen nuen" = olvasni szoktam (szokás)
+@@ x1.opt1
+Nincs különbség
+@@ x1.opt2
+"Irakurri nuen" = olvastam (szokásból); "irakurtzen nuen" = elolvastam már
+@@ x1.opt3
+"Irakurri nuen": jelen idő; "irakurtzen nuen": múlt idő
+@@ x2.prompt
+Kiskoromban fociztam = Txikitan futbolean ___ nuen.
+@@ x2.explanation
+A múltbeli szokáshoz: *-tzen* végű ige + múlt idejű segédige.
+@@ x3.prompt
+Éppen ettem, amikor megérkezett = Jaten ari ___ etorri zenean.
+@@ x3.explanation
+*Ari + nintzen* = "éppen (csináltam)". Folyamatos szemlélet a múltban.
+@@ x4.card0
+dolgoztam (én, szokásból)
+@@ x4.card1
+nézte (ő, szokásból)
+@@ x4.card2
+ettünk (szokásból)
+@@ x4.card3
+laktam (én)
+@@ x4.card4
+jártunk (rendszeresen)
+@@ x4.card5
+tanár volt
+@@ x4.card6
+éppen ettem
+@@ x4.card7
+éppen dolgoztunk
+@@ x4.card8
+kiskoromban
+@@ x4.card9
+abban az időben
+@@ x4.card10
+régen, korábban
+@@ x5.pair0
+Elmentem (egyszer)
+@@ x5.pair1
+Jártam (szokásból)
+@@ x5.pair2
+(nem helyes)
+@@ x5.pair3
+Éppen mentem
+@@ x5.pair4
+Bilbaóban laktam
+@@ x5.pair5
+Tegnap elmentem Bilbaóba
+@@ body
+
+A baszk **folyamatos múlt** (*iragan ez burutua*) nagyjából azt fejezi ki, amit a magyarban szokást vagy hosszabb ideig tartó állapotot kifejező múlttal mondunk ("ettem, laktam, jártam, dolgoztam" — gyakran a *szoktam* igével: "enni szoktam"). Ezekre szolgál:
+
+- **Múltbeli szokások** (amit rendszeresen csináltál).
+- **Leírások** (milyen volt, hol laktál, mid volt).
+- **Folyamatban lévő cselekvések**, amelyek háttérként szolgálnak egy másik, egyszeri cselekvéshez.
+
+## A formula
+
+> **-tzen / -ten végű ige + múlt idejű segédige**
+
+Hasonlítsd össze a jelen időt és a folyamatos múltat:
+
+| Jelen (mai szokás) | Folyamatos múlt (régi szokás) |
+|---|---|
+| *Lan egiten dut* (dolgozom) | *Lan egiten **nuen*** (dolgoztam) |
+| *Bilbon bizi naiz* (lakom) | *Bilbon bizi **nintzen*** (laktam) |
+| *Filmak ikusten ditut* (nézek) | *Filmak ikusten **nituen*** (néztem) |
+| *Egunero joaten naiz* (járok) | *Egunero **joaten nintzen*** (jártam) |
+
+> A főige a **szokásos** alakjában áll (-tzen / -ten — ugyanaz, mint az A1-ben), a segédige pedig **múlt időben** (az 1. és 2. lecke alakjai).
+
+## Ragozás NOR segédigével (tárgyatlan igék)
+
+| Névmás | Folyamatos múlt | Magyar |
+|---|---|---|
+| ni | *…tzen* **nintzen** | jártam / voltam / laktam |
+| zu | *…tzen* **zinen** | jártál |
+| hura | *…tzen* **zen** | járt / volt |
+| gu | *…tzen* **ginen** | jártunk / voltunk |
+| zuek | *…tzen* **zineten** | jártatok |
+| haiek | *…tzen* **ziren** | jártak |
+
+> *Garai hartan Donostian **bizi nintzen**.* — Abban az időben Donostiában laktam.
+
+## Ragozás NOR-NORK segédigével (tárgyas igék)
+
+| Névmás | Folyamatos múlt | Magyar |
+|---|---|---|
+| nik | *…tzen* **nuen** | én csináltam (szokásból) |
+| zuk | *…tzen* **zenuen** | te csináltad |
+| hark | *…tzen* **zuen** | ő csinálta |
+| guk | *…tzen* **genuen** | mi csináltuk |
+| zuek | *…tzen* **zenuten** | ti csináltátok |
+| haiek | *…tzen* **zuten** | ők csinálták |
+
+> *Aitak afari berezia **prestatzen zuen** igandero.* — Az apa minden vasárnap különleges vacsorát készített.
+
+## Burutua vagy ez burutua: a kulcsfontosságú szembenállás
+
+| Típus | Alak | Jelentés |
+|---|---|---|
+| Burutua (befejezett) | partizipioa + múlt idejű segédige | egyszeri, lezárt esemény |
+| Ez burutua (folyamatos) | -tzen + múlt idejű segédige | szokás vagy folyamatban lévő cselekvés |
+
+Hasonlítsd össze:
+
+| Magyar | Euskera |
+|---|---|
+| Tegnap elmentem dolgozni | *Atzo lanera **joan nintzen*** |
+| Régen biciklivel jártam dolgozni | *Lehen lanera bizikletaz **joaten nintzen*** |
+| Szombaton megnéztem egy filmet | *Larunbatean film bat **ikusi nuen*** |
+| Minden szombaton filmeket néztem | *Larunbatero filmak **ikusten nituen*** |
+
+## Folyamatban lévő cselekvés: *ari nintzen*
+
+Az "éppen csináltam" kifejezéséhez az **ari** szerkezetet használod:
+
+> **-tzen + ari + az izan múlt ideje** (NOR)
+
+| Magyar | Euskera |
+|---|---|
+| Éppen ettem | *Jaten **ari nintzen*** |
+| Éppen dolgoztunk | *Lanean **ari ginen*** |
+| Esett az eső | *Euria **ari zuen*** |
+| Mit csináltál éppen? | *Zer **ari zinen** egiten?* |
+
+> Ahogy jelen időben *ari naiz*, múlt időben *ari nintzen*. Azt jelzi, hogy a cselekvés egy adott pillanatban **folyamatban** volt.
+
+## Időhatározók, amelyek folyamatos múltat kívánnak
+
+Ezek az időhatározók a folyamatos múlt / szokás felé terelik a mondatot:
+
+| Magyar | Euskera |
+|---|---|
+| Kiskoromban | *Txikitan* |
+| Fiatal koromban | *Gaztea nintzenean* |
+| Abban az időben | *Garai hartan* |
+| Régen / valaha | *Lehen* / *Lehenago* |
+| Mindig | *Beti* |
+| Minden nap | *Egunero* |
+| Gyakran | *Sarri* / *Askotan* |
+
+## Összehasonlító mini-szöveg
+
+> **Burutua:** *Atzo Iratiren etxera **joan nintzen**, kafea **hartu nuen**, eta hamabietan **itzuli nintzen**.* — Tegnap elmentem Iratihoz, megittam egy kávét, és tizenkettőkor hazajöttem.
+>
+> **Ez burutua:** *Lehen Iratiren etxera **joaten nintzen** astero. Han kafea **hartzen genuen** eta luze **hitz egiten genuen**.* — Régen minden héten jártam Iratihoz. Ott kávézni szoktunk, és sokáig beszélgettünk.
+>
+> **Progresivoa:** *Atzo, kafea **hartzen ari ginela**, telefonoa jo zuen.* — Tegnap, miközben kávéztunk, megszólalt a telefon.
+
+## Gyakori csapdák
+
+1. **A szabályos ige + -tzen** szinte mindig működik. Vigyázat: *jan → jaten* (nem *jantzen*), *edan → edaten*, *egin → egiten*. Ezeket az A1-ben jegyezted meg.
+2. **Ne akarj mindenhova *ari*-t tenni**: baszkul a folyamatos múlt a leíró múlt használatainak jó részét lefedi, *ari* hozzáadása nélkül.
+3. **A segédige ugyanaz**, mint a partizipiónál (*nintzen, nuen*); csak a főige alakja változik.
+
+> **Gyakorlati összefoglaló:** ha a mondat arra felel, "mi történt?" → *partizipio + segédige* (burutua). Ha arra, "mit szoktál csinálni?" vagy "milyen volt?" → *-tzen + múlt idejű segédige* (ez burutua). Ha arra, "mit csináltál éppen abban a pillanatban?" → *-tzen ari + az izan múlt ideje* (puntukaria).
+
