@@ -1,0 +1,111 @@
+@@ title
+Rendelés (eskatu)
+@@ x0.prompt
+"Első fogásnak salátát kérek" — így mondják…
+@@ x0.explanation
+*Hasteko* (kezdésnek) + *entsalada hartuko dut* (salátát kérek). Tipikus szerkezet.
+@@ x1.prompt
+"Nekem a halat" — így mondják…
+@@ x1.explanation
+*Niretzat* — "nekem, a számomra" (célhatározó). Közös asztalnál rendeléskor ez a természetes formula.
+@@ x2.prompt
+Hogy megkérdezd a társadtól: "és neked?" = Eta ___?
+@@ x2.explanation
+*Zuretzat* — "neked, a számodra".
+@@ x3.prompt
+"Második fogásnak húst" = Bigarrenerako, ___
+@@ x3.explanation
+*Bigarrenerako* — "második fogásnak (a második fogásra)". *Haragia* — a hús.
+@@ x4.card0
+Mit kérsz?
+@@ x4.card1
+Mit fogsz kérni?
+@@ x4.card2
+…-t kérek
+@@ x4.card3
+Nekem…
+@@ x4.card4
+És neked?
+@@ x4.card5
+Kezdésnek…
+@@ x4.card6
+Második fogásnak…
+@@ x4.card7
+Desszertnek…
+@@ x4.card8
+Innivalónak vörösbort
+@@ x4.card9
+Inkább…
+@@ x4.card10
+Nem kérek
+@@ x4.card11
+Nem szeretem
+@@ body
+
+Ez a lecke az asztalnál rendelés formuláit gyűjti össze: hogyan építsd fel a lehen/bigarren/postrea sorrendet, hogyan mondd, hogy "nekem", és hogyan fejezd ki, mit szeretsz jobban.
+
+## A pincér kérdése
+
+A pincér valamelyikkel kezdi ezek közül:
+
+- **Zer nahi duzu(e)?** — Mit parancsol(nak)?
+- **Zer hartuko duzu(e)?** — Mit kér(nek)?
+- **Pentsatu duzu(e)?** — Választott(ak) már?
+
+## A rendelés felépítése
+
+A rendelés megszervezéséhez három nagyon hasznos jelző van:
+
+| Euskera | Magyar |
+|---|---|
+| *Hasteko...* | Kezdésnek... |
+| *Bigarrenerako...* | Második fogásnak... |
+| *Postrerako...* | Desszertnek... |
+| *Edateko...* | Innivalónak... |
+
+Teljes példa:
+
+> *Hasteko, entsalada nahi dut. Bigarrenerako, legatza. Postrerako, izozkia. Eta edateko, ardo zuria.*
+>
+> Kezdésnek salátát kérek. Második fogásnak tőkehalat. Desszertnek fagylaltot. Innivalónak pedig fehérbort.
+
+## A rendelés három módja
+
+| Szerkezet | Példa | Mikor |
+|---|---|---|
+| **... hartuko dut** | *Legatza hartuko dut* | …-t kérek (fogok kérni) |
+| **... nahi dut** | *Legatza nahi dut* | …-t szeretnék |
+| **Niretzat...** | *Niretzat, legatza* | nekem… |
+
+A `Niretzat` nagyon hasznos, ha valaki mindenki helyett rendel: "*Niretzat legatza, eta zuretzat?*" (Nekem tőkehalat, és neked?).
+
+## Ízlés és preferencia
+
+- **Nahiago dut...** — Inkább…
+   - *Nahiago dut arraina haragia baino.* — Jobban szeretem a halat, mint a húst.
+- **Ez dut ... nahi.** — Nem kérek…
+- **Ez zait gustatzen.** — Nem szeretem.
+- **... gustatzen zait.** — Szeretem a…
+
+## Mini-párbeszéd az asztalnál
+
+> **Zerbitzaria:** *Egun on! Zer nahi duzue bazkaltzeko?*
+>
+> **Maialen:** *Nik, hasteko, arrain-zopa nahi dut.*
+>
+> **Egoitz:** *Eta nik entsalada epela.*
+>
+> **Z:** *Eta bigarrenerako?*
+>
+> **Egoitz:** *Bakailaoa saltsan.*
+>
+> **Maialen:** *Niretzat legatza, mesedez.*
+>
+> **Z:** *Edateko, zer nahi duzue, ardo gorria ala zuria?*
+>
+> **Maialen:** *Ardo zuria nahiago dut arrainarekin.*
+>
+> **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
+
+> **Kulturális megjegyzés:** a kis éttermekben nagyon gyakori, hogy egy vendég az egész társaság helyett rendel (*Niretzat legatza eta beretzat haragia* — nekem tőkehalat, neki húst). Ezért a *niretzat / zuretzat / beretzat* szavak már az első naptól nagyon hasznosak.
+
