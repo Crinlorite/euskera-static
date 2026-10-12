@@ -1,0 +1,147 @@
+@@ title
+Van…? — létezés a bada/badago szerkezettel
+@@ x0.prompt
+Hogyan kérdezed meg: "Van bár a környéken?"
+@@ x0.explanation
+A "Bada(go)" létezést fejez ki, a "tabernarik" pedig a létezésre vonatkozó kérdésekben és tagadásokban jellemző "-rik" partitívusz.
+@@ x1.prompt
+Az "Ez dago supermerkaturik" jelentése…
+@@ x1.explanation
+"Ez dago + X-rik" = "nincs X". A -rik partitívuszt tagadásban, határozatlan főnevekkel használjuk.
+@@ x1.opt0
+Nem vagyok a szupermarketben
+@@ x1.opt1
+A szupermarket nincs ott
+@@ x1.opt2
+Nincs szupermarket
+@@ x1.opt3
+Megyek a szupermarketbe
+@@ x2.prompt
+Igen, van = Bai, ___.
+@@ x2.explanation
+"Badago" = "bai dago" egybeolvadva: a "ba al dago…?" kérdésre adott tipikus igenlő válasz.
+@@ x3.prompt
+Tagadás: Itt nincs pékség = Hemen ez dago okindegi___.
+@@ x4.prompt
+A kulcsfontosságú különbség a "dago" és a "badago" között:
+@@ x4.explanation
+A "Dago" a semleges "van (valahol)" alak. A "Bada(go)" hozzáadja a létezés árnyalatát; jellemzően kérdésekben (Ba al dago?) és igenlő válaszokban (Bai, badago).
+@@ x4.opt0
+dago = van (valahol); badago = van-e? vagy Igen, van
+@@ x4.opt1
+nincs különbség
+@@ x4.opt2
+a dago jelen idő, a badago múlt idő
+@@ x4.opt3
+a badago csak többes szám
+@@ x5.card0
+Van…?
+@@ x5.card1
+Van? (közvetlen)
+@@ x5.card2
+Igen, van
+@@ x5.card3
+Nem, nincs
+@@ x5.card4
+Vannak…? (többes szám)
+@@ x5.card5
+Igen, vannak (több)
+@@ x5.card6
+Nincs bár
+@@ x5.card7
+Nincs semmi ennivaló
+@@ x5.card8
+Nincs pénz
+@@ x5.card9
+A környéken nincs szupermarket
+@@ x6.pair0
+Van valami bár?
+@@ x6.pair1
+Igen, van
+@@ x6.pair2
+Nem, nincs
+@@ x6.pair3
+valami bár / bárok (partitív alak)
+@@ x6.pair4
+Hol van a bár?
+@@ body
+
+Magyarul egyetlen szót, a "van" szót használjuk két különböző gondolatra: a **létezésre** ("van gyógyszertár a környéken?") és a **helyre** ("a gyógyszertár a Fő utcán van"). A baszk ezt a kettőt nagyon világosan megkülönbözteti, és ezt érdemes korán rögzíteni.
+
+## Létezés vagy hely
+
+| Gondolat | Baszk minta | Példa |
+|---|---|---|
+| **Létezés** ("van, létezik") | **bada(go)** + partitív főnév | *Auzoan **badago** tabernarik?* — Van valami bár a környéken? |
+| **Hely** (valahol lenni) | konkrét főnév + hely + **dago** | *Taberna kalean **dago***. — A bár az utcán van. |
+
+Ha azt kérdezed, hogy valami **létezik**-e (nem azt, hogy hol van, hanem hogy van-e), a **bada(go)** szerkezetet használd.
+
+## A kérdés: Ba al dago…?
+
+Mindkét alak gyakori:
+
+- **Ba al dago + X-rik?** — sztenderd alak (az *al* kérdő partikulával).
+- **Bada(go) + X-rik?** — hétköznapi alak, *al* nélkül.
+
+Példák:
+
+- ***Ba al dago* botikarik herrian?** — Van gyógyszertár a faluban?
+- ***Badago* supermerkaturik auzoan?** — Van szupermarket a környéken?
+- ***Ba al dago* komun publikorik?** — Van nyilvános vécé?
+
+## Az igenlő válasz
+
+Az **"igen, van"** válaszhoz az összevont **bai, badago** alakot használjuk:
+
+- **Bai, badago.** — Igen, van (egy).
+- **Bai, badaude.** — Igen, vannak (több).
+
+És ki is lehet egészíteni:
+
+- **Bai, badago botika handi bat eskolaren ondoan.** — Igen, van egy nagy gyógyszertár az iskola mellett.
+
+## A tagadó válasz: -rik
+
+A **"nincs"** kifejezéséhez a főnévhez a **`-rik`** partitívuszt tesszük:
+
+| Euskera | Magyar |
+|---|---|
+| *Ez dago **tabernarik**.* | Nincs bár. |
+| *Ez dago **supermerkaturik**.* | Nincs szupermarket. |
+| *Ez dago **kafetegirik**.* | Nincs kávézó. |
+| *Ez dago **komun publikorik**.* | Nincs nyilvános vécé. |
+
+> A **`-rik`** toldalék (mássalhangzó után `-ik`) a "partitívusz": határozatlan főnevet jelöl kérdésekben és tagadásokban. Más igékkel is látni fogjuk (*Ez dut anaiarik* — "nincs fiútestvérem").
+
+## Ha már tudod, hogy létezik — kérdezz rá a helyére
+
+Miután megerősítették, hogy létezik, természetes, hogy megkérdezed, **hol van**, és ilyenkor átváltasz az előző lecke mintájára:
+
+> — *Ba al dago kutxazain automatikorik herrian?* — Van bankautomata a faluban?
+>
+> — *Bai, badago.* — Igen, van.
+>
+> — ***Non dago?*** — Hol van?
+>
+> — *Banketxearen ondoan dago.* — A bank mellett van.
+
+## Teljes mini-párbeszéd
+
+> — *Egun on, barkatu! Auzoan **ba al dago** liburutegirik?*
+>
+> — *Bai, **badago**.*
+>
+> — *Eta non dago?*
+>
+> — *Plazaren ondoan, eskolaren atzean.*
+>
+> — *Eskerrik asko! Eta kafetegirik?*
+>
+> — *Ez, hemen ez dago **kafetegirik**, baina taberna bat **badago**.*
+
+> **Emlékeztető trükk:** a *létezéshez* gondolj a "**ba**" (= "van") + dago/daude szerkezetre. A *helyhez* csak a sima *dago*/*daude* alakra. A `-rik` pedig szinte mindig megjelenik, ha valamiről határozatlanul beszélsz vagy kérdezel.
+
+@@ _ok
+estar
+haber/estar

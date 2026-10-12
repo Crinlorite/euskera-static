@@ -1,0 +1,141 @@
+@@ title
+Térbeli helyzetek (előtt, mögött, mellett…)
+@@ x0.pair0
+előtt
+@@ x0.pair1
+mögött
+@@ x0.pair2
+mellett
+@@ x0.pair3
+rajta, fölött
+@@ x0.pair4
+alatt
+@@ x0.pair5
+között
+@@ x0.pair6
+balra
+@@ x0.pair7
+jobbra
+@@ x1.prompt
+"A macska az asztal alatt van" — a helyes szó:
+@@ x1.explanation
+"Azpian" = alatt. "Gainean" = rajta, fölött.
+@@ x2.prompt
+Hogy mondják: "a templom előtt"?
+@@ x2.explanation
+A formula "X-(r)en + helyzet": elizaren aurrean (a templomé + előtt).
+@@ x3.prompt
+Mahaiaren ___ daude liburuak (a könyvek az asztalon vannak).
+@@ x4.prompt
+A "Hemen", "hor", "han" jelentése sorrendben:
+@@ x4.explanation
+A baszk nyelv három távolsága: HEMEN (közel hozzám, "itt"), HOR (közel a hallgatóhoz, "ott, nálad"), HAN (mindkettőnktől távol, "ott, amott").
+@@ x4.opt0
+amott, ott (nálad), itt
+@@ x4.opt1
+itt, ott (nálad), amott
+@@ x4.opt2
+ott (nálad), itt, amott
+@@ x4.opt3
+itt, amott, ott (nálad)
+@@ x5.card0
+előtt
+@@ x5.card1
+mögött
+@@ x5.card2
+mellett
+@@ x5.card3
+rajta, fölött
+@@ x5.card4
+alatt
+@@ x5.card5
+között
+@@ x5.card6
+balra
+@@ x5.card7
+jobbra
+@@ x5.card8
+benne, bent
+@@ x5.card9
+kint
+@@ x5.card10
+középen
+@@ x5.card11
+itt
+@@ x5.card12
+ott (nálad)
+@@ x5.card13
+amott
+@@ body
+
+Ha már tudod mondani, hogy "X-ben van", a következő lépés megmondani, **hol pontosan**: rajta, alatta, mellette, mögötte… Baszkul ezeket a helyzeteket mindig a **viszonyítási pont + helyzet** mintával képezzük.
+
+## Az alapvető helyzetek
+
+| Euskera | Magyar |
+|---|---|
+| *aurrean* | előtt |
+| *atzean* | mögött |
+| *ondoan* | mellett |
+| *gainean* | rajta, fölött |
+| *azpian* | alatt |
+| *artean* | között |
+| *ezkerrean* | balra |
+| *eskuinean* | jobbra |
+| *barruan* | benne, bent |
+| *kanpoan* | kint |
+| *erdian* | középen |
+
+## Hogyan képezd őket: -(r)en + helyzet
+
+Az alapformula: **(viszonyítási pont)-(r)en + helyzet**. A viszonyítási pont birtokos esetet kap (`-(r)en`, "valamié"):
+
+| Euskera | Magyar (szó szerint) |
+|---|---|
+| **mahaiaren gainean** | az asztalon (szó szerint "az asztalé, rajta") |
+| **etxearen aurrean** | a ház előtt |
+| **elizaren atzean** | a templom mögött |
+| **parkearen ondoan** | a park mellett |
+| **kutxaren barruan** | a dobozban |
+| **bi mendien artean** | két hegy között |
+
+Minta: elöl áll a viszonyítási pont, **utána** a helyzet. Ez ugyanaz a sorrend, mint a magyar névutóknál ("a ház előtt").
+
+## Teljes példák
+
+- **Liburua mahaiaren gainean dago.** — A könyv az asztalon van.
+- **Katua aulkiaren azpian dago.** — A macska a szék alatt van.
+- **Eliza plazaren erdian dago.** — A templom a tér közepén van.
+- **Botika eskolaren ondoan dago.** — A gyógyszertár az iskola mellett van.
+- **Ni Maiteren eta Anaren artean nago.** — Én Maite és Ana között vagyok.
+
+## Helyhatározó szavak: hemen / hor / han
+
+A gyors rámutatáshoz három határozószó van — és vigyázat, ez **három távolság**, nem kettő, mint a magyar "itt / ott":
+
+| Euskera | Magyar | Mikor |
+|---|---|---|
+| *hemen* | itt | a beszélő közelében |
+| *hor* | ott (nálad) | a hallgató közelében |
+| *han* | amott | mindkettőnktől távol |
+
+> Ez a három határozószó megfelel a *hau / hori / hura* mutató névmásoknak és azok hosszú helyhatározói alakjainak: *honetan / horretan / hartan* ("ebben / abban (nálad) / amabban").
+
+Gyors példák:
+
+- **Hemen** taberna bat dago. — Itt van egy bár.
+- **Hor** parkea dago. — Ott (nálad) van a park.
+- **Han** dago euskaltegia. — Az euskaltegi amott van.
+
+## Mini-beszélgetés: bújócska
+
+> — *Pilota mahaiaren azpian dago?* — A labda az asztal alatt van?
+>
+> — *Ez, pilota ez dago mahaiaren azpian.* — Nem, a labda nincs az asztal alatt.
+>
+> — *Aulkiaren atzean dago?* — A szék mögött van?
+>
+> — *Bai, hor dago!* — Igen, ott van!
+
+> **Trükk:** minden helyzetet jelölő szóban már benne van az `-an` toldalék (*aurr-ean*, *atz-ean*, *azp-ian*…). Semmit sem kell hozzátenned.
+

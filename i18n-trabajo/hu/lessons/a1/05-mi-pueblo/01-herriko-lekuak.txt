@@ -1,0 +1,154 @@
+@@ title
+Helyek a településen
+@@ x0.pair0
+bár
+@@ x0.pair1
+pékség
+@@ x0.pair2
+gyógyszertár
+@@ x0.pair3
+könyvtár
+@@ x0.pair4
+templom
+@@ x0.pair5
+piac
+@@ x0.pair6
+bank
+@@ x0.pair7
+kórház
+@@ x1.prompt
+Kenyeret kell venned. Milyen boltba mész?
+@@ x1.explanation
+Az "Okindegia" a pékség. Az "Oki(n)" az "ogi" (kenyér) szóval rokon — a kenyér helye.
+@@ x2.prompt
+Az "Osasun-etxea" jelentése…
+@@ x2.explanation
+Az "Osasun" jelentése "egészség", az "etxe(a)" jelentése "ház": szó szerint "az egészség háza" = rendelőintézet, egészségügyi központ.
+@@ x2.opt0
+a városháza
+@@ x2.opt1
+az egészségügyi központ
+@@ x2.opt2
+a posta
+@@ x2.opt3
+a fodrászat
+@@ x3.prompt
+Pénzt megyek kivenni, megyek a bankba = ___ noa.
+@@ x3.explanation
+"Banketxe" (bank) + az irányt jelölő -ra toldalék = banketxera, "a bankba".
+@@ x4.card0
+bár
+@@ x4.card1
+kávézó
+@@ x4.card2
+étterem
+@@ x4.card3
+pékség
+@@ x4.card4
+hentesüzlet
+@@ x4.card5
+halbolt
+@@ x4.card6
+zöldséges
+@@ x4.card7
+gyógyszertár
+@@ x4.card8
+piac
+@@ x4.card9
+szupermarket
+@@ x4.card10
+bank
+@@ x4.card11
+bankautomata
+@@ x4.card12
+könyvtár
+@@ x4.card13
+könyvesbolt
+@@ x4.card14
+fodrászat
+@@ x4.card15
+posta
+@@ x4.card16
+városháza
+@@ x4.card17
+egészségügyi központ
+@@ x4.card18
+kórház
+@@ x4.card19
+templom
+@@ x4.card20
+iskola
+@@ x4.card21
+baszk nyelviskola
+@@ x4.card22
+sportcsarnok
+@@ x4.card23
+park
+@@ x4.card24
+buszmegálló
+@@ x4.card25
+vasútállomás
+@@ x4.card26
+benzinkút
+@@ body
+
+Mielőtt útbaigazítást tudnál adni, szükséged van az alapszókincsre, hogy a környékről (**auzoa**) és a településről (**herria**) beszélj. Ebben a leckében összegyűjtöttük a legjellemzőbb helyeket és szolgáltatásokat.
+
+## Boltok és kereskedelem
+
+| Euskera | Magyar |
+|---|---|
+| *taberna* | bár |
+| *kafetegia* | kávézó |
+| *jatetxea* | étterem |
+| *okindegia* | pékség |
+| *harategia* | hentesüzlet |
+| *arrandegia* | halbolt |
+| *fruta-denda* | zöldséges, gyümölcsös |
+| *gozoki-denda* | édességbolt |
+| *merkatua* / *supermerkatua* | piac / szupermarket |
+| *jantzi-denda* | ruhabolt |
+| *liburu-denda* | könyvesbolt |
+| *loradenda* | virágbolt |
+
+> Sok szó a **termék + denda** ("…bolt") mintát követi: *fruta-denda*, *liburu-denda*, *jantzi-denda*. Ha ismered a terméket, tudod a helyet is.
+
+## Szolgáltatások
+
+| Euskera | Magyar |
+|---|---|
+| *banketxea* / *aurrezki-kutxa* | bank / takarékpénztár |
+| *kutxazain automatikoa* | bankautomata |
+| *postetxea* | posta |
+| *udaletxea* | városháza |
+| *osasun-etxea* | egészségügyi központ |
+| *ospitalea* | kórház |
+| *botika* / *farmazia* | gyógyszertár |
+| *ile-apaindegia* | fodrászat |
+| *liburutegia* | könyvtár |
+| *eskola* / *ikastola* | iskola |
+| *euskaltegia* | baszk nyelviskola |
+| *eliza* | templom |
+| *kiroldegia* | sportcsarnok |
+| *parkea* | park |
+
+## Közlekedés és kommunikáció
+
+| Euskera | Magyar |
+|---|---|
+| *autobus-geltokia* | buszmegálló |
+| *tren-geltokia* | vasútállomás |
+| *aireportua* | repülőtér |
+| *gasolindegia* | benzinkút |
+| *aparkalekua* | parkoló |
+
+## A -tegi toldalék és társai
+
+Figyeld meg ezeket a termékeny toldalékokat: újra meg újra előfordulnak.
+
+- **-tegi** → valaminek a helye: *euskal·tegi* (a baszk nyelv helye), *ile-apain·degi* (a hajrendbetétel helye), *liburu·tegi* (a könyvek helye).
+- **-degi / -tegi** → ugyanazt jelentő változat: *gasolin·degi*, *okin·degi*.
+- **-etxe** ("ház") → *udal·etxe* (a tanács háza), *osasun·etxe* (az egészség háza), *jatetxe* (az evés helye).
+
+> **Kulturális megjegyzés:** sok baszk városnegyedben és faluban a **taberna** és a **plaza** (tér) a találkozás fő helyszíne, a **frontoia** (pelotapálya) pedig általában a templom mellett áll. Az *euskaltegi* éppen az az iskola, ahol ezt a nyelvet tanulod.
+
