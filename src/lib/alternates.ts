@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import { ACTIVE_LOCALES, type LocaleCode } from '../i18n/config';
 import { RUTAS_FIJAS, construye, destinoIdioma, separaLocale } from './alternates-puro.mjs';
+import { LOCALES_JOLAS, RUTA_JOLAS } from './jolas.mjs';
 import { temasDe, entradasDe, slugTema, localesConHiztegia, LOCALE_ENTRADAS } from './hiztegia';
 
 export type Alternativa = { hreflang: string; href: string };
@@ -29,6 +30,7 @@ export function inventario(): Promise<Map<string, Set<string>>> {
     };
 
     for (const locale of ACTIVE_LOCALES) for (const ruta of RUTAS_FIJAS) pon(ruta, locale);
+    for (const locale of LOCALES_JOLAS) pon(RUTA_JOLAS, locale);
 
     for (const nivel of await getCollection('levels')) {
       const [locale, code] = nivel.id.split('/');

@@ -1,0 +1,213 @@
+---
+id: a2-deskribatu-4
+unitId: a2-deskribatu
+code: 04-iritzia-eta-konpletiboak
+unit: 04-deskribatu-eta-iritzia
+level: a2
+order: 4
+title: Iritzia eta konpletiboak — véleménynyilvánítás és -ela végű tárgyi mellékmondatok
+estimatedMinutes: 13
+covers:
+- a2-opinion
+- a2-completive-ela
+- a2-causal-clauses
+exercises:
+- id: ex-a2-de4-mc1
+  type: multiple-choice
+  prompt: Az "Uste dut ona dela" jelentése…
+  options:
+  - Azt hiszem, jó
+  - Jó akarok lenni
+  - Jó?
+  - Nem hiszem, hogy jó
+  answer: 0
+  explanation: '*Uste dut + -ela* = "azt hiszem, hogy..." -ela végű alárendelt igével. *Da → dela*.'
+- id: ex-a2-de4-mc2
+  type: multiple-choice
+  prompt: Hogy mondják baszkul a "mert" jelentésű alárendelő toldalékot?
+  options:
+  - zeren
+  - beraz
+  - hala ere
+  - -lako
+  answer: 3
+  explanation: 'A *-lako* az okhatározói alárendelő toldalék: *etorri delako* = "mert eljött". A *Zeren* a mondat eleji kötőszó-változat.'
+- id: ex-a2-de4-fb1
+  type: fill-in-blank
+  prompt: Tudom, hogy el fog jönni = Badakit etorriko ___ .
+  answers:
+  - dela
+  explanation: '*Etorriko da → etorriko dela* (-ela toldalék a tárgyi mellékmondatban).'
+- id: ex-a2-de4-fc
+  type: flashcards
+  cards:
+  - eu: uste dut
+    es: azt hiszem
+  - eu: iruditzen zait
+    es: úgy tűnik nekem
+  - eu: nire ustez
+    es: véleményem szerint
+  - eu: badakit
+    es: tudom, hogy
+  - eu: ados nago
+    es: egyetértek
+  - eu: ez nago ados
+    es: nem értek egyet
+  - eu: -lako
+    es: mert (toldalék)
+  - eu: zeren
+    es: mert (kötőszó)
+  - eu: -(e)la
+    es: hogy (tárgyi mellékmondat)
+  - eu: argi dago
+    es: világos, egyértelmű
+  - eu: egia da
+    es: igaz
+- id: ex-a2-de4-mp
+  type: match-pairs
+  pairs:
+  - eu: Uste dut etorriko dela
+    es: Azt hiszem, eljön
+  - eu: Badakit nahi duzula
+    es: Tudom, hogy akarod
+  - eu: Ez dut uste ona denik
+    es: Nem hiszem, hogy jó
+  - eu: Etorri delako
+    es: Mert eljött
+  - eu: Egia delako
+    es: Mert igaz
+  - eu: Argi dago zaila dela
+    es: Világos, hogy nehéz
+---
+
+Az A2 szinten a véleménynyilvánítás az egyik **kulcskompetencia**. Ez a lecke megadja:
+
+1. A vélemény bevezető formuláit.
+2. Az **-ela** végű tárgyi mellékmondatot (hogy…).
+3. A vélemény tagadását az **-enik** végződéssel (nem hiszem, hogy…).
+4. Az okot a **-lako** és a **zeren** segítségével (mert…).
+
+## Vélemény bevezetése
+
+| Magyar | Euskera |
+|---|---|
+| Azt hiszem, hogy… | *Uste dut...* |
+| Úgy tűnik nekem, hogy… | *Iruditzen zait...* |
+| Véleményem szerint | *Nire ustez* |
+| Szerintem | *Niretzat* |
+| Tudom, hogy… | *Badakit...* |
+| Egyetértek | *Ados nago* |
+| Nem értek egyet | *Ez nago ados* |
+| Igazad van | *Arrazoia duzu* |
+| Igaz | *Egia da* |
+
+## A tárgyi mellékmondat **-ela** végződéssel
+
+Ha a vélemény egy másik mondatot vezet be, az alárendelt ige **-(e)la** ("hogy…") toldalékot kap. A változás nagyon szabályos:
+
+| Toldalék nélkül | -ela végződéssel | Magyar |
+|---|---|---|
+| *da* | *dela* | hogy van / hogy az |
+| *naiz* | *naizela* | hogy (én) vagyok |
+| *zara* | *zarela* | hogy te vagy |
+| *du* | *duela* | hogy neki van (azt) |
+| *ditu* | *dituela* | hogy neki vannak (azok) |
+| *dut* | *dudala* | hogy nekem van (azt) |
+| *zen* | *zela* | hogy volt |
+| *nuen* | *nuela* | hogy nekem volt (azt) |
+| *etorriko da* | *etorriko **dela*** | hogy el fog jönni |
+
+> *Uste dut Anboto pozik **dagoela**.* — Azt hiszem, Anboto boldog.
+>
+> *Badakit gauza zailak gertatu **direla**.* — Tudom, hogy nehéz dolgok történtek.
+>
+> *Argi dago euskaraz hobeto hitz egiten **duela**.* — Világos, hogy jobban beszél baszkul.
+
+## A vélemény tagadása: -**enik**
+
+Ha azt mondod, "**nem hiszem, hogy** + ige", az alárendelt mondat toldaléka **-enik**-re változik:
+
+| Magyar | Euskera |
+|---|---|
+| Nem hiszem, hogy jó | *Ez dut uste ona **denik*** |
+| Nem hiszem, hogy eljönnek | *Ez dut uste etorriko **direnik*** |
+| Nem úgy tűnik nekem, hogy igaz | *Ez zait iruditzen egia **denik*** |
+
+> Ez a véleményt kifejező igék tagadásának sajátos formája. Állítva: *uste dut ona **dela***. Tagadva: *ez dut uste ona **denik***.
+
+## Más véleménynyilvánító szerkezetek
+
+Ezek a szerkezetek melléknevet + *da* + -ela végű mondatot kapcsolnak össze:
+
+| Magyar | Euskera |
+|---|---|
+| Világos, hogy… | *Argi dago + -(e)la* |
+| Fontos, hogy… | *Garrantzitsua da + -tzea* |
+| Igaz, hogy… | *Egia da + -(e)la* |
+| Lehetséges, hogy… | *Posible da + -tzea* |
+| Logikus, hogy… | *Logikoa da + -(e)la* |
+| Érdekes… | *Interesgarria da + -tzea* |
+
+> *Argi dago ikasten ari **zarela**.* — Világos, hogy tanulsz.
+>
+> *Garrantzitsua da euskaraz **hitz egitea**.* — Fontos baszkul beszélni.
+
+## Okhatározói mellékmondatok: *-lako* és *zeren*
+
+Az **ok** ("mert") kifejezésére két út van:
+
+### A -**lako** toldalék (alárendelő, a leggyakoribb)
+
+> **ige + -lako**
+
+| Magyar | Euskera |
+|---|---|
+| Mert eljött | *Etorri **delako*** |
+| Mert éhes vagyok | *Goseak nagoelako* (vagy *gose naizelako*) |
+| Mert fontos | *Garrantzitsua **delako*** |
+| Mert nem tetszik | *Ez zaidalako gustatzen* |
+
+> *Etxean nago **gaixorik nagoelako**.* — Otthon vagyok, mert beteg vagyok.
+>
+> *Bilbora joaten naiz lana **bertan dudalako**.* — Bilbaóba járok, mert ott dolgozom.
+
+### A *zeren* kötőszó (a mondat elején)
+
+| Magyar | Euskera |
+|---|---|
+| Mert fontos | *…, **zeren** garrantzitsua baita* |
+| …, hiszen eljött | *…, **zeren** etorri baita* |
+
+> Ez az ok kifejezésének "latinos" formája, választékosabb vagy újságírói. A beszédben a *-lako* használatos.
+
+## Mini-vita
+
+> *— Olatz, **uste dut** Bilbo Donostia baino interesgarriagoa **dela**.*
+>
+> *— **Ez nago ados**. Donostia askoz politagoa da, **uste dut**, itsasoa **duelako** ondoan.*
+>
+> *— **Egia da** itsasoa duela, baina Bilbon **museo gehiago daudela ere egia da**.*
+>
+> *— Bai, baina **iruditzen zait** giroa, kalea, jendea... Donostian goxoagoak **direla**. Eta Donostiako pintxoak Bilbokoak **baino hobeak direla** ere bai!*
+
+## Hasznos szerkezetek listában
+
+| Magyar | Euskera |
+|---|---|
+| Azt gondolom, fontos | *Garrantzitsua **dela** uste dut* |
+| Tudom, hogy igaza van | *Arrazoia **duela** badakit* |
+| Nem hiszem, hogy eljönnek | *Ez dut uste etorriko **direnik*** |
+| Világos, hogy gondjai vannak | *Argi dago arazoak **dituela*** |
+| Mert beteg | *Gaixorik **dagoelako*** |
+| Mert hideg van | *Hotz **egiten duelako*** |
+
+## Gyakori csapdák
+
+1. **Ne feledd a kettős arcot: -ela állításban, -enik a vélemény tagadásában.**
+2. **Az -ela toldalék a ragozott igéhez tapad**, nem a partizipióhoz: *etorriko da → etorriko **dela***.
+3. **Egyes nyelvek (például a spanyol) kötőmódot használnak a kételyt kifejező mondatokban**; a baszkban nincs ilyen éles különbség: az *uste dut ondo dagoela* (azt hiszem, jól van) és a *zalantza dut ondo dagoenik* (kétlem, hogy jól van) eltérő alakokat használ, de nem formális "kötőmódot".
+
+> **Pedagógiai megjegyzés:** a *Nire ustez + mondat + -lako + mondat* formula valószínűleg az A2 leghasznosabb eszköze a véleménynyilvánításhoz és az érveléshez. Mintapélda:
+>
+> *Nire ustez **euskara ikastea garrantzitsua da** **gure herriaren hizkuntza delako**.*
+> ("Véleményem szerint fontos baszkul tanulni, mert ez a népünk nyelve".)

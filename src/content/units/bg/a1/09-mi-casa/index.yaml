@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: Домът
+order: 9
+description: 'Говори за дома си: стаи, мебели и домакинска работа. Опиши с кого живееш.'
+estimatedMinutes: 55
+covers:
+- home-rooms
+- furniture
+- house-chores
+- companions-rekin
+- living-arrangements
+- house-description

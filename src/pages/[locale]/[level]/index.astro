@@ -71,6 +71,10 @@ const TEASERS: Partial<Record<LocaleCode, Teasers>> = {
         gym: '発音して「通じるか」をチェック — すべてあなたの端末内で動き、外には何も出ません。' },
   ko: { sim: '매번 다른 완전한 A1 시험 — 실제 목소리의 entzumena, 읽기, 문법, 자동 채점 작문 포함.',
         gym: '발음하고 알아들을 수 있는지 확인하세요 — 모두 당신 기기에서 돌아가고, 아무것도 밖으로 나가지 않아요.' },
+  hu: { sim: 'Teljes A1-es vizsga, minden alkalommal más — valódi hangos entzumenával, olvasással, nyelvtannal és automatikusan javított írással.',
+        gym: 'Ejtsd ki, és nézd meg, megértenek-e — minden az eszközödön fut, semmi sem hagyja el.' },
+  bg: { sim: 'Пълен изпит A1, всеки път различен — с entzumena с истински глас, четене, граматика и автоматично проверявано писане.',
+        gym: 'Произнеси и провери дали те разбират — всичко работи на устройството ти и нищо не го напуска.' },
 };
 const teasers = TEASERS[locale] ?? TEASERS.es!;
 const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), minimoDescripcion(locale));

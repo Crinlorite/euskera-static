@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parent.parent
 # traducido de cada idioma; los SEED_* (solo-es) se localizan con el overlay
 # scripts/seed_i18n/<loc>.json — el euskera jamás se toca (paridad por construcción).
 LOCALES = ["es", "ca", "gl", "ast", "an", "oc", "en", "ar", "fr", "ro", "pt-BR",
-           "de", "it", "ru", "pl", "zh-Hans", "ja", "ko"]
+           "de", "it", "ru", "pl", "zh-Hans", "ja", "ko", "hu", "bg"]
 def lessons_dir(loc): return ROOT / f"src/content/lessons/{loc}/a1"
 def units_dir(loc): return ROOT / f"src/content/units/{loc}/a1"
 def out_path(loc): return ROOT / f"src/data/bank/a1.{loc}.json"

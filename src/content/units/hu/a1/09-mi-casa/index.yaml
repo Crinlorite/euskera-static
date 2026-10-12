@@ -1,0 +1,14 @@
+id: a1-home
+code: 09-mi-casa
+level: a1
+title: A lakás
+order: 9
+description: 'Beszélj a lakásodról: helyiségek, bútorok és házimunka. Mondd el, kivel élsz.'
+estimatedMinutes: 55
+covers:
+- home-rooms
+- furniture
+- house-chores
+- companions-rekin
+- living-arrangements
+- house-description

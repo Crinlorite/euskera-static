@@ -12,7 +12,7 @@ export const SITIO = 'https://euskera.crintech.pro';
 
 /** Mismo contenido y MISMO ORDEN que ACTIVE_LOCALES en src/i18n/config.ts. */
 export const LOCALES = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
-                        'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko'];
+                        'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg'];
 
 export const POR_DEFECTO = 'es';
 
@@ -23,8 +23,9 @@ export const POR_DEFECTO = 'es';
  */
 export const RUTAS_FIJAS = [
   '', 'sobre/', 'privacidad/', 'progreso/', 'android/', 'idioma/',
-  'feedback/', 'a1/simulakroa/', 'a1/mintzamena/', 'jolas/',
+  'feedback/', 'a1/simulakroa/', 'a1/mintzamena/',
 ];
+// jolas/ no está: solo existe en LOCALES_JOLAS (src/lib/jolas.mjs).
 
 /** `/an/a1/09-mi-casa/` -> { locale: 'an', ruta: 'a1/09-mi-casa/' }. */
 export function separaLocale(pathname) {

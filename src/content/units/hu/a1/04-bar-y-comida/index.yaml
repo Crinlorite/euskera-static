@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: A bár és az étel
+order: 4
+description: Italok, ételek, a nap étkezései és a rendelés a bárban — nélkülözhetetlen szókincs bármilyen hétköznapi beszélgetéshez.
+estimatedMinutes: 55
+covers:
+- food-bar
+- meals
+- bar-ordering
+- prices
+- pintxos
+- numbers-1-100

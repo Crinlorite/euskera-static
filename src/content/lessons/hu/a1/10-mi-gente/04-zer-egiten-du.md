@@ -1,0 +1,149 @@
+---
+id: a1-people-4
+unitId: a1-people
+code: 04-zer-egiten-du
+unit: 10-mi-gente
+level: a1
+order: 4
+title: Mit csinál? — Beszélni mások napirendjéről
+estimatedMinutes: 12
+covers:
+- daily-routine-third-person
+- professions-extended
+- locative-non
+exercises:
+- id: ex-10-04-mc1
+  type: multiple-choice
+  prompt: 'Hogyan mondod: "A kórházban dolgozik"?'
+  options:
+  - Ospitalean lan egiten du
+  - Ospitalean lan egiten dut
+  - Ospitala lan egiten du
+  - Ospitalean lan egin du
+  answer: 0
+  explanation: '"Ospitalean" = a kórházban (-ean helyhatározó), "lan egiten du" = dolgozik (harmadik személy).'
+- id: ex-10-04-fb1
+  type: fill-in-blank
+  prompt: Pamplonában él = Iruñean ___ da.
+  answers:
+  - bizi
+  explanation: '"Bizi da" = él (szó szerint: "élő van"). Első személyben "bizi naiz" lenne.'
+- id: ex-10-04-mc2
+  type: multiple-choice
+  prompt: '"Bera euskaltegian lan egiten du" — melyik foglalkozás illik hozzá a legjobban?'
+  options:
+  - sukaldaria
+  - irakaslea
+  - mekanikaria
+  - zerbitzaria
+  answer: 1
+  explanation: Ha egy euskaltegiben dolgozik, a legvalószínűbb, hogy tanár (irakaslea).
+- id: ex-10-04-fb2
+  type: fill-in-blank
+  prompt: 40 éves = Berrogei urte ___.
+  answers:
+  - ditu
+  explanation: '"Ditu" = van neki (harmadik személy, többes számú tárgy — az éveket többes számban számoljuk).'
+- id: ex-10-04-fc
+  type: flashcards
+  cards:
+  - eu: Zer egiten du?
+    es: Mit csinál?
+  - eu: Non bizi da?
+    es: Hol él?
+  - eu: Non lan egiten du?
+    es: Hol dolgozik?
+  - eu: Bera medikua da
+    es: Ő orvos
+  - eu: Ospitalean lan egiten du
+    es: A kórházban dolgozik
+  - eu: Eskolan lan egiten du
+    es: Az iskolában dolgozik
+  - eu: Tabernan lan egiten du
+    es: A bárban dolgozik
+  - eu: Bulegoan lan egiten du
+    es: Az irodában dolgozik
+  - eu: Iruñean bizi da
+    es: Pamplonában él
+  - eu: Hogeita hamar urte ditu
+    es: 30 éves
+  - eu: Ezkonduta dago
+    es: Házas
+  - eu: Ezkongabea da
+    es: Egyedülálló
+  - eu: Bi seme-alaba ditu
+    es: Két gyereke van
+  - eu: Bakarrik bizi da
+    es: Egyedül él
+  - eu: Lagunekin bizi da
+    es: A barátaival él
+---
+
+Ha már tudsz valakit bemutatni (*Hau X da*), a következő természetes lépés elmondani, **mit csinál az illető**: hol él, hol dolgozik, hány éves, milyenek a hétköznapjai. Minden ragozás **harmadik személyben** áll, így itt ezt gyakoroljuk.
+
+## A kérdések
+
+| Kérdés | Magyar |
+|---|---|
+| *Non bizi da?* | Hol él? |
+| *Norekin bizi da?* | Kivel él? |
+| *Zenbat urte ditu?* | Hány éves? |
+| *Zer da bera?* / *Zer egiten du?* | Mi a foglalkozása? / Mit csinál? |
+| *Non egiten du lan?* | Hol dolgozik? |
+| *Ezkonduta dago?* | Házas? |
+
+## Válaszminták
+
+Kombináld a tanultakat. A szerkezet: **alany + bővítmények + ige**.
+
+| Téma | Mintamondat |
+|---|---|
+| Lakóhely | *Bera **Iruñean bizi da**.* — Pamplonában él. |
+| Társaság | *Bera **bikotekidearekin bizi da**.* — Az élettársával él. |
+| Életkor | *Bera**k hogeita hamar urte ditu**.* — 30 éves. |
+| Foglalkozás | *Bera **medikua da**.* — Orvos. |
+| Munka | *Bera**k ospitalean lan egiten du**.* — A kórházban dolgozik. |
+
+## A `-(e)an` helyhatározó a munkahelyre
+
+A **`-(e)an`** ("-ban/-ben") toldalékot már ismered a környékről és a lakóhelyről szóló egységből. Itt arra használod, hogy elmondd, hol dolgozik valaki.
+
+| Hely | Mondat |
+|---|---|
+| ospitala (kórház) | *ospitale**an** lan egiten du* |
+| eskola (iskola) | *eskola**n** lan egiten du* |
+| taberna (bár) | *taberna**n** lan egiten du* |
+| bulegoa (iroda) | *bulego**an** lan egiten du* |
+| denda (bolt) | *denda**n** lan egiten du* |
+| euskaltegia (baszk nyelviskola) | *euskaltegi**an** lan egiten du* |
+| etxean (otthon) | *etxean lan egiten du* |
+
+> Ne feledd: ha a szó eredendő `-a` hangra végződik (tabern**a**), az megmarad → *tabernan*. Ha mássalhangzóra (Madril), közé `-e-` kerül → *Madrilen*.
+
+## Foglalkozás + hely = teljes portré
+
+A foglalkozás és a hely összekapcsolása teszi teljessé egy szomszéd bemutatását:
+
+> *Bera **erizaina** da, eta **ospitalean lan egiten du**. **Iruñean bizi da, bikotekidearekin**, eta **bi seme-alaba ditu**.*
+
+> *Hau Maialen da. Bera **kazetaria** da, **egunkari batean lan egiten du**. **Bilbokoa da, baina orain Donostian bizi da**.*
+
+## Családi állapot (hasznos szókincs)
+
+| Euskera | Magyar |
+|---|---|
+| *ezkonduta dago* | házas |
+| *ezkongabea da* | egyedülálló, nőtlen/hajadon |
+| *banatuta dago* | különélő |
+| *dibortziatuta dago* | elvált |
+| *alargun da* | özvegy |
+
+## Egy egyszerű napirend
+
+Ahhoz, hogy leírd, mit csinál valaki rendszeresen, ismételd át a **`-tzen` + du** mintát, amelyet a házimunkánál már láttál:
+
+- *Goizean **lana hasten du** zortzietan.* — Reggel nyolckor kezdi a munkát.
+- *Eguerdian **etxean bazkaltzen du**.* — Délben otthon ebédel.
+- *Arratsaldean **kirola egiten du**.* — Délután sportol.
+
+> Az A1 szinthez elég, ha különálló mondatokat mondasz; nem kell az egész napot összefűznöd. Ha három világos dolgot el tudsz mondani egy szomszédról, már jól bemutattad.

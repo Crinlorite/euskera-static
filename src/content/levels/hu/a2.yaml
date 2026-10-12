@@ -1,0 +1,149 @@
+code: a2
+name: A2 Maila
+description: Alapszint. Önálló megértés és megszólalás megszokott hétköznapi helyzetekben, múlt idejű elbeszéléssel, jövőbeli tervekkel és egyszerű véleménynyilvánítással.
+order: 2
+status: active
+beta: false
+curriculum:
+- id: a2-health-vocab
+  title: Egészségügyi szókincs (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)
+- id: a2-doctor-visit
+  title: 'Az orvosi rendelőben (mediku-kontsultan: zer duzu?, mina daukat, hartu pilula bat)'
+- id: a2-healthy-habits
+  title: Egészséges szokások (kirola egin, ondo lo egin, fruta jan, erre, alkohola)
+- id: a2-environment
+  title: Környezet (ingurumena, kutsadura, birziklatu, energia, klima-aldaketa)
+- id: a2-civic-life
+  title: Társadalmi és közösségi élet (auzoa, herria, partehartzea, boluntariotza, jaiak)
+- id: a2-agintera-intro
+  title: 'Felszólító mód (agintera): alapvető állító alakok (zatoz, hartu, joan zaitez)'
+- id: a2-agintera-uses
+  title: 'A felszólító mód használata: utasítások, tanácsok, kérések (mesedez, hartu eseri)'
+- id: a2-agintera-negation
+  title: Tagadó felszólítás (ez egin, ez joan, ez ezazu hartu)
+- id: a2-past-nor
+  title: 'Az izan/egon múlt ideje — NOR: nintzen, zinen, zen, ginen, zineten, ziren / nengoen, zegoen'
+- id: a2-past-nor-nork
+  title: 'Az ukan múlt ideje — NOR-NORK: nuen, zenuen, zuen, genuen, zenuten, zuten / nituen, zituen'
+- id: a2-past-trinkoak
+  title: 'Szintetikus igék múlt ideje (joan/etorri/ibili/eduki/jakin: nindoan, nentorren, nenbilen, neukan, nekien)'
+- id: a2-past-time-markers
+  title: A befejezett múlt időhatározói (atzo, joan den astean, duela X urte, orduan, gero)
+- id: a2-past-narrative
+  title: 'Egy élmény elmesélése: cselekvések összefűzése múlt időben (lehenengo... gero... azkenean)'
+- id: a2-past-imperfect
+  title: 'Folyamatos múlt: aditza-tzen + nintzen/zen (lan egiten nuen, joaten nintzen)'
+- id: a2-perfect-vs-imperfect
+  title: 'A burutua és ez burutua szembeállítása: egyszeri események kontra szokások és leírások a múltban'
+- id: a2-past-progressive
+  title: 'Folyamatban lévő múlt (puntukaria): -tzen ari nintzen / nenbilen'
+- id: a2-nor-nori-nork
+  title: NOR-NORI-NORK jelen idő (eman dizut, esan diot, erakutsi digute)
+- id: a2-nor-nori-nork-past
+  title: NOR-NORI-NORK múlt idő (eman nion, esan zion, ekarri zigun)
+- id: a2-nor-nori
+  title: NOR-NORI jelen és múlt idő (gustatzen zait/zaio, ahaztu zitzaidan)
+- id: a2-ahalera
+  title: 'A „tud, képes” kifejezése (ahalera): -t(z)en + dezaket/daiteke (etor daiteke, egin dezakezu)'
+- id: a2-ezin
+  title: 'Nem tud (ezin izan): ezin dut, ezin nintzen joan, ezin daiteke'
+- id: a2-baldintza-intro
+  title: 'Alapvető feltételes mód (baldintza): ha... akkor... (banaiz, banu, joango nintzateke) — bevezetés'
+- id: a2-norentzat
+  title: 'NORENTZAT célhatározó eset: kinek a számára (lagunarentzat, niretzat, guretzat)'
+- id: a2-noraino-norantz
+  title: NORAINO (-raino, -ig) és NORANTZ (-rantz, felé) esetek
+- id: a2-norengatik
+  title: ZERGATIK / NORENGATIK okhatározó eset (lagunarengatik, ekonomiaz)
+- id: a2-nongo-noizko
+  title: 'NONGO/NOIZKO eset (-ko, -tako): hely- és időbeli jelző (Bilboko, atzoko)'
+- id: a2-comp-superiority
+  title: 'Középfok: -ago, baino...-ago (handiagoa da, baino altuagoa)'
+- id: a2-comp-equality
+  title: 'Egyenlőség kifejezése: bezain, adina/beste (zu bezain ona, zuk adina)'
+- id: a2-comp-superlative
+  title: 'Felsőfok: -en (politena, onena, txikiena)'
+- id: a2-comp-excess
+  title: 'Túl sok és túl kevés: -egi, gehiegi, gutxiegi (handiegia, gehiegi jan dut)'
+- id: a2-comp-progressive
+  title: 'Fokozatos összehasonlítás: gero eta ...ago (egyre több / egyre kevesebb)'
+- id: a2-opinion
+  title: 'Véleménynyilvánítás: nire ustez, uste dut, iruditzen zait, ados nago'
+- id: a2-feelings
+  title: 'Érzések: pozik, triste, haserre, urduri, lasai, beldur naiz, lotsa ematen dit'
+- id: a2-connectors
+  title: 'Kötőszavak: zeren/ze (mert), beraz (tehát), hala ere (mégis), gainera (ráadásul)'
+- id: a2-distributive
+  title: 'Felsorolás és szembeállítás: bai...bai, ez...ez, baita...ere, baizik'
+- id: a2-relative-en
+  title: 'Vonatkozó mellékmondatok -(e)n végződéssel: ezagutzen dudan gizona, joaten naizen tabernan'
+- id: a2-causal-clauses
+  title: 'Okhatározói mellékmondatok: -lako (mert, toldalékként), zeren...bait- (irodalmi)'
+- id: a2-completive-ela
+  title: 'Tárgyi mellékmondatok -(e)la végződéssel: uste dut etorriko dela, badakit egia dela'
+- id: a2-future-forms
+  title: 'Jövő idő (geroaldia): partizipioa + -ko/-go (joango, egingo, ikusiko, hartuko)'
+- id: a2-future-izango
+  title: Az izan/ukan/egon jövő ideje (izango naiz, izango dut, egongo da)
+- id: a2-future-markers
+  title: A jövő időhatározói (bihar, etzi, datorren astean, hurrengo urtean, laster)
+- id: a2-plans-intentions
+  title: Tervek és szándékok (zer egingo duzu?, -tzeko asmoa dut, pentsatu, erabaki)
+- id: a2-invitations
+  title: Meghívás és találkozó megbeszélése (nahi duzu...?, zergatik ez...?, geratu, ondo iruditzen zait)
+- id: a2-weather
+  title: 'Az időjárás (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)'
+- id: a2-weather-forecast
+  title: Időjárás-előrejelzés jövő időben (bihar euria egingo du, eguzkia aterako da)
+- id: a2-ohi-habitual
+  title: Szokások az ohi szóval (joan ohi naiz, bazkaldu ohi dugu)
+- id: a2-transport-vocab
+  title: Közlekedés (trena, autobusa, hegazkina, geltokia, aireportua, oinez)
+- id: a2-tickets-schedules
+  title: Jegyek és menetrendek (txartela, joan-etorria, zenbat balio du?, noiz ateratzen da?)
+- id: a2-accommodation
+  title: Szállás (hotela, erreserba, gela bikoitza, gosaria barne)
+- id: a2-travel-planning
+  title: Utazás előkészítése (maleta, agiriak, planifikatu — a jövő idő a gyakorlatban)
+- id: a2-travel-narrative
+  title: 'Egy utazás elmesélése (a múlt idő a gyakorlatban: joan ginen, ikusi genuen, galdu genuen trena)'
+- id: a2-bank-post
+  title: Bank és posta (kontua, dirua atera, transferentzia, paketea bidali)
+- id: a2-town-hall
+  title: Városháza és ügyintézés (udaletxea, errolda, NAN, hitzordua eskatu)
+- id: a2-phone-messages
+  title: Telefonon (deitu, mezua utzi, okerreko zenbakia, gero deituko dizut)
+- id: a2-tech-basics
+  title: Technológia (ordenagailua, mugikorra, posta elektronikoa, pasahitza, wifia)
+- id: a2-shopping-returns
+  title: 'Vásárlás: csere és visszavásárlás (probatu, handiegia, aldatu, dirua itzuli)'
+- id: a2-nature-vocab
+  title: Természet (mendia, basoa, ibaia, hondartza, gailurra, bidezidorra)
+- id: a2-animals
+  title: Állatok (txakurra, behia, ardia, txoria, basurdea, otsoa)
+- id: a2-sports
+  title: Sport (igeriketa, korrika, pilota, entrenatu, partida irabazi/galdu)
+- id: a2-hobbies
+  title: 'Hobbik (-tzea gustatzen zait: irakurtzea, sukaldatzea, argazkiak ateratzea)'
+- id: a2-weekend-leisure
+  title: Hétvégi szabadidő (kontzertua, museoa, erakusketa, sarrera, doan)
+- id: a2-biography
+  title: Életrajzok (jaio zen, ikasketak egin zituen, ezkondu ziren, hil zen)
+- id: a2-indirect-questions
+  title: 'Függő kérdések (ea + -(e)n: ez dakit etorriko den)'
+- id: a2-time-clauses
+  title: Időhatározói mellékmondatok (-nean, aurretik, ondoren)
+- id: a2-purpose-clauses
+  title: 'Célhatározás (-tzeko, -tzera: ikastera etorri naiz)'
+- id: a2-exam-review
+  title: A szint összefoglaló ismétlése (vizsgaformátumban)
+- id: a2-clothes-extended
+  title: Ruházat bővebben (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)
+- id: a2-home-extended
+  title: Lakás bővebben (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)
+- id: a2-jobs-extended
+  title: Munka bővebben (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)
+- id: a2-festivals
+  title: Ünnepek és hagyományok (San Juan sua, Olentzero, Korrika, jai herrikoiak)
+- id: a2-routines-compare
+  title: Napirendek és szokások összehasonlítása (lehen... orain..., bertan... bestea... )

@@ -28,7 +28,7 @@ export const APPS = [
     // igualmente por decisión de Crinlorite (5-oct), y la tarjeta dice en qué
     // idiomas está para no prometer lo que no hay.
     locales: ['es', 'ca', 'gl', 'ast', 'an', 'oc', 'en', 'ro', 'zh-Hans', 'ar',
-      'fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko'],
+      'fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko', 'hu', 'bg'],
   },
   {
     id: 'aprenza',
@@ -100,6 +100,10 @@ export const TEXTOS = {
     apps: { aulixa: '小学校の復習クイズ（英語・スペイン語）' } },
   ko: { antetitulo: '같은 스튜디오에서', antes: '', despues: '의 다른 앱', entradilla: '같은 정성으로 만들었습니다. 집에서 복습할 때 좋아요.',
     apps: { aulixa: '초등학교 복습 퀴즈 (영어·스페인어)' } },
+  hu: { antetitulo: 'Ugyanattól a stúdiótól', antes: 'A', despues: ' további appjai', entradilla: 'Ugyanolyan gondossággal készültek, otthoni gyakorláshoz.',
+    apps: { aulixa: 'Általános iskolai kvíz (angolul vagy spanyolul)' } },
+  bg: { antetitulo: 'От същото студио', antes: 'Още приложения от', despues: '', entradilla: 'Направени със същата грижа — за упражнения у дома.',
+    apps: { aulixa: 'Викторина за началното училище (на английски или испански)' } },
 };
 
 /**
@@ -132,7 +136,7 @@ export const LOCALES_ACTIVOS = Object.keys(TEXTOS).filter(seMuestraEn);
  */
 export const PLAY_HL = {
   es: 'es', ca: 'ca', gl: 'gl', ast: 'es', an: 'es', oc: 'es', en: 'en', ro: 'ro', 'zh-Hans': 'zh-CN', ar: 'ar',
-  fr: 'fr', de: 'de', it: 'it', 'pt-BR': 'pt-BR', ru: 'ru', pl: 'pl', ja: 'ja', ko: 'ko',
+  fr: 'fr', de: 'de', it: 'it', 'pt-BR': 'pt-BR', ru: 'ru', pl: 'pl', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg',
 };
 
 /**
@@ -197,6 +201,8 @@ export const AVISO_PRIVACIDAD = {
   pl: '<strong>Sklep z aplikacjami na Twoim urządzeniu lub strona aplikacji</strong> — tylko jeśli dotkniesz jednej z kart „Więcej aplikacji od Crintech” na stronie głównej. Kaixo nie zapisuje tego dotknięcia ani nie dodaje do linku żadnego identyfikatora.',
   ja: '<strong>お使いの端末のアプリストア、またはアプリのウェブサイト</strong>：ホームの「Crintechのほかのアプリ」のカードをタップした場合のみ。Kaixo はそのタップを記録せず、リンクに識別子を付けることもありません。',
   ko: '<strong>기기의 앱 스토어 또는 앱 웹사이트</strong>: 홈의 「Crintech의 다른 앱」 카드를 누른 경우에만 해당합니다. Kaixo는 그 터치를 기록하지 않으며 링크에 어떤 식별자도 추가하지 않습니다.',
+  hu: '<strong>Az eszközöd alkalmazásboltja vagy az app weboldala</strong>, de csak akkor, ha a kezdőlapon megérinted „A Crintech további appjai” blokk valamelyik kártyáját. A Kaixo nem rögzíti ezt az érintést, és semmilyen azonosítót nem fűz a hivatkozáshoz.',
+  bg: '<strong>Магазинът за приложения на устройството ти или сайтът на приложението</strong> — само ако докоснеш някоя от картите „Още приложения от Crintech“ на началната страница. Kaixo не записва това докосване и не добавя никакъв идентификатор към връзката.',
 };
 
 /** La línea de privacidad de un idioma, o null si ahí no sale el bloque. */

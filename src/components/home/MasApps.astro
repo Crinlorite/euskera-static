@@ -12,6 +12,7 @@ import type { LocaleCode } from '../../i18n/config';
 import { TEXTOS, PLAY_HL, PROXIMAMENTE, appsDe, esBetaEnAndroid } from '../../lib/mas-apps.mjs';
 import { t } from '../../i18n/ui';
 import TEXTOS_JOLAS from '../../data/jolas.json';
+import { hayJolas } from '../../lib/jolas.mjs';
 import { paisAppStore } from '../../lib/appstore';
 
 interface Props { locale: LocaleCode }
@@ -50,7 +51,7 @@ const lineaDe = (id: string) => (id === 'jolas' ? (TEXTOS_JOLAS as Record<string
           </a>
         </li>
       ))}
-      {PROXIMAMENTE.map((p) => (
+      {PROXIMAMENTE.filter((p) => p.id !== 'jolas' || hayJolas(locale)).map((p) => (
         <li data-proximamente={p.id}>
           {/* Página propia dentro de Kaixo: mismo enlace en todos los dispositivos. */}
           <a class="card app-card" href={`/${locale}/${p.ruta}`}>

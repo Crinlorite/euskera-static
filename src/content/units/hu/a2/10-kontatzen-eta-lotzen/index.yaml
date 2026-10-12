@@ -1,0 +1,13 @@
+id: a2-kontatzen
+code: 10-kontatzen-eta-lotzen
+level: a2
+title: Kontatzen eta lotzen — elmesélés, összekapcsolás és ismétlés
+order: 10
+description: Életrajzok, függő kérdések, idő- és célhatározói mellékmondatok, valamint a szint összefoglaló ismétlése.
+estimatedMinutes: 65
+covers:
+- a2-biography
+- a2-indirect-questions
+- a2-time-clauses
+- a2-purpose-clauses
+- a2-exam-review

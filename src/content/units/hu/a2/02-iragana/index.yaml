@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — a múlt elbeszélése
+order: 2
+description: Befejezett múlt (iragan burutua) és folyamatos múlt (iragan ez burutua). Hogyan meséld el, mi történt tegnap, évekkel ezelőtt, vagy mit szoktál csinálni.
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

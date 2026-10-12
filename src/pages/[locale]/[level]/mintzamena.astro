@@ -53,6 +53,10 @@ const COPY: Partial<Record<LocaleCode, Copy>> = {
     lead: '5つ目のスキル、<strong>mintzamena</strong>。ネイティブ音声でフレーズを聞き、自分で言って録音すると、<strong>あなた自身の端末</strong>の音声認識がどの単語が通じたかを教えてくれます。録音した音声がスマホやパソコンの外へ出ることはありません — 私たちのサーバーにも、他のどこにも。' },
   ko: { title: 'Ahoskera-gimnasioa (베타) — 발음하고 확인하기', back: '← A1 · 전체 단원',
     lead: '다섯 번째 기능, <strong>mintzamena</strong>: 원어민 음성으로 문장을 듣고 따라 말하며 녹음하면, <strong>당신 기기 안의</strong> 음성 인식이 어떤 단어가 알아들렸는지 알려줍니다. 녹음한 것은 휴대폰이나 컴퓨터 밖으로 나가지 않아요 — 우리 서버로도, 그 어디로도.' },
+  hu: { title: 'Ahoskera-gimnasioa (Beta) — ejtsd ki, és ellenőrizd', back: '← A1 · Az összes egység',
+    lead: 'Az ötödik készség, a <strong>mintzamena</strong>: hallgasd meg a mondatot anyanyelvi hangon, vedd fel magad, ahogy kimondod, és a <strong>saját eszközöd</strong> beszédfelismerője megmondja, mely szavakat értette meg. Semmi, amit felveszel, nem hagyja el a telefonodat vagy a számítógépedet — sem a mi szerverünk, sem más felé.' },
+  bg: { title: 'Ahoskera-gimnasioa (Beta) — произнеси и провери', back: '← A1 · Всички раздели',
+    lead: 'Петото умение, <strong>mintzamena</strong>: чуй изречението с роден глас, запиши се как го казваш и разпознаването на реч на <strong>собственото ти устройство</strong> ще ти каже кои думи са разбрани. Нищо от записаното не напуска телефона или компютъра ти — нито към нашия сървър, нито към чужд.' },
 };
 const c = COPY[locale] ?? COPY.es!;
 const descripcion = ajusta(sinMarcado(c.lead), t(locale, 'site.tagline'), minimoDescripcion(locale));

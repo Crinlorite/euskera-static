@@ -1,7 +1,8 @@
 export type LocaleCode =
   | 'es' | 'ca' | 'gl' | 'ast' | 'an' | 'oc'
   | 'en' | 'ar' | 'fr' | 'ro' | 'pt-BR'
-  | 'de' | 'it' | 'ru' | 'pl' | 'zh-Hans' | 'ja' | 'ko';
+  | 'de' | 'it' | 'ru' | 'pl' | 'zh-Hans' | 'ja' | 'ko'
+  | 'hu' | 'bg';
 
 export interface LocaleInfo {
   code: LocaleCode;
@@ -34,6 +35,8 @@ export const LANGUAGES: Record<LocaleCode, LocaleInfo> = {
   'zh-Hans': { code: 'zh-Hans', name: '简体中文', dir: 'ltr', status: 'beta', font: 'Noto Sans SC' },
   'ja': { code: 'ja', name: '日本語', dir: 'ltr', status: 'beta', font: 'Noto Sans JP' },
   'ko': { code: 'ko', name: '한국어', dir: 'ltr', status: 'beta', font: 'Noto Sans KR' },
+  'hu': { code: 'hu', name: 'Magyar', dir: 'ltr', status: 'beta' },
+  'bg': { code: 'bg', name: 'Български', dir: 'ltr', status: 'beta' },
 };
 
 export const ACTIVE_LOCALES: LocaleCode[] = Object.values(LANGUAGES)

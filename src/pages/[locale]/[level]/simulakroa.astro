@@ -54,6 +54,10 @@ const COPY: Partial<Record<LocaleCode, Copy>> = {
     lead: '<strong>毎回内容が変わる</strong> A1 試験。数百問のバンクからその場で組み立てられ、構成は本物の試験そのまま——<strong>entzumena 付き</strong>：本物の声の音声を2回まで再生、本番と同じです。辞書なしで一気に解いて、終わったら <em>«Beste simulakro bat sortu»</em> を押せば次の一枚が落ちてきます。' },
   ko: { title: 'Simulakro sortzailea — 무한 A1 모의고사', back: '← A1 · 전체 단원',
     lead: '<strong>매번 다른</strong> A1 시험: 수백 문항의 문제은행에서 즉석으로 조립되며 구조는 실제 시험 그대로 — <strong>entzumena 포함</strong>: 실제 목소리 음성과 2회 듣기, 진짜 시험날처럼. 사전 없이 한 번에 풀고, 끝나면 <em>«Beste simulakro bat sortu»</em>를 누르세요. 새 시험이 떨어집니다.' },
+  hu: { title: 'Simulakro sortzailea — végtelen A1-es vizsga', back: '← A1 · Az összes egység',
+    lead: 'Egy A1-es vizsga, amely <strong>minden alkalommal más</strong>: azonnal áll össze egy több száz kérdésből álló bankból, egy valódi vizsga szerkezetével — <strong>entzumenával</strong>: valódi hangú hanganyag, kétszeri meghallgatással, mint az igazi napon. Csináld végig egy szuszra, szótár nélkül — a végén pedig nyomd meg a <em>«Beste simulakro bat sortu»</em> gombot, és jön a következő.' },
+  bg: { title: 'Simulakro sortzailea — безкраен изпит A1', back: '← A1 · Всички раздели',
+    lead: 'Изпит A1, <strong>всеки път различен</strong>: сглобява се на момента от банка със стотици въпроси със структурата на истински изпит — <strong>с entzumena</strong>: аудио с истински глас и две слушания, както в истинския ден. Направи го наведнъж, без речник — а накрая натисни <em>«Beste simulakro bat sortu»</em> и пада следващият.' },
 };
 const c = COPY[locale] ?? COPY.es!;
 const descripcion = ajusta(sinMarcado(c.lead), t(locale, 'site.tagline'), minimoDescripcion(locale));

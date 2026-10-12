@@ -1,0 +1,16 @@
+id: a2-iragana
+code: 02-iragana
+level: a2
+title: Iragana — разказ за миналото
+order: 2
+description: Минало свършено време (iragan burutua) и минало несвършено време (iragan ez burutua). Как да разкажеш какво се случи вчера, преди години или какво правеше обикновено.
+estimatedMinutes: 75
+covers:
+- a2-past-nor
+- a2-past-nor-nork
+- a2-past-trinkoak
+- a2-past-time-markers
+- a2-past-imperfect
+- a2-perfect-vs-imperfect
+- a2-past-progressive
+- a2-past-narrative

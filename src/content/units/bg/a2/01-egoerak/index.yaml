@@ -1,0 +1,16 @@
+id: a2-egoerak
+code: 01-egoerak
+level: a2
+title: Egoerak — ежедневни ситуации и съвети
+order: 1
+description: Здраве, навици и околна среда. Научи се да искаш и да даваш указания с повелителното наклонение (agintera).
+estimatedMinutes: 70
+covers:
+- a2-health-vocab
+- a2-doctor-visit
+- a2-healthy-habits
+- a2-environment
+- a2-civic-life
+- a2-agintera-intro
+- a2-agintera-uses
+- a2-agintera-negation
