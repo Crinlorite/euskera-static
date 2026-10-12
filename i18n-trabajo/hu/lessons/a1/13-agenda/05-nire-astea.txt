@@ -1,0 +1,134 @@
+@@ title
+Az én hetem (összefoglaló lecke)
+@@ x0.prompt
+"Holnap edzőterembe megyek" =…
+@@ x0.explanation
+Jövő idő: *joan + go = joango* + *naiz* (én). *Kiroldegira* = az edzőterembe (-ra céltoldalék).
+@@ x1.prompt
+"Szombaton találkozom Maialennel egy kávéra" =…
+@@ x1.explanation
+*Larunbatean* (szombaton) + *Maialenekin* (Maialennel) + *geratuko naiz* (találkozni fogok) + *kafea hartzeko* (hogy kávézzunk).
+@@ x2.prompt
+"Jövő héten vizsgáim lesznek" = ___ astean azterketak izango ditut.
+@@ x2.explanation
+*Datorren* — "jövő, következő". *Datorren astean* — "jövő héten".
+@@ x3.prompt
+"Pénteken elmegyek a barátokkal szórakozni" = Ostiralean lagunekin atera___ naiz.
+@@ x3.explanation
+*Atera* + *ko* + *naiz* = *aterako naiz* (el fogok menni). -a végű ige → -ko.
+@@ x4.card0
+naptár, határidőnapló
+@@ x4.card1
+A heti naptár
+@@ x4.card2
+Mit csinálsz hétfőn?
+@@ x4.card3
+Edzőterembe megyek
+@@ x4.card4
+A barátokkal megyünk vacsorázni
+@@ x4.card5
+Ezen a hétvégén a hegyekbe megyünk
+@@ x4.card6
+Jövő héten sok munkám lesz
+@@ x4.card7
+Pénteken bulizni megyünk
+@@ x4.card8
+Tízkor megbeszélésem van
+@@ x4.card9
+Ráérsz?
+@@ x4.card10
+Találkozunk?
+@@ x5.pair0
+jövő héten
+@@ x5.pair1
+hétvégén
+@@ x5.pair2
+holnap
+@@ x5.pair3
+holnapután
+@@ x5.pair4
+ma délután
+@@ x5.pair5
+szabad vagyok
+@@ body
+
+Az egység utolsó leckéje: **egy egész hetet** állítunk össze mindabból, amit megtanultunk. Napok, jövő idő, találkozók, időhatározók… a tervezés nyelve.
+
+## Nyitott kérdés
+
+> *Zer egingo duzu aste honetan?* — Mit csinálsz ezen a héten?
+
+Egy természetes válasz a napot + jövő időt használná:
+
+> *Astelehenean kiroldegira joango naiz. Asteartean euskara klasea dut. Asteazkenean bilera bat izango dut. Ostegunean lasai egongo naiz. Ostiralean lagunekin afaltzera joango gara. Asteburuan mendira joango gara.*
+>
+> Hétfőn edzőterembe megyek. Kedden baszkórám van. Szerdán megbeszélésem lesz. Csütörtökön pihenni fogok. Pénteken a barátokkal vacsorázni megyünk. Hétvégén a hegyekbe megyünk.
+
+## Alapsablon
+
+> **NAP + TEVÉKENYSÉG + JÖVŐ IDŐ**
+
+| Nap | Példatevékenység |
+|---|---|
+| *Astelehenean...* | *...kiroldegira joango naiz* |
+| *Asteartean...* | *...lan egingo dut* |
+| *Asteazkenean...* | *...amarekin geratuko naiz* |
+| *Ostegunean...* | *...filma bat ikusiko dut* |
+| *Ostiralean...* | *...lagunekin aterako naiz* |
+| *Larunbatean...* | *...mendira joango gara* |
+| *Igandean...* | *...etxean lasai egongo naiz* |
+
+## Hasznos igék a naptárhoz
+
+| Ige | Jövő idejű alak | Magyar |
+|---|---|---|
+| joan | joango naiz/da | megyek, megy (majd) |
+| etorri | etorriko naiz/da | jövök, jön (majd) |
+| egon | egongo naiz | leszek (valahol/valahogy) |
+| izan | izango da | lesz |
+| ikusi | ikusiko dut | látni fogom |
+| egin | egingo dut | megcsinálom |
+| jan | jango dut | megeszem |
+| lan egin | lan egingo dut | dolgozni fogok |
+| atera | aterako naiz | el fogok menni (kimozdulok) |
+| eraman | eramango dut | elviszem |
+| erosi | erosiko dut | megveszem |
+
+## Mini-történet: Iratxe hete
+
+Olvasd el ezt a kitalált naptárat, és figyeld meg az időhatározókat:
+
+> *Astelehenean lana dut goizean, eta arratsaldean kiroldegira joango naiz. Asteartean medikuarekin daukat hitzordua, hamabietan. Asteazkenean ez dut ezer berezirik, etxean afalduko dut lasai. Ostegunean Maialenekin geratuko naiz kafe bat hartzeko, sei eta erdietan. Ostiralean afari bat dugu lankideekin. Larunbatean asteburu pasa: Bilbora joango gara nire bikotekidearekin. Igandean buelta etxera, eta arratsaldean lasai-lasai filma bat ikusiko dut.*
+
+## Rajtad a sor: három mintaválasz
+
+**Kérdés:** *Bihar zer egingo duzu?*
+
+> *Bihar lanera joango naiz goizean. Arratsaldean kafea hartuko dut lagun batekin, eta gauean etxean afalduko dut.*
+
+**Kérdés:** *Datorren astean zer plan duzu?*
+
+> *Datorren astean azterketa bat izango dut. Asko ikasiko dut. Larunbatean lasai gelditu nahi dut.*
+
+**Kérdés:** *Asteburu honetan zer egingo duzu?*
+
+> *Asteburu honetan mendira joango gara lagunekin. Larunbatean Aralarrera joango gara, eta igandean lasai geldituko gara etxean.*
+
+## Kulcsmondatok a hét megszervezéséhez
+
+- **Libre zaude X-(e)an?** — Ráérsz X-en?
+- **Hamarretan ondo?** — Tízkor jó?
+- **Beste egun batean izan beharko du.** — Majd egy másik napon.
+- **Konforme, X-(e)an geratuko gara.** — Rendben, X-en találkozunk.
+
+## Vizuális ismétlés
+
+```
+Múlt      →  Jelen     →  Jövő
+atzo         gaur          bihar — etzi — datorren astean
+joan zen     doa            joango da
+ikusi dut    ikusten dut    ikusiko dut
+```
+
+> **Kulturális megjegyzés:** sok helyen látsz majd olyan plakátokat, mint *"Asteburu honetan jaiak"* vagy *"Datorren ostiralean kontzertua"*. Az olyan időhatározók, mint a *datorren* és az *asteburu honetan*, a beszélgetésben és a környék bármelyik hirdetőtábláján is előfordulnak. Ha a füled felismeri őket, sokkal könnyebb "olvasni az utcát".
+
