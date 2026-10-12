@@ -1,0 +1,143 @@
+@@ title
+Aditz trinkoak iraganean — синтетични глаголи в минало време
+@@ x0.prompt
+"Lanera nindoan goizeko zortzietan" означава…
+@@ x0.explanation
+*Nindoan* е синтетичното минало несвършено на *joan*: описва действие, което е било в ход или обичайно в миналото, а не еднократен приключил факт.
+@@ x0.opt0
+Отивам на работа в осем сутринта
+@@ x0.opt1
+Ще дойда на работа в осем сутринта
+@@ x0.opt2
+Отидох на работа в осем сутринта (еднократно)
+@@ x0.opt3
+Отивах на работа в осем сутринта
+@@ x1.prompt
+Коя е синтетичната форма за минало време на "etorri" за "аз"?
+@@ x1.explanation
+*Nentorren* = идвах. Нейната двойка в сегашно време е *nator* (идвам).
+@@ x2.prompt
+Гараси ходеше (се разхождаше) из планината = Garazi mendian ___ .
+@@ x2.explanation
+*Zebilen* = синтетичното минало време на *ibili* за *hura*.
+@@ x3.card0
+отивах (аз)
+@@ x3.card1
+отиваше (ти)
+@@ x3.card2
+отиваше (той/тя)
+@@ x3.card3
+отивахме
+@@ x3.card4
+отиваха
+@@ x3.card5
+идвах (аз)
+@@ x3.card6
+идваше (ти)
+@@ x3.card7
+идваше (той/тя)
+@@ x3.card8
+идвахме
+@@ x3.card9
+идваха
+@@ x3.card10
+ходех (аз)
+@@ x3.card11
+ходеше (той/тя)
+@@ x3.card12
+ходеха
+@@ x4.pair0
+отивах
+@@ x4.pair1
+идвах
+@@ x4.pair2
+ходех
+@@ x4.pair3
+имах
+@@ x4.pair4
+знаех
+@@ x4.pair5
+бях (някъде)
+@@ body
+
+**Синтетичните глаголи** (*aditz trinkoak*) са малкото баски глаголи, които се спрягат **без спомагателен глагол**, с една дума. Вече познаваш техните форми в сегашно време: *noa, nator, nabil, daukat, dakit, nago*. В минало време имат успоредни форми, които е добре да разпознаваш, а най-честите — и да използваш.
+
+## Визуално обобщение
+
+За шестте ключови синтетични глагола миналото време в 1-во и 3-то лице изглежда така:
+
+| Глагол | Сегашно (аз) | Минало (аз) | Минало (той/тя) |
+|---|---|---|---|
+| *joan* (отивам) | noa | **nindoan** | **zihoan** |
+| *etorri* (идвам) | nator | **nentorren** | **zetorren** |
+| *ibili* (ходя) | nabil | **nenbilen** | **zebilen** |
+| *egon* (намирам се) | nago | **nengoen** | **zegoen** |
+| *eduki* (имам) | daukat | **neukan** | **zeukan** |
+| *jakin* (знам) | dakit | **nekien** | **zekien** |
+
+> Общото помежду им: започват с **n-** (аз) или **z-** (3-то лице, учтиво "Вие" или "вие") и завършват на **-en**. Това е общият модел на синтетичното минало време.
+
+## *Joan* (отивам) — цялото минало време
+
+| Местоимение | Форма | Български |
+|---|---|---|
+| ni | **nindoan** | отивах |
+| zu | **zindoazen** | отиваше |
+| hura | **zihoan** | отиваше |
+| gu | **gindoazen** | отивахме |
+| zuek | **zindoazten** | отивахте |
+| haiek | **zihoazen** | отиваха |
+
+> *Egunero zortzietan lanera **nindoan**.* — Всеки ден отивах на работа в осем.
+
+## *Etorri* (идвам)
+
+| Местоимение | Форма | Български |
+|---|---|---|
+| ni | **nentorren** | идвах |
+| zu | **zentozen** | идваше |
+| hura | **zetorren** | идваше |
+| gu | **gentozen** | идвахме |
+| zuek | **zentozten** | идвахте |
+| haiek | **zetozen** | идваха |
+
+> *Lagunak Donostiatik **zetozen**.* — Приятелите идваха от Доностия.
+
+## *Ibili* (ходя)
+
+| Местоимение | Форма | Български |
+|---|---|---|
+| ni | **nenbilen** | ходех |
+| hura | **zebilen** | ходеше |
+| gu | **genbiltzan** | ходехме |
+| haiek | **zebiltzan** | ходеха |
+
+> *Garazi mendian **zebilen** lagunekin.* — Гараси ходеше из планината с приятелите си.
+
+## Кога използвам *nindoan* и кога *joan nintzen*?
+
+Това е ключовият въпрос. Приблизително:
+
+| Форма | Вид минало | Пример |
+|---|---|---|
+| **Joan nintzen** (аналитична + причастие) | Еднократен, приключил, завършен факт | *Atzo Bilbora **joan nintzen** zortzietan.* (= вчера отидох в Билбао) |
+| **Nindoan** (синтетична) | Действие в ход, навик, описание на миналото | *Bilborantz **nindoan**, ezagun bat ikusi nuenean.* (= отивах към Билбао, когато видях един познат) |
+
+> **Бързо правило:** синтетичната форма (*nindoan, nentorren, nenbilen*) описва **сцената** в миналото. Формата с причастие (*joan nintzen, etorri nintzen*) разказва **факта** в миналото. Разликата е много сходна с българските "отивах" (минало несвършено) и "отидох" (минало свършено).
+
+## Синтетични глаголи NOR-NORK: *neukan*, *nekien*
+
+Тези два ги припомняме от предишния урок, защото също принадлежат към семейството trinkoak:
+
+> *Egoitzek bizikleta gorri bat **zeukan**.* — Егойц имаше червено колело.
+>
+> *Inork ez **zekien** zergatik etorri zen.* — Никой не знаеше защо дойде.
+
+Други синтетични глаголи NOR-NORK (*ekarri/zekarren*, *eraman/zeraman*) се срещат по-рядко в ежедневното A2; достатъчно е да ги разпознаваш.
+
+## Мини текст
+
+> *Umea nintzenean, oporretan beti aiton-amonen baserrira **nindoan**. Han **nengoen** astebete edo bi. Goizean, lehengusuak **etorri ohi ziren** eta egun osoa elkarrekin **igarotzen genuen**: txakurrarekin mendi inguruan **genbiltzan**, sagastian sagarrak **biltzen genituen** eta amonak gosari ederra **prestatzen zigun**. Pozik **nengoen** beti.*
+
+> **Педагогическа бележка:** на ниво A2 не е нужно да владееш всички синтетични форми. Важното е да ги **разпознаваш**, когато се появят, и да използваш поне *nengoen, zegoen, neukan, zeukan, nekien, zekien, nindoan, zihoan, nenbilen, zebilen*. Останалите ще се затвърдят с четенето.
+
