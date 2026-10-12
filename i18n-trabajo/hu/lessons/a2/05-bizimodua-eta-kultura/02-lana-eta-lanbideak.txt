@@ -1,0 +1,209 @@
+@@ title
+Lana eta lanbideak — munka és állásinterjú
+@@ x0.prompt
+A "Lan-elkarrizketa" jelentése…
+@@ x0.explanation
+*Elkarrizketa* = interjú, beszélgetés. *Lan-elkarrizketa* = állásinterjú.
+@@ x0.opt0
+Konferencia
+@@ x0.opt1
+Állásinterjú
+@@ x0.opt2
+Telefonhívás
+@@ x0.opt3
+Orvosi időpont
+@@ x1.prompt
+A "Soldata" jelentése…
+@@ x1.explanation
+*Soldata* = fizetés. A *Lansari* a hivatalos szinonimája.
+@@ x1.opt0
+Munka
+@@ x1.opt1
+Fizetés
+@@ x1.opt2
+Főnök
+@@ x1.opt3
+Alkalmazott
+@@ x2.prompt
+Részmunkaidőben dolgozom = ___ erdiko lana daukat.
+@@ x2.explanation
+*Lanaldia* = munkaidő. *Lanaldi erdiko lana* = részmunkaidős (félállású) munka.
+@@ x3.card0
+a munka
+@@ x3.card1
+a mesterség / szakma
+@@ x3.card2
+fizetés
+@@ x3.card3
+munkaidő
+@@ x3.card4
+teljes munkaidő
+@@ x3.card5
+félállás, részmunkaidő
+@@ x3.card6
+munkatárs
+@@ x3.card7
+a főnök
+@@ x3.card8
+dolgozó, munkavállaló
+@@ x3.card9
+cég, vállalat
+@@ x3.card10
+szerződés
+@@ x3.card11
+szabadság
+@@ x3.card12
+állásinterjú
+@@ x3.card13
+önéletrajz
+@@ x3.card14
+tapasztalat
+@@ x3.card15
+munkahely, állás
+@@ x3.card16
+szakmai kamara
+@@ x4.pair0
+tanár
+@@ x4.pair1
+ápoló
+@@ x4.pair2
+szakács
+@@ x4.pair3
+újságíró
+@@ x4.pair4
+szerelő
+@@ x4.pair5
+építész
+@@ body
+
+Az A2 megnyitja előtted a **munka** világát a "diák vagyok / tanár vagyok" szinten túl. Most már arról is beszélhetsz:
+
+- Milyen munkák és munkaidők vannak.
+- Állásinterjú.
+- Önéletrajz és tapasztalat.
+- Hogyan írd le a **munkádat**, amely van vagy amelyet szeretnél.
+
+## Foglalkozások — bővített ismétlés
+
+Az A1 a klasszikusokat fedte le (*medikua, ikaslea, irakaslea, sukaldaria*). Az A2-ben ezeket teszed hozzá:
+
+| Magyar | Euskera |
+|---|---|
+| Újságíró | *kazetaria* |
+| Programozó | *programatzailea* |
+| Tervező | *diseinatzailea* |
+| Mérnök | *ingeniaria* |
+| Építész | *arkitektoa* |
+| Ügyvéd | *abokatua* |
+| Közjegyző | *notarioa* |
+| Vállalkozó | *enpresari* |
+| Kereskedő | *merkataria* |
+| Sofőr | *gidaria* |
+| Tűzoltó | *suhiltzailea* |
+| Köztisztviselő | *funtzionarioa* |
+| Asszisztens | *laguntzailea* |
+| Eladó | *saltzailea* |
+| Kőműves | *igeltseroa* |
+| Vízvezeték-szerelő | *iturgina* |
+| Villanyszerelő | *elektrizista* |
+
+> **Trükk:** sok foglalkozásnév **-le**, **-tzaile** vagy **-ari** végű: *saltzaile, irakasle, gidari, sukaldari, kazetari*. Ezek termékeny toldalékok.
+
+## A -**dun** toldalék ("akinek van / aki visel")
+
+Idézd fel ezt a toldalékot az A1-ből — foglalkozásoknál is termékeny:
+
+| Magyar | Euskera |
+|---|---|
+| Baszkul beszélő | *euskalduna* |
+| Bajnok (akinek a txapela jár) | *txapelduna* |
+| Kamionos | *kamioiduna* |
+
+## Beszélni a munkáról
+
+| Magyar | Euskera |
+|---|---|
+| Mivel foglalkozol? | *Zertan egiten duzu lan?* |
+| Egy irodában dolgozom | *Bulego batean lan egiten dut* |
+| Egyéni vállalkozó vagyok | *Autonomoa naiz* / *Autoenplegatua naiz* |
+| Munkanélküli vagyok | *Langabezian nago* |
+| Táppénzen vagyok | *Bajan nago* |
+| Határozatlan idejű szerződésem van | *Kontratu mugagabea daukat* |
+| Határozott idejű szerződésem van | *Kontratu mugatua daukat* |
+| Műszakban dolgozom | *Txandaka egiten dut lan* |
+
+## Munkaidő és beosztás
+
+| Magyar | Euskera |
+|---|---|
+| Teljes munkaidő | *Lanaldi osoa* |
+| Részmunkaidő | *Lanaldi erdia* |
+| Túlóra | *Aparteko ordua* |
+| 9-től 5-ig dolgozni | *Bederatzietatik bostetara lan egin* |
+| Délelőttös / délutános / éjszakás műszak | *Goizeko / arratsaldeko / gaueko txanda* |
+| Szabadság | *Oporrak* |
+| Engedély (kimenő) | *Baimena* |
+
+## Az állásinterjú
+
+Tipikus lépések és szókincs:
+
+| Magyar | Euskera |
+|---|---|
+| Álláshirdetés | *lan-eskaintza* |
+| Önéletrajz | *curriculuma* |
+| Motivációs levél | *aurkezpen-gutuna* |
+| Állásinterjú | *lan-elkarrizketa* |
+| Tapasztalat | *esperientzia* |
+| Referenciák | *erreferentziak* |
+| Nyelvek | *hizkuntzak* |
+| Készségek | *trebetasunak* |
+| Tanulmányok | *ikasketak* |
+
+## Tipikus mondatok egy interjún
+
+| Magyar | Euskera |
+|---|---|
+| Mesélj magadról | *Konta iezadazu zerbait zuri buruz* |
+| Miért szeretnéd ezt az állást? | *Zergatik nahi duzu lanpostu hau?* |
+| Milyen tapasztalatod van? | *Zer esperientzia daukazu?* |
+| Beszélek baszkul, spanyolul és angolul | *Euskaraz, gaztelaniaz eta ingelesez hitz egiten dut* |
+| Júniustól tudok kezdeni | *Ekainetik aurrera nago eskuragarri* |
+| Milyen fizetést szeretnél? | *Zer **soldata** nahi duzu?* |
+
+## Vonatkozó mellékmondatok -**(e)n** végződéssel
+
+Ha összetettebben akarod leírni a munkádat, érdemes a **vonatkozó mellékmondatot** használni:
+
+> **ragozott ige + -(e)n + főnév**
+
+| Magyar | Euskera |
+|---|---|
+| A munka, amelyem van | *Daukadan lana* |
+| A cég, ahol dolgozom | *Lan egiten dudan enpresa* |
+| A munkatársak, akiket ismerek | *Ezagutzen ditudan lankideak* |
+| A fizetés, amit kapok | *Jasotzen dudan soldata* |
+| A tanfolyam, amit elvégeztem | *Egin nuen ikastaroa* |
+
+> **Hogyan képezzük:** jelen vagy múlt idejű ige + **-(e)n** toldalék + főnév.
+>
+> *dut → dudan*, *du → duen*, *zen → zen*, *zuen → zuen* (ha már -n-re végződik, nem teszünk hozzá semmit).
+
+> Ez az A2 kulcseszköze, amely az 5. egységben többféle használatban is megjelenik: az interjúban (*duzun esperientzia*) és bemutatkozáskor (*ezagutzen dudan jendea*). A B1-ben elmélyül.
+
+## Mini-párbeszéd: lan-elkarrizketa
+
+> *— Egun on. Eseri, mesedez. **Konta iezadazu** zertan **lan egin duzun** orain arte.*
+>
+> *— Bai. Bost urtez **lan egin dut** Bilboko diseinu-enpresa batean. Han **daukadan zeregina** bezeroentzako proiektuak diseinatzea da.*
+>
+> *— Ondo. Eta zergatik nahi duzu **lanpostu hau**?*
+>
+> *— **Iruditzen zait** zuen enpresa **interesgarriagoa dela**, eta nire trebetasunak hobeto erabili **ahal izango ditudala**. **Gainera**, **lanaldi erdiko** modalitatea **eskaintzen duzuelako**, hori asko **interesatzen zait**.*
+
+## Mini-szöveg: a munka leírása
+
+> *Lander **kazetari** lanetan dabil hamar urtetik hona. Bilboko egunkari batean **lan egiten du**, **lanaldi osoan**. Goizeko zortzietan hasten da eta bostetan amaitzen du. Berarentzat **garrantzitsuena** albisteak ondo **kontatzea** da. **Soldata** ez da oso handia, baina **gustatzen zaion lana** dauka, eta **lankide jatorrak** ditu.*
+
+> **Kulturális megjegyzés:** Euskal Herriában sok közszférabeli álláshirdetés (Osakidetza, Eusko Jaurlaritza, önkormányzatok) a baszk nyelvtudást **"profilok"** (PL1, PL2, PL3, PL4) rendszerével pontozza. A baszk tanulása nem csak kulturális kérdés: sok közszolgálati állásnál versenyelőnyt jelent.
+
