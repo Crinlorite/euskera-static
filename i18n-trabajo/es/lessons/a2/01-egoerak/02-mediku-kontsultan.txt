@@ -1,0 +1,133 @@
+@@ title
+Mediku-kontsultan — diálogo en la consulta
+@@ x0.prompt
+En el médico, "Hartu pilula bat zortzi orduro" significa…
+@@ x0.explanation
+El sufijo *-ro* sobre una hora indica frecuencia regular: *zortzi orduro* = cada ocho horas.
+@@ x0.opt0
+Toma una pastilla a las ocho
+@@ x0.opt1
+Toma una pastilla durante ocho horas
+@@ x0.opt2
+Toma ocho pastillas
+@@ x0.opt3
+Toma una pastilla cada ocho horas
+@@ x1.prompt
+"Hobeto nago" quiere decir…
+@@ x1.explanation
+*Hobeto* = mejor. *Hobe* es el adjetivo "mejor" y *hobeto* el adverbio.
+@@ x2.prompt
+Quiero pedir cita = Hitzordua eskatu nahi ___.
+@@ x2.explanation
+*Nahi izan* es transitivo: lleva *dut*. *Hitzordua eskatu nahi dut* — quiero pedir cita.
+@@ x3.card0
+pedir cita
+@@ x3.card1
+tomar / coger
+@@ x3.card2
+cada hora
+@@ x3.card3
+cada ocho horas
+@@ x3.card4
+cada día
+@@ x3.card5
+antes de comer
+@@ x3.card6
+después de comer
+@@ x3.card7
+mejor (adv.)
+@@ x3.card8
+peor (adv.)
+@@ x3.card9
+igual
+@@ x3.card10
+receta
+@@ x3.card11
+la baja
+@@ x3.card12
+la consulta
+@@ x4.pair0
+¿Qué te pasa?
+@@ x4.pair1
+¿Desde cuándo?
+@@ x4.pair2
+¿Te duele?
+@@ x4.pair4
+Vuelve dentro de una semana
+@@ body
+
+Esta lección es un **simulacro completo de consulta médica**. Junta el vocabulario de la lección anterior con expresiones de tiempo (cada cuánto, antes/después de) y fórmulas frecuentes. La consulta es uno de los contextos más útiles para A2: aparece en cualquier examen oficial.
+
+## Pedir cita
+
+> *Egun on. **Hitzordua eskatu nahi dut** familia-medikuarekin.*
+
+Variantes:
+
+- *Hitzordua eman ahal didazu?* — ¿Me puede dar cita?
+- *Larrialdietara joan behar dut.* — Tengo que ir a urgencias.
+- *Bihar goizerako badago tarterik?* — ¿Hay hueco para mañana por la mañana?
+
+## Frecuencia con -**ro**
+
+Para indicar "cada X tiempo", el euskera usa el sufijo **-ro** sobre el sustantivo de tiempo:
+
+| Castellano | Euskera |
+|---|---|
+| Cada hora | *orduro* |
+| Cada dos horas | *bi orduro* |
+| Cada ocho horas | *zortzi orduro* |
+| Cada día | *egunero* |
+| Cada semana | *astero* |
+| Cada mes | *hilero* |
+| Cada año | *urtero* |
+
+> Es el mismo *-ro* que ya usabas en *egunero* (cada día) en A1. Aquí solo lo amplías a horas y otras unidades.
+
+## Antes / después de comer
+
+Las indicaciones del médico suelen llevar estas fórmulas:
+
+- *Jan **baino lehen*** — antes de comer
+- *Jan **ondoren*** / *Jan **eta gero*** — después de comer
+- *Goizean baraurik* — por la mañana en ayunas
+- *Lo egin baino lehen* — antes de dormir
+
+## "Mejor" / "peor"
+
+Para responder cómo te encuentras:
+
+| Castellano | Euskera |
+|---|---|
+| Estoy mejor | *Hobeto nago* |
+| Estoy peor | *Okerrago nago* |
+| Igual | *Berdin nago* |
+| Mucho mejor | *Askoz hobeto* |
+
+> **Nota:** *hobe* (adjetivo) y *hobeto* (adverbio) son irregulares. No hay *\*onago* — el comparativo de *ona* es *hobea*. Lo veremos en detalle en la unidad 4.
+
+## Diálogo modelo
+
+> *— Egun on. **Zer duzu**?*
+>
+> *— **Eztarriko min handia daukat**, eta uste dut **sukarra ere badudala**.*
+>
+> *— Noiztik?*
+>
+> *— Duela hiru egun hasi zen.*
+>
+> *— Ikusiko dut... Bai, eztarria gorri-gorri daukazu. **Hartu** pastilla hauek **jan ondoren**, **zortzi orduro**, hiru egunez. **Edan** ur asko, eta **hartu atseden**. Hobeto ez bazaude **astebete barru**, itzuli.*
+>
+> *— Eskerrik asko, mediku.*
+
+## Frases clave para memorizar
+
+- *Hitzordua eskatu nahi dut.* — Quiero pedir cita.
+- *Min handia daukat hemen.* — Me duele mucho aquí.
+- *Duela bi egun hasi zen.* — Empezó hace dos días.
+- *Errezeta emango dizut.* — Le voy a dar receta.
+- *Errezetarik gabe saltzen al duzue?* — ¿Lo venden sin receta?
+- *Bajan nago.* — Estoy de baja.
+
+> **Nota cultural:** Osakidetza (el servicio público de salud vasco) tiene su propia terminología bilingüe; muchos formularios y carteles aparecen en euskera primero. Familiarizarte con palabras como *anbulatorioa*, *larrialdiak* o *errezeta* te orienta en cualquier centro.
+

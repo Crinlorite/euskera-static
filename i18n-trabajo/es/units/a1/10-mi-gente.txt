@@ -1,0 +1,4 @@
+@@ title
+Vecinos y relaciones
+@@ description
+Describe a tus vecinos: relaciones, profesiones y rutinas de otras personas.

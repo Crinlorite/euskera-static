@@ -1,0 +1,4 @@
+@@ title
+La agenda semanal
+@@ description
+Planificar la semana, hablar de citas y compromisos, y usar el futuro próximo.

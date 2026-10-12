@@ -1,0 +1,107 @@
+@@ title
+Las habitaciones de la casa
+@@ x0.pair3
+salón
+@@ x1.prompt
+Quieres ducharte. ¿A qué habitación vas?
+@@ x1.explanation
+"Komuna" es el baño (la habitación con ducha, lavabo, etc.).
+@@ x2.prompt
+"Egongela" es...
+@@ x2.explanation
+"Egongela" se compone de "egon" (estar) + "gela" (sala) — la sala donde se está, el salón.
+@@ x2.opt0
+el dormitorio
+@@ x2.opt1
+la cocina
+@@ x2.opt2
+el salón
+@@ x2.opt3
+la terraza
+@@ x3.prompt
+Dormimos en la ___ (en castellano: dormitorio).
+@@ x3.explanation
+"Logela" = "lo" (sueño) + "gela" (sala).
+@@ x4.card0
+la casa
+@@ x4.card1
+el piso
+@@ x4.card2
+habitación / sala
+@@ x4.card3
+cocina
+@@ x4.card4
+dormitorio
+@@ x4.card5
+baño
+@@ x4.card6
+salón
+@@ x4.card7
+entrada
+@@ x4.card8
+pasillo
+@@ x4.card9
+balcón
+@@ x4.card10
+terraza
+@@ x4.card11
+ascensor
+@@ x4.card12
+planta / piso (nivel del edificio)
+@@ x4.card13
+¿Cuántos dormitorios tiene?
+@@ x4.card14
+¿Dónde está la cocina?
+@@ body
+
+Empezamos por lo más básico de cualquier vivienda: las **habitaciones**. La palabra general para "sala / habitación" es **gela**, y la mayor parte de los nombres de las estancias se construyen combinando una raíz con `-gela`.
+
+## Vocabulario base
+
+| Euskera | Castellano |
+|---|---|
+| *etxea* | la casa |
+| *pisua* | el piso (vivienda en un edificio) |
+| *gela* | habitación / sala |
+| *sukaldea* | cocina |
+| *logela* | dormitorio |
+| *komuna* | baño |
+| *egongela* | salón |
+| *sarrera* | entrada |
+| *korridorea* / *pasabidea* | pasillo |
+| *balkoia* | balcón |
+| *terraza* | terraza |
+
+## Cómo se forman algunos nombres
+
+El euskera es muy transparente con estas palabras. Si miras cómo están compuestas, las recuerdas mejor:
+
+- **logela** → *lo* (sueño) + *gela* (sala) = "sala del sueño" → dormitorio
+- **egongela** → *egon* (estar) + *gela* = "sala de estar" → salón
+- **sukaldea** → *su* (fuego) + *aldea* (zona) = "zona del fuego" → cocina
+
+> **Komuna** y **bainugela** son sinónimos: *komuna* es la palabra cotidiana, mientras que *bainugela* (literalmente "sala de baño") es algo más formal.
+
+## Edificio: planta y ascensor
+
+| Euskera | Castellano |
+|---|---|
+| *solairua* | planta (1ª, 2ª…) |
+| *igogailua* | ascensor |
+| *eskailera* | escalera |
+| *ataria* | portal |
+
+Para decir en qué planta vives:
+
+- *Hirugarren solairuan bizi naiz.* — Vivo en la tercera planta.
+- *Etxeak igogailua du.* — La casa tiene ascensor.
+
+## Preguntas útiles
+
+- **Zenbat gela ditu zure etxeak?** — ¿Cuántas habitaciones tiene tu casa?
+- **Zenbat logela ditu?** — ¿Cuántos dormitorios tiene?
+- **Non dago sukaldea?** — ¿Dónde está la cocina?
+- **Etxeak badu balkoirik?** — ¿Tiene balcón la casa?
+
+> **Nota cultural:** en Navarra y la zona vasco-castellana es habitual decir *pisua* para la vivienda urbana y *etxea* para la casa familiar/pueblo. En el día a día se mezclan sin problema.
+

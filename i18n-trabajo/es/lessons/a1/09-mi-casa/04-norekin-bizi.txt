@@ -1,0 +1,132 @@
+@@ title
+Norekin bizi zara? — Con quién vives
+@@ x0.pair1
+con un/a amigo/a
+@@ x0.pair2
+con los padres
+@@ x0.pair3
+con la pareja
+@@ x0.pair4
+con un hermano
+@@ x0.pair5
+con compañeros de piso
+@@ x1.prompt
+El sufijo -rekin (sociativo) significa…
+@@ x1.explanation
+"-rekin" indica compañía: "lagunarekin" = "con el/la amigo/a".
+@@ x1.opt0
+hacia
+@@ x1.opt1
+desde
+@@ x1.opt2
+con
+@@ x1.opt3
+sin
+@@ x2.prompt
+Vivo con mis padres = Gurasoe___ bizi naiz.
+@@ x2.explanation
+En plural el sufijo es "-ekin": guraso + -ekin = gurasoekin (con los padres).
+@@ x3.prompt
+"Bikotekidearekin bizi naiz" significa...
+@@ x3.explanation
+"Bikotekide" = pareja (literal: "miembro de la pareja"). Con -arekin = "con la pareja".
+@@ x3.opt0
+Vivo solo
+@@ x3.opt1
+Vivo con mi pareja
+@@ x3.opt2
+Vivo con un compañero
+@@ x3.opt3
+Vivo con mi hermano
+@@ x4.card0
+¿Con quién vives?
+@@ x4.card1
+vivo solo/a
+@@ x4.card2
+vivo con mis padres
+@@ x4.card3
+vivo con un/a amigo/a
+@@ x4.card4
+vivo con mis amigos
+@@ x4.card5
+con mi pareja
+@@ x4.card6
+con mi marido
+@@ x4.card7
+con mi mujer
+@@ x4.card8
+con mi hermano / hermana
+@@ x4.card9
+compañero/a de piso
+@@ x4.card10
+con el perro
+@@ x4.card11
+con el gato
+@@ x4.card12
+vivo de alquiler
+@@ x4.card13
+es mi piso (en propiedad)
+@@ body
+
+Una de las preguntas básicas para conocer a alguien es **Norekin bizi zara?** — "¿Con quién vives?". La respuesta usa el sufijo **`-(r)ekin`**, llamado **sociativo**, que es el "con" de compañía en euskera.
+
+## El sufijo `-rekin`
+
+Se añade al sustantivo, ya con su artículo:
+
+| Sustantivo | + -(r)ekin | Significado |
+|---|---|---|
+| laguna (el/la amigo/a) | **lagunarekin** | con el/la amigo/a |
+| ama (la madre) | **amarekin** | con la madre |
+| anaia (el hermano) | **anaiarekin** | con el hermano |
+| txakurra (el perro) | **txakurrarekin** | con el perro |
+| bikotekidea (la pareja) | **bikotekidearekin** | con la pareja |
+
+> Con nombres propios y con *bat* se añade **-(e)kin** directamente, sin artículo: *Miren + ekin → Mirenekin* (con Miren), *lagun batekin* (con un amigo).
+
+## Plural
+
+| Plural | + -ekin | Significado |
+|---|---|---|
+| gurasoak (los padres) | **gurasoekin** | con los padres |
+| lagunak (los amigos) | **lagunekin** | con los amigos |
+| pisukideak (compañeros de piso) | **pisukideekin** | con los compañeros |
+| seme-alabak (los hijos) | **seme-alabekin** | con los hijos |
+
+## Vivir solo
+
+Si vives sin compañía, no hace falta usar `-rekin`:
+
+- **Bakarrik bizi naiz.** — Vivo solo/a.
+- **Bakarrik bizi naiz, baina katu batekin.** — Vivo solo, pero con un gato.
+
+## Tipos de convivencia más comunes
+
+| Situación | Cómo se dice |
+|---|---|
+| Solo/a | *Bakarrik bizi naiz.* |
+| Con los padres | *Gurasoekin bizi naiz.* |
+| Con la pareja | *Bikotekidearekin bizi naiz.* |
+| Con el marido / la mujer | *Senarrarekin / Emaztearekin bizi naiz.* |
+| Con compañeros de piso | *Pisukideekin bizi naiz.* |
+| Con los hijos | *Seme-alabekin bizi naiz.* |
+| Con un amigo / amigos | *Lagun batekin / Lagunekin bizi naiz.* |
+
+## Alquiler o propiedad
+
+- **Alokairuan bizi naiz.** — Vivo de alquiler.
+- **Nire pisua da.** — Es mi piso (de propiedad).
+- **Errenta gora doa.** — El alquiler sube. *(coloquial)*
+
+## Conversación tipo
+
+> — *Kaixo Maialen! Norekin bizi zara?*
+>
+> — *Bi pisukiderekin bizi naiz Iruñean. Eta zu?*
+>
+> — *Ni bakarrik, baina txakur batekin. Etxea handia da?*
+>
+> — *Ez, txikia. Hiru logela ditu.*
+
+> **Nota:** *bikotekide* es una palabra moderna y neutra, válida tanto para parejas casadas como no casadas, hetero u homosexuales. Para "marido" y "mujer" siguen usándose **senarra** y **emaztea**.
+

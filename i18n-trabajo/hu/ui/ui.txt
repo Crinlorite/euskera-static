@@ -1,0 +1,660 @@
+@@ beta.title
+Kaixo Androidra: jelentkezz a bétára
+@@ beta.lead
+Az androidos verzió <strong>zárt tesztelésben</strong> van: működik, de a telepítéshez előbb jelentkezni kell. Két perc az egész, itt lépésről lépésre elmagyarázzuk.
+@@ beta.why
+Miért nem látható mindenki számára a Google Playen? Mert a Google előírja, hogy egy új alkalmazás előbb egy stabil csoporttal zárt tesztelésen menjen át. Ha ezt befejezzük, mindenki számára elérhető lesz — és te is hozzájárultál, hogy eljusson idáig.
+@@ beta.step1.t
+1. Lépj be a csoportba a telefonodon használt Google-fiókkal
+@@ beta.step1.d
+Ez egy teljesen hétköznapi Google-csoport: csak arra szolgál, hogy a Google tudja, hozzáférhetsz a teszthez. Egy kattintással belépsz, jóváhagyás és várakozás nélkül. <strong>Fontos:</strong> ugyanazzal a Google-fiókkal tedd, amelyet az androidos telefonodon használsz.
+@@ beta.step2.t
+2. Fogadd el a tesztet
+@@ beta.step2.d
+Nyisd meg a teszt linkjét, és koppints a <strong>«Tesztelővé válok»</strong> gombra. E lépés nélkül a Google nem engedi telepíteni, még akkor sem, ha a csoport tagja vagy.
+@@ beta.step3.t
+3. Telepítsd a Google Playről
+@@ beta.step3.d
+Ugyanezen az oldalon, lent megjelenik a link, amellyel letöltheted a Google Playről. Onnantól magától frissül, mint bármely más alkalmazás.
+@@ beta.wait.t
+⏳ Amit senki sem mond el: várni kell egy kicsit
+@@ beta.wait.d
+A jelentkezés és a Google általi hozzáférés között eltelik egy kis idő: <strong>általában néhány perc, néha néhány óra</strong>. Ez alatt teljesen normális, ha a Google Play azt írja, hogy <em>«Az elem nem található»</em>, vagy nem találja az alkalmazást. <strong>Nem romlott el, és nem rontottál el semmit</strong>: várj egy kicsit, és nyisd meg újra a linket. Ha néhány óra múlva is ugyanaz a helyzet, írj nekünk, és megnézzük.
+@@ beta.faq.t
+Gyakori kérdések
+@@ beta.faq1.q
+Azt írja ki: «Az elem nem található»
+@@ beta.faq1.a
+Szinte mindig a fent említett várakozásról van szó. Azt is ellenőrizd, hogy a Google Playen <strong>ugyanaz a fiók</strong> van-e kiválasztva, amellyel a csoportba beléptél (a fiókváltáshoz koppints a profilképedre a Play jobb felső sarkában).
+@@ beta.faq2.q
+Több Google-fiók van a telefonomon
+@@ beta.faq2.a
+Akkor ügyelj arra, hogy mindhárom lépést ugyanazzal végezd: a csoportét, a tesztét és azt, amelyik a Google Playen aktív.
+@@ beta.faq3.q
+Bármikor kiléphetek?
+@@ beta.faq3.a
+Persze. A tesztelést ugyanazon a teszt-linken keresztül befejezheted, és a csoportból is bármikor kiléphetsz. Nem vesszük zokon, és nem történik semmi.
+@@ beta.cta.group
+1 · Belépek a csoportba
+@@ beta.cta.optin
+2 · Elfogadom a tesztet
+@@ beta.thanks
+Eskerrik asko, hogy segítesz. Ha valami nem működik, vagy eszedbe jut egy fejlesztés, szólj nekünk: gyorsan javítjuk.
+@@ beta.badge
+Csatlakozz a bétához
+@@ beta.live.t
+A Kaixo már elérhető a Google Playen
+@@ beta.live.d
+Töltsd le közvetlenül: ingyenes, és semmi mást nem kell tenned. Az alábbiak csak akkor érdekesek, ha mindenki más előtt szeretnéd kipróbálni az újdonságokat.
+@@ beta.live.cta
+Letöltés a Google Playről
+@@ beta.live.beta
+Újdonságok kipróbálása elsőként
+@@ priv.s2.p4
+<strong>Választható szinkronizálás (alapból kikapcsolva).</strong> Az alkalmazásban a Haladás menüben bekapcsolhatsz egy biztonsági mentést a <em>saját</em> felhőfiókodba (iOS-en iCloud; Androidon a Google megfelelő szolgáltatása, amikor elérhető lesz), hogy újratelepítéskor se vesszen el a haladásod. Ez a mentés a te fiókodba kerül, <strong>nem a mi szerverünkre</strong>, és mi nem tudjuk elolvasni. Ha kikapcsolod, a feltöltött adatok törlődnek.
+@@ sync.title
+Haladásom szinkronizálása
+@@ sync.hint
+Ments egy másolatot a saját felhőfiókodba, hogy újratelepítéskor se vesszen el a haladásod. Mi nem látjuk.
+@@ sync.off
+Kikapcsolva
+@@ sync.on
+Bekapcsolva
+@@ app.rate
+Értékeld az alkalmazást
+@@ app.rate.hint
+Ha segít neked, egy értékelés nekünk rengeteget segít
+@@ ach.title
+Eredmények
+@@ ach.counter
+/ {0} feloldva
+@@ ach.first-step.t
+Első lépés
+@@ ach.first-step.d
+Nyisd meg az első baszk leckédet. Aupa!
+@@ ach.first-completed.t
+Első lecke kész
+@@ ach.first-completed.d
+Fejezz be először egy teljes leckét.
+@@ ach.first-unit.t
+Első egység
+@@ ach.first-unit.d
+Végezd el az első egységed összes leckéjét.
+@@ ach.first-level.t
+Szint teljesítve
+@@ ach.first-level.d
+Végezd el az A1 szint összes leckéjét.
+@@ ach.first-export.t
+Memóriakártya a kézben
+@@ ach.first-export.d
+Exportáld először a haladásodat.
+@@ ach.first-import.t
+Folytatás
+@@ ach.first-import.d
+Állítsd vissza a haladásodat egy memóriakártyáról.
+@@ ach.streak-3.t
+Kitartás: 3 nap
+@@ ach.streak-3.d
+Tanulj 3 egymást követő napon.
+@@ ach.streak-7.t
+Kitartás: 7 nap
+@@ ach.streak-7.d
+Egy teljes hét tanulás, egyetlen kihagyott nap nélkül.
+@@ ach.streak-14.t
+Kitartás: 14 nap
+@@ ach.streak-14.d
+Két hét egyfolytában a baszkkal.
+@@ ach.streak-30.t
+Kitartás: 30 nap
+@@ ach.streak-30.d
+Egy teljes hónap. Ez már szokás.
+@@ ach.volume-10.t
+10 lecke
+@@ ach.volume-10.d
+Végezz el 10 leckét (bármelyik egységből).
+@@ ach.volume-25.t
+25 lecke
+@@ ach.volume-25.d
+Végezz el 25 leckét. Már belejöttél.
+@@ ach.volume-50.t
+50 lecke
+@@ ach.volume-50.d
+Végezz el 50 leckét. Micsoda tempó!
+@@ ach.volume-a1-complete.t
+A1 kész
+@@ ach.volume-a1-complete.d
+Végezd el az A1 szint összes leckéjét.
+@@ ach.curiosity-about.t
+Bepillantás a műhelybe
+@@ ach.curiosity-about.d
+Látogasd meg „A projektről” oldalt.
+@@ ach.curiosity-language.t
+Leendő poliglott
+@@ ach.curiosity-language.d
+Nyisd meg a nyelvválasztót.
+@@ ach.unlocked
+Feloldva: {0}
+@@ ach.unlocked.short
+Feloldva
+@@ ach.f.all
+Mind
+@@ ach.f.milestone
+Mérföldkövek
+@@ ach.f.mastery
+Mesterség
+@@ ach.f.streak
+Kitartás
+@@ ach.f.volume
+Mennyiség
+@@ progress.unit.done
+Kész
+@@ fb.err.disabled
+A hibajegy-rendszer átmenetileg ki van kapcsolva. Próbáld újra később.
+@@ fb.email.ph
+te@email.hu
+@@ fb.discord.ph
+beceneved
+@@ fb.contact.note
+Szólunk, amikor megoldottuk. Ha üresen hagyod, névtelen marad.
+@@ fb.honeypot
+Website (hagyd üresen)
+@@ gate.eyebrow
+Hamarosan
+@@ gate.title
+<span class="text-grad">{0}</span> szint: készülőben
+@@ gate.desc
+Ezen a szinten még dolgozunk, és akkor nyitjuk meg, amikor átnéztük.
+@@ gate.pwd.label
+Ellenőrzői jelszó
+@@ gate.pwd.ph
+Jelszó
+@@ gate.checking
+Ellenőrzés…
+@@ gate.unlock
+Feloldás
+@@ gate.error
+Hibás jelszó.
+@@ gate.foot
+Addig is folytathatod az <a href="/{0}/a1/">A1</a> és az <a href="/{0}/a2/">A2</a> szinttel, amelyek már teljesek.
+@@ gate.reviewer
+Ellenőrző vagy?
+@@ gate.back
+Vissza
+@@ unit.eyebrow
+Leckék
+@@ unit.start
+Kezdd az elsővel
+@@ a11y.unit.nav
+Navigáció az egységek között
+@@ a11y.lesson.nav
+Navigáció a leckék között
+@@ a11y.unit.lessons
+Az egység leckéi
+@@ a11y.menu
+Mobilmenü
+@@ progress.units.empty
+Ezen a szinten még nincs aktív egység.
+@@ a11y.units.list
+Egységek listája a haladással
+@@ progress.path
+Az utad
+@@ a11y.ach.filter
+Eredmények szűrése kategória szerint
+@@ home.cefr
+Közös Európai Referenciakeret
+@@ home.levels.title
+Hat szint. <span class="text-grad">Egy út.</span>
+@@ about.intro
+Ez egy személyes, közösségi tanulási projekt: a baszkot tanítva tanulom. Amit megtanulok, azt itt közzéteszem, a KER szintjei szerint rendezve (A1 → C2). Ingyenes, bejelentkezés nélküli, reklámmentes, és mindig az is marad.
+@@ about.phil.title
+Filozófia
+@@ about.phil.free
+<strong>Ingyenes</strong>, fizetőfal nélkül.
+@@ about.phil.nologin
+<strong>Bejelentkezés nélkül</strong>. A haladásod a böngésződben él, és exportálhatod.
+@@ about.phil.noads
+<strong>Reklámok nélkül</strong>. Követés nélkül. Sötét minták nélkül.
+@@ about.phil.opendata
+<strong>Nyílt adatok</strong>: a leckék Markdown-fájlok; bárki klónozhatja, forkolhatja vagy saját szerveren futtathatja őket.
+@@ about.phil.eternal
+<strong>Örök</strong>: a kód statikus. Ha a karbantartó eltűnik is, a repó él tovább, és bárki folytathatja.
+@@ about.sources.title
+Források
+@@ about.license.code
+Kód: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE" rel="noopener">MIT</a>.
+@@ about.license.content
+Tartalom: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE-CONTENT" rel="noopener">CC BY-SA 4.0</a> — szabadon használható, megosztható és átdolgozható, a forrás megjelölésével és azonos licenc alatt.
+@@ about.contribute.title
+Közreműködés
+@@ about.contribute.body
+Hibát találtál? Van egy ötleted? Nyiss egy issue-t vagy PR-t a <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHubon</a>. A más nyelvekre készült fordításokat különösen szívesen fogadjuk.
+@@ priv.title
+Adatvédelmi irányelvek
+@@ priv.updated
+Utolsó frissítés: 2026. október 8.
+@@ priv.intro
+Ez az irányelv leírja, hogyan kezeli a <strong>Crintech Studios</strong> („mi”) az információkat, amikor a <em>Kaixót</em> használod, akár a <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a> weboldalon, akár az iOS-alkalmazásban (App Store), akár az androidos alkalmazásban (Google Play) — a továbbiakban: „a Szolgáltatás”.
+@@ priv.s1.title
+1. Milyen információkat gyűjtünk
+@@ priv.s1.intro
+A Kaixót úgy terveztük, hogy ne gyűjtsön személyes adatokat:
+@@ priv.s1.li1
+<strong>Fiókok nélkül.</strong> Nem kell regisztrálnod vagy bejelentkezned. Nem kérjük a nevedet, e-mail-címedet, telefonszámodat vagy más azonosító adatot.
+@@ priv.s1.li2
+<strong>Analitika és követés nélkül.</strong> Nem használunk Google Analyticst, Cloudflare Web Analyticst, Plausible-t, Umamit, Meta Pixelt, sem más harmadik féltől származó SDK-t közönségmérésre, profilalkotásra vagy hirdetések megjelenítésére.
+@@ priv.s1.li3
+<strong>Ujjlenyomat-azonosítás nélkül.</strong> Nem használunk böngésző-ujjlenyomatot, sem webhelyek közötti követési technikákat.
+@@ priv.s1.li4
+<strong>Reklámok nélkül.</strong> A Szolgáltatás ingyenes és reklámmentes.
+@@ priv.s2.title
+2. Helyi tárolás az eszközödön
+@@ priv.s2.p1
+A haladásod kizárólag a böngészőben vagy az alkalmazásban él, a <code>localStorage</code> segítségével. Ide tartoznak: az elvégzett leckék, a helyesen megoldott feladatok, a feloldott eredmények, a kiválasztott nyelv, az Expedíció mód állapota és „A projektről” oldal meglátogatásának jele.
+@@ priv.s2.p2
+<strong>Alapértelmezés szerint ezek az adatok soha nem hagyják el az eszközödet</strong>. Semmilyen szerverre nem küldjük el őket. Ha eszközt váltasz, a haladásodat exportálhatod egy kódként, amelyet az új eszközön beillesztve visszaállíthatod — te döntöd el, mikor és hol osztod meg.
+@@ priv.s2.p3
+Mivel ez a fajta tárolás az alkalmazás működéséhez feltétlenül szükséges, az európai ePrivacy-irányelv és a spanyol adatvédelmi hatóság (AEPD) útmutatói szerint nem igényel hozzájárulási sávot.
+@@ priv.s3.title
+3. Tárhely és hálózati kapcsolatok
+@@ priv.s3.p1
+A weboldalt és az alkalmazás statikus fájljait a <strong>Cloudflare Pages</strong> szolgálja ki. Mint minden webszerver, a Cloudflare is naplózza a HTTP-kéréseket, amelyek tartalmazhatják az IP-címet, a dátumot és a user agentet, kizárólag a Szolgáltatás védelme céljából (visszaélések elhárítása, CDN, összesített forgalmi statisztikák). Ezekhez a naplókhoz egyenként nem férünk hozzá, és semmilyen személyazonossággal nem kapcsoljuk össze őket. Irányelveiket itt olvashatod: <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a>.
+@@ priv.s3.p2
+Az iOS-alkalmazás egy könnyű keret, amely ugyanezt a weboldalt tölti be a rendszer egy <strong>WebView</strong> nézetében; az androidos alkalmazás ennek megfelelő <strong>Trusted Web Activity (TWA)</strong> a Chrome-on. Az alkalmazás használata a weboldal helyett semmilyen esetben sem jár további adatküldéssel.
+@@ priv.s4.title
+4. Harmadik féltől származó szolgáltatások
+@@ priv.s4.intro
+A Szolgáltatás nem épít be olyan harmadik féltől származó SDK-t vagy szolgáltatást, amely személyes adatokat kapna. Az egyetlen kimenő kapcsolatok:
+@@ priv.s4.li1
+<strong>Betűtípusok</strong>: a Manrope és a Fraunces, ugyanarról a domainről, saját tárhelyről (nem a Google Fontsból).
+@@ priv.s4.li2
+<strong>GitHub</strong>, kizárólag ha egy repóra mutató linkre kattintasz. A látogatásra a <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" rel="noopener">GitHub irányelvei</a> vonatkoznak.
+@@ priv.s4.li0
+<strong>iCloud (Apple) vagy a Google megfelelő szolgáltatása</strong>, <em>csak ha bekapcsolod a haladás választható szinkronizálását</em>: a mentés a saját fiókodba kerül, soha nem a mi szerverünkre.
+@@ priv.s4.li3
+<strong>App Store</strong>, kizárólag az iOS-alkalmazás letöltéséhez és telepítéséhez, az Apple irányelvei szerint.
+@@ priv.s4.li4
+<strong>Google Play</strong>, kizárólag a letöltéshez és telepítéshez, a Google irányelvei szerint.
+@@ priv.s5.title
+5. Visszajelzési rendszer
+@@ priv.s5.intro
+Ha a <a href="/{0}/feedback/">Visszajelzés</a> oldalon keresztül bejelentést küldesz, a következő adatokat gyűjtjük a háttérrendszerünkben (nem az eszközödön):
+@@ priv.s5.li1
+<strong>Kötelező:</strong> a bejelentés címe és leírása (amit te írsz), típusa (hiba / javaslat / stb.).
+@@ priv.s5.li2
+<strong>Választható:</strong> e-mail-cím és/vagy Discord-név, kizárólag ha úgy döntesz, hogy beírod őket a megfelelő mezőkbe, hogy válaszolhassunk. Ha üresen hagyod őket, semmilyen azonosítót nem gyűjtünk.
+@@ priv.s5.li3
+<strong>Technikai adatok:</strong> annak az oldalnak a relatív URL-je, ahonnan a bejelentést küldted, és a user agent egy részlete (legfeljebb 200 karakter), a hibák reprodukálásához.
+@@ priv.s5.li4
+<strong>Botvédelem:</strong> egy <a href="https://www.cloudflare.com/products/turnstile/" rel="noopener">Cloudflare Turnstile</a> token, amelyet a Cloudflare állít ki, és amely ellenőrzi, hogy nem vagy bot. Az ellenőrzés után azonnal eldobjuk.
+@@ priv.s5.outro
+Ezeket az adatokat kizárólag a hibajegy kezelésére és — ha megadtál elérhetőséget — a válaszadásra használjuk. Nem osztjuk meg harmadik felekkel, és bármikor kérheted a törlésüket, ha írsz nekünk az alább megadott címre.
+@@ priv.s6.title
+6. Kiskorúak
+@@ priv.s6.body
+A Kaixo nem kifejezetten 13 év alattiaknak szól, és nem gyűjt róluk adatokat. Életkor-ellenőrzést éppen azért nem alkalmazunk, mert semmilyen személyes adatra nincs szükségünk.
+@@ priv.s7.title
+7. Jogaid (GDPR)
+@@ priv.s7.body
+Mivel rendszereinkben nem tárolunk személyazonosításra alkalmas adatokat, a hozzáférés, helyesbítés, törlés, tiltakozás, adathordozhatóság és korlátozás klasszikus jogait a gyakorlatban magán az eszközön gyakorolhatod: a böngészőadatok törlésével vagy az alkalmazás eltávolításával. Ha mégis bármilyen kérdésed van, vagy úgy gondolod, hogy valamely adat rád vonatkozik, írj nekünk.
+@@ priv.s8.title
+8. Az irányelv módosításai
+@@ priv.s8.body
+Ha ez az irányelv megváltozik (például ha a jövőben további szolgáltatást vezetnénk be), frissítjük a fenti dátumot, és ha a változás lényeges, a kezdőlapon és a repó kiadási megjegyzéseiben is bejelentjük.
+@@ priv.s9.title
+9. Kapcsolat
+@@ fbp.eyebrow
+Hibajegyek
+@@ fbp.title
+Van mit <span class="text-grad">elmondani</span>.
+@@ fbp.lead
+Hibák, javaslatok, tévedések egy leckében, sántító fordítások, konkrét kérdések. Bármi. Minden hibajegy megérkezik hozzánk, és a Discordunkon kezeljük.
+@@ fbp.how.title
+Hogyan működik?
+@@ fbp.how.li1
+Kiválasztod a témához leginkább illő kategóriát.
+@@ fbp.how.li2
+Leírod annyi részlettel, amennyi van — lépések, amit láttál, a körülmények.
+@@ fbp.how.li3
+Ha választ szeretnél, megadod az e-mail-címedet vagy a Discord-felhasználónevedet.
+@@ fbp.how.li4
+Kapsz egy nyilvános azonosítót. Ha megadtál elérhetőséget, szólunk, amikor lezártuk.
+@@ fbp.note
+Nincs fiókrendszer. Nem tárolunk hozzád kötött előzményeket. Az azonosító, amelyet kapsz, az egyetlen, amire szükséged van a hibajegy követéséhez.
+@@ fb.ok.email
+E-mailben szólunk, amikor foglalkozunk vele.
+@@ fb.ok.discord
+Discordon, közvetlen üzenetben szólunk.
+@@ fb.ok.save
+Mentsd el ezt az azonosítót, ha követni szeretnéd az előrehaladást.
+@@ fb.ok.thread
+Szál megnyitása a Discordon
+@@ levels.available
+Elérhető
+@@ lang.available
+Elérhető
+@@ lang.peninsular
+Az Ibériai-félsziget nyelvei
+@@ lang.horizon
+A láthatáron
+@@ footer.project
+Projekt
+@@ footer.feedback
+Bejelentés / Visszajelzés
+@@ footer.privacy
+Adatvédelem
+@@ footer.licenses
+Licencek
+@@ footer.code
+Kód
+@@ footer.content
+Tartalom
+@@ curriculum.eyebrow
+Tanterv
+@@ curriculum.title
+Amit tudni fogsz
+@@ curriculum.hint
+{0} pont · koppints a megtekintéshez
+@@ fb.legend
+Hibajegy típusa
+@@ fb.cat.bug
+Valami nem működik
+@@ fb.cat.bug.d
+Hiba a weboldalon
+@@ fb.cat.idea
+Javaslat
+@@ fb.cat.idea.d
+Ötlet vagy fejlesztés
+@@ fb.cat.q
+Kérdés
+@@ fb.cat.q.d
+Hogyan működik X?
+@@ fb.cat.tr
+Fordítás
+@@ fb.cat.tr.d
+Hiba a felület szövegében
+@@ fb.cat.content
+Tartalom
+@@ fb.cat.content.d
+Hiba egy leckében
+@@ fb.title
+Cím
+@@ fb.title.ph
+Foglald össze egy mondatban
+@@ fb.desc
+Leírás
+@@ fb.desc.ph
+A reprodukálás lépései, mit vártál, mi történt…
+@@ fb.email
+E-mail
+@@ fb.discord
+Discord-felhasználónév
+@@ fb.optional
+(nem kötelező)
+@@ fb.err.title
+A címnek legalább 5 karakterből kell állnia.
+@@ fb.err.desc
+A leírásnak legalább 20 karakterből kell állnia.
+@@ fb.err.captcha
+Végezd el a botvédelmi ellenőrzést.
+@@ fb.err.send
+Nem sikerült elküldeni a hibajegyet.
+@@ fb.err.net
+Hálózati hiba.
+@@ fb.sending
+Küldés…
+@@ fb.send
+Hibajegy küldése
+@@ fb.again
+Újabb küldése
+@@ fb.ok.sub
+A hibajegyedet rögzítettük.
+@@ fb.ok.id
+Hibajegy-azonosító
+@@ sim.loading
+A simulakro előkészítése…
+@@ sim.seed
+minden kiindulókód (seed) más vizsgát ad. Mentsd el az URL-t, ha pontosan ezt szeretnéd megismételni (vagy kihívni vele valakit).
+@@ sim.tbl.what
+Mit tartalmaz
+@@ sim.tbl.points
+Pont
+@@ sim.tbl.r1
+1 hanganyag (2 meghallgatás), 4 kérdés
+@@ sim.tbl.r2
+2 szöveg, 6 kérdés
+@@ sim.tbl.r3
+8 feladat + kártyák + 2 párosítás
+@@ sim.tbl.r4
+2 feladat automatikus javítással
+@@ sim.tbl.total
+45-60 perc, szótár nélkül
+@@ sim.note
+Vizsgáztató nélkül nincs mintzamena: a végén olvasd fel hangosan a szövegeket, és vedd fel magad a telefonoddal. És ne feledd: az A1 és az A2 szintet az euskaltegiben folyamatos értékeléssel igazolják — az első nyilvános vizsga a HABE B1-es vizsgája.
+@@ sim.play.playing
+🔊 Lejátszás…
+@@ sim.play.out
+Elfogytak a meghallgatások
+@@ sim.play.hint
+Mint az igazi vizsgán: {0} meghallgatás. Előbb olvasd el a kérdéseket.
+@@ sim.write.points
+5 pont
+@@ sim.write.rubric
+Automatikus javítás — írás közben frissül (ellenőrzésenként 1 pont):
+@@ sim.verdict.title
+Eredmény
+@@ sim.verdict.pending
+Még {0} feladat van hátra. Eddig {1} pontod van ({2} automatikus + {3} írásbeli).
+@@ sim.verdict.ok
+A1 sendoa. Generálj egy újat az alábbi gombbal, és erősítsd meg — ha azt is teljesíted, kezdd el az A2-t még ezen a héten. Komolyan.
+@@ sim.verdict.mid
+Sikerült, de hiányosságokkal — lent pontosan látod, mit kell átismételni. Ismételd át, és generálj egy újabb simulakrot.
+@@ sim.verdict.low
+Semmi gond: nyugodtan ismételd át az alábbi egységeket, és két hét múlva generálj egy újat. A vizsga nem szalad el: csak elhalasztod.
+@@ sim.verdict.units
+Átismétlendő egységek (nyelvtani hibák):
+@@ sim.fail.one
+1 hiba
+@@ sim.fails
+{0} hiba
+@@ sim.verdict.read
+olvasd el újra a szövegeket LASSAN, és keresd meg az egyes válaszok pontos mondatát.
+@@ sim.verdict.listen
+nyisd meg az átiratot, és hallgasd meg újra, ujjaddal követve a szöveget.
+@@ gym.how
+Hogyan működik: hallgasd meg a mondatot anyanyelvi hangon → vedd fel magad, ahogy kimondod → a saját eszközöd ellenőrzi, mely szavakat ismerte fel.
+@@ gym.first
+Első alkalommal: töltsd le a motort (~40 MB, csak egyszer). Azt méri, hogy érthető vagy-e — a finom kiejtés a te dolgod és a füledé 😉. Béta funkció.
+@@ gym.start
+Az edzőterem előkészítése
+@@ gym.load.download
+A motor letöltése (csak egyszer, ~40 MB)…
+@@ gym.load.start
+A motor indítása az eszközödön…
+@@ gym.mirror
+Tükör módban is gyakorolhatsz: hallgasd meg a mintát, és vedd fel magad a telefonod hangjegyzet-alkalmazásával, hogy összehasonlítsd.
+@@ gym.retry
+Újra
+@@ gym.counter
+{0}. mondat / {1}
+@@ gym.ref
+Minta
+@@ gym.rec
+Felvétel
+@@ gym.again
+Még egyszer
+@@ gym.stop
+Leállítás
+@@ gym.analyzing
+Elemzés…
+@@ gym.mine
+Az én hangom
+@@ gym.score
+{0}/{1} szó felismerve
+@@ gym.heard
+Ezt hallotta: «{0}»
+@@ gym.next
+Következő mondat →
+@@ gym.reshuffle
+Újabb 10
+@@ gym.v.all
+Tökéletes! MINDENT megértett.
+@@ gym.v.most
+Nagyon jó — érthető vagy. Csiszolj a megjelölteken, és még egyszer.
+@@ gym.v.some
+Egy része érthető. Hallgasd meg a mintát, és ismételd lassan.
+@@ gym.v.none
+A mikrofon nem kapta el a mondatot — menj közelebb, beszélj tisztán, és próbáld újra.
+@@ gym.err.mic.none
+Ezen az eszközön nem található mikrofon.
+@@ gym.err.mic.denied
+Nincs hozzáférés a mikrofonhoz (a böngészőben megtagadtad az engedélyt).
+@@ gym.err.analyze
+Nem sikerült elemezni: {0}
+@@ gym.err.short
+túl rövid felvétel
+@@ exercise.done
+Megoldva
+@@ exercise.redo
+Újra
+@@ app.title
+Töltsd le az alkalmazást
+@@ site.name
+Baszk
+@@ site.tagline
+Tanulj baszkul, ingyen és mindenkinek.
+@@ site.description
+Ingyenes baszk nyelvtanfolyam a nulláról: teljes A1 és A2 szint, minden lecke baszkul és magyarul, valódi hanggal és feladatokkal. Fiókok és reklámok nélkül.
+@@ hiz.title
+Hiztegia
+@@ hiz.sub
+A tanfolyam szókincse, szóról szóra
+@@ hiz.lead
+Minden a Kaixo leckéiből származik: semmi sincs kitalálva. Béta állapotban van, úgyhogy ha valami nem stimmel, szólj nekünk.
+@@ hiz.usage
+Használat
+@@ hiz.learn
+Tanuld meg szövegkörnyezetben
+@@ hiz.same
+Ugyanabból a leckéből
+@@ hiz.words
+szó
+@@ hiz.noexample
+Ehhez a szóhoz még nincs megírt példamondatunk. Nem fogunk kitalálni egyet.
+@@ hiz.themes
+Témák
+@@ hiz.az
+Minden szó
+@@ hiz.lesson
+Ez a lecke tanítja
+@@ nav.home
+Kezdőlap
+@@ nav.levels
+Szintek
+@@ nav.about
+Rólunk
+@@ nav.language
+Nyelv
+@@ nav.progress
+Haladás
+@@ home.hero.title
+Tanulj baszkul
+@@ home.hero.sub
+Ingyenes · Bejelentkezés nélkül · Mindenkinek
+@@ home.cta.start
+Kezdés az A1-gyel
+@@ levels.upcoming
+Hamarosan
+@@ unit.lessons
+Leckék
+@@ unit.estimated
+Becsült idő
+@@ lesson.next
+Következő
+@@ lesson.prev
+Előző
+@@ lesson.completed
+Lecke kész
+@@ lesson.read
+Elolvasva
+@@ progress.streak.days
+nap egymás után
+@@ progress.summary.lessons
+elkezdett lecke
+@@ progress.summary.record
+rekord
+@@ progress.export.title
+Haladásom mentése
+@@ progress.export.copy
+Másolás a vágólapra
+@@ progress.export.download
+Fájl letöltése
+@@ progress.export.share
+Megosztás
+@@ progress.export.help
+Illeszd be a jegyzeteid közé, vagy küldd el magadnak. Ha egy másik eszközön folytatod, illeszd be a „Haladás visszaállítása” mezőbe, és ott folytathatod, ahol abbahagytad.
+@@ progress.import.title
+Haladás visszaállítása
+@@ progress.import.do
+Importálás
+@@ progress.import.invalid
+Nem ismerem fel ezt a kódot. Teljesen kimásoltad?
+@@ progress.import.overwrite
+Ez felülírja a jelenlegi haladásodat. Folytatod?
+@@ progress.import.outdated
+Ez a kód egy újabb verzióból származik. Frissítsd az oldalt.
+@@ progress.import.skipped
+Visszaállítva. Néhány lecke már nem létezik, ezeket kihagytuk.
+@@ guest.banner
+Vendég mód: a haladásod csak ebben a munkamenetben marad meg. Bezárás előtt exportáld.
+@@ lang.choose
+Válassz nyelvet
+@@ lang.beta
+Béta
+@@ lang.upcoming
+Hamarosan · segíts nekünk a GitHubon
+@@ lang.help-translate
+Beszéled ezt a nyelvet? Segíts lefordítani
+@@ about.title
+A projektről
+@@ beta.banner
+Ez a fordítás béta állapotú: előfordulhatnak lefordítatlan mondatok vagy elírások.
+@@ beta.report
+Jelezd a Visszajelzésben
+@@ common.cancel
+Mégse
+@@ common.continue
+Tovább
+@@ common.close
+Bezárás
+@@ common.copy
+Másolás
+@@ common.download
+Letöltés
+@@ common.check
+Ellenőrzés
+@@ common.skip
+Kihagyás
+@@ common.skip-content
+Ugrás a tartalomra
+@@ exercise.correct
+Helyes!
+@@ exercise.was
+A helyes válasz:
+@@ exercise.match.help
+Párosítsd minden szót a fordításával.
+@@ exercise.match.mistakes
+Hibák: {0}
+@@ exercise.flash.counter
+{0}. kártya / {1}
+@@ exercise.flash.reveal
+(koppints a fordításért)
+@@ exercise.flash.hide
+(koppints az elrejtéshez)
+@@ exercise.flash.learning
+Tanulom
+@@ exercise.flash.known
+Tudtam
+@@ exercise.flash.round
+Kör vége: {0}/{1} kártyát tudtál.
+@@ sources.statement
+A tanterv a baszk nyelv A1–C2 szintjeire vonatkozó hivatalos KER-szabványokat követi. A magyarázatok, példák és feladatok eredeti anyagok. A szókincs és a nyelvtani szabályok közkincsnek számító nyelvi tények.

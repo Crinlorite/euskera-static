@@ -1,0 +1,140 @@
+@@ title
+Lugares del pueblo
+@@ x0.pair1
+panadería
+@@ x1.prompt
+Necesitas comprar pan. ¿A qué tipo de tienda vas?
+@@ x1.explanation
+"Okindegia" es la panadería. "Oki(n)" se relaciona con "ogi" (pan) — el lugar del pan.
+@@ x2.prompt
+"Osasun-etxea" es…
+@@ x2.explanation
+"Osasun" significa "salud" y "etxe(a)" es "casa": literalmente "casa de la salud" = ambulatorio o centro de salud.
+@@ x2.opt0
+el ayuntamiento
+@@ x2.opt1
+el centro de salud
+@@ x2.opt2
+la oficina de correos
+@@ x2.opt3
+la peluquería
+@@ x3.prompt
+Voy a sacar dinero, voy al banco = ___ noa.
+@@ x3.explanation
+"Banketxe" (banco) + sufijo -ra de dirección = banketxera, "al banco".
+@@ x4.card0
+bar
+@@ x4.card1
+cafetería
+@@ x4.card2
+restaurante
+@@ x4.card3
+panadería
+@@ x4.card4
+carnicería
+@@ x4.card5
+pescadería
+@@ x4.card6
+frutería
+@@ x4.card7
+farmacia
+@@ x4.card8
+mercado
+@@ x4.card9
+supermercado
+@@ x4.card10
+banco
+@@ x4.card11
+cajero automático
+@@ x4.card12
+biblioteca
+@@ x4.card13
+librería
+@@ x4.card14
+peluquería
+@@ x4.card15
+oficina de correos
+@@ x4.card16
+ayuntamiento
+@@ x4.card17
+centro de salud
+@@ x4.card18
+hospital
+@@ x4.card19
+iglesia
+@@ x4.card20
+escuela
+@@ x4.card21
+escuela de euskera
+@@ x4.card22
+polideportivo
+@@ x4.card23
+parque
+@@ x4.card24
+parada de autobús
+@@ x4.card25
+estación de tren
+@@ x4.card26
+gasolinera
+@@ body
+
+Antes de saber dar indicaciones, necesitas el vocabulario básico para hablar del barrio (**auzoa**) y del pueblo (**herria**). En esta lección reunimos los lugares y servicios más típicos.
+
+## Tiendas y comercio
+
+| Euskera | Castellano |
+|---|---|
+| *taberna* | bar |
+| *kafetegia* | cafetería |
+| *jatetxea* | restaurante |
+| *okindegia* | panadería |
+| *harategia* | carnicería |
+| *arrandegia* | pescadería |
+| *fruta-denda* | frutería |
+| *gozoki-denda* | tienda de chuches |
+| *merkatua* / *supermerkatua* | mercado / supermercado |
+| *jantzi-denda* | tienda de ropa |
+| *liburu-denda* | librería |
+| *loradenda* | floristería |
+
+> Muchas palabras siguen el patrón **producto + denda** ("tienda de…"): *fruta-denda*, *liburu-denda*, *jantzi-denda*. Si conoces el producto, sabes el lugar.
+
+## Servicios
+
+| Euskera | Castellano |
+|---|---|
+| *banketxea* / *aurrezki-kutxa* | banco / caja de ahorros |
+| *kutxazain automatikoa* | cajero automático |
+| *postetxea* | oficina de correos |
+| *udaletxea* | ayuntamiento |
+| *osasun-etxea* | centro de salud |
+| *ospitalea* | hospital |
+| *botika* / *farmazia* | farmacia |
+| *ile-apaindegia* | peluquería |
+| *liburutegia* | biblioteca |
+| *eskola* / *ikastola* | escuela |
+| *euskaltegia* | escuela de euskera |
+| *eliza* | iglesia |
+| *kiroldegia* | polideportivo |
+| *parkea* | parque |
+
+## Transporte y comunicación
+
+| Euskera | Castellano |
+|---|---|
+| *autobus-geltokia* | parada de autobús |
+| *tren-geltokia* | estación de tren |
+| *aireportua* | aeropuerto |
+| *gasolindegia* | gasolinera |
+| *aparkalekua* | aparcamiento |
+
+## El sufijo -tegi y compañía
+
+Fíjate en estos sufijos productivos: aparecen una y otra vez.
+
+- **-tegi** → lugar donde algo: *euskal·tegi* (lugar del euskera), *ile-apain·degi* (lugar de arreglar el pelo), *liburu·tegi* (lugar de los libros).
+- **-degi / -tegi** → variante con la misma idea: *gasolin·degi*, *okin·degi*.
+- **-etxe** ("casa") → *udal·etxe* (casa del concejo), *osasun·etxe* (casa de la salud), *jatetxe* (lugar de comer).
+
+> **Nota cultural:** en muchos barrios y pueblos vascos la **taberna** y la **plaza** son los puntos de reunión por excelencia, y el **frontoia** (frontón) suele estar al lado de la iglesia. Un *euskaltegi* es justamente la escuela donde estás aprendiendo este idioma.
+

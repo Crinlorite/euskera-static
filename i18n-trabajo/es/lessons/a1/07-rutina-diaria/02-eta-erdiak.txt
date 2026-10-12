@@ -1,0 +1,111 @@
+@@ title
+Y media, y cuarto, menos (eta erdiak, eta laurden, gutxi)
+@@ x0.prompt
+Son las cinco y media. ¿Cómo lo dices en euskera?
+@@ x0.explanation
+Para "y media" se usa "eta erdiak" (literalmente "y medias", también plural). El número va sin "-ak" antes de "eta erdiak": "bost eta erdiak".
+@@ x1.prompt
+Son las tres y cuarto. ¿Cómo lo dices?
+@@ x1.explanation
+"Eta laurden" significa "y cuarto"; la hora va en plural ("hirurak"): *Hirurak eta laurden dira*.
+@@ x2.prompt
+Son las nueve menos cuarto. ¿Cómo lo dices?
+@@ x2.explanation
+En euskera "menos" se dice "gutxi" y va detrás. Literal: "las nueves cuarto menos".
+@@ x3.prompt
+Son las siete y cinco = Zazpiak eta ___ dira.
+@@ x3.explanation
+Los minutos pasados se dicen con "eta + número". Cinco = bost.
+@@ x4.prompt
+Son las cuatro menos diez = Laurak hamar ___ dira.
+@@ x4.explanation
+"Gutxi" significa "menos" en expresiones de hora.
+@@ x5.card0
+y media (3:30 = hiru eta erdiak)
+@@ x5.card1
+y cuarto (3:15 = hirurak eta laurden)
+@@ x5.card2
+menos cuarto (2:45 = hirurak laurden gutxi)
+@@ x5.card3
+menos (en expresiones de hora)
+@@ x5.card4
+Son las cinco y media
+@@ x5.card5
+Son las tres y cuarto
+@@ x5.card6
+Son las nueve menos cuarto
+@@ x5.card7
+Son las diez y diez
+@@ x5.card8
+Son las ocho menos diez
+@@ x5.card9
+Son las seis y media
+@@ body
+
+Para los minutos en euskera hay tres construcciones que dominan casi todo: **eta erdiak** (y media), **eta laurden** (y cuarto) y **gutxi** (menos). El truco está en saber dónde se coloca cada cosa.
+
+## "Y media" — el caso especial
+
+A diferencia del resto, "y media" hace que la hora también se diga en plural — y la palabra "media" también:
+
+| Hora | Euskera |
+|---|---|
+| 1:30 | **Ordu bat eta erdiak dira** |
+| 2:30 | **Ordu bi eta erdiak dira** |
+| 3:30 | **Hiru eta erdiak dira** |
+| 4:30 | **Lau eta erdiak dira** |
+| 5:30 | **Bost eta erdiak dira** |
+| 7:30 | **Zazpi eta erdiak dira** |
+
+> Fíjate: con *eta erdiak* el número va **sin el -ak** delante (*bost*, no *bostak*), porque el plural ya lo lleva *erdiak*.
+
+## "Y cuarto" y minutos pasados
+
+Cuando han pasado minutos de la hora exacta usas la fórmula **HORA-ak eta MINUTOS**:
+
+| Hora | Euskera |
+|---|---|
+| 3:05 | **Hirurak eta bost dira** |
+| 4:10 | **Laurak eta hamar dira** |
+| 5:15 | **Bostak eta laurden dira** |
+| 6:20 | **Seiak eta hogei dira** |
+| 7:25 | **Zazpiak eta hogeita bost dira** |
+
+**Laurden** significa "cuarto", así que **eta laurden** = "y cuarto".
+
+## "Menos" — gutxi va detrás
+
+A partir de la media en adelante, hablamos en función de la hora siguiente con la palabra **gutxi** ("menos"). El orden es: **HORA-ak + MINUTOS + gutxi**.
+
+| Hora | Euskera |
+|---|---|
+| 6:35 | **Zazpiak hogeita bost gutxi dira** |
+| 7:40 | **Zortziak hogei gutxi dira** |
+| 8:45 | **Bederatziak laurden gutxi dira** |
+| 9:50 | **Hamarrak hamar gutxi dira** |
+| 10:55 | **Hamaikak bost gutxi dira** |
+
+> Si vienes del castellano, lo más raro es que **gutxi** vaya **detrás** del número, no delante. *Bederatziak laurden gutxi* literalmente es "las nueves cuarto menos".
+
+## Tabla resumen
+
+| Concepto | Palabra clave | Posición |
+|---|---|---|
+| y media | *eta erdiak* | después de la hora; va con el número sin -ak |
+| y cuarto | *eta laurden* | después de la hora con -ak |
+| y X minutos | *eta + número* | después de la hora con -ak |
+| menos cuarto | *laurden gutxi* | después de la hora siguiente con -ak |
+| menos X minutos | *número + gutxi* | después de la hora siguiente con -ak |
+
+## Ejemplo conversacional
+
+> *— Zer ordu da?*
+>
+> *— **Zazpiak eta laurden dira.*** (Son las siete y cuarto.)
+>
+> *— Eta orain?*
+>
+> *— **Zortziak laurden gutxi dira.*** (Son las ocho menos cuarto.)
+
+> **Nota cultural:** en muchos pueblos vascos las campanas de la iglesia siguen marcando las horas y los cuartos. Si te paras a escucharlas, tu oído se acostumbra al patrón antes de que tu boca lo automatice.
+

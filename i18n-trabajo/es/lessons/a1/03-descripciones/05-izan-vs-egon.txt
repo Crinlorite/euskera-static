@@ -1,0 +1,96 @@
+@@ title
+Izan vs egon (cualidad vs estado)
+@@ x0.prompt
+Para decir "Maialen es alegre (en general, así es ella)" usamos…
+@@ x0.explanation
+Cualidad estable → *izan* + adjetivo con `-a`.
+@@ x1.prompt
+Para decir "Hoy Maialen está alegre / contenta (es un estado)" usamos…
+@@ x1.explanation
+Estado pasajero → *egon* + palabra sin `-a`. *pozik* es la opción natural.
+@@ x2.prompt
+Mi padre es nervioso (es así) = Nire aita urduria ___.
+@@ x2.explanation
+Cualidad → *izan*: *da*.
+@@ x3.prompt
+Hoy mi padre está nervioso (estado de hoy) = Gaur nire aita urduri ___.
+@@ x3.explanation
+Estado pasajero → *egon*: *dago*. Y nota cómo el adjetivo pierde la `-a`.
+@@ x4.prompt
+Estamos cansados = Nekatuta ___.
+@@ x4.explanation
+Forma de *egon* para "nosotros" = *gaude*.
+@@ x5.card0
+¿Cómo eres? (cualidad)
+@@ x5.card1
+¿Cómo estás? (estado)
+@@ x5.card2
+soy alegre (siempre)
+@@ x5.card3
+estoy contenta (ahora)
+@@ x5.card4
+es tranquilo (carácter)
+@@ x5.card5
+está tranquilo (en este momento)
+@@ x5.card6
+soy nerviosa (carácter)
+@@ x5.card7
+estoy nerviosa (ahora)
+@@ x5.card8
+es joven
+@@ x5.card9
+está cansado
+@@ x6.pair0
+es alegre (siempre)
+@@ x6.pair1
+está contento (ahora)
+@@ x6.pair2
+soy nerviosa (carácter)
+@@ x6.pair4
+es bueno (cualidad)
+@@ x6.pair5
+está bien (estado)
+@@ body
+
+Esta es probablemente la distinción más resbaladiza del A1 en euskera. Como en castellano "ser" vs "estar", pero con dos diferencias importantes: **(1) los adjetivos cambian de forma** y **(2) algunas palabras solo se usan con uno de los dos verbos**.
+
+## La regla en una línea
+
+| Cuando hablas de… | Verbo | Adjetivo lleva `-a` |
+|---|---|---|
+| **Cómo es alguien siempre** (cualidad, descripción) | **izan** | sí (*alaia*, *altua*) |
+| **Cómo está ahora** (estado, momento) | **egon** | no (*pozik*, *nekatuta*) |
+
+## Ejemplos en pares
+
+Mira cómo cambia la palabra elegida según hables de cualidad o de estado:
+
+| Cualidad (izan) | Estado (egon) |
+|---|---|
+| *Alaia da.* (Es alegre, así es) | *Pozik dago.* (Está contenta) |
+| *Urduria naiz.* (Soy nerviosa de carácter) | *Urduri nago.* (Estoy nerviosa hoy) |
+| *Lasaia da.* (Es tranquilo) | *Lasai dago.* (Está tranquilo ahora) |
+| *Ona da.* (Es buena persona) | *Ondo dago.* (Está bien) |
+| *Gaixoa da.* (Es enfermizo) | *Gaixorik dago.* (Está enfermo) |
+
+> Ojo: **alaia** y **pozik** se traducen los dos por "alegre/contento", pero no son intercambiables. *Alaia* describe el carácter; *pozik* el estado de ánimo de un momento.
+
+## Trucos para acertar
+
+1. **¿Le pasa hoy o es así siempre?** Si es de un momento puntual → *egon*. Si es su manera de ser → *izan*.
+2. **¿La palabra termina en `-ik`, `-ta`, o es un adverbio (`ondo`, `gaizki`)?** Casi siempre va con *egon*.
+3. **¿Estoy describiendo un rasgo físico permanente (alto, gordo, joven)?** Va con *izan* + `-a`.
+
+## Casos típicos de A1
+
+- *Ni langilea naiz, baina gaur nekatuta nago.* — Soy trabajadora, pero hoy estoy cansada.
+- *Egoitz oso jatorra da, baina haserre dago.* — Egoitz es muy majo, pero está enfadado.
+- *Maialenen ama gaztea da. Pozik dago, gaur urtebetetzea da eta.* — La madre de Maialen es joven. Está contenta porque hoy es su cumpleaños.
+
+## Pregunta correctamente
+
+- **Nolakoa zara?** → describe tu carácter / físico (uso *izan*).
+- **Nola zaude?** o **Zer moduz?** → cuenta cómo estás hoy (uso *egon*).
+
+> **Nota:** en castellano se diría "soy nervioso" o "estoy nervioso" sin cambiar la palabra. En euskera la palabra cambia (*urduria* vs *urduri*). Al principio cuesta; con la práctica diaria sale solo. Si dudas en una conversación real, una salida segura es usar *egon* con una palabra invariable: *haserre nago*, *triste nago*, *nekatuta nago* — siempre funcionan.
+
