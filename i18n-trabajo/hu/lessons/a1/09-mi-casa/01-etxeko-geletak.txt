@@ -1,0 +1,117 @@
+@@ title
+A lakás helyiségei
+@@ x0.pair0
+konyha
+@@ x0.pair1
+hálószoba
+@@ x0.pair2
+fürdőszoba
+@@ x0.pair3
+nappali
+@@ x0.pair4
+előszoba, bejárat
+@@ x0.pair5
+folyosó
+@@ x1.prompt
+Le akarsz zuhanyozni. Melyik helyiségbe mész?
+@@ x1.explanation
+A "Komuna" a fürdőszoba (a zuhanyzós, mosdós helyiség).
+@@ x2.prompt
+Az "Egongela" jelentése...
+@@ x2.explanation
+Az "Egongela" az "egon" (lenni, tartózkodni) + "gela" (szoba) szavakból áll — a szoba, ahol tartózkodunk, a nappali.
+@@ x2.opt0
+a hálószoba
+@@ x2.opt1
+a konyha
+@@ x2.opt2
+a nappali
+@@ x2.opt3
+a terasz
+@@ x3.prompt
+A ___ alszunk (magyarul: hálószoba).
+@@ x3.explanation
+"Logela" = "lo" (alvás) + "gela" (szoba).
+@@ x4.card0
+a ház
+@@ x4.card1
+a lakás
+@@ x4.card2
+szoba, helyiség
+@@ x4.card3
+konyha
+@@ x4.card4
+hálószoba
+@@ x4.card5
+fürdőszoba
+@@ x4.card6
+nappali
+@@ x4.card7
+előszoba, bejárat
+@@ x4.card8
+folyosó
+@@ x4.card9
+erkély
+@@ x4.card10
+terasz
+@@ x4.card11
+lift
+@@ x4.card12
+emelet (az épület szintje)
+@@ x4.card13
+Hány hálószoba van benne?
+@@ x4.card14
+Hol van a konyha?
+@@ body
+
+A lakás legalapvetőbb részével kezdjük: a **helyiségekkel**. A "szoba / helyiség" általános szava a **gela**, és a helyiségek nevének nagy része egy tő és a `-gela` összekapcsolásával jön létre.
+
+## Alapszókincs
+
+| Euskera | Magyar |
+|---|---|
+| *etxea* | a ház |
+| *pisua* | a lakás (társasházban) |
+| *gela* | szoba / helyiség |
+| *sukaldea* | konyha |
+| *logela* | hálószoba |
+| *komuna* | fürdőszoba |
+| *egongela* | nappali |
+| *sarrera* | előszoba, bejárat |
+| *korridorea* / *pasabidea* | folyosó |
+| *balkoia* | erkély |
+| *terraza* | terasz |
+
+## Hogyan jönnek létre egyes nevek
+
+A baszk ezeknél a szavaknál nagyon átlátható. Ha megnézed, miből állnak, könnyebben megjegyzed őket:
+
+- **logela** → *lo* (alvás) + *gela* (szoba) = "az alvás szobája" → hálószoba
+- **egongela** → *egon* (tartózkodni) + *gela* = "tartózkodó szoba" → nappali
+- **sukaldea** → *su* (tűz) + *aldea* (rész, terület) = "a tűz helye" → konyha
+
+> A **Komuna** és a **bainugela** szinonimák: a *komuna* a hétköznapi szó, a *bainugela* (szó szerint "fürdőszoba") valamivel választékosabb.
+
+## Épület: emelet és lift
+
+| Euskera | Magyar |
+|---|---|
+| *solairua* | emelet (1., 2.…) |
+| *igogailua* | lift |
+| *eskailera* | lépcső |
+| *ataria* | kapualj, bejárat |
+
+Ha meg akarod mondani, hányadik emeleten laksz:
+
+- *Hirugarren solairuan bizi naiz.* — A harmadik emeleten lakom.
+- *Etxeak igogailua du.* — A házban van lift.
+
+## Hasznos kérdések
+
+- **Zenbat gela ditu zure etxeak?** — Hány szoba van a lakásodban?
+- **Zenbat logela ditu?** — Hány hálószoba van benne?
+- **Non dago sukaldea?** — Hol van a konyha?
+- **Etxeak badu balkoirik?** — Van a lakásnak erkélye?
+
+> **Kulturális megjegyzés:** Navarrában és a baszk–kasztíliai határvidéken gyakori, hogy a városi lakásra a *pisua*, a családi házra/falusi házra az *etxea* szót mondják. A hétköznapokban gond nélkül keverednek.
+
