@@ -1,0 +1,143 @@
+@@ title
+Aditz trinkoak iraganean — szintetikus igék múlt időben
+@@ x0.prompt
+A "Lanera nindoan goizeko zortzietan" jelentése…
+@@ x0.explanation
+A *Nindoan* a *joan* szintetikus folyamatos múltja: a múltban zajló vagy szokásos cselekvést ír le, nem egyszeri, lezárt eseményt.
+@@ x0.opt0
+Reggel nyolckor megyek munkába
+@@ x0.opt1
+Reggel nyolckor jövök majd munkába
+@@ x0.opt2
+Reggel nyolckor elmentem munkába (egyszeri)
+@@ x0.opt3
+Reggel nyolckor jártam munkába (szokás / folyamat)
+@@ x1.prompt
+Melyik az "etorri" szintetikus múlt ideje az "én" személyhez?
+@@ x1.explanation
+*Nentorren* = jöttem (éppen, folyamatban). Jelen idejű párja a *nator* (jövök).
+@@ x2.prompt
+Garazi a hegyekben járt (sétált) = Garazi mendian ___ .
+@@ x2.explanation
+*Zebilen* = az *ibili* szintetikus múlt ideje a *hura* személyhez.
+@@ x3.card0
+mentem (éppen; én)
+@@ x3.card1
+mentél (te)
+@@ x3.card2
+ment (ő)
+@@ x3.card3
+mentünk
+@@ x3.card4
+mentek (ők)
+@@ x3.card5
+jöttem (éppen; én)
+@@ x3.card6
+jöttél
+@@ x3.card7
+jött (ő)
+@@ x3.card8
+jöttünk
+@@ x3.card9
+jöttek
+@@ x3.card10
+jártam (én)
+@@ x3.card11
+járt (ő)
+@@ x3.card12
+jártak
+@@ x4.pair0
+mentem (folyamatban)
+@@ x4.pair1
+jöttem (folyamatban)
+@@ x4.pair2
+jártam
+@@ x4.pair3
+nekem volt
+@@ x4.pair4
+tudtam
+@@ x4.pair5
+voltam (valahol)
+@@ body
+
+A **szintetikus igék** (*aditz trinkoak*) azok a kevés baszk igék, amelyeket **segédige nélkül**, egyetlen szóban ragoznak. Jelen idejű alakjaikat már ismered: *noa, nator, nabil, daukat, dakit, nago*. Múlt időben párhuzamos alakjaik vannak, amelyeket érdemes felismerni, a leggyakoribbakat pedig használni is.
+
+## Vizuális összefoglaló
+
+A hat legfontosabb szintetikus ige múlt ideje első és harmadik személyben:
+
+| Ige | Jelen (én) | Múlt (én) | Múlt (ő) |
+|---|---|---|---|
+| *joan* (menni) | noa | **nindoan** | **zihoan** |
+| *etorri* (jönni) | nator | **nentorren** | **zetorren** |
+| *ibili* (járni) | nabil | **nenbilen** | **zebilen** |
+| *egon* (lenni valahol/valahogy) | nago | **nengoen** | **zegoen** |
+| *eduki* (birtokolni) | daukat | **neukan** | **zeukan** |
+| *jakin* (tudni) | dakit | **nekien** | **zekien** |
+
+> Ami közös bennük: **n-** (én) vagy **z-** (harmadik személy, udvarias te vagy ti) betűvel kezdődnek, és **-en**-re végződnek. Ez a szintetikus múlt idő általános mintája.
+
+## *Joan* (menni) — teljes múlt idő
+
+| Névmás | Alak | Magyar |
+|---|---|---|
+| ni | **nindoan** | mentem (éppen, folyamatban) |
+| zu | **zindoazen** | mentél |
+| hura | **zihoan** | ment |
+| gu | **gindoazen** | mentünk |
+| zuek | **zindoazten** | mentetek |
+| haiek | **zihoazen** | mentek |
+
+> *Egunero zortzietan lanera **nindoan**.* — Minden nap nyolckor jártam munkába.
+
+## *Etorri* (jönni)
+
+| Névmás | Alak | Magyar |
+|---|---|---|
+| ni | **nentorren** | jöttem (éppen) |
+| zu | **zentozen** | jöttél |
+| hura | **zetorren** | jött |
+| gu | **gentozen** | jöttünk |
+| zuek | **zentozten** | jöttetek |
+| haiek | **zetozen** | jöttek |
+
+> *Lagunak Donostiatik **zetozen**.* — A barátok Donostiából jöttek (éppen úton voltak).
+
+## *Ibili* (járni)
+
+| Névmás | Alak | Magyar |
+|---|---|---|
+| ni | **nenbilen** | jártam |
+| hura | **zebilen** | járt |
+| gu | **genbiltzan** | jártunk |
+| haiek | **zebiltzan** | jártak |
+
+> *Garazi mendian **zebilen** lagunekin.* — Garazi a barátaival a hegyekben járt.
+
+## Mikor használom a *nindoan*, és mikor a *joan nintzen* alakot?
+
+Ez a kulcskérdés. Nagyjából:
+
+| Alak | A múlt típusa | Példa |
+|---|---|---|
+| **Joan nintzen** (analitikus + partizipio) | Egyszeri, lezárt, befejezett esemény | *Atzo Bilbora **joan nintzen** zortzietan.* (= tegnap elmentem Bilbaóba) |
+| **Nindoan** (szintetikus) | Folyamatban lévő cselekvés, szokás, múltbeli leírás | *Bilborantz **nindoan**, ezagun bat ikusi nuenean.* (= éppen Bilbao felé tartottam, amikor megláttam egy ismerőst) |
+
+> **Gyors szabály:** a szintetikus alak (*nindoan, nentorren, nenbilen*) a múlt **jelenetét** írja le. A partizipiós alak (*joan nintzen, etorri nintzen*) a múlt **eseményét** meséli el. A magyarban ezt gyakran igekötővel érzékeltetjük: "mentem / éppen mentem" kontra "elmentem".
+
+## NOR-NORK szintetikus igék: *neukan*, *nekien*
+
+Ezt a kettőt az előző leckéből idézzük fel, mert ők is a trinkoak családjába tartoznak:
+
+> *Egoitzek bizikleta gorri bat **zeukan**.* — Egoitznak piros biciklije volt.
+>
+> *Inork ez **zekien** zergatik etorri zen.* — Senki sem tudta, miért jött.
+
+Más NOR-NORK szintetikus igék (*ekarri/zekarren*, *eraman/zeraman*) ritkábban fordulnak elő a hétköznapi A2-ben; elég felismerni őket.
+
+## Mini-szöveg
+
+> *Umea nintzenean, oporretan beti aiton-amonen baserrira **nindoan**. Han **nengoen** astebete edo bi. Goizean, lehengusuak **etorri ohi ziren** eta egun osoa elkarrekin **igarotzen genuen**: txakurrarekin mendi inguruan **genbiltzan**, sagastian sagarrak **biltzen genituen** eta amonak gosari ederra **prestatzen zigun**. Pozik **nengoen** beti.*
+
+> **Pedagógiai megjegyzés:** az A2 szinten nem kell minden szintetikus alakot uralnod. Az a fontos, hogy **felismerd** őket, amikor előfordulnak, és legalább ezeket használni tudd: *nengoen, zegoen, neukan, zeukan, nekien, zekien, nindoan, zihoan, nenbilen, zebilen*. A többi az olvasással rögzül majd.
+
