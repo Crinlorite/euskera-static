@@ -1,0 +1,115 @@
+@@ title
+A nap étkezései (otorduak)
+@@ x0.prompt
+A "Bazkaria" jelentése…
+@@ x0.explanation
+A *bazkaria* a déli főétkezés.
+@@ x0.opt0
+a reggeli
+@@ x0.opt1
+az ebéd
+@@ x0.opt2
+az uzsonna
+@@ x0.opt3
+a vacsora
+@@ x1.prompt
+Hogy mondják "a délelőtti tízórai" (a 11 órai szünet)?
+@@ x1.explanation
+A *hamaiketakoa* (szó szerint: "a tizenegy órai") ez a délelőtti tízórai, nagyon baszk szokás.
+@@ x2.prompt
+Enni (ige) = ___.
+@@ x2.explanation
+*jan* = enni. A főnévi igenév alapalakja.
+@@ x3.prompt
+Inni (ige) = ___.
+@@ x3.explanation
+*edan* = inni.
+@@ x4.card0
+a reggeli
+@@ x4.card1
+a délelőtti tízórai
+@@ x4.card2
+az ebéd
+@@ x4.card3
+az uzsonna
+@@ x4.card4
+a vacsora
+@@ x4.card5
+az étkezés (általában)
+@@ x4.card6
+enni
+@@ x4.card7
+inni
+@@ x4.card8
+reggelizni
+@@ x4.card9
+ebédelni
+@@ x4.card10
+vacsorázni
+@@ x4.card11
+éhes vagyok
+@@ x4.card12
+szomjas vagyok
+@@ x5.pair0
+reggeli
+@@ x5.pair1
+délelőtti tízórai
+@@ x5.pair2
+ebéd
+@@ x5.pair3
+uzsonna
+@@ x5.pair4
+vacsora
+@@ x5.pair5
+enni
+@@ x5.pair6
+inni
+@@ body
+
+A nap minden étkezésének saját neve van baszkul, és ha ismered őket, könnyebben beszélsz a napi rutinodról. Van ráadásul egy kifejezetten baszk étkezés, amelynek nincs pontos megfelelője: a **hamaiketako**.
+
+## A nap öt étkezése
+
+| Euskera | Magyar | Mikor |
+|---|---|---|
+| *gosaria* | reggeli | reggel |
+| *hamaiketakoa* | délelőtti tízórai | 11 óra körül |
+| *bazkaria* | ebéd (a főétkezés) | 13-14 óra |
+| *askaria* | uzsonna | délután |
+| *afaria* | vacsora | este |
+
+> A **hamaiketakoa** szó szerint "a tizenegy órai" (*hamaika* = tizenegy). Ez a jellegzetes baszk délelőtti szünet: egy *pintxo*, egy kávé vagy egy *zurito* valamivel. Nem kiadós reggeli és nem is főétkezés; valami a kettő között, amit az utcán, a tabernában, a munkatársakkal vagy a baráti társasággal fogyasztanak.
+
+## Igék: jan, edan és a külön igék
+
+| Euskera | Magyar |
+|---|---|
+| *jan* | enni (általában) |
+| *edan* | inni |
+| *gosaldu* | reggelizni |
+| *bazkaldu* | ebédelni |
+| *afaldu* | vacsorázni |
+
+> Minden étkezéshez külön ige tartozik (akárcsak a magyarban: "reggelizni / ebédelni / vacsorázni"). Az A1 szinten inkább felismered, mint ragozod őket — egyelőre elég tudni, hogy léteznek.
+
+## Éhség és szomjúság
+
+Az "éhes vagyok" / "szomjas vagyok" kifejezéséhez a baszk — a magyarhoz hasonlóan — a "lenni" igét, az **izan** igét használja (több nyelv, például a spanyol vagy a francia, itt a "birtokolni" igét használná):
+
+- **Gose naiz.** — Éhes vagyok.
+- **Egarri naiz.** — Szomjas vagyok.
+- **Maialen gose da.** — Maialen éhes.
+- **Gu egarri gara.** — Szomjasak vagyunk.
+
+> A baszkban az olyan testi érzeteket, mint az éhség, a szomjúság vagy az álmosság, gyakran *izan* + melléknév szerkezettel fejezik ki, mintha egy létállapotról lenne szó. Ugyanezt látod majd a *logura naiz* (álmos vagyok) kifejezésben. Vigyázat: a "fázom" nem követi ezt a mintát — úgy mondják, *hotzak nago*, az *egon* igével.
+
+## Tipikus mondatok
+
+- *Goizean gosaria hartzen dut.* — Reggel reggelizem (szó szerint: "elfogyasztom a reggelit").
+- *Hamaiketakoa egiten dugu lankideekin.* — A munkatársakkal megtartjuk a *hamaiketako*-t.
+- *Etxean bazkaltzen dut.* — Otthon ebédelek.
+- *Afari ona prestatu dugu.* — Finom vacsorát készítettünk.
+- *Gose naiz, zer dago jateko?* — Éhes vagyok, mi van ennivaló?
+
+> **Kulturális megjegyzés:** Euskal Herriában az étkezések időpontjai hasonlóak a félsziget többi részéhez: korai reggeli, *hamaiketako* tizenegy körül, *bazkaria* 14-15 óra körül, uzsonna 18 óra körül, vacsora 21 órakor vagy később.
+

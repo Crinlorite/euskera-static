@@ -1,0 +1,136 @@
+@@ title
+Pintxoa, ogitartekoa eta plater konbinatua
+@@ x0.prompt
+Az "Ogitarteko" jelentése…
+@@ x0.explanation
+Az *ogitartekoa* az *ogi* (kenyér) + *arte* (között) szavakból jön: "ami a két kenyér között van" — a szendvics.
+@@ x1.prompt
+Egy tortillás pintxót szeretnél. Hogyan rendeled meg?
+@@ x1.explanation
+A "Pintxo bat" elveszíti az `-a` végződést a *bat* mellett; a jelző (*tortilla*) elöl áll.
+@@ x2.prompt
+"Vegyes tál" (spanyolul "Plato combinado") baszkul = ___ ___.
+@@ x2.explanation
+*plater konbinatua* — pontosan úgy, mint spanyolul, különösebb átalakítás nélkül.
+@@ x3.prompt
+Nekem egy adag sajtot = Niretzat ___ ___.
+@@ x3.explanation
+*razioa* = adag; a *bat* mellett elveszíti az `-a` végződést. A "gazta razioa" (az adag sajt) alak is helyes.
+@@ x4.card0
+pintxo (kis falatka)
+@@ x4.card1
+szendvics (bagett)
+@@ x4.card2
+vegyes tál
+@@ x4.card3
+adag (megosztásra)
+@@ x4.card4
+tortillás pintxo
+@@ x4.card5
+gilda (jellegzetes nyárson falat)
+@@ x4.card6
+tortillás szendvics
+@@ x4.card7
+sajtos szendvics
+@@ x4.card8
+sonkás szendvics
+@@ x4.card9
+chorizo (fűszeres kolbász)
+@@ x4.card10
+txistorra (vékony kolbász)
+@@ x4.card11
+szardella
+@@ x4.card12
+Nekem egy pintxót
+@@ x4.card13
+Kérünk egy adagot
+@@ x5.pair0
+pintxo
+@@ x5.pair1
+szendvics
+@@ x5.pair2
+vegyes tál
+@@ x5.pair3
+adag
+@@ x5.pair4
+chorizo
+@@ x5.pair5
+txistorra
+@@ x5.pair6
+sajt
+@@ x5.pair7
+tortilla
+@@ body
+
+A baszk bárkultúra három fő forma körül forog: a **pintxo** (kicsi, a pultról), az **ogitarteko** (szendvics) és a **plater konbinatua** (vegyes tál). Ha tudod, hogyan kérj különféle változatokat, bárhol tudsz enni.
+
+## A három forma
+
+| Euskera | Magyar | Méret |
+|---|---|---|
+| *pintxoa* | pintxo / falatka | kicsi, a pultról |
+| *ogitartekoa* | szendvics | közepes, kenyérben |
+| *plater konbinatua* | vegyes tál | teljes étkezés |
+| *razioa* | adag | megosztásra |
+
+> Az **Ogitarteko** szó szerint "ami a kenyerek között van": *ogi* (kenyér) + *arte* (között) + *-ko*. Ez a jó öreg szendvics, de jó baszk kenyérrel és bőséges töltelékkel.
+
+## Jellegzetes töltelékek
+
+Ezek a leggyakoribb töltelékek, amelyeket egy bár krétatábláján látni fogsz:
+
+| Euskera | Magyar |
+|---|---|
+| *tortilla* | tortilla (krumplis omlett) |
+| *txistorra* | txistorra (vékony kolbász) |
+| *txorizoa* | chorizo (fűszeres kolbász) |
+| *gazta* | sajt |
+| *urdaiazpikoa* | sonka |
+| *antxoa* | szardella |
+| *atuna* | tonhal |
+| *gilda* | gilda (szardella + csípős paprika + olajbogyó) |
+
+## Hogyan rakd össze a rendelést
+
+A formula: **jelző + forma + bat (mesedez)**. A jelző (ami benne van) elöl áll.
+
+- *Tortilla **pintxo bat**, mesedez.* — Egy tortillás pintxót kérek.
+- *Gazta **ogitartekoa**, mesedez.* — Egy sajtos szendvicset kérek.
+- *Txistorra **razio bat** hartuko dugu.* — Kérünk egy adag txistorrát.
+- *Ogitarteko **mistoa**, mesedez.* — Egy vegyes szendvicset kérek.
+
+> Ha közösen rendeltek, a **dugu** ("nekünk van / mi kérünk") vagy a **hartuko dugu** ("kérni fogunk") alakot használod. Társaságban nagyon gyakori, hogy több adagot rendelnek mindenkinek.
+
+## Változatok és árnyalatok
+
+- **handia** — nagy / **txikia** — kicsi:
+  - *Garagardo handia* — nagy sör
+  - *Kafe txikia* — kis kávé (kis csészében)
+- **hotza** — hideg / **beroa** — meleg:
+  - *Ogitarteko beroa* — meleg szendvics (grillezve)
+- **eta...** — és... (hozzáadáshoz):
+  - *Tortilla pintxoa **eta** ardo gorri bat* — egy tortillás pintxo és egy vörösbor
+
+## Egy baráti társaság asztala
+
+> — *Zer hartuko dugu?* — Mit kérünk?
+>
+> — *Niretzat tortilla pintxoa eta zurito bat.* — Nekem egy tortillás pintxo és egy kis sör.
+>
+> — *Eta zuretzat?* — És neked?
+>
+> — *Nik gazta razio bat eta ardo gorri bat hartuko ditut.* — Én egy adag sajtot és egy vörösbort kérek.
+>
+> — *Nik plater konbinatu bat: arrautzak, txorizoa eta patata frijituak.* — Én egy vegyes tálat: tojás, chorizo és sült krumpli.
+>
+> — *Bale, hiru eskaera dira.* — Rendben, ez három rendelés.
+
+## Fizetés
+
+- **Pagatzera!** — Fizessünk!
+- **Niri tokatzen zait.** — Most én jövök.
+- **Nik gonbidatzen zaitut.** — Meghívlak.
+- **Erdibana.** — Felezzük, fele-fele. (megosztás)
+
+> **Kulturális megjegyzés:** a pintxók hagyománya különösen erős Donostiában, Bilbaóban és Iruñeában. Minden bárnak általában megvan a maga házi különlegessége. A **poteo** szokása abból áll, hogy bárról bárra járnak, és mindegyikben elfogyasztanak egy pintxót és egy italt — nagyon társasági és nagyon euskaldun hagyomány.
+
