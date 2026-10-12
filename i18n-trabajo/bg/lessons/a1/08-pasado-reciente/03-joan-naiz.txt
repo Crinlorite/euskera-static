@@ -1,0 +1,168 @@
+@@ title
+Непреходни глаголи в близкото минало (joan naiz, etorri naiz)
+@@ x0.prompt
+"Etxera joan naiz" означава…
+@@ x0.explanation
+"Joan" + "naiz" без -tzen бележи близко минало: "отидох". Целта е с -ra: *etxera* (към вкъщи).
+@@ x0.opt0
+Отивам си вкъщи
+@@ x0.opt1
+Прибрах се вкъщи
+@@ x0.opt2
+Ще си дойда вкъщи
+@@ x0.opt3
+Вкъщи съм
+@@ x1.prompt
+Защо "joan" използва спомагателния глагол naiz, а не dut?
+@@ x1.explanation
+Глаголите без допълнение (отивам, идвам, събуждам се...) са с izan (naiz/zara/da). Тези с допълнение са с ukan (dut/duzu/du).
+@@ x1.opt0
+Защото започва с J
+@@ x1.opt1
+Защото е непреходен глагол (няма допълнение)
+@@ x1.opt2
+Защото е неправилен глагол
+@@ x1.opt3
+Защото е от първо спрежение
+@@ x2.prompt
+Искаш да кажеш "Маялен дойде късно". Как го казваш?
+@@ x2.explanation
+*Etorri* (идвам) е непреходен: използва *izan*. "Тя" → *da*. Подлогът е без -k. Резултат: *Maialen berandu etorri da*.
+@@ x3.prompt
+Събудих се късно = Berandu esnatu ___.
+@@ x3.explanation
+"Esnatu" (събуждам се) е непреходен: използва izan; "аз" → *naiz*.
+@@ x4.prompt
+Отидоха на кино = Zinera joan ___.
+@@ x4.explanation
+"Joan" е с izan; "те" → *dira*. Резултат: *haiek zinera joan dira*.
+@@ x5.card0
+отидох
+@@ x5.card1
+дойдох
+@@ x5.card2
+ходих насам-натам
+@@ x5.card3
+събудих се
+@@ x5.card4
+станах
+@@ x5.card5
+взех душ
+@@ x5.card6
+облякох се
+@@ x5.card7
+легнах си
+@@ x5.card8
+заспах
+@@ x5.card9
+паднах
+@@ x5.card10
+седнах
+@@ x5.card11
+качих се
+@@ x5.card12
+слязох
+@@ x5.card13
+влязох
+@@ x5.card14
+излязох
+@@ x5.card15
+разболях се
+@@ x5.card16
+бях (някъде/някак)
+@@ body
+
+**Непреходните глаголи** са тези, които **нямат допълнение**: никой не *събужда нещо* или не *отива нещо* — човек просто *се събужда*, *отива*, *идва*. На баски тези глаголи използват спомагателния глагол **izan** (naiz, zara, da…). В близкото минало формулата е:
+
+> **partizipioa + naiz/zara/da/gara/zarete/dira**
+
+## Ключовото разграничение: NOR или NOR-NORK
+
+Това е **основното правило** на баския и главната трудност в този раздел:
+
+| Вид | Има допълнение | Спомагателен | Пример |
+|---|---|---|---|
+| Непреходен (NOR) | НЕ | *izan* (naiz/zara/da…) | *joan naiz* (отидох) |
+| Преходен (NOR-NORK) | ДА | *ukan* (dut/duzu/du…) | *jan dut* (ядох нещо) |
+
+> **Практически трик:** ако след глагола можеш да попиташ "какво?" (какво ядох? какво видях?), той е преходен и е с *dut*. Ако не може ("какво отидох?" не става), той е непреходен и е с *naiz*.
+
+## Основни непреходни глаголи
+
+| Partizipioa | Аз (…х) | Български |
+|---|---|---|
+| *joan* | **joan naiz** | отидох |
+| *etorri* | **etorri naiz** | дойдох |
+| *ibili* | **ibili naiz** | ходих насам-натам |
+| *sartu* | **sartu naiz** | влязох |
+| *atera* | **atera naiz** | излязох |
+| *igo* | **igo naiz** | качих се |
+| *jaitsi* | **jaitsi naiz** | слязох |
+| *itzuli* | **itzuli naiz** | върнах се |
+| *bueltatu* | **bueltatu naiz** | върнах се (вариант) |
+| *iritsi* | **iritsi naiz** | пристигнах |
+| *esnatu* | **esnatu naiz** | събудих се |
+| *jaiki* | **jaiki naiz** | станах |
+| *altxatu* | **altxatu naiz** | станах |
+| *dutxatu* | **dutxatu naiz** | взех душ |
+| *jantzi* | **jantzi naiz** | облякох се |
+| *oheratu* | **oheratu naiz** | легнах си |
+| *lokartu* | **lokartu naiz** | заспах |
+| *erori* | **erori naiz** | паднах |
+| *eseri* | **eseri naiz** | седнах |
+| *gaixotu* | **gaixotu naiz** | разболях се |
+| *egon* | **egon naiz** | бях (някъде/някак) |
+
+## Цялото спрежение
+
+С *joan* (отивам):
+
+| Местоимение | Форма | Български |
+|---|---|---|
+| Ni | **joan naiz** | Отидох |
+| Zu | **joan zara** | Отиде |
+| Hura | **joan da** | Отиде (той/тя) |
+| Gu | **joan gara** | Отидохме |
+| Zuek | **joan zarete** | Отидохте |
+| Haiek | **joan dira** | Отидоха |
+
+> Тук местоименията са **без -k** (с NOR, а не с NORK): *ni*, а не *nik*; *Maialen*, а не *Maialenek*. В този модел собствените имена остават непроменени: *Egoitz etorri da* (Егойц дойде), *Maialen joan da* (Маялен отиде).
+
+## Сравнение едно до друго
+
+| Непреходен (NAIZ) | Преходен (DUT) |
+|---|---|
+| *joan naiz* (отидох) | *eraman dut* (занесох) |
+| *etorri naiz* (дойдох) | *ekarri dut* (донесох) |
+| *esnatu naiz* (събудих се) | *esnatu dut umea* (събудих детето) |
+| *jaiki naiz* (станах) | *jaso dut* (вдигнах, прибрах) |
+
+> Някои глаголи могат да бъдат непреходни **или** преходни според контекста: *esnatzen naiz* = събуждам се; *umea esnatu dut* = събудих детето. На ниво A1 се съсредоточи върху най-честите двойки.
+
+## Типични изречения
+
+- *Goizeko zazpietan esnatu naiz.* — Събудих се в седем сутринта.
+- *Lanera autobusez joan naiz.* — Отидох на работа с автобус.
+- *Etxera oinez etorri naiz.* — Прибрах се пеша.
+- *Egoitz berandu jaiki da gaur.* — Егойц стана късно днес.
+- *Gu zinera joan gara.* — Ние отидохме на кино.
+- *Haiek tabernan egon dira.* — Те бяха в бара.
+
+## Отрицание
+
+> *Ez naiz lanera joan.* — Не отидох на работа.
+>
+> *Ez da etorri.* — Не дойде.
+>
+> *Ez gara goiz esnatu.* — Не се събудихме рано.
+
+## Мини диалог
+
+> *— Gaur zer egin duzu?*
+>
+> *— Goizean kiroldegira **joan naiz**, gero etxera **etorri naiz** eta lasai-lasai **bazkaldu dut**. Arratsaldean lagun batekin **egon naiz**.*
+
+Обърни внимание как се сменя спомагателният глагол между глаголите: *joan **naiz*** (непреходен) и *bazkaldu **dut*** (преходен). Това е постоянната хореография на баския.
+
+> **За да затвърдиш идеята:** запомни като блок "joan naiz, etorri naiz, esnatu naiz, jaiki naiz, dutxatu naiz, oheratu naiz". Това е отборът на **NAIZ**. Останалите (jan, edan, ikusi, hartu, egin, erosi…) почти всички попадат в отбора на **DUT**.
+
