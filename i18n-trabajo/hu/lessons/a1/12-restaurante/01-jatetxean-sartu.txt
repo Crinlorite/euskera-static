@@ -1,0 +1,119 @@
+@@ title
+Megérkezés az étterembe (jatetxean sartu)
+@@ x0.prompt
+Hogyan kérsz asztalt két főre?
+@@ x0.explanation
+"Mahai bat bi lagunentzat" = "egy asztalt két személyre". Az *-entzat* a többes számú célhatározó (kinek a számára).
+@@ x1.prompt
+Az "Erreserba egin nahi dut" jelentése…
+@@ x1.explanation
+*Erreserba egin* — "foglalni". *Nahi dut* — "szeretnék".
+@@ x1.opt0
+Fizetni szeretnék
+@@ x1.opt1
+Asztalt szeretnék foglalni
+@@ x1.opt2
+Van hely?
+@@ x1.opt3
+Éhes vagyok
+@@ x2.prompt
+A pincér megkérdezi: "Milyen névre?" = "___ izenean?"
+@@ x2.explanation
+*Noren?* — kérdő birtokos eset: "kinek a…?". A *Noren izenean?* a sztenderd formula.
+@@ x3.prompt
+"Holnap estére" = Bihar ___
+@@ x3.explanation
+*Gau* (éjszaka, este) + *-rako* (-ra/-re, valamire) → *gauerako* — "estére".
+@@ x4.card0
+étterem
+@@ x4.card1
+grillétterem
+@@ x4.card2
+almaborház (sidrería)
+@@ x4.card3
+pizzéria
+@@ x4.card4
+hamburgerező
+@@ x4.card5
+gasztronómiai egyesület
+@@ x4.card6
+asztal
+@@ x4.card7
+pincér, pincérnő
+@@ x4.card8
+vendég
+@@ x4.card9
+foglalás
+@@ x4.card10
+Egy asztalt kérünk
+@@ x4.card11
+Négy főre
+@@ x4.card12
+Milyen névre?
+@@ x4.card13
+Holnap estére
+@@ body
+
+Az első lépés, amikor étterembe mész: belépni, köszönni, asztalt kérni vagy megerősíteni a foglalást. Íme az alapformulák.
+
+## Étkezőhelyek típusai
+
+| Euskera | Magyar |
+|---|---|
+| *jatetxea* | étterem |
+| *erretegia* | grillétterem |
+| *sagardotegia* | almaborház (sidrería) |
+| *taberna* | bár |
+| *pizzeria* | pizzéria |
+| *hanburgeseria* | hamburgerező |
+| *elkartea* | gasztronómiai egyesület |
+
+## A jelenet szereplői
+
+- **Bezeroa** — a vendég
+- **Zerbitzaria** — a pincér/pincérnő
+- **Mahaia** — az asztal
+
+## Érkezés foglalás nélkül
+
+> — *Egun on! Mahai bat bi lagunentzat, mesedez.*
+>
+> — *Bai, jarraitu mesedez. Hemen daukazue mahai bat.*
+
+Hasznos mondatok:
+
+- **Mahai bat, mesedez.** — Egy asztalt kérünk.
+- **Bi lagunentzat / lau lagunentzat.** — Két / négy főre.
+- **Eserlekurik baduzue?** — Van helyetek?
+
+## Asztalfoglalás
+
+Telefonon vagy személyesen szinte állandó a forgatókönyv:
+
+> — *Egun on! "Kutixi" jatetxea al da?* — A "Kutixi" étterem?
+>
+> — *Bai, hala da. Zer nahi duzu?* — Igen. Mit parancsol?
+>
+> — *Erreserba bat egin nahi dut, bihar gauerako.* — Szeretnék asztalt foglalni holnap estére.
+>
+> — *Zenbat lagunentzat?* — Hány főre?
+>
+> — *Lau lagun izango gara.* — Négyen leszünk.
+>
+> — *Zer ordutan afaldu nahi duzue?* — Hány órakor szeretnétek vacsorázni?
+>
+> — *Bederatziak aldera.* — Kilenc körül.
+>
+> — *Noren izenean?* — Milyen névre?
+>
+> — *Mikelen izenean.* — Mikel nevére.
+
+## Mondatok, amelyeket hallani fogsz
+
+- **Itxaron pixka bat, mesedez.** — Várjon egy kicsit, kérem.
+- **Jarraitu mesedez.** — Erre tessék (az asztalra mutatva).
+- **Hemen daukazue.** — Tessék.
+- **Karta nahi duzue?** — Kérik az étlapot?
+
+> **Kulturális megjegyzés:** az **elkarteak**, vagyis a gasztronómiai egyesületek, Euskal Herria jellegzetes helyei, ahol az ételt maguk a tagok főzik meg és takarítanak el. Nem nyilvános éttermekként működnek, de érdemes tudni róluk, mert ezt a szót rengetegszer hallani fogod.
+

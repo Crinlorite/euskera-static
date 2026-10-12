@@ -1,0 +1,111 @@
+@@ title
+Поръчване на храната (eskatu)
+@@ x0.prompt
+"За първо ще взема салата" се казва…
+@@ x0.explanation
+*Hasteko* (за начало) + *entsalada hartuko dut* (ще взема салата). Типична структура.
+@@ x1.prompt
+"За мен — рибата" се казва…
+@@ x1.explanation
+*Niretzat* — "за мен" (предназначение). Това е естествената формула при поръчка на обща маса.
+@@ x2.prompt
+За да попиташ "а за теб?" своя спътник = Eta ___?
+@@ x2.explanation
+*Zuretzat* — "за теб".
+@@ x3.prompt
+"За второ — месо" = Bigarrenerako, ___
+@@ x3.explanation
+*Bigarrenerako* — "за второ (за второто ястие)". *Haragia* — месото.
+@@ x4.card0
+Какво искаш?
+@@ x4.card1
+Какво ще вземеш?
+@@ x4.card2
+Ще взема...
+@@ x4.card3
+За мен...
+@@ x4.card4
+А за теб?
+@@ x4.card5
+За начало...
+@@ x4.card6
+За второ...
+@@ x4.card7
+За десерт...
+@@ x4.card8
+За пиене — червено вино
+@@ x4.card9
+Предпочитам...
+@@ x4.card10
+Не искам
+@@ x4.card11
+Не ми харесва
+@@ body
+
+Този урок събира формулите за поръчване на масата: как да подредиш lehen/bigarren/postrea, как да кажеш "за мен" и как да изразиш предпочитания.
+
+## Въпросът на сервитьора
+
+Сервитьорът ще започне с някой от тези въпроси:
+
+- **Zer nahi duzu(e)?** — Какво желаете?
+- **Zer hartuko duzu(e)?** — Какво ще вземете?
+- **Pentsatu duzu(e)?** — Избрахте ли вече?
+
+## Как да подредиш поръчката
+
+За да организираш поръчката си, има три много полезни думи:
+
+| Euskera | Български |
+|---|---|
+| *Hasteko...* | За начало... |
+| *Bigarrenerako...* | За второ... |
+| *Postrerako...* | За десерт... |
+| *Edateko...* | За пиене... |
+
+Цял пример:
+
+> *Hasteko, entsalada nahi dut. Bigarrenerako, legatza. Postrerako, izozkia. Eta edateko, ardo zuria.*
+>
+> За начало — салата. За второ — мерлуза. За десерт — сладолед. А за пиене — бяло вино.
+
+## Три начина да поръчаш
+
+| Структура | Пример | Кога |
+|---|---|---|
+| **... hartuko dut** | *Legatza hartuko dut* | ще взема... |
+| **... nahi dut** | *Legatza nahi dut* | искам... |
+| **Niretzat...** | *Niretzat, legatza* | за мен... |
+
+`Niretzat` е много полезно, когато някой поръчва за всички: "*Niretzat legatza, eta zuretzat?*" (За мен мерлуза, а за теб?).
+
+## Предпочитания
+
+- **Nahiago dut...** — Предпочитам...
+   - *Nahiago dut arraina haragia baino.* — Предпочитам рибата пред месото.
+- **Ez dut ... nahi.** — Не искам...
+- **Ez zait gustatzen.** — Не ми харесва.
+- **... gustatzen zait.** — Харесвам...
+
+## Мини диалог на масата
+
+> **Zerbitzaria:** *Egun on! Zer nahi duzue bazkaltzeko?*
+>
+> **Maialen:** *Nik, hasteko, arrain-zopa nahi dut.*
+>
+> **Egoitz:** *Eta nik entsalada epela.*
+>
+> **Z:** *Eta bigarrenerako?*
+>
+> **Egoitz:** *Bakailaoa saltsan.*
+>
+> **Maialen:** *Niretzat legatza, mesedez.*
+>
+> **Z:** *Edateko, zer nahi duzue, ardo gorria ala zuria?*
+>
+> **Maialen:** *Ardo zuria nahiago dut arrainarekin.*
+>
+> **Egoitz:** *Niretzat ardo zuria ere bai, mesedez.*
+
+> **Културна бележка:** в малките ресторанти много често един от сътрапезниците поръчва за цялата група (*Niretzat legatza eta beretzat haragia* — за мен мерлуза, а за него/нея месо). Затова *niretzat / zuretzat / beretzat* са много полезни думи още от първия ден.
+
