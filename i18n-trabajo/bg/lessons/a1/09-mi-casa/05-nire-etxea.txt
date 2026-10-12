@@ -1,0 +1,132 @@
+@@ title
+Nire etxea — Описание на собствения дом
+@@ x0.prompt
+За да попиташ "Колко стаи има?", казваш…
+@@ x0.explanation
+"Zenbat" = колко, "gela" = стая, "ditu" = има (няколко неща).
+@@ x1.prompt
+Жилището ми е светло = Nire etxea ___ da.
+@@ x1.explanation
+"Argitsua" = светъл (от "argi" = светлина + наставката за изобилие -tsu).
+@@ x2.prompt
+"Etxea hirugarren solairuan dago" означава...
+@@ x2.explanation
+"Hirugarren" = трети, "solairua" = етаж, "dago" = е (намира се). "На третия етаж е".
+@@ x2.opt0
+Жилището има три стаи
+@@ x2.opt1
+Жилището е на третия етаж
+@@ x2.opt2
+Жилището има три прозореца
+@@ x2.opt3
+Жилището струва три хиляди
+@@ x3.pair0
+светъл
+@@ x3.pair1
+голям
+@@ x3.pair2
+малък
+@@ x3.pair3
+спокоен, тих
+@@ x3.pair4
+нов
+@@ x3.pair5
+стар
+@@ x4.card0
+Какво е жилището ти?
+@@ x4.card1
+светло
+@@ x4.card2
+тъмно
+@@ x4.card3
+голямо
+@@ x4.card4
+малко
+@@ x4.card5
+тихо
+@@ x4.card6
+шумно
+@@ x4.card7
+ново
+@@ x4.card8
+старо
+@@ x4.card9
+удобно
+@@ x4.card10
+Къде е жилището ти?
+@@ x4.card11
+в центъра
+@@ x4.card12
+в спокоен квартал
+@@ x4.card13
+на третия етаж
+@@ x4.card14
+Има ли асансьор сградата?
+@@ x4.card15
+С кого живееш?
+@@ body
+
+Този урок обединява всичко от тема 9: стаите, мебелите, домакинската работа и с кого живееш. Целта е да можеш да **опишеш дома си** с прости изречения, все едно те питат в клас или в неформален разговор.
+
+## Основните въпроси
+
+| Въпрос | Български |
+|---|---|
+| *Non dago zure etxea?* | Къде е жилището ти? |
+| *Nolakoa da?* | Какво е? |
+| *Zenbat gela ditu?* | Колко стаи има? |
+| *Norekin bizi zara?* | С кого живееш? |
+| *Zenbatgarren solairuan bizi zara?* | На кой етаж живееш? |
+| *Etxeak badu igogailua / balkoia / terraza?* | Има ли жилището асансьор / балкон / тераса? |
+
+## Полезни прилагателни за описание на дома
+
+| Euskera | Български |
+|---|---|
+| *handia* | голямо |
+| *txikia* | малко |
+| *argitsua* | светло |
+| *iluna* | тъмно |
+| *berria* | ново |
+| *zaharra* | старо |
+| *lasaia* | тихо, спокойно |
+| *zaratatsua* | шумно |
+| *erosoa* | удобно |
+| *garestia* | скъпо |
+| *merkea* | евтино |
+
+> Припомни си модела **NOLAKOA da?** от други раздели: отговорът съдържа прилагателното + крайно `-a` + глагола *izan*. Напр.: *Nire etxea **handia da**.* — Жилището ми е голямо.
+
+## Примерен абзац
+
+Ето един прост текст, който описва жилище. Прочети го на глас и обърни внимание на моделите.
+
+> *Ni Iruñean bizi naiz, auzo lasai batean. Nire etxea ez da oso handia: hiru gela ditu — bi logela eta egongela bat — sukaldea eta komuna. Egongela argitsua da, eta balkoi bat dauka. Hirugarren solairuan dago, eta etxeak igogailua du.*
+>
+> *Bikotekidearekin bizi naiz. Berak bazkaria prestatzen du, eta nik ontziak garbitzen ditut. Asteburuetan biok elkarrekin egiten dugu erosketa.*
+
+## Твой ред е: опиши дома си
+
+Състави собствен абзац, като отговаряш в този ред:
+
+1. **Non bizi zara?** (Къде живееш?) → *X-(e)an bizi naiz.*
+2. **Nolakoa da etxea?** (Какво е жилището?) → *Nire etxea handia / argitsua / lasaia da.*
+3. **Zenbat gela ditu?** (Колко стаи?) → *Bi / Hiru / Lau gela ditu.*
+4. **Zer dago etxean?** (Какво има?) → *Sukaldea, egongela, bi logela eta komun bat ditu.*
+5. **Norekin bizi zara?** → *Bakarrik / Gurasoekin / Lagunekin bizi naiz.*
+6. **Etxeko lanak nork egiten ditu?** → *Nik egunero garbitzen dut* / *Pisukideen artean banatzen ditugu.*
+
+## Заключителен речник
+
+| Euskera | Български |
+|---|---|
+| *etxebizitza* | жилище |
+| *etxejabea* | собственик |
+| *alokairua* | наем |
+| *errenta* | месечен наем |
+| *auzoa* | квартал |
+| *erdigunea* | центърът (на града) |
+| *aldiriak* | покрайнини |
+
+> **Съвет:** когато говориш за дома си в клас, не се опитвай да превеждаш всяка подробност. Придържай се към кратки и добре построени изречения. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* е по-добро описание от едно дълго изречение, пълно с грешки.
+

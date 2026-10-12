@@ -1,0 +1,134 @@
+@@ title
+Norekin bizi zara? — С кого живееш
+@@ x0.pair0
+сам/сама
+@@ x0.pair1
+с приятел/приятелка
+@@ x0.pair2
+с родителите
+@@ x0.pair3
+с партньора
+@@ x0.pair4
+с брат
+@@ x0.pair5
+със съквартиранти
+@@ x1.prompt
+Наставката -rekin (социатив) означава…
+@@ x1.explanation
+"-rekin" показва компания: "lagunarekin" = "с приятеля/приятелката".
+@@ x1.opt0
+към
+@@ x1.opt1
+от
+@@ x1.opt2
+с
+@@ x1.opt3
+без
+@@ x2.prompt
+Живея с родителите си = Gurasoe___ bizi naiz.
+@@ x2.explanation
+В множествено число наставката е "-ekin": guraso + -ekin = gurasoekin (с родителите).
+@@ x3.prompt
+"Bikotekidearekin bizi naiz" означава...
+@@ x3.explanation
+"Bikotekide" = партньор (буквално: "член на двойката"). С -arekin = "с партньора".
+@@ x3.opt0
+Живея сам
+@@ x3.opt1
+Живея с партньора си
+@@ x3.opt2
+Живея със съквартирант
+@@ x3.opt3
+Живея с брат си
+@@ x4.card0
+С кого живееш?
+@@ x4.card1
+живея сам/сама
+@@ x4.card2
+живея с родителите си
+@@ x4.card3
+живея с приятел/приятелка
+@@ x4.card4
+живея с приятелите си
+@@ x4.card5
+с партньора ми
+@@ x4.card6
+със съпруга ми
+@@ x4.card7
+със съпругата ми
+@@ x4.card8
+с брат ми / сестра ми
+@@ x4.card9
+съквартирант/ка
+@@ x4.card10
+с кучето
+@@ x4.card11
+с котката
+@@ x4.card12
+живея под наем
+@@ x4.card13
+апартаментът е мой (собствен)
+@@ body
+
+Един от основните въпроси, за да опознаеш някого, е **Norekin bizi zara?** — "С кого живееш?". Отговорът използва наставката **`-(r)ekin`**, наречена **социатив**, която е баското "с" за компания.
+
+## Наставката `-rekin`
+
+Добавя се към съществителното, вече с члена му:
+
+| Съществително | + -(r)ekin | Значение |
+|---|---|---|
+| laguna (приятелят) | **lagunarekin** | с приятеля |
+| ama (майката) | **amarekin** | с майката |
+| anaia (братът) | **anaiarekin** | с брата |
+| txakurra (кучето) | **txakurrarekin** | с кучето |
+| bikotekidea (партньорът) | **bikotekidearekin** | с партньора |
+
+> Към собствени имена и към *bat* се добавя директно **-(e)kin**, без член: *Miren + ekin → Mirenekin* (с Мирен), *lagun batekin* (с един приятел).
+
+## Множествено число
+
+| Множествено число | + -ekin | Значение |
+|---|---|---|
+| gurasoak (родителите) | **gurasoekin** | с родителите |
+| lagunak (приятелите) | **lagunekin** | с приятелите |
+| pisukideak (съквартирантите) | **pisukideekin** | със съквартирантите |
+| seme-alabak (децата) | **seme-alabekin** | с децата |
+
+## Да живееш сам
+
+Ако живееш без компания, не е нужно да използваш `-rekin`:
+
+- **Bakarrik bizi naiz.** — Живея сам/сама.
+- **Bakarrik bizi naiz, baina katu batekin.** — Живея сам, но с една котка.
+
+## Най-честите начини на съжителство
+
+| Ситуация | Как се казва |
+|---|---|
+| Сам/сама | *Bakarrik bizi naiz.* |
+| С родителите | *Gurasoekin bizi naiz.* |
+| С партньора | *Bikotekidearekin bizi naiz.* |
+| Със съпруга / съпругата | *Senarrarekin / Emaztearekin bizi naiz.* |
+| Със съквартиранти | *Pisukideekin bizi naiz.* |
+| С децата | *Seme-alabekin bizi naiz.* |
+| С един приятел / с приятели | *Lagun batekin / Lagunekin bizi naiz.* |
+
+## Под наем или собственост
+
+- **Alokairuan bizi naiz.** — Живея под наем.
+- **Nire pisua da.** — Апартаментът е мой (собствен).
+- **Errenta gora doa.** — Наемът се качва. *(разговорно)*
+
+## Типичен разговор
+
+> — *Kaixo Maialen! Norekin bizi zara?*
+>
+> — *Bi pisukiderekin bizi naiz Iruñean. Eta zu?*
+>
+> — *Ni bakarrik, baina txakur batekin. Etxea handia da?*
+>
+> — *Ez, txikia. Hiru logela ditu.*
+
+> **Бележка:** *bikotekide* е модерна и неутрална дума, валидна както за женени, така и за неженени двойки, от различен или от същия пол. За "съпруг" и "съпруга" продължават да се използват **senarra** и **emaztea**.
+

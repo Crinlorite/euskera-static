@@ -1,0 +1,134 @@
+@@ title
+Norekin bizi zara? — Kivel élsz
+@@ x0.pair0
+egyedül
+@@ x0.pair1
+egy barátommal
+@@ x0.pair2
+a szüleimmel
+@@ x0.pair3
+a párommal
+@@ x0.pair4
+egy fiútestvéremmel
+@@ x0.pair5
+lakótársakkal
+@@ x1.prompt
+A -rekin toldalék (társhatározó) jelentése…
+@@ x1.explanation
+A "-rekin" társaságot jelöl: "lagunarekin" = "a barátommal, a barátnőmmel".
+@@ x1.opt0
+felé
+@@ x1.opt1
+-tól/-től
+@@ x1.opt2
+-val/-vel
+@@ x1.opt3
+nélkül
+@@ x2.prompt
+A szüleimmel élek = Gurasoe___ bizi naiz.
+@@ x2.explanation
+Többes számban a toldalék "-ekin": guraso + -ekin = gurasoekin (a szülőkkel).
+@@ x3.prompt
+A "Bikotekidearekin bizi naiz" jelentése...
+@@ x3.explanation
+"Bikotekide" = élettárs, pár (szó szerint: "a pár tagja"). Az -arekin végződéssel = "a párommal".
+@@ x3.opt0
+Egyedül élek
+@@ x3.opt1
+A párommal élek
+@@ x3.opt2
+Egy lakótárssal élek
+@@ x3.opt3
+A fiútestvéremmel élek
+@@ x4.card0
+Kivel élsz?
+@@ x4.card1
+egyedül élek
+@@ x4.card2
+a szüleimmel élek
+@@ x4.card3
+egy barátommal élek
+@@ x4.card4
+a barátaimmal élek
+@@ x4.card5
+a párommal
+@@ x4.card6
+a férjemmel
+@@ x4.card7
+a feleségemmel
+@@ x4.card8
+a fiú- / lánytestvéremmel
+@@ x4.card9
+lakótárs
+@@ x4.card10
+a kutyával
+@@ x4.card11
+a macskával
+@@ x4.card12
+albérletben lakom
+@@ x4.card13
+ez a saját lakásom
+@@ body
+
+Valaki megismerésének egyik alapkérdése a **Norekin bizi zara?** — "Kivel élsz?". A válasz a **`-(r)ekin`** toldalékot használja, amelyet **társhatározónak** hívnak: ez a baszk "-val/-vel" (társaság).
+
+## A `-rekin` toldalék
+
+A főnévhez kapcsolódik, a névelővel együtt:
+
+| Főnév | + -(r)ekin | Jelentés |
+|---|---|---|
+| laguna (a barát) | **lagunarekin** | a baráttal |
+| ama (az anya) | **amarekin** | az anyával |
+| anaia (a fiútestvér) | **anaiarekin** | a fiútestvérrel |
+| txakurra (a kutya) | **txakurrarekin** | a kutyával |
+| bikotekidea (az élettárs) | **bikotekidearekin** | az élettárssal |
+
+> Tulajdonnevekhez és a *bat* szóhoz közvetlenül az **-(e)kin** kapcsolódik, névelő nélkül: *Miren + ekin → Mirenekin* (Mirennel), *lagun batekin* (egy baráttal).
+
+## Többes szám
+
+| Többes szám | + -ekin | Jelentés |
+|---|---|---|
+| gurasoak (a szülők) | **gurasoekin** | a szülőkkel |
+| lagunak (a barátok) | **lagunekin** | a barátokkal |
+| pisukideak (a lakótársak) | **pisukideekin** | a lakótársakkal |
+| seme-alabak (a gyerekek) | **seme-alabekin** | a gyerekekkel |
+
+## Egyedül élni
+
+Ha társaság nélkül élsz, nem kell a `-rekin`:
+
+- **Bakarrik bizi naiz.** — Egyedül élek.
+- **Bakarrik bizi naiz, baina katu batekin.** — Egyedül élek, de egy macskával.
+
+## A leggyakoribb együttélési formák
+
+| Helyzet | Hogyan mondják |
+|---|---|
+| Egyedül | *Bakarrik bizi naiz.* |
+| A szülőkkel | *Gurasoekin bizi naiz.* |
+| Az élettárssal | *Bikotekidearekin bizi naiz.* |
+| A férjjel / a feleséggel | *Senarrarekin / Emaztearekin bizi naiz.* |
+| Lakótársakkal | *Pisukideekin bizi naiz.* |
+| A gyerekekkel | *Seme-alabekin bizi naiz.* |
+| Egy baráttal / barátokkal | *Lagun batekin / Lagunekin bizi naiz.* |
+
+## Bérlet vagy saját tulajdon
+
+- **Alokairuan bizi naiz.** — Albérletben lakom.
+- **Nire pisua da.** — Ez a saját lakásom.
+- **Errenta gora doa.** — Emelkedik a bérleti díj. *(közvetlen)*
+
+## Tipikus beszélgetés
+
+> — *Kaixo Maialen! Norekin bizi zara?*
+>
+> — *Bi pisukiderekin bizi naiz Iruñean. Eta zu?*
+>
+> — *Ni bakarrik, baina txakur batekin. Etxea handia da?*
+>
+> — *Ez, txikia. Hiru logela ditu.*
+
+> **Megjegyzés:** a *bikotekide* modern és semleges szó, amely házas és nem házas, különnemű és azonos nemű párokra egyaránt használható. A "férj" és "feleség" jelentésre továbbra is a **senarra** és az **emaztea** szót használják.
+
