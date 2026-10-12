@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Am mers (o dată)
   - eu: Joaten nintzen
     es: Mergeam (obicei)
   - eu: Joan nuen autoa
     es: (nu este valid)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Eram pe drum
   - eu: Bizi nintzen Bilbon
     es: Locuiam în Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Ieri am fost la Bilbao
 ---
 
 **Imperfectul** din limba bască (*iragan ez burutua*) corespunde, în linii mari, cu „mâncam / locuiam / mergeam / lucram” din română. Se folosește pentru a povesti:

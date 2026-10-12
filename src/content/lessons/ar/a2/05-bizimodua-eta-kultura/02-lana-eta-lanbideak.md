@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" تعني…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - عمل
+  - راتب
+  - مدير
+  - موظّف
   answer: 1
   explanation: '*Soldata* = راتب. *Lansari* هو مرادف رسمي.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: أستاذ/أستاذة
   - eu: erizain
-    es: enfermero/a
+    es: ممرّض/ممرّضة
   - eu: sukaldari
-    es: cocinero/a
+    es: طبّاخ/طبّاخة
   - eu: kazetari
-    es: periodista
+    es: صحفي/صحفية
   - eu: mekanikari
     es: ميكانيكي/ة
   - eu: arkitekto
-    es: arquitecto/a
+    es: مهندس/مهندسة معماري
 ---
 
 يفتح لك المستوى A2 عالم **العمل** أبعد من مجرد "أنا طالب / أنا أستاذ". الآن ستدخل في الحديث عن:
@@ -190,7 +190,7 @@ exercises:
 
 لوصف عملك بعبارات أكثر تعقيدًا، من المفيد استخدام **الجملة الموصولة**:
 
-> **verbo conjugado + -(e)n + sustantivo**
+> **فعل مصرّف + -(e)n + اسم**
 
 | العربية | Euskera |
 |---|---|
@@ -220,4 +220,4 @@ exercises:
 
 > *Lander **kazetari** lanetan dabil hamar urtetik hona. Bilboko egunkari batean **lan egiten du**, **lanaldi osoan**. Goizeko zortzietan hasten da eta bostetan amaitzen du. Berarentzat **garrantzitsuena** albisteak ondo **kontatzea** da. **Soldata** ez da oso handia, baina **gustatzen zaion lana** dauka, eta **lankide jatorrak** ditu.*
 
-> **ملاحظة ثقافية:** في Euskal Herria، العديد من عروض العمل في القطاع العام (Osakidetza، Eusko Jaurlaritza، البلديات) تمنح نقاطًا إضافية لمعرفة اللغة الباسكية من خلال نظام **"perfiles"** (PL1, PL2, PL3, PL4). تعلم اللغة الباسكية ليس مجرد أمر ثقافي: بل هو ميزة تنافسية للعديد من الوظائف الحكومية.
+> **ملاحظة ثقافية:** في Euskal Herria، العديد من عروض العمل في القطاع العام (Osakidetza، Eusko Jaurlaritza، البلديات) تمنح نقاطًا إضافية لمعرفة اللغة الباسكية من خلال نظام **«الملفات اللغوية»** (PL1, PL2, PL3, PL4). تعلم اللغة الباسكية ليس مجرد أمر ثقافي: بل هو ميزة تنافسية للعديد من الوظائف الحكومية.

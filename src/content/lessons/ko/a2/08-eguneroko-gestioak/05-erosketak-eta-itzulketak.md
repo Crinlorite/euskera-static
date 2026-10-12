@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da"는 옷이 ...라는 뜻입니다.'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - 너무 비싸요
+  - 너무 커요
+  - 아주 예뻐요
+  - 너무 작아요
   answer: 1
   explanation: '04과의 *-egi*(gehiegi/gutxiegi)가 사이즈에 적용된 것입니다: handi**egi**a = 너무 큰; txiki**egi**a = 너무 작은.'
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: 이 바지 입어봐도 될까요? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = 입어보다. 가능법(ahalera)과 함께 쓰여: probatu **ditzaket** (복수형: "praka"는 스페인어처럼 복수형으로 사용됩니다).'
+  explanation: '*Probatu* = 입어보다. 가능법(ahalera)과 함께 쓰여: probatu **ditzaket** (복수형: "praka"는 복수형으로 사용됩니다).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: 저한테 작아요. 교환하고 싶어요 = txikia geratzen zait; ___ nahi dut.
@@ -104,7 +104,7 @@ A1 레벨에서 쇼핑하는 법은 이미 배웠습니다. 이번 과는 **상�
 
 ## 탈의실에서
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 입어봐도 될까요? | *Probatu dezaket?* |
 | 탈의실 | *probalekua* |
@@ -127,7 +127,7 @@ A1 레벨에서 쇼핑하는 법은 이미 배웠습니다. 이번 과는 **상�
 
 ## 교환 및 환불
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 교환하고 싶어요 | *Aldatu nahi dut* |
 | 환불하고 싶어요 | *Itzuli nahi dut* |

@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: à tarde
   - eu: iluntzean
-    es: al atardecer
+    es: ao entardecer
   - eu: gauean
     es: à noite
   - eu: gaur
-    es: hoy
+    es: hoje
   - eu: bihar
     es: amanhã (dia seguinte)
   - eu: atzo
-    es: ayer
+    es: ontem
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Estes vão aparecer todos os dias:
 | *gero* | logo, depois |
 | *lehen* | antes |
 
-> Atenção: tome cuidado com **bihar** (o dia seguinte, "amanhã") e **goiza** (a manhã, até o meio-dia). Em espanhol se usa a mesma palavra, em basco não.
+> Atenção: tome cuidado com **bihar** (o dia seguinte, "amanhã") e **goiza** (a manhã, até o meio-dia). São duas palavras diferentes, como «amanhã» e «manhã» em português.
 
 ## Combinando tudo
 

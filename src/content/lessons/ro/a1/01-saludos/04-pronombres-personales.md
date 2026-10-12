@@ -16,17 +16,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ni
-    es: yo
+    es: eu
   - eu: zu
     es: tu/dumneavoastră
   - eu: hura
     es: el/ea
   - eu: gu
-    es: nosotros
+    es: noi
   - eu: zuek
-    es: vosotros
+    es: voi
   - eu: haiek
-    es: ellos/ellas
+    es: ei/ele
 - id: ex-04-pp-fb1
   type: fill-in-blank
   prompt: Gu lagunak ___ (suntem).

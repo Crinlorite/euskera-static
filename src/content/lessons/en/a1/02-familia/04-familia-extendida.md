@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: aunt
   - eu: lehengusu
-    es: primo
+    es: cousin (male)
   - eu: lehengusina
-    es: prima
+    es: cousin (female)
   - eu: iloba
-    es: sobrino/a
+    es: nephew/niece
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" is...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - cousin (male)
+  - brother
+  - grandfather
+  - father-in-law
   answer: 0
 - id: ex-fe-fc
   type: flashcards

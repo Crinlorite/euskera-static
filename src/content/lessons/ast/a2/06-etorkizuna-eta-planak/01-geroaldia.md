@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-et1-mc1
   type: multiple-choice
-  prompt: '"Bihar Bilbora joango naiz" significa…'
+  prompt: '"Bihar Bilbora joango naiz" quier dicir…'
   options:
   - Ayeri fui a Bilbao
   - Mañana voi dir a Bilbao
@@ -107,7 +107,7 @@ Hasta agora sabíes falar del presente y del pasáu. Esta unidá abre la tercer 
 
 > **participiu + -ko / -go + auxiliar en PRESENTE**
 
-| Castellán | Eusquera | Cómo se forma |
+| Asturianu | Eusquera | Cómo se forma |
 |---|---|---|
 | Diré | *joango naiz* | joan + **-go** + naiz |
 | Comeré | *jango dut* | jan + **-go** + dut |
@@ -158,4 +158,4 @@ Fíxate: *izan* sirve pa **ser** y pa **tener** — estrémalo l'auxiliar (*izan
 
 ## Trucu d'estudiu
 
-El futuru eusquera ye como'l «voi a + verbu» del castellán nun sentíu: **nun precises aprender conxugaciones nueves**, solo la pieza *-ko/-go*. Si duldes, piensa nel participiu (que yá lu sabes del pasáu: *erosi dut* = mercáilo) y péga-y el sufixu: *erosiko dut*.
+El futuru eusquera ye como'l «voi + verbu» del asturianu nun sentíu: **nun precises aprender conxugaciones nueves**, solo la pieza *-ko/-go*. Si duldes, piensa nel participiu (que yá lu sabes del pasáu: *erosi dut* = mercáilo) y péga-y el sufixu: *erosiko dut*.

@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: 주말
   - eu: bihar
-    es: mañana
+    es: 내일
   - eu: etzi
-    es: pasado mañana
+    es: 모레
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: 오늘 오후
   - eu: libre nago
-    es: estoy libre
+    es: 시간 있어요
 ---
 
 이 단원의 마지막 수업입니다. 지금까지 배운 모든 것을 합쳐 **일주일 전체**를 계획해 볼 것입니다. 요일, 미래 시제, 약속, 시간 표현... 계획을 세우는 데 필요한 표현들입니다.
@@ -116,7 +116,7 @@ exercises:
 
 ## 일정에 유용한 동사
 
-| 동사 | 미래형 | 의미 |
+| 동사 | 미래형 | 한국어 |
 |---|---|---|
 | joan | joango naiz/da | 갈 것이다 (내가/그가) |
 | etorri | etorriko naiz/da | 올 것이다 (내가/그가) |

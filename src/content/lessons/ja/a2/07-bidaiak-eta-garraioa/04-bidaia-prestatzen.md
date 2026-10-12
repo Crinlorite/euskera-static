@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: 行き先を選ぶ
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: 切符を買う
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: 宿を予約する
   - eu: Maleta prestatuko dut
     es: スーツケースを準備する
   - eu: Ez ahaztu kargagailua!
@@ -118,7 +118,7 @@ exercises:
 
 ## スーツケース
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | スーツケース／リュックサック | *maleta / motxila* |
 | 書類 | *agiriak* |

@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Me cuaca leyer
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Le fa goi cantar
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Nos fa goi viachar
   - eu: Margotzen dakit
     es: Sé pintar
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Voi a bailar
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Estoi cocinando
 ---
 
 Qué fas cuan no fas res? Ista lección va d'**aficions** — y d'a pieza de gramatica que las gubierna: o verbo convertiu en substantivo con **-tzea** (*irakurtzea* = "o leyer").
@@ -134,7 +134,7 @@ Tot o NOR-NORI que ya sabes (*zait, zaio, zaigu…*) sigue manando; nomás cambi
 
 ## Tres estructuras, tres matices (repaso fino)
 
-| Estructura | Exemplo | Significa |
+| Estructura | Exemplo | Significau |
 |---|---|---|
 | **-tzea gustatzen zait** | *Margotzea gustatzen zait* | me cuaca (afición) |
 | **-tzen dakit** | *Margotzen dakit* | en sé (habilidat) |

@@ -83,7 +83,7 @@ exercises:
   - eu: urduria naiz
     es: sou nervosa (caráter)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: estou nervosa (agora)
   - eu: ona da
     es: é bom (qualidade)
   - eu: ondo dago

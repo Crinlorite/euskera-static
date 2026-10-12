@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: allumer
   - eu: itzali
-    es: apagar
+    es: éteindre
   - eu: gorde
-    es: guardar
+    es: enregistrer
   - eu: ezabatu
-    es: borrar
+    es: effacer
   - eu: deskargatu
-    es: descargar
+    es: télécharger
   - eu: partekatu
-    es: compartir
+    es: partager
 ---
 
 Du papier au pixel : la leçon de **technologie quotidienne**. Du vocabulaire que tu utilises cent fois par jour — maintenant en basque, qui, de plus, se targue de mots transparents et bien construits (*pasahitza* = mot de passe ; *sakelakoa* = "celui de poche").

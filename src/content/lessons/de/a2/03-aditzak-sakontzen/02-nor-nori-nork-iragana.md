@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: ich gab dir
   - eu: eman zion
-    es: le dio
+    es: er/sie gab ihm/ihr
   - eu: eman nion
-    es: le di
+    es: ich gab ihm/ihr
   - eu: eman ziguten
-    es: nos dieron
+    es: sie gaben uns
   - eu: eman nizkion
     es: ich gab ihm/ihr (sie, Pl.)
 ---
@@ -83,7 +83,7 @@ Das NOR-NORI-NORK in der Vergangenheit folgt der gleichen Logik wie das Präsens
 
 ## Die Formel
 
-> **partizipioa + n-i-NORI-NORK + n** (final)
+> **partizipioa + n-i-NORI-NORK + n** (am Ende)
 
 Im Vergleich zum Präsens ändert sich Folgendes:
 

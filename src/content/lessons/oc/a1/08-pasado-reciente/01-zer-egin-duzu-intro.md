@@ -83,7 +83,7 @@ En basc, entà condar çò qu'as hèt hè pòc — sustot aué — s'emplegue et
 
 Comparat damb er aspècte abituau que veeres ena unitat anteriora, er unic que cambie ei qu'eth vèrb va **sense -tzen / -ten**:
 
-| Abituau | Passat recent | Occitan |
+| Abituau | Passat recent | Aranés |
 |---|---|---|
 | *gosaltzen dut* | **gosaldu dut** | esdejoï → è esdejoat |
 | *jaten dut* | **jan dut** | minji → è minjat |

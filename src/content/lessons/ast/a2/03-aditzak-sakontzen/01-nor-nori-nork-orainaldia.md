@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ad1-mc1
   type: multiple-choice
-  prompt: '"Liburua eman dizut" significa…'
+  prompt: '"Liburua eman dizut" quier dicir…'
   options:
   - Déite un llibru
   - Di-y un llibru
@@ -22,7 +22,7 @@ exercises:
   explanation: '*Eman dizut* = "(yo) déitelo" — NOR-NORI-NORK: NOR = llibru (lo), NORI = a ti (-zu), NORK = yo.'
 - id: ex-a2-ad1-mc2
   type: multiple-choice
-  prompt: ¿Qué significa "Esan diot"?
+  prompt: ¿Qué quier dicir "Esan diot"?
   options:
   - Díxi-y
   - Díxite

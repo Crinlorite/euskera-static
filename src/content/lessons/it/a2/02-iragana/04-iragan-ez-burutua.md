@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Andai (una volta)
   - eu: Joaten nintzen
     es: Andavo (abitudine)
   - eu: Joan nuen autoa
     es: (non è valido)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Stavo andando
   - eu: Bizi nintzen Bilbon
     es: Vivevo a Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Ieri sono andato a Bilbao
 ---
 
 L'**imperfetto** del basco (*iragan ez burutua*) corrisponde, in linea di massima, a "mangiavo / vivevo / andavo / lavoravo" dell'italiano. Serve per raccontare:

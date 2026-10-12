@@ -94,7 +94,7 @@ Peche da unidade: **o lecer urbano** — concertos, teatro, museos e feiras. Aqu
 
 ## O menú da finde
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | O concerto | *kontzertua* |
 | O teatro (edificio) | *antzokia* |
@@ -108,7 +108,7 @@ Peche da unidade: **o lecer urbano** — concertos, teatro, museos e feiras. Aqu
 
 ## As entradas
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | A entrada | *sarrera* |
 | Comprar entradas | *sarrerak erosi* |

@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + 현재 시제 동사는 스페인어에서처럼 부드럽게 제안하는 고전적인 방식입니다. 나머지 선택지는 과거, 목적지 또는 돌아오는 것에 대해 묻는 질문입니다.'
+  explanation: '*Zergatik ez…?* + 현재 시제 동사는 한국어의 "~하는 게 어때?"처럼 부드럽게 제안하는 고전적인 방식입니다. 나머지 선택지는 과거, 목적지 또는 돌아오는 것에 대해 묻는 질문입니다.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: 6시에 만날까? = seietan ___ gara?
@@ -105,7 +105,7 @@ exercises:
 
 ## 초대와 제안
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 나랑 저녁 먹을래? | *Nirekin afaldu **nahi duzu**?* |
 | 영화 보러 가는 거 어때? | ***Zergatik ez** goaz zinemara?* |
@@ -117,7 +117,7 @@ exercises:
 
 ## 만나기: 어디서, 언제
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 만날까? | ***Geratuko gara?*** |
 | 어디서 만날까? | ***Non** geratuko gara?* |

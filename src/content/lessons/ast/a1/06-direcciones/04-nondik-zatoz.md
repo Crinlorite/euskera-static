@@ -37,7 +37,7 @@ exercises:
   explanation: 'Tres consonante, el sufixu adáutase: "Madril" → "Madrildik" o "Madriletik" (les dos formes acéptense).'
 - id: ex-nzt-mc2
   type: multiple-choice
-  prompt: ¿Qué significa "Lanetik nator"?
+  prompt: ¿Qué quier dicir "Lanetik nator"?
   options:
   - Voi al trabayu
   - Toi nel trabayu

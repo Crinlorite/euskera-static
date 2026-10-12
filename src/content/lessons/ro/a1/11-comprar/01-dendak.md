@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: fructărie
   - eu: supermerkatua
-    es: supermercado
+    es: supermarket
   - eu: kutxazain automatikoa
     es: bancomat
 - id: ex-dendak-mc1

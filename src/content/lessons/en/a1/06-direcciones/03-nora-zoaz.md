@@ -102,13 +102,13 @@ exercises:
   - eu: Nora zoaz?
     es: Where are you going?
   - eu: Etxera noa
-    es: Voy a casa
+    es: I'm going home
   - eu: Eskolara noa
     es: I'm going to school
   - eu: Zertara zoaz?
     es: What are you going for?
   - eu: Erostera
-    es: A comprar
+    es: To go shopping
 ---
 
 The **NORA case** (also called *adlative*) marks the **destination** of a movement: where you are going. In English, it's usually translated with the preposition **"to"** ("I'm going *to* the house", "*to* Bilbao", "*to the* park").

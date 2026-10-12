@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ko4-mc1
   type: multiple-choice
-  prompt: '"Euskara ikasteko aplikazio bat da" significa…'
+  prompt: '"Euskara ikasteko aplikazio bat da" vol dir…'
   options:
   - És una app que aprèn basc
   - És una app feta en basc
@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: On vas?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: A comprar pa
   - eu: Zertara etorri da?
     es: A què ha vingut?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ La pregunta: ***Zertara** etorri zara?* (a què has vingut?) → *Laguntzera!* (
 | No — és un "per a" | **-tzeko** | *Hau ikasteko da* |
 | Sí — vas/vens A | **-tzera** | *Ikastera noa* |
 
-> Parany clàssic del castellà: "voy a comprar" NO és futur en basc — és moviment: *erostera noa*. El futur de veritat ja el tens: *erosiko dut*.
+> Compte: «vaig a comprar» (anar a comprar) NO és futur en basc — és moviment: *erostera noa*. El futur de veritat ja el tens: *erosiko dut*.
 
 ## Tot junt (i amb les temporals d'ahir)
 

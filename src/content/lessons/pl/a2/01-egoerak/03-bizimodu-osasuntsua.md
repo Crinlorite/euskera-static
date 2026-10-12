@@ -85,17 +85,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: papier
   - eu: plastikoa
     es: plastik
   - eu: beira
-    es: vidrio
+    es: szkło
   - eu: organikoa
     es: organiczne
   - eu: pila
-    es: pila
+    es: bateria
   - eu: olioa
-    es: aceite
+    es: olej
 ---
 
 Rozmowa o **stylu życia** i **środowisku** to klasyczny blok na poziomie A2: miesza się w nim nowe słownictwo ze zwrotami wyrażającymi obowiązek i radę (*behar dugu*, *komeni da*, *garrantzitsua da*), które znasz już z poziomu A1.

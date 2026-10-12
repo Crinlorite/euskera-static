@@ -77,17 +77,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: cu trenul
   - eu: autobusez
     es: cu autobuzul
   - eu: hegazkinez
     es: cu avionul
   - eu: kotxez
-    es: en coche
+    es: cu mașina
   - eu: oinez
-    es: andando
+    es: pe jos
   - eu: bizikletaz
-    es: en bici
+    es: cu bicicleta
 ---
 
 Începe unitatea despre călătorii. Prima oprire: **mijloacele de transport** și verbele pentru a le folosi. Cu instrumentalul *-z* pe care îl cunoști deja de la A1, a spune „cu trenul” sau „cu bicicleta” este un sufix.

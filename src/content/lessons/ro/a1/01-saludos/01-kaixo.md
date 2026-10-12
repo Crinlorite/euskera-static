@@ -74,17 +74,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Salut
   - eu: Agur
     es: La revedere
   - eu: Egun on
     es: Bună dimineața
   - eu: Gabon
-    es: Buenas noches
+    es: Noapte bună
   - eu: Gero arte
-    es: Hasta luego
+    es: Pe curând
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Mulțumesc mult
 ---
 
 În limba bască, saluturile se schimbă în funcție de momentul zilei. Formula universală și cea mai comună este **Kaixo**, care se folosește la orice oră cu aproape oricine — la fel ca „salut” în română. **Hepa** sau **Aupa** sunt alternative și mai informale, mai ales între tineri și prieteni.
@@ -99,7 +99,7 @@ exercises:
 | Seara și ca formulă de noapte bună | *Gabon* | Noapte bună |
 | Oricând | *Kaixo* / *Hepa* / *Aupa* | Salut |
 
-`On` înseamnă „bun” și apare în multe saluturi: *egun on* înseamnă literalmente „zi bună”.
+`On` înseamnă „bun” și apare în multe saluturi: *egun on* înseamnă literal „zi bună”.
 
 ## Reîntâlnirea
 

@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: prieten/ă
   - eu: bizilaguna
-    es: vecino/a
+    es: vecin/ă
   - eu: ikaskidea
     es: coleg/ă de clasă
   - eu: lankidea
     es: coleg/ă de muncă
   - eu: ezaguna
-    es: conocido/a
+    es: cunoștință
   - eu: koadrila
     es: gașcă / grup de prieteni
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: Cine este "bizilaguna" ta?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - Fratele tău
+  - Șeful tău
+  - Vecinul tău
+  - Profesorul tău
   answer: 2
   explanation: '"Bizi" (a locui) + "laguna" (coleg/ă) = "coleg/ă de locuință" → vecin/ă (de pe scara ta sau din cartier).'
 - id: ex-10-01-mc2

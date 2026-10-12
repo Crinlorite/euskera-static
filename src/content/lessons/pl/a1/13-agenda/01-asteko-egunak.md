@@ -76,19 +76,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: poniedziałek
   - eu: asteartea
-    es: martes
+    es: wtorek
   - eu: asteazkena
     es: środa
   - eu: osteguna
-    es: jueves
+    es: czwartek
   - eu: ostirala
-    es: viernes
+    es: piątek
   - eu: larunbata
     es: sobota
   - eu: igandea
-    es: domingo
+    es: niedziela
 ---
 
 Zanim zaczniemy mówić o planach i harmonogramach, powtórzmy dni tygodnia i nauczmy się łączyć je z codziennymi czynnościami.

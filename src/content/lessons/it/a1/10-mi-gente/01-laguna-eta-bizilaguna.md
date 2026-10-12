@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: amico/a
   - eu: bizilaguna
-    es: vecino/a
+    es: vicino/a
   - eu: ikaskidea
     es: compagno/a di classe
   - eu: lankidea
     es: collega di lavoro
   - eu: ezaguna
-    es: conocido/a
+    es: conoscente
   - eu: koadrila
     es: comitiva / gruppo di amici
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: Chi è il tuo "bizilaguna"?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - Tuo fratello
+  - Il tuo capo
+  - Il tuo vicino
+  - Il tuo professore
   answer: 2
   explanation: '"Bizi" (vivere) + "laguna" (compagno/a) = "compagno/a di abitazione" → vicino/a (del tuo ingresso o quartiere).'
 - id: ex-10-01-mc2

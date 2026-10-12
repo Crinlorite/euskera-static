@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: 週末
   - eu: bihar
-    es: mañana
+    es: 明日
   - eu: etzi
-    es: pasado mañana
+    es: あさって
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: 今日の午後
   - eu: libre nago
-    es: estoy libre
+    es: 空いています
 ---
 
 このユニットの最後のレッスンです。これまで学んだことをすべて使って、**丸一週間**の予定を立ててみましょう。曜日、未来形、約束、時を表す言葉など、計画を立てるための言葉を学びます。
@@ -116,7 +116,7 @@ exercises:
 
 ## 予定を立てるのに便利な動詞
 
-| 動詞 | 未来形 | 意味 |
+| 動詞 | 未来形 | 日本語 |
 |---|---|---|
 | joan | joango naiz/da | 行きます |
 | etorri | etorriko naiz/da | 来ます |

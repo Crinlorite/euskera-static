@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: amic/ga
   - eu: bizilaguna
-    es: vecino/a
+    es: vesin/a
   - eu: ikaskidea
     es: companh/companha de classe
   - eu: lankidea
     es: companh/companha de trabalh
   - eu: ezaguna
-    es: conocido/a
+    es: coneishut/da
   - eu: koadrila
     es: koadrila / grop d'amics
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: Qui ei eth tòn "bizilaguna"?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - Eth tòn frair
+  - Eth tòn cap
+  - Eth tòn vesin
+  - Eth tòn professor
   answer: 2
   explanation: '"Bizi" (víuer) + "laguna" (companh/companha) = "companh/companha de residéncia" → vesin/vesia (de tòn portau o barri).'
 - id: ex-10-01-mc2
@@ -88,7 +88,7 @@ En aguesta unitat mos centram ena gent que t'entorege: es **bizilagunak** (vesin
 
 ## Es paraules clau
 
-| Èuscar | Castelhan | De qué tipe de relacion |
+| Èuscar | Aranés | De qué tipe de relacion |
 |---|---|---|
 | *laguna* | amic/amiga | confidança personau |
 | *lagun mina* | amic/amiga intime/a | confidança maxima |

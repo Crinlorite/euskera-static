@@ -27,8 +27,8 @@ exercises:
   prompt: Per parlar de l'**escena** de fons (com era el dia, on eren) en una història, quin passat faig servir?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Present
+  - Passat recent (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: L'escena, la descripció i els hàbits van en imperfet. Les accions puntuals que fan avançar la història van en *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: es va casar
   - eu: bidaiatu zuten
-    es: viajaron
+    es: van viatjar
   - eu: ezagutu nuen
     es: vaig conèixer
   - eu: maitemindu nintzen

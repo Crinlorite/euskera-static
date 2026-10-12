@@ -16,7 +16,7 @@ covers:
 exercises:
 - id: ex-05-gze-mc1
   type: multiple-choice
-  prompt: Cal é a tradución correcta de "Esta mañana me he despertado tarde"?
+  prompt: Cal é a tradución correcta de "Esta mañá espertei tarde"?
   options:
   - Gaur goizean berandu esnatu dut
   - Gaur goizean berandu esnatu naiz

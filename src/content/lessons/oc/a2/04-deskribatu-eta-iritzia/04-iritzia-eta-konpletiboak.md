@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Non credi que sigue bon
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Pr'amor qu'a vengut
   - eu: Egia delako
     es: Perque ei vertat
   - eu: Argi dago zaila dela
@@ -89,7 +89,7 @@ Tà A2 exprimir era opinion ei ua des **competéncies clau**. Aguesta leccion te
 
 ## Començar ua opinion
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Credi que… | *Uste dut...* |
 | Me semble que… | *Iruditzen zait...* |
@@ -105,7 +105,7 @@ Tà A2 exprimir era opinion ei ua des **competéncies clau**. Aguesta leccion te
 
 Quan era opinion introdusís ua auta frasa, eth vèrb subordinat pòrte eth sufix **-(e)la** ("que…"). Eth cambi ei fòrça regular:
 
-| Sense sufix | Damb -ela | Castelhan |
+| Sense sufix | Damb -ela | Aranés |
 |---|---|---|
 | *da* | *dela* | qu'ei / qu'ei |
 | *naiz* | *naizela* | que (jo) sò |
@@ -127,7 +127,7 @@ Quan era opinion introdusís ua auta frasa, eth vèrb subordinat pòrte eth sufi
 
 Quan ditzes "**non credi que** + vèrb", eth sufix deth subordinat cambie a **-enik**:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Non credi que sigue bon | *Ez dut uste ona **denik*** |
 | Non credi que vengan | *Ez dut uste etorriko **direnik*** |
@@ -139,7 +139,7 @@ Quan ditzes "**non credi que** + vèrb", eth sufix deth subordinat cambie a **-e
 
 Aguestes estructures combinen adjectiu + *da* + frasa damb -ela:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Ei clar que… | *Argi dago + -(e)la* |
 | Ei important que… | *Garrantzitsua da + -tzea* |
@@ -160,7 +160,7 @@ Tà exprimir era **causa** ("perque"), as dues vies:
 
 > **vèrb + -lako**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Perque a vengut | *Etorri **delako*** |
 | Perque è hami | *Goseak nagoelako* (o *gose naizelako*) |
@@ -173,7 +173,7 @@ Tà exprimir era **causa** ("perque"), as dues vies:
 
 ### Conjuncion *zeren* (ath començament dera frasa)
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Perque ei important | *…, **zeren** garrantzitsua baita* |
 | …, pr'amor que a vengut | *…, **zeren** etorri baita* |
@@ -192,7 +192,7 @@ Tà exprimir era **causa** ("perque"), as dues vies:
 
 ## Estructures utiles en lista
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Pensi qu'ei important | *Garrantzitsua **dela** uste dut* |
 | Sèi qu'a rason | *Arrazoia **duela** badakit* |
@@ -205,7 +205,7 @@ Tà exprimir era **causa** ("perque"), as dues vies:
 
 1. **Non te'n desbrembes dera doble cara: -ela en afirmatiu, -enik en negatiu d'opinion.**
 2. **Eth sufix -ela se pegue ath vèrb conjugat**, non ath participi: *etorriko da → etorriko **dela***.
-3. **S'era opinion ei fòrça fòrta, en castelhan emplegues eth subjontiu**, en basc non i a cap de diferéncia clara: *uste dut ondo dagoela* (credi qu'ei ben) e *zalantza dut ondo dagoenik* (dopti que sigue ben) empleguen formes diferentes mès non un "subjontiu" formau.
+3. **En aranés, eth dobte demane subjontiu**, en basc non i a cap de diferéncia clara: *uste dut ondo dagoela* (credi qu'ei ben) e *zalantza dut ondo dagoenik* (dopti que sigue ben) empleguen formes diferentes mès non un "subjontiu" formau.
 
 > **Nòta pedagogica:** era formula *Nire ustez + frasa + -lako + frasa* ei probablament era esturmenta de A2 mès rendabla tà opinar e argumentar. Exemple modèl:
 >

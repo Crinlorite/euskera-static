@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: latră și se plimbă
   - eu: katua
-    es: duerme 16 horas
+    es: doarme 16 ore
   - eu: behia
-    es: da leche
+    es: dă lapte
   - eu: ardia
     es: dă lână și brânză
   - eu: txoria
-    es: canta al amanecer
+    es: cântă în zori
   - eu: basurdea
     es: distruge lanul de porumb
 ---

@@ -89,24 +89,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: 검은 머리
   - eu: ile horia
-    es: pelo rubio
+    es: 금발
   - eu: ile motza
-    es: pelo corto
+    es: 짧은 머리
   - eu: ile luzea
-    es: pelo largo
+    es: 긴 머리
   - eu: begi urdinak
-    es: ojos azules
+    es: 파란 눈
   - eu: begi marroiak
-    es: ojos marrones
+    es: 갈색 눈
   - eu: bizarduna
     es: 수염이 있는
   - eu: betaurrekoduna
     es: 안경을 쓴
 ---
 
-바스크어에서 머리카락과 눈을 묘사할 때는 스페인어("soy moreno")에서처럼 **izan**("~이다")을 사용하지 않고, **ukan**("가지다")을 사용합니다: *나는 검은 머리카락을 가졌어*, *나는 파란 눈을 가졌어*.
+바스크어에서 머리카락과 눈을 묘사할 때는 **izan**("~이다")을 사용하지 않고, **ukan**("가지다")을 사용합니다: *나는 검은 머리카락을 가졌어*, *나는 파란 눈을 가졌어*.
 
 ## 머리카락: ile
 
@@ -124,7 +124,7 @@ exercises:
 | *ile lisoa* | 직모 |
 | *ile kizkurra* | 곱슬머리 |
 
-> 바스크어에서 머리카락은 스페인어에서처럼 **단수**로 취급됩니다. 그래서 (*ditut* / *ditu*가 아닌) *dut* / *du*를 사용합니다.
+> 바스크어에서 머리카락은 **단수**로 취급됩니다. 그래서 (*ditut* / *ditu*가 아닌) *dut* / *du*를 사용합니다.
 
 - *Ile beltza eta luzea **dut**.* — 저는 검고 긴 머리카락을 가졌어요.
 - *Maialenek ile kizkurra **du**.* — Maialen은 곱슬머리를 가졌어요.

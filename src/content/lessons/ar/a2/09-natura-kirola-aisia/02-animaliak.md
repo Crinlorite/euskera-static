@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: ينبح ويتنزه
   - eu: katua
-    es: duerme 16 horas
+    es: ينام 16 ساعة
   - eu: behia
-    es: da leche
+    es: تعطي الحليب
   - eu: ardia
     es: تعطي الصوف والجبن
   - eu: txoria
-    es: canta al amanecer
+    es: يصيح عند الفجر
   - eu: basurdea
     es: يدمر حقل الذرة
 ---

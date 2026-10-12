@@ -16,8 +16,8 @@ exercises:
   prompt: '"Eman zion liburua" signifie…'
   options:
   - Il/elle lui donne le livre
-  - Il/elle lui a donné le livre
-  - Il/elle lui a donné le livre
+  - Il/elle lui a donné le livre (aujourd'hui, récemment)
+  - Il/elle lui a donné le livre (un autre jour)
   - Il/elle t'a donné le livre
   answer: 2
   explanation: '*Zion* = NOR-NORI-NORK passé : "il/elle le lui". Forme complète au passé : "il/elle lui a donné".'
@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: je t'ai donné
   - eu: eman zion
-    es: le dio
+    es: il/elle lui a donné
   - eu: eman nion
-    es: le di
+    es: je lui ai donné
   - eu: eman ziguten
-    es: nos dieron
+    es: ils nous ont donné
   - eu: eman nizkion
     es: je les lui ai donnés
 ---

@@ -23,7 +23,7 @@ exercises:
   explanation: '*Kontua, mesedez* és la fórmula universal per demanar el compte.'
 - id: ex-kont-mc2
   type: multiple-choice
-  prompt: '"Kobratuko al didazu?" significa…'
+  prompt: '"Kobratuko al didazu?" vol dir…'
   options:
   - Quant costa?
   - Em cobres?

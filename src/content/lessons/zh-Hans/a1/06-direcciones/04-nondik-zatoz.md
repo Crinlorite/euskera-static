@@ -111,7 +111,7 @@ exercises:
 
 ## 问题：Nondik?
 
-| 问题 | 中文含义 |
+| 问题 | 中文 |
 |---|---|
 | ***Nondik* zatoz?** | 你从哪里来？ |
 | ***Nondik* dator?** | 他/她从哪里来？ |

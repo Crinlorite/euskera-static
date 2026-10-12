@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" signifique…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - avorrit
+  - alègre
+  - nerviós
+  - calat
   answer: 1
   explanation: '*alaia* ei "alegre". Ei un des adjectius de caractèr mès comuns.'
 - id: ex-iza-mc2
@@ -48,7 +48,7 @@ exercises:
   type: flashcards
   cards:
   - eu: alaia
-    es: alegre
+    es: alègre
   - eu: jatorra
     es: simpatic, agradable
   - eu: atsegina
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: alègre
   - eu: isila
-    es: callado
+    es: calat
   - eu: berritsua
-    es: hablador
+    es: parlaire
   - eu: lasaia
-    es: tranquilo
+    es: tranquil
   - eu: urduria
-    es: nervioso
+    es: nerviós
   - eu: langilea
-    es: trabajador
+    es: trabalhador
   - eu: alferra
-    es: vago
+    es: gandulàs
   - eu: jatorra
     es: simpatic
 ---

@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" 意思是……'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - 长棍三明治
+  - 组合套餐
+  - 甜点
   answer: 1
   explanation: '*ogitartekoa* 来自 *ogi*（面包）+ *arte*（之间）：“两片面包之间的东西”——也就是三明治。'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — 和西班牙语几乎完全一样，没有太大变化。'
+  explanation: '*plater konbinatua* — 来自西班牙语 “plato combinado”，几乎没有变化。'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: “我要一份奶酪” = Niretzat ___ ___.
@@ -70,7 +70,7 @@ exercises:
   - eu: txorizoa
     es: 西班牙香肠
   - eu: txistorra
-    es: txistorra
+    es: 细香肠（txistorra）
   - eu: antxoa
     es: 凤尾鱼
   - eu: Niretzat pintxo bat
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: 小吃（pintxo）
   - eu: ogitartekoa
-    es: bocadillo
+    es: 长棍三明治
   - eu: plater konbinatua
-    es: plato combinado
+    es: 组合套餐
   - eu: razioa
     es: 一份 (菜)
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: 奶酪
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ exercises:
 
 ## 三种形式
 
-| 巴斯克语 | 西班牙语 | 份量 |
+| 巴斯克语 | 中文 | 份量 |
 |---|---|---|
 | *pintxoa* | pincho / tapa (小吃) | 小份，吧台小吃 |
 | *ogitartekoa* | 三明治 | 中等份量，夹在面包里 |
@@ -115,7 +115,7 @@ exercises:
 
 以下是你在酒吧黑板上会看到的最常见的馅料：
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *tortilla* | 土豆煎蛋饼 |
 | *txistorra* | txistorra (一种西班牙香肠) |

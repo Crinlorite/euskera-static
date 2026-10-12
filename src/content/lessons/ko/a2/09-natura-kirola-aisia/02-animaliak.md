@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: 짖고 산책해요
   - eu: katua
-    es: duerme 16 horas
+    es: 16시간 잔다
   - eu: behia
-    es: da leche
+    es: 우유를 준다
   - eu: ardia
     es: 양모와 치즈를 줘요
   - eu: txoria
-    es: canta al amanecer
+    es: 새벽에 운다
   - eu: basurdea
     es: 옥수수밭을 망쳐요
 ---
@@ -95,7 +95,7 @@ exercises:
 
 ## 집에서
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 개 | *txakurra* |
 | 고양이 | *katua* |
@@ -106,7 +106,7 @@ exercises:
 
 ## 농가(baserria)에서
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 소 | *behia* |
 | 양 / 어린 양 | *ardia / arkumea* |
@@ -119,7 +119,7 @@ exercises:
 
 ## 숲과 하늘에서
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 멧돼지 | *basurdea* |
 | 여우 | *azeria* |

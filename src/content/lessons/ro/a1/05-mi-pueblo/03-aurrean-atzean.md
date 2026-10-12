@@ -16,17 +16,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: în față
   - eu: atzean
     es: în spate
   - eu: ondoan
-    es: al lado
+    es: alături
   - eu: gainean
-    es: encima
+    es: deasupra
   - eu: azpian
-    es: debajo
+    es: dedesubt
   - eu: artean
-    es: entre
+    es: între
   - eu: ezkerrean
     es: la stânga
   - eu: eskuinean

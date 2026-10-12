@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: おば
   - eu: lehengusu
-    es: primo
+    es: いとこ（男）
   - eu: lehengusina
-    es: prima
+    es: いとこ（女）
   - eu: iloba
-    es: sobrino/a
+    es: 甥／姪
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: 「Lehengusu」は...
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - いとこ（男）
+  - 兄弟
+  - 祖父
+  - 義父
   answer: 0
 - id: ex-fe-fc
   type: flashcards

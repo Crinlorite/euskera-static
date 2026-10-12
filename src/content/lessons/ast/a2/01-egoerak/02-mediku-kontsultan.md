@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" quier dicir…'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Toi peor
+  - Toi bien
+  - Toi meyor
+  - Toi igual
   answer: 2
   explanation: '*Hobeto* = meyor. *Hobe* ye l''axetivu "meyor" y *hobeto* l''alverbiu.'
 - id: ex-a2-eg2-fb1
@@ -99,7 +99,7 @@ Variantes:
 
 Pa indicar "cada X tiempu", l'eusquera usa'l sufixu **-ro** sobre'l sustantivu de tiempu:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Cada hora | *orduro* |
 | Cada dos hores | *bi orduro* |
@@ -124,7 +124,7 @@ Les indicaciones del médicu suelen llevar estes fórmules:
 
 Pa responder cómo t'atopes:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Toi meyor | *Hobeto nago* |
 | Toi peor | *Okerrago nago* |

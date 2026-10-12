@@ -73,11 +73,11 @@ exercises:
   - eu: gehiago
     es: もっと多く（量）
   - eu: gutxiago
-    es: menos
+    es: より少ない
   - eu: hobea
-    es: mejor
+    es: よりよい
   - eu: okerragoa
-    es: peor
+    es: より悪い
   - eu: azkarragoa
     es: より速く
 ---
@@ -92,7 +92,7 @@ exercises:
 - **-ago** は形容詞や副詞に付きます（英語の "-er" のようなものです）。
 - 定冠詞の付いた名詞と使われる場合、形容詞には通常の **-a** が付きます。例：*altuago**a***。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | より大きい | *handi**agoa*** |
 | より小さい | *txiki**agoa*** |
@@ -102,7 +102,7 @@ exercises:
 
 ## 例文
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | LanderはOlatzより背が高い | *Lander Olatz **baino** altu**agoa** da* |
 | この家はあの家より大きい | *Etxe hau hura **baino** handi**agoa** da* |
@@ -116,7 +116,7 @@ exercises:
 
 いくつかの形容詞は規則通りに変化しないため、覚える必要があります。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 良い → より良い | *ona → **hobea*** |
 | 悪い → より悪い | *txarra → **okerragoa*** |
@@ -131,7 +131,7 @@ exercises:
 
 **行動**や**量**を比較する場合、*gehiago / gutxiago* は副詞として機能します。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 私はあなたより多く働く | *Zuk **baino gehiago** lan egiten dut* |
 | 彼は以前より勉強しない | *Lehen **baino gutxiago** ikasten du* |
@@ -168,7 +168,7 @@ exercises:
 
 これは非常によく使われる形です。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | それほど高くない | *Ez da **hain** garestia* |
 | それほど速くない | *Ez **hain** azkar* |

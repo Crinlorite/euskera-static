@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: 너무 많이 먹다
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: 잠이 부족하다
   - eu: gero eta hotzago
     es: 점점 더 추운
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: 점점 덜
   - eu: pixka bat berandu
     es: 조금 늦은
   - eu: askoz hobeto
-    es: mucho mejor
+    es: 훨씬 좋은
 ---
 
 이번 과에서는 비교급에 두 가지 요소를 더해 완성해 보겠습니다:
@@ -133,7 +133,7 @@ exercises:
 
 '**점점 더 X한**' 또는 '**점점 덜 X한**'을 표현하기 위해 바스크어는 매우 표현력이 풍부한 공식을 사용합니다:
 
-> **gero eta + adjetivo/adverbio-ago(a)**
+> **gero eta + 형용사/부사-ago(a)**
 
 | 한국어 | 바스크어 |
 |---|---|

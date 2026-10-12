@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: 친구
   - eu: bizilaguna
-    es: vecino/a
+    es: 이웃
   - eu: ikaskidea
     es: 학급 친구/학우
   - eu: lankidea
     es: 직장 동료
   - eu: ezaguna
-    es: conocido/a
+    es: 아는 사람
   - eu: koadrila
     es: 친구 무리 / 그룹
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: 당신의 "bizilaguna"는 누구인가요?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - 네 형제
+  - 네 상사
+  - 네 이웃
+  - 네 선생님
   answer: 2
   explanation: '"Bizi"(살다) + "laguna"(동료) = "주거 동료" → 이웃(같은 현관이나 동네의).'
 - id: ex-10-01-mc2

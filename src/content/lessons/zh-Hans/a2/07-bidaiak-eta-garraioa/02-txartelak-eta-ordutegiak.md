@@ -97,14 +97,14 @@ exercises:
   - eu: Berandu dabil
     es: 晚点了
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: 我们准时到了
 ---
 
 第二站：**买票，别误了火车**。在这里，你将重新运用 A1 级别学过的两个法宝——*zenbat balio du?*（价格）和时间表达——并把它们用在售票窗口。
 
 ## 在售票窗口
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 车票 | *txartela* |
 | 单程 | *joaneko txartela* |
@@ -132,7 +132,7 @@ exercises:
 
 ## 延误与准点
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 晚点了 | *berandu dabil* |
 | 准时到达 | *garaiz iritsi da* |

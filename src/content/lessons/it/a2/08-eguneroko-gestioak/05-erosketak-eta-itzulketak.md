@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" significa che il capo è...'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Troppo cara
+  - Troppo grande
+  - Molto bella
+  - Troppo piccola
   answer: 1
   explanation: 'Il suffisso *-egi* dell''unità 04 (gehiegi/gutxiegi) applicato alla taglia: handi**egi**a = troppo grande; txiki**egi**a = troppo piccolo.'
 - id: ex-a2-ge5-mc2

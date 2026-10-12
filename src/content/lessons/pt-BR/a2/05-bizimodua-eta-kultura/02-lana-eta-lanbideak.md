@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" significa…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Trabalho
+  - Salário
+  - Chefe
+  - Funcionário
   answer: 1
   explanation: '*Soldata* = salário. *Lansari* é um sinônimo formal.'
 - id: ex-a2-bz2-fb1
@@ -67,7 +67,7 @@ exercises:
   - eu: lan-elkarrizketa
     es: entrevista de emprego
   - eu: curriculuma
-    es: CV
+    es: currículo
   - eu: esperientzia
     es: experiência
   - eu: lanpostua
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: professor/a
   - eu: erizain
-    es: enfermero/a
+    es: enfermeiro/a
   - eu: sukaldari
-    es: cocinero/a
+    es: cozinheiro/a
   - eu: kazetari
-    es: periodista
+    es: jornalista
   - eu: mekanikari
     es: mecânico(a)
   - eu: arkitekto
-    es: arquitecto/a
+    es: arquiteto/a
 ---
 O A2 abre para você o mundo do **trabalho** além de "sou estudante / sou professor". Agora você começa a falar sobre:
 

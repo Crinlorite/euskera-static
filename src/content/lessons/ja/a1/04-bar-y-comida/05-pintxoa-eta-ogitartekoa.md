@@ -17,9 +17,9 @@ exercises:
   prompt: 「Ogitarteko」の意味は…
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - バゲットサンド
+  - ワンプレート料理
+  - デザート
   answer: 1
   explanation: '*ogitartekoa*は*ogi*（パン）+ *arte*（間）に由来します。「パンの間のもの」という意味で、サンドイッチのことです。'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — スペイン語とほぼ同じで、大きな変化はありません。'
+  explanation: '*plater konbinatua* — スペイン語の「plato combinado」からほとんどそのまま来ています。'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: 私に、チーズのラシオンを = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: ピンチョス
   - eu: ogitartekoa
-    es: bocadillo
+    es: バゲットサンド
   - eu: plater konbinatua
-    es: plato combinado
+    es: ワンプレート料理
   - eu: razioa
     es: ラシオン（大皿）
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: チーズ
   - eu: tortilla
     es: tortilla
 ---

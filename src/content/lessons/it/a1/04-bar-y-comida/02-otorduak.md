@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: colazione
   - eu: hamaiketakoa
     es: spuntino di metà mattina
   - eu: bazkaria
     es: pranzo di mezzogiorno
   - eu: askaria
-    es: merienda
+    es: merenda
   - eu: afaria
     es: cena
   - eu: jan
-    es: comer
+    es: mangiare
   - eu: edan
-    es: beber
+    es: bere
 ---
 
 Ogni pasto della giornata ha il suo nome in basco, e conoscerli ti aiuterà a parlare della tua routine quotidiana. C'è inoltre un pasto specificamente basco che in italiano non ha un equivalente diretto: il **hamaiketako**.

@@ -89,24 +89,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: 黒髪
   - eu: ile horia
-    es: pelo rubio
+    es: 金髪
   - eu: ile motza
-    es: pelo corto
+    es: 短い髪
   - eu: ile luzea
-    es: pelo largo
+    es: 長い髪
   - eu: begi urdinak
-    es: ojos azules
+    es: 青い目
   - eu: begi marroiak
-    es: ojos marrones
+    es: 茶色い目
   - eu: bizarduna
     es: ヒゲを生やしている
   - eu: betaurrekoduna
     es: メガネをかけている
 ---
 
-バスク語で髪と目を描写するには、スペイン語のように（「私は黒髪です」のように）**izan**（～である）は使わず、**ukan**（持っている）を使います：*tengo el pelo negro*（私は黒い髪を持っている）、*tengo los ojos azules*（私は青い目を持っている）。
+バスク語で髪と目を描写するには、**izan**（～である）は使わず、**ukan**（持っている）を使います。「黒い髪を持っている」「青い目を持っている」という言い方です。
 
 ## 髪: ile
 
@@ -124,7 +124,7 @@ exercises:
 | *ile lisoa* | ストレートの髪 |
 | *ile kizkurra* | 巻き毛 |
 
-> バスク語では、髪はスペイン語と同様に**単数**として扱われます。そのため、*dut* / *du* を使います（*ditut* / *ditu* ではありません）。
+> バスク語では、髪は**単数**として扱われます。そのため、*dut* / *du* を使います（*ditut* / *ditu* ではありません）。
 
 - *Ile beltza eta luzea **dut**.* — 私は黒くて長い髪をしています。
 - *Maialenek ile kizkurra **du**.* — Maialenは巻き毛です。

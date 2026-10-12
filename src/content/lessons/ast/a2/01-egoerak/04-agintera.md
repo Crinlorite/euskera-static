@@ -23,7 +23,7 @@ exercises:
   explanation: '*Zatoz* ye la forma sintética del imperativu de *etorri* (venir) pa *zu*. Ye la forma natural n''órdenes y pidimientos.'
 - id: ex-a2-eg4-mc2
   type: multiple-choice
-  prompt: '"Eseri, mesedez" significa…'
+  prompt: '"Eseri, mesedez" quier dicir…'
   options:
   - Sienta, por favor
   - Sentéme, por favor
@@ -93,7 +93,7 @@ L'**imperativu** (*agintera*) sirve pa dar instrucciones, facer pidimientos y da
 
 Pa munches órdenes cotidianes, el verbu apaez na so forma de participiu ensin auxiliar:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Toma | *Hartu* |
 | Siéntate | *Eseri* |
@@ -103,7 +103,7 @@ Pa munches órdenes cotidianes, el verbu apaez na so forma de participiu ensin a
 | Escucha | *Entzun* |
 | Repite | *Errepikatu* |
 | Espera | *Itxoin* |
-| Cierra la puerta | *Itxi atea* |
+| Zarra la puerta | *Itxi atea* |
 | Abre la ventana | *Ireki leihoa* |
 
 > Esta ye la **forma más usada** na clase, na cai y n'instrucciones escrites. Sirve tanto pa *zu* como pa *zuek*.
@@ -127,7 +127,7 @@ Dellos verbos muy frecuentes tienen formes sintétiques específiques pal impera
 
 Cuando das una orde con doble oxetu ("dame esto", "diz-y aquello"), l'eusquera tien formes compactes muy útiles:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Dame | *Emadazu* / *Eman iezadazu* |
 | Dime | *Esadazu* / *Esan iezadazu* |

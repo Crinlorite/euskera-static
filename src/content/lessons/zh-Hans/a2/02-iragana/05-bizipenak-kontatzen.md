@@ -27,8 +27,8 @@ exercises:
   prompt: 要描述故事的背景**场景**（比如天气如何，他们在哪里），我应该用哪种过去时？
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - 现在时
+  - 近过去时（joan naiz）
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: 场景、描述和习惯用未完成时。推动故事情节发展的一次性动作则用burutua。
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: 他/她结婚了
   - eu: bidaiatu zuten
-    es: viajaron
+    es: 他们旅行了
   - eu: ezagutu nuen
     es: 我认识了
   - eu: maitemindu nintzen
@@ -115,7 +115,7 @@ exercises:
 
 用于串联发生的事情：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 首先 / 一开始 | *Lehenengo* / *Hasieran* |
 | 接下来 | *Ondoren* |
@@ -131,7 +131,7 @@ exercises:
 
 这些结构会出现在任何传记或个人叙述中：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我出生于1990年 | *1990ean **jaio nintzen*** |
 | 我在Tolosa长大 | *Tolosan **hazi nintzen*** |
@@ -146,7 +146,7 @@ exercises:
 
 ## 个人经历的时间标记
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | X年前 | *Duela X urte* |
 | 在1985年 | *1985ean* |
@@ -180,7 +180,7 @@ exercises:
 
 ## 采访他人时可以问的问题
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你在哪里出生？ | *Non jaio zinen?* |
 | 你什么时候开始工作的？ | *Noiz hasi zinen lanean?* |

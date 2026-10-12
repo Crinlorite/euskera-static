@@ -97,7 +97,7 @@ exercises:
   - eu: Berandu dabil
     es: Er/Sie/Es hat Verspätung
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: Wir sind pünktlich angekommen
 ---
 
 Zweiter Halt: **die Fahrkarte kaufen und den Zug nicht verpassen**. Hier verwendest du zwei Werkzeuge aus dem A1 wieder — *zenbat balio du?* (Preise) und die Uhrzeiten — und setzt sie am Schalter ein.

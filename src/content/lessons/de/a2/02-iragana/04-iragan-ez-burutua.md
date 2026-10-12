@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Ich ging (einmal)
   - eu: Joaten nintzen
     es: Ich ging (gewohnheitsmäßig)
   - eu: Joan nuen autoa
     es: (ungültig)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Ich war unterwegs
   - eu: Bizi nintzen Bilbon
     es: Ich lebte in Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Ich bin gestern nach Bilbao gefahren
 ---
 
 Das **Imperfekt** im Baskischen (*iragan ez burutua*) entspricht im Großen und Ganzen dem deutschen "ich aß / ich lebte / ich ging / ich arbeitete". Man verwendet es für:

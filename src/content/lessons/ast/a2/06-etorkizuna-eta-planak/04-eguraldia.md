@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-et4-mc1
   type: multiple-choice
-  prompt: '"Euria ari du" significa…'
+  prompt: '"Euria ari du" quier dicir…'
   options:
   - Ta lloviendo
   - Va llover
@@ -26,9 +26,9 @@ exercises:
   prompt: 'La previsión diz: "Bihar eguzkia aterako da". ¿Qué t''espera mañana?'
   options:
   - Lluvia
-  - Viento fuerte
+  - Vientu fuerte
   - Sol
-  - Niebla
+  - Nublina
   answer: 2
   explanation: '*Eguzkia atera* = salir el sol; en futuru, *aterako da* — mañana va facer sol.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Saldrá'l sol
   - eu: Haizea dabil
-    es: Hace viento
+    es: Fai vientu
   - eu: Hotz handia egiten du
     es: Fai munchu fríu
   - eu: Hodeitsu dago

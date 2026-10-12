@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: spotkanie
   - eu: bilera
     es: spotkanie, zebranie
   - eu: libre
-    es: libre
+    es: wolny
   - eu: lanpetuta
-    es: ocupado/a
+    es: zajęty/zajęta
   - eu: geratu
-    es: quedar
+    es: umówić się
   - eu: geratuko gara
-    es: quedaremos
+    es: umówimy się
 ---
 
 Kalendarz pełen jest spotkań i zobowiązań. Ta lekcja nauczy Cię, jak o nich mówić: jak umówić się na spotkanie, spotkać się z kimś, powiedzieć, czy jesteś wolny/a.

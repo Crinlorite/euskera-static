@@ -82,13 +82,13 @@ exercises:
   - eu: bilera
     es: reunió
   - eu: libre
-    es: libre
+    es: lliure
   - eu: lanpetuta
-    es: ocupado/a
+    es: ocupat/da
   - eu: geratu
     es: quedar
   - eu: geratuko gara
-    es: quedaremos
+    es: quedarem
 ---
 
 Una agenda viva és plena de cites i compromisos. Aquesta lliçó t'ensenya a parlar-ne: tenir una cita, quedar amb algú, dir si estàs lliure.

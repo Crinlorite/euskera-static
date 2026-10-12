@@ -107,7 +107,7 @@ Do tej pory umieliście mówić o teraźniejszości i przeszłości. Ta lekcja o
 
 > **imiesłów + -ko / -go + czasownik posiłkowy w CZASIE TERAŹNIEJSZYM**
 
-| Hiszpański | Baskijski | Jak to jest zbudowane |
+| Polski | Baskijski | Jak to jest zbudowane |
 |---|---|---|
 | Pójdę | *joango naiz* | joan + **-go** + naiz |
 | Zjem | *jango dut* | jan + **-go** + dut |
@@ -117,7 +117,7 @@ Do tej pory umieliście mówić o teraźniejszości i przeszłości. Ta lekcja o
 
 **Czasownik posiłkowy się nie zmienia**: to ten sam *naiz/da/dut/dugu…*, co zawsze. Jedyną nowością jest przyrostek dodawany do imiesłowu.
 
-## ¿-ko o -go? Jedyna zasada do zapamiętania
+## -ko czy -go? Jedyna zasada do zapamiętania
 
 | Imiesłów kończy się na… | Przyrostek | Przykłady |
 |---|---|---|

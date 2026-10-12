@@ -14,22 +14,22 @@ covers:
 exercises:
 - id: ex-menu-mc1
   type: multiple-choice
-  prompt: '"Lehen platera" significa…'
+  prompt: '"Lehen platera" vol dir…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Postres
+  - Primer plat
+  - Segon plat
+  - Beguda
   answer: 1
   explanation: '*Lehen platera* — primer plat. *Lehen* significa "primer".'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" en català és…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - Beguda
+  - Aperitiu
+  - Postres
+  - Plat principal
   answer: 2
   explanation: '*Postrea* — postre. La traducció és directa.'
 - id: ex-menu-fb1
@@ -58,7 +58,7 @@ exercises:
   - eu: bigarren platera
     es: segon plat
   - eu: postrea
-    es: postre
+    es: postres
   - eu: edaria
     es: beguda
   - eu: entsalada
@@ -87,13 +87,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: primer plat
   - eu: bigarren platera
-    es: segundo plato
+    es: segon plat
   - eu: postrea
-    es: postre
+    es: postres
   - eu: edaria
-    es: bebida
+    es: beguda
   - eu: eguneko menua
     es: menú del dia
   - eu: karta
@@ -120,7 +120,7 @@ El cambrer sol preguntar:
 | *hasierakoak* | entrants / aperitius |
 | *lehen platera* | primer plat |
 | *bigarren platera* | segon plat |
-| *postrea* | postre |
+| *postrea* | postres |
 | *edaria* | beguda |
 
 > *Lehen* = primer. *Bigarren* = segon. *Postrea* és un préstec clar i s'utilitza igual.

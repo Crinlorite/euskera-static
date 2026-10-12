@@ -18,11 +18,11 @@ exercises:
   - eu: okindegia
     es: padaria
   - eu: botika
-    es: farmacia
+    es: farmácia
   - eu: liburutegia
     es: biblioteca
   - eu: eliza
-    es: iglesia
+    es: igreja
   - eu: merkatua
     es: mercado
   - eu: banketxea

@@ -46,7 +46,7 @@ exercises:
   - eu: zaio
     es: li (a eth/era, sing.)
   - eu: zaigu
-    es: nos (sing.)
+    es: mos (sing.)
   - eu: zaizue
     es: vos (sing.)
   - eu: zaie
@@ -82,7 +82,7 @@ exercises:
     es: m'a passat
 ---
 
-Es vèrbs **NOR-NORI** son aqueri a on quauquarren (NOR) "li succedís a quauquarrés" (NORI). Eth subjècte gramaticau ei **era causa**, non era persona — exactament coma *agradar* en castelhan: *m'agrade eth cinèma* (a jo m'agrade eth, eth cinèma).
+Es vèrbs **NOR-NORI** son aqueri a on quauquarren (NOR) "li succedís a quauquarrés" (NORI). Eth subjècte gramaticau ei **era causa**, non era persona — exactament coma *agradar* en aranés: *m'agrade eth cinèma* (a jo m'agrade eth, eth cinèma).
 
 En A1 ja vedes *gustatzen zait*. En A2 amplies eth patron a d'auti vèrbs fòrça utils.
 
@@ -90,23 +90,23 @@ En A1 ja vedes *gustatzen zait*. En A2 amplies eth patron a d'auti vèrbs fòrç
 
 Tà NOR singular:
 
-| NORI | Forma | Castelhan |
+| NORI | Forma | Aranés |
 |---|---|---|
 | niri | **zait** | me |
 | zuri | **zaizu** | te |
 | hari | **zaio** | li |
-| guri | **zaigu** | nos |
+| guri | **zaigu** | mos |
 | zuei | **zaizue** | vos |
 | haiei | **zaie** | les |
 
 Tà NOR **plurau**:
 
-| NORI | Forma plurau | Castelhan |
+| NORI | Forma plurau | Aranés |
 |---|---|---|
 | niri | **zaizkit** | me (causes) |
 | zuri | **zaizkizu** | te |
 | hari | **zaizkio** | li |
-| guri | **zaizkigu** | nos |
+| guri | **zaizkigu** | mos |
 | zuei | **zaizkizue** | vos |
 | haiei | **zaizkie** | les |
 
@@ -136,7 +136,7 @@ Tà NOR **plurau**:
 
 > **NORI + NOR + vèrb + auxiliar NOR-NORI**
 
-| Castelhan | Basc | Notacion |
+| Aranés | Basc | Notacion |
 |---|---|---|
 | M'agrade eth cinèma | *Niri zinea **gustatzen zait*** | NORI + NOR sing + zait |
 | M'agraden es pellicules | *Niri filmak **gustatzen zaizkit*** | NORI + NOR pl + zaizkit |
@@ -160,7 +160,7 @@ Tà parlar de gosts en passat:
 
 Ua des formules mès utiles tà A2:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Me semble ben | *Ondo iruditzen zait* |
 | Me semble interessant | *Interesgarria iruditzen zait* |
@@ -170,7 +170,7 @@ Ua des formules mès utiles tà A2:
 
 ## *Ahaztu zait* — m'èi desbrembat
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | M'èi desbrembat | *Ahaztu zait* |
 | M'èi desbrembat es claus | *Giltzak ahaztu zaizkit* |

@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ir3-mc1
   type: multiple-choice
-  prompt: '"Lanera nindoan goizeko zortzietan" significa…'
+  prompt: '"Lanera nindoan goizeko zortzietan" quier dicir…'
   options:
   - Voi al trabayu a les ocho
   - Vendré al trabayu a les ocho
@@ -79,7 +79,7 @@ exercises:
   - eu: nekien
     es: sabía yo
   - eu: nengoen
-    es: estaba yo
+    es: taba yo
 ---
 
 Los **verbos sintéticos** (*aditz trinkoak*) son los pocos verbos eusqueros que se conxuguen **ensin auxiliar**, nuna sola pallabra. Yá conoces les sos formes en presente: *noa, nator, nabil, daukat, dakit, nago*. En pasáu tienen formes paraleles que convien reconocer y, les más frecuentes, remanar.
@@ -131,7 +131,7 @@ Pa los seis verbos sintéticos clave, asina queda'l pasáu en 1ª y 3ª persona:
 |---|---|---|
 | ni | **nenbilen** | andaba |
 | hura | **zebilen** | andaba |
-| gu | **genbiltzan** | andábamos |
+| gu | **genbiltzan** | andábemos |
 | haiek | **zebiltzan** | andaben |
 
 > *Garazi mendian **zebilen** lagunekin.* — Garazi andaba pel monte colos sos amigos.

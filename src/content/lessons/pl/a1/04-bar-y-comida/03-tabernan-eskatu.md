@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: proszę
   - eu: eskerrik asko
-    es: muchas gracias
+    es: dziękuję bardzo
   - eu: ez horregatik
     es: nie ma za co
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Dla mnie
   - eu: ona
-    es: bueno
+    es: dobry
 ---
 
 Zamawianie w barze to jedna z najprzydatniejszych rzeczy, których nauczysz się mówić po baskijsku. Podstawowa formuła jest bardzo prosta: nazwa tego, co chcesz + **bat** (jeden) + **mesedez** (proszę). I to wszystko.
@@ -157,4 +157,4 @@ Po baskijsku typowe „hej / proszę pana/pani”, aby zwrócić na siebie uwag�
 >
 > — *Ederki!* — Świetnie!
 
-> **Wskazówka kulturowa:** w baskijskiej tawernie normalne jest zamawianie przy barze, picie na stojąco i głośne rozmawianie. *Mesedez* i *eskerrik asko* są podstawowe, ale nie obowiązkowe w każdym zdaniu — w przeciwieństwie do hiszpańskiego, rzucone od niechcenia „*ebakia*” nie jest uważane za niegrzeczne, o ile ton jest serdeczny.
+> **Wskazówka kulturowa:** w baskijskiej tawernie normalne jest zamawianie przy barze, picie na stojąco i głośne rozmawianie. *Mesedez* i *eskerrik asko* są podstawowe, ale nie obowiązkowe w każdym zdaniu — w przeciwieństwie do polskiego, rzucone od niechcenia „*ebakia*” nie jest uważane za niegrzeczne, o ile ton jest serdeczny.

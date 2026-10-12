@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: café au lait
   - eu: ura
-    es: agua
+    es: eau
   - eu: ardo gorria
-    es: vino tinto
+    es: vin rouge
   - eu: garagardoa
-    es: cerveza
+    es: bière
   - eu: sagardoa
-    es: sidra
+    es: cidre
   - eu: zumoa
-    es: zumo
+    es: jus
   - eu: tea
     es: thé
 ---
@@ -138,7 +138,7 @@ Le café est probablement ce que tu commanderas le plus. Il en existe plusieurs 
 | *zuritoa* | demi (petite bière, typique) |
 | *sagardoa* | cidre |
 | *txakolina* | txakoli (vin blanc basque) |
-| *patxarana* | pacharán |
+| *patxarana* | patxaran (liqueur de prunelle) |
 
 > Trois mots curieux : **sagardo** (cidre) = *sagar* (pomme) + *ardo* (vin) ; **garagardo** (bière) = *garagar* (orge) + *ardo* ; **txakolina** est un vin blanc jeune et léger, la spécialité du Pays basque.
 

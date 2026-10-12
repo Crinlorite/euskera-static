@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-eg5-mc1
   type: multiple-choice
-  prompt: '"Ez erre" significa…'
+  prompt: '"Ez erre" vol dir…'
   options:
   - No fumis
   - Fuma
@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: No beguis gaire
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Menja fruita
   - eu: Egin kirola
-    es: Haz deporte
+    es: Fes esport
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Dorm bé
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Intenta estar tranquil
 ---
 
 Aquesta lliçó integra els tres temes de la unitat: donem **consells**, prohibicions i recomanacions per a una vida sana. Aprendràs l'**imperatiu negatiu** i un grapat de fórmules A2 molt productives per opinar sobre el que convé fer.
@@ -102,7 +102,7 @@ La forma més senzilla i la que més faràs servir:
 | No tinguis por | *Ez izan beldurrik* |
 | No corris | *Ez korrika egin* |
 
-> El partitiu *-rik* apareix amb freqüència: *ez edan alkohol**ik***, *ez izan beldur**rik***. Funciona com en castellà "no beguis (gens d') alcohol". El vas veure de passada a l'A1 i a l'A2 ja convé reconèixer-lo.
+> El partitiu *-rik* apareix amb freqüència: *ez edan alkohol**ik***, *ez izan beldur**rik***. Funciona com el català «no beguis gens d'alcohol». El vas veure de passada a l'A1 i a l'A2 ja convé reconèixer-lo.
 
 ## Imperatiu negatiu emfàtic: *ez ezazu*
 

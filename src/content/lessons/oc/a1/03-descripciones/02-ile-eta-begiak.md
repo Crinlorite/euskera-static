@@ -24,7 +24,7 @@ exercises:
   explanation: '*beltz* = nere; damb article *beltza*. Eth substantiu "ile" (peu) va abans.'
 - id: ex-ileg-mc2
   type: multiple-choice
-  prompt: Vòs díder "Tengo los ojos azules". Quina ei era forma corrècta?
+  prompt: Vòs díder "È es uelhs blaus". Quina ei era forma corrècta?
   options:
   - Begi urdina dut
   - Begi urdinak ditut
@@ -89,17 +89,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: peu nere
   - eu: ile horia
-    es: pelo rubio
+    es: peu ros
   - eu: ile motza
-    es: pelo corto
+    es: peu cuert
   - eu: ile luzea
-    es: pelo largo
+    es: peu long
   - eu: begi urdinak
-    es: ojos azules
+    es: uelhs blaus
   - eu: begi marroiak
-    es: ojos marrones
+    es: uelhs marrons
   - eu: bizarduna
     es: damb barba
   - eu: betaurrekoduna

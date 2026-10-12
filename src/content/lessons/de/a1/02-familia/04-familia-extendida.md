@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: Tante
   - eu: lehengusu
-    es: primo
+    es: Cousin
   - eu: lehengusina
-    es: prima
+    es: Cousine
   - eu: iloba
-    es: sobrino/a
+    es: Neffe/Nichte
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" ist...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - Cousin
+  - Bruder
+  - Großvater
+  - Schwiegervater
   answer: 0
 - id: ex-fe-fc
   type: flashcards

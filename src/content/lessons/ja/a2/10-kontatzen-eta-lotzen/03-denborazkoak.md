@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: 朝食の後に
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: 朝食をとるとき
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: 朝食をとりながら
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: 朝食をとったらすぐ
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: 朝食をとらずに
 ---
 
 これまでの文で「何が」起きたかは言えるようになりました。このレッスンでは**「いつ」**を時計のように正確に言う方法を学びます：*私が着いたとき*、*出る前に*、*食べた後に*、*寝ている間に*。3つのパーツで組み合わせは自由自在です。

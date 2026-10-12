@@ -78,24 +78,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: 打开
   - eu: itzali
-    es: apagar
+    es: 关闭
   - eu: gorde
-    es: guardar
+    es: 保存
   - eu: ezabatu
-    es: borrar
+    es: 删除
   - eu: deskargatu
-    es: descargar
+    es: 下载
   - eu: partekatu
-    es: compartir
+    es: 分享
 ---
 
 从纸张到像素：**日常科技**课程。你每天使用一百次的词汇 — 现在用巴斯克语来学习，巴斯克语还以其结构清晰、易于理解的词汇而自豪 (*pasahitza* = 通行词；*sakelakoa* = “口袋里的东西”)。
 
 ## 设备
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 电脑 | *ordenagailua* |
 | 笔记本电脑 | *eramangarria* |
@@ -108,7 +108,7 @@ exercises:
 
 ## 网络和账户
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 网络 / 互联网 | *sarea / internet* |
 | 无线网络 (wifi) | *wifia* |
@@ -126,7 +126,7 @@ exercises:
 
 ## 数字动词
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 开机 / 关机 | *piztu / itzali* |
 | 下载 | *deskargatu / jaitsi* |

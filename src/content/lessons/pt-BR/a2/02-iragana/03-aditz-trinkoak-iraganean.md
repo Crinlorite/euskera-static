@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: eu ia
   - eu: nentorren
     es: eu vinha
   - eu: nenbilen
-    es: andaba yo
+    es: eu andava
   - eu: neukan
     es: eu tinha
   - eu: nekien
     es: eu sabia
   - eu: nengoen
-    es: estaba yo
+    es: eu estava
 ---
 
 Os **verbos sintéticos** (*aditz trinkoak*) são os poucos verbos bascos que se conjugam **sem auxiliar**, em uma única palavra. Você já conhece suas formas no presente: *noa, nator, nabil, daukat, dakit, nago*. No passado, eles têm formas paralelas que convém reconhecer e, as mais frequentes, saber usar.

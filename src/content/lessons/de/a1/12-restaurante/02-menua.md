@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" bedeutet…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Nachtisch
+  - Vorspeise
+  - Hauptgang
+  - Getränk
   answer: 1
   explanation: '*Lehen platera* — erster Gang. *Lehen* bedeutet "erste/r".'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" heißt auf Deutsch…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - Getränk
+  - Aperitif
+  - Nachtisch
+  - Hauptgericht
   answer: 2
   explanation: '*Postrea* — Nachtisch. Die Übersetzung ist direkt.'
 - id: ex-menu-fb1
@@ -87,17 +87,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: Vorspeise
   - eu: bigarren platera
-    es: segundo plato
+    es: Hauptgang
   - eu: postrea
-    es: postre
+    es: Nachtisch
   - eu: edaria
-    es: bebida
+    es: Getränk
   - eu: eguneko menua
     es: Tagesmenü
   - eu: karta
-    es: carta
+    es: Speisekarte
 ---
 
 Die Speisekarte lesen zu können, öffnet dir Türen. In den meisten jatetxeak findest du die klassische Struktur aus drei Teilen: erster Gang, zweiter Gang und Nachtisch.

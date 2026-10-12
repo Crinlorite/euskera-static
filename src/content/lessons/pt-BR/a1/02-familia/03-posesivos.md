@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: meu/minha
   - eu: zure
-    es: tu/tuyo
+    es: teu/seu
   - eu: bere
     es: dele/dela
   - eu: gure
-    es: nuestro
+    es: nosso
   - eu: zuen
-    es: vuestro
+    es: de vocês
   - eu: beren
     es: deles/delas
 - id: ex-pos-fb1

@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: 我给了你
   - eu: eman zion
-    es: le dio
+    es: 他/她给了他/她
   - eu: eman nion
-    es: le di
+    es: 我给了他/她
   - eu: eman ziguten
-    es: nos dieron
+    es: 他们给了我们
   - eu: eman nizkion
     es: 我给了他/她（复数宾语）
 ---
@@ -109,7 +109,7 @@ NOR-NORI-NORK 的过去时遵循与现在时相同的逻辑，但带有**过去�
 
 比较现在时和过去时：
 
-| 现在时 | 过去时 | 含义 |
+| 现在时 | 过去时 | 中文 |
 |---|---|---|
 | *dizut* | **nizun** | 我给你 |
 | *diot* | **nion** | 我给他/她 |
@@ -122,7 +122,7 @@ NOR-NORI-NORK 的过去时遵循与现在时相同的逻辑，但带有**过去�
 
 ## 与复数 NOR 的一致性
 
-| 单数宾语 | 复数宾语 | 含义 |
+| 单数宾语 | 复数宾语 | 中文 |
 |---|---|---|
 | nion | **nizkion** | 我给他/她 / 我给他们/她们 |
 | zion | **zizkion** | 他/她给他/她 / 他/她给他们/她们 |

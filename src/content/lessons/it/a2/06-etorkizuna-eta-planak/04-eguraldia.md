@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'Le previsioni dicono: "Bihar eguzkia aterako da". Cosa ti aspetta domani?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Pioggia
+  - Vento forte
+  - Sole
+  - Nebbia
   answer: 2
   explanation: '*Eguzkia atera* = sorgere il sole; al futuro, *aterako da* — domani ci sarà il sole.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Sorgerà il sole
   - eu: Haizea dabil
-    es: Hace viento
+    es: Tira vento
   - eu: Hotz handia egiten du
     es: Fa molto freddo
   - eu: Hodeitsu dago

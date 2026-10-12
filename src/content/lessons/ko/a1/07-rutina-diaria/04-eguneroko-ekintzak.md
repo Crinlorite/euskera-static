@@ -49,23 +49,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: esnatu
-    es: despertarse
+    es: 잠에서 깨다
   - eu: jaiki
-    es: levantarse
+    es: 일어나다
   - eu: dutxatu
-    es: ducharse
+    es: 샤워하다
   - eu: gosaldu
-    es: desayunar
+    es: 아침을 먹다
   - eu: bazkaldu
-    es: comer (almorzar)
+    es: 점심을 먹다
   - eu: afaldu
-    es: cenar
+    es: 저녁을 먹다
   - eu: lan egin
-    es: trabajar
+    es: 일하다
   - eu: lo egin
-    es: dormir
+    es: 자다
   - eu: oheratu
-    es: acostarse
+    es: 잠자리에 들다
 - id: ex-04-ee-fc
   type: flashcards
   cards:

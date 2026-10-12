@@ -74,24 +74,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Hello
   - eu: Agur
     es: Goodbye
   - eu: Egun on
     es: Good morning
   - eu: Gabon
-    es: Buenas noches
+    es: Good night
   - eu: Gero arte
-    es: Hasta luego
+    es: See you later
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Thank you very much
 ---
 
-In Basque, greetings change depending on the time of day. The universal and most common formula is **Kaixo**, which is used at any time with almost anyone — just like "hola" in Spanish. **Hepa** or **Aupa** are even more informal alternatives, especially among young people and friends.
+In Basque, greetings change depending on the time of day. The universal and most common formula is **Kaixo**, which is used at any time with almost anyone — just like "hi" in English. **Hepa** or **Aupa** are even more informal alternatives, especially among young people and friends.
 
 ## Greetings by time of day
 
-| When | Basque | Spanish |
+| When | Basque | English |
 |---|---|---|
 | Morning, until noon | *Egun on* | Good morning |
 | Midday / lunchtime | *Eguerdi on* | Good midday |

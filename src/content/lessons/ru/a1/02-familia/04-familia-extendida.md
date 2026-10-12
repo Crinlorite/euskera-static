@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: тётя
   - eu: lehengusu
-    es: primo
+    es: двоюродный брат
   - eu: lehengusina
-    es: prima
+    es: двоюродная сестра
   - eu: iloba
-    es: sobrino/a
+    es: племянник/племянница
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" — это...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - двоюродный брат
+  - брат
+  - дедушка
+  - свёкор / тесть
   answer: 0
 - id: ex-fe-fc
   type: flashcards

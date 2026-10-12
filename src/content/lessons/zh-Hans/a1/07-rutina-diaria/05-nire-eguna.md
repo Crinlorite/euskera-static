@@ -84,7 +84,7 @@ exercises:
 
 ## 关键问题："Zer ordutan…?"
 
-| 问题 | 西班牙语 |
+| 问题 | 中文 |
 |---|---|
 | *Zer ordutan esnatzen zara?* | 你几点醒来？ |
 | *Zer ordutan jaikitzen zara?* | 你几点起床？ |

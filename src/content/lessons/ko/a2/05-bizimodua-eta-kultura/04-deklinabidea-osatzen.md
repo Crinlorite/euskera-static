@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: 산까지
   - eu: etxerantz
-    es: hacia casa
+    es: 집 쪽으로
   - eu: lagunarengatik
     es: 친구 때문에
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ exercises:
 | zuentzat | *zuentzat* | 너희를 위해 |
 | haientzat | *haientzat* | 그들을 위해 |
 | Lander | *Landerrentzat* | Lander를 위해 |
-| la madre | *amarentzat* | 어머니를 위해 |
-| los amigos | *lagunentzat* | 친구들을 위해 |
+| 어머니 | *amarentzat* | 어머니를 위해 |
+| 친구들 | *lagunentzat* | 친구들을 위해 |
 
 > *Hau **zuretzat** da.* — 이것은 너를 위한 거야.
 >
@@ -160,9 +160,9 @@ exercises:
 | zugatik | *zugatik* | 너 때문에 |
 | beragatik / harengatik | *beragatik* | 그/그녀 때문에 |
 | Lander | *Landerrengatik* | Lander 때문에 |
-| la madre | *amarengatik* | 어머니 때문에 |
-| el amor | *maitasunarengatik* | 사랑 때문에 |
-| la lluvia | *euriagatik* | 비 때문에 |
+| 어머니 | *amarengatik* | 어머니 때문에 |
+| 사랑 | *maitasunarengatik* | 사랑 때문에 |
+| 비 | *euriagatik* | 비 때문에 |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — 나를 위해 와줘서 고마워!
 >
@@ -170,7 +170,7 @@ exercises:
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — 왜 그랬어? — 너 때문에.
 
-> **참고:** 원인을 나타내는 *-engatik*("~ 때문에")와 수혜자를 나타내는 *-rentzat*("~를 위해")을 구분하세요. 스페인어에서는 "por"가 두 가지 의미를 모두 포함하지만, 바스크어에서는 다릅니다.
+> **참고:** 원인을 나타내는 *-engatik*("~ 때문에")와 수혜자를 나타내는 *-rentzat*("~를 위해")을 구분하세요. 한국어에서도 두 표현을 구분하듯이, 바스크어도 구분합니다.
 
 ## NONGO / NOIZKO — 어느 장소의 / 시간의
 

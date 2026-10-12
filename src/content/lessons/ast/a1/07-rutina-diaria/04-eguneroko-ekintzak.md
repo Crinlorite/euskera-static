@@ -15,7 +15,7 @@ covers:
 exercises:
 - id: ex-04-ee-mc1
   type: multiple-choice
-  prompt: ¿Qué significa "esnatzen naiz"?
+  prompt: ¿Qué quier dicir "esnatzen naiz"?
   options:
   - esperté
   - espierto
@@ -25,7 +25,7 @@ exercises:
   explanation: 'L''aspeutu habitual (-tzen + naiz/dut) espresa lo que faes de normal: "espierto" (cada día).'
 - id: ex-04-ee-mc2
   type: multiple-choice
-  prompt: '"Egunero gosaltzen dut" significa…'
+  prompt: '"Egunero gosaltzen dut" quier dicir…'
   options:
   - Almorcé güei
   - Almuerzo tolos díes
@@ -49,23 +49,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: esnatu
-    es: despertarse
+    es: espertase
   - eu: jaiki
-    es: levantarse
+    es: llevantase
   - eu: dutxatu
-    es: ducharse
+    es: duchase
   - eu: gosaldu
-    es: desayunar
+    es: almorzar
   - eu: bazkaldu
-    es: comer (almorzar)
+    es: comer (xintar)
   - eu: afaldu
     es: cenar
   - eu: lan egin
-    es: trabajar
+    es: trabayar
   - eu: lo egin
     es: dormir
   - eu: oheratu
-    es: acostarse
+    es: acostase
 - id: ex-04-ee-fc
   type: flashcards
   cards:

@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" signifique…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - entrepan
+  - plat combinat
+  - postres
   answer: 1
   explanation: '*ogitartekoa* ven de *ogi* (pan) + *arte* (entre): "cau d''entre pans" — eth sandwitch.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — exactament coma en castelhan, sense grana adaptacion.'
+  explanation: '*plater konbinatua* — pres deth castelhan «plato combinado», sense grana adaptacion.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Entà jo, ua racion de hromatge = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: pintxo
   - eu: ogitartekoa
-    es: bocadillo
+    es: entrepan
   - eu: plater konbinatua
-    es: plato combinado
+    es: plat combinat
   - eu: razioa
     es: racion
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: hormatge
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ Era grana cultura deth bar basc gire ath torn de tres formadi principaus: eth **
 
 ## Es tres formadi
 
-| Basc | Castelhan | Mesura |
+| Basc | Aranés | Mesura |
 |---|---|---|
 | *pintxoa* | pintxo / tapa | petit, de barra |
 | *ogitartekoa* | sandwitch | miei, en pan |
@@ -115,7 +115,7 @@ Era grana cultura deth bar basc gire ath torn de tres formadi principaus: eth **
 
 Aguesti son es farciments mès abituaus que vedràs en ua lausa de bar:
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *tortilla* | tortilha (de trufa) |
 | *txistorra* | txistorra |

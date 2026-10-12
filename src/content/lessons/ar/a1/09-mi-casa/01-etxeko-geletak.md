@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: مطبخ
   - eu: logela
-    es: dormitorio
+    es: غرفة النوم
   - eu: komuna
-    es: baño
+    es: حمّام
   - eu: egongela
     es: غرفة معيشة
   - eu: sarrera
-    es: entrada
+    es: المدخل
   - eu: korridorea
-    es: pasillo
+    es: ممرّ
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: تريد أن تستحم. إلى أي غرفة تذهب؟

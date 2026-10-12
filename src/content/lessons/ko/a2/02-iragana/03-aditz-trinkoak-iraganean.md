@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: 나는 가고 있었다
   - eu: nentorren
     es: 오고 있었다 (나)
   - eu: nenbilen
-    es: andaba yo
+    es: 나는 돌아다니고 있었다
   - eu: neukan
     es: 가지고 있었다 (나)
   - eu: nekien
     es: 알고 있었다 (나)
   - eu: nengoen
-    es: estaba yo
+    es: 나는 (어딘가에) 있었다
 ---
 
 **통합 동사**(*aditz trinkoak*)는 **조동사 없이** 한 단어로 활용되는 몇 안 되는 바스크어 동사입니다. 현재형은 이미 알고 계실 겁니다: *noa, nator, nabil, daukat, dakit, nago*. 과거형에는 이에 상응하는 형태가 있으며, 이를 알아보고 가장 자주 쓰이는 형태는 익숙해지는 것이 좋습니다.
@@ -145,7 +145,7 @@ exercises:
 | **Joan nintzen** (분석형 + 과거분사) | 단발적, 완결된 사건 | *Atzo Bilbora **joan nintzen** zortzietan.* (= 어제 빌바오에 갔다) |
 | **Nindoan** (통합형) | 진행 중인 행동, 습관, 과거 묘사 | *Bilborantz **nindoan**, ezagun bat ikusi nuenean.* (= 아는 사람을 봤을 때 빌바오로 가고 있었다) |
 
-> **간단한 규칙:** 통합형(*nindoan, nentorren, nenbilen*)은 과거의 **장면**을 묘사합니다. 과거분사형(*joan nintzen, etorri nintzen*)은 과거의 **사건**을 이야기합니다. 이 차이는 스페인어의 iba / fui의 차이와 매우 유사합니다.
+> **간단한 규칙:** 통합형(*nindoan, nentorren, nenbilen*)은 과거의 **장면**을 묘사합니다. 과거분사형(*joan nintzen, etorri nintzen*)은 과거의 **사건**을 이야기합니다. 이 차이는 한국어의 "가고 있었다"(장면)와 "갔다"(사건)의 차이와 비슷합니다.
 
 ## NOR-NORK 통합 동사: *neukan*, *nekien*
 

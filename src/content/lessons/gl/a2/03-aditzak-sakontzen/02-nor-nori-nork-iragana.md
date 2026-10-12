@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: dínche
   - eu: eman zion
-    es: le dio
+    es: deulle
   - eu: eman nion
-    es: le di
+    es: deille
   - eu: eman ziguten
-    es: nos dieron
+    es: déronnos
   - eu: eman nizkion
     es: dínlle (os)
 ---

@@ -97,7 +97,7 @@ Bi ha dos estructuras frecuents:
 - **Kiloa X eurotan dago** — O kilo ye a X euros.
    - *Kiloa hamar eurotan dago.* → O kilo ye a 10 euros.
 
-> *Eurotan* ye "en euros" (inesivo plural). En a fabla diaria tamién ye muito común sentir simplament "*Hamar euro*" sin verbo, igual que en castellano.
+> *Eurotan* ye "en euros" (inesivo plural). En a fabla diaria tamién ye muito común sentir simplament "*Hamar euro*" sin verbo, igual que en aragonés.
 
 ## Si lo ves caro u barato
 

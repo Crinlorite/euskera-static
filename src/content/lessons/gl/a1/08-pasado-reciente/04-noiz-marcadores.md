@@ -53,21 +53,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: hoxe
   - eu: atzo
-    es: ayer
+    es: onte
   - eu: bihar
-    es: mañana
+    es: mañá
   - eu: etzi
-    es: pasado mañana
+    es: pasado mañá
   - eu: gaur goizean
-    es: esta mañana
+    es: esta mañá
   - eu: gaur arratsaldean
     es: esta tarde
   - eu: atzo gauean
-    es: anoche
+    es: onte á noite
   - eu: orain
-    es: ahora
+    es: agora
   - eu: lehen
     es: antes
 - id: ex-04-nm-fc
@@ -126,7 +126,7 @@ Para contar ben o que pasou, necesitas dicir **cando**. Esta lección dáche os 
 | *lehen* | antes |
 | *gero* | logo, despois |
 
-> Se te fixaches, *atzo* (onte) e *bihar* (mañá) son dúas palabras tan curtas que se aprenden de vez. *Etzi* (pasadomañá) é unha palabra que o castelán non ten nunha soa peza — un pequeno agasallo do éuscaro.
+> Se te fixaches, *atzo* (onte) e *bihar* (mañá) son dúas palabras tan curtas que se aprenden de vez. *Etzi* (pasadomañá) é, coma en galego, unha soa palabra — doada de lembrar.
 
 ## Combinando con momentos do día
 

@@ -94,7 +94,7 @@ Dusau parçan dera unitat: **er espòrt** — eth de hèr e eth de veir. E en Eu
 
 ## Espòrts de tostemp
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Er espòrt | *kirola* |
 | Eth fotbòl | *futbola* |
@@ -127,7 +127,7 @@ Dusau parçan dera unitat: **er espòrt** — eth de hèr e eth de veir. E en Eu
 
 ## Eth partit
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Era equipa | *taldea* |
 | Eth partit | *partida* |

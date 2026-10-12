@@ -23,7 +23,7 @@ exercises:
   explanation: '*Zatoz* és la forma sintètica de l''imperatiu d''*etorri* (venir) per a *zu*. És la forma natural en ordres i peticions.'
 - id: ex-a2-eg4-mc2
   type: multiple-choice
-  prompt: '"Eseri, mesedez" significa…'
+  prompt: '"Eseri, mesedez" vol dir…'
   options:
   - Seu, si us plau
   - Vaig seure, si us plau
@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Vine aquí
   - eu: Hartu hau
-    es: Toma esto
+    es: Pren això
   - eu: Eseri hemen
     es: Seu aquí
   - eu: Esadazu egia

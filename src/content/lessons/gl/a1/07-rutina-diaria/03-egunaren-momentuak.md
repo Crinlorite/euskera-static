@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: pola tarde
   - eu: iluntzean
-    es: al atardecer
+    es: ao serán
   - eu: gauean
     es: pola noite
   - eu: gaur
-    es: hoy
+    es: hoxe
   - eu: bihar
     es: mañá (día seguinte)
   - eu: atzo
-    es: ayer
+    es: onte
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Estes vanche saír todos os días:
 | *gero* | logo, despois |
 | *lehen* | antes |
 
-> Atención: ten coidado con **bihar** (o día seguinte, "mañá") e **goiza** (a mañá, ata o mediodía). En castelán usamos a mesma palabra, en éuscaro non.
+> Atención: ten coidado con **bihar** (o día seguinte, "mañá") e **goiza** (a mañá, ata o mediodía). En galego usamos a mesma palabra («mañá»), en éuscaro non.
 
 ## Combinando todo
 

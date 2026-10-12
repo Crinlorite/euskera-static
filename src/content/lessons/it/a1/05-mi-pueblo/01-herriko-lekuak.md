@@ -22,13 +22,13 @@ exercises:
   - eu: liburutegia
     es: biblioteca
   - eu: eliza
-    es: iglesia
+    es: chiesa
   - eu: merkatua
-    es: mercado
+    es: mercato
   - eu: banketxea
-    es: banco
+    es: banca
   - eu: ospitalea
-    es: hospital
+    es: ospedale
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: Devi comprare il pane. In che tipo di negozio vai?

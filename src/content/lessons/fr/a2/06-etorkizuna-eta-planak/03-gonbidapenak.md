@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + verbe au présent est la proposition classique et douce, tout comme en espagnol. Les autres posent des questions sur le passé, la destination ou le retour.'
+  explanation: '*Zergatik ez…?* + verbe au présent est la proposition classique et douce, tout comme le français « pourquoi ne pas… ? ». Les autres posent des questions sur le passé, la destination ou le retour.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: On se retrouve à six heures ? = seietan ___ gara?

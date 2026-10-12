@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: 他们1984年结婚
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: 他们有了三个孩子
   - eu: 2020an erretiroa hartu zuen
     es: 他/她2020年退休
 ---
@@ -94,7 +94,7 @@ exercises:
 
 ## 人生的里程碑
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 出生 | *jaio* (jaio nintzen/zen) |
 | 成长 | *hazi* |

@@ -121,7 +121,7 @@ From half past onwards, we speak in terms of the next hour with the word **gutxi
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> If you're a Spanish speaker, the strangest thing is that **gutxi** goes **after** the number, not before. *Bederatziak laurden gutxi* is literally "the nines quarter less".
+> For an English speaker, the strangest thing is that **gutxi** goes **after** the number, not before. *Bederatziak laurden gutxi* is literally "the nines quarter less".
 
 ## Summary table
 

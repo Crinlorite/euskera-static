@@ -75,26 +75,26 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: 早餐
   - eu: hamaiketakoa
     es: 上午茶点
   - eu: bazkaria
     es: 午餐
   - eu: askaria
-    es: merienda
+    es: 下午茶点心
   - eu: afaria
-    es: cena
+    es: 晚餐
   - eu: jan
-    es: comer
+    es: 吃
   - eu: edan
-    es: beber
+    es: 喝
 ---
 
-在巴斯克语中，一天的每一餐都有自己的名字，了解它们将帮助你谈论自己的日常生活。此外，还有一种巴斯克特有的餐食，在西班牙语中没有直接对应的词：**hamaiketako**。
+在巴斯克语中，一天的每一餐都有自己的名字，了解它们将帮助你谈论自己的日常生活。此外，还有一种巴斯克特有的餐食，在中文里没有直接对应的词：**hamaiketako**。
 
 ## 一天中的五餐
 
-| 巴斯克语 | 西班牙语 | 时间 |
+| 巴斯克语 | 中文 | 时间 |
 |---|---|---|
 | *gosaria* | 早餐 | 早上 |
 | *hamaiketakoa* | 上午茶点 | 11点左右 |
@@ -106,7 +106,7 @@ exercises:
 
 ## 动词：jan, edan 及特定动词
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *jan* | 吃（通用） |
 | *edan* | 喝 |
@@ -114,7 +114,7 @@ exercises:
 | *bazkaldu* | 吃午餐 |
 | *afaldu* | 吃晚餐 |
 
-> 每一餐都有特定的动词（就像西班牙语中的“desayunar / comer / cenar”一样）。在A1级别，你更多的是需要认出它们，而不是进行变位——目前只需知道它们的存在即可。
+> 每一餐都有特定的动词（就像中文的“吃早饭 / 吃午饭 / 吃晚饭”一样）。在A1级别，你更多的是需要认出它们，而不是进行变位——目前只需知道它们的存在即可。
 
 ## 饥饿与口渴
 

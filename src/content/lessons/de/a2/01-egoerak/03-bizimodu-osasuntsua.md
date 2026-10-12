@@ -85,17 +85,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: Papier
   - eu: plastikoa
     es: Plastik
   - eu: beira
-    es: vidrio
+    es: Glas
   - eu: organikoa
     es: Biomüll
   - eu: pila
-    es: pila
+    es: Batterie
   - eu: olioa
-    es: aceite
+    es: Öl
 ---
 
 Über **Lebensstil** und **Umwelt** zu sprechen, ist ein klassischer Block auf dem A2-Niveau: Hier mischt sich neuer Wortschatz mit Sätzen, die Verpflichtung und Ratschläge ausdrücken (*behar dugu*, *komeni da*, *garrantzitsua da*), die du bereits seit dem A1-Niveau kennst.

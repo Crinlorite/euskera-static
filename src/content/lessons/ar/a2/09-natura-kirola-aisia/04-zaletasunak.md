@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: أحب القراءة
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: يحب الغناء
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: نحب السفر
   - eu: Margotzen dakit
     es: أعرف التلوين
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: أنا ذاهب للرقص
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: أنا أطبخ الآن
 ---
 
 ماذا تفعل عندما لا تفعل شيئًا؟ هذا الدرس عن **الهوايات** — وعن القاعدة النحوية التي تحكمها: الفعل المحوّل إلى اسم باستخدام **-tzea** (*irakurtzea* = "القراءة").
@@ -99,7 +99,7 @@ exercises:
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | أحب القراءة | *Irakurtzea gustatzen zait* |
 | أعشق الطبخ | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ exercises:
 
 ## قائمة الهوايات
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | القراءة / الكتابة | *irakurtzea / idaztea* |
 | الاستماع إلى الموسيقى | *musika entzutea* |

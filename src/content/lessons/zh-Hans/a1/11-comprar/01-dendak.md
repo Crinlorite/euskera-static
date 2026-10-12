@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: 水果店
   - eu: supermerkatua
-    es: supermercado
+    es: 超市
   - eu: kutxazain automatikoa
     es: 自动取款机
 - id: ex-dendak-mc1
@@ -90,7 +90,7 @@ exercises:
 
 ## 食品店
 
-| 巴斯克语 | 西班牙语 | 售卖商品 |
+| 巴斯克语 | 中文 | 售卖商品 |
 |---|---|---|
 | *harategia* | 肉店 | haragia (肉) |
 | *okindegia* | 面包店 | ogia (面包) |
@@ -113,7 +113,7 @@ exercises:
 
 ## 其他有用的地方
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *kutxazain automatikoa* | 自动取款机 |
 | *banketxea* | 银行 |

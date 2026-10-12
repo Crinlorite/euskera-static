@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: amigu/a
   - eu: bizilaguna
-    es: vecino/a
+    es: vecín/ina
   - eu: ikaskidea
     es: compañeru/a de clase
   - eu: lankidea
     es: compañeru/a de trabayu
   - eu: ezaguna
-    es: conocido/a
+    es: conocíu/ida
   - eu: koadrila
     es: cuadrila / grupu d'amigos
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: ¿Quién ye'l to "bizilaguna"?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - To hermanu
+  - To xefe
+  - To vecín
+  - To profesor
   answer: 2
   explanation: '"Bizi" (vivir) + "laguna" (compañeru/a) = "compañeru/a de vivienda" → vecín/a (del to portal o barriu).'
 - id: ex-10-01-mc2

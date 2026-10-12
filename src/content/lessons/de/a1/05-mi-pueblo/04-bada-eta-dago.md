@@ -92,7 +92,7 @@ exercises:
     es: Wo ist die Bar?
 ---
 
-Im Spanischen verwenden wir ein einziges Verb, „haber/estar“, für zwei verschiedene Konzepte: **existieren** („Gibt es eine Apotheke im Viertel?“) und **sich befinden** („Die Apotheke ist in der Hauptstraße“). Das Baskische unterscheidet diese beiden Dinge sehr deutlich, und das sollte man sich früh einprägen.
+Es geht um zwei verschiedene Konzepte: **existieren** („Gibt es eine Apotheke im Viertel?“) und **sich befinden** („Die Apotheke ist in der Hauptstraße“). Das Baskische unterscheidet diese beiden Dinge sehr deutlich, und das sollte man sich früh einprägen.
 
 ## Existieren vs. sein
 

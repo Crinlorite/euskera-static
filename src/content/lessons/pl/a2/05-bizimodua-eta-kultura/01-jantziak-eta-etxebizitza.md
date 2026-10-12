@@ -88,17 +88,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: koszula
   - eu: galtzak
-    es: pantalones
+    es: spodnie
   - eu: soineko
-    es: vestido
+    es: sukienka
   - eu: jertsea
-    es: jersey
+    es: sweter
   - eu: zapatak
-    es: zapatos
+    es: buty
   - eu: beroki
-    es: abrigo
+    es: płaszcz
 ---
 
 Na poziomie A1 poznałeś/aś podstawowe słownictwo dotyczące **ubrań** i **domu**. Na A2 rozszerzysz je o bardziej szczegółowe zagadnienia: **rozmiary, przymierzalnia, dodatki** oraz **mieszkanie jako przestrzeń społeczna** (wynajem, właściciel, dzielnica, ogród).

@@ -131,7 +131,7 @@ La pregunta: ***Zertara** etorri zara?* (¿a qué vinisti?) → *Laguntzera!* (�
 | Non — ye un "pa" | **-tzeko** | *Hau ikasteko da* |
 | Sí — vas/vienes A | **-tzera** | *Ikastera noa* |
 
-> Trampa clásica del castellán: "voy a comprar" NUN ye futuru n'eusquera — ye movimientu: *erostera noa*. El futuru de verdá yá lu tienes: *erosiko dut*.
+> Trampa clásica: "voi comprar" (dir comprar) NUN ye futuru n'eusquera — ye movimientu: *erostera noa*. El futuru de verdá yá lu tienes: *erosiko dut*.
 
 ## Too xunto (y coles temporales d'ayeri)
 

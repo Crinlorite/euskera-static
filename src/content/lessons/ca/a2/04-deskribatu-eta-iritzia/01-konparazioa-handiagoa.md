@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-de1-mc1
   type: multiple-choice
-  prompt: '"Lander Olatz baino altuagoa da" significa…'
+  prompt: '"Lander Olatz baino altuagoa da" vol dir…'
   options:
   - En Lander és tan alt com l'Olatz
   - En Lander és més alt que l'Olatz
@@ -73,11 +73,11 @@ exercises:
   - eu: gehiago
     es: més (quantitat)
   - eu: gutxiago
-    es: menos
+    es: menys
   - eu: hobea
-    es: mejor
+    es: millor
   - eu: okerragoa
-    es: peor
+    es: pitjor
   - eu: azkarragoa
     es: més ràpid
 ---
@@ -89,7 +89,7 @@ Comparar és un dels actes més quotidians del llenguatge: *aquest és més gran
 > **X baino Y-AGO(A)**
 
 - **baino** es col·loca entre els dos termes comparats — equival a "que".
-- **-ago** s'afegeix a l'adjectiu o adverbi (com el "-er" anglès o la marca de comparatiu del castellà).
+- **-ago** s'afegeix a l'adjectiu o adverbi (com el "-er" anglès).
 - Si va amb un substantiu determinat, l'adjectiu porta la seva **-a** habitual: *altuago**a***.
 
 | Català | Basc |

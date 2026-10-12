@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-bz1-mc1
   type: multiple-choice
-  prompt: '"Etxebizitza alokairuan dago" significa…'
+  prompt: '"Etxebizitza alokairuan dago" quier dicir…'
   options:
   - La vivienda ta vacía
   - La vivienda ta n'arriendu
@@ -23,7 +23,7 @@ exercises:
   explanation: '*Alokairua* = arriendu. *Alokairuan dago* = ta n''arriendu.'
 - id: ex-a2-bz1-mc2
   type: multiple-choice
-  prompt: ¿Qué significa "neurri txikiagoa daukat"?
+  prompt: ¿Qué quier dicir "neurri txikiagoa daukat"?
   options:
   - Tengo midida más grande
   - Tengo una talla más pequeña
@@ -92,20 +92,20 @@ exercises:
   - eu: galtzak
     es: pantalones
   - eu: soineko
-    es: vestido
+    es: vestíu
   - eu: jertsea
-    es: jersey
+    es: xersei
   - eu: zapatak
     es: zapatos
   - eu: beroki
-    es: abrigo
+    es: abrigu
 ---
 
 N'A1 viches el vocabulariu básicu de **ropa** y **casa**. N'A2 amplíes a rexistros más concretos: **talles, probador, complementos**, y a la **vivienda como espaciu social** (arriendu, propietariu, barriu, xardín).
 
 ## Ropa: vocabulariu A2
 
-| Categoría | Castellán | Vascu |
+| Categoría | Asturianu | Vascu |
 |---|---|---|
 | Camises | camisa | *alkandora* |
 | | camiseta | *kamiseta* |
@@ -133,7 +133,7 @@ N'A1 viches el vocabulariu básicu de **ropa** y **casa**. N'A2 amplíes a rexis
 
 ## Na tienda de ropa
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | ¿Tienes una talla más grande? | *Neurri **handiagorik** baduzu?* |
 | Una talla más pequeña, por favor | *Neurri txikiago bat, mesedez* |
@@ -157,7 +157,7 @@ N'A1 viches el vocabulariu básicu de **ropa** y **casa**. N'A2 amplíes a rexis
 
 ## Vivienda: vocabulariu A2
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | Vivienda | *etxebizitza* |
 | Pisu | *pisua* |
@@ -168,7 +168,7 @@ N'A1 viches el vocabulariu básicu de **ropa** y **casa**. N'A2 amplíes a rexis
 
 ### Partes nueves
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | Terraza | *terraza* |
 | Balcón | *balkoia* |
@@ -180,7 +180,7 @@ N'A1 viches el vocabulariu básicu de **ropa** y **casa**. N'A2 amplíes a rexis
 
 ## Arrendar / mercar
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | Ta n'arriendu | *Alokairuan dago* |
 | Ta a la venta | *Salgai dago* |

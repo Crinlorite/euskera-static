@@ -99,7 +99,7 @@ Aguesta leccion amplie eth passat as vèrbs **NOR-NORK** (transitius: jo l', tu 
 
 > **partizipioa + nuen / zenuen / zuen / genuen / zenuten / zuten**
 
-| Pronom | Passat de *dut* | Castelhan |
+| Pronom | Passat de *dut* | Aranés |
 |---|---|---|
 | nik | **nuen** | jo l' |
 | zuk | **zenuen** | tu l' |
@@ -114,7 +114,7 @@ Aguesta leccion amplie eth passat as vèrbs **NOR-NORK** (transitius: jo l', tu 
 
 S'er objècte ei **plurau** (es libres, es entrades, es cervesi), er auxiliar cambie ara sèrie en **-itu-**:
 
-| Pronom | Auxiliar plurau | Castelhan |
+| Pronom | Auxiliar plurau | Aranés |
 |---|---|---|
 | nik | **nituen** | jo es |
 | zuk | **zenituen** | tu es |
@@ -125,7 +125,7 @@ S'er objècte ei **plurau** (es libres, es entrades, es cervesi), er auxiliar ca
 
 ## Exemples
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Mengèri pintxos | *Pintxoak jan **nituen*** |
 | Vedí un filme | *Film bat ikusi **nuen*** |
@@ -140,7 +140,7 @@ Dus vèrbs fòrça frequents mantien era forma **sintetica** en passat, com en p
 
 ### *Eduki* (auer, possession)
 
-| Pronom | Forma | Castelhan |
+| Pronom | Forma | Aranés |
 |---|---|---|
 | ni | **neukan** | jo auia |
 | zu | **zeneukan** | tu auies |
@@ -151,7 +151,7 @@ Dus vèrbs fòrça frequents mantien era forma **sintetica** en passat, com en p
 
 ### *Jakin* (saber)
 
-| Pronom | Forma | Castelhan |
+| Pronom | Forma | Aranés |
 |---|---|---|
 | ni | **nekien** | jo sabia |
 | zu | **zenekien** | tu sabies |

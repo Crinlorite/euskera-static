@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Vieni qui
   - eu: Hartu hau
-    es: Toma esto
+    es: Prendi questo
   - eu: Eseri hemen
     es: Siediti qui
   - eu: Esadazu egia

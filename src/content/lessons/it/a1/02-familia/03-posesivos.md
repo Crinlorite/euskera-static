@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: mio
   - eu: zure
-    es: tu/tuyo
+    es: tuo
   - eu: bere
     es: suo (di lui/lei)
   - eu: gure
-    es: nuestro
+    es: nostro
   - eu: zuen
-    es: vuestro
+    es: vostro
   - eu: beren
     es: loro (di loro)
 - id: ex-pos-fb1

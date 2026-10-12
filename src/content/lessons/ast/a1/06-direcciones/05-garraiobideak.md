@@ -27,7 +27,7 @@ exercises:
   - eu: hegazkinez
     es: n'avión
   - eu: itsasontziz
-    es: en barco
+    es: en barcu
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: ¿Cómo se diz "Voi n'autobús"?
@@ -52,7 +52,7 @@ exercises:
   - trenez
 - id: ex-ga-mc2
   type: multiple-choice
-  prompt: '"Bilbora hegazkinez doaz" significa…'
+  prompt: '"Bilbora hegazkinez doaz" quier dicir…'
   options:
   - Vienen de Bilbao n'avión
   - Van a Bilbao n'avión
@@ -140,7 +140,7 @@ Les dos formes (*Nola* y *Zerez*) son válides y frecuentes. *Nola* ye más xene
 - **Iruñera trenez goaz.** — Vamos a Pamplona en tren.
 - **Bilbora hegazkinez doaz.** — Van a Bilbao n'avión.
 - **Eskolara bizikletaz dator alaba.** — La fía vien a la escuela en bicicleta.
-- **Mendira oinez igotzen gara.** — Subimos a pie al monte.
+- **Mendira oinez igotzen gara.** — Xubimos a pie al monte.
 
 ## Combinando NONDIK + NORA + NOLA
 

@@ -82,11 +82,11 @@ exercises:
   - eu: altua
     es: alto
   - eu: baxua
-    es: bajo
+    es: baixo
   - eu: handia
     es: grande
   - eu: txikia
-    es: pequeño
+    es: pequeno
   - eu: lodia
     es: gordo
   - eu: argala

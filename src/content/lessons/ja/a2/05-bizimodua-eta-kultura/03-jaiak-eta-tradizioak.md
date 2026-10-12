@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: ビルバオのセマナ・グランデ（大週間）
   - eu: Aratusteak
-    es: carnavales
+    es: カーニバル
   - eu: Santa Ageda
     es: 家々を回る聖歌
 ---
@@ -111,7 +111,7 @@ exercises:
 
 ## 祭りに関する語彙
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 祭り | *jaia* |
 | お祝い | *ospakizuna* |
@@ -127,7 +127,7 @@ exercises:
 
 ## バスク文化の人物と要素
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | Bertsolari（即興詩人） | *bertsolaria* |
 | Trikitilari（アコーディオン奏者） | *trikitilaria* |
@@ -143,7 +143,7 @@ exercises:
 
 文化比較では、この2つの単語が鍵となります。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 以前は、昔は | *lehen* |
 | 今は | *orain* |
@@ -158,7 +158,7 @@ exercises:
 
 ## 場所を比較する：*bai... bai...*、*baita... ere*
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | XでもYでも | *Bai X-(e)an, bai Y-(e)an* |
 | Xでもまた | *X-(e)an ere bai* |
@@ -193,7 +193,7 @@ exercises:
 
 ## 文化を比較するための便利な構文
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 一方、ここでは... | *Hemen, aldiz, ...* |
 | Xと同じように | *X-(e)n bezala* |

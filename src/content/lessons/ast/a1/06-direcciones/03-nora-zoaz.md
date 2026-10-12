@@ -102,7 +102,7 @@ exercises:
   - eu: Nora zoaz?
     es: ¿Aú vas?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Voi a casa
   - eu: Eskolara noa
     es: Voi a la escuela
   - eu: Zertara zoaz?
@@ -129,7 +129,7 @@ Pa responder, amestamos **`-ra`** al llugar de destín. El patrón axústase seg
 | Final del llugar | Patrón | Exemplu |
 |---|---|---|
 | -a (orgánica, *eskola*) | + ra | eskola → **eskolara** |
-| Vocal sin -a final (*Bilbo*, *etxe*) | + ra | etxe → **etxera**, Bilbo → **Bilbora** |
+| Vocal ensin -a final (*Bilbo*, *etxe*) | + ra | etxe → **etxera**, Bilbo → **Bilbora** |
 | Consonante (*Madril*, *Gasteiz*) | + era | Madril → **Madrilera**, Gasteiz → **Gasteizera** |
 
 ## Tabla d'exemplos

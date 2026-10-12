@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: depois de tomar café da manhã
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: quando tomo café da manhã
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: enquanto tomo café da manhã
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: assim que tomo café da manhã
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: sem tomar café da manhã
 ---
 
 Suas frases já sabem O QUE aconteceu; esta lição ensina a dizer **QUANDO** com precisão de relojoeiro: *quando cheguei*, *antes de sair*, *depois de comer*, *enquanto dormia*. Três peças e as combinações saem sozinhas.

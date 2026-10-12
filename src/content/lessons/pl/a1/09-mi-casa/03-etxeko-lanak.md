@@ -14,13 +14,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: garbitu
-    es: limpiar
+    es: sprzątać
   - eu: prestatu
-    es: preparar
+    es: przygotowywać
   - eu: jaso
-    es: recoger
+    es: porządkować
   - eu: lisatu
-    es: planchar
+    es: prasować
   - eu: erosketak egin
     es: robić zakupy
   - eu: zaborra atera
@@ -92,7 +92,7 @@ exercises:
     es: raz w tygodniu
 ---
 
-W tej lekcji nauczysz się podstawowych czasowników do mówienia o **etxeko lanak** (obowiązkach domowych). W języku baskijskim czasowniki zazwyczaj podaje się w formie **participio** (imiesłowu) (`-tu`, `-i`, `-n`), która jest formą „słownikową”: *garbitu*, *prestatu*, *jaso*…
+W tej lekcji nauczysz się podstawowych czasowników do mówienia o **etxeko lanak** (obowiązkach domowych). W języku baskijskim czasowniki zazwyczaj podaje się w formie **imiesłowu** (partizipioa) (imiesłowu) (`-tu`, `-i`, `-n`), która jest formą „słownikową”: *garbitu*, *prestatu*, *jaso*…
 
 ## Kluczowe czasowniki
 

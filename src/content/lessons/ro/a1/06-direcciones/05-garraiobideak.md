@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: pe jos
   - eu: kotxez / autoz
-    es: en coche
+    es: cu mașina
   - eu: autobusez
     es: cu autobuzul
   - eu: trenez
-    es: en tren
+    es: cu trenul
   - eu: bizikletaz
-    es: en bicicleta
+    es: cu bicicleta
   - eu: hegazkinez
     es: cu avionul
   - eu: itsasontziz
-    es: en barco
+    es: cu vaporul
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Cum se spune „Merg cu autobuzul”?
@@ -44,7 +44,7 @@ exercises:
   answers:
   - Oinez
   - oinez
-  explanation: „Oinez” este forma fixă pentru „pe jos” (literalmente „cu piciorul”).
+  explanation: „Oinez” este forma fixă pentru „pe jos” (literal „cu piciorul”).
 - id: ex-ga-fb2
   type: fill-in-blank
   prompt: Merg la Pamplona cu trenul = Iruñera ___ noa.

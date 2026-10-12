@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: после завтрака
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: когда я завтракаю
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: пока я завтракаю
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: как только позавтракаю
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: не позавтракав
 ---
 
 Ваши предложения уже умеют говорить, ЧТО произошло; этот урок научит вас говорить **КОГДА** с точностью часовщика: *когда я пришёл*, *перед выходом*, *после еды*, *пока ты спал*. Три элемента, и комбинации получатся сами собой.

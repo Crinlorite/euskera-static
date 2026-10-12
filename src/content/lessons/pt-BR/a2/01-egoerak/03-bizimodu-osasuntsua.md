@@ -89,13 +89,13 @@ exercises:
   - eu: plastikoa
     es: plástico
   - eu: beira
-    es: vidrio
+    es: vidro
   - eu: organikoa
     es: orgânico
   - eu: pila
     es: pila
   - eu: olioa
-    es: aceite
+    es: óleo
 ---
 
 Falar sobre **estilo de vida** e **meio ambiente** é um bloco clássico do A2: mistura-se vocabulário novo com frases de obrigação e conselho (*behar dugu*, *komeni da*, *garrantzitsua da*) que você já domina desde o A1.

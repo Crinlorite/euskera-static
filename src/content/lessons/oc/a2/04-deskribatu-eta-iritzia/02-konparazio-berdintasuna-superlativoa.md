@@ -94,7 +94,7 @@ Entà "tan... coma" damb adjectiu o advèrbi:
 
 > **X bezain Y**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Tan naut coma tu | *Zu **bezain** altua* |
 | Tan polida coma Donostia | *Donostia **bezain** polita* |
@@ -107,7 +107,7 @@ Entà "tan... coma" damb adjectiu o advèrbi:
 
 Entà "tant coma" damb substantiu o quantitat:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Tant coma tu | *Zuk **adina*** / *Zuk **beste*** |
 | Tant de sòs coma jo | *Nik **adina** diru* |
@@ -123,7 +123,7 @@ Entà "tant coma" damb substantiu o quantitat:
 
 Ua auta forma d'egalitat, aguest còp de **mòde** o **manèra**:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Coma tu | *Zu **bezala*** / *Zure **moduan*** |
 | Hèigui coma tu | *Zuk egin duzun **moduan** egiten dut* |
@@ -159,7 +159,7 @@ Entà "eth mès..." ahiges **-en** ar adjectiu o advèrbi + er article **-a**:
 
 Quan indiques **en quin grop**, utilizes eth cas locatiu o eth genitiu:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Eth mès naut dera classa | *Klaseko **altuena*** |
 | Era mès rapida deth mon | *Munduko **azkarrena*** |
@@ -174,7 +174,7 @@ Quan indiques **en quin grop**, utilizes eth cas locatiu o eth genitiu:
 
 Equivalents superlatius de quantitat o frequéncia:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Çò que mès me shauta | *Gehien gustatzen zaidana* |
 | Çò que mens hèigui | *Gutxien egiten dudana* |

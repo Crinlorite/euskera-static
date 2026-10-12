@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" vol dir…'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Estic pitjor
+  - Estic bé
+  - Estic millor
+  - Estic igual
   answer: 2
   explanation: '*Hobeto* = millor. *Hobe* és l''adjectiu "millor" i *hobeto* l''adverbi.'
 - id: ex-a2-eg2-fb1
@@ -76,7 +76,7 @@ exercises:
   - eu: Min ematen dizu?
     es: Et fa mal?
   - eu: Hartu hau
-    es: Toma esto
+    es: Pren això
   - eu: Itzuli astebete barru
     es: Torna d'aquí a una setmana
   - eu: Atseden hartu

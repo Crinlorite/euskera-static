@@ -12,11 +12,11 @@ covers:
 exercises:
 - id: ex-edj-mc1
   type: multiple-choice
-  prompt: '"Kafe hutsa" significa…'
+  prompt: '"Kafe hutsa" quier dicir…'
   options:
   - café con lleche
   - café cortáu
-  - café solo
+  - café solu
   - café descafeináu
   answer: 2
   explanation: '*hutsa* vien de *huts* ("vacíu", "puru"): café ensin nada, café solo.'
@@ -50,7 +50,7 @@ exercises:
   - eu: kafea
     es: el café
   - eu: kafe hutsa
-    es: café solo
+    es: café solu
   - eu: kafesnea
     es: café con lleche
   - eu: kafe ebakia
@@ -95,13 +95,13 @@ exercises:
   - eu: ura
     es: agua
   - eu: ardo gorria
-    es: vino tinto
+    es: vinu tintu
   - eu: garagardoa
     es: cerveza
   - eu: sagardoa
     es: sidra
   - eu: zumoa
-    es: zumo
+    es: zumu
   - eu: tea
     es: té
 ---

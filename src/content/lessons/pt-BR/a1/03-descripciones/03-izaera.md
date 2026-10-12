@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" significa…'
   options:
-  - aburrido
+  - chato
   - alegre
-  - nervioso
-  - callado
+  - nervoso
+  - calado
   answer: 1
   explanation: '*alaia* é "alegre". É um dos adjetivos de personalidade mais comuns.'
 - id: ex-iza-mc2
@@ -89,17 +89,17 @@ exercises:
   - eu: alaia
     es: alegre
   - eu: isila
-    es: callado
+    es: calado
   - eu: berritsua
-    es: hablador
+    es: falante
   - eu: lasaia
     es: tranquilo
   - eu: urduria
-    es: nervioso
+    es: nervoso
   - eu: langilea
-    es: trabajador
+    es: trabalhador
   - eu: alferra
-    es: vago
+    es: preguiçoso
   - eu: jatorra
     es: simpático
 ---

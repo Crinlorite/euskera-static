@@ -26,7 +26,7 @@ exercises:
   explanation: Primero presentes (Hau X da), depués añades datos (Bera Y da), y por último cuentes qué fai (Bera Z egiten du).
 - id: ex-10-05-mc2
   type: multiple-choice
-  prompt: '"Nire bizilaguna 75 urteko jubilatua da" significa…'
+  prompt: '"Nire bizilaguna 75 urteko jubilatua da" quier dicir…'
   options:
   - El mio vecín tien 75 años y ta xubiláu
   - El mio vecín xubilóse hai 75 años
@@ -51,11 +51,11 @@ exercises:
   - eu: alaia
     es: alegre
   - eu: lasaia
-    es: tranquilo/a
+    es: tranquilu/a
   - eu: berritsua
     es: charlatán/ana
   - eu: zaratatsua
-    es: ruidoso/a
+    es: ruidosu/osa
 - id: ex-10-05-fc
   type: flashcards
   cards:

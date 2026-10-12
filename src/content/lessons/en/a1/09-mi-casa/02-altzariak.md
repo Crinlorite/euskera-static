@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: table
   - eu: aulkia
-    es: silla
+    es: chair
   - eu: ohea
-    es: cama
+    es: bed
   - eu: armairua
-    es: armario
+    es: wardrobe
   - eu: sofa
     es: sofa
   - eu: telebista
     es: television
   - eu: hozkailua
-    es: nevera
+    es: fridge
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: In which room is the "hozkailua"?

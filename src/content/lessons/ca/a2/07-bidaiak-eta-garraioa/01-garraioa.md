@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-bi1-mc1
   type: multiple-choice
-  prompt: '"Trena galdu dut" significa…'
+  prompt: '"Trena galdu dut" vol dir…'
   options:
   - He comprat el tren
   - He perdut el tren
@@ -83,9 +83,9 @@ exercises:
   - eu: hegazkinez
     es: en avió
   - eu: kotxez
-    es: en coche
+    es: en cotxe
   - eu: oinez
-    es: andando
+    es: a peu
   - eu: bizikletaz
     es: en bici
 ---

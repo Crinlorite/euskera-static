@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" означает…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - скучный
+  - весёлый
+  - нервный
+  - молчаливый
   answer: 1
   explanation: '*alaia* — это «весёлый». Это одно из самых распространённых прилагательных для описания характера.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: весёлый
   - eu: isila
-    es: callado
+    es: молчаливый
   - eu: berritsua
-    es: hablador
+    es: разговорчивый
   - eu: lasaia
-    es: tranquilo
+    es: спокойный
   - eu: urduria
-    es: nervioso
+    es: нервный
   - eu: langilea
-    es: trabajador
+    es: трудолюбивый
   - eu: alferra
-    es: vago
+    es: ленивый
   - eu: jatorra
     es: приятный
 ---

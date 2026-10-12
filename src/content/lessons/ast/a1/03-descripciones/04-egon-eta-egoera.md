@@ -84,24 +84,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: contentu
   - eu: triste
     es: triste
   - eu: nekatuta
-    es: cansado
+    es: cansáu
   - eu: haserre
-    es: enfadado
+    es: enfadáu
   - eu: gaixorik
-    es: enfermo
+    es: enfermu
   - eu: ondo
     es: bien
   - eu: gaizki
     es: mal
   - eu: lasai
-    es: tranquilo (ahora)
+    es: tranquilu (agora)
 ---
 
-En vascu hai dos verbos onde en castellán usamos namás ún. Yá conoces **izan** ("ser/tar" pa cualidaes). Agora toca **egon**, que se traduz como "tar" cuando falamos d'**estaos pasaxeros**: cómo ta daquién güei, agora mesmo, nesti momentu.
+En vascu hai dos verbos pa "ser" y "tar". Yá conoces **izan** ("ser/tar" pa cualidaes). Agora toca **egon**, que se traduz como "tar" cuando falamos d'**estaos pasaxeros**: cómo ta daquién güei, agora mesmo, nesti momentu.
 
 ## El paradigma d'egon
 
@@ -121,8 +121,8 @@ En vascu hai dos verbos onde en castellán usamos namás ún. Yá conoces **izan
 
 La gran trampa: cuando un axetivu va con **egon**, **NUN** lleva la `-a` final. Compara:
 
-- **Izan** (cualidá estable): *Ni alegre soy* → *Ni alai**a** naiz.* (con `-a`)
-- **Egon** (estáu pasaxeru): *Yo estoy contenta hoy* → *Ni pozik nago.* (ensin `-a`)
+- **Izan** (cualidá estable): *Soi allegre* → *Ni alai**a** naiz.* (con `-a`)
+- **Egon** (estáu pasaxeru): *Güei toi contenta* → *Ni pozik nago.* (ensin `-a`)
 
 | Estáu | Asturianu |
 |---|---|

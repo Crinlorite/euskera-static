@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: cucina
   - eu: logela
-    es: dormitorio
+    es: camera da letto
   - eu: komuna
-    es: baño
+    es: bagno
   - eu: egongela
     es: soggiorno
   - eu: sarrera
-    es: entrada
+    es: ingresso
   - eu: korridorea
-    es: pasillo
+    es: corridoio
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Vuoi farti la doccia. In quale stanza vai?

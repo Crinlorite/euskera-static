@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: aguest/a (a pròp)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: aqueth/a (a mieja distància)
   - eu: hura
-    es: aquel/aquella
+    es: aqueth/aquera (luenh)
   - eu: bera
     es: eth/era
   - eu: haiek
-    es: ellos/ellas
+    es: eri/eres
   - eu: Nor da hau?
     es: Qui ei aguest/a?
 - id: ex-10-03-fc
@@ -85,7 +85,7 @@ D'ençà d'ara as aprés a parlar de tu (*Ni X naiz*) e deth tòn interlocutor (
 
 En basc i a tres nivèus de proximitat damb tres demostratius. Les utilizaràs constantament entà presentar a bèth'un.
 
-| Demostratiu | Distància | Castelhan |
+| Demostratiu | Distància | Aranés |
 |---|---|---|
 | **hau** | pròp de jo | aguest, aguesta |
 | **hori** | pròp de tu | aqueth, aquera |
@@ -93,7 +93,7 @@ En basc i a tres nivèus de proximitat damb tres demostratius. Les utilizaràs c
 
 E es sòns pluraus:
 
-| Plurau | Castelhan |
+| Plurau | Aranés |
 |---|---|
 | **hauek** | aguesti, aguestes |
 | **horiek** | aquethi, aqueres |
@@ -105,7 +105,7 @@ Era formula basica ei:
 
 > **Hau** + nòm/relacion + **da**.
 
-| Frasa | Castelhan |
+| Frasa | Aranés |
 |---|---|
 | *Hau Maialen da.* | Aguesta ei Maialen. |
 | *Hau nire laguna da.* | Aguesta ei era mia amiga. |
@@ -118,7 +118,7 @@ Era formula basica ei:
 
 Quan ja as presentat a bèth'un, o quan parles d'ua persona que non ei dauant, utilizas **hura** (fòrma estandard) o **bera** (fòrma quotidiana, fòrça mès frequenta).
 
-| Frasa | Castelhan |
+| Frasa | Aranés |
 |---|---|
 | *Bera Maialen da.* | Era ei Maialen. |
 | *Bera nire bizilaguna da.* | Eth/era ei eth mèn vesin/era mia vesia. |

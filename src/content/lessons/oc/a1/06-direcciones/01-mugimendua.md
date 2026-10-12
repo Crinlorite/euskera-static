@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: anar
   - eu: etorri
-    es: venir
+    es: vier
   - eu: ibili
-    es: andar / moverse
+    es: caminar / mòuer-se
   - eu: sartu
     es: entrar
   - eu: irten
-    es: salir
+    es: gésser
   - eu: igo
-    es: subir
+    es: pujar
   - eu: jaitsi
-    es: bajar
+    es: baishar
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Jo voi = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" e eth sòn opausat "irten" signifiquen, respectivament:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - entrar / gésser
+  - pujar / baishar
+  - anar / vier
+  - daurir / barrar
   answer: 0
 - id: ex-mu-fc
   type: flashcards
@@ -81,7 +81,7 @@ exercises:
   - eu: nator
     es: vengui
   - eu: zatoz
-    es: vienes
+    es: vies
   - eu: dator
     es: ven
   - eu: gatoz
@@ -89,7 +89,7 @@ exercises:
   - eu: zatozte
     es: venitz
   - eu: datoz
-    es: vienen
+    es: vien
   - eu: ibili
     es: caminar / estar (en tot anar d'un costat a un aute)
   - eu: nabil
@@ -128,11 +128,11 @@ Tres vèrbs basics apareisheràn tostemp: **joan** (anar), **etorri** (vier) e *
 | Persona | Forma | Aranés |
 |---|---|---|
 | ni | **nator** | vengui |
-| zu | **zatoz** | vienes |
+| zu | **zatoz** | vies |
 | hura | **dator** | ven |
 | gu | **gatoz** | venim |
 | zuek | **zatozte** | venitz |
-| haiek | **datoz** | vienen |
+| haiek | **datoz** | vien |
 
 > Era qüestion clau: ***Nondik zatoz?*** — D'on vienes? La trabalharam ena leçon 04.
 

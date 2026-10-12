@@ -116,7 +116,7 @@ Aby zapytać o godzinę, używa się **Zer ordu da?** ("która jest godzina?").
 
 Skąd bierze się ta końcówka **-ak**? To baskijska liczba mnoga (widziałeś ją w *gurasoak*, *aiton-amonak*). Tutaj też: *bost* (pięć) → *bostak* ("piąte") + *dira* ("są").
 
-> **Uwaga:** wiele osób podaje godzinę w systemie 12-godzinnym, tak samo jak w języku hiszpańskim. Aby rozróżnić poranek od popołudnia, wystarczy dodać z przodu *goizeko* (poranka) lub *arratsaldeko* (popołudnia): *goizeko zortziak* (ósma rano). Zobaczymy to w lekcji 3.
+> **Uwaga:** wiele osób podaje godzinę w systemie 12-godzinnym, tak samo jak w języku polskim. Aby rozróżnić poranek od popołudnia, wystarczy dodać z przodu *goizeko* (poranka) lub *arratsaldeko* (popołudnia): *goizeko zortziak* (ósma rano). Zobaczymy to w lekcji 3.
 
 ## Praktyka
 

@@ -84,7 +84,7 @@ exercises:
   - eu: urdaiazpikoa
     es: presunto
   - eu: tortilla
-    es: tortilla
+    es: tortilha
 - id: ex-edj-mp
   type: match-pairs
   pairs:
@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: café com leite
   - eu: ura
-    es: agua
+    es: água
   - eu: ardo gorria
-    es: vino tinto
+    es: vinho tinto
   - eu: garagardoa
-    es: cerveza
+    es: cerveja
   - eu: sagardoa
     es: sidra
   - eu: zumoa
-    es: zumo
+    es: suco
   - eu: tea
     es: chá
 ---

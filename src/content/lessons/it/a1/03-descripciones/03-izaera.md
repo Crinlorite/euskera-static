@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" significa…'
   options:
-  - aburrido
-  - alegre
+  - noioso
+  - allegro
   - nervioso
-  - callado
+  - silenzioso
   answer: 1
   explanation: '*alaia* significa "allegro/a". È uno degli aggettivi di carattere più comuni.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: allegro
   - eu: isila
-    es: callado
+    es: silenzioso
   - eu: berritsua
-    es: hablador
+    es: chiacchierone
   - eu: lasaia
-    es: tranquilo
+    es: tranquillo
   - eu: urduria
     es: nervioso
   - eu: langilea
-    es: trabajador
+    es: lavoratore
   - eu: alferra
-    es: vago
+    es: pigro
   - eu: jatorra
     es: simpatico
 ---

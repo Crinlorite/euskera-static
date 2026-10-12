@@ -24,7 +24,7 @@ exercises:
   explanation: '*Birziklatu* = reciclar. *Behar dugu* = hem de.'
 - id: ex-a2-eg3-mc2
   type: multiple-choice
-  prompt: '"Kirola egiten dut astean hiru aldiz" significa…'
+  prompt: '"Kirola egiten dut astean hiru aldiz" vol dir…'
   options:
   - Faig esport tres hores a la setmana
   - Faig tres esports
@@ -85,17 +85,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: paper
   - eu: plastikoa
     es: plàstic
   - eu: beira
-    es: vidrio
+    es: vidre
   - eu: organikoa
     es: orgànic
   - eu: pila
     es: pila
   - eu: olioa
-    es: aceite
+    es: oli
 ---
 
 Parlar d'**estil de vida** i **medi ambient** és un bloc clàssic de l'A2: es barreja vocabulari nou amb frases d'obligació i consell (*behar dugu*, *komeni da*, *garrantzitsua da*) que ja domines des de l'A1.

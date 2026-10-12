@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" تعني...'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - شطيرة
+  - طبق مشكّل
+  - حلوى
   answer: 1
   explanation: '*ogitartekoa* تأتي من *ogi* (خبز) + *arte* (بين): "ما بين الخبزين" — أي الساندويتش.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — تمامًا كما في الإسبانية، بدون تعديل كبير.'
+  explanation: '*plater konbinatua* — مأخوذ من الإسبانية «plato combinado» بدون تعديل كبير.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: بالنسبة لي، حصة جبن = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: بينتشو
   - eu: ogitartekoa
-    es: bocadillo
+    es: شطيرة
   - eu: plater konbinatua
-    es: plato combinado
+    es: طبق مشكّل
   - eu: razioa
     es: حصة (طبق)
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: جبن
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ exercises:
 
 ## الأشكال الثلاثة
 
-| بالباسكية | المعنى | الحجم |
+| بالباسكية | العربية | الحجم |
 |---|---|---|
 | *pintxoa* | مقبلات / طبق صغير | صغير، يؤكل على البار |
 | *ogitartekoa* | ساندويتش | متوسط، في خبز |
@@ -115,7 +115,7 @@ exercises:
 
 هذه هي الحشوات الأكثر شيوعًا التي ستراها على سبورة في حانة:
 
-| بالباسكية | المعنى |
+| بالباسكية | العربية |
 |---|---|
 | *tortilla* | تورتيا (عجة بطاطس) |
 | *txistorra* | تشيستورا |

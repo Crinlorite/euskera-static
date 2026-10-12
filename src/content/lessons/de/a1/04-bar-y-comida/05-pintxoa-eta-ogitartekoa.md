@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" bedeutet …'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - belegtes Brötchen
+  - Tellergericht
+  - Nachtisch
   answer: 1
   explanation: '*ogitartekoa* kommt von *ogi* (Brot) + *arte* (zwischen): „das zwischen zwei Broten“ – das belegte Brot.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — genau wie im Spanischen, ohne große Anpassung.'
+  explanation: '*plater konbinatua* — aus dem spanischen „plato combinado“ übernommen, fast ohne Anpassung.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Für mich eine Portion Käse = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: Pintxo
   - eu: ogitartekoa
-    es: bocadillo
+    es: belegtes Brötchen
   - eu: plater konbinatua
-    es: plato combinado
+    es: Tellergericht
   - eu: razioa
     es: Portion
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: Käse
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ Die große baskische Barkultur dreht sich um drei Hauptformate: den **pintxo** (
 
 ## Die drei Formate
 
-| Baskisch | Spanisch | Größe |
+| Baskisch | Deutsch | Größe |
 |---|---|---|
 | *pintxoa* | Pincho / Tapa | klein, an der Theke |
 | *ogitartekoa* | belegtes Brot | mittel, im Brot |
@@ -115,7 +115,7 @@ Die große baskische Barkultur dreht sich um drei Hauptformate: den **pintxo** (
 
 Das sind die häufigsten Füllungen, die du auf einer Tafel in einer Bar sehen wirst:
 
-| Baskisch | Spanisch |
+| Baskisch | Deutsch |
 |---|---|
 | *tortilla* | Tortilla (Kartoffelomlett) |
 | *txistorra* | Txistorra |

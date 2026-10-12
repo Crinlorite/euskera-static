@@ -83,9 +83,9 @@ exercises:
   - eu: hegazkinez
     es: en avion
   - eu: kotxez
-    es: en coche
+    es: en cotxe
   - eu: oinez
-    es: andando
+    es: a pè
   - eu: bizikletaz
     es: en bici
 ---
@@ -94,7 +94,7 @@ Comence era unitat viatgèra. Prumèra parada: **es mejans de transpòrt** e es 
 
 ## Es mejans
 
-| Castelhan | Basc | "En…" (instrumentau) |
+| Aranés | Basc | "En…" (instrumentau) |
 |---|---|---|
 | Eth tren | *trena* | *trenez* |
 | Er autobús | *autobusa* | *autobusez* |
@@ -106,7 +106,7 @@ Comence era unitat viatgèra. Prumèra parada: **es mejans de transpòrt** e es 
 
 ## Es lòcs
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Era estancion (tren/bus) | *(tren-/autobus-)geltokia* |
 | Er aeropòrt | *aireportua* |

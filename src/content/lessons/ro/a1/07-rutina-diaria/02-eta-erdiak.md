@@ -121,7 +121,7 @@ De la jumătate încolo, vorbim în funcție de ora următoare cu cuvântul **gu
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Pentru un vorbitor de spaniolă, cel mai ciudat este că **gutxi** se pune **după** număr, nu înaintea lui. *Bederatziak laurden gutxi* înseamnă, literal, „ora nouă sfert fără”.
+> Pentru un vorbitor de română, cel mai ciudat este că **gutxi** se pune **după** număr, nu înaintea lui. *Bederatziak laurden gutxi* înseamnă, literal, „ora nouă sfert fără”.
 
 ## Tabel rezumat
 

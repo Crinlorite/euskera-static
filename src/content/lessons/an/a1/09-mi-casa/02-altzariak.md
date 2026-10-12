@@ -17,7 +17,7 @@ exercises:
   - eu: mahaia
     es: mesa
   - eu: aulkia
-    es: silla
+    es: cadiera
   - eu: ohea
     es: cama
   - eu: armairua

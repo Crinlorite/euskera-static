@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + verb en present és la proposta suau clàssica, igual que en castellà. Les altres pregunten pel passat, la destinació o la tornada.'
+  explanation: '*Zergatik ez…?* + verb en present és la proposta suau clàssica, com el català «per què no…?». Les altres pregunten pel passat, la destinació o la tornada.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: Quedem a les sis? = seietan ___ gara?

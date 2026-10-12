@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" تعني أن قطعة الملابس...'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - غالية جدًا
+  - كبيرة جدًا
+  - جميلة جدًا
+  - صغيرة جدًا
   answer: 1
   explanation: 'اللاحقة *-egi* من الوحدة 04 (gehiegi/gutxiegi) تُطبّق على المقاس: handi**egi**a = كبير جدًا؛ txiki**egi**a = صغير جدًا.'
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: هل يمكنني تجربة هذا البنطال؟ = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = يجرّب. مع صيغة الإمكانية (ahalera): probatu **ditzaket** (بصيغة الجمع: كلمة "praka" تأتي بصيغة الجمع، كما في الإسبانية).'
+  explanation: '*Probatu* = يجرّب. مع صيغة الإمكانية (ahalera): probatu **ditzaket** (بصيغة الجمع: كلمة "praka" تأتي بصيغة الجمع).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: إنه صغير عليّ؛ أريد تغييره = txikia geratzen zait; ___ nahi dut.

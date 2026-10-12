@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: 歩いて
   - eu: kotxez / autoz
-    es: en coche
+    es: 車で
   - eu: autobusez
     es: バスで
   - eu: trenez
-    es: en tren
+    es: 電車で
   - eu: bizikletaz
-    es: en bicicleta
+    es: 自転車で
   - eu: hegazkinez
     es: 飛行機で
   - eu: itsasontziz
-    es: en barco
+    es: 船で
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: 「私はバスで行きます」はなんと言いますか？
@@ -103,11 +103,11 @@ exercises:
     es: 道のり / 旅程
 ---
 
-この単元を終えるにあたり、最後のピースが残っています。それは**移動方法**です。スペイン語では「en + 交通手段」（「en coche」、「en autobús」）を使います。バスク語では、接尾辞**`-z`**（*具格*）を使います。これは交通手段に付け加えられ、驚くべきことに「足」を意味する単語にも付けられます。
+この単元を終えるにあたり、最後のピースが残っています。それは**移動方法**です。日本語では「交通手段 + で」（「車で」「バスで」）と言います。バスク語では、接尾辞**`-z`**（*具格*）を使います。これは交通手段に付け加えられ、驚くべきことに「足」を意味する単語にも付けられます。
 
 ## 質問
 
-| 質問 | 日本語訳 |
+| 質問 | 日本語 |
 |---|---|
 | ***Nola* zoaz?** | どうやって行きますか？ |
 | ***Zerez* zoaz?** | 何（の手段）で行きますか？ |
@@ -117,9 +117,9 @@ exercises:
 
 ## 交通手段
 
-| 手段 | -z を付けた形 | 日本語訳 |
+| 手段 | -z を付けた形 | 日本語 |
 |---|---|---|
-| oin (pie) | **oinez** | 徒歩で |
+| oin（足） | **oinez** | 徒歩で |
 | kotxe / auto | **kotxez** / **autoz** | 車で |
 | autobus | **autobusez** | バスで |
 | tren | **trenez** | 電車で |
@@ -130,7 +130,7 @@ exercises:
 | hegazkin | **hegazkinez** | 飛行機で |
 | itsasontzi | **itsasontziz** | 船で |
 | furgoneta | **furgonetaz** | バンで |
-| zaldi (caballo) | **zaldiz** | 馬で |
+| zaldi（馬） | **zaldiz** | 馬で |
 
 > 接尾辞は、母音の後では**`-z`**、子音の後では**`-ez`**になります（*autobus → autobusez*）。実際には、ほとんどの交通手段の名前は母音で終わるため、基本的な公式は **手段 + z** となります。
 

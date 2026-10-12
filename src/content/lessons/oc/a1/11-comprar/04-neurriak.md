@@ -83,7 +83,7 @@ Saber demanar quantitats concrètes ei era diferéncia entre "ua poma" e "un qui
 
 > **QUANTITAT + PRODUSIT (sense article)**
 
-| Basc | Occitan aranés |
+| Basc | Aranés |
 |---|---|
 | *kilo bat sagar* | un quilò de pomes |
 | *bi kilo tomate* | dus quilòs de tomata |
@@ -96,7 +96,7 @@ Saber demanar quantitats concrètes ei era diferéncia entre "ua poma" e "un qui
 | *botila bat ardo* | ua botelha de vin |
 | *lata bat tomate* | ua lata de tomata |
 
-> **Atencion:** eth produsit va **sense article** (*sagar*, non *sagarra*). Aquò ei diferent deth castelhan e s'apren damb era practica.
+> **Atencion:** eth produsit va **sense article** (*sagar*, non *sagarra*). Aquò s'apren damb era practica.
 
 ## Eth numèro abans, eth produsit darrèr
 
@@ -107,7 +107,7 @@ Ei important er orde:
 
 ## Quantitats aproximades
 
-| Basc | Occitan aranés |
+| Basc | Aranés |
 |---|---|
 | *gehiago* | mès |
 | *gutxiago* | mens |

@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-de3-mc1
   type: multiple-choice
-  prompt: '"Gehiegi jan dut" significa…'
+  prompt: '"Gehiegi jan dut" quier dicir…'
   options:
   - Comí muncho
   - Comí poco
@@ -23,7 +23,7 @@ exercises:
   explanation: '*Gehiegi* = "demasiao" (cantidá escesiva). Distintu d''*asko* (muncho).'
 - id: ex-a2-de3-mc2
   type: multiple-choice
-  prompt: '"Gero eta hotzago" significa…'
+  prompt: '"Gero eta hotzago" quier dicir…'
   options:
   - Abondo fríu
   - Tan fríu como ayeri
@@ -72,7 +72,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: comer demasiao
   - eu: gutxiegi lo egin
     es: dormir poco / insuficiente
   - eu: gero eta hotzago
@@ -82,7 +82,7 @@ exercises:
   - eu: pixka bat berandu
     es: un poco tarde
   - eu: askoz hobeto
-    es: mucho mejor
+    es: muncho meyor
 ---
 
 Esta lleición completa les comparances con dos pieces más:
@@ -98,13 +98,13 @@ Pa dicir que daqué ye **escesivo**, añades **-egi** al axetivu (y depués la *
 
 | Axetivu | Escesivu |
 |---|---|
-| *handia* (grande) | *handi**egia*** (demasiado grande) |
-| *txikia* (pequeño) | *txiki**egia*** |
-| *garestia* (caro) | *garesti**egia*** |
+| *handia* (grande) | *handi**egia*** (demasiao grande) |
+| *txikia* (pequeñu) | *txiki**egia*** |
+| *garestia* (caru) | *garesti**egia*** |
 | *beroa* (caliente) | *bero**egia*** |
-| *hotza* (frío) | *hotz**egia*** |
+| *hotza* (fríu) | *hotz**egia*** |
 | *zaila* (difícil) | *zail**egia*** |
-| *azkarra* (rápido) | *azkarr**egia*** |
+| *azkarra* (rápidu) | *azkarr**egia*** |
 
 > *Alkandora hau **handiegia** da niretzat.* — Esta camisa ye demasiao grande pa min.
 >
@@ -143,7 +143,7 @@ Pa "**cada vez más X**" o "**cada vez menos X**", l'eusquera usa una fórmula m
 | Cada vez peor | *Gero eta **okerragoa*** |
 | Cada vez más | *Gero eta **gehiago*** |
 | Cada vez menos | *Gero eta **gutxiago*** |
-| Cada vez más rápido | *Gero eta **azkarrago*** |
+| Cada vez más rápidu | *Gero eta **azkarrago*** |
 | Cada vez más despacio | *Gero eta **polikiago*** |
 
 > *Bilbo gero eta handiagoa da.* — Bilbao ye cada vez más grande.
@@ -154,7 +154,7 @@ Pa "**cada vez más X**" o "**cada vez menos X**", l'eusquera usa una fórmula m
 
 > **Trucu mnemotéunicu:** *gero eta* lliteralmente "llueu y" — la idea ye "llueu, y llueu, y llueu más...". Ye la forma vasca d'espresar progresión.
 
-## *Hain* — "tan" (con o sin negación)
+## *Hain* — "tan" (con o ensin negación)
 
 | Asturianu | Eusquera |
 |---|---|
@@ -176,7 +176,7 @@ Pa matizar les comparances:
 | Daqué | *zerbait / zertxobait* | *Zertxobait txikiagoa* (daqué más pequeñu) |
 | Abondo | *dezente* | *Dezente hobea* (abondo meyor) |
 | Muncho | *askoz* | *Askoz hobea* (muncho meyor) |
-| Muchísimo | *askoz hobea / askoz garestiagoa* | |
+| Munchísimo | *askoz hobea / askoz garestiagoa* | |
 
 > *Etxe hau zurea **baino askoz** handiagoa da.* — Esta casa ye muncho más grande que la tuya.
 >

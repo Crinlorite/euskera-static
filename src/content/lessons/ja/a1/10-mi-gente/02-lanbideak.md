@@ -15,17 +15,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: 先生
   - eu: ikaslea
-    es: estudiante
+    es: 学生
   - eu: medikua
     es: 医者
   - eu: erizaina
-    es: enfermero/a
+    es: 看護師
   - eu: sukaldaria
-    es: cocinero/a
+    es: 料理人
   - eu: kazetaria
-    es: periodista
+    es: 記者
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: 「polizia」とは誰のことですか？
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: 「Mekanikaria」は...を扱って仕事をします。
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - 病人
+  - 本
+  - 車
+  - 子どもたち
   answer: 2
   explanation: 「Mekanikaria」は整備士のことで、通常は整備工場で車を扱って仕事をします。
 - id: ex-10-02-fb1

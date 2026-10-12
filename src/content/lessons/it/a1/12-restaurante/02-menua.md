@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" significa…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Dolce
+  - Primo piatto
+  - Secondo piatto
+  - Bevanda
   answer: 1
   explanation: '*Lehen platera* — primo piatto. *Lehen* significa "primo".'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" in italiano è…'
   options:
-  - Bebida
+  - Bevanda
   - Aperitivo
-  - Postre
-  - Plato principal
+  - Dolce
+  - Piatto principale
   answer: 2
   explanation: '*Postrea* — dolce. La traduzione è diretta.'
 - id: ex-menu-fb1
@@ -87,17 +87,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: primo piatto
   - eu: bigarren platera
-    es: segundo plato
+    es: secondo piatto
   - eu: postrea
-    es: postre
+    es: dolce
   - eu: edaria
-    es: bebida
+    es: bevanda
   - eu: eguneko menua
     es: menù del giorno
   - eu: karta
-    es: carta
+    es: menù
 ---
 
 Saper leggere il menù ti apre molte porte. Nella maggior parte dei jatetxeak vedrai la struttura classica in tre parti: primo, secondo e dolce.

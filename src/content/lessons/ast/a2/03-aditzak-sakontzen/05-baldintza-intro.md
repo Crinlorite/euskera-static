@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ad5-mc1
   type: multiple-choice
-  prompt: '"Banaiz" significa…'
+  prompt: '"Banaiz" quier dicir…'
   options:
   - Toi
   - Soi
@@ -22,7 +22,7 @@ exercises:
   explanation: '*Ba-* prefixáu al verbu nel contestu afayadizu introduz condición: *banaiz* = "si soi / si toi". L''otru usu de *ba-* (afirmativu intensivu "sí, soi") apaez n''otros contestos.'
 - id: ex-a2-ad5-mc2
   type: multiple-choice
-  prompt: '"Diru asko banu, etxe bat erosiko nuke" significa…'
+  prompt: '"Diru asko banu, etxe bat erosiko nuke" quier dicir…'
   options:
   - Tengo munches perres, merco una casa
   - Voi tener munches perres, voi mercar una casa
@@ -77,7 +77,7 @@ exercises:
   - eu: Joango nintzateke
     es: Diría
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Si yo fuera ricu
   - eu: Edukiko bagenu
     es: Si tuviéremos
 ---
@@ -95,7 +95,7 @@ Pa hipótesis sobre'l **futuru probable** o presente, l'eusquera usa'l prefixu *
 
 > **ba- + presente del auxiliar, ... + futuru**
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Si llueve, nun voi dir | *Euria egiten **badu**, ez naiz joango* |
 | Si tienes tiempu, ven | *Astia **baduzu**, etorri* |
@@ -122,7 +122,7 @@ Pa hipótesis irreales o mui pocu probables ("si yo fora...", "si tuviera..."), 
 
 ### Formes de *izan* en condición irreal
 
-| Pronome | Forma | Castellán |
+| Pronome | Forma | Asturianu |
 |---|---|---|
 | ni | **banintz** | si yo fora/tuviera |
 | zu | **bazina** | si tu fores |
@@ -133,7 +133,7 @@ Pa hipótesis irreales o mui pocu probables ("si yo fora...", "si tuviera..."), 
 
 ### Formes de *ukan* en condición irreal
 
-| Pronome | Forma | Castellán |
+| Pronome | Forma | Asturianu |
 |---|---|---|
 | nik | **banu** | si yo lo tuviera |
 | zuk | **bazenu** | si tu lo tuvieres |
@@ -149,22 +149,22 @@ El "mercar**ía** / diría / sería" fórmase con **-ko/-go** (la mesma marca qu
 
 ### NOR-NORK condicional ("yo lo + ría")
 
-| Pronome | Forma | Castellán |
+| Pronome | Forma | Asturianu |
 |---|---|---|
 | nik | **nuke** | yo lo —ría |
 | zuk | **zenuke** | tu lo —ríes |
 | hark | **luke** | él lo —ría |
-| guk | **genuke** | lo —ríamos |
+| guk | **genuke** | lo —ríemos |
 | haiek | **lukete** | lo —ríen |
 
 ### NOR condicional ("yo —ría", intransitivu)
 
-| Pronome | Forma | Castellán |
+| Pronome | Forma | Asturianu |
 |---|---|---|
 | ni | **nintzateke** | yo —ría |
 | zu | **zinateke** | tu —ríes |
 | hura | **litzateke** | él —ría / sería |
-| gu | **ginateke** | —ríamos |
+| gu | **ginateke** | —ríemos |
 | haiek | **lirateke** | —ríen |
 
 ## Fras modelu
@@ -193,7 +193,7 @@ El "mercar**ía** / diría / sería" fórmase con **-ko/-go** (la mesma marca qu
 
 ## Frases feches mui preseos
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | ¿Querríes…? | *Nahi **zenuke**…?* |
 | Prestaríame… | *Gustatuko **litzaidake**…* |

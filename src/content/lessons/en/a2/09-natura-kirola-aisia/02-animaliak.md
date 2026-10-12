@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: barks and goes for walks
   - eu: katua
-    es: duerme 16 horas
+    es: sleeps 16 hours
   - eu: behia
-    es: da leche
+    es: gives milk
   - eu: ardia
     es: gives wool and cheese
   - eu: txoria
-    es: canta al amanecer
+    es: crows at dawn
   - eu: basurdea
     es: destroys the cornfield
 ---

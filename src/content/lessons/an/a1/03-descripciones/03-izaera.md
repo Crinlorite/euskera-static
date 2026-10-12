@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" significa…'
   options:
-  - aburrido
+  - aburriu
   - alegre
   - nervioso
-  - callado
+  - callau
   answer: 1
   explanation: '*alaia* ye "alegre". Ye un d''os adchectivos de caracter mas comuns.'
 - id: ex-iza-mc2
@@ -89,15 +89,15 @@ exercises:
   - eu: alaia
     es: alegre
   - eu: isila
-    es: callado
+    es: callau
   - eu: berritsua
-    es: hablador
+    es: charrador
   - eu: lasaia
     es: tranquilo
   - eu: urduria
     es: nervioso
   - eu: langilea
-    es: trabajador
+    es: treballador
   - eu: alferra
     es: vago
   - eu: jatorra

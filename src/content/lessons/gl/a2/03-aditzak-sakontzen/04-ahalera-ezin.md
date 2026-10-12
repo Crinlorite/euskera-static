@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Podes vir?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Podes facelo
   - eu: Ezin dut etorri
     es: Non podo vir
   - eu: Ezin nintzen joan

@@ -20,7 +20,7 @@ exercises:
   - eu: jo eskuinera
     es: chira a la dreita
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: sigue dreito / enta debant
   - eu: zeharkatu
     es: cruza
   - eu: igo eskailerak
@@ -43,15 +43,15 @@ exercises:
   type: multiple-choice
   prompt: '"Zeharkatu" significa…'
   options:
-  - seguir recto
+  - seguir dreito
   - cruzar
   - girar
-  - subir
+  - puyar
   answer: 1
   explanation: De "zehar" (a traviés). "Zeharkatu kalea / zebrabidea" = cruzar a carrera / o paso de cebra.
 - id: ex-no-fb1
   type: fill-in-blank
-  prompt: Sigue recto = ___ aurrera.
+  prompt: Sigue dreito = ___ aurrera.
   answers:
   - Segi
   - segi
@@ -84,7 +84,7 @@ exercises:
   - eu: jo eskuinera
     es: chira a la dreita
   - eu: segi aurrera
-    es: sigue recto
+    es: sigue dreito
   - eu: jarraitu zuzen
     es: contina recto
   - eu: zeharkatu

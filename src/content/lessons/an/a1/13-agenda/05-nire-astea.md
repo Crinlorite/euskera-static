@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: a fin de semana
   - eu: bihar
-    es: mañana
+    es: manyana
   - eu: etzi
-    es: pasado mañana
+    es: pasau manyana
   - eu: gaur arratsaldean
     es: esta tarde
   - eu: libre nago
-    es: estoy libre
+    es: soi libre
 ---
 
 Lección final d'a unidat: imos a montar **una semana entera** unindo tot lo aprendiu. Días, futuros, citas, marcadors de cuan... o lenguache de planificar.

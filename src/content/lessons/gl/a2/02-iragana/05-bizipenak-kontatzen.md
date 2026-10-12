@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: casou
   - eu: bidaiatu zuten
-    es: viajaron
+    es: viaxaron
   - eu: ezagutu nuen
     es: coñecín
   - eu: maitemindu nintzen
@@ -115,7 +115,7 @@ Unha narración típica en pasado mestura tempos segundo a función:
 
 Para encadear o que sucedeu:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Primeiro / ao principio | *Lehenengo* / *Hasieran* |
 | A continuación | *Ondoren* |
@@ -131,7 +131,7 @@ Para encadear o que sucedeu:
 
 Estas estruturas aparecen en calquera biografía ou relato persoal:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Nacín en 1990 | *1990ean **jaio nintzen*** |
 | Crieime en Tolosa | *Tolosan **hazi nintzen*** |
@@ -146,7 +146,7 @@ Estas estruturas aparecen en calquera biografía ou relato persoal:
 
 ## Marcadores biográficos
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Hai X anos | *Duela X urte* |
 | En 1985 | *1985ean* |
@@ -180,7 +180,7 @@ Unha receita práctica para A2:
 
 ## Preguntas para entrevistar a alguén
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Onde naciches? | *Non jaio zinen?* |
 | Cando empezaches a traballar? | *Noiz hasi zinen lanean?* |

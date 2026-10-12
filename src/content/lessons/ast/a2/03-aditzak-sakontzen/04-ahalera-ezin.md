@@ -13,10 +13,10 @@ covers:
 exercises:
 - id: ex-a2-ad4-mc1
   type: multiple-choice
-  prompt: '"Etor zaitezke?" significa…'
+  prompt: '"Etor zaitezke?" quier dicir…'
   options:
   - ¿Vienes?
-  - ¿Puedes venir?
+  - ¿Pues venir?
   - ¿Vinisti?
   - ¿Vas venir?
   answer: 1
@@ -43,7 +43,7 @@ exercises:
   - eu: dezaket
     es: puedo (lo) [NOR-NORK]
   - eu: dezakezu
-    es: puedes (lo)
+    es: pues (lo)
   - eu: dezake
     es: puede (lo)
   - eu: dezakegu
@@ -53,7 +53,7 @@ exercises:
   - eu: naiteke
     es: puedo (NOR; dir, venir, tar)
   - eu: zaitezke
-    es: puedes (NOR)
+    es: pues (NOR)
   - eu: daiteke
     es: puede (NOR)
   - eu: gaitezke
@@ -65,20 +65,20 @@ exercises:
   - eu: ezin naiz
     es: nun puedo (NOR)
   - eu: ahal duzu?
-    es: ¿puedes? (variante coloquial)
+    es: ¿pues? (variante coloquial)
 - id: ex-a2-ad4-mp
   type: match-pairs
   pairs:
   - eu: Etor zaitezke
-    es: ¿Puedes venir?
+    es: ¿Pues venir?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Pues facelo
   - eu: Ezin dut etorri
     es: Nun puedo venir
   - eu: Ezin nintzen joan
     es: Nun podía dir
   - eu: Ahal duzu lagundu?
-    es: ¿Puedes ayudar?
+    es: ¿Pues ayudar?
   - eu: Ezin daiteke jakin
     es: Nun se pue saber
 ---
@@ -95,7 +95,7 @@ La más cenciella y la que más vas sentir:
 
 | Asturianu | Euskera |
 |---|---|
-| ¿Puedes venir? | *Etorri **ahal zara**?* |
+| ¿Pues venir? | *Etorri **ahal zara**?* |
 | ¿Puedo entrar? | *Sartu **ahal naiz**?* |
 | ¿Puédesme ayudar? | *Lagundu **ahal didazu**?* |
 | ¿Podemos falar contigo? | *Hitz egin **ahal dugu** zurekin?* |

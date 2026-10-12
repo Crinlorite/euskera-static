@@ -121,7 +121,7 @@ Dalla mezz'ora in poi, si parla in funzione dell'ora successiva con la parola **
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Se vieni dallo spagnolo, la cosa più strana è che **gutxi** vada **dopo** il numero, non prima. *Bederatziak laurden gutxi* letteralmente è "le nove un quarto meno".
+> Per chi parla italiano, la cosa più strana è che **gutxi** vada **dopo** il numero, non prima. *Bederatziak laurden gutxi* letteralmente è "le nove un quarto meno".
 
 ## Tabella riassuntiva
 

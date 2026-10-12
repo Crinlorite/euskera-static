@@ -32,7 +32,7 @@ exercises:
   explanation: '"Argitsua" = lluminosu/a (de "argi" = lluz + sufixu -tsu d''abondanza).'
 - id: ex-09-05-mc2
   type: multiple-choice
-  prompt: '"Etxea hirugarren solairuan dago" significa...'
+  prompt: '"Etxea hirugarren solairuan dago" quier dicir...'
   options:
   - La casa tien tres habitaciones
   - La casa ta na tercera planta
@@ -44,17 +44,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: argitsua
-    es: luminoso/a
+    es: lluminosu/osa
   - eu: handia
     es: grande
   - eu: txikia
-    es: pequeño/a
+    es: pequeñu/a
   - eu: lasaia
-    es: tranquilo/a
+    es: tranquilu/a
   - eu: berria
-    es: nuevo/a
+    es: nuevu/a
   - eu: zaharra
-    es: viejo/a
+    es: vieyu/a
 - id: ex-09-05-fc
   type: flashcards
   cards:
@@ -96,7 +96,7 @@ Esta lleición integra tolo del tema 9: les habitaciones, los muebles, les xeres
 
 ## Les preguntes básiques
 
-| Pregunta | Castellanu |
+| Pregunta | Asturianu |
 |---|---|
 | *Non dago zure etxea?* | ¿Ónde ta la to casa? |
 | *Nolakoa da?* | ¿Cómo ye? |
@@ -107,7 +107,7 @@ Esta lleición integra tolo del tema 9: les habitaciones, los muebles, les xeres
 
 ## Axetivos útiles pa describir la casa
 
-| Euskera | Castellanu |
+| Euskera | Asturianu |
 |---|---|
 | *handia* | grande |
 | *txikia* | pequeña |
@@ -144,7 +144,7 @@ Fai'l to propiu párrafu respondiendo nesti orde:
 
 ## Vocabulariu final
 
-| Euskera | Castellanu |
+| Euskera | Asturianu |
 |---|---|
 | *etxebizitza* | vivienda |
 | *etxejabea* | propietariu |

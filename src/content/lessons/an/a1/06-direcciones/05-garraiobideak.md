@@ -15,7 +15,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: a piet
   - eu: kotxez / autoz
     es: en coche
   - eu: autobusez

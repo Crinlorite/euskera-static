@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: tall
   - eu: baxua
-    es: bajo
+    es: short
   - eu: handia
-    es: grande
+    es: big
   - eu: txikia
-    es: pequeño
+    es: small
   - eu: lodia
-    es: gordo
+    es: fat
   - eu: argala
-    es: delgado
+    es: thin
   - eu: polita
-    es: bonito
+    es: pretty
   - eu: itsusia
-    es: feo
+    es: ugly
 ---
 
 When you want to describe what a person or a thing is like in a **stable** way (physically, in general), in Basque we use the question **Nolakoa da?** ("what is it like?") and we answer with the verb **izan** + an adjective with the final `-a` marker.

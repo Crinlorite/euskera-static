@@ -85,24 +85,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: 纸
   - eu: plastikoa
     es: 塑料
   - eu: beira
-    es: vidrio
+    es: 玻璃
   - eu: organikoa
     es: 有机物
   - eu: pila
-    es: pila
+    es: 电池
   - eu: olioa
-    es: aceite
+    es: 油
 ---
 
 谈论**生活方式**和**环境**是A2级别的经典模块：它将新词汇与你从A1级就已掌握的表示义务和建议的短语（*behar dugu*、*komeni da*、*garrantzitsua da*）结合起来。
 
 ## 健康习惯
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 做运动 | *kirola egin* |
 | 走路 / 散步 | *paseatu* / *ibili* |
@@ -125,7 +125,7 @@ exercises:
 
 要表达“X次”，使用公式 **数字 + aldiz**：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 一天一次 | *Egunean behin* |
 | 一周两次 | *Astean bi aldiz* / *birritan* |
@@ -137,7 +137,7 @@ exercises:
 
 ## 环境 — *ingurumena*
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 环境 | *ingurumena* |
 | 自然 | *natura* |
@@ -171,7 +171,7 @@ exercises:
 
 ## 社区生活
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 社区 | *auzoa* |
 | 邻居 | *bizilaguna* |

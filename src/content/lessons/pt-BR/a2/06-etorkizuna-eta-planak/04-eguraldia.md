@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'A previsão diz: "Bihar eguzkia aterako da". O que te espera amanhã?'
   options:
-  - Lluvia
-  - Viento fuerte
+  - Chuva
+  - Vento forte
   - Sol
-  - Niebla
+  - Neblina
   answer: 2
   explanation: '*Eguzkia atera* = o sol sair; no futuro, *aterako da* — amanhã fará sol.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: O sol sairá
   - eu: Haizea dabil
-    es: Hace viento
+    es: Está ventando
   - eu: Hotz handia egiten du
     es: Faz muito frio
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Outras peças com seu próprio verbo:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Está nublado / ensolarado.
 
-> **Note:** o tempo em basco "**faz**" coisas com *egin* e o auxiliar **du** (sem sujeito visível): *euria egingo du*, *bero handia egiten du*. É idêntico ao espanhol «hace calor» — só que a chuva também se «faz».
+> **Note:** o tempo em basco "**faz**" coisas com *egin* e o auxiliar **du** (sem sujeito visível): *euria egingo du*, *bero handia egiten du*. É como o português «faz calor» — só que em basco a chuva também se «faz».
 
 ## Como se pergunta
 

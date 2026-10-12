@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" significa que la prenda ye…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Demasiao cara
+  - Demasiao grande
+  - Mui guapa
+  - Demasiao pequeña
   answer: 1
   explanation: 'El *-egi* de la unidá 04 (gehiegi/gutxiegi) aplicáu a la talla: handi**egi**a = demasiáu grande; txiki**egi**a = demasiáu pequeña.'
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: ¿Podo probar estos pantalones? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = probar(se). Con ahalera: probatu **ditzaket** (plural: les prendes "praka" van en plural, como en castellanu).'
+  explanation: '*Probatu* = probar(se). Con ahalera: probatu **ditzaket** (plural: les prendes "praka" van en plural, como n''asturianu).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: Quéda-yme pequeñu; quiero cambealo = txikia geratzen zait; ___ nahi dut.

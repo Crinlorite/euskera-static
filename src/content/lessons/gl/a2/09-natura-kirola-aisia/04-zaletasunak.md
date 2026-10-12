@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Gústame ler
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Gústalle cantar
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Gústanos viaxar
   - eu: Margotzen dakit
     es: Sei pintar
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Vou bailar
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Estou cociñando
 ---
 
 Que fas cando non fas nada? Esta lección vai de **afeccións** — e da peza de gramática que as goberna: o verbo convertido en substantivo con **-tzea** (*irakurtzea* = "o ler").
@@ -99,7 +99,7 @@ Do A1 coñeces *gustatzen zait* con cousas (*kafea gustatzen zait*). Para que ch
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Gústame ler | *Irakurtzea gustatzen zait* |
 | Gústame moito cociñar | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ Todo o NOR-NORI que xa sabes (*zait, zaio, zaigu…*) segue mandando; só cambia
 
 ## O catálogo de afeccións
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Ler / escribir | *irakurtzea / idaztea* |
 | Escoitar música | *musika entzutea* |
@@ -134,7 +134,7 @@ Todo o NOR-NORI que xa sabes (*zait, zaio, zaigu…*) segue mandando; só cambia
 
 ## Tres estruturas, tres matices (repaso fino)
 
-| Estrutura | Exemplo | Significa |
+| Estrutura | Exemplo | Significado |
 |---|---|---|
 | **-tzea gustatzen zait** | *Margotzea gustatzen zait* | gústame (afección) |
 | **-tzen dakit** | *Margotzen dakit* | seino facer (habilidade) |

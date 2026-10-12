@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-de1-mc1
   type: multiple-choice
-  prompt: '"Lander Olatz baino altuagoa da" significa…'
+  prompt: '"Lander Olatz baino altuagoa da" quier dicir…'
   options:
   - Lander ye tan altu como Olatz
   - Lander ye más altu qu'Olatz
@@ -75,11 +75,11 @@ exercises:
   - eu: gutxiago
     es: menos
   - eu: hobea
-    es: mejor
+    es: meyor
   - eu: okerragoa
     es: peor
   - eu: azkarragoa
-    es: más rápido
+    es: más rápidu
 ---
 
 Comparar ye ún de los actos más cotidianos del llinguaxe: *esti ye más grande qu'aquel*, *yo soi más baxu que tu*, *la tortilla ta meyor qu'ayeri*. N'eusquera la fórmula ye mui regular y, una vez que la domines, abre un montón de frases nueves.
@@ -89,10 +89,10 @@ Comparar ye ún de los actos más cotidianos del llinguaxe: *esti ye más grande
 > **X baino Y-AGO(A)**
 
 - **baino** colócase ente los dos términos comparaos — equival a "que".
-- **-ago** añádese al axetivu o alverbiu (como'l "-er" inglés o la marca de comparativu del castellán).
+- **-ago** añádese al axetivu o alverbiu (como'l "-er" inglés).
 - Si va con sustantivu determináu, l'axetivu lleva la so **-a** habitual: *altuago**a***.
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Más grande | *handi**agoa*** |
 | Más pequeñu | *txiki**agoa*** |
@@ -102,7 +102,7 @@ Comparar ye ún de los actos más cotidianos del llinguaxe: *esti ye más grande
 
 ## Frases tipu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Lander ye más altu qu'Olatz | *Lander Olatz **baino** altu**agoa** da* |
 | Esta casa ye más grande qu'aquella | *Etxe hau hura **baino** handi**agoa** da* |
@@ -116,7 +116,7 @@ Comparar ye ún de los actos más cotidianos del llinguaxe: *esti ye más grande
 
 Dellos axetivos nun siguen la regla regular y convien memorizalos:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Bonu → meyor | *ona → **hobea*** |
 | Malu → peor | *txarra → **okerragoa*** |
@@ -131,7 +131,7 @@ Dellos axetivos nun siguen la regla regular y convien memorizalos:
 
 Cuando compares **aiciones** o **cantidaes**, *gehiago / gutxiago* funciona como alverbiu:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Trabayo más que tu | *Zuk **baino gehiago** lan egiten dut* |
 | Estudia menos qu'antes | *Lehen **baino gutxiago** ikasten du* |
@@ -148,7 +148,7 @@ Cuando compares **aiciones** o **cantidaes**, *gehiago / gutxiago* funciona como
 | *ondo* (bien) | *hobeto* (irregular) |
 | *gaizki* (mal) | *okerrago* |
 | *berandu* (tarde) | *beranduago* |
-| *goiz* (temprano) | *goizago* |
+| *goiz* (tempranu) | *goizago* |
 
 > *Hobeto egiten duzu lan.* — Trabayes meyor.
 >
@@ -168,7 +168,7 @@ O bien col comparativu invertíu:
 
 Una fórmula mui productiva:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nun ye tan caru | *Ez da **hain** garestia* |
 | Non tan rápido | *Ez **hain** azkar* |

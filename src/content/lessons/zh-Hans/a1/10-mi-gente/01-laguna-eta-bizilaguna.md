@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: 朋友
   - eu: bizilaguna
-    es: vecino/a
+    es: 邻居
   - eu: ikaskidea
     es: 同学
   - eu: lankidea
     es: 同事
   - eu: ezaguna
-    es: conocido/a
+    es: 熟人
   - eu: koadrila
     es: 朋友帮 / 朋友团体
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: 谁是你的 *bizilaguna*？
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - 你的兄弟
+  - 你的老板
+  - 你的邻居
+  - 你的老师
   answer: 2
   explanation: '*Bizi* (生活) + *laguna* (同伴) = “同住的伙伴” → 邻居（指你的门洞或街区的）。'
 - id: ex-10-01-mc2
@@ -88,7 +88,7 @@ exercises:
 
 ## 关键词
 
-| Euskera | 含义 | 关系描述 |
+| Euskera | 中文 | 关系描述 |
 |---|---|---|
 | *laguna* | 朋友 | 私人信任关系 |
 | *lagun mina* | 密友 | 极为亲密的关系 |

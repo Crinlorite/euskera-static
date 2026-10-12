@@ -84,7 +84,7 @@ exercises:
     es: me l'a ensenhat
 ---
 
-Eth **NOR-NORI-NORK** ei eth vèrb de **tres arguments**: quauquarrés (NORK) hè quauquarren (NOR) **a quauquarrés** (NORI). En castelhan correspon as construccions damb doble pronom — *te'u done*, *le'u diguí*, *me'u ensenhèc*.
+Eth **NOR-NORI-NORK** ei eth vèrb de **tres arguments**: quauquarrés (NORK) hè quauquarren (NOR) **a quauquarrés** (NORI). En aranés correspon as construccions damb doble pronom — *te'u done*, *le'u diguí*, *me'u ensenhèc*.
 
 Ei eth vèrb mès complèxe deth basc, mès en A2 ne n'as pro damb dominar es **modèls mès utilizadi**.
 
@@ -108,8 +108,8 @@ Taula damb NOR singular ("lo"). Linhes = a qui (NORI), colones = qui hè (NORK):
 | niri (a jo) | — | **didazu** | **dit** | — | **didazue** | **didate** |
 | zuri (a tu) | **dizut** | — | **dizu** | **dizugu** | — | **dizute** |
 | hari (a eth/era) | **diot** | **diozu** | **dio** | **diogu** | **diozue** | **diote** |
-| guri (a nos.) | — | **diguzu** | **digu** | — | **diguzue** | **digute** |
-| zuei (a vos.) | **dizuet** | — | **dizue** | **dizuegu** | — | **dizuete** |
+| guri (a nosati) | — | **diguzu** | **digu** | — | **diguzue** | **digute** |
+| zuei (a vosati) | **dizuet** | — | **dizue** | **dizuegu** | — | **dizuete** |
 | haiei (a eri) | **diet** | **diezu** | **die** | **diegu** | **diezue** | **diete** |
 
 > **Non memorizes tota era taula** de còp. Entà A2, centre-te prumèr en quate caishetes: **dizut, diot, dit, dio**. Damb aguestes quate e es sues derivades (digu, dizu, didate, diote) parles eth 80% deth temps.
@@ -134,7 +134,7 @@ Lig es formes en tot seguir aguest orde intèrn:
 
 S'er objècte ei **plurau** ("los"), era forma cambie. Entà A2 conven reconéisher era parelha:
 
-| Objècte singular | Objècte plurau | Castelhan |
+| Objècte singular | Objècte plurau | Aranés |
 |---|---|---|
 | dizut | **dizkizut** | te'u / te'us |
 | diot | **dizkiot** | le'u / le'us |

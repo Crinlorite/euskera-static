@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Anè (un còp)
   - eu: Joaten nintzen
     es: Anaua (abitud)
   - eu: Joan nuen autoa
     es: (non ei valid)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Èri en camin
   - eu: Bizi nintzen Bilbon
     es: Viuia en Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Ger anè a Bilbao
 ---
 
 Er **imperfècte** der èuscar (*iragan ez burutua*) correspón, en grani trèti, ar "menjaua / viuia / anaua / trabalhaue" der occitan. Servís entà explicar:
@@ -109,7 +109,7 @@ Compara present vs imperfècte:
 
 ## Conjugason damb er auxiliar NOR (intransitius)
 
-| Pronom | Imperfècte | Occitan |
+| Pronom | Imperfècte | Aranés |
 |---|---|---|
 | ni | *…tzen* **nintzen** | jo anaua/èri/viuia |
 | zu | *…tzen* **zinen** | tu anaues |
@@ -122,7 +122,7 @@ Compara present vs imperfècte:
 
 ## Conjugason damb er auxiliar NOR-NORK (transitius)
 
-| Pronom | Imperfècte | Occitan |
+| Pronom | Imperfècte | Aranés |
 |---|---|---|
 | nik | *…tzen* **nuen** | jo ac hèia |
 | zuk | *…tzen* **zenuen** | tu ac heues |
@@ -142,7 +142,7 @@ Compara present vs imperfècte:
 
 Compara:
 
-| Occitan | Èuscar |
+| Aranés | Èuscar |
 |---|---|
 | Ager anèc tath trabalh | *Atzo lanera **joan nintzen*** |
 | Abantes anaua tath trabalh en bicicleta | *Lehen lanera bizikletaz **joaten nintzen*** |
@@ -155,7 +155,7 @@ Entà díder "èri en tot hèr" emplegues era perifrasi damb **ari**:
 
 > **-tzen + ari + izan en passat** (NOR)
 
-| Occitan | Èuscar |
+| Aranés | Èuscar |
 |---|---|
 | Èri en tot manjar | *Jaten **ari nintzen*** |
 | Èrem en tot trabalhar | *Lanean **ari ginen*** |
@@ -168,7 +168,7 @@ Entà díder "èri en tot hèr" emplegues era perifrasi damb **ari**:
 
 Aguesti marcaires pòrten era frasa cap ar imperfècte/abitud:
 
-| Occitan | Èuscar |
+| Aranés | Èuscar |
 |---|---|
 | De petit | *Txikitan* |
 | Quan èri joen | *Gaztea nintzenean* |

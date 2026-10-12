@@ -97,7 +97,7 @@ exercises:
 - **Kiloa X eurotan dago** — 킬로당 X 유로입니다.
    - *Kiloa hamar eurotan dago.* → 킬로당 10유로입니다.
 
-> *Eurotan*은 '유로로'(복수 내격)입니다. 일상 대화에서는 스페인어에서처럼 동사 없이 그냥 "*Hamar euro*"라고 말하는 것도 매우 흔합니다.
+> *Eurotan*은 '유로로'(복수 내격)입니다. 일상 대화에서는 한국어의 "10유로요"처럼 동사 없이 그냥 "*Hamar euro*"라고 말하는 것도 매우 흔합니다.
 
 ## 비싸거나 싸다고 생각될 때
 

@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: o fim de semana
   - eu: bihar
-    es: mañana
+    es: amanhã
   - eu: etzi
-    es: pasado mañana
+    es: depois de amanhã
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: hoje à tarde
   - eu: libre nago
-    es: estoy libre
+    es: estou livre
 ---
 
 Lição final da unidade: vamos montar **uma semana inteira** unindo tudo o que aprendemos. Dias, futuros, compromissos, marcadores de tempo... a linguagem do planejamento.

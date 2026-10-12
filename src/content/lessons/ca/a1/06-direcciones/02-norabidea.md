@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: gira a la dreta
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: segueix recte / endavant
   - eu: zeharkatu
-    es: cruza
+    es: creua
   - eu: igo eskailerak
     es: puja les escales
   - eu: jaitsi aldapa
@@ -41,12 +41,12 @@ exercises:
   explanation: '"Jo ezkerrera" (gira a l''esquerra) + ubicació amb "-an": "semaforoan" (al semàfor).'
 - id: ex-no-mc2
   type: multiple-choice
-  prompt: '"Zeharkatu" significa…'
+  prompt: '"Zeharkatu" vol dir…'
   options:
-  - seguir recto
-  - cruzar
+  - seguir recte
+  - creuar
   - girar
-  - subir
+  - pujar
   answer: 1
   explanation: De "zehar" (a través). "Zeharkatu kalea / zebrabidea" = creuar el carrer / el pas de zebra.
 - id: ex-no-fb1
@@ -154,7 +154,7 @@ En basc, l'imperatiu afirmatiu dels verbs de moviment és molt directe:
 | *semaforoa* | semàfor |
 | *bidegurutzea* | cruïlla, intersecció |
 | *zebrabidea* | pas de zebra |
-| *biribilgunea* / *errotonda* | rotonda |
+| *biribilgunea* / *errotonda* | rotonda (rotonda) |
 | *aldapa* | pujada |
 | *eskailerak* | escales |
 | *zubia* | pont |

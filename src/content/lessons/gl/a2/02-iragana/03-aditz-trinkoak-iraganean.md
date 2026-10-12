@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: eu ía
   - eu: nentorren
     es: viña eu
   - eu: nenbilen
-    es: andaba yo
+    es: eu andaba
   - eu: neukan
     es: tiña eu
   - eu: nekien
     es: sabía eu
   - eu: nengoen
-    es: estaba yo
+    es: eu estaba
 ---
 
 Os **verbos sintéticos** (*aditz trinkoak*) son os poucos verbos éuscaros que se conxugan **sen auxiliar**, nunha soa palabra. Xa coñeces as súas formas en presente: *noa, nator, nabil, daukat, dakit, nago*. En pasado teñen formas paralelas que convén recoñecer e, as máis frecuentes, manexar.

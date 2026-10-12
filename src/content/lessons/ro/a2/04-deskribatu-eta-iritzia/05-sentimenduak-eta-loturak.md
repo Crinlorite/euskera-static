@@ -21,7 +21,7 @@ exercises:
   - Mi-e frică
   - Sunt fericit
   answer: 2
-  explanation: '*Beldur* = frică. *Beldur naiz* = „mi-e frică” (literalmente: „sunt frică”). În limba bască, multe sentimente se formează cu *izan*.'
+  explanation: '*Beldur* = frică. *Beldur naiz* = „mi-e frică” (literal: „sunt frică”). În limba bască, multe sentimente se formează cu *izan*.'
 - id: ex-a2-de5-mc2
   type: multiple-choice
   prompt: '"Hala ere, etorriko naiz" înseamnă…'
@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: Sunt mulțumit
   - eu: Triste dago
     es: Este trist
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: Mi-e frică
   - eu: Haserre dago
     es: Este supărat
   - eu: Lotsa ematen dit
@@ -241,13 +241,13 @@ Când ți se cere să-ți exprimi opinia la A2, urmează acest șablon:
 
 > **1. Nire ustez** + tema + **-(e)la**.
 >
-> **2. Alde batetik**, + razón1 + **-lako**.
+> **2. Alde batetik**, + motiv1 + **-lako**.
 >
-> **3. Bestetik**, + razón2.
+> **3. Bestetik**, + motiv2.
 >
-> **4. Hala ere**, + matización.
+> **4. Hala ere**, + nuanțare.
 >
-> **5. Beraz**, + conclusión.
+> **5. Beraz**, + concluzie.
 
 Cu asta construiești un paragraf complet de A2.
 

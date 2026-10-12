@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: S-au căsătorit în 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: Au avut trei copii
   - eu: 2020an erretiroa hartu zuen
     es: S-a pensionat în 2020
 ---
@@ -94,7 +94,7 @@ Ultima unitate a nivelului — cea în care **legăm firele**. Începem cu proba
 
 ## Reperele unei vieți
 
-| Spaniolă | Bască |
+| Română | Bască |
 |---|---|
 | A se naște | *jaio* (jaio nintzen/zen) |
 | A crește | *hazi* |

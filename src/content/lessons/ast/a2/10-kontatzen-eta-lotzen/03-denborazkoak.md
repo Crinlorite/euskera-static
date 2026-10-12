@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ko3-mc1
   type: multiple-choice
-  prompt: '"Etxera iritsi nintzenean, deitu nizun" significa…'
+  prompt: '"Etxera iritsi nintzenean, deitu nizun" quier dicir…'
   options:
   - Enantes de llegar a casa llaméte
   - Cuando llegué a casa, llaméte
@@ -87,16 +87,16 @@ exercises:
   - eu: gosaldu ondoren
     es: dempués d'almorzar
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: cuando almuerzo
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: mientres almuerzo
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: en cuantes almuerzo
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: ensin almorzar
 ---
 
-Les tos frases yá saben QUÉ pasó; esta lleición enséñate a dicir **CUÁNDO** con precisión de reloxeru: *cuando llegué*, *antes de salir*, *después de comer*, *mientras dormías*. Tres pieces y les combinaciones salen soles.
+Les tos frases yá saben QUÉ pasó; esta lleición enséñate a dicir **CUÁNDO** con precisión de reloxeru: *cuando llegué*, *antes de salir*, *dempués de comer*, *mientres dormíes*. Tres pieces y les combinaciones salen soles.
 
 ## Pieza 1: -NEAN (cuando)
 

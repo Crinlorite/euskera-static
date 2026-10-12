@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Aonde você vai?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: Comprar pão
   - eu: Zertara etorri da?
     es: A que veio?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ A pergunta: ***Zertara** etorri zara?* (a que você veio?) → *Laguntzera!* (Pa
 | Não — é um "para" | **-tzeko** | *Hau ikasteko da* |
 | Sim — você vai/vem A | **-tzera** | *Ikastera noa* |
 
-> Armadilha clássica do espanhol: "vou comprar" NÃO é futuro em basco — é movimento: *erostera noa*. O futuro de verdade você já tem: *erosiko dut*.
+> Armadilha clássica: "vou comprar" (ir a algum lugar para comprar) NÃO é futuro em basco — é movimento: *erostera noa*. O futuro de verdade você já tem: *erosiko dut*.
 
 ## Tudo junto (e com as temporais de ontem)
 

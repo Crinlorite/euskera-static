@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Ich glaube nicht, dass es gut ist
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Weil er/sie gekommen ist
   - eu: Egia delako
     es: Weil es wahr ist
   - eu: Argi dago zaila dela
@@ -205,7 +205,7 @@ Um einen **Grund** auszudrücken ("weil"), hast du zwei Möglichkeiten:
 
 1. **Vergiss nicht die zwei Seiten: -ela in bejahten Sätzen, -enik in verneinten Meinungsäußerungen.**
 2. **Das Suffix -ela wird an das konjugierte Verb angehängt**, nicht an das Partizip: *etorriko da → etorriko **dela***.
-3. **Wenn die Meinung sehr stark ist, verwendest du im Spanischen den Subjuntivo**, im Baskischen gibt es keinen so scharfen Unterschied: *uste dut ondo dagoela* (ich glaube, es ist gut) und *zalantza dut ondo dagoenik* (ich bezweifle, dass es gut ist) verwenden unterschiedliche Formen, aber keinen formalen „Subjunktiv“.
+3. **Manche Sprachen (z. B. das Spanische) wechseln bei Zweifel in den Subjunktiv**, im Baskischen gibt es keinen so scharfen Unterschied: *uste dut ondo dagoela* (ich glaube, es ist gut) und *zalantza dut ondo dagoenik* (ich bezweifle, dass es gut ist) verwenden unterschiedliche Formen, aber keinen formalen „Subjunktiv“.
 
 > **Pädagogischer Hinweis:** Die Formel *Nire ustez + Satz + -lako + Satz* ist wahrscheinlich das nützlichste A2-Werkzeug, um Meinungen zu äußern und zu argumentieren. Musterbeispiel:
 >

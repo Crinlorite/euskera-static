@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: Einen Termin vereinbaren
   - eu: Eskabidea bete
     es: Den Antrag ausfüllen
   - eu: NANaren fotokopia

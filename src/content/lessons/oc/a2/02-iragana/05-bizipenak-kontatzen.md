@@ -27,8 +27,8 @@ exercises:
   prompt: Entà parlar dera **scèna** de hons (com ère eth dia, a on èren) en ua istòria, quin passat utilize?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Present
+  - Passat recent (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: Era scèna, era descripcion e es abituds van en imperfècte. Es accions puntuaus que hèn avançar era istòria van en burutua.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: se maridèc
   - eu: bidaiatu zuten
-    es: viajaron
+    es: viatgèren
   - eu: ezagutu nuen
     es: coneishí
   - eu: maitemindu nintzen
@@ -115,7 +115,7 @@ Ua narracion tipica en passat barrege temps segons era foncion:
 
 Entà encadenar çò que succedic:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Prumèr / ath començament | *Lehenengo* / *Hasieran* |
 | A continuacion | *Ondoren* |
@@ -131,7 +131,7 @@ Entà encadenar çò que succedic:
 
 Aguestes estructures apareishen en quinsevolh biografia o relat personau:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Neishegui en 1990 | *1990ean **jaio nintzen*** |
 | Me crieigui en Tolosa | *Tolosan **hazi nintzen*** |
@@ -146,7 +146,7 @@ Aguestes estructures apareishen en quinsevolh biografia o relat personau:
 
 ## Marcadors biografics
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Hè X ans | *Duela X urte* |
 | En 1985 | *1985ean* |
@@ -180,7 +180,7 @@ Ua recèpta practica entà A2:
 
 ## Qüestions entà entrevistar a bèth un
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | A on neishegueres? | *Non jaio zinen?* |
 | Quan comencères a trabalhar? | *Noiz hasi zinen lanean?* |

@@ -77,17 +77,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: pociągiem
   - eu: autobusez
     es: autobusem
   - eu: hegazkinez
     es: samolotem
   - eu: kotxez
-    es: en coche
+    es: samochodem
   - eu: oinez
-    es: andando
+    es: pieszo
   - eu: bizikletaz
-    es: en bici
+    es: rowerem
 ---
 
 Zaczynamy rozdział o podróżowaniu. Pierwszy przystanek: **środki transportu** i czasowniki, których z nimi używamy. Z przypadkiem instrumentalnym *-z*, który znasz już z poziomu A1, powiedzenie „pociągiem” lub „rowerem” to kwestia dodania przyrostka.

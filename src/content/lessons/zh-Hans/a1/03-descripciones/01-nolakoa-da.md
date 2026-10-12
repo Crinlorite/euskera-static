@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: 高
   - eu: baxua
-    es: bajo
+    es: 矮
   - eu: handia
-    es: grande
+    es: 大
   - eu: txikia
-    es: pequeño
+    es: 小
   - eu: lodia
-    es: gordo
+    es: 胖
   - eu: argala
-    es: delgado
+    es: 瘦
   - eu: polita
-    es: bonito
+    es: 漂亮
   - eu: itsusia
-    es: feo
+    es: 丑
 ---
 
 当你想描述一个人或一个事物的**稳定**特征（身体上的、总体的）时，在巴斯克语中我们使用问句 **Nolakoa da?**（“是什么样的？”），并用动词 **izan** + 一个以 `-a` 结尾的形容词来回答。

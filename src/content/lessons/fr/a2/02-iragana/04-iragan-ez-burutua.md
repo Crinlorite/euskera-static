@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: J'y suis allé (une fois)
   - eu: Joaten nintzen
     es: J'allais (habitude)
   - eu: Joan nuen autoa
     es: (n'est pas valide)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: J'étais en route
   - eu: Bizi nintzen Bilbon
     es: Je vivais à Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Je suis allé à Bilbao hier
 ---
 
 L'**imparfait** du basque (*iragan ez burutua*) correspond, en gros, au « je mangeais / je vivais / j'allais / je travaillais » du français. Il sert à raconter :

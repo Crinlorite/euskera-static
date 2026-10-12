@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: pair
   - eu: ama
-    es: madre
+    es: mair
   - eu: anaia
     es: frair (d'un òme o d'ua hemna)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: sòr (ac ditz ua hemna)
   - eu: seme
-    es: hijo
+    es: hilh
   - eu: alaba
-    es: hija
+    es: hilha
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen a ua sòr. Cossi se ditz "sòr" deth punt de vista de Maialen?
@@ -64,7 +64,7 @@ Eth basc a ua particularitat fòrça interessanta en vocabulari familiar: **era 
 
 ## Vocabulari de basa
 
-| Basc | Occitan |
+| Basc | Aranés |
 |---|---|
 | *aita* | pair |
 | *ama* | mair |

@@ -16,7 +16,7 @@ covers:
 exercises:
 - id: ex-05-gze-mc1
   type: multiple-choice
-  prompt: ¿Cuál ye la traducción correuta de "Esta mañana me he despertado tarde"?
+  prompt: ¿Cuál ye la traducción correuta de "Esta mañana espertéme tarde"?
   options:
   - Gaur goizean berandu esnatu dut
   - Gaur goizean berandu esnatu naiz
@@ -30,7 +30,7 @@ exercises:
   options:
   - Porque ye un nome vascu
   - Porque ye'l suxetu d'un verbu transitivu (NORK)
-  - Porque significa plural
+  - Porque quier dicir plural
   - Ye un error, tendría que ser namás Mikel
   answer: 1
   explanation: 'N''euskera el suxetu de los verbos transitivos lleva la marca NORK (-k): Mikel**ek** lleó''l periódicu.'

@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: 友善的（亲切的）
   - eu: atsegina
-    es: agradable
+    es: 宜人
   - eu: alaia
-    es: alegre
+    es: 开朗
   - eu: lasaia
-    es: tranquilo/a
+    es: 安静
   - eu: berritsua
     es: 健谈的
   - eu: zaratatsua
-    es: ruidoso/a
+    es: 吵闹
 - id: ex-10-05-fc
   type: flashcards
   cards:

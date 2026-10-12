@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-eg3-mc1
   type: multiple-choice
-  prompt: ¿Qué significa "Birziklatu behar dugu"?
+  prompt: ¿Qué quier dicir "Birziklatu behar dugu"?
   options:
   - Hai que reciclar
   - Hai que cocinar
@@ -24,7 +24,7 @@ exercises:
   explanation: '*Birziklatu* = reciclar. *Behar dugu* = tenemos que.'
 - id: ex-a2-eg3-mc2
   type: multiple-choice
-  prompt: '"Kirola egiten dut astean hiru aldiz" significa…'
+  prompt: '"Kirola egiten dut astean hiru aldiz" quier dicir…'
   options:
   - Fago deporte tres hores a la selmana
   - Fago tres deportes
@@ -89,7 +89,7 @@ exercises:
   - eu: plastikoa
     es: plásticu
   - eu: beira
-    es: vidrio
+    es: vidriu
   - eu: organikoa
     es: orgánicu
   - eu: pila
@@ -102,7 +102,7 @@ Falar de **estilu de vida** y **mediu ambiente** ye un bloque clásicu del A2: a
 
 ## Vezos saludables
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Facer deporte | *kirola egin* |
 | Caminar / pasiar | *paseatu* / *ibili* |
@@ -125,7 +125,7 @@ Falar de **estilu de vida** y **mediu ambiente** ye un bloque clásicu del A2: a
 
 Pa dicir "X vegaes" uses la fórmula **númberu + aldiz**:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Una vez al día | *Egunean behin* |
 | Dos vegaes a la selmana | *Astean bi aldiz* / *birritan* |
@@ -137,7 +137,7 @@ Pa dicir "X vegaes" uses la fórmula **númberu + aldiz**:
 
 ## Mediu ambiente — *ingurumena*
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Mediu ambiente | *ingurumena* |
 | Naturaleza | *natura* |
@@ -158,7 +158,7 @@ Pa dicir "X vegaes" uses la fórmula **númberu + aldiz**:
 | Mariellu | *edukiontzi horia* | plastikoa / plásticu |
 | Verde | *edukiontzi berdea* | beira / vidru |
 | Marrón | *edukiontzi marroia* | organikoa / orgánicu |
-| Gris | *edukiontzi grisa* | hondakinak / resto |
+| Gris | *edukiontzi grisa* | hondakinak / restu |
 
 ## Frases útiles pa opinar
 
@@ -171,7 +171,7 @@ Pa dicir "X vegaes" uses la fórmula **númberu + aldiz**:
 
 ## Vida del barriu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Barriu | *auzoa* |
 | Vecín/a | *bizilaguna* |

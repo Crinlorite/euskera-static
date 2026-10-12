@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: te deiguí
   - eu: eman zion
-    es: le dio
+    es: li dèc
   - eu: eman nion
-    es: le di
+    es: li dèri
   - eu: eman ziguten
-    es: nos dieron
+    es: mos dèren
   - eu: eman nizkion
     es: li deiguí (es)
 ---

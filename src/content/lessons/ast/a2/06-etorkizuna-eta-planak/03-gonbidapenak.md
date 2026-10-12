@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + verbu en presente ye la propuesta suave clásica, igual que en castellán. Les otres pregunten pol pasáu, el destín o la vuelta.'
+  explanation: '*Zergatik ez…?* + verbu en presente ye la propuesta suave clásica, como l''asturianu «¿por qué non…?». Les otres pregunten pol pasáu, el destín o la vuelta.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: ¿Quedamos a les seis? = seietan ___ gara?
@@ -105,7 +105,7 @@ Saber el futuru ta perbién, pero la vida social pide daqué más concreto: **co
 
 ## Convidar y proponer
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | ¿Quies cenar conmigo? | *Nirekin afaldu **nahi duzu**?* |
 | ¿Por qué non vamos al cine? | ***Zergatik ez** goaz zinemara?* |
@@ -117,7 +117,7 @@ Saber el futuru ta perbién, pero la vida social pide daqué más concreto: **co
 
 ## Quedar: ónde y cuándo
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | ¿Quedamos? | ***Geratuko gara?*** |
 | ¿Ónde quedamos? | ***Non** geratuko gara?* |

@@ -78,24 +78,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: encontre
   - eu: bilera
     es: reünion
   - eu: libre
-    es: libre
+    es: liure
   - eu: lanpetuta
-    es: ocupado/a
+    es: ocupat/da
   - eu: geratu
-    es: quedar
+    es: donar-se encontre
   - eu: geratuko gara
-    es: quedaremos
+    es: mos trobaram
 ---
 
 Ua agenda viva ei plea de rendètz-vos e compromisi. Aguesta leccion t'ensenhe a parlar-ne: auer un rendètz-vos, quedar damb quauquarrés, díder se ès liure.
 
 ## Vocabulari clau
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *hitzordua* | rendètz-vos (acòrd d'ora damb quauquarrés) |
 | *bilera* | reünion |
@@ -118,7 +118,7 @@ Entà "è X" s'emplegue eth vèrb *ukan* (`dut, du, dugu, ...`):
 
 `Geratu` signifique "quedar(-se)", e combinat damb eth sociatiu `-ekin` (damb):
 
-| Patron | Exemple | Castelhan |
+| Patron | Exemple | Aranés |
 |---|---|---|
 | *X-ekin geratu naiz* | *Egoitz**ekin** geratu naiz* | È quedat damb Egoitz |
 | *X-ekin geratuko naiz* | *Egoitz**ekin** geratuko naiz* | Quedarè damb Egoitz |

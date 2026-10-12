@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: I don't think it's good
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Because he/she has come
   - eu: Egia delako
     es: Because it's true
   - eu: Argi dago zaila dela
@@ -205,7 +205,7 @@ To express **cause** ("because"), you have two ways:
 
 1. **Don't forget the two sides: -ela in the affirmative, -enik in a negative opinion.**
 2. **The suffix -ela attaches to the conjugated verb**, not the participle: *etorriko da → etorriko **dela***.
-3. **In Spanish, the strength of an opinion (or doubt) can trigger the subjunctive**, but in Basque there's no such sharp distinction: *uste dut ondo dagoela* (I think it's okay) and *zalantza dut ondo dagoenik* (I doubt that it's okay) use different forms, but there isn't a formal "subjunctive" mode.
+3. **Some languages (Spanish, for example) switch to the subjunctive to express doubt**, but in Basque there's no such sharp distinction: *uste dut ondo dagoela* (I think it's okay) and *zalantza dut ondo dagoenik* (I doubt that it's okay) use different forms, but there isn't a formal "subjunctive" mode.
 
 > **Teaching note:** the formula *Nire ustez + clause + -lako + clause* is probably the most useful A2-level tool for giving and arguing an opinion. Model example:
 >

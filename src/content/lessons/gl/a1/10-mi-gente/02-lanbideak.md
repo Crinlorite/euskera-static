@@ -17,15 +17,15 @@ exercises:
   - eu: irakaslea
     es: profesor/a
   - eu: ikaslea
-    es: estudiante
+    es: estudante
   - eu: medikua
     es: médico/a
   - eu: erizaina
-    es: enfermero/a
+    es: enfermeiro/a
   - eu: sukaldaria
-    es: cocinero/a
+    es: cociñeiro/a
   - eu: kazetaria
-    es: periodista
+    es: xornalista
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: Quen é un "polizia"?
@@ -43,7 +43,7 @@ exercises:
   - enfermos
   - libros
   - coches
-  - niños
+  - nenos
   answer: 2
   explanation: '"Mekanikaria" é o mecánico, adoita traballar en talleres con coches.'
 - id: ex-10-02-fb1

@@ -78,7 +78,7 @@ Era fin deth repàs a eth sòn petit guion: demanar era nòta, pagar e díder-se
 
 Tres manères, totes corrèctes:
 
-| Euskera | Occitan | Ton |
+| Euskera | Aranés | Ton |
 |---|---|---|
 | **Kontua, mesedez.** | Era nòta, se vos platz. | neutre, clar |
 | **Atera kontua, mesedez.** | Trè-me era nòta, se vos platz. | neutre |
@@ -93,7 +93,7 @@ Tres manères, totes corrèctes:
 
 ## Pagar
 
-| Euskera | Occitan |
+| Euskera | Aranés |
 |---|---|
 | *Txartelaz ordain dezaket?* | Pòdi pagar damb targeta? |
 | *Eskudirutan ordainduko dut.* | Pagarèi en efectiu. |

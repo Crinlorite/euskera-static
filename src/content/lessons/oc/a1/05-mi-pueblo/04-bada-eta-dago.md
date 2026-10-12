@@ -92,7 +92,7 @@ exercises:
     es: A on ei eth bar?
 ---
 
-En castelhan utilizam un solet vèrb, "aver/èster", entà dues idèes diferentes: **existir** ("i a ua farmàcia en quartièr?") e **trobàr-se** ("era farmàcia ei ena carrèra Major"). Eth basc desseparèc fòrça clarament aguestes dues causes, e ei quauquarren que conven fixar lèu.
+I a dues idèes diferentes: **existir** ("i a ua farmàcia en quartièr?") e **trobàr-se** ("era farmàcia ei ena carrèra Major"). Eth basc desseparèc fòrça clarament aguestes dues causes, e ei quauquarren que conven fixar lèu.
 
 ## Existir vs èster
 

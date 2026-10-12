@@ -16,15 +16,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: na frente
   - eu: atzean
     es: atrás
   - eu: ondoan
-    es: al lado
+    es: ao lado
   - eu: gainean
-    es: encima
+    es: em cima
   - eu: azpian
-    es: debajo
+    es: embaixo
   - eu: artean
     es: entre
   - eu: ezkerrean

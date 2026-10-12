@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: 青果店
   - eu: supermerkatua
-    es: supermercado
+    es: スーパー
   - eu: kutxazain automatikoa
     es: ATM
 - id: ex-dendak-mc1
@@ -90,7 +90,7 @@ exercises:
 
 ## 食料品店
 
-| バスク語 | スペイン語 | 売られているもの |
+| バスク語 | 日本語 | 売られているもの |
 |---|---|---|
 | *harategia* | 精肉店 | haragia (肉) |
 | *okindegia* | パン屋 | ogia (パン) |
@@ -113,7 +113,7 @@ exercises:
 
 ## その他の便利な場所
 
-| バスク語 | スペイン語 |
+| バスク語 | 日本語 |
 |---|---|
 | *kutxazain automatikoa* | ATM |
 | *banketxea* | 銀行 |

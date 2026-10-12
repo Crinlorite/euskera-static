@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" quiere dicir…'
   options:
-  - Trabajo
+  - Treballo
   - Sueldo
-  - Jefe
-  - Empleado
+  - Chefe
+  - Emplegau
   answer: 1
   explanation: '*Soldata* = sueldo. *Lansari* ye sinonimo formal.'
 - id: ex-a2-bz2-fb1
@@ -80,7 +80,7 @@ exercises:
   - eu: irakasle
     es: profesor/a
   - eu: erizain
-    es: enfermero/a
+    es: infermero/a
   - eu: sukaldari
     es: cocinero/a
   - eu: kazetari

@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: ata o monte
   - eu: etxerantz
-    es: hacia casa
+    es: cara a casa
   - eu: lagunarengatik
     es: por (culpa do) amigo
   - eu: Bilboko jendea
@@ -170,7 +170,7 @@ Para preguntar o motivo: **zergatik?** (por que?). Para responder cun substantiv
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Por que o fixeches? — Por ti.
 
-> **Nota:** distingue *-engatik* (causa: "por culpa de") de *-rentzat* (destinatario: "para"). En castelán "por" cobre as dúas, pero en éuscaro son distintos.
+> **Nota:** distingue *-engatik* (causa: "por culpa de") de *-rentzat* (destinatario: "para"). En galego tamén as distinguimos («por» / «para»), coma en éuscaro.
 
 ## NONGO / NOIZKO — de que lugar / momento
 

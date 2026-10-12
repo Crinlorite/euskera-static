@@ -77,17 +77,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: de trem
   - eu: autobusez
     es: de ônibus
   - eu: hegazkinez
     es: de avião
   - eu: kotxez
-    es: en coche
+    es: de carro
   - eu: oinez
     es: andando
   - eu: bizikletaz
-    es: en bici
+    es: de bicicleta
 ---
 
 Começa a unidade sobre viagens. Primeira parada: **os meios de transporte** e os verbos para usá-los. Com o instrumental *-z* que você já conhece do A1, dizer "de trem" ou "de bicicleta" é um sufixo.

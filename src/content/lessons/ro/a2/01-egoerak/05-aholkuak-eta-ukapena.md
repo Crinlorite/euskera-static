@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: Nu bea mult
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Mănâncă fructe
   - eu: Egin kirola
-    es: Haz deporte
+    es: Fă sport
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Dormi bine
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Încearcă să rămâi calm
 ---
 
 Această lecție integrează cele trei teme ale unității: dăm **sfaturi**, interdicții și recomandări pentru o viață sănătoasă. Vei învăța **imperativul negativ** și o serie de formule A2 foarte productive pentru a-ți exprima opinia despre ceea ce este indicat să faci.

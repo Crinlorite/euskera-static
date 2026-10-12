@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: 君にあげた
   - eu: eman zion
-    es: le dio
+    es: 彼／彼女は彼／彼女にあげた
   - eu: eman nion
-    es: le di
+    es: 私は彼／彼女にあげた
   - eu: eman ziguten
-    es: nos dieron
+    es: 彼らは私たちにくれた
   - eu: eman nizkion
     es: 彼/彼女にあげた（それらを）
 ---
@@ -83,7 +83,7 @@ NOR-NORI-NORKの過去形は、現在形と同じロジックに従いますが�
 
 ## 形式
 
-> **partizipioa + n-i-NORI-NORK + n** (final)
+> **partizipioa + n-i-NORI-NORK + n**（語末）
 
 現在形と比較すると、変化するのは次の点です：
 
@@ -109,7 +109,7 @@ NOR-NORI-NORKの過去形は、現在形と同じロジックに従いますが�
 
 現在形と過去形を比較してみましょう：
 
-| 現在形 | 過去形 | 意味 |
+| 現在形 | 過去形 | 日本語 |
 |---|---|---|
 | *dizut* | **nizun** | 私があなたにそれを |
 | *diot* | **nion** | 私が彼/彼女にそれを |
@@ -122,7 +122,7 @@ NOR-NORI-NORKの過去形は、現在形と同じロジックに従いますが�
 
 ## NOR複数との一致
 
-| 目的語 単数 | 目的語 複数 | 意味 |
+| 目的語 単数 | 目的語 複数 | 日本語 |
 |---|---|---|
 | nion | **nizkion** | 私が彼/彼女にそれ（単数）を / それら（複数）を |
 | zion | **zizkion** | 彼/彼女が彼/彼女にそれ（単数）を / それら（複数）を |

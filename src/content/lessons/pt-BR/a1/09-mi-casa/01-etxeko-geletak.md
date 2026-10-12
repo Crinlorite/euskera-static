@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: cozinha
   - eu: logela
-    es: dormitorio
+    es: quarto
   - eu: komuna
-    es: baño
+    es: banheiro
   - eu: egongela
     es: sala de estar
   - eu: sarrera
     es: entrada
   - eu: korridorea
-    es: pasillo
+    es: corredor
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Você quer tomar banho. A que cômodo você vai?

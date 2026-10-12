@@ -88,52 +88,52 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: قميص
   - eu: galtzak
-    es: pantalones
+    es: بنطال
   - eu: soineko
-    es: vestido
+    es: فستان
   - eu: jertsea
-    es: jersey
+    es: كنزة
   - eu: zapatak
-    es: zapatos
+    es: أحذية
   - eu: beroki
-    es: abrigo
+    es: معطف
 ---
 
 في المستوى A1، تعلمت المفردات الأساسية عن **الملابس** و**المنزل**. في المستوى A2، ستوسع معرفتك لتشمل جوانب أكثر تحديدًا: **المقاسات، غرفة القياس، الإكسسوارات**، و**السكن كمساحة اجتماعية** (الإيجار، المالك، الحي، الحديقة).
 
 ## الملابس: مفردات A2
 
-| الفئة | الإسبانية | الباسكية |
+| الفئة | العربية | الباسكية |
 |---|---|---|
-| قمصان | camisa | *alkandora* |
-| | camiseta | *kamiseta* |
-| | polo | *poloa* |
-| سراويل | pantalones | *galtzak* / *prakak* |
-| | vaqueros | *bakeroak* |
-| | mallas | *galtza estuak* |
-| تنانير وفساتين | falda | *gona* |
-| | vestido | *soineko* |
-| معاطف | jersey | *jertsea* |
-| | chándal | *txandala* |
-| | chaqueta | *jaka* |
-| | abrigo | *beroki(a)* |
-| | impermeable | *euri-jantzia* |
-| أحذية | zapatos | *zapatak* |
-| | botas | *botak* |
-| | zapatillas | *zapatilak* |
-| | sandalias | *sandaliak* |
-| إكسسوارات | cinturón | *gerrikoa* |
-| | corbata | *gorbata* |
-| | bufanda | *bufanda / lepokoa* |
-| | guantes | *eskularruak* |
-| | calcetines | *galtzerdiak* |
-| | gorra | *txapela* (قبعة البيريه التقليدية) / *kapela* |
+| قمصان | قميص | *alkandora* |
+| | قميص قطني (تي شيرت) | *kamiseta* |
+| | قميص بولو | *poloa* |
+| سراويل | سروال | *galtzak* / *prakak* |
+| | جينز | *bakeroak* |
+| | لباس ضيّق (ليغنز) | *galtza estuak* |
+| تنانير وفساتين | تنورة | *gona* |
+| | فستان | *soineko* |
+| معاطف | كنزة | *jertsea* |
+| | بدلة رياضية | *txandala* |
+| | سترة | *jaka* |
+| | معطف | *beroki(a)* |
+| | معطف واقٍ من المطر | *euri-jantzia* |
+| أحذية | حذاء | *zapatak* |
+| | جزمة | *botak* |
+| | حذاء رياضي | *zapatilak* |
+| | صنادل | *sandaliak* |
+| إكسسوارات | حزام | *gerrikoa* |
+| | ربطة عنق | *gorbata* |
+| | وشاح | *bufanda / lepokoa* |
+| | قفّازات | *eskularruak* |
+| | جوارب | *galtzerdiak* |
+| | قبعة | *txapela* (قبعة البيريه التقليدية) / *kapela* |
 
 ## في متجر الملابس
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | هل لديك مقاس أكبر؟ | *Neurri **handiagorik** baduzu?* |
 | مقاس أصغر، من فضلك | *Neurri txikiago bat, mesedez* |
@@ -157,7 +157,7 @@ exercises:
 
 ## السكن: مفردات A2
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | سكن | *etxebizitza* |
 | شقة | *pisua* |
@@ -168,7 +168,7 @@ exercises:
 
 ### أجزاء جديدة
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | شرفة (تراس) | *terraza* |
 | شرفة (بلكون) | *balkoia* |
@@ -180,7 +180,7 @@ exercises:
 
 ## الإيجار / الشراء
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | للإيجار | *Alokairuan dago* |
 | للبيع | *Salgai dago* |

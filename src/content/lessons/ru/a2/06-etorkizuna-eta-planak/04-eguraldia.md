@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'В прогнозе говорится: "Bihar eguzkia aterako da". Что ждёт тебя завтра?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Дождь
+  - Сильный ветер
+  - Солнце
+  - Туман
   answer: 2
   explanation: '*Eguzkia atera* = выходить (о солнце); в будущем времени — *aterako da* — завтра будет солнечно.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Выйдет солнце
   - eu: Haizea dabil
-    es: Hace viento
+    es: Ветрено
   - eu: Hotz handia egiten du
     es: Очень холодно
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ exercises:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Облачно / солнечно.
 
-> **Обратите внимание:** погода в баскском языке «**делает**» что-то с помощью глагола *egin* и вспомогательного **du** (без видимого подлежащего): *euria egingo du*, *bero handia egiten du*. Это калька с испанского «hace calor» — только здесь и дождь тоже «делается».
+> **Обратите внимание:** погода в баскском языке «**делает**» что-то с помощью глагола *egin* и вспомогательного **du** (без видимого подлежащего): *euria egingo du*, *bero handia egiten du*. По-русски мы говорим «жарко»; по-баскски погода «делает» жару — и даже дождь.
 
 ## Как задавать вопросы
 

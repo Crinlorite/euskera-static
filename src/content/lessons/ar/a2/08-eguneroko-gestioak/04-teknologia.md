@@ -78,24 +78,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: يشغّل
   - eu: itzali
-    es: apagar
+    es: يطفئ
   - eu: gorde
-    es: guardar
+    es: يحفظ
   - eu: ezabatu
-    es: borrar
+    es: يحذف
   - eu: deskargatu
-    es: descargar
+    es: ينزّل
   - eu: partekatu
-    es: compartir
+    es: يشارك
 ---
 
 من الورق إلى البكسل: درس **التكنولوجيا اليومية**. مفردات تستخدمها مئة مرة في اليوم — الآن باللغة الباسكية، التي تتباهى أيضًا بكلمات شفافة ومبنية بشكل جيد (*pasahitza* = كلمة المرور؛ *sakelakoa* = "الذي في الجيب").
 
 ## الأجهزة
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | الحاسوب | *ordenagailua* |
 | الحاسوب المحمول | *eramangarria* |
@@ -108,7 +108,7 @@ exercises:
 
 ## الشبكة والحسابات
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | الشبكة / الإنترنت | *sarea / internet* |
 | الواي فاي | *wifia* |
@@ -126,7 +126,7 @@ exercises:
 
 ## الأفعال الرقمية
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | تشغيل / إطفاء | *piztu / itzali* |
 | تنزيل | *deskargatu / jaitsi* |

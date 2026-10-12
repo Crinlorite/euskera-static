@@ -15,7 +15,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: bakarrik
-    es: solo/a
+    es: 혼자
   - eu: lagunarekin
     es: 친구와 함께
   - eu: gurasoekin

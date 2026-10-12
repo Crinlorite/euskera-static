@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: mangiare troppo
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: dormire poco
   - eu: gero eta hotzago
     es: sempre più freddo
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: sempre meno
   - eu: pixka bat berandu
     es: un po' tardi
   - eu: askoz hobeto
-    es: mucho mejor
+    es: molto meglio
 ---
 
 Questa lezione completa i comparativi con altri due elementi:

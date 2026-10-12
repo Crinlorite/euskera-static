@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: 걸어서
   - eu: kotxez / autoz
-    es: en coche
+    es: 차로
   - eu: autobusez
     es: 버스로
   - eu: trenez
-    es: en tren
+    es: 기차로
   - eu: bizikletaz
-    es: en bicicleta
+    es: 자전거로
   - eu: hegazkinez
     es: 비행기로
   - eu: itsasontziz
-    es: en barco
+    es: 배로
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: '"버스로 갑니다"는 어떻게 말할까요?'
@@ -103,11 +103,11 @@ exercises:
     es: 여정 / 경로
 ---
 
-이번 단원을 마무리하기 위해 마지막 한 조각이 남았습니다: **어떻게 이동하는지**에 대한 표현입니다. 스페인어에서는 "en + 교통수단"("en coche", "en autobús")을 사용합니다. 바스크어에서는 **`-z`** 접미사(*도구격*)를 사용하는데, 교통수단에 붙이며 놀랍게도 "발"을 의미하는 단어에도 붙습니다.
+이번 단원을 마무리하기 위해 마지막 한 조각이 남았습니다: **어떻게 이동하는지**에 대한 표현입니다. 한국어에서는 "교통수단 + (으)로"("차로", "버스로")라고 말합니다. 바스크어에서는 **`-z`** 접미사(*도구격*)를 사용하는데, 교통수단에 붙이며 놀랍게도 "발"을 의미하는 단어에도 붙습니다.
 
 ## 질문
 
-| 질문 | 스페인어 |
+| 질문 | 한국어 |
 |---|---|
 | ***Nola* zoaz?** | 어떻게 가니? |
 | ***Zerez* zoaz?** | 무엇을 타고 가니? |
@@ -117,7 +117,7 @@ exercises:
 
 ## 교통수단
 
-| 수단 | -z 형태 | 스페인어 |
+| 수단 | -z 형태 | 한국어 |
 |---|---|---|
 | oin (발) | **oinez** | 걸어서 |
 | kotxe / auto | **kotxez** / **autoz** | 차로 |

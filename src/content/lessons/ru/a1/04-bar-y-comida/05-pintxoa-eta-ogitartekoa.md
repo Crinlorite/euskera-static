@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" означает…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - бутерброд (багет)
+  - комбинированное блюдо
+  - десерт
   answer: 1
   explanation: '*ogitartekoa* происходит от *ogi* (хлеб) + *arte* (между): «то, что между двумя кусками хлеба» — сэндвич.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — почти так же, как и в испанском, без особых изменений.'
+  explanation: '*plater konbinatua* — заимствовано из испанского «plato combinado» почти без изменений.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Для меня порция сыра = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: пинчо
   - eu: ogitartekoa
-    es: bocadillo
+    es: бутерброд (багет)
   - eu: plater konbinatua
-    es: plato combinado
+    es: комбинированное блюдо
   - eu: razioa
     es: порция
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: сыр
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ exercises:
 
 ## Три формата
 
-| Эускера | Испанский | Размер |
+| Эускера | Русский | Размер |
 |---|---|---|
 | *pintxoa* | пинчо / тапас | маленький, на стойке |
 | *ogitartekoa* | сэндвич | средний, в хлебе |
@@ -115,7 +115,7 @@ exercises:
 
 Это самые распространённые начинки, которые вы увидите на доске в баре:
 
-| Эускера | Испанский |
+| Эускера | Русский |
 |---|---|
 | *tortilla* | тортилья (картофельная) |
 | *txistorra* | чисторра |

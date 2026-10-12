@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: 不要喝太多
   - eu: Hartu fruta
-    es: Toma fruta
+    es: 吃水果
   - eu: Egin kirola
-    es: Haz deporte
+    es: 做运动
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: 睡个好觉
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: 尽量保持冷静
 ---
 
 本课整合了本单元的三个主题：我们将为健康生活提供**建议**、禁令和推荐。你将学习**否定命令式**以及一些非常有用的A2级别句式，用来对应该做什么发表意见。
@@ -92,7 +92,7 @@ exercises:
 
 > **ez + 动词分词**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 不要吸烟 | *Ez erre* |
 | 不要喝酒 | *Ez edan alkoholik* |
@@ -102,13 +102,13 @@ exercises:
 | 不要害怕 | *Ez izan beldurrik* |
 | 不要跑 | *Ez korrika egin* |
 
-> 分格词缀 *-rik* 经常出现：*ez edan alkohol**ik***, *ez izan beldur**rik***。它的作用类似于西班牙语中的“no bebas (nada de) alcohol”（一点酒都不要喝）。你在A1级别中已经接触过它，在A2级别中最好能认出它。
+> 分格词缀 *-rik* 经常出现：*ez edan alkohol**ik***, *ez izan beldur**rik***。它的作用类似于中文的“一点酒都不要喝”。你在A1级别中已经接触过它，在A2级别中最好能认出它。
 
 ## 强调否定命令式：*ez ezazu*
 
 在更正式的文本中，或者当你想强调禁令时，会出现带 *ezazu* 的形式：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 不要拿这个 | *Ez ezazu hartu hau* |
 | 不要忘记 | *Ez ezazu ahaztu* |
@@ -122,7 +122,7 @@ exercises:
 
 ### *Hobe duzu + -tzea* — “你最好……”
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你最好休息一下 | *Hobe duzu **deskantsatzea*** |
 | 你最好早点去 | *Hobe duzu goiz **joatea*** |
@@ -132,7 +132,7 @@ exercises:
 
 ### *Komeni zaizu / komeni da* — “对你有好处 / 应该”
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你应该多走走 | *Gehiago **ibiltzea** komeni zaizu* |
 | 应该吃水果 | *Fruta **jatea** komeni da* |

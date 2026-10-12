@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: ladra e pasea
   - eu: katua
-    es: duerme 16 horas
+    es: dorme 16 horas
   - eu: behia
-    es: da leche
+    es: dá leite
   - eu: ardia
     es: dá la e queixo
   - eu: txoria
-    es: canta al amanecer
+    es: canta ao amencer
   - eu: basurdea
     es: esnaquiza o millo
 ---
@@ -95,7 +95,7 @@ Da paisaxe aos seus habitantes: **os animais** — os da casa, os do casarío e 
 
 ## Na casa
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | O can | *txakurra* |
 | O gato | *katua* |
@@ -106,7 +106,7 @@ Da paisaxe aos seus habitantes: **os animais** — os da casa, os do casarío e 
 
 ## No casarío (baserria)
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | A vaca | *behia* |
 | A ovella / o año | *ardia / arkumea* |
@@ -119,7 +119,7 @@ Da paisaxe aos seus habitantes: **os animais** — os da casa, os do casarío e 
 
 ## No bosque e no ceo
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | O xabaril | *basurdea* |
 | O raposo | *azeria* |

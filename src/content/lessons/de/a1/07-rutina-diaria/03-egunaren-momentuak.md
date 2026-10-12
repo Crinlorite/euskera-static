@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: am Nachmittag
   - eu: iluntzean
-    es: al atardecer
+    es: in der Abenddämmerung
   - eu: gauean
     es: in der Nacht
   - eu: gaur
-    es: hoy
+    es: heute
   - eu: bihar
     es: morgen (nächster Tag)
   - eu: atzo
-    es: ayer
+    es: gestern
 - id: ex-03-em-fc
   type: flashcards
   cards:

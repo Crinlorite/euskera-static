@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: 어디 가세요?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: 빵 사러
   - eu: Zertara etorri da?
     es: 무엇하러 왔나요?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ exercises:
 | 아니요 — '~하기 위해'일 때 | **-tzeko** | *Hau ikasteko da* |
 | 네 — '~하러' 가거나 올 때 | **-tzera** | *Ikastera noa* |
 
-> 스페인어의 고전적인 함정: "voy a comprar"는 바스크어에서 미래 시제가 아니라 이동을 나타냅니다: *erostera noa*. 진짜 미래 시제는 이미 배웠습니다: *erosiko dut*.
+> 고전적인 함정: "사러 가다"는 바스크어에서 미래 시제가 아니라 이동을 나타냅니다: *erostera noa*. 진짜 미래 시제는 이미 배웠습니다: *erosiko dut*.
 
 ## 모두 함께 (그리고 어제의 시간 표현과 함께)
 

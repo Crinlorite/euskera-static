@@ -82,7 +82,7 @@ exercises:
     es: it happened to me
 ---
 
-**NOR-NORI** verbs are those where something (NOR) "happens to someone" (NORI). The grammatical subject is **the thing**, not the person — exactly like *gustar* in Spanish: *me gusta el cine* (to me, the cinema is pleasing).
+**NOR-NORI** verbs are those where something (NOR) "happens to someone" (NORI). The grammatical subject is **the thing**, not the person — a bit like the English "the cinema appeals to me".
 
 In A1 you already saw *gustatzen zait*. In A2 you'll expand this pattern to other very useful verbs.
 

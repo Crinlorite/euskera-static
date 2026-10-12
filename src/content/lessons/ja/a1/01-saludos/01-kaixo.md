@@ -74,24 +74,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: こんにちは
   - eu: Agur
     es: さようなら
   - eu: Egun on
     es: おはようございます
   - eu: Gabon
-    es: Buenas noches
+    es: おやすみなさい
   - eu: Gero arte
-    es: Hasta luego
+    es: またね
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: どうもありがとう
 ---
 
-バスク語では、挨拶は時間帯によって変わります。最も一般的でいつでも使える表現は**Kaixo**で、スペイン語の "hola" と同じように、時間や相手を問わず使えます。**Hepa**や**Aupa**はさらにカジュアルな言い方で、特に若者や友人の間で使われます。
+バスク語では、挨拶は時間帯によって変わります。最も一般的でいつでも使える表現は**Kaixo**で、日本語の「こんにちは」と同じように、時間や相手を問わず使えます。**Hepa**や**Aupa**はさらにカジュアルな言い方で、特に若者や友人の間で使われます。
 
 ## 時間帯ごとの挨拶
 
-| 時間帯 | バスク語 | スペイン語 |
+| 時間帯 | バスク語 | 日本語 |
 |---|---|---|
 | 朝、正午まで | *Egun on* | おはようございます |
 | 正午・昼食時 | *Eguerdi on* | こんにちは（正午の挨拶） |

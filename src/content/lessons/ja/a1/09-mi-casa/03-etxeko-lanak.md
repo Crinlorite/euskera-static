@@ -14,13 +14,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: garbitu
-    es: limpiar
+    es: 掃除する
   - eu: prestatu
-    es: preparar
+    es: 準備する
   - eu: jaso
-    es: recoger
+    es: 片付ける
   - eu: lisatu
-    es: planchar
+    es: アイロンをかける
   - eu: erosketak egin
     es: 買い物をする
   - eu: zaborra atera

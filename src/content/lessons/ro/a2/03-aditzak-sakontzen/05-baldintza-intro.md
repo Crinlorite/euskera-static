@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Dacă mâine plouă
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Dacă aș avea timp
   - eu: Erosiko nuke
     es: L-aș cumpăra
   - eu: Joango nintzateke
     es: Aș merge
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Dacă aș fi bogat
   - eu: Edukiko bagenu
     es: Dacă am avea
 ---

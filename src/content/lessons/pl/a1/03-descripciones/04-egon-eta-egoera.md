@@ -84,28 +84,28 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: zadowolony
   - eu: triste
-    es: triste
+    es: smutny
   - eu: nekatuta
-    es: cansado
+    es: zmęczony
   - eu: haserre
-    es: enfadado
+    es: zły
   - eu: gaixorik
-    es: enfermo
+    es: chory
   - eu: ondo
-    es: bien
+    es: dobrze
   - eu: gaizki
-    es: mal
+    es: źle
   - eu: lasai
-    es: tranquilo (ahora)
+    es: spokojny (teraz)
 ---
 
 W języku baskijskim istnieją dwa czasowniki, podczas gdy w polskim używamy jednego. Znasz już **izan** ("być" w odniesieniu do cech). Teraz pora na **egon**, które tłumaczy się jako "być" wtedy, gdy mówimy o **stanach przejściowych**: jak ktoś się czuje dzisiaj, w tej chwili, w danym momencie.
 
 ## Paradygmat egon
 
-| Zaimek | Egon | Po polsku |
+| Zaimek | Egon | Polski |
 |---|---|---|
 | ni | **nago** | jestem |
 | hi | **hago** | jesteś (nieformalnie, nie używamy na A1) |
@@ -121,10 +121,10 @@ W języku baskijskim istnieją dwa czasowniki, podczas gdy w polskim używamy je
 
 Wielka pułapka: kiedy przymiotnik występuje z **egon**, **NIE** ma końcówki `-a`. Porównaj:
 
-- **Izan** (cecha stała): *Ni alegre soy* → *Ni alai**a** naiz.* (z `-a`)
-- **Egon** (stan przejściowy): *Yo estoy contenta hoy* → *Ni pozik nago.* (bez `-a`)
+- **Izan** (cecha stała): *Jestem wesoła* → *Ni alai**a** naiz.* (z `-a`)
+- **Egon** (stan przejściowy): *Dziś jestem zadowolona* → *Ni pozik nago.* (bez `-a`)
 
-| Stan | Po polsku |
+| Stan | Polski |
 |---|---|
 | *pozik* | zadowolony, zadowolona |
 | *triste* | smutny/a |

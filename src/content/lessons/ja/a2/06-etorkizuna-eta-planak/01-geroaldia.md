@@ -40,7 +40,7 @@ exercises:
   - izango
   - izanda
   answer: 2
-  explanation: '*Izango ditut* = 私は持つでしょう（30歳になる）。*Izan* → *izango* は ser/haber (〜である/持つ) 動詞の未来形です。'
+  explanation: '*Izango ditut* = 私は持つでしょう（30歳になる）。*Izan* → *izango* は「〜である／持つ」を表す動詞の未来形です。'
 - id: ex-a2-et1-fb1
   type: fill-in-blank
   prompt: パンを買います = ogia ___ dut. (erosi)
@@ -107,7 +107,7 @@ exercises:
 
 > **分詞 + -ko / -go + 現在形の助動詞**
 
-| スペイン語 | バスク語 | 作り方 |
+| 日本語 | バスク語 | 作り方 |
 |---|---|---|
 | 行きます（未来） | *joango naiz* | joan + **-go** + naiz |
 | 食べます（未来） | *jango dut* | jan + **-go** + dut |
@@ -134,7 +134,7 @@ exercises:
 | dut (私は持っている/〜した) | **izango dut** | *Denbora izango dut.* — 私は時間があるでしょう。 |
 | nago (私は〜にいる) | **egongo naiz** | *Etxean egongo naiz.* — 私は家にいるでしょう。 |
 
-注目：*izan* は **ser** (〜である) と **tener** (持つ) の両方の意味で使われます。助動詞 (*izango naiz* / *izango dut*) で区別します。
+注目：*izan* は **〜である** と **持つ** の両方の意味で使われます。助動詞 (*izango naiz* / *izango dut*) で区別します。
 
 ## 文脈の中での例文
 
@@ -158,4 +158,4 @@ exercises:
 
 ## 学習のヒント
 
-バスク語の未来形は、ある意味スペイン語の "voy a + 動詞" に似ています。**新しい活用を覚える必要はなく**、*-ko/-go* というパーツだけです。迷ったら、分詞（過去形で既に知っていますね：*erosi dut* = 私はそれを買った）を思い出して、接尾辞をくっつけてください：*erosiko dut*。
+バスク語の未来形は、ある意味でとても簡単です。**新しい活用を覚える必要はなく**、*-ko/-go* というパーツだけです。迷ったら、分詞（過去形で既に知っていますね：*erosi dut* = 私はそれを買った）を思い出して、接尾辞をくっつけてください：*erosiko dut*。

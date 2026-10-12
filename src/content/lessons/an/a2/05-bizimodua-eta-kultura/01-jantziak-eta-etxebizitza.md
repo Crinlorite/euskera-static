@@ -90,9 +90,9 @@ exercises:
   - eu: alkandora
     es: camisa
   - eu: galtzak
-    es: pantalones
+    es: pantalons
   - eu: soineko
-    es: vestido
+    es: vestiu
   - eu: jertsea
     es: jersey
   - eu: zapatak

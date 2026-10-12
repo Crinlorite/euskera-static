@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: anar
   - eu: etorri
     es: venir
   - eu: ibili
-    es: andar / moverse
+    es: caminar / moure's
   - eu: sartu
     es: entrar
   - eu: irten
-    es: salir
+    es: sortir
   - eu: igo
-    es: subir
+    es: pujar
   - eu: jaitsi
-    es: bajar
+    es: baixar
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Jo vaig = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" i el seu oposat "irten" volen dir, respectivament:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - entrar / sortir
+  - pujar / baixar
+  - anar / venir
+  - obrir / tancar
   answer: 0
 - id: ex-mu-fc
   type: flashcards

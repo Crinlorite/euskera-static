@@ -48,7 +48,7 @@ exercises:
   explanation: '*Hitzordua eskatu* = demandar cita. Tamién lo sentirás como *txanda eskatu* (demandar turno).'
 - id: ex-a2-ge2-fb2
   type: fill-in-blank
-  prompt: Qué papers he de trayer? = zer agiri ekarri behar ___?
+  prompt: Qué papers he de trahier? = zer agiri ekarri behar ___?
   answers:
   - ditut
   explanation: 'Plural (agiriak = cuantos papers) → NOR-NORK plural: behar **ditut**. O paperamen siempre ye en plural, por desgracia.'
@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: Demandar cita
   - eu: Eskabidea bete
     es: Emplenar a solicitut
   - eu: NANaren fotokopia
@@ -140,7 +140,7 @@ O chefe final d'a vida adulta: **o paperamen**. Respira: con diez parolas bien t
 
 ## Tres frases de supervivencia
 
-> ***Zer agiri ekarri behar ditut**?* — Qué documentos he de trayer?
+> ***Zer agiri ekarri behar ditut**?* — Qué documentos he de trahier?
 >
 > ***Noiz arte** daukat epea?* — Dica cuan tiengo de plazo?
 >

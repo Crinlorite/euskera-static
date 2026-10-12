@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-edj-mc1
   type: multiple-choice
-  prompt: '"Kafe hutsa" significa…'
+  prompt: '"Kafe hutsa" vol dir…'
   options:
   - cafè amb llet
   - cafè tallat
@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: cafè amb llet
   - eu: ura
-    es: agua
+    es: aigua
   - eu: ardo gorria
-    es: vino tinto
+    es: vi negre
   - eu: garagardoa
-    es: cerveza
+    es: cervesa
   - eu: sagardoa
     es: sidra
   - eu: zumoa
-    es: zumo
+    es: suc
   - eu: tea
     es: te
 ---

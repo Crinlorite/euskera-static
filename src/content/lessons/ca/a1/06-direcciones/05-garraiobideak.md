@@ -15,9 +15,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: a peu
   - eu: kotxez / autoz
-    es: en coche
+    es: en cotxe
   - eu: autobusez
     es: en autobús
   - eu: trenez
@@ -27,7 +27,7 @@ exercises:
   - eu: hegazkinez
     es: en avió
   - eu: itsasontziz
-    es: en barco
+    es: en vaixell
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Com es diu "Vaig en autobús"?
@@ -52,7 +52,7 @@ exercises:
   - trenez
 - id: ex-ga-mc2
   type: multiple-choice
-  prompt: '"Bilbora hegazkinez doaz" significa…'
+  prompt: '"Bilbora hegazkinez doaz" vol dir…'
   options:
   - Vénen de Bilbo en avió
   - Van a Bilbo en avió

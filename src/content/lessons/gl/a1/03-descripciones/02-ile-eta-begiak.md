@@ -91,22 +91,22 @@ exercises:
   - eu: ile beltza
     es: pelo negro
   - eu: ile horia
-    es: pelo rubio
+    es: pelo loiro
   - eu: ile motza
-    es: pelo corto
+    es: pelo curto
   - eu: ile luzea
-    es: pelo largo
+    es: pelo longo
   - eu: begi urdinak
-    es: ojos azules
+    es: ollos azuis
   - eu: begi marroiak
-    es: ojos marrones
+    es: ollos marróns
   - eu: bizarduna
     es: con barba
   - eu: betaurrekoduna
     es: con lentes
 ---
 
-Para describir o pelo e os ollos en éuscaro non se usa **izan** ("ser") coma no castelán ("son moreno"), senón **ukan** ("ter"): *teño o pelo negro*, *teño os ollos azuis*.
+Para describir o pelo e os ollos en éuscaro non se usa **izan** ("ser"), senón **ukan** ("ter"), coma en galego: *teño o pelo negro*, *teño os ollos azuis*.
 
 ## Pelo: ile
 
@@ -124,7 +124,7 @@ A palabra para "pelo" é **ile** (con artigo: *ilea*). Os adxectivos van detrás
 | *ile lisoa* | pelo liso |
 | *ile kizkurra* | pelo rizado |
 
-> O pelo en éuscaro trátase como **singular**, igual ca no castelán. Por iso se usa *dut* / *du* (non *ditut* / *ditu*).
+> O pelo en éuscaro trátase como **singular**, igual ca en galego. Por iso se usa *dut* / *du* (non *ditut* / *ditu*).
 
 - *Ile beltza eta luzea **dut**.* — Teño o pelo negro e longo.
 - *Maialenek ile kizkurra **du**.* — Maialen ten o pelo rizado.

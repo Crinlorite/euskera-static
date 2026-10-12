@@ -75,9 +75,9 @@ exercises:
   - eu: gutxiago
     es: menos
   - eu: hobea
-    es: mejor
+    es: melhor
   - eu: okerragoa
-    es: peor
+    es: pior
   - eu: azkarragoa
     es: mais rápido
 ---
@@ -89,7 +89,7 @@ Comparar é um dos atos mais cotidianos da linguagem: *este é maior que aquele*
 > **X baino Y-AGO(A)**
 
 - **baino** é colocado entre os dois termos comparados — equivale a "que".
-- **-ago** é adicionado ao adjetivo ou advérbio (como o "-er" em inglês ou a marca de comparativo do espanhol).
+- **-ago** é adicionado ao adjetivo ou advérbio (como o "-er" em inglês).
 - Se for acompanhado por um substantivo determinado, o adjetivo leva seu **-a** habitual: *altuago**a***.
 
 | Português | Euskera |

@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: сегодня
   - eu: atzo
-    es: ayer
+    es: вчера
   - eu: bihar
-    es: mañana
+    es: завтра
   - eu: etzi
-    es: pasado mañana
+    es: послезавтра
   - eu: gaur goizean
-    es: esta mañana
+    es: сегодня утром
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: сегодня днём
   - eu: atzo gauean
-    es: anoche
+    es: вчера вечером
   - eu: orain
-    es: ahora
+    es: сейчас
   - eu: lehen
-    es: antes
+    es: раньше
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ exercises:
 | *lehen* | раньше |
 | *gero* | потом, после |
 
-> Если вы заметили, *atzo* (вчера) и *bihar* (завтра) — это два таких коротких слова, что они запоминаются с первого раза. *Etzi* (послезавтра) — это слово, аналога которому в одно слово нет в русском языке — маленький подарок от баскского языка.
+> Если вы заметили, *atzo* (вчера) и *bihar* (завтра) — это два таких коротких слова, что они запоминаются с первого раза. *Etzi* (послезавтра) — тоже одно слово, как и русское «послезавтра», — легко запомнить.
 
 ## Сочетания с частями дня
 

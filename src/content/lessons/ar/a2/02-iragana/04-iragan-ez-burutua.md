@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: ذهبتُ (مرة واحدة)
   - eu: Joaten nintzen
     es: كنت أذهب (عادة)
   - eu: Joan nuen autoa
     es: (غير صالح)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: كنتُ في الطريق
   - eu: Bizi nintzen Bilbon
     es: كنت أعيش في بلباو
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: ذهبتُ إلى بلباو أمس
 ---
 
 **الماضي الناقص** في اللغة الباسكية (*iragan ez burutua*) يقابل، بشكل عام، صيغة "كنت آكل / كنت أعيش / كنت أذهب / كنت أعمل" في اللغة العربية. يُستخدم لوصف:
@@ -192,4 +192,4 @@ exercises:
 2. **لا تترجم حرفياً "كنت أكون"**: في اللغة الباسكية، يغطي الماضي الناقص جزءاً كبيراً من استخدامات الماضي الوصفي، دون الحاجة لإضافة *ari*.
 3. **الفعل المساعد هو نفسه** المستخدم مع اسم المفعول (partizipio) (*nintzen, nuen*)؛ الشيء الوحيد الذي يتغير هو صيغة الفعل الرئيسي.
 
-> **ملخص عملي:** إذا كانت الجملة تجيب على "ماذا حدث؟" → *partizipio + auxiliar* (burutua). إذا كانت تجيب على "ماذا كنت تفعل عادةً؟" أو "كيف كان؟" → *-tzen + auxiliar pasado* (ez burutua). إذا كانت تجيب على "ماذا كنت تفعل في تلك اللحظة؟" → *-tzen ari + izan pasado* (puntukaria).
+> **ملخص عملي:** إذا كانت الجملة تجيب على "ماذا حدث؟" → *partizipioa + الفعل المساعد* (burutua). إذا كانت تجيب على "ماذا كنت تفعل عادةً؟" أو "كيف كان؟" → *-tzen + الفعل المساعد في الماضي* (ez burutua). إذا كانت تجيب على "ماذا كنت تفعل في تلك اللحظة؟" → *-tzen ari + izan في الماضي* (puntukaria).

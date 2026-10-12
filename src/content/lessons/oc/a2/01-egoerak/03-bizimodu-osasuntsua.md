@@ -42,7 +42,7 @@ exercises:
   type: flashcards
   cards:
   - eu: bizimodu osasuntsua
-    es: vida saludable
+    es: vida sana
   - eu: kirola egin
     es: hèr espòrt
   - eu: paseatu
@@ -68,7 +68,7 @@ exercises:
   - eu: birziklatu
     es: reciclar
   - eu: edukiontzia
-    es: contenedor
+    es: contenidor
   - eu: berreskuratu
     es: recuperar
   - eu: klima-aldaketa
@@ -85,24 +85,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: papèr
   - eu: plastikoa
     es: plastic
   - eu: beira
-    es: vidrio
+    es: veire
   - eu: organikoa
     es: organic
   - eu: pila
     es: pila
   - eu: olioa
-    es: aceite
+    es: òli
 ---
 
 Parlar de **estil de vida** e **miei ambient** ei un blòc classic deth A2: se barrege vocabulari nau damb frases d'obligacion e conselh (*behar dugu*, *komeni da*, *garrantzitsua da*) que ja mènes des deth A1.
 
 ## Abituds saludables
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Hèr espòrt | *kirola egin* |
 | Caminar / passejar | *paseatu* / *ibili* |
@@ -125,7 +125,7 @@ Parlar de **estil de vida** e **miei ambient** ei un blòc classic deth A2: se b
 
 Entà díder "X còps" emplegues era formula **nombre + aldiz**:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Un còp ath dia | *Egunean behin* |
 | Dus còps ara setmana | *Astean bi aldiz* / *birritan* |
@@ -137,7 +137,7 @@ Entà díder "X còps" emplegues era formula **nombre + aldiz**:
 
 ## Miei ambient — *ingurumena*
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Miei ambient | *ingurumena* |
 | Natura | *natura* |
@@ -171,7 +171,7 @@ Entà díder "X còps" emplegues era formula **nombre + aldiz**:
 
 ## Vida deth barri
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Barri | *auzoa* |
 | Vesin/a | *bizilaguna* |

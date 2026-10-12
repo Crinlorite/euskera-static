@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: masă
   - eu: aulkia
-    es: silla
+    es: scaun
   - eu: ohea
-    es: cama
+    es: pat
   - eu: armairua
-    es: armario
+    es: dulap
   - eu: sofa
     es: canapea
   - eu: telebista
     es: televizor
   - eu: hozkailua
-    es: nevera
+    es: frigider
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: În ce cameră se află „hozkailua”?

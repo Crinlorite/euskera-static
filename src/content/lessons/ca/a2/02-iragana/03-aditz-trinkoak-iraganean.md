@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ir3-mc1
   type: multiple-choice
-  prompt: '"Lanera nindoan goizeko zortzietan" significa…'
+  prompt: '"Lanera nindoan goizeko zortzietan" vol dir…'
   options:
   - Vaig a la feina a les vuit
   - Vindré a la feina a les vuit
@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: jo anava
   - eu: nentorren
     es: venia jo
   - eu: nenbilen
-    es: andaba yo
+    es: jo caminava
   - eu: neukan
     es: tenia jo
   - eu: nekien
     es: sabia jo
   - eu: nengoen
-    es: estaba yo
+    es: jo estava
 ---
 
 Els **verbs sintètics** (*aditz trinkoak*) són els pocs verbs bascos que es conjuguen **sense auxiliar**, en una sola paraula. Ja coneixes les seves formes en present: *noa, nator, nabil, daukat, dakit, nago*. En passat tenen formes paral·leles que convé reconèixer i, les més freqüents, saber utilitzar.

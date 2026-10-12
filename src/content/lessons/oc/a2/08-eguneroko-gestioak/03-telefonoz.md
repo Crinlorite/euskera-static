@@ -94,7 +94,7 @@ Parlar per telefòn en un aute idiòma impòse — non vedes era cara, non i a g
 
 ## Despenjar e demandar
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Òc? Digatz? | *Bai, esan?* |
 | Qui ei? | *Nor da?* |
@@ -119,7 +119,7 @@ Fixa-t'i: *esan behar diot* (li è de díder), *esango diot* (li dirè), *deituk
 
 ## Problèmes tecnics (es classics)
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Comunique | *Komunikatzen ari da* |
 | Non i a cobertura | *Estaldurarik ez dago* |

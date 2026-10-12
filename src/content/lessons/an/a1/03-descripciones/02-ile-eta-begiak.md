@@ -24,7 +24,7 @@ exercises:
   explanation: '*beltz* = negro; con articlo *beltza*. O substantivo "ile" (pelo) va antes.'
 - id: ex-ileg-mc2
   type: multiple-choice
-  prompt: Quiers decir "Tengo los ojos azules". ¿Cuál ye a forma correcta?
+  prompt: Quiers decir "Tiengo os uellos azuls". ¿Cuál ye a forma correcta?
   options:
   - Begi urdina dut
   - Begi urdinak ditut
@@ -91,22 +91,22 @@ exercises:
   - eu: ile beltza
     es: pelo negro
   - eu: ile horia
-    es: pelo rubio
+    es: pelo royo
   - eu: ile motza
-    es: pelo corto
+    es: pelo curto
   - eu: ile luzea
     es: pelo largo
   - eu: begi urdinak
-    es: ojos azules
+    es: uellos azuls
   - eu: begi marroiak
-    es: ojos marrones
+    es: uellos marrons
   - eu: bizarduna
     es: con barba
   - eu: betaurrekoduna
     es: con gafas
 ---
 
-Pa describir o pelo y os uellos en basco no se fa servir **izan** ("ser") como en castellano ("soy moreno"), sino **ukan** ("tener"): *tiengo o pelo negro*, *tiengo os uellos azuls*.
+Pa describir o pelo y os uellos en basco no se fa servir **izan** ("ser"), sino **ukan** ("tener"), como en aragonés: *tiengo o pelo negro*, *tiengo os uellos azuls*.
 
 ## Pelo: ile
 

@@ -16,25 +16,25 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" 的意思是……'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - 甜点
+  - 第一道菜
+  - 第二道菜
+  - 饮料
   answer: 1
   explanation: '*Lehen platera* — 头盘。*Lehen* 的意思是“第一”。'
 - id: ex-menu-mc2
   type: multiple-choice
-  prompt: “Postrea”在西班牙语里是……
+  prompt: “Postrea”的意思是……
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - 饮料
+  - 开胃菜
+  - 甜点
+  - 主菜
   answer: 2
   explanation: '*Postrea* — 甜点。这是一个直接的翻译。'
 - id: ex-menu-fb1
   type: fill-in-blank
-  prompt: '"Menú del día" = Eguneko ___'
+  prompt: “今日套餐” = Eguneko ___
   answers:
   - menua
   explanation: '*Eguneko menua* — 字面意思是“每日套餐” (*eguneko* = 当日的)。'
@@ -87,24 +87,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: 第一道菜
   - eu: bigarren platera
-    es: segundo plato
+    es: 第二道菜
   - eu: postrea
-    es: postre
+    es: 甜点
   - eu: edaria
-    es: bebida
+    es: 饮料
   - eu: eguneko menua
     es: 每日套餐
   - eu: karta
-    es: carta
+    es: 菜单
 ---
 
 能看懂菜单会为你打开新世界的大门。在大多数 *jatetxeak*，你会看到经典的三段式结构：头盘、主菜和甜点。
 
 ## 两种点餐选择
 
-| 巴斯克语 | 西班牙语 | 何时 |
+| 巴斯克语 | 中文 | 何时 |
 |---|---|---|
 | *eguneko menua* | 每日套餐 | 固定价格，选择有限 |
 | *karta* | 菜单 | 单点，自由选择 |
@@ -115,7 +115,7 @@ exercises:
 
 ## 菜单的组成部分
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *hasierakoak* | 开胃菜 / 前菜 |
 | *lehen platera* | 头盘 |

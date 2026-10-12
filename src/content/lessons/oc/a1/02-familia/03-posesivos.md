@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: mèn/ma
   - eu: zure
-    es: tu/tuyo
+    es: tòn / eth tòn
   - eu: bere
     es: son/sa (d'eth/era)
   - eu: gure
-    es: nuestro
+    es: nòste
   - eu: zuen
-    es: vuestro
+    es: vòste
   - eu: beren
     es: son/sa (d'eri)
 - id: ex-pos-fb1
@@ -43,11 +43,11 @@ exercises:
   explanation: '"Gure" ei eth possessiu de "nosati".'
 ---
 
-Es possessius en basc se plaçen **dauant deth substantiu**, com en castelhan. Non cambien de forma segon eth genre der objecte possedit (non i a "mèn/mia", sonque *nire*).
+Es possessius en basc se plaçen **dauant deth substantiu**, com en aranés. Non cambien de forma segon eth genre der objecte possedit (non i a "mèn/mia", sonque *nire*).
 
 ## Taula completa
 
-| Persona | Possessiu | Exemple | Castelhan |
+| Persona | Possessiu | Exemple | Aranés |
 |---|---|---|---|
 | ni | **nire** | nire ama | ma maire |
 | zu | **zure** | zure aita | ton pair |
@@ -56,7 +56,7 @@ Es possessius en basc se plaçen **dauant deth substantiu**, com en castelhan. N
 | zuek | **zuen** | zuen lagunak | vòsti amics |
 | haiek | **beren** | beren autoa | sa veitura (d'eri) |
 
-> A diferéncia deth castelhan, eth substantiu **conserve er article `-a`** encara que pòrte un possessiu: *gure etxea* (nòsta casa), *zuen lagunak* (vòsti amics), *beren autoa* (sa veitura). En paraules que ja acaben en `-a` (coma *ama* o *arreba*) er article non se ved: *nire ama*.
+> Coma en aranés («era mia casa»), eth substantiu **conserve er article `-a`** encara que pòrte un possessiu: *gure etxea* (nòsta casa), *zuen lagunak* (vòsti amics), *beren autoa* (sa veitura). En paraules que ja acaben en `-a` (coma *ama* o *arreba*) er article non se ved: *nire ama*.
 
 ## Familha + possessius
 

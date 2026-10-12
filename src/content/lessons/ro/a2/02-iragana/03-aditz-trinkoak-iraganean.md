@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: mergeam
   - eu: nentorren
     es: veneam eu
   - eu: nenbilen
-    es: andaba yo
+    es: umblam
   - eu: neukan
     es: aveam eu
   - eu: nekien
     es: știam eu
   - eu: nengoen
-    es: estaba yo
+    es: eram (undeva)
 ---
 
 **Verbele sintetice** (*aditz trinkoak*) sunt puținele verbe basce care se conjugă **fără auxiliar**, într-un singur cuvânt. Cunoști deja formele lor la prezent: *noa, nator, nabil, daukat, dakit, nago*. La trecut, au forme paralele pe care este bine să le recunoști și, pe cele mai frecvente, să le stăpânești.

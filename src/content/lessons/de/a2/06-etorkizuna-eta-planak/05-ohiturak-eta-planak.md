@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'ZUKUNFT: ich werde gehen'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'EINMALIGE VERGANGENHEIT: ich ging'
   - eu: Joaten nintzen
     es: 'VERGANGENHEIT Gewohnheit: ich ging'
   - eu: Joan ohi nintzen
     es: 'VERGANGENHEIT Gewohnheit: ich pflegte zu gehen'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'JETZT: ich bin unterwegs'
 ---
 
 Letzte Lektion der Einheit — und der Abschluss eines riesigen Zyklus: Mit der Zukunft bereits in der Tasche, **beherrschst du die drei Zeitformen**. Diese Lektion setzt dem Ganzen das i-Tüpfelchen auf (*ohi*, das baskische "pflegen zu") und lässt dich dieselbe Idee durch Vergangenheit, Gegenwart-Gewohnheit und Zukunft bewegen. Das ist genau das, was ein A2-Prüfer hören will.

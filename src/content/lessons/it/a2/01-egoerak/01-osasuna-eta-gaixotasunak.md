@@ -90,7 +90,7 @@ exercises:
   - eu: medikua
     es: medico
   - eu: erizaina
-    es: enfermero/a
+    es: infermiere/a
   - eu: botikaria
     es: farmacista
   - eu: botika / farmazia

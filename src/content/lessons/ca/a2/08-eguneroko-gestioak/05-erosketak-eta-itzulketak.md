@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" significa que la peça de roba és…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Massa cara
+  - Massa gran
+  - Molt bonica
+  - Massa petita
   answer: 1
   explanation: 'L''*-egi* de la unitat 04 (gehiegi/gutxiegi) aplicat a la talla: handi**egi**a = massa gran; txiki**egi**a = massa petita.'
 - id: ex-a2-ge5-mc2

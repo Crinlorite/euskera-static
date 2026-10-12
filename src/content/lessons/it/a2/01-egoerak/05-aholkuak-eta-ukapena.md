@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: Non bere molto
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Mangia frutta
   - eu: Egin kirola
-    es: Haz deporte
+    es: Fai sport
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Dormi bene
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Cerca di stare tranquillo
 ---
 
 Questa lezione integra i tre temi dell'unità: diamo **consigli**, divieti e raccomandazioni per una vita sana. Imparerai l'**imperativo negativo** e una manciata di formule A2 molto utili per esprimere la tua opinione su ciò che è opportuno fare.

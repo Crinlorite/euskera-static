@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: 我喜欢阅读
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: 他/她喜欢唱歌
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: 我们喜欢旅行
   - eu: Margotzen dakit
     es: 我会画画
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: 我去跳舞
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: 我正在做饭
 ---
 
 你没事的时候做什么？这节课是关于**爱好**的 — 以及一个相关的语法点：用**-tzea**将动词名词化 (*irakurtzea* = “阅读”这件事)。
@@ -99,7 +99,7 @@ exercises:
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我喜欢阅读 | *Irakurtzea gustatzen zait* |
 | 我超爱做饭 | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ exercises:
 
 ## 爱好清单
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 阅读 / 写作 | *irakurtzea / idaztea* |
 | 听音乐 | *musika entzutea* |

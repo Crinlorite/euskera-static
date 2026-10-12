@@ -11,23 +11,23 @@ esta lo que conviene mirar con ojos humanos.
 | idioma | crudas | publicadas | con audio | con ejemplo | varias traducciones | temas |
 |---|---|---|---|---|---|---|
 | es | 1591 | 936 | 799 | 799 | 162 | 23 |
-| ca | 1535 | 911 | 781 | 754 | 221 | 23 |
-| gl | 1524 | 886 | 757 | 725 | 197 | 23 |
-| oc | 1402 | 835 | 729 | 662 | 214 | 23 |
-| ast | 1440 | 855 | 738 | 692 | 196 | 23 |
-| an | 1544 | 916 | 781 | 761 | 208 | 23 |
-| en | 1533 | 904 | 775 | 747 | 224 | 23 |
-| ar | 1461 | 875 | 757 | 712 | 222 | 23 |
-| fr | 1563 | 927 | 791 | 770 | 235 | 23 |
-| ro | 1571 | 928 | 791 | 770 | 242 | 23 |
-| pt-BR | 1572 | 929 | 792 | 773 | 216 | 23 |
-| de | 1561 | 922 | 787 | 764 | 236 | 23 |
-| it | 1562 | 925 | 789 | 768 | 234 | 23 |
-| ru | 1534 | 920 | 787 | 763 | 228 | 23 |
-| pl | 1531 | 915 | 786 | 758 | 225 | 23 |
-| zh-Hans | 1420 | 845 | 734 | 672 | 196 | 23 |
-| ja | 1448 | 873 | 758 | 700 | 212 | 23 |
-| ko | 1445 | 859 | 741 | 696 | 214 | 23 |
+| ca | 1562 | 926 | 790 | 770 | 168 | 23 |
+| gl | 1572 | 928 | 791 | 772 | 175 | 23 |
+| oc | 1555 | 924 | 789 | 768 | 213 | 23 |
+| ast | 1562 | 926 | 790 | 770 | 195 | 23 |
+| an | 1562 | 926 | 790 | 770 | 197 | 23 |
+| en | 1562 | 926 | 790 | 770 | 148 | 23 |
+| ar | 1530 | 912 | 782 | 752 | 195 | 23 |
+| fr | 1563 | 927 | 791 | 770 | 167 | 23 |
+| ro | 1572 | 927 | 790 | 769 | 178 | 23 |
+| pt-BR | 1572 | 929 | 792 | 773 | 164 | 23 |
+| de | 1562 | 922 | 787 | 764 | 167 | 23 |
+| it | 1562 | 925 | 789 | 768 | 173 | 23 |
+| ru | 1560 | 928 | 792 | 771 | 165 | 23 |
+| pl | 1562 | 926 | 790 | 770 | 170 | 23 |
+| zh-Hans | 1556 | 924 | 788 | 762 | 161 | 23 |
+| ja | 1557 | 929 | 792 | 767 | 166 | 23 |
+| ko | 1562 | 926 | 790 | 770 | 173 | 23 |
 | hu | 1562 | 926 | 790 | 770 | 159 | 23 |
 | bg | 1562 | 926 | 790 | 770 | 151 | 23 |
 
@@ -63,7 +63,7 @@ Puede ser polisemia legitima o mezcla de acepciones de lecciones distintas.
 - `isila`: callado / callado/silencioso / callado/a
 - `jatorra`: majo, simpático / maja, simpática / simpático / simpático/a, cercano / simpático/a (cercano) / simpático/a
 - `kafea`: el café (genérico) / el café / café
-- `lasai`: tranquilo (estado) / tranquilo (ahora) / tranquilo / tranquilo/a (cálmate) / tranquilo/a
+- `lasai`: tranquilo (estado) / tranquilo / tranquilo/a (cálmate) / tranquilo/a
 - `lasaia`: tranquilo / tranquila / tranquilo/a
 - `parkea`: parque / El parque / umeekin arratsaldea pasatzeko
 - `pintxoa`: pincho / tapa / pincho (tapa pequeña) / pincho

@@ -16,8 +16,8 @@ exercises:
   options:
   - Demasiado cara
   - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Moi bonita
+  - Demasiado pequena
   answer: 1
   explanation: 'O *-egi* da unidade 04 (gehiegi/gutxiegi) aplicado á talla: handi**egi**a = demasiado grande; txiki**egi**a = demasiado pequena.'
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: Podo probar estes pantalóns? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = probar(se). Con ahalera: probatu **ditzaket** (plural: a peza de roupa "praka" vai en plural, como en castelán).'
+  explanation: '*Probatu* = probar(se). Con ahalera: probatu **ditzaket** (plural: a peza de roupa "praka" vai en plural, como en galego).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: Quédame pequeno; quero cambialo = txikia geratzen zait; ___ nahi dut.

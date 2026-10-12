@@ -85,24 +85,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: 종이
   - eu: plastikoa
     es: 플라스틱
   - eu: beira
-    es: vidrio
+    es: 유리
   - eu: organikoa
     es: 유기물
   - eu: pila
-    es: pila
+    es: 건전지
   - eu: olioa
-    es: aceite
+    es: 기름
 ---
 
 **생활 방식**과 **환경**에 대해 이야기하는 것은 A2 레벨의 대표적인 주제입니다. A1에서 이미 배운 의무 및 조언 표현(*behar dugu*, *komeni da*, *garrantzitsua da*)과 새로운 어휘가 함께 사용됩니다.
 
 ## 건강한 습관
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 운동하기 | *kirola egin* |
 | 걷기 / 산책하기 | *paseatu* / *ibili* |
@@ -125,7 +125,7 @@ exercises:
 
 'X번'이라고 말하려면 **숫자 + aldiz** 공식을 사용합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 하루에 한 번 | *Egunean behin* |
 | 일주일에 두 번 | *Astean bi aldiz* / *birritan* |
@@ -137,7 +137,7 @@ exercises:
 
 ## 환경 — *ingurumena*
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 환경 | *ingurumena* |
 | 자연 | *natura* |
@@ -171,7 +171,7 @@ exercises:
 
 ## 동네 생활
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 동네 | *auzoa* |
 | 이웃 | *bizilaguna* |

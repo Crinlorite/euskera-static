@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-ileg-mc1
   type: multiple-choice
-  prompt: كيف نقول "pelo negro" (شعر أسود) بلغة الباسك؟
+  prompt: كيف نقول "شعر أسود" بلغة الباسك؟
   options:
   - ile beltza
   - ile zuria
@@ -89,24 +89,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: شعر أسود
   - eu: ile horia
-    es: pelo rubio
+    es: شعر أشقر
   - eu: ile motza
-    es: pelo corto
+    es: شعر قصير
   - eu: ile luzea
-    es: pelo largo
+    es: شعر طويل
   - eu: begi urdinak
-    es: ojos azules
+    es: عيون زرقاء
   - eu: begi marroiak
-    es: ojos marrones
+    es: عيون بنية
   - eu: bizarduna
     es: ذو لحية
   - eu: betaurrekoduna
     es: يرتدي نظارات
 ---
 
-لوصف الشعر والعيون في لغة الباسك، لا يُستخدم الفعل **izan** (بمعنى "يكون") كما في الإسبانية (مثلاً "soy moreno" أي "أنا أسمر")، بل يُستخدم **ukan** (بمعنى "يملك" أو "لديه"): *tengo el pelo negro* (لدي شعر أسود)، *tengo los ojos azules* (لدي عيون زرقاء).
+لوصف الشعر والعيون في لغة الباسك، لا يُستخدم الفعل **izan** (بمعنى "يكون")، بل يُستخدم **ukan** (بمعنى "لديه")، كما في العربية: «لديّ شعر أسود»، «لديّ عيون زرقاء».
 
 ## الشعر: ile
 
@@ -124,7 +124,7 @@ exercises:
 | *ile lisoa* | شعر أملس |
 | *ile kizkurra* | شعر مجعد |
 
-> يُعامل الشعر في لغة الباسك كـ**مفرد**، تماماً كما في الإسبانية. لهذا السبب يُستخدم *dut* / *du* (وليس *ditut* / *ditu*).
+> يُعامل الشعر في لغة الباسك كـ**مفرد**. لهذا السبب يُستخدم *dut* / *du* (وليس *ditut* / *ditu*).
 
 - *Ile beltza eta luzea **dut**.* — لدي شعر أسود وطويل.
 - *Maialenek ile kizkurra **du**.* — لدى Maialen شعر مجعد.

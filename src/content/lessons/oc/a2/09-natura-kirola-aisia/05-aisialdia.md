@@ -94,7 +94,7 @@ Tancament dera unitat: **eth léser urban** — concèrts, teatre, musèus e hè
 
 ## Eth menú deth fin de setmana
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Eth concèrt | *kontzertua* |
 | Eth teatre (edifici) | *antzokia* |
@@ -108,7 +108,7 @@ Tancament dera unitat: **eth léser urban** — concèrts, teatre, musèus e hè
 
 ## Es entrades
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Era entrada | *sarrera* |
 | Comprar entrades | *sarrerak erosi* |
@@ -117,7 +117,7 @@ Tancament dera unitat: **eth léser urban** — concèrts, teatre, musèus e hè
 | Era foncion / era session | *emanaldia* |
 | Era coa | *ilara* |
 
-> *Kontzerturako **sarrerak erosi ditut** — azkenak! Ia **agortuta zeuden**.* — È comprat es entrades entath concèrt — ¡es darrères! Quase èren agotades.
+> *Kontzerturako **sarrerak erosi ditut** — azkenak! Ia **agortuta zeuden**.* — È comprat es entrades entath concèrt — es darrères! Quase èren agotades.
 >
 > *Museoa **doan da** asteazken arratsaldetan.* — Eth musèu ei de gràtis es dimèrcles pera tarde.
 >
@@ -139,7 +139,7 @@ Tancament dera unitat: **eth léser urban** — concèrts, teatre, musèus e hè
 
 > *Kontzertua **izugarria izan zen**: bi ordu eta erdi, jendea **dantzan** hasieratik. **Giro ederra**.* — Eth concèrt siguec espectaclós: dues ores e mieja, era gent dançant des deth començament. Ua ambient fòrça beròi.
 >
-> *Antzezlana **polita zen**, baina **luzeegia** — hiru ordu!* — Era òbra ère beròia, mès massa longa: ¡tres ores! (Eth *-egi*, tostemp fidèu.)
+> *Antzezlana **polita zen**, baina **luzeegia** — hiru ordu!* — Era òbra ère beròia, mès massa longa: tres ores! (Eth *-egi*, tostemp fidèu.)
 >
 > *Azokan **gazta, ogia eta sagardoa** erosi genituen. **Merezi izan zuen**.* — Ena hèira comprèrem hormatge, pan e sidra. Vallèc era pena.
 

@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: sono nervoso/a (carattere)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: sono nervosa (adesso)
   - eu: ona da
     es: è buono/a (qualità)
   - eu: ondo dago
     es: sta bene (stato)
 ---
 
-Questa è probabilmente la distinzione più scivolosa del livello A1 in basco. Come in spagnolo "ser" vs "estar", ma con due differenze importanti: **(1) gli aggettivi cambiano forma** e **(2) alcune parole si usano solo con uno dei due verbi**.
+Questa è probabilmente la distinzione più scivolosa del livello A1 in basco. Ricorda un po' «essere» e «stare» in italiano, ma con due differenze importanti: **(1) gli aggettivi cambiano forma** e **(2) alcune parole si usano solo con uno dei due verbi**.
 
 ## La regola in una riga
 

@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: ce/cette (proche)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: ce/cette-là (à mi-distance)
   - eu: hura
-    es: aquel/aquella
+    es: ce/cette-là (loin)
   - eu: bera
     es: il/elle
   - eu: haiek
-    es: ellos/ellas
+    es: ils/elles
   - eu: Nor da hau?
     es: Qui est-ce ?
 - id: ex-10-03-fc

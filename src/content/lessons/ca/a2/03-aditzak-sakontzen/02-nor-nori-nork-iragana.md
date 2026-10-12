@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-ad2-mc1
   type: multiple-choice
-  prompt: '"Eman zion liburua" significa…'
+  prompt: '"Eman zion liburua" vol dir…'
   options:
   - Li dona el llibre
   - Li ha donat el llibre
@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: et vaig donar
   - eu: eman zion
-    es: le dio
+    es: li va donar
   - eu: eman nion
-    es: le di
+    es: li vaig donar
   - eu: eman ziguten
-    es: nos dieron
+    es: ens van donar
   - eu: eman nizkion
     es: li vaig donar (els)
 ---

@@ -5,7 +5,7 @@ code: 04-ahalera-ezin
 unit: 03-aditzak-sakontzen
 level: a2
 order: 4
-title: Ahalera y ezin — potere e non potere
+title: Ahalera e ezin — potere e non potere
 estimatedMinutes: 13
 covers:
 - a2-ahalera
@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Puoi venire?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Puoi farlo
   - eu: Ezin dut etorri
     es: Non posso venire
   - eu: Ezin nintzen joan

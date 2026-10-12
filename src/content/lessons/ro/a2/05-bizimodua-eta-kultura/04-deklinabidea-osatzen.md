@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: până la munte
   - eu: etxerantz
-    es: hacia casa
+    es: spre casă
   - eu: lagunarengatik
     es: din cauza prietenului
   - eu: Bilboko jendea
@@ -170,7 +170,7 @@ Pentru a întreba motivul: **zergatik?** (de ce?). Pentru a răspunde cu un subs
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — De ce ai făcut asta? — Pentru tine.
 
-> **Notă:** fă distincția între *-engatik* (cauză: „din cauza”) și *-rentzat* (destinatar: „pentru”). În spaniolă „por” le acoperă pe amândouă, dar în bască sunt diferite.
+> **Notă:** fă distincția între *-engatik* (cauză: „din cauza”) și *-rentzat* (destinatar: „pentru”). În română, „pentru” le poate acoperi pe amândouă („mulțumesc pentru…”), dar în bască sunt două terminații diferite.
 
 ## NONGO / NOIZKO — din ce loc / moment
 

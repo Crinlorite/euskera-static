@@ -7,45 +7,72 @@ level: a1
 order: 3
 title: Futur pròche (-ko / -go)
 estimatedMinutes: 11
-covers: [future-koGo, common-verbs, ukan-basic]
+covers:
+- future-koGo
+- common-verbs
+- ukan-basic
 exercises:
-  - id: ex-fut-mc1
-    type: multiple-choice
-    prompt: '"Anarèi a Bilbo deman" se ditz…'
-    options: ['Bihar Bilbora joaten naiz', 'Bihar Bilbora joango naiz', 'Bihar Bilbora joan naiz', 'Bilbora bihar dut']
-    answer: 1
-    explanation: '*Joango naiz* — futur de *joan* (anar): particula *-go* + auxiliar *naiz*.'
-  - id: ex-fut-mc2
-    type: multiple-choice
-    prompt: 'Quin ei eth futur de "ikusi" (veir)?'
-    options: [ikusten, ikusiko, ikusten dut, ikuste]
-    answer: 1
-    explanation: 'Es vèrbs acabats en *-i* higen *-ko*: *ikusi → ikusiko*.'
-  - id: ex-fut-fb1
-    type: fill-in-blank
-    prompt: '"Deman ac veirèi" = Bihar ikusi___ dut.'
-    answers: [ko, KO]
-    explanation: '*Ikusi* + *-ko* = *ikusiko*. La particula -ko marque eth futur.'
-  - id: ex-fut-fb2
-    type: fill-in-blank
-    prompt: '"Anarèi damb vosautes" = Zuekin joan___ naiz.'
-    answers: [go, GO]
-    explanation: '*Joan* + *-go* (pr’amor qu’acabe en -n) = *joango*. La particula ei *-go* dempús de consonanta nasau.'
-  - id: ex-fut-fc
-    type: flashcards
-    cards:
-      - { eu: 'joango naiz', es: anarèi }
-      - { eu: 'etorriko zara?', es: vieràs? }
-      - { eu: 'ikusiko dut', es: ac veirèi }
-      - { eu: 'eskatuko dugu', es: demanaram }
-      - { eu: 'jango dut', es: minjarèi }
-      - { eu: 'edango dugu', es: beueram }
-      - { eu: 'lan egingo dut', es: trabalharèi }
-      - { eu: 'erosiko dut', es: ac crompararèi }
-      - { eu: 'esango diot', es: ac li dirèi }
-      - { eu: 'egongo gara', es: i seram }
-      - { eu: 'izango da', es: serà }
-      - { eu: 'ekarriko dut', es: ac portarèi }
+- id: ex-fut-mc1
+  type: multiple-choice
+  prompt: '"Anarèi a Bilbo deman" se ditz…'
+  options:
+  - Bihar Bilbora joaten naiz
+  - Bihar Bilbora joango naiz
+  - Bihar Bilbora joan naiz
+  - Bilbora bihar dut
+  answer: 1
+  explanation: '*Joango naiz* — futur de *joan* (anar): particula *-go* + auxiliar *naiz*.'
+- id: ex-fut-mc2
+  type: multiple-choice
+  prompt: Quin ei eth futur de "ikusi" (veir)?
+  options:
+  - ikusten
+  - ikusiko
+  - ikusten dut
+  - ikuste
+  answer: 1
+  explanation: 'Es vèrbs acabats en *-i* higen *-ko*: *ikusi → ikusiko*.'
+- id: ex-fut-fb1
+  type: fill-in-blank
+  prompt: '"Deman ac veirèi" = Bihar ikusi___ dut.'
+  answers:
+  - ko
+  - KO
+  explanation: '*Ikusi* + *-ko* = *ikusiko*. La particula -ko marque eth futur.'
+- id: ex-fut-fb2
+  type: fill-in-blank
+  prompt: '"Anarèi damb vosautes" = Zuekin joan___ naiz.'
+  answers:
+  - go
+  - GO
+  explanation: '*Joan* + *-go* (pr’amor qu’acabe en -n) = *joango*. La particula ei *-go* dempús de consonanta nasau.'
+- id: ex-fut-fc
+  type: flashcards
+  cards:
+  - eu: joango naiz
+    es: anarèi
+  - eu: etorriko zara?
+    es: vieràs?
+  - eu: ikusiko dut
+    es: ac veirèi
+  - eu: eskatuko dugu
+    es: demanaram
+  - eu: jango dut
+    es: minjarèi
+  - eu: edango dugu
+    es: beueram
+  - eu: lan egingo dut
+    es: trabalharèi
+  - eu: erosiko dut
+    es: ac crompararèi
+  - eu: esango diot
+    es: ac li dirèi
+  - eu: egongo gara
+    es: i seram
+  - eu: izango da
+    es: serà
+  - eu: ekarriko dut
+    es: ac portarèi
 ---
 
 Eth **futur pròche** en basco ei plan regular: hi gès ua particula ath vèrb ena sua forma de basa e mantengues er auxiliar conjugat en present. Damb aguesta leçon desblòques lèu quinsevolh "harèi, anarèi, veirèi...".
@@ -124,4 +151,4 @@ E la pregunta:
 - ***Etorriko al zara**?* — Vieràs?
 - ***Joango al gara** mendira?* — Anaram ena montanha?
 
-> **Nòta culturau:** en basco eth futur damb *-ko/-go* s’emplègue tanben tà fòrça causes que en castelhan son simple present: *Zer hartuko duzu?* — "Qué prenes / vas a préner?". Ei ua des "votzes" mès caracteristiques dera lengua; quant abans s’i acostume era aurelha, melhor.
+> **Nòta culturau:** en basco eth futur damb *-ko/-go* s’emplègue tanben tà fòrça causes qu'en aranés son simple present: *Zer hartuko duzu?* — "Qué prenes / vas a préner?". Ei ua des "votzes" mès caracteristiques dera lengua; quant abans s’i acostume era aurelha, melhor.

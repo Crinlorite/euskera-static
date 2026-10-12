@@ -74,20 +74,20 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Salut
   - eu: Agur
     es: Au revoir
   - eu: Egun on
     es: Bonjour
   - eu: Gabon
-    es: Buenas noches
+    es: Bonne nuit
   - eu: Gero arte
-    es: Hasta luego
+    es: À plus tard
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Merci beaucoup
 ---
 
-En basque, les salutations changent selon le moment de la journée. La formule universelle et la plus courante est **Kaixo**, qui s'utilise à toute heure avec presque n'importe qui — tout comme le « salut » en espagnol. **Hepa** ou **Aupa** sont des alternatives encore plus informelles, surtout entre jeunes et amis.
+En basque, les salutations changent selon le moment de la journée. La formule universelle et la plus courante est **Kaixo**, qui s'utilise à toute heure avec presque n'importe qui — tout comme « salut » en français. **Hepa** ou **Aupa** sont des alternatives encore plus informelles, surtout entre jeunes et amis.
 
 ## Salutations selon le moment de la journée
 

@@ -94,14 +94,14 @@ exercises:
   - eu: gaixorik
     es: enfermo
   - eu: ondo
-    es: bien
+    es: ben
   - eu: gaizki
     es: mal
   - eu: lasai
-    es: tranquilo (ahora)
+    es: tranquilo (agora)
 ---
 
-En éuscaro hai dous verbos onde en galego usamos un só. Xa coñeces **izan** ("ser/estar" para calidades). Agora é a quenda de **egon**, que se traduce como "estar" cando falamos de **estados pasaxeiros**: como está alguén hoxe, agora mesmo, neste momento.
+En éuscaro hai dous verbos que reparten doutro xeito o que en galego dicimos con «ser» e «estar». Xa coñeces **izan** ("ser/estar" para calidades). Agora é a quenda de **egon**, que se traduce como "estar" cando falamos de **estados pasaxeiros**: como está alguén hoxe, agora mesmo, neste momento.
 
 ## O paradigma de egon
 

@@ -73,20 +73,20 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: 我去了（一次）
   - eu: Joaten nintzen
     es: 我过去常去（习惯）
   - eu: Joan nuen autoa
     es: （无效）
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: 我正在去的路上
   - eu: Bizi nintzen Bilbon
     es: 我过去住在毕尔巴鄂
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: 我昨天去了毕尔巴鄂
 ---
 
-巴斯克语的**未完成过去时** (*iragan ez burutua*) 大致对应于西班牙语的“comía / vivía / iba / trabajaba”（我过去常吃/住/去/工作）。它用于描述：
+巴斯克语的**未完成过去时** (*iragan ez burutua*) 大致对应于中文的“（以前）常吃 / 住 / 去 / 工作”。它用于描述：
 
 - **过去的习惯**（你通常做的事情）。
 - **描述**（它是什么样的，你住在哪里，你拥有什么）。
@@ -109,7 +109,7 @@ exercises:
 
 ## 使用助动词 NOR 的变位（不及物动词）
 
-| 代词 | 未完成过去时 | 中文含义 |
+| 代词 | 未完成过去时 | 中文 |
 |---|---|---|
 | ni | *…tzen* **nintzen** | 我过去常去/是/住 |
 | zu | *…tzen* **zinen** | 你过去常去 |
@@ -122,7 +122,7 @@ exercises:
 
 ## 使用助动词 NOR-NORK 的变位（及物动词）
 
-| 代词 | 未完成过去时 | 中文含义 |
+| 代词 | 未完成过去时 | 中文 |
 |---|---|---|
 | nik | *…tzen* **nuen** | 我过去常做（它） |
 | zuk | *…tzen* **zenuen** | 你过去常做（它） |
@@ -142,7 +142,7 @@ exercises:
 
 对比：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 昨天我去了公司 | *Atzo lanera **joan nintzen*** |
 | 以前我骑自行车去公司 | *Lehen lanera bizikletaz **joaten nintzen*** |
@@ -155,7 +155,7 @@ exercises:
 
 > **-tzen + ari + izan 过去时** (NOR)
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我当时正在吃饭 | *Jaten **ari nintzen*** |
 | 我们当时正在工作 | *Lanean **ari ginen*** |
@@ -168,7 +168,7 @@ exercises:
 
 这些标记词通常引导句子使用未完成过去时/表示习惯：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 小时候 | *Txikitan* |
 | 年轻时 | *Gaztea nintzenean* |
@@ -189,7 +189,7 @@ exercises:
 ## 常见陷阱
 
 1. **规则动词 + -tzen** 几乎总是适用的。注意：*jan → jaten* (不是 *jantzen*), *edan → edaten*, *egin → egiten*。这些在 A1 级别需要记住。
-2. **不要直译“estaba siendo”（当时是）**：在巴斯克语中，未完成过去时已经涵盖了大部分描述性过去时的用法，无需添加 *ari*。
+2. **不要处处都加 *ari***：在巴斯克语中，未完成过去时已经涵盖了大部分描述性过去时的用法，无需添加 *ari*。
 3. **助动词**与分词形式 (*partizipio*) 使用的**相同** (*nintzen, nuen*)；唯一改变的是主动词的形式。
 
 > **实用总结：**如果句子回答的是“发生了什么？” → *partizipio + 助动词* (burutua)。如果回答的是“你通常做什么？”或“它是什么样的？” → *-tzen + 过去时助动词* (ez burutua)。如果回答的是“那一刻你正在做什么？” → *-tzen ari + izan 过去时* (puntukaria)。

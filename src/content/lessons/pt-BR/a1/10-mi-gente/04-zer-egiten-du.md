@@ -115,7 +115,7 @@ O sufixo **`-(e)an`** ("em") você já conhece da unidade de bairro e de residê
 | taberna (bar) | *taberna**n** lan egiten du* |
 | bulegoa (escritório) | *bulego**an** lan egiten du* |
 | denda (loja) | *denda**n** lan egiten du* |
-| euskaltegia (academia de euskera) | *euskaltegi**an** lan egiten du* |
+| euskaltegia (escola de basco) | *euskaltegi**an** lan egiten du* |
 | etxean (em casa) | *etxean lan egiten du* |
 
 > Lembre-se: se a palavra termina em `-a` orgânico (tabern**a**), o `-a` se mantém → *tabernan*. Se termina em consoante (Madril), intercala-se `-e-` → *Madrilen*.

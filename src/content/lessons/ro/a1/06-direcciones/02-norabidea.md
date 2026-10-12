@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: fă la dreapta
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: mergi drept / înainte
   - eu: zeharkatu
-    es: cruza
+    es: traversează
   - eu: igo eskailerak
     es: urcă scările
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: '"Zeharkatu" înseamnă…'
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - a merge drept
+  - a traversa
+  - a coti
+  - a urca
   answer: 1
   explanation: De la "zehar" (peste, prin). "Zeharkatu kalea / zebrabidea" = a traversa strada / trecerea de pietoni.
 - id: ex-no-fb1
@@ -131,7 +131,7 @@ Când cineva te întreabă cum să ajungi într-un loc — sau când te rătăce
 | **Zeharkatu** | zeharkatu | traversează |
 | **Iritsi** / **heldu** | iritsi / heldu | ajungi (… arte = "până la…") |
 
-> *Jo* înseamnă literalmente "a lovi", dar se folosește metaforic ca "a te îndrepta spre": **jo ezkerrera** = "fă la stânga".
+> *Jo* înseamnă literal "a lovi", dar se folosește metaforic ca "a te îndrepta spre": **jo ezkerrera** = "fă la stânga".
 
 ## Adverbe și referințe direcționale
 

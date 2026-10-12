@@ -24,7 +24,7 @@ exercises:
   explanation: '*Sua* = el fueu, la foguera. *San Juan sua* ye la foguera tradicional del 23 de xunu.'
 - id: ex-a2-bz3-mc2
   type: multiple-choice
-  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara" significa…'
+  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara" quier dicir…'
   options:
   - Antes vivíemos nel caseríu, agora vivimos na ciudá
   - Vivimos nel caseríu y na ciudá
@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Selmana Grande de Bilbao
   - eu: Aratusteak
-    es: carnavales
+    es: antroxu
   - eu: Santa Ageda
     es: cánticos peles cases
 ---
@@ -111,7 +111,7 @@ Esta lleición date les ferramientes pa falar de **fiestes y costumes** y pa **c
 
 ## Vocabulariu de fiestes
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Fiesta | *jaia* |
 | Celebración | *ospakizuna* |
@@ -127,7 +127,7 @@ Esta lleición date les ferramientes pa falar de **fiestes y costumes** y pa **c
 
 ## Personaxes y elementos de la cultura vasca
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Bertsolari (improvisador de versos) | *bertsolaria* |
 | Trikitilari (acordionista) | *trikitilaria* |
@@ -143,7 +143,7 @@ Esta lleición date les ferramientes pa falar de **fiestes y costumes** y pa **c
 
 La comparanza cultural pasa por estes dos pallabres:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Antes | *lehen* |
 | Agora | *orain* |
@@ -158,7 +158,7 @@ La comparanza cultural pasa por estes dos pallabres:
 
 ## Comparar llugares: *bai... bai...*, *baita... ere*
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Tantu n'X como n'Y | *Bai X-(e)an, bai Y-(e)an* |
 | Tamién n'X | *X-(e)an ere bai* |
@@ -193,7 +193,7 @@ Estructura útil:
 
 ## Estructures útiles pa comparar cultures
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Sicasí, equí... | *Hemen, aldiz, ...* |
 | Igual que n'X | *X-(e)n bezala* |

@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: cafè damb lèt
   - eu: ura
-    es: agua
+    es: aigua
   - eu: ardo gorria
-    es: vino tinto
+    es: vin roi
   - eu: garagardoa
-    es: cerveza
+    es: cervesa
   - eu: sagardoa
     es: sidra
   - eu: zumoa
-    es: zumo
+    es: suc
   - eu: tea
     es: tè
 ---

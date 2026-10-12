@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: por favor
   - eu: eskerrik asko
-    es: muchas gracias
+    es: muito obrigado
   - eu: ez horregatik
     es: de nada
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Para mim
   - eu: ona
-    es: bueno
+    es: bom
 ---
 
 Pedir no bar é uma das coisas mais úteis que você vai aprender a dizer em basco. A fórmula básica é bem direta: nome do que você quer + **bat** (um) + **mesedez** (por favor). E pronto.
@@ -157,4 +157,4 @@ Em basco, o "ei / licença" típico para chamar a atenção é **Aizu!** (inform
 >
 > — *Ederki!* — Ótimo!
 
-> **Nota cultural:** em uma taverna basca, o normal é pedir no balcão, beber em pé e falar alto. *Mesedez* e *eskerrik asko* são básicos, mas não obrigatórios em cada frase — ao contrário do espanhol, não se considera falta de educação um "*ebakia*" seco, desde que o tom seja cordial.
+> **Nota cultural:** em uma taverna basca, o normal é pedir no balcão, beber em pé e falar alto. *Mesedez* e *eskerrik asko* são básicos, mas não obrigatórios em cada frase — ao contrário do português, não se considera falta de educação um "*ebakia*" seco, desde que o tom seja cordial.

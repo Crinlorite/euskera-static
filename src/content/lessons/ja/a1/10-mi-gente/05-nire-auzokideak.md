@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: 親しみやすい、感じの良い
   - eu: atsegina
-    es: agradable
+    es: 感じのいい
   - eu: alaia
-    es: alegre
+    es: 陽気な
   - eu: lasaia
-    es: tranquilo/a
+    es: 静かな
   - eu: berritsua
     es: おしゃべりな
   - eu: zaratatsua
-    es: ruidoso/a
+    es: うるさい
 - id: ex-10-05-fc
   type: flashcards
   cards:

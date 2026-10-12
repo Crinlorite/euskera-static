@@ -92,7 +92,7 @@ exercises:
     es: Gdzie jest ten bar?
 ---
 
-W języku hiszpańskim używamy jednego czasownika („haber/estar”), aby wyrazić dwie różne idee: **istnienie** („czy w dzielnicy jest apteka?”) i **położenie** („apteka jest na ulicy Mayor”). Język baskijski bardzo wyraźnie rozróżnia te dwie kwestie i jest to coś, co warto szybko sobie utrwalić.
+Chodzi o dwie różne idee: **istnienie** („czy w dzielnicy jest apteka?”) i **położenie** („apteka jest na ulicy Mayor”). Język baskijski bardzo wyraźnie rozróżnia te dwie kwestie i jest to coś, co warto szybko sobie utrwalić.
 
 ## Istnienie a położenie
 

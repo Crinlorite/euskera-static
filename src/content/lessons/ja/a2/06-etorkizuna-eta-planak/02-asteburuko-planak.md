@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: 昨日（過去）
   - eu: bihar
-    es: mañana (futuro)
+    es: 明日（未来）
   - eu: herenegun
-    es: anteayer
+    es: おととい
   - eu: etzi
-    es: pasado mañana
+    es: あさって
   - eu: joan den astean
     es: 先週
   - eu: datorren astean
@@ -105,7 +105,7 @@ exercises:
 
 ## 未来を表すマーカー
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 明日 | *bihar* |
 | 明後日 | *etzi* |
@@ -131,7 +131,7 @@ exercises:
 
 ## 意図と決定
 
-| スペイン語 | バスク語 | ニュアンス |
+| 日本語 | バスク語 | ニュアンス |
 |---|---|---|
 | 旅行するつもりです | *Bidaiatzeko **asmoa dut*** | 頭の中の計画 |
 | 仕事を変えることに決めました | *Lanez aldatzea **erabaki dut*** | 下された決定 |

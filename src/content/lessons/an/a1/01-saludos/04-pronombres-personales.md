@@ -20,13 +20,13 @@ exercises:
   - eu: zu
     es: tú/vusté
   - eu: hura
-    es: él/ella
+    es: ell/ella
   - eu: gu
-    es: nosotros
+    es: nusatros
   - eu: zuek
-    es: vosotros
+    es: vusatros
   - eu: haiek
-    es: ellos/ellas
+    es: ells/ellas
 - id: ex-04-pp-fb1
   type: fill-in-blank
   prompt: Gu lagunak ___ (somos).
@@ -63,7 +63,7 @@ En euskera estándard (*euskara batua*) i ha siet pronombres personals:
 | **ni** | yo | naiz |
 | **hi** | tú (informal/amán) | haiz |
 | **zu** | tú (estándard) | zara |
-| **hura** / **bera** | él, ella | da |
+| **hura** / **bera** | ell, ella | da |
 | **gu** | nusatros, nusatras | gara |
 | **zuek** | vusatros, vusatras | zarete |
 | **haiek** | éls, ellas | dira |

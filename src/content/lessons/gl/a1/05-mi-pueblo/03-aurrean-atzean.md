@@ -16,15 +16,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: diante
   - eu: atzean
     es: detrás
   - eu: ondoan
-    es: al lado
+    es: ao lado
   - eu: gainean
     es: encima
   - eu: azpian
-    es: debajo
+    es: debaixo
   - eu: artean
     es: entre
   - eu: ezkerrean
@@ -142,7 +142,7 @@ Patrón: a referencia vai primeiro, **logo** a posición. É exactamente ao rev�
 
 ## Adverbios de lugar: hemen / hor / han
 
-Para sinalar de forma rápida hai tres adverbios — e, ollo, son **tres distancias**, non dúas como o castelán:
+Para sinalar de forma rápida hai tres adverbios — e, ollo, son **tres distancias**, igual que en galego (aquí / aí / alí):
 
 | Euskera | Galego | Cando |
 |---|---|---|

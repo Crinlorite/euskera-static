@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: 많이 마시지 마
   - eu: Hartu fruta
-    es: Toma fruta
+    es: 과일을 먹어
   - eu: Egin kirola
-    es: Haz deporte
+    es: 운동해
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: 푹 자
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: 차분하게 지내도록 해
 ---
 
 이번 과에서는 이 단원의 세 가지 주제를 통합하여 건강한 삶을 위한 **조언**, 금지, 권장 사항을 다룹니다. 여러분은 **부정 명령문**과 무엇을 하는 것이 좋은지에 대해 의견을 말할 때 매우 유용한 A2 레벨의 표현 몇 가지를 배우게 될 것입니다.
@@ -92,27 +92,27 @@ exercises:
 
 > **ez + 분사**
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
-| No fumes | *Ez erre* |
-| No bebas alcohol | *Ez edan alkoholik* |
-| No comas demasiado | *Ez gehiegi jan* / *Ez jan gehiegi* |
-| No te muevas | *Ez mugitu* |
-| No grites | *Ez oihu egin* |
-| No tengas miedo | *Ez izan beldurrik* |
-| No corras | *Ez korrika egin* |
+| 담배 피우지 마 | *Ez erre* |
+| 술 마시지 마 | *Ez edan alkoholik* |
+| 너무 많이 먹지 마 | *Ez gehiegi jan* / *Ez jan gehiegi* |
+| 움직이지 마 | *Ez mugitu* |
+| 소리 지르지 마 | *Ez oihu egin* |
+| 무서워하지 마 | *Ez izan beldurrik* |
+| 뛰지 마 | *Ez korrika egin* |
 
-> 부분격 *-rik*은 *ez edan alkohol**ik***, *ez izan beldur**rik***처럼 자주 나타납니다. 이는 스페인어의 "no bebas (nada de) alcohol"(술을 (전혀) 마시지 마)처럼 기능합니다. A1에서 잠깐 보았고, A2에서는 알아두는 것이 좋습니다.
+> 부분격 *-rik*은 *ez edan alkohol**ik***, *ez izan beldur**rik***처럼 자주 나타납니다. 이는 한국어의 "술을 (전혀) 마시지 마"처럼 기능합니다. A1에서 잠깐 보았고, A2에서는 알아두는 것이 좋습니다.
 
 ## 강조 부정 명령: *ez ezazu*
 
 더 격식 있는 글이나 금지를 강조하고 싶을 때 *ezazu* 형태가 나타납니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
-| No tomes esto | *Ez ezazu hartu hau* |
-| No olvides | *Ez ezazu ahaztu* |
-| No abras | *Ez ezazu ireki* |
+| 이건 먹지 마 | *Ez ezazu hartu hau* |
+| 잊지 마 | *Ez ezazu ahaztu* |
+| 열지 마 | *Ez ezazu ireki* |
 
 > 이 형태는 글, 표지판, 격식 있는 상황에서 더 많이 보입니다. 일상 대화에서는 *ez hartu*, *ez ahaztu*, *ez ireki*가 완벽하게 유효하며 훨씬 더 흔하게 쓰입니다.
 
@@ -122,21 +122,21 @@ A2 레벨에서는 덩어리로 암기해두면 좋은 두 가지 표현이 있�
 
 ### *Hobe duzu + -tzea* — "(네가) ~하는 것이 더 좋아"
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
-| Es mejor que descanses | *Hobe duzu **deskantsatzea*** |
-| Es mejor que vayas pronto | *Hobe duzu goiz **joatea*** |
-| Es mejor que no comas tanto | *Hobe duzu hainbeste **ez jatea*** |
+| 쉬는 게 좋겠어 | *Hobe duzu **deskantsatzea*** |
+| 일찍 가는 게 좋겠어 | *Hobe duzu goiz **joatea*** |
+| 그렇게 많이 안 먹는 게 좋겠어 | *Hobe duzu hainbeste **ez jatea*** |
 
 더 격식 있는 표현: **hobe litzateke** + *-tzea* — "~하는 것이 더 좋을 텐데".
 
 ### *Komeni zaizu / komeni da* — "네게 이로워 / 이로워"
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
-| Te conviene andar más | *Gehiago **ibiltzea** komeni zaizu* |
-| Conviene comer fruta | *Fruta **jatea** komeni da* |
-| No te conviene fumar | *Erretzea **ez zaizu komeni*** |
+| 더 걷는 게 너한테 좋아 | *Gehiago **ibiltzea** komeni zaizu* |
+| 과일을 먹는 게 좋다 | *Fruta **jatea** komeni da* |
+| 담배는 너한테 좋지 않아 | *Erretzea **ez zaizu komeni*** |
 
 ### 기타 유용한 표현
 

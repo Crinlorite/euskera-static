@@ -102,20 +102,20 @@ exercises:
   - eu: Nora zoaz?
     es: 你去哪儿？
   - eu: Etxera noa
-    es: Voy a casa
+    es: 我回家
   - eu: Eskolara noa
     es: 我去学校
   - eu: Zertara zoaz?
     es: 你去干什么？
   - eu: Erostera
-    es: A comprar
+    es: 去买东西
 ---
 
-**NORA格**（也称作*向格*）表示动作的**目的地**：你要去哪里。在西班牙语中，通常用前置词**“a”**来翻译（例如“voy *a* casa”、“*a* Bilbao”、“*al* parque”）。
+**NORA格**（也称作*向格*）表示动作的**目的地**：你要去哪里。中文通常用**“去/到”**来表达（例如“回家”、“去毕尔巴鄂”、“去公园”）。
 
 ## 提问：Nora?
 
-| 问句 | 西班牙语 |
+| 问句 | 中文 |
 |---|---|
 | ***Nora* zoaz?** | 你去哪儿？ |
 | ***Nora* doa?** | 他/她/它去哪儿？ |
@@ -159,7 +159,7 @@ exercises:
 | *Zertara goaz mendira?* | *Ibiltzera.* — 去走路/散步。 |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — 去游泳。 |
 
-> **规则：** *（动词分词形式） + -t(z)era*：*erosi → erostera*，*jan → jatera*，*ikasi → ikastera*，*ikusi → ikustera*，*bisitatu → bisitatzera*。这基本上相当于西班牙语的“a + 动词不定式”。
+> **规则：** *（动词分词形式） + -t(z)era*：*erosi → erostera*，*jan → jatera*，*ikasi → ikastera*，*ikusi → ikustera*，*bisitatu → bisitatzera*。这基本上相当于中文的“去 + 动词”（去买、去吃）。
 
 ## 小对话
 

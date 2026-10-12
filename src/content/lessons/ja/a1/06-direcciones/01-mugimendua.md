@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: 行く
   - eu: etorri
-    es: venir
+    es: 来る
   - eu: ibili
-    es: andar / moverse
+    es: 歩き回る／動く
   - eu: sartu
-    es: entrar
+    es: 入る
   - eu: irten
-    es: salir
+    es: 出る
   - eu: igo
-    es: subir
+    es: 上る
   - eu: jaitsi
-    es: bajar
+    es: 下りる
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: 私は行きます = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '*sartu* とその反対語 *irten* は、それぞれ次の意味です：'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - 入る／出る
+  - 上る／下りる
+  - 行く／来る
+  - 開ける／閉める
   answer: 0
 - id: ex-mu-fc
   type: flashcards

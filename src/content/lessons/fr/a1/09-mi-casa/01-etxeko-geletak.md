@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: cuisine
   - eu: logela
-    es: dormitorio
+    es: chambre
   - eu: komuna
-    es: baño
+    es: salle de bains
   - eu: egongela
     es: le salon
   - eu: sarrera
-    es: entrada
+    es: entrée
   - eu: korridorea
-    es: pasillo
+    es: couloir
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Tu veux prendre une douche. Dans quelle pièce vas-tu ?

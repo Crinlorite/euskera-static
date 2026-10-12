@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" înseamnă…'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Mi-e mai rău
+  - Mi-e bine
+  - Mi-e mai bine
+  - La fel
   answer: 2
   explanation: '*Hobeto* = mai bine. *Hobe* este adjectivul "mai bun" și *hobeto* adverbul.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: Te doare?
   - eu: Hartu hau
-    es: Toma esto
+    es: Ia asta
   - eu: Itzuli astebete barru
     es: Întoarce-te peste o săptămână
   - eu: Atseden hartu
-    es: Descansar
+    es: A se odihni
 ---
 
 Această lecție este o **simulare completă a unei consultații medicale**. Combină vocabularul din lecția anterioară cu expresii de timp (cât de des, înainte/după) și formule frecvente. Consultația este unul dintre cele mai utile contexte pentru nivelul A2: apare în orice examen oficial.

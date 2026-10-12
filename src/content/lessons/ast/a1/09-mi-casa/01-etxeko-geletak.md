@@ -16,7 +16,7 @@ exercises:
   - eu: sukaldea
     es: cocina
   - eu: logela
-    es: dormitorio
+    es: dormitoriu
   - eu: komuna
     es: baño
   - eu: egongela
@@ -24,7 +24,7 @@ exercises:
   - eu: sarrera
     es: entrada
   - eu: korridorea
-    es: pasillo
+    es: pasiellu
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Quies duchate. ¿A qué habitación vas?
@@ -47,7 +47,7 @@ exercises:
   explanation: '"Egongela" componse de "egon" (tar) + "gela" (sala) — la sala onde se ta, el salón.'
 - id: ex-09-01-fb1
   type: fill-in-blank
-  prompt: 'Dormimos na ___ (en castellanu: dormitoriu).'
+  prompt: 'Dormimos na ___ (n''asturianu: dormitoriu).'
   answers:
   - logela
   explanation: '"Logela" = "lo" (suañu) + "gela" (sala).'

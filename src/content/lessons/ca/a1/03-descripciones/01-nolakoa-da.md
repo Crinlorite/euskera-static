@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: alt
   - eu: baxua
-    es: bajo
+    es: baix
   - eu: handia
-    es: grande
+    es: gran
   - eu: txikia
-    es: pequeño
+    es: petit
   - eu: lodia
-    es: gordo
+    es: gras
   - eu: argala
-    es: delgado
+    es: prim
   - eu: polita
-    es: bonito
+    es: bonic
   - eu: itsusia
-    es: feo
+    es: lleig
 ---
 
 Quan vols descriure com és una persona o una cosa de manera **estable** (físicament, en general), en basc fem servir la pregunta **Nolakoa da?** ("com és?") i responem amb el verb **izan** + un adjectiu amb la marca `-a` al final.

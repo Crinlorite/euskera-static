@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" means…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Dessert
+  - Starter
+  - Main course
+  - Drink
   answer: 1
   explanation: '*Lehen platera* — first course. *Lehen* means "first".'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" in English is…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - Drink
+  - Appetiser
+  - Dessert
+  - Main dish
   answer: 2
   explanation: '*Postrea* — dessert. The translation is straightforward.'
 - id: ex-menu-fb1
@@ -82,22 +82,22 @@ exercises:
   - eu: sagar tarta
     es: apple tart
   - eu: flana
-    es: flan
+    es: crème caramel (flan)
 - id: ex-menu-mp
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: starter
   - eu: bigarren platera
-    es: segundo plato
+    es: main course
   - eu: postrea
-    es: postre
+    es: dessert
   - eu: edaria
-    es: bebida
+    es: drink
   - eu: eguneko menua
     es: menu of the day
   - eu: karta
-    es: carta
+    es: menu
 ---
 
 Knowing how to read the menu opens doors. In most jatetxeak, you'll see the classic three-part structure: first course, second course, and dessert.
@@ -151,7 +151,7 @@ Here, it's divided into **arrainak** (fish) and **haragiak** (meats):
 
 Classic desserts in Basque jatetxeak:
 
-- *flana* — flan
+- *flana* — crème caramel (flan)
 - *izozkia* — ice cream
 - *sagar tarta* — apple tart
 - *mamia* — junket

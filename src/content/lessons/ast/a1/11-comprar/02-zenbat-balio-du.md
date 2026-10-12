@@ -24,7 +24,7 @@ exercises:
   explanation: '"Zenbat balio du?" ye lliteral "¿cuánto val?". Tamién s''usa "Zenbat da?" más coloquial.'
 - id: ex-prec-mc2
   type: multiple-choice
-  prompt: '"Kiloa zortzi eurotan dago" significa…'
+  prompt: '"Kiloa zortzi eurotan dago" quier dicir…'
   options:
   - El quilu cuesta ocho euros
   - El quilu ta escosu
@@ -59,9 +59,9 @@ exercises:
   - eu: X euro balio du
     es: Val X euros
   - eu: garestia
-    es: caro
+    es: caru
   - eu: merkea
-    es: barato
+    es: baratu
   - eu: Garestia da
     es: Ye caro
   - eu: Merkea da
@@ -80,7 +80,7 @@ Pa facer la compra fai falta saber entrugar pol preciu y entender la respuesta. 
 
 ## Les dos entrugues clave
 
-| Vascu | Castellán | Cuándo |
+| Vascu | Asturianu | Cuándo |
 |---|---|---|
 | *Zenbat balio du?* | ¿Cuánto val? | mirando un productu concretu |
 | *Zenbat da?* | ¿Cuánto ye? | a la fin, al pagar |
@@ -97,9 +97,9 @@ Hai dos estructures frecuentes:
 - **Kiloa X eurotan dago** — El quilu ta a X euros.
    - *Kiloa hamar eurotan dago.* → El quilu ta a 10 euros.
 
-> *Eurotan* ye "n'euros" (inesivu plural). Na fala diaria tamién ye mui común oyer cenciellamente "*Hamar euro*" ensin verbu, igual que en castellán.
+> *Eurotan* ye "n'euros" (inesivu plural). Na fala diaria tamién ye mui común oyer cenciellamente "*Hamar euro*" ensin verbu, igual que n'asturianu.
 
-## Si lo ves caro o barato
+## Si lo ves caru o baratu
 
 - **Garestia da** — Ye caro.
 - **Merkea da** — Ye barato.

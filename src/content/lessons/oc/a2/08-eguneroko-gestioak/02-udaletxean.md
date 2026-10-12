@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: Demanar encontre
   - eu: Eskabidea bete
     es: Emplenar era sollicitud
   - eu: NANaren fotokopia
@@ -104,7 +104,7 @@ Eth patron finau dera vida adulta: **era papièra**. Respira: damb dètz paraule
 
 ## Eth vocabulari dera papièra
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Er ajuntament | *udaletxea* |
 | Eth padron / empadronar-se | *errolda / erroldatu* |

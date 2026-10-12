@@ -73,20 +73,20 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: 갔다 (한 번)
   - eu: Joaten nintzen
     es: 가곤 했다 (습관)
   - eu: Joan nuen autoa
     es: (유효하지 않음)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: 가는 중이었다
   - eu: Bizi nintzen Bilbon
     es: 빌바오에 살았다
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: 어제 빌바오에 갔다
 ---
 
-바스크어의 **미완료 과거**(*iragan ez burutua*)는 대체로 스페인어의 "comía / vivía / iba / trabajaba"(먹곤 했다 / 살았다 / 가곤 했다 / 일했다)에 해당합니다. 다음과 같은 것을 이야기할 때 사용됩니다:
+바스크어의 **미완료 과거**(*iragan ez burutua*)는 대체로 한국어의 "먹곤 했다 / 살았다 / 가곤 했다 / 일했다"에 해당합니다. 다음과 같은 것을 이야기할 때 사용됩니다:
 
 - **과거의 습관** (일상적으로 하던 일).
 - **묘사** (어땠는지, 어디에 살았는지, 무엇을 가졌는지).
@@ -109,7 +109,7 @@ exercises:
 
 ## NOR 조동사 활용 (자동사)
 
-| 대명사 | 미완료 과거 | 의미 |
+| 대명사 | 미완료 과거 | 한국어 |
 |---|---|---|
 | ni | *…tzen* **nintzen** | 나는 가곤 했다/였다/살았다 |
 | zu | *…tzen* **zinen** | 너는 가곤 했다 |
@@ -122,7 +122,7 @@ exercises:
 
 ## NOR-NORK 조동사 활용 (타동사)
 
-| 대명사 | 미완료 과거 | 의미 |
+| 대명사 | 미완료 과거 | 한국어 |
 |---|---|---|
 | nik | *…tzen* **nuen** | 나는 그것을 하곤 했다 |
 | zuk | *…tzen* **zenuen** | 너는 그것을 하곤 했다 |
@@ -189,7 +189,7 @@ exercises:
 ## 자주 하는 실수
 
 1. **규칙 동사 + -tzen**은 거의 항상 적용됩니다. 주의: *jan → jaten* (*jantzen* 아님), *edan → edaten*, *egin → egiten*. 이것들은 A1에서 외웁니다.
-2. **"estaba siendo"(였다/있었다)를 글자 그대로 번역하지 마세요**: 바스크어에서는 미완료 과거가 *ari*를 추가할 필요 없이 과거 묘사의 많은 부분을 포함합니다.
+2. **모든 곳에 *ari*를 붙이려 하지 마세요**: 바스크어에서는 미완료 과거가 *ari*를 추가할 필요 없이 과거 묘사의 많은 부분을 포함합니다.
 3. **조동사는** 분사형(*partizipio*)과 함께 쓰일 때와 **동일합니다**(*nintzen, nuen*); 바뀌는 것은 본동사의 형태뿐입니다.
 
 > **실용 요약:** 문장이 "무슨 일이 있었어?"에 대한 답이라면 → *partizipio + 조동사* (burutua). "평소에 무엇을 했어?" 또는 "어땠어?"에 대한 답이라면 → *-tzen + 과거형 조동사* (ez burutua). "그 순간에 무엇을 하고 있었어?"에 대한 답이라면 → *-tzen ari + izan 과거형* (puntukaria).

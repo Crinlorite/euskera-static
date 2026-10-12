@@ -98,7 +98,7 @@ exercises:
   - eu: ehun
     es: '100'
   - eu: euroa
-    es: euro
+    es: 欧元
 ---
 
 要在巴斯克语中询问价格并听懂结账时的话，你需要两样东西：公式 **Zenbat balio du?** 和100以内的数字。巴斯克语的数字系统是**二十进制**的（以20为一组），所以需要一点时间来适应。
@@ -161,7 +161,7 @@ exercises:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> 注意，当 **euro** 前面有数字时，它不带 `-a`（就像 *bi anaia*，“两个兄弟”一样）。以欧分表示的确切金额说法和西班牙语一样：*hiru euro eta berrogeita hamar zentimo* (3.50欧元)。
+> 注意，当 **euro** 前面有数字时，它不带 `-a`（就像 *bi anaia*，“两个兄弟”一样）。以欧分表示的确切金额这样说：*hiru euro eta berrogeita hamar zentimo* (3.50欧元)。
 
 ## 购买多个物品
 

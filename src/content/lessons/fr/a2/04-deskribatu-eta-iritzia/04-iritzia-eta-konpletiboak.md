@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Je ne crois pas que ce soit bon
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Parce qu'il/elle est venu(e)
   - eu: Egia delako
     es: Parce que c'est vrai
   - eu: Argi dago zaila dela
@@ -205,7 +205,7 @@ Pour exprimer la **cause** (« parce que »), tu as deux options :
 
 1. **N'oublie pas la double facette : -ela à l'affirmatif, -enik au négatif pour l'opinion.**
 2. **Le suffixe -ela s'attache au verbe conjugué**, pas au participe : *etorriko da → etorriko **dela***.
-3. **Si l'opinion est très forte, en espagnol tu utilises le subjonctif**, en basque il n'y a pas de différence tranchée : *uste dut ondo dagoela* (je crois que c'est bien) et *zalantza dut ondo dagoenik* (je doute que ce soit bien) utilisent des formes différentes mais pas un « subjonctif » formel.
+3. **Le français passe au subjonctif pour exprimer le doute**, en basque il n'y a pas de différence tranchée : *uste dut ondo dagoela* (je crois que c'est bien) et *zalantza dut ondo dagoenik* (je doute que ce soit bien) utilisent des formes différentes mais pas un « subjonctif » formel.
 
 > **Note pédagogique :** la formule *Nire ustez + phrase + -lako + phrase* est probablement l'outil le plus rentable du niveau A2 pour donner son opinion et argumenter. Exemple type :
 >

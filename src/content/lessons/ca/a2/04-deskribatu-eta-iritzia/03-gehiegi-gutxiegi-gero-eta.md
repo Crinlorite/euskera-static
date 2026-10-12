@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-de3-mc1
   type: multiple-choice
-  prompt: '"Gehiegi jan dut" significa…'
+  prompt: '"Gehiegi jan dut" vol dir…'
   options:
   - He menjat molt
   - He menjat poc
@@ -23,7 +23,7 @@ exercises:
   explanation: '*Gehiegi* = "massa" (quantitat excessiva). Diferent d''*asko* (molt).'
 - id: ex-a2-de3-mc2
   type: multiple-choice
-  prompt: '"Gero eta hotzago" significa…'
+  prompt: '"Gero eta hotzago" vol dir…'
   options:
   - Força fred
   - Tan fred com ahir
@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: menjar massa
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: dormir poc / insuficient
   - eu: gero eta hotzago
     es: cada cop més fred
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: cada vegada menys
   - eu: pixka bat berandu
     es: una mica tard
   - eu: askoz hobeto
-    es: mucho mejor
+    es: molt millor
 ---
 
 Aquesta lliçó completa les comparacions amb dues peces més:

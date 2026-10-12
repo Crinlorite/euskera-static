@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: sò nerviosa (caractèr)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: sò nerviosa (ara)
   - eu: ona da
     es: ei bon (qualitat)
   - eu: ondo dago
     es: ei ben (estat)
 ---
 
-Aguesta ei probablament era distincion mès delicada der A1 en basc. Com en castelhan "ser" vs "estar", mès damb dues diferéncies importantes: **(1) es adjectius cambien de forma** e **(2) quauques paraules sonque s'utilizen damb un des dus vèrbs**.
+Aguesta ei probablament era distincion mès delicada der A1 en basc. Eth basc a dus vèrbs diferents, damb dues particularitats importantes: **(1) es adjectius cambien de forma** e **(2) quauques paraules sonque s'utilizen damb un des dus vèrbs**.
 
 ## Era nòrma en ua linha
 
@@ -130,4 +130,4 @@ Guarda com cambie era paraula trigada segons se parles de qualitat o d'estat:
 - **Nolakoa zara?** → descriu eth tòn caractèr / fisic (utilizi *izan*).
 - **Nola zaude?** o **Zer moduz?** → explica com te tròbes aué (utilizi *egon*).
 
-> **Nòta:** en castelhan se dirie "soy nervioso" o "estoy nervioso" sense cambiar era paraula. En basc era paraula cambie (*urduria* vs *urduri*). Ath començament còste; damb era practica jornalièra gèsse solet. Se dobtes en ua conversacion reau, ua gessuda segura ei utilizar *egon* damb ua paraula invariabla: *haserre nago*, *triste nago*, *nekatuta nago* — tostemp foncionen.
+> **Nòta:** en aranés era paraula "nerviós" non cambie. En basc era paraula cambie (*urduria* vs *urduri*). Ath començament còste; damb era practica jornalièra gèsse solet. Se dobtes en ua conversacion reau, ua gessuda segura ei utilizar *egon* damb ua paraula invariabla: *haserre nago*, *triste nago*, *nekatuta nago* — tostemp foncionen.

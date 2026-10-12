@@ -24,7 +24,7 @@ exercises:
   explanation: '"Mahai bat bi lagunentzat" = "una taula per a dues persones". *-entzat* és el destinatari plural.'
 - id: ex-jat1-mc2
   type: multiple-choice
-  prompt: '"Erreserba egin nahi dut" significa…'
+  prompt: '"Erreserba egin nahi dut" vol dir…'
   options:
   - Vull pagar
   - Vull fer una reserva

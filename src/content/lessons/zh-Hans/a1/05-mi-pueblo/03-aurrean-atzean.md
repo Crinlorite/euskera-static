@@ -16,17 +16,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: 前面
   - eu: atzean
     es: 后面
   - eu: ondoan
-    es: al lado
+    es: 旁边
   - eu: gainean
-    es: encima
+    es: 上面
   - eu: azpian
-    es: debajo
+    es: 下面
   - eu: artean
-    es: entre
+    es: 之间
   - eu: ezkerrean
     es: 在左边
   - eu: eskuinean

@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: включать
   - eu: itzali
-    es: apagar
+    es: выключать
   - eu: gorde
-    es: guardar
+    es: сохранять
   - eu: ezabatu
-    es: borrar
+    es: удалять
   - eu: deskargatu
-    es: descargar
+    es: скачивать
   - eu: partekatu
-    es: compartir
+    es: делиться
 ---
 
 От бумаги к пикселю: урок о **повседневных технологиях**. Слова, которые вы используете сто раз в день — теперь на баскском, который к тому же может похвастаться прозрачными и хорошо сконструированными словами (*pasahitza* = пропускное слово; *sakelakoa* = «карманный»).

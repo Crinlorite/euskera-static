@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: 我（当时）正在去
   - eu: nentorren
     es: 我当时在来
   - eu: nenbilen
-    es: andaba yo
+    es: 我（当时）在走动
   - eu: neukan
     es: 我（过去）有
   - eu: nekien
     es: 我（过去）知道
   - eu: nengoen
-    es: estaba yo
+    es: 我（当时）在
 ---
 
 **合成动词** (*aditz trinkoak*) 是少数几个巴斯克语动词，它们**无需助动词**即可变位，仅用一个词构成。你已经学过它们的现在时形式：*noa, nator, nabil, daukat, dakit, nago*。在过去时中，它们有对应的形式，你需要能够认出它们，并掌握最常用的那些。
@@ -145,7 +145,7 @@ exercises:
 | **Joan nintzen** (分析式 + 分词) | 表示已完成的、一次性的动作 | *Atzo Bilbora **joan nintzen** zortzietan.* (= 昨天我八点去了毕尔巴鄂) |
 | **Nindoan** (合成式) | 表示过去正在进行的、习惯性的动作或背景描述 | *Bilborantz **nindoan**, ezagun bat ikusi nuenean.* (= 当时我正要去毕尔巴鄂，这时看到了一个熟人) |
 
-> **快速规则：**合成式 (*nindoan, nentorren, nenbilen*) 用于描述过去的**场景**。分词形式 (*joan nintzen, etorri nintzen*) 用于叙述过去的**事件**。这个区别与西班牙语中 iba / fui 的区别非常相似。
+> **快速规则：**合成式 (*nindoan, nentorren, nenbilen*) 用于描述过去的**场景**。分词形式 (*joan nintzen, etorri nintzen*) 用于叙述过去的**事件**。这就像中文里“我当时正在去”（场景）和“我去了”（事件）的区别。
 
 ## NOR-NORK 合成动词：*neukan*, *nekien*
 

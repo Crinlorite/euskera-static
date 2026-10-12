@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" oznacza, że ubranie jest…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Za droga
+  - Za duża
+  - Bardzo ładna
+  - Za mała
   answer: 1
   explanation: 'Końcówka *-egi* z lekcji 04 (gehiegi/gutxiegi) zastosowana do rozmiaru: handi**egi**a = zbyt duży; txiki**egi**a = zbyt mały.'
 - id: ex-a2-ge5-mc2

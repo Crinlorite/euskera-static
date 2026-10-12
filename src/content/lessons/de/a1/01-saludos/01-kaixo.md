@@ -74,17 +74,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Hallo
   - eu: Agur
     es: Tschüss
   - eu: Egun on
     es: Guten Morgen
   - eu: Gabon
-    es: Buenas noches
+    es: Gute Nacht
   - eu: Gero arte
-    es: Hasta luego
+    es: Bis später
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Vielen Dank
 ---
 
 Im Baskischen ändern sich die Grüße je nach Tageszeit. Die universelle und gebräuchlichste Formel ist **Kaixo**, das zu jeder Zeit und mit fast jedem verwendet wird – genau wie "Hallo" auf Deutsch. **Hepa** oder **Aupa** sind noch informellere Alternativen, besonders unter jungen Leuten und Freunden.

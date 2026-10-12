@@ -22,7 +22,7 @@ exercises:
   explanation: '*Bai, esan?* ("sí, digues?") és la resposta clàssica en despenjar. *Agur* és per acomiadar-se — mal començament 😄.'
 - id: ex-a2-ge3-mc2
   type: multiple-choice
-  prompt: '"Okerreko zenbakia da" significa…'
+  prompt: '"Okerreko zenbakia da" vol dir…'
   options:
   - És un número secret
   - El telèfon està apagat

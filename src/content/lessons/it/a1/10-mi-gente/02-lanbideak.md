@@ -15,17 +15,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: professore/professoressa
   - eu: ikaslea
-    es: estudiante
+    es: studente/studentessa
   - eu: medikua
     es: medico
   - eu: erizaina
-    es: enfermero/a
+    es: infermiere/a
   - eu: sukaldaria
-    es: cocinero/a
+    es: cuoco/a
   - eu: kazetaria
-    es: periodista
+    es: giornalista
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: Chi è un "polizia"?
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: '"Mekanikaria" lavora con...'
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - malati
+  - libri
+  - macchine
+  - bambini
   answer: 2
   explanation: '"Mekanikaria" è il meccanico, di solito lavora in officina con le auto.'
 - id: ex-10-02-fb1
@@ -165,7 +165,7 @@ Lo schema lo conosci già dalle prime unità:
 | *Non egiten duzu lan?* | Dove lavori? |
 | *Zer da bere lana?* | Qual è il suo lavoro? |
 
-Y per rispondere su se stessi o su un'altra persona:
+E per rispondere su se stessi o su un'altra persona:
 
 - *Ikaslea naiz, baina dendari moduan ere lan egiten dut.* — Sono uno studente, ma lavoro anche come commesso.
 - *Bera erizaina da, ospitalean lan egiten du.* — È un/un'infermiere/a, lavora in ospedale.

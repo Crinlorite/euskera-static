@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: ich bin nervös (Charakter)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: ich bin nervös (gerade)
   - eu: ona da
     es: er/sie ist gut (Eigenschaft)
   - eu: ondo dago
     es: es geht ihm/ihr gut (Zustand)
 ---
 
-Dies ist wahrscheinlich die kniffligste Unterscheidung auf dem A1-Niveau im Baskischen. Ähnlich wie im Spanischen "ser" vs. "estar", aber mit zwei wichtigen Unterschieden: **(1) Adjektive ändern ihre Form** und **(2) einige Wörter werden nur mit einem der beiden Verben verwendet**.
+Dies ist wahrscheinlich die kniffligste Unterscheidung auf dem A1-Niveau im Baskischen. Das Deutsche hat für beides nur „sein“; das Baskische trennt es, und dabei gibt es zwei wichtige Besonderheiten: **(1) Adjektive ändern ihre Form** und **(2) einige Wörter werden nur mit einem der beiden Verben verwendet**.
 
 ## Die Regel in einer Zeile
 
