@@ -6,11 +6,11 @@ status: active
 beta: false
 curriculum:
   # Saludos y comunicación social
-  - { id: greetings, title: Saludos y despedidas (kaixo, hepa, agur, gero arte) }
-  - { id: courtesy, title: Cortesía y aula (mesedez, eskerrik asko, ez horregatik, errepikatu) }
+  - { id: greetings, title: 'Saludos y despedidas (kaixo, hepa, agur, gero arte)' }
+  - { id: courtesy, title: 'Cortesía y aula (mesedez, eskerrik asko, ez horregatik, errepikatu)' }
   # Presentaciones e identidad
   - { id: introductions, title: 'Presentaciones (Ni X naiz, Nire izena X da, Zein da zure izena?)' }
-  - { id: personal-data, title: Datos personales (izena, abizena, adina, jaioterria, telefonoa, emaila) }
+  - { id: personal-data, title: 'Datos personales (izena, abizena, adina, jaioterria, telefonoa, emaila)' }
   - { id: ages, title: 'Edad: ... urte ditut/ditu/dituzte' }
   # Verbos básicos
   - { id: izan-nor, title: 'Verbo "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira' }
@@ -22,13 +22,13 @@ curriculum:
   - { id: partitive-rik, title: 'Partitivo -rik en negación con objeto indefinido' }
   - { id: gustatzen-zait, title: '"Gustatzen zait/zaio" — verbo de gusto (introducción NOR-NORI)' }
   # Pronombres y demostrativos
-  - { id: personal-pronouns, title: Pronombres personales (ni, hi, zu, hura, gu, zuek, haiek) }
+  - { id: personal-pronouns, title: 'Pronombres personales (ni, hi, zu, hura, gu, zuek, haiek)' }
   - { id: demonstratives, title: Demostrativos hau/hori/hura y plurales hauek/horiek/haiek }
-  - { id: possessives, title: Posesivos (nire, hire, zure, haren/bere, gure, zuen, haien/beren) }
+  - { id: possessives, title: 'Posesivos (nire, hire, zure, haren/bere, gure, zuen, haien/beren)' }
   # Familia
-  - { id: family-types, title: Tipos de familia (guraso bakarrekoa, bikote mistoa, ezkonduta) }
-  - { id: family-basics, title: Familia (aita, ama, seme, alaba, anaia, arreba/ahizpa) }
-  - { id: family-extended, title: Familia extendida (aitona, amona, osaba, izeba, lehengusu, iloba) }
+  - { id: family-types, title: 'Tipos de familia (guraso bakarrekoa, bikote mistoa, ezkonduta)' }
+  - { id: family-basics, title: 'Familia (aita, ama, seme, alaba, anaia, arreba/ahizpa)' }
+  - { id: family-extended, title: 'Familia extendida (aitona, amona, osaba, izeba, lehengusu, iloba)' }
   # Origen, residencia, ubicación
   - { id: origin-koa, title: 'Procedencia: Nongoa zara? → X-koa naiz' }
   - { id: residence-an, title: 'Residencia: Non bizi zara? → X-(e)an bizi naiz' }
@@ -49,15 +49,15 @@ curriculum:
   # Vocabulario temático
   - { id: numbers-1-20, title: Números del 1 al 20 }
   - { id: numbers-1-100, title: Números del 1 al 100 (sistema vigesimal) }
-  - { id: colors, title: Colores (zuria, beltza, gorria, urdina, horia, berdea) }
+  - { id: colors, title: 'Colores (zuria, beltza, gorria, urdina, horia, berdea)' }
   - { id: days-of-week, title: 'Días de la semana (astelehena → igandea)' }
   - { id: months, title: 'Meses del año (urtarrila → abendua)' }
-  - { id: seasons, title: Estaciones (udaberria, uda, udazkena, negua) }
+  - { id: seasons, title: 'Estaciones (udaberria, uda, udazkena, negua)' }
   - { id: time-basics, title: 'Decir la hora (Hamabiak dira, sei eta erdiak)' }
   - { id: time-expressions, title: 'Tiempo: lehen/orain/gero, atzo/gaur/bihar/etzi' }
-  - { id: body-parts, title: Partes del cuerpo (burua, eskua, hanka, sabela) }
+  - { id: body-parts, title: 'Partes del cuerpo (burua, eskua, hanka, sabela)' }
   - { id: health-basics, title: 'Salud básica (... mina daukat, sukarra, eztula)' }
-  - { id: clothes, title: Ropa básica (alkandora, galtza, soineko, jertse, zapatak) }
+  - { id: clothes, title: 'Ropa básica (alkandora, galtza, soineko, jertse, zapatak)' }
   - { id: places-town, title: 'Lugares del pueblo (taberna, merkatua, hondartza, eliza, banketxea)' }
   - { id: directions, title: 'Direcciones (jo ezkerrera, segi aurrera, gainean/azpian)' }
   - { id: food-bar, title: 'Bar y comida (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)' }

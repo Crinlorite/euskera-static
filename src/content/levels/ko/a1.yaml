@@ -6,24 +6,13 @@ status: active
 beta: false
 curriculum:
 - id: greetings
-  title: 인사와 작별 (kaixo
-  hepa: null
-  agur: null
-  gero arte): null
+  title: 인사와 작별 (kaixo, hepa, agur, gero arte)
 - id: courtesy
-  title: 예의와 교실 표현 (mesedez
-  eskerrik asko: null
-  ez horregatik: null
-  errepikatu): null
+  title: 예의와 교실 표현 (mesedez, eskerrik asko, ez horregatik, errepikatu)
 - id: introductions
   title: 자기소개 (Ni X naiz, Nire izena X da, Zein da zure izena?)
 - id: personal-data
-  title: 개인 정보 (izena
-  abizena: null
-  adina: null
-  jaioterria: null
-  telefonoa: null
-  emaila): null
+  title: 개인 정보 (izena, abizena, adina, jaioterria, telefonoa, emaila)
 - id: ages
   title: '나이: ... urte ditut/ditu/dituzte'
 - id: izan-nor
@@ -43,41 +32,17 @@ curriculum:
 - id: gustatzen-zait
   title: '"Gustatzen zait/zaio" — 기호 동사 (NOR-NORI 입문)'
 - id: personal-pronouns
-  title: 인칭 대명사 (ni
-  hi: null
-  zu: null
-  hura: null
-  gu: null
-  zuek: null
-  haiek): null
+  title: 인칭 대명사 (ni, hi, zu, hura, gu, zuek, haiek)
 - id: demonstratives
   title: 지시사 hau/hori/hura 및 복수형 hauek/horiek/haiek
 - id: possessives
-  title: 소유격 (nire
-  hire: null
-  zure: null
-  haren/bere: null
-  gure: null
-  zuen: null
-  haien/beren): null
+  title: 소유격 (nire, hire, zure, haren/bere, gure, zuen, haien/beren)
 - id: family-types
-  title: 가족 형태 (guraso bakarrekoa
-  bikote mistoa: null
-  ezkonduta): null
+  title: 가족 형태 (guraso bakarrekoa, bikote mistoa, ezkonduta)
 - id: family-basics
-  title: 가족 (aita
-  ama: null
-  seme: null
-  alaba: null
-  anaia: null
-  arreba/ahizpa): null
+  title: 가족 (aita, ama, seme, alaba, anaia, arreba/ahizpa)
 - id: family-extended
-  title: 대가족 (aitona
-  amona: null
-  osaba: null
-  izeba: null
-  lehengusu: null
-  iloba): null
+  title: 대가족 (aitona, amona, osaba, izeba, lehengusu, iloba)
 - id: origin-koa
   title: '출신: Nongoa zara? → X-koa naiz'
 - id: residence-an
@@ -111,38 +76,23 @@ curriculum:
 - id: numbers-1-100
   title: 숫자 1부터 100까지 (20진법)
 - id: colors
-  title: 색깔 (zuria
-  beltza: null
-  gorria: null
-  urdina: null
-  horia: null
-  berdea): null
+  title: 색깔 (zuria, beltza, gorria, urdina, horia, berdea)
 - id: days-of-week
   title: 요일 (astelehena → igandea)
 - id: months
   title: 월 (urtarrila → abendua)
 - id: seasons
-  title: 계절 (udaberria
-  uda: null
-  udazkena: null
-  negua): null
+  title: 계절 (udaberria, uda, udazkena, negua)
 - id: time-basics
   title: 시간 말하기 (Hamabiak dira, sei eta erdiak)
 - id: time-expressions
   title: '시간: lehen/orain/gero, atzo/gaur/bihar/etzi'
 - id: body-parts
-  title: 신체 부위 (burua
-  eskua: null
-  hanka: null
-  sabela): null
+  title: 신체 부위 (burua, eskua, hanka, sabela)
 - id: health-basics
   title: 기본 건강 표현 (... mina daukat, sukarra, eztula)
 - id: clothes
-  title: 기본 의류 (alkandora
-  galtza: null
-  soineko: null
-  jertse: null
-  zapatak): null
+  title: 기본 의류 (alkandora, galtza, soineko, jertse, zapatak)
 - id: places-town
   title: 마을의 장소 (taberna, merkatua, hondartza, eliza, banketxea)
 - id: directions
