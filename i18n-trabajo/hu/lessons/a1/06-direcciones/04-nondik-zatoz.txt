@@ -1,0 +1,152 @@
+@@ title
+Honnan jössz? — a NONDIK eset
+@@ x0.prompt
+"Bilbaóból jövök" — így mondják:
+@@ x0.explanation
+"Bilbo" + a -tik toldalék = "Bilbotik" (Bilbaóból, a mozgás kiindulópontja).
+@@ x1.prompt
+Otthonról jövök = Etxe___ nator.
+@@ x1.explanation
+"Etxe" + tik = "etxetik" (otthonról, a házból, kiindulópont).
+@@ x2.prompt
+Madridból jönnek = Madril___ datoz.
+@@ x2.explanation
+Mássalhangzó után a toldalék módosul: "Madril" → "Madrildik" vagy "Madriletik" (mindkét alak elfogadott).
+@@ x3.prompt
+Mit jelent az, hogy "Lanetik nator"?
+@@ x3.explanation
+"Lan" + etik = "lanetik" (a munkából, kiindulópont). "Nator" = jövök (az etorri szintetikus alakja).
+@@ x3.opt0
+Megyek a munkába
+@@ x3.opt1
+A munkahelyemen vagyok
+@@ x3.opt2
+A munkából jövök
+@@ x3.opt3
+A munka itt van
+@@ x4.prompt
+Kapcsold össze a kiindulópontot és a célt: "A bankból jövök, és a szupermarketbe megyek":
+@@ x4.explanation
+NONDIK = -tik (kiindulópont, az etorri igével); NORA = -ra (cél, a joan igével). Bankutik nator + supermerkatura noa.
+@@ x5.prompt
+Kérdés: Honnan jössz? = ___ zatoz?
+@@ x6.card0
+Honnan?
+@@ x6.card1
+Honnan jössz?
+@@ x6.card2
+Honnan jön?
+@@ x6.card3
+otthonról
+@@ x6.card4
+a munkából
+@@ x6.card5
+az euskaltegiből
+@@ x6.card6
+az iskolából
+@@ x6.card7
+a bárból
+@@ x6.card8
+a boltból
+@@ x6.card9
+az orvostól
+@@ x6.card10
+Bilbaóból
+@@ x6.card11
+Pamplonából
+@@ x6.card12
+Madridból
+@@ x6.card13
+Honnan hová?
+@@ x7.pair0
+Honnan jössz?
+@@ x7.pair1
+A munkából jövök
+@@ x7.pair2
+Otthonról jön
+@@ x7.pair3
+Innen oda
+@@ x7.pair4
+Bilbaóból Donostiába
+@@ body
+
+Az előző leckében megtanultuk a **NORA** esetet (hová mész), most jön a párja: a **NONDIK** — *honnan* jössz. A toldalék a **`-tik`**. Önmagában nem nehéz; a lényeg, hogy **ne keverd össze** a NORA esettel.
+
+## A kérdés: Nondik?
+
+| Kérdés | Magyar |
+|---|---|
+| ***Nondik* zatoz?** | Honnan jössz? |
+| ***Nondik* dator?** | Honnan jön (ő)? |
+| ***Nondik* gatoz?** | Honnan jövünk? |
+| ***Nondik* datoz?** | Honnan jönnek? |
+
+> A NONDIK esettel természetesen az **etorri** (jönni) ige jár: *nator*, *zatoz*, *dator*, *gatoz*, *zatozte*, *datoz*. Az alapkérdés, amely folyton beszélgetéseket nyit majd, a **Nondik zatoz?**.
+
+## A toldalék: -tik
+
+A kiindulópont nevéhez kapcsolódik. A minta a végződéshez igazodik:
+
+| A hely vége | Minta | Példa |
+|---|---|---|
+| -a (eredendő, *eskola*) | + tik | eskola → **eskolatik** |
+| Magánhangzó végső -a nélkül (*Bilbo*, *etxe*) | + tik | Bilbo → **Bilbotik**, etxe → **etxetik** |
+| Mássalhangzó (*Madril*, *lan*) | + (e)tik vagy + dik | Madril → **Madriletik** / **Madrildik**; lan → **lanetik** |
+
+> Figyelem: mássalhangzó után mindkét változat létezik (*Madriletik* / *Madrildik*), és mindkettő elfogadott. Az `-etik` alak sztenderdebb, és írásban kisebb kockázattal jár.
+
+## Példák
+
+- **Etxetik nator.** — Otthonról jövök.
+- **Lanetik dator.** — A munkából jön.
+- **Eskolatik gatoz.** — Az iskolából jövünk.
+- **Tabernatik datoz.** — A bárból jönnek.
+- **Bilbotik etorri da.** — Bilbaóból jött.
+- **Iruñetik Donostiara doa.** — Pamplonából Donostiába megy.
+
+## NORA és NONDIK együtt: nondik nora?
+
+Nagyon gyakori, hogy egyetlen mondatban kombináljuk a kettőt: **"honnan hová"**.
+
+- **Hegazkina Bilbotik Madrilera doa.** — A repülő Bilbaóból Madridba megy.
+- **Autobusa Iruñetik Tutera doa.** — A busz Pamplonából Tudelába megy.
+- **Idoia bankutik supermerkatura doa.** — Idoia a bankból a szupermarketbe megy.
+
+Az általános kérdés a **Nondik nora?**: "honnan hová?".
+
+> **Mini-trükk:** a helyre vonatkozó három alapkérdés: ***Non?*** (lenni), ***Nora?*** (menni), ***Nondik?*** (jönni). A hozzájuk tartozó három toldalék pedig: **-an / -ra / -tik**. Szinte minden, amit a helyekről mondasz, belefér ebbe a hármasba.
+
+## Összefoglaló táblázat: NON / NORA / NONDIK
+
+| Kérdés | Toldalék | Jellemző ige | Példa |
+|---|---|---|---|
+| **Non?** (hol?) | **-an** | egon (lenni valahol) | *Etxe**an** nago.* — Otthon vagyok. |
+| **Nora?** (hová?) | **-ra** | joan (menni) | *Etxe**ra** noa.* — Hazamegyek. |
+| **Nondik?** (honnan?) | **-tik** | etorri (jönni) | *Etxe**tik** nator.* — Otthonról jövök. |
+
+## NONDIK határozószók és mutató szavak
+
+A három távolságnak is van NONDIK alakja:
+
+| NON | NORA | NONDIK | Jelentés |
+|---|---|---|---|
+| hemen | hona | **hemendik** | innen |
+| hor | horra | **hortik** | onnan (tőled) |
+| han | hara | **handik** | onnan, amonnan |
+
+- **Hemendik gertu dago.** — Közel van ide.
+- **Handik nator.** — Onnan jövök.
+- **Hortik aurrera, jo eskuinera.** — Onnantól kezdve fordulj jobbra.
+
+## Mini-beszélgetés
+
+> — *Aupa, **nondik zatoz**?* — Szia! Honnan jössz?
+>
+> — *Lanetik nator. Eta zu, **nora zoaz**?* — A munkából jövök. És te, hová mész?
+>
+> — *Supermerkatura noa, afaria erostera.* — A szupermarketbe megyek, vacsorát venni.
+>
+> — *Ni ere supermerkatura noa! **Goazen** elkarrekin.* — Én is a szupermarketbe megyek! Menjünk együtt.
+
+> **Elkerülendő tipikus hibák:** összekeverni a *Bilbon* (Bilbaóban) alakot a *Bilbora* (Bilbaóba) vagy a *Bilbotik* (Bilbaóból) alakkal. A NONDIK esetnél pedig ne feledd: magánhangzó után `-tik` jön, mássalhangzó után közbeékelődik egy `-e-`, vagy elfogadott a `-dik` is. Gyakorold a három toldalékot ugyanazzal a szóval: *etxean / etxera / etxetik*; *Bilbon / Bilbora / Bilbotik*. Ha már automatikusan megy, megvan.
+

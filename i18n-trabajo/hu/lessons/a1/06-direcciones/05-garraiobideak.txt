@@ -1,0 +1,143 @@
+@@ title
+Közlekedési eszközök (oinez, autobusez, trenez…)
+@@ x0.pair0
+gyalog
+@@ x0.pair1
+autóval
+@@ x0.pair2
+busszal
+@@ x0.pair3
+vonattal
+@@ x0.pair4
+biciklivel
+@@ x0.pair5
+repülővel
+@@ x0.pair6
+hajóval
+@@ x1.prompt
+Hogy mondják: "Busszal megyek"?
+@@ x1.explanation
+"Autobus" + az -ez toldalék (eszközhatározó) = "autobusez" (busszal, a mozgás módja).
+@@ x2.prompt
+Gyalog megyek = ___ noa.
+@@ x2.explanation
+Az "Oinez" a "gyalog" állandó alakja (szó szerint "lábbal").
+@@ x3.prompt
+Vonattal megyek Pamplonába = Iruñera ___ noa.
+@@ x4.prompt
+A "Bilbora hegazkinez doaz" jelentése…
+@@ x4.explanation
+Bilbo + ra = Bilbaóba; hegazkin + ez = repülővel; doaz = mennek.
+@@ x4.opt0
+Repülővel jönnek Bilbaóból
+@@ x4.opt1
+Repülővel mennek Bilbaóba
+@@ x4.opt2
+A Bilbaóba tartó repülőn van
+@@ x4.opt3
+Bilbaónak van repülőtere
+@@ x5.prompt
+Hogyan kérdezed meg: "Hogyan mész az iskolába?"
+@@ x5.explanation
+A "Nola?" jelentése "hogyan?". A közlekedési eszközre a "Nola zoaz…?" vagy a "Zerez zoaz?" kérdéssel kérdezünk rá.
+@@ x6.card0
+gyalog
+@@ x6.card1
+autóval
+@@ x6.card2
+busszal
+@@ x6.card3
+vonattal
+@@ x6.card4
+biciklivel
+@@ x6.card5
+motorral
+@@ x6.card6
+repülővel
+@@ x6.card7
+hajóval
+@@ x6.card8
+taxival
+@@ x6.card9
+metróval
+@@ x6.card10
+Hogyan mész?
+@@ x6.card11
+Mivel mész?
+@@ x6.card12
+közlekedési eszköz
+@@ x6.card13
+útvonal
+@@ body
+
+Az egység lezárásához még egy darab hiányzik: **hogyan közlekedsz**. A magyarban a *-val/-vel* ragot használjuk ("autóval", "busszal"). A baszkban a **`-z`** toldalékot (*eszközhatározó* eset), amelyet a közlekedési eszközhöz teszünk — és meglepő módon a "láb" szóhoz is.
+
+## A kérdés
+
+| Kérdés | Magyar |
+|---|---|
+| ***Nola* zoaz?** | Hogyan mész? |
+| ***Zerez* zoaz?** | Mivel mész? |
+| ***Nola* doa Iruñera?** | Hogyan megy Pamplonába? |
+
+Mindkét alak (*Nola* és *Zerez*) helyes és gyakori. A *Nola* általánosabb; a *zerez* közvetlenül azt jelenti, "milyen eszközzel".
+
+## A közlekedési eszközök
+
+| Eszköz | -z alak | Magyar |
+|---|---|---|
+| oin (láb) | **oinez** | gyalog |
+| kotxe / auto | **kotxez** / **autoz** | autóval |
+| autobus | **autobusez** | busszal |
+| tren | **trenez** | vonattal |
+| metro | **metroz** | metróval |
+| taxi | **taxiz** | taxival |
+| bizikleta | **bizikletaz** | biciklivel |
+| motor | **motorrez** | motorral |
+| hegazkin | **hegazkinez** | repülővel |
+| itsasontzi | **itsasontziz** | hajóval |
+| furgoneta | **furgonetaz** | kisbusszal |
+| zaldi (ló) | **zaldiz** | lóháton |
+
+> A toldalék magánhangzó után **`-z`**, mássalhangzó után **`-ez`** (*autobus → autobusez*). A gyakorlatban szinte minden közlekedési eszköz neve magánhangzóra végződik, így az alapformula: **eszköz + z**.
+
+## Teljes példák
+
+- **Oinez noa lanera.** — Gyalog megyek a munkába.
+- **Iruñera trenez goaz.** — Vonattal megyünk Pamplonába.
+- **Bilbora hegazkinez doaz.** — Repülővel mennek Bilbaóba.
+- **Eskolara bizikletaz dator alaba.** — A lány biciklivel jön az iskolába.
+- **Mendira oinez igotzen gara.** — Gyalog megyünk fel a hegyre.
+
+## NONDIK + NORA + NOLA együtt
+
+Egy tipikus utazásról szóló mondatnak három eleme van: **honnan + hová + hogyan**.
+
+- **Iruñetik Donostiara autobusez doa.** — Pamplonából Donostiába megy busszal.
+- **Bilbotik Madrilera trenez gatoz.** — Bilbaóból Madridba jövünk vonattal.
+- **Etxetik euskaltegira oinez noa.** — Otthonról gyalog megyek az euskaltegibe.
+
+## Mini-beszélgetés
+
+> — *Aupa! Bihar Bilbora **noa**.* — Szia! Holnap Bilbaóba megyek.
+>
+> — *Eta **nola** zoaz?* — És hogyan mész?
+>
+> — *Trenez. Oso erosoa da.* — Vonattal. Nagyon kényelmes.
+>
+> — *Ni autoz noa beti, baina garestia da gasolina.* — Én mindig autóval megyek, de drága a benzin.
+
+## Az "oinez" szóról
+
+Első ránézésre az *oinez* külön esetnek tűnik ("lábbal"), de valójában pontosan ugyanazt a mintát követi, mint a többi: *oin* (láb) + *ez* (eszközhatározó toldalék). A baszk a "gyalog menést" ugyanúgy kezeli, mint bármely más közlekedési módot: azt az eszközt nevezi meg, amely visz.
+
+## A NORA / NONDIK / NOLA blokk végső ismétlése
+
+| Kérdés | Toldalék | Kérdéstípus | Választípus |
+|---|---|---|---|
+| **Nora?** | -ra | Hová? | *Bilbo**ra** noa.* |
+| **Nondik?** | -tik | Honnan? | *Bilbo**tik** nator.* |
+| **Nola? / Zerez?** | -z | Hogyan? / Mivel? | *Tren**ez** noa.* |
+
+> **Trükk:** a három toldalék együtt szinte bármilyen utazásról szóló mondatot kiad. Például: *Bilbotik Donostiara autobusez goaz, lagun bat bisitatzera*. — "Bilbaóból Donostiába megyünk busszal, meglátogatni egy barátot." Ha ezt a három toldalékot és a *joan* és *etorri* szintetikus alakjait elsajátítod, bármilyen hétköznapi helyváltoztatásról tudsz beszélni.
+

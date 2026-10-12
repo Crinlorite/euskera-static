@@ -1,0 +1,151 @@
+@@ title
+Útbaigazítás az utcán
+@@ x0.pair0
+fordulj balra
+@@ x0.pair1
+fordulj jobbra
+@@ x0.pair2
+menj egyenesen / előre
+@@ x0.pair3
+kelj át
+@@ x0.pair4
+menj fel a lépcsőn
+@@ x0.pair5
+menj le a lejtőn
+@@ x0.pair6
+menj vissza
+@@ x1.prompt
+Hogyan mondanád: "a lámpánál fordulj balra"?
+@@ x1.explanation
+"Jo ezkerrera" (fordulj balra) + hely az "-an" végződéssel: "semaforoan" (a lámpánál).
+@@ x2.prompt
+A "Zeharkatu" jelentése…
+@@ x2.explanation
+A "zehar" (át, keresztül) szóból. "Zeharkatu kalea / zebrabidea" = átkelni az utcán / a zebrán.
+@@ x3.prompt
+Menj egyenesen = ___ aurrera.
+@@ x3.explanation
+"Segi aurrera" vagy "jarraitu aurrera" — mindkettő jó arra, hogy "menj egyenesen".
+@@ x4.prompt
+Útbaigazítást szeretnél kérni a kórházhoz. Mit mondasz?
+@@ x4.explanation
+A "Non dago…?" arra kérdez rá, hol van valami; ideális útbaigazítás kéréséhez.
+@@ x5.card0
+bal
+@@ x5.card1
+jobb
+@@ x5.card2
+előre
+@@ x5.card3
+hátra
+@@ x5.card4
+fordulj balra
+@@ x5.card5
+fordulj jobbra
+@@ x5.card6
+menj egyenesen
+@@ x5.card7
+haladj tovább egyenesen
+@@ x5.card8
+átkelni
+@@ x5.card9
+zebra (gyalogátkelő)
+@@ x5.card10
+közlekedési lámpa
+@@ x5.card11
+kereszteződés
+@@ x5.card12
+országút
+@@ x5.card13
+utca
+@@ x5.card14
+lejtő, emelkedő
+@@ x5.card15
+lépcső
+@@ x5.card16
+felmenni
+@@ x5.card17
+lemenni
+@@ x5.card18
+közel
+@@ x5.card19
+messze
+@@ body
+
+Ha valaki megkérdezi, hogyan juthat el valahová — vagy ha eltévedsz, és te kérdezel —, szükséged van egy maréknyi felszólító igére és irányt jelölő határozószóra. Ebben a leckében összegyűjtöttük a lényeget.
+
+## Alapvető felszólító alakok
+
+A baszkban a mozgást kifejező igék állító felszólító módja nagyon egyszerű:
+
+| Alak | Alapige | Jelentés |
+|---|---|---|
+| **Jo** | jo | üss / irányozd (jo ezkerrera = fordulj balra) |
+| **Segi** / **Jarraitu** | segitu / jarraitu | menj tovább, folytasd |
+| **Hartu** | hartu | fogd, vedd (hartu kale hau = menj ebbe az utcába) |
+| **Igo** | igo | menj fel |
+| **Jaitsi** | jaitsi | menj le |
+| **Sartu** | sartu | menj be |
+| **Irten** | irten | menj ki |
+| **Zeharkatu** | zeharkatu | kelj át |
+| **Iritsi** / **heldu** | iritsi / heldu | érj el (… arte = "…-ig") |
+
+> A *Jo* szó szerint azt jelenti, "ütni", de átvitt értelemben "valami felé tartani" jelentésben használják: **jo ezkerrera** = "tarts balra".
+
+## Irányt jelölő határozószók és viszonyítási pontok
+
+| Euskera | Magyar |
+|---|---|
+| *ezkerra* | a bal oldal |
+| *eskuina* | a jobb oldal |
+| *aurrera* | előre |
+| *atzera* | hátra |
+| *zuzen* | egyenesen |
+| *gora* | felfelé |
+| *behera* | lefelé |
+
+> Figyeld meg: az **irányt** a `-ra` toldalék jelöli (a 03. leckében alaposan megnézzük): *ezkerre-ra* (balra), *aurre-ra* (előre), *atze-ra* (hátra). Ugyanígy a *gora*, *behera* esetében.
+
+## Jellegzetes viszonyítási pontok
+
+| Euskera | Magyar |
+|---|---|
+| *semaforoa* | közlekedési lámpa |
+| *bidegurutzea* | kereszteződés |
+| *zebrabidea* | zebra (gyalogátkelő) |
+| *biribilgunea* / *errotonda* | körforgalom |
+| *aldapa* | lejtő, emelkedő |
+| *eskailerak* | lépcső |
+| *zubia* | híd |
+| *errepidea* | országút |
+| *kalea* | utca |
+
+## Mintamondatok
+
+- **Jo ezkerrera bidegurutzean.** — A kereszteződésnél fordulj balra.
+- **Segi aurrera semaforora arte.** — Menj egyenesen a lámpáig.
+- **Zeharkatu zebrabidea.** — Kelj át a zebrán.
+- **Igo eskailerak eta sartu eraikinean.** — Menj fel a lépcsőn, és menj be az épületbe.
+- **Jaitsi aldapa, eta gero jo eskuinera.** — Menj le a lejtőn, aztán fordulj jobbra.
+- **Egin atzera; gehiegi joan zara.** — Menj vissza; túlmentél.
+
+## Útbaigazítás kérése és adása
+
+> — *Barkatu, **non dago** udaletxea?* — Elnézést, hol van a városháza?
+>
+> — ***Segi aurrera** semaforora arte. Han **jo eskuinera** eta **zeharkatu** plaza. Udaletxea elizaren ondoan dago.* — Menj egyenesen a lámpáig. Ott fordulj jobbra, és menj át a téren. A városháza a templom mellett van.
+>
+> — *Eta gertu **dago**?* — És közel van?
+>
+> — *Bai, oso gertu. Bost minutu oinez.* — Igen, nagyon közel. Öt perc gyalog.
+
+> **Trükk:** sok útbaigazítás állandó mintát követ: felszólító alak (*jo*, *segi*, *zeharkatu*) + toldalékos hely (*ezkerrera*, *semaforora*, *zebrabidea*). Ha megjegyzed a mintát, a darabokat kombinálva hosszú utasításokat is össze tudsz fűzni.
+
+@@ x2.opt0
+egyenesen menni
+@@ x2.opt1
+átkelni
+@@ x2.opt2
+fordulni
+@@ x2.opt3
+felmenni
