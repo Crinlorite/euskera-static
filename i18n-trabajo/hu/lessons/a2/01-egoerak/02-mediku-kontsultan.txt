@@ -1,0 +1,145 @@
+@@ title
+Mediku-kontsultan — párbeszéd a rendelőben
+@@ x0.prompt
+Az orvosnál a "Hartu pilula bat zortzi orduro" jelentése…
+@@ x0.explanation
+Az időhöz kapcsolt *-ro* toldalék rendszeres gyakoriságot jelöl: *zortzi orduro* = nyolcóránként.
+@@ x0.opt0
+Vegyen be egy tablettát nyolckor
+@@ x0.opt1
+Vegyen be egy tablettát nyolc órán át
+@@ x0.opt2
+Vegyen be nyolc tablettát
+@@ x0.opt3
+Vegyen be egy tablettát nyolcóránként
+@@ x1.prompt
+A "Hobeto nago" jelentése…
+@@ x1.explanation
+*Hobeto* = jobban. A *hobe* a "jobb" melléknév, a *hobeto* a határozószó.
+@@ x1.opt0
+Rosszabbul vagyok
+@@ x1.opt1
+Jól vagyok
+@@ x1.opt2
+Jobban vagyok
+@@ x1.opt3
+Ugyanúgy vagyok
+@@ x2.prompt
+Időpontot szeretnék kérni = Hitzordua eskatu nahi ___.
+@@ x2.explanation
+A *Nahi izan* tárgyas: a *dut* segédigével áll. *Hitzordua eskatu nahi dut* — időpontot szeretnék kérni.
+@@ x3.card0
+időpontot kérni
+@@ x3.card1
+bevenni / venni
+@@ x3.card2
+óránként
+@@ x3.card3
+nyolcóránként
+@@ x3.card4
+naponta
+@@ x3.card5
+evés előtt
+@@ x3.card6
+evés után
+@@ x3.card7
+jobban (hat.)
+@@ x3.card8
+rosszabbul (hat.)
+@@ x3.card9
+ugyanúgy
+@@ x3.card10
+recept
+@@ x3.card11
+a táppénz, betegszabadság
+@@ x3.card12
+a rendelés
+@@ x4.pair0
+Mi a baj?
+@@ x4.pair1
+Mióta?
+@@ x4.pair2
+Fáj?
+@@ x4.pair3
+Vegye be ezt
+@@ x4.pair4
+Jöjjön vissza egy hét múlva
+@@ x4.pair5
+Pihenni
+@@ body
+
+Ez a lecke egy **teljes orvosi rendelési próbajelenet**. Az előző lecke szókincsét időkifejezésekkel (milyen gyakran, előtte/utána) és gyakori formulákkal kapcsolja össze. A rendelő az A2 szint egyik leghasznosabb helyzete: bármelyik hivatalos vizsgán előfordul.
+
+## Időpontkérés
+
+> *Egun on. **Hitzordua eskatu nahi dut** familia-medikuarekin.*
+
+Változatok:
+
+- *Hitzordua eman ahal didazu?* — Tudna adni időpontot?
+- *Larrialdietara joan behar dut.* — El kell mennem a sürgősségire.
+- *Bihar goizerako badago tarterik?* — Van szabad hely holnap délelőttre?
+
+## Gyakoriság a -**ro** toldalékkal
+
+Az "X időnként" kifejezésére a baszk az időt jelölő főnévhez a **-ro** toldalékot teszi:
+
+| Magyar | Euskera |
+|---|---|
+| Óránként | *orduro* |
+| Kétóránként | *bi orduro* |
+| Nyolcóránként | *zortzi orduro* |
+| Naponta | *egunero* |
+| Hetente | *astero* |
+| Havonta | *hilero* |
+| Évente | *urtero* |
+
+> Ez ugyanaz a *-ro*, amelyet az A1-ben az *egunero* (minden nap) szóban használtál. Itt csak kiterjeszted órákra és más egységekre.
+
+## Evés előtt / után
+
+Az orvos utasításaiban általában ezek a formulák szerepelnek:
+
+- *Jan **baino lehen*** — evés előtt
+- *Jan **ondoren*** / *Jan **eta gero*** — evés után
+- *Goizean baraurik* — reggel éhgyomorra
+- *Lo egin baino lehen* — lefekvés előtt
+
+## "Jobban" / "rosszabbul"
+
+Ha arra válaszolsz, hogy érzed magad:
+
+| Magyar | Euskera |
+|---|---|
+| Jobban vagyok | *Hobeto nago* |
+| Rosszabbul vagyok | *Okerrago nago* |
+| Ugyanúgy | *Berdin nago* |
+| Sokkal jobban | *Askoz hobeto* |
+
+> **Megjegyzés:** a *hobe* (melléknév) és a *hobeto* (határozószó) rendhagyó. Nincs *\*onago* alak — az *ona* középfoka a *hobea*. A 4. egységben részletesen megnézzük.
+
+## Mintapárbeszéd
+
+> *— Egun on. **Zer duzu**?*
+>
+> *— **Eztarriko min handia daukat**, eta uste dut **sukarra ere badudala**.*
+>
+> *— Noiztik?*
+>
+> *— Duela hiru egun hasi zen.*
+>
+> *— Ikusiko dut... Bai, eztarria gorri-gorri daukazu. **Hartu** pastilla hauek **jan ondoren**, **zortzi orduro**, hiru egunez. **Edan** ur asko, eta **hartu atseden**. Hobeto ez bazaude **astebete barru**, itzuli.*
+>
+> *— Eskerrik asko, mediku.*
+
+## Megjegyzendő kulcsmondatok
+
+- *Hitzordua eskatu nahi dut.* — Időpontot szeretnék kérni.
+- *Min handia daukat hemen.* — Itt nagyon fáj.
+- *Duela bi egun hasi zen.* — Két napja kezdődött.
+- *Errezeta emango dizut.* — Felírok egy receptet.
+- *Errezetarik gabe saltzen al duzue?* — Recept nélkül is árulják?
+- *Bajan nago.* — Táppénzen vagyok.
+
+> **Kulturális megjegyzés:** az Osakidetza (a baszk közegészségügyi szolgálat) saját kétnyelvű terminológiával rendelkezik; sok nyomtatvány és felirat elsőként baszkul jelenik meg. Ha megismered az olyan szavakat, mint az *anbulatorioa*, a *larrialdiak* vagy az *errezeta*, bármelyik egészségügyi intézményben eligazodsz.
+
