@@ -1,0 +1,140 @@
+@@ title
+Gonbidapenak — meghívni, megbeszélni egy találkozót és válaszolni
+@@ x0.prompt
+A "Nirekin afaldu nahi duzu?" ennek egyik formája…
+@@ x0.explanation
+A *Nahi duzu…?* (akarsz…?) + ige a legközvetlenebb meghívás: vacsorázol velem?
+@@ x0.opt0
+Bocsánatkérés
+@@ x0.opt1
+Egy program visszautasítása
+@@ x0.opt2
+Köszönetnyilvánítás
+@@ x0.opt3
+Valaki meghívása
+@@ x1.prompt
+Melyik válasz FOGADJA EL a programot?
+@@ x1.explanation
+*Ondo iruditzen zait* = jó ötletnek tartom. A többi visszautasít vagy elhalaszt: nem tudok / majd máskor / egyáltalán nem tetszik.
+@@ x2.prompt
+"Miért ne mennénk a hegyekbe?" (programot javasolva) = …
+@@ x2.explanation
+A *Zergatik ez…?* + jelen idejű ige a klasszikus, finom javaslat, akárcsak a magyar "miért ne...?". A többi a múltra, a célra vagy a visszaútra kérdez.
+@@ x3.prompt
+Hatkor találkozunk? = seietan ___ gara?
+@@ x3.explanation
+*Geratu* (vagy *gelditu*) = megbeszélni egy találkozót, maradni. Jövő időben: hatkor találkozunk? Mindkét alak jó.
+@@ x4.prompt
+Nem tudok, más programom van = ezin ___, beste plan bat daukat.
+@@ x4.explanation
+*Ezin dut* = nem tudok. A teljes udvarias formula: *ezin dut, sentitzen dut* + a kifogás (ha jó benyomást akarsz kelteni 😄).
+@@ x5.card0
+akarsz…?
+@@ x5.card1
+miért ne…?
+@@ x5.card2
+találkozunk?
+@@ x5.card3
+jó ötlet, benne vagyok
+@@ x5.card4
+szuper!
+@@ x5.card5
+rendben
+@@ x5.card6
+nem tudok
+@@ x5.card7
+sajnálom
+@@ x5.card8
+más programom van
+@@ x5.card9
+majd máskor
+@@ x5.card10
+hol találkozunk?
+@@ x5.card11
+várni foglak
+@@ x5.card12
+meghívlak
+@@ x5.card13
+én fizetek
+@@ x6.pair0
+Eljössz?
+@@ x6.pair1
+Benne vagyok
+@@ x6.pair2
+Nem tudok, dolgom van
+@@ x6.pair3
+Hol találkozunk?
+@@ x6.pair4
+A Főtéren, nyolckor
+@@ x6.pair5
+A vacsorát én fizetem
+@@ body
+
+A jövő idő tudása nagyszerű, de a társasági élet ennél konkrétabbat kíván: **meghívni, programot javasolni, találkozót megbeszélni és válaszolni** — hogy igen, hogy nem, hogy majd máskor. Ez a lecke tiszta beszélgetési izomzat.
+
+## Meghívás és javaslat
+
+| Magyar | Euskera |
+|---|---|
+| Vacsorázol velem? | *Nirekin afaldu **nahi duzu**?* |
+| Miért ne mennénk moziba? | ***Zergatik ez** goaz zinemara?* |
+| Van kedved egy kávéhoz? | *Kafe bat **hartuko dugu**?* |
+| Meghívlak | ***Gonbidatzen zaitut*** |
+| Én fizetek | ***Nire kontu*** |
+
+> **Trükk:** barátok között a legtermészetesebb javaslat egyszerűen a jövő idő kérdésként: *Kafe bat hartuko dugu?* (megiszunk egy kávét?), *Mendira joango gara larunbatean?* (elmegyünk szombaton a hegyekbe?).
+
+## Találkozó megbeszélése: hol és mikor
+
+| Magyar | Euskera |
+|---|---|
+| Találkozunk? | ***Geratuko gara?*** |
+| Hol találkozunk? | ***Non** geratuko gara?* |
+| Hány órakor? | ***Zer ordutan?*** |
+| Nyolckor a téren | *Zortzietan plazan* |
+| Várni foglak | *Zure **zain egongo naiz*** |
+
+A *Geratu* és a *gelditu* itt felcserélhető; vidéktől függően mindkettőt hallani fogod.
+
+## Elfogadás
+
+> ***Ondo iruditzen zait!*** — Jó ötlet, benne vagyok!
+>
+> ***Primeran!*** — Szuper!
+>
+> ***Ados.*** — Rendben.
+>
+> *Bai, noski. **Han egongo naiz**.* — Igen, persze. Ott leszek.
+
+## Visszautasítás (stílusosan)
+
+> ***Ezin dut**, sentitzen dut. Lana daukat.* — Nem tudok, sajnálom. Dolgom van.
+>
+> *Gaur ezin dut, baina **beste egun batean** bai?* — Ma nem tudok, de egy másik napon igen?
+>
+> *Eskerrik asko, baina **beste plan bat daukat**.* — Köszönöm, de más programom van.
+
+> **Kulturális megjegyzés:** Euskal Herriában a társasági program par excellence a ***poteo*** (*potea*): a baráti társasággal bárról bárra járni, és mindenhol inni egy-egy *potes*-t (kis italt). Ha azt mondják neked: *«Poteoa egingo dugu?»*, már tudod, hogyan fogadd el: *Primeran!*
+
+## Teljes párbeszéd
+
+> *— Aizu, Maite! Larunbatean kontzertu bat dago Kafe Antzokian. **Etorri nahi duzu**?*
+>
+> *— Larunbatean… **ezin dut**, familia-bazkaria daukat. 😞*
+>
+> *— Lasai. Eta igandean? **Zergatik ez dugu** hamaiketako bat **egiten** Alde Zaharrean?*
+>
+> *— **Ondo iruditzen zait**! **Non geratuko gara**?*
+>
+> *— Plaza Berrian, **hamaiketan**. **Nire kontu** lehenengo potea!*
+>
+> *— **Primeran**! Han **egongo naiz**.*
+
+## A rögzítéshez
+
+Három darab, és bármilyen programegyeztető beszélgetés megoldva:
+
+1. **Javasolni**: *…nahi duzu?* / *Zergatik ez…?* / jövő idő kérdésként.
+2. **Pontosítani**: *Non? Zer ordutan? — X-etan, Y-n.*
+3. **Válaszolni**: *Ondo iruditzen zait / Ezin dut, sentitzen dut.*
+
