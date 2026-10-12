@@ -1,0 +1,131 @@
+@@ title
+Aisialdia — концерти, музеи и планът за уикенда
+@@ x0.prompt
+"Sarrerak agortu dira" — лоши новини: …
+@@ x0.explanation
+*Agortu* = изчерпвам се: sarrerak agortu dira = билетите са разпродадени. Драмата на всеки фен.
+@@ x0.opt0
+Концертът започва късно
+@@ x0.opt1
+Билетите са разпродадени
+@@ x0.opt2
+Свалиха цената
+@@ x0.opt3
+Пътуването е отменено
+@@ x1.prompt
+"Museoa doan da asteartetan" означава, че във вторник…
+@@ x1.explanation
+*Doan* = безплатно. Запиши си безплатните (*doan*) дни на музеите — трик за културния календар на ниво.
+@@ x1.opt0
+Музеят е затворен
+@@ x1.opt1
+Музеят отваря следобед
+@@ x1.opt2
+Входът е безплатен
+@@ x1.opt3
+Има беседа с екскурзовод
+@@ x2.prompt
+Купих два билета за концерта = kontzerturako bi ___ erosi ditut.
+@@ x2.explanation
+*Sarrera* = билетът (също и физическият вход на място). Kontzertu**rako** = за концерта (падеж за предназначение).
+@@ x3.prompt
+В колко часа започва представлението? = zer ordutan ___ da emanaldia?
+@@ x3.explanation
+*Hasi* (започвам) в обичайно сегашно време: hasten da. *Emanaldia* = представлението/прожекцията.
+@@ x4.card0
+свободното време
+@@ x4.card1
+концертът
+@@ x4.card2
+театърът (сградата)
+@@ x4.card3
+пиесата
+@@ x4.card4
+музеят
+@@ x4.card5
+изложбата
+@@ x4.card6
+представлението / прожекцията
+@@ x4.card7
+билетът
+@@ x4.card8
+безплатно
+@@ x4.card9
+изчерпвам се
+@@ x4.card10
+паркът
+@@ x4.card11
+пазарът / панаирът
+@@ x4.card12
+фестивалът
+@@ x4.card13
+атмосферата
+@@ x5.pair0
+musika zuzenean
+@@ x5.pair1
+antzezlana ikusteko
+@@ x5.pair2
+erakusketak daude
+@@ x5.pair3
+bertako produktuak erosteko
+@@ x5.pair4
+hiru egun eta berrogei talde
+@@ x5.pair5
+umeekin arratsaldea pasatzeko
+@@ body
+
+Краят на раздела: **градското свободно време** — концерти, театър, музеи и панаири. Тук всичко се събира: плановете (раздел 06), уговарянето (раздел 06), вкусовете (предишният урок) и парите за билетите (A1). A2 започва да звучи като истинския живот.
+
+## Менюто за уикенда
+
+| Български | Euskera |
+|---|---|
+| Концертът | *kontzertua* |
+| Театърът (сградата) | *antzokia* |
+| Пиесата | *antzezlana* |
+| Киното | *zinema* |
+| Музеят | *museoa* |
+| Изложбата | *erakusketa* |
+| Фестивалът | *jaialdia* |
+| Пазарът / панаирът | *azoka* |
+| Паркът | *parkea* |
+
+## Билетите
+
+| Български | Euskera |
+|---|---|
+| Билетът | *sarrera* |
+| Купувам билети | *sarrerak erosi* |
+| Безплатно | *doan* |
+| Разпродадено | *agortuta* |
+| Представлението / прожекцията | *emanaldia* |
+| Опашката | *ilara* |
+
+> *Kontzerturako **sarrerak erosi ditut** — azkenak! Ia **agortuta zeuden**.* — Купих билетите за концерта — последните! Почти бяха разпродадени.
+>
+> *Museoa **doan da** asteazken arratsaldetan.* — Музеят е безплатен в сряда следобед.
+>
+> ***Zer ordutan hasten da** emanaldia?* — В колко часа започва представлението?
+
+## Предлагане на плана (всичко заедно)
+
+> *— Aizu, **zer egingo dugu** larunbatean?*
+>
+> *— Bi plan ditut: goizean **azokara** joan — bertako gazta erosi nahi dut — eta arratsaldean **erakusketa berria** ikusi Artiumen.*
+>
+> *— **Ondo iruditzen zait** goizekoa… baina arratsalderako beste ideia bat: **kontzertua** dago gaztetxean, **doan**!*
+>
+> *— **Doan**? Ba erakusketa **datorren astean** ikusiko dugu. 😄 **Zer ordutan hasten da**?*
+>
+> *— Zortzietan. **Zazpietan geratuko gara**, zerbait afaltzeko.*
+
+## Разказ как е минало (минало + мнение)
+
+> *Kontzertua **izugarria izan zen**: bi ordu eta erdi, jendea **dantzan** hasieratik. **Giro ederra**.* — Концертът беше страхотен: два часа и половина, хората танцуваха от самото начало. Прекрасна атмосфера.
+>
+> *Antzezlana **polita zen**, baina **luzeegia** — hiru ordu!* — Пиесата беше хубава, но прекалено дълга: три часа! (*-egi*, винаги верен.)
+>
+> *Azokan **gazta, ogia eta sagardoa** erosi genituen. **Merezi izan zuen**.* — На панаира купихме сирене, хляб и сидър. Струваше си.
+
+> **Бележка:** баският културен календар има свои думи: *gaztetxea* (самоуправляваното "txoko" с евтини концерти), *bertso-saioa* (вечер на бертсоларите), *herriko jaiak*… И най-големият *Azoka* от всички: **Durangoko Azoka**, панаирът на баската книга и музика през декември — годишното поклонение на четящия euskaldun.
+

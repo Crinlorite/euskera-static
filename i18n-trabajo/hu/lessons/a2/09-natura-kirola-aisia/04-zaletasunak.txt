@@ -1,0 +1,131 @@
+@@ title
+Zaletasunak — hobbik a -tzea alakkal
+@@ x0.prompt
+Az "Irakurtzea gustatzen zait" jelentése…
+@@ x0.explanation
+A *-tzea* végű ige "dologgá" válik: irakur**tzea** = az olvasás → szeretek OLVASNI. A lecke kulcsdarabja.
+@@ x0.opt0
+Most olvasni akarok
+@@ x0.opt1
+Szeretek olvasni
+@@ x0.opt2
+Tudok olvasni
+@@ x0.opt3
+Éppen olvasok
+@@ x1.prompt
+Melyik helyes szerkezet arra, hogy "imádok főzni"?
+@@ x1.explanation
+*Gustatzen zait* + *-tzea* végű ige: (asko) gustatzen zait sukalda**tzea**. Az utolsó összekeveri a NOR-NORI-t (zait, nem naiz).
+@@ x2.prompt
+Szeretek fényképezni = argazkiak ___ gustatzen zait.
+@@ x2.explanation
+Atera → atera**tzea** (a fényképezés). A gustatzen zait mellett az ige -tzea alakban, főnévként áll.
+@@ x3.prompt
+A kedvenc hobbim az utazás = nire ___ gogokoena bidaiatzea da.
+@@ x3.explanation
+*Zaletasuna* = a hobbi. "Nire zaletasun gogokoena" vagy "nire zaletasunik gogokoena" — mindkettő jó (felsőfok -ik-kel, 04. egység).
+@@ x4.card0
+a hobbi
+@@ x4.card1
+(az) olvasás
+@@ x4.card2
+(az) írás
+@@ x4.card3
+(a) főzés
+@@ x4.card4
+(az) utazás
+@@ x4.card5
+fényképezni
+@@ x4.card6
+zenét hallgatni
+@@ x4.card7
+(az) éneklés
+@@ x4.card8
+(a) tánc
+@@ x4.card9
+(a) festés
+@@ x4.card10
+(a) varrás
+@@ x4.card11
+a kertet gondozni
+@@ x4.card12
+a szabadidő
+@@ x4.card13
+a kedvenc
+@@ x5.pair0
+Szeretek olvasni
+@@ x5.pair1
+Szeret énekelni
+@@ x5.pair2
+Szeretünk utazni
+@@ x5.pair3
+Tudok festeni
+@@ x5.pair4
+Megyek táncolni
+@@ x5.pair5
+Éppen főzök
+@@ body
+
+Mit csinálsz, amikor nem csinálsz semmit? Ez a lecke a **hobbikról** szól — és arról a nyelvtani darabról, amely irányítja őket: a **-tzea** képzővel főnévvé alakított igéről (*irakurtzea* = "az olvasás").
+
+## A darab: -t(z)ea
+
+Az A1-ből ismered a *gustatzen zait* szerkezetet dolgokkal (*kafea gustatzen zait*). Ahhoz, hogy egy **tevékenység** tessen, az ige főnévvé válik:
+
+> **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
+
+| Magyar | Euskera |
+|---|---|
+| Szeretek olvasni | *Irakurtzea gustatzen zait* |
+| Imádok főzni | *Asko gustatzen zait sukaldatzea* |
+| Szeret énekelni | *Abestea gustatzen zaio* |
+| Szeretünk utazni | *Bidaiatzea gustatzen zaigu* |
+| Egyáltalán nem szeretek korán kelni | *Ez zait batere gustatzen goiz jaikitzea* |
+
+Az egész NOR-NORI, amit már tudsz (*zait, zaio, zaigu…*), továbbra is érvényes; csak a "mit" változik.
+
+## A hobbik katalógusa
+
+| Magyar | Euskera |
+|---|---|
+| Olvasni / írni | *irakurtzea / idaztea* |
+| Zenét hallgatni | *musika entzutea* |
+| Énekelni / táncolni | *abestea / dantzatzea* |
+| Főzni | *sukaldatzea* |
+| Fényképezni | *argazkiak ateratzea* |
+| Festeni / rajzolni | *margotzea / marraztea* |
+| Utazni | *bidaiatzea* |
+| A kertet gondozni | *baratzea zaintzea* |
+| A videojátékok | *bideo-jokoak* |
+| Varrni / kötni | *jostea / puntua egitea* |
+
+## Kérdezni és dicsekedni
+
+> ***Zer egitea gustatzen zaizu** denbora librean?* — Mit szeretsz csinálni a szabadidődben?
+>
+> ***Zein da zure zaletasunik gogokoena**?* — Mi a kedvenc hobbid?
+>
+> *Nire zaletasunik gogokoena **sukaldatzea** da: asteburuero **errezeta berri bat** probatzen dut.* — A kedvenc hobbim a főzés: minden hétvégén kipróbálok egy új receptet.
+
+## Három szerkezet, három árnyalat (finom ismétlés)
+
+| Szerkezet | Példa | Jelentése |
+|---|---|---|
+| **-tzea gustatzen zait** | *Margotzea gustatzen zait* | szeretem (hobbi) |
+| **-tzen dakit** | *Margotzen dakit* | tudom csinálni (képesség) |
+| **-tzen ari naiz** | *Margotzen ari naiz* | éppen csinálom (most) |
+
+> *Puntua egiten **ez dakit**, baina ikastea **gustatuko litzaidake**.* — Nem tudok kötni, de szívesen megtanulnám. (Ezt az elegáns *gustatuko litzaidake* alakot a B1-en fogod elsajátítani — itt hagyjuk étvágygerjesztőnek.)
+
+## Párbeszéd
+
+> *— Aizu, **zer egitea gustatzen zaizu** asteburuetan?*
+>
+> *— Niri **mendira joatea** eta **argazkiak ateratzea**. Batzuetan biak batera. 😄 Eta zuri?*
+>
+> *— **Sukaldatzea** eta gero… **jatea**, noski.*
+>
+> *— Hori ere zaletasuna da?*
+>
+> *— Nire etxean, **kirola**.* 😄
+
