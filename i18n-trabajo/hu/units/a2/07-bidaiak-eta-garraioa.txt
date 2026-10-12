@@ -1,0 +1,4 @@
+@@ title
+Bidaiak eta garraioa — utazás baszkul
+@@ description
+Közlekedés, jegyek, szállás, az utazás előkészítése (jövő idő) és elmesélése hazatérés után (múlt idő).

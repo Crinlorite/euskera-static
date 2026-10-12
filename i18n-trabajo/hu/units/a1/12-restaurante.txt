@@ -1,0 +1,4 @@
+@@ title
+Az étteremben
+@@ description
+Megérkezés az étterembe, az étlap olvasása, rendelés, fizetés és közös asztal a barátokkal.

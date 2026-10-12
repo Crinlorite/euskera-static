@@ -1,0 +1,184 @@
+@@ name
+A1 Maila
+@@ description
+Kezdő szint. Alapszintű megértés és megszólalás hétköznapi helyzetekben.
+@@ c0
+Köszönés és elköszönés (kaixo, hepa, agur, gero arte)
+@@ c1
+Udvariasság és tanóra (mesedez, eskerrik asko, ez horregatik, errepikatu)
+@@ c2
+Bemutatkozás (Ni X naiz, Nire izena X da, Zein da zure izena?)
+@@ c3
+Személyes adatok (izena, abizena, adina, jaioterria, telefonoa, emaila)
+@@ c4
+Életkor: ... urte ditut/ditu/dituzte
+@@ c5
+Az „izan” ige (NOR): naiz, haiz, da, gara, zara, zarete, dira
+@@ c6
+Tagadás: az ige elé kerülő ez (ez naiz, ez da, ez gara)
+@@ c7
+Az „egon” ige (NOR): nago, hago, dago, gaude, zaude, zaudete, daude
+@@ c8
+Az izan és az egon különbsége: tulajdonság vagy átmeneti állapot
+@@ c9
+Az „ukan” ige (NOR-NORK) — birtoklás: dut, duzu, du, dugu, duzue, dute
+@@ c10
+Többes számú tárgy az ukan igénél: ditut, dituzu, ditu, ...
+@@ c11
+A partitívusz -rik tagadásban, határozatlan tárggyal
+@@ c12
+„Gustatzen zait/zaio” — a tetszést kifejező ige (bevezetés a NOR-NORI szerkezetbe)
+@@ c13
+Személyes névmások (ni, hi, zu, hura, gu, zuek, haiek)
+@@ c14
+A hau/hori/hura mutató névmások és többes számuk: hauek/horiek/haiek
+@@ c15
+Birtokos névmások (nire, hire, zure, haren/bere, gure, zuen, haien/beren)
+@@ c16
+Családtípusok (guraso bakarrekoa, bikote mistoa, ezkonduta)
+@@ c17
+Család (aita, ama, seme, alaba, anaia, arreba/ahizpa)
+@@ c18
+Tágabb család (aitona, amona, osaba, izeba, lehengusu, iloba)
+@@ c19
+Származás: Nongoa zara? → X-koa naiz
+@@ c20
+Lakóhely: Non bizi zara? → X-(e)an bizi naiz
+@@ c21
+Gyakori országok és nemzetiségek
+@@ c22
+Társhatározó: Norekin bizi zara? → X-(r)ekin
+@@ c23
+NOR eset (abszolutívusz): -A egyes szám, -AK többes szám
+@@ c24
+NORK eset (ergatívusz): -AK egyes szám, -EK többes szám
+@@ c25
+NORI eset (datívusz): -ARI egyes szám, -EI többes szám
+@@ c26
+NOREN birtokos eset: birtoklás -(r)en (Beñaten aita)
+@@ c27
+NON helyhatározó eset: -(e)n (Bilbon, Donostian, Madrilen)
+@@ c28
+NOLAKOA da? — külső leírás izan + melléknév+A szerkezettel
+@@ c29
+NOLA dago? — átmeneti állapot egon + melléknév szerkezettel (pozik, triste)
+@@ c30
+Haj és szem (ile beltza, begi urdinak, ile motza/luzea)
+@@ c31
+Jellem (alaia, jatorra, isila, langilea, lasaia)
+@@ c32
+Foglalkozások (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)
+@@ c33
+Számok 1-től 20-ig
+@@ c34
+Számok 1-től 100-ig (húszas számrendszer)
+@@ c35
+Színek (zuria, beltza, gorria, urdina, horia, berdea)
+@@ c36
+A hét napjai (astelehena → igandea)
+@@ c37
+Az év hónapjai (urtarrila → abendua)
+@@ c38
+Évszakok (udaberria, uda, udazkena, negua)
+@@ c39
+Az idő megmondása (Hamabiak dira, sei eta erdiak)
+@@ c40
+Idő: lehen/orain/gero, atzo/gaur/bihar/etzi
+@@ c41
+Testrészek (burua, eskua, hanka, sabela)
+@@ c42
+Egészség alapszinten (... mina daukat, sukarra, eztula)
+@@ c43
+Alapvető ruhadarabok (alkandora, galtza, soineko, jertse, zapatak)
+@@ c44
+Helyek a településen (taberna, merkatua, hondartza, eliza, banketxea)
+@@ c45
+Útbaigazítás (jo ezkerrera, segi aurrera, gainean/azpian)
+@@ c46
+Bár és étel (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)
+@@ c47
+A nap étkezései (gosaria, hamaiketakoa, bazkaria, afaria)
+@@ c48
+Alapigék (sartu/irten, jan, edan, ikusi, joan, etorri)
+@@ c49
+Alapkérdések (zer, nor, non, noiz, zenbat, nola)
+@@ c50
+Jókívánságok (Zorionak, Urte askotarako, Topa egin)
+@@ c51
+Térbeli helyzetek (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)
+@@ c52
+Létezés a bada/badago szerkezettel (Ba al dago…?, Bai badago, Ez ez dago…rik)
+@@ c53
+A hemen / hor / han helyhatározók és a honetan / horretan / hartan mutató alakok
+@@ c54
+A joan, etorri, ibili mozgást kifejező igék (szintetikus alakok: noa/zoaz, nator/zatoz, nabil/zabiltza)
+@@ c55
+NORA eset: -ra (irány, cél) — Etxera noa, Bilbora doa
+@@ c56
+NONDIK eset: -tik (a mozgás kiindulópontja) — Etxetik nator
+@@ c57
+Az eszközhatározó -z közlekedési eszközre és módra (oinez, kotxez, autobusez, trenez, bizikletaz)
+@@ c58
+Útvonal-utasítások (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)
+@@ c59
+A lakás helyiségei (sukaldea, logela, komuna, egongela, sarrera, korridorea)
+@@ c60
+Bútorok és háztartási tárgyak (mahaia, aulkia, ohea, armairua, sofa, hozkailua)
+@@ c61
+Házimunka (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)
+@@ c62
+Együttélési formák (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)
+@@ c63
+A saját lakás leírása (gela kopurua, kokapena, altzariak)
+@@ c64
+Társas kapcsolatok (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)
+@@ c65
+Foglalkozások (bővítés: erizaina, polizia, kazetaria, dendaria, mekanikaria)
+@@ c66
+Valaki más bemutatása (Hau X da, Bera ... da)
+@@ c67
+Mások napirendje és foglalkozása (Bera medikua da, ospitalean lan egiten du)
+@@ c68
+Rendelés a bárban (Kafe bat mesedez, Hartuko dut, Nahi duzu)
+@@ c69
+Árak és mennyiségek (Zenbat balio du? X euro)
+@@ c70
+Jellegzetes bárételek (pintxoa, ogitartekoa, plater konbinatua, razioa)
+@@ c71
+Bolttípusok (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)
+@@ c72
+Mennyiségek és egységek (kilo bat, litro erdi, dozena bat, pakete bat)
+@@ c73
+Bevásárlás: lista, kérés, fizetés (Hartuko dut..., Eman X mesedez)
+@@ c74
+Étterem: típusok (jatetxea, sagardotegia, erretegia) és az étlap részei (lehen platera, bigarrena, postrea)
+@@ c75
+Rendelés az asztalnál (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)
+@@ c76
+A számla és a fizetési módok (Kontua, mesedez; Txartelaz ordain dezaket?)
+@@ c77
+Heti tervezés: naptár, találkozók és elfoglaltságok (Bilera dut, X-rekin geratu)
+@@ c78
+Közeli jövő: -ko/-go partikula + segédige (joango naiz, ikusiko dut)
+@@ c79
+Időpontot jelölő kifejezések (bihar, etzi, datorren astean, asteburuan, datorren urtean)
+@@ c80
+Pontos idő (eta erdiak, eta laurden, gutxi)
+@@ c81
+Napszakok (goizean, eguerdian, arratsaldean, gauean)
+@@ c82
+Napi rutin (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)
+@@ c83
+Szokásos cselekvés: partizipioa + -tzen / -ten (egunero gosaltzen dut)
+@@ c84
+Gyakoriság (egunero, beti, askotan, batzuetan, inoiz ez)
+@@ c85
+Partizipioa: az ige közelmúlthoz használt alakja (jan, edan, joan, etorri)
+@@ c86
+NOR-NORK közelmúlt: partizipioa + dut/duzu/du (jan dut, ikusi dut)
+@@ c87
+NOR közelmúlt: partizipioa + naiz/zara/da (joan naiz, etorri naiz)
+@@ c88
+A közelmúlt időhatározói (gaur, gaur goizean, atzo, atzo arratsaldean)
+@@ c89
+Az A1 szint próbavizsgái: önértékelés az euskaltegi vizsgáinak mintájára

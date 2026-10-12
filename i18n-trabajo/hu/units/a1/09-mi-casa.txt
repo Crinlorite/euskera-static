@@ -1,0 +1,4 @@
+@@ title
+A lakás
+@@ description
+Beszélj a lakásodról: helyiségek, bútorok és házimunka. Mondd el, kivel élsz.

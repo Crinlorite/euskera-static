@@ -1,0 +1,4 @@
+@@ title
+Deskribatu eta iritzia — összehasonlítás és véleménynyilvánítás
+@@ description
+Összehasonlítások (több, kevesebb, ugyanannyi, túl sok, egyre több), személyes vélemény és kötőszavak az érveléshez.

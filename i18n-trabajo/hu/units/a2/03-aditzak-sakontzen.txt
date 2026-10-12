@@ -1,0 +1,4 @@
+@@ title
+Aditzak sakontzen — NOR-NORI-NORK, ahalera és feltételes mód
+@@ description
+Háromvonzatú igék (adok neki valamit, megmutattam neki), a tud/nem tud kifejezése és első pillantás a feltételes módra.
