@@ -1,0 +1,117 @@
+@@ title
+Bidaia kontatzen — разказ за пътуването след връщане
+@@ x0.prompt
+"Iaz Erromara joan ginen eta Koliseoa ikusi genuen" е в…
+@@ x0.explanation
+*Joan ginen* (отидохме) + *ikusi genuen* (видяхме): еднократно минало — времето за разказване на пътувания. *Iaz* = миналата година.
+@@ x0.opt0
+Бъдеще време
+@@ x0.opt1
+Обичайно сегашно
+@@ x0.opt2
+Минало (разказ за пътуване)
+@@ x0.opt3
+Повелително наклонение
+@@ x1.prompt
+Кое изразява какво се случи ПО ВРЕМЕ на полета?
+@@ x1.explanation
+*Hegazkinean lo egin nuen* = спах в самолета (минало). Останалите: бъдеще, навик и мнение в сегашно време.
+@@ x2.prompt
+Изпуснахме влака на връщане = itzulerako trena galdu ___.
+@@ x2.explanation
+NOR-NORK в минало време, ние: **genuen**. Класическата случка от всяко уважаващо себе си пътуване.
+@@ x3.prompt
+Прекарахме много добре = oso ondo pasatu ___.
+@@ x3.explanation
+*Ondo pasatu* = прекарвам добре. В минало време, ние: oso ondo pasatu **genuen**. Изречението, което обобщава всяко хубаво пътуване.
+@@ x4.card0
+пътуването
+@@ x4.card1
+ваканцията
+@@ x4.card2
+миналата година
+@@ x4.card3
+връщането
+@@ x4.card4
+прекарахме много добре
+@@ x4.card5
+снимахме
+@@ x4.card6
+ходихме на много места
+@@ x4.card7
+запознахме се с мили хора
+@@ x4.card8
+загубихме се
+@@ x4.card9
+струваше си
+@@ x4.card10
+сувенирът
+@@ x4.card11
+впечатляващ пейзаж
+@@ x4.card12
+местната кухня
+@@ x4.card13
+следващия път
+@@ x5.pair0
+Къде ходихте?
+@@ x5.pair1
+С кого отиде?
+@@ x5.pair2
+Какво видяхте?
+@@ x5.pair3
+Как мина пътуването?
+@@ x5.pair4
+Страхотно, струваше си
+@@ x5.pair5
+Следващия път — с теб!
+@@ body
+
+Краят на раздела за пътуване: връщането. Защото пътуването не свършва с кацането — свършва, **когато го разкажеш**. Тук впрягаш ЦЯЛОТО минало време от раздел 02 с новия речник от този раздел.
+
+## Въпросите, които ще ти задават
+
+> ***Zer moduz** oporrak?* — Как мина ваканцията?
+>
+> ***Nora joan zineten**?* — Къде ходихте?
+>
+> ***Zenbat egun** egon zineten?* — Колко дни бяхте там?
+>
+> ***Zer ikusi zenuten**?* — Какво видяхте?
+>
+> ***Eguraldi ona** egin zuen?* — Хубаво ли беше времето?
+
+## Разказът: структурата, която работи
+
+**Кога + къде + какво правихте + една случка + присъдата.**
+
+> *Iaz, uztailean, **Siziliara joan ginen** lagun batzuekin. Hamar egun **egon ginen**. Herri txiki batean **lo egin genuen**, itsaso ondoan. Egunero hondartzara **jaisten ginen** eta arratsaldeetan herriak **bisitatzen genituen**. Egun batean **galdu egin ginen** mendian — bi ordu bide okerretik! — baina paisaia **ikusgarria zen**. Bertako janaria **probatu genuen**: goxo-goxoa. **Oso ondo pasatu genuen**; benetan **merezi izan zuen**.*
+
+Обърни внимание на смесването на времената, което вече владееш: *joan ginen* (еднократно) + *jaisten ginen* (навик по време на пътуването) + *zen* (описание).
+
+## Изрази за присъда
+
+| Български | Euskera |
+|---|---|
+| Прекарахме страхотно | *Primeran pasatu genuen* |
+| Струваше си | *Merezi izan zuen* |
+| Със сигурност ще се върнем | *Itzuliko gara, seguru* |
+| Изобщо не ми хареса | *Ez zitzaidan batere gustatu* |
+| Прекалено много хора | *Jende gehiegi* |
+| Следващия път — с теб | *Hurrengoan, zurekin* |
+
+## Случката с бедствието (винаги има успех)
+
+> *Itzuleran, **trena galdu genuen**. Hurrengoa bi ordu geroago **ateratzen zen**, eta geltokian afaldu **behar izan genuen**: makinako sandwich bat. Orain barre egiten dugu, baina momentuan… ez zen batere barregarria!* 😄
+
+## Диалог
+
+> *— Kaixo! Bueltan zaudete? **Zer moduz Sizilian**?*
+>
+> *— Izugarri ondo! Argazki pila bat **atera genituen** — gero **erakutsiko dizkizut**.*
+>
+> *— **Eguraldi ona** izan zenuten?*
+>
+> *— Egun bat izan ezik, bikaina. Eta jendea, **oso jatorra**. Hurrengo urtean **itzuliko gara**.*
+>
+> *— Ba niri bertako **oroigarri** bat zor didazu!* 😄
+

@@ -1,0 +1,118 @@
+@@ title
+Ostatua — хотел, резервация и престой
+@@ x0.prompt
+"Gela bikoitz bat nahi nuke, gosaria barne" иска…
+@@ x0.explanation
+*Gela bikoitza* = двойна стая; *gosaria barne* = със закуска. *Nahi nuke* = бих искал (учтивата форма, която вече познаваш).
+@@ x0.opt0
+Единична стая без закуска
+@@ x0.opt1
+Двойна стая със закуска
+@@ x0.opt2
+Две единични стаи
+@@ x0.opt3
+Маса за двама със закуска
+@@ x1.prompt
+Къде вземаш ключа, когато пристигнеш в хотела?
+@@ x1.explanation
+*Harrera* = рецепцията (от *hartu*, приемам). Останалите: басейн, кухня и асансьор.
+@@ x2.prompt
+Направих резервация за две нощувки = bi gauetarako ___ egin dut.
+@@ x2.explanation
+*Erreserba egin* = правя резервация. *Bi gauetarako* = за две нощувки (падеж за предназначение -rako).
+@@ x3.prompt
+В колко часа трябва да се освободи стаята? = zer ordutan utzi behar da ___?
+@@ x3.explanation
+*Gela* = стаята. *Utzi behar da* = трябва да се освободи — класическото напускане.
+@@ x4.card0
+хотелът
+@@ x4.card1
+селската къща за гости
+@@ x4.card2
+хижата, хостелът
+@@ x4.card3
+стаята
+@@ x4.card4
+двойна стая
+@@ x4.card5
+единична стая
+@@ x4.card6
+резервацията
+@@ x4.card7
+рецепцията
+@@ x4.card8
+ключът
+@@ x4.card9
+със закуска
+@@ x4.card10
+за една нощувка
+@@ x4.card11
+хубава гледка
+@@ x4.card12
+асансьорът
+@@ x4.card13
+леглото
+@@ x5.pair0
+Имам резервация
+@@ x5.pair1
+Името ви, моля?
+@@ x5.pair2
+Ето ви ключа
+@@ x5.pair3
+В колко часа е закуската?
+@@ x5.pair4
+Стаята има хубава гледка
+@@ x5.pair5
+Wi-Fi е безплатен
+@@ body
+
+Вече знаеш как да пристигнеш; сега е ред да **преспиш**. От хотела до селската къща за гости (*landetxea* — много типично за Euskal Herria), този урок обхваща резервацията, настаняването и въпросите по време на престоя.
+
+## Къде да спиш
+
+| Български | Euskera |
+|---|---|
+| Хотелът | *hotela* |
+| Пансионът | *pentsioa* |
+| Селската къща за гости | *landetxea* |
+| Хижата, хостелът | *aterpetxea* |
+| Къмпингът | *kanpina* |
+
+## Резервацията
+
+> *Kaixo, **erreserba bat egin nahi nuke** datorren asteburu**rako**.* — Здравейте, бих искал да направя резервация за следващия уикенд.
+>
+> ***Gela bikoitz bat**, bi gau**etarako**, mesedez.* — Една двойна стая, за две нощувки, моля.
+>
+> ***Gosaria barne** dago?* — Включена ли е закуската?
+>
+> ***Zenbat da gaua**?* — Колко струва нощувката?
+
+Граматическата част на урока е **падежът за предназначение -rako / -etarako** (за): *gau baterako* (за една нощ), *asteburu*rako* (за уикенда). В A1 го видя с *norentzat* (за кого); това е неговият братовчед за времена и неща.
+
+## На рецепцията
+
+> *— Arratsalde on! **Erreserba bat daukat**, Etxeberria izenean.*
+>
+> *— Bai, hemen dago: gela bikoitza, hiru gau. **Pasaportea edo NANa**, mesedez.*
+>
+> *— Hemen duzu. **Zer ordutan da gosaria**?*
+>
+> *— Zortzietatik hamarretara. **Hemen duzu giltza**: 214. gela, bigarren solairuan. **Igogailua** eskuinean dago.*
+>
+> *— Eskerrik asko! A, eta… **wifia badago**?*
+>
+> *— Bai, **doan**. Pasahitza giltzarekin batera daukazu.*
+
+## Молби и въпроси по време на престоя
+
+| Български | Euskera |
+|---|---|
+| В колко часа трябва да се освободи стаята? | *Zer ordutan utzi behar da gela?* |
+| Има ли свободни стаи? | *Gelarik badago libre?* |
+| Стаята има хубава гледка | *Gelak bista ederra du* |
+| Ще ме събудите ли в 7? | *Zazpietan esnatuko nauzu, mesedez?* |
+| Всичко е чудесно, благодаря | *Dena primeran, eskerrik asko* |
+
+> **Бележка:** *landetxeak* (агротуристическите къщи) са бижуто на баския туризъм: селска къща, селска закуска и тишина. Ако резервираш една, ще пристигнеш с *gela bikoitz bat nahi nuke* и ще си тръгнеш с *datorren urtean itzuliko gara*. 😄
+

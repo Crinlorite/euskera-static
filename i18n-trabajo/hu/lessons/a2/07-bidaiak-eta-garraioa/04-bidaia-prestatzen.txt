@@ -1,0 +1,125 @@
+@@ title
+Bidaia prestatzen — az utazás előkészítése (a jövő idő a gyakorlatban)
+@@ x0.prompt
+A "Maleta prestatuko dut gaur gauean" jelentése…
+@@ x0.explanation
+*Prestatuko dut* = jövő idő (prestatu + -ko). Tegnap este *prestatu nuen* lenne; éppen most *prestatzen ari naiz*.
+@@ x0.opt0
+Ma este bepakolom a bőröndöt
+@@ x0.opt1
+Tegnap este bepakoltam a bőröndöt
+@@ x0.opt2
+Éppen pakolom a bőröndöt
+@@ x0.opt3
+Este szoktam bepakolni a bőröndöt
+@@ x1.prompt
+Milyen okmányra van szükséged külföldi utazáshoz?
+@@ x1.explanation
+*Pasaportea* = az útlevél. Az *errolda-agiria* a lakcímigazolás, az *ordutegia* a menetrend, az *errezeta* a recept.
+@@ x2.prompt
+Válaszd ki a jól elrendezett nyaralási tervet:
+@@ x2.explanation
+A már ismert sorrendjelzők (*lehenengo, gero, azkenik*) + jövő idő = a tökéletes terv. A többi lehetetlen igeidőket kever (atzo/bihar rossz igeidővel).
+@@ x3.prompt
+Beteszem a fürdőruhát a bőröndbe = bainujantzia maletan ___ dut.
+@@ x3.explanation
+*Sartu* (betenni) + -ko = sartuko. Az ellentéte: *atera* (kivenni) → aterako.
+@@ x4.prompt
+Szándékomban áll három múzeumot meglátogatni = hiru museo bisitatzeko ___ dut.
+@@ x4.explanation
+A 06. egység ismétlése: *-tzeko asmoa dut* = az a szándékom, hogy. Az utazás a szándékok tiszta terepe.
+@@ x5.card0
+a bőrönd
+@@ x5.card1
+a hátizsák
+@@ x5.card2
+az útlevél
+@@ x5.card3
+az iratok
+@@ x5.card4
+a fürdőruha
+@@ x5.card5
+a naptej
+@@ x5.card6
+a töltő
+@@ x5.card7
+a biztosítás
+@@ x5.card8
+előkészíteni, bepakolni
+@@ x5.card9
+betenni
+@@ x5.card10
+elfelejteni
+@@ x5.card11
+az útiterv
+@@ x5.card12
+az úti cél
+@@ x5.card13
+a költségvetés
+@@ x6.pair0
+Úti célt választani
+@@ x6.pair1
+Jegyeket venni
+@@ x6.pair2
+Szállást foglalni
+@@ x6.pair3
+Bőröndöt pakolni
+@@ x6.pair4
+Ne felejtsd a töltőt!
+@@ x6.pair5
+Költségvetést megszabni
+@@ body
+
+Egy utazást kétszer élvezünk: amikor átéljük, és **amikor megtervezzük**. Ez a lecke a jövő idő tiszta gyakorlati alkalmazása: a terv, a lista és a bőrönd — miközben mindaz, amit a 06. egységben tanultál, igazán munkába áll.
+
+## A terv döntései
+
+> ***Nora joango gara**?* — Hová megyünk?
+>
+> ***Noiz aterako gara** eta **noiz itzuliko gara**?* — Mikor indulunk, és mikor jövünk vissza?
+>
+> ***Non lo egingo dugu**?* — Hol alszunk?
+>
+> ***Zenbat gastatuko dugu**? Aurrekontua!* — Mennyit költünk? A költségvetés!
+
+## A terv sorrendje (kötőszavak + jövő idő)
+
+> ***Lehenengo** helmuga aukeratuko dugu, **gero** txartelak erosiko ditugu, **ondoren** hotela erreserbatuko dugu eta **azkenik** maleta prestatuko dut… bidaia bezperan, beti bezala.* 😄
+
+## A bőrönd
+
+| Magyar | Euskera |
+|---|---|
+| A bőrönd / a hátizsák | *maleta / motxila* |
+| Az iratok | *agiriak* |
+| Az útlevél / a személyi igazolvány | *pasaportea / NANa* |
+| A fürdőruha | *bainujantzia* |
+| A naptej | *eguzkitako krema* |
+| A töltő | *kargagailua* |
+| Az (utas)biztosítás | *(bidaia-)asegurua* |
+| Az esernyő | *aterkia* |
+
+> *Bainujantzia eta eguzkitako krema **sartuko ditut**… eta aterkia ere bai. Euskal Herritik nator: **badaezpada**.* — Beteszem a fürdőruhát és a naptejet… és az esernyőt is. Euskal Herriából jövök: **biztos, ami biztos**.
+
+*Badaezpada* = biztos, ami biztos. Nemzeti túlélőszó.
+
+## Az előkészületek igéi
+
+> *Dena **prestatuko dut** asteazkenean.* — Szerdán mindent előkészítek.
+>
+> *Ez dut ezer **ahaztuko**… espero!* — Semmit sem fogok elfelejteni… remélem!
+>
+> *Kargagailua **hartuko duzu**? Iaz **ahaztu zenuen**.* — Elhozod a töltőt? Tavaly elfelejtetted. (Bumm: múlt + jövő ugyanabban a mondatban, A2-es szint feloldva.)
+
+## Párbeszéd: a hosszú hétvége terve
+
+> *— Aizu, zubian lau egun izango ditugu. **Zer egingo dugu**?*
+>
+> *— **Zergatik ez gara** Zuberoara **joaten**? Landetxe bat **erreserbatuko dugu** eta mendian **ibiliko gara**.*
+>
+> *— **Ondo iruditzen zait**! Nik txartelak eta ibilbideak **begiratuko ditut** gaur gauean.*
+>
+> *— Eta nik maletak **prestatuko ditut**. Aterkia **sartuko dut**, badaezpada.*
+>
+> *— Noski. **Euria egingo du**, seguru.* 😄
+
