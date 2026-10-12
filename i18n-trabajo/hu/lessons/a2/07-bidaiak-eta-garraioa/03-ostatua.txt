@@ -1,0 +1,118 @@
+@@ title
+Ostatua — szálloda, foglalás és tartózkodás
+@@ x0.prompt
+A "Gela bikoitz bat nahi nuke, gosaria barne" ezt kéri…
+@@ x0.explanation
+*Gela bikoitza* = kétágyas szoba; *gosaria barne* = reggelivel. *Nahi nuke* = szeretnék (az udvarias alak, amelyet már ismersz).
+@@ x0.opt0
+Egyágyas szobát reggeli nélkül
+@@ x0.opt1
+Kétágyas szobát reggelivel
+@@ x0.opt2
+Két egyágyas szobát
+@@ x0.opt3
+Egy asztalt két főre reggelivel
+@@ x1.prompt
+Hol veszed át a kulcsot, amikor megérkezel a szállodába?
+@@ x1.explanation
+*Harrera* = a recepció (a *hartu*, fogadni igéből). A többi: medence, konyha és lift.
+@@ x2.prompt
+Foglaltam két éjszakára = bi gauetarako ___ egin dut.
+@@ x2.explanation
+*Erreserba egin* = foglalni. *Bi gauetarako* = két éjszakára (-rako célhatározó).
+@@ x3.prompt
+Hány órakor kell elhagyni a szobát? = zer ordutan utzi behar da ___?
+@@ x3.explanation
+*Gela* = a szoba. *Utzi behar da* = el kell hagyni — a jó öreg kijelentkezés.
+@@ x4.card0
+a szálloda
+@@ x4.card1
+a falusi vendégház
+@@ x4.card2
+az ifjúsági szállás
+@@ x4.card3
+a szoba
+@@ x4.card4
+kétágyas szoba
+@@ x4.card5
+egyágyas szoba
+@@ x4.card6
+a foglalás
+@@ x4.card7
+a recepció
+@@ x4.card8
+a kulcs
+@@ x4.card9
+reggelivel
+@@ x4.card10
+egy éjszakára
+@@ x4.card11
+szép kilátás
+@@ x4.card12
+a lift
+@@ x4.card13
+az ágy
+@@ x5.pair0
+Van foglalásom
+@@ x5.pair1
+A nevét, kérem?
+@@ x5.pair2
+Tessék, a kulcs
+@@ x5.pair3
+Hány órakor van a reggeli?
+@@ x5.pair4
+A szobából szép a kilátás
+@@ x5.pair5
+A wifi ingyenes
+@@ body
+
+Odaérni már tudsz; most **aludni** kell. A szállodától a falusi vendégházig (*landetxea* — nagyon jellemző Euskal Herriára), ez a lecke a foglalást, a bejelentkezést és a tartózkodás alatti kérdéseket fedi le.
+
+## Hol alhatsz
+
+| Magyar | Euskera |
+|---|---|
+| A szálloda | *hotela* |
+| A panzió | *pentsioa* |
+| A falusi vendégház | *landetxea* |
+| Az ifjúsági szállás | *aterpetxea* |
+| A kemping | *kanpina* |
+
+## A foglalás
+
+> *Kaixo, **erreserba bat egin nahi nuke** datorren asteburu**rako**.* — Jó napot, szeretnék foglalni a jövő hétvégére.
+>
+> ***Gela bikoitz bat**, bi gau**etarako**, mesedez.* — Egy kétágyas szobát kérek, két éjszakára.
+>
+> ***Gosaria barne** dago?* — Benne van a reggeli?
+>
+> ***Zenbat da gaua**?* — Mennyibe kerül egy éjszaka?
+
+A lecke nyelvtani eleme a **-rako / -etarako célhatározó** (valamire): *gau baterako* (egy éjszakára), *asteburu*rako* (a hétvégére). Az A1-ben a *norentzat* (kinek a számára) alakkal láttad; ez az időkre és dolgokra vonatkozó unokatestvére.
+
+## A recepción
+
+> *— Arratsalde on! **Erreserba bat daukat**, Etxeberria izenean.*
+>
+> *— Bai, hemen dago: gela bikoitza, hiru gau. **Pasaportea edo NANa**, mesedez.*
+>
+> *— Hemen duzu. **Zer ordutan da gosaria**?*
+>
+> *— Zortzietatik hamarretara. **Hemen duzu giltza**: 214. gela, bigarren solairuan. **Igogailua** eskuinean dago.*
+>
+> *— Eskerrik asko! A, eta… **wifia badago**?*
+>
+> *— Bai, **doan**. Pasahitza giltzarekin batera daukazu.*
+
+## Kérések és kérdések a tartózkodás alatt
+
+| Magyar | Euskera |
+|---|---|
+| Hány órakor kell elhagyni a szobát? | *Zer ordutan utzi behar da gela?* |
+| Van szabad szoba? | *Gelarik badago libre?* |
+| A szobából szép a kilátás | *Gelak bista ederra du* |
+| Felébresztene hétkor? | *Zazpietan esnatuko nauzu, mesedez?* |
+| Minden tökéletes, köszönöm | *Dena primeran, eskerrik asko* |
+
+> **Megjegyzés:** a *landetxeak* (agroturisztikai vendégházak) a baszk turizmus gyöngyszemei: tanya, falusi reggeli és csend. Ha foglalsz egyet, azzal érkezel, hogy *gela bikoitz bat nahi nuke*, és azzal távozol, hogy *datorren urtean itzuliko gara*. 😄
+
