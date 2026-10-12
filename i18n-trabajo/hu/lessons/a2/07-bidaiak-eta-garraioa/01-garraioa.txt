@@ -1,0 +1,118 @@
+@@ title
+Garraioa — közlekedés a nagyvilágban
+@@ x0.prompt
+A "Trena galdu dut" jelentése…
+@@ x0.explanation
+*Galdu* = elveszíteni, lekésni. Minden pályaudvar legszomorúbb mondata: lekéstem a vonatot.
+@@ x0.opt0
+Megvettem a vonatot
+@@ x0.opt1
+Lekéstem a vonatot
+@@ x0.opt2
+Elértem a vonatot
+@@ x0.opt3
+A vonat késik
+@@ x1.prompt
+Hol vársz a repülőre?
+@@ x1.explanation
+*Aireportua* = repülőtér. A *geltokia* a vonathoz/buszhoz való, a *portua* a hajókhoz, az *errepidea* pedig az országút.
+@@ x2.prompt
+Gyalog járok munkába = lanera ___ joaten naiz.
+@@ x2.explanation
+*Oinez* = gyalog. Az *oin* (láb) megkövült eszközhatározós alakja.
+@@ x3.prompt
+Hol van a vasútállomás? = non dago tren-___?
+@@ x3.explanation
+*Geltokia* = állomás/megálló (a *gelditu*, megállni igéből). Tren-geltokia, autobus-geltokia.
+@@ x4.card0
+a vonat
+@@ x4.card1
+a busz
+@@ x4.card2
+a repülő
+@@ x4.card3
+a hajó
+@@ x4.card4
+a bicikli
+@@ x4.card5
+gyalog
+@@ x4.card6
+az állomás / megálló
+@@ x4.card7
+a repülőtér
+@@ x4.card8
+a kikötő
+@@ x4.card9
+az utas
+@@ x4.card10
+a sofőr
+@@ x4.card11
+vonatra szállni
+@@ x4.card12
+lekésni a vonatot
+@@ x4.card13
+az irány
+@@ x5.pair0
+vonattal
+@@ x5.pair1
+busszal
+@@ x5.pair2
+repülővel
+@@ x5.pair3
+autóval
+@@ x5.pair4
+gyalog
+@@ x5.pair5
+biciklivel
+@@ body
+
+Kezdődik az utazós egység. Első állomás: **a közlekedési eszközök** és az igék a használatukhoz. Az A1-ből már ismert *-z* eszközhatározóval a "vonattal" vagy a "biciklivel" csak egy toldalék.
+
+## Az eszközök
+
+| Magyar | Euskera | "…-val/-vel" (eszközhatározó) |
+|---|---|---|
+| A vonat | *trena* | *trenez* |
+| A busz | *autobusa* | *autobusez* |
+| A repülő | *hegazkina* | *hegazkinez* |
+| A hajó | *itsasontzia* | *itsasontziz* |
+| Az autó | *kotxea / autoa* | *kotxez / autoz* |
+| A bicikli | *bizikleta* | *bizikletaz* |
+| Gyalog | — | *oinez* |
+
+## A helyek
+
+| Magyar | Euskera |
+|---|---|
+| Az állomás (vonat/busz) | *(tren-/autobus-)geltokia* |
+| A repülőtér | *aireportua* |
+| A kikötő | *portua* |
+| A taxiállomás | *taxi-geltokia* |
+| Az országút | *errepidea* |
+
+## Az utazás igéi
+
+> *Trena **hartu** dut.* — Felszálltam a vonatra.
+>
+> *Autobusa **galdu** dugu!* — Lekéstük a buszt!
+>
+> *Hegazkina berandu **atera da**.* — A repülő késve indult.
+>
+> *Trena Gasteizen **gelditzen da**.* — A vonat megáll Gasteizben.
+>
+> *Bidaiariak trenera **igo dira**.* — Az utasok felszálltak a vonatra.
+>
+> *Donostian **jaitsiko gara**.* — Donostiában szállunk le.
+
+*Igo* (felszállni) és *jaitsi* (leszállni) a kulcspár: *trenera igo* (felszállni a vonatra), *trenetik jaitsi* (leszállni a vonatról). Figyeld meg az eseteket: **-ra**, ha valamire szállsz fel, **-tik**, ha valamiről szállsz le.
+
+## Hogyan mész?
+
+> *— **Nola joaten zara** lanera?*
+>
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
+>
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
+
+> **Megjegyzés:** Euskal Herriában a jó öreg elővárosi vonat a *topoa* (a "vakond", Donostia és Hendaia között, mert a föld alatt megy), az *Euskotren* pedig a partvidéket köti össze. Ha azt hallod, *«topoa hartuko dugu»*, már tudod: a kis zöld vonat.
+
