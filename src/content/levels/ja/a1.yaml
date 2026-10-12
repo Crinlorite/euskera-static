@@ -6,24 +6,13 @@ status: active
 beta: false
 curriculum:
 - id: greetings
-  title: 挨拶と別れの言葉 (kaixo
-  hepa: null
-  agur: null
-  gero arte): null
+  title: 挨拶と別れの言葉 (kaixo, hepa, agur, gero arte)
 - id: courtesy
-  title: 丁寧な表現と教室で使う言葉 (mesedez
-  eskerrik asko: null
-  ez horregatik: null
-  errepikatu): null
+  title: 丁寧な表現と教室で使う言葉 (mesedez, eskerrik asko, ez horregatik, errepikatu)
 - id: introductions
   title: 自己紹介 (Ni X naiz, Nire izena X da, Zein da zure izena?)
 - id: personal-data
-  title: 個人情報 (izena
-  abizena: null
-  adina: null
-  jaioterria: null
-  telefonoa: null
-  emaila): null
+  title: 個人情報 (izena, abizena, adina, jaioterria, telefonoa, emaila)
 - id: ages
   title: '年齢: ... urte ditut/ditu/dituzte'
 - id: izan-nor
@@ -43,41 +32,17 @@ curriculum:
 - id: gustatzen-zait
   title: '"Gustatzen zait/zaio" — 好みを表す動詞 (NOR-NORI の導入)'
 - id: personal-pronouns
-  title: 人称代名詞 (ni
-  hi: null
-  zu: null
-  hura: null
-  gu: null
-  zuek: null
-  haiek): null
+  title: 人称代名詞 (ni, hi, zu, hura, gu, zuek, haiek)
 - id: demonstratives
   title: 指示詞 hau/hori/hura とその複数形 hauek/horiek/haiek
 - id: possessives
-  title: 所有詞 (nire
-  hire: null
-  zure: null
-  haren/bere: null
-  gure: null
-  zuen: null
-  haien/beren): null
+  title: 所有詞 (nire, hire, zure, haren/bere, gure, zuen, haien/beren)
 - id: family-types
-  title: 家族の形態 (guraso bakarrekoa
-  bikote mistoa: null
-  ezkonduta): null
+  title: 家族の形態 (guraso bakarrekoa, bikote mistoa, ezkonduta)
 - id: family-basics
-  title: 家族 (aita
-  ama: null
-  seme: null
-  alaba: null
-  anaia: null
-  arreba/ahizpa): null
+  title: 家族 (aita, ama, seme, alaba, anaia, arreba/ahizpa)
 - id: family-extended
-  title: 親戚 (aitona
-  amona: null
-  osaba: null
-  izeba: null
-  lehengusu: null
-  iloba): null
+  title: 親戚 (aitona, amona, osaba, izeba, lehengusu, iloba)
 - id: origin-koa
   title: '出身: Nongoa zara? → X-koa naiz'
 - id: residence-an
@@ -111,38 +76,23 @@ curriculum:
 - id: numbers-1-100
   title: 数字 1から100まで (20進法)
 - id: colors
-  title: 色 (zuria
-  beltza: null
-  gorria: null
-  urdina: null
-  horia: null
-  berdea): null
+  title: 色 (zuria, beltza, gorria, urdina, horia, berdea)
 - id: days-of-week
   title: 曜日 (astelehena → igandea)
 - id: months
   title: 月 (urtarrila → abendua)
 - id: seasons
-  title: 季節 (udaberria
-  uda: null
-  udazkena: null
-  negua): null
+  title: 季節 (udaberria, uda, udazkena, negua)
 - id: time-basics
   title: 時刻の言い方 (Hamabiak dira, sei eta erdiak)
 - id: time-expressions
   title: '時: lehen/orain/gero, atzo/gaur/bihar/etzi'
 - id: body-parts
-  title: 体の部位 (burua
-  eskua: null
-  hanka: null
-  sabela): null
+  title: 体の部位 (burua, eskua, hanka, sabela)
 - id: health-basics
   title: 基本的な健康状態 (... mina daukat, sukarra, eztula)
 - id: clothes
-  title: 基本的な衣類 (alkandora
-  galtza: null
-  soineko: null
-  jertse: null
-  zapatak): null
+  title: 基本的な衣類 (alkandora, galtza, soineko, jertse, zapatak)
 - id: places-town
   title: 街の場所 (taberna, merkatua, hondartza, eliza, banketxea)
 - id: directions
