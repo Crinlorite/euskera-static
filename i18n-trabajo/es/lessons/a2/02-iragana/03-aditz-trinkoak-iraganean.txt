@@ -46,12 +46,18 @@ andaba (yo)
 andaba (él/ella)
 @@ x3.card12
 andaban
+@@ x4.pair0
+iba yo
 @@ x4.pair1
 venía yo
+@@ x4.pair2
+andaba yo
 @@ x4.pair3
 tenía yo
 @@ x4.pair4
 sabía yo
+@@ x4.pair5
+estaba yo
 @@ body
 
 Los **verbos sintéticos** (*aditz trinkoak*) son los pocos verbos vascos que se conjugan **sin auxiliar**, en una sola palabra. Ya conoces sus formas en presente: *noa, nator, nabil, daukat, dakit, nago*. En pasado tienen formas paralelas que conviene reconocer y, las más frecuentes, manejar.

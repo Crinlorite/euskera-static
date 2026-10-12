@@ -1,11 +1,19 @@
 @@ title
 Familia básica
+@@ x0.pair0
+padre
+@@ x0.pair1
+madre
 @@ x0.pair2
 hermano (de un hombre o de una mujer)
 @@ x0.pair3
 hermana (la dice un hombre)
 @@ x0.pair4
 hermana (la dice una mujer)
+@@ x0.pair5
+hijo
+@@ x0.pair6
+hija
 @@ x1.prompt
 Maialen tiene una hermana. ¿Cómo se llama "hermana" desde el punto de vista de Maialen?
 @@ x1.explanation

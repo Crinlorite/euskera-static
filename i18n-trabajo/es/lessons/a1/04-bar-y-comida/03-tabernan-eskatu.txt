@@ -50,6 +50,8 @@ está bueno
 está rico/sabroso
 @@ x5.pair0
 por favor
+@@ x5.pair1
+muchas gracias
 @@ x5.pair2
 de nada
 @@ x5.pair3
@@ -60,6 +62,8 @@ Tomaré
 ¡Oiga!
 @@ x5.pair6
 Para mí
+@@ x5.pair7
+bueno
 @@ body
 
 Pedir en el bar es una de las cosas más útiles que vas a saber decir en euskera. La fórmula básica es muy directa: nombre de lo que quieres + **bat** (uno) + **mesedez** (por favor). Y ya está.

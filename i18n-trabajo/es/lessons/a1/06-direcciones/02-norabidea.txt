@@ -4,6 +4,10 @@ Direcciones en la calle
 gira a la izquierda
 @@ x0.pair1
 gira a la derecha
+@@ x0.pair2
+sigue recto / hacia delante
+@@ x0.pair3
+cruza
 @@ x0.pair4
 sube las escaleras
 @@ x0.pair5

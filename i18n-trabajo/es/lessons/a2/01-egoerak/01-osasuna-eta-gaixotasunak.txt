@@ -74,6 +74,8 @@ el hospital
 el centro de salud
 @@ x4.pair2
 médico/a
+@@ x4.pair3
+enfermero/a
 @@ x4.pair4
 farmacéutico/a
 @@ x4.pair5

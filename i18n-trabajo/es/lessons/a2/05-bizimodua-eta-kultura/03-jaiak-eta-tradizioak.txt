@@ -1,7 +1,5 @@
 @@ title
 Jaiak eta tradizioak — fiestas y comparaciones culturales
-@@ x0.prompt
-"San Juan sua" da…
 @@ x0.explanation
 *Sua* = el fuego, la hoguera. *San Juan sua* es la hoguera tradicional del 23 de junio.
 @@ x0.opt0
@@ -68,6 +66,8 @@ cambiar
 carrera por el euskera
 @@ x4.pair3
 Semana Grande de Bilbao
+@@ x4.pair4
+carnavales
 @@ x4.pair5
 cánticos por las casas
 @@ body

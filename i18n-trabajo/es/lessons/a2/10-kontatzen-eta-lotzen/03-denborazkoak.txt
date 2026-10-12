@@ -64,6 +64,14 @@ desde entonces
 antes de desayunar
 @@ x6.pair1
 después de desayunar
+@@ x6.pair2
+cuando desayuno
+@@ x6.pair3
+mientras desayuno
+@@ x6.pair4
+en cuanto desayuno
+@@ x6.pair5
+sin desayunar
 @@ body
 
 Tus frases ya saben QUÉ pasó; esta lección les enseña a decir **CUÁNDO** con precisión de relojero: *cuando llegué*, *antes de salir*, *después de comer*, *mientras dormías*. Tres piezas y las combinaciones salen solas.

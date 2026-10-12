@@ -50,6 +50,12 @@ menos
 más... que
 @@ x4.pair1
 más (cantidad)
+@@ x4.pair2
+menos
+@@ x4.pair3
+mejor
+@@ x4.pair4
+peor
 @@ x4.pair5
 más rápido
 @@ body

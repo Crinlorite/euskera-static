@@ -1,7 +1,17 @@
 @@ title
 Las habitaciones de la casa
+@@ x0.pair0
+cocina
+@@ x0.pair1
+dormitorio
+@@ x0.pair2
+baño
 @@ x0.pair3
 salón
+@@ x0.pair4
+entrada
+@@ x0.pair5
+pasillo
 @@ x1.prompt
 Quieres ducharte. ¿A qué habitación vas?
 @@ x1.explanation

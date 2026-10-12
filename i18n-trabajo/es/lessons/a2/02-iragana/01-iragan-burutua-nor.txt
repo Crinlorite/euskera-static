@@ -52,10 +52,14 @@ la semana pasada
 hace dos años
 @@ x4.card13
 entonces
+@@ x5.pair0
+Ayer estuve/estaba en casa
 @@ x5.pair1
 La semana pasada en San Sebastián
 @@ x5.pair2
 Éramos estudiantes
+@@ x5.pair3
+Anoche estaba contento
 @@ x5.pair4
 ¿Por qué estabais allí?
 @@ x5.pair5

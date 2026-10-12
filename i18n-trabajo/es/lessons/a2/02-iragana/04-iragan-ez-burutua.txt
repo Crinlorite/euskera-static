@@ -54,12 +54,18 @@ de pequeño
 en aquella época
 @@ x4.card10
 antes
+@@ x5.pair0
+Fui (puntual)
 @@ x5.pair1
 Iba (hábito)
 @@ x5.pair2
 (no es válido)
+@@ x5.pair3
+Estaba yendo
 @@ x5.pair4
 Vivía en Bilbao
+@@ x5.pair5
+Fui a Bilbao ayer
 @@ body
 
 El **imperfecto** del euskera (*iragan ez burutua*) corresponde, a grandes rasgos, al "comía / vivía / iba / trabajaba" del castellano. Sirve para contar:

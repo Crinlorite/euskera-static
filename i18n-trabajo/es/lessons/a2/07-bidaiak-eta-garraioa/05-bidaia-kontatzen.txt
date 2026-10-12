@@ -16,14 +16,6 @@ Imperativo
 ¿Cuál expresa lo que pasó DURANTE el vuelo?
 @@ x1.explanation
 *Hegazkinean lo egin nuen* = dormí en el avión (pasado). Las otras: futuro, hábito y una opinión en presente.
-@@ x1.opt0
-Hegazkina hartuko dugu
-@@ x1.opt1
-Hegazkinean lo egin nuen
-@@ x1.opt2
-Hegazkinez joaten naiz beti
-@@ x1.opt3
-Hegazkina garestia da
 @@ x2.prompt
 Perdimos el tren de vuelta = itzulerako trena galdu ___.
 @@ x2.explanation

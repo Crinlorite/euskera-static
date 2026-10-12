@@ -60,6 +60,8 @@ Creció en París
 Estudió química
 @@ x5.pair3
 Se casaron en 1984
+@@ x5.pair4
+Tuvieron tres hijos
 @@ x5.pair5
 Se jubiló en 2020
 @@ body

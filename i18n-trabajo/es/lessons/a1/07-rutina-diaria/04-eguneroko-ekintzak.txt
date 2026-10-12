@@ -32,6 +32,24 @@ Verbos acabados en consonante o en -tu/-du añaden "-tzen" para el aspecto habit
 Jan (comer) → forma habitual ___ (con la terminación del aspecto habitual).
 @@ x3.explanation
 Verbos acabados en -n cambian: ja**n** → ja**ten** (no "janten"). La regla: -n final → "-ten".
+@@ x4.pair0
+despertarse
+@@ x4.pair1
+levantarse
+@@ x4.pair2
+ducharse
+@@ x4.pair3
+desayunar
+@@ x4.pair4
+comer (almorzar)
+@@ x4.pair5
+cenar
+@@ x4.pair6
+trabajar
+@@ x4.pair7
+dormir
+@@ x4.pair8
+acostarse
 @@ x5.card0
 despertarse / me despierto
 @@ x5.card1

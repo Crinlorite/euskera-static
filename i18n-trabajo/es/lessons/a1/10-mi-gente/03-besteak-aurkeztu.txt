@@ -20,8 +20,16 @@ Eres mi compañero
 Él/ella es mi compañero/a de trabajo
 @@ x2.opt3
 Tenemos un compañero
+@@ x3.pair0
+este/a (cerca)
+@@ x3.pair1
+ese/a (a media distancia)
+@@ x3.pair2
+aquel/aquella
 @@ x3.pair3
 él/ella
+@@ x3.pair4
+ellos/ellas
 @@ x3.pair5
 ¿Quién es este/a?
 @@ x4.card0

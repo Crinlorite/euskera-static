@@ -1,5 +1,19 @@
 @@ title
 Verbos de movimiento (joan, etorri, ibili)
+@@ x0.pair0
+ir
+@@ x0.pair1
+venir
+@@ x0.pair2
+andar / moverse
+@@ x0.pair3
+entrar
+@@ x0.pair4
+salir
+@@ x0.pair5
+subir
+@@ x0.pair6
+bajar
 @@ x1.prompt
 Yo voy = Ni ___.
 @@ x1.explanation

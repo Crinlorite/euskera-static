@@ -52,6 +52,8 @@ dime
 tranquilo/a (cálmate)
 @@ x4.pair0
 Ven aquí
+@@ x4.pair1
+Toma esto
 @@ x4.pair2
 Siéntate aquí
 @@ x4.pair3

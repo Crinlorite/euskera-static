@@ -32,6 +32,24 @@ Las dos significan lo mismo
 Pasado mañana = ___ (rellena la palabra).
 @@ x3.explanation
 "Etzi" = pasado mañana. La cadena temporal: atzo (ayer) → gaur (hoy) → bihar (mañana) → etzi (pasado mañana).
+@@ x4.pair0
+hoy
+@@ x4.pair1
+ayer
+@@ x4.pair2
+mañana
+@@ x4.pair3
+pasado mañana
+@@ x4.pair4
+esta mañana
+@@ x4.pair5
+esta tarde
+@@ x4.pair6
+anoche
+@@ x4.pair7
+ahora
+@@ x4.pair8
+antes
 @@ x5.card0
 hoy
 @@ x5.card1

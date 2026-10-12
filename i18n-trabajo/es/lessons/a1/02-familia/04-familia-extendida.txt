@@ -4,6 +4,12 @@ Familia extendida
 tío
 @@ x0.pair1
 tía
+@@ x0.pair2
+primo
+@@ x0.pair3
+prima
+@@ x0.pair4
+sobrino/a
 @@ x1.prompt
 "Lehengusu" es...
 @@ x2.card0
