@@ -3,13 +3,13 @@ A1 Maila
 @@ description
 Nivel inicial. Comprensión y producción básica en situaciones cotidianas.
 @@ c0
-Saludos y despedidas (kaixo
+Saludos y despedidas (kaixo, hepa, agur, gero arte)
 @@ c1
-Cortesía y aula (mesedez
+Cortesía y aula (mesedez, eskerrik asko, ez horregatik, errepikatu)
 @@ c2
 Presentaciones (Ni X naiz, Nire izena X da, Zein da zure izena?)
 @@ c3
-Datos personales (izena
+Datos personales (izena, abizena, adina, jaioterria, telefonoa, emaila)
 @@ c4
 Edad: ... urte ditut/ditu/dituzte
 @@ c5
@@ -29,17 +29,17 @@ Partitivo -rik en negación con objeto indefinido
 @@ c12
 "Gustatzen zait/zaio" — verbo de gusto (introducción NOR-NORI)
 @@ c13
-Pronombres personales (ni
+Pronombres personales (ni, hi, zu, hura, gu, zuek, haiek)
 @@ c14
 Demostrativos hau/hori/hura y plurales hauek/horiek/haiek
 @@ c15
-Posesivos (nire
+Posesivos (nire, hire, zure, haren/bere, gure, zuen, haien/beren)
 @@ c16
-Tipos de familia (guraso bakarrekoa
+Tipos de familia (guraso bakarrekoa, bikote mistoa, ezkonduta)
 @@ c17
-Familia (aita
+Familia (aita, ama, seme, alaba, anaia, arreba/ahizpa)
 @@ c18
-Familia extendida (aitona
+Familia extendida (aitona, amona, osaba, izeba, lehengusu, iloba)
 @@ c19
 Procedencia: Nongoa zara? → X-koa naiz
 @@ c20
@@ -73,23 +73,23 @@ Números del 1 al 20
 @@ c34
 Números del 1 al 100 (sistema vigesimal)
 @@ c35
-Colores (zuria
+Colores (zuria, beltza, gorria, urdina, horia, berdea)
 @@ c36
 Días de la semana (astelehena → igandea)
 @@ c37
 Meses del año (urtarrila → abendua)
 @@ c38
-Estaciones (udaberria
+Estaciones (udaberria, uda, udazkena, negua)
 @@ c39
 Decir la hora (Hamabiak dira, sei eta erdiak)
 @@ c40
 Tiempo: lehen/orain/gero, atzo/gaur/bihar/etzi
 @@ c41
-Partes del cuerpo (burua
+Partes del cuerpo (burua, eskua, hanka, sabela)
 @@ c42
 Salud básica (... mina daukat, sukarra, eztula)
 @@ c43
-Ropa básica (alkandora
+Ropa básica (alkandora, galtza, soineko, jertse, zapatak)
 @@ c44
 Lugares del pueblo (taberna, merkatua, hondartza, eliza, banketxea)
 @@ c45

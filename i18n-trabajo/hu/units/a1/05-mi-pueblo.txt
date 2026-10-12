@@ -1,0 +1,4 @@
+@@ title
+A település és a helyek
+@@ description
+Helyek a településen, elhelyezkedés a NON esettel, térbeli helyzetek és a létezés kifejezése (ba al dago…?).
