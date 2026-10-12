@@ -16,6 +16,14 @@ Cita médica
 "Soldata" significa…
 @@ x1.explanation
 *Soldata* = sueldo. *Lansari* es sinónimo formal.
+@@ x1.opt0
+Trabajo
+@@ x1.opt1
+Sueldo
+@@ x1.opt2
+Jefe
+@@ x1.opt3
+Empleado
 @@ x2.prompt
 Trabajo a media jornada = ___ erdiko lana daukat.
 @@ x2.explanation

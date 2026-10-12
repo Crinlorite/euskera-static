@@ -8,6 +8,10 @@ Para "primero", "luego", "finalmente" en una narración, ¿qué orden es el corr
 Para hablar de la **escena** de fondo (cómo era el día, dónde estaban) en una historia, ¿qué pasado uso?
 @@ x1.explanation
 La escena, la descripción y los hábitos van en imperfecto. Las acciones puntuales que hacen avanzar la historia van en burutua.
+@@ x1.opt1
+Presente
+@@ x1.opt2
+Pasado reciente (joan naiz)
 @@ x2.prompt
 Hace un mes fui a Donosti = Duela hilabete Donostira joan ___ .
 @@ x2.explanation

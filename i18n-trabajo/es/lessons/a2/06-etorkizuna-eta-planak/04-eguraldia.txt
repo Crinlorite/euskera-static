@@ -16,6 +16,14 @@ Ha dejado de llover
 La previsión dice: "Bihar eguzkia aterako da". ¿Qué te espera mañana?
 @@ x1.explanation
 *Eguzkia atera* = salir el sol; en futuro, *aterako da* — mañana hará sol.
+@@ x1.opt0
+Lluvia
+@@ x1.opt1
+Viento fuerte
+@@ x1.opt2
+Sol
+@@ x1.opt3
+Niebla
 @@ x2.prompt
 ¿Cómo preguntas la temperatura?
 @@ x2.explanation

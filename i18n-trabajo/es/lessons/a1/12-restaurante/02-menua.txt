@@ -4,10 +4,26 @@ El menú (menua eta platerak)
 "Lehen platera" significa…
 @@ x0.explanation
 *Lehen platera* — primer plato. *Lehen* significa "primero".
+@@ x0.opt0
+Postre
+@@ x0.opt1
+Primer plato
+@@ x0.opt2
+Segundo plato
+@@ x0.opt3
+Bebida
 @@ x1.prompt
 "Postrea" en castellano es…
 @@ x1.explanation
 *Postrea* — postre. La traducción es directa.
+@@ x1.opt0
+Bebida
+@@ x1.opt1
+Aperitivo
+@@ x1.opt2
+Postre
+@@ x1.opt3
+Plato principal
 @@ x2.prompt
 "Menú del día" = Eguneko ___
 @@ x2.explanation

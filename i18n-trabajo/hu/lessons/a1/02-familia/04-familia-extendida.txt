@@ -63,3 +63,11 @@ A szülőkön, testvéreken és gyerekeken túl a család nagybácsikkal, unokat
 
 > A házassági rokonság szavai gyakran meglévő szavak összetételével jönnek létre (*aita-* + *ginarreba*). A belső logikát nem kell megjegyezned; használat közben rögzülnek.
 
+@@ x1.opt0
+unokatestvér
+@@ x1.opt1
+fiútestvér
+@@ x1.opt2
+nagyapa
+@@ x1.opt3
+após

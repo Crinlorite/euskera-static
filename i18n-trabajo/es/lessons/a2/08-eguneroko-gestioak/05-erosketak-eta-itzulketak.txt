@@ -4,6 +4,14 @@ Erosketak eta itzulketak — cambios y devoluciones
 "Handiegia da" significa que la prenda es…
 @@ x0.explanation
 El *-egi* de la unidad 04 (gehiegi/gutxiegi) aplicado a la talla: handi**egi**a = demasiado grande; txiki**egi**a = demasiado pequeña.
+@@ x0.opt0
+Demasiado cara
+@@ x0.opt1
+Demasiado grande
+@@ x0.opt2
+Muy bonita
+@@ x0.opt3
+Demasiado pequeña
 @@ x1.prompt
 Quieres devolver algo y recuperar el dinero. Dices…
 @@ x1.explanation

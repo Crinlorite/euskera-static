@@ -4,6 +4,14 @@ Pintxoa, ogitartekoa eta plater konbinatua
 "Ogitarteko" significa…
 @@ x0.explanation
 *ogitartekoa* viene de *ogi* (pan) + *arte* (entre): "lo de entre dos panes" — el bocadillo.
+@@ x0.opt0
+pintxo
+@@ x0.opt1
+bocadillo
+@@ x0.opt2
+plato combinado
+@@ x0.opt3
+postre
 @@ x1.prompt
 Quieres un pincho de tortilla. ¿Cómo lo pides?
 @@ x1.explanation
