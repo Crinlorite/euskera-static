@@ -1,0 +1,75 @@
+@@ title
+Alapvető családi szavak
+@@ x0.pair0
+apa
+@@ x0.pair1
+anya
+@@ x0.pair2
+fiútestvér (férfié vagy nőé)
+@@ x0.pair3
+lánytestvér (férfi mondja)
+@@ x0.pair4
+lánytestvér (nő mondja)
+@@ x0.pair5
+fia (valakinek)
+@@ x0.pair6
+lánya (valakinek)
+@@ x1.prompt
+Maialennek van egy lánytestvére. Hogy mondják a "lánytestvér" szót Maialen szemszögéből?
+@@ x1.explanation
+Baszkul egy nő "ahizpa"-nak hívja a lánytestvérét, egy férfi viszont "arreba"-nak.
+@@ x2.card0
+apa
+@@ x2.card1
+anya
+@@ x2.card2
+fiútestvér
+@@ x2.card3
+lánytestvér (férfié)
+@@ x2.card4
+lánytestvér (nőé)
+@@ x2.card5
+fia (valakinek)
+@@ x2.card6
+lánya (valakinek)
+@@ x2.card7
+a szülők
+@@ x2.card8
+fiú- és lánytestvérek
+@@ body
+
+A baszk családi szókincsnek van egy nagyon érdekes sajátossága: **a "lánytestvér" szó attól függ, ki beszél**.
+
+## Alapszókincs
+
+| Euskera | Magyar |
+|---|---|
+| *aita* | apa |
+| *ama* | anya |
+| *gurasoak* | a szülők |
+| *seme* | fia (valakinek) |
+| *alaba* | lánya (valakinek) |
+| *seme-alabak* | fiai és lányai, gyerekei |
+
+## A "testvér" csavarja
+
+- **anaia** — fiútestvér (férfiak és nők is így mondják)
+- **arreba** — lánytestvér, **ha férfi mondja**
+- **ahizpa** — lánytestvér, **ha nő mondja**
+
+Tehát:
+
+> **Egoitz** azt mondja: *"Nire arreba Maialen da."* (A lánytestvérem Maialen.)
+>
+> **Maialen** azt mondja: *"Nire ahizpa Naia da."* (A lánytestvérem Naia.)
+>
+> Egoitz és Maialen is azt mondja: *"Nire anaia Hodei da."* (A fiútestvérem Hodei.)
+
+Ez a baszk nyelv egy nagyon régi megkülönböztetését tükrözi. A magyarban nincs közvetlen megfelelője (nálunk a báty/öcs és a nővér/húg az életkort jelöli, nem a beszélő nemét), és használat közben tanulható meg. Ha eleinte tévedsz, semmi baj — mindenki meg fog érteni.
+
+## Hasznos többes számok
+
+- **anai-arrebak** — fiú- és lánytestvérek (általános alak, megkülönböztetés nélkül)
+- **gurasoak** — a szülők
+- **seme-alabak** — fiai és lányai, gyerekei
+
