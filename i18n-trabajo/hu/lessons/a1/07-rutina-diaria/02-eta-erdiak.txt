@@ -1,0 +1,111 @@
+@@ title
+Fél, negyed és "múlva" (eta erdiak, eta laurden, gutxi)
+@@ x0.prompt
+Fél hat van (5:30). Hogyan mondod baszkul?
+@@ x0.explanation
+A "fél"-hez az "eta erdiak" kifejezést használjuk (szó szerint "és felek", szintén többes szám). A szám "-ak" nélkül áll az "eta erdiak" előtt: "bost eta erdiak".
+@@ x1.prompt
+Negyed négy van (3:15). Hogyan mondod?
+@@ x1.explanation
+Az "Eta laurden" jelentése "és negyed"; az óra többes számban áll ("hirurak"): *Hirurak eta laurden dira*.
+@@ x2.prompt
+Háromnegyed kilenc van (8:45). Hogyan mondod?
+@@ x2.explanation
+Baszkul a "mínusz, híján" jelentésű szó a "gutxi", és hátul áll. Szó szerint: "a kilencek negyed híján".
+@@ x3.prompt
+Hét óra öt perc van = Zazpiak eta ___ dira.
+@@ x3.explanation
+Az eltelt perceket "eta + szám" formában mondjuk. Öt = bost.
+@@ x4.prompt
+Tíz perc múlva négy van (3:50) = Laurak hamar ___ dira.
+@@ x4.explanation
+A "Gutxi" jelentése "híján, mínusz" az időkifejezésekben.
+@@ x5.card0
+és fél (3:30 = hiru eta erdiak)
+@@ x5.card1
+és negyed (3:15 = hirurak eta laurden)
+@@ x5.card2
+negyed híján (2:45 = hirurak laurden gutxi)
+@@ x5.card3
+híján, mínusz (időkifejezésekben)
+@@ x5.card4
+Fél hat van
+@@ x5.card5
+Negyed négy van
+@@ x5.card6
+Háromnegyed kilenc van
+@@ x5.card7
+Tíz óra tíz perc van
+@@ x5.card8
+Tíz perc múlva nyolc van
+@@ x5.card9
+Fél hét van
+@@ body
+
+A percekre baszkul három szerkezet fedi le szinte az összes esetet: **eta erdiak** (és fél), **eta laurden** (és negyed) és **gutxi** (híján, mínusz). A trükk az, hogy tudd, mi hová kerül.
+
+## "És fél" — a különleges eset
+
+A többitől eltérően az "és fél" esetén az óra is többes számba kerül — és a "fél" szó is:
+
+| Idő | Euskera |
+|---|---|
+| 1:30 | **Ordu bat eta erdiak dira** |
+| 2:30 | **Ordu bi eta erdiak dira** |
+| 3:30 | **Hiru eta erdiak dira** |
+| 4:30 | **Lau eta erdiak dira** |
+| 5:30 | **Bost eta erdiak dira** |
+| 7:30 | **Zazpi eta erdiak dira** |
+
+> Figyeld meg: az *eta erdiak* előtt a szám **-ak nélkül** áll (*bost*, nem *bostak*), mert a többes számot már az *erdiak* hordozza. Vigyázz: baszkul a "fél" az **eltelt** órához adódik (*bost eta erdiak* = "öt és fél" = fél hat), nem úgy, mint a magyar "fél hat".
+
+## "És negyed" és az eltelt percek
+
+Ha az egész óra után már eltelt néhány perc, a **ÓRA-ak eta PERCEK** formulát használod:
+
+| Idő | Euskera |
+|---|---|
+| 3:05 | **Hirurak eta bost dira** |
+| 4:10 | **Laurak eta hamar dira** |
+| 5:15 | **Bostak eta laurden dira** |
+| 6:20 | **Seiak eta hogei dira** |
+| 7:25 | **Zazpiak eta hogeita bost dira** |
+
+A **Laurden** jelentése "negyed", így az **eta laurden** = "és negyed" (5:15 = "öt és negyed").
+
+## "Híján" — a gutxi hátul áll
+
+A fél órától kezdve a következő egész órához viszonyítunk a **gutxi** ("híján") szóval. A sorrend: **ÓRA-ak + PERCEK + gutxi**.
+
+| Idő | Euskera |
+|---|---|
+| 6:35 | **Zazpiak hogeita bost gutxi dira** |
+| 7:40 | **Zortziak hogei gutxi dira** |
+| 8:45 | **Bederatziak laurden gutxi dira** |
+| 9:50 | **Hamarrak hamar gutxi dira** |
+| 10:55 | **Hamaikak bost gutxi dira** |
+
+> A legfurcsább talán az, hogy a **gutxi** a szám **után** áll, nem előtte. A *Bederatziak laurden gutxi* szó szerint "a kilencek negyed híján" (= háromnegyed kilenc).
+
+## Összefoglaló táblázat
+
+| Fogalom | Kulcsszó | Helye |
+|---|---|---|
+| és fél | *eta erdiak* | az óra után; a szám -ak nélkül áll |
+| és negyed | *eta laurden* | a -ak végű óra után |
+| és X perc | *eta + szám* | a -ak végű óra után |
+| negyed híján | *laurden gutxi* | a következő -ak végű óra után |
+| X perc híján | *szám + gutxi* | a következő -ak végű óra után |
+
+## Beszélgetési példa
+
+> *— Zer ordu da?*
+>
+> *— **Zazpiak eta laurden dira.*** (Negyed nyolc van.)
+>
+> *— Eta orain?*
+>
+> *— **Zortziak laurden gutxi dira.*** (Háromnegyed nyolc van.)
+
+> **Kulturális megjegyzés:** sok baszk faluban a templom harangjai még mindig jelzik az órákat és a negyedórákat. Ha megállsz és meghallgatod őket, a füled hamarabb megszokja a mintát, mint ahogy a szád automatizálja.
+
