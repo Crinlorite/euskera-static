@@ -16,6 +16,14 @@ Toma una pastilla cada ocho horas
 "Hobeto nago" quiere decir…
 @@ x1.explanation
 *Hobeto* = mejor. *Hobe* es el adjetivo "mejor" y *hobeto* el adverbio.
+@@ x1.opt0
+Estoy peor
+@@ x1.opt1
+Estoy bien
+@@ x1.opt2
+Estoy mejor
+@@ x1.opt3
+Estoy igual
 @@ x2.prompt
 Quiero pedir cita = Hitzordua eskatu nahi ___.
 @@ x2.explanation

@@ -4,6 +4,14 @@ Cómo es por dentro (izaera)
 "Alaia" significa…
 @@ x0.explanation
 *alaia* es "alegre". Es uno de los adjetivos de carácter más comunes.
+@@ x0.opt0
+aburrido
+@@ x0.opt1
+alegre
+@@ x0.opt2
+nervioso
+@@ x0.opt3
+callado
 @@ x1.prompt
 Quieres decir "Mi padre es trabajador". ¿Cuál es la forma correcta?
 @@ x1.explanation

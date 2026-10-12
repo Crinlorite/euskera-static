@@ -36,6 +36,14 @@ Tú vienes = Zu ___.
 ¿Por dónde andas?
 @@ x4.prompt
 "Sartu" y su opuesto "irten" significan, respectivamente:
+@@ x4.opt0
+entrar / salir
+@@ x4.opt1
+subir / bajar
+@@ x4.opt2
+ir / venir
+@@ x4.opt3
+abrir / cerrar
 @@ x5.card0
 ir
 @@ x5.card1

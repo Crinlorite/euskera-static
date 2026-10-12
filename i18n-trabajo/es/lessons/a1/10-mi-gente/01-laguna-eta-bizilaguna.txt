@@ -16,6 +16,14 @@ cuadrilla / grupo de amigos
 ¿Quién es tu "bizilaguna"?
 @@ x1.explanation
 "Bizi" (vivir) + "laguna" (compañero/a) = "compañero/a de vivienda" → vecino/a (de tu portal o barrio).
+@@ x1.opt0
+Tu hermano
+@@ x1.opt1
+Tu jefe
+@@ x1.opt2
+Tu vecino
+@@ x1.opt3
+Tu profesor
 @@ x2.prompt
 "Lankidea" se compone de…
 @@ x2.explanation
