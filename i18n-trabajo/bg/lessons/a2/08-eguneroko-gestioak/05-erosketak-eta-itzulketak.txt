@@ -1,0 +1,135 @@
+@@ title
+Erosketak eta itzulketak — замяна и връщане
+@@ x0.prompt
+"Handiegia da" означава, че дрехата е…
+@@ x0.explanation
+*-egi* от раздел 04 (gehiegi/gutxiegi), приложено към размера: handi**egi**a = прекалено голяма; txiki**egi**a = прекалено малка.
+@@ x0.opt0
+Прекалено скъпа
+@@ x0.opt1
+Прекалено голяма
+@@ x0.opt2
+Много хубава
+@@ x0.opt3
+Прекалено малка
+@@ x1.prompt
+Искаш да върнеш нещо и да си получиш парите. Казваш…
+@@ x1.explanation
+*Dirua itzuli* = връщам парите. *Itzuli* е звездният глагол на урока: връщам (нещо) И връщам се.
+@@ x2.prompt
+За замяна или връщане почти винаги ще ти поискат…
+@@ x2.explanation
+*Tiketa* = касовата бележка. Без бележка няма рай (нито връщане).
+@@ x3.prompt
+Мога ли да пробвам този панталон? = praka hauek ___ ditzaket?
+@@ x3.explanation
+*Probatu* = пробвам. С ahalera: probatu **ditzaket** (множествено число: "praka" е в множествено число, както на испански).
+@@ x4.prompt
+Малко ми е; искам да го сменя = txikia geratzen zait; ___ nahi dut.
+@@ x4.explanation
+*Aldatu* = сменям. *Geratzen zait* = стои ми (NOR-NORI: дрехата НА МЕН).
+@@ x5.card0
+пробвам
+@@ x5.card1
+пробната
+@@ x5.card2
+размерът
+@@ x5.card3
+стои ми добре
+@@ x5.card4
+прекалено малък
+@@ x5.card5
+прекалено голям
+@@ x5.card6
+сменям
+@@ x5.card7
+връщам
+@@ x5.card8
+връщам парите
+@@ x5.card9
+касовата бележка
+@@ x5.card10
+разпродажбите
+@@ x5.card11
+отстъпката
+@@ x5.card12
+в друг цвят
+@@ x5.card13
+има дефект
+@@ x6.pair0
+Може ли да го пробвам?
+@@ x6.pair1
+Стои ми добре
+@@ x6.pair2
+Голямо ми е
+@@ x6.pair3
+Бих искал да го сменя
+@@ x6.pair4
+Имате ли касовата бележка?
+@@ x6.pair5
+Има дефект
+@@ body
+
+Да пазаруваш знаеш още от A1. Този урок е **магазин, ниво 2**: да пробваш дрехи, да се бориш с размерите и — финалният бос — **да сменяш или връщаш**, без да се изпотиш. С двама стари приятели в действие: *-egi* (прекалено) и NOR-NORI (*geratzen zait*).
+
+## В пробната
+
+| Български | Euskera |
+|---|---|
+| Може ли да го пробвам? | *Probatu dezaket?* |
+| Пробната | *probalekua* |
+| Размерът | *neurria / talla* |
+| Какъв размер носиш? | *Zein neurri erabiltzen duzu?* |
+| Стои ми добре / зле | *Ondo / gaizki geratzen zait* |
+| Прекалено голямо / малко | *Handiegia / txikiegia* |
+| Имате ли го в друг цвят? | *Beste kolore batean baduzue?* |
+| А с един номер по-голямо? | *Eta neurri bat handiagoan?* |
+
+> *— Praka hauek **probatu ditzaket**?*
+>
+> *— Noski, **probalekua** hor atzean dago.*
+>
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
+>
+> *— Ez… **txikiegiak dira**. **42an baduzue**?*
+
+*Geratzen zait / zaizkizu* — чист NOR-NORI: дрехата (NOR) ми стои НА МЕН (NORI). В множествено число: *geratzen zaizkit* (стоят ми).
+
+## Замяна и връщане
+
+| Български | Euskera |
+|---|---|
+| Искам да го сменя | *Aldatu nahi dut* |
+| Искам да го върна | *Itzuli nahi dut* |
+| Ще ми върнете ли парите? | *Dirua itzuliko didazue?* |
+| Касовата бележка | *tiketa* |
+| Има дефект | *Akats bat dauka* |
+| Неизползвано е | *Erabili gabe dago* |
+| Срокът за връщане | *Itzultzeko epea* |
+
+> *— Egun on. Jertse hau **itzuli nahi nuke**. **Akats bat dauka** hemen, ikusten?*
+>
+> *— Egia da. **Tiketa badaukazu**?*
+>
+> *— Bai, hemen. **Dirua itzuliko didazue** ala aldatu behar dut?*
+>
+> *— Nahi duzun bezala. Dirua **txartelera itzuliko dizugu**, bi-hiru egunetan.*
+>
+> *— Primeran, eskerrik asko.*
+
+Обърни внимание на верижния NOR-NORI-NORK: *itzuliko didazue* (ще ми го върнете), *itzuliko dizugu* (ще ти го върнем). Раздел 03 на работа в реалния живот.
+
+## Разпродажби и цени (преговор с искра)
+
+> ***Merkealdiak** daude: dena **%50ean**!* — Разпродажба: всичко с 50 % намаление!
+>
+> *Deskontuarekin, **19,95 euro** bakarrik.* — С отстъпката — само 19,95 €.
+>
+> *Bi erosita, **hirugarrena doan**.* — При покупка на две, третото е безплатно.
+
+## Джобното резюме
+
+1. **Пробвай**: *Probatu dezaket? → Ondo/gaizki geratzen zait → -egi* за размерите.
+2. **Смени**: *Aldatu nahi dut* (+ *beste neurri/kolore batean*).
+3. **Върни**: *Itzuli nahi dut* + *tiketa* + *dirua itzuliko didazue?*
+

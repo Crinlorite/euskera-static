@@ -1,0 +1,122 @@
+@@ title
+Telefonoz — hívások és üzenetek
+@@ x0.prompt
+Csörög a telefon, baszkul veszed fel:
+@@ x0.explanation
+A *Bai, esan?* ("igen, tessék?") a klasszikus válasz, amikor felveszed. Az *Agur* búcsúzásra való — rossz kezdés 😄.
+@@ x1.prompt
+Az "Okerreko zenbakia da" jelentése…
+@@ x1.explanation
+*Okerra* = téves: okerreko zenbakia = téves szám. A foglalt *komunikatzen ari da* lenne.
+@@ x1.opt0
+Ez egy titkos szám
+@@ x1.opt1
+A telefon ki van kapcsolva
+@@ x1.opt2
+Rossz számot hívott
+@@ x1.opt3
+A vonal foglalt
+@@ x2.prompt
+Hagyhatok üzenetet? = mezu bat ___ dezaket?
+@@ x2.explanation
+*Mezua utzi* = üzenetet hagyni. A már ismert ahalera *dezaket* (tudok, -hatok/-hetek) alakjával.
+@@ x3.prompt
+Később felhívlak = geroago ___ dizut.
+@@ x3.explanation
+*Deitu* + -ko = deituko. Figyelj a NOR-NORI-NORK-ra: deituko **dizut** (felhívlak — téged).
+@@ x4.card0
+hívni, telefonálni
+@@ x4.card1
+a hívás
+@@ x4.card2
+az üzenet
+@@ x4.card3
+üzenetet hagyni
+@@ x4.card4
+üzenetet küldeni
+@@ x4.card5
+felvenni (a telefont)
+@@ x4.card6
+letenni
+@@ x4.card7
+téves szám
+@@ x4.card8
+foglalt
+@@ x4.card9
+nincs térerő
+@@ x4.card10
+lemerült a telefonom
+@@ x4.card11
+majd hívlak
+@@ x4.card12
+ki az?
+@@ x4.card13
+egy pillanat
+@@ x5.pair0
+Igen, tessék?
+@@ x5.pair1
+Ki az?
+@@ x5.pair2
+Ott van Ane?
+@@ x5.pair3
+Egy pillanat, adom
+@@ x5.pair4
+Hagyok neki üzenetet
+@@ x5.pair5
+Majd hívlak
+@@ body
+
+Más nyelven telefonálni ijesztő — nem látod az arcot, nincsenek gesztusok. Ezért ez a lecke **tiszta kész formula**: rögzült mondatok, amelyek mindig működnek, a hivatalos hívástól a WhatsApp-hangüzenetig.
+
+## Felvenni és kérdezni
+
+| Magyar | Euskera |
+|---|---|
+| Igen? Tessék? | *Bai, esan?* |
+| Ki az? | *Nor da?* |
+| Ott van Ane? | *Ane dago?* |
+| Mikel vagyok | *Mikel naiz* |
+| Egy pillanat, adom | *Une batez, orain jarriko da* |
+| Most nincs itt | *Orain ez dago* |
+
+## Ha nem tud a telefonhoz jönni
+
+> *— Kaixo, **Ane dago**?*
+>
+> *— Ez, **orain ez dago**. Zerbait **esan behar diot**?*
+>
+> *— Bai, mesedez: bilera **bihar dela**, ez gaur. Edo hobeto: **deituko didala**, libre dagoenean.*
+>
+> *— Ederki, **esango diot**. Nor zarela esango diot?*
+>
+> *— **Mikel naiz**, lanekoa. Eskerrik asko!*
+
+Figyeld meg: *esan behar diot* (meg kell mondanom neki), *esango diot* (megmondom neki), *deituko didala* (hogy hívjon fel) — a 03. egység NOR-NORI-NORK alakjai irányítanak a telefonban. A hívás *deitu* + NORI: *deitu diot* (felhívtam), *deituko dizut* (fel foglak hívni).
+
+## Technikai gondok (a klasszikusok)
+
+| Magyar | Euskera |
+|---|---|
+| Foglalt | *Komunikatzen ari da* |
+| Nincs térerő | *Estaldurarik ez dago* |
+| Lemerült a telefonom | *Bateria gabe geratu naiz* |
+| Rosszul hallani | *Gaizki entzuten da* |
+| Megszakadt a hívás | *Deia moztu da* |
+| Téves szám | *Okerreko zenbakia* |
+
+> *Barkatu, **gaizki entzuten da**. Igogailuan nago — **gero deituko dizut**!* — Bocs, rosszul hallak. Liftben vagyok — majd hívlak!
+
+## Üzenetek (gaur egungo bizitza)
+
+> ***Mezu bat bidali dizut** WhatsAppez.* — Küldtem neked egy üzenetet WhatsAppon.
+>
+> ***Audioa entzun duzu**?* — Meghallgattad a hangüzenetet?
+>
+> *Deitu beharrean, **idatzi**, mesedez: bileran nago.* — Hívás helyett írj, légyszi: értekezleten vagyok.
+
+## Az üzenetrögzítő
+
+> *«Kaixo! Orain ezin dut telefonoa hartu. **Utzi mezua** seinalearen ondoren, eta **lehenbailehen deituko dizut**. Eskerrik asko!»* — Szia! Most nem tudom felvenni a telefont. Hagyj üzenetet a sípszó után, és amint tudlak, visszahívlak. Köszönöm!
+
+*Lehenbailehen* = amint lehet. Elegáns szó, amely két ponttal emeli az észlelt szintedet. 😄
+
