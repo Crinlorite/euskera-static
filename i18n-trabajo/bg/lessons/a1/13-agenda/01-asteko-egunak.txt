@@ -1,0 +1,129 @@
+@@ title
+Дните от седмицата и дейностите
+@@ x0.prompt
+"Понеделник" на баски е…
+@@ x0.explanation
+*Astelehena* — първият ден от седмицата (буквално "първият ден на седмицата").
+@@ x1.prompt
+Кой ден е "asteburua"?
+@@ x1.explanation
+*Asteburua* — уикенд, буквално "краят на седмицата".
+@@ x1.opt0
+понеделник
+@@ x1.opt1
+вторник
+@@ x1.opt2
+уикенд (събота-неделя)
+@@ x1.opt3
+сряда
+@@ x2.prompt
+"В понеделник ходя на фитнес" = ___ kiroldegira noa.
+@@ x2.explanation
+*-(e)an* при дните = "в". *Astelehenean* — "в понеделник".
+@@ x3.prompt
+"Всеки понеделник" = ___
+@@ x3.explanation
+Наставката *-ero* означава "всеки": *astelehenero* = "всеки понеделник".
+@@ x4.card0
+понеделник
+@@ x4.card1
+вторник
+@@ x4.card2
+сряда
+@@ x4.card3
+четвъртък
+@@ x4.card4
+петък
+@@ x4.card5
+събота
+@@ x4.card6
+неделя
+@@ x4.card7
+в понеделник
+@@ x4.card8
+в петък
+@@ x4.card9
+през уикенда
+@@ x4.card10
+всеки понеделник
+@@ x4.card11
+всеки ден
+@@ x5.pair0
+понеделник
+@@ x5.pair1
+вторник
+@@ x5.pair2
+сряда
+@@ x5.pair3
+четвъртък
+@@ x5.pair4
+петък
+@@ x5.pair5
+събота
+@@ x5.pair6
+неделя
+@@ body
+
+Преди да говорим за планове и график, преговаряме дните от седмицата и се учим да ги свързваме с ежедневните дейности.
+
+## Седемте дни
+
+| Euskera | Български | Подсказка |
+|---|---|---|
+| *astelehena* | понеделник | aste + lehen = "първият ден на седмицата" |
+| *asteartea* | вторник | aste + arte = "средата на седмицата" |
+| *asteazkena* | сряда | aste + azken = "последният ден на работната седмица" (ист.) |
+| *osteguna* | четвъртък | egun = ден |
+| *ostirala* | петък | има общ корен *ortzi/osti-* (небе) с *osteguna* |
+| *larunbata* | събота | larun + bata |
+| *igandea* | неделя | исторически празничен ден |
+
+> **Подсказка за запомняне:** думата **aste** (седмица) стои в началото на работните дни. *Astelehen-, astear-, asteazken-* почти изброяват на глас началото, средата и края на седмицата.
+
+## "В понеделник" — наставка `-(e)an`
+
+За да датираш събитие, добавяш `-(e)an` към деня:
+
+| Ден | "В + ден" |
+|---|---|
+| astelehena | astelehen**ean** |
+| asteartea | astearte**an** |
+| asteazkena | asteazken**ean** |
+| osteguna | ostegun**ean** |
+| ostirala | ostirale**an** |
+| larunbata | larunbat**ean** |
+| igandea | igande**an** |
+
+- *Astelehenean lan egiten dut.* — В понеделник работя.
+- *Larunbatean afaltzera joango gara.* — В събота ще отидем на вечеря.
+
+## "Всеки X" — наставка `-ero`
+
+За редовна честота:
+
+- *astelehenero* — всеки понеделник
+- *larunbatero* — всяка събота
+- *egunero* — всеки ден
+- *astero* — всяка седмица
+- *astebururo* — всеки уикенд
+
+## Ден + дейност: примери
+
+| Euskera | Български |
+|---|---|
+| *Astelehenean kiroldegira noa.* | В понеделник ходя на фитнес. |
+| *Asteartean euskara klasea dut.* | Във вторник имам урок по баски. |
+| *Ostiralean parranda egiten dugu.* | В петък излизаме да купонясваме. |
+| *Larunbatean familiaren etxera joango naiz.* | В събота ще отида у семейството. |
+| *Igandean lasai gelditzen naiz etxean.* | В неделя си стоя спокойно вкъщи. |
+
+## Asteburua — уикендът
+
+`Asteburua` (уикенд) е много полезна дума:
+
+- *Asteburuan zer egingo duzu?* — Какво ще правиш през уикенда?
+- *Asteburu honetan mendira joango naiz.* — Този уикенд ще отида в планината.
+- *Asteburu pasa egitea gustatzen zait.* — Обичам да правя кратки пътувания през уикенда.
+
+> **Културна бележка:** до *igandea* често ще виждаш *jaieguna* (празничен ден): формулата *igandeak eta jaiegunak* ("неделни и празнични дни") е типична за разписанията на автобусите, работното време на магазините и обявите на кметството.
+
