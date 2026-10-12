@@ -83,7 +83,7 @@ Un còp sabes presentar a quauquarrés (*Hau X da*), eth pas següent naturau ei
 
 ## Es preguntes
 
-| Pregunta | Occitan |
+| Pregunta | Aranés |
 |---|---|
 | *Non bizi da?* | On viu? |
 | *Norekin bizi da?* | Damb qui viu? |
@@ -113,7 +113,7 @@ Eth sufix **`-(e)an`** ("en") ja lo coneishes dera unitat de barri e de residén
 | ospitala (espitau) | *ospitale**an** lan egiten du* |
 | eskola (escòla) | *eskola**n** lan egiten du* |
 | taberna (tauèrna) | *taberna**n** lan egiten du* |
-| bulegoa (oficina) | *bulego**an** lan egiten du* |
+| bulegoa (burèu) | *bulego**an** lan egiten du* |
 | denda (botiga) | *denda**n** lan egiten du* |
 | euskaltegia (acadèmia de basc) | *euskaltegi**an** lan egiten du* |
 | etxean (en casa) | *etxean lan egiten du* |
@@ -130,7 +130,7 @@ Combinar era profession damb eth lòc ei çò que da consisténcia ara presentac
 
 ## Estat civiu (vocabulari util)
 
-| Basc | Occitan |
+| Basc | Aranés |
 |---|---|
 | *ezkonduta dago* | ei maridat/ada |
 | *ezkongabea da* | ei soltèr/èra |

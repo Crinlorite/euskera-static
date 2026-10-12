@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: 父亲
   - eu: ama
-    es: madre
+    es: 母亲
   - eu: anaia
     es: 兄弟（男性或女性的）
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: 姐妹（由女性说）
   - eu: seme
-    es: hijo
+    es: 儿子
   - eu: alaba
-    es: hija
+    es: 女儿
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen 有一个姐妹。从 Maialen 的角度来看，“姐妹”这个词怎么说？

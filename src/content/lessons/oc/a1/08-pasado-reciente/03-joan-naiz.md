@@ -106,11 +106,11 @@ Aguesta ei **era règla fondamentau** deth basc e era dificultat principau d'agu
 | Intransitiu (NOR) | NON | *izan* (naiz/zara/da…) | *joan naiz* (è anada/anat) |
 | Transitiu (NOR-NORK) | ÒC | *ukan* (dut/duzu/du…) | *jan dut* (è menjat quauquarren) |
 
-> **Conselh practic:** se en castelhan pòdes demandar "qué?" dempús deth vèrb (qué è menjat? qué è vist?), ei transitiu e va damb *dut*. Se non se pòt ("qué è anada/anat?" non foncione), ei intransitiu e va damb *naiz*.
+> **Conselh practic:** se pòdes demandar "qué?" dempús deth vèrb (qué è menjat? qué è vist?), ei transitiu e va damb *dut*. Se non se pòt ("qué è anada/anat?" non foncione), ei intransitiu e va damb *naiz*.
 
 ## Vèrbs intransitius basics
 
-| Participi | Jo (è…) | Significat |
+| Participi | Jo (è…) | Aranés |
 |---|---|---|
 | *joan* | **joan naiz** | è anada/anat |
 | *etorri* | **etorri naiz** | è venguda/vengut |
@@ -138,7 +138,7 @@ Aguesta ei **era règla fondamentau** deth basc e era dificultat principau d'agu
 
 Damb *joan* (anar):
 
-| Pronom | Fòrma | Significat |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | Ni | **joan naiz** | È anada/anat |
 | Zu | **joan zara** | As anada/anat |

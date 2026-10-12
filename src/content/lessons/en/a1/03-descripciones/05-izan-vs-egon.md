@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: I am a nervous person (character)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: I'm nervous (right now)
   - eu: ona da
     es: he/she is good (quality)
   - eu: ondo dago
     es: he/she is well (state)
 ---
 
-This is probably the trickiest distinction in A1 Basque. Like in Spanish "ser" vs "estar", but with two important differences: **(1) adjectives change their form** and **(2) some words are only used with one of the two verbs**.
+This is probably the trickiest distinction in A1 Basque. English uses one verb ("to be") where Basque uses two, and there are two important details: **(1) adjectives change their form** and **(2) some words are only used with one of the two verbs**.
 
 ## The rule in one line
 
@@ -130,4 +130,4 @@ See how the chosen word changes depending on whether you're talking about a qual
 - **Nolakoa zara?** → describe your character / physique (use *izan*).
 - **Nola zaude?** or **Zer moduz?** → say how you are today (use *egon*).
 
-> **Note:** In Spanish, you would say "soy nervioso" or "estoy nervioso" without changing the word. In Basque, the word itself changes (*urduria* vs *urduri*). It's tricky at first, but it becomes natural with daily practice. If you're unsure in a real conversation, a safe bet is to use *egon* with an invariable word: *haserre nago*, *triste nago*, *nekatuta nago* — they always work.
+> **Note:** In English, you would say "I am nervous" in both cases without changing the word. In Basque, the word itself changes (*urduria* vs *urduri*). It's tricky at first, but it becomes natural with daily practice. If you're unsure in a real conversation, a safe bet is to use *egon* with an invariable word: *haserre nago*, *triste nago*, *nekatuta nago* — they always work.

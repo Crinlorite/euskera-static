@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: 请
   - eu: eskerrik asko
-    es: muchas gracias
+    es: 非常感谢
   - eu: ez horregatik
     es: 不客气
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: 给我的
   - eu: ona
-    es: bueno
+    es: 好
 ---
 
 在酒吧点单是你能用巴斯克语说的最有用的事情之一。基本句式非常直接：你想要的东西的名称 + **bat** (一) + **mesedez** (请)。就这样。
@@ -157,4 +157,4 @@ exercises:
 >
 > — *Ederki!* — 太好了！
 
-> **文化小贴士：**在巴斯克地区的酒馆里，通常是在吧台点单、站着喝酒、大声交谈。*Mesedez* 和 *eskerrik asko* 是基础用语，但并非每句话都必须说——与西班牙语不同，只要语气友好，直接说一句“*ebakia*”并不会被认为不礼貌。
+> **文化小贴士：**在巴斯克地区的酒馆里，通常是在吧台点单、站着喝酒、大声交谈。*Mesedez* 和 *eskerrik asko* 是基础用语，但并非每句话都必须说——只要语气友好，直接说一句“*ebakia*”并不会被认为不礼貌。

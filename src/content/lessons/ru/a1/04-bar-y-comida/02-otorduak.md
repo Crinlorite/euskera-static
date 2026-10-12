@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: завтрак
   - eu: hamaiketakoa
     es: второй завтрак
   - eu: bazkaria
     es: обед
   - eu: askaria
-    es: merienda
+    es: полдник
   - eu: afaria
-    es: cena
+    es: ужин
   - eu: jan
-    es: comer
+    es: есть
   - eu: edan
-    es: beber
+    es: пить
 ---
 
 У каждого приёма пищи в баскском языке есть своё название, и знание этих названий поможет вам говорить о своём распорядке дня. Кроме того, есть особый баскский приём пищи, у которого нет прямого эквивалента в русском языке: **hamaiketako**.

@@ -90,22 +90,22 @@ exercises:
   - eu: alkandora
     es: camisa
   - eu: galtzak
-    es: pantalones
+    es: pantalons
   - eu: soineko
-    es: vestido
+    es: vestit
   - eu: jertsea
-    es: jersey
+    es: jersei
   - eu: zapatak
-    es: zapatos
+    es: sabates
   - eu: beroki
-    es: abrigo
+    es: abric
 ---
 
 En A1 vedes eth vocabulari basic de **vestits** e **casa**. En A2 l'amplies a registres mès concrèts: **talhes, emprovador, complements**, e ar **abitatge coma espaci sociau** (loguèr, proprietari, quartièr, jardin).
 
 ## Vestits: vocabulari A2
 
-| Categoria | Castelhan | Basc |
+| Categoria | Aranés | Basc |
 |---|---|---|
 | Camises | camisa | *alkandora* |
 | | camiseta | *kamiseta* |
@@ -133,7 +133,7 @@ En A1 vedes eth vocabulari basic de **vestits** e **casa**. En A2 l'amplies a re
 
 ## Ena botiga de vestits
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | As ua talha mès grana? | *Neurri **handiagorik** baduzu?* |
 | Ua talha mès petita, se vos platz | *Neurri txikiago bat, mesedez* |
@@ -157,7 +157,7 @@ En A1 vedes eth vocabulari basic de **vestits** e **casa**. En A2 l'amplies a re
 
 ## Abitatge: vocabulari A2
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Abitatge | *etxebizitza* |
 | Pís | *pisua* |
@@ -168,7 +168,7 @@ En A1 vedes eth vocabulari basic de **vestits** e **casa**. En A2 l'amplies a re
 
 ### Parts naues
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Terrassa | *terraza* |
 | Balcon | *balkoia* |
@@ -180,7 +180,7 @@ En A1 vedes eth vocabulari basic de **vestits** e **casa**. En A2 l'amplies a re
 
 ## Logar / comprar
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Ei de loguèr | *Alokairuan dago* |
 | Ei en venta | *Salgai dago* |

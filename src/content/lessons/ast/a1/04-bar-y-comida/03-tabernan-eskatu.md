@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-tab-mc1
   type: multiple-choice
-  prompt: '"Mesedez" significa…'
+  prompt: '"Mesedez" quier dicir…'
   options:
   - gracies
   - por favor
@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: por favor
   - eu: eskerrik asko
-    es: muchas gracias
+    es: munches gracies
   - eu: ez horregatik
     es: de nada
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Pa min
   - eu: ona
-    es: bueno
+    es: bonu
 ---
 
 Pedir nel chigre ye una de les coses más útiles que vas saber dicir n'eusquera. La fórmula básica ye mui directa: nome de lo que quies + **bat** (unu) + **mesedez** (por favor). Y yá ta.
@@ -155,6 +155,6 @@ N'eusquera el "ei" típicu pa llamar l'atención ye **Aizu!** (informal y mui us
 >
 > — *Ez, eskerrik asko. Kafea bakarrik.* — Non, gracies. Solo'l café.
 >
-> — *Ederki!* — ¡Estupendo!
+> — *Ederki!* — ¡Estupendu!
 
-> **Nota cultural:** nuna tabierna vasca lo normal ye pedir na barra, beber de pie y falar alto. *Mesedez* y *eskerrik asko* son básicos pero non obligatorios en cada frase — al contrariu que en castellán, nun se considera de mala educación un "*ebakia*" secu, siempres que'l tonu seya cordial.
+> **Nota cultural:** nuna tabierna vasca lo normal ye pedir na barra, beber de pie y falar alto. *Mesedez* y *eskerrik asko* son básicos pero non obligatorios en cada frase — al contrariu de lo que podríes pensar, nun se considera de mala educación un "*ebakia*" secu, siempres que'l tonu seya cordial.

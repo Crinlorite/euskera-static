@@ -14,7 +14,7 @@ exercises:
   type: multiple-choice
   prompt: '"Banaiz" bedeutet...'
   options:
-  - Ich bin
+  - Ich bin (irgendwo / in einem Zustand)
   - Ich bin
   - Wenn ich bin
   - Ich bin nicht
@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Wenn es morgen regnet
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Wenn ich Zeit hätte
   - eu: Erosiko nuke
     es: Ich würde es kaufen
   - eu: Joango nintzateke
     es: Ich würde gehen
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Wenn ich reich wäre
   - eu: Edukiko bagenu
     es: Wenn wir hätten
 ---

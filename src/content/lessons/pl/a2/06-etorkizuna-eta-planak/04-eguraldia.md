@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'Prognoza mówi: "Bihar eguzkia aterako da". Co cię czeka jutro?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Deszcz
+  - Silny wiatr
+  - Słońce
+  - Mgła
   answer: 2
   explanation: '*Eguzkia atera* = wschodzić słońce; w czasie przyszłym, *aterako da* — jutro będzie słonecznie.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Wzejdzie słońce
   - eu: Haizea dabil
-    es: Hace viento
+    es: Wieje wiatr
   - eu: Hotz handia egiten du
     es: Jest bardzo zimno
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Inne zwroty z własnymi czasownikami:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Jest pochmurno / słonecznie.
 
-> **Zwróć uwagę:** w języku baskijskim pogoda „**robi**” różne rzeczy za pomocą *egin* i czasownika posiłkowego **du** (bez widocznego podmiotu): *euria egingo du*, *bero handia egiten du*. To jest identyczne jak w hiszpańskim „hace calor” — z tą różnicą, że deszcz też się „robi”.
+> **Zwróć uwagę:** w języku baskijskim pogoda „**robi**” różne rzeczy za pomocą *egin* i czasownika posiłkowego **du** (bez widocznego podmiotu): *euria egingo du*, *bero handia egiten du*. Po polsku mówimy „jest gorąco”; po baskijsku pogoda „robi” upał — a nawet deszcz.
 
 ## Jak zadawać pytania
 

@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: biege rechts ab
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: geh geradeaus / nach vorn
   - eu: zeharkatu
-    es: cruza
+    es: überquere
   - eu: igo eskailerak
     es: geh die Treppe hinauf
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: '"Zeharkatu" bedeutet …'
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - geradeaus gehen
+  - überqueren
+  - abbiegen
+  - hinaufgehen
   answer: 1
   explanation: Von „zehar“ (hindurch/quer). „Zeharkatu kalea / zebrabidea“ = die Straße / den Zebrastreifen überqueren.
 - id: ex-no-fb1

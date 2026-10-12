@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: « Hobeto nago » veut dire…
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Je vais moins bien
+  - Je vais bien
+  - Je vais mieux
+  - Pareil
   answer: 2
   explanation: '*Hobeto* = mieux. *Hobe* est l''adjectif « meilleur » et *hobeto* l''adverbe « mieux ».'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: Tu as mal ?
   - eu: Hartu hau
-    es: Toma esto
+    es: Prends ça
   - eu: Itzuli astebete barru
     es: Reviens dans une semaine
   - eu: Atseden hartu
-    es: Descansar
+    es: Se reposer
 ---
 
 Cette leçon est une **simulation complète de consultation médicale**. Elle combine le vocabulaire de la leçon précédente avec des expressions de temps (tous les combien, avant/après) et des formules fréquentes. La consultation médicale est l'un des contextes les plus utiles pour le niveau A2 : elle apparaît dans n'importe quel examen officiel.

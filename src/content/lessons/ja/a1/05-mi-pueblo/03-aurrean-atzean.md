@@ -16,17 +16,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: 前
   - eu: atzean
     es: 後ろに
   - eu: ondoan
-    es: al lado
+    es: 隣
   - eu: gainean
-    es: encima
+    es: 上
   - eu: azpian
-    es: debajo
+    es: 下
   - eu: artean
-    es: entre
+    es: 間
   - eu: ezkerrean
     es: 左に
   - eu: eskuinean
@@ -119,7 +119,7 @@ exercises:
 
 ## 作り方：-(r)en + 位置
 
-基本的な公式は**（基準）-(r)en + 位置**です。基準となる名詞は属格の`-(r)en`（スペイン語の「del/de la」に相当）を取ります。
+基本的な公式は**（基準）-(r)en + 位置**です。基準となる名詞は属格の`-(r)en`（日本語の「の」に相当）を取ります。
 
 | バスク語 | 日本語（直訳） |
 |---|---|
@@ -130,7 +130,7 @@ exercises:
 | **kutxaren barruan** | 箱の中に |
 | **bi mendien artean** | 2つの山の間に |
 
-パターン：基準が先で、**その次に**位置が来ます。これはスペイン語とは全く逆の語順です。
+パターン：基準が先で、**その次に**位置が来ます。これは日本語の「家の前」と同じ語順です。
 
 ## 完全な例文
 
@@ -142,7 +142,7 @@ exercises:
 
 ## 場所の副詞：hemen / hor / han
 
-場所を素早く指し示すには3つの副詞があります。注意してください、スペイン語のように2つではなく、**3つの距離**があります。
+場所を素早く指し示すには3つの副詞があります。日本語の「これ・それ・あれ」と同じく、**3つの距離**があります。
 
 | バスク語 | 日本語 | いつ使うか |
 |---|---|---|

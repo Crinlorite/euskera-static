@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: petit-déjeuner
   - eu: hamaiketakoa
     es: en-cas de milieu de matinée
   - eu: bazkaria
     es: repas de midi
   - eu: askaria
-    es: merienda
+    es: goûter
   - eu: afaria
-    es: cena
+    es: dîner
   - eu: jan
-    es: comer
+    es: manger
   - eu: edan
-    es: beber
+    es: boire
 ---
 
 Chaque repas de la journée a son nom en basque, et les connaître t'aidera à parler de ta routine quotidienne. Il y a de plus un repas spécifiquement basque qui n'a pas d'équivalent direct en français : le **hamaiketako**.

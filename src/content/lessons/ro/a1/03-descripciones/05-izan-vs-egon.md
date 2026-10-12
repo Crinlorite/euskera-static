@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: sunt nervoasă (caracter)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: sunt agitată (acum)
   - eu: ona da
     es: este bun (calitate)
   - eu: ondo dago
     es: este bine (stare)
 ---
 
-Aceasta este probabil cea mai alunecoasă distincție de la nivelul A1 în limba bască. Similar cu "a fi" (ser) vs "a fi" (estar) din spaniolă, dar cu două diferențe importante: **(1) adjectivele își schimbă forma** și **(2) unele cuvinte se folosesc doar cu unul dintre cele două verbe**.
+Aceasta este probabil cea mai alunecoasă distincție de la nivelul A1 în limba bască. Româna are un singur verb, „a fi”, pentru ambele; basca le separă, cu două particularități importante: **(1) adjectivele își schimbă forma** și **(2) unele cuvinte se folosesc doar cu unul dintre cele două verbe**.
 
 ## Regula într-o singură linie
 
@@ -130,4 +130,4 @@ Uite cum se schimbă cuvântul ales în funcție de dacă vorbești despre o cal
 - **Nolakoa zara?** → descrie-ți caracterul / fizicul (folosesc *izan*).
 - **Nola zaude?** sau **Zer moduz?** → spune cum ești astăzi (folosesc *egon*).
 
-> **Notă:** în spaniolă s-ar spune "soy nervioso" sau "estoy nervioso" fără a schimba cuvântul. În bască, cuvântul se schimbă (*urduria* vs *urduri*). La început este greu; cu practica zilnică, vine de la sine. Dacă ai dubii într-o conversație reală, o soluție sigură este să folosești *egon* cu un cuvânt invariabil: *haserre nago*, *triste nago*, *nekatuta nago* — acestea funcționează întotdeauna.
+> **Notă:** în română spui „sunt nervos” în ambele cazuri, fără a schimba cuvântul. În bască, cuvântul se schimbă (*urduria* vs *urduri*). La început este greu; cu practica zilnică, vine de la sine. Dacă ai dubii într-o conversație reală, o soluție sigură este să folosești *egon* cu un cuvânt invariabil: *haserre nago*, *triste nago*, *nekatuta nago* — acestea funcționează întotdeauna.

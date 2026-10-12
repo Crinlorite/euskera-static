@@ -90,18 +90,18 @@ exercises:
   - eu: nekatuta
     es: cansado
   - eu: haserre
-    es: enfadado
+    es: bravo
   - eu: gaixorik
-    es: enfermo
+    es: doente
   - eu: ondo
-    es: bien
+    es: bem
   - eu: gaizki
     es: mal
   - eu: lasai
-    es: tranquilo (ahora)
+    es: tranquilo (agora)
 ---
 
-Em basco, há dois verbos onde em português usamos um só. Você já conhece o **izan** ("ser/estar" para qualidades). Agora é a vez do **egon**, que se traduz como "estar" quando falamos de **estados temporários**: como alguém está hoje, agora mesmo, neste momento.
+Em basco, há dois verbos que dividem de outro jeito o que em português dizemos com «ser» e «estar». Você já conhece o **izan** ("ser/estar" para qualidades). Agora é a vez do **egon**, que se traduz como "estar" quando falamos de **estados temporários**: como alguém está hoje, agora mesmo, neste momento.
 
 ## O paradigma de egon
 

@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-03-em-mc1
   type: multiple-choice
-  prompt: '"Goizean" significa…'
+  prompt: '"Goizean" vol dir…'
   options:
   - a la nit
   - al matí
@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: a la tarda
   - eu: iluntzean
-    es: al atardecer
+    es: al capvespre
   - eu: gauean
     es: a la nit
   - eu: gaur
-    es: hoy
+    es: avui
   - eu: bihar
     es: demà (l'endemà)
   - eu: atzo
-    es: ayer
+    es: ahir
 - id: ex-03-em-fc
   type: flashcards
   cards:

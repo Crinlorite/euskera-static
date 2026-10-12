@@ -14,13 +14,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: garbitu
-    es: limpiar
+    es: ينظّف
   - eu: prestatu
-    es: preparar
+    es: يحضّر
   - eu: jaso
-    es: recoger
+    es: يرتّب
   - eu: lisatu
-    es: planchar
+    es: يكوي
   - eu: erosketak egin
     es: القيام بالتسوق
   - eu: zaborra atera
@@ -92,7 +92,7 @@ exercises:
     es: مرة في الأسبوع
 ---
 
-في هذا الدرس، ستتعلم الأفعال الأساسية للتحدث عن **etxeko lanak** (الأعمال المنزلية). في اللغة الباسكية، عادة ما تأتي الأفعال في صيغة **participio** (اسم المفعول) (`-tu`, `-i`, `-n`)، وهي الصيغة التي تجدها في القاموس: *garbitu*, *prestatu*, *jaso*…
+في هذا الدرس، ستتعلم الأفعال الأساسية للتحدث عن **etxeko lanak** (الأعمال المنزلية). في اللغة الباسكية، عادة ما تأتي الأفعال في صيغة **partizipioa** (اسم المفعول) (`-tu`, `-i`, `-n`)، وهي الصيغة التي تجدها في القاموس: *garbitu*, *prestatu*, *jaso*…
 
 ## الأفعال الرئيسية
 

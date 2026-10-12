@@ -75,7 +75,7 @@ exercises:
     es: 我醒了
 ---
 
-在巴斯克语中，要讲述不久前——尤其是今天——做过的事情，我们会使用 **orainaldi burutua**（字面意思是“现在完成时”），它相当于西班牙语的 *he comido / he ido*。这就是所谓的**最近过去时**。
+在巴斯克语中，要讲述不久前——尤其是今天——做过的事情，我们会使用 **orainaldi burutua**（字面意思是“现在完成时”），它相当于中文的“（今天）吃了 / 去了”。这就是所谓的**最近过去时**。
 
 ## 公式非常简单
 
@@ -83,7 +83,7 @@ exercises:
 
 与你在上一单元学过的惯常体相比，唯一的变化是动词**不带 -tzen / -ten**：
 
-| 惯常体 | 最近过去时 | 西班牙语 |
+| 惯常体 | 最近过去时 | 中文 |
 |---|---|---|
 | *gosaltzen dut* | **gosaldu dut** | 我吃早餐 → 我吃过早餐了 |
 | *jaten dut* | **jan dut** | 我吃 → 我吃过了 |
@@ -91,7 +91,7 @@ exercises:
 | *etortzen naiz* | **etorri naiz** | 我来 → 我来过了 |
 | *ikusten dut* | **ikusi dut** | 我看 → 我看过了 |
 
-> **这和西班牙语中**一般现在时和现在完成时的区别是一样的：
+> **比较**一般现在时和最近过去时：
 >
 > - *Egunero euskaltegira **joaten naiz**.* — 我每天都去巴斯克语学校。
 > - *Gaur goizean euskaltegira **joan naiz**.* — 今天早上我去了巴斯克语学校。

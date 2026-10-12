@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: 오늘
   - eu: atzo
-    es: ayer
+    es: 어제
   - eu: bihar
-    es: mañana
+    es: 내일
   - eu: etzi
-    es: pasado mañana
+    es: 모레
   - eu: gaur goizean
-    es: esta mañana
+    es: 오늘 아침
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: 오늘 오후
   - eu: atzo gauean
-    es: anoche
+    es: 어젯밤
   - eu: orain
-    es: ahora
+    es: 지금
   - eu: lehen
-    es: antes
+    es: 전에
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ exercises:
 | *lehen* | 전에 |
 | *gero* | 나중에, 후에 |
 
-> 눈치채셨겠지만, *atzo*(어제)와 *bihar*(내일)는 매우 짧은 단어라 한 번에 외울 수 있습니다. *Etzi*(모레)는 스페인어에는 없는 한 단어 표현입니다. 바스크어가 주는 작은 선물이죠.
+> 눈치채셨겠지만, *atzo*(어제)와 *bihar*(내일)는 매우 짧은 단어라 한 번에 외울 수 있습니다. *Etzi*(모레)도 한국어처럼 한 단어라서 외우기 쉽습니다.
 
 ## 하루의 시간대와 결합하기
 

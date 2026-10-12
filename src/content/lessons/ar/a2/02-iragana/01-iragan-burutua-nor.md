@@ -78,13 +78,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Atzo etxean nintzen
-    es: Ayer estuve/estaba en casa
+    es: أمس كنتُ في البيت
   - eu: Joan den astean Donostian
     es: الأسبوع الماضي في سان سيباستيان
   - eu: Ikasleak ginen
     es: كنا طلاباً
   - eu: Bart pozik nengoen
-    es: Anoche estaba contento
+    es: ليلة أمس كنتُ سعيدًا
   - eu: Zergatik zineten han?
     es: لماذا كنتم هناك؟
   - eu: Duela urtebete
@@ -97,7 +97,7 @@ exercises:
 
 ## ماضي الفعل *izan* (يكون)
 
-| الضمير | الماضي | المعنى |
+| الضمير | الماضي | العربية |
 |---|---|---|
 | ni | **nintzen** | كنتُ |
 | zu | **zinen** | كنتَ / كنتِ |
@@ -112,7 +112,7 @@ exercises:
 
 الفعل *Egon* له صيغ تركيبية في الماضي، موازية لصيغ الحاضر *nago/zaude/dago...*:
 
-| الضمير | الماضي | المعنى |
+| الضمير | الماضي | العربية |
 |---|---|---|
 | ni | **nengoen** | كنتُ (متواجداً) |
 | zu | **zeunden** | كنتَ / كنتِ (متواجداً/ة) |

@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: I was going
   - eu: nentorren
     es: I was coming
   - eu: nenbilen
-    es: andaba yo
+    es: I was walking around
   - eu: neukan
     es: I had
   - eu: nekien
     es: I knew
   - eu: nengoen
-    es: estaba yo
+    es: I was (somewhere)
 ---
 
 **Synthetic verbs** (*aditz trinkoak*) are the few Basque verbs that are conjugated **without an auxiliary**, in a single word. You already know their present tense forms: *noa, nator, nabil, daukat, dakit, nago*. In the past tense, they have parallel forms that are good to recognize and, for the most common ones, to master.

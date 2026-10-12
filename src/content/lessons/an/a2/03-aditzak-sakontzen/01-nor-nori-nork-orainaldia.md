@@ -40,7 +40,7 @@ exercises:
   type: flashcards
   cards:
   - eu: dit
-    es: me lo (él/ella)
+    es: me lo (ell/ella)
   - eu: dizut
     es: te lo (yo)
   - eu: diozu
@@ -48,7 +48,7 @@ exercises:
   - eu: diot
     es: se lo (yo)
   - eu: dio
-    es: se lo (él/ella)
+    es: se lo (ell/ella)
   - eu: digute
     es: nos lo (éls)
   - eu: dizugu
@@ -66,7 +66,7 @@ exercises:
   - eu: erosi
     es: mercar
   - eu: ekarri
-    es: trayer
+    es: trahier
 - id: ex-a2-ad1-mp
   type: match-pairs
   pairs:
@@ -107,7 +107,7 @@ Tabla con NOR singular ("lo"). Filas = a qui (NORI), columnas = qui fa (NORK):
 |---|---|---|---|---|---|---|
 | niri (a yo) | — | **didazu** | **dit** | — | **didazue** | **didate** |
 | zuri (a tu) | **dizut** | — | **dizu** | **dizugu** | — | **dizute** |
-| hari (a él/ella) | **diot** | **diozu** | **dio** | **diogu** | **diozue** | **diote** |
+| hari (a ell/ella) | **diot** | **diozu** | **dio** | **diogu** | **diozue** | **diote** |
 | guri (a nus.) | — | **diguzu** | **digu** | — | **diguzue** | **digute** |
 | zuei (a vus.) | **dizuet** | — | **dizue** | **dizuegu** | — | **dizuete** |
 | haiei (a éls) | **diet** | **diezu** | **die** | **diegu** | **diezue** | **diete** |

@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Ich lese gerne
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Er/Sie singt gern
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Wir reisen gern
   - eu: Margotzen dakit
     es: Ich kann malen
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Ich gehe tanzen
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Ich koche gerade
 ---
 
 Was machst du, wenn du nichts tust? In dieser Lektion geht es um **Hobbys** — und um das Grammatikelement, das sie bestimmt: das Verb, das mit **-tzea** zu einem Substantiv wird (*irakurtzea* = „das Lesen“).

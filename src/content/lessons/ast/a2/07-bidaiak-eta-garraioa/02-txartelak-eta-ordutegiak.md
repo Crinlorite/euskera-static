@@ -97,17 +97,17 @@ exercises:
   - eu: Berandu dabil
     es: Va con retrasu
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: Llegamos a tiempu
 ---
 
 Segunda parada: **mercar el billete y non perder el tren**. Equí recicles dos armes del A1 — *zenbat balio du?* (precios) y les hores — y pónesles a trabayar na taquilla.
 
 ## Na taquilla
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El billete | *txartela* |
-| Solo ida | *joaneko txartela* |
+| Namás ida | *joaneko txartela* |
 | Ida y vuelta | *joan-etorria* |
 | La taquilla / ventaniella | *leihatila* |
 | La máquina espendedora | *makina* |
@@ -132,7 +132,7 @@ Segunda parada: **mercar el billete y non perder el tren**. Equí recicles dos a
 
 ## Retrasos y puntualidá
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Va con retrasu | *berandu dabil* |
 | Llega a tiempu | *garaiz iritsi da* |

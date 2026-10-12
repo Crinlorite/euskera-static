@@ -110,7 +110,7 @@ exercises:
 
 ## 기본 자동사
 
-| Partizipioa | 나 (나는...했다) | 의미 |
+| Partizipioa | 나 (나는...했다) | 한국어 |
 |---|---|---|
 | *joan* | **joan naiz** | 갔다 |
 | *etorri* | **etorri naiz** | 왔다 |
@@ -138,7 +138,7 @@ exercises:
 
 *joan* (가다)의 경우:
 
-| 대명사 | 형태 | 의미 |
+| 대명사 | 형태 | 한국어 |
 |---|---|---|
 | Ni | **joan naiz** | 나는 갔다 |
 | Zu | **joan zara** | 너는 갔다 |

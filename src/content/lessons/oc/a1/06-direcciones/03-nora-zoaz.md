@@ -102,25 +102,25 @@ exercises:
   - eu: Nora zoaz?
     es: Tà on vas?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Vau entà casa
   - eu: Eskolara noa
     es: Voi tà era escòla
   - eu: Zertara zoaz?
     es: Tà qué vas?
   - eu: Erostera
-    es: A comprar
+    es: A crompar
 ---
 
-Eth **cas NORA** (tanben nomentat *adlatiu*) marque **era destinacion** d'un moviment: tà on vas. En castelhan se tradusís normaument damb era preposicion **"a"** ("voy *a* casa", "*a* Bilbao", "*al* parque").
+Eth **cas NORA** (tanben nomentat *adlatiu*) marque **era destinacion** d'un moviment: tà on vas. En aranés se tradusís normaument damb era preposicion **"tà"** ("vau *tà* casa", "*tà* Bilbao", "*tath* parc").
 
 ## Era qüestion: Nora?
 
-| Qüestion | Castelhan |
+| Qüestion | Aranés |
 |---|---|
-| ***Nora* zoaz?** | ¿Adónde vas? |
-| ***Nora* doa?** | ¿Adónde va? |
-| ***Nora* goaz?** | ¿Adónde vamos? |
-| ***Nora* doaz?** | ¿Adónde van? |
+| ***Nora* zoaz?** | On vas? |
+| ***Nora* doa?** | On va? |
+| ***Nora* goaz?** | On anam? |
+| ***Nora* doaz?** | On van? |
 
 ## Eth sufix: -ra
 
@@ -159,7 +159,7 @@ Entà demandar tà **qué** vas (damb quin objectiu), s'use **Zertara zoaz?** e 
 | *Zertara goaz mendira?* | *Ibiltzera.* — Tà caminar. |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — Tà nadar. |
 
-> **Patron:** *(vèrb en participi) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Ei basicament eth "a + infinitiu" deth castelhan.
+> **Patron:** *(vèrb en participi) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Ei basicament eth "anar a + infinitiu".
 
 ## Mini-convèrsa
 

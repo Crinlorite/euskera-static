@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: 목적지 고르기
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: 표 사기
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: 숙소 예약하기
   - eu: Maleta prestatuko dut
     es: 여행 가방 싸기
   - eu: Ez ahaztu kargagailua!
@@ -118,7 +118,7 @@ exercises:
 
 ## 여행 가방
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 여행 가방 / 배낭 | *maleta / motxila* |
 | 서류 | *agiriak* |

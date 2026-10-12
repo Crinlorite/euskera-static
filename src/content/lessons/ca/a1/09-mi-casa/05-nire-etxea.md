@@ -32,7 +32,7 @@ exercises:
   explanation: '"Argitsua" = lluminós/osa (de "argi" = llum + sufix -tsu d''abundància).'
 - id: ex-09-05-mc2
   type: multiple-choice
-  prompt: '"Etxea hirugarren solairuan dago" significa...'
+  prompt: '"Etxea hirugarren solairuan dago" vol dir...'
   options:
   - La casa té tres habitacions
   - La casa està al tercer pis
@@ -44,17 +44,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: argitsua
-    es: luminoso/a
+    es: lluminós/osa
   - eu: handia
-    es: grande
+    es: gran
   - eu: txikia
-    es: pequeño/a
+    es: petit/a
   - eu: lasaia
-    es: tranquilo/a
+    es: tranquil/il·la
   - eu: berria
-    es: nuevo/a
+    es: nou/nova
   - eu: zaharra
-    es: viejo/a
+    es: vell/a
 - id: ex-09-05-fc
   type: flashcards
   cards:

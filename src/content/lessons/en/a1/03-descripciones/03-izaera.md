@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" means…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - boring
+  - cheerful
+  - nervous
+  - quiet
   answer: 1
   explanation: '*alaia* is "cheerful". It''s one of the most common personality adjectives.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: cheerful
   - eu: isila
-    es: callado
+    es: quiet
   - eu: berritsua
-    es: hablador
+    es: talkative
   - eu: lasaia
-    es: tranquilo
+    es: calm
   - eu: urduria
-    es: nervioso
+    es: nervous
   - eu: langilea
-    es: trabajador
+    es: hard-working
   - eu: alferra
-    es: vago
+    es: lazy
   - eu: jatorra
     es: friendly
 ---

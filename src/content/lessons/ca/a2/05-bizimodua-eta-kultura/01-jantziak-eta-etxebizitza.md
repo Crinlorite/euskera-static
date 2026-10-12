@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-bz1-mc1
   type: multiple-choice
-  prompt: '"Etxebizitza alokairuan dago" significa…'
+  prompt: '"Etxebizitza alokairuan dago" vol dir…'
   options:
   - L'habitatge està buit
   - L'habitatge està de lloguer
@@ -90,15 +90,15 @@ exercises:
   - eu: alkandora
     es: camisa
   - eu: galtzak
-    es: pantalones
+    es: pantalons
   - eu: soineko
-    es: vestido
+    es: vestit
   - eu: jertsea
-    es: jersey
+    es: jersei
   - eu: zapatak
-    es: zapatos
+    es: sabates
   - eu: beroki
-    es: abrigo
+    es: abric
 ---
 
 A l'A1 vas veure el vocabulari bàsic de **roba** i **casa**. A l'A2 l'amplies a registres més concrets: **talles, emprovador, complements**, i a l'**habitatge com a espai social** (lloguer, propietari, barri, jardí).

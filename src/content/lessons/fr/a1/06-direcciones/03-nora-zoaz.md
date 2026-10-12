@@ -102,13 +102,13 @@ exercises:
   - eu: Nora zoaz?
     es: Où vas-tu ?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Je rentre à la maison
   - eu: Eskolara noa
     es: Je vais à l'école
   - eu: Zertara zoaz?
     es: Pour quoi faire ?
   - eu: Erostera
-    es: A comprar
+    es: Faire les courses
 ---
 
 Le **cas NORA** (aussi appelé *adlatif*) marque **la destination** d'un mouvement : où l'on va. En français, il se traduit normalement par la préposition **« à »** (« je vais *à* la maison », « *à* Bilbao », « *au* parc »).

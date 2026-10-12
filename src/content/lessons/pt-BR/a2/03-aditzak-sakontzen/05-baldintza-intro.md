@@ -69,23 +69,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Se amanhã chover
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Se eu tivesse tempo
   - eu: Erosiko nuke
     es: Eu o compraria
   - eu: Joango nintzateke
     es: Eu iria
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Se eu fosse rico
   - eu: Edukiko bagenu
     es: Se nós tivéssemos
 ---
 
 O **condicional** (*baldintza*) em basco tem várias formas. No A2, ficamos com as **duas mais úteis**:
 
-1. **Condição real (futuro provável):** *si llueve mañana, no iré*.
-2. **Condição irreal (hipótese):** *si tuviera dinero, compraría una casa*.
+1. **Condição real (futuro provável):** *se chover amanhã, não vou*.
+2. **Condição irreal (hipótese):** *se eu tivesse dinheiro, compraria uma casa*.
 
 Esta lição é uma **introdução**: basta que você reconheça as formas e produza frases simples. A unidade B1 aprofunda o tema.
 

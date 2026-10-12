@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: iść
   - eu: etorri
-    es: venir
+    es: przychodzić
   - eu: ibili
-    es: andar / moverse
+    es: chodzić / poruszać się
   - eu: sartu
-    es: entrar
+    es: wchodzić
   - eu: irten
-    es: salir
+    es: wychodzić
   - eu: igo
-    es: subir
+    es: wchodzić na górę
   - eu: jaitsi
-    es: bajar
+    es: schodzić
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Ja idę = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" i jego przeciwieństwo "irten" oznaczają odpowiednio:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - wchodzić / wychodzić
+  - wchodzić na górę / schodzić
+  - iść / przychodzić
+  - otwierać / zamykać
   answer: 0
 - id: ex-mu-fc
   type: flashcards

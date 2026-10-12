@@ -94,7 +94,7 @@ End of the unit: **urban leisure** — concerts, theater, museums and fairs. Eve
 
 ## The weekend menu
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | The concert | *kontzertua* |
 | The theater (building) | *antzokia* |
@@ -108,7 +108,7 @@ End of the unit: **urban leisure** — concerts, theater, museums and fairs. Eve
 
 ## The tickets
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | The ticket | *sarrera* |
 | To buy tickets | *sarrerak erosi* |

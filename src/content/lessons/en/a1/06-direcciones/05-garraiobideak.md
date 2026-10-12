@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: on foot
   - eu: kotxez / autoz
-    es: en coche
+    es: by car
   - eu: autobusez
     es: by bus
   - eu: trenez
-    es: en tren
+    es: by train
   - eu: bizikletaz
-    es: en bicicleta
+    es: by bike
   - eu: hegazkinez
     es: by plane
   - eu: itsasontziz
-    es: en barco
+    es: by boat
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: How do you say "I'm going by bus"?

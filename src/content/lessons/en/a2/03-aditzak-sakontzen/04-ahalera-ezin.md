@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Can you come?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: You can do it
   - eu: Ezin dut etorri
     es: I can't come
   - eu: Ezin nintzen joan
@@ -91,7 +91,7 @@ For "cannot", there is also a dedicated word: **ezin**.
 
 The simplest one and the one you'll hear most often:
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + auxiliary**
 
 | English | Basque |
 |---|---|
@@ -149,7 +149,7 @@ This is the synthetic form of the potential mood. It has two series, depending o
 
 The negation of the *ahalera* has its own word: **ezin**.
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + auxiliary**
 
 | English | Basque |
 |---|---|

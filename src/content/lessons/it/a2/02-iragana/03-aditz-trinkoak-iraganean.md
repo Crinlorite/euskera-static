@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: andavo
   - eu: nentorren
     es: venivo io
   - eu: nenbilen
-    es: andaba yo
+    es: camminavo
   - eu: neukan
     es: avevo io
   - eu: nekien
     es: sapevo io
   - eu: nengoen
-    es: estaba yo
+    es: ero (da qualche parte)
 ---
 
 I **verbi sintetici** (*aditz trinkoak*) sono i pochi verbi baschi che si coniugano **senza ausiliare**, in una sola parola. Conosci già le loro forme al presente: *noa, nator, nabil, daukat, dakit, nago*. Al passato hanno forme parallele che è bene riconoscere e, per le più frequenti, padroneggiare.

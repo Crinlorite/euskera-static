@@ -74,24 +74,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Cześć
   - eu: Agur
     es: Do widzenia
   - eu: Egun on
     es: Dzień dobry
   - eu: Gabon
-    es: Buenas noches
+    es: Dobranoc
   - eu: Gero arte
-    es: Hasta luego
+    es: Do zobaczenia
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Dziękuję bardzo
 ---
 
 W języku baskijskim powitania zmieniają się w zależności od pory dnia. Uniwersalną i najczęstszą formułą jest **Kaixo**, używane o każdej porze i w stosunku do niemal każdej osoby — tak jak „cześć” po polsku. **Hepa** lub **Aupa** to jeszcze bardziej nieformalne alternatywy, szczególnie wśród młodych ludzi i przyjaciół.
 
 ## Powitania w zależności od pory dnia
 
-| Kiedy | Po baskijsku | Po polsku |
+| Kiedy | Po baskijsku | Polski |
 |---|---|---|
 | Rano, do południa | *Egun on* | Dzień dobry |
 | Południe / pora obiadowa | *Eguerdi on* | Dzień dobry (w południe) |

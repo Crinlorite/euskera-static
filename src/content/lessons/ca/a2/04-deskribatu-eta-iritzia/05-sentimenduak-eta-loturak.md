@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-de5-mc1
   type: multiple-choice
-  prompt: '"Beldur naiz" significa…'
+  prompt: '"Beldur naiz" vol dir…'
   options:
   - Estic enfadat
   - Tinc fred
@@ -24,7 +24,7 @@ exercises:
   explanation: '*Beldur* = por. *Beldur naiz* = "tinc por" (literalment: "soc por"). En basc molts sentiments van amb *izan*.'
 - id: ex-a2-de5-mc2
   type: multiple-choice
-  prompt: '"Hala ere, etorriko naiz" significa…'
+  prompt: '"Hala ere, etorriko naiz" vol dir…'
   options:
   - Per tant, vindré
   - No obstant això, vindré
@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: Estic content
   - eu: Triste dago
     es: Està trist
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: Tinc por
   - eu: Haserre dago
     es: Està enfadat
   - eu: Lotsa ematen dit
@@ -99,7 +99,7 @@ Amb això tanques la unitat i obtens eines per a opinions més elaborades.
 
 La majoria de sentiments passatgers van amb *egon* + adjectiu o adverbi en estat:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Content | *Pozik nago* |
 | Trist | *Triste nago* |
@@ -117,7 +117,7 @@ La majoria de sentiments passatgers van amb *egon* + adjectiu o adverbi en estat
 
 Alguns sentiments profunds van amb *izan*:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Tinc por | *Beldur naiz* |
 | Tens raó | *Arrazoia duzu* |
@@ -131,7 +131,7 @@ Alguns sentiments profunds van amb *izan*:
 
 Una fórmula molt basca: el sentiment "et dona":
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Em fa vergonya | *Lotsa ematen dit* |
 | Em fa pena | *Pena ematen dit* |
@@ -146,7 +146,7 @@ Una fórmula molt basca: el sentiment "et dona":
 
 Per expressar el **canvi d'estat** ("posar-se nerviós, content, trist"):
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Em poso nerviós | *Urduri **jartzen naiz*** |
 | Es va posar trist | *Triste **jarri zen*** |
@@ -178,7 +178,7 @@ Per filar opinions i arguments:
 
 ### Addició
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | A més | *gainera* |
 | I també | *eta baita ere* / *...ere* |
@@ -188,7 +188,7 @@ Per filar opinions i arguments:
 
 ### Causa / conseqüència
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Per tant | *beraz* |
 | Per això | *horregatik* |
@@ -198,7 +198,7 @@ Per filar opinions i arguments:
 
 ### Contrast / oposició
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | No obstant això | *hala ere* |
 | Però | *baina* |
@@ -209,7 +209,7 @@ Per filar opinions i arguments:
 
 ### Organitzar el discurs
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | D'una banda… de l'altra... | *Alde batetik... bestetik...* |
 | Primer… després… | *Lehenengo... gero...* |
@@ -220,7 +220,7 @@ Per filar opinions i arguments:
 
 Aquestes són construccions que apareixen en qualsevol examen A2:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Ni... ni... | *Ez... ez...* |
 | Tant... com... | *Bai... bai...* / *Hala... nola...* |

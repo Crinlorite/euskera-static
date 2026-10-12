@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ad3-mc1
   type: multiple-choice
-  prompt: '"Filmak gustatzen zaizkit" significa…'
+  prompt: '"Filmak gustatzen zaizkit" vol dir…'
   options:
   - M'agrada el cinema
   - M'agrada una pel·lícula

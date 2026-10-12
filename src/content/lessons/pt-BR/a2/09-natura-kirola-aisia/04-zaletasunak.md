@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Gosto de ler
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Ele/ela gosta de cantar
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Gostamos de viajar
   - eu: Margotzen dakit
     es: Sei pintar
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Vou dançar
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Estou cozinhando
 ---
 
 O que você faz quando não faz nada? Esta lição é sobre **hobbies** — e sobre a peça gramatical que os rege: o verbo transformado em substantivo com **-tzea** (*irakurtzea* = "o ler").
@@ -134,7 +134,7 @@ Todo o NOR-NORI que você já sabe (*zait, zaio, zaigu…*) continua no comando;
 
 ## Três estruturas, três nuances (revisão refinada)
 
-| Estrutura | Exemplo | Significa |
+| Estrutura | Exemplo | Significado |
 |---|---|---|
 | **-tzea gustatzen zait** | *Margotzea gustatzen zait* | eu gosto (hobby) |
 | **-tzen dakit** | *Margotzen dakit* | sei fazer (habilidade) |

@@ -116,7 +116,7 @@ Pentru a întreba cât e ceasul se folosește **Zer ordu da?** („cât e ceasul
 
 De unde apare acel **-ak** final? Este pluralul basc (l-ai văzut în *gurasoak*, *aiton-amonak*). Și aici la fel: *bost* (cinci) → *bostak* („orele cinci”) + *dira* („sunt”).
 
-> **Notă:** multă lume folosește formatul de 12 ore pentru a spune ora, la fel ca în spaniolă. Pentru a distinge dimineața de după-amiază este suficient să adaugi *goizeko* (de dimineață) sau *arratsaldeko* (de după-amiază) înainte: *goizeko zortziak* (ora opt dimineața). Vom vedea asta în lecția 3.
+> **Notă:** multă lume folosește formatul de 12 ore pentru a spune ora, la fel ca în română. Pentru a distinge dimineața de după-amiază este suficient să adaugi *goizeko* (de dimineață) sau *arratsaldeko* (de după-amiază) înainte: *goizeko zortziak* (ora opt dimineața). Vom vedea asta în lecția 3.
 
 ## Exersează
 

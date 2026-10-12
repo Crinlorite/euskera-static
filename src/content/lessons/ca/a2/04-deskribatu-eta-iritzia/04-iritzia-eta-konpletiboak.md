@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-de4-mc1
   type: multiple-choice
-  prompt: '"Uste dut ona dela" significa…'
+  prompt: '"Uste dut ona dela" vol dir…'
   options:
   - Crec que és bo
   - Penso ser bo
@@ -34,7 +34,7 @@ exercises:
   explanation: '*-lako* és el sufix causal subordinat: *etorri delako* = "perquè ha vingut". *Zeren* és la conjunció inicial alternativa.'
 - id: ex-a2-de4-fb1
   type: fill-in-blank
-  prompt: Sé que vendrá = Badakit etorriko ___ .
+  prompt: Sé que vindrà = Badakit etorriko ___ .
   answers:
   - dela
   explanation: '*Etorriko da → etorriko dela* (sufix -ela en frase completiva).'
@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: No crec que sigui bo
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Perquè ha vingut
   - eu: Egia delako
     es: Perquè és veritat
   - eu: Argi dago zaila dela
@@ -205,7 +205,7 @@ Per expressar la **causa** ("perquè"), tens dues vies:
 
 1. **No oblidis la doble cara: -ela en afirmatiu, -enik en negatiu d'opinió.**
 2. **El sufix -ela s'enganxa al verb conjugat**, no al participi: *etorriko da → etorriko **dela***.
-3. **Si l'opinió és molt forta, en castellà fas servir el subjuntiu**; en basc no hi ha una diferència tan marcada: *uste dut ondo dagoela* (crec que està bé) i *zalantza dut ondo dagoenik* (dubto que estigui bé) fan servir formes diferents, però no un "subjuntiu" formal.
+3. **En català, el dubte demana subjuntiu**; en basc no hi ha una diferència tan marcada: *uste dut ondo dagoela* (crec que està bé) i *zalantza dut ondo dagoenik* (dubto que estigui bé) fan servir formes diferents, però no un "subjuntiu" formal.
 
 > **Nota pedagògica:** la fórmula *Nire ustez + frase + -lako + frase* és probablement l'eina d'A2 més rendible per opinar i argumentar. Exemple model:
 >

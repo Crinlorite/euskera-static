@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: حتى الجبل
   - eu: etxerantz
-    es: hacia casa
+    es: نحو البيت
   - eu: lagunarengatik
     es: بسبب الصديق
   - eu: Bilboko jendea
@@ -97,7 +97,7 @@ exercises:
 
 > **-(r)entzat** تُضاف إلى الاسم المعرّف
 
-| الاسم | الصيغة | بالعربية |
+| الاسم | الصيغة | العربية |
 |---|---|---|
 | niretzat | *niretzat* | لي |
 | zuretzat | *zuretzat* | لك |
@@ -106,8 +106,8 @@ exercises:
 | zuentzat | *zuentzat* | لكم |
 | haientzat | *haientzat* | لهم |
 | Lander | *Landerrentzat* | لـ *Lander* |
-| la madre | *amarentzat* | للأم |
-| los amigos | *lagunentzat* | للأصدقاء |
+| الأم | *amarentzat* | للأم |
+| الأصدقاء | *lagunentzat* | للأصدقاء |
 
 > *Hau **zuretzat** da.* — هذا لك.
 >
@@ -121,7 +121,7 @@ exercises:
 
 > **-(r)aino** تُضاف إلى الاسم (تتبع قاعدة NORA: حرف علة → +raino، حرف ساكن → +eraino)
 
-| بالعربية | بالباسكية |
+| العربية | بالباسكية |
 |---|---|
 | حتى الجبل | *mendi**raino*** |
 | حتى بلباو | *Bilbo**raino*** |
@@ -137,7 +137,7 @@ exercises:
 
 > **-(r)antz** تُضاف إلى الاسم (بنفس نمط NORA)
 
-| بالعربية | بالباسكية |
+| العربية | بالباسكية |
 |---|---|
 | نحو الجبل | *mendi**rantz*** |
 | نحو المنزل | *etxe**rantz*** |
@@ -154,15 +154,15 @@ exercises:
 
 للسؤال عن السبب: **zergatik?** (لماذا؟). وللإجابة باستخدام اسم: **-engatik**.
 
-| الاسم | الصيغة | بالعربية |
+| الاسم | الصيغة | العربية |
 |---|---|---|
 | nigatik | *nigatik* | بسببي |
 | zugatik | *zugatik* | بسببك |
 | beragatik / harengatik | *beragatik* | بسببه/بسببها |
 | Lander | *Landerrengatik* | بسبب *Lander* |
-| la madre | *amarengatik* | بسبب الأم |
-| el amor | *maitasunarengatik* | بسبب الحب |
-| la lluvia | *euriagatik* | بسبب المطر |
+| الأم | *amarengatik* | بسبب الأم |
+| الحب | *maitasunarengatik* | بسبب الحب |
+| المطر | *euriagatik* | بسبب المطر |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — شكرًا لمجيئك، من أجلي!
 >
@@ -170,13 +170,13 @@ exercises:
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — لماذا فعلت ذلك؟ — من أجلك.
 
-> **ملاحظة:** ميّز بين *-engatik* (السبب: "بسبب") و *-rentzat* (المستفيد: "لـِ" أو "من أجل"). في الإسبانية، كلمة "por" تغطي كلا المعنيين، لكنهما مختلفان في اللغة الباسكية.
+> **ملاحظة:** ميّز بين *-engatik* (السبب: "بسبب") و *-rentzat* (المستفيد: "لـِ" أو "من أجل"). وفي العربية أيضًا هما معنيان مختلفان («بسبب» / «من أجل»)، كما في الباسكية.
 
 ## NONGO / NOIZKO — من أي مكان / زمان
 
 لقد رأيت بالفعل *NON* (-an: في) في المستوى A1. تحوّل **NONGO** و **NOIZKO** المكان أو الزمان إلى **صفة** (نعت):
 
-| بالعربية | بالباسكية |
+| العربية | بالباسكية |
 |---|---|
 | الناس **من** بلباو | *Bilbo**ko** jendea* |
 | متحف **سان سيباستيان** | *Donostia**ko** museoa* |

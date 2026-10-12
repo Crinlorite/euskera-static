@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia"는 무슨 뜻일까요…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - 지루한
+  - 쾌활한
+  - 신경질적인
+  - 말수가 적은
   answer: 1
   explanation: '*alaia*는 "쾌활한"이라는 뜻입니다. 가장 흔한 성격 형용사 중 하나예요.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: 쾌활한
   - eu: isila
-    es: callado
+    es: 말수가 적은
   - eu: berritsua
-    es: hablador
+    es: 수다스러운
   - eu: lasaia
-    es: tranquilo
+    es: 차분한
   - eu: urduria
-    es: nervioso
+    es: 신경질적인
   - eu: langilea
-    es: trabajador
+    es: 부지런한
   - eu: alferra
-    es: vago
+    es: 게으른
   - eu: jatorra
     es: 상냥한
 ---

@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Semana Grande de Bilbao
   - eu: Aratusteak
-    es: carnavales
+    es: entroido
   - eu: Santa Ageda
     es: cánticos polas casas
 ---

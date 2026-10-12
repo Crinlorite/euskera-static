@@ -84,21 +84,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: 기쁜
   - eu: triste
-    es: triste
+    es: 슬픈
   - eu: nekatuta
-    es: cansado
+    es: 피곤한
   - eu: haserre
-    es: enfadado
+    es: 화난
   - eu: gaixorik
-    es: enfermo
+    es: 아픈
   - eu: ondo
-    es: bien
+    es: 잘
   - eu: gaizki
-    es: mal
+    es: 나쁘게
   - eu: lasai
-    es: tranquilo (ahora)
+    es: 차분하다 (지금)
 ---
 
 바스크어에는 '이다/있다'를 의미하는 동사가 두 개 있습니다. 여러분은 이미 **izan**('자질'을 나타내는 '이다/있다')을 배웠습니다. 이제 **egon**을 배울 차례입니다. 이 동사는 **일시적인 상태**에 대해 말할 때 '있다'라는 뜻으로 쓰입니다. 즉, 누군가가 오늘, 지금 이 순간 어떤 상태인지를 나타낼 때 사용합니다.

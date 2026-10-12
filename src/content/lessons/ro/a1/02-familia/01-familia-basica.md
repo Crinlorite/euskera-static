@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: tată
   - eu: ama
-    es: madre
+    es: mamă
   - eu: anaia
     es: frate (al unui bărbat sau al unei femei)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: soră (spus de o femeie)
   - eu: seme
-    es: hijo
+    es: fiu
   - eu: alaba
-    es: hija
+    es: fiică
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen are o soră. Cum se spune „soră” din punctul de vedere al lui Maialen?

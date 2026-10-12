@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: 우회전하세요
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: 쭉 가 / 앞으로
   - eu: zeharkatu
-    es: cruza
+    es: 건너
   - eu: igo eskailerak
     es: 계단을 올라가세요
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: '"Zeharkatu"는 ...을 의미합니다.'
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - 쭉 가다
+  - 건너다
+  - 돌다
+  - 올라가다
   answer: 1
   explanation: '"zehar"(가로질러)에서 유래했습니다. "Zeharkatu kalea / zebrabidea" = 길을 / 횡단보도를 건너다.'
 - id: ex-no-fb1

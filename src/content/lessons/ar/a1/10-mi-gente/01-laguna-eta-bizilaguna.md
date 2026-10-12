@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: صديق/صديقة
   - eu: bizilaguna
-    es: vecino/a
+    es: جار/جارة
   - eu: ikaskidea
     es: زميل/ة دراسة
   - eu: lankidea
     es: زميل/ة عمل
   - eu: ezaguna
-    es: conocido/a
+    es: معارف (شخص تعرفه)
   - eu: koadrila
     es: مجموعة أصدقاء / شلة
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: من هو "bizilaguna" الخاص بك؟
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - أخوك
+  - مديرك
+  - جارك
+  - أستاذك
   answer: 2
   explanation: '"Bizi" (يعيش) + "laguna" (رفيق/ة) = "رفيق/ة سكن" → جار/ة (في مدخل المبنى أو الحي).'
 - id: ex-10-01-mc2

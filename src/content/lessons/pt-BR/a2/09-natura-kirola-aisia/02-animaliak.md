@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: late e passeia
   - eu: katua
-    es: duerme 16 horas
+    es: dorme 16 horas
   - eu: behia
-    es: da leche
+    es: dá leite
   - eu: ardia
     es: dá lã e queijo
   - eu: txoria
-    es: canta al amanecer
+    es: canta ao amanhecer
   - eu: basurdea
     es: destrói o milharal
 ---

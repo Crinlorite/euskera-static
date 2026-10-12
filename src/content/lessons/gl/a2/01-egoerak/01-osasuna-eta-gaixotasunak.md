@@ -90,7 +90,7 @@ exercises:
   - eu: medikua
     es: médico/a
   - eu: erizaina
-    es: enfermero/a
+    es: enfermeiro/a
   - eu: botikaria
     es: farmacéutico/a
   - eu: botika / farmazia
@@ -113,7 +113,7 @@ En éuscaro tes dúas formas frecuentes:
 
 Como en A1, os síntomas constrúense con *eduki* (ter):
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Teño febre | *Sukarra **daukat*** |
 | Teño tose | *Eztula **daukat*** |
@@ -128,7 +128,7 @@ A **dor** é un substantivo en éuscaro (*mina*) e combínase coa parte do corpo
 
 > **parte do corpo + -ko + mina + daukat**
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Dóeme a cabeza | *Buruko mina daukat* |
 | Dóeme a gorxa | *Eztarriko mina daukat* |
@@ -143,7 +143,7 @@ Outra forma moi frecuente, sobre todo cando algo che doe "agora mesmo":
 
 ## Na consulta
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Que che pasa? / Que tes? | *Zer duzu?* / *Zer gertatzen zaizu?* |
 | Dende cando? | *Noiztik?* |

@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'النشرة الجوية تقول: "Bihar eguzkia aterako da". ماذا ينتظرك غدًا؟'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - مطر
+  - رياح قوية
+  - شمس
+  - ضباب
   answer: 2
   explanation: '*Eguzkia atera* = تشرق الشمس؛ في المستقبل، *aterako da* — غدًا سيكون الجو مشمسًا.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: ستشرق الشمس
   - eu: Haizea dabil
-    es: Hace viento
+    es: الجو عاصف
   - eu: Hotz handia egiten du
     es: الجو بارد جدًا
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ exercises:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — الجو غائم / مشمس.
 
-> **لاحظ:** الطقس في اللغة الباسكية "**يفعل**" أشياء باستخدام *egin* والفعل المساعد **du** (بدون فاعل ظاهر): *euria egingo du*, *bero handia egiten du*. إنه تعبير مطابق تمامًا للتعبير الإسباني «hace calor» — إلا أن المطر أيضًا "يُفعَل" في الباسكية.
+> **لاحظ:** الطقس في اللغة الباسكية "**يفعل**" أشياء باستخدام *egin* والفعل المساعد **du** (بدون فاعل ظاهر): *euria egingo du*, *bero handia egiten du*. في العربية نقول «الجو حار»؛ أما في الباسكية فالطقس «يفعل» الحرّ — بل وحتى المطر.
 
 ## كيف تسأل
 

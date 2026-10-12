@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: Soi contento
   - eu: Triste dago
     es: Ye triste
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: Tiengo miedo
   - eu: Haserre dago
     es: Ye enfadau
   - eu: Lotsa ematen dit

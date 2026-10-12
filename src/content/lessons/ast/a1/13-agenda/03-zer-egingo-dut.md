@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-fut-mc1
   type: multiple-choice
-  prompt: '"Iré a Bilbao mañana" dizse…'
+  prompt: '"Diré a Bilbao mañana" dizse…'
   options:
   - Bihar Bilbora joaten naiz
   - Bihar Bilbora joango naiz
@@ -83,7 +83,7 @@ El **futuru próximu** n'euskera ye perregular: añades una partícula al verbu 
 
 | Verbu | Forma base | Futuru | Exemplu |
 |---|---|---|---|
-| *joan* (dir) | joan | joan**go** | *Bilbora **joango naiz*** (Iré a Bilbao) |
+| *joan* (dir) | joan | joan**go** | *Bilbora **joango naiz*** (Diré a Bilbao) |
 | *etorri* (venir) | etorri | etorri**ko** | *Bihar **etorriko da*** (Vendrá mañana) |
 | *ikusi* (ver) | ikusi | ikusi**ko** | *Filma **ikusiko dut*** (Veré la película) |
 | *jan* (comer) | jan | jan**go** | *Pizza **jango dugu*** (Comeremos pizza) |

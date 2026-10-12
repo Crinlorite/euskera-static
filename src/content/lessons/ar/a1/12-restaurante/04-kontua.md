@@ -78,7 +78,7 @@ exercises:
 
 ثلاث طرق، كلها صحيحة:
 
-| Euskera | المعنى | النبرة |
+| Euskera | العربية | النبرة |
 |---|---|---|
 | **Kontua, mesedez.** | الحساب، من فضلك. | محايدة، واضحة |
 | **Atera kontua, mesedez.** | أحضر لي الحساب، من فضلك. | محايدة |
@@ -93,7 +93,7 @@ exercises:
 
 ## الدفع
 
-| Euskera | المعنى |
+| Euskera | العربية |
 |---|---|
 | *Txartelaz ordain dezaket?* | هل يمكنني الدفع بالبطاقة؟ |
 | *Eskudirutan ordainduko dut.* | سأدفع نقدًا. |

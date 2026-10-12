@@ -76,7 +76,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: llunes
   - eu: asteartea
     es: martes
   - eu: asteazkena
@@ -88,7 +88,7 @@ exercises:
   - eu: larunbata
     es: sábadu
   - eu: igandea
-    es: domingo
+    es: domingu
 ---
 
 Enantes de falar de planes y axenda, repasamos los díes de la selmana y deprendemos a asocialos coles actividaes de tolos díes.

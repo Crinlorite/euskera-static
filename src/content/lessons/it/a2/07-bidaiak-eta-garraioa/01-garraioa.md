@@ -77,17 +77,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: in treno
   - eu: autobusez
     es: in autobus
   - eu: hegazkinez
     es: in aereo
   - eu: kotxez
-    es: en coche
+    es: in macchina
   - eu: oinez
-    es: andando
+    es: a piedi
   - eu: bizikletaz
-    es: en bici
+    es: in bici
 ---
 
 Inizia l'unità di viaggio. Prima fermata: **i mezzi di trasporto** e i verbi per usarli. Con lo strumentale *-z* che già conosci dall'A1, dire "in treno" o "in bici" è un suffisso.

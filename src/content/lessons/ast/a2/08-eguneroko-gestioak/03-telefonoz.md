@@ -22,7 +22,7 @@ exercises:
   explanation: '*Bai, esan?* ("sí, ¿diga?") ye la respuesta clásica al descolgar. *Agur* ye pa despidise — mal comienzu 😄.'
 - id: ex-a2-ge3-mc2
   type: multiple-choice
-  prompt: '"Okerreko zenbakia da" significa…'
+  prompt: '"Okerreko zenbakia da" quier dicir…'
   options:
   - Ye un númberu secretu
   - El teléfonu ta apagáu
@@ -94,7 +94,7 @@ Falar per teléfonu n'otru idioma impón — nun ves la cara, nun hai xestos. Po
 
 ## Descolgar y preguntar
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | ¿Sí? ¿Diga? | *Bai, esan?* |
 | ¿Quién ye? | *Nor da?* |
@@ -119,7 +119,7 @@ Fíxate: *esan behar diot* (tengo que dici-y), *esango diot* (voi dici-y), *deit
 
 ## Problemes técnicos (los clásicos)
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Ta comunicando | *Komunikatzen ari da* |
 | Nun hai cobertoria | *Estaldurarik ez dago* |

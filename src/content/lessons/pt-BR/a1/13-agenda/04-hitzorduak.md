@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: encontro
   - eu: bilera
     es: reunião
   - eu: libre
-    es: libre
+    es: livre
   - eu: lanpetuta
     es: ocupado/a
   - eu: geratu
-    es: quedar
+    es: marcar um encontro
   - eu: geratuko gara
-    es: quedaremos
+    es: vamos nos encontrar
 ---
 
 Uma agenda movimentada está cheia de encontros e compromissos. Esta lição ensina você a falar sobre eles: ter um compromisso, encontrar alguém, dizer se você está livre.

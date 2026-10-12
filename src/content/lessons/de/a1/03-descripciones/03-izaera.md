@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" bedeutet…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - langweilig
+  - fröhlich
+  - nervös
+  - still
   answer: 1
   explanation: '*alaia* bedeutet "fröhlich". Es ist eines der gebräuchlichsten Charakteradjektive.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: fröhlich
   - eu: isila
-    es: callado
+    es: still
   - eu: berritsua
-    es: hablador
+    es: gesprächig
   - eu: lasaia
-    es: tranquilo
+    es: ruhig
   - eu: urduria
-    es: nervioso
+    es: nervös
   - eu: langilea
-    es: trabajador
+    es: fleißig
   - eu: alferra
-    es: vago
+    es: faul
   - eu: jatorra
     es: sympathisch
 ---

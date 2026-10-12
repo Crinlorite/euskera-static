@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: după-amiaza
   - eu: iluntzean
-    es: al atardecer
+    es: la apus
   - eu: gauean
     es: noaptea
   - eu: gaur
-    es: hoy
+    es: azi
   - eu: bihar
     es: mâine (ziua următoare)
   - eu: atzo
-    es: ayer
+    es: ieri
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Aceștia îți vor apărea în fiecare zi:
 | *gero* | apoi, după |
 | *lehen* | înainte |
 
-> Atenție: ai grijă cu **bihar** (ziua următoare, „mâine”) și **goiza** (partea zilei, „dimineața”). În spaniolă, „mañana” înseamnă ambele, dar în bască sunt cuvinte diferite.
+> Atenție: ai grijă cu **bihar** (ziua următoare, „mâine”) și **goiza** (partea zilei, „dimineața”). Sunt două cuvinte diferite, ca „mâine” și „dimineață” în română.
 
 ## Combinând totul
 

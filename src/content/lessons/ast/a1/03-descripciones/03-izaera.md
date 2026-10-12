@@ -13,12 +13,12 @@ covers:
 exercises:
 - id: ex-iza-mc1
   type: multiple-choice
-  prompt: '"Alaia" significa…'
+  prompt: '"Alaia" quier dicir…'
   options:
-  - aburrido
+  - aburríu
   - alegre
-  - nervioso
-  - callado
+  - nerviosu
+  - caláu
   answer: 1
   explanation: '*alaia* ye "allegre". Ye ún de los axetivos de calter más comunes.'
 - id: ex-iza-mc2
@@ -80,7 +80,7 @@ exercises:
   - eu: serioa
     es: seriu
   - eu: lotsatia
-    es: tímido
+    es: tímidu
   - eu: bikaina
     es: escelente, estupendu
 - id: ex-iza-mp
@@ -89,17 +89,17 @@ exercises:
   - eu: alaia
     es: alegre
   - eu: isila
-    es: callado
+    es: caláu
   - eu: berritsua
-    es: hablador
+    es: falador
   - eu: lasaia
-    es: tranquilo
+    es: tranquilu
   - eu: urduria
-    es: nervioso
+    es: nerviosu
   - eu: langilea
-    es: trabajador
+    es: trabayador
   - eu: alferra
-    es: vago
+    es: vagu
   - eu: jatorra
     es: simpáticu
 ---
@@ -122,7 +122,7 @@ Los axetivos vienen cuasi siempre por pareyes d'opuestos:
 | *ausarta* | valiente | *beldurtia* (miedosu) |
 | *zintzoa* | formal, honráu | *bihurria* (traviesu, revoltín) |
 | *serioa* | seriu | — |
-| *lotsatia* | tímido | — |
+| *lotsatia* | tímidu | — |
 | *bikaina* | escelente, estupendu | — |
 
 > Munchos d'estos axetivos vienen d'un sustantivu + sufixu. Por exemplu *langile* vien de *lan* ("trabayu"); *beldurti* vien de *beldur* ("mieu"). Nun tienes qu'aprender la lóxica interna n'A1, pero va ayudate a memorizar.

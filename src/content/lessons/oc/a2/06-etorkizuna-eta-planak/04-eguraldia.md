@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'Era prevision ditz: "Bihar eguzkia aterako da". Qué t''espere deman?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Ploja
+  - Vent fòrt
+  - Solei
+  - Bromèra
   answer: 2
   explanation: '*Eguzkia atera* = gessir eth solei; en futur, *aterako da* — deman harà solei.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Gesserà eth solei
   - eu: Haizea dabil
-    es: Hace viento
+    es: Hè vent
   - eu: Hotz handia egiten du
     es: Hè fòrça heired
   - eu: Hodeitsu dago
@@ -109,7 +109,7 @@ En un país a on pòt hèr solei, plòir e tornar a gessir eth solei ena madeish
 
 ## Eth vocabulari basic
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Eth temps | *eguraldia* |
 | Eth solei | *eguzkia* |
@@ -139,7 +139,7 @@ Autes pèces damb eth sòn pròpri vèrb:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Ei anivolat / assolelhat.
 
-> **Fixa-t'i:** eth temps en basc "**hè**" causes damb *egin* e auxiliar **du** (sense subjècte visible): *euria egingo du*, *bero handia egiten du*. Ei un calc deth castelhan «hace calor» — sonque qu'era ploja tanben se «hè».
+> **Fixa-t'i:** eth temps en basc "**hè**" causes damb *egin* e auxiliar **du** (sense subjècte visible): *euria egingo du*, *bero handia egiten du*. Ei coma er aranés «hè calor» — sonque qu'era ploja tanben se «hè».
 
 ## Com se demande
 

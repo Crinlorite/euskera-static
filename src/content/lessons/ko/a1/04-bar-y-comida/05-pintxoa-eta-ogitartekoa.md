@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko"는...을 의미합니다.'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - 바게트 샌드위치
+  - 모둠 접시
+  - 디저트
   answer: 1
   explanation: '*ogitartekoa*는 *ogi*(빵) + *arte*(사이)에서 유래했습니다: "두 빵 사이에 있는 것" — 즉, 샌드위치입니다.'
 - id: ex-pin-mc2
@@ -34,11 +34,11 @@ exercises:
   explanation: '"Pintxo bat"은 *bat*과 함께 쓰일 때 `-a`가 탈락하며, 설명어(*tortilla*)가 앞에 옵니다.'
 - id: ex-pin-fb1
   type: fill-in-blank
-  prompt: 스페인어 "Plato combinado"는 바스크어로 ___ ___입니다.
+  prompt: '"모둠 접시 요리(plato combinado)"는 바스크어로 ___ ___입니다.'
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — 스페인어와 거의 똑같으며, 큰 변형 없이 사용됩니다.'
+  explanation: '*plater konbinatua* — 스페인어 "plato combinado"에서 거의 그대로 왔습니다.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: '"나를 위해, 치즈 한 접시" = Niretzat ___ ___.'
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: 핀초
   - eu: ogitartekoa
-    es: bocadillo
+    es: 바게트 샌드위치
   - eu: plater konbinatua
-    es: plato combinado
+    es: 모둠 접시
   - eu: razioa
     es: 라시온 (나눠 먹는 요리)
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: 치즈
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ exercises:
 
 ## 세 가지 형태
 
-| 바스크어 | 스페인어 | 크기 |
+| 바스크어 | 한국어 | 크기 |
 |---|---|---|
 | *pintxoa* | 핀초 / 타파스 | 작음, 바에서 먹는 |
 | *ogitartekoa* | 보카디요 (샌드위치) | 중간, 빵으로 만듦 |
@@ -115,7 +115,7 @@ exercises:
 
 다음은 바의 칠판 메뉴에서 가장 흔하게 볼 수 있는 속 재료들입니다:
 
-| 바스크어 | 스페인어 |
+| 바스크어 | 한국어 |
 |---|---|
 | *tortilla* | 토르티야 (감자 오믈렛) |
 | *txistorra* | 치스토라 (소시지) |

@@ -92,7 +92,7 @@ exercises:
     es: Où est le bar ?
 ---
 
-En espagnol, on utilise un seul verbe, "haber/estar", pour deux idées distinctes : **exister** ("y a-t-il une pharmacie dans le quartier ?") et **se situer** ("la pharmacie est dans la rue Mayor"). Le basque distingue très clairement ces deux choses, et c'est un point qu'il convient d'assimiler rapidement.
+Il s'agit de deux idées distinctes : **exister** ("y a-t-il une pharmacie dans le quartier ?") et **se situer** ("la pharmacie est dans la rue Mayor"). Le basque distingue très clairement ces deux choses, et c'est un point qu'il convient d'assimiler rapidement.
 
 ## Exister vs Être situé
 

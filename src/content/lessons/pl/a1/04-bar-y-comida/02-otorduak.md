@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: śniadanie
   - eu: hamaiketakoa
     es: drugie śniadanie
   - eu: bazkaria
     es: obiad
   - eu: askaria
-    es: merienda
+    es: podwieczorek
   - eu: afaria
-    es: cena
+    es: kolacja
   - eu: jan
-    es: comer
+    es: jeść
   - eu: edan
-    es: beber
+    es: pić
 ---
 
 Każdy posiłek w ciągu dnia ma swoją nazwę w języku baskijskim, a ich znajomość pomoże ci w rozmowach o twojej codziennej rutynie. Istnieje również posiłek typowo baskijski, który nie ma bezpośredniego odpowiednika w języku polskim: **hamaiketako**.
@@ -114,7 +114,7 @@ Każdy posiłek w ciągu dnia ma swoją nazwę w języku baskijskim, a ich znajo
 | *bazkaldu* | jeść obiad |
 | *afaldu* | jeść kolację |
 
-> Istnieją czasowniki specyficzne dla każdego posiłku (podobnie jak w hiszpańskim „desayunar / comer / cenar”). Na poziomie A1 będziesz je raczej rozpoznawać, niż odmieniać — na razie wystarczy wiedzieć, że istnieją.
+> Istnieją czasowniki specyficzne dla każdego posiłku (podobnie jak w polskim „jeść śniadanie / obiad / kolację”). Na poziomie A1 będziesz je raczej rozpoznawać, niż odmieniać — na razie wystarczy wiedzieć, że istnieją.
 
 ## Głód i pragnienie
 

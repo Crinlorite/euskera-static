@@ -74,24 +74,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: 你好
   - eu: Agur
     es: 再见
   - eu: Egun on
     es: 早上好
   - eu: Gabon
-    es: Buenas noches
+    es: 晚安
   - eu: Gero arte
-    es: Hasta luego
+    es: 回头见
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: 非常感谢
 ---
 
-在巴斯克语中，问候语会根据一天中的不同时间而变化。最通用、最常见的表达是 **Kaixo**，它可以在任何时间对几乎任何人使用——就像西班牙语中的“hola”一样。**Hepa** 或 **Aupa** 是更非正式的说法，尤其在年轻人和朋友之间使用。
+在巴斯克语中，问候语会根据一天中的不同时间而变化。最通用、最常见的表达是 **Kaixo**，它可以在任何时间对几乎任何人使用——就像中文的“你好”一样。**Hepa** 或 **Aupa** 是更非正式的说法，尤其在年轻人和朋友之间使用。
 
 ## 按时间段分的问候语
 
-| 时间 | 巴斯克语 | 西班牙语 |
+| 时间 | 巴斯克语 | 中文 |
 |---|---|---|
 | 早上，直到中午 | *Egun on* | 早上好 |
 | 中午/午餐时间 | *Eguerdi on* | 中午好 |

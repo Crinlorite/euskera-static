@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: Pobrali się w 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: Mieli troje dzieci
   - eu: 2020an erretiroa hartu zuen
     es: Przeszedł/przeszła na emeryturę w 2020
 ---
@@ -121,7 +121,7 @@ Ostatnia jednostka na tym poziomie — ta, w której **domykamy wszystkie wątki
 
 > *Elbira Zipitria **1906an jaio zen**, Zumaian, eta Donostian **hazi zen**. Gaztetan **irakasle-ikasketak egin zituen**. Gerra ostean, euskarazko eskolak **debekatuta zeuden**, baina Elbirak umeei euskaraz **irakasten zien** bere etxean, isilpean. **Urte askoan** aritu zen lan horretan, eta gaur egun euskal eskolaren **aitzindaritzat** hartzen dugu. **1982an hil zen**, baina bere lana gure ikastoletan **bizi da** oraindik.*
 
-Zwróć uwagę na cały zestaw: *jaio zen / hazi zen* (NOR), *egin zituen / irakasten zien* (NORK y NORI), *zeuden / zegoen* (opisy)… **Cała przeszłość z poziomu A2 w jednym akapicie.**
+Zwróć uwagę na cały zestaw: *jaio zen / hazi zen* (NOR), *egin zituen / irakasten zien* (NORK i NORI), *zeuden / zegoen* (opisy)… **Cała przeszłość z poziomu A2 w jednym akapicie.**
 
 ## Twoja kolej: szkielet
 

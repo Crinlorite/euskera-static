@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: 1984년에 결혼했다
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: 자녀 셋을 두었다
   - eu: 2020an erretiroa hartu zuen
     es: 2020년에 은퇴했다
 ---
@@ -94,7 +94,7 @@ exercises:
 
 ## 인생의 주요 사건들
 
-| 스페인어 | Euskera |
+| 한국어 | Euskera |
 |---|---|
 | 태어나다 | *jaio* (jaio nintzen/zen) |
 | 성장하다 | *hazi* |

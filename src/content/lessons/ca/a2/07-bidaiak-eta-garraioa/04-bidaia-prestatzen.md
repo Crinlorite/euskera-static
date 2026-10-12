@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-bi4-mc1
   type: multiple-choice
-  prompt: '"Maleta prestatuko dut gaur gauean" significa…'
+  prompt: '"Maleta prestatuko dut gaur gauean" vol dir…'
   options:
   - Prepararé la maleta aquesta nit
   - Vaig preparar la maleta ahir a la nit
@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: Triar destinació
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: Comprar bitllets
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: Reservar allotjament
   - eu: Maleta prestatuko dut
     es: Fer la maleta
   - eu: Ez ahaztu kargagailua!

@@ -89,24 +89,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: pelo negru
   - eu: ile horia
-    es: pelo rubio
+    es: pelo rubiu
   - eu: ile motza
-    es: pelo corto
+    es: pelo curtiu
   - eu: ile luzea
-    es: pelo largo
+    es: pelo llargu
   - eu: begi urdinak
-    es: ojos azules
+    es: güeyos azules
   - eu: begi marroiak
-    es: ojos marrones
+    es: güeyos marrones
   - eu: bizarduna
     es: con barba
   - eu: betaurrekoduna
     es: con gafes
 ---
 
-Pa describir el pelu y los güeyos n'eusquera nun s'usa **izan** ("ser") como en castellán ("soi morenu"), sinón **ukan** ("tener"): *tengo'l pelu negru*, *tengo los güeyos azules*.
+Pa describir el pelu y los güeyos n'eusquera nun s'usa **izan** ("ser") como n'asturianu ("soi morenu"), sinón **ukan** ("tener"): *tengo'l pelu negru*, *tengo los güeyos azules*.
 
 ## Pelu: ile
 

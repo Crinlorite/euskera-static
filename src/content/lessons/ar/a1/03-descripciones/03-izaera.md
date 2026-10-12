@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" تعني...'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - مملّ
+  - مرح
+  - عصبي
+  - قليل الكلام
   answer: 1
   explanation: '*alaia* تعني "سعيد" أو "مَرِح". هي واحدة من أكثر صفات الشخصية شيوعًا.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: مرح
   - eu: isila
-    es: callado
+    es: قليل الكلام
   - eu: berritsua
-    es: hablador
+    es: ثرثار
   - eu: lasaia
-    es: tranquilo
+    es: هادئ
   - eu: urduria
-    es: nervioso
+    es: عصبي
   - eu: langilea
-    es: trabajador
+    es: مجتهد
   - eu: alferra
-    es: vago
+    es: كسول
   - eu: jatorra
     es: لطيف
 ---

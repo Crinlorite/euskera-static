@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: на выходных
   - eu: bihar
-    es: mañana
+    es: завтра
   - eu: etzi
-    es: pasado mañana
+    es: послезавтра
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: сегодня днём
   - eu: libre nago
-    es: estoy libre
+    es: я свободен/свободна
 ---
 
 Заключительный урок раздела: мы составим **целую неделю**, объединив всё, что выучили. Дни, будущее время, встречи, временные маркеры... язык планирования.

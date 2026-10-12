@@ -121,7 +121,7 @@ A partir de la media p'alantre, falamos en función de la hora siguiente cola pa
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Si vienes del castellanu, lo más raro ye que **gutxi** vaya **detrás** del númberu, non delantre. *Bederatziak laurden gutxi* lliteralmente ye "les nueves cuartu menos".
+> Pa quien fala asturianu, lo más raro ye que **gutxi** vaya **detrás** del númberu, non delantre. *Bederatziak laurden gutxi* lliteralmente ye "les nueves cuartu menos".
 
 ## Tabla resumen
 

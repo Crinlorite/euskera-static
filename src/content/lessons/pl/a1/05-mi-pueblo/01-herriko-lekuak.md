@@ -18,17 +18,17 @@ exercises:
   - eu: okindegia
     es: piekarnia
   - eu: botika
-    es: farmacia
+    es: apteka
   - eu: liburutegia
-    es: biblioteca
+    es: biblioteka
   - eu: eliza
-    es: iglesia
+    es: kościół
   - eu: merkatua
-    es: mercado
+    es: targ
   - eu: banketxea
-    es: banco
+    es: bank
   - eu: ospitalea
-    es: hospital
+    es: szpital
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: Musisz kupić chleb. Do jakiego sklepu idziesz?

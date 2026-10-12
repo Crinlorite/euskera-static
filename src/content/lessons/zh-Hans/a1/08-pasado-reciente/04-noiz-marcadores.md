@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: 今天
   - eu: atzo
-    es: ayer
+    es: 昨天
   - eu: bihar
-    es: mañana
+    es: 明天
   - eu: etzi
-    es: pasado mañana
+    es: 后天
   - eu: gaur goizean
-    es: esta mañana
+    es: 今天早上
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: 今天下午
   - eu: atzo gauean
-    es: anoche
+    es: 昨晚
   - eu: orain
-    es: ahora
+    es: 现在
   - eu: lehen
-    es: antes
+    es: 以前
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ exercises:
 | *lehen* | 以前 |
 | *gero* | 之后，然后 |
 
-> 如果你注意到了，*atzo* (昨天) 和 *bihar* (明天) 这两个词很短，可以一下子就学会。*Etzi* (后天) 这个词在西班牙语里没有对应的单个词语——这是巴斯克语送给你的一个小礼物。
+> 如果你注意到了，*atzo* (昨天) 和 *bihar* (明天) 这两个词很短，可以一下子就学会。*Etzi* (后天) 和中文“后天”一样，是一个单独的词，很好记。
 
 ## 与一天中的不同时段组合
 

@@ -85,24 +85,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: 紙
   - eu: plastikoa
     es: プラスチック
   - eu: beira
-    es: vidrio
+    es: ガラス
   - eu: organikoa
     es: 生ゴミ
   - eu: pila
-    es: pila
+    es: 電池
   - eu: olioa
-    es: aceite
+    es: 油
 ---
 
 「**ライフスタイル**」と「**環境**」について話すのは、A2レベルの定番テーマです。新しい単語と、A1レベルからすでに習得している義務やアドバイスを表すフレーズ（*behar dugu*、*komeni da*、*garrantzitsua da*）が混ざっています。
 
 ## 健康的な習慣
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | スポーツをする | *kirola egin* |
 | 歩く / 散歩する | *paseatu* / *ibili* |
@@ -125,7 +125,7 @@ exercises:
 
 「X回」と言うには、**数字 + aldiz** という形を使います：
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 1日に1回 | *Egunean behin* |
 | 週に2回 | *Astean bi aldiz* / *birritan* |
@@ -137,7 +137,7 @@ exercises:
 
 ## 環境 — *ingurumena*
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 環境 | *ingurumena* |
 | 自然 | *natura* |
@@ -171,7 +171,7 @@ exercises:
 
 ## 地域での生活
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 地域、地区 | *auzoa* |
 | 隣人、住民 | *bizilaguna* |

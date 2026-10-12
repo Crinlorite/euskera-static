@@ -89,24 +89,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: black hair
   - eu: ile horia
-    es: pelo rubio
+    es: blond hair
   - eu: ile motza
-    es: pelo corto
+    es: short hair
   - eu: ile luzea
-    es: pelo largo
+    es: long hair
   - eu: begi urdinak
-    es: ojos azules
+    es: blue eyes
   - eu: begi marroiak
-    es: ojos marrones
+    es: brown eyes
   - eu: bizarduna
     es: with a beard
   - eu: betaurrekoduna
     es: with glasses
 ---
 
-To describe hair and eyes in Basque, you don't use **izan** ("to be") like in Spanish ("I am dark-haired"), but rather **ukan** ("to have"): *I have black hair*, *I have blue eyes*.
+To describe hair and eyes in Basque, you don't use **izan** ("to be") but **ukan** ("to have"), just like in English: *I have black hair*, *I have blue eyes*.
 
 ## Hair: ile
 
@@ -124,7 +124,7 @@ The word for "hair" is **ile** (with the article: *ilea*). Adjectives come after
 | *ile lisoa* | straight hair |
 | *ile kizkurra* | curly hair |
 
-> In Basque, hair is treated as **singular**, just like in Spanish. That's why you use *dut* / *du* (not *ditut* / *ditu*).
+> In Basque, hair is treated as **singular**, just like in English. That's why you use *dut* / *du* (not *ditut* / *ditu*).
 
 - *Ile beltza eta luzea **dut**.* — I have black and long hair.
 - *Maialenek ile kizkurra **du**.* — Maialen has curly hair.

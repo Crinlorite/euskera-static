@@ -77,17 +77,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: 電車で
   - eu: autobusez
     es: バスで
   - eu: hegazkinez
     es: 飛行機で
   - eu: kotxez
-    es: en coche
+    es: 車で
   - eu: oinez
-    es: andando
+    es: 歩いて
   - eu: bizikletaz
-    es: en bici
+    es: 自転車で
 ---
 
 旅のユニットが始まります。最初のテーマは**交通手段**と、それに関する動詞です。A1で学んだ具格の*-z*を使えば、「電車で」や「自転車で」と言うのは接尾辞一つで済みます。

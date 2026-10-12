@@ -23,7 +23,7 @@ exercises:
   explanation: '*Bezain* = 同等比較の「〜と同じくらい…」。*Zu bezain altua* = 君と同じくらい背が高い。'
 - id: ex-a2-de2-mc2
   type: multiple-choice
-  prompt: 「el mejor」はどう言いますか？
+  prompt: 「一番いい」はどう言いますか？
   options:
   - hobea
   - hobeagoa

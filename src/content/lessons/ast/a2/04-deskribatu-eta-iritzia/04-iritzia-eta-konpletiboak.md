@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-de4-mc1
   type: multiple-choice
-  prompt: '"Uste dut ona dela" significa…'
+  prompt: '"Uste dut ona dela" quier dicir…'
   options:
   - Creo que ye bono
   - Pienso ser bono
@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Nun creo que seya bono
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Porque vieno
   - eu: Egia delako
     es: Porque ye verdá
   - eu: Argi dago zaila dela
@@ -89,7 +89,7 @@ Pa A2 espresar la opinión ye una de les **competencies clave**. Esta lleición 
 
 ## Abrir una opinión
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Creo que… | *Uste dut...* |
 | Paezme que… | *Iruditzen zait...* |
@@ -105,7 +105,7 @@ Pa A2 espresar la opinión ye una de les **competencies clave**. Esta lleición 
 
 Cuando la opinión introduz otra frase, el verbu subordináu lleva'l sufixu **-(e)la** ("que…"). El cambiu ye mui regular:
 
-| Ensin sufixu | Con -ela | Castellán |
+| Ensin sufixu | Con -ela | Asturianu |
 |---|---|---|
 | *da* | *dela* | que ye / que ta |
 | *naiz* | *naizela* | que (yo) soi |
@@ -127,7 +127,7 @@ Cuando la opinión introduz otra frase, el verbu subordináu lleva'l sufixu **-(
 
 Cuando dices "**nun creo que** + verbu", el sufixu del subordináu cambia a **-enik**:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nun creo que seya bono | *Ez dut uste ona **denik*** |
 | Nun creo que vengan | *Ez dut uste etorriko **direnik*** |
@@ -139,7 +139,7 @@ Cuando dices "**nun creo que** + verbu", el sufixu del subordináu cambia a **-e
 
 Estes estructures combinen axetivu + *da* + frase con -ela:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Ta claro que… | *Argi dago + -(e)la* |
 | Ye importante que… | *Garrantzitsua da + -tzea* |
@@ -160,7 +160,7 @@ Pa espresar la **causa** ("porque"), tienes dos víes:
 
 > **verbu + -lako**
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Porque vino | *Etorri **delako*** |
 | Porque tengo fame | *Goseak nagoelako* (o *gose naizelako*) |
@@ -173,7 +173,7 @@ Pa espresar la **causa** ("porque"), tienes dos víes:
 
 ### Conxunción *zeren* (al principiu de la frase)
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Porque ye importante | *…, **zeren** garrantzitsua baita* |
 | …, yá que vino | *…, **zeren** etorri baita* |
@@ -192,7 +192,7 @@ Pa espresar la **causa** ("porque"), tienes dos víes:
 
 ## Estructures útiles nuna llista
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Pienso que ye importante | *Garrantzitsua **dela** uste dut* |
 | Sé que tien razón | *Arrazoia **duela** badakit* |
@@ -205,7 +205,7 @@ Pa espresar la **causa** ("porque"), tienes dos víes:
 
 1. **Nun escaezas la doble cara: -ela n'afirmativu, -enik en negativu d'opinión.**
 2. **El sufixu -ela pégase al verbu conxugáu**, non al participiu: *etorriko da → etorriko **dela***.
-3. **Si la opinión ye mui fuerte, en castellán uses el suxuntivu**, n'eusquera nun hai diferencia tayante: *uste dut ondo dagoela* (creo que ta bien) y *zalantza dut ondo dagoenik* (duldio de que tea bien) usen formes distintes pero non un «suxuntivu» formal.
+3. **N'asturianu, la dulda pide suxuntivu**, n'eusquera nun hai diferencia tayante: *uste dut ondo dagoela* (creo que ta bien) y *zalantza dut ondo dagoenik* (duldio de que tea bien) usen formes distintes pero non un «suxuntivu» formal.
 
 > **Nota pedagóxica:** la fórmula *Nire ustez + frase + -lako + frase* ye probablemente la ferramienta d'A2 más rentable pa opinar y argumentar. Exemplu modelu:
 >

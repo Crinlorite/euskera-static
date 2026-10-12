@@ -44,17 +44,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: argitsua
-    es: luminoso/a
+    es: 明亮
   - eu: handia
-    es: grande
+    es: 大
   - eu: txikia
-    es: pequeño/a
+    es: 小
   - eu: lasaia
-    es: tranquilo/a
+    es: 安静
   - eu: berria
-    es: nuevo/a
+    es: 新
   - eu: zaharra
-    es: viejo/a
+    es: 旧
 - id: ex-09-05-fc
   type: flashcards
   cards:
@@ -96,7 +96,7 @@ exercises:
 
 ## 基本问题
 
-| 问题 | 西班牙语 |
+| 问题 | 中文 |
 |---|---|
 | *Non dago zure etxea?* | 你家在哪儿？ |
 | *Nolakoa da?* | 它是什么样的？ |
@@ -107,7 +107,7 @@ exercises:
 
 ## 描述房子的实用形容词
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *handia* | 大的 |
 | *txikia* | 小的 |
@@ -144,7 +144,7 @@ exercises:
 
 ## 结尾词汇
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *etxebizitza* | 住宅 |
 | *etxejabea* | 房主 |

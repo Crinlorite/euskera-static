@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: 到这里来
   - eu: Hartu hau
-    es: Toma esto
+    es: 把这个吃了
   - eu: Eseri hemen
     es: 坐在这里
   - eu: Esadazu egia
@@ -93,7 +93,7 @@ exercises:
 
 对于许多日常命令，动词以其分词形式出现，无需助动词：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 拿 | *Hartu* |
 | 坐下 | *Eseri* |
@@ -127,7 +127,7 @@ exercises:
 
 当你发出带有双重宾语的命令时（“给我这个”、“告诉他那个”），巴斯克语有一些非常有用的紧凑形式：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 给我 | *Emadazu* / *Eman iezadazu* |
 | 告诉我 | *Esadazu* / *Esan iezadazu* |

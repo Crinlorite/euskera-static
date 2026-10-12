@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: 预约
   - eu: Eskabidea bete
     es: 填写申请表
   - eu: NANaren fotokopia
@@ -104,7 +104,7 @@ exercises:
 
 ## 办手续词汇
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 市政厅 | *udaletxea* |
 | 户籍 / 登记户口 | *errolda / erroldatu* |

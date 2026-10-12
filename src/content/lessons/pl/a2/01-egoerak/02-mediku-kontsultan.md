@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: „Hobeto nago” oznacza…
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Czuję się gorzej
+  - Czuję się dobrze
+  - Czuję się lepiej
+  - Bez zmian
   answer: 2
   explanation: '*Hobeto* = lepiej. *Hobe* to przymiotnik „lepszy”, a *hobeto* to przysłówek.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: Boli cię?
   - eu: Hartu hau
-    es: Toma esto
+    es: Weź to
   - eu: Itzuli astebete barru
     es: Proszę wrócić za tydzień
   - eu: Atseden hartu
-    es: Descansar
+    es: Odpoczywać
 ---
 
 Ta lekcja to **kompletna symulacja wizyty u lekarza**. Łączy słownictwo z poprzedniej lekcji z wyrażeniami czasu (co ile, przed/po) i częstymi zwrotami. Wizyta u lekarza to jeden z najbardziej użytecznych kontekstów na poziomie A2: pojawia się na każdym oficjalnym egzaminie.

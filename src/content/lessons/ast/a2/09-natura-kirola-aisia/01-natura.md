@@ -77,7 +77,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mendira igo
-    es: subir al monte
+    es: xubir al monte
   - eu: gailurrera iritsi
     es: llegar al cume
   - eu: basoan barrena ibili
@@ -85,7 +85,7 @@ exercises:
   - eu: ibaian bainatu
     es: bañase nel ríu
   - eu: itsasoari begira egon
-    es: estar mirando al mar
+    es: tar mirando la mar
   - eu: argazkia atera
     es: sacar la foto
 ---
@@ -94,7 +94,7 @@ Unidá nueva: **aire llibre**. Empezamos pol escenariu — monte, viesca, ríu y
 
 ## El monte
 
-| Castellanu | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El monte | *mendia* |
 | El cume | *gailurra* |
@@ -111,7 +111,7 @@ Unidá nueva: **aire llibre**. Empezamos pol escenariu — monte, viesca, ríu y
 
 ## L'agua
 
-| Castellanu | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El ríu | *ibaia* |
 | L'embalse / pantanu | *urtegia* |

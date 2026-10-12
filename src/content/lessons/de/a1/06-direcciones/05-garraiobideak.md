@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: zu Fuß
   - eu: kotxez / autoz
-    es: en coche
+    es: mit dem Auto
   - eu: autobusez
     es: mit dem Bus
   - eu: trenez
-    es: en tren
+    es: mit dem Zug
   - eu: bizikletaz
-    es: en bicicleta
+    es: mit dem Fahrrad
   - eu: hegazkinez
     es: mit dem Flugzeug
   - eu: itsasontziz
-    es: en barco
+    es: mit dem Schiff
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Wie sagt man „Ich fahre mit dem Bus“?
@@ -103,7 +103,7 @@ exercises:
     es: Strecke / Route
 ---
 
-Zum Abschluss der Einheit fehlt uns noch ein Puzzleteil: **wie du dich fortbewegst**. Im Spanischen verwenden wir „en + Verkehrsmittel“ („en coche“, „en autobús“). Im Baskischen verwendet man das Suffix **`-z`** (der *Instrumental*-Fall), das an das Verkehrsmittel angehängt wird und, überraschenderweise, auch an das Wort für „Fuß“.
+Zum Abschluss der Einheit fehlt uns noch ein Puzzleteil: **wie du dich fortbewegst**. Im Deutschen sagen wir „mit + Verkehrsmittel“ („mit dem Auto“, „mit dem Bus“). Im Baskischen verwendet man das Suffix **`-z`** (der *Instrumental*-Fall), das an das Verkehrsmittel angehängt wird und, überraschenderweise, auch an das Wort für „Fuß“.
 
 ## Die Frage
 

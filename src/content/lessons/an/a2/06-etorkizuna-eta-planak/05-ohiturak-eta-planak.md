@@ -62,7 +62,7 @@ exercises:
   - eu: bazkaldu ohi dugu
     es: solemos minchar
   - eu: etorri ohi da
-    es: suele venir
+    es: suele vinir
   - eu: erre ohi nuen
     es: soleba fumar
   - eu: joan ohi ginen
@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTURO: iré'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASAU puntual: fui'
   - eu: Joaten nintzen
     es: 'PASAU habito: iba'
   - eu: Joan ohi nintzen
     es: 'PASAU habito: soleba ir'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'AGORA: estoi indo'
 ---
 
 Zaguera lección d'a unidat — y zarre d'un ciclo enorme: con o futuro ya en a pocha, **dominas os tres tiempos**. Ista lección adhibe a guinda (*ohi*, o "soler" basco) y te fa mover una mesma idea por pasau, present-habito y futuro. Isto ye, exactament, o que un tribunal d'A2 quiere sentir.
@@ -110,7 +110,7 @@ Zaguera lección d'a unidat — y zarre d'un ciclo enorme: con o futuro ya en a 
 |---|---|
 | Suelo ir en bici a o treballo | *Lanera bizikletaz joan **ohi** naiz* |
 | Solemos minchar en casa d'a yaya | *Amonaren etxean bazkaldu **ohi** dugu* |
-| Suele venir tarde | *Berandu etorri **ohi** da* |
+| Suele vinir tarde | *Berandu etorri **ohi** da* |
 | Soleba fumar (ya no) | *Erre **ohi** nuen* |
 
 Dos apuntes:
@@ -138,9 +138,9 @@ Dos apuntes:
 |---|---|---|
 | Voi (habito) | *joaten naiz* / *joan ohi naiz* | presente habitual |
 | Soi indo | *joaten ari naiz* | presente en curso |
-| He iu (hue) | *joan naiz* | pasado reciente |
-| Fui (un día) | *joan nintzen* | pasado puntual |
-| Iba / soleba ir | *joaten nintzen* / *joan ohi nintzen* | pasado habitual |
+| He iu (hue) | *joan naiz* | pasau recient |
+| Fui (un día) | *joan nintzen* | pasau puntual |
+| Iba / soleba ir | *joaten nintzen* / *joan ohi nintzen* | pasau habitual |
 | Iré | ***joango naiz*** | **futuro** |
 
 Seis caixetas. Un solo verbo. **Todas tuyas.**

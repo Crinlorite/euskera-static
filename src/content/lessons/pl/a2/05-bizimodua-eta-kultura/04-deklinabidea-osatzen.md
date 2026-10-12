@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: aż do góry
   - eu: etxerantz
-    es: hacia casa
+    es: w stronę domu
   - eu: lagunarengatik
     es: z powodu przyjaciela
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ Ta lekcja integracyjna powtarza **cztery nowe deklinacje**, które poziom A2 dod
 | zuentzat | *zuentzat* | dla was |
 | haientzat | *haientzat* | dla nich |
 | Lander | *Landerrentzat* | dla Landera |
-| la madre | *amarentzat* | dla matki |
-| los amigos | *lagunentzat* | dla przyjaciół |
+| matka | *amarentzat* | dla matki |
+| przyjaciele | *lagunentzat* | dla przyjaciół |
 
 > *Hau **zuretzat** da.* — To jest dla ciebie.
 >
@@ -160,9 +160,9 @@ Aby zapytać o powód: **zergatik?** (dlaczego?). Aby odpowiedzieć za pomocą r
 | zugatik | *zugatik* | przez ciebie |
 | beragatik / harengatik | *beragatik* | przez niego/nią |
 | Lander | *Landerrengatik* | przez Landera |
-| la madre | *amarengatik* | przez matkę |
-| el amor | *maitasunarengatik* | z powodu miłości |
-| la lluvia | *euriagatik* | z powodu deszczu |
+| matka | *amarengatik* | przez matkę |
+| miłość | *maitasunarengatik* | z powodu miłości |
+| deszcz | *euriagatik* | z powodu deszczu |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — Dziękuję, że przyszedłeś, z mojego powodu!
 >
@@ -170,7 +170,7 @@ Aby zapytać o powód: **zergatik?** (dlaczego?). Aby odpowiedzieć za pomocą r
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Dlaczego to zrobiłeś? — Przez ciebie.
 
-> **Uwaga:** rozróżniaj *-engatik* (przyczyna: „z powodu”) od *-rentzat* (odbiorca: „dla”). W hiszpańskim „por” obejmuje oba znaczenia, ale w baskijskim są one rozróżniane.
+> **Uwaga:** rozróżniaj *-engatik* (przyczyna: „z powodu”) od *-rentzat* (odbiorca: „dla”). Po polsku też to rozróżniamy („z powodu” / „dla”), tak jak w baskijskim.
 
 ## NONGO / NOIZKO — z jakiego miejsca / momentu
 

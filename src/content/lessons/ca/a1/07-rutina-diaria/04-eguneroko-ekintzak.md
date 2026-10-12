@@ -25,7 +25,7 @@ exercises:
   explanation: 'L''aspecte habitual (-tzen + naiz/dut) expressa el que fas normalment: "em desperto" (cada dia).'
 - id: ex-04-ee-mc2
   type: multiple-choice
-  prompt: '"Egunero gosaltzen dut" significa…'
+  prompt: '"Egunero gosaltzen dut" vol dir…'
   options:
   - He esmorzat avui
   - Esmorzo cada dia
@@ -49,23 +49,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: esnatu
-    es: despertarse
+    es: despertar-se
   - eu: jaiki
-    es: levantarse
+    es: llevar-se
   - eu: dutxatu
-    es: ducharse
+    es: dutxar-se
   - eu: gosaldu
-    es: desayunar
+    es: esmorzar
   - eu: bazkaldu
-    es: comer (almorzar)
+    es: dinar
   - eu: afaldu
-    es: cenar
+    es: sopar
   - eu: lan egin
-    es: trabajar
+    es: treballar
   - eu: lo egin
     es: dormir
   - eu: oheratu
-    es: acostarse
+    es: anar a dormir
 - id: ex-04-ee-fc
   type: flashcards
   cards:

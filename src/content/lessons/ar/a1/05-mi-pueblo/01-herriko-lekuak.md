@@ -14,21 +14,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: taberna
-    es: bar
+    es: حانة
   - eu: okindegia
     es: مخبز
   - eu: botika
-    es: farmacia
+    es: صيدلية
   - eu: liburutegia
-    es: biblioteca
+    es: مكتبة
   - eu: eliza
-    es: iglesia
+    es: كنيسة
   - eu: merkatua
-    es: mercado
+    es: سوق
   - eu: banketxea
-    es: banco
+    es: بنك
   - eu: ospitalea
-    es: hospital
+    es: مستشفى
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: تحتاج إلى شراء خبز. إلى أي نوع من المتاجر تذهب؟

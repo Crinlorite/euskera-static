@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: Trink nicht viel
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Iss Obst
   - eu: Egin kirola
-    es: Haz deporte
+    es: Treib Sport
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Schlaf gut
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Versuch, ruhig zu bleiben
 ---
 
 Diese Lektion verbindet die drei Themen der Einheit: Wir geben **Ratschläge**, Verbote und Empfehlungen für ein gesundes Leben. Du wirst den **verneinten Imperativ** und eine Handvoll sehr nützlicher A2-Formeln lernen, um deine Meinung darüber zu äußern, was man tun sollte.
@@ -90,7 +90,7 @@ Diese Lektion verbindet die drei Themen der Einheit: Wir geben **Ratschläge**, 
 
 Die einfachste Form und die, die du am häufigsten verwenden wirst:
 
-> **ez + participio**
+> **ez + Partizip**
 
 | Deutsch | Euskera |
 |---|---|

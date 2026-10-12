@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-bi1-mc1
   type: multiple-choice
-  prompt: '"Trena galdu dut" significa…'
+  prompt: '"Trena galdu dut" quier dicir…'
   options:
   - Compré'l tren
   - Perdí'l tren

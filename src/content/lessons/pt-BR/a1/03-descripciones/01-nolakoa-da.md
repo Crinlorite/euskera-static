@@ -82,19 +82,19 @@ exercises:
   - eu: altua
     es: alto
   - eu: baxua
-    es: bajo
+    es: baixo
   - eu: handia
     es: grande
   - eu: txikia
-    es: pequeño
+    es: pequeno
   - eu: lodia
     es: gordo
   - eu: argala
-    es: delgado
+    es: magro
   - eu: polita
     es: bonito
   - eu: itsusia
-    es: feo
+    es: feio
 ---
 
 Quando você quer descrever como é uma pessoa ou uma coisa de maneira **estável** (fisicamente, em geral), em euskera usamos a pergunta **Nolakoa da?** ("como é?") e respondemos com o verbo **izan** + um adjetivo com a marca `-a` final.

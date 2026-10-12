@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: 拿铁/牛奶咖啡
   - eu: ura
-    es: agua
+    es: 水
   - eu: ardo gorria
-    es: vino tinto
+    es: 红酒
   - eu: garagardoa
-    es: cerveza
+    es: 啤酒
   - eu: sagardoa
-    es: sidra
+    es: 苹果酒
   - eu: zumoa
-    es: zumo
+    es: 果汁
   - eu: tea
     es: 茶
 ---
@@ -112,7 +112,7 @@ exercises:
 
 咖啡可能是你会点得最多的东西。它有几种形式：
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *kafea* | 咖啡（泛指） |
 | *kafe hutsa* | 黑咖啡（字面意思：“纯/空的咖啡”） |
@@ -126,7 +126,7 @@ exercises:
 
 ## 其他饮品
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *ura* | 水 |
 | *zumoa* | 果汁 |
@@ -146,7 +146,7 @@ exercises:
 
 用来搭配你的饮品：
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *ogia* | 面包 |
 | *gazta* | 奶酪 |
@@ -158,7 +158,7 @@ exercises:
 
 ## 定冠词 `-a`
 
-几乎所有这些词在句子中以“中性”形式出现时，词尾都会带上 **`-a`**：这是定冠词，相当于西班牙语的“el / la”。
+几乎所有这些词在句子中以“中性”形式出现时，词尾都会带上 **`-a`**：这是定冠词（中文没有冠词）。
 
 - *Ardoa gustatzen zait.* — 我喜欢葡萄酒。
 - *Ura nahi dut.* — 我想要水。

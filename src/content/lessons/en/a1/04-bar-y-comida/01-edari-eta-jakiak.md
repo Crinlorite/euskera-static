@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: coffee with milk
   - eu: ura
-    es: agua
+    es: water
   - eu: ardo gorria
-    es: vino tinto
+    es: red wine
   - eu: garagardoa
-    es: cerveza
+    es: beer
   - eu: sagardoa
-    es: sidra
+    es: cider
   - eu: zumoa
-    es: zumo
+    es: juice
   - eu: tea
     es: tea
 ---
@@ -138,7 +138,7 @@ Coffee is probably what you'll order most often. It comes in several forms:
 | *zuritoa* | small draft beer (typical) |
 | *sagardoa* | cider |
 | *txakolina* | txakoli (Basque white wine) |
-| *patxarana* | pacharán |
+| *patxarana* | pacharán (sloe liqueur) |
 
 > Three curious words: **sagardo** (cider) = *sagar* (apple) + *ardo* (wine); **garagardo** (beer) = *garagar* (barley) + *ardo*; **txakolina** is a young, light white wine, a hallmark of the Basque Country.
 

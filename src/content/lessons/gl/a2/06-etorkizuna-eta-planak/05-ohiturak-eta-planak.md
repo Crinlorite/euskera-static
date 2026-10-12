@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTURO: irei'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASADO puntual: fun'
   - eu: Joaten nintzen
     es: 'PASADO hábito: ía'
   - eu: Joan ohi nintzen
     es: 'PASADO hábito: adoitaba ir'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'AGORA: estou indo'
 ---
 
 Última lección da unidade — e peche dun ciclo enorme: co futuro xa no peto, **dominas os tres tempos**. Esta lección engade a guinda (*ohi*, o "adoitar" éuscaro) e faiche mover unha mesma idea por pasado, presente-hábito e futuro. Isto é, exactamente, o que un tribunal de A2 quere oír.

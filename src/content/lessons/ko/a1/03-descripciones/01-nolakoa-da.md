@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: 키가 크다
   - eu: baxua
-    es: bajo
+    es: 키가 작다
   - eu: handia
-    es: grande
+    es: 크다
   - eu: txikia
-    es: pequeño
+    es: 작다
   - eu: lodia
-    es: gordo
+    es: 뚱뚱하다
   - eu: argala
-    es: delgado
+    es: 날씬하다
   - eu: polita
-    es: bonito
+    es: 예쁘다
   - eu: itsusia
-    es: feo
+    es: 못생겼다
 ---
 
 사람이나 사물의 **변치 않는** 특징(신체적, 일반적)을 묘사하고 싶을 때, 바스크어에서는 **Nolakoa da?**('어때?')라는 질문을 사용하고 **izan** 동사와 끝에 `-a`가 붙는 형용사로 대답합니다.

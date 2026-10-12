@@ -85,17 +85,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: papier
   - eu: plastikoa
     es: plastique
   - eu: beira
-    es: vidrio
+    es: verre
   - eu: organikoa
     es: organique
   - eu: pila
-    es: pila
+    es: pile
   - eu: olioa
-    es: aceite
+    es: huile
 ---
 
 Parler de **style de vie** et d'**environnement** est un bloc classique du niveau A2 : on y mélange du nouveau vocabulaire avec des phrases d'obligation et de conseil (*behar dugu*, *komeni da*, *garrantzitsua da*) que tu maîtrises déjà depuis le A1.

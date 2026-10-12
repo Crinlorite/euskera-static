@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — точно като на испански, почти без промяна.'
+  explanation: '*plater konbinatua* — заемка от испанското «plato combinado», почти без промяна.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: За мен една порция сирене = Niretzat ___ ___.

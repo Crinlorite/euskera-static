@@ -24,7 +24,7 @@ exercises:
   explanation: '"Jarriko al didazu… mesedez?" = "Em poses…, si us plau?". Estructura cortesa i freqüent.'
 - id: ex-erostera-mc2
   type: multiple-choice
-  prompt: '"Hartuko dut" significa…'
+  prompt: '"Hartuko dut" vol dir…'
   options:
   - L'agafaré (el compro)
   - No el vull

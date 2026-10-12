@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-nz-mc1
   type: multiple-choice
-  prompt: 「Voy a Bilbao」（ビルバオへ行きます）はバスク語で何と言いますか？
+  prompt: 「ビルバオへ行きます」はバスク語で何と言いますか？
   options:
   - Bilbon noa
   - Bilbora noa
@@ -102,20 +102,20 @@ exercises:
   - eu: Nora zoaz?
     es: どこへ行くの？
   - eu: Etxera noa
-    es: Voy a casa
+    es: 家に帰ります
   - eu: Eskolara noa
     es: 学校へ行きます
   - eu: Zertara zoaz?
     es: 何をしに行くの？
   - eu: Erostera
-    es: A comprar
+    es: 買い物に
 ---
 
-**NORA格**（*adlativo*、向格とも呼ばれます）は、移動の**目的地**、つまりどこへ行くかを示します。スペイン語では通常、前置詞の**"a"**で訳されます（"voy *a* casa"「家へ行く」、"*a* Bilbao"「ビルバオへ」、"*al* parque"「公園へ」など）。
+**NORA格**（*adlatiboa*、向格とも呼ばれます）は、移動の**目的地**、つまりどこへ行くかを示します。日本語の助詞**「へ／に」**に当たります（「家へ行く」「ビルバオへ」「公園へ」など）。
 
 ## 質問: Nora?
 
-| 質問 | スペイン語 |
+| 質問 | 日本語 |
 |---|---|
 | ***Nora* zoaz?** | どこへ行きますか？ |
 | ***Nora* doa?** | （彼/彼女は）どこへ行きますか？ |
@@ -159,7 +159,7 @@ exercises:
 | *Zertara goaz mendira?* | *Ibiltzera.* — 歩きに。 |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — 泳ぎに。 |
 
-> **パターン:** *（動詞の分詞形）+ -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*。これは基本的にスペイン語の "a + 不定詞" に相当します。
+> **パターン:** *（動詞の分詞形）+ -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*。これは基本的に日本語の「〜しに（行く）」に相当します。
 
 ## ミニ会話
 

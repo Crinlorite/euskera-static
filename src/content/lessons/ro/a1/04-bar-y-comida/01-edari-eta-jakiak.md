@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: cafea cu lapte
   - eu: ura
-    es: agua
+    es: apă
   - eu: ardo gorria
-    es: vino tinto
+    es: vin roșu
   - eu: garagardoa
-    es: cerveza
+    es: bere
   - eu: sagardoa
-    es: sidra
+    es: cidru
   - eu: zumoa
-    es: zumo
+    es: suc
   - eu: tea
     es: ceai
 ---
@@ -138,7 +138,7 @@ Cafeaua este probabil ceea ce vei comanda cel mai des. Are mai multe forme:
 | *zuritoa* | bere mică (tipică) |
 | *sagardoa* | cidru |
 | *txakolina* | txakoli (vin alb basc) |
-| *patxarana* | pacharán |
+| *patxarana* | patxaran (lichior de porumbe) |
 
 > Trei cuvinte curioase: **sagardo** (cidru) = *sagar* (măr) + *ardo* (vin); **garagardo** (bere) = *garagar* (orz) + *ardo*; **txakolina** este un vin alb tânăr și ușor, marcă înregistrată în Euskadi.
 

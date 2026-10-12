@@ -79,14 +79,14 @@ exercises:
   - eu: Joan nuen autoa
     es: (non é válido)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Ía camiño
   - eu: Bizi nintzen Bilbon
     es: Vivía en Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Fun a Bilbao onte
 ---
 
-O **imperfecto** do éuscaro (*iragan ez burutua*) corresponde, a grandes trazos, ao "comía / vivía / ía / traballaba" do castelán. Serve para contar:
+O **imperfecto** do éuscaro (*iragan ez burutua*) corresponde, a grandes trazos, ao "comía / vivía / ía / traballaba" do galego. Serve para contar:
 
 - **Hábitos do pasado** (o que facías habitualmente).
 - **Descricións** (como era, onde vivías, que tiñas).

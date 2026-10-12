@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-ir2-mc1
   type: multiple-choice
-  prompt: '"Liburua irakurri nuen" significa…'
+  prompt: '"Liburua irakurri nuen" vol dir…'
   options:
   - Estic llegint el llibre
   - He llegit el llibre

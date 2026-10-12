@@ -114,7 +114,7 @@ exercises:
 
 ## 总结性短语
 
-| 中文意思 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我们玩得非常开心 | *Primeran pasatu genuen* |
 | 很值得 | *Merezi izan zuen* |

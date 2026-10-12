@@ -82,7 +82,7 @@ exercises:
   - eu: asteazkena
     es: miércols
   - eu: osteguna
-    es: jueves
+    es: chueves
   - eu: ostirala
     es: viernes
   - eu: larunbata

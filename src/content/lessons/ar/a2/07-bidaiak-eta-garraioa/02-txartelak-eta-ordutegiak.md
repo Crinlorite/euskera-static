@@ -97,7 +97,7 @@ exercises:
   - eu: Berandu dabil
     es: إنه متأخر
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: وصلنا في الموعد
 ---
 
 المحطة الثانية: **شراء التذكرة وعدم تفويت القطار**. هنا ستعيد استخدام سلاحين من المستوى A1 — *zenbat balio du?* (الأسعار) والساعات — وتستخدمهما في شباك التذاكر.

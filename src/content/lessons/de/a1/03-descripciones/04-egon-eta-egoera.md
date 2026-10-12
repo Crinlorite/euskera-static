@@ -84,24 +84,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: zufrieden
   - eu: triste
-    es: triste
+    es: traurig
   - eu: nekatuta
-    es: cansado
+    es: müde
   - eu: haserre
-    es: enfadado
+    es: wütend
   - eu: gaixorik
-    es: enfermo
+    es: krank
   - eu: ondo
-    es: bien
+    es: gut
   - eu: gaizki
-    es: mal
+    es: schlecht
   - eu: lasai
-    es: tranquilo (ahora)
+    es: ruhig (gerade)
 ---
 
-Im Baskischen gibt es zwei Verben, wo das Spanische nur eines verwendet. Du kennst bereits **izan** („sein“ für Eigenschaften). Jetzt kommt **egon**, das mit „sein“ übersetzt wird, wenn wir über **vorübergehende Zustände** sprechen: wie es jemandem heute, jetzt gerade, in diesem Moment geht.
+Im Baskischen gibt es zwei Verben, wo das Deutsche nur „sein“ verwendet. Du kennst bereits **izan** („sein“ für Eigenschaften). Jetzt kommt **egon**, das mit „sein“ übersetzt wird, wenn wir über **vorübergehende Zustände** sprechen: wie es jemandem heute, jetzt gerade, in diesem Moment geht.
 
 ## Das Paradigma von egon
 

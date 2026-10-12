@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'VIITOR: voi merge'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'TRECUT PUNCTUAL: am mers'
   - eu: Joaten nintzen
     es: 'TRECUT obicei: mergeam'
   - eu: Joan ohi nintzen
     es: 'TRECUT obicei: obișnuiam să merg'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'ACUM: sunt pe drum'
 ---
 
 Ultima lecție a unității — și încheierea unui ciclu enorm: cu viitorul deja în buzunar, **stăpânești cele trei timpuri**. Această lecție adaugă cireașa de pe tort (*ohi*, echivalentul basc pentru "a obișnui") și te face să plimbi aceeași idee prin trecut, prezent-obicei și viitor. Acesta este, exact, lucrul pe care o comisie de A2 vrea să-l audă.

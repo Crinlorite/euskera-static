@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-otr-mc1
   type: multiple-choice
-  prompt: '"Bazkaria" significa…'
+  prompt: '"Bazkaria" vol dir…'
   options:
   - l'esmorzar
   - el dinar del migdia
@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: esmorzar
   - eu: hamaiketakoa
     es: mos de mig matí
   - eu: bazkaria
     es: dinar del migdia
   - eu: askaria
-    es: merienda
+    es: berenar
   - eu: afaria
-    es: cena
+    es: sopar
   - eu: jan
-    es: comer
+    es: menjar
   - eu: edan
-    es: beber
+    es: beure
 ---
 
 Cada àpat del dia té el seu nom en euskera, i conèixer-los t'ajudarà a parlar de la teva rutina diària. A més, hi ha un àpat específicament basc que en català no té equivalent directe: el **hamaiketako**.

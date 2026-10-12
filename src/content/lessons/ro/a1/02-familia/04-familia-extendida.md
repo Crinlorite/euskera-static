@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: mătușă
   - eu: lehengusu
-    es: primo
+    es: văr
   - eu: lehengusina
-    es: prima
+    es: verișoară
   - eu: iloba
-    es: sobrino/a
+    es: nepot/nepoată
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" înseamnă...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - văr
+  - frate
+  - bunic
+  - socru
   answer: 0
 - id: ex-fe-fc
   type: flashcards

@@ -97,14 +97,14 @@ exercises:
   - eu: Berandu dabil
     es: Va damb retard
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: Auem arribat a temps
 ---
 
 Dusau arrêt: **comprar eth bilhet e non pèrder eth tren**. Ací recicles dues armes der A1 — *zenbat balio du?* (prètzi) e es ores — e es hès a trabalhar ena bilhetaria.
 
 ## Ena bilhetaria
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Eth bilhet | *txartela* |
 | Sonque anar | *joaneko txartela* |
@@ -132,7 +132,7 @@ Dusau arrêt: **comprar eth bilhet e non pèrder eth tren**. Ací recicles dues 
 
 ## Retards e puntualitat
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Va damb retard | *berandu dabil* |
 | Arribe a temps | *garaiz iritsi da* |

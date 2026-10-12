@@ -74,20 +74,20 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Ola
   - eu: Agur
     es: Adeus
   - eu: Egun on
     es: Bos días
   - eu: Gabon
-    es: Buenas noches
+    es: Boas noites
   - eu: Gero arte
-    es: Hasta luego
+    es: Ata logo
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Moitas grazas
 ---
 
-En éuscaro, os saúdos cambian segundo o momento do día. A fórmula universal e a máis común é **Kaixo**, que se usa a calquera hora con case calquera persoa — igual que o "ola" en castelán. **Hepa** ou **Aupa** son alternativas aínda máis informais, sobre todo entre xente nova e amigos.
+En éuscaro, os saúdos cambian segundo o momento do día. A fórmula universal e a máis común é **Kaixo**, que se usa a calquera hora con case calquera persoa — igual que o "ola" en galego. **Hepa** ou **Aupa** son alternativas aínda máis informais, sobre todo entre xente nova e amigos.
 
 ## Saúdos por momento do día
 

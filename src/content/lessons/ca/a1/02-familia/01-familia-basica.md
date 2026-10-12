@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: pare
   - eu: ama
-    es: madre
+    es: mare
   - eu: anaia
     es: germà (d'un home o d'una dona)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: germana (la diu una dona)
   - eu: seme
-    es: hijo
+    es: fill
   - eu: alaba
-    es: hija
+    es: filla
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: La Maialen té una germana. Com es diu "germana" des del punt de vista de la Maialen?

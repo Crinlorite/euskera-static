@@ -53,21 +53,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: hue
   - eu: atzo
-    es: ayer
+    es: ahier
   - eu: bihar
-    es: mañana
+    es: manyana
   - eu: etzi
-    es: pasado mañana
+    es: pasau manyana
   - eu: gaur goizean
-    es: esta mañana
+    es: iste maitino
   - eu: gaur arratsaldean
     es: esta tarde
   - eu: atzo gauean
-    es: anoche
+    es: anit
   - eu: orain
-    es: ahora
+    es: agora
   - eu: lehen
     es: antes
 - id: ex-04-nm-fc
@@ -126,7 +126,7 @@ Pa contar bien o que ha pasau, precisas decir **cuan**. Ista lección te da os m
 | *lehen* | antes |
 | *gero* | dimpués |
 
-> Si t'has fixau, *atzo* (ahier) y *bihar* (maitín) son dos parolas tan curtas que s'aprenden d'un truco. *Etzi* (pasau maitín) ye una parola que o castellano no tiene en una sola pieza — un chiquet present de l'euskera.
+> Si t'has fixau, *atzo* (ahier) y *bihar* (maitín) son dos parolas tan curtas que s'aprenden d'un truco. *Etzi* (pasau maitín) ye una parola sola, mientres que en aragonés en fan falta dos — un chiquet present de l'euskera.
 
 ## Combinando con momentos d'o día
 

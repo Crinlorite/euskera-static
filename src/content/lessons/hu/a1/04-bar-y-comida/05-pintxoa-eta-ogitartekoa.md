@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — pontosan úgy, mint spanyolul, különösebb átalakítás nélkül.'
+  explanation: '*plater konbinatua* — a spanyol «plato combinado» átvétele, különösebb átalakítás nélkül.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Nekem egy adag sajtot = Niretzat ___ ___.

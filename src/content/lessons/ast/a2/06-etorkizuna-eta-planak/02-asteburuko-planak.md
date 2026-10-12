@@ -52,7 +52,7 @@ exercises:
   prompt: Tengo intención d'estudiar eusquera = euskara ikasteko ___ dut.
   answers:
   - asmoa
-  explanation: '*Asmoa* = la intención. Estructura: verbo + *-t(z)eko* + **asmoa** + ukan.'
+  explanation: '*Asmoa* = la intención. Estructura: verbu + *-t(z)eko* + **asmoa** + ukan.'
 - id: ex-a2-et2-fc
   type: flashcards
   cards:
@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: ayeri (pasáu)
   - eu: bihar
-    es: mañana (futuro)
+    es: mañana (futuru)
   - eu: herenegun
-    es: anteayer
+    es: antayeri
   - eu: etzi
-    es: pasado mañana
+    es: pasao mañana
   - eu: joan den astean
     es: la selmana pasada
   - eu: datorren astean
@@ -105,7 +105,7 @@ Yá sabes construyir el futuru. Agora toca **usalo pa lo que val de verdá nel d
 
 ## Los marcadores de futuru
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Mañana | *bihar* |
 | Pasao mañana | *etzi* |
@@ -131,7 +131,7 @@ Y les sos respuestes típiques:
 
 ## Intenciones y decisiones
 
-| Castellán | Eusquera | Matiz |
+| Asturianu | Eusquera | Matiz |
 |---|---|---|
 | Tengo intención de viaxar | *Bidaiatzeko **asmoa dut*** | plan na cabeza |
 | Decidí cambiar de trabayu | *Lanez aldatzea **erabaki dut*** | decisión tomada |

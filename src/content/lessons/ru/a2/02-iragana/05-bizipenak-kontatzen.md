@@ -27,8 +27,8 @@ exercises:
   prompt: Чтобы описать **фон** действия (каким был день, где все находились) в истории, какое прошедшее время использовать?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Настоящее время
+  - Недавнее прошедшее (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: Сцена, описание и привычные действия передаются имперфектом. Единичные действия, которые двигают историю вперёд, передаются с помощью *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: он женился / она вышла замуж
   - eu: bidaiatu zuten
-    es: viajaron
+    es: они путешествовали
   - eu: ezagutu nuen
     es: я познакомился(-ась)
   - eu: maitemindu nintzen
@@ -105,10 +105,10 @@ exercises:
 
 | Функция | Время | Пример |
 |---|---|---|
-| Временные и пространственные рамки | imperfecto | *Garai hartan Bilbon **bizi ginen*** |
-| Каким был / каким было состояние | imperfecto | *Iluna **zen** kalea* |
+| Временные и пространственные рамки | имперфект | *Garai hartan Bilbon **bizi ginen*** |
+| Каким был / каким было состояние | имперфект | *Iluna **zen** kalea* |
 | Что произошло (единичное действие) | burutua | *Bat-batean atea **jo zuten*** |
-| Действие в процессе | ari nintzen / sintético | *Afaria **prestatzen ari nintzen*** |
+| Действие в процессе | ari nintzen / синтетическая форма | *Afaria **prestatzen ari nintzen*** |
 | Результат | burutua | *Eta gauza guztiak **gertatu ziren*** |
 
 ## Временные союзы и наречия

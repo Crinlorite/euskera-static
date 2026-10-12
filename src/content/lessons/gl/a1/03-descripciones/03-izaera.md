@@ -18,7 +18,7 @@ exercises:
   - aburrido
   - alegre
   - nervioso
-  - callado
+  - calado
   answer: 1
   explanation: '*alaia* é "alegre". É un dos adxectivos de carácter máis comúns.'
 - id: ex-iza-mc2
@@ -89,17 +89,17 @@ exercises:
   - eu: alaia
     es: alegre
   - eu: isila
-    es: callado
+    es: calado
   - eu: berritsua
-    es: hablador
+    es: falador
   - eu: lasaia
     es: tranquilo
   - eu: urduria
     es: nervioso
   - eu: langilea
-    es: trabajador
+    es: traballador
   - eu: alferra
-    es: vago
+    es: preguiceiro
   - eu: jatorra
     es: simpático
 ---

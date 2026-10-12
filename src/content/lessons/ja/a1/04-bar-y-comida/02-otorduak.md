@@ -75,22 +75,22 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: 朝食
   - eu: hamaiketakoa
     es: 午前中の軽食
   - eu: bazkaria
     es: 昼食
   - eu: askaria
-    es: merienda
+    es: おやつ
   - eu: afaria
-    es: cena
+    es: 夕食
   - eu: jan
-    es: comer
+    es: 食べる
   - eu: edan
-    es: beber
+    es: 飲む
 ---
 
-バスク語では、一日の各食事に名前があります。これらを知っておくと、日々の習慣について話すのに役立ちます。また、スペイン語に直接の訳語がない、バスク特有の食事があります。それが**hamaiketako**です。
+バスク語では、一日の各食事に名前があります。これらを知っておくと、日々の習慣について話すのに役立ちます。また、日本語に直接の訳語がない、バスク特有の食事があります。それが**hamaiketako**です。
 
 ## 一日の5回の食事
 

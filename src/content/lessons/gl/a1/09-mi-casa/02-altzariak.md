@@ -17,7 +17,7 @@ exercises:
   - eu: mahaia
     es: mesa
   - eu: aulkia
-    es: silla
+    es: cadeira
   - eu: ohea
     es: cama
   - eu: armairua
@@ -27,7 +27,7 @@ exercises:
   - eu: telebista
     es: televisión
   - eu: hozkailua
-    es: nevera
+    es: neveira
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: En que cuarto está o "hozkailua"?

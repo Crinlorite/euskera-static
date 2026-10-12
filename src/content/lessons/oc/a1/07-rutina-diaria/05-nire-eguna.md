@@ -84,7 +84,7 @@ Aguesta leçon amasse tot çò dera unitat: era ora, es moments deth dia, es vè
 
 ## Era pregunta clau: "Zer ordutan…?"
 
-| Pregunta | Occitan |
+| Pregunta | Aranés |
 |---|---|
 | *Zer ordutan esnatzen zara?* | A quina ora te desvelhes? |
 | *Zer ordutan jaikitzen zara?* | A quina ora te lhèues? |

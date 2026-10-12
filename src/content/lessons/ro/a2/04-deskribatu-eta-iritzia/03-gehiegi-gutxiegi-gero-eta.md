@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: a mânca prea mult
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: a dormi prea puțin
   - eu: gero eta hotzago
     es: din ce în ce mai frig
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: din ce în ce mai puțin
   - eu: pixka bat berandu
     es: puțin târziu
   - eu: askoz hobeto
-    es: mucho mejor
+    es: mult mai bine
 ---
 
 Această lecție completează comparațiile cu încă două elemente:
@@ -133,7 +133,7 @@ Ca adverbe independente:
 
 Pentru "**din ce în ce mai X**" sau "**din ce în ce mai puțin X**", limba bască folosește o formulă foarte expresivă:
 
-> **gero eta + adjetivo/adverbio-ago(a)**
+> **gero eta + adjectiv/adverb-ago(a)**
 
 | Română | Euskera |
 |---|---|

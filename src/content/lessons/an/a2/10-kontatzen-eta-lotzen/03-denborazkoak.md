@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: dimpués d'almorzar
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: cuan almuerzo
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: mientres almuerzo
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: luego que almuerzo
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: sin almorzar
 ---
 
 As tuyas frases ya saben QUÉ pasó; ista lección les amuestra a decir **CUAN** con precisión de relochero: *cuan plegué*, *antis de salir*, *dimpués de minchar*, *mientres dormibas*. Tres piezas y as combinacions salen solas.

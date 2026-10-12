@@ -93,7 +93,7 @@ exercises:
     es: he estau
 ---
 
-Os **verbos intransitivos** son os que **no levan obchecto**: dengún *despierta bella cosa* o *va bella cosa* — uno simplement *se despierta*, *va*, *vien*. En euskera, istos verbos emplegan l'auxiliar **izan** (naiz, zara, da…). En o pasau recient a formula ye:
+Os **verbos intransitivos** son os que **no levan obchecto**: dengún *dispierta bella cosa* o *va bella cosa* — uno simplement *se dispierta*, *va*, *vien*. En euskera, istos verbos emplegan l'auxiliar **izan** (naiz, zara, da…). En o pasau recient a formula ye:
 
 > **partizipioa + naiz/zara/da/gara/zarete/dira**
 

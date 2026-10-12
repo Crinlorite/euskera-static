@@ -84,21 +84,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: happy
   - eu: triste
-    es: triste
+    es: sad
   - eu: nekatuta
-    es: cansado
+    es: tired
   - eu: haserre
-    es: enfadado
+    es: angry
   - eu: gaixorik
-    es: enfermo
+    es: ill
   - eu: ondo
-    es: bien
+    es: well
   - eu: gaizki
-    es: mal
+    es: badly
   - eu: lasai
-    es: tranquilo (ahora)
+    es: calm (right now)
 ---
 
 In Basque there are two verbs where English uses just one. You already know **izan** ("to be" for qualities). Now it's time for **egon**, which translates as "to be" when we talk about **temporary states**: how someone is today, right now, at this moment.

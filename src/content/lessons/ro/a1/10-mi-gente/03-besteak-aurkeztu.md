@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: acesta/aceasta (aproape)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: acela/aceea (la distanță medie)
   - eu: hura
-    es: aquel/aquella
+    es: acela/aceea (departe)
   - eu: bera
     es: el/ea
   - eu: haiek
-    es: ellos/ellas
+    es: ei/ele
   - eu: Nor da hau?
     es: Cine este acesta/aceasta?
 - id: ex-10-03-fc

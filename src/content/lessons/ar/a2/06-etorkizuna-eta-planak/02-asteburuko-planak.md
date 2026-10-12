@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: أمس (الماضي)
   - eu: bihar
-    es: mañana (futuro)
+    es: غدًا (المستقبل)
   - eu: herenegun
-    es: anteayer
+    es: أول أمس
   - eu: etzi
-    es: pasado mañana
+    es: بعد غد
   - eu: joan den astean
     es: الأسبوع الماضي
   - eu: datorren astean

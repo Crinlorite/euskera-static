@@ -15,17 +15,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: professor/a
   - eu: ikaslea
-    es: estudiante
+    es: estudante
   - eu: medikua
     es: médico(a)
   - eu: erizaina
-    es: enfermero/a
+    es: enfermeiro/a
   - eu: sukaldaria
-    es: cocinero/a
+    es: cozinheiro/a
   - eu: kazetaria
-    es: periodista
+    es: jornalista
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: Quem é um "polizia"?
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: '"Mekanikaria" trabalha com...'
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - doentes
+  - livros
+  - carros
+  - crianças
   answer: 2
   explanation: '"Mekanikaria" é o mecânico, costuma trabalhar em oficinas com carros.'
 - id: ex-10-02-fb1

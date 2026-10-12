@@ -98,7 +98,7 @@ exercises:
   - eu: ehun
     es: '100'
   - eu: euroa
-    es: euro
+    es: Euro
 ---
 
 Um auf Baskisch nach Preisen zu fragen und zu verstehen, was man dir beim Bezahlen sagt, brauchst du zwei Dinge: die Wendung **Zenbat balio du?** und die Zahlen bis 100. Das baskische Zahlensystem ist **vigesimal** (es basiert auf 20er-Gruppen), daher ist es anfangs etwas gewöhnungsbedürftig.

@@ -180,11 +180,11 @@ Commander, en assemblant toutes les pièces :
 ## Résumé visuel
 
 ```
-1. Quedar:      Etorri nahi duzu afaltzera?  →  Bai, ados!
-2. Reserva:     Erreserba egin nahi dut...   →  Noren izenean?
-3. Pedir:       Hasteko... Bigarrenerako...  →  Postrerako...
-4. Disfrutar:   On egin! / Topa! / Goxoa zegoen!
-5. Pagar:       Kontua, mesedez. / Txartelaz ordain dezaket?
+1. Se retrouver :  Etorri nahi duzu afaltzera?  →  Bai, ados!
+2. Réserver :      Erreserba egin nahi dut...   →  Noren izenean?
+3. Commander :     Hasteko... Bigarrenerako...  →  Postrerako...
+4. Profiter :      On egin! / Topa! / Goxoa zegoen!
+5. Payer :         Kontua, mesedez. / Txartelaz ordain dezaket?
 ```
 
 > **Note culturelle :** la formule *On egin!* s'utilise aussi si vous passez à côté de gens qui mangent dans un lieu public (terrasse, parc, n'importe où). C'est un geste de politesse très typique qu'il est bon d'entendre et de rendre : la réponse naturelle est *Eskerrik asko!*.

@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: 你能来吗？
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: 你能做到
   - eu: Ezin dut etorri
     es: 我不能来
   - eu: Ezin nintzen joan
@@ -91,9 +91,9 @@ exercises:
 
 这是最简单、也是你最常听到的形式：
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + 助动词**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你能来吗？ | *Etorri **ahal zara**?* |
 | 我能进来吗？ | *Sartu **ahal naiz**?* |
@@ -108,7 +108,7 @@ exercises:
 
 ### 及物动词 (NOR-NORK): *dezaket*
 
-| 代词 | 形式 | 西班牙语 |
+| 代词 | 形式 | 中文 |
 |---|---|---|
 | nik | **dezaket** | 我能（做某事） |
 | zuk | **dezakezu** | 你能（做某事） |
@@ -121,7 +121,7 @@ exercises:
 
 ### 不及物动词 (NOR): *naiteke*
 
-| 代词 | 形式 | 西班牙语 |
+| 代词 | 形式 | 中文 |
 |---|---|---|
 | ni | **naiteke** | 我能 |
 | zu | **zaitezke** | 你能 |
@@ -149,9 +149,9 @@ exercises:
 
 ahalera 的否定形式有它自己的专用词：**ezin**。
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + 助动词**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我不能来 | *Ezin **dut etorri*** (NOR-NORK) 或 *Ezin **naiz etorri*** (NOR) |
 | 我不能去 | *Ezin naiz joan* |
@@ -184,7 +184,7 @@ ahalera 的否定形式有它自己的专用词：**ezin**。
 
 ## *Ahal izan* 的其他时态
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我已经能够去了 | *Joan ahal izan naiz* |
 | 我将能够去 | *Joan ahal izango naiz* |

@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-de5-mc1
   type: multiple-choice
-  prompt: '"Beldur naiz" significa…'
+  prompt: '"Beldur naiz" quier dicir…'
   options:
   - Toi enfadáu
   - Tengo fríu
@@ -24,7 +24,7 @@ exercises:
   explanation: '*Beldur* = mieu. *Beldur naiz* = "tengo mieu" (lliteralmente: "soi mieu"). N''eusquera munchos sentimientos van con *izan*.'
 - id: ex-a2-de5-mc2
   type: multiple-choice
-  prompt: '"Hala ere, etorriko naiz" significa…'
+  prompt: '"Hala ere, etorriko naiz" quier dicir…'
   options:
   - Poro, voi venir
   - Sicasí, voi venir
@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: Toi contentu
   - eu: Triste dago
     es: Ta murniu
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: Tengo mieu
   - eu: Haserre dago
     es: Ta enfadáu
   - eu: Lotsa ematen dit
@@ -99,7 +99,7 @@ Con esto zarres la unidá y consigues ferramientes pa opiniones más ellaboraes.
 
 La mayoría de los sentimientos pasaxeros van con *egon* + axetivu o alverbiu n'estáu:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Contentu | *Pozik nago* |
 | Murniu | *Triste nago* |
@@ -117,7 +117,7 @@ La mayoría de los sentimientos pasaxeros van con *egon* + axetivu o alverbiu n'
 
 Delllos sentimientos fondos van con *izan*:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Tengo mieu | *Beldur naiz* |
 | Tienes razón | *Arrazoia duzu* |
@@ -131,7 +131,7 @@ Delllos sentimientos fondos van con *izan*:
 
 Una fórmula mui del eusquera: el sentimientu "te da":
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Dame vergoña | *Lotsa ematen dit* |
 | Dame pena | *Pena ematen dit* |
@@ -146,7 +146,7 @@ Una fórmula mui del eusquera: el sentimientu "te da":
 
 Pa espresar el **cambiu d'estáu** ("ponese nerviosu, contentu, murniu"):
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Póngome nerviosu | *Urduri **jartzen naiz*** |
 | Púnxose murniu | *Triste **jarri zen*** |
@@ -178,7 +178,7 @@ Pa filvanar opiniones y argumentos:
 
 ### Adición
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Amás | *gainera* |
 | Y tamién | *eta baita ere* / *...ere* |
@@ -188,7 +188,7 @@ Pa filvanar opiniones y argumentos:
 
 ### Causa / consecuencia
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Poro | *beraz* |
 | Por eso | *horregatik* |
@@ -198,7 +198,7 @@ Pa filvanar opiniones y argumentos:
 
 ### Contraste / oposición
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Sicasí | *hala ere* |
 | Pero | *baina* |
@@ -209,7 +209,7 @@ Pa filvanar opiniones y argumentos:
 
 ### Organizar el discursu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Per un llau… per otru | *Alde batetik... bestetik...* |
 | Primero… depués… | *Lehenengo... gero...* |
@@ -220,7 +220,7 @@ Pa filvanar opiniones y argumentos:
 
 Estes son construcciones qu'apaecen en cualquier exame A2:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nin... nin... | *Ez... ez...* |
 | Tanto... como... | *Bai... bai...* / *Hala... nola...* |

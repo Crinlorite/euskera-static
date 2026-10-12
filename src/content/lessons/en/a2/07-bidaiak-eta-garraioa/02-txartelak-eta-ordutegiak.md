@@ -97,7 +97,7 @@ exercises:
   - eu: Berandu dabil
     es: It's running late
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: We arrived on time
 ---
 
 Second stop: **buying the ticket and not missing the train**. Here you'll recycle two tools from A1 — *zenbat balio du?* (prices) and telling time — and put them to work at the ticket office.

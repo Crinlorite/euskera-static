@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: 背が高い
   - eu: baxua
-    es: bajo
+    es: 背が低い
   - eu: handia
-    es: grande
+    es: 大きい
   - eu: txikia
-    es: pequeño
+    es: 小さい
   - eu: lodia
-    es: gordo
+    es: 太っている
   - eu: argala
-    es: delgado
+    es: やせている
   - eu: polita
-    es: bonito
+    es: きれい
   - eu: itsusia
-    es: feo
+    es: 醜い
 ---
 
 人や物が**恒常的に**（身体的、一般的に）どのようなものかを説明したいとき、バスク語では **Nolakoa da?**（「どんな感じ？」）という質問を使い、**izan**動詞と、語尾に`-a`が付いた形容詞で答えます。

@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: ți-am dat
   - eu: eman zion
-    es: le dio
+    es: i-a dat
   - eu: eman nion
-    es: le di
+    es: i-am dat
   - eu: eman ziguten
-    es: nos dieron
+    es: ne-au dat
   - eu: eman nizkion
     es: i-am dat (pe ei/ele)
 ---

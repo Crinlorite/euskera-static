@@ -22,7 +22,7 @@ exercises:
   explanation: '*Basurdea* = el xabaril (basa + urde, "gochu del monte"). Vaca, oveya y pita son del caseríu.'
 - id: ex-a2-na2-mc2
   type: multiple-choice
-  prompt: '"Txakurra kalera atera behar dut" significa…'
+  prompt: '"Txakurra kalera atera behar dut" quier dicir…'
   options:
   - Tengo que bañar al perru
   - Tengo que sacar al perru a la cai
@@ -80,9 +80,9 @@ exercises:
   - eu: txakurra
     es: lladra y pasia
   - eu: katua
-    es: duerme 16 horas
+    es: duerme 16 hores
   - eu: behia
-    es: da leche
+    es: da lleche
   - eu: ardia
     es: da llana y quesu
   - eu: txoria
@@ -95,7 +95,7 @@ Del paisaxe a los sos habitantes: **los animales** — los de casa, los del case
 
 ## En casa
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El perru | *txakurra* |
 | El gatu | *katua* |
@@ -106,7 +106,7 @@ Del paisaxe a los sos habitantes: **los animales** — los de casa, los del case
 
 ## Nel caseríu (baserria)
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | La vaca | *behia* |
 | La oveya / el corderu | *ardia / arkumea* |
@@ -119,7 +119,7 @@ Del paisaxe a los sos habitantes: **los animales** — los de casa, los del case
 
 ## Nel monte y el cielu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El xabaril | *basurdea* |
 | El raposu | *azeria* |

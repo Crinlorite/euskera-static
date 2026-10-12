@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 未来：行くだろう
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 一回の過去：行った
   - eu: Joaten nintzen
     es: 過去の習慣：行っていた
   - eu: Joan ohi nintzen
     es: 過去の習慣：よく行っていた
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 今：向かっている
 ---
 
 このユニットの最後のレッスンです。そして、大きなサイクルの締めくくりでもあります。未来時制をマスターした今、あなたは**3つの時制を使いこなせます**。このレッスンでは、それに加えて素晴らしい表現 (*ohi*、バスク語の「〜するのが常だ」) を学び、一つの考えを過去、現在（習慣）、未来の間で動かす練習をします。これこそ、まさにA2レベルの試験官が聞きたいことなのです。

@@ -21,9 +21,9 @@ exercises:
   - eu: medikua
     es: médicu/a
   - eu: erizaina
-    es: enfermero/a
+    es: enfermeru/a
   - eu: sukaldaria
-    es: cocinero/a
+    es: cocineru/a
   - eu: kazetaria
     es: periodista
 - id: ex-10-02-mc1
@@ -41,9 +41,9 @@ exercises:
   prompt: «Mekanikaria» trabaya con...
   options:
   - enfermos
-  - libros
+  - llibros
   - coches
-  - niños
+  - neños
   answer: 2
   explanation: «Mekanikaria» ye'l mecánicu, suel trabayar en talleres con coches.
 - id: ex-10-02-fb1

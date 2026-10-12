@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: стол
   - eu: aulkia
-    es: silla
+    es: стул
   - eu: ohea
-    es: cama
+    es: кровать
   - eu: armairua
-    es: armario
+    es: шкаф
   - eu: sofa
     es: диван
   - eu: telebista
     es: телевизор
   - eu: hozkailua
-    es: nevera
+    es: холодильник
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: В какой комнате находится "hozkailua"?

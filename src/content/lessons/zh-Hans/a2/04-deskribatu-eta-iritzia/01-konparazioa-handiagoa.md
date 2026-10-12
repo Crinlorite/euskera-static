@@ -73,11 +73,11 @@ exercises:
   - eu: gehiago
     es: 更多（数量）
   - eu: gutxiago
-    es: menos
+    es: 更少
   - eu: hobea
-    es: mejor
+    es: 更好
   - eu: okerragoa
-    es: peor
+    es: 更差
   - eu: azkarragoa
     es: 更快
 ---
@@ -92,7 +92,7 @@ exercises:
 - **-ago** 添加在形容词或副词后面（类似于英语的“-er”或汉语的“更”）。
 - 如果后面跟的是定指名词，形容词会带上它通常的 **-a** 后缀：*altuago**a***。
 
-| 中文含义 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 更大 | *handi**agoa*** |
 | 更小 | *txiki**agoa*** |
@@ -102,7 +102,7 @@ exercises:
 
 ## 句型示例
 
-| 中文含义 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | Lander 比 Olatz 高 | *Lander Olatz **baino** altu**agoa** da* |
 | 这栋房子比那栋大 | *Etxe hau hura **baino** handi**agoa** da* |
@@ -116,7 +116,7 @@ exercises:
 
 有些形容词不遵循一般规则，需要记忆：
 
-| 中文含义 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 好 → 更好 | *ona → **hobea*** |
 | 坏 → 更坏 | *txarra → **okerragoa*** |
@@ -131,7 +131,7 @@ exercises:
 
 当比较**动作**或**数量**时，*gehiago / gutxiago* 用作副词：
 
-| 中文含义 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我比你工作得多 | *Zuk **baino gehiago** lan egiten dut* |
 | 他/她学习比以前少了 | *Lehen **baino gutxiago** ikasten du* |
@@ -168,7 +168,7 @@ exercises:
 
 一个非常有用的句式：
 
-| 中文含义 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 没那么贵 | *Ez da **hain** garestia* |
 | 没那么快 | *Ez **hain** azkar* |

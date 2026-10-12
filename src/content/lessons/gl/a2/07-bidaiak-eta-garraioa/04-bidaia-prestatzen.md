@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: Escoller destino
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: Mercar billetes
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: Reservar aloxamento
   - eu: Maleta prestatuko dut
     es: Facer a maleta
   - eu: Ez ahaztu kargagailua!
@@ -118,7 +118,7 @@ Unha viaxe gózase dúas veces: ao vivila e **ao planificala**. Esta lección é
 
 ## A maleta
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | A maleta / a mochila | *maleta / motxila* |
 | Os documentos | *agiriak* |

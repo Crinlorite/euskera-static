@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Si manyana plueve
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Si tenese tiempo
   - eu: Erosiko nuke
     es: Lo mercaríai
   - eu: Joango nintzateke
     es: Iríai
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Si yo fuese rico
   - eu: Edukiko bagenu
     es: Si tenesemos
 ---
@@ -111,7 +111,7 @@ Pa hipotesis sobre l'**esdevenidero probable** u present, o basco fa servir o pr
 | *da* | ye | **bada** (si ye) |
 | *gara* | somos | **bagara** (si somos) |
 | *dut* | yo lo | **badut** (si lo tiengo) |
-| *du* | lo (él) | **badu** (si lo tiene) |
+| *du* | lo (ell) | **badu** (si lo tiene) |
 | *dute* | lo (éls) | **badute** (si lo tienen) |
 
 > **¡Cudiau!** *Ba-* tiene tamién un uso afirmativo: *bai, badator* = "sí, viene". Ye o contexto o que lo desambigua: si a frase tiene una segunda parte ("...alavez..."), ye condicional.
@@ -153,8 +153,8 @@ O "mercar**ía** / iría / sería" se forma con **-ko/-go** (a mesma marca que l
 |---|---|---|
 | nik | **nuke** | yo lo —ría |
 | zuk | **zenuke** | tú lo —rías |
-| hark | **luke** | él lo —ría |
-| guk | **genuke** | lo —ríamos |
+| hark | **luke** | ell lo —ría |
+| guk | **genuke** | lo —ríanos |
 | haiek | **lukete** | lo —rían |
 
 ### NOR condicional ("yo —ría", intransitivo)
@@ -163,8 +163,8 @@ O "mercar**ía** / iría / sería" se forma con **-ko/-go** (a mesma marca que l
 |---|---|---|
 | ni | **nintzateke** | yo —ría |
 | zu | **zinateke** | tú —rías |
-| hura | **litzateke** | él —ría / sería |
-| gu | **ginateke** | —ríamos |
+| hura | **litzateke** | ell —ría / sería |
+| gu | **ginateke** | —ríanos |
 | haiek | **lirateke** | —rían |
 
 ## Frase modelo
@@ -175,7 +175,7 @@ O "mercar**ía** / iría / sería" se forma con **-ko/-go** (a mesma marca que l
 >
 > *Lurralde berri batean **bizi banintz**, beste hizkuntza bat **ikasiko nuke**.* — Si vivise en un país nuevo, aprendería unatro idioma.
 >
-> *Anboto hemen **balitz**, lasaiago **egongo ginateke**.* — Si Anboto estase aquí, seríamos mas tranquilos.
+> *Anboto hemen **balitz**, lasaiago **egongo ginateke**.* — Si Anboto estase aquí, seríanos mas tranquilos.
 >
 > *Aberatsak **balira**, mundu osoa **bisitatuko lukete**.* — Si fuesen ricos, visitarían o mundo entero.
 

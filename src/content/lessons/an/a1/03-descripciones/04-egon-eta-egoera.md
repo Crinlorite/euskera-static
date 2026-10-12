@@ -88,20 +88,20 @@ exercises:
   - eu: triste
     es: triste
   - eu: nekatuta
-    es: cansado
+    es: cansau
   - eu: haserre
-    es: enfadado
+    es: enfadau
   - eu: gaixorik
-    es: enfermo
+    es: malo
   - eu: ondo
     es: bien
   - eu: gaizki
     es: mal
   - eu: lasai
-    es: tranquilo (ahora)
+    es: tranquilo (agora)
 ---
 
-En basco bi ha dos verbos an do que en castellano femos servir nomás un. Ya conoixes **izan** ("ser/estar" pa cualidaz). Agora toca **egon**, que se treslada como "estar" cuan charramos d'**estaus pasachers**: cómo está belún hue, agora mesmo, en iste inte.
+En basco bi ha dos verbos ta "ser" y "estar". Ya conoixes **izan** ("ser/estar" pa cualidaz). Agora toca **egon**, que se treslada como "estar" cuan charramos d'**estaus pasachers**: cómo está belún hue, agora mesmo, en iste inte.
 
 ## O paradigma d'egon
 
@@ -121,7 +121,7 @@ En basco bi ha dos verbos an do que en castellano femos servir nomás un. Ya con
 
 A gran trampa: cuan un adchectivo va con **egon**, **NO** leva l'`-a` final. Compara:
 
-- **Izan** (cualidat estable): *Ni alegre soy* → *Ni alai**a** naiz.* (con `-a`)
+- **Izan** (cualidat estable): *Yo soi alegre* → *Ni alai**a** naiz.* (con `-a`)
 - **Egon** (estau pasacher): *Yo estó contenta hue* → *Ni pozik nago.* (sin `-a`)
 
 | Estau | Aragonés |

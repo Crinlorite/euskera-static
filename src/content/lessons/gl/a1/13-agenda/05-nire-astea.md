@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: a fin de semana
   - eu: bihar
-    es: mañana
+    es: mañá
   - eu: etzi
-    es: pasado mañana
+    es: pasado mañá
   - eu: gaur arratsaldean
     es: esta tarde
   - eu: libre nago
-    es: estoy libre
+    es: estou libre
 ---
 
 Lección final da unidade: imos montar **unha semana enteira** unindo todo o aprendido. Días, futuros, citas, marcadores de cando... a linguaxe de planificar.

@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTUR: anarè'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASSAT PUNTUAU: anè'
   - eu: Joaten nintzen
     es: 'PASSAT abitud: anaue'
   - eu: Joan ohi nintzen
     es: 'PASSAT abitud: solie anar'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'ARA: sò en camin'
 ---
 
 Darrèra leccion dera unitat — e fin d'un cicle enorme: damb eth futur ja ena pòcha, **domines es tres temps**. Aguesta leccion ahig era guinda (*ohi*, eth "soler" basc) e te hè mòir ua madeisha idèa peth passat, present-abitud e futur. Aguest ei, exactament, çò qu'un tribunau d'A2 vò enténer.
@@ -106,7 +106,7 @@ Darrèra leccion dera unitat — e fin d'un cicle enorme: damb eth futur ja ena 
 
 > **participi + ohi + auxiliar**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Sòli anar en bici tath trabalh | *Lanera bizikletaz joan **ohi** naiz* |
 | Solim dinar en casa dera mairia | *Amonaren etxean bazkaldu **ohi** dugu* |
@@ -122,7 +122,7 @@ Duès nòtes:
 
 ## Es advèrbis qu'acompanhen er abitud
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Normaument | *normalean* |
 | Era majoria de viatges | *gehienetan* |

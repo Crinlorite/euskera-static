@@ -81,9 +81,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: harategia
-    es: carnicería
+    es: carnizaría
   - eu: okindegia
-    es: panadería
+    es: panadaría
   - eu: arrandegia
     es: peixaría
   - eu: Zenbat da?
@@ -130,7 +130,7 @@ Unha conversa típica ao planificar:
 
 > — *Non erosiko dugu ogia?* — Onde compraremos o pan?
 >
-> — *Okindegian, jakina!* — Na panadería, claro.
+> — *Okindegian, jakina!* — Na panadaría, claro.
 >
 > — *Eta arraina?* — E o peixe?
 >

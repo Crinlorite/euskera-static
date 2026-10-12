@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: fino al monte
   - eu: etxerantz
-    es: hacia casa
+    es: verso casa
   - eu: lagunarengatik
     es: per (a causa de) l'amico
   - eu: Bilboko jendea

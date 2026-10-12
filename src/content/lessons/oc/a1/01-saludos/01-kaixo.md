@@ -74,24 +74,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Adishatz
   - eu: Agur
     es: Adiu
   - eu: Egun on
     es: Bon dia
   - eu: Gabon
-    es: Buenas noches
+    es: Bona nueit
   - eu: Gero arte
-    es: Hasta luego
+    es: Enquia après
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Fòrça gràcies
 ---
 
-En euscaro, es salutacions cambien segontes eth moment deth dia. Era formula universau e era mès comuna ei **Kaixo**, que s'emplegue a quinsevolh ora damb gaireben quinsevolh persona — ath madeish que "hola" en castelhan. **Hepa** o **Aupa** son alternatives encara mès informaus, sustot entre joeni e amics.
+En euscaro, es salutacions cambien segontes eth moment deth dia. Era formula universau e era mès comuna ei **Kaixo**, que s'emplegue a quinsevolh ora damb gaireben quinsevolh persona — ath madeish que "adiu" en aranés. **Hepa** o **Aupa** son alternatives encara mès informaus, sustot entre joeni e amics.
 
 ## Salutacions per moment deth dia
 
-| Quan | Euscaro | Castelhan |
+| Quan | Euscaro | Aranés |
 |---|---|---|
 | Matin, enquiath meddia | *Egun on* | Bon dia |
 | Meddia / ora de dinar | *Eguerdi on* | Bon meddia |

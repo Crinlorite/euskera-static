@@ -23,7 +23,7 @@ exercises:
   explanation: '*Nintzen* és el passat d''*izan/egon* per a "jo": "jo era / jo estava".'
 - id: ex-a2-ir1-mc2
   type: multiple-choice
-  prompt: '"Atzo Bilbon egon nintzen" significa…'
+  prompt: '"Atzo Bilbon egon nintzen" vol dir…'
   options:
   - Avui soc a Bilbao
   - Demà seré a Bilbao
@@ -78,13 +78,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Atzo etxean nintzen
-    es: Ayer estuve/estaba en casa
+    es: Ahir vaig estar/estava a casa
   - eu: Joan den astean Donostian
     es: La setmana passada a Sant Sebastià
   - eu: Ikasleak ginen
     es: Érem estudiants
   - eu: Bart pozik nengoen
-    es: Anoche estaba contento
+    es: Ahir a la nit estava content
   - eu: Zergatik zineten han?
     es: Per què éreu allà?
   - eu: Duela urtebete

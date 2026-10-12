@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: sympa (proche)
   - eu: atsegina
-    es: agradable
+    es: agréable
   - eu: alaia
-    es: alegre
+    es: joyeux
   - eu: lasaia
-    es: tranquilo/a
+    es: calme
   - eu: berritsua
     es: bavard/e
   - eu: zaratatsua
-    es: ruidoso/a
+    es: bruyant/e
 - id: ex-10-05-fc
   type: flashcards
   cards:

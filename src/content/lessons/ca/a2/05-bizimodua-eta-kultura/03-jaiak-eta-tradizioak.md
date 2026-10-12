@@ -24,7 +24,7 @@ exercises:
   explanation: '*Sua* = el foc, la foguera. *San Juan sua* és la foguera tradicional del 23 de juny.'
 - id: ex-a2-bz3-mc2
   type: multiple-choice
-  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara" significa…'
+  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara" vol dir…'
   options:
   - Abans vivíem al mas, ara vivim a la ciutat
   - Vivim al mas i a la ciutat
@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Setmana Gran de Bilbao
   - eu: Aratusteak
-    es: carnavales
+    es: carnaval
   - eu: Santa Ageda
     es: càntics per les cases
 ---

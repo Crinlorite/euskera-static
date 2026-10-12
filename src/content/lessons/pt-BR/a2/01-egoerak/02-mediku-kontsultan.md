@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" quer dizer…'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Estou pior
+  - Estou bem
+  - Estou melhor
+  - Estou igual
   answer: 2
   explanation: '*Hobeto* = melhor. *Hobe* é o adjetivo "melhor" e *hobeto* é o advérbio.'
 - id: ex-a2-eg2-fb1
@@ -76,7 +76,7 @@ exercises:
   - eu: Min ematen dizu?
     es: Está doendo?
   - eu: Hartu hau
-    es: Toma esto
+    es: Tome isto
   - eu: Itzuli astebete barru
     es: Volte dentro de uma semana
   - eu: Atseden hartu

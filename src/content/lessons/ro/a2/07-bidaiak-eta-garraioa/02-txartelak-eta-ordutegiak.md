@@ -19,7 +19,7 @@ exercises:
   - Bi joaneko txartel
   - Txartel gabe
   answer: 1
-  explanation: '*Joan-etorria* = dus-întors (literalmente „a merge-a veni”). *Joaneko txartela* ar fi doar dus.'
+  explanation: '*Joan-etorria* = dus-întors (literal „a merge-a veni”). *Joaneko txartela* ar fi doar dus.'
 - id: ex-a2-bi2-mc2
   type: multiple-choice
   prompt: '"Zenbat balio du Bilborako txartelak?" întreabă…'
@@ -97,7 +97,7 @@ exercises:
   - eu: Berandu dabil
     es: Are întârziere
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: Am ajuns la timp
 ---
 
 A doua oprire: **să cumperi biletul și să nu pierzi trenul**. Aici refolosești două „arme” de la nivelul A1 — *zenbat balio du?* (prețuri) și orele — și le pui la treabă la ghișeu.

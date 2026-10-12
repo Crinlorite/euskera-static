@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: ieri (trecut)
   - eu: bihar
-    es: mañana (futuro)
+    es: mâine (viitor)
   - eu: herenegun
-    es: anteayer
+    es: alaltăieri
   - eu: etzi
-    es: pasado mañana
+    es: poimâine
   - eu: joan den astean
     es: săptămâna trecută
   - eu: datorren astean
@@ -138,7 +138,7 @@ exercises:
 | Am chef să merg | *Joateko **gogoa daukat*** | poftă / chef |
 | Mă gândesc să merg | *Joateko **asmotan nabil*** | am ideea asta în minte |
 
-Structura comună: **verbo + -t(z)eko + sustantivo (asmoa/gogoa)**. Cu ceea ce știi deja despre *-tzeko* (scop), îți va veni de la sine.
+Structura comună: **verb + -t(z)eko + substantiv (asmoa/gogoa)**. Cu ceea ce știi deja despre *-tzeko* (scop), îți va veni de la sine.
 
 ## Exemple în context
 

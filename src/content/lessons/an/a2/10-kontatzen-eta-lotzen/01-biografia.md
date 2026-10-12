@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: Se casoron en 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: Tenioron tres fillos
   - eu: 2020an erretiroa hartu zuen
     es: Se chubiló en 2020
 ---
@@ -98,7 +98,7 @@ Zaguera unidat d'o livel — la de **ligar capezos**. Prencipiamos con a preba r
 |---|---|
 | Naixer | *jaio* (jaio nintzen/zen) |
 | Creixer | *hazi* |
-| Ir a la escuela | *eskolara joan* |
+| Ir ta la escuela | *eskolara joan* |
 | Estudiar (cursar) | *ikasketak egin* |
 | Prencipiar a treballar | *lanean hasi* |
 | Casar-se | *ezkondu* |

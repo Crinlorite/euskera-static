@@ -77,7 +77,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mendira igo
-    es: subir al monte
+    es: 山に登る
   - eu: gailurrera iritsi
     es: 山頂に着く
   - eu: basoan barrena ibili
@@ -85,7 +85,7 @@ exercises:
   - eu: ibaian bainatu
     es: 川で泳ぐ
   - eu: itsasoari begira egon
-    es: estar mirando al mar
+    es: 海を眺めている
   - eu: argazkia atera
     es: 写真を撮る
 ---
@@ -94,7 +94,7 @@ exercises:
 
 ## 山
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 山 | *mendia* |
 | 山頂 | *gailurra* |
@@ -111,7 +111,7 @@ exercises:
 
 ## 水
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 川 | *ibaia* |
 | 貯水池 / ダム | *urtegia* |

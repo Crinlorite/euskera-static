@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ko2-mc1
   type: multiple-choice
-  prompt: '"Ez dakit etorriko den" significa…'
+  prompt: '"Ez dakit etorriko den" quier dicir…'
   options:
   - Nun sé si va venir
   - Sé que nun va venir
@@ -125,7 +125,7 @@ Esi últimu *ea…!* sueltu ye eusquera faláu puru: deséu + suspense nuna pall
 
 ## Los verbos que les piden
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nun sé si… | *Ez dakit … -(e)n* |
 | ¿Sabes si…? | *Badakizu … -(e)n?* |

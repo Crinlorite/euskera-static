@@ -27,8 +27,8 @@ exercises:
   prompt: Aby opisać **scenę** w tle (jaki był dzień, gdzie byli) w opowieści, jakiego czasu przeszłego użyć?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Czas teraźniejszy
+  - Niedawna przeszłość (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: Scenę, opisy i zwyczaje wyraża się w czasie niedokonanym (*ez burutua*). Jednorazowe czynności, które posuwają akcję do przodu, wyraża się w czasie dokonanym (*burutua*).
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: pobrał/a się
   - eu: bidaiatu zuten
-    es: viajaron
+    es: podróżowali
   - eu: ezagutu nuen
     es: poznałem/am
   - eu: maitemindu nintzen

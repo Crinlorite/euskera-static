@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-ad2-mc1
   type: multiple-choice
-  prompt: '"Eman zion liburua" significa…'
+  prompt: '"Eman zion liburua" quier dicir…'
   options:
   - Da-y el llibru
   - Tien-y dao el llibru
@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: dite
   - eu: eman zion
-    es: le dio
+    es: dió-y
   - eu: eman nion
-    es: le di
+    es: di-y
   - eu: eman ziguten
-    es: nos dieron
+    es: diéronnos
   - eu: eman nizkion
     es: di-y (los)
 ---

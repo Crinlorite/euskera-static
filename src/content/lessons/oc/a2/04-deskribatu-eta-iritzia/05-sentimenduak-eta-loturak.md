@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: Sò content
   - eu: Triste dago
     es: Ei triste
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: È pòur
   - eu: Haserre dago
     es: Ei enrabiat
   - eu: Lotsa ematen dit
@@ -99,7 +99,7 @@ Damb açò barres era unitat e obténs esturments entà opinions mès elaborades
 
 Era majoria de sentiments passatgèrs van damb *egon* + adjectiu o advèrbi en estat:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Content | *Pozik nago* |
 | Triste | *Triste nago* |
@@ -117,7 +117,7 @@ Era majoria de sentiments passatgèrs van damb *egon* + adjectiu o advèrbi en e
 
 Quauqui sentiments prigonds van damb *izan*:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Aui pòur | *Beldur naiz* |
 | As rason | *Arrazoia duzu* |
@@ -131,10 +131,10 @@ Quauqui sentiments prigonds van damb *izan*:
 
 Ua formula fòrça basca: eth sentiment "te da":
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Me da vergonha | *Lotsa ematen dit* |
-| Me da pena | *Pena ematen dit* |
+| Me hè pena | *Pena ematen dit* |
 | Me da ràbia | *Amorrua ematen dit* |
 | Me da pòur | *Beldurra ematen dit* |
 
@@ -146,7 +146,7 @@ Ua formula fòrça basca: eth sentiment "te da":
 
 Entà exprimir eth **cambi d'estat** ("meter-se nerviós, content, triste"):
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Me meti nerviós | *Urduri **jartzen naiz*** |
 | Se metec triste | *Triste **jarri zen*** |
@@ -178,7 +178,7 @@ Entà ligar opinions e arguments:
 
 ### Adicion
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Ath delà | *gainera* |
 | E tanben | *eta baita ere* / *...ere* |
@@ -188,7 +188,7 @@ Entà ligar opinions e arguments:
 
 ### Causa / consequéncia
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Per tant | *beraz* |
 | Per açò | *horregatik* |
@@ -198,7 +198,7 @@ Entà ligar opinions e arguments:
 
 ### Contrast / oposicion
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Totun | *hala ere* |
 | Mès | *baina* |
@@ -209,7 +209,7 @@ Entà ligar opinions e arguments:
 
 ### Organizar eth discors
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | D'un costat... de l'aute... | *Alde batetik... bestetik...* |
 | Prumèr... dempús... | *Lehenengo... gero...* |
@@ -220,7 +220,7 @@ Entà ligar opinions e arguments:
 
 Aguestes son construccions qu'apareishen en quinsevolh examen A2:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Ne... ne... | *Ez... ez...* |
 | Tant... coma... | *Bai... bai...* / *Hala... nola...* |

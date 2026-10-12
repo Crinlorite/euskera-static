@@ -73,11 +73,11 @@ exercises:
   - eu: gehiago
     es: mehr (Menge)
   - eu: gutxiago
-    es: menos
+    es: weniger
   - eu: hobea
-    es: mejor
+    es: besser
   - eu: okerragoa
-    es: peor
+    es: schlechter
   - eu: azkarragoa
     es: schneller
 ---

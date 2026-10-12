@@ -82,7 +82,7 @@ exercises:
     es: 私に起こりました
 ---
 
-**NOR-NORI**動詞とは、何か（NOR）が「誰かに（NORI）起こる」動詞のことです。文法上の主語は**人ではなく物**です。これはスペイン語の*gustar*と全く同じです：*me gusta el cine*（私に彼、つまり映画が好かれる）。
+**NOR-NORI**動詞とは、何か（NOR）が「誰かに（NORI）起こる」動詞のことです。文法上の主語は**人ではなく物**です。日本語の「（私は）映画が好きだ」に近く、「が」が付くのは映画のほうです。
 
  A1ではすでに*gustatzen zait*を学びました。A2では、このパターンを他の便利な動詞にも広げていきます。
 
@@ -90,7 +90,7 @@ exercises:
 
 NORが単数形の場合：
 
-| NORI | 形 | スペイン語 |
+| NORI | 形 | 日本語 |
 |---|---|---|
 | niri | **zait** | 私に |
 | zuri | **zaizu** | 君に |
@@ -101,7 +101,7 @@ NORが単数形の場合：
 
 NORが**複数形**の場合：
 
-| NORI | 複数形 | スペイン語 |
+| NORI | 複数形 | 日本語 |
 |---|---|---|
 | niri | **zaizkit** | 私に（複数の物） |
 | zuri | **zaizkizu** | 君に |
@@ -136,7 +136,7 @@ NORが**複数形**の場合：
 
 > **NORI + NOR + 動詞 + NOR-NORI助動詞**
 
-| スペイン語 | バスク語 | 表記 |
+| 日本語 | バスク語 | 表記 |
 |---|---|---|
 | 私は映画が好きです | *Niri zinea **gustatzen zait*** | NORI + NOR sing + zait |
 | 私は映画（複数）が好きです | *Niri filmak **gustatzen zaizkit*** | NORI + NOR pl + zaizkit |
@@ -160,7 +160,7 @@ NORが**複数形**の場合：
 
 A2で最も役立つ表現の一つです：
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 良いと思います | *Ondo iruditzen zait* |
 | 面白いと思います | *Interesgarria iruditzen zait* |
@@ -170,7 +170,7 @@ A2で最も役立つ表現の一つです：
 
 ## *Ahaztu zait* — 忘れてしまいました
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 忘れてしまいました | *Ahaztu zait* |
 | 鍵を忘れてしまいました | *Giltzak ahaztu zaizkit* |

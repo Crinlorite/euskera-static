@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" signifique…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Trabalh
+  - Salari
+  - Cap
+  - Emplegat
   answer: 1
   explanation: '*Soldata* = sòlde. *Lansari* ei un sinonim formau.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: professor/a
   - eu: erizain
-    es: enfermero/a
+    es: infermèr/a
   - eu: sukaldari
-    es: cocinero/a
+    es: codinèr/a
   - eu: kazetari
     es: periodista
   - eu: mekanikari
     es: mecanic/a
   - eu: arkitekto
-    es: arquitecto/a
+    es: arquitècte/a
 ---
 
 A2 t'daurís eth mon deth **trabalh** ath delà de "sò estudiant / sò professor". Ara entres a parlar de:
@@ -102,7 +102,7 @@ A2 t'daurís eth mon deth **trabalh** ath delà de "sò estudiant / sò professo
 
 A1 cobrie es classiques (*medikua, ikaslea, irakaslea, sukaldaria*). En A2 ahiges:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Jornalista | *kazetaria* |
 | Programador/a | *programatzailea* |
@@ -117,7 +117,7 @@ A1 cobrie es classiques (*medikua, ikaslea, irakaslea, sukaldaria*). En A2 ahige
 | Pompèr/a | *suhiltzailea* |
 | Foncionari/ària | *funtzionarioa* |
 | Auxiliar | *laguntzailea* |
-| Vendedor/a | *saltzailea* |
+| Venedor/a | *saltzailea* |
 | Palèta | *igeltseroa* |
 | Hontanèr/a | *iturgina* |
 | Electricista | *elektrizista* |
@@ -128,7 +128,7 @@ A1 cobrie es classiques (*medikua, ikaslea, irakaslea, sukaldaria*). En A2 ahige
 
 Recòrda aguest sufix d'A1 — productiu en mestièrs:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Parlant de basc | *euskalduna* |
 | Campion (que a era txapela) | *txapelduna* |
@@ -136,7 +136,7 @@ Recòrda aguest sufix d'A1 — productiu en mestièrs:
 
 ## Parlar deth trabalh
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | De qué trabalhes? | *Zertan egiten duzu lan?* |
 | Trabalhi en un burèu | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ Recòrda aguest sufix d'A1 — productiu en mestièrs:
 
 ## Jornada e orari
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Jornada completa | *Lanaldi osoa* |
 | Mieja jornada | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ Recòrda aguest sufix d'A1 — productiu en mestièrs:
 
 Passi tipics e vocabulari:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Aufèrta de trabalh | *lan-eskaintza* |
 | Curriculum / CV | *curriculuma* |
@@ -177,7 +177,7 @@ Passi tipics e vocabulari:
 
 ## Frases tipiques en ua entrevista
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Explica-me quauquarren de tu | *Konta iezadazu zerbait zuri buruz* |
 | Per qué vòs aguest lòc de trabalh? | *Zergatik nahi duzu lanpostu hau?* |
@@ -192,7 +192,7 @@ Entà descríuer eth tòn trabalh en tèrmes mès complèxes, te conven usar era
 
 > **vèrb conjugat + -(e)n + substantiu**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Eth trabalh qu'èi | *Daukadan lana* |
 | Era empresa a on trabalhi | *Lan egiten dudan enpresa* |

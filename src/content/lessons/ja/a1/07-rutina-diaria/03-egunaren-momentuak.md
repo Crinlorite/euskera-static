@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: 午後に
   - eu: iluntzean
-    es: al atardecer
+    es: 夕暮れに
   - eu: gauean
     es: 夜に
   - eu: gaur
-    es: hoy
+    es: 今日
   - eu: bihar
     es: 明日（翌日）
   - eu: atzo
-    es: ayer
+    es: 昨日
 - id: ex-03-em-fc
   type: flashcards
   cards:

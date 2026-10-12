@@ -14,7 +14,7 @@ exercises:
   type: multiple-choice
   prompt: '"Banaiz" znaczy...'
   options:
-  - Jestem
+  - Jestem (gdzieś / w jakimś stanie)
   - Jestem
   - Jeśli jestem
   - Nie jestem
@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Jeśli jutro będzie padać
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Gdybym miał(a) czas
   - eu: Erosiko nuke
     es: Kupiłbym/Kupiłabym to
   - eu: Joango nintzateke
     es: Poszedłbym/Poszłabym
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Gdybym był bogaty
   - eu: Edukiko bagenu
     es: Gdybyśmy mieli/miały
 ---
@@ -188,8 +188,8 @@ Formy typu „kupił**bym** / poszedłbym / byłbym” tworzy się za pomocą **
 
 ## Przykłady porównawcze
 
-- **Real:** *Astia **baduzu**, lagunduko **dizut**.* — Jeśli masz czas, pomogę ci.
-- **Irreal:** *Astia **bazenu**, lagunduko **zenidake**.* — Gdybyś miał czas, pomógłbyś mi.
+- **Warunek realny:** *Astia **baduzu**, lagunduko **dizut**.* — Jeśli masz czas, pomogę ci.
+- **Warunek nierealny:** *Astia **bazenu**, lagunduko **zenidake**.* — Gdybyś miał czas, pomógłbyś mi.
 
 ## Bardzo przydatne zwroty
 

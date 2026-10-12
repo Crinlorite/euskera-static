@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-tab-mc1
   type: multiple-choice
-  prompt: '"Mesedez" significa…'
+  prompt: '"Mesedez" vol dir…'
   options:
   - gràcies
   - si us plau
@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: si us plau
   - eu: eskerrik asko
-    es: muchas gracias
+    es: moltes gràcies
   - eu: ez horregatik
     es: de res
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Per a mi
   - eu: ona
-    es: bueno
+    es: bo
 ---
 
 Demanar al bar és una de les coses més útils que sabràs dir en basc. La fórmula bàsica és molt directa: nom del que vols + **bat** (un) + **mesedez** (si us plau). I ja està.
@@ -157,4 +157,4 @@ En basc el "escolta / escolti" típic per cridar l'atenció és **Aizu!** (infor
 >
 > — *Ederki!* — Fantàstic!
 
-> **Nota cultural:** en una taverna basca el més normal és demanar a la barra, beure dret i parlar alt. *Mesedez* i *eskerrik asko* són bàsics però no obligatoris a cada frase — al contrari que en castellà, no es considera de mala educació un "*ebakia*" sec, sempre que el to sigui cordial.
+> **Nota cultural:** en una taverna basca el més normal és demanar a la barra, beure dret i parlar alt. *Mesedez* i *eskerrik asko* són bàsics però no obligatoris a cada frase — al contrari del que podries pensar, no es considera de mala educació un "*ebakia*" sec, sempre que el to sigui cordial.

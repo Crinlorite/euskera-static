@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-de2-mc1
   type: multiple-choice
-  prompt: '"Hura zu bezain altua da" significa…'
+  prompt: '"Hura zu bezain altua da" vol dir…'
   options:
   - Ell és més alt que tu
   - Ell és tan alt com tu
@@ -94,7 +94,7 @@ Per a "tan... com" amb adjectiu o adverbi:
 
 > **X bezain Y**
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Tan alt com tu | *Zu **bezain** altua* |
 | Tan bonica com Donostia | *Donostia **bezain** polita* |
@@ -107,7 +107,7 @@ Per a "tan... com" amb adjectiu o adverbi:
 
 Per a "tant com" amb substantiu o quantitat:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Tant com tu | *Zuk **adina*** / *Zuk **beste*** |
 | Tants diners com jo | *Nik **adina** diru* |
@@ -123,7 +123,7 @@ Per a "tant com" amb substantiu o quantitat:
 
 Una altra forma d'igualtat, aquest cop de **mode** o **manera**:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Com tu | *Zu **bezala*** / *Zure **moduan*** |
 | Faig com tu | *Zuk egin duzun **moduan** egiten dut* |
@@ -159,7 +159,7 @@ Per a "el més..." afegeixes **-en** a l'adjectiu o adverbi + l'article **-a**:
 
 Quan indiques **dins de quin grup**, fas servir el cas locatiu o el genitiu:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | El més alt de la classe | *Klaseko **altuena*** |
 | La més ràpida del món | *Munduko **azkarrena*** |
@@ -174,7 +174,7 @@ Quan indiques **dins de quin grup**, fas servir el cas locatiu o el genitiu:
 
 Equivalents superlatius de quantitat o freqüència:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | El que més m'agrada | *Gehien gustatzen zaidana* |
 | El que menys faig | *Gutxien egiten dudana* |

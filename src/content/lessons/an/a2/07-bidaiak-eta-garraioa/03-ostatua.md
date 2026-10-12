@@ -14,7 +14,7 @@ exercises:
   type: multiple-choice
   prompt: '"Gela bikoitz bat nahi nuke, gosaria barne" demanda…'
   options:
-  - Una habitación individual sin desayuno
+  - Una habitación individual sin almuerzo
   - Una habitación doble con desayuno incluyiu
   - Dos habitacions individuals
   - Una mesa ta dos con desayuno

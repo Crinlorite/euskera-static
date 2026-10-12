@@ -22,7 +22,7 @@ exercises:
   explanation: '*-tzeko* = pour + infinitif : ikas**teko** = pour apprendre. (Oui, comme Kaixo 😄.)'
 - id: ex-a2-ko4-mc2
   type: multiple-choice
-  prompt: Avec les verbes de mouvement (joan, etorri), le « a + infinitif » espagnol est…
+  prompt: Avec les verbes de mouvement (joan, etorri), « aller/venir + infinitif » se dit…
   options:
   - -tzeko
   - -tzera
@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Où vas-tu ?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: Acheter du pain
   - eu: Zertara etorri da?
     es: Qu'est-ce qu'il/elle est venu(e) faire ?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ La question : ***Zertara** etorri zara?* (qu'es-tu venu(e) faire ?) → *Laguntz
 | Non — c'est un « pour » | **-tzeko** | *Hau ikasteko da* |
 | Oui — tu vas/viens pour... | **-tzera** | *Ikastera noa* |
 
-> Piège classique de l'espagnol : « voy a comprar » N'EST PAS un futur en basque — c'est un mouvement : *erostera noa*. Le vrai futur, tu le connais déjà : *erosiko dut*.
+> Piège classique : « je vais acheter » (aller quelque part pour acheter) N'EST PAS un futur en basque — c'est un mouvement : *erostera noa*. Le vrai futur, tu le connais déjà : *erosiko dut*.
 
 ## Le tout ensemble (et avec les temporelles d'hier)
 

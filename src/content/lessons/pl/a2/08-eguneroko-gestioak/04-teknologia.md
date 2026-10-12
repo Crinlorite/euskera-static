@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: włączać
   - eu: itzali
-    es: apagar
+    es: wyłączać
   - eu: gorde
-    es: guardar
+    es: zapisywać
   - eu: ezabatu
-    es: borrar
+    es: usuwać
   - eu: deskargatu
-    es: descargar
+    es: pobierać
   - eu: partekatu
-    es: compartir
+    es: udostępniać
 ---
 
 Od papieru do piksela: lekcja o **codziennej technologii**. Słownictwo, którego używasz sto razy dziennie — teraz po baskijsku, który dodatkowo szczyci się przejrzystymi i dobrze skonstruowanymi słowami (*pasahitza* = słowo-przepustka; *sakelakoa* = „kieszonkowy”).

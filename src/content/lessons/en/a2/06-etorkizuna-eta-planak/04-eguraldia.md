@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'The forecast says: "Bihar eguzkia aterako da". What can you expect tomorrow?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Rain
+  - Strong wind
+  - Sunshine
+  - Fog
   answer: 2
   explanation: '*Eguzkia atera* = the sun comes out; in the future tense, *aterako da* — it will be sunny tomorrow.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: The sun will come out
   - eu: Haizea dabil
-    es: Hace viento
+    es: It's windy
   - eu: Hotz handia egiten du
     es: It's very cold
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Other phrases with their own verb:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — It's cloudy / sunny.
 
-> **Note:** in Basque, the weather "**makes**" things with *egin* and the auxiliary **du** (with no visible subject): *euria egingo du*, *bero handia egiten du*. It's just like the Spanish «hace calor» — except that rain is also "made".
+> **Note:** in Basque, the weather "**makes**" things with *egin* and the auxiliary **du** (with no visible subject): *euria egingo du*, *bero handia egiten du*. English says "it is hot"; Basque says the weather "makes" heat — and even rain is "made".
 
 ## How to ask
 

@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: pera tarde
   - eu: iluntzean
-    es: al atardecer
+    es: ath capvèspre
   - eu: gauean
     es: pera net
   - eu: gaur
-    es: hoy
+    es: aué
   - eu: bihar
     es: deman (dia següent)
   - eu: atzo
-    es: ayer
+    es: ger
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Aguesti te gesseràn cada dia:
 | *gero* | dempús |
 | *lehen* | abans |
 
-> Atencion: hè atencion a **bihar** (eth dia següent, "deman") e **goiza** (eth maitin, enquiath mieidia). En castelhan usem era madeisha paraula, en euscaro non.
+> Atencion: hè atencion a **bihar** (eth dia següent, "deman") e **goiza** (eth maitin, enquiath mieidia). Son dues paraules diferentes, coma en aranés ("deman" e "maitin").
 
 ## En tot combinar-ac tot
 

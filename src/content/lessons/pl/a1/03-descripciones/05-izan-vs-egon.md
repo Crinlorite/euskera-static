@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: jestem nerwowa (charakter)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: denerwuję się (teraz)
   - eu: ona da
     es: jest dobry (cecha)
   - eu: ondo dago
     es: ma się dobrze (stan)
 ---
 
-To prawdopodobnie najtrudniejsze do uchwycenia rozróżnienie na poziomie A1 w języku baskijskim. Podobnie jak w hiszpańskim "ser" vs "estar", ale z dwiema ważnymi różnicami: **(1) przymiotniki zmieniają formę** i **(2) niektóre słowa są używane tylko z jednym z tych dwóch czasowników**.
+To prawdopodobnie najtrudniejsze do uchwycenia rozróżnienie na poziomie A1 w języku baskijskim. Polski ma na oba znaczenia jeden czasownik, „być”; baskijski je rozdziela, z dwiema ważnymi różnicami: **(1) przymiotniki zmieniają formę** i **(2) niektóre słowa są używane tylko z jednym z tych dwóch czasowników**.
 
 ## Zasada w jednej linijce
 

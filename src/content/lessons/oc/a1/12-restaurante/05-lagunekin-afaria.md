@@ -180,10 +180,10 @@ Demanar, ja damb totes es pèces:
 ## Resumit visuau
 
 ```
-1. Quedar:      Etorri nahi duzu afaltzera?  →  Bai, ados!
+1. Trobar-se:   Etorri nahi duzu afaltzera?  →  Bai, ados!
 2. Reserva:     Erreserba egin nahi dut...   →  Noren izenean?
-3. Pedir:       Hasteko... Bigarrenerako...  →  Postrerako...
-4. Disfrutar:   On egin! / Topa! / Goxoa zegoen!
+3. Demanar:     Hasteko... Bigarrenerako...  →  Postrerako...
+4. Gaudir:      On egin! / Topa! / Goxoa zegoen!
 5. Pagar:       Kontua, mesedez. / Txartelaz ordain dezaket?
 ```
 

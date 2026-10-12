@@ -82,9 +82,9 @@ exercises:
   - eu: bilera
     es: xunta
   - eu: libre
-    es: libre
+    es: llibre
   - eu: lanpetuta
-    es: ocupado/a
+    es: ocupáu/ada
   - eu: geratu
     es: quedar
   - eu: geratuko gara

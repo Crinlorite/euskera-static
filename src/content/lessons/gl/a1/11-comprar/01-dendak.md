@@ -15,7 +15,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: harategia
-    es: carnicería
+    es: carnizaría
   - eu: okindegia
     es: panadaría
   - eu: arrandegia
@@ -48,7 +48,7 @@ exercises:
   explanation: '*Arrandegia* vén de *arrain* (peixe). O sufixo *-ra* indica destino: "vou á peixaría".'
 - id: ex-dendak-fb1
   type: fill-in-blank
-  prompt: A carnicería = ___ (palabra completa, en singular con artigo).
+  prompt: A carnizaría = ___ (palabra completa, en singular con artigo).
   answers:
   - harategia
   - Harategia
@@ -59,7 +59,7 @@ exercises:
   - eu: denda
     es: tenda (xeral)
   - eu: harategia
-    es: carnicería
+    es: carnizaría
   - eu: okindegia
     es: panadaría
   - eu: arrandegia
@@ -92,7 +92,7 @@ Cando vas facer a compra en Euskal Herria, cada produto adoita ter a súa tenda 
 
 | Éuscaro | Galego | O que se vende |
 |---|---|---|
-| *harategia* | carnicería | haragia (carne) |
+| *harategia* | carnizaría | haragia (carne) |
 | *okindegia* | panadaría | ogia (pan) |
 | *arrandegia* | peixaría | arraina (peixe) |
 | *fruta-denda* | froitaría | frutak, barazkiak |
@@ -105,7 +105,7 @@ Cando vas facer a compra en Euskal Herria, cada produto adoita ter a súa tenda 
 Moitos nomes de tenda rematan en **-degi**, un sufixo antigo que significa "lugar onde hai…":
 
 - *ogi* (pan) → **okindegia** (panadaría)
-- *haragi* (carne) → **harategia** (carnicería)
+- *haragi* (carne) → **harategia** (carnizaría)
 - *arrain* (peixe) → **arrandegia** (peixaría)
 - *gozo* (doce) → **gozotegia** (pastelaría)
 
@@ -125,7 +125,7 @@ Moitos nomes de tenda rematan en **-degi**, un sufixo antigo que significa "luga
 Para ir a unha tenda usa o caso **NORA** co sufixo `-ra` (destino):
 
 - *Okindegi**ra** noa.* — Vou á panadaría.
-- *Harategi**ra** joango naiz.* — Irei á carnicería.
+- *Harategi**ra** joango naiz.* — Irei á carnizaría.
 - *Fruta-denda**ra** joaten naiz astero.* — Vou á froitaría todas as semanas.
 
 > **Nota cultural:** moitas familias aínda fan as compras divididas: o peixe na *arrandegia* do barrio, o pan na *okindegia*, e só o demais no supermercado. É habitual oír "*okindegira noa*" como expresión rutineira.

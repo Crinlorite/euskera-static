@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: kitchen
   - eu: logela
-    es: dormitorio
+    es: bedroom
   - eu: komuna
-    es: baño
+    es: bathroom
   - eu: egongela
     es: living room
   - eu: sarrera
-    es: entrada
+    es: entrance hall
   - eu: korridorea
-    es: pasillo
+    es: corridor
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: You want to take a shower. Which room do you go to?

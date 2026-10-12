@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: 山まで
   - eu: etxerantz
-    es: hacia casa
+    es: 家のほうへ
   - eu: lagunarengatik
     es: 友達の（せいで）
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ exercises:
 | zuentzat | *zuentzat* | 君たちのために |
 | haientzat | *haientzat* | 彼らのために |
 | Lander | *Landerrentzat* | Landerのために |
-| la madre | *amarentzat* | 母のために |
-| los amigos | *lagunentzat* | 友達のために |
+| 母 | *amarentzat* | 母のために |
+| 友達 | *lagunentzat* | 友達のために |
 
 > *Hau **zuretzat** da.* — これは君のためです。
 >
@@ -160,9 +160,9 @@ exercises:
 | zugatik | *zugatik* | 君のせいで |
 | beragatik / harengatik | *beragatik* | 彼/彼女のせいで |
 | Lander | *Landerrengatik* | Landerのせいで |
-| la madre | *amarengatik* | 母のせいで |
-| el amor | *maitasunarengatik* | 愛のために |
-| la lluvia | *euriagatik* | 雨のせいで |
+| 母 | *amarengatik* | 母のせいで |
+| 愛 | *maitasunarengatik* | 愛のために |
+| 雨 | *euriagatik* | 雨のせいで |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — 来てくれてありがとう、私のために！
 >
@@ -170,7 +170,7 @@ exercises:
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — なぜそれをしたの？ — 君のために。
 
-> **注意：** *-engatik*（原因：「〜のせいで」）と*-rentzat*（受益者：「〜のために」）を区別してください。スペイン語の「por」は両方の意味を持ちますが、バスク語ではこれらは異なります。
+> **注意：** *-engatik*（原因：「〜のせいで」）と*-rentzat*（受益者：「〜のために」）を区別してください。日本語でも「〜のせいで」と「〜のために」は別の言い方ですね。バスク語も同じく区別します。
 
 ## NONGO / NOIZKO — どの場所の / いつの
 
@@ -219,7 +219,7 @@ A1で *NON*（-an：〜で）を学びましたね。**NONGO** と **NOIZKO** �
 | 格 | 疑問詞 | 接尾辞 | 例 (etxe) |
 |---|---|---|---|
 | NOR | 誰？ | -a | *etxea* |
-| NORK | 誰が（する）？ | -ak | *etxeak* (sujeto) |
+| NORK | 誰が（する）？ | -ak | *etxeak*（主語） |
 | NORI | 誰に？ | -ari | *etxeari* |
 | NON | どこで？ | -an | *etxean* |
 | NORA | どこへ？ | -ra | *etxera* |

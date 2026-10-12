@@ -94,7 +94,7 @@ exercises:
 
 ## 어디서 잘까
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 호텔 | *hotela* |
 | 펜션 | *pentsioa* |
@@ -130,7 +130,7 @@ exercises:
 
 ## 숙박 중 요청 및 질문하기
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 몇 시에 체크아웃해야 하나요? | *Zer ordutan utzi behar da gela?* |
 | 빈 방 있나요? | *Gelarik badago libre?* |

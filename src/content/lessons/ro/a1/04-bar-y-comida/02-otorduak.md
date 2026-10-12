@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: micul dejun
   - eu: hamaiketakoa
     es: gustare de la miezul dimineții
   - eu: bazkaria
     es: prânz
   - eu: askaria
-    es: merienda
+    es: gustarea de după-amiază
   - eu: afaria
-    es: cena
+    es: cină
   - eu: jan
-    es: comer
+    es: a mânca
   - eu: edan
-    es: beber
+    es: a bea
 ---
 
 Fiecare masă a zilei are numele ei în limba bască, și cunoașterea lor te va ajuta să vorbești despre rutina ta zilnică. Există, de asemenea, o masă specific bască care nu are un echivalent direct în română: **hamaiketako**.
@@ -102,7 +102,7 @@ Fiecare masă a zilei are numele ei în limba bască, și cunoașterea lor te va
 | *askaria* | gustare de după-amiază | după-amiaza |
 | *afaria* | cină | seara |
 
-> **Hamaiketakoa** înseamnă literalmente „cel de la unsprezece” (*hamaika* = unsprezece). Este pauza tipică bască de la miezul dimineții: un *pintxo*, o cafea sau un *zurito* cu ceva. Nu este un mic dejun consistent, nici un prânz; este ceva intermediar care se ia pe stradă, la tavernă, cu colegii de muncă sau cu gașca.
+> **Hamaiketakoa** înseamnă literal „cel de la unsprezece” (*hamaika* = unsprezece). Este pauza tipică bască de la miezul dimineții: un *pintxo*, o cafea sau un *zurito* cu ceva. Nu este un mic dejun consistent, nici un prânz; este ceva intermediar care se ia pe stradă, la tavernă, cu colegii de muncă sau cu gașca.
 
 ## Verbe: jan, edan și cele specifice
 

@@ -102,16 +102,16 @@ exercises:
   - eu: Nora zoaz?
     es: ¿T'a on vas?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Voi ta casa
   - eu: Eskolara noa
     es: Voi ta la escuela
   - eu: Zertara zoaz?
     es: ¿A qué vas?
   - eu: Erostera
-    es: A comprar
+    es: A crompar
 ---
 
-O **caso NORA** (tamién clamau *adlativo*) marca **o destín** d'un movimiento: enta on vas. En castellano se traduce normalment con a preposición **"a"** ("voy *a* casa", "*a* Bilbao", "*al* parque").
+O **caso NORA** (tamién clamau *adlativo*) marca **o destín** d'un movimiento: enta on vas. En aragonés se traduce normalment con a preposición **"ta"** ("voi *ta* casa", "*ta* Bilbao", "*ta'l* parque").
 
 ## A pregunta: Nora?
 
@@ -140,7 +140,7 @@ Pa responder, adhibimos **`-ra`** a o puesto de destín. O patrón s'adapta segu
 | eskola | **eskolara** | *Eskolara doaz.* — Van ta la escuela. |
 | euskaltegi | **euskaltegira** | *Euskaltegira goaz.* — Imos a o euskaltegi. |
 | taberna | **tabernara** | *Tabernara zoaz?* — ¿Vas a o bar? |
-| lan (trabajo) | **lanera** | *Lanera nator.* — Vengo a o treballo. (igualment -era dezaga de consonant) |
+| lan (treballo) | **lanera** | *Lanera nator.* — Vengo a o treballo. (igualment -era dezaga de consonant) |
 | Bilbo | **Bilbora** | *Bilbora doa.* — Va ta Bilbao. |
 | Donostia | **Donostiara** | *Donostiara goaz asteburuan.* — Imos ta Donostia a fin de semana. |
 | Madril | **Madrilera** | *Madrilera doaz.* — Van ta Madrit. |
@@ -159,7 +159,7 @@ Pa preguntar **a qué** vas (con qué obchectivo), se fa servir **Zertara zoaz?*
 | *Zertara goaz mendira?* | *Ibiltzera.* — A caminar. |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — A nadar. |
 
-> **Patrón:** *(verbo en participio) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Ye basicament o "a + infinitivo" d'o castellano.
+> **Patrón:** *(verbo en participio) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. Ye basicament o "a + infinitivo" ("voi a minchar").
 
 ## Mini-conversación
 

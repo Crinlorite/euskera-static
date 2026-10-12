@@ -94,7 +94,7 @@ Falar por teléfono noutro idioma impón — non ves a cara, non hai xestos. Por
 
 ## Descolgar e preguntar
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Si? Dígame? | *Bai, esan?* |
 | Quen é? | *Nor da?* |
@@ -119,7 +119,7 @@ Fíxate: *esan behar diot* (teño que lle dicir), *esango diot* (heille dicir), 
 
 ## Problemas técnicos (os clásicos)
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Está a comunicar | *Komunikatzen ari da* |
 | Non hai cobertura | *Estaldurarik ez dago* |

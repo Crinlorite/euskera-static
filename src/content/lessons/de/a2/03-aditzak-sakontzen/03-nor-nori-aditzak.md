@@ -82,7 +82,7 @@ exercises:
     es: es ist mir passiert
 ---
 
-**NOR-NORI**-Verben sind solche, bei denen etwas (NOR) „jemandem passiert“ (NORI). Das grammatikalische Subjekt ist **die Sache**, nicht die Person — genau wie *gustar* im Spanischen: *me gusta el cine* (mir gefällt es, das Kino).
+**NOR-NORI**-Verben sind solche, bei denen etwas (NOR) „jemandem passiert“ (NORI). Das grammatikalische Subjekt ist **die Sache**, nicht die Person — genau wie im Deutschen: *mir gefällt das Kino* — das Kino ist das Subjekt.
 
 In A1 hast du bereits *gustatzen zait* gelernt. In A2 erweiterst du dieses Muster auf andere sehr nützliche Verben.
 
@@ -90,7 +90,7 @@ In A1 hast du bereits *gustatzen zait* gelernt. In A2 erweiterst du dieses Muste
 
 Für NOR Singular:
 
-| NORI | Forma | Deutsch |
+| NORI | Form | Deutsch |
 |---|---|---|
 | niri | **zait** | mir |
 | zuri | **zaizu** | dir |
@@ -101,7 +101,7 @@ Für NOR Singular:
 
 Für NOR **Plural**:
 
-| NORI | Forma plural | Deutsch |
+| NORI | Pluralform | Deutsch |
 |---|---|---|
 | niri | **zaizkit** | mir (Dinge) |
 | zuri | **zaizkizu** | dir |

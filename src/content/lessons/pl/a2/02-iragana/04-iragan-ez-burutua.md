@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Poszedłem/poszłam (raz)
   - eu: Joaten nintzen
     es: Chodziłem (nawyk)
   - eu: Joan nuen autoa
     es: (niepoprawne)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Byłem/byłam w drodze
   - eu: Bizi nintzen Bilbon
     es: Mieszkałem w Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Wczoraj pojechałem/pojechałam do Bilbao
 ---
 
 Baskijski **imperfect** (*iragan ez burutua*) odpowiada, ogólnie rzecz biorąc, polskim formom czasu przeszłego niedokonanego, takim jak „jadłem / mieszkałem / szedłem / pracowałem”. Służy do opowiadania o:

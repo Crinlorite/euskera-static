@@ -74,20 +74,20 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: 안녕
   - eu: Agur
     es: 안녕히 가세요
   - eu: Egun on
     es: 좋은 아침입니다
   - eu: Gabon
-    es: Buenas noches
+    es: 잘 자
   - eu: Gero arte
-    es: Hasta luego
+    es: 나중에 봐
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: 정말 고마워요
 ---
 
-바스크어에서는 시간에 따라 인사말이 달라집니다. 가장 보편적이고 일반적인 표현은 **Kaixo**이며, 스페인어의 "hola"처럼 시간이나 상대에 상관없이 거의 항상 사용할 수 있습니다. **Hepa**나 **Aupa**는 더 비격식적인 표현으로, 주로 젊은 사람들이나 친구들 사이에서 사용됩니다.
+바스크어에서는 시간에 따라 인사말이 달라집니다. 가장 보편적이고 일반적인 표현은 **Kaixo**이며, 한국어의 "안녕"처럼 시간이나 상대에 상관없이 거의 항상 사용할 수 있습니다. **Hepa**나 **Aupa**는 더 비격식적인 표현으로, 주로 젊은 사람들이나 친구들 사이에서 사용됩니다.
 
 ## 시간대별 인사말
 

@@ -50,7 +50,7 @@ const hayNivel = await existeRuta(`${levelCode}/`, locale);
     <header class="unit-header stagger">
       <p class="eyebrow">
         {hayNivel
-          ? <a href={`/${locale}/${levelCode}/`}>← {levelCode.toUpperCase()} · Todas las unidades</a>
+          ? <a href={`/${locale}/${levelCode}/`}>← {levelCode.toUpperCase()} · {t(locale, 'unit.all')}</a>
           : <span>{levelCode.toUpperCase()}</span>}
       </p>
       <div class="unit-headline">
@@ -78,7 +78,7 @@ const hayNivel = await existeRuta(`${levelCode}/`, locale);
             <path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           <span class="meta">
-            <small>Unidad anterior</small>
+            <small>{t(locale, 'unit.prev')}</small>
             <strong>{prevUnit.data.order.toString().padStart(2, '0')} · {prevUnit.data.title}</strong>
           </span>
         </a>
@@ -86,7 +86,7 @@ const hayNivel = await existeRuta(`${levelCode}/`, locale);
 
       {hayNivel ? (
         <a class="unit-nav-back" href={`/${locale}/${levelCode}/`}>
-          <small>Volver a</small>
+          <small>{t(locale, 'unit.back')}</small>
           <strong>{levelCode.toUpperCase()}</strong>
         </a>
       ) : <div></div>}
@@ -94,7 +94,7 @@ const hayNivel = await existeRuta(`${levelCode}/`, locale);
       {nextUnit ? (
         <a class="unit-nav-card next" href={`/${locale}/${levelCode}/${nextUnit.data.code}/`}>
           <span class="meta">
-            <small>Siguiente unidad</small>
+            <small>{t(locale, 'unit.next')}</small>
             <strong>{nextUnit.data.order.toString().padStart(2, '0')} · {nextUnit.data.title}</strong>
           </span>
           <svg class="icon-direction-aware" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">

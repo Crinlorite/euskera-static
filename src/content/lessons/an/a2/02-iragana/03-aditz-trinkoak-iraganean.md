@@ -44,7 +44,7 @@ exercises:
   - eu: zindoazen
     es: ibas (tu)
   - eu: zihoan
-    es: iba (él/ella)
+    es: iba (ell/ella)
   - eu: gindoazen
     es: ibanos
   - eu: zihoazen
@@ -62,7 +62,7 @@ exercises:
   - eu: nenbilen
     es: andaba (yo)
   - eu: zebilen
-    es: andaba (él/ella)
+    es: andaba (ell/ella)
   - eu: zebiltzan
     es: andaban
 - id: ex-a2-ir3-mp
@@ -103,16 +103,16 @@ Pa os seis verbos sinteticos clau, asinas queda o pasau en 1ª y 3ª persona:
 
 | Pronombre | Forma | Aragonés |
 |---|---|---|
-| ni | **nindoan** | iba / fui (en curso) |
+| ni | **nindoan** | diba / fui (en curso) |
 | zu | **zindoazen** | ibas / fues |
-| hura | **zihoan** | iba / fue |
+| hura | **zihoan** | diba / fue |
 | gu | **gindoazen** | ibanos |
 | zuek | **zindoazten** | ibaz |
 | haiek | **zihoazen** | iban |
 
 > *Egunero zortzietan lanera **nindoan**.* — Cada día iba a o treballo a as ueito.
 
-## *Etorri* (venir)
+## *Etorri* (vinir)
 
 | Pronombre | Forma | Aragonés |
 |---|---|---|
@@ -142,10 +142,10 @@ Ye a pregunta clau. Aproximadament:
 
 | Forma | Tipo de pasau | Exemplo |
 |---|---|---|
-| **Joan nintzen** (analitica + participio) | Feito puntual, zarrato, completo | *Atzo Bilbora **joan nintzen** zortzietan.* (= ayer fui ta Bilbau) |
+| **Joan nintzen** (analitica + participio) | Feito puntual, zarrato, completo | *Atzo Bilbora **joan nintzen** zortzietan.* (= ahier fui ta Bilbau) |
 | **Nindoan** (sintetica) | Acción en curso, habito, descripción d'o pasau | *Bilborantz **nindoan**, ezagun bat ikusi nuenean.* (= iba enta Bilbau cuan vi a un conoixiu) |
 
-> **Regla rapida:** a forma sintetica (*nindoan, nentorren, nenbilen*) describe a **escena** d'o pasau. A forma con participio (*joan nintzen, etorri nintzen*) conta o **feito** d'o pasau. A diferencia ye muit pareixida a iba / fui en castellano.
+> **Regla rapida:** a forma sintetica (*nindoan, nentorren, nenbilen*) describe a **escena** d'o pasau. A forma con participio (*joan nintzen, etorri nintzen*) conta o **feito** d'o pasau. A diferencia ye muit pareixida a "diba" / "fue" en aragonés.
 
 ## Verbos sinteticos NOR-NORK: *neukan*, *nekien*
 

@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + czasownik w czasie teraźniejszym to klasyczna, łagodna propozycja, tak jak po hiszpańsku. Pozostałe pytają o przeszłość, cel lub powrót.'
+  explanation: '*Zergatik ez…?* + czasownik w czasie teraźniejszym to klasyczna, łagodna propozycja, jak polskie „może byśmy…?”. Pozostałe pytają o przeszłość, cel lub powrót.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: Umawiamy się o szóstej? = seietan ___ gara?

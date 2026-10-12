@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: طويل
   - eu: baxua
-    es: bajo
+    es: قصير
   - eu: handia
-    es: grande
+    es: كبير
   - eu: txikia
-    es: pequeño
+    es: صغير
   - eu: lodia
-    es: gordo
+    es: سمين
   - eu: argala
-    es: delgado
+    es: نحيف
   - eu: polita
-    es: bonito
+    es: جميل
   - eu: itsusia
-    es: feo
+    es: قبيح
 ---
 
 عندما تريد أن تصف كيف يكون شخص أو شيء ما بشكل **دائم** (جسديًا، بشكل عام)، في اللغة الباسكية نستخدم السؤال **Nolakoa da?** ("كيف هو/هي؟") ونجيب باستخدام الفعل **izan** + صفة مع اللاحقة `-a` في نهايتها.

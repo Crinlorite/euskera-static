@@ -76,19 +76,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: 星期一
   - eu: asteartea
-    es: martes
+    es: 星期二
   - eu: asteazkena
     es: 星期三
   - eu: osteguna
-    es: jueves
+    es: 星期四
   - eu: ostirala
-    es: viernes
+    es: 星期五
   - eu: larunbata
     es: 星期六
   - eu: igandea
-    es: domingo
+    es: 星期日
 ---
 
 在讨论计划和日程之前，我们来复习一下星期几的说法，并学习如何将它们与日常活动联系起来。

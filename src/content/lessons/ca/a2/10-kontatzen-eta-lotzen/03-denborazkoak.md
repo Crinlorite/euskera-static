@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ko3-mc1
   type: multiple-choice
-  prompt: '"Etxera iritsi nintzenean, deitu nizun" significa…'
+  prompt: '"Etxera iritsi nintzenean, deitu nizun" vol dir…'
   options:
   - Abans d'arribar a casa et vaig trucar
   - Quan vaig arribar a casa, et vaig trucar
@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: després d'esmorzar
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: quan esmorzo
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: mentre esmorzo
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: tan bon punt esmorzo
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: sense esmorzar
 ---
 
 Les teves frases ja saben QUÈ va passar; aquesta lliçó els ensenya a dir **QUAN** amb precisió de rellotger: *quan vaig arribar*, *abans de sortir*, *després de dinar*, *mentre dormies*. Tres peces i les combinacions surten soles.

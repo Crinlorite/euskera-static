@@ -28,7 +28,7 @@ exercises:
   options:
   - Iragan burutua (joan nintzen)
   - Presente
-  - Pasado reciente (joan naiz)
+  - Passato prossimo (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: La scena, la descrizione e le abitudini si esprimono con l'imperfetto. Le azioni puntuali che portano avanti la storia si esprimono con il *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: si è sposato/a
   - eu: bidaiatu zuten
-    es: viajaron
+    es: viaggiarono
   - eu: ezagutu nuen
     es: ho conosciuto
   - eu: maitemindu nintzen

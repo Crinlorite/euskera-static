@@ -122,7 +122,7 @@ exercises:
 | *Goizean joan dut* | *Goizean joan naiz* | *Joan* 是不及物动词，与 *izan* (naiz) 连用。 |
 | *Mikel egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* 是及物动词：主语带 -k，助动词为 *du*。 |
 | *Gaur gosaltzen dut etxean* | *Gaur gosaldu dut etxean* | 如果你想用最近过去时，不要加 *-tzen*。 |
-| *Atzo lanera joan naiz* | *Atzo lanera joan nintzen* (pasado completo) | 对于 *atzo* 和其他已经结束的时间段，使用完成过去时；最近过去时用于今天。 |
+| *Atzo lanera joan naiz* | *Atzo lanera joan nintzen*（完整过去时） | 对于 *atzo* 和其他已经结束的时间段，使用完成过去时；最近过去时用于今天。 |
 
 > **注意：**对于昨天的动作，使用完成过去时（*joan nintzen*, *jan nuen*），这是 A2 级别的知识点。在 A1 阶段，请专注于用最近过去时讲述**今天**发生的事；如果你偶尔说了 *atzo joan naiz*，别人也能听懂，但标准用法是 *atzo joan nintzen*。
 

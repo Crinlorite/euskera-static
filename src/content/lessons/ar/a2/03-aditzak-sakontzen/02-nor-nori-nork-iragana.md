@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: أعطيتك
   - eu: eman zion
-    es: le dio
+    es: أعطاه/أعطاها
   - eu: eman nion
-    es: le di
+    es: أعطيتُه/أعطيتُها
   - eu: eman ziguten
-    es: nos dieron
+    es: أعطونا
   - eu: eman nizkion
     es: أعطيته (إياهم)
 ---

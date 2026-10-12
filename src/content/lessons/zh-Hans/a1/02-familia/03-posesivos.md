@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: 我的
   - eu: zure
-    es: tu/tuyo
+    es: 你的
   - eu: bere
     es: 他/她的
   - eu: gure
-    es: nuestro
+    es: 我们的
   - eu: zuen
-    es: vuestro
+    es: 你们的
   - eu: beren
     es: 他们的
 - id: ex-pos-fb1
@@ -43,7 +43,7 @@ exercises:
   explanation: “Gure”是“我们”的所有格。
 ---
 
-巴斯克语的所有格放在**名词之前**，和西班牙语一样。它不根据所拥有物品的性别而改变形式（没有“mío/mía”之分，只有 *nire*）。
+巴斯克语的所有格放在**名词之前**，和中文一样。它不根据所拥有物品的性别而改变形式（只有 *nire* 一种形式）。
 
 ## 完整表格
 
@@ -56,7 +56,7 @@ exercises:
 | zuek | **zuen** | zuen lagunak | 你们的朋友 |
 | haiek | **beren** | beren autoa | 他们的车 |
 
-> 与西班牙语不同，即使名词前有所有格，它也**保留定冠词 `-a`**：*gure etxea* (我们的房子)，*zuen lagunak* (你们的朋友)，*beren autoa* (他们的车)。在本身就以 `-a` 结尾的单词中（如 *ama* 或 *arreba*），这个冠词看不出来：*nire ama*。
+> 注意：即使名词前有所有格，它也**保留定冠词 `-a`**：*gure etxea* (我们的房子)，*zuen lagunak* (你们的朋友)，*beren autoa* (他们的车)。在本身就以 `-a` 结尾的单词中（如 *ama* 或 *arreba*），这个冠词看不出来：*nire ama*。
 
 ## 家庭 + 所有格
 

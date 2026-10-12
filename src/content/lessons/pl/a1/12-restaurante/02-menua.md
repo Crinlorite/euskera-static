@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" oznacza…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Deser
+  - Pierwsze danie
+  - Drugie danie
+  - Napój
   answer: 1
   explanation: '*Lehen platera* — pierwsze danie. *Lehen* oznacza "pierwszy".'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" po polsku to…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - Napój
+  - Przystawka
+  - Deser
+  - Danie główne
   answer: 2
   explanation: '*Postrea* — deser. Tłumaczenie jest dosłowne.'
 - id: ex-menu-fb1
@@ -82,22 +82,22 @@ exercises:
   - eu: sagar tarta
     es: tarta jabłkowa
   - eu: flana
-    es: flan
+    es: flan (budyń karmelowy)
 - id: ex-menu-mp
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: pierwsze danie
   - eu: bigarren platera
-    es: segundo plato
+    es: drugie danie
   - eu: postrea
-    es: postre
+    es: deser
   - eu: edaria
-    es: bebida
+    es: napój
   - eu: eguneko menua
     es: menu dnia
   - eu: karta
-    es: carta
+    es: karta dań
 ---
 
 Umiejętność czytania menu otwiera drzwi. W większości *jatetxeak* zobaczysz klasyczną trójczęściową strukturę: pierwsze danie, drugie danie i deser.
@@ -151,7 +151,7 @@ Tutaj rozróżnia się **arrainak** (ryby) i **haragiak** (mięsa):
 
 Klasyczne desery w baskijskich *jatetxeak*:
 
-- *flana* — flan
+- *flana* — flan (budyń karmelowy)
 - *izozkia* — lody
 - *sagar tarta* — tarta jabłkowa
 - *mamia* — zsiadłe mleko

@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: zia
   - eu: lehengusu
-    es: primo
+    es: cugino
   - eu: lehengusina
-    es: prima
+    es: cugina
   - eu: iloba
-    es: sobrino/a
+    es: nipote
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" è...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - cugino
+  - fratello
+  - nonno
+  - suocero
   answer: 0
 - id: ex-fe-fc
   type: flashcards

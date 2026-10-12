@@ -90,15 +90,15 @@ exercises:
   - eu: alkandora
     es: camisa
   - eu: galtzak
-    es: pantalones
+    es: calça
   - eu: soineko
     es: vestido
   - eu: jertsea
-    es: jersey
+    es: suéter
   - eu: zapatak
-    es: zapatos
+    es: sapatos
   - eu: beroki
-    es: abrigo
+    es: casaco
 ---
 
 No A1 você viu o vocabulário básico de **roupas** e **casa**. No A2, você expande para registros mais específicos: **tamanhos, provador, acessórios**, e a **moradia como espaço social** (aluguel, proprietário, bairro, jardim).

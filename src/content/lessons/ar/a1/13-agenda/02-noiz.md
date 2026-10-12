@@ -79,13 +79,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer
+    es: أمس
   - eu: gaur
-    es: hoy
+    es: اليوم
   - eu: bihar
-    es: mañana
+    es: غدًا
   - eu: etzi
-    es: pasado mañana
+    es: بعد غد
   - eu: datorren astean
     es: الأسبوع القادم
   - eu: datorren urtean

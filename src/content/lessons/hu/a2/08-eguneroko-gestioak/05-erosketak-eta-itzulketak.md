@@ -45,7 +45,7 @@ exercises:
   prompt: Felpróbálhatom ezt a nadrágot? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = (fel)próbálni. Ahalerával: probatu **ditzaket** (többes szám: a "praka" többes számban áll, akárcsak a spanyolban).'
+  explanation: '*Probatu* = (fel)próbálni. Ahalerával: probatu **ditzaket** (többes szám: a "praka" többes számban áll, a magyar „nadrág” viszont egyes számban).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: Kicsi rám; ki szeretném cserélni = txikia geratzen zait; ___ nahi dut.

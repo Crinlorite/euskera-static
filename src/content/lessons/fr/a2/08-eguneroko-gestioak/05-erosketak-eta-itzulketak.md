@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" signifie que le vêtement est…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Trop chère
+  - Trop grande
+  - Très jolie
+  - Trop petite
   answer: 1
   explanation: 'Le *-egi* de l''unité 04 (gehiegi/gutxiegi) appliqué à la taille : handi**egi**a = trop grand ; txiki**egi**a = trop petit.'
 - id: ex-a2-ge5-mc2

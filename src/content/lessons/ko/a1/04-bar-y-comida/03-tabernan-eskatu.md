@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: 부탁합니다
   - eu: eskerrik asko
-    es: muchas gracias
+    es: 정말 고마워요
   - eu: ez horregatik
     es: 천만에요
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: 저는
   - eu: ona
-    es: bueno
+    es: 좋은
 ---
 
 바에서 주문하는 것은 바스크어로 말할 줄 알게 될 가장 유용한 것 중 하나입니다. 기본 공식은 매우 간단합니다: 원하는 것의 이름 + **bat** (하나) + **mesedez** (부탁합니다). 이게 다입니다.
@@ -157,4 +157,4 @@ exercises:
 >
 > — *Ederki!* — 좋아요!
 
-> **문화 노트:** 바스크 술집에서는 바에서 주문하고, 서서 마시고, 큰 소리로 이야기하는 것이 일반적입니다. *Mesedez*와 *eskerrik asko*는 기본적이지만 모든 문장에 필수는 아닙니다 — 스페인어와는 달리, 톤이 친절하다면 무뚝뚝하게 "*ebakia*"라고만 말하는 것이 무례하게 여겨지지 않습니다.
+> **문화 노트:** 바스크 술집에서는 바에서 주문하고, 서서 마시고, 큰 소리로 이야기하는 것이 일반적입니다. *Mesedez*와 *eskerrik asko*는 기본적이지만 모든 문장에 필수는 아닙니다 — 톤이 친절하다면 무뚝뚝하게 "*ebakia*"라고만 말하는 것이 무례하게 여겨지지 않습니다.

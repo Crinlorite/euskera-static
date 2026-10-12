@@ -161,7 +161,7 @@ Ací ei era suspresa deth basc. Es detzenes se compden **en grops de 20**:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> Fixe-te qu'**euro** non pòrte era `-a` quan va precedit d'un numèro (parier qu'en *bi anaia*, "dus frairs"). Es quantitats exactes en centims se diden coma en castelhan: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
+> Fixe-te qu'**euro** non pòrte era `-a` quan va precedit d'un numèro (parier qu'en *bi anaia*, "dus frairs"). Es quantitats exactes en centims se diden atau: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
 
 ## Crompar diuèrsi elements
 

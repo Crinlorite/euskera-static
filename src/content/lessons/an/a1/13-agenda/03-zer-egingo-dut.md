@@ -72,7 +72,7 @@ exercises:
   - eu: izango da
     es: será
   - eu: ekarriko dut
-    es: lo trayeré
+    es: lo trahieré
 ---
 
 O **futuro proximo** en basco ye muito regular: adhibes una particla a o verbo en a suya forma base y mantienes l'auxiliar conchugau en present. Con ista lección desbloqueyas quasi qualsiquier "feré, iré, veyeré...".
@@ -151,4 +151,4 @@ Y a pregunta:
 - ***Etorriko al zara**?* — Vendrás?
 - ***Joango al gara** mendira?* — Iremos ta o mont?
 
-> **Nota cultural:** en basco o futuro con *-ko/-go* se fa servir tamién pa muitas cosas que en castellano son present simple: *Zer hartuko duzu?* — "Qué prens / vas a prener?". Ye una d'as "voces" mas caracteristicas de l'idioma; quanto antes la faiga l'orella, millor.
+> **Nota cultural:** en basco o futuro con *-ko/-go* se fa servir tamién pa muitas cosas que en aragonés son present simple: *Zer hartuko duzu?* — "Qué prens / vas a prener?". Ye una d'as "voces" mas caracteristicas de l'idioma; quanto antes la faiga l'orella, millor.

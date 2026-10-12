@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Viens ici
   - eu: Hartu hau
-    es: Toma esto
+    es: Prends ça
   - eu: Eseri hemen
     es: Assieds-toi ici
   - eu: Esadazu egia
@@ -115,9 +115,9 @@ Certains verbes très fréquents ont des formes synthétiques spécifiques pour 
 | Verbe | Tu (*zu*) | Vous (*zuek*) |
 |---|---|---|
 | *etorri* (venir) | **Zatoz** | **Zatozte** |
-| *joan* (ir) | **Zoaz** | **Zoazte** |
-| *ekarri* (traer) | **Ekarri** / **Ekar ezazu** | **Ekar ezazue** |
-| *eraman* (llevar) | **Eraman** / **Eramazu** | **Eramazue** |
+| *joan* (aller) | **Zoaz** | **Zoazte** |
+| *ekarri* (apporter) | **Ekarri** / **Ekar ezazu** | **Ekar ezazue** |
+| *eraman* (emporter) | **Eraman** / **Eramazu** | **Eramazue** |
 | *egon* (être) | **Egon** / **Lasai** (tranquille !) | **Egon** |
 
 > *— **Zatoz** hona, mesedez.*

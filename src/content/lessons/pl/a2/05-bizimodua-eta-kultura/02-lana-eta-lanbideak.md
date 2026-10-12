@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" znaczy…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Praca
+  - Pensja
+  - Szef
+  - Pracownik
   answer: 1
   explanation: '*Soldata* = pensja, wynagrodzenie. *Lansari* to formalny synonim.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: nauczyciel/nauczycielka
   - eu: erizain
-    es: enfermero/a
+    es: pielęgniarz/pielęgniarka
   - eu: sukaldari
-    es: cocinero/a
+    es: kucharz/kucharka
   - eu: kazetari
-    es: periodista
+    es: dziennikarz/dziennikarka
   - eu: mekanikari
     es: mechanik/mechaniczka
   - eu: arkitekto
-    es: arquitecto/a
+    es: architekt/architektka
 ---
 
 A2 otwiera przed tobą świat **pracy** poza „jestem studentem / jestem nauczycielem”. Teraz zaczniesz rozmawiać o:
@@ -102,7 +102,7 @@ A2 otwiera przed tobą świat **pracy** poza „jestem studentem / jestem nauczy
 
 Poziom A1 obejmował klasyczne zawody (*medikua, ikaslea, irakaslea, sukaldaria*). Na A2 dodajesz:
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Dziennikarz/dziennikarka | *kazetaria* |
 | Programista/programistka | *programatzailea* |
@@ -128,7 +128,7 @@ Poziom A1 obejmował klasyczne zawody (*medikua, ikaslea, irakaslea, sukaldaria*
 
 Pamiętaj ten przyrostek z A1 — jest produktywny w tworzeniu nazw zawodów:
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Osoba mówiąca po baskijsku | *euskalduna* |
 | Mistrz (ten, kto ma *txapelę*) | *txapelduna* |
@@ -136,7 +136,7 @@ Pamiętaj ten przyrostek z A1 — jest produktywny w tworzeniu nazw zawodów:
 
 ## Rozmowa o pracy
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Czym się zajmujesz zawodowo? | *Zertan egiten duzu lan?* |
 | Pracuję w biurze | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ Pamiętaj ten przyrostek z A1 — jest produktywny w tworzeniu nazw zawodów:
 
 ## Wymiar i godziny pracy
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Pełny etat | *Lanaldi osoa* |
 | Pół etatu | *Lanaldi erdia* |
@@ -163,10 +163,10 @@ Pamiętaj ten przyrostek z A1 — jest produktywny w tworzeniu nazw zawodów:
 
 Typowe etapy i słownictwo:
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Oferta pracy | *lan-eskaintza* |
-| Curriculum / CV | *curriculuma* |
+| CV / życiorys | *curriculuma* |
 | List motywacyjny | *aurkezpen-gutuna* |
 | Rozmowa o pracę | *lan-elkarrizketa* |
 | Doświadczenie | *esperientzia* |
@@ -177,7 +177,7 @@ Typowe etapy i słownictwo:
 
 ## Typowe zwroty na rozmowie o pracę
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Opowiedz mi coś o sobie | *Konta iezadazu zerbait zuri buruz* |
 | Dlaczego chcesz pracować na tym stanowisku? | *Zergatik nahi duzu lanpostu hau?* |
@@ -190,9 +190,9 @@ Typowe etapy i słownictwo:
 
 Aby opisać swoją pracę w bardziej złożony sposób, warto użyć **zdania względnego**:
 
-> **verbo conjugado + -(e)n + sustantivo**
+> **czasownik odmieniony + -(e)n + rzeczownik**
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Praca, którą mam | *Daukadan lana* |
 | Firma, w której pracuję | *Lan egiten dudan enpresa* |
@@ -206,7 +206,7 @@ Aby opisać swoją pracę w bardziej złożony sposób, warto użyć **zdania wz
 
 > To kluczowe narzędzie na poziomie A2, które pojawia się w rozdziale 5 w różnych zastosowaniach: na rozmowie o pracę (*duzun esperientzia*) i podczas prezentacji (*ezagutzen dudan jendea*). Na poziomie B1 jest ono omawiane bardziej szczegółowo.
 
-## Mini-diálogo: lan-elkarrizketa
+## Minidialog: lan-elkarrizketa
 
 > *— Egun on. Eseri, mesedez. **Konta iezadazu** zertan **lan egin duzun** orain arte.*
 >

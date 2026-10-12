@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: 直到山
   - eu: etxerantz
-    es: hacia casa
+    es: 往家的方向
   - eu: lagunarengatik
     es: 因为朋友
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ exercises:
 | zuentzat | *zuentzat* | 为你们 |
 | haientzat | *haientzat* | 为他们 |
 | Lander | *Landerrentzat* | 为Lander |
-| la madre | *amarentzat* | 为妈妈 |
-| los amigos | *lagunentzat* | 为朋友们 |
+| 妈妈 | *amarentzat* | 为妈妈 |
+| 朋友们 | *lagunentzat* | 为朋友们 |
 
 > *Hau **zuretzat** da.* — 这是给你的。
 >
@@ -160,9 +160,9 @@ exercises:
 | zugatik | *zugatik* | 因为你 |
 | beragatik / harengatik | *beragatik* | 因为他/她 |
 | Lander | *Landerrengatik* | 因为Lander |
-| la madre | *amarengatik* | 因为妈妈 |
-| el amor | *maitasunarengatik* | 因为爱 |
-| la lluvia | *euriagatik* | 因为下雨 |
+| 妈妈 | *amarengatik* | 因为妈妈 |
+| 爱 | *maitasunarengatik* | 因为爱 |
+| 雨 | *euriagatik* | 因为下雨 |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — 谢谢你为我而来！
 >
@@ -170,7 +170,7 @@ exercises:
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — 你为什么这么做？ — 因为你。
 
-> **注意：** 区分 *-engatik* (原因：“因为……的缘故”) 和 *-rentzat* (接收者：“为了”)。在西班牙语中，“por”可以涵盖这两种意思，但在巴斯克语中它们是不同的。
+> **注意：** 区分 *-engatik* (原因：“因为……的缘故”) 和 *-rentzat* (接收者：“为了”)。中文也用不同的词（“因为”/“为了”），巴斯克语同样区分。
 
 ## NONGO / NOIZKO — 来自何处/何时
 
@@ -219,7 +219,7 @@ exercises:
 | 格 | 疑问词 | 后缀 | 例子 (etxe) |
 |---|---|---|---|
 | NOR | 谁？ | -a | *etxea* |
-| NORK | 谁做？ | -ak | *etxeak* (sujeto) |
+| NORK | 谁做？ | -ak | *etxeak*（主语） |
 | NORI | 给谁？ | -ari | *etxeari* |
 | NON | 在哪里？ | -an | *etxean* |
 | NORA | 去哪里？ | -ra | *etxera* |

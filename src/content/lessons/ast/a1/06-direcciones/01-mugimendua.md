@@ -19,15 +19,15 @@ exercises:
   - eu: etorri
     es: venir
   - eu: ibili
-    es: andar / moverse
+    es: andar / movese
   - eu: sartu
     es: entrar
   - eu: irten
     es: salir
   - eu: igo
-    es: subir
+    es: xubir
   - eu: jaitsi
-    es: bajar
+    es: baxar
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Yo voi = Ni ___.
@@ -42,7 +42,7 @@ exercises:
   explanation: '"Zatoz" ye la forma sintética de "etorri" pa "zu".'
 - id: ex-mu-mc1
   type: multiple-choice
-  prompt: '"Nora zoaz?" significa…'
+  prompt: '"Nora zoaz?" quier dicir…'
   options:
   - ¿D'aú vienes?
   - ¿Aú vas?
@@ -55,9 +55,9 @@ exercises:
   prompt: '"Sartu" y el so contrariu "irten" signifiquen, respectivamente:'
   options:
   - entrar / salir
-  - subir / bajar
+  - xubir / baxar
   - ir / venir
-  - abrir / cerrar
+  - abrir / zarrar
   answer: 0
 - id: ex-mu-fc
   type: flashcards

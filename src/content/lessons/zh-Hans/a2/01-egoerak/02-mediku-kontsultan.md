@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: “Hobeto nago” 的意思是……
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - 我更糟了
+  - 我很好
+  - 我好些了
+  - 我还是老样子
   answer: 2
   explanation: '*Hobeto* = 更好。*Hobe* 是形容词“更好的”，而 *hobeto* 是副词。'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: 疼吗？
   - eu: Hartu hau
-    es: Toma esto
+    es: 把这个吃了
   - eu: Itzuli astebete barru
     es: 一周后回来复诊
   - eu: Atseden hartu
-    es: Descansar
+    es: 休息
 ---
 
 这节课是**一次完整的就诊模拟**。它结合了上一课的词汇、时间表达（多久一次，之前/之后）和常用句式。看医生是A2级别最有用的情境之一：它会出现在任何官方考试中。

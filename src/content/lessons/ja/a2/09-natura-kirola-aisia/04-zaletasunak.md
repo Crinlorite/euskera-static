@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: 読書が好きです
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: 彼／彼女は歌うのが好き
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: 私たちは旅行が好き
   - eu: Margotzen dakit
     es: 絵が描けます
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: 踊りに行く
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: 料理しているところ
 ---
 
 何もしていない時は何をしますか？このレッスンでは**趣味**について、そして趣味について話す時に使われる文法、動詞を名詞化する **-tzea** (*irakurtzea* = 「読むこと」) について学びます。
@@ -99,7 +99,7 @@ A1レベルで、物に対して *gustatzen zait* を使うことを学びまし
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 読書が好きです | *Irakurtzea gustatzen zait* |
 | 料理が大好きです | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ A1レベルで、物に対して *gustatzen zait* を使うことを学びまし
 
 ## 趣味のカタログ
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 読書 / 執筆 | *irakurtzea / idaztea* |
 | 音楽を聴くこと | *musika entzutea* |

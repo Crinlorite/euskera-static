@@ -78,7 +78,7 @@ exercises:
 
 三种方式，都是正确的：
 
-| 巴斯克语 | 西班牙语 | 语气 |
+| 巴斯克语 | 中文 | 语气 |
 |---|---|---|
 | **Kontua, mesedez.** | 请结账。 | 中性，清晰 |
 | **Atera kontua, mesedez.** | 请给我账单。 | 中性 |
@@ -93,7 +93,7 @@ exercises:
 
 ## 付款
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *Txartelaz ordain dezaket?* | 我能用卡支付吗？ |
 | *Eskudirutan ordainduko dut.* | 我付现金。 |

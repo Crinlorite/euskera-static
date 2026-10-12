@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-04-nm-mc1
   type: multiple-choice
-  prompt: '"Atzo arratsaldean" significa…'
+  prompt: '"Atzo arratsaldean" vol dir…'
   options:
   - demà a la tarda
   - ahir a la tarda
@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: avui
   - eu: atzo
-    es: ayer
+    es: ahir
   - eu: bihar
-    es: mañana
+    es: demà
   - eu: etzi
-    es: pasado mañana
+    es: demà passat
   - eu: gaur goizean
-    es: esta mañana
+    es: aquest matí
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: aquesta tarda
   - eu: atzo gauean
-    es: anoche
+    es: ahir a la nit
   - eu: orain
-    es: ahora
+    es: ara
   - eu: lehen
-    es: antes
+    es: abans
 - id: ex-04-nm-fc
   type: flashcards
   cards:

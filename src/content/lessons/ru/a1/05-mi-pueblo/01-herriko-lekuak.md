@@ -14,21 +14,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: taberna
-    es: bar
+    es: бар
   - eu: okindegia
     es: булочная
   - eu: botika
-    es: farmacia
+    es: аптека
   - eu: liburutegia
-    es: biblioteca
+    es: библиотека
   - eu: eliza
-    es: iglesia
+    es: церковь
   - eu: merkatua
-    es: mercado
+    es: рынок
   - eu: banketxea
-    es: banco
+    es: банк
   - eu: ospitalea
-    es: hospital
+    es: больница
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: Вам нужно купить хлеб. В какой магазин вы пойдёте?

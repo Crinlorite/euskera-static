@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: ger (passat)
   - eu: bihar
-    es: mañana (futuro)
+    es: deman (futur)
   - eu: herenegun
-    es: anteayer
+    es: abans-de-ger
   - eu: etzi
-    es: pasado mañana
+    es: depús deman
   - eu: joan den astean
     es: era setmana passada
   - eu: datorren astean
@@ -105,7 +105,7 @@ Ja sabs bastir eth futur. Ara tòque **emplega'c entad aquerò que servís de ve
 
 ## Es marcaires de futur
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Deman | *bihar* |
 | Passat deman | *etzi* |
@@ -131,7 +131,7 @@ E es sues responsates tipiques:
 
 ## Intencions e decisions
 
-| Castelhan | Basc | Matís |
+| Aranés | Basc | Matís |
 |---|---|---|
 | È intencion de viatjar | *Bidaiatzeko **asmoa dut*** | plan en cap |
 | È decidit de cambiar de trabalh | *Lanez aldatzea **erabaki dut*** | decision presa |

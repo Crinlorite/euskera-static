@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-01-zedi-mc1
   type: multiple-choice
-  prompt: '"Zer egin duzu gaur?" significa…'
+  prompt: '"Zer egin duzu gaur?" vol dir…'
   options:
   - Què fas cada dia?
   - Què has fet avui?

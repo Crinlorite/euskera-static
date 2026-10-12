@@ -75,22 +75,22 @@ exercises:
   - eu: Ez edan asko
     es: Nie pij dużo
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Jedz owoce
   - eu: Egin kirola
-    es: Haz deporte
+    es: Uprawiaj sport
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Wysypiaj się
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Staraj się zachować spokój
 ---
 
 Ta lekcja łączy trzy tematy z tego rozdziału: udzielamy **rad**, zakazów i zaleceń dotyczących zdrowego trybu życia. Nauczysz się **trybu rozkazującego przeczącego** i kilku bardzo przydatnych formuł na poziomie A2, aby wyrażać opinie o tym, co warto robić.
 
-## Tryb rozkazujący przeczący: *ez* + participio
+## Tryb rozkazujący przeczący: *ez* + imiesłów
 
 Najprostsza forma, której będziesz używać najczęściej:
 
-> **ez + participio**
+> **ez + imiesłów**
 
 | Polski | Baskijski |
 |---|---|

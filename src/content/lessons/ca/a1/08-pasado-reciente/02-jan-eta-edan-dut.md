@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-02-jed-mc1
   type: multiple-choice
-  prompt: '"Egunkaria irakurri dut" significa…'
+  prompt: '"Egunkaria irakurri dut" vol dir…'
   options:
   - Llegeixo el diari cada dia
   - He llegit el diari
@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: he menjat
   - eu: edan dut
-    es: he bebido
+    es: he begut
   - eu: ikusi dut
-    es: he visto
+    es: he vist
   - eu: irakurri dut
     es: he llegit
   - eu: erosi dut
-    es: he comprado
+    es: he comprat
   - eu: egin dut
-    es: he hecho
+    es: he fet
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: he pres / he agafat
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: he après / he estudiat
 - id: ex-02-jed-fc
   type: flashcards
   cards:

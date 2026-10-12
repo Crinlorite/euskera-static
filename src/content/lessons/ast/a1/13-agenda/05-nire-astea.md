@@ -81,11 +81,11 @@ exercises:
   - eu: bihar
     es: mañana
   - eu: etzi
-    es: pasado mañana
+    es: pasao mañana
   - eu: gaur arratsaldean
     es: esta tarde
   - eu: libre nago
-    es: estoy libre
+    es: toi llibre
 ---
 
 Lleición final de la unidá: vamos montar **una selmana entera** xuntando too lo aprendío. Díes, futuros, cites, marcadores de cuándo... el llinguaxe de planificar.

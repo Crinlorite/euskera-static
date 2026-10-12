@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: بعد الإفطار
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: عندما أفطر
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: بينما أفطر
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: بمجرد أن أفطر
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: دون فطور
 ---
 
 جملك تعرف بالفعل ماذا حدث؛ هذا الدرس يعلمها كيف تقول **متى** بدقة الساعة: *عندما وصلت*، *قبل الخروج*، *بعد الأكل*، *بينما كنت نائمًا*. ثلاث قطع والتركيبات تأتي من تلقاء نفسها.

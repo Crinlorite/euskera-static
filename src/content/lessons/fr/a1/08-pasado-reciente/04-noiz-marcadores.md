@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: aujourd'hui
   - eu: atzo
-    es: ayer
+    es: hier
   - eu: bihar
-    es: mañana
+    es: demain
   - eu: etzi
-    es: pasado mañana
+    es: après-demain
   - eu: gaur goizean
-    es: esta mañana
+    es: ce matin
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: cet après-midi
   - eu: atzo gauean
-    es: anoche
+    es: hier soir
   - eu: orain
-    es: ahora
+    es: maintenant
   - eu: lehen
-    es: antes
+    es: avant
 - id: ex-04-nm-fc
   type: flashcards
   cards:

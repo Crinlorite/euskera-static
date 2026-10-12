@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: إلى أين تذهب؟
   - eu: Ogia erostera
-    es: A comprar pan
+    es: لشراء الخبز
   - eu: Zertara etorri da?
     es: لأي غرض أتى؟
   - eu: Agur esatera
@@ -131,7 +131,7 @@ exercises:
 | لا — إنها بمعنى "لأجل" | **-tzeko** | *Hau ikasteko da* |
 | نعم — تذهب/تأتي لـِ | **-tzera** | *Ikastera noa* |
 
-> فخ كلاسيكي في اللغة الإسبانية: "voy a comprar" (سأشتري) ليست مستقبلاً في لغة الباسك — بل هي حركة: *erostera noa*. المستقبل الحقيقي تعرفه بالفعل: *erosiko dut*.
+> فخ كلاسيكي: «ذاهب لأشتري» ليست مستقبلًا في لغة الباسك — بل هي حركة: *erostera noa*. المستقبل الحقيقي تعرفه بالفعل: *erosiko dut*.
 
 ## كل شيء معًا (ومع ظروف الأمس الزمنية)
 

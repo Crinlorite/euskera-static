@@ -94,7 +94,7 @@ Drugi przystanek w tej jednostce: **sport** — ten do uprawiania i ten do oglą
 
 ## Popularne sporty
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Sport | *kirola* |
 | Piłka nożna | *futbola* |
@@ -127,7 +127,7 @@ Drugi przystanek w tej jednostce: **sport** — ten do uprawiania i ten do oglą
 
 ## Mecz
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Drużyna | *taldea* |
 | Mecz | *partida* |

@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: лает и гуляет
   - eu: katua
-    es: duerme 16 horas
+    es: спит 16 часов
   - eu: behia
-    es: da leche
+    es: даёт молоко
   - eu: ardia
     es: даёт шерсть и сыр
   - eu: txoria
-    es: canta al amanecer
+    es: поёт на рассвете
   - eu: basurdea
     es: уничтожает кукурузное поле
 ---

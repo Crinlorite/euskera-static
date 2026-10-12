@@ -30,7 +30,7 @@ exercises:
   - De unde vii?
   - Când a fost?
   answer: 0
-  explanation: '*Zer duzu?* este întrebarea clasică a medicului pentru a începe consultația — literalmente "ce ai".'
+  explanation: '*Zer duzu?* este întrebarea clasică a medicului pentru a începe consultația — literal "ce ai".'
 - id: ex-a2-eg1-fb1
   type: fill-in-blank
   prompt: Mă doare capul = Buruko ___ daukat.
@@ -90,7 +90,7 @@ exercises:
   - eu: medikua
     es: medic/ă
   - eu: erizaina
-    es: enfermero/a
+    es: asistent/ă medical/ă
   - eu: botikaria
     es: farmacist/ă
   - eu: botika / farmazia
@@ -127,7 +127,7 @@ Ca la A1, simptomele se construiesc cu *eduki* (a avea):
 
 **Durerea** este un substantiv în bască (*mina*) și se combină cu partea corpului la cazul **NONGO (-ko)**, care acționează ca un complement pentru "ce tip de durere":
 
-> **parte del cuerpo + -ko + mina + daukat**
+> **parte a corpului + -ko + mina + daukat**
 
 | Română | Bască |
 |---|---|

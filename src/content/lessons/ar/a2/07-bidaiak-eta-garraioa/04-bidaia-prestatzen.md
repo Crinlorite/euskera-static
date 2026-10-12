@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: اختيار الوجهة
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: شراء التذاكر
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: حجز مكان الإقامة
   - eu: Maleta prestatuko dut
     es: تجهيز حقيبة السفر
   - eu: Ez ahaztu kargagailua!
@@ -118,7 +118,7 @@ exercises:
 
 ## حقيبة السفر
 
-| الإسبانية | اللغة الباسكية |
+| العربية | اللغة الباسكية |
 |---|---|
 | حقيبة السفر / حقيبة الظهر | *maleta / motxila* |
 | الوثائق | *agiriak* |

@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" signifie…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Travail
+  - Salaire
+  - Chef
+  - Employé
   answer: 1
   explanation: '*Soldata* = salaire. *Lansari* est un synonyme formel.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: professeur/e
   - eu: erizain
-    es: enfermero/a
+    es: infirmier/ère
   - eu: sukaldari
-    es: cocinero/a
+    es: cuisinier/ère
   - eu: kazetari
-    es: periodista
+    es: journaliste
   - eu: mekanikari
     es: mécanicien/ne
   - eu: arkitekto
-    es: arquitecto/a
+    es: architecte
 ---
 
 Le niveau A2 t'ouvre le monde du **travail** au-delà de « je suis étudiant / je suis professeur ». Maintenant, tu commences à parler de :
@@ -206,7 +206,7 @@ Pour décrire ton travail en des termes plus complexes, il est utile d'utiliser 
 
 > C'est une ressource clé pour le niveau A2 qui apparaît dans l'unité 5 avec plusieurs usages : dans l'entretien (*duzun esperientzia*) et dans les présentations (*ezagutzen dudan jendea*). On l'approfondit en B1.
 
-## Mini-diálogo: lan-elkarrizketa
+## Mini-dialogue : lan-elkarrizketa
 
 > *— Egun on. Eseri, mesedez. **Konta iezadazu** zertan **lan egin duzun** orain arte.*
 >

@@ -102,13 +102,13 @@ exercises:
   - eu: Nora zoaz?
     es: Dokąd idziesz?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Idę do domu
   - eu: Eskolara noa
     es: Idę do szkoły
   - eu: Zertara zoaz?
     es: Po co idziesz?
   - eu: Erostera
-    es: A comprar
+    es: Na zakupy
 ---
 
 **Przypadek NORA** (nazywany również *allatiwem*) oznacza **cel** ruchu: dokąd idziesz. W języku polskim odpowiada mu zazwyczaj przyimek **"do"** ("idę *do* domu", "*do* Bilbao", "*do* parku").

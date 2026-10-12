@@ -39,7 +39,7 @@ exercises:
   explanation: '*sagardoa* provién de *sagar* ("mazana") + *ardo* ("vin"): vin de mazana.'
 - id: ex-edj-fb2
   type: fill-in-blank
-  prompt: Cerveza = ___.
+  prompt: Cervesa = ___.
   answers:
   - garagardoa
   - garagardo
@@ -66,15 +66,15 @@ exercises:
   - eu: esnea
     es: a leit
   - eu: zumoa
-    es: zumo
+    es: chugo
   - eu: ardo gorria
     es: vin tinto
   - eu: ardo zuria
     es: vin blanco
   - eu: garagardoa
-    es: cerveza
+    es: cervesa
   - eu: zuritoa
-    es: cerveza chicota (caña)
+    es: cervesa chicota (caña)
   - eu: sagardoa
     es: sidra
   - eu: ogia
@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: café con leit
   - eu: ura
-    es: agua
+    es: augua
   - eu: ardo gorria
-    es: vino tinto
+    es: vin tinto
   - eu: garagardoa
-    es: cerveza
+    es: cervesa
   - eu: sagardoa
     es: sidra
   - eu: zumoa
-    es: zumo
+    es: chugo
   - eu: tea
     es: té
 ---
@@ -129,18 +129,18 @@ O café ye probablement o que más demandarás. Tiene cuantas formas:
 | Euskera | Aragonés |
 |---|---|
 | *ura* | l'augua |
-| *zumoa* | zumo |
+| *zumoa* | chugo |
 | *esnea* | a leit |
 | *ardoa* | vin |
 | *ardo gorria* | vin tinto |
 | *ardo zuria* | vin blanco |
-| *garagardoa* | cerveza |
-| *zuritoa* | caña (cerveza chicota, tipica) |
+| *garagardoa* | cervesa |
+| *zuritoa* | caña (cervesa chicota, tipica) |
 | *sagardoa* | sidra |
 | *txakolina* | txakoli (vin blanco vasco) |
 | *patxarana* | pacharán |
 
-> Tres parolas curiosas: **sagardo** (sidra) = *sagar* (mazana) + *ardo* (vin); **garagardo** (cerveza) = *garagar* (ordio) + *ardo*; **txakolina** ye un vin blanco choven y lichero, marca d'a casa en Euskadi.
+> Tres parolas curiosas: **sagardo** (sidra) = *sagar* (mazana) + *ardo* (vin); **garagardo** (cervesa) = *garagar* (ordio) + *ardo*; **txakolina** ye un vin blanco choven y lichero, marca d'a casa en Euskadi.
 
 ## Minchadas basicas en o bar
 
@@ -166,6 +166,6 @@ Cuasi todas estas parolas levan **`-a`** a la fin quan amaneixen "neutras" en un
 Quan pides "un", desaparixe a `-a` y dentra **bat** ("un/una"):
 
 - *Kafe **bat**, mesedez.* — Un café, per favor.
-- *Garagardo **bat**.* — Una cerveza.
+- *Garagardo **bat**.* — Una cervesa.
 
 > En a lección 3 veyerás isto en detalle. Per agora memoriza as formas con `-a` pa reconoixer-las en a carta d'o bar.

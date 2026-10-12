@@ -14,13 +14,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: garbitu
-    es: limpiar
+    es: 청소하다
   - eu: prestatu
-    es: preparar
+    es: 준비하다
   - eu: jaso
-    es: recoger
+    es: 정리하다
   - eu: lisatu
-    es: planchar
+    es: 다림질하다
   - eu: erosketak egin
     es: 장보기
   - eu: zaborra atera

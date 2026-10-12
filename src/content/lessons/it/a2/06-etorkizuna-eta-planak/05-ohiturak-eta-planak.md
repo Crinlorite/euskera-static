@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTURO: andrò'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASSATO PUNTUALE: andai'
   - eu: Joaten nintzen
     es: 'PASSATO abitudine: andavo'
   - eu: Joan ohi nintzen
     es: 'PASSATO abitudine: ero solito andare'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'ADESSO: sto andando'
 ---
 
 Ultima lezione dell'unità — e la chiusura di un ciclo enorme: con il futuro già in tasca, **padroneggi i tre tempi verbali**. Questa lezione aggiunge la ciliegina sulla torta (*ohi*, l'equivalente basco di "essere solito") e ti fa spostare la stessa idea tra passato, presente abituale e futuro. Questo è esattamente ciò che una commissione d'esame di livello A2 vuole sentire.

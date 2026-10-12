@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-02-jed-mc1
   type: multiple-choice
-  prompt: '"Egunkaria irakurri dut" significa…'
+  prompt: '"Egunkaria irakurri dut" quier dicir…'
   options:
   - Lleo'l periódicu tolos díes
   - Lleí'l periódicu
@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: comí
   - eu: edan dut
-    es: he bebido
+    es: bebí
   - eu: ikusi dut
-    es: he visto
+    es: vi
   - eu: irakurri dut
     es: lleí
   - eu: erosi dut
-    es: he comprado
+    es: merqué
   - eu: egin dut
-    es: he hecho
+    es: fici
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: tomé / garré
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: deprendí / estudié
 - id: ex-02-jed-fc
   type: flashcards
   cards:

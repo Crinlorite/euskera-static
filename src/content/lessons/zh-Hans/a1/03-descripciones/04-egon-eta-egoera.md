@@ -84,24 +84,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: 高兴
   - eu: triste
-    es: triste
+    es: 难过
   - eu: nekatuta
-    es: cansado
+    es: 累
   - eu: haserre
-    es: enfadado
+    es: 生气
   - eu: gaixorik
-    es: enfermo
+    es: 生病
   - eu: ondo
-    es: bien
+    es: 好
   - eu: gaizki
-    es: mal
+    es: 不好
   - eu: lasai
-    es: tranquilo (ahora)
+    es: 平静（此刻）
 ---
 
-在巴斯克语中，有些在西班牙语里只用一个动词的情况，需要用两个不同的动词来表达。你已经认识了 **izan**（用于描述特质的“是/在”）。现在我们来学习 **egon**，当我们谈论**短暂状态**时，它相当于“在/处于”：比如某人今天、此刻、当下的状态如何。
+在巴斯克语中，中文“是/在”所表达的意思，需要用两个不同的动词来区分。你已经认识了 **izan**（用于描述特质的“是/在”）。现在我们来学习 **egon**，当我们谈论**短暂状态**时，它相当于“在/处于”：比如某人今天、此刻、当下的状态如何。
 
 ## egon 的变位表
 
@@ -121,8 +121,8 @@ exercises:
 
 最大的陷阱：当一个形容词与 **egon** 连用时，**不**带末尾的 `-a`。对比一下：
 
-- **Izan**（稳定的特质）：*Ni alegre soy* → *Ni alai**a** naiz.*（带 `-a`）
-- **Egon**（短暂状态）：*Yo estoy contenta hoy* → *Ni pozik nago.*（不带 `-a`）
+- **Izan**（稳定的特质）：*我性格开朗* → *Ni alai**a** naiz.*（带 `-a`）
+- **Egon**（短暂状态）：*我今天很高兴* → *Ni pozik nago.*（不带 `-a`）
 
 | 状态 | 中文 |
 |---|---|

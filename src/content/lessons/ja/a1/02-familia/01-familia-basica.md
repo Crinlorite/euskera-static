@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: 父
   - eu: ama
-    es: madre
+    es: 母
   - eu: anaia
     es: 兄弟（話者が男性でも女性でも）
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: 姉妹（女性が言う）
   - eu: seme
-    es: hijo
+    es: 息子
   - eu: alaba
-    es: hija
+    es: 娘
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialenには姉妹が一人います。Maialenの視点から「姉妹」は何と言いますか？

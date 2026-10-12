@@ -51,7 +51,7 @@ exercises:
   - eu: dezakete
     es: pueden (lo)
   - eu: naiteke
-    es: puedo (NOR; ir, venir, estar)
+    es: puedo (NOR; ir, vinir, estar)
   - eu: zaitezke
     es: puez (NOR)
   - eu: daiteke
@@ -72,9 +72,9 @@ exercises:
   - eu: Etor zaitezke
     es: Puez venir?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Puetz fer-lo
   - eu: Ezin dut etorri
-    es: No puedo venir
+    es: No puedo vinir
   - eu: Ezin nintzen joan
     es: No podeba ir
   - eu: Ahal duzu lagundu?
@@ -153,7 +153,7 @@ A negación de l'ahalera tiene a suya propia parola: **ezin**.
 
 | Aragonés | Basco |
 |---|---|
-| No puedo venir | *Ezin **dut etorri*** (NOR-NORK) o *Ezin **naiz etorri*** (NOR) |
+| No puedo vinir | *Ezin **dut etorri*** (NOR-NORK) u *Ezin **naiz etorri*** (NOR) |
 | No puedo ir | *Ezin naiz joan* |
 | No puez fer ixo | *Ezin duzu hori egin* |
 | No podeba dormir | *Ezin nuen lo egin* |
@@ -172,7 +172,7 @@ A negación de l'ahalera tiene a suya propia parola: **ezin**.
 | **ezin nintzen** | no podeba (NOR) |
 | **ezin nuen** | no podeba (NOR-NORK) |
 
-> *Atzo ezin nintzen joan, gaixorik nengoen.* — Ayer no podeba ir, yera malauto.
+> *Atzo ezin nintzen joan, gaixorik nengoen.* — Ahier no podeba ir, yera malauto.
 
 ## Modal vs auxiliar: tres formas de "puez fer-lo"
 

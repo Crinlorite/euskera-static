@@ -121,7 +121,7 @@ exercises:
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> 如果你的母语是西班牙语，最奇怪的地方可能是 **gutxi** 要放在数字**后面**，而不是前面。*Bederatziak laurden gutxi* 字面意思是“九点 一刻 差”。
+> 对说中文的人来说，最奇怪的地方可能是 **gutxi** 要放在数字**后面**，而不是前面。*Bederatziak laurden gutxi* 字面意思是“九点 一刻 差”。
 
 ## 小结表
 

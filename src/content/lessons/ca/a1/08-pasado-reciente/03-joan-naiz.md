@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-03-jn-mc1
   type: multiple-choice
-  prompt: '"Etxera joan naiz" significa…'
+  prompt: '"Etxera joan naiz" vol dir…'
   options:
   - Vaig a casa
   - He anat a casa

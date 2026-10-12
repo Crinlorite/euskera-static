@@ -24,7 +24,7 @@ exercises:
   explanation: '"Jarriko al didazu… mesedez?" = "¿Pónesme..., por favor?". Estructura cortés y frecuente.'
 - id: ex-erostera-mc2
   type: multiple-choice
-  prompt: '"Hartuko dut" significa…'
+  prompt: '"Hartuko dut" quier dicir…'
   options:
   - Voi coyelo (mércolo)
   - Nun lo quiero

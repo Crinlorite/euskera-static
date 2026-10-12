@@ -88,17 +88,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: camicia
   - eu: galtzak
-    es: pantalones
+    es: pantaloni
   - eu: soineko
-    es: vestido
+    es: vestito
   - eu: jertsea
-    es: jersey
+    es: maglione
   - eu: zapatak
-    es: zapatos
+    es: scarpe
   - eu: beroki
-    es: abrigo
+    es: cappotto
 ---
 
 Nel livello A1 hai visto il vocabolario di base di **abbigliamento** e **casa**. Nel livello A2 lo amplierai a contesti più specifici: **taglie, camerino, accessori**, e all'**alloggio come spazio sociale** (affitto, proprietario, quartiere, giardino).

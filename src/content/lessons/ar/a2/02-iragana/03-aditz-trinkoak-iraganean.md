@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: كنتُ ذاهبًا
   - eu: nentorren
     es: كنت آتي أنا
   - eu: nenbilen
-    es: andaba yo
+    es: كنتُ أتجوّل
   - eu: neukan
     es: كنت أملك أنا
   - eu: nekien
     es: كنت أعرف أنا
   - eu: nengoen
-    es: estaba yo
+    es: كنتُ (في مكان ما)
 ---
 
 **الأفعال التركيبية** (*aditz trinkoak*) هي الأفعال القليلة في اللغة الباسكية التي تُصرَّف **بدون فعل مساعد**، في كلمة واحدة. أنت تعرف بالفعل صيغها في المضارع: *noa, nator, nabil, daukat, dakit, nago*. في الماضي، لديها صيغ موازية من الجيد التعرف عليها، والأكثر شيوعًا منها، إتقانها.

@@ -76,15 +76,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: segunda-feira
   - eu: asteartea
-    es: martes
+    es: terça-feira
   - eu: asteazkena
     es: quarta-feira
   - eu: osteguna
-    es: jueves
+    es: quinta-feira
   - eu: ostirala
-    es: viernes
+    es: sexta-feira
   - eu: larunbata
     es: sábado
   - eu: igandea

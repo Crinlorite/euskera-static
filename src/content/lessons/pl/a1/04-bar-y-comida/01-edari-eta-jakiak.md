@@ -15,7 +15,7 @@ exercises:
   prompt: '"Kafe hutsa" znaczy…'
   options:
   - kawa z mlekiem
-  - café cortado
+  - kawa z odrobiną mleka (cortado)
   - czarna kawa
   - kawa bezkofeinowa
   answer: 2
@@ -54,7 +54,7 @@ exercises:
   - eu: kafesnea
     es: kawa z mlekiem
   - eu: kafe ebakia
-    es: café cortado
+    es: kawa z odrobiną mleka (cortado)
   - eu: kafe deskafeinatua
     es: kawa bezkofeinowa
   - eu: infusioa
@@ -84,7 +84,7 @@ exercises:
   - eu: urdaiazpikoa
     es: szynka
   - eu: tortilla
-    es: tortilla
+    es: tortilla (omlet z ziemniakami)
 - id: ex-edj-mp
   type: match-pairs
   pairs:
@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: kawa z mlekiem
   - eu: ura
-    es: agua
+    es: woda
   - eu: ardo gorria
-    es: vino tinto
+    es: czerwone wino
   - eu: garagardoa
-    es: cerveza
+    es: piwo
   - eu: sagardoa
-    es: sidra
+    es: cydr
   - eu: zumoa
-    es: zumo
+    es: sok
   - eu: tea
     es: herbata
 ---
@@ -138,7 +138,7 @@ Kawa to prawdopodobnie to, co będziesz zamawiać najczęściej. Występuje w ki
 | *zuritoa* | małe piwo z beczki (typowe) |
 | *sagardoa* | cydr |
 | *txakolina* | txakoli (baskijskie białe wino) |
-| *patxarana* | pacharán |
+| *patxarana* | pacharán (likier z tarniny) |
 
 > Trzy ciekawe słowa: **sagardo** (cydr) = *sagar* (jabłko) + *ardo* (wino); **garagardo** (piwo) = *garagar* (jęczmień) + *ardo*; **txakolina** to młode, lekkie białe wino, specjalność Kraju Basków.
 

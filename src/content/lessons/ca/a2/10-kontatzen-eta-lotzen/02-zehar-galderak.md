@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ko2-mc1
   type: multiple-choice
-  prompt: '"Ez dakit etorriko den" significa…'
+  prompt: '"Ez dakit etorriko den" vol dir…'
   options:
   - No sé si vindrà
   - Sé que no vindrà

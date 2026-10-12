@@ -88,17 +88,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: chemise
   - eu: galtzak
-    es: pantalones
+    es: pantalon
   - eu: soineko
-    es: vestido
+    es: robe
   - eu: jertsea
-    es: jersey
+    es: pull
   - eu: zapatak
-    es: zapatos
+    es: chaussures
   - eu: beroki
-    es: abrigo
+    es: manteau
 ---
 
 Au niveau A1, tu as vu le vocabulaire de base des **vêtements** et de la **maison**. Au niveau A2, tu l'élargis à des registres plus concrets : **tailles, cabine d'essayage, accessoires**, et au **logement comme espace social** (location, propriétaire, quartier, jardin).
@@ -152,7 +152,7 @@ Au niveau A1, tu as vu le vocabulaire de base des **vêtements** et de la **mais
 |---|---|
 | Petite | *txikia (S)* |
 | Moyenne | *ertaina (M)* |
-| Grande | *handia (L)* |
+| Grand | *handia (L)* |
 | Taille 38, 40, 42 | *38, 40, 42 neurriak* |
 
 ## Logement : vocabulaire A2

@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: They got married in 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: They had three children
   - eu: 2020an erretiroa hartu zuen
     es: He/She retired in 2020
 ---

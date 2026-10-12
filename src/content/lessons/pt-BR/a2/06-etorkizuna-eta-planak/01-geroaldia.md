@@ -117,7 +117,7 @@ Até agora você sabia falar do presente e do passado. Esta unidade abre a terce
 
 **O auxiliar não muda**: é o mesmo *naiz/da/dut/dugu…* de sempre. A única novidade é o sufixo do particípio.
 
-## ¿-ko ou -go? A única regra que você precisa memorizar
+## -ko ou -go? A única regra que você precisa memorizar
 
 | Particípio termina em… | Sufixo | Exemplos |
 |---|---|---|

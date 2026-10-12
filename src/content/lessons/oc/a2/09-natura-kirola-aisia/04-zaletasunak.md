@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: M'agrade liéger
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Li agrade cantar
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Mos agrade viatjar
   - eu: Margotzen dakit
     es: Sabi píntar
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Vau a balhar
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Sò en tot codinar
 ---
 
 Qué hès quan non hès arren? Aguesta leccion tracte sus es **aficions** — e der element de gramatica que les governè: eth vèrb convertit en substantiu damb **-tzea** (*irakurtzea* = "eth liéger").
@@ -99,7 +99,7 @@ Der A1 coneishes *gustatzen zait* damb causes (*kafea gustatzen zait*). Entà qu
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | M'agrade liéger | *Irakurtzea gustatzen zait* |
 | M'encante codinar | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ Tot eth NOR-NORI que ja sabs (*zait, zaio, zaigu…*) contunhe de manar; sonque 
 
 ## Eth catalòg d'aficions
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Liéger / escríuer | *irakurtzea / idaztea* |
 | Escotar musica | *musika entzutea* |

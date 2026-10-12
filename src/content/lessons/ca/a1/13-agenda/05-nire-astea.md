@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: el cap de setmana
   - eu: bihar
-    es: mañana
+    es: demà
   - eu: etzi
-    es: pasado mañana
+    es: demà passat
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: aquesta tarda
   - eu: libre nago
-    es: estoy libre
+    es: estic lliure
 ---
 
 Lliçó final de la unitat: muntarem **una setmana sencera** unint tot el que hem après. Dies, futurs, cites, marcadors temporals... el llenguatge per planificar.

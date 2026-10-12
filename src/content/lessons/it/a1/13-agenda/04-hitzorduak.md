@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: appuntamento
   - eu: bilera
     es: riunione
   - eu: libre
-    es: libre
+    es: libero
   - eu: lanpetuta
-    es: ocupado/a
+    es: occupato/a
   - eu: geratu
-    es: quedar
+    es: darsi appuntamento
   - eu: geratuko gara
-    es: quedaremos
+    es: ci vedremo
 ---
 
 Un'agenda fitta è piena di appuntamenti e impegni. Questa lezione ti insegna a parlarne: avere un appuntamento, vedersi con qualcuno, dire se sei libero/a.

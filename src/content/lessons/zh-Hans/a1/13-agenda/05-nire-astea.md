@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: 周末
   - eu: bihar
-    es: mañana
+    es: 明天
   - eu: etzi
-    es: pasado mañana
+    es: 后天
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: 今天下午
   - eu: libre nago
-    es: estoy libre
+    es: 我有空
 ---
 
 本单元的最后一课：我们将把所有学过的内容串联起来，安排**一整周**的活动。星期、将来时、约会、时间标记……用来做计划的语言。

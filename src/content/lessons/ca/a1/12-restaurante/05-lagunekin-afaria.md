@@ -180,7 +180,7 @@ Demanar, ja amb totes les peces:
 ## Resum visual
 
 ```
-1. Quedar:      Etorri nahi duzu afaltzera?  →  Bai, ados!
+1. Quedar:       Etorri nahi duzu afaltzera?  →  Bai, ados!
 2. Reserva:     Erreserba egin nahi dut...   →  Noren izenean?
 3. Demanar:     Hasteko... Bigarrenerako...  →  Postrerako...
 4. Gaudir:      On egin! / Topa! / Goxoa zegoen!

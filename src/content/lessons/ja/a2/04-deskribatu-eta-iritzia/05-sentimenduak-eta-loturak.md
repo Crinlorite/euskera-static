@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: うれしい
   - eu: Triste dago
     es: 彼は悲しんでいます
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: こわい
   - eu: Haserre dago
     es: 彼は怒っています
   - eu: Lotsa ematen dit
@@ -99,7 +99,7 @@ exercises:
 
 一時的な感情のほとんどは、*egon* + 状態を表す形容詞または副詞で表現します。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 嬉しい | *Pozik nago* |
 | 悲しい | *Triste nago* |
@@ -117,7 +117,7 @@ exercises:
 
 より深い感情の中には *izan* を使うものがあります。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 怖い | *Beldur naiz* |
 | あなたは正しい | *Arrazoia duzu* |
@@ -131,7 +131,7 @@ exercises:
 
 バスク語らしい表現方法：感情が「あなたに与える」という形です。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 恥ずかしいです | *Lotsa ematen dit* |
 | 残念です・かわいそうです | *Pena ematen dit* |
@@ -146,7 +146,7 @@ exercises:
 
 **状態の変化**（「緊張する、嬉しくなる、悲しくなる」）を表すには：
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 私は緊張します | *Urduri **jartzen naiz*** |
 | 彼は悲しくなりました | *Triste **jarri zen*** |
@@ -178,7 +178,7 @@ exercises:
 
 ### 追加
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | さらに | *gainera* |
 | そして〜も | *eta baita ere* / *...ere* |
@@ -188,7 +188,7 @@ exercises:
 
 ### 原因・結果
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | したがって | *beraz* |
 | だから | *horregatik* |
@@ -198,7 +198,7 @@ exercises:
 
 ### 対比・反対
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | しかしながら | *hala ere* |
 | しかし | *baina* |
@@ -209,7 +209,7 @@ exercises:
 
 ### 談話の構成
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 一方では…他方では… | *Alde batetik... bestetik...* |
 | まず…次に… | *Lehenengo... gero...* |
@@ -220,7 +220,7 @@ exercises:
 
 これらはA2レベルの試験によく出てくる構文です。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 〜も〜もない | *Ez... ez...* |
 | 〜も〜も両方 | *Bai... bai...* / *Hala... nola...* |

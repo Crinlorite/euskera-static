@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: oggi
   - eu: atzo
-    es: ayer
+    es: ieri
   - eu: bihar
-    es: mañana
+    es: domani
   - eu: etzi
-    es: pasado mañana
+    es: dopodomani
   - eu: gaur goizean
-    es: esta mañana
+    es: stamattina
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: oggi pomeriggio
   - eu: atzo gauean
-    es: anoche
+    es: ieri sera
   - eu: orain
-    es: ahora
+    es: adesso
   - eu: lehen
-    es: antes
+    es: prima
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ Per raccontare bene ciò che è successo, devi dire **quando**. Questa lezione t
 | *lehen* | prima |
 | *gero* | poi, dopo |
 
-> Se ci hai fatto caso, *atzo* (ieri) e *bihar* (domani) sono due parole così corte che si imparano in un attimo. *Etzi* (dopodomani) è una parola che l'italiano non ha in un unico pezzo — un piccolo regalo del basco.
+> Se ci hai fatto caso, *atzo* (ieri) e *bihar* (domani) sono due parole così corte che si imparano in un attimo. *Etzi* (dopodomani) è, come l'italiano «dopodomani», una sola parola — facile da ricordare.
 
 ## Combinazioni con i momenti della giornata
 

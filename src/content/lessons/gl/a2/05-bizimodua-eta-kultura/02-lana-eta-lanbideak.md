@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" significa…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Traballo
+  - Soldo
+  - Xefe
+  - Empregado
   answer: 1
   explanation: '*Soldata* = soldo. *Lansari* é sinónimo formal.'
 - id: ex-a2-bz2-fb1
@@ -80,11 +80,11 @@ exercises:
   - eu: irakasle
     es: profesor/a
   - eu: erizain
-    es: enfermero/a
+    es: enfermeiro/a
   - eu: sukaldari
-    es: cocinero/a
+    es: cociñeiro/a
   - eu: kazetari
-    es: periodista
+    es: xornalista
   - eu: mekanikari
     es: mecánico/a
   - eu: arkitekto
@@ -102,7 +102,7 @@ O A2 ábreche o mundo do **traballo** máis aló de "son estudante / son profeso
 
 O A1 cubría as clásicas (*medikua, ikaslea, irakaslea, sukaldaria*). No A2 engades:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Xornalista | *kazetaria* |
 | Programador/a | *programatzailea* |
@@ -128,7 +128,7 @@ O A1 cubría as clásicas (*medikua, ikaslea, irakaslea, sukaldaria*). No A2 eng
 
 Lembra este sufixo do A1 — produtivo en oficios:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Falante de éuscaro | *euskalduna* |
 | Campión (que ten a txapela) | *txapelduna* |
@@ -136,7 +136,7 @@ Lembra este sufixo do A1 — produtivo en oficios:
 
 ## Falar do traballo
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | ¿En que traballas? | *Zertan egiten duzu lan?* |
 | Traballo nunha oficina | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ Lembra este sufixo do A1 — produtivo en oficios:
 
 ## Xornada e horario
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Xornada completa | *Lanaldi osoa* |
 | Media xornada | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ Lembra este sufixo do A1 — produtivo en oficios:
 
 Pasos típicos e vocabulario:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Oferta de emprego | *lan-eskaintza* |
 | Currículo / CV | *curriculuma* |
@@ -177,7 +177,7 @@ Pasos típicos e vocabulario:
 
 ## Frases típicas nunha entrevista
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Cóntame algo de ti | *Konta iezadazu zerbait zuri buruz* |
 | ¿Por que queres este posto? | *Zergatik nahi duzu lanpostu hau?* |
@@ -192,7 +192,7 @@ Para describir o teu traballo en termos máis complexos, convénche usar a **rel
 
 > **verbo conxugado + -(e)n + substantivo**
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | O traballo que teño | *Daukadan lana* |
 | A empresa onde traballo | *Lan egiten dudan enpresa* |

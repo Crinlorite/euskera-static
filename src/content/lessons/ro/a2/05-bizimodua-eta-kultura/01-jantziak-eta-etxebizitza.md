@@ -88,17 +88,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: cămașă
   - eu: galtzak
-    es: pantalones
+    es: pantaloni
   - eu: soineko
-    es: vestido
+    es: rochie
   - eu: jertsea
-    es: jersey
+    es: pulover
   - eu: zapatak
-    es: zapatos
+    es: pantofi
   - eu: beroki
-    es: abrigo
+    es: palton
 ---
 
 La A1 ai văzut vocabularul de bază pentru **haine** și **casă**. La A2, îl extinzi la concepte mai concrete: **mărimi, cabină de probă, accesorii** și **locuința ca spațiu social** (chirie, proprietar, cartier, grădină).

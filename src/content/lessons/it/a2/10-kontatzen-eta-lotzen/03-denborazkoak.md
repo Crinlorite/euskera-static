@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: dopo aver fatto colazione
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: quando faccio colazione
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: mentre faccio colazione
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: appena ho fatto colazione
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: senza fare colazione
 ---
 
 Le tue frasi sanno già COSA è successo; questa lezione ti insegna a dire **QUANDO** con la precisione di un orologiaio: *quando sono arrivato*, *prima di uscire*, *dopo aver mangiato*, *mentre dormivi*. Tre pezzi e le combinazioni vengono da sé.

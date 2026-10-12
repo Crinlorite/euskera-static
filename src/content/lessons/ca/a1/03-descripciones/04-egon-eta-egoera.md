@@ -84,24 +84,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: content
   - eu: triste
     es: triste
   - eu: nekatuta
-    es: cansado
+    es: cansat
   - eu: haserre
-    es: enfadado
+    es: enfadat
   - eu: gaixorik
-    es: enfermo
+    es: malalt
   - eu: ondo
-    es: bien
+    es: bé
   - eu: gaizki
     es: mal
   - eu: lasai
-    es: tranquilo (ahora)
+    es: tranquil (ara)
 ---
 
-En basc hi ha dos verbs on en català n'utilitzem només un. Ja coneixes **izan** ("ser/estar" per a qualitats). Ara toca **egon**, que es tradueix com a "estar" quan parlem d'**estats passatgers**: com està algú avui, ara mateix, en aquest moment.
+En basc hi ha dos verbs que reparteixen d'una altra manera el que en català diem amb «ser» i «estar». Ja coneixes **izan** ("ser/estar" per a qualitats). Ara toca **egon**, que es tradueix com a "estar" quan parlem d'**estats passatgers**: com està algú avui, ara mateix, en aquest moment.
 
 ## El paradigma d'egon
 
@@ -121,7 +121,7 @@ En basc hi ha dos verbs on en català n'utilitzem només un. Ja coneixes **izan*
 
 La gran trampa: quan un adjectiu va amb **egon**, **NO** porta la `-a` final. Compara:
 
-- **Izan** (qualitat estable): *Ni alegre soy* → *Ni alai**a** naiz.* (amb `-a`)
+- **Izan** (qualitat estable): *Sóc alegre* → *Ni alai**a** naiz.* (amb `-a`)
 - **Egon** (estat passatger): *Jo estic contenta avui* → *Ni pozik nago.* (sense `-a`)
 
 | Estat | Català |

@@ -107,7 +107,7 @@ Enquia ara sabies parlar deth present e deth passat. Aguesta unitat daurís era 
 
 > **participi + -ko / -go + auxiliar en PRESENT**
 
-| Castelhan | Basc | Com se monte |
+| Aranés | Basc | Com se monte |
 |---|---|---|
 | Anarè | *joango naiz* | joan + **-go** + naiz |
 | Mengerè | *jango dut* | jan + **-go** + dut |
@@ -158,4 +158,4 @@ Fixa-te: *izan* servís entà **èster** e entà **auer** — ac diferéncie er 
 
 ## Truc d'estudi
 
-Eth futur basc ei coma eth "anar a + vèrb" deth castelhan en un sentit: **non as de besonh d'apréner conjugacions naues**, sonque era pèça *-ko/-go*. Se dobtes, pense en participi (que ja eth sabs deth passat: *erosi dut* = l'è crompat) e pega-li eth sufixe: *erosiko dut*.
+Eth futur basc ei coma eth "anar a + vèrb" en un sentit: **non as de besonh d'apréner conjugacions naues**, sonque era pèça *-ko/-go*. Se dobtes, pense en participi (que ja eth sabs deth passat: *erosi dut* = l'è crompat) e pega-li eth sufixe: *erosiko dut*.

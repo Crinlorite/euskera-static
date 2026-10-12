@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: até o monte
   - eu: etxerantz
-    es: hacia casa
+    es: para casa
   - eu: lagunarengatik
     es: por (causa do) amigo
   - eu: Bilboko jendea
@@ -170,7 +170,7 @@ Para perguntar o motivo: **zergatik?** (por quê?). Para responder com um substa
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Por que você fez isso? — Por você.
 
-> **Nota:** diferencie *-engatik* (causa: "por causa de") de *-rentzat* (destinatário: "para"). Em espanhol, "por" cobre os dois sentidos, mas em basco são distintos.
+> **Nota:** diferencie *-engatik* (causa: "por causa de") de *-rentzat* (destinatário: "para"). Em português eles também se distinguem («por causa de» / «para»), como em basco.
 
 ## NONGO / NOIZKO — de que lugar / momento
 

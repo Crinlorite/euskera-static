@@ -28,7 +28,7 @@ exercises:
   options:
   - Iragan burutua (joan nintzen)
   - Presente
-  - Pasado reciente (joan naiz)
+  - Pasáu recién (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: La escena, la descripción y los vezos van n'imperfectu. Les aiciones puntuales que faen avanzar la historia van en burutua.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: casóse
   - eu: bidaiatu zuten
-    es: viajaron
+    es: viaxaron
   - eu: ezagutu nuen
     es: conocí
   - eu: maitemindu nintzen
@@ -115,7 +115,7 @@ Una narración típica en pasáu amesta tiempos según la función:
 
 Pa encadenar lo que pasó:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Primero / al principiu | *Lehenengo* / *Hasieran* |
 | De siguío | *Ondoren* |
@@ -131,7 +131,7 @@ Pa encadenar lo que pasó:
 
 Estes estructures apaecen en cualquier biografía o rellatu personal:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nací en 1990 | *1990ean **jaio nintzen*** |
 | Criéme en Tolosa | *Tolosan **hazi nintzen*** |
@@ -146,7 +146,7 @@ Estes estructures apaecen en cualquier biografía o rellatu personal:
 
 ## Marcadores biográficos
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Fai X años | *Duela X urte* |
 | En 1985 | *1985ean* |
@@ -180,7 +180,7 @@ Una receta práutica p'A2:
 
 ## Entrugues pa entrevistar a daquién
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | ¿Ónde nacisti? | *Non jaio zinen?* |
 | ¿Cuándo empezasti a trabayar? | *Noiz hasi zinen lanean?* |

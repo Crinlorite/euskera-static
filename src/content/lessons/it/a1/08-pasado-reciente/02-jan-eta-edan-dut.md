@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: ho mangiato
   - eu: edan dut
-    es: he bebido
+    es: ho bevuto
   - eu: ikusi dut
-    es: he visto
+    es: ho visto
   - eu: irakurri dut
     es: ho letto
   - eu: erosi dut
-    es: he comprado
+    es: ho comprato
   - eu: egin dut
-    es: he hecho
+    es: ho fatto
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: ho preso
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: ho imparato / ho studiato
 - id: ex-02-jed-fc
   type: flashcards
   cards:

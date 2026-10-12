@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: идти
   - eu: etorri
-    es: venir
+    es: приходить
   - eu: ibili
-    es: andar / moverse
+    es: ходить / передвигаться
   - eu: sartu
-    es: entrar
+    es: входить
   - eu: irten
-    es: salir
+    es: выходить
   - eu: igo
-    es: subir
+    es: подниматься
   - eu: jaitsi
-    es: bajar
+    es: спускаться
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Я иду = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" и противоположный ему по значению "irten" означают соответственно:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - входить / выходить
+  - подниматься / спускаться
+  - идти / приходить
+  - открывать / закрывать
   answer: 0
 - id: ex-mu-fc
   type: flashcards

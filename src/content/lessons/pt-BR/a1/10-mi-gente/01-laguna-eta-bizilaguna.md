@@ -16,23 +16,23 @@ exercises:
   - eu: laguna
     es: amigo/a
   - eu: bizilaguna
-    es: vecino/a
+    es: vizinho/a
   - eu: ikaskidea
     es: colega de classe
   - eu: lankidea
     es: colega de trabalho
   - eu: ezaguna
-    es: conocido/a
+    es: conhecido/a
   - eu: koadrila
     es: turma / grupo de amigos
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: Quem é seu "bizilaguna"?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - Seu irmão
+  - Seu chefe
+  - Seu vizinho
+  - Seu professor
   answer: 2
   explanation: '"Bizi" (viver) + "laguna" (companheiro/a) = "companheiro/a de moradia" → vizinho/a (do seu prédio ou bairro).'
 - id: ex-10-01-mc2

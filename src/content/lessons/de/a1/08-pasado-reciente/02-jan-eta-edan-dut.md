@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: ich habe gegessen
   - eu: edan dut
-    es: he bebido
+    es: ich habe getrunken
   - eu: ikusi dut
-    es: he visto
+    es: ich habe gesehen
   - eu: irakurri dut
     es: habe gelesen
   - eu: erosi dut
-    es: he comprado
+    es: ich habe gekauft
   - eu: egin dut
-    es: he hecho
+    es: ich habe gemacht
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: ich habe genommen
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: ich habe gelernt
 - id: ex-02-jed-fc
   type: flashcards
   cards:
@@ -133,7 +133,7 @@ exercises:
 
 Nehmen wir *ikusi* (sehen) als Beispiel:
 
-| Pronomen + Subjekt | Forma | Deutsch |
+| Pronomen + Subjekt | Form | Deutsch |
 |---|---|---|
 | Nik | **ikusi dut** | Ich habe gesehen |
 | Zuk | **ikusi duzu** | Du hast gesehen |

@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-bz2-mc1
   type: multiple-choice
-  prompt: '"Lan-elkarrizketa" significa…'
+  prompt: '"Lan-elkarrizketa" vol dir…'
   options:
   - Conferència
   - Entrevista de feina
@@ -23,12 +23,12 @@ exercises:
   explanation: '*Elkarrizketa* = entrevista. *Lan-elkarrizketa* = entrevista de feina.'
 - id: ex-a2-bz2-mc2
   type: multiple-choice
-  prompt: '"Soldata" significa…'
+  prompt: '"Soldata" vol dir…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Feina
+  - Sou
+  - Cap
+  - Empleat
   answer: 1
   explanation: '*Soldata* = sou. *Lansari* és un sinònim formal.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: professor/a
   - eu: erizain
-    es: enfermero/a
+    es: infermer/a
   - eu: sukaldari
-    es: cocinero/a
+    es: cuiner/a
   - eu: kazetari
     es: periodista
   - eu: mekanikari
     es: mecànic/a
   - eu: arkitekto
-    es: arquitecto/a
+    es: arquitecte/a
 ---
 
 A2 t'obre el món del **treball** més enllà de "soc estudiant / soc professor". Ara entres a parlar de:
@@ -102,7 +102,7 @@ A2 t'obre el món del **treball** més enllà de "soc estudiant / soc professor"
 
 L'A1 cobria les clàssiques (*medikua, ikaslea, irakaslea, sukaldaria*). A l'A2 hi afegeixes:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Periodista | *kazetaria* |
 | Programador/a | *programatzailea* |
@@ -128,7 +128,7 @@ L'A1 cobria les clàssiques (*medikua, ikaslea, irakaslea, sukaldaria*). A l'A2 
 
 Recorda aquest sufix de l'A1 — productiu en oficis:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Parlant de basc | *euskalduna* |
 | Campió (que té la txapela) | *txapelduna* |
@@ -136,7 +136,7 @@ Recorda aquest sufix de l'A1 — productiu en oficis:
 
 ## Parlar de la feina
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | De què treballes? | *Zertan egiten duzu lan?* |
 | Treballo en una oficina | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ Recorda aquest sufix de l'A1 — productiu en oficis:
 
 ## Jornada i horari
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Jornada completa | *Lanaldi osoa* |
 | Mitja jornada | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ Recorda aquest sufix de l'A1 — productiu en oficis:
 
 Passos típics i vocabulari:
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Oferta de feina | *lan-eskaintza* |
 | Currículum / CV | *curriculuma* |
@@ -177,7 +177,7 @@ Passos típics i vocabulari:
 
 ## Frases típiques en una entrevista
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | Explica'm alguna cosa sobre tu | *Konta iezadazu zerbait zuri buruz* |
 | Per què vols aquest lloc de feina? | *Zergatik nahi duzu lanpostu hau?* |
@@ -192,7 +192,7 @@ Per descriure la teva feina en termes més complexos, et convé fer servir la **
 
 > **verb conjugat + -(e)n + substantiu**
 
-| Castellà | Basc |
+| Català | Basc |
 |---|---|
 | La feina que tinc | *Daukadan lana* |
 | L'empresa on treballo | *Lan egiten dudan enpresa* |

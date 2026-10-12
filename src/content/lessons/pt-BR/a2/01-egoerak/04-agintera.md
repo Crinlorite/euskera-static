@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Venha aqui
   - eu: Hartu hau
-    es: Toma esto
+    es: Tome isto
   - eu: Eseri hemen
     es: Sente-se aqui
   - eu: Esadazu egia

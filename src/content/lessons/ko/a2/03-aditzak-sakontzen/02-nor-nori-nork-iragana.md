@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: 너에게 주었다
   - eu: eman zion
-    es: le dio
+    es: 그/그녀가 그/그녀에게 주었다
   - eu: eman nion
-    es: le di
+    es: 내가 그/그녀에게 주었다
   - eu: eman ziguten
-    es: nos dieron
+    es: 그들이 우리에게 주었다
   - eu: eman nizkion
     es: 그에게 주었다 (그것들을)
 ---

@@ -78,9 +78,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Dirua atera
-    es: Sacar dinero
+    es: 돈 찾기
   - eu: Dirua sartu
-    es: Ingresar dinero
+    es: 돈 입금하기
   - eu: Transferentzia egin
     es: 계좌 이체하기
   - eu: Paketea bidali

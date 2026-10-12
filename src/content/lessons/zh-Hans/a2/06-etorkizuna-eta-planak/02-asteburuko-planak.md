@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: 昨天（过去）
   - eu: bihar
-    es: mañana (futuro)
+    es: 明天（将来）
   - eu: herenegun
-    es: anteayer
+    es: 前天
   - eu: etzi
-    es: pasado mañana
+    es: 后天
   - eu: joan den astean
     es: 上周
   - eu: datorren astean
@@ -105,7 +105,7 @@ exercises:
 
 ## 将来时的时间标记词
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 明天 | *bihar* |
 | 后天 | *etzi* |
@@ -131,7 +131,7 @@ exercises:
 
 ## 意图和决定
 
-| 西班牙语 | 巴斯克语 | 细微差别 |
+| 中文 | 巴斯克语 | 细微差别 |
 |---|---|---|
 | 我打算去旅行 | *Bidaiatzeko **asmoa dut*** | 脑子里的计划 |
 | 我决定换工作 | *Lanez aldatzea **erabaki dut*** | 已做出的决定 |

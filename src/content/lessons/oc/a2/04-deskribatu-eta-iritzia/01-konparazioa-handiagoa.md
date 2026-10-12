@@ -73,11 +73,11 @@ exercises:
   - eu: gehiago
     es: mès (quantitat)
   - eu: gutxiago
-    es: menos
+    es: mens
   - eu: hobea
-    es: mejor
+    es: melhor
   - eu: okerragoa
-    es: peor
+    es: pejor
   - eu: azkarragoa
     es: mès rapid
 ---
@@ -89,10 +89,10 @@ Comparar ei un des actes mès quotidians deth lenguatge: *aguest ei mès gran qu
 > **X baino Y-AGO(A)**
 
 - **baino** se plaçe entre es dus tèrmes comparadi — equival a "que".
-- **-ago** s'apond ar adjectiu o advèrbi (coma er "-er" anglés o era marca de comparatiu deth castelhan).
+- **-ago** s'apond ar adjectiu o advèrbi (coma er "-er" anglés).
 - S'acompanhe un substantiu determinat, er adjectiu pòrte era sua **-a** abituau: *altuago**a***.
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Mès gran | *handi**agoa*** |
 | Mès petit | *txiki**agoa*** |
@@ -102,7 +102,7 @@ Comparar ei un des actes mès quotidians deth lenguatge: *aguest ei mès gran qu
 
 ## Frases tipe
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Lander ei mès naut qu'Olatz | *Lander Olatz **baino** altu**agoa** da* |
 | Aguesta casa ei mès grana qu'aquera | *Etxe hau hura **baino** handi**agoa** da* |
@@ -116,7 +116,7 @@ Comparar ei un des actes mès quotidians deth lenguatge: *aguest ei mès gran qu
 
 Quauqui adjectius non seguissen era nòrma regulara e conven de memoriza'ls:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Bon → melhor | *ona → **hobea*** |
 | Maishant → pièger | *txarra → **okerragoa*** |
@@ -131,7 +131,7 @@ Quauqui adjectius non seguissen era nòrma regulara e conven de memoriza'ls:
 
 Quan compares **accions** o **quantitats**, *gehiago / gutxiago* foncione coma advèrbi:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Trabalhi mès que tu | *Zuk **baino gehiago** lan egiten dut* |
 | Estudie mens qu'abans | *Lehen **baino gutxiago** ikasten du* |
@@ -145,7 +145,7 @@ Quan compares **accions** o **quantitats**, *gehiago / gutxiago* foncione coma a
 |---|---|
 | *azkar* (rapid) | *azkarrago* |
 | *poliki* (a plaser) | *polikiago* |
-| *ondo* (bien) | *hobeto* (irregular) |
+| *ondo* (ben) | *hobeto* (irregular) |
 | *gaizki* (maument) | *okerrago* |
 | *berandu* (tard) | *beranduago* |
 | *goiz* (de d'ora) | *goizago* |
@@ -168,7 +168,7 @@ O ben damb eth comparatiu invertit:
 
 Ua formula fòrça productiva:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Non ei tan car | *Ez da **hain** garestia* |
 | Non tan rapid | *Ez **hain** azkar* |

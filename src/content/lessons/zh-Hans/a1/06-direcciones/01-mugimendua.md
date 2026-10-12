@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: 去
   - eu: etorri
-    es: venir
+    es: 来
   - eu: ibili
-    es: andar / moverse
+    es: 走动 / 移动
   - eu: sartu
-    es: entrar
+    es: 进入
   - eu: irten
-    es: salir
+    es: 出去
   - eu: igo
-    es: subir
+    es: 上去
   - eu: jaitsi
-    es: bajar
+    es: 下去
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: 我去 = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" 和它的反义词 "irten" 分别表示：'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - 进入 / 出去
+  - 上去 / 下去
+  - 去 / 来
+  - 打开 / 关上
   answer: 0
 - id: ex-mu-fc
   type: flashcards
@@ -112,7 +112,7 @@ exercises:
 
 ## Joan — 去
 
-| 人称 | 形式 | 含义 |
+| 人称 | 形式 | 中文 |
 |---|---|---|
 | ni | **noa** | 我去 |
 | zu | **zoaz** | 你去 |
@@ -125,7 +125,7 @@ exercises:
 
 ## Etorri — 来
 
-| 人称 | 形式 | 含义 |
+| 人称 | 形式 | 中文 |
 |---|---|---|
 | ni | **nator** | 我来 |
 | zu | **zatoz** | 你来 |
@@ -138,7 +138,7 @@ exercises:
 
 ## Ibili — 走动，移动
 
-| 人称 | 形式 | 含义 |
+| 人称 | 形式 | 中文 |
 |---|---|---|
 | ni | **nabil** | 我走动，我来回移动 |
 | zu | **zabiltza** | 你走动 |
@@ -151,7 +151,7 @@ exercises:
 
 ## 其他有用的移动动词
 
-| 巴斯克语 | 含义 | 例子 |
+| 巴斯克语 | 中文 | 例子 |
 |---|---|---|
 | *sartu* | 进入 | *Tabernan sartu naiz.* — 我进了酒吧。 |
 | *irten* | 出去 | *Etxetik irten naiz.* — 我从家里出来了。 |

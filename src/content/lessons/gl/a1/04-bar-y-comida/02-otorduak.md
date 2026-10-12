@@ -75,15 +75,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: almorzo
   - eu: hamaiketakoa
     es: merenda da mañá
   - eu: bazkaria
     es: xantar
   - eu: askaria
-    es: merienda
+    es: merenda
   - eu: afaria
-    es: cena
+    es: cea
   - eu: jan
     es: comer
   - eu: edan

@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: 我性格紧张（性格）
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: 我很紧张（此刻）
   - eu: ona da
     es: 他/她是个好人（性质）
   - eu: ondo dago
     es: 他/她很好（状态）
 ---
 
-这可能是巴斯克语A1级别中最棘手的区别。它类似于西班牙语中的“ser”和“estar”，但有两个重要的区别：**(1) 形容词会改变形式**，以及 **(2) 有些词只与这两个动词中的一个搭配使用**。
+这可能是巴斯克语A1级别中最棘手的区别。中文只有一个“是”，而巴斯克语分成两个动词，并且有两个要点：**(1) 形容词会改变形式**，以及 **(2) 有些词只与这两个动词中的一个搭配使用**。
 
 ## 一句话规则
 
@@ -130,4 +130,4 @@ exercises:
 - **Nolakoa zara?** → 描述你的性格/外貌（使用 *izan*）。
 - **Nola zaude?** 或 **Zer moduz?** → 说说你今天怎么样（使用 *egon*）。
 
-> **注意：**在西班牙语中，你会说“soy nervioso”或“estoy nervioso”，词语本身不变。在巴斯克语中，词语会变化（*urduria* vs *urduri*）。一开始会觉得困难；通过日常练习就会变得自然。如果在实际对话中不确定，一个保险的做法是使用 *egon* 搭配一个不变的词：*haserre nago*、*triste nago*、*nekatuta nago* —— 这些总是对的。
+> **注意：**在中文里，“我很紧张”这个词本身不变。在巴斯克语中，词语会变化（*urduria* vs *urduri*）。一开始会觉得困难；通过日常练习就会变得自然。如果在实际对话中不确定，一个保险的做法是使用 *egon* 搭配一个不变的词：*haserre nago*、*triste nago*、*nekatuta nago* —— 这些总是对的。

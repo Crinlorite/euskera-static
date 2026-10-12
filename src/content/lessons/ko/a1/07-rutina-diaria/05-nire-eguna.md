@@ -84,7 +84,7 @@ exercises:
 
 ## 핵심 질문: "Zer ordutan…?"
 
-| 질문 | 의미 |
+| 질문 | 한국어 |
 |---|---|
 | *Zer ordutan esnatzen zara?* | 몇 시에 잠에서 깨세요? |
 | *Zer ordutan jaikitzen zara?* | 몇 시에 일어나세요? |

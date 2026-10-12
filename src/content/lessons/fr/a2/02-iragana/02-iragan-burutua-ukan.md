@@ -16,8 +16,8 @@ exercises:
   prompt: '"Liburua irakurri nuen" signifie…'
   options:
   - Je suis en train de lire le livre
-  - J'ai lu le livre
-  - J'ai lu le livre
+  - J'ai lu le livre (aujourd'hui, récemment)
+  - J'ai lu le livre (un autre jour)
   - Je vais lire le livre
   answer: 2
   explanation: '*Nuen* est le passé de *dut* (je le). *Irakurri nuen* = "j''ai lu" (passé complet).'

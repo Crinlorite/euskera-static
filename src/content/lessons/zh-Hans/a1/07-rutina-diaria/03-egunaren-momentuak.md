@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: 在下午
   - eu: iluntzean
-    es: al atardecer
+    es: 傍晚
   - eu: gauean
     es: 在晚上
   - eu: gaur
-    es: hoy
+    es: 今天
   - eu: bihar
     es: 明天（后一天）
   - eu: atzo
-    es: ayer
+    es: 昨天
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ exercises:
 | *gero* | 然后，之后 |
 | *lehen* | 以前 |
 
-> 注意：请小心区分 **bihar**（后一天，“明天”）和 **goiza**（早上，指中午之前的时段）。在西班牙语中，这两个概念都用“mañana”一词，但在巴斯克语中则不然。
+> 注意：请小心区分 **bihar**（后一天，“明天”）和 **goiza**（早上，指中午之前的时段）。这是两个不同的词，就像中文的“明天”和“早上”。
 
 ## 综合运用
 

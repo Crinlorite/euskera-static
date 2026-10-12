@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: te rog
   - eu: eskerrik asko
-    es: muchas gracias
+    es: mulțumesc mult
   - eu: ez horregatik
     es: cu plăcere
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Pentru mine
   - eu: ona
-    es: bueno
+    es: bun
 ---
 
 A comanda la bar este unul dintre cele mai utile lucruri pe care le vei învăța să le spui în bască. Formula de bază este foarte directă: numele a ceea ce vrei + **bat** (unu) + **mesedez** (te rog). Și gata.
@@ -157,4 +157,4 @@ Când cineva îți oferă ceva:
 >
 > — *Ederki!* — Excelent!
 
-> **Notă culturală:** într-o tavernă bască, este normal să comanzi la bar, să bei în picioare și să vorbești tare. *Mesedez* și *eskerrik asko* sunt de bază, dar nu obligatorii în fiecare propoziție — spre deosebire de spaniolă, un "*ebakia*" sec nu este considerat nepoliticos, atâta timp cât tonul este cordial.
+> **Notă culturală:** într-o tavernă bască, este normal să comanzi la bar, să bei în picioare și să vorbești tare. *Mesedez* și *eskerrik asko* sunt de bază, dar nu obligatorii în fiecare propoziție — spre deosebire de română, un "*ebakia*" sec nu este considerat nepoliticos, atâta timp cât tonul este cordial.

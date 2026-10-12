@@ -78,9 +78,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Dirua atera
-    es: Sacar dinero
+    es: A scoate bani
   - eu: Dirua sartu
-    es: Ingresar dinero
+    es: A depune bani
   - eu: Transferentzia egin
     es: A face un transfer
   - eu: Paketea bidali

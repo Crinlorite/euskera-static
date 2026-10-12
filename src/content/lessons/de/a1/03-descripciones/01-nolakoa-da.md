@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: groß (Körpergröße)
   - eu: baxua
-    es: bajo
+    es: klein (Körpergröße)
   - eu: handia
-    es: grande
+    es: groß
   - eu: txikia
-    es: pequeño
+    es: klein
   - eu: lodia
-    es: gordo
+    es: dick
   - eu: argala
-    es: delgado
+    es: schlank
   - eu: polita
-    es: bonito
+    es: hübsch
   - eu: itsusia
-    es: feo
+    es: hässlich
 ---
 
 Wenn du beschreiben möchtest, wie eine Person oder eine Sache **dauerhaft** ist (physisch, im Allgemeinen), verwenden wir im Baskischen die Frage **Nolakoa da?** („wie ist er/sie/es?“) und antworten mit dem Verb **izan** + einem Adjektiv mit der Endung `-a`.

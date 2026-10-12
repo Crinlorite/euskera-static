@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: 1984年に結婚した
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: 三人の子どもが生まれた
   - eu: 2020an erretiroa hartu zuen
     es: 2020年に退職した
 ---
@@ -94,7 +94,7 @@ exercises:
 
 ## 人生の節目
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 生まれる | *jaio* (jaio nintzen/zen) |
 | 育つ | *hazi* |

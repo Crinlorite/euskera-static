@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: di pomeriggio
   - eu: iluntzean
-    es: al atardecer
+    es: al tramonto
   - eu: gauean
     es: di notte
   - eu: gaur
-    es: hoy
+    es: oggi
   - eu: bihar
     es: domani (giorno seguente)
   - eu: atzo
-    es: ayer
+    es: ieri
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Questi ti serviranno tutti i giorni:
 | *gero* | dopo, poi |
 | *lehen* | prima |
 
-> Attenzione: fai attenzione a **bihar** (il giorno seguente, "domani") e **goiza** (la mattina, fino a mezzogiorno). In basco sono due parole distinte, a differenza dello spagnolo che usa "mañana" per entrambi.
+> Attenzione: fai attenzione a **bihar** (il giorno seguente, "domani") e **goiza** (la mattina, fino a mezzogiorno). In basco sono due parole distinte, proprio come «domani» e «mattina» in italiano.
 
 ## Combinando il tutto
 

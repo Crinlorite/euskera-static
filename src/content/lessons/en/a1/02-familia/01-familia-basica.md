@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: father
   - eu: ama
-    es: madre
+    es: mother
   - eu: anaia
     es: brother (of a man or a woman)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: sister (said by a woman)
   - eu: seme
-    es: hijo
+    es: son
   - eu: alaba
-    es: hija
+    es: daughter
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen has a sister. What is the word for "sister" from Maialen's point of view?

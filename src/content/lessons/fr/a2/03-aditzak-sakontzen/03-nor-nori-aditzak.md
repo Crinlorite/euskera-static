@@ -82,7 +82,7 @@ exercises:
     es: m'est arrivé
 ---
 
-Les verbes **NOR-NORI** sont ceux où quelque chose (NOR) "arrive à quelqu'un" (NORI). Le sujet grammatical est **la chose**, pas la personne — exactement comme *gustar* en espagnol : *me gusta el cine* (le cinéma me plaît, à moi).
+Les verbes **NOR-NORI** sont ceux où quelque chose (NOR) "arrive à quelqu'un" (NORI). Le sujet grammatical est **la chose**, pas la personne — exactement comme en français : *le cinéma me plaît* — c'est le cinéma qui est le sujet.
 
 Au niveau A1, tu as déjà vu *gustatzen zait*. Au niveau A2, tu étends ce modèle à d'autres verbes très utiles.
 

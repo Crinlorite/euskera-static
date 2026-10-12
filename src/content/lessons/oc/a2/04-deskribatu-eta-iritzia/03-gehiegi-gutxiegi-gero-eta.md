@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: minjar massa
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: dormir pòc / insufisent
   - eu: gero eta hotzago
     es: cada viatge mès fret
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: cada còp mens
   - eu: pixka bat berandu
     es: un pòc tard
   - eu: askoz hobeto
-    es: mucho mejor
+    es: fòrça melhor
 ---
 
 Aguesta leccion complete es comparacions damb dues pèces mès:
@@ -116,7 +116,7 @@ Entà díder qu'un afar ei **excessiu**, s'ahig **-egi** ar adjectiu (e dempús 
 
 Coma advèrbis independents:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Tròp | *gehiegi* |
 | Tròp pòc / insufisent | *gutxiegi* |
@@ -135,7 +135,7 @@ Entà "**cada viatge mès X**" o "**cada viatge mens X**", eth basc emplegue ua 
 
 > **gero eta + adjectiu/advèrbi-ago(a)**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Cada viatge mès car | *Gero eta **garestiagoa*** |
 | Cada viatge mès fret | *Gero eta **hotzagoa*** |
@@ -156,7 +156,7 @@ Entà "**cada viatge mès X**" o "**cada viatge mens X**", eth basc emplegue ua 
 
 ## *Hain* — "tan" (damb o sense negacion)
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Ei tan gran | *Hain handia da* |
 | Non ei **tan** car | *Ez da **hain** garestia* |
@@ -170,7 +170,7 @@ Entà "**cada viatge mès X**" o "**cada viatge mens X**", eth basc emplegue ua 
 
 Entà matisar es comparacions:
 
-| Castelhan | Basc | Exemple |
+| Aranés | Basc | Exemple |
 |---|---|---|
 | Un pòc | *pixka bat* | *Pixka bat handiagoa* (un pòc mès gran) |
 | Un shinhau / un bric | *zerbait / zertxobait* | *Zertxobait txikiagoa* (un shinhau mès petit) |

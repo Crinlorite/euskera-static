@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: stół
   - eu: aulkia
-    es: silla
+    es: krzesło
   - eu: ohea
-    es: cama
+    es: łóżko
   - eu: armairua
-    es: armario
+    es: szafa
   - eu: sofa
     es: sofa
   - eu: telebista
     es: telewizor
   - eu: hozkailua
-    es: nevera
+    es: lodówka
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: W którym pokoju znajduje się "hozkailua"?

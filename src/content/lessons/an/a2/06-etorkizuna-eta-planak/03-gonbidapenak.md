@@ -32,14 +32,14 @@ exercises:
   explanation: '*Ondo iruditzen zait* = me pareix bien. As atras refusan u apratan: no puedo / unatro día / no me fa goyo brenca.'
 - id: ex-a2-et3-mc3
   type: multiple-choice
-  prompt: '"¿Por qué no vamos al monte?" (proposando un plan) = …'
+  prompt: '"¿Per qué no imos ta o mont?" (proposando un plan) = …'
   options:
   - Zergatik ez goaz mendira?
   - Zergatik joan zinen mendira?
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + verbo en present ye a propuesta suau clasica, igual que en castellano. As atras preguntan por o pasau, o destín u a tornada.'
+  explanation: '*Zergatik ez…?* + verbo en present ye a propuesta suau clasica, como l''aragonés «per qué no…?». As atras preguntan por o pasau, o destín u a tornada.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: ¿Quedamos a as seis? = seietan ___ gara?

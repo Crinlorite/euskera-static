@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: amic/ga
   - eu: bizilaguna
-    es: vecino/a
+    es: veí/veïna
   - eu: ikaskidea
     es: company/a de classe
   - eu: lankidea
     es: company/a de feina
   - eu: ezaguna
-    es: conocido/a
+    es: conegut/da
   - eu: koadrila
     es: quadrilla / grup d'amics
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: Qui és el teu "bizilaguna"?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - El teu germà
+  - El teu cap
+  - El teu veí
+  - El teu professor
   answer: 2
   explanation: '"Bizi" (viure) + "laguna" (company/a) = "company/a d''habitatge" → veí/veïna (del teu portal o barri).'
 - id: ex-10-01-mc2

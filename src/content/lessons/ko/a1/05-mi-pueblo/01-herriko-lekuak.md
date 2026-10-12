@@ -14,21 +14,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: taberna
-    es: bar
+    es: 바
   - eu: okindegia
     es: 빵집
   - eu: botika
-    es: farmacia
+    es: 약국
   - eu: liburutegia
-    es: biblioteca
+    es: 도서관
   - eu: eliza
-    es: iglesia
+    es: 교회
   - eu: merkatua
-    es: mercado
+    es: 시장
   - eu: banketxea
-    es: banco
+    es: 은행
   - eu: ospitalea
-    es: hospital
+    es: 병원
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: 빵을 사야 합니다. 어떤 종류의 가게에 가나요?

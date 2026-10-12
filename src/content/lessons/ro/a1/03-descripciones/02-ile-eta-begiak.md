@@ -89,24 +89,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: păr negru
   - eu: ile horia
-    es: pelo rubio
+    es: păr blond
   - eu: ile motza
-    es: pelo corto
+    es: păr scurt
   - eu: ile luzea
-    es: pelo largo
+    es: păr lung
   - eu: begi urdinak
-    es: ojos azules
+    es: ochi albaștri
   - eu: begi marroiak
-    es: ojos marrones
+    es: ochi căprui
   - eu: bizarduna
     es: cu barbă
   - eu: betaurrekoduna
     es: cu ochelari
 ---
 
-Pentru a descrie părul și ochii în bască nu se folosește **izan** („a fi”) ca în spaniolă („sunt brunet”), ci **ukan** („a avea”): *am părul negru*, *am ochii albaștri*.
+Pentru a descrie părul și ochii în bască nu se folosește **izan** („a fi”), ci **ukan** („a avea”), ca și în română: *am părul negru*, *am ochii albaștri*.
 
 ## Păr: ile
 
@@ -124,7 +124,7 @@ Cuvântul pentru „păr” este **ile** (cu articol: *ilea*). Adjectivele se pu
 | *ile lisoa* | păr drept |
 | *ile kizkurra* | păr creț |
 
-> În bască, părul este tratat ca **singular**, la fel ca în spaniolă. De aceea se folosește *dut* / *du* (nu *ditut* / *ditu*).
+> În bască, părul este tratat ca **singular**, la fel ca în română. De aceea se folosește *dut* / *du* (nu *ditut* / *ditu*).
 
 - *Ile beltza eta luzea **dut**.* — Am părul negru și lung.
 - *Maialenek ile kizkurra **du**.* — Maialen are părul creț.
@@ -154,7 +154,7 @@ Pentru a spune „care poartă X” sau „cu X”, limba bască are un sufix fo
 | *betaurrekoduna* | cu ochelari / cel cu ochelari |
 | *bizarduna* | cu barbă |
 | *biboteduna* | cu mustață |
-| *burusoila* | chel (literalmente „cap pleșuv”) |
+| *burusoila* | chel (literal „cap pleșuv”) |
 
 Acestea se folosesc cu **izan**, deoarece descriu o calitate, ca un adjectiv:
 

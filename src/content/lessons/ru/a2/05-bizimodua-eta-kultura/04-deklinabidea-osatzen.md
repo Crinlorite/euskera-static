@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: до горы
   - eu: etxerantz
-    es: hacia casa
+    es: в сторону дома
   - eu: lagunarengatik
     es: из-за друга
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ exercises:
 | zuentzat | *zuentzat* | для вас |
 | haientzat | *haientzat* | для них |
 | Lander | *Landerrentzat* | для Ландера |
-| la madre | *amarentzat* | для мамы |
-| los amigos | *lagunentzat* | для друзей |
+| мама | *amarentzat* | для мамы |
+| друзья | *lagunentzat* | для друзей |
 
 > *Hau **zuretzat** da.* — Это для тебя.
 >
@@ -160,9 +160,9 @@ exercises:
 | zugatik | *zugatik* | из-за тебя |
 | beragatik / harengatik | *beragatik* | из-за него/неё |
 | Lander | *Landerrengatik* | из-за Ландера |
-| la madre | *amarengatik* | из-за мамы |
-| el amor | *maitasunarengatik* | из-за любви |
-| la lluvia | *euriagatik* | из-за дождя |
+| мама | *amarengatik* | из-за мамы |
+| любовь | *maitasunarengatik* | из-за любви |
+| дождь | *euriagatik* | из-за дождя |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — Спасибо, что пришёл, ради меня!
 >
@@ -170,7 +170,7 @@ exercises:
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Почему ты это сделал(а)? — Из-за тебя.
 
-> **Примечание:** различайте *-engatik* (причина: «из-за») и *-rentzat* (получатель: «для»). В испанском «por» охватывает оба значения, но в баскском языке они различаются.
+> **Примечание:** различайте *-engatik* (причина: «из-за») и *-rentzat* (получатель: «для»). По-русски это тоже разные слова («из-за» / «для»), как и в баскском.
 
 ## NONGO / NOIZKO — какого места / момента
 

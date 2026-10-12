@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: عطلة نهاية الأسبوع
   - eu: bihar
-    es: mañana
+    es: غدًا
   - eu: etzi
-    es: pasado mañana
+    es: بعد غد
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: بعد ظهر اليوم
   - eu: libre nago
-    es: estoy libre
+    es: أنا متفرّغ
 ---
 
 الدرس الأخير في الوحدة: سنقوم بتكوين **أسبوع كامل** عبر دمج كل ما تعلمناه. الأيام، صيغ المستقبل، المواعيد، علامات التوقيت... لغة التخطيط.

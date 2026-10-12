@@ -94,7 +94,7 @@ Segunda parada de la unidá: **el deporte** — el de facer y el de ver. Y n'Eus
 
 ## Deportes de siempre
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | El deporte | *kirola* |
 | El fútbol | *futbola* |
@@ -127,7 +127,7 @@ Segunda parada de la unidá: **el deporte** — el de facer y el de ver. Y n'Eus
 
 ## El partíu
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | L'equipu | *taldea* |
 | El partíu | *partida* |

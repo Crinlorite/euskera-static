@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: mon/ma
   - eu: zure
-    es: tu/tuyo
+    es: ton/le tien
   - eu: bere
     es: son/sa (à lui/elle)
   - eu: gure
-    es: nuestro
+    es: notre
   - eu: zuen
-    es: vuestro
+    es: votre (pluriel)
   - eu: beren
     es: leur (à eux)
 - id: ex-pos-fb1

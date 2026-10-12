@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" means…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Work
+  - Salary
+  - Boss
+  - Employee
   answer: 1
   explanation: '*Soldata* = salary. *Lansari* is a formal synonym.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: teacher
   - eu: erizain
-    es: enfermero/a
+    es: nurse
   - eu: sukaldari
-    es: cocinero/a
+    es: cook
   - eu: kazetari
-    es: periodista
+    es: journalist
   - eu: mekanikari
     es: mechanic
   - eu: arkitekto
-    es: arquitecto/a
+    es: architect
 ---
 
 A2 opens up the world of **work** for you, beyond "I'm a student / I'm a teacher". Now you get to talk about:
@@ -102,7 +102,7 @@ A2 opens up the world of **work** for you, beyond "I'm a student / I'm a teacher
 
 A1 covered the classics (*medikua, ikaslea, irakaslea, sukaldaria*). In A2, you'll add:
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Journalist | *kazetaria* |
 | Programmer | *programatzailea* |
@@ -128,7 +128,7 @@ A1 covered the classics (*medikua, ikaslea, irakaslea, sukaldaria*). In A2, you'
 
 Remember this suffix from A1 — it's productive for trades:
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Basque speaker | *euskalduna* |
 | Champion (one who has the *txapela*) | *txapelduna* |
@@ -136,7 +136,7 @@ Remember this suffix from A1 — it's productive for trades:
 
 ## Talking about work
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | What do you do for a living? | *Zertan egiten duzu lan?* |
 | I work in an office | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ Remember this suffix from A1 — it's productive for trades:
 
 ## Workday and schedule
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Full-time | *Lanaldi osoa* |
 | Part-time | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ Remember this suffix from A1 — it's productive for trades:
 
 Typical steps and vocabulary:
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Job offer | *lan-eskaintza* |
 | Resume / CV | *curriculuma* |
@@ -177,7 +177,7 @@ Typical steps and vocabulary:
 
 ## Typical phrases in an interview
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Tell me something about yourself | *Konta iezadazu zerbait zuri buruz* |
 | Why do you want this position? | *Zergatik nahi duzu lanpostu hau?* |
@@ -192,7 +192,7 @@ To describe your job in more complex terms, it's useful to use the **relative cl
 
 > **conjugated verb + -(e)n + noun**
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | The job that I have | *Daukadan lana* |
 | The company where I work | *Lan egiten dudan enpresa* |

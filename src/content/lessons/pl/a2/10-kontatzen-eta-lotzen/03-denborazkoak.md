@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: po śniadaniu
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: kiedy jem śniadanie
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: podczas śniadania
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: jak tylko zjem śniadanie
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: bez śniadania
 ---
 
 Twoje zdania już wiedzą, CO się stało; ta lekcja nauczy je mówić **KIEDY** z zegarmistrzowską precyzją: *kiedy przybyłem*, *przed wyjściem*, *po jedzeniu*, *podczas gdy spałeś*. Trzy elementy, a kombinacje tworzą się same.

@@ -22,17 +22,17 @@ exercises:
   - eu: lankidea
     es: companyero/a de treballo
   - eu: ezaguna
-    es: conocido/a
+    es: conoixiu/a
   - eu: koadrila
     es: cuadrilla / grupo d'amigos
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: Qui ye o tuyo "bizilaguna"?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - O tuyo chermano
+  - O tuyo chefe
+  - O tuyo vecino
+  - O tuyo profesor
   answer: 2
   explanation: '"Bizi" (vivir) + "laguna" (companyero/a) = "companyero/a de vivienda" → vecín/vecina (d''o tuyo portal u barrio).'
 - id: ex-10-01-mc2
