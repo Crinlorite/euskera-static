@@ -26,6 +26,13 @@ Uso:
   python3 scripts/idioma_nuevo.py validar <loc> [ruta…]
   python3 scripts/idioma_nuevo.py aplicar <loc>
   python3 scripts/idioma_nuevo.py estado <loc>
+  python3 scripts/idioma_nuevo.py semilla-extraer
+  python3 scripts/idioma_nuevo.py semilla-aplicar <loc>
+
+Semillas del simulacro (scripts/seed_i18n/<loc>.json): las claves llevan
+espacios, así que el .txt usa `@@ sNNN` y el orden vive en
+i18n-trabajo/es/semilla-claves.json. Lo que sale idéntico en todos los
+oráculos (euskera, horas, cifras) se copia solo y no entra en la plantilla.
 """
 from __future__ import annotations
 
@@ -400,6 +407,53 @@ def cmd_estado(loc):
         print("  pendiente:", p)
 
 
+# ── semillas del simulacro ──
+
+SEED = ROOT / "scripts/seed_i18n"
+
+
+def _semilla():
+    es = json.loads((SEED / "es.json").read_text(encoding="utf-8"))
+    ors = [json.loads((SEED / f"{o}.json").read_text(encoding="utf-8")) for o in ORACULOS]
+    copia = {k for k in es if all(o.get(k) == es[k] for o in ors)}
+    return es, copia
+
+
+def cmd_semilla_extraer():
+    es, copia = _semilla()
+    claves = list(es)
+    seg = {f"s{i:03d}": es[k] for i, k in enumerate(claves) if k not in copia}
+    d = TRABAJO / "es"
+    (d / "semilla-claves.json").write_text(json.dumps(claves, ensure_ascii=False, indent=0), encoding="utf-8")
+    (d / "semilla.txt").write_text(dump_seg(seg), encoding="utf-8")
+    print(f"semilla: {len(seg)} segmentos ({len(copia)} copiados tal cual)")
+
+
+def cmd_semilla_aplicar(loc):
+    es, copia = _semilla()
+    claves = json.loads((TRABAJO / "es/semilla-claves.json").read_text(encoding="utf-8"))
+    assert claves == list(es), "es.json ha cambiado: vuelve a extraer"
+    tr = load_seg((TRABAJO / loc / "semilla.txt").read_text(encoding="utf-8"))
+    out, avisos = {}, []
+    for i, k in enumerate(claves):
+        if k in copia:
+            out[k] = es[k]
+            continue
+        v = tr.get(f"s{i:03d}")
+        if v is None:
+            avisos.append(f"falta s{i:03d} ({k})")
+            continue
+        if RESTOS_ES.search(v):
+            avisos.append(f"¿castellano? s{i:03d} ({k}): {v[:60]}")
+        out[k] = v
+    for a in avisos:
+        print("✗", a)
+    if any(a.startswith("falta") for a in avisos):
+        sys.exit(1)
+    (SEED / f"{loc}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"{loc}: {len(out)} claves escritas en {SEED / (loc + '.json')}")
+
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     if not a:
@@ -413,3 +467,7 @@ if __name__ == "__main__":
         cmd_aplicar(a[1])
     elif a[0] == "estado":
         cmd_estado(a[1])
+    elif a[0] == "semilla-extraer":
+        cmd_semilla_extraer()
+    elif a[0] == "semilla-aplicar":
+        cmd_semilla_aplicar(a[1])

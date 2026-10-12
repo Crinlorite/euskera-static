@@ -1,0 +1,808 @@
+@@ s000
+Nosotros vivimos en Pamplona = gu Iruñean bizi ___.
+@@ s001
+Bizi izan va con NOR: ni bizi naiz, gu bizi gara.
+@@ s002
+¿Tienes hermanos? = senide___ baduzu?
+@@ s003
+Partitivo -rik en preguntas: seniderik baduzu?, dirurik baduzu?
+@@ s004
+"Me gustan las manzanas" = …
+@@ s005
+Plural (sagarrak) → zaizkit. Jamás dut/naiz con gustatzen: el error que el examen busca con lupa.
+@@ s006
+Voy a casa en autobús = etxe___ noa autobusez.
+@@ s007
+Adlativo -ra (a/hacia): etxera noa. El instrumental -z (autobusez) ya te lo dan hecho.
+@@ s008
+Vengo de la playa = hondartza___ nator.
+@@ s009
+Ablativo -tik (desde/de): hondartzatik nator. La pareja de -ra: voy A / vengo DE.
+@@ s010
+"Trabajo con mi hermano" = …
+@@ s011
+Comitativo -rekin (con): anaiarekin. *-rentzat* sería PARA él; *-ren*, suyo; *-ra*, hacia él (!).
+@@ s012
+¿Cuál es la CORRECTA?
+@@ s013
+Numeral + sustantivo DESNUDO: hiru liburu (tres libros), sin artículo. Y plural en el verbo: ditut.
+@@ s014
+"Son las tres y media" = …
+@@ s015
+Hirurak eta erdiak dira. Las horas en plural: ordu batA es la excepción (singular).
+@@ s016
+Este libro es de Ane (posesión) = liburu hau Ane___ da.
+@@ s017
+Genitivo -ren + artículo: Anerena (el de Ane). Con nombre: Aneren liburua.
+@@ s018
+Pregunta bien formada para responder "Okindegian erosten dut ogia":
+@@ s019
+Respuesta en -n (okindegiAN, lugar) → pregunta NON (dónde). Nora = a dónde (movimiento).
+@@ s020
+Quiero café con leche = kafea esne___ nahi dut.
+@@ s021
+Comitativo con palabra en -e: esne + arekin = esnearekin.
+@@ s022
+Vamos al mercado = merkatu___ goaz.
+@@ s023
+Adlativo -ra con goaz: merkatura goaz.
+@@ s024
+"No tengo tiempo" = …
+@@ s025
+Ez daukat denborarik: negación + partitivo. Naiz/nago no valen para TENER.
+@@ s026
+"Mañana compraré pan" (futuro A1) = …
+@@ s027
+Bihar + erosiKO dut (futuro -ko de la unidad 13). Con "erosi dut" sería ya comprado; "atzo" (ayer) + futuro es imposible.
+@@ s028
+¿Cuánto cuesta el queso? = zenbat ___ du gaztak?
+@@ s029
+Zenbat balio du? — la pregunta de precios. El NORK (gaztaK) te lo da hecho la frase.
+@@ s030
+En el restaurante, para pedir educadamente:
+@@ s031
+"Ura, mesedez" — lo pedido + mesedez es la fórmula A1 perfecta. La primera es una orden seca; la tercera pregunta al revés.
+@@ s032
+Tengo que estudiar = ikasi ___ dut.
+@@ s033
+Behar dut = tengo que: ikasi behar dut, joan behar dut.
+@@ s034
+"¿Dónde está el baño?" = …
+@@ s035
+Non dago…? — ubicación con egon. La pregunta de supervivencia número 1.
+@@ s036
+Ordena la frase: [gustatzen / kafea / zait / asko]
+@@ s037
+Kafea asko gustatzen zait — el orden neutro: NOR + asko + gustatzen + NOR-NORI.
+@@ s038
+Los lunes voy a clase de euskera = astelehen___ euskara-klasera joaten naiz.
+@@ s039
+Los días en plural habitual: astelehenETAN (los lunes), ostiraletan (los viernes).
+@@ s040
+Según el texto, ¿de dónde es Ane?
+@@ s041
+De Bilbao
+@@ s042
+De Lekeitio
+@@ s043
+De Iruñea
+@@ s044
+De Donostia
+@@ s045
+"Lekeitiarra naiz" — soy de Lekeitio. En Bilbao VIVE (bizi naiz). Origen (nongoa) ≠ residencia (non bizi): distinción estrella del A1.
+@@ s046
+¿Cuándo trabaja Ane?
+@@ s047
+Por la mañana
+@@ s048
+Por la tarde
+@@ s049
+De noche
+@@ s050
+Solo los fines de semana
+@@ s051
+"Gauez egiten dut lan" — trabajo de noche. Por eso duerme por las mañanas.
+@@ s052
+¿Qué hace Ane los viernes?
+@@ s053
+Juega a pelota
+@@ s054
+Cena con la cuadrilla
+@@ s055
+Va a Lekeitio
+@@ s056
+Estudia inglés
+@@ s057
+"Ostiraletan kuadrillarekin afaltzen dut" — los viernes ceno con la cuadrilla. La pelota es martes y jueves.
+@@ s058
+¿Cuántos años tiene su hermana?
+@@ s062
+No lo dice
+@@ s063
+"Ahizpa bat daukat, 31 urtekoa". Ane tiene 28; la hermana, 31. El examen SIEMPRE cruza datos para pillarte.
+@@ s064
+¿Qué le gusta mucho a Ane?
+@@ s065
+El pescado de su padre
+@@ s066
+La tortilla de su madre
+@@ s067
+El restaurante del puerto
+@@ s068
+Cocinar con su hermana
+@@ s069
+"Amaren tortilla asko gustatzen zait — munduko onena da!" — la tortilla de su madre, la mejor del mundo.
+@@ s070
+¿Qué día está cerrado el polideportivo?
+@@ s071
+El sábado
+@@ s072
+El viernes
+@@ s073
+El domingo
+@@ s074
+Nunca cierra
+@@ s075
+"Igandeetan itxita" — cerrado los domingos. *Itxita* (cerrado) ↔ *irekita* (abierto).
+@@ s076
+¿Cuánto pagan los estudiantes al mes?
+@@ s077
+25 euro
+@@ s078
+18 euro
+@@ s079
+30 euro
+@@ s080
+Es gratis
+@@ s081
+"Ikasleak: 18 euro hilean". Los 25 € son la tarifa normal. Leer precios con calma gana exámenes.
+@@ s082
+Quieres nadar un martes. ¿A qué hora puedes?
+@@ s083
+A las 7:00
+@@ s084
+A las 22:30
+@@ s085
+A las 8:00
+@@ s086
+El martes no hay piscina
+@@ s087
+Piscina "astelehenetik ostiralera, 8:00-21:00" — el martes entra en "de lunes a viernes"; a las 8:00 sí, a las 7 aún no y a las 22:30 ya no.
+@@ s088
+¿Qué hay que llevar para apuntarse?
+@@ s089
+El DNI y una foto
+@@ s090
+Solo dinero
+@@ s091
+El bañador
+@@ s092
+Nada
+@@ s093
+"NANa eta argazki bat ekarri" — traer el DNI y una foto. *Ekarri* = traer.
+@@ s094
+¿Quién NO paga nada?
+@@ s095
+Los estudiantes
+@@ s096
+Los mayores de 65
+@@ s097
+Los niños
+@@ s098
+Los del pueblo
+@@ s099
+"65 urtetik gorakoak: doan!" — los mayores de 65, gratis. *Doan* = gratis, palabra de oro en cualquier cartel.
+@@ s100
+¿Para qué escribe Jon el mensaje?
+@@ s101
+Para pedir dinero
+@@ s102
+Para invitar a comer el sábado
+@@ s103
+Para cancelar una cita
+@@ s104
+Para pedir los deberes
+@@ s105
+"Larunbatean gure etxean bazkalduko dugu… etorri nahi duzu?" — invitación a comer el sábado.
+@@ s106
+¿A qué hora quedan?
+@@ s107
+A la una y media
+@@ s108
+A las dos
+@@ s109
+A las doce
+@@ s110
+A la una
+@@ s111
+"Ordu batean gure etxean" — a la una. "La una y media" sería *ordu bat eta erdietan*.
+@@ s112
+¿Qué pone la familia de Jon?
+@@ s113
+El postre
+@@ s114
+La paella, el vino y el pan
+@@ s115
+Solo la casa
+@@ s116
+Nada, lo trae todo Miren
+@@ s117
+La madre hace la paella y "ardoa eta ogia guk jarriko ditugu". A Miren solo le piden el postre.
+@@ s118
+¿Qué tiene que hacer Miren "laster"?
+@@ s119
+Llegar pronto el sábado
+@@ s120
+Responder pronto al mensaje
+@@ s121
+Hacer pronto la paella
+@@ s122
+Comprar pronto el vino
+@@ s123
+"Erantzun laster, mesedez" — responde pronto. *Erantzun* = responder; *laster* = pronto.
+@@ s124
+¿A qué hora se levanta Miren los días de trabajo?
+@@ s125
+A las 8:30
+@@ s126
+A las 7:00
+@@ s127
+A las 6:30
+@@ s128
+A las 9:00
+@@ s129
+"Seiak eta erdietan jaikitzen naiz" — a las seis y media. Las 8:30 son del fin de semana.
+@@ s130
+¿Cómo va Miren al trabajo?
+@@ s131
+En coche
+@@ s132
+Andando, y si llueve en autobús
+@@ s133
+Siempre en autobús
+@@ s134
+En bici
+@@ s135
+"Oinez joaten naiz lanera; euria egiten badu, autobusez" — andando; con lluvia, en bus.
+@@ s136
+¿Qué hace Miren después de cenar?
+@@ s137
+Ver una serie y leer
+@@ s138
+Estudiar euskera
+@@ s139
+Salir con amigos
+@@ s140
+Trabajar un poco más
+@@ s141
+"Afaldu eta gero, telesail bat ikusten dut eta pixka bat irakurtzen dut" — serie y un poco de lectura.
+@@ s142
+Los sábados por la mañana Miren…
+@@ s143
+Trabaja
+@@ s144
+Duerme hasta mediodía
+@@ s145
+Va al mercado con su madre
+@@ s146
+Juega a pelota
+@@ s147
+"Larunbat goizetan amarekin merkatura joaten naiz" — al mercado con su madre.
+@@ s148
+¿Cuánto cuesta el concierto del viernes?
+@@ s149
+10 euro
+@@ s150
+Es gratis
+@@ s151
+5 euro
+@@ s152
+No lo dice
+@@ s153
+"22:00etan kontzertua (doan)" — *doan* = gratis. Si un cartel vasco te gusta, casi seguro que pone *doan*.
+@@ s154
+¿Dónde es la comida popular del sábado?
+@@ s155
+En la plaza
+@@ s156
+En el frontón
+@@ s157
+En la taberna
+@@ s158
+En el polideportivo
+@@ s159
+"Herri-bazkaria frontoian" — en el frontón (frontoiAN, el -n de lugar).
+@@ s160
+Si llueve, ¿dónde son los conciertos?
+@@ s161
+Se cancelan
+@@ s162
+En el frontón
+@@ s163
+En el polideportivo
+@@ s164
+En la iglesia
+@@ s165
+"Euria egiten badu, kontzertuak kiroldegian" — si llueve, al kiroldegi. *Badu* = si (condicional básico que el A1 lee, no produce).
+@@ s166
+¿Qué hay el domingo por la mañana?
+@@ s171
+"Igandea: 11:00etan mendi-martxa" — marcha de monte. Los fuegos (su artifizialak) son por la noche.
+@@ s172
+¿Dónde se compran las entradas?
+@@ s173
+Solo en internet
+@@ s174
+En la taberna del pueblo o en la web
+@@ s175
+En el ayuntamiento
+@@ s176
+En la plaza
+@@ s177
+"Txartelak: herriko tabernan edo webgunean" — *edo* = o. *Txartela* = entrada/ticket/tarjeta.
+@@ s178
+¿Dónde están Maite y Ander?
+@@ s179
+En Bilbao
+@@ s180
+En Donostia, junto a la playa
+@@ s181
+En Lekeitio
+@@ s182
+En casa de la abuela
+@@ s183
+"Donostian gaude, hondartza ondoko hotel txiki batean" — *ondoko* = de al lado de.
+@@ s184
+¿Qué hacen por las mañanas?
+@@ s185
+Pasear por la parte vieja
+@@ s186
+Ir a la playa
+@@ s187
+Ver el Aquarium
+@@ s188
+Comer pintxos
+@@ s189
+"Goizetan hondartzara joaten gara" — la parte vieja es por la tarde. Cruzan los momentos del día a propósito.
+@@ s190
+¿Qué han hecho hoy?
+@@ s191
+Han vuelto a casa
+@@ s192
+Han ido al monte
+@@ s193
+Han visto el Aquarium
+@@ s194
+Han comprado regalos
+@@ s195
+"Gaur goizean Aquariuma ikusi dugu" — perfecto reciente (ikusi dugu): lo de HOY.
+@@ s196
+¿Cuándo vuelven a casa?
+@@ s197
+El domingo
+@@ s198
+Mañana
+@@ s199
+El viernes
+@@ s200
+No lo dicen
+@@ s201
+"Ostiralean etxera itzuliko gara" — futuro -ko: volverEMOS el viernes.
+@@ s202
+¿Qué pide Jon para beber?
+@@ s203
+Un té
+@@ s204
+Un café con leche
+@@ s205
+Un café solo
+@@ s206
+Un zumo
+@@ s207
+«Kafe bat esnearekin» — café con leche (esnea + -arekin).
+@@ s208
+¿Qué pide para comer?
+@@ s209
+Una tostada
+@@ s210
+Un pintxo
+@@ s211
+Un cruasán
+@@ s212
+Nada
+@@ s213
+«Kruasan bat» — un cruasán.
+@@ s214
+¿Cuánto cuesta todo?
+@@ s219
+«Hiru euro eta berrogeita hamar» — tres euros y cincuenta.
+@@ s220
+¿Con cuánto paga Jon?
+@@ s221
+Con 3,50 justos
+@@ s222
+Con 5 euros
+@@ s223
+Con 4 euros
+@@ s224
+Con tarjeta
+@@ s225
+«Hartu, lau euro» — toma, cuatro euros. La vuelta: 50 céntimos.
+@@ s226
+¿Cómo está Mikel?
+@@ s227
+Muy bien
+@@ s228
+Cansado
+@@ s229
+Regular
+@@ s230
+No lo dice
+@@ s231
+«Oso ondo» — muy bien.
+@@ s232
+¿A dónde va Mikel?
+@@ s233
+A clase de euskera
+@@ s234
+Al trabajo
+@@ s235
+A casa
+@@ s236
+Al bar
+@@ s237
+«Lanera noa» — voy al trabajo.
+@@ s238
+¿Dónde trabaja Mikel?
+@@ s239
+En una escuela
+@@ s240
+En un hospital
+@@ s241
+En una oficina en Bilbao
+@@ s242
+En una tienda
+@@ s243
+«Bulego batean egiten dut lan, Bilbon» — en una oficina, en Bilbao.
+@@ s244
+¿Cuándo va Ane a clase de euskera?
+@@ s245
+Todos los días
+@@ s246
+Los lunes
+@@ s247
+Cada martes
+@@ s248
+Los fines de semana
+@@ s249
+«Asteartero» — cada martes (astearte + -ro).
+@@ s250
+¿A dónde va el tren?
+@@ s251
+A Bilbao
+@@ s252
+A Donostia
+@@ s253
+A Iruñea
+@@ s254
+A Gasteiz
+@@ s255
+«Donostiara doan trena» — el tren que va a Donostia.
+@@ s256
+¿De qué vía sale?
+@@ s257
+De la segunda
+@@ s258
+De la primera
+@@ s259
+De la cuarta
+@@ s260
+De la sexta
+@@ s261
+«Laugarren bidetik» — de la cuarta vía (lau → laugarren).
+@@ s262
+¿A qué hora sale?
+@@ s263
+A las seis y media
+@@ s264
+A las seis
+@@ s265
+A las siete y media
+@@ s266
+A las seis y cuarto
+@@ s267
+«Seiak eta erdietan» — a las seis y media.
+@@ s268
+¿Qué pasa con el tren?
+@@ s269
+Está cancelado
+@@ s270
+Llega 10 minutos tarde
+@@ s271
+Sale antes de hora
+@@ s272
+Cambia de vía
+@@ s273
+«Hamar minutuko atzerapena du» — lleva diez minutos de retraso.
+@@ s274
+¿Qué está de oferta hoy?
+@@ s275
+Las naranjas
+@@ s276
+Las manzanas
+@@ s277
+El pan
+@@ s278
+La leche
+@@ s279
+«Sagarrak eskaintzan daude» — las manzanas están de oferta.
+@@ s280
+¿Cuánto cuesta el kilo?
+@@ s281
+Dos euros
+@@ s282
+Un euro
+@@ s283
+Un euro y medio
+@@ s284
+Cincuenta céntimos
+@@ s285
+«Kiloa euro batean» — el kilo, a un euro.
+@@ s286
+¿Dónde está la sección de fruta?
+@@ s287
+En la entrada
+@@ s288
+En el sótano
+@@ s289
+En la segunda planta
+@@ s290
+Junto a la caja
+@@ s291
+«Bigarren solairuan» — en la segunda planta.
+@@ s292
+¿A qué hora cierra la tienda?
+@@ s293
+A las siete
+@@ s294
+A las nueve
+@@ s295
+A las ocho y media
+@@ s296
+A las ocho
+@@ s297
+«Zortzietan itxiko dugu» — cerraremos a las ocho.
+@@ s298
+¿Quién deja el mensaje?
+@@ s299
+El padre
+@@ s300
+El abuelo
+@@ s301
+Un amigo
+@@ s302
+El profesor
+@@ s303
+«Aitona naiz» — soy el abuelo.
+@@ s304
+¿Cuándo viene?
+@@ s305
+Hoy por la tarde
+@@ s306
+El domingo
+@@ s307
+Mañana al mediodía
+@@ s308
+Mañana por la noche
+@@ s309
+«Bihar… eguerdian» — mañana, al mediodía.
+@@ s310
+¿Qué plan propone?
+@@ s311
+Cenar juntos
+@@ s312
+Ir al monte
+@@ s313
+Comer juntos
+@@ s314
+Ver un partido
+@@ s315
+«Elkarrekin bazkalduko dugu» — comeremos juntos (bazkaldu = comer a mediodía).
+@@ s316
+¿Qué hay que comprar?
+@@ s317
+Pan y queso
+@@ s318
+Vino y pan
+@@ s319
+Fruta
+@@ s320
+Pescado
+@@ s321
+«Erosi ogia eta gazta» — compra pan y queso.
+@@ s322
+¿A qué hora quedan FINALMENTE?
+@@ s323
+A las siete
+@@ s324
+A las ocho
+@@ s325
+A las nueve
+@@ s326
+A las siete y media
+@@ s327
+«Zortzietan geratuko gara» — la nueva hora: las ocho. Las siete se cancelan.
+@@ s328
+¿Por qué cambia el plan?
+@@ s329
+Está enfermo
+@@ s330
+Su hermano sale tarde del trabajo
+@@ s331
+Llueve
+@@ s332
+Ha perdido el bus
+@@ s333
+«Nire anaia berandu aterako da lanetik» — su hermano sale tarde de trabajar.
+@@ s334
+¿Dónde quedan?
+@@ s335
+En la plaza vieja
+@@ s336
+En el bar
+@@ s337
+En la plaza nueva
+@@ s338
+En casa
+@@ s339
+«Plaza berrian, ez zaharrean» — en la plaza nueva, no en la vieja.
+@@ s340
+¿Qué tiempo va a hacer?
+@@ s341
+Sol
+@@ s342
+Nieve
+@@ s343
+Viento
+@@ s344
+Lluvia
+@@ s345
+«Euria egingo du» — va a llover (por eso eligen sitio con aterpe/cubierto).
+@@ s346
+Preséntate en <strong>6-8 frases</strong>: quién eres, de dónde y dónde vives, edad, trabajo/estudios, dos cosas de tu semana, algo de tu familia y algo que te gusta. Escríbelo ANTES de mirar el modelo.
+@@ s347
+Al menos 6 frases
+@@ s348
+naiz para presentarte (Ane naiz, iruindarra naiz…)
+@@ s349
+dut / ditut (lo que tienes o haces)
+@@ s350
+Al menos dos casos distintos: -rekin, -ra, -n de lugar
+@@ s351
+Todo en euskera (sin castellano)
+@@ s352
+El polideportivo te da una ficha. Rellénala <strong>en euskera</strong> con TUS datos:<br><em>Izen-abizenak · Adina · Herria · Telefonoa (letraz, ej. «bederatzi-lau-zortzi…») · Zein kirol gustatzen zaizu?</em>
+@@ s353
+Los cinco campos rellenos
+@@ s354
+La edad con «urte»
+@@ s355
+El teléfono en palabras (seis números-palabra o más)
+@@ s356
+Un deporte en euskera
+@@ s357
+Todo en euskera (sin castellano)
+@@ s358
+Un amigo te invita a comer el sábado en su casa (a la una, trae tú el postre). Contesta en <strong>4-6 frases</strong>: saluda, acepta o rechaza con motivo, pregunta algo y despídete. Escríbelo antes de mirar los modelos.
+@@ s359
+Saludo Y despedida (Kaixo… / agur, ondo izan, laster arte…)
+@@ s360
+El futuro -ko/-go (joango naiz, ekarriko dut…)
+@@ s361
+Una pregunta (con su «?»)
+@@ s362
+4 frases o más
+@@ s363
+Todo en euskera (sin castellano)
+@@ s364
+Describe TU día de trabajo o estudio en <strong>6-8 frases</strong>, con al menos: una hora exacta, un transporte, una comida y algo de la tarde.
+@@ s365
+Una hora (zazpietan, ordu batean…)
+@@ s366
+Presente habitual (-tzen dut / joaten naiz…)
+@@ s367
+Un transporte (oinez, autobusez, kotxez, bizikletaz…)
+@@ s368
+6 frases o más
+@@ s369
+Todo en euskera (sin castellano)
+@@ s370
+Estás de vacaciones. Escribe una postal de <strong>5-6 frases</strong> a un amigo: dónde estás, qué haces cada día, una cosa que HAS HECHO hoy, qué tiempo hace y cuándo vuelves.
+@@ s371
+Dónde estás: …-n nago / gaude (Donostian nago)
+@@ s372
+Lo de cada día en habitual (-tzen/-ten)
+@@ s373
+Algo de HOY en perfecto (ikusi dut, jan dugu…)
+@@ s374
+Cuándo vuelves, en futuro (itzuliko naiz…)
+@@ s375
+5 frases o más
+@@ s376
+Describe tu casa en <strong>6 frases</strong>: dónde vives, cuántas habitaciones tiene (zenbat logela), tu habitación favorita y por qué, qué hay en la cocina, y algo que NO hay.
+@@ s377
+dago / daude para lo que hay
+@@ s378
+Un número + cosa (hiru logela, bi komun…)
+@@ s379
+El -n de lugar (sukaldean, Iruñean…)
+@@ s380
+Algo que NO hay (ez dago / ez daukat / -rik)
+@@ s381
+6 frases o más
+@@ s382
+¿de dónde eres?
+@@ s383
+¿dónde vives?
+@@ s384
+¿cuántos años tienes?
+@@ s385
+¿en qué trabajas?
+@@ s386
+¿tienes hermanos?
+@@ s387
+enfermero/a
+@@ s388
+profesor/a
+@@ s389
+estudiante
+@@ s390
+casado/a
+@@ s391
+soltero/a
+@@ s392
+cerrado
+@@ s393
+abierto
+@@ s394
+gratis
+@@ s395
+al mes
+@@ s396
+traer
+@@ s397
+apuntarse / inscribirse
+@@ s398
+¿a qué hora?
+@@ s399
+a la una
+@@ s400
+levantarse
+@@ s401
+desayunar
+@@ s402
+comer (mediodía)
+@@ s403
+cenar
+@@ s404
+¿quieres venir?
+@@ s405
+llevar
+@@ s406
+el postre
+@@ s407
+no puedo ir
+@@ s408
+responder
+@@ s409
+pronto
+@@ s410
+¡pásalo bien!
+@@ s411
+¡buen provecho!
+@@ s412
+el mercado
+@@ s424
+22:00 en punto
+@@ s425
+12:00 mediodía

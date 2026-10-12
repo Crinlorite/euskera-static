@@ -1,0 +1,808 @@
+@@ s000
+Pamplonában lakunk = gu Iruñean bizi ___.
+@@ s001
+A bizi izan NOR-ral áll: ni bizi naiz, gu bizi gara.
+@@ s002
+Vannak testvéreid? = senide___ baduzu?
+@@ s003
+Partitív -rik kérdésekben: seniderik baduzu?, dirurik baduzu?
+@@ s004
+"Szeretem az almát" = …
+@@ s005
+Többes szám (sagarrak) → zaizkit. Soha nem dut/naiz a gustatzen mellett: a hiba, amelyet a vizsga nagyítóval keres.
+@@ s006
+Busszal megyek haza = etxe___ noa autobusez.
+@@ s007
+Adlatívusz -ra (-ba/-be, felé): etxera noa. Az eszközhatározós -z alakot (autobusez) készen kapod.
+@@ s008
+A strandról jövök = hondartza___ nator.
+@@ s009
+Ablatívusz -tik (-ból/-ből, -tól/-től): hondartzatik nator. A -ra párja: megyek VALAHOVÁ / jövök VALAHONNAN.
+@@ s010
+"A bátyámmal dolgozom" = …
+@@ s011
+Komitatívusz -rekin (-val/-vel): anaiarekin. A *-rentzat* azt jelentené: NEKI, az ő számára; a *-ren*: az övé; a *-ra*: felé (!).
+@@ s012
+Melyik a HELYES?
+@@ s013
+Számnév + PUSZTA főnév: hiru liburu (három könyv), névelő nélkül. És többes szám az igében: ditut.
+@@ s014
+"Fél négy van" = …
+@@ s015
+Hirurak eta erdiak dira. Az órák többes számban állnak: az ordu batA a kivétel (egyes szám).
+@@ s016
+Ez a könyv Anéé (birtoklás) = liburu hau Ane___ da.
+@@ s017
+Genitívusz -ren + névelő: Anerena (Anéé). Főnévvel: Aneren liburua.
+@@ s018
+Jól formált kérdés, amelyre a válasz "Okindegian erosten dut ogia":
+@@ s019
+-n végű válasz (okindegiAN, hely) → NON (hol) kérdés. Nora = hová (mozgás).
+@@ s020
+Tejes kávét kérek = kafea esne___ nahi dut.
+@@ s021
+Komitatívusz -e végű szóval: esne + arekin = esnearekin.
+@@ s022
+A piacra megyünk = merkatu___ goaz.
+@@ s023
+Adlatívusz -ra a goaz mellett: merkatura goaz.
+@@ s024
+"Nincs időm" = …
+@@ s025
+Ez daukat denborarik: tagadás + partitív. A naiz/nago nem jó a BIRTOKLÁSRA.
+@@ s026
+"Holnap kenyeret fogok venni" (A1-es jövő idő) = …
+@@ s027
+Bihar + erosiKO dut (a 13. egység -ko jövő ideje). Az "erosi dut" már megvettet jelentene; az "atzo" (tegnap) + jövő idő lehetetlen.
+@@ s028
+Mennyibe kerül a sajt? = zenbat ___ du gaztak?
+@@ s029
+Zenbat balio du? — az árkérdés. A NORK alakot (gaztaK) készen adja a mondat.
+@@ s030
+Az étteremben, udvarias kéréshez:
+@@ s031
+"Ura, mesedez" — a kért dolog + mesedez a tökéletes A1-es formula. Az első rideg parancs; a harmadik fordítva kérdez.
+@@ s032
+Tanulnom kell = ikasi ___ dut.
+@@ s033
+Behar dut = kell (nekem): ikasi behar dut, joan behar dut.
+@@ s034
+"Hol van a mosdó?" = …
+@@ s035
+Non dago…? — helymeghatározás az egon igével. Az 1. számú túlélő kérdés.
+@@ s036
+Rendezd sorba a mondatot: [gustatzen / kafea / zait / asko]
+@@ s037
+Kafea asko gustatzen zait — a semleges szórend: NOR + asko + gustatzen + NOR-NORI.
+@@ s038
+Hétfőnként baszkórára járok = astelehen___ euskara-klasera joaten naiz.
+@@ s039
+A napok szokásos többes számban: astelehenETAN (hétfőnként), ostiraletan (péntekenként).
+@@ s040
+A szöveg szerint honnan származik Ane?
+@@ s041
+Bilbaóból
+@@ s042
+Lekeitióból
+@@ s043
+Iruñeából
+@@ s044
+Donostiából
+@@ s045
+"Lekeitiarra naiz" — lekeitiói vagyok. Bilbaóban LAKIK (bizi naiz). Származás (nongoa) ≠ lakóhely (non bizi): az A1 sztár-megkülönböztetése.
+@@ s046
+Mikor dolgozik Ane?
+@@ s047
+Délelőtt
+@@ s048
+Délután
+@@ s049
+Éjjel
+@@ s050
+Csak hétvégén
+@@ s051
+"Gauez egiten dut lan" — éjjel dolgozom. Ezért alszik délelőtt.
+@@ s052
+Mit csinál Ane péntekenként?
+@@ s053
+Pilotázik
+@@ s054
+A baráti társaságával vacsorázik
+@@ s055
+Lekeitióba megy
+@@ s056
+Angolt tanul
+@@ s057
+"Ostiraletan kuadrillarekin afaltzen dut" — péntekenként a baráti társaságommal (kuadrilla) vacsorázom. A pilota kedden és csütörtökön van.
+@@ s058
+Hány éves a nővére?
+@@ s062
+Nem mondja meg
+@@ s063
+"Ahizpa bat daukat, 31 urtekoa". Ane 28 éves; a nővére 31. A vizsga MINDIG összekeveri az adatokat, hogy rajtakapjon.
+@@ s064
+Mit szeret nagyon Ane?
+@@ s065
+Az apja halételét
+@@ s066
+Az anyja tortilláját
+@@ s067
+A kikötői éttermet
+@@ s068
+A nővérével főzni
+@@ s069
+"Amaren tortilla asko gustatzen zait — munduko onena da!" — az anyja tortillája, a világ legjobbja.
+@@ s070
+Melyik napon van zárva a sportközpont?
+@@ s071
+Szombaton
+@@ s072
+Pénteken
+@@ s073
+Vasárnap
+@@ s074
+Soha nem zár be
+@@ s075
+"Igandeetan itxita" — vasárnaponként zárva. *Itxita* (zárva) ↔ *irekita* (nyitva).
+@@ s076
+Mennyit fizetnek a diákok havonta?
+@@ s077
+25 eurót
+@@ s078
+18 eurót
+@@ s079
+30 eurót
+@@ s080
+Ingyenes
+@@ s081
+"Ikasleak: 18 euro hilean". A 25 € a normál díj. Aki nyugodtan olvassa el az árakat, vizsgát nyer.
+@@ s082
+Kedden szeretnél úszni. Hány órakor mehetsz?
+@@ s083
+7:00-kor
+@@ s084
+22:30-kor
+@@ s085
+8:00-kor
+@@ s086
+Kedden nincs uszoda
+@@ s087
+Uszoda "astelehenetik ostiralera, 8:00-21:00" — a kedd beletartozik a "hétfőtől péntekig" időszakba; 8:00-kor igen, 7-kor még nem, 22:30-kor már nem.
+@@ s088
+Mit kell vinni a beiratkozáshoz?
+@@ s089
+A személyi igazolványt és egy fényképet
+@@ s090
+Csak pénzt
+@@ s091
+A fürdőruhát
+@@ s092
+Semmit
+@@ s093
+"NANa eta argazki bat ekarri" — hozd a személyi igazolványt és egy fényképet. *Ekarri* = hozni.
+@@ s094
+Ki NEM fizet semmit?
+@@ s095
+A diákok
+@@ s096
+A 65 év felettiek
+@@ s097
+A gyerekek
+@@ s098
+A helybeliek
+@@ s099
+"65 urtetik gorakoak: doan!" — a 65 év felettieknek ingyen. *Doan* = ingyen, aranyat érő szó bármelyik plakáton.
+@@ s100
+Miért írja Jon az üzenetet?
+@@ s101
+Hogy pénzt kérjen
+@@ s102
+Hogy meghívjon szombati ebédre
+@@ s103
+Hogy lemondjon egy találkozót
+@@ s104
+Hogy elkérje a házi feladatot
+@@ s105
+"Larunbatean gure etxean bazkalduko dugu… etorri nahi duzu?" — meghívás szombati ebédre.
+@@ s106
+Hány órakor találkoznak?
+@@ s107
+Fél kettőkor
+@@ s108
+Kettőkor
+@@ s109
+Tizenkettőkor
+@@ s110
+Egykor
+@@ s111
+"Ordu batean gure etxean" — egykor. A "fél kettő" *ordu bat eta erdietan* lenne.
+@@ s112
+Mit hoz Jon családja?
+@@ s113
+A desszertet
+@@ s114
+A paellát, a bort és a kenyeret
+@@ s115
+Csak a házat
+@@ s116
+Semmit, mindent Miren hoz
+@@ s117
+Az anya készíti a paellát, és "ardoa eta ogia guk jarriko ditugu". Mirentől csak a desszertet kérik.
+@@ s118
+Mit kell Mirennek "laster" megtennie?
+@@ s119
+Szombaton korán megérkezni
+@@ s120
+Hamar válaszolni az üzenetre
+@@ s121
+Hamar elkészíteni a paellát
+@@ s122
+Hamar megvenni a bort
+@@ s123
+"Erantzun laster, mesedez" — válaszolj hamar. *Erantzun* = válaszolni; *laster* = hamarosan.
+@@ s124
+Hány órakor kel Miren munkanapokon?
+@@ s125
+8:30-kor
+@@ s126
+7:00-kor
+@@ s127
+6:30-kor
+@@ s128
+9:00-kor
+@@ s129
+"Seiak eta erdietan jaikitzen naiz" — fél hétkor. A 8:30 a hétvégéé.
+@@ s130
+Hogyan jár Miren munkába?
+@@ s131
+Autóval
+@@ s132
+Gyalog, és ha esik, busszal
+@@ s133
+Mindig busszal
+@@ s134
+Biciklivel
+@@ s135
+"Oinez joaten naiz lanera; euria egiten badu, autobusez" — gyalog; ha esik, busszal.
+@@ s136
+Mit csinál Miren vacsora után?
+@@ s137
+Sorozatot néz és olvas
+@@ s138
+Baszkul tanul
+@@ s139
+Elmegy a barátaival
+@@ s140
+Dolgozik még egy kicsit
+@@ s141
+"Afaldu eta gero, telesail bat ikusten dut eta pixka bat irakurtzen dut" — sorozat és egy kis olvasás.
+@@ s142
+Szombat délelőttönként Miren…
+@@ s143
+Dolgozik
+@@ s144
+Délig alszik
+@@ s145
+Az anyjával piacra megy
+@@ s146
+Pilotázik
+@@ s147
+"Larunbat goizetan amarekin merkatura joaten naiz" — piacra az anyjával.
+@@ s148
+Mennyibe kerül a pénteki koncert?
+@@ s149
+10 euró
+@@ s150
+Ingyenes
+@@ s151
+5 euró
+@@ s152
+Nem mondja meg
+@@ s153
+"22:00etan kontzertua (doan)" — *doan* = ingyen. Ha egy baszk plakát tetszik, szinte biztos, hogy az áll rajta: *doan*.
+@@ s154
+Hol lesz a szombati közös ebéd?
+@@ s155
+A téren
+@@ s156
+A frontonban
+@@ s157
+A kocsmában
+@@ s158
+A sportközpontban
+@@ s159
+"Herri-bazkaria frontoian" — a frontonban (frontoiAN, a helyhatározói -n).
+@@ s160
+Ha esik, hol lesznek a koncertek?
+@@ s161
+Elmaradnak
+@@ s162
+A frontonban
+@@ s163
+A sportközpontban
+@@ s164
+A templomban
+@@ s165
+"Euria egiten badu, kontzertuak kiroldegian" — ha esik, a kiroldegiben (sportközpont). *Badu* = ha (alapvető feltételes mód, amelyet az A1-en olvasni kell, de még nem alkotni).
+@@ s166
+Mi lesz vasárnap délelőtt?
+@@ s171
+"Igandea: 11:00etan mendi-martxa" — hegyi túra. A tűzijáték (su artifizialak) este van.
+@@ s172
+Hol lehet jegyet venni?
+@@ s173
+Csak az interneten
+@@ s174
+A falu kocsmájában vagy a weboldalon
+@@ s175
+A városházán
+@@ s176
+A téren
+@@ s177
+"Txartelak: herriko tabernan edo webgunean" — *edo* = vagy. *Txartela* = belépőjegy/jegy/kártya.
+@@ s178
+Hol van Maite és Ander?
+@@ s179
+Bilbaóban
+@@ s180
+Donostiában, a strand mellett
+@@ s181
+Lekeitióban
+@@ s182
+A nagymamánál
+@@ s183
+"Donostian gaude, hondartza ondoko hotel txiki batean" — *ondoko* = valami melletti.
+@@ s184
+Mit csinálnak délelőttönként?
+@@ s185
+Sétálnak az óvárosban
+@@ s186
+Strandra mennek
+@@ s187
+Megnézik az Aquariumot
+@@ s188
+Pintxót esznek
+@@ s189
+"Goizetan hondartzara joaten gara" — az óváros délután van soron. Szándékosan keverik a napszakokat.
+@@ s190
+Mit csináltak ma?
+@@ s191
+Hazamentek
+@@ s192
+Kirándultak a hegyekbe
+@@ s193
+Megnézték az Aquariumot
+@@ s194
+Ajándékokat vettek
+@@ s195
+"Gaur goizean Aquariuma ikusi dugu" — közelmúlt (ikusi dugu): ami MA történt.
+@@ s196
+Mikor mennek haza?
+@@ s197
+Vasárnap
+@@ s198
+Holnap
+@@ s199
+Pénteken
+@@ s200
+Nem mondják meg
+@@ s201
+"Ostiralean etxera itzuliko gara" — -ko jövő idő: pénteken MEGYÜNK haza.
+@@ s202
+Mit kér Jon inni?
+@@ s203
+Egy teát
+@@ s204
+Egy tejeskávét
+@@ s205
+Egy feketekávét
+@@ s206
+Egy gyümölcslevet
+@@ s207
+«Kafe bat esnearekin» — tejeskávé (esnea + -arekin).
+@@ s208
+Mit kér enni?
+@@ s209
+Egy pirítóst
+@@ s210
+Egy pintxót
+@@ s211
+Egy croissant-t
+@@ s212
+Semmit
+@@ s213
+«Kruasan bat» — egy croissant.
+@@ s214
+Mennyibe kerül összesen?
+@@ s219
+«Hiru euro eta berrogeita hamar» — három euró ötven.
+@@ s220
+Mennyivel fizet Jon?
+@@ s221
+Pontosan 3,50-nel
+@@ s222
+5 euróval
+@@ s223
+4 euróval
+@@ s224
+Kártyával
+@@ s225
+«Hartu, lau euro» — tessék, négy euró. A visszajáró: 50 cent.
+@@ s226
+Hogy van Mikel?
+@@ s227
+Nagyon jól
+@@ s228
+Fáradt
+@@ s229
+Megvan
+@@ s230
+Nem mondja meg
+@@ s231
+«Oso ondo» — nagyon jól.
+@@ s232
+Hová megy Mikel?
+@@ s233
+Baszkórára
+@@ s234
+Dolgozni
+@@ s235
+Haza
+@@ s236
+A bárba
+@@ s237
+«Lanera noa» — dolgozni megyek.
+@@ s238
+Hol dolgozik Mikel?
+@@ s239
+Egy iskolában
+@@ s240
+Egy kórházban
+@@ s241
+Egy irodában, Bilbaóban
+@@ s242
+Egy boltban
+@@ s243
+«Bulego batean egiten dut lan, Bilbon» — egy irodában, Bilbaóban.
+@@ s244
+Mikor jár Ane baszkórára?
+@@ s245
+Minden nap
+@@ s246
+Hétfőnként
+@@ s247
+Minden kedden
+@@ s248
+Hétvégente
+@@ s249
+«Asteartero» — minden kedden (astearte + -ro).
+@@ s250
+Hová megy a vonat?
+@@ s251
+Bilbaóba
+@@ s252
+Donostiába
+@@ s253
+Iruñeába
+@@ s254
+Gasteizbe
+@@ s255
+«Donostiara doan trena» — a Donostiába tartó vonat.
+@@ s256
+Melyik vágányról indul?
+@@ s257
+A másodikról
+@@ s258
+Az elsőről
+@@ s259
+A negyedikről
+@@ s260
+A hatodikról
+@@ s261
+«Laugarren bidetik» — a negyedik vágányról (lau → laugarren).
+@@ s262
+Hány órakor indul?
+@@ s263
+Fél hétkor
+@@ s264
+Hatkor
+@@ s265
+Fél nyolckor
+@@ s266
+Negyed hétkor
+@@ s267
+«Seiak eta erdietan» — fél hétkor.
+@@ s268
+Mi van a vonattal?
+@@ s269
+Törölték
+@@ s270
+10 percet késik
+@@ s271
+Korábban indul
+@@ s272
+Vágányt vált
+@@ s273
+«Hamar minutuko atzerapena du» — tíz percet késik.
+@@ s274
+Mi van ma akcióban?
+@@ s275
+A narancs
+@@ s276
+Az alma
+@@ s277
+A kenyér
+@@ s278
+A tej
+@@ s279
+«Sagarrak eskaintzan daude» — az alma akciós.
+@@ s280
+Mennyibe kerül egy kiló?
+@@ s281
+Két euró
+@@ s282
+Egy euró
+@@ s283
+Másfél euró
+@@ s284
+Ötven cent
+@@ s285
+«Kiloa euro batean» — a kilója egy euró.
+@@ s286
+Hol van a gyümölcsrészleg?
+@@ s287
+A bejáratnál
+@@ s288
+Az alagsorban
+@@ s289
+A második emeleten
+@@ s290
+A pénztár mellett
+@@ s291
+«Bigarren solairuan» — a második emeleten.
+@@ s292
+Hány órakor zár a bolt?
+@@ s293
+Hétkor
+@@ s294
+Kilenckor
+@@ s295
+Fél kilenckor
+@@ s296
+Nyolckor
+@@ s297
+«Zortzietan itxiko dugu» — nyolckor zárunk.
+@@ s298
+Ki hagyja az üzenetet?
+@@ s299
+Az apa
+@@ s300
+A nagyapa
+@@ s301
+Egy barát
+@@ s302
+A tanár
+@@ s303
+«Aitona naiz» — a nagyapa vagyok.
+@@ s304
+Mikor jön?
+@@ s305
+Ma délután
+@@ s306
+Vasárnap
+@@ s307
+Holnap délben
+@@ s308
+Holnap este
+@@ s309
+«Bihar… eguerdian» — holnap délben.
+@@ s310
+Milyen programot javasol?
+@@ s311
+Közös vacsorát
+@@ s312
+Kirándulást a hegyekbe
+@@ s313
+Közös ebédet
+@@ s314
+Egy meccs megnézését
+@@ s315
+«Elkarrekin bazkalduko dugu» — együtt ebédelünk (bazkaldu = ebédelni).
+@@ s316
+Mit kell venni?
+@@ s317
+Kenyeret és sajtot
+@@ s318
+Bort és kenyeret
+@@ s319
+Gyümölcsöt
+@@ s320
+Halat
+@@ s321
+«Erosi ogia eta gazta» — vegyél kenyeret és sajtot.
+@@ s322
+Hány órakor találkoznak VÉGÜL?
+@@ s323
+Hétkor
+@@ s324
+Nyolckor
+@@ s325
+Kilenckor
+@@ s326
+Fél nyolckor
+@@ s327
+«Zortzietan geratuko gara» — az új időpont: nyolc óra. A hét óra elmarad.
+@@ s328
+Miért változik a program?
+@@ s329
+Beteg
+@@ s330
+A bátyja későn végez a munkában
+@@ s331
+Esik az eső
+@@ s332
+Lekéste a buszt
+@@ s333
+«Nire anaia berandu aterako da lanetik» — a bátyja későn jön ki a munkából.
+@@ s334
+Hol találkoznak?
+@@ s335
+A régi téren
+@@ s336
+A bárban
+@@ s337
+Az új téren
+@@ s338
+Otthon
+@@ s339
+«Plaza berrian, ez zaharrean» — az új téren, nem a régin.
+@@ s340
+Milyen idő lesz?
+@@ s341
+Napsütés
+@@ s342
+Hó
+@@ s343
+Szél
+@@ s344
+Eső
+@@ s345
+«Euria egingo du» — esni fog (ezért választanak fedett helyet, aterpét).
+@@ s346
+Mutatkozz be <strong>6-8 mondatban</strong>: ki vagy, honnan származol és hol laksz, hány éves vagy, munka/tanulmányok, két dolog a hetedből, valami a családodról és valami, amit szeretsz. Írd meg, MIELŐTT megnézed a mintát.
+@@ s347
+Legalább 6 mondat
+@@ s348
+naiz a bemutatkozáshoz (Ane naiz, iruindarra naiz…)
+@@ s349
+dut / ditut (ami van neked, vagy amit csinálsz)
+@@ s350
+Legalább két különböző eset: -rekin, -ra, helyhatározói -n
+@@ s351
+Minden baszkul (semmilyen más nyelv)
+@@ s352
+A sportközpont ad egy adatlapot. Töltsd ki <strong>baszkul</strong> a SAJÁT adataiddal:<br><em>Izen-abizenak · Adina · Herria · Telefonoa (letraz, pl. «bederatzi-lau-zortzi…») · Zein kirol gustatzen zaizu?</em>
+@@ s353
+Mind az öt mező kitöltve
+@@ s354
+Az életkor «urte»-vel
+@@ s355
+A telefonszám betűvel (hat vagy több szám-szó)
+@@ s356
+Egy sport baszkul
+@@ s357
+Minden baszkul (semmilyen más nyelv)
+@@ s358
+Egy barátod meghív szombati ebédre magához (egykor, a desszertet te hozod). Válaszolj <strong>4-6 mondatban</strong>: köszönj, fogadd el vagy utasítsd el indoklással, kérdezz valamit, és köszönj el. Írd meg, mielőtt megnézed a mintákat.
+@@ s359
+Köszönés ÉS elköszönés (Kaixo… / agur, ondo izan, laster arte…)
+@@ s360
+A -ko/-go jövő idő (joango naiz, ekarriko dut…)
+@@ s361
+Egy kérdés (a «?» jellel)
+@@ s362
+4 vagy több mondat
+@@ s363
+Minden baszkul (semmilyen más nyelv)
+@@ s364
+Írd le a SAJÁT munka- vagy tanulónapodat <strong>6-8 mondatban</strong>, legalább ezekkel: egy pontos időpont, egy közlekedési eszköz, egy étkezés és valami a délutánból.
+@@ s365
+Egy időpont (zazpietan, ordu batean…)
+@@ s366
+Szokásos jelen idő (-tzen dut / joaten naiz…)
+@@ s367
+Egy közlekedési eszköz (oinez, autobusez, kotxez, bizikletaz…)
+@@ s368
+6 vagy több mondat
+@@ s369
+Minden baszkul (semmilyen más nyelv)
+@@ s370
+Szabadságon vagy. Írj egy <strong>5-6 mondatos</strong> képeslapot egy barátodnak: hol vagy, mit csinálsz minden nap, egy dolog, amit ma CSINÁLTÁL, milyen az idő, és mikor jössz haza.
+@@ s371
+Hol vagy: …-n nago / gaude (Donostian nago)
+@@ s372
+A mindennapi dolgok szokásos jelen időben (-tzen/-ten)
+@@ s373
+Valami a MAI napról befejezett múltban (ikusi dut, jan dugu…)
+@@ s374
+Mikor jössz haza, jövő időben (itzuliko naiz…)
+@@ s375
+5 vagy több mondat
+@@ s376
+Írd le a lakásodat <strong>6 mondatban</strong>: hol laksz, hány szobája van (zenbat logela), a kedvenc szobád és miért, mi van a konyhában, és valami, ami NINCS.
+@@ s377
+dago / daude arra, ami van
+@@ s378
+Egy szám + dolog (hiru logela, bi komun…)
+@@ s379
+A helyhatározói -n (sukaldean, Iruñean…)
+@@ s380
+Valami, ami NINCS (ez dago / ez daukat / -rik)
+@@ s381
+6 vagy több mondat
+@@ s382
+honnan származol?
+@@ s383
+hol laksz?
+@@ s384
+hány éves vagy?
+@@ s385
+mi a foglalkozásod?
+@@ s386
+vannak testvéreid?
+@@ s387
+ápoló
+@@ s388
+tanár
+@@ s389
+diák
+@@ s390
+házas
+@@ s391
+egyedülálló
+@@ s392
+zárva
+@@ s393
+nyitva
+@@ s394
+ingyen
+@@ s395
+havonta
+@@ s396
+hozni
+@@ s397
+beiratkozni / jelentkezni
+@@ s398
+hány órakor?
+@@ s399
+egykor
+@@ s400
+felkelni
+@@ s401
+reggelizni
+@@ s402
+ebédelni
+@@ s403
+vacsorázni
+@@ s404
+eljössz?
+@@ s405
+vinni
+@@ s406
+a desszert
+@@ s407
+nem tudok elmenni
+@@ s408
+válaszolni
+@@ s409
+hamarosan
+@@ s410
+jó szórakozást!
+@@ s411
+jó étvágyat!
+@@ s412
+a piac
+@@ s424
+22:00 pontban
+@@ s425
+12:00 dél
