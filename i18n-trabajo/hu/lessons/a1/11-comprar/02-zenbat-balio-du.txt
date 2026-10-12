@@ -1,0 +1,93 @@
+@@ title
+Árakra kérdezni (Zenbat balio du?)
+@@ x0.prompt
+Hogyan kérdezel rá egy termék árára?
+@@ x0.explanation
+A "Zenbat balio du?" szó szerint "mennyit ér?". A közvetlenebb "Zenbat da?" is használatos.
+@@ x1.prompt
+A "Kiloa zortzi eurotan dago" jelentése…
+@@ x1.explanation
+"X eurotan dago" — "X euróba kerül" (az üzletben aktuális ár).
+@@ x1.opt0
+A kilója nyolc euró
+@@ x1.opt1
+A kilós kiárusítva
+@@ x1.opt2
+Nyolc kilót nyom
+@@ x1.opt3
+Nyolc eurom van
+@@ x2.prompt
+"Mennyi lesz?" (fizetéskor) baszkul = ___ da?
+@@ x2.explanation
+A *Zenbat da?* a rövid és nagyon gyakori formula a "mennyi lesz?" kérdésre a vásárlás végén.
+@@ x3.prompt
+"A kilója 5 euró" = Kiloa bost ___ dago.
+@@ x3.explanation
+Az "X euróba kerül" árakhoz a többes számú inesszívuszt használjuk: *eurotan* ("eurókban").
+@@ x4.card0
+Mennyibe kerül?
+@@ x4.card1
+Mennyi lesz? (fizetéskor)
+@@ x4.card2
+Mennyi a kilója?
+@@ x4.card3
+A kilója 10 euró
+@@ x4.card4
+X euróba kerül
+@@ x4.card5
+drága
+@@ x4.card6
+olcsó
+@@ x4.card7
+Drága
+@@ x4.card8
+Olcsó
+@@ x4.card9
+kártya
+@@ x4.card10
+Fizethetek kártyával?
+@@ x4.card11
+pénz
+@@ x4.card12
+visszajáró
+@@ body
+
+A bevásárláshoz tudni kell rákérdezni az árra, és megérteni a választ. Baszkul két alapkérdés van, attól függően, hogy egy terméket nézel-e a pultnál, vagy már fizetni szeretnél.
+
+## A két kulcskérdés
+
+| Euskera | Magyar | Mikor |
+|---|---|---|
+| *Zenbat balio du?* | Mennyibe kerül? | egy konkrét terméket nézve |
+| *Zenbat da?* | Mennyi lesz? | a végén, fizetéskor |
+| *Zenbatean dago kiloa?* | Mennyi a kilója? | egységárra kérdezve |
+
+A `Zenbat` jelentése "mennyi/hány". A *Balio* jelentése "érni (valamennyit)". A *Du* az *ukan* ige "van neki" alakja.
+
+## Válasz az árral
+
+Két gyakori szerkezet van:
+
+- **X euro balio du** — X euróba kerül.
+   - *Botilak lau euro balio du.* → Az üveg 4 euróba kerül.
+- **Kiloa X eurotan dago** — A kilója X euró.
+   - *Kiloa hamar eurotan dago.* → A kilója 10 euró.
+
+> Az *Eurotan* jelentése "eurókban" (többes számú inesszívusz). A hétköznapi beszédben az is nagyon gyakori, hogy egyszerűen ige nélkül mondják: "*Hamar euro*".
+
+## Ha drágának vagy olcsónak találod
+
+- **Garestia da** — Drága.
+- **Merkea da** — Olcsó.
+- **Hau garestia da!** — Ez drága!
+- **Merkeak ere ez!** — Olcsók sem! (szó szerint: "még olcsók sem")
+
+## Fizetés és a visszajáró
+
+- **Zenbat da dena?** — Mennyi lesz összesen?
+- **Tori!** — Tessék! (a pénz átadásakor, nagyon gyakori)
+- **Txartelaz ordain dezaket?** — Fizethetek kártyával?
+- **Hemen daukazu kanbioa.** — Tessék, a visszajáró.
+
+> **Kulturális megjegyzés:** sok kis környékbeli boltban még mindig a készpénzes fizetés a megszokott, ezért a *txartelaz ordain dezaket?* hasznos kérdés, amikor először lépsz be.
+

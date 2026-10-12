@@ -1,0 +1,135 @@
+@@ title
+Пазаруване (обобщителен урок)
+@@ x0.prompt
+В магазина за плодове и зеленчуци си. Как поискваш половин килограм ябълки?
+@@ x0.explanation
+Модел количество + продукт без член: **kilo erdi sagar** (половин килограм ябълки).
+@@ x1.prompt
+"Няма хляб" се казва…
+@@ x1.explanation
+При отрицание + неопределено допълнение се използва партитивът *-rik*: **ogi-rik**.
+@@ x2.prompt
+"Колко е всичко?" = Zenbat da ___?
+@@ x2.explanation
+*Dena* означава "всичко".
+@@ x3.prompt
+За да попиташ дали имат даден продукт: "Имате ли мляко?" = Esne___ ba(d)aukazue?
+@@ x3.explanation
+Въпрос за наличие с неопределено допълнение = партитив **-rik** (esne**rik**).
+@@ x4.card0
+списък за пазаруване
+@@ x4.card1
+Какво ни трябва?
+@@ x4.card2
+Няма хляб
+@@ x4.card3
+Имате ли мляко?
+@@ x4.card4
+Да, има
+@@ x4.card5
+Не, няма
+@@ x4.card6
+Отивам да пазарувам
+@@ x4.card7
+зеленчуци
+@@ x4.card8
+плодове
+@@ x4.card9
+месо
+@@ x4.card10
+риба
+@@ x4.card11
+мляко
+@@ x4.card12
+хляб
+@@ x4.card13
+яйца
+@@ x5.pair0
+месарница
+@@ x5.pair1
+пекарна
+@@ x5.pair2
+рибарски магазин
+@@ x5.pair3
+Колко е?
+@@ x5.pair4
+Ще го взема
+@@ x5.pair5
+Нещо друго?
+@@ body
+
+Този урок обобщава наученото в раздела. Ще съставим **списък за пазаруване**, ще разпределим продуктите по магазини и ще изиграем мини диалог.
+
+## Списъкът за пазаруване (erosketa-zerrenda)
+
+Преди да излезем, поглеждаме в хладилника (*hozkailua*) и в шкафа (*armairua*). Каквото липсва, го записваме. Някои типични продукти:
+
+| Категория | Продукти |
+|---|---|
+| **Barazkiak** (зеленчуци) | tipula, letxuga, tomatea, piperra, baratxuria |
+| **Frutak** (плодове) | sagarra, banana, laranja, mahatsa, marrubia |
+| **Haragia** (месо) | oilaskoa, txuleta, urdaiazpikoa, txorizoa |
+| **Arraina** (риба) | legatza, antxoak, ganbak, bakailaoa |
+| **Esnekiak** (млечни продукти) | esnea, gazta, jogurta, gurina |
+| **Bestelakoak** (други) | ogia, arrautzak, olioa, ozpina, gatza |
+
+## Как да питаш дали има нещо (с `-rik`)
+
+За да попиташ дали в един магазин има даден продукт, използвай **партитива `-rik`**:
+
+- *Ogi**rik** baduzu?* — Имаш ли хляб?
+- *Sagar**rik** ba al duzue?* — Имате ли ябълки?
+- *Esne**rik** behar dugu.* — Трябва ни мляко.
+
+А за да кажеш, че НЯМА:
+
+- *Ez dago ogi**rik**.* — Няма хляб.
+- *Ez daukat sagar**rik**.* — Нямам ябълки.
+
+> Партитивът `-rik` се използва винаги с неопределени количества и при отрицание. Продуктът е във форма без член (*ogi**rik***, а не *ogiarik*).
+
+## Разпределяне на покупките между магазините
+
+Типичен разговор при планиране:
+
+> — *Non erosiko dugu ogia?* — Къде ще купим хляба?
+>
+> — *Okindegian, jakina!* — В пекарната, разбира се!
+>
+> — *Eta arraina?* — А рибата?
+>
+> — *Auzoko arrandegian.* — В кварталния рибарски магазин.
+>
+> — *Frutak eta barazkiak?* — А плодовете и зеленчуците?
+>
+> — *Plazan, beti bezala.* — На пазара, както винаги.
+
+## Мини диалог в магазина за плодове и зеленчуци
+
+> **Frutaria:** *Egun on! Zer nahi duzu?*
+>
+> **Bezeroa:** *Egun on! Kilo bat sagar eta hiru banana, mesedez.*
+>
+> **F:** *Bai, hemen daukazu. Besterik?*
+>
+> **B:** *Bai, kilo erdi tomate ere bai.*
+>
+> **F:** *Tira, hemen.*
+>
+> **B:** *Zenbat da dena?*
+>
+> **F:** *Bost euro eta hogei zentimo.*
+>
+> **B:** *Tori! Eskerrik asko!*
+>
+> **F:** *Zuri! Agur!*
+
+## За преговор
+
+1. **Количество + продукт:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
+2. **Учтива молба:** *Jarriko al didazu...?* / *Eman..., mesedez*.
+3. **Приключване на покупката:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
+4. **Отрицание с продукт:** *Ez dago ...rik* (с партитив).
+
+> **Културна бележка:** много семейства правят "дневното" пазаруване в кварталните магазини (fruta-denda, harategia) и ходят в супермаркета само за пакетираните продукти. Тази смесица от места за пазаруване е много обичайна и особено се усеща в събота сутрин във всяко село.
+
