@@ -1,0 +1,127 @@
+@@ title
+Mit csináltál ma? — a közelmúlt
+@@ x0.prompt
+A "Zer egin duzu gaur?" jelentése…
+@@ x0.explanation
+Az "Egin" a "csinálni" ige partizipiója; a "duzu" az ukan alakja a "te" személyhez. Együtt = "csináltál".
+@@ x0.opt0
+Mit csinálsz minden nap?
+@@ x0.opt1
+Mit csináltál ma?
+@@ x0.opt2
+Mit fogsz csinálni holnap?
+@@ x0.opt3
+Hány óra van?
+@@ x1.prompt
+Hasonlítsd össze: "egunero gosaltzen dut" és "gaur gosaldu dut". Mi a különbség?
+@@ x1.explanation
+Ez a kulcs: a partizipio + segédige -tzen NÉLKÜL közelmúlt. A -tzen végződéssel szokásos cselekvés.
+@@ x1.opt0
+Az első jelen idő, a második jövő idő
+@@ x1.opt1
+Az első szokásos cselekvés (minden nap reggelizem), a második közelmúlt (ma reggeliztem)
+@@ x1.opt2
+A második nem helyes
+@@ x1.opt3
+A kettő ugyanazt jelenti
+@@ x2.prompt
+Ettem = jan ___ (segédige az "én + tárgy" esetre).
+@@ x2.explanation
+A "Jan" (enni) tárgyas ige: az ukan segédigével áll. "Én" → *dut*. Eredmény: *jan dut* (ettem).
+@@ x3.prompt
+Elmentem = joan ___ (segédige az "én" esetre, tárgy nélkül).
+@@ x3.explanation
+A "Joan" (menni) tárgyatlan ige: az izan segédigével áll. "Én" → *naiz*. Eredmény: *joan naiz* (elmentem).
+@@ x4.card0
+Mit csináltál ma?
+@@ x4.card1
+Mit csinált Mikel?
+@@ x4.card2
+Mit csináltatok ma?
+@@ x4.card3
+ma
+@@ x4.card4
+ma reggel
+@@ x4.card5
+ma délután
+@@ x4.card6
+partizipio (az ige alakja: jan, edan, joan, ikusi)
+@@ x4.card7
+ettem
+@@ x4.card8
+elmentem
+@@ x4.card9
+láttam
+@@ x4.card10
+eljöttem
+@@ x4.card11
+reggeliztem
+@@ x4.card12
+felébredtem
+@@ body
+
+Baszkul ahhoz, hogy elmondd, mit csináltál nemrég — főleg ma —, az **orainaldi burutua** (szó szerint "befejezett jelen") alakot használjuk, amely a magyar múlt időnek felel meg (*ettem / elmentem*). Ezt nevezzük **közelmúltnak**.
+
+## A formula nagyon egyszerű
+
+> **Partizipioa + segédige (izan vagy ukan)**
+
+Az előző egységben látott szokásos cselekvéshez képest csak annyi változik, hogy az ige **-tzen / -ten nélkül** áll:
+
+| Szokásos | Közelmúlt | Magyar |
+|---|---|---|
+| *gosaltzen dut* | **gosaldu dut** | reggelizem → reggeliztem |
+| *jaten dut* | **jan dut** | eszem → ettem |
+| *joaten naiz* | **joan naiz** | megyek → elmentem |
+| *etortzen naiz* | **etorri naiz** | jövök → eljöttem |
+| *ikusten dut* | **ikusi dut** | látok → láttam |
+
+> **Ez ugyanaz a különbség, mint a magyarban** a szokást kifejező jelen idő és a múlt idő között:
+>
+> - *Egunero euskaltegira **joaten naiz**.* — Minden nap az euskaltegibe járok.
+> - *Gaur goizean euskaltegira **joan naiz**.* — Ma reggel elmentem az euskaltegibe.
+
+## A legtermészetesebb kérdés
+
+> *— **Zer egin duzu gaur?*** — Mit csináltál ma?
+>
+> *— Lan egin dut, eta gero zinera joan naiz.* — Dolgoztam, aztán elmentem moziba.
+
+Figyeld meg a két alakot: **lan egin dut** (*dut*, mert a "dolgozni" baszkul tárgyas) és **joan naiz** (*naiz*, mert a "menni" tárgyatlan).
+
+## A két segédige — gyors ismétlés
+
+### Az izan igével (NOR) — naiz / zara / da / gara / zarete / dira
+
+| Névmás | Segédige | Példa |
+|---|---|---|
+| ni (én) | naiz | *joan **naiz*** (elmentem) |
+| zu (te) | zara | *etorri **zara*** (eljöttél) |
+| hura (ő) | da | *esnatu **da*** (felébredt) |
+| gu (mi) | gara | *joan **gara*** (elmentünk) |
+| zuek (ti) | zarete | *etorri **zarete*** (eljöttetek) |
+| haiek (ők) | dira | *joan **dira*** (elmentek) |
+
+### Az ukan igével (NOR-NORK) — dut / duzu / du / dugu / duzue / dute
+
+| Névmás | Segédige | Példa |
+|---|---|---|
+| nik (én) | dut | *jan **dut*** (ettem) |
+| zuk (te) | duzu | *ikusi **duzu*** (láttál) |
+| hark (ő) | du | *erosi **du*** (vett) |
+| guk (mi) | dugu | *egin **dugu*** (csináltunk) |
+| zuek (ti) | duzue | *jan **duzue*** (ettetek) |
+| haiek (ők) | dute | *ikusi **dute*** (láttak) |
+
+## Mini-beszélgetés
+
+> *— Kaixo Maialen! Zer moduz?*
+>
+> *— Ondo. Eta zu? **Zer egin duzu gaur?***
+>
+> *— Lan egin dut goizean, eta arratsaldean lagun batekin kafea hartu dut.*
+>
+> *— Polita. Ni gaur ez naiz lanera joan, gaixo egon naiz.*
+
+> **Kiinduló összefoglaló:** az egész trükk abban áll, hogy tudd, melyik ige melyik segédigét használja (ezt a következő két leckében látjuk), és a partizipiót a *-tzen/-ten* szokásos jel nélkül hagyd.
+
