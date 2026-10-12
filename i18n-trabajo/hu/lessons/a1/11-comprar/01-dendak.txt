@@ -1,0 +1,100 @@
+@@ title
+Bolttípusok (dendak)
+@@ x0.pair0
+hentesüzlet
+@@ x0.pair1
+pékség
+@@ x0.pair2
+halbolt
+@@ x0.pair3
+zöldséges, gyümölcsös
+@@ x0.pair4
+szupermarket
+@@ x0.pair5
+bankautomata
+@@ x1.prompt
+Hol veszel kenyeret?
+@@ x1.explanation
+Az "Okindegia" az *ogi* (kenyér) szóból jön; a *-degi* toldalék jelentése "hely, ahol … van".
+@@ x2.prompt
+Legatzát (tőkehalat) szeretnél venni. Melyik boltba mész?
+@@ x2.explanation
+Az *Arrandegia* az *arrain* (hal) szóból jön. A *-ra* toldalék a célt jelöli: "a halboltba megyek".
+@@ x3.prompt
+A hentesüzlet = ___ (teljes szó, egyes számban, névelővel).
+@@ x3.explanation
+A *haragi* (hús) + *-tegi* (hely, a *-degi* változata) + *-a* (névelő) szavakból.
+@@ x4.card0
+bolt (általában)
+@@ x4.card1
+hentesüzlet
+@@ x4.card2
+pékség
+@@ x4.card3
+halbolt
+@@ x4.card4
+zöldséges, gyümölcsös
+@@ x4.card5
+szupermarket
+@@ x4.card6
+hipermarket
+@@ x4.card7
+piac
+@@ x4.card8
+piactér (szabadtéri piac)
+@@ x4.card9
+bankautomata
+@@ x4.card10
+bank
+@@ x4.card11
+posta
+@@ x4.card12
+dohánybolt, trafik
+@@ x4.card13
+könyvesbolt
+@@ body
+
+Ha Euskal Herriában bevásárolni mész, minden terméknek általában megvan a maga szaküzlete, főleg a falvakban és a városnegyedekben. Ha megtanulod a neveket, könnyebben eligazodsz, és a feliratokat is megérted.
+
+## Élelmiszerboltok
+
+| Euskera | Magyar | Mit árulnak |
+|---|---|---|
+| *harategia* | hentesüzlet | haragia (hús) |
+| *okindegia* | pékség | ogia (kenyér) |
+| *arrandegia* | halbolt | arraina (hal) |
+| *fruta-denda* | zöldséges, gyümölcsös | frutak, barazkiak |
+| *supermerkatua* | szupermarket | mindent |
+| *hipermerkatua* | hipermarket | nagy áruházak |
+| *azoka* / *plaza* | piac / piactér | különféle standok |
+
+## A rejtett nyom: *-degi*
+
+Sok bolt neve **-degi** végződésű; ez egy régi toldalék, jelentése "hely, ahol … van":
+
+- *ogi* (kenyér) → **okindegia** (pékség)
+- *haragi* (hús) → **harategia** (hentesüzlet)
+- *arrain* (hal) → **arrandegia** (halbolt)
+- *gozo* (édes) → **gozotegia** (cukrászda)
+
+> Ha rájössz a *-degi* mintára, más boltokat is felismersz, még ha korábban nem is láttad őket.
+
+## Más hasznos helyek
+
+| Euskera | Magyar |
+|---|---|
+| *kutxazain automatikoa* | bankautomata |
+| *banketxea* | bank |
+| *postetxea* | posta |
+| *tabako-denda* | dohánybolt, trafik |
+
+## Megmondani, hová mész
+
+Ha boltba mész, a **NORA** esetet használd, `-ra` toldalékkal (cél):
+
+- *Okindegi**ra** noa.* — A pékségbe megyek.
+- *Harategi**ra** joango naiz.* — Elmegyek a hentesüzletbe.
+- *Fruta-denda**ra** joaten naiz astero.* — Minden héten elmegyek a zöldségeshez.
+
+> **Kulturális megjegyzés:** sok család még mindig megosztva vásárol: a halat a környékbeli *arrandegiában*, a kenyeret az *okindegiában*, és csak a többit a szupermarketben. Gyakran hallani rutinszerű kifejezésként: "*okindegira noa*".
+
