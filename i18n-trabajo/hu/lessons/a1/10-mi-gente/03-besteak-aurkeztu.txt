@@ -1,0 +1,120 @@
+@@ title
+Valaki más bemutatása — Hau X da
+@@ x0.prompt
+Hogyan mutatod be azt, aki melletted áll? "Ő a barátnőm"
+@@ x0.explanation
+A bemutatáshoz a "hau" (ez) mutató névmást + az alanyt + a "da" (egyes szám harmadik személy) alakot használod.
+@@ x1.prompt
+Ő a szomszédom = ___ nire bizilaguna da.
+@@ x1.explanation
+A "Bera" vagy a "hura" jelentése baszkul "ő". A "Bera" a hétköznapi beszédben gyakoribb.
+@@ x2.prompt
+A "Bera nire lankidea da" jelentése...
+@@ x2.explanation
+"Bera" = ő, "lankidea" = munkatárs, "da" = (ő) az.
+@@ x2.opt0
+Én vagyok a munkatársa
+@@ x2.opt1
+Te vagy a munkatársam
+@@ x2.opt2
+Ő a munkatársam
+@@ x2.opt3
+Van egy munkatársunk
+@@ x3.pair0
+ez (közel)
+@@ x3.pair1
+az (közepes távolságban)
+@@ x3.pair2
+amaz
+@@ x3.pair3
+ő
+@@ x3.pair4
+ők
+@@ x3.pair5
+Ki ez?
+@@ x4.card0
+Ki ez?
+@@ x4.card1
+Ő a barátnőm.
+@@ x4.card2
+Ő Egoitz.
+@@ x4.card3
+Ő a szomszédom.
+@@ x4.card4
+Ő ápoló.
+@@ x4.card5
+Ők a munkatársaim.
+@@ x4.card6
+Örülök, hogy megismerhetlek.
+@@ x4.card7
+De rég nem láttalak!
+@@ x4.card8
+Ismered őt?
+@@ body
+
+Eddig megtanultál magadról (*Ni X naiz*) és a beszélgetőtársadról (*Zu X zara*) beszélni. Ebben a leckében hozzáteszed a hiányzó darabot: **beszélni valaki másról**, bemutatni, megmondani, ki ő és mit csinál.
+
+## A mutató névmások
+
+Baszkul a közelségnek három szintje van, három mutató névmással. Állandóan használni fogod őket, amikor bemutatsz valakit.
+
+| Mutató névmás | Távolság | Magyar |
+|---|---|---|
+| **hau** | közel hozzám | ez |
+| **hori** | közel hozzád | az (nálad) |
+| **hura** | mindkettőnktől távol | amaz |
+
+És többes számuk:
+
+| Többes szám | Magyar |
+|---|---|
+| **hauek** | ezek |
+| **horiek** | azok (nálad) |
+| **haiek** | amazok |
+
+## Valaki bemutatása a "Hau ... da" szerkezettel
+
+Az alapformula:
+
+> **Hau** + név/kapcsolat + **da**.
+
+| Mondat | Magyar |
+|---|---|
+| *Hau Maialen da.* | Ő Maialen. |
+| *Hau nire laguna da.* | Ő a barátnőm. |
+| *Hau nire bizilaguna da.* | Ő a szomszédom. |
+| *Hauek nire lankideak dira.* | Ők a munkatársaim. |
+
+> Figyeld meg: egy személyre a **da**, többre a **dira** alakot használod. Ez az *izan* már ismert ragozása, harmadik személyben.
+
+## Hura és bera
+
+Ha már bemutattál valakit, vagy olyasvalakiről beszélsz, aki nincs jelen, a **hura** (sztenderd alak) vagy a **bera** (hétköznapi, sokkal gyakoribb alak) névmást használod.
+
+| Mondat | Magyar |
+|---|---|
+| *Bera Maialen da.* | Ő Maialen. |
+| *Bera nire bizilaguna da.* | Ő a szomszédom. |
+| *Bera medikua da.* | Ő orvos. |
+
+> A baszk névmásokban **nincs nemek szerinti megkülönböztetés** — akárcsak a magyarban: a *bera* férfira és nőre is vonatkozik. Ezt a szövegkörnyezet vagy a név teszi egyértelművé.
+
+## Mindent együtt
+
+Nézd meg ezt a tipikus bemutatást, amely gyakori az órán vagy új szomszédokkal való első ismerkedéskor:
+
+> — *Kaixo, **hau Maite da**. **Bera** Bilbokoa da, baina orain hemen bizi da. **Bera** kazetaria da.*
+>
+> — *Pozten naiz zu ezagutzeaz, Maite!*
+>
+> — *Baita ni ere!*
+
+## Tagadás: ez NEM…
+
+Ahogy az *izan* igénél már tudod, a tagadás az ige elé kerül:
+
+- *Hau **ez da** Egoitz.* — Ő nem Egoitz.
+- *Bera **ez da** mediku, irakaslea da.* — Ő nem orvos, hanem tanár.
+
+> **Trükk:** hogy ne keveredj bele a sorrendbe, ne feledd: tagadásban az **ez mindig közvetlenül a ragozott ige előtt áll**: *ez da*, *ez naiz*, *ez gara*.
+
