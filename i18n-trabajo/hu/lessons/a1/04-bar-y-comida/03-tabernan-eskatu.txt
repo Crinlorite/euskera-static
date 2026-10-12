@@ -1,0 +1,135 @@
+@@ title
+Rendelés a bárban (Tabernan eskatu)
+@@ x0.prompt
+A "Mesedez" jelentése…
+@@ x0.explanation
+A *mesedez* jelentése "kérem/kérlek". Az *Eskerrik asko* jelentése "köszönöm".
+@@ x0.opt0
+köszönöm
+@@ x0.opt1
+kérem
+@@ x0.opt2
+bocsánat
+@@ x0.opt3
+szia
+@@ x1.prompt
+Egy kávét szeretnél rendelni. Mi a természetes formula?
+@@ x1.explanation
+*Kafe bat, mesedez* — "Egy kávét kérek". A főnév elveszíti az `-a` végződést a *bat* mellett.
+@@ x2.prompt
+"Egy cortadót kérek (fogok kérni)" = Ebakia ___ ___.
+@@ x2.explanation
+*hartuko dut* = "kérni fogok, azt kérem" (szó szerint "venni fogok"). Nagyon gyakori módja a rendelésnek.
+@@ x3.prompt
+"Kérsz kávét?" = ___ ___ kafea?
+@@ x3.explanation
+*nahi duzu* = "akarsz, kérsz". Az ajánlás alapmintája.
+@@ x4.card0
+kérem
+@@ x4.card1
+köszönöm szépen
+@@ x4.card2
+szívesen
+@@ x4.card3
+Mit kérsz?
+@@ x4.card4
+Kérsz kávét?
+@@ x4.card5
+Egy kávét kérek
+@@ x4.card6
+…-t kérek (fogok kérni)
+@@ x4.card7
+Nekem…
+@@ x4.card8
+Még egyet kérek
+@@ x4.card9
+Elnézést! (a pincér hívása)
+@@ x4.card10
+jó (az íze)
+@@ x4.card11
+finom, ízletes
+@@ x5.pair0
+kérem
+@@ x5.pair1
+köszönöm szépen
+@@ x5.pair2
+szívesen
+@@ x5.pair3
+Kérsz…?
+@@ x5.pair4
+Azt kérem
+@@ x5.pair5
+Elnézést!
+@@ x5.pair6
+Nekem
+@@ x5.pair7
+jó
+@@ body
+
+A bárban rendelés az egyik leghasznosabb dolog, amit baszkul el tudsz majd mondani. Az alapformula nagyon egyszerű: amit kérsz + **bat** (egy) + **mesedez** (kérem). Ennyi.
+
+## A minimális formula
+
+> *Kafe bat, mesedez.* — Egy kávét kérek.
+
+Ez a helyzetek 80%-át megoldja. Két dologra figyelj:
+
+1. A főnév elveszíti a végső `-a` hangot, ha a **bat** szóval áll: *kafea* → *kafe bat*.
+2. A **mesedez** a végére kerül, egy kis szünettel elválasztva.
+
+| Mit kérsz | Baszkul |
+|---|---|
+| Egy kávét | *Kafe bat, mesedez.* |
+| Egy kis sört | *Zurito bat, mesedez.* |
+| Egy vizet | *Ur bat, mesedez.* |
+| Egy vörösbort | *Ardo gorri bat, mesedez.* |
+| Egy almabort | *Sagardo bat, mesedez.* |
+
+## Változatok igékkel
+
+Hogy kicsit természetesebben és kevésbé "robotosan" hangozzál, más, ugyanilyen helyes megoldások is vannak:
+
+- **Hartuko dut...** — *…-t kérek* (szó szerint: "venni fogok"). Nagyon gyakori.
+  - *Ebakia hartuko dut.* — Egy cortadót kérek.
+  - *Garagardo bat hartuko dut.* — Egy sört kérek.
+- **Niretzat...** — *Nekem...* (amikor többen rendeltek).
+  - *Niretzat kafe hutsa, mesedez.* — Nekem egy fekete kávét kérek.
+- **Nahi dut...** — *Akarok...* (közvetlenebb, bizonyos helyzetekben nyersnek hathat; jobb a *hartuko dut*).
+
+## Ajánlani és elfogadni
+
+Amikor valaki megkínál valamivel:
+
+- **Nahi duzu kafea?** — Kérsz kávét?
+- **Bai, mesedez.** — Igen, kérek.
+- **Ez, eskerrik asko.** — Nem, köszönöm.
+- **Beste bat?** — Még egyet?
+- **Bai, beste bat hartuko dut.** — Igen, kérek még egyet.
+
+## A pincér hívása
+
+Baszkul a figyelemfelhívásra szolgáló tipikus "elnézést / bocsánat" az **Aizu!** (közvetlen és nagyon gyakori) vagy a **Mesedez!** (valamivel udvariasabb):
+
+> *Aizu, ebakia mesedez!* — Elnézést, egy cortadót kérek!
+
+## Véleményezés és köszönet
+
+- *Oso ona dago.* — Nagyon jó.
+- *Goxoa da.* — Finom / ízletes.
+- *Eskerrik asko!* — Köszönöm szépen!
+- *Ez horregatik.* — Szívesen.
+
+## Mini-párbeszéd a bárban
+
+> — *Kaixo! Zer nahi duzu?* — Szia, mit kérsz?
+>
+> — *Kafesnea hartuko dut, mesedez.* — Egy tejeskávét kérek.
+>
+> — *Eta jateko? Ogitarteko bat?* — És enni? Egy szendvicset?
+>
+> — *Ez, eskerrik asko. Kafea bakarrik.* — Nem, köszönöm. Csak a kávét.
+>
+> — *Ederki!* — Nagyszerű!
+
+> **Kulturális megjegyzés:** egy baszk tabernában az a megszokott, hogy a pultnál rendelsz, állva iszol és hangosan beszélsz. A *mesedez* és az *eskerrik asko* alapvető, de nem kötelező minden mondatban — nem számít udvariatlannak egy szűkszavú "*ebakia*", ha a hangnem szívélyes.
+
