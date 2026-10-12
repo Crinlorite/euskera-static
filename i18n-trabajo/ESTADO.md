@@ -14,10 +14,10 @@ Traducción A MANO por la sesión Kaixo (el usuario pidió expresamente: nada de
 
 ## Hecho
 - UI (`ui/ui.txt`, 330 claves) hu+bg · niveles A1/A2 + 23 unidades hu+bg
-- Lecciones A1: unidades 01-07 hu+bg
+- Lecciones A1: unidades 01-08 hu+bg
 
 ## Pendiente
-- Lecciones A1 08-13, A2 01-10 (hu+bg)
+- Lecciones A1 09-13, A2 01-10 (hu+bg)
 - `scripts/seed_i18n/{hu,bg}.json` (banco de simulacros; plantilla = es.json)
 - Diccionarios en línea: mas-apps.mjs, migrar.astro, [level]/index.astro, simulakroa.astro, mintzamena.astro
   (Jolas: EXCLUIR hu/bg hasta que acabe la medición, la página está congelada)
