@@ -66,6 +66,8 @@ Está lloviendo (ahora)
 Lloverá (previsión)
 @@ x6.pair2
 Saldrá el sol
+@@ x6.pair3
+Hace viento
 @@ x6.pair4
 Hace mucho frío
 @@ x6.pair5

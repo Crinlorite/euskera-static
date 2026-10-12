@@ -50,6 +50,22 @@ mal
 ¿Cómo estás?
 @@ x4.card16
 ¿Qué tal estás?
+@@ x5.pair0
+contento
+@@ x5.pair1
+triste
+@@ x5.pair2
+cansado
+@@ x5.pair3
+enfadado
+@@ x5.pair4
+enfermo
+@@ x5.pair5
+bien
+@@ x5.pair6
+mal
+@@ x5.pair7
+tranquilo (ahora)
 @@ body
 
 En euskera hay dos verbos donde en castellano usamos uno solo. Ya conoces **izan** ("ser/estar" para cualidades). Ahora toca **egon**, que se traduce como "estar" cuando hablamos de **estados pasajeros**: cómo está alguien hoy, ahora mismo, en este momento.

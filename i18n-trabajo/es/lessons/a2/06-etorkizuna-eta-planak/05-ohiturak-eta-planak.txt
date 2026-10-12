@@ -68,10 +68,14 @@ cada año
 HÁBITO: voy / suelo ir
 @@ x6.pair1
 FUTURO: iré
+@@ x6.pair2
+PASADO puntual: fui
 @@ x6.pair3
 PASADO hábito: iba
 @@ x6.pair4
 PASADO hábito: solía ir
+@@ x6.pair5
+AHORA: estoy yendo
 @@ body
 
 Última lección de la unidad — y cierre de un ciclo enorme: con el futuro ya en el bolsillo, **dominas los tres tiempos**. Esta lección añade la guinda (*ohi*, el "soler" euskaldun) y te hace mover una misma idea por pasado, presente-hábito y futuro. Esto es, exactamente, lo que un tribunal de A2 quiere oír.

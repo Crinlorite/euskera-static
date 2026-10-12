@@ -42,6 +42,14 @@ Tengo reunión a las diez
 la semana que viene
 @@ x5.pair1
 el fin de semana
+@@ x5.pair2
+mañana
+@@ x5.pair3
+pasado mañana
+@@ x5.pair4
+esta tarde
+@@ x5.pair5
+estoy libre
 @@ body
 
 Lección final de la unidad: vamos a montar **una semana entera** uniendo todo lo aprendido. Días, futuros, citas, marcadores de cuándo... el lenguaje de planificar.

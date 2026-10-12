@@ -54,6 +54,18 @@ con barba
 con bigote
 @@ x4.card18
 calvo
+@@ x5.pair0
+pelo negro
+@@ x5.pair1
+pelo rubio
+@@ x5.pair2
+pelo corto
+@@ x5.pair3
+pelo largo
+@@ x5.pair4
+ojos azules
+@@ x5.pair5
+ojos marrones
 @@ x5.pair6
 con barba
 @@ x5.pair7

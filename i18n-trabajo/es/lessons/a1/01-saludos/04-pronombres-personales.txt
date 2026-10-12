@@ -1,9 +1,17 @@
 @@ title
 Pronombres personales
+@@ x0.pair0
+yo
 @@ x0.pair1
 tú/usted
 @@ x0.pair2
 él/ella
+@@ x0.pair3
+nosotros
+@@ x0.pair4
+vosotros
+@@ x0.pair5
+ellos/ellas
 @@ x1.prompt
 Gu lagunak ___ (somos).
 @@ x1.explanation

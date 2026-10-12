@@ -1,7 +1,17 @@
 @@ title
 Posiciones espaciales (delante, detrás, al lado…)
+@@ x0.pair0
+delante
 @@ x0.pair1
 detrás
+@@ x0.pair2
+al lado
+@@ x0.pair3
+encima
+@@ x0.pair4
+debajo
+@@ x0.pair5
+entre
 @@ x0.pair6
 a la izquierda
 @@ x0.pair7

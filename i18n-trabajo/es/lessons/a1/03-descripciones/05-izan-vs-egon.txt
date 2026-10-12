@@ -46,6 +46,8 @@ es alegre (siempre)
 está contento (ahora)
 @@ x6.pair2
 soy nerviosa (carácter)
+@@ x6.pair3
+estoy nerviosa (ahora)
 @@ x6.pair4
 es bueno (cualidad)
 @@ x6.pair5

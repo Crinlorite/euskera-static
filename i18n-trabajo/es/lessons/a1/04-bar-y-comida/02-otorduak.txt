@@ -50,10 +50,20 @@ cenar
 tengo hambre
 @@ x4.card12
 tengo sed
+@@ x5.pair0
+desayuno
 @@ x5.pair1
 almuerzo de media mañana
 @@ x5.pair2
 comida del mediodía
+@@ x5.pair3
+merienda
+@@ x5.pair4
+cena
+@@ x5.pair5
+comer
+@@ x5.pair6
+beber
 @@ body
 
 Cada comida del día tiene su nombre en euskera, y conocerlos te ayudará a hablar de tu rutina diaria. Hay además una comida específicamente vasca que en castellano no tiene equivalente directo: el **hamaiketako**.

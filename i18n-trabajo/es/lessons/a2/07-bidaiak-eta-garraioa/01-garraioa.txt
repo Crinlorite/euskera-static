@@ -52,10 +52,18 @@ coger el tren
 perder el tren
 @@ x4.card13
 la dirección / el rumbo
+@@ x5.pair0
+en tren
 @@ x5.pair1
 en autobús
 @@ x5.pair2
 en avión
+@@ x5.pair3
+en coche
+@@ x5.pair4
+andando
+@@ x5.pair5
+en bici
 @@ body
 
 Empieza la unidad viajera. Primera parada: **los medios de transporte** y los verbos para usarlos. Con el instrumental *-z* que ya conoces del A1, decir "en tren" o "en bici" es un sufijo.

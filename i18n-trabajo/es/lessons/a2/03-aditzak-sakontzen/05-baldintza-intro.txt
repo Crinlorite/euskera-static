@@ -54,10 +54,16 @@ compraría (yo)
 iríamos
 @@ x3.card12
 tendrían
+@@ x4.pair0
+Si mañana llueve
+@@ x4.pair1
+Si tuviera tiempo
 @@ x4.pair2
 Lo compraría
 @@ x4.pair3
 Iría
+@@ x4.pair4
+Si yo fuera rico
 @@ x4.pair5
 Si tuviéramos
 @@ body

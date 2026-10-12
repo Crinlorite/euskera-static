@@ -44,8 +44,22 @@ anchoa
 Para mí, un pincho
 @@ x4.card13
 Tomaremos una ración
+@@ x5.pair0
+pincho
+@@ x5.pair1
+bocadillo
+@@ x5.pair2
+plato combinado
 @@ x5.pair3
 ración
+@@ x5.pair4
+chorizo
+@@ x5.pair5
+txistorra
+@@ x5.pair6
+queso
+@@ x5.pair7
+tortilla
 @@ body
 
 La gran cultura del bar vasco gira en torno a tres formatos principales: el **pintxo** (pequeño, de barra), el **ogitarteko** (bocadillo) y el **plater konbinatua** (plato combinado). Conocer cómo pedir variantes te permite comer en cualquier sitio.

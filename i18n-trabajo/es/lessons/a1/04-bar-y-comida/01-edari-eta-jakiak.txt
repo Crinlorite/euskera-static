@@ -66,6 +66,16 @@ tortilla
 café
 @@ x5.pair1
 café con leche
+@@ x5.pair2
+agua
+@@ x5.pair3
+vino tinto
+@@ x5.pair4
+cerveza
+@@ x5.pair5
+sidra
+@@ x5.pair6
+zumo
 @@ x5.pair7
 té
 @@ body

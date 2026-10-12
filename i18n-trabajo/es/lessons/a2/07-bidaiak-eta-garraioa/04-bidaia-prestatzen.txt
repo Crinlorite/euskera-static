@@ -56,6 +56,12 @@ el plan de viaje
 el destino
 @@ x5.card13
 el presupuesto
+@@ x6.pair0
+Elegir destino
+@@ x6.pair1
+Comprar billetes
+@@ x6.pair2
+Reservar alojamiento
 @@ x6.pair3
 Hacer la maleta
 @@ x6.pair4

@@ -1,7 +1,17 @@
 @@ title
 Lanbideak — Profesiones (ampliación)
+@@ x0.pair0
+profesor/a
+@@ x0.pair1
+estudiante
 @@ x0.pair2
 médico/a
+@@ x0.pair3
+enfermero/a
+@@ x0.pair4
+cocinero/a
+@@ x0.pair5
+periodista
 @@ x1.prompt
 ¿Quién es un "polizia"?
 @@ x1.explanation

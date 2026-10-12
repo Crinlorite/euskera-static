@@ -1,5 +1,13 @@
 @@ title
 Las tareas domésticas
+@@ x0.pair0
+limpiar
+@@ x0.pair1
+preparar
+@@ x0.pair2
+recoger
+@@ x0.pair3
+planchar
 @@ x0.pair4
 hacer la compra
 @@ x0.pair5

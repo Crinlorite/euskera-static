@@ -54,8 +54,14 @@ el zorro
 el buitre
 @@ x5.pair0
 ladra y pasea
+@@ x5.pair1
+duerme 16 horas
+@@ x5.pair2
+da leche
 @@ x5.pair3
 da lana y queso
+@@ x5.pair4
+canta al amanecer
 @@ x5.pair5
 destroza el maizal
 @@ body

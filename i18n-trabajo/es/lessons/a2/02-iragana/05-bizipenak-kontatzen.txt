@@ -46,6 +46,8 @@ casarse
 nací
 @@ x4.pair1
 se casó
+@@ x4.pair2
+viajaron
 @@ x4.pair3
 conocí
 @@ x4.pair4

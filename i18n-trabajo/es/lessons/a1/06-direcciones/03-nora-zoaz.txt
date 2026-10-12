@@ -74,10 +74,14 @@ a comer
 a estudiar
 @@ x7.pair0
 ¿Adónde vas?
+@@ x7.pair1
+Voy a casa
 @@ x7.pair2
 Voy a la escuela
 @@ x7.pair3
 ¿A qué vas?
+@@ x7.pair4
+A comprar
 @@ body
 
 El **caso NORA** (también llamado *adlativo*) marca **el destino** de un movimiento: hacia dónde vas. En castellano se traduce normalmente con la preposición **"a"** ("voy *a* casa", "*a* Bilbao", "*al* parque").

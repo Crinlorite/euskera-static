@@ -56,6 +56,14 @@ intentar
 No fumes
 @@ x5.pair1
 No bebas mucho
+@@ x5.pair2
+Toma fruta
+@@ x5.pair3
+Haz deporte
+@@ x5.pair4
+Duerme bien
+@@ x5.pair5
+Intenta estar tranquilo
 @@ body
 
 Esta lección integra los tres temas de la unidad: damos **consejos**, prohibiciones y recomendaciones para una vida sana. Vas a aprender el **imperativo negativo** y un puñado de fórmulas A2 muy productivas para opinar sobre lo que conviene hacer.

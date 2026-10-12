@@ -52,6 +52,10 @@ enviar
 recibir
 @@ x4.card13
 firmar
+@@ x5.pair0
+Sacar dinero
+@@ x5.pair1
+Ingresar dinero
 @@ x5.pair2
 Hacer una transferencia
 @@ x5.pair3

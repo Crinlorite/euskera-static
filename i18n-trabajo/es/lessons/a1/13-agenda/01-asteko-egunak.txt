@@ -48,10 +48,20 @@ el fin de semana
 todos los lunes
 @@ x4.card11
 cada día / todos los días
+@@ x5.pair0
+lunes
+@@ x5.pair1
+martes
 @@ x5.pair2
 miércoles
+@@ x5.pair3
+jueves
+@@ x5.pair4
+viernes
 @@ x5.pair5
 sábado
+@@ x5.pair6
+domingo
 @@ body
 
 Antes de hablar de planes y agenda, repasamos los días de la semana y aprendemos a asociarlos con las actividades cotidianas.

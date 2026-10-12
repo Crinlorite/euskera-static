@@ -1,9 +1,19 @@
 @@ title
 Transportes (oinez, autobusez, trenez…)
+@@ x0.pair0
+a pie
+@@ x0.pair1
+en coche
 @@ x0.pair2
 en autobús
+@@ x0.pair3
+en tren
+@@ x0.pair4
+en bicicleta
 @@ x0.pair5
 en avión
+@@ x0.pair6
+en barco
 @@ x1.prompt
 ¿Cómo se dice "Voy en autobús"?
 @@ x1.explanation

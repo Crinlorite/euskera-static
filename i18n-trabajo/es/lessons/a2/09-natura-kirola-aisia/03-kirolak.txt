@@ -52,6 +52,18 @@ ganar
 perder
 @@ x4.card13
 entrenar
+@@ x5.pair0
+pilota
+@@ x5.pair1
+igeriketa
+@@ x5.pair2
+arrauna (traineras)
+@@ x5.pair3
+txirrindularitza
+@@ x5.pair4
+futbola
+@@ x5.pair5
+mendi-ibilia
 @@ body
 
 Segunda parada de la unidad: **el deporte** — el de hacer y el de ver. Y en Euskal Herria eso incluye deportes que no verás en ningún otro sitio del mundo.

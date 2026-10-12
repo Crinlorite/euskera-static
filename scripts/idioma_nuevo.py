@@ -108,14 +108,16 @@ def seg_leccion(fm: dict, body: str) -> dict:
             seg[f"x{i}.explanation"] = ex["explanation"]
         if ex.get("hint"):
             seg[f"x{i}.hint"] = ex["hint"]
-        if ex.get("type") == "multiple-choice" and any(is_vehicular(o) for o in ex["options"]):
+        # Todas las opciones y parejas: la heurística de translate_wave dejaba sin
+        # traducir castellano sin tildes («Hola»). Las que están en euskera las
+        # fija el oráculo (segmento idéntico en todas las traducciones revisadas).
+        if ex.get("type") == "multiple-choice":
             for j, o in enumerate(ex["options"]):
                 seg[f"x{i}.opt{j}"] = o
         for j, c in enumerate(ex.get("cards") or []):
             seg[f"x{i}.card{j}"] = c["es"]
         for j, p in enumerate(ex.get("pairs") or []):
-            if is_vehicular(p["es"]):
-                seg[f"x{i}.pair{j}"] = p["es"]
+            seg[f"x{i}.pair{j}"] = p["es"]
     seg["body"] = body
     return seg
 
@@ -212,6 +214,13 @@ def intocables(tipo, f_es, seg_es: dict, f_dest) -> dict[str, list[str]]:
             continue
     out = {}
     for k, v in seg_es.items():
+        # segmento entero que ninguna traducción revisada cambió (p. ej. un
+        # enunciado de hueco en euskera, «Ni Egoitz ___.») → se copia tal cual
+        # (las parejas no: su lado `es` es SIEMPRE la traducción, y en los 17
+        # idiomas quedan ~288 sin traducir, así que el oráculo ahí miente)
+        if ".pair" not in k and segs_or and all(s.get(k) == v for s in segs_or):
+            out[k] = [v]
+            continue
         frs = fragmentos(v)
         if not frs or not segs_or:
             continue
@@ -220,6 +229,20 @@ def intocables(tipo, f_es, seg_es: dict, f_dest) -> dict[str, list[str]]:
         if keep:
             out[k] = keep
     return out
+
+
+def copias_enteras(tipo, f_es, seg_es, f_dest) -> set[str]:
+    """Claves cuyo segmento ninguna traducción revisada cambió: se copian del es."""
+    return {k for k, frs in intocables(tipo, f_es, seg_es, f_dest).items() if frs == [seg_es[k]]}
+
+
+def con_copias(loc, tipo, rel, f_es, f_dest) -> dict:
+    """Traducción + segmentos copiados del es (la plantilla no los pide)."""
+    seg_es = segmentos_de(tipo, f_es)
+    tr = load_seg(trabajo(loc, tipo, rel).read_text(encoding="utf-8"))
+    for k in copias_enteras(tipo, f_es, seg_es, f_dest):
+        tr.setdefault(k, seg_es[k])
+    return tr
 
 
 # ── comprobaciones estructurales ──
@@ -245,7 +268,7 @@ def validar_item(loc, tipo, rel, f_es, f_dest) -> list[str]:
         return ["(sin traducir)"]
     seg_es = segmentos_de(tipo, f_es)
     try:
-        tr = load_seg(p.read_text(encoding="utf-8"))
+        tr = con_copias(loc, tipo, rel, f_es, f_dest)
     except Exception as e:  # noqa: BLE001
         return [f"no se puede leer: {e}"]
     errs = []
@@ -284,10 +307,12 @@ def validar_item(loc, tipo, rel, f_es, f_dest) -> list[str]:
 
 def cmd_extraer():
     n = 0
-    for tipo, rel, f, _ in inventario():
+    for tipo, rel, f, dest in inventario():
         p = trabajo("es", tipo, rel)
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(dump_seg(segmentos_de(tipo, f)), encoding="utf-8")
+        seg = segmentos_de(tipo, f)
+        fijos = copias_enteras(tipo, f, seg, dest)
+        p.write_text(dump_seg({k: v for k, v in seg.items() if k not in fijos}), encoding="utf-8")
         n += 1
     print(f"extraídos {n} ficheros en {TRABAJO / 'es'}")
 
@@ -328,7 +353,7 @@ def cmd_aplicar(loc):
         if duros:
             print(f"✗ {tipo}/{rel}: no se aplica ({len(duros)} errores)")
             continue
-        tr = load_seg(p.read_text(encoding="utf-8"))
+        tr = con_copias(loc, tipo, rel, f, dest)
         tr.pop("_ok", None)
         out = dest(loc)
         out.parent.mkdir(parents=True, exist_ok=True)

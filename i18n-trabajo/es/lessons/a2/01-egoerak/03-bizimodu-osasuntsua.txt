@@ -68,10 +68,18 @@ el barrio
 las fiestas
 @@ x3.card19
 voluntariado
+@@ x4.pair0
+papel
 @@ x4.pair1
 plástico
+@@ x4.pair2
+vidrio
 @@ x4.pair3
 orgánico
+@@ x4.pair4
+pila
+@@ x4.pair5
+aceite
 @@ body
 
 Hablar de **estilo de vida** y **medio ambiente** es un bloque clásico del A2: se mezcla vocabulario nuevo con frases de obligación y consejo (*behar dugu*, *komeni da*, *garrantzitsua da*) que ya manejas desde A1.

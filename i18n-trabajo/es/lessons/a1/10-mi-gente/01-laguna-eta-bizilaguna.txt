@@ -1,9 +1,15 @@
 @@ title
 Laguna, bizilaguna y otras relaciones
+@@ x0.pair0
+amigo/a
+@@ x0.pair1
+vecino/a
 @@ x0.pair2
 compañero/a de clase
 @@ x0.pair3
 compañero/a de trabajo
+@@ x0.pair4
+conocido/a
 @@ x0.pair5
 cuadrilla / grupo de amigos
 @@ x1.prompt

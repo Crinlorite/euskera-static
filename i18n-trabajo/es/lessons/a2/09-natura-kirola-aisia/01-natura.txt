@@ -60,12 +60,16 @@ la flor
 el sendero
 @@ x4.card13
 el paisaje
+@@ x5.pair0
+subir al monte
 @@ x5.pair1
 llegar a la cumbre
 @@ x5.pair2
 andar por el bosque
 @@ x5.pair3
 bañarse en el río
+@@ x5.pair4
+estar mirando al mar
 @@ x5.pair5
 sacar la foto
 @@ body

@@ -72,6 +72,18 @@ el jardín
 la terraza
 @@ x3.card21
 el garaje
+@@ x4.pair0
+camisa
+@@ x4.pair1
+pantalones
+@@ x4.pair2
+vestido
+@@ x4.pair3
+jersey
+@@ x4.pair4
+zapatos
+@@ x4.pair5
+abrigo
 @@ body
 
 En A1 viste el vocabulario básico de **ropa** y **casa**. En A2 amplías a registros más concretos: **tallas, probador, complementos**, y a la **vivienda como espacio social** (alquiler, propietario, barrio, jardín).

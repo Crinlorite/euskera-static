@@ -22,8 +22,16 @@ Mis vecinos son simpáticos = Nire bizilagunak ___ dira.
 "Atseginak" o "jatorrak" son los dos adjetivos más usados para "simpáticos/agradables" en plural.
 @@ x3.pair0
 simpático/a (cercano)
+@@ x3.pair1
+agradable
+@@ x3.pair2
+alegre
+@@ x3.pair3
+tranquilo/a
 @@ x3.pair4
 charlatán/a
+@@ x3.pair5
+ruidoso/a
 @@ x4.card0
 mi vecino/a
 @@ x4.card1

@@ -54,10 +54,18 @@ Que vaya bien
 Muchas gracias
 @@ x3.card12
 De nada
+@@ x4.pair0
+Hola
 @@ x4.pair1
 Adiós
 @@ x4.pair2
 Buenos días
+@@ x4.pair3
+Buenas noches
+@@ x4.pair4
+Hasta luego
+@@ x4.pair5
+Muchas gracias
 @@ body
 
 En euskera, los saludos cambian según el momento del día. La fórmula universal y la más común es **Kaixo**, que se usa a cualquier hora con casi cualquier persona — igual que el "hola" en castellano. **Hepa** o **Aupa** son alternativas aún más informales, sobre todo entre gente joven y amigos.

@@ -1,0 +1,68 @@
+@@ title
+Személyes névmások
+@@ x0.pair0
+én
+@@ x0.pair1
+te/ön
+@@ x0.pair2
+ő
+@@ x0.pair3
+mi
+@@ x0.pair4
+ti
+@@ x0.pair5
+ők
+@@ x1.prompt
+Gu lagunak ___ (vagyunk).
+@@ x1.explanation
+A "mi" személyhez az "izan" ige alakja "gara".
+@@ x2.prompt
+Mi a "lenni" ige alakja a "ti" személyhez?
+@@ x2.explanation
+Ti = zuek; az ige alakja "zarete".
+@@ x3.prompt
+Hogyan mondod: "Én nem vagyok diák"?
+@@ x3.explanation
+Baszkul a tagadás sorrendje: ALANY + ez + IGE + állítmány.
+@@ body
+
+A baszk sztenderd nyelvben (*euskara batua*) hét személyes névmás van:
+
+| Névmás | Ki | Az "izan" ige (NOR) |
+|---|---|---|
+| **ni** | én | naiz |
+| **hi** | te (bizalmas/közeli) | haiz |
+| **zu** | te (sztenderd) | zara |
+| **hura** / **bera** | ő | da |
+| **gu** | mi | gara |
+| **zuek** | ti | zarete |
+| **haiek** | ők | dira |
+
+> Nemek szerinti megkülönböztetés nincs: a *hura* férfira és nőre is vonatkozik, a *haiek* pedig férfiak és nők csoportjára is. **Bera** — a *hura* nagyon gyakori változata a mindennapi beszédben.
+
+## Hi vagy zu (fontos)
+
+Baszkul két alakja van a "te" névmásnak:
+
+- **zu** → a sztenderd "te". Ezt használják az órán, idegenekkel, munkatársakkal, mindenkivel, bármilyen semleges helyzetben. **Az A1 szinten mindig a `zu` alakot használd.**
+- **hi** → a bizalmas "te" (*hitano*). Csak közeli barátok, családtagok között, vagy egyes falvakban szokásos megszólításként. Saját ragozása van (`haiz`, `duk`/`dun`, a hallgató nemét jelölve). Az A1 szinten nem foglalkozunk vele.
+
+Ha bizonytalan vagy, **használd a `zu` alakot** — mindig működik.
+
+## Tagadás
+
+A tagadáshoz az ige elé teszed az **ez** szót:
+
+- *Ni ez naiz Egoitz.* — Én nem vagyok Egoitz.
+- *Hau ez da nire kalea.* — Ez nem az én utcám.
+- *Gu ez gara ikasleak.* — Mi nem vagyunk diákok.
+
+## A teljes minta
+
+- **Ni** ikaslea **naiz**. — Én diák vagyok.
+- **Zu** irakaslea **zara**. — Te tanár vagy.
+- **Hura** medikua **da**. — Ő orvos.
+- **Gu** lagunak **gara**. — Mi barátok vagyunk.
+- **Zuek** anaiak **zarete**. — Ti testvérek vagytok.
+- **Haiek** umeak **dira**. — Ők gyerekek.
+

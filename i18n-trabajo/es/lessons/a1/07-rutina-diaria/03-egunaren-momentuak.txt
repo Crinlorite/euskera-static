@@ -30,10 +30,16 @@ por la mañana
 a mediodía
 @@ x4.pair2
 por la tarde
+@@ x4.pair3
+al atardecer
 @@ x4.pair4
 por la noche
+@@ x4.pair5
+hoy
 @@ x4.pair6
 mañana (día siguiente)
+@@ x4.pair7
+ayer
 @@ x5.card0
 la mañana
 @@ x5.card1

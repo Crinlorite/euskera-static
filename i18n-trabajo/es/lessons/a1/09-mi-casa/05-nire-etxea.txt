@@ -20,6 +20,18 @@ La casa está en la tercera planta
 La casa tiene tres ventanas
 @@ x2.opt3
 La casa cuesta tres mil
+@@ x3.pair0
+luminoso/a
+@@ x3.pair1
+grande
+@@ x3.pair2
+pequeño/a
+@@ x3.pair3
+tranquilo/a
+@@ x3.pair4
+nuevo/a
+@@ x3.pair5
+viejo/a
 @@ x4.card0
 ¿Cómo es tu casa?
 @@ x4.card1

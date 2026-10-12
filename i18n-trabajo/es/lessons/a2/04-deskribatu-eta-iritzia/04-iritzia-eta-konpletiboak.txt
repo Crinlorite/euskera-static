@@ -48,6 +48,8 @@ Creo que vendrá
 Sé que quieres
 @@ x4.pair2
 No creo que sea bueno
+@@ x4.pair3
+Porque ha venido
 @@ x4.pair4
 Porque es verdad
 @@ x4.pair5

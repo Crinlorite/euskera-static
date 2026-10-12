@@ -52,6 +52,20 @@ serio
 tímido
 @@ x4.card17
 excelente, estupendo
+@@ x5.pair0
+alegre
+@@ x5.pair1
+callado
+@@ x5.pair2
+hablador
+@@ x5.pair3
+tranquilo
+@@ x5.pair4
+nervioso
+@@ x5.pair5
+trabajador
+@@ x5.pair6
+vago
 @@ x5.pair7
 simpático
 @@ body

@@ -46,6 +46,12 @@ yo se los (pl., pasado)
 me dio
 @@ x4.pair1
 te di
+@@ x4.pair2
+le dio
+@@ x4.pair3
+le di
+@@ x4.pair4
+nos dieron
 @@ x4.pair5
 le di (los)
 @@ body

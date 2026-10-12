@@ -54,8 +54,16 @@ el tiempo libre
 el favorito
 @@ x5.pair0
 Me gusta leer
+@@ x5.pair1
+Le gusta cantar
+@@ x5.pair2
+Nos gusta viajar
 @@ x5.pair3
 Sé pintar
+@@ x5.pair4
+Voy a bailar
+@@ x5.pair5
+Estoy cocinando
 @@ body
 
 ¿Qué haces cuando no haces nada? Esta lección va de **aficiones** — y de la pieza de gramática que las gobierna: el verbo convertido en sustantivo con **-tzea** (*irakurtzea* = "el leer").

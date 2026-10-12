@@ -8,6 +8,8 @@ panadería
 pescadería
 @@ x0.pair3
 frutería
+@@ x0.pair4
+supermercado
 @@ x0.pair5
 cajero automático
 @@ x1.prompt

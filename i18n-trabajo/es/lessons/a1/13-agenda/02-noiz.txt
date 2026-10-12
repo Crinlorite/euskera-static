@@ -42,6 +42,14 @@ luego, después
 antes
 @@ x4.card12
 ¿cuándo?
+@@ x5.pair0
+ayer
+@@ x5.pair1
+hoy
+@@ x5.pair2
+mañana
+@@ x5.pair3
+pasado mañana
 @@ x5.pair4
 la semana que viene
 @@ x5.pair5

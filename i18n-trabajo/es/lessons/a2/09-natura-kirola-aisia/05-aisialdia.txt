@@ -60,6 +60,18 @@ el mercado / la feria
 el festival
 @@ x4.card13
 el ambiente
+@@ x5.pair0
+musika zuzenean
+@@ x5.pair1
+antzezlana ikusteko
+@@ x5.pair2
+erakusketak daude
+@@ x5.pair3
+bertako produktuak erosteko
+@@ x5.pair4
+hiru egun eta berrogei talde
+@@ x5.pair5
+umeekin arratsaldea pasatzeko
 @@ body
 
 Cierre de la unidad: **el ocio urbano** — conciertos, teatro, museos y ferias. Aquí confluye todo: los planes (unidad 06), el quedar (unidad 06), los gustos (lección anterior) y el dinero de las entradas (A1). El A2 empieza a sonar a vida real.

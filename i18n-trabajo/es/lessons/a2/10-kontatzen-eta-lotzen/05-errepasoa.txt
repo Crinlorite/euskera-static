@@ -48,6 +48,18 @@ mereció la pena
 me parece bien
 @@ x6.card11
 ¡enhorabuena, A2 superado!
+@@ x7.pair0
+geroaldia: joango naiz
+@@ x7.pair1
+bidaiak: joan-etorria
+@@ x7.pair2
+gestioak: hitzordua eskatu
+@@ x7.pair3
+aisia: -tzea gustatzen zait
+@@ x7.pair4
+lotzen: -nean, -tzeko, ea -n
+@@ x7.pair5
+B1 maila!
 @@ body
 
 Última lección del A2. **No hay gramática nueva** — hay algo mejor: la prueba de que todo lo aprendido funciona JUNTO. Formato examen: lee, escucha tu voz interior en euskera y responde. *Ea zer moduz!*
