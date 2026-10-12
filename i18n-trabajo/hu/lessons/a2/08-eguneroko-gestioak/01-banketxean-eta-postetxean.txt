@@ -1,0 +1,128 @@
+@@ title
+Banketxean eta postetxean — bank és posta
+@@ x0.prompt
+"Dirua atera nahi dut" — mit szeretnél csinálni?
+@@ x0.explanation
+*Dirua atera* = pénzt kivenni (atera = kivenni/kimenni). A befizetés *dirua sartu* — a megszokott pár.
+@@ x0.opt0
+Pénzt befizetni
+@@ x0.opt1
+Kölcsönt kérni
+@@ x0.opt2
+Számlát nyitni
+@@ x0.opt3
+Pénzt kivenni
+@@ x1.prompt
+Hol veszel bélyeget, hogy levelet küldj?
+@@ x1.explanation
+*Postetxea* = a postahivatal (posta + etxea). A *kutxazaina* a bankautomata.
+@@ x2.prompt
+Számlát szeretnék nyitni = kontu bat ___ nahi dut.
+@@ x2.explanation
+*Kontua ireki* (vagy *zabaldu*) = számlát nyitni. Mindkét ige jó.
+@@ x3.prompt
+Ezt a csomagot Németországba szeretném küldeni = pakete hau Alemaniara ___ nahi dut.
+@@ x3.explanation
+*Bidali* = küldeni. A postán: paketea bidali, gutuna bidali.
+@@ x4.card0
+a bank
+@@ x4.card1
+a posta
+@@ x4.card2
+a számla
+@@ x4.card3
+pénzt kivenni
+@@ x4.card4
+pénzt befizetni
+@@ x4.card5
+az átutalás
+@@ x4.card6
+a bankautomata
+@@ x4.card7
+a kártya
+@@ x4.card8
+a levél
+@@ x4.card9
+a csomag
+@@ x4.card10
+a bélyeg
+@@ x4.card11
+küldeni
+@@ x4.card12
+kapni, átvenni
+@@ x4.card13
+aláírni
+@@ x5.pair0
+Pénzt kivenni
+@@ x5.pair1
+Pénzt befizetni
+@@ x5.pair2
+Átutalni
+@@ x5.pair3
+Csomagot küldeni
+@@ x5.pair4
+Csomagot átvenni
+@@ x5.pair5
+Kérem, írja alá itt
+@@ body
+
+Új egység: **a gyakorlati élet**. Senki sem utazik minden nap, de mindenki eljut a bankba vagy a postára. Ott kezdünk — és meglátod, mennyi A1-et hasznosítasz újra: számokat, árakat, *nahi dut*, *behar dut*…
+
+## A bankban (banketxea)
+
+| Magyar | Euskera |
+|---|---|
+| A számla | *kontua* |
+| Számlát nyitni | *kontua ireki / zabaldu* |
+| Pénzt kivenni | *dirua atera* |
+| Pénzt befizetni | *dirua sartu* |
+| Az átutalás | *transferentzia* |
+| A kártya | *txartela* |
+| A bankautomata | *kutxazaina* |
+| A jutalék, a díj | *komisioa* |
+
+> *Egun on, **kontu bat ireki nahi nuke**.* — Jó napot, szeretnék számlát nyitni.
+>
+> ***Transferentzia bat egin behar dut** Alemaniara. **Komisiorik badago**?* — Át kell utalnom Németországba. Van díja?
+>
+> *Kutxazaina **hondatuta dago**; barruan atera dezakezu dirua.* — Az automata elromlott; bent fel tud venni pénzt.
+
+*Hondatuta dago* = elromlott. Hasznos szó bankautomatákra, jegyautomatákra és bilbaói esernyőkre.
+
+## A postán (postetxea)
+
+| Magyar | Euskera |
+|---|---|
+| A levél | *gutuna* |
+| A csomag | *paketea* |
+| A bélyeg | *zigilua* |
+| Küldeni / kapni | *bidali / jaso* |
+| Ajánlottan | *ziurtagiriarekin* |
+| A postaláda | *postontzia* |
+
+> *Pakete hau **bidali nahi dut** Iruñera. **Zenbat balio du**?* — Ezt a csomagot szeretném Pamplonába küldeni. Mennyibe kerül?
+>
+> *— **Arrunta ala ziurtagiriarekin**?* — Simán vagy ajánlottan?
+>
+> *— Ziurtagiriarekin, mesedez. Garrantzitsua da.*
+>
+> *— Ederki. **Hemen sinatu**, mesedez.* — Rendben. Kérem, írja alá itt.
+
+## Csomagértesítő (a vita tárgyát képező cetli)
+
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — A csomagját a postán veheti át, hétfőtől péntekig, 8:30 és 14:30 között. Kérjük, hozza magával a személyi igazolványát.
+
+Igen: délelőtti nyitvatartás. Egyes dolgok minden nyelven ugyanolyanok. 😄
+
+## Teljes párbeszéd
+
+> *— Egun on! Pakete bat **jasotzeko** etorri naiz. Hau da abisua.*
+>
+> *— Egun on. **NANa**, mesedez… Bai, hemen dago. **Hemen sinatu**.*
+>
+> *— Bide batez, **hiru zigilu** ere nahi ditut, gutun batzuk bidaltzeko.*
+>
+> *— Noski. **Guztira, 5,20 euro**. Txartelaz ala eskudirutan?*
+>
+> *— **Txartelaz**, mesedez.*
+

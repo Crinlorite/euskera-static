@@ -1,0 +1,120 @@
+@@ title
+Udaletxean — документи и часове
+@@ x0.prompt
+Трябва ти удостоверение за адресна регистрация. Поискваш…
+@@ x0.explanation
+*Errolda* = регистърът на жителите; *errolda-agiria* = удостоверението за адресна регистрация. Най-търсеният документ в общината.
+@@ x1.prompt
+"Hitzordua eskatu behar duzu webgunean" означава, че…
+@@ x1.explanation
+*Hitzordua* = записаният час (hitz + ordu: "час на думата") + *eskatu* = искам. Изречението на нашето време.
+@@ x1.opt0
+Можеш да отидеш без записан час
+@@ x1.opt1
+Трябва да си запишеш час в сайта
+@@ x1.opt2
+Сайтът не работи
+@@ x1.opt3
+Те ще ти се обадят
+@@ x2.prompt
+Кой документ почти сигурно ще ти поискат на всяко гише?
+@@ x2.explanation
+*NANa* (Nortasun Agiri Nazionala) = личната карта. Останалото е за куфара от предишния раздел 😄.
+@@ x3.prompt
+Искам да си запиша час = ___ eskatu nahi dut.
+@@ x3.explanation
+*Hitzordua eskatu* = записвам си час. Ще го чуеш и като *txanda eskatu* (вземам номер/ред).
+@@ x4.prompt
+Какви документи трябва да донеса? = zer agiri ekarri behar ___?
+@@ x4.explanation
+Множествено число (agiriak = няколко документа) → NOR-NORK множествено число: behar **ditut**. За съжаление бюрокрацията винаги е в множествено число.
+@@ x5.card0
+общината, кметството
+@@ x5.card1
+регистърът на жителите
+@@ x5.card2
+удостоверение за адресна регистрация
+@@ x5.card3
+личната карта
+@@ x5.card4
+документът, удостоверението
+@@ x5.card5
+записаният час
+@@ x5.card6
+редът, номерът
+@@ x5.card7
+заявлението
+@@ x5.card8
+попълвам
+@@ x5.card9
+срокът
+@@ x5.card10
+гишето
+@@ x5.card11
+копието
+@@ x5.card12
+шофьорската книжка
+@@ x5.card13
+безплатно
+@@ x6.pair0
+Записвам си час
+@@ x6.pair1
+Попълвам заявлението
+@@ x6.pair2
+Копие на личната карта
+@@ x6.pair3
+На кое гише?
+@@ x6.pair4
+Срокът изтече
+@@ x6.pair5
+Безплатно е
+@@ body
+
+Финалният бос на живота на възрастните: **бюрокрацията**. Дишай: с десет добре избрани думи (*agiria, hitzordua, bete, epea…*) оцеляваш на всяко гише — а на баски получаваш и усмивката на служителя като подарък.
+
+## Речникът на бюрокрацията
+
+| Български | Euskera |
+|---|---|
+| Общината, кметството | *udaletxea* |
+| Регистърът / регистрирам се | *errolda / erroldatu* |
+| Удостоверението за адресна регистрация | *errolda-agiria* |
+| Документът, удостоверението | *agiria* |
+| Личната карта | *NANa* |
+| Шофьорската книжка | *gidabaimena* |
+| Заявлението | *eskabidea* |
+| Попълвам | *bete* |
+| Записаният час / редът | *hitzordua / txanda* |
+| Срокът | *epea* |
+| Гишето | *leihatila* |
+
+## Записване на час (модерният ритуал)
+
+> ***Hitzordua eskatu behar da** aurretik, webgunean edo telefonoz.* — Трябва предварително да си запишеш час, в сайта или по телефона.
+>
+> *Hitzordua daukat **gaurko, hamaiketan**, erroldarako.* — Имам записан час за днес, в единайсет, за регистрацията.
+
+## На гишето
+
+> *— Egun on. **Errolda-agiri bat behar dut**, banketxerako.*
+>
+> *— **NANa**, mesedez… Momentu bat… Tori, hemen duzu. **Doan da**.*
+>
+> *— Eskerrik asko! Eta beste kontu bat: etxez aldatu naiz. **Erroldatzeko**, zer egin behar dut?*
+>
+> *— **Eskabide hau bete** eta etxebizitzaren kontratua ekarri. **Fotokopiarik ez** da behar; guk egiten dugu.*
+>
+> *— Bikain. **Eperik badago**?*
+>
+> *— Ez, lasai, edonoiz etor zaitezke. Baina **hitzordua eskatu** lehenago, e!*
+
+## Три изречения за оцеляване
+
+> ***Zer agiri ekarri behar ditut**?* — Какви документи трябва да донеса?
+>
+> ***Noiz arte** daukat epea?* — До кога е срокът?
+>
+> ***Nork sinatu behar du**?* — Кой трябва да подпише?
+
+> **Бележка:** *hitzordua* буквално е "часът на думата" (*hitza* + *ordua*) — при лекаря, в общината или романтична среща: една и съща дума. Контекстът (и изражението ти) свършват останалото. 😄
+
