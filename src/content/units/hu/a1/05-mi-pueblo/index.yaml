@@ -1,0 +1,14 @@
+id: a1-town
+code: 05-mi-pueblo
+level: a1
+title: A település és a helyek
+order: 5
+description: Helyek a településen, elhelyezkedés a NON esettel, térbeli helyzetek és a létezés kifejezése (ba al dago…?).
+estimatedMinutes: 55
+covers:
+- places-town
+- locative-non
+- spatial-positions
+- spatial-adverbs
+- existence-bada
+- egon-nor

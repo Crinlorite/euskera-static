@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — bank, ügyintézés, telefon
+order: 8
+description: 'A gyakorlati élet: bank és posta, városháza, telefonhívások, technológia és termékvisszavitel a boltban.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

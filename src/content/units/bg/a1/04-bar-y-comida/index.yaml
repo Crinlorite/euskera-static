@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: Барът и храната
+order: 4
+description: Напитки, храни, храненията през деня и как се поръчва в бара — незаменим речник за всеки ежедневен разговор.
+estimatedMinutes: 55
+covers:
+- food-bar
+- meals
+- bar-ordering
+- prices
+- pintxos
+- numbers-1-100

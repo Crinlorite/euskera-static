@@ -1,0 +1,155 @@
+---
+id: a2-natura-4
+unitId: a2-natura
+code: 04-zaletasunak
+unit: 09-natura-kirola-aisia
+level: a2
+order: 4
+title: Zaletasunak — хобита с -tzea
+estimatedMinutes: 13
+covers:
+- a2-hobbies
+exercises:
+- id: ex-a2-na4-mc1
+  type: multiple-choice
+  prompt: '"Irakurtzea gustatzen zait" означава…'
+  options:
+  - Искам да чета сега
+  - Обичам да чета
+  - Мога да чета
+  - В момента чета
+  answer: 1
+  explanation: 'Глаголът с *-tzea* се превръща в "нещо": irakur**tzea** = четенето → обичам да ЧЕТА. Ключовата част на урока.'
+- id: ex-a2-na4-mc2
+  type: multiple-choice
+  prompt: Кое е правилно построено за "обожавам да готвя"?
+  options:
+  - Sukaldatu asko gustatzen zait
+  - Sukaldatzen dakit asko
+  - Asko gustatzen zait sukaldatzea
+  - Sukaldea gustatzen naiz
+  answer: 2
+  explanation: '*Gustatzen zait* + глагол с *-tzea*: (asko) gustatzen zait sukalda**tzea**. Последното бърка NOR-NORI (zait, не naiz).'
+- id: ex-a2-na4-fb1
+  type: fill-in-blank
+  prompt: Обичам да снимам = argazkiak ___ gustatzen zait.
+  answers:
+  - ateratzea
+  explanation: Atera → atera**tzea** (снимането). С gustatzen zait глаголът е субстантивиран с -tzea.
+- id: ex-a2-na4-fb2
+  type: fill-in-blank
+  prompt: Любимото ми хоби е да пътувам = nire ___ gogokoena bidaiatzea da.
+  answers:
+  - zaletasun
+  - zaletasunik
+  explanation: '*Zaletasuna* = хобито. "Nire zaletasun gogokoena" или "nire zaletasunik gogokoena" — и двете са правилни (превъзходна степен с -ik, раздел 04).'
+- id: ex-a2-na4-fc
+  type: flashcards
+  cards:
+  - eu: zaletasuna
+    es: хобито
+  - eu: irakurtzea
+    es: (четенето) да чета
+  - eu: idaztea
+    es: (писането) да пиша
+  - eu: sukaldatzea
+    es: (готвенето) да готвя
+  - eu: bidaiatzea
+    es: (пътуването) да пътувам
+  - eu: argazkiak ateratzea
+    es: да снимам
+  - eu: musika entzutea
+    es: да слушам музика
+  - eu: abestea
+    es: (пеенето) да пея
+  - eu: dantzatzea
+    es: (танцуването) да танцувам
+  - eu: margotzea
+    es: (рисуването) да рисувам
+  - eu: jostea
+    es: (шиенето) да шия
+  - eu: baratzea zaintzea
+    es: да се грижа за градината
+  - eu: denbora librea
+    es: свободното време
+  - eu: gogokoena
+    es: любимото
+- id: ex-a2-na4-mp
+  type: match-pairs
+  pairs:
+  - eu: Irakurtzea gustatzen zait
+    es: Обичам да чета
+  - eu: Abestea gustatzen zaio
+    es: Обича да пее
+  - eu: Bidaiatzea gustatzen zaigu
+    es: Обичаме да пътуваме
+  - eu: Margotzen dakit
+    es: Мога да рисувам
+  - eu: Dantzatzera noa
+    es: Отивам да танцувам
+  - eu: Sukaldatzen ari naiz
+    es: В момента готвя
+---
+
+Какво правиш, когато не правиш нищо? Този урок е за **хобитата** — и за граматичната част, която ги управлява: глаголът, превърнат в съществително с **-tzea** (*irakurtzea* = "четенето").
+
+## Частта: -t(z)ea
+
+От A1 познаваш *gustatzen zait* с неща (*kafea gustatzen zait*). За да ти харесва **дейност**, глаголът става съществително:
+
+> **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
+
+| Български | Euskera |
+|---|---|
+| Обичам да чета | *Irakurtzea gustatzen zait* |
+| Обожавам да готвя | *Asko gustatzen zait sukaldatzea* |
+| Обича да пее | *Abestea gustatzen zaio* |
+| Обичаме да пътуваме | *Bidaiatzea gustatzen zaigu* |
+| Изобщо не обичам да ставам рано | *Ez zait batere gustatzen goiz jaikitzea* |
+
+Целият NOR-NORI, който вече знаеш (*zait, zaio, zaigu…*), продължава да командва; сменя се само "какво".
+
+## Каталогът на хобитата
+
+| Български | Euskera |
+|---|---|
+| Да чета / да пиша | *irakurtzea / idaztea* |
+| Да слушам музика | *musika entzutea* |
+| Да пея / да танцувам | *abestea / dantzatzea* |
+| Да готвя | *sukaldatzea* |
+| Да снимам | *argazkiak ateratzea* |
+| Да рисувам с бои / да рисувам | *margotzea / marraztea* |
+| Да пътувам | *bidaiatzea* |
+| Да се грижа за градината | *baratzea zaintzea* |
+| Видеоигрите | *bideo-jokoak* |
+| Да шия / да плета | *jostea / puntua egitea* |
+
+## Да питаш и да се хвалиш
+
+> ***Zer egitea gustatzen zaizu** denbora librean?* — Какво обичаш да правиш в свободното си време?
+>
+> ***Zein da zure zaletasunik gogokoena**?* — Кое е любимото ти хоби?
+>
+> *Nire zaletasunik gogokoena **sukaldatzea** da: asteburuero **errezeta berri bat** probatzen dut.* — Любимото ми хоби е готвенето: всеки уикенд пробвам нова рецепта.
+
+## Три конструкции, три нюанса (фин преговор)
+
+| Конструкция | Пример | Означава |
+|---|---|---|
+| **-tzea gustatzen zait** | *Margotzea gustatzen zait* | харесва ми (хоби) |
+| **-tzen dakit** | *Margotzen dakit* | мога да го правя (умение) |
+| **-tzen ari naiz** | *Margotzen ari naiz* | правя го (в момента) |
+
+> *Puntua egiten **ez dakit**, baina ikastea **gustatuko litzaidake**.* — Не мога да плета, но бих искал да се науча. (Това изискано *gustatuko litzaidake* ще усвоиш в B1 — оставяме ти го тук като мезе.)
+
+## Диалог
+
+> *— Aizu, **zer egitea gustatzen zaizu** asteburuetan?*
+>
+> *— Niri **mendira joatea** eta **argazkiak ateratzea**. Batzuetan biak batera. 😄 Eta zuri?*
+>
+> *— **Sukaldatzea** eta gero… **jatea**, noski.*
+>
+> *— Hori ere zaletasuna da?*
+>
+> *— Nire etxean, **kirola**.* 😄

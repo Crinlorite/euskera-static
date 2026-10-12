@@ -1,0 +1,14 @@
+id: a1-people
+code: 10-mi-gente
+level: a1
+title: Съседи и отношения
+order: 10
+description: 'Опиши съседите си: отношения, професии и ежедневието на другите хора.'
+estimatedMinutes: 55
+covers:
+- social-relations
+- professions
+- professions-extended
+- third-person-introductions
+- daily-routine-third-person
+- possessives
