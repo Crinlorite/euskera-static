@@ -1,0 +1,131 @@
+@@ title
+Denborazkoak — когато, преди и след
+@@ x0.prompt
+"Etxera iritsi nintzenean, deitu nizun" означава…
+@@ x0.explanation
+Минало + **-nean** = "когато…": iritsi nintzen + -ean → iritsi nintzen**ean** (когато пристигнах).
+@@ x0.opt0
+Преди да се прибера, ти се обадих
+@@ x0.opt1
+Когато се прибрах, ти се обадих
+@@ x0.opt2
+Ще ти се обадя, когато се прибера
+@@ x0.opt3
+Докато се прибирах, ти се обади
+@@ x1.prompt
+"Bazkaldu ondoren, siesta" — кога е сиестата?
+@@ x1.explanation
+*Ondoren* (или *eta gero*) след причастието = след: bazkaldu ondoren = след обяда. Обратното: *bazkaldu aurretik*.
+@@ x1.opt0
+Преди обяда
+@@ x1.opt1
+По време на обяда
+@@ x1.opt2
+След обяда
+@@ x1.opt3
+Вместо обяд
+@@ x2.prompt
+Избери правилното изречение за "преди да излезеш от вкъщи, угаси лампите":
+@@ x2.explanation
+*Atera aurretik* = преди да излезеш. Първото казва "след", а останалите сменят времето или смисъла.
+@@ x3.prompt
+Когато вали, чета вкъщи = euria egiten ___, etxean irakurtzen dut.
+@@ x3.explanation
+Сегашно + -nean: egiten du → egiten du**enean** (когато вали). Вчерашното -n + днешното -ean: частите се напасват.
+@@ x4.prompt
+След вечеря излизаме на разходка = afaldu ___, paseatzera ateratzen gara.
+@@ x4.explanation
+Причастие + *ondoren* = след…: afaldu ondoren. (Става и *afaldu eta gero*.)
+@@ x5.card0
+когато пристигам / пристигна
+@@ x5.card1
+когато пристигнах
+@@ x5.card2
+когато вали
+@@ x5.card3
+когато бях малък/малка
+@@ x5.card4
+преди ядене
+@@ x5.card5
+след ядене
+@@ x5.card6
+преди да отида на работа
+@@ x5.card7
+след вечеря
+@@ x5.card8
+междувременно
+@@ x5.card9
+докато спи
+@@ x5.card10
+дотогава
+@@ x5.card11
+оттогава
+@@ x6.pair0
+преди закуска
+@@ x6.pair1
+след закуска
+@@ x6.pair2
+когато закусвам
+@@ x6.pair3
+докато закусвам
+@@ x6.pair4
+щом закуся
+@@ x6.pair5
+без закуска
+@@ body
+
+Твоите изречения вече знаят КАКВО се е случило; този урок ги учи да казват **КОГА** с часовникарска точност: *когато пристигнах*, *преди да изляза*, *след ядене*, *докато спеше*. Три части и комбинациите излизат сами.
+
+## Част 1: -NEAN (когато)
+
+Изгражда се върху **-n**, което научи вчера при zehar-galderak (виждаш ли как всичко се напасва?):
+
+| Пряко | С "когато" |
+|---|---|
+| *iristen naiz* | *iristen naiz**enean*** — когато пристигам |
+| *iritsi nintzen* | *iritsi nintzen**ean*** — когато пристигнах |
+| *euria egiten du* | *euria egiten du**enean*** — когато вали |
+| *txikia nintzen* | *txikia nintzen**ean*** — когато бях малък |
+
+> *Etxera **iristen naizenean**, kafe bat hartzen dut.* — Когато се прибера вкъщи, пия кафе.
+>
+> ***Txikia nintzenean**, herrian bizi ginen.* — Когато бях малък, живеехме на село.
+>
+> *Deitu **duzunean**, bileran nengoen.* — Когато се обади, бях на среща.
+
+## Част 2: AURRETIK / BAINO LEHEN (преди)
+
+**Причастие + aurretik** (или равностойното *baino lehen*):
+
+> *Lanera joan **aurretik**, kirola egiten dut.* — Преди да отида на работа, спортувам.
+>
+> *Atera **baino lehen**, leihoak itxi.* — Преди да излезеш, затвори прозорците.
+
+## Част 3: ONDOREN / ETA GERO (след)
+
+**Причастие + ondoren** (или *eta gero*):
+
+> *Bazkaldu **ondoren**, siesta txiki bat.* — След обяда — малка сиеста.
+>
+> *Lana bukatu **eta gero**, poteo bat?* — След работа — един poteo?
+
+## Бонусът: BITARTEAN (докато)
+
+> *Umeak **lo egiten duen bitartean**, aiton-amonek kafea hartzen dute.* — Докато детето спи, бабата и дядото пият кафе.
+>
+> *Zu prestatzen zaren **bitartean**, ni autoa ateratzen ari naiz.* — Докато се приготвяш, аз изкарвам колата.
+
+## Ежедневието, вече с шевове
+
+> *Goizean, jaiki **eta gero**, dutxatu egiten naiz. Gosaldu **aurretik**, korrika egiten dut ordu erdiz. Lanera **noanean**, podcast bat entzuten dut. Lana bukatzen **dudanean**, erosketak egiten ditut, eta afaldu **ondoren**, serie bat ikusten dugu. Ohera joan **baino lehen**, biharko arropa prestatzen dut. Aspergarria? Ez: **antolatua**.* 😄
+
+## Диалог
+
+> *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
+>
+> *— Ez. Deitu **lana bukatzen dudanean** — seiak **ondoren**.*
+>
+> *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
+>
+> *— **Afaldu bitartean**! Pintxo batzuk hartuko ditugu. 😄*
+
