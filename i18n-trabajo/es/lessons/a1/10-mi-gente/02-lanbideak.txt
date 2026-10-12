@@ -28,6 +28,14 @@ Un cocinero
 "Mekanikaria" trabaja con...
 @@ x2.explanation
 "Mekanikaria" es el mecánico, suele trabajar en talleres con coches.
+@@ x2.opt0
+enfermos
+@@ x2.opt1
+libros
+@@ x2.opt2
+coches
+@@ x2.opt3
+niños
 @@ x3.prompt
 Soy estudiante = Ni ___ naiz.
 @@ x3.explanation

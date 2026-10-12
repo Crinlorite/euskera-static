@@ -218,7 +218,7 @@ def intocables(tipo, f_es, seg_es: dict, f_dest) -> dict[str, list[str]]:
         # enunciado de hueco en euskera, «Ni Egoitz ___.») → se copia tal cual
         # (las parejas no: su lado `es` es SIEMPRE la traducción, y en los 17
         # idiomas quedan ~288 sin traducir, así que el oráculo ahí miente)
-        if ".pair" not in k and segs_or and all(s.get(k) == v for s in segs_or):
+        if ".pair" not in k and v not in CASTELLANO_SIN_TRADUCIR and segs_or and all(s.get(k) == v for s in segs_or):
             out[k] = [v]
             continue
         frs = fragmentos(v)
@@ -231,9 +231,25 @@ def intocables(tipo, f_es, seg_es: dict, f_dest) -> dict[str, list[str]]:
     return out
 
 
+# Opciones en CASTELLANO que translate_wave dejó sin traducir en los 17 idiomas
+# (no llevan tildes ni palabras marcadoras). Revisadas a mano el 12-oct-2026
+# sobre las 559 opciones idénticas en todos los oráculos; el resto es euskera.
+CASTELLANO_SIN_TRADUCIR = {
+    "abrir / cerrar", "abuelo", "aburrido", "alegre", "Aperitivo", "Bebida", "bocadillo",
+    "callado", "coches", "cruzar", "Demasiado cara", "Demasiado grande", "Demasiado pequeña",
+    "Empleado", "enfermos", "entrar / salir", "Estoy bien", "Estoy igual", "Estoy mejor",
+    "Estoy peor", "girar", "hermano", "ir / venir", "Jefe", "libros", "Lluvia", "Muy bonita",
+    "nervioso", "Niebla", "niños", "Pasado reciente (joan naiz)", "plato combinado",
+    "Plato principal", "postre", "Postre", "Presente", "Primer plato", "primo", "seguir recto",
+    "Segundo plato", "Sol", "subir", "subir / bajar", "suegro", "Sueldo", "Trabajo",
+    "Tu hermano", "Tu jefe", "Tu profesor", "Tu vecino", "Viento fuerte", "pintxo",
+}
+
+
 def copias_enteras(tipo, f_es, seg_es, f_dest) -> set[str]:
     """Claves cuyo segmento ninguna traducción revisada cambió: se copian del es."""
-    return {k for k, frs in intocables(tipo, f_es, seg_es, f_dest).items() if frs == [seg_es[k]]}
+    return {k for k, frs in intocables(tipo, f_es, seg_es, f_dest).items()
+            if frs == [seg_es[k]] and seg_es[k] not in CASTELLANO_SIN_TRADUCIR}
 
 
 def con_copias(loc, tipo, rel, f_es, f_dest) -> dict:

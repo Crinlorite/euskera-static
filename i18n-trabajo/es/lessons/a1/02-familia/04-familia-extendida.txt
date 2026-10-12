@@ -12,6 +12,14 @@ prima
 sobrino/a
 @@ x1.prompt
 "Lehengusu" es...
+@@ x1.opt0
+primo
+@@ x1.opt1
+hermano
+@@ x1.opt2
+abuelo
+@@ x1.opt3
+suegro
 @@ x2.card0
 tío
 @@ x2.card1

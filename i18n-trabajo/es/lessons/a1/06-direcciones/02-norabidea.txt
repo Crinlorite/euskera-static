@@ -22,6 +22,14 @@ vuelve atrás
 "Zeharkatu" significa…
 @@ x2.explanation
 De "zehar" (a través). "Zeharkatu kalea / zebrabidea" = cruzar la calle / el paso de cebra.
+@@ x2.opt0
+seguir recto
+@@ x2.opt1
+cruzar
+@@ x2.opt2
+girar
+@@ x2.opt3
+subir
 @@ x3.prompt
 Sigue recto = ___ aurrera.
 @@ x3.explanation

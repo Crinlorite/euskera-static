@@ -134,3 +134,11 @@ A formula: **jelző + forma + bat (mesedez)**. A jelző (ami benne van) elöl á
 
 > **Kulturális megjegyzés:** a pintxók hagyománya különösen erős Donostiában, Bilbaóban és Iruñeában. Minden bárnak általában megvan a maga házi különlegessége. A **poteo** szokása abból áll, hogy bárról bárra járnak, és mindegyikben elfogyasztanak egy pintxót és egy italt — nagyon társasági és nagyon euskaldun hagyomány.
 
+@@ x0.opt0
+pintxo
+@@ x0.opt1
+szendvics
+@@ x0.opt2
+vegyes tál
+@@ x0.opt3
+desszert

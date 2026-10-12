@@ -122,3 +122,11 @@ Valaki bemutatásának nagyon természetes módja, ha 3-4 tulajdonságot sorolsz
 >
 > Az anyám nagyon jó fej és kedves. Nyugodt, de az apám ideges. A fiútestvérem elég csintalan, de én rendes vagyok!
 
+@@ x0.opt0
+unalmas
+@@ x0.opt1
+vidám
+@@ x0.opt2
+ideges
+@@ x0.opt3
+csendes
