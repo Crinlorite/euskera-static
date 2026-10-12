@@ -1,0 +1,131 @@
+@@ title
+Geroaldia — бъдеще време на баски
+@@ x0.prompt
+"Bihar Bilbora joango naiz" означава…
+@@ x0.explanation
+*Joango naiz* = ще отида. Бъдещето време се образува с причастието + *-go* (joan → joango) и спомагателния глагол в сегашно време.
+@@ x0.opt0
+Вчера отидох в Билбао
+@@ x0.opt1
+Утре ще отида в Билбао
+@@ x0.opt2
+Обикновено ходя в Билбао
+@@ x0.opt3
+В момента отивам към Билбао
+@@ x1.prompt
+Кое е правилното бъдеще време на "egin" (правя)?
+@@ x1.explanation
+Причастията, завършващи на *-n*, приемат *-go*: egin → e**gingo**, joan → joa**ngo**, esan → esa**ngo**. (*Eginen* съществува в навароско-лабурдинския диалект, но стандартът, който учим, използва *egingo*.)
+@@ x2.prompt
+Попълни: "Datorren urtean 30 urte ___ ditut."
+@@ x2.explanation
+*Izango ditut* = ще имам (ще навърша). *Izan* → *izango* е бъдещето време на глагола съм/имам.
+@@ x3.prompt
+Ще купя хляб = ogia ___ dut. (erosi)
+@@ x3.explanation
+Причастие на *-i* → *-iko*: erosi → eros**iko**. Подсказката в скобите ти дава глагола като причастие.
+@@ x4.prompt
+Утре ще бъда вкъщи = bihar etxean ___ naiz. (egon)
+@@ x4.explanation
+Egon → ego**ngo** (причастие на -n + go). С *egon* спомагателният глагол е NOR: egongo naiz, egongo da…
+@@ x5.card0
+ще отида
+@@ x5.card1
+ще дойде
+@@ x5.card2
+ще го направя
+@@ x5.card3
+ще го видим
+@@ x5.card4
+ще го вземеш
+@@ x5.card5
+ще ядат
+@@ x5.card6
+ще ти го дам
+@@ x5.card7
+ще му го кажа
+@@ x5.card8
+ще бъде
+@@ x5.card9
+ще го имам
+@@ x5.card10
+ще бъдем (някъде)
+@@ x5.card11
+ще уча
+@@ x5.card12
+ще го купим
+@@ x5.card13
+ще пристигне
+@@ x6.pair0
+hartuko (ще вземе)
+@@ x6.pair1
+ikusiko (ще види)
+@@ x6.pair2
+joango (ще отиде)
+@@ x6.pair3
+egingo (ще направи)
+@@ x6.pair4
+izango (ще бъде)
+@@ x6.pair5
+bukatuko (ще завърши)
+@@ body
+
+Досега можеше да говориш за настоящето и миналото. Този раздел отваря третата врата: **бъдещето време** (*geroaldia*). Добрата новина: ако вече владееш причастията (а ги владееш от A1!), бъдещето време е почти подарък — изгражда се **върху причастието**, без нови форми на спомагателния глагол.
+
+## Формулата
+
+> **причастие + -ko / -go + спомагателен глагол в СЕГАШНО време**
+
+| Български | Euskera | Как се сглобява |
+|---|---|---|
+| Ще отида | *joango naiz* | joan + **-go** + naiz |
+| Ще ям | *jango dut* | jan + **-go** + dut |
+| Ще купя | *erosiko dut* | erosi + **-ko** + dut |
+| Ще го видим | *ikusiko dugu* | ikusi + **-ko** + dugu |
+| Ще пристигне | *helduko da* | heldu + **-ko** + da |
+
+**Спомагателният глагол не се променя**: това е същото познато *naiz/da/dut/dugu…*. Новото е само наставката на причастието.
+
+## -ko или -go? Единственото правило за запомняне
+
+| Причастието завършва на… | Наставка | Примери |
+|---|---|---|
+| **-n** | **-go** (n се запазва) | joan → joa**ngo** · egin → egi**ngo** · esan → esa**ngo** · eman → ema**ngo** · edan → eda**ngo** · jan → ja**ngo** |
+| гласна или друга съгласна | **-ko** | erosi → erosi**ko** · hartu → hartu**ko** · ikusi → ikusi**ko** · bukatu → bukatu**ko** · heldu → heldu**ko** |
+
+> **Диалектна бележка:** в Навара и Ипаралде ще чуеш *eginen, joanen* (-en вместо -go). Правилно е в тези диалекти; в стандарта на този курс използваме **-go**.
+
+## Трите големи: izan, ukan, egon
+
+| Сегашно | Бъдеще | Пример |
+|---|---|---|
+| naiz (съм) | **izango naiz** | *Irakasle izango naiz.* — Ще бъда учител. |
+| dut (имам) | **izango dut** | *Denbora izango dut.* — Ще имам време. |
+| nago (намирам се) | **egongo naiz** | *Etxean egongo naiz.* — Ще бъда вкъщи. |
+
+Обърни внимание: *izan* служи и за **съм**, и за **имам** — различава ги спомагателният глагол (*izango naiz* / *izango dut*).
+
+## Примери в контекст
+
+> *Bihar goizean kirola **egingo dut**, eta gero lagunekin **bazkalduko dut**.* — Утре сутринта ще спортувам, а после ще обядвам с приятели.
+>
+> *Datorren astean amona **ikusiko dugu**.* — Следващата седмица ще видим баба.
+>
+> *Ez kezkatu, garaiz **helduko gara**.* — Не се тревожи, ще стигнем навреме.
+>
+> *Noiz **esango diozu** egia?* — Кога ще му кажеш истината?
+
+## Диалог
+
+> *— Zer **egingo duzu** gaur arratsaldean?*
+>
+> *— Lehenengo etxeko lanak **bukatuko ditut**, eta gero zinemara **joango naiz**. Etorri nahi?*
+>
+> *— Ezin dut, bihar azterketa daukat. Etxean **geratuko naiz** ikasten.*
+>
+> *— Lasai, hurrengoan **joango gara** elkarrekin.*
+
+## Трик за учене
+
+Баското бъдеще време в едно отношение прилича на българското "ще + глагол": **не е нужно да учиш нови спрежения**, а само частта *-ko/-go*. Ако се колебаеш, помисли за причастието (което вече знаеш от миналото време: *erosi dut* = купих) и залепи наставката: *erosiko dut*.
+
