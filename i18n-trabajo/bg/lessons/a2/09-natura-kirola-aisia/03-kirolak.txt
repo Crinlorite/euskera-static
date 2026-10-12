@@ -1,0 +1,134 @@
+@@ title
+Kirolak — спорт, от фронтона до устието
+@@ x0.prompt
+"Partida irabazi dugu!" — как мина?
+@@ x0.explanation
+*Irabazi* = печеля; вечният му съперник е *galdu* = губя. Равенството е *berdindu*.
+@@ x0.opt0
+Загубили сте
+@@ x0.opt1
+Завършили сте наравно
+@@ x0.opt2
+Спечелили сте
+@@ x0.opt3
+Отложен е
+@@ x1.prompt
+Кой е спортът на фронтона?
+@@ x1.explanation
+*Pilota* (баската топка) се играе във *frontoia*. Останалите: плуване, колоездене и гребане.
+@@ x2.prompt
+Тренирам два пъти седмично = astean bitan ___ egiten dut.
+@@ x2.explanation
+*Entrenamendu egin* = тренирам (също *entrenatu*). *Astean bitan* = два пъти седмично.
+@@ x3.prompt
+Мога да плувам доста добре = nahiko ondo ___ dakit.
+@@ x3.explanation
+*Igeri egin* = плувам; с *jakin*: igeri dakit (мога да плувам). Като *hitz egiten dakit* — уменията са с JAKIN.
+@@ x4.card0
+спортът
+@@ x4.card1
+футболът
+@@ x4.card2
+баскетболът
+@@ x4.card3
+плуването
+@@ x4.card4
+колоезденето
+@@ x4.card5
+тичам
+@@ x4.card6
+баската топка (pilota)
+@@ x4.card7
+гребането
+@@ x4.card8
+туризмът (пешеходен)
+@@ x4.card9
+отборът
+@@ x4.card10
+мачът
+@@ x4.card11
+печеля
+@@ x4.card12
+губя
+@@ x4.card13
+тренирам
+@@ x5.pair0
+pilota
+@@ x5.pair1
+igeriketa
+@@ x5.pair2
+arrauna (traineras)
+@@ x5.pair3
+txirrindularitza
+@@ x5.pair4
+futbola
+@@ x5.pair5
+mendi-ibilia
+@@ body
+
+Втора спирка от раздела: **спортът** — този, който практикуваш, и този, който гледаш. А в Euskal Herria това включва спортове, които няма да видиш никъде другаде по света.
+
+## Вечните спортове
+
+| Български | Euskera |
+|---|---|
+| Спортът | *kirola* |
+| Футболът | *futbola* |
+| Баскетболът | *saskibaloia* |
+| Плуването | *igeriketa* |
+| Колоезденето | *txirrindularitza* |
+| Тичам | *korrika egin* |
+| Пешеходният туризъм | *mendi-ibilia* |
+| Фитнесът | *gimnasioa* |
+
+## Местните
+
+| Спорт | Какво е |
+|---|---|
+| *pilota* | баската игра с топка, във *frontoia* |
+| *arrauna* | гребането — лодките *traineras* и знамето на La Concha |
+| *herri kirolak* | селски спортове: *aizkora* (брадва), *harri-jasotzea* (вдигане на камък), *soka-tira* |
+
+> *Herriko frontoian **pilota partida** dago larunbatean.* — В събота има мач по пелота във фронтона на селото.
+>
+> *Irailean **estropadak** ikusten ditugu: gure herriko traineroa animatzera!* — През септември гледаме регатите: да подкрепим лодката на нашето село!
+
+## Практикуване: глаголите
+
+> *Kirola **egiten dut**: astean bitan **entrenatzen naiz** eta igandeetan **korrika egiten dut**.* — Спортувам: тренирам два пъти седмично, а в неделя тичам.
+>
+> ***Igeri badakizu**?* — Можеш ли да плуваш? (уменията с *jakin*: *igeri dakit*, *dantzan dakit*…)
+>
+> *Gaztetan futbolean **jokatzen nuen**; orain **ikusi** bakarrik.* 😄 — Като млад играех футбол; сега само го гледам.
+
+## Мачът
+
+| Български | Euskera |
+|---|---|
+| Отборът | *taldea* |
+| Мачът | *partida* |
+| Печеля / губя / завършвам наравно | *irabazi / galdu / berdindu* |
+| Резултатът | *emaitza* |
+| Вкарвам гол | *gola sartu* |
+| Игрището | *zelaia* |
+
+> *— Ikusi zenuen atzoko partida? **Zenbat** bukatu zen?*
+>
+> *— **2 eta 1 irabazi genuen**! Azken minutuan **gola sartu** zuten.*
+>
+> *— Aupa! Eta hurrengo astean **etxean jokatuko dute**?*
+>
+> *— Bai, igandean. **Zelaira joango gara**? Sarrera nire kontu!*
+
+## Диалог: да се запишеш за нещо
+
+> *— Kirol pixka bat egin nahi dut, baina gimnasioa **aspergarria** iruditzen zait.*
+>
+> *— **Zergatik ez zara** herriko igerilekura **apuntatzen**? Goizeko ordutegia oso ona da.*
+>
+> *— Ez dakit ba… **igeri badakit**, baina gaizki.*
+>
+> *— Horretarako dira ikastaroak! Ni **astean bitan** joaten naiz. **Elkarrekin joango gara**?*
+>
+> *— Beno, ados. Baina gero **hamaiketakoa** ere elkarrekin, e?* 😄
+
