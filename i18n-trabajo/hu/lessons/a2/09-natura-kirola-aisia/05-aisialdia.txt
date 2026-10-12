@@ -1,0 +1,131 @@
+@@ title
+Aisialdia — koncertek, múzeumok és a hétvégi program
+@@ x0.prompt
+"Sarrerak agortu dira" — rossz hír: …
+@@ x0.explanation
+*Agortu* = elfogyni: sarrerak agortu dira = elfogytak a jegyek. Minden rajongó drámája.
+@@ x0.opt0
+Későn kezdődik a koncert
+@@ x0.opt1
+Elfogytak a jegyek
+@@ x0.opt2
+Csökkentették az árat
+@@ x0.opt3
+Lemondták az utat
+@@ x1.prompt
+A "Museoa doan da asteartetan" azt jelenti, hogy keddenként…
+@@ x1.explanation
+*Doan* = ingyen. Jegyezd fel a múzeumok *doan* napjait — profi kulturális naptártrükk.
+@@ x1.opt0
+Zárva van a múzeum
+@@ x1.opt1
+Délután nyit a múzeum
+@@ x1.opt2
+Ingyenes a belépés
+@@ x1.opt3
+Van tárlatvezetés
+@@ x2.prompt
+Vettem két jegyet a koncertre = kontzerturako bi ___ erosi ditut.
+@@ x2.explanation
+*Sarrera* = a belépőjegy (egy hely fizikai bejárata is). Kontzertu**rako** = a koncertre (célhatározó).
+@@ x3.prompt
+Hány órakor kezdődik az előadás? = zer ordutan ___ da emanaldia?
+@@ x3.explanation
+*Hasi* (kezdődni) szokásos jelen időben: hasten da. *Emanaldia* = az előadás/vetítés.
+@@ x4.card0
+a szabadidő
+@@ x4.card1
+a koncert
+@@ x4.card2
+a színház (épület)
+@@ x4.card3
+a színdarab
+@@ x4.card4
+a múzeum
+@@ x4.card5
+a kiállítás
+@@ x4.card6
+az előadás / a vetítés
+@@ x4.card7
+a belépőjegy
+@@ x4.card8
+ingyen
+@@ x4.card9
+elfogyni
+@@ x4.card10
+a park
+@@ x4.card11
+a piac / a vásár
+@@ x4.card12
+a fesztivál
+@@ x4.card13
+a hangulat
+@@ x5.pair0
+musika zuzenean
+@@ x5.pair1
+antzezlana ikusteko
+@@ x5.pair2
+erakusketak daude
+@@ x5.pair3
+bertako produktuak erosteko
+@@ x5.pair4
+hiru egun eta berrogei talde
+@@ x5.pair5
+umeekin arratsaldea pasatzeko
+@@ body
+
+Az egység lezárása: **a városi szabadidő** — koncertek, színház, múzeumok és vásárok. Itt minden összefut: a tervek (06. egység), a találkozók megbeszélése (06. egység), az ízlés (előző lecke) és a jegyek ára (A1). Az A2 kezd úgy szólni, mint a valódi élet.
+
+## A hétvégi menü
+
+| Magyar | Euskera |
+|---|---|
+| A koncert | *kontzertua* |
+| A színház (épület) | *antzokia* |
+| A színdarab | *antzezlana* |
+| A mozi | *zinema* |
+| A múzeum | *museoa* |
+| A kiállítás | *erakusketa* |
+| A fesztivál | *jaialdia* |
+| A piac / a vásár | *azoka* |
+| A park | *parkea* |
+
+## A jegyek
+
+| Magyar | Euskera |
+|---|---|
+| A belépőjegy | *sarrera* |
+| Jegyet venni | *sarrerak erosi* |
+| Ingyen | *doan* |
+| Elfogyott | *agortuta* |
+| Az előadás / a vetítés | *emanaldia* |
+| A sor | *ilara* |
+
+> *Kontzerturako **sarrerak erosi ditut** — azkenak! Ia **agortuta zeuden**.* — Megvettem a jegyeket a koncertre — az utolsókat! Majdnem elfogytak.
+>
+> *Museoa **doan da** asteazken arratsaldetan.* — A múzeum szerda délutánonként ingyenes.
+>
+> ***Zer ordutan hasten da** emanaldia?* — Hány órakor kezdődik az előadás?
+
+## A program javaslása (minden együtt)
+
+> *— Aizu, **zer egingo dugu** larunbatean?*
+>
+> *— Bi plan ditut: goizean **azokara** joan — bertako gazta erosi nahi dut — eta arratsaldean **erakusketa berria** ikusi Artiumen.*
+>
+> *— **Ondo iruditzen zait** goizekoa… baina arratsalderako beste ideia bat: **kontzertua** dago gaztetxean, **doan**!*
+>
+> *— **Doan**? Ba erakusketa **datorren astean** ikusiko dugu. 😄 **Zer ordutan hasten da**?*
+>
+> *— Zortzietan. **Zazpietan geratuko gara**, zerbait afaltzeko.*
+
+## Elmesélni, milyen volt (múlt + vélemény)
+
+> *Kontzertua **izugarria izan zen**: bi ordu eta erdi, jendea **dantzan** hasieratik. **Giro ederra**.* — A koncert fantasztikus volt: két és fél óra, az emberek az első perctől táncoltak. Gyönyörű hangulat.
+>
+> *Antzezlana **polita zen**, baina **luzeegia** — hiru ordu!* — A darab szép volt, de túl hosszú: három óra! (Az *-egi*, mindig hűséges.)
+>
+> *Azokan **gazta, ogia eta sagardoa** erosi genituen. **Merezi izan zuen**.* — A vásáron sajtot, kenyeret és almabort vettünk. Megérte.
+
+> **Megjegyzés:** a baszk kulturális programnak saját szavai vannak: *gaztetxea* (az önszerveződő "txoko", olcsó koncertekkel), *bertso-saioa* (bertsolarik estje), *herriko jaiak*… És a legnagyobb *Azoka* mind közül: a **Durangoko Azoka**, a baszk könyv- és lemezvásár decemberben — az olvasó euskaldun éves zarándoklata.
+
