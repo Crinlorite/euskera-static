@@ -1,0 +1,147 @@
+@@ title
+Napszakok (goizean, arratsaldean, gauean)
+@@ x0.prompt
+A "Goizean" jelentése…
+@@ x0.explanation
+"Goiz" = reggel, délelőtt; a "-an" helyhatározó esettel: "reggel, délelőtt".
+@@ x0.opt0
+éjjel, este
+@@ x0.opt1
+reggel
+@@ x0.opt2
+délben
+@@ x0.opt3
+éppen most
+@@ x1.prompt
+Azt szeretnéd mondani: "reggel nyolckor". Hogyan mondod?
+@@ x1.explanation
+A délelőtt/délután pontosításához a napszakot a "-ko" toldalékkal az óra elé tesszük: *goizeko zortziak* (reggel nyolc óra).
+@@ x2.prompt
+Délután = ___ (írd be a teljes szót).
+@@ x2.explanation
+"Arratsalde" = délután; a "-(e)an" helyhatározóval: *arratsaldean* (délután).
+@@ x3.prompt
+Éjjel, este = ___ (írd be a teljes szót).
+@@ x3.explanation
+"Gau" = éjszaka; a "-an" helyhatározóval: *gauean*.
+@@ x4.pair0
+reggel
+@@ x4.pair1
+délben
+@@ x4.pair2
+délután
+@@ x4.pair3
+alkonyatkor
+@@ x4.pair4
+éjjel, este
+@@ x4.pair5
+ma
+@@ x4.pair6
+holnap
+@@ x4.pair7
+tegnap
+@@ x5.card0
+a reggel, a délelőtt
+@@ x5.card1
+a dél
+@@ x5.card2
+a délután
+@@ x5.card3
+az alkonyat
+@@ x5.card4
+az éjszaka
+@@ x5.card5
+reggel
+@@ x5.card6
+délben
+@@ x5.card7
+délután
+@@ x5.card8
+alkonyatkor
+@@ x5.card9
+éjjel, este
+@@ x5.card10
+reggel nyolc óra
+@@ x5.card11
+délután három óra
+@@ x5.card12
+este tíz óra
+@@ x5.card13
+ma
+@@ x5.card14
+tegnap
+@@ x5.card15
+holnap
+@@ body
+
+A baszkban a napszakok két kulcstoldalékkal működnek: **`-(e)an`** ("-ban/-ben, -kor") és **`-(e)ko`** ("-i, valamikori"), attól függően, mire használod őket. A jó hír, hogy minden szóval szabályosan kapcsolódnak.
+
+## Az alapszavak
+
+| Euskera | Magyar |
+|---|---|
+| *goiza* | a reggel, a délelőtt |
+| *eguerdia* | a dél |
+| *arratsaldea* | a délután |
+| *iluntzea* | az alkonyat |
+| *gaua* | az éjszaka |
+
+## "Reggel / délután" — a `-(e)an` helyhatározó
+
+Ahhoz, hogy megmondd, mikor (a nap melyik szakában) történik valami, tedd a tőhöz a **-(e)an** toldalékot:
+
+| Mikor | Euskera |
+|---|---|
+| reggel, délelőtt | **goizean** |
+| délben | **eguerdian** |
+| délután | **arratsaldean** |
+| alkonyatkor | **iluntzean** |
+| éjjel, este | **gauean** |
+
+> *Goizean kafea hartzen dut.* — Reggel kávét iszom.
+>
+> *Arratsaldean lagunekin egoten naiz.* — Délután a barátaimmal vagyok.
+>
+> *Gauean lo egiten dut.* — Éjjel alszom.
+
+## "Reggel … órakor / délután … órakor" — a `-ko` toldalék
+
+Ha azt akarod pontosítani, **a nap melyik szakában** van az adott óra, a napszakot **-ko** toldalékkal az óra elé teszed:
+
+| Pontos idő | Euskera |
+|---|---|
+| reggel 8 óra | **goizeko zortziak** |
+| dél, 12 óra | **eguerdiko hamabiak** |
+| délután 5 óra | **arratsaldeko bostak** |
+| este 9 óra | **gaueko bederatziak** |
+
+> *Goizeko zazpietan esnatzen naiz.* — Reggel hétkor ébredek.
+>
+> *Arratsaldeko hirurak dira.* — Délután három óra van.
+
+## Alapvető időhatározók
+
+Ezek minden nap elő fognak jönni:
+
+| Euskera | Magyar |
+|---|---|
+| *gaur* | ma |
+| *atzo* | tegnap |
+| *bihar* | holnap |
+| *etzi* | holnapután |
+| *orain* | most |
+| *gero* | később, aztán |
+| *lehen* | előbb, korábban |
+
+> Figyelem: a **bihar** (holnap, a következő nap) és a **goiza** (a reggel, délig) két külön szó — akárcsak a magyarban a *holnap* és a *reggel*. (A spanyol egyetlen szót, a *mañana* szót használja mindkettőre.)
+
+## Mindent együtt
+
+> *Bihar goizean lanera joango naiz.* — Holnap reggel munkába megyek.
+>
+> *Atzo arratsaldean zinemara joan ginen.* — Tegnap délután moziba mentünk.
+>
+> *Gaur gaueko hamarretan afalduko dut.* — Ma este tízkor vacsorázom.
+
+> **Kulturális megjegyzés:** Euskal Herria híres az *iluntze*-jéről — arról az alkonyati órán, amikor a baráti társaságok *poteo*-ra (bárról bárra járásra) indulnak. Ez se nem délután, se nem éjszaka: önálló arculatú napszak.
+

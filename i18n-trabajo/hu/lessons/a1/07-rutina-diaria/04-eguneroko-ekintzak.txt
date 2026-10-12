@@ -1,0 +1,162 @@
+@@ title
+Napi tevékenységek és a szokásos cselekvés
+@@ x0.prompt
+Mit jelent az, hogy "esnatzen naiz"?
+@@ x0.explanation
+A szokásos cselekvés alakja (-tzen + naiz/dut) azt fejezi ki, amit általában csinálsz: "felébredek" (minden nap).
+@@ x0.opt0
+felébredtem
+@@ x0.opt1
+felébredek (szokás szerint)
+@@ x0.opt2
+fel fogok ébredni
+@@ x0.opt3
+éppen ébredeztem
+@@ x1.prompt
+Az "Egunero gosaltzen dut" jelentése…
+@@ x1.explanation
+"Egunero" = minden nap; "gosaltzen dut" = reggelizem (szokás szerint).
+@@ x1.opt0
+Ma reggeliztem
+@@ x1.opt1
+Minden nap reggelizem
+@@ x1.opt2
+Reggelizni fogok
+@@ x1.opt3
+Éppen reggelizem
+@@ x2.prompt
+Esnatu (felébredni) → szokásos alak ___ (a szokásos cselekvés -n végződésével).
+@@ x2.explanation
+A mássalhangzóra vagy -tu/-du végződésre végződő igék "-tzen" végződést kapnak a szokásos cselekvéshez: esna**tu** → esna**tzen**.
+@@ x3.prompt
+Jan (enni) → szokásos alak ___ (a szokásos cselekvés végződésével).
+@@ x3.explanation
+Az -n végű igék megváltoznak: ja**n** → ja**ten** (nem "janten"). A szabály: végső -n → "-ten".
+@@ x4.pair0
+felébredni
+@@ x4.pair1
+felkelni
+@@ x4.pair2
+zuhanyozni
+@@ x4.pair3
+reggelizni
+@@ x4.pair4
+ebédelni
+@@ x4.pair5
+vacsorázni
+@@ x4.pair6
+dolgozni
+@@ x4.pair7
+aludni
+@@ x4.pair8
+lefeküdni
+@@ x5.card0
+felébredni / felébredek
+@@ x5.card1
+felkelni / felkelek
+@@ x5.card2
+zuhanyozni / zuhanyozom
+@@ x5.card3
+felöltözni / felöltözöm
+@@ x5.card4
+reggelizni / reggelizem
+@@ x5.card5
+ebédelni / ebédelek
+@@ x5.card6
+vacsorázni / vacsorázom
+@@ x5.card7
+dolgozni / dolgozom
+@@ x5.card8
+aludni / alszom
+@@ x5.card9
+lefeküdni / lefekszem
+@@ x5.card10
+sziesztázni, délután szundítani
+@@ x5.card11
+minden nap
+@@ x5.card12
+mindig
+@@ x5.card13
+gyakran
+@@ x5.card14
+néha
+@@ x5.card15
+soha
+@@ body
+
+Ahhoz, hogy elmondd, mit csinálsz minden nap, a baszk a **szokásos cselekvés** alakját használja: veszed az igét (partizipio), hozzáteszed a **-tzen** vagy **-ten** végződést, majd az **izan** (naiz, zara, da…) vagy az **ukan** (dut, duzu, du…) segédigével kapcsolod össze.
+
+## A szabály
+
+| Az ige vége | Szokásos végződés | Példa |
+|---|---|---|
+| mássalhangzó vagy `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
+| `-i` (rendhagyó) | **-tzen** vagy **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+
+> A *jan* (enni) ige **nem** *janten* lesz, hanem *jaten* — a végső "n" eltűnik. Ugyanígy: *edan* → *edaten*, *egon* → *egoten*.
+
+## Mindennapi igék
+
+### NOR (az **izan** segédigével: naiz, zara, da…)
+
+Ezek az **izan** igével állnak, mert tárgyatlanok — az alany tárgy nélkül éli át a cselekvést:
+
+| Partizipioa | Szokásos alak | Jelentés |
+|---|---|---|
+| *esnatu* | *esnatzen naiz* | felébredek |
+| *jaiki* | *jaikitzen naiz* | felkelek |
+| *altxatu* | *altxatzen naiz* | felkelek (a *jaiki* változata) |
+| *dutxatu* | *dutxatzen naiz* | zuhanyozom |
+| *jantzi* | *janzten naiz* | felöltözöm |
+| *joan* | *joaten naiz* | megyek |
+| *etorri* | *etortzen naiz* | jövök |
+| *oheratu* | *oheratzen naiz* | lefekszem |
+| *lokartu* | *lokartzen naiz* | elalszom |
+
+### NOR-NORK (az **ukan** segédigével: dut, duzu, du…)
+
+Ezek az **ukan** igével állnak, mert van alanyuk és tárgyuk:
+
+| Partizipioa | Szokásos alak | Jelentés |
+|---|---|---|
+| *gosaldu* | *gosaltzen dut* | reggelizem |
+| *bazkaldu* | *bazkaltzen dut* | ebédelek |
+| *afaldu* | *afaltzen dut* | vacsorázom |
+| *jan* | *jaten dut* | eszem |
+| *edan* | *edaten dut* | iszom |
+| *lan egin* | *lan egiten dut* | dolgozom |
+| *lo egin* | *lo egiten dut* | alszom |
+| *ikusi* | *ikusten dut* | látok |
+| *irakurri* | *irakurtzen dut* | olvasok |
+| *erosi* | *erosten dut* | vásárolok |
+
+> **Miért áll az egyik NAIZ, a másik DUT segédigével?** Ez a baszk kulcsfontosságú megkülönböztetése. *Esnatzen naiz* (felébredek): ez velem történik, nincs tárgya. *Jaten dut* (eszem): ennek van tárgya: *ogia jaten dut* (kenyeret eszem). Ezt a következő egységben alaposan megnézzük — egyelőre jegyezd meg az ige + segédige párokat.
+
+## A gyakoriság kifejezései
+
+| Euskera | Magyar |
+|---|---|
+| *egunero* | minden nap |
+| *beti* | mindig |
+| *askotan* | gyakran |
+| *batzuetan* | néha |
+| *normalean* | általában |
+| *gehienetan* | legtöbbször |
+| *gutxitan* | ritkán |
+| *inoiz ez* | soha |
+| *astero* | minden héten |
+| *hilero* | minden hónapban |
+
+## Összekapcsolt példák
+
+> *Egunero zazpietan esnatzen naiz eta dutxatzen naiz.* — Minden nap hétkor ébredek és lezuhanyozom.
+>
+> *Goizean kafea hartzen dut.* — Reggel kávét iszom.
+>
+> *Askotan lagunekin afaltzen dut.* — Gyakran vacsorázom a barátaimmal.
+>
+> *Batzuetan lo-kuluxka egiten dut bazkalostean.* — Néha szundítok egyet ebéd után.
+
+> **Megjegyzés:** a *bazkalostean* = "ebéd után" (szó szerint: "az ebéd után"). A baszk nyelvnek tömör szavai vannak a hétköznapi fogalmakra, például erre a rövid délutáni alvásra — a *lo-kuluxka* pontosan ezt jelenti.
+
