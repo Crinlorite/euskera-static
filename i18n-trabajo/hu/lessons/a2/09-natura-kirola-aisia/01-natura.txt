@@ -1,0 +1,129 @@
+@@ title
+Natura — a hegyek, a tenger és a táj
+@@ x0.prompt
+A "Gailurrera igo gara" azt jelenti, hogy felmentetek…
+@@ x0.explanation
+*Gailurra* = a csúcs. *Gailurrera igo* = felmenni a csúcsra — a kötelező fotó mondata.
+@@ x0.opt0
+A vonatra
+@@ x0.opt1
+A csúcsra
+@@ x0.opt2
+A liftbe
+@@ x0.opt3
+A fára
+@@ x1.prompt
+Mi az a "bidezidorra"?
+@@ x1.explanation
+*Bidezidorra* = az ösvény (bide + zidor, keskeny út). Erre jár az igazi mendizale.
+@@ x1.opt0
+Egy híd
+@@ x1.opt1
+Egy autópálya
+@@ x1.opt2
+Egy ösvény
+@@ x1.opt3
+Egy folyó
+@@ x2.prompt
+A folyó a völgyön folyik át = ibaia ___ -tik pasatzen da. (harana)
+@@ x2.explanation
+*Harana* = a völgy; -tik raggal: haranetik. A segítség megadja a szót; te teszed hozzá a tövet.
+@@ x3.prompt
+Lejöttünk a csúcsról = gailurretik ___ gara.
+@@ x3.explanation
+*Igo* (felmenni) ↔ *jaitsi* (lemenni), a hegy párosa: gailurrera igo, gailurretik jaitsi.
+@@ x4.card0
+a hegy
+@@ x4.card1
+a csúcs
+@@ x4.card2
+az erdő
+@@ x4.card3
+a fa
+@@ x4.card4
+a folyó
+@@ x4.card5
+a völgy
+@@ x4.card6
+a tenger
+@@ x4.card7
+a strand
+@@ x4.card8
+a hullámok
+@@ x4.card9
+a szikla
+@@ x4.card10
+a fű
+@@ x4.card11
+a virág
+@@ x4.card12
+az ösvény
+@@ x4.card13
+a táj
+@@ x5.pair0
+felmenni a hegyre
+@@ x5.pair1
+felérni a csúcsra
+@@ x5.pair2
+sétálni az erdőben
+@@ x5.pair3
+fürdeni a folyóban
+@@ x5.pair4
+a tengert nézni
+@@ x5.pair5
+lefényképezni
+@@ body
+
+Új egység: **szabad levegő**. A színtérrel kezdünk — hegy, erdő, folyó és tenger —, amely Euskal Herriában nem díszlet: vasárnapi program, világi vallás és kimeríthetetlen beszédtéma.
+
+## A hegy
+
+| Magyar | Euskera |
+|---|---|
+| A hegy | *mendia* |
+| A csúcs | *gailurra* |
+| A hegyoldal | *magala* |
+| Az erdő | *basoa* |
+| A fa | *zuhaitza* |
+| Az ösvény | *bidezidorra* |
+| A szikla | *harkaitza* |
+| A völgy | *harana* |
+
+> *Bidezidorretik gora, bi ordutan **gailurrera iritsiko gara**.* — Az ösvényen felfelé két óra alatt felérünk a csúcsra.
+>
+> *Basoan barrena **ibili ginen**, eta ez genuen inor ikusi. Bakea.* — Az erdőben jártunk, és senkit sem láttunk. Béke.
+
+## A víz
+
+| Magyar | Euskera |
+|---|---|
+| A folyó | *ibaia* |
+| A víztározó | *urtegia* |
+| A vízesés | *ur-jauzia* |
+| A tenger | *itsasoa* |
+| A strand | *hondartza* |
+| A hullámok | *olatuak* |
+| A meredek sziklafal | *labarra* |
+
+> *Uda honetan ibaian **bainatuko gara**, hondartzan **jende gehiegi** dago eta.* — Ezen a nyáron a folyóban fürdünk, mert a strandon túl sokan vannak. (Az *-egi* és az okhatározói *eta* munkában.)
+
+## A táj leírása
+
+> *Hemendik **bista ikusgarria** dago: harana, basoa eta urrutian **itsasoa**.* — Innen lenyűgöző a kilátás: a völgy, az erdő és a távolban a tenger.
+>
+> *Udazkenean basoa **kolore ederrekoa** da: horia, gorria, marroia.* — Ősszel gyönyörű színei vannak az erdőnek.
+>
+> *Zuhaitz hori **oso zaharra da** — ehun urte baino **gehiago** ditu.* — Az a fa nagyon öreg: több mint száz éves. (A 04. egység középfokai.)
+
+## Párbeszéd: a vasárnapi program
+
+> *— Igandean **mendira joango gara**? Anbotora, adibidez.*
+>
+> *— Anboto? Hori **gogorra** da niretzat! **Zerbait errazagoa**, mesedez…*
+>
+> *— Ados: Urkiolara **igoko gara**, bidezidor lasai batetik. **Gailurrean** hamaiketakoa.*
+>
+> *— Hamaiketakoarekin **konbentzitu nauzu**.* 😄
+
+> **Megjegyzés:** a *mendizaletasuna* (a hegyek szeretete) tiszta identitás: minden falunak megvan a "saját" hegye és a csúcsán a postaládája. A *hamaiketakoa* szó — a tizenegy órai tízórai — az igazi ok, amiért sokan felmennek. Ezt ne mondd túl hangosan.
+
