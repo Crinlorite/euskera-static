@@ -1,7 +1,21 @@
 @@ title
 Lugares del pueblo
+@@ x0.pair0
+bar
 @@ x0.pair1
 panadería
+@@ x0.pair2
+farmacia
+@@ x0.pair3
+biblioteca
+@@ x0.pair4
+iglesia
+@@ x0.pair5
+mercado
+@@ x0.pair6
+banco
+@@ x0.pair7
+hospital
 @@ x1.prompt
 Necesitas comprar pan. ¿A qué tipo de tienda vas?
 @@ x1.explanation

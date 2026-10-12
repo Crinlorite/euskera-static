@@ -1,7 +1,5 @@
 @@ title
 Presentarte (Ni X naiz)
-@@ x0.prompt
-Ni Egoitz ___.
 @@ x0.explanation
 "Naiz" es la forma de "izan" (ser/estar) para "yo".
 @@ x1.prompt

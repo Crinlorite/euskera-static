@@ -56,10 +56,18 @@ cada vez menos
 un poco
 @@ x3.card13
 mucho (intensifica)
+@@ x4.pair0
+comer demasiado
+@@ x4.pair1
+dormir poco / insuficiente
 @@ x4.pair2
 cada vez más frío
+@@ x4.pair3
+cada vez menos
 @@ x4.pair4
 un poco tarde
+@@ x4.pair5
+mucho mejor
 @@ body
 
 Esta lección completa las comparaciones con dos piezas más:

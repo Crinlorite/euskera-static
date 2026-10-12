@@ -52,6 +52,18 @@ encender
 apagar
 @@ x4.card13
 guardar
+@@ x5.pair0
+encender
+@@ x5.pair1
+apagar
+@@ x5.pair2
+guardar
+@@ x5.pair3
+borrar
+@@ x5.pair4
+descargar
+@@ x5.pair5
+compartir
 @@ body
 
 Del papel al píxel: la lección de **tecnología cotidiana**. Vocabulario que usas cien veces al día — ahora en euskera, que además presume de palabras transparentes y bien construidas (*pasahitza* = palabra de paso; *sakelakoa* = "el de bolsillo").

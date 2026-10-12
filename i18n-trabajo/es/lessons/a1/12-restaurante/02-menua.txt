@@ -52,8 +52,18 @@ helado
 tarta de manzana
 @@ x4.card17
 flan
+@@ x5.pair0
+primer plato
+@@ x5.pair1
+segundo plato
+@@ x5.pair2
+postre
+@@ x5.pair3
+bebida
 @@ x5.pair4
 menú del día
+@@ x5.pair5
+carta
 @@ body
 
 Saber leer el menú te abre puertas. En la mayoría de jatetxeak verás la estructura clásica de tres partes: primero, segundo y postre.

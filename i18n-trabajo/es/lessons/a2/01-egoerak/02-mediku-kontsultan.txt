@@ -52,8 +52,12 @@ la consulta
 ¿Desde cuándo?
 @@ x4.pair2
 ¿Te duele?
+@@ x4.pair3
+Toma esto
 @@ x4.pair4
 Vuelve dentro de una semana
+@@ x4.pair5
+Descansar
 @@ body
 
 Esta lección es un **simulacro completo de consulta médica**. Junta el vocabulario de la lección anterior con expresiones de tiempo (cada cuánto, antes/después de) y fórmulas frecuentes. La consulta es uno de los contextos más útiles para A2: aparece en cualquier examen oficial.

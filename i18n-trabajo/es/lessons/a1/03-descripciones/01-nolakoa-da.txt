@@ -54,6 +54,22 @@ feo/fea
 hermoso/hermosa
 @@ x4.card14
 elegante
+@@ x5.pair0
+alto
+@@ x5.pair1
+bajo
+@@ x5.pair2
+grande
+@@ x5.pair3
+pequeño
+@@ x5.pair4
+gordo
+@@ x5.pair5
+delgado
+@@ x5.pair6
+bonito
+@@ x5.pair7
+feo
 @@ body
 
 Cuando quieres describir cómo es una persona o una cosa de manera **estable** (físicamente, en general), en euskera usamos la pregunta **Nolakoa da?** ("¿cómo es?") y respondemos con el verbo **izan** + un adjetivo con la marca `-a` final.

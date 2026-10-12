@@ -18,34 +18,10 @@ Zenbat balio du? Precios y cantidades
 *hogei* = 20. Es la base del sistema vigesimal del euskera.
 @@ x2.prompt
 Cuesta 3 euros = ___ euro balio du.
-@@ x2.explanation
-*hiru* = 3.
 @@ x3.prompt
 Tomaré dos cafés = Bi kafe ___ ___.
 @@ x3.explanation
 Para "varias cosas" se usa *ditut* en lugar de *dut*.
-@@ x4.card0
-10
-@@ x4.card1
-12
-@@ x4.card2
-15
-@@ x4.card3
-20
-@@ x4.card4
-25
-@@ x4.card5
-30
-@@ x4.card6
-40
-@@ x4.card7
-50
-@@ x4.card8
-60
-@@ x4.card9
-80
-@@ x4.card10
-100
 @@ x4.card11
 el euro
 @@ x4.card12
@@ -58,6 +34,22 @@ céntimo
 caro
 @@ x4.card16
 barato
+@@ x5.pair0
+10
+@@ x5.pair1
+20
+@@ x5.pair2
+30
+@@ x5.pair3
+40
+@@ x5.pair4
+50
+@@ x5.pair5
+60
+@@ x5.pair6
+100
+@@ x5.pair7
+euro
 @@ body
 
 Para preguntar precios en euskera y entender lo que te dicen al cobrar, necesitas dos cosas: la fórmula **Zenbat balio du?** y los números hasta 100. El sistema de números del euskera es **vigesimal** (se basa en grupos de 20), así que requiere un poco de costumbre.

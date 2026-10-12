@@ -4,8 +4,6 @@ Preguntar el nombre
 ¿Cómo preguntas "¿Cómo te llamas?" en euskera?
 @@ x0.explanation
 "Zein" significa "cuál"; "izena" significa "el nombre"; literalmente "¿Cuál es tu nombre?".
-@@ x1.prompt
-Nire izena Maialen ___.
 @@ x1.explanation
 "Da" es la forma de "izan" (ser) para 3ª persona; el sujeto aquí es "izena".
 @@ x2.card0

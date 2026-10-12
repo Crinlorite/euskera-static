@@ -54,8 +54,18 @@ experiencia
 puesto de trabajo
 @@ x3.card16
 colegio profesional
+@@ x4.pair0
+profesor/a
+@@ x4.pair1
+enfermero/a
+@@ x4.pair2
+cocinero/a
+@@ x4.pair3
+periodista
 @@ x4.pair4
 mecánico/a
+@@ x4.pair5
+arquitecto/a
 @@ body
 
 A2 te abre el mundo del **trabajo** más allá de "soy estudiante / soy profesor". Ahora entras a hablar de:

@@ -56,6 +56,14 @@ he decidido
 el plan
 @@ x5.card13
 tengo ganas
+@@ x6.pair0
+ayer (pasado)
+@@ x6.pair1
+mañana (futuro)
+@@ x6.pair2
+anteayer
+@@ x6.pair3
+pasado mañana
 @@ x6.pair4
 la semana pasada
 @@ x6.pair5

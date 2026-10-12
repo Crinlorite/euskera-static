@@ -58,6 +58,8 @@ para ahorrar tiempo
 Es para escribir
 @@ x6.pair2
 ¿A dónde vas?
+@@ x6.pair3
+A comprar pan
 @@ x6.pair4
 ¿A qué ha venido?
 @@ x6.pair5

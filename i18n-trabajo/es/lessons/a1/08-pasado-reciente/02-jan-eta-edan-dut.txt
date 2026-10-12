@@ -24,8 +24,22 @@ Hemos comprado pan = Ogia erosi ___.
 Han bebido vino = Ardoa edan ___.
 @@ x3.explanation
 "Edan" lleva ukan; "ellos" → *dute*. Sujeto: *haiek*. Resultado: *haiek ardoa edan dute*.
+@@ x4.pair0
+he comido
+@@ x4.pair1
+he bebido
+@@ x4.pair2
+he visto
 @@ x4.pair3
 he leído
+@@ x4.pair4
+he comprado
+@@ x4.pair5
+he hecho
+@@ x4.pair6
+he tomado / he cogido
+@@ x4.pair7
+he aprendido / he estudiado
 @@ x5.card0
 he comido
 @@ x5.card1

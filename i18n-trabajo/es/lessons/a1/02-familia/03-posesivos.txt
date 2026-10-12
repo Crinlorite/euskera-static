@@ -2,8 +2,14 @@
 Posesivos (nire, zure, bere…)
 @@ x0.pair0
 mi/mío
+@@ x0.pair1
+tu/tuyo
 @@ x0.pair2
 su (de él/ella)
+@@ x0.pair3
+nuestro
+@@ x0.pair4
+vuestro
 @@ x0.pair5
 su (de ellos)
 @@ x1.prompt

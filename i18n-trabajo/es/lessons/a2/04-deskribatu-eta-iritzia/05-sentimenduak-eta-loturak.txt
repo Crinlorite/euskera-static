@@ -58,8 +58,12 @@ además
 finalmente
 @@ x3.card14
 por un lado / por otro
+@@ x4.pair0
+Estoy contento
 @@ x4.pair1
 Está triste
+@@ x4.pair2
+Tengo miedo
 @@ x4.pair3
 Está enfadado
 @@ x4.pair4

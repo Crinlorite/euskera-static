@@ -62,6 +62,8 @@ de ayer
 para el amigo
 @@ x5.pair1
 hasta el monte
+@@ x5.pair2
+hacia casa
 @@ x5.pair3
 por (culpa de) el amigo
 @@ x5.pair4

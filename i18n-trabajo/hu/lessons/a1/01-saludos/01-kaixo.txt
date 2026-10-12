@@ -1,0 +1,106 @@
+@@ title
+Kaixo, agur és más köszönések
+@@ x0.prompt
+Mit jelent az, hogy "Kaixo"?
+@@ x0.explanation
+A "Kaixo" a leggyakoribb köszönés baszkul, a "szia" megfelelője.
+@@ x0.opt0
+Szia
+@@ x0.opt1
+Viszlát
+@@ x0.opt2
+Kérlek
+@@ x0.opt3
+Köszönöm
+@@ x1.prompt
+Este van, és összefutsz egy barátoddal. Hogyan köszönsz neki?
+@@ x1.explanation
+A "Gabon" szót este használjuk, búcsúzáskor a "jó éjszakát" jelentésben is.
+@@ x2.prompt
+Az "Aspaldiko" jelentése…
+@@ x2.explanation
+Az "Aspaldiko" szót akkor használjuk, amikor hosszú idő után újra találkozunk valakivel.
+@@ x2.opt0
+Holnapig!
+@@ x2.opt1
+De rég nem láttalak!
+@@ x2.opt2
+Jó napot (délután)
+@@ x2.opt3
+Szívesen
+@@ x3.card0
+Szia
+@@ x3.card1
+Szia! (közvetlen)
+@@ x3.card2
+Jó reggelt
+@@ x3.card3
+Jó delet
+@@ x3.card4
+Jó napot (délután)
+@@ x3.card5
+Jó estét / Jó éjszakát
+@@ x3.card6
+De rég nem láttalak!
+@@ x3.card7
+Viszlát
+@@ x3.card8
+Viszlát később
+@@ x3.card9
+Holnapig
+@@ x3.card10
+Minden jót
+@@ x3.card11
+Köszönöm szépen
+@@ x3.card12
+Szívesen
+@@ x4.pair0
+Szia
+@@ x4.pair1
+Viszlát
+@@ x4.pair2
+Jó reggelt
+@@ x4.pair3
+Jó éjszakát
+@@ x4.pair4
+Viszlát később
+@@ x4.pair5
+Köszönöm szépen
+@@ body
+
+Baszkul a köszönés a napszaktól függően változik. Az univerzális és leggyakoribb formula a **Kaixo**, amelyet a nap bármely szakában szinte bárkinek mondhatsz — akárcsak a magyar "szia" szót. A **Hepa** és az **Aupa** még közvetlenebb változatok, főleg fiatalok és barátok között.
+
+## Köszönések napszakok szerint
+
+| Mikor | Euskera | Magyar |
+|---|---|---|
+| Reggel, délig | *Egun on* | Jó reggelt |
+| Délben / ebédidőben | *Eguerdi on* | Jó delet |
+| Délután, ebéd után | *Arratsalde on* | Jó napot (délután) |
+| Este és esti búcsúzáskor | *Gabon* | Jó estét / Jó éjszakát |
+| Bármikor | *Kaixo* / *Hepa* / *Aupa* | Szia |
+
+Az `On` jelentése "jó", és sok köszönésben szerepel: az *egun on* szó szerint "nap jó".
+
+## Újra találkozni
+
+Ha olyan valakit látsz, akivel régóta nem találkoztál, a természetes köszönés az **Aspaldiko!** ("de rég nem láttalak!").
+
+## Elköszönés
+
+A leguniverzálisabb búcsúszó az **Agur**, a "viszlát" megfelelője. Gyakoriak még:
+
+- **Gero arte** — viszlát később
+- **Bihar arte** — holnapig
+- **Hurrengora arte** — a következő alkalomig
+- **Ondo ibili** / **Ondo segi** — minden jót (szó szerint: "járj jól")
+
+## "Köszönöm" és "szívesen"
+
+Két kifejezés, amelyet folyton használni fogsz:
+
+- **Eskerrik asko** (vagy **Mila esker**) — köszönöm szépen
+- **Ez horregatik** — szívesen
+
+> **Kulturális megjegyzés:** Euskal Herriában sokan természetes módon váltogatják a spanyolt és a baszkot. Ha a beszélgetést *Kaixo* vagy *Egun on* köszönéssel kezded, kedvesen jelzed, hogy ismered a nyelvet.
+

@@ -74,6 +74,8 @@ el último autobús
 Ida y vuelta, por favor
 @@ x6.pair4
 Va con retraso
+@@ x6.pair5
+Hemos llegado a tiempo
 @@ body
 
 Segunda parada: **comprar el billete y no perder el tren**. Aquí reciclas dos armas del A1 — *zenbat balio du?* (precios) y las horas — y las pones a trabajar en la taquilla.

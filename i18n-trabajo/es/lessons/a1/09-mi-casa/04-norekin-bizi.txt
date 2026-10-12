@@ -1,5 +1,7 @@
 @@ title
 Norekin bizi zara? — Con quién vives
+@@ x0.pair0
+solo/a
 @@ x0.pair1
 con un/a amigo/a
 @@ x0.pair2

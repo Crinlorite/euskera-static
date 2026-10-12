@@ -1,9 +1,19 @@
 @@ title
 Muebles y objetos de la casa
+@@ x0.pair0
+mesa
+@@ x0.pair1
+silla
+@@ x0.pair2
+cama
+@@ x0.pair3
+armario
 @@ x0.pair4
 sofá
 @@ x0.pair5
 televisión
+@@ x0.pair6
+nevera
 @@ x1.prompt
 ¿En qué habitación está el "hozkailua"?
 @@ x1.explanation
