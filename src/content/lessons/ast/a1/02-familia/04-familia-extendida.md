@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: tía
   - eu: lehengusu
-    es: primo
+    es: primu
   - eu: lehengusina
     es: prima
   - eu: iloba
-    es: sobrino/a
+    es: sobrín/ina
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" ye...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - primu
+  - hermanu
+  - güelu
+  - suegru
   answer: 0
 - id: ex-fe-fc
   type: flashcards
@@ -59,7 +59,7 @@ Más allá de padres, hermanos y fíos, la familia estiéndese con tíos, primos
 
 ## Tíos y primos
 
-| Eusquera | Castellán |
+| Eusquera | Asturianu |
 |---|---|
 | *osaba* | tíu |
 | *izeba* | tía |
@@ -69,7 +69,7 @@ Más allá de padres, hermanos y fíos, la familia estiéndese con tíos, primos
 
 ## Familia política
 
-| Eusquera | Castellán |
+| Eusquera | Asturianu |
 |---|---|
 | *aitaginarreba* | suegru |
 | *amaginarreba* | suegra |

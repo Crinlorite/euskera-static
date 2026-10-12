@@ -32,7 +32,7 @@ exercises:
   explanation: Eth sufix "-ko" indique procedéncia/apertenéncia; damb era "-a" der article demore "-koa".
 - id: ex-05-nz-fb2
   type: fill-in-blank
-  prompt: Vivo en Donostia = Donostia___ bizi naiz.
+  prompt: Visqui en Donostia = Donostia___ bizi naiz.
   answers:
   - n
   explanation: Entara residéncia s'utilize eth locatiu `-(e)n` ("en"). Donostia + -n = Donostian (era "a" finau se manten).

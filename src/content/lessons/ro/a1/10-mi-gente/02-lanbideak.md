@@ -15,17 +15,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: profesor/profesoară
   - eu: ikaslea
-    es: estudiante
+    es: student/ă
   - eu: medikua
     es: medic/ă
   - eu: erizaina
-    es: enfermero/a
+    es: asistent/ă medical/ă
   - eu: sukaldaria
-    es: cocinero/a
+    es: bucătar/bucătăreasă
   - eu: kazetaria
-    es: periodista
+    es: jurnalist/ă
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: Cine este un "polizia"?
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: '"Mekanikaria" lucrează cu...'
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - bolnavi
+  - cărți
+  - mașini
+  - copii
   answer: 2
   explanation: '"Mekanikaria" este mecanicul, de obicei lucrează în ateliere cu mașini.'
 - id: ex-10-02-fb1

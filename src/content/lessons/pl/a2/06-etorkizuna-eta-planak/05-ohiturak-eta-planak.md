@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'PRZYSZŁOŚĆ: pójdę'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PRZESZŁOŚĆ JEDNORAZOWA: poszedłem'
   - eu: Joaten nintzen
     es: 'PRZESZŁOŚĆ nawyk: chodziłem'
   - eu: Joan ohi nintzen
     es: 'PRZESZŁOŚĆ nawyk: miałem w zwyczaju chodzić'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'TERAZ: właśnie idę'
 ---
 
 Ostatnia lekcja w tym rozdziale — i zamknięcie ogromnego etapu: z przyszłością w kieszeni, **panujesz nad trzema czasami**. Ta lekcja to wisienka na torcie (*ohi*, baskijskie "mieć w zwyczaju") i sprawi, że będziesz w stanie przenieść tę samą myśl przez przeszłość, teraźniejszość (nawyk) i przyszłość. To jest dokładnie to, co komisja egzaminacyjna na poziomie A2 chce usłyszeć.

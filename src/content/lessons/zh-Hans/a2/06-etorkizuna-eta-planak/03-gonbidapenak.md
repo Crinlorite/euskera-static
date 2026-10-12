@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + 现在时动词是经典的委婉提议方式，和西班牙语里一样。其他选项问的是过去、目的地或返回。'
+  explanation: '*Zergatik ez…?* + 现在时动词是经典的委婉提议方式，就像中文的“为什么不……呢？”。其他选项问的是过去、目的地或返回。'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: 我们六点见？ = seietan ___ gara?
@@ -105,7 +105,7 @@ exercises:
 
 ## 邀请和提议
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你想和我一起吃晚饭吗？ | *Nirekin afaldu **nahi duzu**?* |
 | 我们为什么不去看电影呢？ | ***Zergatik ez** goaz zinemara?* |
@@ -117,7 +117,7 @@ exercises:
 
 ## 见面：地点和时间
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我们见面吗？ | ***Geratuko gara?*** |
 | 我们在哪里见？ | ***Non** geratuko gara?* |

@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: s'il vous plaît
   - eu: eskerrik asko
-    es: muchas gracias
+    es: merci beaucoup
   - eu: ez horregatik
     es: de rien
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Pour moi
   - eu: ona
-    es: bueno
+    es: bon
 ---
 
 Commander au bar est l'une des choses les plus utiles que tu sauras dire en basque. La formule de base est très directe : nom de ce que tu veux + **bat** (un) + **mesedez** (s'il vous plaît). Et c'est tout.
@@ -157,4 +157,4 @@ En basque, le "eh !" ou "s'il vous plaît !" typique pour attirer l'attention es
 >
 > — *Ederki!* — Parfait !
 
-> **Note culturelle :** dans une taverne basque, il est normal de commander au comptoir, de boire debout et de parler fort. *Mesedez* et *eskerrik asko* sont basiques mais pas obligatoires dans chaque phrase — contrairement à l'espagnol, un "*ebakia*" sec n'est pas considéré comme impoli, tant que le ton est cordial.
+> **Note culturelle :** dans une taverne basque, il est normal de commander au comptoir, de boire debout et de parler fort. *Mesedez* et *eskerrik asko* sont basiques mais pas obligatoires dans chaque phrase — contrairement au français, un "*ebakia*" sec n'est pas considéré comme impoli, tant que le ton est cordial.

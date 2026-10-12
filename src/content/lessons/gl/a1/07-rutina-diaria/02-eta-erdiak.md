@@ -121,7 +121,7 @@ A partir da media en diante, falamos en función da hora seguinte coa palabra **
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Se vés do castelán, o máis raro é que **gutxi** vaia **detrás** do número, non diante. *Bederatziak laurden gutxi* literalmente é "as nove cuarto menos".
+> Para quen fala galego, o máis raro é que **gutxi** vaia **detrás** do número, non diante. *Bederatziak laurden gutxi* literalmente é "as nove cuarto menos".
 
 ## Táboa resumo
 

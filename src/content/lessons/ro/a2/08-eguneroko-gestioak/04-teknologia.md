@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: a porni
   - eu: itzali
-    es: apagar
+    es: a opri
   - eu: gorde
-    es: guardar
+    es: a salva
   - eu: ezabatu
-    es: borrar
+    es: a șterge
   - eu: deskargatu
-    es: descargar
+    es: a descărca
   - eu: partekatu
-    es: compartir
+    es: a distribui
 ---
 
 De la hârtie la pixel: lecția de **tehnologie cotidiană**. Vocabular pe care îl folosești de o sută de ori pe zi — acum în bască, care se mândrește și cu cuvinte transparente și bine construite (*pasahitza* = cuvânt de trecere; *sakelakoa* = „cel de buzunar”).

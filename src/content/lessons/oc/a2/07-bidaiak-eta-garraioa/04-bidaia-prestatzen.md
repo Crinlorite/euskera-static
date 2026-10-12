@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: Causir destinacion
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: Crompar bilhets
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: Reservar lotjament
   - eu: Maleta prestatuko dut
     es: Hèr era maleta
   - eu: Ez ahaztu kargagailua!
@@ -118,7 +118,7 @@ Un viatge se gaudís dues viatges: en tot viuer-lo e **en tot planificar-lo**. A
 
 ## Era maleta
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Era maleta / era motxilla | *maleta / motxila* |
 | Es documents | *agiriak* |

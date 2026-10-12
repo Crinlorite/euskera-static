@@ -21,7 +21,7 @@ exercises:
   - eu: medikua
     es: medico/a
   - eu: erizaina
-    es: enfermero/a
+    es: infermero/a
   - eu: sukaldaria
     es: cocinero/a
   - eu: kazetaria
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: '"Mekanikaria" treballa con...'
   options:
-  - enfermos
+  - malos
   - libros
   - coches
-  - niños
+  - ninos
   answer: 2
   explanation: '"Mekanikaria" ye o mecanico, gosa treballar en tallers con autos.'
 - id: ex-10-02-fb1
@@ -64,7 +64,7 @@ exercises:
   - eu: medikua
     es: medico/a
   - eu: erizaina
-    es: enfermero/a
+    es: infermero/a
   - eu: sukaldaria
     es: cocinero/a
   - eu: kazetaria
@@ -118,7 +118,7 @@ Ista lección **amplía** as profesions que ya viés en a unidat de descripción
 
 | Basco | Aragonés |
 |---|---|
-| *erizaina* | enfermero/a |
+| *erizaina* | infermero/a |
 | *sukaldaria* | cocinero/a |
 | *kazetaria* | periodista |
 | *idazlea* | escritor/a |

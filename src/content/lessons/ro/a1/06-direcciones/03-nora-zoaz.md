@@ -102,13 +102,13 @@ exercises:
   - eu: Nora zoaz?
     es: Încotro te duci?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Merg acasă
   - eu: Eskolara noa
     es: Mă duc la școală
   - eu: Zertara zoaz?
     es: Pentru ce te duci?
   - eu: Erostera
-    es: A comprar
+    es: La cumpărături
 ---
 
 **Cazul NORA** (numit și *adlativ*) marchează **destinația** unei mișcări: încotro te duci. În română se traduce de obicei cu prepoziția **„la”** („mă duc *acasă*”, „*la* Bilbao”, „*la* parc”).

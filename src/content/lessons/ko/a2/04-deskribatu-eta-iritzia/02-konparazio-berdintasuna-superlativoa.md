@@ -94,7 +94,7 @@ exercises:
 
 > **X bezain Y**
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 너만큼 키가 큰 | *Zu **bezain** altua* |
 | 도노스티아만큼 예쁜 | *Donostia **bezain** polita* |
@@ -107,7 +107,7 @@ exercises:
 
 명사나 수량과 함께 "~만큼 많이"를 표현할 때:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 너만큼 많이 | *Zuk **adina*** / *Zuk **beste*** |
 | 나만큼 많은 돈 | *Nik **adina** diru* |
@@ -123,7 +123,7 @@ exercises:
 
 또 다른 형태의 동등 비교로, 이번에는 **방식**이나 **방법**을 나타냅니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 너처럼 | *Zu **bezala*** / *Zure **moduan*** |
 | 네가 한 것처럼 해 | *Zuk egin duzun **moduan** egiten dut* |
@@ -159,7 +159,7 @@ exercises:
 
 **어떤 그룹 내에서**인지 나타낼 때는 처격 또는 속격 조사를 사용합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 반에서 가장 키가 큰 | *Klaseko **altuena*** |
 | 세상에서 가장 빠른 | *Munduko **azkarrena*** |
@@ -174,7 +174,7 @@ exercises:
 
 수량이나 빈도를 나타내는 최상급 표현입니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 내가 가장 좋아하는 것 | *Gehien gustatzen zaidana* |
 | 내가 가장 적게 하는 것 | *Gutxien egiten dudana* |

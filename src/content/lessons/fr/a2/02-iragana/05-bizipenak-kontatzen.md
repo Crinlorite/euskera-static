@@ -27,8 +27,8 @@ exercises:
   prompt: Pour parler de la **scène** d'arrière-plan (comment était la journée, où ils/elles étaient) dans une histoire, quel temps du passé j'utilise ?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Présent
+  - Passé récent (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: La scène, la description et les habitudes se mettent à l'imparfait. Les actions ponctuelles qui font avancer l'histoire se mettent au *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: il/elle s'est marié(e)
   - eu: bidaiatu zuten
-    es: viajaron
+    es: ils ont voyagé
   - eu: ezagutu nuen
     es: j'ai rencontré
   - eu: maitemindu nintzen

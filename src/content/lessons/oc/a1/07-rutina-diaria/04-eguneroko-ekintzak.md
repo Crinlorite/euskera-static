@@ -49,23 +49,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: esnatu
-    es: despertarse
+    es: desvelhar-se
   - eu: jaiki
-    es: levantarse
+    es: lheuar-se
   - eu: dutxatu
-    es: ducharse
+    es: dochar-se
   - eu: gosaldu
-    es: desayunar
+    es: esdejoar
   - eu: bazkaldu
-    es: comer (almorzar)
+    es: dinar
   - eu: afaldu
-    es: cenar
+    es: sopar
   - eu: lan egin
-    es: trabajar
+    es: trabalhar
   - eu: lo egin
     es: dormir
   - eu: oheratu
-    es: acostarse
+    es: anar-se'n a dormir
 - id: ex-04-ee-fc
   type: flashcards
   cards:
@@ -154,7 +154,7 @@ Aguesti van **damb ukan** perque an subjècte e objècte:
 
 ## Marcaires de freqüéncia
 
-| Basc | Occitan |
+| Basc | Aranés |
 |---|---|
 | *egunero* | cada dia / toti es dies |
 | *beti* | tostemps |

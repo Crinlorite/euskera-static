@@ -87,16 +87,16 @@ exercises:
   - eu: gosaldu ondoren
     es: après le petit-déjeuner
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: quand je prends le petit-déjeuner
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: pendant que je prends le petit-déjeuner
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: dès que j'ai pris le petit-déjeuner
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: sans prendre de petit-déjeuner
 ---
 
-Vos phrases savent déjà CE QUI s'est passé ; cette leçon leur apprend à dire **QUAND** avec une précision d'horloger : *cuando llegué*, *antes de salir*, *después de comer*, *mientras dormías*. Trois pièces et les combinaisons se font toutes seules.
+Vos phrases savent déjà CE QUI s'est passé ; cette leçon leur apprend à dire **QUAND** avec une précision d'horloger : *quand je suis arrivé*, *avant de partir*, *après avoir mangé*, *pendant que tu dormais*. Trois pièces et les combinaisons se font toutes seules.
 
 ## Pièce 1 : -NEAN (quand)
 

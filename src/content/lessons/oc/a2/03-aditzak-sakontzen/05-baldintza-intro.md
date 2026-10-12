@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Se deman plòu
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Se auia temps
   - eu: Erosiko nuke
     es: Ac comprarie
   - eu: Joango nintzateke
     es: Anarie
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Se jo siguesse ric
   - eu: Edukiko bagenu
     es: S'auéssem
 ---
@@ -95,7 +95,7 @@ Entàs ipotèsis sus eth **futur probable** o present, eth basc utilize eth pref
 
 > **ba- + present der auxiliar, ... + futur**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Se plòu, non anarè | *Euria egiten **badu**, ez naiz joango* |
 | S'as temps, vier | *Astia **baduzu**, etorri* |
@@ -122,7 +122,7 @@ Entàs ipotèsis irreales o fòrça pòc probables ("s'èra...", "s'aués..."), 
 
 ### Fòrmes de *izan* en condicion irreau
 
-| Pronom | Fòrma | Castelhan |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | ni | **banintz** | s'èra/estès |
 | zu | **bazina** | se tu ères/estèsses |
@@ -133,7 +133,7 @@ Entàs ipotèsis irreales o fòrça pòc probables ("s'èra...", "s'aués..."), 
 
 ### Fòrmes de *ukan* en condicion irreau
 
-| Pronom | Fòrma | Castelhan |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | nik | **banu** | s'ac aués |
 | zuk | **bazenu** | s'ac auesses |
@@ -149,7 +149,7 @@ Eth "comprar**ie** / anar**ie** / ser**ie**" se fòrme damb **-ko/-go** (era mad
 
 ### NOR-NORK condicionau ("jo ac + -rie")
 
-| Pronom | Fòrma | Castelhan |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | nik | **nuke** | jo ac —rie |
 | zuk | **zenuke** | tu ac —ries |
@@ -159,7 +159,7 @@ Eth "comprar**ie** / anar**ie** / ser**ie**" se fòrme damb **-ko/-go** (era mad
 
 ### NOR condicionau ("jo —rie", intransitiu)
 
-| Pronom | Fòrma | Castelhan |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | ni | **nintzateke** | jo —rie |
 | zu | **zinateke** | tu —ries |
@@ -193,7 +193,7 @@ Eth "comprar**ie** / anar**ie** / ser**ie**" se fòrme damb **-ko/-go** (era mad
 
 ## Frases hèites fòrça utiles
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Vories…? | *Nahi **zenuke**…?* |
 | M'agradarie… | *Gustatuko **litzaidake**…* |

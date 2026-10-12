@@ -54,7 +54,7 @@ exercises:
   - eu: Etorri nahi duzu afaltzera?
     es: ¿Quies venir cenar?
   - eu: Bai, oso ongi
-    es: Sí, perfecto
+    es: Sí, perfectu
   - eu: Ezin dut
     es: Non puedo
   - eu: Geratuko gara
@@ -106,7 +106,7 @@ Yá tienes toles pieces: tipos de restaurante, menú, pidir, pagar. Vamos integr
 >
 > — *Bederatzi eta erdietan, taberna ondoan?* — ¿A les nueve y media, al llau del chigre?
 >
-> — *Ederki!* — ¡Perfecto!
+> — *Ederki!* — ¡Perfectu!
 
 Frases pa escusase cuando non puedes:
 

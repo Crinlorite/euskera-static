@@ -88,24 +88,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: 衬衫
   - eu: galtzak
-    es: pantalones
+    es: 裤子
   - eu: soineko
-    es: vestido
+    es: 连衣裙
   - eu: jertsea
-    es: jersey
+    es: 毛衣
   - eu: zapatak
-    es: zapatos
+    es: 鞋
   - eu: beroki
-    es: abrigo
+    es: 大衣
 ---
 
 在A1级别，你学了关于**服装**和**房屋**的基础词汇。在A2级别，你将扩展到更具体的领域：**尺码、试衣间、配饰**，以及作为**社交空间的住房**（租赁、房主、街区、花园）。
 
 ## 服装：A2词汇
 
-| 类别 | 西班牙语 | 巴斯克语 |
+| 类别 | 中文 | 巴斯克语 |
 |---|---|---|
 | 衬衫类 | 衬衫 | *alkandora* |
 | | T恤 | *kamiseta* |
@@ -133,7 +133,7 @@ exercises:
 
 ## 在服装店
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你有更大一码的吗？ | *Neurri **handiagorik** baduzu?* |
 | 请给我小一码的 | *Neurri txikiago bat, mesedez* |
@@ -157,7 +157,7 @@ exercises:
 
 ## 住房：A2词汇
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 住房 | *etxebizitza* |
 | 公寓 | *pisua* |
@@ -168,7 +168,7 @@ exercises:
 
 ### 新的部分
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 露台 | *terraza* |
 | 阳台 | *balkoia* |
@@ -180,7 +180,7 @@ exercises:
 
 ## 租赁 / 购买
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 出租 | *Alokairuan dago* |
 | 出售 | *Salgai dago* |

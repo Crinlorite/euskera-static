@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: 食べすぎる
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: 睡眠が足りない
   - eu: gero eta hotzago
     es: ますます寒くなる
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: ますます少なく
   - eu: pixka bat berandu
     es: 少し遅い
   - eu: askoz hobeto
-    es: mucho mejor
+    es: ずっとよい
 ---
 
 このレッスンでは、比較表現をさらに2つの要素で補完します:
@@ -133,7 +133,7 @@ exercises:
 
 「**ますますXになる**」や「**ますますXでなくなる**」を表現するために、バスク語では非常に表現豊かな形式を使います：
 
-> **gero eta + adjetivo/adverbio-ago(a)**
+> **gero eta + 形容詞／副詞-ago(a)**
 
 | 日本語 | バスク語 |
 |---|---|

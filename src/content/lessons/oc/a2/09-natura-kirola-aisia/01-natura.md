@@ -77,7 +77,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mendira igo
-    es: subir al monte
+    es: pujar ara montanha
   - eu: gailurrera iritsi
     es: arribar ath tuc
   - eu: basoan barrena ibili
@@ -85,7 +85,7 @@ exercises:
   - eu: ibaian bainatu
     es: banhar-se en arriu
   - eu: itsasoari begira egon
-    es: estar mirando al mar
+    es: estar en tot guardar era mar
   - eu: argazkia atera
     es: hèr era fòto
 ---
@@ -94,7 +94,7 @@ Unitat naua: **aire liure**. Començam per scenari — montanha, bòsc, arriu e 
 
 ## Era montanha
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Era montanha | *mendia* |
 | Eth tuc | *gailurra* |
@@ -111,7 +111,7 @@ Unitat naua: **aire liure**. Començam per scenari — montanha, bòsc, arriu e 
 
 ## Er aigua
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Er arriu | *ibaia* |
 | Er embassament / pantan | *urtegia* |

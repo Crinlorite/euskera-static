@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: per favor
   - eu: eskerrik asko
-    es: muchas gracias
+    es: muitas gracias
   - eu: ez horregatik
     es: de res
   - eu: Nahi duzu...?
@@ -117,7 +117,7 @@ Pa sonar un poquet mas natural y menos "robot", bi ha atras trazas igualment cor
 
 - **Hartuko dut...** — *Preneré...* (literal: "preneré"). Mui usau.
   - *Ebakia hartuko dut.* — Preneré un tallau.
-  - *Garagardo bat hartuko dut.* — Preneré una cerveza.
+  - *Garagardo bat hartuko dut.* — Preneré una cervesa.
 - **Niretzat...** — *Pa yo...* (quan soz demandando cuantas personas).
   - *Niretzat kafe hutsa, mesedez.* — Pa yo un café solo, per favor.
 - **Nahi dut...** — *Quiero...* (mas directo, en bels contextos puede sonar brusco; millor *hartuko dut*).
@@ -157,4 +157,4 @@ En basco o "oye / oiga" tipico pa clamar o ficacio ye **Aizu!** (informal y mui 
 >
 > — *Ederki!* — Estupendo!
 
-> **Nota cultural:** en una tabierna basca lo normal ye demandar en a barra, beber de piet y charrar fuerte. *Mesedez* y *eskerrik asko* son basicos pero no obligatorios en cada frase — a o contrario que en castellano, no se considera de mala educación un "*ebakia*" ixuto, siempre que o tono siga cordial.
+> **Nota cultural:** en una tabierna basca lo normal ye demandar en a barra, beber de piet y charrar fuerte. *Mesedez* y *eskerrik asko* son basicos pero no obligatorios en cada frase — a o contrario de lo que podrías pensar, no se considera de mala educación un "*ebakia*" ixuto, siempre que o tono siga cordial.

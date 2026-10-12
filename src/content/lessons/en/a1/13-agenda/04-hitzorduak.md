@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: appointment
   - eu: bilera
     es: meeting
   - eu: libre
-    es: libre
+    es: free
   - eu: lanpetuta
-    es: ocupado/a
+    es: busy
   - eu: geratu
-    es: quedar
+    es: to meet up
   - eu: geratuko gara
-    es: quedaremos
+    es: we'll meet up
 ---
 
 A busy schedule is full of appointments and plans. This lesson teaches you how to talk about them: having an appointment, meeting up with someone, saying if you're free.

@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: meu/mea
   - eu: zure
-    es: tu/tuyo
+    es: tău/al tău
   - eu: bere
     es: său/sa (al lui/ei)
   - eu: gure
-    es: nuestro
+    es: nostru
   - eu: zuen
-    es: vuestro
+    es: vostru
   - eu: beren
     es: lor
 - id: ex-pos-fb1

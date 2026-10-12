@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: weekend
   - eu: bihar
-    es: mañana
+    es: jutro
   - eu: etzi
-    es: pasado mañana
+    es: pojutrze
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: dziś po południu
   - eu: libre nago
-    es: estoy libre
+    es: mam czas
 ---
 
 Ostatnia lekcja w tym rozdziale: zbudujemy **cały tydzień**, łącząc wszystko, czego się nauczyliśmy. Dni, czas przyszły, spotkania, określenia czasu... język planowania.

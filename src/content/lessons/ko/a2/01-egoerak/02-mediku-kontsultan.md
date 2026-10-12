@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago"는 무슨 뜻일까요?'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - 더 나빠졌어요
+  - 괜찮아요
+  - 나아졌어요
+  - 그대로예요
   answer: 2
   explanation: '*Hobeto* = 더 나은. *Hobe*는 ''더 좋은''이라는 형용사이고 *hobeto*는 부사입니다.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: 아프세요?
   - eu: Hartu hau
-    es: Toma esto
+    es: 이것을 드세요
   - eu: Itzuli astebete barru
     es: 일주일 후에 다시 오세요
   - eu: Atseden hartu
-    es: Descansar
+    es: 쉬다
 ---
 
 이번 과는 **병원 진료를 그대로 재현한 모의 상황**입니다. 이전 과의 어휘와 시간 표현(얼마나 자주, 전/후에) 및 자주 쓰이는 표현들을 함께 다룹니다. 병원 진료는 A2 레벨에서 가장 유용한 상황 중 하나로, 모든 공인 시험에 등장합니다.
@@ -99,7 +99,7 @@ exercises:
 
 바스크어에서는 '매 X 시간마다'를 나타내기 위해 시간 명사 뒤에 접미사 **-ro**를 붙입니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 매시간 | *orduro* |
 | 두 시간마다 | *bi orduro* |
@@ -124,7 +124,7 @@ exercises:
 
 몸 상태가 어떤지 대답할 때:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 더 나아졌어요 | *Hobeto nago* |
 | 더 나빠졌어요 | *Okerrago nago* |

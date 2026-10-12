@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: الإفراط في الأكل
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: قلّة النوم
   - eu: gero eta hotzago
     es: أبرد فأبرد
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: أقل فأقل
   - eu: pixka bat berandu
     es: متأخر قليلاً
   - eu: askoz hobeto
-    es: mucho mejor
+    es: أفضل بكثير
 ---
 
 يكمل هذا الدرس المقارنات بجزأين إضافيين:
@@ -133,7 +133,7 @@ exercises:
 
 للتعبير عن "**أكثر فأكثر X**" أو "**أقل فأقل X**"، تستخدم اللغة الباسكية صيغة معبرة جدًا:
 
-> **gero eta + adjetivo/adverbio-ago(a)**
+> **gero eta + صفة/ظرف-ago(a)**
 
 | العربية | الباسكية |
 |---|---|

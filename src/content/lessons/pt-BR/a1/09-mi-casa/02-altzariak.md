@@ -17,17 +17,17 @@ exercises:
   - eu: mahaia
     es: mesa
   - eu: aulkia
-    es: silla
+    es: cadeira
   - eu: ohea
     es: cama
   - eu: armairua
-    es: armario
+    es: armário
   - eu: sofa
     es: sofá
   - eu: telebista
     es: televisão
   - eu: hozkailua
-    es: nevera
+    es: geladeira
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: Em que cômodo fica o "hozkailua"?

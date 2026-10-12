@@ -94,7 +94,7 @@ Wiesz już, jak dotrzeć na miejsce; teraz czas na **spanie**. Od hotelu po wiej
 
 ## Gdzie spać
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | Hotel | *hotela* |
 | Pensjonat | *pentsioa* |
@@ -130,7 +130,7 @@ Gramatycznym zagadnieniem tej lekcji jest **celownik (destinativus) -rako / -eta
 
 ## Prośby i pytania podczas pobytu
 
-| Hiszpański | Baskijski |
+| Polski | Baskijski |
 |---|---|
 | O której godzinie trzeba opuścić pokój? | *Zer ordutan utzi behar da gela?* |
 | Czy są wolne pokoje? | *Gelarik badago libre?* |

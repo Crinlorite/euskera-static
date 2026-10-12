@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: rendez-vous
   - eu: bilera
     es: réunion
   - eu: libre
     es: libre
   - eu: lanpetuta
-    es: ocupado/a
+    es: occupé/e
   - eu: geratu
-    es: quedar
+    es: se donner rendez-vous
   - eu: geratuko gara
-    es: quedaremos
+    es: on se retrouvera
 ---
 
 Un agenda bien rempli est plein de rendez-vous et d'engagements. Cette leçon vous apprend à en parler : avoir un rendez-vous, retrouver quelqu'un, dire si vous êtes libre.

@@ -82,7 +82,7 @@ exercises:
   - eu: pixka bat berandu
     es: un pouco tarde
   - eu: askoz hobeto
-    es: mucho mejor
+    es: moito mellor
 ---
 
 Esta lección completa as comparacións con dúas pezas máis:
@@ -116,7 +116,7 @@ Para dicir que algo é **excesivo**, engádese **-egi** ao adxectivo (e logo o *
 
 Como adverbios independentes:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Demasiado | *gehiegi* |
 | Demasiado pouco / insuficiente | *gutxiegi* |
@@ -135,7 +135,7 @@ Para "**cada vez máis X**" ou "**cada vez menos X**", o éuscaro usa unha fórm
 
 > **gero eta + adxectivo/adverbio-ago(a)**
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Cada vez máis caro | *Gero eta **garestiagoa*** |
 | Cada vez máis frío | *Gero eta **hotzagoa*** |
@@ -156,7 +156,7 @@ Para "**cada vez máis X**" ou "**cada vez menos X**", o éuscaro usa unha fórm
 
 ## *Hain* — "tan" (con ou sen negación)
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | É tan grande | *Hain handia da* |
 | Non é tan caro | *Ez da **hain** garestia* |
@@ -170,7 +170,7 @@ Para "**cada vez máis X**" ou "**cada vez menos X**", o éuscaro usa unha fórm
 
 Para matizar as comparacións:
 
-| Castelán | Éuscaro | Exemplo |
+| Galego | Éuscaro | Exemplo |
 |---|---|---|
 | Un pouco | *pixka bat* | *Pixka bat handiagoa* (un pouco máis grande) |
 | Algo | *zerbait / zertxobait* | *Zertxobait txikiagoa* (algo máis pequeno) |

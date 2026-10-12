@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: 明日雨が降ったら
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: 時間があれば
   - eu: Erosiko nuke
     es: それを買うだろうに
   - eu: Joango nintzateke
     es: 行くだろうに
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: もし私がお金持ちなら
   - eu: Edukiko bagenu
     es: もし私たちが持っていたら
 ---
@@ -95,7 +95,7 @@ exercises:
 
 > **ba- + 助動詞の現在形, ... + 未来形**
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | もし雨が降ったら、行きません | *Euria egiten **badu**, ez naiz joango* |
 | もし時間があれば、来てください | *Astia **baduzu**, etorri* |
@@ -122,7 +122,7 @@ exercises:
 
 ### 非現実的条件における *izan* の形
 
-| 人称 | 形 | スペイン語 |
+| 人称 | 形 | 日本語 |
 |---|---|---|
 | ni | **banintz** | もし私が〜だったら／〜いたら |
 | zu | **bazina** | もし君が〜だったら |
@@ -133,7 +133,7 @@ exercises:
 
 ### 非現実的条件における *ukan* の形
 
-| 人称 | 形 | スペイン語 |
+| 人称 | 形 | 日本語 |
 |---|---|---|
 | nik | **banu** | もし私がそれを持っていたら |
 | zuk | **bazenu** | もし君がそれを持っていたら |
@@ -149,7 +149,7 @@ exercises:
 
 ### NOR-NORK 条件法（「私はそれを〜するのに」）
 
-| 人称 | 形 | スペイン語 |
+| 人称 | 形 | 日本語 |
 |---|---|---|
 | nik | **nuke** | 私はそれを〜するのに |
 | zuk | **zenuke** | 君はそれを〜するのに |
@@ -159,7 +159,7 @@ exercises:
 
 ### NOR 条件法（「私は〜するのに」、自動詞）
 
-| 人称 | 形 | スペイン語 |
+| 人称 | 形 | 日本語 |
 |---|---|---|
 | ni | **nintzateke** | 私は〜するのに |
 | zu | **zinateke** | 君は〜するのに |
@@ -193,7 +193,7 @@ exercises:
 
 ## とても便利な決まり文句
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 〜なさいませんか？ | *Nahi **zenuke**…?* |
 | 〜したいです。 | *Gustatuko **litzaidake**…* |

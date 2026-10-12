@@ -27,8 +27,8 @@ exercises:
   prompt: للحديث عن **المشهد** في الخلفية (كيف كان اليوم، أين كانوا) في قصة ما، أي زمن ماضٍ أستخدم؟
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - المضارع
+  - الماضي القريب (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: المشهد والوصف والعادات تأتي في الماضي الناقص. أما الأحداث المحددة التي تدفع القصة إلى الأمام فتأتي في صيغة *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: تزوج
   - eu: bidaiatu zuten
-    es: viajaron
+    es: سافروا
   - eu: ezagutu nuen
     es: تعرفتُ
   - eu: maitemindu nintzen
@@ -108,7 +108,7 @@ exercises:
 | الإطار الزماني والمكاني | الماضي الناقص | *Garai hartan Bilbon **bizi ginen*** |
 | كيف كان / كيف كانت الحال | الماضي الناقص | *Iluna **zen** kalea* |
 | ماذا حدث (حدث محدد) | burutua | *Bat-batean atea **jo zuten*** |
-| حدث جارٍ | ari nintzen / sintético | *Afaria **prestatzen ari nintzen*** |
+| حدث جارٍ | ari nintzen / الصيغة التركيبية | *Afaria **prestatzen ari nintzen*** |
 | النتيجة | burutua | *Eta gauza guztiak **gertatu ziren*** |
 
 ## أدوات الربط الزمنية

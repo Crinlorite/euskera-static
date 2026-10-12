@@ -18,17 +18,17 @@ exercises:
   - eu: okindegia
     es: brutărie
   - eu: botika
-    es: farmacia
+    es: farmacie
   - eu: liburutegia
-    es: biblioteca
+    es: bibliotecă
   - eu: eliza
-    es: iglesia
+    es: biserică
   - eu: merkatua
-    es: mercado
+    es: piață
   - eu: banketxea
-    es: banco
+    es: bancă
   - eu: ospitalea
-    es: hospital
+    es: spital
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: Trebuie să cumperi pâine. La ce fel de magazin mergi?
@@ -48,7 +48,7 @@ exercises:
   - oficiul poștal
   - frizeria
   answer: 1
-  explanation: '"Osasun" înseamnă "sănătate" și "etxe(a)" înseamnă "casă": literalmente "casa sănătății" = policlinică sau centru de sănătate.'
+  explanation: '"Osasun" înseamnă "sănătate" și "etxe(a)" înseamnă "casă": literal "casa sănătății" = policlinică sau centru de sănătate.'
 - id: ex-hl-fb1
   type: fill-in-blank
   prompt: Merg să scot bani, merg la bancă = ___ noa.

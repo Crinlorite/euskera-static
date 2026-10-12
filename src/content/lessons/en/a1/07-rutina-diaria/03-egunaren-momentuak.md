@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: in the afternoon
   - eu: iluntzean
-    es: al atardecer
+    es: at dusk
   - eu: gauean
     es: at night
   - eu: gaur
-    es: hoy
+    es: today
   - eu: bihar
     es: tomorrow (the next day)
   - eu: atzo
-    es: ayer
+    es: yesterday
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ You'll come across these every day:
 | *gero* | later, after |
 | *lehen* | before |
 
-> Note: be careful with **bihar** ('tomorrow', the next day) and **goiza** ('the morning'). Spanish uses the same word (*mañana*) for both, but Basque does not.
+> Note: be careful with **bihar** ('tomorrow', the next day) and **goiza** ('the morning'). They are two different words, just like *tomorrow* and *morning* in English.
 
 ## Combining everything
 

@@ -82,17 +82,17 @@ exercises:
   - eu: altua
     es: alto
   - eu: baxua
-    es: bajo
+    es: baixo
   - eu: handia
     es: grande
   - eu: txikia
-    es: pequeño
+    es: chicot
   - eu: lodia
     es: gordo
   - eu: argala
-    es: delgado
+    es: delgau
   - eu: polita
-    es: bonito
+    es: polito
   - eu: itsusia
     es: feo
 ---

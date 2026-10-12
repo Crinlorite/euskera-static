@@ -30,7 +30,7 @@ exercises:
   - Czy mam usiąść?
   - Nie siadaj
   answer: 0
-  explanation: 'Najczęściej używany twierdzący tryb rozkazujący tworzy się po prostu za pomocą imiesłowu (participio): *hartu* (weź), *eseri* (usiądź). „Proszę” to *mesedez*.'
+  explanation: 'Najczęściej używany twierdzący tryb rozkazujący tworzy się po prostu za pomocą imiesłowu (partizipioa): *hartu* (weź), *eseri* (usiądź). „Proszę” to *mesedez*.'
 - id: ex-a2-eg4-fb1
   type: fill-in-blank
   prompt: Podaj mi wodę, proszę = ___ ura, mesedez.
@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Chodź tutaj
   - eu: Hartu hau
-    es: Toma esto
+    es: Weź to
   - eu: Eseri hemen
     es: Usiądź tutaj
   - eu: Esadazu egia
@@ -89,9 +89,9 @@ exercises:
 
 **Tryb rozkazujący** (*agintera*) służy do wydawania poleceń, próśb i udzielania rad. W języku baskijskim jest **znacznie prostszy, niż się wydaje**: najczęściej używana forma jest prawie zawsze taka sama jak **imiesłów bierny** (participio) czasownika.
 
-## Podstawowa zasada: użyj imiesłowu (participio)
+## Podstawowa zasada: użyj imiesłowu (partizipioa)
 
-W przypadku wielu codziennych poleceń czasownik występuje w formie imiesłowu (participio) bez czasownika posiłkowego:
+W przypadku wielu codziennych poleceń czasownik występuje w formie imiesłowu (partizipioa) bez czasownika posiłkowego:
 
 | Polski | Baskijski |
 |---|---|

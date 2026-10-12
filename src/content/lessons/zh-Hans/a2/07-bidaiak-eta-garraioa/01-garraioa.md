@@ -77,24 +77,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: 坐火车
   - eu: autobusez
     es: 乘公交车
   - eu: hegazkinez
     es: 乘飞机
   - eu: kotxez
-    es: en coche
+    es: 开车
   - eu: oinez
-    es: andando
+    es: 走路
   - eu: bizikletaz
-    es: en bici
+    es: 骑车
 ---
 
 旅行单元开始了。第一站：**交通工具**以及使用它们的动词。通过你在A1学过的工具格后缀 *-z*，你可以用一个后缀来表达“乘火车”或“骑自行车”。
 
 ## 交通工具
 
-| 西班牙语 | 巴斯克语 | “乘坐/通过……”（工具格） |
+| 中文 | 巴斯克语 | “乘坐/通过……”（工具格） |
 |---|---|---|
 | 火车 | *trena* | *trenez* |
 | 公交车 | *autobusa* | *autobusez* |
@@ -106,7 +106,7 @@ exercises:
 
 ## 地点
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 车站（火车/公交） | *(tren-/autobus-)geltokia* |
 | 机场 | *aireportua* |

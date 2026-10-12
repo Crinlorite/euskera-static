@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: pieszo
   - eu: kotxez / autoz
-    es: en coche
+    es: samochodem
   - eu: autobusez
     es: autobusem
   - eu: trenez
-    es: en tren
+    es: pociągiem
   - eu: bizikletaz
-    es: en bicicleta
+    es: rowerem
   - eu: hegazkinez
     es: samolotem
   - eu: itsasontziz
-    es: en barco
+    es: statkiem
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Jak powiesz „Jadę autobusem”?

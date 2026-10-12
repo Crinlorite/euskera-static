@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Fui (pontual)
   - eu: Joaten nintzen
     es: Ia (hábito)
   - eu: Joan nuen autoa
     es: (não é válido)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Estava indo
   - eu: Bizi nintzen Bilbon
     es: Morava em Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Fui a Bilbao ontem
 ---
 
 O **imperfeito** do basco (*iragan ez burutua*) corresponde, em linhas gerais, ao "comia / vivia / ia / trabalhava" do português. Serve para contar:

@@ -151,4 +151,4 @@ And for questions:
 - ***Etorriko al zara**?* — Will you come?
 - ***Joango al gara** mendira?* — Shall we go to the mountain?
 
-> **Cultural note:** In Basque, the future tense with *-ko/-go* is often used in situations where Spanish would use the simple present (e.g., ordering at a bar). For an English speaker, this usage feels quite natural: *Zer hartuko duzu?* translates to "What will you have?" or "What are you having?". It's one of the most characteristic features of the language; the sooner your ear gets used to it, the better.
+> **Cultural note:** In Basque, the future tense with *-ko/-go* is often used in situations such as ordering at a bar. For an English speaker, this usage feels quite natural: *Zer hartuko duzu?* translates to "What will you have?" or "What are you having?". It's one of the most characteristic features of the language; the sooner your ear gets used to it, the better.

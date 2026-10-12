@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: sorella (detta da una donna)
   - eu: seme
-    es: hijo
+    es: figlio
   - eu: alaba
-    es: hija
+    es: figlia
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen ha una sorella. Come si dice "sorella" dal punto di vista di Maialen?

@@ -94,7 +94,7 @@ Speaking on the phone in another language can be intimidating — you can't see 
 
 ## Answering and asking
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Yes? Hello? | *Bai, esan?* |
 | Who is it? | *Nor da?* |
@@ -119,7 +119,7 @@ Notice: *esan behar diot* (I have to tell them), *esango diot* (I will tell them
 
 ## Technical problems (the classics)
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | The line is busy | *Komunikatzen ari da* |
 | There's no signal | *Estaldurarik ez dago* |

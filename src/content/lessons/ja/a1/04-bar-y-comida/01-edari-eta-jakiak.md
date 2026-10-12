@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: カフェオレ
   - eu: ura
-    es: agua
+    es: 水
   - eu: ardo gorria
-    es: vino tinto
+    es: 赤ワイン
   - eu: garagardoa
-    es: cerveza
+    es: ビール
   - eu: sagardoa
-    es: sidra
+    es: シードル
   - eu: zumoa
-    es: zumo
+    es: ジュース
   - eu: tea
     es: 紅茶
 ---
@@ -158,7 +158,7 @@ exercises:
 
 ## 定冠詞「`-a`」
 
-これらの単語のほとんどは、文中で「中立的に」現れるとき、語末に**`-a`**がつきます。これはスペイン語の定冠詞「el / la」にあたります。
+これらの単語のほとんどは、文中で「中立的に」現れるとき、語末に**`-a`**がつきます。これは定冠詞です（日本語には冠詞がありません）。
 
 - *Ardoa gustatzen zait.* — 私はワインが好きです。
 - *Ura nahi dut.* — 水が欲しいです。

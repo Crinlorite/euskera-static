@@ -78,24 +78,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: 約束
   - eu: bilera
     es: 会議
   - eu: libre
-    es: libre
+    es: 空いている
   - eu: lanpetuta
-    es: ocupado/a
+    es: 忙しい
   - eu: geratu
-    es: quedar
+    es: 会う約束をする
   - eu: geratuko gara
-    es: quedaremos
+    es: 会いましょう
 ---
 
 手帳はいつも約束や予定でいっぱいです。このレッスンでは、約束をしたり、誰かと会ったり、空いているかどうかを伝えたりする方法を学びます。
 
 ## 主な単語
 
-| Euskera | スペイン語 |
+| Euskera | 日本語 |
 |---|---|
 | *hitzordua* | 約束（誰かとの時間を取り決めること） |
 | *bilera* | 会議、ミーティング |
@@ -118,7 +118,7 @@ exercises:
 
 `Geratu` は「会う、とどまる」を意味し、共格の `-ekin`（〜と）と組み合わせます：
 
-| パターン | 例 | スペイン語 |
+| パターン | 例 | 日本語 |
 |---|---|---|
 | *X-ekin geratu naiz* | *Egoitz**ekin** geratu naiz* | Egoitzと会いました |
 | *X-ekin geratuko naiz* | *Egoitz**ekin** geratuko naiz* | Egoitzと会う予定です |

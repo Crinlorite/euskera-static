@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" vò díder…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Postres
+  - Prumèr plat
+  - Dusau plat
+  - Beguda
   answer: 1
   explanation: '*Lehen platera* — prumèr plat. *Lehen* vò díder "prumèr".'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" en occitan ei…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - Beguda
+  - Aperitiu
+  - Postres
+  - Plat principau
   answer: 2
   explanation: '*Postrea* — pòstre. Era traduccion ei dirècta.'
 - id: ex-menu-fb1
@@ -87,13 +87,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: prumèr plat
   - eu: bigarren platera
-    es: segundo plato
+    es: dusau plat
   - eu: postrea
-    es: postre
+    es: postres
   - eu: edaria
-    es: bebida
+    es: beguda
   - eu: eguneko menua
     es: menú deth dia
   - eu: karta
@@ -104,7 +104,7 @@ Saber liéger eth menú te daurís pòrtes. Ena màger part des jatetxeak veirà
 
 ## Es dues opcions entà minjar
 
-| Euskera | Occitan | Quan |
+| Euskera | Aranés | Quan |
 |---|---|---|
 | *eguneko menua* | menú deth dia | prètz fixe, opcions limitades |
 | *karta* | carta | ara carta, causisses liurament |
@@ -115,7 +115,7 @@ Eth cambrèr acostume a preguntar:
 
 ## Es parts deth menú
 
-| Euskera | Occitan |
+| Euskera | Aranés |
 |---|---|
 | *hasierakoak* | entrants / aperitius |
 | *lehen platera* | prumèr plat |

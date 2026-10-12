@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-04-nm-mc1
   type: multiple-choice
-  prompt: '"Atzo arratsaldean" significa…'
+  prompt: '"Atzo arratsaldean" quier dicir…'
   options:
   - mañana pela tarde
   - ayeri pela tarde
@@ -53,13 +53,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: güei
   - eu: atzo
-    es: ayer
+    es: ayeri
   - eu: bihar
     es: mañana
   - eu: etzi
-    es: pasado mañana
+    es: pasao mañana
   - eu: gaur goizean
     es: esta mañana
   - eu: gaur arratsaldean
@@ -67,7 +67,7 @@ exercises:
   - eu: atzo gauean
     es: anoche
   - eu: orain
-    es: ahora
+    es: agora
   - eu: lehen
     es: antes
 - id: ex-04-nm-fc
@@ -126,7 +126,7 @@ Pa cuntar bien lo que pasó, precises dicir **cuándo**. Esta lleición date los
 | *lehen* | antes |
 | *gero* | llueu, dempués |
 
-> Si te fixasti, *atzo* (ayeri) y *bihar* (mañana) son dos pallabres tan curties que s'aprienden d'un güelpe. *Etzi* (pasao mañana) ye una pallabra que'l castellán nun tien nuna sola pieza — un pequeñu regalu del eusquera.
+> Si te fixasti, *atzo* (ayeri) y *bihar* (mañana) son dos pallabres tan curties que s'aprienden d'un güelpe. *Etzi* (pasao mañana) ye una sola pallabra, cuando n'asturianu precisamos dos — un pequeñu regalu del eusquera.
 
 ## Combinando con momentos del día
 

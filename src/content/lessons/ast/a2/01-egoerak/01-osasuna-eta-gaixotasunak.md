@@ -53,9 +53,9 @@ exercises:
   - eu: doministikua
     es: espiríu
   - eu: marranta
-    es: ronquera / catarro
+    es: ronquera / catarru
   - eu: katarroa
-    es: catarro
+    es: catarru
   - eu: gripea
     es: la gripe
   - eu: buruko mina
@@ -90,7 +90,7 @@ exercises:
   - eu: medikua
     es: médicu/a
   - eu: erizaina
-    es: enfermero/a
+    es: enfermeru/a
   - eu: botikaria
     es: farmacéuticu/a
   - eu: botika / farmazia
@@ -114,11 +114,11 @@ N'eusquera tienes dos formes frecuentes:
 
 Como n'A1, los síntomes constrúyense con *eduki* (tener):
 
-| Castellanu | Euskera |
+| Asturianu | Euskera |
 |---|---|
 | Tengo fiebre | *Sukarra **daukat*** |
 | Tengo tos | *Eztula **daukat*** |
-| Tengo catarro | *Katarroa **daukat*** |
+| Tengo catarru | *Katarroa **daukat*** |
 | Tengo gripe | *Gripea **daukat*** |
 | To mareáu/ada | *Zorabiatuta nago* |
 | Tengo basca | *Goragalea **daukat*** |
@@ -127,9 +127,9 @@ Como n'A1, los síntomes constrúyense con *eduki* (tener):
 
 El **dolor** ye un sustantivu n'eusquera (*mina*) y combínase cola parte del cuerpu en **NONGO (-ko)**, qu'actúa como complementu de "qué tipu de dolor":
 
-> **parte del cuerpo + -ko + mina + daukat**
+> **parte del cuerpu + -ko + mina + daukat**
 
-| Castellanu | Euskera |
+| Asturianu | Euskera |
 |---|---|
 | Duéleme la cabeza | *Buruko mina daukat* |
 | Duéleme'l gargüelu | *Eztarriko mina daukat* |
@@ -144,7 +144,7 @@ Otra forma mui frecuente, sobremanera cuando daqué te duel "agora mesmo":
 
 ## Na consulta
 
-| Castellanu | Euskera |
+| Asturianu | Euskera |
 |---|---|
 | ¿Qué te pasa? / ¿Qué tienes? | *Zer duzu?* / *Zer gertatzen zaizu?* |
 | ¿Dende cuándo? | *Noiztik?* |

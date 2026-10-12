@@ -14,25 +14,25 @@ exercises:
   type: match-pairs
   pairs:
   - eu: laguna
-    es: amigo/a
+    es: друг/подруга
   - eu: bizilaguna
-    es: vecino/a
+    es: сосед/соседка
   - eu: ikaskidea
     es: одноклассник/одногруппник
   - eu: lankidea
     es: коллега по работе
   - eu: ezaguna
-    es: conocido/a
+    es: знакомый/знакомая
   - eu: koadrila
     es: koadrila / группа друзей
 - id: ex-10-01-mc1
   type: multiple-choice
   prompt: Кто твой "bizilaguna"?
   options:
-  - Tu hermano
-  - Tu jefe
-  - Tu vecino
-  - Tu profesor
+  - Твой брат
+  - Твой начальник
+  - Твой сосед
+  - Твой преподаватель
   answer: 2
   explanation: '"Bizi" (жить) + "laguna" (товарищ) = «товарищ по жилью» → сосед/соседка (по подъезду или району).'
 - id: ex-10-01-mc2

@@ -78,15 +78,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: encendre
   - eu: itzali
     es: apagar
   - eu: gorde
-    es: guardar
+    es: desar
   - eu: ezabatu
-    es: borrar
+    es: esborrar
   - eu: deskargatu
-    es: descargar
+    es: baixar
   - eu: partekatu
     es: compartir
 ---

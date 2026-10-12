@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: Escolher o destino
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: Comprar passagens
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: Reservar hospedagem
   - eu: Maleta prestatuko dut
     es: Fazer a mala
   - eu: Ez ahaztu kargagailua!

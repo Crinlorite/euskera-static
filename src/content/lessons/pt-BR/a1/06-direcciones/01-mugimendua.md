@@ -17,17 +17,17 @@ exercises:
   - eu: joan
     es: ir
   - eu: etorri
-    es: venir
+    es: vir
   - eu: ibili
-    es: andar / moverse
+    es: andar / mover-se
   - eu: sartu
     es: entrar
   - eu: irten
-    es: salir
+    es: sair
   - eu: igo
     es: subir
   - eu: jaitsi
-    es: bajar
+    es: descer
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Eu vou = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" e seu oposto "irten" significam, respectivamente:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - entrar / sair
+  - subir / descer
+  - ir / vir
+  - abrir / fechar
   answer: 0
 - id: ex-mu-fc
   type: flashcards

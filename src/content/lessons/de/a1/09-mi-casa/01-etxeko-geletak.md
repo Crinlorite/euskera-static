@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: Küche
   - eu: logela
-    es: dormitorio
+    es: Schlafzimmer
   - eu: komuna
-    es: baño
+    es: Badezimmer
   - eu: egongela
     es: Wohnzimmer
   - eu: sarrera
-    es: entrada
+    es: Eingang
   - eu: korridorea
-    es: pasillo
+    es: Flur
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Du möchtest duschen. In welches Zimmer gehst du?

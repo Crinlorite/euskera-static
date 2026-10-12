@@ -22,7 +22,7 @@ exercises:
   - eu: liburutegia
     es: biblioteca
   - eu: eliza
-    es: iglesia
+    es: igrexa
   - eu: merkatua
     es: mercado
   - eu: banketxea

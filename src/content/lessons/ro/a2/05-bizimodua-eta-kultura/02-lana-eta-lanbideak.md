@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" înseamnă…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Muncă
+  - Salariu
+  - Șef
+  - Angajat
   answer: 1
   explanation: '*Soldata* = salariu. *Lansari* este un sinonim formal.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: profesor/profesoară
   - eu: erizain
-    es: enfermero/a
+    es: asistent/ă medical/ă
   - eu: sukaldari
-    es: cocinero/a
+    es: bucătar/bucătăreasă
   - eu: kazetari
-    es: periodista
+    es: jurnalist/ă
   - eu: mekanikari
     es: mecanic/ă
   - eu: arkitekto
-    es: arquitecto/a
+    es: arhitect/ă
 ---
 
 A2 îți deschide lumea **muncii** dincolo de „sunt student / sunt profesor”. Acum vei vorbi despre:

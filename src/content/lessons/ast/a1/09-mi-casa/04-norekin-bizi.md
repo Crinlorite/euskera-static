@@ -15,7 +15,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: bakarrik
-    es: solo/a
+    es: solu/a
   - eu: lagunarekin
     es: con un amigu/a
   - eu: gurasoekin
@@ -44,7 +44,7 @@ exercises:
   explanation: 'En plural el sufixu ye "-ekin": guraso + -ekin = gurasoekin (colos padres).'
 - id: ex-09-04-mc2
   type: multiple-choice
-  prompt: '"Bikotekidearekin bizi naiz" significa...'
+  prompt: '"Bikotekidearekin bizi naiz" quier dicir...'
   options:
   - Vivo solu
   - Vivo cola mio pareya

@@ -15,7 +15,7 @@ covers:
 exercises:
 - id: ex-a2-bz4-mc1
   type: multiple-choice
-  prompt: '"Lagunarentzat opari bat erosi dut" significa…'
+  prompt: '"Lagunarentzat opari bat erosi dut" quier dicir…'
   options:
   - Merqué un regalu d'un amigu
   - Merqué un regalu pa un amigu
@@ -25,7 +25,7 @@ exercises:
   explanation: 'El sufixu *-rentzat* ye''l casu destinativu: "pa X". *Lagunarentzat* = pal amigu.'
 - id: ex-a2-bz4-mc2
   type: multiple-choice
-  prompt: ¿Qué significa "Bilboraino joan zen"?
+  prompt: ¿Qué quier dicir "Bilboraino joan zen"?
   options:
   - Volvió de Bilbao
   - Pasó por Bilbao
@@ -97,7 +97,7 @@ Esta lleición integradora repasa **cuatro declinaciones nueves** qu'A2 amiesta 
 
 > **-(r)entzat** sobre'l sustantivu determináu
 
-| Sustantivu | Forma | Castellán |
+| Sustantivu | Forma | Asturianu |
 |---|---|---|
 | niretzat | *niretzat* | pa min |
 | zuretzat | *zuretzat* | pa ti |
@@ -121,7 +121,7 @@ Esta lleición integradora repasa **cuatro declinaciones nueves** qu'A2 amiesta 
 
 > **-(r)aino** sobre'l sustantivu (sigue la regla del NORA: vocal → +raino, consonante → +eraino)
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Hasta'l monte | *mendi**raino*** |
 | Hasta Bilbao | *Bilbo**raino*** |
@@ -137,7 +137,7 @@ Esta lleición integradora repasa **cuatro declinaciones nueves** qu'A2 amiesta 
 
 > **-(r)antz** sobre'l sustantivu (mesmu patrón que NORA)
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Hacia'l monte | *mendi**rantz*** |
 | Hacia casa | *etxe**rantz*** |
@@ -154,7 +154,7 @@ Esta lleición integradora repasa **cuatro declinaciones nueves** qu'A2 amiesta 
 
 Pa preguntar el motivu: **zergatik?** (¿por qué?). Pa responder con un sustantivu: **-engatik**.
 
-| Sustantivu | Forma | Castellán |
+| Sustantivu | Forma | Asturianu |
 |---|---|---|
 | nigatik | *nigatik* | por min (causa) |
 | zugatik | *zugatik* | por ti |
@@ -170,13 +170,13 @@ Pa preguntar el motivu: **zergatik?** (¿por qué?). Pa responder con un sustant
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — ¿Por qué lo fixisti? — Por ti.
 
-> **Nota:** estrema *-engatik* (causa: "por culpa de") de *-rentzat* (destinatariu: "pa"). En castellán "por" cubre les dos, pero n'eusquera son distintos.
+> **Nota:** estrema *-engatik* (causa: "por culpa de") de *-rentzat* (destinatariu: "pa"). N'asturianu tamién les estremamos («por» / «pa»), como n'eusquera.
 
 ## NONGO / NOIZKO — de qué llugar / momentu
 
 Yá visti *NON* (-an: en) n'A1. **NONGO** y **NOIZKO** converten un llugar o un tiempu en **modificador** (atributu):
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | La xente **de** Bilbao | *Bilbo**ko** jendea* |
 | El muséu **de** Donosti | *Donostia**ko** museoa* |
@@ -219,7 +219,7 @@ Agora yá remanes tolos casos básicos:
 | Casu | Pregunta | Sufixu | Exemplu (etxe) |
 |---|---|---|---|
 | NOR | ¿quién? | -a | *etxea* |
-| NORK | ¿quién fai? | -ak | *etxeak* (sujeto) |
+| NORK | ¿quién fai? | -ak | *etxeak* (suxetu) |
 | NORI | ¿a quién? | -ari | *etxeari* |
 | NON | ¿ónde? | -an | *etxean* |
 | NORA | ¿a ónde? | -ra | *etxera* |

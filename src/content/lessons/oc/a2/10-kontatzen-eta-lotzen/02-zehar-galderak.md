@@ -125,13 +125,13 @@ Aguest darrèr *ea…!* isolat ei basc parlat pur: desir + suspens en un mot.
 
 ## Es vèrbs que les demanen
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
-| No sé si… | *Ez dakit … -(e)n* |
-| ¿Sabes si…? | *Badakizu … -(e)n?* |
-| Pregúntale si… | *Galdetu (iezaiozu) ea … -(e)n* |
-| No recuerdo si… | *Ez naiz gogoratzen … -(e)n* |
-| No estoy seguro de si… | *Ez nago ziur … -(e)n* |
+| Non sai se… | *Ez dakit … -(e)n* |
+| Sabes se…? | *Badakizu … -(e)n?* |
+| Demana-li se… | *Galdetu (iezaiozu) ea … -(e)n* |
+| Non me'n brembi se… | *Ez naiz gogoratzen … -(e)n* |
+| Non sò segur se… | *Ez nago ziur … -(e)n* |
 
 ## En accion
 
@@ -151,4 +151,4 @@ Non confones era demanda indirècta damb era afirmacion indirècta (unitat 04):
 >
 > *Galdetu dit **ea** etorriko **den**.* — M'a demanat **se** vierà. (demanda → **-n**)
 
-**Que = -la · Si = (ea) -n.** Damb aguesta chuleta, aguesta leccion ei guanhada.
+**Que = -la · Se = (ea) -n.** Damb aguest resumit, aguesta leccion ei guanhada.

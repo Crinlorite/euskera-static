@@ -121,7 +121,7 @@ exercises:
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> 스페인어와 달리 바스크어에서는 **gutxi**가 분(숫자) **뒤에** 온다는 점이 흥미롭습니다. *Bederatziak laurden gutxi*는 직역하면 '아홉 시들 15분 전'이라는 의미입니다.
+> 바스크어에서는 **gutxi**(부족한)가 분(숫자) **뒤에** 온다는 점이 흥미롭습니다. *Bederatziak laurden gutxi*는 직역하면 '아홉 시들 15분 전'이라는 의미입니다.
 
 ## 요약 표
 

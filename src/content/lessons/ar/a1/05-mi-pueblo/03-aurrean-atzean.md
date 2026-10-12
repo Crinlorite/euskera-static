@@ -16,17 +16,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: أمام
   - eu: atzean
     es: خلف
   - eu: ondoan
-    es: al lado
+    es: بجانب
   - eu: gainean
-    es: encima
+    es: فوق
   - eu: azpian
-    es: debajo
+    es: تحت
   - eu: artean
-    es: entre
+    es: بين
   - eu: ezkerrean
     es: إلى اليسار
   - eu: eskuinean
@@ -130,7 +130,7 @@ exercises:
 | **kutxaren barruan** | داخل الصندوق |
 | **bi mendien artean** | بين جبلين |
 
-النمط: يأتي المرجع أولاً، **ثم** الوضع. إنه عكس اللغة الإسبانية تمامًا.
+النمط: يأتي المرجع أولاً، **ثم** الوضع. إنه عكس العربية تمامًا («أمام البيت»).
 
 ## أمثلة كاملة
 
@@ -142,7 +142,7 @@ exercises:
 
 ## ظروف المكان: hemen / hor / han
 
-للإشارة بسرعة، هناك ثلاثة ظروف — وانتبه، إنها **ثلاث مسافات**، وليست اثنتين كما في الإسبانية:
+للإشارة بسرعة، هناك ثلاثة ظروف — وانتبه، إنها **ثلاث مسافات**:
 
 | الباسكية | العربية | متى |
 |---|---|---|

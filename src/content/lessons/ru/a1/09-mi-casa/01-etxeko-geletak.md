@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: кухня
   - eu: logela
-    es: dormitorio
+    es: спальня
   - eu: komuna
-    es: baño
+    es: ванная
   - eu: egongela
     es: гостиная
   - eu: sarrera
-    es: entrada
+    es: прихожая
   - eu: korridorea
-    es: pasillo
+    es: коридор
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Вы хотите принять душ. В какую комнату вы пойдёте?

@@ -44,17 +44,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: argitsua
-    es: luminoso/a
+    es: lumineux/se
   - eu: handia
-    es: grande
+    es: grand
   - eu: txikia
-    es: pequeño/a
+    es: petit/e
   - eu: lasaia
-    es: tranquilo/a
+    es: calme
   - eu: berria
-    es: nuevo/a
+    es: neuf/neuve
   - eu: zaharra
-    es: viejo/a
+    es: vieux/vieille
 - id: ex-09-05-fc
   type: flashcards
   cards:
@@ -109,7 +109,7 @@ Cette leçon intègre tout le contenu du thème 9 : les pièces, les meubles, le
 
 | Euskera | Français |
 |---|---|
-| *handia* | grande |
+| *handia* | grand |
 | *txikia* | petite |
 | *argitsua* | lumineuse |
 | *iluna* | sombre |

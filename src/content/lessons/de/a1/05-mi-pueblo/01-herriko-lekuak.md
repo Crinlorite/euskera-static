@@ -14,21 +14,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: taberna
-    es: bar
+    es: Bar
   - eu: okindegia
     es: Bäckerei
   - eu: botika
-    es: farmacia
+    es: Apotheke
   - eu: liburutegia
-    es: biblioteca
+    es: Bibliothek
   - eu: eliza
-    es: iglesia
+    es: Kirche
   - eu: merkatua
-    es: mercado
+    es: Markt
   - eu: banketxea
-    es: banco
+    es: Bank
   - eu: ospitalea
-    es: hospital
+    es: Krankenhaus
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: Du musst Brot kaufen. In was für ein Geschäft gehst du?
@@ -167,7 +167,7 @@ Bevor du lernst, Wegbeschreibungen zu geben, brauchst du den Grundwortschatz, um
 
 ## Das Suffix -tegi und Co.
 
-Fíjate en estos sufijos productivos: aparecen una y otra vez.
+Achte auf diese produktiven Suffixe: Sie tauchen immer wieder auf.
 
 - **-tegi** → Ort, an dem etwas ist: *euskal·tegi* (Ort des Baskischen), *ile-apain·degi* (Ort zum Haareschneiden), *liburu·tegi* (Ort der Bücher).
 - **-degi / -tegi** → Variante mit der gleichen Idee: *gasolin·degi*, *okin·degi*.

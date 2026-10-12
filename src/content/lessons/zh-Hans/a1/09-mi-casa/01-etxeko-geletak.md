@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: 厨房
   - eu: logela
-    es: dormitorio
+    es: 卧室
   - eu: komuna
-    es: baño
+    es: 浴室
   - eu: egongela
     es: 客厅
   - eu: sarrera
-    es: entrada
+    es: 门厅
   - eu: korridorea
-    es: pasillo
+    es: 走廊
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: 你想洗个澡。你去哪个房间？

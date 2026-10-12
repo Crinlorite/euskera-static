@@ -85,17 +85,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: бумага
   - eu: plastikoa
     es: пластик
   - eu: beira
-    es: vidrio
+    es: стекло
   - eu: organikoa
     es: органика
   - eu: pila
-    es: pila
+    es: батарейка
   - eu: olioa
-    es: aceite
+    es: масло
 ---
 
 Разговоры об **образе жизни** и **окружающей среде** — это классический блок уровня А2: здесь новая лексика смешивается с фразами долженствования и совета (*behar dugu*, *komeni da*, *garrantzitsua da*), которыми вы уже владеете с уровня А1.

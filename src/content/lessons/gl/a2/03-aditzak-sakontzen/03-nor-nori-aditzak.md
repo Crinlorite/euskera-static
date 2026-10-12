@@ -82,7 +82,7 @@ exercises:
     es: pasoume
 ---
 
-Os verbos **NOR-NORI** son aqueles nos que algo (NOR) "lle ocorre a alguén" (NORI). O suxeito gramatical é **a cousa**, non a persoa — exactamente como *gustar* en castelán: *me gusta el cine* (a min gústame el, o cine).
+Os verbos **NOR-NORI** son aqueles nos que algo (NOR) "lle ocorre a alguén" (NORI). O suxeito gramatical é **a cousa**, non a persoa — exactamente como *gustar* en galego: *góstame o cine* (a min gústame el, o cine).
 
 En A1 xa viches *gustatzen zait*. En A2 amplías o padrón a outros verbos moi útiles.
 
@@ -90,7 +90,7 @@ En A1 xa viches *gustatzen zait*. En A2 amplías o padrón a outros verbos moi �
 
 Para NOR singular:
 
-| NORI | Forma | Castelán |
+| NORI | Forma | Galego |
 |---|---|---|
 | niri | **zait** | me |
 | zuri | **zaizu** | te |
@@ -101,7 +101,7 @@ Para NOR singular:
 
 Para NOR **plural**:
 
-| NORI | Forma plural | Castelán |
+| NORI | Forma plural | Galego |
 |---|---|---|
 | niri | **zaizkit** | me (cousas) |
 | zuri | **zaizkizu** | te |
@@ -136,7 +136,7 @@ Para NOR **plural**:
 
 > **NORI + NOR + verbo + auxiliar NOR-NORI**
 
-| Castelán | Éuscaro | Notación |
+| Galego | Éuscaro | Notación |
 |---|---|---|
 | Gústame o cine | *Niri zinea **gustatzen zait*** | NORI + NOR sing + zait |
 | Gústanme as películas | *Niri filmak **gustatzen zaizkit*** | NORI + NOR pl + zaizkit |
@@ -160,7 +160,7 @@ Para falar de gustos no pasado:
 
 Unha das fórmulas máis útiles para A2:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Paréceme ben | *Ondo iruditzen zait* |
 | Paréceme interesante | *Interesgarria iruditzen zait* |
@@ -170,7 +170,7 @@ Unha das fórmulas máis útiles para A2:
 
 ## *Ahaztu zait* — esquecéuseme
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Esquecéuseme | *Ahaztu zait* |
 | Esquecéronseme as chaves | *Giltzak ahaztu zaizkit* |

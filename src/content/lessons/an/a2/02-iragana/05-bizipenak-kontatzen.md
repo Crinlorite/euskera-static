@@ -28,7 +28,7 @@ exercises:
   options:
   - Iragan burutua (joan nintzen)
   - Presente
-  - Pasado reciente (joan naiz)
+  - Pasau recient (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: A escena, a descripción y os habitos van en imperfecto. As accions puntuals que fan abanzar a historia van en burutua.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: se casó
   - eu: bidaiatu zuten
-    es: viajaron
+    es: viachoron
   - eu: ezagutu nuen
     es: conoixí
   - eu: maitemindu nintzen

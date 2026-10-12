@@ -88,7 +88,7 @@ Quan arribe eth tòn torn te diràn:
 
 Tres manères frequentes, dera mès colloquiau ara mès cortesa:
 
-| Euskera | Occitan aranés | Ton |
+| Euskera | Aranés | Ton |
 |---|---|---|
 | **Eman kilo bat sagar, mesedez.** | Da'm un quilò de pomes, se vos platz. | dirècte, neutre |
 | **Jarriko al didazu kilo bat sagar?** | Me'n botatz un quilò de pomes? | cortés (futur + cortesia) |

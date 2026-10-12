@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: 읽는 것을 좋아해요
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: 그/그녀는 노래하는 것을 좋아한다
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: 우리는 여행을 좋아한다
   - eu: Margotzen dakit
     es: 페인팅할 줄 알아요
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: 춤추러 가요
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: 요리하는 중이에요
 ---
 
 아무것도 안 할 때 무엇을 하나요? 이번 과에서는 **취미**에 대해 배웁니다 — 그리고 취미를 표현하는 데 사용되는 문법 요소인, 동사를 **-tzea**를 붙여 명사로 만드는 것에 대해서도요 (*irakurtzea* = "읽는 것").
@@ -99,7 +99,7 @@ A1 과정에서 사물과 함께 *gustatzen zait*를 사용하는 법을 배웠�
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 저는 읽는 것을 좋아해요 | *Irakurtzea gustatzen zait* |
 | 저는 요리하는 것을 정말 좋아해요 | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ A1 과정에서 사물과 함께 *gustatzen zait*를 사용하는 법을 배웠�
 
 ## 취미 목록
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 읽기 / 쓰기 | *irakurtzea / idaztea* |
 | 음악 듣기 | *musika entzutea* |

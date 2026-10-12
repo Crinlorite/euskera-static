@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: 你去哪里？
   - eu: Ogia erostera
-    es: A comprar pan
+    es: 去买面包
   - eu: Zertara etorri da?
     es: 他/她来做什么？
   - eu: Agur esatera
@@ -131,7 +131,7 @@ exercises:
 | 否 —— 表示“为了” | **-tzeko** | *Hau ikasteko da* |
 | 是 —— 你去/来做某事 | **-tzera** | *Ikastera noa* |
 
-> 西班牙语的经典陷阱：“voy a comprar”在巴斯克语中不是将来时 —— 而是移动：*erostera noa*。真正的将来时你已经学过了：*erosiko dut*。
+> 经典陷阱：“去买”在巴斯克语中不是将来时 —— 而是移动：*erostera noa*。真正的将来时你已经学过了：*erosiko dut*。
 
 ## 综合运用（加上昨天学的时间状语）
 

@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: отец
   - eu: ama
-    es: madre
+    es: мать
   - eu: anaia
     es: брат (так говорят и мужчины, и женщины)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: сестра (когда говорит женщина)
   - eu: seme
-    es: hijo
+    es: сын
   - eu: alaba
-    es: hija
+    es: дочь
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: У Maialen есть сестра. Как будет «сестра» с точки зрения Maialen?

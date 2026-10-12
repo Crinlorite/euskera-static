@@ -24,7 +24,7 @@ exercises:
   explanation: '*Mikel + -ekin* (con) = *Mikelekin*. *Geratuko naiz* — quedaré.'
 - id: ex-hit-mc2
   type: multiple-choice
-  prompt: '"Tengo reunión a as cinco" =…'
+  prompt: '"Tiengo reunión a as cinco" =…'
   options:
   - Bilera dut bostetan
   - Bilera bostak da
@@ -53,7 +53,7 @@ exercises:
   - eu: bilera
     es: reunión
   - eu: Bilera dut
-    es: Tengo reunión
+    es: Tiengo reunión
   - eu: Mikelekin geratu naiz
     es: He quedau con Mikel
   - eu: Mikelekin geratuko naiz
@@ -67,7 +67,7 @@ exercises:
   - eu: Lanpetuta nago
     es: Soi aqueferau/ada
   - eu: Ezin dut, beste plan bat dut
-    es: No puedo, tengo unatro plan
+    es: No puedo, tiengo unatro plan
   - eu: Ados!
     es: ¡D'alcuerdo!
   - eu: dentista
@@ -84,7 +84,7 @@ exercises:
   - eu: libre
     es: libre
   - eu: lanpetuta
-    es: ocupado/a
+    es: ocupau/ada
   - eu: geratu
     es: quedar
   - eu: geratuko gara
@@ -106,10 +106,10 @@ Una achenda viva ye plena de citas y compromisos. Ista lección t'amuestra a cha
 
 ## Tener una cita u reunión
 
-Ta "tengo X" s'emplega o verbo *ukan* (`dut, du, dugu, ...`):
+Ta "tiengo X" s'emplega o verbo *ukan* (`dut, du, dugu, ...`):
 
-- **Bilera dut.** — Tengo reunión.
-- **Hitzordua dut medikuarekin.** — Tengo cita con o medico.
+- **Bilera dut.** — Tiengo reunión.
+- **Hitzordua dut medikuarekin.** — Tiengo cita con o medico.
 - **Errebisioa du semearekin.** — Tien revisión con o suyo fillo.
 
 > Si quieres especificar a hora, simplament l'adhibes a o principio u a la fin: *Bostetan bilera dut* / *Bilera dut bostetan*.
@@ -149,9 +149,9 @@ Frases tipicas ta concretar:
 ## Estar libre / aqueferau
 
 - **Libre nago.** — Soi libre.
-- **Ordu hori libre dut.** — Tengo ixa hora libre.
+- **Ordu hori libre dut.** — Tiengo ixa hora libre.
 - **Lanpetuta nago.** — Soi aqueferau/ada.
-- **Gauza asko egin behar ditut.** — Tengo muitas cosas que fer.
+- **Gauza asko egin behar ditut.** — Tiengo muitas cosas que fer.
 
 ## Mini-dialogo
 

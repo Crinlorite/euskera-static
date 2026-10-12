@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: Choose a destination
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: Buy tickets
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: Book accommodation
   - eu: Maleta prestatuko dut
     es: To pack the suitcase
   - eu: Ez ahaztu kargagailua!
@@ -118,7 +118,7 @@ A trip is enjoyed twice: when you live it and **when you plan it**. This lesson 
 
 ## The suitcase
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | The suitcase / the backpack | *maleta / motxila* |
 | The documents | *agiriak* |

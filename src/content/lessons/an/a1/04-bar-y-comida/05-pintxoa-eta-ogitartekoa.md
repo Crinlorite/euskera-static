@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — exactament como en castellano, sin gran adaptación.'
+  explanation: '*plater konbinatua* — preso d''o castellano «plato combinado», sin gran adaptación.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Pa yo, una ración de queso = Niretzat ___ ___.
@@ -66,7 +66,7 @@ exercises:
   - eu: gazta ogitartekoa
     es: bocadillo de queso
   - eu: urdaiazpiko ogitartekoa
-    es: bocadillo de jamón
+    es: bocadillo de pernil
   - eu: txorizoa
     es: chorizo
   - eu: txistorra
@@ -121,7 +121,7 @@ Istos son os replenos más habituals que vierás en una pizarra de bar:
 | *txistorra* | txistorra |
 | *txorizoa* | chorizo |
 | *gazta* | queso |
-| *urdaiazpikoa* | jamón |
+| *urdaiazpikoa* | pernil |
 | *antxoa* | anchova |
 | *atuna* | atún |
 | *gilda* | gilda (anchova + guindilla + olivera) |
@@ -140,7 +140,7 @@ A formula ye: **descriptor + formato + bat (mesedez)**. O descriptor (lo que lev
 ## Variants y matices
 
 - **handia** — gran / **txikia** — chicot:
-  - *Garagardo handia* — cerveza grande
+  - *Garagardo handia* — cervesa grande
   - *Kafe txikia* — café chicot (poca taza)
 - **hotza** — fredo / **beroa** — calient:
   - *Ogitarteko beroa* — bocadillo calient (con plancha)

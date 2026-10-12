@@ -134,7 +134,7 @@ Per NOR **plurale**:
 
 ## Struttura: il soggetto è la cosa
 
-> **NORI + NOR + verbo + NOR-NORI auxiliar**
+> **NORI + NOR + verbo + ausiliare NOR-NORI**
 
 | Italiano | Euskera | Notazione |
 |---|---|---|

@@ -26,7 +26,7 @@ exercises:
   explanation: Primer presentes (*Hau X da*), després afegeixes dades (*Bera Y da*), i finalment expliques què fa (*Bera Z egiten du*).
 - id: ex-10-05-mc2
   type: multiple-choice
-  prompt: '"Nire bizilaguna 75 urteko jubilatua da" significa…'
+  prompt: '"Nire bizilaguna 75 urteko jubilatua da" vol dir…'
   options:
   - El meu veí té 75 anys i està jubilat
   - El meu veí es va jubilar fa 75 anys
@@ -51,11 +51,11 @@ exercises:
   - eu: alaia
     es: alegre
   - eu: lasaia
-    es: tranquilo/a
+    es: tranquil/il·la
   - eu: berritsua
     es: xerraire
   - eu: zaratatsua
-    es: ruidoso/a
+    es: sorollós/osa
 - id: ex-10-05-fc
   type: flashcards
   cards:

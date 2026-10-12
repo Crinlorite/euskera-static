@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: l'après-midi
   - eu: iluntzean
-    es: al atardecer
+    es: au crépuscule
   - eu: gauean
     es: la nuit
   - eu: gaur
-    es: hoy
+    es: aujourd'hui
   - eu: bihar
     es: demain (jour suivant)
   - eu: atzo
-    es: ayer
+    es: hier
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Ceux-ci vous serviront tous les jours :
 | *gero* | plus tard, après |
 | *lehen* | avant |
 
-> Attention : ne confondez pas **bihar** (« demain », le jour suivant) et **goiza** (« le matin », jusqu'à midi). En espagnol, le même mot « mañana » est utilisé pour les deux, ce qui n'est pas le cas en basque.
+> Attention : ne confondez pas **bihar** (« demain », le jour suivant) et **goiza** (« le matin », jusqu'à midi). Ce sont deux mots différents, comme « demain » et « matin » en français.
 
 ## En combinant le tout
 

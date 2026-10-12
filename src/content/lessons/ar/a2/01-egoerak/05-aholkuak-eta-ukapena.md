@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: لا تشرب كثيراً
   - eu: Hartu fruta
-    es: Toma fruta
+    es: كُل الفاكهة
   - eu: Egin kirola
-    es: Haz deporte
+    es: مارس الرياضة
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: نَم جيدًا
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: حاول أن تبقى هادئًا
 ---
 
 يدمج هذا الدرس المواضيع الثلاثة للوحدة: نقدم **النصائح** والمحظورات والتوصيات من أجل حياة صحية. سوف تتعلم **صيغة الأمر المنفي** ومجموعة من صيغ المستوى A2 المفيدة جداً لإبداء الرأي حول ما ينبغي فعله.

@@ -44,17 +44,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: argitsua
-    es: luminoso/a
+    es: مضيء
   - eu: handia
-    es: grande
+    es: كبير
   - eu: txikia
-    es: pequeño/a
+    es: صغير
   - eu: lasaia
-    es: tranquilo/a
+    es: هادئ
   - eu: berria
-    es: nuevo/a
+    es: جديد
   - eu: zaharra
-    es: viejo/a
+    es: قديم
 - id: ex-09-05-fc
   type: flashcards
   cards:
@@ -96,30 +96,30 @@ exercises:
 
 ## الأسئلة الأساسية
 
-| السؤال | الإسبانية |
+| السؤال | العربية |
 |---|---|
-| *Non dago zure etxea?* | ¿Dónde está tu casa? |
-| *Nolakoa da?* | ¿Cómo es? |
-| *Zenbat gela ditu?* | ¿Cuántas habitaciones tiene? |
-| *Norekin bizi zara?* | ¿Con quién vives? |
-| *Zenbatgarren solairuan bizi zara?* | ¿En qué planta vives? |
-| *Etxeak badu igogailua / balkoia / terraza?* | ¿La casa tiene ascensor / balcón / terraza? |
+| *Non dago zure etxea?* | أين بيتك؟ |
+| *Nolakoa da?* | كيف هو؟ |
+| *Zenbat gela ditu?* | كم غرفة فيه؟ |
+| *Norekin bizi zara?* | مع من تعيش؟ |
+| *Zenbatgarren solairuan bizi zara?* | في أي طابق تعيش؟ |
+| *Etxeak badu igogailua / balkoia / terraza?* | هل في البيت مصعد / شرفة / سطح؟ |
 
 ## صفات مفيدة لوصف المنزل
 
-| الباسكية | الإسبانية |
+| الباسكية | العربية |
 |---|---|
-| *handia* | grande |
-| *txikia* | pequeña |
-| *argitsua* | luminosa |
-| *iluna* | oscura |
-| *berria* | nueva |
-| *zaharra* | vieja |
-| *lasaia* | tranquila |
-| *zaratatsua* | ruidosa |
-| *erosoa* | cómoda |
-| *garestia* | cara |
-| *merkea* | barata |
+| *handia* | كبير |
+| *txikia* | صغير |
+| *argitsua* | مضيء |
+| *iluna* | مظلم |
+| *berria* | جديد |
+| *zaharra* | قديم |
+| *lasaia* | هادئ |
+| *zaratatsua* | صاخب |
+| *erosoa* | مريح |
+| *garestia* | غالٍ |
+| *merkea* | رخيص |
 
 > تذكر النمط **NOLAKOA da?** الذي رأيته بالفعل في وحدات أخرى: الإجابة تحتوي على الصفة + `-a` في النهاية + الفعل *izan*. مثال: *Nire etxea **handia da**.* — منزلي كبير.
 
@@ -144,14 +144,14 @@ exercises:
 
 ## مفردات ختامية
 
-| الباسكية | الإسبانية |
+| الباسكية | العربية |
 |---|---|
-| *etxebizitza* | vivienda |
-| *etxejabea* | propietario |
-| *alokairua* | alquiler |
-| *errenta* | renta / alquiler mensual |
-| *auzoa* | barrio |
-| *erdigunea* | centro (de la ciudad) |
-| *aldiriak* | extrarradio / afueras |
+| *etxebizitza* | مسكن |
+| *etxejabea* | مالك البيت |
+| *alokairua* | إيجار |
+| *errenta* | الإيجار الشهري |
+| *auzoa* | حيّ |
+| *erdigunea* | وسط المدينة |
+| *aldiriak* | الضواحي |
 
 > **نصيحة:** عندما تتحدث عن منزلك في الفصل، لا تحاول ترجمة كل التفاصيل. التزم بالجمل القصيرة والمتقنة. *"Bi logela ditut, sukalde txiki bat eta egongela handia"* هو وصف أفضل من جملة طويلة مليئة بالأخطاء.

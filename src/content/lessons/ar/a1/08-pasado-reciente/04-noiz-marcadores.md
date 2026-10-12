@@ -24,7 +24,7 @@ exercises:
   explanation: '"Atzo" = أمس؛ "arratsaldean" = بعد الظهر. معاً: "مساء أمس".'
 - id: ex-04-nm-mc2
   type: multiple-choice
-  prompt: تريد أن تقول "Esta mañana he desayunado en casa". كيف تقولها؟
+  prompt: تريد أن تقول "تناولتُ الفطور في البيت هذا الصباح". كيف تقولها؟
   options:
   - Bihar goizean etxean gosaldu dut
   - Gaur goizean etxean gosaldu dut
@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: اليوم
   - eu: atzo
-    es: ayer
+    es: أمس
   - eu: bihar
-    es: mañana
+    es: غدًا
   - eu: etzi
-    es: pasado mañana
+    es: بعد غد
   - eu: gaur goizean
-    es: esta mañana
+    es: هذا الصباح
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: بعد ظهر اليوم
   - eu: atzo gauean
-    es: anoche
+    es: ليلة أمس
   - eu: orain
-    es: ahora
+    es: الآن
   - eu: lehen
-    es: antes
+    es: من قبل
 - id: ex-04-nm-fc
   type: flashcards
   cards:

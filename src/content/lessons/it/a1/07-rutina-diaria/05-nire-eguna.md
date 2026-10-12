@@ -94,7 +94,7 @@ Questa lezione unisce tutto ciò che abbiamo visto nell'unità: l'ora, i momenti
 | *Zer ordutan afaltzen duzu?* | A che ora ceni? |
 | *Zer ordutan oheratzen zara?* | A che ora vai a letto? |
 
-> Attenzione al cambio di ausiliare: *esnatzen **zara*** (NOR), pero *gosaltzen **duzu*** (NOR-NORK). Tocca a te notare la coppia verbo + ausiliare.
+> Attenzione al cambio di ausiliare: *esnatzen **zara*** (NOR), ma *gosaltzen **duzu*** (NOR-NORK). Tocca a te notare la coppia verbo + ausiliare.
 
 ## "Alle X" — come si dice
 

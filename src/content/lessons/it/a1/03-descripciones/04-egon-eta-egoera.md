@@ -88,20 +88,20 @@ exercises:
   - eu: triste
     es: triste
   - eu: nekatuta
-    es: cansado
+    es: stanco
   - eu: haserre
-    es: enfadado
+    es: arrabbiato
   - eu: gaixorik
-    es: enfermo
+    es: malato
   - eu: ondo
-    es: bien
+    es: bene
   - eu: gaizki
-    es: mal
+    es: male
   - eu: lasai
-    es: tranquilo (ahora)
+    es: tranquillo (adesso)
 ---
 
-In euskera ci sono due verbi dove in italiano ne usiamo uno solo. Conosci già **izan** ("essere/stare" per le qualità). Ora tocca a **egon**, che si traduce come "stare/essere" quando parliamo di **stati passeggeri**: come sta qualcuno oggi, proprio ora, in questo momento.
+In euskera ci sono due verbi che si dividono in modo diverso ciò che in italiano diciamo con «essere» e «stare». Conosci già **izan** ("essere/stare" per le qualità). Ora tocca a **egon**, che si traduce come "stare/essere" quando parliamo di **stati passeggeri**: come sta qualcuno oggi, proprio ora, in questo momento.
 
 ## Il paradigma di egon
 
@@ -121,7 +121,7 @@ In euskera ci sono due verbi dove in italiano ne usiamo uno solo. Conosci già *
 
 La grande trappola: quando un aggettivo va con **egon**, **NON** prende la `-a` finale. Confronta:
 
-- **Izan** (qualità stabile): *Ni alegre soy* → *Ni alai**a** naiz.* (con `-a`)
+- **Izan** (qualità stabile): *Sono allegra* → *Ni alai**a** naiz.* (con `-a`)
 - **Egon** (stato passeggero): *Io sono contenta oggi* → *Ni pozik nago.* (senza `-a`)
 
 | Stato | Italiano |

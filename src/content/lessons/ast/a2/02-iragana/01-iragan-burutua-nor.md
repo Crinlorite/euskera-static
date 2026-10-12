@@ -23,7 +23,7 @@ exercises:
   explanation: '*Nintzen* ye''l pasáu de *izan/egon* pa "yo": "yo yera / yo taba".'
 - id: ex-a2-ir1-mc2
   type: multiple-choice
-  prompt: '"Atzo Bilbon egon nintzen" significa…'
+  prompt: '"Atzo Bilbon egon nintzen" quier dicir…'
   options:
   - Güei toi en Bilbao
   - Mañana voi tar en Bilbao
@@ -53,7 +53,7 @@ exercises:
   - eu: zen
     es: él/ella yera/taba
   - eu: ginen
-    es: yéramos/tábamos
+    es: yéramos/tábemos
   - eu: zineten
     es: yerais/tabais
   - eu: ziren
@@ -78,13 +78,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Atzo etxean nintzen
-    es: Ayer estuve/estaba en casa
+    es: Ayeri tuvi/taba en casa
   - eu: Joan den astean Donostian
     es: La selmana pasada en San Sebastián
   - eu: Ikasleak ginen
     es: Yéramos estudiantes
   - eu: Bart pozik nengoen
-    es: Anoche estaba contento
+    es: Anoche taba contentu
   - eu: Zergatik zineten han?
     es: ¿Por qué tabais ellí?
   - eu: Duela urtebete
@@ -117,7 +117,7 @@ Esta primer lleición céntrase nos verbos NOR: **izan** y **egon** en pasáu.
 | ni | **nengoen** | taba / tuvi |
 | zu | **zeunden** | tabes / tuvisti |
 | hura | **zegoen** | taba / tuvo |
-| gu | **geunden** | tábamos / tuvimos |
+| gu | **geunden** | tábemos / tuvimos |
 | zuek | **zeundeten** | tabais / tuvistis |
 | haiek | **zeuden** | taben / tuvieron |
 

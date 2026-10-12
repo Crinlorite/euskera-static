@@ -42,7 +42,7 @@ exercises:
   - non
 - id: ex-nd-mc2
   type: multiple-choice
-  prompt: '"Banketxean nago" significa…'
+  prompt: '"Banketxean nago" vol dir…'
   options:
   - Soc del banc
   - Vaig al banc

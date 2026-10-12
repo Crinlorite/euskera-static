@@ -16,15 +16,15 @@ exercises:
   - eu: taberna
     es: bar
   - eu: okindegia
-    es: panadería
+    es: forno
   - eu: botika
     es: farmacia
   - eu: liburutegia
     es: biblioteca
   - eu: eliza
-    es: iglesia
+    es: ilesia
   - eu: merkatua
-    es: mercado
+    es: mercau
   - eu: banketxea
     es: banco
   - eu: ospitalea
@@ -66,7 +66,7 @@ exercises:
   - eu: jatetxea
     es: restaurant
   - eu: okindegia
-    es: panadería
+    es: forno
   - eu: harategia
     es: carnicería
   - eu: arrandegia
@@ -124,7 +124,7 @@ Antes de saber dar indicacions, precisas o vocabulario basico pa charrar d'o bar
 | *taberna* | bar |
 | *kafetegia* | cafetería |
 | *jatetxea* | restaurant |
-| *okindegia* | panadería |
+| *okindegia* | forno |
 | *harategia* | carnicería |
 | *arrandegia* | pescatería |
 | *fruta-denda* | frutería |

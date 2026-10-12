@@ -76,19 +76,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: Montag
   - eu: asteartea
-    es: martes
+    es: Dienstag
   - eu: asteazkena
     es: Mittwoch
   - eu: osteguna
-    es: jueves
+    es: Donnerstag
   - eu: ostirala
-    es: viernes
+    es: Freitag
   - eu: larunbata
     es: Samstag
   - eu: igandea
-    es: domingo
+    es: Sonntag
 ---
 
 Bevor wir über Pläne und Termine sprechen, wiederholen wir die Wochentage und lernen, sie mit alltäglichen Aktivitäten zu verbinden.

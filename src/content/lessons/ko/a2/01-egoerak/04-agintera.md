@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: 이리 와
   - eu: Hartu hau
-    es: Toma esto
+    es: 이것을 드세요
   - eu: Eseri hemen
     es: 여기 앉아
   - eu: Esadazu egia
@@ -93,7 +93,7 @@ exercises:
 
 많은 일상적인 명령에서 동사는 조동사 없이 분사 형태로 나타납니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 잡으세요 | *Hartu* |
 | 앉으세요 | *Eseri* |
@@ -127,7 +127,7 @@ exercises:
 
 이중 목적어("이것을 나에게 줘", "저것을 그에게 말해")를 사용하여 명령할 때, 바스크어에는 매우 유용한 축약형이 있습니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 나에게 줘 | *Emadazu* / *Eman iezadazu* |
 | 나에게 말해줘 | *Esadazu* / *Esan iezadazu* |

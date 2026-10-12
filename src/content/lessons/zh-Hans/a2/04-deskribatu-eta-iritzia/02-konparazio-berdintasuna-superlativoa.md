@@ -94,7 +94,7 @@ exercises:
 
 > **X bezain Y**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 和你一样高 | *Zu **bezain** altua* |
 | 和多诺斯蒂亚一样美 | *Donostia **bezain** polita* |
@@ -107,7 +107,7 @@ exercises:
 
 用于名词或数量，表示“和……一样多”：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 和你一样多 | *Zuk **adina*** / *Zuk **beste*** |
 | 和我一样多的钱 | *Nik **adina** diru* |
@@ -123,7 +123,7 @@ exercises:
 
 另一种表示等同的方式，这次是关于**方式**或**方法**：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 像你一样 | *Zu **bezala*** / *Zure **moduan*** |
 | 我像你一样做 | *Zuk egin duzun **moduan** egiten dut* |
@@ -159,7 +159,7 @@ exercises:
 
 当你要指明**在哪个范围内**时，使用方位格或所有格：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 班里最高的 | *Klaseko **altuena*** |
 | 世界上最快的 | *Munduko **azkarrena*** |
@@ -174,7 +174,7 @@ exercises:
 
 用于数量或频率的最高级对等词：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我最喜欢的东西 | *Gehien gustatzen zaidana* |
 | 我最少做的事 | *Gutxien egiten dudana* |

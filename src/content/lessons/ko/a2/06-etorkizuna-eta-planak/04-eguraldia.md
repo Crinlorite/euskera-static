@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '일기 예보에서 이렇게 말합니다: "Bihar eguzkia aterako da". 내일 날씨는 어떨까요?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - 비
+  - 강한 바람
+  - 맑음
+  - 안개
   answer: 2
   explanation: '*Eguzkia atera* = 해가 뜨다; 미래형은 *aterako da* — 내일은 날씨가 맑을 것입니다.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: 해가 뜰 거예요
   - eu: Haizea dabil
-    es: Hace viento
+    es: 바람이 분다
   - eu: Hotz handia egiten du
     es: 매우 추워요
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ exercises:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — 흐려요 / 화창해요.
 
-> **주목하세요:** 바스크어에서 날씨는 *egin* 동사와 보조 동사 **du**를 사용하여 (가시적인 주어 없이) 무언가를 "**합니다**": *euria egingo du*, *bero handia egiten du*. 스페인어의 «hace calor»(더워요)와 똑같은 구조입니다. 다만 비도 '한다'고 표현한다는 점이 다릅니다.
+> **주목하세요:** 바스크어에서 날씨는 *egin* 동사와 보조 동사 **du**를 사용하여 (가시적인 주어 없이) 무언가를 "**합니다**": *euria egingo du*, *bero handia egiten du*. 한국어로는 "덥다"라고 하지만, 바스크어에서는 날씨가 더위를 '하고', 비까지 '한다'고 표현합니다.
 
 ## 질문하는 법
 

@@ -15,7 +15,7 @@ exercises:
   type: multiple-choice
   prompt: '"Bihar Bilbora joango naiz" quiere decir…'
   options:
-  - Ayer fui ta Bilbao
+  - Ahier fui ta Bilbao
   - Maitín iré ta Bilbao
   - Goso ir ta Bilbao
   - Soi indo ta Bilbao
@@ -158,4 +158,4 @@ Para cuenta: *izan* sirve ta **ser** y ta **tener** — lo distingue l'auxiliar 
 
 ## Truco d'estudio
 
-O futuro basco ye como o "voy a + verbo" d'o castellano en un sentiu: **no cal que aprendas conchugacions nuevas**, nomás a pieza *-ko/-go*. Si dudas, piensa en o participio (que ya lo sabes d'o pasau: *erosi dut* = l'he mercau) y apega-le o sufixo: *erosiko dut*.
+O futuro basco ye como o "voi a + verbo" en un sentiu: **no cal que aprendas conchugacions nuevas**, nomás a pieza *-ko/-go*. Si dudas, piensa en o participio (que ya lo sabes d'o pasau: *erosi dut* = l'he mercau) y apega-le o sufixo: *erosiko dut*.

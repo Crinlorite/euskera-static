@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: up to the mountain
   - eu: etxerantz
-    es: hacia casa
+    es: towards home
   - eu: lagunarengatik
     es: because of the friend
   - eu: Bilboko jendea
@@ -170,7 +170,7 @@ To ask for the reason: **zergatik?** (why?). To answer with a noun: **-engatik**
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Why did you do that? — Because of you.
 
-> **Note:** distinguish *-engatik* (cause: "because of") from *-rentzat* (recipient: "for"). In Spanish, "por" covers both, but in Basque they are different.
+> **Note:** distinguish *-engatik* (cause: "because of") from *-rentzat* (recipient: "for"). In English, "for" can cover both, but in Basque they are different.
 
 ## NONGO / NOIZKO — of what place / time
 
@@ -219,7 +219,7 @@ Now you can handle all the basic cases:
 | Case | Question | Suffix | Example (etxe) |
 |---|---|---|---|
 | NOR | who? | -a | *etxea* |
-| NORK | who does? | -ak | *etxeak* (sujeto) |
+| NORK | who does? | -ak | *etxeak* (subject) |
 | NORI | to whom? | -ari | *etxeari* |
 | NON | where? | -an | *etxean* |
 | NORA | to where? | -ra | *etxera* |

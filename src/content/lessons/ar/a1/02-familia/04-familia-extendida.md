@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: عمة / خالة
   - eu: lehengusu
-    es: primo
+    es: ابن العم/الخال
   - eu: lehengusina
-    es: prima
+    es: ابنة العم/الخال
   - eu: iloba
-    es: sobrino/a
+    es: ابن/ابنة الأخ أو الأخت
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" هو...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - ابن العم/الخال
+  - أخ
+  - جدّ
+  - حمو
   answer: 0
 - id: ex-fe-fc
   type: flashcards
@@ -59,7 +59,7 @@ exercises:
 
 ## الأعمام وأبناء العمومة
 
-| Euskera | الإسبانية |
+| Euskera | العربية |
 |---|---|
 | *osaba* | عم / خال |
 | *izeba* | عمة / خالة |
@@ -69,7 +69,7 @@ exercises:
 
 ## الأصهار
 
-| Euskera | الإسبانية |
+| Euskera | العربية |
 |---|---|
 | *aitaginarreba* | حمو |
 | *amaginarreba* | حماة |

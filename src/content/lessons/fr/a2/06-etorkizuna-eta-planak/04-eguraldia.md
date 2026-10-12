@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'Les prévisions disent : "Bihar eguzkia aterako da". Qu''est-ce qui t''attend demain ?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Pluie
+  - Vent fort
+  - Soleil
+  - Brouillard
   answer: 2
   explanation: '*Eguzkia atera* = le soleil se lève ; au futur, *aterako da* — demain il fera soleil.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Le soleil se lèvera
   - eu: Haizea dabil
-    es: Hace viento
+    es: Il y a du vent
   - eu: Hotz handia egiten du
     es: Il fait très froid
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Autres tournures avec leur propre verbe :
 >
 > ***Hodeitsu / eguzkitsu dago**.* — C'est nuageux / ensoleillé.
 
-> **Remarque :** en basque, le temps « **fait** » des choses avec *egin* et l'auxiliaire **du** (sans sujet visible) : *euria egingo du*, *bero handia egiten du*. C'est un calque de l'espagnol « hace calor » — sauf que la pluie aussi se « fait ».
+> **Remarque :** en basque, le temps « **fait** » des choses avec *egin* et l'auxiliaire **du** (sans sujet visible) : *euria egingo du*, *bero handia egiten du*. Comme le français « il fait chaud » — sauf qu'en basque, la pluie aussi se « fait ».
 
 ## Comment poser des questions
 

@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: primeur
   - eu: supermerkatua
-    es: supermercado
+    es: supermarché
   - eu: kutxazain automatikoa
     es: distributeur automatique
 - id: ex-dendak-mc1

@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" signifie…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - ennuyeux
+  - joyeux
+  - nerveux
+  - silencieux
   answer: 1
   explanation: '*alaia* signifie "joyeux". C''est l''un des adjectifs de caractère les plus courants.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: joyeux
   - eu: isila
-    es: callado
+    es: silencieux
   - eu: berritsua
-    es: hablador
+    es: bavard
   - eu: lasaia
-    es: tranquilo
+    es: calme
   - eu: urduria
-    es: nervioso
+    es: nerveux
   - eu: langilea
-    es: trabajador
+    es: travailleur
   - eu: alferra
-    es: vago
+    es: paresseux
   - eu: jatorra
     es: sympa
 ---

@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: テーブル
   - eu: aulkia
-    es: silla
+    es: 椅子
   - eu: ohea
-    es: cama
+    es: ベッド
   - eu: armairua
-    es: armario
+    es: 洋服だんす
   - eu: sofa
     es: ソファ
   - eu: telebista
     es: テレビ
   - eu: hozkailua
-    es: nevera
+    es: 冷蔵庫
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: 「*hozkailua*」はどの部屋にありますか？

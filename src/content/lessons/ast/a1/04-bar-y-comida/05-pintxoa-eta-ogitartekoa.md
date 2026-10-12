@@ -14,11 +14,11 @@ covers:
 exercises:
 - id: ex-pin-mc1
   type: multiple-choice
-  prompt: '"Ogitarteko" significa…'
+  prompt: '"Ogitarteko" quier dicir…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
+  - bocadiellu
+  - platu combináu
   - postre
   answer: 1
   explanation: '*ogitartekoa* vien de *ogi* (pan) + *arte* (ente): "lo d''ente dos panes" — el bocadiellu.'
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — esautamente como en castellán, ensin gran adautación.'
+  explanation: '*plater konbinatua* — tomáu del castellán «plato combinado», ensin gran adautación.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Pa min, una ración de quesu = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: pinchu
   - eu: ogitartekoa
-    es: bocadillo
+    es: bocadiellu
   - eu: plater konbinatua
-    es: plato combinado
+    es: platu combináu
   - eu: razioa
     es: ración
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: quesu
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ La gran cultura del chigre vascu xira al rodiu de tres formatos principales: el 
 
 ## Los tres formatos
 
-| Eusquera | Castellán | Tamañu |
+| Eusquera | Asturianu | Tamañu |
 |---|---|---|
 | *pintxoa* | pinchu / tapa | pequeñu, de barra |
 | *ogitartekoa* | bocadiellu | mediu, en pan |
@@ -115,7 +115,7 @@ La gran cultura del chigre vascu xira al rodiu de tres formatos principales: el 
 
 Estos son los rellenos más habituales que vas ver nuna pizarra de chigre:
 
-| Eusquera | Castellán |
+| Eusquera | Asturianu |
 |---|---|
 | *tortilla* | tortiella (de pataca) |
 | *txistorra* | txistorra |
@@ -124,7 +124,7 @@ Estos son los rellenos más habituales que vas ver nuna pizarra de chigre:
 | *urdaiazpikoa* | xamón |
 | *antxoa* | anchoa |
 | *atuna* | atún |
-| *gilda* | gilda (anchoa + guindilla + aceituna) |
+| *gilda* | gilda (anchoa + guindiella + aceituna) |
 
 ## Cómo combinar pa pidir
 

@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: 오후에
   - eu: iluntzean
-    es: al atardecer
+    es: 해 질 녘에
   - eu: gauean
     es: 밤에
   - eu: gaur
-    es: hoy
+    es: 오늘
   - eu: bihar
     es: 내일 (다음 날)
   - eu: atzo
-    es: ayer
+    es: 어제
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ exercises:
 | *gero* | 나중에, 후에 |
 | *lehen* | 전에 |
 
-> 주의: **bihar**(다음 날, '내일')와 **goiza**(정오까지의 '아침')를 혼동하지 않도록 조심하세요. 스페인어에서는 같은 단어를 사용하지만 바스크어에서는 다릅니다.
+> 주의: **bihar**(다음 날, '내일')와 **goiza**(정오까지의 '아침')를 혼동하지 않도록 조심하세요. 한국어의 "내일"과 "아침"처럼 서로 다른 단어입니다.
 
 ## 모두 조합하기
 

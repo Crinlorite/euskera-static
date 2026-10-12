@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: 먹었다
   - eu: edan dut
-    es: he bebido
+    es: 마셨다
   - eu: ikusi dut
-    es: he visto
+    es: 봤다
   - eu: irakurri dut
     es: 읽었다
   - eu: erosi dut
-    es: he comprado
+    es: 샀다
   - eu: egin dut
-    es: he hecho
+    es: 했다
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: 가져갔다 / 탔다
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: 배웠다 / 공부했다
 - id: ex-02-jed-fc
   type: flashcards
   cards:

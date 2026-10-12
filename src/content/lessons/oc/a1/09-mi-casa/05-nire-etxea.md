@@ -44,17 +44,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: argitsua
-    es: luminoso/a
+    es: luminós/osa
   - eu: handia
-    es: grande
+    es: gran
   - eu: txikia
-    es: pequeño/a
+    es: petit/a
   - eu: lasaia
-    es: tranquilo/a
+    es: tranquil/a
   - eu: berria
-    es: nuevo/a
+    es: nau/naua
   - eu: zaharra
-    es: viejo/a
+    es: vielh/a
 - id: ex-09-05-fc
   type: flashcards
   cards:
@@ -96,7 +96,7 @@ Aguesta leccion intègre tot çò deth tème 9: es abitacions, es mòbles, es pr
 
 ## Es qüestions basiques
 
-| Qüestion | Castelhan |
+| Qüestion | Aranés |
 |---|---|
 | *Non dago zure etxea?* | A on ei era tua casa? |
 | *Nolakoa da?* | Com ei? |
@@ -107,7 +107,7 @@ Aguesta leccion intègre tot çò deth tème 9: es abitacions, es mòbles, es pr
 
 ## Adjectius utils entà descríuer era casa
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *handia* | gran |
 | *txikia* | petita |
@@ -144,7 +144,7 @@ Bastís eth tòn pròpri paragraf en tot respóner en aguest orde:
 
 ## Vocabulari de conclusion
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *etxebizitza* | abitatge |
 | *etxejabea* | proprietàri |

@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 「Hobeto nago」は…という意味です。
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - 悪くなりました
+  - 元気です
+  - よくなりました
+  - 変わりません
   answer: 2
   explanation: '*Hobeto* = より良く。*Hobe*は「より良い」という形容詞で、*hobeto*は副詞です。'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: 痛みますか？
   - eu: Hartu hau
-    es: Toma esto
+    es: これを飲んでください
   - eu: Itzuli astebete barru
     es: 1週間後にまた来てください
   - eu: Atseden hartu
-    es: Descansar
+    es: 休む
 ---
 
 このレッスンは、**病院での診察の完全なシミュレーション**です。前のレッスンの語彙と、時間の表現（どのくらいの頻度で、〜の前/後）やよく使われる言い回しを組み合わせます。診察の場面はA2レベルで最も役立つ状況の一つで、あらゆる公認試験に出題されます。

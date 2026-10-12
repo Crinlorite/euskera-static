@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: 今日
   - eu: atzo
-    es: ayer
+    es: 昨日
   - eu: bihar
-    es: mañana
+    es: 明日
   - eu: etzi
-    es: pasado mañana
+    es: あさって
   - eu: gaur goizean
-    es: esta mañana
+    es: 今朝
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: 今日の午後
   - eu: atzo gauean
-    es: anoche
+    es: 昨夜
   - eu: orain
-    es: ahora
+    es: 今
   - eu: lehen
-    es: antes
+    es: 以前
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ exercises:
 | *lehen* | 前に |
 | *gero* | 後で |
 
-> お気づきかもしれませんが、*atzo*（昨日）と *bihar*（明日）はどちらも非常に短い単語なので、すぐに覚えられます。*Etzi*（明後日）は、スペイン語では一言で表せない単語です。バスク語からのちょっとした贈り物ですね。
+> お気づきかもしれませんが、*atzo*（昨日）と *bihar*（明日）はどちらも非常に短い単語なので、すぐに覚えられます。*Etzi*（明後日）も、日本語と同じく一語で言えます。覚えやすいですね。
 
 ## 一日の時間帯との組み合わせ
 

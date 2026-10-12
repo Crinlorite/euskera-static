@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata"는 무슨 뜻일까요…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - 일
+  - 월급
+  - 상사
+  - 직원
   answer: 1
   explanation: '*Soldata* = 월급. *Lansari*는 격식 있는 동의어입니다.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: 선생님
   - eu: erizain
-    es: enfermero/a
+    es: 간호사
   - eu: sukaldari
-    es: cocinero/a
+    es: 요리사
   - eu: kazetari
-    es: periodista
+    es: 기자
   - eu: mekanikari
     es: 정비사
   - eu: arkitekto
-    es: arquitecto/a
+    es: 건축가
 ---
 
 A2 레벨에서는 "저는 학생입니다 / 저는 선생님입니다"를 넘어서 **일**의 세계로 들어갑니다. 이제 다음과 같은 주제에 대해 이야기하게 됩니다:
@@ -102,7 +102,7 @@ A2 레벨에서는 "저는 학생입니다 / 저는 선생님입니다"를 넘�
 
 A1에서는 기본적인 직업들(*medikua, ikaslea, irakaslea, sukaldaria*)을 다루었습니다. A2에서는 다음을 추가합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 기자 | *kazetaria* |
 | 프로그래머 | *programatzailea* |
@@ -128,7 +128,7 @@ A1에서는 기본적인 직업들(*medikua, ikaslea, irakaslea, sukaldaria*)을
 
 A1에서 배운 이 접미사를 기억하세요 — 직업을 나타낼 때 유용하게 쓰입니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 바스크어 사용자 | *euskalduna* |
 | 챔피언 (txapela를 가진 사람) | *txapelduna* |
@@ -136,7 +136,7 @@ A1에서 배운 이 접미사를 기억하세요 — 직업을 나타낼 때 유
 
 ## 일에 대해 말하기
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 무슨 일을 하세요? | *Zertan egiten duzu lan?* |
 | 사무실에서 일해요 | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ A1에서 배운 이 접미사를 기억하세요 — 직업을 나타낼 때 유
 
 ## 근무 시간과 일정
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 풀타임 근무 | *Lanaldi osoa* |
 | 파트타임 근무 | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ A1에서 배운 이 접미사를 기억하세요 — 직업을 나타낼 때 유
 
 일반적인 단계와 어휘:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 채용 공고 | *lan-eskaintza* |
 | 이력서 / CV | *curriculuma* |
@@ -177,7 +177,7 @@ A1에서 배운 이 접미사를 기억하세요 — 직업을 나타낼 때 유
 
 ## 면접에서 자주 쓰이는 표현
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 자기소개를 해보세요 | *Konta iezadazu zerbait zuri buruz* |
 | 왜 이 직무에 지원하셨나요? | *Zergatik nahi duzu lanpostu hau?* |
@@ -190,9 +190,9 @@ A1에서 배운 이 접미사를 기억하세요 — 직업을 나타낼 때 유
 
 자신의 일을 더 복잡한 용어로 설명하려면 **관계절**을 사용하는 것이 좋습니다:
 
-> **verbo conjugado + -(e)n + sustantivo**
+> **활용된 동사 + -(e)n + 명사**
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 내가 가진 일 | *Daukadan lana* |
 | 내가 일하는 회사 | *Lan egiten dudan enpresa* |

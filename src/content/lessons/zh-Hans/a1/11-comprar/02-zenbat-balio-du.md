@@ -80,7 +80,7 @@ exercises:
 
 ## 两个关键问题
 
-| 巴斯克语 | 西班牙语 | 使用时机 |
+| 巴斯克语 | 中文 | 使用时机 |
 |---|---|---|
 | *Zenbat balio du?* | 它值多少钱？ | 看某个具体商品时 |
 | *Zenbat da?* | 多少钱？ | 最后付款时 |
@@ -97,7 +97,7 @@ exercises:
 - **Kiloa X eurotan dago** — 每公斤 X 欧元。
    - *Kiloa hamar eurotan dago.* → 每公斤10欧元。
 
-> *Eurotan* 的意思是“在欧元里”（复数方位格）。在日常对话中，也经常会像在西班牙语里一样，省略动词只说“*Hamar euro*”。
+> *Eurotan* 的意思是“在欧元里”（复数方位格）。在日常对话中，也经常省略动词，只说“*Hamar euro*”。
 
 ## 如果你觉得贵或便宜
 

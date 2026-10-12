@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Ты можешь прийти?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Ты можешь это сделать
   - eu: Ezin dut etorri
     es: Я не могу прийти
   - eu: Ezin nintzen joan
@@ -91,7 +91,7 @@ exercises:
 
 Самая простая и та, которую вы будете слышать чаще всего:
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + вспомогательный глагол**
 
 | Русский | Баскский |
 |---|---|
@@ -149,7 +149,7 @@ exercises:
 
 Отрицание в ahalera образуется с помощью отдельного слова: **ezin**.
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + вспомогательный глагол**
 
 | Русский | Баскский |
 |---|---|

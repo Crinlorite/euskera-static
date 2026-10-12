@@ -94,7 +94,7 @@ exercises:
 
 ## 在哪儿睡
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 酒店 | *hotela* |
 | 家庭旅馆 | *pentsioa* |
@@ -130,7 +130,7 @@ exercises:
 
 ## 住宿期间的要求和问题
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 几点必须退房？ | *Zer ordutan utzi behar da gela?* |
 | 有空房吗？ | *Gelarik badago libre?* |

@@ -62,7 +62,7 @@ exercises:
   - eu: sarrera
     es: die Eintrittskarte
   - eu: doan
-    es: gratis
+    es: kostenlos
   - eu: agortu
     es: ausverkauft sein
   - eu: parkea
@@ -112,7 +112,7 @@ Abschluss der Lektion: **städtische Freizeit** — Konzerte, Theater, Museen un
 |---|---|
 | Die Eintrittskarte | *sarrera* |
 | Eintrittskarten kaufen | *sarrerak erosi* |
-| Gratis | *doan* |
+| Kostenlos | *doan* |
 | Ausverkauft | *agortuta* |
 | Die Vorstellung / die Vorführung | *emanaldia* |
 | Die Schlange | *ilara* |

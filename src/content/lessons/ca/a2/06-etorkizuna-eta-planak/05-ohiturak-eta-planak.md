@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-et5-mc1
   type: multiple-choice
-  prompt: '"Igandeetan mendira joan ohi naiz" significa…'
+  prompt: '"Igandeetan mendira joan ohi naiz" vol dir…'
   options:
   - Diumenge aniré a la muntanya
   - Els diumenges solc anar a la muntanya
@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTUR: hi aniré'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASSAT puntual: vaig anar'
   - eu: Joaten nintzen
     es: 'PASSAT hàbit: hi anava'
   - eu: Joan ohi nintzen
     es: 'PASSAT hàbit: solia anar-hi'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'ARA: hi estic anant'
 ---
 
 Última lliçó de la unitat — i tancament d'un cicle enorme: amb el futur ja a la butxaca, **domines els tres temps**. Aquesta lliçó hi posa la cirereta (*ohi*, el "soler" basc) i et fa moure una mateixa idea pel passat, el present habitual i el futur. Això és, exactament, el que un tribunal d'A2 vol sentir.

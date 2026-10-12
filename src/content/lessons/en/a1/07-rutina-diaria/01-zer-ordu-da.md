@@ -116,7 +116,7 @@ To ask the time, you use **Zer ordu da?** ("what time is it?").
 
 Where does that final **-ak** come from? It's the Basque plural (you saw it in *gurasoak*, *aiton-amonak*). Here too: *bost* (five) → *bostak* ("the fives") + *dira* ("are").
 
-> **Note:** many people tell time using the 12-hour clock, just like in Spanish. To distinguish between morning and afternoon, you just add *goizeko* (of the morning) or *arratsaldeko* (of the afternoon) before the time: *goizeko zortziak* (eight in the morning). We'll see this in lesson 3.
+> **Note:** many people tell time using the 12-hour clock, just like in English. To distinguish between morning and afternoon, you just add *goizeko* (of the morning) or *arratsaldeko* (of the afternoon) before the time: *goizeko zortziak* (eight in the morning). We'll see this in lesson 3.
 
 ## Practice
 

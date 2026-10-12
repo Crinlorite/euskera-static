@@ -97,14 +97,14 @@ exercises:
   - eu: Berandu dabil
     es: 연착 중입니다
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: 제시간에 도착했어요
 ---
 
 두 번째 정류장: **표를 사고 기차를 놓치지 않기**. 여기서 A1 레벨에서 배운 두 가지 무기 — *zenbat balio du?* (가격)와 시간 — 를 재활용하여 매표소에서 사용해 보세요.
 
 ## 매표소에서
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 표 | *txartela* |
 | 편도 | *joaneko txartela* |
@@ -132,7 +132,7 @@ exercises:
 
 ## 연착과 정시
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 연착 중이다 | *berandu dabil* |
 | 정시에 도착하다 | *garaiz iritsi da* |

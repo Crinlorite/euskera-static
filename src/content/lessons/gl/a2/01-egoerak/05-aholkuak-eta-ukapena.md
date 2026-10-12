@@ -75,11 +75,11 @@ exercises:
   - eu: Ez edan asko
     es: Non bebas moito
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Come froita
   - eu: Egin kirola
-    es: Haz deporte
+    es: Fai deporte
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Durme ben
   - eu: Saiatu lasai egoten
     es: Intenta estar tranquilo
 ---
@@ -92,7 +92,7 @@ A forma máis sinxela e a que máis usarás:
 
 > **ez + participio**
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Non fumes | *Ez erre* |
 | Non bebas alcohol | *Ez edan alkoholik* |
@@ -102,13 +102,13 @@ A forma máis sinxela e a que máis usarás:
 | Non teñas medo | *Ez izan beldurrik* |
 | Non corras | *Ez korrika egin* |
 
-> O partitivo *-rik* aparece con frecuencia: *ez edan alkohol**ik***, *ez izan beldur**rik***. Funciona como en castelán "non bebas (nada de) alcohol". Víchelo de pasada en A1 e en A2 xa convén recoñecelo.
+> O partitivo *-rik* aparece con frecuencia: *ez edan alkohol**ik***, *ez izan beldur**rik***. Funciona coma en galego "non bebas (nada de) alcol". Víchelo de pasada en A1 e en A2 xa convén recoñecelo.
 
 ## Imperativo negativo enfático: *ez ezazu*
 
 En textos máis formais ou cando queres salientar a prohibición, aparece a forma con *ezazu*:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Non tomes isto | *Ez ezazu hartu hau* |
 | Non esquezas | *Ez ezazu ahaztu* |
@@ -122,7 +122,7 @@ Para A2, dúas fórmulas que convén memorizar como un bloque:
 
 ### *Hobe duzu + -tzea* — "é mellor que (ti)..."
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | É mellor que descanses | *Hobe duzu **deskantsatzea*** |
 | É mellor que vaias pronto | *Hobe duzu goiz **joatea*** |
@@ -132,7 +132,7 @@ Máis distante: **hobe litzateke** + *-tzea* — "sería mellor".
 
 ### *Komeni zaizu / komeni da* — "convénche / convén"
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Convénche andar máis | *Gehiago **ibiltzea** komeni zaizu* |
 | Convén comer froita | *Fruta **jatea** komeni da* |

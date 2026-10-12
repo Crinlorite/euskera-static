@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" تعني...'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - أنا أسوأ
+  - أنا بخير
+  - أنا أفضل
+  - أنا كما أنا
   answer: 2
   explanation: '*Hobeto* = أفضل. *Hobe* هي الصفة "أفضل" و *hobeto* هي الظرف.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: هل يؤلمك؟
   - eu: Hartu hau
-    es: Toma esto
+    es: تناول هذا
   - eu: Itzuli astebete barru
     es: عُد بعد أسبوع
   - eu: Atseden hartu
-    es: Descansar
+    es: يرتاح
 ---
 
 هذا الدرس هو **محاكاة كاملة لزيارة الطبيب**. يجمع مفردات الدرس السابق مع تعابير الزمن (كل كم، قبل/بعد) والصيغ الشائعة. زيارة الطبيب هي واحدة من أكثر السياقات فائدة للمستوى A2: فهي تظهر في أي امتحان رسمي.

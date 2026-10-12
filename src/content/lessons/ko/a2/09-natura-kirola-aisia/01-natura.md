@@ -77,7 +77,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mendira igo
-    es: subir al monte
+    es: 산에 오르다
   - eu: gailurrera iritsi
     es: 정상에 도착하다
   - eu: basoan barrena ibili
@@ -85,7 +85,7 @@ exercises:
   - eu: ibaian bainatu
     es: 강에서 수영하다
   - eu: itsasoari begira egon
-    es: estar mirando al mar
+    es: 바다를 바라보다
   - eu: argazkia atera
     es: 사진을 찍다
 ---
@@ -94,7 +94,7 @@ exercises:
 
 ## 산
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 산 | *mendia* |
 | 정상 | *gailurra* |
@@ -111,7 +111,7 @@ exercises:
 
 ## 물
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 강 | *ibaia* |
 | 저수지 / 댐 | *urtegia* |

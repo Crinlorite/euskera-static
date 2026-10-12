@@ -33,14 +33,14 @@ exercises:
   explanation: 'La una ye especial: se diz "ordu bata da" (singular, con articlo "-a").'
 - id: ex-01-zod-mc3
   type: multiple-choice
-  prompt: Son las cinco en punto. ¿Cómo lo dices?
+  prompt: Son as cinco en punto. ¿Cómo lo dices?
   options:
   - Bost da
   - Bostak da
   - Bostak dira
   - Bost dira
   answer: 2
-  explanation: 'A partir d''as dos, las horas en euskera van en plural: "bostak dira" (literal: "son las cincos").'
+  explanation: 'A partir d''as dos, as horas en euskera van en plural: "bostak dira" (literal: "son as cincos").'
 - id: ex-01-zod-fb1
   type: fill-in-blank
   prompt: Son las ueito = Zortziak ___.
@@ -55,15 +55,15 @@ exercises:
   - eu: Ordu bata da
     es: Ye la una
   - eu: Ordu biak dira
-    es: Son las dos
+    es: Son as dos
   - eu: Hirurak dira
-    es: Son las tres
+    es: Son as tres
   - eu: Laurak dira
-    es: Son las cuatro
+    es: Son as cuatro
   - eu: Bostak dira
-    es: Son las cinco
+    es: Son as cinco
   - eu: Seiak dira
-    es: Son las seis
+    es: Son as seis
   - eu: Zazpiak dira
     es: Son las siet
   - eu: Zortziak dira
@@ -71,18 +71,18 @@ exercises:
   - eu: Bederatziak dira
     es: Son las nueu
   - eu: Hamarrak dira
-    es: Son las diez
+    es: Son as diez
   - eu: Hamaikak dira
-    es: Son las once
+    es: Son as onze
   - eu: Hamabiak dira
     es: Son las dotze
   - eu: ordu
     es: hora
 ---
 
-En euskera la hora se construye con o verbo **izan** (ser) y, sacando o caso de "la una", la hora va siempre **en plural**. Literalment: *"son las cincos"*, *"son las ueitos"*. Sona raro a o principio, pero o patrón ye muito regular.
+En euskera la hora se construye con o verbo **izan** (ser) y, sacando o caso de "la una", la hora va siempre **en plural**. Literalment: *"son as cincos"*, *"son as ueitos"*. Sona raro a o principio, pero o patrón ye muito regular.
 
-## La pregunta
+## A pregunta
 
 Ta preguntar la hora s'emplega **Zer ordu da?** ("¿qué hora ye?").
 
@@ -90,7 +90,7 @@ Ta preguntar la hora s'emplega **Zer ordu da?** ("¿qué hora ye?").
 >
 > *— Zazpiak dira.* (Son las siet.)
 
-## Las horas en punto
+## As horas en punto
 
 | Hora | Euskera |
 |---|---|
@@ -116,7 +116,7 @@ Ta preguntar la hora s'emplega **Zer ordu da?** ("¿qué hora ye?").
 
 ¿D'án sale ixe **-ak** final? Ye o plural euskérico (lo viemos en *gurasoak*, *aiton-amonak*). Aquí tamién: *bost* (cinco) → *bostak* ("las cincos") + *dira* ("son").
 
-> **Nota:** muita chent cuenta la hora d'o día con o reloch de 12 horas, igual que en castellano. Ta distinguir maitín u tardi, ye pro con adhibir *goizeko* (d'o maitín) u *arratsaldeko* (d'a tardi) debant: *goizeko zortziak* (las ueito d'o maitín). Lo veyeremos en a lección 3.
+> **Nota:** muita chent cuenta la hora d'o día con o reloch de 12 horas, igual que en aragonés. Ta distinguir maitín u tardi, ye pro con adhibir *goizeko* (d'o maitín) u *arratsaldeko* (d'a tardi) debant: *goizeko zortziak* (las ueito d'o maitín). Lo veyeremos en a lección 3.
 
 ## Prautica
 

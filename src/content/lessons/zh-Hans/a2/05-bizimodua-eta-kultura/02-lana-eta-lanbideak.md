@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" 的意思是……'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - 工作
+  - 工资
+  - 老板
+  - 员工
   answer: 1
   explanation: '*Soldata* = 薪水。*Lansari* 是一个正式的同义词。'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: 老师
   - eu: erizain
-    es: enfermero/a
+    es: 护士
   - eu: sukaldari
-    es: cocinero/a
+    es: 厨师
   - eu: kazetari
-    es: periodista
+    es: 记者
   - eu: mekanikari
     es: 机械师
   - eu: arkitekto
-    es: arquitecto/a
+    es: 建筑师
 ---
 
 A2为你打开了**工作**的世界，超越了“我是学生/我是老师”的范畴。现在你将开始谈论：
@@ -102,7 +102,7 @@ A2为你打开了**工作**的世界，超越了“我是学生/我是老师”�
 
 A1级别涵盖了常见的职业（*medikua, ikaslea, irakaslea, sukaldaria*）。在A2级别，你将学习更多：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 记者 | *kazetaria* |
 | 程序员 | *programatzailea* |
@@ -128,7 +128,7 @@ A1级别涵盖了常见的职业（*medikua, ikaslea, irakaslea, sukaldaria*）�
 
 回顾一下A1级别学过的这个后缀——在职业词汇中很常用：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 说巴斯克语的人 | *euskalduna* |
 | 冠军（戴着txapela的人） | *txapelduna* |
@@ -136,7 +136,7 @@ A1级别涵盖了常见的职业（*medikua, ikaslea, irakaslea, sukaldaria*）�
 
 ## 谈论工作
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你做什么工作？ | *Zertan egiten duzu lan?* |
 | 我在办公室工作 | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ A1级别涵盖了常见的职业（*medikua, ikaslea, irakaslea, sukaldaria*）�
 
 ## 工时与日程
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 全职 | *Lanaldi osoa* |
 | 兼职 | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ A1级别涵盖了常见的职业（*medikua, ikaslea, irakaslea, sukaldaria*）�
 
 典型步骤和词汇：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 招聘信息 | *lan-eskaintza* |
 | 简历 / CV | *curriculuma* |
@@ -177,7 +177,7 @@ A1级别涵盖了常见的职业（*medikua, ikaslea, irakaslea, sukaldaria*）�
 
 ## 面试常用语
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 介绍一下你自己 | *Konta iezadazu zerbait zuri buruz* |
 | 你为什么想得到这个职位？ | *Zergatik nahi duzu lanpostu hau?* |
@@ -192,7 +192,7 @@ A1级别涵盖了常见的职业（*medikua, ikaslea, irakaslea, sukaldaria*）�
 
 > **变位动词 + -(e)n + 名词**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我有的工作 | *Daukadan lana* |
 | 我工作的公司 | *Lan egiten dudan enpresa* |

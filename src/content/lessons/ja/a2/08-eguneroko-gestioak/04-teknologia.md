@@ -78,24 +78,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: 電源を入れる
   - eu: itzali
-    es: apagar
+    es: 電源を切る
   - eu: gorde
-    es: guardar
+    es: 保存する
   - eu: ezabatu
-    es: borrar
+    es: 削除する
   - eu: deskargatu
-    es: descargar
+    es: ダウンロードする
   - eu: partekatu
-    es: compartir
+    es: 共有する
 ---
 
 紙からピクセルへ：**日常のテクノロジー**のレッスンです。一日に何度も使う単語を、今度はバスク語で学びましょう。バスク語には、分かりやすく巧みに作られた単語がたくさんあります（*pasahitza* = 通るための言葉; *sakelakoa* = 「ポケットのもの」）。
 
 ## 機器
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | パソコン | *ordenagailua* |
 | ノートパソコン | *eramangarria* |
@@ -108,7 +108,7 @@ exercises:
 
 ## ネットとアカウント
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | ネット / インターネット | *sarea / internet* |
 | Wi-Fi | *wifia* |
@@ -126,7 +126,7 @@ exercises:
 
 ## デジタル関連の動詞
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 電源を入れる / 切る | *piztu / itzali* |
 | ダウンロードする | *deskargatu / jaitsi* |

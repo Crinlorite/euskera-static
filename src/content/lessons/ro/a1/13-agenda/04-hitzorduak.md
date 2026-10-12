@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: întâlnire
   - eu: bilera
     es: ședință
   - eu: libre
-    es: libre
+    es: liber
   - eu: lanpetuta
-    es: ocupado/a
+    es: ocupat/ă
   - eu: geratu
-    es: quedar
+    es: a-și da întâlnire
   - eu: geratuko gara
-    es: quedaremos
+    es: ne vom întâlni
 ---
 
 O agendă activă este plină de întâlniri și programări. Această lecție te învață să vorbești despre ele: să ai o programare, să te întâlnești cu cineva, să spui dacă ești liber.

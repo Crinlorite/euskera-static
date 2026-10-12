@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: Non beues fòrça
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Minja fruta
   - eu: Egin kirola
-    es: Haz deporte
+    es: Hè espòrt
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Dormís ben
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Ensatja d'estar tranquil
 ---
 
 Aguesta leccion intègre es tres tèmes dera unitat: dam **conselhs**, proïbicions e recomandacions entà ua vida sana. Vas a apréner er **imperatiu negatiu** e un bon nombre de formules A2 fòrça productives entà opinar sus çò que conven hèr.
@@ -92,7 +92,7 @@ Era forma mès sencilla e era que mès emplegaràs:
 
 > **ez + participi**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Non fumes | *Ez erre* |
 | Non beues alcòl | *Ez edan alkoholik* |
@@ -102,13 +102,13 @@ Era forma mès sencilla e era que mès emplegaràs:
 | Non ages pòur | *Ez izan beldurrik* |
 | Non corragues | *Ez korrika egin* |
 
-> Eth partitiu *-rik* apareish damb frequéncia: *ez edan alkohol**ik***, *ez izan beldur**rik***. Fonclone coma en castelhan "no bebas (nada de) alcohol". Lo veeres de passada en A1 e en A2 ja conven reconéisher-lo.
+> Eth partitiu *-rik* apareish damb frequéncia: *ez edan alkohol**ik***, *ez izan beldur**rik***. Equival a "cap de": *ez edan alkoholik* = cap d'alcòl. Lo veeres de passada en A1 e en A2 ja conven reconéisher-lo.
 
 ## Imperatiu negatiu enfatic: *ez ezazu*
 
 En tèxtes mès formali o quan vòs emfatizar era proïbicion, apareish era forma damb *ezazu*:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Non prengues açò | *Ez ezazu hartu hau* |
 | Non desbrembes | *Ez ezazu ahaztu* |
@@ -122,7 +122,7 @@ Entà A2, dues formules que conven memorizar coma un blòc:
 
 ### *Hobe duzu + -tzea* — "ei melhor que (tu)..."
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Ei melhor que te repauses | *Hobe duzu **deskantsatzea*** |
 | Ei melhor que vages de d'ora | *Hobe duzu goiz **joatea*** |
@@ -132,7 +132,7 @@ Mès distant: **hobe litzateke** + *-tzea* — "seré melhor".
 
 ### *Komeni zaizu / komeni da* — "te conven / conven"
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Te conven caminar mès | *Gehiago **ibiltzea** komeni zaizu* |
 | Conven manjar fruta | *Fruta **jatea** komeni da* |

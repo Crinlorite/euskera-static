@@ -83,7 +83,7 @@ exercises:
   - eu: urduria naiz
     es: soi nerviosa (carácter)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: soi nerviosa (agora)
   - eu: ona da
     es: ye bueno (cualidat)
   - eu: ondo dago

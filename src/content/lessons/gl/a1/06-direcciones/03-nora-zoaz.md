@@ -102,7 +102,7 @@ exercises:
   - eu: Nora zoaz?
     es: A onde vas?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Vou para a casa
   - eu: Eskolara noa
     es: Vou á escola
   - eu: Zertara zoaz?

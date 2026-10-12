@@ -15,7 +15,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: bakarrik
-    es: solo/a
+    es: solet/a
   - eu: lagunarekin
     es: damb un/ua amic/amiga
   - eu: gurasoekin

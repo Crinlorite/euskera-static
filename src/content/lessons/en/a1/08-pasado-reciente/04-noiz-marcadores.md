@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: today
   - eu: atzo
-    es: ayer
+    es: yesterday
   - eu: bihar
-    es: mañana
+    es: tomorrow
   - eu: etzi
-    es: pasado mañana
+    es: the day after tomorrow
   - eu: gaur goizean
-    es: esta mañana
+    es: this morning
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: this afternoon
   - eu: atzo gauean
-    es: anoche
+    es: last night
   - eu: orain
-    es: ahora
+    es: now
   - eu: lehen
-    es: antes
+    es: before
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ To properly recount what happened, you need to say **when**. This lesson gives y
 | *lehen* | before |
 | *gero* | later, after |
 
-> If you've noticed, *atzo* (yesterday) and *bihar* (tomorrow) are two words so short you can learn them in one go. *Etzi* (the day after tomorrow) is a word that Spanish doesn't have in a single piece — a small gift from Basque.
+> If you've noticed, *atzo* (yesterday) and *bihar* (tomorrow) are two words so short you can learn them in one go. *Etzi* (the day after tomorrow) is a word that English doesn't have in a single piece — a small gift from Basque.
 
 ## Combining with times of day
 

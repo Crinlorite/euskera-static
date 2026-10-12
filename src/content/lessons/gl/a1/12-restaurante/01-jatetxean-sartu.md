@@ -52,11 +52,11 @@ exercises:
   - eu: jatetxea
     es: restaurante
   - eu: erretegia
-    es: parrilla, asador
+    es: grella, asador
   - eu: sagardotegia
     es: sidraría
   - eu: pizzeria
-    es: pizzería
+    es: pizzaría
   - eu: hanburgeseria
     es: hamburguesaría
   - eu: elkartea
@@ -86,10 +86,10 @@ O primeiro paso ao ir a un restaurante: entrar, saudar, pedir mesa ou confirmar 
 | Éuscaro | Galego |
 |---|---|
 | *jatetxea* | restaurante |
-| *erretegia* | parrilla / asador |
+| *erretegia* | grella / asador |
 | *sagardotegia* | sidraría |
 | *taberna* | bar |
-| *pizzeria* | pizzería |
+| *pizzeria* | pizzaría |
 | *hanburgeseria* | hamburguesaría |
 | *elkartea* | sociedade gastronómica |
 

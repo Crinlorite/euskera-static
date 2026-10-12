@@ -18,7 +18,7 @@ exercises:
   - eu: prestatu
     es: preparar
   - eu: jaso
-    es: recoger
+    es: replegar
   - eu: lisatu
     es: planchar
   - eu: erosketak egin

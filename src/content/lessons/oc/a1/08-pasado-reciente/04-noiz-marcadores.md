@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: aué
   - eu: atzo
-    es: ayer
+    es: ger
   - eu: bihar
-    es: mañana
+    es: deman
   - eu: etzi
-    es: pasado mañana
+    es: depús deman
   - eu: gaur goizean
-    es: esta mañana
+    es: aguest maitin
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: aguesta tarde
   - eu: atzo gauean
-    es: anoche
+    es: ger ath ser
   - eu: orain
-    es: ahora
+    es: ara
   - eu: lehen
-    es: antes
+    es: abans
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ Entà explicar ben çò que s'a passat, as de besonh de díder **quan**. Aguesta
 | *lehen* | abans |
 | *gero* | dempús, après |
 
-> S'as estat atent, *atzo* (ièr) e *bihar* (deman) son dues paraules tan cuertes que s'aprenen d'un còp. *Etzi* (deman passat) ei ua paraula qu'eth castelhan non a en ua soleta pèça — un petit present deth basc.
+> S'as estat atent, *atzo* (ièr) e *bihar* (deman) son dues paraules tan cuertes que s'aprenen d'un còp. *Etzi* (deman passat) ei ua soleta paraula, quan en aranés ne cau dues — un petit present deth basc.
 
 ## En tot combinar damb moments deth dia
 

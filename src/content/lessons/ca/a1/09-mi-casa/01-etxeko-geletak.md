@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: cuina
   - eu: logela
-    es: dormitorio
+    es: dormitori
   - eu: komuna
-    es: baño
+    es: bany
   - eu: egongela
     es: sala d'estar
   - eu: sarrera
     es: entrada
   - eu: korridorea
-    es: pasillo
+    es: passadís
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Vols dutxar-te. A quina habitació vas?
@@ -47,7 +47,7 @@ exercises:
   explanation: '"Egongela" es compon de "egon" (estar) + "gela" (sala) — la sala on s''està, la sala d''estar.'
 - id: ex-09-01-fb1
   type: fill-in-blank
-  prompt: 'Dormim a la ___ (en castellà: dormitorio).'
+  prompt: 'Dormim a la ___ (en català: dormitori).'
   answers:
   - logela
   explanation: '"Logela" = "lo" (son) + "gela" (sala).'

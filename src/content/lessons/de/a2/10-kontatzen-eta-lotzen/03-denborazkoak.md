@@ -87,16 +87,16 @@ exercises:
   - eu: gosaldu ondoren
     es: nach dem Frühstück
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: wenn ich frühstücke
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: während ich frühstücke
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: sobald ich gefrühstückt habe
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: ohne zu frühstücken
 ---
 
-Deine Sätze können schon sagen, WAS passiert ist; in dieser Lektion lernst du, **WANN** etwas passiert, und das mit uhrmacherischer Präzision: *cuando llegué*, *antes de salir*, *después de comer*, *mientras dormías*. Drei Bausteine, und die Kombinationen ergeben sich von selbst.
+Deine Sätze können schon sagen, WAS passiert ist; in dieser Lektion lernst du, **WANN** etwas passiert, und das mit uhrmacherischer Präzision: *als ich ankam*, *bevor ich losgehe*, *nach dem Essen*, *während du schliefst*. Drei Bausteine, und die Kombinationen ergeben sich von selbst.
 
 ## Baustein 1: -NEAN (wenn/als)
 

@@ -73,11 +73,11 @@ exercises:
   - eu: gehiago
     es: 더 많이 (양)
   - eu: gutxiago
-    es: menos
+    es: 덜
   - eu: hobea
-    es: mejor
+    es: 더 좋은
   - eu: okerragoa
-    es: peor
+    es: 더 나쁜
   - eu: azkarragoa
     es: 더 빨리
 ---
@@ -89,10 +89,10 @@ exercises:
 > **X baino Y-AGO(A)**
 
 - **baino**는 비교되는 두 대상 사이에 위치하며, '~보다'에 해당합니다.
-- **-ago**는 형용사나 부사에 붙습니다 (영어의 '-er'나 스페인어의 비교급 표시와 같습니다).
+- **-ago**는 형용사나 부사에 붙습니다 (영어의 '-er'와 같습니다).
 - 정관사와 함께 쓰일 경우, 형용사는 평소처럼 **-a**를 붙입니다: *altuago**a***.
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 더 큰 | *handi**agoa*** |
 | 더 작은 | *txiki**agoa*** |
@@ -102,7 +102,7 @@ exercises:
 
 ## 예문
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | Lander는 Olatz보다 키가 더 크다 | *Lander Olatz **baino** altu**agoa** da* |
 | 이 집은 저 집보다 더 크다 | *Etxe hau hura **baino** handi**agoa** da* |
@@ -116,7 +116,7 @@ exercises:
 
 일부 형용사는 규칙을 따르지 않으므로 암기하는 것이 좋습니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 좋은 → 더 좋은 | *ona → **hobea*** |
 | 나쁜 → 더 나쁜 | *txarra → **okerragoa*** |
@@ -131,7 +131,7 @@ exercises:
 
 **행동**이나 **양**을 비교할 때, *gehiago / gutxiago*는 부사로 기능합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 나는 너보다 더 많이 일한다 | *Zuk **baino gehiago** lan egiten dut* |
 | 그는 예전보다 덜 공부한다 | *Lehen **baino gutxiago** ikasten du* |
@@ -168,7 +168,7 @@ exercises:
 
 매우 유용한 공식입니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 그렇게 비싸지 않다 | *Ez da **hain** garestia* |
 | 그렇게 빠르지 않게 | *Ez **hain** azkar* |

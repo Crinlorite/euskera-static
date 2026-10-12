@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: I like to read
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: He/she likes singing
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: We like travelling
   - eu: Margotzen dakit
     es: I know how to paint
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: I'm going dancing
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: I'm cooking
 ---
 
 What do you do when you're not doing anything? This lesson is about **hobbies** — and the piece of grammar that governs them: the verb turned into a noun with **-tzea** (*irakurtzea* = "the act of reading").
@@ -99,7 +99,7 @@ From A1 you know *gustatzen zait* with things (*kafea gustatzen zait*). To like 
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | I like to read | *Irakurtzea gustatzen zait* |
 | I love to cook | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ The whole NOR-NORI you already know (*zait, zaio, zaigu…*) is still in charge;
 
 ## The hobby catalog
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Reading / writing | *irakurtzea / idaztea* |
 | Listening to music | *musika entzutea* |

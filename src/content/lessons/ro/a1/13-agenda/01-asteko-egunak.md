@@ -20,7 +20,7 @@ exercises:
   - asteazkena
   - igandea
   answer: 0
-  explanation: '*Astelehena* — prima zi a săptămânii (literalmente "prima-zi-a-săptămânii").'
+  explanation: '*Astelehena* — prima zi a săptămânii (literal "prima-zi-a-săptămânii").'
 - id: ex-eg-mc2
   type: multiple-choice
   prompt: Ce zi este "asteburua"?
@@ -76,19 +76,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: luni
   - eu: asteartea
-    es: martes
+    es: marți
   - eu: asteazkena
     es: miercuri
   - eu: osteguna
-    es: jueves
+    es: joi
   - eu: ostirala
-    es: viernes
+    es: vineri
   - eu: larunbata
     es: sâmbătă
   - eu: igandea
-    es: domingo
+    es: duminică
 ---
 
 Înainte de a vorbi despre planuri și agendă, recapitulăm zilele săptămânii și învățăm să le asociem cu activitățile cotidiene.

@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: greengrocer's
   - eu: supermerkatua
-    es: supermercado
+    es: supermarket
   - eu: kutxazain automatikoa
     es: ATM
 - id: ex-dendak-mc1

@@ -36,7 +36,7 @@ exercises:
   prompt: “半公斤西红柿” = kilo ___ tomate.
   answers:
   - erdi
-  explanation: '*Kilo erdi* — “半公斤”。*Erdi*（“一半”）放在单位的后面，和西班牙语的语序正好相反。'
+  explanation: '*Kilo erdi* — “半公斤”。*Erdi*（“一半”）放在单位的后面，和中文“半公斤”的语序正好相反。'
 - id: ex-neur-fb2
   type: fill-in-blank
   prompt: “更多”用巴斯克语（在商店里要再多一点时）= ___。
@@ -96,7 +96,7 @@ exercises:
 | *botila bat ardo* | 一瓶葡萄酒 |
 | *lata bat tomate* | 一罐西红柿 |
 
-> **注意：** 产品**不带冠词**（*sagar*，不是*sagarra*）。这与西班牙语不同，需要通过练习来掌握。
+> **注意：** 产品**不带冠词**（*sagar*，不是*sagarra*）。这一点需要通过练习来掌握。
 
 ## 数字在前，产品在后
 

@@ -89,11 +89,11 @@ exercises:
   - eu: Nora zoaz?
     es: T'a on vas?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: A crompar pan
   - eu: Zertara etorri da?
     es: A qué ha veniu?
   - eu: Agur esatera
-    es: A decir adiós
+    es: A dicir adiós
 ---
 
 Penultima lección d'o livel: expresar **o proposito** — pa qué sirve bella cosa y a qué vas. Dos sufixos chirmans, una regla de reparto clarisma.
@@ -131,7 +131,7 @@ A pregunta: ***Zertara** etorri zara?* (a qué has veniu?) → *Laguntzera!* (a 
 | No — ye un "pa" | **-tzeko** | *Hau ikasteko da* |
 | Sí — vas/viens A | **-tzera** | *Ikastera noa* |
 
-> Trampa clasica d'o castellano: "voy a comprar" NO ye futuro en basco — ye movimiento: *erostera noa*. O futuro de verdat ya lo tienes: *erosiko dut*.
+> Trampa clasica: "voi a crompar" NO ye futuro en basco — ye movimiento: *erostera noa*. O futuro de verdat ya lo tienes: *erosiko dut*.
 
 ## Tot chunto (y con as temporals d'ahier)
 

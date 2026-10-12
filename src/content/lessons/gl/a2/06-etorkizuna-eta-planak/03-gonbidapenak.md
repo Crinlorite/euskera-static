@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + verbo en presente é a proposta suave clásica, igual que en castelán. As outras preguntan polo pasado, o destino ou a volta.'
+  explanation: '*Zergatik ez…?* + verbo en presente é a proposta suave clásica, coma o galego «por que non…?». As outras preguntan polo pasado, o destino ou a volta.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: Quedamos ás seis? = seietan ___ gara?
@@ -105,7 +105,7 @@ Saber o futuro está moi ben, pero a vida social pide algo máis concreto: **con
 
 ## Convidar e propoñer
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Queres cear comigo? | *Nirekin afaldu **nahi duzu**?* |
 | Por que non imos ao cine? | ***Zergatik ez** goaz zinemara?* |
@@ -117,7 +117,7 @@ Saber o futuro está moi ben, pero a vida social pide algo máis concreto: **con
 
 ## Quedar: onde e cando
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Quedamos? | ***Geratuko gara?*** |
 | Onde quedamos? | ***Non** geratuko gara?* |

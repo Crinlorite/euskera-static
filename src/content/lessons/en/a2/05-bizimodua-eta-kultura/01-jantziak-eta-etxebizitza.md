@@ -88,17 +88,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: shirt
   - eu: galtzak
-    es: pantalones
+    es: trousers
   - eu: soineko
-    es: vestido
+    es: dress
   - eu: jertsea
-    es: jersey
+    es: jumper
   - eu: zapatak
-    es: zapatos
+    es: shoes
   - eu: beroki
-    es: abrigo
+    es: coat
 ---
 
 In A1 you learned the basic vocabulary for **clothing** and **home**. In A2 you'll expand to more specific areas: **sizes, fitting room, accessories**, and **housing as a social space** (rent, owner, neighborhood, garden).

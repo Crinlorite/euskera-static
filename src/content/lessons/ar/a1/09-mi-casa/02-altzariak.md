@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: طاولة
   - eu: aulkia
-    es: silla
+    es: كرسي
   - eu: ohea
-    es: cama
+    es: سرير
   - eu: armairua
-    es: armario
+    es: خزانة
   - eu: sofa
     es: أريكة
   - eu: telebista
     es: تلفاز
   - eu: hozkailua
-    es: nevera
+    es: ثلاجة
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: في أي غرفة يوجد "hozkailua"؟

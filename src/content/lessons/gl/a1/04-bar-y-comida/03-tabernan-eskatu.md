@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: por favor
   - eu: eskerrik asko
-    es: muchas gracias
+    es: moitas grazas
   - eu: ez horregatik
     es: de nada
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Para min
   - eu: ona
-    es: bueno
+    es: bo
 ---
 
 Pedir no bar é unha das cousas máis útiles que vas saber dicir en éuscaro. A fórmula básica é moi directa: nome do que queres + **bat** (un) + **mesedez** (por favor). E xa está.
@@ -157,4 +157,4 @@ En éuscaro o "oe / oia" típico para chamar a atención é **Aizu!** (informal 
 >
 > — *Ederki!* — ¡Estupendo!
 
-> **Nota cultural:** nunha taberna vasca o normal é pedir na barra, beber de pé e falar alto. *Mesedez* e *eskerrik asko* son básicos pero non obrigatorios en cada frase — ao contrario que en castelán, non se considera maleducado un "*ebakia*" seco, sempre que o ton sexa cordial.
+> **Nota cultural:** nunha taberna vasca o normal é pedir na barra, beber de pé e falar alto. *Mesedez* e *eskerrik asko* son básicos pero non obrigatorios en cada frase — ao contrario do que poderías pensar, non se considera maleducado un "*ebakia*" seco, sempre que o ton sexa cordial.

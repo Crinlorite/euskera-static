@@ -15,17 +15,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: 선생님
   - eu: ikaslea
-    es: estudiante
+    es: 학생
   - eu: medikua
     es: 의사
   - eu: erizaina
-    es: enfermero/a
+    es: 간호사
   - eu: sukaldaria
-    es: cocinero/a
+    es: 요리사
   - eu: kazetaria
-    es: periodista
+    es: 기자
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: '"polizia"는 누구일까요?'
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: '"Mekanikaria"는 ...와 함께 일합니다.'
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - 환자들
+  - 책들
+  - 자동차들
+  - 아이들
   answer: 2
   explanation: '"Mekanikaria"는 정비사이며, 보통 정비소에서 자동차를 다룹니다.'
 - id: ex-10-02-fb1

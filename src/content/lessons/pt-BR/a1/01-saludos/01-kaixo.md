@@ -74,17 +74,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Kaixo
-    es: Hola
+    es: Oi
   - eu: Agur
     es: Adeus
   - eu: Egun on
     es: Bom dia
   - eu: Gabon
-    es: Buenas noches
+    es: Boa noite
   - eu: Gero arte
-    es: Hasta luego
+    es: Até logo
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Muito obrigado
 ---
 
 Em basco, os cumprimentos mudam dependendo do momento do dia. A fórmula universal e a mais comum é **Kaixo**, que se usa a qualquer hora com quase qualquer pessoa — assim como o "olá" em português. **Hepa** ou **Aupa** são alternativas ainda mais informais, especialmente entre jovens e amigos.

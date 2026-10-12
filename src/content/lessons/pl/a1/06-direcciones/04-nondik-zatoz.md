@@ -111,7 +111,7 @@ Jeśli na poprzedniej lekcji nauczyliśmy się **NORA** (dokąd idziesz), teraz 
 
 ## Pytanie: Nondik?
 
-| Pytanie | Znaczenie |
+| Pytanie | Polski |
 |---|---|
 | ***Nondik* zatoz?** | Skąd przychodzisz? |
 | ***Nondik* dator?** | Skąd on/ona przychodzi? |

@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" signifie…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - sandwich
+  - assiette composée
+  - dessert
   answer: 1
   explanation: '*ogitartekoa* vient de *ogi* (pain) + *arte* (entre) : "ce qui est entre deux pains" — le sandwich.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — exactement comme en espagnol, sans grande adaptation.'
+  explanation: '*plater konbinatua* — repris de l''espagnol « plato combinado » presque sans adaptation.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Pour moi, une portion de fromage = Niretzat ___ ___.
@@ -58,7 +58,7 @@ exercises:
   - eu: razioa
     es: portion
   - eu: tortilla pintxoa
-    es: pincho de tortilla
+    es: pintxo de tortilla
   - eu: gilda
     es: gilda (brochette typique)
   - eu: tortilla ogitartekoa
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: pintxo
   - eu: ogitartekoa
-    es: bocadillo
+    es: sandwich
   - eu: plater konbinatua
-    es: plato combinado
+    es: assiette composée
   - eu: razioa
     es: portion
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: fromage
   - eu: tortilla
     es: tortilla
 ---
@@ -104,7 +104,7 @@ La grande culture des bars basques tourne autour de trois formats principaux : l
 
 | Euskera | Français | Taille |
 |---|---|---|
-| *pintxoa* | pincho / tapa | petit, de comptoir |
+| *pintxoa* | pintxo / tapa | petit, de comptoir |
 | *ogitartekoa* | sandwich | moyen, dans du pain |
 | *plater konbinatua* | assiette composée | repas complet |
 | *razioa* | portion | à partager |

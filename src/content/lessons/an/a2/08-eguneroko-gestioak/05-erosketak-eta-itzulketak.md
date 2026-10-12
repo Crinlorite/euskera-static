@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" significa que a prenda ye…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Masiau cara
+  - Masiau gran
+  - Muit polita
+  - Masiau chicota
   answer: 1
   explanation: 'El *-egi* de la unidad 04 (gehiegi/gutxiegi) aplicau a la talla: handi**egi**a = masiau gran; txiki**egi**a = masiau chicota.'
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: Me puedo prebar istos pantalons? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = prebar(se). Con ahalera: probatu **ditzaket** (plural: as prendas "praka" van en plural, como en castellano).'
+  explanation: '*Probatu* = prebar(se). Con ahalera: probatu **ditzaket** (plural: as prendas "praka" van en plural, como en aragonés).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: Me queda chicot; quiero cambear-lo = txikia geratzen zait; ___ nahi dut.

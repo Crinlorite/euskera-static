@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: 私の
   - eu: zure
-    es: tu/tuyo
+    es: あなたの
   - eu: bere
     es: 彼/彼女の
   - eu: gure
-    es: nuestro
+    es: 私たちの
   - eu: zuen
-    es: vuestro
+    es: あなたたちの
   - eu: beren
     es: 彼らの
 - id: ex-pos-fb1
@@ -43,7 +43,7 @@ exercises:
   explanation: '"Gure" は "nosotros" (私たち) の所有格です。'
 ---
 
-バスク語の所有格は、スペイン語と同様に**名詞の前**に置かれます。所有されるモノの性によって形は変わらず ("mío/mía" のような区別はなく、*nire* だけです)。
+バスク語の所有格は、日本語の「私の〜」と同様に**名詞の前**に置かれます。所有されるモノの性によって形は変わらず （*nire* だけです）。
 
 ## 所有格一覧
 
@@ -56,7 +56,7 @@ exercises:
 | zuek | **zuen** | zuen lagunak | あなたたちの友達 |
 | haiek | **beren** | beren autoa | 彼らの車 |
 
-> スペイン語とは異なり、バスク語の名詞は所有格と一緒でも**定冠詞の`-a`を保持します**：*gure etxea* (私たちの家)、*zuen lagunak* (あなたたちの友達)、*beren autoa* (彼らの車)。元々`-a`で終わる単語 (*ama* や *arreba* など) では、冠詞は見た目には分かりません：*nire ama*。
+> 注意：バスク語の名詞は所有格と一緒でも**定冠詞の`-a`を保持します**：*gure etxea* (私たちの家)、*zuen lagunak* (あなたたちの友達)、*beren autoa* (彼らの車)。元々`-a`で終わる単語 (*ama* や *arreba* など) では、冠詞は見た目には分かりません：*nire ama*。
 
 ## 家族 + 所有格
 

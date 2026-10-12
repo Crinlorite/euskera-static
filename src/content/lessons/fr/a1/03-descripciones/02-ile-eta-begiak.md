@@ -89,17 +89,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: cheveux noirs
   - eu: ile horia
-    es: pelo rubio
+    es: cheveux blonds
   - eu: ile motza
-    es: pelo corto
+    es: cheveux courts
   - eu: ile luzea
-    es: pelo largo
+    es: cheveux longs
   - eu: begi urdinak
-    es: ojos azules
+    es: yeux bleus
   - eu: begi marroiak
-    es: ojos marrones
+    es: yeux marron
   - eu: bizarduna
     es: barbu / avec une barbe
   - eu: betaurrekoduna

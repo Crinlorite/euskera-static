@@ -85,17 +85,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: hârtie
   - eu: plastikoa
     es: plastic
   - eu: beira
-    es: vidrio
+    es: sticlă
   - eu: organikoa
     es: organic
   - eu: pila
-    es: pila
+    es: baterie
   - eu: olioa
-    es: aceite
+    es: ulei
 ---
 
 A vorbi despre **stil de viață** și **mediu înconjurător** este un bloc clasic de A2: se amestecă vocabular nou cu fraze de obligație și sfat (*behar dugu*, *komeni da*, *garrantzitsua da*) pe care le stăpânești deja de la A1.

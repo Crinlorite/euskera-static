@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: fruteria
   - eu: supermerkatua
-    es: supermercado
+    es: supermercat
   - eu: kutxazain automatikoa
     es: caishèr automatic
 - id: ex-dendak-mc1
@@ -90,7 +90,7 @@ Quan vas a hèr era crompa en Euskal Herria, cada producte sòl auer era sua bot
 
 ## Botigues de menjar
 
-| Basc | Castelhan | Çò que se ven |
+| Basc | Aranés | Çò que se ven |
 |---|---|---|
 | *harategia* | carniceria | haragia (carn) |
 | *okindegia* | forn | ogia (pan) |
@@ -113,7 +113,7 @@ Fòrça nòms de botiga acaben en **-degi**, un sufixe ancian que vò díder "l�
 
 ## Auti lòcs utils
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *kutxazain automatikoa* | caishèr automatic |
 | *banketxea* | banca |

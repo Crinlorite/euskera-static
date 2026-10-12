@@ -92,7 +92,7 @@ exercises:
     es: Onde está o bar?
 ---
 
-En castelán usamos un só verbo, "haber/estar", para dúas ideas distintas: **existir** ("hai unha farmacia no barrio?") e **localizarse** ("a farmacia está na rúa Maior"). O éuscaro distingue moi claramente estas dúas cousas, e é algo que convén fixar pronto.
+Son dúas ideas distintas: **existir** ("hai unha farmacia no barrio?") e **localizarse** ("a farmacia está na rúa Maior"). O éuscaro distingue moi claramente estas dúas cousas, e é algo que convén fixar pronto.
 
 ## Existir vs estar
 

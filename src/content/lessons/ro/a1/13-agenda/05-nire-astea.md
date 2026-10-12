@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: weekendul
   - eu: bihar
-    es: mañana
+    es: mâine
   - eu: etzi
-    es: pasado mañana
+    es: poimâine
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: în după-amiaza asta
   - eu: libre nago
-    es: estoy libre
+    es: sunt liber/ă
 ---
 
 Lecția finală a unității: vom construi **o săptămână întreagă** unind tot ce am învățat. Zile, timpuri viitoare, întâlniri, marcatori temporali... limbajul planificării.

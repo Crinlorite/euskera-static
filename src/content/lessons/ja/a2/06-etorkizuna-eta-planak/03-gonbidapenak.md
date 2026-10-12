@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + 動詞の現在形は、スペイン語と同様に、古典的で穏やかな提案の仕方です。他の選択肢は、過去、目的地、または帰りについて尋ねています。'
+  explanation: '*Zergatik ez…?* + 動詞の現在形は、日本語の「〜しませんか？」のように、古典的で穏やかな提案の仕方です。他の選択肢は、過去、目的地、または帰りについて尋ねています。'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: 6時に会いますか？ = seietan ___ gara?
@@ -105,7 +105,7 @@ exercises:
 
 ## 招待と提案
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 私と夕食に行きませんか？ | *Nirekin afaldu **nahi duzu**?* |
 | 映画に行きませんか？ | ***Zergatik ez** goaz zinemara?* |
@@ -117,7 +117,7 @@ exercises:
 
 ## 約束：どこで、いつ
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 会いますか？ | ***Geratuko gara?*** |
 | どこで会いますか？ | ***Non** geratuko gara?* |

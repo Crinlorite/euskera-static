@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: meu/miña
   - eu: zure
-    es: tu/tuyo
+    es: teu
   - eu: bere
     es: seu/súa (del/dela)
   - eu: gure
-    es: nuestro
+    es: noso
   - eu: zuen
-    es: vuestro
+    es: voso
   - eu: beren
     es: seu/súa (deles/delas)
 - id: ex-pos-fb1
@@ -43,11 +43,11 @@ exercises:
   explanation: '"Gure" é o posesivo de "nós".'
 ---
 
-Os posesivos en éuscaro colócanse **antes do substantivo**, igual que en castelán. Non cambian de forma segundo o xénero do obxecto posuído (non hai "meu/miña", só *nire*).
+Os posesivos en éuscaro colócanse **antes do substantivo**, igual que en galego. Non cambian de forma segundo o xénero do obxecto posuído (non hai "meu/miña", só *nire*).
 
 ## Táboa completa
 
-| Persoa | Posesivo | Exemplo | Castelán |
+| Persoa | Posesivo | Exemplo | Galego |
 |---|---|---|---|
 | ni | **nire** | nire ama | miña nai |
 | zu | **zure** | zure aita | teu pai |
@@ -56,7 +56,7 @@ Os posesivos en éuscaro colócanse **antes do substantivo**, igual que en caste
 | zuek | **zuen** | zuen lagunak | vosos amigos |
 | haiek | **beren** | beren autoa | seu coche (deles/delas) |
 
-> A diferenza do castelán, o substantivo **conserva o artigo `-a`** aínda que leve posesivo: *gure etxea* (nosa casa), *zuen lagunak* (vosos amigos), *beren autoa* (seu coche). En palabras que xa rematan en `-a` (como *ama* ou *arreba*) o artigo non se aprecia: *nire ama*.
+> Coma en galego («a nosa casa»), o substantivo **conserva o artigo `-a`** aínda que leve posesivo: *gure etxea* (nosa casa), *zuen lagunak* (vosos amigos), *beren autoa* (seu coche). En palabras que xa rematan en `-a` (como *ama* ou *arreba*) o artigo non se aprecia: *nire ama*.
 
 ## Familia + posesivos
 

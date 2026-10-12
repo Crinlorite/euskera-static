@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-et5-mc1
   type: multiple-choice
-  prompt: '"Igandeetan mendira joan ohi naiz" significa…'
+  prompt: '"Igandeetan mendira joan ohi naiz" quier dicir…'
   options:
   - El domingu diré al monte
   - Los domingos suelo dir al monte
@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTURU: diré'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASÁU puntual: fui'
   - eu: Joaten nintzen
     es: 'PASÁU vezu: diba'
   - eu: Joan ohi nintzen
     es: 'PASÁU vezu: solía dir'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'AGORA: toi diendo'
 ---
 
 Última lleición de la unidá — y zarru d'un ciclu enorme: col futuru yá nel bolsu, **domines los tres tiempos**. Esta lleición pon la guinda (*ohi*, el "soler" eusquera) y te fai mover una mesma idea per pasáu, presente-hábitu y futuru. Esto ye, esautamente, lo qu'un tribunal d'A2 quier oyer.
@@ -106,7 +106,7 @@ exercises:
 
 > **participiu + ohi + auxiliar**
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Suelo dir en bici al trabayu | *Lanera bizikletaz joan **ohi** naiz* |
 | Solemos comer u la güela | *Amonaren etxean bazkaldu **ohi** dugu* |
@@ -122,7 +122,7 @@ Dos apuntes:
 
 ## Los alverbios qu'acompañen al vezu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Normalmente | *normalean* |
 | Les más de les vegaes | *gehienetan* |
@@ -138,10 +138,10 @@ Dos apuntes:
 |---|---|---|
 | Voi (vezu) | *joaten naiz* / *joan ohi naiz* | presente habitual |
 | Toi diendo | *joaten ari naiz* | presente en curso |
-| Fui (güei) | *joan naiz* | pasado reciente |
-| Fui (un día) | *joan nintzen* | pasado puntual |
-| Diba / solía dir | *joaten nintzen* / *joan ohi nintzen* | pasado habitual |
-| Diré | ***joango naiz*** | **futuro** |
+| Fui (güei) | *joan naiz* | pasáu recién |
+| Fui (un día) | *joan nintzen* | pasáu puntual |
+| Diba / solía dir | *joaten nintzen* / *joan ohi nintzen* | pasáu habitual |
+| Diré | ***joango naiz*** | **futuru** |
 
 Seis caxelles. Un solu verbu. **Toes toes.**
 

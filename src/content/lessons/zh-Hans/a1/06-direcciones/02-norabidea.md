@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: 右转
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: 直走 / 往前
   - eu: zeharkatu
-    es: cruza
+    es: 穿过
   - eu: igo eskailerak
     es: 上楼梯
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: “Zeharkatu”的意思是……
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - 直走
+  - 穿过
+  - 转弯
+  - 上去
   answer: 1
   explanation: 来自“zehar”（穿过）。“Zeharkatu kalea / zebrabidea”= 穿过街道 / 人行横道。
 - id: ex-no-fb1
@@ -119,7 +119,7 @@ exercises:
 
 在巴斯克语中，表示移动的动词的肯定祈使式非常直接：
 
-| Forma | Verbo base | Sentido |
+| 形式 | 基本动词 | 含义 |
 |---|---|---|
 | **Jo** | jo | 撞击 / 朝向 (jo ezkerrera = 左转) |
 | **Segi** / **Jarraitu** | segitu / jarraitu | 继续，接着走 |
@@ -135,7 +135,7 @@ exercises:
 
 ## 方向副词和参照物
 
-| Euskera | Castellano |
+| Euskera | 中文 |
 |---|---|
 | *ezkerra* | 左边 |
 | *eskuina* | 右边 |
@@ -149,7 +149,7 @@ exercises:
 
 ## 常见的地标
 
-| Euskera | Castellano |
+| Euskera | 中文 |
 |---|---|
 | *semaforoa* | 红绿灯 |
 | *bidegurutzea* | 十字路口，交叉口 |

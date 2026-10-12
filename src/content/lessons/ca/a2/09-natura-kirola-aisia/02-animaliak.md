@@ -22,7 +22,7 @@ exercises:
   explanation: '*Basurdea* = el senglar (basa + urde, "porc del bosc"). La vaca, l''ovella i la gallina són del mas.'
 - id: ex-a2-na2-mc2
   type: multiple-choice
-  prompt: '"Txakurra kalera atera behar dut" significa…'
+  prompt: '"Txakurra kalera atera behar dut" vol dir…'
   options:
   - He de banyar el gos
   - He de treure el gos al carrer
@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: lladra i passeja
   - eu: katua
-    es: duerme 16 horas
+    es: dorm 16 hores
   - eu: behia
-    es: da leche
+    es: dona llet
   - eu: ardia
     es: dóna llana i formatge
   - eu: txoria
-    es: canta al amanecer
+    es: canta a trenc d'alba
   - eu: basurdea
     es: destrossa la dacsa
 ---

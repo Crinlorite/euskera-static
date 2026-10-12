@@ -92,15 +92,15 @@ exercises:
 - id: ex-a2-ko5-mp
   type: match-pairs
   pairs:
-  - eu: Unidad 06
+  - eu: Etorkizuna eta planak
     es: 'geroaldia: joango naiz'
-  - eu: Unidad 07
+  - eu: Bidaiak eta garraioa
     es: 'bidaiak: joan-etorria'
-  - eu: Unidad 08
+  - eu: Eguneroko gestioak
     es: 'gestioak: hitzordua eskatu'
-  - eu: Unidad 09
+  - eu: Natura, kirola eta aisia
     es: 'aisia: -tzea gustatzen zait'
-  - eu: Unidad 10
+  - eu: Kontatzen eta lotzen
     es: 'lotzen: -nean, -tzeko, ea -n'
   - eu: Hurrengo geltokia
     es: B1 maila!
@@ -114,7 +114,7 @@ A2의 마지막 수업입니다. **새로운 문법은 없습니다** — 대신
 
 **A2에서 얻은 것:**
 
-| Bloque | La estrella |
+| 영역 | 대표 표현 |
 |---|---|
 | 건강과 명령법 | *Hartu pilula hau!* |
 | 과거 시제 (3가지) | *joan nintzen · joaten nintzen · joan ohi nintzen* |

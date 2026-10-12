@@ -98,7 +98,7 @@ exercises:
   - eu: ehun
     es: '100'
   - eu: euroa
-    es: euro
+    es: 유로
 ---
 
 바스크어로 가격을 묻고 계산할 때 상대방의 말을 이해하려면 두 가지가 필요합니다: **Zenbat balio du?** 공식과 100까지의 숫자입니다. 바스크어의 숫자 체계는 **20진법**(20 단위로 묶음)이므로 약간의 적응이 필요합니다.
@@ -161,7 +161,7 @@ exercises:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> 숫자 뒤에 올 때 **euro**에는 `-a`가 붙지 않는다는 점에 유의하세요(*bi anaia*, '두 형제'에서처럼요). 센트 단위의 정확한 금액은 스페인어에서처럼 말합니다: *hiru euro eta berrogeita hamar zentimo*(3.50유로).
+> 숫자 뒤에 올 때 **euro**에는 `-a`가 붙지 않는다는 점에 유의하세요(*bi anaia*, '두 형제'에서처럼요). 센트 단위의 정확한 금액은 이렇게 말합니다: *hiru euro eta berrogeita hamar zentimo*(3.50유로).
 
 ## 여러 개 구매하기
 

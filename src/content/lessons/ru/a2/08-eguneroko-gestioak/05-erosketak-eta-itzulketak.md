@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" означает, что вещь...'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Слишком дорогая
+  - Слишком большая
+  - Очень красивая
+  - Слишком маленькая
   answer: 1
   explanation: 'Суффикс *-egi* из урока 04 (*gehiegi/gutxiegi*), применённый к размеру: *handi***egi***a* = слишком большой; *txiki***egi***a* = слишком маленький.'
 - id: ex-a2-ge5-mc2

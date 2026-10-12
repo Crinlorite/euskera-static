@@ -94,7 +94,7 @@ Ja sabs arribar; ara tòque **dromir**. Der otèl ara casa rurau (*landetxea* �
 
 ## A on dromir
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Er otèl | *hotela* |
 | Era pension | *pentsioa* |
@@ -130,7 +130,7 @@ Era pèça gramaticau dera leccion ei eth **destinatiu -rako / -etarako** (entà
 
 ## Demanar e prepausar pendent era estada
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | A quina ora cau deishar era cramba? | *Zer ordutan utzi behar da gela?* |
 | I a crambes liures? | *Gelarik badago libre?* |

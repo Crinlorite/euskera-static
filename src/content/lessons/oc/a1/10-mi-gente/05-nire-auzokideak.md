@@ -49,13 +49,13 @@ exercises:
   - eu: atsegina
     es: agradable
   - eu: alaia
-    es: alegre
+    es: alègre
   - eu: lasaia
-    es: tranquilo/a
+    es: tranquil/a
   - eu: berritsua
     es: parlaire/a
   - eu: zaratatsua
-    es: ruidoso/a
+    es: sorrollós/osa
 - id: ex-10-05-fc
   type: flashcards
   cards:
@@ -111,7 +111,7 @@ Per cada vesin, seguís tostemp aguesti tròci. Se les as, era descripcion se ba
 
 ## Vocabulari entath caractèr deth vesin
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *jatorra* | simpatic/a, pròche |
 | *atsegina* | agradable |
@@ -149,7 +149,7 @@ Seguís aguest modèle e complete-lo damb es tues donades reaus (o inventades, s
 
 Se vòs encadenar melhor es descripcions, aguesti connectors senzilli t'ajuden:
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *eta* | e |
 | *baina* | mès |

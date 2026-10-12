@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: das Wochenende
   - eu: bihar
-    es: mañana
+    es: morgen
   - eu: etzi
-    es: pasado mañana
+    es: übermorgen
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: heute Nachmittag
   - eu: libre nago
-    es: estoy libre
+    es: ich habe Zeit
 ---
 
 Abschlusslektion der Einheit: Wir werden **eine ganze Woche** zusammenstellen und dabei alles Gelernte anwenden. Tage, Zukunftsformen, Termine, Zeitangaben... die Sprache der Planung.

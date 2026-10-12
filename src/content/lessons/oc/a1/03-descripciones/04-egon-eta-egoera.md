@@ -84,28 +84,28 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: content
   - eu: triste
     es: triste
   - eu: nekatuta
-    es: cansado
+    es: cansat
   - eu: haserre
-    es: enfadado
+    es: enfadat
   - eu: gaixorik
-    es: enfermo
+    es: malaut
   - eu: ondo
-    es: bien
+    es: ben
   - eu: gaizki
-    es: mal
+    es: mau
   - eu: lasai
-    es: tranquilo (ahora)
+    es: tranquil (ara)
 ---
 
-En basc i a dus vèrbs a on en occitan n'emplegam un solet. Ja coneishes **izan** ("èster" entàs qualitats). Ara vedem **egon**, que se tradusís coma "èster" quan parlam d'**estats passatgèrs**: coma ei quauquarrés uei, ara madeish, en aguest moment.
+En basc i a dus vèrbs diferents entà çò qu'en aranés didem damb «èster» e «estar». Ja coneishes **izan** ("èster" entàs qualitats). Ara vedem **egon**, que se tradusís coma "èster" quan parlam d'**estats passatgèrs**: coma ei quauquarrés uei, ara madeish, en aguest moment.
 
 ## Eth paradigma de egon
 
-| Pronòm | Egon | Occitan |
+| Pronòm | Egon | Aranés |
 |---|---|---|
 | ni | **nago** | soi |
 | hi | **hago** | ès (informau, non l'emplegam en A1) |
@@ -124,7 +124,7 @@ Era grana trapa: quan un adjectiu va damb **egon**, **NON** pòrte era `-a` fina
 - **Izan** (qualitat establa): *Jo alègre soi* → *Ni alai**a** naiz.* (damb `-a`)
 - **Egon** (estat passatgèr): *Jo soi contenta uei* → *Ni pozik nago.* (sense `-a`)
 
-| Estat | Occitan |
+| Estat | Aranés |
 |---|---|
 | *pozik* | content, contenta |
 | *triste* | triste |

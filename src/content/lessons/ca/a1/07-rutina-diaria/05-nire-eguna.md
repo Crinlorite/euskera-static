@@ -17,7 +17,7 @@ covers:
 exercises:
 - id: ex-05-ne-mc1
   type: multiple-choice
-  prompt: '"Zer ordutan esnatzen zara?" significa…'
+  prompt: '"Zer ordutan esnatzen zara?" vol dir…'
   options:
   - Quina hora és?
   - A quina hora et despertes?

@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: după micul dejun
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: când iau micul dejun
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: în timp ce iau micul dejun
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: imediat ce iau micul dejun
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: fără să iau micul dejun
 ---
 
 Propozițiile tale știu deja CE s-a întâmplat; această lecție te învață să spui **CÂND** cu precizie de ceasornicar: *când am ajuns*, *înainte de a ieși*, *după ce am mâncat*, *în timp ce dormeai*. Trei piese și combinațiile vin de la sine.

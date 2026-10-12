@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: لطيف/ة (ودود)
   - eu: atsegina
-    es: agradable
+    es: لطيف
   - eu: alaia
-    es: alegre
+    es: مرح
   - eu: lasaia
-    es: tranquilo/a
+    es: هادئ
   - eu: berritsua
     es: ثرثار/ة
   - eu: zaratatsua
-    es: ruidoso/a
+    es: صاخب
 - id: ex-10-05-fc
   type: flashcards
   cards:

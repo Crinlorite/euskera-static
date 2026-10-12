@@ -25,7 +25,7 @@ exercises:
   explanation: '"Bada(go)" expressa existència i "tabernarik" és el partitiu "-rik" típic en preguntes i negacions d''existència.'
 - id: ex-bd-mc2
   type: multiple-choice
-  prompt: '"Ez dago supermerkaturik" significa…'
+  prompt: '"Ez dago supermerkaturik" vol dir…'
   options:
   - No sóc al supermercat
   - El supermercat no hi és
@@ -92,7 +92,7 @@ exercises:
     es: On és el bar?
 ---
 
-En castellà fem servir un sol verb, "haver-hi/ser-estar", per a dues idees diferents: **existir** ("hi ha una farmàcia al barri?") i **ubicar-se** ("la farmàcia és al carrer Major"). El basc distingeix molt clarament aquestes dues coses, i és un concepte que convé fixar aviat.
+En català també distingim dues idees: **existir** ("hi ha una farmàcia al barri?") i **ubicar-se** ("la farmàcia és al carrer Major"). El basc distingeix molt clarament aquestes dues coses, i és un concepte que convé fixar aviat.
 
 ## Existir vs. ser/estar
 

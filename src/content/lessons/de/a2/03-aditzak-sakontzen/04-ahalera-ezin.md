@@ -5,7 +5,7 @@ code: 04-ahalera-ezin
 unit: 03-aditzak-sakontzen
 level: a2
 order: 4
-title: Ahalera y ezin — können und nicht können
+title: Ahalera und ezin — können und nicht können
 estimatedMinutes: 13
 covers:
 - a2-ahalera
@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Kannst du kommen?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Du kannst es
   - eu: Ezin dut etorri
     es: Ich kann nicht kommen
   - eu: Ezin nintzen joan
@@ -91,7 +91,7 @@ Für „nicht können“ gibt es außerdem ein eigenes Wort: **ezin**.
 
 Die einfachste und die, die du am häufigsten hören wirst:
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + Hilfsverb**
 
 | Deutsch | Baskisch |
 |---|---|
@@ -149,11 +149,11 @@ Es ist die synthetische Form des Potentialis. Es gibt zwei Reihen, je nachdem, o
 
 Die Verneinung der ahalera hat ihr eigenes Wort: **ezin**.
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + Hilfsverb**
 
 | Deutsch | Baskisch |
 |---|---|
-| Ich kann nicht kommen | *Ezin **dut etorri*** (NOR-NORK) o *Ezin **naiz etorri*** (NOR) |
+| Ich kann nicht kommen | *Ezin **dut etorri*** (NOR-NORK) oder *Ezin **naiz etorri*** (NOR) |
 | Ich kann nicht gehen | *Ezin naiz joan* |
 | Du kannst das nicht tun | *Ezin duzu hori egin* |
 | Ich konnte nicht schlafen | *Ezin nuen lo egin* |

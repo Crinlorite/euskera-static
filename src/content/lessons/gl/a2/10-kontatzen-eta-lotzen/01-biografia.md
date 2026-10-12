@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: Casaron en 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: Tiveron tres fillos
   - eu: 2020an erretiroa hartu zuen
     es: Xubilouse en 2020
 ---

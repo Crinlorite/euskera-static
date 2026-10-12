@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Setmana Grana de Bilbao
   - eu: Aratusteak
-    es: carnavales
+    es: carnauaus
   - eu: Santa Ageda
     es: cants pes cases
 ---
@@ -111,7 +111,7 @@ Aguesta leccion te da es esturments entà parlar de **hèstes e costums** e ent�
 
 ## Vocabulari de hèstes
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Hèsta | *jaia* |
 | Celebracion | *ospakizuna* |
@@ -119,7 +119,7 @@ Aguesta leccion te da es esturments entà parlar de **hèstes e costums** e ent�
 | Costum | *ohitura* |
 | Hoguèra | *sua* |
 | Huecs artificiaus | *su artifizialak* |
-| Verbena | *berbena* |
+| Bal popular (verbena) | *berbena* |
 | Processon | *prozesioa* |
 | Concors | *lehiaketa* |
 | Banderetes | *banderatxoak* |
@@ -127,7 +127,7 @@ Aguesta leccion te da es esturments entà parlar de **hèstes e costums** e ent�
 
 ## Personatges e elements dera cultura basca
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Bertsolari (improvisador de vèrsi) | *bertsolaria* |
 | Trikitilari (acordeonista) | *trikitilaria* |
@@ -143,7 +143,7 @@ Aguesta leccion te da es esturments entà parlar de **hèstes e costums** e ent�
 
 Era comparason culturau passe per aguestes dues paraules:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Abans | *lehen* |
 | Ara | *orain* |
@@ -158,7 +158,7 @@ Era comparason culturau passe per aguestes dues paraules:
 
 ## Comparar lòcs: *bai... bai...*, *baita... ere*
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Tant en X coma en Y | *Bai X-(e)an, bai Y-(e)an* |
 | Tanben en X | *X-(e)an ere bai* |
@@ -193,7 +193,7 @@ Estructura utila:
 
 ## Estructures utiles entà comparar cultures
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | En cambi, ací... | *Hemen, aldiz, ...* |
 | Parièr qu'en X | *X-(e)n bezala* |

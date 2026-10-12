@@ -12,12 +12,12 @@ covers:
 exercises:
 - id: ex-a2-ko1-mc1
   type: multiple-choice
-  prompt: '"1990ean jaio nintzen Gasteizen" significa…'
+  prompt: '"1990ean jaio nintzen Gasteizen" quier dicir…'
   options:
   - En 1990 vivía en Vitoria
   - Nací en 1990 en Vitoria
   - Camudéme a Vitoria en 1990
-  - Trabajé en Vitoria hasta 1990
+  - Trabayé en Vitoria hasta 1990
   answer: 1
   explanation: '*Jaio* = nacer: jaio nintzen = nací. Col añu n''inesivu: 1990**ean** (en 1990).'
 - id: ex-a2-ko1-mc2
@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: Casáronse en 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: Tuvieron tres fíos
   - eu: 2020an erretiroa hartu zuen
     es: Xubilóse en 2020
 ---
@@ -94,7 +94,7 @@ exercises:
 
 ## Los finxos d'una vida
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nacer | *jaio* (jaio nintzen/zen) |
 | Crecer | *hazi* |

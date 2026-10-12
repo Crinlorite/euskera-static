@@ -76,19 +76,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: الاثنين
   - eu: asteartea
-    es: martes
+    es: الثلاثاء
   - eu: asteazkena
     es: الأربعاء
   - eu: osteguna
-    es: jueves
+    es: الخميس
   - eu: ostirala
-    es: viernes
+    es: الجمعة
   - eu: larunbata
     es: السبت
   - eu: igandea
-    es: domingo
+    es: الأحد
 ---
 
 قبل الحديث عن الخطط وجدول الأعمال، لنراجع أيام الأسبوع ونتعلم كيفية ربطها بالأنشطة اليومية.

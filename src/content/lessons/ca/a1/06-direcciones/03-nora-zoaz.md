@@ -102,7 +102,7 @@ exercises:
   - eu: Nora zoaz?
     es: On vas?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Vaig a casa
   - eu: Eskolara noa
     es: Vaig a l'escola
   - eu: Zertara zoaz?
@@ -129,7 +129,7 @@ Per respondre, afegim **`-ra`** al lloc de destinació. El patró s'adapta segon
 | Final del lloc | Patró | Exemple |
 |---|---|---|
 | -a (orgànica, *eskola*) | + ra | eskola → **eskolara** |
-| Vocal sin -a final (*Bilbo*, *etxe*) | + ra | etxe → **etxera**, Bilbo → **Bilbora** |
+| Vocal sense -a final (*Bilbo*, *etxe*) | + ra | etxe → **etxera**, Bilbo → **Bilbora** |
 | Consonant (*Madril*, *Gasteiz*) | + era | Madril → **Madrilera**, Gasteiz → **Gasteizera** |
 
 ## Taula d'exemples

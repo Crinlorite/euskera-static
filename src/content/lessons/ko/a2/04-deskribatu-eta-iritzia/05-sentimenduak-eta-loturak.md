@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: 기뻐요
   - eu: Triste dago
     es: 그는 슬퍼요
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: 무서워요
   - eu: Haserre dago
     es: 그는 화가 났어요
   - eu: Lotsa ematen dit
@@ -99,7 +99,7 @@ exercises:
 
 대부분의 일시적인 감정은 *egon* + 형용사 또는 부사 형태로 표현합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 기쁜 | *Pozik nago* |
 | 슬픈 | *Triste nago* |
@@ -117,7 +117,7 @@ exercises:
 
 일부 깊은 감정은 *izan* 동사와 함께 사용합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 무서워요 | *Beldur naiz* |
 | 당신 말이 맞아요 | *Arrazoia duzu* |
@@ -131,7 +131,7 @@ exercises:
 
 매우 바스크어다운 표현 방식입니다: 감정이 당신에게 '주어지는' 형태입니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 부끄러워요 | *Lotsa ematen dit* |
 | 안타까워요 | *Pena ematen dit* |
@@ -146,7 +146,7 @@ exercises:
 
 **상태의 변화**('초조해지다, 기뻐지다, 슬퍼지다')를 표현할 때 사용합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 초조해져요 | *Urduri **jartzen naiz*** |
 | 그는 슬퍼졌어요 | *Triste **jarri zen*** |
@@ -178,7 +178,7 @@ exercises:
 
 ### 추가
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 게다가 | *gainera* |
 | 그리고 또한 | *eta baita ere* / *...ere* |
@@ -188,7 +188,7 @@ exercises:
 
 ### 원인 / 결과
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 그러므로 | *beraz* |
 | 그래서 | *horregatik* |
@@ -198,7 +198,7 @@ exercises:
 
 ### 대조 / 반대
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 하지만, 그럼에도 불구하고 | *hala ere* |
 | 하지만 | *baina* |
@@ -209,7 +209,7 @@ exercises:
 
 ### 담화 구성하기
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 한편으로는... 다른 한편으로는... | *Alde batetik... bestetik...* |
 | 먼저... 그 다음에... | *Lehenengo... gero...* |
@@ -220,7 +220,7 @@ exercises:
 
 이 구문들은 모든 A2 시험에 등장합니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | ...도 ...도 아니다 | *Ez... ez...* |
 | ...와 ... 둘 다 | *Bai... bai...* / *Hala... nola...* |

@@ -121,7 +121,7 @@ A partir de la mitja en endavant, parlem en funció de l'hora següent amb la pa
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Si vens del castellà, el més estrany és que **gutxi** vagi **al darrere** del número, no al davant. *Bederatziak laurden gutxi* literalment és "les nou quart menys".
+> Per a qui parla català, el més estrany és que **gutxi** vagi **al darrere** del número, no al davant. *Bederatziak laurden gutxi* literalment és "les nou quart menys".
 
 ## Taula resum
 

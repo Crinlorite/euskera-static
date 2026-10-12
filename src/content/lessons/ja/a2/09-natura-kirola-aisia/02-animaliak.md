@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: 吠えたり散歩したりする
   - eu: katua
-    es: duerme 16 horas
+    es: 16時間眠る
   - eu: behia
-    es: da leche
+    es: 乳を出す
   - eu: ardia
     es: 羊毛とチーズをくれる
   - eu: txoria
-    es: canta al amanecer
+    es: 夜明けに鳴く
   - eu: basurdea
     es: トウモロコシ畑を荒らす
 ---
@@ -95,7 +95,7 @@ exercises:
 
 ## 家で
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 犬 | *txakurra* |
 | 猫 | *katua* |
@@ -106,7 +106,7 @@ exercises:
 
 ## 農家（baserria）で
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 牛 | *behia* |
 | 羊 / 子羊 | *ardia / arkumea* |
@@ -119,7 +119,7 @@ exercises:
 
 ## 森と空で
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | イノシシ | *basurdea* |
 | キツネ | *azeria* |

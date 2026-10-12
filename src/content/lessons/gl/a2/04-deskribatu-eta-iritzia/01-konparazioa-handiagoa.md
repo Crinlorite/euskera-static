@@ -75,7 +75,7 @@ exercises:
   - eu: gutxiago
     es: menos
   - eu: hobea
-    es: mejor
+    es: mellor
   - eu: okerragoa
     es: peor
   - eu: azkarragoa
@@ -89,10 +89,10 @@ Comparar é un dos actos máis cotiáns da linguaxe: *este é máis grande ca aq
 > **X baino Y-AGO(A)**
 
 - **baino** colócase entre os dous termos comparados — equivale a "ca".
-- **-ago** engádese ao adxectivo ou adverbio (como o "-er" inglés ou a marca de comparativo do castelán).
+- **-ago** engádese ao adxectivo ou adverbio (como o "-er" inglés).
 - Se vai con substantivo determinado, o adxectivo leva o seu **-a** habitual: *altuago**a***.
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Máis grande | *handi**agoa*** |
 | Máis pequeno | *txiki**agoa*** |
@@ -102,7 +102,7 @@ Comparar é un dos actos máis cotiáns da linguaxe: *este é máis grande ca aq
 
 ## Frases tipo
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Lander é máis alto ca Olatz | *Lander Olatz **baino** altu**agoa** da* |
 | Esta casa é máis grande ca aquela | *Etxe hau hura **baino** handi**agoa** da* |
@@ -116,7 +116,7 @@ Comparar é un dos actos máis cotiáns da linguaxe: *este é máis grande ca aq
 
 Algúns adxectivos non seguen a regra regular e convén memorizalos:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Bo → mellor | *ona → **hobea*** |
 | Malo → peor | *txarra → **okerragoa*** |
@@ -131,7 +131,7 @@ Algúns adxectivos non seguen a regra regular e convén memorizalos:
 
 Cando comparas **accións** ou **cantidades**, *gehiago / gutxiago* funciona como adverbio:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Traballo máis ca ti | *Zuk **baino gehiago** lan egiten dut* |
 | Estuda menos ca antes | *Lehen **baino gutxiago** ikasten du* |
@@ -168,7 +168,7 @@ Ou ben co comparativo invertido:
 
 Unha fórmula moi produtiva:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Non é tan caro | *Ez da **hain** garestia* |
 | Non tan rápido | *Ez **hain** azkar* |

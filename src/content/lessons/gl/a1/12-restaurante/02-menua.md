@@ -16,9 +16,9 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" significa…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
+  - Sobremesa
+  - Primeiro prato
+  - Segundo prato
   - Bebida
   answer: 1
   explanation: '*Lehen platera* — primeiro prato. *Lehen* significa "primeiro".'
@@ -28,8 +28,8 @@ exercises:
   options:
   - Bebida
   - Aperitivo
-  - Postre
-  - Plato principal
+  - Sobremesa
+  - Prato principal
   answer: 2
   explanation: '*Postrea* — sobremesa. A tradución é directa.'
 - id: ex-menu-fb1
@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: primeiro prato
   - eu: bigarren platera
-    es: segundo plato
+    es: segundo prato
   - eu: postrea
-    es: postre
+    es: sobremesa
   - eu: edaria
     es: bebida
   - eu: eguneko menua
@@ -130,7 +130,7 @@ O camareiro adoita preguntar:
 Ensaladas, sopas e legumes son habituais:
 
 - *entsalada mistoa* — ensalada mixta
-- *errusiar entsalada* — ensaladilla rusa
+- *errusiar entsalada* — ensalada rusa
 - *zopa* — sopa
 - *porrusalda* — sopa de porros e pataca
 - *babarrunak* — fabas

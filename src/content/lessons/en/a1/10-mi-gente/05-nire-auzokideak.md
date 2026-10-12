@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: nice (friendly)
   - eu: atsegina
-    es: agradable
+    es: pleasant
   - eu: alaia
-    es: alegre
+    es: cheerful
   - eu: lasaia
-    es: tranquilo/a
+    es: quiet
   - eu: berritsua
     es: talkative, chatty
   - eu: zaratatsua
-    es: ruidoso/a
+    es: noisy
 - id: ex-10-05-fc
   type: flashcards
   cards:

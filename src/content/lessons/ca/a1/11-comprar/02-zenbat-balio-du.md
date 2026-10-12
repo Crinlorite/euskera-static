@@ -24,7 +24,7 @@ exercises:
   explanation: '"Zenbat balio du?" és literal "quant val?". També s''usa "Zenbat da?" de manera més col·loquial.'
 - id: ex-prec-mc2
   type: multiple-choice
-  prompt: '"Kiloa zortzi eurotan dago" significa…'
+  prompt: '"Kiloa zortzi eurotan dago" vol dir…'
   options:
   - El quilo costa vuit euros
   - El quilo està exhaurit

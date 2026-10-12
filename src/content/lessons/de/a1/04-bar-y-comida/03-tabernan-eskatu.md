@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: bitte
   - eu: eskerrik asko
-    es: muchas gracias
+    es: vielen Dank
   - eu: ez horregatik
     es: gern geschehen
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Für mich
   - eu: ona
-    es: bueno
+    es: gut
 ---
 
 In der Bar zu bestellen ist eine der nützlichsten Sachen, die du auf Baskisch sagen können wirst. Die Grundformel ist sehr direkt: Name dessen, was du möchtest + **bat** (eins) + **mesedez** (bitte). Und das war's schon.
@@ -157,4 +157,4 @@ Auf Baskisch ist das typische „Hallo! / Entschuldigung!“, um Aufmerksamkeit 
 >
 > — *Ederki!* — Ausgezeichnet!
 
-> **Kultureller Hinweis:** In einer baskischen Taverne ist es normal, an der Theke zu bestellen, im Stehen zu trinken und laut zu sprechen. *Mesedez* und *eskerrik asko* sind grundlegend, aber nicht in jedem Satz obligatorisch — im Gegensatz zum Spanischen gilt ein trockenes „*ebakia*“ nicht als unhöflich, solange der Ton freundlich ist.
+> **Kultureller Hinweis:** In einer baskischen Taverne ist es normal, an der Theke zu bestellen, im Stehen zu trinken und laut zu sprechen. *Mesedez* und *eskerrik asko* sind grundlegend, aber nicht in jedem Satz obligatorisch — anders als im Deutschen gilt ein trockenes „*ebakia*“ nicht als unhöflich, solange der Ton freundlich ist.

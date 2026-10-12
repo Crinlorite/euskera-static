@@ -28,7 +28,7 @@ exercises:
   options:
   - Iragan burutua (joan nintzen)
   - Presente
-  - Pasado reciente (joan naiz)
+  - Passado recente (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: A cena, a descrição e os hábitos vão no imperfeito. As ações pontuais que fazem a história avançar vão no burutua.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: casou-se
   - eu: bidaiatu zuten
-    es: viajaron
+    es: viajaram
   - eu: ezagutu nuen
     es: conheci
   - eu: maitemindu nintzen

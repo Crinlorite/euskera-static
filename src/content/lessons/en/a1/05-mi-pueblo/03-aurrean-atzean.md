@@ -16,17 +16,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: in front
   - eu: atzean
     es: behind
   - eu: ondoan
-    es: al lado
+    es: next to
   - eu: gainean
-    es: encima
+    es: on top
   - eu: azpian
-    es: debajo
+    es: underneath
   - eu: artean
-    es: entre
+    es: between
   - eu: ezkerrean
     es: to the left
   - eu: eskuinean
@@ -130,7 +130,7 @@ The basic formula is **(reference)-(r)en + position**. The reference takes the g
 | **kutxaren barruan** | inside the box |
 | **bi mendien artean** | between two mountains |
 
-Pattern: the reference comes first, **then** the position. It's the exact opposite of Spanish.
+Pattern: the reference comes first, **then** the position. It's the exact opposite of English ("in front of the house").
 
 ## Complete examples
 
@@ -142,7 +142,7 @@ Pattern: the reference comes first, **then** the position. It's the exact opposi
 
 ## Adverbs of place: hemen / hor / han
 
-To point things out quickly, there are three adverbs — and watch out, there are **three distances**, not two like in Spanish:
+To point things out quickly, there are three adverbs — and watch out, there are **three distances**, not two like in English (*this* / *that*):
 
 | Basque | English | When |
 |---|---|---|

@@ -59,13 +59,13 @@ exercises:
   - eu: Zer egiten duzu goizean?
     es: ¿Qué fas de maitins?
   - eu: zazpietan
-    es: a las siete
+    es: a las siet
   - eu: zortzietan
     es: a las ueito
   - eu: hamarretan
     es: a las diez
   - eu: hamabietan
-    es: a las doce
+    es: a las dotze
   - eu: ordu bietan
     es: a las dos (en punto)
   - eu: bost eta erdietan
@@ -102,7 +102,7 @@ Pa responder "a las (horas)", pilla a hora en plural y cambia *-ak* por **-etan*
 
 | Hora | "A las…" |
 |---|---|
-| zazpiak (las siete) | **zazpietan** |
+| zazpiak (as siet) | **zazpietan** |
 | zortziak | **zortzietan** |
 | hamarrak | **hamarretan** |
 | hamabiak | **hamabietan** |

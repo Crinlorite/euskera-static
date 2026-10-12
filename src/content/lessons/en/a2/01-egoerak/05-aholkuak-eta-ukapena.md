@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: Don't drink a lot
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Eat fruit
   - eu: Egin kirola
-    es: Haz deporte
+    es: Do sport
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Sleep well
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Try to stay calm
 ---
 
 This lesson integrates the three topics of the unit: we give **advice**, prohibitions, and recommendations for a healthy life. You're going to learn the **negative imperative** and a handful of very productive A2 formulas for giving opinions on what should be done.
@@ -92,7 +92,7 @@ The simplest form and the one you'll use most:
 
 > **ez + participle**
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Don't smoke | *Ez erre* |
 | Don't drink alcohol | *Ez edan alkoholik* |
@@ -108,7 +108,7 @@ The simplest form and the one you'll use most:
 
 In more formal texts or when you want to emphasize the prohibition, the form with *ezazu* appears:
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Don't take this | *Ez ezazu hartu hau* |
 | Don't forget | *Ez ezazu ahaztu* |
@@ -122,7 +122,7 @@ For A2, here are two formulas that are good to memorize as a block:
 
 ### *Hobe duzu + -tzea* — "it's better that you..."
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | It's better that you rest | *Hobe duzu **deskantsatzea*** |
 | It's better that you go early | *Hobe duzu goiz **joatea*** |
@@ -132,7 +132,7 @@ More distant: **hobe litzateke** + *-tzea* — "it would be better".
 
 ### *Komeni zaizu / komeni da* — "it's advisable for you / it's advisable"
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | It's advisable for you to walk more | *Gehiago **ibiltzea** komeni zaizu* |
 | It's advisable to eat fruit | *Fruta **jatea** komeni da* |

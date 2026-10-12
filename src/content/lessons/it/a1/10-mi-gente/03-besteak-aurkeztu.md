@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: questo/a (vicino)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: quello/a (a media distanza)
   - eu: hura
-    es: aquel/aquella
+    es: quello/a (lontano)
   - eu: bera
     es: lui/lei
   - eu: haiek
-    es: ellos/ellas
+    es: loro
   - eu: Nor da hau?
     es: Chi è questo/a?
 - id: ex-10-03-fc

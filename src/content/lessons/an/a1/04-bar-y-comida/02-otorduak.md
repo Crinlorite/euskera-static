@@ -75,17 +75,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: almuerzo
   - eu: hamaiketakoa
     es: almuerzo de meyo maitín
   - eu: bazkaria
     es: minchada d'o meyodía
   - eu: askaria
-    es: merienda
+    es: brenda
   - eu: afaria
     es: cena
   - eu: jan
-    es: comer
+    es: minchar
   - eu: edan
     es: beber
 ---

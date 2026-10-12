@@ -87,11 +87,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Nora joango gara?
-    es: Elegir destino
+    es: 选择目的地
   - eu: Txartelak erosiko ditugu
-    es: Comprar billetes
+    es: 买票
   - eu: Hotela erreserbatuko dugu
-    es: Reservar alojamiento
+    es: 预订住处
   - eu: Maleta prestatuko dut
     es: 整理行李箱
   - eu: Ez ahaztu kargagailua!
@@ -118,7 +118,7 @@ exercises:
 
 ## 行李箱
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 行李箱 / 背包 | *maleta / motxila* |
 | 证件 | *agiriak* |

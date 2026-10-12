@@ -16,9 +16,9 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" significa…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
+  - Sobremesa
+  - Entrada
+  - Prato principal
   - Bebida
   answer: 1
   explanation: '*Lehen platera* — primeiro prato. *Lehen* significa "primeiro".'
@@ -28,8 +28,8 @@ exercises:
   options:
   - Bebida
   - Aperitivo
-  - Postre
-  - Plato principal
+  - Sobremesa
+  - Prato principal
   answer: 2
   explanation: '*Postrea* — sobremesa. A tradução é direta.'
 - id: ex-menu-fb1
@@ -87,17 +87,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: entrada
   - eu: bigarren platera
-    es: segundo plato
+    es: prato principal
   - eu: postrea
-    es: postre
+    es: sobremesa
   - eu: edaria
     es: bebida
   - eu: eguneko menua
     es: menu do dia
   - eu: karta
-    es: carta
+    es: cardápio
 ---
 
 Saber ler o cardápio abre portas. Na maioria dos *jatetxeak*, você verá a estrutura clássica de três partes: primeiro prato, segundo prato e sobremesa.

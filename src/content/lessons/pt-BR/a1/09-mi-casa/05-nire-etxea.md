@@ -48,13 +48,13 @@ exercises:
   - eu: handia
     es: grande
   - eu: txikia
-    es: pequeño/a
+    es: pequeno/a
   - eu: lasaia
     es: tranquilo/a
   - eu: berria
-    es: nuevo/a
+    es: novo/a
   - eu: zaharra
-    es: viejo/a
+    es: velho/a
 - id: ex-09-05-fc
   type: flashcards
   cards:

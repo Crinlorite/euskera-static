@@ -87,16 +87,16 @@ exercises:
   - eu: gosaldu ondoren
     es: 아침 먹은 후에
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: 아침을 먹을 때
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: 아침을 먹는 동안
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: 아침을 먹자마자
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: 아침을 먹지 않고
 ---
 
-여러분의 문장은 이제 무엇이 일어났는지 말할 수 있습니다. 이번 과에서는 **언제** 일어났는지 시계처럼 정확하게 표현하는 법을 배웁니다: *cuando llegué*, *antes de salir*, *después de comer*, *mientras dormías*. 세 가지 요소만 알면 조합은 저절로 됩니다.
+여러분의 문장은 이제 무엇이 일어났는지 말할 수 있습니다. 이번 과에서는 **언제** 일어났는지 시계처럼 정확하게 표현하는 법을 배웁니다: *내가 도착했을 때*, *나가기 전에*, *밥 먹은 후에*, *네가 자는 동안*. 세 가지 요소만 알면 조합은 저절로 됩니다.
 
 ## 요소 1: -NEAN (~할 때)
 

@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'Die Vorhersage lautet: „Bihar eguzkia aterako da“. Was erwartet dich morgen?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Regen
+  - Starker Wind
+  - Sonne
+  - Nebel
   answer: 2
   explanation: '*Eguzkia atera* = die Sonne aufgehen; im Futur, *aterako da* – morgen wird es sonnig.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Die Sonne wird aufgehen
   - eu: Haizea dabil
-    es: Hace viento
+    es: Es ist windig
   - eu: Hotz handia egiten du
     es: Es ist sehr kalt
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Andere Ausdrücke mit eigenen Verben:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Es ist bewölkt / sonnig.
 
-> **Achtung:** Im Baskischen „**macht**“ das Wetter Dinge mit *egin* und dem Hilfsverb **du** (ohne sichtbares Subjekt): *euria egingo du*, *bero handia egiten du*. Das ist anders als im Deutschen, aber ähnlich wie im Spanischen („hace calor“). Man kann es sich so merken, dass auch der Regen „gemacht“ wird.
+> **Achtung:** Im Baskischen „**macht**“ das Wetter Dinge mit *egin* und dem Hilfsverb **du** (ohne sichtbares Subjekt): *euria egingo du*, *bero handia egiten du*. Das ist anders als im Deutschen („es ist heiß“). Man kann es sich so merken, dass auch der Regen „gemacht“ wird.
 
 ## Wie man fragt
 

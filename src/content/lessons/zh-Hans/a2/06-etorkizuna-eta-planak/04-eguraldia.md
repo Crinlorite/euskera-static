@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 天气预报说："Bihar eguzkia aterako da"。明天天气会怎么样？
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - 雨
+  - 大风
+  - 晴天
+  - 雾
   answer: 2
   explanation: '*Eguzkia atera* = 太阳出来；将来时是 *aterako da* —— 明天会是晴天。'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: 太阳会出来
   - eu: Haizea dabil
-    es: Hace viento
+    es: 刮风
   - eu: Hotz handia egiten du
     es: 天气很冷
   - eu: Hodeitsu dago
@@ -109,7 +109,7 @@ exercises:
 
 ## 基础词汇
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 天气 | *eguraldia* |
 | 太阳 | *eguzkia* |
@@ -139,7 +139,7 @@ exercises:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — 天气多云 / 晴朗。
 
-> **请注意：**在巴斯克语中，天气是用动词 *egin* 和助动词 **du** 来“做”事情的（没有可见的主语）：*euria egingo du*，*bero handia egiten du*。这和西班牙语的 «hace calor»（天气热）几乎一样——只是雨也是被“做”出来的。
+> **请注意：**在巴斯克语中，天气是用动词 *egin* 和助动词 **du** 来“做”事情的（没有可见的主语）：*euria egingo du*，*bero handia egiten du*。中文说“天气热”；巴斯克语却说天气“做”热——连雨也是“做”出来的。
 
 ## 如何提问
 

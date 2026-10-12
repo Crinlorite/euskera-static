@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" înseamnă…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Desert
+  - Felul întâi
+  - Felul doi
+  - Băutură
   answer: 1
   explanation: '*Lehen platera* — felul întâi. *Lehen* înseamnă „primul”.'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" în română este…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - Băutură
+  - Aperitiv
+  - Desert
+  - Fel principal
   answer: 2
   explanation: '*Postrea* — desert. Traducerea este directă.'
 - id: ex-menu-fb1
@@ -37,7 +37,7 @@ exercises:
   prompt: '"Meniul zilei" = Eguneko ___'
   answers:
   - menua
-  explanation: '*Eguneko menua* — literalmente „meniul zilei” (*eguneko* = al zilei).'
+  explanation: '*Eguneko menua* — literal „meniul zilei” (*eguneko* = al zilei).'
 - id: ex-menu-fb2
   type: fill-in-blank
   prompt: 'Comanzi „salată și pește”. Ospătarul confirmă: "Hasteko, entsalada eta bigarrenerako, ___."'
@@ -87,17 +87,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: felul întâi
   - eu: bigarren platera
-    es: segundo plato
+    es: felul doi
   - eu: postrea
-    es: postre
+    es: desert
   - eu: edaria
-    es: bebida
+    es: băutură
   - eu: eguneko menua
     es: meniul zilei
   - eu: karta
-    es: carta
+    es: meniu
 ---
 
 Să știi să citești meniul îți deschide uși. În majoritatea *jatetxeak* vei vedea structura clasică din trei părți: felul întâi, felul doi și desert.

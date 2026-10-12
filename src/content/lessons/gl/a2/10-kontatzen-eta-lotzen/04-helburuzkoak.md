@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Onde vas?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: A mercar pan
   - eu: Zertara etorri da?
     es: A que veu?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ A pregunta: ***Zertara** etorri zara?* (a que viñeches?) → *Laguntzera!* (a a
 | Non — é un "para" | **-tzeko** | *Hau ikasteko da* |
 | Si — vas/ves A | **-tzera** | *Ikastera noa* |
 
-> Trampa clásica do castelán: "vou comprar" NON é futuro en éuscaro — é movemento: *erostera noa*. O futuro de verdade xa o tes: *erosiko dut*.
+> Trampa clásica: "vou comprar" (ir mercar) NON é futuro en éuscaro — é movemento: *erostera noa*. O futuro de verdade xa o tes: *erosiko dut*.
 
 ## Todo xunto (e coas temporais de onte)
 

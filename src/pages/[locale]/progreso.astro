@@ -42,6 +42,9 @@ const unitsForComponent = a1Units.map((u) => ({
 // Para el evaluator de logros — units por nivel
 const unitsByLevel = { a1: { unitIds: a1Units.map((u) => u.data.id) } };
 
+// Títulos de unidad en el idioma de la página, para los logros de maestría.
+const unitTitles = Object.fromEntries(a1Units.map((u) => [u.data.id, u.data.title]));
+
 // Catalogo serializable a cliente
 const achievementsCatalog = ACHIEVEMENTS;
 const descripcion = t(locale, 'site.description');
@@ -67,6 +70,7 @@ const descripcion = t(locale, 'site.description');
       catalog={achievementsCatalog}
       lessonsByUnit={lessonsByUnit}
       unitsByLevel={unitsByLevel}
+      unitTitles={unitTitles}
       locale={locale}
     />
   </article>

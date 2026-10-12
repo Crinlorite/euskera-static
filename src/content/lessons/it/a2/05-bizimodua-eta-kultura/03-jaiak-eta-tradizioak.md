@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Settimana Grande di Bilbao
   - eu: Aratusteak
-    es: carnavales
+    es: carnevale
   - eu: Santa Ageda
     es: canti di casa in casa
 ---
@@ -119,7 +119,7 @@ Questa lezione ti fornisce gli strumenti per parlare di **feste e usanze** e per
 | Usanza | *ohitura* |
 | Falò | *sua* |
 | Fuochi d'artificio | *su artifizialak* |
-| Verbena | *berbena* |
+| Festa popolare (verbena) | *berbena* |
 | Processione | *prozesioa* |
 | Gara | *lehiaketa* |
 | Bandierine | *banderatxoak* |

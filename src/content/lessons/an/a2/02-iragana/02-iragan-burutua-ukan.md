@@ -103,7 +103,7 @@ Ista lección amplía o pasau a os verbos **NOR-NORK** (transitivos: yo lo, tu l
 |---|---|---|
 | nik | **nuen** | yo lo |
 | zuk | **zenuen** | tu lo |
-| hark | **zuen** | él/ella lo |
+| hark | **zuen** | ell/ella lo |
 | guk | **genuen** | nusatros lo |
 | zuek | **zenuten** | vusatros lo |
 | haiek | **zuten** | éls lo |
@@ -112,13 +112,13 @@ Ista lección amplía o pasau a os verbos **NOR-NORK** (transitivos: yo lo, tu l
 
 ## Obchecto plural — *nituen*
 
-Si o obchecto ye **plural** (os libros, as entradas, as cervezas), l'auxiliar cambia a la serie en **-itu-**:
+Si o obchecto ye **plural** (os libros, as entradas, as cervesas), l'auxiliar cambia a la serie en **-itu-**:
 
 | Pronombre | Auxiliar plural | Aragonés |
 |---|---|---|
 | nik | **nituen** | yo los |
 | zuk | **zenituen** | tu los |
-| hark | **zituen** | él/ella los |
+| hark | **zituen** | ell/ella los |
 | guk | **genituen** | nusatros los |
 | zuek | **zenituzten** | vusatros los |
 | haiek | **zituzten** | éls los |
@@ -176,7 +176,7 @@ Dos verbos muit frecuents mantienen forma **sintetica** en pasau, igual que en p
 
 ## Negación
 
-> *Atzo ez nuen filmik ikusi.* — Ayer no vié garra cinta.
+> *Atzo ez nuen filmik ikusi.* — Ahier no vié garra cinta.
 >
 > *Ainarak ez zuen ezer esan.* — Ainara no dicié cosa.
 >

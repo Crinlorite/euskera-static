@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera"는 ...라는 뜻입니다.'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - 디저트
+  - 첫 번째 요리
+  - 두 번째 요리
+  - 음료
   answer: 1
   explanation: '*Lehen platera* — 첫 번째 요리. *Lehen*은 ''첫 번째''라는 뜻입니다.'
 - id: ex-menu-mc2
   type: multiple-choice
-  prompt: '"Postrea"는 스페인어로...입니다.'
+  prompt: '"Postrea"의 뜻은...'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - 음료
+  - 전채
+  - 디저트
+  - 메인 요리
   answer: 2
   explanation: '*Postrea* — 디저트. 바로 번역되는 단어입니다.'
 - id: ex-menu-fb1
@@ -87,24 +87,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: 첫 번째 요리
   - eu: bigarren platera
-    es: segundo plato
+    es: 두 번째 요리
   - eu: postrea
-    es: postre
+    es: 디저트
   - eu: edaria
-    es: bebida
+    es: 음료
   - eu: eguneko menua
     es: 오늘의 메뉴
   - eu: karta
-    es: carta
+    es: 메뉴판
 ---
 
 메뉴를 읽을 줄 알면 선택의 폭이 넓어집니다. 대부분의 *jatetxeak*에서는 첫 번째 요리, 두 번째 요리, 디저트의 세 부분으로 이루어진 고전적인 구조를 볼 수 있습니다.
 
 ## 식사를 위한 두 가지 선택지
 
-| 바스크어 | 스페인어 | 언제 |
+| 바스크어 | 한국어 | 언제 |
 |---|---|---|
 | *eguneko menua* | 오늘의 메뉴 | 고정 가격, 제한된 선택 |
 | *karta* | 단품 메뉴 | 단품 주문, 자유롭게 선택 |
@@ -115,7 +115,7 @@ exercises:
 
 ## 메뉴의 구성
 
-| 바스크어 | 스페인어 |
+| 바스크어 | 한국어 |
 |---|---|
 | *hasierakoak* | 전채 / 애피타이저 |
 | *lehen platera* | 첫 번째 요리 |

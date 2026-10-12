@@ -78,24 +78,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: 켜다
   - eu: itzali
-    es: apagar
+    es: 끄다
   - eu: gorde
-    es: guardar
+    es: 저장하다
   - eu: ezabatu
-    es: borrar
+    es: 지우다
   - eu: deskargatu
-    es: descargar
+    es: 내려받다
   - eu: partekatu
-    es: compartir
+    es: 공유하다
 ---
 
 종이에서 픽셀까지: **일상 기술**에 대한 수업입니다. 하루에 백 번은 사용하는 어휘를 이제 바스크어로 배워보세요. 바스크어는 투명하고 잘 만들어진 단어들을 자랑합니다(*pasahitza* = 통과 단어; *sakelakoa* = '주머니 속의 것').
 
 ## 기기들
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 컴퓨터 | *ordenagailua* |
 | 노트북 (컴퓨터) | *eramangarria* |
@@ -108,7 +108,7 @@ exercises:
 
 ## 네트워크와 계정
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 네트워크 / 인터넷 | *sarea / internet* |
 | 와이파이 | *wifia* |
@@ -126,7 +126,7 @@ exercises:
 
 ## 디지털 동사
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 켜다 / 끄다 | *piztu / itzali* |
 | 다운로드하다 | *deskargatu / jaitsi* |

@@ -22,15 +22,15 @@ exercises:
   - eu: lehengusina
     es: prima
   - eu: iloba
-    es: sobrino/a
+    es: sobrinho/a
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" é...'
   options:
   - primo
-  - hermano
-  - abuelo
-  - suegro
+  - irmão
+  - avô
+  - sogro
   answer: 0
 - id: ex-fe-fc
   type: flashcards

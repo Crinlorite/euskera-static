@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" means the garment is…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Too expensive
+  - Too big
+  - Very pretty
+  - Too small
   answer: 1
   explanation: 'The *-egi* from unit 04 (gehiegi/gutxiegi) applied to sizes: handi**egi**a = too big; txiki**egi**a = too small.'
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: Can I try on these pants? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = to try on. With *ahalera* (the potential mood): probatu **ditzaket** (plural: the garment "praka" is plural, just like in Spanish).'
+  explanation: '*Probatu* = to try on. With *ahalera* (the potential mood): probatu **ditzaket** (plural: the garment "praka" is plural, just like "trousers" in English).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: It's too small for me; I want to exchange it = txikia geratzen zait; ___ nahi dut.

@@ -49,23 +49,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: esnatu
-    es: despertarse
+    es: to wake up
   - eu: jaiki
-    es: levantarse
+    es: to get up
   - eu: dutxatu
-    es: ducharse
+    es: to shower
   - eu: gosaldu
-    es: desayunar
+    es: to have breakfast
   - eu: bazkaldu
-    es: comer (almorzar)
+    es: to have lunch
   - eu: afaldu
-    es: cenar
+    es: to have dinner
   - eu: lan egin
-    es: trabajar
+    es: to work
   - eu: lo egin
-    es: dormir
+    es: to sleep
   - eu: oheratu
-    es: acostarse
+    es: to go to bed
 - id: ex-04-ee-fc
   type: flashcards
   cards:

@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-ad4-mc1
   type: multiple-choice
-  prompt: '"Etor zaitezke?" significa…'
+  prompt: '"Etor zaitezke?" vol dir…'
   options:
   - Vens?
   - Pots venir?
@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Pots venir?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Pots fer-ho
   - eu: Ezin dut etorri
     es: No puc venir
   - eu: Ezin nintzen joan

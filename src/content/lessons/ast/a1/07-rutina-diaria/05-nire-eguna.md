@@ -17,7 +17,7 @@ covers:
 exercises:
 - id: ex-05-ne-mc1
   type: multiple-choice
-  prompt: '"Zer ordutan esnatzen zara?" significa…'
+  prompt: '"Zer ordutan esnatzen zara?" quier dicir…'
   options:
   - ¿Qué hora ye?
   - ¿A qué hora te despiertes?

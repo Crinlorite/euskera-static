@@ -17,17 +17,17 @@ exercises:
   - eu: joan
     es: ir
   - eu: etorri
-    es: venir
+    es: vinir
   - eu: ibili
-    es: andar / moverse
+    es: andar / mover-se
   - eu: sartu
     es: entrar
   - eu: irten
     es: salir
   - eu: igo
-    es: subir
+    es: puyar
   - eu: jaitsi
-    es: bajar
+    es: baixar
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Yo voi = Ni ___.
@@ -55,9 +55,9 @@ exercises:
   prompt: '"Sartu" y o suyo oposau "irten" quieren dicir, respectivament:'
   options:
   - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - puyar / baixar
+  - ir / vinir
+  - ubrir / zarrar
   answer: 0
 - id: ex-mu-fc
   type: flashcards
@@ -77,7 +77,7 @@ exercises:
   - eu: doaz
     es: van
   - eu: etorri
-    es: venir
+    es: vinir
   - eu: nator
     es: viengo
   - eu: zatoz
@@ -85,7 +85,7 @@ exercises:
   - eu: dator
     es: vien
   - eu: gatoz
-    es: venimos
+    es: vinimos
   - eu: zatozte
     es: veniz
   - eu: datoz
@@ -123,14 +123,14 @@ Tres verbos basicos amaneixerán de contino: **joan** (ir), **etorri** (venir) y
 
 > A pregunta clau: ***Nora zoaz?*** — T'a on vas? La treballaremos en a lección 03.
 
-## Etorri — venir
+## Etorri — vinir
 
 | Persona | Forma | Aragonés |
 |---|---|---|
 | ni | **nator** | viengo |
 | zu | **zatoz** | viens |
 | hura | **dator** | vien |
-| gu | **gatoz** | venimos |
+| gu | **gatoz** | vinimos |
 | zuek | **zatozte** | veniz |
 | haiek | **datoz** | vienen |
 

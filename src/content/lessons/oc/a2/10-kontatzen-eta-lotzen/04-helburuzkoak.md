@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Ent'a on vas?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: A crompar pan
   - eu: Zertara etorri da?
     es: A qué a viengut?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ Era qüestion: ***Zertara** etorri zara?* (a qué as viengut?) → *Laguntzera!*
 | Non — ei un "entà" | **-tzeko** | *Hau ikasteko da* |
 | Òc — vas/venes A | **-tzera** | *Ikastera noa* |
 
-> Parapèga classic deth castelhan: "voy a comprar" NON ei futur en basc — ei movement: *erostera noa*. Eth futur de veritat ja l'as: *erosiko dut*.
+> Parapèga classic: "vau a crompar" NON ei futur en basc — ei movement: *erostera noa*. Eth futur de veritat ja l'as: *erosiko dut*.
 
 ## Tot ath còp (e damb es temporaus d'ager)
 

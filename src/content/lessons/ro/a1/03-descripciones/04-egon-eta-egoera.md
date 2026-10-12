@@ -84,21 +84,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: mulțumit
   - eu: triste
-    es: triste
+    es: trist
   - eu: nekatuta
-    es: cansado
+    es: obosit
   - eu: haserre
-    es: enfadado
+    es: supărat
   - eu: gaixorik
-    es: enfermo
+    es: bolnav
   - eu: ondo
-    es: bien
+    es: bine
   - eu: gaizki
-    es: mal
+    es: rău
   - eu: lasai
-    es: tranquilo (ahora)
+    es: liniștit (acum)
 ---
 
 În euskera există două verbe acolo unde în română folosim unul singur. Cunoști deja **izan** ("a fi" pentru însușiri). Acum urmează **egon**, care se traduce prin "a fi" atunci când vorbim despre **stări trecătoare**: cum se simte cineva azi, chiar acum, în acest moment.
@@ -121,8 +121,8 @@ exercises:
 
 Marea capcană: când un adjectiv merge cu **egon**, **NU** are `-a` la final. Compară:
 
-- **Izan** (însușire stabilă): *Ni alegre soy* → *Ni alai**a** naiz.* (cu `-a`)
-- **Egon** (stare trecătoare): *Yo estoy contenta hoy* → *Ni pozik nago.* (fără `-a`)
+- **Izan** (însușire stabilă): *Sunt veselă* → *Ni alai**a** naiz.* (cu `-a`)
+- **Egon** (stare trecătoare): *Azi sunt mulțumită* → *Ni pozik nago.* (fără `-a`)
 
 | Stare | Română |
 |---|---|

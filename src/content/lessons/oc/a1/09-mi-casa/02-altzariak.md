@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: taula
   - eu: aulkia
-    es: silla
+    es: cadièra
   - eu: ohea
-    es: cama
+    es: lhet
   - eu: armairua
-    es: armario
+    es: armari
   - eu: sofa
     es: sofà
   - eu: telebista
     es: television
   - eu: hozkailua
-    es: nevera
+    es: frigorific
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: En quina pèça ei eth "hozkailua"?
@@ -103,7 +103,7 @@ Cada cramba a eth sòn mobiliari. Eth mot generau entà "mòble" ei **altzaria**
 
 ## Egongelan — Ena sala
 
-| Eusquera | Castelhan |
+| Eusquera | Aranés |
 |---|---|
 | *sofa* | sofà |
 | *besaulkia* | poltrona / butaca |
@@ -116,7 +116,7 @@ Cada cramba a eth sòn mobiliari. Eth mot generau entà "mòble" ei **altzaria**
 
 ## Logelan — Ena cramba
 
-| Eusquera | Castelhan |
+| Eusquera | Aranés |
 |---|---|
 | *ohea* | lheit |
 | *gau-mahaia* | tauleta de net |
@@ -127,7 +127,7 @@ Cada cramba a eth sòn mobiliari. Eth mot generau entà "mòble" ei **altzaria**
 
 ## Sukaldean — Ena codina
 
-| Eusquera | Castelhan |
+| Eusquera | Aranés |
 |---|---|
 | *hozkailua* | frigoric |
 | *labea* | horn |
@@ -140,7 +140,7 @@ Cada cramba a eth sòn mobiliari. Eth mot generau entà "mòble" ei **altzaria**
 
 ## Komunean — En banh
 
-| Eusquera | Castelhan |
+| Eusquera | Aranés |
 |---|---|
 | *dutxa* | duta |
 | *bainuontzia* | banhèra |

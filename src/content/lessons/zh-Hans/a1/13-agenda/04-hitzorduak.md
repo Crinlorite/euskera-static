@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: 约会
   - eu: bilera
     es: 会议
   - eu: libre
-    es: libre
+    es: 有空
   - eu: lanpetuta
-    es: ocupado/a
+    es: 忙
   - eu: geratu
-    es: quedar
+    es: 约见面
   - eu: geratuko gara
-    es: quedaremos
+    es: 我们会见面
 ---
 
 一本排得满满的日程表上全是约会和约定。本课将教你如何谈论这些事情：预约、与某人见面、说明自己是否有空。

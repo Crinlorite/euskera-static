@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: sympatyczny/a (przyjazny/a)
   - eu: atsegina
-    es: agradable
+    es: miły
   - eu: alaia
-    es: alegre
+    es: wesoły
   - eu: lasaia
-    es: tranquilo/a
+    es: cichy
   - eu: berritsua
     es: gadatliwy/a
   - eu: zaratatsua
-    es: ruidoso/a
+    es: hałaśliwy
 - id: ex-10-05-fc
   type: flashcards
   cards:

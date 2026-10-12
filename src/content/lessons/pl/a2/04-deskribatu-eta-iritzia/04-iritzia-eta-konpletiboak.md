@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Nie sądzę, żeby był dobry
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Bo przyszedł/przyszła
   - eu: Egia delako
     es: Ponieważ to prawda
   - eu: Argi dago zaila dela
@@ -205,7 +205,7 @@ Aby wyrazić **przyczynę** („ponieważ”), masz dwie możliwości:
 
 1. **Nie zapominaj o podwójnej naturze: -ela w twierdzeniu, -enik w przeczeniu opinii.**
 2. **Przyrostek -ela dołącza się do odmienionego czasownika**, a nie do imiesłowu: *etorriko da → etorriko **dela***.
-3. **Jeśli opinia jest bardzo silna, w hiszpańskim używasz trybu łączącego (subjuntivo)**, w baskijskim nie ma tak ostrej różnicy: *uste dut ondo dagoela* (myślę, że jest dobrze) i *zalantza dut ondo dagoenik* (wątpię, żeby było dobrze) używają różnych form, ale nie formalnego „trybu łączącego”.
+3. **Niektóre języki (np. hiszpański) przy wątpliwości przechodzą w tryb łączący**, w baskijskim nie ma tak ostrej różnicy: *uste dut ondo dagoela* (myślę, że jest dobrze) i *zalantza dut ondo dagoenik* (wątpię, żeby było dobrze) używają różnych form, ale nie formalnego „trybu łączącego”.
 
 > **Wskazówka pedagogiczna:** formuła *Nire ustez + zdanie + -lako + zdanie* jest prawdopodobnie najbardziej użytecznym narzędziem na poziomie A2 do wyrażania opinii i argumentowania. Przykładowy model:
 >

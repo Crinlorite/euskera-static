@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Non creo que sexa bo
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Porque veu
   - eu: Egia delako
     es: Porque é verdade
   - eu: Argi dago zaila dela
@@ -205,7 +205,7 @@ Para expresar a **causa** ("porque"), tes dúas vías:
 
 1. **Non esquezas a dobre cara: -ela en afirmativo, -enik en negativo de opinión.**
 2. **O sufixo -ela pégase ao verbo conxugado**, non ao participio: *etorriko da → etorriko **dela***.
-3. **Se a opinión é moi forte, en castelán usas o subxuntivo**, en éuscaro non hai diferenza tallante: *uste dut ondo dagoela* (creo que está ben) e *zalantza dut ondo dagoenik* (dubido de que estea ben) usan formas distintas pero non un "subxuntivo" formal.
+3. **En galego, a dúbida pide subxuntivo**, en éuscaro non hai diferenza tallante: *uste dut ondo dagoela* (creo que está ben) e *zalantza dut ondo dagoenik* (dubido de que estea ben) usan formas distintas pero non un "subxuntivo" formal.
 
 > **Nota pedagóxica:** a fórmula *Nire ustez + frase + -lako + frase* é probablemente a ferramenta de A2 máis rendible para opinar e argumentar. Exemplo modelo:
 >

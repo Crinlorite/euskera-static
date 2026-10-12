@@ -82,7 +82,7 @@ const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), mi
 <RootLayout locale={locale} title={level.data.name} description={descripcion} noindex={LOCKED_PATHS.includes(levelSlug)}>
   <article class="container-wide level">
     <header class="level-header stagger">
-      <p class="eyebrow">Nivel · {level.data.name.split(' ')[0]}</p>
+      <p class="eyebrow">{t(locale, 'level.eyebrow')} · {level.data.name.split(' ')[0]}</p>
       <h1 class="display level-h1">
         <span>{level.data.name.split(' ')[0]}</span>
         <span class="text-grad level-subtitle">{level.data.name.split(' ').slice(1).join(' ') || 'Maila'}</span>
@@ -138,7 +138,7 @@ const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), mi
         <summary>
           <span class="eyebrow">{t(locale, 'curriculum.eyebrow')}</span>
           <span class="curriculum-title-display display">{t(locale, 'curriculum.title')}</span>
-          <span class="curriculum-toggle-hint">{tf(locale, 'curriculum.hint', level.data.curriculum.length)}</span>
+          <span class="curriculum-toggle-hint">{tf(locale, 'curriculum.hint', level.data.curriculum.length)}<span class="curriculum-hide"> ({t(locale, 'curriculum.hide')})</span></span>
         </summary>
         <ul class="curriculum-list">
           {level.data.curriculum.map((c, i) => (
@@ -315,9 +315,8 @@ const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), mi
     color: var(--c-text-muted);
     font-size: 0.9rem;
   }
-  .curriculum-details[open] .curriculum-toggle-hint::after {
-    content: ' (pulsa para ocultar)';
-  }
+  .curriculum-hide { display: none; }
+  .curriculum-details[open] .curriculum-hide { display: inline; }
   .curriculum-list {
     list-style: none;
     counter-reset: c;

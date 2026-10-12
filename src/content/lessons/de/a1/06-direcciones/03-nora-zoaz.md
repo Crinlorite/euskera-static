@@ -102,13 +102,13 @@ exercises:
   - eu: Nora zoaz?
     es: Wohin gehst du?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Ich gehe nach Hause
   - eu: Eskolara noa
     es: Ich gehe zur Schule
   - eu: Zertara zoaz?
     es: Wozu gehst du?
   - eu: Erostera
-    es: A comprar
+    es: Einkaufen
 ---
 
 Der **Fall NORA** (auch *Adlativ* genannt) markiert **das Ziel** einer Bewegung: wohin du gehst. Im Deutschen entspricht dies meist den Präpositionen **„nach“** oder **„zu“** („ich gehe *nach* Hause“, „*nach* Bilbao“, „*zum* Park“).

@@ -72,17 +72,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gehiegi jan
-    es: comer demasiado
+    es: 吃得太多
   - eu: gutxiegi lo egin
-    es: dormir poco / insuficiente
+    es: 睡得太少
   - eu: gero eta hotzago
     es: 越来越冷
   - eu: gero eta gutxiago
-    es: cada vez menos
+    es: 越来越少
   - eu: pixka bat berandu
     es: 有点晚
   - eu: askoz hobeto
-    es: mucho mejor
+    es: 好得多
 ---
 
 本课将通过另外两个部分来完善比较级：
@@ -116,7 +116,7 @@ exercises:
 
 作为独立的副词：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 太多 | *gehiegi* |
 | 太少 / 不足 | *gutxiegi* |
@@ -135,7 +135,7 @@ exercises:
 
 > **gero eta + 形容词/副词-ago(a)**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 越来越贵 | *Gero eta **garestiagoa*** |
 | 越来越冷 | *Gero eta **hotzagoa*** |
@@ -156,7 +156,7 @@ exercises:
 
 ## *Hain* — “如此” (肯定或否定句均可使用)
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 它如此大 | *Hain handia da* |
 | 它没那么贵 | *Ez da **hain** garestia* |
@@ -170,7 +170,7 @@ exercises:
 
 用于微调比较级：
 
-| 西班牙语 | 巴斯克语 | 例子 |
+| 中文 | 巴斯克语 | 例子 |
 |---|---|---|
 | 一点 | *pixka bat* | *Pixka bat handiagoa* (大一点) |
 | 一些 | *zerbait / zertxobait* | *Zertxobait txikiagoa* (小一些) |

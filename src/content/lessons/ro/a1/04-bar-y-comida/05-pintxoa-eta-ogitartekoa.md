@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" înseamnă…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - sandviș
+  - platou combinat
+  - desert
   answer: 1
   explanation: '*ogitartekoa* provine din *ogi* (pâine) + *arte* (între): "cel dintre două pâini" — sandvișul.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — exact ca în spaniolă, fără o mare adaptare.'
+  explanation: '*plater konbinatua* — preluat din spaniolul „plato combinado”, aproape fără adaptare.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Pentru mine, o porție de brânză = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: pintxo
   - eu: ogitartekoa
-    es: bocadillo
+    es: sandviș
   - eu: plater konbinatua
-    es: plato combinado
+    es: platou combinat
   - eu: razioa
     es: porție
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: brânză
   - eu: tortilla
     es: tortilla
 ---
@@ -109,7 +109,7 @@ Marea cultură a barurilor basce se învârte în jurul a trei formate principal
 | *plater konbinatua* | farfurie asortată | masă completă |
 | *razioa* | porție | de împărțit |
 
-> **Ogitarteko** înseamnă literalmente "cel dintre pâini": *ogi* (pâine) + *arte* (între) + *-ko*. Este sandvișul clasic, dar făcut cu pâine bască bună și umpluturi generoase.
+> **Ogitarteko** înseamnă literal "cel dintre pâini": *ogi* (pâine) + *arte* (între) + *-ko*. Este sandvișul clasic, dar făcut cu pâine bască bună și umpluturi generoase.
 
 ## Umpluturi tipice
 

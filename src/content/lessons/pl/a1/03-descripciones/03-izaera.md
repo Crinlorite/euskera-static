@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" znaczy…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - nudny
+  - wesoły
+  - nerwowy
+  - milczący
   answer: 1
   explanation: '*alaia* to "wesoły". To jeden z najczęstszych przymiotników opisujących charakter.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: wesoły
   - eu: isila
-    es: callado
+    es: milczący
   - eu: berritsua
-    es: hablador
+    es: gadatliwy
   - eu: lasaia
-    es: tranquilo
+    es: spokojny
   - eu: urduria
-    es: nervioso
+    es: nerwowy
   - eu: langilea
-    es: trabajador
+    es: pracowity
   - eu: alferra
-    es: vago
+    es: leniwy
   - eu: jatorra
     es: sympatyczny
 ---

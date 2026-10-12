@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" 的意思是……'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - 无聊
+  - 开朗
+  - 紧张
+  - 沉默寡言
   answer: 1
   explanation: '*alaia* 是“开朗的”。这是最常见的性格形容词之一。'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: 开朗
   - eu: isila
-    es: callado
+    es: 沉默寡言
   - eu: berritsua
-    es: hablador
+    es: 健谈
   - eu: lasaia
-    es: tranquilo
+    es: 平静
   - eu: urduria
-    es: nervioso
+    es: 紧张
   - eu: langilea
-    es: trabajador
+    es: 勤劳
   - eu: alferra
-    es: vago
+    es: 懒惰
   - eu: jatorra
     es: 友好的
 ---
@@ -110,7 +110,7 @@ exercises:
 
 这些形容词几乎总是以反义词的形式成对出现：
 
-| 巴斯克语 | 中文意思 | 反义词 |
+| 巴斯克语 | 中文 | 反义词 |
 |---|---|---|
 | *alaia* | 开朗的 | *triste* (伤心的 — 但请注意，这是一个状态) |
 | *jatorra* | 友好的，亲切的 | — |

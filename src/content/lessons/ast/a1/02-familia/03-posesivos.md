@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: el mio/la mio
   - eu: zure
-    es: tu/tuyo
+    es: to/tuyu
   - eu: bere
     es: so (d'él/ella)
   - eu: gure
-    es: nuestro
+    es: nuesu
   - eu: zuen
-    es: vuestro
+    es: vuesu
   - eu: beren
     es: so (d'ellos)
 - id: ex-pos-fb1
@@ -43,11 +43,11 @@ exercises:
   explanation: '"Gure" ye''l posesivu de "nós".'
 ---
 
-Los posesivos n'eusquera colóquense **delantre del sustantivu**, igual que en castellán. Nun cambien de forma según el xéneru del oxetu teníu (nun hai "míu/mía", solo *nire*).
+Los posesivos n'eusquera colóquense **delantre del sustantivu**, igual que n'asturianu. Nun cambien de forma según el xéneru del oxetu teníu (nun hai "míu/mía", solo *nire*).
 
 ## Tabla completa
 
-| Persona | Posesivu | Exemplu | Castellán |
+| Persona | Posesivu | Exemplu | Asturianu |
 |---|---|---|---|
 | ni | **nire** | nire ama | la mio madre |
 | zu | **zure** | zure aita | el to padre |
@@ -56,7 +56,7 @@ Los posesivos n'eusquera colóquense **delantre del sustantivu**, igual que en c
 | zuek | **zuen** | zuen lagunak | los vuesos amigos |
 | haiek | **beren** | beren autoa | el so coche (d'ellos) |
 
-> A diferencia del castellán, el sustantivu **caltién l'artículu `-a`** anque lleve posesivu: *gure etxea* (la nuesa casa), *zuen lagunak* (los vuesos amigos), *beren autoa* (el so coche). En pallabres que yá terminen en `-a` (como *ama* o *arreba*) l'artículu nun s'aprecia: *nire ama*.
+> Como n'asturianu («la nuesa casa»), el sustantivu **caltién l'artículu `-a`** anque lleve posesivu: *gure etxea* (la nuesa casa), *zuen lagunak* (los vuesos amigos), *beren autoa* (el so coche). En pallabres que yá terminen en `-a` (como *ama* o *arreba*) l'artículu nun s'aprecia: *nire ama*.
 
 ## Familia + posesivos
 

@@ -98,7 +98,7 @@ exercises:
   - eu: ehun
     es: '100'
   - eu: euroa
-    es: euro
+    es: ユーロ
 ---
 
 バスク語で値段を尋ねたり、支払いの際に言われることを理解したりするには、**Zenbat balio du?** という決まり文句と100までの数字、この2つが必要です。バスク語の数字の数え方は**二十進法**（20をひとつのグループとして数える）なので、少し慣れが必要です。
@@ -161,7 +161,7 @@ exercises:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> 数字の後に続く場合、**euro** には `-a` が付かないことに注意してください（*bi anaia*「2人の兄弟」と同じです）。セント単位の正確な金額は、スペイン語と同じように言います：*hiru euro eta berrogeita hamar zentimo*（3.50€）。
+> 数字の後に続く場合、**euro** には `-a` が付かないことに注意してください（*bi anaia*「2人の兄弟」と同じです）。セント単位の正確な金額は次のように言います：*hiru euro eta berrogeita hamar zentimo*（3.50€）。
 
 ## 複数のものを買う
 

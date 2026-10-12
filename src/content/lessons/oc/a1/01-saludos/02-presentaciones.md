@@ -48,7 +48,7 @@ Entà presentar-te en euskera n'i a pro damb ua formula plan simpla: **Ni** (jo)
 
 ## Eth modèl
 
-| Euskera | Occitan |
+| Euskera | Aranés |
 |---|---|
 | *Ni Egoitz naiz.* | Sò Egoitz. |
 | *Ni Maialen naiz.* | Sò Maialen. |

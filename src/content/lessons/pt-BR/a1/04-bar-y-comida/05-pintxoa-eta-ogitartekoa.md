@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" significa…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - sanduíche
+  - prato feito
+  - sobremesa
   answer: 1
   explanation: '*ogitartekoa* vem de *ogi* (pão) + *arte* (entre): "o que vai entre dois pães" — o sanduíche.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — exatamente como em espanhol, sem grande adaptação.'
+  explanation: '*plater konbinatua* — tirado do espanhol «plato combinado», quase sem adaptação.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Para mim, uma porção de queijo = Niretzat ___ ___.
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: pintxo
   - eu: ogitartekoa
-    es: bocadillo
+    es: sanduíche
   - eu: plater konbinatua
-    es: plato combinado
+    es: prato feito
   - eu: razioa
     es: porção
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: queijo
   - eu: tortilla
     es: tortilla
 ---

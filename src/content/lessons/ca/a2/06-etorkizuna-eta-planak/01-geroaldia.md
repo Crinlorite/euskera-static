@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-et1-mc1
   type: multiple-choice
-  prompt: '"Bihar Bilbora joango naiz" significa…'
+  prompt: '"Bihar Bilbora joango naiz" vol dir…'
   options:
   - Ahir vaig anar a Bilbao
   - Demà aniré a Bilbao

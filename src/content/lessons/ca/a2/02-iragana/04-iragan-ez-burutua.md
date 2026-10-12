@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-ir4-mc1
   type: multiple-choice
-  prompt: '"Lan egiten nuen Bilbon" significa…'
+  prompt: '"Lan egiten nuen Bilbon" vol dir…'
   options:
   - Treballava a Bilbao (hàbit)
   - He treballat a Bilbao
@@ -73,20 +73,20 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Vaig anar (puntual)
   - eu: Joaten nintzen
     es: Anava (hàbit)
   - eu: Joan nuen autoa
     es: (no és vàlid)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Hi anava
   - eu: Bizi nintzen Bilbon
     es: Vivia a Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Ahir vaig anar a Bilbao
 ---
 
-L'**imperfet** del basc (*iragan ez burutua*) correspon, a grans trets, al "menjava / vivia / anava / treballava" del castellà. Serveix per a explicar:
+L'**imperfet** del basc (*iragan ez burutua*) correspon, a grans trets, al "menjava / vivia / anava / treballava" del català. Serveix per a explicar:
 
 - **Hàbits del passat** (el que feies habitualment).
 - **Descripcions** (com era, on vivies, què tenies).

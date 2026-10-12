@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: 食べた
   - eu: edan dut
-    es: he bebido
+    es: 飲んだ
   - eu: ikusi dut
-    es: he visto
+    es: 見た
   - eu: irakurri dut
     es: 読みました
   - eu: erosi dut
-    es: he comprado
+    es: 買った
   - eu: egin dut
-    es: he hecho
+    es: した
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: 取った
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: 学んだ／勉強した
 - id: ex-02-jed-fc
   type: flashcards
   cards:

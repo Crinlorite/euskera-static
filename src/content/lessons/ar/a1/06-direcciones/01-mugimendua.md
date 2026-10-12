@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: يذهب
   - eu: etorri
-    es: venir
+    es: يأتي
   - eu: ibili
-    es: andar / moverse
+    es: يتجوّل / يتحرّك
   - eu: sartu
-    es: entrar
+    es: يدخل
   - eu: irten
-    es: salir
+    es: يخرج
   - eu: igo
-    es: subir
+    es: يصعد
   - eu: jaitsi
-    es: bajar
+    es: ينزل
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: أنا أذهب = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" وعكسها "irten" تعنيان على التوالي:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - يدخل / يخرج
+  - يصعد / ينزل
+  - يذهب / يأتي
+  - يفتح / يغلق
   answer: 0
 - id: ex-mu-fc
   type: flashcards

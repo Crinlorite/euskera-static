@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: محل فواكه
   - eu: supermerkatua
-    es: supermercado
+    es: سوبرماركت
   - eu: kutxazain automatikoa
     es: صراف آلي
 - id: ex-dendak-mc1
@@ -90,7 +90,7 @@ exercises:
 
 ## متاجر المواد الغذائية
 
-| اللغة الباسكية | الإسبانية | ما يُباع |
+| اللغة الباسكية | العربية | ما يُباع |
 |---|---|---|
 | *harategia* | محل جزارة | haragia (لحم) |
 | *okindegia* | مخبز | ogia (خبز) |
@@ -113,7 +113,7 @@ exercises:
 
 ## أماكن أخرى مفيدة
 
-| اللغة الباسكية | الإسبانية |
+| اللغة الباسكية | العربية |
 |---|---|
 | *kutxazain automatikoa* | صراف آلي |
 | *banketxea* | بنك |

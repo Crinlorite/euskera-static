@@ -32,7 +32,7 @@ exercises:
   explanation: '*Ahaztu zait* = „zapomniało mi się” — podmiotem gramatycznym jest zapomniana rzecz, a do mnie (*zait*) „dociera” zapomnienie.'
 - id: ex-a2-ad3-fb1
   type: fill-in-blank
-  prompt: A Lander le gustan los perros = Landerri txakurrak gustatzen ___ .
+  prompt: Lander lubi psy = Landerri txakurrak gustatzen ___ .
   answers:
   - zaizkio
   explanation: '*Zaizkio* = „lubi (on/ona)”. NOR w liczbie mnogiej + NORI 3. os.'
@@ -82,7 +82,7 @@ exercises:
     es: przydarzyło mi się
 ---
 
-Czasowniki **NOR-NORI** to takie, w których coś (NOR) „przydarza się komuś” (NORI). Podmiotem gramatycznym jest **rzecz**, a nie osoba — dokładnie tak jak czasownik *gustar* (lubić) w języku hiszpańskim: *me gusta el cine* (dosłownie: kino podoba się mi).
+Czasowniki **NOR-NORI** to takie, w których coś (NOR) „przydarza się komuś” (NORI). Podmiotem gramatycznym jest **rzecz**, a nie osoba — dokładnie tak jak w polskim „kino mi się podoba” — podmiotem jest kino.
 
 Na poziomie A1 poznaliście już *gustatzen zait*. Na A2 rozszerzycie ten schemat o inne, bardzo przydatne czasowniki.
 
@@ -134,7 +134,7 @@ Dla NOR w **liczbie mnogiej**:
 
 ## Struktura: podmiotem jest rzecz
 
-> **NORI + NOR + verbo + NOR-NORI auxiliar**
+> **NORI + NOR + czasownik + posiłkowy NOR-NORI**
 
 | Polski | Baskijski | Notacja |
 |---|---|---|

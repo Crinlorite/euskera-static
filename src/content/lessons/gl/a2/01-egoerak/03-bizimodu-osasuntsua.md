@@ -89,7 +89,7 @@ exercises:
   - eu: plastikoa
     es: plástico
   - eu: beira
-    es: vidrio
+    es: vidro
   - eu: organikoa
     es: orgánico
   - eu: pila
@@ -102,7 +102,7 @@ Falar de **estilo de vida** e **medio ambiente** é un bloque clásico do A2: me
 
 ## Hábitos saudables
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Facer deporte | *kirola egin* |
 | Camiñar / pasear | *paseatu* / *ibili* |
@@ -125,7 +125,7 @@ Falar de **estilo de vida** e **medio ambiente** é un bloque clásico do A2: me
 
 Para dicir "X veces" usas a fórmula **número + aldiz**:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Unha vez ao día | *Egunean behin* |
 | Dúas veces á semana | *Astean bi aldiz* / *birritan* |
@@ -137,7 +137,7 @@ Para dicir "X veces" usas a fórmula **número + aldiz**:
 
 ## Medio ambiente — *ingurumena*
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Medio ambiente | *ingurumena* |
 | Natureza | *natura* |
@@ -171,7 +171,7 @@ Para dicir "X veces" usas a fórmula **número + aldiz**:
 
 ## Vida do barrio
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Barrio | *auzoa* |
 | Veciño/a | *bizilaguna* |

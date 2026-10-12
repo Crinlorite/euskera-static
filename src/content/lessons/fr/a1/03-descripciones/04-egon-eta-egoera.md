@@ -84,21 +84,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: content
   - eu: triste
     es: triste
   - eu: nekatuta
-    es: cansado
+    es: fatigué
   - eu: haserre
-    es: enfadado
+    es: fâché
   - eu: gaixorik
-    es: enfermo
+    es: malade
   - eu: ondo
     es: bien
   - eu: gaizki
     es: mal
   - eu: lasai
-    es: tranquilo (ahora)
+    es: calme (en ce moment)
 ---
 
 En basque, il y a deux verbes là où le français n'en utilise qu'un seul. Tu connais déjà **izan** (« être » pour les qualités). Maintenant, c'est au tour de **egon**, qui se traduit par « être » quand on parle d'**états passagers** : comment quelqu'un se sent aujourd'hui, maintenant, en ce moment.

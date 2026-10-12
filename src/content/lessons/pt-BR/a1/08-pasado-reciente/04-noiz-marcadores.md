@@ -18,7 +18,7 @@ exercises:
   options:
   - amanhã à tarde
   - ontem à tarde
-  - esta tarde
+  - hoje à tarde
   - agora mesmo
   answer: 1
   explanation: '"Atzo" = ontem; "arratsaldean" = à tarde. Combinados: "ontem à tarde".'
@@ -53,21 +53,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: hoje
   - eu: atzo
-    es: ayer
+    es: ontem
   - eu: bihar
-    es: mañana
+    es: amanhã
   - eu: etzi
-    es: pasado mañana
+    es: depois de amanhã
   - eu: gaur goizean
-    es: esta mañana
+    es: hoje de manhã
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: hoje à tarde
   - eu: atzo gauean
-    es: anoche
+    es: ontem à noite
   - eu: orain
-    es: ahora
+    es: agora
   - eu: lehen
     es: antes
 - id: ex-04-nm-fc

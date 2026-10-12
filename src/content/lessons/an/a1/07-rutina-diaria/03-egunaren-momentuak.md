@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: por a tardi
   - eu: iluntzean
-    es: al atardecer
+    es: a l'atardecer
   - eu: gauean
     es: de nueiz
   - eu: gaur
-    es: hoy
+    es: hue
   - eu: bihar
     es: maitín (día siguient)
   - eu: atzo
-    es: ayer
+    es: ahier
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -97,7 +97,7 @@ exercises:
   - eu: gaur
     es: hue
   - eu: atzo
-    es: ayer
+    es: ahier
   - eu: bihar
     es: maitín (día siguient)
 ---
@@ -154,20 +154,20 @@ Estos t'amaneixerán toz os días:
 | Euskera | Aragonés |
 |---|---|
 | *gaur* | hue |
-| *atzo* | ayer |
+| *atzo* | ahier |
 | *bihar* | maitín (día siguient) |
 | *etzi* | pasau maitín |
 | *orain* | agora |
 | *gero* | dimpués |
 | *lehen* | antes |
 
-> Ficacio: para cuenta con **bihar** (o día siguient, "maitín") y **goiza** (o maitín, dica o meyodía). En aragonés, como en castellano, femos servir a mesma parola ta as dos cosas, pero en basco no.
+> Ficacio: para cuenta con **bihar** (o día siguient, "maitín") y **goiza** (o maitín, dica o meyodía). En aragonés femos servir a mesma parola ta as dos cosas, pero en basco no.
 
 ## Combinando-lo tot
 
 > *Bihar goizean lanera joango naiz.* — Maitín de maitins iré a treballar.
 >
-> *Atzo arratsaldean zinemara joan ginen.* — Ayer por a tardi fomos a o cine.
+> *Atzo arratsaldean zinemara joan ginen.* — Ahier por a tardi fomos a o cine.
 >
 > *Gaur gaueko hamarretan afalduko dut.* — Hue a las diez d'a nueit cenaré.
 

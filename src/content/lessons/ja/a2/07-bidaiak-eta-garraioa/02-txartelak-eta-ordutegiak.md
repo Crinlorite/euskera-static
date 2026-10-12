@@ -97,14 +97,14 @@ exercises:
   - eu: Berandu dabil
     es: 遅れています
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: 時間通りに着いた
 ---
 
 ステップ2：**切符を買って、電車に乗り遅れないようにする**。ここではA1で学んだ2つの表現 — *zenbat balio du?*（値段）と時間 — を再利用し、切符売り場で実践します。
 
 ## 切符売り場で
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 切符 | *txartela* |
 | 片道 | *joaneko txartela* |
@@ -132,7 +132,7 @@ exercises:
 
 ## 遅延と時間厳守
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 遅れている | *berandu dabil* |
 | 時間通りに着く | *garaiz iritsi da* |

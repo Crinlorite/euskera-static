@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: he minchau
   - eu: edan dut
-    es: he bebido
+    es: he bebiu
   - eu: ikusi dut
     es: he visto
   - eu: irakurri dut
     es: he leyiu
   - eu: erosi dut
-    es: he comprado
+    es: he crompau
   - eu: egin dut
-    es: he hecho
+    es: he feito
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: he preso / he collíu
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: he aprendiu / he estudiau
 - id: ex-02-jed-fc
   type: flashcards
   cards:
@@ -137,7 +137,7 @@ Pillamos *ikusi* (veyer) como eixemplo:
 |---|---|---|
 | Nik | **ikusi dut** | He visto |
 | Zuk | **ikusi duzu** | Has visto |
-| Hark | **ikusi du** | Ha visto (él/ella) |
+| Hark | **ikusi du** | Ha visto (ell/ella) |
 | Guk | **ikusi dugu** | Hemos visto |
 | Zuek | **ikusi duzue** | Hez visto |
 | Haiek | **ikusi dute** | Han visto |

@@ -36,7 +36,7 @@ exercises:
   prompt: '"토마토 반 킬로" = kilo ___ tomate.'
   answers:
   - erdi
-  explanation: '*Kilo erdi* — "반 킬로". *Erdi*(반)는 단위 뒤에 붙습니다. 스페인어와는 순서가 반대죠.'
+  explanation: '*Kilo erdi* — "반 킬로". *Erdi*(반)는 단위 뒤에 붙습니다. 한국어 "반 킬로"와는 순서가 반대죠.'
 - id: ex-neur-fb2
   type: fill-in-blank
   prompt: 바스크어로 "더" (가게에서 조금 더 달라고 할 때) = ___.
@@ -96,7 +96,7 @@ exercises:
 | *botila bat ardo* | 와인 한 병 |
 | *lata bat tomate* | 토마토 한 캔 |
 
-> **주의:** 제품은 **관사 없이** 씁니다 (*sagar*, *sagarra*가 아님). 이는 스페인어와 다른 점으로, 연습을 통해 익숙해져야 합니다.
+> **주의:** 제품은 **관사 없이** 씁니다 (*sagar*, *sagarra*가 아님). 연습을 통해 익숙해져야 합니다.
 
 ## 숫자는 앞에, 제품은 뒤에
 

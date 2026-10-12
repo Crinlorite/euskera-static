@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Îmi place să citesc
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Îi place să cânte
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Ne place să călătorim
   - eu: Margotzen dakit
     es: Știu să pictez
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Merg la dans
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Gătesc acum
 ---
 
 Ce faci când nu faci nimic? Această lecție este despre **hobby-uri** — și despre elementul gramatical care le guvernează: verbul transformat în substantiv cu **-tzea** (*irakurtzea* = "cititul").

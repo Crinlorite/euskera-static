@@ -25,7 +25,7 @@ exercises:
   explanation: '"Bada(go)" espresa esistencia y "tabernarik" ye''l partitivu "-rik" típicu en preguntes y negaciones d''esistencia.'
 - id: ex-bd-mc2
   type: multiple-choice
-  prompt: '"Ez dago supermerkaturik" significa…'
+  prompt: '"Ez dago supermerkaturik" quier dicir…'
   options:
   - Non toi nel supermercáu
   - El supermercáu non ta

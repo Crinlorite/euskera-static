@@ -116,7 +116,7 @@ Entà preguntar era ora s'emplègue **Zer ordu da?** ("quina ora ei?").
 
 D'a on gess aguest **-ak** finau? Ei eth plurau basc (ac visques en *gurasoak*, *aiton-amonak*). Ací tanben: *bost* (cinc) → *bostak* ("es cincs") + *dira* ("son").
 
-> **Nòta:** fòrça gent compde era ora deth dia damb eth relòtge de 12 ores, parièr coma en castelhan. Entà distinguir maitin o tarde, basta d'ahíger *goizeko* (deth maitin) o *arratsaldeko* (dera tarde) dauant: *goizeko zortziak* (es ueit deth maitin). Ac veiram ena leiçon 3.
+> **Nòta:** fòrça gent compde era ora deth dia damb eth relòtge de 12 ores, parièr coma en aranés. Entà distinguir maitin o tarde, basta d'ahíger *goizeko* (deth maitin) o *arratsaldeko* (dera tarde) dauant: *goizeko zortziak* (es ueit deth maitin). Ac veiram ena leiçon 3.
 
 ## Practica
 

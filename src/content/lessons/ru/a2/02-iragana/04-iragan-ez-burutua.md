@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: Я сходил(а) (один раз)
   - eu: Joaten nintzen
     es: Я ходил (привычка)
   - eu: Joan nuen autoa
     es: (неверно)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Я был(а) в пути
   - eu: Bizi nintzen Bilbon
     es: Я жил в Бильбао
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Вчера я съездил(а) в Бильбао
 ---
 
 **Имперфект** в баскском языке (*iragan ez burutua*) в общих чертах соответствует русским формам «ел / жил / ходил / работал». Он используется, чтобы рассказать о:

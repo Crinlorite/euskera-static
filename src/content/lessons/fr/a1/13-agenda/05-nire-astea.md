@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: le week-end
   - eu: bihar
-    es: mañana
+    es: demain
   - eu: etzi
-    es: pasado mañana
+    es: après-demain
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: cet après-midi
   - eu: libre nago
-    es: estoy libre
+    es: je suis libre
 ---
 
 Leçon finale de l'unité : nous allons construire **une semaine entière** en rassemblant tout ce que nous avons appris. Les jours, le futur, les rendez-vous, les marqueurs de temps... le langage de la planification.
@@ -160,7 +160,7 @@ Lis cet agenda inventé et fais attention aux marqueurs temporels :
 ## Révision visuelle
 
 ```
-Pasado    →  Presente  →  Futuro
+Passé    →  Présent  →  Futur
 atzo         gaur          bihar — etzi — datorren astean
 joan zen     doa            joango da
 ikusi dut    ikusten dut    ikusiko dut

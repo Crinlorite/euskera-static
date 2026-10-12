@@ -73,20 +73,20 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: 行った（一回）
   - eu: Joaten nintzen
     es: 行っていた（習慣）
   - eu: Joan nuen autoa
     es: （無効）
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: 向かっている途中だった
   - eu: Bizi nintzen Bilbon
     es: ビルバオに住んでいた
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: 昨日ビルバオに行った
 ---
 
-バスク語の**半過去** (*iragan ez burutua*) は、大まかに言うと、スペイン語の「comía / vivía / iba / trabajaba」（食べていた・住んでいた・行っていた・働いていた）に相当します。次のようなことを語るのに使います：
+バスク語の**半過去** (*iragan ez burutua*) は、大まかに言うと、日本語の「（よく）食べていた・住んでいた・行っていた・働いていた」に相当します。次のようなことを語るのに使います：
 
 - **過去の習慣**（習慣的にしていたこと）。
 - **描写**（どうだったか、どこに住んでいたか、何を持っていたか）。
@@ -109,7 +109,7 @@ exercises:
 
 ## 助動詞NORとの活用（自動詞）
 
-| 人称代名詞 | 半過去 | 日本語訳 |
+| 人称代名詞 | 半過去 | 日本語 |
 |---|---|---|
 | ni | *…tzen* **nintzen** | 私は行っていた・だった・住んでいた |
 | zu | *…tzen* **zinen** | 君は行っていた |
@@ -122,7 +122,7 @@ exercises:
 
 ## 助動詞NOR-NORKとの活用（他動詞）
 
-| 人称代名詞 | 半過去 | 日本語訳 |
+| 人称代名詞 | 半過去 | 日本語 |
 |---|---|---|
 | nik | *…tzen* **nuen** | 私はそれをしていた |
 | zuk | *…tzen* **zenuen** | 君はそれをしていた |
@@ -189,7 +189,7 @@ exercises:
 ## よくある間違い
 
 1. **規則動詞 + -tzen** はほとんどの場合機能します。注意：*jan → jaten* (*jantzen* ではない)、*edan → edaten*、*egin → egiten*。これらはA1で覚えます。
-2. **「estaba siendo」を文字通り訳さないでください**：バスク語では、半過去が描写的な過去の用法の多くをカバーしており、*ari* を追加する必要はありません。
+2. **何にでも *ari* を付けようとしないでください**：バスク語では、半過去が描写的な過去の用法の多くをカバーしており、*ari* を追加する必要はありません。
 3. **助動詞は**分詞 (*partizipio*) と同じです (*nintzen, nuen*)。変わるのは主動詞の形だけです。
 
 > **実践的なまとめ：** 文が「何が起こったか？」という問いに答えるなら → *partizipio + 助動詞* (burutua)。「習慣的に何をしていたか？」または「どうだったか？」に答えるなら → *-tzen + 過去の助動詞* (ez burutua)。「その瞬間、何をしていたか？」に答えるなら → *-tzen ari + izan の過去形* (puntukaria)。

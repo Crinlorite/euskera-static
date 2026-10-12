@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-otr-mc1
   type: multiple-choice
-  prompt: '"Bazkaria" significa…'
+  prompt: '"Bazkaria" quier dicir…'
   options:
   - el desayunu
   - la xinta
@@ -62,7 +62,7 @@ exercises:
   - eu: edan
     es: beber
   - eu: gosaldu
-    es: desayunar
+    es: almorzar
   - eu: bazkaldu
     es: xintar
   - eu: afaldu
@@ -75,7 +75,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: almuerzu
   - eu: hamaiketakoa
     es: almuerzu de media mañana
   - eu: bazkaria
@@ -110,7 +110,7 @@ Cada comida del día tien el so nome n'euskera, y conocelos va ayudate a falar d
 |---|---|
 | *jan* | comer (xeneral) |
 | *edan* | beber |
-| *gosaldu* | desayunar |
+| *gosaldu* | almorzar |
 | *bazkaldu* | xintar |
 | *afaldu* | cenar |
 

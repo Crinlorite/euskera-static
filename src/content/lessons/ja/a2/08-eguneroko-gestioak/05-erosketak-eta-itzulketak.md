@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: 「*Handiegia da*」は、服が…という意味です。
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - 高すぎる
+  - 大きすぎる
+  - とてもきれい
+  - 小さすぎる
   answer: 1
   explanation: ユニット04の *-egi* (*gehiegi*/*gutxiegi*) をサイズに適用します。handi**egi**a = 大きすぎる、txiki**egi**a = 小さすぎる。
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: このズボンを試着してもいいですか？ = *praka hauek ___ ditzaket?*
   answers:
   - probatu
-  explanation: '*Probatu* = 試着する。可能形（ahalera）では、*probatu **ditzaket*** となります（複数形："praka" はスペイン語と同様に複数形で使われます）。'
+  explanation: '*Probatu* = 試着する。可能形（ahalera）では、*probatu **ditzaket*** となります（複数形："praka" は複数形で使われます）。'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: 小さいです。交換したいです = *txikia geratzen zait; ___ nahi dut.*
@@ -104,16 +104,16 @@ A1レベルから買い物はできましたね。このレッスンは**お店�
 
 ## 試着室で
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
-| ¿Me lo puedo probar? | *Probatu dezaket?* |
-| El probador | *probalekua* |
-| La talla | *neurria / talla* |
-| ¿Qué talla usas? | *Zein neurri erabiltzen duzu?* |
-| Me queda bien / mal | *Ondo / gaizki geratzen zait* |
-| Demasiado grande / pequeño | *Handiegia / txikiegia* |
-| ¿Lo tenéis en otro color? | *Beste kolore batean baduzue?* |
-| ¿Y en una talla más? | *Eta neurri bat handiagoan?* |
+| 試着してもいいですか？ | *Probatu dezaket?* |
+| 試着室 | *probalekua* |
+| サイズ | *neurria / talla* |
+| サイズはいくつ？ | *Zein neurri erabiltzen duzu?* |
+| 似合う／似合わない | *Ondo / gaizki geratzen zait* |
+| 大きすぎる／小さすぎる | *Handiegia / txikiegia* |
+| 別の色はありますか？ | *Beste kolore batean baduzue?* |
+| ワンサイズ上は？ | *Eta neurri bat handiagoan?* |
 
 > *— Praka hauek **probatu ditzaket**?*
 >
@@ -127,15 +127,15 @@ A1レベルから買い物はできましたね。このレッスンは**お店�
 
 ## 交換と返品
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
-| Quiero cambiarlo | *Aldatu nahi dut* |
-| Quiero devolverlo | *Itzuli nahi dut* |
-| ¿Me devuelven el dinero? | *Dirua itzuliko didazue?* |
-| El tique | *tiketa* |
-| Tiene un defecto | *Akats bat dauka* |
-| Está sin estrenar | *Erabili gabe dago* |
-| El plazo de devolución | *Itzultzeko epea* |
+| 交換したいです | *Aldatu nahi dut* |
+| 返品したいです | *Itzuli nahi dut* |
+| 返金してもらえますか？ | *Dirua itzuliko didazue?* |
+| レシート | *tiketa* |
+| 傷があります | *Akats bat dauka* |
+| 未使用です | *Erabili gabe dago* |
+| 返品期限 | *Itzultzeko epea* |
 
 > *— Egun on. Jertse hau **itzuli nahi nuke**. **Akats bat dauka** hemen, ikusten?*
 >

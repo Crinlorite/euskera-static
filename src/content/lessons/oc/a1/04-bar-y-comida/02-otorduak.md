@@ -75,26 +75,26 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: esdejoar
   - eu: hamaiketakoa
     es: esmorzar de mieg maitin
   - eu: bazkaria
     es: dinar
   - eu: askaria
-    es: merienda
+    es: bèrena
   - eu: afaria
-    es: cena
+    es: sopar
   - eu: jan
-    es: comer
+    es: minjar
   - eu: edan
-    es: beber
+    es: béuer
 ---
 
-Cada repaish deth dia a eth sòn nòm en basc, e conéisher-les t'ajudarà a parlar dera tua rotina quotidiana. I a ath delà un repaish especificaments basc qu'en castelhan non a un equivalent dirècte: eth **hamaiketako**.
+Cada repaish deth dia a eth sòn nòm en basc, e conéisher-les t'ajudarà a parlar dera tua rotina quotidiana. I a ath delà un repaish especificaments basc qu'en aranés non a un equivalent dirècte: eth **hamaiketako**.
 
 ## Es cinc repaishi deth dia
 
-| Basc | Castelhan | Quan |
+| Basc | Aranés | Quan |
 |---|---|---|
 | *gosaria* | dejunar | maitin |
 | *hamaiketakoa* | esmorzar de mieg maitin | cap as 11h |
@@ -106,7 +106,7 @@ Cada repaish deth dia a eth sòn nòm en basc, e conéisher-les t'ajudarà a par
 
 ## Vèrbs: jan, edan e es especifics
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *jan* | minjar (generau) |
 | *edan* | béuer |
@@ -114,11 +114,11 @@ Cada repaish deth dia a eth sòn nòm en basc, e conéisher-les t'ajudarà a par
 | *bazkaldu* | dinar |
 | *afaldu* | sopar |
 
-> I a vèrbs especifics entà cada repaish (com eth castelhan "desayunar / comer / cenar"). En A1 es reconeisheràs mès que non pas es conjugaràs — ara per ara, ne i a pro damb saber qu'existissen.
+> I a vèrbs especifics entà cada repaish (com en aranés "dinar" o "sopar"). En A1 es reconeisheràs mès que non pas es conjugaràs — ara per ara, ne i a pro damb saber qu'existissen.
 
 ## Hami e set
 
-Entà díder "tengo hambre" / "tengo sed" en basc **non s'emplegue eth vèrb "tener"** (coma en castelhan o francés), mès eth vèrb **izan** ("èster"):
+Entà díder qu'as hame o set en basc **non s'emplegue eth vèrb "auer"** (coma en castelhan o francés), mès eth vèrb **izan** ("èster"):
 
 - **Gose naiz.** — Èi hami. (literauments: "sò famelic/a")
 - **Egarri naiz.** — Èi set. (literauments: "sò assedat/ada")

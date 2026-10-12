@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: dinc ara montanha
   - eu: etxerantz
-    es: hacia casa
+    es: entà casa
   - eu: lagunarengatik
     es: per (causa de) er amic
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ Aguesta leccion integradora repasse **quate declinacions naues** que A2 hig ath 
 | zuentzat | *zuentzat* | entà vosati |
 | haientzat | *haientzat* | entà eri/eres |
 | Lander | *Landerrentzat* | entà Lander |
-| la madre | *amarentzat* | entara maire |
-| los amigos | *lagunentzat* | entàs amics |
+| era maire | *amarentzat* | entara maire |
+| es amics | *lagunentzat* | entàs amics |
 
 > *Hau **zuretzat** da.* — Açò ei entà tu.
 >
@@ -160,9 +160,9 @@ Entà demanar eth motiu: **zergatik?** (perqué?). Entà respóner damb un subst
 | zugatik | *zugatik* | per tu |
 | beragatik / harengatik | *beragatik* | per eth/era |
 | Lander | *Landerrengatik* | per Lander |
-| la madre | *amarengatik* | pera maire |
-| el amor | *maitasunarengatik* | per amor |
-| la lluvia | *euriagatik* | pera ploja |
+| era maire | *amarengatik* | pera maire |
+| er amor | *maitasunarengatik* | per amor |
+| era ploja | *euriagatik* | pera ploja |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — Gràcies per vier, per jo!
 >
@@ -170,7 +170,7 @@ Entà demanar eth motiu: **zergatik?** (perqué?). Entà respóner damb un subst
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Perqué ac hès? — Per tu.
 
-> **Nòta:** desseparatz *-engatik* (causa: "per causa de") de *-rentzat* (destinatari: "entà"). En castelhan "por" cobrís es dues, mès en euscaro son diferenti.
+> **Nòta:** desseparatz *-engatik* (causa: "per causa de") de *-rentzat* (destinatari: "entà"). En aranés tanben se desseparen ("per" / "entà"), coma en euscaro.
 
 ## NONGO / NOIZKO — de quin lòc / moment
 
@@ -219,7 +219,7 @@ Ara ja utilizatz toti es casi basics:
 | Cas | Demanada | Sufix | Exemple (etxe) |
 |---|---|---|---|
 | NOR | qui? | -a | *etxea* |
-| NORK | qui hè? | -ak | *etxeak* (sujeto) |
+| NORK | qui hè? | -ak | *etxeak* (subjècte) |
 | NORI | a qui? | -ari | *etxeari* |
 | NON | a on? | -an | *etxean* |
 | NORA | entà on? | -ra | *etxera* |

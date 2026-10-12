@@ -84,7 +84,7 @@ exercises:
     es: pokazał/a mi to
 ---
 
-**NOR-NORI-NORK** to czasownik o **trzech argumentach**: ktoś (NORK) robi coś (NOR) **komuś** (NORI). W języku hiszpańskim odpowiada to konstrukcjom z podwójnym zaimkiem — *te lo doy*, *se lo dije*, *me lo enseñó*.
+**NOR-NORI-NORK** to czasownik o **trzech argumentach**: ktoś (NORK) robi coś (NOR) **komuś** (NORI). Po polsku odpowiada to zdaniom z dwoma dopełnieniami — *daję ci to*, *powiedziałem mu to*, *pokazał mi to*.
 
 To najbardziej złożony czasownik w języku baskijskim, ale na poziomie A2 wystarczy, że opanujesz **najczęściej używane wzorce**.
 

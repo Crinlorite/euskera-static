@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Ven aquí
   - eu: Hartu hau
-    es: Toma esto
+    es: Toma isto
   - eu: Eseri hemen
     es: Senta aquí
   - eu: Esadazu egia
@@ -93,7 +93,7 @@ O **imperativo** (*agintera*) serve para dar instrucións, facer peticións e da
 
 Para moitas ordes cotiás, o verbo aparece na súa forma de participio sen auxiliar:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Toma | *Hartu* |
 | Senta | *Eseri* |
@@ -127,7 +127,7 @@ Algúns verbos moi frecuentes teñen formas sintéticas específicas para o impe
 
 Cando dás unha orde con dobre obxecto ("dáme isto", "dille aquilo"), o éuscaro ten formas compactas moi útiles:
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Dáme | *Emadazu* / *Eman iezadazu* |
 | Dime | *Esadazu* / *Esan iezadazu* |

@@ -24,7 +24,7 @@ exercises:
   explanation: '*Sua* = ogień, ognisko. *San Juan sua* to tradycyjne ognisko palone 23 czerwca.'
 - id: ex-a2-bz3-mc2
   type: multiple-choice
-  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara" significa…'
+  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara" znaczy…'
   options:
   - Kiedyś mieszkaliśmy w gospodarstwie, teraz mieszkamy w mieście
   - Mieszkamy w gospodarstwie i w mieście
@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Wielki Tydzień w Bilbao
   - eu: Aratusteak
-    es: carnavales
+    es: karnawał
   - eu: Santa Ageda
     es: śpiewy po domach
 ---

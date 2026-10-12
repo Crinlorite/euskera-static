@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: à pied
   - eu: kotxez / autoz
-    es: en coche
+    es: en voiture
   - eu: autobusez
     es: en bus
   - eu: trenez
-    es: en tren
+    es: en train
   - eu: bizikletaz
-    es: en bicicleta
+    es: à vélo
   - eu: hegazkinez
     es: en avion
   - eu: itsasontziz
-    es: en barco
+    es: en bateau
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Comment dit-on « Je vais en bus » ?

@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-ir4-mc1
   type: multiple-choice
-  prompt: '"Lan egiten nuen Bilbon" significa…'
+  prompt: '"Lan egiten nuen Bilbon" quier dicir…'
   options:
   - Trabayaba en Bilbao (vezu)
   - Trabayé en Bilbao
@@ -62,7 +62,7 @@ exercises:
   - eu: jaten ari nintzen
     es: taba comiendo
   - eu: lanean ari ginen
-    es: tábamos trabayando
+    es: tábemos trabayando
   - eu: txikitan
     es: de pequeñu
   - eu: garai hartan
@@ -79,14 +79,14 @@ exercises:
   - eu: Joan nuen autoa
     es: (nun ye válidu)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Taba diendo
   - eu: Bizi nintzen Bilbon
     es: Vivía en Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Fui a Bilbao ayeri
 ---
 
-L'**imperfectu** del eusquera (*iragan ez burutua*) correspuende, a grandes rasgos, al "comía / vivía / diba / trabayaba" del castellán. Sirve pa cuntar:
+L'**imperfectu** del eusquera (*iragan ez burutua*) correspuende, a grandes rasgos, al "comía / vivía / diba / trabayaba" del asturianu. Sirve pa cuntar:
 
 - **Vezos del pasáu** (lo que facíes davezu).
 - **Descripciones** (cómo yera, ónde vivíes, qué teníes).
@@ -158,7 +158,7 @@ Pa dicir "taba faciendo" uses la perífrasis con **ari**:
 | Asturianu | Euskera |
 |---|---|
 | Taba comiendo | *Jaten **ari nintzen*** |
-| Tábamos trabayando | *Lanean **ari ginen*** |
+| Tábemos trabayando | *Lanean **ari ginen*** |
 | Taba lloviendo | *Euria **ari zuen*** |
 | ¿Qué tabes faciendo? | *Zer **ari zinen** egiten?* |
 
@@ -182,9 +182,9 @@ Estos marcadores emburrien la fras hacia l'imperfectu/vezu:
 
 > **Burutua:** *Atzo Iratiren etxera **joan nintzen**, kafea **hartu nuen**, eta hamabietan **itzuli nintzen**.* — Ayeri fui a casa d'Irati, tomé un café y volví a les doce.
 >
-> **Ez burutua:** *Lehen Iratiren etxera **joaten nintzen** astero. Han kafea **hartzen genuen** eta luze **hitz egiten genuen**.* — Enantes diba a casa d'Irati cada selmana. Ellí tomábamos café y falábamos llargo.
+> **Ez burutua:** *Lehen Iratiren etxera **joaten nintzen** astero. Han kafea **hartzen genuen** eta luze **hitz egiten genuen**.* — Enantes diba a casa d'Irati cada selmana. Ellí tomábemos café y falábemos llargo.
 >
-> **Progresivoa:** *Atzo, kafea **hartzen ari ginela**, telefonoa jo zuen.* — Ayeri, mientres tábamos tomando café, sonó'l teléfonu.
+> **Progresivoa:** *Atzo, kafea **hartzen ari ginela**, telefonoa jo zuen.* — Ayeri, mientres tábemos tomando café, sonó'l teléfonu.
 
 ## Trampes frecuentes
 

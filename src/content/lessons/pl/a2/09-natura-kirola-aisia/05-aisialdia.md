@@ -143,4 +143,4 @@ Zakończenie rozdziału: **czas wolny w mieście** — koncerty, teatr, muzea i 
 >
 > *Azokan **gazta, ogia eta sagardoa** erosi genituen. **Merezi izan zuen**.* — Na targu kupiliśmy ser, chleb i cydr. Warto było.
 
-> **Nota:** baskijska agenda kulturalna ma swoje własne słowa: *gaztetxea* (samorządne miejsce z tanimi koncertami), *bertso-saioa* (sesja bertsolaris), *herriko jaiak*… I największy *Azoka* ze wszystkich: **Durangoko Azoka**, grudniowe targi książki i muzyki baskijskiej — coroczna pielgrzymka baskijskiego czytelnika.
+> **Uwaga:** baskijska agenda kulturalna ma swoje własne słowa: *gaztetxea* (samorządne miejsce z tanimi koncertami), *bertso-saioa* (sesja bertsolaris), *herriko jaiak*… I największy *Azoka* ze wszystkich: **Durangoko Azoka**, grudniowe targi książki i muzyki baskijskiej — coroczna pielgrzymka baskijskiego czytelnika.

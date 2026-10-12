@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Where are you going?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: To buy bread
   - eu: Zertara etorri da?
     es: What has he/she come to do?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ The question: ***Zertara** etorri zara?* (what have you come to do?) → *Lagunt
 | No — it's a "for" | **-tzeko** | *Hau ikasteko da* |
 | Yes — you go/come TO | **-tzera** | *Ikastera noa* |
 
-> Classic trap for Spanish speakers: "voy a comprar" is NOT the future tense in Basque — it's movement: *erostera noa*. You already know the real future tense: *erosiko dut*.
+> Classic trap: "I'm going to buy" (going somewhere to buy) is NOT the future tense in Basque — it's movement: *erostera noa*. You already know the real future tense: *erosiko dut*.
 
 ## All together (and with yesterday's time clauses)
 

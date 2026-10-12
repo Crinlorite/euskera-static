@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: 毕尔巴鄂大周节
   - eu: Aratusteak
-    es: carnavales
+    es: 狂欢节
   - eu: Santa Ageda
     es: 挨家挨户唱歌
 ---
@@ -98,7 +98,7 @@ exercises:
 
 ## 巴斯克节日：核心词汇
 
-| 日期 | 节日 | 西班牙语简介 |
+| 日期 | 节日 | 中文简介 |
 |---|---|---|
 | 6月23日 | *San Juan sua* | 圣胡安篝火 |
 | 12月31日 | *Urtezahar* | 除夕 |
@@ -111,7 +111,7 @@ exercises:
 
 ## 节日词汇
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 节日 | *jaia* |
 | 庆祝活动 | *ospakizuna* |
@@ -127,7 +127,7 @@ exercises:
 
 ## 巴斯克文化中的人物和元素
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | Bertsolari（即兴诗人） | *bertsolaria* |
 | Trikitilari（手风琴手） | *trikitilaria* |
@@ -143,7 +143,7 @@ exercises:
 
 文化比较会用到这两个词：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 以前 | *lehen* |
 | 现在 | *orain* |
@@ -158,7 +158,7 @@ exercises:
 
 ## 比较地点：*bai... bai...*, *baita... ere*
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 在X和Y都 | *Bai X-(e)an, bai Y-(e)an* |
 | 在X也 | *X-(e)an ere bai* |
@@ -193,7 +193,7 @@ exercises:
 
 ## 用于文化比较的实用句式
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 相反，在这里…… | *Hemen, aldiz, ...* |
 | 和在X一样 | *X-(e)n bezala* |

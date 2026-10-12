@@ -96,7 +96,7 @@ Knowing how to ask for specific quantities is the difference between "an apple" 
 | *botila bat ardo* | a bottle of wine |
 | *lata bat tomate* | a can of tomato |
 
-> **Attention:** the product goes **without an article** (*sagar*, not *sagarra*). This differs from Spanish and is learned with practice.
+> **Attention:** the product goes **without an article** (*sagar*, not *sagarra*). This differs from English and is learned with practice.
 
 ## The number first, the product after
 

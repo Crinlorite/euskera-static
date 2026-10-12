@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: '미래: 갈 것이다'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: '한 번의 과거: 갔다'
   - eu: Joaten nintzen
-    es: '과거 습관: 가곤 했다'
+    es: '과거 습관: 다녔다'
   - eu: Joan ohi nintzen
     es: '과거 습관: 가곤 했다'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: '지금: 가는 중이다'
 ---
 
 이 단원의 마지막 강의이자, 한 큰 주기의 마무리입니다. 미래 시제를 손에 넣었으니, 이제 **세 시제를 모두 마스터**하게 됩니다. 이번 강의에서는 화룡점정 격인 (*ohi*, 바스크어의 "~하곤 하다")를 추가하고, 하나의 아이디어를 과거, 현재-습관, 미래 시제로 옮겨보는 연습을 합니다. 이것이 바로 A2 시험관이 듣고 싶어 하는 것입니다.
@@ -106,7 +106,7 @@ exercises:
 
 > **분사 + ohi + 조동사**
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 저는 보통 자전거를 타고 출근해요 | *Lanera bizikletaz joan **ohi** naiz* |
 | 우리는 보통 할머니 댁에서 점심을 먹어요 | *Amonaren etxean bazkaldu **ohi** dugu* |
@@ -122,7 +122,7 @@ exercises:
 
 ## 습관을 나타내는 부사
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 보통, 일반적으로 | *normalean* |
 | 대부분 | *gehienetan* |

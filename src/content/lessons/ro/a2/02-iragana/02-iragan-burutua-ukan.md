@@ -16,8 +16,8 @@ exercises:
   prompt: '"Liburua irakurri nuen" înseamnă…'
   options:
   - Citesc cartea
-  - Am citit cartea
-  - Am citit cartea
+  - Am citit cartea (azi, recent)
+  - Am citit cartea (în altă zi)
   - Voi citi cartea
   answer: 2
   explanation: '*Nuen* este trecutul lui *dut* (eu l-am). *Irakurri nuen* = "am citit" (trecut complet).'

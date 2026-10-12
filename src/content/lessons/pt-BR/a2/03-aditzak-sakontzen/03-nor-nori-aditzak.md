@@ -82,7 +82,7 @@ exercises:
     es: me aconteceu
 ---
 
-Os verbos **NOR-NORI** são aqueles em que algo (NOR) "acontece a alguém" (NORI). O sujeito gramatical é **a coisa**, não a pessoa — exatamente como o verbo *gostar* em espanhol: *me gusta el cine* (para mim, ele, o cinema, me agrada).
+Os verbos **NOR-NORI** são aqueles em que algo (NOR) "acontece a alguém" (NORI). O sujeito gramatical é **a coisa**, não a pessoa — como no português «o cinema me agrada»: o sujeito é o cinema.
 
 No A1 você já viu *gustatzen zait*. No A2 você expande o padrão para outros verbos muito úteis.
 

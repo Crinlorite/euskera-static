@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: the weekend
   - eu: bihar
-    es: mañana
+    es: tomorrow
   - eu: etzi
-    es: pasado mañana
+    es: the day after tomorrow
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: this afternoon
   - eu: libre nago
-    es: estoy libre
+    es: I'm free
 ---
 
 Final lesson of the unit: we're going to put together **a whole week** by combining everything we've learned. Days, future tenses, appointments, time markers... the language of planning.

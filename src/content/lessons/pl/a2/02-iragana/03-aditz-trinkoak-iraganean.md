@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: szedłem/szłam
   - eu: nentorren
     es: przychodziłem/am
   - eu: nenbilen
-    es: andaba yo
+    es: chodziłem/chodziłam
   - eu: neukan
     es: miałem/am
   - eu: nekien
     es: wiedziałem/am
   - eu: nengoen
-    es: estaba yo
+    es: byłem/byłam (gdzieś)
 ---
 
 **Czasowniki syntetyczne** (*aditz trinkoak*) to te nieliczne baskijskie czasowniki, które odmieniają się **bez czasownika posiłkowego**, w jednym słowie. Znasz już ich formy w czasie teraźniejszym: *noa, nator, nabil, daukat, dakit, nago*. W czasie przeszłym mają analogiczne formy, które warto rozpoznawać, a te najczęstsze – aktywnie używać.

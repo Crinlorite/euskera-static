@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: 카페라테
   - eu: ura
-    es: agua
+    es: 물
   - eu: ardo gorria
-    es: vino tinto
+    es: 레드 와인
   - eu: garagardoa
-    es: cerveza
+    es: 맥주
   - eu: sagardoa
-    es: sidra
+    es: 사과주
   - eu: zumoa
-    es: zumo
+    es: 주스
   - eu: tea
     es: 차
 ---

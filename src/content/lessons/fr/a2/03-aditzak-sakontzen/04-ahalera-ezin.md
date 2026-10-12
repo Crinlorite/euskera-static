@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Peux-tu venir ?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Tu peux le faire
   - eu: Ezin dut etorri
     es: Je ne peux pas venir
   - eu: Ezin nintzen joan

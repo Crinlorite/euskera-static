@@ -24,7 +24,7 @@ exercises:
   explanation: '*Sua* = 불, 모닥불. *San Juan sua*는 6월 23일의 전통 모닥불입니다.'
 - id: ex-a2-bz3-mc2
   type: multiple-choice
-  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara" significa…'
+  prompt: '"Lehen baserrian bizi ginen, orain hirian bizi gara"의 뜻은…'
   options:
   - 이전에는 농가에 살았고, 지금은 도시에 삽니다
   - 우리는 농가와 도시에 삽니다
@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: 빌바오 대축제 주간
   - eu: Aratusteak
-    es: carnavales
+    es: 카니발
   - eu: Santa Ageda
     es: 집집마다 부르는 노래
 ---
@@ -98,7 +98,7 @@ exercises:
 
 ## 바스크 축제: 핵심 어휘
 
-| 날짜 | 축제 | 스페인어 요약 |
+| 날짜 | 축제 | 한국어 요약 |
 |---|---|---|
 | 6월 23일 | *San Juan sua* | 산 후안 모닥불 |
 | 12월 31일 | *Urtezahar* | 섣달 그믐날 |
@@ -111,7 +111,7 @@ exercises:
 
 ## 축제 어휘
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 축제 | *jaia* |
 | 기념 행사 | *ospakizuna* |
@@ -127,7 +127,7 @@ exercises:
 
 ## 바스크 문화의 인물과 요소
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | Bertsolari (즉흥 시인) | *bertsolaria* |
 | Trikitilari (아코디언 연주자) | *trikitilaria* |
@@ -143,7 +143,7 @@ exercises:
 
 문화 비교는 이 두 단어를 통해 이루어집니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 이전에 | *lehen* |
 | 지금 | *orain* |
@@ -158,7 +158,7 @@ exercises:
 
 ## 장소 비교하기: *bai... bai...*, *baita... ere*
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | X와 Y 모두에서 | *Bai X-(e)an, bai Y-(e)an* |
 | X에서도 또한 | *X-(e)an ere bai* |
@@ -193,7 +193,7 @@ exercises:
 
 ## 문화 비교에 유용한 구조
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 반면에 여기서는... | *Hemen, aldiz, ...* |
 | X에서처럼 | *X-(e)n bezala* |

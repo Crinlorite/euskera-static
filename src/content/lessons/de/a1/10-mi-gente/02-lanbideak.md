@@ -15,17 +15,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: Lehrer/in
   - eu: ikaslea
-    es: estudiante
+    es: Student/in
   - eu: medikua
     es: Arzt/Ärztin
   - eu: erizaina
-    es: enfermero/a
+    es: Krankenpfleger/in
   - eu: sukaldaria
-    es: cocinero/a
+    es: Koch/Köchin
   - eu: kazetaria
-    es: periodista
+    es: Journalist/in
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: Wer ist ein "polizia"?
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: Ein "Mekanikaria" arbeitet mit...
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - Kranke
+  - Bücher
+  - Autos
+  - Kinder
   answer: 2
   explanation: '"Mekanikaria" ist der Mechaniker, er arbeitet normalerweise in Werkstätten mit Autos.'
 - id: ex-10-02-fb1
@@ -165,7 +165,7 @@ Das Muster kennst du bereits aus den ersten Einheiten:
 | *Non egiten duzu lan?* | Wo arbeitest du? |
 | *Zer da bere lana?* | Was ist seine/ihre Arbeit? |
 
-Y para responder sobre uno mismo o sobre otra persona:
+Und um über sich selbst oder eine andere Person zu antworten:
 
 - *Ikaslea naiz, baina dendari moduan ere lan egiten dut.* — Ich bin Student/in, aber ich arbeite auch als Verkäufer/in.
 - *Bera erizaina da, ospitalean lan egiten du.* — Er/Sie ist Krankenpfleger/in, er/sie arbeitet im Krankenhaus.

@@ -16,25 +16,25 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" означает…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - Десерт
+  - Первое блюдо
+  - Второе блюдо
+  - Напиток
   answer: 1
   explanation: '*Lehen platera* — первое блюдо. *Lehen* означает «первый».'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" по-русски — это…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - Напиток
+  - Закуска
+  - Десерт
+  - Основное блюдо
   answer: 2
   explanation: '*Postrea* — десерт. Перевод прямой.'
 - id: ex-menu-fb1
   type: fill-in-blank
-  prompt: '"Menú del día" = Eguneko ___'
+  prompt: '"Меню дня" = Eguneko ___'
   answers:
   - menua
   explanation: '*Eguneko menua* — буквально «меню дня» (*eguneko* = дня).'
@@ -87,24 +87,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: первое блюдо
   - eu: bigarren platera
-    es: segundo plato
+    es: второе блюдо
   - eu: postrea
-    es: postre
+    es: десерт
   - eu: edaria
-    es: bebida
+    es: напиток
   - eu: eguneko menua
     es: комплексный обед
   - eu: karta
-    es: carta
+    es: меню
 ---
 
 Умение читать меню открывает двери. В большинстве *jatetxeak* вы увидите классическую структуру из трёх частей: первое, второе и десерт.
 
 ## Два варианта заказа
 
-| На баскском | На русском | Описание |
+| На баскском | Русский | Описание |
 |---|---|---|
 | *eguneko menua* | комплексный обед | фиксированная цена, ограниченный выбор |
 | *karta* | меню (а-ля карт) | по меню, свободный выбор |
@@ -115,7 +115,7 @@ exercises:
 
 ## Части меню
 
-| На баскском | На русском |
+| На баскском | Русский |
 |---|---|
 | *hasierakoak* | закуски / аперитивы |
 | *lehen platera* | первое блюдо |

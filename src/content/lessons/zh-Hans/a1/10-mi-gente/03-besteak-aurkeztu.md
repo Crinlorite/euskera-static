@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: 这个（近处）
   - eu: hori
-    es: ese/a (a media distancia)
+    es: 那个（中等距离）
   - eu: hura
-    es: aquel/aquella
+    es: 那个（远处）
   - eu: bera
     es: 他/她
   - eu: haiek
-    es: ellos/ellas
+    es: 他们/她们
   - eu: Nor da hau?
     es: 这位是谁？
 - id: ex-10-03-fc
@@ -85,7 +85,7 @@ exercises:
 
 在巴斯克语中，有三个表示不同距离等级的指示代词。在介绍他人时，你会经常用到它们。
 
-| 指示代词 | 距离 | 中文含义 |
+| 指示代词 | 距离 | 中文 |
 |---|---|---|
 | **hau** | 离我近 | 这个 |
 | **hori** | 离你近 | 那个 |
@@ -93,7 +93,7 @@ exercises:
 
 及其复数形式：
 
-| 复数 | 中文含义 |
+| 复数 | 中文 |
 |---|---|
 | **hauek** | 这些 |
 | **horiek** | 那些 |
@@ -105,7 +105,7 @@ exercises:
 
 > **Hau** + 名字/关系 + **da**。
 
-| 句子 | 中文含义 |
+| 句子 | 中文 |
 |---|---|
 | *Hau Maialen da.* | 这位是 Maialen。 |
 | *Hau nire laguna da.* | 这位是我的朋友。 |
@@ -118,7 +118,7 @@ exercises:
 
 当你已经介绍过某人，或者谈论一个不在场的人时，使用 **hura** (标准形式) 或 **bera** (日常形式，更常用)。
 
-| 句子 | 中文含义 |
+| 句子 | 中文 |
 |---|---|
 | *Bera Maialen da.* | 她是 Maialen。 |
 | *Bera nire bizilaguna da.* | 他/她是我的邻居。 |

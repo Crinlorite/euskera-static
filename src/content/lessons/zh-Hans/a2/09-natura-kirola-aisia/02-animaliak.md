@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: 会叫，会散步
   - eu: katua
-    es: duerme 16 horas
+    es: 一天睡 16 个小时
   - eu: behia
-    es: da leche
+    es: 产奶
   - eu: ardia
     es: 产羊毛和奶酪
   - eu: txoria
-    es: canta al amanecer
+    es: 黎明时打鸣
   - eu: basurdea
     es: 毁坏玉米地
 ---
@@ -95,7 +95,7 @@ exercises:
 
 ## 在家里
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 狗 | *txakurra* |
 | 猫 | *katua* |
@@ -106,7 +106,7 @@ exercises:
 
 ## 在农舍 (baserria)
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 牛 | *behia* |
 | 绵羊 / 羔羊 | *ardia / arkumea* |
@@ -119,7 +119,7 @@ exercises:
 
 ## 在森林和天空
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 野猪 | *basurdea* |
 | 狐狸 | *azeria* |

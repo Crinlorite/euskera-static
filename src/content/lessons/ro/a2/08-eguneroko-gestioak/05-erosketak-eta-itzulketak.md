@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" înseamnă că articolul vestimentar este…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Prea scumpă
+  - Prea mare
+  - Foarte frumoasă
+  - Prea mică
   answer: 1
   explanation: 'Sufixul *-egi* din unitatea 04 (gehiegi/gutxiegi) aplicat mărimii: handi**egi**a = prea mare; txiki**egi**a = prea mic.'
 - id: ex-a2-ge5-mc2

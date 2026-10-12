@@ -89,24 +89,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: czarne włosy
   - eu: ile horia
-    es: pelo rubio
+    es: blond włosy
   - eu: ile motza
-    es: pelo corto
+    es: krótkie włosy
   - eu: ile luzea
-    es: pelo largo
+    es: długie włosy
   - eu: begi urdinak
-    es: ojos azules
+    es: niebieskie oczy
   - eu: begi marroiak
-    es: ojos marrones
+    es: brązowe oczy
   - eu: bizarduna
     es: z brodą
   - eu: betaurrekoduna
     es: w okularach
 ---
 
-Do opisywania włosów i oczu w języku baskijskim nie używa się **izan** („być”) tak jak w hiszpańskim („jestem brunetem”), lecz **ukan** („mieć”): *mam czarne włosy*, *mam niebieskie oczy*.
+Do opisywania włosów i oczu w języku baskijskim nie używa się **izan** („być”), lecz **ukan** („mieć”), tak jak po polsku: *mam czarne włosy*, *mam niebieskie oczy*.
 
 ## Włosy: ile
 
@@ -124,7 +124,7 @@ Słowo oznaczające „włosy” to **ile** (z rodzajnikiem: *ilea*). Przymiotni
 | *ile lisoa* | proste włosy |
 | *ile kizkurra* | kręcone włosy |
 
-> W języku baskijskim włosy traktuje się jako rzeczownik w **liczbie pojedynczej**, podobnie jak w hiszpańskim. Dlatego używa się *dut* / *du* (a nie *ditut* / *ditu*).
+> W języku baskijskim włosy traktuje się jako rzeczownik w **liczbie pojedynczej** — inaczej niż po polsku, gdzie „włosy” są w liczbie mnogiej. Dlatego używa się *dut* / *du* (a nie *ditut* / *ditu*).
 
 - *Ile beltza eta luzea **dut**.* — Mam czarne i długie włosy.
 - *Maialenek ile kizkurra **du**.* — Maialen ma kręcone włosy.

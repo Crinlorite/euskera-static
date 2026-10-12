@@ -45,7 +45,7 @@ exercises:
   prompt: Мога ли да пробвам този панталон? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = пробвам. С ahalera: probatu **ditzaket** (множествено число: "praka" е в множествено число, както на испански).'
+  explanation: '*Probatu* = пробвам. С ahalera: probatu **ditzaket** (множествено число: "praka" е в множествено число, както българското „панталони“).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: Малко ми е; искам да го сменя = txikia geratzen zait; ___ nahi dut.

@@ -80,28 +80,28 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: naut
   - eu: baxua
-    es: bajo
+    es: baish
   - eu: handia
-    es: grande
+    es: gran
   - eu: txikia
-    es: pequeño
+    es: petit
   - eu: lodia
-    es: gordo
+    es: gras
   - eu: argala
-    es: delgado
+    es: prim
   - eu: polita
-    es: bonito
+    es: polit
   - eu: itsusia
-    es: feo
+    es: lèg
 ---
 
 Quan vòs descríuer coma ei ua persona o ua causa de manèra **establa** (fisicament, en generau), en basc utilizam era qüestion **Nolakoa da?** ("coma ei?") e responem damb eth vèrb **izan** + un adjectiu damb era marca `-a` finau.
 
 ## Era qüestion
 
-| Basc | Occitan |
+| Basc | Aranés |
 |---|---|
 | *Nolakoa zara?* | Coma ès? (a "tu") |
 | *Nolakoa da?* | Coma ei? (a "eth/era") |
@@ -123,7 +123,7 @@ Er esquema ei fòrça regular. Er adjectiu pòrte tostemp era `-a` der article:
 
 ## Adjectius basics d'aspècte generau
 
-| Basc | Occitan | Contrari |
+| Basc | Aranés | Contrari |
 |---|---|---|
 | *altua* | naut/a | *baxua* (baish/a) |
 | *handia* | gran | *txikia* (petit/a) |

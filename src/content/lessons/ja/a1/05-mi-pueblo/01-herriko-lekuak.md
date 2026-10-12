@@ -14,21 +14,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: taberna
-    es: bar
+    es: バル
   - eu: okindegia
     es: パン屋
   - eu: botika
-    es: farmacia
+    es: 薬局
   - eu: liburutegia
-    es: biblioteca
+    es: 図書館
   - eu: eliza
-    es: iglesia
+    es: 教会
   - eu: merkatua
-    es: mercado
+    es: 市場
   - eu: banketxea
-    es: banco
+    es: 銀行
   - eu: ospitalea
-    es: hospital
+    es: 病院
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: パンを買う必要があります。どんな店に行きますか？

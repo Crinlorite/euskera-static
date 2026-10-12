@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: after having breakfast
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: when I have breakfast
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: while I have breakfast
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: as soon as I've had breakfast
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: without having breakfast
 ---
 
 Your sentences already know WHAT happened; this lesson teaches them to say **WHEN** with clockwork precision: *when I arrived*, *before leaving*, *after eating*, *while you were sleeping*. Three pieces, and the combinations come together on their own.

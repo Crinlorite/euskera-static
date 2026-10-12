@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: '"Alaia" înseamnă…'
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - plictisitor
+  - vesel
+  - nervos
+  - tăcut
   answer: 1
   explanation: '*alaia* înseamnă "vesel/veselă". Este unul dintre cele mai comune adjective de caracter.'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: vesel
   - eu: isila
-    es: callado
+    es: tăcut
   - eu: berritsua
-    es: hablador
+    es: vorbăreț
   - eu: lasaia
-    es: tranquilo
+    es: liniștit
   - eu: urduria
-    es: nervioso
+    es: nervos
   - eu: langilea
-    es: trabajador
+    es: harnic
   - eu: alferra
-    es: vago
+    es: leneș
   - eu: jatorra
     es: simpatic
 ---

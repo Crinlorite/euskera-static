@@ -16,13 +16,13 @@ exercises:
   - eu: nire
     es: mój/moja
   - eu: zure
-    es: tu/tuyo
+    es: twój
   - eu: bere
     es: jego/jej
   - eu: gure
-    es: nuestro
+    es: nasz
   - eu: zuen
-    es: vuestro
+    es: wasz
   - eu: beren
     es: ich
 - id: ex-pos-fb1

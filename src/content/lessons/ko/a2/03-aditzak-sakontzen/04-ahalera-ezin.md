@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: 올 수 있니?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: 너는 할 수 있어
   - eu: Ezin dut etorri
     es: 올 수 없어
   - eu: Ezin nintzen joan
@@ -91,9 +91,9 @@ exercises:
 
 가장 간단하고 가장 많이 듣게 될 형태입니다:
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + 조동사**
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 올 수 있니? | *Etorri **ahal zara**?* |
 | 들어가도 될까요? | *Sartu **ahal naiz**?* |
@@ -108,7 +108,7 @@ exercises:
 
 ### 타동사 (NOR-NORK): *dezaket*
 
-| 대명사 | 형태 | 스페인어 |
+| 대명사 | 형태 | 한국어 |
 |---|---|---|
 | nik | **dezaket** | 나는 그것을 할 수 있다 |
 | zuk | **dezakezu** | 너는 그것을 할 수 있다 |
@@ -121,7 +121,7 @@ exercises:
 
 ### 자동사 (NOR): *naiteke*
 
-| 대명사 | 형태 | 스페인어 |
+| 대명사 | 형태 | 한국어 |
 |---|---|---|
 | ni | **naiteke** | 나는 할 수 있다 |
 | zu | **zaitezke** | 너는 할 수 있다 |
@@ -149,9 +149,9 @@ exercises:
 
 ahalera의 부정형은 고유한 단어인 **ezin**을 가집니다.
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + 조동사**
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 올 수 없다 | *Ezin **dut etorri*** (NOR-NORK) 또는 *Ezin **naiz etorri*** (NOR) |
 | 갈 수 없다 | *Ezin naiz joan* |
@@ -184,7 +184,7 @@ ahalera의 부정형은 고유한 단어인 **ezin**을 가집니다.
 
 ## 다른 시제에서의 *Ahal izan*
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 갈 수 있었다 (현재완료) | *Joan ahal izan naiz* |
 | 갈 수 있을 것이다 | *Joan ahal izango naiz* |

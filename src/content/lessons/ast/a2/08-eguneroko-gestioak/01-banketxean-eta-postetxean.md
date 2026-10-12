@@ -78,9 +78,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Dirua atera
-    es: Sacar dinero
+    es: Sacar perres
   - eu: Dirua sartu
-    es: Ingresar dinero
+    es: Ingresar perres
   - eu: Transferentzia egin
     es: Facer una tresferencia
   - eu: Paketea bidali
@@ -95,7 +95,7 @@ Unidá nueva: **la vida práutica**. Naide viaxa tolos díes, pero tol mundu aca
 
 ## Nel bancu (banketxea)
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | La cuenta | *kontua* |
 | Abrir una cuenta | *kontua ireki / zabaldu* |
@@ -116,7 +116,7 @@ Unidá nueva: **la vida práutica**. Naide viaxa tolos díes, pero tol mundu aca
 
 ## En correos (postetxea)
 
-| Castellán | Vascu |
+| Asturianu | Vascu |
 |---|---|
 | La carta | *gutuna* |
 | El paquete | *paketea* |

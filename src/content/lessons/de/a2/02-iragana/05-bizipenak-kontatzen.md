@@ -27,8 +27,8 @@ exercises:
   prompt: Welche Vergangenheitsform verwende ich, um die **Hintergrundszene** (wie der Tag war, wo sie waren) in einer Geschichte zu beschreiben?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Präsens
+  - Nahe Vergangenheit (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: Die Szene, die Beschreibung und Gewohnheiten stehen im Imperfekt. Die punktuellen Handlungen, die die Geschichte voranbringen, stehen im *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: er/sie hat geheiratet
   - eu: bidaiatu zuten
-    es: viajaron
+    es: sie reisten
   - eu: ezagutu nuen
     es: ich habe kennengelernt
   - eu: maitemindu nintzen

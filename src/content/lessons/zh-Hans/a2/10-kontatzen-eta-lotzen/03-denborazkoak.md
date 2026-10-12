@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: 吃早饭后
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: 我吃早餐的时候
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: 我一边吃早餐
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: 我一吃完早餐
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: 不吃早餐
 ---
 
 你的句子已经知道发生了“什么”；这节课将教你像钟表匠一样精确地表达“**何时**”：*当我到达时*、*出门前*、*吃饭后*、*你睡觉时*。掌握三个构件，各种组合便信手拈来。

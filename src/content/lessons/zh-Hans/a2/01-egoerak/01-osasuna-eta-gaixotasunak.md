@@ -90,7 +90,7 @@ exercises:
   - eu: medikua
     es: 医生
   - eu: erizaina
-    es: enfermero/a
+    es: 护士
   - eu: botikaria
     es: 药剂师
   - eu: botika / farmazia
@@ -114,7 +114,7 @@ A2为你打开了谈论身体感受的大门：什么时候生病，哪里疼痛
 
 和A1中学到的一样，症状用 *eduki*（有）来表达：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我发烧了 | *Sukarra **daukat*** |
 | 我咳嗽 | *Eztula **daukat*** |
@@ -129,7 +129,7 @@ A2为你打开了谈论身体感受的大门：什么时候生病，哪里疼痛
 
 > **身体部位 + -ko + mina + daukat**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我头疼 | *Buruko mina daukat* |
 | 我喉咙疼 | *Eztarriko mina daukat* |
@@ -144,7 +144,7 @@ A2为你打开了谈论身体感受的大门：什么时候生病，哪里疼痛
 
 ## 在诊所
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你怎么了？/ 你有什么症状？ | *Zer duzu?* / *Zer gertatzen zaizu?* |
 | 从什么时候开始的？ | *Noiztik?* |

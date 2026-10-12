@@ -93,15 +93,15 @@ exercises:
   - eu: kafesnea
     es: caffellatte
   - eu: ura
-    es: agua
+    es: acqua
   - eu: ardo gorria
-    es: vino tinto
+    es: vino rosso
   - eu: garagardoa
-    es: cerveza
+    es: birra
   - eu: sagardoa
-    es: sidra
+    es: sidro
   - eu: zumoa
-    es: zumo
+    es: succo
   - eu: tea
     es: tè
 ---

@@ -82,19 +82,19 @@ exercises:
   - eu: altua
     es: alto
   - eu: baxua
-    es: bajo
+    es: basso
   - eu: handia
     es: grande
   - eu: txikia
-    es: pequeño
+    es: piccolo
   - eu: lodia
-    es: gordo
+    es: grasso
   - eu: argala
-    es: delgado
+    es: magro
   - eu: polita
-    es: bonito
+    es: bello
   - eu: itsusia
-    es: feo
+    es: brutto
 ---
 
 Quando vuoi descrivere com'è una persona o una cosa in modo **stabile** (fisicamente, in generale), in basco usiamo la domanda **Nolakoa da?** ("com'è?") e rispondiamo con il verbo **izan** + un aggettivo con il suffisso finale `-a`.

@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Se domani piove
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Se avessi tempo
   - eu: Erosiko nuke
     es: Lo comprerei
   - eu: Joango nintzateke
     es: Andrei
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Se fossi ricco
   - eu: Edukiko bagenu
     es: Se avessimo
 ---

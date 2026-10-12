@@ -77,17 +77,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: by train
   - eu: autobusez
     es: by bus
   - eu: hegazkinez
     es: by plane
   - eu: kotxez
-    es: en coche
+    es: by car
   - eu: oinez
-    es: andando
+    es: walking
   - eu: bizikletaz
-    es: en bici
+    es: by bike
 ---
 
 The travel unit begins. First stop: **means of transport** and the verbs to use them. With the instrumental *-z* that you already know from A1, saying "by train" or "by bike" is just a suffix.

@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-zbd-mc1
   type: multiple-choice
-  prompt: '"Zenbat balio du?" significa…'
+  prompt: '"Zenbat balio du?" vol dir…'
   options:
   - Quant costa?
   - Quants anys tens?

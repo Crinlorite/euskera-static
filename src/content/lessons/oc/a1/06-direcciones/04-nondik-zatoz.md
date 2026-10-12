@@ -111,12 +111,12 @@ S'ena leccion anteriora aprenerem **NORA** (entà on vas), ara ven era sua parel
 
 ## Era qüestion: Nondik?
 
-| Qüestion | Castelhan |
+| Qüestion | Aranés |
 |---|---|
-| ***Nondik* zatoz?** | ¿De dónde vienes? |
-| ***Nondik* dator?** | ¿De dónde viene (él/ella)? |
-| ***Nondik* gatoz?** | ¿De dónde venimos? |
-| ***Nondik* datoz?** | ¿De dónde vienen? |
+| ***Nondik* zatoz?** | D'on vies? |
+| ***Nondik* dator?** | D'on ven (eth/era)? |
+| ***Nondik* gatoz?** | D'on venem? |
+| ***Nondik* datoz?** | D'on vien? |
 
 > Eth vèrb naturau damb NONDIK ei **etorri** (vier): *nator*, *zatoz*, *dator*, *gatoz*, *zatozte*, *datoz*. Era qüestion basica que t'daurirà conversacions tostemp ei **Nondik zatoz?**.
 
@@ -139,7 +139,7 @@ S'ahig ath lòc d'origina. Eth patron s'adapte segontes era terminacion:
 - **Eskolatik gatoz.** — Venim dera escòla.
 - **Tabernatik datoz.** — Venen deth bar.
 - **Bilbotik etorri da.** — A vengut de Bilbao.
-- **Iruñetik Donostiara doa.** — Va de Pamplona a Donostia.
+- **Iruñetik Donostiara doa.** — Va de Pamplona tà Donostia.
 
 ## NORA e NONDIK amassa: nondik nora?
 

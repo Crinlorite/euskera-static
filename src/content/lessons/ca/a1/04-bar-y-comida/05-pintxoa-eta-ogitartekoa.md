@@ -14,12 +14,12 @@ covers:
 exercises:
 - id: ex-pin-mc1
   type: multiple-choice
-  prompt: '"Ogitarteko" significa…'
+  prompt: '"Ogitarteko" vol dir…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - entrepà
+  - plat combinat
+  - postres
   answer: 1
   explanation: '*ogitartekoa* ve de *ogi* (pa) + *arte* (entre): "allò d''entre dos pans", és a dir, l''entrepà.'
 - id: ex-pin-mc2
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: pintxo
   - eu: ogitartekoa
-    es: bocadillo
+    es: entrepà
   - eu: plater konbinatua
-    es: plato combinado
+    es: plat combinat
   - eu: razioa
     es: ració
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: formatge
   - eu: tortilla
     es: tortilla
 ---

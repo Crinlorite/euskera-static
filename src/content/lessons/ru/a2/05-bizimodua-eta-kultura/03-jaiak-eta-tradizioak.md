@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Большая неделя Бильбао
   - eu: Aratusteak
-    es: carnavales
+    es: карнавал
   - eu: Santa Ageda
     es: песнопения по домам
 ---

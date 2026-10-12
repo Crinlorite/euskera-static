@@ -5,7 +5,7 @@ code: 04-ahalera-ezin
 unit: 03-aditzak-sakontzen
 level: a2
 order: 4
-title: Ahalera y ezin — 「できる」と「できない」
+title: Ahalera と ezin — 「できる」と「できない」
 estimatedMinutes: 13
 covers:
 - a2-ahalera
@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: 来られますか？
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: あなたならできる
   - eu: Ezin dut etorri
     es: 来ることができません
   - eu: Ezin nintzen joan
@@ -91,14 +91,14 @@ exercises:
 
 最も簡単で、最もよく耳にする形です：
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + 助動詞**
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
-| ¿Puedes venir? | *Etorri **ahal zara**?* |
-| ¿Puedo entrar? | *Sartu **ahal naiz**?* |
-| ¿Me puedes ayudar? | *Lagundu **ahal didazu**?* |
-| ¿Podemos hablar contigo? | *Hitz egin **ahal dugu** zurekin?* |
+| 来られる？ | *Etorri **ahal zara**?* |
+| 入ってもいい？ | *Sartu **ahal naiz**?* |
+| 手伝ってくれる？ | *Lagundu **ahal didazu**?* |
+| あなたと話せる？ | *Hitz egin **ahal dugu** zurekin?* |
 
 > 書き言葉やよりフォーマルな場面では **ahal izan** が現れます：*etorri ahal izango da*、*jakin ahal izan dut*。日常会話では *ahal* + 助動詞で機能します。
 
@@ -108,7 +108,7 @@ exercises:
 
 ### 他動詞 (NOR-NORK): *dezaket*
 
-| 人称代名詞 | 形 | スペイン語 |
+| 人称代名詞 | 形 | 日本語 |
 |---|---|---|
 | nik | **dezaket** | 私はそれをできる |
 | zuk | **dezakezu** | 君はそれをできる |
@@ -121,7 +121,7 @@ exercises:
 
 ### 自動詞 (NOR): *naiteke*
 
-| 人称代名詞 | 形 | スペイン語 |
+| 人称代名詞 | 形 | 日本語 |
 |---|---|---|
 | ni | **naiteke** | 私はできる |
 | zu | **zaitezke** | 君はできる |
@@ -149,16 +149,16 @@ exercises:
 
 ahaleraの否定形には専用の単語 **ezin** があります。
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + 助動詞**
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
-| No puedo venir | *Ezin **dut etorri*** (NOR-NORK) o *Ezin **naiz etorri*** (NOR) |
-| No puedo ir | *Ezin naiz joan* |
-| No puedes hacer eso | *Ezin duzu hori egin* |
-| No podía dormir | *Ezin nuen lo egin* |
-| No se puede saber | *Ezin da jakin* |
-| No podemos esperar | *Ezin dugu itxaron* |
+| 来られない | *Ezin **dut etorri***（NOR-NORK）または *Ezin **naiz etorri***（NOR） |
+| 行けない | *Ezin naiz joan* |
+| それはしてはいけない | *Ezin duzu hori egin* |
+| 眠れなかった | *Ezin nuen lo egin* |
+| 知りようがない | *Ezin da jakin* |
+| 待てない | *Ezin dugu itxaron* |
 
 > *Ezin* は主語の後に続き、分詞 + 助動詞を伴います。非常に多用されます。
 
@@ -184,11 +184,11 @@ ahaleraの否定形には専用の単語 **ezin** があります。
 
 ## 他の時制での *Ahal izan*
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
-| He podido ir | *Joan ahal izan naiz* |
-| Podré ir | *Joan ahal izango naiz* |
-| No he podido | *Ezin izan dut* |
+| 行くことができた | *Joan ahal izan naiz* |
+| 行けるだろう | *Joan ahal izango naiz* |
+| できなかった | *Ezin izan dut* |
 
 ## 日常的な例
 

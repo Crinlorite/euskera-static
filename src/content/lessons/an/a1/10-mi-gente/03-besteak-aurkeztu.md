@@ -51,9 +51,9 @@ exercises:
   - eu: hura
     es: aquel/aquella
   - eu: bera
-    es: él/ella
+    es: ell/ella
   - eu: haiek
-    es: ellos/ellas
+    es: ells/ellas
   - eu: Nor da hau?
     es: Qui ye iste/a?
 - id: ex-10-03-fc

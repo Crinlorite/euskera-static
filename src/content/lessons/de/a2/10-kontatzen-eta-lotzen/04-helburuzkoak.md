@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Wohin gehst du?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: Brot kaufen
   - eu: Zertara etorri da?
     es: Wozu ist er/sie gekommen?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ Die Frage: ***Zertara** etorri zara?* (Wozu bist du gekommen?) → *Laguntzera!*
 | Nein — es ist ein „um zu“ | **-tzeko** | *Hau ikasteko da* |
 | Ja — du gehst/kommst, um zu | **-tzera** | *Ikastera noa* |
 
-> Klassische Falle aus dem Spanischen: „voy a comprar“ ist im Baskischen KEINE Zukunft — es ist eine Bewegung: *erostera noa*. Die echte Zukunftsform kennst du bereits: *erosiko dut*.
+> Klassische Falle: „ich gehe einkaufen“ (irgendwohin, um zu kaufen) ist im Baskischen KEINE Zukunft — es ist eine Bewegung: *erostera noa*. Die echte Zukunftsform kennst du bereits: *erosiko dut*.
 
 ## Alles zusammen (und mit den Temporalsätzen von gestern)
 

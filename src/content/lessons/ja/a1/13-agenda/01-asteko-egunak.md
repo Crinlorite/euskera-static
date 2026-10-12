@@ -76,19 +76,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: 月曜日
   - eu: asteartea
-    es: martes
+    es: 火曜日
   - eu: asteazkena
     es: 水曜日
   - eu: osteguna
-    es: jueves
+    es: 木曜日
   - eu: ostirala
-    es: viernes
+    es: 金曜日
   - eu: larunbata
     es: 土曜日
   - eu: igandea
-    es: domingo
+    es: 日曜日
 ---
 
 予定やスケジュールについて話す前に、まず曜日を復習し、日常の活動と関連付けてみましょう。

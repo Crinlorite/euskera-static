@@ -80,11 +80,11 @@ exercises:
   - eu: Egun on
     es: Buenos días
   - eu: Gabon
-    es: Buenas noches
+    es: Buenas nueits
   - eu: Gero arte
-    es: Hasta luego
+    es: Dica luego
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Muitas gracias
 ---
 
 En euskera, os saludos cambian seguntes o momento d'o día. A formula universal y a mas común ye **Kaixo**, que s'emplega a cualsequier hora con cuasi cualsequier persona — igual que o "ola" en aragonés. **Hepa** u **Aupa** son alternativas encara mas informals, sobre tot entre chent choven y amigos.

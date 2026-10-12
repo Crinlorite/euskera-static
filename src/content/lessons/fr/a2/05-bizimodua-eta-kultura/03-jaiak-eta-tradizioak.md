@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Grande Semaine de Bilbao
   - eu: Aratusteak
-    es: carnavales
+    es: carnaval
   - eu: Santa Ageda
     es: chants de maison en maison
 ---
@@ -162,7 +162,7 @@ La comparaison culturelle passe par ces deux mots :
 |---|---|
 | Aussi bien en X qu'en Y | *Bai X-(e)an, bai Y-(e)an* |
 | En X aussi | *X-(e)an ere bai* |
-| Ni en X ni en Y | *Ez X-(e)an, ez Y-(e)an* |
+| Ni à X ni à Y | *Ez X-(e)an, ez Y-(e)an* |
 | Non seulement X, mais aussi Y | *Ez **bakarrik** X, **baita** Y **ere*** |
 
 > *San Juan sua **bai** Donostian, **bai** Bilbon ospatzen da.* — Le feu de la Saint-Jean est célébré aussi bien à Donostia qu'à Bilbao.

@@ -77,7 +77,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mendira igo
-    es: subir al monte
+    es: pujar a la muntanya
   - eu: gailurrera iritsi
     es: arribar al cim
   - eu: basoan barrena ibili
@@ -85,7 +85,7 @@ exercises:
   - eu: ibaian bainatu
     es: banyar-se al riu
   - eu: itsasoari begira egon
-    es: estar mirando al mar
+    es: estar mirant el mar
   - eu: argazkia atera
     es: fer la foto
 ---

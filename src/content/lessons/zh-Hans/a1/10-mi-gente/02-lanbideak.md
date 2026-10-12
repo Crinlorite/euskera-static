@@ -15,17 +15,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: 老师
   - eu: ikaslea
-    es: estudiante
+    es: 学生
   - eu: medikua
     es: 医生
   - eu: erizaina
-    es: enfermero/a
+    es: 护士
   - eu: sukaldaria
-    es: cocinero/a
+    es: 厨师
   - eu: kazetaria
-    es: periodista
+    es: 记者
 - id: ex-10-02-mc1
   type: multiple-choice
   prompt: “polizia”是谁？
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: “Mekanikaria”的工作与……有关。
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - 病人
+  - 书
+  - 汽车
+  - 孩子们
   answer: 2
   explanation: “Mekanikaria”是机械师，通常在修车厂和汽车打交道。
 - id: ex-10-02-fb1
@@ -105,7 +105,7 @@ exercises:
 
 ## 快速复习
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *ikaslea* | 学生 |
 | *irakaslea* | 老师 |
@@ -116,7 +116,7 @@ exercises:
 
 ## 扩展
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *erizaina* | 护士 |
 | *sukaldaria* | 厨师 |
@@ -158,7 +158,7 @@ exercises:
 
 ## 询问职业
 
-| 问题 | 西班牙语 |
+| 问题 | 中文 |
 |---|---|
 | *Zer da zure lanbidea?* | 你的职业是什么？ |
 | *Zertan egiten duzu lan?* | 你做什么工作？ |

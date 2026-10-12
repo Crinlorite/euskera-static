@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: a piedi
   - eu: kotxez / autoz
-    es: en coche
+    es: in macchina
   - eu: autobusez
     es: in autobus
   - eu: trenez
-    es: en tren
+    es: in treno
   - eu: bizikletaz
-    es: en bicicleta
+    es: in bicicletta
   - eu: hegazkinez
     es: in aereo
   - eu: itsasontziz
-    es: en barco
+    es: in nave
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Come si dice "Vado in autobus"?

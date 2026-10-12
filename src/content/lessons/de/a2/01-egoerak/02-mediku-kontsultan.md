@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: „Hobeto nago“ bedeutet...
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Mir geht es schlechter
+  - Mir geht es gut
+  - Mir geht es besser
+  - Unverändert
   answer: 2
   explanation: '*Hobeto* = besser. *Hobe* ist das Adjektiv „besser“ und *hobeto* das Adverb.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: Tut es weh?
   - eu: Hartu hau
-    es: Toma esto
+    es: Nimm das
   - eu: Itzuli astebete barru
     es: Kommen Sie in einer Woche wieder
   - eu: Atseden hartu
-    es: Descansar
+    es: Sich ausruhen
 ---
 
 Diese Lektion ist eine **vollständige Simulation eines Arztbesuchs**. Sie verbindet den Wortschatz der vorherigen Lektion mit Zeitangaben (wie oft, vor/nach) und häufigen Formulierungen. Der Arztbesuch ist einer der nützlichsten Kontexte für A2: Er kommt in jeder offiziellen Prüfung vor.

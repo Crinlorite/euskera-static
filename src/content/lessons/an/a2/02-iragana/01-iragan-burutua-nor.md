@@ -27,10 +27,10 @@ exercises:
   options:
   - Hué soi en Bilbao
   - Maitín seré en Bilbao
-  - Ayer estié en Bilbao
+  - Ahier estié en Bilbao
   - He estau en Bilbao
   answer: 2
-  explanation: 'Atzo = ayer. Egon nintzen = estié. Pasau completo: feito concreto y zarrau.'
+  explanation: 'Atzo = ahier. Egon nintzen = estié. Pasau completo: feito concreto y zarrau.'
 - id: ex-a2-ir1-fb1
   type: fill-in-blank
   prompt: Fa dos anyos yébanos vecins = Duela bi urte bizilagunak ___ .
@@ -65,7 +65,7 @@ exercises:
   - eu: zeuden
     es: yeran (sintetico)
   - eu: atzo
-    es: ayer
+    es: ahier
   - eu: bart
     es: anueit
   - eu: joan den astean
@@ -78,13 +78,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Atzo etxean nintzen
-    es: Ayer estuve/estaba en casa
+    es: Ahier estié/estaba en casa
   - eu: Joan den astean Donostian
     es: A semana pasada en Sant Sabastián
   - eu: Ikasleak ginen
     es: Yébanos estudiants
   - eu: Bart pozik nengoen
-    es: Anoche estaba contento
+    es: Anit estaba contento
   - eu: Zergatik zineten han?
     es: Por qué yéraz astí?
   - eu: Duela urtebete
@@ -136,9 +136,9 @@ Pa que a frase suene a pasau zarrau, o basco fa servir marcadors temporals:
 
 | Aragonés | Basco |
 |---|---|
-| Ayer | *Atzo* |
+| Ahier | *Atzo* |
 | Anueit | *Bart* |
-| Antisd'ayer | *Herenegun* |
+| Antisd'ahier | *Herenegun* |
 | A semana pasada | *Joan den astean* / *Aurreko astean* |
 | O mes pasau | *Joan den hilean* |
 | L'anyo pasau | *Joan den urtean* / *Iaz* |
@@ -149,7 +149,7 @@ Pa que a frase suene a pasau zarrau, o basco fa servir marcadors temporals:
 
 ## Patrons tipicos
 
-> *Atzo ni etxean **nintzen** goiz osoan.* — Ayer estié en casa tot o maitín.
+> *Atzo ni etxean **nintzen** goiz osoan.* — Ahier estié en casa tot o maitín.
 >
 > *Joan den urtean Garazi Frantzian **zegoen**.* — L'anyo pasau Garazi yera en Francia.
 >
@@ -163,7 +163,7 @@ Pa que a frase suene a pasau zarrau, o basco fa servir marcadors temporals:
 
 Igual que en present: **ez** antes d'o verbo.
 
-> *Atzo ez nintzen lanean egon.* — Ayer no estié en o treballo.
+> *Atzo ez nintzen lanean egon.* — Ahier no estié en o treballo.
 >
 > *Ainara ez zegoen pozik orduan.* — Ainara no yera contenta allora.
 >

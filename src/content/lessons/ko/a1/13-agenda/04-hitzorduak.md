@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: 약속
   - eu: bilera
     es: 회의
   - eu: libre
-    es: libre
+    es: 한가한
   - eu: lanpetuta
-    es: ocupado/a
+    es: 바쁜
   - eu: geratu
-    es: quedar
+    es: 만나기로 하다
   - eu: geratuko gara
-    es: quedaremos
+    es: 만나자
 ---
 
 다이어리는 온갖 약속과 일정으로 가득합니다. 이번 과에서는 약속 잡기, 누군가와 만나기, 시간이 있는지 말하는 등 약속에 대해 이야기하는 법을 배웁니다.

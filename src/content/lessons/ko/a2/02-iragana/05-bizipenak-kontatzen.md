@@ -27,8 +27,8 @@ exercises:
   prompt: 이야기 속 배경 **장면**(날씨가 어땠는지, 어디에 있었는지 등)에 대해 말할 때, 어떤 과거 시제를 사용하나요?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - 현재 시제
+  - 가까운 과거 (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: 장면, 묘사, 습관은 불완료 과거로 표현합니다. 이야기를 진행시키는 특정 시점의 행동은 burutua로 표현합니다.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: 그는/그녀는 결혼했다
   - eu: bidaiatu zuten
-    es: viajaron
+    es: 그들은 여행했다
   - eu: ezagutu nuen
     es: 나는 알게 되었다
   - eu: maitemindu nintzen
@@ -115,7 +115,7 @@ exercises:
 
 일어난 일을 연결하기 위해:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 처음에 / 맨 처음에 | *Lehenengo* / *Hasieran* |
 | 그 다음에 | *Ondoren* |
@@ -131,7 +131,7 @@ exercises:
 
 이 구조들은 모든 전기나 개인적인 이야기에서 나타납니다:
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 1990년에 태어났습니다 | *1990ean **jaio nintzen*** |
 | Tolosa에서 자랐습니다 | *Tolosan **hazi nintzen*** |
@@ -146,7 +146,7 @@ exercises:
 
 ## 인물 소개 관련 표현
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | X년 전에 | *Duela X urte* |
 | 1985년에 | *1985ean* |
@@ -180,7 +180,7 @@ A2 레벨을 위한 실용적인 방법:
 
 ## 누군가를 인터뷰하기 위한 질문
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 어디서 태어났나요? | *Non jaio zinen?* |
 | 언제부터 일을 시작했나요? | *Noiz hasi zinen lanean?* |

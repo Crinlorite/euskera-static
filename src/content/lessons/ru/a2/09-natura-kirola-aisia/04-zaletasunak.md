@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Мне нравится читать
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Ему/ей нравится петь
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Нам нравится путешествовать
   - eu: Margotzen dakit
     es: Я умею рисовать красками
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Я иду танцевать
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Я готовлю (сейчас)
 ---
 
 Что вы делаете, когда ничего не делаете? Этот урок о **хобби** — и о грамматической конструкции, которая ими управляет: глагол, превращённый в существительное с помощью **-tzea** (*irakurtzea* = «чтение»).

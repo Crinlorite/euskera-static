@@ -78,9 +78,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Dirua atera
-    es: Sacar dinero
+    es: Trèir argent
   - eu: Dirua sartu
-    es: Ingresar dinero
+    es: Ingressar argent
   - eu: Transferentzia egin
     es: Hèr ua transferéncia
   - eu: Paketea bidali
@@ -95,7 +95,7 @@ Naua unitat: **era vida practica**. Arrés non viatge cada dia, mès tot eth mon
 
 ## Ena banca (banketxea)
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Eth compde | *kontua* |
 | Dubrir un compde | *kontua ireki / zabaldu* |
@@ -116,7 +116,7 @@ Naua unitat: **era vida practica**. Arrés non viatge cada dia, mès tot eth mon
 
 ## En corrèus (postetxea)
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Era letra | *gutuna* |
 | Eth paquet | *paketea* |

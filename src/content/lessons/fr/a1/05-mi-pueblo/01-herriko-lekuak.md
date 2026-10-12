@@ -18,17 +18,17 @@ exercises:
   - eu: okindegia
     es: boulangerie
   - eu: botika
-    es: farmacia
+    es: pharmacie
   - eu: liburutegia
-    es: biblioteca
+    es: bibliothèque
   - eu: eliza
-    es: iglesia
+    es: église
   - eu: merkatua
-    es: mercado
+    es: marché
   - eu: banketxea
-    es: banco
+    es: banque
   - eu: ospitalea
-    es: hospital
+    es: hôpital
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: Tu dois acheter du pain. À quel type de magasin vas-tu ?

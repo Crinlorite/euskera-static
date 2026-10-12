@@ -88,17 +88,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: Hemd
   - eu: galtzak
-    es: pantalones
+    es: Hose
   - eu: soineko
-    es: vestido
+    es: Kleid
   - eu: jertsea
-    es: jersey
+    es: Pullover
   - eu: zapatak
-    es: zapatos
+    es: Schuhe
   - eu: beroki
-    es: abrigo
+    es: Mantel
 ---
 
 In A1 hast du den Grundwortschatz für **Kleidung** und **Haus** gelernt. In A2 erweiterst du ihn um spezifischere Bereiche: **Größen, Umkleidekabine, Accessoires** und das **Wohnen als sozialer Raum** (Miete, Eigentümer, Viertel, Garten).

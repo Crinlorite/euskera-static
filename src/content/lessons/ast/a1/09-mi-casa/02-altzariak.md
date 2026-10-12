@@ -17,11 +17,11 @@ exercises:
   - eu: mahaia
     es: mesa
   - eu: aulkia
-    es: silla
+    es: siella
   - eu: ohea
     es: cama
   - eu: armairua
-    es: armario
+    es: armariu
   - eu: sofa
     es: sofá
   - eu: telebista
@@ -40,7 +40,7 @@ exercises:
   explanation: '"Hozkailua" (nevera) ta siempre na cocina (sukaldean).'
 - id: ex-09-02-mc2
   type: multiple-choice
-  prompt: '"Gau-mahaia" significa…'
+  prompt: '"Gau-mahaia" quier dicir…'
   options:
   - mesa de comedor
   - mesa de trabayu
@@ -146,7 +146,7 @@ Cada cuartu tien el so mobiliariu. La pallabra xeneral pa "mueble" ye **altzaria
 | *bainuontzia* | bañera |
 | *konketa* | llavamanos |
 | *ispilua* | espeyu |
-| *eskuoihala* | toalla |
+| *eskuoihala* | toaya |
 | *komuneko papera* | papel hixénicu |
 
 ## Cómo combinalo nuna frase

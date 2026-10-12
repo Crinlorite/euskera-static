@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-03-em-mc1
   type: multiple-choice
-  prompt: '"Goizean" significa…'
+  prompt: '"Goizean" quier dicir…'
   options:
   - pela nueche
   - pela mañana
@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: pela tarde
   - eu: iluntzean
-    es: al atardecer
+    es: al atapecer
   - eu: gauean
     es: pela nueche
   - eu: gaur
-    es: hoy
+    es: güei
   - eu: bihar
     es: mañana (día siguiente)
   - eu: atzo
-    es: ayer
+    es: ayeri
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Estos van a salite tolos díes:
 | *gero* | llueu, dempués |
 | *lehen* | enantes |
 
-> Atención: ten curiáu con **bihar** (el día siguiente, "mañana") y **goiza** (la mañana, hasta'l mediudía). En castellán usamos la mesma pallabra, n'eusquera non.
+> Atención: ten curiáu con **bihar** (el día siguiente, "mañana") y **goiza** (la mañana, hasta'l mediudía). N'asturianu usamos la mesma pallabra («mañana»), n'eusquera non.
 
 ## Combinando too
 

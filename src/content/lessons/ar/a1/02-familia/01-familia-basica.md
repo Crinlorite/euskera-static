@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: أب
   - eu: ama
-    es: madre
+    es: أم
   - eu: anaia
     es: أخ (لرجل أو لامرأة)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: أخت (تقولها امرأة)
   - eu: seme
-    es: hijo
+    es: ابن
   - eu: alaba
-    es: hija
+    es: ابنة
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: لدى Maialen أخت. كيف تُسمى "الأخت" من وجهة نظر Maialen؟

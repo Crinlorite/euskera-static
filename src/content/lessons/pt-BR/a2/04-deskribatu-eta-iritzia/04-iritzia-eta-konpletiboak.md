@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Não acho que seja bom
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Porque ele/ela veio
   - eu: Egia delako
     es: Porque é verdade
   - eu: Argi dago zaila dela
@@ -205,7 +205,7 @@ Para expressar **causa** ("porque"), você tem duas opções:
 
 1. **Não se esqueça da dupla face: -ela na afirmativa, -enik na negativa de opinião.**
 2. **O sufixo -ela se junta ao verbo conjugado**, não ao particípio: *etorriko da → etorriko **dela***.
-3. **Se a opinião é muito forte, em espanhol se usa o subjuntivo**, em basco não há uma diferença tão marcada: *uste dut ondo dagoela* (acho que está bem) e *zalantza dut ondo dagoenik* (duvido que esteja bem) usam formas diferentes, mas não um "subjuntivo" formal.
+3. **O português usa o subjuntivo para expressar dúvida**, em basco não há uma diferença tão marcada: *uste dut ondo dagoela* (acho que está bem) e *zalantza dut ondo dagoenik* (duvido que esteja bem) usam formas diferentes, mas não um "subjuntivo" formal.
 
 > **Nota pedagógica:** a fórmula *Nire ustez + frase + -lako + frase* é provavelmente a ferramenta de A2 mais útil para opinar e argumentar. Exemplo modelo:
 >

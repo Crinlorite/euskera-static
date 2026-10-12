@@ -92,7 +92,7 @@ exercises:
     es: A on ye a tabierna?
 ---
 
-En castellano fem servir os verbos "haber" y "estar" pa dos ideas distintas: **existir** ("bi ha una farmacia en o barrio?") y **ubicar-se** ("a farmacia ye en a carrera Mayor"). O basco distingue muit clarament istas dos cosas, y ye bella cosa que conviene fixar luego.
+Son dos ideas distintas: **existir** ("bi ha una farmacia en o barrio?") y **ubicar-se** ("a farmacia ye en a carrera Mayor"). O basco distingue muit clarament istas dos cosas, y ye bella cosa que conviene fixar luego.
 
 ## Existir vs estar
 

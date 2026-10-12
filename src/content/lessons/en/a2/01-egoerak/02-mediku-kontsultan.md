@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" means…'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - I'm worse
+  - I'm fine
+  - I'm better
+  - I'm the same
   answer: 2
   explanation: '*Hobeto* = better. *Hobe* is the adjective "better" and *hobeto* is the adverb.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: Does it hurt?
   - eu: Hartu hau
-    es: Toma esto
+    es: Take this
   - eu: Itzuli astebete barru
     es: Come back in a week
   - eu: Atseden hartu
-    es: Descansar
+    es: To rest
 ---
 
 This lesson is a **complete doctor's visit simulation**. It combines vocabulary from the previous lesson with time expressions (how often, before/after) and common formulas. The doctor's visit is one of the most useful contexts for A2: it appears in any official exam.

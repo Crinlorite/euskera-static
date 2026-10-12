@@ -16,7 +16,7 @@ covers:
 exercises:
 - id: ex-05-gze-mc1
   type: multiple-choice
-  prompt: Was ist die richtige Übersetzung von „Esta mañana me he despertado tarde“?
+  prompt: Was ist die richtige Übersetzung von „Heute Morgen bin ich spät aufgewacht“?
   options:
   - Gaur goizean berandu esnatu dut
   - Gaur goizean berandu esnatu naiz

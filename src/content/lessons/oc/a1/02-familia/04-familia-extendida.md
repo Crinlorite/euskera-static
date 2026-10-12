@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: tia
   - eu: lehengusu
-    es: primo
+    es: cosin
   - eu: lehengusina
-    es: prima
+    es: cosina
   - eu: iloba
-    es: sobrino/a
+    es: nebot/neboda
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '*Lehengusu* ei...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - cosin
+  - frair
+  - pairin
+  - sògre
   answer: 0
 - id: ex-fe-fc
   type: flashcards
@@ -59,7 +59,7 @@ Ath delà de pairs, frairs e hilhs, era familha s'esten damb oncles, cosins, neb
 
 ## Oncles e cosins
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *osaba* | oncle |
 | *izeba* | tia |
@@ -69,7 +69,7 @@ Ath delà de pairs, frairs e hilhs, era familha s'esten damb oncles, cosins, neb
 
 ## Familha politica
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *aitaginarreba* | sògre |
 | *amaginarreba* | sògra |

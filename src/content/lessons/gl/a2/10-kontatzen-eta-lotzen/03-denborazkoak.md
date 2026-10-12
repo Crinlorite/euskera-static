@@ -87,16 +87,16 @@ exercises:
   - eu: gosaldu ondoren
     es: despois de almorzar
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: cando almorzo
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: mentres almorzo
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: en canto almorzo
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: sen almorzar
 ---
 
-As túas frases xa saben QUE pasou; esta lección ensínalles a dicir **CANDO** con precisión de reloxeiro: *cuando llegué*, *antes de salir*, *después de comer*, *mientras dormías*. Tres pezas e as combinacións saen soas.
+As túas frases xa saben QUE pasou; esta lección ensínalles a dicir **CANDO** con precisión de reloxeiro: *cando cheguei*, *antes de saír*, *despois de comer*, *mentres durmías*. Tres pezas e as combinacións saen soas.
 
 ## Peza 1: -NEAN (cando)
 

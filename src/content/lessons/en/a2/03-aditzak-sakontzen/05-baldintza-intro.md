@@ -14,7 +14,7 @@ exercises:
   type: multiple-choice
   prompt: '"Banaiz" means…'
   options:
-  - I am
+  - I am (somewhere / in a state)
   - I am
   - If I am
   - I am not
@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: If it rains tomorrow
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: If I had time
   - eu: Erosiko nuke
     es: I would buy it
   - eu: Joango nintzateke
     es: I would go
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: If I were rich
   - eu: Edukiko bagenu
     es: If we had
 ---

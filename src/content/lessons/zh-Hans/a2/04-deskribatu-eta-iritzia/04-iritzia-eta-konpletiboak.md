@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: 我不认为这很好
   - eu: Etorri delako
-    es: Porque ha venido
+    es: 因为他/她来了
   - eu: Egia delako
     es: 因为这是真的
   - eu: Argi dago zaila dela
@@ -89,7 +89,7 @@ exercises:
 
 ## 开启一个观点
 
-| 西班牙语 | Euskera |
+| 中文 | Euskera |
 |---|---|
 | 我认为… | *Uste dut...* |
 | 在我看来… | *Iruditzen zait...* |
@@ -105,7 +105,7 @@ exercises:
 
 当观点引出另一个句子时，从句动词需要加上后缀 **-(e)la**（表示“...这回事”）。这个变化非常有规律：
 
-| 无后缀 | 带-ela | 西班牙语 |
+| 无后缀 | 带-ela | 中文 |
 |---|---|---|
 | *da* | *dela* | 是 / 在... |
 | *naiz* | *naizela* | （我）是... |
@@ -127,7 +127,7 @@ exercises:
 
 当你说“**我不认为** + 动词”时，从句的后缀变为 **-enik**：
 
-| 西班牙语 | Euskera |
+| 中文 | Euskera |
 |---|---|
 | 我不认为这很好 | *Ez dut uste ona **denik*** |
 | 我不认为他们会来 | *Ez dut uste etorriko **direnik*** |
@@ -139,7 +139,7 @@ exercises:
 
 这些结构组合了形容词 + *da* + 带-ela的句子：
 
-| 西班牙语 | Euskera |
+| 中文 | Euskera |
 |---|---|
 | 很明显… | *Argi dago + -(e)la* |
 | 重要的是… | *Garrantzitsua da + -tzea* |
@@ -160,7 +160,7 @@ exercises:
 
 > **动词 + -lako**
 
-| 西班牙语 | Euskera |
+| 中文 | Euskera |
 |---|---|
 | 因为他/她来了 | *Etorri **delako*** |
 | 因为我饿了 | *Goseak nagoelako* (或 *gose naizelako*) |
@@ -173,7 +173,7 @@ exercises:
 
 ### 连词 *zeren*（在句首）
 
-| 西班牙语 | Euskera |
+| 中文 | Euskera |
 |---|---|
 | 因为这很重要 | *…, **zeren** garrantzitsua baita* |
 | …，因为他/她来了 | *…, **zeren** etorri baita* |
@@ -192,7 +192,7 @@ exercises:
 
 ## 实用结构列表
 
-| 西班牙语 | Euskera |
+| 中文 | Euskera |
 |---|---|
 | 我认为这很重要 | *Garrantzitsua **dela** uste dut* |
 | 我知道他/她是对的 | *Arrazoia **duela** badakit* |
@@ -205,7 +205,7 @@ exercises:
 
 1. **不要忘记双重形式：肯定句用-ela，否定观点用-enik。**
 2. **后缀-ela附加在变位动词上**，而不是分词上：*etorriko da → etorriko **dela***。
-3. **如果观点非常强烈，在西班牙语中会使用虚拟式**，但在巴斯克语中没有严格的区别：*uste dut ondo dagoela*（我认为这很好）和 *zalantza dut ondo dagoenik*（我怀疑这是否好）使用不同的形式，但没有一个正式的“虚拟式”。
+3. **有些语言（例如西班牙语）在表示怀疑时会用虚拟式**，但在巴斯克语中没有严格的区别：*uste dut ondo dagoela*（我认为这很好）和 *zalantza dut ondo dagoenik*（我怀疑这是否好）使用不同的形式，但没有一个正式的“虚拟式”。
 
 > **教学提示：** 公式 *Nire ustez + 句子 + -lako + 句子* 可能是A2水平表达观点和论证最有效的工具。示范例子：
 >

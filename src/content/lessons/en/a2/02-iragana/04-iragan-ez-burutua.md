@@ -73,17 +73,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Joan nintzen
-    es: Fui (puntual)
+    es: I went (once)
   - eu: Joaten nintzen
     es: I used to go (habit)
   - eu: Joan nuen autoa
     es: (not valid)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: I was going (in progress)
   - eu: Bizi nintzen Bilbon
     es: I lived in Bilbao
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: I went to Bilbao yesterday
 ---
 
 The Basque **imperfect** (*iragan ez burutua*) roughly corresponds to the English "I was eating / I lived / I used to go / I was working". It's used to talk about:

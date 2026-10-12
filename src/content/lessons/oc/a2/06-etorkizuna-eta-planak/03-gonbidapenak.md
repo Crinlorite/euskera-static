@@ -39,7 +39,7 @@ exercises:
   - Nora joango gara?
   - Noiz etorriko zara menditik?
   answer: 0
-  explanation: '*Zergatik ez…?* + vèrb en present ei era prepausa suava classica, parièr qu''en castelhan. Es autes pregunten peth passat, era destinacion o era tornada.'
+  explanation: '*Zergatik ez…?* + vèrb en present ei era prepausa suava classica, parièr qu''en aranés. Es autes pregunten peth passat, era destinacion o era tornada.'
 - id: ex-a2-et3-fb1
   type: fill-in-blank
   prompt: Quedam as sies? = seietan ___ gara?
@@ -105,7 +105,7 @@ Saber eth futur ei fòrça ben, mès era vida sociau demane quauquarren de mès 
 
 ## Convidar e prepausar
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Vòs sopar damb jo? | *Nirekin afaldu **nahi duzu**?* |
 | Perqué non anam ath cinèma? | ***Zergatik ez** goaz zinemara?* |
@@ -117,7 +117,7 @@ Saber eth futur ei fòrça ben, mès era vida sociau demane quauquarren de mès 
 
 ## Quedar: a on e quan
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Quedam? | ***Geratuko gara?*** |
 | A on quedam? | ***Non** geratuko gara?* |

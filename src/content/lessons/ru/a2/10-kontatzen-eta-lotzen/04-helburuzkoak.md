@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Куда ты идёшь?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: За хлебом
   - eu: Zertara etorri da?
     es: Зачем он пришёл?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ exercises:
 | Нет — это "для" | **-tzeko** | *Hau ikasteko da* |
 | Да — цель движения | **-tzera** | *Ikastera noa* |
 
-> Классическая ловушка испанского языка: "voy a comprar" в баскском — это НЕ будущее время, а движение: *erostera noa*. Настоящее будущее время вы уже знаете: *erosiko dut*.
+> Классическая ловушка: «иду покупать» в баскском — это НЕ будущее время, а движение: *erostera noa*. Настоящее будущее время вы уже знаете: *erosiko dut*.
 
 ## Всё вместе (и со вчерашними временными конструкциями)
 

@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" 意思是这件衣服……'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - 太贵了
+  - 太大了
+  - 很漂亮
+  - 太小了
   answer: 1
   explanation: 第04单元的后缀*-egi*（来自*gehiegi*/*gutxiegi*）用于尺码：handi**egi**a = 太大；txiki**egi**a = 太小。
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: “我可以试穿这条裤子吗？” = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = 试穿。使用情态动词（ahalera）：probatu **ditzaket**（复数形式：“praka”这个词是复数，就像在西班牙语里一样）。'
+  explanation: '*Probatu* = 试穿。使用情态动词（ahalera）：probatu **ditzaket**（复数形式：“praka”这个词是复数）。'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: “我穿着小了；我想换一下” = txikia geratzen zait; ___ nahi dut.
@@ -104,7 +104,7 @@ exercises:
 
 ## 在试衣间
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我可以试穿一下吗？ | *Probatu dezaket?* |
 | 试衣间 | *probalekua* |
@@ -127,7 +127,7 @@ exercises:
 
 ## 换货与退货
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我想换货 | *Aldatu nahi dut* |
 | 我想退货 | *Itzuli nahi dut* |

@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: 상냥한 (다정한)
   - eu: atsegina
-    es: agradable
+    es: 쾌적한
   - eu: alaia
-    es: alegre
+    es: 쾌활한
   - eu: lasaia
-    es: tranquilo/a
+    es: 조용한
   - eu: berritsua
     es: 수다스러운
   - eu: zaratatsua
-    es: ruidoso/a
+    es: 시끄러운
 - id: ex-10-05-fc
   type: flashcards
   cards:

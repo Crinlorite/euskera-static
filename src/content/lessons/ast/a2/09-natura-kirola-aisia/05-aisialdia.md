@@ -22,7 +22,7 @@ exercises:
   explanation: '*Agortu* = esgotase: sarrerak agortu dira = entraes esgotaes. El drama de tou fan.'
 - id: ex-a2-na5-mc2
   type: multiple-choice
-  prompt: '"Museoa doan da asteartetan" significa que los martes…'
+  prompt: '"Museoa doan da asteartetan" quier dicir que los martes…'
   options:
   - El muséu zarra
   - El muséu abre pela tarde
@@ -94,7 +94,7 @@ Zarru de la unidá: **l'ociu urbanu** — conciertos, teatru, museos y feries. E
 
 ## El menú de la finde
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El conciertu | *kontzertua* |
 | El teatru (edificiu) | *antzokia* |
@@ -108,7 +108,7 @@ Zarru de la unidá: **l'ociu urbanu** — conciertos, teatru, museos y feries. E
 
 ## Les entraes
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | La entrada | *sarrera* |
 | Mercar entraes | *sarrerak erosi* |

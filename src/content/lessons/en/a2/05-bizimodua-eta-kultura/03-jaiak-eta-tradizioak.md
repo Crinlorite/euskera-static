@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: Bilbao's Big Week
   - eu: Aratusteak
-    es: carnavales
+    es: carnival
   - eu: Santa Ageda
     es: songs sung door-to-door
 ---

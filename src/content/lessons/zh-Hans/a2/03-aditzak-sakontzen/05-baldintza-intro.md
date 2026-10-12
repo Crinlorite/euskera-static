@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: 如果明天下雨
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: 如果我有时间的话
   - eu: Erosiko nuke
     es: 我会买它
   - eu: Joango nintzateke
     es: 我会去
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: 如果我很有钱的话
   - eu: Edukiko bagenu
     es: 如果我们有
 ---
@@ -95,7 +95,7 @@ exercises:
 
 > **ba- + 现在时助动词, ... + 将来时**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 如果下雨，我就不去 | *Euria egiten **badu**, ez naiz joango* |
 | 如果你有时间，就来吧 | *Astia **baduzu**, etorri* |
@@ -114,7 +114,7 @@ exercises:
 | *du* | 他...它 | **badu** (如果他有它) |
 | *dute* | 他们...它 | **badute** (如果他们有它) |
 
-> **¡注意！** *Ba-* 也有一个肯定的用法：*bai, badator* = “是的，他来了”。需要根据上下文来区分：如果句子有第二部分（“...那么...”），它就是条件句。
+> **注意！** *Ba-* 也有一个肯定的用法：*bai, badator* = “是的，他来了”。需要根据上下文来区分：如果句子有第二部分（“...那么...”），它就是条件句。
 
 ## 类型2：非真实条件 — *banintz / banu*
 
@@ -122,7 +122,7 @@ exercises:
 
 ### *izan* 的非真实条件形式
 
-| 代词 | 形式 | 西班牙语 |
+| 代词 | 形式 | 中文 |
 |---|---|---|
 | ni | **banintz** | 如果我是/我在 |
 | zu | **bazina** | 如果你是 |
@@ -133,7 +133,7 @@ exercises:
 
 ### *ukan* 的非真实条件形式
 
-| 代词 | 形式 | 西班牙语 |
+| 代词 | 形式 | 中文 |
 |---|---|---|
 | nik | **banu** | 如果我有它 |
 | zuk | **bazenu** | 如果你有它 |
@@ -145,11 +145,11 @@ exercises:
 
 ## 结果从句：*-ko/-go + nuke / nintzateke*
 
-西班牙语中的“comprar**ía** / iría / sería”（我会买/我会去/我会是）由 **-ko/-go**（与将来时标记相同）+ 特殊助动词构成：
+中文的“会买 / 会去 / 会是”在巴斯克语中由 **-ko/-go**（与将来时标记相同）+ 特殊助动词构成：
 
 ### NOR-NORK 条件式 (“我会...它”)
 
-| 代词 | 形式 | 西班牙语 |
+| 代词 | 形式 | 中文 |
 |---|---|---|
 | nik | **nuke** | 我会...它 |
 | zuk | **zenuke** | 你会...它 |
@@ -159,7 +159,7 @@ exercises:
 
 ### NOR 条件式 (“我会...”，不及物)
 
-| 代词 | 形式 | 西班牙语 |
+| 代词 | 形式 | 中文 |
 |---|---|---|
 | ni | **nintzateke** | 我会... |
 | zu | **zinateke** | 你会... |
@@ -193,7 +193,7 @@ exercises:
 
 ## 非常有用的常用语
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 你想要...吗？ | *Nahi **zenuke**…?* |
 | 我想要... | *Gustatuko **litzaidake**…* |

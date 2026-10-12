@@ -74,7 +74,7 @@ exercises:
   - eu: eman nion
     es: le di
   - eu: eman ziguten
-    es: nos dieron
+    es: nos dioron
   - eu: eman nizkion
     es: le dié (os)
 ---
@@ -129,7 +129,7 @@ Contimpara present y pasau:
 | zidan | **zizkidan** | él me'n / él me'ls |
 | genion | **genizkion** | nusatros le'n / le'ls |
 
-> *Aitak liburu bi **eman zizkidan** atzo.* — Mio pai me dió dos libros ayer.
+> *Aitak liburu bi **eman zizkidan** atzo.* — Mio pai me dió dos libros ahier.
 
 ## Eixemplos en contexto
 
@@ -163,11 +163,11 @@ Una narración A2 mezcla os tres patrons:
 
 | Frase | Tipo |
 |---|---|
-| *Etorri zen* | NOR pasado |
-| *Eman zidan* | NOR-NORI-NORK pasado |
-| *Esan zidan* | NOR-NORI-NORK pasado |
-| *Erosi zuen* | NOR-NORK pasado |
-| *Kontatu zidan* | NOR-NORI-NORK pasado |
+| *Etorri zen* | NOR pasau |
+| *Eman zidan* | NOR-NORI-NORK pasau |
+| *Esan zidan* | NOR-NORI-NORK pasau |
+| *Erosi zuen* | NOR-NORK pasau |
+| *Kontatu zidan* | NOR-NORI-NORK pasau |
 
 > **Truco:** si a frase responde a "qué fació?" → NOR-NORK (*dut/nuen*). Si responde a "qué le fació a quí?" → NOR-NORI-NORK (*diot/nion*). Si responde a "qué le pasó?" sin acusativo → NOR (*naiz/nintzen*).
 

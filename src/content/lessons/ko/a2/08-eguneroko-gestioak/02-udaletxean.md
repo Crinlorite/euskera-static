@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: 예약하기
   - eu: Eskabidea bete
     es: 신청서 작성하기
   - eu: NANaren fotokopia
@@ -104,7 +104,7 @@ exercises:
 
 ## 서류 작업 관련 어휘
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 시청 | *udaletxea* |
 | 주민 등록 / 전입 신고하다 | *errolda / erroldatu* |

@@ -17,7 +17,7 @@ exercises:
   options:
   - Ye pleviendo
   - Va a plever
-  - Plovió ayere
+  - Plovió ahiere
   - Ha deixau de plever
   answer: 0
   explanation: '*Ari du* con fenomenos meteorolochicos = ye pasando AGORA: euria ari du (pleve), elurra ari du (nieva).'
@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'A previsión diz: "Bihar eguzkia aterako da". Qué t''aspera maitín?'
   options:
-  - Lluvia
+  - Pluvia
   - Viento fuerte
   - Sol
-  - Niebla
+  - Boira
   answer: 2
   explanation: '*Eguzkia atera* = salir o sol; en futuro, *aterako da* — maitín ferá sol.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Saldrá o sol
   - eu: Haizea dabil
-    es: Hace viento
+    es: Fa viento
   - eu: Hotz handia egiten du
     es: Fa muita fredor
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Atras piezas con o suyo propio verbo:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Ye anublau / asolau.
 
-> **Para cuenta:** l'orache en basco "**fa**" cosas con *egin* y auxiliar **du** (sin subchecto visible): *euria egingo du*, *bero handia egiten du*. Ye calcau a o castellano «hace calor» — nomás que tamién a plebia se «fa».
+> **Para cuenta:** l'orache en basco "**fa**" cosas con *egin* y auxiliar **du** (sin subchecto visible): *euria egingo du*, *bero handia egiten du*. Ye como l'aragonés «fa calor» — nomás que tamién a plebia se «fa».
 
 ## Cómo se pregunta
 

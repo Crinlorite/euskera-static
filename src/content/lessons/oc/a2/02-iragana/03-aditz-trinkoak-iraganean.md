@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: jo anava
   - eu: nentorren
     es: vieu jo
   - eu: nenbilen
-    es: andaba yo
+    es: jo caminava
   - eu: neukan
     es: auie jo
   - eu: nekien
     es: sabie jo
   - eu: nengoen
-    es: estaba yo
+    es: jo èri (en un lòc)
 ---
 
 Es **vèrbs sintetics** (*aditz trinkoak*) son es pòqui vèrbs der euscar que se conjuguen **sense auxiliar**, en un solet mot. Ja coneishes es sues fòrmes en present: *noa, nator, nabil, daukat, dakit, nago*. En passat an fòrmes parallèles que conven reconéisher e, es mès freqüentes, utilizar.
@@ -101,7 +101,7 @@ Entàs sies vèrbs sintetics clau, atau demore eth passat en 1a e 3au persona:
 
 ## *Joan* (anar) — passat complet
 
-| Pronom | Fòrma | Significat |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | ni | **nindoan** | anèue |
 | zu | **zindoazen** | anèues |
@@ -114,7 +114,7 @@ Entàs sies vèrbs sintetics clau, atau demore eth passat en 1a e 3au persona:
 
 ## *Etorri* (vier)
 
-| Pronom | Fòrma | Significat |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | ni | **nentorren** | vieu |
 | zu | **zentozen** | vieues |
@@ -127,7 +127,7 @@ Entàs sies vèrbs sintetics clau, atau demore eth passat en 1a e 3au persona:
 
 ## *Ibili* (caminar)
 
-| Pronom | Fòrma | Significat |
+| Pronom | Fòrma | Aranés |
 |---|---|---|
 | ni | **nenbilen** | caminèue |
 | hura | **zebilen** | caminèue |

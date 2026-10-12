@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { t, type StringKey } from '../../i18n/ui';
+  import { t, tf, type StringKey } from '../../i18n/ui';
   import type { LocaleCode } from '../../i18n/config';
   import { onMount } from 'svelte';
   import { ACHIEVEMENTS, evaluate, type Achievement, type AchievementCategory } from '../../lib/achievements';
@@ -10,6 +10,8 @@
   // Mapas necesarios para evaluar logros que dependen de qué lecciones existen.
   export let lessonsByUnit: Record<string, string[]> = {};
   export let unitsByLevel: Record<string, { unitIds: string[] }> = {};
+  /** id de unidad → su título en el idioma de la página (logros de maestría). */
+  export let unitTitles: Record<string, string> = {};
   export let locale: string = 'es';
   $: loc = locale as LocaleCode;
 
@@ -64,6 +66,12 @@
 
   // clave i18n con caída al texto del catálogo (logros futuros sin traducir)
   function tr(key: string, fallback: string): string {
+    // Maestría: un logro por unidad con el título de la unidad en este idioma.
+    const m = key.match(/^ach\.unit-complete-(.+)\.(t|d)$/);
+    if (m) {
+      const titulo = unitTitles[m[1]];
+      if (titulo) return tf(loc, m[2] === 't' ? 'ach.mastery.t' : 'ach.mastery.d', titulo);
+    }
     const v = t(loc, key as StringKey);
     return v === key ? fallback : v;
   }

@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ko1-mc1
   type: multiple-choice
-  prompt: '"1990ean jaio nintzen Gasteizen" significa…'
+  prompt: '"1990ean jaio nintzen Gasteizen" vol dir…'
   options:
   - El 1990 vivia a Vitòria
   - Vaig néixer el 1990 a Vitòria
@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: Es van casar el 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: Van tenir tres fills
   - eu: 2020an erretiroa hartu zuen
     es: Es va jubilar el 2020
 ---

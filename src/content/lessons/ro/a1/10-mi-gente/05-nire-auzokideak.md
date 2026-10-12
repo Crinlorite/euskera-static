@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: simpatic/ă (apropiat/ă)
   - eu: atsegina
-    es: agradable
+    es: plăcut
   - eu: alaia
-    es: alegre
+    es: vesel
   - eu: lasaia
-    es: tranquilo/a
+    es: liniștit/ă
   - eu: berritsua
     es: vorbăreț/vorbăreață
   - eu: zaratatsua
-    es: ruidoso/a
+    es: zgomotos/oasă
 - id: ex-10-05-fc
   type: flashcards
   cards:
@@ -147,7 +147,7 @@ Urmează acest șablon și completează cu datele tale reale (sau inventate, dac
 
 ## Expresii de legătură utile
 
-Si quieres encadenar mejor las descripciones, estos conectores sencillos te ayudan:
+Dacă vrei să legi mai bine descrierile, te ajută acești conectori simpli:
 
 | Bască | Română |
 |---|---|

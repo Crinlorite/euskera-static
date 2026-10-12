@@ -17,9 +17,9 @@ exercises:
   prompt: '"Ogitarteko" oznacza…'
   options:
   - pintxo
-  - bocadillo
-  - plato combinado
-  - postre
+  - kanapka (bagietka)
+  - danie zestawowe
+  - deser
   answer: 1
   explanation: '*ogitartekoa* pochodzi od *ogi* (chleb) + *arte* (między): „to, co między dwoma chlebami” — kanapka.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — dokładnie jak po hiszpańsku, bez większych adaptacji.'
+  explanation: '*plater konbinatua* — zapożyczone z hiszpańskiego „plato combinado”, prawie bez adaptacji.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Dla mnie porcja sera = Niretzat ___ ___.
@@ -70,7 +70,7 @@ exercises:
   - eu: txorizoa
     es: chorizo
   - eu: txistorra
-    es: txistorra
+    es: txistorra (cienka kiełbaska)
   - eu: antxoa
     es: anchois
   - eu: Niretzat pintxo bat
@@ -81,11 +81,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pintxoa
-    es: pincho
+    es: pintxo
   - eu: ogitartekoa
-    es: bocadillo
+    es: kanapka (bagietka)
   - eu: plater konbinatua
-    es: plato combinado
+    es: danie zestawowe
   - eu: razioa
     es: porcja
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: ser
   - eu: tortilla
     es: tortilla
 ---
@@ -102,7 +102,7 @@ Wspaniała kultura baskijskich barów kręci się wokół trzech głównych form
 
 ## Trzy formaty
 
-| Baskijski | Hiszpański | Rozmiar |
+| Baskijski | Polski | Rozmiar |
 |---|---|---|
 | *pintxoa* | przekąska / tapa | małe, barowe |
 | *ogitartekoa* | kanapka | średnie, w chlebie |
@@ -115,7 +115,7 @@ Wspaniała kultura baskijskich barów kręci się wokół trzech głównych form
 
 Oto najczęstsze nadzienia, jakie zobaczysz na tablicy w barze:
 
-| Baskijski | Hiszpański |
+| Baskijski | Polski |
 |---|---|
 | *tortilla* | tortilla (ziemniaczana) |
 | *txistorra* | txistorra |

@@ -22,11 +22,11 @@ exercises:
   - eu: liburutegia
     es: biblioteca
   - eu: eliza
-    es: iglesia
+    es: ilesia
   - eu: merkatua
-    es: mercado
+    es: mercáu
   - eu: banketxea
-    es: banco
+    es: bancu
   - eu: ospitalea
     es: hospital
 - id: ex-hl-mc1

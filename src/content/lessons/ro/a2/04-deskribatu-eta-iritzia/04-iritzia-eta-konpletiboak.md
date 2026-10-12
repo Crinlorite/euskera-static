@@ -73,7 +73,7 @@ exercises:
   - eu: Ez dut uste ona denik
     es: Nu cred că este bun
   - eu: Etorri delako
-    es: Porque ha venido
+    es: Pentru că a venit
   - eu: Egia delako
     es: Pentru că este adevărat
   - eu: Argi dago zaila dela
@@ -158,7 +158,7 @@ Pentru a exprima **cauza** („pentru că”), ai două opțiuni:
 
 ### Sufixul -**lako** (subordonat, cel mai comun)
 
-> **verbo + -lako**
+> **verb + -lako**
 
 | Română | Bască |
 |---|---|
@@ -205,7 +205,7 @@ Pentru a exprima **cauza** („pentru că”), ai două opțiuni:
 
 1. **Nu uita de dubla față: -ela la afirmativ, -enik la negativul de opinie.**
 2. **Sufixul -ela se atașează verbului conjugat**, nu participiului: *etorriko da → etorriko **dela***.
-3. **Dacă opinia este foarte puternică, în spaniolă folosești conjunctivul**, în bască nu există o diferență clară: *uste dut ondo dagoela* (cred că este bine) și *zalantza dut ondo dagoenik* (mă îndoiesc că este bine) folosesc forme diferite, dar nu un „conjunctiv” formal.
+3. **Româna folosește conjunctivul pentru a exprima îndoiala**, în bască nu există o diferență clară: *uste dut ondo dagoela* (cred că este bine) și *zalantza dut ondo dagoenik* (mă îndoiesc că este bine) folosesc forme diferite, dar nu un „conjunctiv” formal.
 
 > **Notă pedagogică:** formula *Nire ustez + propoziție + -lako + propoziție* este probabil cel mai eficient instrument de nivel A2 pentru a exprima opinii și a argumenta. Exemplu model:
 >

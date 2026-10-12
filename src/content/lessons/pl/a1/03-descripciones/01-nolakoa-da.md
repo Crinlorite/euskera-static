@@ -33,7 +33,7 @@ exercises:
   explanation: 'W tym schemacie przymiotnik przyjmuje rodzajnik `-a`: *altu* + *-a* = *altua*.'
 - id: ex-nlk-fb1
   type: fill-in-blank
-  prompt: Maialen es muy simpática = Maialen oso atsegin___ da.
+  prompt: Maialen jest bardzo sympatyczna = Maialen oso atsegin___ da.
   answers:
   - a
   explanation: 'Przymiotnik + rodzajnik `-a` przy opisywaniu cechy: *atsegina*.'
@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: wysoki
   - eu: baxua
-    es: bajo
+    es: niski
   - eu: handia
-    es: grande
+    es: duży
   - eu: txikia
-    es: pequeño
+    es: mały
   - eu: lodia
-    es: gordo
+    es: gruby
   - eu: argala
-    es: delgado
+    es: szczupły
   - eu: polita
-    es: bonito
+    es: ładny
   - eu: itsusia
-    es: feo
+    es: brzydki
 ---
 
 Kiedy chcesz opisać, jaka jest osoba lub rzecz w sposób **stały** (fizycznie, ogólnie), w języku baskijskim używamy pytania **Nolakoa da?** („jaki/jaka/jakie jest?”) i odpowiadamy za pomocą czasownika **izan** + przymiotnika z końcówką `-a`.

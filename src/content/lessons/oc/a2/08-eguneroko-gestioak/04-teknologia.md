@@ -73,29 +73,29 @@ exercises:
   - eu: itzali
     es: desamassar
   - eu: gorde
-    es: guardar
+    es: sauvar
 - id: ex-a2-ge4-mp
   type: match-pairs
   pairs:
   - eu: piztu
-    es: encender
+    es: alugar
   - eu: itzali
-    es: apagar
+    es: atudar
   - eu: gorde
-    es: guardar
+    es: sauvar
   - eu: ezabatu
-    es: borrar
+    es: esborrar
   - eu: deskargatu
-    es: descargar
+    es: telecargar
   - eu: partekatu
-    es: compartir
+    es: partejar
 ---
 
 Deth papèr ath pixèl: era leçon de **tecnologia quotidiana**. Vocabulari que hès servir cent còps ath dia — ara en basc, que, ath delà, a paraules transparentes e ben bastides (*pasahitza* = paraula de pas; *sakelakoa* = "eth de boishaca").
 
 ## Es aparelhs
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Er ordinator | *ordenagailua* |
 | Er (ordinator) portatiu | *eramangarria* |
@@ -108,7 +108,7 @@ Deth papèr ath pixèl: era leçon de **tecnologia quotidiana**. Vocabulari que 
 
 ## Era hilat e es compdes
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Era hilat / internet | *sarea / internet* |
 | Eth wifi | *wifia* |
@@ -126,12 +126,12 @@ Deth papèr ath pixèl: era leçon de **tecnologia quotidiana**. Vocabulari que 
 
 ## Es vèrbs digitaus
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Alugar / desamassar | *piztu / itzali* |
 | Telecargar / baishar | *deskargatu / jaitsi* |
 | Installar | *instalatu* |
-| Guardar | *gorde* |
+| Sauvar | *gorde* |
 | Esfaçar | *ezabatu* |
 | Trameter / compartir | *bidali / partekatu* |
 | Cercar (ena hilat) | *bilatu* |

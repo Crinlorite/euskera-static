@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: skręć w prawo
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: idź prosto / naprzód
   - eu: zeharkatu
-    es: cruza
+    es: przejdź
   - eu: igo eskailerak
     es: wejdź po schodach
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: '"Zeharkatu" oznacza…'
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - iść prosto
+  - przechodzić (przez ulicę)
+  - skręcać
+  - wchodzić na górę
   answer: 1
   explanation: Od "zehar" (przez). "Zeharkatu kalea / zebrabidea" = przejść przez ulicę / przejście dla pieszych.
 - id: ex-no-fb1
@@ -119,7 +119,7 @@ Gdy ktoś pyta cię, jak gdzieś dotrzeć — lub gdy sam się zgubisz i pytasz 
 
 W języku baskijskim, twierdzący tryb rozkazujący czasowników ruchu jest bardzo prosty:
 
-| Forma | Verbo base | Sentido |
+| Forma | Czasownik podstawowy | Znaczenie |
 |---|---|---|
 | **Jo** | jo | uderz / skieruj się (jo ezkerrera = skręć w lewo) |
 | **Segi** / **Jarraitu** | segitu / jarraitu | idź dalej, kontynuuj |
@@ -135,7 +135,7 @@ W języku baskijskim, twierdzący tryb rozkazujący czasowników ruchu jest bard
 
 ## Przysłówki i określenia kierunku
 
-| Euskera | Castellano |
+| Euskera | Polski |
 |---|---|
 | *ezkerra* | lewo |
 | *eskuina* | prawo |
@@ -149,7 +149,7 @@ W języku baskijskim, twierdzący tryb rozkazujący czasowników ruchu jest bard
 
 ## Typowe punkty orientacyjne
 
-| Euskera | Castellano |
+| Euskera | Polski |
 |---|---|
 | *semaforoa* | sygnalizacja świetlna |
 | *bidegurutzea* | skrzyżowanie |

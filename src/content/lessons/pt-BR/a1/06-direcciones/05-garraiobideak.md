@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: a pé
   - eu: kotxez / autoz
-    es: en coche
+    es: de carro
   - eu: autobusez
     es: de ônibus
   - eu: trenez
-    es: en tren
+    es: de trem
   - eu: bizikletaz
-    es: en bicicleta
+    es: de bicicleta
   - eu: hegazkinez
     es: de avião
   - eu: itsasontziz
-    es: en barco
+    es: de barco
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Como se diz "Vou de ônibus"?

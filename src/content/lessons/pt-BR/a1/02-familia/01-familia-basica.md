@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: pai
   - eu: ama
-    es: madre
+    es: mãe
   - eu: anaia
     es: irmão (dito por um homem ou por uma mulher)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: irmã (dita por uma mulher)
   - eu: seme
-    es: hijo
+    es: filho
   - eu: alaba
-    es: hija
+    es: filha
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen tem uma irmã. Como se diz "irmã" do ponto de vista de Maialen?

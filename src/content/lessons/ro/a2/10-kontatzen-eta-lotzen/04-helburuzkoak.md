@@ -17,7 +17,7 @@ exercises:
   - Este o aplicație care învață bască
   - Este o aplicație făcută în bască
   - Este o aplicație pentru a învăța bască
-  - Este o aplicație care învață bască
+  - Este o aplicație care tocmai învață bască
   answer: 2
   explanation: '*-tzeko* = pentru + infinitiv: ikas**teko** = pentru a învăța. (Da, ca Kaixo 😄.)'
 - id: ex-a2-ko4-mc2
@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Unde mergi?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: Să cumpăr pâine
   - eu: Zertara etorri da?
     es: La ce a venit?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ Când există deplasare — *joan, etorri, atera, igo…* — limba bască folos
 | Nu — este un "pentru" | **-tzeko** | *Hau ikasteko da* |
 | Da — mergi/vii LA | **-tzera** | *Ikastera noa* |
 
-> Capcană clasică din spaniolă: "voy a comprar" NU este viitor în bască — este mișcare: *erostera noa*. Viitorul adevărat îl ai deja: *erosiko dut*.
+> Capcană clasică: „merg să cumpăr” NU este viitor în bască — este mișcare: *erostera noa*. Viitorul adevărat îl ai deja: *erosiko dut*.
 
 ## Totul împreună (și cu temporalele de ieri)
 

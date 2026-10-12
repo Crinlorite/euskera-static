@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: breakfast
   - eu: hamaiketakoa
     es: mid-morning snack
   - eu: bazkaria
     es: lunch
   - eu: askaria
-    es: merienda
+    es: afternoon snack
   - eu: afaria
-    es: cena
+    es: dinner
   - eu: jan
-    es: comer
+    es: to eat
   - eu: edan
-    es: beber
+    es: to drink
 ---
 
 Each meal of the day has its name in Basque, and knowing them will help you talk about your daily routine. There is also a specifically Basque meal that has no direct equivalent in English: the **hamaiketako**.
@@ -118,7 +118,7 @@ Each meal of the day has its name in Basque, and knowing them will help you talk
 
 ## Hunger and thirst
 
-To say "I'm hungry" / "I'm thirsty" in Basque, you **do not use the verb "to have"** (like in Spanish or French), but rather the verb **izan** ("to be"):
+To say "I'm hungry" / "I'm thirsty", Basque uses the verb **izan** ("to be"), just like English — not "to have", as Spanish or French do:
 
 - **Gose naiz.** — I'm hungry. (literally: "I am hungry")
 - **Egarri naiz.** — I'm thirsty. (literally: "I am thirsty")

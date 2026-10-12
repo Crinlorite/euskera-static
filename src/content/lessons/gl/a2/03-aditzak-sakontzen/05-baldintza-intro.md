@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Se mañá chove
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Se tivese tempo
   - eu: Erosiko nuke
     es: Compraríao
   - eu: Joango nintzateke
     es: Iría
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Se eu fose rico
   - eu: Edukiko bagenu
     es: Se tivésemos
 ---
@@ -164,7 +164,7 @@ O "comprar**ía** / iría / sería" fórmase con **-ko/-go** (a mesma marca que 
 | ni | **nintzateke** | eu —ría |
 | zu | **zinateke** | ti —rías |
 | hura | **litzateke** | el —ría / sería |
-| gu | **ginateke** | —ríamos |
+| gu | **ginateke** | —riamos |
 | haiek | **lirateke** | —rían |
 
 ## Frase modelo

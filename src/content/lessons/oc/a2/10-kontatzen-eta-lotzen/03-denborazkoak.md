@@ -87,13 +87,13 @@ exercises:
   - eu: gosaldu ondoren
     es: dempús de dejunar
   - eu: gosaltzen dudanean
-    es: cuando desayuno
+    es: quan esdejoi
   - eu: gosaltzen ari naizen bitartean
-    es: mientras desayuno
+    es: mentre esdejoi
   - eu: gosaldu bezain laster
-    es: en cuanto desayuno
+    es: tanlèu qu'esdejoi
   - eu: gosaldu gabe
-    es: sin desayunar
+    es: sense esdejoar
 ---
 
 Es tues frases ja saben QUÉ passèc; aguesta leccion les ensenhe a díder **QUAN** damb precision de relotgèr: *quan arribèri*, *abans de sortir*, *dempús de dinar*, *mentre dormies*. Tres pèces e es combinacions gessen suenles.

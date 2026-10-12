@@ -78,13 +78,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Atzo etxean nintzen
-    es: Ayer estuve/estaba en casa
+    es: Wczoraj byłem/byłam w domu
   - eu: Joan den astean Donostian
     es: W zeszłym tygodniu w San Sebastián
   - eu: Ikasleak ginen
     es: Byliśmy studentami
   - eu: Bart pozik nengoen
-    es: Anoche estaba contento
+    es: Wczoraj wieczorem byłem zadowolony
   - eu: Zergatik zineten han?
     es: Dlaczego tam byliście?
   - eu: Duela urtebete

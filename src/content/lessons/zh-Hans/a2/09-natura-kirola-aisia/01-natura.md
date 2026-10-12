@@ -77,7 +77,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mendira igo
-    es: subir al monte
+    es: 爬山
   - eu: gailurrera iritsi
     es: 到达山顶
   - eu: basoan barrena ibili
@@ -85,7 +85,7 @@ exercises:
   - eu: ibaian bainatu
     es: 在河里游泳
   - eu: itsasoari begira egon
-    es: estar mirando al mar
+    es: 望着大海
   - eu: argazkia atera
     es: 拍照
 ---
@@ -94,7 +94,7 @@ exercises:
 
 ## 山
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 山 | *mendia* |
 | 山顶 | *gailurra* |
@@ -111,7 +111,7 @@ exercises:
 
 ## 水
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 河流 | *ibaia* |
 | 水库 / 水坝 | *urtegia* |

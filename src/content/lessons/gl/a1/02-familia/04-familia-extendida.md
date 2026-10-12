@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: tía
   - eu: lehengusu
-    es: primo
+    es: curmán
   - eu: lehengusina
-    es: prima
+    es: curmá
   - eu: iloba
-    es: sobrino/a
+    es: sobriño/a
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" é...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - curmán
+  - irmán
+  - avó
+  - sogro
   answer: 0
 - id: ex-fe-fc
   type: flashcards
@@ -40,9 +40,9 @@ exercises:
   - eu: izeba
     es: tía
   - eu: lehengusu
-    es: primo
+    es: curmán
   - eu: lehengusina
-    es: prima
+    es: curmá
   - eu: iloba
     es: sobriño, sobriña
   - eu: aitaginarreba
@@ -50,9 +50,9 @@ exercises:
   - eu: amaginarreba
     es: sogra
   - eu: koinatu
-    es: cuñado
+    es: cunhado
   - eu: koinata
-    es: cuñada
+    es: cunhada
 ---
 
 Máis aló de pais, irmáns e fillos, a familia esténdese con tíos, primos, sobriños e a familia política. Aquí tes o vocabulario máis usado.
@@ -73,8 +73,8 @@ Máis aló de pais, irmáns e fillos, a familia esténdese con tíos, primos, so
 |---|---|
 | *aitaginarreba* | sogro |
 | *amaginarreba* | sogra |
-| *koinatu* | cuñado |
-| *koinata* | cuñada |
+| *koinatu* | cunhado |
+| *koinata* | cunhada |
 | *errain* | nora |
 | *suhi* | xenro |
 
@@ -82,6 +82,6 @@ Máis aló de pais, irmáns e fillos, a familia esténdese con tíos, primos, so
 
 - *Nire osaba Bilbon bizi da.* — O meu tío vive en Bilbao.
 - *Bere lehengusinak hamabi urte ditu.* — A súa prima ten doce anos.
-- *Zure koinata euskalduna da?* — A túa cuñada é vasca?
+- *Zure koinata euskalduna da?* — A túa cunhada é vasca?
 
 > As palabras para a familia política fórmanse a miúdo combinando palabras existentes (*aita-* + *ginarreba*). Non fai falta memorizar a lóxica interna; co uso aséntanse.

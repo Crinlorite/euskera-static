@@ -18,17 +18,17 @@ exercises:
   - eu: okindegia
     es: forn de pan
   - eu: botika
-    es: farmacia
+    es: farmàcia
   - eu: liburutegia
-    es: biblioteca
+    es: bibliotèca
   - eu: eliza
-    es: iglesia
+    es: glèisa
   - eu: merkatua
-    es: mercado
+    es: mercat
   - eu: banketxea
-    es: banco
+    es: banc
   - eu: ospitalea
-    es: hospital
+    es: espitau
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: As de besonh crompar pan. A quin tipe de botiga vas?
@@ -74,7 +74,7 @@ exercises:
   - eu: fruta-denda
     es: fruteria
   - eu: botika
-    es: farmacia
+    es: farmàcia
   - eu: merkatua
     es: mercat
   - eu: supermerkatua
@@ -119,7 +119,7 @@ Abantes de saber dar indicacions, as de besonh eth vocabulari basic entà parlar
 
 ## Botigues e comèrç
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *taberna* | bar |
 | *kafetegia* | cafeteria |
@@ -138,7 +138,7 @@ Abantes de saber dar indicacions, as de besonh eth vocabulari basic entà parlar
 
 ## Servicis
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *banketxea* / *aurrezki-kutxa* | banc / caisha d'estalvis |
 | *kutxazain automatikoa* | caishièr automatic |
@@ -146,7 +146,7 @@ Abantes de saber dar indicacions, as de besonh eth vocabulari basic entà parlar
 | *udaletxea* | ajuntament |
 | *osasun-etxea* | centre de salut |
 | *ospitalea* | espitau |
-| *botika* / *farmazia* | farmacia |
+| *botika* / *farmazia* | farmàcia |
 | *ile-apaindegia* | perruqueria |
 | *liburutegia* | bibliotèca |
 | *eskola* / *ikastola* | escòla |
@@ -157,7 +157,7 @@ Abantes de saber dar indicacions, as de besonh eth vocabulari basic entà parlar
 
 ## Transpòrt e comunicacion
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *autobus-geltokia* | arrèst de bus |
 | *tren-geltokia* | gara de tren |

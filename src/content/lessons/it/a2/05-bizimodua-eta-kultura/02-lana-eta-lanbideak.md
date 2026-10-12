@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" significa…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Lavoro
+  - Stipendio
+  - Capo
+  - Impiegato
   answer: 1
   explanation: '*Soldata* = stipendio. *Lansari* è un sinonimo formale.'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: professore/professoressa
   - eu: erizain
-    es: enfermero/a
+    es: infermiere/a
   - eu: sukaldari
-    es: cocinero/a
+    es: cuoco/a
   - eu: kazetari
-    es: periodista
+    es: giornalista
   - eu: mekanikari
     es: meccanico/a
   - eu: arkitekto
-    es: arquitecto/a
+    es: architetto
 ---
 
 Il livello A2 ti apre il mondo del **lavoro** al di là di "sono uno studente / sono un insegnante". Ora inizi a parlare di:

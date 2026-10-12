@@ -15,7 +15,7 @@ covers:
 exercises:
 - id: ex-a2-bz4-mc1
   type: multiple-choice
-  prompt: '"Lagunarentzat opari bat erosi dut" significa…'
+  prompt: '"Lagunarentzat opari bat erosi dut" vol dir…'
   options:
   - He comprat un regal d'un amic
   - He comprat un regal per a un amic
@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: fins a la muntanya
   - eu: etxerantz
-    es: hacia casa
+    es: cap a casa
   - eu: lagunarengatik
     es: per (culpa de) l'amic
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ Aquesta lliçó integradora repassa **quatre declinacions noves** que l'A2 afege
 | zuentzat | *zuentzat* | per a vosaltres |
 | haientzat | *haientzat* | per a ells/elles |
 | Lander | *Landerrentzat* | per a en Lander |
-| la madre | *amarentzat* | per a la mare |
-| los amigos | *lagunentzat* | per als amics |
+| la mare | *amarentzat* | per a la mare |
+| els amics | *lagunentzat* | per als amics |
 
 > *Hau **zuretzat** da.* — Això és per a tu.
 >
@@ -160,9 +160,9 @@ Per preguntar el motiu: **zergatik?** (per què?). Per respondre amb un substant
 | zugatik | *zugatik* | per tu |
 | beragatik / harengatik | *beragatik* | per ell/ella |
 | Lander | *Landerrengatik* | per en Lander |
-| la madre | *amarengatik* | per la mare |
-| el amor | *maitasunarengatik* | per l'amor |
-| la lluvia | *euriagatik* | per la pluja |
+| la mare | *amarengatik* | per la mare |
+| l'amor | *maitasunarengatik* | per l'amor |
+| la pluja | *euriagatik* | per la pluja |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — Gràcies per venir, per mi!
 >
@@ -170,7 +170,7 @@ Per preguntar el motiu: **zergatik?** (per què?). Per respondre amb un substant
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Per què ho has fet? — Per tu.
 
-> **Nota:** distingeix *-engatik* (causa: "per culpa de") de *-rentzat* (destinatari: "per a"). En castellà "por" cobreix les dues, però en basc són diferents.
+> **Nota:** distingeix *-engatik* (causa: "per culpa de") de *-rentzat* (destinatari: "per a"). En català també es distingeixen («per» / «per a»), igual que en basc.
 
 ## NONGO / NOIZKO — de quin lloc / moment
 

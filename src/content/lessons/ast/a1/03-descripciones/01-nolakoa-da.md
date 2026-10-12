@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: altu
   - eu: baxua
-    es: bajo
+    es: baxu
   - eu: handia
     es: grande
   - eu: txikia
-    es: pequeño
+    es: pequeñu
   - eu: lodia
-    es: gordo
+    es: gordu
   - eu: argala
-    es: delgado
+    es: delgáu
   - eu: polita
-    es: bonito
+    es: guapu
   - eu: itsusia
-    es: feo
+    es: feu
 ---
 
 Cuando quies describir cómo ye una persona o una cosa de manera **estable** (físicamente, polo xeneral), n'eusquera usamos la entruga **Nolakoa da?** ("¿cómo ye?") y respondemos col verbu **izan** + un axetivu cola marca `-a` final.

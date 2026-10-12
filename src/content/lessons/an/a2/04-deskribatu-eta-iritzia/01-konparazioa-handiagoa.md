@@ -75,21 +75,21 @@ exercises:
   - eu: gutxiago
     es: menos
   - eu: hobea
-    es: mejor
+    es: millor
   - eu: okerragoa
-    es: peor
+    es: pior
   - eu: azkarragoa
     es: mas rapido
 ---
 
-Comparar ye un d'os actos mas cutianos d'o lenguache: *iste ye mas gran que aquel*, *yo soi mas baixo que tu*, *a tortilla ye millor que ayere*. En basco a formula ye bien regular y, una vegada la dominas, ubre un pilón de frases nuevas.
+Comparar ye un d'os actos mas cutianos d'o lenguache: *iste ye mas gran que aquel*, *yo soi mas baixo que tu*, *a tortilla ye millor que ahiere*. En basco a formula ye bien regular y, una vegada la dominas, ubre un pilón de frases nuevas.
 
 ## A formula
 
 > **X baino Y-AGO(A)**
 
 - **baino** se coloca entre os dos termins comparaus — equivale a "que".
-- **-ago** s'adhibe a l'adchectivo u adverbio (como o "-er" anglés u a marca de comparativo d'o castellano).
+- **-ago** s'adhibe a l'adchectivo u adverbio (como o "-er" anglés).
 - Si va con substantivo determinau, l'adchectivo leva a suya **-a** habitual: *altuago**a***.
 
 | Aragonés | Basco |
@@ -147,7 +147,7 @@ Quan comparas **accions** u **cantidaz**, *gehiago / gutxiago* funciona como adv
 | *poliki* (despacio) | *polikiago* |
 | *ondo* (bien) | *hobeto* (irregular) |
 | *gaizki* (mal) | *okerrago* |
-| *berandu* (tarde) | *beranduago* |
+| *berandu* (tardi) | *beranduago* |
 | *goiz* (temprano) | *goizago* |
 
 > *Hobeto egiten duzu lan.* — Treballas millor.

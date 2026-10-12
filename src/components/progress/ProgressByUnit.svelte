@@ -18,7 +18,7 @@
 </script>
 
 <script lang="ts">
-  import { t } from '../../i18n/ui';
+  import { t, tf } from '../../i18n/ui';
   import type { LocaleCode } from '../../i18n/config';
   import { onMount } from 'svelte';
   import { getProgress } from '../../stores/progress';
@@ -82,8 +82,8 @@
 
 <section class="by-unit" aria-labelledby="progress-by-unit-heading">
   <header class="head">
-    <p class="eyebrow">Recorrido</p>
-    <h2 id="progress-by-unit-heading" class="title display">Progreso por unidad</h2>
+    <p class="eyebrow">{t(loc, 'progress.byunit.eyebrow')}</p>
+    <h2 id="progress-by-unit-heading" class="title display">{t(loc, 'progress.byunit.title')}</h2>
   </header>
 
   {#if computed.length === 0}
@@ -119,7 +119,7 @@
                 aria-valuemin="0"
                 aria-valuemax="100"
                 aria-valuenow={percentage}
-                aria-label={`Progreso de Unidad ${u.order}: ${u.title}`}
+                aria-label={tf(loc, 'a11y.unit.progress', u.order, u.title)}
               >
                 <span class="fill" style="inline-size: {fillWidth}%"></span>
               </div>

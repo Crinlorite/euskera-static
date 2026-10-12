@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: пешком
   - eu: kotxez / autoz
-    es: en coche
+    es: на машине
   - eu: autobusez
     es: на автобусе
   - eu: trenez
-    es: en tren
+    es: на поезде
   - eu: bizikletaz
-    es: en bicicleta
+    es: на велосипеде
   - eu: hegazkinez
     es: на самолёте
   - eu: itsasontziz
-    es: en barco
+    es: на корабле
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Как сказать «Я еду на автобусе»?

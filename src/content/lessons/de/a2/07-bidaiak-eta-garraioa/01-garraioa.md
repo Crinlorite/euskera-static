@@ -77,17 +77,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: trenez
-    es: en tren
+    es: mit dem Zug
   - eu: autobusez
     es: mit dem Bus
   - eu: hegazkinez
     es: mit dem Flugzeug
   - eu: kotxez
-    es: en coche
+    es: mit dem Auto
   - eu: oinez
-    es: andando
+    es: zu Fuß
   - eu: bizikletaz
-    es: en bici
+    es: mit dem Rad
 ---
 
 Die Reise-Lektion beginnt. Erster Halt: **die Verkehrsmittel** und die Verben, um sie zu benutzen. Mit dem Instrumental *-z*, das du bereits aus A1 kennst, wird „mit dem Zug“ oder „mit dem Fahrrad“ zu einem Suffix.

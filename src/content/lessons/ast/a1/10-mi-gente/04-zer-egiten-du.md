@@ -83,7 +83,7 @@ Una vez sabes presentar a daquién (*Hau X da*), el siguiente pasu natural ye **
 
 ## Les entrugues
 
-| Entruga | Castellanu |
+| Entruga | Asturianu |
 |---|---|
 | *Non bizi da?* | ¿Ónde vive? |
 | *Norekin bizi da?* | ¿Con quién vive? |
@@ -130,7 +130,7 @@ Combinar l'oficiu col llugar ye lo que da consistencia a la presentación d'un v
 
 ## Estáu civil (vocabulariu útil)
 
-| Euskera | Castellanu |
+| Euskera | Asturianu |
 |---|---|
 | *ezkonduta dago* | ta casáu/ada |
 | *ezkongabea da* | ye solteru/a |

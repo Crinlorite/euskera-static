@@ -16,8 +16,8 @@ exercises:
   prompt: '"Eman zion liburua" oznacza…'
   options:
   - Daje mu/jej książkę
-  - Dał/a mu/jej książkę
-  - Dał/a mu/jej książkę
+  - Dał(a) mu/jej książkę (dziś, niedawno)
+  - Dał(a) mu/jej książkę (innego dnia)
   - Dał/a ci książkę
   answer: 2
   explanation: '*Zion* = NOR-NORI-NORK w czasie przeszłym: „on/ona jemu/jej to”. Pełna forma w czasie przeszłym: „dał/a mu/jej”.'
@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: dałem ci
   - eu: eman zion
-    es: le dio
+    es: dał(a) mu/jej
   - eu: eman nion
-    es: le di
+    es: dałem/dałam mu/jej
   - eu: eman ziguten
-    es: nos dieron
+    es: dali nam
   - eu: eman nizkion
     es: dałem mu/jej (je)
 ---

@@ -47,15 +47,15 @@ exercises:
   - eu: jatorra
     es: simpatico/a (alla mano)
   - eu: atsegina
-    es: agradable
+    es: piacevole
   - eu: alaia
-    es: alegre
+    es: allegro
   - eu: lasaia
-    es: tranquilo/a
+    es: tranquillo/a
   - eu: berritsua
     es: chiacchierone/a
   - eu: zaratatsua
-    es: ruidoso/a
+    es: rumoroso/a
 - id: ex-10-05-fc
   type: flashcards
   cards:

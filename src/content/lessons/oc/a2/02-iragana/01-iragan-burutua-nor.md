@@ -78,13 +78,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Atzo etxean nintzen
-    es: Ayer estuve/estaba en casa
+    es: Ger estèri/èri en casa
   - eu: Joan den astean Donostian
     es: Era setmana passada en Sant Sebastian
   - eu: Ikasleak ginen
     es: Èrem estudiants
   - eu: Bart pozik nengoen
-    es: Anoche estaba contento
+    es: Ger ath ser èri content
   - eu: Zergatik zineten han?
     es: Perqué èretz alà?
   - eu: Duela urtebete
@@ -97,7 +97,7 @@ Aguesta prumèra leccion se centre enes vèrbs NOR: **izan** e **egon** en passa
 
 ## Passat de *izan* (èster)
 
-| Pronom | Passat | Castelhan |
+| Pronom | Passat | Aranés |
 |---|---|---|
 | ni | **nintzen** | èri / sigueri |
 | zu | **zinen** | ères / sigueres |
@@ -112,7 +112,7 @@ Aguesta prumèra leccion se centre enes vèrbs NOR: **izan** e **egon** en passa
 
 *Egon* a formes sintetiches en passat, parallèles ath present *nago/zaude/dago...*:
 
-| Pronom | Passat | Castelhan |
+| Pronom | Passat | Aranés |
 |---|---|---|
 | ni | **nengoen** | èri / sigueri |
 | zu | **zeunden** | ères / sigueres |
@@ -134,7 +134,7 @@ Igual qu'en present, en passat mantens era distincion entre:
 
 Entà que era frasa sone a passat barrat, eth basc utilize marcaires temporaus:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Ier | *Atzo* |
 | Anet | *Bart* |

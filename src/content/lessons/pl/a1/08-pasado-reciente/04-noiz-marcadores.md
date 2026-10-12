@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: dzisiaj
   - eu: atzo
-    es: ayer
+    es: wczoraj
   - eu: bihar
-    es: mañana
+    es: jutro
   - eu: etzi
-    es: pasado mañana
+    es: pojutrze
   - eu: gaur goizean
-    es: esta mañana
+    es: dziś rano
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: dziś po południu
   - eu: atzo gauean
-    es: anoche
+    es: wczoraj wieczorem
   - eu: orain
-    es: ahora
+    es: teraz
   - eu: lehen
-    es: antes
+    es: wcześniej
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ Aby dobrze opowiedzieć o tym, co się wydarzyło, musisz powiedzieć **kiedy**.
 | *lehen* | wcześniej |
 | *gero* | potem, później |
 
-> Jeśli zauważyłeś/aś, *atzo* (wczoraj) i *bihar* (jutro) to dwa tak krótkie słowa, że można je zapamiętać za jednym razem. *Etzi* (pojutrze) to słowo, którego język hiszpański nie wyraża jednym słowem — mały prezent od języka baskijskiego.
+> Jeśli zauważyłeś/aś, *atzo* (wczoraj) i *bihar* (jutro) to dwa tak krótkie słowa, że można je zapamiętać za jednym razem. *Etzi* (pojutrze) to, tak jak po polsku, jedno słowo — łatwe do zapamiętania.
 
 ## Łączenie z porami dnia
 

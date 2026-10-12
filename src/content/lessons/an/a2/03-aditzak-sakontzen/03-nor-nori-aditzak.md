@@ -44,7 +44,7 @@ exercises:
   - eu: zaizu
     es: te (a tu, sing.)
   - eu: zaio
-    es: le (a él/ella, sing.)
+    es: le (a ell/ella, sing.)
   - eu: zaigu
     es: nos (sing.)
   - eu: zaizue
@@ -127,7 +127,7 @@ Pa NOR **plural**:
 | *gustatu* | gustar | *Filmak gustatzen zaizkit* (me fan goyo as pelis) |
 | *iruditu* | pareixer | *Ondo iruditzen zait* (me pareix bien) |
 | *ahaztu* | ixuplidar-se | *Ahaztu zait izena* (m'he ixuplidau o nombre) |
-| *erori* | cayer-se | *Erori zaizu boligrafoa* (t'ha cayiu o boligrafo) |
+| *erori* | cahier-se | *Erori zaizu boligrafoa* (t'ha cayiu o boligrafo) |
 | *gertatu* | pasar-le | *Zer gertatu zaizu?* (qué t'ha pasau?) |
 | *interesatu* | interesar | *Politika interesatzen zait* (m'interesa a politica) |
 | *axola izan* | importar | *Ez zait axola* (no m'importa) |

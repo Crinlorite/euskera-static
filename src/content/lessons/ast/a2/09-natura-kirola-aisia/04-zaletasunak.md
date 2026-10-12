@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-na4-mc1
   type: multiple-choice
-  prompt: '"Irakurtzea gustatzen zait" significa…'
+  prompt: '"Irakurtzea gustatzen zait" quier dicir…'
   options:
   - Quiero lleer agora
   - Préstame lleer
@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Préstame lleer
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Gústa-y cantar
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Gústanos viaxar
   - eu: Margotzen dakit
     es: Sé pintar
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Voi bailar
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Toi cocinando
 ---
 
 ¿Qué faes cuando nun faes nada? Esta lleición va d'**aficiones** — y de la pieza de gramática que les gobierna: el verbu convertíu en sustantivu con **-tzea** (*irakurtzea* = "el lleer").
@@ -99,7 +99,7 @@ Del A1 conoces *gustatzen zait* con coses (*kafea gustatzen zait*). Pa que te pr
 
 > **irakurri → irakurtzea** · **abestu → abestea** · **bidaiatu → bidaiatzea** · **sukaldatu → sukaldatzea**
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Préstame lleer | *Irakurtzea gustatzen zait* |
 | Préstame muncho cocinar | *Asko gustatzen zait sukaldatzea* |
@@ -111,7 +111,7 @@ Tolo NOR-NORI que yá sabes (*zait, zaio, zaigu…*) sigue mandando; solo camuda
 
 ## El catálogu d'aficiones
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Lleer / escribir | *irakurtzea / idaztea* |
 | Escuchar música | *musika entzutea* |
@@ -134,7 +134,7 @@ Tolo NOR-NORI que yá sabes (*zait, zaio, zaigu…*) sigue mandando; solo camuda
 
 ## Tres estructures, tres matices (repasu finu)
 
-| Estructura | Exemplu | Significa |
+| Estructura | Exemplu | Significáu |
 |---|---|---|
 | **-tzea gustatzen zait** | *Margotzea gustatzen zait* | préstame (afición) |
 | **-tzen dakit** | *Margotzen dakit* | sé facelo (habilidá) |

@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: どこへ行くの？
   - eu: Ogia erostera
-    es: A comprar pan
+    es: パンを買いに
   - eu: Zertara etorri da?
     es: 何をしに来たのですか？
   - eu: Agur esatera
@@ -131,7 +131,7 @@ exercises:
 | いいえ — 「〜のために」 | **-tzeko** | *Hau ikasteko da* |
 | はい — 「〜しに」行く・来る | **-tzera** | *Ikastera noa* |
 
-> スペイン語話者がよく間違えるポイント：「voy a comprar」はバスク語では未来形ではなく、移動を表します → *erostera noa*。本当の未来形はすでに習いましたね → *erosiko dut*。
+> よくある間違い：「買いに行く」はバスク語では未来形ではなく、移動を表します → *erostera noa*。本当の未来形はすでに習いましたね → *erosiko dut*。
 
 ## 全部まとめて（昨日の時を表す表現も一緒に）
 

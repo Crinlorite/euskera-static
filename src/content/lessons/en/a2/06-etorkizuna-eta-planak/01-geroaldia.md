@@ -107,7 +107,7 @@ Until now, you knew how to talk about the present and the past. This unit opens 
 
 > **participle + -ko / -go + auxiliary in the PRESENT**
 
-| Spanish | Basque | How it's formed |
+| English | Basque | How it's formed |
 |---|---|---|
 | I will go | *joango naiz* | joan + **-go** + naiz |
 | I will eat | *jango dut* | jan + **-go** + dut |

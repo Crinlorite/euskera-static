@@ -97,7 +97,7 @@ exercises:
   - eu: Berandu dabil
     es: Está atrasado
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: Chegamos a tempo
 ---
 
 Segunda parada: **comprar a passagem e não perder o trem**. Aqui você recicla duas armas do A1 — *zenbat balio du?* (preços) e as horas — e as coloca para trabalhar na bilheteria.

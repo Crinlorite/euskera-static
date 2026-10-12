@@ -94,7 +94,7 @@ Yá sabes llegar; agora toca **dormir**. Del hotel a la casa rural (*landetxea* 
 
 ## Ónde dormir
 
-| Castellán | Euskera |
+| Asturianu | Euskera |
 |---|---|
 | L'hotel | *hotela* |
 | La pensión | *pentsioa* |
@@ -130,7 +130,7 @@ La pieza gramatical de la lleición ye'l **destinativu -rako / -etarako** (pa): 
 
 ## Pidir y entrugar demientres la estancia
 
-| Castellán | Euskera |
+| Asturianu | Euskera |
 |---|---|
 | ¿A qué hora hai que dexar l'habitación? | *Zer ordutan utzi behar da gela?* |
 | ¿Hai habitaciones llibres? | *Gelarik badago libre?* |

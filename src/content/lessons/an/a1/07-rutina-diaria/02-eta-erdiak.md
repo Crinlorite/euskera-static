@@ -121,7 +121,7 @@ A partir d'a meya enta debant, charramos en función d'a hora siguient con a par
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Si viens d'o castellano, lo más raro ye que **gutxi** vaiga **dezaga** d'o numero, no debant. *Bederatziak laurden gutxi* literalment ye "as nueu cuarto menos".
+> Ta qui charra aragonés, lo más raro ye que **gutxi** vaiga **dezaga** d'o numero, no debant. *Bederatziak laurden gutxi* literalment ye "as nueu cuarto menos".
 
 ## Tabla resumen
 

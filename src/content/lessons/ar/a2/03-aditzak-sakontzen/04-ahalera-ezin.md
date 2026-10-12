@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: هل يمكنك المجيء؟
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: يمكنك فعل ذلك
   - eu: Ezin dut etorri
     es: لا أستطيع المجيء
   - eu: Ezin nintzen joan
@@ -91,9 +91,9 @@ exercises:
 
 هي الأبسط والأكثر شيوعًا في السماع:
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + فعل مساعد**
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | هل يمكنك المجيء؟ | *Etorri **ahal zara**?* |
 | هل يمكنني الدخول؟ | *Sartu **ahal naiz**?* |
@@ -108,7 +108,7 @@ exercises:
 
 ### الأفعال المتعدية (NOR-NORK): *dezaket*
 
-| الضمير | الصيغة | الإسبانية |
+| الضمير | الصيغة | العربية |
 |---|---|---|
 | nik | **dezaket** | أنا أستطيعه |
 | zuk | **dezakezu** | أنت تستطيعه |
@@ -121,7 +121,7 @@ exercises:
 
 ### الأفعال اللازمة (NOR): *naiteke*
 
-| الضمير | الصيغة | الإسبانية |
+| الضمير | الصيغة | العربية |
 |---|---|---|
 | ni | **naiteke** | أنا أستطيع |
 | zu | **zaitezke** | أنت تستطيع |
@@ -149,9 +149,9 @@ exercises:
 
 نفي صيغة ahalera له كلمته الخاصة: **ezin**.
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + فعل مساعد**
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | لا أستطيع المجيء | *Ezin **dut etorri*** (NOR-NORK) أو *Ezin **naiz etorri*** (NOR) |
 | لا أستطيع الذهاب | *Ezin naiz joan* |
@@ -184,7 +184,7 @@ exercises:
 
 ## *Ahal izan* في أزمنة أخرى
 
-| الإسبانية | الباسكية |
+| العربية | الباسكية |
 |---|---|
 | لقد استطعت الذهاب | *Joan ahal izan naiz* |
 | سأستطيع الذهاب | *Joan ahal izango naiz* |

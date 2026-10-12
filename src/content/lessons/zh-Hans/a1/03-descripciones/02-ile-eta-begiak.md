@@ -89,30 +89,30 @@ exercises:
   type: match-pairs
   pairs:
   - eu: ile beltza
-    es: pelo negro
+    es: 黑发
   - eu: ile horia
-    es: pelo rubio
+    es: 金发
   - eu: ile motza
-    es: pelo corto
+    es: 短发
   - eu: ile luzea
-    es: pelo largo
+    es: 长发
   - eu: begi urdinak
-    es: ojos azules
+    es: 蓝眼睛
   - eu: begi marroiak
-    es: ojos marrones
+    es: 棕色眼睛
   - eu: bizarduna
     es: 有（络腮）胡子的
   - eu: betaurrekoduna
     es: 戴眼镜的
 ---
 
-在巴斯克语中，描述头发和眼睛时，不用像西班牙语那样使用 **izan**（“是”）（例如“soy moreno”），而是用 **ukan**（“有”）：*tengo el pelo negro*（我有黑色的头发），*tengo los ojos azules*（我有蓝色的眼睛）。
+在巴斯克语中，描述头发和眼睛时，不用 **izan**（“是”），而是用 **ukan**（“有”），和中文一样：“我有黑色的头发”、“我有蓝色的眼睛”。
 
 ## 头发：ile
 
 “头发”这个词是 **ile**（带冠词时是 *ilea*）。形容词跟在名词后面，并且只有最后一个形容词带有 `-a` 标记：
 
-| 巴斯克语 | 中文意思 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *ile beltza* | 黑发 |
 | *ile horia* | 金发 |
@@ -124,7 +124,7 @@ exercises:
 | *ile lisoa* | 直发 |
 | *ile kizkurra* | 卷发 |
 
-> 在巴斯克语中，“头发”被视为**单数**，和西班牙语一样。因此使用 *dut* / *du*（而不是 *ditut* / *ditu*）。
+> 在巴斯克语中，“头发”被视为**单数**。因此使用 *dut* / *du*（而不是 *ditut* / *ditu*）。
 
 - *Ile beltza eta luzea **dut**.* — 我有一头又黑又长的头发。
 - *Maialenek ile kizkurra **du**.* — Maialen 有一头卷发。
@@ -133,7 +133,7 @@ exercises:
 
 与头发不同，“眼睛”是**复数**（*begiak*）。因此形容词也用复数形式（`-ak`），并且动词要用 **ditut / ditu**：
 
-| 巴斯克语 | 中文意思 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *begi urdinak* | 蓝色的眼睛 |
 | *begi marroiak* | 棕色的眼睛 |
@@ -149,7 +149,7 @@ exercises:
 
 要表示“带着 X 的”或“有 X 的”，巴斯克语有一个非常好用的后缀：**-duna**（单数）/ **-dunak**（复数）。它加在名词后面，用来指代人，例如“戴眼镜的人”、“有胡子的人”……
 
-| 巴斯克语 | 中文意思 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *betaurrekoduna* | 戴眼镜的 / 戴眼镜的人 |
 | *bizarduna* | 有（络腮）胡子的 |

@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: 어제 (과거)
   - eu: bihar
-    es: mañana (futuro)
+    es: 내일 (미래)
   - eu: herenegun
-    es: anteayer
+    es: 그저께
   - eu: etzi
-    es: pasado mañana
+    es: 모레
   - eu: joan den astean
     es: 지난 주
   - eu: datorren astean
@@ -105,7 +105,7 @@ exercises:
 
 ## 미래 시간 표현
 
-| 스페인어 | 바스크어 |
+| 한국어 | 바스크어 |
 |---|---|
 | 내일 | *bihar* |
 | 모레 | *etzi* |
@@ -131,7 +131,7 @@ exercises:
 
 ## 의도와 결정
 
-| 스페인어 | 바스크어 | 뉘앙스 |
+| 한국어 | 바스크어 | 뉘앙스 |
 |---|---|---|
 | 여행할 생각이에요 | *Bidaiatzeko **asmoa dut*** | 머릿속 계획 |
 | 이직하기로 결정했어요 | *Lanez aldatzea **erabaki dut*** | 내려진 결정 |

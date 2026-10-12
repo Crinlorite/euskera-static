@@ -23,7 +23,7 @@ exercises:
   - eu: fruta-denda
     es: 과일 가게
   - eu: supermerkatua
-    es: supermercado
+    es: 슈퍼마켓
   - eu: kutxazain automatikoa
     es: 현금 자동 입출금기
 - id: ex-dendak-mc1
@@ -90,7 +90,7 @@ Euskal Herria에서 장을 보러 갈 때, 특히 마을이나 동네에서는 �
 
 ## 식료품 가게
 
-| 바스크어 | 스페인어 | 파는 것 |
+| 바스크어 | 한국어 | 파는 것 |
 |---|---|---|
 | *harategia* | 정육점 | haragia (고기) |
 | *okindegia* | 빵집 | ogia (빵) |
@@ -113,7 +113,7 @@ Euskal Herria에서 장을 보러 갈 때, 특히 마을이나 동네에서는 �
 
 ## 기타 유용한 장소
 
-| 바스크어 | 스페인어 |
+| 바스크어 | 한국어 |
 |---|---|
 | *kutxazain automatikoa* | 현금 자동 입출금기 |
 | *banketxea* | 은행 |

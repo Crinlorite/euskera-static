@@ -47,7 +47,7 @@ exercises:
   - eu: jatorra
     es: simpático/a (amigável)
   - eu: atsegina
-    es: agradable
+    es: agradável
   - eu: alaia
     es: alegre
   - eu: lasaia
@@ -55,7 +55,7 @@ exercises:
   - eu: berritsua
     es: tagarela
   - eu: zaratatsua
-    es: ruidoso/a
+    es: barulhento/a
 - id: ex-10-05-fc
   type: flashcards
   cards:

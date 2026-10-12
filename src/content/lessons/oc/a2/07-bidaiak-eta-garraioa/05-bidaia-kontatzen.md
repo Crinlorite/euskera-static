@@ -114,7 +114,7 @@ Fixa-te ena barreja de temps verbals, que ja contròles: *joan ginen* (pontuau) 
 
 ## Frases de veredicte
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Mos ac passèrem fòrça ben | *Primeran pasatu genuen* |
 | Valec era pena | *Merezi izan zuen* |

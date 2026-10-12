@@ -85,17 +85,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: paper
   - eu: plastikoa
     es: plastic
   - eu: beira
-    es: vidrio
+    es: glass
   - eu: organikoa
     es: organic
   - eu: pila
-    es: pila
+    es: battery
   - eu: olioa
-    es: aceite
+    es: oil
 ---
 
 Talking about **lifestyle** and the **environment** is a classic A2 block: it mixes new vocabulary with phrases of obligation and advice (*behar dugu*, *komeni da*, *garrantzitsua da*) that you've known since A1.

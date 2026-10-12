@@ -85,7 +85,7 @@ exercises:
   - eu: 1984an ezkondu ziren
     es: Se maridèren en 1984
   - eu: Hiru seme-alaba izan zituzten
-    es: Tuvieron tres hijos
+    es: Agueren tres hilhs
   - eu: 2020an erretiroa hartu zuen
     es: Se jubilèc en 2020
 ---
@@ -94,7 +94,7 @@ Darrèra unitat deth nivèu — era de **ligar caps**. Començam damb era pròva
 
 ## Es hitos d'ua vida
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Néisher | *jaio* (jaio nintzen/zen) |
 | Créisher | *hazi* |

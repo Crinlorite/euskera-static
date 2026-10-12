@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: 桌子
   - eu: aulkia
-    es: silla
+    es: 椅子
   - eu: ohea
-    es: cama
+    es: 床
   - eu: armairua
-    es: armario
+    es: 衣柜
   - eu: sofa
     es: 沙发
   - eu: telebista
     es: 电视
   - eu: hozkailua
-    es: nevera
+    es: 冰箱
 - id: ex-09-02-mc1
   type: multiple-choice
   prompt: '"hozkailua" 在哪个房间？'

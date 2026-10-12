@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" vuol dire…'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Sto peggio
+  - Sto bene
+  - Sto meglio
+  - Sto uguale
   answer: 2
   explanation: '*Hobeto* = meglio. *Hobe* è l''aggettivo "migliore" e *hobeto* l''avverbio.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: Ti fa male?
   - eu: Hartu hau
-    es: Toma esto
+    es: Prendi questo
   - eu: Itzuli astebete barru
     es: Torni tra una settimana
   - eu: Atseden hartu
-    es: Descansar
+    es: Riposare
 ---
 
 Questa lezione è una **simulazione completa di una visita medica**. Unisce il vocabolario della lezione precedente con espressioni di tempo (ogni quanto, prima/dopo) e formule frequenti. La visita medica è uno dei contesti più utili per il livello A2: compare in qualsiasi esame ufficiale.

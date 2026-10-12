@@ -97,7 +97,7 @@ exercises:
   - eu: Berandu dabil
     es: Jest opóźniony
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: Dotarliśmy na czas
 ---
 
 Drugi przystanek: **kupić bilet i nie spóźnić się na pociąg**. Tutaj wykorzystasz dwie umiejętności z poziomu A1 — *zenbat balio du?* (ceny) i godziny — i użyjesz ich w kasie biletowej.

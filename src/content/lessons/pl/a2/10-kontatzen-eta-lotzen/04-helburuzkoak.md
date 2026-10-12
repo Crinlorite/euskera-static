@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Dokąd idziesz?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: Kupić chleb
   - eu: Zertara etorri da?
     es: Po co przyszedł/przyszła?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ Pytanie: ***Zertara** etorri zara?* (po co przyszedłeś/aś?) → *Laguntzera!*
 | Nie — to jest „żeby”/„w celu” | **-tzeko** | *Hau ikasteko da* |
 | Tak — idziesz/przychodzisz, żeby... | **-tzera** | *Ikastera noa* |
 
-> Klasyczna pułapka z hiszpańskiego: „voy a comprar” (idę kupić) to w baskijskim NIE jest czas przyszły — to ruch: *erostera noa*. Prawdziwy czas przyszły już znasz: *erosiko dut*.
+> Klasyczna pułapka: „idę kupić” to w baskijskim NIE jest czas przyszły — to ruch: *erostera noa*. Prawdziwy czas przyszły już znasz: *erosiko dut*.
 
 ## Wszystko razem (i z wczorajszymi konstrukcjami czasowymi)
 

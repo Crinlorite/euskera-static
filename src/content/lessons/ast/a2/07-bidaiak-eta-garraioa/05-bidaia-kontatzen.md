@@ -114,7 +114,7 @@ Fíxate nel amiestu de tiempos, que yá controles: *joan ginen* (puntual) + *jai
 
 ## Frases de veredictu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Pasámoslo xenial | *Primeran pasatu genuen* |
 | Valió la pena | *Merezi izan zuen* |

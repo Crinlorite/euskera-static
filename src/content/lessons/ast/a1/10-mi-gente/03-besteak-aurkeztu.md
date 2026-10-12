@@ -33,7 +33,7 @@ exercises:
   explanation: '"Bera" o "hura" signifiquen él/ella n''eusquera. "Bera" ye la forma más usada na fala cotidiana.'
 - id: ex-10-03-mc2
   type: multiple-choice
-  prompt: '"Bera nire lankidea da" significa...'
+  prompt: '"Bera nire lankidea da" quier dicir...'
   options:
   - Soi la so compañera
   - Yes el mio compañeru
@@ -45,9 +45,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: esti/esta (cerca)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: esi/esa (a media distancia)
   - eu: hura
     es: aquel/aquella
   - eu: bera

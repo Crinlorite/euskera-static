@@ -102,13 +102,13 @@ exercises:
   - eu: Nora zoaz?
     es: Aonde você vai?
   - eu: Etxera noa
-    es: Voy a casa
+    es: Vou para casa
   - eu: Eskolara noa
     es: Vou para a escola
   - eu: Zertara zoaz?
     es: Fazer o quê?
   - eu: Erostera
-    es: A comprar
+    es: Fazer compras
 ---
 
 O **caso NORA** (também chamado de *adlativo*) marca **o destino** de um movimento: para onde você vai. Em português, traduz-se normalmente com a preposição **"a"** ou **"para"** ("vou *para* casa", "*para* Bilbao", "*ao* parque").

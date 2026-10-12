@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTURE: I will go'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'ONE-OFF PAST: I went'
   - eu: Joaten nintzen
-    es: 'PAST habit: I used to go'
+    es: 'PAST habit: I would go'
   - eu: Joan ohi nintzen
     es: 'PAST habit: I used to go'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'NOW: I''m going'
 ---
 
 Last lesson of the unit — and the end of a huge cycle: with the future tense in the bag, **you master the three tenses**. This lesson adds the finishing touch (*ohi*, the Basque equivalent of "to usually do") and has you move the same idea through the past, present-habit, and future. This is exactly what an A2 panel wants to hear.
@@ -106,7 +106,7 @@ Last lesson of the unit — and the end of a huge cycle: with the future tense i
 
 > **participle + ohi + auxiliary**
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | I usually go to work by bike | *Lanera bizikletaz joan **ohi** naiz* |
 | We usually eat at grandma's | *Amonaren etxean bazkaldu **ohi** dugu* |

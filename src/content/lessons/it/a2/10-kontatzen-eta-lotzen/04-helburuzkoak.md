@@ -89,7 +89,7 @@ exercises:
   - eu: Nora zoaz?
     es: Dove vai?
   - eu: Ogia erostera
-    es: A comprar pan
+    es: A comprare il pane
   - eu: Zertara etorri da?
     es: A cosa è venuto/a?
   - eu: Agur esatera
@@ -131,7 +131,7 @@ La domanda: ***Zertara** etorri zara?* (a cosa sei venuto/a?) → *Laguntzera!* 
 | No — è un "per" | **-tzeko** | *Hau ikasteko da* |
 | Sì — vai/vieni A | **-tzera** | *Ikastera noa* |
 
-> Classica trappola dello spagnolo: "voy a comprar" NON è futuro in euskera — è movimento: *erostera noa*. Il futuro vero e proprio ce l'hai già: *erosiko dut*.
+> Classica trappola: «vado a comprare» NON è futuro in euskera — è movimento: *erostera noa*. Il futuro vero e proprio ce l'hai già: *erosiko dut*.
 
 ## Tutto insieme (e con le temporali di ieri)
 

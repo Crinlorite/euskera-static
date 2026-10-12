@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: Sono contento
   - eu: Triste dago
     es: È triste
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: Ho paura
   - eu: Haserre dago
     es: È arrabbiato
   - eu: Lotsa ematen dit
@@ -231,7 +231,7 @@ Queste sono costruzioni che compaiono in qualsiasi esame A2:
 >
 > *Bai goizean, bai arratsaldean, lan egin behar dut.* — Sia di mattina che di pomeriggio devo lavorare.
 
-## Mini-texto opinión
+## Mini-testo di opinione
 
 > *Niretzat **garrantzitsua** da gauean ondo lo egitea. **Alde batetik**, lasaitu egiten gara. **Bestetik**, hurrengo egunean indartsuago **gaude**. **Gainera**, osasunarentzat ezinbestekoa da: zazpi-zortzi ordu lo egiten ez **baditugu**, gaixotzeko probabilitate **handiagoa** dugu. **Hala ere**, ez da beti erraza izaten: askotan ezin dut lo hartu **kezkatuta nagoelako**. **Beraz**, lo egiten lagunduko didan errutina bat behar dut.*
 

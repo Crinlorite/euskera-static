@@ -84,21 +84,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: pozik
-    es: contento
+    es: うれしい
   - eu: triste
-    es: triste
+    es: 悲しい
   - eu: nekatuta
-    es: cansado
+    es: 疲れている
   - eu: haserre
-    es: enfadado
+    es: 怒っている
   - eu: gaixorik
-    es: enfermo
+    es: 病気の
   - eu: ondo
-    es: bien
+    es: 元気
   - eu: gaizki
-    es: mal
+    es: 具合が悪い
   - eu: lasai
-    es: tranquilo (ahora)
+    es: 落ち着いている（今）
 ---
 
 バスク語には、日本語の「いる・ある」が持つ意味を、二つの動詞で言い分けることがあります。すでに **izan**（性質を表す「〜です、〜である」）は学びましたね。今回は **egon** です。これは、誰かや何かが**一時的**にどういう**状態**か、どこにいるか・あるかを表すときに使います。例えば、誰かが今日、今まさに、この瞬間にどんな状態か、といった場合です。

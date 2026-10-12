@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: tia
   - eu: lehengusu
-    es: primo
+    es: cosí
   - eu: lehengusina
-    es: prima
+    es: cosina
   - eu: iloba
-    es: sobrino/a
+    es: nebot/neboda
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" és...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - cosí
+  - germà
+  - avi
+  - sogre
   answer: 0
 - id: ex-fe-fc
   type: flashcards

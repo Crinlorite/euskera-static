@@ -22,7 +22,7 @@ exercises:
   explanation: '*Errolda* = el padró; *errolda-agiria* = el certificat d''empadronament. El paper més demanat de l''ajuntament.'
 - id: ex-a2-ge2-mc2
   type: multiple-choice
-  prompt: '"Hitzordua eskatu behar duzu webgunean" significa que…'
+  prompt: '"Hitzordua eskatu behar duzu webgunean" vol dir que…'
   options:
   - Pots anar-hi sense cita
   - Cal demanar cita al web
@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: Demanar cita
   - eu: Eskabidea bete
     es: Emplenar la sol·licitud
   - eu: NANaren fotokopia

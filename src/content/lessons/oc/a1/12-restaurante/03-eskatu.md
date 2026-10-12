@@ -86,7 +86,7 @@ Eth cambrèr daurirà damb bèra d'aguestes:
 
 Entà organizar çò que demanatz, i a tres marcadors fòrça utils:
 
-| Euskera | Occitan |
+| Euskera | Aranés |
 |---|---|
 | *Hasteko...* | Entà començar... |
 | *Bigarrenerako...* | De dusau... |

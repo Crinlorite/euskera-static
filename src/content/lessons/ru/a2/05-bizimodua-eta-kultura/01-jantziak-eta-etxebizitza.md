@@ -88,17 +88,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alkandora
-    es: camisa
+    es: рубашка
   - eu: galtzak
-    es: pantalones
+    es: брюки
   - eu: soineko
-    es: vestido
+    es: платье
   - eu: jertsea
-    es: jersey
+    es: свитер
   - eu: zapatak
-    es: zapatos
+    es: туфли
   - eu: beroki
-    es: abrigo
+    es: пальто
 ---
 
 На уровне A1 вы изучили базовую лексику по темам **одежда** и **дом**. На уровне A2 вы расширите её до более конкретных понятий: **размеры, примерочная, аксессуары**, а также **жильё как социальное пространство** (аренда, владелец, район, сад).

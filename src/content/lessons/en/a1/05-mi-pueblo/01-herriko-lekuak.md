@@ -18,15 +18,15 @@ exercises:
   - eu: okindegia
     es: bakery
   - eu: botika
-    es: farmacia
+    es: pharmacy
   - eu: liburutegia
-    es: biblioteca
+    es: library
   - eu: eliza
-    es: iglesia
+    es: church
   - eu: merkatua
-    es: mercado
+    es: market
   - eu: banketxea
-    es: banco
+    es: bank
   - eu: ospitalea
     es: hospital
 - id: ex-hl-mc1

@@ -15,10 +15,10 @@ exercises:
   type: multiple-choice
   prompt: 「Alaia」の意味は…
   options:
-  - aburrido
-  - alegre
-  - nervioso
-  - callado
+  - 退屈な
+  - 陽気な
+  - 神経質な
+  - 無口な
   answer: 1
   explanation: '*alaia* は「陽気な」です。最も一般的な性格を表す形容詞の一つです。'
 - id: ex-iza-mc2
@@ -87,19 +87,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: alaia
-    es: alegre
+    es: 陽気な
   - eu: isila
-    es: callado
+    es: 無口な
   - eu: berritsua
-    es: hablador
+    es: おしゃべりな
   - eu: lasaia
-    es: tranquilo
+    es: 落ち着いた
   - eu: urduria
-    es: nervioso
+    es: 神経質な
   - eu: langilea
-    es: trabajador
+    es: 働き者の
   - eu: alferra
-    es: vago
+    es: 怠け者の
   - eu: jatorra
     es: 感じの良い
 ---

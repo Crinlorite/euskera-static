@@ -89,7 +89,7 @@ exercises:
   - eu: Aste Nagusia
     es: الأسبوع الكبير في بلباو
   - eu: Aratusteak
-    es: carnavales
+    es: الكرنفال
   - eu: Santa Ageda
     es: أناشيد عند البيوت
 ---

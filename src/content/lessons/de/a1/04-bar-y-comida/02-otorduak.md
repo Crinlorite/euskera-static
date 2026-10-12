@@ -75,19 +75,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: Frühstück
   - eu: hamaiketakoa
     es: Vormittagsimbiss
   - eu: bazkaria
     es: Mittagessen
   - eu: askaria
-    es: merienda
+    es: Nachmittagsimbiss
   - eu: afaria
-    es: cena
+    es: Abendessen
   - eu: jan
-    es: comer
+    es: essen
   - eu: edan
-    es: beber
+    es: trinken
 ---
 
 Jede Mahlzeit des Tages hat im Baskischen ihren eigenen Namen. Diese zu kennen, wird dir helfen, über deinen Tagesablauf zu sprechen. Es gibt außerdem eine spezifisch baskische Mahlzeit, für die es im Deutschen keine direkte Entsprechung gibt: das **hamaiketako**.
@@ -118,7 +118,7 @@ Jede Mahlzeit des Tages hat im Baskischen ihren eigenen Namen. Diese zu kennen, 
 
 ## Hunger und Durst
 
-Um auf Baskisch „Ich habe Hunger“ / „Ich habe Durst“ zu sagen, wird **nicht das Verb „haben“** verwendet (wie im Deutschen oder Spanischen), sondern das Verb **izan** („sein“):
+Um auf Baskisch „Ich habe Hunger“ / „Ich habe Durst“ zu sagen, wird **nicht das Verb „haben“** verwendet (wie im Deutschen), sondern das Verb **izan** („sein“):
 
 - **Gose naiz.** — Ich habe Hunger. (wörtlich: „ich bin hungrig“)
 - **Egarri naiz.** — Ich habe Durst. (wörtlich: „ich bin durstig“)

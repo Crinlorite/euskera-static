@@ -75,15 +75,15 @@ exercises:
     es: 나는 일어났다
 ---
 
-바스크어에서는 최근에, 특히 오늘 한 일에 대해 말할 때 **orainaldi burutua**(문자 그대로 '현재 완료')를 사용합니다. 이는 스페인어의 *he comido / he ido*에 해당하며, **최근 과거** 시제로 알려져 있습니다.
+바스크어에서는 최근에, 특히 오늘 한 일에 대해 말할 때 **orainaldi burutua**(문자 그대로 '현재 완료')를 사용합니다. 이는 한국어의 "(오늘) 먹었다 / 갔다"에 해당하며, **최근 과거** 시제로 알려져 있습니다.
 
 ## 공식은 매우 간단합니다
 
-> **Partizipioa + auxiliar (izan o ukan)**
+> **Partizipioa + 조동사 (izan 또는 ukan)**
 
 이전 단원에서 배운 습관상과 비교하면, 유일한 차이점은 동사에 **-tzen / -ten**이 붙지 않는다는 것입니다:
 
-| 습관상 | 최근 과거 | 스페인어 |
+| 습관상 | 최근 과거 | 한국어 |
 |---|---|---|
 | *gosaltzen dut* | **gosaldu dut** | 아침을 먹는다 → 아침을 먹었다 |
 | *jaten dut* | **jan dut** | 먹는다 → 먹었다 |
@@ -91,7 +91,7 @@ exercises:
 | *etortzen naiz* | **etorri naiz** | 온다 → 왔다 |
 | *ikusten dut* | **ikusi dut** | 본다 → 봤다 |
 
-> **스페인어에서** 현재 습관상과 현재 완료 복합 시제의 차이와 같습니다:
+> **비교해 보세요:** 습관을 나타내는 현재와 최근 과거의 차이입니다:
 >
 > - *Egunero euskaltegira **joaten naiz**.* — 매일 euskaltegi에 갑니다.
 > - *Gaur goizean euskaltegira **joan naiz**.* — 오늘 아침에 euskaltegi에 갔습니다.
@@ -106,7 +106,7 @@ exercises:
 
 ## 두 가지 조동사 — 간단 복습
 
-### Con izan (NOR) — naiz / zara / da / gara / zarete / dira
+### izan과 함께 (NOR) — naiz / zara / da / gara / zarete / dira
 
 | 대명사 | 조동사 | 예시 |
 |---|---|---|
@@ -117,7 +117,7 @@ exercises:
 | zuek (너희) | zarete | *etorri **zarete*** (왔다) |
 | haiek (그들) | dira | *joan **dira*** (갔다) |
 
-### Con ukan (NOR-NORK) — dut / duzu / du / dugu / duzue / dute
+### ukan과 함께 (NOR-NORK) — dut / duzu / du / dugu / duzue / dute
 
 | 대명사 | 조동사 | 예시 |
 |---|---|---|

@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: A cere o programare
   - eu: Eskabidea bete
     es: A completa cererea
   - eu: NANaren fotokopia
@@ -146,4 +146,4 @@ Boss-ul final al vieții de adult: **birocrația**. Respiră: cu zece cuvinte bi
 >
 > ***Nork sinatu behar du**?* — Cine trebuie să semneze?
 
-> **Notă:** *hitzordua* înseamnă literalmente „ora cuvântului” (*hitza* + *ordua*) — programarea la medic, la primărie sau o întâlnire romantică: același cuvânt. Contextul (și expresia feței) face restul. 😄
+> **Notă:** *hitzordua* înseamnă literal „ora cuvântului” (*hitza* + *ordua*) — programarea la medic, la primărie sau o întâlnire romantică: același cuvânt. Contextul (și expresia feței) face restul. 😄

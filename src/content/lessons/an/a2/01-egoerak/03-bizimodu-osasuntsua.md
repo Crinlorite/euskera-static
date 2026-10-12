@@ -85,24 +85,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: papera
-    es: papel
+    es: paper
   - eu: plastikoa
     es: plastico
   - eu: beira
-    es: vidrio
+    es: veire
   - eu: organikoa
     es: organico
   - eu: pila
     es: pila
   - eu: olioa
-    es: aceite
+    es: olio
 ---
 
 Parlar d'**estilo de vida** y **medio ambient** ye un bloque clasico de l'A2: se mestura vocabulario nuevo con frases d'obligación y consello (*behar dugu*, *komeni da*, *garrantzitsua da*) que ya fas servir dende l'A1.
 
 ## Habitos saludables
 
-| Castellán | Basco |
+| Aragonés | Basco |
 |---|---|
 | Fer esporte | *kirola egin* |
 | Caminar / paseyar | *paseatu* / *ibili* |
@@ -125,7 +125,7 @@ Parlar d'**estilo de vida** y **medio ambient** ye un bloque clasico de l'A2: se
 
 Pa decir "X vegadas" fas servir a formula **numero + aldiz**:
 
-| Castellán | Basco |
+| Aragonés | Basco |
 |---|---|
 | Una vegada a o día | *Egunean behin* |
 | Dos vegadas a la semana | *Astean bi aldiz* / *birritan* |
@@ -137,7 +137,7 @@ Pa decir "X vegadas" fas servir a formula **numero + aldiz**:
 
 ## Medio ambient — *ingurumena*
 
-| Castellán | Basco |
+| Aragonés | Basco |
 |---|---|
 | Medio ambient | *ingurumena* |
 | Naturaleza | *natura* |
@@ -154,7 +154,7 @@ Pa decir "X vegadas" fas servir a formula **numero + aldiz**:
 
 | Color habitual | Basco | Pa qué |
 |---|---|---|
-| Azul | *edukiontzi urdina* | papera / papel |
+| Azul | *edukiontzi urdina* | papera / paper |
 | Amariello | *edukiontzi horia* | plastikoa / plastico |
 | Verde | *edukiontzi berdea* | beira / veire |
 | Marrón | *edukiontzi marroia* | organikoa / organico |
@@ -171,7 +171,7 @@ Pa decir "X vegadas" fas servir a formula **numero + aldiz**:
 
 ## Vida d'o vico
 
-| Castellán | Basco |
+| Aragonés | Basco |
 |---|---|
 | Vico | *auzoa* |
 | Vecín/a | *bizilaguna* |

@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: 我吃了
   - eu: edan dut
-    es: he bebido
+    es: 我喝了
   - eu: ikusi dut
-    es: he visto
+    es: 我看了
   - eu: irakurri dut
     es: 我读了
   - eu: erosi dut
-    es: he comprado
+    es: 我买了
   - eu: egin dut
-    es: he hecho
+    es: 我做了
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: 我拿了
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: 我学了
 - id: ex-02-jed-fc
   type: flashcards
   cards:
@@ -106,7 +106,7 @@ exercises:
 
 ## 基本及物动词
 
-| Partizipioa | 我 (he…) | 中文意思 |
+| Partizipioa | 我 (he…) | 中文 |
 |---|---|---|
 | *jan* | **jan dut** | 我吃了 |
 | *edan* | **edan dut** | 我喝了 |
@@ -133,7 +133,7 @@ exercises:
 
 我们以 *ikusi* (看) 为例：
 
-| 代词 + 主语 | 形式 | 中文意思 |
+| 代词 + 主语 | 形式 | 中文 |
 |---|---|---|
 | Nik | **ikusi dut** | 我看了 |
 | Zuk | **ikusi duzu** | 你看了 |

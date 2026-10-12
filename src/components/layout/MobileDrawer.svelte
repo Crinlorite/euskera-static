@@ -14,7 +14,7 @@
   ];
 </script>
 
-<button class="trigger" aria-label="Menú" aria-expanded={open} on:click={() => (open = !open)}>
+<button class="trigger" aria-label={t(locale, 'a11y.menu')} aria-expanded={open} on:click={() => (open = !open)}>
   <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
     {#if open}
       <path d="M6 6l12 12M6 18L18 6" stroke="currentColor" stroke-width="2" fill="none" />

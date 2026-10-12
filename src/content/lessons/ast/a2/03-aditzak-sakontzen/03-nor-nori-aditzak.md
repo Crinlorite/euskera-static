@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ad3-mc1
   type: multiple-choice
-  prompt: '"Filmak gustatzen zaizkit" significa…'
+  prompt: '"Filmak gustatzen zaizkit" quier dicir…'
   options:
   - Préstame'l cine
   - Préstame una película
@@ -22,7 +22,7 @@ exercises:
   explanation: '*Zaizkit* = "préstenme (a min)" — NOR-NORI con NOR plural.'
 - id: ex-a2-ad3-mc2
   type: multiple-choice
-  prompt: ¿Qué significa "Ahaztu zait"?
+  prompt: ¿Qué quier dicir "Ahaztu zait"?
   options:
   - Escaecílo
   - Escaecióseme
@@ -134,7 +134,7 @@ Pa NOR **plural**:
 
 ## Estructura: el suxetu ye la cosa
 
-> **NORI + NOR + verbo + NOR-NORI auxiliar**
+> **NORI + NOR + verbu + auxiliar NOR-NORI**
 
 | Asturianu | Vascu | Notación |
 |---|---|---|

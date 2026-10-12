@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: ich ging (gerade)
   - eu: nentorren
     es: ich kam
   - eu: nenbilen
-    es: andaba yo
+    es: ich lief herum
   - eu: neukan
     es: ich hatte
   - eu: nekien
     es: ich wusste
   - eu: nengoen
-    es: estaba yo
+    es: ich war (irgendwo)
 ---
 
 Die **synthetischen Verben** (*aditz trinkoak*) sind die wenigen baskischen Verben, die **ohne Hilfsverb** in einem einzigen Wort konjugiert werden. Du kennst bereits ihre Präsensformen: *noa, nator, nabil, daukat, dakit, nago*. In der Vergangenheit haben sie parallele Formen, die man erkennen und, die häufigsten, beherrschen sollte.
@@ -145,7 +145,7 @@ Das ist die Schlüsselfrage. Ungefähr:
 | **Joan nintzen** (analytisch + Partizip) | Punktuelles, abgeschlossenes, vollständiges Ereignis | *Atzo Bilbora **joan nintzen** zortzietan.* (= gestern ging ich um acht nach Bilbao) |
 | **Nindoan** (synthetisch) | Andauernde Handlung, Gewohnheit, Beschreibung der Vergangenheit | *Bilborantz **nindoan**, ezagun bat ikusi nuenean.* (= ich ging gerade in Richtung Bilbao, als ich einen Bekannten sah) |
 
-> **Schnellregel:** Die synthetische Form (*nindoan, nentorren, nenbilen*) beschreibt die **Szene** der Vergangenheit. Die Form mit Partizip (*joan nintzen, etorri nintzen*) erzählt das **Ereignis** der Vergangenheit. Der Unterschied ist dem von *iba* / *fui* im Spanischen sehr ähnlich.
+> **Schnellregel:** Die synthetische Form (*nindoan, nentorren, nenbilen*) beschreibt die **Szene** der Vergangenheit. Die Form mit Partizip (*joan nintzen, etorri nintzen*) erzählt das **Ereignis** der Vergangenheit. Es ist der Unterschied zwischen „ich war unterwegs“ (Szene) und „ich ging hin“ (Ereignis).
 
 ## Synthetische NOR-NORK-Verben: *neukan*, *nekien*
 

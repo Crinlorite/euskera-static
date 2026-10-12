@@ -18,15 +18,15 @@ exercises:
   - eu: okindegia
     es: fleca
   - eu: botika
-    es: farmacia
+    es: farmàcia
   - eu: liburutegia
     es: biblioteca
   - eu: eliza
-    es: iglesia
+    es: església
   - eu: merkatua
-    es: mercado
+    es: mercat
   - eu: banketxea
-    es: banco
+    es: banc
   - eu: ospitalea
     es: hospital
 - id: ex-hl-mc1
@@ -112,7 +112,7 @@ exercises:
   - eu: tren-geltokia
     es: estació de tren
   - eu: gasolindegia
-    es: gasolinera
+    es: benzinera
 ---
 
 Abans de saber donar indicacions, necessites el vocabulari bàsic per parlar del barri (**auzoa**) i del poble (**herria**). En aquesta lliçó reunim els llocs i serveis més típics.
@@ -162,7 +162,7 @@ Abans de saber donar indicacions, necessites el vocabulari bàsic per parlar del
 | *autobus-geltokia* | parada d'autobús |
 | *tren-geltokia* | estació de tren |
 | *aireportua* | aeroport |
-| *gasolindegia* | gasolinera |
+| *gasolindegia* | benzinera |
 | *aparkalekua* | aparcament |
 
 ## El sufix -tegi i companyia

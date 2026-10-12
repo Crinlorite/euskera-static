@@ -15,15 +15,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: professor/a
   - eu: ikaslea
-    es: estudiante
+    es: estudiant
   - eu: medikua
     es: metge/essa
   - eu: erizaina
-    es: enfermero/a
+    es: infermer/a
   - eu: sukaldaria
-    es: cocinero/a
+    es: cuiner/a
   - eu: kazetaria
     es: periodista
 - id: ex-10-02-mc1
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: '"Mekanikaria" treballa amb...'
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - malalts
+  - llibres
+  - cotxes
+  - nens
   answer: 2
   explanation: '"Mekanikaria" és el mecànic, sol treballar en tallers amb cotxes.'
 - id: ex-10-02-fb1

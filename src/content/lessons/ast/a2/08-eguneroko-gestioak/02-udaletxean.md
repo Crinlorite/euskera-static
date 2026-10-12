@@ -22,9 +22,9 @@ exercises:
   explanation: '*Errolda* = el padrón; *errolda-agiria* = el certificáu d''empadronamientu. El papel más pidíu del conceyu.'
 - id: ex-a2-ge2-mc2
   type: multiple-choice
-  prompt: '"Hitzordua eskatu behar duzu webgunean" significa que…'
+  prompt: '"Hitzordua eskatu behar duzu webgunean" quier dicir que…'
   options:
-  - Puedes dir sin cita
+  - Puedes dir ensin cita
   - Hai que pidir cita na web
   - La web nun funciona
   - Van llamate ellos
@@ -104,7 +104,7 @@ El xefe final de la vida adulta: **el papeleo**. Respira: con diez palabres bien
 
 ## El vocabulariu del papeleo
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El conceyu | *udaletxea* |
 | El padrón / empadronase | *errolda / erroldatu* |

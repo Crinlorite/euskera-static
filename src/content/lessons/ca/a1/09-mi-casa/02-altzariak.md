@@ -15,13 +15,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: mahaia
-    es: mesa
+    es: taula
   - eu: aulkia
-    es: silla
+    es: cadira
   - eu: ohea
-    es: cama
+    es: llit
   - eu: armairua
-    es: armario
+    es: armari
   - eu: sofa
     es: sofà
   - eu: telebista
@@ -40,7 +40,7 @@ exercises:
   explanation: '"Hozkailua" (nevera) està sempre a la cuina (sukaldean).'
 - id: ex-09-02-mc2
   type: multiple-choice
-  prompt: '"Gau-mahaia" significa…'
+  prompt: '"Gau-mahaia" vol dir…'
   options:
   - taula de menjador
   - taula de treball
@@ -144,7 +144,7 @@ Cada habitació té el seu mobiliari. La paraula general per a "moble" és **alt
 |---|---|
 | *dutxa* | dutxa |
 | *bainuontzia* | banyera |
-| *konketa* | lavabo |
+| *konketa* | pica |
 | *ispilua* | mirall |
 | *eskuoihala* | tovallola |
 | *komuneko papera* | paper higiènic |

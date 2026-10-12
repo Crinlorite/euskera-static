@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-01-kaixo-mc1
   type: multiple-choice
-  prompt: ¿Qué significa "Kaixo"?
+  prompt: ¿Qué quier dicir "Kaixo"?
   options:
   - Hola
   - Adiós
@@ -33,7 +33,7 @@ exercises:
   explanation: '"Gabon" úsase pela nueche, tamién pa "bones nueches" al despidise.'
 - id: ex-01-kaixo-mc3
   type: multiple-choice
-  prompt: '"Aspaldiko" significa…'
+  prompt: '"Aspaldiko" quier dicir…'
   options:
   - ¡Hasta mañana!
   - ¡Cuánto tiempu ensin verte!
@@ -80,11 +80,11 @@ exercises:
   - eu: Egun on
     es: Bonos díes
   - eu: Gabon
-    es: Buenas noches
+    es: Bones nueches
   - eu: Gero arte
-    es: Hasta luego
+    es: Hasta llueu
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Munches gracies
 ---
 
 N'euskera, los saludos camuden según el momentu del día. La fórmula universal y la más común ye **Kaixo**, que s'usa a cualquier hora con cuasi cualquier persona — igual que'l "hola" n'asturianu. **Hepa** o **Aupa** son alternatives entá más informales, sobre too ente la xente moza y los amigos.

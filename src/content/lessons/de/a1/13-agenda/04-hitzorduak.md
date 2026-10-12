@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: Termin
   - eu: bilera
     es: Besprechung
   - eu: libre
-    es: libre
+    es: frei
   - eu: lanpetuta
-    es: ocupado/a
+    es: beschäftigt
   - eu: geratu
-    es: quedar
+    es: sich verabreden
   - eu: geratuko gara
-    es: quedaremos
+    es: wir verabreden uns
 ---
 
 Ein voller Terminkalender ist voll von Terminen und Verabredungen. In dieser Lektion lernst du, darüber zu sprechen: einen Termin haben, sich mit jemandem treffen und sagen, ob du Zeit hast.

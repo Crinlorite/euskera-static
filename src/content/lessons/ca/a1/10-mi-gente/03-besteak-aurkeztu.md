@@ -33,7 +33,7 @@ exercises:
   explanation: '"Bera" o "hura" signifiquen ell/ella en basc. "Bera" és la forma més usada en la parla quotidiana.'
 - id: ex-10-03-mc2
   type: multiple-choice
-  prompt: '"Bera nire lankidea da" significa...'
+  prompt: '"Bera nire lankidea da" vol dir...'
   options:
   - Soc la seva companya
   - Ets el meu company
@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: aquest/a (a prop)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: aqueix/a (a mitja distància)
   - eu: hura
-    es: aquel/aquella
+    es: aquell/a
   - eu: bera
     es: ell/a
   - eu: haiek
-    es: ellos/ellas
+    es: ells/elles
   - eu: Nor da hau?
     es: Qui és aquest/a?
 - id: ex-10-03-fc

@@ -84,7 +84,7 @@ exercises:
     es: ensinoumo
 ---
 
-O **NOR-NORI-NORK** é o verbo de **tres argumentos**: alguén (NORK) fai algo (NOR) **a alguén** (NORI). En castelán corresponde ás construcións con dobre pronome — *te lo doy*, *se lo dije*, *me lo enseñó*.
+O **NOR-NORI-NORK** é o verbo de **tres argumentos**: alguén (NORK) fai algo (NOR) **a alguén** (NORI). En galego corresponde ás construcións con dous pronomes — *dóucheo*, *díxenllo*, *ensinoumo*.
 
 É o verbo máis complexo do éuscaro, pero en A2 chégache con dominar os **patróns máis usados**.
 

@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: Lubię czytać
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Lubi śpiewać
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Lubimy podróżować
   - eu: Margotzen dakit
     es: Umiem malować
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Idę potańczyć
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Właśnie gotuję
 ---
 
 Co robisz, kiedy nic nie robisz? Ta lekcja dotyczy **hobby** — i elementu gramatyki, który nimi rządzi: czasownika przekształconego w rzeczownik za pomocą **-tzea** (*irakurtzea* = "czytanie").

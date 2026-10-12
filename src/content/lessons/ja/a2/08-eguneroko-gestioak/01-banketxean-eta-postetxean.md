@@ -78,9 +78,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Dirua atera
-    es: Sacar dinero
+    es: お金を引き出す
   - eu: Dirua sartu
-    es: Ingresar dinero
+    es: お金を預ける
   - eu: Transferentzia egin
     es: 振込をする
   - eu: Paketea bidali
@@ -95,7 +95,7 @@ exercises:
 
 ## 銀行で (banketxea)
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 口座 | *kontua* |
 | 口座を開設する | *kontua ireki / zabaldu* |
@@ -116,7 +116,7 @@ exercises:
 
 ## 郵便局で (postetxea)
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 手紙 | *gutuna* |
 | 小包 | *paketea* |

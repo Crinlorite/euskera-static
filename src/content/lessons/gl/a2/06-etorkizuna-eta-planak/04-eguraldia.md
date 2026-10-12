@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'A previsión di: "Bihar eguzkia aterako da". Que che espera mañá?'
   options:
-  - Lluvia
-  - Viento fuerte
+  - Chuvia
+  - Vento forte
   - Sol
-  - Niebla
+  - Néboa
   answer: 2
   explanation: '*Eguzkia atera* = saír o sol; en futuro, *aterako da* — mañá fará sol.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Sairá o sol
   - eu: Haizea dabil
-    es: Hace viento
+    es: Vai vento
   - eu: Hotz handia egiten du
     es: Fai moito frío
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Outras pezas co seu propio verbo:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Está anubrado / solleiro.
 
-> **Fíxate:** o tempo en éuscaro "**fai**" cousas con *egin* e auxiliar **du** (sen suxeito visible): *euria egingo du*, *bero handia egiten du*. É calcado ao castelán «hace calor» — só que tamén a chuvia se «fai».
+> **Fíxate:** o tempo en éuscaro "**fai**" cousas con *egin* e auxiliar **du** (sen suxeito visible): *euria egingo du*, *bero handia egiten du*. É coma o galego «fai calor» — só que tamén a chuvia se «fai».
 
 ## Como se pregunta
 

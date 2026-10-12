@@ -102,25 +102,25 @@ exercises:
   - eu: Nora zoaz?
     es: إلى أين تذهب؟
   - eu: Etxera noa
-    es: Voy a casa
+    es: أنا ذاهب إلى البيت
   - eu: Eskolara noa
     es: أنا ذاهب إلى المدرسة
   - eu: Zertara zoaz?
     es: لأي غرض تذهب؟
   - eu: Erostera
-    es: A comprar
+    es: للتسوّق
 ---
 
-تُستخدم **حالة NORA** (تُسمى أيضًا *adlativo*) لتحديد **وجهة** الحركة: إلى أين تذهب. في الإسبانية، تُترجم عادةً بحرف الجر **"a"** (أي "إلى") (مثل "voy *a* casa"، "*a* Bilbao"، "*al* parque").
+تُستخدم **حالة NORA** (تُسمى أيضًا *adlatiboa*) لتحديد **وجهة** الحركة: إلى أين تذهب. وتقابلها في العربية **«إلى»** («إلى البيت»، «إلى بلباو»، «إلى الحديقة»).
 
 ## السؤال: Nora؟
 
-| السؤال | الإسبانية |
+| السؤال | العربية |
 |---|---|
-| ***Nora* zoaz?** | ¿Adónde vas? |
-| ***Nora* doa?** | ¿Adónde va? |
-| ***Nora* goaz?** | ¿Adónde vamos? |
-| ***Nora* doaz?** | ¿Adónde van? |
+| ***Nora* zoaz?** | إلى أين تذهب؟ |
+| ***Nora* doa?** | إلى أين يذهب؟ |
+| ***Nora* goaz?** | إلى أين نذهب؟ |
+| ***Nora* doaz?** | إلى أين يذهبون؟ |
 
 ## اللاحقة: -ra
 

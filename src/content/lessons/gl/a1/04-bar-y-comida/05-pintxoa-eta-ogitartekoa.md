@@ -18,8 +18,8 @@ exercises:
   options:
   - pintxo
   - bocadillo
-  - plato combinado
-  - postre
+  - prato combinado
+  - sobremesa
   answer: 1
   explanation: '*ogitartekoa* vén de *ogi* (pan) + *arte* (entre): "o de entre dous pans" — o bocadillo.'
 - id: ex-pin-mc2
@@ -38,7 +38,7 @@ exercises:
   answers:
   - plater konbinatua
   - plater konbinatu
-  explanation: '*plater konbinatua* — exactamente como en castelán, sen gran adaptación.'
+  explanation: '*plater konbinatua* — tomado do castelán «plato combinado», sen gran adaptación.'
 - id: ex-pin-fb2
   type: fill-in-blank
   prompt: Para min, unha ración de queixo = Niretzat ___ ___.
@@ -85,7 +85,7 @@ exercises:
   - eu: ogitartekoa
     es: bocadillo
   - eu: plater konbinatua
-    es: plato combinado
+    es: prato combinado
   - eu: razioa
     es: ración
   - eu: txorizoa
@@ -93,7 +93,7 @@ exercises:
   - eu: txistorra
     es: txistorra
   - eu: gazta
-    es: queso
+    es: queixo
   - eu: tortilla
     es: tortilla
 ---

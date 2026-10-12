@@ -27,8 +27,8 @@ exercises:
   prompt: 物語の背景となる**場面**（その日はどんな様子だったか、どこにいたかなど）について話すには、どの過去形を使いますか？
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - 現在形
+  - 近い過去（joan naiz）
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: 場面、描写、習慣は未完了過去を使います。物語を進める特定の時点での行動は *burutua* を使います。
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: 彼は/彼女は結婚した
   - eu: bidaiatu zuten
-    es: viajaron
+    es: 彼らは旅行した
   - eu: ezagutu nuen
     es: 私は会った
   - eu: maitemindu nintzen

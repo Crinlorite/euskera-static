@@ -14,22 +14,22 @@ covers:
 exercises:
 - id: ex-menu-mc1
   type: multiple-choice
-  prompt: '"Lehen platera" significa…'
+  prompt: '"Lehen platera" quier dicir…'
   options:
   - Postre
-  - Primer plato
-  - Segundo plato
+  - Primer platu
+  - Segundu platu
   - Bebida
   answer: 1
   explanation: '*Lehen platera* — primer platu. *Lehen* significa "primeru".'
 - id: ex-menu-mc2
   type: multiple-choice
-  prompt: '"Postrea" en castellán ye…'
+  prompt: '"Postrea" n''asturianu ye…'
   options:
   - Bebida
-  - Aperitivo
+  - Aperitivu
   - Postre
-  - Plato principal
+  - Platu principal
   answer: 2
   explanation: '*Postrea* — postre. La traducción ye direuta.'
 - id: ex-menu-fb1
@@ -87,9 +87,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: primer platu
   - eu: bigarren platera
-    es: segundo plato
+    es: segundu platu
   - eu: postrea
     es: postre
   - eu: edaria
@@ -104,7 +104,7 @@ Saber lleer el menú ábrete puertes. Na mayoría de los *jatetxeak* vas ver la 
 
 ## Les dos opciones pa comer
 
-| Euskera | Castellán | Cuándo |
+| Euskera | Asturianu | Cuándo |
 |---|---|---|
 | *eguneko menua* | menú del día | preciu fixu, opciones llimitaes |
 | *karta* | carta | a la carta, escueyes llibremente |
@@ -115,7 +115,7 @@ El camareru suel preguntar:
 
 ## Les partes del menú
 
-| Euskera | Castellán |
+| Euskera | Asturianu |
 |---|---|
 | *hasierakoak* | entrantes / aperitivos |
 | *lehen platera* | primer platu |

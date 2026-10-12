@@ -97,7 +97,7 @@ exercises:
   - eu: Berandu dabil
     es: È in ritardo
   - eu: Garaiz iritsi gara
-    es: Hemos llegado a tiempo
+    es: Siamo arrivati in tempo
 ---
 
 Seconda fermata: **comprare il biglietto e non perdere il treno**. Qui ricicli due armi del livello A1 — *zenbat balio du?* (prezzi) e le ore — e le metti all'opera in biglietteria.

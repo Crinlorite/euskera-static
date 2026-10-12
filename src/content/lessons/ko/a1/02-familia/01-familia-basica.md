@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: 아버지
   - eu: ama
-    es: madre
+    es: 어머니
   - eu: anaia
     es: 남자 형제 (남성 또는 여성의)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: 여자 형제 (여성이 말할 때)
   - eu: seme
-    es: hijo
+    es: 아들
   - eu: alaba
-    es: hija
+    es: 딸
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen에게는 여자 형제가 한 명 있습니다. Maialen의 입장에서 '여자 형제'는 무엇이라고 부를까요?

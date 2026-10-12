@@ -27,8 +27,8 @@ exercises:
   prompt: Pentru a vorbi despre **scena** de fundal (cum era ziua, unde se aflau) într-o poveste, ce timp trecut folosesc?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Prezent
+  - Trecut apropiat (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: Scena, descrierea și obiceiurile se exprimă la imperfect. Acțiunile punctuale care fac povestea să avanseze se exprimă la *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: s-a căsătorit
   - eu: bidaiatu zuten
-    es: viajaron
+    es: au călătorit
   - eu: ezagutu nuen
     es: am cunoscut
   - eu: maitemindu nintzen

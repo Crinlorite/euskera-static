@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: ここに来て
   - eu: Hartu hau
-    es: Toma esto
+    es: これを飲んでください
   - eu: Eseri hemen
     es: ここに座って
   - eu: Esadazu egia
@@ -93,7 +93,7 @@ exercises:
 
 日常的な多くの命令では、動詞は助動詞なしで分詞の形で現れます。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 取って | *Hartu* |
 | 座って | *Eseri* |
@@ -127,7 +127,7 @@ exercises:
 
 二重目的語（「これを私にくれ」「あれを彼に言え」）を持つ命令を出すとき、バスク語には非常に便利な短い形があります。
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 私にちょうだい | *Emadazu* / *Eman iezadazu* |
 | 私に言って | *Esadazu* / *Esan iezadazu* |

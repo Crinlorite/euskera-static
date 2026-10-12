@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Możesz przyjść?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Możesz to zrobić
   - eu: Ezin dut etorri
     es: Nie mogę przyjść
   - eu: Ezin nintzen joan
@@ -91,7 +91,7 @@ Do wyrażenia „nie móc” istnieje ponadto dedykowane słowo: **ezin**.
 
 Najprostsza i ta, którą usłyszysz najczęściej:
 
-> **partizipioa + ahal + auxiliar**
+> **partizipioa + ahal + czasownik posiłkowy**
 
 | Polski | Euskera |
 |---|---|
@@ -149,7 +149,7 @@ Jest to forma syntetyczna trybu potencjalnego (potentialis). Ma dwie serie, w za
 
 Przeczenie w ahalera ma swoje własne słowo: **ezin**.
 
-> **ezin + partizipioa + auxiliar**
+> **ezin + partizipioa + czasownik posiłkowy**
 
 | Polski | Euskera |
 |---|---|

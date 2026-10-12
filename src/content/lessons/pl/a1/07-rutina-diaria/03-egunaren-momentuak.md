@@ -56,15 +56,15 @@ exercises:
   - eu: arratsaldean
     es: po południu
   - eu: iluntzean
-    es: al atardecer
+    es: o zmierzchu
   - eu: gauean
     es: w nocy
   - eu: gaur
-    es: hoy
+    es: dzisiaj
   - eu: bihar
     es: jutro (następny dzień)
   - eu: atzo
-    es: ayer
+    es: wczoraj
 - id: ex-03-em-fc
   type: flashcards
   cards:
@@ -161,7 +161,7 @@ Będziesz ich używać każdego dnia:
 | *gero* | później, potem |
 | *lehen* | wcześniej |
 
-> Uwaga: uważaj na różnicę między **bihar** (następny dzień, „jutro”) a **goiza** (poranek, do południa). W języku hiszpańskim słowo „mañana” oznacza obie te rzeczy, ale w baskijskim (podobnie jak w polskim) są to dwa różne słowa.
+> Uwaga: uważaj na różnicę między **bihar** (następny dzień, „jutro”) a **goiza** (poranek, do południa). W baskijskim, podobnie jak w polskim, są to dwa różne słowa.
 
 ## Łączenie wszystkiego
 

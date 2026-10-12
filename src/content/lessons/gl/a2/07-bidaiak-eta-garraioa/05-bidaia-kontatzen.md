@@ -114,7 +114,7 @@ Fíxate na mestura de tempos, que xa controlas: *joan ginen* (puntual) + *jaiste
 
 ## Frases de veredicto
 
-| Castelán | Éuscaro |
+| Galego | Éuscaro |
 |---|---|
 | Pasámolo xenial | *Primeran pasatu genuen* |
 | Mereceu a pena | *Merezi izan zuen* |

@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: azi
   - eu: atzo
-    es: ayer
+    es: ieri
   - eu: bihar
-    es: mañana
+    es: mâine
   - eu: etzi
-    es: pasado mañana
+    es: poimâine
   - eu: gaur goizean
-    es: esta mañana
+    es: azi-dimineață
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: în după-amiaza asta
   - eu: atzo gauean
-    es: anoche
+    es: aseară
   - eu: orain
-    es: ahora
+    es: acum
   - eu: lehen
-    es: antes
+    es: înainte
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ Pentru a povesti bine ce s-a întâmplat, trebuie să spui **când**. Această l
 | *lehen* | înainte |
 | *gero* | apoi, după aceea |
 
-> Dacă ai observat, *atzo* (ieri) și *bihar* (mâine) sunt două cuvinte atât de scurte încât se învață dintr-o dată. *Etzi* (poimâine) este un cuvânt pe care spaniola nu îl are într-o singură bucată — un mic cadou din partea limbii basce.
+> Dacă ai observat, *atzo* (ieri) și *bihar* (mâine) sunt două cuvinte atât de scurte încât se învață dintr-o dată. *Etzi* (poimâine) este, ca și în română, un singur cuvânt — ușor de reținut.
 
 ## Combinarea cu momentele zilei
 

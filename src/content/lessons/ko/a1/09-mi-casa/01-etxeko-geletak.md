@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: 부엌
   - eu: logela
-    es: dormitorio
+    es: 침실
   - eu: komuna
-    es: baño
+    es: 욕실
   - eu: egongela
     es: 거실
   - eu: sarrera
-    es: entrada
+    es: 현관
   - eu: korridorea
-    es: pasillo
+    es: 복도
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: 샤워하고 싶어요. 어느 방으로 가나요?

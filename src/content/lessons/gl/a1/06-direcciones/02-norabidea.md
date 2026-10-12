@@ -20,7 +20,7 @@ exercises:
   - eu: jo eskuinera
     es: xira á dereita
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: segue recto / cara adiante
   - eu: zeharkatu
     es: cruza
   - eu: igo eskailerak
@@ -45,7 +45,7 @@ exercises:
   options:
   - seguir recto
   - cruzar
-  - girar
+  - xirar
   - subir
   answer: 1
   explanation: De "zehar" (a través). "Zeharkatu kalea / zebrabidea" = cruzar a rúa / o paso de peóns.

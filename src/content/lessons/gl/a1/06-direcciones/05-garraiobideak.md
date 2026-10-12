@@ -15,7 +15,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: a pé
   - eu: kotxez / autoz
     es: en coche
   - eu: autobusez
@@ -103,7 +103,7 @@ exercises:
     es: traxecto / itinerario
 ---
 
-Para pechar a unidade fáltanos unha peza: **como te moves**. En castelán usamos "en + transporte" ("en coche", "en autobús"). En éuscaro úsase o sufixo **`-z`** (caso *instrumental*), que se engade ao medio de transporte e, sorprendentemente, tamén á palabra para "pé".
+Para pechar a unidade fáltanos unha peza: **como te moves**. En galego dicimos "en + transporte" ("en coche", "en autobús"). En éuscaro úsase o sufixo **`-z`** (caso *instrumental*), que se engade ao medio de transporte e, sorprendentemente, tamén á palabra para "pé".
 
 ## A pregunta
 

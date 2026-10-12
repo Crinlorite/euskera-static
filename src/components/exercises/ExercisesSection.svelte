@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { t } from '../../i18n/ui';
   import MultipleChoice from './MultipleChoice.svelte';
   import FillInBlank from './FillInBlank.svelte';
   import Flashcards from './Flashcards.svelte';
@@ -70,7 +71,7 @@
 </script>
 
 <section class="exercises">
-  <h2>Ejercicios</h2>
+  <h2>{t(locale, 'lesson.exercises')}</h2>
   {#each exercises as ex (ex.id)}
     {#if ex.type === 'multiple-choice'}
       <MultipleChoice

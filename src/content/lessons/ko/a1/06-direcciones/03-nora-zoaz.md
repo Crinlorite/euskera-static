@@ -102,20 +102,20 @@ exercises:
   - eu: Nora zoaz?
     es: 어디로 가니?
   - eu: Etxera noa
-    es: Voy a casa
+    es: 집에 가요
   - eu: Eskolara noa
     es: 학교에 가
   - eu: Zertara zoaz?
     es: 뭐 하러 가니?
   - eu: Erostera
-    es: A comprar
+    es: 장 보러
 ---
 
-**NORA 격**(*향격*이라고도 함)은 움직임의 **목적지**, 즉 어디로 가는지를 나타냅니다. 스페인어에서는 보통 전치사 **"a"**로 번역됩니다("voy *a* casa", "*a* Bilbao", "*al* parque").
+**NORA 격**(*향격*이라고도 함)은 움직임의 **목적지**, 즉 어디로 가는지를 나타냅니다. 한국어의 조사 **"~에/~로"**에 해당합니다("집에 가다", "빌바오로", "공원에").
 
 ## 질문: Nora?
 
-| 질문 | 스페인어 |
+| 질문 | 한국어 |
 |---|---|
 | ***Nora* zoaz?** | 어디로 가세요? |
 | ***Nora* doa?** | 어디로 가요? |
@@ -159,7 +159,7 @@ exercises:
 | *Zertara goaz mendira?* | *Ibiltzera.* — 걸으러. |
 | *Zertara doaz hondartzara?* | *Igeri egitera.* — 수영하러. |
 
-> **패턴:** *(동사 분사형) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. 기본적으로 스페인어의 "a + 동사원형"과 같습니다.
+> **패턴:** *(동사 분사형) + -t(z)era*: *erosi → erostera*, *jan → jatera*, *ikasi → ikastera*, *ikusi → ikustera*, *bisitatu → bisitatzera*. 기본적으로 한국어의 "~하러 (가다)"와 같습니다.
 
 ## 짧은 대화
 

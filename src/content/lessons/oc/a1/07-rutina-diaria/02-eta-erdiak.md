@@ -121,7 +121,7 @@ A compdar dera mieja, parlam en foncion dera ora seguenta damb era paraula **gut
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> Se vens deth castelhan, çò de mès estranh ei que **gutxi** vage **darrèr** deth nombre, e non pas dauant. *Bederatziak laurden gutxi* literaument ei "es nau quart mens".
+> Entà qui parle aranés, çò de mès estranh ei que **gutxi** vage **darrèr** deth nombre, e non pas dauant. *Bederatziak laurden gutxi* literaument ei "es nau quart mens".
 
 ## Taula resum
 

@@ -14,21 +14,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: taberna
-    es: bar
+    es: 酒吧
   - eu: okindegia
     es: 面包店
   - eu: botika
-    es: farmacia
+    es: 药店
   - eu: liburutegia
-    es: biblioteca
+    es: 图书馆
   - eu: eliza
-    es: iglesia
+    es: 教堂
   - eu: merkatua
-    es: mercado
+    es: 市场
   - eu: banketxea
-    es: banco
+    es: 银行
   - eu: ospitalea
-    es: hospital
+    es: 医院
 - id: ex-hl-mc1
   type: multiple-choice
   prompt: 你需要买面包。你去哪种商店？
@@ -119,7 +119,7 @@ exercises:
 
 ## 商店和商业
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *taberna* | 酒吧 |
 | *kafetegia* | 咖啡馆 |
@@ -138,7 +138,7 @@ exercises:
 
 ## 服务设施
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *banketxea* / *aurrezki-kutxa* | 银行 / 储蓄所 |
 | *kutxazain automatikoa* | 自动取款机 |
@@ -157,7 +157,7 @@ exercises:
 
 ## 交通与通讯
 
-| 巴斯克语 | 西班牙语 |
+| 巴斯克语 | 中文 |
 |---|---|
 | *autobus-geltokia* | 公交车站 |
 | *tren-geltokia* | 火车站 |

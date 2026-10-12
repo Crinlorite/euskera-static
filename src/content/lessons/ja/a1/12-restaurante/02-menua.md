@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '*Lehen platera* の意味は…'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - デザート
+  - 一皿目
+  - 二皿目
+  - 飲み物
   answer: 1
   explanation: '*Lehen platera* — 一皿目。*Lehen* は「最初の」という意味です。'
 - id: ex-menu-mc2
   type: multiple-choice
-  prompt: '*Postrea* はスペイン語で…'
+  prompt: '*Postrea* の意味は…'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - 飲み物
+  - 前菜
+  - デザート
+  - メイン料理
   answer: 2
   explanation: '*Postrea* — デザート。そのままの翻訳です。'
 - id: ex-menu-fb1
@@ -87,24 +87,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: 一皿目
   - eu: bigarren platera
-    es: segundo plato
+    es: 二皿目
   - eu: postrea
-    es: postre
+    es: デザート
   - eu: edaria
-    es: bebida
+    es: 飲み物
   - eu: eguneko menua
     es: 日替わりメニュー
   - eu: karta
-    es: carta
+    es: メニュー
 ---
 
 メニューが読めると、選択肢が広がります。ほとんどの *jatetxeak* では、一皿目、二皿目、デザートという伝統的な3部構成になっています。
 
 ## 食事の2つの選択肢
 
-| バスク語 | スペイン語 | いつ・どんな時 |
+| バスク語 | 日本語 | いつ・どんな時 |
 |---|---|---|
 | *eguneko menua* | 日替わりメニュー | 固定料金、限られた選択肢 |
 | *karta* | アラカルトメニュー | アラカルト、自由に選べる |
@@ -115,7 +115,7 @@ exercises:
 
 ## メニューの構成
 
-| バスク語 | スペイン語 |
+| バスク語 | 日本語 |
 |---|---|
 | *hasierakoak* | 前菜／アペタイザー |
 | *lehen platera* | 一皿目 |

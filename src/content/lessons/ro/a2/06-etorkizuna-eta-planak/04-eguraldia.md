@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 'Prognoza spune: "Bihar eguzkia aterako da". Ce te așteaptă mâine?'
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - Ploaie
+  - Vânt puternic
+  - Soare
+  - Ceață
   answer: 2
   explanation: '*Eguzkia atera* = a răsări soarele; la viitor, *aterako da* — mâine va fi soare.'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: Va răsări soarele
   - eu: Haizea dabil
-    es: Hace viento
+    es: Bate vântul
   - eu: Hotz handia egiten du
     es: Este foarte frig
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ Alte piese cu verbul lor propriu:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — Este înnorat / însorit.
 
-> **Observă:** în limba bască, vremea „**face**” lucruri cu verbul *egin* și auxiliarul **du** (fără subiect vizibil): *euria egingo du*, *bero handia egiten du*. Este o copie fidelă a expresiei din spaniolă «hace calor» (face căldură) — doar că și ploaia se „face”.
+> **Observă:** în limba bască, vremea „**face**” lucruri cu verbul *egin* și auxiliarul **du** (fără subiect vizibil): *euria egingo du*, *bero handia egiten du*. Seamănă cu românescul „face frig” — doar că în bască și ploaia se „face”.
 
 ## Cum se întreabă
 

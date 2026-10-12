@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: موعد
   - eu: bilera
     es: اجتماع
   - eu: libre
-    es: libre
+    es: متفرّغ
   - eu: lanpetuta
-    es: ocupado/a
+    es: مشغول/مشغولة
   - eu: geratu
-    es: quedar
+    es: يتواعد
   - eu: geratuko gara
-    es: quedaremos
+    es: سنلتقي
 ---
 
 الأجندة المليئة بالأنشطة تكون حافلة بالمواعيد والالتزامات. يعلمك هذا الدرس كيفية التحدث عنها: تحديد موعد، الالتقاء بشخص ما، القول ما إذا كنت متفرغًا.

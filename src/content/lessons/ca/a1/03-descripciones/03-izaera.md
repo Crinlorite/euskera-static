@@ -13,12 +13,12 @@ covers:
 exercises:
 - id: ex-iza-mc1
   type: multiple-choice
-  prompt: '"Alaia" significa…'
+  prompt: '"Alaia" vol dir…'
   options:
-  - aburrido
+  - avorrit
   - alegre
-  - nervioso
-  - callado
+  - nerviós
+  - callat
   answer: 1
   explanation: '*alaia* és "alegre". És un dels adjectius de caràcter més comuns.'
 - id: ex-iza-mc2
@@ -89,17 +89,17 @@ exercises:
   - eu: alaia
     es: alegre
   - eu: isila
-    es: callado
+    es: callat
   - eu: berritsua
-    es: hablador
+    es: xerraire
   - eu: lasaia
-    es: tranquilo
+    es: tranquil
   - eu: urduria
-    es: nervioso
+    es: nerviós
   - eu: langilea
-    es: trabajador
+    es: treballador
   - eu: alferra
-    es: vago
+    es: gandul
   - eu: jatorra
     es: simpàtic
 ---

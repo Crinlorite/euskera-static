@@ -49,23 +49,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: esnatu
-    es: despertarse
+    es: espertar-se
   - eu: jaiki
-    es: levantarse
+    es: levantar-se
   - eu: dutxatu
-    es: ducharse
+    es: duchar-se
   - eu: gosaldu
-    es: desayunar
+    es: almorzar
   - eu: bazkaldu
-    es: comer (almorzar)
+    es: minchar (a meyodía)
   - eu: afaldu
     es: cenar
   - eu: lan egin
-    es: trabajar
+    es: treballar
   - eu: lo egin
     es: dormir
   - eu: oheratu
-    es: acostarse
+    es: chitar-se
 - id: ex-04-ee-fc
   type: flashcards
   cards:
@@ -78,7 +78,7 @@ exercises:
   - eu: jantzi / janzten naiz
     es: vestir-se / me visto
   - eu: gosaldu / gosaltzen dut
-    es: desayunar / desayuno
+    es: almorzar / almuerzo
   - eu: bazkaldu / bazkaltzen dut
     es: minchar / mincho (almuerzo)
   - eu: afaldu / afaltzen dut
@@ -86,7 +86,7 @@ exercises:
   - eu: lan egin / lan egiten dut
     es: treballar / treballo
   - eu: lo egin / lo egiten dut
-    es: dormir / duermo
+    es: dormir / dormo
   - eu: oheratu / oheratzen naiz
     es: chitar-se / me chito
   - eu: lo-kuluxka egin
@@ -139,15 +139,15 @@ Istos van **con ukan** porque tienen subchecto y obchecto:
 
 | Partizipioa | Aspecto habitual | Significau |
 |---|---|---|
-| *gosaldu* | *gosaltzen dut* | desayuno |
+| *gosaldu* | *gosaltzen dut* | almuerzo |
 | *bazkaldu* | *bazkaltzen dut* | mincho (almuerzo) |
 | *afaldu* | *afaltzen dut* | ceno |
 | *jan* | *jaten dut* | mincho |
 | *edan* | *edaten dut* | bebo |
 | *lan egin* | *lan egiten dut* | treballo |
-| *lo egin* | *lo egiten dut* | duermo |
+| *lo egin* | *lo egiten dut* | dormo |
 | *ikusi* | *ikusten dut* | veigo |
-| *irakurri* | *irakurtzen dut* | leo |
+| *irakurri* | *irakurtzen dut* | leyo |
 | *erosi* | *erosten dut* | merco |
 
 > **Per qué bels uns van con NAIZ y atros con DUT?** Ye a distinción clau d'o basco. *Esnatzen naiz* (me dispierto) ye bella cosa que me pasa a yo: no i hai un obchecto. *Jaten dut* (mincho) tiene obchecto: *ogia jaten dut* (mincho pan). Isto se veye a fundo en a proxima unidat — de momento memoriza as parellas verbo + auxiliar.

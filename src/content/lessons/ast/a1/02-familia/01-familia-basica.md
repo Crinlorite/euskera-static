@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: hermana (dizla una muyer)
   - eu: seme
-    es: hijo
+    es: fíu
   - eu: alaba
-    es: hija
+    es: fía
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen tien una hermana. ¿Cómo se diz "hermana" dende'l puntu de vista de Maialen?

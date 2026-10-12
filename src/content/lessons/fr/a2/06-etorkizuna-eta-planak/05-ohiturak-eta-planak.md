@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTUR : j''irai'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASSÉ PONCTUEL : j''y suis allé'
   - eu: Joaten nintzen
     es: 'PASSÉ habitude : j''allais'
   - eu: Joan ohi nintzen
     es: 'PASSÉ habitude : j''avais l''habitude d''aller'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'MAINTENANT : je suis en route'
 ---
 
 Dernière leçon de l'unité — et la fin d'un grand cycle : avec le futur déjà en poche, **tu maîtrises les trois temps**. Cette leçon ajoute la touche finale (*ohi*, l'équivalent basque de "avoir l'habitude de") et te fait jongler avec une même idée au passé, au présent d'habitude et au futur. C'est exactement ce qu'un jury de A2 veut entendre.

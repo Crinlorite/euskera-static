@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Come here
   - eu: Hartu hau
-    es: Toma esto
+    es: Take this
   - eu: Eseri hemen
     es: Sit down here
   - eu: Esadazu egia
@@ -93,7 +93,7 @@ The **imperative** (*agintera*) is used to give instructions, make requests, and
 
 For many everyday commands, the verb appears in its participle form without an auxiliary:
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Take | *Hartu* |
 | Sit down | *Eseri* |
@@ -127,7 +127,7 @@ Some very common verbs have specific synthetic forms for the imperative. These a
 
 When you give a command with a double object ("give me this", "tell him that"), Basque has very useful compact forms:
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | Give me | *Emadazu* / *Eman iezadazu* |
 | Tell me | *Esadazu* / *Esan iezadazu* |

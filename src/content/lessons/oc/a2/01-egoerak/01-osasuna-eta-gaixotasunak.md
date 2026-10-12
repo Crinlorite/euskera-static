@@ -61,7 +61,7 @@ exercises:
   - eu: buruko mina
     es: dolor de cap
   - eu: eztarriko mina
-    es: dolor de garganta
+    es: mau de garganta
   - eu: sabeleko mina
     es: dolor de ventre
   - eu: hortzeko mina
@@ -90,7 +90,7 @@ exercises:
   - eu: medikua
     es: metge/ssa
   - eu: erizaina
-    es: enfermero/a
+    es: infermèr/a
   - eu: botikaria
     es: farmacian/a
   - eu: botika / farmazia
@@ -114,7 +114,7 @@ En basc as dues formes frequentes:
 
 Com en A1, es simptòmes se bastissen damb *eduki* (auer):
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Èi calentura | *Sukarra **daukat*** |
 | Èi tòs | *Eztula **daukat*** |
@@ -123,13 +123,13 @@ Com en A1, es simptòmes se bastissen damb *eduki* (auer):
 | Estói balandran/a | *Zorabiatuta nago* |
 | Èi nausèes | *Goragalea **daukat*** |
 
-## Dolor: *mina*
+## Mau: *mina*
 
 Era **dolor** ei un substantiu en basc (*mina*) e se combine damb era part deth còs en **NONGO (-ko)**, que hè de complement de "qué tipe de dolor":
 
 > **part deth còs + -ko + mina + daukat**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | M'hè mau eth cap | *Buruko mina daukat* |
 | M'hè mau era garganta | *Eztarriko mina daukat* |
@@ -144,7 +144,7 @@ Ua auta forma fòrça frequenta, sustot quan quauquarren te hè mau "ara madeish
 
 ## Ena consulta
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Qué te passe? / Qué as? | *Zer duzu?* / *Zer gertatzen zaizu?* |
 | De quando ençà? | *Noiztik?* |

@@ -92,7 +92,7 @@ exercises:
     es: Dov'è il bar?
 ---
 
-In spagnolo usiamo un solo verbo, "esserci/essere", per due idee diverse: **esistere** ("c'è una farmacia nel quartiere?") e **trovarsi** ("la farmacia è in via Mayor"). Il basco distingue molto chiaramente queste due cose, ed è qualcosa che conviene fissare presto.
+Sono due idee diverse: **esistere** ("c'è una farmacia nel quartiere?") e **trovarsi** ("la farmacia è in via Mayor"). Il basco distingue molto chiaramente queste due cose, ed è qualcosa che conviene fissare presto.
 
 ## Esistere vs trovarsi
 

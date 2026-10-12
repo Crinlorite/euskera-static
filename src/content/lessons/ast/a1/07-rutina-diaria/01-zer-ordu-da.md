@@ -116,7 +116,7 @@ Pa entrugar la hora úsase **Zer ordu da?** ("¿qué hora ye?").
 
 ¿D'ónde sal esi **-ak** final? Ye'l plural euskéricu (vístelo en *gurasoak*, *aiton-amonak*). Equí tamién: *bost* (cinco) → *bostak* ("les cincos") + *dira* ("son").
 
-> **Nota:** muncha xente cuenta la hora del día col reló de 12 hores, igual qu'en castellanu. Pa estremar la mañana o la tarde abonda con amestar *goizeko* (de la mañana) o *arratsaldeko* (de la tarde) delantre: *goizeko zortziak* (les ocho de la mañana). Verémoslo na lleición 3.
+> **Nota:** muncha xente cuenta la hora del día col reló de 12 hores, igual qu'en asturianu. Pa estremar la mañana o la tarde abonda con amestar *goizeko* (de la mañana) o *arratsaldeko* (de la tarde) delantre: *goizeko zortziak* (les ocho de la mañana). Verémoslo na lleición 3.
 
 ## Práutica
 

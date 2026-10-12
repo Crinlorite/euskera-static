@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: 내일 비가 오면
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: 시간이 있다면
   - eu: Erosiko nuke
     es: 그것을 살 텐데
   - eu: Joango nintzateke
     es: 갈 텐데
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: 내가 부자라면
   - eu: Edukiko bagenu
     es: 만약 우리가 가졌다면
 ---
@@ -114,7 +114,7 @@ exercises:
 | *du* | 그가 그것을 가지고 있다 | **badu** (만약 그가 그것을 가지고 있다면) |
 | *dute* | 그들이 그것을 가지고 있다 | **badute** (만약 그들이 그것을 가지고 있다면) |
 
-> **¡주의!** *Ba-*는 긍정의 의미로도 사용됩니다: *bai, badator* = "네, 오고 있어요". 문맥을 통해 구분할 수 있습니다. 만약 문장에 두 번째 부분("...그러면...")이 있다면, 조건문입니다.
+> **주의!** *Ba-*는 긍정의 의미로도 사용됩니다: *bai, badator* = "네, 오고 있어요". 문맥을 통해 구분할 수 있습니다. 만약 문장에 두 번째 부분("...그러면...")이 있다면, 조건문입니다.
 
 ## 유형 2: 비현실적 조건 — *banintz / banu*
 

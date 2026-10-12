@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: aller
   - eu: etorri
     es: venir
   - eu: ibili
-    es: andar / moverse
+    es: marcher / se déplacer
   - eu: sartu
-    es: entrar
+    es: entrer
   - eu: irten
-    es: salir
+    es: sortir
   - eu: igo
-    es: subir
+    es: monter
   - eu: jaitsi
-    es: bajar
+    es: descendre
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Je vais = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" et son contraire "irten" signifient, respectivement :'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - entrer / sortir
+  - monter / descendre
+  - aller / venir
+  - ouvrir / fermer
   answer: 0
 - id: ex-mu-fc
   type: flashcards

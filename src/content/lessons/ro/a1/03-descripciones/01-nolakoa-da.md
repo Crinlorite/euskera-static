@@ -80,21 +80,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: altua
-    es: alto
+    es: înalt
   - eu: baxua
-    es: bajo
+    es: scund
   - eu: handia
-    es: grande
+    es: mare
   - eu: txikia
-    es: pequeño
+    es: mic
   - eu: lodia
-    es: gordo
+    es: gras
   - eu: argala
-    es: delgado
+    es: slab
   - eu: polita
-    es: bonito
+    es: frumos
   - eu: itsusia
-    es: feo
+    es: urât
 ---
 
 Când vrei să descrii cum este o persoană sau un lucru într-un mod **stabil** (fizic, în general), în euskera folosim întrebarea **Nolakoa da?** („cum este?”) și răspundem cu verbul **izan** + un adjectiv cu terminația `-a`.

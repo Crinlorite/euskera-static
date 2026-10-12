@@ -80,13 +80,13 @@ exercises:
   - eu: txakurra
     es: brave e se passege
   - eu: katua
-    es: duerme 16 horas
+    es: dormís 16 ores
   - eu: behia
-    es: da leche
+    es: da lèit
   - eu: ardia
     es: da lana e hromatge
   - eu: txoria
-    es: canta al amanecer
+    es: cante ena punta deth dia
   - eu: basurdea
     es: destròce eth milhocar
 ---
@@ -95,7 +95,7 @@ Deth paisatge as sòns abitants: **es animaus** — es de casa, es deth mas e es
 
 ## En casa
 
-| Castelhan | Eusquera |
+| Aranés | Eusquera |
 |---|---|
 | Eth can | *txakurra* |
 | Eth gat | *katua* |
@@ -106,7 +106,7 @@ Deth paisatge as sòns abitants: **es animaus** — es de casa, es deth mas e es
 
 ## En mas (baserria)
 
-| Castelhan | Eusquera |
+| Aranés | Eusquera |
 |---|---|
 | Era vaca | *behia* |
 | Era oelha / er anhèth | *ardia / arkumea* |
@@ -119,7 +119,7 @@ Deth paisatge as sòns abitants: **es animaus** — es de casa, es deth mas e es
 
 ## En bòsc e en cèu
 
-| Castelhan | Eusquera |
+| Aranés | Eusquera |
 |---|---|
 | Eth senglar | *basurdea* |
 | Era guèine | *azeria* |

@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: поверни направо
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: иди прямо / вперёд
   - eu: zeharkatu
-    es: cruza
+    es: перейди
   - eu: igo eskailerak
     es: поднимись по лестнице
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: «Zeharkatu» означает…
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - идти прямо
+  - переходить
+  - поворачивать
+  - подниматься
   answer: 1
   explanation: От «zehar» (через, сквозь). «Zeharkatu kalea / zebrabidea» = перейти улицу / пешеходный переход.
 - id: ex-no-fb1

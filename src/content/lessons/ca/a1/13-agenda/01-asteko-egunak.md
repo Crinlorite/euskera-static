@@ -76,19 +76,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: dilluns
   - eu: asteartea
-    es: martes
+    es: dimarts
   - eu: asteazkena
     es: dimecres
   - eu: osteguna
-    es: jueves
+    es: dijous
   - eu: ostirala
-    es: viernes
+    es: divendres
   - eu: larunbata
     es: dissabte
   - eu: igandea
-    es: domingo
+    es: diumenge
 ---
 
 Abans de parlar de plans i agenda, repassem els dies de la setmana i aprenem a associar-los amb les activitats quotidianes.

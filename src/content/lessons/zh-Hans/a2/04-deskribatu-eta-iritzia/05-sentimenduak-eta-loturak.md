@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: 我很高兴
   - eu: Triste dago
     es: 他/她很伤心
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: 我害怕
   - eu: Haserre dago
     es: 他/她很生气
   - eu: Lotsa ematen dit
@@ -99,7 +99,7 @@ exercises:
 
 大多数短暂的情感都使用 *egon* + 形容词或副词的形式：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 高兴 | *Pozik nago* |
 | 伤心 | *Triste nago* |
@@ -117,7 +117,7 @@ exercises:
 
 一些深层的情感使用 *izan*：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我害怕 | *Beldur naiz* |
 | 你有道理 | *Arrazoia duzu* |
@@ -131,7 +131,7 @@ exercises:
 
 一种非常巴斯克式的表达：情感“使你感到”：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 让我感到羞愧/尴尬 | *Lotsa ematen dit* |
 | 让我感到遗憾/可惜 | *Pena ematen dit* |
@@ -146,7 +146,7 @@ exercises:
 
 用于表达**状态的改变**（“变得紧张、高兴、伤心”）：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我变得紧张 | *Urduri **jartzen naiz*** |
 | 他/她变得伤心 | *Triste **jarri zen*** |
@@ -178,7 +178,7 @@ exercises:
 
 ### 补充
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 此外 | *gainera* |
 | 而且/也 | *eta baita ere* / *...ere* |
@@ -188,7 +188,7 @@ exercises:
 
 ### 因果
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 因此 | *beraz* |
 | 所以 | *horregatik* |
@@ -198,7 +198,7 @@ exercises:
 
 ### 对比/转折
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 然而 | *hala ere* |
 | 但是 | *baina* |
@@ -209,7 +209,7 @@ exercises:
 
 ### 组织语篇
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 一方面…另一方面 | *Alde batetik... bestetik...* |
 | 首先…然后… | *Lehenengo... gero...* |
@@ -220,7 +220,7 @@ exercises:
 
 这些是任何A2考试中都会出现的结构：
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 既不…也不… | *Ez... ez...* |
 | 既…又… | *Bai... bai...* / *Hala... nola...* |

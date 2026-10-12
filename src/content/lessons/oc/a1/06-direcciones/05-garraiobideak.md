@@ -15,9 +15,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: a pè
   - eu: kotxez / autoz
-    es: en coche
+    es: en cotxe
   - eu: autobusez
     es: en autobús
   - eu: trenez
@@ -27,7 +27,7 @@ exercises:
   - eu: hegazkinez
     es: en avion
   - eu: itsasontziz
-    es: en barco
+    es: en vaishèth
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: Cossi se ditz "Voi en autobús"?
@@ -103,11 +103,11 @@ exercises:
     es: trajecte / itinerari
 ---
 
-Per acabar era unitat mos cau ua pèça: **cossi te mòs**. En castelhan utilizam "en + transpòrt" ("en veitura", "en autobús"). En basc s'utilize eth sufix **`-z`** (cas *instrumentau*), que s'apond ath miei de transpòrt e, susprenentaments, tanben ara paraula per "pè".
+Per acabar era unitat mos cau ua pèça: **cossi te mòs**. En aranés utilizam "en + transpòrt" ("en veitura", "en autobús"). En basc s'utilize eth sufix **`-z`** (cas *instrumentau*), que s'apond ath miei de transpòrt e, susprenentaments, tanben ara paraula per "pè".
 
 ## Era qüestion
 
-| Qüestion | Castelhan |
+| Qüestion | Aranés |
 |---|---|
 | ***Nola* zoaz?** | Cossi vas? |
 | ***Zerez* zoaz?** | Damb qué (miei) vas? |
@@ -117,7 +117,7 @@ Es dues formes (*Nola* e *Zerez*) son valides e frecuentes. *Nola* ei mès gener
 
 ## Es mieis de transpòrt
 
-| Miei | Fòrma damb -z | Castelhan |
+| Miei | Fòrma damb -z | Aranés |
 |---|---|---|
 | oin (pè) | **oinez** | a pè |
 | kotxe / auto | **kotxez** / **autoz** | en veitura |
@@ -146,7 +146,7 @@ Es dues formes (*Nola* e *Zerez*) son valides e frecuentes. *Nola* ei mès gener
 
 Ua frasa tipica de viatge sòl auer tres pèces: **d'a on + a on + cossi**.
 
-- **Iruñetik Donostiara autobusez doa.** — Va de Pamplona a Donostia en autobús.
+- **Iruñetik Donostiara autobusez doa.** — Va de Pamplona tà Donostia en autobús.
 - **Bilbotik Madrilera trenez gatoz.** — Vienem de Bilbao a Madrid en tren.
 - **Etxetik euskaltegira oinez noa.** — Voi de casa ar euskaltegi a pè.
 

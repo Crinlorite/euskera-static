@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: انعطف يمينًا
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: امشِ مباشرة / إلى الأمام
   - eu: zeharkatu
-    es: cruza
+    es: اعبر
   - eu: igo eskailerak
     es: اصعد السلالم
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: '"Zeharkatu" تعني...'
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - المشي مباشرة
+  - يعبر
+  - ينعطف
+  - يصعد
   answer: 1
   explanation: من "zehar" (عبر). "Zeharkatu kalea / zebrabidea" = عبور الشارع / ممر المشاة.
 - id: ex-no-fb1
@@ -119,7 +119,7 @@ exercises:
 
 في اللغة الباسكية، صيغة الأمر المثبتة لأفعال الحركة مباشرة جدًا:
 
-| Forma | Verbo base | Sentido |
+| الصيغة | الفعل الأساسي | المعنى |
 |---|---|---|
 | **Jo** | jo | اضرب / اتجه (jo ezkerrera = انعطف يسارًا) |
 | **Segi** / **Jarraitu** | segitu / jarraitu | تابع، استمر |
@@ -135,7 +135,7 @@ exercises:
 
 ## ظروف وإشارات الاتجاه
 
-| Euskera | Castellano |
+| Euskera | العربية |
 |---|---|
 | *ezkerra* | اليسار |
 | *eskuina* | اليمين |
@@ -149,7 +149,7 @@ exercises:
 
 ## أماكن مرجعية شائعة
 
-| Euskera | Castellano |
+| Euskera | العربية |
 |---|---|
 | *semaforoa* | إشارة مرور |
 | *bidegurutzea* | تقاطع، مفترق طرق |

@@ -16,7 +16,7 @@ covers:
 exercises:
 - id: ex-05-gze-mc1
   type: multiple-choice
-  prompt: 「Esta mañana me he despertado tarde」（今朝、私は遅く起きました）の正しい翻訳はどれですか？
+  prompt: 「今朝、私は遅く起きました」の正しい翻訳はどれですか？
   options:
   - Gaur goizean berandu esnatu dut
   - Gaur goizean berandu esnatu naiz
@@ -36,14 +36,14 @@ exercises:
   explanation: バスク語では、他動詞の主語にはNORK格（-k）のマークが付きます。*Mikel**ek***（ミケルが）新聞を読んだ。
 - id: ex-05-gze-fb1
   type: fill-in-blank
-  prompt: 「He desayunado tostadas y café」（トーストとコーヒーを朝食に食べた）= *Tostadak eta kafea* ___ ___ （空欄を埋めてください：分詞 + 「私」の助動詞）。
+  prompt: 「トーストとコーヒーを朝食に食べた」= *Tostadak eta kafea* ___ ___ （空欄を埋めてください：分詞 + 「私」の助動詞）。
   answers:
   - hartu ditut
   - jan ditut
   explanation: 「複数のものを食べる/飲む」には、*ditut*（*ukan*の複数形助動詞）を使います：*hartu/jan ditut*。
 - id: ex-05-gze-fb2
   type: fill-in-blank
-  prompt: 「He ido al euskaltegi a pie」（*euskaltegi*に歩いて行った）= *Euskaltegira oinez* ___ ___ （空欄を埋めてください：分詞 + 助動詞）。
+  prompt: 「*euskaltegi*に歩いて行った」= *Euskaltegira oinez* ___ ___ （空欄を埋めてください：分詞 + 助動詞）。
   answers:
   - joan naiz
   explanation: 自動詞の*Joan* + 1人称の*naiz* = *joan naiz*。
@@ -122,7 +122,7 @@ exercises:
 | *Goizean joan dut* | *Goizean joan naiz* | *Joan*は自動詞なので、*izan* (naiz) と一緒に使います。 |
 | *Mikel egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri*は他動詞です。主語に-kが付き、助動詞は*du*になります。 |
 | *Gaur gosaltzen dut etxean* | *Gaur gosaldu dut etxean* | 最近の過去を表したい場合は、*-tzen*を付けません。 |
-| *Atzo lanera joan naiz* | *Atzo lanera joan nintzen* (pasado completo) | *atzo*など、すでに完了した期間については完全過去形を使います。最近の過去は今日のことについて使います。 |
+| *Atzo lanera joan naiz* | *Atzo lanera joan nintzen*（完了過去） | *atzo*など、すでに完了した期間については完全過去形を使います。最近の過去は今日のことについて使います。 |
 
 > **注：**昨日の行動については、完全過去形（*joan nintzen*, *jan nuen*）を使いますが、これはA2レベルの内容です。A1レベルでは、最近の過去を使って**今日**のことを語ることに集中しましょう。もし*atzo joan naiz*と言っても理解はしてもらえますが、標準的な言い方は*atzo joan nintzen*です。
 

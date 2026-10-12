@@ -76,7 +76,7 @@ exercises:
   - eu: Zatoz hona
     es: Ven ací
   - eu: Hartu hau
-    es: Toma esto
+    es: Pren açò
   - eu: Eseri hemen
     es: Sei-te ací
   - eu: Esadazu egia
@@ -93,7 +93,7 @@ Er **imperatiu** (*agintera*) servís entà dar instruccions, hèr demanes e dar
 
 Entà fòrça òrdes quotidianes, eth vèrb apareish ena sua forma de participi sense auxiliar:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Pren | *Hartu* |
 | Sei-te | *Eseri* |
@@ -127,7 +127,7 @@ Quauqui vèrbs plan frequents an fòrmes sintètiques especifiques entar imperat
 
 Quan das un òrde damb doble objècte ("dona-me açò", "ditz-li aquerò"), eth basc a fòrmes compactes plan utiles:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Dona-me | *Emadazu* / *Eman iezadazu* |
 | Ditz-me | *Esadazu* / *Esan iezadazu* |

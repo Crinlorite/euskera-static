@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: ten/ta (blisko)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: tamten/tamta (średnio daleko)
   - eu: hura
-    es: aquel/aquella
+    es: tamten/tamta (daleko)
   - eu: bera
     es: on/ona
   - eu: haiek
-    es: ellos/ellas
+    es: oni/one
   - eu: Nor da hau?
     es: Kto to jest?
 - id: ex-10-03-fc

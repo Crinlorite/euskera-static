@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: pai
   - eu: ama
-    es: madre
+    es: nai
   - eu: anaia
     es: irmán (dun home ou dunha muller)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: irmá (dita por unha muller)
   - eu: seme
-    es: hijo
+    es: fillo
   - eu: alaba
-    es: hija
+    es: filla
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen ten unha irmá. Como se di "irmá" desde o punto de vista de Maialen?

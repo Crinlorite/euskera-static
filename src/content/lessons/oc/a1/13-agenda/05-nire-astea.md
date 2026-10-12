@@ -79,13 +79,13 @@ exercises:
   - eu: asteburuan
     es: eth fin de setmana
   - eu: bihar
-    es: mañana
+    es: deman
   - eu: etzi
-    es: pasado mañana
+    es: depús deman
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: aguesta tarde
   - eu: libre nago
-    es: estoy libre
+    es: sò liure
 ---
 
 Leccion finau dera unitat: anam a organizar **ua setmana entièra** en tot amassar tot çò qu'auem aprés. Dies, futurs, rendètz-vos, marcadors temporaus... eth lengatge dera planificacion.
@@ -116,7 +116,7 @@ Ua responsa naturau emplegarie eth dia + futur:
 
 ## Vèrbs utils entà l'agenda
 
-| Vèrb | Forma futura | Occitan |
+| Vèrb | Forma futura | Aranés |
 |---|---|---|
 | joan | joango naiz/da | aniré, anirà |
 | etorri | etorriko naiz/da | vieré, vierà |

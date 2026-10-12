@@ -53,23 +53,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gaur
-    es: hoy
+    es: heute
   - eu: atzo
-    es: ayer
+    es: gestern
   - eu: bihar
-    es: mañana
+    es: morgen
   - eu: etzi
-    es: pasado mañana
+    es: übermorgen
   - eu: gaur goizean
-    es: esta mañana
+    es: heute Morgen
   - eu: gaur arratsaldean
-    es: esta tarde
+    es: heute Nachmittag
   - eu: atzo gauean
-    es: anoche
+    es: gestern Abend
   - eu: orain
-    es: ahora
+    es: jetzt
   - eu: lehen
-    es: antes
+    es: vorher
 - id: ex-04-nm-fc
   type: flashcards
   cards:
@@ -126,7 +126,7 @@ Um gut erzählen zu können, was passiert ist, musst du sagen, **wann**. Diese L
 | *lehen* | vorher |
 | *gero* | dann, danach |
 
-> Wie du vielleicht bemerkt hast, sind *atzo* (gestern) und *bihar* (morgen) zwei sehr kurze Wörter, die man sich leicht merken kann. *Etzi* (übermorgen) ist ein Wort, für das das Spanische keine einzelne Entsprechung hat – ein kleines Geschenk des Baskischen.
+> Wie du vielleicht bemerkt hast, sind *atzo* (gestern) und *bihar* (morgen) zwei sehr kurze Wörter, die man sich leicht merken kann. *Etzi* (übermorgen) ist, genau wie das deutsche „übermorgen“, ein einziges Wort – leicht zu merken.
 
 ## Kombination mit Tageszeiten
 

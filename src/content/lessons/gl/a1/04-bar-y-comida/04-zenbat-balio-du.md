@@ -161,7 +161,7 @@ Aquí está a sorpresa do éuscaro. As decenas cóntanse **en grupos de 20**:
 | 3 € | *hiru euro* |
 | 25 € | *hogeita bost euro* |
 
-> Fíxate en que **euro** non leva o `-a` cando vai precedido dun número (igual que en *bi anaia*, "dous irmáns"). As cantidades exactas en céntimos dinse como en castelán: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
+> Fíxate en que **euro** non leva o `-a` cando vai precedido dun número (igual que en *bi anaia*, "dous irmáns"). As cantidades exactas en céntimos dinse coma en galego: *hiru euro eta berrogeita hamar zentimo* (3,50 €).
 
 ## Comprar varios elementos
 

@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Hobeto nago" vò díder…'
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Sò pejor
+  - Sò ben
+  - Sò melhor
+  - Sò parièr
   answer: 2
   explanation: '*Hobeto* = melhor. *Hobe* ei er adjectiu "melhor" e *hobeto* er advèrbi.'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: Te hè mau?
   - eu: Hartu hau
-    es: Toma esto
+    es: Pren açò
   - eu: Itzuli astebete barru
     es: Torne en ua setmana
   - eu: Atseden hartu
-    es: Descansar
+    es: Repausar
 ---
 
 Aguesta leccion ei un **simulacre complet de consulta medica**. Amàsse eth vocabulari dera leccion anteriora damb expressions de temps (cada quant, abans/dempús de) e formules frequentes. Era consulta ei un des contèxtes mès utils entà A2: apareish en quinsevolh examen oficiau.
@@ -99,7 +99,7 @@ Variants:
 
 Entà indicar "cada X temps", eth basc emplegue eth sufix **-ro** sus eth substantiu de temps:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Cada ora | *orduro* |
 | Cada dues ores | *bi orduro* |
@@ -124,7 +124,7 @@ Es indicacions deth metge sòlen portar aguestes formules:
 
 Entà respóner coma te tròbes:
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Estò melhor | *Hobeto nago* |
 | Estò pèger | *Okerrago nago* |

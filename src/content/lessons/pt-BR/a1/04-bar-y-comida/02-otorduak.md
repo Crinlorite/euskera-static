@@ -75,15 +75,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: gosaria
-    es: desayuno
+    es: café da manhã
   - eu: hamaiketakoa
     es: lanche da manhã
   - eu: bazkaria
     es: almoço
   - eu: askaria
-    es: merienda
+    es: lanche da tarde
   - eu: afaria
-    es: cena
+    es: jantar
   - eu: jan
     es: comer
   - eu: edan

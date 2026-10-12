@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-na4-mc1
   type: multiple-choice
-  prompt: '"Irakurtzea gustatzen zait" significa…'
+  prompt: '"Irakurtzea gustatzen zait" vol dir…'
   options:
   - Vull llegir ara
   - M'agrada llegir
@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: M'agrada llegir
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Li agrada cantar
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Ens agrada viatjar
   - eu: Margotzen dakit
     es: Sé pintar
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Vaig a ballar
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Estic cuinant
 ---
 
 Què fas quan no fas res? Aquesta lliçó va d'**aficions** — i de la peça de gramàtica que les governa: el verb convertit en substantiu amb **-tzea** (*irakurtzea* = "el llegir").
@@ -134,7 +134,7 @@ Tot el NOR-NORI que ja saps (*zait, zaio, zaigu…*) continua manant; només can
 
 ## Tres estructures, tres matisos (repàs fi)
 
-| Estructura | Exemple | Significa |
+| Estructura | Exemple | Significat |
 |---|---|---|
 | **-tzea gustatzen zait** | *Margotzea gustatzen zait* | m'agrada (afició) |
 | **-tzen dakit** | *Margotzen dakit* | sé fer-ho (habilitat) |

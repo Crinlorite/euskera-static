@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 'FUTURO: irei'
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 'PASSADO PONTUAL: fui'
   - eu: Joaten nintzen
     es: 'PASSADO hábito: ia'
   - eu: Joan ohi nintzen
     es: 'PASSADO hábito: costumava ir'
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 'AGORA: estou indo'
 ---
 
 Última lição da unidade — e o fechamento de um ciclo enorme: com o futuro já no bolso, **você domina os três tempos**. Esta lição adiciona a cereja do bolo (*ohi*, o "costumar" basco) e faz você transitar com a mesma ideia pelo passado, presente-hábito e futuro. Isso é, exatamente, o que uma banca de A2 quer ouvir.

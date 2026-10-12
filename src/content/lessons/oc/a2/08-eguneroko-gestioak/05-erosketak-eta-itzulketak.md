@@ -14,10 +14,10 @@ exercises:
   type: multiple-choice
   prompt: '"Handiegia da" signifique que era peça de ròba ei…'
   options:
-  - Demasiado cara
-  - Demasiado grande
-  - Muy bonita
-  - Demasiado pequeña
+  - Massa cara
+  - Massa gran
+  - Fòrça polida
+  - Massa petita
   answer: 1
   explanation: 'Er *-egi* dera unitat 04 (gehiegi/gutxiegi) aplicat ara talha: handi**egi**a = tròp gran; txiki**egi**a = tròp petita.'
 - id: ex-a2-ge5-mc2
@@ -45,7 +45,7 @@ exercises:
   prompt: Me pòdi emprovar aguesti pantalons? = praka hauek ___ ditzaket?
   answers:
   - probatu
-  explanation: '*Probatu* = emprovar(-se). Damb ahalera: probatu **ditzaket** (plurau: es pèces de ròba "praka" van en plurau, coma en castelhan).'
+  explanation: '*Probatu* = emprovar(-se). Damb ahalera: probatu **ditzaket** (plurau: es pèces de ròba "praka" van en plurau, coma en aranés).'
 - id: ex-a2-ge5-fb2
   type: fill-in-blank
   prompt: Me va petit; lo vòli escambiar = txikia geratzen zait; ___ nahi dut.
@@ -104,7 +104,7 @@ Comprar ne sabíes ja deth A1. Aguesta leccion ei eth **nivèu 2 de botiga**: em
 
 ## En emprovador
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Me'l pòdi emprovar? | *Probatu dezaket?* |
 | Er emprovador | *probalekua* |
@@ -127,7 +127,7 @@ Comprar ne sabíes ja deth A1. Aguesta leccion ei eth **nivèu 2 de botiga**: em
 
 ## Escambiar e tornar
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Lo vòli escambiar | *Aldatu nahi dut* |
 | Lo vòli tornar | *Itzuli nahi dut* |

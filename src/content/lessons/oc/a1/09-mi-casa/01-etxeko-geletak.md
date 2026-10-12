@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: codina
   - eu: logela
-    es: dormitorio
+    es: cramba
   - eu: komuna
-    es: baño
+    es: banh
   - eu: egongela
     es: salon
   - eu: sarrera
     es: entrada
   - eu: korridorea
-    es: pasillo
+    es: corredor
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Te vòs duchar. A quina abitacion vas?

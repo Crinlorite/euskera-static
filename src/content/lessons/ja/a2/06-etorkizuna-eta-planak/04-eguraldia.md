@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: 天気予報で「*Bihar eguzkia aterako da*」と言っています。明日はどうなるでしょう？
   options:
-  - Lluvia
-  - Viento fuerte
-  - Sol
-  - Niebla
+  - 雨
+  - 強風
+  - 晴れ
+  - 霧
   answer: 2
   explanation: '*Eguzkia atera* = 太陽が出る。未来形は *aterako da* です。つまり、明日は晴れるでしょう。'
 - id: ex-a2-et4-mc3
@@ -98,7 +98,7 @@ exercises:
   - eu: Eguzkia aterako da
     es: 太陽が出るでしょう
   - eu: Haizea dabil
-    es: Hace viento
+    es: 風が強い
   - eu: Hotz handia egiten du
     es: とても寒いです
   - eu: Hodeitsu dago
@@ -139,7 +139,7 @@ exercises:
 >
 > ***Hodeitsu / eguzkitsu dago**.* — 曇っています／晴れています。
 
-> **注目：**バスク語の天気は、*egin* と助動詞 **du** を使って物事を「**する**」と表現します（主語は見えません）：*euria egingo du*、*bero handia egiten du*。これはスペイン語の「hace calor」（暑い、直訳：熱を作る）とそっくりです。違うのは、雨も「作られる」点です。
+> **注目：**バスク語の天気は、*egin* と助動詞 **du** を使って物事を「**する**」と表現します（主語は見えません）：*euria egingo du*、*bero handia egiten du*。日本語では「暑い」と言いますが、バスク語では天気が暑さを「作り」、雨さえも「作られる」のです。
 
 ## 質問の仕方
 

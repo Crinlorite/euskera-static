@@ -33,7 +33,7 @@ exercises:
   explanation: '"Gabon" es fa servir a la nit, també per a "bona nit" en acomiadar-se.'
 - id: ex-01-kaixo-mc3
   type: multiple-choice
-  prompt: '"Aspaldiko" significa…'
+  prompt: '"Aspaldiko" vol dir…'
   options:
   - Fins demà!
   - Quant de temps sense veure't!
@@ -80,11 +80,11 @@ exercises:
   - eu: Egun on
     es: Bon dia
   - eu: Gabon
-    es: Buenas noches
+    es: Bona nit
   - eu: Gero arte
-    es: Hasta luego
+    es: Fins després
   - eu: Eskerrik asko
-    es: Muchas gracias
+    es: Moltes gràcies
 ---
 
 En basc, les salutacions canvien segons el moment del dia. La fórmula universal i la més comuna és **Kaixo**, que es fa servir a qualsevol hora amb gairebé qualsevol persona — igual que l'"hola" en català. **Hepa** o **Aupa** són alternatives encara més informals, sobretot entre gent jove i amics.

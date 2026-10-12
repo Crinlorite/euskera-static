@@ -14,13 +14,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: garbitu
-    es: limpiar
+    es: to clean
   - eu: prestatu
-    es: preparar
+    es: to prepare
   - eu: jaso
-    es: recoger
+    es: to tidy up
   - eu: lisatu
-    es: planchar
+    es: to iron
   - eu: erosketak egin
     es: to do the shopping
   - eu: zaborra atera

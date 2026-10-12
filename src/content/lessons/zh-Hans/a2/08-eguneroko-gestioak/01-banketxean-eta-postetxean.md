@@ -78,9 +78,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Dirua atera
-    es: Sacar dinero
+    es: 取钱
   - eu: Dirua sartu
-    es: Ingresar dinero
+    es: 存钱
   - eu: Transferentzia egin
     es: 进行转账
   - eu: Paketea bidali
@@ -95,7 +95,7 @@ exercises:
 
 ## 在银行 (banketxea)
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 账户 | *kontua* |
 | 开户 | *kontua ireki / zabaldu* |
@@ -116,7 +116,7 @@ exercises:
 
 ## 在邮局 (postetxea)
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 信 | *gutuna* |
 | 包裹 | *paketea* |

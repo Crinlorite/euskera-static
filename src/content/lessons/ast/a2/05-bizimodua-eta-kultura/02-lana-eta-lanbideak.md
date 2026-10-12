@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-bz2-mc1
   type: multiple-choice
-  prompt: '"Lan-elkarrizketa" significa…'
+  prompt: '"Lan-elkarrizketa" quier dicir…'
   options:
   - Conferencia
   - Entrevista de trabayu
@@ -23,12 +23,12 @@ exercises:
   explanation: '*Elkarrizketa* = entrevista. *Lan-elkarrizketa* = entrevista de trabayu.'
 - id: ex-a2-bz2-mc2
   type: multiple-choice
-  prompt: '"Soldata" significa…'
+  prompt: '"Soldata" quier dicir…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - Trabayu
+  - Sueldu
+  - Xefe
+  - Emplegáu
   answer: 1
   explanation: '*Soldata* = sueldu. *Lansari* ye sinónimu formal.'
 - id: ex-a2-bz2-fb1
@@ -80,15 +80,15 @@ exercises:
   - eu: irakasle
     es: profesor/a
   - eu: erizain
-    es: enfermero/a
+    es: enfermeru/a
   - eu: sukaldari
-    es: cocinero/a
+    es: cocineru/a
   - eu: kazetari
     es: periodista
   - eu: mekanikari
     es: mecánicu/a
   - eu: arkitekto
-    es: arquitecto/a
+    es: arquiteutu/a
 ---
 
 A2 ábrete'l mundu del **trabayu** más allá de "soi estudiante / soi profesor". Agora entres a falar de:
@@ -102,7 +102,7 @@ A2 ábrete'l mundu del **trabayu** más allá de "soi estudiante / soi profesor"
 
 A1 cubría les clásiques (*medikua, ikaslea, irakaslea, sukaldaria*). N'A2 amiestes:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Periodista | *kazetaria* |
 | Programador/a | *programatzailea* |
@@ -128,7 +128,7 @@ A1 cubría les clásiques (*medikua, ikaslea, irakaslea, sukaldaria*). N'A2 amie
 
 Recuerda esti sufixu d'A1 — productivu n'oficios:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Falante d'eusquera | *euskalduna* |
 | Campeón (que tien la txapela) | *txapelduna* |
@@ -136,7 +136,7 @@ Recuerda esti sufixu d'A1 — productivu n'oficios:
 
 ## Falar del trabayu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | ¿En qué trabayes? | *Zertan egiten duzu lan?* |
 | Trabayo nuna oficina | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ Recuerda esti sufixu d'A1 — productivu n'oficios:
 
 ## Xornada y horariu
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Xornada completa | *Lanaldi osoa* |
 | Media xornada | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ Recuerda esti sufixu d'A1 — productivu n'oficios:
 
 Pasos típicos y vocabulariu:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Ufierta d'emplegu | *lan-eskaintza* |
 | Currículum / CV | *curriculuma* |
@@ -177,7 +177,7 @@ Pasos típicos y vocabulariu:
 
 ## Frases típiques nuna entrevista
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Cuéntame daqué de ti | *Konta iezadazu zerbait zuri buruz* |
 | ¿Por qué quies esti puestu? | *Zergatik nahi duzu lanpostu hau?* |
@@ -192,7 +192,7 @@ Pa describir el to trabayu en términos más complexos, conviénte usar la **rel
 
 > **verbu conxugáu + -(e)n + sustantivu**
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El trabayu que tengo | *Daukadan lana* |
 | La empresa onde trabayo | *Lan egiten dudan enpresa* |

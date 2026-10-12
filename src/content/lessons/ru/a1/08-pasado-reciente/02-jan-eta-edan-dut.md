@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: я поел(а)
   - eu: edan dut
-    es: he bebido
+    es: я выпил(а)
   - eu: ikusi dut
-    es: he visto
+    es: я увидел(а)
   - eu: irakurri dut
     es: я прочитал(а)
   - eu: erosi dut
-    es: he comprado
+    es: я купил(а)
   - eu: egin dut
-    es: he hecho
+    es: я сделал(а)
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: я взял(а)
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: я выучил(а) / позанимался(-ась)
 - id: ex-02-jed-fc
   type: flashcards
   cards:

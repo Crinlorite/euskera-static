@@ -87,7 +87,7 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Hitzordua eskatu
-    es: Pedir cita
+    es: Make an appointment
   - eu: Eskabidea bete
     es: Fill out the application
   - eu: NANaren fotokopia
@@ -104,7 +104,7 @@ The final boss of adult life: **paperwork**. Breathe: with ten well-chosen words
 
 ## The vocabulary of paperwork
 
-| Spanish | Basque |
+| English | Basque |
 |---|---|
 | The city hall | *udaletxea* |
 | The municipal register / to register | *errolda / erroldatu* |

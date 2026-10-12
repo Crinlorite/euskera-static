@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: pai
   - eu: ama
-    es: madre
+    es: mai
   - eu: anaia
     es: chirmán (d'un hombre u d'una muller)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: chirmana (dita por una muller)
   - eu: seme
-    es: hijo
+    es: fillo
   - eu: alaba
-    es: hija
+    es: filla
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen tien una chirmana. ¿Cómo se diz "chirmana" dende o punto de vista de Maialen?

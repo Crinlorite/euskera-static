@@ -45,15 +45,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hau
-    es: este/a (cerca)
+    es: 이것 (가까이)
   - eu: hori
-    es: ese/a (a media distancia)
+    es: 그것 (중간 거리)
   - eu: hura
-    es: aquel/aquella
+    es: 저것 (멀리)
   - eu: bera
     es: 그/그녀
   - eu: haiek
-    es: ellos/ellas
+    es: 그들
   - eu: Nor da hau?
     es: 이 사람은 누구인가요?
 - id: ex-10-03-fc

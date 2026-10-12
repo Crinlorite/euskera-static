@@ -49,23 +49,23 @@ exercises:
   type: match-pairs
   pairs:
   - eu: esnatu
-    es: despertarse
+    es: a se trezi
   - eu: jaiki
-    es: levantarse
+    es: a se scula
   - eu: dutxatu
-    es: ducharse
+    es: a face duș
   - eu: gosaldu
-    es: desayunar
+    es: a lua micul dejun
   - eu: bazkaldu
-    es: comer (almorzar)
+    es: a lua prânzul
   - eu: afaldu
-    es: cenar
+    es: a lua cina
   - eu: lan egin
-    es: trabajar
+    es: a lucra
   - eu: lo egin
-    es: dormir
+    es: a dormi
   - eu: oheratu
-    es: acostarse
+    es: a se culca
 - id: ex-04-ee-fc
   type: flashcards
   cards:
@@ -117,7 +117,7 @@ Pentru a spune ce faci în fiecare zi, limba bască folosește **aspectul habitu
 
 ## Verbe de zi cu zi
 
-### NOR (auxiliar **izan**: naiz, zara, da…)
+### NOR (auxiliarul **izan**: naiz, zara, da…)
 
 Acestea merg **cu izan** pentru că sunt intranzitive — subiectul experimentează acțiunea fără un obiect:
 
@@ -133,7 +133,7 @@ Acestea merg **cu izan** pentru că sunt intranzitive — subiectul experimentea
 | *oheratu* | *oheratzen naiz* | mă culc |
 | *lokartu* | *lokartzen naiz* | adorm |
 
-### NOR-NORK (auxiliar **ukan**: dut, duzu, du…)
+### NOR-NORK (auxiliarul **ukan**: dut, duzu, du…)
 
 Acestea merg **cu ukan** pentru că au subiect și obiect:
 

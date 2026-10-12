@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: jusqu'à la montagne
   - eu: etxerantz
-    es: hacia casa
+    es: vers la maison
   - eu: lagunarengatik
     es: à cause de l'ami
   - eu: Bilboko jendea
@@ -170,7 +170,7 @@ Pour demander la raison : **zergatik?** (pourquoi ?). Pour répondre avec un nom
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Pourquoi as-tu fait ça ? — Pour toi.
 
-> **Note :** distinguez *-engatik* (cause : "à cause de") de *-rentzat* (destinataire : "pour"). En espagnol, "por" couvre les deux, mais en basque, ils sont distincts.
+> **Note :** distinguez *-engatik* (cause : "à cause de") de *-rentzat* (destinataire : "pour"). En français, « pour » peut couvrir les deux (« merci pour… »), mais en basque, ce sont deux terminaisons distinctes.
 
 ## NONGO / NOIZKO — de quel lieu / moment
 

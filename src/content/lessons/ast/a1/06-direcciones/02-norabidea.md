@@ -20,7 +20,7 @@ exercises:
   - eu: jo eskuinera
     es: xira a la derecha
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: sigue rectu / p'alantre
   - eu: zeharkatu
     es: cruza
   - eu: igo eskailerak
@@ -41,12 +41,12 @@ exercises:
   explanation: '"Jo ezkerrera" (xira a la izquierda) + ubicación con "-an": "semaforoan" (nel semáforu).'
 - id: ex-no-mc2
   type: multiple-choice
-  prompt: '"Zeharkatu" significa…'
+  prompt: '"Zeharkatu" quier dicir…'
   options:
-  - seguir recto
+  - siguir rectu
   - cruzar
-  - girar
-  - subir
+  - xirar
+  - xubir
   answer: 1
   explanation: De "zehar" (al traviés). "Zeharkatu kalea / zebrabidea" = cruciar la cai / el pasu de cebra.
 - id: ex-no-fb1
@@ -78,7 +78,7 @@ exercises:
   - eu: aurrera
     es: hacia alantre
   - eu: atzera
-    es: hacia atrás
+    es: p'atrás
   - eu: jo ezkerrera
     es: xira a la izquierda
   - eu: jo eskuinera
@@ -140,9 +140,9 @@ N'eusquera, l'imperativu afirmativu de los verbos de movimientu ye mui direutu:
 | *ezkerra* | la izquierda |
 | *eskuina* | la derecha |
 | *aurrera* | hacia alantre |
-| *atzera* | hacia atrás |
+| *atzera* | p'atrás |
 | *zuzen* | rectu, derechu |
-| *gora* | hacia arriba |
+| *gora* | p'arriba |
 | *behera* | hacia abaxo |
 
 > Fíxate: pa indicar **direición hacia** úsase'l sufixu `-ra` (que vas ver a fondu na lleición 03): *ezkerre-ra* (a la izquierda), *aurre-ra* (hacia alantre), *atze-ra* (hacia atrás). Lo mesmo pa *gora*, *behera*.

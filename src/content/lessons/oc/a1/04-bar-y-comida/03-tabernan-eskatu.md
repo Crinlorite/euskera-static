@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: per favor
   - eu: eskerrik asko
-    es: muchas gracias
+    es: fòrça gràcies
   - eu: ez horregatik
     es: de arren
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: Tà jo
   - eu: ona
-    es: bueno
+    es: bon
 ---
 
 Comandar en bar ei ua des causes mès utiles que saberàs díder en basc. Era formula basica ei fòrça dirècta: nòm d'acò que vòs + **bat** (un) + **mesedez** (per favor). E ja està.
@@ -157,4 +157,4 @@ En basc, eth "escota / escotatz" tipic tà cridar era atencion ei **Aizu!** (inf
 >
 > — *Ederki!* — Suber!
 
-> **Nòta culturau:** en ua taverna basca, çò normau ei comandar ena barra, béuer de pè e parlar fòrt. *Mesedez* e *eskerrik asko* son basics mès non obligatòris en cada frasa — ath contrari qu'en castelhan, non se considère maeducat un "*ebakia*" sec, tostemps qu'eth ton seja cordiau.
+> **Nòta culturau:** en ua taverna basca, çò normau ei comandar ena barra, béuer de pè e parlar fòrt. *Mesedez* e *eskerrik asko* son basics mès non obligatòris en cada frasa — ath contrari de çò que poderies pensar, non se considère maeducat un "*ebakia*" sec, tostemps qu'eth ton seja cordiau.

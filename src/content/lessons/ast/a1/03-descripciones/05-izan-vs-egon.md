@@ -83,14 +83,14 @@ exercises:
   - eu: urduria naiz
     es: soi nerviosa (calter)
   - eu: urduri nago
-    es: estoy nerviosa (ahora)
+    es: toi nerviosa (agora)
   - eu: ona da
     es: ye bonu (cualidá)
   - eu: ondo dago
     es: ta bien (estáu)
 ---
 
-Esta ye probablemente la distinción más esbaxinadiza del A1 n'eusquera. Como en castellán "ser" vs "estar", pero con dos diferencies importantes: **(1) los axetivos camuden de forma** y **(2) delles pallabres solo s'usen con ún de los dos verbos**.
+Esta ye probablemente la distinción más esbaxinadiza del A1 n'eusquera. Como n'asturianu "ser" vs "tar", pero con dos diferencies importantes: **(1) los axetivos camuden de forma** y **(2) delles pallabres solo s'usen con ún de los dos verbos**.
 
 ## La regla nuna llinia
 
@@ -130,4 +130,4 @@ Mira cómo camuda la pallabra escoyida según fales de cualidá o d'estáu:
 - **Nolakoa zara?** → describe'l to calter / físicu (usu *izan*).
 - **Nola zaude?** o **Zer moduz?** → cuenta cómo tas güei (usu *egon*).
 
-> **Nota:** en castellán diríase "soy nervioso" o "estoy nervioso" ensin camudar la pallabra. N'eusquera la pallabra camuda (*urduria* vs *urduri*). De primeres cuesta; cola práutica diaria sal solo. Si duldes nuna conversación real, una salida segura ye usar *egon* con una pallabra invariable: *haserre nago*, *triste nago*, *nekatuta nago* — siempre funcionen.
+> **Nota:** n'asturianu diríase "soi nerviosu" o "toi nerviosu" ensin camudar la pallabra. N'eusquera la pallabra camuda (*urduria* vs *urduri*). De primeres cuesta; cola práutica diaria sal solo. Si duldes nuna conversación real, una salida segura ye usar *egon* con una pallabra invariable: *haserre nago*, *triste nago*, *nekatuta nago* — siempre funcionen.

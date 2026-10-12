@@ -77,7 +77,7 @@ exercises:
   - eu: mesedez
     es: please
   - eu: eskerrik asko
-    es: muchas gracias
+    es: thank you very much
   - eu: ez horregatik
     es: you're welcome
   - eu: Nahi duzu...?
@@ -89,7 +89,7 @@ exercises:
   - eu: Niretzat
     es: For me
   - eu: ona
-    es: bueno
+    es: good
 ---
 
 Ordering at the bar is one of the most useful things you'll learn to say in Basque. The basic formula is very direct: name of what you want + **bat** (one) + **mesedez** (please). And that's it.
@@ -157,4 +157,4 @@ In Basque, the typical "hey / excuse me" to get attention is **Aizu!** (informal
 >
 > — *Ederki!* — Great!
 
-> **Cultural note:** in a Basque tavern, it's normal to order at the counter, drink while standing, and speak loudly. *Mesedez* and *eskerrik asko* are basic but not mandatory in every sentence — unlike in Spanish, a blunt "*ebakia*" is not considered rude, as long as the tone is friendly.
+> **Cultural note:** in a Basque tavern, it's normal to order at the counter, drink while standing, and speak loudly. *Mesedez* and *eskerrik asko* are basic but not mandatory in every sentence — unlike in English, a blunt "*ebakia*" is not considered rude, as long as the tone is friendly.

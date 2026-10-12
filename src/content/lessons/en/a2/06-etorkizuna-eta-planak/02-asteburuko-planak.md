@@ -52,7 +52,7 @@ exercises:
   prompt: I intend to study Basque = euskara ikasteko ___ dut.
   answers:
   - asmoa
-  explanation: '*Asmoa* = the intention. Structure: verbo + *-t(z)eko* + **asmoa** + ukan.'
+  explanation: '*Asmoa* = the intention. Structure: verb + *-t(z)eko* + **asmoa** + ukan.'
 - id: ex-a2-et2-fc
   type: flashcards
   cards:
@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: yesterday (past)
   - eu: bihar
-    es: mañana (futuro)
+    es: tomorrow (future)
   - eu: herenegun
-    es: anteayer
+    es: the day before yesterday
   - eu: etzi
-    es: pasado mañana
+    es: the day after tomorrow
   - eu: joan den astean
     es: last week
   - eu: datorren astean
@@ -138,7 +138,7 @@ And its typical answers:
 | I feel like going | *Joateko **gogoa daukat*** | a desire / a craving |
 | I'm thinking of going | *Joateko **asmotan nabil*** | I'm toying with the idea |
 
-The common structure: **verbo + -t(z)eko + sustantivo (asmoa/gogoa)**. With what you already know about *-tzeko* (purpose), this will come naturally.
+The common structure: **verb + -t(z)eko + noun (asmoa/gogoa)**. With what you already know about *-tzeko* (purpose), this will come naturally.
 
 ## Examples in context
 

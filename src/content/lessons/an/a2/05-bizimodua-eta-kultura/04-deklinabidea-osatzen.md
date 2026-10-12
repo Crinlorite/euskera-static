@@ -82,7 +82,7 @@ exercises:
   - eu: mendiraino
     es: dica o mont
   - eu: etxerantz
-    es: hacia casa
+    es: enta casa
   - eu: lagunarengatik
     es: por (culpa de) l'amigo
   - eu: Bilboko jendea
@@ -106,8 +106,8 @@ Ista lección integradora repasa **cuatro declinacions nuevas** que A2 adhibe a 
 | zuentzat | *zuentzat* | pa vusatros |
 | haientzat | *haientzat* | pa éls/ellas |
 | Lander | *Landerrentzat* | pa Lander |
-| la madre | *amarentzat* | pa la mai |
-| los amigos | *lagunentzat* | pa os amigos |
+| a mai | *amarentzat* | pa la mai |
+| os amigos | *lagunentzat* | pa os amigos |
 
 > *Hau **zuretzat** da.* — Isto ye pa tu.
 >
@@ -158,11 +158,11 @@ Pa preguntar o motivo: **zergatik?** (por qué?). Pa responder con un substantiv
 |---|---|---|
 | nigatik | *nigatik* | por yo (causa) |
 | zugatik | *zugatik* | por tu |
-| beragatik / harengatik | *beragatik* | por él/ella |
+| beragatik / harengatik | *beragatik* | por ell/ella |
 | Lander | *Landerrengatik* | por Lander |
-| la madre | *amarengatik* | por la mai |
-| el amor | *maitasunarengatik* | por l'amor |
-| la lluvia | *euriagatik* | por a plebia |
+| a mai | *amarengatik* | por la mai |
+| l'amor | *maitasunarengatik* | por l'amor |
+| a plebia | *euriagatik* | por a plebia |
 
 > *Eskerrik asko **etorri zarelako, niregatik**!* — Gracias por venir, por yo!
 >
@@ -170,7 +170,7 @@ Pa preguntar o motivo: **zergatik?** (por qué?). Pa responder con un substantiv
 >
 > *Zergatik egin duzu hori? — **Zugatik**.* — Por qué lo ficiés? — Por tu.
 
-> **Nota:** distingue *-engatik* (causa: "por culpa de") de *-rentzat* (destinatario: "pa"). En castellano "por" cubre as dos, pero en basco son distintos.
+> **Nota:** distingue *-engatik* (causa: "por culpa de") de *-rentzat* (destinatario: "pa"). En aragonés tamién las distinguimos («per» / «ta»), como en basco.
 
 ## NONGO / NOIZKO — de qué puesto / momento
 
@@ -219,7 +219,7 @@ Agora ya maneyas toz os casos basicos:
 | Caso | Pregunta | Sufixo | Exemplo (etxe) |
 |---|---|---|---|
 | NOR | qui? | -a | *etxea* |
-| NORK | qui fa? | -ak | *etxeak* (sujeto) |
+| NORK | qui fa? | -ak | *etxeak* (subchecto) |
 | NORI | a qui? | -ari | *etxeari* |
 | NON | an? | -an | *etxean* |
 | NORA | t'an? | -ra | *etxera* |

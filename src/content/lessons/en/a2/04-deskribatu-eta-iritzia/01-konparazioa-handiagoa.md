@@ -73,11 +73,11 @@ exercises:
   - eu: gehiago
     es: more (quantity)
   - eu: gutxiago
-    es: menos
+    es: less
   - eu: hobea
-    es: mejor
+    es: better
   - eu: okerragoa
-    es: peor
+    es: worse
   - eu: azkarragoa
     es: faster
 ---
@@ -89,7 +89,7 @@ Comparing is one of the most common acts of language: *this one is bigger than t
 > **X baino Y-AGO(A)**
 
 - **baino** is placed between the two compared terms — it's equivalent to "than".
-- **-ago** is added to the adjective or adverb (like the English "-er" or the Spanish comparative marker).
+- **-ago** is added to the adjective or adverb (like the English "-er").
 - If it goes with a definite noun, the adjective takes its usual **-a**: *altuago**a***.
 
 | English | Basque |

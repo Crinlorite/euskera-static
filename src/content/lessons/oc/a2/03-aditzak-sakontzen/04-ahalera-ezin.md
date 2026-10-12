@@ -72,7 +72,7 @@ exercises:
   - eu: Etor zaitezke
     es: Pòs vier?
   - eu: Egin dezakezu
-    es: Puedes hacerlo
+    es: Ac pòs hèr
   - eu: Ezin dut etorri
     es: Non pòdi vier
   - eu: Ezin nintzen joan
@@ -93,7 +93,7 @@ Era mès sencilla e era que mès sentiràs:
 
 > **partizipioa + ahal + auxiliar**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Pòs vier? | *Etorri **ahal zara**?* |
 | Pòdi entrar? | *Sartu **ahal naiz**?* |
@@ -108,7 +108,7 @@ Ei era forma sintetica deth mòde potenciau. A dues series, segontes s'eth vèrb
 
 ### Vèrbs transitius (NOR-NORK): *dezaket*
 
-| Pronom | Forma | Castelhan |
+| Pronom | Forma | Aranés |
 |---|---|---|
 | nik | **dezaket** | jo ac pòdi |
 | zuk | **dezakezu** | tu ac pòs |
@@ -121,7 +121,7 @@ Ei era forma sintetica deth mòde potenciau. A dues series, segontes s'eth vèrb
 
 ### Vèrbs intransitius (NOR): *naiteke*
 
-| Pronom | Forma | Castelhan |
+| Pronom | Forma | Aranés |
 |---|---|---|
 | ni | **naiteke** | jo pòdi |
 | zu | **zaitezke** | tu pòs |
@@ -151,7 +151,7 @@ Era negacion dera ahalera a un mot pròpri: **ezin**.
 
 > **ezin + partizipioa + auxiliar**
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | Non pòdi vier | *Ezin **dut etorri*** (NOR-NORK) o *Ezin **naiz etorri*** (NOR) |
 | Non pòdi anar | *Ezin naiz joan* |
@@ -184,7 +184,7 @@ Totes tres conviven. En A2 produsís es dues prumères e reconeish-les totes.
 
 ## *Ahal izan* en d'auti temps
 
-| Castelhan | Basc |
+| Aranés | Basc |
 |---|---|
 | E pogut anar | *Joan ahal izan naiz* |
 | Poderè anar | *Joan ahal izango naiz* |

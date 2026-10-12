@@ -91,13 +91,13 @@ exercises:
   - eu: Joango naiz
     es: 将来时：我将去
   - eu: Joan nintzen
-    es: 'PASADO puntual: fui'
+    es: 一次性过去：我去了
   - eu: Joaten nintzen
     es: 过去习惯：我过去常去
   - eu: Joan ohi nintzen
     es: 过去习惯：我过去常常去
   - eu: Joaten ari naiz
-    es: 'AHORA: estoy yendo'
+    es: 现在：我正在去
 ---
 
 本单元的最后一课 — 也为一个重要阶段画上句号：既然你已经掌握了将来时，**你就掌握了全部三种时态**。这节课是锦上添花（*ohi*，巴斯克语中的“通常”），并且会让你练习用过去时、现在习惯时和将来时表达同一个想法。这正是A2考试的考官想听到的内容。
@@ -106,7 +106,7 @@ exercises:
 
 > **过去分词 + ohi + 助动词**
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 我通常骑自行车上班 | *Lanera bizikletaz joan **ohi** naiz* |
 | 我们通常在奶奶家吃饭 | *Amonaren etxean bazkaldu **ohi** dugu* |
@@ -122,7 +122,7 @@ exercises:
 
 ## 与习惯搭配的副词
 
-| 西班牙语 | 巴斯克语 |
+| 中文 | 巴斯克语 |
 |---|---|
 | 通常 | *normalean* |
 | 大多数时候 | *gehienetan* |

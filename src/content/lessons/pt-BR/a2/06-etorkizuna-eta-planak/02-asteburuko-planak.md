@@ -88,13 +88,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: atzo
-    es: ayer (pasado)
+    es: ontem (passado)
   - eu: bihar
-    es: mañana (futuro)
+    es: amanhã (futuro)
   - eu: herenegun
-    es: anteayer
+    es: anteontem
   - eu: etzi
-    es: pasado mañana
+    es: depois de amanhã
   - eu: joan den astean
     es: a semana passada
   - eu: datorren astean
@@ -138,7 +138,7 @@ E suas respostas típicas:
 | Tenho vontade de ir | *Joateko **gogoa daukat*** | vontade |
 | Penso em ir | *Joateko **asmotan nabil*** | estou com a ideia |
 
-A estrutura comum: **verbo + -t(z)eko + sustantivo (asmoa/gogoa)**. Com o que você já sabe sobre *-tzeko* (finalidade), isso sai naturalmente.
+A estrutura comum: **verbo + -t(z)eko + substantivo (asmoa/gogoa)**. Com o que você já sabe sobre *-tzeko* (finalidade), isso sai naturalmente.
 
 ## Exemplos em contexto
 

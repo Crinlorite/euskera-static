@@ -28,8 +28,8 @@ exercises:
   prompt: '"Lehengusu" ye...'
   options:
   - primo
-  - hermano
-  - abuelo
+  - chermano
+  - yayo
   - suegro
   answer: 0
 - id: ex-fe-fc

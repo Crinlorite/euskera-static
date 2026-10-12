@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: 飲み過ぎないでください
   - eu: Hartu fruta
-    es: Toma fruta
+    es: 果物を食べて
   - eu: Egin kirola
-    es: Haz deporte
+    es: 運動して
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: よく眠って
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: 落ち着くようにして
 ---
 
 このレッスンでは、このユニットの3つのテーマを統合し、健康的な生活のための**アドバイス**、禁止、推奨事項を学びます。**否定命令**と、何をすべきかについて意見を言うための、A2レベルで非常に役立つ表現をいくつか学びます。
@@ -92,7 +92,7 @@ exercises:
 
 > **ez + 分詞**
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 喫煙しないでください | *Ez erre* |
 | アルコールを飲まないでください | *Ez edan alkoholik* |
@@ -102,13 +102,13 @@ exercises:
 | 怖がらないでください | *Ez izan beldurrik* |
 | 走らないでください | *Ez korrika egin* |
 
-> 部分格の *-rik* は頻繁に現れます：*ez edan alkohol**ik***, *ez izan beldur**rik***。これはスペイン語の「no bebas (nada de) alcohol」（アルコールを（一切）飲むな）のように機能します。A1で少し触れましたが、A2ではこれを認識できるようになることが望ましいです。
+> 部分格の *-rik* は頻繁に現れます：*ez edan alkohol**ik***, *ez izan beldur**rik***。これは日本語の「（少しも）アルコールを飲まないで」のような働きをします。A1で少し触れましたが、A2ではこれを認識できるようになることが望ましいです。
 
 ## 強調の否定命令：*ez ezazu*
 
 よりフォーマルな文章や、禁止を強調したい場合に、*ezazu* を使った形が現れます：
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | これを取らないでください | *Ez ezazu hartu hau* |
 | 忘れないでください | *Ez ezazu ahaztu* |
@@ -122,7 +122,7 @@ A2レベルでは、ブロックとして覚えると便利な2つの表現が�
 
 ### *Hobe duzu + -tzea* — 「（君が）～する方が良い」
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 休んだ方が良いです | *Hobe duzu **deskantsatzea*** |
 | 早く行った方が良いです | *Hobe duzu goiz **joatea*** |
@@ -132,7 +132,7 @@ A2レベルでは、ブロックとして覚えると便利な2つの表現が�
 
 ### *Komeni zaizu / komeni da* — 「君のためになる／～すると良い」
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | もっと歩くと良いですよ | *Gehiago **ibiltzea** komeni zaizu* |
 | 果物を食べると良いです | *Fruta **jatea** komeni da* |

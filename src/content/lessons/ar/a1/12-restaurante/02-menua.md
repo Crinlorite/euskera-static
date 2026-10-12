@@ -16,20 +16,20 @@ exercises:
   type: multiple-choice
   prompt: '"Lehen platera" تعني...'
   options:
-  - Postre
-  - Primer plato
-  - Segundo plato
-  - Bebida
+  - حلوى
+  - الطبق الأول
+  - الطبق الثاني
+  - مشروب
   answer: 1
   explanation: '*Lehen platera* — الطبق الأول. *Lehen* تعني "الأول".'
 - id: ex-menu-mc2
   type: multiple-choice
   prompt: '"Postrea" بالعربية هي...'
   options:
-  - Bebida
-  - Aperitivo
-  - Postre
-  - Plato principal
+  - مشروب
+  - مقبّلات
+  - حلوى
+  - الطبق الرئيسي
   answer: 2
   explanation: '*Postrea* — الحلوى. الترجمة مباشرة.'
 - id: ex-menu-fb1
@@ -87,24 +87,24 @@ exercises:
   type: match-pairs
   pairs:
   - eu: lehen platera
-    es: primer plato
+    es: الطبق الأول
   - eu: bigarren platera
-    es: segundo plato
+    es: الطبق الثاني
   - eu: postrea
-    es: postre
+    es: حلوى
   - eu: edaria
-    es: bebida
+    es: مشروب
   - eu: eguneko menua
     es: قائمة اليوم
   - eu: karta
-    es: carta
+    es: قائمة الطعام
 ---
 
 معرفة قراءة قائمة الطعام تفتح لك الأبواب. في معظم مطاعم *jatetxeak* سترى الهيكل الكلاسيكي المكون من ثلاثة أجزاء: الطبق الأول، والطبق الثاني، والحلوى.
 
 ## خياران لتناول الطعام
 
-| باللغة الباسكية | بالعربية | متى |
+| باللغة الباسكية | العربية | متى |
 |---|---|---|
 | *eguneko menua* | قائمة اليوم | سعر ثابت، خيارات محدودة |
 | *karta* | قائمة طعام | حسب الطلب، تختار بحرية |
@@ -115,7 +115,7 @@ exercises:
 
 ## أجزاء قائمة الطعام
 
-| باللغة الباسكية | بالعربية |
+| باللغة الباسكية | العربية |
 |---|---|
 | *hasierakoak* | مقبلات / فواتح شهية |
 | *lehen platera* | الطبق الأول |

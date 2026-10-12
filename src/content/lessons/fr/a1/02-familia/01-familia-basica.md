@@ -14,9 +14,9 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aita
-    es: padre
+    es: père
   - eu: ama
-    es: madre
+    es: mère
   - eu: anaia
     es: frère (d'un homme ou d'une femme)
   - eu: arreba
@@ -24,9 +24,9 @@ exercises:
   - eu: ahizpa
     es: sœur (dit par une femme)
   - eu: seme
-    es: hijo
+    es: fils
   - eu: alaba
-    es: hija
+    es: fille
 - id: ex-fb-mc1
   type: multiple-choice
   prompt: Maialen a une sœur. Comment dit-on « sœur » du point de vue de Maialen ?

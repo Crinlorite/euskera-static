@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: gehen
   - eu: etorri
-    es: venir
+    es: kommen
   - eu: ibili
-    es: andar / moverse
+    es: gehen / sich bewegen
   - eu: sartu
-    es: entrar
+    es: hineingehen
   - eu: irten
-    es: salir
+    es: hinausgehen
   - eu: igo
-    es: subir
+    es: hinaufgehen
   - eu: jaitsi
-    es: bajar
+    es: hinuntergehen
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Ich gehe = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '„Sartu“ und sein Gegenteil „irten“ bedeuten jeweils:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - hineingehen / hinausgehen
+  - hinaufgehen / hinuntergehen
+  - gehen / kommen
+  - öffnen / schließen
   answer: 0
 - id: ex-mu-fc
   type: flashcards

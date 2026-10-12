@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: 台所
   - eu: logela
-    es: dormitorio
+    es: 寝室
   - eu: komuna
-    es: baño
+    es: 浴室
   - eu: egongela
     es: リビング・居間
   - eu: sarrera
-    es: entrada
+    es: 玄関
   - eu: korridorea
-    es: pasillo
+    es: 廊下
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: シャワーを浴びたいです。どの部屋に行きますか？

@@ -83,11 +83,11 @@ Das **Futur** im Baskischen ist sehr regelmäßig: Du hängst eine Partikel an d
 
 | Verb | Grundform | Futur | Beispiel |
 |---|---|---|---|
-| *joan* (ir) | joan | joan**go** | *Bilbora **joango naiz*** (Ich werde nach Bilbao gehen) |
-| *etorri* (venir) | etorri | etorri**ko** | *Bihar **etorriko da*** (Er/Sie wird morgen kommen) |
-| *ikusi* (ver) | ikusi | ikusi**ko** | *Filma **ikusiko dut*** (Ich werde den Film sehen) |
-| *jan* (comer) | jan | jan**go** | *Pizza **jango dugu*** (Wir werden Pizza essen) |
-| *eskatu* (pedir) | eskatu | eskatu**ko** | *Kafea **eskatuko dut*** (Ich werde Kaffee bestellen) |
+| *joan* (gehen) | joan | joan**go** | *Bilbora **joango naiz*** (Ich werde nach Bilbao gehen) |
+| *etorri* (kommen) | etorri | etorri**ko** | *Bihar **etorriko da*** (Er/Sie wird morgen kommen) |
+| *ikusi* (sehen) | ikusi | ikusi**ko** | *Filma **ikusiko dut*** (Ich werde den Film sehen) |
+| *jan* (essen) | jan | jan**go** | *Pizza **jango dugu*** (Wir werden Pizza essen) |
+| *eskatu* (bestellen) | eskatu | eskatu**ko** | *Kafea **eskatuko dut*** (Ich werde Kaffee bestellen) |
 
 ## Die Regel für `-ko` vs. `-go`
 

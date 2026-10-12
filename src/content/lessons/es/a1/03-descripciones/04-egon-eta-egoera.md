@@ -7,64 +7,101 @@ level: a1
 order: 4
 title: Verbo egon y estados pasajeros
 estimatedMinutes: 11
-covers: [egon-nor, mental-states]
+covers:
+- egon-nor
+- mental-states
 exercises:
-  - id: ex-egon-mc1
-    type: multiple-choice
-    prompt: '¿Cuál es la forma de "egon" para "yo"?'
-    options: [naiz, nago, dut, daude]
-    answer: 1
-    explanation: '*nago* = "estoy". El verbo *egon* tiene su propia conjugación, distinta de *izan*.'
-  - id: ex-egon-mc2
-    type: multiple-choice
-    prompt: 'Quieres decir "Estoy cansada". ¿Cuál es la forma natural?'
-    options: [Ni nekatua naiz, Ni nekatuta nago, Ni nekatuan nago, Ni nekatua dut]
-    answer: 1
-    explanation: 'Para un estado pasajero ("hoy estoy cansada") usa *egon* + *nekatuta* (sin `-a` final).'
-  - id: ex-egon-fb1
-    type: fill-in-blank
-    prompt: 'Maialen pozik ___. (Maialen está contenta)'
-    answers: [dago]
-    explanation: '*dago* = "está" (3ª persona).'
-  - id: ex-egon-fb2
-    type: fill-in-blank
-    prompt: 'Gu nekatuta ___. (Nosotros estamos cansados)'
-    answers: [gaude]
-    explanation: '*gaude* = "estamos".'
-  - id: ex-egon-fc
-    type: flashcards
-    cards:
-      - { eu: nago, es: estoy }
-      - { eu: zaude, es: estás }
-      - { eu: dago, es: está }
-      - { eu: gaude, es: estamos }
-      - { eu: zaudete, es: estáis }
-      - { eu: daude, es: están }
-      - { eu: pozik, es: contento }
-      - { eu: triste, es: triste }
-      - { eu: nekatuta, es: cansado }
-      - { eu: haserre, es: enfadado }
-      - { eu: lasai, es: tranquilo (estado) }
-      - { eu: urduri, es: nervioso (estado) }
-      - { eu: gaixorik, es: enfermo }
-      - { eu: ondo, es: bien }
-      - { eu: gaizki, es: mal }
-      - { eu: 'Nola zaude?', es: '¿Cómo estás?' }
-      - { eu: 'Zer moduz zaude?', es: '¿Qué tal estás?' }
-  - id: ex-egon-mp
-    type: match-pairs
-    pairs:
-      - { eu: pozik, es: contento }
-      - { eu: triste, es: triste }
-      - { eu: nekatuta, es: cansado }
-      - { eu: haserre, es: enfadado }
-      - { eu: gaixorik, es: enfermo }
-      - { eu: ondo, es: bien }
-      - { eu: gaizki, es: mal }
-      - { eu: lasai, es: tranquilo (ahora) }
+- id: ex-egon-mc1
+  type: multiple-choice
+  prompt: ¿Cuál es la forma de "egon" para "yo"?
+  options:
+  - naiz
+  - nago
+  - dut
+  - daude
+  answer: 1
+  explanation: '*nago* = "estoy". El verbo *egon* tiene su propia conjugación, distinta de *izan*.'
+- id: ex-egon-mc2
+  type: multiple-choice
+  prompt: Quieres decir "Estoy cansada". ¿Cuál es la forma natural?
+  options:
+  - Ni nekatua naiz
+  - Ni nekatuta nago
+  - Ni nekatuan nago
+  - Ni nekatua dut
+  answer: 1
+  explanation: Para un estado pasajero ("hoy estoy cansada") usa *egon* + *nekatuta* (sin `-a` final).
+- id: ex-egon-fb1
+  type: fill-in-blank
+  prompt: Maialen pozik ___. (Maialen está contenta)
+  answers:
+  - dago
+  explanation: '*dago* = "está" (3ª persona).'
+- id: ex-egon-fb2
+  type: fill-in-blank
+  prompt: Gu nekatuta ___. (Nosotros estamos cansados)
+  answers:
+  - gaude
+  explanation: '*gaude* = "estamos".'
+- id: ex-egon-fc
+  type: flashcards
+  cards:
+  - eu: nago
+    es: estoy
+  - eu: zaude
+    es: estás
+  - eu: dago
+    es: está
+  - eu: gaude
+    es: estamos
+  - eu: zaudete
+    es: estáis
+  - eu: daude
+    es: están
+  - eu: pozik
+    es: contento
+  - eu: triste
+    es: triste
+  - eu: nekatuta
+    es: cansado
+  - eu: haserre
+    es: enfadado
+  - eu: lasai
+    es: tranquilo (estado)
+  - eu: urduri
+    es: nervioso (estado)
+  - eu: gaixorik
+    es: enfermo
+  - eu: ondo
+    es: bien
+  - eu: gaizki
+    es: mal
+  - eu: Nola zaude?
+    es: ¿Cómo estás?
+  - eu: Zer moduz zaude?
+    es: ¿Qué tal estás?
+- id: ex-egon-mp
+  type: match-pairs
+  pairs:
+  - eu: pozik
+    es: contento
+  - eu: triste
+    es: triste
+  - eu: nekatuta
+    es: cansado
+  - eu: haserre
+    es: enfadado
+  - eu: gaixorik
+    es: enfermo
+  - eu: ondo
+    es: bien
+  - eu: gaizki
+    es: mal
+  - eu: lasai
+    es: tranquilo (ahora)
 ---
 
-En euskera hay dos verbos donde en castellano usamos uno solo. Ya conoces **izan** ("ser/estar" para cualidades). Ahora toca **egon**, que se traduce como "estar" cuando hablamos de **estados pasajeros**: cómo está alguien hoy, ahora mismo, en este momento.
+En euskera hay dos verbos que reparten de otra manera lo que en castellano decimos con «ser» y «estar». Ya conoces **izan** ("ser/estar" para cualidades). Ahora toca **egon**, que se traduce como "estar" cuando hablamos de **estados pasajeros**: cómo está alguien hoy, ahora mismo, en este momento.
 
 ## El paradigma de egon
 

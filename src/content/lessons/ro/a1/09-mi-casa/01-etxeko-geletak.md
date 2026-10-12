@@ -14,17 +14,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: sukaldea
-    es: cocina
+    es: bucătărie
   - eu: logela
-    es: dormitorio
+    es: dormitor
   - eu: komuna
-    es: baño
+    es: baie
   - eu: egongela
     es: sufragerie
   - eu: sarrera
-    es: entrada
+    es: hol de intrare
   - eu: korridorea
-    es: pasillo
+    es: coridor
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Vrei să faci un duș. În ce cameră te duci?
@@ -112,7 +112,7 @@ Limba bască este foarte transparentă cu aceste cuvinte. Dacă te uiți cum sun
 - **egongela** → *egon* (a sta) + *gela* = "camera de stat" → sufragerie
 - **sukaldea** → *su* (foc) + *aldea* (zonă) = "zona focului" → bucătărie
 
-> **Komuna** și **bainugela** sunt sinonime: *komuna* este cuvântul de zi cu zi, în timp ce *bainugela* (literalmente "camera de baie") este puțin mai formal.
+> **Komuna** și **bainugela** sunt sinonime: *komuna* este cuvântul de zi cu zi, în timp ce *bainugela* (literal "camera de baie") este puțin mai formal.
 
 ## Clădire: etaj și lift
 

@@ -121,7 +121,7 @@ exercises:
 | 9:50 | **Hamarrak hamar gutxi dira** |
 | 10:55 | **Hamaikak bost gutxi dira** |
 
-> スペイン語の *menos cuarto*（15分前）とは違い、バスク語では **gutxi** が数字の**後ろ**に来るのが珍しい点です。*Bederatziak laurden gutxi* は直訳すると「9時、15分、足りない」となります。
+> バスク語では **gutxi**（足りない）が数字の**後ろ**に来るのが珍しい点です。*Bederatziak laurden gutxi* は直訳すると「9時、15分、足りない」となります。
 
 ## まとめ表
 

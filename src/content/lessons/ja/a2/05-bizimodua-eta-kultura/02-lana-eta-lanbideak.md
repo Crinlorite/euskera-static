@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: '"Soldata" の意味は…'
   options:
-  - Trabajo
-  - Sueldo
-  - Jefe
-  - Empleado
+  - 仕事
+  - 給料
+  - 上司
+  - 社員
   answer: 1
   explanation: '*Soldata* = 給料。*Lansari* はフォーマルな同義語です。'
 - id: ex-a2-bz2-fb1
@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakasle
-    es: profesor/a
+    es: 先生
   - eu: erizain
-    es: enfermero/a
+    es: 看護師
   - eu: sukaldari
-    es: cocinero/a
+    es: 料理人
   - eu: kazetari
-    es: periodista
+    es: 記者
   - eu: mekanikari
     es: 整備士
   - eu: arkitekto
-    es: arquitecto/a
+    es: 建築家
 ---
 
 A2レベルでは、「私は学生です／教師です」という表現を超えて、**仕事**の世界が広がります。これからは、次のようなことについて話せるようになります：
@@ -102,7 +102,7 @@ A2レベルでは、「私は学生です／教師です」という表現を超
 
 A1では基本的な職業（*medikua, ikaslea, irakaslea, sukaldaria*）を学びました。A2では、さらに多くの職業を追加します：
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | ジャーナリスト | *kazetaria* |
 | プログラマー | *programatzailea* |
@@ -128,7 +128,7 @@ A1では基本的な職業（*medikua, ikaslea, irakaslea, sukaldaria*）を学�
 
 A1で学んだこの接尾辞を思い出しましょう。職業を表すのによく使われます：
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | バスク語話者 | *euskalduna* |
 | チャンピオン（*txapela* を持つ人） | *txapelduna* |
@@ -136,7 +136,7 @@ A1で学んだこの接尾辞を思い出しましょう。職業を表すのに
 
 ## 仕事について話す
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | どんな仕事をしていますか？ | *Zertan egiten duzu lan?* |
 | オフィスで働いています | *Bulego batean lan egiten dut* |
@@ -149,7 +149,7 @@ A1で学んだこの接尾辞を思い出しましょう。職業を表すのに
 
 ## 勤務形態と時間
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | フルタイム勤務 | *Lanaldi osoa* |
 | パートタイム勤務 | *Lanaldi erdia* |
@@ -163,7 +163,7 @@ A1で学んだこの接尾辞を思い出しましょう。職業を表すのに
 
 一般的なステップと語彙：
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 求人 | *lan-eskaintza* |
 | 履歴書 | *curriculuma* |
@@ -177,7 +177,7 @@ A1で学んだこの接尾辞を思い出しましょう。職業を表すのに
 
 ## 面接でよく使われるフレーズ
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | あなた自身について教えてください | *Konta iezadazu zerbait zuri buruz* |
 | なぜこの職に応募したのですか？ | *Zergatik nahi duzu lanpostu hau?* |
@@ -192,7 +192,7 @@ A1で学んだこの接尾辞を思い出しましょう。職業を表すのに
 
 > **動詞の活用形 + -(e)n + 名詞**
 
-| スペイン語 | バスク語 |
+| 日本語 | バスク語 |
 |---|---|
 | 私が持っている仕事 | *Daukadan lana* |
 | 私が働いている会社 | *Lan egiten dudan enpresa* |

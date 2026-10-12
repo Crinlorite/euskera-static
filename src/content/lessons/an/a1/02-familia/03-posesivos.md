@@ -43,11 +43,11 @@ exercises:
   explanation: '"Gure" ye o posesivo de "nusatros".'
 ---
 
-Os posesivos en basco se colocan **antes d'o substantivo**, igual que en castellano. No cambean de forma seguntes o chenero de l'obchecto poseyiu (no i hai "mío/mía", solo *nire*).
+Os posesivos en basco se colocan **antes d'o substantivo**, igual que en aragonés. No cambean de forma seguntes o chenero de l'obchecto poseyiu (no i hai "mío/mía", solo *nire*).
 
 ## Tabla completa
 
-| Persona | Posesivo | Exemplo | Castellano |
+| Persona | Posesivo | Exemplo | Aragonés |
 |---|---|---|---|
 | ni | **nire** | nire ama | mi mai |
 | zu | **zure** | zure aita | tu pai |
@@ -56,7 +56,7 @@ Os posesivos en basco se colocan **antes d'o substantivo**, igual que en castell
 | zuek | **zuen** | zuen lagunak | vuestros amigos |
 | haiek | **beren** | beren autoa | su auto (d'éls/ellas) |
 
-> A diferencia d'o castellano, o substantivo **conserva l'articlo `-a`** anque leve posesivo: *gure etxea* (nuestra casa), *zuen lagunak* (vuestros amigos), *beren autoa* (su auto). En parolas que ya rematan en `-a` (como *ama* u *arreba*) l'articlo no s'aprecia: *nire ama*.
+> Como en aragonés («a mía casa»), o substantivo **conserva l'articlo `-a`** anque leve posesivo: *gure etxea* (nuestra casa), *zuen lagunak* (vuestros amigos), *beren autoa* (su auto). En parolas que ya rematan en `-a` (como *ama* u *arreba*) l'articlo no s'aprecia: *nire ama*.
 
 ## Familia + posesivos
 

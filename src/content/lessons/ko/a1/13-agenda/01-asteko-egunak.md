@@ -76,26 +76,26 @@ exercises:
   type: match-pairs
   pairs:
   - eu: astelehena
-    es: lunes
+    es: 월요일
   - eu: asteartea
-    es: martes
+    es: 화요일
   - eu: asteazkena
     es: 수요일
   - eu: osteguna
-    es: jueves
+    es: 목요일
   - eu: ostirala
-    es: viernes
+    es: 금요일
   - eu: larunbata
     es: 토요일
   - eu: igandea
-    es: domingo
+    es: 일요일
 ---
 
 계획과 일정에 대해 이야기하기 전에, 요일을 복습하고 일상 활동과 연관 짓는 법을 배워봅시다.
 
 ## 일곱 요일
 
-| 바스크어 | 스페인어 | 힌트 |
+| 바스크어 | 한국어 | 힌트 |
 |---|---|---|
 | *astelehena* | 월요일 | aste + lehen = "주의 첫 번째 날" |
 | *asteartea* | 화요일 | aste + arte = "주중" |

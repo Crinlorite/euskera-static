@@ -14,7 +14,7 @@ covers:
 exercises:
 - id: ex-a2-eg5-mc1
   type: multiple-choice
-  prompt: '"Ez erre" significa…'
+  prompt: '"Ez erre" quier dicir…'
   options:
   - Nun fumes
   - Fuma
@@ -75,13 +75,13 @@ exercises:
   - eu: Ez edan asko
     es: Nun bebas muncho
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Come fruta
   - eu: Egin kirola
-    es: Haz deporte
+    es: Fai deporte
   - eu: Ondo lo egin
     es: Duerme bien
   - eu: Saiatu lasai egoten
-    es: Intenta estar tranquilo
+    es: Intenta tar tranquilu
 ---
 
 Esta lleición integra los tres temes de la unidá: damos **conseyos**, prohibiciones y recomendaciones pa una vida sana. Vas aprender l'**imperativu negativu** y un puñáu de fórmules A2 bien productives pa opinar sobre lo que convien facer.
@@ -92,7 +92,7 @@ La forma más cenciella y la que más vas usar:
 
 > **ez + participiu**
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nun fumes | *Ez erre* |
 | Nun bebas alcohol | *Ez edan alkoholik* |
@@ -102,13 +102,13 @@ La forma más cenciella y la que más vas usar:
 | Nun tengas mieu | *Ez izan beldurrik* |
 | Nun corras | *Ez korrika egin* |
 
-> El partitivu *-rik* apaez con frecuencia: *ez edan alkohol**ik***, *ez izan beldur**rik***. Funciona como en castellán "nun bebas (nada d')alcohol". Vístilo de pasada n'A1 y n'A2 yá convien reconocelo.
+> El partitivu *-rik* apaez con frecuencia: *ez edan alkohol**ik***, *ez izan beldur**rik***. Funciona como n'asturianu "nun bebas (nada d')alcohol". Vístilo de pasada n'A1 y n'A2 yá convien reconocelo.
 
 ## Imperativu negativu enfáticu: *ez ezazu*
 
 En testos más formales o cuando quies enfatizar la prohibición, apaez la forma con *ezazu*:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Nun tomes esto | *Ez ezazu hartu hau* |
 | Nun escaezas | *Ez ezazu ahaztu* |
@@ -122,7 +122,7 @@ P'A2, dos fórmules que convien memorizar como un bloque:
 
 ### *Hobe duzu + -tzea* — "ye meyor que (tu)..."
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Ye meyor que fuelgues | *Hobe duzu **deskantsatzea*** |
 | Ye meyor que vayas ceo | *Hobe duzu goiz **joatea*** |
@@ -132,7 +132,7 @@ Más distante: **hobe litzateke** + *-tzea* — "sería meyor".
 
 ### *Komeni zaizu / komeni da* — "conviénte / convien"
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Conviénte andar más | *Gehiago **ibiltzea** komeni zaizu* |
 | Convien comer fruta | *Fruta **jatea** komeni da* |

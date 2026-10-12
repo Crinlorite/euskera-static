@@ -92,7 +92,7 @@ exercises:
     es: Where is the bar?
 ---
 
-In Spanish, we use a single verb, "haber/estar", for two different ideas: **to exist** ("is there a pharmacy in the neighborhood?") and **to be located** ("the pharmacy is on Main Street"). Basque distinguishes these two things very clearly, and it's something worth getting down early on.
+Here there are two different ideas: **to exist** ("is there a pharmacy in the neighborhood?") and **to be located** ("the pharmacy is on Main Street"). Basque distinguishes these two things very clearly, and it's something worth getting down early on.
 
 ## To exist vs. to be
 

@@ -18,19 +18,19 @@ exercises:
   - eu: izeba
     es: ciocia
   - eu: lehengusu
-    es: primo
+    es: kuzyn
   - eu: lehengusina
-    es: prima
+    es: kuzynka
   - eu: iloba
-    es: sobrino/a
+    es: siostrzeniec/bratanica
 - id: ex-fe-mc1
   type: multiple-choice
   prompt: '"Lehengusu" to...'
   options:
-  - primo
-  - hermano
-  - abuelo
-  - suegro
+  - kuzyn
+  - brat
+  - dziadek
+  - teść
   answer: 0
 - id: ex-fe-fc
   type: flashcards

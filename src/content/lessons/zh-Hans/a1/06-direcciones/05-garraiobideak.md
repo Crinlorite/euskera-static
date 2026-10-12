@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: oinez
-    es: a pie
+    es: 步行
   - eu: kotxez / autoz
-    es: en coche
+    es: 开车
   - eu: autobusez
     es: 乘公共汽车
   - eu: trenez
-    es: en tren
+    es: 坐火车
   - eu: bizikletaz
-    es: en bicicleta
+    es: 骑自行车
   - eu: hegazkinez
     es: 乘飞机
   - eu: itsasontziz
-    es: en barco
+    es: 坐船
 - id: ex-ga-mc1
   type: multiple-choice
   prompt: “我乘公共汽车去”怎么说？
@@ -103,11 +103,11 @@ exercises:
     es: 路程 / 路线
 ---
 
-为了完成本单元，我们还缺少一个部分：**你如何出行**。在西班牙语中，我们使用“en + 交通工具”（“en coche”、“en autobús”）。在巴斯克语中，我们使用后缀 **`-z`**（*工具格*），它附加在交通工具后面，而且令人惊讶的是，它也附加在表示“脚”的词后面。
+为了完成本单元，我们还缺少一个部分：**你如何出行**。在中文里，我们说“坐/开 + 交通工具”（“开车”、“坐公交车”）。在巴斯克语中，我们使用后缀 **`-z`**（*工具格*），它附加在交通工具后面，而且令人惊讶的是，它也附加在表示“脚”的词后面。
 
 ## 提问
 
-| 问题 | 西班牙语 |
+| 问题 | 中文 |
 |---|---|
 | ***Nola* zoaz?** | 你怎么去？ |
 | ***Zerez* zoaz?** | 你乘坐什么（交通工具）去？ |
@@ -117,7 +117,7 @@ exercises:
 
 ## 交通工具
 
-| 方式 | 带 -z 的形式 | 西班牙语 |
+| 方式 | 带 -z 的形式 | 中文 |
 |---|---|---|
 | oin (脚) | **oinez** | 步行 |
 | kotxe / auto | **kotxez** / **autoz** | 乘汽车 |

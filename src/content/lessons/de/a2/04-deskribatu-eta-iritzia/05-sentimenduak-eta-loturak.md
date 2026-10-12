@@ -75,11 +75,11 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Pozik nago
-    es: Estoy contento
+    es: Ich bin froh
   - eu: Triste dago
     es: Er/Sie/Es ist traurig
   - eu: Beldur naiz
-    es: Tengo miedo
+    es: Ich habe Angst
   - eu: Haserre dago
     es: Er/Sie/Es ist wütend
   - eu: Lotsa ematen dit
@@ -239,15 +239,15 @@ Dies sind Konstruktionen, die in jeder A2-Prüfung vorkommen:
 
 Wenn du in A2 deine Meinung äußern sollst, folge dieser Vorlage:
 
-> **1. Nire ustez** + tema + **-(e)la**.
+> **1. Nire ustez** + Thema + **-(e)la**.
 >
-> **2. Alde batetik**, + razón1 + **-lako**.
+> **2. Alde batetik**, + Grund1 + **-lako**.
 >
-> **3. Bestetik**, + razón2.
+> **3. Bestetik**, + Grund2.
 >
-> **4. Hala ere**, + matización.
+> **4. Hala ere**, + Einschränkung.
 >
-> **5. Beraz**, + conclusión.
+> **5. Beraz**, + Schluss.
 
 Damit baust du einen vollständigen A2-Absatz.
 

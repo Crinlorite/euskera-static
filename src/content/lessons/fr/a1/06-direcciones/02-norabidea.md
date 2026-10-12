@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: tourne à droite
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: continue tout droit / en avant
   - eu: zeharkatu
-    es: cruza
+    es: traverse
   - eu: igo eskailerak
     es: monte les escaliers
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: '"Zeharkatu" signifie…'
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - aller tout droit
+  - traverser
+  - tourner
+  - monter
   answer: 1
   explanation: Vient de "zehar" (à travers). "Zeharkatu kalea / zebrabidea" = traverser la rue / le passage piéton.
 - id: ex-no-fb1

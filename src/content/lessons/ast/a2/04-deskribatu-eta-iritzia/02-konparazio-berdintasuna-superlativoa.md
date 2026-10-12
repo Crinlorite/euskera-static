@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-a2-de2-mc1
   type: multiple-choice
-  prompt: '"Hura zu bezain altua da" significa…'
+  prompt: '"Hura zu bezain altua da" quier dicir…'
   options:
   - Él ye más altu que tu
   - Él ye tan altu como tu
@@ -94,7 +94,7 @@ Pa "tan... como" con axetivu o alverbiu:
 
 > **X bezain Y**
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Tan altu como tu | *Zu **bezain** altua* |
 | Tan guapa como Donostia | *Donostia **bezain** polita* |
@@ -107,7 +107,7 @@ Pa "tan... como" con axetivu o alverbiu:
 
 Pa "tanto como" con sustantivu o cantidá:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Tanto como tu | *Zuk **adina*** / *Zuk **beste*** |
 | Tantos perres como yo | *Nik **adina** diru* |
@@ -123,7 +123,7 @@ Pa "tanto como" con sustantivu o cantidá:
 
 Otra forma d'igualdá, esta vegada de **mou** o **manera**:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Como tu | *Zu **bezala*** / *Zure **moduan*** |
 | Faigo como tu | *Zuk egin duzun **moduan** egiten dut* |
@@ -159,7 +159,7 @@ Pa "el más..." añades **-en** al axetivu o alverbiu + l'artículu **-a**:
 
 Cuando indiques **dientro de qué grupu**, uses el casu locativu o'l xenitivu:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | El más altu de la clase | *Klaseko **altuena*** |
 | La más rápida del mundu | *Munduko **azkarrena*** |
@@ -174,7 +174,7 @@ Cuando indiques **dientro de qué grupu**, uses el casu locativu o'l xenitivu:
 
 Equivalentes superlativos de cantidá o frecuencia:
 
-| Castellán | Eusquera |
+| Asturianu | Eusquera |
 |---|---|
 | Lo que más me presta | *Gehien gustatzen zaidana* |
 | Lo que menos faigo | *Gutxien egiten dudana* |

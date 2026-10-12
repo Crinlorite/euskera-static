@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ad1-mc1
   type: multiple-choice
-  prompt: '"Liburua eman dizut" significa…'
+  prompt: '"Liburua eman dizut" vol dir…'
   options:
   - T'he donat un llibre
   - Li he donat un llibre

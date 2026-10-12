@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: 가다
   - eu: etorri
-    es: venir
+    es: 오다
   - eu: ibili
-    es: andar / moverse
+    es: 돌아다니다 / 움직이다
   - eu: sartu
-    es: entrar
+    es: 들어가다
   - eu: irten
-    es: salir
+    es: 나가다
   - eu: igo
-    es: subir
+    es: 올라가다
   - eu: jaitsi
-    es: bajar
+    es: 내려가다
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: 나는 간다 = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu"와 그 반대말인 "irten"은 각각 다음과 같은 뜻입니다:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - 들어가다 / 나가다
+  - 올라가다 / 내려가다
+  - 가다 / 오다
+  - 열다 / 닫다
   answer: 0
 - id: ex-mu-fc
   type: flashcards

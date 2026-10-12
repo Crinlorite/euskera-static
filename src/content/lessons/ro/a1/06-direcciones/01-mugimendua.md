@@ -15,19 +15,19 @@ exercises:
   type: match-pairs
   pairs:
   - eu: joan
-    es: ir
+    es: a merge
   - eu: etorri
-    es: venir
+    es: a veni
   - eu: ibili
-    es: andar / moverse
+    es: a umbla / a se mișca
   - eu: sartu
-    es: entrar
+    es: a intra
   - eu: irten
-    es: salir
+    es: a ieși
   - eu: igo
-    es: subir
+    es: a urca
   - eu: jaitsi
-    es: bajar
+    es: a coborî
 - id: ex-mu-fb1
   type: fill-in-blank
   prompt: Eu merg = Ni ___.
@@ -54,10 +54,10 @@ exercises:
   type: multiple-choice
   prompt: '"Sartu" și opusul său "irten" înseamnă, respectiv:'
   options:
-  - entrar / salir
-  - subir / bajar
-  - ir / venir
-  - abrir / cerrar
+  - a intra / a ieși
+  - a urca / a coborî
+  - a merge / a veni
+  - a deschide / a închide
   answer: 0
 - id: ex-mu-fc
   type: flashcards

@@ -25,10 +25,10 @@ exercises:
   type: multiple-choice
   prompt: «Hobeto nago» означает…
   options:
-  - Estoy peor
-  - Estoy bien
-  - Estoy mejor
-  - Estoy igual
+  - Мне хуже
+  - Мне хорошо
+  - Мне лучше
+  - Без изменений
   answer: 2
   explanation: '*Hobeto* = лучше. *Hobe* — это прилагательное «лучший», а *hobeto* — наречие «лучше».'
 - id: ex-a2-eg2-fb1
@@ -76,11 +76,11 @@ exercises:
   - eu: Min ematen dizu?
     es: У вас болит?
   - eu: Hartu hau
-    es: Toma esto
+    es: Прими это
   - eu: Itzuli astebete barru
     es: Вернитесь через неделю
   - eu: Atseden hartu
-    es: Descansar
+    es: Отдыхать
 ---
 
 Этот урок — **полная симуляция приёма у врача**. Он объединяет лексику из предыдущего урока с выражениями времени (как часто, до/после) и частыми формулами. Приём у врача — один из самых полезных контекстов для уровня A2: он встречается на любом официальном экзамене.

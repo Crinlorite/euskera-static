@@ -16,15 +16,15 @@ exercises:
   - eu: sukaldea
     es: cocina
   - eu: logela
-    es: dormitorio
+    es: cuarto de dormir
   - eu: komuna
-    es: baño
+    es: banyo
   - eu: egongela
     es: salón
   - eu: sarrera
     es: entrada
   - eu: korridorea
-    es: pasillo
+    es: corredor
 - id: ex-09-01-mc1
   type: multiple-choice
   prompt: Te quiers duchar. A qué estancia vas?
@@ -63,7 +63,7 @@ exercises:
   - eu: sukaldea
     es: cocina
   - eu: logela
-    es: dormitorio
+    es: cuarto de dormir
   - eu: komuna
     es: banyo
   - eu: egongela
@@ -71,7 +71,7 @@ exercises:
   - eu: sarrera
     es: entrada
   - eu: korridorea / pasabidea
-    es: pasillo
+    es: corredor
   - eu: balkoia
     es: balcón
   - eu: terraza
@@ -96,11 +96,11 @@ Empecipiamos por o mas basico de qualsiquier vivienda: as **estancias**. A parol
 | *pisua* | o piso (vivienda en un edificio) |
 | *gela* | habitación / sala |
 | *sukaldea* | cocina |
-| *logela* | dormitorio |
+| *logela* | cuarto de dormir |
 | *komuna* | banyo |
 | *egongela* | salón |
 | *sarrera* | entrada |
-| *korridorea* / *pasabidea* | pasillo |
+| *korridorea* / *pasabidea* | corredor |
 | *balkoia* | balcón |
 | *terraza* | terraza |
 

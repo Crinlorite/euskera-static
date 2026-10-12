@@ -69,17 +69,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nindoan
-    es: iba yo
+    es: 私は行くところだった
   - eu: nentorren
     es: 来ていた（私）
   - eu: nenbilen
-    es: andaba yo
+    es: 私は歩き回っていた
   - eu: neukan
     es: 持っていた（私）
   - eu: nekien
     es: 知っていた（私）
   - eu: nengoen
-    es: estaba yo
+    es: 私は（どこかに）いた
 ---
 
 **統合動詞** (*aditz trinkoak*)は、**助動詞なしで**単語一つで活用する数少ないバスク語の動詞です。現在形はすでにご存知ですね：*noa, nator, nabil, daukat, dakit, nago*。過去形には対応する形があり、まずは見分けられるように、そしてよく使われるものは使いこなせるようになると便利です。
@@ -145,7 +145,7 @@ exercises:
 | **Joan nintzen** (分析形 + 分詞) | 一回的、完結した、完了した出来事 | *Atzo Bilbora **joan nintzen** zortzietan.* (= 昨日8時にビルバオへ行きました) |
 | **Nindoan** (統合形) | 進行中の行動、習慣、過去の描写 | *Bilborantz **nindoan**, ezagun bat ikusi nuenean.* (= ビルバオへ向かっていた時、知人を見かけました) |
 
-> **簡単なルール：**統合形 (*nindoan, nentorren, nenbilen*) は過去の**情景**を描写します。分詞を使った形 (*joan nintzen, etorri nintzen*) は過去の**出来事**を伝えます。この違いは、スペイン語の線過去 (iba) と点過去 (fui) の違いによく似ています。
+> **簡単なルール：**統合形 (*nindoan, nentorren, nenbilen*) は過去の**情景**を描写します。分詞を使った形 (*joan nintzen, etorri nintzen*) は過去の**出来事**を伝えます。この違いは、日本語の「行くところだった」（情景）と「行った」（出来事）の違いに似ています。
 
 ## NOR-NORK 型の統合動詞: *neukan*, *nekien*
 

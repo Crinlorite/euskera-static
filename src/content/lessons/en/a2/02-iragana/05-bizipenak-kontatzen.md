@@ -27,8 +27,8 @@ exercises:
   prompt: To talk about the background **scene** (what the day was like, where they were) in a story, which past tense do I use?
   options:
   - Iragan burutua (joan nintzen)
-  - Presente
-  - Pasado reciente (joan naiz)
+  - Present
+  - Recent past (joan naiz)
   - Iragan ez burutua (joaten nintzen / zen)
   answer: 3
   explanation: The scene, descriptions, and habits use the imperfect. The specific actions that move the story forward use the *burutua*.
@@ -79,7 +79,7 @@ exercises:
   - eu: ezkondu zen
     es: he/she got married
   - eu: bidaiatu zuten
-    es: viajaron
+    es: they travelled
   - eu: ezagutu nuen
     es: I met
   - eu: maitemindu nintzen

@@ -12,7 +12,7 @@ covers:
 exercises:
 - id: ex-a2-ad5-mc1
   type: multiple-choice
-  prompt: '"Banaiz" significa…'
+  prompt: '"Banaiz" vol dir…'
   options:
   - Estic
   - Soc
@@ -22,7 +22,7 @@ exercises:
   explanation: '*Ba-* prefixat al verb en el context adequat introdueix una condició: *banaiz* = "si soc / si estic". L''altre ús de *ba-* (afirmatiu intensiu "sí que soc") apareix en altres contextos.'
 - id: ex-a2-ad5-mc2
   type: multiple-choice
-  prompt: '"Diru asko banu, etxe bat erosiko nuke" significa…'
+  prompt: '"Diru asko banu, etxe bat erosiko nuke" vol dir…'
   options:
   - Tinc molts diners, compro una casa
   - Tindré molts diners, compraré una casa
@@ -69,15 +69,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: Bihar euria egiten badu
-    es: Si mañana llueve
+    es: Si demà plou
   - eu: Astia banu
-    es: Si tuviera tiempo
+    es: Si tingués temps
   - eu: Erosiko nuke
     es: El compraria
   - eu: Joango nintzateke
     es: Aniria
   - eu: Aberatsa banintz
-    es: Si yo fuera rico
+    es: Si jo fos ric
   - eu: Edukiko bagenu
     es: Si tinguéssim
 ---

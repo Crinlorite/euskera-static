@@ -57,7 +57,7 @@ exercises:
   - eu: Kiloa hamar eurotan dago
     es: O quilo está a 10 euros
   - eu: X euro balio du
-    es: Vale X euros
+    es: Custa X euros
   - eu: garestia
     es: caro
   - eu: merkea
@@ -92,7 +92,7 @@ Para fazer compras, é preciso saber perguntar o preço e entender a resposta. E
 
 Existem duas estruturas frequentes:
 
-- **X euro balio du** — Vale X euros.
+- **X euro balio du** — Custa X euros.
    - *Botilak lau euro balio du.* → A garrafa vale 4 euros.
 - **Kiloa X eurotan dago** — O quilo está a X euros.
    - *Kiloa hamar eurotan dago.* → O quilo está a 10 euros.

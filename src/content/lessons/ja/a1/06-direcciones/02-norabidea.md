@@ -20,9 +20,9 @@ exercises:
   - eu: jo eskuinera
     es: 右に曲がる
   - eu: segi aurrera
-    es: sigue recto / hacia delante
+    es: まっすぐ進んで／前へ
   - eu: zeharkatu
-    es: cruza
+    es: 渡って
   - eu: igo eskailerak
     es: 階段を上る
   - eu: jaitsi aldapa
@@ -43,10 +43,10 @@ exercises:
   type: multiple-choice
   prompt: 「*Zeharkatu*」の意味は…
   options:
-  - seguir recto
-  - cruzar
-  - girar
-  - subir
+  - まっすぐ進む
+  - 渡る
+  - 曲がる
+  - 上る
   answer: 1
   explanation: 「*zehar*」（〜を横切って）から来ています。「*Zeharkatu kalea / zebrabidea*」= 通りを渡る / 横断歩道を渡る。
 - id: ex-no-fb1

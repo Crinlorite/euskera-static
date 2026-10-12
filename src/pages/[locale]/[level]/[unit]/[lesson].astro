@@ -8,7 +8,7 @@ import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
 
 import { ajusta, descripcionDeLeccion, minimoDescripcion } from '../../../../lib/seo-texto.mjs';
 import { temasDe, LOCALE_ENTRADAS } from '../../../../lib/hiztegia';
-import { t } from '../../../../i18n/ui';
+import { t, tf } from '../../../../i18n/ui';
 import { LOCKED_PATHS } from '../../../../lib/locked.mjs';
 import { existeRuta } from '../../../../lib/alternates';
 // Con 1.000+ lecciones, TS infiere `id` como un union de literales gigante y
@@ -64,7 +64,7 @@ if (prev) {
 } else if (prevUnit) {
   prevHref = `/${locale}/${levelCode}/${prevUnit.data.code}/`;
   prevTitle = prevUnit.data.title;
-  prevEyebrow = `Unidad ${prevUnit.data.order.toString().padStart(2, '0')}`;
+  prevEyebrow = tf(locale, 'unit.n', prevUnit.data.order.toString().padStart(2, '0'));
 }
 
 // Si es la última lección, next = siguiente unidad (página de unidad)
@@ -77,7 +77,7 @@ if (next) {
 } else if (nextUnit) {
   nextHref = `/${locale}/${levelCode}/${nextUnit.data.code}/`;
   nextTitle = nextUnit.data.title;
-  nextEyebrow = `Siguiente unidad · ${nextUnit.data.order.toString().padStart(2, '0')}`;
+  nextEyebrow = `${t(locale, 'unit.next')} · ${nextUnit.data.order.toString().padStart(2, '0')}`;
 }
 const unidadActual = sameLevelUnits[currentUnitIdx];
 const minimo = minimoDescripcion(locale);
@@ -104,7 +104,7 @@ const hayNivel = await existeRuta(`${levelCode}/`, locale);
       <header>
         <p class="crumb">
           {hayNivel ? <a href={`/${locale}/${levelCode}/`}>{levelCode.toUpperCase()}</a> : <span>{levelCode.toUpperCase()}</span>} ·
-          <a href={`/${locale}/${levelCode}/${unitCode}/`}>Unidad {sibs[0]?.data.order ?? ''}</a>
+          <a href={`/${locale}/${levelCode}/${unitCode}/`}>{tf(locale, 'unit.n', unidadActual?.data.order ?? '')}</a>
         </p>
         <h1>{lesson.data.title}</h1>
         <p class="meta">~{lesson.data.estimatedMinutes} min</p>

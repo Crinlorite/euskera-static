@@ -15,15 +15,15 @@ exercises:
   type: match-pairs
   pairs:
   - eu: irakaslea
-    es: profesor/a
+    es: professor/a
   - eu: ikaslea
-    es: estudiante
+    es: estudiant
   - eu: medikua
     es: mètge/ssa
   - eu: erizaina
-    es: enfermero/a
+    es: infermèr/a
   - eu: sukaldaria
-    es: cocinero/a
+    es: codinèr/a
   - eu: kazetaria
     es: periodista
 - id: ex-10-02-mc1
@@ -40,10 +40,10 @@ exercises:
   type: multiple-choice
   prompt: '"Mekanikaria" trabalhe damb...'
   options:
-  - enfermos
-  - libros
-  - coches
-  - niños
+  - malauts
+  - libres
+  - cotxes
+  - mainatges
   answer: 2
   explanation: '"Mekanikaria" ei eth mecanic, trabalhe soent en talhèrs damb veitures.'
 - id: ex-10-02-fb1
@@ -88,7 +88,7 @@ exercises:
   - eu: nekazaria
     es: agricultor/a
   - eu: arrantzalea
-    es: pescador/a
+    es: pescaire/a
   - eu: langilea
     es: trabalhador/a
   - eu: jubilatua
@@ -105,7 +105,7 @@ Aguesta leccion **amplie** es professions que ja vedes enla unitat de descripcio
 
 ## Repàs rapid
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *ikaslea* | estudiant/a |
 | *irakaslea* | professor/a |
@@ -116,7 +116,7 @@ Aguesta leccion **amplie** es professions que ja vedes enla unitat de descripcio
 
 ## Ampliacion
 
-| Basc | Castelhan |
+| Basc | Aranés |
 |---|---|
 | *erizaina* | infirmèr/a |
 | *sukaldaria* | cosinèr/a |
@@ -131,7 +131,7 @@ Aguesta leccion **amplie** es professions que ja vedes enla unitat de descripcio
 | *mekanikaria* | mecanic/a |
 | *igeltseroa* | paleta |
 | *nekazaria* | agricultor/a |
-| *arrantzalea* | pescador/a |
+| *arrantzalea* | pescaire/a |
 | *gidaria* | conducent/a |
 | *administrazioko langilea* | trabalhador/a dera administracion |
 
@@ -158,7 +158,7 @@ Eth patron ja lo coneishes des prumères unitats:
 
 ## Demandar pera profession
 
-| Pregunta | Castelhan |
+| Pregunta | Aranés |
 |---|---|
 | *Zer da zure lanbidea?* | Quina ei era tua profession? |
 | *Zertan egiten duzu lan?* | De qué trabalhes? |

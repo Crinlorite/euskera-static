@@ -79,14 +79,14 @@ exercises:
   - eu: Joan nuen autoa
     es: (no ye valido)
   - eu: Joaten ari nintzen
-    es: Estaba yendo
+    es: Estaba indo
   - eu: Bizi nintzen Bilbon
     es: Viviba en Bilbau
   - eu: Bilbora joan nintzen atzo
-    es: Fui a Bilbao ayer
+    es: Fui a Bilbao ahier
 ---
 
-O **imperfecto** d'o basco (*iragan ez burutua*) corresponde, en cheneral, a o "minchaba / viviba / diba / treballaba" d'o castellano. S'emplega pa contar:
+O **imperfecto** d'o basco (*iragan ez burutua*) corresponde, en cheneral, a o "minchaba / viviba / diba / treballaba" de l'aragonés. S'emplega pa contar:
 
 - **Habitos d'o pasau** (lo que febas habitualment).
 - **Descripcions** (cómo yera, an vivibas, qué tenebas).
@@ -98,7 +98,7 @@ O **imperfecto** d'o basco (*iragan ez burutua*) corresponde, en cheneral, a o "
 
 Compara present vs imperfecto:
 
-| Present (habito hue) | Imperfecto (habito ayere) |
+| Present (habito hue) | Imperfecto (habito ahiere) |
 |---|---|
 | *Lan egiten dut* (treballo) | *Lan egiten **nuen*** (treballaba) |
 | *Bilbon bizi naiz* (vivo) | *Bilbon bizi **nintzen*** (viviba) |
@@ -144,7 +144,7 @@ Compara:
 
 | Aragonés | Euskera |
 |---|---|
-| Ayere fui a o treballo | *Atzo lanera **joan nintzen*** |
+| Ahiere fui a o treballo | *Atzo lanera **joan nintzen*** |
 | Antes diba a o treballo en bici | *Lehen lanera bizikletaz **joaten nintzen*** |
 | Viei una cinta o sabado | *Larunbatean film bat **ikusi nuen*** |
 | Veyeba cintas toz os sabados | *Larunbatero filmak **ikusten nituen*** |
@@ -180,11 +180,11 @@ Istos marcadors empentan a frase enta l'imperfecto/habito:
 
 ## Mini-texto comparativo
 
-> **Burutua:** *Atzo Iratiren etxera **joan nintzen**, kafea **hartu nuen**, eta hamabietan **itzuli nintzen**.* — Ayere fui ta casa d'Irati, prenié un café y torné a as doce.
+> **Burutua:** *Atzo Iratiren etxera **joan nintzen**, kafea **hartu nuen**, eta hamabietan **itzuli nintzen**.* — Ahiere fui ta casa d'Irati, prenié un café y torné a as doce.
 >
 > **Ez burutua:** *Lehen Iratiren etxera **joaten nintzen** astero. Han kafea **hartzen genuen** eta luze **hitz egiten genuen**.* — Antes diba ta casa d'Irati cada semana. Astí prenebanos café y charrabamos largo.
 >
-> **Progresivoa:** *Atzo, kafea **hartzen ari ginela**, telefonoa jo zuen.* — Ayere, mientres yeranos prenendo café, sonó o telefono.
+> **Progresivoa:** *Atzo, kafea **hartzen ari ginela**, telefonoa jo zuen.* — Ahiere, mientres yeranos prenendo café, sonó o telefono.
 
 ## Trampas frecuents
 

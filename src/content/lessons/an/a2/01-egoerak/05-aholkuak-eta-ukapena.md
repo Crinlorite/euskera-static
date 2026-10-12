@@ -75,11 +75,11 @@ exercises:
   - eu: Ez edan asko
     es: No bebas muito
   - eu: Hartu fruta
-    es: Toma fruta
+    es: Mincha fruita
   - eu: Egin kirola
-    es: Haz deporte
+    es: Fe esporte
   - eu: Ondo lo egin
-    es: Duerme bien
+    es: Dorme bien
   - eu: Saiatu lasai egoten
     es: Intenta estar tranquilo
 ---

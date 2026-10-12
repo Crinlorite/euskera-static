@@ -24,7 +24,7 @@ exercises:
   explanation: '"Irakurri" (يقرأ) + "dut" (أنا + مفعول به) = "لقد قرأتُ". بدون اللاحقة -tzen، فإنه يدل على الماضي القريب.'
 - id: ex-02-jed-mc2
   type: multiple-choice
-  prompt: كيف تقول "Mikel ha desayunado en casa"؟
+  prompt: كيف تقول "تناول ميكيل الفطور في البيت"؟
   options:
   - Mikel etxean gosaldu da
   - Mikelek etxean gosaldu du
@@ -48,21 +48,21 @@ exercises:
   type: match-pairs
   pairs:
   - eu: jan dut
-    es: he comido
+    es: أكلتُ
   - eu: edan dut
-    es: he bebido
+    es: شربتُ
   - eu: ikusi dut
-    es: he visto
+    es: رأيتُ
   - eu: irakurri dut
     es: لقد قرأتُ
   - eu: erosi dut
-    es: he comprado
+    es: اشتريتُ
   - eu: egin dut
-    es: he hecho
+    es: فعلتُ
   - eu: hartu dut
-    es: he tomado / he cogido
+    es: أخذتُ
   - eu: ikasi dut
-    es: he aprendido / he estudiado
+    es: تعلّمتُ / درستُ
 - id: ex-02-jed-fc
   type: flashcards
   cards:

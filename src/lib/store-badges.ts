@@ -14,13 +14,13 @@ import type { LocaleCode } from '../i18n/config';
 const APPLE: Partial<Record<LocaleCode, string>> = {
   es: 'es', ca: 'ca', gl: 'es', oc: 'es', ast: 'es', an: 'es',
   en: 'en', ar: 'en', fr: 'fr', ro: 'ro', 'pt-BR': 'pt-BR', de: 'de',
-  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko',
+  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg',
 };
 
 const GOOGLE: Partial<Record<LocaleCode, string>> = {
   es: 'es', ca: 'ca', gl: 'gl', oc: 'es', ast: 'es', an: 'es',
   en: 'en', ar: 'ar', fr: 'fr', ro: 'ro', 'pt-BR': 'pt-BR', de: 'de',
-  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko',
+  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg',
 };
 
 export const appStoreBadge = (locale: LocaleCode) => `/badges/appstore-${APPLE[locale] ?? 'en'}.svg`;

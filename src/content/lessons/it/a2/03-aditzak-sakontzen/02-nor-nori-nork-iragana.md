@@ -70,11 +70,11 @@ exercises:
   - eu: eman nizun
     es: ti diedi
   - eu: eman zion
-    es: le dio
+    es: gli/le diede
   - eu: eman nion
-    es: le di
+    es: gli/le diedi
   - eu: eman ziguten
-    es: nos dieron
+    es: ci diedero
   - eu: eman nizkion
     es: gli/le diedi (li/le)
 ---
@@ -83,7 +83,7 @@ Il passato NOR-NORI-NORK segue la stessa logica del presente, ma con i marcatori
 
 ## La formula
 
-> **partizipioa + n-i-NORI-NORK + n** (final)
+> **partizipioa + n-i-NORI-NORK + n** (finale)
 
 Rispetto al presente, ciò che cambia è:
 
@@ -163,11 +163,11 @@ Una narrazione di livello A2 mescola i tre schemi:
 
 | Frase | Tipo |
 |---|---|
-| *Etorri zen* | NOR pasado |
-| *Eman zidan* | NOR-NORI-NORK pasado |
-| *Esan zidan* | NOR-NORI-NORK pasado |
-| *Erosi zuen* | NOR-NORK pasado |
-| *Kontatu zidan* | NOR-NORI-NORK pasado |
+| *Etorri zen* | NOR passato |
+| *Eman zidan* | NOR-NORI-NORK passato |
+| *Esan zidan* | NOR-NORI-NORK passato |
+| *Erosi zuen* | NOR-NORK passato |
+| *Kontatu zidan* | NOR-NORI-NORK passato |
 
 > **Trucco:** se la frase risponde a "cosa ha fatto?" → NOR-NORK (*dut/nuen*). Se risponde a "cosa ha fatto a chi?" → NOR-NORI-NORK (*diot/nion*). Se risponde a "cosa gli/le è successo?" senza accusativo → NOR (*naiz/nintzen*).
 

@@ -44,17 +44,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: argitsua
-    es: luminoso/a
+    es: светлый
   - eu: handia
-    es: grande
+    es: большой
   - eu: txikia
-    es: pequeño/a
+    es: маленький
   - eu: lasaia
-    es: tranquilo/a
+    es: тихий
   - eu: berria
-    es: nuevo/a
+    es: новый
   - eu: zaharra
-    es: viejo/a
+    es: старый
 - id: ex-09-05-fc
   type: flashcards
   cards:

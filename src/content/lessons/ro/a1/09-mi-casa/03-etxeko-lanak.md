@@ -14,13 +14,13 @@ exercises:
   type: match-pairs
   pairs:
   - eu: garbitu
-    es: limpiar
+    es: a face curat
   - eu: prestatu
-    es: preparar
+    es: a pregăti
   - eu: jaso
-    es: recoger
+    es: a strânge
   - eu: lisatu
-    es: planchar
+    es: a călca
   - eu: erosketak egin
     es: a face cumpărăturile
   - eu: zaborra atera
@@ -34,7 +34,7 @@ exercises:
   - ontziak garbitu
   - lurra erratu
   answer: 2
-  explanation: '"Ontziak garbitu" (literalmente „a curăța vasele”) = a spăla. Se mai spune și "harrikoa egin".'
+  explanation: '"Ontziak garbitu" (literal „a curăța vasele”) = a spăla. Se mai spune și "harrikoa egin".'
 - id: ex-09-03-mc2
   type: multiple-choice
   prompt: '"Ohea jantzi" înseamnă...'

@@ -16,17 +16,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: aurrean
-    es: delante
+    es: 앞에
   - eu: atzean
     es: 뒤에
   - eu: ondoan
-    es: al lado
+    es: 옆에
   - eu: gainean
-    es: encima
+    es: 위에
   - eu: azpian
-    es: debajo
+    es: 아래에
   - eu: artean
-    es: entre
+    es: 사이에
   - eu: ezkerrean
     es: 왼쪽에
   - eu: eskuinean
@@ -130,7 +130,7 @@ exercises:
 | **kutxaren barruan** | 상자 안에 |
 | **bi mendien artean** | 두 산 사이에 |
 
-패턴: 기준이 먼저 오고, **그 다음** 위치가 옵니다. 스페인어와는 어순이 정반대입니다.
+패턴: 기준이 먼저 오고, **그 다음** 위치가 옵니다. 한국어의 "집 앞"과 같은 어순입니다.
 
 ## 전체 문장 예시
 
@@ -142,7 +142,7 @@ exercises:
 
 ## 장소 부사: hemen / hor / han
 
-장소를 간단히 가리키는 세 가지 부사가 있습니다 — 스페인어와 달리 **세 단계의 거리**를 구분하니 주의하세요:
+장소를 간단히 가리키는 세 가지 부사가 있습니다 — 한국어의 "이·그·저"처럼 **세 단계의 거리**를 구분합니다:
 
 | 바스크어 | 한국어 | 언제 사용하나요? |
 |---|---|---|

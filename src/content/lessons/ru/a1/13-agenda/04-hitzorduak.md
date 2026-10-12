@@ -78,17 +78,17 @@ exercises:
   type: match-pairs
   pairs:
   - eu: hitzordua
-    es: cita
+    es: встреча
   - eu: bilera
     es: собрание
   - eu: libre
-    es: libre
+    es: свободный
   - eu: lanpetuta
-    es: ocupado/a
+    es: занят/занята
   - eu: geratu
-    es: quedar
+    es: договориться о встрече
   - eu: geratuko gara
-    es: quedaremos
+    es: мы встретимся
 ---
 
 Живой ежедневник полон встреч и договорённостей. Этот урок научит вас говорить о них: назначать встречу, договариваться с кем-то, говорить, свободны ли вы.

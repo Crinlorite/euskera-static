@@ -36,7 +36,7 @@ exercises:
   prompt: 일행에게 "당신은요?"라고 물으려면 = Eta ___?
   answers:
   - zuretzat
-  explanation: '*Zuretzat* — ''당신에게는''. 스페인어의 tú(친한 사이)와 usted(격식)에 모두 해당합니다.'
+  explanation: '*Zuretzat* — ''당신에게는''. 반말과 존댓말 상황에 모두 쓸 수 있습니다.'
 - id: ex-esk-fb2
   type: fill-in-blank
   prompt: '"메인 요리로는 고기" = Bigarrenerako, ___'

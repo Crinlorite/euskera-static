@@ -80,15 +80,15 @@ exercises:
   - eu: Irakurtzea gustatzen zait
     es: J'aime lire
   - eu: Abestea gustatzen zaio
-    es: Le gusta cantar
+    es: Il/elle aime chanter
   - eu: Bidaiatzea gustatzen zaigu
-    es: Nos gusta viajar
+    es: Nous aimons voyager
   - eu: Margotzen dakit
     es: Je sais peindre
   - eu: Dantzatzera noa
-    es: Voy a bailar
+    es: Je vais danser
   - eu: Sukaldatzen ari naiz
-    es: Estoy cocinando
+    es: Je suis en train de cuisiner
 ---
 
 Que fais-tu quand tu ne fais rien ? Cette leçon porte sur les **loisirs** — et sur l'élément de grammaire qui les régit : le verbe transformé en nom avec **-tzea** (*irakurtzea* = "le fait de lire").
