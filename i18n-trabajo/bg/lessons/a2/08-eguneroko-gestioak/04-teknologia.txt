@@ -1,0 +1,136 @@
+@@ title
+Teknologia — компютърът, телефонът и мрежата
+@@ x0.prompt
+"Pasahitza ahaztu dut" — какво си забравил?
+@@ x0.explanation
+*Pasahitza* = паролата (pasa + hitza, "дума за преминаване"). Универсалната цифрова трагедия.
+@@ x0.opt0
+Зарядното
+@@ x0.opt1
+Паролата
+@@ x0.opt2
+Имейла
+@@ x0.opt3
+Потребителското име
+@@ x1.prompt
+Как питаш за паролата на wifi в бар?
+@@ x1.explanation
+*Zein da wifiaren pasahitza?* = каква е паролата на wifi? Най-задаваният въпрос на XXI век.
+@@ x2.prompt
+Пратих ти имейл = posta ___ bat bidali dizut.
+@@ x2.explanation
+*Posta elektronikoa* = електронната поща, имейлът (ще го чуеш и като *emaila*, разбира се).
+@@ x3.prompt
+Трябва да се изтегли приложението = aplikazioa ___ behar da.
+@@ x3.explanation
+*Deskargatu* (или *jaitsi*, "свалям") = изтеглям. Използват се и двете.
+@@ x4.card0
+компютърът
+@@ x4.card1
+мобилният телефон
+@@ x4.card2
+екранът
+@@ x4.card3
+клавиатурата
+@@ x4.card4
+мрежата
+@@ x4.card5
+wifi
+@@ x4.card6
+паролата
+@@ x4.card7
+потребителят
+@@ x4.card8
+имейлът
+@@ x4.card9
+приложението
+@@ x4.card10
+изтеглям
+@@ x4.card11
+включвам
+@@ x4.card12
+изключвам
+@@ x4.card13
+запазвам
+@@ x5.pair0
+включвам
+@@ x5.pair1
+изключвам
+@@ x5.pair2
+запазвам
+@@ x5.pair3
+изтривам
+@@ x5.pair4
+изтеглям
+@@ x5.pair5
+споделям
+@@ body
+
+От хартията до пиксела: урокът за **ежедневните технологии**. Речник, който използваш по сто пъти на ден — сега на баски, който освен това се хвали с прозрачни и добре изградени думи (*pasahitza* = дума за преминаване; *sakelakoa* = "онзи от джоба").
+
+## Устройствата
+
+| Български | Euskera |
+|---|---|
+| Компютърът | *ordenagailua* |
+| Лаптопът | *eramangarria* |
+| Мобилният телефон | *mugikorra / sakelakoa* |
+| Таблетът | *tableta* |
+| Екранът | *pantaila* |
+| Клавиатурата | *teklatua* |
+| Мишката | *sagua* (да, като животното!) |
+| Слушалките | *entzungailuak* |
+
+## Мрежата и профилите
+
+| Български | Euskera |
+|---|---|
+| Мрежата / интернет | *sarea / internet* |
+| Wifi | *wifia* |
+| Имейлът | *posta elektronikoa* |
+| Потребителят | *erabiltzailea* |
+| Паролата | *pasahitza* |
+| Приложението | *aplikazioa* |
+| Уебсайтът | *webgunea* |
+
+> ***Zein da wifiaren pasahitza**?* — Каква е паролата на wifi?
+>
+> ***Pasahitza ahaztu dut** eta orain berri bat sortu behar dut. Berriro.* — Забравих паролата и сега трябва да създам нова. Пак.
+>
+> *Kontua sortzeko, **posta elektronikoa eta pasahitza** behar dituzu.* — За да създадеш профил, ти трябват имейл и парола.
+
+## Цифровите глаголи
+
+| Български | Euskera |
+|---|---|
+| Включвам / изключвам | *piztu / itzali* |
+| Изтеглям | *deskargatu / jaitsi* |
+| Инсталирам | *instalatu* |
+| Запазвам | *gorde* |
+| Изтривам | *ezabatu* |
+| Изпращам / споделям | *bidali / partekatu* |
+| Търся (в мрежата) | *bilatu* |
+| Работя, функционирам | *ibili / funtzionatu* |
+
+> *Ordenagailua **gaizki dabil**; **itzali eta piztu** — betiko konponbidea.* — Компютърът не работи добре; изключи го и го включи — вечното решение.
+>
+> *Argazkiak **gorde dituzu**? Ez **ezabatu** ezer!* — Запази ли снимките? Не трий нищо!
+>
+> *Aplikazioa **deskargatu**, kontua **sortu** eta listo.* — Изтегляш приложението, създаваш профил и готово.
+
+## Диалог: семейна техническа поддръжка
+
+> *— Aizu, laguntza behar dut. Aplikazio hau **ez dabil**.*
+>
+> *— Ea… **Wifira konektatuta zaude**?*
+>
+> *— Baietz uste dut… A, ez. **Pasahitza eskatzen dit**.*
+>
+> *— Router-aren azpian dago idatzita. Bai, **denok egiten dugu** hori.* 😄
+>
+> *— Eginda! Orain bai. **Eskerrik asko**, teknikari!*
+>
+> *— **Hurrengoan kobratu egingo dizut**.* 😄
+
+> **Бележка:** цифровият баски е много жив: свободният софтуер и баската Уикипедия са силни, а целият ти телефон може да е на баски (*Ezarpenak → Hizkuntza*). Да го настроиш всъщност е брутален трик за учене: безплатно ежедневно потапяне.
+
