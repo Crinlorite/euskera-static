@@ -1,0 +1,124 @@
+@@ title
+Zehar-galderak — не знам дали ще дойде
+@@ x0.prompt
+"Ez dakit etorriko den" означава…
+@@ x0.explanation
+Непряк въпрос: ez dakit + глагол с **-n** (etorriko de**n**) = не знам дали ще дойде.
+@@ x0.opt0
+Не знам дали ще дойде
+@@ x0.opt1
+Знам, че няма да дойде
+@@ x0.opt2
+Не искам да идва
+@@ x0.opt3
+Казва, че не идва
+@@ x1.prompt
+Допълни: "Galdetu diot ea gurekin bazkalduko ___."
+@@ x1.explanation
+След *ea* (дали) спомагателният глагол приема **-n**: bazkalduko du → bazkalduko du**en**. *-la* (duela) е за твърдения ("казва, че…"), не за въпроси.
+@@ x2.prompt
+Кое използва правилно непрекия въпрос с "non"?
+@@ x2.explanation
+И с въпросителна дума: non dago? → ez dakit non dago**en**. -n е задължително в подчиненото изречение.
+@@ x3.prompt
+Не знам кой е = ez dakit nor ___.
+@@ x3.explanation
+Nor da? → ez dakit nor de**n**. Da става den.
+@@ x4.prompt
+Попитай я дали има време = galdetu iezaiozu ea denborarik ___.
+@@ x4.explanation
+Ea + -n: du → du**en** (или dauka → dauka**n**). И двете форми са правилни за "дали има".
+@@ x5.card0
+не знам дали е / дали ще дойде
+@@ x5.card1
+да видим дали ще дойде
+@@ x5.card2
+питам
+@@ x5.card3
+отговарям
+@@ x5.card4
+не знам къде е
+@@ x5.card5
+не знам какво иска
+@@ x5.card6
+не знам как се прави
+@@ x5.card7
+знаеш ли кога идва?
+@@ x5.card8
+ще видим дали...
+@@ x5.card9
+не съм сигурен/сигурна
+@@ x5.card10
+мисля, че да
+@@ x5.card11
+мисля, че не
+@@ x6.pair0
+кой е → не знам кой е
+@@ x6.pair1
+къде е → не знам къде е
+@@ x6.pair2
+какво иска → не знам какво иска
+@@ x6.pair3
+ще дойде → да видим дали ще дойде
+@@ x6.pair4
+кога е → знаеш ли кога е?
+@@ x6.pair5
+как се прави → не знам как се прави
+@@ body
+
+Досега питаше направо: *Etorriko da?* Сега ще се научиш да питаш **отстрани**: *не знам **дали ще дойде***, *попитай я **дали има време***. Това са *zehar-galderak* (непреки въпроси), а номерът им е една-единствена буква: **-n**.
+
+## Правилото: спомагателният глагол приема -n
+
+| Пряк | Непряк |
+|---|---|
+| *Etorriko **da**?* | *Ez dakit etorriko **den*** |
+| *Nor **da**?* | *Ez dakit nor **den*** |
+| *Non **dago**?* | *Ez dakit non **dagoen*** |
+| *Zer nahi **du**?* | *Ez dakit zer nahi **duen*** |
+| *Denborarik **dauka**?* | *Galdetu ea denborarik **daukan*** |
+
+Как се залепва **-n**: *da → den* · *dago → dagoen* · *du → duen* · *dauka → daukan* · *gara → garen* · *dute → duten*. (Ако завършва на гласна, -n; иначе -en. Ухото ти ще свикне само за два дни.)
+
+## "Ea" — думата жокер
+
+За въпросите с да/не баският добавя ***ea*** (= "дали / да видим дали"):
+
+> *Galdetu diot **ea gurekin bazkalduko duen**.* — Попитах го дали ще обядва с нас.
+>
+> *Ikusiko dugu **ea eguraldi ona egiten duen**.* — Ще видим дали времето ще е хубаво.
+>
+> ***Ea garaiz iristen garen**!* — Дано стигнем навреме!
+
+Това последно самостоятелно *ea…!* е чист говорим баски: желание + напрежение в една дума.
+
+## Глаголите, които ги изискват
+
+| Български | Euskera |
+|---|---|
+| Не знам дали… | *Ez dakit … -(e)n* |
+| Знаеш ли дали…? | *Badakizu … -(e)n?* |
+| Попитай го дали… | *Galdetu (iezaiozu) ea … -(e)n* |
+| Не помня дали… | *Ez naiz gogoratzen … -(e)n* |
+| Не съм сигурен дали… | *Ez nago ziur … -(e)n* |
+
+## В действие
+
+> *— **Badakizu zer ordutan hasten den** kontzertua?*
+>
+> *— Ez, baina Aneri **galdetuko diot ea dakien**.*
+>
+> *— Eta **ea sarrerarik geratzen den** ere galdetu, mesedez!*
+>
+> *— Lasai. **Ea zorte ona dugun**!*
+
+## Контрастът с -la (фалшивият приятел)
+
+Не бъркай непрекия въпрос с непрякото твърдение (раздел 04):
+
+> *Esan dit etorriko **dela**.* — Каза ми, **че** ще дойде. (твърдение → **-la**)
+>
+> *Galdetu dit **ea** etorriko **den**.* — Попита ме **дали** ще дойда. (въпрос → **-n**)
+
+**Че = -la · Дали = (ea) -n.** С този пищов урокът е спечелен.
+
