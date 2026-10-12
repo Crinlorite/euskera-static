@@ -1,0 +1,184 @@
+@@ title
+NOR-NORI-NORK jelen idő — adok neki, megmondom neked
+@@ x0.prompt
+A "Liburua eman dizut" jelentése…
+@@ x0.explanation
+*Eman dizut* = "(én) odaadtam neked (azt)" — NOR-NORI-NORK: NOR = könyv (azt), NORI = neked (-zu), NORK = én.
+@@ x0.opt0
+Adtam neked egy könyvet
+@@ x0.opt1
+Adtam neki egy könyvet
+@@ x0.opt2
+Odaadtam neked a könyvet
+@@ x0.opt3
+Odaadta neked a könyvet
+@@ x1.prompt
+Mit jelent az, hogy "Esan diot"?
+@@ x1.explanation
+*Diot* = "(én) neki (azt)" — a középen álló -o- jelöli a harmadik személyű NORI-t.
+@@ x1.opt0
+Megmondtam neki
+@@ x1.opt1
+Megmondtam neked
+@@ x1.opt2
+Megmondta nekem
+@@ x1.opt3
+Megmondtam nektek
+@@ x2.prompt
+Vettem Ainarának egy ajándékot = Ainarari opari bat erosi ___ .
+@@ x2.explanation
+*Diot* = NOR-NORI-NORK első személy, NORI = ő. Az *Ainarari* pedig a NORI -ari jelét kapja.
+@@ x3.card0
+ő nekem (azt)
+@@ x3.card1
+én neked (azt)
+@@ x3.card2
+te neki (azt)
+@@ x3.card3
+én neki (azt)
+@@ x3.card4
+ő neki (azt)
+@@ x3.card5
+ők nekünk (azt)
+@@ x3.card6
+mi neked (azt)
+@@ x3.card7
+ők neki (azt)
+@@ x3.card8
+adni
+@@ x3.card9
+mondani
+@@ x3.card10
+megmutatni, tanítani
+@@ x3.card11
+ajándékozni
+@@ x3.card12
+venni (vásárolni)
+@@ x3.card13
+hozni
+@@ x4.pair0
+odaadtam neked
+@@ x4.pair1
+odaadtam neki
+@@ x4.pair2
+odaadták nekünk
+@@ x4.pair3
+megmondtam neked
+@@ x4.pair4
+megmondtam neki
+@@ x4.pair5
+megmutatta nekem
+@@ body
+
+A **NOR-NORI-NORK** a **háromvonzatú** ige: valaki (NORK) csinál valamit (NOR) **valakinek** (NORI). A magyarban ez a részes határozós szerkezetnek felel meg — *odaadom neked*, *megmondtam neki*, *megmutatta nekem*.
+
+Ez a baszk legösszetettebb igéje, de az A2 szinten elég, ha a **leggyakoribb mintákat** uralod.
+
+## A formula
+
+> **partizipioa + d-i-NORI-NORK**
+
+A segédigének három belső jele van:
+
+- **d-** az elején (jelen idő).
+- **-i-** középen (ez a NOR-NORI-NORK "tője").
+- **-NORI-** belső toldalékként (kinek).
+- **-NORK** a végén (ki csinálja).
+
+## A leghasznosabb alakok az A2-höz
+
+Táblázat egyes számú NOR-ral ("azt"). Sorok = kinek (NORI), oszlopok = ki csinálja (NORK):
+
+| NORI ↓ / NORK → | nik (én) | zuk (te) | hark (ő) | guk (mi) | zuek (ti) | haiek (ők) |
+|---|---|---|---|---|---|---|
+| niri (nekem) | — | **didazu** | **dit** | — | **didazue** | **didate** |
+| zuri (neked) | **dizut** | — | **dizu** | **dizugu** | — | **dizute** |
+| hari (neki) | **diot** | **diozu** | **dio** | **diogu** | **diozue** | **diote** |
+| guri (nekünk) | — | **diguzu** | **digu** | — | **diguzue** | **digute** |
+| zuei (nektek) | **dizuet** | — | **dizue** | **dizuegu** | — | **dizuete** |
+| haiei (nekik) | **diet** | **diezu** | **die** | **diegu** | **diezue** | **diete** |
+
+> **Ne akard egyszerre megjegyezni az egész táblázatot.** Az A2 szinten először négy cellára koncentrálj: **dizut, diot, dit, dio**. Ezzel a néggyel és a származékaikkal (digu, dizu, didate, diote) az esetek 80%-ában boldogulsz.
+
+## Emlékeztető minta: a három betű
+
+Olvasd az alakokat ebben a belső sorrendben:
+
+> **d** + **i** + (NORI) + (NORK)
+
+| Alak | Olvasat | Jelentés |
+|---|---|---|
+| **d-i-zu-t** | "jelen + [i] + neked + én" | én neked (azt) |
+| **d-i-o-t** | "jelen + [i] + neki + én" | én neki (azt) |
+| **d-i-t** | "jelen + [i] + nekem + (ő)" | ő nekem (azt) |
+| **d-i-o** | "jelen + [i] + neki + (ő)" | ő neki (azt) |
+| **d-i-gu-te** | "jelen + [i] + nekünk + ők" | ők nekünk (azt) |
+
+> A NORI jelei: **-da- (nekem), -zu- (neked), -o- (neki), -gu- (nekünk), -zue- (nektek), -e- (nekik)**.
+
+## Egyeztetés a TÁRGGYAL (NOR)
+
+Ha a tárgy **többes számú** ("azokat"), az alak megváltozik. Az A2 szinten érdemes felismerni a párokat:
+
+| Egyes számú tárgy | Többes számú tárgy | Magyar |
+|---|---|---|
+| dizut | **dizkizut** | neked azt / neked azokat |
+| diot | **dizkiot** | neki azt / neki azokat |
+| dit | **dizkit** | nekem azt / nekem azokat |
+| digute | **dizkigute** | nekünk azt / nekünk azokat |
+
+> *Eman dizkizut bi liburuak.* — Odaadtam neked a két könyvet.
+
+## És persze a **NORK** -k végződést kap
+
+A NOR-NORI-NORK alanya ergatívuszban áll (akárcsak a NOR-NORK esetében):
+
+> *Lander**ek** Ainara**ri** opari bat eman **dio**.* — Lander adott Ainarának egy ajándékot.
+>
+> *Aitona**k** semea**ri** istorioa kontatu **dio**.* — A nagyapa elmesélt egy történetet a fiúnak.
+
+## Jellegzetes NOR-NORI-NORK igék
+
+| Ige | Jelentés | Példa |
+|---|---|---|
+| *eman* | adni | *Liburua eman dit.* |
+| *esan* | mondani | *Egia esan didazu.* |
+| *erakutsi* | megmutatni | *Argazkia erakutsi diot.* |
+| *oparitu* | ajándékozni | *Loreak oparitu dizkiote.* |
+| *erosi* | venni (valakinek) | *Janaria erosi diot amari.* |
+| *kontatu* | elmesélni | *Ipuina kontatu digute.* |
+| *bidali* | küldeni | *Mezua bidali dizut.* |
+| *idatzi* | írni (valakinek) | *Eskutitz bat idatzi diot.* |
+| *eskaini* | felajánlani | *Lana eskaini diote.* |
+| *gomendatu* | ajánlani | *Liburua gomendatu didazu.* |
+
+## Különbség: adni **valakinek** vagy adni **valamit**
+
+Hasonlítsd össze az "adni" három típusát:
+
+| Típus | Szerkezet | Példa |
+|---|---|---|
+| NOR (tárgy nélkül): az *eman* igére nem vonatkozik | — | — |
+| NOR-NORK (egyszerű tárgyas) | *Opari bat eman dut.* | Adtam egy ajándékot. |
+| NOR-NORI-NORK (címzettel) | *Opari bat eman diot Ainarari.* | Adtam egy ajándékot Ainarának. |
+
+> A címzett **NORI (-ari/-ei)** esetet kap. Az A1-ben láttad; itt az ige **belső toldaléka**.
+
+## Mini-párbeszéd
+
+> *— Eskerrik asko, Olatz. Ohar polita **idatzi didazu**.*
+>
+> *— Tira, ezer ez. **Esan dizut** beti laguntzeko prest nagoela.*
+>
+> *— Anbotori ere **erakutsi diozu**?*
+>
+> *— Ez, oraindik ez **diot esan**. Bihar **kontatuko diot**.*
+
+## Gyakori csapdák
+
+1. **Ne keverd össze a *dut* és a *diot* alakot.** *Dut* = NOR-NORK ("azt"). *Diot* = NOR-NORI-NORK ("neki azt"). Ha a mondatban van **címzett** (valakinek), általában NOR-NORI-NORK.
+2. **A címzett -ri/-ei végződést kap**: *Anboto**ri** esan diot* (Anbotónak), nem *Anbotok* (az az alany lenne).
+3. **Az alany továbbra is -k végződést kap**: *Anboto**k** Garazi**ri** liburua eman **dio**.*
+
+> **Pedagógiai megjegyzés:** a NOR-NORI-NORK táblázat a sűrűségéről híres. Az A2-es stratégia az, hogy **először a négy-öt leggyakoribb cellát sajátítsd el**, a többit pedig olvasáskor ismerd fel. Beszéd közben fokozatosan beépülnek.
+
