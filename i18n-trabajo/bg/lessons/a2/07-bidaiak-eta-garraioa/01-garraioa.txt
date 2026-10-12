@@ -1,0 +1,118 @@
+@@ title
+Garraioa — придвижване по света
+@@ x0.prompt
+"Trena galdu dut" означава…
+@@ x0.explanation
+*Galdu* = губя, изпускам. Най-тъжното изречение на всяка гара: изпуснах влака.
+@@ x0.opt0
+Купих влака
+@@ x0.opt1
+Изпуснах влака
+@@ x0.opt2
+Хванах влака
+@@ x0.opt3
+Влакът закъснява
+@@ x1.prompt
+Къде чакаш самолета?
+@@ x1.explanation
+*Aireportua* = летище. *Geltokia* е за влак/автобус, *portua* — за кораби, а *errepidea* е шосето.
+@@ x2.prompt
+Ходя на работа пеша = lanera ___ joaten naiz.
+@@ x2.explanation
+*Oinez* = пеша. Вкаменена инструментална форма на *oin* (крак).
+@@ x3.prompt
+Къде е жп гарата? = non dago tren-___?
+@@ x3.explanation
+*Geltokia* = гара/спирка (от *gelditu*, спирам). Tren-geltokia, autobus-geltokia.
+@@ x4.card0
+влакът
+@@ x4.card1
+автобусът
+@@ x4.card2
+самолетът
+@@ x4.card3
+корабът
+@@ x4.card4
+велосипедът
+@@ x4.card5
+пеша
+@@ x4.card6
+гарата / спирката
+@@ x4.card7
+летището
+@@ x4.card8
+пристанището
+@@ x4.card9
+пътникът
+@@ x4.card10
+шофьорът
+@@ x4.card11
+хващам влака
+@@ x4.card12
+изпускам влака
+@@ x4.card13
+посоката
+@@ x5.pair0
+с влак
+@@ x5.pair1
+с автобус
+@@ x5.pair2
+със самолет
+@@ x5.pair3
+с кола
+@@ x5.pair4
+пеша
+@@ x5.pair5
+с колело
+@@ body
+
+Започва разделът за пътуване. Първа спирка: **превозните средства** и глаголите за тях. С инструментала *-z*, който вече познаваш от A1, "с влак" или "с колело" е само една наставка.
+
+## Средствата
+
+| Български | Euskera | "С…" (инструментал) |
+|---|---|---|
+| Влакът | *trena* | *trenez* |
+| Автобусът | *autobusa* | *autobusez* |
+| Самолетът | *hegazkina* | *hegazkinez* |
+| Корабът | *itsasontzia* | *itsasontziz* |
+| Колата | *kotxea / autoa* | *kotxez / autoz* |
+| Велосипедът | *bizikleta* | *bizikletaz* |
+| Пеша | — | *oinez* |
+
+## Местата
+
+| Български | Euskera |
+|---|---|
+| Гарата (влак/автобус) | *(tren-/autobus-)geltokia* |
+| Летището | *aireportua* |
+| Пристанището | *portua* |
+| Пиацата за таксита | *taxi-geltokia* |
+| Шосето | *errepidea* |
+
+## Глаголите на пътуването
+
+> *Trena **hartu** dut.* — Хванах влака.
+>
+> *Autobusa **galdu** dugu!* — Изпуснахме автобуса!
+>
+> *Hegazkina berandu **atera da**.* — Самолетът излетя късно.
+>
+> *Trena Gasteizen **gelditzen da**.* — Влакът спира във Витория.
+>
+> *Bidaiariak trenera **igo dira**.* — Пътниците се качиха на влака.
+>
+> *Donostian **jaitsiko gara**.* — Ще слезем в Доностия.
+
+*Igo* (качвам се) и *jaitsi* (слизам) са ключовата двойка: *trenera igo* (качвам се на влака), *trenetik jaitsi* (слизам от влака). Обърни внимание на падежите: **-ra** за качване НА, **-tik** за слизане ОТ.
+
+## Как пътуваш?
+
+> *— **Nola joaten zara** lanera?*
+>
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
+>
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
+
+> **Бележка:** в Euskal Herria класическият крайградски влак е *topoa* ("къртицата", между Доностия и Андай, защото минава под земята), а *Euskotren* свързва крайбрежието. Ако чуеш *«topoa hartuko dugu»*, вече знаеш: малкото зелено влакче.
+
