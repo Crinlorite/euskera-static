@@ -1,0 +1,165 @@
+@@ title
+Osasuna eta gaixotasunak — salud y dolencias
+@@ x0.prompt
+¿Qué significa "Sukarra daukat"?
+@@ x0.explanation
+*Sukarra* es la fiebre. La estructura *X daukat* (tengo X) sirve para casi cualquier síntoma.
+@@ x0.opt0
+Tengo fiebre
+@@ x0.opt1
+Tengo tos
+@@ x0.opt2
+Tengo hambre
+@@ x0.opt3
+Tengo frío
+@@ x1.prompt
+En la consulta el médico te dice "Zer duzu?". ¿Qué te está preguntando?
+@@ x1.explanation
+*Zer duzu?* es la pregunta clásica del médico para abrir la consulta — literalmente "qué tienes".
+@@ x1.opt0
+¿Qué tienes? (¿qué te pasa?)
+@@ x1.opt1
+¿Quién eres?
+@@ x1.opt2
+¿De dónde vienes?
+@@ x1.opt3
+¿Cuándo fue?
+@@ x2.prompt
+Me duele la cabeza = Buruko ___ daukat.
+@@ x2.explanation
+En euskera el dolor es un sustantivo: *mina* (el dolor) + parte del cuerpo en NONGO (-ko). *Buruko mina* = "dolor de cabeza".
+@@ x3.card0
+la salud
+@@ x3.card1
+la enfermedad
+@@ x3.card2
+enfermo/a
+@@ x3.card3
+fiebre
+@@ x3.card4
+tos
+@@ x3.card5
+estornudo
+@@ x3.card6
+ronquera / catarro
+@@ x3.card7
+catarro
+@@ x3.card8
+la gripe
+@@ x3.card9
+dolor de cabeza
+@@ x3.card10
+dolor de garganta
+@@ x3.card11
+dolor de barriga
+@@ x3.card12
+dolor de muelas
+@@ x3.card13
+dolor de espalda
+@@ x3.card14
+la herida
+@@ x3.card15
+romperse la pierna
+@@ x3.card16
+la receta
+@@ x3.card17
+el medicamento
+@@ x3.card18
+pastilla
+@@ x3.card19
+la vacuna
+@@ x4.pair0
+el hospital
+@@ x4.pair1
+el centro de salud
+@@ x4.pair2
+médico/a
+@@ x4.pair4
+farmacéutico/a
+@@ x4.pair5
+la farmacia
+@@ body
+
+A2 te abre la puerta a hablar de cómo te sientes físicamente: cuándo estás malo, qué te duele y qué te ha mandado el médico. La estructura básica que ya conoces de A1 (*mina daukat*) se amplía con vocabulario específico, profesionales sanitarios y diálogos de consulta.
+
+## Cómo decir "estoy malo"
+
+En euskera tienes dos formas frecuentes:
+
+- **Gaixorik nago.** — Estoy enfermo/a. (estado puntual, con *egon*)
+- **Ez nago ondo.** — No estoy bien.
+- **Min hartu dut.** — Me he hecho daño.
+- **Gaixotu egin naiz.** — Me he puesto malo (verbo intransitivo, *naiz*).
+
+> **Nota gramatical:** *gaixorik* lleva el sufijo -**rik** (estado), igual que *pozik* (contento), *nekatuta*, *triste*. Recuerda: estado = *egon*.
+
+## Síntomas — fórmula universal X **daukat**
+
+Como en A1, los síntomas se construyen con *eduki* (tener):
+
+| Castellano | Euskera |
+|---|---|
+| Tengo fiebre | *Sukarra **daukat*** |
+| Tengo tos | *Eztula **daukat*** |
+| Tengo catarro | *Katarroa **daukat*** |
+| Tengo gripe | *Gripea **daukat*** |
+| Estoy mareado/a | *Zorabiatuta nago* |
+| Tengo náuseas | *Goragalea **daukat*** |
+
+## Dolor: *mina*
+
+El **dolor** es un sustantivo en euskera (*mina*) y se combina con la parte del cuerpo en **NONGO (-ko)**, que actúa como complemento de "qué tipo de dolor":
+
+> **parte del cuerpo + -ko + mina + daukat**
+
+| Castellano | Euskera |
+|---|---|
+| Me duele la cabeza | *Buruko mina daukat* |
+| Me duele la garganta | *Eztarriko mina daukat* |
+| Me duele la barriga | *Sabeleko mina daukat* |
+| Me duelen las muelas | *Hortzeko mina daukat* |
+| Me duele la espalda | *Bizkarreko mina daukat* |
+| Me duelen los pies | *Oinetako mina daukat* |
+
+Otra forma muy frecuente, sobre todo cuando algo te duele "ahora mismo":
+
+- *Buruak min ematen dit.* — Me da dolor la cabeza.
+
+## En la consulta
+
+| Castellano | Euskera |
+|---|---|
+| ¿Qué te pasa? / ¿Qué tienes? | *Zer duzu?* / *Zer gertatzen zaizu?* |
+| ¿Desde cuándo? | *Noiztik?* |
+| ¿Te duele? | *Min ematen dizu?* |
+| Toma una pastilla cada ocho horas | *Hartu pilula bat zortzi orduro* |
+| Descansa | *Hartu atseden* |
+| Vuelve dentro de una semana | *Itzuli astebete barru* |
+
+## Profesionales y lugares
+
+| Lugar / Persona | Euskera |
+|---|---|
+| El centro de salud | *anbulatorioa* |
+| El hospital | *ospitalea* |
+| Urgencias | *larrialdiak* |
+| El médico de cabecera | *familia-medikua* |
+| La enfermera | *erizaina* |
+| El farmacéutico | *botikaria* |
+| La farmacia | *botika* / *farmazia* |
+| Cita previa | *aurretiazko hitzordua* |
+
+## Mini-diálogo
+
+> *— Egun on. **Zer duzu**?*
+>
+> *— **Sukarra daukat** atzotik, eta **buruko mina** ere bai.*
+>
+> *— Eztulik?*
+>
+> *— Bai, baina ez asko.*
+>
+> *— Ondo. **Hartu** pilula hauek **zortzi orduro**, eta **edan** ur asko. Hobeto ez bazaude, bihar etorri berriro.*
+
+> **Nota cultural:** en Euskal Herria *"botikaria"* (farmacéutico/a) sigue siendo, en muchos pueblos pequeños, la primera consulta para problemas leves: catarros, picaduras, mareos. La farmacia funciona como filtro antes del médico de cabecera.
+

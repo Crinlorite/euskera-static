@@ -1,0 +1,93 @@
+@@ title
+Comprar (erostera)
+@@ x0.prompt
+¿Qué dices al pedir algo educadamente en una tienda?
+@@ x0.explanation
+"Jarriko al didazu… mesedez?" = "¿Me pones…, por favor?". Estructura cortés y frecuente.
+@@ x1.prompt
+"Hartuko dut" significa…
+@@ x1.explanation
+*Hartuko dut* — futuro de *hartu* (coger/tomar). Se usa para confirmar la compra.
+@@ x1.opt0
+Lo cogeré (lo compro)
+@@ x1.opt1
+No lo quiero
+@@ x1.opt2
+¿Lo tienes?
+@@ x1.opt3
+Es caro
+@@ x2.prompt
+Para pedir algo: "¿El último, por favor?" → ___, mesedez?
+@@ x2.explanation
+*Azkena, mesedez?* es la fórmula universal para preguntar quién va último en una cola.
+@@ x3.prompt
+Vendedor: "¿Algo más?" en euskera = "___?"
+@@ x3.explanation
+*Besterik?* o *Besterik nahi duzu?* — "¿algo más?" / "¿quieres algo más?"
+@@ x4.card0
+¿El último, por favor? (en la cola)
+@@ x4.card1
+¿Qué quieres?
+@@ x4.card2
+¿Me pones...?
+@@ x4.card3
+Lo cogeré / Me lo llevo
+@@ x4.card4
+Dame X por favor
+@@ x4.card5
+¿Algo más?
+@@ x4.card6
+No, nada más
+@@ x4.card7
+¡Toma!
+@@ x4.card8
+¡Muchas gracias!
+@@ x4.card9
+¡A ti! (respuesta a las gracias)
+@@ body
+
+Esta lección enseña las frases que se repiten una y otra vez en la tienda. Con cuatro o cinco fórmulas puedes resolver casi cualquier situación.
+
+## El ritual del turno
+
+En tiendas pequeñas hay turno. La fórmula básica al entrar es:
+
+- **Azkena, mesedez?** — ¿El último, por favor?
+
+Cuando llegue tu turno te dirán:
+
+- **Zer nahi duzu?** — ¿Qué quieres?
+- **Esan!** — ¡Dime!
+
+## Pedir lo que quieres
+
+Tres maneras frecuentes, de más coloquial a más cortés:
+
+| Euskera | Castellano | Tono |
+|---|---|---|
+| **Eman kilo bat sagar, mesedez.** | Dame un kilo de manzanas, por favor. | directo, neutro |
+| **Jarriko al didazu kilo bat sagar?** | ¿Me pones un kilo de manzanas? | cortés (futuro + cortesía) |
+| **Hartuko dut kilo bat sagar.** | Me llevo un kilo de manzanas. | confirmando elección |
+
+> *-Ko / -go* es la marca del futuro: *jarri → jarriko*, *hartu → hartuko*. Se usa muchísimo para suavizar las peticiones.
+
+## Las preguntas del vendedor
+
+- **Nolakoa nahi duzu?** — ¿Cómo lo quieres? (qué calidad / tipo)
+- **Zenbat nahi duzu?** — ¿Cuánto quieres?
+- **Besterik?** / **Besterik nahi duzu?** — ¿Algo más?
+- **Pentsatu duzu?** — ¿Lo has pensado?
+
+Y para terminar:
+
+- **Ez, besterik ez. Eskerrik asko.** — No, nada más. Muchas gracias.
+
+## Cerrar la compra
+
+- **Zenbat da dena?** — ¿Cuánto es todo?
+- **Tori!** — ¡Toma! (al entregar el dinero)
+- **Eskerrik asko! Agur!** — ¡Gracias! ¡Adiós!
+- **Zuri! Agur!** — ¡A ti! ¡Adiós! (respuesta del vendedor)
+
+> **Nota cultural:** *Tori* es una palabra cortita que se usa muchísimo al pasar algo de mano a mano: dinero, una bolsa, una llave. Es muy útil aprenderla pronto.
+

@@ -1,0 +1,167 @@
+@@ title
+Bizimodu osasuntsua eta ingurumena — vida sana y medio ambiente
+@@ x0.prompt
+¿Qué significa "Birziklatu behar dugu"?
+@@ x0.explanation
+*Birziklatu* = reciclar. *Behar dugu* = tenemos que.
+@@ x0.opt0
+Hay que reciclar
+@@ x0.opt1
+Hay que cocinar
+@@ x0.opt2
+Hay que correr
+@@ x0.opt3
+Hay que descansar
+@@ x1.prompt
+"Kirola egiten dut astean hiru aldiz" significa…
+@@ x1.explanation
+*X aldiz* = X veces. *Astean hiru aldiz* = tres veces a la semana.
+@@ x1.opt0
+Hago deporte tres horas a la semana
+@@ x1.opt1
+Hago tres deportes
+@@ x1.opt2
+Hago deporte tres veces a la semana
+@@ x1.opt3
+Tres semanas haciendo deporte
+@@ x2.prompt
+Cambio climático = klima ___ .
+@@ x2.explanation
+*Aldaketa* = cambio. *Klima-aldaketa* es término fijo.
+@@ x3.card0
+vida saludable
+@@ x3.card1
+hacer deporte
+@@ x3.card2
+pasear
+@@ x3.card3
+dormir bien
+@@ x3.card4
+fumar
+@@ x3.card5
+beber alcohol
+@@ x3.card6
+dieta equilibrada
+@@ x3.card7
+verduras
+@@ x3.card8
+fruta
+@@ x3.card9
+medio ambiente
+@@ x3.card10
+contaminación
+@@ x3.card11
+basura
+@@ x3.card12
+reciclar
+@@ x3.card13
+contenedor
+@@ x3.card14
+recuperar
+@@ x3.card15
+cambio climático
+@@ x3.card16
+energía renovable
+@@ x3.card17
+el barrio
+@@ x3.card18
+las fiestas
+@@ x3.card19
+voluntariado
+@@ x4.pair1
+plástico
+@@ x4.pair3
+orgánico
+@@ body
+
+Hablar de **estilo de vida** y **medio ambiente** es un bloque clásico del A2: se mezcla vocabulario nuevo con frases de obligación y consejo (*behar dugu*, *komeni da*, *garrantzitsua da*) que ya manejas desde A1.
+
+## Hábitos saludables
+
+| Castellano | Euskera |
+|---|---|
+| Hacer deporte | *kirola egin* |
+| Caminar / pasear | *paseatu* / *ibili* |
+| Correr | *korrika egin* |
+| Ir en bici | *bizikletaz ibili* |
+| Comer fruta y verdura | *fruta eta barazkiak jan* |
+| Beber agua | *ura edan* |
+| Dormir bien | *ondo lo egin* |
+| Fumar | *erre* |
+| Beber alcohol | *alkohola edan* |
+| No abusar de la sal | *gatzaz ez abusatu* |
+
+> Frases típicas:
+>
+> - *Kirola egiten dut astean hiru aldiz.* — Hago deporte tres veces a la semana.
+> - *Erretzeari utzi diot.* — He dejado de fumar.
+> - *Ez dut alkoholik edaten astegunetan.* — No bebo alcohol entre semana.
+
+## Frecuencia: *X aldiz*
+
+Para decir "X veces" usas la fórmula **número + aldiz**:
+
+| Castellano | Euskera |
+|---|---|
+| Una vez al día | *Egunean behin* |
+| Dos veces a la semana | *Astean bi aldiz* / *birritan* |
+| Tres veces al mes | *Hilean hiru aldiz* |
+| Muchas veces | *Askotan* |
+| A veces | *Batzuetan* |
+| Pocas veces | *Gutxitan* |
+| Nunca | *Inoiz ez* |
+
+## Medio ambiente — *ingurumena*
+
+| Castellano | Euskera |
+|---|---|
+| Medio ambiente | *ingurumena* |
+| Naturaleza | *natura* |
+| Contaminación | *kutsadura* |
+| Basura | *zaborra* |
+| Reciclar | *birziklatu* |
+| Reducir | *gutxitu* / *murriztu* |
+| Reutilizar | *berrerabili* |
+| Energía renovable | *energia berriztagarria* |
+| Cambio climático | *klima-aldaketa* |
+| Calentamiento global | *berotze globala* |
+
+## Los contenedores
+
+| Color habitual | Euskera | Para qué |
+|---|---|---|
+| Azul | *edukiontzi urdina* | papera / papel |
+| Amarillo | *edukiontzi horia* | plastikoa / plástico |
+| Verde | *edukiontzi berdea* | beira / vidrio |
+| Marrón | *edukiontzi marroia* | organikoa / orgánico |
+| Gris | *edukiontzi grisa* | hondakinak / resto |
+
+## Frases útiles para opinar
+
+- *Garrantzitsua da birziklatzea.* — Es importante reciclar.
+- *Komeni da kirola egitea.* — Conviene hacer deporte.
+- *Beharrezkoa da kutsadura gutxitzea.* — Es necesario reducir la contaminación.
+- *Ez dut uste plastikoa ona denik.* — No creo que el plástico sea bueno.
+
+> Estas estructuras (*-tzea + adjetivo + da*) son la fórmula A2 para "es importante / conviene / es necesario hacer X". Las trabajaremos a fondo en la unidad 4.
+
+## Vida del barrio
+
+| Castellano | Euskera |
+|---|---|
+| Barrio | *auzoa* |
+| Vecino/a | *bizilaguna* |
+| Asociación | *elkartea* |
+| Voluntariado | *boluntariotza* |
+| Fiestas del barrio | *auzoko jaiak* |
+| Participar | *parte hartu* |
+| Reunión | *bilera* |
+
+> *Gure auzoan jaiak antolatzeko bilera dago ostegunean. Ainarak parte hartzen du beti.*
+
+## Mini-texto modelo
+
+> *Lander auzo-elkarteko kidea da. Astean bi aldiz **bilerak** antolatzen ditu. Auzoko **jaiak** prestatzen dituzte, baita **boluntariotza-egitasmoak** ere: zaborrak biltzeko ekintzak, **birziklatzeari** buruzko hitzaldiak, eta abar. Berarentzat **garrantzitsua da auzoaren bizitza zaintzea**.*
+
+> **Nota cultural:** las *auzo-elkarteak* (asociaciones de vecinos) son una pieza fundamental de la vida social en muchos pueblos de Euskal Herria. Organizan fiestas, talleres de euskera, salidas al monte y campañas medioambientales. Participar es una de las mejores formas de practicar la lengua en uso real.
+

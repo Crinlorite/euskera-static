@@ -1,0 +1,115 @@
+@@ title
+¿Dónde está? — el caso NON
+@@ x0.prompt
+¿Cómo se dice "El bar está en la calle"?
+@@ x0.explanation
+Para "en + lugar" añadimos -an a la palabra: kale + an = kalean ("en la calle").
+@@ x1.prompt
+Donostia + locativo (en Donostia) = Donostia___.
+@@ x1.explanation
+Las palabras acabadas en -a orgánica solo añaden -n: Donostian.
+@@ x2.prompt
+Madril (Madrid) + locativo = Madril___.
+@@ x2.explanation
+Tras consonante final, el locativo intercala -e-: Madril → Madrilen.
+@@ x3.prompt
+Pregunta: "¿Dónde está la farmacia?" = ___ dago botika?
+@@ x4.prompt
+"Banketxean nago" significa…
+@@ x4.explanation
+"-an" indica ubicación; "nago" es "yo estoy" (egon).
+@@ x4.opt0
+Soy del banco
+@@ x4.opt1
+Voy al banco
+@@ x4.opt2
+Estoy en el banco
+@@ x4.opt3
+Vengo del banco
+@@ x5.card0
+¿Dónde?
+@@ x5.card1
+¿Dónde está?
+@@ x5.card2
+¿Dónde están?
+@@ x5.card3
+¿Dónde estás?
+@@ x5.card4
+en la calle
+@@ x5.card5
+en casa
+@@ x5.card6
+en el euskaltegi
+@@ x5.card7
+en el bar
+@@ x5.card8
+en el parque
+@@ x5.card9
+en Bilbao
+@@ x5.card10
+en Donostia
+@@ x5.card11
+en Pamplona
+@@ x5.card12
+en Madrid
+@@ x5.card13
+estoy
+@@ x5.card14
+está
+@@ x5.card15
+están
+@@ body
+
+Ya conoces el sufijo **`-(e)an`** de la lección "Donde vives" (*Bilbon bizi naiz*). Aquí lo aplicamos al barrio: dónde está cada cosa.
+
+## La pregunta: Non dago…?
+
+Para preguntar **¿dónde está…?** usamos:
+
+- **Non dago …?** — ¿Dónde está + (sujeto singular)?
+- **Non daude …?** — ¿Dónde están + (sujeto plural)?
+- **Non zaude?** — ¿Dónde estás (tú)?
+- **Non nago?** — ¿Dónde estoy?
+
+El verbo es **egon** ("estar"), que ya viste en saludos. Recuerda las formas:
+
+| Persona | Forma |
+|---|---|
+| ni | **nago** |
+| zu | **zaude** |
+| hura | **dago** |
+| gu | **gaude** |
+| zuek | **zaudete** |
+| haiek | **daude** |
+
+## La respuesta: lugar + `-(e)an` + dago
+
+Para decir **dónde está** algo, añade el sufijo **`-(e)an`** al lugar:
+
+| Final del lugar | Patrón | Ejemplo |
+|---|---|---|
+| -a (orgánica, como *Donostia*) | + n | Donostia → **Donostian** |
+| Vocal sin -a final (*mendi*, *kale-*) | + an | mendi → **mendian** |
+| Consonante (*Madril*, *lur*) | + en (nombres propios) / + ean (nombres comunes) | Madril → **Madrilen**; lur → **lurrean** |
+
+> Aviso para palabras como *kale* (calle): cuando llevan el artículo *kalea* ("la calle"), se quita la `-a` del artículo antes de añadir el sufijo: *kalea* → *kale-an* = **kalean** ("en la calle").
+
+## Ejemplos completos
+
+- **Botika kalean dago.** — La farmacia está en la calle.
+- **Liburuak mahaian daude.** — Los libros están en la mesa.
+- **Ikaslea ikasgelan dago.** — El alumno está en el aula.
+- **Aita tabernan dago.** — Papá está en el bar.
+- **Ni euskaltegian nago.** — Yo estoy en el euskaltegi.
+- **Bilbo Bizkaian dago.** — Bilbao está en Bizkaia.
+
+## Mini-diálogo
+
+> — *Aupa! **Non dago** liburutegia?* — ¡Hola! ¿Dónde está la biblioteca?
+>
+> — *Liburutegia plazan dago, eskolaren ondoan.* — La biblioteca está en la plaza, al lado de la escuela.
+>
+> — *Eskerrik asko!*
+
+> **Truco:** *non* = "dónde" en euskera. Cualquier respuesta a *non…?* lleva un sustantivo con sufijo `-(e)an` o un adverbio de lugar (*hemen*, *hor*, *han* — los verás en la siguiente lección).
+

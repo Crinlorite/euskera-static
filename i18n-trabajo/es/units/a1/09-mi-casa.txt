@@ -1,0 +1,4 @@
+@@ title
+La casa
+@@ description
+Habla de tu casa: habitaciones, muebles y tareas domésticas. Describe con quién vives.

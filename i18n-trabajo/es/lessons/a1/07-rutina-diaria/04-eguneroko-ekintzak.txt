@@ -1,0 +1,144 @@
+@@ title
+Acciones diarias y aspecto habitual
+@@ x0.prompt
+¿Qué significa "esnatzen naiz"?
+@@ x0.explanation
+El aspecto habitual (-tzen + naiz/dut) expresa lo que haces normalmente: "me despierto" (cada día).
+@@ x0.opt0
+me he despertado
+@@ x0.opt1
+me despierto
+@@ x0.opt2
+me voy a despertar
+@@ x0.opt3
+estaba despertando
+@@ x1.prompt
+"Egunero gosaltzen dut" significa…
+@@ x1.explanation
+"Egunero" = todos los días; "gosaltzen dut" = desayuno (habitualmente).
+@@ x1.opt0
+He desayunado hoy
+@@ x1.opt1
+Desayuno todos los días
+@@ x1.opt2
+Voy a desayunar
+@@ x1.opt3
+Estoy desayunando
+@@ x2.prompt
+Esnatu (despertarse) → forma habitual ___ (con la -n del aspecto habitual).
+@@ x2.explanation
+Verbos acabados en consonante o en -tu/-du añaden "-tzen" para el aspecto habitual: esna**tu** → esna**tzen**.
+@@ x3.prompt
+Jan (comer) → forma habitual ___ (con la terminación del aspecto habitual).
+@@ x3.explanation
+Verbos acabados en -n cambian: ja**n** → ja**ten** (no "janten"). La regla: -n final → "-ten".
+@@ x5.card0
+despertarse / me despierto
+@@ x5.card1
+levantarse / me levanto
+@@ x5.card2
+ducharse / me ducho
+@@ x5.card3
+vestirse / me visto
+@@ x5.card4
+desayunar / desayuno
+@@ x5.card5
+comer / como (almuerzo)
+@@ x5.card6
+cenar / ceno
+@@ x5.card7
+trabajar / trabajo
+@@ x5.card8
+dormir / duermo
+@@ x5.card9
+acostarse / me acuesto
+@@ x5.card10
+echarse la siesta
+@@ x5.card11
+cada día / todos los días
+@@ x5.card12
+siempre
+@@ x5.card13
+a menudo
+@@ x5.card14
+a veces
+@@ x5.card15
+nunca
+@@ body
+
+Para decir lo que haces todos los días, el euskera usa el **aspecto habitual**: tomas el verbo (partizipio) y le añades **-tzen** o **-ten**, después combinas con el verbo auxiliar **izan** (naiz, zara, da…) o **ukan** (dut, duzu, du…).
+
+## La regla
+
+| Final del verbo | Sufijo habitual | Ejemplo |
+|---|---|---|
+| consonante o `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
+| `-i` (irregular) | **-tzen** o **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+
+> El verbo *jan* (comer) **no** se convierte en *janten* sino en *jaten* — la "n" final desaparece. Lo mismo con *edan* → *edaten*, *egon* → *egoten*.
+
+## Verbos del día a día
+
+### NOR (auxiliar **izan**: naiz, zara, da…)
+
+Estos van **con izan** porque son intransitivos — el sujeto experimenta la acción sin un objeto:
+
+| Partizipioa | Aspecto habitual | Significado |
+|---|---|---|
+| *esnatu* | *esnatzen naiz* | me despierto |
+| *jaiki* | *jaikitzen naiz* | me levanto |
+| *altxatu* | *altxatzen naiz* | me levanto (variante de *jaiki*) |
+| *dutxatu* | *dutxatzen naiz* | me ducho |
+| *jantzi* | *janzten naiz* | me visto |
+| *joan* | *joaten naiz* | voy |
+| *etorri* | *etortzen naiz* | vengo |
+| *oheratu* | *oheratzen naiz* | me acuesto |
+| *lokartu* | *lokartzen naiz* | me duermo |
+
+### NOR-NORK (auxiliar **ukan**: dut, duzu, du…)
+
+Estos van **con ukan** porque tienen sujeto y objeto:
+
+| Partizipioa | Aspecto habitual | Significado |
+|---|---|---|
+| *gosaldu* | *gosaltzen dut* | desayuno |
+| *bazkaldu* | *bazkaltzen dut* | como (almuerzo) |
+| *afaldu* | *afaltzen dut* | ceno |
+| *jan* | *jaten dut* | como |
+| *edan* | *edaten dut* | bebo |
+| *lan egin* | *lan egiten dut* | trabajo |
+| *lo egin* | *lo egiten dut* | duermo |
+| *ikusi* | *ikusten dut* | veo |
+| *irakurri* | *irakurtzen dut* | leo |
+| *erosi* | *erosten dut* | compro |
+
+> **¿Por qué algunos van con NAIZ y otros con DUT?** Es la distinción clave del euskera. *Esnatzen naiz* (me despierto) es algo que me pasa a mí: no hay un objeto. *Jaten dut* (como) tiene objeto: *ogia jaten dut* (como pan). Esto se ve a fondo en la próxima unidad — de momento memoriza las parejas verbo + auxiliar.
+
+## Marcadores de frecuencia
+
+| Euskera | Castellano |
+|---|---|
+| *egunero* | cada día / todos los días |
+| *beti* | siempre |
+| *askotan* | a menudo |
+| *batzuetan* | a veces |
+| *normalean* | normalmente |
+| *gehienetan* | la mayoría de las veces |
+| *gutxitan* | pocas veces |
+| *inoiz ez* | nunca |
+| *astero* | cada semana |
+| *hilero* | cada mes |
+
+## Ejemplos enlazados
+
+> *Egunero zazpietan esnatzen naiz eta dutxatzen naiz.* — Cada día me despierto a las siete y me ducho.
+>
+> *Goizean kafea hartzen dut.* — Por la mañana tomo café.
+>
+> *Askotan lagunekin afaltzen dut.* — A menudo ceno con amigos.
+>
+> *Batzuetan lo-kuluxka egiten dut bazkalostean.* — A veces echo la siesta después de comer.
+
+> **Nota:** *bazkalostean* = "después de comer" (literal: "tras la comida"). La cultura del euskera tiene palabras compactas para conceptos cotidianos como esa siesta corta — *lo-kuluxka* es justo eso.
+
