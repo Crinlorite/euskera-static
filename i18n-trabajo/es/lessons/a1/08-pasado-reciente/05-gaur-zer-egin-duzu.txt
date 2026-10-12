@@ -1,0 +1,114 @@
+@@ title
+Cuenta tu día de hoy (lección integradora)
+@@ x0.prompt
+¿Cuál es la traducción correcta de "Esta mañana me he despertado tarde"?
+@@ x0.explanation
+"Esnatu" es intransitivo (lleva izan); "yo" → naiz. "Esta mañana" → gaur goizean.
+@@ x1.prompt
+En la frase "Mikelek egunkaria irakurri du", ¿por qué "Mikelek" lleva -k?
+@@ x1.explanation
+En euskera el sujeto de los verbos transitivos lleva la marca NORK (-k): Mikel**ek** ha leído el periódico.
+@@ x1.opt0
+Porque es un nombre vasco
+@@ x1.opt1
+Porque es el sujeto de un verbo transitivo (NORK)
+@@ x1.opt2
+Porque significa plural
+@@ x1.opt3
+Es un error, debería ser solo Mikel
+@@ x2.prompt
+He desayunado tostadas y café = Tostadak eta kafea ___ ___ (rellena: partizipio + auxiliar para "yo").
+@@ x2.explanation
+Para "tomar/comer varias cosas" se usa *ditut* (auxiliar plural de ukan): *hartu/jan ditut*.
+@@ x3.prompt
+He ido al euskaltegi a pie = Euskaltegira oinez ___ ___ (rellena: partizipio + auxiliar).
+@@ x3.explanation
+"Joan" intransitivo + "naiz" para 1ª persona = "joan naiz".
+@@ x4.card0
+¿Qué has hecho hoy?
+@@ x4.card1
+Esta mañana he ido al trabajo
+@@ x4.card2
+He desayunado en casa
+@@ x4.card3
+A mediodía he comido con amigos
+@@ x4.card4
+Por la tarde he tomado café
+@@ x4.card5
+He dado una vuelta
+@@ x4.card6
+He hecho la compra
+@@ x4.card7
+He vuelto a casa
+@@ x4.card8
+He visto la tele
+@@ x4.card9
+Me he acostado a las once
+@@ x4.card10
+He estado tranquilo/a
+@@ x4.card11
+He aprendido mucho
+@@ body
+
+Esta lección reúne todo el material de la unidad: pasado reciente con los dos auxiliares, marcadores temporales, partes del día y verbos cotidianos. El objetivo es que puedas contar tu día completo.
+
+## El esquema mental
+
+Para contar el día, sigue este recorrido:
+
+1. **Cuándo te has despertado** → *Gaur ___etan esnatu naiz.*
+2. **Qué has hecho por la mañana** → *Goizean ...*
+3. **Cómo has ido a algún sitio** → *Lanera / euskaltegira oinez / autoz / autobusez joan naiz.*
+4. **Qué has comido / bebido** → *Bazkaltzeko ___ jan dut. ___ edan dut.*
+5. **Qué has hecho por la tarde** → *Arratsaldean ...*
+6. **Cuándo y cómo te has acostado** → *Gauean ___etan oheratu naiz.*
+
+## Modelo: el día de Maialen
+
+> *Gaur goizeko zazpietan esnatu naiz. Berehala jaiki naiz eta dutxatu naiz. Gosaltzeko, kafesnea hartu dut eta tostadak jan ditut. Ondoren, etxetik atera naiz eta euskaltegira oinez joan naiz. Goizean euskara ikasi dut eta lagunekin hitz egin dut.*
+>
+> *Eguerdian etxera bueltatu naiz. Bazkaltzeko, entsalada eta arraina jan ditut. Gero, lo-kuluxka egin dut.*
+>
+> *Arratsaldean erosketak egin ditut: ogia, fruta eta esnea erosi ditut. Ondoren, lagun batekin kafea hartu dut tabernan.*
+>
+> *Etxean afaldu dut, telebista pixka bat ikusi dut eta hamaiketan oheratu naiz.*
+
+Traducción aproximada:
+> *Hoy me he despertado a las siete de la mañana. Enseguida me he levantado y me he duchado. Para desayunar he tomado café con leche y he comido tostadas. Luego he salido de casa y he ido andando al euskaltegi. Por la mañana he estudiado euskera y he hablado con compañeros.*
+>
+> *A mediodía he vuelto a casa. Para comer he comido ensalada y pescado. Luego me he echado la siesta.*
+>
+> *Por la tarde he hecho la compra: he comprado pan, fruta y leche. Después he tomado café con un amigo en el bar.*
+>
+> *He cenado en casa, he visto un poco la tele y me he acostado a las once.*
+
+## Tu turno
+
+Sigue la misma plantilla pero con tu información real. Revisa estas dos cosas mientras escribes:
+
+1. **¿El verbo es transitivo o intransitivo?** Si tiene objeto → *dut/duzu/du…* (con sujeto -k). Si no → *naiz/zara/da…*
+2. **¿La acción es habitual o pasada reciente?** Habitual = *-tzen/-ten + auxiliar*. Pasado reciente = partizipio sin sufijo + auxiliar.
+
+## Errores típicos a evitar
+
+| Incorrecto | Correcto | Por qué |
+|---|---|---|
+| *Goizean joan dut* | *Goizean joan naiz* | *Joan* es intransitivo, va con *izan* (naiz). |
+| *Mikel egunkaria irakurri da* | *Mikelek egunkaria irakurri du* | *Irakurri* es transitivo: sujeto con -k, auxiliar *du*. |
+| *Gaur gosaltzen dut etxean* | *Gaur gosaldu dut etxean* | Si quieres pasado reciente, sin *-tzen*. |
+| *Atzo lanera joan naiz* | *Atzo lanera joan nintzen* (pasado completo) | Con *atzo* y otros periodos ya cerrados se usa el pasado completo; el pasado reciente es para hoy. |
+
+> **Nota:** para acciones de ayer se usa el pasado completo (*joan nintzen*, *jan nuen*), que es propio del nivel A2. En A1 céntrate en contar lo de **hoy** con el pasado reciente; si alguna vez dices *atzo joan naiz* te van a entender, pero lo estándar es *atzo joan nintzen*.
+
+## Combinándolo con habitual
+
+Esto es clave: los dos sistemas conviven y a menudo se mezclan en una misma conversación.
+
+> *Egunero zazpietan esnatzen naiz, baina gaur zazpi eta erdietan esnatu naiz.* — Cada día me despierto a las siete, pero hoy me he despertado a las siete y media.
+>
+> *Normalean kafea hartzen dut, baina gaur tea hartu dut.* — Normalmente tomo café, pero hoy he tomado té.
+
+Saber alternar es la base del nivel A1: si dominas las dos formas y los dos auxiliares, ya tienes la columna vertebral del euskera oral cotidiano.
+
+> **Para terminar:** la mejor manera de fijar todo esto es *contar tu día en voz alta cada noche antes de acostarte*, durante una semana. Si te falta una palabra, búscala — pero el ejercicio mental de pasarlo todo a euskera es lo que automatiza el sistema NOR/NOR-NORK. Aurrera!
+

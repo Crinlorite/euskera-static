@@ -1,0 +1,119 @@
+@@ title
+¿Qué hace? — Hablar de la rutina de otros
+@@ x0.prompt
+¿Cómo dices "Trabaja en el hospital"?
+@@ x0.explanation
+"Ospitalean" = en el hospital (locativo -ean), "lan egiten du" = trabaja (3ª persona).
+@@ x1.prompt
+Vive en Pamplona = Iruñean ___ da.
+@@ x1.explanation
+"Bizi da" = vive (literal: "está viviendo"). Para 1ª persona sería "bizi naiz".
+@@ x2.prompt
+"Bera euskaltegian lan egiten du" — ¿en qué profesión encaja mejor?
+@@ x2.explanation
+Si trabaja en un euskaltegi, lo más probable es que sea profesor/a (irakaslea).
+@@ x3.prompt
+Tiene 40 años = Berrogei urte ___.
+@@ x3.explanation
+"Ditu" = tiene (3ª persona, objeto plural — los años se cuentan en plural).
+@@ x4.card0
+¿Qué hace?
+@@ x4.card1
+¿Dónde vive?
+@@ x4.card2
+¿Dónde trabaja?
+@@ x4.card3
+Él/ella es médico/a
+@@ x4.card4
+Trabaja en el hospital
+@@ x4.card5
+Trabaja en la escuela
+@@ x4.card6
+Trabaja en el bar
+@@ x4.card7
+Trabaja en la oficina
+@@ x4.card8
+Vive en Pamplona
+@@ x4.card9
+Tiene 30 años
+@@ x4.card10
+Está casado/a
+@@ x4.card11
+Es soltero/a
+@@ x4.card12
+Tiene dos hijos
+@@ x4.card13
+Vive solo/a
+@@ x4.card14
+Vive con sus amigos
+@@ body
+
+Una vez sabes presentar a alguien (*Hau X da*), el siguiente paso natural es **contar qué hace esa persona**: dónde vive, dónde trabaja, cuántos años tiene, cómo es su día a día. Toda la conjugación va en **tercera persona**, así que aquí practicamos eso.
+
+## Las preguntas
+
+| Pregunta | Castellano |
+|---|---|
+| *Non bizi da?* | ¿Dónde vive? |
+| *Norekin bizi da?* | ¿Con quién vive? |
+| *Zenbat urte ditu?* | ¿Cuántos años tiene? |
+| *Zer da bera?* / *Zer egiten du?* | ¿Qué es? / ¿Qué hace? |
+| *Non egiten du lan?* | ¿Dónde trabaja? |
+| *Ezkonduta dago?* | ¿Está casado/a? |
+
+## Patrones de respuesta
+
+Combina lo aprendido. La estructura es: **sujeto + complementos + verbo**.
+
+| Tema | Frase tipo |
+|---|---|
+| Residencia | *Bera **Iruñean bizi da**.* — Vive en Pamplona. |
+| Compañía | *Bera **bikotekidearekin bizi da**.* — Vive con su pareja. |
+| Edad | *Bera**k hogeita hamar urte ditu**.* — Tiene 30 años. |
+| Profesión | *Bera **medikua da**.* — Es médico/a. |
+| Trabajo | *Bera**k ospitalean lan egiten du**.* — Trabaja en el hospital. |
+
+## Locativo `-(e)an` para el lugar de trabajo
+
+El sufijo **`-(e)an`** ("en") ya lo conoces de la unidad de barrio y de residencia. Aquí lo usas para decir dónde trabaja alguien.
+
+| Lugar | Frase |
+|---|---|
+| ospitala (hospital) | *ospitale**an** lan egiten du* |
+| eskola (escuela) | *eskola**n** lan egiten du* |
+| taberna (bar) | *taberna**n** lan egiten du* |
+| bulegoa (oficina) | *bulego**an** lan egiten du* |
+| denda (tienda) | *denda**n** lan egiten du* |
+| euskaltegia (academia de euskera) | *euskaltegi**an** lan egiten du* |
+| etxean (en casa) | *etxean lan egiten du* |
+
+> Recuerda: si la palabra acaba en `-a` orgánica (tabern**a**), se mantiene → *tabernan*. Si acaba en consonante (Madril), intercala `-e-` → *Madrilen*.
+
+## Profesión + lugar = retrato completo
+
+Combinar profesión con locación es lo que da consistencia a la presentación de un vecino:
+
+> *Bera **erizaina** da, eta **ospitalean lan egiten du**. **Iruñean bizi da, bikotekidearekin**, eta **bi seme-alaba ditu**.*
+
+> *Hau Maialen da. Bera **kazetaria** da, **egunkari batean lan egiten du**. **Bilbokoa da, baina orain Donostian bizi da**.*
+
+## Estado civil (vocabulario útil)
+
+| Euskera | Castellano |
+|---|---|
+| *ezkonduta dago* | está casado/a |
+| *ezkongabea da* | es soltero/a |
+| *banatuta dago* | está separado/a |
+| *dibortziatuta dago* | está divorciado/a |
+| *alargun da* | es viudo/a |
+
+## Una rutina sencilla
+
+Para describir lo que hace alguien habitualmente, repasa el patrón **`-tzen` + du** que ya viste para tareas domésticas:
+
+- *Goizean **lana hasten du** zortzietan.* — Empieza el trabajo a las ocho.
+- *Eguerdian **etxean bazkaltzen du**.* — A mediodía come en casa.
+- *Arratsaldean **kirola egiten du**.* — Por la tarde hace deporte.
+
+> Para A1 te basta con frases sueltas; no hace falta encadenar la jornada completa. Si puedes decir tres cosas claras de un vecino, ya estás presentándolo bien.
+

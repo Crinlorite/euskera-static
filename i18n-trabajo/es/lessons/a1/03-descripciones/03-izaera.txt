@@ -1,0 +1,110 @@
+@@ title
+Cómo es por dentro (izaera)
+@@ x0.prompt
+"Alaia" significa…
+@@ x0.explanation
+*alaia* es "alegre". Es uno de los adjetivos de carácter más comunes.
+@@ x1.prompt
+Quieres decir "Mi padre es trabajador". ¿Cuál es la forma correcta?
+@@ x1.explanation
+*langilea* (de *lan*, "trabajo") = trabajador/a. Va con *izan*.
+@@ x2.prompt
+Maialen oso ___ da. (Maialen es muy simpática)
+@@ x2.explanation
+*atsegina* o *jatorra* sirven para "simpática" / "maja".
+@@ x3.prompt
+Hura isila da, baina ni ___ naiz. (Él es callado, pero yo soy hablador/parlanchín)
+@@ x3.explanation
+*berritsua* = hablador, parlanchín — el opuesto de *isila*.
+@@ x4.card0
+alegre
+@@ x4.card1
+maja, simpática
+@@ x4.card2
+amable, agradable
+@@ x4.card3
+bueno/buena
+@@ x4.card4
+malo/mala
+@@ x4.card5
+callado/silencioso
+@@ x4.card6
+parlanchín, hablador
+@@ x4.card7
+tranquilo
+@@ x4.card8
+nervioso
+@@ x4.card9
+trabajador
+@@ x4.card10
+vago/perezoso
+@@ x4.card11
+valiente
+@@ x4.card12
+miedoso
+@@ x4.card13
+travieso
+@@ x4.card14
+formal, honrado
+@@ x4.card15
+serio
+@@ x4.card16
+tímido
+@@ x4.card17
+excelente, estupendo
+@@ x5.pair7
+simpático
+@@ body
+
+Después de describir cómo es alguien físicamente, lo natural es contar **cómo es por dentro**: su carácter, su manera de ser. En euskera estos adjetivos también se construyen con **izan** + adjetivo + `-a`, igual que los físicos.
+
+## Vocabulario base de carácter
+
+Los adjetivos vienen casi siempre por parejas de opuestos:
+
+| Euskera | Castellano | Contrario |
+|---|---|---|
+| *alaia* | alegre | *triste* (triste — pero ojo, eso es estado) |
+| *jatorra* | majo, simpático | — |
+| *atsegina* | amable, agradable | — |
+| *ona* | bueno | *txarra* (malo) |
+| *isila* | callado | *berritsua* (parlanchín) |
+| *lasaia* | tranquilo | *urduria* (nervioso) |
+| *langilea* | trabajador | *alferra* (vago, perezoso) |
+| *ausarta* | valiente | *beldurtia* (miedoso) |
+| *zintzoa* | formal, honrado | *bihurria* (travieso, revoltoso) |
+| *serioa* | serio | — |
+| *lotsatia* | tímido | — |
+| *bikaina* | excelente, estupendo | — |
+
+> Muchos de estos adjetivos vienen de un sustantivo + sufijo. Por ejemplo *langile* viene de *lan* ("trabajo"); *beldurti* viene de *beldur* ("miedo"). No tienes que aprender la lógica interna en A1, pero te ayudará a memorizar.
+
+## Estructura: igual que los físicos
+
+- *Maialen oso **alaia** da.* — Maialen es muy alegre.
+- *Egoitz **isila eta serioa** da.* — Egoitz es callado y serio.
+- *Gu **langileak** gara.* — Nosotros somos trabajadores.
+- *Haiek **bihurriak** dira.* — Ellos son traviesos.
+- *Ni ez naiz oso **lotsatia**.* — Yo no soy muy tímida.
+
+## Encadenar varios adjetivos
+
+Una manera muy natural de presentar a alguien es soltar 3-4 rasgos seguidos. El euskera lo hace con la conjunción **eta** ("y") solo antes del último:
+
+> *Nire arreba alaia, jatorra **eta** langilea da.*
+>
+> Mi hermana es alegre, simpática y trabajadora.
+
+## "Oso" y "nahiko" para matizar
+
+- **oso** alaia → muy alegre
+- **nahiko** isila → bastante callada
+- **ez** oso urduria → no muy nerviosa
+- **ez** zara batere alferra → no eres nada vaga (*batere* refuerza la negación)
+
+## Ejemplo completo
+
+> *Nire ama oso jatorra eta atsegina da. Lasaia da, baina nire aita urduria da. Anaia bihurri samarra da, baina ni zintzoa naiz!*
+>
+> Mi madre es muy maja y amable. Es tranquila, pero mi padre es nervioso. Mi hermano es bastante travieso, ¡pero yo soy formal!
+

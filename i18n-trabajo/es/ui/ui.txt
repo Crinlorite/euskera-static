@@ -1,0 +1,660 @@
+@@ beta.title
+Kaixo para Android: apúntate a la beta
+@@ beta.lead
+La versión de Android está en <strong>prueba cerrada</strong>: funciona, pero para instalarla hay que apuntarse antes. Son dos minutos y aquí está explicado paso a paso.
+@@ beta.why
+¿Por qué no está en Google Play a la vista de todos? Porque Google exige que una app nueva pase antes por una prueba cerrada con un grupo estable de personas. Cuando la completemos, saldrá para todo el mundo — y tú habrás ayudado a que llegue.
+@@ beta.step1.t
+1. Únete al grupo con la cuenta de Google de tu móvil
+@@ beta.step1.d
+Es un grupo de Google normal y corriente: solo sirve para que Google sepa que puedes acceder a la prueba. Entras con un clic, sin aprobación ni esperas. <strong>Importante:</strong> hazlo con la misma cuenta de Google que usas en tu teléfono Android.
+@@ beta.step2.t
+2. Acepta la prueba
+@@ beta.step2.d
+Abre el enlace de la prueba y pulsa <strong>«Convertirme en probador»</strong>. Sin este paso Google no te deja instalarla, aunque estés en el grupo.
+@@ beta.step3.t
+3. Instálala desde Google Play
+@@ beta.step3.d
+En esa misma página, debajo, aparece el enlace para descargarla en Google Play. A partir de ahí se actualiza sola, como cualquier otra app.
+@@ beta.wait.t
+⏳ Lo que nadie te cuenta: hay que esperar un poco
+@@ beta.wait.d
+Entre que te apuntas y que Google te da acceso pasa un rato: <strong>normalmente unos minutos, a veces algunas horas</strong>. Durante esa espera es normal que Google Play te diga <em>«Elemento no encontrado»</em> o que no encuentre la app. <strong>No está rota y no has hecho nada mal</strong>: espera un poco y vuelve a abrir el enlace. Si al cabo de unas horas sigue igual, escríbenos y lo miramos.
+@@ beta.faq.t
+Dudas frecuentes
+@@ beta.faq1.q
+Me sale «Elemento no encontrado»
+@@ beta.faq1.a
+Casi siempre es la espera de arriba. Comprueba también que en Google Play tienes seleccionada <strong>la misma cuenta</strong> con la que te uniste al grupo (toca tu foto arriba a la derecha en Play para cambiar de cuenta).
+@@ beta.faq2.q
+Tengo varias cuentas de Google en el móvil
+@@ beta.faq2.a
+Entonces asegúrate de que los tres pasos los haces con la misma: la del grupo, la de la prueba y la que tienes activa en Google Play.
+@@ beta.faq3.q
+¿Puedo salirme cuando quiera?
+@@ beta.faq3.a
+Claro. Puedes dejar de ser probador desde el mismo enlace de la prueba, y salir del grupo cuando quieras. Ni te lo tomamos a mal ni pasa nada.
+@@ beta.cta.group
+1 · Unirme al grupo
+@@ beta.cta.optin
+2 · Aceptar la prueba
+@@ beta.thanks
+Eskerrik asko por echar una mano. Si algo falla o se te ocurre una mejora, cuéntanoslo: se arregla rápido.
+@@ beta.badge
+Únete a la beta
+@@ beta.live.t
+Kaixo ya está en Google Play
+@@ beta.live.d
+Descárgala directamente: es gratis y no necesitas hacer nada más. Lo de abajo es solo si quieres probar las novedades antes que nadie.
+@@ beta.live.cta
+Descargar en Google Play
+@@ beta.live.beta
+Probar las novedades antes
+@@ priv.s2.p4
+<strong>Sincronización opcional (desactivada por defecto).</strong> En la app puedes activar, desde Progreso, una copia de seguridad en <em>tu propia</em> cuenta de la nube (iCloud en iOS; el servicio equivalente de Google en Android cuando esté disponible), para no perder el progreso al reinstalar. Esa copia viaja a tu cuenta, <strong>no a un servidor nuestro</strong>, y nosotros no podemos leerla. Si la desactivas, se borra lo que se hubiera subido.
+@@ sync.title
+Sincronizar mi progreso
+@@ sync.hint
+Guarda una copia en tu propia cuenta de la nube para no perder el progreso si reinstalas. Nosotros no la vemos.
+@@ sync.off
+Desactivada
+@@ sync.on
+Activada
+@@ app.rate
+Valorar la app
+@@ app.rate.hint
+Si te está ayudando, una valoración nos ayuda un montón
+@@ ach.title
+Logros
+@@ ach.counter
+de {0} desbloqueados
+@@ ach.first-step.t
+Primer paso
+@@ ach.first-step.d
+Abre tu primera lección de euskera. Aupa!
+@@ ach.first-completed.t
+Primera lección completada
+@@ ach.first-completed.d
+Termina una lección entera por primera vez.
+@@ ach.first-unit.t
+Primera unidad
+@@ ach.first-unit.d
+Completa todas las lecciones de tu primera unidad.
+@@ ach.first-level.t
+Nivel superado
+@@ ach.first-level.d
+Completa todas las lecciones del nivel A1.
+@@ ach.first-export.t
+Memory card en mano
+@@ ach.first-export.d
+Exporta tu progreso por primera vez.
+@@ ach.first-import.t
+Reanudación
+@@ ach.first-import.d
+Restaura tu progreso desde una memory card.
+@@ ach.streak-3.t
+Constancia: 3 días
+@@ ach.streak-3.d
+Estudia 3 días seguidos.
+@@ ach.streak-7.t
+Constancia: 7 días
+@@ ach.streak-7.d
+Una semana entera estudiando sin saltarte un día.
+@@ ach.streak-14.t
+Constancia: 14 días
+@@ ach.streak-14.d
+Dos semanas seguidas con el euskera.
+@@ ach.streak-30.t
+Constancia: 30 días
+@@ ach.streak-30.d
+Un mes entero. Eso ya es hábito.
+@@ ach.volume-10.t
+10 lecciones
+@@ ach.volume-10.d
+Completa 10 lecciones (de cualquier unidad).
+@@ ach.volume-25.t
+25 lecciones
+@@ ach.volume-25.d
+Completa 25 lecciones. Ya estás en marcha.
+@@ ach.volume-50.t
+50 lecciones
+@@ ach.volume-50.d
+Completa 50 lecciones. Vaya ritmo.
+@@ ach.volume-a1-complete.t
+A1 completo
+@@ ach.volume-a1-complete.d
+Completa todas las lecciones del nivel A1.
+@@ ach.curiosity-about.t
+Vista al taller
+@@ ach.curiosity-about.d
+Visita la página "Sobre el proyecto".
+@@ ach.curiosity-language.t
+Multilingüe en potencia
+@@ ach.curiosity-language.d
+Abre el selector de idioma.
+@@ ach.unlocked
+Desbloqueado: {0}
+@@ ach.unlocked.short
+Desbloqueado
+@@ ach.f.all
+Todos
+@@ ach.f.milestone
+Hitos
+@@ ach.f.mastery
+Maestría
+@@ ach.f.streak
+Constancia
+@@ ach.f.volume
+Volumen
+@@ progress.unit.done
+Completada
+@@ fb.err.disabled
+El sistema de tickets está temporalmente desactivado. Inténtalo más tarde.
+@@ fb.email.ph
+tu@email.com
+@@ fb.discord.ph
+tunick
+@@ fb.contact.note
+Te avisaremos cuando se resuelva. Si lo dejas en blanco, queda anónimo.
+@@ fb.honeypot
+Website (déjalo vacío)
+@@ gate.eyebrow
+Próximamente
+@@ gate.title
+Nivel <span class="text-grad">{0}</span>, en preparación
+@@ gate.desc
+Estamos preparando este nivel y lo abriremos cuando esté revisado.
+@@ gate.pwd.label
+Contraseña de revisión
+@@ gate.pwd.ph
+Contraseña
+@@ gate.checking
+Comprobando…
+@@ gate.unlock
+Desbloquear
+@@ gate.error
+Contraseña incorrecta.
+@@ gate.foot
+Mientras tanto, puedes seguir con <a href="/{0}/a1/">A1</a> y <a href="/{0}/a2/">A2</a>, ya completos.
+@@ gate.reviewer
+¿Eres revisor?
+@@ gate.back
+Volver
+@@ unit.eyebrow
+Lecciones
+@@ unit.start
+Empieza por la primera
+@@ a11y.unit.nav
+Navegación entre unidades
+@@ a11y.lesson.nav
+Navegación entre lecciones
+@@ a11y.unit.lessons
+Lecciones de la unidad
+@@ a11y.menu
+Menú móvil
+@@ progress.units.empty
+Aún no hay unidades activas en este nivel.
+@@ a11y.units.list
+Lista de unidades con progreso
+@@ progress.path
+Tu camino
+@@ a11y.ach.filter
+Filtrar logros por categoría
+@@ home.cefr
+Marco común europeo
+@@ home.levels.title
+Seis niveles. <span class="text-grad">Una ruta.</span>
+@@ about.intro
+Este es un proyecto personal de aprendizaje colaborativo: aprender euskera enseñándolo. Lo que voy aprendiendo, lo voy publicando aquí, ordenado por niveles del MCER (A1 → C2). Es gratis, sin login, sin ads, y siempre lo será.
+@@ about.phil.title
+Filosofía
+@@ about.phil.free
+<strong>Gratis</strong> y sin paywalls.
+@@ about.phil.nologin
+<strong>Sin login</strong>. Tu progreso vive en tu navegador y lo puedes exportar.
+@@ about.phil.noads
+<strong>Sin ads</strong>. Sin tracking. Sin patrones oscuros.
+@@ about.phil.opendata
+<strong>Datos abiertos</strong>: las lecciones son archivos Markdown; cualquiera puede clonarlas, forkearlas o auto-hostearlas.
+@@ about.phil.eternal
+<strong>Eterno</strong>: el código es estático. Aunque desaparezca el mantenedor, el repo sigue vivo y cualquier persona puede continuarlo.
+@@ about.sources.title
+Fuentes
+@@ about.license.code
+Código: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE" rel="noopener">MIT</a>.
+@@ about.license.content
+Contenido: <a href="https://github.com/Crinlorite/euskera-static/blob/main/LICENSE-CONTENT" rel="noopener">CC BY-SA 4.0</a> — libre para usar, compartir y adaptar con atribución y bajo la misma licencia.
+@@ about.contribute.title
+Contribuir
+@@ about.contribute.body
+¿Detectaste un error? ¿Tienes ideas? Abre un issue o un PR en <a href="https://github.com/Crinlorite/euskera-static" rel="noopener">GitHub</a>. Las traducciones a otros idiomas son especialmente bienvenidas.
+@@ priv.title
+Política de privacidad
+@@ priv.updated
+Última actualización: 8 de octubre de 2026
+@@ priv.intro
+Esta política describe cómo <strong>Crintech Studios</strong> ("nosotros") trata la información cuando usas <em>Kaixo</em>, ya sea en la web <a href="https://euskera.crintech.pro" rel="noopener">euskera.crintech.pro</a>, en la aplicación para iOS (App Store) o en la aplicación Android (Google Play) — en adelante, "el Servicio".
+@@ priv.s1.title
+1. Información que recogemos
+@@ priv.s1.intro
+Kaixo está diseñada para no recoger información personal:
+@@ priv.s1.li1
+<strong>Sin cuentas.</strong> No necesitas registrarte ni iniciar sesión. No te pedimos nombre, email, teléfono ni ningún otro dato identificativo.
+@@ priv.s1.li2
+<strong>Sin analítica ni tracking.</strong> No usamos Google Analytics, Cloudflare Web Analytics, Plausible, Umami, Meta Pixel ni ningún SDK de terceros para medir audiencia, generar perfiles o mostrar publicidad.
+@@ priv.s1.li3
+<strong>Sin fingerprinting.</strong> No usamos huellas digitales del navegador ni técnicas de tracking entre sitios.
+@@ priv.s1.li4
+<strong>Sin publicidad.</strong> El Servicio es gratuito y libre de anuncios.
+@@ priv.s2.title
+2. Almacenamiento local en tu dispositivo
+@@ priv.s2.p1
+Tu progreso vive únicamente en el navegador o en la app, usando <code>localStorage</code>. Esto incluye: lecciones completadas, ejercicios acertados, logros desbloqueados, idioma seleccionado, estado del Modo Expedición y la marca de paso por la página "Sobre".
+@@ priv.s2.p2
+<strong>Por defecto, estos datos nunca salen de tu dispositivo</strong>. No los enviamos a ningún servidor. Si te cambias de dispositivo, puedes exportar tu progreso como un código que pegas en el nuevo dispositivo para restaurarlo — tú decides cuándo y dónde compartirlo.
+@@ priv.s2.p3
+Al ser estrictamente necesarias para que la aplicación funcione, este tipo de almacenamiento no requiere banner de consentimiento bajo la Directiva ePrivacy europea ni las guías de la AEPD.
+@@ priv.s3.title
+3. Hosting y conexiones de red
+@@ priv.s3.p1
+La web y los archivos estáticos de la app se sirven desde <strong>Cloudflare Pages</strong>. Como cualquier servidor web, Cloudflare registra peticiones HTTP que pueden incluir IP, fecha y user agent, con el fin exclusivo de proteger el Servicio (mitigación de abuso, CDN, métricas agregadas de tráfico). No tenemos acceso a estos registros individualmente y no los enlazamos con ninguna identidad. Puedes consultar su política en <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a>.
+@@ priv.s3.p2
+La aplicación para iOS es un contenedor ligero que carga la misma web dentro de un <strong>WebView</strong> del sistema; la aplicación Android es un <strong>Trusted Web Activity (TWA)</strong> equivalente sobre Chrome. En ningún caso se envían datos adicionales por usar la app en vez de la web.
+@@ priv.s4.title
+4. Servicios de terceros
+@@ priv.s4.intro
+El Servicio no integra ningún SDK ni servicio de terceros que reciba datos personales. Las únicas conexiones salientes son:
+@@ priv.s4.li1
+<strong>Tipografías</strong> Manrope y Fraunces, auto-hospedadas desde el mismo dominio (no Google Fonts).
+@@ priv.s4.li2
+<strong>GitHub</strong> únicamente si haces clic en un enlace al repositorio. La visita queda sujeta a la <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" rel="noopener">política de GitHub</a>.
+@@ priv.s4.li0
+<strong>iCloud (Apple) o el servicio equivalente de Google</strong>, <em>solo si activas la sincronización opcional del progreso</em>: la copia va a tu propia cuenta, nunca a un servidor nuestro.
+@@ priv.s4.li3
+<strong>App Store</strong> únicamente para la descarga e instalación de la app de iOS, sujeta a la política de Apple.
+@@ priv.s4.li4
+<strong>Google Play</strong>, únicamente para su descarga e instalación, sujeta a la política de Google.
+@@ priv.s5.title
+5. Sistema de feedback
+@@ priv.s5.intro
+Si nos envías un reporte a través de la página de <a href="/{0}/feedback/">Feedback</a>, recogemos los siguientes datos en nuestro backend (no en tu dispositivo):
+@@ priv.s5.li1
+<strong>Obligatorios:</strong> título y descripción del reporte (lo que tú escribes), tipo (bug / sugerencia / etc.).
+@@ priv.s5.li2
+<strong>Opcionales:</strong> email y/o nombre de Discord, únicamente si tú decides escribirlos en los campos correspondientes para que podamos responderte. Si los dejas vacíos, no se recoge ningún identificador.
+@@ priv.s5.li3
+<strong>Técnicos:</strong> la URL relativa de la página desde la que se envió y un fragmento del user agent (máximo 200 caracteres), para reproducir bugs.
+@@ priv.s5.li4
+<strong>Anti-bot:</strong> un token de <a href="https://www.cloudflare.com/products/turnstile/" rel="noopener">Cloudflare Turnstile</a> emitido por Cloudflare, que verifica que no eres un bot. Se descarta inmediatamente tras la validación.
+@@ priv.s5.outro
+Estos datos se usan únicamente para gestionar el ticket y, si nos has dejado contacto, para responderte. No los compartimos con terceros y puedes pedir su borrado en cualquier momento escribiéndonos al correo más abajo.
+@@ priv.s6.title
+6. Personas menores de edad
+@@ priv.s6.body
+Kaixo no está dirigida específicamente a personas menores de 13 años, ni recoge datos sobre ellas. No usamos pasarelas de identificación de edad precisamente porque no necesitamos ningún dato personal.
+@@ priv.s7.title
+7. Tus derechos (RGPD)
+@@ priv.s7.body
+Como no almacenamos datos personales identificables en nuestros sistemas, los derechos clásicos de acceso, rectificación, supresión, oposición, portabilidad y limitación se ejercen en la práctica desde el propio dispositivo: borrando los datos del navegador o desinstalando la app. Aun así, si tienes cualquier consulta o crees que algún dato te concierne, puedes escribirnos.
+@@ priv.s8.title
+8. Cambios a esta política
+@@ priv.s8.body
+Si esta política cambia (por ejemplo, si en el futuro añadiéramos algún servicio adicional), actualizaremos la fecha en la parte superior y, si el cambio fuese material, lo anunciaríamos también en la home y en las notas de versión del repositorio.
+@@ priv.s9.title
+9. Contacto
+@@ fbp.eyebrow
+Tickets
+@@ fbp.title
+Hay algo que <span class="text-grad">contar</span>.
+@@ fbp.lead
+Bugs, sugerencias, errores en una lección, traducciones que cojean, dudas concretas. Lo que sea. Cada ticket nos llega y se gestiona desde nuestro Discord.
+@@ fbp.how.title
+¿Cómo funciona?
+@@ fbp.how.li1
+Eliges la categoría que mejor describe el asunto.
+@@ fbp.how.li2
+Lo describes con el detalle que tengas — pasos, capturas mentales, contexto.
+@@ fbp.how.li3
+Si quieres respuesta, dejas email o usuario de Discord.
+@@ fbp.how.li4
+Recibes un ID público. Si dejaste contacto, te avisamos cuando lo cerramos.
+@@ fbp.note
+No hay backend de cuentas. No guardamos historiales ligados a ti. El ID que recibes es lo único que necesitas para seguir el ticket.
+@@ fb.ok.email
+Te avisaremos por email cuando lo trabajemos.
+@@ fb.ok.discord
+Te avisaremos por mensaje directo en Discord.
+@@ fb.ok.save
+Guarda este ID si quieres seguir el progreso.
+@@ fb.ok.thread
+Abrir hilo en Discord
+@@ levels.available
+Disponible
+@@ lang.available
+Disponibles
+@@ lang.peninsular
+Peninsulares
+@@ lang.horizon
+En el horizonte
+@@ footer.project
+Proyecto
+@@ footer.feedback
+Reportar / Feedback
+@@ footer.privacy
+Privacidad
+@@ footer.licenses
+Licencias
+@@ footer.code
+Código
+@@ footer.content
+Contenido
+@@ curriculum.eyebrow
+Currículum
+@@ curriculum.title
+Lo que vas a saber
+@@ curriculum.hint
+{0} puntos · pulsa para ver
+@@ fb.legend
+Tipo de ticket
+@@ fb.cat.bug
+Algo no funciona
+@@ fb.cat.bug.d
+Bug en la web
+@@ fb.cat.idea
+Sugerencia
+@@ fb.cat.idea.d
+Idea o mejora
+@@ fb.cat.q
+Pregunta
+@@ fb.cat.q.d
+¿Cómo funciona X?
+@@ fb.cat.tr
+Traducción
+@@ fb.cat.tr.d
+Error en el texto de UI
+@@ fb.cat.content
+Contenido
+@@ fb.cat.content.d
+Error en una lección
+@@ fb.title
+Título
+@@ fb.title.ph
+Resume el asunto en una frase
+@@ fb.desc
+Descripción
+@@ fb.desc.ph
+Pasos para reproducir, lo que esperabas, lo que pasó…
+@@ fb.email
+Email
+@@ fb.discord
+Usuario Discord
+@@ fb.optional
+(opcional)
+@@ fb.err.title
+El título debe tener al menos 5 caracteres.
+@@ fb.err.desc
+La descripción debe tener al menos 20 caracteres.
+@@ fb.err.captcha
+Completa la verificación anti-bot.
+@@ fb.err.send
+No se pudo enviar el ticket.
+@@ fb.err.net
+Error de red.
+@@ fb.sending
+Enviando…
+@@ fb.send
+Enviar ticket
+@@ fb.again
+Enviar otro
+@@ fb.ok.sub
+Tu ticket queda registrado.
+@@ fb.ok.id
+Identificador del ticket
+@@ sim.loading
+Preparando el simulakro…
+@@ sim.seed
+cada semilla es un examen distinto. Guarda la URL para repetir (o retar a alguien con) exactamente este.
+@@ sim.tbl.what
+Qué hay
+@@ sim.tbl.points
+Puntos
+@@ sim.tbl.r1
+1 audio (2 escuchas), 4 preguntas
+@@ sim.tbl.r2
+2 textos, 6 preguntas
+@@ sim.tbl.r3
+8 ejercicios + tarjetas + 2 de emparejar
+@@ sim.tbl.r4
+2 tareas con corrección automática
+@@ sim.tbl.total
+45-60 min, sin diccionario
+@@ sim.note
+Sin examinador no hay mintzamena: lee los textos en voz alta al acabar y grábate con el móvil. Y recuerda: A1 y A2 se acreditan en el euskaltegi por evaluación continua — el primer examen de convocatoria es el B1 de HABE.
+@@ sim.play.playing
+🔊 Sonando…
+@@ sim.play.out
+Escuchas agotadas
+@@ sim.play.hint
+Como en el examen real: {0} escuchas. Lee antes las preguntas.
+@@ sim.write.points
+5 puntos
+@@ sim.write.rubric
+Corrección automática — se actualiza mientras escribes (1 punto por check):
+@@ sim.verdict.title
+Nota
+@@ sim.verdict.pending
+Te quedan {0} ejercicios por responder. Llevas {1} puntos ({2} automáticos + {3} de escritura).
+@@ sim.verdict.ok
+A1 sendoa. Genera otro con el botón de abajo y confírmalo — y si también lo pasas, empieza el A2 esta semana. En serio.
+@@ sim.verdict.mid
+Aprobado con lagunas — abajo tienes exactamente cuáles repasar. Repásalas y genera otro simulacro.
+@@ sim.verdict.low
+Sin drama: repasa las unidades de abajo con calma y en dos semanas generas otro. El examen no se te escapa: se aplaza.
+@@ sim.verdict.units
+Unidades a repasar (fallos de gramática):
+@@ sim.fail.one
+1 fallo
+@@ sim.fails
+{0} fallos
+@@ sim.verdict.read
+vuelve a leer los textos DESPACIO y busca la frase exacta de cada respuesta.
+@@ sim.verdict.listen
+abre la transcripción y vuelve a escuchar siguiéndola con el dedo.
+@@ gym.how
+Cómo funciona: escucha la frase con la voz nativa → grábate diciéndola → tu propio dispositivo comprueba qué palabras se han entendido.
+@@ gym.first
+Primera vez: descarga el motor (~40 MB, una sola vez). Mide si se te entiende — el acento fino es cosa tuya y del oído 😉. Función Beta.
+@@ gym.start
+Preparar el gimnasio
+@@ gym.load.download
+Descargando el motor (una sola vez, ~40 MB)…
+@@ gym.load.start
+Arrancando el motor en tu dispositivo…
+@@ gym.mirror
+Puedes practicar igual en modo espejo: escucha la referencia y grábate con la app de notas de voz del móvil para compararte.
+@@ gym.retry
+Reintentar
+@@ gym.counter
+Frase {0} / {1}
+@@ gym.ref
+Referencia
+@@ gym.rec
+Grabar
+@@ gym.again
+Otra vez
+@@ gym.stop
+Parar
+@@ gym.analyzing
+Analizando…
+@@ gym.mine
+Mi voz
+@@ gym.score
+{0}/{1} palabras reconocidas
+@@ gym.heard
+Se ha oído: «{0}»
+@@ gym.next
+Siguiente frase →
+@@ gym.reshuffle
+Otras 10
+@@ gym.v.all
+¡Redondo! Se te ha entendido TODO.
+@@ gym.v.most
+Muy bien — se te entiende. Pulir lo marcado y otra vez.
+@@ gym.v.some
+Se entiende una parte. Escucha la referencia y repite despacio.
+@@ gym.v.none
+El micro no ha pillado la frase — acércate, habla claro y prueba de nuevo.
+@@ gym.err.mic.none
+No se ha encontrado ningún micrófono en este dispositivo.
+@@ gym.err.mic.denied
+No hay acceso al micrófono (permiso denegado en el navegador).
+@@ gym.err.analyze
+No se pudo analizar: {0}
+@@ gym.err.short
+grabación demasiado corta
+@@ exercise.done
+Resuelto
+@@ exercise.redo
+Repetir
+@@ app.title
+Descarga la app
+@@ site.name
+Euskera
+@@ site.tagline
+Aprende euskera, gratis y para todos.
+@@ site.description
+Curso de euskera desde cero, gratis: niveles A1 y A2 completos, cada lección en euskera y castellano, con voz real y ejercicios. Sin cuentas ni anuncios.
+@@ hiz.title
+Hiztegia
+@@ hiz.sub
+El vocabulario del curso, palabra a palabra
+@@ hiz.lead
+Todo sale de las lecciones de Kaixo: nada está inventado. Está en beta, así que si ves algo que no cuadra, dínoslo.
+@@ hiz.usage
+Cómo se usa
+@@ hiz.learn
+Apréndela en contexto
+@@ hiz.same
+De la misma lección
+@@ hiz.words
+palabras
+@@ hiz.noexample
+Todavía no tenemos una frase de ejemplo escrita para esta palabra. No nos la vamos a inventar.
+@@ hiz.themes
+Temas
+@@ hiz.az
+Todas las palabras
+@@ hiz.lesson
+Lo enseña la lección
+@@ nav.home
+Inicio
+@@ nav.levels
+Niveles
+@@ nav.about
+Sobre
+@@ nav.language
+Idioma
+@@ nav.progress
+Progreso
+@@ home.hero.title
+Aprende euskera
+@@ home.hero.sub
+Gratis · Sin login · Para todos
+@@ home.cta.start
+Empezar por el A1
+@@ levels.upcoming
+Próximamente
+@@ unit.lessons
+Lecciones
+@@ unit.estimated
+Tiempo estimado
+@@ lesson.next
+Siguiente
+@@ lesson.prev
+Anterior
+@@ lesson.completed
+Lección completada
+@@ lesson.read
+Leída
+@@ progress.streak.days
+días seguidos
+@@ progress.summary.lessons
+lecciones empezadas
+@@ progress.summary.record
+récord
+@@ progress.export.title
+Guardar mi progreso
+@@ progress.export.copy
+Copiar al portapapeles
+@@ progress.export.download
+Descargar archivo
+@@ progress.export.share
+Compartir
+@@ progress.export.help
+Pega esto en tus notas o mándatelo a ti mismo. Cuando vuelvas en otro dispositivo, pégalo en "Restaurar progreso" y seguirás donde lo dejaste.
+@@ progress.import.title
+Restaurar progreso
+@@ progress.import.do
+Importar
+@@ progress.import.invalid
+No reconozco este código. ¿Lo copiaste completo?
+@@ progress.import.overwrite
+Esto sobrescribirá tu progreso actual. ¿Continuar?
+@@ progress.import.outdated
+Este código es de una versión más reciente. Actualiza la página.
+@@ progress.import.skipped
+Restaurado. Algunas lecciones ya no existen y se han saltado.
+@@ guest.banner
+Modo invitado: tu progreso solo dura esta sesión. Exporta antes de cerrar.
+@@ lang.choose
+Elige tu idioma
+@@ lang.beta
+Beta
+@@ lang.upcoming
+Próximamente · ayúdanos en GitHub
+@@ lang.help-translate
+¿Hablas este idioma? Ayúdanos a traducir
+@@ about.title
+Sobre el proyecto
+@@ beta.banner
+Esta traducción está en beta: puede haber frases sin traducir o erratas.
+@@ beta.report
+Reportar en Feedback
+@@ common.cancel
+Cancelar
+@@ common.continue
+Continuar
+@@ common.close
+Cerrar
+@@ common.copy
+Copiar
+@@ common.download
+Descargar
+@@ common.check
+Comprobar
+@@ common.skip
+Saltar
+@@ common.skip-content
+Saltar al contenido
+@@ exercise.correct
+¡Correcto!
+@@ exercise.was
+Era:
+@@ exercise.match.help
+Empareja cada palabra con su traducción.
+@@ exercise.match.mistakes
+Errores: {0}
+@@ exercise.flash.counter
+Tarjeta {0} de {1}
+@@ exercise.flash.reveal
+(toca para ver traducción)
+@@ exercise.flash.hide
+(toca para ocultar)
+@@ exercise.flash.learning
+Lo aprendo
+@@ exercise.flash.known
+Lo sabía
+@@ exercise.flash.round
+Ronda terminada: sabías {0} de {1}.
+@@ sources.statement
+El currículum sigue los estándares CEFR oficiales para los niveles A1-C2 del euskera. Las explicaciones, ejemplos y ejercicios son material original. Vocabulario y reglas gramaticales son hechos lingüísticos de dominio público.

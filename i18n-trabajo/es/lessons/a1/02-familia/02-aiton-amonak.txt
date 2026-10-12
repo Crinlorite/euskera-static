@@ -1,0 +1,58 @@
+@@ title
+Aiton-amonak (abuelos)
+@@ x0.card0
+abuelo
+@@ x0.card1
+abuela
+@@ x0.card2
+los abuelos
+@@ x0.card3
+nieto/a
+@@ x0.card4
+los nietos
+@@ x1.prompt
+Mis abuelos = nire ___.
+@@ x1.explanation
+"Aiton-amonak" combina aitona + amona en plural — convención frecuente en euskera para parejas.
+@@ x2.prompt
+"Biloba" es...
+@@ x2.explanation
+"Biloba" es nieto/nieta. No tiene marca de género.
+@@ x2.opt0
+el sobrino
+@@ x2.opt1
+el nieto
+@@ x2.opt2
+el primo
+@@ x2.opt3
+el suegro
+@@ body
+
+Los abuelos en euskera son **aitona** (abuelo) y **amona** (abuela). En plural, se prefiere la forma combinada **aiton-amonak**, que significa "abuelos" (los dos juntos).
+
+## Vocabulario
+
+| Euskera | Castellano |
+|---|---|
+| *aitona* | abuelo |
+| *amona* | abuela |
+| *aiton-amonak* | los abuelos (ambos) |
+| *biloba* | nieto/nieta |
+| *bilobak* | los nietos |
+
+## El patrón "X-Y-ak"
+
+El euskera tiene una forma elegante de hablar de parejas/grupos del mismo tipo combinando ambos términos en plural:
+
+- **anai-arrebak** — hermanos y hermanas
+- **aiton-amonak** — abuelos
+- **seme-alabak** — hijos e hijas
+
+> Cuando quieras decir "mis abuelos vinieron a casa", basta con **Nire aiton-amonak etxera etorri ziren** — sin tener que decir "abuelo y abuela".
+
+## Frases útiles
+
+- *Nire aitona Ekaitz da.* — Mi abuelo es Ekaitz.
+- *Amona oso atsegina da.* — La abuela es muy amable.
+- *Bi biloba ditu.* — Tiene dos nietos.
+

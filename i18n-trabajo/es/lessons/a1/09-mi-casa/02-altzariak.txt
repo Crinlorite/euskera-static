@@ -1,0 +1,128 @@
+@@ title
+Muebles y objetos de la casa
+@@ x0.pair4
+sofá
+@@ x0.pair5
+televisión
+@@ x1.prompt
+¿En qué habitación está el "hozkailua"?
+@@ x1.explanation
+"Hozkailua" (nevera) está siempre en la cocina (sukaldean).
+@@ x2.prompt
+"Gau-mahaia" significa…
+@@ x2.explanation
+"Gau" = noche, "mahaia" = mesa. Literalmente "mesa de noche".
+@@ x2.opt0
+mesa de comedor
+@@ x2.opt1
+mesa de trabajo
+@@ x2.opt2
+mesilla de noche
+@@ x2.opt3
+mesa baja
+@@ x3.prompt
+Tengo dos camas en mi casa = Bi ohe ___ etxean.
+@@ x3.explanation
+"Ditut" = "yo tengo (varias cosas)" — verbo "ukan" con objeto plural.
+@@ x4.card0
+mueble
+@@ x4.card1
+mesa
+@@ x4.card2
+silla
+@@ x4.card3
+sillón / butaca
+@@ x4.card4
+sofá
+@@ x4.card5
+cama
+@@ x4.card6
+mesilla de noche
+@@ x4.card7
+armario
+@@ x4.card8
+estantería
+@@ x4.card9
+lámpara
+@@ x4.card10
+cojín
+@@ x4.card11
+televisión
+@@ x4.card12
+ordenador
+@@ x4.card13
+nevera
+@@ x4.card14
+horno
+@@ x4.card15
+microondas
+@@ x4.card16
+lavadora
+@@ x4.card17
+espejo
+@@ x4.card18
+ducha
+@@ x4.card19
+bañera
+@@ body
+
+Cada habitación tiene su mobiliario. La palabra general para "mueble" es **altzaria** (en plural *altzariak*). Vamos a recorrer la casa por gelas.
+
+## Egongelan — En el salón
+
+| Euskera | Castellano |
+|---|---|
+| *sofa* | sofá |
+| *besaulkia* | sillón / butaca |
+| *mahaia* | mesa |
+| *aulkia* | silla |
+| *kuxina* | cojín |
+| *lanpara* | lámpara |
+| *telebista* | televisión |
+| *apalategia* | estantería |
+
+## Logelan — En el dormitorio
+
+| Euskera | Castellano |
+|---|---|
+| *ohea* | cama |
+| *gau-mahaia* | mesilla de noche |
+| *armairua* | armario |
+| *iratzargailua* | despertador |
+| *ordenagailua* | ordenador |
+| *posterra* | póster |
+
+## Sukaldean — En la cocina
+
+| Euskera | Castellano |
+|---|---|
+| *hozkailua* | nevera |
+| *labea* | horno |
+| *mikrouhina* | microondas |
+| *garbigailua* | lavadora |
+| *ontzi-garbigailua* | lavavajillas |
+| *zartagina* | sartén |
+| *edalontzia* | vaso |
+| *koilara / sardexka / labana* | cuchara / tenedor / cuchillo |
+
+## Komunean — En el baño
+
+| Euskera | Castellano |
+|---|---|
+| *dutxa* | ducha |
+| *bainuontzia* | bañera |
+| *konketa* | lavabo |
+| *ispilua* | espejo |
+| *eskuoihala* | toalla |
+| *komuneko papera* | papel higiénico |
+
+## Cómo combinarlo en una frase
+
+Recuerda lo que ya sabes de **ukan** (tener) y aplícalo:
+
+- *Sukaldean hozkailu bat dut.* — En la cocina tengo una nevera.
+- *Egongelan bi besaulki ditugu.* — En el salón tenemos dos sillones.
+- *Logelan ez dut posterrik.* — En el dormitorio no tengo pósters. *(negación con `-rik`)*
+
+> **Nota:** *garbigailua* (lavadora) y *ontzi-garbigailua* (lavavajillas) comparten la raíz *garbi-* (limpiar). Es un buen ejemplo de cómo el euskera construye palabras compuestas muy transparentes.
+

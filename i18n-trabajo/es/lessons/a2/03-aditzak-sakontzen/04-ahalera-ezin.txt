@@ -1,0 +1,194 @@
+@@ title
+Ahalera y ezin — poder y no poder
+@@ x0.prompt
+"Etor zaitezke?" significa…
+@@ x0.explanation
+*Zaitezke* es la forma de *zaitez* en ahalera = "puedes (intransitivo)". *Etor zaitezke* = ¿puedes venir?
+@@ x0.opt0
+¿Vienes?
+@@ x0.opt1
+¿Puedes venir?
+@@ x0.opt2
+¿Has venido?
+@@ x0.opt3
+¿Vendrás?
+@@ x1.prompt
+"Ezin dut joan" da…
+@@ x1.explanation
+*Ezin* + verbo + auxiliar = no poder. *Ezin dut joan* = no puedo ir.
+@@ x1.opt0
+No voy
+@@ x1.opt1
+No puedo ir
+@@ x1.opt2
+No iré
+@@ x1.opt3
+No he ido
+@@ x2.prompt
+Puedo hacer esto = Hau egin ___ .
+@@ x2.explanation
+*Dezaket* = "yo lo puedo (NOR-NORK ahalera)".
+@@ x3.card0
+puedo (lo) [NOR-NORK]
+@@ x3.card1
+puedes (lo)
+@@ x3.card2
+puede (lo)
+@@ x3.card3
+podemos (lo)
+@@ x3.card4
+pueden (lo)
+@@ x3.card5
+puedo (NOR; ir, venir, estar)
+@@ x3.card6
+puedes (NOR)
+@@ x3.card7
+puede (NOR)
+@@ x3.card8
+podemos (NOR)
+@@ x3.card9
+pueden (NOR)
+@@ x3.card10
+no puedo (NOR-NORK)
+@@ x3.card11
+no puedo (NOR)
+@@ x3.card12
+¿puedes? (variante coloquial)
+@@ x4.pair0
+¿Puedes venir?
+@@ x4.pair2
+No puedo venir
+@@ x4.pair3
+No podía ir
+@@ x4.pair4
+¿Puedes ayudar?
+@@ x4.pair5
+No se puede saber
+@@ body
+
+Para decir "puedo / puede / podemos" en euskera tienes dos opciones, una **formal** (ahalera con auxiliar especial) y una **coloquial** (*ahal* con auxiliar normal). En A2 te conviene reconocer las dos.
+
+Para "no poder" hay además una palabra dedicada: **ezin**.
+
+## Opción 1: la forma coloquial — *ahal*
+
+La más sencilla y la que más oirás:
+
+> **partizipioa + ahal + auxiliar**
+
+| Castellano | Euskera |
+|---|---|
+| ¿Puedes venir? | *Etorri **ahal zara**?* |
+| ¿Puedo entrar? | *Sartu **ahal naiz**?* |
+| ¿Me puedes ayudar? | *Lagundu **ahal didazu**?* |
+| ¿Podemos hablar contigo? | *Hitz egin **ahal dugu** zurekin?* |
+
+> En registro escrito o más formal aparece **ahal izan**: *etorri ahal izango da*, *jakin ahal izan dut*. En el habla viva *ahal* + auxiliar funciona.
+
+## Opción 2: la ahalera "verdadera" — *dezaket / naiteke*
+
+Es la forma sintética del modo potencial. Tiene dos series, según el verbo sea transitivo o intransitivo.
+
+### Verbos transitivos (NOR-NORK): *dezaket*
+
+| Pronombre | Forma | Castellano |
+|---|---|---|
+| nik | **dezaket** | yo lo puedo |
+| zuk | **dezakezu** | tú lo puedes |
+| hark | **dezake** | él/ella lo puede |
+| guk | **dezakegu** | nosotros lo podemos |
+| zuek | **dezakezue** | vosotros lo podéis |
+| haiek | **dezakete** | ellos lo pueden |
+
+> **partizipioa sin terminación + dezaket**: *egin → egin dezaket*, *idatzi → idatz dezaket*, *jan → jan dezaket*.
+
+### Verbos intransitivos (NOR): *naiteke*
+
+| Pronombre | Forma | Castellano |
+|---|---|---|
+| ni | **naiteke** | yo puedo |
+| zu | **zaitezke** | tú puedes |
+| hura | **daiteke** | él/ella puede |
+| gu | **gaitezke** | nosotros podemos |
+| zuek | **zaitezkete** | vosotros podéis |
+| haiek | **daitezke** | ellos pueden |
+
+> *Etor naiteke?* — ¿Puedo venir?
+>
+> *Joan zaitezke?* — ¿Puedes ir?
+>
+> *Hori egia izan daiteke.* — Eso puede ser cierto.
+
+## La fórmula sintética
+
+| Tipo | Estructura | Ejemplo |
+|---|---|---|
+| Transitivo | partizipio (sin terminación final típica) + *dezaket* etc. | *Liburua **irakur dezakezu*** (puedes leer el libro) |
+| Intransitivo | partizipio + *naiteke* etc. | *Etor **zaitezke**?* (¿puedes venir?) |
+
+> **Detalle ortográfico:** en la ahalera, el partizipio aparece "recortado" en algunos verbos: *jan → jan*, *egin → egin*, *irakurri → irakur*, *ikusi → ikus*, *etorri → etor*. La terminación -i final cae. Es una marca formal típica.
+
+## *Ezin* — no poder
+
+La negación de la ahalera tiene su propia palabra: **ezin**.
+
+> **ezin + partizipioa + auxiliar**
+
+| Castellano | Euskera |
+|---|---|
+| No puedo venir | *Ezin **dut etorri*** (NOR-NORK) o *Ezin **naiz etorri*** (NOR) |
+| No puedo ir | *Ezin naiz joan* |
+| No puedes hacer eso | *Ezin duzu hori egin* |
+| No podía dormir | *Ezin nuen lo egin* |
+| No se puede saber | *Ezin da jakin* |
+| No podemos esperar | *Ezin dugu itxaron* |
+
+> *Ezin* sigue al sujeto y va seguido del partizipio + auxiliar. Es muy productivo.
+
+## En pasado: *nezakeen / nintekeen / ezin nuen*
+
+| Forma | Significado |
+|---|---|
+| **nezakeen** | yo lo podía (potencial pasado) |
+| **zezakeen** | él lo podía |
+| **nintekeen** | yo podía (NOR pasado) |
+| **ezin nintzen** | no podía (NOR) |
+| **ezin nuen** | no podía (NOR-NORK) |
+
+> *Atzo ezin nintzen joan, gaixorik nengoen.* — Ayer no podía ir, estaba enfermo.
+
+## Modal vs auxiliar: tres formas de "puedes hacerlo"
+
+1. **Coloquial:** *Egin ahal duzu.* — La más natural en habla.
+2. **Sintética:** *Egin dezakezu.* — Más formal o escrita.
+3. **Negativa con ezin:** *Ezin duzu egin.* — Para "no puedes hacerlo".
+
+Las tres conviven. En A2 produce las dos primeras y reconoce todas.
+
+## *Ahal izan* en otros tiempos
+
+| Castellano | Euskera |
+|---|---|
+| He podido ir | *Joan ahal izan naiz* |
+| Podré ir | *Joan ahal izango naiz* |
+| No he podido | *Ezin izan dut* |
+
+## Ejemplos cotidianos
+
+- *Lagundu ahal didazu, mesedez?* — ¿Me puedes ayudar?
+- *Bihar ezin naiz etorri.* — Mañana no puedo venir.
+- *Hau uler dezaket.* — Esto lo puedo entender.
+- *Ezin duzu hori egin.* — No puedes hacer eso.
+- *Goazen lasai, denbora dugu eta.* — Vamos tranquilos, que tenemos tiempo.
+- *Etxea bihar eros daiteke.* — La casa se puede comprar mañana.
+
+## Mini-diálogo
+
+> *— Anboto, **etor zaitezke** bihar afaltzera?*
+>
+> *— Tira, **ezin dut**: lan asko daukat eta berandu arte ezin naiz mugitu. Baina hurrengo astean **etor naiteke**, eta zer ekar **dezaket**?*
+>
+> *— **Ekar dezakezu** ardo botila bat, hori asko gustatzen zaigu.*
+
+> **Nota pedagógica:** en A2 lo más útil es manejar bien *ezin dut/naiz* para "no puedo" y *ahal duzu?* para preguntar. Las formas sintéticas (*dezaket, naiteke*) las irás integrando con la lectura. La unidad B1 las profundiza.
+

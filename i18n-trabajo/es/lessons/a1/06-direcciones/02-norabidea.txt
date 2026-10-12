@@ -1,0 +1,139 @@
+@@ title
+Direcciones en la calle
+@@ x0.pair0
+gira a la izquierda
+@@ x0.pair1
+gira a la derecha
+@@ x0.pair4
+sube las escaleras
+@@ x0.pair5
+baja la cuesta
+@@ x0.pair6
+vuelve atrás
+@@ x1.prompt
+¿Cómo dirías "gira a la izquierda en el semáforo"?
+@@ x1.explanation
+"Jo ezkerrera" (gira a la izquierda) + ubicación con "-an": "semaforoan" (en el semáforo).
+@@ x2.prompt
+"Zeharkatu" significa…
+@@ x2.explanation
+De "zehar" (a través). "Zeharkatu kalea / zebrabidea" = cruzar la calle / el paso de cebra.
+@@ x3.prompt
+Sigue recto = ___ aurrera.
+@@ x3.explanation
+"Segi aurrera" o "jarraitu aurrera" — ambos válidos para "sigue recto".
+@@ x4.prompt
+Quieres pedir indicaciones para llegar al hospital. ¿Qué dices?
+@@ x4.explanation
+"Non dago…?" pregunta dónde está; ideal para pedir indicaciones.
+@@ x5.card0
+izquierda
+@@ x5.card1
+derecha
+@@ x5.card2
+hacia delante
+@@ x5.card3
+hacia atrás
+@@ x5.card4
+gira a la izquierda
+@@ x5.card5
+gira a la derecha
+@@ x5.card6
+sigue recto
+@@ x5.card7
+continúa recto
+@@ x5.card8
+cruzar
+@@ x5.card9
+paso de cebra
+@@ x5.card10
+semáforo
+@@ x5.card11
+cruce
+@@ x5.card12
+carretera
+@@ x5.card13
+calle
+@@ x5.card14
+cuesta
+@@ x5.card15
+escaleras
+@@ x5.card16
+subir
+@@ x5.card17
+bajar
+@@ x5.card18
+cerca
+@@ x5.card19
+lejos
+@@ body
+
+Cuando alguien te pregunta cómo llegar a un sitio — o cuando te pierdes y preguntas tú — necesitas un puñado de verbos imperativos y de adverbios de dirección. En esta lección reunimos lo esencial.
+
+## Imperativos básicos
+
+En euskera, el imperativo afirmativo de los verbos de movimiento es muy directo:
+
+| Forma | Verbo base | Sentido |
+|---|---|---|
+| **Jo** | jo | golpea / dirige (jo ezkerrera = gira a la izquierda) |
+| **Segi** / **Jarraitu** | segitu / jarraitu | sigue, continúa |
+| **Hartu** | hartu | toma (hartu kale hau = toma esta calle) |
+| **Igo** | igo | sube |
+| **Jaitsi** | jaitsi | baja |
+| **Sartu** | sartu | entra |
+| **Irten** | irten | sal |
+| **Zeharkatu** | zeharkatu | cruza |
+| **Iritsi** / **heldu** | iritsi / heldu | llega (… arte = "hasta…") |
+
+> *Jo* literalmente significa "golpear", pero se usa metafóricamente como "dirigirse hacia": **jo ezkerrera** = "tira hacia la izquierda".
+
+## Adverbios y referencias direccionales
+
+| Euskera | Castellano |
+|---|---|
+| *ezkerra* | la izquierda |
+| *eskuina* | la derecha |
+| *aurrera* | hacia delante |
+| *atzera* | hacia atrás |
+| *zuzen* | recto, derecho |
+| *gora* | hacia arriba |
+| *behera* | hacia abajo |
+
+> Fíjate: para indicar **dirección hacia** se usa el sufijo `-ra` (que verás a fondo en la lección 03): *ezkerre-ra* (a la izquierda), *aurre-ra* (hacia delante), *atze-ra* (hacia atrás). Lo mismo para *gora*, *behera*.
+
+## Lugares de referencia típicos
+
+| Euskera | Castellano |
+|---|---|
+| *semaforoa* | semáforo |
+| *bidegurutzea* | cruce, intersección |
+| *zebrabidea* | paso de cebra |
+| *biribilgunea* / *errotonda* | rotonda |
+| *aldapa* | cuesta |
+| *eskailerak* | escaleras |
+| *zubia* | puente |
+| *errepidea* | carretera |
+| *kalea* | calle |
+
+## Frases tipo
+
+- **Jo ezkerrera bidegurutzean.** — Gira a la izquierda en el cruce.
+- **Segi aurrera semaforora arte.** — Sigue recto hasta el semáforo.
+- **Zeharkatu zebrabidea.** — Cruza el paso de cebra.
+- **Igo eskailerak eta sartu eraikinean.** — Sube las escaleras y entra en el edificio.
+- **Jaitsi aldapa, eta gero jo eskuinera.** — Baja la cuesta, y luego gira a la derecha.
+- **Egin atzera; gehiegi joan zara.** — Vuelve atrás; te has pasado.
+
+## Pedir y dar indicaciones
+
+> — *Barkatu, **non dago** udaletxea?* — Perdona, ¿dónde está el ayuntamiento?
+>
+> — ***Segi aurrera** semaforora arte. Han **jo eskuinera** eta **zeharkatu** plaza. Udaletxea elizaren ondoan dago.* — Sigue recto hasta el semáforo. Allí gira a la derecha y cruza la plaza. El ayuntamiento está al lado de la iglesia.
+>
+> — *Eta gertu **dago**?* — ¿Y está cerca?
+>
+> — *Bai, oso gertu. Bost minutu oinez.* — Sí, muy cerca. Cinco minutos a pie.
+
+> **Truco:** muchas indicaciones siguen un patrón fijo: imperativo (*jo*, *segi*, *zeharkatu*) + lugar con sufijo (*ezkerrera*, *semaforora*, *zebrabidea*). Si memorizas el patrón, puedes encadenar instrucciones largas combinando piezas.
+

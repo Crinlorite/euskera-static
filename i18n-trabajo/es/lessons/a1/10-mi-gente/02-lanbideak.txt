@@ -1,0 +1,141 @@
+@@ title
+Lanbideak — Profesiones (ampliación)
+@@ x0.pair2
+médico/a
+@@ x1.prompt
+¿Quién es un "polizia"?
+@@ x1.explanation
+"Polizia" = policía. Es préstamo, pero la forma vasca con artículo es "polizia" (sin -a final adicional).
+@@ x1.opt0
+Un médico
+@@ x1.opt1
+Un policía
+@@ x1.opt2
+Un periodista
+@@ x1.opt3
+Un cocinero
+@@ x2.prompt
+"Mekanikaria" trabaja con...
+@@ x2.explanation
+"Mekanikaria" es el mecánico, suele trabajar en talleres con coches.
+@@ x3.prompt
+Soy estudiante = Ni ___ naiz.
+@@ x3.explanation
+"Ikaslea" = estudiante. Recuerda: en euskera "soy X" se dice "Ni X-a naiz", con el sustantivo + artículo "-a".
+@@ x4.card0
+profesión
+@@ x4.card1
+estudiante
+@@ x4.card2
+profesor/a
+@@ x4.card3
+médico/a
+@@ x4.card4
+enfermero/a
+@@ x4.card5
+cocinero/a
+@@ x4.card6
+periodista
+@@ x4.card7
+policía
+@@ x4.card8
+dependiente/a
+@@ x4.card9
+camarero/a
+@@ x4.card10
+mecánico/a
+@@ x4.card11
+escritor/a
+@@ x4.card12
+abogado/a
+@@ x4.card13
+arquitecto/a
+@@ x4.card14
+albañil
+@@ x4.card15
+agricultor/a
+@@ x4.card16
+pescador/a
+@@ x4.card17
+trabajador/a
+@@ x4.card18
+jubilado/a
+@@ x4.card19
+en paro / desempleado/a
+@@ x4.card20
+¿Cuál es tu profesión?
+@@ x4.card21
+¿En qué trabajas?
+@@ body
+
+Esta lección **amplía** las profesiones que ya viste en la unidad de descripción personal. Aquí tienes un repertorio mayor, con foco en las que aparecen en historias y conversaciones cotidianas sobre vecinos.
+
+## Repaso rápido
+
+| Euskera | Castellano |
+|---|---|
+| *ikaslea* | estudiante |
+| *irakaslea* | profesor/a |
+| *medikua* | médico/a |
+| *langilea* | trabajador/a |
+| *jubilatua* | jubilado/a |
+| *langabea* | en paro |
+
+## Ampliación
+
+| Euskera | Castellano |
+|---|---|
+| *erizaina* | enfermero/a |
+| *sukaldaria* | cocinero/a |
+| *kazetaria* | periodista |
+| *idazlea* | escritor/a |
+| *abokatua* | abogado/a |
+| *arkitektoa* | arquitecto/a |
+| *polizia* | policía |
+| *suhiltzailea* | bombero/a |
+| *dendaria* | dependiente/a |
+| *zerbitzaria* | camarero/a |
+| *mekanikaria* | mecánico/a |
+| *igeltseroa* | albañil |
+| *nekazaria* | agricultor/a |
+| *arrantzalea* | pescador/a |
+| *gidaria* | conductor/a |
+| *administrazioko langilea* | trabajador/a de la administración |
+
+## Sufijos que delatan la profesión
+
+Si te fijas, muchas profesiones llevan sufijos típicos:
+
+- **`-ari` / `-lari`** → "el/la que se dedica a…": *kazetari*, *dantzari*, *mekanikari*, *sukaldari*.
+- **`-le`** → "el/la que hace…": *irakasle*, *idazle*, *ikasle*, *arrantzale*.
+- **`-zain` / `-zai`** → "guardián/a de…": *erizain* (cuidador/a de enfermos = enfermero/a), *atezaina* (portero/a).
+- **`-tzaile`** → forma productiva: *saltzailea* (vendedor/a), *suhiltzailea* (bombero/a).
+
+Saber identificar estos sufijos te ayuda a **adivinar** profesiones nuevas sin diccionario.
+
+## "Ser de profesión X"
+
+El patrón ya lo conoces de las primeras unidades:
+
+- **Ni medikua naiz.** — Soy médico.
+- **Bera kazetaria da.** — Él/ella es periodista.
+- **Gu ikasleak gara.** — Nosotros somos estudiantes.
+
+> Importante: para nombrar una profesión en general, va con artículo `-a`: *medikua*, *kazetaria*. (En el habla también oirás *mediku naiz*, sin artículo; las dos formas son válidas, pero en este curso usamos la forma con `-a`.)
+
+## Preguntar por la profesión
+
+| Pregunta | Castellano |
+|---|---|
+| *Zer da zure lanbidea?* | ¿Cuál es tu profesión? |
+| *Zertan egiten duzu lan?* | ¿En qué trabajas? |
+| *Non egiten duzu lan?* | ¿Dónde trabajas? |
+| *Zer da bere lana?* | ¿Cuál es su trabajo? |
+
+Y para responder sobre uno mismo o sobre otra persona:
+
+- *Ikaslea naiz, baina dendari moduan ere lan egiten dut.* — Soy estudiante, pero también trabajo de dependiente.
+- *Bera erizaina da, ospitalean lan egiten du.* — Es enfermero/a, trabaja en el hospital.
+
+> **Nota:** en euskera, decir "soy enfermero" o "soy enfermera" se dice igual: **erizaina naiz**. No hay marcas de género en los sustantivos. Lo aclaras con el contexto o con el nombre de la persona.
+

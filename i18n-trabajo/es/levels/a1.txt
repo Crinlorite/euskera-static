@@ -1,0 +1,184 @@
+@@ name
+A1 Maila
+@@ description
+Nivel inicial. Comprensión y producción básica en situaciones cotidianas.
+@@ c0
+Saludos y despedidas (kaixo
+@@ c1
+Cortesía y aula (mesedez
+@@ c2
+Presentaciones (Ni X naiz, Nire izena X da, Zein da zure izena?)
+@@ c3
+Datos personales (izena
+@@ c4
+Edad: ... urte ditut/ditu/dituzte
+@@ c5
+Verbo "izan" (NOR): naiz, haiz, da, gara, zara, zarete, dira
+@@ c6
+Negación: ez antepuesto al verbo (ez naiz, ez da, ez gara)
+@@ c7
+Verbo "egon" (NOR): nago, hago, dago, gaude, zaude, zaudete, daude
+@@ c8
+Distinción izan/egon: cualidad vs estado pasajero
+@@ c9
+Verbo "ukan" (NOR-NORK) — tener: dut, duzu, du, dugu, duzue, dute
+@@ c10
+Objeto plural en ukan: ditut, dituzu, ditu, ...
+@@ c11
+Partitivo -rik en negación con objeto indefinido
+@@ c12
+"Gustatzen zait/zaio" — verbo de gusto (introducción NOR-NORI)
+@@ c13
+Pronombres personales (ni
+@@ c14
+Demostrativos hau/hori/hura y plurales hauek/horiek/haiek
+@@ c15
+Posesivos (nire
+@@ c16
+Tipos de familia (guraso bakarrekoa
+@@ c17
+Familia (aita
+@@ c18
+Familia extendida (aitona
+@@ c19
+Procedencia: Nongoa zara? → X-koa naiz
+@@ c20
+Residencia: Non bizi zara? → X-(e)an bizi naiz
+@@ c21
+Países comunes y nacionalidades
+@@ c22
+Sociativo: Norekin bizi zara? → X-(r)ekin
+@@ c23
+Caso NOR (absolutivo): -A singular, -AK plural
+@@ c24
+Caso NORK (ergativo): -AK singular, -EK plural
+@@ c25
+Caso NORI (dativo): -ARI singular, -EI plural
+@@ c26
+Genitivo NOREN: posesión -(r)en (Beñaten aita)
+@@ c27
+Locativo NON: -(e)n (Bilbon, Donostian, Madrilen)
+@@ c28
+NOLAKOA da? — descripción física con izan + adjetivo+A
+@@ c29
+NOLA dago? — estado pasajero con egon + adjetivo (pozik, triste)
+@@ c30
+Pelo y ojos (ile beltza, begi urdinak, ile motza/luzea)
+@@ c31
+Carácter (alaia, jatorra, isila, langilea, lasaia)
+@@ c32
+Profesiones (ikaslea, irakaslea, sukaldaria, mediku, langabea, jubilatua)
+@@ c33
+Números del 1 al 20
+@@ c34
+Números del 1 al 100 (sistema vigesimal)
+@@ c35
+Colores (zuria
+@@ c36
+Días de la semana (astelehena → igandea)
+@@ c37
+Meses del año (urtarrila → abendua)
+@@ c38
+Estaciones (udaberria
+@@ c39
+Decir la hora (Hamabiak dira, sei eta erdiak)
+@@ c40
+Tiempo: lehen/orain/gero, atzo/gaur/bihar/etzi
+@@ c41
+Partes del cuerpo (burua
+@@ c42
+Salud básica (... mina daukat, sukarra, eztula)
+@@ c43
+Ropa básica (alkandora
+@@ c44
+Lugares del pueblo (taberna, merkatua, hondartza, eliza, banketxea)
+@@ c45
+Direcciones (jo ezkerrera, segi aurrera, gainean/azpian)
+@@ c46
+Bar y comida (kafe hutsa, kafesnea, zuritoa, ogitartekoa, sagardoa)
+@@ c47
+Comidas del día (gosaria, hamaiketakoa, bazkaria, afaria)
+@@ c48
+Verbos básicos (sartu/irten, jan, edan, ikusi, joan, etorri)
+@@ c49
+Preguntas básicas (zer, nor, non, noiz, zenbat, nola)
+@@ c50
+Felicitaciones (Zorionak, Urte askotarako, Topa egin)
+@@ c51
+Posiciones espaciales (aurrean, atzean, ondoan, gainean, azpian, artean, ezkerrean, eskuinean)
+@@ c52
+Existencia con bada/badago (Ba al dago…?, Bai badago, Ez ez dago…rik)
+@@ c53
+Adverbios de lugar hemen / hor / han y demostrativos honetan / horretan / hartan
+@@ c54
+Verbos de movimiento joan, etorri, ibili (sintéticos: noa/zoaz, nator/zatoz, nabil/zabiltza)
+@@ c55
+Caso NORA: -ra (dirección, destino) — Etxera noa, Bilbora doa
+@@ c56
+Caso NONDIK: -tik (origen, procedencia del movimiento) — Etxetik nator
+@@ c57
+Instrumental -z para transporte y modo (oinez, kotxez, autobusez, trenez, bizikletaz)
+@@ c58
+Instrucciones de ruta (jo ezkerrera, segi aurrera, igo, jaitsi, zeharkatu)
+@@ c59
+Habitaciones de la casa (sukaldea, logela, komuna, egongela, sarrera, korridorea)
+@@ c60
+Muebles y objetos del hogar (mahaia, aulkia, ohea, armairua, sofa, hozkailua)
+@@ c61
+Tareas domésticas (garbitu, prestatu, jaso, lisatu, fregatu, eskobatu)
+@@ c62
+Tipos de convivencia (bakarrik, lagunarekin, gurasoekin, bikotekidearekin)
+@@ c63
+Describir la casa propia (gela kopurua, kokapena, altzariak)
+@@ c64
+Relaciones sociales (laguna, bizilaguna, ezaguna, ikaskidea, lankidea, koadrila)
+@@ c65
+Profesiones (ampliación: erizaina, polizia, kazetaria, dendaria, mekanikaria)
+@@ c66
+Presentar a otra persona (Hau X da, Bera ... da)
+@@ c67
+Rutina y profesión de otros (Bera medikua da, ospitalean lan egiten du)
+@@ c68
+Pedir en el bar (Kafe bat mesedez, Hartuko dut, Nahi duzu)
+@@ c69
+Precios y cantidades (Zenbat balio du? X euro)
+@@ c70
+Comida típica de bar (pintxoa, ogitartekoa, plater konbinatua, razioa)
+@@ c71
+Tipos de tienda (denda, harategia, okindegia, frutadenda, arrandegia, supermerkatua, kutxazaina)
+@@ c72
+Cantidades y unidades (kilo bat, litro erdi, dozena bat, pakete bat)
+@@ c73
+Hacer la compra: lista, pedir, pagar (Hartuko dut..., Eman X mesedez)
+@@ c74
+Restaurante: tipos (jatetxea, sagardotegia, erretegia) y partes del menú (lehen platera, bigarrena, postrea)
+@@ c75
+Pedir en mesa (Hartuko dut..., Niretzat..., Hasteko/Bigarrenerako/Postrerako)
+@@ c76
+La cuenta y formas de pago (Kontua, mesedez; Txartelaz ordain dezaket?)
+@@ c77
+Planificación semanal: agenda, citas y compromisos (Bilera dut, X-rekin geratu)
+@@ c78
+Futuro próximo: partícula -ko/-go + verbo auxiliar (joango naiz, ikusiko dut)
+@@ c79
+Marcadores de cuándo (bihar, etzi, datorren astean, asteburuan, datorren urtean)
+@@ c80
+Hora con detalle (eta erdiak, eta laurden, gutxi)
+@@ c81
+Momentos del día (goizean, eguerdian, arratsaldean, gauean)
+@@ c82
+Rutina diaria (esnatu, jaiki, gosaldu, dutxatu, lan egin, bazkaldu, afaldu, lo egin)
+@@ c83
+Aspecto habitual: partizipioa + -tzen / -ten (egunero gosaltzen dut)
+@@ c84
+Frecuencia (egunero, beti, askotan, batzuetan, inoiz ez)
+@@ c85
+Partizipioa: forma del verbo para el pasado reciente (jan, edan, joan, etorri)
+@@ c86
+Pasado reciente NOR-NORK: partizipioa + dut/duzu/du (jan dut, ikusi dut)
+@@ c87
+Pasado reciente NOR: partizipioa + naiz/zara/da (joan naiz, etorri naiz)
+@@ c88
+Marcadores de pasado reciente (gaur, gaur goizean, atzo, atzo arratsaldean)
+@@ c89
+Simulacros del nivel A1: autoevaluación al estilo de las pruebas de euskaltegi

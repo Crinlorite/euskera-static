@@ -1,0 +1,127 @@
+@@ title
+Pelo y ojos (ile eta begiak)
+@@ x0.prompt
+¿Cómo se dice "pelo negro" en euskera?
+@@ x0.explanation
+*beltz* = negro; con artículo *beltza*. El sustantivo "ile" (pelo) va antes.
+@@ x1.prompt
+Quieres decir "Tengo los ojos azules". ¿Cuál es la forma correcta?
+@@ x1.explanation
+Los ojos van en plural ("begi urdinak") y por eso usamos *ditut* (tener varias cosas), no *dut*.
+@@ x2.prompt
+Tengo el pelo largo = Ile luzea ___.
+@@ x2.explanation
+Para "pelo" (singular), forma de "ukan" = *dut*.
+@@ x3.prompt
+Tiene los ojos verdes = Begi berdeak ___.
+@@ x3.explanation
+Ojos en plural → 3ª persona = *ditu*.
+@@ x4.card0
+el pelo
+@@ x4.card1
+los ojos
+@@ x4.card2
+pelo negro
+@@ x4.card3
+pelo rubio
+@@ x4.card4
+pelo blanco/canoso
+@@ x4.card5
+pelo pelirrojo
+@@ x4.card6
+pelo corto
+@@ x4.card7
+pelo largo
+@@ x4.card8
+pelo liso
+@@ x4.card9
+pelo rizado
+@@ x4.card10
+ojos azules
+@@ x4.card11
+ojos marrones
+@@ x4.card12
+ojos verdes
+@@ x4.card13
+ojos claros
+@@ x4.card14
+ojos oscuros
+@@ x4.card15
+que lleva gafas
+@@ x4.card16
+con barba
+@@ x4.card17
+con bigote
+@@ x4.card18
+calvo
+@@ x5.pair6
+con barba
+@@ x5.pair7
+con gafas
+@@ body
+
+Para describir el pelo y los ojos en euskera no se usa **izan** ("ser") como en castellano ("soy moreno"), sino **ukan** ("tener"): *tengo el pelo negro*, *tengo los ojos azules*.
+
+## Pelo: ile
+
+La palabra para "pelo" es **ile** (con artículo: *ilea*). Los adjetivos van detrás, y solo el último lleva la marca `-a`:
+
+| Euskera | Castellano |
+|---|---|
+| *ile beltza* | pelo negro |
+| *ile horia* | pelo rubio |
+| *ile zuria* | pelo blanco / canoso |
+| *ile gorria* | pelo pelirrojo |
+| *ile urdina* | pelo gris |
+| *ile motza* | pelo corto |
+| *ile luzea* | pelo largo |
+| *ile lisoa* | pelo liso |
+| *ile kizkurra* | pelo rizado |
+
+> El pelo en euskera se trata como **singular**, igual que en castellano. Por eso se usa *dut* / *du* (no *ditut* / *ditu*).
+
+- *Ile beltza eta luzea **dut**.* — Tengo el pelo negro y largo.
+- *Maialenek ile kizkurra **du**.* — Maialen tiene el pelo rizado.
+
+## Ojos: begiak
+
+A diferencia del pelo, "los ojos" es **plural** (*begiak*). Por tanto los adjetivos van también en plural (`-ak`) y se usa **ditut / ditu**:
+
+| Euskera | Castellano |
+|---|---|
+| *begi urdinak* | ojos azules |
+| *begi marroiak* | ojos marrones |
+| *begi berdeak* | ojos verdes |
+| *begi beltzak* | ojos negros |
+| *begi argiak* | ojos claros |
+| *begi ilunak* | ojos oscuros |
+
+- *Begi urdinak **ditut**.* — Tengo los ojos azules.
+- *Mikelek begi marroiak **ditu**.* — Mikel tiene los ojos marrones.
+
+## Otros rasgos: el sufijo -dun
+
+Para decir "que lleva X" o "con X", el euskera tiene un sufijo muy productivo: **-duna** (singular) / **-dunak** (plural). Se añade al sustantivo y la persona pasa a ser "el de las gafas", "el de la barba"...
+
+| Euskera | Castellano |
+|---|---|
+| *betaurrekoduna* | con gafas / el de las gafas |
+| *bizarduna* | con barba |
+| *biboteduna* | con bigote |
+| *burusoila* | calvo (literalmente "cabeza pelada") |
+
+Estos sí van con **izan**, porque describen una cualidad como un adjetivo:
+
+- *Hura biboteduna da.* — Él lleva bigote.
+- *Nire aitona burusoila da.* — Mi abuelo es calvo.
+
+## Combinando todo
+
+Un retrato típico mezcla varias estructuras:
+
+> *Maialen txikia eta argala da. Ile gorria eta kizkurra du. Begi berdeak ditu. Betaurrekoduna da.*
+>
+> Maialen es bajita y delgada. Tiene el pelo pelirrojo y rizado. Tiene los ojos verdes. Lleva gafas.
+
+Fíjate cómo se reparte: **izan** para cualidades generales (*txikia da*), **ukan** para pelo/ojos (*ile … du*, *begi … ditu*), y *-dun*-a otra vez con **izan** para los accesorios.
+

@@ -1,0 +1,77 @@
+@@ title
+¿Cuántos hermanos tienes? (Zenbat senide?)
+@@ x0.prompt
+Tengo dos hermanos = Bi anaia ___.
+@@ x0.explanation
+"Ditut" = "yo tengo (a varios)" — forma de "ukan" (tener) NOR-NORK.
+@@ x1.prompt
+¿Cómo se dice "tres" en euskera?
+@@ x2.card0
+uno
+@@ x2.card1
+dos
+@@ x2.card2
+tres
+@@ x2.card3
+cuatro
+@@ x2.card4
+cinco
+@@ x2.card5
+diez
+@@ x2.card6
+¿Cuántos hermanos sois?
+@@ x2.card7
+hermano/a (genérico)
+@@ x2.card8
+tengo (1 cosa)
+@@ x2.card9
+tengo (varias cosas)
+@@ x2.card10
+no tengo hermanos (negación con -rik)
+@@ x2.card11
+¿Cuántos años tienes?
+@@ body
+
+Para hablar de cuántos miembros tiene una familia, usamos:
+
+- **Zenbat senide zarete?** → "¿Cuántos hermanos sois?" (se pregunta en plural: el total de hermanos, contigo incluido)
+- **Familia handi/txiki bat dut.** → "Tengo una familia grande/pequeña."
+
+## Números del 1 al 10
+
+| Número | Euskera |
+|---|---|
+| 1 | *bat* |
+| 2 | *bi* |
+| 3 | *hiru* |
+| 4 | *lau* |
+| 5 | *bost* |
+| 6 | *sei* |
+| 7 | *zazpi* |
+| 8 | *zortzi* |
+| 9 | *bederatzi* |
+| 10 | *hamar* |
+
+## Decir cuántos tienes
+
+Aquí entra una primera forma del verbo **ukan** (tener), que veremos a fondo en próximas lecciones:
+
+- **Anaia bat dut.** — Tengo un hermano.
+- **Bi anaia ditut.** — Tengo dos hermanos.
+- **Hiru seme ditut.** — Tengo tres hijos.
+- **Ez dut anaiarik.** — No tengo hermanos. (forma negativa)
+
+> **dut** se usa cuando lo que tienes es **una sola cosa** o un sustantivo en singular. **ditut** se usa cuando son **varias cosas**. Es como la diferencia entre "tengo un libro" (singular) y "tengo libros" (plural).
+
+## Frases típicas en presentaciones
+
+- *Familia handi bat dut: bi anaia eta arreba bat.* — Tengo una familia grande: dos hermanos y una hermana.
+- *Senide bakarra naiz.* — Soy hijo único.
+- *Zure familia handia da?* — ¿Tu familia es grande?
+
+## Edad
+
+- **Zenbat urte dituzu?** — ¿Cuántos años tienes?
+- **Hogeita hamar urte ditut.** — Tengo treinta años.
+- **Hirurogeita hamabost urte ditu.** — Tiene setenta y cinco años.
+

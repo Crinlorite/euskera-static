@@ -1,0 +1,124 @@
+@@ title
+Zehar-galderak — no sé si vendrá
+@@ x0.prompt
+"Ez dakit etorriko den" significa…
+@@ x0.explanation
+Pregunta indirecta: ez dakit + verbo con **-n** (etorriko de**n**) = no sé si vendrá.
+@@ x0.opt0
+No sé si vendrá
+@@ x0.opt1
+Sé que no vendrá
+@@ x0.opt2
+No quiero que venga
+@@ x0.opt3
+Dice que no viene
+@@ x1.prompt
+Completa: "Galdetu diot ea gurekin bazkalduko ___."
+@@ x1.explanation
+Tras *ea* (si), el auxiliar toma **-n**: bazkalduko du → bazkalduko du**en**. *-la* (duela) sería para afirmaciones ("dice que…"), no preguntas.
+@@ x2.prompt
+¿Cuál usa bien la pregunta indirecta con "non"?
+@@ x2.explanation
+Con partícula interrogativa también: non dago? → ez dakit non dago**en**. El -n es obligatorio en la subordinada.
+@@ x3.prompt
+No sé quién es = ez dakit nor ___.
+@@ x3.explanation
+Nor da? → ez dakit nor de**n**. El da se convierte en den.
+@@ x4.prompt
+Pregúntale (a ella) si tiene tiempo = galdetu iezaiozu ea denborarik ___.
+@@ x4.explanation
+Ea + -n: du → du**en** (o dauka → dauka**n**). Las dos formas valen para "si tiene".
+@@ x5.card0
+no sé si es/si vendrá
+@@ x5.card1
+a ver si vendrá
+@@ x5.card2
+preguntar
+@@ x5.card3
+responder
+@@ x5.card4
+no sé dónde está
+@@ x5.card5
+no sé qué quiere
+@@ x5.card6
+no sé cómo se hace
+@@ x5.card7
+¿sabes cuándo viene?
+@@ x5.card8
+veremos a ver si...
+@@ x5.card9
+no estoy seguro/a
+@@ x5.card10
+creo que sí
+@@ x5.card11
+creo que no
+@@ x6.pair0
+quién es → no sé quién es
+@@ x6.pair1
+dónde está → no sé dónde está
+@@ x6.pair2
+qué quiere → no sé qué quiere
+@@ x6.pair3
+vendrá → a ver si vendrá
+@@ x6.pair4
+cuándo es → ¿sabes cuándo es?
+@@ x6.pair5
+cómo se hace → no sé cómo se hace
+@@ body
+
+Hasta hoy preguntabas de frente: *Etorriko da?* Ahora aprenderás a preguntar **de lado**: *no sé **si vendrá***, *pregúntale **si tiene tiempo***. Son las *zehar-galderak* (preguntas indirectas), y su truco es una sola letra: **-n**.
+
+## La regla: el auxiliar toma -n
+
+| Directa | Indirecta |
+|---|---|
+| *Etorriko **da**?* | *Ez dakit etorriko **den*** |
+| *Nor **da**?* | *Ez dakit nor **den*** |
+| *Non **dago**?* | *Ez dakit non **dagoen*** |
+| *Zer nahi **du**?* | *Ez dakit zer nahi **duen*** |
+| *Denborarik **dauka**?* | *Galdetu ea denborarik **daukan*** |
+
+Cómo se pega la **-n**: *da → den* · *dago → dagoen* · *du → duen* · *dauka → daukan* · *gara → garen* · *dute → duten*. (Si acaba en vocal, -n; el resto, -en. Tu oído lo hará solo en dos días.)
+
+## "Ea" — la palabra comodín
+
+Para las preguntas de sí/no, el euskera añade ***ea*** (= "a ver si / si"):
+
+> *Galdetu diot **ea gurekin bazkalduko duen**.* — Le he preguntado si comerá con nosotros.
+>
+> *Ikusiko dugu **ea eguraldi ona egiten duen**.* — Veremos a ver si hace buen tiempo.
+>
+> ***Ea garaiz iristen garen**!* — ¡A ver si llegamos a tiempo!
+
+Ese último *ea…!* suelto es puro euskera hablado: deseo + suspense en una palabra.
+
+## Los verbos que las piden
+
+| Castellano | Euskera |
+|---|---|
+| No sé si… | *Ez dakit … -(e)n* |
+| ¿Sabes si…? | *Badakizu … -(e)n?* |
+| Pregúntale si… | *Galdetu (iezaiozu) ea … -(e)n* |
+| No recuerdo si… | *Ez naiz gogoratzen … -(e)n* |
+| No estoy seguro de si… | *Ez nago ziur … -(e)n* |
+
+## En acción
+
+> *— **Badakizu zer ordutan hasten den** kontzertua?*
+>
+> *— Ez, baina Aneri **galdetuko diot ea dakien**.*
+>
+> *— Eta **ea sarrerarik geratzen den** ere galdetu, mesedez!*
+>
+> *— Lasai. **Ea zorte ona dugun**!*
+
+## El contraste con -la (el falso amigo)
+
+No confundas la pregunta indirecta con la afirmación indirecta (unidad 04):
+
+> *Esan dit etorriko **dela**.* — Me ha dicho **que** vendrá. (afirmación → **-la**)
+>
+> *Galdetu dit **ea** etorriko **den**.* — Me ha preguntado **si** vendré. (pregunta → **-n**)
+
+**Que = -la · Si = (ea) -n.** Con esa chuleta, esta lección está ganada.
+

@@ -1,0 +1,45 @@
+@@ title
+Preguntar el nombre
+@@ x0.prompt
+¿Cómo preguntas "¿Cómo te llamas?" en euskera?
+@@ x0.explanation
+"Zein" significa "cuál"; "izena" significa "el nombre"; literalmente "¿Cuál es tu nombre?".
+@@ x1.prompt
+Nire izena Maialen ___.
+@@ x1.explanation
+"Da" es la forma de "izan" (ser) para 3ª persona; el sujeto aquí es "izena".
+@@ x2.card0
+nombre
+@@ x2.card1
+mi
+@@ x2.card2
+tu (de ti)
+@@ x2.card3
+su (de él/ella)
+@@ x2.card4
+¿Cómo te llamas?
+@@ x2.card5
+Mi nombre es Egoitz
+@@ body
+
+Hay dos maneras igualmente correctas de preguntar el nombre:
+
+- **Zein da zure izena?** — "¿Cuál es tu nombre?"
+- **Zure izena zein da?** — el orden de las palabras puede variar; ambas son naturales.
+
+## Estructura
+
+- **Zein** = cuál / qué (en preguntas de elección)
+- **izena** = el nombre (la `-a` final es el artículo "el/la")
+- **zure** = tu / tuyo
+- **da** = es
+
+## Cómo responder
+
+Tienes dos opciones, igualmente válidas:
+
+1. **Nire izena Egoitz da.** — "Mi nombre es Egoitz."
+2. **Egoitz naiz.** — "Soy Egoitz." (el patrón de la lección anterior)
+
+> Los posesivos básicos son *nire* (mi), *zure* (tu), *bere* (su). Los verás muchas veces más adelante — empieza a familiarizarte con ellos ya.
+

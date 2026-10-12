@@ -1,0 +1,117 @@
+@@ title
+Helburuzkoak — para qué y a qué
+@@ x0.prompt
+"Euskara ikasteko aplikazio bat da" significa…
+@@ x0.explanation
+*-tzeko* = para + infinitivo: ikas**teko** = para aprender. (Sí, como Kaixo 😄.)
+@@ x0.opt0
+Es una app que aprende euskera
+@@ x0.opt1
+Es una app hecha en euskera
+@@ x0.opt2
+Es una app para aprender euskera
+@@ x0.opt3
+Es una app aprendiendo euskera
+@@ x1.prompt
+Con verbos de movimiento (joan, etorri), el "a + infinitivo" es…
+@@ x1.explanation
+Movimiento + **-tzera**: ikastera etorri naiz (he venido A aprender), bazkaltzera noa (voy A comer).
+@@ x2.prompt
+"He venido a ayudarte" = …
+@@ x2.explanation
+Etorri (movimiento) + laguntz**era** = he venido a ayudar(te). Las otras: "es para ayudarte", "te ayudé" y "me estás ayudando tú a mí".
+@@ x3.prompt
+Necesito gafas para leer = betaurrekoak behar ditut ___.
+@@ x3.explanation
+Finalidad: irakur(ri) + **-tzeko** = para leer.
+@@ x4.prompt
+Voy a comprar pan = ogia ___ noa.
+@@ x4.explanation
+Noa (voy, movimiento) + eros(i) + **-tzera** → erostera. A comprar.
+@@ x5.card0
+para aprender
+@@ x5.card1
+para leer
+@@ x5.card2
+para dormir
+@@ x5.card3
+para pagar
+@@ x5.card4
+a aprender (movimiento)
+@@ x5.card5
+a comer (movimiento)
+@@ x5.card6
+voy a comprar
+@@ x5.card7
+han venido a visitar
+@@ x5.card8
+¿para qué?
+@@ x5.card9
+para eso
+@@ x5.card10
+dispuesto/a a ayudar
+@@ x5.card11
+para ahorrar tiempo
+@@ x6.pair0
+¿Para qué es esto?
+@@ x6.pair1
+Es para escribir
+@@ x6.pair2
+¿A dónde vas?
+@@ x6.pair4
+¿A qué ha venido?
+@@ x6.pair5
+A decir adiós
+@@ body
+
+Penúltima lección del nivel: expresar **el propósito** — para qué sirve algo y a qué vas. Dos sufijos hermanos, una regla de reparto clarísima.
+
+## -TZEKO: "para" (finalidad, uso)
+
+> *Betaurrekoak **irakurtzeko** dira.* — Las gafas son para leer.
+>
+> *Euskara **ikasteko** aplikazioa.* — Una aplicación para aprender euskera. (Hola. 👋)
+>
+> *Denbora **aurrezteko**, trenez joango gara.* — Para ahorrar tiempo, iremos en tren.
+>
+> *Ez daukat dirurik **sarrera ordaintzeko**.* — No tengo dinero para pagar la entrada.
+
+La pregunta: ***Zertarako**?* (¿para qué?) → *Horretarako* (para eso).
+
+## -TZERA: "a" (con verbos de movimiento)
+
+Cuando hay desplazamiento — *joan, etorri, atera, igo…* — el euskera usa **-tzera**:
+
+> *Ogia **erostera** noa.* — Voy a comprar pan.
+>
+> *Euskara **ikastera** etorri naiz.* — He venido a aprender euskera.
+>
+> *Lagunak **bisitatzera** joango gara.* — Iremos a visitar a los amigos.
+>
+> *Atera zaitez **arnasa hartzera**!* — ¡Sal a tomar el aire!
+
+La pregunta: ***Zertara** etorri zara?* (¿a qué has venido?) → *Laguntzera!* (¡a ayudar!)
+
+## La regla de reparto (chuleta)
+
+| ¿Hay movimiento? | Sufijo | Ejemplo |
+|---|---|---|
+| No — es un "para" | **-tzeko** | *Hau ikasteko da* |
+| Sí — vas/vienes A | **-tzera** | *Ikastera noa* |
+
+> Trampa clásica del castellano: "voy a comprar" NO es futuro en euskera — es movimiento: *erostera noa*. El futuro de verdad ya lo tienes: *erosiko dut*.
+
+## Todo junto (y con las temporales de ayer)
+
+> *Goizean, lanera joan **aurretik**, ogia **erostera** jaisten naiz. Okindegian beti daukate zerbait **probatzeko**. Lanetik **ateratzen naizenean**, gimnasiora noa **entrenatzera**. Eta etxera itzultzen naiz… sofan **etzatera**.* 😄
+
+## Diálogo
+
+> *— Kaixo! **Zertara zatoz** gurera?*
+>
+> *— Liburu bat **itzultzera** — eta, egia esateko, zure tarta famatua **probatzera**.* 😄
+>
+> *— Jakina! Horretarako **egin dut**: **partekatzeko**.*
+>
+> *— Ba trukean, hurrengoan nik lagunduko dizut baratzean. **Laguntzeko prest** nago beti.*
+
