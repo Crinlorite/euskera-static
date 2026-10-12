@@ -17,7 +17,7 @@ Traducción A MANO por la sesión Kaixo (el usuario pidió expresamente: nada de
 - Lecciones A1: COMPLETO (13 unidades, 65 lecciones) hu+bg
 
 ## Pendiente
-- Lecciones A2 07-10 (hu+bg) — 01 a 06 hechas
+- Lecciones A2 08-10 (hu+bg) — 01 a 07 hechas
 - `scripts/seed_i18n/{hu,bg}.json` (banco de simulacros; plantilla = es.json)
 - Diccionarios en línea: mas-apps.mjs, migrar.astro, [level]/index.astro, simulakroa.astro, mintzamena.astro
   (Jolas: EXCLUIR hu/bg hasta que acabe la medición, la página está congelada)
