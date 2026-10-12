@@ -1,0 +1,141 @@
+@@ title
+Ohiturak eta planak — az "ohi" és a három igeidő együtt
+@@ x0.prompt
+Az "Igandeetan mendira joan ohi naiz" jelentése…
+@@ x0.explanation
+*Ohi*: a partizipio és a segédige közé téve = szokni: joan **ohi** naiz = járni szoktam. Ez A szokás jelölője.
+@@ x0.opt0
+Vasárnap a hegyekbe megyek
+@@ x0.opt1
+Vasárnaponként a hegyekbe szoktam járni
+@@ x0.opt2
+Múlt vasárnap a hegyekben voltam
+@@ x0.opt3
+Éppen a hegyekbe tartok
+@@ x1.prompt
+Hová kerül az "ohi"?
+@@ x1.explanation
+Partizipio + **ohi** + segédige: bazkaldu **ohi** dugu, etorri **ohi** da. Se elé, se a végére.
+@@ x1.opt0
+A mondat végére
+@@ x1.opt1
+A főige elé
+@@ x1.opt2
+A partizipio és a segédige közé
+@@ x1.opt3
+A mondat elejére
+@@ x2.prompt
+Válaszd ki a MÚLTBELI SZOKÁSRÓL szóló mondatot:
+@@ x2.explanation
+*Egin ohi nuen* = csinálni szoktam (régen) (ohi + múlt idejű segédige). A többi: csinálni fogom / csinálom / ma megcsináltam.
+@@ x3.prompt
+A nagymamánál szoktunk ebédelni = amonaren etxean bazkaldu ___ dugu.
+@@ x3.explanation
+A szokás varázsszócskája a partizipio és a segédige között: bazkaldu **ohi** dugu.
+@@ x4.prompt
+Régen dohányozni szoktam, most nem dohányzom, és holnap sem fogok: lehen erre ohi ___, orain ez dut erretzen, eta bihar ere ez dut erreko.
+@@ x4.explanation
+Múltbeli szokás = ohi + MÚLT idejű segédige: erre ohi **nuen** (dohányozni szoktam). A három igeidő egy mondatban — már mindet uralod.
+@@ x5.card0
+járni szoktam
+@@ x5.card1
+csinálni szoktam
+@@ x5.card2
+enni szoktunk
+@@ x5.card3
+jönni szokott
+@@ x5.card4
+dohányozni szoktam (régen)
+@@ x5.card5
+járni szoktunk (régen)
+@@ x5.card6
+általában
+@@ x5.card7
+legtöbbször
+@@ x5.card8
+néha
+@@ x5.card9
+szinte mindig
+@@ x5.card10
+szinte soha
+@@ x5.card11
+vasárnaponként
+@@ x5.card12
+minden reggel
+@@ x5.card13
+minden évben
+@@ x6.pair0
+SZOKÁS: járok / járni szoktam
+@@ x6.pair1
+JÖVŐ: menni fogok
+@@ x6.pair2
+EGYSZERI MÚLT: elmentem
+@@ x6.pair3
+SZOKÁSOS MÚLT: jártam
+@@ x6.pair4
+SZOKÁSOS MÚLT: járni szoktam
+@@ x6.pair5
+MOST: éppen megyek
+@@ body
+
+Az egység utolsó leckéje — és egy hatalmas ciklus lezárása: mivel a jövő idő már a zsebedben van, **mindhárom igeidőt uralod**. Ez a lecke hozzáteszi a habot a tortán (*ohi*, a baszk "szokni"), és arra késztet, hogy ugyanazt a gondolatot végigvidd múlton, jelen-szokáson és jövőn. Pontosan ezt akarja hallani egy A2-es vizsgabizottság.
+
+## "Ohi" — a baszk szokni
+
+> **partizipio + ohi + segédige**
+
+| Magyar | Euskera |
+|---|---|
+| Biciklivel szoktam munkába járni | *Lanera bizikletaz joan **ohi** naiz* |
+| A nagymamánál szoktunk ebédelni | *Amonaren etxean bazkaldu **ohi** dugu* |
+| Későn szokott jönni | *Berandu etorri **ohi** da* |
+| Dohányozni szoktam (már nem) | *Erre **ohi** nuen* |
+
+Két megjegyzés:
+
+1. **A helye kötött**: a partizipio és a segédige között. *Joan ohi naiz* ✓ — soha *ohi joan naiz*.
+2. **Múlt idejű segédigével** a "régen szoktam" jelentést kapod: *joan ohi nintzen* (járni szoktam régen). Ez közeli rokona a már ismert folyamatos múltnak (*joaten nintzen*) — az *ohi* a szokást hangsúlyozza.
+
+> **És "ohi" nélkül?** A szokásos jelen (*joaten naiz*) már önmagában is szokást fejez ki. Az *ohi* elegáns nyomatékosítás, nagyon jellemző az írott szövegekre és a vizsgákra. Akkor használd, ha választékosan akarsz hangzani: *Igandeetan hondartzara joan ohi gara.*
+
+## A szokást kísérő határozószók
+
+| Magyar | Euskera |
+|---|---|
+| Általában | *normalean* |
+| Legtöbbször | *gehienetan* |
+| Szinte mindig | *ia beti* |
+| Néha | *batzuetan* |
+| Szinte soha | *ia inoiz ez* |
+| Minden reggel / minden évben | *goizero / urtero* |
+| Vasárnaponként | *igandeetan* |
+
+## Az igeidők teljes térképe (a végső puskád)
+
+| Gondolat | Euskera | Igeidő |
+|---|---|---|
+| Járok (szokás) | *joaten naiz* / *joan ohi naiz* | szokásos jelen |
+| Éppen megyek | *joaten ari naiz* | folyamatban lévő jelen |
+| Elmentem (ma) | *joan naiz* | közelmúlt |
+| Elmentem (egy napon) | *joan nintzen* | egyszeri múlt |
+| Jártam / járni szoktam | *joaten nintzen* / *joan ohi nintzen* | szokásos múlt |
+| Menni fogok | ***joango naiz*** | **jövő** |
+
+Hat cella. Egyetlen ige. **Mind a tiéd.**
+
+## Mini-szöveg: régen, most és holnap
+
+> *Lehen, lanera autoz joan **ohi nintzen**: ordu erdi trafikoan, egunero. Orain bizikletaz **joaten naiz** — hamar minutu, eta gainera kirola **egiten dut**. Datorren urtean etxetik gertuago **biziko naiz**, eta orduan oinez **joango naiz**. Nire medikua pozik **egongo da**!* 😄
+
+## Ismétlő párbeszéd (a három igeidő akcióban)
+
+> *— Zer egin **ohi duzu** igandeetan?*
+>
+> *— Normalean berandu jaiki eta familiarekin bazkaldu **ohi dut**. Baina datorren igandean ezberdina **izango da**: Behobia-Donostia lasterketa **korrituko dut**!*
+>
+> *— Ederki! Entrenatu **ohi zara**?*
+>
+> *— Bai, gaztetan asko korritzen **nuen**, gero utzi **egin nion**… eta aurten berriro **hasi naiz**. Bihar azken entrenamendua **egingo dut**.*
+>
+> *— Ba, zorte on! Helmugan **egongo naiz**, animatzen.* 💪
+

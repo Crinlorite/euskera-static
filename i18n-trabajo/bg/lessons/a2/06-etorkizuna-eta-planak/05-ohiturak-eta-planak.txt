@@ -1,0 +1,141 @@
+@@ title
+Ohiturak eta planak — "ohi" и трите времена заедно
+@@ x0.prompt
+"Igandeetan mendira joan ohi naiz" означава…
+@@ x0.explanation
+*Ohi* между причастието и спомагателния глагол = обикновено/имам навик: joan **ohi** naiz = обикновено ходя. Това е БЕЛЕГЪТ за навик.
+@@ x0.opt0
+В неделя ще отида в планината
+@@ x0.opt1
+В неделя обикновено ходя в планината
+@@ x0.opt2
+Миналата неделя ходих в планината
+@@ x0.opt3
+В момента отивам към планината
+@@ x1.prompt
+Къде се поставя "ohi"?
+@@ x1.explanation
+Причастие + **ohi** + спомагателен глагол: bazkaldu **ohi** dugu, etorri **ohi** da. Нито отпред, нито накрая.
+@@ x1.opt0
+В края на изречението
+@@ x1.opt1
+Пред основния глагол
+@@ x1.opt2
+Между причастието и спомагателния глагол
+@@ x1.opt3
+В началото на изречението
+@@ x2.prompt
+Избери изречението, което говори за НАВИК В МИНАЛОТО:
+@@ x2.explanation
+*Egin ohi nuen* = обикновено правех (ohi + спомагателен глагол в минало). Останалите: ще направя / правя / направих днес.
+@@ x3.prompt
+Обикновено обядваме у баба = amonaren etxean bazkaldu ___ dugu.
+@@ x3.explanation
+Вълшебната думичка за навик, между причастие и спомагателен глагол: bazkaldu **ohi** dugu.
+@@ x4.prompt
+Преди пушех, сега не пуша и утре също няма да пуша: lehen erre ohi ___, orain ez dut erretzen, eta bihar ere ez dut erreko.
+@@ x4.explanation
+Навик в миналото = ohi + спомагателен глагол в МИНАЛО: erre ohi **nuen** (пушех редовно). Трите времена в едно изречение — вече ги владееш всичките.
+@@ x5.card0
+обикновено ходя
+@@ x5.card1
+обикновено правя
+@@ x5.card2
+обикновено ядем
+@@ x5.card3
+обикновено идва
+@@ x5.card4
+пушех (имах навик)
+@@ x5.card5
+ходехме (имахме навик)
+@@ x5.card6
+обикновено
+@@ x5.card7
+в повечето случаи
+@@ x5.card8
+понякога
+@@ x5.card9
+почти винаги
+@@ x5.card10
+почти никога
+@@ x5.card11
+в неделите
+@@ x5.card12
+всяка сутрин
+@@ x5.card13
+всяка година
+@@ x6.pair0
+НАВИК: ходя / обикновено ходя
+@@ x6.pair1
+БЪДЕЩЕ: ще отида
+@@ x6.pair2
+ЕДНОКРАТНО МИНАЛО: отидох
+@@ x6.pair3
+НАВИК В МИНАЛОТО: ходех
+@@ x6.pair4
+НАВИК В МИНАЛОТО: обикновено ходех
+@@ x6.pair5
+СЕГА: в момента отивам
+@@ body
+
+Последният урок от раздела — и край на един огромен цикъл: с бъдещето време в джоба **владееш трите времена**. Този урок добавя черешката на тортата (*ohi*, баското "обикновено/имам навик") и те кара да прекараш една и съща идея през минало, сегашно-навик и бъдеще. Точно това иска да чуе една изпитна комисия на ниво A2.
+
+## "Ohi" — баското "имам навик"
+
+> **причастие + ohi + спомагателен глагол**
+
+| Български | Euskera |
+|---|---|
+| Обикновено ходя на работа с колело | *Lanera bizikletaz joan **ohi** naiz* |
+| Обикновено обядваме у баба | *Amonaren etxean bazkaldu **ohi** dugu* |
+| Обикновено идва късно | *Berandu etorri **ohi** da* |
+| Пушех (вече не) | *Erre **ohi** nuen* |
+
+Две бележки:
+
+1. **Мястото е фиксирано**: между причастието и спомагателния глагол. *Joan ohi naiz* ✓ — никога *ohi joan naiz*.
+2. Със **спомагателен глагол в минало** получаваш "имах навик": *joan ohi nintzen* (обикновено ходех). Това е близък роднина на вече познатото ти минало несвършено (*joaten nintzen*) — *ohi* подчертава навика.
+
+> **А без "ohi"?** Обичайното сегашно (*joaten naiz*) вече изразява навик. *Ohi* е елегантно подсилване, много типично за писмени текстове и изпити. Използвай го, когато искаш да звучиш изискано: *Igandeetan hondartzara joan ohi gara.*
+
+## Наречията, които придружават навика
+
+| Български | Euskera |
+|---|---|
+| Обикновено | *normalean* |
+| В повечето случаи | *gehienetan* |
+| Почти винаги | *ia beti* |
+| Понякога | *batzuetan* |
+| Почти никога | *ia inoiz ez* |
+| Всяка сутрин / всяка година | *goizero / urtero* |
+| В неделите | *igandeetan* |
+
+## Пълната карта на времената (твоят окончателен пищов)
+
+| Идея | Euskera | Време |
+|---|---|---|
+| Ходя (навик) | *joaten naiz* / *joan ohi naiz* | обичайно сегашно |
+| В момента отивам | *joaten ari naiz* | сегашно в ход |
+| Отидох (днес) | *joan naiz* | близко минало |
+| Отидох (един ден) | *joan nintzen* | еднократно минало |
+| Ходех / обикновено ходех | *joaten nintzen* / *joan ohi nintzen* | минало за навик |
+| Ще отида | ***joango naiz*** | **бъдеще** |
+
+Шест клетки. Един-единствен глагол. **Всичките са твои.**
+
+## Мини текст: преди, сега и утре
+
+> *Lehen, lanera autoz joan **ohi nintzen**: ordu erdi trafikoan, egunero. Orain bizikletaz **joaten naiz** — hamar minutu, eta gainera kirola **egiten dut**. Datorren urtean etxetik gertuago **biziko naiz**, eta orduan oinez **joango naiz**. Nire medikua pozik **egongo da**!* 😄
+
+## Преговорен диалог (трите времена в действие)
+
+> *— Zer egin **ohi duzu** igandeetan?*
+>
+> *— Normalean berandu jaiki eta familiarekin bazkaldu **ohi dut**. Baina datorren igandean ezberdina **izango da**: Behobia-Donostia lasterketa **korrituko dut**!*
+>
+> *— Ederki! Entrenatu **ohi zara**?*
+>
+> *— Bai, gaztetan asko korritzen **nuen**, gero utzi **egin nion**… eta aurten berriro **hasi naiz**. Bihar azken entrenamendua **egingo dut**.*
+>
+> *— Ba, zorte on! Helmugan **egongo naiz**, animatzen.* 💪
+

@@ -1,0 +1,147 @@
+@@ title
+Eguraldia — az időjárás és az előrejelzés
+@@ x0.prompt
+Az "Euria ari du" jelentése…
+@@ x0.explanation
+Az *Ari du* időjárási jelenségekkel = MOST történik: euria ari du (esik az eső), elurra ari du (esik a hó).
+@@ x0.opt0
+Esik az eső
+@@ x0.opt1
+Esni fog
+@@ x0.opt2
+Tegnap esett
+@@ x0.opt3
+Elállt az eső
+@@ x1.prompt
+Az előrejelzés szerint: "Bihar eguzkia aterako da". Mi vár rád holnap?
+@@ x1.explanation
+*Eguzkia atera* = kisüt a nap; jövő időben *aterako da* — holnap napos idő lesz.
+@@ x1.opt0
+Eső
+@@ x1.opt1
+Erős szél
+@@ x1.opt2
+Napsütés
+@@ x1.opt3
+Köd
+@@ x2.prompt
+Hogyan kérdezel rá a hőmérsékletre?
+@@ x2.explanation
+*Zenbat gradu daude?* = hány fok van? A többi az árra, az időre és az életkorra kérdez.
+@@ x3.prompt
+Holnap esni fog = bihar euria ___ du.
+@@ x3.explanation
+Az előrejelzés az *egin* jövő idejét használja: euria/elurra **egingo du**. Figyeld meg: baszkul az idő "csinál" esőt.
+@@ x4.prompt
+Nagyon hideg van = hotz handia ___ du.
+@@ x4.explanation
+Az *egin*-nel álló jelenségek szokásos jelen időben: hotz/bero handia **egiten du** (nagyon hideg/meleg van).
+@@ x5.card0
+az időjárás
+@@ x5.card1
+a nap
+@@ x5.card2
+az eső
+@@ x5.card3
+a hó
+@@ x5.card4
+a szél
+@@ x5.card5
+a köd
+@@ x5.card6
+a felhők
+@@ x5.card7
+felhős
+@@ x5.card8
+napos
+@@ x5.card9
+esős
+@@ x5.card10
+a meleg, a hőség
+@@ x5.card11
+a hideg
+@@ x5.card12
+a hőmérséklet
+@@ x5.card13
+a fokok
+@@ x5.card14
+az előrejelzés
+@@ x5.card15
+a zápor
+@@ x6.pair0
+Esik az eső (most)
+@@ x6.pair1
+Esni fog (előrejelzés)
+@@ x6.pair2
+Ki fog sütni a nap
+@@ x6.pair3
+Fúj a szél
+@@ x6.pair4
+Nagyon hideg van
+@@ x6.pair5
+Felhős az ég
+@@ body
+
+Egy olyan országban, ahol ugyanazon a délelőttön sütheti a nap, eshet az eső és újra kisüthet a nap, **az időjárásról beszélni nemzeti sport**. És kétszeresen kifizetődő: az *eguraldia* szókincse a TÖKÉLETES terep a frissen tanult jövő idő gyakorlására, mert az előrejelzést mindig *geroaldia* alakban mondják.
+
+## Az alapszókincs
+
+| Magyar | Euskera |
+|---|---|
+| Az időjárás | *eguraldia* |
+| A nap | *eguzkia* |
+| Az eső | *euria* |
+| A hó | *elurra* |
+| A szél | *haizea* |
+| A köd | *lainoa* |
+| A felhők | *hodeiak* |
+| A zápor | *zaparrada* |
+| A hőmérséklet | *tenperatura* |
+| A fokok | *graduak* |
+| Az előrejelzés | *iragarpena* |
+
+## A három szerkezet, amely mindent mozgat
+
+| Időpont | Szerkezet | Példa |
+|---|---|---|
+| **Éppen most** | jelenség + ***ari du*** | *Euria **ari du**.* — Esik az eső. |
+| **Általában / ma** | jelenség + ***egiten du*** | *Hotz handia **egiten du**.* — Nagyon hideg van. |
+| **Előrejelzés (jövő)** | jelenség + ***egingo du*** | *Bihar euria **egingo du**.* — Holnap esni fog. |
+
+Más elemek saját igével:
+
+> *Eguzkia **atera da** / **aterako da**.* — Kisütött / ki fog sütni a nap.
+>
+> *Haizea **dabil**.* — Fúj a szél (a szél "jár").
+>
+> ***Hodeitsu / eguzkitsu dago**.* — Felhős / napos az idő.
+
+> **Figyeld meg:** baszkul az időjárás az *egin* igével és a **du** segédigével "csinál" dolgokat (látható alany nélkül): *euria egingo du*, *bero handia egiten du*. A magyarban azt mondjuk, "meleg van", "esik" — a baszk viszont azt, hogy "(az idő) meleget csinál", sőt az esőt is "csinálja".
+
+## Hogyan kérdezünk
+
+> ***Zer eguraldi egiten du** zure herrian?* — Milyen az idő a falutokban?
+>
+> ***Zer dio iragarpenak** biharko?* — Mit mond az előrejelzés holnapra?
+>
+> ***Zenbat gradu daude** kanpoan?* — Hány fok van kint?
+
+## Egy igazi előrejelzés (mint a tévében)
+
+> *«Gaur, goizean **lainoa** izango dugu kostaldean, baina eguerdirako **eguzkia aterako da**. Arratsaldean **hodeiak** iritsiko dira mendebaldetik eta gauean **euria egingo du**, batez ere Bizkaian. Tenperaturak **behera egingo du**: 22 gradutik 16ra. Bihar, **haizea ibiliko da** eta **zaparradak** izango ditugu han-hemenka.»*
+
+(Délelőtt köd a parton, délben napsütés, nyugatról felhők, éjjel eső, csökkenő hőmérséklet, holnap szél és helyenként záporok — a klasszikus atlanti menü. 😄)
+
+## Párbeszéd: a program az égtől függ
+
+> *— Bihar mendira **joango gara**?*
+>
+> *— Ez dakit… **zer dio iragarpenak**?*
+>
+> *— Goizean **eguzkitsu**, baina arratsaldean **euria egingo du**.*
+>
+> *— Orduan goiz **aterako gara**. **Zaparrada** harrapatzen bagaitu, hurrengoan ez naiz zurekin inora joango!* 😄
+
+@@ _ok
+hace
+hace calor
