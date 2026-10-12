@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: Napi rutin és az idő
+order: 7
+description: Meséld el a napi rutinodat. Tanuld meg megmondani, hány óra van, a napszakokat, és beszélni arról, mit szoktál csinálni, a szokásos cselekvés alakjával (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+- time-basics
+- time-detail
+- parts-of-day
+- daily-routine
+- habitual-aspect
+- frequency-adverbs
+- common-verbs
+- meals

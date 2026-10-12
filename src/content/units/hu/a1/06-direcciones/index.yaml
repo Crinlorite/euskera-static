@@ -1,0 +1,14 @@
+id: a1-directions
+code: 06-direcciones
+level: a1
+title: Útbaigazítás és mozgás
+order: 6
+description: Mozgást kifejező igék, útbaigazítás adása és megértése, a NORA és NONDIK esetek, valamint az eszközhatározó -z a közlekedési eszközökhöz.
+estimatedMinutes: 55
+covers:
+- movement-verbs
+- route-instructions
+- nora-allative
+- nondik-ablative
+- instrumental-z
+- directions

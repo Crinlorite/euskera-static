@@ -77,9 +77,9 @@ test('los temas apuntan a palabras que existen', () => {
   }
 });
 
-test('los 18 idiomas tienen sus temas', () => {
+test('los 20 idiomas tienen sus temas', () => {
   const locales = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
-                   'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko'];
+                   'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg'];
   for (const l of locales) {
     const d = JSON.parse(readFileSync(new URL(`../src/data/hiztegia/${l}.json`, import.meta.url), 'utf8'));
     assert.ok(d.temas.length >= 20, `${l}: solo ${d.temas.length} temas`);

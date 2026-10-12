@@ -583,7 +583,7 @@ Kafea asko gustatzen zait — неутралният словоред: NOR + ask
 @@ s302
 Учителят
 @@ s303
-«Aitona naiz» — дядо ти е.
+«Aitona naiz» — аз съм дядото.
 @@ s304
 Кога идва?
 @@ s305
