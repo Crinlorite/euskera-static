@@ -28,7 +28,9 @@ const ICONOS = ['🔥', '🏡', '🤝'];
     <p class="lead">{tx.entradilla}</p>
 
     <figure class="mascot">
-      <video src="/jolas/galtxagorri.mp4" autoplay loop muted playsinline aria-label={tx.titulo}></video>
+      {/* Imagen animada y no <video>: en la app de iOS el WKWebView no reproduce vídeo en línea
+          y lo abre a pantalla completa con su reproductor. */}
+      <img src="/jolas/galtxagorri.webp" alt={tx.titulo} width="840" height="840" />
       <figcaption>{tx.habitante}</figcaption>
     </figure>
 
@@ -62,7 +64,7 @@ const ICONOS = ['🔥', '🏡', '🤝'];
   .prose h1 { margin: 0 0 var(--s-2); }
   .lead { font-size: 1.15rem; line-height: 1.6; color: var(--c-text-muted); margin: 0 0 var(--s-5); }
   .mascot { margin: 0 0 var(--s-5); text-align: center; }
-  .mascot video {
+  .mascot img {
     width: min(420px, 100%); border-radius: 16px;
     border: 1px solid var(--c-border-strong); background: #f5f3ef;
   }
