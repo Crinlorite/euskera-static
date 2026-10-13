@@ -1,4 +1,0 @@
-@@ title
-Aditzak sakontzen — NOR-NORI-NORK, ahalera y condicional
-@@ description
-Verbos con tres argumentos (le doy algo, se lo enseñé), poder/no poder y una primera mirada al condicional.

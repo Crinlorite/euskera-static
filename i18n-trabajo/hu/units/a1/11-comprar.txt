@@ -1,4 +1,0 @@
-@@ title
-Vásárlás
-@@ description
-Boltok, árak, mennyiségek és alapvető párbeszédek a bevásárláshoz.

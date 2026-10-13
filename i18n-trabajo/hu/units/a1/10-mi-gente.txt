@@ -1,4 +1,0 @@
-@@ title
-Szomszédok és kapcsolatok
-@@ description
-Írd le a szomszédaidat: kapcsolatok, foglalkozások és mások napirendje.

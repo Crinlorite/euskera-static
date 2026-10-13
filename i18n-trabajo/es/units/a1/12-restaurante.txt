@@ -1,4 +1,0 @@
-@@ title
-En el restaurante
-@@ description
-Llegar al restaurante, leer el menú, pedir, pagar y compartir mesa con amigos.

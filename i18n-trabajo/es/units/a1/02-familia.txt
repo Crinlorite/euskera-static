@@ -1,4 +1,0 @@
-@@ title
-La familia
-@@ description
-Vocabulario y patrones para hablar de tu familia y la de otros.
