@@ -1,4 +1,0 @@
-@@ title
-Saludos y primeras palabras
-@@ description
-Aprende a saludar, despedirte y presentarte en euskera.

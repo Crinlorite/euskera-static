@@ -1,4 +1,0 @@
-@@ title
-A heti naptár
-@@ description
-A hét megtervezése, beszélgetés találkozókról és elfoglaltságokról, és a közeli jövő használata.

@@ -1,4 +1,0 @@
-@@ title
-Iragana — a múlt elbeszélése
-@@ description
-Befejezett múlt (iragan burutua) és folyamatos múlt (iragan ez burutua). Hogyan meséld el, mi történt tegnap, évekkel ezelőtt, vagy mit szoktál csinálni.
