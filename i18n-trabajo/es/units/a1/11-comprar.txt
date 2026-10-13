@@ -1,4 +1,0 @@
-@@ title
-Las compras
-@@ description
-Tiendas, precios, cantidades y diálogos básicos para hacer la compra.

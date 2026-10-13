@@ -1,4 +1,0 @@
-@@ title
-Útbaigazítás és mozgás
-@@ description
-Mozgást kifejező igék, útbaigazítás adása és megértése, a NORA és NONDIK esetek, valamint az eszközhatározó -z a közlekedési eszközökhöz.
