@@ -1,0 +1,13 @@
+id: a2-gestioak
+code: 08-eguneroko-gestioak
+level: a2
+title: Eguneroko gestioak — البنكة، الوراق، التيليفون
+order: 8
+description: 'الحياة العملية: البنكة والبوسطة، الجماعة، المكالمات، التكنولوجيا، والرجوع ديال السلعة فالحانوت.'
+estimatedMinutes: 65
+covers:
+- a2-bank-post
+- a2-town-hall
+- a2-phone-messages
+- a2-tech-basics
+- a2-shopping-returns

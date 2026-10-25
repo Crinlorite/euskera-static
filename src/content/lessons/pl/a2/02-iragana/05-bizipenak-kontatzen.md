@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = najpierw; *gero* = potem; *azkenean* = na koniec. To standardowa sekwencja do łączenia działań.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Aby opisać **scenę** w tle (jaki był dzień, gdzie byli) w opowieści, jakiego czasu przeszłego użyć?
+  prompt: Aby opisać scenę w tle (jaki był dzień, gdzie byli) w opowieści, jakiego czasu przeszłego użyć?
   options:
   - Iragan burutua (joan nintzen)
   - Czas teraźniejszy

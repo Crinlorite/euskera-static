@@ -41,7 +41,7 @@ export const LANGUAGES: Record<LocaleCode, LocaleInfo> = {
   'ko': { code: 'ko', name: '한국어', dir: 'ltr', status: 'beta', font: 'Noto Sans KR' },
   'hu': { code: 'hu', name: 'Magyar', dir: 'ltr', status: 'beta' },
   'bg': { code: 'bg', name: 'Български', dir: 'ltr', status: 'beta' },
-  // Dariya (árabe marroquí), en letras árabes. Solo A1 y traducida sin revisor nativo:
+  // Dariya (árabe marroquí), en letras árabes. A1 y A2, traducidos sin revisor nativo:
   // la portada lo dice y pide correcciones (sinRevisionNativa).
   'ary': { code: 'ary', name: 'الدارجة', latin: 'Dariya', dir: 'rtl', status: 'beta', font: 'Noto Sans Arabic', sinRevisionNativa: true },
 };

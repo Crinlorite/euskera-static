@@ -38,7 +38,7 @@ import idioma_nuevo as inu  # noqa: E402
 ROOT = inu.ROOT
 CLAVE = pathlib.Path("/root/.claude/kaixo-dariya.local.env")
 MODELO = "claude-opus-5-5"
-NIVELES = ["a1"]
+NIVELES = ["a1", "a2"]
 REGISTRO = ROOT / "i18n-trabajo" / "uso-api.jsonl"
 
 IDIOMAS = {

@@ -21,7 +21,7 @@ exercises:
     explanation: '*Lehenengo* = primero; *gero* = luego; *azkenean* = finalmente. Es la cadena estándar para encadenar acciones.'
   - id: ex-a2-ir5-mc2
     type: multiple-choice
-    prompt: 'Para hablar de la **escena** de fondo (cómo era el día, dónde estaban) en una historia, ¿qué pasado uso?'
+    prompt: 'Para hablar de la escena de fondo (cómo era el día, dónde estaban) en una historia, ¿qué pasado uso?'
     options: ['Iragan burutua (joan nintzen)', 'Presente', 'Pasado reciente (joan naiz)', 'Iragan ez burutua (joaten nintzen / zen)']
     answer: 3
     explanation: 'La escena, la descripción y los hábitos van en imperfecto. Las acciones puntuales que hacen avanzar la historia van en burutua.'

@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = primeiro; *gero* = depois; *azkenean* = finalmente. É a sequência padrão para conectar ações.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Para falar da **cena** de fundo (como estava o dia, onde estavam) em uma história, que tempo passado eu uso?
+  prompt: Para falar da cena de fundo (como estava o dia, onde estavam) em uma história, que tempo passado eu uso?
   options:
   - Iragan burutua (joan nintzen)
   - Presente

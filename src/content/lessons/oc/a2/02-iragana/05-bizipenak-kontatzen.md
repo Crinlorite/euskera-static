@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = prumèr; *gero* = demprèp; *azkenean* = finaument. Ei era cadena estandard entà encadenar accions.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Entà parlar dera **scèna** de hons (com ère eth dia, a on èren) en ua istòria, quin passat utilize?
+  prompt: Entà parlar dera scèna de hons (com ère eth dia, a on èren) en ua istòria, quin passat utilize?
   options:
   - Iragan burutua (joan nintzen)
   - Present

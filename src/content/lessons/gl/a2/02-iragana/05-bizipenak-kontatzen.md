@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = primeiro; *gero* = logo; *azkenean* = finalmente. É a cadea estándar para encadear accións.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Para falar da **escena** de fondo (como era o día, onde estaban) nunha historia, que pasado uso?
+  prompt: Para falar da escena de fondo (como era o día, onde estaban) nunha historia, que pasado uso?
   options:
   - Iragan burutua (joan nintzen)
   - Presente

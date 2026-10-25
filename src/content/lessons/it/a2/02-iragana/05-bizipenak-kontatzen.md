@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = prima; *gero* = poi; *azkenean* = infine. È la sequenza standard per concatenare le azioni.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Per parlare della **scena** di sfondo (com'era la giornata, dove si trovavano) in una storia, quale tempo passato uso?
+  prompt: Per parlare della scena di sfondo (com'era la giornata, dove si trovavano) in una storia, quale tempo passato uso?
   options:
   - Iragan burutua (joan nintzen)
   - Presente

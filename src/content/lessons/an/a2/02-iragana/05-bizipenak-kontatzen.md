@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = primero; *gero* = dimpués; *azkenean* = finalment. Ye a cadena estandar pa encadenar accions.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Pa charrar d'a **escena** de fundo (cómo yera o día, an yeran) en una historia, qué pasau faigo servir?
+  prompt: Pa charrar d'a escena de fundo (cómo yera o día, an yeran) en una historia, qué pasau faigo servir?
   options:
   - Iragan burutua (joan nintzen)
   - Presente

@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = まず; *gero* = それから; *azkenean* = 最後に。これが行動をつなげるための標準的な順序です。'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: 物語の背景となる**場面**（その日はどんな様子だったか、どこにいたかなど）について話すには、どの過去形を使いますか？
+  prompt: 物語の背景となる場面（その日はどんな様子だったか、どこにいたかなど）について話すには、どの過去形を使いますか？
   options:
   - Iragan burutua (joan nintzen)
   - 現在形
