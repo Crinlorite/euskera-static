@@ -12,7 +12,7 @@ export const SITIO = 'https://euskera.crintech.pro';
 
 /** Mismo contenido y MISMO ORDEN que ACTIVE_LOCALES en src/i18n/config.ts. */
 export const LOCALES = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
-                        'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg'];
+                        'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg', 'ary'];
 
 export const POR_DEFECTO = 'es';
 

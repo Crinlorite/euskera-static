@@ -57,6 +57,8 @@ const COPY: Partial<Record<LocaleCode, Copy>> = {
     lead: 'Az ötödik készség, a <strong>mintzamena</strong>: hallgasd meg a mondatot anyanyelvi hangon, vedd fel magad, ahogy kimondod, és a <strong>saját eszközöd</strong> beszédfelismerője megmondja, mely szavakat értette meg. Semmi, amit felveszel, nem hagyja el a telefonodat vagy a számítógépedet — sem a mi szerverünk, sem más felé.' },
   bg: { title: 'Ahoskera-gimnasioa (Beta) — произнеси и провери', back: '← A1 · Всички раздели',
     lead: 'Петото умение, <strong>mintzamena</strong>: чуй изречението с роден глас, запиши се как го казваш и разпознаването на реч на <strong>собственото ти устройство</strong> ще ти каже кои думи са разбрани. Нищо от записаното не напуска телефона или компютъра ти — нито към нашия сървър, нито към чужд.' },
+  ary: { title: 'Ahoskera-gimnasioa (Beta) — نطق وتأكد', back: '← A1 · كاع الوحدات',
+    lead: 'المهارة الخامسة، <strong>mintzamena</strong>: سمع الجملة بصوت ناطق أصلي، سجل راسك وانت كتقولها، والتعرف على الصوت ديال <strong>الجهاز ديالك</strong> كيقول ليك شمن كلمات تفهمو. حتى حاجة من اللي كتسجل ما كتخرج من التيليفون ولا الكمبيوتر ديالك — لا للسيرفر ديالنا ولا لشي واحد آخر.' },
 };
 const c = COPY[locale] ?? COPY.es!;
 const descripcion = ajusta(sinMarcado(c.lead), t(locale, 'site.tagline'), minimoDescripcion(locale));

@@ -28,7 +28,7 @@ export const APPS = [
     // igualmente por decisión de Crinlorite (5-oct), y la tarjeta dice en qué
     // idiomas está para no prometer lo que no hay.
     locales: ['es', 'ca', 'gl', 'ast', 'an', 'oc', 'en', 'ro', 'zh-Hans', 'ar',
-      'fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko', 'hu', 'bg'],
+      'fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko', 'hu', 'bg', 'ary'],
   },
   {
     id: 'aprenza',
@@ -104,6 +104,8 @@ export const TEXTOS = {
     apps: { aulixa: 'Általános iskolai kvíz (angolul vagy spanyolul)' } },
   bg: { antetitulo: 'От същото студио', antes: 'Още приложения от', despues: '', entradilla: 'Направени със същата грижа — за упражнения у дома.',
     apps: { aulixa: 'Викторина за началното училище (на английски или испански)' } },
+  ary: { antetitulo: 'من نفس الستوديو', antes: 'تطبيقات أخرى من', despues: '', entradilla: 'مصاوبين بنفس العناية، باش تراجع فالدار.',
+    apps: { aulixa: 'كويز ديال المراجعة للابتدائي (بالنكليزية ولا بالإسبانية)' } },
 };
 
 /**
@@ -136,7 +138,7 @@ export const LOCALES_ACTIVOS = Object.keys(TEXTOS).filter(seMuestraEn);
  */
 export const PLAY_HL = {
   es: 'es', ca: 'ca', gl: 'gl', ast: 'es', an: 'es', oc: 'es', en: 'en', ro: 'ro', 'zh-Hans': 'zh-CN', ar: 'ar',
-  fr: 'fr', de: 'de', it: 'it', 'pt-BR': 'pt-BR', ru: 'ru', pl: 'pl', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg',
+  fr: 'fr', de: 'de', it: 'it', 'pt-BR': 'pt-BR', ru: 'ru', pl: 'pl', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg', ary: 'ar',
 };
 
 /**
@@ -203,6 +205,7 @@ export const AVISO_PRIVACIDAD = {
   ko: '<strong>기기의 앱 스토어 또는 앱 웹사이트</strong>: 홈의 「Crintech의 다른 앱」 카드를 누른 경우에만 해당합니다. Kaixo는 그 터치를 기록하지 않으며 링크에 어떤 식별자도 추가하지 않습니다.',
   hu: '<strong>Az eszközöd alkalmazásboltja vagy az app weboldala</strong>, de csak akkor, ha a kezdőlapon megérinted „A Crintech további appjai” blokk valamelyik kártyáját. A Kaixo nem rögzíti ezt az érintést, és semmilyen azonosítót nem fűz a hivatkozáshoz.',
   bg: '<strong>Магазинът за приложения на устройството ти или сайтът на приложението</strong> — само ако докоснеш някоя от картите „Още приложения от Crintech“ на началната страница. Kaixo не записва това докосване и не добавя никакъв идентификатор към връзката.',
+  ary: '<strong>متجر التطبيقات ديال الجهاز ديالك، ولا الموقع ديال التطبيق</strong>، غير إلا كليكيتي على وحدة من البطاقات ديال «تطبيقات أخرى من Crintech» فالصفحة الرئيسية. Kaixo ما كيسجلش هاد الكليك وما كيزيد حتى معرّف للرابط.',
 };
 
 /** La línea de privacidad de un idioma, o null si ahí no sale el bloque. */

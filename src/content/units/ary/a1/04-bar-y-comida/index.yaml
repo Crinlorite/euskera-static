@@ -1,0 +1,14 @@
+id: a1-bar-food
+code: 04-bar-y-comida
+level: a1
+title: البار والماكلة
+order: 4
+description: المشروبات، الماكلة، الوجبات ديال النهار وكيفاش تطلب فالبار — مفردات ضرورية لأي هضرة ديال كل نهار.
+estimatedMinutes: 55
+covers:
+- food-bar
+- meals
+- bar-ordering
+- prices
+- pintxos
+- numbers-1-100

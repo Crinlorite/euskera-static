@@ -30,3 +30,6 @@ Thumbs.db
 .wrangler/
 gsc-filas.json
 __pycache__/
+
+# Carpeta de trabajo de las traducciones (archivada fuera del repo el 13-oct-2026)
+i18n-trabajo/

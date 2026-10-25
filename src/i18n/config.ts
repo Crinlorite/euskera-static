@@ -2,7 +2,7 @@ export type LocaleCode =
   | 'es' | 'ca' | 'gl' | 'ast' | 'an' | 'oc'
   | 'en' | 'ar' | 'fr' | 'ro' | 'pt-BR'
   | 'de' | 'it' | 'ru' | 'pl' | 'zh-Hans' | 'ja' | 'ko'
-  | 'hu' | 'bg';
+  | 'hu' | 'bg' | 'ary';
 
 export interface LocaleInfo {
   code: LocaleCode;
@@ -10,6 +10,10 @@ export interface LocaleInfo {
   dir: 'ltr' | 'rtl';
   status: 'active' | 'beta' | 'planned';
   font?: string;
+  /** Nombre en letras latinas, para donde el nombre propio no se lee (p. ej. «Dariya»). */
+  latin?: string;
+  /** Traducción sin revisión de hablantes nativos: aviso fijo en la portada pidiendo correcciones. */
+  sinRevisionNativa?: boolean;
 }
 
 export const DEFAULT_LOCALE: LocaleCode = 'es';
@@ -37,6 +41,9 @@ export const LANGUAGES: Record<LocaleCode, LocaleInfo> = {
   'ko': { code: 'ko', name: '한국어', dir: 'ltr', status: 'beta', font: 'Noto Sans KR' },
   'hu': { code: 'hu', name: 'Magyar', dir: 'ltr', status: 'beta' },
   'bg': { code: 'bg', name: 'Български', dir: 'ltr', status: 'beta' },
+  // Dariya (árabe marroquí), en letras árabes. Solo A1 y traducida sin revisor nativo:
+  // la portada lo dice y pide correcciones (sinRevisionNativa).
+  'ary': { code: 'ary', name: 'الدارجة', latin: 'Dariya', dir: 'rtl', status: 'beta', font: 'Noto Sans Arabic', sinRevisionNativa: true },
 };
 
 export const ACTIVE_LOCALES: LocaleCode[] = Object.values(LANGUAGES)

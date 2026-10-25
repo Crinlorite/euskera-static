@@ -8,19 +8,19 @@
 // Huecos reales comprobados: Apple NO tiene insignia en árabe ni en gallego
 // (su endpoint devuelve la inglesa). Para gallego, asturiano, aragonés y
 // occitano usamos la castellana, que es la lengua que ese lector entiende;
-// para árabe, la inglesa que da el propio Apple.
+// para árabe y dariya, la inglesa que da el propio Apple.
 import type { LocaleCode } from '../i18n/config';
 
 const APPLE: Partial<Record<LocaleCode, string>> = {
   es: 'es', ca: 'ca', gl: 'es', oc: 'es', ast: 'es', an: 'es',
   en: 'en', ar: 'en', fr: 'fr', ro: 'ro', 'pt-BR': 'pt-BR', de: 'de',
-  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg',
+  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg', ary: 'en',
 };
 
 const GOOGLE: Partial<Record<LocaleCode, string>> = {
   es: 'es', ca: 'ca', gl: 'gl', oc: 'es', ast: 'es', an: 'es',
   en: 'en', ar: 'ar', fr: 'fr', ro: 'ro', 'pt-BR': 'pt-BR', de: 'de',
-  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg',
+  it: 'it', ru: 'ru', pl: 'pl', 'zh-Hans': 'zh-Hans', ja: 'ja', ko: 'ko', hu: 'hu', bg: 'bg', ary: 'ar',
 };
 
 export const appStoreBadge = (locale: LocaleCode) => `/badges/appstore-${APPLE[locale] ?? 'en'}.svg`;

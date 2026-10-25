@@ -17,7 +17,7 @@ const APP_ID = 'id6784369966';
 // Por eso el mapa es EXPLÍCITO y no se deriva nunca del código de idioma.
 const TIENDA: Partial<Record<LocaleCode, string>> = {
   es: 'es', de: 'de', fr: 'fr', it: 'it', pl: 'pl', ro: 'ro', ru: 'ru',
-  'pt-BR': 'br', 'zh-Hans': 'cn', ja: 'jp', ko: 'kr', hu: 'hu', bg: 'bg',
+  'pt-BR': 'br', 'zh-Hans': 'cn', ja: 'jp', ko: 'kr', hu: 'hu', bg: 'bg', ary: 'ma',
   // Lenguas de España → tienda española (es donde vive quien las lee).
   ca: 'es', gl: 'es', ast: 'es', an: 'es', oc: 'es',
   // Sin país propio evidente: se deja el mayor de su lengua.

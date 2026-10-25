@@ -111,16 +111,16 @@ test('que app sale en cada idioma', () => {
   // Lenguas de España: las dos (las apps están en castellano).
   for (const l of ['es', 'ca', 'gl', 'ast', 'an', 'oc']) assert.deepEqual(ids(l), ['aulixa', 'aprenza'], l);
   // En el resto, solo Aulixa: Aprenza es de la ESO y solo en castellano.
-  for (const l of ['en', 'ro', 'zh-Hans', 'ar', 'fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko', 'hu', 'bg']) {
+  for (const l of ['en', 'ro', 'zh-Hans', 'ar', 'fr', 'de', 'it', 'pt-BR', 'ru', 'pl', 'ja', 'ko', 'hu', 'bg', 'ary']) {
     assert.deepEqual(ids(l), ['aulixa'], l);
   }
-  assert.equal(LOCALES_ACTIVOS.length, 20);
+  assert.equal(LOCALES_ACTIVOS.length, 21);
 });
 
 test('donde Aulixa no esta en el idioma del lector, la tarjeta lo dice', () => {
   const pistas = { fr: /anglais.*espagnol/, de: /Englisch.*Spanisch/, it: /inglese.*spagnolo/, 'pt-BR': /inglês.*espanhol/,
     ru: /английском.*испанском/, pl: /angielsku.*hiszpańsku/, ja: /英語.*スペイン語/, ko: /영어.*스페인어/,
-    hu: /angolul.*spanyolul/, bg: /английски.*испански/ };
+    hu: /angolul.*spanyolul/, bg: /английски.*испански/, ary: /النكليزية.*الإسبانية/ };
   for (const [l, re] of Object.entries(pistas)) assert.ok(re.test(TEXTOS[l].apps.aulixa), `${l}: ${TEXTOS[l].apps.aulixa}`);
 });
 

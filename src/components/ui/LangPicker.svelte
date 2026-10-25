@@ -44,6 +44,7 @@
     <li class:active={lang.code === currentLocale} class:disabled={lang.status === 'planned'}>
       <button on:click={() => pick(lang.code, lang.status)} disabled={lang.status === 'planned'}>
         <span class="name" dir={lang.dir}>{lang.name}</span>
+        {#if lang.latin}<span class="latin" lang="en">{lang.latin}</span>{/if}
         {#if lang.status === 'beta'}<span class="badge beta">{t(currentLocale, 'lang.beta')}</span>{/if}
         {#if lang.status === 'planned'}<span class="badge planned">{t(currentLocale, 'lang.upcoming')}</span>{/if}
       </button>
@@ -76,6 +77,7 @@
     opacity: 0.7;
   }
   .name { font-weight: 500; }
+  .latin { color: var(--c-text-muted); font-size: 0.85em; }
   .badge {
     margin-inline-start: auto;
     font-size: 0.75rem;

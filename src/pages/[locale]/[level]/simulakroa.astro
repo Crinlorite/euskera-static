@@ -58,6 +58,8 @@ const COPY: Partial<Record<LocaleCode, Copy>> = {
     lead: 'Egy A1-es vizsga, amely <strong>minden alkalommal más</strong>: azonnal áll össze egy több száz kérdésből álló bankból, egy valódi vizsga szerkezetével — <strong>entzumenával</strong>: valódi hangú hanganyag, kétszeri meghallgatással, mint az igazi napon. Csináld végig egy szuszra, szótár nélkül — a végén pedig nyomd meg a <em>«Beste simulakro bat sortu»</em> gombot, és jön a következő.' },
   bg: { title: 'Simulakro sortzailea — безкраен изпит A1', back: '← A1 · Всички раздели',
     lead: 'Изпит A1, <strong>всеки път различен</strong>: сглобява се на момента от банка със стотици въпроси със структурата на истински изпит — <strong>с entzumena</strong>: аудио с истински глас и две слушания, както в истинския ден. Направи го наведнъж, без речник — а накрая натисни <em>«Beste simulakro bat sortu»</em> и пада следващият.' },
+  ary: { title: 'Simulakro sortzailea — امتحان A1 بلا نهاية', back: '← A1 · كاع الوحدات',
+    lead: 'امتحان A1 <strong>مختالف كل مرة</strong>، كيتركب فاللحظة من بنك فيه مئات ديال الأسئلة بنفس الشكل ديال امتحان حقيقي — <strong>فيه entzumena</strong>: أوديو بصوت حقيقي وكتسمعو جوج مرات، بحال نهار الامتحان. دوزو مرة وحدة، بلا قاموس — وملي تسالي، كليكي على <em>«Beste simulakro bat sortu»</em> ويطلع ليك واحد آخر.' },
 };
 const c = COPY[locale] ?? COPY.es!;
 const descripcion = ajusta(sinMarcado(c.lead), t(locale, 'site.tagline'), minimoDescripcion(locale));

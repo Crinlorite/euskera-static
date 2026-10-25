@@ -2,6 +2,8 @@
   import type { LocaleCode } from '../../i18n/config';
   import { t } from '../../i18n/ui';
   export let locale: LocaleCode;
+  /** Si el idioma tiene A2 (el dariya solo tiene A1). */
+  export let conA2 = true;
 
   let open = false;
 
@@ -11,7 +13,7 @@
     { href: `/${locale}/a2/`, label: 'A2' },
     { href: `/${locale}/hiztegia/`, key: 'hiz.title' },
     { href: `/${locale}/progreso/`, key: 'nav.progress' },
-  ];
+  ].filter((i) => i.href !== `/${locale}/a2/` || conA2);
 </script>
 
 <button class="trigger" aria-label={t(locale, 'a11y.menu')} aria-expanded={open} on:click={() => (open = !open)}>

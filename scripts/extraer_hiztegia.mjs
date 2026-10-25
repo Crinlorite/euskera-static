@@ -24,14 +24,14 @@ import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from 
 import { join } from 'node:path';
 
 const LOCALES = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
-                 'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg'];
+                 'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg', 'ary'];
 
 /** Como se llama el euskera en cada idioma (sale de site.name en i18n/ui.ts). */
 const EUSKERA = {
   es: 'Euskera', ca: 'Basc', gl: 'Éuscaro', oc: 'Basc', ast: 'Vascu', an: 'Basco',
   en: 'Basque', ar: 'الباسكية', fr: 'Basque', ro: 'Bască', 'pt-BR': 'Basco',
   de: 'Baskisch', it: 'Basco', ru: 'Баскский', pl: 'Baskijski',
-  'zh-Hans': '巴斯克语', ja: 'バスク語', ko: '바스크어', hu: 'Baszk', bg: 'Баски',
+  'zh-Hans': '巴斯克语', ja: 'バスク語', ko: '바스크어', hu: 'Baszk', bg: 'Баски', ary: 'الباسكية',
 };
 // Toda etiqueta con la que alguna leccion encabeza la columna en euskera. Es la
 // union de los 18 idiomas mas los alias sueltos: hay lecciones en asturiano o
@@ -51,7 +51,7 @@ const ETIQUETAS_TR = {
   en: ['english'], ar: ['العربية'], fr: ['français'], ro: ['română'],
   'pt-BR': ['português', 'português (brasil)'], de: ['deutsch'], it: ['italiano'],
   ru: ['русский'], pl: ['polski'], 'zh-Hans': ['中文', '简体中文'],
-  ja: ['日本語'], ko: ['한국어'], hu: ['magyar'], bg: ['български'],
+  ja: ['日本語'], ko: ['한국어'], hu: ['magyar'], bg: ['български'], ary: ['الدارجة'],
 };
 
 /**

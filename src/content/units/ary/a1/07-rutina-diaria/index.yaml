@@ -1,0 +1,16 @@
+id: a1-routine
+code: 07-rutina-diaria
+level: a1
+title: الروتين اليومي والساعة
+order: 7
+description: عاود الروتين ديالك اليومي. غادي تتعلم كيفاش تقول الساعة، أوقات النهار، وكيفاش تهضر على الحوايج اللي كتديرهم ديما بصيغة العادة (-tzen / -ten).
+estimatedMinutes: 55
+covers:
+- time-basics
+- time-detail
+- parts-of-day
+- daily-routine
+- habitual-aspect
+- frequency-adverbs
+- common-verbs
+- meals
