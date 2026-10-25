@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = 처음에; *gero* = 그리고 나서; *azkenean* = 마지막으로. 행동을 연결하는 표준적인 순서입니다.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: 이야기 속 배경 **장면**(날씨가 어땠는지, 어디에 있었는지 등)에 대해 말할 때, 어떤 과거 시제를 사용하나요?
+  prompt: 이야기 속 배경 장면(날씨가 어땠는지, 어디에 있었는지 등)에 대해 말할 때, 어떤 과거 시제를 사용하나요?
   options:
   - Iragan burutua (joan nintzen)
   - 현재 시제

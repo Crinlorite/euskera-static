@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = először; *gero* = aztán; *azkenean* = végül. Ez a cselekvések összefűzésének sztenderd sora.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Ha egy történetben a háttérről, a **jelenetről** beszélsz (milyen volt a nap, hol voltak), melyik múlt időt használod?
+  prompt: Ha egy történetben a háttérről, a jelenetről beszélsz (milyen volt a nap, hol voltak), melyik múlt időt használod?
   options:
   - Iragan burutua (joan nintzen)
   - Jelen idő

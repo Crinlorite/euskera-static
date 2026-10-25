@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = zuerst; *gero* = dann; *azkenean* = schließlich. Das ist die Standardreihenfolge, um Handlungen zu verketten.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Welche Vergangenheitsform verwende ich, um die **Hintergrundszene** (wie der Tag war, wo sie waren) in einer Geschichte zu beschreiben?
+  prompt: Welche Vergangenheitsform verwende ich, um die Hintergrundszene (wie der Tag war, wo sie waren) in einer Geschichte zu beschreiben?
   options:
   - Iragan burutua (joan nintzen)
   - Präsens

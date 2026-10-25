@@ -13,7 +13,7 @@ covers:
 exercises:
 - id: ex-egon-mc1
   type: multiple-choice
-  prompt: 「私」に対応する **egon** の形はどれですか？
+  prompt: 「私」に対応する egon の形はどれですか？
   options:
   - naiz
   - nago

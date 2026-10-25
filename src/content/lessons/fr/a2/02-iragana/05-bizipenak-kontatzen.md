@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = d''abord ; *gero* = puis ; *azkenean* = finalement. C''est la séquence standard pour enchaîner des actions.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Pour parler de la **scène** d'arrière-plan (comment était la journée, où ils/elles étaient) dans une histoire, quel temps du passé j'utilise ?
+  prompt: Pour parler de la scène d'arrière-plan (comment était la journée, où ils/elles étaient) dans une histoire, quel temps du passé j'utilise ?
   options:
   - Iragan burutua (joan nintzen)
   - Présent

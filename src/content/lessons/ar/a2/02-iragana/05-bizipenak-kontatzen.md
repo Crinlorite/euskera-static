@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = أولاً؛ *gero* = ثم؛ *azkenean* = أخيرًا. هذا هو التسلسل القياسي لربط الأحداث.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: للحديث عن **المشهد** في الخلفية (كيف كان اليوم، أين كانوا) في قصة ما، أي زمن ماضٍ أستخدم؟
+  prompt: للحديث عن المشهد في الخلفية (كيف كان اليوم، أين كانوا) في قصة ما، أي زمن ماضٍ أستخدم؟
   options:
   - Iragan burutua (joan nintzen)
   - المضارع

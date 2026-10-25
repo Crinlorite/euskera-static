@@ -30,7 +30,7 @@ esta lo que conviene mirar con ojos humanos.
 | ko | 1562 | 926 | 790 | 770 | 173 | 23 |
 | hu | 1562 | 926 | 790 | 770 | 159 | 23 |
 | bg | 1562 | 926 | 790 | 770 | 151 | 23 |
-| ary | 762 | 466 | 405 | 359 | 91 | 13 |
+| ary | 1562 | 926 | 790 | 770 | 175 | 23 |
 
 ## Traducciones DESCARTADAS por ser euskera (5)
 

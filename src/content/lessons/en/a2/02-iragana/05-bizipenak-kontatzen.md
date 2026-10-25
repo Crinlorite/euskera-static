@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = first; *gero* = then; *azkenean* = finally. It''s the standard sequence for linking actions.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: To talk about the background **scene** (what the day was like, where they were) in a story, which past tense do I use?
+  prompt: To talk about the background scene (what the day was like, where they were) in a story, which past tense do I use?
   options:
   - Iragan burutua (joan nintzen)
   - Present

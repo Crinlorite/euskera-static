@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = mai întâi; *gero* = apoi; *azkenean* = în cele din urmă. Este secvența standard pentru a înlănțui acțiuni.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Pentru a vorbi despre **scena** de fundal (cum era ziua, unde se aflau) într-o poveste, ce timp trecut folosesc?
+  prompt: Pentru a vorbi despre scena de fundal (cum era ziua, unde se aflau) într-o poveste, ce timp trecut folosesc?
   options:
   - Iragan burutua (joan nintzen)
   - Prezent

@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = primero; *gero* = dempués; *azkenean* = finalmente. Ye la cadena estándar pa encadenar aiciones.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Pa falar de la **escena** de fondu (cómo yera'l día, ónde taben) nuna historia, ¿qué pasáu uso?
+  prompt: Pa falar de la escena de fondu (cómo yera'l día, ónde taben) nuna historia, ¿qué pasáu uso?
   options:
   - Iragan burutua (joan nintzen)
   - Presente

@@ -1,0 +1,149 @@
+code: a2
+name: A2 Maila
+description: المستوى الأولي. تفهم وتهضر بوحدك فالمواقف اليومية العادية، مع الحكي فالماضي، المخططات ديال المستقبل والآراء البسيطة.
+order: 2
+status: active
+beta: false
+curriculum:
+- id: a2-health-vocab
+  title: مفردات الصحة (osasuna, gaixotasuna, sintomak, sendagaiak, botikariarengana)
+- id: a2-doctor-visit
+  title: 'عند الطبيب (mediku-kontsultan: zer duzu?, mina daukat, hartu pilula bat)'
+- id: a2-healthy-habits
+  title: عادات صحية (kirola egin, ondo lo egin, fruta jan, erre, alkohola)
+- id: a2-environment
+  title: البيئة (ingurumena, kutsadura, birziklatu, energia, klima-aldaketa)
+- id: a2-civic-life
+  title: الحياة الاجتماعية والمدنية (auzoa, herria, partehartzea, boluntariotza, jaiak)
+- id: a2-agintera-intro
+  title: 'الأمر (agintera): الأشكال الأساسية المثبتة (zatoz, hartu, joan zaitez)'
+- id: a2-agintera-uses
+  title: 'استعمالات الأمر: تعليمات، نصائح، طلبات (mesedez, hartu eseri)'
+- id: a2-agintera-negation
+  title: الأمر المنفي (ez egin, ez joan, ez ezazu hartu)
+- id: a2-past-nor
+  title: 'الماضي ديال izan/egon — NOR: nintzen, zinen, zen, ginen, zineten, ziren / nengoen, zegoen'
+- id: a2-past-nor-nork
+  title: 'الماضي ديال ukan — NOR-NORK: nuen, zenuen, zuen, genuen, zenuten, zuten / nituen, zituen'
+- id: a2-past-trinkoak
+  title: 'الماضي ديال الأفعال التركيبية (joan/etorri/ibili/eduki/jakin: nindoan, nentorren, nenbilen, neukan, nekien)'
+- id: a2-past-time-markers
+  title: كلمات الماضي التام (atzo, joan den astean, duela X urte, orduan, gero)
+- id: a2-past-narrative
+  title: 'تحكي تجربة: تربط الأفعال فالماضي (lehenengo... gero... azkenean)'
+- id: a2-past-imperfect
+  title: 'الماضي الناقص: aditza-tzen + nintzen/zen (lan egiten nuen, joaten nintzen)'
+- id: a2-perfect-vs-imperfect
+  title: 'الفرق بين burutua/ez burutua: أحداث وقعات مرة وحدة مقابل عادات ووصف فالماضي'
+- id: a2-past-progressive
+  title: 'الماضي المستمر (puntukaria): -tzen ari nintzen / nenbilen'
+- id: a2-nor-nori-nork
+  title: NOR-NORI-NORK فالحاضر (eman dizut, esan diot, erakutsi digute)
+- id: a2-nor-nori-nork-past
+  title: NOR-NORI-NORK فالماضي (eman nion, esan zion, ekarri zigun)
+- id: a2-nor-nori
+  title: NOR-NORI فالحاضر والماضي (gustatzen zait/zaio, ahaztu zitzaidan)
+- id: a2-ahalera
+  title: 'فعل «قدر» (ahalera): -t(z)en + dezaket/daiteke (etor daiteke, egin dezakezu)'
+- id: a2-ezin
+  title: 'ما قدرش (ezin izan): ezin dut, ezin nintzen joan, ezin daiteke'
+- id: a2-baldintza-intro
+  title: 'الشرط (baldintza) الأساسي: إلا... إذن... (banaiz, banu, joango nintzateke) — مقدمة'
+- id: a2-norentzat
+  title: 'حالة الوجهة NORENTZAT: لمن (lagunarentzat, niretzat, guretzat)'
+- id: a2-noraino-norantz
+  title: الحالات NORAINO (-raino، حتى ل) و NORANTZ (-rantz، جيهت)
+- id: a2-norengatik
+  title: حالة السبب ZERGATIK / NORENGATIK (lagunarengatik, ekonomiaz)
+- id: a2-nongo-noizko
+  title: 'الحالة NONGO/NOIZKO (-ko, -tako): صفة ديال المكان والوقت (Bilboko, atzoko)'
+- id: a2-comp-superiority
+  title: 'المقارنة بالتفوق: -ago, baino...-ago (handiagoa da, baino altuagoa)'
+- id: a2-comp-equality
+  title: 'المقارنة بالمساواة: bezain, adina/beste (zu bezain ona, zuk adina)'
+- id: a2-comp-superlative
+  title: 'التفضيل: -en (politena, onena, txikiena)'
+- id: a2-comp-excess
+  title: 'الزيادة والنقص: -egi, gehiegi, gutxiegi (handiegia, gehiegi jan dut)'
+- id: a2-comp-progressive
+  title: 'المقارنة التدريجية: gero eta ...ago (كل مرة كتر / كل مرة قل)'
+- id: a2-opinion
+  title: 'تعبر على رأيك: nire ustez, uste dut, iruditzen zait, ados nago'
+- id: a2-feelings
+  title: 'المشاعر: pozik, triste, haserre, urduri, lasai, beldur naiz, lotsa ematen dit'
+- id: a2-connectors
+  title: 'أدوات الربط: zeren/ze (حيت)، beraz (إذن)، hala ere (ولكن مع ذلك)، gainera (زيادة على هادشي)'
+- id: a2-distributive
+  title: 'الجمل التوزيعية: bai...bai, ez...ez, baita...ere, baizik'
+- id: a2-relative-en
+  title: 'جمل الوصل ب -(e)n: ezagutzen dudan gizona, joaten naizen tabernan'
+- id: a2-causal-clauses
+  title: 'الجمل السببية التابعة: -lako (حيت، كلاحقة)، zeren...bait- (أدبي)'
+- id: a2-completive-ela
+  title: 'الجمل التكميلية ب -(e)la: uste dut etorriko dela, badakit egia dela'
+- id: a2-future-forms
+  title: 'المستقبل (geroaldia): partizipioa + -ko/-go (joango, egingo, ikusiko, hartuko)'
+- id: a2-future-izango
+  title: المستقبل ديال izan/ukan/egon (izango naiz, izango dut, egongo da)
+- id: a2-future-markers
+  title: كلمات المستقبل (bihar, etzi, datorren astean, hurrengo urtean, laster)
+- id: a2-plans-intentions
+  title: المخططات والنوايا (zer egingo duzu?, -tzeko asmoa dut, pentsatu, erabaki)
+- id: a2-invitations
+  title: تعرض على شي حد وتتفاهم على موعد (nahi duzu...?, zergatik ez...?, geratu, ondo iruditzen zait)
+- id: a2-weather
+  title: 'الطقس (eguraldia: euria ari du, elurra, haizea dabil, hodeitsu, tenperatura)'
+- id: a2-weather-forecast
+  title: التوقعات فالمستقبل (bihar euria egingo du, eguzkia aterako da)
+- id: a2-ohi-habitual
+  title: العادات ب ohi (joan ohi naiz, bazkaldu ohi dugu)
+- id: a2-transport-vocab
+  title: النقل (trena, autobusa, hegazkina, geltokia, aireportua, oinez)
+- id: a2-tickets-schedules
+  title: البيّيات والأوقات (txartela, joan-etorria, zenbat balio du?, noiz ateratzen da?)
+- id: a2-accommodation
+  title: السكن (hotela, erreserba, gela bikoitza, gosaria barne)
+- id: a2-travel-planning
+  title: توجد لسفر (maleta, agiriak, planifikatu — المستقبل فالتطبيق)
+- id: a2-travel-narrative
+  title: 'تحكي على سفر (الماضي فالتطبيق: joan ginen, ikusi genuen, galdu genuen trena)'
+- id: a2-bank-post
+  title: البانكة والبوسطة (kontua, dirua atera, transferentzia, paketea bidali)
+- id: a2-town-hall
+  title: البلدية والوراق (udaletxea, errolda, NAN, hitzordua eskatu)
+- id: a2-phone-messages
+  title: فالتيليفون (deitu, mezua utzi, okerreko zenbakia, gero deituko dizut)
+- id: a2-tech-basics
+  title: التكنولوجيا (ordenagailua, mugikorra, posta elektronikoa, pasahitza, wifia)
+- id: a2-shopping-returns
+  title: 'التقدية: التبديل والرجوع ديال الفلوس (probatu, handiegia, aldatu, dirua itzuli)'
+- id: a2-nature-vocab
+  title: الطبيعة (mendia, basoa, ibaia, hondartza, gailurra, bidezidorra)
+- id: a2-animals
+  title: الحيوانات (txakurra, behia, ardia, txoria, basurdea, otsoa)
+- id: a2-sports
+  title: الرياضة (igeriketa, korrika, pilota, entrenatu, partida irabazi/galdu)
+- id: a2-hobbies
+  title: 'الهوايات (-tzea gustatzen zait: irakurtzea, sukaldatzea, argazkiak ateratzea)'
+- id: a2-weekend-leisure
+  title: النشاط ديال الويكاند (kontzertua, museoa, erakusketa, sarrera, doan)
+- id: a2-biography
+  title: السير الذاتية (jaio zen, ikasketak egin zituen, ezkondu ziren, hil zen)
+- id: a2-indirect-questions
+  title: 'الأسئلة غير المباشرة (ea + -(e)n: ez dakit etorriko den)'
+- id: a2-time-clauses
+  title: الجمل ديال الوقت (-nean, aurretik, ondoren)
+- id: a2-purpose-clauses
+  title: 'الهدف (-tzeko, -tzera: ikastera etorri naiz)'
+- id: a2-exam-review
+  title: مراجعة شاملة ديال المستوى (بحال الامتحان)
+- id: a2-clothes-extended
+  title: الحوايج بتوسع (jantziak, oinetakoak, osagarriak, neurriak, koloreak, sarrera-irteerak)
+- id: a2-home-extended
+  title: الدار بتوسع (alokairua, etxebizitza, auzoa, garajea, lorategia, terraza)
+- id: a2-jobs-extended
+  title: الحرف والخدمات بتوسع (lanaldia, soldata, langilea, nagusia, lankidea, lan-elkarrizketa)
+- id: a2-festivals
+  title: الأعياد والتقاليد (San Juan sua, Olentzero, Korrika, jai herrikoiak)
+- id: a2-routines-compare
+  title: نقارنو الروتين والعادات (lehen... orain..., bertan... bestea... )

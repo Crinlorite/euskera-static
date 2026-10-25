@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = 首先；*gero* = 然后；*azkenean* = 最后。这是串联动作的标准顺序。'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: 要描述故事的背景**场景**（比如天气如何，他们在哪里），我应该用哪种过去时？
+  prompt: 要描述故事的背景场景（比如天气如何，他们在哪里），我应该用哪种过去时？
   options:
   - Iragan burutua (joan nintzen)
   - 现在时

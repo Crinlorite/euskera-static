@@ -24,7 +24,7 @@ exercises:
   explanation: '*Lehenengo* = primer; *gero* = després; *azkenean* = finalment. És la cadena estàndard per encadenar accions.'
 - id: ex-a2-ir5-mc2
   type: multiple-choice
-  prompt: Per parlar de l'**escena** de fons (com era el dia, on eren) en una història, quin passat faig servir?
+  prompt: Per parlar de l'escena de fons (com era el dia, on eren) en una història, quin passat faig servir?
   options:
   - Iragan burutua (joan nintzen)
   - Present
