@@ -4,7 +4,7 @@ import RootLayout from '../../layouts/RootLayout.astro';
 import Lauburu from '../../components/ui/Lauburu.svelte';
 import Particles from '../../components/ui/Particles.svelte';
 import HeroBackground from '../../components/ui/HeroBackground.svelte';
-import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
+import { ACTIVE_LOCALES, LANGUAGES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 import { LOCKED_PATHS } from '../../lib/gate';
 import AppBadges from '../../components/layout/AppBadges.astro';
@@ -40,6 +40,12 @@ const descripcion = t(locale, 'site.description');
         <a class="btn btn-primary" href={`/${locale}/a1/`}>{t(locale, 'home.cta.start')}</a>
         <a class="btn btn-secondary" href={`/${locale}/sobre/`}>{t(locale, 'about.title')}</a>
       </div>
+      {LANGUAGES[locale].sinRevisionNativa && (
+        <p class="aviso-nativo" role="note">
+          <span class="badge-beta">{t(locale, 'lang.beta')}</span>
+          {t(locale, 'beta.banner')} <a href={`/${locale}/feedback/`}>{t(locale, 'beta.report')}</a>
+        </p>
+      )}
       <WebOnly>
         <div class="hero-app app-promo">
           <span class="hero-app-label">{t(locale, 'app.title')}</span>
@@ -125,6 +131,28 @@ const descripcion = t(locale, 'site.description');
     display: flex;
     gap: var(--s-3);
     flex-wrap: wrap;
+  }
+  /* Idioma traducido sin revisión nativa (LANGUAGES[..].sinRevisionNativa): aviso fijo que pide correcciones. */
+  .aviso-nativo {
+    margin: var(--s-5) 0 0;
+    max-inline-size: 46ch;
+    padding: var(--s-3) var(--s-4);
+    border-radius: 12px;
+    background: var(--c-green-soft);
+    color: var(--c-green-strong);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  .aviso-nativo a { color: inherit; font-weight: 700; text-decoration: underline; }
+  .aviso-nativo .badge-beta {
+    display: inline-block;
+    margin-inline-end: var(--s-2);
+    padding: 0 0.5em;
+    border-radius: 999px;
+    background: var(--c-green-strong);
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 700;
   }
   .hero-app {
     display: flex;

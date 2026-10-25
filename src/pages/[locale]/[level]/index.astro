@@ -75,6 +75,8 @@ const TEASERS: Partial<Record<LocaleCode, Teasers>> = {
         gym: 'Ejtsd ki, és nézd meg, megértenek-e — minden az eszközödön fut, semmi sem hagyja el.' },
   bg: { sim: 'Пълен изпит A1, всеки път различен — с entzumena с истински глас, четене, граматика и автоматично проверявано писане.',
         gym: 'Произнеси и провери дали те разбират — всичко работи на устройството ти и нищо не го напуска.' },
+  ary: { sim: 'امتحان A1 كامل، كل مرة مختالف — فيه entzumena بصوت حقيقي، والقراية، والقواعد، والكتابة اللي كتصحح راسها.',
+        gym: 'نطق وشوف واش كيتفهم كلامك — كلشي خدام فالجهاز ديالك، والو ما كيخرج منو.' },
 };
 const teasers = TEASERS[locale] ?? TEASERS.es!;
 const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), minimoDescripcion(locale));

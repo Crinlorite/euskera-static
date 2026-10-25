@@ -223,3 +223,8 @@ input, textarea, select {
   box-shadow: var(--sh-glow-green);
   border-color: transparent !important;
 }
+
+/* Euskera dentro de texto de derecha a izquierda (ar, ary): cada fragmento en cursiva,
+   negrita o código toma la dirección de su primera letra. Sin esto, «*Alaia da.* (…)»
+   se veía «.Alaia da (…)» y los paréntesis y comas junto al euskera saltaban de sitio. */
+[dir="rtl"] .lesson :is(em, strong, code) { unicode-bidi: plaintext; }

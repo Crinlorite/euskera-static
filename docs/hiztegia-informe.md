@@ -1,6 +1,6 @@
 # Hiztegia — informe de revision
 
-Generado por `scripts/extraer_hiztegia.mjs` el 2026-10-12. **Leer esto antes de publicar.**
+Generado por `scripts/extraer_hiztegia.mjs` el 2026-10-25. **Leer esto antes de publicar.**
 
 El extractor no inventa nada: toda palabra y todo ejemplo salen de un fichero
 del repo. Lo que no puede hacer es juzgar si una traduccion es *buena*. Aqui
@@ -30,6 +30,7 @@ esta lo que conviene mirar con ojos humanos.
 | ko | 1562 | 926 | 790 | 770 | 173 | 23 |
 | hu | 1562 | 926 | 790 | 770 | 159 | 23 |
 | bg | 1562 | 926 | 790 | 770 | 151 | 23 |
+| ary | 762 | 466 | 405 | 359 | 91 | 13 |
 
 ## Traducciones DESCARTADAS por ser euskera (5)
 

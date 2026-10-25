@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import { t } from '../../i18n/ui';
 import { LANGUAGES, type LocaleCode } from '../../i18n/config';
 import MobileDrawer from './MobileDrawer.svelte';
@@ -15,13 +16,16 @@ const here = Astro.url.pathname;
 const onPicker = here.endsWith('/idioma/');
 const langHref = onPicker ? `/${locale}/idioma/` : `/${locale}/idioma/?from=${encodeURIComponent(here)}`;
 
+// No todos los idiomas tienen A2 (el dariya solo A1): sin enlace a una página que no existe.
+const conA2 = (await getCollection('levels')).some((l) => l.id === `${locale}/a2`);
+
 const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' }> = [
   { href: `/${locale}/`, key: 'nav.home' },
   { href: `/${locale}/a1/`, label: 'A1' },
   { href: `/${locale}/a2/`, label: 'A2' },
   { href: `/${locale}/hiztegia/`, key: 'hiz.title' },
   { href: `/${locale}/progreso/`, key: 'nav.progress' },
-];
+].filter((i) => i.href !== `/${locale}/a2/` || conA2);
 ---
 <header class="site-header">
   <div class="container-wide row">
@@ -57,7 +61,7 @@ const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.ab
       <span class="lang-name">{langName}</span>
       <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
     </a>
-    <MobileDrawer client:load locale={locale} />
+    <MobileDrawer client:load locale={locale} {conA2} />
   </div>
 </header>
 

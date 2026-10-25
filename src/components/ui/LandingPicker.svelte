@@ -87,6 +87,7 @@
           aria-label={`Ir a ${lang.name}`}
         >
           <span class="name" dir={lang.dir}>{lang.name}</span>
+          {#if lang.latin}<span class="latin" lang="en">{lang.latin}</span>{/if}
           {#if isBeta}
             <span class="badge beta">Beta</span>
           {/if}
@@ -179,6 +180,7 @@
   }
 
   .name { font-weight: 600; flex: 1; font-size: 1.1rem; }
+  .latin { font-weight: 400; font-size: 0.9rem; color: var(--c-text-muted); }
   .arrow {
     color: var(--c-red);
     transition: transform var(--m-base) var(--ease-out);

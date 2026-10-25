@@ -77,12 +77,14 @@ test('los temas apuntan a palabras que existen', () => {
   }
 });
 
-test('los 20 idiomas tienen sus temas', () => {
+test('los 21 idiomas tienen sus temas', () => {
   const locales = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
-                   'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg'];
+                   'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg', 'ary'];
   for (const l of locales) {
     const d = JSON.parse(readFileSync(new URL(`../src/data/hiztegia/${l}.json`, import.meta.url), 'utf8'));
-    assert.ok(d.temas.length >= 20, `${l}: solo ${d.temas.length} temas`);
+    // El dariya solo tiene A1 (13 unidades): un tema por unidad.
+    const minimo = l === 'ary' ? 13 : 20;
+    assert.ok(d.temas.length >= minimo, `${l}: solo ${d.temas.length} temas`);
     assert.equal(l === 'es', Boolean(d.entradas), `${l}: solo el castellano lleva entradas`);
   }
 });

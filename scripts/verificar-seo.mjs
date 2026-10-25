@@ -29,7 +29,7 @@ const DIST = process.argv[2] ?? 'dist';
 
 // Mismo orden que ACTIVE_LOCALES en src/i18n/config.ts.
 const LOCALES = ['es', 'ca', 'gl', 'oc', 'ast', 'an', 'en', 'ar', 'fr', 'ro',
-                 'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg'];
+                 'pt-BR', 'de', 'it', 'ru', 'pl', 'zh-Hans', 'ja', 'ko', 'hu', 'bg', 'ary'];
 const ES_LOCALE = new Set(LOCALES);
 const MAX_DESC = 160;
 const NIVELES = /^(a1|a2|b1|b2|c1|c2|ega)\//;
