@@ -26,10 +26,13 @@ test('tp: un idioma sin categoría «one» (ja) ve su texto de siempre', () => {
 });
 
 test('tp: nunca mezcla idiomas (sin variante cae en el genérico del propio idioma)', () => {
+  // Se compara con la frase castellana entera: palabras sueltas como «quedó»
+  // también son correctas en asturiano.
+  const es = tp('es', 'review.graduated', 1);
   for (const loc of ACTIVE_LOCALES) {
     if (loc === 'es') continue;
     const s = tp(loc, 'review.graduated', 1);
-    assert.equal(s.includes('quedó'), false, `${loc}: ${s}`);
+    assert.notEqual(s, es, `${loc}: ${s}`);
   }
 });
 
