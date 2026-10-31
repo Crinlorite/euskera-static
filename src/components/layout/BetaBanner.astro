@@ -18,6 +18,11 @@ const isBeta = LANGUAGES[locale]?.status === 'beta';
     <a class="bb-link" href={`/${locale}/feedback/`}>{t(locale, 'beta.report')}</a>
     <button type="button" id="beta-banner-dismiss" class="bb-dismiss" aria-label={t(locale, 'common.close')}>×</button>
   </div>
+  <!-- Alto del aviso ANTES del primer pintado: si espera al script de módulo
+       (diferido), la página se pinta sin hueco y luego baja de golpe. El script
+       de RootLayout sigue al cargo del descarte, el redimensionado y la
+       navegación. -->
+  <script is:inline>(function(){var el=document.getElementById('beta-banner'),r=document.documentElement;if(!el)return;try{if(sessionStorage.getItem('euskera-static.beta-banner-dismissed')==='1'){el.style.display='none';r.style.setProperty('--beta-banner-h','0px');return}}catch(e){}r.style.setProperty('--beta-banner-h',el.offsetHeight+'px')})()</script>
 )}
 
 <style>

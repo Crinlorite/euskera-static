@@ -199,6 +199,8 @@ const alternativas = await alternativasDe(Astro.url.pathname);
       document.addEventListener('astro:after-swap', applyBetaBanner);
       setupBetaBanner();
       document.addEventListener('astro:page-load', setupBetaBanner);
+      // Con la fuente web ya cargada el texto puede ocupar otra altura.
+      document.fonts?.ready.then(applyBetaBanner);
     </script>
     <script>
       // Registra el Service Worker para PWA offline-first.
