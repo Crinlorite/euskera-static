@@ -6,6 +6,9 @@ import { fueraDeBuscadores } from './src/lib/locked.mjs';
 export default defineConfig({
   site: 'https://euskera.crintech.pro',
   trailingSlash: 'always',
+  // Astro 7 cambió el valor por defecto a 'jsx', que se come espacios entre
+  // etiquetas en línea; mantenemos el comportamiento de siempre.
+  compressHTML: true,
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
