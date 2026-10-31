@@ -4,11 +4,14 @@
   import { onMount } from 'svelte';
   import { ACHIEVEMENTS, evaluate, type Achievement, type AchievementCategory } from '../../lib/achievements';
   import { getProgress, unlockAchievements } from '../../stores/progress';
+  import { readIndex } from '../../lib/lesson-index';
 
   // Catálogo que se pinta; por defecto el de lib. evaluate() sigue usando
   // ACHIEVEMENTS para desbloquear: catalog solo decide qué se muestra y se cuenta.
   export let catalog: Achievement[] = ACHIEVEMENTS;
   // Mapas necesarios para evaluar logros que dependen de qué lecciones existen.
+  // Si no llega lessonsByUnit, se deriva del índice embebido en la página
+  // (LessonIndexData): mismos pares unidad → lecciones, sin repetirlos en props.
   export let lessonsByUnit: Record<string, string[]> = {};
   export let unitsByLevel: Record<string, { unitIds: string[] }> = {};
   /** id de unidad → su título en el idioma de la página (logros de maestría). */
@@ -21,12 +24,16 @@
 
   onMount(() => {
     const progress = getProgress();
+    const byUnit: Record<string, string[]> = { ...lessonsByUnit };
+    if (!Object.keys(byUnit).length) {
+      for (const [id, e] of Object.entries(readIndex())) (byUnit[e.u] ??= []).push(id);
+    }
     const knownKeys = new Set<string>();
-    for (const ids of Object.values(lessonsByUnit)) {
+    for (const ids of Object.values(byUnit)) {
       for (const id of ids) knownKeys.add(id);
     }
     // Evalúa logros automáticos a partir del estado actual y los persiste.
-    const auto = evaluate(progress, knownKeys, unitsByLevel, lessonsByUnit);
+    const auto = evaluate(progress, knownKeys, unitsByLevel, byUnit);
     if (auto.length > 0) unlockAchievements(auto);
     // Lee tras persistir para incluir trigger-only que ya estaban
     const after = getProgress();

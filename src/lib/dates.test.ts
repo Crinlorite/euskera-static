@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { addDays, daysBetween, keyToDate, todayKey, weekStart } from './dates.ts';
+import { addDays, daysBetween, formatDayLong, keyToDate, todayKey, weekStart } from './dates.ts';
 
 // Los cambios de hora solo se notan con una zona que los tenga. Ejecutar también con
 //   TZ=Europe/Madrid node --test src/lib/dates.test.ts
@@ -76,4 +76,24 @@ test('weekStart devuelve el lunes (semana lunes–domingo)', () => {
   assert.equal(weekStart('2026-11-02'), '2026-11-02'); // lunes siguiente
   assert.equal(weekStart('2026-04-01'), '2026-03-30'); // semana que cruza mes y cambio de hora
   assert.equal(weekStart('2027-01-01'), '2026-12-28'); // semana que cruza año
+});
+
+test('formatDayLong da el día en largo en el idioma pedido', () => {
+  const es = formatDayLong('es', '2026-11-05');
+  assert.ok(es.includes('noviembre'), es);
+  assert.ok(es.includes('5'), es);
+});
+
+test('formatDayLong en árabe no lanza y no queda vacío', () => {
+  const ar = formatDayLong('ar', '2026-11-05');
+  assert.equal(typeof ar, 'string');
+  assert.ok(ar.length > 0);
+});
+
+test('formatDayLong sin fecha devuelve la cadena vacía', () => {
+  assert.equal(formatDayLong('es', ''), '');
+});
+
+test('formatDayLong con una clave que no es fecha la devuelve tal cual', () => {
+  assert.equal(formatDayLong('es', 'x'), 'x');
 });

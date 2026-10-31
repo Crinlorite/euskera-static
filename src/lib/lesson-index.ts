@@ -14,6 +14,8 @@ export interface LessonIndexEntry {
   g: string[];
   /** Título (solo si se pide). */
   t?: string;
+  /** Código de la lección, el último tramo de su URL (solo si se pide). */
+  c?: string;
   /** Enlace (solo si se pide). */
   h?: string;
 }
@@ -22,7 +24,7 @@ export interface LessonIndexEntry {
 export type LessonIndex = Record<string, LessonIndexEntry>;
 
 export interface IndexableLesson {
-  data: { id: string; unitId: string; title: string; exercises: Array<{ id: string; type: string }> };
+  data: { id: string; unitId: string; title: string; code: string; exercises: Array<{ id: string; type: string }> };
 }
 
 /** JSON del índice apto para ir dentro de `<script type="application/json">`. */
@@ -46,9 +48,15 @@ export function readIndex(root: ParentNode = document): LessonIndex {
   }
 }
 
+/**
+ * Índice de las lecciones dadas. El ORDEN de inserción de las claves es el de
+ * entrada (las claves no numéricas de un objeto lo conservan, también tras
+ * JSON): quien lo construye en orden de currículo puede usar `Object.keys()`
+ * como ese orden (lo hacen nextLesson() y los anillos del índice de nivel).
+ */
 export function indexLessons<L extends IndexableLesson>(
   lessons: L[],
-  opts: { titles?: boolean; hrefOf?: (l: L) => string } = {},
+  opts: { titles?: boolean; codes?: boolean; hrefOf?: (l: L) => string } = {},
 ): LessonIndex {
   const out: LessonIndex = {};
   for (const l of lessons) {
@@ -59,6 +67,7 @@ export function indexLessons<L extends IndexableLesson>(
       g: exercises.filter((e) => GRADED_TYPES.has(e.type)).map((e) => e.id),
     };
     if (opts.titles) entry.t = l.data.title;
+    if (opts.codes) entry.c = l.data.code;
     if (opts.hrefOf) entry.h = opts.hrefOf(l);
     out[l.data.id] = entry;
   }

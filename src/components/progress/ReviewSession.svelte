@@ -3,7 +3,7 @@
   import { t, tf } from '../../i18n/ui';
   import type { LocaleCode } from '../../i18n/config';
   import { getProgress, recordExerciseResult } from '../../stores/progress';
-  import { keyToDate, todayKey } from '../../lib/dates';
+  import { formatDayLong, todayKey } from '../../lib/dates';
   import { readIndex, type LessonIndex } from '../../lib/lesson-index';
   import {
     buildReinforcement, buildReviewQueue, countDue, nextDueDate, scopeFromSearch, REINFORCE_THRESHOLD,
@@ -170,14 +170,6 @@
   function focusExercise() {
     tick().then(() => exEl?.focus({ preventScroll: true }));
   }
-
-  function fmtDate(key: string): string {
-    try {
-      return new Intl.DateTimeFormat(locale, { weekday: 'long', day: 'numeric', month: 'long' }).format(keyToDate(key));
-    } catch {
-      return key;
-    }
-  }
 </script>
 
 <section class="review">
@@ -193,7 +185,7 @@
   {:else if phase === 'empty'}
     <p class="intro">{t(locale, 'review.intro')}</p>
     <p class="count">{t(locale, 'review.empty')}</p>
-    {#if nextDue}<p class="next">{tf(locale, 'review.next', fmtDate(nextDue))}</p>{/if}
+    {#if nextDue}<p class="next">{tf(locale, 'review.next', formatDayLong(locale, nextDue))}</p>{/if}
     {#if reinforcement.length}
       <div class="actions">
         <button class="btn btn-secondary" type="button" on:click={() => start(reinforcement)}>{t(locale, 'review.reinforce')}</button>

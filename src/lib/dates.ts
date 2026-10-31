@@ -41,3 +41,12 @@ export function weekStart(key: string): string {
   const dow = (keyToDate(key).getDay() + 6) % 7;
   return addDays(key, -dow);
 }
+
+/** «jueves, 5 de noviembre» en el idioma dado; la clave tal cual si el motor no puede (incluida ''). */
+export function formatDayLong(locale: string, key: string): string {
+  try {
+    return new Intl.DateTimeFormat(locale, { weekday: 'long', day: 'numeric', month: 'long' }).format(keyToDate(key));
+  } catch {
+    return key;
+  }
+}

@@ -52,12 +52,28 @@ test('indexLessons: título y enlace opcionales', () => {
   assert.equal(idx['a1-descriptions-6'].t, 'Solo tarjetas');
 });
 
+test('indexLessons: código opcional (c) solo si se pide', () => {
+  const conCodigo = indexLessons(lecciones, { codes: true });
+  assert.equal(conCodigo['a1-descriptions-5'].c, '05-izan-vs-egon');
+  assert.equal(conCodigo['a1-descriptions-6'].c, '06-tarjetas');
+  assert.ok(!('c' in indexLessons(lecciones)['a1-descriptions-5']));
+});
+
+test('indexLessons: el orden de las claves es el de entrada (también tras serializar)', () => {
+  const [l1, l2] = lecciones;
+  const l3 = { data: { ...l1.data, id: 'a1-descriptions-1', code: '01-primera' } };
+  const idx = indexLessons([l3, l1, l2]);
+  const esperado = ['a1-descriptions-1', 'a1-descriptions-5', 'a1-descriptions-6'];
+  assert.deepEqual(Object.keys(idx), esperado);
+  assert.deepEqual(Object.keys(JSON.parse(serializeIndex(idx))), esperado);
+});
+
 test('indexLessons: lista vacía → índice vacío', () => {
   assert.deepEqual(indexLessons([]), {});
 });
 
 test('serializeIndex: JSON que no puede cerrar el <script> y vuelve igual', () => {
-  const idx = indexLessons([{ data: { id: 'x', unitId: 'u', title: '</script><b>', exercises: [] } }], { titles: true });
+  const idx = indexLessons([{ data: { id: 'x', unitId: 'u', title: '</script><b>', code: 'x', exercises: [] } }], { titles: true });
   const json = serializeIndex(idx);
   assert.equal(json.includes('<'), false);
   assert.deepEqual(JSON.parse(json), idx);
