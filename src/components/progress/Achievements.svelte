@@ -5,7 +5,8 @@
   import { ACHIEVEMENTS, evaluate, type Achievement, type AchievementCategory } from '../../lib/achievements';
   import { getProgress, unlockAchievements } from '../../stores/progress';
 
-  // Unused but kept para compat (catalog está hardcoded en lib)
+  // Catálogo que se pinta; por defecto el de lib. evaluate() sigue usando
+  // ACHIEVEMENTS para desbloquear: catalog solo decide qué se muestra y se cuenta.
   export let catalog: Achievement[] = ACHIEVEMENTS;
   // Mapas necesarios para evaluar logros que dependen de qué lecciones existen.
   export let lessonsByUnit: Record<string, string[]> = {};
@@ -41,12 +42,12 @@
   let activeFilter: Filter = 'all';
 
   $: unlockedSet = new Set(unlockedIds);
-  $: total = ACHIEVEMENTS.length;
-  $: unlockedCount = ACHIEVEMENTS.filter((a) => unlockedSet.has(a.id)).length;
+  $: total = catalog.length;
+  $: unlockedCount = catalog.filter((a) => unlockedSet.has(a.id)).length;
 
   $: visible = activeFilter === 'all'
-    ? ACHIEVEMENTS
-    : ACHIEVEMENTS.filter((a) => a.category === activeFilter);
+    ? catalog
+    : catalog.filter((a) => a.category === activeFilter);
 
   // Mantén el orden: desbloqueados primero, luego bloqueados (estabilidad
   // visual conforme el usuario va consiguiéndolos).

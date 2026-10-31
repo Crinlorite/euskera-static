@@ -218,7 +218,9 @@
     letter-spacing: var(--tr-tight);
     margin: 0;
   }
-  .gate-title .text-grad {
+  /* El span.text-grad llega por @html: Svelte no lo ve en la plantilla y descartaba
+     la regla como sin usar. :global() acotado bajo la clase local del h2. */
+  .gate-title :global(.text-grad) {
     background: var(--grad-ikurri-text);
     -webkit-background-clip: text;
     background-clip: text;
@@ -263,7 +265,8 @@
     font-size: 0.85rem;
     color: var(--c-text-muted);
   }
-  .gate-foot a { color: var(--c-red); font-weight: 600; }
+  /* Los <a> llegan por @html: mismo caso que .text-grad. */
+  .gate-foot :global(a) { color: var(--c-red); font-weight: 600; }
 
   .sr-only {
     position: absolute;
