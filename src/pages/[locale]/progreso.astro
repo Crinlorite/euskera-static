@@ -49,6 +49,11 @@ for (const { level, units } of unitsByLevelEntries) {
 // resumen lo usa como orden para «Continuar»; no reordenar.
 const index = indexLessons(openLessons, { titles: true, codes: true });
 
+// Unidades (sin lecciones) para la tarjeta «Continuar» del resumen.
+const unitsMeta = unitsByLevelEntries.flatMap(({ level, units }) =>
+  units.map((u) => ({ id: u.data.id, code: u.data.code, title: u.data.title, order: u.data.order, level })),
+);
+
 const unitsForComponentByLevel = unitsByLevelEntries.map(({ level, units }) => ({
   level,
   units: units.map((u) => ({
@@ -80,7 +85,7 @@ const descripcion = t(locale, 'site.description');
     </header>
 
     <LessonIndexData index={index} />
-    <ProgressDashboard client:load locale={locale} />
+    <ProgressDashboard client:load locale={locale} units={unitsMeta} />
 
     {unitsForComponentByLevel.map(({ level, units }) => (
       <ProgressByUnit
