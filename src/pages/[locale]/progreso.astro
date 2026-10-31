@@ -9,6 +9,7 @@ import { indexLessons } from '../../lib/lesson-index';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
 import { LOCKED_PATHS } from '../../lib/locked.mjs';
+import { LOCALE_ENTRADAS, temasDe } from '../../lib/hiztegia';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
@@ -47,12 +48,24 @@ for (const { level, units } of unitsByLevelEntries) {
 // resumen, el progreso por unidad (títulos y enlaces de los puntos) y los logros.
 // Su ORDEN de inserción es el del currículo (nivel → unidad → lección): el
 // resumen lo usa como orden para «Continuar»; no reordenar.
-const index = indexLessons(openLessons, { titles: true, codes: true });
+// `vocab`: palabras de tarjetas y emparejar como enteros (≈ 7 KB) para contar las practicadas.
+const index = indexLessons(openLessons, { titles: true, codes: true, vocab: true });
 
 // Unidades (sin lecciones) para la tarjeta «Continuar» del resumen.
 const unitsMeta = unitsByLevelEntries.flatMap(({ level, units }) =>
   units.map((u) => ({ id: u.data.id, code: u.data.code, title: u.data.title, order: u.data.order, level })),
 );
+
+// Diccionario (solo el idioma con páginas por palabra): palabras con página por unidad.
+const hizByUnit: Record<string, number> = {};
+if (locale === LOCALE_ENTRADAS) {
+  for (const tema of temasDe(locale)) {
+    const [lvl, code] = tema.unidad.split('/');
+    const u = unitsMeta.find((x) => x.level === lvl && x.code === code);
+    if (u) hizByUnit[u.id] = tema.palabras.filter((w) => w.pagina).length;
+  }
+}
+const hizHref = locale === LOCALE_ENTRADAS ? `/${locale}/hiztegia/` : '';
 
 const unitsForComponentByLevel = unitsByLevelEntries.map(({ level, units }) => ({
   level,
@@ -92,7 +105,7 @@ const descripcion = t(locale, 'site.description');
          pintar; con ClientRouter se vuelve a ejecutar en cada visita. -->
     <div class="dash" data-dash="s0">
       <script is:inline data-astro-rerun>(function(){var d=document.querySelector('[data-dash]');if(!d)return;try{if(localStorage.getItem('euskera-static.progress.v1'))d.dataset.dash='s1'}catch(e){}})()</script>
-      <ProgressDashboard client:load locale={locale} units={unitsMeta} />
+      <ProgressDashboard client:load locale={locale} units={unitsMeta} hizByUnit={hizByUnit} hizHref={hizHref} />
     </div>
 
     {unitsForComponentByLevel.map(({ level, units }, i) => (
@@ -123,17 +136,18 @@ const descripcion = t(locale, 'site.description');
   .dash { display: grid; gap: var(--s-4); align-content: start; }
   /* Alto reservado hasta que el resumen se monta: un poco por debajo del mínimo
      medido en 10 idiomas, para que al montar crezca algo y nunca deje hueco.
-     Cortes: las cifras pasan de 4 a 3 columnas hacia los 685 px; por debajo de
+     Cortes: las cifras pasan de 4 a 3 columnas a los 683 px; por debajo de
      541 px el resumen toma una forma fija (ProgressDashboard) y por debajo de
-     344 px las cifras van en una sola columna. */
+     344 px las cifras van en una sola columna. Con la actividad de la fase 3
+     (31-oct-2026) s1 mide 779–809 / 919–976 / 1107–1168 / 1434–1518 px. */
   .dash[data-dash="s0"] { min-block-size: 172px; }
-  .dash[data-dash="s1"] { min-block-size: 510px; }
-  @media (max-width: 684px) { .dash[data-dash="s1"] { min-block-size: 650px; } }
+  .dash[data-dash="s1"] { min-block-size: 770px; }
+  @media (max-width: 683px) { .dash[data-dash="s1"] { min-block-size: 910px; } }
   @media (max-width: 540px) {
     .dash[data-dash="s0"] { min-block-size: 228px; }
-    .dash[data-dash="s1"] { min-block-size: 806px; }
+    .dash[data-dash="s1"] { min-block-size: 1100px; }
   }
-  @media (max-width: 343px) { .dash[data-dash="s1"] { min-block-size: 1130px; } }
+  @media (max-width: 343px) { .dash[data-dash="s1"] { min-block-size: 1425px; } }
   .dash:has(:global(.next-card), :global(.summary)) { min-block-size: 0; }
   .page-head { display: grid; gap: var(--s-2); }
   .page-title {

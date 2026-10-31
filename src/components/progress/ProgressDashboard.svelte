@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { appStoreReviewUrl } from '../../lib/appstore';
   import {
-    getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements, PROGRESS_EVENT,
+    getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements, setWeeklyGoal, PROGRESS_EVENT,
     type ProgressV1,
   } from '../../stores/progress';
   import { t, tf, tp } from '../../i18n/ui';
@@ -13,11 +13,17 @@
   import { countDue, countGraduated, nextDueDate } from '../../lib/review';
   import { formatDayLong, todayKey } from '../../lib/dates';
   import { nextLesson, type NextReason } from '../../lib/next-lesson';
+  import { activeDaysThisMonth, activeDaysThisWeek, clampGoal, gridCells, studyDays } from '../../lib/activity';
+  import { countVocab } from '../../lib/vocab';
+  import ActivityGrid from './ActivityGrid.svelte';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
   /** Unidades de los niveles abiertos (sin lecciones): contexto y enlace de «Continuar». */
   export let units: Array<{ id: string; code: string; title: string; order: number; level: string }> = [];
+  /** Solo en el idioma con diccionario completo: palabras con página propia por unidad, y su enlace. */
+  export let hizByUnit: Record<string, number> = {};
+  export let hizHref: string = '';
 
   let progress: ProgressV1 | null = null;
   // Lecciones de los niveles abiertos del idioma: el índice embebido en la página
@@ -77,6 +83,26 @@
   $: nextMeta = next && !empty
     ? `${t(locale, 'unit.eyebrow')}: ${next.unitDone}/${next.unitTotal}${next.unitPerfect ? ` · ${t(locale, 'lesson.state.perfect')}: ${next.unitPerfect}` : ''}`
     : '';
+  // Actividad (fase 3): días de `activity` más los deducidos de lo guardado antes
+  // (solo al mostrar; nunca se escriben). La meta se acota al LEER: un código
+  // importado puede traer 0 o 99.
+  const today = todayKey();
+  $: days = progress ? studyDays(progress) : new Map<string, number | null>();
+  $: activeMonth = activeDaysThisMonth(days, today);
+  $: activeWeek = activeDaysThisWeek(days, today);
+  $: goal = progress ? clampGoal(progress.preferences.weeklyGoalDays) : 3;
+  $: cells = gridCells(days, today);
+  $: completedIds = progress ? Object.keys(index).filter((id) => progress?.lessons[id]?.status === 'completed') : [];
+  $: words = countVocab(index, completedIds);
+  // Diccionario: palabras con página de las unidades con alguna lección completada.
+  $: hizCount = hizHref ? [...new Set(completedIds.map((id) => index[id].u))].reduce((n, u) => n + (hizByUnit[u] ?? 0), 0) : 0;
+  $: weekLine = tf(locale, 'progress.goal.week', activeWeek, goal);
+  $: gridLabel = `${t(locale, 'progress.activity')}: ${activeMonth} ${tp(locale, 'progress.days.active', activeMonth)} · ${weekLine}`;
+  function onGoal(e: Event) {
+    // El guardado avisa con PROGRESS_EVENT y `refresh` repinta con la meta nueva.
+    setWeeklyGoal(Number((e.currentTarget as HTMLSelectElement).value));
+  }
+
   let exportedHash = '';
   let importValue = '';
   let banner = '';
@@ -208,13 +234,37 @@
       <span>{t(locale, 'lesson.state.perfect')}</span>
     </div>
     <div class="card">
+      <strong>{activeMonth}</strong>
+      <span>{tp(locale, 'progress.days.active', activeMonth)}</span>
+    </div>
+    <!-- Racha con el récord debajo: mismo dato que antes, sin tarjeta propia. -->
+    <div class="card">
       <strong>{progress.streak.current}</strong>
       <span>{tp(locale, 'progress.streak.days', progress.streak.current)}</span>
+      <small class="rec">{t(locale, 'progress.summary.record')}: {progress.streak.longest}</small>
     </div>
-    <div class="card">
-      <strong>{progress.streak.longest}</strong>
-      <span>{t(locale, 'progress.summary.record')}</span>
+  </section>
+
+  <!-- Actividad: meta semanal suave (sin frases si no se cumple), rejilla de 12
+       semanas y palabras practicadas. -->
+  <section class="activity" aria-labelledby="activity-h">
+    <div class="act-head">
+      <h2 id="activity-h" class="act-title">{t(locale, 'progress.activity')}</h2>
+      <div class="goal">
+        <label for="weekly-goal">{t(locale, 'progress.goal')}</label>
+        <select id="weekly-goal" value={goal} on:change={onGoal}>
+          {#each [1, 2, 3, 4, 5, 6, 7] as n}<option value={n}>{n}</option>{/each}
+        </select>
+        <span class="goal-week">{weekLine}</span>
+      </div>
     </div>
+    <ActivityGrid {cells} {locale} label={gridLabel} />
+    {#if words || hizCount}
+      <p class="words">
+        {#if words}<span><strong>{words}</strong> {t(locale, 'progress.words')}</span>{/if}
+        {#if hizCount}<a href={hizHref}>{t(locale, 'hiz.title')}: {hizCount}</a>{/if}
+      </p>
+    {/if}
   </section>
 
   <section class="review-card">
@@ -372,7 +422,33 @@
   .summary .of { font-size: 0.5em; font-weight: 500; color: var(--c-text-muted); margin-inline-start: 2px; }
   /* Mayúscula inicial sin claves nuevas (el span es ítem de grid: bloque). Neutro
      donde ya va en mayúscula (alemán) y en escrituras sin caja. */
-  .summary span::first-letter { text-transform: uppercase; }
+  .summary span::first-letter, .summary .rec::first-letter { text-transform: uppercase; }
+  .summary .rec { color: var(--c-text-muted); font-size: 0.78rem; }
+
+  /* Actividad: misma tarjeta que el resto; geometría estable (la rejilla mide
+     siempre lo mismo) para que el alto reservado acierte. */
+  .activity {
+    display: grid; gap: var(--s-3);
+    padding: var(--s-4) var(--s-5);
+    border: 1px solid var(--c-border); border-radius: var(--r-lg);
+    background: var(--c-bg);
+  }
+  .act-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s-2) var(--s-4); }
+  .act-title { margin: 0; font-family: var(--ff-sans); font-size: 1rem; font-weight: 700; letter-spacing: -0.005em; }
+  .goal { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); min-block-size: 44px; font-size: 0.92rem; }
+  /* 16 px: con menos, el WebView de iOS amplía la página al enfocar el control. */
+  .goal select {
+    font: inherit; font-size: 16px; min-block-size: 44px; min-inline-size: 4.5rem;
+    padding-block: 0; padding-inline: var(--s-3);
+    border: 1px solid var(--c-border-strong); border-radius: var(--r-md);
+    background: var(--c-bg); color: var(--c-text);
+  }
+  .goal select:focus-visible { outline: 2px solid var(--c-red); outline-offset: 2px; }
+  .goal-week { color: var(--c-text-muted); }
+  .words { margin: 0; display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-4); color: var(--c-text-muted); font-size: 0.92rem; }
+  .words strong { color: var(--c-text); font-weight: 700; }
+  .words a { color: var(--c-text); font-weight: 600; text-underline-offset: 0.2em; }
+  .words a:hover { color: var(--c-red); }
   /* Botones de texto subrayado (fila de copia y acciones secundarias). */
   .link-btn {
     display: inline-flex; align-items: center; gap: var(--s-2); min-block-size: 44px; padding: 0;
@@ -394,6 +470,9 @@
     .review-card .btn { inline-size: 100%; }
     .review-more { display: inline-flex; align-items: center; min-block-size: 44px; }
     .summary span { min-block-size: 2lh; }
+    /* Meta: la etiqueta en su línea y debajo el selector con la cuenta, igual en todos los idiomas. */
+    .goal { display: grid; grid-template-columns: auto 1fr; }
+    .goal label { grid-column: 1 / -1; }
   }
   /* Botones del modal. */
   .actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-4); }
