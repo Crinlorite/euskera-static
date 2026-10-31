@@ -42,6 +42,7 @@ const graded = (l: SidebarLesson) => l.data.exercises.filter((e) => GRADED_TYPES
   // la barra pasa a verde en cuanto se acierta el último ejercicio fallado.
   // El store se carga bajo demanda: en el índice de unidad no hace falta antes.
   import { attemptedPct, lessonState, stateLabel } from '../../lib/lesson-state';
+  import { nextLesson } from '../../lib/next-lesson';
 
   function paint() {
     // Con ClientRouter los oyentes siguen vivos en páginas sin barra lateral.
@@ -80,6 +81,29 @@ const graded = (l: SidebarLesson) => l.data.exercises.filter((e) => GRADED_TYPES
         if (sum) {
           sum.textContent = ` · ${completed}/${total}${perfect ? ` · ${labels.perfect}: ${perfect}` : ''}`;
           sum.hidden = false;
+        }
+        // Botón «Continuar · lección» del índice de unidad (la página de lección no
+        // lo tiene): la siguiente lección de ESTA unidad, solo si hay algo empezado
+        // y queda algo por hacer. El enlace se copia del de la propia lista.
+        const btn = document.querySelector<HTMLAnchorElement>('[data-unit-continue]');
+        if (btn) {
+          const els = [...aside.querySelectorAll<HTMLElement>('[data-lesson-id]')];
+          const split = (s: string | undefined) => (s ?? '').split(',').filter(Boolean);
+          const idx: Record<string, { ex: string[]; g: string[] }> = {};
+          const order = els.map((el) => {
+            const id = el.dataset.lessonId ?? '';
+            idx[id] = { ex: split(el.dataset.ex), g: split(el.dataset.graded) };
+            return id;
+          });
+          const next = nextLesson(p.lessons, idx, order);
+          const link = next && next.reason !== 'first' ? els.find((el) => el.dataset.lessonId === next.id)?.closest('a') : null;
+          if (link) {
+            btn.setAttribute('href', link.getAttribute('href') ?? link.href);
+            btn.textContent = `${btn.dataset.lContinue ?? ''} · ${link.querySelector('.title')?.textContent?.trim() ?? ''}`;
+            btn.hidden = false;
+          } else {
+            btn.hidden = true;
+          }
         }
       });
     }).catch(() => { /* sin store (o sin almacenamiento): se queda todo «sin empezar» */ });
