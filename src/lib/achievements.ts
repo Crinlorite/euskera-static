@@ -225,7 +225,7 @@ const perfectOf = (unitId: string, title: string): Achievement => ({
   id: `perfect-unit-${unitId}`,
   title: `Impecable: ${title}`,
   description: `Todas las lecciones de la unidad «${title}» en verde.`,
-  icon: '🟢',
+  icon: '🌟',
   category: 'mastery',
 });
 
