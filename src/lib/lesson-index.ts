@@ -1,4 +1,5 @@
 import { GRADED_TYPES } from './lesson-state.ts';
+import { vocabWords } from './vocab.ts';
 
 // Índice mínimo de lecciones para derivar estados en cliente sin cargar el
 // contenido. Se construye en el frontmatter (servidor) y viaja embebido en la
@@ -18,13 +19,18 @@ export interface LessonIndexEntry {
   c?: string;
   /** Enlace (solo si se pide). */
   h?: string;
+  /** Palabras de tarjetas y emparejar como enteros compartidos por todo el índice (solo si se pide). */
+  v?: number[];
 }
 
 /** id de lección → datos mínimos para `lessonState()`. */
 export type LessonIndex = Record<string, LessonIndexEntry>;
 
 export interface IndexableLesson {
-  data: { id: string; unitId: string; title: string; code: string; exercises: Array<{ id: string; type: string }> };
+  data: {
+    id: string; unitId: string; title: string; code: string;
+    exercises: Array<{ id: string; type: string; cards?: Array<{ eu: string }>; pairs?: Array<{ eu: string }> }>;
+  };
 }
 
 /** JSON del índice apto para ir dentro de `<script type="application/json">`. */
@@ -56,9 +62,10 @@ export function readIndex(root: ParentNode = document): LessonIndex {
  */
 export function indexLessons<L extends IndexableLesson>(
   lessons: L[],
-  opts: { titles?: boolean; codes?: boolean; hrefOf?: (l: L) => string } = {},
+  opts: { titles?: boolean; codes?: boolean; hrefOf?: (l: L) => string; vocab?: boolean } = {},
 ): LessonIndex {
   const out: LessonIndex = {};
+  const wordIds = new Map<string, number>();
   for (const l of lessons) {
     const exercises = l.data.exercises ?? [];
     const entry: LessonIndexEntry = {
@@ -69,6 +76,16 @@ export function indexLessons<L extends IndexableLesson>(
     if (opts.titles) entry.t = l.data.title;
     if (opts.codes) entry.c = l.data.code;
     if (opts.hrefOf) entry.h = opts.hrefOf(l);
+    if (opts.vocab) {
+      const words = vocabWords(exercises);
+      if (words.length) {
+        entry.v = words.map((w) => {
+          let n = wordIds.get(w);
+          if (n === undefined) { n = wordIds.size; wordIds.set(w, n); }
+          return n;
+        });
+      }
+    }
     out[l.data.id] = entry;
   }
   return out;
