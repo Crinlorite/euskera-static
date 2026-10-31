@@ -4,6 +4,7 @@ import RootLayout from '../../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
 import { t, tf } from '../../../i18n/ui';
 import LevelProgress from '../../../components/progress/LevelProgress.astro';
+import UnitDots from '../../../components/progress/UnitDots.astro';
 import { indexLessons } from '../../../lib/lesson-index';
 
 import { ajusta, minimoDescripcion } from '../../../lib/seo-texto.mjs';
@@ -27,15 +28,15 @@ const units = allUnits
   .sort((a, b) => a.data.order - b.data.order);
 
 const allLessons = await getCollection('lessons');
+const byOrder = (a: { data: { order: number } }, b: { data: { order: number } }) => a.data.order - b.data.order;
+const lessonsOf = (u: (typeof units)[number]) =>
+  allLessons.filter((l) => l.id.startsWith(`${locale}/${levelSlug}/${u.data.code}/`)).sort(byOrder);
 const lessonsByUnit = new Map<string, number>();
-for (const u of units) {
-  const count = allLessons.filter((l) => l.id.startsWith(`${locale}/${levelSlug}/${u.data.code}/`)).length;
-  lessonsByUnit.set(u.data.code, count);
-}
-// Lecciones de las unidades del nivel, para la barra de progreso de la cabecera.
-const levelIndex = indexLessons(
-  allLessons.filter((l) => units.some((u) => l.id.startsWith(`${locale}/${levelSlug}/${u.data.code}/`))),
-);
+for (const u of units) lessonsByUnit.set(u.data.code, lessonsOf(u).length);
+// Lecciones de las unidades del nivel, para la barra de progreso de la cabecera y
+// los anillos de cada tarjeta. EN ORDEN de currículo (unidad → lección): UnitDots
+// pinta por posición y nextLesson() usa ese orden; no reordenar.
+const levelIndex = indexLessons(units.flatMap(lessonsOf));
 
 // Teasers del simulakro y el gimnasio (03-ago-2026: abiertos a los 18 idiomas).
 // Copy de página: vive aquí, no en ui.ts.
@@ -103,16 +104,15 @@ const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), mi
       {units.length === 0 ? (
         <p class="empty">{t(locale, 'levels.upcoming')}</p>
       ) : (
-        <ul class="unit-list">
+        <ul class="unit-list" data-l-perfect={t(locale, 'lesson.state.perfect')}>
           {units.map((u) => (
             <li class="unit-item">
-              <a class="unit-card" href={`/${locale}/${levelSlug}/${u.data.code}/`}>
+              <a class="unit-card" href={`/${locale}/${levelSlug}/${u.data.code}/`} data-unit-id={u.data.id}>
                 <span class="unit-num display">{u.data.order.toString().padStart(2, '0')}</span>
                 <div class="unit-body">
                   <h3 class="unit-title">{u.data.title}</h3>
-                  <p class="unit-meta">
-                    {lessonsByUnit.get(u.data.code) ?? 0} {t(locale, 'unit.lessons').toLowerCase()} · ~{u.data.estimatedMinutes} min
-                  </p>
+                  <p class="unit-meta">{lessonsByUnit.get(u.data.code) ?? 0} {t(locale, 'unit.lessons').toLowerCase()} · ~{u.data.estimatedMinutes} min<span class="unit-state" hidden></span></p>
+                  <UnitDots count={lessonsByUnit.get(u.data.code) ?? 0} />
                 </div>
                 <span class="unit-arrow icon-direction-aware" aria-hidden="true">
                   <svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -290,6 +290,12 @@ const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), mi
     letter-spacing: -0.01em;
   }
   .unit-meta { color: var(--c-text-muted); font-size: 0.92rem; margin: 0; }
+  /* Progreso de la unidad pegado a la meta (lo escribe UnitDots); oculto sin progreso. */
+  .unit-state { color: var(--c-text); font-weight: 600; }
+  .unit-state[hidden] { display: none; }
+  /* Unidad actual (la de la siguiente lección): el borde ikurriña fijo, sin hover. */
+  .unit-card.actual { border-color: var(--c-border-strong); }
+  .unit-card.actual::before { transform: scaleY(1); }
   .unit-arrow {
     color: var(--c-red);
     transition: transform var(--m-base) var(--ease-out);
