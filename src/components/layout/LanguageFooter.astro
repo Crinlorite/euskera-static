@@ -21,6 +21,10 @@ const current = LANGUAGES[currentLocale];
 const here = Astro.url.pathname;
 const destinos = new Map(await Promise.all(all.map(async (l) => [l.code, await destinoIdiomaDe(here, l.code)] as const)));
 const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
+
+// Dos columnas que se leen de arriba abajo, en el orden de LANGUAGES (como el
+// desplegable de la cabecera y /idioma/): las filas salen del número de idiomas.
+const filas = (n: number) => `--filas:${Math.max(1, Math.ceil(n / 2))}`;
 ---
 <details class="lang-select">
   <summary>
@@ -36,7 +40,7 @@ const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
     {active.length > 0 && (
       <section>
         <h4>{t(currentLocale, 'lang.available')}</h4>
-        <ul>
+        <ul style={filas(active.length)}>
           {active.map((l) => (
             <li>
               <a href={switchTo(l.code)} aria-current={l.code === currentLocale ? 'true' : undefined} dir={l.dir}>
@@ -50,7 +54,7 @@ const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
     {peninsulares.length > 0 && (
       <section>
         <h4>{t(currentLocale, 'lang.peninsular')}</h4>
-        <ul>
+        <ul style={filas(peninsulares.length)}>
           {peninsulares.map((l) => (
             <li>
               <span class="planned" dir={l.dir}>
@@ -65,7 +69,7 @@ const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
     {otros.length > 0 && (
       <section>
         <h4>{t(currentLocale, 'lang.horizon')}</h4>
-        <ul>
+        <ul style={filas(otros.length)}>
           {otros.map((l) => (
             <li>
               <span class="planned" dir={l.dir}>
@@ -138,6 +142,8 @@ const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(var(--filas, 1), auto);
     gap: var(--s-1) var(--s-3);
     margin: 0;
     padding: 0;
