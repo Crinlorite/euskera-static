@@ -310,7 +310,7 @@
   .sync {
     display: flex; align-items: center; justify-content: space-between;
     gap: var(--s-4); flex-wrap: wrap;
-    margin-block-start: var(--s-5); padding: var(--s-4) var(--s-5);
+    padding: var(--s-4) var(--s-5);
     border: 1px solid var(--c-border); border-radius: var(--r-lg);
     background: var(--c-bg-alt);
   }
@@ -320,17 +320,19 @@
   .rate {
     display: flex; align-items: center; justify-content: space-between;
     gap: var(--s-4); flex-wrap: wrap;
-    margin-block-start: var(--s-5); padding: var(--s-4) var(--s-5);
+    padding: var(--s-4) var(--s-5);
     border: 1px solid var(--c-border); border-radius: var(--r-lg);
     background: var(--c-bg-alt);
   }
   .rate-txt { display: grid; gap: 2px; }
 
+  /* Sin márgenes propios: las piezas van juntas en el .dash de la página (gap de
+     16 px); el hueco entre secciones lo pone el grid de .progreso. */
   /* Repaso: mismo aspecto que .sync/.rate; neutro aunque haya pendientes. */
   .review-card {
     display: flex; align-items: center; justify-content: space-between;
     gap: var(--s-4); flex-wrap: wrap;
-    margin-block-end: var(--s-5); padding: var(--s-4) var(--s-5);
+    padding: var(--s-4) var(--s-5);
     border: 1px solid var(--c-border); border-radius: var(--r-lg);
     background: var(--c-bg-alt);
   }
@@ -349,7 +351,6 @@
     position: relative; isolation: isolate; overflow: hidden;
     display: grid; gap: var(--s-2);
     padding: var(--s-5); padding-inline-start: calc(var(--s-5) + 4px);
-    margin-block-end: var(--s-5);
     border: 1px solid var(--c-border); border-radius: var(--r-lg);
     background: var(--c-bg); box-shadow: var(--sh-card);
   }
@@ -362,8 +363,8 @@
   .next-actions .btn { text-decoration: none; }
   @media (max-width: 540px) { .next-actions .btn { inline-size: 100%; } }
 
-  .banner { padding: var(--s-3) var(--s-4); background: var(--c-green-soft); color: var(--c-green-strong); border-radius: var(--r-md); margin-block-end: var(--s-4); }
-  .summary { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-3); margin-block-end: var(--s-5); }
+  .banner { padding: var(--s-3) var(--s-4); background: var(--c-green-soft); color: var(--c-green-strong); border-radius: var(--r-md); }
+  .summary { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-3); }
   .summary .card { display: grid; gap: var(--s-1); text-align: center; }
   .summary strong { font-size: 2rem; }
   .summary span { color: var(--c-text-muted); font-size: 0.9rem; }
@@ -379,10 +380,21 @@
   }
   .link-btn:hover { color: var(--c-red); }
   .link-btn svg { color: var(--c-text-muted); flex-shrink: 0; }
-  .backup { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); margin-block: var(--s-4) var(--s-2); font-size: 0.92rem; }
+  .backup { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); font-size: 0.92rem; }
   .backup .sep { color: var(--c-text-dim); }
-  /* En móvil la fila se parte en dos: sin separador colgando al final de la primera. */
-  @media (max-width: 540px) { .backup .sep { display: none; } }
+  /* Móvil: cada pieza con la misma forma en todos los idiomas (si no, el texto
+     decide si el botón baja de línea y el alto cambia, y el hueco que la página
+     reserva para el resumen deja de acertar). Repaso en columna con el botón a
+     todo el ancho, como «Continuar»; la copia en dos filas; las etiquetas de las
+     cifras con sitio para dos líneas. */
+  @media (max-width: 540px) {
+    .backup { flex-direction: column; align-items: flex-start; gap: 0; }
+    .backup .sep { display: none; }
+    .review-card { flex-direction: column; align-items: stretch; }
+    .review-card .btn { inline-size: 100%; }
+    .review-more { display: inline-flex; align-items: center; min-block-size: 44px; }
+    .summary span { min-block-size: 2lh; }
+  }
   /* Botones del modal. */
   .actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-4); }
   .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 100; }

@@ -85,7 +85,15 @@ const descripcion = t(locale, 'site.description');
     </header>
 
     <LessonIndexData index={index} />
-    <ProgressDashboard client:load locale={locale} units={unitsMeta} />
+    <!-- El resumen se pinta en cliente (el progreso vive en localStorage). Su hueco
+         se reserva desde el HTML para que, al aparecer, no empuje la página: el
+         script mira solo si hay progreso guardado y elige el alto (s0: tarjeta de
+         empezar; s1: tarjeta, cifras, repaso y copia). Va en línea y antes de
+         pintar; con ClientRouter se vuelve a ejecutar en cada visita. -->
+    <div class="dash" data-dash="s0">
+      <script is:inline data-astro-rerun>(function(){var d=document.querySelector('[data-dash]');if(!d)return;try{if(localStorage.getItem('euskera-static.progress.v1'))d.dataset.dash='s1'}catch(e){}})()</script>
+      <ProgressDashboard client:load locale={locale} units={unitsMeta} />
+    </div>
 
     {unitsForComponentByLevel.map(({ level, units }, i) => (
       <ProgressByUnit
@@ -110,6 +118,23 @@ const descripcion = t(locale, 'site.description');
 
 <style>
   .progreso { padding-block: var(--s-6) var(--s-8); display: grid; gap: var(--s-7); }
+  /* Resumen: piezas juntas (16 px dentro de la sección, 48 entre secciones). Sin
+     transform, filter ni contain: los modales del resumen son position: fixed. */
+  .dash { display: grid; gap: var(--s-4); align-content: start; }
+  /* Alto reservado hasta que el resumen se monta: un poco por debajo del mínimo
+     medido en 10 idiomas, para que al montar crezca algo y nunca deje hueco.
+     Cortes: las cifras pasan de 4 a 3 columnas hacia los 685 px; por debajo de
+     541 px el resumen toma una forma fija (ProgressDashboard) y por debajo de
+     344 px las cifras van en una sola columna. */
+  .dash[data-dash="s0"] { min-block-size: 172px; }
+  .dash[data-dash="s1"] { min-block-size: 510px; }
+  @media (max-width: 684px) { .dash[data-dash="s1"] { min-block-size: 650px; } }
+  @media (max-width: 540px) {
+    .dash[data-dash="s0"] { min-block-size: 228px; }
+    .dash[data-dash="s1"] { min-block-size: 806px; }
+  }
+  @media (max-width: 343px) { .dash[data-dash="s1"] { min-block-size: 1130px; } }
+  .dash:has(:global(.next-card), :global(.summary)) { min-block-size: 0; }
   .page-head { display: grid; gap: var(--s-2); }
   .page-title {
     font-size: var(--t-h1);
