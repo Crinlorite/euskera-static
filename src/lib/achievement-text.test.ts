@@ -28,7 +28,7 @@ test('sin título de unidad o sin clave, cae al catálogo o al id; nunca revient
 
 test('iconos por familia', () => {
   assert.equal(achievementIcon('unit-complete-a2-travel'), '📘');
-  assert.equal(achievementIcon('perfect-unit-a1-family'), '🟢');
+  assert.equal(achievementIcon('perfect-unit-a1-family'), '🌟');
   assert.equal(achievementIcon('level-complete-b1'), '🏆');
   assert.equal(achievementIcon('streak-3'), '🔥');
   assert.equal(achievementIcon('nada'), '🏅');

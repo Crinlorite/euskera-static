@@ -50,7 +50,7 @@ export const achievementDesc = (loc: string, id: string, unitTitles: Record<stri
 
 export function achievementIcon(id: string): string {
   if (id.startsWith('unit-complete-')) return '📘';
-  if (id.startsWith('perfect-unit-')) return '🟢';
+  if (id.startsWith('perfect-unit-')) return '🌟';
   if (id.startsWith('level-complete-')) return '🏆';
   return ACHIEVEMENT_BY_ID[id]?.icon ?? '🏅';
 }
