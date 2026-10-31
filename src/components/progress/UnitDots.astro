@@ -1,0 +1,73 @@
+---
+// Anillos de estado por lección en las tarjetas del índice de nivel. Se pintan en
+// cliente por posición con el índice de la página (LevelProgress lo lleva en el
+// mismo orden: unidad → lección). Decorativos: la información accesible va en la
+// línea de meta de la tarjeta (.unit-state), oculta si no hay nada. Marca además
+// la unidad actual (la de la siguiente lección, con nextLesson()). Sin
+// data-state en el HTML: un .ls sin estado ya es el anillo vacío, y así cada
+// anillo pesa la mitad (hay uno por lección del nivel).
+interface Props {
+  count: number;
+}
+const { count } = Astro.props;
+---
+<span class="unit-dots" aria-hidden="true">{Array.from({ length: count }, () => <span class="ls"></span>)}</span>
+
+<script>
+  import { attemptedPct, lessonState } from '../../lib/lesson-state';
+  import { readIndex } from '../../lib/lesson-index';
+  import { nextLesson } from '../../lib/next-lesson';
+
+  function paint() {
+    // Con ClientRouter los oyentes siguen vivos en páginas sin tarjetas de unidad.
+    const cards = document.querySelectorAll<HTMLElement>('.unit-card[data-unit-id]');
+    if (!cards.length) return;
+    const index = readIndex();
+    const order = Object.keys(index);
+    if (!order.length) return;
+    import('../../stores/progress').then(({ getProgress }) => {
+      const p = getProgress();
+      const perfectLabel = document.querySelector<HTMLElement>('.unit-list')?.dataset.lPerfect ?? '';
+      const next = nextLesson(p.lessons, index, order);
+      const actual = next && next.reason !== 'first' ? index[next.id]?.u : undefined;
+      cards.forEach((card) => {
+        const unitId = card.dataset.unitId ?? '';
+        const ids = order.filter((id) => index[id].u === unitId);
+        const dots = card.querySelectorAll<HTMLElement>('.unit-dots .ls');
+        if (dots.length !== ids.length) return; // marcado e índice no cuadran: no se toca
+        let completed = 0;
+        let perfect = 0;
+        let started = 0;
+        ids.forEach((id, i) => {
+          const s = lessonState(p.lessons[id], index[id].ex, index[id].g);
+          dots[i].dataset.state = s.state;
+          dots[i].style.setProperty('--ls-p', `${attemptedPct(s)}%`);
+          if (s.state === 'completed' || s.state === 'perfect') completed++;
+          if (s.state === 'perfect') perfect++;
+          if (s.state === 'started') started++;
+        });
+        const st = card.querySelector<HTMLElement>('.unit-state');
+        if (st) {
+          const touched = completed > 0 || started > 0;
+          st.textContent = touched ? ` · ${completed}/${ids.length}${perfect ? ` · ${perfectLabel}: ${perfect}` : ''}` : '';
+          st.hidden = !touched;
+        }
+        card.classList.toggle('actual', unitId === actual);
+      });
+    }).catch(() => { /* sin store: anillos vacíos */ });
+  }
+
+  paint();
+  document.addEventListener('astro:page-load', paint);
+  window.addEventListener('kaixo:progress', paint);
+</script>
+
+<style is:global>
+  .unit-dots {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: var(--s-2);
+    margin-block-start: var(--s-2);
+    font-size: 1.05rem;
+  }
+</style>
