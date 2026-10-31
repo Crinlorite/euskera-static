@@ -1,9 +1,12 @@
 <script lang="ts">
   import type { LocaleCode } from '../../i18n/config';
   import { t } from '../../i18n/ui';
+  import { activeNavHref, ariaCurrentFor } from '../../lib/nav-active';
   export let locale: LocaleCode;
-  /** Si el idioma tiene A2 (el dariya solo tiene A1). */
+  /** Si el idioma tiene A2 (se calcula en la cabecera a partir de la colección). */
   export let conA2 = true;
+  /** Ruta actual (Astro.url.pathname): marca la sección en el cajón. */
+  export let current = '';
 
   let open = false;
 
@@ -19,6 +22,7 @@
     { href: `/${locale}/progreso/`, key: 'nav.progress' },
     { href: `/${locale}/repaso/`, key: 'review.title' },
   ] satisfies NavItem[]).filter((i) => i.href !== `/${locale}/a2/` || conA2);
+  $: active = activeNavHref(current, items.map((i) => i.href));
 </script>
 
 <button class="trigger" aria-label={t(locale, 'a11y.menu')} aria-expanded={open} on:click={() => (open = !open)}>
@@ -36,7 +40,7 @@
   <aside class="drawer" aria-label={t(locale, 'a11y.menu')}>
     <ul>
       {#each items as item}
-        <li><a href={item.href} on:click={() => (open = false)}>
+        <li><a href={item.href} aria-current={ariaCurrentFor(current, item.href, active)} on:click={() => (open = false)}>
           {item.label ?? (item.key ? t(locale, item.key) : item.href)}
         </a></li>
       {/each}
@@ -80,6 +84,9 @@
     text-decoration: none;
     color: var(--c-text);
     font-weight: 500;
+    border-inline-start: 3px solid transparent;
   }
   .drawer a:hover { background: var(--c-bg-alt); color: var(--c-red); }
+  /* Sección actual: el mismo aspecto que la lección activa de UnitSidebar. */
+  .drawer a[aria-current] { background: var(--c-red-soft); color: var(--c-red); border-inline-start-color: var(--c-red); }
 </style>

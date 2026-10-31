@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { t } from '../../i18n/ui';
 import { LANGUAGES, type LocaleCode } from '../../i18n/config';
 import { destinoIdiomaDe } from '../../lib/alternates';
+import { activeNavHref, ariaCurrentFor } from '../../lib/nav-active';
 import MobileDrawer from './MobileDrawer.svelte';
 
 interface Props { locale: LocaleCode; }
@@ -39,6 +40,8 @@ const navItems: NavItem[] = ([
   { href: `/${locale}/progreso/`, key: 'nav.progress' },
   { href: `/${locale}/repaso/`, key: 'review.title' },
 ] satisfies NavItem[]).filter((i) => i.href !== `/${locale}/a2/` || conA2);
+// Sección actual: la misma regla que usa el cajón móvil (lib/nav-active).
+const activo = activeNavHref(here, navItems.map((i) => i.href));
 ---
 <header class="site-header">
   <div class="container-wide row">
@@ -56,11 +59,11 @@ const navItems: NavItem[] = ([
         <span class="brand-by">By Crintech Studios</span>
       </span>
     </a>
-    <nav class="primary-nav" aria-label="primary">
+    <nav class="primary-nav" aria-label={t(locale, 'a11y.nav')}>
       <ul>
         {navItems.map((item) => (
           <li>
-            <a href={item.href}>{item.label ?? (item.key ? t(locale, item.key) : item.href)}</a>
+            <a href={item.href} aria-current={ariaCurrentFor(here, item.href, activo)}>{item.label ?? (item.key ? t(locale, item.key) : item.href)}</a>
           </li>
         ))}
       </ul>
@@ -95,7 +98,7 @@ const navItems: NavItem[] = ([
         ))}
       </ul>
     </details>
-    <MobileDrawer client:load locale={locale} {conA2} />
+    <MobileDrawer client:load locale={locale} {conA2} current={here} />
   </div>
 </header>
 
@@ -155,6 +158,20 @@ const navItems: NavItem[] = ([
     padding-block: var(--s-2);
   }
   .primary-nav a:hover { color: var(--c-red); }
+  /* Sección actual: color y raya debajo, sin cambiar peso ni huecos (la fila la
+     mide el guion de abajo; cualquier cambio de anchura adelantaría los escalones).
+     La raya va dentro del padding-block del enlace, a 8 px del texto. */
+  .primary-nav a { position: relative; }
+  .primary-nav a[aria-current] { color: var(--c-red); }
+  .primary-nav a[aria-current]::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    inset-block-end: 0;
+    block-size: 2px;
+    border-radius: var(--r-pill);
+    background: var(--grad-ikurri-edge);
+  }
 
   /* Botón de idioma en móvil: junto al hamburguesa, globe + idioma actual +
      flecha. En escritorio el cambio de idioma vive en la nav/footer. */
