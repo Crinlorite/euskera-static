@@ -4,7 +4,7 @@ import RootLayout from '../../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
 import { t, tf } from '../../../i18n/ui';
 
-import { ajusta, sinMarcado, minimoDescripcion } from '../../../lib/seo-texto.mjs';
+import { ajusta, minimoDescripcion } from '../../../lib/seo-texto.mjs';
 import { LOCKED_PATHS } from '../../../lib/locked.mjs';
 export async function getStaticPaths() {
   const allLevels = await getCollection('levels');

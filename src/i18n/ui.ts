@@ -74,7 +74,8 @@ export type StringKey =
   | 'priv.s2.p4' | 'priv.s4.li0'
   | 'beta.title' | 'beta.lead' | 'beta.why' | 'beta.step1.t' | 'beta.step1.d' | 'beta.step2.t' | 'beta.step2.d' | 'beta.step3.t' | 'beta.step3.d' | 'beta.wait.t' | 'beta.wait.d' | 'beta.faq.t' | 'beta.faq1.q' | 'beta.faq1.a' | 'beta.faq2.q' | 'beta.faq2.a' | 'beta.faq3.q' | 'beta.faq3.a' | 'beta.cta.group' | 'beta.cta.optin' | 'beta.thanks' | 'beta.badge'
   | 'beta.live.t' | 'beta.live.d' | 'beta.live.cta' | 'beta.live.beta'
-  | 'unit.n' | 'unit.prev' | 'unit.next' | 'unit.all' | 'unit.back' | 'level.eyebrow' | 'curriculum.hide' | 'a11y.unit.progress' | 'home.hero.l1' | 'home.hero.l2';
+  | 'unit.n' | 'unit.prev' | 'unit.next' | 'unit.all' | 'unit.back' | 'level.eyebrow' | 'curriculum.hide' | 'a11y.unit.progress' | 'home.hero.l1' | 'home.hero.l2'
+  | 'lesson.exercises' | 'progress.byunit.eyebrow' | 'progress.byunit.title' | 'ach.mastery.t' | 'ach.mastery.d';
 
 const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   'es': {

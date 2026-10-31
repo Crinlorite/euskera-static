@@ -1,5 +1,4 @@
 import { saveProgress as nativeSaveProgress, syncProgressToNative } from '../lib/platform';
-import { mergeProgress } from './progress-merge';
 import { exportHash as encodeHash, decodeHash } from './progress-hash';
 
 export const STORAGE_KEY = 'euskera-static.progress.v1';
