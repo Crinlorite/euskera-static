@@ -52,17 +52,50 @@
   $: total = catalog.length;
   $: unlockedCount = catalog.filter((a) => unlockedSet.has(a.id)).length;
 
-  $: visible = activeFilter === 'all'
-    ? catalog
-    : catalog.filter((a) => a.category === activeFilter);
+  // En «Todos», los logros de maestría (uno por unidad) se juntan en UNA tarjeta
+  // por nivel con un anillo por unidad: sueltos repetían la lista de unidades que
+  // hay justo encima. Con la pastilla «Maestría» se ven sueltos, como siempre.
+  // evaluate() y el contador global no cambian: esto solo decide cómo se pinta.
+  type Entry =
+    | { kind: 'one'; key: string; a: Achievement; on: boolean }
+    | { kind: 'mastery'; key: string; level: string; items: Achievement[]; done: number; on: boolean };
+
+  function levelOf(a: Achievement): string {
+    return a.id.replace(/^unit-complete-/, '').split('-')[0];
+  }
+
+  function entriesFor(filter: Filter, set: Set<string>): Entry[] {
+    if (filter !== 'all') {
+      return catalog
+        .filter((a) => a.category === filter)
+        .map((a) => ({ kind: 'one', key: a.id, a, on: set.has(a.id) }));
+    }
+    const out: Entry[] = [];
+    const groups = new Map<string, Extract<Entry, { kind: 'mastery' }>>();
+    for (const a of catalog) {
+      if (a.category !== 'mastery') {
+        out.push({ kind: 'one', key: a.id, a, on: set.has(a.id) });
+        continue;
+      }
+      const level = levelOf(a);
+      let g = groups.get(level);
+      if (!g) {
+        // La tarjeta ocupa el sitio del primer logro de maestría del catálogo.
+        g = { kind: 'mastery', key: `mastery-${level}`, level, items: [], done: 0, on: false };
+        groups.set(level, g);
+        out.push(g);
+      }
+      g.items.push(a);
+      if (set.has(a.id)) g.done += 1;
+      g.on = g.done > 0;
+    }
+    return out;
+  }
 
   // Mantén el orden: desbloqueados primero, luego bloqueados (estabilidad
-  // visual conforme el usuario va consiguiéndolos).
-  $: ordered = [...visible].sort((a, b) => {
-    const ua = unlockedSet.has(a.id) ? 0 : 1;
-    const ub = unlockedSet.has(b.id) ? 0 : 1;
-    return ua - ub;
-  });
+  // visual conforme el usuario va consiguiéndolos). La tarjeta de maestría cuenta
+  // como desbloqueada en cuanto hay una unidad dominada.
+  $: ordered = entriesFor(activeFilter, unlockedSet).sort((x, y) => (x.on ? 0 : 1) - (y.on ? 0 : 1));
 
   const FILTERS: Array<{ id: Filter; label: string }> = [
     { id: 'all',       label: 'ach.f.all' },
@@ -129,33 +162,46 @@
   </div>
 
   <ul class="grid">
-    {#each ordered as a (a.id)}
-      {@const isUnlocked = unlockedSet.has(a.id)}
-      <li
-        class="card"
-        class:unlocked={isUnlocked}
-        class:locked={!isUnlocked}
-        title={tooltipFor(a)}
-      >
-        <span class="icon" aria-hidden="true">{a.icon}</span>
-        {#if isUnlocked}
-          <span class="check" aria-hidden="true">✓</span>
-        {/if}
-        <h3 class="card-title">{tr('ach.' + a.id + '.t', a.title)}</h3>
-        <p class="card-desc">{tr('ach.' + a.id + '.d', a.description)}</p>
-        {#if isUnlocked && unlockedAt[a.id]}
-          <p class="card-date">{t(loc, 'ach.unlocked').replace('{0}', formatDate(unlockedAt[a.id]))}</p>
-        {/if}
-      </li>
+    {#each ordered as e (e.key)}
+      {#if e.kind === 'mastery'}
+        <!-- Toda la tarjeta lleva a la lista de unidades del nivel (una sola parada
+             de tabulación); los anillos son decorativos. -->
+        <li class="card mastery" class:unlocked={e.on} class:locked={!e.on}>
+          <span class="icon" aria-hidden="true">{e.items[0].icon}</span>
+          {#if e.done === e.items.length}
+            <span class="check" aria-hidden="true">✓</span>
+          {/if}
+          <h3 class="card-title">
+            <a class="mastery-link" href={`#progress-by-unit-${e.level}`} aria-describedby={`mastery-${e.level}-count`}>{t(loc, 'ach.f.mastery')} · {e.level.toUpperCase()}</a>
+          </h3>
+          <p class="card-desc" id={`mastery-${e.level}-count`}><strong>{e.done}</strong> {t(loc, 'ach.counter').replace('{0}', String(e.items.length))}</p>
+          <span class="rings" aria-hidden="true">{#each e.items as a (a.id)}<span class="ls" data-state={unlockedSet.has(a.id) ? 'perfect' : undefined}></span>{/each}</span>
+        </li>
+      {:else}
+        {@const a = e.a}
+        <li
+          class="card"
+          class:unlocked={e.on}
+          class:locked={!e.on}
+          title={tooltipFor(a)}
+        >
+          <span class="icon" aria-hidden="true">{a.icon}</span>
+          {#if e.on}
+            <span class="check" aria-hidden="true">✓</span>
+          {/if}
+          <h3 class="card-title">{tr('ach.' + a.id + '.t', a.title)}</h3>
+          <p class="card-desc">{tr('ach.' + a.id + '.d', a.description)}</p>
+          {#if e.on && unlockedAt[a.id]}
+            <p class="card-date">{t(loc, 'ach.unlocked').replace('{0}', formatDate(unlockedAt[a.id]))}</p>
+          {/if}
+        </li>
+      {/if}
     {/each}
   </ul>
 </section>
 
 <style>
-  .ach {
-    margin-block: var(--s-7);
-  }
-
+  /* Sin margen propio: el hueco entre secciones lo pone el grid de .progreso. */
   .head {
     display: grid;
     gap: var(--s-2);
@@ -291,6 +337,17 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
+  /* Maestría agregada: el enlace del título cubre la tarjeta entera. */
+  .card.mastery { grid-template-rows: auto auto auto 1fr; }
+  .mastery-link { color: inherit; text-decoration: none; }
+  .mastery-link::after { content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: 1; }
+  .card.mastery:hover { border-color: var(--c-red); }
+  .card.mastery:hover .mastery-link { color: var(--c-red); }
+  .mastery-link:focus-visible { outline: none; }
+  .mastery-link:focus-visible::after { outline: 2px solid var(--c-red); outline-offset: 2px; }
+  .card.mastery .card-desc strong { color: var(--c-text); font-weight: 700; }
+  .rings { display: flex; flex-wrap: wrap; gap: 6px; align-self: end; font-size: 0.95rem; }
 
   .check {
     position: absolute;
