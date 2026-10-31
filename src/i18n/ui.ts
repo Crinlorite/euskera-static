@@ -446,6 +446,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Peninsulares (planned, sin traducciones aún)
   'ca': {
+    "a11y.nav": "Navegació principal",
     "review.title": "Repàs",
     "review.intro": "El que has fallat torna a sortir avui, demà, al cap de 3 dies i al cap d'una setmana. Quan ho encertis totes les vegades, ja serà teu.",
     "review.start": "Comença el repàs",
@@ -807,6 +808,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "El currículum segueix els estàndards CEFR oficials per als nivells A1-C2 del basc. Les explicacions, exemples i exercicis són material original. El vocabulari i les regles gramaticals són fets lingüístics de domini públic.",
   }, 'gl': {
+    "a11y.nav": "Navegación principal",
     "review.title": "Repaso",
     "review.intro": "O que fallaches volve saír hoxe, mañá, aos 3 días e á semana. Cando o acertes todas as veces, xa queda aprendido.",
     "review.start": "Comezar o repaso",
@@ -1168,6 +1170,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rolda rematada: sabías {0} de {1}.",
     "sources.statement": "O currículo segue os estándares CEFR oficiais para os niveis A1-C2 do éuscaro. As explicacións, exemplos e exercicios son material orixinal. O vocabulario e as regras gramaticais son feitos lingüísticos de dominio público.",
   }, 'oc': {
+    "a11y.nav": "Navegacion principau",
     "review.title": "Repàs",
     "review.intro": "Çò que t'as hilat torne a gésser uei, deman, as 3 dies e a la setmana. Quan ac encertes cada còp, se te demore.",
     "review.start": "Començar eth repàs",
@@ -1529,6 +1532,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda acabada: sabies {0} de {1}.",
     "sources.statement": "Eth curriculum seguís es estandards CEFR oficiaus entàs nivèus A1-C2 deth basc. Es explicacions, exemples e exercicis son materiau originau. Vocabulari e règles gramaticaus son hèts lingüistics de domeni public.",
   }, 'ast': {
+    "a11y.nav": "Navegación principal",
     "review.title": "Repasu",
     "review.intro": "Lo que fallasti vuelve salir güei, mañana, a los 3 díes y a la selmana. Cuando lo aciertes toles vegaes, queda pa siempre.",
     "review.start": "Entamar el repasu",
@@ -1890,6 +1894,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Ronda fináu: sabíes {0} de {1}.",
     "sources.statement": "El currículu sigue los estándares CEFR oficiales pa los niveles A1-C2 del vascu. Les esplicaciones, exemplos y exercicios son material orixinal. Vocabulariu y regles gramaticales son fechos llingüísticos de dominiu públicu.",
   }, 'an': {
+    "a11y.nav": "Navegación prencipal",
     "review.title": "Repaso",
     "review.intro": "Lo que has fallau torna a salir hue, maitín, a los 3 días y a la semana. Quan l'encertes todas las vegadas, ya se queda.",
     "review.start": "Empecipiar o repaso",
@@ -2253,6 +2258,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
   },
   // Resto del roadmap
   'en': {
+    "a11y.nav": "Main navigation",
     "review.title": "Review",
     "review.intro": "Anything you missed comes back today, tomorrow, after 3 days and after a week. Get it right every time and it's yours for good.",
     "review.start": "Start review",
@@ -2614,6 +2620,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round finished: you knew {0} of {1}.",
     "sources.statement": "The curriculum follows the official CEFR standards for Basque levels A1-C2. The explanations, examples, and exercises are original material. Vocabulary and grammar rules are linguistic facts in the public domain.",
   }, 'ar': {
+    "a11y.nav": "التنقل الرئيسي",
     "review.title": "المراجعة",
     "review.intro": "ما أخطأت فيه يعود إليك اليوم، وغدًا، وبعد 3 أيام، وبعد أسبوع. وعندما تجيب عنه بشكل صحيح في كل مرة، يترسّخ في ذاكرتك.",
     "review.start": "ابدأ المراجعة",
@@ -2975,6 +2982,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "انتهت الجولة: عرفت {0} من {1}.",
     "sources.statement": "يتّبع المنهج المعايير الرسمية للإطار الأوروبي المرجعي المشترك للغات (CEFR) للمستويات A1-C2 من اللغة الباسكية. الشروحات والأمثلة والتمارين مادة أصلية. المفردات والقواعد النحوية حقائق لغوية في الملكية العامة.",
   }, 'fr': {
+    "a11y.nav": "Navigation principale",
     "review.title": "Révision",
     "review.intro": "Ce qui t'a posé problème revient aujourd'hui, demain, dans 3 jours et dans une semaine. Quand tu réussis à chaque fois, c'est acquis.",
     "review.start": "Commencer la révision",
@@ -3336,6 +3344,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Tour terminé : vous saviez {0} sur {1}.",
     "sources.statement": "Le programme suit les normes officielles du CECRL pour les niveaux A1-C2 du basque. Les explications, les exemples et les exercices sont du matériel original. Le vocabulaire et les règles grammaticales sont des faits linguistiques du domaine public.",
   }, 'ro': {
+    "a11y.nav": "Navigare principală",
     "review.title": "Recapitulare",
     "review.intro": "Ce ai greșit revine azi, mâine, peste 3 zile și peste o săptămână. Când nimerești de fiecare dată, rămâne învățat.",
     "review.start": "Începe recapitularea",
@@ -3697,6 +3706,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Rundă terminată: ai știut {0} din {1}.",
     "sources.statement": "Programa urmează standardele oficiale CEFR pentru nivelurile A1-C2 ale limbii basce. Explicațiile, exemplele și exercițiile sunt material original. Vocabularul și regulile gramaticale sunt fapte lingvistice de domeniu public.",
   }, 'pt-BR': {
+    "a11y.nav": "Navegação principal",
     "review.title": "Revisão",
     "review.intro": "O que você errou volta hoje, amanhã, depois de 3 dias e depois de uma semana. Quando você acertar todas as vezes, fica de vez.",
     "review.start": "Começar a revisão",
@@ -4059,6 +4069,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "sources.statement": "O currículo segue os padrões oficiais do CEFR para os níveis A1-C2 do basco. As explicações, exemplos e exercícios são material original. O vocabulário e as regras gramaticais são fatos linguísticos de domínio público.",
   },
   'de': {
+    "a11y.nav": "Hauptnavigation",
     "review.title": "Wiederholen",
     "review.intro": "Was du falsch hattest, kommt heute, morgen, nach 3 Tagen und nach einer Woche wieder. Wenn du es jedes Mal richtig hast, sitzt es.",
     "review.start": "Wiederholung starten",
@@ -4420,6 +4431,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runde beendet: Du wusstest {0} von {1}.",
     "sources.statement": "Das Curriculum folgt den offiziellen GER-Standards für die Niveaus A1–C2 des Baskischen. Die Erklärungen, Beispiele und Übungen sind Originalmaterial. Wortschatz und Grammatikregeln sind sprachliche Fakten der Gemeinfreiheit.",
   }, 'it': {
+    "a11y.nav": "Navigazione principale",
     "review.title": "Ripasso",
     "review.intro": "Quello che hai sbagliato torna oggi, domani, dopo 3 giorni e dopo una settimana. Quando lo indovini ogni volta, è tuo per sempre.",
     "review.start": "Inizia il ripasso",
@@ -4781,6 +4793,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Round terminato: ne sapevi {0} su {1}.",
     "sources.statement": "Il curriculum segue gli standard ufficiali CEFR per i livelli A1-C2 del basco. Le spiegazioni, gli esempi e gli esercizi sono materiale originale. Il vocabolario e le regole grammaticali sono fatti linguistici di dominio pubblico.",
   }, 'ru': {
+    "a11y.nav": "Основная навигация",
     "review.title": "Повторение",
     "review.intro": "То, в чём вы ошиблись, вернётся сегодня, завтра, через 3 дня и через неделю. Ответите правильно каждый раз — и это запомнится навсегда.",
     "review.start": "Начать повторение",
@@ -5142,6 +5155,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Раунд завершён: вы знали {0} из {1}.",
     "sources.statement": "Учебная программа соответствует официальным стандартам CEFR для уровней A1–C2 баскского языка. Объяснения, примеры и упражнения являются оригинальным материалом. Лексика и грамматические правила — лингвистические факты, относящиеся к общественному достоянию.",
   }, 'pl': {
+    "a11y.nav": "Nawigacja główna",
     "review.title": "Powtórka",
     "review.intro": "To, co ci nie wyszło, wróci dziś, jutro, po 3 dniach i po tygodniu. Gdy za każdym razem odpowiesz dobrze, zostanie w pamięci na dobre.",
     "review.start": "Zacznij powtórkę",
@@ -5503,6 +5517,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "Runda zakończona: znałeś {0} z {1}.",
     "sources.statement": "Program nauczania jest zgodny z oficjalnymi standardami CEFR dla poziomów A1–C2 języka baskijskiego. Objaśnienia, przykłady i ćwiczenia są materiałem oryginalnym. Słownictwo i zasady gramatyczne to fakty językowe należące do domeny publicznej.",
   }, 'zh-Hans': {
+    "a11y.nav": "主导航",
     "review.title": "复习",
     "review.intro": "答错的题目会在今天、明天、3天后和一周后再次出现。每次都答对，就真正掌握啦。",
     "review.start": "开始复习",
@@ -5864,6 +5879,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "本轮结束：你答对了 {1} 个中的 {0} 个。",
     "sources.statement": "本课程遵循巴斯克语 A1-C2 级别的官方 CEFR 标准。讲解、示例和练习均为原创内容。词汇和语法规则属于公共领域的语言学事实。",
   }, 'ja': {
+    "a11y.nav": "メインナビゲーション",
     "review.title": "復習",
     "review.intro": "まちがえた問題は、今日・明日・3日後・1週間後にもう一度出てきます。毎回正解できたら、しっかり覚えたことになります。",
     "review.start": "復習をはじめる",
@@ -6225,6 +6241,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "exercise.flash.round": "ラウンド終了：{1}問中{0}問正解でした。",
     "sources.statement": "カリキュラムはバスク語のA1〜C2レベルに対応する公式のCEFR基準に従っています。説明、例文、練習問題はすべてオリジナルの教材です。語彙と文法規則はパブリックドメインの言語学的事実です。",
   }, 'ko': {
+    "a11y.nav": "주요 탐색",
     "review.title": "복습",
     "review.intro": "틀린 문제는 오늘, 내일, 3일 뒤, 일주일 뒤에 다시 나와요. 매번 맞히면 완전히 내 것이 돼요.",
     "review.start": "복습 시작하기",
@@ -6587,6 +6604,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "sources.statement": "이 커리큘럼은 바스크어 A1-C2 레벨에 대한 공식 CEFR 표준을 따릅니다. 설명, 예시, 연습 문제는 모두 독창적인 자료입니다. 어휘와 문법 규칙은 공공 영역에 속하는 언어학적 사실입니다.",
   },
   'hu': {
+    "a11y.nav": "Fő navigáció",
     "review.title": "Ismétlés",
     "review.intro": "Amit elrontottál, az visszatér ma, holnap, 3 nap múlva és egy hét múlva. Ha minden alkalommal eltalálod, már meg is maradt.",
     "review.start": "Ismétlés indítása",
@@ -6949,6 +6967,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "sources.statement": "A tanterv a baszk nyelv A1–C2 szintjeire vonatkozó hivatalos KER-szabványokat követi. A magyarázatok, példák és feladatok eredeti anyagok. A szókincs és a nyelvtani szabályok közkincsnek számító nyelvi tények.",
   },
   'bg': {
+    "a11y.nav": "Основна навигация",
     "review.title": "Преговор",
     "review.intro": "Това, в което сгреши, ще се появи отново днес, утре, след 3 дни и след седмица. Когато го решиш вярно всеки път, вече е научено.",
     "review.start": "Започни преговора",
@@ -7311,6 +7330,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     "sources.statement": "Учебната програма следва официалните стандарти на ОЕЕР за нивата A1–C2 по баски език. Обясненията, примерите и упражненията са оригинален материал. Речникът и граматическите правила са езикови факти в общественото достояние.",
   },
   'ary': {
+    "a11y.nav": "القائمة الرئيسية",
     "review.title": "المراجعة",
     "review.intro": "داكشي اللي غلطتي فيه كيرجع يبان ليك اليوم، غدا، من بعد 3 أيام ومن بعد سيمانة. ملي تجاوب عليه مزيان كل مرة، كيبقى معاك.",
     "review.start": "بدا المراجعة",
