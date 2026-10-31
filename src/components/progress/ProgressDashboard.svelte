@@ -10,8 +10,8 @@
   import { URL_VALORAR_ANDROID } from '../../lib/migrar.mjs';
   import { countStates } from '../../lib/lesson-state';
   import { readIndex, type LessonIndex } from '../../lib/lesson-index';
-  import { countDue, countGraduated } from '../../lib/review';
-  import { todayKey } from '../../lib/dates';
+  import { countDue, countGraduated, nextDueDate } from '../../lib/review';
+  import { formatDayLong, todayKey } from '../../lib/dates';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
@@ -25,6 +25,13 @@
   // Repaso: lo que toca hoy y lo que ya salió de la cola, con el mismo índice.
   $: dueToday = progress ? countDue(progress, index, { kind: 'all' }, todayKey()) : 0;
   $: graduated = progress ? countGraduated(progress, index) : 0;
+  // Sin pendientes: cuándo vuelve a tocar (la misma fecha que enseña /repaso/).
+  $: nextDue = progress ? nextDueDate(progress, index, { kind: 'all' }, todayKey()) : '';
+  // Los textos compuestos van aquí y no en el marcado: Svelte recorta el espacio
+  // con que empieza un bloque {#if} (« · …» quedaría pegado).
+  $: reviewLine = dueToday
+    ? tf(locale, 'lesson.toreview', dueToday)
+    : t(locale, 'review.empty') + (nextDue ? ` · ${tf(locale, 'review.next', formatDayLong(locale, nextDue))}` : '');
   let exportedHash = '';
   let importValue = '';
   let banner = '';
@@ -152,10 +159,16 @@
   <section class="review-card">
     <div class="review-txt">
       <strong>{t(locale, 'review.title')}</strong>
-      <span>{dueToday ? tf(locale, 'lesson.toreview', dueToday) : t(locale, 'review.empty')}</span>
+      <span>{reviewLine}</span>
       {#if graduated}<span>{tp(locale, 'review.graduated', graduated)}</span>{/if}
     </div>
-    <a class="btn {dueToday ? 'btn-primary' : 'btn-secondary'}" href={`/${locale}/repaso/`}>{t(locale, 'review.start')}</a>
+    <!-- Sin nada que repasar no se invita a repasar: solo un enlace a la página
+         (allí sigue el refuerzo opcional). -->
+    {#if dueToday}
+      <a class="btn btn-primary" href={`/${locale}/repaso/`}>{t(locale, 'review.start')}</a>
+    {:else}
+      <a class="review-more" href={`/${locale}/repaso/`}>{t(locale, 'review.title')} <span class="icon-direction-aware" aria-hidden="true">→</span></a>
+    {/if}
   </section>
 {/if}
 
@@ -258,6 +271,9 @@
   .review-txt { display: grid; gap: 2px; }
   .review-txt span { color: var(--c-text-muted); font-size: 0.9rem; }
   .review-card .btn { text-decoration: none; }
+  .review-more { color: var(--c-text); font-weight: 600; text-underline-offset: 0.2em; }
+  .review-more:hover { color: var(--c-red); }
+  .review-more span { display: inline-block; }
   .rate-txt span { color: var(--c-text-muted); font-size: 0.9rem; }
   .rate .btn { text-decoration: none; font-size: 1.1rem; line-height: 1; }
 
