@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import { t } from '../../i18n/ui';
 import { LANGUAGES, type LocaleCode } from '../../i18n/config';
+import { destinoIdiomaDe } from '../../lib/alternates';
 import MobileDrawer from './MobileDrawer.svelte';
 
 interface Props { locale: LocaleCode; }
@@ -18,6 +19,14 @@ const langHref = onPicker ? `/${locale}/idioma/` : `/${locale}/idioma/?from=${en
 
 // No todos los idiomas tienen A2 (el dariya solo A1): sin enlace a una página que no existe.
 const conA2 = (await getCollection('levels')).some((l) => l.id === `${locale}/a2`);
+
+// Desplegable de idioma de escritorio: cada idioma lleva a esta misma página en
+// ese idioma, o a la más cercana que exista (igual que el selector del footer).
+const idiomas = await Promise.all(
+  Object.values(LANGUAGES)
+    .filter((l) => l.status === 'active' || l.status === 'beta')
+    .map(async (l) => ({ ...l, href: await destinoIdiomaDe(here, l.code) })),
+);
 
 type NavItem = { href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' };
 // `satisfies` sobre el literal: la anotación de navItems no llega al array a través de
@@ -64,6 +73,27 @@ const navItems: NavItem[] = ([
       <span class="lang-name">{langName}</span>
       <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
     </a>
+    {/* Escritorio: globo + idioma; si no cabe (pantallas intermedias, plegables
+        girados), solo el globo. Al pulsarlo despliega los idiomas. */}
+    <details class="lang-menu">
+      <summary aria-label={`${t(locale, 'nav.language')}: ${langName}`}>
+        <svg class="globe" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" />
+          <path d="M3 12h18" />
+          <path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0 -18" />
+        </svg>
+        <span class="lang-label">
+          <span class="lang-name">{langName}</span>
+          <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+        </span>
+      </summary>
+      <ul class="lang-list">
+        {/* dir/lang en el nombre, no en el enlace: así todos se alinean con la página. */}
+        {idiomas.map((l) => (
+          <li><a href={l.href} aria-current={l.code === locale ? 'true' : undefined}><span lang={l.code} dir={l.dir}>{l.name}</span>{l.latin && <span class="latin" lang="en">{l.latin}</span>}</a></li>
+        ))}
+      </ul>
+    </details>
     <MobileDrawer client:load locale={locale} {conA2} />
   </div>
 </header>
@@ -132,6 +162,8 @@ const navItems: NavItem[] = ([
     align-items: center;
     gap: var(--s-2);
     margin-inline-start: auto;
+    /* Junto a la hamburguesa: recorta el hueco de la fila (s-5) a s-1. */
+    margin-inline-end: calc(var(--s-1) - var(--s-5));
     padding: var(--s-2) var(--s-3);
     border: 1px solid var(--c-border);
     border-radius: var(--r-pill);
@@ -155,8 +187,78 @@ const navItems: NavItem[] = ([
   .lang-mobile:hover { border-color: var(--c-red); color: var(--c-red); }
   [dir="rtl"] .lang-mobile { margin-inline-start: auto; }
 
+  /* Desplegable de idioma de escritorio. Brand, nav y globo no encogen: si no
+     caben, la fila desborda, el guion lo detecta y pasa a «solo globo». */
+  .brand, .primary-nav { flex-shrink: 0; }
+  .primary-nav a { white-space: nowrap; }
+  .lang-menu { position: relative; flex-shrink: 0; }
+  .lang-menu > summary {
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--s-2);
+    padding: var(--s-2) var(--s-3);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-pill);
+    color: var(--c-text);
+    font-size: 0.85rem;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color var(--m-base) var(--ease-out), color var(--m-base) var(--ease-out);
+  }
+  .lang-menu > summary::-webkit-details-marker { display: none; }
+  .lang-menu > summary:hover,
+  .lang-menu[open] > summary { border-color: var(--c-red); color: var(--c-red); }
+  .lang-menu .globe { color: var(--c-red); flex-shrink: 0; }
+  .lang-menu .lang-label { display: inline-flex; align-items: center; gap: var(--s-2); }
+  .lang-menu .chev { color: var(--c-text-muted); transition: transform var(--m-base) var(--ease-out); }
+  .lang-menu[open] .chev { transform: rotate(180deg); }
+  /* Sin sitio para el nombre: solo el globo, en un círculo del mismo alto. */
+  :global(.site-header.lang-solo-globo) .lang-label { display: none; }
+  :global(.site-header.lang-solo-globo) .lang-menu > summary { padding: var(--s-2); }
+  /* Ni el globo solo cabe: la cabecera pasa al formato de móvil. */
+  :global(.site-header.cabecera-estrecha) .primary-nav,
+  :global(.site-header.cabecera-estrecha) .lang-menu,
+  :global(.site-header.cabecera-estrecha) .brand-by { display: none; }
+  :global(.site-header.cabecera-estrecha) .lang-mobile { display: inline-flex; }
+  .lang-list {
+    position: absolute;
+    inset-block-start: calc(100% + var(--s-2));
+    inset-inline-end: 0;
+    z-index: 60;
+    margin: 0;
+    padding: var(--s-3);
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 2px var(--s-2);
+    max-inline-size: calc(100vw - 2 * var(--s-4));
+    max-block-size: calc(100dvh - var(--beta-banner-h, 0px) - 64px - var(--s-5));
+    overflow: auto;
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-lg);
+    box-shadow: var(--sh-card-deep);
+  }
+  .lang-list a {
+    display: block;
+    padding: var(--s-2) var(--s-3);
+    border-radius: var(--r-md);
+    color: var(--c-text-muted);
+    font-size: 0.9rem;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color var(--m-base) var(--ease-out), background var(--m-base) var(--ease-out);
+  }
+  .lang-list a:hover { color: var(--c-red); background: var(--c-bg-alt); }
+  .lang-list a[aria-current='true'] { color: var(--c-red); font-weight: 600; }
+  .lang-list .latin { margin-inline-start: 0.4em; font-size: 0.8em; color: var(--c-text-dim); }
+
   @media (max-width: 768px) {
     .primary-nav { display: none; }
+    .lang-menu { display: none; }
     .lang-mobile { display: inline-flex; }
     /* Libera espacio para el botón de idioma; el lema sigue en escritorio y footer. */
     .brand-by { display: none; }
@@ -167,3 +269,51 @@ const navItems: NavItem[] = ([
     .lang-mobile { padding-inline: var(--s-2); gap: var(--s-1); }
   }
 </style>
+
+<script>
+  // Globo de idioma en escritorio: si globo + nombre no caben en la cabecera
+  // (pantallas intermedias, plegables girados, idiomas con menú largo), se
+  // queda solo el globo. Se mide en vez de fijar anchos porque cada idioma
+  // tiene etiquetas de menú de distinta longitud.
+  // Y si ni el globo solo cabe, la cabecera pasa al formato de móvil
+  // (hamburguesa + botón de idioma) en vez de salirse de la pantalla.
+  const SOLO = 'lang-solo-globo';
+  const ESTRECHA = 'cabecera-estrecha';
+  let observador: ResizeObserver | undefined;
+
+  function ajusta(cabecera: HTMLElement) {
+    const fila = cabecera.querySelector<HTMLElement>('.row');
+    if (!fila) return;
+    const desborda = () => fila.scrollWidth > fila.clientWidth + 1;
+    cabecera.classList.remove(SOLO, ESTRECHA);
+    if (desborda()) cabecera.classList.add(SOLO);
+    if (desborda()) cabecera.classList.add(ESTRECHA);
+  }
+
+  function engancha() {
+    const cabecera = document.querySelector<HTMLElement>('.site-header');
+    if (!cabecera) return;
+    observador?.disconnect();
+    observador = new ResizeObserver(() => ajusta(cabecera));
+    observador.observe(cabecera);
+    ajusta(cabecera);
+    document.fonts?.ready.then(() => ajusta(cabecera));
+  }
+
+  // page-load salta al cargar y tras cada navegación del ClientRouter.
+  document.addEventListener('astro:page-load', engancha);
+
+  // El desplegable se cierra al pulsar fuera o con Escape.
+  document.addEventListener('click', (e) => {
+    for (const menu of document.querySelectorAll<HTMLDetailsElement>('.lang-menu[open]')) {
+      if (!menu.contains(e.target as Node)) menu.open = false;
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    for (const menu of document.querySelectorAll<HTMLDetailsElement>('.lang-menu[open]')) {
+      menu.open = false;
+      menu.querySelector('summary')?.focus();
+    }
+  });
+</script>
