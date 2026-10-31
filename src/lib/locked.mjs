@@ -30,7 +30,19 @@ export function esDeServicio(pathname) {
   return SERVICE_PATHS.includes(pathname.replace(/^\/+/, '').split('/')[0]);
 }
 
+/**
+ * Paginas personales: herramientas que solo tienen sentido con el progreso de
+ * quien las abre (el repaso de fallos). Para un buscador son una pagina casi
+ * vacia, asi que no se indexan ni salen en el sitemap. Llevan prefijo de idioma.
+ */
+export const PERSONAL_PATHS = ['repaso'];
+
+/** ¿Es una pagina personal? (/<idioma>/repaso/…) */
+export function esPersonal(pathname) {
+  return PERSONAL_PATHS.includes(pathname.replace(/^\/+/, '').split('/')[1]);
+}
+
 /** Lo que no debe indexarse ni anunciarse, por un motivo o por otro. */
 export function fueraDeBuscadores(pathname) {
-  return estaBloqueada(pathname) || esDeServicio(pathname);
+  return estaBloqueada(pathname) || esDeServicio(pathname) || esPersonal(pathname);
 }

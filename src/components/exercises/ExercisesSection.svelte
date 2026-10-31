@@ -25,6 +25,8 @@
 
   const allIds = exercises.map((e) => e.id);
   const gradedIds = exercises.filter((e) => GRADED_TYPES.has(e.type)).map((e) => e.id);
+  // Solo los corregibles programan repaso; las flashcards nunca entran en la cola.
+  const typeOf = new Map(exercises.map((e) => [e.id, e.type]));
 
   // Ejercicios ya resueltos en visitas anteriores → mejor nota guardada.
   // El store persiste attempts/bestScore por ejercicio desde siempre, pero la
@@ -94,7 +96,7 @@
     haptic(score === 100 ? 'success' : score === 0 ? 'error' : 'light');
     // El reintento pasa por el MISMO registro: sube attempts y bestScore = máx.;
     // completedAt no se mueve.
-    recordExerciseResult(lessonKey, exerciseId, score);
+    recordExerciseResult(lessonKey, exerciseId, score, GRADED_TYPES.has(typeOf.get(exerciseId) ?? ''));
     scores = { ...scores, [exerciseId]: Math.max(scores[exerciseId] ?? 0, score) };
     if (fin) finished.add(exerciseId);
     if (retryIds.length) roundDone = new Set(roundDone).add(exerciseId);

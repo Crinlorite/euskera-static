@@ -21,7 +21,7 @@ import { join, relative } from 'node:path';
 // El minimo sale del mismo sitio que lo usan las paginas: una copia aqui se
 // desincronizaria en cuanto alguien anadiese un idioma sin espacios.
 import { minimoDescripcion } from '../src/lib/seo-texto.mjs';
-import { estaBloqueada, esDeServicio } from '../src/lib/locked.mjs';
+import { estaBloqueada, esDeServicio, esPersonal } from '../src/lib/locked.mjs';
 import { seMuestraEn } from '../src/lib/mas-apps.mjs';
 
 const SITIO = 'https://euskera.crintech.pro';
@@ -175,7 +175,9 @@ for (const f of paginas) {
   const tieneNoindex = /<meta name="robots" content="noindex/.test(html);
   if (bloqueada && !tieneNoindex) falla('N1', `${rel} esta bajo candado y NO lleva noindex`);
   if (servicio && !tieneNoindex) falla('N1', `${rel} es una pagina de servicio y NO lleva noindex`);
-  if (!bloqueada && !servicio && tieneNoindex) falla('N1', `${rel} lleva noindex y no deberia`);
+  const personal = esPersonal(rel);
+  if (personal && !tieneNoindex) falla('N1', `${rel} es una pagina personal y NO lleva noindex`);
+  if (!bloqueada && !servicio && !personal && tieneNoindex) falla('N1', `${rel} lleva noindex y no deberia`);
 
   // V1/V2: el Hiztegia esta en beta y se indexa desde el dia uno, asi que
   // ninguna de sus paginas puede ser un cascaron: entrada sin traduccion o tema
@@ -293,6 +295,7 @@ if (existsSync(mapa)) {
     const ruta = u.replace(`${SITIO}/`, '');
     if (estaBloqueada(ruta)) falla('N2', `${ruta} sigue anunciada en el sitemap`);
     if (esDeServicio(ruta)) falla('N2', `${ruta} es una pagina de servicio y sale en el sitemap`);
+    if (esPersonal(ruta)) falla('N2', `${ruta} es una pagina personal y sale en el sitemap`);
   }
   if (!urls.includes(`${SITIO}/es/a1/`)) falla('N2', 'el sitemap ha perdido /es/a1/');
   console.log(`  sitemap: ${urls.length} URLs`);

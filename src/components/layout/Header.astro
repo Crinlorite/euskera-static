@@ -28,7 +28,7 @@ const idiomas = await Promise.all(
     .map(async (l) => ({ ...l, href: await destinoIdiomaDe(here, l.code) })),
 );
 
-type NavItem = { href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' };
+type NavItem = { href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'review.title' | 'hiz.title' };
 // `satisfies` sobre el literal: la anotación de navItems no llega al array a través de
 // .filter(), y sin tipo contextual 'nav.home' se ensanchaba a string (ya no era StringKey).
 const navItems: NavItem[] = ([
@@ -37,6 +37,7 @@ const navItems: NavItem[] = ([
   { href: `/${locale}/a2/`, label: 'A2' },
   { href: `/${locale}/hiztegia/`, key: 'hiz.title' },
   { href: `/${locale}/progreso/`, key: 'nav.progress' },
+  { href: `/${locale}/repaso/`, key: 'review.title' },
 ] satisfies NavItem[]).filter((i) => i.href !== `/${locale}/a2/` || conA2);
 ---
 <header class="site-header">

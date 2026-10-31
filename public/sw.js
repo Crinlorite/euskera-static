@@ -5,7 +5,11 @@
 //     HTML hashed que rota referencias a bundles obsoletos.
 //   - Assets estáticos (_astro/*, fonts, imágenes): cache-first. Son
 //     immutable (Astro hashes), así que cachearlos agresivo es seguro.
-//   - Cualquier otro GET: network-first como fallback razonable.
+//   - Cualquier otro GET: network-first como fallback razonable. Aquí caen los
+//     JSON de repaso (/{locale}/repaso/{unidad}.json): se guardan al pedirlos,
+//     así una unidad ya repasada se puede repasar después sin conexión, y un
+//     cambio de contenido llega en cuanto hay red (no llevan hash en el nombre,
+//     por eso NO van por cache-first).
 //
 // PLAZO DE RED (2026-08-27): el network-first NO puede esperar indefinidamente.
 // Si hay copia guardada y la red no contesta en NETWORK_TIMEOUT_MS, se sirve la

@@ -22,7 +22,7 @@ export const POR_DEFECTO = 'es';
  * verificador del build (regla H1) lo caza.
  */
 export const RUTAS_FIJAS = [
-  '', 'sobre/', 'privacidad/', 'progreso/', 'android/', 'idioma/',
+  '', 'sobre/', 'privacidad/', 'progreso/', 'repaso/', 'android/', 'idioma/',
   'feedback/', 'a1/simulakroa/', 'a1/mintzamena/',
 ];
 // jolas/ no está: solo existe en LOCALES_JOLAS (src/lib/jolas.mjs).

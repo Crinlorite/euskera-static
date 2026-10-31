@@ -1,5 +1,6 @@
 import { saveProgress as nativeSaveProgress, syncProgressToNative } from '../lib/platform.ts';
 import { addDays, todayKey } from '../lib/dates.ts';
+import { BOX_DUE_DAYS, GRADUATED_BOX } from '../lib/review.ts';
 import { exportHash as encodeHash, decodeHash, SUPPORTED_SCHEMA } from './progress-hash.ts';
 import { mergeLesson, mergeProgress } from './progress-merge.ts';
 
@@ -273,19 +274,45 @@ export function recordLessonCompleted(lessonKey: string): ProgressV1 {
   return p;
 }
 
+/**
+ * Registra una respuesta. `graded` = ejercicio con respuesta correcta (no
+ * flashcards): solo esos mueven la caja de repaso (ver src/lib/review.ts).
+ * Fallar nunca baja `bestScore` ni toca logros: solo programa el repaso.
+ */
 export function recordExerciseResult(
   lessonKey: string,
   exerciseId: string,
   score: number,
+  graded = false,
 ): ProgressV1 {
   const p = getProgress();
+  const today = todayKey();
   if (!p.lessons[lessonKey]) p.lessons[lessonKey] = { status: 'read', exercises: {} };
   const ex = p.lessons[lessonKey].exercises[exerciseId] ?? { attempts: 0, bestScore: 0, lastAttemptAt: '' };
+  const prevBest = ex.bestScore;
+  const prevAttempts = ex.attempts;
+  const s = Math.round(score);
   ex.attempts += 1;
-  ex.bestScore = Math.max(ex.bestScore, Math.round(score));
+  ex.bestScore = Math.max(ex.bestScore, s);
   ex.lastAttemptAt = new Date().toISOString();
+  ex.lastScore = s;
+  if (graded) {
+    if (s < 100) {
+      ex.fails = (ex.fails ?? 0) + 1;
+      ex.box = 0;
+      ex.due = today;
+    } else {
+      // Sin caja: si ya se había fallado (dato de antes del repaso) arranca en la
+      // caja 0, como lo ve `isDue()`; si nunca se falló, no entra en la cola.
+      const box = ex.box ?? (prevAttempts > 0 && prevBest < 100 ? 0 : undefined);
+      if (box !== undefined && box < GRADUATED_BOX) {
+        ex.box = box + 1;
+        ex.due = ex.box >= GRADUATED_BOX ? '' : addDays(today, BOX_DUE_DAYS[ex.box]);
+      }
+    }
+  }
   p.lessons[lessonKey].exercises[exerciseId] = ex;
-  bumpStreak(p);
+  bumpStreak(p, today);
   setProgress(p);
   return p;
 }
