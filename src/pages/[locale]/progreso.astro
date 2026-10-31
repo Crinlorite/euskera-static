@@ -87,13 +87,15 @@ const descripcion = t(locale, 'site.description');
     <LessonIndexData index={index} />
     <ProgressDashboard client:load locale={locale} units={unitsMeta} />
 
-    {unitsForComponentByLevel.map(({ level, units }) => (
+    {unitsForComponentByLevel.map(({ level, units }, i) => (
       <ProgressByUnit
         client:load
         units={units}
         levelCode={level}
         locale={locale}
         headingId={`progress-by-unit-${level}`}
+        eyebrow={i === 0}
+        collapsible={i > 0}
       />
     ))}
 
