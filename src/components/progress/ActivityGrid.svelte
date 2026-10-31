@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { GridCell } from '../../lib/activity';
-  import { formatDayLong } from '../../lib/dates';
+  import { keyToDate } from '../../lib/dates';
 
   /** Celdas de `gridCells()`: del lunes de hace 11 semanas a hoy, por columnas de semana. */
   export let cells: GridCell[] = [];
@@ -8,7 +8,17 @@
   /** Resumen para lectores de pantalla (la rejilla se lee como una imagen). */
   export let label: string = '';
 
-  const tip = (c: GridCell) => (c.count ? `${formatDayLong(locale, c.day)}: ${c.count}` : formatDayLong(locale, c.day));
+  // Un solo formateador por idioma (antes, uno por celda en cada repintado).
+  function formatter(loc: string): (key: string) => string {
+    try {
+      const f = new Intl.DateTimeFormat(loc, { weekday: 'long', day: 'numeric', month: 'long' });
+      return (key) => f.format(keyToDate(key));
+    } catch {
+      return (key) => key;
+    }
+  }
+  $: fmt = formatter(locale);
+  $: tip = (c: GridCell) => (c.count ? `${fmt(c.day)}: ${c.count}` : fmt(c.day));
 </script>
 
 <!-- Una imagen con su resumen: 84 celdas con nombre serían 84 paradas para un
