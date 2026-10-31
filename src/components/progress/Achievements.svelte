@@ -106,7 +106,6 @@
 
 <section class="ach" aria-labelledby="achievements-heading">
   <header class="head">
-    <p class="eyebrow">{t(loc, 'progress.path')}</p>
     <h2 id="achievements-heading" class="title display">{t(loc, 'ach.title')}</h2>
     <p class="counter" aria-live="polite">
       <span class="counter-num text-grad">{unlockedCount}</span>
@@ -114,14 +113,14 @@
     </p>
   </header>
 
-  <div class="filters" role="tablist" aria-label={t(loc, 'a11y.ach.filter')}>
+  <!-- Filtros: botones que se quedan pulsados (no son pestañas: no hay paneles). -->
+  <div class="filters" role="group" aria-label={t(loc, 'a11y.ach.filter')}>
     {#each FILTERS as f (f.id)}
       <button
         type="button"
-        role="tab"
-        aria-selected={activeFilter === f.id}
         class="pill"
         class:active={activeFilter === f.id}
+        aria-pressed={activeFilter === f.id}
         on:click={() => (activeFilter = f.id)}
       >
         {tr(f.label, f.label)}
@@ -161,15 +160,6 @@
     display: grid;
     gap: var(--s-2);
     margin-block-end: var(--s-5);
-  }
-  .eyebrow {
-    font-family: var(--ff-sans);
-    font-size: var(--t-eyebrow);
-    font-weight: 600;
-    letter-spacing: var(--tr-wide);
-    text-transform: uppercase;
-    color: var(--c-text-muted);
-    margin: 0;
   }
   .title {
     font-family: var(--ff-display);
@@ -232,19 +222,15 @@
     outline-offset: 2px;
   }
 
+  /* Columnas según el ancho del contenedor, no de la ventana: 3 en los 672 px
+     del escritorio, 2 en el móvil. */
   .grid {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr));
     gap: var(--s-3);
-  }
-  @media (min-width: 720px) {
-    .grid { grid-template-columns: repeat(3, 1fr); }
-  }
-  @media (min-width: 1080px) {
-    .grid { grid-template-columns: repeat(4, 1fr); }
   }
 
   .card {
@@ -263,7 +249,11 @@
                 filter var(--m-base) var(--ease-out);
     isolation: isolate;
     min-block-size: 132px;
+    /* Contenido arriba: lo que sobre en una fila de tarjetas más altas va bajo
+       la descripción (y la fecha de desbloqueo, al pie). */
+    grid-template-rows: auto auto 1fr;
   }
+  .card.unlocked { grid-template-rows: auto auto 1fr auto; }
   .card.unlocked {
     border-color: var(--c-border);
   }
@@ -272,13 +262,12 @@
     box-shadow: var(--sh-card-hover), 0 0 0 1px rgba(213, 43, 30, 0.16);
     border-color: transparent;
   }
+  /* Bloqueado = una meta: tiene que poder leerse. Borde discontinuo, icono en
+     gris, texto apagado pero legible y descripción en dos líneas (entera en el
+     title de la tarjeta). Sin opacidad en la tarjeta: con 0,75 el texto apagado
+     se queda en 3,2:1 sobre blanco; sin ella, 5,3:1. */
   .card.locked {
-    opacity: 0.4;
-    filter: grayscale(0.85) blur(0.5px);
-  }
-  .card.locked:hover {
-    opacity: 0.6;
-    filter: grayscale(0.7);
+    border-style: dashed;
   }
 
   .icon {
@@ -290,6 +279,17 @@
   }
   .card.locked .icon {
     filter: grayscale(1);
+    opacity: 0.6;
+  }
+  .card.locked .card-title { color: var(--c-text-muted); }
+  .card.locked .card-desc {
+    /* Sin estirarse con la fila (si no, asoma la tercera línea bajo los puntos suspensivos). */
+    align-self: start;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .check {
