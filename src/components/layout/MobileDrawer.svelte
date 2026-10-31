@@ -42,13 +42,16 @@
 <style>
   .trigger {
     display: none;
-    margin-inline-start: auto;
+    /* Sin margin auto: el botón de idioma de Header.astro empuja a los dos al
+       final de la fila y la hamburguesa va pegada a él, no en mitad del hueco. */
     padding: var(--s-2);
     color: var(--c-text);
   }
   @media (max-width: 768px) {
     .trigger { display: inline-flex; }
   }
+  /* Header.astro la pone cuando ni el globo solo cabe en la cabecera de escritorio. */
+  :global(.site-header.cabecera-estrecha) .trigger { display: inline-flex; }
   .overlay {
     position: fixed; inset: 0;
     background: rgba(0, 0, 0, 0.4);
