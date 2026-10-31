@@ -86,7 +86,9 @@
   // Actividad (fase 3): días de `activity` más los deducidos de lo guardado antes
   // (solo al mostrar; nunca se escriben). La meta se acota al LEER: un código
   // importado puede traer 0 o 99.
-  const today = todayKey();
+  // Se recalcula en cada repintado: una pestaña que pasa la medianoche abierta
+  // (la app en segundo plano) no debe seguir contando con el día de ayer.
+  let today = todayKey();
   $: days = progress ? studyDays(progress) : new Map<string, number | null>();
   $: activeMonth = activeDaysThisMonth(days, today);
   $: activeWeek = activeDaysThisWeek(days, today);
@@ -138,6 +140,7 @@
   });
 
   async function refresh() {
+    today = todayKey();
     progress = getProgress();
     exportedHash = await exportHash(progress);
   }

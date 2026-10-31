@@ -111,3 +111,24 @@ test('derivedDays por huso: 23:30 UTC del 31-oct es 1-nov en Madrid y 31-oct en 
   else if (process.env.TZ === 'America/Mexico_City') assert.deepEqual(d, ['2026-10-31']);
   else assert.equal(d.length, 1);
 });
+
+test('hasComeback en el borde: hueco de 7 días no, de 8 sí; fecha futura heredada no lanza', () => {
+  assert.equal(hasComeback({ '2026-06-01': 1, '2026-06-08': 1 }, new Set()), false);
+  assert.equal(hasComeback({ '2026-06-01': 1, '2026-06-09': 1 }, new Set()), true);
+  assert.equal(hasComeback({ '2026-06-09': 1 }, new Set(['2099-01-01'])), false);
+});
+
+test('gridCells y semana cruzando cambio de hora y de año (Madrid y Santiago de Chile)', () => {
+  // Tras el adelanto de marzo (29-mar-2026) y en una semana que cruza el año.
+  const c1 = gridCells(new Map(), '2026-03-30');
+  assert.equal(c1.length, 78);
+  assert.equal(c1[0].day, '2026-01-12');
+  assert.equal(new Set(c1.map((c) => c.day)).size, c1.length);
+  const c2 = gridCells(new Map([['2026-12-31', 2], ['2027-01-01', 1]]), '2027-01-15');
+  assert.equal(c2.length, 82);
+  assert.equal(c2.filter((c) => c.level > 0).length, 2);
+  assert.equal(new Set(c2.map((c) => c.day)).size, c2.length);
+  const dias = new Map<string, number | null>([['2026-03-30', 1], ['2026-04-05', 1], ['2026-03-29', 1]]);
+  assert.equal(activeDaysThisWeek(dias, '2026-03-30'), 1); // lunes: solo hoy
+  assert.equal(activeDaysThisWeek(dias, '2026-04-05'), 2); // domingo: lunes y domingo
+});

@@ -29,3 +29,9 @@ test('indexLessons con vocab: ids enteros compartidos entre lecciones; countVoca
   // Sin la opción no hay `v`.
   assert.equal('v' in indexLessons(ls).l1, false);
 });
+
+test('vocabWords aguanta tarjetas sin euskera o con basura; countVocab no duplica', () => {
+  const words = vocabWords([{ id: 'a', type: 'flashcards', cards: [{ eu: '' }, { es: 'x' } as unknown as { eu: string }, { eu: 'bai' }] }]);
+  assert.deepEqual(words, ['bai']);
+  assert.equal(countVocab({ a: { v: [1, 1, 2] }, b: { v: [2, 3] } }, ['a', 'b', 'a']), 3);
+});
