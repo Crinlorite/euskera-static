@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { appStoreReviewUrl } from '../../lib/appstore';
   import {
-    getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements,
+    getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements, PROGRESS_EVENT,
     type ProgressV1,
   } from '../../stores/progress';
   import { t, tf, tp } from '../../i18n/ui';
@@ -12,9 +12,12 @@
   import { readIndex, type LessonIndex } from '../../lib/lesson-index';
   import { countDue, countGraduated, nextDueDate } from '../../lib/review';
   import { formatDayLong, todayKey } from '../../lib/dates';
+  import { nextLesson, type NextReason } from '../../lib/next-lesson';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
+  /** Unidades de los niveles abiertos (sin lecciones): contexto y enlace de «Continuar». */
+  export let units: Array<{ id: string; code: string; title: string; order: number; level: string }> = [];
 
   let progress: ProgressV1 | null = null;
   // Lecciones de los niveles abiertos del idioma: el índice embebido en la página
@@ -32,6 +35,48 @@
   $: reviewLine = dueToday
     ? tf(locale, 'lesson.toreview', dueToday)
     : t(locale, 'review.empty') + (nextDue ? ` · ${tf(locale, 'review.next', formatDayLong(locale, nextDue))}` : '');
+
+  // «Continuar»: la siguiente lección (nextLesson) con su unidad. El orden del
+  // currículo es el de inserción del índice (progreso.astro lo construye así).
+  interface NextCard {
+    reason: NextReason;
+    title: string;
+    href: string;
+    level: string;
+    unitOrder: string;
+    unitTitle: string;
+    unitDone: number;
+    unitTotal: number;
+    unitPerfect: number;
+  }
+  function computeNext(p: ProgressV1, idx: LessonIndex): NextCard | null {
+    const order = Object.keys(idx);
+    const r = nextLesson(p.lessons, idx, order);
+    if (!r) return null;
+    const e = idx[r.id];
+    const u = units.find((x) => x.id === e?.u);
+    if (!e || !u || !e.c) return null;
+    const ofUnit = Object.fromEntries(order.filter((id) => idx[id].u === u.id).map((id) => [id, idx[id]]));
+    const c = countStates(p.lessons, ofUnit);
+    return {
+      reason: r.reason,
+      title: e.t ?? r.id,
+      href: `/${locale}/${u.level}/${u.code}/${e.c}/`,
+      level: u.level.toUpperCase(),
+      unitOrder: String(u.order).padStart(2, '0'),
+      unitTitle: u.title,
+      unitDone: c.completed,
+      unitTotal: c.total,
+      unitPerfect: c.perfect,
+    };
+  }
+  $: next = progress ? computeNext(progress, index) : null;
+  // Nada empezado en los niveles abiertos: «Empezar por el A1» y nada que contar.
+  $: empty = next?.reason === 'first';
+  // La misma meta que la tarjeta de la unidad («Lecciones: 3/5 · Todo bien: 2»).
+  $: nextMeta = next && !empty
+    ? `${t(locale, 'unit.eyebrow')}: ${next.unitDone}/${next.unitTotal}${next.unitPerfect ? ` · ${t(locale, 'lesson.state.perfect')}: ${next.unitPerfect}` : ''}`
+    : '';
   let exportedHash = '';
   let importValue = '';
   let banner = '';
@@ -51,7 +96,7 @@
   let enAndroid = false;
   $: RATE_URL = enAndroid ? URL_VALORAR_ANDROID : appStoreReviewUrl(locale);
 
-  onMount(async () => {
+  onMount(() => {
     showRate = canRequestReview();
     enAndroid = nativePlatform() === 'android';
     showSync = canCloudSync();
@@ -60,8 +105,10 @@
       banner = t(locale, 'guest.banner');
     }
     index = readIndex();
-    progress = getProgress();
-    exportedHash = await exportHash(progress);
+    refresh();
+    // Importar un código o desbloquear un logro (cualquier guardado) repinta sin recargar.
+    window.addEventListener(PROGRESS_EVENT, refresh);
+    return () => window.removeEventListener(PROGRESS_EVENT, refresh);
   });
 
   async function refresh() {
@@ -136,7 +183,21 @@
   <div class="banner" role="status">{banner}</div>
 {/if}
 
-{#if progress && counts}
+{#if next}
+  <section class="next-card" aria-labelledby="next-title">
+    <p class="next-ctx"><span class="eyebrow">{next.level} · {next.unitOrder}</span> <span class="next-unit">{next.unitTitle}</span></p>
+    <h2 id="next-title" class="next-title">{next.title}</h2>
+    {#if nextMeta}<p class="next-meta">{nextMeta}</p>{/if}
+    <div class="next-actions">
+      <a class="btn btn-primary" href={next.href}>{t(locale, empty ? 'home.cta.start' : 'common.continue')}</a>
+      {#if empty}
+        <button class="link-btn" type="button" on:click={() => (modalMode = 'import')}>{t(locale, 'progress.import.title')}</button>
+      {/if}
+    </div>
+  </section>
+{/if}
+
+{#if progress && counts && !empty}
   <section class="summary">
     <div class="card">
       <strong>{counts.completed}<small class="of">/{counts.total}</small></strong>
@@ -170,21 +231,21 @@
       <a class="review-more" href={`/${locale}/repaso/`}>{t(locale, 'review.title')} <span class="icon-direction-aware" aria-hidden="true">→</span></a>
     {/if}
   </section>
-{/if}
 
-<!-- Copia de seguridad: fila discreta. El botón destacado de la página es el de
-     aprender (Continuar, o el repaso si hay pendientes), no este. -->
-<div class="backup">
-  <button class="link-btn" type="button" on:click={() => (modalMode = 'export')}>
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
-    {t(locale, 'progress.export.title')}
-  </button>
-  <span class="sep" aria-hidden="true">·</span>
-  <button class="link-btn" type="button" on:click={() => (modalMode = 'import')}>
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3" /><path d="m7 8 5-5 5 5" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
-    {t(locale, 'progress.import.title')}
-  </button>
-</div>
+  <!-- Copia de seguridad: fila discreta. El botón destacado de la página es el de
+       aprender (Continuar, o el repaso si hay pendientes), no este. -->
+  <div class="backup">
+    <button class="link-btn" type="button" on:click={() => (modalMode = 'export')}>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
+      {t(locale, 'progress.export.title')}
+    </button>
+    <span class="sep" aria-hidden="true">·</span>
+    <button class="link-btn" type="button" on:click={() => (modalMode = 'import')}>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3" /><path d="m7 8 5-5 5 5" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
+      {t(locale, 'progress.import.title')}
+    </button>
+  </div>
+{/if}
 
 {#if showSync}
   <section class="sync">
@@ -281,6 +342,25 @@
   .review-more span { display: inline-block; }
   .rate-txt span { color: var(--c-text-muted); font-size: 0.9rem; }
   .rate .btn { text-decoration: none; font-size: 1.1rem; line-height: 1; }
+
+  /* «Continuar»: la tarjeta que abre la página (borde inicial ikurriña, como la
+     tarjeta de unidad del índice de nivel; a la derecha en RTL). */
+  .next-card {
+    position: relative; isolation: isolate; overflow: hidden;
+    display: grid; gap: var(--s-2);
+    padding: var(--s-5); padding-inline-start: calc(var(--s-5) + 4px);
+    margin-block-end: var(--s-5);
+    border: 1px solid var(--c-border); border-radius: var(--r-lg);
+    background: var(--c-bg); box-shadow: var(--sh-card);
+  }
+  .next-card::before { content: ""; position: absolute; inset-inline-start: 0; inset-block: 0; inline-size: 4px; background: var(--grad-ikurri-edge); }
+  .next-ctx { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s-2); color: var(--c-text-muted); font-size: 0.92rem; }
+  .next-ctx .eyebrow { font-size: var(--t-eyebrow); font-weight: 600; letter-spacing: var(--tr-wide); text-transform: uppercase; }
+  .next-title { margin: 0; font-family: var(--ff-sans); font-size: clamp(1.25rem, 2.5vw, 1.6rem); font-weight: 700; line-height: 1.2; letter-spacing: var(--tr-tight); }
+  .next-meta { margin: 0; color: var(--c-text-muted); font-size: 0.92rem; }
+  .next-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3) var(--s-5); margin-block-start: var(--s-2); }
+  .next-actions .btn { text-decoration: none; }
+  @media (max-width: 540px) { .next-actions .btn { inline-size: 100%; } }
 
   .banner { padding: var(--s-3) var(--s-4); background: var(--c-green-soft); color: var(--c-green-strong); border-radius: var(--r-md); margin-block-end: var(--s-4); }
   .summary { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--s-3); margin-block-end: var(--s-5); }
