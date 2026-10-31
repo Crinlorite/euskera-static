@@ -29,6 +29,14 @@
   const dispatch = createEventDispatcher<{ result: { exerciseId: string; score: number; finished: boolean } }>();
 
   function flip() { flipped = !flipped; }
+  // La tarjeta no puede ser un <button>: lleva dentro el botón del altavoz, y
+  // un botón dentro de otro es HTML inválido (el navegador lo parte y Svelte 5
+  // no puede hidratar). Se comporta como botón: Intro y Espacio le dan la
+  // vuelta, salvo cuando la tecla viene del altavoz.
+  function flipKey(e: KeyboardEvent) {
+    if (e.target !== e.currentTarget) return;
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); }
+  }
   function mark(knew: boolean) {
     if (knew) known += 1;
     flipped = false;
@@ -53,7 +61,7 @@
   </div>
   {:else}
   <p class="meta">{tf(locale, 'exercise.flash.counter', i + 1, deck.length)}</p>
-  <button class="card" on:click={flip}>
+  <div class="card" role="button" tabindex="0" on:click={flip} on:keydown={flipKey}>
     {#if !flipped}
       <span class="front">{deck[i].eu}</span>
       {#if hasEuAudio(deck[i].eu) || canSpeak()}<button class="tts-btn" type="button" aria-label="Entzun" on:click|stopPropagation={() => { if (!playEu(deck[i].eu)) speak(deck[i].eu); }}>🔊</button>{/if}
@@ -62,7 +70,7 @@
       <span class="back">{deck[i].es}</span>
       <small>{t(locale, 'exercise.flash.hide')}</small>
     {/if}
-  </button>
+  </div>
   <div class="actions">
     <button class="btn btn-secondary" on:click={() => mark(false)}>{t(locale, 'exercise.flash.learning')}</button>
     <button class="btn btn-primary" on:click={() => mark(true)}>{t(locale, 'exercise.flash.known')}</button>
@@ -89,6 +97,9 @@
     gap: var(--s-2);
     padding: var(--s-6);
     transition: transform 200ms;
+    /* Lo que antes ponía el navegador por ser <button>. */
+    text-align: center;
+    cursor: pointer;
   }
   .card:hover { transform: translateY(-1px); }
   .front, .back { font-size: 1.6rem; font-weight: 700; }
