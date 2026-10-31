@@ -2,6 +2,7 @@ import type { ProgressV1 } from '../stores/progress';
 import type { LessonIndex } from './lesson-index.ts';
 import { lessonState } from './lesson-state.ts';
 import { derivedDays, hasComeback } from './activity.ts';
+import { LOCKED_PATHS } from './locked.mjs';
 
 // Catálogo de logros + evaluador puro.
 //
@@ -407,4 +408,20 @@ export function evaluate(
   }
 
   return Array.from(unlocked);
+}
+
+/**
+ * Logros que tocan en una lección y aún no están guardados (para anunciarlos en
+ * la tarjeta de cierre). Solo sabe de su unidad, así que nunca concede niveles, y
+ * cuenta las lecciones de niveles abiertos (como la página de progreso): ni las
+ * de niveles con candado ni las claves antiguas sin traducir.
+ */
+export function lessonAchievements(progress: ProgressV1, unitId: string, unitIndex: LessonIndex): string[] {
+  const ids = Object.keys(unitIndex);
+  if (!unitId || !ids.length) return [];
+  const known = new Set(
+    Object.keys(progress.lessons).filter((k) => !k.includes('/') && !LOCKED_PATHS.includes(k.split('-')[0])),
+  );
+  return evaluate(progress, known, {}, { [unitId]: ids }, { index: unitIndex })
+    .filter((id) => !progress.achievements?.[id]);
 }
