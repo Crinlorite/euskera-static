@@ -58,7 +58,7 @@ const [titulo, cuerpo, boton] = TEXTOS.es;
 
 <script>
   import { getProgress, exportHash } from '../../stores/progress';
-  import { destinoMigracion } from '../../lib/migrar';
+  import { destinoMigracion } from '../../lib/migrar.mjs';
 
   const q = new URLSearchParams(location.search);
   const textos = JSON.parse(document.getElementById('mig-textos')?.textContent ?? '{}');

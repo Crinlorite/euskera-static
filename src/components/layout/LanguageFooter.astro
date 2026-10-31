@@ -20,7 +20,7 @@ const current = LANGUAGES[currentLocale];
 // ~18.000 enlaces a 404 que recorrían los rastreadores (8-oct-2026).
 const here = Astro.url.pathname;
 const destinos = new Map(await Promise.all(all.map(async (l) => [l.code, await destinoIdiomaDe(here, l.code)] as const)));
-const switchTo = (code: string) => destinos.get(code) ?? `/${code}/`;
+const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
 ---
 <details class="lang-select">
   <summary>

@@ -19,13 +19,16 @@ const langHref = onPicker ? `/${locale}/idioma/` : `/${locale}/idioma/?from=${en
 // No todos los idiomas tienen A2 (el dariya solo A1): sin enlace a una página que no existe.
 const conA2 = (await getCollection('levels')).some((l) => l.id === `${locale}/a2`);
 
-const navItems: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' }> = [
+type NavItem = { href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' };
+// `satisfies` sobre el literal: la anotación de navItems no llega al array a través de
+// .filter(), y sin tipo contextual 'nav.home' se ensanchaba a string (ya no era StringKey).
+const navItems: NavItem[] = ([
   { href: `/${locale}/`, key: 'nav.home' },
   { href: `/${locale}/a1/`, label: 'A1' },
   { href: `/${locale}/a2/`, label: 'A2' },
   { href: `/${locale}/hiztegia/`, key: 'hiz.title' },
   { href: `/${locale}/progreso/`, key: 'nav.progress' },
-].filter((i) => i.href !== `/${locale}/a2/` || conA2);
+] satisfies NavItem[]).filter((i) => i.href !== `/${locale}/a2/` || conA2);
 ---
 <header class="site-header">
   <div class="container-wide row">
