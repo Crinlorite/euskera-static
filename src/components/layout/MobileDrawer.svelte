@@ -7,7 +7,7 @@
 
   let open = false;
 
-  type NavItem = { href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' };
+  type NavItem = { href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'review.title' | 'hiz.title' };
   // `satisfies` sobre el literal (mismo patrón que Header.astro): la anotación de
   // items no llega al array a través de .filter(), y sin tipo contextual
   // 'nav.home' se ensanchaba a string (ya no era StringKey).
@@ -17,6 +17,7 @@
     { href: `/${locale}/a2/`, label: 'A2' },
     { href: `/${locale}/hiztegia/`, key: 'hiz.title' },
     { href: `/${locale}/progreso/`, key: 'nav.progress' },
+    { href: `/${locale}/repaso/`, key: 'review.title' },
   ] satisfies NavItem[]).filter((i) => i.href !== `/${locale}/a2/` || conA2);
 </script>
 

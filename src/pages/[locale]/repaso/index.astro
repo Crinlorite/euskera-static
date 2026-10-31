@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import RootLayout from '../../../layouts/RootLayout.astro';
+import ReviewSession from '../../../components/progress/ReviewSession.svelte';
+import LessonIndexData from '../../../components/progress/LessonIndexData.astro';
+import { indexLessons } from '../../../lib/lesson-index';
+import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
+import { t } from '../../../i18n/ui';
+import { LOCKED_PATHS } from '../../../lib/locked.mjs';
+
+export async function getStaticPaths() {
+  return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode };
+
+// Mismo índice que la ventana de progreso (lecciones de los niveles abiertos):
+// con él se arma la cola en cliente. Los títulos, enlaces y el contenido de los
+// ejercicios NO van en la página: llegan con el JSON de cada unidad
+// (/{locale}/repaso/{unitId}.json) solo cuando se empieza el repaso.
+const openLessons = (await getCollection('lessons')).filter((l) => {
+  const [loc, level] = l.id.split('/');
+  return loc === locale && !LOCKED_PATHS.includes(level);
+});
+const index = indexLessons(openLessons);
+---
+<RootLayout locale={locale} title={t(locale, 'review.title')} description={t(locale, 'site.description')} noindex>
+  <article class="container repaso">
+    <header class="page-head">
+      <p class="eyebrow">{t(locale, 'progress.path')}</p>
+      <h1 class="display page-title">{t(locale, 'review.title')}</h1>
+    </header>
+
+    <LessonIndexData index={index} />
+    <ReviewSession client:load locale={locale} />
+  </article>
+</RootLayout>
+
+<style>
+  .repaso { padding-block: var(--s-6) var(--s-8); display: grid; gap: var(--s-6); }
+  .page-head { display: grid; gap: var(--s-2); }
+  .page-title {
+    font-size: var(--t-h1);
+    line-height: 1.05;
+    letter-spacing: var(--tr-tight);
+    margin: 0;
+  }
+</style>

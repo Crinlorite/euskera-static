@@ -1,0 +1,62 @@
+---
+// «3 para repasar» en el índice de unidad, enlazando al repaso de esa unidad.
+// Componente Astro con script, no una isla: los ejercicios corregibles de cada
+// lección ya van en la página, en la barra lateral (data-lesson-id, data-graded),
+// y de ahí se leen; no se repite ningún índice. Oculto si no hay nada vencido.
+import { t } from '../../i18n/ui';
+import type { LocaleCode } from '../../i18n/config';
+
+interface Props {
+  locale: LocaleCode;
+  unitId: string;
+}
+const { locale, unitId } = Astro.props;
+---
+<span class="review-link-wrap" data-review-link data-unit={unitId} data-l-toreview={t(locale, 'lesson.toreview')} hidden><span aria-hidden="true"> · </span><a class="review-link" href={`/${locale}/repaso/?unit=${encodeURIComponent(unitId)}`}></a></span>
+
+<script>
+  import { countDue } from '../../lib/review';
+  import { todayKey } from '../../lib/dates';
+  import type { LessonIndex } from '../../lib/lesson-index';
+
+  /** Índice mínimo de la unidad a partir de la barra lateral de la página. */
+  function sidebarIndex(unitId: string): LessonIndex {
+    const index: LessonIndex = {};
+    document.querySelectorAll<HTMLElement>('.unit-sidebar [data-lesson-id]').forEach((el) => {
+      const split = (s: string | undefined) => (s ?? '').split(',').filter(Boolean);
+      index[el.dataset.lessonId ?? ''] = { u: unitId, ex: split(el.dataset.ex), g: split(el.dataset.graded) };
+    });
+    return index;
+  }
+
+  function paint() {
+    const wraps = document.querySelectorAll<HTMLElement>('[data-review-link]');
+    if (!wraps.length) return;
+    import('../../stores/progress').then(({ getProgress }) => {
+      const p = getProgress();
+      const today = todayKey();
+      wraps.forEach((wrap) => {
+        const unitId = wrap.dataset.unit ?? '';
+        const n = countDue(p, sidebarIndex(unitId), { kind: 'unit', unitId }, today);
+        const a = wrap.querySelector('a');
+        if (a) a.textContent = (wrap.dataset.lToreview ?? '').replaceAll('{0}', String(n));
+        wrap.hidden = n === 0;
+      });
+    }).catch(() => { /* sin store: el enlace se queda oculto */ });
+  }
+
+  paint();
+  document.addEventListener('astro:page-load', paint);
+  window.addEventListener('kaixo:progress', paint);
+</script>
+
+<style>
+  .review-link-wrap[hidden] { display: none; }
+  /* Neutro, nunca en color de aviso: repasar no es un error. */
+  .review-link {
+    color: var(--c-text);
+    font-weight: 600;
+    text-underline-offset: 0.2em;
+  }
+  .review-link:hover { color: var(--c-red); }
+</style>

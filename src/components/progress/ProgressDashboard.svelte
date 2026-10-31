@@ -5,11 +5,13 @@
     getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements,
     type ProgressV1,
   } from '../../stores/progress';
-  import { t } from '../../i18n/ui';
+  import { t, tf } from '../../i18n/ui';
   import { shareProgress, canRequestReview, canCloudSync, isCloudSyncEnabled, setCloudSync, nativePlatform } from '../../lib/platform';
   import { URL_VALORAR_ANDROID } from '../../lib/migrar.mjs';
   import { countStates } from '../../lib/lesson-state';
   import { readIndex, type LessonIndex } from '../../lib/lesson-index';
+  import { countDue, countGraduated } from '../../lib/review';
+  import { todayKey } from '../../lib/dates';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
@@ -20,6 +22,9 @@
   // que la barra lateral (antes se contaba cualquier clave guardada como «empezada»).
   let index: LessonIndex = {};
   $: counts = progress ? countStates(progress.lessons, index) : null;
+  // Repaso: lo que toca hoy y lo que ya salió de la cola, con el mismo índice.
+  $: dueToday = progress ? countDue(progress, index, { kind: 'all' }, todayKey()) : 0;
+  $: graduated = progress ? countGraduated(progress, index) : 0;
   let exportedHash = '';
   let importValue = '';
   let banner = '';
@@ -143,6 +148,15 @@
       <span>{t(locale, 'progress.summary.record')}</span>
     </div>
   </section>
+
+  <section class="review-card">
+    <div class="review-txt">
+      <strong>{t(locale, 'review.title')}</strong>
+      <span>{dueToday ? tf(locale, 'lesson.toreview', dueToday) : t(locale, 'review.empty')}</span>
+      {#if graduated}<span>{tf(locale, 'review.graduated', graduated)}</span>{/if}
+    </div>
+    <a class="btn {dueToday ? 'btn-primary' : 'btn-secondary'}" href={`/${locale}/repaso/`}>{t(locale, 'review.start')}</a>
+  </section>
 {/if}
 
 <section class="actions">
@@ -232,6 +246,18 @@
     background: var(--c-bg-alt);
   }
   .rate-txt { display: grid; gap: 2px; }
+
+  /* Repaso: mismo aspecto que .sync/.rate; neutro aunque haya pendientes. */
+  .review-card {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: var(--s-4); flex-wrap: wrap;
+    margin-block-end: var(--s-5); padding: var(--s-4) var(--s-5);
+    border: 1px solid var(--c-border); border-radius: var(--r-lg);
+    background: var(--c-bg-alt);
+  }
+  .review-txt { display: grid; gap: 2px; }
+  .review-txt span { color: var(--c-text-muted); font-size: 0.9rem; }
+  .review-card .btn { text-decoration: none; }
   .rate-txt span { color: var(--c-text-muted); font-size: 0.9rem; }
   .rate .btn { text-decoration: none; font-size: 1.1rem; line-height: 1; }
 

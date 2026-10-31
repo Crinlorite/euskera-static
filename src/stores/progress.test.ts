@@ -2,6 +2,7 @@ import { test, beforeEach } from 'node:test';
 import assert from 'node:assert/strict';
 import type { ProgressV1 } from './progress.ts';
 import { exportHash } from './progress-hash.ts';
+import { addDays, todayKey } from '../lib/dates.ts';
 
 // localStorage simulado con un Map. Tiene que existir ANTES de cargar el store,
 // por eso el import del módulo es dinámico.
@@ -241,4 +242,95 @@ test('migrate conserva campos desconocidos y los opcionales nuevos', () => {
   assert.equal(out.extra, 'x');
   assert.deepEqual(out.activity, { '2026-10-30': 3 });
   assert.equal(out.preferences.weeklyGoalDays, 4);
+});
+
+// ---------- Repaso espaciado (fase 2) ----------
+
+const ej = (lesson: string, id: string) => store.getProgress().lessons[lesson].exercises[id];
+
+test('repaso: fallo → caja 0 hoy; aciertos → +1, +3, +7 días y graduado', () => {
+  const hoy = todayKey();
+  store.recordExerciseResult('a1-descriptions-5', 'ex-ive-mc1', 60, true);
+  let e = ej('a1-descriptions-5', 'ex-ive-mc1');
+  assert.equal(e.fails, 1);
+  assert.equal(e.box, 0);
+  assert.equal(e.due, hoy);
+  assert.equal(e.lastScore, 60);
+  assert.equal(e.bestScore, 60);
+
+  store.recordExerciseResult('a1-descriptions-5', 'ex-ive-mc1', 100, true);
+  e = ej('a1-descriptions-5', 'ex-ive-mc1');
+  assert.equal(e.box, 1);
+  assert.equal(e.due, addDays(hoy, 1));
+  assert.equal(e.lastScore, 100);
+  assert.equal(e.fails, 1, 'acertar no toca los fallos');
+
+  store.recordExerciseResult('a1-descriptions-5', 'ex-ive-mc1', 100, true);
+  e = ej('a1-descriptions-5', 'ex-ive-mc1');
+  assert.equal(e.box, 2);
+  assert.equal(e.due, addDays(hoy, 3));
+
+  store.recordExerciseResult('a1-descriptions-5', 'ex-ive-mc1', 100, true);
+  e = ej('a1-descriptions-5', 'ex-ive-mc1');
+  assert.equal(e.box, 3);
+  assert.equal(e.due, addDays(hoy, 7));
+
+  store.recordExerciseResult('a1-descriptions-5', 'ex-ive-mc1', 100, true);
+  e = ej('a1-descriptions-5', 'ex-ive-mc1');
+  assert.equal(e.box, 4);
+  assert.equal(e.due, '');
+
+  // Graduado y acertado otra vez: se queda donde está.
+  store.recordExerciseResult('a1-descriptions-5', 'ex-ive-mc1', 100, true);
+  e = ej('a1-descriptions-5', 'ex-ive-mc1');
+  assert.equal(e.box, 4);
+  assert.equal(e.due, '');
+  assert.equal(e.attempts, 6);
+});
+
+test('repaso: fallar en la caja 3 vuelve a la caja 0 sin bajar bestScore', () => {
+  const p = prog({
+    lessons: {
+      l1: { status: 'completed', exercises: { e1: { attempts: 4, bestScore: 100, lastAttemptAt: '2026-04-01T10:00:00.000Z', box: 3, due: '2026-04-08', fails: 1, lastScore: 100 } } },
+    },
+  });
+  store.setProgress(p);
+  store.recordExerciseResult('l1', 'e1', 0, true);
+  const e = ej('l1', 'e1');
+  assert.equal(e.box, 0);
+  assert.equal(e.due, todayKey());
+  assert.equal(e.fails, 2);
+  assert.equal(e.bestScore, 100);
+  assert.equal(e.lastScore, 0);
+});
+
+test('repaso: acierto sobre un fallo antiguo sin caja (legacy) → caja 1', () => {
+  store.setProgress(prog({
+    lessons: { l1: { status: 'completed', exercises: { e1: { attempts: 1, bestScore: 0, lastAttemptAt: '2026-04-01T10:00:00.000Z' } } } },
+  }));
+  store.recordExerciseResult('l1', 'e1', 100, true);
+  const e = ej('l1', 'e1');
+  assert.equal(e.box, 1);
+  assert.equal(e.due, addDays(todayKey(), 1));
+  assert.equal(e.fails, undefined, 'no se inventan fallos pasados');
+});
+
+test('repaso: graded=false nunca escribe box/due/fails, pero sí lastScore', () => {
+  store.recordExerciseResult('l1', 'fc', 40, false);
+  store.recordExerciseResult('l1', 'fc', 100);
+  const e = ej('l1', 'fc');
+  assert.equal(e.lastScore, 100);
+  assert.equal(e.bestScore, 100);
+  assert.equal(e.attempts, 2);
+  assert.ok(!('box' in e) && !('due' in e) && !('fails' in e));
+});
+
+test('repaso: acierto sin historial no entra en la cola (sin caja)', () => {
+  store.recordExerciseResult('l1', 'e1', 100, true);
+  const e = ej('l1', 'e1');
+  assert.equal(e.lastScore, 100);
+  assert.ok(!('box' in e) && !('due' in e) && !('fails' in e));
+  // Y lo que queda en disco tampoco lleva claves undefined.
+  store.saveNow();
+  assert.ok(!('box' in disco().lessons.l1.exercises.e1));
 });

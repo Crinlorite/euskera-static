@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import RootLayout from '../../../../layouts/RootLayout.astro';
 import UnitSidebar from '../../../../components/layout/UnitSidebar.astro';
+import ReviewLink from '../../../../components/progress/ReviewLink.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../../i18n/config';
 import { t } from '../../../../i18n/ui';
 
@@ -44,6 +45,8 @@ const nextUnit = currentIdx >= 0 && currentIdx < sameLevelUnits.length - 1
 const descripcion = ajusta(unit.data.description, t(locale, 'site.tagline'), minimoDescripcion(locale));
 // EGA no tiene pagina de nivel: solo se enlaza el nivel si existe.
 const hayNivel = await existeRuta(`${levelCode}/`, locale);
+// Los niveles bajo candado no tienen repaso (ni JSON ni sitio en la cola).
+const conRepaso = !LOCKED_PATHS.includes(levelCode);
 ---
 <RootLayout locale={locale} title={unit.data.title} description={descripcion} noindex={LOCKED_PATHS.includes(levelCode)}>
   <article class="container-wide unit">
@@ -59,7 +62,7 @@ const hayNivel = await existeRuta(`${levelCode}/`, locale);
       </div>
       <p class="unit-desc">{unit.data.description}</p>
       <p class="unit-meta">
-        {lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min<span data-unit-summary hidden></span>
+        {lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min<span data-unit-summary hidden></span>{conRepaso && <ReviewLink locale={locale} unitId={unit.data.id} />}
       </p>
     </header>
 
