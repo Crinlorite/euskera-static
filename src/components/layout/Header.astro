@@ -18,7 +18,7 @@ const here = Astro.url.pathname;
 const onPicker = here.endsWith('/idioma/');
 const langHref = onPicker ? `/${locale}/idioma/` : `/${locale}/idioma/?from=${encodeURIComponent(here)}`;
 
-// No todos los idiomas tienen A2 (el dariya solo A1): sin enlace a una página que no existe.
+// No todos los idiomas tienen por qué tener A2: sin enlace a una página que no existe.
 const conA2 = (await getCollection('levels')).some((l) => l.id === `${locale}/a2`);
 
 // Desplegable de idioma de escritorio: cada idioma lleva a esta misma página en
@@ -68,7 +68,7 @@ const activo = activeNavHref(here, navItems.map((i) => i.href));
         ))}
       </ul>
     </nav>
-    <a class="lang-mobile" href={langHref} aria-label="Cambiar idioma / Change language">
+    <a class="lang-mobile" href={langHref} aria-label={`${t(locale, 'nav.language')}: ${langName}`}>
       <svg class="globe" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="9" />
         <path d="M3 12h18" />
@@ -80,7 +80,8 @@ const activo = activeNavHref(here, navItems.map((i) => i.href));
     {/* Escritorio: globo + idioma; si no cabe (pantallas intermedias, plegables
         girados), solo el globo. Al pulsarlo despliega los idiomas. */}
     <details class="lang-menu">
-      <summary aria-label={`${t(locale, 'nav.language')}: ${langName}`}>
+      {/* title: con «solo globo» es lo único que nombra el idioma al pasar el ratón. */}
+      <summary aria-label={`${t(locale, 'nav.language')}: ${langName}`} title={langName}>
         <svg class="globe" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="12" cy="12" r="9" />
           <path d="M3 12h18" />
@@ -91,7 +92,9 @@ const activo = activeNavHref(here, navItems.map((i) => i.href));
           <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
         </span>
       </summary>
-      <ul class="lang-list">
+      {/* Se lee por columnas, de arriba abajo, en el orden de LANGUAGES (como el
+          pie y /idioma/). Tres columnas: las filas salen del número de idiomas. */}
+      <ul class="lang-list" style={`--lang-filas:${Math.ceil(idiomas.length / 3)}`}>
         {/* dir/lang en el nombre, no en el enlace: así todos se alinean con la página. */}
         {idiomas.map((l) => (
           <li><a href={l.href} aria-current={l.code === locale ? 'true' : undefined}><span lang={l.code} dir={l.dir}>{l.name}</span>{l.latin && <span class="latin" lang="en">{l.latin}</span>}</a></li>
@@ -250,7 +253,9 @@ const activo = activeNavHref(here, navItems.map((i) => i.href));
     padding: var(--s-3);
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, max-content);
+    grid-auto-flow: column;
+    grid-template-rows: repeat(var(--lang-filas, 7), auto);
+    grid-auto-columns: max-content;
     gap: 2px var(--s-2);
     max-inline-size: calc(100vw - 2 * var(--s-4));
     max-block-size: calc(100dvh - var(--beta-banner-h, 0px) - 64px - var(--s-5));

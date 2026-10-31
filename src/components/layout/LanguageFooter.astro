@@ -41,7 +41,6 @@ const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
             <li>
               <a href={switchTo(l.code)} aria-current={l.code === currentLocale ? 'true' : undefined} dir={l.dir}>
                 {l.name}
-                {l.status === 'beta' && <span class="badge beta">{t(currentLocale, 'lang.beta')}</span>}
               </a>
             </li>
           ))}
@@ -166,7 +165,6 @@ const switchTo = (code: LocaleCode) => destinos.get(code) ?? `/${code}/`;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
-  .badge.beta { background: var(--c-green-soft); color: var(--c-green-strong); }
 
   .help {
     margin: 0;
