@@ -5,7 +5,7 @@
   import Flashcards from './Flashcards.svelte';
   import MatchPairs from './MatchPairs.svelte';
   import { recordExerciseResult, recordLessonRead, recordLessonCompleted, getProgress, unlockAchievements } from '../../stores/progress';
-  import { evaluate } from '../../lib/achievements';
+  import { lessonAchievements } from '../../lib/achievements';
   import { achievementIcon, achievementTitle } from '../../lib/achievement-text';
   import { readIndex, type LessonIndex } from '../../lib/lesson-index';
   import { GRADED_TYPES, lessonState, type LessonStateInfo } from '../../lib/lesson-state';
@@ -65,24 +65,19 @@
   let fresh = false;
   // Logros conseguidos en ESTA visita: se anuncian en la tarjeta de cierre.
   let freshAchievements: Array<{ id: string; icon: string; title: string }> = [];
-
-  /** Logros que ya tocan con lo que sabe esta página (su unidad) y aún no están guardados. */
-  function pendingAchievements(): string[] {
-    const ids = Object.keys(unitIndex);
-    if (!unitId || !ids.length) return [];
-    const p = getProgress();
-    return evaluate(p, new Set(Object.keys(p.lessons)), {}, { [unitId]: ids }, { index: unitIndex })
-      .filter((id) => !p.achievements?.[id]);
-  }
+  // «Primer paso» (abrir la primera lección) se guarda pero no se anuncia: en la
+  // primera lección saldría junto a «Primera lección completada».
+  const QUIET = new Set(['first-step']);
 
   /** Tras un resultado con la lección terminada: guarda y anuncia lo nuevo. */
   function announceAchievements() {
-    const ids = pendingAchievements();
+    const ids = lessonAchievements(getProgress(), unitId, unitIndex);
     if (!ids.length) return;
     unlockAchievements(ids);
     freshAchievements = [
       ...freshAchievements,
-      ...ids.map((id) => ({ id, icon: achievementIcon(id), title: achievementTitle(locale, id, { [unitId]: unitTitle }) })),
+      ...ids.filter((id) => !QUIET.has(id))
+        .map((id) => ({ id, icon: achievementIcon(id), title: achievementTitle(locale, id, { [unitId]: unitTitle }) })),
     ];
   }
 
@@ -104,7 +99,7 @@
     // la página de progreso); así solo se anuncia lo que se consiga ahora, incluido
     // «Has vuelto», que lo dispara la propia visita.
     unitIndex = readIndex();
-    const before = pendingAchievements();
+    const before = lessonAchievements(getProgress(), unitId, unitIndex);
     if (before.length) unlockAchievements(before);
     recordLessonRead(lessonKey);
     const saved = getProgress().lessons[lessonKey]?.exercises ?? {};
@@ -211,11 +206,14 @@
       <!-- Sin aviso flotante ni temporizador: está donde mira el alumno y el
            aria-live de la tarjeta lo anuncia. -->
       {#if freshAchievements.length}
-        <ul class="done-ach" aria-label={t(locale, 'ach.unlocked.short')}>
-          {#each freshAchievements as a (a.id)}
-            <li><span aria-hidden="true">{a.icon}</span> {t(locale, 'ach.unlocked.short')}: {a.title}</li>
-          {/each}
-        </ul>
+        <div class="done-ach">
+          <p class="done-ach-h" id="done-ach-h">{t(locale, 'ach.title')}</p>
+          <ul aria-labelledby="done-ach-h">
+            {#each freshAchievements as a (a.id)}
+              <li><span aria-hidden="true">{a.icon}</span> {a.title}</li>
+            {/each}
+          </ul>
+        </div>
       {/if}
       <div class="done-actions">
         {#if info.toReview.length && !inRound}
@@ -264,7 +262,9 @@
     color: #fff;
   }
   .done-score { margin: 0; color: var(--c-text-muted); }
-  .done-ach { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--s-1); font-size: 0.92rem; font-weight: 600; }
+  .done-ach { display: grid; gap: var(--s-1); }
+  .done-ach-h { margin: 0; font-size: var(--t-eyebrow); font-weight: 600; letter-spacing: var(--tr-wide); text-transform: uppercase; color: var(--c-green-strong); }
+  .done-ach ul { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--s-1); font-size: 0.92rem; font-weight: 600; }
   .done-actions { display: flex; gap: var(--s-3); flex-wrap: wrap; }
   .done-actions .btn { text-decoration: none; }
   @keyframes done-in {

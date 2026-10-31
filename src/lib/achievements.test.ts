@@ -118,3 +118,39 @@ test('evaluate: los logros de disparador no se inventan, pero se conservan', () 
   assert.equal(run(prog()).has('curiosity-about'), false);
   assert.ok(run(prog({ achievements: { 'curiosity-about': { unlockedAt: 'x' } } })).has('curiosity-about'));
 });
+
+// ---------- Contexto de lección (lo que se anuncia en la tarjeta de cierre) ----------
+import { lessonAchievements } from './achievements.ts';
+
+test('lección: nunca concede niveles; no cuenta lecciones con candado ni claves antiguas; solo lo nuevo', () => {
+  const unitIdx: LessonIndex = { 'a1-ua-1': index['a1-ua-1'], 'a1-ua-2': index['a1-ua-2'] };
+  const lessons: ProgressV1['lessons'] = {
+    'a1-ua-1': { status: 'completed', exercises: { m1: ok(), f1: ok() } },
+    'a1-ua-2': { status: 'completed', exercises: { m2: ok() } },
+  };
+  // 8 lecciones del B1 (con candado) y una clave antigua: no suman para «10 lecciones».
+  for (let i = 0; i < 8; i++) lessons[`b1-uz-${i}`] = { status: 'completed', exercises: {} };
+  lessons['a1/01-saludos/99-x'] = { status: 'completed', exercises: {} };
+  const p = prog({ lessons, achievements: { 'first-step': { unlockedAt: 'x' } } });
+  const ids = lessonAchievements(p, 'a1-ua', unitIdx);
+  assert.ok(ids.includes('perfect-unit-a1-ua'));
+  assert.ok(ids.includes('unit-complete-a1-ua'));
+  assert.equal(ids.includes('volume-10'), false);
+  assert.equal(ids.includes('first-step'), false); // ya estaba
+  assert.equal(ids.some((id) => id.startsWith('level-complete') || id === 'volume-a1-complete'), false);
+});
+
+test('lección: sin unidad o sin índice no concede nada', () => {
+  assert.deepEqual(lessonAchievements(prog(), '', index), []);
+  assert.deepEqual(lessonAchievements(prog(), 'a1-ua', {}), []);
+});
+
+test('el catálogo nuevo contiene todos los logros del de antes (con «Nivel superado» si se tiene): el contador no baja', () => {
+  const antes = ['first-step', 'first-completed', 'first-unit', 'first-level', 'first-export', 'first-import',
+    'streak-3', 'streak-7', 'streak-14', 'streak-30', 'volume-10', 'volume-25', 'volume-50', 'volume-a1-complete',
+    'curiosity-about', 'curiosity-language'];
+  const a1 = ['a1-greetings', 'a1-family', 'a1-descriptions', 'a1-bar-food', 'a1-town', 'a1-directions', 'a1-routine',
+    'a1-recent-past', 'a1-home', 'a1-people', 'a1-shopping', 'a1-restaurant', 'a1-week-plan'];
+  const ids = new Set(buildCatalog({ a1: { unitIds: a1 }, a2: { unitIds: ['a2-x'] } }, { held: ['first-level'] }).map((a) => a.id));
+  for (const id of [...antes, ...a1.map((u) => `unit-complete-${u}`)]) assert.ok(ids.has(id), id);
+});
