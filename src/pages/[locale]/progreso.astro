@@ -6,44 +6,59 @@ import ProgressByUnit from '../../components/progress/ProgressByUnit.svelte';
 import Achievements from '../../components/progress/Achievements.svelte';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
-import { listLessonKeys } from '../../lib/lessonKeys';
 import { ACHIEVEMENTS } from '../../lib/achievements';
+import { LOCKED_PATHS } from '../../lib/locked.mjs';
 
 export async function getStaticPaths() {
   return ACTIVE_LOCALES.map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params as { locale: LocaleCode };
-const knownLessonKeys = await listLessonKeys(locale);
 
-// Datos por unidad (para ProgressByUnit + para evaluator de logros)
+// Datos por unidad (para ProgressByUnit + para evaluator de logros), de TODOS los
+// niveles abiertos del idioma: hoy A1 y A2 (B1+ de castellano quedan fuera por el
+// candado). Antes solo se miraba el A1 y el A2 no contaba ni en progreso ni en logros.
 const allUnits = await getCollection('units');
 const allLessons = await getCollection('lessons');
-const a1Units = allUnits
-  .filter((u) => u.id.startsWith(`${locale}/a1/`))
-  .sort((a, b) => a.data.order - b.data.order);
+const byOrder = (a: { data: { order: number } }, b: { data: { order: number } }) => a.data.order - b.data.order;
+const levels = [...new Set(allUnits.filter((u) => u.id.startsWith(`${locale}/`)).map((u) => u.id.split('/')[1]))]
+  .filter((l) => !LOCKED_PATHS.includes(l))
+  .sort();
+const unitsByLevelEntries = levels.map((l) => ({
+  level: l,
+  units: allUnits.filter((u) => u.id.startsWith(`${locale}/${l}/`)).sort(byOrder),
+}));
 
 const lessonsByUnit: Record<string, string[]> = {};
-for (const u of a1Units) {
-  const lessons = allLessons
-    .filter((l) => l.id.startsWith(`${locale}/a1/${u.data.code}/`))
-    .sort((a, b) => a.data.order - b.data.order);
-  lessonsByUnit[u.data.id] = lessons.map((l) => l.data.id);
+for (const { level, units } of unitsByLevelEntries) {
+  for (const u of units) {
+    const lessons = allLessons
+      .filter((l) => l.id.startsWith(`${locale}/${level}/${u.data.code}/`))
+      .sort(byOrder);
+    lessonsByUnit[u.data.id] = lessons.map((l) => l.data.id);
+  }
 }
 
-const unitsForComponent = a1Units.map((u) => ({
-  id: u.data.id,
-  code: u.data.code,
-  title: u.data.title,
-  order: u.data.order,
-  lessonIds: lessonsByUnit[u.data.id] ?? [],
+const unitsForComponentByLevel = unitsByLevelEntries.map(({ level, units }) => ({
+  level,
+  units: units.map((u) => ({
+    id: u.data.id,
+    code: u.data.code,
+    title: u.data.title,
+    order: u.data.order,
+    lessonIds: lessonsByUnit[u.data.id] ?? [],
+  })),
 }));
 
 // Para el evaluator de logros — units por nivel
-const unitsByLevel = { a1: { unitIds: a1Units.map((u) => u.data.id) } };
+const unitsByLevel: Record<string, { unitIds: string[] }> = Object.fromEntries(
+  unitsByLevelEntries.map(({ level, units }) => [level, { unitIds: units.map((u) => u.data.id) }]),
+);
 
 // Títulos de unidad en el idioma de la página, para los logros de maestría.
-const unitTitles = Object.fromEntries(a1Units.map((u) => [u.data.id, u.data.title]));
+const unitTitles = Object.fromEntries(
+  unitsByLevelEntries.flatMap(({ units }) => units.map((u) => [u.data.id, u.data.title])),
+);
 
 // Catalogo serializable a cliente
 const achievementsCatalog = ACHIEVEMENTS;
@@ -56,14 +71,17 @@ const descripcion = t(locale, 'site.description');
       <h1 class="display page-title">{t(locale, 'nav.progress')}</h1>
     </header>
 
-    <ProgressDashboard client:load locale={locale} knownLessonKeys={knownLessonKeys} />
+    <ProgressDashboard client:load locale={locale} />
 
-    <ProgressByUnit
-      client:load
-      units={unitsForComponent}
-      levelCode="a1"
-      locale={locale}
-    />
+    {unitsForComponentByLevel.map(({ level, units }) => (
+      <ProgressByUnit
+        client:load
+        units={units}
+        levelCode={level}
+        locale={locale}
+        headingId={`progress-by-unit-${level}`}
+      />
+    ))}
 
     <Achievements
       client:load

@@ -26,6 +26,8 @@
   export let units: UnitInput[] = [];
   export let levelCode: string = 'a1';
   export let locale: string = 'es';
+  /** id del encabezado: único por nivel, porque la página pinta un bloque por nivel. */
+  export let headingId: string = 'progress-by-unit-heading';
   $: loc = locale as LocaleCode;
 
   let mounted = false;
@@ -80,10 +82,10 @@
   });
 </script>
 
-<section class="by-unit" aria-labelledby="progress-by-unit-heading">
+<section class="by-unit" aria-labelledby={headingId}>
   <header class="head">
     <p class="eyebrow">{t(loc, 'progress.byunit.eyebrow')}</p>
-    <h2 id="progress-by-unit-heading" class="title display">{t(loc, 'progress.byunit.title')}</h2>
+    <h2 id={headingId} class="title display">{t(loc, 'progress.byunit.title')} · {levelCode.toUpperCase()}</h2>
   </header>
 
   {#if computed.length === 0}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-02-20T09:00:00.000Z",
+  "lastUpdated": "2026-03-02T18:30:00.000Z",
+  "lessons": {
+    "a1-greetings-1": {
+      "status": "completed",
+      "completedAt": "2026-03-01T10:00:00.000Z",
+      "exercises": {
+        "ex-a": { "attempts": 2, "bestScore": 100, "lastAttemptAt": "2026-03-01T09:58:00.000Z" }
+      }
+    },
+    "a1-family-2": { "status": "read", "exercises": {} }
+  },
+  "streak": { "current": 2, "longest": 5, "lastStudiedDate": "2026-03-02" },
+  "preferences": { "uiLocale": "es" }
+}

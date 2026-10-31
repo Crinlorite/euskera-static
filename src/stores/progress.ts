@@ -1,17 +1,35 @@
-import { saveProgress as nativeSaveProgress, syncProgressToNative } from '../lib/platform';
-import { exportHash as encodeHash, decodeHash } from './progress-hash';
+import { saveProgress as nativeSaveProgress, syncProgressToNative } from '../lib/platform.ts';
+import { addDays, todayKey } from '../lib/dates.ts';
+import { exportHash as encodeHash, decodeHash, SUPPORTED_SCHEMA } from './progress-hash.ts';
+import { mergeLesson, mergeProgress } from './progress-merge.ts';
 
 export const STORAGE_KEY = 'euskera-static.progress.v1';
 export const SCHEMA_VERSION = 1 as const;
+/** Evento en `window` tras cada `setProgress` (para refrescar en vivo lo que pinte progreso). */
+export const PROGRESS_EVENT = 'kaixo:progress';
 
+// Seguimos en schemaVersion 1 a propósito: todo lo nuevo son campos OPCIONALES.
+// Un cliente con el JS viejo en caché vaciaría un blob v2, pero conserva los
+// campos que no conoce de un v1 (`migrate` hace `...p`). Los tipos van completos
+// desde la fase 0 para que la fusión sea correcta antes de que existan escritores.
 export interface ExerciseResult {
   attempts: number;
   bestScore: number;
+  /** ISO UTC. */
   lastAttemptAt: string;
+  /** Nota del último intento (repaso, fase 2). */
+  lastScore?: number;
+  /** Intentos con nota < 100 en tipos corregibles (fase 2). */
+  fails?: number;
+  /** Caja de repaso: 0..3 en cola; 4 = graduado (fase 2). */
+  box?: number;
+  /** 'YYYY-MM-DD' local en que toca repasar; '' = graduado (fase 2). */
+  due?: string;
 }
 
 export interface LessonProgress {
   status: 'read' | 'completed';
+  /** PRIMERA vez que se completó (ya no se sobrescribe). */
   completedAt?: string;
   exercises: Record<string, ExerciseResult>;
 }
@@ -19,12 +37,15 @@ export interface LessonProgress {
 export interface Streak {
   current: number;
   longest: number;
+  /** 'YYYY-MM-DD' (local desde la fase 0; antes, UTC). */
   lastStudiedDate: string;
 }
 
 export interface Preferences {
   uiLocale?: string;
   theme?: 'light' | 'dark' | 'auto';
+  /** Meta semanal de días de estudio, 1..7 (fase 3). Del dispositivo. */
+  weeklyGoalDays?: number;
 }
 
 export interface AchievementUnlock {
@@ -39,11 +60,14 @@ export interface ProgressV1 {
   streak: Streak;
   preferences: Preferences;
   achievements?: Record<string, AchievementUnlock>;
+  /** 'YYYY-MM-DD' local → nº de respuestas ese día (fase 3). */
+  activity?: Record<string, number>;
 }
 
-export type ProgressAny = ProgressV1;
+/** Lo que puede llegar de fuera: misma forma, versión cualquiera. */
+export type ProgressAny = Omit<ProgressV1, 'schemaVersion'> & { schemaVersion: number };
 
-function emptyProgress(): ProgressV1 {
+export function emptyProgress(): ProgressV1 {
   const now = new Date().toISOString();
   return {
     schemaVersion: 1,
@@ -68,29 +92,41 @@ export function isStorageAvailable(): boolean {
   }
 }
 
-export function getProgress(): ProgressV1 {
-  if (!isStorageAvailable()) return emptyProgress();
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) return emptyProgress();
+let saveTimer: ReturnType<typeof setTimeout> | null = null;
+let pendingSave: ProgressV1 | null = null;
+const clone = <T>(x: T): T => JSON.parse(JSON.stringify(x));
+
+function readStored(): ProgressV1 | null {
   try {
-    const parsed = JSON.parse(raw) as ProgressAny;
-    return migrate(parsed);
+    if (typeof localStorage === 'undefined') return null;
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? migrate(JSON.parse(raw)) : null;
   } catch {
-    return emptyProgress();
+    return null;
   }
 }
 
-let saveTimer: ReturnType<typeof setTimeout> | null = null;
-let pendingSave: ProgressV1 | null = null;
+/**
+ * Devuelve SIEMPRE lo más reciente: el guardado pendiente si lo hay (copia), si no
+ * lo que haya en disco. Antes leía solo el disco e ignoraba lo pendiente del
+ * debounce: dos escrituras seguidas (último ejercicio + lección completada) se
+ * pisaban y el último ejercicio desaparecía al recargar.
+ */
+export function getProgress(): ProgressV1 {
+  if (pendingSave) return clone(pendingSave);
+  return readStored() ?? emptyProgress();
+}
 
+/**
+ * Guarda con debounce de 500 ms. Sin localStorage (modo invitado, bloqueado) el
+ * progreso queda en memoria durante la sesión: `getProgress()` lo sigue viendo.
+ */
 export function setProgress(p: ProgressV1) {
-  if (!isStorageAvailable()) return;
   p.lastUpdated = new Date().toISOString();
   pendingSave = p;
   if (saveTimer) clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    flushPendingSave();
-  }, 500);
+  saveTimer = setTimeout(flushPendingSave, 500);
+  if (typeof window !== 'undefined') window.dispatchEvent(new CustomEvent(PROGRESS_EVENT));
 }
 
 // El debounce de 500ms pierde la última escritura si el usuario cierra la
@@ -103,30 +139,47 @@ export function setProgress(p: ProgressV1) {
  */
 export function saveNow() { flushPendingSave(); }
 
+// Ojo si algún día se añade «borrar progreso»: debe escribir directamente en
+// localStorage y poner `pendingSave = null`; si no, la fusión de aquí abajo
+// resucitaría lo borrado.
 function flushPendingSave() {
   if (saveTimer) { clearTimeout(saveTimer); saveTimer = null; }
   if (pendingSave === null) return;
-  const progress = pendingSave;
+  // Fusiona con lo que haya en disco (otra pestaña pudo escribir) antes de
+  // escribir: nunca pisa.
+  const stored = readStored();
+  const progress = stored ? mergeProgress(pendingSave, stored) : pendingSave;
+  let written = false;
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
-    const lessonsCompleted = Object.values(progress.lessons).filter((l) => l.status === 'completed').length;
-    nativeSaveProgress({
-      streak: progress.streak.current,
-      longest: progress.streak.longest,
-      lessonsCompleted,
-      lastStudied: progress.streak.lastStudiedDate,
-    });
-    // Progreso COMPLETO al wrapper nativo (iOS lo respalda en local). El hash es
-    // asíncrono; si falla no pasa nada: el guardado local ya está hecho.
-    void exportHash(progress).then((h) => syncProgressToNative(h, progress.lastUpdated)).catch(() => {});
-  } catch { /* storage lleno o bloqueado — no hay nada que hacer */ }
-  pendingSave = null;
+    written = true;
+  } catch { /* storage lleno, bloqueado o inexistente */ }
+  const lessonsCompleted = Object.values(progress.lessons).filter((l) => l.status === 'completed').length;
+  nativeSaveProgress({
+    streak: progress.streak.current,
+    longest: progress.streak.longest,
+    lessonsCompleted,
+    lastStudied: progress.streak.lastStudiedDate,
+  });
+  // Progreso COMPLETO al wrapper nativo (iOS lo respalda en local), también si
+  // el guardado local falló. El hash es asíncrono; si falla no pasa nada.
+  void encodeHash(progress).then((h) => syncProgressToNative(h, progress.lastUpdated)).catch(() => {});
+  // Si no se pudo escribir, sigue en memoria (lecturas coherentes) y se reintenta
+  // en el siguiente guardado o al ocultar la página.
+  pendingSave = written ? null : progress;
 }
 
 if (typeof window !== 'undefined') {
   window.addEventListener('pagehide', flushPendingSave);
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') flushPendingSave();
+  });
+  // Otra pestaña escribió: lo pendiente de esta se fusiona ya con ello, para que
+  // las lecturas de aquí lo vean antes del siguiente guardado.
+  window.addEventListener('storage', (e) => {
+    if (e.key !== STORAGE_KEY || !pendingSave) return;
+    const stored = readStored();
+    if (stored) pendingSave = mergeProgress(pendingSave, stored);
   });
 }
 
@@ -165,25 +218,37 @@ function migrateLegacyLessonKey(key: string): string | null {
   return `${unitId}-${order}`;
 }
 
+/**
+ * Normaliza lo que venga (disco, código importado, respaldo nativo) a v1.
+ * NUNCA vacía:
+ * - una versión superior se trata como v1 con campos extra (se conservan);
+ * - una clave antigua que no se sabe traducir se conserva con su clave;
+ * - si una clave antigua y una nueva son la misma lección, se fusionan.
+ */
 export function migrate(p: ProgressAny): ProgressV1 {
-  if (p.schemaVersion !== 1) return emptyProgress();
-  // Si hay claves legacy en lessons, traducirlas
+  if (!p || typeof p !== 'object') return emptyProgress();
+  const base = emptyProgress();
   const lessons: Record<string, LessonProgress> = {};
-  for (const [key, value] of Object.entries(p.lessons)) {
-    if (key.includes('/')) {
-      const newKey = migrateLegacyLessonKey(key);
-      if (newKey) {
-        lessons[newKey] = value;
-      }
-      // Si no se puede mapear (clave desconocida), la descartamos silenciosamente
-    } else {
-      lessons[key] = value;
-    }
+  for (const [key, raw] of Object.entries(p.lessons ?? {})) {
+    if (!raw || typeof raw !== 'object') continue;
+    // Una lección sin `exercises` (dato dañado) haría reventar a quien la lea.
+    const value: LessonProgress = raw.exercises && typeof raw.exercises === 'object' ? raw : { ...raw, exercises: {} };
+    const newKey = key.includes('/') ? (migrateLegacyLessonKey(key) ?? key) : key;
+    const prev = lessons[newKey];
+    lessons[newKey] = prev ? mergeLesson(prev, value) : value;
   }
   // Backwards-compat: hashes antiguos no traen `achievements`. Garantizamos
   // que el campo siempre exista para que el resto del código no vea undefined.
-  const achievements = p.achievements ?? {};
-  return { ...p, lessons, achievements };
+  return {
+    ...p, // conserva campos que esta versión no conoce
+    schemaVersion: 1,
+    createdAt: p.createdAt ?? base.createdAt,
+    lastUpdated: p.lastUpdated ?? base.lastUpdated,
+    lessons,
+    streak: { ...base.streak, ...(p.streak ?? {}) },
+    preferences: p.preferences ?? {},
+    achievements: p.achievements ?? {},
+  };
 }
 
 export function recordLessonRead(lessonKey: string): ProgressV1 {
@@ -199,8 +264,10 @@ export function recordLessonRead(lessonKey: string): ProgressV1 {
 export function recordLessonCompleted(lessonKey: string): ProgressV1 {
   const p = getProgress();
   if (!p.lessons[lessonKey]) p.lessons[lessonKey] = { status: 'completed', exercises: {} };
-  p.lessons[lessonKey].status = 'completed';
-  p.lessons[lessonKey].completedAt = new Date().toISOString();
+  const l = p.lessons[lessonKey];
+  l.status = 'completed';
+  // Primera vez que se completó: repetir la lección no la mueve.
+  if (!l.completedAt) l.completedAt = new Date().toISOString();
   bumpStreak(p);
   setProgress(p);
   return p;
@@ -242,15 +309,16 @@ export function unlockAchievements(achievementIds: string[]): ProgressV1 {
   return p;
 }
 
-function bumpStreak(p: ProgressV1) {
-  const today = new Date().toISOString().slice(0, 10);
-  if (p.streak.lastStudiedDate === today) return;
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  if (p.streak.lastStudiedDate === yesterday) {
-    p.streak.current += 1;
-  } else {
-    p.streak.current = 1;
-  }
+/**
+ * Racha de días seguidos, con el día LOCAL de `todayKey()`. Exportada para tests.
+ * `last >= today` cuenta como "ya contado hoy": cubre también las fechas
+ * "futuras" que dejó el cálculo antiguo en UTC (de noche, en husos al oeste de
+ * Greenwich), para que el cambio a hora local no rompa ninguna racha.
+ */
+export function bumpStreak(p: ProgressV1, today: string = todayKey()) {
+  const last = p.streak.lastStudiedDate || '';
+  if (last >= today) return;
+  p.streak.current = last === addDays(today, -1) ? p.streak.current + 1 : 1;
   p.streak.longest = Math.max(p.streak.longest, p.streak.current);
   p.streak.lastStudiedDate = today;
 }
@@ -265,24 +333,32 @@ export async function exportHash(p: ProgressV1 = getProgress()): Promise<string>
 
 export interface ImportResult {
   ok: boolean;
+  /** 'outdated': el código viene de una versión más nueva; se fusionó igual. */
   reason?: 'invalid' | 'outdated';
   imported?: ProgressV1;
-  skippedLessonKeys?: string[];
+  /** Lecciones que no estaban aquí y llegaron con el código. */
+  added: number;
 }
 
-export async function importHash(hash: string, knownLessonKeys: Set<string>): Promise<ImportResult> {
+/**
+ * Importa un código de progreso FUSIONÁNDOLO con el local (antes lo sustituía y
+ * borraba las lecciones que este idioma no conocía). No pregunta nada: la fusión
+ * solo puede añadir. Escribe ya, sin esperar al debounce.
+ */
+export async function importHash(hash: string): Promise<ImportResult> {
   hash = hash.trim();
-  if (!hash) return { ok: false, reason: 'invalid' };
+  if (!hash) return { ok: false, reason: 'invalid', added: 0 };
   const payload = await decodeHash(hash);
-  if (!payload) return { ok: false, reason: 'invalid' };
-  const migrated = migrate(payload);
-  const skipped: string[] = [];
-  for (const key of Object.keys(migrated.lessons)) {
-    if (!knownLessonKeys.has(key)) {
-      skipped.push(key);
-      delete migrated.lessons[key];
-    }
-  }
-  setProgress(migrated);
-  return { ok: true, imported: migrated, skippedLessonKeys: skipped };
+  if (!payload) return { ok: false, reason: 'invalid', added: 0 };
+  const local = getProgress();
+  const merged = mergeProgress(local, migrate(payload));
+  setProgress(merged);
+  saveNow();
+  const result: ImportResult = {
+    ok: true,
+    imported: merged,
+    added: Object.keys(merged.lessons).length - Object.keys(local.lessons).length,
+  };
+  if (payload.schemaVersion > SUPPORTED_SCHEMA) result.reason = 'outdated';
+  return result;
 }

@@ -13,6 +13,7 @@
     "preview": "astro preview",
     "check": "astro check && svelte-check --workspace src && tsc --noEmit && node scripts/validate-content.mjs",
     "validate": "node scripts/validate-content.mjs",
+    "test": "node --test tests/*.test.mjs src/stores/*.test.ts src/lib/*.test.ts",
     "astro": "astro",
     "verify:seo": "node scripts/verificar-seo.mjs dist"
   },
