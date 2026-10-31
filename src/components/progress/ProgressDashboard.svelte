@@ -172,14 +172,19 @@
   </section>
 {/if}
 
-<section class="actions">
-  <button class="btn btn-primary" on:click={() => (modalMode = 'export')}>
-    📥 {t(locale, 'progress.export.title')}
+<!-- Copia de seguridad: fila discreta. El botón destacado de la página es el de
+     aprender (Continuar, o el repaso si hay pendientes), no este. -->
+<div class="backup">
+  <button class="link-btn" type="button" on:click={() => (modalMode = 'export')}>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
+    {t(locale, 'progress.export.title')}
   </button>
-  <button class="btn btn-secondary" on:click={() => (modalMode = 'import')}>
-    📤 {t(locale, 'progress.import.title')}
+  <span class="sep" aria-hidden="true">·</span>
+  <button class="link-btn" type="button" on:click={() => (modalMode = 'import')}>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3" /><path d="m7 8 5-5 5 5" /><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" /></svg>
+    {t(locale, 'progress.import.title')}
   </button>
-</section>
+</div>
 
 {#if showSync}
   <section class="sync">
@@ -213,9 +218,9 @@
     <textarea readonly>{exportedHash}</textarea>
     <p class="help">{t(locale, 'progress.export.help')}</p>
     <div class="actions">
-      <button class="btn btn-primary" on:click={copyHash}>📋 {t(locale, 'progress.export.copy')}</button>
-      <button class="btn btn-secondary" on:click={downloadHash}>💾 {t(locale, 'progress.export.download')}</button>
-      <button class="btn btn-secondary" on:click={shareHash}>📲 {t(locale, 'progress.export.share')}</button>
+      <button class="btn btn-primary" on:click={copyHash}>{t(locale, 'progress.export.copy')}</button>
+      <button class="btn btn-secondary" on:click={downloadHash}>{t(locale, 'progress.export.download')}</button>
+      <button class="btn btn-secondary" on:click={shareHash}>{t(locale, 'progress.export.share')}</button>
       <button class="btn btn-secondary" on:click={() => (modalMode = 'none')}>{t(locale, 'common.close')}</button>
     </div>
   </dialog>
@@ -287,6 +292,18 @@
   /* Mayúscula inicial sin claves nuevas (el span es ítem de grid: bloque). Neutro
      donde ya va en mayúscula (alemán) y en escrituras sin caja. */
   .summary span::first-letter { text-transform: uppercase; }
+  /* Botones de texto subrayado (fila de copia y acciones secundarias). */
+  .link-btn {
+    display: inline-flex; align-items: center; gap: var(--s-2); min-block-size: 44px; padding: 0;
+    color: var(--c-text); text-decoration: underline; text-underline-offset: 0.2em; text-decoration-thickness: 1px; font-weight: 500;
+  }
+  .link-btn:hover { color: var(--c-red); }
+  .link-btn svg { color: var(--c-text-muted); flex-shrink: 0; }
+  .backup { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2) var(--s-3); margin-block: var(--s-4) var(--s-2); font-size: 0.92rem; }
+  .backup .sep { color: var(--c-text-dim); }
+  /* En móvil la fila se parte en dos: sin separador colgando al final de la primera. */
+  @media (max-width: 540px) { .backup .sep { display: none; } }
+  /* Botones del modal. */
   .actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-4); }
   .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 100; }
   .modal { position: fixed; inset: 50% auto auto 50%; transform: translate(-50%, -50%); inline-size: min(90vw, 600px); padding: var(--s-5); border: 0; border-radius: var(--r-lg); z-index: 101; box-shadow: 0 12px 40px rgba(0,0,0,0.2); }
