@@ -4,7 +4,10 @@
   import FillInBlank from './FillInBlank.svelte';
   import Flashcards from './Flashcards.svelte';
   import MatchPairs from './MatchPairs.svelte';
-  import { recordExerciseResult, recordLessonRead, recordLessonCompleted, getProgress } from '../../stores/progress';
+  import { recordExerciseResult, recordLessonRead, recordLessonCompleted, getProgress, unlockAchievements } from '../../stores/progress';
+  import { evaluate } from '../../lib/achievements';
+  import { achievementIcon, achievementTitle } from '../../lib/achievement-text';
+  import { readIndex, type LessonIndex } from '../../lib/lesson-index';
   import { GRADED_TYPES, lessonState, type LessonStateInfo } from '../../lib/lesson-state';
   import { haptic, requestReview } from '../../lib/platform';
   import { onMount, tick } from 'svelte';
@@ -22,6 +25,10 @@
   /** Siguiente lección (o unidad) para el botón de la tarjeta de cierre. */
   export let nextHref: string | undefined = undefined;
   export let nextTitle: string | undefined = undefined;
+  /** Unidad de la lección: logros en contexto. Sus lecciones llegan en el índice embebido (LessonIndexData). */
+  export let unitId: string = '';
+  export let unitTitle: string = '';
+  let unitIndex: LessonIndex = {};
 
   const allIds = exercises.map((e) => e.id);
   const gradedIds = exercises.filter((e) => GRADED_TYPES.has(e.type)).map((e) => e.id);
@@ -56,6 +63,28 @@
   let hintEl: HTMLElement | undefined;
   let cardEl: HTMLElement | undefined;
   let fresh = false;
+  // Logros conseguidos en ESTA visita: se anuncian en la tarjeta de cierre.
+  let freshAchievements: Array<{ id: string; icon: string; title: string }> = [];
+
+  /** Logros que ya tocan con lo que sabe esta página (su unidad) y aún no están guardados. */
+  function pendingAchievements(): string[] {
+    const ids = Object.keys(unitIndex);
+    if (!unitId || !ids.length) return [];
+    const p = getProgress();
+    return evaluate(p, new Set(Object.keys(p.lessons)), {}, { [unitId]: ids }, { index: unitIndex })
+      .filter((id) => !p.achievements?.[id]);
+  }
+
+  /** Tras un resultado con la lección terminada: guarda y anuncia lo nuevo. */
+  function announceAchievements() {
+    const ids = pendingAchievements();
+    if (!ids.length) return;
+    unlockAchievements(ids);
+    freshAchievements = [
+      ...freshAchievements,
+      ...ids.map((id) => ({ id, icon: achievementIcon(id), title: achievementTitle(locale, id, { [unitId]: unitTitle }) })),
+    ];
+  }
 
   $: visible = retryIds.length ? exercises.filter((e) => retryIds.includes(e.id)) : exercises;
   $: correct = gradedIds.filter((id) => scores[id] === 100).length;
@@ -71,6 +100,12 @@
   }
 
   onMount(() => {
+    // Lo que ya se había ganado ANTES de esta visita se guarda en silencio (como en
+    // la página de progreso); así solo se anuncia lo que se consiga ahora, incluido
+    // «Has vuelto», que lo dispara la propia visita.
+    unitIndex = readIndex();
+    const before = pendingAchievements();
+    if (before.length) unlockAchievements(before);
     recordLessonRead(lessonKey);
     const saved = getProgress().lessons[lessonKey]?.exercises ?? {};
     const map: Record<string, number> = {};
@@ -114,6 +149,7 @@
       }
     }
     refreshInfo();
+    if (lessonDone) announceAchievements();
     if (retryIds.length && roundDone.size >= retryIds.length && info?.state === 'perfect') haptic('success');
   }
 
@@ -172,6 +208,15 @@
         {#if info.state === 'perfect'}<span class="done-badge">{t(locale, 'lesson.state.perfect')}</span>{/if}
       </p>
       {#if gradedIds.length}<p class="done-score">{tf(locale, 'lesson.summary.correct', correct, gradedIds.length)}</p>{/if}
+      <!-- Sin aviso flotante ni temporizador: está donde mira el alumno y el
+           aria-live de la tarjeta lo anuncia. -->
+      {#if freshAchievements.length}
+        <ul class="done-ach" aria-label={t(locale, 'ach.unlocked.short')}>
+          {#each freshAchievements as a (a.id)}
+            <li><span aria-hidden="true">{a.icon}</span> {t(locale, 'ach.unlocked.short')}: {a.title}</li>
+          {/each}
+        </ul>
+      {/if}
       <div class="done-actions">
         {#if info.toReview.length && !inRound}
           <button class="btn btn-primary" type="button" on:click={startRetry}>{tf(locale, 'lesson.retry', info.toReview.length)}</button>
@@ -219,6 +264,7 @@
     color: #fff;
   }
   .done-score { margin: 0; color: var(--c-text-muted); }
+  .done-ach { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--s-1); font-size: 0.92rem; font-weight: 600; }
   .done-actions { display: flex; gap: var(--s-3); flex-wrap: wrap; }
   .done-actions .btn { text-decoration: none; }
   @keyframes done-in {
