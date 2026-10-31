@@ -8,7 +8,8 @@ import type { ProgressAny, ProgressV1 } from './progress';
  * respaldo local del wrapper de iOS).
  */
 
-const SUPPORTED_SCHEMA = 1;
+/** Versión del esquema que este sitio sabe escribir. Las superiores se leen igual (ver decodeHash). */
+export const SUPPORTED_SCHEMA = 1;
 
 function bytesToBase64Url(bytes: Uint8Array): string {
   let str = '';
@@ -41,9 +42,13 @@ export async function exportHash(p: ProgressV1): Promise<string> {
 }
 
 /**
- * Lee un código de progreso. Devuelve `null` si está corrupto, vacío o viene de
- * una versión del esquema más nueva que la que entiende este sitio — nunca lanza,
- * porque lo llama el wrapper nativo con lo que hubiera guardado en su respaldo local.
+ * Lee un código de progreso. Devuelve `null` si está corrupto, vacío o no trae un
+ * `schemaVersion` numérico — nunca lanza, porque lo llama el wrapper nativo con lo
+ * que hubiera guardado en su respaldo local.
+ *
+ * Un esquema MÁS NUEVO que `SUPPORTED_SCHEMA` también se devuelve: decide quien
+ * importa (`migrate()` lo conserva como v1 con extras; `importHash` avisa con
+ * `reason: 'outdated'`). Antes se descartaba y el progreso se perdía.
  */
 export async function decodeHash(hash: string): Promise<ProgressAny | null> {
   const trimmed = hash?.trim();
@@ -59,8 +64,8 @@ export async function decodeHash(hash: string): Promise<ProgressAny | null> {
     } else {
       payload = JSON.parse(trimmed);
     }
-    if (!payload || typeof payload !== 'object' || !('schemaVersion' in payload)) return null;
-    if ((payload as ProgressAny).schemaVersion > SUPPORTED_SCHEMA) return null;
+    if (!payload || typeof payload !== 'object') return null;
+    if (typeof (payload as { schemaVersion?: unknown }).schemaVersion !== 'number') return null;
     return payload as ProgressAny;
   } catch {
     return null;

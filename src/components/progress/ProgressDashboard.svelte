@@ -11,7 +11,6 @@
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
-  export let knownLessonKeys: string[];
 
   let progress: ProgressV1 | null = null;
   let exportedHash = '';
@@ -87,23 +86,16 @@
     }
   }
 
+  // Importar FUSIONA con lo que ya hay (solo puede añadir), así que no se pregunta
+  // nada ni se descarta ninguna lección. Un código de una versión más nueva se
+  // fusiona igual y solo se avisa.
   async function handleImport() {
-    const known = new Set(knownLessonKeys);
-    const existing = getProgress();
-    const hasExisting = Object.keys(existing.lessons).length > 0;
-    if (hasExisting && !confirm(t(locale, 'progress.import.overwrite'))) return;
-    const result = await importHash(importValue, known);
+    const result = await importHash(importValue);
     if (!result.ok) {
-      banner = result.reason === 'outdated'
-        ? t(locale, 'progress.import.outdated')
-        : t(locale, 'progress.import.invalid');
+      banner = t(locale, 'progress.import.invalid');
       return;
     }
-    if ((result.skippedLessonKeys?.length ?? 0) > 0) {
-      banner = t(locale, 'progress.import.skipped');
-    } else {
-      banner = '✓';
-    }
+    banner = result.reason === 'outdated' ? t(locale, 'progress.import.outdated') : '✓';
     unlockAchievements(['first-import']);
     importValue = '';
     modalMode = 'none';

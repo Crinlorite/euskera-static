@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2025-10-01T08:00:00.000Z",
+  "lastUpdated": "2025-11-15T20:00:00.000Z",
+  "lessons": {
+    "a1/01-saludos/01-kaixo": {
+      "status": "completed",
+      "completedAt": "2025-10-01T08:30:00.000Z",
+      "exercises": {
+        "e1": { "attempts": 1, "bestScore": 100, "lastAttemptAt": "2025-10-01T08:25:00.000Z" }
+      }
+    },
+    "a1/03-nolakoa-zara/05-izan-vs-egon": {
+      "status": "read",
+      "exercises": {
+        "e3": { "attempts": 3, "bestScore": 80, "lastAttemptAt": "2025-11-10T19:00:00.000Z" }
+      }
+    },
+    "a1/99-desconocida/01-x": {
+      "status": "completed",
+      "completedAt": "2025-10-20T10:00:00.000Z",
+      "exercises": {}
+    },
+    "a1/01-saludos/02-agur": {
+      "status": "read",
+      "exercises": {
+        "e1": { "attempts": 2, "bestScore": 60, "lastAttemptAt": "2025-10-02T09:00:00.000Z" }
+      }
+    },
+    "a1-greetings-2": {
+      "status": "completed",
+      "completedAt": "2025-11-15T19:55:00.000Z",
+      "exercises": {
+        "e2": { "attempts": 1, "bestScore": 100, "lastAttemptAt": "2025-11-15T19:50:00.000Z" }
+      }
+    }
+  },
+  "streak": { "current": 1, "longest": 3, "lastStudiedDate": "2025-11-15" },
+  "preferences": {},
+  "achievements": {
+    "first-step": { "unlockedAt": "2025-10-01T08:00:00.000Z" }
+  }
+}

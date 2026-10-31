@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-01-05T07:45:00.000Z",
+  "lastUpdated": "2026-04-12T21:10:00.000Z",
+  "lessons": {
+    "a1-greetings-1": {
+      "status": "completed",
+      "completedAt": "2026-01-05T08:10:00.000Z",
+      "exercises": {
+        "ex-1": { "attempts": 1, "bestScore": 100, "lastAttemptAt": "2026-01-05T08:00:00.000Z" },
+        "ex-2": { "attempts": 3, "bestScore": 90, "lastAttemptAt": "2026-01-05T08:05:00.000Z" },
+        "ex-3": { "attempts": 1, "bestScore": 100, "lastAttemptAt": "2026-01-05T08:08:00.000Z" }
+      }
+    },
+    "a1-descriptions-5": {
+      "status": "completed",
+      "completedAt": "2026-03-20T18:00:00.000Z",
+      "exercises": {
+        "izan-1": { "attempts": 2, "bestScore": 100, "lastAttemptAt": "2026-03-20T17:40:00.000Z" },
+        "izan-2": { "attempts": 4, "bestScore": 75, "lastAttemptAt": "2026-04-01T10:00:00.000Z" }
+      }
+    },
+    "a2-egoerak-3": {
+      "status": "read",
+      "exercises": {
+        "eg-1": { "attempts": 1, "bestScore": 50, "lastAttemptAt": "2026-04-12T21:05:00.000Z" }
+      }
+    }
+  },
+  "streak": { "current": 7, "longest": 12, "lastStudiedDate": "2026-04-12" },
+  "preferences": { "uiLocale": "fr", "theme": "dark" },
+  "achievements": {
+    "first-step": { "unlockedAt": "2026-01-05T07:50:00.000Z" },
+    "first-completed": { "unlockedAt": "2026-01-05T08:10:00.000Z" },
+    "streak-7": { "unlockedAt": "2026-03-01T09:00:00.000Z" }
+  }
+}

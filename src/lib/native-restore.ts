@@ -1,4 +1,4 @@
-import { getProgress, saveNow, setProgress } from '../stores/progress';
+import { getProgress, migrate, saveNow, setProgress, type ProgressV1 } from '../stores/progress';
 import { decodeHash } from '../stores/progress-hash';
 import { mergeProgress } from '../stores/progress-merge';
 
@@ -17,9 +17,24 @@ export interface KaixoWebApi {
   lastUpdated(): string;
   /** True si aquí no hay ninguna lección empezada (instalación limpia o purga). */
   isEmpty(): boolean;
-  /** Fusiona un código de progreso con el local. Devuelve cuántas lecciones se añadieron. */
-  merge(hash: string): Promise<{ ok: boolean; added: number }>;
+  /**
+   * Fusiona un código de progreso con el local. Devuelve cuántas lecciones se
+   * añadieron y si cambió algo (`changed`, aditivo: los binarios actuales lo ignoran).
+   */
+  merge(hash: string): Promise<{ ok: boolean; added: number; changed: boolean }>;
 }
+
+/** Suma de intentos de todos los ejercicios: si sube, la fusión trajo trabajo nuevo. */
+function totalAttempts(p: ProgressV1): number {
+  let n = 0;
+  for (const l of Object.values(p.lessons)) {
+    for (const e of Object.values(l.exercises ?? {})) n += e.attempts || 0;
+  }
+  return n;
+}
+
+const completedCount = (p: ProgressV1): number =>
+  Object.values(p.lessons).filter((l) => l.status === 'completed').length;
 
 declare global {
   interface Window {
@@ -32,15 +47,26 @@ if (typeof window !== 'undefined') {
     lastUpdated: () => getProgress().lastUpdated ?? '',
     isEmpty: () => Object.keys(getProgress().lessons).length === 0,
     async merge(hash: string) {
-      const remote = await decodeHash(hash);
-      if (!remote) return { ok: false, added: 0 };
+      const decoded = await decodeHash(hash);
+      if (!decoded) return { ok: false, added: 0, changed: false };
+      // Por migrate(): claves antiguas traducidas, esquemas superiores conservados
+      // y `achievements` siempre presente. Antes se fusionaba el remoto en crudo.
+      const remote = migrate(decoded);
       const local = getProgress();
       const merged = mergeProgress(local, remote);
+      const added = Object.keys(merged.lessons).length - Object.keys(local.lessons).length;
+      const newAchievements =
+        Object.keys(merged.achievements ?? {}).length - Object.keys(local.achievements ?? {}).length;
+      const changed =
+        added > 0 ||
+        newAchievements > 0 ||
+        totalAttempts(merged) > totalAttempts(local) ||
+        completedCount(merged) > completedCount(local);
       setProgress(merged);
       // Sin esperar al debounce: si la app se cierra ahora, el progreso recuperado
       // ya está en disco.
       saveNow();
-      return { ok: true, added: Object.keys(merged.lessons).length - Object.keys(local.lessons).length };
+      return { ok: true, added, changed };
     },
   };
 }
