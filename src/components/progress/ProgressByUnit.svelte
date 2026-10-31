@@ -51,7 +51,18 @@
   export let locale: string = 'es';
   /** id del encabezado: único por nivel, porque la página pinta un bloque por nivel. */
   export let headingId: string = 'progress-by-unit-heading';
+  /** Eyebrow «Recorrido» encima del título: solo en el primer bloque de la página. */
+  export let eyebrow = true;
+  /** Plegable (A2): cerrado mientras no haya nada empezado en el nivel. */
+  export let collapsible = false;
   $: loc = locale as LocaleCode;
+
+  // Abierto si no es plegable. Si lo es, se abre solo en cuanto haya algo
+  // empezado y nunca se cierra solo: después manda el usuario.
+  let isOpen = !collapsible;
+  function onToggle(e: Event) {
+    isOpen = (e.currentTarget as HTMLDetailsElement).open;
+  }
 
   const labels = {
     started: t(locale as LocaleCode, 'lesson.read'),
@@ -110,9 +121,20 @@
     return n.toString().padStart(2, '0');
   }
 
+  /** «Lecciones: 3/5 · Todo bien: 2» (compuesto aquí: en el marcado, Svelte recorta el espacio con que empieza un {#if}). */
+  function metaOf(u: UnitProgress): string {
+    return `${t(loc, 'unit.eyebrow')}: ${u.completed}/${u.total}${u.perfect ? ` · ${t(loc, 'lesson.state.perfect')}: ${u.perfect}` : ''}`;
+  }
+
+  $: lessonTotal = computed.reduce((n, u) => n + u.total, 0);
+  $: doneTotal = computed.reduce((n, u) => n + u.completed, 0);
+
   onMount(() => {
     const index = readIndex();
-    const refresh = () => { computed = compute(getProgress(), index); };
+    const refresh = () => {
+      computed = compute(getProgress(), index);
+      if (collapsible && !isOpen && computed.some((u) => !isUntouched(u))) isOpen = true;
+    };
     refresh();
     // Trigger one repaint so the bars animate from 0 to their target width.
     requestAnimationFrame(() => {
@@ -125,71 +147,79 @@
 </script>
 
 <section class="by-unit" aria-labelledby={headingId}>
-  <header class="head">
-    <p class="eyebrow">{t(loc, 'progress.byunit.eyebrow')}</p>
-    <h2 id={headingId} class="title display">{t(loc, 'progress.byunit.title')} · {levelCode.toUpperCase()}</h2>
-  </header>
+  <!-- Envoltorio y cabecera dinámicos para no duplicar la lista: <details>/<summary>
+       si es plegable, <div>/<header> si no. `open` se sincroniza a mano (bind:open
+       solo vale en un <details> literal). -->
+  <svelte:element this={collapsible ? 'details' : 'div'} class="fold" class:plegable={collapsible}
+    open={collapsible && isOpen ? true : undefined} on:toggle={onToggle}>
+    <svelte:element this={collapsible ? 'summary' : 'header'} class="head">
+      {#if eyebrow}<span class="eyebrow">{t(loc, 'progress.byunit.eyebrow')}</span>{/if}
+      <h2 id={headingId} class="title display">{t(loc, 'progress.byunit.title')} · {levelCode.toUpperCase()}</h2>
+      {#if collapsible}
+        <span class="fold-hint">{t(loc, 'unit.eyebrow')}: {doneTotal}/{lessonTotal}</span>
+        <svg class="fold-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
+      {/if}
+    </svelte:element>
 
-  {#if computed.length === 0}
-    <p class="empty">{t(loc, 'progress.units.empty')}</p>
-  {:else}
-    <nav aria-label={t(loc, 'a11y.units.list')}>
-      <ul class="list">
-        {#each computed as u (u.id)}
-          {@const percentage = pct(u)}
-          {@const complete = isComplete(u)}
-          {@const untouched = isUntouched(u)}
-          {@const allperfect = isAllPerfect(u)}
-          {@const fillWidth = mounted ? percentage : 0}
-          <li class="row" class:complete class:untouched class:allperfect>
-            <!-- La tarjeta ya no es un <a> porque contiene los enlaces de cada
-                 lección; el enlace de la unidad la cubre entera por debajo. -->
-            <div class="card">
-              <span class="num display" aria-hidden="true">{formatOrder(u.order)}</span>
+    {#if computed.length === 0}
+      <p class="empty">{t(loc, 'progress.units.empty')}</p>
+    {:else}
+      <nav aria-label={t(loc, 'a11y.units.list')}>
+        <ul class="list">
+          {#each computed as u (u.id)}
+            {@const percentage = pct(u)}
+            {@const complete = isComplete(u)}
+            {@const untouched = isUntouched(u)}
+            {@const allperfect = isAllPerfect(u)}
+            {@const fillWidth = mounted ? percentage : 0}
+            <li class="row" class:complete class:untouched class:allperfect>
+              <!-- La tarjeta ya no es un <a> porque contiene los enlaces de cada
+                   lección; el enlace de la unidad la cubre entera por debajo. -->
+              <div class="card">
+                <span class="num display" aria-hidden="true">{formatOrder(u.order)}</span>
 
-              <div class="body">
-                <h3 class="title-row">
-                  <a class="unit-link" href={`/${locale}/${levelCode}/${u.code}/`}>{u.title}</a>
-                  {#if allperfect}
-                    <span class="ls" data-state="perfect" aria-hidden="true"></span>
-                    <span class="badge green">{t(loc, 'lesson.state.perfect')}</span>
-                  {:else if complete}
-                    <span class="ls" data-state="completed" aria-hidden="true"></span>
-                    <span class="badge">{t(loc, 'progress.unit.done')}</span>
-                  {/if}
-                </h3>
-                <p class="meta">
-                  {t(loc, 'unit.eyebrow')}: {u.completed}/{u.total}{#if u.perfect} · {t(loc, 'lesson.state.perfect')}: {u.perfect}{/if}
-                </p>
-                <ol class="dots" aria-label={t(loc, 'unit.eyebrow')}>
-                  {#each u.dots as d (d.id)}
-                    {#if d.href}
-                      <li><a class="ls dot" data-state={d.state} style={d.state === 'started' ? `--ls-p: ${d.pct}%` : undefined} href={d.href} title={d.label ? `${d.title} · ${d.label}` : d.title} aria-label={d.label ? `${d.title} · ${d.label}` : d.title}></a></li>
-                    {:else}
-                      <li><span class="ls dot" data-state="untouched" aria-hidden="true"></span></li>
+                <div class="body">
+                  <h3 class="title-row">
+                    <a class="unit-link" href={`/${locale}/${levelCode}/${u.code}/`}>{u.title}</a>
+                    {#if allperfect}
+                      <span class="ls" data-state="perfect" aria-hidden="true"></span>
+                      <span class="badge green">{t(loc, 'lesson.state.perfect')}</span>
+                    {:else if complete}
+                      <span class="ls" data-state="completed" aria-hidden="true"></span>
+                      <span class="badge">{t(loc, 'progress.unit.done')}</span>
                     {/if}
-                  {/each}
-                </ol>
-              </div>
+                  </h3>
+                  <p class="meta">{metaOf(u)}</p>
+                  <ol class="dots" aria-label={t(loc, 'unit.eyebrow')}>
+                    {#each u.dots as d (d.id)}
+                      {#if d.href}
+                        <li><a class="ls dot" data-state={d.state} style={d.state === 'started' ? `--ls-p: ${d.pct}%` : undefined} href={d.href} title={d.label ? `${d.title} · ${d.label}` : d.title} aria-label={d.label ? `${d.title} · ${d.label}` : d.title}></a></li>
+                      {:else}
+                        <li><span class="ls dot" data-state="untouched" aria-hidden="true"></span></li>
+                      {/if}
+                    {/each}
+                  </ol>
+                </div>
 
-              <div
-                class="bar"
-                role="progressbar"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                aria-valuenow={percentage}
-                aria-label={tf(loc, 'a11y.unit.progress', u.order, u.title)}
-              >
-                <span class="fill" style="inline-size: {fillWidth}%"></span>
-              </div>
+                <div
+                  class="bar"
+                  role="progressbar"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  aria-valuenow={percentage}
+                  aria-label={tf(loc, 'a11y.unit.progress', u.order, u.title)}
+                >
+                  <span class="fill" style="inline-size: {fillWidth}%"></span>
+                </div>
 
-              <span class="pct" aria-hidden="true">{percentage}%</span>
-            </div>
-          </li>
-        {/each}
-      </ul>
-    </nav>
-  {/if}
+                <span class="pct" aria-hidden="true">{percentage}%</span>
+              </div>
+            </li>
+          {/each}
+        </ul>
+      </nav>
+    {/if}
+  </svelte:element>
 </section>
 
 <style>
@@ -220,6 +250,30 @@
     margin: 0;
   }
 
+  /* Plegable (A2): la cabecera es el summary; «Lecciones: 0/49» y el chevrón en
+     la misma línea, bajo el título. Sin margen inferior mientras está cerrado. */
+  .fold.plegable > .head {
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: var(--s-2);
+    list-style: none;
+    cursor: pointer;
+    margin-block-end: 0;
+  }
+  .fold.plegable > .head::-webkit-details-marker { display: none; }
+  .fold.plegable > .head > .eyebrow,
+  .fold.plegable > .head > .title { grid-column: 1 / -1; }
+  .fold.plegable > .head:hover .title { color: var(--c-red); }
+  .fold.plegable > .head:focus-visible {
+    outline: 2px solid var(--c-red);
+    outline-offset: 4px;
+    border-radius: var(--r-md);
+  }
+  .fold.plegable[open] > .head { margin-block-end: var(--s-5); }
+  .fold-hint { color: var(--c-text-muted); font-size: 0.92rem; font-variant-numeric: tabular-nums; }
+  .fold-chev { color: var(--c-text-muted); transition: transform var(--m-base) var(--ease-out); justify-self: start; }
+  .fold.plegable[open] .fold-chev { transform: rotate(180deg); }
+
   .empty {
     color: var(--c-text-muted);
     padding: var(--s-5);
@@ -241,11 +295,16 @@
     display: contents;
   }
 
+  /* Número + cuerpo + % arriba, barra a todo el ancho abajo (en todos los anchos). */
   .card {
     display: grid;
-    grid-template-columns: auto 1fr auto auto;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      'num body pct'
+      'bar bar bar';
     align-items: center;
-    gap: var(--s-4);
+    row-gap: var(--s-3);
+    column-gap: var(--s-4);
     padding: var(--s-4) var(--s-5);
     background: var(--c-bg);
     border: 1px solid var(--c-border);
@@ -285,16 +344,21 @@
     border-radius: var(--r-lg);
   }
 
+  /* Sin tocar: compacta (sin meta, barra ni «0%»); los puntos ya dicen el estado. */
+  .row.untouched .meta,
+  .row.untouched .bar,
+  .row.untouched .pct { display: none; }
   .row.untouched .card {
-    opacity: 0.6;
-    filter: grayscale(0.4);
+    opacity: 0.75;
+    filter: none;
+    row-gap: 0;
   }
   .row.untouched .card:hover {
     opacity: 1;
-    filter: none;
   }
 
   .num {
+    grid-area: num;
     font-family: var(--ff-display);
     font-weight: 700;
     font-size: clamp(1.6rem, 3.2vw, 2.2rem);
@@ -309,6 +373,7 @@
   }
 
   .body {
+    grid-area: body;
     display: grid;
     gap: var(--s-1);
     min-inline-size: 0;
@@ -367,8 +432,9 @@
   .dot:focus-visible { outline: 2px solid var(--c-red); outline-offset: 2px; }
 
   .bar {
-    inline-size: clamp(180px, 30vw, 360px);
-    block-size: 8px;
+    grid-area: bar;
+    inline-size: 100%;
+    block-size: 6px;
     background: var(--c-bg-muted);
     border-radius: var(--r-pill);
     overflow: hidden;
@@ -390,6 +456,8 @@
   }
 
   .pct {
+    grid-area: pct;
+    align-self: center;
     font-family: var(--ff-sans);
     font-weight: 700;
     font-size: 0.95rem;
@@ -405,27 +473,13 @@
     color: var(--c-text-dim);
   }
 
-  /* Mobile: stack number+title on top, bar+percent below */
+  /* Pantallas estrechas: el relleno de siempre en móvil (más sitio para el título). */
   @media (max-width: 720px) {
-    .card {
-      grid-template-columns: auto 1fr auto;
-      grid-template-areas:
-        'num body pct'
-        'bar bar bar';
-      row-gap: var(--s-3);
-      column-gap: var(--s-3);
-      padding: var(--s-4);
-    }
-    .num { grid-area: num; }
-    .body { grid-area: body; }
-    .pct { grid-area: pct; align-self: center; }
-    .bar {
-      grid-area: bar;
-      inline-size: 100%;
-    }
+    .card { padding: var(--s-4); column-gap: var(--s-3); }
   }
 
   @media (prefers-reduced-motion: reduce) {
+    .fold-chev { transition: none; }
     .fill { transition: none; }
     .card { transition: none; }
     .card:hover { transform: none; }
