@@ -7,13 +7,17 @@
 
   let open = false;
 
-  const items: Array<{ href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' }> = [
+  type NavItem = { href: string; label?: string; key?: 'nav.home' | 'nav.about' | 'nav.language' | 'nav.progress' | 'hiz.title' };
+  // `satisfies` sobre el literal (mismo patrón que Header.astro): la anotación de
+  // items no llega al array a través de .filter(), y sin tipo contextual
+  // 'nav.home' se ensanchaba a string (ya no era StringKey).
+  const items: NavItem[] = ([
     { href: `/${locale}/`, key: 'nav.home' },
     { href: `/${locale}/a1/`, label: 'A1' },
     { href: `/${locale}/a2/`, label: 'A2' },
     { href: `/${locale}/hiztegia/`, key: 'hiz.title' },
     { href: `/${locale}/progreso/`, key: 'nav.progress' },
-  ].filter((i) => i.href !== `/${locale}/a2/` || conA2);
+  ] satisfies NavItem[]).filter((i) => i.href !== `/${locale}/a2/` || conA2);
 </script>
 
 <button class="trigger" aria-label={t(locale, 'a11y.menu')} aria-expanded={open} on:click={() => (open = !open)}>

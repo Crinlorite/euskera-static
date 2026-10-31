@@ -11,7 +11,7 @@
     "start": "astro dev",
     "build": "astro build && node scripts/verificar-seo.mjs dist",
     "preview": "astro preview",
-    "check": "astro check && tsc --noEmit && node scripts/validate-content.mjs",
+    "check": "astro check && svelte-check --workspace src && tsc --noEmit && node scripts/validate-content.mjs",
     "validate": "node scripts/validate-content.mjs",
     "astro": "astro",
     "verify:seo": "node scripts/verificar-seo.mjs dist"
@@ -28,6 +28,7 @@
     "@types/node": "22.19.17",
     "js-yaml": "5.5.0",
     "sharp": "0.35.5",
+    "svelte-check": "4.7.7",
     "typescript": "5.9.3"
   },
   "overrides": {

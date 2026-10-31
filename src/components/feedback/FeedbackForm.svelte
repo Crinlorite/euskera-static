@@ -24,16 +24,6 @@
     { id: 'pedagogy', icon: '📚', label: 'fb.cat.content', desc: 'fb.cat.content.d' },
   ];
 
-  declare global {
-    interface Window {
-      turnstile?: {
-        render: (el: HTMLElement, opts: Record<string, unknown>) => string;
-        remove: (id: string) => void;
-        reset: (id: string) => void;
-      };
-    }
-  }
-
   let type: FeedbackType = 'bug';
   let title = '';
   let description = '';

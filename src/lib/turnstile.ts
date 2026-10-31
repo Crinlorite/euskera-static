@@ -12,3 +12,17 @@
 // proyecto de Pages. Al revés, el cliente no manda token y el servidor rechaza
 // todos los envíos sin dar ninguna pista.
 export const TURNSTILE_SITE_KEY = '0x4AAAAAAEcvEbl7NY3s5Qdu';
+
+// Superficie del script de Turnstile (render=explicit) que usan FeedbackForm y
+// BotonInteres. Vive aquí, una sola vez, y no en los .svelte: svelte2tsx envuelve
+// el <script> en una función y un `declare global` dentro de ella es un error
+// ("ambient module declaration is only allowed at the top level").
+declare global {
+  interface Window {
+    turnstile?: {
+      render: (el: HTMLElement, opts: Record<string, unknown>) => string;
+      remove: (id: string) => void;
+      reset: (id: string) => void;
+    };
+  }
+}

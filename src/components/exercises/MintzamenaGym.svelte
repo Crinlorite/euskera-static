@@ -101,7 +101,13 @@
       t2.env.useBrowserCache = true;
       // WASM siempre (la ruleta WebGPU rompía en headless/dispositivos raros)
       // y runtime ONNX auto-alojado: CERO peticiones a CDNs externos.
-      t2.env.backends.onnx.wasm.wasmPaths = '/ort/';
+      // `wasm` es opcional en el tipo de env.backends.onnx (3.3.3 lo declara
+      // Partial<Env>: en onnxruntime-node no existe); en el navegador siempre
+      // está. Si faltara, antes reventaba con TypeError y caía en este mismo
+      // catch: ahora cae con un mensaje que se entiende.
+      const wasmFlags = t2.env.backends.onnx.wasm;
+      if (!wasmFlags) throw new Error('onnxruntime: sin backend WASM');
+      wasmFlags.wasmPaths = '/ort/';
       transcriber = await t2.pipeline('automatic-speech-recognition', 'whisper-tiny-eu', {
         dtype: { encoder_model: 'q8', decoder_model_merged: 'uint8' },
         device: 'wasm',
@@ -188,7 +194,9 @@
     return new Blob([buf], { type: 'audio/wav' });
   }
 
-  async function resampleTo16k(raw: Float32Array, rate: number): Promise<Float32Array> {
+  // copyToChannel exige Float32Array<ArrayBuffer> (no admite SharedArrayBuffer):
+  // lo que llega siempre nace de `new Float32Array(n)`, así que se declara tal cual.
+  async function resampleTo16k(raw: Float32Array<ArrayBuffer>, rate: number): Promise<Float32Array> {
     if (rate === 16000) return raw;
     const off = new OfflineAudioContext(1, Math.ceil((raw.length * 16000) / rate), 16000);
     const b = off.createBuffer(1, raw.length, rate);
@@ -201,7 +209,7 @@
     return rendered.getChannelData(0);
   }
 
-  async function analyze(raw: Float32Array, rate: number) {
+  async function analyze(raw: Float32Array<ArrayBuffer>, rate: number) {
     phase = 'thinking';
     if (myUrl) URL.revokeObjectURL(myUrl);
     myUrl = URL.createObjectURL(wavFromFloat32(raw, rate));
@@ -300,10 +308,6 @@
     padding: var(--s-5); display: grid; gap: var(--s-3); background: var(--c-bg-alt);
   }
   .intro p { margin: 0; line-height: 1.6; }
-  .warn {
-    background: var(--c-red-soft); border-left: 3px solid var(--c-red);
-    border-radius: var(--r-sm); padding: var(--s-2) var(--s-3); font-size: 0.92rem;
-  }
   .fine { color: var(--c-text-muted); font-size: 0.9rem; }
   .pulse { animation: pulse 1.4s ease-in-out infinite; }
   @keyframes pulse { 50% { opacity: 0.55; } }

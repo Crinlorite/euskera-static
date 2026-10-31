@@ -27,10 +27,16 @@
   });
 
   type Rnd = () => number;
-  type GrItem = {
-    id: string; type: 'mc' | 'fill'; cat: string; unit: string; prompt: string;
-    explanation: string; options?: string[]; answer?: number; answers?: string[];
-  };
+  // Unión discriminada por `type`: un ítem mc SIEMPRE trae options+answer y uno
+  // fill SIEMPRE answers (es lo que la plantilla ya asumía al pasarlos como props
+  // obligatorias a MultipleChoice / FillInBlank). Con todo opcional, el
+  // {#if it.type === 'mc'} no estrechaba nada y llegaban como `| undefined`.
+  type GrBase = { id: string; cat: string; unit: string; prompt: string; explanation: string };
+  type GrMc = GrBase & { type: 'mc'; options: string[]; answer: number };
+  type GrFill = GrBase & { type: 'fill'; answers: string[] };
+  type GrItem = GrMc | GrFill;
+  // Forma de tarjeta que espera Flashcards (el banco llega como `any`).
+  type Card = { eu: string; es: string };
 
   // ── PRNG con semilla (mulberry32) ──
   function mulberry32(a: number): Rnd {
@@ -106,7 +112,8 @@
 
     // Hiztegia: tarjetas del pool global + 2 sets de parejas ATÓMICOS
     // (recortados a 6: un subconjunto de un set coherente sigue siéndolo)
-    const cards = sample(bk.cards, bp.hiztegia.cards, rnd);
+    // bk.cards es `any`: sin T explícito la inferencia no saca candidato y sale unknown[].
+    const cards = sample<Card>(bk.cards, bp.hiztegia.cards, rnd);
     const pairSets = sample(bk.pairSets as any[], bp.hiztegia.pairSets, rnd).map((s) => ({
       ...s,
       pairs: sample(s.pairs, Math.min(bp.hiztegia.pairsPerSet, s.pairs.length), rnd),
