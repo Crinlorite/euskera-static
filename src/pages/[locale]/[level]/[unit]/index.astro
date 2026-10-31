@@ -64,13 +64,18 @@ const conRepaso = !LOCKED_PATHS.includes(levelCode);
       <p class="unit-meta">
         {lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min<span data-unit-summary hidden></span>{conRepaso && <ReviewLink locale={locale} unitId={unit.data.id} />}
       </p>
+      <!-- Qué hacer ahora (lo rellena UnitSidebar según el progreso): «Empieza por la
+           primera» en una unidad sin tocar, «Continuar · lección» en una empezada y
+           nada en una completa. Hueco reservado e invisible hasta entonces: el HTML
+           no puede saber el estado y no debe decir nada que luego sea falso. -->
+      <p class="unit-cta" data-unit-cta>
+        <a class="btn btn-primary" data-unit-continue data-l-continue={t(locale, 'common.continue')} data-l-start={t(locale, 'unit.start')} href={`/${locale}/${levelCode}/${unitCode}/${lessons[0]?.data.code ?? ''}`}>{t(locale, 'unit.start')}</a>
+      </p>
     </header>
 
     <section class="lessons-section">
       <header class="section-head">
-        <p class="eyebrow">{t(locale, 'unit.eyebrow')}</p>
-        <h2 class="display section-title">{t(locale, 'unit.start')}</h2>
-        <a class="btn btn-secondary unit-continue" data-unit-continue data-l-continue={t(locale, 'common.continue')} hidden href={`/${locale}/${levelCode}/${unitCode}/`}></a>
+        <h2 class="display section-title">{t(locale, 'unit.eyebrow')}</h2>
       </header>
       <UnitSidebar locale={locale} levelCode={levelCode} unitCode={unitCode} lessons={lessons} />
     </section>
@@ -167,11 +172,21 @@ const conRepaso = !LOCKED_PATHS.includes(levelCode);
   /* «· 3/5 · Todo bien: 2» (lo escribe UnitSidebar), como «N para repasar». */
   .unit-meta [data-unit-summary] { color: var(--c-text); font-weight: 600; }
 
+  /* Botón de la cabecera: fuera de la entrada escalonada (como 5.º hijo tardaría
+     700 ms) e invisible, con su sitio ya ocupado, hasta que UnitSidebar decide.
+     En una unidad completa se retira (data-state="none"). */
+  .unit-header > .unit-cta {
+    margin: var(--s-5) 0 0;
+    animation: none;
+    opacity: 1;
+    transform: none;
+    visibility: hidden;
+  }
+  .unit-header > .unit-cta[data-state="on"] { visibility: visible; }
+  .unit-header > .unit-cta[data-state="none"] { display: none; }
+  .unit-cta .btn { text-decoration: none; }
+
   .section-head { margin-block-end: var(--s-5); display: grid; gap: var(--s-2); }
-  /* «Continuar · lección» (lo rellena UnitSidebar); .btn es inline-flex: sin
-     esta regla, `hidden` no lo ocultaría. */
-  .unit-continue { justify-self: start; margin-block-start: var(--s-2); text-decoration: none; }
-  .unit-continue[hidden] { display: none; }
   .section-title { font-size: var(--t-h2); line-height: 1.05; letter-spacing: var(--tr-tight); }
 
   /* Navegación entre unidades */

@@ -82,11 +82,13 @@ const graded = (l: SidebarLesson) => l.data.exercises.filter((e) => GRADED_TYPES
           sum.textContent = ` · ${completed}/${total}${perfect ? ` · ${labels.perfect}: ${perfect}` : ''}`;
           sum.hidden = false;
         }
-        // Botón «Continuar · lección» del índice de unidad (la página de lección no
-        // lo tiene): la siguiente lección de ESTA unidad, solo si hay algo empezado
-        // y queda algo por hacer. El enlace se copia del de la propia lista.
-        const btn = document.querySelector<HTMLAnchorElement>('[data-unit-continue]');
-        if (btn) {
+        // Botón de la cabecera del índice de unidad (la página de lección no lo
+        // tiene), con la siguiente lección de ESTA unidad: sin tocar → «Empieza por
+        // la primera»; empezada → «Continuar · lección»; completa → se retira (ya
+        // está «N para repasar»). El enlace se copia del de la propia lista.
+        const cta = document.querySelector<HTMLElement>('[data-unit-cta]');
+        const btn = cta?.querySelector<HTMLAnchorElement>('[data-unit-continue]');
+        if (cta && btn) {
           const els = [...aside.querySelectorAll<HTMLElement>('[data-lesson-id]')];
           const split = (s: string | undefined) => (s ?? '').split(',').filter(Boolean);
           const idx: Record<string, { ex: string[]; g: string[] }> = {};
@@ -96,13 +98,15 @@ const graded = (l: SidebarLesson) => l.data.exercises.filter((e) => GRADED_TYPES
             return id;
           });
           const next = nextLesson(p.lessons, idx, order);
-          const link = next && next.reason !== 'first' ? els.find((el) => el.dataset.lessonId === next.id)?.closest('a') : null;
-          if (link) {
+          const link = next ? els.find((el) => el.dataset.lessonId === next.id)?.closest('a') : null;
+          if (next && link) {
             btn.setAttribute('href', link.getAttribute('href') ?? link.href);
-            btn.textContent = `${btn.dataset.lContinue ?? ''} · ${link.querySelector('.title')?.textContent?.trim() ?? ''}`;
-            btn.hidden = false;
+            btn.textContent = next.reason === 'first'
+              ? (btn.dataset.lStart ?? '')
+              : `${btn.dataset.lContinue ?? ''} · ${link.querySelector('.title')?.textContent?.trim() ?? ''}`;
+            cta.dataset.state = 'on';
           } else {
-            btn.hidden = true;
+            cta.dataset.state = 'none';
           }
         }
       });
