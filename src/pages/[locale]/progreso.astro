@@ -8,7 +8,6 @@ import LessonIndexData from '../../components/progress/LessonIndexData.astro';
 import { indexLessons } from '../../lib/lesson-index';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../i18n/config';
 import { t } from '../../i18n/ui';
-import { ACHIEVEMENTS } from '../../lib/achievements';
 import { LOCKED_PATHS } from '../../lib/locked.mjs';
 
 export async function getStaticPaths() {
@@ -32,7 +31,6 @@ const unitsByLevelEntries = levels.map((l) => ({
 }));
 
 const lessonsByUnit: Record<string, string[]> = {};
-const lessonInputsByUnit: Record<string, Array<{ id: string; code: string; title: string }>> = {};
 const openLessons: Array<(typeof allLessons)[number]> = [];
 for (const { level, units } of unitsByLevelEntries) {
   for (const u of units) {
@@ -41,13 +39,15 @@ for (const { level, units } of unitsByLevelEntries) {
       .sort(byOrder);
     openLessons.push(...lessons);
     lessonsByUnit[u.data.id] = lessons.map((l) => l.data.id);
-    lessonInputsByUnit[u.data.id] = lessons.map((l) => ({ id: l.data.id, code: l.data.code, title: l.data.title }));
   }
 }
 // Ejercicios y corregibles de todas las lecciones abiertas (A1 y A2): con ellos
-// el cliente deriva los cuatro estados. Va una sola vez en la página
-// (LessonIndexData) y lo leen el resumen y el progreso por unidad.
-const index = indexLessons(openLessons);
+// el cliente deriva los cuatro estados. Lleva además título y código de cada
+// lección: va una sola vez en la página (LessonIndexData) y de ahí lo leen el
+// resumen, el progreso por unidad (títulos y enlaces de los puntos) y los logros.
+// Su ORDEN de inserción es el del currículo (nivel → unidad → lección): el
+// resumen lo usa como orden para «Continuar»; no reordenar.
+const index = indexLessons(openLessons, { titles: true, codes: true });
 
 const unitsForComponentByLevel = unitsByLevelEntries.map(({ level, units }) => ({
   level,
@@ -56,7 +56,7 @@ const unitsForComponentByLevel = unitsByLevelEntries.map(({ level, units }) => (
     code: u.data.code,
     title: u.data.title,
     order: u.data.order,
-    lessons: lessonInputsByUnit[u.data.id] ?? [],
+    lessonIds: lessonsByUnit[u.data.id] ?? [],
   })),
 }));
 
@@ -70,8 +70,6 @@ const unitTitles = Object.fromEntries(
   unitsByLevelEntries.flatMap(({ units }) => units.map((u) => [u.data.id, u.data.title])),
 );
 
-// Catalogo serializable a cliente
-const achievementsCatalog = ACHIEVEMENTS;
 const descripcion = t(locale, 'site.description');
 ---
 <RootLayout locale={locale} title={t(locale, 'nav.progress')} description={descripcion}>
@@ -96,8 +94,6 @@ const descripcion = t(locale, 'site.description');
 
     <Achievements
       client:load
-      catalog={achievementsCatalog}
-      lessonsByUnit={lessonsByUnit}
       unitsByLevel={unitsByLevel}
       unitTitles={unitTitles}
       locale={locale}

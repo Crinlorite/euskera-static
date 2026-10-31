@@ -78,6 +78,7 @@ export type StringKey =
   | 'lesson.exercises' | 'progress.byunit.eyebrow' | 'progress.byunit.title' | 'ach.mastery.t' | 'ach.mastery.d'
   | 'lesson.state.perfect' | 'lesson.toreview' | 'lesson.summary.correct' | 'lesson.retry' | 'lesson.retry.hint'
   | 'progress.summary.completed'
+  | 'progress.summary.completed.one' | 'progress.streak.days.one' | 'review.graduated.one'
   | 'review.title' | 'review.intro' | 'review.start' | 'review.reinforce' | 'review.empty' | 'review.next' | 'review.done' | 'review.graduated' | 'review.offline';
 
 const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
@@ -400,10 +401,13 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'review.next': 'Próximo repaso: {0}',
     'review.done': 'Repaso terminado: {0} de {1} a la primera.',
     'review.graduated': '{0} ejercicios que ya se quedaron',
+    'review.graduated.one': '{0} ejercicio que ya se quedó',
     'review.offline': 'No se han podido cargar los ejercicios. Comprueba la conexión e inténtalo de nuevo.',
     'progress.streak.days': 'días seguidos',
+    'progress.streak.days.one': 'día seguido',
     'progress.summary.lessons': 'lecciones empezadas',
     'progress.summary.completed': 'lecciones completadas',
+    'progress.summary.completed.one': 'lección completada',
     'progress.summary.record': 'récord',
     'progress.export.title': 'Guardar mi progreso',
     'progress.export.copy': 'Copiar al portapapeles',
@@ -7703,5 +7707,22 @@ export function t(locale: LocaleCode, key: StringKey): string {
 export function tf(locale: LocaleCode, key: StringKey, ...args: Array<string | number>): string {
   let s = t(locale, key);
   args.forEach((a, i) => { s = s.replaceAll(`{${i}}`, String(a)); });
+  return s;
+}
+
+/**
+ * Variante con plural: busca `${clave}.${categoría}` (categoría de Intl.PluralRules
+ * del idioma de la página: one/two/few/many/other) SOLO en ese idioma —sin caer al
+ * castellano, para no mezclar lenguas— y, si no existe, hace lo de siempre (tf).
+ * Hoy solo hay variantes `.one`; el resto de categorías cae en el texto genérico.
+ * `n` es también el `{0}` del texto.
+ */
+export function tp(locale: LocaleCode, key: StringKey, n: number, ...rest: Array<string | number>): string {
+  let cat = 'other';
+  try { cat = new Intl.PluralRules(locale).select(n); } catch { /* etiqueta que el motor no conoce */ }
+  const variant = STRINGS[locale]?.[`${key}.${cat}` as StringKey];
+  if (variant === undefined) return tf(locale, key, n, ...rest);
+  let s = variant;
+  [n, ...rest].forEach((a, i) => { s = s.replaceAll(`{${i}}`, String(a)); });
   return s;
 }

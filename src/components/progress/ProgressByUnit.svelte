@@ -1,24 +1,21 @@
 <script lang="ts" context="module">
   import type { LessonState } from '../../lib/lesson-state';
 
-  // Los ejercicios de cada lección (para derivar su estado) no vienen en las
-  // props: se leen en cliente del índice embebido en la página (LessonIndexData).
-  // Solo hacen falta tras montar, y así no viajan dos veces.
-  export interface LessonInput {
-    id: string;
-    code: string;
-    title: string;
-  }
+  // De cada lección solo viaja el id: el título, el código (para el enlace) y los
+  // ejercicios (para derivar su estado) se leen en cliente del índice embebido en
+  // la página (LessonIndexData). Solo hacen falta tras montar, y así no viajan dos
+  // veces.
   export interface UnitInput {
     id: string;
     code: string;
     title: string;
     order: number;
-    lessons: LessonInput[];
+    lessonIds: string[];
   }
   export interface LessonDot {
     id: string;
     title: string;
+    /** Vacío hasta montar (sin índice no hay código): entonces el punto no es enlace. */
     href: string;
     state: LessonState;
     /** Etiqueta accesible del estado («Completada · 2 para repasar»…); vacía si no se ha empezado. */
@@ -72,21 +69,22 @@
       let completed = 0;
       let perfect = 0;
       let read = 0;
-      const dots = u.lessons.map((l): LessonDot => {
-        const s = lessonState(progress?.lessons[l.id], index[l.id]?.ex ?? [], index[l.id]?.g ?? []);
+      const dots = u.lessonIds.map((id): LessonDot => {
+        const e = index[id];
+        const s = lessonState(progress?.lessons[id], e?.ex ?? [], e?.g ?? []);
         if (s.state === 'completed' || s.state === 'perfect') completed += 1;
         if (s.state === 'perfect') perfect += 1;
         if (s.state === 'started') read += 1;
         return {
-          id: l.id,
-          title: l.title,
-          href: `/${locale}/${levelCode}/${u.code}/${l.code}/`,
+          id,
+          title: e?.t ?? '',
+          href: e?.c ? `/${locale}/${levelCode}/${u.code}/${e.c}/` : '',
           state: s.state,
           label: stateLabel(s, labels),
           pct: attemptedPct(s),
         };
       });
-      return { id: u.id, code: u.code, title: u.title, order: u.order, total: u.lessons.length, completed, perfect, read, dots };
+      return { id: u.id, code: u.code, title: u.title, order: u.order, total: u.lessonIds.length, completed, perfect, read, dots };
     });
   }
 
@@ -165,7 +163,11 @@
                 </p>
                 <ol class="dots" aria-label={t(loc, 'unit.eyebrow')}>
                   {#each u.dots as d (d.id)}
-                    <li><a class="ls dot" data-state={d.state} style={d.state === 'started' ? `--ls-p: ${d.pct}%` : undefined} href={d.href} title={d.label ? `${d.title} · ${d.label}` : d.title} aria-label={d.label ? `${d.title} · ${d.label}` : d.title}></a></li>
+                    {#if d.href}
+                      <li><a class="ls dot" data-state={d.state} style={d.state === 'started' ? `--ls-p: ${d.pct}%` : undefined} href={d.href} title={d.label ? `${d.title} · ${d.label}` : d.title} aria-label={d.label ? `${d.title} · ${d.label}` : d.title}></a></li>
+                    {:else}
+                      <li><span class="ls dot" data-state="untouched" aria-hidden="true"></span></li>
+                    {/if}
                   {/each}
                 </ol>
               </div>
