@@ -37,12 +37,11 @@ const lineaDe = (id: string) => (id === 'jolas' ? (TEXTOS_JOLAS as Record<string
           <a class="card app-card" href={app.web} rel="noopener">
             <img src={app.icono} alt="" width="56" height="56" loading="lazy" decoding="async" />
             <span class="app-card-txt">
-              <b>
-                {app.nombre}
-                {/* Solo se enseña en Android, y lo enciende el guion: ahí esta
-                    app está en prueba cerrada y la tarjeta lleva a apuntarse. */}
-                {esBetaEnAndroid(app) && <span class="app-card-tag" data-etiqueta-beta hidden>Beta</span>}
-              </b>
+              {/* La etiqueta Beta solo se enseña en Android, y la enciende el guion:
+                  ahí esta app está en prueba cerrada y la tarjeta lleva a apuntarse.
+                  Va pegada al nombre: la separación la da su margin-inline-start
+                  (un salto de línea aquí sería un espacio de más desde Astro 7). */}
+              <b>{app.nombre}{esBetaEnAndroid(app) && <span class="app-card-tag" data-etiqueta-beta hidden>Beta</span>}</b>
               <span class="app-card-desc">{txt.apps[app.id]}</span>
             </span>
             <span class="app-card-arrow icon-direction-aware" aria-hidden="true">
@@ -57,10 +56,7 @@ const lineaDe = (id: string) => (id === 'jolas' ? (TEXTOS_JOLAS as Record<string
           <a class="card app-card" href={`/${locale}/${p.ruta}`}>
             <img src={p.icono} alt="" width="56" height="56" loading="lazy" decoding="async" />
             <span class="app-card-txt">
-              <b>
-                {p.nombre}
-                <span class="app-card-tag">{t(locale, 'gate.eyebrow')}</span>
-              </b>
+              <b>{p.nombre}<span class="app-card-tag">{t(locale, 'gate.eyebrow')}</span></b>
               <span class="app-card-desc">{lineaDe(p.id)}</span>
             </span>
             <span class="app-card-arrow icon-direction-aware" aria-hidden="true">

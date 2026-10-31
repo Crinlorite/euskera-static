@@ -1,4 +1,13 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
+import { z } from 'astro/zod';
+
+// Los ids se generan EXACTAMENTE como en las colecciones heredadas de Astro 4
+// (ruta relativa tal cual, sin pasarla a minúsculas): niveles y unidades sin
+// extensión ("pt-BR/a2"), lecciones con ella ("es/a1/01-saludos/01-kaixo.md").
+// Todo el enrutado y hiztegia/[hitza].astro dependen de ese formato.
+const sinExtension = ({ entry }: { entry: string }) => entry.replace(/\.ya?ml$/, '');
+const talCual = ({ entry }: { entry: string }) => entry;
 
 const exerciseBase = z.object({
   id: z.string().min(1),
@@ -40,13 +49,13 @@ const exercises = z.array(exercise).superRefine((arr, ctx) => {
   for (const ex of arr) {
     if (ex.type === 'multiple-choice' && ex.answer >= ex.options.length) {
       ctx.addIssue({
-        code: z.ZodIssueCode.custom,
+        code: 'custom',
         message: `${ex.id}: answer=${ex.answer} fuera de rango (${ex.options.length} opciones)`,
       });
     }
     if (ex.type === 'fill-in-blank' && !/_{3,}/.test(ex.prompt)) {
       ctx.addIssue({
-        code: z.ZodIssueCode.custom,
+        code: 'custom',
         message: `${ex.id}: prompt sin hueco "___"`,
       });
     }
@@ -54,7 +63,7 @@ const exercises = z.array(exercise).superRefine((arr, ctx) => {
 });
 
 const levels = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/[^_]*.{yaml,yml}', base: './src/content/levels', generateId: sinExtension }),
   schema: z.object({
     code: z.string(),
     name: z.string(),
@@ -70,7 +79,7 @@ const levels = defineCollection({
 });
 
 const units = defineCollection({
-  type: 'data',
+  loader: glob({ pattern: '**/[^_]*.{yaml,yml}', base: './src/content/units', generateId: sinExtension }),
   schema: z.object({
     // Stable opaque identifier — never changes aunque renombres el slug.
     // Lo usan progress store, referencias internas, futuras migraciones.
@@ -86,7 +95,7 @@ const units = defineCollection({
 });
 
 const lessons = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/[^_]*.md', base: './src/content/lessons', generateId: talCual }),
   schema: z.object({
     // Stable opaque identifier — clave del progreso, no cambia aunque renombres el slug.
     id: z.string().min(1),

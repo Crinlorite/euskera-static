@@ -60,7 +60,7 @@
   }
 
   function resetTurnstile() {
-    if (window.turnstile && widgetId) {
+    if (typeof window !== 'undefined' && window.turnstile && widgetId) {
       try { window.turnstile.reset(widgetId); } catch { /* ignore */ }
     }
     turnstileToken = '';
@@ -87,7 +87,7 @@
   });
 
   onDestroy(() => {
-    if (window.turnstile && widgetId) {
+    if (typeof window !== 'undefined' && window.turnstile && widgetId) {
       try { window.turnstile.remove(widgetId); } catch { /* ignore */ }
       widgetId = null;
     }

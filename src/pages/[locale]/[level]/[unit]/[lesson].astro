@@ -1,5 +1,5 @@
 ---
-import { getCollection, type CollectionEntry } from 'astro:content';
+import { getCollection, render, type CollectionEntry } from 'astro:content';
 import RootLayout from '../../../../layouts/RootLayout.astro';
 import UnitSidebar from '../../../../components/layout/UnitSidebar.astro';
 import LessonNav from '../../../../components/layout/LessonNav.astro';
@@ -32,7 +32,7 @@ const { locale, level: levelCode, unit: unitCode, lesson: lessonCode } = Astro.p
   locale: LocaleCode; level: string; unit: string; lesson: string;
 };
 const { lesson } = Astro.props;
-const { Content } = await lesson.render();
+const { Content } = await render(lesson);
 
 const allLessons = (await getCollection('lessons')) as Lesson[];
 const sibs = allLessons
