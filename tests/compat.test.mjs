@@ -145,3 +145,62 @@ test('el códec nuevo produce exactamente lo mismo que el viejo (formato sin cam
     assert.equal(await newExport(p), await oldExport(p), n);
   }
 });
+
+// ---------- Fase 3: paso por un cliente viejo y vuelta atrás ----------
+
+const tripleta = (p) => {
+  const out = {};
+  for (const [lid, l] of Object.entries(p.lessons)) {
+    for (const [eid, e] of Object.entries(l.exercises ?? {})) {
+      out[`${lid}/${eid}`] = { lastScore: e.lastScore, box: e.box, due: e.due, fails: e.fails };
+    }
+  }
+  return comoJSON(out);
+};
+
+test('P1. la fusión VIEJA pierde activity y la tripleta, pero la siguiente fusión completa lo repone todo', () => {
+  const g = makeGen(31);
+  for (let i = 0; i < 300; i++) {
+    const a = g.progress({ newFields: true, triplet: 'byId' });
+    const b = g.progress({ newFields: true, triplet: 'byId' });
+    const vieja = oldMerge(a, b);
+    // Documental: así se comporta el código anterior al 31-oct (un iPhone con la web vieja en caché).
+    assert.equal(vieja.activity, undefined, `par ${i}`);
+    const repuesta = newMerge(newMerge(vieja, a), b);
+    const bien = newMerge(a, b);
+    assert.deepEqual(repuesta.activity ?? null, bien.activity ?? null, `par ${i}: activity`);
+    // La tripleta vuelve en todos los ejercicios que la tenían (nada se pierde) y
+    // `fails` es igual. Su VALOR puede no ser el del último intento: tras el paso
+    // viejo, `lastAttemptAt` ya no dice de qué lado venía, la siguiente fusión ve un
+    // empate y toma el máximo por campo (D17). Efecto acotado a esta ruta: un
+    // ejercicio puede volver al repaso más tarde de lo previsto; notas, lecciones,
+    // logros y actividad, intactos.
+    const tr = tripleta(repuesta), ok = tripleta(bien);
+    for (const [k, v] of Object.entries(ok)) {
+      for (const campo of ['lastScore', 'box', 'due']) {
+        assert.equal(tr[k]?.[campo] !== undefined, v[campo] !== undefined, `par ${i}: ${k} ${campo}`);
+      }
+      assert.equal(tr[k]?.fails, v.fails, `par ${i}: ${k} fails`);
+    }
+    assert.deepEqual(Object.keys(repuesta.lessons).sort(), Object.keys(bien.lessons).sort(), `par ${i}: lecciones`);
+  }
+});
+
+test('P7. vuelta atrás: el migrate de antes de la fase 3 conserva los logros nuevos, activity y la meta', async () => {
+  const fase3 = {
+    ...nuevo,
+    achievements: {
+      ...nuevo.achievements,
+      'first-perfect': { unlockedAt: '2026-11-01T10:00:00.000Z' },
+      comeback: { unlockedAt: '2026-11-01T10:00:00.000Z' },
+      'perfect-unit-a1-greetings': { unlockedAt: '2026-11-01T10:00:00.000Z' },
+      'level-complete-a2': { unlockedAt: '2026-11-01T10:00:00.000Z' },
+    },
+  };
+  const releido = oldMigrate(await oldDecode(await newExport(fase3)));
+  assert.deepEqual(releido.achievements, fase3.achievements);
+  assert.deepEqual(releido.activity, fase3.activity);
+  assert.equal(releido.preferences.weeklyGoalDays, 4);
+  // Y el migrate de HOY (fff94c6, el de la vuelta atrás) también: es el mismo que el nuevo en esto.
+  assert.deepEqual(newMigrate(await newDecode(await newExport(fase3))).achievements, fase3.achievements);
+});

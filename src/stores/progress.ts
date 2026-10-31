@@ -1,6 +1,7 @@
 import { saveProgress as nativeSaveProgress, syncProgressToNative } from '../lib/platform.ts';
 import { addDays, todayKey } from '../lib/dates.ts';
 import { BOX_DUE_DAYS, GRADUATED_BOX } from '../lib/review.ts';
+import { clampGoal, sanitizeActivity } from '../lib/activity.ts';
 import { exportHash as encodeHash, decodeHash, SUPPORTED_SCHEMA } from './progress-hash.ts';
 import { mergeLesson, mergeProgress } from './progress-merge.ts';
 
@@ -240,7 +241,7 @@ export function migrate(p: ProgressAny): ProgressV1 {
   }
   // Backwards-compat: hashes antiguos no traen `achievements`. Garantizamos
   // que el campo siempre exista para que el resto del código no vea undefined.
-  return {
+  const out: ProgressV1 = {
     ...p, // conserva campos que esta versión no conoce
     schemaVersion: 1,
     createdAt: p.createdAt ?? base.createdAt,
@@ -250,26 +251,73 @@ export function migrate(p: ProgressAny): ProgressV1 {
     preferences: p.preferences ?? {},
     achievements: p.achievements ?? {},
   };
+  // `activity` solo con cifras válidas: texto o negativos de un código manipulado
+  // darían NaN al fusionar (y `null` en el JSON). Si no es un objeto, fuera.
+  const activity = sanitizeActivity((p as { activity?: unknown }).activity);
+  if (activity) out.activity = activity;
+  else delete out.activity;
+  return out;
 }
 
+/** +1 acción hoy (cada respuesta a un ejercicio). */
+function bumpActivity(p: ProgressV1, today: string) {
+  p.activity ??= {};
+  p.activity[today] = (p.activity[today] ?? 0) + 1;
+}
+
+/**
+ * Hoy se ha estudiado: al menos 1 en `activity[hoy]`. Así todo día que cuenta
+ * para la racha sale también en la rejilla. Devuelve si cambió algo.
+ */
+function markActive(p: ProgressV1, today: string): boolean {
+  if ((p.activity?.[today] ?? 0) >= 1) return false;
+  p.activity ??= {};
+  p.activity[today] = 1;
+  return true;
+}
+
+// Si nada cambia, no se guarda: cada guardado mueve `lastUpdated`, y el respaldo
+// de iOS solo restaura una copia si es MÁS NUEVA que lo local. Un guardado vacío
+// al reabrir una lección haría parecer vieja la copia buena de otro dispositivo.
 export function recordLessonRead(lessonKey: string): ProgressV1 {
   const p = getProgress();
+  const today = todayKey();
+  let changed = false;
   if (!p.lessons[lessonKey]) {
     p.lessons[lessonKey] = { status: 'read', exercises: {} };
+    changed = true;
   }
-  bumpStreak(p);
-  setProgress(p);
+  if (bumpStreak(p, today)) changed = true;
+  if (markActive(p, today)) changed = true;
+  if (changed) setProgress(p);
   return p;
 }
 
 export function recordLessonCompleted(lessonKey: string): ProgressV1 {
   const p = getProgress();
-  if (!p.lessons[lessonKey]) p.lessons[lessonKey] = { status: 'completed', exercises: {} };
+  const today = todayKey();
+  let changed = false;
+  if (!p.lessons[lessonKey]) {
+    p.lessons[lessonKey] = { status: 'completed', exercises: {} };
+    changed = true;
+  }
   const l = p.lessons[lessonKey];
-  l.status = 'completed';
+  if (l.status !== 'completed') { l.status = 'completed'; changed = true; }
   // Primera vez que se completó: repetir la lección no la mueve.
-  if (!l.completedAt) l.completedAt = new Date().toISOString();
-  bumpStreak(p);
+  if (!l.completedAt) { l.completedAt = new Date().toISOString(); changed = true; }
+  if (bumpStreak(p, today)) changed = true;
+  if (markActive(p, today)) changed = true;
+  if (changed) setProgress(p);
+  return p;
+}
+
+/** Meta semanal (1..7). Lo no numérico se ignora; el mismo valor no guarda. */
+export function setWeeklyGoal(days: number): ProgressV1 {
+  const p = getProgress();
+  if (typeof days !== 'number' || !Number.isFinite(days)) return p;
+  const goal = clampGoal(days);
+  if (p.preferences.weeklyGoalDays === goal) return p;
+  p.preferences.weeklyGoalDays = goal;
   setProgress(p);
   return p;
 }
@@ -312,6 +360,7 @@ export function recordExerciseResult(
     }
   }
   p.lessons[lessonKey].exercises[exerciseId] = ex;
+  bumpActivity(p, today);
   bumpStreak(p, today);
   setProgress(p);
   return p;
@@ -342,12 +391,13 @@ export function unlockAchievements(achievementIds: string[]): ProgressV1 {
  * "futuras" que dejó el cálculo antiguo en UTC (de noche, en husos al oeste de
  * Greenwich), para que el cambio a hora local no rompa ninguna racha.
  */
-export function bumpStreak(p: ProgressV1, today: string = todayKey()) {
+export function bumpStreak(p: ProgressV1, today: string = todayKey()): boolean {
   const last = p.streak.lastStudiedDate || '';
-  if (last >= today) return;
+  if (last >= today) return false;
   p.streak.current = last === addDays(today, -1) ? p.streak.current + 1 : 1;
   p.streak.longest = Math.max(p.streak.longest, p.streak.current);
   p.streak.lastStudiedDate = today;
+  return true;
 }
 
 // ---------- Hash encoding ----------

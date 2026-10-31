@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import type { ProgressV1 } from './progress.ts';
 import { exportHash } from './progress-hash.ts';
 import { addDays, todayKey } from '../lib/dates.ts';
+import { makeGen } from '../../tests/helpers/progress-gen.ts';
 
 // localStorage simulado con un Map. Tiene que existir ANTES de cargar el store,
 // por eso el import del módulo es dinámico.
@@ -333,4 +334,144 @@ test('repaso: acierto sin historial no entra en la cola (sin caja)', () => {
   // Y lo que queda en disco tampoco lleva claves undefined.
   store.saveNow();
   assert.ok(!('box' in disco().lessons.l1.exercises.e1));
+});
+
+// ---------- Fase 3: actividad, meta semanal y «no guardar si nada cambia» ----------
+
+test('fase 3: cada respuesta suma 1 a activity[hoy]; nunca baja al importar un código con menos', async () => {
+  const hoy = todayKey();
+  for (let i = 0; i < 5; i++) store.recordExerciseResult('a1-family-1', `e${i}`, 100, true);
+  store.saveNow();
+  assert.equal(disco().activity?.[hoy], 5);
+  const codigo = await exportHash(prog({ activity: { [hoy]: 2, '2026-01-02': 4 } }));
+  await store.importHash(codigo);
+  assert.equal(disco().activity?.[hoy], 5);
+  assert.equal(disco().activity?.['2026-01-02'], 4);
+});
+
+test('fase 3: abrir una lección (nueva o ya empezada) en un día nuevo deja activity[hoy] ≥ 1', () => {
+  const hoy = todayKey();
+  const ayer = addDays(hoy, -1);
+  mem.map.set(STORAGE_KEY, JSON.stringify(prog({
+    lessons: { 'a1-family-1': { status: 'read', exercises: {} } },
+    streak: { current: 1, longest: 1, lastStudiedDate: ayer },
+    activity: { [ayer]: 3 },
+  })));
+  store.recordLessonRead('a1-family-1');
+  store.saveNow();
+  assert.equal(disco().activity?.[hoy], 1);
+  assert.equal(disco().activity?.[ayer], 3);
+  assert.equal(disco().streak.current, 2);
+});
+
+test('fase 3: reabrir una lección sin que cambie nada no guarda (lastUpdated intacto)', async () => {
+  const hoy = todayKey();
+  const guardado = prog({
+    lastUpdated: '2026-02-02T00:00:00.000Z',
+    lessons: { 'a1-family-1': { status: 'completed', completedAt: '2026-02-01T00:00:00.000Z', exercises: {} } },
+    streak: { current: 1, longest: 1, lastStudiedDate: hoy },
+    activity: { [hoy]: 2 },
+  });
+  mem.map.set(STORAGE_KEY, JSON.stringify(guardado));
+  store.recordLessonRead('a1-family-1');
+  store.recordLessonCompleted('a1-family-1');
+  store.saveNow();
+  assert.equal(disco().lastUpdated, '2026-02-02T00:00:00.000Z');
+  assert.equal(store.getProgress().lastUpdated, '2026-02-02T00:00:00.000Z');
+});
+
+test('fase 3: progreso de antes (racha de hoy sin activity) recibe activity[hoy] = 1 al abrir', () => {
+  const hoy = todayKey();
+  mem.map.set(STORAGE_KEY, JSON.stringify(prog({
+    lessons: { 'a1-family-1': { status: 'read', exercises: {} } },
+    streak: { current: 4, longest: 9, lastStudiedDate: hoy },
+  })));
+  store.recordLessonRead('a1-family-1');
+  store.saveNow();
+  assert.equal(disco().activity?.[hoy], 1);
+  assert.deepEqual(disco().streak, { current: 4, longest: 9, lastStudiedDate: hoy });
+});
+
+test('fase 3: setWeeklyGoal acota 1..7, ignora lo no numérico y no guarda si no cambia', async () => {
+  store.setWeeklyGoal(5);
+  store.saveNow();
+  assert.equal(disco().preferences.weeklyGoalDays, 5);
+  const antes = disco().lastUpdated;
+  await sleep(5);
+  store.setWeeklyGoal(5);
+  store.setWeeklyGoal(NaN);
+  store.saveNow();
+  assert.equal(disco().lastUpdated, antes);
+  store.setWeeklyGoal(0);
+  store.saveNow();
+  assert.equal(disco().preferences.weeklyGoalDays, 1);
+  store.setWeeklyGoal(99);
+  store.saveNow();
+  assert.equal(disco().preferences.weeklyGoalDays, 7);
+});
+
+test('fase 3: la meta guardada aquí gana a la de un código importado; si aquí no hay, se rellena', async () => {
+  store.setWeeklyGoal(4);
+  store.saveNow();
+  await store.importHash(await exportHash(prog({ preferences: { weeklyGoalDays: 6 } })));
+  assert.equal(disco().preferences.weeklyGoalDays, 4);
+  mem.clear();
+  await store.importHash(await exportHash(prog({ preferences: { weeklyGoalDays: 6 } })));
+  assert.equal(disco().preferences.weeklyGoalDays, 6);
+});
+
+test('fase 3: migrate limpia activity (texto, negativos, no-objeto) sin crear el campo si no existía', () => {
+  const a = store.migrate({ ...prog(), activity: { '2026-10-01': 3, '2026-10-02': 'x', '2026-10-03': -2 } as unknown as Record<string, number> });
+  assert.deepEqual(a.activity, { '2026-10-01': 3 });
+  const b = store.migrate({ ...prog(), activity: 'roto' as unknown as Record<string, number> });
+  assert.equal('activity' in b, false);
+  assert.equal('activity' in store.migrate(prog()), false);
+});
+
+test('fase 3: local vacío + código con activity → se restaura entera', async () => {
+  await store.importHash(await exportHash(prog({ activity: { '2026-03-01': 7, '2026-03-09': 1 } })));
+  assert.deepEqual(disco().activity, { '2026-03-01': 7, '2026-03-09': 1 });
+});
+
+test('fase 3 · NUNCA BAJA: 200 progresos al azar por todas las rutas nuevas; nada de lo que había baja ni desaparece', async () => {
+  const g = makeGen(2026);
+  for (let i = 0; i < 200; i++) {
+    store.saveNow();
+    mem.clear();
+    const antes: ProgressV1 = g.progress({ newFields: true });
+    mem.map.set(STORAGE_KEY, JSON.stringify(antes));
+    const ids = Object.keys(antes.lessons);
+    const tocada = ids[0] ?? 'a1-nueva-1';
+    // Rutas de escritura de la fase 3 (más las de siempre), en un orden cualquiera.
+    store.recordLessonRead(ids[1] ?? 'a1-nueva-2');
+    store.recordExerciseResult(tocada, 'ejercicio-nuevo', i % 2 ? 100 : 40, true);
+    store.recordLessonCompleted(tocada);
+    store.setWeeklyGoal(1 + (i % 7));
+    store.unlockAchievements(['first-perfect', 'comeback']);
+    if (i % 3 === 0) await store.importHash(await exportHash(g.progress({ newFields: true })));
+    store.saveNow();
+    const despues = disco();
+    const msg = `progreso ${i}`;
+    for (const [lid, l] of Object.entries(antes.lessons)) {
+      const d = despues.lessons[lid];
+      assert.ok(d, `${msg}: falta ${lid}`);
+      if (l.status === 'completed') assert.equal(d.status, 'completed', `${msg}: ${lid} bajó de completada`);
+      if (l.completedAt) assert.ok(d.completedAt && d.completedAt <= l.completedAt, `${msg}: ${lid} completedAt`);
+      for (const [eid, e] of Object.entries(l.exercises)) {
+        const de = d.exercises[eid];
+        assert.ok(de, `${msg}: falta ${lid}/${eid}`);
+        assert.ok(de.attempts >= e.attempts, `${msg}: ${lid}/${eid} attempts`);
+        assert.ok(de.bestScore >= e.bestScore, `${msg}: ${lid}/${eid} bestScore`);
+        if (e.fails !== undefined) assert.ok((de.fails ?? 0) >= e.fails, `${msg}: ${lid}/${eid} fails`);
+      }
+    }
+    for (const [id, a] of Object.entries(antes.achievements ?? {})) {
+      assert.ok(despues.achievements?.[id], `${msg}: logro ${id}`);
+      assert.ok(despues.achievements![id].unlockedAt <= a.unlockedAt, `${msg}: fecha del logro ${id}`);
+    }
+    for (const [d, n] of Object.entries(antes.activity ?? {})) {
+      assert.ok((despues.activity?.[d] ?? 0) >= n, `${msg}: activity ${d}`);
+    }
+    assert.ok(despues.streak.longest >= antes.streak.longest, `${msg}: récord`);
+  }
 });
