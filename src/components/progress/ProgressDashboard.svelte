@@ -5,7 +5,7 @@
     getProgress, exportHash, importHash, isStorageAvailable, unlockAchievements,
     type ProgressV1,
   } from '../../stores/progress';
-  import { t, tf } from '../../i18n/ui';
+  import { t, tf, tp } from '../../i18n/ui';
   import { shareProgress, canRequestReview, canCloudSync, isCloudSyncEnabled, setCloudSync, nativePlatform } from '../../lib/platform';
   import { URL_VALORAR_ANDROID } from '../../lib/migrar.mjs';
   import { countStates } from '../../lib/lesson-state';
@@ -132,8 +132,8 @@
 {#if progress && counts}
   <section class="summary">
     <div class="card">
-      <strong>{counts.completed}</strong>
-      <span>{t(locale, 'progress.summary.completed')}</span>
+      <strong>{counts.completed}<small class="of">/{counts.total}</small></strong>
+      <span>{tp(locale, 'progress.summary.completed', counts.completed)}</span>
     </div>
     <div class="card">
       <strong>{counts.perfect}</strong>
@@ -141,7 +141,7 @@
     </div>
     <div class="card">
       <strong>{progress.streak.current}</strong>
-      <span>{t(locale, 'progress.streak.days')}</span>
+      <span>{tp(locale, 'progress.streak.days', progress.streak.current)}</span>
     </div>
     <div class="card">
       <strong>{progress.streak.longest}</strong>
@@ -153,7 +153,7 @@
     <div class="review-txt">
       <strong>{t(locale, 'review.title')}</strong>
       <span>{dueToday ? tf(locale, 'lesson.toreview', dueToday) : t(locale, 'review.empty')}</span>
-      {#if graduated}<span>{tf(locale, 'review.graduated', graduated)}</span>{/if}
+      {#if graduated}<span>{tp(locale, 'review.graduated', graduated)}</span>{/if}
     </div>
     <a class="btn {dueToday ? 'btn-primary' : 'btn-secondary'}" href={`/${locale}/repaso/`}>{t(locale, 'review.start')}</a>
   </section>
@@ -266,6 +266,11 @@
   .summary .card { display: grid; gap: var(--s-1); text-align: center; }
   .summary strong { font-size: 2rem; }
   .summary span { color: var(--c-text-muted); font-size: 0.9rem; }
+  /* «/65» junto a la cifra: pequeño y apagado. */
+  .summary .of { font-size: 0.5em; font-weight: 500; color: var(--c-text-muted); margin-inline-start: 2px; }
+  /* Mayúscula inicial sin claves nuevas (el span es ítem de grid: bloque). Neutro
+     donde ya va en mayúscula (alemán) y en escrituras sin caja. */
+  .summary span::first-letter { text-transform: uppercase; }
   .actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-block: var(--s-4); }
   .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 100; }
   .modal { position: fixed; inset: 50% auto auto 50%; transform: translate(-50%, -50%); inline-size: min(90vw, 600px); padding: var(--s-5); border: 0; border-radius: var(--r-lg); z-index: 101; box-shadow: 0 12px 40px rgba(0,0,0,0.2); }
