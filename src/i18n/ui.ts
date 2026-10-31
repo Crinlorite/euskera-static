@@ -67,7 +67,7 @@ export type StringKey =
   | 'fb.email.ph' | 'fb.discord.ph' | 'fb.contact.note' | 'fb.honeypot' | 'gate.eyebrow' | 'gate.title'
   | 'gate.desc' | 'gate.pwd.label' | 'gate.pwd.ph' | 'gate.checking' | 'gate.unlock' | 'gate.error'
   | 'gate.foot' | 'gate.reviewer' | 'gate.back' | 'unit.eyebrow' | 'unit.start' | 'a11y.unit.nav' | 'a11y.lesson.nav' | 'a11y.unit.lessons'
-  | 'a11y.menu' | 'progress.units.empty' | 'a11y.units.list' | 'progress.path' | 'a11y.ach.filter' | 'home.cefr'
+  | 'a11y.menu' | 'a11y.nav' | 'progress.units.empty' | 'a11y.units.list' | 'progress.path' | 'a11y.ach.filter' | 'home.cefr'
   | 'home.levels.title'
   | 'app.rate' | 'app.rate.hint'
   | 'sync.title' | 'sync.hint' | 'sync.off' | 'sync.on'
@@ -194,6 +194,7 @@ const STRINGS: Record<LocaleCode, Partial<Record<StringKey, string>>> = {
     'a11y.lesson.nav': 'Navegación entre lecciones',
     'a11y.unit.lessons': 'Lecciones de la unidad',
     'a11y.menu': 'Menú móvil',
+    'a11y.nav': 'Navegación principal',
     'progress.units.empty': 'Aún no hay unidades activas en este nivel.',
     'a11y.units.list': 'Lista de unidades con progreso',
     'progress.path': 'Tu camino',
