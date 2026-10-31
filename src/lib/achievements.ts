@@ -1,4 +1,7 @@
 import type { ProgressV1 } from '../stores/progress';
+import type { LessonIndex } from './lesson-index.ts';
+import { lessonState } from './lesson-state.ts';
+import { derivedDays, hasComeback } from './activity.ts';
 
 // Catálogo de logros + evaluador puro.
 //
@@ -46,16 +49,12 @@ const A1_UNITS: Array<{ unitId: string; shortTitle: string }> = [
   { unitId: 'a1-week-plan',    shortTitle: 'Agenda semanal' },
 ];
 
-const masteryAchievements: Achievement[] = A1_UNITS.map(({ unitId, shortTitle }) => ({
-  id: `unit-complete-${unitId}`,
-  title: `Maestría: ${shortTitle}`,
-  description: `Completa todas las lecciones de la unidad "${shortTitle}".`,
-  icon: '📘',
-  category: 'mastery',
-}));
+const A1_SHORT: Record<string, string> = Object.fromEntries(A1_UNITS.map((u) => [u.unitId, u.shortTitle]));
 
-export const ACHIEVEMENTS: Achievement[] = [
-  // ---------- Milestones ----------
+// ---------- Piezas del catálogo (los textos de aquí son la caída en castellano;
+// lo que se ve sale de las claves `ach.*` de cada idioma) ----------
+
+const MILESTONES_BEFORE: Achievement[] = [
   {
     id: 'first-step',
     title: 'Primer paso',
@@ -71,19 +70,36 @@ export const ACHIEVEMENTS: Achievement[] = [
     category: 'milestone',
   },
   {
+    id: 'first-perfect',
+    title: 'Primera lección en verde',
+    description: 'Acierta todos los ejercicios de una lección, repitiendo si hace falta.',
+    icon: '💚',
+    category: 'milestone',
+  },
+  {
     id: 'first-unit',
     title: 'Primera unidad',
     description: 'Completa todas las lecciones de tu primera unidad.',
     icon: '🎯',
     category: 'milestone',
   },
-  {
-    id: 'first-level',
-    title: 'Nivel superado',
-    description: 'Completa todas las lecciones del nivel A1.',
-    icon: '🏔️',
-    category: 'milestone',
-  },
+];
+
+/**
+ * «Nivel superado» repetía «A1 completo» (se conceden a la vez). Ya no se
+ * concede ni se ofrece, pero quien lo tiene lo sigue viendo y contando: que su
+ * «N de M» no baje nunca.
+ */
+const FIRST_LEVEL: Achievement = {
+  id: 'first-level',
+  title: 'Nivel superado',
+  description: 'Completa todas las lecciones del nivel A1.',
+  icon: '🏔️',
+  category: 'milestone',
+};
+export const LEGACY_ACHIEVEMENTS: Achievement[] = [FIRST_LEVEL];
+
+const MILESTONES_AFTER: Achievement[] = [
   {
     id: 'first-export',
     title: 'Memory card en mano',
@@ -98,11 +114,9 @@ export const ACHIEVEMENTS: Achievement[] = [
     icon: '📥',
     category: 'milestone',
   },
+];
 
-  // ---------- Mastery (una por unidad A1) ----------
-  ...masteryAchievements,
-
-  // ---------- Streaks ----------
+const STREAKS: Achievement[] = [
   {
     id: 'streak-3',
     title: 'Constancia: 3 días',
@@ -131,8 +145,16 @@ export const ACHIEVEMENTS: Achievement[] = [
     icon: '🌋',
     category: 'streak',
   },
+  {
+    id: 'comeback',
+    title: 'Has vuelto',
+    description: 'Volviste tras una semana o más sin estudiar. Eso también es constancia.',
+    icon: '👋',
+    category: 'streak',
+  },
+];
 
-  // ---------- Volume ----------
+const VOLUME: Achievement[] = [
   {
     id: 'volume-10',
     title: '10 lecciones',
@@ -154,15 +176,27 @@ export const ACHIEVEMENTS: Achievement[] = [
     icon: '📚',
     category: 'volume',
   },
-  {
-    id: 'volume-a1-complete',
-    title: 'A1 completo',
-    description: 'Completa todas las lecciones del nivel A1.',
-    icon: '🏆',
-    category: 'volume',
-  },
+];
 
-  // ---------- Curiosity ----------
+const VOLUME_A1: Achievement = {
+  id: 'volume-a1-complete',
+  title: 'A1 completo',
+  description: 'Completa todas las lecciones del nivel A1.',
+  icon: '🏆',
+  category: 'volume',
+};
+
+/** Ejercicios fallados y acertados después (cuenta `fails > 0 ∧ bestScore === 100`). */
+export const REVIEW_STEPS = [10, 50] as const;
+const REVIEW: Achievement[] = REVIEW_STEPS.map((n) => ({
+  id: `review-${n}`,
+  title: `Del error se aprende: ${n}`,
+  description: `${n} ejercicios que fallaste y luego acertaste.`,
+  icon: '🧠',
+  category: 'volume' as const,
+}));
+
+const CURIOSITY: Achievement[] = [
   {
     id: 'curiosity-about',
     title: 'Vista al taller',
@@ -179,9 +213,66 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
 ];
 
-// Lookup rápido por id → catálogo. Útil desde la UI cuando solo tienes el id.
+const masteryOf = (unitId: string, title: string): Achievement => ({
+  id: `unit-complete-${unitId}`,
+  title: `Maestría: ${title}`,
+  description: `Completa todas las lecciones de la unidad "${title}".`,
+  icon: '📘',
+  category: 'mastery',
+});
+
+const perfectOf = (unitId: string, title: string): Achievement => ({
+  id: `perfect-unit-${unitId}`,
+  title: `Impecable: ${title}`,
+  description: `Todas las lecciones de la unidad «${title}» en verde.`,
+  icon: '🟢',
+  category: 'mastery',
+});
+
+const levelDone = (level: string): Achievement => ({
+  id: `level-complete-${level}`,
+  title: `Nivel ${level.toUpperCase()} completo`,
+  description: `Completa todas las lecciones del nivel ${level.toUpperCase()}.`,
+  icon: '🏆',
+  category: 'volume',
+});
+
+/**
+ * Catálogo de los niveles abiertos del idioma (se construye en cliente con las
+ * unidades que trae la página). `held` = ids que el usuario ya tiene: los
+ * retirados del catálogo (LEGACY_ACHIEVEMENTS) se siguen mostrando a quien los tenga.
+ */
+export function buildCatalog(
+  unitsByLevel: Record<string, { unitIds: string[] }>,
+  opts: { titles?: Record<string, string>; held?: Iterable<string> } = {},
+): Achievement[] {
+  const titles = opts.titles ?? {};
+  const held = new Set(opts.held ?? []);
+  const levels = Object.keys(unitsByLevel);
+  const units = levels.flatMap((l) => unitsByLevel[l]?.unitIds ?? []);
+  const titleOf = (u: string) => titles[u] ?? A1_SHORT[u] ?? u;
+  return [
+    ...MILESTONES_BEFORE,
+    ...(held.has(FIRST_LEVEL.id) ? [FIRST_LEVEL] : []),
+    ...MILESTONES_AFTER,
+    ...units.map((u) => masteryOf(u, titleOf(u))),
+    ...units.map((u) => perfectOf(u, titleOf(u))),
+    ...STREAKS,
+    ...VOLUME,
+    ...(levels.includes('a1') ? [VOLUME_A1] : []),
+    ...levels.filter((l) => l !== 'a1').map(levelDone),
+    ...REVIEW,
+    ...CURIOSITY,
+  ];
+}
+
+/** Catálogo por defecto (solo A1), para quien no tenga las unidades a mano. */
+export const ACHIEVEMENTS: Achievement[] = buildCatalog({ a1: { unitIds: A1_UNITS.map((u) => u.unitId) } });
+
+// Lookup rápido por id → catálogo (incluye los retirados). Para las unidades de
+// otros niveles, ver achievement-text.ts.
 export const ACHIEVEMENT_BY_ID: Record<string, Achievement> =
-  Object.fromEntries(ACHIEVEMENTS.map((a) => [a.id, a]));
+  Object.fromEntries([...ACHIEVEMENTS, ...LEGACY_ACHIEVEMENTS].map((a) => [a.id, a]));
 
 // IDs de logros que NO se pueden inferir solo del progreso (requieren un
 // trigger explícito: clic, navegación, llamada al exportador). El evaluador
@@ -220,10 +311,12 @@ export function evaluate(
   knownLessonKeys: Set<string>,
   unitsByLevel: Record<string, { unitIds: string[] }>,
   lessonsByUnit?: Record<string, string[]>,
+  content: { index?: LessonIndex } = {},
 ): string[] {
   const unlocked: Set<string> = new Set();
 
-  // Conserva logros que ya estaban marcados (incluidos los trigger-only).
+  // Conserva logros que ya estaban marcados (incluidos los trigger-only y los
+  // retirados del catálogo, como «Nivel superado»).
   if (progress.achievements) {
     for (const id of Object.keys(progress.achievements)) {
       unlocked.add(id);
@@ -251,45 +344,59 @@ export function evaluate(
   if (longest >= 14) unlocked.add('streak-14');
   if (longest >= 30) unlocked.add('streak-30');
 
-  // ---------- Mastery por unidad y "primera unidad" ----------
-  // Necesitamos saber qué lecciones pertenecen a cada unidad. Si el llamante
-  // no nos pasa `lessonsByUnit`, no podemos evaluar mastery (lo dejamos en
-  // el estado en que esté, sin marcar nada nuevo).
+  // ---------- Maestría por unidad, «primera unidad» y niveles ----------
+  // Sin `lessonsByUnit` no se sabe qué lecciones tiene cada unidad: no se marca
+  // nada nuevo de esto. Se recorren las unidades que llegan (A1, A2…), no el catálogo.
   const completedSet = new Set(completedLessons.map(([k]) => k));
-  let anyUnitComplete = false;
+  const unitDone = (uid: string) => {
+    const ids = lessonsByUnit?.[uid];
+    return !!ids && ids.length > 0 && ids.every((lid) => completedSet.has(lid));
+  };
   if (lessonsByUnit) {
-    for (const a of ACHIEVEMENTS) {
-      if (a.category !== 'mastery') continue;
-      // Mastery IDs son `unit-complete-<unitId>`
-      const unitId = a.id.replace(/^unit-complete-/, '');
-      const lessonsOfUnit = lessonsByUnit[unitId];
-      if (!lessonsOfUnit || lessonsOfUnit.length === 0) continue;
-      const allDone = lessonsOfUnit.every((lid) => completedSet.has(lid));
-      if (allDone) {
-        unlocked.add(a.id);
+    let anyUnitComplete = false;
+    for (const unitId of Object.keys(lessonsByUnit)) {
+      if (unitDone(unitId)) {
+        unlocked.add(`unit-complete-${unitId}`);
         anyUnitComplete = true;
       }
     }
-  }
-  if (anyUnitComplete) unlocked.add('first-unit');
-
-  // ---------- Nivel A1 completo ----------
-  // Recorre todas las unidades A1 y comprueba que todas sus lecciones estén
-  // completadas. Si `lessonsByUnit` no se pasa, no podemos evaluar.
-  if (lessonsByUnit && unitsByLevel.a1) {
-    const a1UnitIds = unitsByLevel.a1.unitIds;
-    if (a1UnitIds.length > 0) {
-      const allA1Done = a1UnitIds.every((uid) => {
-        const lessons = lessonsByUnit[uid];
-        if (!lessons || lessons.length === 0) return false;
-        return lessons.every((lid) => completedSet.has(lid));
-      });
-      if (allA1Done) {
-        unlocked.add('volume-a1-complete');
-        unlocked.add('first-level');
+    if (anyUnitComplete) unlocked.add('first-unit');
+    // Nivel completo: A1 conserva su id de siempre; el resto, `level-complete-<nivel>`.
+    // «Nivel superado» (first-level) ya no se concede: repetía «A1 completo».
+    for (const [level, { unitIds }] of Object.entries(unitsByLevel)) {
+      if (unitIds.length > 0 && unitIds.every(unitDone)) {
+        unlocked.add(level === 'a1' ? 'volume-a1-complete' : `level-complete-${level}`);
       }
     }
   }
+
+  // ---------- Con el índice de lecciones: verde y fallos corregidos ----------
+  const index = content.index;
+  if (index) {
+    const perfect = (id: string) => {
+      const e = index[id];
+      return !!e && lessonState(progress.lessons[id], e.ex, e.g).state === 'perfect';
+    };
+    if (Object.keys(index).some((id) => progress.lessons[id] && perfect(id))) unlocked.add('first-perfect');
+    if (lessonsByUnit) {
+      for (const [unitId, ids] of Object.entries(lessonsByUnit)) {
+        if (ids.length > 0 && ids.every(perfect)) unlocked.add(`perfect-unit-${unitId}`);
+      }
+    }
+    let fixed = 0;
+    for (const [id, e] of Object.entries(index)) {
+      const ex = progress.lessons[id]?.exercises;
+      if (!ex) continue;
+      for (const g of e.g) {
+        const r = ex[g];
+        if (r && (r.fails ?? 0) > 0 && r.bestScore === 100) fixed++;
+      }
+    }
+    for (const n of REVIEW_STEPS) if (fixed >= n) unlocked.add(`review-${n}`);
+  }
+
+  // ---------- Has vuelto (actividad real tras ≥ 8 días) ----------
+  if (hasComeback(progress.activity, derivedDays(progress))) unlocked.add('comeback');
 
   // Filtra trigger-only para no marcarlos por error: solo permanecen si ya
   // estaban en `progress.achievements` (lo que ya añadimos arriba).

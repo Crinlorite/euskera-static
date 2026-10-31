@@ -2,13 +2,15 @@
   import { t, tf, type StringKey } from '../../i18n/ui';
   import type { LocaleCode } from '../../i18n/config';
   import { onMount } from 'svelte';
-  import { ACHIEVEMENTS, evaluate, type Achievement, type AchievementCategory } from '../../lib/achievements';
+  import { buildCatalog, evaluate, type Achievement, type AchievementCategory } from '../../lib/achievements';
+  import { achievementDesc, achievementTitle } from '../../lib/achievement-text';
   import { getProgress, unlockAchievements } from '../../stores/progress';
   import { readIndex } from '../../lib/lesson-index';
 
-  // Catálogo que se pinta; por defecto el de lib. evaluate() sigue usando
-  // ACHIEVEMENTS para desbloquear: catalog solo decide qué se muestra y se cuenta.
-  export let catalog: Achievement[] = ACHIEVEMENTS;
+  // Catálogo que se pinta y se cuenta. Sin él, se construye aquí con las unidades
+  // de los niveles abiertos (A1, A2…) y los logros que el usuario ya tiene: los
+  // retirados (como «Nivel superado») siguen a la vista de quien los consiguió.
+  export let catalog: Achievement[] | null = null;
   // Mapas necesarios para evaluar logros que dependen de qué lecciones existen.
   // Si no llega lessonsByUnit, se deriva del índice embebido en la página
   // (LessonIndexData): mismos pares unidad → lecciones, sin repetirlos en props.
@@ -32,8 +34,9 @@
     for (const ids of Object.values(byUnit)) {
       for (const id of ids) knownKeys.add(id);
     }
-    // Evalúa logros automáticos a partir del estado actual y los persiste.
-    const auto = evaluate(progress, knownKeys, unitsByLevel, byUnit);
+    // Evalúa logros automáticos a partir del estado actual y los persiste. Con el
+    // índice se evalúan también el verde, «Impecable» y «Del error se aprende».
+    const auto = evaluate(progress, knownKeys, unitsByLevel, byUnit, { index: readIndex() });
     if (auto.length > 0) unlockAchievements(auto);
     // Lee tras persistir para incluir trigger-only que ya estaban
     const after = getProgress();
@@ -49,40 +52,46 @@
   let activeFilter: Filter = 'all';
 
   $: unlockedSet = new Set(unlockedIds);
-  $: total = catalog.length;
-  $: unlockedCount = catalog.filter((a) => unlockedSet.has(a.id)).length;
+  $: shown = catalog ?? buildCatalog(unitsByLevel, { titles: unitTitles, held: unlockedIds });
+  $: total = shown.length;
+  $: unlockedCount = shown.filter((a) => unlockedSet.has(a.id)).length;
 
-  // En «Todos», los logros de maestría (uno por unidad) se juntan en UNA tarjeta
-  // por nivel con un anillo por unidad: sueltos repetían la lista de unidades que
-  // hay justo encima. Con la pastilla «Maestría» se ven sueltos, como siempre.
-  // evaluate() y el contador global no cambian: esto solo decide cómo se pinta.
+  // En «Todos», los logros por unidad se juntan en UNA tarjeta por nivel con un
+  // anillo por unidad: «Maestría · A1» (unidad completada) e «Impecable: A1»
+  // (unidad entera en verde). Sueltos repetían la lista de unidades que hay justo
+  // encima. Con la pastilla «Maestría» se ven sueltos, como siempre. evaluate() y
+  // el contador global no cambian: esto solo decide cómo se pinta.
+  type Group = 'mastery' | 'perfect';
   type Entry =
     | { kind: 'one'; key: string; a: Achievement; on: boolean }
-    | { kind: 'mastery'; key: string; level: string; items: Achievement[]; done: number; on: boolean };
+    | { kind: 'mastery'; key: string; group: Group; level: string; items: Achievement[]; done: number; on: boolean };
 
+  const groupOf = (a: Achievement): Group => (a.id.startsWith('perfect-unit-') ? 'perfect' : 'mastery');
   function levelOf(a: Achievement): string {
-    return a.id.replace(/^unit-complete-/, '').split('-')[0];
+    return a.id.replace(/^(unit-complete|perfect-unit)-/, '').split('-')[0];
   }
 
-  function entriesFor(filter: Filter, set: Set<string>): Entry[] {
+  function entriesFor(list: Achievement[], filter: Filter, set: Set<string>): Entry[] {
     if (filter !== 'all') {
-      return catalog
+      return list
         .filter((a) => a.category === filter)
         .map((a) => ({ kind: 'one', key: a.id, a, on: set.has(a.id) }));
     }
     const out: Entry[] = [];
     const groups = new Map<string, Extract<Entry, { kind: 'mastery' }>>();
-    for (const a of catalog) {
+    for (const a of list) {
       if (a.category !== 'mastery') {
         out.push({ kind: 'one', key: a.id, a, on: set.has(a.id) });
         continue;
       }
+      const group = groupOf(a);
       const level = levelOf(a);
-      let g = groups.get(level);
+      const key = `${group}-${level}`;
+      let g = groups.get(key);
       if (!g) {
-        // La tarjeta ocupa el sitio del primer logro de maestría del catálogo.
-        g = { kind: 'mastery', key: `mastery-${level}`, level, items: [], done: 0, on: false };
-        groups.set(level, g);
+        // La tarjeta ocupa el sitio del primer logro de su grupo en el catálogo.
+        g = { kind: 'mastery', key, group, level, items: [], done: 0, on: false };
+        groups.set(key, g);
         out.push(g);
       }
       g.items.push(a);
@@ -95,7 +104,7 @@
   // Mantén el orden: desbloqueados primero, luego bloqueados (estabilidad
   // visual conforme el usuario va consiguiéndolos). La tarjeta de maestría cuenta
   // como desbloqueada en cuanto hay una unidad dominada.
-  $: ordered = entriesFor(activeFilter, unlockedSet).sort((x, y) => (x.on ? 0 : 1) - (y.on ? 0 : 1));
+  $: ordered = entriesFor(shown, activeFilter, unlockedSet).sort((x, y) => (x.on ? 0 : 1) - (y.on ? 0 : 1));
 
   const FILTERS: Array<{ id: Filter; label: string }> = [
     { id: 'all',       label: 'ach.f.all' },
@@ -105,17 +114,15 @@
     { id: 'volume',    label: 'ach.f.volume' },
   ];
 
-  // clave i18n con caída al texto del catálogo (logros futuros sin traducir)
+  // Etiquetas de los filtros: clave i18n con caída al texto dado.
   function tr(key: string, fallback: string): string {
-    // Maestría: un logro por unidad con el título de la unidad en este idioma.
-    const m = key.match(/^ach\.unit-complete-(.+)\.(t|d)$/);
-    if (m) {
-      const titulo = unitTitles[m[1]];
-      if (titulo) return tf(loc, m[2] === 't' ? 'ach.mastery.t' : 'ach.mastery.d', titulo);
-    }
     const v = t(loc, key as StringKey);
     return v === key ? fallback : v;
   }
+  const titleOf = (a: Achievement) => achievementTitle(loc, a.id, unitTitles);
+  const descOf = (a: Achievement) => achievementDesc(loc, a.id, unitTitles);
+  const groupTitle = (e: Extract<Entry, { kind: 'mastery' }>) =>
+    e.group === 'perfect' ? tf(loc, 'ach.perfect.t', e.level.toUpperCase()) : `${t(loc, 'ach.f.mastery')} · ${e.level.toUpperCase()}`;
 
   function formatDate(iso: string): string {
     if (!iso) return '';
@@ -133,7 +140,7 @@
       const when = unlockedAt[a.id];
       return when ? t(loc, 'ach.unlocked').replace('{0}', formatDate(when)) : t(loc, 'ach.unlocked.short');
     }
-    return tr('ach.' + a.id + '.d', a.description);
+    return descOf(a);
   }
 </script>
 
@@ -172,9 +179,9 @@
             <span class="check" aria-hidden="true">✓</span>
           {/if}
           <h3 class="card-title">
-            <a class="mastery-link" href={`#progress-by-unit-${e.level}`} aria-describedby={`mastery-${e.level}-count`}>{t(loc, 'ach.f.mastery')} · {e.level.toUpperCase()}</a>
+            <a class="mastery-link" href={`#progress-by-unit-${e.level}`} aria-describedby={`${e.key}-count`}>{groupTitle(e)}</a>
           </h3>
-          <p class="card-desc" id={`mastery-${e.level}-count`}><strong>{e.done}</strong> {t(loc, 'ach.counter').replace('{0}', String(e.items.length))}</p>
+          <p class="card-desc" id={`${e.key}-count`}><strong>{e.done}</strong> {t(loc, 'ach.counter').replace('{0}', String(e.items.length))}</p>
           <span class="rings" aria-hidden="true">{#each e.items as a (a.id)}<span class="ls" data-state={unlockedSet.has(a.id) ? 'perfect' : undefined}></span>{/each}</span>
         </li>
       {:else}
@@ -189,8 +196,8 @@
           {#if e.on}
             <span class="check" aria-hidden="true">✓</span>
           {/if}
-          <h3 class="card-title">{tr('ach.' + a.id + '.t', a.title)}</h3>
-          <p class="card-desc">{tr('ach.' + a.id + '.d', a.description)}</p>
+          <h3 class="card-title">{titleOf(a)}</h3>
+          <p class="card-desc">{descOf(a)}</p>
           {#if e.on && unlockedAt[a.id]}
             <p class="card-date">{t(loc, 'ach.unlocked').replace('{0}', formatDate(unlockedAt[a.id]))}</p>
           {/if}
