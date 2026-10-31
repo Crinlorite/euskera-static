@@ -146,20 +146,24 @@
   });
 </script>
 
-<section class="by-unit" aria-labelledby={headingId}>
-  <!-- Envoltorio y cabecera dinámicos para no duplicar la lista: <details>/<summary>
-       si es plegable, <div>/<header> si no. `open` se sincroniza a mano (bind:open
-       solo vale en un <details> literal). -->
-  <svelte:element this={collapsible ? 'details' : 'div'} class="fold" class:plegable={collapsible}
+<section class="by-unit" class:plegable={collapsible} aria-labelledby={headingId}>
+  <!-- El encabezado va siempre fuera del <summary>: dentro, el lector de pantalla
+       lo lee como parte de un botón y pierde el rol de encabezado. -->
+  <header class="head">
+    {#if eyebrow}<span class="eyebrow">{t(loc, 'progress.byunit.eyebrow')}</span>{/if}
+    <h2 id={headingId} class="title display">{t(loc, 'progress.byunit.title')} · {levelCode.toUpperCase()}</h2>
+  </header>
+  <!-- Envoltorio dinámico para no duplicar la lista: <details> si es plegable,
+       <div> si no. `open` se sincroniza a mano (bind:open solo vale en un
+       <details> literal). -->
+  <svelte:element this={collapsible ? 'details' : 'div'} class="fold"
     open={collapsible && isOpen ? true : undefined} on:toggle={onToggle}>
-    <svelte:element this={collapsible ? 'summary' : 'header'} class="head">
-      {#if eyebrow}<span class="eyebrow">{t(loc, 'progress.byunit.eyebrow')}</span>{/if}
-      <h2 id={headingId} class="title display">{t(loc, 'progress.byunit.title')} · {levelCode.toUpperCase()}</h2>
-      {#if collapsible}
+    {#if collapsible}
+      <summary class="fold-sum">
         <span class="fold-hint">{t(loc, 'unit.eyebrow')}: {doneTotal}/{lessonTotal}</span>
         <svg class="fold-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
-      {/if}
-    </svelte:element>
+      </summary>
+    {/if}
 
     {#if computed.length === 0}
       <p class="empty">{t(loc, 'progress.units.empty')}</p>
@@ -223,15 +227,14 @@
 </section>
 
 <style>
-  .by-unit {
-    margin-block: var(--s-6);
-  }
-
+  /* Sin margen propio: el hueco entre secciones lo pone el grid de .progreso
+     (en un grid los márgenes no se funden con el gap, se suman). */
   .head {
     display: grid;
     gap: var(--s-2);
     margin-block-end: var(--s-5);
   }
+  .by-unit.plegable .head { margin-block-end: var(--s-1); }
   .eyebrow {
     font-family: var(--ff-sans);
     font-size: var(--t-eyebrow);
@@ -250,29 +253,35 @@
     margin: 0;
   }
 
-  /* Plegable (A2): la cabecera es el summary; «Lecciones: 0/49» y el chevrón en
-     la misma línea, bajo el título. Sin margen inferior mientras está cerrado. */
-  .fold.plegable > .head {
-    grid-template-columns: auto 1fr;
+  /* Plegable (A2): el summary es la línea «Lecciones: 0/49» con el chevrón, bajo
+     el título. Sin margen inferior mientras está cerrado. */
+  .fold-sum {
+    display: inline-flex;
     align-items: center;
-    column-gap: var(--s-2);
+    gap: var(--s-2);
+    min-block-size: 44px;
     list-style: none;
     cursor: pointer;
-    margin-block-end: 0;
   }
-  .fold.plegable > .head::-webkit-details-marker { display: none; }
-  .fold.plegable > .head > .eyebrow,
-  .fold.plegable > .head > .title { grid-column: 1 / -1; }
-  .fold.plegable > .head:hover .title { color: var(--c-red); }
-  .fold.plegable > .head:focus-visible {
+  .fold-sum::-webkit-details-marker { display: none; }
+  /* Plegado, la sección es solo título + summary: la zona de pulsación del
+     summary la cubre entera, así que pulsar el título también despliega (el
+     encabezado sigue fuera del summary para el lector de pantalla). Abierto, la
+     zona vuelve a ser solo la línea, para no tapar los enlaces de las unidades. */
+  .by-unit.plegable { position: relative; }
+  .fold:not([open]) > .fold-sum::before { content: ""; position: absolute; inset: 0; }
+  .fold-sum:hover .fold-hint,
+  .fold-sum:hover .fold-chev,
+  .by-unit.plegable:has(.fold:not([open]) > .fold-sum:hover) .title { color: var(--c-red); }
+  .fold-sum:focus-visible {
     outline: 2px solid var(--c-red);
     outline-offset: 4px;
     border-radius: var(--r-md);
   }
-  .fold.plegable[open] > .head { margin-block-end: var(--s-5); }
+  .fold[open] > .fold-sum { margin-block-end: var(--s-4); }
   .fold-hint { color: var(--c-text-muted); font-size: 0.92rem; font-variant-numeric: tabular-nums; }
-  .fold-chev { color: var(--c-text-muted); transition: transform var(--m-base) var(--ease-out); justify-self: start; }
-  .fold.plegable[open] .fold-chev { transform: rotate(180deg); }
+  .fold-chev { color: var(--c-text-muted); transition: transform var(--m-base) var(--ease-out); }
+  .fold[open] .fold-chev { transform: rotate(180deg); }
 
   .empty {
     color: var(--c-text-muted);
@@ -356,6 +365,12 @@
   .row.untouched .card:hover {
     opacity: 1;
   }
+  /* Completa: también compacta. La insignia (Completada / Todo bien) y los puntos
+     con ✓ ya lo dicen; meta, barra llena y «100%» lo repetían. */
+  .row.complete .meta,
+  .row.complete .bar,
+  .row.complete .pct { display: none; }
+  .row.complete .card { row-gap: 0; }
 
   .num {
     grid-area: num;
