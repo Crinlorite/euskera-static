@@ -1,19 +1,43 @@
 <script lang="ts" context="module">
+  import type { LessonState } from '../../lib/lesson-state';
+
+  // Los ejercicios de cada lección (para derivar su estado) no vienen en las
+  // props: se leen en cliente del índice embebido en la página (LessonIndexData).
+  // Solo hacen falta tras montar, y así no viajan dos veces.
+  export interface LessonInput {
+    id: string;
+    code: string;
+    title: string;
+  }
   export interface UnitInput {
     id: string;
     code: string;
     title: string;
     order: number;
-    lessonIds: string[];
+    lessons: LessonInput[];
+  }
+  export interface LessonDot {
+    id: string;
+    title: string;
+    href: string;
+    state: LessonState;
+    /** Etiqueta accesible del estado («Completada · 2 para repasar»…); vacía si no se ha empezado. */
+    label: string;
+    /** % de ejercicios intentados (relleno del anillo de «empezada»). */
+    pct: number;
   }
   export interface UnitProgress {
     id: string;
     code: string;
     title: string;
     order: number;
-    totalLessons: number;
-    completedLessons: number;
-    readLessons: number;
+    total: number;
+    /** Completadas, incluidas las entendidas. */
+    completed: number;
+    perfect: number;
+    /** Empezadas sin completar. */
+    read: number;
+    dots: LessonDot[];
   }
 </script>
 
@@ -21,7 +45,9 @@
   import { t, tf } from '../../i18n/ui';
   import type { LocaleCode } from '../../i18n/config';
   import { onMount } from 'svelte';
-  import { getProgress } from '../../stores/progress';
+  import { getProgress, PROGRESS_EVENT, type ProgressV1 } from '../../stores/progress';
+  import { attemptedPct, lessonState, stateLabel } from '../../lib/lesson-state';
+  import { readIndex, type LessonIndex } from '../../lib/lesson-index';
 
   export let units: UnitInput[] = [];
   export let levelCode: string = 'a1';
@@ -30,26 +56,56 @@
   export let headingId: string = 'progress-by-unit-heading';
   $: loc = locale as LocaleCode;
 
+  const labels = {
+    started: t(locale as LocaleCode, 'lesson.read'),
+    completed: t(locale as LocaleCode, 'progress.unit.done'),
+    perfect: t(locale as LocaleCode, 'lesson.state.perfect'),
+    toReview: t(locale as LocaleCode, 'lesson.toreview'),
+  };
+
   let mounted = false;
-  let computed: UnitProgress[] = units.map((u) => ({
-    id: u.id, code: u.code, title: u.title, order: u.order,
-    totalLessons: u.lessonIds.length,
-    completedLessons: 0,
-    readLessons: 0,
-  }));
+  let computed: UnitProgress[] = compute(null, {});
+
+  /** Estados por lección con `lessonState()`; sin progreso (SSR), todo «sin empezar». */
+  function compute(progress: ProgressV1 | null, index: LessonIndex): UnitProgress[] {
+    return units.map((u) => {
+      let completed = 0;
+      let perfect = 0;
+      let read = 0;
+      const dots = u.lessons.map((l): LessonDot => {
+        const s = lessonState(progress?.lessons[l.id], index[l.id]?.ex ?? [], index[l.id]?.g ?? []);
+        if (s.state === 'completed' || s.state === 'perfect') completed += 1;
+        if (s.state === 'perfect') perfect += 1;
+        if (s.state === 'started') read += 1;
+        return {
+          id: l.id,
+          title: l.title,
+          href: `/${locale}/${levelCode}/${u.code}/${l.code}/`,
+          state: s.state,
+          label: stateLabel(s, labels),
+          pct: attemptedPct(s),
+        };
+      });
+      return { id: u.id, code: u.code, title: u.title, order: u.order, total: u.lessons.length, completed, perfect, read, dots };
+    });
+  }
 
   function pct(u: UnitProgress): number {
-    if (u.totalLessons <= 0) return 0;
-    const raw = (u.completedLessons / u.totalLessons) * 100;
+    if (u.total <= 0) return 0;
+    const raw = (u.completed / u.total) * 100;
     return Math.max(0, Math.min(100, Math.round(raw)));
   }
 
   function isComplete(u: UnitProgress): boolean {
-    return u.totalLessons > 0 && u.completedLessons >= u.totalLessons;
+    return u.total > 0 && u.completed >= u.total;
+  }
+
+  function isAllPerfect(u: UnitProgress): boolean {
+    return u.total > 0 && u.perfect >= u.total;
   }
 
   function isUntouched(u: UnitProgress): boolean {
-    return u.completedLessons === 0 && u.readLessons === 0;
+    return u.completed === 0 && u.read === 0;
   }
 
   function formatOrder(n: number): string {
@@ -57,28 +113,16 @@
   }
 
   onMount(() => {
-    // Lee localStorage y calcula completedLessons/readLessons por unidad.
-    const progress = getProgress();
-    computed = units.map((u) => {
-      let completed = 0;
-      let read = 0;
-      for (const lid of u.lessonIds) {
-        const lp = progress.lessons[lid];
-        if (!lp) continue;
-        if (lp.status === 'completed') completed += 1;
-        else if (lp.status === 'read') read += 1;
-      }
-      return {
-        id: u.id, code: u.code, title: u.title, order: u.order,
-        totalLessons: u.lessonIds.length,
-        completedLessons: completed,
-        readLessons: read,
-      };
-    });
+    const index = readIndex();
+    const refresh = () => { computed = compute(getProgress(), index); };
+    refresh();
     // Trigger one repaint so the bars animate from 0 to their target width.
     requestAnimationFrame(() => {
       mounted = true;
     });
+    // Importar un código (o cualquier otro guardado) repinta sin recargar.
+    window.addEventListener(PROGRESS_EVENT, refresh);
+    return () => window.removeEventListener(PROGRESS_EVENT, refresh);
   });
 </script>
 
@@ -97,22 +141,33 @@
           {@const percentage = pct(u)}
           {@const complete = isComplete(u)}
           {@const untouched = isUntouched(u)}
+          {@const allperfect = isAllPerfect(u)}
           {@const fillWidth = mounted ? percentage : 0}
-          <li class="row" class:complete class:untouched>
-            <a class="card" href={`/${locale}/${levelCode}/${u.code}/`}>
+          <li class="row" class:complete class:untouched class:allperfect>
+            <!-- La tarjeta ya no es un <a> porque contiene los enlaces de cada
+                 lección; el enlace de la unidad la cubre entera por debajo. -->
+            <div class="card">
               <span class="num display" aria-hidden="true">{formatOrder(u.order)}</span>
 
               <div class="body">
                 <h3 class="title-row">
-                  <span class="title-text">{u.title}</span>
-                  {#if complete}
-                    <span class="check" aria-hidden="true">✓</span>
+                  <a class="unit-link" href={`/${locale}/${levelCode}/${u.code}/`}>{u.title}</a>
+                  {#if allperfect}
+                    <span class="ls" data-state="perfect" aria-hidden="true"></span>
+                    <span class="badge green">{t(loc, 'lesson.state.perfect')}</span>
+                  {:else if complete}
+                    <span class="ls" data-state="completed" aria-hidden="true"></span>
                     <span class="badge">{t(loc, 'progress.unit.done')}</span>
                   {/if}
                 </h3>
                 <p class="meta">
-                  {t(loc, 'unit.eyebrow')}: {u.completedLessons}/{u.totalLessons}
+                  {t(loc, 'unit.eyebrow')}: {u.completed}/{u.total}{#if u.perfect} · {t(loc, 'lesson.state.perfect')}: {u.perfect}{/if}
                 </p>
+                <ol class="dots" aria-label={t(loc, 'unit.eyebrow')}>
+                  {#each u.dots as d (d.id)}
+                    <li><a class="ls dot" data-state={d.state} style={d.state === 'started' ? `--ls-p: ${d.pct}%` : undefined} href={d.href} title={d.label ? `${d.title} · ${d.label}` : d.title} aria-label={d.label ? `${d.title} · ${d.label}` : d.title}></a></li>
+                  {/each}
+                </ol>
               </div>
 
               <div
@@ -127,7 +182,7 @@
               </div>
 
               <span class="pct" aria-hidden="true">{percentage}%</span>
-            </a>
+            </div>
           </li>
         {/each}
       </ul>
@@ -207,9 +262,25 @@
     box-shadow: var(--sh-card-hover);
     border-color: var(--c-red);
   }
-  .card:focus-visible {
+  /* El enlace de la unidad se estira sobre toda la tarjeta (sigue siendo
+     clicable entera); los puntos de lección quedan por encima. */
+  .unit-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .unit-link::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    z-index: 0;
+  }
+  .card:hover .unit-link { color: var(--c-red); }
+  .unit-link:focus-visible { outline: none; }
+  .unit-link:focus-visible::after {
     outline: 2px solid var(--c-red);
     outline-offset: 2px;
+    border-radius: var(--r-lg);
   }
 
   .row.untouched .card {
@@ -252,23 +323,7 @@
     letter-spacing: -0.005em;
     line-height: 1.25;
   }
-  .title-text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  .check {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    inline-size: 1.25rem;
-    block-size: 1.25rem;
-    border-radius: 50%;
-    background: var(--c-green);
-    color: #fff;
-    font-size: 0.75rem;
-    font-weight: 700;
-    line-height: 1;
-  }
+  /* «Completada» es neutro; el verde se reserva a «Todo bien». */
   .badge {
     font-size: 0.7rem;
     font-weight: 600;
@@ -276,14 +331,38 @@
     text-transform: uppercase;
     padding: 2px 10px;
     border-radius: var(--r-pill);
-    background: var(--c-green-soft);
-    color: var(--c-green-strong);
+    background: var(--c-bg-muted);
+    color: var(--c-text-muted);
+  }
+  .badge.green {
+    background: var(--c-green);
+    color: #fff;
   }
   .meta {
     margin: 0;
     color: var(--c-text-muted);
     font-size: 0.88rem;
   }
+  .dots {
+    display: flex;
+    gap: var(--s-2);
+    flex-wrap: wrap;
+    margin: var(--s-2) 0 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    z-index: 1;
+  }
+  .dots li { display: flex; }
+  .dot {
+    inline-size: 1.25rem;
+    block-size: 1.25rem;
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: transform var(--m-fast) var(--ease-out);
+  }
+  .dot:hover { transform: scale(1.15); }
+  .dot:focus-visible { outline: 2px solid var(--c-red); outline-offset: 2px; }
 
   .bar {
     inline-size: clamp(180px, 30vw, 360px);
@@ -302,6 +381,9 @@
     transition: inline-size var(--m-graceful) var(--ease-out);
   }
   .row.complete .fill {
+    background: var(--c-text-dim);
+  }
+  .row.allperfect .fill {
     background: var(--c-green);
   }
 
@@ -314,7 +396,7 @@
     text-align: end;
     font-variant-numeric: tabular-nums;
   }
-  .row.complete .pct {
+  .row.allperfect .pct {
     color: var(--c-green-strong);
   }
   .row.untouched .pct {
@@ -345,5 +427,7 @@
     .fill { transition: none; }
     .card { transition: none; }
     .card:hover { transform: none; }
+    .dot { transition: none; }
+    .dot:hover { transform: none; }
   }
 </style>

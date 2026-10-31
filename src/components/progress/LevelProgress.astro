@@ -1,0 +1,104 @@
+---
+// Barra de progreso del nivel: «N/M lecciones · Todo bien: K». Se pinta en
+// cliente con el mismo cálculo que la barra lateral. Es un componente Astro con
+// un script, no una isla: el índice va como JSON (LessonIndexData), que ocupa
+// menos de la mitad que las mismas props serializadas para hidratar.
+import { t } from '../../i18n/ui';
+import type { LocaleCode } from '../../i18n/config';
+import type { LessonIndex } from '../../lib/lesson-index';
+import LessonIndexData from './LessonIndexData.astro';
+
+interface Props {
+  locale: LocaleCode;
+  /** Lecciones del nivel. */
+  index: LessonIndex;
+}
+const { locale, index } = Astro.props;
+const total = Object.keys(index).length;
+---
+{total > 0 && (
+  <div class="level-progress" data-level-progress hidden
+    data-l-lessons={t(locale, 'unit.lessons').toLowerCase()} data-l-perfect={t(locale, 'lesson.state.perfect')}>
+    <div class="lp-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label={t(locale, 'unit.eyebrow')}><span class="lp-fill"></span></div>
+    <p class="lp-text"></p>
+    <LessonIndexData index={index} />
+  </div>
+)}
+
+<script>
+  import { countStates } from '../../lib/lesson-state';
+  import { readIndex, type LessonIndex } from '../../lib/lesson-index';
+
+  // El índice se lee una vez por elemento (con ClientRouter cada página trae el suyo).
+  const parsed = new WeakMap<HTMLElement, LessonIndex>();
+  function indexOf(root: HTMLElement): LessonIndex {
+    let index = parsed.get(root);
+    if (!index) {
+      index = readIndex(root);
+      parsed.set(root, index);
+    }
+    return index;
+  }
+
+  function paint() {
+    const roots = document.querySelectorAll<HTMLElement>('[data-level-progress]');
+    if (!roots.length) return;
+    import('../../stores/progress').then(({ getProgress }) => {
+      const p = getProgress();
+      roots.forEach((root) => {
+        const c = countStates(p.lessons, indexOf(root));
+        if (!c.total) return;
+        const pct = Math.round((c.completed / c.total) * 100);
+        const text = `${c.completed}/${c.total} ${root.dataset.lLessons ?? ''}${c.perfect ? ` · ${root.dataset.lPerfect ?? ''}: ${c.perfect}` : ''}`;
+        const bar = root.querySelector<HTMLElement>('.lp-bar');
+        bar?.setAttribute('aria-valuenow', String(pct));
+        bar?.setAttribute('aria-valuetext', text);
+        root.querySelector<HTMLElement>('.lp-fill')?.style.setProperty('inline-size', `${pct}%`);
+        root.classList.toggle('complete', c.completed === c.total);
+        root.classList.toggle('allperfect', c.perfect === c.total);
+        const textEl = root.querySelector<HTMLElement>('.lp-text');
+        if (textEl) textEl.textContent = text;
+        root.hidden = false;
+      });
+    }).catch(() => { /* sin store: la barra se queda oculta */ });
+  }
+
+  paint();
+  document.addEventListener('astro:page-load', paint);
+  window.addEventListener('kaixo:progress', paint);
+</script>
+
+<style>
+  .level-progress {
+    display: grid;
+    gap: var(--s-2);
+    max-inline-size: 56ch;
+    margin-block-start: var(--s-5);
+  }
+  .level-progress[hidden] { display: none; }
+  .lp-bar {
+    block-size: 8px;
+    background: var(--c-bg-muted);
+    border-radius: var(--r-pill);
+    overflow: hidden;
+  }
+  .lp-fill {
+    display: block;
+    block-size: 100%;
+    inline-size: 0;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--c-red), var(--c-green));
+    transition: inline-size var(--m-graceful) var(--ease-out);
+  }
+  .level-progress.complete .lp-fill { background: var(--c-text-dim); }
+  .level-progress.allperfect .lp-fill { background: var(--c-green); }
+  .lp-text {
+    margin: 0;
+    color: var(--c-text-muted);
+    font-size: 0.92rem;
+    font-variant-numeric: tabular-nums;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lp-fill { transition: none; }
+  }
+</style>

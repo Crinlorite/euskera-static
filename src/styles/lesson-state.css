@@ -1,0 +1,23 @@
+/* Indicador de estado de lección (global): anillo vacío = sin empezar; anillo que
+   se rellena con el % de ejercicios intentados = empezada; círculo neutro con ✓ =
+   completada; círculo verde con ✓ = todo bien. Simétrico: vale igual en RTL.
+   Lo importa RootLayout (hoja común), no cada componente. */
+.ls {
+  --ls-p: 0%;
+  inline-size: 1.15em;
+  block-size: 1.15em;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 2px solid var(--c-text-dim);
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  font-size: 0.85em;
+  line-height: 1;
+  color: transparent;
+}
+.ls[data-state="started"] { background: conic-gradient(var(--c-text-dim) var(--ls-p), transparent 0); }
+.ls[data-state="completed"] { background: var(--c-text-dim); border-color: var(--c-text-dim); color: var(--c-bg); }
+.ls[data-state="perfect"] { background: var(--c-green); border-color: var(--c-green); color: #fff; }
+.ls[data-state="completed"]::after,
+.ls[data-state="perfect"]::after { content: '✓'; font-weight: 700; }

@@ -8,11 +8,18 @@
   import { t } from '../../i18n/ui';
   import { shareProgress, canRequestReview, canCloudSync, isCloudSyncEnabled, setCloudSync, nativePlatform } from '../../lib/platform';
   import { URL_VALORAR_ANDROID } from '../../lib/migrar.mjs';
+  import { countStates } from '../../lib/lesson-state';
+  import { readIndex, type LessonIndex } from '../../lib/lesson-index';
   import type { LocaleCode } from '../../i18n/config';
 
   export let locale: LocaleCode;
 
   let progress: ProgressV1 | null = null;
+  // Lecciones de los niveles abiertos del idioma: el índice embebido en la página
+  // (LessonIndexData). Solo cuentan las que existen aquí, con el mismo cálculo
+  // que la barra lateral (antes se contaba cualquier clave guardada como «empezada»).
+  let index: LessonIndex = {};
+  $: counts = progress ? countStates(progress.lessons, index) : null;
   let exportedHash = '';
   let importValue = '';
   let banner = '';
@@ -40,6 +47,7 @@
     if (!isStorageAvailable()) {
       banner = t(locale, 'guest.banner');
     }
+    index = readIndex();
     progress = getProgress();
     exportedHash = await exportHash(progress);
   });
@@ -116,11 +124,15 @@
   <div class="banner" role="status">{banner}</div>
 {/if}
 
-{#if progress}
+{#if progress && counts}
   <section class="summary">
     <div class="card">
-      <strong>{Object.keys(progress.lessons).length}</strong>
-      <span>{t(locale, 'progress.summary.lessons')}</span>
+      <strong>{counts.completed}</strong>
+      <span>{t(locale, 'progress.summary.completed')}</span>
+    </div>
+    <div class="card">
+      <strong>{counts.perfect}</strong>
+      <span>{t(locale, 'lesson.state.perfect')}</span>
     </div>
     <div class="card">
       <strong>{progress.streak.current}</strong>

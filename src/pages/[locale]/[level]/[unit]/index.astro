@@ -59,7 +59,7 @@ const hayNivel = await existeRuta(`${levelCode}/`, locale);
       </div>
       <p class="unit-desc">{unit.data.description}</p>
       <p class="unit-meta">
-        {lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min
+        {lessons.length} {t(locale, 'unit.lessons').toLowerCase()} · ~{unit.data.estimatedMinutes} min<span data-unit-summary hidden></span>
       </p>
     </header>
 

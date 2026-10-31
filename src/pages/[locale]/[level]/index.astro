@@ -3,6 +3,8 @@ import { getCollection } from 'astro:content';
 import RootLayout from '../../../layouts/RootLayout.astro';
 import { ACTIVE_LOCALES, type LocaleCode } from '../../../i18n/config';
 import { t, tf } from '../../../i18n/ui';
+import LevelProgress from '../../../components/progress/LevelProgress.astro';
+import { indexLessons } from '../../../lib/lesson-index';
 
 import { ajusta, minimoDescripcion } from '../../../lib/seo-texto.mjs';
 import { LOCKED_PATHS } from '../../../lib/locked.mjs';
@@ -30,6 +32,10 @@ for (const u of units) {
   const count = allLessons.filter((l) => l.id.startsWith(`${locale}/${levelSlug}/${u.data.code}/`)).length;
   lessonsByUnit.set(u.data.code, count);
 }
+// Lecciones de las unidades del nivel, para la barra de progreso de la cabecera.
+const levelIndex = indexLessons(
+  allLessons.filter((l) => units.some((u) => l.id.startsWith(`${locale}/${levelSlug}/${u.data.code}/`))),
+);
 
 // Teasers del simulakro y el gimnasio (03-ago-2026: abiertos a los 18 idiomas).
 // Copy de página: vive aquí, no en ui.ts.
@@ -90,6 +96,7 @@ const descripcion = ajusta(level.data.description, t(locale, 'site.tagline'), mi
         <span class="text-grad level-subtitle">{level.data.name.split(' ').slice(1).join(' ') || 'Maila'}</span>
       </h1>
       <p class="level-desc">{level.data.description}</p>
+      <LevelProgress locale={locale} index={levelIndex} />
     </header>
 
     <section class="units-section">
