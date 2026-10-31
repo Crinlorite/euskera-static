@@ -101,7 +101,7 @@ const activo = activeNavHref(here, navItems.map((i) => i.href));
         ))}
       </ul>
     </details>
-    <MobileDrawer client:load locale={locale} {conA2} current={here} />
+    <MobileDrawer client:load locale={locale} {conA2} current={here} langHref={langHref} langName={langName} />
   </div>
 </header>
 
