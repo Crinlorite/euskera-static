@@ -1,0 +1,12 @@
+---
+// Índice de lecciones embebido como JSON (lo leen en cliente LevelProgress,
+// ProgressDashboard y ProgressByUnit con `readIndex()`).
+// El atributo debe coincidir con INDEX_ATTR.
+import { serializeIndex, type LessonIndex } from '../../lib/lesson-index';
+
+interface Props {
+  index: LessonIndex;
+}
+const { index } = Astro.props;
+---
+<script is:inline type="application/json" data-lesson-index set:html={serializeIndex(index)}></script>

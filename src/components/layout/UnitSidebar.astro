@@ -1,24 +1,33 @@
 ---
 import { t } from '../../i18n/ui';
 import type { LocaleCode } from '../../i18n/config';
+import { GRADED_TYPES } from '../../lib/lesson-state';
 
+type SidebarLesson = { data: { code: string; id: string; title: string; exercises: Array<{ id: string; type: string }> } };
 interface Props {
   locale: LocaleCode;
   levelCode: string;
   unitCode: string;
   // Shape mínimo (solo lo que se usa). Evita el union de 1.000+ ids literales
   // de CollectionEntry<'lessons'>, que hace explotar el type-check.
-  lessons: Array<{ data: { code: string; id: string; title: string } }>;
+  lessons: SidebarLesson[];
   currentLessonCode?: string;
 }
 const { locale, levelCode, unitCode, lessons, currentLessonCode } = Astro.props;
+// Ejercicios actuales y corregibles de cada lección, para que el script derive
+// el estado sin cargar el contenido. Se unen aquí (no en el marcado) para que
+// compressHTML no meta espacios.
+const ids = (l: SidebarLesson) => l.data.exercises.map((e) => e.id).join(',');
+const graded = (l: SidebarLesson) => l.data.exercises.filter((e) => GRADED_TYPES.has(e.type)).map((e) => e.id).join(',');
 ---
-<aside class="unit-sidebar" aria-label={t(locale, 'a11y.unit.lessons')}>
+<aside class="unit-sidebar" aria-label={t(locale, 'a11y.unit.lessons')}
+  data-l-started={t(locale, 'lesson.read')} data-l-completed={t(locale, 'progress.unit.done')}
+  data-l-perfect={t(locale, 'lesson.state.perfect')} data-l-toreview={t(locale, 'lesson.toreview')}>
   <ol>
     {lessons.map((l) => (
       <li class={l.data.code === currentLessonCode ? 'active' : ''}>
         <a href={`/${locale}/${levelCode}/${unitCode}/${l.data.code}/`}>
-          <span class="check" data-lesson-id={l.data.id} aria-hidden="true">○</span>
+          <span class="check ls" data-lesson-id={l.data.id} data-ex={ids(l)} data-graded={graded(l)} data-state="untouched" aria-hidden="true"></span>
           <span class="title">{l.data.title}</span>
         </a>
       </li>
@@ -27,18 +36,58 @@ const { locale, levelCode, unitCode, lessons, currentLessonCode } = Astro.props;
 </aside>
 
 <script>
-  // After hydration, mark completed lessons with a green check.
-  // Reads from the progress store written by exercises in the lesson pages.
-  import('../../stores/progress').then(({ getProgress }) => {
-    const p = getProgress();
-    document.querySelectorAll<HTMLElement>('[data-lesson-id]').forEach((el) => {
-      const id = el.getAttribute('data-lesson-id');
-      if (id && p.lessons[id]?.status === 'completed') {
-        el.textContent = '✓';
-        el.classList.add('done');
-      }
-    });
-  }).catch(() => { /* progress store not yet available */ });
+  // Pinta el estado de cada lección (sin empezar / empezada / completada / todo
+  // bien) con el mismo cálculo que la tarjeta de cierre. Se repinta al navegar
+  // con ClientRouter y cada vez que cambia el progreso (`kaixo:progress`), así
+  // la barra pasa a verde en cuanto se acierta el último ejercicio fallado.
+  // El store se carga bajo demanda: en el índice de unidad no hace falta antes.
+  import { attemptedPct, lessonState, stateLabel } from '../../lib/lesson-state';
+
+  function paint() {
+    // Con ClientRouter los oyentes siguen vivos en páginas sin barra lateral.
+    const asides = document.querySelectorAll<HTMLElement>('.unit-sidebar');
+    if (!asides.length) return;
+    import('../../stores/progress').then(({ getProgress }) => {
+      const p = getProgress();
+      asides.forEach((aside) => {
+        const L = aside.dataset;
+        const labels = { started: L.lStarted ?? '', completed: L.lCompleted ?? '', perfect: L.lPerfect ?? '', toReview: L.lToreview ?? '' };
+        let total = 0, completed = 0, perfect = 0;
+        aside.querySelectorAll<HTMLElement>('[data-lesson-id]').forEach((el) => {
+          const ex = (el.dataset.ex ?? '').split(',').filter(Boolean);
+          const g = (el.dataset.graded ?? '').split(',').filter(Boolean);
+          const s = lessonState(p.lessons[el.dataset.lessonId ?? ''], ex, g);
+          el.dataset.state = s.state;
+          el.style.setProperty('--ls-p', `${attemptedPct(s)}%`);
+          const a = el.closest('a');
+          const label = stateLabel(s, labels);
+          if (a) {
+            if (label) {
+              const title = a.querySelector('.title')?.textContent?.trim() ?? '';
+              a.setAttribute('aria-label', `${title} · ${label}`);
+              a.title = label;
+            } else {
+              a.removeAttribute('aria-label');
+              a.removeAttribute('title');
+            }
+          }
+          total++;
+          if (s.state === 'completed' || s.state === 'perfect') completed++;
+          if (s.state === 'perfect') perfect++;
+        });
+        // Resumen en la cabecera del índice de unidad (si la página lo tiene).
+        const sum = document.querySelector<HTMLElement>('[data-unit-summary]');
+        if (sum) {
+          sum.textContent = ` · ${completed}/${total}${perfect ? ` · ${labels.perfect}: ${perfect}` : ''}`;
+          sum.hidden = false;
+        }
+      });
+    }).catch(() => { /* sin store (o sin almacenamiento): se queda todo «sin empezar» */ });
+  }
+
+  paint();
+  document.addEventListener('astro:page-load', paint);
+  window.addEventListener('kaixo:progress', paint);
 </script>
 
 <style>
@@ -64,10 +113,6 @@ const { locale, levelCode, unitCode, lessons, currentLessonCode } = Astro.props;
     background: var(--c-red-soft);
     border-inline-start-color: var(--c-red);
   }
-  .check {
-    inline-size: 1.5em;
-    text-align: center;
-    color: var(--c-text-dim);
-  }
-  .check.done { color: var(--c-green); }
+  /* El aspecto lo da .ls (lesson-state.css); aquí solo la alineación. */
+  .check { align-self: center; }
 </style>

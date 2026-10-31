@@ -2,6 +2,10 @@
 import '../styles/tokens.css';
 import '../styles/base.css';
 import '../styles/transitions.css';
+// Indicador de estado de lección (barra lateral, tarjeta de cierre, progreso).
+// Global y no importado por cada componente: así va en la hoja común cacheada
+// en vez de repetirse en línea en el HTML de cada lección.
+import '../styles/lesson-state.css';
 import { ClientRouter } from 'astro:transitions';
 import { LANGUAGES, DEFAULT_LOCALE, type LocaleCode } from '../i18n/config';
 import { alternativasDe } from '../lib/alternates';
