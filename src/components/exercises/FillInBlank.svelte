@@ -1,6 +1,6 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
-  import { normalize } from './types';
+  import { splitGap, isFillCorrect } from '../../lib/fill-answer';
   import { t } from '../../i18n/ui';
   import type { LocaleCode } from '../../i18n/config';
 
@@ -16,19 +16,16 @@
   let result: 'pending' | 'correct' | 'wrong' = 'pending';
   const dispatch = createEventDispatcher<{ result: { exerciseId: string; score: number; finished: boolean } }>();
 
-  // Un "hueco" es una racha de 3+ guiones bajos; rachas consecutivas separadas
-  // solo por espacios forman UN único hueco multi-palabra ("___ ___" = respuesta
-  // de dos palabras). El texto posterior al hueco se conserva siempre íntegro.
-  const GAP_RE = /_{3,}(?:[ \t]+_{3,})*/;
-  $: gapMatch = GAP_RE.exec(prompt);
-  $: before = gapMatch ? prompt.slice(0, gapMatch.index) : prompt;
-  $: after = gapMatch ? prompt.slice(gapMatch.index + gapMatch[0].length) : '';
-  $: wordHint = gapMatch ? gapMatch[0].split(/[ \t]+/).map(() => '___').join(' ') : '___';
+  // Hueco, texto de antes y de después (el posterior se conserva íntegro).
+  // "___ ___" es un único hueco de dos palabras. Ver lib/fill-answer.ts.
+  $: parts = splitGap(prompt);
+  $: before = parts.before;
+  $: after = parts.after;
+  $: wordHint = parts.gap ? parts.gap.split(/[ \t]+/).map(() => '___').join(' ') : '___';
 
   function check() {
     if (result !== 'pending') return;
-    const v = normalize(value).replace(/\s+/g, ' ');
-    const ok = answers.some((a) => normalize(a).replace(/\s+/g, ' ') === v);
+    const ok = isFillCorrect(value, answers, before, after);
     result = ok ? 'correct' : 'wrong';
     dispatch('result', { exerciseId: id, score: ok ? 100 : 0, finished: true });
   }
