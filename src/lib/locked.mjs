@@ -42,7 +42,19 @@ export function esPersonal(pathname) {
   return PERSONAL_PATHS.includes(pathname.replace(/^\/+/, '').split('/')[1]);
 }
 
+/**
+ * Paginas legales que llevan el nombre del titular (los terminos del servicio):
+ * se enlazan desde las tiendas y el pie, pero no se ofrecen a los buscadores.
+ * Llevan prefijo de idioma.
+ */
+export const LEGAL_PATHS = ['terminos'];
+
+/** ¿Es una pagina legal fuera de buscadores? (/<idioma>/terminos/) */
+export function esLegal(pathname) {
+  return LEGAL_PATHS.includes(pathname.replace(/^\/+/, '').split('/')[1]);
+}
+
 /** Lo que no debe indexarse ni anunciarse, por un motivo o por otro. */
 export function fueraDeBuscadores(pathname) {
-  return estaBloqueada(pathname) || esDeServicio(pathname) || esPersonal(pathname);
+  return estaBloqueada(pathname) || esDeServicio(pathname) || esPersonal(pathname) || esLegal(pathname);
 }

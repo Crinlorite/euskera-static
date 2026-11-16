@@ -21,7 +21,7 @@ import { join, relative } from 'node:path';
 // El minimo sale del mismo sitio que lo usan las paginas: una copia aqui se
 // desincronizaria en cuanto alguien anadiese un idioma sin espacios.
 import { minimoDescripcion } from '../src/lib/seo-texto.mjs';
-import { estaBloqueada, esDeServicio, esPersonal } from '../src/lib/locked.mjs';
+import { estaBloqueada, esDeServicio, esPersonal, esLegal } from '../src/lib/locked.mjs';
 import { seMuestraEn } from '../src/lib/mas-apps.mjs';
 
 const SITIO = 'https://euskera.crintech.pro';
@@ -177,7 +177,9 @@ for (const f of paginas) {
   if (servicio && !tieneNoindex) falla('N1', `${rel} es una pagina de servicio y NO lleva noindex`);
   const personal = esPersonal(rel);
   if (personal && !tieneNoindex) falla('N1', `${rel} es una pagina personal y NO lleva noindex`);
-  if (!bloqueada && !servicio && !personal && tieneNoindex) falla('N1', `${rel} lleva noindex y no deberia`);
+  const legal = esLegal(rel);
+  if (legal && !tieneNoindex) falla('N1', `${rel} es una pagina legal y NO lleva noindex`);
+  if (!bloqueada && !servicio && !personal && !legal && tieneNoindex) falla('N1', `${rel} lleva noindex y no deberia`);
 
   // V1/V2: el Hiztegia esta en beta y se indexa desde el dia uno, asi que
   // ninguna de sus paginas puede ser un cascaron: entrada sin traduccion o tema

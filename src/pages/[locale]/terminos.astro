@@ -1,0 +1,120 @@
+---
+import RootLayout from '../../layouts/RootLayout.astro';
+import type { LocaleCode } from '../../i18n/config';
+import { IDIOMAS_TERMINOS } from '../../lib/terminos.mjs';
+
+// Términos del servicio (idiomas en lib/terminos.mjs). Sin datos fiscales ni
+// dirección: esos van en el aviso legal de crintech.pro. Fuera de buscadores
+// (LEGAL_PATHS en lib/locked.mjs).
+
+export function getStaticPaths() {
+  return IDIOMAS_TERMINOS.map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params as { locale: LocaleCode & (typeof IDIOMAS_TERMINOS)[number] };
+
+const CORREO = '<a href="mailto:kaixo@crintech.pro">kaixo@crintech.pro</a>';
+const REPO = 'https://github.com/Crinlorite/euskera-static';
+
+const TEXTOS = {
+  es: {
+    title: 'Términos del servicio',
+    updated: 'Última actualización: 16 de noviembre de 2026',
+    description: 'Términos del servicio de Kaixo, el curso gratuito para aprender euskera: uso, licencias, responsabilidad y contacto.',
+    intro: `Estos términos regulan el uso de Kaixo, el curso gratuito para aprender euskera que puedes usar en la web euskera.crintech.pro y en sus apps de la App Store y de Google Play. Kaixo es un producto de Crintech Studios, nombre comercial de Cristobal Ruiz Lorite (datos completos en el <a href="https://crintech.pro/aviso-legal/" rel="noopener">aviso legal de crintech.pro</a>). Al usar Kaixo aceptas estos términos.`,
+    secciones: [
+      ['1. Qué es Kaixo', [
+        'Kaixo es un curso para aprender euskera desde cero: lecciones de los niveles A1 y A2 con ejercicios y audio, repaso, un simulacro de examen y práctica oral de A1, y un diccionario. Se puede seguir desde 21 idiomas. Los marcados como «beta» son versiones nuevas que todavía estamos puliendo.',
+      ]],
+      ['2. Gratis, sin cuentas y sin anuncios', [
+        'Kaixo es gratis: no tiene compras, suscripciones ni anuncios. No hace falta cuenta ni registro. Tu progreso se guarda solo en tu dispositivo. Puedes copiarlo con «Guardar mi progreso» para llevarlo a otro dispositivo, y en la app para iPhone puedes activar una copia en tu propia cuenta de iCloud. Si borras los datos del navegador o desinstalas la app sin haberlo guardado, ese progreso se pierde y nosotros no podemos recuperarlo.',
+      ]],
+      ['3. Contenido', [
+        'El contenido de Kaixo es material para aprender. Lo revisamos y lo mejoramos de forma continua, pero puede contener algún error. Kaixo no es un curso oficial: no expide títulos ni certificados. Los resultados de los ejercicios y del simulacro sirven para orientarte, pero no acreditan ningún nivel. Si encuentras un error, cuéntanoslo desde la página de <a href="/es/feedback/">Feedback</a> o en ' + CORREO + '.',
+      ]],
+      ['4. Uso permitido y licencias', [
+        `Puedes usar Kaixo para aprender o para enseñar, por tu cuenta o en clase. Las lecciones, los ejercicios y el resto del material educativo escrito se publican con licencia Creative Commons Reconocimiento-CompartirIgual 4.0 (CC BY-SA 4.0), y el código, con licencia MIT. Los textos completos de las licencias están en el <a href="${REPO}" rel="noopener">repositorio público de Kaixo en GitHub</a>. Puedes reutilizar ese material según esas licencias: citando a Kaixo y compartiendo lo que hagas con la misma licencia. Las licencias no incluyen el nombre ni el logotipo de Kaixo ni de Crintech Studios. No está permitido usar Kaixo de forma que perjudique el servicio, por ejemplo saturándolo con peticiones automáticas.`,
+      ]],
+      ['5. Lo que nos envías', [
+        'Si nos escribes desde la página de Feedback o por correo, usaremos lo que nos cuentes para gestionar tu mensaje, contestarte si nos dejas un contacto y mejorar Kaixo. Los detalles están en la <a href="/es/privacidad/">política de privacidad</a>.',
+      ]],
+      ['6. Funcionamiento y responsabilidad', [
+        'Hacemos lo posible para que Kaixo funcione bien y esté disponible, pero puede tener fallos o interrupciones, y podemos cambiar, ampliar o retirar partes del curso. Respondemos de los daños que te causemos por incumplir estos términos o la ley. No respondemos de lo que no depende de nosotros, como los fallos de tu dispositivo o de tu conexión, o los servicios de la App Store y de Google Play. Nada de esto limita los derechos que la ley reconoce a los consumidores.',
+      ]],
+      ['7. Tiendas de aplicaciones', [
+        'Si descargas Kaixo desde la App Store, además de estos términos se aplica el <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">contrato de licencia de usuario final estándar de Apple</a>. Si la descargas desde Google Play, se aplican también las <a href="https://play.google.com/about/play-terms/" rel="noopener">condiciones de servicio de Google Play</a>.',
+      ]],
+      ['8. Cambios', [
+        'Podemos actualizar estos términos cuando cambie Kaixo, la ley o las normas de las tiendas. Publicaremos la versión nueva en esta página, con su fecha.',
+      ]],
+      ['9. Legislación aplicable', [
+        'Estos términos se rigen por la legislación española. Si eres consumidor y vives en otro país de la Unión Europea, conservas además la protección de las normas imperativas de tu país. Para cualquier conflicto puedes acudir a los juzgados y tribunales de tu domicilio.',
+      ]],
+      ['10. Contacto', [
+        'Para cualquier duda o reclamación, escríbenos a ' + CORREO + '. Los datos completos del titular están en el <a href="https://crintech.pro/aviso-legal/" rel="noopener">aviso legal de crintech.pro</a>.',
+      ]],
+    ],
+  },
+  en: {
+    title: 'Terms of Service',
+    updated: 'Last updated: 16 November 2026',
+    description: 'Terms of Service for Kaixo, the free course for learning Basque: use, licences, liability and contact.',
+    intro: `These terms govern the use of Kaixo, the free course for learning Basque that you can use on the website euskera.crintech.pro and in its apps on the App Store and Google Play. Kaixo is a product of Crintech Studios, the trade name of Cristobal Ruiz Lorite (full details in the <a href="https://crintech.pro/en/legal-notice/" rel="noopener">crintech.pro legal notice</a>). By using Kaixo you accept these terms.`,
+    secciones: [
+      ['1. What Kaixo is', [
+        'Kaixo is a course for learning Basque from scratch: A1 and A2 lessons with exercises and audio, review, a mock exam and speaking practice for A1, and a dictionary. It can be followed from 21 languages. Those marked “beta” are new versions we are still polishing.',
+      ]],
+      ['2. Free, no accounts and no ads', [
+        'Kaixo is free: it has no purchases, subscriptions or ads. You do not need an account or to sign up. Your progress is stored only on your device. You can copy it with “Save my progress” to take it to another device, and in the iPhone app you can turn on a backup in your own iCloud account. If you clear your browser data or uninstall the app without saving it, that progress is lost and we cannot recover it.',
+      ]],
+      ['3. Content', [
+        'Kaixo’s content is learning material. We review and improve it continuously, but it may contain mistakes. Kaixo is not an official course: it does not award qualifications or certificates. The results of the exercises and of the mock exam are there to guide you, but they do not certify any level. If you find a mistake, tell us from the <a href="/en/feedback/">Feedback</a> page or at ' + CORREO + '.',
+      ]],
+      ['4. Permitted use and licences', [
+        `You can use Kaixo to learn or to teach, on your own or in class. The lessons, exercises and other written educational material are published under the Creative Commons Attribution-ShareAlike 4.0 licence (CC BY-SA 4.0), and the code under the MIT licence. The full texts of the licences are in <a href="${REPO}" rel="noopener">Kaixo’s public repository on GitHub</a>. You can reuse that material under those licences: crediting Kaixo and sharing what you make under the same licence. The licences do not cover the name or logo of Kaixo or of Crintech Studios. You may not use Kaixo in a way that harms the service, for example by flooding it with automated requests.`,
+      ]],
+      ['5. What you send us', [
+        'If you write to us from the Feedback page or by email, we will use what you tell us to handle your message, reply if you leave us a contact and improve Kaixo. The details are in the <a href="/en/privacidad/">privacy policy</a>.',
+      ]],
+      ['6. Operation and liability', [
+        'We do our best to keep Kaixo working well and available, but it may have bugs or interruptions, and we may change, expand or withdraw parts of the course. We are liable for damage we cause you by breaching these terms or the law. We are not liable for what is outside our control, such as faults in your device or your connection, or the services of the App Store and Google Play. None of this limits the rights that the law gives consumers.',
+      ]],
+      ['7. App stores', [
+        'If you download Kaixo from the App Store, Apple’s <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener">standard end user licence agreement</a> also applies in addition to these terms. If you download it from Google Play, the <a href="https://play.google.com/about/play-terms/" rel="noopener">Google Play Terms of Service</a> also apply.',
+      ]],
+      ['8. Changes', [
+        'We may update these terms when Kaixo, the law or the store rules change. We will publish the new version on this page, with its date.',
+      ]],
+      ['9. Governing law', [
+        'These terms are governed by Spanish law. If you are a consumer living in another country of the European Union, you also keep the protection of the mandatory rules of your country. For any dispute you can go to the courts of your place of residence.',
+      ]],
+      ['10. Contact', [
+        'For any question or complaint, write to us at ' + CORREO + '. The owner’s full details are in the <a href="https://crintech.pro/en/legal-notice/" rel="noopener">crintech.pro legal notice</a>.',
+      ]],
+    ],
+  },
+} as const;
+
+const tx = TEXTOS[locale];
+---
+<RootLayout locale={locale} title={tx.title} description={tx.description} noindex>
+  <article class="container prose">
+    <h1>{tx.title}</h1>
+    <p class="updated">{tx.updated}</p>
+    <p set:html={tx.intro} />
+    {tx.secciones.map(([h, ps]) => (
+      <>
+        <h2>{h}</h2>
+        {ps.map((p) => <p set:html={p} />)}
+      </>
+    ))}
+  </article>
+</RootLayout>
+
+<style>
+  .prose { padding-block: var(--s-6); max-width: 800px; }
+  .prose h1 { margin: 0 0 var(--s-2); }
+  .prose .updated { color: var(--c-text-muted); font-size: 0.9rem; margin: 0 0 var(--s-6); }
+  .prose h2 { margin-block: var(--s-6) var(--s-2); font-size: 1.25rem; }
+  .prose p { margin: 0 0 var(--s-3); line-height: 1.7; }
+</style>
