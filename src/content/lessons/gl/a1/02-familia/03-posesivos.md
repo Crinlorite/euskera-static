@@ -49,14 +49,14 @@ Os posesivos en éuscaro colócanse **antes do substantivo**, igual que en galeg
 
 | Persoa | Posesivo | Exemplo | Galego |
 |---|---|---|---|
-| ni | **nire** | nire ama | miña nai |
-| zu | **zure** | zure aita | teu pai |
-| hura | **bere** | bere arreba | súa irmá (del/dela) |
-| gu | **gure** | gure etxea | nosa casa |
-| zuek | **zuen** | zuen lagunak | vosos amigos |
-| haiek | **beren** | beren autoa | seu coche (deles/delas) |
+| ni | **nire** | nire ama | a miña nai |
+| zu | **zure** | zure aita | o teu pai |
+| hura | **bere** | bere arreba | a súa irmá (del/dela) |
+| gu | **gure** | gure etxea | a nosa casa |
+| zuek | **zuen** | zuen lagunak | os vosos amigos |
+| haiek | **beren** | beren autoa | o seu coche (deles/delas) |
 
-> Coma en galego («a nosa casa»), o substantivo **conserva o artigo `-a`** aínda que leve posesivo: *gure etxea* (nosa casa), *zuen lagunak* (vosos amigos), *beren autoa* (seu coche). En palabras que xa rematan en `-a` (como *ama* ou *arreba*) o artigo non se aprecia: *nire ama*.
+> Coma en galego («a nosa casa»), o substantivo **conserva o artigo `-a`** aínda que leve posesivo: *gure etxea* (a nosa casa), *zuen lagunak* (os vosos amigos), *beren autoa* (o seu coche). En palabras que xa rematan en `-a` (como *ama* ou *arreba*) o artigo non se aprecia: *nire ama*.
 
 ## Familia + posesivos
 

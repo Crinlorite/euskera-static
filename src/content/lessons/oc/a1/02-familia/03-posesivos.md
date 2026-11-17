@@ -14,26 +14,26 @@ exercises:
   type: match-pairs
   pairs:
   - eu: nire
-    es: mèn/ma
+    es: eth mèn / era mia
   - eu: zure
-    es: tòn / eth tòn
+    es: eth tòn / era tua
   - eu: bere
-    es: son/sa (d'eth/era)
+    es: eth sòn / era sua (d'eth/era)
   - eu: gure
-    es: nòste
+    es: eth nòste / era nòsta
   - eu: zuen
-    es: vòste
+    es: eth vòste / era vòsta
   - eu: beren
-    es: son/sa (d'eri)
+    es: eth sòn / era sua (d'eri)
 - id: ex-pos-fb1
   type: fill-in-blank
-  prompt: Ma maire = ___ ama.
+  prompt: Era mia maire = ___ ama.
   answers:
   - nire
   - Nire
 - id: ex-pos-mc1
   type: multiple-choice
-  prompt: Com ditzes "nòsta casa" en basc?
+  prompt: Com ditzes "era nòsta casa" en basc?
   options:
   - nire etxea
   - zure etxea
@@ -49,20 +49,20 @@ Es possessius en basc se plaçen **dauant deth substantiu**, com en aranés. Non
 
 | Persona | Possessiu | Exemple | Aranés |
 |---|---|---|---|
-| ni | **nire** | nire ama | ma maire |
-| zu | **zure** | zure aita | ton pair |
-| hura | **bere** | bere arreba | sa sòr (d'eth/era) |
-| gu | **gure** | gure etxea | nòsta casa |
-| zuek | **zuen** | zuen lagunak | vòsti amics |
-| haiek | **beren** | beren autoa | sa veitura (d'eri) |
+| ni | **nire** | nire ama | era mia maire |
+| zu | **zure** | zure aita | eth tòn pair |
+| hura | **bere** | bere arreba | era sua sòr (d'eth/era) |
+| gu | **gure** | gure etxea | era nòsta casa |
+| zuek | **zuen** | zuen lagunak | es vòsti amics |
+| haiek | **beren** | beren autoa | era sua veitura (d'eri) |
 
-> Coma en aranés («era mia casa»), eth substantiu **conserve er article `-a`** encara que pòrte un possessiu: *gure etxea* (nòsta casa), *zuen lagunak* (vòsti amics), *beren autoa* (sa veitura). En paraules que ja acaben en `-a` (coma *ama* o *arreba*) er article non se ved: *nire ama*.
+> Coma en aranés («era mia casa»), eth substantiu **conserve er article `-a`** encara que pòrte un possessiu: *gure etxea* (era nòsta casa), *zuen lagunak* (es vòsti amics), *beren autoa* (era sua veitura). En paraules que ja acaben en `-a` (coma *ama* o *arreba*) er article non se ved: *nire ama*.
 
 ## Familha + possessius
 
 Combine çò qu'as aprés entà descríuer era tua familha:
 
-- *Nire aita Mattin da.* — Mèn pair ei Mattin.
-- *Zure ama nongoa da?* — De on ei ta maire?
-- *Bere arreba Donostiakoa da.* — Sa sòr ei de Donostia.
-- *Gure aiton-amonak Bilbon bizi dira.* — Nòsti grands viuen en Bilbao.
+- *Nire aita Mattin da.* — Eth mèn pair ei Mattin.
+- *Zure ama nongoa da?* — De on ei era tua maire?
+- *Bere arreba Donostiakoa da.* — Era sua sòr ei de Donostia.
+- *Gure aiton-amonak Bilbon bizi dira.* — Es nòsti grands viuen en Bilbao.

@@ -36,7 +36,7 @@ exercises:
   - eu: zure
     es: el teu / la teva
   - eu: bere
-    es: el seu / la seva
+    es: el seu / la seva (d'ell/ella)
   - eu: Zein da zure izena?
     es: Com et dius?
   - eu: Nire izena Egoitz da

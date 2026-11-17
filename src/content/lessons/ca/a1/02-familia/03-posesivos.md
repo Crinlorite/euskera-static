@@ -16,15 +16,15 @@ exercises:
   - eu: nire
     es: meu/meva
   - eu: zure
-    es: teu
+    es: teu/teva
   - eu: bere
     es: seu/seva (d'ell/ella)
   - eu: gure
-    es: nostre
+    es: nostre/nostra
   - eu: zuen
-    es: vostre
+    es: vostre/vostra
   - eu: beren
-    es: seu/seva (d'ells/elles)
+    es: seu/seva, llur (d'ells/elles)
 - id: ex-pos-fb1
   type: fill-in-blank
   prompt: La meva mare = ___ ama.
@@ -51,12 +51,14 @@ Els possessius en basc es col·loquen **davant del substantiu**, igual que en ca
 |---|---|---|---|
 | ni | **nire** | nire ama | la meva mare |
 | zu | **zure** | zure aita | el teu pare |
-| hura | **bere** | bere arreba | la seva germana (d'ell/ella) |
+| hura | **bere** | bere arreba | la seva germana (d'ell) |
 | gu | **gure** | gure etxea | la nostra casa |
 | zuek | **zuen** | zuen lagunak | els vostres amics |
-| haiek | **beren** | beren autoa | el seu cotxe (d'ells/elles) |
+| haiek | **beren** | beren autoa | el seu cotxe, llur cotxe (d'ells/elles) |
 
-> A diferència del català, el substantiu **conserva l'article `-a`** encara que porti possessiu: *gure etxea* (la nostra casa), *zuen lagunak* (els vostres amics), *beren autoa* (el seu cotxe). En paraules que ja acaben en `-a` (com *ama* o *arreba*) l'article no s'aprecia: *nire ama*.
+> *Bere* i *beren* es tradueixen igual en català («el seu / la seva»), però *bere* és d'una sola persona (d'ell o d'ella) i *beren*, de diverses (d'ells o d'elles): és el *llur* del català formal.
+
+> Com en català («la nostra casa»), el substantiu **conserva l'article `-a`** encara que porti possessiu: *gure etxea* (la nostra casa), *zuen lagunak* (els vostres amics), *beren autoa* (el seu cotxe, d'ells/elles). En paraules que ja acaben en `-a` (com *ama* o *arreba*) l'article no s'aprecia: *nire ama*.
 
 ## Família + possessius
 

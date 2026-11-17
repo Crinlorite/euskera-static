@@ -56,7 +56,7 @@ exercises:
 | zuek | **zuen** | zuen lagunak | prietenii voștri |
 | haiek | **beren** | beren autoa | mașina lor (a lor) |
 
-> Spre deosebire de română, substantivul **păstrează articolul `-a`** chiar dacă are un posesiv: *gure etxea* (casa noastră), *zuen lagunak* (prietenii voștri), *beren autoa* (mașina lor). La cuvintele care se termină deja în `-a` (cum ar fi *ama* sau *arreba*), articolul nu este vizibil: *nire ama*.
+> Ca în română («casa noastră»), substantivul **păstrează articolul `-a`** chiar dacă are un posesiv: *gure etxea* (casa noastră), *zuen lagunak* (prietenii voștri), *beren autoa* (mașina lor). La cuvintele care se termină deja în `-a` (cum ar fi *ama* sau *arreba*), articolul nu este vizibil: *nire ama*.
 
 ## Familia + posesivele
 

@@ -56,7 +56,7 @@ I possessivi in basco si collocano **prima del sostantivo**, come in italiano. N
 | zuek | **zuen** | zuen lagunak | i vostri amici |
 | haiek | **beren** | beren autoa | la loro macchina |
 
-> A differenza dell'italiano, il sostantivo **conserva l'articolo `-a`** anche se ha un possessivo: *gure etxea* (la nostra casa), *zuen lagunak* (i vostri amici), *beren autoa* (la loro macchina). Nelle parole che terminano già in `-a` (come *ama* o *arreba*) l'articolo non si nota: *nire ama*.
+> Come in italiano («la nostra casa»), il sostantivo **conserva l'articolo `-a`** anche se ha un possessivo: *gure etxea* (la nostra casa), *zuen lagunak* (i vostri amici), *beren autoa* (la loro macchina). Nelle parole che terminano già in `-a` (come *ama* o *arreba*) l'articolo non si nota: *nire ama*.
 
 ## Famiglia + possessivi
 
