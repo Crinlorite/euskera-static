@@ -21,7 +21,7 @@ exercises:
   - la amiază
   - chiar acum
   answer: 1
-  explanation: '"Goiz" = dimineață; cu locativul "-an": "dimineața".'
+  explanation: '"Goiz" = dimineață; cu locativul "-ean": "dimineața".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Vrei să spui „la ora opt dimineața”. Cum o spui?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Pentru a preciza dimineața/după-amiaza, se pune în față partea zilei cu sufixul „-ko”: *goizeko zortziak* (ora opt dimineața).'
+  explanation: 'Pentru a preciza dimineața/după-amiaza, se pune în față partea zilei cu sufixul „-(e)ko”: *goizeko zortziak* (ora opt dimineața).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: După-amiaza = ___ (completează cuvântul întreg).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = noapte; cu locativul "-an": *gauean*.'
+  explanation: '"Gau" = noapte; cu locativul "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Pentru a spune când (în ce moment al zilei) se întâmplă ceva, adaugă **-(e
 >
 > *Gauean lo egiten dut.* — Noaptea dorm.
 
-## „De dimineață / de după-amiază” — sufixul `-ko`
+## „De dimineață / de după-amiază” — sufixul `-(e)ko`
 
-Pentru a preciza **la ce oră a zilei**, pui cuvântul cu **-ko** înaintea orei:
+Pentru a preciza **la ce oră a zilei**, pui cuvântul cu **-(e)ko** înaintea orei:
 
 | Ora exactă | Bască |
 |---|---|

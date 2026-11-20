@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 「〜時半」には「eta erdiak」（文字どおりには「と半分（複数形）」）を使います。「eta erdiak」の前では数字は「-ak」をつけません：「bost eta erdiak」。
+  explanation: 「〜時半」には「eta erdiak」（文字どおりには「と半分」で、複数形はここに付きます）を使います。「eta erdiak」の前では数字は「-ak」をつけません：「bost eta erdiak」。
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: 3時15分です。どう言いますか。
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: 「eta laurden」は「15分過ぎ（と4分の1）」という意味で、時刻は複数形（「hirurak」）になります：*Hirurak eta laurden dira*。
+  explanation: 「eta laurden」は「15分過ぎ（と4分の1）」という意味です。時刻は複数形で、*hiru* は *hirurak* になります（*hiruak* ではありません）：*Hirurak eta laurden dira*。複数形を *laurdenak* だけに付けた *hiru eta laurdenak* も正しい言い方です。
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: 9時15分前です。どう言いますか。
@@ -52,7 +52,8 @@ exercises:
   prompt: 4時10分前です = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: 時刻の表現では「gutxi」は「〜前（足りない）」という意味です。
+  - gutxiago
+  explanation: 時刻の表現では「gutxi」は「〜前（足りない）」という意味です。「gutxiago」も正解として認められます。
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: 〜時15分前（2:45 = hirurak laurden gutxi）
   - eu: gutxi
     es: 〜分前（時刻の表現で）
-  - eu: Bostak eta erdiak dira
-    es: 5時半です
   - eu: Hirurak eta laurden dira
     es: 3時15分です
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ exercises:
 
 ## 「〜時半」 — 特別なケース
 
-ほかと違って、「〜時半」では時刻も複数形で言い、「半分」という単語も複数形になります：
+ほかと違って、「〜時半」で複数形になるのは時刻ではなく「半分」という単語のほうです。数字には *-ak* が付かず、*erdiak* が複数形を担います。動詞は複数形（*dira*）のままで、1時半でも同じです：
 
 | 時刻 | バスク語 |
 |---|---|
@@ -93,7 +92,7 @@ exercises:
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> 注目：*eta erdiak* を使う場合、その前の数字には **-ak をつけません**（*bostak* ではなく *bost*）。複数形の意味は *erdiak* がすでに担っているからです。
+> 注目：*eta erdiak* を使う場合、数字には **-ak をつけません**（*bostak eta erdiak* ではなく *bost eta erdiak*）。複数形を担うのは *erdiak* だけだからです。1時と2時も同じです：*ordu bat eta erdiak*、*ordu bi eta erdiak*（*ordu bata…* や *ordu biak…* ではありません）。これが標準バスク語（*batua*）の形です。北バスク地方（Iparralde）では、両方に複数形を付けた言い方も耳にします（*bost orenak eta erdiak*、*bostak eta erdiak*）。
 
 ## 「〜時15分」と、過ぎた分
 

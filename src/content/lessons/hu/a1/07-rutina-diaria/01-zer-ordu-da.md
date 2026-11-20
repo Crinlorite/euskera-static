@@ -110,7 +110,7 @@ Az időt a **Zer ordu da?** ("hány óra van?") kérdéssel kérdezzük.
 ## Miért különleges az egy és a két óra
 
 - Az **ordu bata** (egy óra) **egyes számú**, ezért a **da** alakkal áll: *Ordu bata da*.
-- Az **ordu biak** (két óra) elé azért kerül az *ordu* szó, mert a *biak* önmagában félreérthető lehetne — ez az egyetlen időpont, amelynél sokan a nagyobb világosság kedvéért hozzáteszik az "ordu" szót. A többi (háromtól kezdve) önállóan áll: *hirurak*, *laurak*, *bostak*…
+- Az **ordu biak** (két óra) elé szintén odakerül az *ordu* szó: a puszta *biak* azt is jelenti, hogy "mindkettő / a kettő". Ez a szokásos alak a sztenderd baszkban (*batua*), bár a puszta *biak* is elfogadott. Háromtól kezdve már nem tesszük ki az *ordu* szót: *hirurak*, *laurak*, *bostak*… (nem *hiru orduak*).
 
 ## Az `-ak` toldalék
 

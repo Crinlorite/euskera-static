@@ -142,7 +142,7 @@ Segunda parada de la unidá: **el deporte** — el de facer y el de ver. Y n'Eus
 >
 > *— Aupa! Eta hurrengo astean **etxean jokatuko dute**?*
 >
-> *— Bai, igandean. **Zelaira joango gara**? Sarrera pela mio cuenta!*
+> *— Bai, igandean. **Zelaira joango gara**? Sarrera nire kontu!*
 
 ## Diálogu: apuntase a daqué
 
@@ -152,6 +152,6 @@ Segunda parada de la unidá: **el deporte** — el de facer y el de ver. Y n'Eus
 >
 > *— Ez dakit ba… **igeri badakit**, baina gaizki.*
 >
-> *— Pa eso tan los cursos! Ni **astean bitan** joaten naiz. **Elkarrekin joango gara**?*
+> *— Horretarako dira ikastaroak! Ni **astean bitan** joaten naiz. **Elkarrekin joango gara**?*
 >
 > *— Beno, ados. Baina gero **hamaiketakoa** ere elkarrekin, e?* 😄

@@ -21,7 +21,7 @@ exercises:
   - ao meio-dia
   - agora mesmo
   answer: 1
-  explanation: '"Goiz" = manhã; com o locativo "-an": "de manhã".'
+  explanation: '"Goiz" = manhã; com o locativo "-ean": "de manhã".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Você quer dizer "às oito da manhã". Como se diz?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Para especificar manhã/tarde, coloca-se a parte do dia com o sufixo "-ko" antes: *goizeko zortziak* (as oito da manhã).'
+  explanation: 'Para especificar manhã/tarde, coloca-se a parte do dia com o sufixo "-(e)ko" antes: *goizeko zortziak* (as oito da manhã).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: À tarde = ___ (preencha a palavra completa).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = noite; com o locativo "-an": *gauean*.'
+  explanation: '"Gau" = noite; com o locativo "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Para dizer quando (em que momento do dia) algo acontece, adicione **-(e)an** à 
 >
 > *Gauean lo egiten dut.* — À noite eu durmo.
 
-## "Da manhã / da tarde" — sufixo `-ko`
+## "Da manhã / da tarde" — sufixo `-(e)ko`
 
-Para especificar **a que hora do dia**, você coloca a palavra com **-ko** antes da hora:
+Para especificar **a que hora do dia**, você coloca a palavra com **-(e)ko** antes da hora:
 
 | Hora exata | Basco |
 |---|---|

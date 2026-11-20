@@ -223,7 +223,7 @@ En A1 viés o vocabulario basico de **ropa** y **casa**. En A2 enamplas a rechis
 >
 > *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
-> *(Dimpués de prebar)*
+> *(Probatu ondoren)*
 >
 > *— **Ondo geratzen zaizkit**. Zenbat balio dute?*
 >

@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Pentru „și jumătate” se folosește „eta erdiak” (literal „și jumătăți”, tot la plural). Numărul se pune fără „-ak” înainte de „eta erdiak”: „bost eta erdiak”.'
+  explanation: 'Pentru „și jumătate” se folosește „eta erdiak” (literal „și jumătăți”; pluralul se pune aici). Numărul se pune fără „-ak” înainte de „eta erdiak”: „bost eta erdiak”.'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Este trei și un sfert. Cum spui?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '„Eta laurden” înseamnă „și un sfert”; ora este la plural („hirurak”): *Hirurak eta laurden dira*.'
+  explanation: '„Eta laurden” înseamnă „și un sfert”; ora este la plural, iar *hiru* devine *hirurak* (nu *hiruak*): *Hirurak eta laurden dira*. Este corect și *hiru eta laurdenak*, cu pluralul doar pe *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Este nouă fără un sfert. Cum spui?
@@ -52,7 +52,8 @@ exercises:
   prompt: Este patru fără zece = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: „Gutxi” înseamnă „fără” în expresiile despre oră.
+  - gutxiago
+  explanation: „Gutxi” înseamnă „fără” în expresiile despre oră; se acceptă și „gutxiago”.
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: fără un sfert (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: fără (în expresiile despre oră)
-  - eu: Bostak eta erdiak dira
-    es: Este cinci și jumătate
   - eu: Hirurak eta laurden dira
     es: Este trei și un sfert
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Pentru minutele în euskera există trei construcții care acoperă aproape totu
 
 ## „Și jumătate” — cazul special
 
-Spre deosebire de restul, „și jumătate” face ca și ora să se spună la plural — iar cuvântul „jumătate” la fel:
+Spre deosebire de restul, cu „și jumătate” pluralul nu stă pe oră, ci pe cuvântul „jumătate”: numărul rămâne fără *-ak*, iar *erdiak* este cel care îl poartă. Verbul rămâne la plural (*dira*), chiar și la ora unu și jumătate:
 
 | Ora | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ Spre deosebire de restul, „și jumătate” face ca și ora să se spună la p
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Observă: cu *eta erdiak* numărul vine **fără -ak** în față (*bost*, nu *bostak*), pentru că pluralul îl poartă deja *erdiak*.
+> Observă: cu *eta erdiak* numărul vine **fără -ak** (*bost eta erdiak*, nu *bostak eta erdiak*), pentru că pluralul îl poartă doar *erdiak*. La fel la ora unu și la ora două: *ordu bat eta erdiak*, *ordu bi eta erdiak* (nu *ordu bata…* și nici *ordu biak…*). Aceasta este forma din *batua*; în Iparralde vei auzi pluralul în ambele locuri (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## „Și un sfert” și minutele trecute
 

@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (espertar) → forma habitual ___ (cola -n del aspeutu habitual).
   answers:
   - esnatzen
-  explanation: 'Los verbos acabaos en consonante o en -tu/-du añaden "-tzen" pal aspeutu habitual: esna**tu** → esna**tzen**.'
+  explanation: 'Los verbos acabaos en -tu/-du camuden esa terminación por "-tzen" pal aspeutu habitual: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (comer) → forma habitual ___ (cola terminación del aspeutu habitual).
@@ -109,9 +109,12 @@ Pa dicir lo que faes tolos díes, l'eusquera usa l'**aspeutu habitual**: garres 
 
 | Final del verbu | Sufixu habitual | Exemplu |
 |---|---|---|
-| consonante o `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (irregular) | **-tzen** o **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` dempués de *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` nos demás casos | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Dos avisos: dempués de *s, z, x, ts, tz, tx* tamién los verbos en *-tu* tomen **-ten** (*ahaztu* → *ahazten*); y los que nun acaben en *-tu/-du*, *-n* nin *-i* amiesten **-tzen** ensin más (*atera* → *ateratzen*).
 
 > El verbu *jan* (comer) **nun** se convierte en *janten* sinón en *jaten* — la "n" final desapaez. Lo mesmo con *edan* → *edaten*, *egon* → *egoten*.
 

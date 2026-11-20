@@ -164,7 +164,7 @@ Una conversación tipica en planificar:
 
 1. **Cantidat + producto:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
 2. **Pedir cortésment:** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **Zarrar a compra:** *Zenbat da dena? — X euros. — Tori! — Eskerrik asko!*
+3. **Zarrar a compra:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Negación con producto:** *Ez dago ...rik* (con partitivo).
 
 > **Nota cultural:** muitas familias fan as compras "d'o día" en as botigas de vico (fruta-denda, harategia) y van a o supermercaus nomás pa os productos envasaus. Ye una mezcla muit habitual de canals que se nota especialment os sabados de maitins en cualsiquier lugar.

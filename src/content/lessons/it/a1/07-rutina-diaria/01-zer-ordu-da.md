@@ -110,7 +110,7 @@ Per chiedere l'ora si usa **Zer ordu da?** ("che ore sono?").
 ## Perché l'una e le due sono speciali
 
 - **Ordu bata** (l'una) è **singolare**, quindi si usa **da**: *Ordu bata da*.
-- **Ordu biak** (le due) ha la parola *ordu* davanti perché *biak* da sola potrebbe creare confusione — è l'unica ora in cui molte persone aggiungono "ordu" per maggiore chiarezza. Le altre (dalle tre in poi) vanno da sole: *hirurak*, *laurak*, *bostak*…
+- Anche **Ordu biak** (le due) ha *ordu* davanti: *biak* da sola significa anche "i due / entrambi". È la forma abituale in *batua* (il basco standard), anche se *biak* da sola è ammessa. Dalle tre in poi *ordu* non si mette più: *hirurak*, *laurak*, *bostak*… (non *hiru orduak*).
 
 ## Il suffisso `-ak`
 

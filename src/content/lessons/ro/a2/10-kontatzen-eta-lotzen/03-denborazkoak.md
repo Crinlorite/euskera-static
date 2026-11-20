@@ -145,7 +145,7 @@ Se construiește pe **-n**-ul pe care l-ai învățat ieri la *zehar-galderak* (
 
 > *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
 >
-> *— Ez. Deitu **lana bukatzen dudanean** — seiak **ondoren**.*
+> *— Ez. Deitu **lana bukatzen dudanean** — seien **ondoren**.*
 >
 > *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
 >

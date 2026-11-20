@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 「〜時に」という時間は「-(e)tan」を使って作ります：*bederatzi* + *-etan* = *bederatzietan*。
+  explanation: 「〜時に」という時間は「-etan」を使って作ります：*bederatzi* + *-etan* = *bederatzietan*。
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: 「朝、仕事に行きます」 = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ exercises:
 
 ## 「〜時に」—言い方
 
-「〜時に」と答えるには、複数形の時間に付く *-ak* を **-etan** に変えます（すでに母音で終わる単語を除き、間に `-e-` が入ります）：
+「〜時に」と答えるには、複数形の時間に付く *-ak* を **-etan** に変えます（*hiru* と *lau* は -r- が残ります：*hiruretan*、*lauretan*）：
 
 | 時間 | 「〜時に」 |
 |---|---|
@@ -108,7 +108,10 @@ exercises:
 | hamabiak | **hamabietan** |
 | ordu bata (1時) | **ordu batean** (単数形、形はそのまま) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (5時半に) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (7時15分に) |
+| zazpiak eta bost | **zazpiak eta bostean** (7時5分に：分が付くと、格は単数形になります) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (8時15分前に) |
 
 ## ある一日 —モデル文

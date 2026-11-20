@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'За "и половина" се използва "eta erdiak" (буквално "и половините", също множествено число). Числото е без "-ak" пред "eta erdiak": "bost eta erdiak".'
+  explanation: 'За "и половина" се използва "eta erdiak" (буквално "и половините"; множественото число е тук). Числото е без "-ak" пред "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Три и четвърт е. Как го казваш?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" означава "и четвърт"; часът е в множествено число ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" означава "и четвърт"; часът е в множествено число, като *hiru* става *hirurak* (а не *hiruak*): *Hirurak eta laurden dira*. Правилно е и *hiru eta laurdenak*, с множествено число само в *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Девет без четвърт е. Как го казваш?
@@ -52,7 +52,8 @@ exercises:
   prompt: Четири без десет е = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" означава "без" в изразите за час.'
+  - gutxiago
+  explanation: '"Gutxi" означава "без" в изразите за час; приема се и "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: без четвърт (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: без (в изрази за час)
-  - eu: Bostak eta erdiak dira
-    es: Пет и половина е
   - eu: Hirurak eta laurden dira
     es: Три и четвърт е
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ exercises:
 
 ## "И половина" — специалният случай
 
-За разлика от останалото, при "и половина" часът също се казва в множествено число — и думата "половина" също:
+За разлика от останалото, при "и половина" множественото число не е в часа, а в думата "половина": числото остава без *-ak*, а множественото число го носи *erdiak*. Глаголът остава в множествено число (*dira*), и в 1:30:
 
 | Час | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ exercises:
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Обърни внимание: с *eta erdiak* числото е **без -ak** отпред (*bost*, а не *bostak*), защото множественото число вече го носи *erdiak*.
+> Обърни внимание: с *eta erdiak* числото е **без -ak** (*bost eta erdiak*, а не *bostak eta erdiak*), защото множественото число го носи само *erdiak*. Същото е и в 1:30 и 2:30: *ordu bat eta erdiak*, *ordu bi eta erdiak* (а не *ordu bata…* или *ordu biak…*). Това е формата на *batua*; в Ипаралде (северната част на Страната на баските) ще чуеш множествено число и на двете места (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "И четвърт" и изминали минути
 

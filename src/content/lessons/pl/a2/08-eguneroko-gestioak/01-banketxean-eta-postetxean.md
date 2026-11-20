@@ -135,7 +135,7 @@ Nowa jednostka: **życie codzienne**. Nikt nie podróżuje codziennie, ale każd
 
 ## Awizo (ten kłopotliwy papierek)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Można odebrać paczkę na poczcie, od poniedziałku do piątku, od 8:30 do 14:30. Proszę przynieść dowód osobisty.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Można odebrać paczkę na poczcie, od poniedziałku do piątku, od 8:30 do 14:30. Proszę przynieść dowód osobisty.
 
 Tak: godziny poranne. Niektóre rzeczy są takie same we wszystkich językach. 😄
 

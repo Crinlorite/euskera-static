@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (فاق) → الصيغة ديال العادة ___ (بالـ-n ديال صيغة العادة).
   answers:
   - esnatzen
-  explanation: 'الأفعال اللي كتسالي بحرف ساكن ولا بـ-tu/-du كتزاد ليهم "-tzen" فصيغة العادة: esna**tu** → esna**tzen**.'
+  explanation: 'الأفعال اللي كتسالي بـ-tu/-du كتبدّل هاد النهاية بـ "-tzen" فصيغة العادة: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (كلا) → الصيغة ديال العادة ___ (بالنهاية ديال صيغة العادة).
@@ -109,11 +109,14 @@ exercises:
 
 | آخر الفعل | اللاحقة ديال العادة | مثال |
 |---|---|---|
-| حرف ساكن ولا `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (شاذ) | **-tzen** ولا **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` من بعد *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` فباقي الحالات | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
 
-> الفعل *jan* (كلا) **no** كيولي *janten*، كيولي *jaten* — الـ"n" اللي فالآخر كتطيح. نفس الشي مع *edan* → *edaten*، *egon* → *egoten*.
+> جوج ملاحظات: من بعد *s, z, x, ts, tz, tx* حتى الأفعال اللي كتسالي بـ *-tu* كتاخد **-ten** (*ahaztu* → *ahazten*)؛ واللي ما كتساليش بـ *-tu/-du* ولا *-n* ولا *-i* كتزيد ليها **-tzen** وصافي (*atera* → *ateratzen*).
+
+> الفعل *jan* (كلا) **ما** كيوليش *janten*، كيولي *jaten* — الـ"n" اللي فالآخر كتطيح. نفس الشي مع *edan* → *edaten*، *egon* → *egoten*.
 
 ## أفعال الحياة اليومية
 

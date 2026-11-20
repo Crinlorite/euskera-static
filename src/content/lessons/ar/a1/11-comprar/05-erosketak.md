@@ -146,15 +146,15 @@ exercises:
 >
 > **Bezeroa:** *Egun on! Kilo bat sagar eta hiru banana, mesedez.*
 >
-> **F:** *نعم، تفضل. هل تريد شيئًا آخر؟*
+> **F:** *Bai, hemen daukazu. Besterik?*
 >
-> **B:** *نعم، نصف كيلو طماطم أيضًا.*
+> **B:** *Bai, kilo erdi tomate ere bai.*
 >
-> **F:** *حسنًا، تفضل.*
+> **F:** *Tira, hemen.*
 >
 > **B:** *Zenbat da dena?*
 >
-> **F:** *خمسة يورو وعشرون سنتًا.*
+> **F:** *Bost euro eta hogei zentimo.*
 >
 > **B:** *Tori! Eskerrik asko!*
 >
@@ -164,7 +164,7 @@ exercises:
 
 1. **الكمية + المنتج:** *kilo bat sagar*، *litro erdi esne*، *dozena bat arrautza*.
 2. **الطلب بأدب:** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **إنهاء عملية الشراء:** *Zenbat da dena? — X يورو. — Tori! — Eskerrik asko!*
+3. **إنهاء عملية الشراء:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **النفي مع المنتج:** *Ez dago ...rik* (مع اللاحقة التجزئة).
 
 > **ملاحظة ثقافية:** تقوم العديد من العائلات بالتسوق "اليومي" من متاجر الحي (*fruta-denda*، *harategia*) وتذهب إلى السوبر ماركت فقط لشراء المنتجات المعبأة. هذا مزيج شائع جدًا من قنوات التسوق ويُلاحظ بشكل خاص صباح أيام السبت في أي بلدة.

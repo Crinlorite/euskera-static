@@ -21,7 +21,7 @@ exercises:
   - a meyodía
   - agora mesmo
   answer: 1
-  explanation: '"Goiz" = maitín; con o locativo "-an": "de maitins".'
+  explanation: '"Goiz" = maitín; con o locativo "-ean": "de maitins".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Quiers decir "as ueito d'o maitín". Cómo lo dices?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Ta precisar maitín/tardi se mete debant a parti d''o día con o sufixo "-ko": *goizeko zortziak* (as ueito d''o maitín).'
+  explanation: 'Ta precisar maitín/tardi se mete debant a parti d''o día con o sufixo "-(e)ko": *goizeko zortziak* (as ueito d''o maitín).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Por a tardi = ___ (replena a parola completa).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = nueit; con o locativo "-an": *gauean*.'
+  explanation: '"Gau" = nueit; con o locativo "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Ta decir cuan (en qué momento d'o día) ocurre bella cosa, adhibe **-(e)an** a 
 >
 > *Gauean lo egiten dut.* — De nueiz duermo.
 
-## "D'o maitín / d'a tardi" — sufixo `-ko`
+## "D'o maitín / d'a tardi" — sufixo `-(e)ko`
 
-Ta precisar **a qué hora d'o día**, metes debant a parola con **-ko** d'a hora:
+Ta precisar **a qué hora d'o día**, metes debant a parola con **-(e)ko** d'a hora:
 
 | Hora exacta | Euskera |
 |---|---|

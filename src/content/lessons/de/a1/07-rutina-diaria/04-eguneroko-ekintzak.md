@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (aufwachen) → habituale Form ___ (mit der Endung des habitualen Aspekts).
   answers:
   - esnatzen
-  explanation: 'Verben, die auf Konsonant oder -tu/-du enden, erhalten „-tzen“ für den habitualen Aspekt: esna**tu** → esna**tzen**.'
+  explanation: 'Verben, die auf -tu/-du enden, ersetzen diese Endung für den habitualen Aspekt durch „-tzen“: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (essen) → habituale Form ___ (mit der Endung des habitualen Aspekts).
@@ -109,9 +109,12 @@ Um auszudrücken, was du jeden Tag tust, verwendet das Baskische den **habituale
 
 | Verbendung | Habituales Suffix | Beispiel |
 |---|---|---|
-| Konsonant oder `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (unregelmäßig) | **-tzen** oder **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` nach *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` in allen anderen Fällen | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Zwei Hinweise: Nach *s, z, x, ts, tz, tx* bekommen auch die Verben auf *-tu* **-ten** (*ahaztu* → *ahazten*); und Verben, die nicht auf *-tu/-du*, *-n* oder *-i* enden, hängen einfach **-tzen** an (*atera* → *ateratzen*).
 
 > Das Verb *jan* (essen) wird **nicht** zu *janten*, sondern zu *jaten* — das finale „n“ fällt weg. Dasselbe gilt für *edan* → *edaten*, *egon* → *egoten*.
 

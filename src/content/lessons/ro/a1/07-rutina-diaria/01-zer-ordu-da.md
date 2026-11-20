@@ -110,7 +110,7 @@ Pentru a întreba cât e ceasul se folosește **Zer ordu da?** („cât e ceasul
 ## De ce ora unu și ora două sunt speciale
 
 - **Ordu bata** (ora unu) este **singular**, așa că se spune cu **da**: *Ordu bata da*.
-- **Ordu biak** (ora două) are în față cuvântul *ordu* deoarece *biak* singur ar putea crea confuzie — este singura oră la care multă lume adaugă „ordu” pentru mai multă claritate. Celelalte (începând de la ora trei) merg singure: *hirurak*, *laurak*, *bostak*…
+- **Ordu biak** (ora două) are și ea în față *ordu*: *biak* singur înseamnă și „amândoi / cei doi”. Este forma obișnuită în *batua* (basca standard), deși și *biak* singur este acceptat. De la ora trei încolo nu se mai pune *ordu*: *hirurak*, *laurak*, *bostak*… (nu *hiru orduak*).
 
 ## Sufixul `-ak`
 

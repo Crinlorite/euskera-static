@@ -112,7 +112,7 @@ Yá sabes llegar; agora toca **dormir**. Del hotel a la casa rural (*landetxea* 
 >
 > ***Zenbat da gaua**?* — ¿Cuánto ye la nueche?
 
-La pieza gramatical de la lleición ye'l **destinativu -rako / -etarako** (pa): *gau baterako* (pa una nueche), *asteburu*rako* (pa la finde). Vístilo n'A1 con *norentzat* (pa quién); esto ye'l so primu pa tiempos y coses.
+La pieza gramatical de la lleición ye'l **destinativu -rako / -etarako** (pa): *gau baterako* (pa una nueche), *astebururako* (pa la finde). Vístilo n'A1 con *norentzat* (pa quién); esto ye'l so primu pa tiempos y coses.
 
 ## Na receición
 

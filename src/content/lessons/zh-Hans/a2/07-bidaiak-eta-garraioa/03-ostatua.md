@@ -112,7 +112,7 @@ exercises:
 >
 > ***Zenbat da gaua**?* — 一晚多少钱？
 
-本课的语法点是**目的格 -rako / -etarako**（为了）：*gau baterako*（一晚），*asteburu*rako*（一个周末）。你在A1级别学过 *norentzat*（为了谁）；这个是它的“亲戚”，用于时间和事物。
+本课的语法点是**目的格 -rako / -etarako**（为了）：*gau baterako*（一晚），*astebururako*（一个周末）。你在A1级别学过 *norentzat*（为了谁）；这个是它的“亲戚”，用于时间和事物。
 
 ## 在前台
 

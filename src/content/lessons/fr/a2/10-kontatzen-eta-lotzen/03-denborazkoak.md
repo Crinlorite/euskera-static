@@ -143,10 +143,10 @@ Il s'assemble sur le **-n** que tu as appris hier dans les zehar-galderak (tu vo
 
 ## Dialogue
 
-> *— **Noiz deituko dizut**? Quand tu es au travail tu ne peux pas répondre, n'est-ce pas ?*
+> *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
 >
-> *— Ez. Deitu **lana bukatzen dudanean** — après six heures.*
+> *— Ez. Deitu **lana bukatzen dudanean** — seien **ondoren**.*
 >
-> *— Ados. Eta on se voit **afaldu aurretik** ou **ondoren** ?*
+> *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
 >
-> *— **Afaldu bitartean** ! On prendra quelques pintxos. 😄*
+> *— **Afaldu bitartean**! Pintxo batzuk hartuko ditugu. 😄*

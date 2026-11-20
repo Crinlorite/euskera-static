@@ -145,7 +145,7 @@ Se monta sobre o **-n** que aprendiés ahier en as zehar-galderak (vies cómo en
 
 > *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
 >
-> *— Ez. Deitu **lana bukatzen dudanean** — seiak **ondoren**.*
+> *— Ez. Deitu **lana bukatzen dudanean** — seien **ondoren**.*
 >
 > *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
 >

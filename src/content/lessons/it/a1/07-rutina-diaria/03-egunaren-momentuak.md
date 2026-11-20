@@ -21,7 +21,7 @@ exercises:
   - a mezzogiorno
   - proprio adesso
   answer: 1
-  explanation: '"Goiz" = mattina; con il locativo "-an": "di mattina".'
+  explanation: '"Goiz" = mattina; con il locativo "-ean": "di mattina".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Vuoi dire "le otto di mattina". Come si dice?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Per specificare mattina/pomeriggio si antepone la parte della giornata con il suffisso "-ko": *goizeko zortziak* (le otto di mattina).'
+  explanation: 'Per specificare mattina/pomeriggio si antepone la parte della giornata con il suffisso "-(e)ko": *goizeko zortziak* (le otto di mattina).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Di pomeriggio = ___ (completa la parola).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = notte; con il locativo "-an": *gauean*.'
+  explanation: '"Gau" = notte; con il locativo "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Per dire quando (in quale momento della giornata) succede qualcosa, aggiungi **-
 >
 > *Gauean lo egiten dut.* — Di notte dormo.
 
-## "Della mattina / del pomeriggio" — suffisso `-ko`
+## "Della mattina / del pomeriggio" — suffisso `-(e)ko`
 
-Per precisare **a che ora del giorno**, anteponi la parola con **-ko** prima dell'ora:
+Per precisare **a che ora del giorno**, anteponi la parola con **-(e)ko** prima dell'ora:
 
 | Ora esatta | Basco |
 |---|---|

@@ -135,7 +135,7 @@ exercises:
 
 ## 소포 도착 안내문 (말썽의 쪽지)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — 월요일부터 금요일까지, 오전 8시 30분부터 오후 2시 30분까지 우체국에서 소포를 수령할 수 있습니다. 신분증을 지참해 주세요.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — 월요일부터 금요일까지, 오전 8시 30분부터 오후 2시 30분까지 우체국에서 소포를 수령할 수 있습니다. 신분증을 지참해 주세요.
 
 네, 오전에만 운영하죠. 어떤 것들은 어느 나라나 똑같네요. 😄
 

@@ -21,7 +21,7 @@ exercises:
   - عند الظهيرة
   - الآن حالاً
   answer: 1
-  explanation: '"Goiz" = صباح؛ مع لاحقة المكان "-an": "في الصباح".'
+  explanation: '"Goiz" = صباح؛ مع لاحقة المكان "-ean": "في الصباح".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: تريد أن تقول "الساعة الثامنة صباحًا". كيف تقولها؟
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'لتحديد الصباح/بعد الظهر، تضع جزء اليوم مع اللاحقة "-ko" قبله: *goizeko zortziak* (الساعة الثامنة صباحًا).'
+  explanation: 'لتحديد الصباح/بعد الظهر، تضع جزء اليوم مع اللاحقة "-(e)ko" قبله: *goizeko zortziak* (الساعة الثامنة صباحًا).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: بعد الظهر = ___ (املأ الكلمة كاملة).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = ليل؛ مع لاحقة المكان "-an": *gauean*.'
+  explanation: '"Gau" = ليل؛ مع لاحقة المكان "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ exercises:
 >
 > *Gauean lo egiten dut.* — في الليل أنام.
 
-## "من الصباح / من بعد الظهر" — اللاحقة `-ko`
+## "من الصباح / من بعد الظهر" — اللاحقة `-(e)ko`
 
-لتحديد **في أي ساعة من اليوم**، تضع الكلمة مع **-ko** قبل الساعة:
+لتحديد **في أي ساعة من اليوم**، تضع الكلمة مع **-(e)ko** قبل الساعة:
 
 | الساعة بالضبط | Euskera |
 |---|---|

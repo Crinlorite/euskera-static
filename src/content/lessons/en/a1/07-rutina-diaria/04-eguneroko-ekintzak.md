@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (to wake up) → habitual form ___ (with the -n of the habitual aspect).
   answers:
   - esnatzen
-  explanation: 'Verbs ending in a consonant or in -tu/-du add "-tzen" for the habitual aspect: esna**tu** → esna**tzen**.'
+  explanation: 'Verbs ending in -tu/-du replace that ending with "-tzen" for the habitual aspect: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (to eat) → habitual form ___ (with the habitual aspect ending).
@@ -109,9 +109,12 @@ To say what you do every day, Basque uses the **habitual aspect**: you take the 
 
 | Verb ending | Habitual suffix | Example |
 |---|---|---|
-| consonant or `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (irregular) | **-tzen** or **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` after *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` in all other cases | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Two caveats: after *s, z, x, ts, tz, tx*, verbs in *-tu* also take **-ten** (*ahaztu* → *ahazten*); and verbs that don't end in *-tu/-du*, *-n* or *-i* simply add **-tzen** (*atera* → *ateratzen*).
 
 > The verb *jan* (to eat) **does not** become *janten* but *jaten* — the final "n" disappears. The same goes for *edan* → *edaten*, *egon* → *egoten*.
 

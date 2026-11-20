@@ -135,7 +135,7 @@ exercises:
 
 ## 包裹通知单 (那张惹人烦的小纸条)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — 您可以在周一至周五的8:30至14:30期间到邮局领取您的包裹。请携带您的身份证。
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — 您可以在周一至周五的8:30至14:30期间到邮局领取您的包裹。请携带您的身份证。
 
 是的：只有上午的营业时间。有些事情在所有语言里都是一样的。😄
 

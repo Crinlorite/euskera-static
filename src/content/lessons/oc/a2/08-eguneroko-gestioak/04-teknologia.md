@@ -120,7 +120,7 @@ Deth papèr ath pixèl: era leçon de **tecnologia quotidiana**. Vocabulari que 
 
 > ***Zein da wifiaren pasahitza**?* — Quin ei eth mot de pas deth wifi?
 >
-> ***Pasahitza ahaztu dut** e ara un de nau n'è de crear. Un aute còp.* — È desbrembat eth mot de pas e ara n'è de crear un de nau. Un aute còp.
+> ***Pasahitza ahaztu dut** eta orain berri bat sortu behar dut. Berriro.* — È desbrembat eth mot de pas e ara n'è de crear un de nau. Un aute còp.
 >
 > *Kontua sortzeko, **posta elektronikoa eta pasahitza** behar dituzu.* — Entà crear eth compde, as de besonh eth corrèu e eth mot de pas.
 
@@ -147,13 +147,13 @@ Deth papèr ath pixèl: era leçon de **tecnologia quotidiana**. Vocabulari que 
 
 > *— Aizu, laguntza behar dut. Aplikazio hau **ez dabil**.*
 >
-> *— A veir… **Wifira konektatuta zaude**?*
+> *— Ea… **Wifira konektatuta zaude**?*
 >
-> *— Credi que òc… A, non. **Pasahitza eskatzen dit**.*
+> *— Baietz uste dut… A, ez. **Pasahitza eskatzen dit**.*
 >
-> *— Ei escrit jos eth router. Òc, **denok egiten dugu** açò.* 😄
+> *— Router-aren azpian dago idatzita. Bai, **denok egiten dugu** hori.* 😄
 >
-> *— Hèt! Ara òc. **Eskerrik asko**, tecnic!*
+> *— Eginda! Orain bai. **Eskerrik asko**, teknikari!*
 >
 > *— **Hurrengoan kobratu egingo dizut**.* 😄
 

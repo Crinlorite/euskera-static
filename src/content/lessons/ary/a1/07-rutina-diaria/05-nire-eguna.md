@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: '"مع الساعة X" كتتكوّن بـ "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: '"مع الساعة X" كتتكوّن بـ "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: فالصباح كنمشي للخدمة = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ exercises:
 
 ## "مع الساعة X" — كيفاش تقولها
 
-باش تجاوب "مع (الساعة)"، خود الساعة فالجمع وبدّل *-ak* بـ **-etan** (مع `-e-` فالوسط من غير اللي ديجا كيساليو بحرف علة):
+باش تجاوب "مع (الساعة)"، خود الساعة فالجمع وبدّل *-ak* بـ **-etan** (*hiru* و *lau* كيحافظو على الـ -r- ديالهم: *hiruretan*، *lauretan*):
 
 | الساعة | "مع…" |
 |---|---|
@@ -108,7 +108,10 @@ exercises:
 | hamabiak | **hamabietan** |
 | ordu bata (الوحدة) | **ordu batean** (مفرد، كيحافظ على الشكل ديالو) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (مع الخمسة ونص) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (مع السبعة وربع) |
+| zazpiak eta bost | **zazpiak eta bostean** (مع السبعة وخمسة: مع الدقايق، الحالة كتكون فالمفرد) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (مع التمنية قل ربع) |
 
 ## نهار كامل — نموذج

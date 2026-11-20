@@ -132,10 +132,10 @@ L'unité sur le voyage commence. Premier arrêt : **les moyens de transport** et
 
 ## Comment y vas-tu ?
 
-> *— **Nola joaten zara** lanera ?*
+> *— **Nola joaten zara** lanera?*
 >
-> *— Normalement **autobusez**, mais s'il fait beau, **bizikletaz** ou **oinez**. Et toi ?*
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
 >
-> *— Moi, **trenez**. De la maison à la gare, j'ai cinq minutes **oinez**.*
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
 
 > **Note :** au Pays Basque, le train de banlieue de toujours est le *topoa* (la « taupe », entre Donostia et Hendaye, car il passe sous terre) et *Euskotren* relie la côte. Si tu entends *«topoa hartuko dugu»*, tu sais ce que ça veut dire : le petit train vert.

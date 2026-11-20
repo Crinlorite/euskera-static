@@ -35,7 +35,7 @@ exercises:
   prompt: 写真を撮るのが好きです = *argazkiak ___ gustatzen zait*.
   answers:
   - ateratzea
-  explanation: '*Atera* → *atera**tzea** (撮ること)。*gustatzen zait* と一緒に使う場合、動詞は *-tzea* を付けて名詞化します。'
+  explanation: '*Atera* → *atera**tzea*** (撮ること)。*gustatzen zait* と一緒に使う場合、動詞は *-tzea* を付けて名詞化します。'
 - id: ex-a2-na4-fb2
   type: fill-in-blank
   prompt: 私の一番好きな趣味は旅行です = *nire ___ gogokoena bidaiatzea da*.

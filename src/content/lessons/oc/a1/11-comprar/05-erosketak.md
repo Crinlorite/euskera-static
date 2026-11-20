@@ -164,7 +164,7 @@ Ua conversacion tipica en tot planificar:
 
 1. **Quantitat + producte:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
 2. **Demanar damb cortesia:** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **Acabar era crompa:** *Zenbat da dena? — X èuros. — Tori! — Eskerrik asko!*
+3. **Acabar era crompa:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Negacion damb producte:** *Ez dago ...rik* (damb partitiu).
 
 > **Nòta culturau:** fòrça familhes hèn es crompes "deth dia" enes botigues de barri (fruta-denda, harategia) e van ath supermercat sonque entàs productes envasadi. Ei ua barreja fòrça abituau de canaus que se nòte especiaument es dissabtes ath maitin en quinsevolh pòble.

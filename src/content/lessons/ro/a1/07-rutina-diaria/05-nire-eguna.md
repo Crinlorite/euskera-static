@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'Ora "la X" se formează cu "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'Ora "la X" se formează cu "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Dimineața merg la muncă = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Această lecție reunește tot ce s-a învățat în unitate: ora, momentele zil
 
 ## "La ora X" — cum se spune
 
-Pentru a răspunde "la (ora)", ia ora la plural și schimbă *-ak* cu **-etan** (cu `-e-` intercalat, cu excepția celor care se termină deja în vocală):
+Pentru a răspunde "la (ora)", ia ora la plural și schimbă *-ak* cu **-etan** (*hiru* și *lau* își păstrează -r-ul: *hiruretan*, *lauretan*):
 
 | Oră | "La…" |
 |---|---|
@@ -108,7 +108,10 @@ Pentru a răspunde "la (ora)", ia ora la plural și schimbă *-ak* cu **-etan** 
 | hamabiak | **hamabietan** |
 | ordu bata (ora unu) | **ordu batean** (singular, își păstrează forma) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (la cinci și jumătate) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (la șapte și un sfert) |
+| zazpiak eta bost | **zazpiak eta bostean** (la șapte și cinci: cu minute, cazul se pune la singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (la opt fără un sfert) |
 
 ## O zi întreagă — model

@@ -164,7 +164,7 @@ Ein typisches Gespräch bei der Planung:
 
 1. **Menge + Produkt:** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
 2. **Höflich bitten:** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **Den Einkauf abschließen:** *Zenbat da dena? — X Euro. — Tori! — Eskerrik asko!*
+3. **Den Einkauf abschließen:** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Verneinung mit einem Produkt:** *Ez dago ...rik* (mit Partitiv).
 
 > **Kultureller Hinweis:** Viele Familien erledigen die Einkäufe "für den Tag" in den Läden im Viertel (fruta-denda, harategia) und gehen nur für abgepackte Produkte in den Supermarkt. Es ist eine sehr verbreitete Mischung von Einkaufsmöglichkeiten, die man besonders samstagmorgens in jedem Dorf bemerkt.

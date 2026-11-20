@@ -112,7 +112,7 @@ exercises:
 >
 > ***Zenbat da gaua**?* — 1박에 얼마인가요?
 
-이번 과의 문법 포인트는 **향격 -rako / -etarako** (위해)입니다: *gau baterako* (1박 동안), *asteburu*rako* (주말 동안). A1에서 *norentzat* (누구를 위해)을 배우셨죠. 이것은 시간과 사물을 위한 버전입니다.
+이번 과의 문법 포인트는 **향격 -rako / -etarako** (위해)입니다: *gau baterako* (1박 동안), *astebururako* (주말 동안). A1에서 *norentzat* (누구를 위해)을 배우셨죠. 이것은 시간과 사물을 위한 버전입니다.
 
 ## 리셉션에서
 

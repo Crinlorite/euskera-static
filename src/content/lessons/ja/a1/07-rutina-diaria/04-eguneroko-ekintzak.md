@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (目が覚める) → 習慣形 ___ (習慣相の形に)。
   answers:
   - esnatzen
-  explanation: '子音または -tu/-du で終わる動詞は、習慣相を作るために "-tzen" を付けます: esna**tu** → esna**tzen**。'
+  explanation: '-tu/-du で終わる動詞は、習慣相を作るためにその語尾を "-tzen" に変えます: esna**tu** → esna**tzen**。'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (食べる) → 習慣形 ___ (習慣相の語尾を付けて)。
@@ -109,9 +109,12 @@ exercises:
 
 | 動詞の語末 | 習慣相の接尾辞 | 例 |
 |---|---|---|
-| 子音または `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (不規則) | **-tzen** または **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| *s, z, x, ts, tz, tx* の後の `-i` | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| それ以外の `-i` | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> 注意点が2つあります。*s, z, x, ts, tz, tx* の後では、*-tu* で終わる動詞も **-ten** を取ります (*ahaztu* → *ahazten*)。また、*-tu/-du*、*-n*、*-i* のいずれでも終わらない動詞は、そのまま **-tzen** を付けます (*atera* → *ateratzen*)。
 
 > 動詞 *jan* (食べる) は *janten* には**ならず**、*jaten* になります — 語末の "n" が消えます。*edan* → *edaten*、*egon* → *egoten* も同様です。
 

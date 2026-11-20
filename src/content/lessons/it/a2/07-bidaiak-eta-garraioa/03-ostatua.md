@@ -112,7 +112,7 @@ Sai già come arrivare; ora è il momento di **dormire**. Dall'hotel all'agritur
 >
 > ***Zenbat da gaua**?* — Quanto costa a notte?
 
-L'elemento grammaticale della lezione è il **destinativo -rako / -etarako** (per): *gau baterako* (per una notte), *asteburu*rako* (per il weekend). Lo hai visto nel livello A1 con *norentzat* (per chi); questo è il suo cugino per tempi e cose.
+L'elemento grammaticale della lezione è il **destinativo -rako / -etarako** (per): *gau baterako* (per una notte), *astebururako* (per il weekend). Lo hai visto nel livello A1 con *norentzat* (per chi); questo è il suo cugino per tempi e cose.
 
 ## Alla reception
 

@@ -135,7 +135,7 @@ exercises:
 
 ## Csomagértesítő (a vita tárgyát képező cetli)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — A csomagját a postán veheti át, hétfőtől péntekig, 8:30 és 14:30 között. Kérjük, hozza magával a személyi igazolványát.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — A csomagját a postán veheti át, hétfőtől péntekig, 8:30 és 14:30 között. Kérjük, hozza magával a személyi igazolványát.
 
 Igen: délelőtti nyitvatartás. Egyes dolgok minden nyelven ugyanolyanok. 😄
 

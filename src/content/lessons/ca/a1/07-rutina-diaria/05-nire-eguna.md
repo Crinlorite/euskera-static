@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'L''hora "a les X" es forma amb "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'L''hora "a les X" es forma amb "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Al matí vaig a la feina = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Aquesta lliçó uneix tot el que hem après en aquesta unitat: l'hora, els momen
 
 ## "A les X" — com dir-ho
 
-Per respondre "a les (hores)", agafa l'hora en plural i canvia *-ak* per **-etan** (amb `-e-` intercalada llevat de les que ja acaben en vocal):
+Per respondre "a les (hores)", agafa l'hora en plural i canvia *-ak* per **-etan** (*hiru* i *lau* conserven la -r-: *hiruretan*, *lauretan*):
 
 | Hora | "A les…" |
 |---|---|
@@ -108,7 +108,10 @@ Per respondre "a les (hores)", agafa l'hora en plural i canvia *-ak* per **-etan
 | hamabiak | **hamabietan** |
 | ordu bata (la una) | **ordu batean** (singular, conserva la seva forma) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (a dos quarts de sis) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (a un quart de vuit) |
+| zazpiak eta bost | **zazpiak eta bostean** (a les set i cinc: amb minuts, el cas va en singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (a tres quarts de vuit) |
 
 ## Un dia complet — model

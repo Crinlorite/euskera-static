@@ -134,8 +134,8 @@ Zaczynamy rozdział o podróżowaniu. Pierwszy przystanek: **środki transportu*
 
 > *— **Nola joaten zara** lanera?*
 >
-> *— Zazwyczaj **autobusez**, ale jeśli jest ładna pogoda, to **bizikletaz** lub **oinez**. A ty?*
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
 >
-> *— Ja **trenez**. Z domu na stację mam pięć minut **oinez**.*
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
 
 > **Uwaga:** w Kraju Basków pociąg podmiejski od zawsze nazywa się *topoa* („kret”, między Donostią a Hendaye, ponieważ jedzie pod ziemią), a *Euskotren* łączy wybrzeże. Jeśli usłyszysz *«topoa hartuko dugu»*, już wiesz: chodzi o ten zielony pociąg.

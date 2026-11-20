@@ -25,7 +25,7 @@ exercises:
     type: fill-in-blank
     prompt: 'Esnatu (despertarse) → forma habitual ___ (con la -n del aspecto habitual).'
     answers: [esnatzen]
-    explanation: 'Verbos acabados en consonante o en -tu/-du añaden "-tzen" para el aspecto habitual: esna**tu** → esna**tzen**.'
+    explanation: 'Verbos acabados en -tu/-du cambian esa terminación por "-tzen" para el aspecto habitual: esna**tu** → esna**tzen**.'
   - id: ex-04-ee-fb2
     type: fill-in-blank
     prompt: 'Jan (comer) → forma habitual ___ (con la terminación del aspecto habitual).'
@@ -70,9 +70,12 @@ Para decir lo que haces todos los días, el euskera usa el **aspecto habitual**:
 
 | Final del verbo | Sufijo habitual | Ejemplo |
 |---|---|---|
-| consonante o `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (irregular) | **-tzen** o **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` tras *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` en los demás casos | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Dos avisos: tras *s, z, x, ts, tz, tx* también los verbos en *-tu* toman **-ten** (*ahaztu* → *ahazten*); y los que no acaban en *-tu/-du*, *-n* ni *-i* añaden **-tzen** sin más (*atera* → *ateratzen*).
 
 > El verbo *jan* (comer) **no** se convierte en *janten* sino en *jaten* — la "n" final desaparece. Lo mismo con *edan* → *edaten*, *egon* → *egoten*.
 

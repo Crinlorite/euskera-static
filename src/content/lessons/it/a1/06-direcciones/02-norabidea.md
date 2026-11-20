@@ -168,7 +168,7 @@ In basco, l'imperativo affermativo dei verbi di movimento è molto diretto:
 - **Zeharkatu zebrabidea.** — Attraversa le strisce pedonali.
 - **Igo eskailerak eta sartu eraikinean.** — Sali le scale ed entra nell'edificio.
 - **Jaitsi aldapa, eta gero jo eskuinera.** — Scendi la salita, e poi gira a destra.
-- **Egin atzera; torna indietro, sei andato troppo oltre.** — Torna indietro; sei andato troppo oltre.
+- **Egin atzera; gehiegi joan zara.** — Torna indietro; sei andato troppo oltre.
 
 ## Chiedere e dare indicazioni
 

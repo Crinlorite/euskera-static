@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: '"X시에"라는 시간 표현은 "-(e)tan"으로 만듭니다: *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: '"X시에"라는 시간 표현은 "-etan"으로 만듭니다: *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: 아침에 직장에 갑니다 = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ exercises:
 
 ## "X시에" — 말하는 법
 
-"(몇) 시에"라고 대답하려면, 복수형 시간에서 어미 *-ak*를 **-etan**으로 바꾸세요(이미 모음으로 끝나는 경우를 제외하고 `-e-`가 중간에 삽입됩니다):
+"(몇) 시에"라고 대답하려면, 복수형 시간에서 어미 *-ak*을 **-etan**으로 바꾸세요(*hiru*와 *lau*는 -r-가 남습니다: *hiruretan*, *lauretan*):
 
 | 시간 | "~시에…" |
 |---|---|
@@ -108,7 +108,10 @@ exercises:
 | hamabiak | **hamabietan** |
 | ordu bata (1시) | **ordu batean** (단수형, 형태 유지) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (5시 30분에) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (7시 15분에) |
+| zazpiak eta bost | **zazpiak eta bostean** (7시 5분에: 분이 붙으면 격은 단수형으로 씁니다) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (8시 15분 전에) |
 
 ## 온전한 하루 — 예시

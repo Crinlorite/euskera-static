@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'For "half past" you use "eta erdiak" (literally "and halves", also plural). The number goes without "-ak" before "eta erdiak": "bost eta erdiak".'
+  explanation: 'For "half past" you use "eta erdiak" (literally "and halves"; the plural goes here). The number goes without "-ak" before "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: It's a quarter past three. How do you say it?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" means "and a quarter"; the hour is plural ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" means "and a quarter"; the hour is plural, and *hiru* becomes *hirurak* (not *hiruak*): *Hirurak eta laurden dira*. *Hiru eta laurdenak* is also correct, with the plural only on *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: It's a quarter to nine. How do you say it?
@@ -52,7 +52,8 @@ exercises:
   prompt: It's ten to four = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" means "to" or "less" in time expressions.'
+  - gutxiago
+  explanation: '"Gutxi" means "to" or "less" in time expressions; "gutxiago" is also accepted.'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: quarter to (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: to / less (in time expressions)
-  - eu: Bostak eta erdiak dira
-    es: It's half past five
   - eu: Hirurak eta laurden dira
     es: It's a quarter past three
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ For minutes in Basque, there are three constructions that cover almost everythin
 
 ## "Half past" — the special case
 
-Unlike the others, 'half past' is a special case. The word for 'half' is plural, which makes the entire expression plural:
+Unlike the others, with 'half past' the plural doesn't go on the hour but on the word for 'half': the number stays without *-ak*, and it's *erdiak* that carries it. The verb is still plural (*dira*), even at half past one:
 
 | Time | Basque |
 |---|---|
@@ -93,7 +92,7 @@ Unlike the others, 'half past' is a special case. The word for 'half' is plural,
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Notice: with *eta erdiak* the number goes **without the -ak** in front (*bost*, not *bostak*), because the plural is already carried by *erdiak*.
+> Notice: with *eta erdiak* the number goes **without the -ak** (*bost eta erdiak*, not *bostak eta erdiak*), because only *erdiak* carries the plural. The same goes for one and two o'clock: *ordu bat eta erdiak*, *ordu bi eta erdiak* (not *ordu bata…* or *ordu biak…*). This is the standard (*batua*) form; in Iparralde you'll hear the plural in both places (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "Quarter past" and minutes past
 

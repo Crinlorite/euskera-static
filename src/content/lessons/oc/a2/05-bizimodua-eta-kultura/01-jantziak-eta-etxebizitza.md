@@ -223,7 +223,7 @@ En A1 vedes eth vocabulari basic de **vestits** e **casa**. En A2 l'amplies a re
 >
 > *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
-> *(Après emprovar)*
+> *(Probatu ondoren)*
 >
 > *— **Ondo geratzen zaizkit**. Zenbat balio dute?*
 >

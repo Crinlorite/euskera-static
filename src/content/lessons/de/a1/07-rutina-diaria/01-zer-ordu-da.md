@@ -110,7 +110,7 @@ Um nach der Uhrzeit zu fragen, benutzt man **Zer ordu da?** („Wie spät ist es
 ## Warum ein Uhr und zwei Uhr besonders sind
 
 - **Ordu bata** (ein Uhr) ist **Singular**, deshalb wird es mit **da** gebildet: *Ordu bata da*.
-- Bei **Ordu biak** (zwei Uhr) steht das Wort *ordu* davor, weil *biak* allein verwechselt werden könnte – es ist die einzige Uhrzeit, bei der viele Leute zur Verdeutlichung „ordu“ hinzufügen. Die anderen (ab drei Uhr) stehen allein: *hirurak*, *laurak*, *bostak*…
+- Auch bei **Ordu biak** (zwei Uhr) steht *ordu* davor: *biak* allein bedeutet außerdem „die beiden / beide“. Das ist im *Batua* (Standardbaskisch) die übliche Form, auch wenn *biak* allein ebenfalls zulässig ist. Ab drei Uhr setzt man kein *ordu* mehr: *hirurak*, *laurak*, *bostak*… (nicht *hiru orduak*).
 
 ## Das Suffix `-ak`
 

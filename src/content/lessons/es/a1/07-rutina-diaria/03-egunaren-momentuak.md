@@ -14,13 +14,13 @@ exercises:
     prompt: '"Goizean" significa…'
     options: ["por la noche", "por la mañana", "al mediodía", "ahora mismo"]
     answer: 1
-    explanation: '"Goiz" = mañana; con el locativo "-an": "por la mañana".'
+    explanation: '"Goiz" = mañana; con el locativo "-ean": "por la mañana".'
   - id: ex-03-em-mc2
     type: multiple-choice
     prompt: 'Quieres decir "a las ocho de la mañana". ¿Cómo lo dices?'
     options: ["zortziak goizean", "goizeko zortziak", "goiz zortziak", "zortzi goizeko"]
     answer: 1
-    explanation: 'Para precisar mañana/tarde se antepone la parte del día con el sufijo "-ko": *goizeko zortziak* (las ocho de la mañana).'
+    explanation: 'Para precisar mañana/tarde se antepone la parte del día con el sufijo "-(e)ko": *goizeko zortziak* (las ocho de la mañana).'
   - id: ex-03-em-fb1
     type: fill-in-blank
     prompt: 'Por la tarde = ___ (rellena la palabra completa).'
@@ -30,7 +30,7 @@ exercises:
     type: fill-in-blank
     prompt: 'Por la noche = ___ (rellena la palabra completa).'
     answers: [gauean, Gauean]
-    explanation: '"Gau" = noche; con locativo "-an": *gauean*.'
+    explanation: '"Gau" = noche; con locativo "-ean": *gauean*.'
   - id: ex-03-em-mp
     type: match-pairs
     pairs:
@@ -93,9 +93,9 @@ Para decir cuándo (en qué momento del día) ocurre algo, añade **-(e)an** a l
 >
 > *Gauean lo egiten dut.* — Por la noche duermo.
 
-## "De la mañana / de la tarde" — sufijo `-ko`
+## "De la mañana / de la tarde" — sufijo `-(e)ko`
 
-Para precisar **a qué hora del día**, antepones la palabra con **-ko** delante de la hora:
+Para precisar **a qué hora del día**, antepones la palabra con **-(e)ko** delante de la hora:
 
 | Hora exacta | Euskera |
 |---|---|

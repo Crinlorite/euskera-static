@@ -147,7 +147,7 @@ Drugi przystanek: **kupić bilet i nie spóźnić się na pociąg**. Tutaj wykor
 
 > *— Aizu! **Zer ordutan ateratzen da** Donostiarako trena?*
 >
-> *— Hamikak **hogei gutxitan**… bi minutu barru!*
+> *— Hamaikak **hogei gutxitan**… bi minutu barru!*
 >
 > *— Ai ama! **Zein nasatatik**?*
 >

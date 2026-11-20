@@ -135,7 +135,7 @@ exercises:
 
 ## إشعار طرد (الورقة المزعجة)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — يمكنك استلام طردك من مكتب البريد، من الاثنين إلى الجمعة، من 8:30 إلى 14:30. أحضر بطاقة الهوية، من فضلك.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — يمكنك استلام طردك من مكتب البريد، من الاثنين إلى الجمعة، من 8:30 إلى 14:30. أحضر بطاقة الهوية، من فضلك.
 
 نعم: دوام صباحي. بعض الأشياء متشابهة في جميع اللغات. 😄
 

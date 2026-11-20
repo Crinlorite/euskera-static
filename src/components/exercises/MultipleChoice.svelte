@@ -1,6 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import { t } from '../../i18n/ui';
+  import { inlineMd } from '../../lib/inline-md';
   import type { LocaleCode } from '../../i18n/config';
 
   export let id: string;
@@ -56,7 +57,7 @@
     {/if}
   </p>
   {#if chosen !== null && explanation}
-    <p class="explain">{explanation}</p>
+    <p class="explain">{@html inlineMd(explanation)}</p>
   {/if}
   {/if}
 </div>

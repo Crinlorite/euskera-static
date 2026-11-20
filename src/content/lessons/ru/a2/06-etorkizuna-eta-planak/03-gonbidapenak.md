@@ -153,7 +153,7 @@ exercises:
 >
 > *— Larunbatean… **ezin dut**, familia-bazkaria daukat. 😞*
 >
-> *— Ничего страшного. А в воскресенье? **Zergatik ez dugu** hamaiketako bat **egiten** Alde Zaharrean?*
+> *— Lasai. Eta igandean? **Zergatik ez dugu** hamaiketako bat **egiten** Alde Zaharrean?*
 >
 > *— **Ondo iruditzen zait**! **Non geratuko gara**?*
 >

@@ -223,7 +223,7 @@ In A1 you learned the basic vocabulary for **clothing** and **home**. In A2 you'
 >
 > *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
-> *(After trying them on)*
+> *(Probatu ondoren)*
 >
 > *— **Ondo geratzen zaizkit**. Zenbat balio dute?*
 >

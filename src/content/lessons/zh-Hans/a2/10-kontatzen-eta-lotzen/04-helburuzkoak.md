@@ -141,7 +141,7 @@ exercises:
 
 > *— Kaixo! **Zertara zatoz** gurera?*
 >
-> *— Liburu bat **itzultzera** — eta, egia esateko, zure tarta famatua **probatzeko**.* 😄
+> *— Liburu bat **itzultzera** — eta, egia esateko, zure tarta famatua **probatzera**.* 😄
 >
 > *— Jakina! Horretarako **egin dut**: **partekatzeko**.*
 >

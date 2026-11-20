@@ -21,7 +21,7 @@ exercises:
   - فالظهر
   - دابا نيت
   answer: 1
-  explanation: '"Goiz" = الصباح؛ مع اللاحقة ديال المكان/الوقت "-an": "فالصباح".'
+  explanation: '"Goiz" = الصباح؛ مع اللاحقة ديال المكان/الوقت "-ean": "فالصباح".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: بغيتي تقول "الثمنية ديال الصباح". كيفاش تقولها؟
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'باش تحدد الصباح/العشية، كاتحط جزء النهار قبل الساعة مع اللاحقة "-ko": *goizeko zortziak* (الثمنية ديال الصباح).'
+  explanation: 'باش تحدد الصباح/العشية، كاتحط جزء النهار قبل الساعة مع اللاحقة "-(e)ko": *goizeko zortziak* (الثمنية ديال الصباح).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: فالعشية = ___ (عمّر الكلمة كاملة).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = الليل؛ مع اللاحقة "-an": *gauean*.'
+  explanation: '"Gau" = الليل؛ مع اللاحقة "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ exercises:
 >
 > *Gauean lo egiten dut.* — فالليل كانعس.
 
-## "ديال الصباح / ديال العشية" — اللاحقة `-ko`
+## "ديال الصباح / ديال العشية" — اللاحقة `-(e)ko`
 
-باش تحدد **شمن ساعة فالنهار**، كاتحط الكلمة مع **-ko** قبل الساعة:
+باش تحدد **شمن ساعة فالنهار**، كاتحط الكلمة مع **-(e)ko** قبل الساعة:
 
 | الساعة بالضبط | الباسكية |
 |---|---|

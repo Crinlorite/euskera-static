@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'Die Uhrzeit "um X" wird mit "-(e)tan" gebildet: *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'Die Uhrzeit "um X" wird mit "-etan" gebildet: *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Morgens gehe ich zur Arbeit = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Diese Lektion verbindet alles aus dieser Einheit: Uhrzeit, Tageszeiten, Verben f
 
 ## "Um X" — wie man es sagt
 
-Um "um (Uhrzeit)" zu antworten, nimm die Uhrzeit im Plural und ersetze *-ak* durch **-etan** (mit eingeschobenem `-e-`, außer bei denen, die bereits auf einen Vokal enden):
+Um "um (Uhrzeit)" zu antworten, nimm die Uhrzeit im Plural und ersetze *-ak* durch **-etan** (*hiru* und *lau* behalten ihr -r-: *hiruretan*, *lauretan*):
 
 | Uhrzeit | "Um…" |
 |---|---|
@@ -108,7 +108,10 @@ Um "um (Uhrzeit)" zu antworten, nimm die Uhrzeit im Plural und ersetze *-ak* dur
 | hamabiak | **hamabietan** |
 | ordu bata (ein Uhr) | **ordu batean** (Singular, behält seine Form) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (um halb sechs) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (um Viertel nach sieben) |
+| zazpiak eta bost | **zazpiak eta bostean** (um fünf nach sieben: mit Minuten steht der Kasus im Singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (um Viertel vor acht) |
 
 ## Ein ganzer Tag – Beispiel

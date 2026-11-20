@@ -49,13 +49,13 @@ exercises:
   - Museoa irekita dago, ez dakit
   - Ez dakit ea museoa irekita zegoen atzo
   answer: 1
-  explanation: 'Question indirecte au futur : *egongo da* → *egongo de**n**. Avec *-la*, ce serait une affirmation (« qu''il est »), pas un doute.'
+  explanation: 'Question indirecte au futur : *egongo da* → *egongo de**n***. Avec *-la*, ce serait une affirmation (« qu''il est »), pas un doute.'
 - id: ex-a2-ko5-fb1
   type: fill-in-blank
   prompt: RÉVISION · Quand j'étais petite, j'allais souvent à la plage = *txikia* ___, *hondartzara joan ohi nintzen*.
   answers:
   - nintzenean
-  explanation: 'Passé + *-nean* (*denborazkoak*) + *ohi* (habitude) : *txikia nintzen**ean**, *joan **ohi** nintzen*. Deux pièces de l''unité, réunies.'
+  explanation: 'Passé + *-nean* (*denborazkoak*) + *ohi* (habitude) : *txikia nintzen**ean***, *joan **ohi** nintzen*. Deux pièces de l''unité, réunies.'
 - id: ex-a2-ko5-fb2
   type: fill-in-blank
   prompt: RÉVISION · Nous sommes venus fêter ton anniversaire = *zure urtebetetzea* ___ *etorri gara*.

@@ -203,8 +203,8 @@ Cele trei coexistă. La A2, produci primele două și le recunoști pe toate.
 
 > *— Anboto, **etor zaitezke** bihar afaltzera?*
 >
-> *— Ei, **ezin dut**: am mult de lucru și nu mă pot mișca până târziu. Dar săptămâna viitoare **etor naiteke**, și ce pot aduce (**dezaket**)?*
+> *— Tira, **ezin dut**: lan asko daukat eta berandu arte ezin naiz mugitu. Baina hurrengo astean **etor naiteke**, eta zer ekar **dezaket**?*
 >
-> *— **Ekar dezakezu** o sticlă de vin, asta ne place mult.*
+> *— **Ekar dezakezu** ardo botila bat, hori asko gustatzen zaigu.*
 
 > **Notă pedagogică:** la A2 cel mai util este să stăpânești bine *ezin dut/naiz* pentru "nu pot" și *ahal duzu?* pentru a întreba. Formele sintetice (*dezaket, naiteke*) le vei integra prin lectură. Unitatea B1 le aprofundează.

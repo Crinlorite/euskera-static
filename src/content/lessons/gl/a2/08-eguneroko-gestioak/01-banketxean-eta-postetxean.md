@@ -129,13 +129,13 @@ Nova unidade: **a vida práctica**. Ninguén viaxa todos os días, pero todo o m
 >
 > *— **Arrunta ala ziurtagiriarekin**?* — Normal ou certificado?
 >
-> *— Ziurtagiriarekin, mesedez. É importante.*
+> *— Ziurtagiriarekin, mesedez. Garrantzitsua da.*
 >
 > *— Ederki. **Hemen sinatu**, mesedez.* — Perfecto. Asine aquí, por favor.
 
 ## Aviso de paquete (o papelucho da discordia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Pode recoller o seu paquete en Correos, de luns a venres, de 8:30 a 14:30. Traia o DNI, por favor.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Pode recoller o seu paquete en Correos, de luns a venres, de 8:30 a 14:30. Traia o DNI, por favor.
 
 Si: horario de mañá. Algunhas cousas son iguais en todos os idiomas. 😄
 

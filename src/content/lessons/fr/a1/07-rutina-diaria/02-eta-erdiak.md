@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Pour « et demie » on utilise « eta erdiak » (littéralement « et demies », aussi au pluriel). Le nombre se met sans « -ak » devant « eta erdiak » : « bost eta erdiak ».'
+  explanation: 'Pour « et demie » on utilise « eta erdiak » (littéralement « et demies » ; le pluriel se met ici). Le nombre se met sans « -ak » devant « eta erdiak » : « bost eta erdiak ».'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Il est trois heures et quart. Comment le dis-tu ?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '« Eta laurden » signifie « et quart » ; l''heure se met au pluriel (« hirurak ») : *Hirurak eta laurden dira*.'
+  explanation: '« Eta laurden » signifie « et quart » ; l''heure se met au pluriel, et *hiru* donne *hirurak* (et non *hiruak*) : *Hirurak eta laurden dira*. On peut aussi dire *hiru eta laurdenak*, avec le pluriel uniquement sur *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Il est neuf heures moins le quart. Comment le dis-tu ?
@@ -52,7 +52,8 @@ exercises:
   prompt: Il est quatre heures moins dix = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: « Gutxi » signifie « moins » dans les expressions de l'heure.
+  - gutxiago
+  explanation: « Gutxi » signifie « moins » dans les expressions de l'heure ; « gutxiago » est aussi accepté.
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: moins le quart (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: moins (dans les expressions de l'heure)
-  - eu: Bostak eta erdiak dira
-    es: Il est cinq heures et demie
   - eu: Hirurak eta laurden dira
     es: Il est trois heures et quart
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Pour les minutes en basque, il y a trois constructions qui couvrent presque tout
 
 ## « Et demie » — le cas particulier
 
-Contrairement au reste, « et demie » fait que l'heure se dit aussi au pluriel — et le mot « demie » également :
+Contrairement au reste, avec « et demie » le pluriel ne porte pas sur l'heure mais sur le mot « demie » : le nombre reste sans *-ak*, et c'est *erdiak* qui le porte. Le verbe reste au pluriel (*dira*), même à une heure et demie :
 
 | Heure | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ Contrairement au reste, « et demie » fait que l'heure se dit aussi au pluriel 
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Remarque : avec *eta erdiak*, le nombre se met **sans le -ak** devant (*bost*, et non *bostak*), car le pluriel est déjà porté par *erdiak*.
+> Remarque : avec *eta erdiak*, le nombre se met **sans le -ak** (*bost eta erdiak*, et non *bostak eta erdiak*), car seul *erdiak* porte le pluriel. Même chose à une heure et à deux heures : *ordu bat eta erdiak*, *ordu bi eta erdiak* (et non *ordu bata…* ni *ordu biak…*). C'est la forme du *batua* ; en Iparralde, tu entendras le pluriel aux deux endroits (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## « Et quart » et les minutes passées
 

@@ -112,7 +112,7 @@ Vous savez déjà comment arriver ; maintenant, il est temps de **dormir**. De l
 >
 > ***Zenbat da gaua**?* — Combien coûte la nuit ?
 
-Le point de grammaire de la leçon est le **destinatif -rako / -etarako** (pour) : *gau baterako* (pour une nuit), *asteburu*rako* (pour le week-end). Vous l'avez vu en A1 avec *norentzat* (pour qui) ; celui-ci est son cousin pour les temps et les choses.
+Le point de grammaire de la leçon est le **destinatif -rako / -etarako** (pour) : *gau baterako* (pour une nuit), *astebururako* (pour le week-end). Vous l'avez vu en A1 avec *norentzat* (pour qui) ; celui-ci est son cousin pour les temps et les choses.
 
 ## À la réception
 

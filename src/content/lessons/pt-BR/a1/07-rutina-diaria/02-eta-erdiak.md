@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Para "e meia" usa-se "eta erdiak" (literalmente "e meias", também plural). O número vai sem "-ak" antes de "eta erdiak": "bost eta erdiak".'
+  explanation: 'Para "e meia" usa-se "eta erdiak" (literalmente "e meias"; o plural vai aqui). O número vai sem "-ak" antes de "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: São três e quinze. Como você diz isso?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" significa "e um quarto" (usado como "e quinze"); a hora vai no plural ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" significa "e um quarto" (usado como "e quinze"); a hora vai no plural, e *hiru* vira *hirurak* (não *hiruak*): *Hirurak eta laurden dira*. Também é correto *hiru eta laurdenak*, com o plural só em *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: São quinze para as nove. Como você diz isso?
@@ -52,7 +52,8 @@ exercises:
   prompt: São quatro menos dez = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" significa "menos" em expressões de hora.'
+  - gutxiago
+  explanation: '"Gutxi" significa "menos" em expressões de hora; também se aceita "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: menos um quarto (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: menos (em expressões de hora)
-  - eu: Bostak eta erdiak dira
-    es: São cinco e meia
   - eu: Hirurak eta laurden dira
     es: São três e quinze
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Para os minutos em euskera, há três construções que dominam quase tudo: **et
 
 ## "E meia" — o caso especial
 
-Diferentemente do resto, "e meia" faz com que a hora também seja dita no plural — e a palavra "meia" também:
+Diferentemente do resto, com "e meia" o plural não vai na hora, mas na palavra "meia": o número fica sem *-ak* e é *erdiak* que o leva. O verbo continua no plural (*dira*), mesmo à uma e meia:
 
 | Hora | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ Diferentemente do resto, "e meia" faz com que a hora também seja dita no plural
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Repare: com *eta erdiak* o número vai **sem o -ak** antes (*bost*, não *bostak*), porque o plural já está em *erdiak*.
+> Repare: com *eta erdiak* o número vai **sem o -ak** (*bost eta erdiak*, não *bostak eta erdiak*), porque só *erdiak* leva o plural. Com uma e duas horas, a mesma coisa: *ordu bat eta erdiak*, *ordu bi eta erdiak* (não *ordu bata…* nem *ordu biak…*). É a forma do batua; em Iparralde você vai ouvir o plural nos dois lugares (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "E um quarto" e minutos passados
 

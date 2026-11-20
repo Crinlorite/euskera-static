@@ -49,13 +49,13 @@ exercises:
   - Museoa irekita dago, ez dakit
   - Ez dakit ea museoa irekita zegoen atzo
   answer: 1
-  explanation: 'Pregunta indirècta en futur: *egongo da* → *egongo de**n**. Damb *-la* serie ua afirmacion («que i ei»), non un dobte.'
+  explanation: 'Pregunta indirècta en futur: *egongo da* → *egongo de**n***. Damb *-la* serie ua afirmacion («que i ei»), non un dobte.'
 - id: ex-a2-ko5-fb1
   type: fill-in-blank
   prompt: REPÀS · Quan èri petita, solie anar ara platja = *txikia* ___, *hondartzara joan ohi nintzen*.
   answers:
   - nintzenean
-  explanation: 'Passat + *-nean* (*denborazkoak*) + *ohi* (abit): *txikia nintzen**ean**, *joan **ohi** nintzen*. Dues pèces dera unitat, amassa.'
+  explanation: 'Passat + *-nean* (*denborazkoak*) + *ohi* (abit): *txikia nintzen**ean***, *joan **ohi** nintzen*. Dues pèces dera unitat, amassa.'
 - id: ex-a2-ko5-fb2
   type: fill-in-blank
   prompt: REPÀS · Auem viengut a celebrar eth tiu aniversari = *zure urtebetetzea* ___ *etorri gara*.

@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Für „halb“ verwendet man „eta erdiak“ (wörtlich „und Hälften“, ebenfalls Plural). Die Zahl steht ohne „-ak“ vor „eta erdiak“: „bost eta erdiak“.'
+  explanation: 'Für „halb“ verwendet man „eta erdiak“ (wörtlich „und Hälften“; der Plural steht hier). Die Zahl steht ohne „-ak“ vor „eta erdiak“: „bost eta erdiak“.'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Es ist Viertel nach drei. Wie sagst du das?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '„Eta laurden“ bedeutet „Viertel nach“; die Uhrzeit steht im Plural („hirurak“): *Hirurak eta laurden dira*.'
+  explanation: '„Eta laurden“ bedeutet „Viertel nach“; die Uhrzeit steht im Plural, und aus *hiru* wird *hirurak* (nicht *hiruak*): *Hirurak eta laurden dira*. Richtig ist auch *hiru eta laurdenak*, mit dem Plural nur an *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Es ist Viertel vor neun. Wie sagst du das?
@@ -49,10 +49,11 @@ exercises:
   explanation: Minuten nach der vollen Stunde werden mit „eta + Zahl“ ausgedrückt. Fünf = bost.
 - id: ex-02-ee-fb2
   type: fill-in-blank
-  prompt: Es ist zehn vor vier = Lauak hamar ___ dira.
+  prompt: Es ist zehn vor vier = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: „Gutxi“ bedeutet „vor“ in Zeitangaben.
+  - gutxiago
+  explanation: „Gutxi“ bedeutet „vor“ in Zeitangaben; auch „gutxiago“ ist zulässig.
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: Viertel vor (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: vor (in Zeitangaben)
-  - eu: Bostak eta erdiak dira
-    es: Es ist halb sechs
   - eu: Hirurak eta laurden dira
     es: Es ist Viertel nach drei
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Für die Minuten gibt es im Baskischen drei Konstruktionen, die fast alles abdec
 
 ## „Halb“ — der Sonderfall
 
-Anders als bei den anderen Angaben sorgt „halb“ dafür, dass auch die Stunde im Plural steht — und das Wort für „halb“ ebenfalls:
+Anders als bei den anderen Angaben steht bei „halb“ der Plural nicht an der Stunde, sondern am Wort für „halb“: Die Zahl bleibt ohne *-ak*, und *erdiak* trägt den Plural. Das Verb bleibt im Plural (*dira*), auch um 1:30:
 
 | Uhrzeit | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ Anders als bei den anderen Angaben sorgt „halb“ dafür, dass auch die Stunde
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Beachte: Mit *eta erdiak* steht die Zahl **ohne das -ak** davor (*bost*, nicht *bostak*), weil *erdiak* bereits den Plural trägt.
+> Beachte: Mit *eta erdiak* steht die Zahl **ohne das -ak** (*bost eta erdiak*, nicht *bostak eta erdiak*), weil nur *erdiak* den Plural trägt. Bei 1:30 und 2:30 genauso: *ordu bat eta erdiak*, *ordu bi eta erdiak* (nicht *ordu bata…* oder *ordu biak…*). Das ist die Form des *Batua*; in Iparralde hörst du den Plural an beiden Stellen (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## „Viertel nach“ und Minuten nach der Stunde
 

@@ -134,8 +134,8 @@ Empecipia a unidat viachera. Primera aturada: **os medios de transporte** y os v
 
 > *— **Nola joaten zara** lanera?*
 >
-> *— Normalment **autobusez**, pero si fa buen orache, **bizikletaz** u **oinez**. Y tu?*
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
 >
-> *— Ni **trenez**. De casa a la gara tiengo cinco minutos **oinez**.*
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
 
 > **Nota:** en Euskal Herria o tren de redolada de toda a vida ye o *topoa* (o "topo", entre Donostia y Hendaia, porque va baixo tierra) y *Euskotren* conecta a costa. Si sientes *«topoa hartuko dugu»*, ya sabes: o trenet verde.

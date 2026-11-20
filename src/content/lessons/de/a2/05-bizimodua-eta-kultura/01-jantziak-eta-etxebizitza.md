@@ -223,7 +223,7 @@ In A1 hast du den Grundwortschatz für **Kleidung** und **Haus** gelernt. In A2 
 >
 > *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
-> *(Nach dem Anprobieren)*
+> *(Probatu ondoren)*
 >
 > *— **Ondo geratzen zaizkit**. Zenbat balio dute?*
 >

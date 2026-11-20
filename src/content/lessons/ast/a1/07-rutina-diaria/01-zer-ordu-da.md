@@ -110,7 +110,7 @@ Pa entrugar la hora úsase **Zer ordu da?** ("¿qué hora ye?").
 ## Por qué la una y les dos son especiales
 
 - **Ordu bata** (la una) ye **singular**, asina que se diz con **da**: *Ordu bata da*.
-- **Ordu biak** (les dos) lleva la pallabra *ordu* delantre porque *biak* sola podría enguedeyase — ye la única hora onde muncha xente amiesta "ordu" pa más claridá. Les demás (a partir de les trés) van soles: *hirurak*, *laurak*, *bostak*…
+- **Ordu biak** (les dos) tamién lleva *ordu* delantre: *biak* sola significa amás "los dos / dambos". Ye la forma habitual en batua (tamién s'almite *biak* sola). A partir de les trés yá nun se pon *ordu*: *hirurak*, *laurak*, *bostak*… (non *hiru orduak*).
 
 ## El sufixu `-ak`
 

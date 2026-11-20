@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (يستيقظ) → الصيغة الاعتيادية ___ (مع لاحقة الصيغة الاعتيادية).
   answers:
   - esnatzen
-  explanation: 'الأفعال التي تنتهي بحرف ساكن أو بـ -tu/-du تضيف "-tzen" للصيغة الاعتيادية: esna**tu** → esna**tzen**.'
+  explanation: 'الأفعال التي تنتهي بـ -tu/-du تتحول نهايتها هذه إلى "-tzen" في الصيغة الاعتيادية: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (يأكل) → الصيغة الاعتيادية ___ (مع نهاية الصيغة الاعتيادية).
@@ -109,9 +109,12 @@ exercises:
 
 | نهاية الفعل | اللاحقة الاعتيادية | مثال |
 |---|---|---|
-| حرف ساكن أو `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (غير قياسي) | **-tzen** أو **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` بعد *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` في الحالات الأخرى | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> تنبيهان: بعد *s, z, x, ts, tz, tx* تأخذ الأفعال المنتهية بـ *-tu* أيضًا **-ten** (*ahaztu* → *ahazten*)؛ أما الأفعال التي لا تنتهي بـ *-tu/-du* ولا بـ *-n* ولا بـ *-i* فتُضاف إليها **-tzen** مباشرةً (*atera* → *ateratzen*).
 
 > الفعل *jan* (يأكل) **لا** يتحول إلى *janten* بل إلى *jaten* — حرف "n" الأخير يختفي. نفس الشيء مع *edan* → *edaten*, *egon* → *egoten*.
 

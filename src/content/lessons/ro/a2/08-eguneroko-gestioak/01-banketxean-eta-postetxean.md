@@ -135,7 +135,7 @@ Unitate nouă: **viața practică**. Nimeni nu călătorește în fiecare zi, da
 
 ## Aviz de colet (hârtiuța discordiei)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Puteți ridica coletul de la poștă, de luni până vineri, de la 8:30 la 14:30. Aduceți buletinul, vă rog.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Puteți ridica coletul de la poștă, de luni până vineri, de la 8:30 la 14:30. Aduceți buletinul, vă rog.
 
 Da: program de dimineață. Unele lucruri sunt la fel în toate limbile. 😄
 

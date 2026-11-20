@@ -112,7 +112,7 @@ Xa sabes chegar; agora toca **durmir**. Do hotel á casa rural (*landetxea* — 
 >
 > ***Zenbat da gaua**?* — Canto é a noite?
 
-A peza gramatical da lección é o **destinativo -rako / -etarako** (para): *gau baterako* (para unha noite), *asteburu*rako* (para a finde). Viches isto no A1 con *norentzat* (para quen); isto é o seu curmán para tempos e cousas.
+A peza gramatical da lección é o **destinativo -rako / -etarako** (para): *gau baterako* (para unha noite), *astebururako* (para a finde). Viches isto no A1 con *norentzat* (para quen); isto é o seu curmán para tempos e cousas.
 
 ## Na recepción
 

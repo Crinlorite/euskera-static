@@ -21,7 +21,7 @@ exercises:
   - am Mittag
   - jetzt sofort
   answer: 1
-  explanation: '"Goiz" = Morgen; mit dem Lokativ "-an": „am Morgen“.'
+  explanation: '"Goiz" = Morgen; mit dem Lokativ "-ean": „am Morgen“.'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Du möchtest „acht Uhr morgens“ sagen. Wie sagst du das?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Um anzugeben, ob es morgens/nachmittags ist, stellt man die Tageszeit mit dem Suffix „-ko“ voran: *goizeko zortziak* (acht Uhr morgens).'
+  explanation: 'Um anzugeben, ob es morgens/nachmittags ist, stellt man die Tageszeit mit dem Suffix „-(e)ko“ voran: *goizeko zortziak* (acht Uhr morgens).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Am Nachmittag = ___ (fülle das ganze Wort aus).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = Nacht; mit dem Lokativ "-an": *gauean*.'
+  explanation: '"Gau" = Nacht; mit dem Lokativ "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Um zu sagen, wann (zu welcher Tageszeit) etwas passiert, füge **-(e)an** an den
 >
 > *Gauean lo egiten dut.* — In der Nacht schlafe ich.
 
-## „Vom Morgen / vom Nachmittag“ — Suffix `-ko`
+## „Vom Morgen / vom Nachmittag“ — Suffix `-(e)ko`
 
-Um anzugeben, **zu welcher Tageszeit**, stellst du das Wort mit **-ko** vor die Uhrzeit:
+Um anzugeben, **zu welcher Tageszeit**, stellst du das Wort mit **-(e)ko** vor die Uhrzeit:
 
 | Genaue Uhrzeit | Baskisch |
 |---|---|

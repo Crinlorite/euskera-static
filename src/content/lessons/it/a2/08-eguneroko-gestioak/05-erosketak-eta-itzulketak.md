@@ -119,7 +119,7 @@ Sapevi già come fare acquisti dal livello A1. Questa lezione è il **livello 2 
 >
 > *— Noski, **probalekua** hor atzean dago.*
 >
-> *(cinque minuti dopo)* *— Zer, **ondo geratzen zaizkizu**?*
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
 >
 > *— Ez… **txikiegiak dira**. **42an baduzue**?*
 

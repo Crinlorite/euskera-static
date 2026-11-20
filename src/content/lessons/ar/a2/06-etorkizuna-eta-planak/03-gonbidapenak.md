@@ -149,15 +149,15 @@ exercises:
 
 ## حوار كامل
 
-> *— مرحبًا، Maite! يوم السبت هناك حفل موسيقي في Kafe Antzokian. **Etorri nahi duzu**?*
+> *— Aizu, Maite! Larunbatean kontzertu bat dago Kafe Antzokian. **Etorri nahi duzu**?*
 >
-> *— يوم السبت... **ezin dut**، لدي غداء عائلي. 😞*
+> *— Larunbatean… **ezin dut**, familia-bazkaria daukat. 😞*
 >
-> *— لا بأس. وماذا عن يوم الأحد؟ **Zergatik ez dugu** hamaiketako bat **egiten** Alde Zaharrean?*
+> *— Lasai. Eta igandean? **Zergatik ez dugu** hamaiketako bat **egiten** Alde Zaharrean?*
 >
 > *— **Ondo iruditzen zait**! **Non geratuko gara**?*
 >
-> *— في Plaza Berria، في **hamaiketan**. أول *pote* **على حسابي**!*
+> *— Plaza Berrian, **hamaiketan**. **Nire kontu** lehenengo potea!*
 >
 > *— **Primeran**! Han **egongo naiz**.*
 

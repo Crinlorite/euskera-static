@@ -110,7 +110,7 @@ exercises:
 ## 1시와 2시가 특별한 이유
 
 - **Ordu bata**(1시)는 **단수**이므로 **da**와 함께 써서 *Ordu bata da*라고 해요.
-- **Ordu biak**(2시)는 앞에 *ordu*라는 단어가 붙는데, *biak*만 쓰면 헷갈릴 수 있기 때문이에요. 명확하게 하기 위해 많은 사람들이 "ordu"를 덧붙이는 유일한 시간이죠. 나머지(3시부터)는 단독으로 써요: *hirurak*, *laurak*, *bostak*…
+- **Ordu biak**(2시)도 앞에 *ordu*가 붙어요. *biak*만 쓰면 '둘 다 / 두 개'라는 뜻도 되기 때문이에요. 표준 바스크어(*batua*)에서는 이 형태가 일반적이에요(*biak*만 써도 인정돼요). 3시부터는 *ordu*를 붙이지 않아요: *hirurak*, *laurak*, *bostak*…(*hiru orduak*이라고 하지 않아요).
 
 ## 접미사 `-ak`
 

@@ -135,7 +135,7 @@ exercises:
 
 ## ورقة الإشعار ديال الكولي (الورقة اللي كتنرفز)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — تقدر تشد الكولي ديالك من البوسطة، من الاثنين حتى الجمعة، من 8:30 حتى 14:30. جيب البطاقة الوطنية عافاك.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — تقدر تشد الكولي ديالك من البوسطة، من الاثنين حتى الجمعة، من 8:30 حتى 14:30. جيب البطاقة الوطنية عافاك.
 
 إيه: غير فالصباح. شي حوايج بحال بحال فكاع اللغات. 😄
 

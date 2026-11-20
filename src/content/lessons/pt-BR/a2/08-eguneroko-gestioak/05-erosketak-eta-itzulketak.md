@@ -119,7 +119,7 @@ Você já sabia comprar desde o A1. Esta lição é o **nível 2 de loja**: expe
 >
 > *— Noski, **probalekua** hor atzean dago.*
 >
-> *(cinco minutos depois)* *— Zer, **ondo geratzen zaizkizu**?*
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
 >
 > *— Ez… **txikiegiak dira**. **42an baduzue**?*
 

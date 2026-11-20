@@ -112,7 +112,7 @@ Ya sabes plegar; agora toca **dormir**. De l'hotel a la casa rural (*landetxea* 
 >
 > ***Zenbat da gaua**?* — Quanto ye a nueit?
 
-A pieza gramatical d'a lección ye o **destinativo -rako / -etarako** (ta): *gau baterako* (ta una nueit), *asteburu*rako* (t'o finde). Lo viés en A1 con *norentzat* (ta qui); isto ye o suyo primo ta tiempos y cosas.
+A pieza gramatical d'a lección ye o **destinativo -rako / -etarako** (ta): *gau baterako* (ta una nueit), *astebururako* (t'o finde). Lo viés en A1 con *norentzat* (ta qui); isto ye o suyo primo ta tiempos y cosas.
 
 ## En a recepción
 

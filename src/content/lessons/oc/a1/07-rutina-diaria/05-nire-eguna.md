@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'Era ora "as X" se fòrme damb "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'Era ora "as X" se fòrme damb "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Peth maitin vau ath trabalh = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Aguesta leçon amasse tot çò dera unitat: era ora, es moments deth dia, es vè
 
 ## "As X" — cossí díder-ac
 
-Entà respóner "as (ores)", pren era ora en plurau e cambia *-ak* per **-etan** (damb `-e-` intercalada exceptat enes que ja acaben en vocau):
+Entà respóner "as (ores)", pren era ora en plurau e cambia *-ak* per **-etan** (*hiru* e *lau* mantien era -r-: *hiruretan*, *lauretan*):
 
 | Ora | "As…" |
 |---|---|
@@ -108,7 +108,10 @@ Entà respóner "as (ores)", pren era ora en plurau e cambia *-ak* per **-etan**
 | hamabiak | **hamabietan** |
 | ordu bata (era ua) | **ordu batean** (singular, consèrve era sua forma) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (as cinc e mieja) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (as sèt e quart) |
+| zazpiak eta bost | **zazpiak eta bostean** (as sèt e cinc: damb minutes, eth cas va en singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (as ueit mens quart) |
 
 ## Un dia complet — modèl

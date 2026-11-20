@@ -49,7 +49,7 @@ exercises:
   - Museoa irekita dago, ez dakit
   - Ez dakit ea museoa irekita zegoen atzo
   answer: 1
-  explanation: 将来时的间接问句：*egongo da* → *egongo de**n**。使用 *-la* 会是肯定陈述（“它开着”），而不是疑问。
+  explanation: 将来时的间接问句：*egongo da* → *egongo de**n***。使用 *-la* 会是肯定陈述（“它开着”），而不是疑问。
 - id: ex-a2-ko5-fb1
   type: fill-in-blank
   prompt: 复习 · “当我小的时候，我常去海滩” = *txikia* ___, *hondartzara joan ohi nintzen*。

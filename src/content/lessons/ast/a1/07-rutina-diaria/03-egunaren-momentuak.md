@@ -21,7 +21,7 @@ exercises:
   - al mediudía
   - agora mesmo
   answer: 1
-  explanation: '"Goiz" = mañana; col llocativu "-an": "pela mañana".'
+  explanation: '"Goiz" = mañana; col llocativu "-ean": "pela mañana".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Quies dicir "a les ocho de la mañana". ¿Cómo lo dices?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Pa precisar mañana/tarde antepónse la parte del día col sufixu "-ko": *goizeko zortziak* (les ocho de la mañana).'
+  explanation: 'Pa precisar mañana/tarde antepónse la parte del día col sufixu "-(e)ko": *goizeko zortziak* (les ocho de la mañana).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Pela tarde = ___ (rellena la pallabra completa).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = nueche; con llocativu "-an": *gauean*.'
+  explanation: '"Gau" = nueche; con llocativu "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Pa dicir cuándo (en qué momentu del día) asocede daqué, añade **-(e)an** a 
 >
 > *Gauean lo egiten dut.* — Pela nueche duermo.
 
-## "De la mañana / de la tarde" — sufixu `-ko`
+## "De la mañana / de la tarde" — sufixu `-(e)ko`
 
-Pa precisar **a qué hora del día**, antepones la pallabra con **-ko** delantre de la hora:
+Pa precisar **a qué hora del día**, antepones la pallabra con **-(e)ko** delantre de la hora:
 
 | Hora exauta | Eusquera |
 |---|---|

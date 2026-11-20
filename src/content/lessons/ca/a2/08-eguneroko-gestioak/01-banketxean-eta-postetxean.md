@@ -135,7 +135,7 @@ Nova unitat: **la vida pràctica**. Ningú no viatja cada dia, però tothom acab
 
 ## Avís de paquet (el paperet de la discòrdia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Pot recollir el seu paquet a correus, de dilluns a divendres, de 8:30 a 14:30. Porti el DNI, si us plau.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Pot recollir el seu paquet a correus, de dilluns a divendres, de 8:30 a 14:30. Porti el DNI, si us plau.
 
 Sí: horari de matí. Algunes coses són iguals en tots els idiomes. 😄
 

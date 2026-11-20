@@ -112,7 +112,7 @@ Ja saps com arribar-hi; ara toca **dormir**. De l'hotel a la casa rural (*landet
 >
 > ***Zenbat da gaua**?* — Quant costa la nit?
 
-La peça gramatical de la lliçó és el **destinatiu -rako / -etarako** (per a): *gau baterako* (per a una nit), *asteburu*rako* (per al cap de setmana). El vas veure a l'A1 amb *norentzat* (per a qui); aquest és el seu cosí per a temps i coses.
+La peça gramatical de la lliçó és el **destinatiu -rako / -etarako** (per a): *gau baterako* (per a una nit), *astebururako* (per al cap de setmana). El vas veure a l'A1 amb *norentzat* (per a qui); aquest és el seu cosí per a temps i coses.
 
 ## A la recepció
 

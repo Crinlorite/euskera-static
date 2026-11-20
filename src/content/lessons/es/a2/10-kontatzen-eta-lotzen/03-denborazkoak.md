@@ -112,7 +112,7 @@ Se monta sobre el **-n** que aprendiste ayer en las zehar-galderak (¿ves cómo 
 
 > *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
 >
-> *— Ez. Deitu **lana bukatzen dudanean** — seiak **ondoren**.*
+> *— Ez. Deitu **lana bukatzen dudanean** — seien **ondoren**.*
 >
 > *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
 >

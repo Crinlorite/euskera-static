@@ -135,7 +135,7 @@ exercises:
 
 ## 小包の通知 (あの不在票のことです)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — 小包は郵便局で受け取れます。月曜日から金曜日の8:30から14:30までです。身分証明書（DNI）をお持ちください。
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — 小包は郵便局で受け取れます。月曜日から金曜日の8:30から14:30までです。身分証明書（DNI）をお持ちください。
 
 そう、午前中だけです。どの言語でも同じことがありますね。😄
 

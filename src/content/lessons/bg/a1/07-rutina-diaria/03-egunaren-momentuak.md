@@ -21,7 +21,7 @@ exercises:
   - по обяд
   - точно сега
   answer: 1
-  explanation: '"Goiz" = сутрин; с локатива "-an": "сутринта".'
+  explanation: '"Goiz" = сутрин; с локатива "-ean": "сутринта".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Искаш да кажеш "в осем часа сутринта". Как го казваш?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'За да уточниш сутрин/следобед, частта от деня с наставката "-ko" се поставя пред часа: *goizeko zortziak* (осем часа сутринта).'
+  explanation: 'За да уточниш сутрин/следобед, частта от деня с наставката "-(e)ko" се поставя пред часа: *goizeko zortziak* (осем часа сутринта).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Следобед = ___ (попълни цялата дума).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = нощ; с локатива "-an": *gauean*.'
+  explanation: '"Gau" = нощ; с локатива "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ exercises:
 >
 > *Gauean lo egiten dut.* — През нощта спя.
 
-## "Сутринта / следобед" при точен час — наставка `-ko`
+## "Сутринта / следобед" при точен час — наставка `-(e)ko`
 
-За да уточниш **в коя част от деня** е часът, поставяш думата с **-ko** пред часа:
+За да уточниш **в коя част от деня** е часът, поставяш думата с **-(e)ko** пред часа:
 
 | Точен час | Euskera |
 |---|---|

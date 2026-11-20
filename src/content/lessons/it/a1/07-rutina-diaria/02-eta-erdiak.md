@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Per "e mezza" si usa "eta erdiak" (letteralmente "e mezze", al plurale). Il numero va senza "-ak" prima di "eta erdiak": "bost eta erdiak".'
+  explanation: 'Per "e mezza" si usa "eta erdiak" (letteralmente "e mezze"; il plurale va qui). Il numero va senza "-ak" prima di "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Sono le tre e un quarto. Come lo dici?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" significa "e un quarto"; l''ora va al plurale ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" significa "e un quarto"; l''ora va al plurale, e *hiru* diventa *hirurak* (non *hiruak*): *Hirurak eta laurden dira*. È corretto anche *hiru eta laurdenak*, con il plurale solo in *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Sono le nove meno un quarto. Come lo dici?
@@ -52,7 +52,8 @@ exercises:
   prompt: Sono le quattro meno dieci = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" significa "meno" nelle espressioni di orario.'
+  - gutxiago
+  explanation: '"Gutxi" significa "meno" nelle espressioni di orario; è ammesso anche "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: meno un quarto (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: meno (nelle espressioni di orario)
-  - eu: Bostak eta erdiak dira
-    es: Sono le cinque e mezza
   - eu: Hirurak eta laurden dira
     es: Sono le tre e un quarto
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Per i minuti in basco ci sono tre costruzioni che coprono quasi tutto: **eta erd
 
 ## "E mezza" — il caso speciale
 
-A differenza del resto, "e mezza" fa sì che anche l'ora si dica al plurale — e anche la parola "mezza":
+A differenza del resto, con "e mezza" il plurale non va sull'ora ma sulla parola "mezza": il numero resta senza *-ak* ed è *erdiak* a portarlo. Il verbo resta al plurale (*dira*), anche all'una e mezza:
 
 | Ora | Basco |
 |---|---|
@@ -93,7 +92,7 @@ A differenza del resto, "e mezza" fa sì che anche l'ora si dica al plurale — 
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Fai attenzione: con *eta erdiak* il numero va **senza -ak** davanti (*bost*, non *bostak*), perché il plurale è già in *erdiak*.
+> Fai attenzione: con *eta erdiak* il numero va **senza -ak** (*bost eta erdiak*, non *bostak eta erdiak*), perché il plurale lo porta solo *erdiak*. Con l'una e con le due vale lo stesso: *ordu bat eta erdiak*, *ordu bi eta erdiak* (non *ordu bata…* né *ordu biak…*). È la forma del *batua*; in Iparralde sentirai il plurale in entrambi i punti (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "E un quarto" e i minuti passati
 

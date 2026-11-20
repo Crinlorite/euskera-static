@@ -119,7 +119,7 @@ Comprar xa sabías desde o A1. Esta lección é o **nivel 2 de tenda**: probar r
 >
 > *— Noski, **probalekua** hor atzean dago.*
 >
-> *(cinco minutos despois)* *— Zer, **ondo geratzen zaizkizu**?*
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
 >
 > *— Ez… **txikiegiak dira**. **42an baduzue**?*
 

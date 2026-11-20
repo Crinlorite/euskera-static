@@ -110,7 +110,7 @@ Pour demander l'heure, on utilise **Zer ordu da?** (« quelle heure est-il ? »)
 ## Pourquoi une heure et deux heures sont des cas particuliers
 
 - **Ordu bata** (une heure) est **singulier**, on utilise donc **da** : *Ordu bata da*.
-- **Ordu biak** (deux heures) est précédé du mot *ordu* car *biak* seul pourrait prêter à confusion — c'est la seule heure où beaucoup de gens ajoutent « ordu » pour plus de clarté. Les autres (à partir de trois heures) s'emploient seules : *hirurak*, *laurak*, *bostak*…
+- **Ordu biak** (deux heures) est lui aussi précédé de *ordu* : *biak* tout seul veut aussi dire « les deux ». C'est la forme habituelle en *batua* (basque unifié), mais *biak* seul est aussi admis. À partir de trois heures, on ne met plus *ordu* : *hirurak*, *laurak*, *bostak*… (et non *hiru orduak*).
 
 ## Le suffixe `-ak`
 

@@ -21,7 +21,7 @@ exercises:
   - à midi
   - maintenant
   answer: 1
-  explanation: '"Goiz" = matin ; avec le locatif "-an" : « le matin ».'
+  explanation: '"Goiz" = matin ; avec le locatif "-ean" : « le matin ».'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Vous voulez dire « à huit heures du matin ». Comment le dites-vous ?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Pour préciser matin/après-midi, on place la partie de la journée avec le suffixe "-ko" avant l''heure : *goizeko zortziak* (huit heures du matin).'
+  explanation: 'Pour préciser matin/après-midi, on place la partie de la journée avec le suffixe "-(e)ko" avant l''heure : *goizeko zortziak* (huit heures du matin).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: L'après-midi = ___ (complétez le mot).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = nuit ; avec le locatif "-an" : *gauean*.'
+  explanation: '"Gau" = nuit ; avec le locatif "-ean" : *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Pour dire quand (à quel moment de la journée) quelque chose se passe, ajoutez 
 >
 > *Gauean lo egiten dut.* — La nuit, je dors.
 
-## "Du matin / de l'après-midi" — suffixe `-ko`
+## "Du matin / de l'après-midi" — suffixe `-(e)ko`
 
-Pour préciser **à quelle heure de la journée**, placez le mot avec **-ko** avant l'heure :
+Pour préciser **à quelle heure de la journée**, placez le mot avec **-(e)ko** avant l'heure :
 
 | Heure exacte | Basque |
 |---|---|

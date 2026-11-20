@@ -21,7 +21,7 @@ exercises:
   - ao mediodía
   - agora mesmo
   answer: 1
-  explanation: '"Goiz" = mañá; co locativo "-an": "pola mañá".'
+  explanation: '"Goiz" = mañá; co locativo "-ean": "pola mañá".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Queres dicir "ás oito da mañá". Como o dis?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Para precisar mañá/tarde anteponse a parte do día co sufixo "-ko": *goizeko zortziak* (as oito da mañá).'
+  explanation: 'Para precisar mañá/tarde anteponse a parte do día co sufixo "-(e)ko": *goizeko zortziak* (as oito da mañá).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Pola tarde = ___ (enche a palabra completa).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = noite; co locativo "-an": *gauean*.'
+  explanation: '"Gau" = noite; co locativo "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Para dicir cando (en que momento do día) ocorre algo, engade **-(e)an** á raí
 >
 > *Gauean lo egiten dut.* — Pola noite durmo.
 
-## "Da mañá / da tarde" — sufixo `-ko`
+## "Da mañá / da tarde" — sufixo `-(e)ko`
 
-Para precisar **a que hora do día**, antepós a palabra con **-ko** diante da hora:
+Para precisar **a que hora do día**, antepós a palabra con **-(e)ko** diante da hora:
 
 | Hora exacta | Éuscaro |
 |---|---|

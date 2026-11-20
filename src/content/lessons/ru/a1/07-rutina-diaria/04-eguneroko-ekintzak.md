@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (просыпаться) → форма привычного аспекта ___ (с суффиксом привычного аспекта).
   answers:
   - esnatzen
-  explanation: 'Глаголы, оканчивающиеся на согласный или на -tu/-du, добавляют "-tzen" для образования привычного аспекта: esna**tu** → esna**tzen**.'
+  explanation: 'Глаголы, оканчивающиеся на -tu/-du, заменяют это окончание на "-tzen" для образования привычного аспекта: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (есть) → форма привычного аспекта ___ (с окончанием привычного аспекта).
@@ -109,9 +109,12 @@ exercises:
 
 | Окончание глагола | Суффикс привычного аспекта | Пример |
 |---|---|---|
-| согласный или `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (неправильный) | **-tzen** или **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` после *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` в остальных случаях | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Два замечания: после *s, z, x, ts, tz, tx* глаголы на *-tu* тоже получают **-ten** (*ahaztu* → *ahazten*); а глаголы, которые не оканчиваются ни на *-tu/-du*, ни на *-n*, ни на *-i*, просто добавляют **-tzen** (*atera* → *ateratzen*).
 
 > Глагол *jan* (есть) **не** превращается в *janten*, а в *jaten* — конечная «n» исчезает. То же самое с *edan* → *edaten*, *egon* → *egoten*.
 

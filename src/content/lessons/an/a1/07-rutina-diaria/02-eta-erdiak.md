@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Pa "y meya" s''emplega "eta erdiak" (literalment "y meyas", tamién plural). O numero va sin "-ak" antis de "eta erdiak": "bost eta erdiak".'
+  explanation: 'Pa "y meya" s''emplega "eta erdiak" (literalment "y meyas"; o plural va aquí). O numero va sin "-ak" antis de "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Son as tres y cuarto. Cómo lo dices?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" significa "y cuarto"; a hora va en plural ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" significa "y cuarto"; a hora va en plural, y *hiru* fa *hirurak* (no *hiruak*): *Hirurak eta laurden dira*. Tamién ye correcto *hiru eta laurdenak*, con o plural nomás en *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Son as nueu menos cuarto. Cómo lo dices?
@@ -52,7 +52,8 @@ exercises:
   prompt: Son as cuatro menos diez = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" significa "menos" en as expresions d''hora.'
+  - gutxiago
+  explanation: '"Gutxi" significa "menos" en as expresions d''hora; tamién s''admite "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: menos cuarto (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: menos (en as expresions d'hora)
-  - eu: Bostak eta erdiak dira
-    es: Son as cinco y meya
   - eu: Hirurak eta laurden dira
     es: Son as tres y cuarto
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Pa os minutos en euskera bi ha tres construccions que dominan cuasi tot: **eta e
 
 ## "Y meya" — o caso especial
 
-A diferencia d'a resta, "y meya" fa que a hora tamién se diga en plural — y a parola "meya" tamién:
+A diferencia d'a resta, con "y meya" o plural no va en a hora sino en a parola "meya": o numero se queda sin *-ak* y ye *erdiak* la que leva o plural. O verbo sigue en plural (*dira*), tamién a la una y meya:
 
 | Hora | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ A diferencia d'a resta, "y meya" fa que a hora tamién se diga en plural — y a
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Para cuenta: con *eta erdiak* o numero va **sin o -ak** debant (*bost*, no *bostak*), porque o plural ya lo leva *erdiak*.
+> Para cuenta: con *eta erdiak* o numero va **sin o -ak** (*bost eta erdiak*, no *bostak eta erdiak*), porque nomás *erdiak* leva o plural. Con a una y as dos, igual: *ordu bat eta erdiak*, *ordu bi eta erdiak* (no *ordu bata…* ni *ordu biak…*). Ye a forma d'o batua; en Iparralde sentirás o plural en os dos puestos (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "Y cuarto" y minutos pasaus
 

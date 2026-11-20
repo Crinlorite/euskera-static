@@ -135,7 +135,7 @@ Neue Lektion: **das praktische Leben**. Niemand reist jeden Tag, aber jeder land
 
 ## Paketbenachrichtigung (der Zettel des Anstoßes)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Sie können Ihr Paket bei der Post abholen, von Montag bis Freitag, von 8:30 bis 14:30 Uhr. Bringen Sie bitte Ihren Ausweis mit.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Sie können Ihr Paket bei der Post abholen, von Montag bis Freitag, von 8:30 bis 14:30 Uhr. Bringen Sie bitte Ihren Ausweis mit.
 
 Ja: nur vormittags geöffnet. Manche Dinge sind in allen Sprachen gleich. 😄
 

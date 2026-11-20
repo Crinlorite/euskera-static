@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (despertar-se) → forma abituau ___ (damb era -n der aspècte abituau).
   answers:
   - esnatzen
-  explanation: 'Es vèrbs acabadi en consonanta o en -tu/-du ahigen "-tzen" entar aspècte abituau: esna**tu** → esna**tzen**.'
+  explanation: 'Es vèrbs acabadi en -tu/-du cambien aguesta terminacion per "-tzen" entar aspècte abituau: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (minjar) → forma abituau ___ (damb era terminacion der aspècte abituau).
@@ -109,9 +109,12 @@ Tà díder çò que hès toti es dies, eth basc emplegue er **aspècte abituau**
 
 | Finau deth vèrb | Sufix abituau | Exemple |
 |---|---|---|
-| consonanta o `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (irregular) | **-tzen** o **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` darrèr de *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` enes auti casi | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Dus avisi: darrèr de *s, z, x, ts, tz, tx* tanben es vèrbs en *-tu* prenen **-ten** (*ahaztu* → *ahazten*); e es que non acaben en *-tu/-du*, *-n* ni *-i* prenen simplament **-tzen** (*atera* → *ateratzen*).
 
 > Eth vèrb *jan* (minjar) **non** se convertís en *janten* senon en *jaten* — era "n" finau desapareish. Eth madeish damb *edan* → *edaten*, *egon* → *egoten*.
 

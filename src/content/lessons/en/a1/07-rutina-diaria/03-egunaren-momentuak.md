@@ -21,7 +21,7 @@ exercises:
   - at midday
   - right now
   answer: 1
-  explanation: '"Goiz" = morning; with the locative "-an": "in the morning".'
+  explanation: '"Goiz" = morning; with the locative "-ean": "in the morning".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: You want to say "eight in the morning". How do you say it?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'To specify morning/afternoon, you place the part of the day with the suffix "-ko" before the time: *goizeko zortziak* (eight in the morning).'
+  explanation: 'To specify morning/afternoon, you place the part of the day with the suffix "-(e)ko" before the time: *goizeko zortziak* (eight in the morning).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: In the afternoon = ___ (fill in the full word).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = night; with the locative "-an": *gauean*.'
+  explanation: '"Gau" = night; with the locative "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ To say when (at what time of day) something happens, add **-(e)an** to the root:
 >
 > *Gauean lo egiten dut.* — At night I sleep.
 
-## "Of the morning / of the afternoon" — suffix `-ko`
+## "Of the morning / of the afternoon" — suffix `-(e)ko`
 
-To specify **what time of day**, you place the word with **-ko** before the time:
+To specify **what time of day**, you place the word with **-(e)ko** before the time:
 
 | Exact time | Basque |
 |---|---|

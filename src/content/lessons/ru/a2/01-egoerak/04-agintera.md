@@ -161,7 +161,7 @@ exercises:
 
 ## Мини-текст
 
-> В кулинарной школе учитель говорит:
+> *Sukaldari eskolan, irakasleak esaten du:*
 >
 > *— **Hartu** patata bat. **Garbitu** ondo. **Kendu** azala. **Moztu** zatitan eta **bota** ur irakinera. **Itxoin** hogei minutu. Eta **probatu** ondoren.*
 

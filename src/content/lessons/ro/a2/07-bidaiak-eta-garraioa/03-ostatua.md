@@ -112,7 +112,7 @@ exercises:
 >
 > ***Zenbat da gaua**?* — Cât costă o noapte?
 
-Elementul gramatical al lecției este **destinativul -rako / -etarako** (pentru): *gau baterako* (pentru o noapte), *asteburu*rako* (pentru weekend). L-ai văzut la A1 cu *norentzat* (pentru cine); acesta este vărul său pentru timpuri și lucruri.
+Elementul gramatical al lecției este **destinativul -rako / -etarako** (pentru): *gau baterako* (pentru o noapte), *astebururako* (pentru weekend). L-ai văzut la A1 cu *norentzat* (pentru cine); acesta este vărul său pentru timpuri și lucruri.
 
 ## La recepție
 

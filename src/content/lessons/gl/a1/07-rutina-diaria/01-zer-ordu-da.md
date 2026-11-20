@@ -110,7 +110,7 @@ Para preguntar a hora úsase **Zer ordu da?** ("que hora é?").
 ## Por que a unha e as dúas son especiais
 
 - **Ordu bata** (a unha) é **singular**, así que se di con **da**: *Ordu bata da*.
-- **Ordu biak** (as dúas) leva a palabra *ordu* diante porque *biak* soa podería confundirse — é a única hora onde moita xente engade "ordu" para maior claridade. As demais (a partir das tres) van soas: *hirurak*, *laurak*, *bostak*…
+- **Ordu biak** (as dúas) tamén leva *ordu* diante: *biak* soa significa ademais "os dous / ambos". É a forma habitual en batua (tamén se admite *biak* soa). A partir das tres xa non se pon *ordu*: *hirurak*, *laurak*, *bostak*… (non *hiru orduak*).
 
 ## O sufixo `-ak`
 

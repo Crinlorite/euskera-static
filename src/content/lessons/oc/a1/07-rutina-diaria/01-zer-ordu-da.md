@@ -110,7 +110,7 @@ Entà preguntar era ora s'emplègue **Zer ordu da?** ("quina ora ei?").
 ## Perqué la ua e es dues son especiaes
 
 - **Ordu bata** (la ua) ei **singular**, atau que se ditz damb **da**: *Ordu bata da*.
-- **Ordu biak** (es dues) pòrte era paraula *ordu* dauant pr'amor qu'*biak* soleta se poirie confóner — ei era soleta ora a on fòrça gent ahigís "ordu" entà mès claretat. Es autes (a compdar des tres) van soletes: *hirurak*, *laurak*, *bostak*…
+- **Ordu biak** (es dues) tanben pòrte *ordu* dauant: *biak* soleta vò díder, ath delà, "es dus / toti dus". Ei era forma abituau en batua (tanben s'admet *biak* soleta). A compdar des tres ja non s'ahig *ordu*: *hirurak*, *laurak*, *bostak*… (non *hiru orduak*).
 
 ## Eth sufix `-ak`
 

@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Pa "y media" úsase "eta erdiak" (lliteralmente "y medies", tamién plural). El númberu va ensin "-ak" enantes de "eta erdiak": "bost eta erdiak".'
+  explanation: 'Pa "y media" úsase "eta erdiak" (lliteralmente "y medies"; el plural va equí). El númberu va ensin "-ak" enantes de "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Son les trés y cuartu. ¿Cómo lo dices?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" significa "y cuartu"; la hora va en plural ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" significa "y cuartu"; la hora va en plural, y *hiru* fai *hirurak* (non *hiruak*): *Hirurak eta laurden dira*. Tamién ye correcto *hiru eta laurdenak*, col plural namás en *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Son les nueve menos cuartu. ¿Cómo lo dices?
@@ -52,7 +52,8 @@ exercises:
   prompt: Son les cuatro menos diez = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" significa "menos" nes espresiones de hora.'
+  - gutxiago
+  explanation: '"Gutxi" significa "menos" nes espresiones de hora; tamién s''almite "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: menos cuartu (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: menos (nes espresiones de hora)
-  - eu: Bostak eta erdiak dira
-    es: Son les cinco y media
   - eu: Hirurak eta laurden dira
     es: Son les trés y cuartu
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Pa los minutos n'euskera hai trés construcciones que dominen casi too: **eta er
 
 ## "Y media" — el casu especial
 
-A diferencia del restu, "y media" fai que la hora tamién se diga en plural — y la pallabra "media" tamién:
+A diferencia del restu, con "y media" el plural nun va na hora sinón na pallabra "media": el númberu queda ensin *-ak* y ye *erdiak* la que lleva'l plural. El verbu sigue en plural (*dira*), tamién a la una y media:
 
 | Hora | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ A diferencia del restu, "y media" fai que la hora tamién se diga en plural — 
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Fíxate: con *eta erdiak* el númberu va **ensin el -ak** delantre (*bost*, non *bostak*), porque'l plural yá lo lleva *erdiak*.
+> Fíxate: con *eta erdiak* el númberu va **ensin el -ak** (*bost eta erdiak*, non *bostak eta erdiak*), porque namás *erdiak* lleva'l plural. Cola una y les dos, igual: *ordu bat eta erdiak*, *ordu bi eta erdiak* (non *ordu bata…* nin *ordu biak…*). Ye la forma del batua; n'Iparralde vas sentir el plural nos dos sitios (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "Y cuartu" y minutos pasaos
 

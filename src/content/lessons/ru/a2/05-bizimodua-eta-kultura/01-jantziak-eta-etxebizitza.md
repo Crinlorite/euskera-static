@@ -223,7 +223,7 @@ exercises:
 >
 > *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
-> *(После примерки)*
+> *(Probatu ondoren)*
 >
 > *— **Ondo geratzen zaizkit**. Zenbat balio dute?*
 >

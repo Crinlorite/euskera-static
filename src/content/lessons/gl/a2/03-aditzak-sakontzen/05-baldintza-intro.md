@@ -205,8 +205,8 @@ O "comprar**ía** / iría / sería" fórmase con **-ko/-go** (a mesma marca que 
 
 > *— Olatz, **nahi zenuke** zinemara joan?*
 >
-> *— Si, **gustatuko litzaidake**, pero se tivese tempo... Teño moito traballo na semana.*
+> *— Bai, **gustatuko litzaidake**, baina astia **banu**... Lan asko daukat astean.*
 >
-> *— Tranquila. Se vés mañá, comprareiche unha entrada.*
+> *— Lasai. Bihar **etortzen bazara**, sarrera bat **erosiko dizut**.*
 
 > **Nota pedagóxica:** a *baldintza* é un dos puntos onde A2 che abre a porta a B1. No A2 oficial abonda con **recoñecela** e producir frases sinxelas do tipo *banintz... -ko nuke*. A conxugación completa do condicional trabállase en B1.

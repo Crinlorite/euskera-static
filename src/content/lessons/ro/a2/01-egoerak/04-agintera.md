@@ -161,7 +161,7 @@ Imperativul este forma standard în:
 
 ## Mini-text
 
-> *La școala de bucătari, profesorul spune:*
+> *Sukaldari eskolan, irakasleak esaten du:*
 >
 > *— **Hartu** patata bat. **Garbitu** ondo. **Kendu** azala. **Moztu** zatitan eta **bota** ur irakinera. **Itxoin** hogei minutu. Eta **probatu** ondoren.*
 

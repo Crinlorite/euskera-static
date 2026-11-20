@@ -21,7 +21,7 @@ exercises:
   - 정오에
   - 바로 지금
   answer: 1
-  explanation: '"Goiz" = 아침; 장소격 접미사 "-an"이 붙으면 "아침에"가 됩니다.'
+  explanation: '"Goiz" = 아침; 장소격 접미사 "-ean"이 붙으면 "아침에"가 됩니다.'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: '"아침 8시"라고 말하고 싶습니다. 어떻게 말할까요?'
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: '아침/오후를 명확히 하려면 시간 앞에 접미사 "-ko"를 붙인 시간대 단어를 놓습니다: *goizeko zortziak* (아침 8시).'
+  explanation: '아침/오후를 명확히 하려면 시간 앞에 접미사 "-(e)ko"를 붙인 시간대 단어를 놓습니다: *goizeko zortziak* (아침 8시).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: 오후에 = ___ (전체 단어를 채워 넣으세요).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = 밤; 장소격 접미사 "-an"이 붙으면 *gauean*이 됩니다.'
+  explanation: '"Gau" = 밤; 장소격 접미사 "-ean"이 붙으면 *gauean*이 됩니다.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ exercises:
 >
 > *Gauean lo egiten dut.* — 밤에 잠을 자요.
 
-## '아침의 / 오후의' — 접미사 `-ko`
+## '아침의 / 오후의' — 접미사 `-(e)ko`
 
-**하루 중 몇 시**인지 구체적으로 말하려면 시간 앞에 **-ko**를 붙인 단어를 놓습니다:
+**하루 중 몇 시**인지 구체적으로 말하려면 시간 앞에 **-(e)ko**를 붙인 단어를 놓습니다:
 
 | 정확한 시간 | 바스크어 |
 |---|---|

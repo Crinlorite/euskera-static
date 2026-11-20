@@ -119,7 +119,7 @@ A1レベルから買い物はできましたね。このレッスンは**お店�
 >
 > *— Noski, **probalekua** hor atzean dago.*
 >
-> *（5分後）* *— Zer, **ondo geratzen zaizkizu**?*
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
 >
 > *— Ez… **txikiegiak dira**. **42an baduzue**?*
 

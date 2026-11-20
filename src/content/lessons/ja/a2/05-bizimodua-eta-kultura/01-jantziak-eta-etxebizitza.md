@@ -223,7 +223,7 @@ A1では**衣服**と**家**に関する基本的な語彙を学びました。A
 >
 > *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
-> *（試着後）*
+> *(Probatu ondoren)*
 >
 > *— **Ondo geratzen zaizkit**. Zenbat balio dute?*
 >

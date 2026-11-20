@@ -135,7 +135,7 @@ Nuova unità: **la vita pratica**. Nessuno viaggia tutti i giorni, ma tutti fini
 
 ## Avviso di giacenza (il foglietto della discordia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Può ritirare il suo pacco all'ufficio postale, dal lunedì al venerdì, dalle 8:30 alle 14:30. Porti la carta d'identità, per favore.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Può ritirare il suo pacco all'ufficio postale, dal lunedì al venerdì, dalle 8:30 alle 14:30. Porti la carta d'identità, per favore.
 
 Sì: orario mattutino. Certe cose sono uguali in tutte le lingue. 😄
 

@@ -135,7 +135,7 @@ Unidá nueva: **la vida práutica**. Naide viaxa tolos díes, pero tol mundu aca
 
 ## Avisu de paquete (el papelín de la discordia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Pue recoyer el so paquete en correos, de llunes a vienres, de 8:30 a 14:30. Traiga'l DNI, por favor.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Pue recoyer el so paquete en correos, de llunes a vienres, de 8:30 a 14:30. Traiga'l DNI, por favor.
 
 Sí: horariu de mañana. Dalgunes coses son iguales en tolos idiomes. 😄
 

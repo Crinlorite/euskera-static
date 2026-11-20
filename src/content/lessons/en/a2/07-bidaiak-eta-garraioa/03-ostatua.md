@@ -112,7 +112,7 @@ You already know how to get there; now it's time to **sleep**. From the hotel to
 >
 > ***Zenbat da gaua**?* — How much is it per night?
 
-The grammar point of this lesson is the **destinative case -rako / -etarako** (for): *gau baterako* (for one night), *asteburu*rako* (for the weekend). You saw it in A1 with *norentzat* (for whom); this is its cousin for time and things.
+The grammar point of this lesson is the **destinative case -rako / -etarako** (for): *gau baterako* (for one night), *astebururako* (for the weekend). You saw it in A1 with *norentzat* (for whom); this is its cousin for time and things.
 
 ## At the reception
 

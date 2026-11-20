@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'L''heure "à X heures" se forme avec "-(e)tan" : *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'L''heure "à X heures" se forme avec "-etan" : *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Le matin, je vais au travail = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Cette leçon rassemble tout le contenu de l'unité : l'heure, les moments de la 
 
 ## "À X heures" — comment le dire
 
-Pour répondre "à (telle heure)", prends l'heure au pluriel et change *-ak* en **-etan** (avec un `-e-` intercalé sauf pour celles qui se terminent déjà par une voyelle) :
+Pour répondre "à (telle heure)", prends l'heure au pluriel et change *-ak* en **-etan** (*hiru* et *lau* gardent leur -r- : *hiruretan*, *lauretan*) :
 
 | Heure | "À…" |
 |---|---|
@@ -108,7 +108,10 @@ Pour répondre "à (telle heure)", prends l'heure au pluriel et change *-ak* en 
 | hamabiak | **hamabietan** |
 | ordu bata (une heure) | **ordu batean** (singulier, conserve sa forme) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (à cinq heures et demie) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (à sept heures et quart) |
+| zazpiak eta bost | **zazpiak eta bostean** (à sept heures cinq : avec des minutes, le cas se met au singulier) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (à huit heures moins le quart) |
 
 ## Une journée complète — modèle

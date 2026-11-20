@@ -21,7 +21,7 @@ exercises:
   - délben
   - éppen most
   answer: 1
-  explanation: '"Goiz" = reggel, délelőtt; a "-an" helyhatározó esettel: "reggel, délelőtt".'
+  explanation: '"Goiz" = reggel, délelőtt; az "-ean" helyhatározó esettel: "reggel, délelőtt".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: 'Azt szeretnéd mondani: "reggel nyolckor". Hogyan mondod?'
@@ -31,21 +31,21 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'A délelőtt/délután pontosításához a napszakot a "-ko" toldalékkal az óra elé tesszük: *goizeko zortziak* (reggel nyolc óra).'
+  explanation: 'A délelőtt/délután pontosításához a napszakot az "-(e)ko" toldalékkal az óra elé tesszük: *goizeko zortziak* (reggel nyolc óra).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Délután = ___ (írd be a teljes szót).
   answers:
   - arratsaldean
   - Arratsaldean
-  explanation: '"Arratsalde" = délután; a "-(e)an" helyhatározóval: *arratsaldean* (délután).'
+  explanation: '"Arratsalde" = délután; az "-(e)an" helyhatározóval: *arratsaldean* (délután).'
 - id: ex-03-em-fb2
   type: fill-in-blank
   prompt: Éjjel, este = ___ (írd be a teljes szót).
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = éjszaka; a "-an" helyhatározóval: *gauean*.'
+  explanation: '"Gau" = éjszaka; az "-ean" helyhatározóval: *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -114,9 +114,9 @@ A baszkban a napszakok két kulcstoldalékkal működnek: **`-(e)an`** ("-ban/-b
 | *iluntzea* | az alkonyat |
 | *gaua* | az éjszaka |
 
-## "Reggel / délután" — a `-(e)an` helyhatározó
+## "Reggel / délután" — az `-(e)an` helyhatározó
 
-Ahhoz, hogy megmondd, mikor (a nap melyik szakában) történik valami, tedd a tőhöz a **-(e)an** toldalékot:
+Ahhoz, hogy megmondd, mikor (a nap melyik szakában) történik valami, tedd a tőhöz az **-(e)an** toldalékot:
 
 | Mikor | Euskera |
 |---|---|
@@ -132,9 +132,9 @@ Ahhoz, hogy megmondd, mikor (a nap melyik szakában) történik valami, tedd a t
 >
 > *Gauean lo egiten dut.* — Éjjel alszom.
 
-## "Reggel … órakor / délután … órakor" — a `-ko` toldalék
+## "Reggel … órakor / délután … órakor" — az `-(e)ko` toldalék
 
-Ha azt akarod pontosítani, **a nap melyik szakában** van az adott óra, a napszakot **-ko** toldalékkal az óra elé teszed:
+Ha azt akarod pontosítani, **a nap melyik szakában** van az adott óra, a napszakot **-(e)ko** toldalékkal az óra elé teszed:
 
 | Pontos idő | Euskera |
 |---|---|

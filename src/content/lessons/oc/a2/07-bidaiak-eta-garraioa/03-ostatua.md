@@ -112,7 +112,7 @@ Ja sabs arribar; ara tòque **dromir**. Der otèl ara casa rurau (*landetxea* �
 >
 > ***Zenbat da gaua**?* — Quant còste era net?
 
-Era pèça gramaticau dera leccion ei eth **destinatiu -rako / -etarako** (entà): *gau baterako* (entà ua net), *asteburu*rako* (entath fin de setmana). Lo veigueres en A1 damb *norentzat* (entà qui); aguest ei eth sòn cosin entàs temps e es causes.
+Era pèça gramaticau dera leccion ei eth **destinatiu -rako / -etarako** (entà): *gau baterako* (entà ua net), *astebururako* (entath fin de setmana). Lo veigueres en A1 damb *norentzat* (entà qui); aguest ei eth sòn cosin entàs temps e es causes.
 
 ## Ena recepcion
 

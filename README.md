@@ -7,8 +7,8 @@ Curso de euskera gratuito y abierto: **A1 y A2 completos**, con la parte vehicul
 ## Qué hay dentro
 
 - **Cursos A1 (13 unidades) y A2 (10 unidades)** — lecciones con el euskera siempre delante y la explicación en tu idioma al lado.
-- **Vocabulario con audio**: 1.672 locuciones en flashcards, juegos de parejas y exámenes.
-- **Simulakro sortzailea**: generador de exámenes A1 infinitos sobre un banco de 262 preguntas, 823 tarjetas, 6 lecturas y 6 piezas de escucha. Cada examen sale de una semilla compartible por URL (`?s=`), con estructura fija de examen real: entzumena, irakurmena, gramatika, hiztegia e idazmena con corrección automática.
+- **Vocabulario con audio**: 1.666 locuciones en flashcards, juegos de parejas y exámenes.
+- **Simulakro sortzailea**: generador de exámenes A1 infinitos sobre un banco de 262 preguntas, 822 tarjetas, 6 lecturas y 6 piezas de escucha. Cada examen sale de una semilla compartible por URL (`?s=`), con estructura fija de examen real: entzumena, irakurmena, gramatika, hiztegia e idazmena con corrección automática.
 - **Ahoskera-gimnasioa (beta)**: gimnasio de pronunciación con reconocimiento de voz que corre **íntegro en tu navegador** — el audio nunca sale del dispositivo, no hay servidor.
 - **Progreso soberano**: se guarda en tu dispositivo. La app añade una copia local (que sobrevive a la limpieza del WebView) y, **si tú lo activas** desde Progreso, una copia en **tu propia** cuenta de la nube (iCloud; el equivalente de Google en Android cuando llegue) para no perderlo al reinstalar. **Apagado por defecto**, y al apagarlo se borra lo subido: nosotros no vemos nada en ningún caso.
 - **Escalera oficial de niveles** A1 → C2 (HABE/EGA) y seguimiento de progreso (lecciones, racha, récord) guardado en tu dispositivo.

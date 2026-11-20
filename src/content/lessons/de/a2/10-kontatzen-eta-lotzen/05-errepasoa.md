@@ -49,7 +49,7 @@ exercises:
   - Museoa irekita dago, ez dakit
   - Ez dakit ea museoa irekita zegoen atzo
   answer: 1
-  explanation: 'Indirekte Frage in der Zukunft: *egongo da* → *egongo de**n**. Mit *-la* wäre es eine Behauptung („dass es ist“), kein Zweifel.'
+  explanation: 'Indirekte Frage in der Zukunft: *egongo da* → *egongo de**n***. Mit *-la* wäre es eine Behauptung („dass es ist“), kein Zweifel.'
 - id: ex-a2-ko5-fb1
   type: fill-in-blank
   prompt: WIEDERHOLUNG · Als ich klein war, ging ich für gewöhnlich an den Strand = *txikia* ___, *hondartzara joan ohi nintzen*.

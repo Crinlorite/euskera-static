@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (醒来) → 习惯体形式 ___ (使用习惯体词尾)。
   answers:
   - esnatzen
-  explanation: 以辅音或 -tu/-du 结尾的动词，在习惯体中加上 “-tzen”：esna**tu** → esna**tzen**。
+  explanation: 以 -tu/-du 结尾的动词，在习惯体中把这个词尾换成 “-tzen”：esna**tu** → esna**tzen**。
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (吃) → 习惯体形式 ___ (使用习惯体词尾)。
@@ -109,9 +109,12 @@ exercises:
 
 | 动词词尾 | 习惯体后缀 | 示例 |
 |---|---|---|
-| 辅音或 `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (不规则) | **-tzen** 或 **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| *s, z, x, ts, tz, tx* 之后的 `-i` | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| 其他情况下的 `-i` | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> 有两点要注意：在 *s, z, x, ts, tz, tx* 之后，以 *-tu* 结尾的动词也加 **-ten** (*ahaztu* → *ahazten*)；而不以 *-tu/-du*、*-n* 或 *-i* 结尾的动词则直接加 **-tzen** (*atera* → *ateratzen*)。
 
 > 动词 *jan* (吃) **不会**变成 *janten*，而是变成 *jaten* — 词尾的 "n" 消失了。*edan* → *edaten* 和 *egon* → *egoten* 也是如此。
 

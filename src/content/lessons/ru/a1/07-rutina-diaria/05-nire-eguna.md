@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'Время в значении "в X часов" образуется с помощью "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'Время в значении "в X часов" образуется с помощью "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Утром я иду на работу = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ exercises:
 
 ## "В X часов" — как это сказать
 
-Чтобы ответить "в (столько-то) часов", возьми форму времени во множественном числе и замени *-ak* на **-etan** (с вставкой `-e-`, кроме случаев, когда слово уже заканчивается на гласную):
+Чтобы ответить "в (столько-то) часов", возьми форму времени во множественном числе и замени *-ak* на **-etan** (*hiru* и *lau* сохраняют своё -r-: *hiruretan*, *lauretan*):
 
 | Время | "В…" |
 |---|---|
@@ -108,7 +108,10 @@ exercises:
 | hamabiak | **hamabietan** |
 | ordu bata (один час) | **ordu batean** (единственное число, сохраняет свою форму) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (в полшестого) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (в четверть восьмого) |
+| zazpiak eta bost | **zazpiak eta bostean** (в пять минут восьмого: с минутами падеж стоит в единственном числе) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (без четверти восемь) |
 
 ## Целый день — пример

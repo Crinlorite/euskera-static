@@ -119,7 +119,7 @@ Comprar ne sabíes ja deth A1. Aguesta leccion ei eth **nivèu 2 de botiga**: em
 >
 > *— Noski, **probalekua** hor atzean dago.*
 >
-> *(cinc minuts dempús)* *— Zer, **ondo geratzen zaizkizu**?*
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
 >
 > *— Ez… **txikiegiak dira**. **42an baduzue**?*
 

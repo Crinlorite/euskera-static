@@ -103,7 +103,7 @@ Nueva unidad: **la vida práctica**. Nadie viaja todos los días, pero todo el m
 
 ## Aviso de paquete (el papelito de la discordia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Puede recoger su paquete en correos, de lunes a viernes, de 8:30 a 14:30. Traiga el DNI, por favor.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Puede recoger su paquete en correos, de lunes a viernes, de 8:30 a 14:30. Traiga el DNI, por favor.
 
 Sí: horario de mañana. Algunas cosas son iguales en todos los idiomas. 😄
 

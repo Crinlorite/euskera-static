@@ -114,7 +114,7 @@ exercises:
 
 ## 計画の順序（接続詞＋未来形）
 
-> ***Lehenengo** 行き先を選んで、**gero** チケットを買って、**ondoren** ホテルを予約して、**azkenik** スーツケースの準備をします…旅行の前日に、いつものように。* 😄
+> ***Lehenengo** helmuga aukeratuko dugu, **gero** txartelak erosiko ditugu, **ondoren** hotela erreserbatuko dugu eta **azkenik** maleta prestatuko dut… bidaia bezperan, beti bezala.* 😄
 
 ## スーツケース
 
@@ -143,12 +143,12 @@ exercises:
 
 ## 会話：連休の計画
 
-> *— ねえ、連休は4日間ありますね。**何をしますか**？*
+> *— Aizu, zubian lau egun izango ditugu. **Zer egingo dugu**?*
 >
-> *— Zuberoaraに**行きませんか**？カントリーハウスを**予約して**、山を**散歩しましょう**。*
+> *— **Zergatik ez gara** Zuberoara **joaten**? Landetxe bat **erreserbatuko dugu** eta mendian **ibiliko gara**.*
 >
-> *— **いいですね**！今夜、私がチケットとルートを**見ておきます**。*
+> *— **Ondo iruditzen zait**! Nik txartelak eta ibilbideak **begiratuko ditut** gaur gauean.*
 >
-> *— じゃあ私はスーツケースを**準備します**。傘を**入れておきます**ね、念のため。*
+> *— Eta nik maletak **prestatuko ditut**. Aterkia **sartuko dut**, badaezpada.*
 >
-> *— もちろん。きっと**雨が降ります**からね。* 😄
+> *— Noski. **Euria egingo du**, seguru.* 😄

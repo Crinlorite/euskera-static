@@ -134,8 +134,8 @@ Comença la unitat viatgera. Primera parada: **els mitjans de transport** i els 
 
 > *— **Nola joaten zara** lanera?*
 >
-> *— Normalment **autobusez**, però si fa bon temps, **bizikletaz** o **oinez**. I tu?*
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
 >
-> *— Jo **trenez**. De casa a l'estació tinc cinc minuts **oinez**.*
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
 
 > **Nota:** a Euskal Herria el tren de rodalia de tota la vida és el *topoa* (el "talp", entre Donostia i Hendaia, perquè va sota terra) i *Euskotren* connecta la costa. Si sents *«topoa hartuko dugu»*, ja ho saps: el trenet verd.

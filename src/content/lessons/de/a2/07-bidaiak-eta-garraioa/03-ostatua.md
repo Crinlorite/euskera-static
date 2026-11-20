@@ -112,11 +112,11 @@ Du weißt schon, wie man ankommt; jetzt ist es Zeit zu **schlafen**. Vom Hotel b
 >
 > ***Zenbat da gaua**?* — Wie viel kostet eine Nacht?
 
-Der grammatikalische Teil dieser Lektion ist der **Destinativ -rako / -etarako** (für): *gau baterako* (für eine Nacht), *asteburu*rako* (fürs Wochenende). Du hast ihn in A1 mit *norentzat* (für wen) kennengelernt; dies ist die Variante für Zeitangaben und Dinge.
+Der grammatikalische Teil dieser Lektion ist der **Destinativ -rako / -etarako** (für): *gau baterako* (für eine Nacht), *astebururako* (fürs Wochenende). Du hast ihn in A1 mit *norentzat* (für wen) kennengelernt; dies ist die Variante für Zeitangaben und Dinge.
 
 ## An der Rezeption
 
-> *— Arratsalde on! **Erreserba bat daukat**, auf den Namen Etxeberria.*
+> *— Arratsalde on! **Erreserba bat daukat**, Etxeberria izenean.*
 >
 > *— Bai, hemen dago: gela bikoitza, hiru gau. **Pasaportea edo NANa**, mesedez.*
 >

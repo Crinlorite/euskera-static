@@ -81,7 +81,7 @@ Ya sabes llegar; ahora toca **dormir**. Del hotel a la casa rural (*landetxea* �
 >
 > ***Zenbat da gaua**?* — ¿Cuánto es la noche?
 
-La pieza gramatical de la lección es el **destinativo -rako / -etarako** (para): *gau baterako* (para una noche), *asteburu*rako* (para el finde). Lo viste en A1 con *norentzat* (para quién); esto es su primo para tiempos y cosas.
+La pieza gramatical de la lección es el **destinativo -rako / -etarako** (para): *gau baterako* (para una noche), *astebururako* (para el finde). Lo viste en A1 con *norentzat* (para quién); esto es su primo para tiempos y cosas.
 
 ## En la recepción
 

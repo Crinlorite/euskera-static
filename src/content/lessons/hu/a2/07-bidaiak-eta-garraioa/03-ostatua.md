@@ -112,7 +112,7 @@ Odaérni már tudsz; most **aludni** kell. A szállodától a falusi vendégház
 >
 > ***Zenbat da gaua**?* — Mennyibe kerül egy éjszaka?
 
-A lecke nyelvtani eleme a **-rako / -etarako célhatározó** (valamire): *gau baterako* (egy éjszakára), *asteburu*rako* (a hétvégére). Az A1-ben a *norentzat* (kinek a számára) alakkal láttad; ez az időkre és dolgokra vonatkozó unokatestvére.
+A lecke nyelvtani eleme a **-rako / -etarako célhatározó** (valamire): *gau baterako* (egy éjszakára), *astebururako* (a hétvégére). Az A1-ben a *norentzat* (kinek a számára) alakkal láttad; ez az időkre és dolgokra vonatkozó unokatestvére.
 
 ## A recepción
 

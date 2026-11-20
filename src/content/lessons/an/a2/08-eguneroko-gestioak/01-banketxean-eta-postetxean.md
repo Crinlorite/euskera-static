@@ -135,7 +135,7 @@ Nueva unidat: **a vida practica**. Dengún no viacha toz os días, pero tot o mu
 
 ## Aviso de paquet (o paperet d'a discordia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Puede recullir o suyo paquet en correyos, de luns a viernes, de 8:30 a 14:30. Traiga o DNI, por favor.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Puede recullir o suyo paquet en correyos, de luns a viernes, de 8:30 a 14:30. Traiga o DNI, por favor.
 
 Sí: horario de maitins. Bellas cosas son iguals en todas as luengas. 😄
 

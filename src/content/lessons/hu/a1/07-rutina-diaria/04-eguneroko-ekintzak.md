@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (felébredni) → szokásos alak ___ (a szokásos cselekvés -n végződésével).
   answers:
   - esnatzen
-  explanation: 'A mássalhangzóra vagy -tu/-du végződésre végződő igék "-tzen" végződést kapnak a szokásos cselekvéshez: esna**tu** → esna**tzen**.'
+  explanation: 'A -tu/-du végű igéknél a szokásos cselekvéshez ez a végződés "-tzen"-re cserélődik: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (enni) → szokásos alak ___ (a szokásos cselekvés végződésével).
@@ -109,9 +109,12 @@ Ahhoz, hogy elmondd, mit csinálsz minden nap, a baszk a **szokásos cselekvés*
 
 | Az ige vége | Szokásos végződés | Példa |
 |---|---|---|
-| mássalhangzó vagy `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (rendhagyó) | **-tzen** vagy **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` *s, z, x, ts, tz, tx* után | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` minden más esetben | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Két megjegyzés: *s, z, x, ts, tz, tx* után a *-tu* végű igék is **-ten** végződést kapnak (*ahaztu* → *ahazten*); azok az igék pedig, amelyek nem *-tu/-du*, *-n* vagy *-i* végűek, egyszerűen a **-tzen** végződést kapják (*atera* → *ateratzen*).
 
 > A *jan* (enni) ige **nem** *janten* lesz, hanem *jaten* — a végső "n" eltűnik. Ugyanígy: *edan* → *edaten*, *egon* → *egoten*.
 

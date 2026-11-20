@@ -21,7 +21,7 @@ exercises:
   - a mieidia
   - ara madeish
   answer: 1
-  explanation: '"Goiz" = maitin; damb eth locatiu "-an": "peth maitin".'
+  explanation: '"Goiz" = maitin; damb eth locatiu "-ean": "peth maitin".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Vòs díder "es ueit deth maitin". Com ac ditzes?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Entà precisar maitin/tarde se met dauant era part deth dia damb eth sufix "-ko": *goizeko zortziak* (es ueit deth maitin).'
+  explanation: 'Entà precisar maitin/tarde se met dauant era part deth dia damb eth sufix "-(e)ko": *goizeko zortziak* (es ueit deth maitin).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Pera tarde = ___ (remplís era paraula completa).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = net; damb locatiu "-an": *gauean*.'
+  explanation: '"Gau" = net; damb locatiu "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Entà díder quan (en quin moment deth dia) se passe quauquarren, afig **-(e)an*
 >
 > *Gauean lo egiten dut.* — Pera net duèrmi.
 
-## "Deth maitin / dera tarde" — sufix `-ko`
+## "Deth maitin / dera tarde" — sufix `-(e)ko`
 
-Entà precisar **a quina ora deth dia**, metes era paraula damb **-ko** dauant dera ora:
+Entà precisar **a quina ora deth dia**, metes era paraula damb **-(e)ko** dauant dera ora:
 
 | Ora exacta | Euscaro |
 |---|---|

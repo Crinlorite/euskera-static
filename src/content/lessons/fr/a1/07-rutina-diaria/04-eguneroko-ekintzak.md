@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (se réveiller) → forme habituelle ___ (avec le -n de l'aspect habituel).
   answers:
   - esnatzen
-  explanation: 'Les verbes terminés par une consonne ou par -tu/-du ajoutent "-tzen" pour l''aspect habituel : esna**tu** → esna**tzen**.'
+  explanation: 'Les verbes terminés par -tu/-du remplacent cette terminaison par "-tzen" pour l''aspect habituel : esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (manger) → forme habituelle ___ (avec la terminaison de l'aspect habituel).
@@ -109,9 +109,12 @@ Pour dire ce que tu fais tous les jours, le basque utilise l'**aspect habituel**
 
 | Terminaison du verbe | Suffixe habituel | Exemple |
 |---|---|---|
-| consonne ou `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (irrégulier) | **-tzen** ou **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` après *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` dans les autres cas | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Deux remarques : après *s, z, x, ts, tz, tx*, les verbes en *-tu* prennent aussi **-ten** (*ahaztu* → *ahazten*) ; et ceux qui ne se terminent ni en *-tu/-du*, ni en *-n*, ni en *-i* ajoutent simplement **-tzen** (*atera* → *ateratzen*).
 
 > Le verbe *jan* (manger) ne devient **pas** *janten* mais *jaten* — le "n" final disparaît. Même chose pour *edan* → *edaten*, *egon* → *egoten*.
 

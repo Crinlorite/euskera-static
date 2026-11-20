@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'La hora "a les X" fórmase con "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'La hora "a les X" fórmase con "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Pela mañana voi al trabayu = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Esta lleición xunta too lo de la unidá: hora, momentos del día, verbos de rut
 
 ## "A les X" — cómo dicilo
 
-Pa responder "a les (hores)", cueyi la hora en plural y camuda *-ak* por **-etan** (con `-e-` intercalada sacante nes que yá acaben en vocal):
+Pa responder "a les (hores)", cueyi la hora en plural y camuda *-ak* por **-etan** (*hiru* y *lau* caltienen la so -r-: *hiruretan*, *lauretan*):
 
 | Hora | "A les…" |
 |---|---|
@@ -108,7 +108,10 @@ Pa responder "a les (hores)", cueyi la hora en plural y camuda *-ak* por **-etan
 | hamabiak | **hamabietan** |
 | ordu bata (la una) | **ordu batean** (singular, caltién la so forma) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (a les cinco y media) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (a les siete y cuartu) |
+| zazpiak eta bost | **zazpiak eta bostean** (a les siete y cinco: con minutos, el casu va en singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (a les ocho menos cuartu) |
 
 ## Un día completu — modelu

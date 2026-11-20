@@ -135,7 +135,7 @@ exercises:
 
 ## Извещение о посылке (та самая бумажка)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Вы можете забрать свою посылку на почте, с понедельника по пятницу, с 8:30 до 14:30. Принесите удостоверение личности, пожалуйста.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Вы можете забрать свою посылку на почте, с понедельника по пятницу, с 8:30 до 14:30. Принесите удостоверение личности, пожалуйста.
 
 Да: утренние часы работы. Некоторые вещи одинаковы на всех языках. 😄
 

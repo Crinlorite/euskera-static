@@ -147,7 +147,7 @@ Segunda parada: **mercar o billet y no paser o tren**. Aquí reciclas dos armas 
 
 > *— Aizu! **Zer ordutan ateratzen da** Donostiarako trena?*
 >
-> *— Hamikak **hogei gutxitan**… bi minutu barru!*
+> *— Hamaikak **hogei gutxitan**… bi minutu barru!*
 >
 > *— Ai ama! **Zein nasatatik**?*
 >

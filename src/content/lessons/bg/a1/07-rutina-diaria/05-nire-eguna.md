@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: '"В X часа" се образува с "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: '"В X часа" се образува с "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Сутрин отивам на работа = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ exercises:
 
 ## "В X часа" — как се казва
 
-За да отговориш "в (часа)", вземи часа в множествено число и смени *-ak* с **-etan** (с вмъкнато `-e-`, освен при тези, които вече завършват на гласна):
+За да отговориш "в (часа)", вземи часа в множествено число и смени *-ak* с **-etan** (*hiru* и *lau* запазват своето -r-: *hiruretan*, *lauretan*):
 
 | Час | "В…" |
 |---|---|
@@ -108,7 +108,10 @@ exercises:
 | hamabiak | **hamabietan** |
 | ordu bata (един часа) | **ordu batean** (единствено число, запазва формата си) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (в пет и половина) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (в седем и четвърт) |
+| zazpiak eta bost | **zazpiak eta bostean** (в седем и пет: с минути падежът е в единствено число) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (в осем без четвърт) |
 
 ## Цял ден — модел

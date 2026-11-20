@@ -110,7 +110,7 @@ Aby zapytać o godzinę, używa się **Zer ordu da?** ("która jest godzina?").
 ## Dlaczego pierwsza i druga są wyjątkowe
 
 - **Ordu bata** (pierwsza) jest w **liczbie pojedynczej**, więc mówi się z **da**: *Ordu bata da*.
-- **Ordu biak** (druga) ma przed sobą słowo *ordu*, ponieważ samo *biak* mogłoby być mylące — to jedyna godzina, do której wiele osób dodaje "ordu" dla większej jasności. Pozostałe (od trzeciej) występują samodzielnie: *hirurak*, *laurak*, *bostak*…
+- **Ordu biak** (druga) również ma przed sobą *ordu*: samo *biak* znaczy też "obaj / oba". To zwykła forma w *batua* (standardowym baskijskim), choć samo *biak* też jest dopuszczalne. Od trzeciej nie dodaje się już *ordu*: *hirurak*, *laurak*, *bostak*… (nie *hiru orduak*).
 
 ## Przyrostek `-ak`
 

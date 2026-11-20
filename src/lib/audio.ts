@@ -1,4 +1,4 @@
-// Banco de audio euskera pre-generado (scripts/build_audio_bank.py).
+// Banco de audio en euskera.
 // El manifest mapea la frase normalizada → MP3 en /audio/eu/. Se importa en
 // las islas (bundle compartido), así funciona también offline en la PWA.
 import manifest from '../data/audio-eu.json';

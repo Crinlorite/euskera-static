@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Entà "e mieja" s''emplegue "eta erdiak" (literaument "e miejas", tanben en plurau). Eth nombre va sense "-ak" abans de "eta erdiak": "bost eta erdiak".'
+  explanation: 'Entà "e mieja" s''emplegue "eta erdiak" (literaument "e miejas"; eth plurau va aciu). Eth nombre va sense "-ak" abans de "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Son es tres e quart. Cossí ac ditz?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" vò díder "e quart"; era ora va en plurau ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" vò díder "e quart"; era ora va en plurau, e *hiru* hè *hirurak* (non *hiruak*): *Hirurak eta laurden dira*. Tanben ei corrècte *hiru eta laurdenak*, damb eth plurau sonque en *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Son es nau mens quart. Cossí ac ditz?
@@ -49,10 +49,11 @@ exercises:
   explanation: Es minutes que passen se díden damb "eta + nombre". Cinc = bost.
 - id: ex-02-ee-fb2
   type: fill-in-blank
-  prompt: Son es quate mens dètz = Lauak hamar ___ dira.
+  prompt: Son es quate mens dètz = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" vò díder "mens" enes expressions d''ora.'
+  - gutxiago
+  explanation: '"Gutxi" vò díder "mens" enes expressions d''ora; tanben s''admet "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: mens quart (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: mens (enes expressions d'ora)
-  - eu: Bostak eta erdiak dira
-    es: Son es cinc e mieja
   - eu: Hirurak eta laurden dira
     es: Son es tres e quart
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Entàs minutes en euskera i a tres construccions que dominen quasiment tot: **et
 
 ## "E mieja" — eth cas especiau
 
-A diferéncia dera rèsta, "e mieja" hè que era ora tanben se diga en plurau — e era paraula "mieja" tanben:
+A diferéncia dera rèsta, damb "e mieja" eth plurau non va ena ora senon ena paraula "mieja": eth nombre se demore sense *-ak* e ei *erdiak* era que lo pòrte. Eth vèrb contunhe en plurau (*dira*), tanben ara ua e mieja:
 
 | Ora | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ A diferéncia dera rèsta, "e mieja" hè que era ora tanben se diga en plurau �
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Hè-te'n compde: damb *eta erdiak* eth nombre va **sense eth -ak** dauant (*bost*, non *bostak*), pr'amor qu'eth plurau ja lo pòrte *erdiak*.
+> Hè-te'n compde: damb *eta erdiak* eth nombre va **sense eth -ak** (*bost eta erdiak*, non *bostak eta erdiak*), pr'amor qu'eth plurau lo pòrte sonque *erdiak*. Damb era ua e es dues, parièr: *ordu bat eta erdiak*, *ordu bi eta erdiak* (non *ordu bata…* ni *ordu biak…*). Ei era forma deth batua; en Iparralde sentiràs eth plurau enes dus lòcs (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "E quart" e minutes passats
 

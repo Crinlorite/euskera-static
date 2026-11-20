@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Для «половины» используется *eta erdiak* (буквально «и половины», тоже во множественном числе). Числительное идёт без *-ak* перед *eta erdiak*: *bost eta erdiak*.'
+  explanation: 'Для «половины» используется *eta erdiak* (буквально «и половины»; множественное число ставится здесь). Числительное идёт без *-ak* перед *eta erdiak*: *bost eta erdiak*.'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Четверть четвёртого. Как это сказать?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '*Eta laurden* означает «четверть»; час ставится во множественное число (*hirurak*): *Hirurak eta laurden dira*.'
+  explanation: '*Eta laurden* означает «четверть»; час ставится во множественное число, причём *hiru* даёт *hirurak* (а не *hiruak*): *Hirurak eta laurden dira*. Правильно и *hiru eta laurdenak* — с множественным числом только в *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Без четверти девять. Как это сказать?
@@ -52,7 +52,8 @@ exercises:
   prompt: Без десяти четыре = *Laurak hamar ___ dira*.
   answers:
   - gutxi
-  explanation: '*Gutxi* означает «без» в выражениях, обозначающих время.'
+  - gutxiago
+  explanation: '*Gutxi* означает «без» в выражениях, обозначающих время; допускается и *gutxiago*.'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: Без четверти (2:45 = *hirurak laurden gutxi*)
   - eu: gutxi
     es: Без (при указании времени)
-  - eu: Bostak eta erdiak dira
-    es: Половина шестого
   - eu: Hirurak eta laurden dira
     es: Четверть четвёртого
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ exercises:
 
 ## «Половина» — особый случай
 
-В отличие от других конструкций, при использовании **eta erdiak** («половина») час тоже ставится во множественное число, как и само слово *erdiak* (букв. «половины»):
+В отличие от других конструкций, с **eta erdiak** («половина») множественное число стоит не в часе, а в слове *erdiak* (букв. «половины»): числительное остаётся без *-ak*, а множественное число несёт *erdiak*. Глагол остаётся во множественном числе (*dira*) — и в 1:30 тоже:
 
 | Время | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ exercises:
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Обратите внимание: с *eta erdiak* числительное употребляется **без -ak** (*bost*, а не *bostak*), так как показатель множественного числа уже есть в слове *erdiak*.
+> Обратите внимание: с *eta erdiak* числительное употребляется **без -ak** (*bost eta erdiak*, а не *bostak eta erdiak*), так как множественное число несёт только *erdiak*. В 1:30 и 2:30 так же: *ordu bat eta erdiak*, *ordu bi eta erdiak* (а не *ordu bata…* или *ordu biak…*). Это форма *batua*; в Iparralde (Северной Стране Басков) вы услышите множественное число в обоих местах (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## «Четверть» и минуты после часа
 

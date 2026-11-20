@@ -135,7 +135,7 @@ Nouvelle unité : **la vie pratique**. Personne ne voyage tous les jours, mais t
 
 ## Avis de passage (le petit papier de la discorde)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Vous pouvez retirer votre colis au bureau de poste, du lundi au vendredi, de 8h30 à 14h30. Veuillez apporter votre carte d'identité, s'il vous plaît.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Vous pouvez retirer votre colis au bureau de poste, du lundi au vendredi, de 8h30 à 14h30. Veuillez apporter votre carte d'identité, s'il vous plaît.
 
 Oui : horaires du matin. Certaines choses sont les mêmes dans toutes les langues. 😄
 

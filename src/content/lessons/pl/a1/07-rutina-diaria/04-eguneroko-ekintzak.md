@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (budzić się) → forma habitualna ___ (z końcówką aspektu habitualnego).
   answers:
   - esnatzen
-  explanation: 'Czasowniki zakończone na spółgłoskę lub na -tu/-du dodają „-tzen” w aspekcie habitualnym: esna**tu** → esna**tzen**.'
+  explanation: 'Czasowniki zakończone na -tu/-du zamieniają tę końcówkę na „-tzen” w aspekcie habitualnym: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (jeść) → forma habitualna ___ (z końcówką aspektu habitualnego).
@@ -109,9 +109,12 @@ Aby powiedzieć, co robisz na co dzień, w języku baskijskim używa się **aspe
 
 | Końcówka czasownika | Sufiks habitualny | Przykład |
 |---|---|---|
-| spółgłoska lub `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (nieregularne) | **-tzen** lub **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` po *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` w pozostałych przypadkach | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Dwie uwagi: po *s, z, x, ts, tz, tx* także czasowniki na *-tu* przyjmują **-ten** (*ahaztu* → *ahazten*); a te, które nie kończą się na *-tu/-du*, *-n* ani *-i*, po prostu dodają **-tzen** (*atera* → *ateratzen*).
 
 > Czasownik *jan* (jeść) **nie** zmienia się w *janten*, lecz w *jaten* — końcowe „n” zanika. To samo dotyczy *edan* → *edaten*, *egon* → *egoten*.
 

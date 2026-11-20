@@ -21,7 +21,7 @@ exercises:
   - 在中午
   - 就是现在
   answer: 1
-  explanation: '"Goiz" = 早上；加上方位格后缀 "-an"：意为“在早上”。'
+  explanation: '"Goiz" = 早上；加上方位格后缀 "-ean"：意为“在早上”。'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: 你想说“早上八点”。应该怎么说？
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 要指明是早上还是下午，需将带后缀 "-ko" 的时段词放在前面：*goizeko zortziak*（早上八点）。
+  explanation: 要指明是早上还是下午，需将带后缀 "-(e)ko" 的时段词放在前面：*goizeko zortziak*（早上八点）。
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: 在下午 = ___（请填写完整的单词）。
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = 晚上；加上方位格后缀 "-an"：*gauean*。'
+  explanation: '"Gau" = 晚上；加上方位格后缀 "-ean"：*gauean*。'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ exercises:
 >
 > *Gauean lo egiten dut.* — 我晚上睡觉。
 
-## “早上的/下午的”——后缀 `-ko`
+## “早上的/下午的”——后缀 `-(e)ko`
 
-要指明**一天中的具体时间**，将带有 **-ko** 的词放在小时前面：
+要指明**一天中的具体时间**，将带有 **-(e)ko** 的词放在小时前面：
 
 | 确切时间 | 巴斯克语 |
 |---|---|
@@ -171,4 +171,4 @@ exercises:
 >
 > *Gaur gaueko hamarretan afalduko dut.* — 我今晚十点吃晚餐。
 
-> **文化小贴士：**巴斯克地区以其 *iluntze* 而闻名——也就是傍晚时分，朋友们（*cuadrillas*）会出门进行 *poteo*（在不同酒吧间轮流喝小杯酒）。它既不是下午也不是晚上，而是一天中一个具有独特身份的时刻。
+> **文化小贴士：** 巴斯克地区以其 *iluntze* 而闻名——也就是傍晚时分，朋友们（*cuadrillas*）会出门进行 *poteo*（在不同酒吧间轮流喝小杯酒）。它既不是下午也不是晚上，而是一天中一个具有独特身份的时刻。

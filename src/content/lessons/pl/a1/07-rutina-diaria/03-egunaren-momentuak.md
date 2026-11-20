@@ -21,7 +21,7 @@ exercises:
   - w południe
   - teraz, w tej chwili
   answer: 1
-  explanation: '"Goiz" = ranek; z miejscownikiem "-an": "rano".'
+  explanation: '"Goiz" = ranek; z miejscownikiem "-ean": "rano".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Chcesz powiedzieć „o ósmej rano”. Jak to powiesz?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Aby określić, czy chodzi o rano/po południu, stawia się porę dnia z przyrostkiem "-ko" przed godziną: *goizeko zortziak* (ósma rano).'
+  explanation: 'Aby określić, czy chodzi o rano/po południu, stawia się porę dnia z przyrostkiem "-(e)ko" przed godziną: *goizeko zortziak* (ósma rano).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: Po południu = ___ (uzupełnij całe słowo).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = noc; z miejscownikiem "-an": *gauean*.'
+  explanation: '"Gau" = noc; z miejscownikiem "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Aby powiedzieć, kiedy (o jakiej porze dnia) coś się dzieje, dodaj **-(e)an** 
 >
 > *Gauean lo egiten dut.* — W nocy śpię.
 
-## "Określanie pory dnia dla godziny" — przyrostek `-ko`
+## "Określanie pory dnia dla godziny" — przyrostek `-(e)ko`
 
-Aby sprecyzować, **o której porze dnia**, umieść słowo z przyrostkiem **-ko** przed godziną:
+Aby sprecyzować, **o której porze dnia**, umieść słowo z przyrostkiem **-(e)ko** przed godziną:
 
 | Dokładna godzina | Baskijski |
 |---|---|

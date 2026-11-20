@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'The time "at X o''clock" is formed with "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'The time "at X o''clock" is formed with "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: In the morning I go to work = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ This lesson brings together everything from the unit: time, times of the day, ro
 
 ## "At X o'clock" — how to say it
 
-To answer "at (time)", take the plural form of the hour and change *-ak* to **-etan** (with an `-e-` inserted, except for those already ending in a vowel):
+To answer "at (time)", take the plural form of the hour and change *-ak* to **-etan** (*hiru* and *lau* keep their -r-: *hiruretan*, *lauretan*):
 
 | Time | "At…" |
 |---|---|
@@ -108,7 +108,10 @@ To answer "at (time)", take the plural form of the hour and change *-ak* to **-e
 | hamabiak | **hamabietan** |
 | ordu bata (one o'clock) | **ordu batean** (singular, keeps its form) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (at half past five) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (at a quarter past seven) |
+| zazpiak eta bost | **zazpiak eta bostean** (at five past seven: with minutes, the case goes in the singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (at a quarter to eight) |
 
 ## A full day — example

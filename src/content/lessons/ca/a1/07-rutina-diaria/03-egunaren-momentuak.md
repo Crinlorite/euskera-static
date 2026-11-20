@@ -21,7 +21,7 @@ exercises:
   - al migdia
   - ara mateix
   answer: 1
-  explanation: '"Goiz" = matí; amb el locatiu "-an": "al matí".'
+  explanation: '"Goiz" = matí; amb el locatiu "-ean": "al matí".'
 - id: ex-03-em-mc2
   type: multiple-choice
   prompt: Vols dir "les vuit del matí". Com ho dius?
@@ -31,7 +31,7 @@ exercises:
   - goiz zortziak
   - zortzi goizeko
   answer: 1
-  explanation: 'Per precisar matí/tarda s''anteposa la part del dia amb el sufix "-ko": *goizeko zortziak* (les vuit del matí).'
+  explanation: 'Per precisar matí/tarda s''anteposa la part del dia amb el sufix "-(e)ko": *goizeko zortziak* (les vuit del matí).'
 - id: ex-03-em-fb1
   type: fill-in-blank
   prompt: A la tarda = ___ (omple la paraula completa).
@@ -45,7 +45,7 @@ exercises:
   answers:
   - gauean
   - Gauean
-  explanation: '"Gau" = nit; amb el locatiu "-an": *gauean*.'
+  explanation: '"Gau" = nit; amb el locatiu "-ean": *gauean*.'
 - id: ex-03-em-mp
   type: match-pairs
   pairs:
@@ -132,9 +132,9 @@ Per dir quan (en quin moment del dia) passa alguna cosa, afegeix **-(e)an** a l'
 >
 > *Gauean lo egiten dut.* — A la nit dormo.
 
-## "Del matí / de la tarda" — sufix `-ko`
+## "Del matí / de la tarda" — sufix `-(e)ko`
 
-Per precisar **a quina hora del dia**, anteposes la paraula amb **-ko** davant de l'hora:
+Per precisar **a quina hora del dia**, anteposes la paraula amb **-(e)ko** davant de l'hora:
 
 | Hora exacta | Basc |
 |---|---|

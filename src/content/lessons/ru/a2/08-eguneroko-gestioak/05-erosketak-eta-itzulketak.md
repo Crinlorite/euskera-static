@@ -119,7 +119,7 @@ exercises:
 >
 > *— Noski, **probalekua** hor atzean dago.*
 >
-> *(пять минут спустя)* *— Zer, **ondo geratzen zaizkizu**?*
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
 >
 > *— Ez… **txikiegiak dira**. **42an baduzue**?*
 

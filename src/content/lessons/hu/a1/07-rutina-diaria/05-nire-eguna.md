@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'Az "X órakor" alakot "-(e)tan" végződéssel képezzük: *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'Az "X órakor" alakot "-etan" végződéssel képezzük: *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Reggel munkába megyek = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Ez a lecke összekapcsolja az egység minden elemét: az időt, a napszakokat, a
 
 ## "X órakor" — hogyan mondd
 
-Az "X órakor" válaszhoz vedd a többes számú órát, és cseréld az *-ak* végződést **-etan** végződésre (közbeékelt `-e-` hanggal, kivéve, ha eleve magánhangzóra végződik):
+Az "X órakor" válaszhoz vedd a többes számú órát, és cseréld az *-ak* végződést **-etan** végződésre (a *hiru* és a *lau* megtartja az -r- hangját: *hiruretan*, *lauretan*):
 
 | Óra | "…órakor" |
 |---|---|
@@ -108,7 +108,10 @@ Az "X órakor" válaszhoz vedd a többes számú órát, és cseréld az *-ak* v
 | hamabiak | **hamabietan** |
 | ordu bata (egy óra) | **ordu batean** (egyes szám, megtartja az alakját) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (fél hatkor) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (negyed nyolckor) |
+| zazpiak eta bost | **zazpiak eta bostean** (hét óra öt perckor: ha percek is vannak, az esetrag egyes számú) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (háromnegyed nyolckor) |
 
 ## Egy teljes nap — minta

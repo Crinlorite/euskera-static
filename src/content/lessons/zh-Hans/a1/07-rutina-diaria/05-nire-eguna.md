@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: “在X点”这个时间表达由“*-(e)tan*”构成：*bederatzi* + *-etan* = *bederatzietan*。
+  explanation: “在X点”这个时间表达由“*-etan*”构成：*bederatzi* + *-etan* = *bederatzietan*。
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: 早上我去上班 = *Goizean ___ joaten naiz*。
@@ -98,7 +98,7 @@ exercises:
 
 ## “在X点”——如何表达
 
-要回答“在（几点）”，取时间的复数形式，然后将 *-ak* 变为 **-etan** （除了已经以元音结尾的词，中间会插入 `-e-`）：
+要回答“在（几点）”，取时间的复数形式，然后将 *-ak* 变为 **-etan** （*hiru* 和 *lau* 保留它们的 -r-：*hiruretan*、*lauretan*）：
 
 | 时间 | “在…点” |
 |---|---|
@@ -108,7 +108,10 @@ exercises:
 | hamabiak | **hamabietan** |
 | ordu bata (一点) | **ordu batean** (单数，保留其形式) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (在五点半) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (在七点一刻) |
+| zazpiak eta bost | **zazpiak eta bostean** (在七点零五分：带分钟时，格用单数形式) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (在差一刻八点) |
 
 ## 完整的一天——范例

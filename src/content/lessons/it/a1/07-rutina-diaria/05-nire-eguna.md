@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'L''espressione "alle X" si forma con "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'L''espressione "alle X" si forma con "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Di mattina vado al lavoro = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Questa lezione unisce tutto ciò che abbiamo visto nell'unità: l'ora, i momenti
 
 ## "Alle X" — come si dice
 
-Per rispondere "alle (ore)", prendi l'ora al plurale e cambia *-ak* in **-etan** (con una `-e-` interposta, tranne nei casi in cui la parola finisce già per vocale):
+Per rispondere "alle (ore)", prendi l'ora al plurale e cambia *-ak* in **-etan** (*hiru* e *lau* conservano la loro -r-: *hiruretan*, *lauretan*):
 
 | Ora | "Alle…" |
 |---|---|
@@ -108,7 +108,10 @@ Per rispondere "alle (ore)", prendi l'ora al plurale e cambia *-ak* in **-etan**
 | hamabiak | **hamabietan** |
 | ordu bata (l'una) | **ordu batean** (singolare, mantiene la sua forma) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (alle cinque e mezza) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (alle sette e un quarto) |
+| zazpiak eta bost | **zazpiak eta bostean** (alle sette e cinque: con i minuti, il caso va al singolare) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (alle otto meno un quarto) |
 
 ## Una giornata intera — modello

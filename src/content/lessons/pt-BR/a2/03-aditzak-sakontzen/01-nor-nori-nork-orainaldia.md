@@ -180,13 +180,13 @@ Compare os três tipos de "dar":
 
 ## Minidiálogo
 
-> *— Eskerrik asko, Olatz. Você me escreveu uma nota bonita.*
+> *— Eskerrik asko, Olatz. Ohar polita **idatzi didazu**.*
 >
-> *— Ah, de nada. **Esan dizut** que estou sempre disponível para ajudar.*
+> *— Tira, ezer ez. **Esan dizut** beti laguntzeko prest nagoela.*
 >
-> *— Você **erakutsi diozu** para o Anboto também?*
+> *— Anbotori ere **erakutsi diozu**?*
 >
-> *— Não, ainda não **diot esan**. Amanhã **kontatuko diot**.*
+> *— Ez, oraindik ez **diot esan**. Bihar **kontatuko diot**.*
 
 ## Armadilhas frequentes
 

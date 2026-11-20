@@ -199,9 +199,9 @@ SEED_READINGS = [
         "title": "Iragarkia — kiroldegia",
         "html": (
             "<p><strong>HERRIKO KIROLDEGIA — IZENA EMAN!</strong></p>"
-            "<p>Ordutegia: astelehenetik ostiralera, 8:00-21:00. Larunbatetan 9:00-14:00. "
+            "<p>Ordutegia: astelehenetik ostiralera, 08:00-21:00. Larunbatetan 09:00-14:00. "
             "<strong>Igandeetan itxita</strong>.</p>"
-            "<p>Igerilekua: astelehenetik ostiralera, <strong>8:00-21:00</strong>. Gimnasioa eta "
+            "<p>Igerilekua: astelehenetik ostiralera, <strong>08:00-21:00</strong>. Gimnasioa eta "
             "pilotalekua: ordutegi osoan.</p>"
             "<p>Prezioak: <strong>25 euro hilean</strong>. <strong>Ikasleak: 18 euro hilean</strong>. "
             "65 urtetik gorakoak: doan!</p>"
@@ -217,7 +217,7 @@ SEED_READINGS = [
              "explanation": "\"Ikasleak: 18 euro hilean\". Los 25 € son la tarifa normal. Leer precios con calma gana exámenes."},
             {"id": "rd-kir-3", "prompt": "Quieres nadar un martes. ¿A qué hora puedes?",
              "options": ["A las 7:00", "A las 22:30", "A las 8:00", "El martes no hay piscina"], "answer": 2,
-             "explanation": "Piscina \"astelehenetik ostiralera, 8:00-21:00\" — el martes entra en \"de lunes a viernes\"; a las 8:00 sí, a las 7 aún no y a las 22:30 ya no."},
+             "explanation": "Piscina \"astelehenetik ostiralera, 08:00-21:00\" — el martes entra en \"de lunes a viernes\"; a las 8:00 sí, a las 7 aún no y a las 22:30 ya no."},
             {"id": "rd-kir-4", "prompt": "¿Qué hay que llevar para apuntarse?",
              "options": ["El DNI y una foto", "Solo dinero", "El bañador", "Nada"], "answer": 0,
              "explanation": "\"NANa eta argazki bat ekarri\" — traer el DNI y una foto. *Ekarri* = traer."},
@@ -259,7 +259,7 @@ SEED_READINGS = [
         "kind": "pertsona",
         "title": "Mirenen eguna",
         "html": (
-            "<p>Nire egunak oso antzekoak dira. Lanegunetan <strong>seiak eta erdietan jaikitzen "
+            "<p>Nire egunak oso antzekoak dira. Lanegunetan <strong>sei eta erdietan jaikitzen "
             "naiz</strong>. Dutxatu, gosaldu — kafea esnearekin eta ogi txigortua — eta zortziak laurden "
             "gutxitan etxetik ateratzen naiz. <strong>Oinez joaten naiz lanera; euria egiten badu, "
             "autobusez.</strong> Bulego batean egiten dut lan, bederatzietatik bostetara.</p>"
@@ -273,7 +273,7 @@ SEED_READINGS = [
         "questions": [
             {"id": "rd-mir-1", "prompt": "¿A qué hora se levanta Miren los días de trabajo?",
              "options": ["A las 8:30", "A las 7:00", "A las 6:30", "A las 9:00"], "answer": 2,
-             "explanation": "\"Seiak eta erdietan jaikitzen naiz\" — a las seis y media. Las 8:30 son del fin de semana."},
+             "explanation": "\"Sei eta erdietan jaikitzen naiz\" — a las seis y media. Las 8:30 son del fin de semana."},
             {"id": "rd-mir-2", "prompt": "¿Cómo va Miren al trabajo?",
              "options": ["En coche", "Andando, y si llueve en autobús", "Siempre en autobús", "En bici"], "answer": 1,
              "explanation": "\"Oinez joaten naiz lanera; euria egiten badu, autobusez\" — andando; con lluvia, en bus."},
@@ -350,15 +350,12 @@ SEED_READINGS = [
 ]
 
 # ═══════════════════ SEED: entzumena (audio + preguntas) ═══════════════════
-# El audio se genera UNA vez con scripts/gen_listenings.py (TTS + verificación
-# por transcripción) → public/audio/eu/ls-<id>.mp3. El transcriptEu se enseña
-# SOLO tras responder las preguntas. kind ∈ elkarrizketa | iragarkia | mezua.
-# speakers: None = una voz; [(nombre, voz), …] = diálogo multivoz.
+# El audio de cada pieza está en public/audio/eu/<id>.mp3. El transcriptEu
+# se enseña SOLO tras responder las preguntas. kind ∈ elkarrizketa | iragarkia | mezua.
 
 SEED_LISTENINGS = [
     {
         "id": "ls-kafetegian", "kind": "elkarrizketa", "title": "Kafetegian",
-        "speakers": [("Miren", "Kore"), ("Jon", "Puck")],
         "transcriptEu": (
             "Miren: Egun on! Zer nahi duzu?\n"
             "Jon: Kaixo! Kafe bat esnearekin, mesedez.\n"
@@ -385,7 +382,6 @@ SEED_LISTENINGS = [
     },
     {
         "id": "ls-zermoduz", "kind": "elkarrizketa", "title": "Bi lagun kalean",
-        "speakers": [("Ane", "Kore"), ("Mikel", "Puck")],
         "transcriptEu": (
             "Ane: Kaixo, Mikel! Zer moduz?\n"
             "Mikel: Oso ondo, eta zu?\n"
@@ -412,7 +408,6 @@ SEED_LISTENINGS = [
     },
     {
         "id": "ls-geltokia", "kind": "iragarkia", "title": "Tren-geltokian (megafonia)",
-        "speakers": None,
         "transcriptEu": (
             "Arratsalde on. Donostiara doan trena laugarren bidetik aterako da, "
             "seiak eta erdietan. Trenak hamar minutuko atzerapena du. "
@@ -435,7 +430,6 @@ SEED_LISTENINGS = [
     },
     {
         "id": "ls-denda", "kind": "iragarkia", "title": "Supermerkatuan (megafonia)",
-        "speakers": None,
         "transcriptEu": (
             "Arratsalde on, bezero maiteok. Gaur sagarrak eskaintzan daude: "
             "kiloa euro batean. Fruta-saila bigarren solairuan dago. "
@@ -458,7 +452,6 @@ SEED_LISTENINGS = [
     },
     {
         "id": "ls-abisua", "kind": "mezua", "title": "Aitonaren mezua (erantzungailua)",
-        "speakers": None,
         "transcriptEu": (
             "Kaixo, maitea! Aitona naiz. Bihar herrira etorriko naiz, "
             "eguerdian. Elkarrekin bazkalduko dugu, ados? Mesedez, "
@@ -481,7 +474,6 @@ SEED_LISTENINGS = [
     },
     {
         "id": "ls-lagunmezua", "kind": "mezua", "title": "Lagunaren audio-mezua",
-        "speakers": None,
         "transcriptEu": (
             "Aupa! Entzun: gaur ezin dugu zazpietan geratu. Nire anaia "
             "berandu aterako da lanetik. Zortzietan geratuko gara, ados? "
@@ -689,9 +681,9 @@ SEED_GR = [
      "explanation": "Numeral + sustantivo DESNUDO: hiru liburu (tres libros), sin artículo. Y plural en el verbo: ditut."},
     {"id": "ex-a1p1-gr8", "type": "mc", "cat": "azterketa", "unit": "07-rutina-diaria",
      "prompt": '"Son las tres y media" = …',
-     "options": ["Hirurak eta erdiak dira", "Hiru ordu dira", "Hirurak gutxi dira", "Erdiak eta hirurak dira"],
+     "options": ["Hiru eta erdiak dira", "Hiru ordu dira", "Hirurak gutxi dira", "Erdiak eta hirurak dira"],
      "answer": 0,
-     "explanation": "Hirurak eta erdiak dira. Las horas en plural: ordu batA es la excepción (singular)."},
+     "explanation": "Hiru eta erdiak dira: con *eta erdiak* el número va sin -ak y el plural lo lleva solo *erdiak*. Las horas van en plural salvo ordu bata."},
     {"id": "ex-a1p1-gr9", "type": "fill", "cat": "azterketa", "unit": "02-familia",
      "prompt": "Este libro es de Ane (posesión) = liburu hau Ane___ da.", "answers": ["rena"],
      "explanation": "Genitivo -ren + artículo: Anerena (el de Ane). Con nombre: Aneren liburua."},
@@ -774,7 +766,7 @@ SEED_PAIRSETS = [
     {"id": "ex-a1p1-mp2", "unit": "azterketa", "pairs": [
         {"eu": "Ordu bata da", "es": "13:00"},
         {"eu": "Hirurak eta laurden", "es": "15:15"},
-        {"eu": "Seiak eta erdiak", "es": "18:30"},
+        {"eu": "Sei eta erdiak", "es": "18:30"},
         {"eu": "Zortziak hamar gutxi", "es": "19:50"},
         {"eu": "Hamarrak puntuan", "es": "22:00 en punto"},
         {"eu": "Eguerdia", "es": "12:00 mediodía"}]},
@@ -872,7 +864,6 @@ def build_bank(loc):
         "cards": cards,
         "pairSets": pair_sets,
         "readings": s_readings,
-        # speakers no viaja al cliente (solo lo usa gen_listenings.py)
         "listenings": [{"id": l["id"], "kind": l["kind"], "title": l["title"],
                         "audio": f"{l['id']}.mp3", "transcriptEu": l["transcriptEu"],
                         "questions": l["questions"]}

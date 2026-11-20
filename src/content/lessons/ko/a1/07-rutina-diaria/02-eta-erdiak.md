@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: '''...시 30분''은 "eta erdiak"을 사용합니다(직역하면 ''그리고 반들'', 복수형). "eta erdiak" 앞의 숫자에는 "-ak"를 붙이지 않습니다: "bost eta erdiak".'
+  explanation: '''...시 30분''은 "eta erdiak"을 사용합니다(직역하면 ''그리고 반들''이며, 복수형은 여기에 붙습니다). "eta erdiak" 앞의 숫자에는 "-ak"를 붙이지 않습니다: "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: 3시 15분입니다. 어떻게 말하나요?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden"은 ''...시 15분''을 의미하며, 시간은 복수형("hirurak")으로 말합니다: *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden"은 ''...시 15분''을 의미하며, 시간은 복수형으로 말하는데 *hiru*는 *hirurak*이 됩니다(*hiruak*이 아님): *Hirurak eta laurden dira*. 복수형을 *laurdenak*에만 붙인 *hiru eta laurdenak*도 맞는 표현입니다.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: 9시 15분 전입니다. 어떻게 말하나요?
@@ -52,7 +52,8 @@ exercises:
   prompt: 4시 10분 전입니다 = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi"는 시간 표현에서 ''...분 전''을 의미합니다.'
+  - gutxiago
+  explanation: '"Gutxi"는 시간 표현에서 ''...분 전''을 의미합니다. "gutxiago"도 허용됩니다.'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: '''...시 15분 전'' (2:45 = hirurak laurden gutxi)'
   - eu: gutxi
     es: '''...분 전'' (시간 표현)'
-  - eu: Bostak eta erdiak dira
-    es: 5시 30분입니다
   - eu: Hirurak eta laurden dira
     es: 3시 15분입니다
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ exercises:
 
 ## '...시 30분' — 특별한 경우
 
-다른 표현들과 달리, '...시 30분'이라고 말할 때는 시간도 복수형으로 말하고, '반'을 뜻하는 단어(*erdi*) 또한 복수형(*erdiak*)으로 씁니다.
+다른 표현들과 달리, '...시 30분'이라고 말할 때는 복수형이 시간이 아니라 '반'을 뜻하는 단어에 붙습니다. 숫자에는 *-ak*이 붙지 않고, *erdiak*이 복수형을 담당합니다. 동사는 그대로 복수형(*dira*)이며, 1시 30분도 마찬가지입니다.
 
 | 시간 | 바스크어 |
 |---|---|
@@ -93,7 +92,7 @@ exercises:
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> 주의: *eta erdiak*을 쓸 때는 시간 숫자 뒤에 **-ak를 붙이지 않습니다**(*bostak*이 아니라 *bost*). 복수 의미가 이미 *erdiak*에 들어있기 때문입니다.
+> 주의: *eta erdiak*을 쓸 때는 숫자에 **-ak을 붙이지 않습니다**(*bostak eta erdiak*이 아니라 *bost eta erdiak*). 복수형은 *erdiak*에만 붙기 때문입니다. 1시와 2시도 마찬가지입니다: *ordu bat eta erdiak*, *ordu bi eta erdiak*(*ordu bata*…나 *ordu biak*…가 아님). 이것이 표준 바스크어(*batua*)의 형태이고, 북부 바스크(Iparralde)에서는 두 곳 모두에 복수형을 붙인 말(*bost orenak eta erdiak*, *bostak eta erdiak*)도 들을 수 있습니다.
 
 ## '...시 15분'과 정각이 지난 분
 

@@ -161,7 +161,7 @@ Tryb rozkazujący to standardowa forma w:
 
 ## Minitekst
 
-> *W szkole gotowania nauczyciel mówi:*
+> *Sukaldari eskolan, irakasleak esaten du:*
 >
 > *— **Hartu** patata bat. **Garbitu** ondo. **Kendu** azala. **Moztu** zatitan eta **bota** ur irakinera. **Itxoin** hogei minutu. Eta **probatu** ondoren.*
 

@@ -119,7 +119,7 @@ Comprar ja en sabies des de l'A1. Aquesta lliçó és el **nivell 2 de botiga**:
 >
 > *— Noski, **probalekua** hor atzean dago.*
 >
-> *(cinc minuts més tard)* *— Zer, **ondo geratzen zaizkizu**?*
+> *(bost minutu geroago)* *— Zer, **ondo geratzen zaizkizu**?*
 >
 > *— Ez… **txikiegiak dira**. **42an baduzue**?*
 
@@ -159,6 +159,6 @@ Fixa't en el NOR-NORI-NORK encadenat: *itzuliko didazue* (m'ho tornareu), *itzul
 
 ## El resum de butxaca
 
-1. **Emprovar**: *Probatu dezaket? → Em queda bé/malament → -egi* per a les talles.
+1. **Emprovar**: *Probatu dezaket? → Ondo/gaizki geratzen zait → -egi* per a les talles.
 2. **Canviar**: *Aldatu nahi dut* (+ *beste neurri/kolore batean*).
 3. **Tornar**: *Itzuli nahi dut* + *tiketa* + *dirua itzuliko didazue?*

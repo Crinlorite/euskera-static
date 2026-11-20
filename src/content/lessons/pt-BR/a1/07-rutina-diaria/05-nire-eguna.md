@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'A hora "às X" se forma com "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'A hora "às X" se forma com "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: De manhã vou para o trabalho = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Esta lição reúne tudo o que vimos na unidade: horas, momentos do dia, verbos 
 
 ## "Às X" — como dizer
 
-Para responder "às (horas)", pegue a hora no plural e troque *-ak* por **-etan** (com `-e-` intercalado, exceto nas que já terminam em vogal):
+Para responder "às (horas)", pegue a hora no plural e troque *-ak* por **-etan** (*hiru* e *lau* mantêm o -r-: *hiruretan*, *lauretan*):
 
 | Hora | "Às…" |
 |---|---|
@@ -108,7 +108,10 @@ Para responder "às (horas)", pegue a hora no plural e troque *-ak* por **-etan*
 | hamabiak | **hamabietan** |
 | ordu bata (a uma) | **ordu batean** (singular, conserva sua forma) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (às cinco e meia) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (às sete e quinze) |
+| zazpiak eta bost | **zazpiak eta bostean** (às sete e cinco: com minutos, o caso vai no singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (quinze para as oito) |
 
 ## Um dia completo — modelo

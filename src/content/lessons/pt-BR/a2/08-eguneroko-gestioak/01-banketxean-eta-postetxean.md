@@ -135,7 +135,7 @@ Nova unidade: **a vida prática**. Ninguém viaja todos os dias, mas todo mundo 
 
 ## Aviso de encomenda (o papelzinho da discórdia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Você pode retirar seu pacote nos correios, de segunda a sexta, das 8:30 às 14:30. Traga seu RG, por favor.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Você pode retirar seu pacote nos correios, de segunda a sexta, das 8:30 às 14:30. Traga seu RG, por favor.
 
 Sim: só de manhã. Algumas coisas são iguais em todos os idiomas. 😄
 

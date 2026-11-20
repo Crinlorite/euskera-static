@@ -139,14 +139,14 @@ Si costruisce sulla **-n** che hai imparato ieri nelle zehar-galderak (vedi come
 
 ## La routine, ora con tutti i collegamenti
 
-> *Goizean, jaiki **eta gero**, dutxatu egiten naiz. Gosaldu **aurretik**, korrika egiten dut ordu erdiz. Lanera **noanean**, podcast bat entzuten dut. Lana bukatzen **dudanean**, erosketak egiten ditut, eta afaldu **ondoren**, serie bat ikusten dugu. Ohera joan **baino lehen**, biharko arropa prestatzen dut. Noioso? No: **organizzato**.* 😄
+> *Goizean, jaiki **eta gero**, dutxatu egiten naiz. Gosaldu **aurretik**, korrika egiten dut ordu erdiz. Lanera **noanean**, podcast bat entzuten dut. Lana bukatzen **dudanean**, erosketak egiten ditut, eta afaldu **ondoren**, serie bat ikusten dugu. Ohera joan **baino lehen**, biharko arropa prestatzen dut. Aspergarria? Ez: **antolatua**.* 😄
 
 ## Dialogo
 
-> *— **Noiz deituko dizut**? Quando sei al lavoro non puoi rispondere, vero?*
+> *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
 >
-> *— Ez. Chiama **lana bukatzen dudanean** — dopo le sei.*
+> *— Ez. Deitu **lana bukatzen dudanean** — seien **ondoren**.*
 >
-> *— D'accordo. E ci vediamo **afaldu aurretik** o **ondoren**?*
+> *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
 >
-> *— **Afaldu bitartean**! Prendiamo qualche *pintxo*. 😄*
+> *— **Afaldu bitartean**! Pintxo batzuk hartuko ditugu. 😄*

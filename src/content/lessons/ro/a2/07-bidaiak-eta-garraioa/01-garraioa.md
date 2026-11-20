@@ -134,8 +134,8 @@ exercises:
 
 > *— **Nola joaten zara** lanera?*
 >
-> *— De obicei **autobusez**, dar dacă e vreme bună, **bizikletaz** sau **oinez**. Dar tu?*
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
 >
-> *— Eu **trenez**. De acasă până la gară fac cinci minute **oinez**.*
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
 
 > **Notă:** în Țara Bascilor, trenul suburban de zi cu zi este *topoa* („cârtița”, între Donostia și Hendaia, pentru că merge pe sub pământ), iar *Euskotren* conectează coasta. Dacă auzi *«topoa hartuko dugu»*, știi deja: trenulețul verde.

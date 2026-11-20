@@ -135,7 +135,7 @@ exercises:
 
 ## Известие за колет (спорното листче)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Можете да получите колета си в пощата, от понеделник до петък, от 8:30 до 14:30. Моля, носете личната си карта.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Можете да получите колета си в пощата, от понеделник до петък, от 8:30 до 14:30. Моля, носете личната си карта.
 
 Да: работно време само сутрин. Някои неща са еднакви на всички езици. 😄
 

@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (a se trezi) → forma habituală ___ (cu terminația -n a aspectului habitual).
   answers:
   - esnatzen
-  explanation: 'Verbele terminate în consoană sau în -tu/-du adaugă „-tzen” pentru aspectul habitual: esna**tu** → esna**tzen**.'
+  explanation: 'Verbele terminate în -tu/-du înlocuiesc această terminație cu „-tzen” pentru aspectul habitual: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (a mânca) → forma habituală ___ (cu terminația aspectului habitual).
@@ -109,9 +109,12 @@ Pentru a spune ce faci în fiecare zi, limba bască folosește **aspectul habitu
 
 | Terminația verbului | Sufixul habitual | Exemplu |
 |---|---|---|
-| consoană sau `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (neregulat) | **-tzen** sau **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` după *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` în celelalte cazuri | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Două observații: după *s, z, x, ts, tz, tx*, și verbele în *-tu* primesc **-ten** (*ahaztu* → *ahazten*); iar cele care nu se termină în *-tu/-du*, *-n* sau *-i* adaugă pur și simplu **-tzen** (*atera* → *ateratzen*).
 
 > Verbul *jan* (a mânca) **nu** devine *janten*, ci *jaten* — „n”-ul final dispare. La fel și cu *edan* → *edaten*, *egon* → *egoten*.
 

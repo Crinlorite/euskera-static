@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: “...点半”用“eta erdiak”（字面意思是“和半”，也是复数）。在“eta erdiak”前面，数字不带“-ak”：“bost eta erdiak”。
+  explanation: “...点半”用“eta erdiak”（字面意思是“和半”，复数就加在这里）。在“eta erdiak”前面，数字不带“-ak”：“bost eta erdiak”。
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: 现在是三点一刻。怎么说？
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: “Eta laurden”意为“过一刻”；钟点用复数（“hirurak”）：*Hirurak eta laurden dira*。
+  explanation: “Eta laurden”意为“过一刻”；钟点用复数，而且 *hiru* 的复数是 *hirurak*（不是 *hiruak*）：*Hirurak eta laurden dira*。*hiru eta laurdenak* 也是正确的，这时复数只在 *laurdenak* 上。
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: 现在是差一刻九点。怎么说？
@@ -52,7 +52,8 @@ exercises:
   prompt: 现在是差十分四点 = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: 在钟点表达中，“gutxi”意为“差”。
+  - gutxiago
+  explanation: 在钟点表达中，“gutxi”意为“差”；也可以用“gutxiago”。
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: 差一刻 (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: 差（用于钟点表达）
-  - eu: Bostak eta erdiak dira
-    es: 现在是五点半
   - eu: Hirurak eta laurden dira
     es: 现在是三点一刻
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ exercises:
 
 ## “...点半” —— 特殊情况
 
-与其他情况不同，“...点半”会让钟点也用复数表达 —— 而且“半”这个词也是复数：
+与其他情况不同，用“...点半”时，复数不在钟点上，而在“半”这个词上：数字不带 *-ak*，由 *erdiak* 来承载复数。动词仍然用复数 (*dira*)，一点半也是如此：
 
 | 时间 | 巴斯克语 |
 |---|---|
@@ -93,7 +92,7 @@ exercises:
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> 请注意：用 *eta erdiak* 时，前面的数字**不带 -ak**（是 *bost*，不是 *bostak*），因为复数已经由 *erdiak* 来体现了。
+> 请注意：用 *eta erdiak* 时，数字**不带 -ak**（是 *bost eta erdiak*，不是 *bostak eta erdiak*），因为复数只由 *erdiak* 来体现。一点和两点也一样：*ordu bat eta erdiak*、*ordu bi eta erdiak*（不是 *ordu bata…*，也不是 *ordu biak…*）。这是标准巴斯克语 (*batua*) 的形式；在北巴斯克地区 (Iparralde)，你会听到两处都用复数（*bost orenak eta erdiak*、*bostak eta erdiak*）。
 
 ## “过一刻”和分钟数
 

@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'باش تقول "و نص" كنستعملو "eta erdiak" (حرفياً "و نصاص"، حتى هي فالجمع). الرقم كيجي بلا "-ak" قبل "eta erdiak": "bost eta erdiak".'
+  explanation: 'باش تقول "و نص" كنستعملو "eta erdiak" (حرفياً "و نصاص"؛ الجمع كيجي هنا). الرقم كيجي بلا "-ak" قبل "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: الساعة التلاتة و ربع. كيفاش كتقولها؟
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" معناها "و ربع"؛ الساعة كتكون فالجمع ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" معناها "و ربع"؛ الساعة كتكون فالجمع، و *hiru* كتولي *hirurak* (ماشي *hiruak*): *Hirurak eta laurden dira*. حتى *hiru eta laurdenak* صحيحة، والجمع كاين غير ف *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: الساعة التسعود قل ربع. كيفاش كتقولها؟
@@ -52,7 +52,8 @@ exercises:
   prompt: الساعة الربعة قل عشرة = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" معناها "قل" فالتعابير ديال الساعة.'
+  - gutxiago
+  explanation: '"Gutxi" معناها "قل" فالتعابير ديال الساعة؛ و"gutxiago" حتى هي مقبولة.'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: قل ربع (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: قل (فالتعابير ديال الساعة)
-  - eu: Bostak eta erdiak dira
-    es: الساعة الخمسة و نص
   - eu: Hirurak eta laurden dira
     es: الساعة التلاتة و ربع
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ exercises:
 
 ## "و نص" — الحالة الخاصة
 
-ماشي بحال الباقي، "و نص" كتخلي الساعة تتقال فالجمع — و حتى الكلمة ديال "نص":
+ماشي بحال الباقي، مع "و نص" الجمع ما كيكونش فالساعة ولكن فالكلمة ديال "نص": الرقم كيبقى بلا *-ak* و *erdiak* هي اللي كتهز الجمع. الفعل كيبقى فالجمع (*dira*)، حتى فالوحدة و نص:
 
 | الساعة | الباسكية |
 |---|---|
@@ -93,7 +92,7 @@ exercises:
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> رد البال: مع *eta erdiak* الرقم كيجي **بلا -ak** قدامها (*bost*، ماشي *bostak*)، حيت الجمع ديجا كاين ف *erdiak*.
+> رد البال: مع *eta erdiak* الرقم كيجي **بلا -ak** (*bost eta erdiak*، ماشي *bostak eta erdiak*)، حيت الجمع كاين غير ف *erdiak*. مع الوحدة و الجوج نفس الشي: *ordu bat eta erdiak*، *ordu bi eta erdiak* (ماشي *ordu bata…* ولا *ordu biak…*). هادي هي الطريقة ديال الباسكية الموحدة (*batua*)؛ فالشمال (Iparralde) غادي تسمع الجمع فجوج بلايص (*bost orenak eta erdiak*، *bostak eta erdiak*).
 
 ## "و ربع" و الدقايق اللي دازو
 

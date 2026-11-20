@@ -135,7 +135,7 @@ New unit: **practical life**. Nobody travels every day, but everyone ends up at 
 
 ## Package notification (the dreaded little slip)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — You can pick up your package at the post office, from Monday to Friday, 8:30 AM to 2:30 PM. Please bring your ID.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — You can pick up your package at the post office, from Monday to Friday, 8:30 AM to 2:30 PM. Please bring your ID.
 
 Yes: morning hours. Some things are the same in every language. 😄
 

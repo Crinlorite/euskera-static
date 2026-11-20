@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (일어나다) → 습관상 형태 ___ (습관상 어미를 붙여서).
   answers:
   - esnatzen
-  explanation: '자음이나 -tu/-du로 끝나는 동사는 습관상을 만들기 위해 "-tzen"을 붙입니다: esna**tu** → esna**tzen**.'
+  explanation: '-tu/-du로 끝나는 동사는 습관상을 만들 때 그 어미를 "-tzen"으로 바꿉니다: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (먹다) → 습관상 형태 ___ (습관상 어미를 붙여서).
@@ -109,9 +109,12 @@ exercises:
 
 | 동사 어미 | 습관상 접미사 | 예시 |
 |---|---|---|
-| 자음 또는 `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (불규칙) | **-tzen** 또는 **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| *s, z, x, ts, tz, tx* 뒤의 `-i` | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| 그 밖의 `-i` | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> 주의할 점 두 가지: *s, z, x, ts, tz, tx* 뒤에서는 *-tu*로 끝나는 동사도 **-ten**을 붙입니다(*ahaztu* → *ahazten*). 그리고 *-tu/-du*, *-n*, *-i* 중 어느 것으로도 끝나지 않는 동사는 그냥 **-tzen**을 붙입니다(*atera* → *ateratzen*).
 
 > 동사 *jan*(먹다)은 *janten*이 아니라 *jaten*으로 바뀝니다 — 마지막 "n"이 사라집니다. *edan* → *edaten*, *egon* → *egoten*의 경우도 마찬가지입니다.
 

@@ -49,7 +49,7 @@ exercises:
   - Museoa irekita dago, ez dakit
   - Ez dakit ea museoa irekita zegoen atzo
   answer: 1
-  explanation: 'Pytanie zależne w czasie przyszłym: *egongo da* → *egongo de**n**. Z końcówką *-la* byłoby to stwierdzenie („że jest”), a nie wątpliwość.'
+  explanation: 'Pytanie zależne w czasie przyszłym: *egongo da* → *egongo de**n***. Z końcówką *-la* byłoby to stwierdzenie („że jest”), a nie wątpliwość.'
 - id: ex-a2-ko5-fb1
   type: fill-in-blank
   prompt: POWTÓRKA · Gdy byłem/am dzieckiem, zwykle chodziłem/am na plażę = *txikia* ___, *hondartzara joan ohi nintzen*.

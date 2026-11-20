@@ -139,14 +139,14 @@ Se monte sus eth **-n** qu'aprengueres anit enes zehar-galderak (ves coma encaix
 
 ## Era rotina, ara damb costures
 
-> *Goizean, jaiki **eta gero**, me duche. Gosaldu **aurretik**, corrí pendent mieja ora. Lanera **noanean**, escoti un podcast. Lana bukatzen **dudanean**, hèi es crompes, e afaldu **ondoren**, guardam ua seria. Ohera joan **baino lehen**, prepare era ròba de deman. Enutjós? Non: **organisat**.* 😄
+> *Goizean, jaiki **eta gero**, dutxatu egiten naiz. Gosaldu **aurretik**, korrika egiten dut ordu erdiz. Lanera **noanean**, podcast bat entzuten dut. Lana bukatzen **dudanean**, erosketak egiten ditut, eta afaldu **ondoren**, serie bat ikusten dugu. Ohera joan **baino lehen**, biharko arropa prestatzen dut. Aspergarria? Ez: **antolatua**.* 😄
 
 ## Dialòg
 
-> *— **Noiz deituko dizut**? Quan trabalhes non podes responer, non?*
+> *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
 >
-> *— Non. Truca-me **lana bukatzen dudanean** — dempús des sies.*
+> *— Ez. Deitu **lana bukatzen dudanean** — seien **ondoren**.*
 >
-> *— D'acòrd. E quedam **afaldu aurretik** o **ondoren**?*
+> *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
 >
-> *— **Afaldu bitartean**! Preneram uns pintxos. 😄*
+> *— **Afaldu bitartean**! Pintxo batzuk hartuko ditugu. 😄*

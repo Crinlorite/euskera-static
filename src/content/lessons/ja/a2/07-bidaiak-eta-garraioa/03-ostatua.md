@@ -112,7 +112,7 @@ exercises:
 >
 > ***Zenbat da gaua**?* — 一泊いくらですか？
 
-このレッスンの文法ポイントは**目的格の-rako / -etarako**（〜のために）です。*gau baterako*（一泊のために）、*asteburu*rako*（週末のために）。A1で習った*norentzat*（誰のために）と似ていますが、こちらは時間や物に対して使います。
+このレッスンの文法ポイントは**目的格の-rako / -etarako**（〜のために）です。*gau baterako*（一泊のために）、*astebururako*（週末のために）。A1で習った*norentzat*（誰のために）と似ていますが、こちらは時間や物に対して使います。
 
 ## 受付にて
 

@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'Godzinę "o X" tworzy się za pomocą "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'Godzinę "o X" tworzy się za pomocą "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: Rano idę do pracy = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Ta lekcja łączy wszystko z tego rozdziału: godziny, pory dnia, czasowniki zwi
 
 ## "O godzinie X" — jak to powiedzieć
 
-Aby odpowiedzieć "o (godzinie)", weź godzinę w liczbie mnogiej i zamień *-ak* na **-etan** (z wstawionym `-e-`, z wyjątkiem tych, które już kończą się na samogłoskę):
+Aby odpowiedzieć "o (godzinie)", weź godzinę w liczbie mnogiej i zamień *-ak* na **-etan** (*hiru* i *lau* zachowują swoje -r-: *hiruretan*, *lauretan*):
 
 | Godzina | "O…" |
 |---|---|
@@ -108,7 +108,10 @@ Aby odpowiedzieć "o (godzinie)", weź godzinę w liczbie mnogiej i zamień *-ak
 | hamabiak | **hamabietan** |
 | ordu bata (pierwsza) | **ordu batean** (liczba pojedyncza, zachowuje swoją formę) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (o wpół do szóstej) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (o siódmej piętnaście) |
+| zazpiak eta bost | **zazpiak eta bostean** (o siódmej pięć: z minutami przypadek jest w liczbie pojedynczej) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (za kwadrans ósma) |
 
 ## Cały dzień — wzór

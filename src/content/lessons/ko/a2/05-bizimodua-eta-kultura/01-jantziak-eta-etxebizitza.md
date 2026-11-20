@@ -223,7 +223,7 @@ A1 레벨에서는 **의류**와 **집**에 대한 기본 어휘를 배웠습니
 >
 > *— Hartu hauek eta **proba itzazu**. **Aldagela** atze-atzean dago.*
 >
-> *(입어본 후)*
+> *(Probatu ondoren)*
 >
 > *— **Ondo geratzen zaizkit**. Zenbat balio dute?*
 >

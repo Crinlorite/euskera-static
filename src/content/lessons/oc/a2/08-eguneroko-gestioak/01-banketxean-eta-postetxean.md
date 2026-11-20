@@ -135,7 +135,7 @@ Naua unitat: **era vida practica**. Arrés non viatge cada dia, mès tot eth mon
 
 ## Avís de paquet (eth paperet dera discòrdia)
 
-> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 8:30etik 14:30era. **NANa ekarri**, mesedez.»* — Podetz arrecéber eth vòste paquet en corrèus, de deluns a diuendres, de 8:30 a 14:30. Portatz eth DNI, se vos platz.
+> *«Zure paketea **postetxean jaso dezakezu**, astelehenetik ostiralera, 08:30etik 14:30era. **NANa ekarri**, mesedez.»* — Podetz arrecéber eth vòste paquet en corrèus, de deluns a diuendres, de 8:30 a 14:30. Portatz eth DNI, se vos platz.
 
 Òc: orari de maitin. Bères causes son parières en totes es lengües. 😄
 

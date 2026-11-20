@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Dla "i pół" używa się "eta erdiak" (dosłownie "i połówki", w liczbie mnogiej). Liczba oznaczająca godzinę występuje bez "-ak" przed "eta erdiak": "bost eta erdiak".'
+  explanation: 'Dla "i pół" używa się "eta erdiak" (dosłownie "i połówki"; to tutaj stoi liczba mnoga). Liczba oznaczająca godzinę występuje bez "-ak" przed "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Jest trzecia i kwadrans. Jak to powiesz?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" oznacza "i kwadrans"; godzina jest w liczbie mnogiej ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" oznacza "i kwadrans"; godzina jest w liczbie mnogiej, a *hiru* przyjmuje formę *hirurak* (nie *hiruak*): *Hirurak eta laurden dira*. Poprawne jest też *hiru eta laurdenak*, z liczbą mnogą tylko w *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Jest za kwadrans dziewiąta. Jak to powiesz?
@@ -49,10 +49,11 @@ exercises:
   explanation: Minuty po pełnej godzinie podaje się za pomocą "eta + liczba". Pięć = bost.
 - id: ex-02-ee-fb2
   type: fill-in-blank
-  prompt: Jest za dziesięć czwarta = Lauak hamar ___ dira.
+  prompt: Jest za dziesięć czwarta = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" oznacza "za" w wyrażeniach dotyczących godziny.'
+  - gutxiago
+  explanation: '"Gutxi" oznacza "za" w wyrażeniach dotyczących godziny; dopuszczalne jest też "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: za kwadrans (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: za (w wyrażeniach o czasie)
-  - eu: Bostak eta erdiak dira
-    es: Jest piąta trzydzieści
   - eu: Hirurak eta laurden dira
     es: Jest trzecia i kwadrans
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ W języku baskijskim do określania minut służą trzy konstrukcje, które domi
 
 ## "I pół" — przypadek specjalny
 
-W odróżnieniu od reszty, "i pół" sprawia, że godzina również jest wyrażana w liczbie mnogiej — podobnie jak słowo "połowa":
+W odróżnieniu od reszty, przy "i pół" liczba mnoga nie stoi przy godzinie, tylko przy słowie "połowa": liczebnik zostaje bez *-ak*, a liczbę mnogą niesie *erdiak*. Czasownik pozostaje w liczbie mnogiej (*dira*), także o 1:30:
 
 | Godzina | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ W odróżnieniu od reszty, "i pół" sprawia, że godzina również jest wyraża
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Zwróć uwagę: przy *eta erdiak* liczba występuje **bez -ak** (*bost*, a nie *bostak*), ponieważ liczbę mnogą niesie już *erdiak*.
+> Zwróć uwagę: przy *eta erdiak* liczba występuje **bez -ak** (*bost eta erdiak*, a nie *bostak eta erdiak*), ponieważ liczbę mnogą niesie tylko *erdiak*. Tak samo o 1:30 i 2:30: *ordu bat eta erdiak*, *ordu bi eta erdiak* (nie *ordu bata…* ani *ordu biak…*). To forma *batua*; w Iparralde usłyszysz liczbę mnogą w obu miejscach (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "I kwadrans" i minuty po pełnej godzinie
 

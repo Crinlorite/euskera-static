@@ -134,8 +134,8 @@ Comeza a unidade viaxeira. Primeira parada: **os medios de transporte** e os ver
 
 > *— **Nola joaten zara** lanera?*
 >
-> *— Normalean **autobusez**, pero se fai bo tempo, **bizikletaz** ou **oinez**. E ti?*
+> *— Normalean **autobusez**, baina eguraldi ona badago, **bizikletaz** edo **oinez**. Eta zu?*
 >
-> *— Eu **trenez**. Da casa á estación teño cinco minutos **oinez**.*
+> *— Ni **trenez**. Etxetik geltokira bost minutu ditut **oinez**.*
 
 > **Nota:** en Euskal Herria o tren de proximidade de toda a vida é o *topoa* (o "toupa", entre Donostia e Hendaia, porque vai baixo terra) e *Euskotren* conecta a costa. Se oes *«topoa hartuko dugu»*, xa sabes: o trenciño verde.

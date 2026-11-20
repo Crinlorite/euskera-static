@@ -110,13 +110,13 @@ exercises:
 ## 为什么一点和两点是特殊的
 
 - **Ordu bata** (一点) 是**单数**，所以要用 **da**：*Ordu bata da*。
-- **Ordu biak** (两点) 前面会加上单词 *ordu*，因为单用 *biak* 可能会引起混淆——这是一些人为了更清晰而加上“ordu”的唯一时间点。其他时间（从三点开始）则不需要：*hirurak*、*laurak*、*bostak*……
+- **Ordu biak** (两点) 前面也要加上 *ordu*：单用 *biak* 还有“两个 / 两者都”的意思。这是标准巴斯克语 (*batua*) 中的常用说法（单用 *biak* 也可以）。从三点开始就不再加 *ordu* 了：*hirurak*、*laurak*、*bostak*……（不说 *hiru orduak*）。
 
 ## 后缀 `-ak`
 
 结尾的 **-ak** 是从哪里来的呢？它是巴斯克语的复数形式（你在 *gurasoak*、*aiton-amonak* 中见过）。这里也是一样：*bost* (五) → *bostak* (“五个点钟”) + *dira* (“是”)。
 
-> **注意：**很多人和说中文时一样，使用12小时制来报时。要区分上午或下午，只需在前面加上 *goizeko* (早上的) 或 *arratsaldeko* (下午的)：*goizeko zortziak* (早上八点)。我们将在第3课学习这个内容。
+> **注意：** 很多人和说中文时一样，使用12小时制来报时。要区分上午或下午，只需在前面加上 *goizeko* (早上的) 或 *arratsaldeko* (下午的)：*goizeko zortziak* (早上八点)。我们将在第3课学习这个内容。
 
 ## 练习
 

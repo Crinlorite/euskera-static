@@ -164,7 +164,7 @@ Une conversation typique lors de la planification :
 
 1. **Quantité + produit :** *kilo bat sagar*, *litro erdi esne*, *dozena bat arrautza*.
 2. **Demander poliment :** *Jarriko al didazu...?* / *Eman..., mesedez*.
-3. **Conclure l'achat :** *Zenbat da dena? — X euros. — Tori! — Eskerrik asko!*
+3. **Conclure l'achat :** *Zenbat da dena? — X euro. — Tori! — Eskerrik asko!*
 4. **Négation avec un produit :** *Ez dago ...rik* (avec le partitif).
 
 > **Note culturelle :** de nombreuses familles font les courses "du jour" dans les commerces de quartier (fruta-denda, harategia) et ne vont au supermarché que pour les produits emballés. C'est un mélange de canaux de distribution très courant, particulièrement visible le samedi matin dans n'importe quel village.

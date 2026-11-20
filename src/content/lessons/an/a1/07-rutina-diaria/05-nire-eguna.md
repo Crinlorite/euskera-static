@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'A hora "a las X" se forma con "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'A hora "a las X" se forma con "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: De maitins voi ta o treballo = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ Esta lección achunta tot lo d'a unidat: hora, momentos d'o día, verbos de ruti
 
 ## "A las X" — cómo dicir-lo
 
-Pa responder "a las (horas)", pilla a hora en plural y cambia *-ak* por **-etan** (con `-e-` intercalada sacando aquellas que ya rematan en vocal):
+Pa responder "a las (horas)", pilla a hora en plural y cambia *-ak* por **-etan** (*hiru* y *lau* mantienen a -r-: *hiruretan*, *lauretan*):
 
 | Hora | "A las…" |
 |---|---|
@@ -108,7 +108,10 @@ Pa responder "a las (horas)", pilla a hora en plural y cambia *-ak* por **-etan*
 | hamabiak | **hamabietan** |
 | ordu bata (la una) | **ordu batean** (singular, conserva a suya forma) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (a las cinco y meya) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (a las siet y cuarto) |
+| zazpiak eta bost | **zazpiak eta bostean** (a las siet y cinco: con minutos, o caso va en singular) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (a las ueito menos cuarto) |
 
 ## Un día completo — modelo

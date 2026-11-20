@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Para "e media" úsase "eta erdiak" (literalmente "e medias", tamén plural). O número vai sen "-ak" antes de "eta erdiak": "bost eta erdiak".'
+  explanation: 'Para "e media" úsase "eta erdiak" (literalmente "e medias"; o plural vai aquí). O número vai sen "-ak" antes de "eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Son as tres e cuarto. Como o dis?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" significa "e cuarto"; a hora vai en plural ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" significa "e cuarto"; a hora vai en plural, e *hiru* fai *hirurak* (non *hiruak*): *Hirurak eta laurden dira*. Tamén é correcto *hiru eta laurdenak*, co plural só en *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Son as nove menos cuarto. Como o dis?
@@ -52,7 +52,8 @@ exercises:
   prompt: Son as catro menos dez = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" significa "menos" nas expresións da hora.'
+  - gutxiago
+  explanation: '"Gutxi" significa "menos" nas expresións da hora; tamén se admite "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: menos cuarto (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: menos (nas expresións da hora)
-  - eu: Bostak eta erdiak dira
-    es: Son as cinco e media
   - eu: Hirurak eta laurden dira
     es: Son as tres e cuarto
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Para os minutos en éuscaro hai tres construcións que dominan case todo: **eta 
 
 ## "E media" — o caso especial
 
-A diferenza do resto, "e media" fai que a hora tamén se diga en plural — e a palabra "media" tamén:
+A diferenza do resto, con "e media" o plural non vai na hora senón na palabra "media": o número queda sen *-ak* e é *erdiak* a que o leva. O verbo segue en plural (*dira*), tamén á unha e media:
 
 | Hora | Éuscaro |
 |---|---|
@@ -93,7 +92,7 @@ A diferenza do resto, "e media" fai que a hora tamén se diga en plural — e a 
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Fíxate: con *eta erdiak* o número vai **sen o -ak** diante (*bost*, non *bostak*), porque o plural xa o leva *erdiak*.
+> Fíxate: con *eta erdiak* o número vai **sen o -ak** (*bost eta erdiak*, non *bostak eta erdiak*), porque o plural só o leva *erdiak*. Coa unha e coas dúas, igual: *ordu bat eta erdiak*, *ordu bi eta erdiak* (non *ordu bata…* nin *ordu biak…*). É a forma do batua; en Iparralde oirás o plural nos dous sitios (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "E cuarto" e minutos pasados
 

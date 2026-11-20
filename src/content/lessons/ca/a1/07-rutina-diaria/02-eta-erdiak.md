@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'Per a "i mitja" es fa servir "eta erdiak" (literalment "i mitges", també en plural). El número va sense "-ak" abans d''"eta erdiak": "bost eta erdiak".'
+  explanation: 'Per a "i mitja" es fa servir "eta erdiak" (literalment "i mitges"; el plural va aquí). El número va sense "-ak" abans d''"eta erdiak": "bost eta erdiak".'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: Són les tres i quart. Com ho dius?
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '"Eta laurden" significa "i quart"; l''hora va en plural ("hirurak"): *Hirurak eta laurden dira*.'
+  explanation: '"Eta laurden" significa "i quart"; l''hora va en plural, i *hiru* fa *hirurak* (no *hiruak*): *Hirurak eta laurden dira*. També és correcte *hiru eta laurdenak*, amb el plural només a *laurdenak*.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: Són les nou menys quart. Com ho dius?
@@ -52,7 +52,8 @@ exercises:
   prompt: Són les quatre menys deu = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: '"Gutxi" significa "menys" en expressions d''hora.'
+  - gutxiago
+  explanation: '"Gutxi" significa "menys" en expressions d''hora; també s''admet "gutxiago".'
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: menys quart (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: menys (en expressions d'hora)
-  - eu: Bostak eta erdiak dira
-    es: Són les cinc i mitja
   - eu: Hirurak eta laurden dira
     es: Són les tres i quart
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ Per als minuts en euskera hi ha tres construccions que ho dominen gairebé tot: 
 
 ## "I mitja": el cas especial
 
-A diferència de la resta, "i mitja" fa que l'hora també es digui en plural —i la paraula "mitja" també:
+A diferència de la resta, amb "i mitja" el plural no va a l'hora sinó a la paraula "mitja": el número es queda sense *-ak* i és *erdiak* la que el porta. El verb continua en plural (*dira*), també a la una i mitja:
 
 | Hora | Euskera |
 |---|---|
@@ -93,7 +92,7 @@ A diferència de la resta, "i mitja" fa que l'hora també es digui en plural —
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> Fixa-t'hi: amb *eta erdiak* el número va **sense el -ak** al davant (*bost*, no *bostak*), perquè el plural ja el porta *erdiak*.
+> Fixa-t'hi: amb *eta erdiak* el número va **sense el -ak** (*bost eta erdiak*, no *bostak eta erdiak*), perquè el plural només el porta *erdiak*. Amb la una i les dues, igual: *ordu bat eta erdiak*, *ordu bi eta erdiak* (no *ordu bata…* ni *ordu biak…*). És la forma del batua; a Iparralde sentiràs el plural als dos llocs (*bost orenak eta erdiak*, *bostak eta erdiak*).
 
 ## "I quart" i minuts passats
 

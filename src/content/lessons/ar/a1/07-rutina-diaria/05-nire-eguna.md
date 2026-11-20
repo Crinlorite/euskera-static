@@ -41,7 +41,7 @@ exercises:
   answers:
   - bederatzietan
   - Bederatzietan
-  explanation: 'صيغة "في الساعة X" تُبنى باستخدام "-(e)tan": *bederatzi* + *-etan* = *bederatzietan*.'
+  explanation: 'صيغة "في الساعة X" تُبنى باستخدام "-etan": *bederatzi* + *-etan* = *bederatzietan*.'
 - id: ex-05-ne-fb2
   type: fill-in-blank
   prompt: في الصباح أذهب إلى العمل = Goizean ___ joaten naiz.
@@ -98,7 +98,7 @@ exercises:
 
 ## "في الساعة X" — كيف تقولها
 
-للإجابة بـ "في الساعة..."، خذ الساعة بصيغة الجمع وغيّر *-ak* إلى **-etan** (مع إقحام `-e-` إلا في الكلمات التي تنتهي بالفعل بحرف متحرك):
+للإجابة بـ "في الساعة..."، خذ الساعة بصيغة الجمع وغيّر *-ak* إلى **-etan** (تحتفظ *hiru* و*lau* بحرف -r-: *hiruretan*، *lauretan*):
 
 | الساعة | "في الساعة..." |
 |---|---|
@@ -108,7 +108,10 @@ exercises:
 | hamabiak | **hamabietan** |
 | ordu bata (الواحدة) | **ordu batean** (مفرد، تحتفظ بشكلها) |
 | ordu biak | **ordu bietan** |
+| hirurak | **hiruretan** |
 | bost eta erdiak | **bost eta erdietan** (في الخامسة والنصف) |
+| zazpiak eta laurden | **zazpiak eta laurdenetan** (في السابعة والربع) |
+| zazpiak eta bost | **zazpiak eta bostean** (في السابعة وخمس دقائق: مع الدقائق تأتي الحالة الإعرابية بصيغة المفرد) |
 | zortziak laurden gutxi | **zortziak laurden gutxitan** (في الثامنة إلا ربع) |
 
 ## يوم كامل — نموذج

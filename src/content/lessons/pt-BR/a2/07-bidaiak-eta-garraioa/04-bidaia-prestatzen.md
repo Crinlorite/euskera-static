@@ -114,7 +114,7 @@ Uma viagem é aproveitada duas vezes: ao vivê-la e **ao planejá-la**. Esta li�
 
 ## A ordem do plano (conectores + futuro)
 
-> ***Lehenengo** helmuga aukeratuko dugu, **gero** txartelak erosiko ditugu, **ondoren** hotela erreserbatuko dugu eta **azkenik** maleta prestatuko dut… na véspera da viagem, como sempre.* 😄
+> ***Lehenengo** helmuga aukeratuko dugu, **gero** txartelak erosiko ditugu, **ondoren** hotela erreserbatuko dugu eta **azkenik** maleta prestatuko dut… bidaia bezperan, beti bezala.* 😄
 
 ## A mala
 

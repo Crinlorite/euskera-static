@@ -112,21 +112,21 @@ Wiesz już, jak dotrzeć na miejsce; teraz czas na **spanie**. Od hotelu po wiej
 >
 > ***Zenbat da gaua**?* — Ile kosztuje noc?
 
-Gramatycznym zagadnieniem tej lekcji jest **celownik (destinativus) -rako / -etarako** (dla/na): *gau baterako* (na jedną noc), *asteburu*rako* (na weekend). Poznałeś/aś go na poziomie A1 w formie *norentzat* (dla kogo); to jego kuzyn używany w odniesieniu do czasu i rzeczy.
+Gramatycznym zagadnieniem tej lekcji jest **celownik (destinativus) -rako / -etarako** (dla/na): *gau baterako* (na jedną noc), *astebururako* (na weekend). Poznałeś/aś go na poziomie A1 w formie *norentzat* (dla kogo); to jego kuzyn używany w odniesieniu do czasu i rzeczy.
 
 ## W recepcji
 
-> *— Arratsalde on! **Erreserba bat daukat**, na nazwisko Etxeberria.*
+> *— Arratsalde on! **Erreserba bat daukat**, Etxeberria izenean.*
 >
-> *— Tak, zgadza się: pokój dwuosobowy, trzy noce. **Paszport lub dowód osobisty**, proszę.*
+> *— Bai, hemen dago: gela bikoitza, hiru gau. **Pasaportea edo NANa**, mesedez.*
 >
-> *— Proszę bardzo. **Zer ordutan da gosaria**?*
+> *— Hemen duzu. **Zer ordutan da gosaria**?*
 >
-> *— Od ósmej do dziesiątej. **Hemen duzu giltza**: pokój 214, na drugim piętrze. **Igogailua** jest po prawej stronie.*
+> *— Zortzietatik hamarretara. **Hemen duzu giltza**: 214. gela, bigarren solairuan. **Igogailua** eskuinean dago.*
 >
-> *— Dziękuję! A, i jeszcze… **wifia badago**?*
+> *— Eskerrik asko! A, eta… **wifia badago**?*
 >
-> *— Tak, **doan**. Hasło jest razem z kluczem.*
+> *— Bai, **doan**. Pasahitza giltzarekin batera daukazu.*
 
 ## Prośby i pytania podczas pobytu
 

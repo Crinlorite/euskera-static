@@ -205,8 +205,8 @@ Eth "comprar**ie** / anar**ie** / ser**ie**" se fòrme damb **-ko/-go** (era mad
 
 > *— Olatz, **nahi zenuke** zinemara joan?*
 >
-> *— Òc, **gustatuko litzaidake**, mès s'aués temps... È fòrça trabalh aguesta setmana.*
+> *— Bai, **gustatuko litzaidake**, baina astia **banu**... Lan asko daukat astean.*
 >
-> *— Tranquila. Se vens deman, te comprarè ua entrada.*
+> *— Lasai. Bihar **etortzen bazara**, sarrera bat **erosiko dizut**.*
 
 > **Nòta pedagogica:** era *baldintza* ei un des punts a on A2 te daurís era pòrta a B1. En A2 oficiau ne n'i a pro damb **reconéisher-la** e produsir frases simples deth tipe *banintz... -ko nuke*. Era conjugason completa deth condicionau se trabalhe en B1.

@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (dispertar-se) → forma habitual ___ (con a -n de l'aspecto habitual).
   answers:
   - esnatzen
-  explanation: 'Os verbos remataus en consonant u en -tu/-du adhiben "-tzen" pa l''aspecto habitual: esna**tu** → esna**tzen**.'
+  explanation: 'Os verbos remataus en -tu/-du cambian ixa terminación por "-tzen" pa l''aspecto habitual: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (minchar) → forma habitual ___ (con a terminación de l'aspecto habitual).
@@ -109,9 +109,12 @@ Pa decir lo que fas cada día, o basco fa servir l'**aspecto habitual**: pillas 
 
 | Final d'o verbo | Sufixo habitual | Exemplo |
 |---|---|---|
-| consonant u `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (irregular) | **-tzen** u **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` dimpués de *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` en os atros casos | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Dos avisos: dimpués de *s, z, x, ts, tz, tx* tamién os verbos en *-tu* prenen **-ten** (*ahaztu* → *ahazten*); y os que no rematan en *-tu/-du*, *-n* ni *-i* adhiben **-tzen** sin más (*atera* → *ateratzen*).
 
 > O verbo *jan* (minchar) **no** se torna *janten* sino *jaten* — a "n" final desapareixe. Lo mesmo con *edan* → *edaten*, *egon* → *egoten*.
 

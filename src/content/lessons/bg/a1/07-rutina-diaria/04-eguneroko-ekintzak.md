@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (събуждам се) → обичайна форма ___ (с -n на обичайното действие).
   answers:
   - esnatzen
-  explanation: 'Глаголите, завършващи на съгласна или на -tu/-du, добавят "-tzen" за обичайно действие: esna**tu** → esna**tzen**.'
+  explanation: 'Глаголите, завършващи на -tu/-du, сменят това окончание с "-tzen" за обичайно действие: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (ям) → обичайна форма ___ (с окончанието за обичайно действие).
@@ -109,9 +109,12 @@ exercises:
 
 | Край на глагола | Наставка за обичайно действие | Пример |
 |---|---|---|
-| съгласна или `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (неправилни) | **-tzen** или **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` след *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` в останалите случаи | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Две забележки: след *s, z, x, ts, tz, tx* и глаголите на *-tu* приемат **-ten** (*ahaztu* → *ahazten*); а тези, които не завършват на *-tu/-du*, *-n* или *-i*, просто добавят **-tzen** (*atera* → *ateratzen*).
 
 > Глаголът *jan* (ям) **не** става *janten*, а *jaten* — крайното "n" изчезва. Същото е с *edan* → *edaten*, *egon* → *egoten*.
 

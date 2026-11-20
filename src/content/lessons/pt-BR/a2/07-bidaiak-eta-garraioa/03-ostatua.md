@@ -112,7 +112,7 @@ Você já sabe chegar; agora é hora de **dormir**. Do hotel à casa de campo (*
 >
 > ***Zenbat da gaua**?* — Quanto custa a diária?
 
-A parte gramatical da lição é o **destinativo -rako / -etarako** (para): *gau baterako* (para uma noite), *asteburu*rako* (para o fim de semana). Você viu isso no A1 com *norentzat* (para quem); este é o primo dele para tempos e coisas.
+A parte gramatical da lição é o **destinativo -rako / -etarako** (para): *gau baterako* (para uma noite), *astebururako* (para o fim de semana). Você viu isso no A1 com *norentzat* (para quem); este é o primo dele para tempos e coisas.
 
 ## Na recepção
 

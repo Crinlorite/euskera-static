@@ -38,7 +38,7 @@ exercises:
   prompt: Esnatu (acordar) → forma habitual ___ (com o -n do aspecto habitual).
   answers:
   - esnatzen
-  explanation: 'Verbos terminados em consoante ou em -tu/-du adicionam "-tzen" para o aspecto habitual: esna**tu** → esna**tzen**.'
+  explanation: 'Verbos terminados em -tu/-du trocam essa terminação por "-tzen" para o aspecto habitual: esna**tu** → esna**tzen**.'
 - id: ex-04-ee-fb2
   type: fill-in-blank
   prompt: Jan (comer) → forma habitual ___ (com a terminação do aspecto habitual).
@@ -109,9 +109,12 @@ Para dizer o que você faz todos os dias, o basco usa o **aspecto habitual**: vo
 
 | Final do verbo | Sufixo habitual | Exemplo |
 |---|---|---|
-| consoante ou `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
+| `-tu` / `-du` | **-tzen** | *esnatu* → *esnatzen* |
 | `-n` | **-ten** | *jan* → *jaten*; *egin* → *egiten* |
-| `-i` (irregular) | **-tzen** ou **-ten** | *etorri* → *etortzen*; *ikusi* → *ikusten* |
+| `-i` depois de *s, z, x, ts, tz, tx* | **-ten** | *ikusi* → *ikusten*; *jantzi* → *janzten* |
+| `-i` nos demais casos | **-tzen** | *etorri* → *etortzen*; *jaiki* → *jaikitzen* |
+
+> Dois avisos: depois de *s, z, x, ts, tz, tx*, os verbos em *-tu* também recebem **-ten** (*ahaztu* → *ahazten*); e os que não terminam em *-tu/-du*, *-n* nem *-i* simplesmente acrescentam **-tzen** (*atera* → *ateratzen*).
 
 > O verbo *jan* (comer) **não** se torna *janten*, mas sim *jaten* — o "n" final desaparece. O mesmo acontece com *edan* → *edaten*, *egon* → *egoten*.
 

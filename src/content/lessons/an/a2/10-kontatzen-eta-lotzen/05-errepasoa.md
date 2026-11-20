@@ -146,6 +146,6 @@ Puez decir que dominas l'A2 si sabes fer isto sin mirar:
 
 ## Zorionak!
 
-*Hemen bukatzen da A2 maila. **Bidaia ederra izan da**: orain euskaraz **bizi zaitezke** — en cosas basicas, pero **benetan**. A proxima aturada: **B1**. Astí **ikasiko duzu** a defender opinions, a contar historias mas largas y a fer o basco **zure-zurea**.*
+*Hemen bukatzen da A2 maila. **Bidaia ederra izan da**: orain euskaraz **bizi zaitezke** — oinarrizko gauzetan, baina **benetan**. Hurrengo geltokia: **B1**. Han **ikasiko duzu** iritziak defendatzen, istorio luzeagoak kontatzen eta euskara **zure-zurea** egiten.*
 >
-> ***Eskerrik asko** por emparar con nusatros — y recuerda: o basco no pierde casa. **Aurrera**!* 💪
+> ***Eskerrik asko** gurekin ikasteagatik — eta gogoratu: euskarak ez du etxerik galtzen. **Aurrera**!* 💪

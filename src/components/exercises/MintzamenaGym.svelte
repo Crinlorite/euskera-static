@@ -33,7 +33,14 @@
   let transcriber: any = null;
 
   // ── frases: 10 al azar del banco con audio de referencia ──
-  const ALL = Object.keys(M).filter((k) => k.split(' ').length >= 2 && k.length >= 8 && !k.startsWith('ls-'));
+  // Solo frases que se pueden decir tal cual: fuera cifras, la X de comodín
+  // (las claves del manifiesto van en minúsculas: «x euro balio du»,
+  // «x-an jaio nintzen»), «→», «=», «/», puntos suspensivos, paréntesis y
+  // morfemas sueltos («-(e)la»).
+  const NOT_SPEAKABLE = /\d|(^|[^\p{L}])x(?!\p{L})|[→=()\/]|\.{3}|…|^-|-$/iu;
+  const ALL = Object.keys(M).filter(
+    (k) => k.split(' ').length >= 2 && k.length >= 8 && !k.startsWith('ls-') && !NOT_SPEAKABLE.test(k.trim()),
+  );
   function pick10(): string[] {
     const a = [...ALL];
     for (let i = a.length - 1; i > 0; i--) {

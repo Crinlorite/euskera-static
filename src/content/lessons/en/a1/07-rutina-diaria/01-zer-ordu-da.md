@@ -110,7 +110,7 @@ To ask the time, you use **Zer ordu da?** ("what time is it?").
 ## Why one and two o'clock are special
 
 - **Ordu bata** (one o'clock) is **singular**, so you say it with **da**: *Ordu bata da*.
-- **Ordu biak** (two o'clock) has the word *ordu* before it because *biak* alone could be confusing — it's the only hour where many people add "ordu" for clarity. The others (from three o'clock onwards) stand alone: *hirurak*, *laurak*, *bostak*…
+- **Ordu biak** (two o'clock) also has *ordu* in front: on its own, *biak* can also mean "the two / both". This is the usual form in standard Basque (*batua*), although plain *biak* is accepted too. From three o'clock onwards, *ordu* is dropped: *hirurak*, *laurak*, *bostak*… (not *hiru orduak*).
 
 ## The `-ak` suffix
 

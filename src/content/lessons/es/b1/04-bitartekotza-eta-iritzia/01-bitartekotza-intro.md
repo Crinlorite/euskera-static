@@ -129,7 +129,7 @@ Una mediación bien estructurada suele tener tres bloques:
 ## Ejemplo trabajado
 
 > **Texto fuente** (imagínate un cartel de la biblioteca municipal):
-> *"Liburutegia uztailean ordutegi murriztuarekin egongo da: astelehenetik ostiralera, 9:00etatik 14:00etara. Asteburuetan itxita egongo da. Liburuak mailegatzeko gehienezko epea hilabete batera luzatuko da."*
+> *"Liburutegia uztailean ordutegi murriztuarekin egongo da: astelehenetik ostiralera, 09:00etatik 14:00etara. Asteburuetan itxita egongo da. Liburuak mailegatzeko gehienezko epea hilabete batera luzatuko da."*
 
 > **Tarea**: explicárselo a Ainara, que no tiene tiempo de pasarse y quiere saber lo esencial para sus vacaciones.
 

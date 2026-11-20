@@ -145,7 +145,7 @@ Ele se encaixa no **-n** que você aprendeu ontem nas zehar-galderak (viu como t
 
 > *— **Noiz deituko dizut**? Lanean zaudenean ezin duzu hartu, ezta?*
 >
-> *— Ez. Deitu **lana bukatzen dudanean** — seiak **ondoren**.*
+> *— Ez. Deitu **lana bukatzen dudanean** — seien **ondoren**.*
 >
 > *— Ados. Eta **afaldu aurretik** ala **ondoren** geratuko gara?*
 >

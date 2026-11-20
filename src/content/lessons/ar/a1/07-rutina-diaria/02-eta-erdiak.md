@@ -20,7 +20,7 @@ exercises:
   - Bostak erdi dira
   - Bost erdi
   answer: 1
-  explanation: 'للتعبير عن «والنصف» نستخدم «eta erdiak» (حرفيًا «وأنصاف»، وهي صيغة جمع). يأتي العدد بدون اللاحقة «-ak» قبل «eta erdiak»: «bost eta erdiak».'
+  explanation: 'للتعبير عن «والنصف» نستخدم «eta erdiak» (حرفيًا «وأنصاف»؛ وهنا تأتي علامة الجمع). يأتي العدد بدون اللاحقة «-ak» قبل «eta erdiak»: «bost eta erdiak».'
 - id: ex-02-ee-mc2
   type: multiple-choice
   prompt: إنها الثالثة والربع. كيف تقولها؟
@@ -28,9 +28,9 @@ exercises:
   - Hiruak eta laurden
   - Hiruak eta laurdenak dira
   - Hirurak eta laurden dira
-  - Hiru eta laurdenak
+  - Laurden eta hirurak dira
   answer: 2
-  explanation: '«Eta laurden» تعني «والربع»؛ تأتي الساعة بصيغة الجمع («hirurak»): *Hirurak eta laurden dira*.'
+  explanation: '«Eta laurden» تعني «والربع»؛ تأتي الساعة بصيغة الجمع، و*hiru* تصبح *hirurak* (وليس *hiruak*): *Hirurak eta laurden dira*. ويصح أيضًا قول *hiru eta laurdenak*، حيث تأتي صيغة الجمع في *laurdenak* وحدها.'
 - id: ex-02-ee-mc3
   type: multiple-choice
   prompt: إنها التاسعة إلا ربعًا. كيف تقولها؟
@@ -52,7 +52,8 @@ exercises:
   prompt: إنها الرابعة إلا عشر دقائق = Laurak hamar ___ dira.
   answers:
   - gutxi
-  explanation: «Gutxi» تعني «إلا» عند الإخبار بالوقت.
+  - gutxiago
+  explanation: «Gutxi» تعني «إلا» عند الإخبار بالوقت؛ وتُقبل أيضًا «gutxiago».
 - id: ex-02-ee-fc
   type: flashcards
   cards:
@@ -64,8 +65,6 @@ exercises:
     es: إلا ربعًا (2:45 = hirurak laurden gutxi)
   - eu: gutxi
     es: إلا (عند الإخبار بالوقت)
-  - eu: Bostak eta erdiak dira
-    es: إنها الخامسة والنصف
   - eu: Hirurak eta laurden dira
     es: إنها الثالثة والربع
   - eu: Bederatziak laurden gutxi dira
@@ -82,7 +81,7 @@ exercises:
 
 ## «والنصف» — الحالة الخاصة
 
-على خلاف البقية، فإن «والنصف» تجعل الساعة تُقال أيضًا بصيغة الجمع — وكذلك كلمة «نصف»:
+على خلاف البقية، مع «والنصف» لا تأتي صيغة الجمع على الساعة بل على كلمة «نصف»: يبقى العدد بدون *-ak*، وكلمة *erdiak* هي التي تحمل الجمع. ويبقى الفعل بصيغة الجمع (*dira*)، حتى في الواحدة والنصف:
 
 | الساعة | اللغة الباسكية |
 |---|---|
@@ -93,7 +92,7 @@ exercises:
 | 5:30 | **Bost eta erdiak dira** |
 | 7:30 | **Zazpi eta erdiak dira** |
 
-> لاحظ: مع *eta erdiak* يأتي العدد **بدون اللاحقة -ak** قبله (*bost*، وليس *bostak*)، لأن كلمة *erdiak* هي التي تأتي بصيغة الجمع.
+> لاحظ: مع *eta erdiak* يأتي العدد **بدون اللاحقة -ak** (*bost eta erdiak*، وليس *bostak eta erdiak*)، لأن صيغة الجمع تحملها *erdiak* وحدها. والأمر نفسه مع الواحدة والثانية: *ordu bat eta erdiak*، *ordu bi eta erdiak* (وليس *ordu bata…* ولا *ordu biak…*). هذه هي صيغة الباسكية الموحدة (*batua*)؛ أما في الباسك الشمالي (Iparralde) فستسمع الجمع في الموضعين (*bost orenak eta erdiak*، *bostak eta erdiak*).
 
 ## «والربع» والدقائق بعد تمام الساعة
 
